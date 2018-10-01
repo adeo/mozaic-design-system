@@ -1,7 +1,7 @@
 # Adeo's Design System 
 > ADEO - LMF - LMBR | Design System Team
 
-**Why:** To speed up the workflows of designers and developers that will have easy access to well designed and documented visual components..
+**Why:** The goal is to help speed up the workflow of designers and developers by providing well designed, developed and documented visual components.
 
 **What:** Source of truth which groups all the elements that will allow the teams to design, realize and develop a product
 
