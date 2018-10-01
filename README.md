@@ -1,5 +1,4 @@
 # Adeo's Design System 
-[Repository logo (optional)] [Repo badges (optional)]
 > ADEO - LMF - LMBR Design System Team
 
 **Why:** To speed up the workflows of designers and developers that will have easy access to well designed and documented visual components..
@@ -30,7 +29,7 @@ wip
 
 ## Contributing
 
-[wip]
+wip
 
 
 ## Maintainers
