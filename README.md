@@ -1,7 +1,7 @@
 # Adeo's Design System 
 > ADEO - LMF - LMBR | Design System Team
 
-**Why:** The goal is to help speed up the workflow of designers and developers by providing well designed, developed and documented visual components.
+**Why:** The goal is to speed up the workflow of designers and developers by providing well designed, developed and documented visual components.
 
 **What:** Source of truth which groups all the elements that will allow the teams to design, realize and develop a product
 
@@ -15,7 +15,10 @@ A design system unites product teams around a common visual language. It reduces
 
 ## Concepts
 
-Our design system is being thought with the [Atomic Design methodology](http://bradfrost.com/blog/post/atomic-web-design/)
+Our design system is being thought with the [Atomic Design methodology](http://bradfrost.com/blog/post/atomic-web-design/), Inspired on the design systems created all over adeo like 
+- (Garden, from Leroy Merlin Brazil)[http://styleguide.leroymerlin.com.br],
+- (Design System Leroy Merlin France)[http://design-system.leroymerlin.fr],
+-  Cosmos, from Leroy Merlin Spain and others.
 
 Other design systems you may like to visit: [http://designsystemrepo.com](http://designsystemrepo.com)
 
