@@ -10,15 +10,15 @@
 ## Summary
 
 A design system unites product teams around a common visual language. It reduces design debt, accelerates the design process, and builds bridges between teams working in concert to bring products to life.
-[we've just started, so videos and screenshots will be available soon...]
+we've just started, so videos and screenshots will be available soon...
 [What's a design system?](https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969)
 
 ## Concepts
 
 Our design system is being thought with the [Atomic Design methodology](http://bradfrost.com/blog/post/atomic-web-design/), Inspired on the design systems created all over adeo like 
-- (Garden, from Leroy Merlin Brazil)[http://styleguide.leroymerlin.com.br],
-- (Design System Leroy Merlin France)[http://design-system.leroymerlin.fr],
--  Cosmos, from Leroy Merlin Spain and others.
+- [Garden, from Leroy Merlin Brazil](http://styleguide.leroymerlin.com.br),
+- [Design System Leroy Merlin France](http://design-system.leroymerlin.fr),
+- Cosmos, from Leroy Merlin Spain and others.
 
 Other design systems you may like to visit: [http://designsystemrepo.com](http://designsystemrepo.com)
 
