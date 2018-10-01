@@ -34,8 +34,7 @@ wip
 
 ## Maintainers
 
-Tiago Rosa <tiago.rosa@adeo.com>
-Julien Boucry <julien.boucry@ext.leroymerlin.fr>
-Nathan Damie <nathan.damie@ext.adeo.com>
-Gael Boyenval <gaelboyenval@icloud.com>
-Jonathan Jalouzot <jjalouzot@eleven-labs.com>
+- Tiago Rosa <tiago.rosa@adeo.com>
+- Julien Boucry <julien.boucry@ext.leroymerlin.fr>
+- Nathan Damie <nathan.damie@ext.adeo.com>
+
