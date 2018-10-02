@@ -37,7 +37,44 @@ wip
 
 ## Maintainers
 
-- Tiago Rosa <tiago.rosa@adeo.com>
-- Julien Boucry <julien.boucry@ext.leroymerlin.fr>
-- Nathan Damie <nathan.damie@ext.adeo.com>
+#### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
+**Role for the project** :
+- design system front-end lead
+- maintainer of the source code
+- keep consistency in code base
+- keep consistency between code and design
+- review code updates
+- help keep things flowing and useful for the differents BU
+**Timezone :** Paris - France
+**Availability :** 100%
+**bio and interests :**
+UI designer and Front end developer freelance since 2007, I’ve built a solid experience creating HTML/CSS frameworks. I’ve worked with several design systems, and try build a solid expertise in that area.
+I’m into lean approach, and I like to work with react and javascript too.
+On a personal level, I love boxing, hiking and photography.
+**Contact:** 
+AdeoDev : 
+
+
+#### [Julien Boucry] (https://www.linkedin.com/in/julien-boucry-48747467)
+**Role for the project :** 
+- Design system UI lead
+- arbitrate the patterns inputs and additions to the design system
+
+**Timezone :** Lile - France
+
+**Availability :** x%
+
+**bio and interests :**
+
+#### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
+**Role for the project :**
+- DevOps how to share and deploy easily
+- code quality automation and continuous deployment
+
+**Timezone :** Paris - France
+**Availability :** 50%
+**bio and interests :**
+
+
+
 
