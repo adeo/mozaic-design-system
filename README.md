@@ -37,7 +37,7 @@ wip
 
 ## Maintainers
 
-#### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
+### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
 
 **Role for the project** :
 
@@ -60,7 +60,7 @@ On a personal level, I love boxing, hiking and photography.
 AdeoDev : Gael Boyenval
 
 
-#### [Julien Boucry] (https://www.linkedin.com/in/julien-boucry-48747467)
+### [Julien Boucry](https://www.linkedin.com/in/julien-boucry-48747467)
 
 **Role for the project :** 
 - Design system UI lead
@@ -72,7 +72,7 @@ AdeoDev : Gael Boyenval
 
 **Contact:** AdeoDev : Julien Boucry
 
-#### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
+### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
 
 **Role for the project :**
 - DevOps how to share and deploy easily
@@ -83,7 +83,8 @@ AdeoDev : Gael Boyenval
 **bio and interests :**
 
 ## Contributors
-#### [Nathan Damie](https://www.linkedin.com/in/ndamie/)
+
+### [Nathan Damie](https://www.linkedin.com/in/ndamie/)
 
 **Role for the project :** contributor to the source code 
 
@@ -92,7 +93,7 @@ AdeoDev : Gael Boyenval
 **Contact:** AdeoDev : @nathandm
 
 
-#### [Leandro Grillo](https://www.linkedin.com/in/leandrocgrillo/)
+### [Leandro Grillo](https://www.linkedin.com/in/leandrocgrillo/)
 **Role for the project :**
 - contributor to the source code
 - Front-end consulting
@@ -101,7 +102,7 @@ AdeoDev : Gael Boyenval
 
 **Contact :** Leandro Grillo
 
-#### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
+### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
 
 **Role for the project :**
 
@@ -110,7 +111,7 @@ AdeoDev : Gael Boyenval
 
 **Timezone :** Lille - France **Availability :** X%
 
-#### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
+### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
 
 **Role for the project :** Product owner / Backlog prioritization / Sync with stakeholders
 
