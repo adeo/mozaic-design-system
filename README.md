@@ -38,41 +38,58 @@ wip
 ## Maintainers
 
 #### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
+
 **Role for the project** :
+
 - design system front-end lead
 - maintainer of the source code
 - keep consistency in code base
 - keep consistency between code and design
 - review code updates
 - help keep things flowing and useful for the differents BU
+
 **Timezone :** Paris - France **Availability :** 100%
+
 **bio and interests :**
+
 UI designer and Front end developer freelance since 2007, I’ve built a solid experience creating HTML/CSS frameworks. I’ve worked with several design systems, and try build a solid expertise in that area.
 I’m into lean approach, and I like to work with react and javascript too.
 On a personal level, I love boxing, hiking and photography.
+
 **Contact:** 
 AdeoDev : Gael Boyenval
 
 
 #### [Julien Boucry] (https://www.linkedin.com/in/julien-boucry-48747467)
+
 **Role for the project :** 
 - Design system UI lead
 - arbitrate the patterns inputs and additions to the design system
-**Timezone :** Lile - France **Availability :** x% **bio and interests :** **Contact:** AdeoDev : Julien Boucry
+
+**Timezone :** Lile - France **Availability :** x%
+
+**bio and interests :**
+
+**Contact:** AdeoDev : Julien Boucry
 
 #### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
+
 **Role for the project :**
 - DevOps how to share and deploy easily
 - code quality automation and continuous deployment
 
-**Timezone :** Paris - France **Availability :** 50% **bio and interests :**
+**Timezone :** Paris - France **Availability :** 50% 
+
+**bio and interests :**
 
 ## Contributors
 #### [Nathan Damie](https://www.linkedin.com/in/ndamie/)
 
 **Role for the project :** contributor to the source code 
 
-**Timezone :** Lille - France **Availability :** X% **Contact:** AdeoDev : @nathandm
+**Timezone :** Lille - France **Availability :** X% 
+
+**Contact:** AdeoDev : @nathandm
 
 
 #### [Leandro Grillo](https://www.linkedin.com/in/leandrocgrillo/)
@@ -87,12 +104,14 @@ AdeoDev : Gael Boyenval
 #### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
 
 **Role for the project :**
+
 - contributor to the source code
 - Front-end consulting
 
 **Timezone :** Lille - France **Availability :** X%
 
 #### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
+
 **Role for the project :** Product owner / Backlog prioritization / Sync with stakeholders
 
 **Timezone :** Lille - France **Availability :** 90%
