@@ -52,19 +52,17 @@ UI designer and Front end developer freelance since 2007, I’ve built a solid e
 I’m into lean approach, and I like to work with react and javascript too.
 On a personal level, I love boxing, hiking and photography.
 **Contact:** 
-AdeoDev : 
+AdeoDev : Gael Boyenval
 
 
 #### [Julien Boucry] (https://www.linkedin.com/in/julien-boucry-48747467)
 **Role for the project :** 
 - Design system UI lead
 - arbitrate the patterns inputs and additions to the design system
-
 **Timezone :** Lile - France
-
 **Availability :** x%
-
 **bio and interests :**
+**Contact:** AdeoDev : Julien Boucry
 
 #### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
 **Role for the project :**
@@ -74,6 +72,31 @@ AdeoDev :
 **Timezone :** Paris - France
 **Availability :** 50%
 **bio and interests :**
+
+## Contributors
+#### [Nathan Damie](https://www.linkedin.com/in/ndamie/)
+**Role for the project :** contributor to the source code 
+**Timezone :** Lille - France
+**Availability :** X%
+**Contact:** AdeoDev : @nathandm
+
+#### [Leandro Grillo](https://www.linkedin.com/in/leandrocgrillo/)
+**Role for the project :**
+- contributor to the source code
+- Front-end consulting
+
+**Timezone :** Sao Paulo - Brazil
+**Availability :** X%
+Contact : Leandro Grillo
+
+#### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
+**Role for the project :**
+- contributor to the source code
+- Front-end consulting
+
+**Timezone :** Lille - France
+**Availability :** X%
+
 
 
 
