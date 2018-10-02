@@ -45,8 +45,7 @@ wip
 - keep consistency between code and design
 - review code updates
 - help keep things flowing and useful for the differents BU
-**Timezone :** Paris - France
-**Availability :** 100%
+**Timezone :** Paris - France **Availability :** 100%
 **bio and interests :**
 UI designer and Front end developer freelance since 2007, I’ve built a solid experience creating HTML/CSS frameworks. I’ve worked with several design systems, and try build a solid expertise in that area.
 I’m into lean approach, and I like to work with react and javascript too.
@@ -59,43 +58,45 @@ AdeoDev : Gael Boyenval
 **Role for the project :** 
 - Design system UI lead
 - arbitrate the patterns inputs and additions to the design system
-**Timezone :** Lile - France
-**Availability :** x%
-**bio and interests :**
-**Contact:** AdeoDev : Julien Boucry
+**Timezone :** Lile - France **Availability :** x% **bio and interests :** **Contact:** AdeoDev : Julien Boucry
 
 #### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
 **Role for the project :**
 - DevOps how to share and deploy easily
 - code quality automation and continuous deployment
 
-**Timezone :** Paris - France
-**Availability :** 50%
-**bio and interests :**
+**Timezone :** Paris - France **Availability :** 50% **bio and interests :**
 
 ## Contributors
 #### [Nathan Damie](https://www.linkedin.com/in/ndamie/)
+
 **Role for the project :** contributor to the source code 
-**Timezone :** Lille - France
-**Availability :** X%
-**Contact:** AdeoDev : @nathandm
+
+**Timezone :** Lille - France **Availability :** X% **Contact:** AdeoDev : @nathandm
+
 
 #### [Leandro Grillo](https://www.linkedin.com/in/leandrocgrillo/)
 **Role for the project :**
 - contributor to the source code
 - Front-end consulting
 
-**Timezone :** Sao Paulo - Brazil
-**Availability :** X%
-Contact : Leandro Grillo
+**Timezone :** Sao Paulo - Brazil **Availability :** X%
+
+**Contact :** Leandro Grillo
 
 #### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
+
 **Role for the project :**
 - contributor to the source code
 - Front-end consulting
 
-**Timezone :** Lille - France
-**Availability :** X%
+**Timezone :** Lille - France **Availability :** X%
+
+#### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
+**Role for the project :** Product owner / Backlog prioritization / Sync with stakeholders
+
+**Timezone :** Lille - France **Availability :** 90%
+
 
 
 
