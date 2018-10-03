@@ -1,4 +1,6 @@
 # Adeo's Design System 
+A `soon to be` modular design system that supports innovation and aims for productivity
+
 > ADEO - LMF - LMBR | Design System Team
 
 **Why:** The goal is to speed up the workflow of designers and developers by providing well designed, developed and documented visual components.
@@ -11,6 +13,11 @@
 
 A design system unites product teams around a common visual language. It reduces design debt, accelerates the design process, and builds bridges between teams working in concert to bring products to life.
 we've just started, so videos and screenshots will be available soon...
+
+<img width="1256" alt="screen shot 2018-10-03 at 13 19 41" src="https://user-images.githubusercontent.com/5315842/46407386-12e16b80-c70f-11e8-9aae-3a4de025370e.png">
+
+
+
 [What's a design system?](https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969)
 
 ## Concepts
