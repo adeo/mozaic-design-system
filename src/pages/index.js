@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 const IndexPage = ({ data}) => {
-  console.log(JSON.stringify(data, 0, 2))
   
   return (
   <Layout>
