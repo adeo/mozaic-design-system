@@ -5,6 +5,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
+      resolve: "gatsby-source-directory-tree",
+      options: {
+        path: 'src/pages'
+      }
+    },
+    {
       resolve: `gatsby-plugin-sass`,
       options: {
         includePaths: ['src/pages/**/*.scss'],
