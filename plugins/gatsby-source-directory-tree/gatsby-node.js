@@ -40,16 +40,16 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest, createParen
     }
 
     const processChildren = (children, parentNode) => {
-        let childrenNode = [];
+        let childrenNodes = [];
         children.forEach(element => {
             const nodeData = processDirectoryTree(element, parentNode);
             createNode(nodeData);
 
-            const { path, name, size, type, id } = nodeData;
-            childrenNode.push({ path, name, size, type, id });
+            const { path, name, size, type, id, childrenNode } = nodeData;
+            childrenNodes.push({ path, name, size, type, id, childrenNode });
         });
 
-        return childrenNode;
+        return childrenNodes;
     }
 
     const nodeData = processDirectoryTree(tree);
