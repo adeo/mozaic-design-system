@@ -39,9 +39,9 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          {
-            resolve: 'gatsby-remark-component',
-          },
+          'gatsby-remark-design-system',
+          'gatsby-remark-component',
+          'gatsby-remark-prismjs',
         ],
       },
     },

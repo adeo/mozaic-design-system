@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Prism from 'prismjs'
 
 const jsPattern = `
 console.log('hello')
@@ -43,6 +44,13 @@ export class Pattern extends Component {
     this.updateIframe()
     this.isClipBoardAPIAvailable()
   }
+
+  getLanguage = ext =>
+    ({
+      js: 'javascript',
+      html: 'html',
+      css: 'css',
+    }[ext])
 
   updateIframe = () => {
     const pattern = this.patterns[this.props.path]
@@ -126,18 +134,22 @@ export class Pattern extends Component {
         </div>
         {Object.keys(this.patterns[path]).map(codeSampleName => (
           <button
+            key={`${this.patterns[path]}${codeSampleName}`}
             style={{
               backgroundColor:
                 this.state.currentCodeSample === codeSampleName
                   ? 'blue'
                   : '#999',
             }}
-            onClick={() =>
-              this.setState({
-                currentCodeSample: codeSampleName,
-                copied: false,
-              })
-            }
+            onClick={() => {
+              this.setState(
+                {
+                  currentCodeSample: codeSampleName,
+                  copied: false,
+                },
+                Prism.highlightAll
+              )
+            }}
           >
             {codeSampleName}
           </button>
@@ -151,7 +163,11 @@ export class Pattern extends Component {
         {currentCodeSample && (
           <div>
             <pre>
-              <code>{this.patterns[path][currentCodeSample]}</code>
+              <code
+                className={`language-${this.getLanguage(currentCodeSample)}`}
+              >
+                {this.patterns[path][currentCodeSample]}
+              </code>
             </pre>
           </div>
         )}
