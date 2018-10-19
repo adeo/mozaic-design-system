@@ -2,8 +2,20 @@ import React from 'react'
 import rehypeReact from 'rehype-react'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
+import styled, { css } from 'styled-components'
+
 import Layout from '../components/layout'
 import Pattern from '../components/pattern'
+
+const Container = styled.div`
+  padding: 15px 30px;
+
+  ${({ separator }) =>
+    separator &&
+    css`
+      border-bottom: solid 1px #f5f5f5;
+    `};
+`
 
 export default ({ data }) => {
   const renderAst = new rehypeReact({
@@ -37,15 +49,20 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>{parentTitle}</h1>
-        <hr />
-        {samePageTabs.map(({ node }) => (
-          <div style={{ display: 'inline-block', padding: 5 }}>
-            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-          </div>
-        ))}
-        <h2>{post.frontmatter.title}</h2>
-        <div>{renderAst(post.htmlAst)}</div>
+        <Container separator>
+          <h1>{parentTitle}</h1>
+        </Container>
+        <Container separator>
+          {samePageTabs.map(({ node }) => (
+            <div style={{ display: 'inline-block', paddingRight: 10 }}>
+              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+            </div>
+          ))}
+        </Container>
+        <Container>
+          <h2>{post.frontmatter.title}</h2>
+          <div>{renderAst(post.htmlAst)}</div>
+        </Container>
       </div>
     </Layout>
   )

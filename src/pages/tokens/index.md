@@ -1,7 +1,7 @@
 ---
-title: 'Tokens title'
+title: 'Tokens'
 date: '2017-08-10'
-order: 0
+order: 2
 ---
 
 ## hello

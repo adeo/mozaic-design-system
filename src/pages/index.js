@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <h1>Adeo Deisign system</h1>
+      <h1>Garden</h1>
       <Link to="/page-2/">Go to page 2</Link>
 
       <hr />
