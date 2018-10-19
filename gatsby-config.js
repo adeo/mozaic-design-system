@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Leroy Merlin design system',
+    title: 'Garden',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-source-directory-tree",
+      resolve: 'gatsby-source-directory-tree',
       options: {
-        path: 'src/pages'
-      }
+        path: 'src/pages',
+      },
     },
     {
       resolve: `gatsby-plugin-sass`,

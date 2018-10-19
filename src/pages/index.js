@@ -4,8 +4,6 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 const IndexPage = ({ data }) => {
-  console.log(JSON.stringify(data, 0, 2))
-
   return (
     <Layout>
       <h1>Adeo Deisign system</h1>
@@ -15,7 +13,9 @@ const IndexPage = ({ data }) => {
       <ul />
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <li>
-          <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+          <Link to={node.fields.slug}>
+            {node.frontmatter.title} / {node.fields.dirName}
+          </Link>
         </li>
       ))}
     </Layout>
@@ -37,6 +37,12 @@ export const query = graphql`
           }
           fields {
             slug
+            fileName {
+              name
+              base
+              relativePath
+              extension
+            }
           }
           excerpt
         }

@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Menu from './Menu'
-import './layout.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -14,6 +13,44 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+          }
+        }
+        directoryTree(path: { eq: "src/pages" }) {
+          path
+          name
+          type
+          childrenNode {
+            path
+            name
+            type
+            childrenNode {
+              path
+              name
+              type
+            }
+          }
+        }
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+          totalCount
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                date(formatString: "DD MMMM, YYYY")
+                order
+              }
+              fields {
+                slug
+                fileName {
+                  name
+                  base
+                  relativePath
+                  extension
+                }
+              }
+              excerpt
+            }
           }
         }
       }
@@ -30,7 +67,12 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Menu data={data.allFile} />
+        <Menu
+          data={{
+            directoryTree: data.directoryTree,
+            allMarkdownRemark: data.allMarkdownRemark,
+          }}
+        />
         <div
           style={{
             margin: '0 auto',
