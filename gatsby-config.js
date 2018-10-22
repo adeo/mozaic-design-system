@@ -6,6 +6,18 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
+      resolve: 'gatsby-source-file',
+      options: {
+        path: 'src/pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-directory-tree',
+      options: {
+        path: 'src/pages',
+      },
+    },
+    {
       resolve: 'gatsby-source-directory-tree',
       options: {
         path: 'src/pages',
