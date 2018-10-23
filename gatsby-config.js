@@ -18,12 +18,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-directory-tree',
-      options: {
-        path: 'src/pages',
-      },
-    },
-    {
       resolve: `gatsby-plugin-sass`,
       options: {
         includePaths: ['src/pages/**/*.scss'],
@@ -46,6 +40,7 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src`,
+        ignore: [`**/\.pattern.*`], // ignore files starting with a dot
       },
     },
     {

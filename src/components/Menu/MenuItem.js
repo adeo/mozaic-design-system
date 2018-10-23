@@ -9,10 +9,11 @@ const MenuLink = styled(Link)`
   padding: 6px 15px;
 `
 
-const MenuItem = ({ to, content }) => <MenuLink to={to}>{content}</MenuLink>
+const MenuItem = ({ to, content }) =>
+  to ? <MenuLink to={to}>{content}</MenuLink> : <p>{content}</p>
 
 MenuItem.propTypes = {
-  to: PropTypes.string.isRequired,
+  to: PropTypes.string,
   content: PropTypes.string.isRequired,
 }
 

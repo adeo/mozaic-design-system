@@ -59,18 +59,33 @@ export default class Menu extends PureComponent {
 
     // return a directory tree with only directories
     const filterDirectories = subTree =>
-      subTree.filter(node => node.type === 'directory').map(dir => ({
-        path: dir.path.replace('src/', ''), // normalise path to compare between markdowns and dirtree
-        children:
-          dir.childrenNode && dir.childrenNode.length > 0
-            ? filterDirectories(dir.childrenNode)
-            : [],
-      }))
+      subTree
+        // filter what's not a directory and the patterns folders
+        .filter(node => node.type === 'directory' && !node.name.includes('--'))
+        .map(dir => ({
+          path: dir.path.replace('src/', ''), // normalise path to compare between markdowns and dirtree
+          children:
+            dir.childrenNode && dir.childrenNode.length > 0
+              ? filterDirectories(dir.childrenNode)
+              : [],
+        }))
 
     const MenuBuilderIterator = (dirs, indexes) =>
       dirs
         .map(dir => {
-          const dirIndex = indexes.find(index => index.dirPath === dir.path)
+          let dirIndex
+
+          const relatedIndex =
+            indexes.find(index => index.dirPath === dir.path) || undefined
+
+          if (relatedIndex) {
+            dirIndex = relatedIndex
+          } else {
+            dirIndex = {
+              dirPath: dir.path,
+              title: dir.path.split('/').pop(),
+            }
+          }
 
           if (dir.children && dir.children.length > 0) {
             dirIndex.children = MenuBuilderIterator(dir.children, indexes)
@@ -90,8 +105,6 @@ export default class Menu extends PureComponent {
       this.props.data.allMarkdownRemark.edges,
       this.props.data.directoryTree.childrenNode
     )
-
-    console.log(JSON.stringify(menuArray, 0, 2))
 
     return (
       <Container>

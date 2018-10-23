@@ -1,8 +1,11 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "Garden",
+  "description": "leroy merlin design system",
+  "version": "0.0.0",
+  "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
+  "engines": {
+    "node": ">10"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
     "directory-tree": "^2.1.0",
@@ -17,7 +20,7 @@
     "gatsby-remark-prismjs": "^3.0.2",
     "gatsby-source-filesystem": "^2.0.3",
     "gatsby-transformer-remark": "^2.1.7",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.9.4",
     "prism-themes": "^1.0.1",
     "prismjs": "^1.15.0",
     "react": "^16.5.1",
