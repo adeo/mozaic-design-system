@@ -1,17 +1,7 @@
 import React, { Component } from 'react'
 import Prism from 'prismjs'
 
-const jsPattern = `
-console.log('hello')
-`
-
-const htmlPattern = `
-<button class='ca-button'>my button</button>
-`
-
-const cssPattern = `
-.ca-button { color: pink !important}
-`
+import PatternCodeSample from './PatternCodeSample'
 
 export class Pattern extends Component {
   constructor(props) {
@@ -32,28 +22,32 @@ export class Pattern extends Component {
     }
   `
 
-  patterns = {
-    'pages/hello/button': {
-      css: cssPattern,
-      html: htmlPattern,
-      js: jsPattern,
-    },
-  }
-
   componentDidMount() {
     this.updateIframe()
     this.isClipBoardAPIAvailable()
   }
 
+  showCode = codeSampleName => {
+    this.setState(
+      {
+        currentCodeSample: codeSampleName,
+        copied: false,
+      },
+      Prism.highlightAll
+    )
+  }
+
   getLanguage = ext =>
     ({
       js: 'javascript',
+      json: 'JSON',
       html: 'html',
       css: 'css',
+      scss: 'css',
     }[ext])
 
   updateIframe = () => {
-    const pattern = this.patterns[this.props.path]
+    const pattern = this.props.data.node.codes
     const iframe = this.refs.iframe
     const document = iframe.contentDocument
     const head = document.getElementsByTagName('head')[0]
@@ -90,7 +84,7 @@ export class Pattern extends Component {
 
   copyCodeToClipBoard = () => {
     const { currentCodeSample } = this.state
-    const pattern = this.patterns[this.props.path]
+    const pattern = this.props.data.node.codes
     const codeToCopy = pattern[currentCodeSample]
 
     navigator.clipboard.writeText(codeToCopy).then(
@@ -111,7 +105,7 @@ export class Pattern extends Component {
       copied,
     } = this.state
 
-    const { path } = this.props
+    const pattern = this.props.data.node.codes
 
     return (
       <div>
@@ -132,45 +126,15 @@ export class Pattern extends Component {
             ref="iframe"
           />
         </div>
-        {Object.keys(this.patterns[path]).map(codeSampleName => (
-          <button
-            key={`${this.patterns[path]}${codeSampleName}`}
-            style={{
-              backgroundColor:
-                this.state.currentCodeSample === codeSampleName
-                  ? 'blue'
-                  : '#999',
-            }}
-            onClick={() => {
-              this.setState(
-                {
-                  currentCodeSample: codeSampleName,
-                  copied: false,
-                },
-                Prism.highlightAll
-              )
-            }}
-          >
-            {codeSampleName}
-          </button>
-        ))}
-
-        {copyCompatible && (
-          <button style={{ float: 'right' }} onClick={this.copyCodeToClipBoard}>
-            {copied ? 'copied' : 'copy code'}
-          </button>
-        )}
-        {currentCodeSample && (
-          <div>
-            <pre>
-              <code
-                className={`language-${this.getLanguage(currentCodeSample)}`}
-              >
-                {this.patterns[path][currentCodeSample]}
-              </code>
-            </pre>
-          </div>
-        )}
+        <PatternCodeSample
+          pattern={pattern}
+          showCode={this.showCode}
+          currentCodeSample={currentCodeSample}
+          copied={copied}
+          copyCompatible={copyCompatible}
+          copyCodeToClipBoard={this.copyCodeToClipBoard}
+          getLanguage={this.getLanguage}
+        />
       </div>
     )
   }

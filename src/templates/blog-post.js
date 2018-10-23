@@ -44,8 +44,6 @@ export default ({ data }) => {
     .filter(hash => hash !== '')
     .pop()
 
-  console.log(parentTitle)
-
   return (
     <Layout>
       <div>
