@@ -1,15 +1,9 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 const CodeButton = styled.button`
   ${isActive =>
-    isActive
-      ? `
-          background-color: lightblue;
-        `
-      : `
-          background-color: #999;
-        `};
+    isActive ? `background-color: lightblue;` : `background-color: #999;`};
 `
 
 const patternCodeSample = ({

@@ -4,10 +4,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import PatternFrame from './PatternFrame'
 
 export class Pattern extends PureComponent {
-  constructor(props) {
-    super(props)
-  }
-
   pickPattern = data =>
     data.allPattern.edges.find(
       pattern => pattern.node.path === this.props.path

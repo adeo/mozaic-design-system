@@ -69,7 +69,7 @@ export class Pattern extends Component {
       this.setState({
         iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
       })
-    }, 200)
+    }, 50)
   }
 
   isClipBoardAPIAvailable = () => {
