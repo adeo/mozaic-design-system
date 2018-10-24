@@ -60,7 +60,7 @@ export default class Menu extends PureComponent {
     // return a directory tree with only directories
     const filterDirectories = subTree =>
       subTree
-        // filter what's not a directory and the patterns folders
+        // filter what's not a directory or is a pattern directory
         .filter(node => node.type === 'directory' && !node.name.includes('--'))
         .map(dir => ({
           path: dir.path.replace('src/', ''), // normalise path to compare between markdowns and dirtree

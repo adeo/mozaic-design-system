@@ -29,6 +29,7 @@ please folow the this [guide](https://nodejs.org/en/download/package-manager/)
 
 `git clone git@github.com:adeo/design-system--styleguide.git`
 `cd design-system--styleguide`
+`yarn install`
 `yarn develop`
 
 please considere that being in early stage of development, you may need to stop and restart the `yarn develop` command in order to see changes.
@@ -42,7 +43,7 @@ we are working on it :)
 
 ### navigation and pages :
 
-the styleguide will create navigtaion items following the directory structure, and the markdown file found in place.
+the styleguide will create navigation items following the directory structure, and the markdown file found in place.
 It will look into the `src/pages` directory.
 
 For each directory found, it will search for an `index.md` that will be considered as the index related to the nav item.
@@ -111,9 +112,9 @@ You can create patterns by creating a pattern folder using the folowing structur
 first create a directory where you want to create a pattern, for instance in `src/atoms/button`
 add the `--` prefix to the directory name, so gatsby will know it should not create a menu item with it.
 
-fore exemple, create `src/pages/components/button/--buttonStd`
+for exemple, create `src/pages/components/button/--buttonStd`
 
-then, in it, create files (html, scss, and js) using the same name, they should all folow the same `[patternName].pattern.[ext]` naming convention
+then, inside, create files (html, scss, and js) using the same name, they should all follow the same `[patternName].pattern.[ext]` naming convention
 
 for exemple into `src/pages/components/button/:
 
@@ -124,7 +125,7 @@ for exemple into `src/pages/components/button/:
     buttonStd.pattern.js
 ```
 
-now, you can display it in your makdow file by instanciating a pattern :
+now, you can display it in your makdown file by instanciating a pattern :
 
 ```md
 ---
@@ -141,7 +142,7 @@ order: 2
 <pattern path="src/pages/components/atoms/--anotherPattern/anotherPattern"></pattern>
 ```
 
-#### when using pattern, take in consideration the folowing :
+#### when using pattern, take in consideration the following :
 
 - they are displayed in iframes, in order to be completly decoupled from the rest of the site
 - scss is builded on the fly
