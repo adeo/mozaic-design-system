@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
   "engines": {
-    "node": ">10"
+    "node": ">=10"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
@@ -37,7 +37,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
     "prettier": "^1.14.2"

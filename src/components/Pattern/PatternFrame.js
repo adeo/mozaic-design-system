@@ -65,11 +65,9 @@ export class Pattern extends Component {
     `
     head.appendChild(js)
 
-    setTimeout(() => {
-      this.setState({
-        iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
-      })
-    }, 50)
+    this.setState({
+      iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
+    })
   }
 
   isClipBoardAPIAvailable = () => {
@@ -104,6 +102,10 @@ export class Pattern extends Component {
       copyCompatible,
       copied,
     } = this.state
+
+    if (this.props.data === undefined) {
+      return (<div></div>);
+    }
 
     const pattern = this.props.data.node.codes
 

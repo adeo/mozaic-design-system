@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-file',
       options: {
-        path: 'src/pages',
+        path: 'src/patterns',
       },
     },
     {

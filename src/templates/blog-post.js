@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 
 import Layout from '../components/layout'
-import Pattern from '../components/pattern'
+import Pattern from '../components/Pattern'
 
 const Container = styled.div`
   padding: 15px 30px;
