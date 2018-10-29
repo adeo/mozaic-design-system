@@ -1,0 +1,66 @@
+image: node:10
+
+stages:
+  - test
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - yarn install
+
+.deploy_template: &deploy_template
+  before_script:
+    - echo ${GOOGLE_CLIENT_SECRET} > client-secret.json
+    - gcloud auth activate-service-account --key-file client-secret.json
+
+.build_template: &build_template
+  artifacts:
+    paths:
+      - public
+  script:
+      - yarn build
+
+build:demo:
+  stage: build
+  environment: demo
+  <<: *build_template
+
+build:prod:
+  stage: build
+  environment: prod
+  <<: *build_template
+
+test:
+  stage: test
+  environment: all
+  script:
+    - yarn test
+
+deploy:demo:
+  image: google/cloud-sdk
+  stage: deploy
+  environment: demo
+  dependencies:
+    - build:demo
+  <<: *deploy_template
+  script:
+    - SERVICE_VERSION=$(echo ${CI_COMMIT_REF_NAME} | iconv -t ascii//TRANSLIT | sed -r s/[^a-zA-Z0-9]+//g | sed -r s/^-+\|-+$//g | tr A-Z a-z)
+    - gcloud --quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=${SERVICE_VERSION}
+
+deploy:prod:
+  image: google/cloud-sdk
+  stage: deploy
+  when: manual
+  environment: prod
+  dependencies:
+    - build:prod
+  only:
+    - master
+  <<: *deploy_template
+  script:
+    - export DATE=` date '+%s'`
+    - gcloud --quiet --verbosity=error app deploy app.yaml --project=design-system-adeo --version=$CI_COMMIT_REF_NAME$DATE --no-promote --no-stop-previous-version

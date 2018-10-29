@@ -1,0 +1,6 @@
+@import 'a.scss';
+
+$var: green;
+* {
+  color: $var;
+}
