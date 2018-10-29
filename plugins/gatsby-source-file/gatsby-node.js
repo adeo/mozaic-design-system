@@ -13,7 +13,7 @@ exports.sourceNodes = (
   let patterns = {}
 
   const processDirectoryTree = tree => {
-    if (tree.path.includes('pattern')) {
+    if (tree.path.includes('.pattern')) {
       const naming = tree.path.split('.')
       const content = fs.readFileSync(tree.path, 'utf8')
 
@@ -36,7 +36,7 @@ exports.sourceNodes = (
     if (value.scss) {
       const result = sass.renderSync({
         data: value.scss,
-        includePaths: ['src/pages/components/--button/'],
+        includePaths: ['src/patterns/components/--button/'],
       })
 
       value.css = result.css.toString('utf8')

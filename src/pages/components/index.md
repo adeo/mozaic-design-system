@@ -8,9 +8,9 @@ order: 3
 
 <div class="toto">hello toto </div>
 
-<pattern path="src/pages/components/--button/button"></pattern>
+<pattern path="src/patterns/components/--button/button"></pattern>
 
-<pattern path="src/pages/components/--icon/icon"></pattern>
+<pattern path="src/patterns/components/--icon/icon"></pattern>
 
 <br/>
 

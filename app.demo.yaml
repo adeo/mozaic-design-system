@@ -1,0 +1,16 @@
+service: demo
+runtime: python27
+api_version: 1
+threadsafe: true
+
+skip_files:
+  - node_modules/
+
+handlers:
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
+
+- url: /(.*)
+  static_files: public/\1
+  upload: public/(.*)
