@@ -42,8 +42,6 @@ exports.sourceNodes = (
       value.css = result.css.toString('utf8')
     }
 
-    console.log(value.css)
-
     const nodeId = createNodeId(`pattern-${key}`)
     let nodeData = Object.assign(
       {},
