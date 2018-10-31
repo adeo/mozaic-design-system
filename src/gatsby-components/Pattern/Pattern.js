@@ -24,7 +24,7 @@ class Pattern extends PureComponent {
 
     const patternsCodes = Object.keys(pattern.node.codes)
 
-    patternsCodes.map(lang => {
+    patternsCodes.forEach(lang => {
       if (
         pattern.node.codes[lang] !== '' &&
         pattern.node.codes[lang] !== null

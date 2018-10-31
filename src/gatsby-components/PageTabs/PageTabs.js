@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import { Link } from 'gatsby'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 const TabItem = styled.div`
   display: inline-block;
@@ -26,7 +26,7 @@ class PageTabs extends PureComponent {
     return (
       <>
         {this.orderPageTab(samePageTabs).map(({ node }) => (
-          <TabItem>
+          <TabItem key={node.fields.slug}>
             <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
           </TabItem>
         ))}
