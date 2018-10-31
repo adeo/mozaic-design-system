@@ -1,11 +1,11 @@
 import React from 'react'
 import rehypeReact from 'rehype-react'
 import { graphql } from 'gatsby'
-import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 
-import Layout from '../components/layout'
-import Pattern from '../components/Pattern'
+import Layout from '../gatsby-components/layout'
+import Pattern from '../gatsby-components/Pattern'
+import PageTabs from '../gatsby-components/PageTabs'
 
 const Container = styled.div`
   padding: 15px 30px;
@@ -51,11 +51,7 @@ export default ({ data }) => {
           <h1>{parentTitle}</h1>
         </Container>
         <Container separator>
-          {samePageTabs.map(({ node }) => (
-            <div style={{ display: 'inline-block', paddingRight: 10 }}>
-              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-            </div>
-          ))}
+          <PageTabs samePageTabs={samePageTabs} />
         </Container>
         <Container>
           <h2>{post.frontmatter.title}</h2>

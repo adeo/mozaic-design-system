@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import PatternFrame from './PatternFrame'
 
-export class Pattern extends PureComponent {
+class Pattern extends PureComponent {
   pickPattern = data => {
     const pattern =
       data.allPattern.edges.find(
@@ -16,9 +16,6 @@ export class Pattern extends PureComponent {
         codes: this.cleanEmptyCode(pattern),
       },
     }
-
-    console.log(JSON.stringify(cleannedPattern, 0, 2))
-
     return cleannedPattern
   }
 
@@ -35,8 +32,6 @@ export class Pattern extends PureComponent {
         cleanedCodes[lang] = pattern.node.codes[lang]
       }
     })
-
-    console.log(JSON.stringify(cleanedCodes, 0, 2))
 
     return cleanedCodes
   }
