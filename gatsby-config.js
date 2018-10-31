@@ -3,12 +3,15 @@ module.exports = {
     title: 'Garden',
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
-      resolve: 'gatsby-source-file',
+      resolve: 'gatsby-source-pattern',
       options: {
         path: 'src/patterns',
+        stylesPath: 'src/styles',
       },
     },
     {
@@ -49,6 +52,12 @@ module.exports = {
         plugins: [
           'gatsby-remark-design-system',
           'gatsby-remark-component',
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 760,
+            },
+          },
           'gatsby-remark-prismjs',
         ],
       },
