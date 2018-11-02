@@ -26,7 +26,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   const otherPosts = data.allMarkdownRemark.edges
 
-  const samePageTabs = otherPosts.filter(({ node }) => {
+  const samePageTabs = [...otherPosts].filter(({ node }) => {
     const nodePath = node.fields.fileName.relativePath.replace(
       node.fields.fileName.base,
       ''
@@ -38,11 +38,16 @@ export default ({ data }) => {
     return nodePath === postPath
   })
 
-  const parentTitle = post.fields.fileName.relativePath
-    .replace(post.fields.fileName.base, '')
-    .split('/')
-    .filter(hash => hash !== '')
-    .pop()
+  // use the index title as main Page name
+  const parentTitle = samePageTabs.find(
+    tab => tab.node.fields.fileName.name === 'index'
+  ).node.frontmatter.title
+
+  // if index, use presentation as tab title instead of index
+  const tabTitle =
+    post.frontmatter.title === parentTitle
+      ? 'presentation'
+      : post.frontmatter.title
 
   return (
     <Layout>
@@ -54,7 +59,7 @@ export default ({ data }) => {
           <PageTabs samePageTabs={samePageTabs} />
         </Container>
         <Container>
-          <h2>{post.frontmatter.title}</h2>
+          <h2>{tabTitle}</h2>
           <div>{renderAst(post.htmlAst)}</div>
         </Container>
       </div>

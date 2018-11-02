@@ -8,26 +8,41 @@ const TabItem = styled.div`
 `
 
 class PageTabs extends PureComponent {
-  orderPageTab = PageTabs => {
-    const orderedTabs = PageTabs.sort((a, b) => {
-      return a.node.frontmatter.order - b.node.frontmatter.order
-    }).sort(a => {
-      return a.node.fields.fileName.name !== 'index'
-    })
+  orderPageTab = pageTabs => {
+    // order using frontmatter order tag and remove index
+    const orderedTabs = [...pageTabs]
+      .sort((a, b) => {
+        return a.node.frontmatter.order - b.node.frontmatter.order
+      })
+      .filter(tab => tab.node.fields.fileName.name !== 'index')
 
-    orderedTabs[0].node.frontmatter.title = 'presentation'
+    const cleanIndex = [...pageTabs].find(
+      tab => tab.node.fields.fileName.name === 'index'
+    )
 
-    return orderedTabs
+    const newArr = [
+      {
+        title: 'presentation', // rename index tab 'presentation'
+        slug: cleanIndex.node.fields.slug,
+      },
+      ...orderedTabs.map(tab => ({
+        title: tab.node.frontmatter.title,
+        slug: tab.node.fields.slug,
+      })),
+    ]
+
+    return newArr
   }
 
   render() {
     const { samePageTabs } = this.props
+    const cleanTabs = this.orderPageTab(samePageTabs)
 
     return (
       <>
-        {this.orderPageTab(samePageTabs).map(({ node }) => (
-          <TabItem key={node.fields.slug}>
-            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+        {cleanTabs.map(node => (
+          <TabItem key={node.slug}>
+            <Link to={node.slug}>{node.title}</Link>
           </TabItem>
         ))}
       </>
