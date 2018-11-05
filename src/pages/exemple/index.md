@@ -1,13 +1,16 @@
 ---
-title: 'Atom button'
+title: 'exemple'
 date: '2017-08-10'
+order: 3
 ---
 
 ## hello
 
 <div class="toto">hello toto </div>
 
-<pattern path="pages/hello/button"></pattern>
+<pattern path="src/patterns/exemple/--button/button"></pattern>
+
+<pattern path="src/patterns/exemple/--icon/icon"></pattern>
 
 <br/>
 

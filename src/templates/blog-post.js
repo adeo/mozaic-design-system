@@ -1,11 +1,11 @@
 import React from 'react'
 import rehypeReact from 'rehype-react'
 import { graphql } from 'gatsby'
-import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 
-import Layout from '../components/layout'
-import Pattern from '../components/Pattern'
+import Layout from '../gatsby-components/layout'
+import Pattern from '../gatsby-components/Pattern'
+import PageTabs from '../gatsby-components/PageTabs'
 
 const Container = styled.div`
   padding: 15px 30px;
@@ -26,7 +26,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   const otherPosts = data.allMarkdownRemark.edges
 
-  const samePageTabs = otherPosts.filter(({ node }) => {
+  const samePageTabs = [...otherPosts].filter(({ node }) => {
     const nodePath = node.fields.fileName.relativePath.replace(
       node.fields.fileName.base,
       ''
@@ -38,11 +38,16 @@ export default ({ data }) => {
     return nodePath === postPath
   })
 
-  const parentTitle = post.fields.fileName.relativePath
-    .replace(post.fields.fileName.base, '')
-    .split('/')
-    .filter(hash => hash !== '')
-    .pop()
+  // use the index title as main Page name
+  const parentTitle = samePageTabs.find(
+    tab => tab.node.fields.fileName.name === 'index'
+  ).node.frontmatter.title
+
+  // if index, use presentation as tab title instead of index
+  const tabTitle =
+    post.frontmatter.title === parentTitle
+      ? 'presentation'
+      : post.frontmatter.title
 
   return (
     <Layout>
@@ -51,14 +56,10 @@ export default ({ data }) => {
           <h1>{parentTitle}</h1>
         </Container>
         <Container separator>
-          {samePageTabs.map(({ node }) => (
-            <div style={{ display: 'inline-block', paddingRight: 10 }}>
-              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-            </div>
-          ))}
+          <PageTabs samePageTabs={samePageTabs} />
         </Container>
         <Container>
-          <h2>{post.frontmatter.title}</h2>
+          <h2>{tabTitle}</h2>
           <div>{renderAst(post.htmlAst)}</div>
         </Container>
       </div>
