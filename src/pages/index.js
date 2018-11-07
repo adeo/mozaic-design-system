@@ -11,8 +11,8 @@ const IndexPage = ({ data }) => {
 
       <hr />
       <ul />
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <li>
+      {data.allMarkdownRemark.edges.map(({ node }, i) => (
+        <li key={`line-${i}`}>
           <Link to={node.fields.slug}>
             {node.frontmatter.title} / {node.fields.dirName}
           </Link>
