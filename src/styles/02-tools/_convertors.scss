@@ -1,6 +1,7 @@
+// @function PxToRem
+// $sizeValue = _sizes ratio variable
 
 @function PxToRem($sizeValue) {
-    $remValue  : round($sizeValue / $magicUnit,3);
-    
+    $remValue  : round(calc($sizeValue) / $magicUnit,3);
     @return $remValue + 'rem';
 }

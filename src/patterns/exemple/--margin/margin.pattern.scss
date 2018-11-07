@@ -1,0 +1,11 @@
+@import '01-settings-tools/allsettings';
+@import '07-utilities/margin';
+
+.g-margin-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background: palevioletred;
+}
+.g-margin-wrapper__item{
+    flex: 0 0 8%;
+}

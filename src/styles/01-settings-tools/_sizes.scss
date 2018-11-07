@@ -1,11 +1,14 @@
 $magicUnit : 16;
 
 
+$s-x012 : $magicUnit*0.125;
 $s-x025 : $magicUnit*0.25;
 $s-x050 : $magicUnit*0.5;
+$s-x075 : $magicUnit*0.75;
 $s-x100 : $magicUnit;
-$s-x125 : $magicUnit*1.25;
 $s-x150 : $magicUnit*1.5;
 $s-x200 : $magicUnit*2;
 $s-x250 : $magicUnit*2.5; 
 $s-x300 : $magicUnit*3;
+$s-x400 : $magicUnit*4;
+$s-x600 : $magicUnit*6;
