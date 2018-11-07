@@ -1,7 +1,6 @@
 
-@mixin propertyPxToRem($property, $sizeValue) {
-    $pxValue   : $sizeValue;
+@function PxToRem($sizeValue) {
     $remValue  : round($sizeValue / $magicUnit,3);
     
-    $property: ${remValue}rem;
+    @return $remValue + 'rem';
 }

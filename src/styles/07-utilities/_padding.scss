@@ -1,0 +1,29 @@
+@import "01-settings-tools/_sizes.scss";
+@import "02-tools/_convertors.scss";
+
+@mixin padding ($size) {
+    .u-padding-x#{$size} {
+        padding: PxToRem($s-x$size);
+    }
+    .u-padding-top-x#{$size} {
+        padding-top: PxToRem($s-x$size);
+    }
+    .u-padding-right-x#{$size} {
+        padding-right: PxToRem($s-x$size);
+    }
+    .u-padding-bottom-x#{$size} {
+        padding-bottom: PxToRem($s-x$size);
+    }
+    .u-padding-left-x#{$size} {
+        padding-left: PxToRem($s-x$size);
+    }
+}
+
+@include padding(025);
+@include padding(050);
+@include padding(100);
+@include padding(125);
+@include padding(150);
+@include padding(200);
+@include padding(250);
+@include padding(300);

@@ -1,0 +1,29 @@
+@import "01-settings-tools/_sizes.scss";
+@import "02-tools/_convertors.scss";
+
+@mixin margin ($size) {
+    .u-margin-x#{$size} {
+        margin: PxToRem($s-x$size);
+    }
+    .u-margin-top-x#{$size} {
+        margin-top: PxToRem($s-x$size);
+    }
+    .u-margin-right-x#{$size} {
+        margin-right: PxToRem($s-x$size);
+    }
+    .u-margin-bottom-x#{$size} {
+        margin-bottom: PxToRem($s-x$size);
+    }
+    .u-margin-left-x#{$size} {
+        margin-left: PxToRem($s-x$size);
+    }
+}
+
+@include margin(025);
+@include margin(050);
+@include margin(100);
+@include margin(125);
+@include margin(150);
+@include margin(200);
+@include margin(250);
+@include margin(300);
