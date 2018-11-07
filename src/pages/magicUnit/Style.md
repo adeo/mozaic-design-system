@@ -9,14 +9,18 @@ It's equal to 16px.
 
 # How to use it?
 The level of granularity that can be use depend of the size.
-## <2 MagicUnit
-![alt text](1-2-MagicUnit.png)
+
+## Less than 2 MagicUnit
+![alt text](1-4-MagicUnit.png)
+level of granularity : Quarter
 
 ## >2 <4 MagicUnit
-Half
+![alt text](1-2-MagicUnit.png)
+level of granularity :Half
 
 ## >4 MagicUnit
-Plain
+![alt text](Plain-MagicUnit.png)
+level of granularity : Plain
 
 
 
