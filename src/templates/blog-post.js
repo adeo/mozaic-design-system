@@ -55,10 +55,10 @@ export default ({ data }) => {
   ).node.frontmatter.title
 
   // if index, use presentation as tab title instead of index
-  const tabTitle =
-    post.frontmatter.title === parentTitle
-      ? 'presentation'
-      : post.frontmatter.title
+  // const tabTitle =
+  //   post.frontmatter.title === parentTitle
+  //     ? 'presentation'
+  //     : post.frontmatter.title
 
   return (
     <Layout>
