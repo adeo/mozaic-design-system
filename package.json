@@ -1,8 +1,16 @@
 {
-  "name": "Garden",
+  "name": "garden",
   "description": "leroy merlin design system",
   "version": "0.0.0",
   "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adeo/design-system--styleguide"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
   "engines": {
     "node": ">=10"
   },
@@ -35,21 +43,13 @@
     "styled-components": "^4.0.2",
     "xstate": "^3.1.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 0"
-  },
-  "devDependencies": {
-    "prettier": "^1.14.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
