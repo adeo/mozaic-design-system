@@ -1,1 +1,13 @@
-@import '_test.scss';
+// configurable
+$rem: 16;
+
+@function user-rem-val($px-val) {
+  @return #{$px-val/$rem}rem;
+}
+
+@function user-px-val($rem-val) {
+  @return $rem-val * 1px;
+}
+
+@import 'settings.magic-unit.scss';
+@import 'settings.sizes.scss';

@@ -1,0 +1,16 @@
+$sizes: (
+  '025': user-rem-val($magic-unit * 0.25),
+  '050': user-rem-val($magic-unit * 0.5),
+  '100': user-rem-val($magic-unit),
+  '150': user-rem-val($magic-unit * 1.5),
+  '200': user-rem-val($magic-unit * 2),
+  '250': user-rem-val($magic-unit * 2.5),
+  '300': user-rem-val($magic-unit * 3),
+  '350': user-rem-val($magic-unit * 3.5),
+  '400': user-rem-val($magic-unit * 4),
+  '600': user-rem-val($magic-unit * 6),
+);
+
+@function size($key) {
+  @return map-get($sizes, $key: '100');
+}

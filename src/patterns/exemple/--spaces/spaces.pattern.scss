@@ -1,0 +1,25 @@
+@import '01-settings-tools/_allsettings';
+
+.exemple {
+  margin-top: size(200);
+
+  &::before {
+    display: block;
+    content: '';
+    background: green;
+  }
+
+  @each $key, $val in $sizes {
+    &--#{$key} {
+      &:before {
+        width: $val;
+        height: $val;
+      }
+
+      &:after {
+        display: inline-block;
+        content: '#{$key} / #{$val}';
+      }
+    }
+  }
+}
