@@ -36,15 +36,15 @@
     "node-sass": "^4.9.4",
     "prism-themes": "^1.0.1",
     "prismjs": "^1.15.0",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
     "react-helmet": "^5.2.0",
     "rehype-react": "^3.0.3",
     "styled-components": "^4.0.2",
     "xstate": "^3.1.0"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "^1.15.1"
   },
   "scripts": {
     "build": "gatsby build",
