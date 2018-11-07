@@ -1,0 +1,14 @@
+@import './settings.global';
+
+$size-012: $magic-unit * 0.125 ; //2
+$size-025: $magic-unit * 0.25;   //4
+$size-050: $magic-unit * 0.5;    //8
+$size-075: $magic-unit * 0.75;   //12
+$size-100: $magic-unit * 1;      //16
+$size-150: $magic-unit * 1.5;    //24
+$size-200: $magic-unit * 2;      //32
+$size-250: $magic-unit * 2.5;    //40
+$size-300: $magic-unit * 3;      //48
+$size-400: $magic-unit * 4;      //64
+$size-600: $magic-unit * 6;      //96
+$size-1000: $magic-unit * 10;    //160

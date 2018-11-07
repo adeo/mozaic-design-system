@@ -22,7 +22,7 @@ class PageTabs extends PureComponent {
 
     const newArr = [
       {
-        title: 'presentation', // rename index tab 'presentation'
+        title: 'code', // rename index tab 'presentation'
         slug: cleanIndex.node.fields.slug,
       },
       ...orderedTabs.map(tab => ({

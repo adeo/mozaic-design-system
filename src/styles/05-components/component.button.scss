@@ -1,0 +1,20 @@
+@import "../01-settings-tools/allsettings";
+
+$small-height: $size-200;
+$medium-height: $size-250;
+$large-height: $size-100 * 3.5;
+
+.ga-button--small {
+  height: $small-height;
+  margin: 0 $size-100 ;
+}
+
+.ga-button--medium {
+  height: $medium-height;
+  margin: 0 $size-150;
+}
+
+.ga-button--large {
+  height: $large-height;
+  margin: 0 $size-250;
+}
