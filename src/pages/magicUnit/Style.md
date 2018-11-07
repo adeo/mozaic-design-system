@@ -19,13 +19,11 @@ level of granularity : Quarter</br>
 ## between 2 and 4 MagicUnit
 ![alt text](1-2-MagicUnit.png)
 
-level of granularity :Half
-
+level of granularity :Half</br>
 40px, 48px, 56px, 64px
 
 ## More than 4 MagicUnit
 ![alt text](Plain-MagicUnit.png)
 
-level of granularity : Plain
-
+level of granularity : Plain</br>
 80px, 96px, 112px, ...
