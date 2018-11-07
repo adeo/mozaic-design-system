@@ -6,10 +6,9 @@ import styled, { css } from 'styled-components'
 import Layout from '../gatsby-components/layout'
 import Pattern from '../gatsby-components/Pattern'
 import PageTabs from '../gatsby-components/PageTabs'
+import Hint from '../components/Hint'
 
-const Container = styled.div`
-  padding: 15px 30px;
-
+const FullWidthContainer = styled.div`
   ${({ separator }) =>
     separator &&
     css`
@@ -17,10 +16,22 @@ const Container = styled.div`
     `};
 `
 
+const Container = styled.div`
+  padding: 15px 30px;
+  margin: 0 auto;
+  max-width: 760px;
+`
+
+const PageContent = styled.div`
+  ul {
+    margin: 20px;
+  }
+`
+
 export default ({ data }) => {
   const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: { pattern: Pattern },
+    components: { pattern: Pattern, hint: Hint },
   }).Compiler
 
   const post = data.markdownRemark
@@ -52,16 +63,22 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <Container separator>
-          <h1>{parentTitle}</h1>
-        </Container>
-        <Container separator>
-          <PageTabs samePageTabs={samePageTabs} />
-        </Container>
-        <Container>
-          <h2>{tabTitle}</h2>
-          <div>{renderAst(post.htmlAst)}</div>
-        </Container>
+        <FullWidthContainer separator>
+          <Container>
+            <h1>{parentTitle}</h1>
+          </Container>
+        </FullWidthContainer>
+        <FullWidthContainer separator>
+          <Container>
+            <PageTabs samePageTabs={samePageTabs} />
+          </Container>
+        </FullWidthContainer>
+        <FullWidthContainer>
+          <Container>
+            <h2>{post.frontmatter.title}</h2>
+            <PageContent>{renderAst(post.htmlAst)}</PageContent>
+          </Container>
+        </FullWidthContainer>
       </div>
     </Layout>
   )
