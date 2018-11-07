@@ -1,0 +1,9 @@
+@import '01-settings-tools/allsettings';
+@import '07-utilities/_padding.scss';
+
+p[class*="u-padding-x"] {
+    background: green;
+    &::before {
+        background: white;
+    }
+}
