@@ -10,7 +10,7 @@ It's equal to 16px.
 # How to use it?
 The level of granularity that can be use depend of the size.
 ## <2 MagicUnit
-![alt text](1:4 Magic Unit.png)
+![alt text](1:4-Magic-Unit.png)
 
 ## >2 <4 MagicUnit
 Half
