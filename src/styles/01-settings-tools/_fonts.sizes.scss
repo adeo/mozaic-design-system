@@ -1,0 +1,54 @@
+// media query declared here only for develop, it should be moved in appropriate scss file
+$desktop: 'only screen and (min-width: 768px)';
+
+$fontSizes: (
+    // heroes
+    900: 64px,
+    800: 58px,
+    // headers
+    700: 52px,
+    600: 26px,
+    500: 22px,
+    // body
+    400: 20px,
+    350: 16px,
+    300: 14px,
+    250: 16px,
+    200: 14px,
+    150: 12px,
+    100: 8px
+);
+
+$fontSizeDesktop: (
+  // heroes
+  900: #{map-get($fontSizes, 900)},
+  800: #{map-get($fontSizes, 800)},
+  // headers
+  700: #{map-get($fontSizes, 700)},
+  600: #{map-get($fontSizes, 600)},
+  500: #{map-get($fontSizes, 500)},
+  // body
+  400: #{map-get($fontSizes, 400)},
+  350: #{map-get($fontSizes, 350)},
+  300: #{map-get($fontSizes, 300)},
+  250: #{map-get($fontSizes, 250)},
+  200: #{map-get($fontSizes, 200)},
+  150: #{map-get($fontSizes, 150)},
+);
+
+$fontSizeMobile: (
+  // heroes
+  900: #{map-get($fontSizes, 800)},
+  800: #{map-get($fontSizes, 700)},
+  // headers
+  700: #{map-get($fontSizes, 600)},
+  600: #{map-get($fontSizes, 500)},
+  500: #{map-get($fontSizes, 400)},
+  // body
+  400: #{map-get($fontSizes, 350)},
+  350: #{map-get($fontSizes, 300)},
+  300: #{map-get($fontSizes, 250)},
+  250: #{map-get($fontSizes, 200)},
+  200: #{map-get($fontSizes, 150)},
+  150: #{map-get($fontSizes, 100)},
+);

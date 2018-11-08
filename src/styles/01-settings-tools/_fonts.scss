@@ -1,0 +1,15 @@
+@import 'fonts.tools';
+@import 'fonts.sizes';
+@import 'fonts.tools';
+
+$class-map: (
+  hero1: 900,
+  hero2: 800,
+  header1: 700,
+  header2: 600,
+  header3: 500,
+  body1: 400,
+  body2: 350,
+);
+
+@include generate-classes();
