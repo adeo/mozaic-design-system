@@ -1,14 +1,43 @@
 
 $font-sizes: (
-  '1100': 59px,
-  '1000': 48px,
-  '900': 38px,
-  '800': 26px,
-  '700': 22px,
-  '600': 18px,
-  '500': 16px,
-  '400': 14px,
-  '300': 13px,
-  '200': 12px,
-  '100': 11px,
+  '1100': 59,
+  '1000': 48,
+  '900': 38,
+  '800': 26,
+  '700': 22,
+  '600': 18,
+  '500': 16,
+  '400': 14,
+  '300': 13,
+  '200': 12,
+  '100': 11,
 );
+
+
+$magic-unit: 16;
+
+
+@function round-line-height($fs, $height-ratio, $unit) {
+  @return (round(($fs * $height-ratio) / $unit) * $unit) / $fs;
+}
+
+@function perfect-line-height($fs, $height-ratio){
+  $expected-thresold: 0.15;
+  $available-multiplier: (2, 1, 0.5, 0.25, 0.125);
+  $ratio: 0;
+
+
+  @each $val in $available-multiplier {
+    $unit: $val * $magic-unit;
+    $round-line-height: round-line-height($fs, $height-ratio, $unit);
+    @if $ratio == 0 {
+
+      @if abs($height-ratio - $round-line-height) < $expected-thresold {
+        $ratio: $round-line-height;
+      }
+    }
+  }
+
+
+  @return $ratio;
+}

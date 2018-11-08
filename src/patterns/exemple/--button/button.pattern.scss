@@ -1,5 +1,13 @@
-@import '01-settings-tools/allsettings';
+@import '../../../styles/06-utilities/font';
 
-* {
-  color: $blue;
+.ca-test {
+  @each $key, $val in $font-sizes{
+    &--#{$key} {
+      font-size: $val * 1px;
+      line-height: perfect-line-height($val, 1.5);
+      &:before {
+        content: "#{perfect-line-height($val, 1.5)} /  #{perfect-line-height($val, 1.5)* $val} "
+      }
+    }
+  }
 }
