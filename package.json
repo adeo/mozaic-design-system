@@ -41,15 +41,19 @@
     "react-helmet": "^5.2.0",
     "rehype-react": "^3.0.3",
     "styled-components": "^4.0.2",
+    "theo": "^8.0.0",
     "xstate": "^3.1.0"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
   },
   "scripts": {
+    "tokens-build": "theo src/tokens/tokens.json --transform web --format scss,module.js,html --dest ./src/tokens",
+    "clean-cache": "rm -rf ./.cache ./public",
+    "prebuild": "yarn clean-cache && yarn tokens-build",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "predevelop": "rm -rf ./.cache",
+    "predevelop": "yarn clean-cache && yarn tokens-build",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 0"
   }
