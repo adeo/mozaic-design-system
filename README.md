@@ -10,6 +10,16 @@ We tryed to focus on developper experience, meaning that working with it should 
 
 Please considere that this repo is in early stage of development. You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/design-system--styleguide/issues)
 
+#### Please read the wiki before submitting anything :
+
+- [glossary](https://github.com/adeo/design-system--styleguide/wiki/Glossary)
+- design system workflow :
+  - [Things to keep in mind for any contribution](https://github.com/adeo/design-system--styleguide/wiki/Things-to-keep-in-mind-for-any-contribution)
+  - [Pattern submission workflow](https://github.com/adeo/design-system--styleguide/wiki/New-pattern-submission-workflow)
+  - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
+- how to create pages and content in the pattern library :
+  - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
+
 ### requirements :
 
 - node v10+
@@ -35,119 +45,16 @@ please folow the this [guide](https://nodejs.org/en/download/package-manager/)
 please considere that being in early stage of development, you may need to stop and restart the `yarn develop` command in order to see changes.
 we are working on it :)
 
+## troubleshooting :
+
+during development, when changes does not seems not to apply correctly, you may need to remove cache or previous production build :
+
+`rm -rf .cache/ public/`
+`yarn develop`
+
 ## create a production build :
 
 `yarn build`
-
-## pages and content managment :
-
-### navigation and pages :
-
-the styleguide will create navigation items following the directory structure, and the markdown file found in place.
-It will look into the `src/pages` directory.
-
-For each directory found, it will search for an `index.md` that will be considered as the index related to the nav item.
-each md file encoutered in the directory will be available as diferent tabs in the page.
-
-eg, for the folowing directory tree in src page:
-
-```
-- atoms (dir)
-    - index.md
-    - usage.md
-    - button (dir)
-        - index.md
-- intro (dir)
-    - index.md
-    - tab1.md
-    - tab2.md
-    - other dir (dir)
-        - index.md
-```
-
-the navigation will be :
-
-```
-- atoms (with a usage tab)
-    - button
-- intro (with tab1 and tab2 tabs)
-    - other dir
-```
-
-### create content :
-
-You can create content using commun markdown + some nice features :
-
-### manage navigation titles, page titles and menu order
-
-by adding the folowing at the top of the `index.md` markdown file, you indicate the menu item title as well as the order you want them to display in the main menu.
-
-folowing the previous directory tree exemple, adding this to the `src/pages/atoms/index.md` :
-
-```
----
-title: 'Atoms title'
-order: 2
----
-```
-
-will allow you to modify the navigation like this :
-
-```
-- atoms title (with a usage tab)
-    - button
-- intro (with tab1 and tab2 tabs)
-    - other dir
-```
-
-the same is true for tabs into a page, adding an order and a title into the tabs markdonw files will change tabs order and title.
-
-### adding a Pattern
-
-we added to markdown the ability to include react components.
-one of them is Pattern
-Patterns are a way to display living components, and the ability to show and copy the related code.
-You can create patterns by creating a pattern folder using the folowing structure :
-
-first create a directory where you want to create a pattern, for instance in `src/atoms/button`
-add the `--` prefix to the directory name, so gatsby will know it should not create a menu item with it.
-
-for exemple, create `src/pages/components/button/--buttonStd`
-
-then, inside, create files (html, scss, and js) using the same name, they should all follow the same `[patternName].pattern.[ext]` naming convention
-
-for exemple into `src/pages/components/button/:
-
-```
---buttonStd (directory)
-    buttonStd.pattern.html
-    buttonStd.pattern.scss
-    buttonStd.pattern.js
-```
-
-now, you can display it in your makdown file by instanciating a pattern :
-
-```md
----
-title: 'buttons'
-order: 2
----
-
-### here a standard button
-
-<pattern path="src/pages/components/atoms/--button/button"></pattern>
-
-### here another pattern
-
-<pattern path="src/pages/components/atoms/--anotherPattern/anotherPattern"></pattern>
-```
-
-#### when using pattern, take in consideration the following :
-
-- they are displayed in iframes, in order to be completly decoupled from the rest of the site
-- scss is builded on the fly
-- it's also in early stage of development, many options will follow
-- it's intended to take the future Garden framework as source for scss
 
 ## Maintainers
 
