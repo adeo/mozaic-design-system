@@ -1,7 +1,32 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
 import Prism from 'prismjs'
 
+import { magicUnit, localRemValue } from '../../tokens/tokens.module'
 import PatternCodeSample from './PatternCodeSample'
+
+const remMagicUnit = magicUnit / localRemValue
+const trans = 'transparent'
+const lineColor = `rgba(0, 100, 100, 0.1)`
+const subLineColor = `rgba(0, 100, 100, 0.03)`
+
+const FrameContainer = styled.div`
+  padding: ${remMagicUnit}rem 0;
+  margin: ${remMagicUnit}rem 0;
+  background-image: linear-gradient(90deg, ${lineColor} 1px, ${trans} 1px),
+    linear-gradient(0deg, ${lineColor} 1px, ${trans} 1px),
+    linear-gradient(90deg, ${subLineColor} 1px, ${trans} 1px),
+    linear-gradient(0deg, ${subLineColor} 1px, ${trans} 1px),
+    linear-gradient(90deg, ${subLineColor} 1px, ${trans} 1px),
+    linear-gradient(0deg, ${subLineColor} 1px, ${trans} 1px);
+
+  background-size: ${remMagicUnit}rem ${remMagicUnit}rem,
+    ${remMagicUnit}rem ${remMagicUnit}rem,
+    ${remMagicUnit / 2}rem ${remMagicUnit / 2}rem,
+    ${remMagicUnit / 2}rem ${remMagicUnit / 2}rem,
+    ${remMagicUnit / 4}rem ${remMagicUnit / 4}rem,
+    ${remMagicUnit / 4}rem ${remMagicUnit / 4}rem;
+`
 
 export class Pattern extends Component {
   constructor(props) {
@@ -18,6 +43,7 @@ export class Pattern extends Component {
     body, html {
       margin :0;
       padding :0;
+      display: block;
       overflow: hidden
     }
   `
@@ -104,21 +130,14 @@ export class Pattern extends Component {
     } = this.state
 
     if (this.props.data === undefined) {
-      return (<div></div>);
+      return <div />
     }
 
     const pattern = this.props.data.node.codes
 
     return (
       <div>
-        <div
-          style={{
-            padding: '5px 0',
-            margin: '25px 0',
-            background:
-              'repeating-linear-gradient(45deg,transparent,transparent 3px,#F5F5F5 3px,#F5F5F5 4px)',
-          }}
-        >
+        <FrameContainer>
           <iframe
             title="toto"
             width="100%"
@@ -127,7 +146,7 @@ export class Pattern extends Component {
             height={iframeHeight}
             ref="iframe"
           />
-        </div>
+        </FrameContainer>
         <PatternCodeSample
           pattern={pattern}
           showCode={this.showCode}
