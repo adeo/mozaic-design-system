@@ -22,12 +22,13 @@ By **hovering the squares**, you can see how we used the magic unit and the conr
 
 <pattern path="src/patterns/exemple/--magic-unit/magic-unit"></pattern>
 
+<br><br>
+
 ## How to use it?
 
 The level of granularity that can be used depend of the size of what you are trying to define.
 
 <br>
-
 <hintitem>
   Use <b>quarter</b> of magic unit for sizes <b>less than two times the magic unit</b>
 </hintitem>
@@ -148,12 +149,13 @@ The level of granularity that can be used depend of the size of what you are try
       <tr>
         <td>etc...</td>
         <td></td>
+        <td></td>
       </tr>
     </tbody>
 </table>
 </hint>
 
-### magic unit usage by properties :
+### Magic unit usage by properties :
 
 <br>
 
@@ -179,9 +181,9 @@ The level of granularity that can be used depend of the size of what you are try
 
 - Elements may be used by other teams in various layout configurations.
 - Browsers, devices, or even plugins dedicated to disabled users may change the way things are displayed.
-- User customized browser zooms and default font-sizes may break your ideal composition.
-- New devices form factors that we didn't thought about may appear in the futur.
+- User customized browser zooms and font-sizes may break your ideal composition.
+- New devices form factors that we didn't expect may appear in the future.
 
-All thoses reason may make your perfect one line button break into multiple lines in your user hand.
+All thoses reasons may very well make your perfect one line button break into multiple lines in your user's hands.
 
 > Building a **resiliant and elegant system** require a design that fit perfectly for the most common cases but **degrade gracefully** in the most unexpected ones.

@@ -8,10 +8,11 @@ body {
 
 a {
   text-decoration: none;
+  color: DodgerBlue;
 }
 
 a:visited {
-  color: inherit;
+  color: SteelBlue;
 }
 
 ul,

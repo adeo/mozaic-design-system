@@ -1,4 +1,20 @@
-$magic-unit--rem: to-rem($magic-unit);
+$mu025: magic-unit-rem(0.25);
+$mu050: magic-unit-rem(0.5);
+$mu075: magic-unit-rem(0.75);
+$mu100: magic-unit-rem(1);
+$mu125: magic-unit-rem(1.25);
+$mu150: magic-unit-rem(1.5);
+$mu200: magic-unit-rem(2);
+$mu250: magic-unit-rem(2.5);
+$mu300: magic-unit-rem(3);
+$mu350: magic-unit-rem(3.5);
+$mu400: magic-unit-rem(4);
+$mu500: magic-unit-rem(5);
+$mu600: magic-unit-rem(6);
+$mu700: magic-unit-rem(7);
+$mu800: magic-unit-rem(8);
+$mu900: magic-unit-rem(9);
+$mu1000: magic-unit-rem(10);
 
 // a function that return a multiple of the magic-unit
 @function magic-unit($multiplier) {
