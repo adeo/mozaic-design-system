@@ -20,6 +20,10 @@ li {
   padding: 0;
 }
 
+iframe {
+  display: block;
+}
+
 pre {
   font-size: 13px;
 }
@@ -37,4 +41,42 @@ pre[class*='language-'] {
   color: #333;
   text-shadow: none;
   border: solid 1px #e5e5e5;
+}
+
+blockquote {
+  margin-left: 0;
+  padding: 8px;
+  padding-left: 24px;
+  font-size: 1.15rem;
+  border-left: solid 3px rgba(0, 0, 0, 0.2);
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+blockquote p {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+td {
+  padding: 8px;
+}
+
+th {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 8px;
+  text-align: left;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
 }
