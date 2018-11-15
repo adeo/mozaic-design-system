@@ -6,7 +6,7 @@ import styled, { css } from 'styled-components'
 import Layout from '../gatsby-components/layout'
 import Pattern from '../gatsby-components/Pattern'
 import PageTabs from '../gatsby-components/PageTabs'
-import Hint from '../components/Hint'
+import Hint from '../gatsby-components/Hint'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -54,11 +54,13 @@ export default ({ data }) => {
     tab => tab.node.fields.fileName.name === 'index'
   ).node.frontmatter.title
 
-  // if index, use presentation as tab title instead of index
-  // const tabTitle =
-  //   post.frontmatter.title === parentTitle
-  //     ? 'presentation'
-  //     : post.frontmatter.title
+  // set the subtitle of the page to 'presentation' if the current page is the index
+  const tabPageTitle =
+    post.frontmatter.title === parentTitle
+      ? 'presentation'
+      : post.frontmatter.title
+
+  const hasTabs = samePageTabs.length > 1
 
   return (
     <Layout>
@@ -68,14 +70,17 @@ export default ({ data }) => {
             <h1>{parentTitle}</h1>
           </Container>
         </FullWidthContainer>
-        <FullWidthContainer separator>
-          <Container>
-            <PageTabs samePageTabs={samePageTabs} />
-          </Container>
-        </FullWidthContainer>
+        {hasTabs && (
+          <FullWidthContainer separator>
+            <Container>
+              <PageTabs samePageTabs={samePageTabs} />
+            </Container>
+          </FullWidthContainer>
+        )}
+
         <FullWidthContainer>
           <Container>
-            <h2>{post.frontmatter.title}</h2>
+            {hasTabs && <h2>{tabPageTitle}</h2>}
             <PageContent>{renderAst(post.htmlAst)}</PageContent>
           </Container>
         </FullWidthContainer>
