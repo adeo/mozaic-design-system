@@ -28,6 +28,8 @@ build:demo:
   stage: build
   environment: demo
   <<: *build_template
+  except:
+    - master
 
 build:prod:
   stage: build
@@ -52,6 +54,8 @@ deploy:demo:
   script:
     - SERVICE_VERSION=$(echo ${CI_COMMIT_REF_NAME} | iconv -t ascii//TRANSLIT | sed -r s/[^a-zA-Z0-9]+//g | sed -r s/^-+\|-+$//g | tr A-Z a-z)
     - gcloud --quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=${SERVICE_VERSION} --no-promote
+  except:
+    - master
 
 deploy:prod:
   image: google/cloud-sdk
