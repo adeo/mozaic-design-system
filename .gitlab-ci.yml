@@ -33,6 +33,8 @@ build:prod:
   stage: build
   environment: prod
   <<: *build_template
+  only:
+    - master
 
 test:
   stage: test
@@ -49,7 +51,7 @@ deploy:demo:
   <<: *deploy_template
   script:
     - SERVICE_VERSION=$(echo ${CI_COMMIT_REF_NAME} | iconv -t ascii//TRANSLIT | sed -r s/[^a-zA-Z0-9]+//g | sed -r s/^-+\|-+$//g | tr A-Z a-z)
-    - gcloud --quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=${SERVICE_VERSION}
+    - gcloud --quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=${SERVICE_VERSION} --no-promote
 
 deploy:prod:
   image: google/cloud-sdk
@@ -63,4 +65,4 @@ deploy:prod:
   <<: *deploy_template
   script:
     - export DATE=` date '+%s'`
-    - gcloud --quiet --verbosity=error app deploy app.yaml --project=design-system-adeo --version=$CI_COMMIT_REF_NAME$DATE --no-promote --no-stop-previous-version
+    - gcloud --quiet --verbosity=error app deploy app.yaml --project=design-system-adeo --version=$CI_COMMIT_REF_NAME$DATE
