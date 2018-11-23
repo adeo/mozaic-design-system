@@ -45,8 +45,7 @@
     "xstate": "^3.1.0"
   },
   "devDependencies": {
-    "prettier": "^1.14.2",
-    "release-it": "^8.0.1"
+    "prettier": "^1.14.2"
   },
   "scripts": {
     "tokens-build": "theo src/tokens/tokens.json --transform web --format scss,module.js,html --dest ./src/tokens",
@@ -56,7 +55,6 @@
     "develop": "gatsby develop",
     "predevelop": "yarn clean-cache && yarn tokens-build",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "release": "release-it"
+    "test": "echo \"Error: no test specified\" && exit 0"
   }
 }
