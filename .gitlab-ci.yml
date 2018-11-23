@@ -4,6 +4,7 @@ stages:
   - test
   - build
   - deploy
+  - tag
 
 cache:
   paths:
@@ -11,6 +12,10 @@ cache:
 
 before_script:
   - yarn install
+
+.deploy_tag: &deploy_tag
+  after_script:
+    - npm publish --registry http://35.243.145.15
 
 .deploy_template: &deploy_template
   before_script:
@@ -60,7 +65,6 @@ deploy:demo:
 deploy:prod:
   image: google/cloud-sdk
   stage: deploy
-  when: manual
   environment: prod
   dependencies:
     - build:prod
@@ -70,3 +74,27 @@ deploy:prod:
   script:
     - export DATE=` date '+%s'`
     - gcloud --quiet --verbosity=error app deploy app.yaml --project=design-system-adeo --version=$CI_COMMIT_REF_NAME$DATE
+
+tag:patch:
+  when: manual
+  dependencies:
+    - deploy:demo
+  script:
+    - npm version patch && git push && git push --tags
+  <<: *deploy_tag
+
+tag:minor:
+  when: manual
+  dependencies:
+    - deploy:prod
+  script:
+    - npm version minor && git push && git push --tags
+  <<: *deploy_tag
+
+tag:major:
+  when: manual
+  dependencies:
+    - deploy:prod
+  script:
+    - npm version major && git push && git push --tags
+  <<: *deploy_tag
