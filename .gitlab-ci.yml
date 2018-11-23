@@ -83,20 +83,28 @@ tag:patch:
     - git config --global user.email "jjalouzot@eleven-labs.com"
     - git config --global user.name "Jonathan Jalouzot"
     - npm version patch
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
   <<: *deploy_tag
 
 tag:minor:
   when: manual
   stage: tag
   script:
-    - npm version minor && git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git && git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags
+    - git config --global user.email "jjalouzot@eleven-labs.com"
+    - git config --global user.name "Jonathan Jalouzot"
+    - npm version minor
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
   <<: *deploy_tag
 
 tag:major:
   when: manual
   stage: tag
   script:
-    - npm version major && git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git && git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags
+    - git config --global user.email "jjalouzot@eleven-labs.com"
+    - git config --global user.name "Jonathan Jalouzot"
+    - npm version major
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
   <<: *deploy_tag
