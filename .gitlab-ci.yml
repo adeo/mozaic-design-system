@@ -77,6 +77,7 @@ deploy:prod:
 
 tag:patch:
   when: manual
+  stage: tag
   dependencies:
     - deploy:demo
   script:
@@ -85,6 +86,7 @@ tag:patch:
 
 tag:minor:
   when: manual
+  stage: tag
   dependencies:
     - deploy:prod
   script:
@@ -93,6 +95,7 @@ tag:minor:
 
 tag:major:
   when: manual
+  stage: tag
   dependencies:
     - deploy:prod
   script:
