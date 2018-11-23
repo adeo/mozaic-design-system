@@ -87,6 +87,10 @@ tag:patch:
     - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
     - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
   <<: *deploy_tag
+  dependencies:
+    - deploy:prod
+  only:
+    - master
 
 tag:minor:
   when: manual
@@ -98,6 +102,10 @@ tag:minor:
     - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
     - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
   <<: *deploy_tag
+  dependencies:
+    - deploy:prod
+  only:
+    - master
 
 tag:major:
   when: manual
@@ -109,3 +117,7 @@ tag:major:
     - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
     - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
   <<: *deploy_tag
+  dependencies:
+    - deploy:prod
+  only:
+    - master
