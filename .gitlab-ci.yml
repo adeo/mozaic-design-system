@@ -16,6 +16,7 @@ before_script:
 
 .deploy_tag: &deploy_tag
   after_script:
+    - export NPM_TOKEN="6e2ecc4b-1938-4bc3-8cc5-e2110f273f01"
     - npm publish --registry http://35.243.145.15
 
 .deploy_template: &deploy_template
