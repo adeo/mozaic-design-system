@@ -1,0 +1,41 @@
+---
+title: 'Principles'
+order: 1
+---
+
+## The essence of the brand's expression charter
+
+The **LEROY MERLIN** brand is unique. There is only one brand **LEROY MERLIN** and it is the same regardless of the public concerned: customers, employees, institutional.
+</br>
+**LEROY MERLIN** therefore has only one territory of expression translated to digital by this _design system_.
+
+As all our messages reveal our identity and our personality, refer to this chart is a must to design and produce all documents and messages on behalf of **LEROY MERLIN**. Yet, as a bonus, you will save a lot designing and coding time to focus on what matter the most: **to create a great experience for people.**
+
+### WHAT WE WANT PEOPLE TO FEEL
+
+> I am enthusiastic and involved.
+<br/>
+> I feel free, I do not settle for ready-made solutions.
+<br/>
+> I feel stronger.
+<br/>
+> I feel considered.
+<br/>
+> I am an architect, builder of my house, of my life.
+
+
+#### One charter
+Consulting and using this charter will allow you to know and understand the brand's way of representing and expressing itself. This document is a summary. To find all the information, explanations and files, go to the digital platform:
+
+### OUR AMBITION
+We want to be seen as a leading company that advances the market and makes people grow.
+
+### OUR VISION
+We want to be the brand-solutions that allows everyone to accomplish by completing their home project.
+
+### OUR PERSONALITY
+We want it to be expressed through our qualities: pedagogue, benevolent, helpful, competent, close, inspiring, economical, anticipatory, honest.
+
+<br/>
+
+
