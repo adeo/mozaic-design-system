@@ -25,7 +25,7 @@ As all our messages reveal our identity and our personality, refer to this chart
 
 
 #### One charter
-Consulting and using this charter will allow you to know and understand the brand's way of representing and expressing itself. This document is a summary. To find all the information, explanations and files, go to the digital platform:
+Consulting and using this charter will allow you to know and understand the brand's way of representing and expressing itself. This document is a summary. Here you will all the information, explanations and files available for use. 
 
 ### OUR AMBITION
 We want to be seen as a leading company that advances the market and makes people grow.
