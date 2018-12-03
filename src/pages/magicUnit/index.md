@@ -16,7 +16,7 @@ Using a magic unit have multiples benefits.
 
 <br>
 
-In the folowing exemple, we see a **grid in the background that is based on the magic unit**. It is subdivised in alfs and quarters to give us more fine control for small elements that require it.
+In the folowing exemple, we see a **grid in the background that is based on the magic unit**. It is subdivised in halfs and quarters to give us more fine control for small elements that require it.
 We can see the red squares snaping to the magic unit grid.
 By **hovering the squares**, you can see how we used the magic unit and the conrresponding values in Px :
 
@@ -177,7 +177,7 @@ The level of granularity that can be used depend of the size of what you are try
 
 <br>
 
-#### Keep in mind that most elements should be designed to be able to grow and and strech with responsivness and accessibility in mind :
+#### Keep in mind that most elements should be designed to be able to grow and and strech with responsiveness and accessibility in mind :
 
 - Elements may be used by other teams in various layout configurations.
 - Browsers, devices, or even plugins dedicated to disabled users may change the way things are displayed.

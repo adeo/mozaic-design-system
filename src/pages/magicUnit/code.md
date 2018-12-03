@@ -43,7 +43,7 @@ html {
 
 ### Ok, so how do we make this work ?
 
-We added a token where you can define your local pixel value of `1rem`. It's exposed in scss as `$local-rem-value`. This value is set to `16` by default. Then, to get a rem value of `$magic-unit`, we devide it by `$local-rem-value` :
+We added a token where you can define your local pixel value of `1rem`. It's exposed in scss as `$local-rem-value`. This value is set to `16` by default. Then, to get a rem value of `$magic-unit`, we divide it by `$local-rem-value` :
 
 ```css
 @import '01-settings-tools/allsettings';
@@ -81,13 +81,13 @@ here their respectives API :
 
 ### The magic-unit function :
 
-> the **magic-unit function** return an **unitless** multiplictaion of the magic unit **expressed in px**, and expect a **multiplicator** parameter.
+> the **magic-unit function** return an **unitless** multiplictaion of the magic unit **expressed in px**, and expect a **multiplier** parameter.
 
-folowing the rules of granularity, it will accept a multiplicator parameter:
+folowing the rules of granularity, it will accept a multiplier parameter:
 
-- of 0.25 increments for multiplicator lesser than 2
-- of 0.5 increments for multiplicators greater than 2 and lesser than 4
-- integers for multiplicators greater than 4
+- of 0.25 increments for multiplier less than 2
+- of 0.5 increments for multipliers greater than 2 and less than 4
+- integers for multipliers greater than 4
 
 **it is particularily usefull when you need to make calculations.**
 
@@ -111,7 +111,7 @@ One valid approach could be the folowing :
 
 <hint type="dont">
     <hintitem dont="true">
-        Dont use an invalid multiplicator parameter : <code>magic-unit(0.6792)</code>. <br>The magic-unit function will throw an error and prevent the css compilation
+        Dont use an invalid multiplier parameter : <code>magic-unit(0.6792)</code>. <br>The magic-unit function will throw an error and prevent the css compilation
     </hintitem>
     <hintitem dont="true">
         Avoid using custom multiplications : <code>magic-unit*12</code>. <br> that way you can be sure to use an authorized value.
