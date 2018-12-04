@@ -1,0 +1,4 @@
+// a conversion tool to express things in rem taking account of the local 1rem value
+@function to-rem($px-val) {
+  @return #{$px-val/$local-rem-value}rem;
+}

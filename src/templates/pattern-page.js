@@ -6,7 +6,8 @@ import styled, { css } from 'styled-components'
 import Layout from '../gatsby-components/layout'
 import Pattern from '../gatsby-components/Pattern'
 import PageTabs from '../gatsby-components/PageTabs'
-import Hint from '../gatsby-components/Hint'
+import Hint, { HintItem } from '../gatsby-components/Hint'
+import { magicUnit, localRemValue } from '../tokens/tokens.module.js'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -17,9 +18,9 @@ const FullWidthContainer = styled.div`
 `
 
 const Container = styled.div`
-  padding: 15px 30px;
+  padding: ${magicUnit / localRemValue}rem ${(magicUnit / localRemValue) * 2}rem;
   margin: 0 auto;
-  max-width: 760px;
+  max-width: ${(magicUnit / localRemValue) * 46}rem;
 `
 
 const PageContent = styled.div`
@@ -31,7 +32,7 @@ const PageContent = styled.div`
 export default ({ data }) => {
   const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: { pattern: Pattern, hint: Hint },
+    components: { pattern: Pattern, hint: Hint, hintitem: HintItem },
   }).Compiler
 
   const post = data.markdownRemark

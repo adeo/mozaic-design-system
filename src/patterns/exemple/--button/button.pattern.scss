@@ -1,5 +1,7 @@
 @import '01-settings-tools/allsettings';
 
 * {
-  color: $blue;
+  font-size: $magic-unit * 1px;
+  line-height: 1.5;
+  padding: $magic-unit * 0.25px $magic-unit * 0.5px;
 }

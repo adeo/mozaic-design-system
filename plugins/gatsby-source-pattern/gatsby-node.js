@@ -39,14 +39,7 @@ const createFSMachine = () =>
   })
 
 exports.sourceNodes = (
-  {
-    actions,
-    createNodeId,
-    createContentDigest,
-    createParentChildLink,
-    reporter,
-    emitter,
-  },
+  { actions, createNodeId, createContentDigest, reporter, emitter },
   configOptions
 ) => {
   const fsMachine = createFSMachine()
@@ -75,7 +68,7 @@ exports.sourceNodes = (
       let patterns = {}
 
       const processDirectoryTree = tree => {
-        if (tree.path.includes('.pattern')) {
+        if (tree.path.includes('.pattern.')) {
           const naming = tree.path.split('.')
           const content = fs.readFileSync(tree.path, 'utf8')
 
@@ -92,19 +85,48 @@ exports.sourceNodes = (
 
       processDirectoryTree(tree)
 
+      const errorCSS = err => `
+        body { 
+          background: red!important;
+          font-family: sans-serif;
+          text-align: center;
+          padding: 30px;
+        }
+        body:after { 
+          content: 'sass building error: ${err.message}'; 
+          font-size: 26px; color: #FFF; 
+        }
+      `
+
       Object.keys(patterns).map(key => {
         const value = patterns[key]
 
         if (value.scss) {
-          const result = sass.renderSync({
-            data: value.scss,
-            includePaths: ['src/styles/'],
-          })
+          let css = '// sass error'
 
-          value.css = result.css.toString('utf8')
+          try {
+            css = sass
+              .renderSync({
+                data: value.scss,
+                includePaths: ['src/styles/'],
+              })
+              .css.toString('utf8')
+          } catch (err) {
+            css = errorCSS(err)
+
+            console.error(
+              `SASS ERROR: ${err.message} \n from : ${path.relative(
+                process.cwd(),
+                err.file
+              )}`
+            )
+          }
+
+          value.css = css
         }
 
         const nodeId = createNodeId(`pattern-${key}`)
+
         let nodeData = Object.assign(
           {},
           {

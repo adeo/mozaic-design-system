@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const HintTitle = styled.h4`
   color: ${({ type }) => (type === 'dont' ? 'FireBrick' : 'ForestGreen')};
@@ -14,12 +14,49 @@ const Container = styled.div`
 `
 
 const HintBox = styled.div`
-  background-color: ${({ type }) =>
-    type === 'dont' ? 'LightPink' : 'LightGreen'};
+  border: solid 1px
+    ${({ type }) => (type === 'dont' ? 'FireBrick' : 'ForestGreen')};
   padding: 15px;
+  border-bottom: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 
   .gatsby-highlight {
     margin: 0;
+  }
+`
+
+export const HintItem = styled.div`
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+
+  ${({ dont }) =>
+    dont
+      ? css`
+          color: FireBrick;
+        `
+      : css`
+          color: ForestGreen;
+        `};
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:before {
+    display: inline-block;
+    padding-right: 8px;
+    font-size: 1.3em;
+    ${({ dont }) =>
+      dont
+        ? css`
+            color: FireBrick;
+            content: '✕';
+          `
+        : css`
+            color: ForestGreen;
+            content: '✔';
+          `};
   }
 `
 

@@ -5,6 +5,11 @@ const CodeButton = styled.button`
   ${isActive =>
     isActive ? `background-color: lightblue;` : `background-color: #999;`};
 `
+const Preformated = styled.pre`
+  max-height: 600px;
+  max-width: 100%;
+  overflow: auto;
+`
 
 const patternCodeSample = ({
   pattern,
@@ -33,11 +38,11 @@ const patternCodeSample = ({
       )}
       {currentCodeSample && (
         <div>
-          <pre>
+          <Preformated>
             <code className={`language-${getLanguage(currentCodeSample)}`}>
               {pattern[currentCodeSample]}
             </code>
-          </pre>
+          </Preformated>
         </div>
       )}
     </div>

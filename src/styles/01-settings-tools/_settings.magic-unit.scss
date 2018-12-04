@@ -1,0 +1,60 @@
+// magicUnit : 16px !default
+
+$mu025: magic-unit-rem(0.25);
+$mu050: magic-unit-rem(0.5);
+$mu075: magic-unit-rem(0.75);
+$mu100: magic-unit-rem(1);
+$mu125: magic-unit-rem(1.25);
+$mu150: magic-unit-rem(1.5);
+$mu200: magic-unit-rem(2);
+$mu250: magic-unit-rem(2.5);
+$mu300: magic-unit-rem(3);
+$mu350: magic-unit-rem(3.5);
+$mu400: magic-unit-rem(4);
+$mu500: magic-unit-rem(5);
+$mu600: magic-unit-rem(6);
+$mu700: magic-unit-rem(7);
+$mu800: magic-unit-rem(8);
+$mu900: magic-unit-rem(9);
+$mu1000: magic-unit-rem(10);
+
+// a function that return a multiple of the magic-unit
+@function magic-unit($multiplier) {
+  @if type-of($multiplier) == number and unitless($multiplier) {
+    @if $multiplier < 2 {
+      // require a 0.25 minimum increment when < 2
+      $iscorrect: $multiplier / 0.25 == ceil($multiplier / 0.25);
+
+      @if $iscorrect {
+        @return $magic-unit * $multiplier;
+      } @else {
+        @error "magic unit function require a parameter with at least 0.25 increment when inferior to 2";
+      }
+    } @else if $multiplier >= 2 and $multiplier < 4 {
+      // require a 0.5 minimum increment when between 2 and 4
+      $iscorrect: $multiplier / 0.5 == ceil($multiplier / 0.5);
+
+      @if $iscorrect {
+        @return $magic-unit * $multiplier;
+      } @else {
+        @error "magic unit function require a parameter with at least 0.5 increment when between 2 to 4";
+      }
+    } @else if $multiplier >= 4 {
+      // require a 1 minimum increment when geater than 4
+      $iscorrect: $multiplier == ceil($multiplier);
+
+      @if $iscorrect {
+        @return $magic-unit * $multiplier;
+      } @else {
+        @error "magic unit function require an integer as parameter when greater than 4";
+      }
+    }
+  } @else {
+    @error "magic unit function require an unitless number as parameter";
+  }
+}
+
+// return a rem authorized magic-unit value
+@function magic-unit-rem($multiplier) {
+  @return to-rem(magic-unit($multiplier));
+}
