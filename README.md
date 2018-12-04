@@ -56,6 +56,20 @@ during development, when changes does not seems not to apply correctly, you may 
 
 `yarn build`
 
+## CI/CD
+
+If you want more explanation go to the related [wiki page](https://github.com/adeo/design-system--styleguide/wiki/CI-CD) .
+
+### Deploiement
+
+Each branch is deployed when creating a Pull Request. The deployment url is sent to the Pull Request Github. There are two deployment environments that can be found [here] (https://github.com/adeo/design-system--styleguide/deployments):
+- staging, allows the deployment of all branches except master
+- production, allows the deployment of master
+
+### Create release
+
+During a merge on master, the pipeline lets you generate the release. You have the possibility to choose the type of release (patch, minor, major). The CI takes care of creating the github tag and deploying it in the registry.
+
 ## Maintainers
 
 ### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
