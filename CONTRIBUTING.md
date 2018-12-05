@@ -14,7 +14,7 @@ today! As a contributor, here are the guidelines we would like you to follow:
 
 ## <a name="coc"></a> Code of Conduct
 
-Please read and follow our [Code of Conduct][coc].
+Please read and follow our [Code of Conduct](https://github.com/adeo/design-system--styleguide/blob/master/CODE_OF_CONDUCT.md).
 
 ## <a name="issue"></a> Found a Bug?
 If you find a bug in the source code, you can help us by
