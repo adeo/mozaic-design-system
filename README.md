@@ -20,6 +20,8 @@ Please considere that this repo is in early stage of development. You can report
 - how to create pages and content in the pattern library :
   - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
 
+#### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md) 
+
 ### requirements :
 
 - node v10+
