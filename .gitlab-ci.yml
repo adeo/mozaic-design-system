@@ -82,8 +82,8 @@ tag:patch:
   script:
     - git config --global user.email "jjalouzot@eleven-labs.com"
     - git config --global user.name "Jonathan Jalouzot"
-    - cp src/styles registry
-    - cp src/tokens registry
+    - cp -R src/styles registry
+    - cp -R src/tokens registry
     - cd registry
     - npm version patch
   <<: *deploy_tag
