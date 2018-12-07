@@ -82,9 +82,6 @@ tag:patch:
   script:
     - git config --global user.email "jjalouzot@eleven-labs.com"
     - git config --global user.name "Jonathan Jalouzot"
-    - npm version patch
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
     - cp src/styles registry
     - cp src/tokens registry
     - cd registry
