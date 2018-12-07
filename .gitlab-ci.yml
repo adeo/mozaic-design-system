@@ -14,9 +14,23 @@ before_script:
   - yarn install
 
 .deploy_tag: &deploy_tag
-  after_script:
+  script:
+    - cp -R src/styles registry
+    - cp -R src/tokens registry
+    - cd registry
+    - npm version $NPM_VERSION
     - echo ${NPM_TOKEN} > ~/.npmrc
     - npm publish --registry http://35.243.145.15
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
+  after_script:
+    - git config --global user.email "jjalouzot@eleven-labs.com"
+    - git config --global user.name "Jonathan Jalouzot"
+    - npm version $NPM_VERSION
+    - echo ${NPM_TOKEN} > ~/.npmrc
+    - npm publish --registry http://35.243.145.15
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
+    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
 
 .deploy_template: &deploy_template
   before_script:
@@ -79,15 +93,8 @@ deploy:prod:
 tag:patch:
   when: manual
   stage: tag
-  script:
-    - git config --global user.email "jjalouzot@eleven-labs.com"
-    - git config --global user.name "Jonathan Jalouzot"
-    - cp -R src/styles registry
-    - cp -R src/tokens registry
-    - cd registry
-    - npm version patch
-    - echo ${NPM_TOKEN} > ~/.npmrc
-    - npm publish --registry http://35.243.145.15
+  variables:
+    NPM_VERSION: 'patch'
   <<: *deploy_tag
 
 tag:minor:
