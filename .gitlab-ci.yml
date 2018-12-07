@@ -1,10 +1,10 @@
 image: node:10
 
 stages:
-  - tag
   - test
   - build
   - deploy
+  - tag
 
 cache:
   paths:
@@ -99,25 +99,29 @@ tag:patch:
   variables:
     NPM_VERSION: 'patch'
   <<: *deploy_tag
+  dependencies:
+    - deploy:prod
+  only:
+    - master
 
 tag:minor:
   when: manual
   stage: tag
-  script:
-    - git config --global user.email "jjalouzot@eleven-labs.com"
-    - git config --global user.name "Jonathan Jalouzot"
-    - npm version minor
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
+  variables:
+    NPM_VERSION: 'minor'
   <<: *deploy_tag
+  dependencies:
+    - deploy:prod
+  only:
+    - master
 
 tag:major:
   when: manual
   stage: tag
-  script:
-    - git config --global user.email "jjalouzot@eleven-labs.com"
-    - git config --global user.name "Jonathan Jalouzot"
-    - npm version major
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git HEAD:master
-    - git push https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git --tags HEAD:master
+  variables:
+    NPM_VERSION: 'major'
   <<: *deploy_tag
+  dependencies:
+    - deploy:prod
+  only:
+    - master

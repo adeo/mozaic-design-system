@@ -1,7 +1,7 @@
 {
   "name": "garden",
   "description": "leroy merlin design system",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
   "repository": {
     "type": "git",
