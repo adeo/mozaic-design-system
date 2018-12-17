@@ -1,4 +1,41 @@
 ---
-title: 'Color'
+title: 'Colors'
 order: 1
 ---
+
+Color is something the team worked on a lot. We wanted an adaptive and a scalable color system. Our colors have been defined using **HSLA color swatches** that we will detail in this documentation. The color palette has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
+
+## What is HSLA ?
+HSLA is a way to define colors based on three properties : **Hue**, **Saturation**, **Lightness** and **Alpha**. We decided to use this standard to have more consistency between colors. It is also easier to relate colors to each other when they are based on HSLA.
+
+>HSLA visual here
+
+## Color swatches
+In this system, every color has a dark and a light variant that can be used to adapt most cases. The designs need to be accessible to everyone and these swatches are really helpful in this case. In order to have this flexibility we designed color swatches based on **9 values** for primary and secondary colors. It means that you can use 9 values of the same color to fit your design needs.  Here is an example showing how it works based on our Primary-01 Secondary-Purple colors.
+
+> Primary-01-600 & Primary-02-600 swatches visuals here
+
+## Primary colors
+
+Primary colors are the colors the team uses on almost every screens and components when designing. They are the main colors of your brand, the core of every design produced. This system allows the team to have every tint it needs to design every situation. It answers typography problems, illustration needs and it also allows to contrast with deep background colors. These are the two primary colors palettes we use in this design system.
+
+> Primary-01 & Primary-02 color palettes here
+<br>Also add third primary > navy blue
+
+## Secondary colors
+Secondary colors are essential to our designs. We need them in many occasions to accent our primary colors and to deliver a specific message such as discounts and special offers. Secondary colors are best used for :
+* Secondary Blue is for focus or informative contents
+* Secondary Purple is for illustration use
+* Secondary Red is for discounts, high alerts and errors
+* Secondary Orange is for warning
+* Secondary Yellow is for illustrations and special offers
+
+> Secondary colors palettes here
+
+## Greyscale
+We used the same principals to design our greyscale but greys are based on **11 values** swatches. Greys have specific use cases for **UI elements** :
+* Texts & Titles
+* Icons
+* Backgrounds
+
+> Grey swatch visual here
