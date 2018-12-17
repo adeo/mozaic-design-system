@@ -3,7 +3,7 @@ title: 'Code'
 order: 1
 ---
 
-# Using magic unit in SCSS :
+# Using magic unit in SCSS 2 :
 
 The magic unit is a `scss` variable generated from tokens: `$magic-unit` .
 
