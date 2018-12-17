@@ -1,0 +1,13 @@
+@import 'fonts.sizes';
+
+@mixin generate-classes() {
+  @each $name, $size in $classMap {
+    .#{$name}{
+        color: red;
+        font-size : #{map-get($fontSizeMobile, $size)};
+        @media #{$desktop}{
+          font-size : #{map-get($fontSizeDesktop, $size)};
+        }
+      };
+  }
+};
