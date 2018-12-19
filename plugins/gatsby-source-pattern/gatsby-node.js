@@ -2,10 +2,9 @@ const dirTree = require('directory-tree')
 
 const chokidar = require(`chokidar`)
 const fs = require(`fs`)
-const path = require(`path`)
 const { Machine } = require(`xstate`)
 
-const sass = require('node-sass')
+const cssCompiler = require('../../cssCompiler/css-pipeline.js')
 
 const createFSMachine = () =>
   Machine({
@@ -73,7 +72,13 @@ exports.sourceNodes = (
           const content = fs.readFileSync(tree.path, 'utf8')
 
           if (patterns[naming[0]] === undefined) {
-            patterns[naming[0]] = {}
+            patterns[naming[0]] = {
+              html: null,
+              css: null,
+              scss: null,
+              json: null,
+              js: null,
+            }
           }
           patterns[naming[0]][naming[2]] = content
         }
@@ -85,65 +90,37 @@ exports.sourceNodes = (
 
       processDirectoryTree(tree)
 
-      const errorCSS = err => `
-        body { 
-          background: red!important;
-          font-family: sans-serif;
-          text-align: center;
-          padding: 30px;
-        }
-        body:after { 
-          content: 'sass building error: ${err.message}'; 
-          font-size: 26px; color: #FFF; 
-        }
-      `
-
-      Object.keys(patterns).map(key => {
-        const value = patterns[key]
-
-        if (value.scss) {
-          let css = '// sass error'
-
-          try {
-            css = sass
-              .renderSync({
-                data: value.scss,
-                includePaths: ['src/styles/'],
-              })
-              .css.toString('utf8')
-          } catch (err) {
-            css = errorCSS(err)
-
-            console.error(
-              `SASS ERROR: ${err.message} \n from : ${path.relative(
-                process.cwd(),
-                err.file
-              )}`
-            )
-          }
-
-          value.css = css
-        }
-
-        const nodeId = createNodeId(`pattern-${key}`)
-
-        let nodeData = Object.assign(
+      const buildNodeData = (id, codes, path) =>
+        Object.assign(
           {},
           {
-            id: nodeId,
-            path: key,
+            id,
+            path,
             codes: {
-              ...value,
+              ...codes,
             },
             internal: {
               type: `Pattern`,
-              content: JSON.stringify(value),
-              contentDigest: createContentDigest(value),
+              content: JSON.stringify(codes),
+              contentDigest: createContentDigest(codes),
             },
           }
         )
 
-        resolve(createNode(nodeData))
+      Object.keys(patterns).map(key => {
+        const codes = patterns[key]
+        const nodeId = createNodeId(`pattern-${key}`)
+
+        if (codes.scss && codes.scss !== '') {
+          cssCompiler(codes.scss, key, key.replace('.scss', '.css')).then(
+            res => {
+              codes.css = res.css
+              resolve(createNode(buildNodeData(nodeId, codes, key)))
+            }
+          )
+        } else {
+          resolve(createNode(buildNodeData(nodeId, codes, key)))
+        }
       })
     })
 
