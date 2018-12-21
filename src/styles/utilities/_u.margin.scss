@@ -1,0 +1,7 @@
+@import 'settings-tools/_all-settings';
+
+@each $sideName, $sideVal in $sides {
+  @each $sizeName, $sizeVal in $sizes {
+    @include space-util('m', $sideName, $sizeName);
+  }
+}
