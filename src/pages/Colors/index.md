@@ -28,7 +28,7 @@ Primary colors are the brand colors. They are the key components for our users t
 Secondary colors are essential to our designs. We need them in many occasions to accent our primary colors and to deliver a specific message such as discounts and special offers. Secondary colors are best used for :
 * Secondary Blue is for focus or informative contents
 * Secondary Purple is for illustration purposes
-* Secondary Red is for discounts, high alerts and errors
+* Secondary Red is for discounts, alerts and errors
 * Secondary Orange is for warning
 * Secondary Yellow is for illustrations and special offers
 
