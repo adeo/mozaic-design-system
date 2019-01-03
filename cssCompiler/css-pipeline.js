@@ -1,6 +1,6 @@
 const autoprefixer = require('autoprefixer')
 const postcss = require('postcss')
-const scss = require('postcss-scss')
+const scssSyntax = require('postcss-scss')
 const nodeSass = require('postcss-node-sass')
 const stylelint = require('stylelint')
 const reporter = require('postcss-reporter')
@@ -17,13 +17,13 @@ const plugins = [
   }),
 ]
 
-const cssCompiler = (css, pathFrom, pathTo) =>
+const cssCompiler = (scss, pathFrom, pathTo) =>
   new Promise((resolve, reject) => {
     postcss(plugins)
-      .process(css, {
+      .process(scss, {
         from: pathFrom,
         to: pathTo,
-        syntax: scss,
+        syntax: scssSyntax,
       })
       .then(res => resolve(res))
       .catch(err => {
