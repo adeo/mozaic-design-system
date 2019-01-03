@@ -20,6 +20,7 @@ before_script:
     - git remote set-url origin https://CaptainJojo:debe49d99c31a1b1079160215b4568cef48c0298@github.com/adeo/design-system--styleguide.git
     - cp -R src/styles registry
     - cp -R src/tokens registry
+    - cp -R cssCompiler registry
     - cd registry
     - npm version $NPM_VERSION
     - git add package.json
@@ -45,7 +46,7 @@ before_script:
     paths:
       - public
   script:
-      - yarn build
+    - yarn build
 
 build:demo:
   stage: build
