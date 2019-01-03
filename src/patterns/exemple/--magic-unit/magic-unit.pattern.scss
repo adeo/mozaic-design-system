@@ -52,12 +52,12 @@ body {
       background-color: red;
     }
 
-    &:before {
+    &::before {
       display: block;
       content: '';
     }
 
-    &:after {
+    &::after {
       content: '';
       display: none;
       position: absolute;
@@ -76,12 +76,12 @@ body {
       &--#{$key*100} {
         z-index: $iterator;
 
-        &:before {
+        &::before {
           width: magic-unit-rem($key);
           height: magic-unit-rem($key);
         }
 
-        &:hover:after {
+        &:hover::after {
           display: block;
           content: 'multiplier value: #{$key} \A rem value: #{magic-unit-rem($key)}\A px value: #{magic-unit($key)}px \A unitless sass function: magic-unit(#{$key}) \A rem sass function: magic-unit-rem(#{$key})';
         }

@@ -5,10 +5,9 @@ import PatternFrame from './PatternFrame'
 
 class Pattern extends PureComponent {
   pickPattern = data => {
-    const pattern =
-      data.allPattern.edges.find(
-        pattern => pattern.node.path === this.props.path
-      ) || undefined
+    const pattern = data.allPattern.edges.find(
+      item => item.node.path === this.props.path
+    )
 
     const cleannedPattern = {
       node: {
@@ -48,7 +47,6 @@ class Pattern extends PureComponent {
                   path
                   codes {
                     js
-                    json
                     html
                     scss
                     css
