@@ -5,6 +5,24 @@ order: 1
 
 ## The essence of the brand's expression charter
 
+```hint|directive
+<b>OUR AMBITION</b><br>
+We want to be seen as a leading company that advances the market and makes people grow.
+
+<br><br>
+
+<b>OUR VISION</b><br>
+We want to be the brand-solutions that allows everyone to accomplish by completing their home project.
+
+<br><br>
+
+<b>OUR PERSONALITY</b><br>
+We want it to be expressed through our qualities: pedagogue, benevolent, helpful, competent, close, inspiring, economical, anticipatory, honest.
+
+
+```
+
+
 The **LEROY MERLIN** brand is unique. There is only one brand **LEROY MERLIN** and it is the same regardless of the public concerned: customers, employees, institutional.
 </br>
 **LEROY MERLIN** therefore has only one territory of expression translated to digital by this _design system_.
@@ -27,14 +45,6 @@ As all our messages reveal our identity and our personality, refer to this chart
 #### One charter
 Consulting and using this charter will allow you to know and understand the brand's way of representing and expressing itself. This document is a summary. Here you will all the information, explanations and files available for use. 
 
-### OUR AMBITION
-We want to be seen as a leading company that advances the market and makes people grow.
-
-### OUR VISION
-We want to be the brand-solutions that allows everyone to accomplish by completing their home project.
-
-### OUR PERSONALITY
-We want it to be expressed through our qualities: pedagogue, benevolent, helpful, competent, close, inspiring, economical, anticipatory, honest.
 
 <br/>
 
