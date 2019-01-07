@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
-import Prism from 'prismjs'
+import React, { PureComponent } from 'react'
+import styled, { css } from 'styled-components'
 
 import { MagicUnit, LocalRemValue } from '../../tokens/build/js/tokens.js'
-import PatternCodeSample from './PatternCodeSample'
 
 const remMagicUnit = MagicUnit / LocalRemValue
 const trans = 'transparent'
@@ -11,8 +9,7 @@ const lineColor = `rgba(0, 100, 100, 0.1)`
 const subLineColor = `rgba(0, 100, 100, 0.03)`
 
 const FrameContainer = styled.div`
-  padding: ${remMagicUnit}rem 0;
-  margin: ${remMagicUnit}rem 0;
+  margin: ${remMagicUnit}rem auto;
   background-image: linear-gradient(90deg, ${lineColor} 1px, ${trans} 1px),
     linear-gradient(0deg, ${lineColor} 1px, ${trans} 1px),
     linear-gradient(90deg, ${subLineColor} 1px, ${trans} 1px),
@@ -26,16 +23,32 @@ const FrameContainer = styled.div`
     ${remMagicUnit / 2}rem ${remMagicUnit / 2}rem,
     ${remMagicUnit / 4}rem ${remMagicUnit / 4}rem,
     ${remMagicUnit / 4}rem ${remMagicUnit / 4}rem;
+
+  ${({ viewport, viewPorts, availableWidth, fullScreen }) => css`
+    width: ${viewPorts[viewport]}px;
+    min-width: ${viewPorts[viewport]}px;
+
+    transform: scale(
+      ${availableWidth > viewPorts[viewport]
+        ? 1
+        : availableWidth / viewPorts[viewport]}
+    );
+
+    transform-origin: ${fullScreen ? 'center' : 'left'};
+  `};
 `
 
-export class Pattern extends Component {
+const Frame = styled.iframe`
+  width: 100%;
+  margin: 0;
+  padding: 0;
+`
+
+export class PatternFrame extends PureComponent {
   constructor(props) {
     super(props)
     this.state = {
       iframeHeight: 0,
-      currentCodeSample: null,
-      copyCompatible: false,
-      copied: false,
     }
   }
 
@@ -50,27 +63,7 @@ export class Pattern extends Component {
 
   componentDidMount() {
     this.updateIframe()
-    this.isClipBoardAPIAvailable()
   }
-
-  showCode = codeSampleName => {
-    this.setState(
-      {
-        currentCodeSample: codeSampleName,
-        copied: false,
-      },
-      Prism.highlightAll
-    )
-  }
-
-  getLanguage = ext =>
-    ({
-      js: 'javascript',
-      json: 'JSON',
-      html: 'html',
-      css: 'css',
-      scss: 'css',
-    }[ext])
 
   updateIframe = () => {
     const pattern = this.props.data.node.codes
@@ -105,69 +98,25 @@ export class Pattern extends Component {
     })
   }
 
-  isClipBoardAPIAvailable = () => {
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: 'clipboard-write' }).then(result => {
-        if (result.state === 'granted' || result.state === 'prompt') {
-          this.setState({ copyCompatible: true })
-        }
-      })
-    }
-  }
-
-  copyCodeToClipBoard = () => {
-    const { currentCodeSample } = this.state
-    const pattern = this.props.data.node.codes
-    const codeToCopy = pattern[currentCodeSample]
-
-    navigator.clipboard.writeText(codeToCopy).then(
-      () => {
-        this.setState({ copied: true })
-      },
-      () => {
-        alert(`ain't possible to copy shit !`)
-      }
-    )
-  }
-
   render() {
-    const {
-      iframeHeight,
-      currentCodeSample,
-      copyCompatible,
-      copied,
-    } = this.state
+    const { iframeHeight } = this.state
+    const { viewport, viewPorts, availableWidth, fullScreen } = this.props
 
     if (this.props.data === undefined) {
       return <div />
     }
 
-    const pattern = this.props.data.node.codes
-
     return (
-      <div>
-        <FrameContainer>
-          <iframe
-            title="toto"
-            width="100%"
-            style={{ margin: 0, padding: 0 }}
-            frameBorder="0"
-            height={iframeHeight}
-            ref="iframe"
-          />
-        </FrameContainer>
-        <PatternCodeSample
-          pattern={pattern}
-          showCode={this.showCode}
-          currentCodeSample={currentCodeSample}
-          copied={copied}
-          copyCompatible={copyCompatible}
-          copyCodeToClipBoard={this.copyCodeToClipBoard}
-          getLanguage={this.getLanguage}
-        />
-      </div>
+      <FrameContainer
+        viewport={viewport}
+        viewPorts={viewPorts}
+        availableWidth={availableWidth}
+        fullScreen={fullScreen}
+      >
+        <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+      </FrameContainer>
     )
   }
 }
 
-export default Pattern
+export default PatternFrame

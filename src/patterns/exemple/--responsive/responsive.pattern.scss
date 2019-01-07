@@ -14,7 +14,7 @@ $exemple-colors: (
   width: 100%;
   height: $mu1000;
 
-  &:after {
+  &::after {
     font-family: sans-serif;
     text-transform: uppercase;
     display: block;
@@ -27,7 +27,8 @@ $exemple-colors: (
   @each $key, $value in $screens {
     @include from-screen($key) {
       background-color: map-get($exemple-colors, $key);
-      &:after {
+
+      &::after {
         content: '#{$key} > #{$value}px';
       }
     }
