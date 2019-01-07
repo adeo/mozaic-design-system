@@ -46,7 +46,7 @@ html {
 We added a token where you can define your local pixel value of `1rem`. It's exposed in scss as `$local-rem-value`. This value is set to `16` by default. Then, to get a rem value of `$magic-unit`, we divide it by `$local-rem-value` :
 
 ```css
-@import '01-settings-tools/allsettings';
+@import 'settings-tools/all-settings';
 
 .my-element {
   /* suposing your rem equal 16px */
@@ -62,7 +62,7 @@ To make things easier, we created a sass function that do that for you :
 **the `to-rem()` sass function :**
 
 ```css
-@import '01-settings-tools/allsettings';
+@import 'settings-tools/all-settings';
 /* your rem ($local-rem-value) can by equal either to 10px or 16px */
 .my-element {
   margin-bottom: to-rem($magic-unit); /* return 1.6rem or 1rem = 16px */
@@ -96,7 +96,7 @@ Imagine you create a button. You whant it to have exactly 2.5 x magic-unit heigh
 One valid approach could be the folowing :
 
 ```css
-@import '01-settings-tools/allsettings';
+@import 'settings-tools/all-settings';
 
 .my-button {
   // define local variables
@@ -125,7 +125,7 @@ One valid approach could be the folowing :
 It basically just do the `to-rem()` part for you
 
 ```css
-@import '01-settings-tools/allsettings';
+@import 'settings-tools/all-settings';
 
 .my-element {
   margin-bottom: magic-unit-rem(0.25);
