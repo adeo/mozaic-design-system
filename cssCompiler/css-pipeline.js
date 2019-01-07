@@ -1,25 +1,10 @@
-const autoprefixer = require('autoprefixer')
 const postcss = require('postcss')
 const scssSyntax = require('postcss-scss')
-const nodeSass = require('postcss-node-sass')
-const stylelint = require('stylelint')
-const reporter = require('postcss-reporter')
-
-const styleLintConfig = require('./styleLintConfig')
-
-const plugins = [
-  stylelint({ config: styleLintConfig }),
-  reporter({ clearReportedMessages: true }),
-  nodeSass({ includePaths: ['src/styles/'] }),
-  autoprefixer({
-    grid: 'autoplace',
-    browsers: ['> 1%'],
-  }),
-]
+const postCssPluginConfig = require('./postcssPluginConfig')
 
 const cssCompiler = (scss, pathFrom, pathTo) =>
   new Promise((resolve, reject) => {
-    postcss(plugins)
+    postcss(postCssPluginConfig)
       .process(scss, {
         from: pathFrom,
         to: pathTo,
