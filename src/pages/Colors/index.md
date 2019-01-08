@@ -5,12 +5,12 @@ order: 1
 
 Color is something the team worked on a lot. We wanted an adaptive and a scalable color system. Our colors have been defined using **HSLA color swatches**. The color palette has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
 
-## What is HSLA ?
+# What is HSLA ?
 HSLA is a way to define colors based on three properties : **Hue**, **Saturation**, **Light** and **Alpha**. We decided to use this standard to have more consistency between colors. It is also easier to relate colors to each other when they are based on HSLA.
 
 ![hslaVisual](HslaGrey.png)
 
-## Color swatches
+# Color swatches
 In this system, every color has a dark and a light variant that can be used to adapt to most cases. The designs need to be accessible to everyone and these swatches are really helpful in this case. In order to have this flexibility we designed color swatches based on **9 values** for primary and secondary colors. It means that you can use 9 values of the same color to fit your design needs. This system allows the team to have every tint it needs to design every situation. It answers typography problems, illustration needs and it also allows to contrast with deep background colors. Here is an example showing how it works based on our Primary-01 Secondary-Purple colors.
 
 ![Primary-01](Primary-01.jpg)
@@ -60,7 +60,7 @@ Secondary Yellow is for illustrations and special offers.
 
 ![SecondaryYellowColorPalette](SecondaryYellowColorPalette.png)
 
-## Greyscale
+# Greyscale
 We used the same principles to design our greyscale but greys are based on **11 values** swatches. Greys have specific use cases for **UI elements** :
 * Texts & Titles
 * Icons
