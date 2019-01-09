@@ -1,7 +1,7 @@
 {
   "name": "garden",
   "description": "leroy merlin design system",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
     "node": ">=10"
   },
   "dependencies": {
+    "autoprefixer": "^9.4.3",
     "babel-plugin-styled-components": "^1.8.0",
     "chokidar": "^1.7.0",
     "directory-tree": "^2.1.0",
@@ -34,6 +35,10 @@
     "gatsby-transformer-remark": "^2.1.7",
     "gatsby-transformer-sharp": "^2.1.6",
     "node-sass": "^4.9.4",
+    "postcss": "^7.0.7",
+    "postcss-node-sass": "^2.1.8",
+    "postcss-reporter": "^6.0.0",
+    "postcss-scss": "^2.0.0",
     "prism-themes": "^1.0.1",
     "prismjs": "^1.15.0",
     "react": "^16.5.1",
@@ -41,6 +46,9 @@
     "react-helmet": "^5.2.0",
     "rehype-react": "^3.0.3",
     "styled-components": "^4.0.2",
+    "stylelint": "^9.9.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.4.1",
     "theo": "^8.0.0",
     "xstate": "^3.1.0"
   },

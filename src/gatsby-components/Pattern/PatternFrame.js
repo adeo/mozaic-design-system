@@ -78,18 +78,27 @@ export class Pattern extends Component {
     const document = iframe.contentDocument
     const head = document.getElementsByTagName('head')[0]
     const style = document.createElement('style')
-    const js = document.createElement('script')
 
-    js.innerHTML = pattern.js
+    if (pattern.js) {
+      const js = document.createElement('script')
+      js.innerHTML = pattern.js
+      head.appendChild(js)
+    }
+
+    if (pattern.css) {
+      style.innerHTML = `
+        ${this.iframeCSS()}
+        ${pattern.css}
+      `
+    } else {
+      style.innerHTML = this.iframeCSS()
+    }
+
     head.appendChild(style)
-    document.body.innerHTML = pattern.html
-    document.body.style.margin = 0
 
-    style.innerHTML = `
-      ${this.iframeCSS()}
-      ${pattern.css}
-    `
-    head.appendChild(js)
+    document.body.innerHTML =
+      pattern.html !== undefined ? pattern.html : 'No html'
+    document.body.style.margin = 0
 
     this.setState({
       iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
