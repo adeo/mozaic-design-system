@@ -40,3 +40,8 @@ our style must especially focus on expressing its depth.
 must "make you want" It's about being always passionate, exciting, enthusiastic, living,
 engaging and not cold, distant or giving lessons.
 The tone must evoke ambition and energy with our interlocutors without however being loud or outrageous.
+
+### Sympa
+Proximity, smile, sharing, collaboration, listening must be expressed by this style line.
+**LEROY MERLIN** can not be distant, self-centered or indifferent, elitist, haughty. **We** understands people, understands expectations locals and ranks on their side, but staying at a fair distance.
+The level of language is not supported, but neither is it familiar.
