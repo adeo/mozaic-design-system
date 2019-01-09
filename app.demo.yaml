@@ -1,3 +1,9 @@
 service: demo
 runtime: custom
 env: flex
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
+  cpu_utilization:
+    target_utilization: 0.8
