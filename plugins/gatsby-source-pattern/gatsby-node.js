@@ -109,7 +109,6 @@ exports.sourceNodes = (
         )
 
       Object.keys(patterns).map(key => {
-        console.log(key)
         const codes = patterns[key]
         const nodeId = createNodeId(`pattern-${key}`)
 

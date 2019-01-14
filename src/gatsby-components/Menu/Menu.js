@@ -78,8 +78,6 @@ export default class Menu extends PureComponent {
 
           const relatedIndex =
             indexes.find(index => {
-              console.log(index.dirPath)
-              console.log(dir.path)
               return index.dirPath === dir.path
             }) || undefined
 
