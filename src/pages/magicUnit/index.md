@@ -97,8 +97,8 @@ The level of granularity that can be used depend of the size of what you are try
   <thead>
     <tr>
       <th>Multiplier (between 2 and 4)</th>
-      <th>"&nbsp;</th>
-      <th>"&nbsp;</th>
+      <th>-</th>
+      <th>-</th>
     </tr>
   </thead>
   <tbody>
@@ -126,8 +126,8 @@ The level of granularity that can be used depend of the size of what you are try
   <thead>
     <tr>
       <th>Multiplier (more than 4)</th>
-      <th>"&nbsp;</th>
-      <th>"&nbsp;</th>
+      <th>-</th>
+      <th>-</th>
     </tr>
   </thead>
   <tbody>
@@ -148,8 +148,8 @@ The level of granularity that can be used depend of the size of what you are try
       </tr>
       <tr>
         <td>etc...</td>
-        <td></td>
-        <td></td>
+        <td>-</td>
+        <td>-</td>
       </tr>
     </tbody>
 </table>
