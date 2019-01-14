@@ -64,7 +64,7 @@ export default class Menu extends PureComponent {
         // filter what's not a directory or is a pattern directory
         .filter(node => node.type === 'directory' && !node.name.includes('--'))
         .map(dir => ({
-          path: dir.path.replace('src/', ''), // normalise path to compare between markdowns and dirtree
+          path: dir.path.replace(/\\/g, '/').replace('src/', ''), // normalise path to compare between markdowns and dirtree
           children:
             dir.childrenNode && dir.childrenNode.length > 0
               ? filterDirectories(dir.childrenNode)
@@ -77,7 +77,9 @@ export default class Menu extends PureComponent {
           let dirIndex
 
           const relatedIndex =
-            indexes.find(index => index.dirPath === dir.path) || undefined
+            indexes.find(index => {
+              return index.dirPath === dir.path
+            }) || undefined
 
           if (relatedIndex) {
             dirIndex = relatedIndex
