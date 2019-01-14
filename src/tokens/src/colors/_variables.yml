@@ -1,0 +1,94 @@
+aliases:
+
+  #grey
+  p-color-grey-000: '#FFFFFF'
+  p-color-grey-100: '#EEEEF0'
+  p-color-grey-200: '#D3D2D6'
+  p-color-grey-300: '#BAB6BC'
+  p-color-grey-400: '#A19BA2'
+  p-color-grey-500: '#887F87'
+  p-color-grey-600: '#6F676C'
+  p-color-grey-700: '#554F52'
+  p-color-grey-800: '#3C3738'
+  p-color-grey-900: '#222020'
+  p-color-grey-999: '#000000'
+
+  #primary
+  #LM
+  p-color-primary-01-100: '#EAF3E2'
+  p-color-primary-01-200: '#CBE3B5'
+  p-color-primary-01-300: '#ADD585'
+  p-color-primary-01-400: '#91C854'
+  p-color-primary-01-500: '#78BE20'
+  p-color-primary-01-600: '#41A017'
+  p-color-primary-01-700: '#158110'
+  p-color-primary-01-800: '#0A601B'
+  p-color-primary-01-900: '#053E1F'
+
+  #Campus
+  p-color-primary-02-100: '#053E1F'
+  p-color-primary-02-200: '#A5D1CB'
+  p-color-primary-02-300: '#6EB4AD'
+  p-color-primary-02-400: '#379590'
+  p-color-primary-02-500: '#007574'
+  p-color-primary-02-600: '#035F64'
+  p-color-primary-02-700: '#044C53'
+  p-color-primary-02-800: '#063A44'
+  p-color-primary-02-900: '#062B35'
+
+
+  #secondary
+  #blue
+  p-color-secondary-blue-100: '#ECFCFD'
+  p-color-secondary-blue-200: '#B7EEF5'
+  p-color-secondary-blue-300: '#84DBEB'
+  p-color-secondary-blue-400: '#54C4DE'
+  p-color-secondary-blue-500: '#25A8D0'
+  p-color-secondary-blue-600: '#2282A8'
+  p-color-secondary-blue-700: '#1E5F82'
+  p-color-secondary-blue-800: '#18415D'
+  p-color-secondary-blue-900: '#102739'
+
+  #Purple
+  p-color-secondary-purple-100: '#EFEBFE'
+  p-color-secondary-purple-200: '#C7B0FA'
+  p-color-secondary-purple-300: '#A575F3'
+  p-color-secondary-purple-400: '#883BE9'
+  p-color-secondary-purple-500: '#7000DD'
+  p-color-secondary-purple-600: '#5803B3'
+  p-color-secondary-purple-700: '#42058A'
+  p-color-secondary-purple-800: '#2E0663'
+  p-color-secondary-purple-900: '#1C053D'
+
+  #Red
+  p-color-secondary-red-100: '#FEEDEE'
+  p-color-secondary-red-200: '#FAB9BC'
+  p-color-secondary-red-300: ' #F38789'
+  p-color-secondary-red-400: '#EA5D58'
+  p-color-secondary-red-500: '#DF382B'
+  p-color-secondary-red-600: '#B42A27'
+  p-color-secondary-red-700: '#8B2226'
+  p-color-secondary-red-800: '#641B21'
+  p-color-secondary-red-900: '#3E1219'
+
+  #orange
+  p-color-secondary-orange-100: '#FFF5EB'
+  p-color-secondary-orange-200: '#FFDAB2'
+  p-color-secondary-orange-300: '#FFC17D'
+  p-color-secondary-orange-400: '#FFAB4B'
+  p-color-secondary-orange-500: '#FC961E'
+  p-color-secondary-orange-600: '#C86F21'
+  p-color-secondary-orange-700: '#974F20'
+  p-color-secondary-orange-800: '#6A351C'
+  p-color-secondary-orange-900: '#401F15'
+
+  #yellow
+  p-color-secondary-yellow-100: '#FFF8E2'
+  p-color-secondary-yellow-200: '#FFEBAF'
+  p-color-secondary-yellow-300: '#FEE07D'
+  p-color-secondary-yellow-400: '#FCD64C'
+  p-color-secondary-yellow-500: '#F8CC1C'
+  p-color-secondary-yellow-600: '#C9A21B'
+  p-color-secondary-yellow-700: '#9C7B18'
+  p-color-secondary-yellow-800: '#705613'
+  p-color-secondary-yellow-900: '#46350D'

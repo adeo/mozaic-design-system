@@ -1,0 +1,31 @@
+# Supported categories
+# Category | Friendly Name
+#
+# `spacing` | Spacing
+# `sizing` | Sizing
+# `font` | Fonts
+# `font-style` | Font Styles
+# `font-weight` | Font Weights
+# `font-size` | Font Sizes
+# `line-height` | Line Heights
+# `font-family` | Font Families
+# `border-style` | Border Styles
+# `border-color` | Border Colors
+# `radius` | Radius
+# `border-radius` | Border Radii
+# `hr-color` | Horizontal Rule Colors
+# `background-color` | Background Colors
+# `gradient` | Gradients
+# `background-gradient` | Background Gradients
+# `drop-shadow` | Drop Shadows
+# `box-shadow` | Box Shadows
+# `inner-shadow` | Inner Drop Shadows
+# `text-color` | Text Colors
+# `text-shadow` | Text Shadows
+# `time` | Time
+# `media-query` | Media Queries
+
+imports:
+  - './colors/colors.yml'
+  - './colors/colors.yml'
+  - './sizing/magic_unit.yml'

@@ -1,0 +1,21 @@
+global:
+  category: 'text-color'
+  type: 'color'
+imports:
+  - ./_variables.yml
+props:
+
+  - name: 'text-000'
+    value: '{!p-color-grey-000}'
+  - name: 'text-300'
+    value: '{!p-color-grey-300}'
+  - name: 'text-400'
+    value: '{!p-color-grey-400}'
+  - name: 'text-500'
+    value: '{!p-color-grey-500}'
+  - name: 'text-700'
+    value: '{!p-color-grey-700}'
+  - name: 'text-900'
+    value: '{!p-color-grey-900}'
+  - name: 'text-999'
+    value: '{!p-color-grey-999}'
