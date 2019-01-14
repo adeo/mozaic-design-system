@@ -1,0 +1,16 @@
+@import 'layouts/_grid';
+
+// Define a generic grid system
+@include newGrid(12, true, 16, 100%);
+
+
+.gl-col-container{
+    margin-bottom: 1rem;
+    > div{
+        background: powderblue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: .75rem;
+    }
+}

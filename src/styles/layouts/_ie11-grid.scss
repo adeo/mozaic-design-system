@@ -1,0 +1,76 @@
+@mixin genericForIE11() {   
+    _:-ms-fullscreen, 
+    :root{
+        .gl-col-container {
+            margin-left: auto;
+            margin-right: auto;
+
+            &:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            .gl-col-line-end { 
+                margin-right: 0 !important; 
+
+                & + [class^=gl-col-] {
+                    clear: left;
+                }
+            }
+
+            & > [class*=gl-col-] {
+                float: left;
+            }
+            .gl-col-start-1 {
+                margin-left: 0;
+                clear: left;
+            }
+            .gl-col-ie-offset-0 {
+                margin-left: 0; 
+            }
+        }
+    }
+}
+
+@mixin generateColumnForIE($name, $columnCount, $containerWidth, $gutterWidth) {
+    _:-ms-fullscreen, 
+    :root{
+        .gl-col-container {
+            width: $containerWidth;
+            [class^=gl-col] {
+                margin-right: $gutterWidth * 1px;
+            }
+        }
+        .gl-col-line-end-#{$name} { 
+            margin-right: 0 !important; 
+            & + [class^=gl-col] {
+                clear: left;
+            }
+        }
+        $columnWidth : calculateColumnWidth( $columnCount, $containerWidth, $gutterWidth );
+        @for $i from 1 through $columnCount {    
+            .gl-col-#{$i}, 
+            .gl-col-#{$name}-#{$i} { 
+                width : calc( ( #{$columnWidth} * $i ) + ( $gutterWidth * ($i - 1) ) );
+            }
+            .gl-col-start-#{$i}, 
+            .gl-col-start-#{$name}-#{$i} { 
+                margin-left: calc( ( #{$columnWidth} + $gutterWidth ) * ( $i + 1 ) ) !important;
+            }
+            .gl-col-ie-offset-#{$i} {
+                margin-left: calc( ( #{$columnWidth} * $i ) + ( $gutterWidth * $i ) ) !important;
+            }
+        }
+        @for $i from 0 through $columnCount {
+            // Surcharge pour ce breakpoint
+            .gl-col-ie-offset-#{$name}-#{$i} {
+                margin-left: calc( ( #{$columnWidth + $gutterWidth} ) * $i ) !important;
+            }
+        }
+    }
+}
+
+@function calculateColumnWidth( $columnCount, $containerWidth, $gutterWidth ){
+    @return ((#{$containerWidth} - #{$gutterWidth * ($columnCount - 1)}px ) / #{$columnCount}) ;
+}

@@ -1,0 +1,65 @@
+@import '../settings-tools/s.screens.scss';
+@import './_ie11-grid.scss';
+
+
+@mixin newGrid($columnCount, $ieSupport, $gutterWidth, $containerWidth, $name : '') {
+  .gl-col-container {
+    margin:0 auto;
+    display: grid;
+    width: $containerWidth;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-columns: #{generateColumnTemplate($columnCount)};
+    grid-column-gap: $gutterWidth * 1px;
+  }
+
+  // Base columns generation
+  @for $i from 1 through $columnCount {
+    .gl-col-#{$i} {
+      grid-column-end: span $i;
+    }
+    .gl-col-start-#{$i} {
+      grid-column-start: col-#{$i}-start;
+    }
+  }
+
+  // Specific name columns generation
+  // Useful with different breakpoint for example
+  @if $name != ''{
+    @include generateColumn($name, $columnCount);
+  }
+  
+  // Init mixins for IE11 Support
+  @if $ieSupport == true {
+
+    // Base columns generation addons for IE11
+    @include genericForIE11();
+
+    // Specific name columns generation addons for IE11
+    @include generateColumnForIE($name, $columnCount, $containerWidth, $gutterWidth);
+  }
+}
+
+@mixin generateColumn($name, $columnCount) { 
+  @for $i from 1 through $columnCount {
+    .gl-col-#{$name}-#{$i} {
+      grid-column-end: span $i;
+    }
+    .gl-col-start-#{$name}-#{$i} {
+      grid-column-start: col-#{$i}-start;
+    }
+  }
+}
+
+@function generateColumnTemplate($columnCount) {
+  $grid-template : '';
+  @for $i from 1 through $columnCount {
+    @if $i == 1 {
+      $grid-template :  '[col-#{$i}-start] 1fr [col-#{$i}-end col-#{$i + 1}-start]';
+    } @else if $i == $columnCount {
+      $grid-template : '#{$grid-template} 1fr [col-#{$columnCount}-end]';
+    } @else {
+      $grid-template : '#{$grid-template} 1fr [col-#{$i}-end col-#{$i + 1}-start]';
+    }
+  }
+  @return $grid-template;
+}
