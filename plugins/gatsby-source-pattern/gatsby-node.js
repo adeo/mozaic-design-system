@@ -1,4 +1,5 @@
 const dirTree = require('directory-tree')
+const path = require('path')
 
 const chokidar = require(`chokidar`)
 const fs = require(`fs`)
@@ -90,12 +91,12 @@ exports.sourceNodes = (
 
       processDirectoryTree(tree)
 
-      const buildNodeData = (id, codes, path) =>
+      const buildNodeData = (id, codes, treePath) =>
         Object.assign(
           {},
           {
             id,
-            path,
+            path: treePath,
             codes: {
               ...codes,
             },
@@ -108,6 +109,7 @@ exports.sourceNodes = (
         )
 
       Object.keys(patterns).map(key => {
+        console.log(key)
         const codes = patterns[key]
         const nodeId = createNodeId(`pattern-${key}`)
 
@@ -115,11 +117,11 @@ exports.sourceNodes = (
           cssCompiler(codes.scss, key, key.replace('.scss', '.css')).then(
             res => {
               codes.css = res.css
-              resolve(createNode(buildNodeData(nodeId, codes, key)))
+              resolve(createNode(buildNodeData(nodeId, codes,  key.replace(/\\/g, '/'))))
             }
           )
         } else {
-          resolve(createNode(buildNodeData(nodeId, codes, key)))
+          resolve(createNode(buildNodeData(nodeId, codes,  key.replace(/\\/g, '/'))))
         }
       })
     })
