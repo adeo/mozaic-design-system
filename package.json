@@ -56,7 +56,7 @@
     "prettier": "^1.14.2"
   },
   "scripts": {
-    "tokens-build": "theo src/tokens/tokens.json --transform web --format scss,module.js,html --dest ./src/tokens",
+    "tokens-build": "rm -rf src/tokens/dist && mkdir -p src/tokens/dist && theo src/tokens/src/_design_tokens.yml --transform web --format scss,module.js,html,less,json,raw.json,ios.json,android.xml,map.scss,map.variables.scss --dest ./src/tokens/dist",
     "clean-cache": "rm -rf ./.cache ./public",
     "prebuild": "yarn clean-cache && yarn tokens-build",
     "build": "gatsby build",

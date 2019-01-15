@@ -1,0 +1,460 @@
+{
+  "properties": [
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey000",
+      "value": "rgb(255, 255, 255)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey100",
+      "value": "rgb(238, 238, 240)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey200",
+      "value": "rgb(211, 210, 214)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey300",
+      "value": "rgb(186, 182, 188)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey400",
+      "value": "rgb(161, 155, 162)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey500",
+      "value": "rgb(136, 127, 135)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey600",
+      "value": "rgb(111, 103, 108)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey700",
+      "value": "rgb(85, 79, 82)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey800",
+      "value": "rgb(60, 55, 56)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey900",
+      "value": "rgb(34, 32, 32)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorGrey999",
+      "value": "rgb(0, 0, 0)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01100",
+      "value": "rgb(234, 243, 226)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01200",
+      "value": "rgb(203, 227, 181)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01300",
+      "value": "rgb(173, 213, 133)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01400",
+      "value": "rgb(145, 200, 84)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01500",
+      "value": "rgb(120, 190, 32)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01600",
+      "value": "rgb(65, 160, 23)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01700",
+      "value": "rgb(21, 129, 16)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01800",
+      "value": "rgb(10, 96, 27)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary01900",
+      "value": "rgb(5, 62, 31)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02100",
+      "value": "rgb(5, 62, 31)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02200",
+      "value": "rgb(165, 209, 203)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02300",
+      "value": "rgb(110, 180, 173)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02400",
+      "value": "rgb(55, 149, 144)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02500",
+      "value": "rgb(0, 117, 116)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02600",
+      "value": "rgb(3, 95, 100)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02700",
+      "value": "rgb(4, 76, 83)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02800",
+      "value": "rgb(6, 58, 68)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPrimary02900",
+      "value": "rgb(6, 43, 53)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue100",
+      "value": "rgb(236, 252, 253)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue200",
+      "value": "rgb(183, 238, 245)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue300",
+      "value": "rgb(132, 219, 235)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue400",
+      "value": "rgb(84, 196, 222)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue500",
+      "value": "rgb(37, 168, 208)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue600",
+      "value": "rgb(34, 130, 168)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue700",
+      "value": "rgb(30, 95, 130)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue800",
+      "value": "rgb(24, 65, 93)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryBlue900",
+      "value": "rgb(16, 39, 57)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple100",
+      "value": "rgb(239, 235, 254)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple200",
+      "value": "rgb(199, 176, 250)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorPsecondaryPurple300",
+      "value": "rgb(165, 117, 243)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple400",
+      "value": "rgb(136, 59, 233)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple500",
+      "value": "rgb(112, 0, 221)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple600",
+      "value": "rgb(88, 3, 179)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple700",
+      "value": "rgb(66, 5, 138)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple800",
+      "value": "rgb(46, 6, 99)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryPurple900",
+      "value": "rgb(28, 5, 61)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed100",
+      "value": "rgb(254, 237, 238)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed200",
+      "value": "rgb(250, 185, 188)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed300",
+      "value": "rgb(243, 135, 137)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed400",
+      "value": "rgb(234, 93, 88)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed500",
+      "value": "rgb(223, 56, 43)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed600",
+      "value": "rgb(180, 42, 39)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed700",
+      "value": "rgb(139, 34, 38)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed800",
+      "value": "rgb(100, 27, 33)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryRed900",
+      "value": "rgb(62, 18, 25)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange100",
+      "value": "rgb(255, 245, 235)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange200",
+      "value": "rgb(255, 218, 178)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange300",
+      "value": "rgb(255, 193, 125)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange400",
+      "value": "rgb(255, 171, 75)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange500",
+      "value": "rgb(252, 150, 30)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange600",
+      "value": "rgb(200, 111, 33)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange700",
+      "value": "rgb(151, 79, 32)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange800",
+      "value": "rgb(106, 53, 28)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryOrange900",
+      "value": "rgb(64, 31, 21)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow100",
+      "value": "rgb(255, 248, 226)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow200",
+      "value": "rgb(255, 235, 175)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow300",
+      "value": "rgb(254, 224, 125)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow400",
+      "value": "rgb(252, 214, 76)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow500",
+      "value": "rgb(248, 204, 28)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow600",
+      "value": "rgb(201, 162, 27)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow700",
+      "value": "rgb(156, 123, 24)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow800",
+      "value": "rgb(112, 86, 19)"
+    },
+    {
+      "category": "background-color",
+      "type": "color",
+      "name": "pColorSecondaryYellow900",
+      "value": "rgb(70, 53, 13)"
+    },
+    {
+      "category": "sizing",
+      "type": "variable",
+      "name": "localRemValue",
+      "value": 16
+    },
+    {
+      "category": "sizing",
+      "type": "variable",
+      "name": "magicUnit",
+      "value": 16
+    }
+  ]
+}

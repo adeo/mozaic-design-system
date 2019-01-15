@@ -7,7 +7,10 @@ import Layout from '../gatsby-components/layout'
 import Pattern from '../gatsby-components/Pattern'
 import PageTabs from '../gatsby-components/PageTabs'
 import Hint, { HintItem } from '../gatsby-components/Hint'
-import { magicUnit, localRemValue } from '../tokens/tokens.module.js'
+import {
+  magicUnit,
+  localRemValue,
+} from '../tokens/dist/_design_tokens.module.js'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>

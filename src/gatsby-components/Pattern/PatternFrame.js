@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Prism from 'prismjs'
 
-import { magicUnit, localRemValue } from '../../tokens/tokens.module'
+import {
+  magicUnit,
+  localRemValue,
+} from '../../tokens/dist/_design_tokens.module'
 import PatternCodeSample from './PatternCodeSample'
 
 const remMagicUnit = magicUnit / localRemValue
