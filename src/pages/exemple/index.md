@@ -10,6 +10,8 @@ order: 3
 
 <pattern path="src/patterns/exemple/--button/button"></pattern>
 
+<color color="#AC5" name="color-2" varname="$color-2"></color>
+
 <pattern path="src/patterns/exemple/--icon/icon"></pattern>
 
 <br/>

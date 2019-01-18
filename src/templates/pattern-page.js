@@ -5,6 +5,7 @@ import styled, { css } from 'styled-components'
 
 import Layout from '../gatsby-components/layout'
 import Pattern from '../gatsby-components/Pattern'
+import Color from '../gatsby-components/Color'
 import PageTabs from '../gatsby-components/PageTabs'
 import Hint, { HintItem } from '../gatsby-components/Hint'
 import {
@@ -35,7 +36,12 @@ const PageContent = styled.div`
 export default ({ data }) => {
   const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: { pattern: Pattern, hint: Hint, hintitem: HintItem },
+    components: {
+      pattern: Pattern,
+      hint: Hint,
+      hintitem: HintItem,
+      color: Color,
+    },
   }).Compiler
 
   const post = data.markdownRemark
