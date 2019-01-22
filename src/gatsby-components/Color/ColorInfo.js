@@ -3,7 +3,9 @@ import React, { PureComponent } from 'react'
 
 const Info = styled.div`
   width: 100%;
-  font-size: 14px;
+  padding: 3px 5px;
+  font-size: 10px;
+  color: #999;
   height: 2em;
   line-height: 2em;
   cursor: pointer;
@@ -20,8 +22,18 @@ const Copied = styled.div`
   border-radius: 3px;
   padding: 3px;
   line-height: 1;
-  font-size: 14px;
+  font-size: 9px;
   margin-left: 10px;
+`
+
+const Label = styled.div`
+  display: inline-block;
+  min-width: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: solid 1px #f5f5f5;
 `
 
 class Color extends PureComponent {
@@ -68,7 +80,10 @@ class Color extends PureComponent {
 
     return (
       <Info onClick={this.copyToClipBoard}>
-        {label}: <b>{value}</b>
+        <Label>
+          <span>{label} : </span>
+        </Label>
+        <b>{value}</b>
         {copied && <Copied>copied</Copied>}
       </Info>
     )
