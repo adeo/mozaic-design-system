@@ -49,6 +49,7 @@ build:demo:
   <<: *build_template
   except:
     - master
+    - tags
 
 build:prod:
   stage: build
@@ -56,6 +57,7 @@ build:prod:
   <<: *build_template
   only:
     - master
+    - tags
 
 test:
   stage: test
