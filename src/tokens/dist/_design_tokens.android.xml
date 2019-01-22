@@ -20,7 +20,7 @@
   <color name="P_COLOR_PRIMARY_01_700" category="background-color">rgb(21, 129, 16)</color>
   <color name="P_COLOR_PRIMARY_01_800" category="background-color">rgb(10, 96, 27)</color>
   <color name="P_COLOR_PRIMARY_01_900" category="background-color">rgb(5, 62, 31)</color>
-  <color name="P_COLOR_PRIMARY_02_100" category="background-color">rgb(5, 62, 31)</color>
+  <color name="P_COLOR_PRIMARY_02_100" category="background-color">rgb(219, 237, 234)</color>
   <color name="P_COLOR_PRIMARY_02_200" category="background-color">rgb(165, 209, 203)</color>
   <color name="P_COLOR_PRIMARY_02_300" category="background-color">rgb(110, 180, 173)</color>
   <color name="P_COLOR_PRIMARY_02_400" category="background-color">rgb(55, 149, 144)</color>
@@ -40,7 +40,7 @@
   <color name="P_COLOR_SECONDARY_BLUE_900" category="background-color">rgb(16, 39, 57)</color>
   <color name="P_COLOR_SECONDARY_PURPLE_100" category="background-color">rgb(239, 235, 254)</color>
   <color name="P_COLOR_SECONDARY_PURPLE_200" category="background-color">rgb(199, 176, 250)</color>
-  <color name="P_COLOR_PSECONDARY_PURPLE_300" category="background-color">rgb(165, 117, 243)</color>
+  <color name="P_COLOR_SECONDARY_PURPLE_300" category="background-color">rgb(165, 117, 243)</color>
   <color name="P_COLOR_SECONDARY_PURPLE_400" category="background-color">rgb(136, 59, 233)</color>
   <color name="P_COLOR_SECONDARY_PURPLE_500" category="background-color">rgb(112, 0, 221)</color>
   <color name="P_COLOR_SECONDARY_PURPLE_600" category="background-color">rgb(88, 3, 179)</color>

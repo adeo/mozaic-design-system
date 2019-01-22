@@ -6,6 +6,7 @@ import styled, { css } from 'styled-components'
 import Layout from '../gatsby-components/layout'
 import Pattern from '../gatsby-components/Pattern'
 import Color from '../gatsby-components/Color'
+import Swatch from '../gatsby-components/Swatch'
 import PageTabs from '../gatsby-components/PageTabs'
 import Hint, { HintItem } from '../gatsby-components/Hint'
 import {
@@ -24,7 +25,7 @@ const FullWidthContainer = styled.div`
 const Container = styled.div`
   padding: ${magicUnit / localRemValue}rem ${(magicUnit / localRemValue) * 2}rem;
   margin: 0 auto;
-  max-width: ${(magicUnit / localRemValue) * 46}rem;
+  max-width: ${(magicUnit / localRemValue) * 52}rem;
 `
 
 const PageContent = styled.div`
@@ -41,6 +42,7 @@ export default ({ data }) => {
       hint: Hint,
       hintitem: HintItem,
       color: Color,
+      swatch: Swatch,
     },
   }).Compiler
 
