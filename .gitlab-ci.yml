@@ -22,13 +22,14 @@ before_script:
     - cp -R src/tokens registry
     - cp -R cssCompiler registry
     - cd registry
-    - npm version $NPM_VERSION
+    - TAG=$(npm version $NPM_VERSION)
     - git add package.json
     - git commit -m 'build:new version of css'
     - echo ${NPM_TOKEN} > ~/.npmrc
     - npm publish --registry http://35.243.145.15
     - git push origin HEAD:master
     - git push origin --tags HEAD:master
+    - "curl --request POST --url https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/tag --header 'content-type: application/json' --data '{\"tag_name\": \"'$TAG'\"}'"
 
 .deploy_template: &deploy_template
   before_script:
@@ -74,6 +75,7 @@ deploy:demo:
     - gcloud --quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=${SERVICE_VERSION} --no-promote
   except:
     - master
+    - tags
 
 deploy:prod:
   image: google/cloud-sdk
@@ -87,6 +89,19 @@ deploy:prod:
   script:
     - export DATE=` date '+%s'`
     - gcloud --quiet --verbosity=error app deploy app.yaml --project=design-system-adeo --version=$CI_COMMIT_REF_NAME$DATE --promote --stop-previous-version
+
+deploy:tag:
+  image: google/cloud-sdk
+  stage: deploy
+  environment: prod
+  dependencies:
+    - build:prod
+  only:
+    - tags
+  <<: *deploy_template
+  script:
+    - SERVICE_VERSION=$(echo ${CI_COMMIT_TAG} | iconv -t ascii//TRANSLIT | sed -r s/[^a-zA-Z0-9]+//g | sed -r s/^-+\|-+$//g | tr A-Z a-z)
+    - gcloud --quiet --verbosity=error app deploy app.yaml --project=design-system-adeo --version=$SERVICE_VERSION --promote --no-stop-previous-version
 
 tag:patch:
   when: manual
