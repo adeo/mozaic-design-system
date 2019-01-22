@@ -21,6 +21,9 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-github-release'
+    },
+    {
       resolve: `gatsby-plugin-sass`,
       options: {
         includePaths: ['src/pages/**/*.scss'],
