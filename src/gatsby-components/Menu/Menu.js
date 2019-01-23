@@ -17,7 +17,6 @@ const ShowChildrenButton = styled.button`
 
 const Container = styled.div`
   width: 220px;
-
 `
 
 const UlMenu = styled.ul`
@@ -111,7 +110,10 @@ export default class Menu extends PureComponent {
 
     return (
       <Container>
-        <MenuHeader siteTitle={siteTitle} />
+        <MenuHeader
+          siteTitle={siteTitle}
+          githubReleases={this.props.data.allGithubRelease.edges}
+        />
         <nav>{this.buildMenu(menuArray)}</nav>
       </Container>
     )

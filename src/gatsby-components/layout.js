@@ -43,6 +43,7 @@ const Layout = ({ children }) => (
             data={{
               directoryTree: data.directoryTree,
               allMarkdownRemark: data.allMarkdownRemark,
+              allGithubRelease: data.allGithubRelease,
             }}
           />
         </MenuContainer>
@@ -63,6 +64,14 @@ const query = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allGithubRelease {
+      edges {
+        node {
+          tagName
+          url
+        }
       }
     }
     directoryTree(path: { eq: "src/pages" }) {
