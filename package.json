@@ -45,6 +45,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "rehype-react": "^3.0.3",
+    "style-dictionary": "^2.6.2",
     "styled-components": "^4.0.2",
     "stylelint": "^9.9.0",
     "stylelint-config-standard": "^18.2.0",
@@ -56,12 +57,14 @@
     "prettier": "^1.14.2"
   },
   "scripts": {
-    "tokens-build": "rm -rf src/tokens/dist && mkdir -p src/tokens/dist && theo src/tokens/src/_design_tokens.yml --transform web --format scss,module.js,html,less,json,raw.json,ios.json,android.xml,map.scss,map.variables.scss --dest ./src/tokens/dist",
+    "tokens:build": "npx style-dictionary build --config ./src/tokens/config.js",
+    "tokens:clean": "npx style-dictionary clean --config ./src/tokens/config.js",
+    "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
     "clean-cache": "rm -rf ./.cache ./public",
-    "prebuild": "yarn clean-cache && yarn tokens-build",
+    "prebuild": "yarn clean-cache && yarn tokens:clean-build",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "predevelop": "yarn clean-cache && yarn tokens-build",
+    "predevelop": "yarn clean-cache && yarn tokens:clean-build",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 0"
   }

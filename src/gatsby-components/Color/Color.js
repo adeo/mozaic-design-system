@@ -26,16 +26,16 @@ const Swatch = styled.div`
 
 class Color extends PureComponent {
   render() {
-    const { color, scss, json, xml, js } = this.props
+    const { color, scss, ios, android, es6 } = this.props
 
     return (
       <Container>
         <Swatch color={color} />
         <Info label="val" value={color} />
         <Info label="scss" value={scss} />
-        <Info label="json" value={json} />
-        <Info label="xml" value={xml} />
-        <Info label="js" value={js} />
+        <Info label="ios" value={ios} />
+        <Info label="andr" value={android} />
+        <Info label="es6" value={es6} />
       </Container>
     )
   }
