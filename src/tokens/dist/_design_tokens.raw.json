@@ -109,7 +109,7 @@
       "value": "#FC961E"
     },
     "p-color-secondary-red-300": {
-      "value": " #F38789"
+      "value": "#F38789"
     },
     "p-color-secondary-orange-600": {
       "value": "#C86F21"
@@ -124,7 +124,7 @@
       "value": "#974F20"
     },
     "p-color-primary-02-100": {
-      "value": "#053E1F"
+      "value": "#DBEDEA"
     },
     "p-color-secondary-yellow-100": {
       "value": "#FFF8E2"
@@ -368,7 +368,7 @@
       "category": "background-color",
       "type": "color",
       "name": "p-color-primary-02-100",
-      "value": "rgb(5, 62, 31)",
+      "value": "rgb(219, 237, 234)",
       "originalValue": "{!p-color-primary-02-100}"
     },
     "p-color-primary-02-200": {
@@ -504,10 +504,10 @@
       "value": "rgb(199, 176, 250)",
       "originalValue": "{!p-color-secondary-purple-200}"
     },
-    "p-color-psecondary-purple-300": {
+    "p-color-secondary-purple-300": {
       "category": "background-color",
       "type": "color",
-      "name": "p-color-psecondary-purple-300",
+      "name": "p-color-secondary-purple-300",
       "value": "rgb(165, 117, 243)",
       "originalValue": "{!p-color-secondary-purple-300}"
     },

@@ -124,7 +124,7 @@
       "category": "background-color",
       "type": "color",
       "name": "pColorPrimary02100",
-      "value": "rgb(5, 62, 31)"
+      "value": "rgb(219, 237, 234)"
     },
     {
       "category": "background-color",
@@ -243,7 +243,7 @@
     {
       "category": "background-color",
       "type": "color",
-      "name": "pColorPsecondaryPurple300",
+      "name": "pColorSecondaryPurple300",
       "value": "rgb(165, 117, 243)"
     },
     {
