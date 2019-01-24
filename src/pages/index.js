@@ -19,7 +19,7 @@ You can report any bug or request a feature or improvment <a href="">filling an 
 <h4>Developers, here's our github repo</h4>
 <a href="https://github.com/adeo/design-system--styleguide">link to github</a>
 <h4>Designers</h4>
-<p>A great onboarding and documentation for you is comming. For now, you can download the <a href="#">UI Kit</a>  </p>
+<p>A great onboarding and documentation for you is comming. For now, you can follow us on the <a href="https://adeo-tech-community.slack.com/messages/CF7TJ87DL/apps/A0F7YS2SX/">slack channel</a></p>
       <hr />
       <h3>Usefull links</h3>
 
