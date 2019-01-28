@@ -2,13 +2,10 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Prism from 'prismjs'
 
-import {
-  magicUnit,
-  localRemValue,
-} from '../../tokens/dist/_design_tokens.module'
+import { MagicUnit, LocalRemValue } from '../../tokens/build/js/tokens.js'
 import PatternCodeSample from './PatternCodeSample'
 
-const remMagicUnit = magicUnit / localRemValue
+const remMagicUnit = MagicUnit / LocalRemValue
 const trans = 'transparent'
 const lineColor = `rgba(0, 100, 100, 0.1)`
 const subLineColor = `rgba(0, 100, 100, 0.03)`

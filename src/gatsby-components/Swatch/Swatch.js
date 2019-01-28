@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Color from '../Color'
-import Tokens from './SwatchTokens'
+import tokens from '../../tokens/build/js/tokensObject.js'
 
 const ColorWrapper = styled.div`
   flex: 0 0 32%;
@@ -17,16 +17,27 @@ const Wrapper = styled.div`
   align-items: stretch;
 `
 
+// TODO : use a custom format from style dictionary
+// to provide those syntax transformations
+const scssSyntax = arr => `$${arr.join('-')}`
+const andoidSyntax = arr =>
+  arr
+    .join('_')
+    .toLowerCase()
+    .replace('-', '_')
+
+// END-TODO
+
 const Swatch = ({ id }) => (
   <Wrapper>
-    {Object.keys(Tokens[id]).map(colorKey => (
-      <ColorWrapper key={colorKey}>
+    {Object.keys(tokens.color[id]).map(colorKey => (
+      <ColorWrapper key={`${id}${colorKey}`}>
         <Color
-          color={Tokens[id][colorKey].RGBval}
-          scss={Tokens[id][colorKey].scss}
-          json={Tokens[id][colorKey].json}
-          xml={Tokens[id][colorKey].xml}
-          js={Tokens[id][colorKey].js}
+          color={tokens.color[id][colorKey].value}
+          scss={scssSyntax(tokens.color[id][colorKey].path)}
+          ios={tokens.color[id][colorKey].name}
+          android={andoidSyntax(tokens.color[id][colorKey].path)}
+          es6={tokens.color[id][colorKey].name}
         />
       </ColorWrapper>
     ))}
