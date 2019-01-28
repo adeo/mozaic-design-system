@@ -10,16 +10,16 @@
       "darkest": {
         "value": "{color.grey.999.value}"
       },
-      "darker": {
+      "dark": {
         "value": "{color.grey.900.value}"
       },
-      "dark": {
+      "medium": {
         "value": "{color.grey.800.value}"
       },
       "light": {
         "value": "{color.grey.700.value}"
       },
-      "lightest": {
+      "inverted": {
         "value": "{color.grey.000.value}"
       }
     }

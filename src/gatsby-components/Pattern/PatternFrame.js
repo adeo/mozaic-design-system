@@ -1,8 +1,12 @@
-import React, { PureComponent } from 'react'
-import styled, { css } from 'styled-components'
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import Prism from 'prismjs'
 
-import { MagicUnit } from '../../tokens/build/js/tokens.js'
+import { MagicUnit, LocalRemValue } from '../../tokens/build/js/tokens.js'
+import PatternCodeSample from './PatternCodeSample'
 
+const remMagicUnit = MagicUnit / LocalRemValue
+const trans = 'transparent'
 const lineColor = `rgba(0, 100, 100, 0.1)`
 const subLineColor = `rgba(0, 100, 100, 0.03)`
 
@@ -28,8 +32,8 @@ const FrameContainer = styled.div`
 
     transform: scale(
       ${availableWidth > viewPorts[viewport]
-        ? 1
-        : availableWidth / viewPorts[viewport]}
+      ? 1
+      : availableWidth / viewPorts[viewport]}
     );
 
     transform-origin: ${fullScreen ? 'center' : 'left'};

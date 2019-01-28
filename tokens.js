@@ -1,15 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Jan 2019 15:41:57 GMT
+ * Generated on Wed, 23 Jan 2019 15:46:15 GMT
  */
 
 module.exports = {
   "color": {
     "primary-01": {
       "100": {
-        "value": "#eaf3e2",
+        "value": "#000000",
         "original": {
-          "value": "#EAF3E2"
+          "value": "#000"
         },
         "name": "ColorPrimary01100",
         "attributes": {
@@ -24,9 +24,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#cbe3b5",
+        "value": "#000000",
         "original": {
-          "value": "#CBE3B5"
+          "value": "#000"
         },
         "name": "ColorPrimary01200",
         "attributes": {
@@ -41,9 +41,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#add585",
+        "value": "#000000",
         "original": {
-          "value": "#ADD585"
+          "value": "#000"
         },
         "name": "ColorPrimary01300",
         "attributes": {
@@ -58,9 +58,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#91c854",
+        "value": "#000000",
         "original": {
-          "value": "#91C854"
+          "value": "#000"
         },
         "name": "ColorPrimary01400",
         "attributes": {
@@ -75,9 +75,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#78be20",
+        "value": "#000000",
         "original": {
-          "value": "#78BE20"
+          "value": "#000"
         },
         "name": "ColorPrimary01500",
         "attributes": {
@@ -92,9 +92,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#41a017",
+        "value": "#000000",
         "original": {
-          "value": "#41A017"
+          "value": "#000"
         },
         "name": "ColorPrimary01600",
         "attributes": {
@@ -109,9 +109,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#158110",
+        "value": "#000000",
         "original": {
-          "value": "#158110"
+          "value": "#000"
         },
         "name": "ColorPrimary01700",
         "attributes": {
@@ -126,9 +126,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#0a601b",
+        "value": "#000000",
         "original": {
-          "value": "#0A601B"
+          "value": "#000"
         },
         "name": "ColorPrimary01800",
         "attributes": {
@@ -143,9 +143,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#053e1f",
+        "value": "#000000",
         "original": {
-          "value": "#053E1F"
+          "value": "#000"
         },
         "name": "ColorPrimary01900",
         "attributes": {
@@ -162,9 +162,9 @@ module.exports = {
     },
     "primary-02": {
       "100": {
-        "value": "#dbedea",
+        "value": "#053e1f",
         "original": {
-          "value": "#DBEDEA"
+          "value": "#053E1F"
         },
         "name": "ColorPrimary02100",
         "attributes": {
@@ -1281,7 +1281,7 @@ module.exports = {
     },
     "font": {
       "primary-01": {
-        "value": "#78be20",
+        "value": "#000000",
         "original": {
           "value": "{color.primary-01.500.value}"
         },
@@ -1331,69 +1331,38 @@ module.exports = {
           "darkest"
         ]
       },
-<<<<<<< HEAD
-      "darker": {
-=======
       "dark": {
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         "value": "#222020",
         "original": {
           "value": "{color.grey.900.value}"
         },
-<<<<<<< HEAD
-        "name": "ColorFontDarker",
-        "attributes": {
-          "category": "color",
-          "type": "font",
-          "item": "darker"
-=======
         "name": "ColorFontDark",
         "attributes": {
           "category": "color",
           "type": "font",
           "item": "dark"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         },
         "path": [
           "color",
           "font",
-<<<<<<< HEAD
-          "darker"
-        ]
-      },
-      "dark": {
-=======
           "dark"
         ]
       },
       "medium": {
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         "value": "#3c3738",
         "original": {
           "value": "{color.grey.800.value}"
         },
-<<<<<<< HEAD
-        "name": "ColorFontDark",
-        "attributes": {
-          "category": "color",
-          "type": "font",
-          "item": "dark"
-=======
         "name": "ColorFontMedium",
         "attributes": {
           "category": "color",
           "type": "font",
           "item": "medium"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         },
         "path": [
           "color",
           "font",
-<<<<<<< HEAD
-          "dark"
-=======
           "medium"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         ]
       },
       "light": {
@@ -1413,203 +1382,27 @@ module.exports = {
           "light"
         ]
       },
-<<<<<<< HEAD
-      "lightest": {
-=======
       "inverted": {
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         "value": "#ffffff",
         "original": {
           "value": "{color.grey.000.value}"
         },
-<<<<<<< HEAD
-        "name": "ColorFontLightest",
-        "attributes": {
-          "category": "color",
-          "type": "font",
-          "item": "lightest"
-=======
         "name": "ColorFontInverted",
         "attributes": {
           "category": "color",
           "type": "font",
           "item": "inverted"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         },
         "path": [
           "color",
           "font",
-<<<<<<< HEAD
-          "lightest"
-=======
           "inverted"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         ]
       }
     }
   },
-  "magic-unit": {
-<<<<<<< HEAD
-    "value": 1,
-    "original": {
-      "value": 1
-=======
-    "value": 16,
-    "original": {
-      "value": 16
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
-    },
-    "name": "MagicUnit",
-    "attributes": {
-      "category": "magic-unit"
-    },
-    "path": [
-      "magic-unit"
-    ]
-  },
-  "local-rem-value": {
-    "value": 16,
-    "original": {
-      "value": 16
-    },
-    "name": "LocalRemValue",
-    "attributes": {
-      "category": "local-rem-value"
-    },
-    "path": [
-      "local-rem-value"
-    ]
-  },
   "size": {
     "font": {
-<<<<<<< HEAD
-      "10": {
-        "value": "2.375rem",
-        "comment": "38px",
-        "original": {
-          "value": 2.375,
-          "comment": "38px"
-        },
-        "name": "SizeFont10",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "10"
-        },
-        "path": [
-          "size",
-          "font",
-          "10"
-        ]
-      },
-      "11": {
-        "value": "3rem",
-        "comment": "48px",
-        "original": {
-          "value": 3,
-          "comment": "48px"
-        },
-        "name": "SizeFont11",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "11"
-        },
-        "path": [
-          "size",
-          "font",
-          "11"
-        ]
-      },
-      "12": {
-        "value": "3.6875rem",
-        "comment": "59px",
-        "original": {
-          "value": 3.6875,
-          "comment": "59px"
-        },
-        "name": "SizeFont12",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "12"
-        },
-        "path": [
-          "size",
-          "font",
-          "12"
-        ]
-      },
-      "01": {
-        "value": "0.6815rem",
-        "comment": "11px",
-        "original": {
-          "value": 0.6815,
-          "comment": "11px"
-        },
-        "name": "SizeFont01",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "01"
-        },
-        "path": [
-          "size",
-          "font",
-          "01"
-        ]
-      },
-      "02": {
-        "value": "0.75rem",
-        "comment": "12px",
-        "original": {
-          "value": 0.75,
-          "comment": "12px"
-        },
-        "name": "SizeFont02",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "02"
-        },
-        "path": [
-          "size",
-          "font",
-          "02"
-        ]
-      },
-      "03": {
-        "value": "0.8125rem",
-        "comment": "13px",
-        "original": {
-          "value": 0.8125,
-          "comment": "13px"
-        },
-        "name": "SizeFont03",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "03"
-        },
-        "path": [
-          "size",
-          "font",
-          "03"
-        ]
-      },
-      "04": {
-        "value": "0.875rem",
-        "comment": "14px",
-        "original": {
-          "value": 0.875,
-          "comment": "14px"
-        },
-        "name": "SizeFont04",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "04"
-=======
       "small": {
         "value": "0.75rem",
         "comment": "the small size of the font",
@@ -1622,28 +1415,10 @@ module.exports = {
           "category": "size",
           "type": "font",
           "item": "small"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         },
         "path": [
           "size",
           "font",
-<<<<<<< HEAD
-          "04"
-        ]
-      },
-      "05": {
-        "value": "1rem",
-        "comment": "16px",
-        "original": {
-          "value": 1,
-          "comment": "16px"
-        },
-        "name": "SizeFont05",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "05"
-=======
           "small"
         ]
       },
@@ -1659,28 +1434,10 @@ module.exports = {
           "category": "size",
           "type": "font",
           "item": "medium"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         },
         "path": [
           "size",
           "font",
-<<<<<<< HEAD
-          "05"
-        ]
-      },
-      "06": {
-        "value": "1.125rem",
-        "comment": "18px",
-        "original": {
-          "value": 1.125,
-          "comment": "18px"
-        },
-        "name": "SizeFont06",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "06"
-=======
           "medium"
         ]
       },
@@ -1696,66 +1453,10 @@ module.exports = {
           "category": "size",
           "type": "font",
           "item": "large"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         },
         "path": [
           "size",
           "font",
-<<<<<<< HEAD
-          "06"
-        ]
-      },
-      "07": {
-        "value": "1.375rem",
-        "comment": "22px",
-        "original": {
-          "value": 1.375,
-          "comment": "22px"
-        },
-        "name": "SizeFont07",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "07"
-        },
-        "path": [
-          "size",
-          "font",
-          "07"
-        ]
-      },
-      "08": {
-        "value": "1.625rem",
-        "comment": "26px",
-        "original": {
-          "value": 1.625,
-          "comment": "26px"
-        },
-        "name": "SizeFont08",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "08"
-        },
-        "path": [
-          "size",
-          "font",
-          "08"
-        ]
-      },
-      "09": {
-        "value": "1.9375rem",
-        "comment": "31px",
-        "original": {
-          "value": 1.9375,
-          "comment": "31px"
-        },
-        "name": "SizeFont09",
-        "attributes": {
-          "category": "size",
-          "type": "font",
-          "item": "09"
-=======
           "large"
         ]
       },
@@ -1771,760 +1472,13 @@ module.exports = {
           "category": "size",
           "type": "font",
           "item": "base"
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
         },
         "path": [
           "size",
           "font",
-<<<<<<< HEAD
-          "09"
-        ]
-      }
-    },
-    "line": {
-      "10": {
-        "s": {
-          "value": "2.5rem",
-          "comment": "40px",
-          "original": {
-            "value": 2.5,
-            "comment": "40px"
-          },
-          "name": "SizeLine10S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "10",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "10",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "3rem",
-          "comment": "48px",
-          "original": {
-            "value": 3,
-            "comment": "48px"
-          },
-          "name": "SizeLine10M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "10",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "10",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "3.5rem",
-          "comment": "56px",
-          "original": {
-            "value": 3.5,
-            "comment": "56px"
-          },
-          "name": "SizeLine10L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "10",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "10",
-            "l"
-          ]
-        }
-      },
-      "11": {
-        "s": {
-          "value": "3rem",
-          "comment": "48px",
-          "original": {
-            "value": 3,
-            "comment": "48px"
-          },
-          "name": "SizeLine11S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "11",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "11",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "3.5rem",
-          "comment": "56px",
-          "original": {
-            "value": 3.5,
-            "comment": "56px"
-          },
-          "name": "SizeLine11M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "11",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "11",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "4rem",
-          "comment": "64px",
-          "original": {
-            "value": 4,
-            "comment": "64px"
-          },
-          "name": "SizeLine11L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "11",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "11",
-            "l"
-          ]
-        }
-      },
-      "12": {
-        "s": {
-          "value": "4rem",
-          "comment": "64px",
-          "original": {
-            "value": 4,
-            "comment": "64px"
-          },
-          "name": "SizeLine12S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "12",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "12",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "4.5rem",
-          "comment": "72px",
-          "original": {
-            "value": 4.5,
-            "comment": "72px"
-          },
-          "name": "SizeLine12M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "12",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "12",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "5.5rem",
-          "comment": "88px",
-          "original": {
-            "value": 5.5,
-            "comment": "88px"
-          },
-          "name": "SizeLine12L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "12",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "12",
-            "l"
-          ]
-        }
-      },
-      "01": {
-        "m": {
-          "value": "0.75rem",
-          "comment": "12px",
-          "original": {
-            "value": 0.75,
-            "comment": "12px"
-          },
-          "name": "SizeLine01M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "01",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "01",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "1rem",
-          "comment": "16px",
-          "original": {
-            "value": 1,
-            "comment": "16px"
-          },
-          "name": "SizeLine01L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "01",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "01",
-            "l"
-          ]
-        }
-      },
-      "02": {
-        "s": {
-          "value": "0.75rem",
-          "comment": "12px",
-          "original": {
-            "value": 0.75,
-            "comment": "12px"
-          },
-          "name": "SizeLine02S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "02",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "02",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "1rem",
-          "comment": "16px",
-          "original": {
-            "value": 1,
-            "comment": "16px"
-          },
-          "name": "SizeLine02M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "02",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "02",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "1.25rem",
-          "comment": "20px",
-          "original": {
-            "value": 1.25,
-            "comment": "20px"
-          },
-          "name": "SizeLine02L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "02",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "02",
-            "l"
-          ]
-        }
-      },
-      "03": {
-        "m": {
-          "value": "1rem",
-          "comment": "16px",
-          "original": {
-            "value": 1,
-            "comment": "16px"
-          },
-          "name": "SizeLine03M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "03",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "03",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "1.25rem",
-          "comment": "20px",
-          "original": {
-            "value": 1.25,
-            "comment": "20px"
-          },
-          "name": "SizeLine03L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "03",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "03",
-            "l"
-          ]
-        }
-      },
-      "04": {
-        "s": {
-          "value": "1rem",
-          "comment": "16px",
-          "original": {
-            "value": 1,
-            "comment": "16px"
-          },
-          "name": "SizeLine04S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "04",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "04",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "1.25rem",
-          "comment": "20px",
-          "original": {
-            "value": 1.25,
-            "comment": "20px"
-          },
-          "name": "SizeLine04M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "04",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "04",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "1.5rem",
-          "comment": "24px",
-          "original": {
-            "value": 1.5,
-            "comment": "24px"
-          },
-          "name": "SizeLine04L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "04",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "04",
-            "l"
-          ]
-        }
-      },
-      "05": {
-        "s": {
-          "value": "1rem",
-          "comment": "16px",
-          "original": {
-            "value": 1,
-            "comment": "16px"
-          },
-          "name": "SizeLine05S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "05",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "05",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "1.25rem",
-          "comment": "20px",
-          "original": {
-            "value": 1.25,
-            "comment": "20px"
-          },
-          "name": "SizeLine05M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "05",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "05",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "1.5rem",
-          "comment": "24px",
-          "original": {
-            "value": 1.5,
-            "comment": "24px"
-          },
-          "name": "SizeLine05L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "05",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "05",
-            "l"
-          ]
-        }
-      },
-      "06": {
-        "s": {
-          "value": "1.25rem",
-          "comment": "20px",
-          "original": {
-            "value": 1.25,
-            "comment": "20px"
-          },
-          "name": "SizeLine06S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "06",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "06",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "1.5rem",
-          "comment": "24px",
-          "original": {
-            "value": 1.5,
-            "comment": "24px"
-          },
-          "name": "SizeLine06M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "06",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "06",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "1.75rem",
-          "comment": "28px",
-          "original": {
-            "value": 1.75,
-            "comment": "28px"
-          },
-          "name": "SizeLine06L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "06",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "06",
-            "l"
-          ]
-        }
-      },
-      "07": {
-        "s": {
-          "value": "1.5rem",
-          "comment": "24px",
-          "original": {
-            "value": 1.5,
-            "comment": "24px"
-          },
-          "name": "SizeLine07S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "07",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "07",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "1.75rem",
-          "comment": "28px",
-          "original": {
-            "value": 1.75,
-            "comment": "28px"
-          },
-          "name": "SizeLine07M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "07",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "07",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "2rem",
-          "comment": "32px",
-          "original": {
-            "value": 2,
-            "comment": "32px"
-          },
-          "name": "SizeLine07L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "07",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "07",
-            "l"
-          ]
-        }
-      },
-      "08": {
-        "s": {
-          "value": "1.75rem",
-          "comment": "28px",
-          "original": {
-            "value": 1.75,
-            "comment": "28px"
-          },
-          "name": "SizeLine08S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "08",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "08",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "2rem",
-          "comment": "32px",
-          "original": {
-            "value": 2,
-            "comment": "32px"
-          },
-          "name": "SizeLine08M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "08",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "08",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "2.5rem",
-          "comment": "40px",
-          "original": {
-            "value": 2.5,
-            "comment": "40px"
-          },
-          "name": "SizeLine08L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "08",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "08",
-            "l"
-          ]
-        }
-      },
-      "09": {
-        "s": {
-          "value": "2rem",
-          "comment": "32px",
-          "original": {
-            "value": 2,
-            "comment": "32px"
-          },
-          "name": "SizeLine09S",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "09",
-            "subitem": "s"
-          },
-          "path": [
-            "size",
-            "line",
-            "09",
-            "s"
-          ]
-        },
-        "m": {
-          "value": "2.5rem",
-          "comment": "40px",
-          "original": {
-            "value": 2.5,
-            "comment": "40px"
-          },
-          "name": "SizeLine09M",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "09",
-            "subitem": "m"
-          },
-          "path": [
-            "size",
-            "line",
-            "09",
-            "m"
-          ]
-        },
-        "l": {
-          "value": "3rem",
-          "comment": "48px",
-          "original": {
-            "value": 3,
-            "comment": "48px"
-          },
-          "name": "SizeLine09L",
-          "attributes": {
-            "category": "size",
-            "type": "line",
-            "item": "09",
-            "subitem": "l"
-          },
-          "path": [
-            "size",
-            "line",
-            "09",
-            "l"
-          ]
-        }
-      }
-=======
           "base"
         ]
       }
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
     }
   }
 };

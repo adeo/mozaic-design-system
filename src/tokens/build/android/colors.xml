@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
+<!--
+  Do not edit directly
+  Generated on Thu, 24 Jan 2019 15:41:57 GMT
+-->
 <resources>
   <color name="color_primary_01_100">#ffeaf3e2</color>
   <color name="color_primary_01_200">#ffcbe3b5</color>
@@ -79,9 +82,17 @@
   <color name="color_font_primary_01">#ff78be20</color>
   <color name="color_font_primary_02">#ff007574</color>
   <color name="color_font_darkest">#ff000000</color>
+<<<<<<< HEAD
   <color name="color_font_darker">#ff222020</color>
   <color name="color_font_dark">#ff3c3738</color>
   <color name="color_font_light">#ff554f52</color>
   <color name="color_font_lightest">#ffffffff</color>
-  
+
+=======
+  <color name="color_font_dark">#ff222020</color>
+  <color name="color_font_medium">#ff3c3738</color>
+  <color name="color_font_light">#ff554f52</color>
+  <color name="color_font_inverted">#ffffffff</color>
+
+>>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
 </resources>

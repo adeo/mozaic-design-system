@@ -1,18 +1,11 @@
 @function map-deep-get($map, $keys...) {
   @each $key in $keys {
-    @if map-has-key($map, $key) {
-      $map: map-get($map, $key);
-    }
-
-    @else {
-      @warn 'It seem that you are trying to reach "#{$key}" in map "#{$map}", but it does not exist';
-      $map: 'map error';
-    }
+    $map: map-get($map, $key);
   }
 
   @return $map;
 }
 
-@function get-token($keys...) {
+@function get-tokens($key...) {
   @return map-deep-get($tokens, $keys...);
 }

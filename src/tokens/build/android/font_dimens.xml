@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
+<!--
+  Do not edit directly
+  Generated on Thu, 24 Jan 2019 15:41:57 GMT
+-->
 <resources>
-  <dimen name="size_font_10">38.00sp</dimen><!-- 38px -->
-  <dimen name="size_font_11">48.00sp</dimen><!-- 48px -->
-  <dimen name="size_font_12">59.00sp</dimen><!-- 59px -->
-  <dimen name="size_font_01">10.90sp</dimen><!-- 11px -->
-  <dimen name="size_font_02">12.00sp</dimen><!-- 12px -->
-  <dimen name="size_font_03">13.00sp</dimen><!-- 13px -->
-  <dimen name="size_font_04">14.00sp</dimen><!-- 14px -->
-  <dimen name="size_font_05">16.00sp</dimen><!-- 16px -->
-  <dimen name="size_font_06">18.00sp</dimen><!-- 18px -->
-  <dimen name="size_font_07">22.00sp</dimen><!-- 22px -->
-  <dimen name="size_font_08">26.00sp</dimen><!-- 26px -->
-  <dimen name="size_font_09">31.00sp</dimen><!-- 31px -->
-  
+  <dimen name="size_font_small">12.00sp</dimen><!-- the small size of the font -->
+  <dimen name="size_font_medium">16.00sp</dimen><!-- the medium size of the font -->
+  <dimen name="size_font_large">32.00sp</dimen><!-- the large size of the font -->
+  <dimen name="size_font_base">16.00sp</dimen><!-- the base size of the font -->
+
 </resources>

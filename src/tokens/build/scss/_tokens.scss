@@ -1,4 +1,8 @@
 
+/*
+  Do not edit directly
+  Generated on Thu, 24 Jan 2019 15:41:57 GMT
+*/
 
 $color-primary-01-100: #eaf3e2 !default;
 $color-primary-01-200: #cbe3b5 !default;
@@ -77,6 +81,7 @@ $color-secondary-yellow-900: #46350d !default;
 $color-font-primary-01: #78be20 !default;
 $color-font-primary-02: #007574 !default;
 $color-font-darkest: #000000 !default;
+<<<<<<< HEAD
 $color-font-darker: #222020 !default;
 $color-font-dark: #3c3738 !default;
 $color-font-light: #554f52 !default;
@@ -129,6 +134,18 @@ $size-line-08-l: 2.5rem !default; // 40px
 $size-line-09-s: 2rem !default; // 32px
 $size-line-09-m: 2.5rem !default; // 40px
 $size-line-09-l: 3rem !default; // 48px
+=======
+$color-font-dark: #222020 !default;
+$color-font-medium: #3c3738 !default;
+$color-font-light: #554f52 !default;
+$color-font-inverted: #ffffff !default;
+$magic-unit: 16 !default;
+$local-rem-value: 16 !default;
+$size-font-small: 0.75rem !default; // the small size of the font
+$size-font-medium: 1rem !default; // the medium size of the font
+$size-font-large: 2rem !default; // the large size of the font
+$size-font-base: 1rem !default; // the base size of the font
+>>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
 
 $tokens: (
   'color': (
@@ -226,16 +243,24 @@ $tokens: (
       'primary-01': $color-font-primary-01,
       'primary-02': $color-font-primary-02,
       'darkest': $color-font-darkest,
+<<<<<<< HEAD
       'darker': $color-font-darker,
       'dark': $color-font-dark,
       'light': $color-font-light,
       'lightest': $color-font-lightest
+=======
+      'dark': $color-font-dark,
+      'medium': $color-font-medium,
+      'light': $color-font-light,
+      'inverted': $color-font-inverted
+>>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
     )
   ),
   'magic-unit': $magic-unit,
   'local-rem-value': $local-rem-value,
   'size': (
     'font': (
+<<<<<<< HEAD
       '10': $size-font-10,
       '11': $size-font-11,
       '12': $size-font-12,
@@ -308,6 +333,12 @@ $tokens: (
         'm': $size-line-09-m,
         'l': $size-line-09-l
       )
+=======
+      'small': $size-font-small,
+      'medium': $size-font-medium,
+      'large': $size-font-large,
+      'base': $size-font-base
+>>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
     )
   )
 );
