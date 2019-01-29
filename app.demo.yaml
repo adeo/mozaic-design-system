@@ -1,9 +1,20 @@
 service: demo
-runtime: custom
-env: flex
+runtime: nodejs10
+instance_class: F1
+
+handlers:
+  - url: /
+    static_files: public/index.html
+    upload: public/index.html
+  - url: /(.*)/
+    static_files: public/\1/index.html
+    upload: public/(.*)/index.html
+  - url: /(.*)
+    static_files: public/\1
+    upload: public/(.*)
+
 
 automatic_scaling:
-  min_num_instances: 1
-  max_num_instances: 2
-  cpu_utilization:
-    target_utilization: 0.8
+  min_instances: 0
+  max_instances: 1
+  target_cpu_utilization: 0.8
