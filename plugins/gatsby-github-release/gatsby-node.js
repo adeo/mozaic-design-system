@@ -6,10 +6,11 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
     const query = `
         query {
             repository(owner: "adeo", name: "design-system--styleguide") {
-            releases (first:100) {
+            releases (first:100,  orderBy: {field: CREATED_AT, direction: DESC}) {
                 totalCount
                 nodes{
                     tagName
+                    publishedAt
                 }
             }
         }
@@ -30,12 +31,13 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
     const tags = data.data.repository.releases.nodes;
 
     tags.forEach(tag => {
-        const { tagName } = tag;
+        const { tagName, publishedAt } = tag;
 
         let nodeId = createNodeId(`github-release-${tagName}`);
-        let nodeData = Object.assign({}, { tagName }, {
+        let nodeData = Object.assign({}, { tagName, publishedAt }, {
             'id': nodeId,
             tagName,
+            publishedAt,
             'url': 'https://' + tagName.replace(/\./g, '') + '-dot-design-system-adeo.appspot.com',
             'internal': {
                 'type': `GithubRelease`,
