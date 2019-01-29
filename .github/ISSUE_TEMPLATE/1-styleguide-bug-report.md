@@ -52,3 +52,5 @@ Please explain minimal reproduction of the issue
 <!-- ✍️Is this a browser specific issue? If so, please specify the browser and version. -->
 
 <!-- ✍️Do any of these matter: operating system, IDE, package manager, HTTP server, ...? If so, please mention it below. -->
+
+<!--Learn more about our [workflow](https://github.com/adeo/design-system--styleguide/wiki) for requests-->
