@@ -1,5 +1,5 @@
 workflow "Verify commit" {
-  resolves = ["GitHub Action for Docker"]
+  resolves = ["GCP Authenticate"]
   on = "label"
 }
 
