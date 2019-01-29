@@ -3,8 +3,13 @@ workflow "Verify commit" {
   on = "label"
 }
 
-action "GitHub Action for Docker" {
+action "GCP Authenticate" {
   uses = "actions/gcloud/auth@master"
-  runs = "gcloud app deploy app.demo.yaml --project=design-system-adeo"
   secrets = ["GCLOUD_AUTH"]
+}
+
+action "GCP List Clusters" {
+  needs = ["GCP Authenticate"]
+  uses = "actions/gcloud/cli@master"
+  args = "gcloud --quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo"
 }
