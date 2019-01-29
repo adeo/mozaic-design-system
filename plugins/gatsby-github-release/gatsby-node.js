@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const fs = require('fs');
 
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
     const { createNode } = actions
@@ -6,10 +7,11 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
     const query = `
         query {
             repository(owner: "adeo", name: "design-system--styleguide") {
-            releases (first:100) {
+            releases (first:100,  orderBy: {field: CREATED_AT, direction: DESC}) {
                 totalCount
                 nodes{
                     tagName
+                    publishedAt
                 }
             }
         }
@@ -27,15 +29,19 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
     const data = await response.json();
 
+    const version = JSON.parse(fs.readFileSync('registry/package.json'));
+
     const tags = data.data.repository.releases.nodes;
 
     tags.forEach(tag => {
-        const { tagName } = tag;
+        const { tagName, publishedAt } = tag;
 
         let nodeId = createNodeId(`github-release-${tagName}`);
-        let nodeData = Object.assign({}, { tagName }, {
+        let nodeData = Object.assign({}, { tagName, publishedAt }, {
             'id': nodeId,
             tagName,
+            'isCurrent': tagName === `v${version.version}` ? true : false,
+            publishedAt,
             'url': 'https://' + tagName.replace(/\./g, '') + '-dot-design-system-adeo.appspot.com',
             'internal': {
                 'type': `GithubRelease`,
