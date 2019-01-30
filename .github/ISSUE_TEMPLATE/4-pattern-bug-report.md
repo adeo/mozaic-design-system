@@ -1,6 +1,6 @@
 ---
 name: "\U0001F6E0️Pattern bug report"
-about: Report a pattern bug (in your project)
+about: Report a pattern bug (source code or sketch files)
 
 ---
 <!--🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅
@@ -15,6 +15,12 @@ Existing issues often contain information about workarounds, resolution, or prog
 
 # 🐞 Pattern bug report
 
+### Where did you experience this bug ?
+	
+- [ ] On sketch file
+- [ ] On Design
+- [ ] On source code
+
 
 ### Is this a regression?
 
@@ -27,6 +33,10 @@ Existing issues often contain information about workarounds, resolution, or prog
 <!-- ✍️--> A clear and concise description of the problem...
 
 ## 🔬 Minimal Reproduction
+
+## 📷 Screenshot (optional - it might be a gif)
+
+## Sketch file (if existing)
 
 <!--
 Please explain minimal reproduction of the issue
@@ -43,5 +53,8 @@ Please explain minimal reproduction of the issue
 
 **Anything else relevant?**
 <!-- ✍️Is this a browser specific issue? If so, please specify the browser and version. -->
-
+<!-- ✍️Do you have specific setup for sketch, plugins, etc...  -->
 <!-- ✍️Do any of these matter: operating system, IDE, package manager, HTTP server, ...? If so, please mention it below. -->
+
+
+<!--Learn more about our [workflow](https://github.com/adeo/design-system--styleguide/wiki) for requests-->

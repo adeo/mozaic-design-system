@@ -1,6 +1,6 @@
 ---
 name: "\U0001F48EPattern addition proposal"
-about: Suggest a new pattern (to use in your project)
+about: Suggest a new pattern (source code or sketch files)
 
 ---
 <!--🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅
@@ -17,4 +17,11 @@ Existing issues often contain information about workarounds, resolution, or prog
 
 
 ### Description
-<!-- ✍️--> A clear and concise description of wiy suggest this pattern.
+<!-- ✍️--> A clear and concise description of why this pattern is needed.
+
+
+**Anything else relevant?**
+<!-- ✍️ Feel free to add here screenshots, sketch files or even source code -->
+
+
+<!--Learn more about our [workflow](https://github.com/adeo/design-system--styleguide/wiki) for requests-->

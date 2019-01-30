@@ -1,6 +1,6 @@
 ---
 name: "\U0001F48EPattern enhancement proposal"
-about: Suggest a pattern enhancement (to use in your project)
+about: Suggest a pattern enhancement (source code or sketch files)
 
 ---
 <!--🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅🔅
@@ -14,5 +14,18 @@ Existing issues often contain information about workarounds, resolution, or prog
 
 # 🚀 Pattern enhancement proposal
 
+### What kind of enhancement are you proposing ?
+	
+- [ ] On sketch file
+- [ ] On source code
+
+
 ### Description
-<!-- ✍️--> A clear and concise description of wiy suggest this pattern.
+<!-- ✍️ A clear and concise description of why this pattern is needed.-->
+
+
+**Anything else relevant?**
+<!-- ✍️ Feel free to add here screenshots, sketch files or even source code-->
+
+
+<!--Learn more about our [workflow](https://github.com/adeo/design-system--styleguide/wiki) for requests-->
