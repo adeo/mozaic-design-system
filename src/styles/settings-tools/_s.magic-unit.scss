@@ -9,36 +9,48 @@
 
       @if $iscorrect {
         @return $magic-unit * $multiplier;
-      } @else {
+      }
+
+      @else {
         @error "magic unit function require a parameter with at least 0.25 increment when inferior to 2";
       }
-    } @else if $multiplier >= 2 and $multiplier < 4 {
+    }
+
+    @else if $multiplier >= 2 and $multiplier < 4 {
       // require a 0.5 minimum increment when between 2 and 4
       $iscorrect: $multiplier / 0.5 == ceil($multiplier / 0.5);
 
       @if $iscorrect {
         @return $magic-unit * $multiplier;
-      } @else {
+      }
+
+      @else {
         @error "magic unit function require a parameter with at least 0.5 increment when between 2 to 4";
       }
-    } @else if $multiplier >= 4 {
+    }
+
+    @else if $multiplier >= 4 {
       // require a 1 minimum increment when geater than 4
       $iscorrect: $multiplier == ceil($multiplier);
 
       @if $iscorrect {
         @return $magic-unit * $multiplier;
-      } @else {
+      }
+
+      @else {
         @error "magic unit function require an integer as parameter when greater than 4";
       }
     }
-  } @else {
+  }
+
+  @else {
     @error "magic unit function require an unitless number as parameter";
   }
 }
 
 // return a rem authorized magic-unit value
 @function magic-unit-rem($multiplier) {
-  @return to-rem(magic-unit($multiplier));
+  @return #{magic-unit($multiplier)}rem;
 }
 
 $mu025: magic-unit-rem(0.25);

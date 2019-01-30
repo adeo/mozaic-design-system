@@ -1,4 +1,8 @@
 // a conversion tool to express things in rem taking account of the local 1rem value
-@function to-rem($px-val) {
+@function px-to-rem($px-val) {
   @return #{$px-val/$local-rem-value}rem;
+}
+
+@if $local-rem-value != 16 {
+  $magic-unit: 16 / $local-rem-value;
 }

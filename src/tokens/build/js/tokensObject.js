@@ -1397,9 +1397,9 @@ module.exports = {
     }
   },
   "magic-unit": {
-    "value": 16,
+    "value": 1,
     "original": {
-      "value": 16
+      "value": 1
     },
     "name": "MagicUnit",
     "attributes": {

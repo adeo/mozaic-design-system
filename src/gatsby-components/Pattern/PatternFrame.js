@@ -1,14 +1,18 @@
 import React, { PureComponent } from 'react'
 import styled, { css } from 'styled-components'
 
+<<<<<<< HEAD
 import { MagicUnit, LocalRemValue } from '../../tokens/build/js/tokens.js'
+=======
+import { MagicUnit } from '../../tokens/build/js/tokens.js'
+import PatternCodeSample from './PatternCodeSample'
+>>>>>>> refactor(pattern/tokens): use 16px based REM units instead of sizes
 
-const remMagicUnit = MagicUnit / LocalRemValue
-const trans = 'transparent'
 const lineColor = `rgba(0, 100, 100, 0.1)`
 const subLineColor = `rgba(0, 100, 100, 0.03)`
 
 const FrameContainer = styled.div`
+<<<<<<< HEAD
   margin: ${remMagicUnit}rem auto;
   background-image: linear-gradient(90deg, ${lineColor} 1px, ${trans} 1px),
     linear-gradient(0deg, ${lineColor} 1px, ${trans} 1px),
@@ -42,6 +46,22 @@ const Frame = styled.iframe`
   width: 100%;
   margin: 0;
   padding: 0;
+=======
+  padding: ${MagicUnit}rem 0;
+  margin: ${MagicUnit}rem 0;
+  background-image: linear-gradient(90deg, ${lineColor} 1px, transparent 1px),
+    linear-gradient(0deg, ${lineColor} 1px, transparent 1px),
+    linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
+    linear-gradient(0deg, ${subLineColor} 1px, transparent 1px),
+    linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
+    linear-gradient(0deg, ${subLineColor} 1px, transparent 1px);
+
+  background-size: ${MagicUnit}rem ${MagicUnit}rem,
+    ${MagicUnit}rem ${MagicUnit}rem, ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
+    ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
+    ${MagicUnit / 4}rem ${MagicUnit / 4}rem,
+    ${MagicUnit / 4}rem ${MagicUnit / 4}rem;
+>>>>>>> refactor(pattern/tokens): use 16px based REM units instead of sizes
 `
 
 export class PatternFrame extends PureComponent {
