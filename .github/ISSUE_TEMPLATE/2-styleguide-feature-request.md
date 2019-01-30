@@ -26,3 +26,5 @@ Existing issues often contain information about workarounds, resolution, or prog
 
 ### Describe alternatives you've considered
 <!-- ✍️--> Have you considered any alternative solutions or workarounds?
+
+<!--Learn more about our [workflow](https://github.com/adeo/design-system--styleguide/wiki) for requests-->
