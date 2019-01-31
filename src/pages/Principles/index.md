@@ -47,5 +47,3 @@ Consulting and using this charter will allow you to know and understand the bran
 
 
 <br/>
-
-

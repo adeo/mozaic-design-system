@@ -3,8 +3,7 @@ title: 'The "Six S"'
 order: 2
 ---
 
-A concept created to apply on interfaces and interactions created:
-The style of **LEROY MERLIN** is characterized by the _6 "S"_ as fundamental elements of its expression.
+## The style of **LEROY MERLIN** is characterized by the _6 "S"_ as fundamental elements of its expression.
 
 
 ### Simple
@@ -29,17 +28,15 @@ Our words must give confidence. Avoid excess, stress that can arouse communicati
 
 
 ### Sensitive
-Aesthetic,
-humor and shift must be sought because we want to arouse emotions.
+Aesthetic, humor and shift must be sought because we want to arouse emotions.
 The subject of the house being itself a subject of sensitivity,
 our style must especially focus on expressing its depth.
 
 
 ### Stimulating
-**LEROY MERLIN**, for the relevance of his words,
-must "make you want" It's about being always passionate, exciting, enthusiastic, living,
-engaging and not cold, distant or giving lessons.
-The tone must evoke ambition and energy with our interlocutors without however being loud or outrageous.
+**LEROY MERLIN**, for the relevance of his words, must "make you want" It's about being always passionate, exciting, enthusiastic, living, engaging and not cold, distant or giving lessons.
+The tone must evoke ambition and energy with our interlocutors without however being loud or outrageous. 
+
 
 ### Sympa
 Proximity, smile, sharing, collaboration, listening must be expressed by this style line.
