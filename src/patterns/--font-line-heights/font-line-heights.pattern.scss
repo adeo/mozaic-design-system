@@ -1,0 +1,29 @@
+@import 'settings-tools/_all-settings';
+
+$lines-heights: ('s', 'm', 'l');
+
+* {
+  box-sizing: border-box;
+}
+
+.example {
+  padding: $mu100;
+
+  @include font-face('regular');
+
+  &__container {
+    min-height: $mu400;
+  }
+
+  &__font-line-height {
+    box-shadow:
+      0 1px 0 0 rgba($color-secondary-red-500, 0.5),
+      0 -1px 0 0 rgba($color-secondary-red-500, 0.5);
+
+    @each $key in $lines-heights {
+      &--#{$key} {
+        @include font-scale('10', $key);
+      }
+    }
+  }
+}
