@@ -21,6 +21,7 @@ class MenuVersionRelease extends Component {
         node: PropTypes.shape({
           url: PropTypes.string.isRequired,
           tagName: PropTypes.string.isRequired,
+          isCurrent: PropTypes.bool.isRequired,
         }).isRequired,
       })
     ).isRequired,
@@ -33,8 +34,12 @@ class MenuVersionRelease extends Component {
       <div>
         <LabelVersion>older tags:</LabelVersion>
         <select onChange={this.handleChange}>
-          {githubReleases.map(release => (
-            <option key={release.node.tagName} value={release.node.url}>
+          {githubReleases.reverse().map(release => (
+            <option
+              key={release.node.tagName}
+              value={release.node.url}
+              selected={release.node.isCurrent}
+            >
               {release.node.tagName}
             </option>
           ))}

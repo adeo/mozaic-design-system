@@ -71,6 +71,7 @@ const query = graphql`
         node {
           tagName
           url
+          isCurrent
         }
       }
     }

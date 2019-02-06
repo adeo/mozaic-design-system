@@ -16,7 +16,13 @@ const Header = styled.div`
 
 const MenuHeader = ({ siteTitle, githubReleases }) => (
   <Header>
-    <Link to="/">{siteTitle}</Link>
+    <Link to="/">{siteTitle}</Link>{' '}
+    <small>
+      {
+        githubReleases.filter(release => release.node.isCurrent === true)[0]
+          .node.tagName
+      }
+    </small>
     <MenuVersionSelect githubReleases={githubReleases} />
   </Header>
 )
@@ -28,6 +34,7 @@ MenuHeader.propTypes = {
       node: PropTypes.shape({
         url: PropTypes.string.isRequired,
         tagName: PropTypes.string.isRequired,
+        isCurrent: PropTypes.bool.isRequired,
       }).isRequired,
     })
   ).isRequired,
