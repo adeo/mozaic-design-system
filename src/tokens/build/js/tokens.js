@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Thu, 24 Jan 2019 15:41:57 GMT
- */
-
 export const ColorPrimary01100 = "#eaf3e2";
 export const ColorPrimary01200 = "#cbe3b5";
 export const ColorPrimary01300 = "#add585";
