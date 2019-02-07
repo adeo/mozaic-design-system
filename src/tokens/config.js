@@ -6,7 +6,7 @@ const getPath = localRelativePath =>
 const getBuildPath = path => getPath(path) + '/'
 
 const config = {
-  source: [getPath('properties/**/*.json'), getPath('prop2/**/*.json')],
+  source: [getPath('properties/**/*.json')],
   platforms: {
     scss: {
       transformGroup: 'scss',
@@ -14,7 +14,10 @@ const config = {
       files: [
         {
           destination: '_tokens.scss',
-          format: 'sass/map-deep',
+          format: 'scss/map-deep',
+          options: {
+            showFileHeader: false,
+          },
         },
       ],
     },
@@ -25,10 +28,16 @@ const config = {
         {
           destination: 'font_dimens.xml',
           format: 'android/fontDimens',
+          options: {
+            showFileHeader: false,
+          },
         },
         {
           destination: 'colors.xml',
           format: 'android/colors',
+          options: {
+            showFileHeader: false,
+          },
         },
       ],
     },
@@ -39,10 +48,16 @@ const config = {
         {
           destination: 'tokensObject.js',
           format: 'javascript/module',
+          options: {
+            showFileHeader: false,
+          },
         },
         {
           format: 'javascript/es6',
           destination: 'tokens.js',
+          options: {
+            showFileHeader: false,
+          },
         },
       ],
     },
@@ -53,6 +68,9 @@ const config = {
         {
           destination: 'StyleDictionaryColor.h',
           format: 'ios/colors.h',
+          options: {
+            showFileHeader: false,
+          },
           className: 'StyleDictionaryColor',
           type: 'StyleDictionaryColorName',
           filter: {
@@ -64,6 +82,9 @@ const config = {
         {
           destination: 'StyleDictionaryColor.m',
           format: 'ios/colors.m',
+          options: {
+            showFileHeader: false,
+          },
           className: 'StyleDictionaryColor',
           type: 'StyleDictionaryColorName',
           filter: {
@@ -75,6 +96,9 @@ const config = {
         {
           destination: 'StyleDictionarySize.h',
           format: 'ios/static.h',
+          options: {
+            showFileHeader: false,
+          },
           className: 'StyleDictionarySize',
           type: 'float',
           filter: {
@@ -86,6 +110,9 @@ const config = {
         {
           destination: 'StyleDictionarySize.m',
           format: 'ios/static.m',
+          options: {
+            showFileHeader: false,
+          },
           className: 'StyleDictionarySize',
           type: 'float',
           filter: {
