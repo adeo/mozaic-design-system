@@ -1,5 +1,9 @@
 @import '../../tokens/build/scss/_tokens.scss';
+@import './_t.map-tools.scss';
 @import './_t.size-units-converters.scss';
+@import './_s.fonts-faces.scss';
+@import './_s.fonts-scale.scss';
+@import './_s.fonts-colors.scss';
 @import './_s.magic-unit.scss';
 @import './_s.spaces.scss';
 @import './_s.screens.scss';

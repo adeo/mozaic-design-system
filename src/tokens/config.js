@@ -73,6 +73,9 @@ const config = {
           },
           className: 'StyleDictionaryColor',
           type: 'StyleDictionaryColorName',
+          options: {
+            showFileHeader: false,
+          },
           filter: {
             attributes: {
               category: 'color',
@@ -87,6 +90,9 @@ const config = {
           },
           className: 'StyleDictionaryColor',
           type: 'StyleDictionaryColorName',
+          options: {
+            showFileHeader: false,
+          },
           filter: {
             attributes: {
               category: 'color',
@@ -100,6 +106,9 @@ const config = {
             showFileHeader: false,
           },
           className: 'StyleDictionarySize',
+          options: {
+            showFileHeader: false,
+          },
           type: 'float',
           filter: {
             attributes: {
@@ -115,6 +124,9 @@ const config = {
           },
           className: 'StyleDictionarySize',
           type: 'float',
+          options: {
+            showFileHeader: false,
+          },
           filter: {
             attributes: {
               category: 'size',
