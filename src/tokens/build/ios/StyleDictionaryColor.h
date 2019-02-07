@@ -86,10 +86,10 @@ ColorSecondaryYellow900,
 ColorFontPrimary01,
 ColorFontPrimary02,
 ColorFontDarkest,
+ColorFontDarker,
 ColorFontDark,
-ColorFontMedium,
 ColorFontLight,
-ColorFontInverted
+ColorFontLightest
 };
 
 @interface StyleDictionaryColor : NSObject
