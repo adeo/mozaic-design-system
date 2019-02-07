@@ -1,0 +1,97 @@
+@mixin generate-grid($column-count) {
+  .gl-grid {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: minmax(auto, auto);
+    grid-column-gap: 16px; // TODO - Change to use magic-unit token
+
+    @include from-screen(m) {
+      grid-column-gap: 32px; // TODO - Change to use magic-unit token
+    }
+
+    &--#{$column-count} {
+      grid-template-columns: #{generate-grid__column__template($column-count)};
+    }
+  }
+}
+
+@mixin generate-grid__columns($column-count) {
+  @for $i from 1 through $column-count {
+    .gl-grid__col-#{$i} {
+      grid-column-end: span $i;
+
+      @include from-screen(m) {
+        &#{\@}from-m {
+          grid-column-end: span $i;
+        }
+      }
+
+      @include from-screen(l) {
+        &#{\@}from-l {
+          grid-column-end: span $i;
+        }
+      }
+
+      @include from-screen(xl) {
+        &#{\@}from-xl {
+          grid-column-end: span $i;
+        }
+      }
+
+      @include from-screen(xxl) {
+        &#{\@}from-xxl {
+          grid-column-end: span $i;
+        }
+      }
+    }
+
+    .gl-grid__col-start-#{$i} {
+      grid-column-start: col-#{$i}-start;
+
+      @include from-screen(m) {
+        &#{\@}from-m {
+          grid-column-start: col-#{$i}-start;
+        }
+      }
+
+      @include from-screen(l) {
+        &#{\@}from-l {
+          grid-column-start: col-#{$i}-start;
+        }
+      }
+
+      @include from-screen(xl) {
+        &#{\@}from-xl {
+          grid-column-start: col-#{$i}-start;
+        }
+      }
+
+      @include from-screen(xxl) {
+        &#{\@}from-xxl {
+          grid-column-start: col-#{$i}-start;
+        }
+      }
+    }
+  }
+}
+
+@function generate-grid__column__template($columnCount) {
+  $grid-template: '';
+
+  @for $i from 1 through $columnCount {
+    @if $i == 1 {
+      $grid-template: '[col-#{$i}-start] 1fr [col-#{$i}-end col-#{$i + 1}-start]';
+    }
+
+    @else if $i == $columnCount {
+      $grid-template: '#{$grid-template} 1fr [col-#{$columnCount}-end]';
+    }
+
+    @else {
+      $grid-template: '#{$grid-template} 1fr [col-#{$i}-end col-#{$i + 1}-start]';
+    }
+  }
+
+  @return $grid-template;
+}
