@@ -17,6 +17,7 @@ const Global = styled.div`
 const Main = styled.main`
   flex: 1;
   overflow: auto;
+  position: relative;
 `
 
 const MenuContainer = styled.main`
