@@ -21,6 +21,7 @@ before_script:
     - cp -R src/styles registry
     - cp -R src/tokens registry
     - cp -R cssCompiler registry
+    - cp -R static registry
     - cd registry
     - TAG=$(npm version $NPM_VERSION)
     - git add package.json

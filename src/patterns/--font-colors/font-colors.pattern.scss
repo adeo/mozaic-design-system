@@ -1,0 +1,30 @@
+@import 'settings-tools/_all-settings';
+
+$font-colors: get-token('color', 'font');
+
+.example {
+  @include font-face('semi-bold');
+  @include font-scale('10', 's');
+
+  padding: $mu100;
+
+  &__container {
+    padding-bottom: $mu100;
+
+    &--reverted {
+      background-color: $color-grey-900;
+    }
+  }
+
+  &__font-color {
+    @each $key, $value in $font-colors {
+      &-#{$key} {
+        @include font-color($key);
+
+        &::after {
+          content: '#{$key}';
+        }
+      }
+    }
+  }
+}

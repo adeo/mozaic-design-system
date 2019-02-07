@@ -1,0 +1,4 @@
+@mixin font-scale($size, $line-height: 'l') {
+  font-size: get-token(size, font, $size);
+  line-height: get-token(size, line, $size, $line-height);
+}

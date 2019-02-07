@@ -1,0 +1,35 @@
+@import 'settings-tools/_all-settings';
+
+$font-sizes: get-token(size, font);
+
+.example {
+  padding: $mu300;
+
+  &__item {
+    @include font-face('regular');
+
+    box-shadow: 0 1px 0 0 rgba($color-secondary-red-500, 0.5);
+
+    &:first-child() {
+      box-shadow:
+        0 1px 0 0 rgba($color-secondary-red-500, 0.5),
+        0 -1px 0 0 rgba($color-secondary-red-500, 0.5);
+    }
+
+    @each $size, $value in $font-sizes {
+      &--#{$size} {
+        @include font-scale($size);
+
+        &::before {
+          content: '#{$size}';
+          text-align: center;
+          display: inline-block;
+          width: $mu400;
+          padding: 0 $mu100;
+          margin-right: $mu100;
+          background: rgba($color-grey-100, 0.5);
+        }
+      }
+    }
+  }
+}

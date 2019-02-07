@@ -9,7 +9,7 @@ import Color from '../gatsby-components/Color'
 import Swatch from '../gatsby-components/Swatch'
 import PageTabs from '../gatsby-components/PageTabs'
 import Hint, { HintItem } from '../gatsby-components/Hint'
-import { MagicUnit, LocalRemValue } from '../tokens/build/js/tokens.js'
+import { MagicUnit } from '../tokens/build/js/tokens.js'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -20,9 +20,9 @@ const FullWidthContainer = styled.div`
 `
 
 const Container = styled.div`
-  padding: ${MagicUnit / LocalRemValue}rem ${(MagicUnit / LocalRemValue) * 2}rem;
+  padding: ${MagicUnit}rem ${MagicUnit * 2}rem;
   margin: 0 auto;
-  max-width: ${(MagicUnit / LocalRemValue) * 52}rem;
+  max-width: ${MagicUnit * 52}rem;
 `
 
 const PageContent = styled.div`

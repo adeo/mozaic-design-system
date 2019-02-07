@@ -1,21 +1,215 @@
 {
   "size": {
     "font": {
-      "small" : {
-        "value": "0.75",
-        "comment": "the small size of the font"
+      "01": {
+        "value": 0.6815,
+        "comment": "11px"
       },
-      "medium": {
-        "value": "1",
-        "comment": "the medium size of the font"
+      "02": {
+        "value": 0.75,
+        "comment": "12px"
       },
-      "large" : {
-        "value": "2",
-        "comment": "the large size of the font"
+      "03": {
+        "value": 0.8125,
+        "comment": "13px"
       },
-      "base"  : {
-        "value": "{size.font.medium.value}",
-        "comment": "the base size of the font"
+      "04": {
+        "value": 0.875,
+        "comment": "14px"
+      },
+      "05": {
+        "value": 1,
+        "comment": "16px"
+      },
+      "06": {
+        "value": 1.125,
+        "comment": "18px"
+      },
+      "07": {
+        "value": 1.375,
+        "comment": "22px"
+      },
+      "08": {
+        "value": 1.625,
+        "comment": "26px"
+      },
+      "09": {
+        "value": 1.9375,
+        "comment": "31px"
+      },
+      "10": {
+        "value": 2.375,
+        "comment": "38px"
+      },
+      "11": {
+        "value": 3,
+        "comment": "48px"
+      },
+      "12": {
+        "value": 3.6875,
+        "comment": "59px"
+      }
+    },
+    "line": {
+      "01": {
+        "m": {
+          "value": 0.75,
+          "comment": "12px"
+        },
+        "l": {
+          "value": 1,
+          "comment": "16px"
+        }
+      },
+      "02": {
+        "s": {
+          "value": 0.75,
+          "comment": "12px"
+        },
+        "m": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "l": {
+          "value": 1.25,
+          "comment": "20px"
+        }
+      },
+      "03": {
+        "m": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "l": {
+          "value": 1.25,
+          "comment": "20px"
+        }
+      },
+      "04": {
+        "s": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "m": {
+          "value": 1.25,
+          "comment": "20px"
+        },
+        "l": {
+          "value": 1.5,
+          "comment": "24px"
+        }
+      },
+      "05": {
+        "s": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "m": {
+          "value": 1.25,
+          "comment": "20px"
+        },
+        "l": {
+          "value": 1.5,
+          "comment": "24px"
+        }
+      },
+      "06": {
+        "s": {
+          "value": 1.25,
+          "comment": "20px"
+        },
+        "m": {
+          "value": 1.5,
+          "comment": "24px"
+        },
+        "l": {
+          "value": 1.75,
+          "comment": "28px"
+        }
+      },
+      "07": {
+        "s": {
+          "value": 1.5,
+          "comment": "24px"
+        },
+        "m": {
+          "value": 1.75,
+          "comment": "28px"
+        },
+        "l": {
+          "value": 2,
+          "comment": "32px"
+        }
+      },
+      "08": {
+        "s": {
+          "value": 1.75,
+          "comment": "28px"
+        },
+        "m": {
+          "value": 2,
+          "comment": "32px"
+        },
+        "l": {
+          "value": 2.5,
+          "comment": "40px"
+        }
+      },
+      "09": {
+        "s": {
+          "value": 2,
+          "comment": "32px"
+        },
+        "m": {
+          "value": 2.5,
+          "comment": "40px"
+        },
+        "l": {
+          "value": 3,
+          "comment": "48px"
+        }
+      },
+      "10": {
+        "s": {
+          "value": 2.5,
+          "comment": "40px"
+        },
+        "m": {
+          "value": 3,
+          "comment": "48px"
+        },
+        "l": {
+          "value": 3.5,
+          "comment": "56px"
+        }
+      },
+      "11": {
+        "s": {
+          "value": 3,
+          "comment": "48px"
+        },
+        "m": {
+          "value": 3.5,
+          "comment": "56px"
+        },
+        "l": {
+          "value": 4,
+          "comment": "64px"
+        }
+      },
+      "12": {
+        "s": {
+          "value": 4,
+          "comment": "64px"
+        },
+        "m": {
+          "value": 4.5,
+          "comment": "72px"
+        },
+        "l": {
+          "value": 5.5,
+          "comment": "88px"
+        }
       }
     }
   }

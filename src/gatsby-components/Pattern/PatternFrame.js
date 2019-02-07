@@ -1,28 +1,26 @@
 import React, { PureComponent } from 'react'
 import styled, { css } from 'styled-components'
 
-import { MagicUnit, LocalRemValue } from '../../tokens/build/js/tokens.js'
+import { MagicUnit } from '../../tokens/build/js/tokens.js'
 
-const remMagicUnit = MagicUnit / LocalRemValue
-const trans = 'transparent'
 const lineColor = `rgba(0, 100, 100, 0.1)`
 const subLineColor = `rgba(0, 100, 100, 0.03)`
 
 const FrameContainer = styled.div`
-  margin: ${remMagicUnit}rem auto;
-  background-image: linear-gradient(90deg, ${lineColor} 1px, ${trans} 1px),
-    linear-gradient(0deg, ${lineColor} 1px, ${trans} 1px),
-    linear-gradient(90deg, ${subLineColor} 1px, ${trans} 1px),
-    linear-gradient(0deg, ${subLineColor} 1px, ${trans} 1px),
-    linear-gradient(90deg, ${subLineColor} 1px, ${trans} 1px),
-    linear-gradient(0deg, ${subLineColor} 1px, ${trans} 1px);
+  padding: ${MagicUnit}rem 0;
+  margin: ${MagicUnit}rem 0;
+  background-image: linear-gradient(90deg, ${lineColor} 1px, transparent 1px),
+    linear-gradient(0deg, ${lineColor} 1px, transparent 1px),
+    linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
+    linear-gradient(0deg, ${subLineColor} 1px, transparent 1px),
+    linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
+    linear-gradient(0deg, ${subLineColor} 1px, transparent 1px);
 
-  background-size: ${remMagicUnit}rem ${remMagicUnit}rem,
-    ${remMagicUnit}rem ${remMagicUnit}rem,
-    ${remMagicUnit / 2}rem ${remMagicUnit / 2}rem,
-    ${remMagicUnit / 2}rem ${remMagicUnit / 2}rem,
-    ${remMagicUnit / 4}rem ${remMagicUnit / 4}rem,
-    ${remMagicUnit / 4}rem ${remMagicUnit / 4}rem;
+  background-size: ${MagicUnit}rem ${MagicUnit}rem,
+    ${MagicUnit}rem ${MagicUnit}rem, ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
+    ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
+    ${MagicUnit / 4}rem ${MagicUnit / 4}rem,
+    ${MagicUnit / 4}rem ${MagicUnit / 4}rem;
 
   ${({ viewport, viewPorts, availableWidth, fullScreen }) => css`
     width: ${viewPorts[viewport]}px;

@@ -1397,9 +1397,9 @@ module.exports = {
     }
   },
   "magic-unit": {
-    "value": 16,
+    "value": 1,
     "original": {
-      "value": 16
+      "value": 1
     },
     "name": "MagicUnit",
     "attributes": {
@@ -1424,81 +1424,973 @@ module.exports = {
   },
   "size": {
     "font": {
-      "small": {
+      "10": {
+        "value": "2.375rem",
+        "comment": "38px",
+        "original": {
+          "value": 2.375,
+          "comment": "38px"
+        },
+        "name": "SizeFont10",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "10"
+        },
+        "path": [
+          "size",
+          "font",
+          "10"
+        ]
+      },
+      "11": {
+        "value": "3rem",
+        "comment": "48px",
+        "original": {
+          "value": 3,
+          "comment": "48px"
+        },
+        "name": "SizeFont11",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "11"
+        },
+        "path": [
+          "size",
+          "font",
+          "11"
+        ]
+      },
+      "12": {
+        "value": "3.6875rem",
+        "comment": "59px",
+        "original": {
+          "value": 3.6875,
+          "comment": "59px"
+        },
+        "name": "SizeFont12",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "12"
+        },
+        "path": [
+          "size",
+          "font",
+          "12"
+        ]
+      },
+      "01": {
+        "value": "0.6815rem",
+        "comment": "11px",
+        "original": {
+          "value": 0.6815,
+          "comment": "11px"
+        },
+        "name": "SizeFont01",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "01"
+        },
+        "path": [
+          "size",
+          "font",
+          "01"
+        ]
+      },
+      "02": {
         "value": "0.75rem",
-        "comment": "the small size of the font",
+        "comment": "12px",
         "original": {
-          "value": "0.75",
-          "comment": "the small size of the font"
+          "value": 0.75,
+          "comment": "12px"
         },
-        "name": "SizeFontSmall",
+        "name": "SizeFont02",
         "attributes": {
           "category": "size",
           "type": "font",
-          "item": "small"
+          "item": "02"
         },
         "path": [
           "size",
           "font",
-          "small"
+          "02"
         ]
       },
-      "medium": {
+      "03": {
+        "value": "0.8125rem",
+        "comment": "13px",
+        "original": {
+          "value": 0.8125,
+          "comment": "13px"
+        },
+        "name": "SizeFont03",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "03"
+        },
+        "path": [
+          "size",
+          "font",
+          "03"
+        ]
+      },
+      "04": {
+        "value": "0.875rem",
+        "comment": "14px",
+        "original": {
+          "value": 0.875,
+          "comment": "14px"
+        },
+        "name": "SizeFont04",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "04"
+        },
+        "path": [
+          "size",
+          "font",
+          "04"
+        ]
+      },
+      "05": {
         "value": "1rem",
-        "comment": "the medium size of the font",
+        "comment": "16px",
         "original": {
-          "value": "1",
-          "comment": "the medium size of the font"
+          "value": 1,
+          "comment": "16px"
         },
-        "name": "SizeFontMedium",
+        "name": "SizeFont05",
         "attributes": {
           "category": "size",
           "type": "font",
-          "item": "medium"
+          "item": "05"
         },
         "path": [
           "size",
           "font",
-          "medium"
+          "05"
         ]
       },
-      "large": {
-        "value": "2rem",
-        "comment": "the large size of the font",
+      "06": {
+        "value": "1.125rem",
+        "comment": "18px",
         "original": {
-          "value": "2",
-          "comment": "the large size of the font"
+          "value": 1.125,
+          "comment": "18px"
         },
-        "name": "SizeFontLarge",
+        "name": "SizeFont06",
         "attributes": {
           "category": "size",
           "type": "font",
-          "item": "large"
+          "item": "06"
         },
         "path": [
           "size",
           "font",
-          "large"
+          "06"
         ]
       },
-      "base": {
-        "value": "1rem",
-        "comment": "the base size of the font",
+      "07": {
+        "value": "1.375rem",
+        "comment": "22px",
         "original": {
-          "value": "{size.font.medium.value}",
-          "comment": "the base size of the font"
+          "value": 1.375,
+          "comment": "22px"
         },
-        "name": "SizeFontBase",
+        "name": "SizeFont07",
         "attributes": {
           "category": "size",
           "type": "font",
-          "item": "base"
+          "item": "07"
         },
         "path": [
           "size",
           "font",
-          "base"
+          "07"
         ]
+      },
+      "08": {
+        "value": "1.625rem",
+        "comment": "26px",
+        "original": {
+          "value": 1.625,
+          "comment": "26px"
+        },
+        "name": "SizeFont08",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "08"
+        },
+        "path": [
+          "size",
+          "font",
+          "08"
+        ]
+      },
+      "09": {
+        "value": "1.9375rem",
+        "comment": "31px",
+        "original": {
+          "value": 1.9375,
+          "comment": "31px"
+        },
+        "name": "SizeFont09",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "09"
+        },
+        "path": [
+          "size",
+          "font",
+          "09"
+        ]
+      }
+    },
+    "line": {
+      "10": {
+        "s": {
+          "value": "2.5rem",
+          "comment": "40px",
+          "original": {
+            "value": 2.5,
+            "comment": "40px"
+          },
+          "name": "SizeLine10S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "10",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "10",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "3rem",
+          "comment": "48px",
+          "original": {
+            "value": 3,
+            "comment": "48px"
+          },
+          "name": "SizeLine10M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "10",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "10",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "3.5rem",
+          "comment": "56px",
+          "original": {
+            "value": 3.5,
+            "comment": "56px"
+          },
+          "name": "SizeLine10L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "10",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "10",
+            "l"
+          ]
+        }
+      },
+      "11": {
+        "s": {
+          "value": "3rem",
+          "comment": "48px",
+          "original": {
+            "value": 3,
+            "comment": "48px"
+          },
+          "name": "SizeLine11S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "11",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "11",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "3.5rem",
+          "comment": "56px",
+          "original": {
+            "value": 3.5,
+            "comment": "56px"
+          },
+          "name": "SizeLine11M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "11",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "11",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "4rem",
+          "comment": "64px",
+          "original": {
+            "value": 4,
+            "comment": "64px"
+          },
+          "name": "SizeLine11L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "11",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "11",
+            "l"
+          ]
+        }
+      },
+      "12": {
+        "s": {
+          "value": "4rem",
+          "comment": "64px",
+          "original": {
+            "value": 4,
+            "comment": "64px"
+          },
+          "name": "SizeLine12S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "12",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "12",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "4.5rem",
+          "comment": "72px",
+          "original": {
+            "value": 4.5,
+            "comment": "72px"
+          },
+          "name": "SizeLine12M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "12",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "12",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "5.5rem",
+          "comment": "88px",
+          "original": {
+            "value": 5.5,
+            "comment": "88px"
+          },
+          "name": "SizeLine12L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "12",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "12",
+            "l"
+          ]
+        }
+      },
+      "01": {
+        "m": {
+          "value": "0.75rem",
+          "comment": "12px",
+          "original": {
+            "value": 0.75,
+            "comment": "12px"
+          },
+          "name": "SizeLine01M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "01",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "01",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "1rem",
+          "comment": "16px",
+          "original": {
+            "value": 1,
+            "comment": "16px"
+          },
+          "name": "SizeLine01L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "01",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "01",
+            "l"
+          ]
+        }
+      },
+      "02": {
+        "s": {
+          "value": "0.75rem",
+          "comment": "12px",
+          "original": {
+            "value": 0.75,
+            "comment": "12px"
+          },
+          "name": "SizeLine02S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "02",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "02",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "1rem",
+          "comment": "16px",
+          "original": {
+            "value": 1,
+            "comment": "16px"
+          },
+          "name": "SizeLine02M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "02",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "02",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "1.25rem",
+          "comment": "20px",
+          "original": {
+            "value": 1.25,
+            "comment": "20px"
+          },
+          "name": "SizeLine02L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "02",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "02",
+            "l"
+          ]
+        }
+      },
+      "03": {
+        "m": {
+          "value": "1rem",
+          "comment": "16px",
+          "original": {
+            "value": 1,
+            "comment": "16px"
+          },
+          "name": "SizeLine03M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "03",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "03",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "1.25rem",
+          "comment": "20px",
+          "original": {
+            "value": 1.25,
+            "comment": "20px"
+          },
+          "name": "SizeLine03L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "03",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "03",
+            "l"
+          ]
+        }
+      },
+      "04": {
+        "s": {
+          "value": "1rem",
+          "comment": "16px",
+          "original": {
+            "value": 1,
+            "comment": "16px"
+          },
+          "name": "SizeLine04S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "04",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "04",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "1.25rem",
+          "comment": "20px",
+          "original": {
+            "value": 1.25,
+            "comment": "20px"
+          },
+          "name": "SizeLine04M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "04",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "04",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "1.5rem",
+          "comment": "24px",
+          "original": {
+            "value": 1.5,
+            "comment": "24px"
+          },
+          "name": "SizeLine04L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "04",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "04",
+            "l"
+          ]
+        }
+      },
+      "05": {
+        "s": {
+          "value": "1rem",
+          "comment": "16px",
+          "original": {
+            "value": 1,
+            "comment": "16px"
+          },
+          "name": "SizeLine05S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "05",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "05",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "1.25rem",
+          "comment": "20px",
+          "original": {
+            "value": 1.25,
+            "comment": "20px"
+          },
+          "name": "SizeLine05M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "05",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "05",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "1.5rem",
+          "comment": "24px",
+          "original": {
+            "value": 1.5,
+            "comment": "24px"
+          },
+          "name": "SizeLine05L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "05",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "05",
+            "l"
+          ]
+        }
+      },
+      "06": {
+        "s": {
+          "value": "1.25rem",
+          "comment": "20px",
+          "original": {
+            "value": 1.25,
+            "comment": "20px"
+          },
+          "name": "SizeLine06S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "06",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "06",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "1.5rem",
+          "comment": "24px",
+          "original": {
+            "value": 1.5,
+            "comment": "24px"
+          },
+          "name": "SizeLine06M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "06",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "06",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "1.75rem",
+          "comment": "28px",
+          "original": {
+            "value": 1.75,
+            "comment": "28px"
+          },
+          "name": "SizeLine06L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "06",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "06",
+            "l"
+          ]
+        }
+      },
+      "07": {
+        "s": {
+          "value": "1.5rem",
+          "comment": "24px",
+          "original": {
+            "value": 1.5,
+            "comment": "24px"
+          },
+          "name": "SizeLine07S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "07",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "07",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "1.75rem",
+          "comment": "28px",
+          "original": {
+            "value": 1.75,
+            "comment": "28px"
+          },
+          "name": "SizeLine07M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "07",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "07",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "2rem",
+          "comment": "32px",
+          "original": {
+            "value": 2,
+            "comment": "32px"
+          },
+          "name": "SizeLine07L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "07",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "07",
+            "l"
+          ]
+        }
+      },
+      "08": {
+        "s": {
+          "value": "1.75rem",
+          "comment": "28px",
+          "original": {
+            "value": 1.75,
+            "comment": "28px"
+          },
+          "name": "SizeLine08S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "08",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "08",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "2rem",
+          "comment": "32px",
+          "original": {
+            "value": 2,
+            "comment": "32px"
+          },
+          "name": "SizeLine08M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "08",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "08",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "2.5rem",
+          "comment": "40px",
+          "original": {
+            "value": 2.5,
+            "comment": "40px"
+          },
+          "name": "SizeLine08L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "08",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "08",
+            "l"
+          ]
+        }
+      },
+      "09": {
+        "s": {
+          "value": "2rem",
+          "comment": "32px",
+          "original": {
+            "value": 2,
+            "comment": "32px"
+          },
+          "name": "SizeLine09S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "09",
+            "subitem": "s"
+          },
+          "path": [
+            "size",
+            "line",
+            "09",
+            "s"
+          ]
+        },
+        "m": {
+          "value": "2.5rem",
+          "comment": "40px",
+          "original": {
+            "value": 2.5,
+            "comment": "40px"
+          },
+          "name": "SizeLine09M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "09",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "line",
+            "09",
+            "m"
+          ]
+        },
+        "l": {
+          "value": "3rem",
+          "comment": "48px",
+          "original": {
+            "value": 3,
+            "comment": "48px"
+          },
+          "name": "SizeLine09L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "09",
+            "subitem": "l"
+          },
+          "path": [
+            "size",
+            "line",
+            "09",
+            "l"
+          ]
+        }
       }
     }
   }

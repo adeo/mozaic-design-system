@@ -81,12 +81,54 @@ $color-font-dark: #222020 !default;
 $color-font-medium: #3c3738 !default;
 $color-font-light: #554f52 !default;
 $color-font-inverted: #ffffff !default;
-$magic-unit: 16 !default;
+$magic-unit: 1 !default;
 $local-rem-value: 16 !default;
-$size-font-small: 0.75rem !default; // the small size of the font
-$size-font-medium: 1rem !default; // the medium size of the font
-$size-font-large: 2rem !default; // the large size of the font
-$size-font-base: 1rem !default; // the base size of the font
+$size-font-10: 2.375rem !default; // 38px
+$size-font-11: 3rem !default; // 48px
+$size-font-12: 3.6875rem !default; // 59px
+$size-font-01: 0.6815rem !default; // 11px
+$size-font-02: 0.75rem !default; // 12px
+$size-font-03: 0.8125rem !default; // 13px
+$size-font-04: 0.875rem !default; // 14px
+$size-font-05: 1rem !default; // 16px
+$size-font-06: 1.125rem !default; // 18px
+$size-font-07: 1.375rem !default; // 22px
+$size-font-08: 1.625rem !default; // 26px
+$size-font-09: 1.9375rem !default; // 31px
+$size-line-10-s: 2.5rem !default; // 40px
+$size-line-10-m: 3rem !default; // 48px
+$size-line-10-l: 3.5rem !default; // 56px
+$size-line-11-s: 3rem !default; // 48px
+$size-line-11-m: 3.5rem !default; // 56px
+$size-line-11-l: 4rem !default; // 64px
+$size-line-12-s: 4rem !default; // 64px
+$size-line-12-m: 4.5rem !default; // 72px
+$size-line-12-l: 5.5rem !default; // 88px
+$size-line-01-m: 0.75rem !default; // 12px
+$size-line-01-l: 1rem !default; // 16px
+$size-line-02-s: 0.75rem !default; // 12px
+$size-line-02-m: 1rem !default; // 16px
+$size-line-02-l: 1.25rem !default; // 20px
+$size-line-03-m: 1rem !default; // 16px
+$size-line-03-l: 1.25rem !default; // 20px
+$size-line-04-s: 1rem !default; // 16px
+$size-line-04-m: 1.25rem !default; // 20px
+$size-line-04-l: 1.5rem !default; // 24px
+$size-line-05-s: 1rem !default; // 16px
+$size-line-05-m: 1.25rem !default; // 20px
+$size-line-05-l: 1.5rem !default; // 24px
+$size-line-06-s: 1.25rem !default; // 20px
+$size-line-06-m: 1.5rem !default; // 24px
+$size-line-06-l: 1.75rem !default; // 28px
+$size-line-07-s: 1.5rem !default; // 24px
+$size-line-07-m: 1.75rem !default; // 28px
+$size-line-07-l: 2rem !default; // 32px
+$size-line-08-s: 1.75rem !default; // 28px
+$size-line-08-m: 2rem !default; // 32px
+$size-line-08-l: 2.5rem !default; // 40px
+$size-line-09-s: 2rem !default; // 32px
+$size-line-09-m: 2.5rem !default; // 40px
+$size-line-09-l: 3rem !default; // 48px
 
 $tokens: (
   'color': (
@@ -194,10 +236,78 @@ $tokens: (
   'local-rem-value': $local-rem-value,
   'size': (
     'font': (
-      'small': $size-font-small,
-      'medium': $size-font-medium,
-      'large': $size-font-large,
-      'base': $size-font-base
+      '10': $size-font-10,
+      '11': $size-font-11,
+      '12': $size-font-12,
+      '01': $size-font-01,
+      '02': $size-font-02,
+      '03': $size-font-03,
+      '04': $size-font-04,
+      '05': $size-font-05,
+      '06': $size-font-06,
+      '07': $size-font-07,
+      '08': $size-font-08,
+      '09': $size-font-09
+    ),
+    'line': (
+      '10': (
+        's': $size-line-10-s,
+        'm': $size-line-10-m,
+        'l': $size-line-10-l
+      ),
+      '11': (
+        's': $size-line-11-s,
+        'm': $size-line-11-m,
+        'l': $size-line-11-l
+      ),
+      '12': (
+        's': $size-line-12-s,
+        'm': $size-line-12-m,
+        'l': $size-line-12-l
+      ),
+      '01': (
+        'm': $size-line-01-m,
+        'l': $size-line-01-l
+      ),
+      '02': (
+        's': $size-line-02-s,
+        'm': $size-line-02-m,
+        'l': $size-line-02-l
+      ),
+      '03': (
+        'm': $size-line-03-m,
+        'l': $size-line-03-l
+      ),
+      '04': (
+        's': $size-line-04-s,
+        'm': $size-line-04-m,
+        'l': $size-line-04-l
+      ),
+      '05': (
+        's': $size-line-05-s,
+        'm': $size-line-05-m,
+        'l': $size-line-05-l
+      ),
+      '06': (
+        's': $size-line-06-s,
+        'm': $size-line-06-m,
+        'l': $size-line-06-l
+      ),
+      '07': (
+        's': $size-line-07-s,
+        'm': $size-line-07-m,
+        'l': $size-line-07-l
+      ),
+      '08': (
+        's': $size-line-08-s,
+        'm': $size-line-08-m,
+        'l': $size-line-08-l
+      ),
+      '09': (
+        's': $size-line-09-s,
+        'm': $size-line-09-m,
+        'l': $size-line-09-l
+      )
     )
   )
 );

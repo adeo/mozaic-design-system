@@ -1,0 +1,3 @@
+@mixin font-color($color) {
+  color: get-token(color, font, $color);
+}
