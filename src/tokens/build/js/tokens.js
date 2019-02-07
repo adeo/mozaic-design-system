@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Thu, 24 Jan 2019 15:41:57 GMT
- */
-
 export const ColorPrimary01100 = "#eaf3e2";
 export const ColorPrimary01200 = "#cbe3b5";
 export const ColorPrimary01300 = "#add585";
@@ -80,7 +75,6 @@ export const ColorSecondaryYellow900 = "#46350d";
 export const ColorFontPrimary01 = "#78be20";
 export const ColorFontPrimary02 = "#007574";
 export const ColorFontDarkest = "#000000";
-<<<<<<< HEAD
 export const ColorFontDarker = "#222020";
 export const ColorFontDark = "#3c3738";
 export const ColorFontLight = "#554f52";
@@ -133,15 +127,3 @@ export const SizeLine08L = "2.5rem"; // 40px
 export const SizeLine09S = "2rem"; // 32px
 export const SizeLine09M = "2.5rem"; // 40px
 export const SizeLine09L = "3rem"; // 48px
-=======
-export const ColorFontDark = "#222020";
-export const ColorFontMedium = "#3c3738";
-export const ColorFontLight = "#554f52";
-export const ColorFontInverted = "#ffffff";
-export const MagicUnit = 16;
-export const LocalRemValue = 16;
-export const SizeFontSmall = "0.75rem"; // the small size of the font
-export const SizeFontMedium = "1rem"; // the medium size of the font
-export const SizeFontLarge = "2rem"; // the large size of the font
-export const SizeFontBase = "1rem"; // the base size of the font
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)

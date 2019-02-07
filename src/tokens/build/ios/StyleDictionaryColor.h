@@ -87,17 +87,10 @@ ColorSecondaryYellow900,
 ColorFontPrimary01,
 ColorFontPrimary02,
 ColorFontDarkest,
-<<<<<<< HEAD
-ColorFontDarker,
-ColorFontDark,
-ColorFontLight,
-ColorFontLightest
-=======
 ColorFontDark,
 ColorFontMedium,
 ColorFontLight,
 ColorFontInverted
->>>>>>> feat(patterns/tokens): implementation of style dictionary (#112)
 };
 
 @interface StyleDictionaryColor : NSObject
