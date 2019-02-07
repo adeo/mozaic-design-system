@@ -3,25 +3,25 @@ title: 'Principles'
 order: 1
 ---
 
-## The essence of the brand's expression charter
+# The essence of the brand's expression charter
 
-```hint|directive
-<b>OUR AMBITION</b><br>
+### OUR AMBITION
+
 We want to be seen as a leading company that advances the market and makes people grow.
 
-<br><br>
+### OUR VISION
 
-<b>OUR VISION</b><br>
 We want to be the brand-solutions that allows everyone to accomplish by completing their home project.
 
-<br><br>
+### OUR PERSONALITY
 
-<b>OUR PERSONALITY</b><br>
 We want it to be expressed through our qualities: pedagogue, benevolent, helpful, competent, close, inspiring, economical, anticipatory, honest.
 
+<br>
 
-```
+---
 
+<br>
 
 The **LEROY MERLIN** brand is unique. There is only one brand **LEROY MERLIN** and it is the same regardless of the public concerned: customers, employees, institutional.
 </br>
@@ -32,18 +32,17 @@ As all our messages reveal our identity and our personality, refer to this chart
 ### WHAT WE WANT PEOPLE TO FEEL
 
 > I am enthusiastic and involved.
-<br/>
+> <br/>
 > I feel free, I do not settle for ready-made solutions.
-<br/>
+> <br/>
 > I feel stronger.
-<br/>
+> <br/>
 > I feel considered.
-<br/>
+> <br/>
 > I am an architect, builder of my house, of my life.
 
-
 #### One charter
-Consulting and using this charter will allow you to know and understand the brand's way of representing and expressing itself. This document is a summary. Here you will all the information, explanations and files available for use. 
 
+Consulting and using this charter will allow you to know and understand the brand's way of representing and expressing itself. This document is a summary. Here you will all the information, explanations and files available for use.
 
 <br/>

@@ -21,7 +21,7 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-github-release'
+      resolve: 'gatsby-github-release',
     },
     {
       resolve: `gatsby-plugin-sass`,
@@ -53,7 +53,6 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-design-system',
           'gatsby-remark-component',
           {
             resolve: `gatsby-remark-images`,
