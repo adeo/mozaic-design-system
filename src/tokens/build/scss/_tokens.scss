@@ -77,10 +77,10 @@ $color-secondary-yellow-900: #46350d !default;
 $color-font-primary-01: #78be20 !default;
 $color-font-primary-02: #007574 !default;
 $color-font-darkest: #000000 !default;
-$color-font-dark: #222020 !default;
-$color-font-medium: #3c3738 !default;
+$color-font-darker: #222020 !default;
+$color-font-dark: #3c3738 !default;
 $color-font-light: #554f52 !default;
-$color-font-inverted: #ffffff !default;
+$color-font-lightest: #ffffff !default;
 $magic-unit: 1 !default;
 $local-rem-value: 16 !default;
 $size-font-10: 2.375rem !default; // 38px
@@ -226,10 +226,10 @@ $tokens: (
       'primary-01': $color-font-primary-01,
       'primary-02': $color-font-primary-02,
       'darkest': $color-font-darkest,
+      'darker': $color-font-darker,
       'dark': $color-font-dark,
-      'medium': $color-font-medium,
       'light': $color-font-light,
-      'inverted': $color-font-inverted
+      'lightest': $color-font-lightest
     )
   ),
   'magic-unit': $magic-unit,

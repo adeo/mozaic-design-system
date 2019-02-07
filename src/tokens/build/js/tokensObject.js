@@ -1326,10 +1326,27 @@ module.exports = {
           "darkest"
         ]
       },
-      "dark": {
+      "darker": {
         "value": "#222020",
         "original": {
           "value": "{color.grey.900.value}"
+        },
+        "name": "ColorFontDarker",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "darker"
+        },
+        "path": [
+          "color",
+          "font",
+          "darker"
+        ]
+      },
+      "dark": {
+        "value": "#3c3738",
+        "original": {
+          "value": "{color.grey.800.value}"
         },
         "name": "ColorFontDark",
         "attributes": {
@@ -1341,23 +1358,6 @@ module.exports = {
           "color",
           "font",
           "dark"
-        ]
-      },
-      "medium": {
-        "value": "#3c3738",
-        "original": {
-          "value": "{color.grey.800.value}"
-        },
-        "name": "ColorFontMedium",
-        "attributes": {
-          "category": "color",
-          "type": "font",
-          "item": "medium"
-        },
-        "path": [
-          "color",
-          "font",
-          "medium"
         ]
       },
       "light": {
@@ -1377,21 +1377,21 @@ module.exports = {
           "light"
         ]
       },
-      "inverted": {
+      "lightest": {
         "value": "#ffffff",
         "original": {
           "value": "{color.grey.000.value}"
         },
-        "name": "ColorFontInverted",
+        "name": "ColorFontLightest",
         "attributes": {
           "category": "color",
           "type": "font",
-          "item": "inverted"
+          "item": "lightest"
         },
         "path": [
           "color",
           "font",
-          "inverted"
+          "lightest"
         ]
       }
     }
