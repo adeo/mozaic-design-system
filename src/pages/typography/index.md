@@ -1,6 +1,6 @@
 ---
 title: 'Typography'
-order: 4
+order: 8
 ---
 
 ### [fonts faces](/typography/fontFamillies/)
