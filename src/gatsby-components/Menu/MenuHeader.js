@@ -14,15 +14,22 @@ const Header = styled.div`
   text-transform: uppercase;
 `
 
+const filterCurrentRelease = githubReleases =>
+  githubReleases.filter(release => release.node.isCurrent === true)
+
+const getCurrentRelease = githubReleases => {
+  const filtereredGithubReleases = filterCurrentRelease(githubReleases)
+  return filtereredGithubReleases.length > 0 &&
+    filtereredGithubReleases[0].node &&
+    filtereredGithubReleases[0].node.tagName
+    ? filtereredGithubReleases[0].node.tagName
+    : null
+}
+
 const MenuHeader = ({ siteTitle, githubReleases }) => (
   <Header>
     <Link to="/">{siteTitle}</Link>{' '}
-    <small>
-      {
-        githubReleases.filter(release => release.node.isCurrent === true)[0]
-          .node.tagName
-      }
-    </small>
+    <small>{getCurrentRelease(githubReleases)}</small>
     <MenuVersionSelect githubReleases={githubReleases} />
   </Header>
 )
