@@ -30,13 +30,6 @@ before_script:
     - npm publish
     - git push origin HEAD:master
     - git push origin --tags HEAD:master
-    - cd ..
-    - npm version $NPM_VERSION
-    - git add package.json
-    - git commit -m 'build:new version of css'
-    - npm publish
-    - git push origin HEAD:master
-    - git push origin --tags HEAD:master
     - "curl --request POST --url https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/tag --header 'content-type: application/json' --data '{\"tag_name\": \"'$TAG'\"}'"
 
 .deploy_template: &deploy_template
