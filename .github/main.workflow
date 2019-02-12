@@ -5,7 +5,10 @@ workflow "Build and deploy on push" {
 
 action "Npm install" {
   uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  args = "install"
+  args = "install && echo ${TEST}"
+  env = {
+    TEST = "$(echo refs/heads/feature-branch-1 | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)"
+  }
 }
 
 action "npm build" {
@@ -25,6 +28,6 @@ action "Deploy Demo " {
   args = "--quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=${SERVICE_VERSION} "
   needs = ["GCP auth"]
   env = {
-    SERVICE_VERSION = "echo refs/heads/feature-branch-1 | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z"
+    SERVICE_VERSION = "$(echo refs/heads/feature-branch-1 | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)"
   }
 }
