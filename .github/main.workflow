@@ -76,5 +76,5 @@ action "Npm publish" {
   uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
   needs = ["npm registry"]
   secrets = ["NPM_AUTH_TOKEN"]
-  args = "publish registry"
+  args = "publish registry --access public"
 }
