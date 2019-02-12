@@ -1,0 +1,40 @@
+.ga-input {
+  @include reset-input;
+  @include font-scale('05', 's');
+  display: block;
+  width: 100%;
+  position: relative;
+  border: 1px solid $color-input-text-border;
+  color: $color-input-text-text;
+  background: $color-input-text-background;
+  border-radius : get-radius('m');
+  padding: $mu100;
+
+  &::placeholder{
+    color: $color-input-text-placeholder;
+    opacity: 1;
+  } 
+
+  &.is-valid {
+    border-color: $color-input-text-valid-border;
+  }
+
+  &.is-invalid {
+    border-color: $color-input-text-invalid-border;
+  }
+  
+  &:hover,
+  &.is-hover {
+    border-color: $color-input-text-hover-border
+  }
+
+  &:focus,
+  &.is-focus {
+    border-color: $color-input-text-focus-border
+  }
+
+  &:disabled {
+    border-color: $color-input-text-disabled-border;
+    background: $color-input-text-disabled-background;
+  }
+}
