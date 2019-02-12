@@ -11,7 +11,7 @@ action "Npm install" {
 action "npm build" {
   uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
   needs = ["Npm install"]
-  args = "build"
+  args = "npm run-script build"
 }
 
 action "GCP auth" {
