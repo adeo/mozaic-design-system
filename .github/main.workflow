@@ -34,7 +34,7 @@ action "Deployement url" {
 
 workflow "Release" {
   on = "release"
-  resolves = ["GitHub Action for npm"]
+  resolves = ["Npm publish"]
 }
 
 action "Npm install release" {
@@ -66,8 +66,15 @@ action "Deployement tag url" {
   args = ["POST", "https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment", "ref=$GITHUB_REF,env=production"]
 }
 
-action "GitHub Action for npm" {
+action "npm registry" {
   uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
   needs = ["Deployement tag url"]
+  args = "run registry"
+}
+
+action "Npm publish" {
+  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  needs = ["npm registry"]
   secrets = ["NPM_AUTH_TOKEN"]
+  args = "publish registry"
 }
