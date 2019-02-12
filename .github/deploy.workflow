@@ -15,8 +15,8 @@ action "GitHub Action for Google Cloud" {
 }
 
 workflow "Build and deploy on push" {
-  on = "push"
   resolves = ["Deploy Demo "]
+  on = "label"
 }
 
 action "Npm install" {
