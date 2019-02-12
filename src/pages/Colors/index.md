@@ -3,6 +3,8 @@ title: 'Colors'
 order: 1
 ---
 
+
+TEST
 Color is something the team worked on a lot. We wanted an adaptive and a scalable color system. Our colors have been defined using **HSLA color swatches**. The color palette has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
 
 ## What is HSLA ?
