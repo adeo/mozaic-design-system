@@ -1,16 +1,18 @@
 workflow "Build and deploy on push" {
   on = "push"
-  resolves = ["Deployement url"]
+  resolves = [
+    "Deployement url",
+  ]
 }
 
-action "Filter not master" {
-  uses = "actions/bin/filter@ec328c7554cbb19d9277fc671cf01ec7c661cd9a"  
+action "not master" {
+  uses = "actions/bin/filter@ec328c7554cbb19d9277fc671cf01ec7c661cd9a"
   args = "not branch master"
 }
 
 action "Npm install" {
-  needs = ["Filter not master"]
   uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  needs = ["not master"]
   args = "install"
 }
 
@@ -56,7 +58,7 @@ action "npm build release" {
 
 action "GCP auth release" {
   uses = "actions/gcloud/auth@df59b3263b6597df4053a74e4e4376c045d9087e"
-  needs = ["npm build"]
+  needs = ["npm build release"]
   secrets = ["GCLOUD_AUTH"]
 }
 
@@ -84,4 +86,3 @@ action "Npm publish" {
   secrets = ["NPM_AUTH_TOKEN"]
   args = "publish registry --access public"
 }
-
