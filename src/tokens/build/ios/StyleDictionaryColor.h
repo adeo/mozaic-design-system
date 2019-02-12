@@ -89,7 +89,19 @@ ColorFontDarkest,
 ColorFontDarker,
 ColorFontDark,
 ColorFontLight,
-ColorFontLightest
+ColorFontLightest,
+ColorInputText,
+ColorInputBorder,
+ColorInputPlaceholder,
+ColorInputBackground,
+ColorInputDisabledBorder,
+ColorInputDisabledBackground,
+ColorInputHoverBorder,
+ColorInputFocusBorder,
+ColorInputValidBorder,
+ColorInputValidHoverBorder,
+ColorInputInvalidBorder,
+ColorInputInvalidHoverBorder
 };
 
 @interface StyleDictionaryColor : NSObject

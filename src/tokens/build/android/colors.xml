@@ -83,5 +83,17 @@
   <color name="color_font_dark">#ff3c3738</color>
   <color name="color_font_light">#ff554f52</color>
   <color name="color_font_lightest">#ffffffff</color>
+  <color name="color_input_text">#ff222020</color>
+  <color name="color_input_border">#ff6f676c</color>
+  <color name="color_input_placeholder">#ffa19ba2</color>
+  <color name="color_input_background">#ffffffff</color>
+  <color name="color_input_disabled_border">#ffa19ba2</color>
+  <color name="color_input_disabled_background">#ffeeeef0</color>
+  <color name="color_input_hover_border">#ff222020</color>
+  <color name="color_input_focus_border">#ff25a8d0</color>
+  <color name="color_input_valid_border">#ff78be20</color>
+  <color name="color_input_valid_hover_border">#ff0a601b</color>
+  <color name="color_input_invalid_border">#ffdf382b</color>
+  <color name="color_input_invalid_hover_border">#ff641b21</color>
   
 </resources>

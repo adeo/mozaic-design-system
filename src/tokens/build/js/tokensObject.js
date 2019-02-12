@@ -1394,6 +1394,293 @@ module.exports = {
           "lightest"
         ]
       }
+    },
+    "input": {
+      "text": {
+        "value": "#222020",
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorInputText",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "text"
+        },
+        "path": [
+          "color",
+          "input",
+          "text"
+        ]
+      },
+      "border": {
+        "value": "#6f676c",
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorInputBorder",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "input",
+          "border"
+        ]
+      },
+      "placeholder": {
+        "value": "#a19ba2",
+        "original": {
+          "value": "{color.grey.400.value}"
+        },
+        "name": "ColorInputPlaceholder",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "placeholder"
+        },
+        "path": [
+          "color",
+          "input",
+          "placeholder"
+        ]
+      },
+      "background": {
+        "value": "#ffffff",
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorInputBackground",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "input",
+          "background"
+        ]
+      },
+      "disabled": {
+        "border": {
+          "value": "#a19ba2",
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorInputDisabledBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "border"
+          ]
+        },
+        "background": {
+          "value": "#eeeef0",
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorInputDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "background"
+          ]
+        }
+      },
+      "hover": {
+        "border": {
+          "value": "#222020",
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorInputHoverBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "hover",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "hover",
+            "border"
+          ]
+        }
+      },
+      "focus": {
+        "border": {
+          "value": "#25a8d0",
+          "original": {
+            "value": "{color.secondary-blue.500.value}"
+          },
+          "name": "ColorInputFocusBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "focus",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "focus",
+            "border"
+          ]
+        }
+      },
+      "valid": {
+        "border": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorInputValidBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "valid",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "valid",
+            "border"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#0a601b",
+            "original": {
+              "value": "{color.primary-01.800.value}"
+            },
+            "name": "ColorInputValidHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "input",
+              "item": "valid",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "input",
+              "valid",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      },
+      "invalid": {
+        "border": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorInputInvalidBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "invalid",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "invalid",
+            "border"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#641b21",
+            "original": {
+              "value": "{color.secondary-red.800.value}"
+            },
+            "name": "ColorInputInvalidHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "input",
+              "item": "invalid",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "input",
+              "invalid",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "radius": {
+    "s": {
+      "value": 2,
+      "original": {
+        "value": 2
+      },
+      "name": "RadiusS",
+      "attributes": {
+        "category": "radius",
+        "type": "s"
+      },
+      "path": [
+        "radius",
+        "s"
+      ]
+    },
+    "m": {
+      "value": 4,
+      "original": {
+        "value": 4
+      },
+      "name": "RadiusM",
+      "attributes": {
+        "category": "radius",
+        "type": "m"
+      },
+      "path": [
+        "radius",
+        "m"
+      ]
+    },
+    "l": {
+      "value": 6,
+      "original": {
+        "value": 6
+      },
+      "name": "RadiusL",
+      "attributes": {
+        "category": "radius",
+        "type": "l"
+      },
+      "path": [
+        "radius",
+        "l"
+      ]
     }
   },
   "magic-unit": {
