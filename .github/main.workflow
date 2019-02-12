@@ -1,6 +1,6 @@
 workflow "Build and deploy on push" {
-  on = "label"
   resolves = ["Deployement url"]
+  on = "pull_request"
 }
 
 action "Npm install" {
