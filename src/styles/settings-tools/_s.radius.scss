@@ -1,0 +1,3 @@
+@function get-radius($size : 'm') {
+  @return get-token(radius, $size) * 1px;
+}
