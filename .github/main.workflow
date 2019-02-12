@@ -20,7 +20,7 @@ action "GCP auth" {
   secrets = ["GCLOUD_AUTH"]
 }
 
-action "Deploy Demo " {
+action "Deploy Demo" {
   uses = "actions/gcloud/cli@df59b3263b6597df4053a74e4e4376c045d9087e"
   args = "--quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=$(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z) --no-promote"
   needs = ["GCP auth"]
@@ -28,6 +28,6 @@ action "Deploy Demo " {
 
 action "Deployement url" {
   uses = "swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d"
-  needs = ["Deploy Demo "]
-  args = ["POST", "https://edk0mbiddi.execute-api.eu-west-3.amazonaws.com/dev/deployement", "ref=$GITHUB_REF]
+  needs = ["Deploy Demo"]
+  args = ["POST", "https://edk0mbiddi.execute-api.eu-west-3.amazonaws.com/dev/deployement", "ref=$GITHUB_REF"]
 }
