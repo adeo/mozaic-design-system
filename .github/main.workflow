@@ -29,5 +29,4 @@ action "Deploy Demo " {
 action "Deployement url" {
   uses = "swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d"
   needs = ["Deploy Demo "]
-  args = ["POST", "https://edk0mbiddi.execute-api.eu-west-3.amazonaws.com/dev/deployement", "ref=$GITHUB_REF"]
 }
