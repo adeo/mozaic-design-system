@@ -1,0 +1,41 @@
+@import '../elements/_e.placeholder';
+
+@mixin reset-input {
+  @include font-face('regular');
+  box-sizing: border-box;
+  outline: none;
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.ga-input {
+  @include reset-input;
+  @include font-scale('05', 's');
+  display: block;
+  width: 100%;
+  position: relative;
+  border: 1px solid $color-input-field-border;
+  color: $color-input-field-text;
+  background: $color-input-field-background;
+  border-radius : get-radius('m');
+  padding: $mu100;
+  &.is-valid {
+    border-color: $color-input-field-valid-border;
+  }
+  &.is-invalid {
+    border-color: $color-input-field-invalid-border;
+  }
+  &:hover {
+    border-color: $color-input-field-hover-border
+  }
+  &:focus {
+    border-color: $color-input-field-focus-border
+  }
+  &:disabled {
+    border-color: $color-input-field-disabled-border;
+    background: $color-input-field-disabled-background;
+  }
+}
