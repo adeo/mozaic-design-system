@@ -1,6 +1,6 @@
 workflow "Build and deploy on push" {
-  resolves = ["Deploy Demo "]
   on = "label"
+  resolves = ["Deploy Demo "]
 }
 
 action "Npm install" {
@@ -22,6 +22,9 @@ action "GCP auth" {
 
 action "Deploy Demo " {
   uses = "actions/gcloud/cli@df59b3263b6597df4053a74e4e4376c045d9087e"
-  args = "--quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo"
+  args = "--quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=${SERVICE_VERSION} "
   needs = ["GCP auth"]
+  env = {
+    SERVICE_VERSION = "echo refs/heads/feature-branch-1 | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z"
+  }
 }
