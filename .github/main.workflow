@@ -1,9 +1,15 @@
 workflow "Build and deploy on push" {
-  resolves = ["Deployement url"]
   on = "push"
+  resolves = ["Deployement url"]
+}
+
+action "Filter not master" {
+  uses = "actions/bin/filter@ec328c7554cbb19d9277fc671cf01ec7c661cd9a"  
+  args = "not branch master"
 }
 
 action "Npm install" {
+  needs = ["Filter not master"]
   uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
   args = "install"
 }
@@ -78,3 +84,4 @@ action "Npm publish" {
   secrets = ["NPM_AUTH_TOKEN"]
   args = "publish registry --access public"
 }
+
