@@ -5,9 +5,9 @@ workflow "Build and deploy on push" {
 
 action "Npm install" {
   uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  args = "install && echo ${TEST}"
+  args = "install && echo $TEST"
   env = {
-    TEST = "$(echo refs/heads/feature-branch-1 | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)"
+    TEST = "echo refs/heads/feature-branch-1 | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z"
   }
 }
 
