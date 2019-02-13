@@ -1,7 +1,7 @@
 {
-  "name": "@captainjojo/garden-css",
+  "name": "garden-css",
   "description": "leroy merlin design system css",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "keywords": [
     "css"
   ],
