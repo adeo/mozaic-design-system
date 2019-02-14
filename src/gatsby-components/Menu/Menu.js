@@ -57,11 +57,15 @@ export default class Menu extends PureComponent {
         order: node.frontmatter.order ? node.frontmatter.order : 100,
       }))
 
+    // is it a menu item candidate
+    const isAMenuItemDir = node =>
+      node.type === 'directory' && !node.name.includes('--')
+
     // return a directory tree with only directories
     const filterDirectories = subTree =>
       subTree
         // filter what's not a directory or is a pattern directory
-        .filter(node => node.type === 'directory' && !node.name.includes('--'))
+        .filter(isAMenuItemDir)
         .map(dir => ({
           path: dir.path.replace(/\\/g, '/').replace('src/', ''), // normalise path to compare between markdowns and dirtree
           children:
@@ -95,24 +99,24 @@ export default class Menu extends PureComponent {
 
           return dirIndex
         })
-        .sort((a, b) => a.order > b.order)
+        .sort((a, b) => a.order - b.order)
 
     return MenuBuilderIterator(filterDirectories(fileTree), markdownsIndexes)
   }
 
   render() {
-    const { siteTitle } = this.props
+    const { siteTitle, data } = this.props
 
     const menuArray = this.buildMenuModel(
-      this.props.data.allMarkdownRemark.edges,
-      this.props.data.directoryTree.childrenNode
+      data.allMarkdownRemark.edges,
+      data.directoryTree.childrenNode
     )
 
     return (
       <Container>
         <MenuHeader
           siteTitle={siteTitle}
-          githubReleases={this.props.data.allGithubRelease.edges}
+          githubReleases={data.allGithubRelease.edges}
         />
         <nav>{this.buildMenu(menuArray)}</nav>
       </Container>
