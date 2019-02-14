@@ -19,8 +19,10 @@ Please considere that this repo is in early stage of development. You can report
   - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
 - how to create pages and content in the pattern library :
   - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
+  - [Create and display a pattern](https://github.com/adeo/design-system--styleguide/wiki/Create-and-display-patterns)
+  - [Other in-page components](https://github.com/adeo/design-system--styleguide/wiki/Other-in-page-components)
 
-#### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md) 
+#### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md)
 
 ### requirements :
 
@@ -47,12 +49,21 @@ please folow the this [guide](https://nodejs.org/en/download/package-manager/)
 please considere that being in early stage of development, you may need to stop and restart the `yarn develop` command in order to see changes.
 we are working on it :)
 
-## troubleshooting :
+## lint and fix your css files using stylelint
 
-during development, when changes does not seems not to apply correctly, you may need to remove cache or previous production build :
+```bash
+yarn css:fix
+```
 
-`rm -rf .cache/ public/`
-`yarn develop`
+Please note that stylelint is not able to fix everything, so run
+
+```bash
+yarn css:lint
+```
+
+and make the required changes.
+
+stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuffs ;).
 
 ## create a production build :
 
@@ -60,17 +71,21 @@ during development, when changes does not seems not to apply correctly, you may 
 
 ## CI/CD
 
-If you want more explanation go to the related [wiki page](https://github.com/adeo/design-system--styleguide/wiki/CI-CD) .
+If you want more explanation go to the related [wiki page](https://github.com/adeo/design-system--styleguide/wiki/CI-CD).
 
 ### Deploiement
 
-Each branch is deployed when creating a Pull Request. The deployment url is sent to the Pull Request Github. There are two deployment environments that can be found [here] (https://github.com/adeo/design-system--styleguide/deployments):
+Each branch is deployed when creating a Pull Request. A `view deployment` button is displayed into the Pull Request's timeline at the bottom.
+
+There are two deployment environments that can be found [here](https://github.com/adeo/design-system--styleguide/deployments):
+
 - staging, allows the deployment of all branches except master
 - production, allows the deployment of master
 
 ### Create release
 
-During a merge on master, the pipeline lets you generate the release. You have the possibility to choose the type of release (patch, minor, major). The CI takes care of creating the github tag and deploying it in the registry.
+To create a release, change the registry's package.json version number and create a tag with the version number in github.
+the registry is automaticaly deployed and pushed into the npm registry.
 
 ## Maintainers
 
@@ -80,6 +95,7 @@ During a merge on master, the pipeline lets you generate the release. You have t
 
 - design system front-end lead
 - maintainer of the source code
+- main contributor and maintainer of the styleguide tool based on gatsby
 - keep consistency in code base
 - keep consistency between code and design
 - review code updates
