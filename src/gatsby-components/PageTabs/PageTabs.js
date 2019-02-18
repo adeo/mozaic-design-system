@@ -1,10 +1,35 @@
 import React, { PureComponent } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import { MagicUnit } from '../../tokens/build/js/tokens.js'
+
+const Tabs = styled.div`
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background: #fff;
+  border-bottom: solid 1px #f5f5f5;
+`
+
+const TabsWrapper = styled.div`
+  margin: 0 auto;
+  max-width: ${MagicUnit * 52}rem;
+`
 
 const TabItem = styled.div`
   display: inline-block;
-  padding-right: 10px;
+  padding: 15px;
+  height: 100%;
+  border-right: solid 1px #f5f5f5;
+
+  &:first-child {
+    border-left: solid 1px #f5f5f5;
+  }
+
+  .active-link {
+    font-weight: bold;
+    color: #555;
+  }
 `
 
 class PageTabs extends PureComponent {
@@ -22,7 +47,7 @@ class PageTabs extends PureComponent {
 
     const newArr = [
       {
-        title: 'presentation', // rename index tab 'presentation'
+        title: 'Presentation', // rename index tab 'presentation'
         slug: cleanIndex.node.fields.slug,
       },
       ...orderedTabs.map(tab => ({
@@ -39,13 +64,17 @@ class PageTabs extends PureComponent {
     const cleanTabs = this.orderPageTab(samePageTabs)
 
     return (
-      <>
-        {cleanTabs.map(node => (
-          <TabItem key={node.slug}>
-            <Link to={node.slug}>{node.title}</Link>
-          </TabItem>
-        ))}
-      </>
+      <Tabs>
+        <TabsWrapper>
+          {cleanTabs.map(node => (
+            <TabItem key={node.slug}>
+              <Link to={node.slug} activeClassName="active-link">
+                {node.title}
+              </Link>
+            </TabItem>
+          ))}
+        </TabsWrapper>
+      </Tabs>
     )
   }
 }
