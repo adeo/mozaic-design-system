@@ -23,8 +23,10 @@ $screen-xxl: map-get($screens, xxl) * 1px;
     @media screen and (min-width: map-get($screens, $size) * 1px) {
       @content;
     }
-  } @else {
+  }
+
+  @else {
     @error "the `#{$size}` key does not exist in the screen map."
-        + "Please make sure to use an authorized value";
+      + "Please make sure to use an authorized value";
   }
 }
