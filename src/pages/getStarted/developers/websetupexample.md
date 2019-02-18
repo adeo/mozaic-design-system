@@ -1,13 +1,18 @@
 ---
-title: 'Web dev tuto'
-order: 1
+title: 'Web setup example'
+order: 2
 ---
 
-# Configure your development environment
+# Setup your env using npm scripts
 
-**Follow this short tutorial to be up and running with Garden in a small new project**
+In this example, in order to familiarize with garden, we will setup a simple web dev environement :
 
-You have read the presentation tab and followed the installation steps (or [you should](/getStarted/developers/)).
+- Install and configure our postcss build pipeline
+- Import our first garden SCSS tools and settings, and use them
+- Configure stylelinnt to auto-fix our styling mistakes
+- Build a live-reload dev server and use Garden static assets in our project
+
+You have read [the presentation tab and followed the installation steps](/getStarted/developers/) (or you should have).
 
 Now you should have :
 
@@ -194,7 +199,7 @@ And create a scritp to lunch it upon our `dist/` directory. We will tell it to r
 ```json
 "scripts": {
     ...
-    "serve": "npm run statics:copy && npx serve dist/"
+    "serve": "npm run statics:copy && npx live-server dist/"
 },
 ```
 
@@ -241,12 +246,12 @@ npm run css:watch
 in the `src/bundle.scss` file add the folowing :
 
 ```scss
-$font-path: 'static/fonts';
+$font-path: 'static/fonts'; /* add this */
 
 @import '../../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 body {
-  @include font-face('semi-bold');
+  @include font-face('semi-bold'); /* add this */
   @include font-scale('12', 's');
 
   background-color: $color-primary-01-500;
@@ -255,6 +260,20 @@ body {
   margin: 0;
   padding: $mu500;
 }
+```
+
+In the previous file, we set our path to path to fontfaces. Graden is now able to load them.
+
+```scss
+$font-path: 'static/fonts';
+```
+
+Then we set the semi-bold LeroyMerlin font-face into the `body` declaration.
+
+```scss
+body {
+  @include font-face('semi-bold');
+  ...
 ```
 
 your browser should now look like this :

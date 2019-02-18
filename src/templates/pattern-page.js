@@ -4,12 +4,12 @@ import { graphql } from 'gatsby'
 import styled, { css } from 'styled-components'
 
 import Layout from '../gatsby-components/layout'
+import Container from '../gatsby-components/Container'
 import Pattern from '../gatsby-components/Pattern'
 import Color from '../gatsby-components/Color'
 import Swatch from '../gatsby-components/Swatch'
 import PageTabs from '../gatsby-components/PageTabs'
 import Hint, { HintItem } from '../gatsby-components/Hint'
-import { MagicUnit } from '../tokens/build/js/tokens.js'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -17,12 +17,6 @@ const FullWidthContainer = styled.div`
     css`
       border-bottom: solid 1px #f5f5f5;
     `};
-`
-
-const Container = styled.div`
-  padding: ${MagicUnit}rem ${MagicUnit * 2}rem;
-  margin: 0 auto;
-  max-width: ${MagicUnit * 52}rem;
 `
 
 const PageContent = styled.div`
@@ -66,7 +60,7 @@ export default ({ data }) => {
   // set the subtitle of the page to 'presentation' if the current page is the index
   const tabPageTitle =
     post.frontmatter.title === parentTitle
-      ? 'presentation'
+      ? 'Presentation'
       : post.frontmatter.title
 
   const hasTabs = samePageTabs.length > 1
@@ -79,13 +73,7 @@ export default ({ data }) => {
             <h1>{parentTitle}</h1>
           </Container>
         </FullWidthContainer>
-        {hasTabs && (
-          <FullWidthContainer separator>
-            <Container>
-              <PageTabs samePageTabs={samePageTabs} />
-            </Container>
-          </FullWidthContainer>
-        )}
+        {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
 
         <FullWidthContainer>
           <Container>
