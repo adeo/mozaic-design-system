@@ -1,5 +1,4 @@
 
-
 $color-primary-01-100: #eaf3e2 !default;
 $color-primary-01-200: #cbe3b5 !default;
 $color-primary-01-300: #add585 !default;
@@ -27,8 +26,8 @@ $color-grey-600: #6f676c !default;
 $color-grey-700: #554f52 !default;
 $color-grey-800: #3c3738 !default;
 $color-grey-900: #222020 !default;
-$color-grey-999: #000000 !default;
-$color-grey-000: #ffffff !default;
+$color-grey-999: #000 !default;
+$color-grey-000: #fff !default;
 $color-secondary-blue-100: #ecfcfd !default;
 $color-secondary-blue-200: #b7eef5 !default;
 $color-secondary-blue-300: #84dbeb !default;
@@ -76,11 +75,26 @@ $color-secondary-yellow-800: #705613 !default;
 $color-secondary-yellow-900: #46350d !default;
 $color-font-primary-01: #78be20 !default;
 $color-font-primary-02: #007574 !default;
-$color-font-darkest: #000000 !default;
+$color-font-darkest: #000 !default;
 $color-font-darker: #222020 !default;
 $color-font-dark: #3c3738 !default;
 $color-font-light: #554f52 !default;
-$color-font-lightest: #ffffff !default;
+$color-font-lightest: #fff !default;
+$color-input-text: #222020 !default;
+$color-input-border: #6f676c !default;
+$color-input-placeholder: #a19ba2 !default;
+$color-input-background: #fff !default;
+$color-input-disabled-border: #a19ba2 !default;
+$color-input-disabled-background: #eeeef0 !default;
+$color-input-hover-border: #222020 !default;
+$color-input-focus-border: #25a8d0 !default;
+$color-input-valid-border: #78be20 !default;
+$color-input-valid-hover-border: #0a601b !default;
+$color-input-invalid-border: #df382b !default;
+$color-input-invalid-hover-border: #641b21 !default;
+$radius-s: 2 !default;
+$radius-m: 4 !default;
+$radius-l: 6 !default;
 $magic-unit: 1 !default;
 $local-rem-value: 16 !default;
 $size-font-10: 2.375rem !default; // 38px
@@ -230,7 +244,40 @@ $tokens: (
       'dark': $color-font-dark,
       'light': $color-font-light,
       'lightest': $color-font-lightest
+    ),
+    'input': (
+      'text': $color-input-text,
+      'border': $color-input-border,
+      'placeholder': $color-input-placeholder,
+      'background': $color-input-background,
+      'disabled': (
+        'border': $color-input-disabled-border,
+        'background': $color-input-disabled-background
+      ),
+      'hover': (
+        'border': $color-input-hover-border
+      ),
+      'focus': (
+        'border': $color-input-focus-border
+      ),
+      'valid': (
+        'border': $color-input-valid-border,
+        'hover': (
+          'border': $color-input-valid-hover-border
+        )
+      ),
+      'invalid': (
+        'border': $color-input-invalid-border,
+        'hover': (
+          'border': $color-input-invalid-hover-border
+        )
+      )
     )
+  ),
+  'radius': (
+    's': $radius-s,
+    'm': $radius-m,
+    'l': $radius-l
   ),
   'magic-unit': $magic-unit,
   'local-rem-value': $local-rem-value,
