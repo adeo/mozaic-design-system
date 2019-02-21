@@ -55,3 +55,5 @@ float const SizeLine08L = 40.00f;
 float const SizeLine09S = 32.00f;
 float const SizeLine09M = 40.00f;
 float const SizeLine09L = 48.00f;
+float const SizeGutterScreenXxs = 16.00f;
+float const SizeGutterScreenM = 32.00f;

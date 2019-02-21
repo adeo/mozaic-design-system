@@ -95,3 +95,15 @@ th:first-child,
 td:first-child {
   padding-left: 0;
 }
+
+.main {
+  h1,
+  h2,
+  h3,
+  h4 {
+    &:not(:first-child) {
+      margin-top: 2em;
+      margin-bottom: 1.25em;
+    }
+  }
+}

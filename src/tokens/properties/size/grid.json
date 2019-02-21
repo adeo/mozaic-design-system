@@ -1,0 +1,58 @@
+{
+  "size": {
+    "gutter": {
+      "screen": {
+        "xxs": {
+          "value": 1
+        },
+        "m": {
+          "value": 2
+        }
+      }
+    }
+  },
+  "container": {
+    "screen": {
+      "xxs": {
+        "gutter": {
+          "value": "{size.gutter.screen.xxs.value}"
+        },
+        "maxwidth": {
+          "value": "100%"
+        }
+      },
+      "m": {
+        "gutter": {
+          "value": "{size.gutter.screen.m.value}"
+        },
+        "maxwidth": {
+          "value": "100%"
+        }
+      },
+      "l": {
+        "gutter": {
+          "value": "{size.gutter.screen.m.value}"
+        },
+        "maxwidth": {
+          "value": "964px"
+        }
+      },
+      "xl": {
+        "gutter": {
+          "value": "{size.gutter.screen.m.value}"
+        },
+        "maxwidth": {
+          "value": "1144px"
+        }
+      },
+      "xxl": {
+        "gutter": {
+          "value": "{size.gutter.screen.m.value}"
+        },
+        "maxwidth": {
+          "value": "1300px"
+        }
+      }
+    }
+  }
+}

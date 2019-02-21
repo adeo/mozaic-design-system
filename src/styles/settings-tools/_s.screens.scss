@@ -30,3 +30,21 @@ $screen-xxl: map-get($screens, xxl) * 1px;
       + "Please make sure to use an authorized value";
   }
 }
+
+// create modifiers from viewport list
+// params : 'all' or any key of the $screens map
+@mixin add-from-screens($size-list...) {
+  @each $size in $size-list {
+    @if $size == 'all' {
+      @content;
+    }
+
+    @else {
+      @include from-screen($size) {
+        &\@from-#{$size} {
+          @content;
+        }
+      }
+    }
+  }
+}

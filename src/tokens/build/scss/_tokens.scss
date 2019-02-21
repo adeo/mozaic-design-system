@@ -142,6 +142,18 @@ $size-line-08-l: 2.5rem !default; // 40px
 $size-line-09-s: 2rem !default; // 32px
 $size-line-09-m: 2.5rem !default; // 40px
 $size-line-09-l: 3rem !default; // 48px
+$size-gutter-screen-xxs: 1rem !default;
+$size-gutter-screen-m: 2rem !default;
+$container-screen-xxs-gutter: 1rem !default;
+$container-screen-xxs-maxwidth: 100% !default;
+$container-screen-m-gutter: 2rem !default;
+$container-screen-m-maxwidth: 100% !default;
+$container-screen-l-gutter: 2rem !default;
+$container-screen-l-maxwidth: 964px !default;
+$container-screen-xl-gutter: 2rem !default;
+$container-screen-xl-maxwidth: 1144px !default;
+$container-screen-xxl-gutter: 2rem !default;
+$container-screen-xxl-maxwidth: 1300px !default;
 
 $tokens: (
   'color': (
@@ -353,6 +365,36 @@ $tokens: (
         's': $size-line-09-s,
         'm': $size-line-09-m,
         'l': $size-line-09-l
+      )
+    ),
+    'gutter': (
+      'screen': (
+        'xxs': $size-gutter-screen-xxs,
+        'm': $size-gutter-screen-m
+      )
+    )
+  ),
+  'container': (
+    'screen': (
+      'xxs': (
+        'gutter': $container-screen-xxs-gutter,
+        'maxwidth': $container-screen-xxs-maxwidth
+      ),
+      'm': (
+        'gutter': $container-screen-m-gutter,
+        'maxwidth': $container-screen-m-maxwidth
+      ),
+      'l': (
+        'gutter': $container-screen-l-gutter,
+        'maxwidth': $container-screen-l-maxwidth
+      ),
+      'xl': (
+        'gutter': $container-screen-xl-gutter,
+        'maxwidth': $container-screen-xl-maxwidth
+      ),
+      'xxl': (
+        'gutter': $container-screen-xxl-gutter,
+        'maxwidth': $container-screen-xxl-maxwidth
       )
     )
   )

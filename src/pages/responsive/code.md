@@ -69,3 +69,42 @@ use the from-screen mixin in with a screen map key to create a media querie
 ```
 
 <pattern path="src/patterns/exemple/--responsive/responsive"></pattern>
+
+<br>
+
+---
+
+### The add-from-screen mixin
+
+<hintitem>
+  use the add-from-screen mixin to create viewport-specific applied classes
+</hintitem>
+
+```scss
+.my-class
+  @include add-from-screen('all', 'm', 'l') {
+    /* ... code */
+  }
+}
+
+// output
+
+// all
+.my-class {
+  /* ... code */
+}
+
+// applied only from screen m and up
+@media screen and (min-width: 750px) {
+  .my-class\@from-m {
+    /* ... code */
+  }
+}
+
+// applied only from screen l and up
+@media screen and (min-width: 992) {
+  .my-class\@from-l {
+    /* ... code */
+  }
+}
+```

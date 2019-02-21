@@ -2679,6 +2679,252 @@ module.exports = {
           ]
         }
       }
+    },
+    "gutter": {
+      "screen": {
+        "xxs": {
+          "value": "1rem",
+          "original": {
+            "value": 1
+          },
+          "name": "SizeGutterScreenXxs",
+          "attributes": {
+            "category": "size",
+            "type": "gutter",
+            "item": "screen",
+            "subitem": "xxs"
+          },
+          "path": [
+            "size",
+            "gutter",
+            "screen",
+            "xxs"
+          ]
+        },
+        "m": {
+          "value": "2rem",
+          "original": {
+            "value": 2
+          },
+          "name": "SizeGutterScreenM",
+          "attributes": {
+            "category": "size",
+            "type": "gutter",
+            "item": "screen",
+            "subitem": "m"
+          },
+          "path": [
+            "size",
+            "gutter",
+            "screen",
+            "m"
+          ]
+        }
+      }
+    }
+  },
+  "container": {
+    "screen": {
+      "xxs": {
+        "gutter": {
+          "value": "1rem",
+          "original": {
+            "value": "{size.gutter.screen.xxs.value}"
+          },
+          "name": "ContainerScreenXxsGutter",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "xxs",
+            "subitem": "gutter"
+          },
+          "path": [
+            "container",
+            "screen",
+            "xxs",
+            "gutter"
+          ]
+        },
+        "maxwidth": {
+          "value": "100%",
+          "original": {
+            "value": "100%"
+          },
+          "name": "ContainerScreenXxsMaxwidth",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "xxs",
+            "subitem": "maxwidth"
+          },
+          "path": [
+            "container",
+            "screen",
+            "xxs",
+            "maxwidth"
+          ]
+        }
+      },
+      "m": {
+        "gutter": {
+          "value": "2rem",
+          "original": {
+            "value": "{size.gutter.screen.m.value}"
+          },
+          "name": "ContainerScreenMGutter",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "m",
+            "subitem": "gutter"
+          },
+          "path": [
+            "container",
+            "screen",
+            "m",
+            "gutter"
+          ]
+        },
+        "maxwidth": {
+          "value": "100%",
+          "original": {
+            "value": "100%"
+          },
+          "name": "ContainerScreenMMaxwidth",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "m",
+            "subitem": "maxwidth"
+          },
+          "path": [
+            "container",
+            "screen",
+            "m",
+            "maxwidth"
+          ]
+        }
+      },
+      "l": {
+        "gutter": {
+          "value": "2rem",
+          "original": {
+            "value": "{size.gutter.screen.m.value}"
+          },
+          "name": "ContainerScreenLGutter",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "l",
+            "subitem": "gutter"
+          },
+          "path": [
+            "container",
+            "screen",
+            "l",
+            "gutter"
+          ]
+        },
+        "maxwidth": {
+          "value": "964px",
+          "original": {
+            "value": "964px"
+          },
+          "name": "ContainerScreenLMaxwidth",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "l",
+            "subitem": "maxwidth"
+          },
+          "path": [
+            "container",
+            "screen",
+            "l",
+            "maxwidth"
+          ]
+        }
+      },
+      "xl": {
+        "gutter": {
+          "value": "2rem",
+          "original": {
+            "value": "{size.gutter.screen.m.value}"
+          },
+          "name": "ContainerScreenXlGutter",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "xl",
+            "subitem": "gutter"
+          },
+          "path": [
+            "container",
+            "screen",
+            "xl",
+            "gutter"
+          ]
+        },
+        "maxwidth": {
+          "value": "1144px",
+          "original": {
+            "value": "1144px"
+          },
+          "name": "ContainerScreenXlMaxwidth",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "xl",
+            "subitem": "maxwidth"
+          },
+          "path": [
+            "container",
+            "screen",
+            "xl",
+            "maxwidth"
+          ]
+        }
+      },
+      "xxl": {
+        "gutter": {
+          "value": "2rem",
+          "original": {
+            "value": "{size.gutter.screen.m.value}"
+          },
+          "name": "ContainerScreenXxlGutter",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "xxl",
+            "subitem": "gutter"
+          },
+          "path": [
+            "container",
+            "screen",
+            "xxl",
+            "gutter"
+          ]
+        },
+        "maxwidth": {
+          "value": "1300px",
+          "original": {
+            "value": "1300px"
+          },
+          "name": "ContainerScreenXxlMaxwidth",
+          "attributes": {
+            "category": "container",
+            "type": "screen",
+            "item": "xxl",
+            "subitem": "maxwidth"
+          },
+          "path": [
+            "container",
+            "screen",
+            "xxl",
+            "maxwidth"
+          ]
+        }
+      }
     }
   }
 };

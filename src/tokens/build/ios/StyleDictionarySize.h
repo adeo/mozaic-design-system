@@ -54,3 +54,5 @@ extern float const SizeLine08L;
 extern float const SizeLine09S;
 extern float const SizeLine09M;
 extern float const SizeLine09L;
+extern float const SizeGutterScreenXxs;
+extern float const SizeGutterScreenM;
