@@ -116,11 +116,11 @@ exports.sourceNodes = (
           cssCompiler(codes.scss, key, key.replace('.scss', '.css')).then(
             res => {
               codes.css = res.css
-              resolve(createNode(buildNodeData(nodeId, codes,  key.replace(/\\/g, '/'))))
+              resolve(createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/'))))
             }
-          )
+          ).catch(error => resolve(createNode(buildNodeData(nodeId, { html: error, css: '' }, key.replace(/\\/g, '/')))))
         } else {
-          resolve(createNode(buildNodeData(nodeId, codes,  key.replace(/\\/g, '/'))))
+          resolve(createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/'))))
         }
       })
     })
