@@ -26,6 +26,7 @@ const PatternContainer = styled.div`
           left: 0;
           right: 0;
           background-color: white;
+          z-index: 2;
         `
       : css`
           position: relative;

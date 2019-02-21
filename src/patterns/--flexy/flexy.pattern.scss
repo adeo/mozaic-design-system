@@ -1,0 +1,29 @@
+@import 'settings-tools/_all-settings';
+@import 'layouts/_l.flexy';
+
+* {
+  box-sizing: border-box;
+}
+
+.example {
+  .gl-container {
+    margin-bottom: $mu100;
+    margin-top: $mu100;
+    box-shadow: 0 0 0 1px $color-secondary-red-500;
+  }
+
+  .gl-flexy__col {
+    box-shadow: 0 0 0 1px $color-primary-01-500;
+    margin-bottom: $mu100;
+  }
+
+  &__item {
+    @include font-scale('04', 's');
+    @include font-face('regular');
+
+    box-shadow: 0 0 0 1px $color-primary-01-500;
+    padding: $mu100 0;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+}

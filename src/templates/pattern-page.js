@@ -78,7 +78,7 @@ export default ({ data, location }) => {
         <FullWidthContainer>
           <Container>
             {hasTabs && <h2>{tabPageTitle}</h2>}
-            <PageContent>{renderAst(post.htmlAst)}</PageContent>
+            <PageContent className="main">{renderAst(post.htmlAst)}</PageContent>
           </Container>
         </FullWidthContainer>
       </div>
