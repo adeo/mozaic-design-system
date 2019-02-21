@@ -83,13 +83,12 @@
     "*.scss": [
       "stylelint --fix",
       "stylelint",
-      "jest",
       "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "lint-staged && jest",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
