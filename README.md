@@ -12,15 +12,16 @@ Please considere that this repo is in early stage of development. You can report
 
 #### Please read the wiki before submitting anything :
 
+- [Project roadmap](https://github.com/adeo/design-system--styleguide/wiki)
 - [glossary](https://github.com/adeo/design-system--styleguide/wiki/Glossary)
 - design system workflow :
-  - [Things to keep in mind for any contribution](https://github.com/adeo/design-system--styleguide/wiki/Things-to-keep-in-mind-for-any-contribution)
-  - [Pattern submission workflow](https://github.com/adeo/design-system--styleguide/wiki/New-pattern-submission-workflow)
-  - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
+    - [Things to keep in mind for any contribution](https://github.com/adeo/design-system--styleguide/wiki/Things-to-keep-in-mind-for-any-contribution)
+    - [Pattern submission workflow](https://github.com/adeo/design-system--styleguide/wiki/New-pattern-submission-workflow)
+    - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
 - how to create pages and content in the pattern library :
-  - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
-  - [Create and display a pattern](https://github.com/adeo/design-system--styleguide/wiki/Create-and-display-patterns)
-  - [Other in-page components](https://github.com/adeo/design-system--styleguide/wiki/Other-in-page-components)
+    - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
+    - [Create and display a pattern](https://github.com/adeo/design-system--styleguide/wiki/Create-and-display-patterns)
+    - [Other in-page components](https://github.com/adeo/design-system--styleguide/wiki/Other-in-page-components)
 
 #### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md)
 
