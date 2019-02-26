@@ -22,6 +22,7 @@ const Main = styled.main`
 
 const MenuContainer = styled.main`
   border-right: solid 1px #f5f5f5;
+  overflow-y:scroll;
 `
 
 const Layout = ({ children }) => (
@@ -88,6 +89,11 @@ const query = graphql`
           path
           name
           type
+          childrenNode {
+            path
+            name
+            type
+          }
         }
       }
     }

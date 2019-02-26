@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Garden',
+    title: 'Garden Multi BU',
   },
   plugins: [
     `gatsby-plugin-sharp`,

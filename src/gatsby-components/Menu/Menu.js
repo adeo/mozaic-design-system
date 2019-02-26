@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import MenuItem from './MenuItem'
+import {MenuItem} from './MenuItem'
 import MenuHeader from './MenuHeader'
 
 const MenuItemContainer = styled.div`
@@ -10,17 +10,19 @@ const MenuItemContainer = styled.div`
 `
 
 const ShowChildrenButton = styled.button`
-  margin: 8px 15px;
+  margin: 8px 0;
   flex: initial;
   align-self: flex-end;
+  border: none;
+  background: none;
+  color: #666;
+  font-size: .75rem;
 `
-
 const Container = styled.div`
   width: 220px;
 `
 
 const UlMenu = styled.ul`
-  padding-left: 10px;
   list-style: none;
 `
 
@@ -30,16 +32,16 @@ export default class Menu extends PureComponent {
     siteTitle: PropTypes.string.isRequired,
   }
 
-  buildMenu = menuArray => (
+  buildMenu = (menuArray, level = 1) => (
     <UlMenu>
       {menuArray.map(item => (
-        <li key={item.dirPath}>
-          <MenuItemContainer>
-            <MenuItem to={item.slug} content={item.title} />
-            {item.children && <ShowChildrenButton>+</ShowChildrenButton>}
-          </MenuItemContainer>
-          {item.children && <div>{this.buildMenu(item.children)}</div>}
-        </li>
+          <li key={item.dirPath}>
+            <MenuItemContainer>
+              <MenuItem to={item.slug} content={item.title} level={level} />
+              {item.children && <ShowChildrenButton><span>▼</span></ShowChildrenButton>}
+            </MenuItemContainer>
+            {item.children && <div>{this.buildMenu(item.children, level + 1)}</div>}
+          </li>
       ))}
     </UlMenu>
   )
