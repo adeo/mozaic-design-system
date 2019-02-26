@@ -19,7 +19,7 @@ To use design files to make your own pages and components you should use **Sketc
 #### Sketch Plugins
 
 You will need to install thoses plugins to use Design Files as well as possible :
-* [plugin1](/)
+* [test](/)
 * [plugin2](/)
 * [plugin3](/)
 * [plugin4](/)
