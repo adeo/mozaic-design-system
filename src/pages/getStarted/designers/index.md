@@ -3,39 +3,28 @@ title: 'Designer guide'
 order: 1
 ---
 
-# Requirements
 
-## Adeo Github access
+As designers, the **LEROY MERLIN Design System** provide you a lots of patterns ready to use like :<br>
+text styles, colors swatches, icons for web & print support, and so many generic components.
 
-1. [Join Adeo Github](https://adeo.github.io/join/) and follow the steps.</br>
-_You will have to create an account if you don't already have one_
-2. TODO - Add repository url
+**The UI Kit :**
+It contains sketch files to use as libraries for your projects. Find more info about UI Kit contain [here](whatsIncluded/).<br>
+<br>
+Each UI Kit are versioned at the same time as the design system for which patterns are available with the code for the developpers.<br>
+It exclusively contain the current available pattern of the design system.
 
-## Softwares
+Each versions use the semantic versionning naming convention.
+<br>
+<br>
+###Before using any libraries, we invite you to read the related docs in here and follow the installation instructions and good practices :
 
-###Sketch App
-> We are currently working on version 53 of Sketch.
+- Installation of Sketch libraries
+- Update libraries
+- Change the location of the master directory
+- Requirements
 
-All our patterns are currently designed on **Sketch**. <br>
-Styles & components consist of several files to use as libraries.
 
-[You can find the version of Sketch that we use here.](https://www.sketchapp.com/updates/#version-53)
-<br>
-<br>
-<br>
-_**Plugin to use with Sketch :**_
-<br>
-<br>
-For an optimal compatibility of Sketch libraries, we recommend to use the **Anima app** plugin.<br>
-<br>
-We use it to add the follows features to Sketch :
-* Stack: It allows to stack patterns between them, and to modify automatically the margin according to the height or width of the block.
-* Padding: It allows to generate an automatic padding.
-
-[Download the Anima App plugin here.](https://www.animaapp.com/layout)
-<br>
-<br>
----
+***
 
 ## Next :
 
