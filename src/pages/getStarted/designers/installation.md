@@ -3,44 +3,64 @@ title: 'Installation'
 order: 2
 ---
 
-# Design system libraries
+## Requirements
+### Adeo Github access
 
-## Download the design files
+1. [Join Adeo Github](https://adeo.github.io/join/) and follow the steps.</br>
+_You will have to create an account if you don't already have one_
+2. TODO - Add repository url
 
-1. [Download UI Kit here](/)
-2. Move the design system files to the **appropriate directory** for having quick and easy access to the styles and components in yours projects.
+###Sketch App - Version 53
 
-## Use sketch files as libraries
+All our patterns are currently designed on **Sketch**. <br>
+Styles & components consist of several files to use as libraries.
 
-> Note : You can use files as libraries by storing them in several ways :
-> * On your computer
-> * On a local server
-> * Directly in Sketch with Sketch Cloud
-> * With version control system (as Abstract or Cactus)
-> * With a cloud service (like Google Drive, Dropbox, One Drive...)
+[Download Sketch 53.](https://www.sketchapp.com/updates/#version-53)
+<br>
+<br>
+####Sketch plugins
 
+It's required to use the **Anima app** plugin.<br>
+<br>
+We use it to add the following features to Sketch :
+* Stack: Allow you to stack elements together, and to modify automatically their margin according to the height and width of the containing block.
+* Padding : Allow you to generate paddings automatically.
+
+[Download the Anima App plugin.](https://www.animaapp.com/layout)
+<br>
+<br>
+
+
+## Design system libraries installation
+
+### Download the design files
+
+1. [Download the UI Kit here](https://github.com/adeo/design-system--design-files/)
+2. Use a directory somewhere on your computer (or a server) to store the UI kit files (never store anything else in there)
+
+### Import sketch files as libraries
 
 1. Open Sketch and **go to Sketch’s Preferences** *[Command + Comma]*
 2. Go to **"libraries"** tabs and click on the **"Add library..."** button.
-![prefrences](1. Preferences-libraries.png)
 
-3. Choose your files from your master directory and add it.
+<div style="max-width:350px;">
 
-## Update libraries
+  ![preferences](1. Preferences-libraries.png)
 
-> Before making any file updates, it's essential to read the release notes to be aware of any changes or hotfixes made to the patterns.
+</div>
 
+<br>
 
-#### Option 1: If your libraries are on your computer or local server.
-1. Take knowledge of the patches via the release notes.
-2. Go directly to the master directory.
-3. Overwrite the library -ies impacted by changes.
-4. Check the dependencies of the libraries between them and update them.
+### Update / use another version of UI kits
 
+> Before making any file updates, please read the release notes. It may contain changes you do not anticipated.
 
-## Change the location of the source folder
+1. Download the desired version of the UI kit
+2. Replace all files in the directory you created for them
+3. Update your sketch files with that use the UI kit libraries by clicking the update button
 
-1. Refaire le lien dans les préférences Sketch
+![sketch update](library-update.jpg)
+
 
 ---
 
