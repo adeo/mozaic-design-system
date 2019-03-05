@@ -18,7 +18,7 @@ Existing issues often contain information about workarounds, resolution, or prog
 ### Where did you experience this bug ?
 	
 - [ ] On sketch file
-- [ ] On Design
+- [ ] On documentation
 - [ ] On source code
 
 
