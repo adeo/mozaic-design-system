@@ -25,7 +25,7 @@ const PageContent = styled.div`
   }
 `
 
-export default ({ data }) => {
+export default ({ data, location }) => {
   const renderAst = new rehypeReact({
     createElement: React.createElement,
     components: {
@@ -66,7 +66,7 @@ export default ({ data }) => {
   const hasTabs = samePageTabs.length > 1
 
   return (
-    <Layout>
+    <Layout location={location}>
       <div>
         <FullWidthContainer separator>
           <Container>

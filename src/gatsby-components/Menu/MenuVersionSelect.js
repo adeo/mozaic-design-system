@@ -33,13 +33,12 @@ class MenuVersionRelease extends Component {
     return (
       <div>
         <LabelVersion>older tags:</LabelVersion>
-        <select onChange={this.handleChange}>
+        <select
+          defaultValue={githubReleases.pop(release => release.node.isCurrent)}
+          onChange={this.handleChange}
+        >
           {githubReleases.reverse().map(release => (
-            <option
-              key={release.node.tagName}
-              value={release.node.url}
-              selected={release.node.isCurrent}
-            >
+            <option key={release.node.tagName} value={release.node.url}>
               {release.node.tagName}
             </option>
           ))}

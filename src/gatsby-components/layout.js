@@ -22,10 +22,9 @@ const Main = styled.main`
 
 const MenuContainer = styled.main`
   border-right: solid 1px #f5f5f5;
-  overflow-y:scroll;
 `
 
-const Layout = ({ children }) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={query}
     render={data => (
@@ -41,6 +40,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <MenuContainer>
           <Menu
+            location={location}
             siteTitle={data.site.siteMetadata.title}
             data={{
               directoryTree: data.directoryTree,

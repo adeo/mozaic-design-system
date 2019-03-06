@@ -1,118 +1,167 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-import {MenuItem} from './MenuItem'
+import { MenuItem } from './MenuItem'
 import MenuHeader from './MenuHeader'
+import buildMenuModel from './BuildMenuModel'
 
 const MenuItemContainer = styled.div`
   display: flex;
 `
 
 const ShowChildrenButton = styled.button`
-  margin: 8px 0;
+  cursor: pointer;
   flex: initial;
   align-self: flex-end;
   border: none;
+  outline: none;
   background: none;
   color: #666;
-  font-size: .75rem;
+  font-size: 0.75rem;
+`
+
+const Arrow = styled.svg`
+  display: inline-block;
+
+  ${({ isOpenned }) =>
+    isOpenned &&
+    css`
+      transform: rotate(-180deg);
+    `}
 `
 const Container = styled.div`
   width: 220px;
 `
 
-const UlMenu = styled.ul`
-  list-style: none;
+const NavContainer = styled.nav`
+  padding: 0 8px 0 16px;
 `
 
-export default class Menu extends PureComponent {
+const UlMenu = styled.ul`
+  list-style: none;
+
+  ${({ isOpened }) =>
+    !isOpened &&
+    css`
+      max-height: 0;
+      overflow: hidden;
+    `}
+`
+
+const ListItem = styled.li`
+  padding-left: 0.5rem;
+
+  ${({ isOpened, level }) =>
+    !isOpened &&
+    level === 2 &&
+    css`
+      border-left: 3px solid #f5f5f5;
+    `}
+`
+
+export default class Menu extends Component {
   static propTypes = {
     data: PropTypes.shape({}).isRequired,
     siteTitle: PropTypes.string.isRequired,
   }
 
-  buildMenu = (menuArray, level = 1) => (
-    <UlMenu>
+  constructor(props) {
+    super(props)
+
+    const currentPath =
+      (this.props.location && this.props.location.pathname) || ''
+
+    this.state = {
+      menuArray: buildMenuModel(
+        this.props.data.allMarkdownRemark.edges,
+        this.props.data.directoryTree.childrenNode,
+        currentPath
+      ),
+    }
+  }
+
+  openMenu = dirPath => {
+    const setOpenItems = subMenu =>
+      subMenu.map((item, i) => {
+        if (dirPath.includes(item.dirPath)) {
+          item.isOpened = true
+        }
+
+        if (item.children && item.children.length > 0) {
+          item.children = setOpenItems(item.children)
+        }
+
+        return item
+      })
+
+    this.setState({ menuArray: setOpenItems(this.state.menuArray) })
+  }
+
+  closeMenu = dirPath => {
+    const setCloseItem = subMenu =>
+      subMenu.map((item, i) => {
+        if (dirPath === item.dirPath) {
+          item.isOpened = false
+        }
+
+        if (item.children && item.children.length > 0) {
+          item.children = setCloseItem(item.children)
+        }
+
+        return item
+      })
+
+    this.setState({ menuArray: setCloseItem(this.state.menuArray) })
+  }
+
+  buildMenu = (menuArray, isOpened = true) => (
+    <UlMenu isOpened={isOpened}>
       {menuArray.map(item => (
-          <li key={item.dirPath}>
-            <MenuItemContainer>
-              <MenuItem to={item.slug} content={item.title} level={level} />
-              {item.children && <ShowChildrenButton><span>▼</span></ShowChildrenButton>}
-            </MenuItemContainer>
-            {item.children && <div>{this.buildMenu(item.children, level + 1)}</div>}
-          </li>
+        <ListItem
+          key={item.dirPath}
+          level={item.level}
+          isOpenned={item.isOpened}
+        >
+          <MenuItemContainer>
+            <MenuItem
+              to={item.slug}
+              content={item.title}
+              level={item.level}
+              isPartOfCurrentlocation={item.isPartOfCurrentlocation}
+            />
+            {item.children && (
+              <ShowChildrenButton
+                onClick={
+                  item.isOpened
+                    ? () => this.closeMenu(item.dirPath)
+                    : () => this.openMenu(item.dirPath)
+                }
+              >
+                <Arrow
+                  isOpenned={item.isOpened}
+                  viewBox="0 0 35.57 35.53"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.66,23.12l-8.5-8.5a1,1,0,0,1,0-1.42,1,1,0,0,1,1.41,0l7.09,7.09,7.08-7.09a1,1,0,0,1,1.41,0,1,1,0,0,1,0,1.42Z"
+                  />
+                </Arrow>
+              </ShowChildrenButton>
+            )}
+          </MenuItemContainer>
+          {item.children && (
+            <div>{this.buildMenu(item.children, item.isOpened)}</div>
+          )}
+        </ListItem>
       ))}
     </UlMenu>
   )
 
-  buildMenuModel = (markdowns, fileTree) => {
-    const markdownsIndexes = markdowns
-      .filter(markdown => markdown.node.fields.fileName.base === 'index.md')
-      .map(({ node }) => ({
-        dirPath: node.fields.fileName.relativePath.replace(
-          `/${node.fields.fileName.base}`,
-          ''
-        ), // normalise path to compare between markdowns and dirtree
-        slug: node.fields.slug,
-        title: node.frontmatter.title,
-        order: node.frontmatter.order ? node.frontmatter.order : 100,
-      }))
-
-    // is it a menu item candidate
-    const isAMenuItemDir = node =>
-      node.type === 'directory' && !node.name.includes('--')
-
-    // return a directory tree with only directories
-    const filterDirectories = subTree =>
-      subTree
-        // filter what's not a directory or is a pattern directory
-        .filter(isAMenuItemDir)
-        .map(dir => ({
-          path: dir.path.replace(/\\/g, '/').replace('src/', ''), // normalise path to compare between markdowns and dirtree
-          children:
-            dir.childrenNode && dir.childrenNode.length > 0
-              ? filterDirectories(dir.childrenNode)
-              : [],
-        }))
-
-    const MenuBuilderIterator = (dirs, indexes) =>
-      dirs
-        .map(dir => {
-          let dirIndex
-
-          const relatedIndex =
-            indexes.find(index => {
-              return index.dirPath === dir.path
-            }) || undefined
-
-          if (relatedIndex) {
-            dirIndex = relatedIndex
-          } else {
-            dirIndex = {
-              dirPath: dir.path,
-              title: dir.path.split('/').pop(),
-            }
-          }
-
-          if (dir.children && dir.children.length > 0) {
-            dirIndex.children = MenuBuilderIterator(dir.children, indexes)
-          }
-
-          return dirIndex
-        })
-        .sort((a, b) => a.order - b.order)
-
-    return MenuBuilderIterator(filterDirectories(fileTree), markdownsIndexes)
-  }
-
   render() {
     const { siteTitle, data } = this.props
-
-    const menuArray = this.buildMenuModel(
-      data.allMarkdownRemark.edges,
-      data.directoryTree.childrenNode
-    )
 
     return (
       <Container>
@@ -120,7 +169,9 @@ export default class Menu extends PureComponent {
           siteTitle={siteTitle}
           githubReleases={data.allGithubRelease.edges}
         />
-        <nav>{this.buildMenu(menuArray)}</nav>
+        <NavContainer>
+          {this.buildMenu(this.state.menuArray, true)}
+        </NavContainer>
       </Container>
     )
   }
