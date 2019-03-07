@@ -17,6 +17,7 @@ Existing issues often contain information about workarounds, resolution, or prog
 ### What kind of enhancement are you proposing ?
 	
 - [ ] On sketch file
+- [ ] On Documentation
 - [ ] On source code
 
 
