@@ -13,6 +13,6 @@ Everything you need to know to install, use, extend or override Garden
 
 <br>
 
-### [Designer guide]('change it later')
+### [Designer guide](/getStarted/designers/)
 
-Design kits, assets, rules.
+How to use, Design kits, assets, rules.
