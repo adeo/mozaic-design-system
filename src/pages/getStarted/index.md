@@ -7,6 +7,12 @@ order: 1
 
 <br>
 
+### [Principles](/getStarted/Principles/)
+
+Leroymerlin and ADEO's Design principles
+
+<br>
+
 ### [Developer guide](/getStarted/developers/)
 
 Everything you need to know to install, use, extend or override Garden

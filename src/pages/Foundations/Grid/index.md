@@ -1,4 +1,4 @@
 ---
 title: 'Grid System'
-order: 6
+order: 3
 ---
