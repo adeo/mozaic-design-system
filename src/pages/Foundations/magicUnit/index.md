@@ -1,6 +1,6 @@
 ---
 title: 'Magic Unit'
-order: 4
+order: 2
 ---
 
 > **The magic unit is a base unit for any element or property that require a defined dimension**. It is equal to **16px** but is expressed in **rem**.<br> We multiply or divide it to define white spaces, icons sizes, lines heights etc...

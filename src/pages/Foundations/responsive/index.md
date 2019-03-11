@@ -1,6 +1,6 @@
 ---
 title: 'Screens sizes and responsive'
-order: 7
+order: 4
 ---
 
 > We use a mobile-first approach to support all screens sizes

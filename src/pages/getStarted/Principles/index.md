@@ -1,6 +1,6 @@
 ---
 title: 'Principles'
-order: 2
+order: 1
 ---
 
 # The essence of the brand's expression charter

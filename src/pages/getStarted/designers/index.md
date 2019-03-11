@@ -1,6 +1,6 @@
 ---
 title: 'Designer guide'
-order: 1
+order: 3
 ---
 
 As designers, the **LEROY MERLIN Design System** provide you a lots of patterns ready to use like :<br>
