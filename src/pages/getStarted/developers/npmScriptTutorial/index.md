@@ -1,9 +1,9 @@
 ---
-title: 'Web setup example'
-order: 2
+title: 'Tutorial (using npm script)'
+order: 7
 ---
 
-# Setup your env using npm scripts
+# Setup a project using garden and npm scripts
 
 In this example, in order to familiarize with garden, we will setup a simple web dev environement :
 
@@ -125,11 +125,7 @@ let's create a npm script to fix our stylelint errors, add the following in your
 },
 ```
 
-> note that there is so much that stylelint --fix can do. You will still need to fix some styling issues manually
-
 If you try to run the `npm run css:lint-fix` command, node will throw an error because **stylelint require a config file**.
-
-**Garden** export a stylelint config, so we all can use the same codding styles.
 
 ### B) Create a stylint config file :
 

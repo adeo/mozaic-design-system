@@ -1,9 +1,9 @@
 ---
 title: "What's included ?"
-order: 1
+order: 2
 ---
 
-### Styles
+## Styles
 
 `nodes_modules/garden-css/styles/**`
 
@@ -41,13 +41,11 @@ styles/
 
 <br>
 
-### Design Tokens :
+## Design Tokens :
+
+> design tokens are theming/styling constants defined in a JSON file. They are trasnpiled into multiple format to be shared across plateforms (SCSS, IOS, ANDROID...).
 
 `nodes_modules/garden-css/tokens/properties/**`
-
-They are the source files that generate the tokens.
-
-They are usefull if you need to customize your own build of the tokens.
 
 Tokens generation use [style-dictionary](https://amzn.github.io/style-dictionary/#/)
 
@@ -78,7 +76,7 @@ tokens/
 
 <br>
 
-### Tools :
+## Tools :
 
 `nodes_modules/garden-css/cssCompiler/**`
 
@@ -95,7 +93,7 @@ cssCompiler/
 
 <br>
 
-### A static folder :
+## A static folder :
 
 `nodes_modules/garden-css/static/**`
 

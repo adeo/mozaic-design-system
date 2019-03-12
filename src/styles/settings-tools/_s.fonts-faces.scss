@@ -1,8 +1,13 @@
 // Default path
-$path : '/fonts';
+$path: '/fonts';
 
-@if variable-exists(font-path) {
-  $path : $font-path;
+@if variable-exists(local-config) {
+  @warn 'yeaaaaahhhhhhh';
+
+  @if type-of($local-config) == map and map-has-key($local-config, font-path) {
+    @warn 'yoooooooupy';
+    $path: map-has-key($local-config, 'font-path');
+  }
 }
 
 @font-face {
