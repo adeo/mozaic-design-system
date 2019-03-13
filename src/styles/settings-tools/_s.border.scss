@@ -1,0 +1,3 @@
+@function get-border($size : 'm') {
+  @return get-token(border, $size) * 1px;
+}
