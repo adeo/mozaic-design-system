@@ -3,20 +3,26 @@ title: 'Designer guide'
 order: 3
 ---
 
-As designers, the **LEROY MERLIN Design System** provide you a lots of patterns ready to use like :<br>
-text styles, colors swatches, icons for web & print support, and many generic components.
+*As designers*, the **LEROY MERLIN Design System** provide you with a lot of ready to use **patterns**.<br>
+<br>
+**What is a pattern?**<br>
+A pattern is a **repeating** or **reusable element** of the inferface like colors, text styles, icons, buttons and many generic components.<br>
+It can be applied or modified to meet a specific design problem, a need of the user, evoke an emotion, reinforce the brand management.
+
 
 #UI Kit
-It contains sketch files to use as libraries for your projects.<br>
+It contains sketch files to use as libraries for your projects, and consist **the core style** and **the all resulting components**.
+
+>We recommend that you read the [What's included ?](whatsIncluded/) page to read the contents of the kit before using them.
+
 <br>
-Each UI Kit correspond to the same design system version.
 
-The same patterns (documentation, code, UI kit components and styles) are available at the same time under the same version number for designers as well as for developpers.
+###About the versioning convention
 
-It means that the button you will get in the v1.0.5 of the UI kit will be the same as the button available for developpers in the v1.0.5 of the source code.
+Each UI Kit version correspond to the same design system version and use the <a href="https://semver.org" target="blank">semantic versioning</a> naming convention.
 
-Each versions use the [semantic versioning](https://semver.org) naming convention.
-<br>
+All patterns are available at the same time with a common version number for both designers and developers.
+> For example: The button you will get in the *v 1.0.5* of the UI kit will be the same as the button available for developers in the *v 1.0.5* of the source code.
 <br>
 
 ---
