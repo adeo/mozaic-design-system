@@ -1,13 +1,10 @@
 @import 'settings-tools/all-settings';
 
 $exemple-colors: (
-  xxs: blue,
-  xs: green,
   s: yellow,
   m: orange,
   l: red,
   xl: purple,
-  xxl: brown,
 );
 
 .exemple {
@@ -25,11 +22,11 @@ $exemple-colors: (
   }
 
   @each $key, $value in $screens {
-    @include from-screen($key) {
+    @include set-from-screen($key) {
       background-color: map-get($exemple-colors, $key);
 
       &::after {
-        content: '#{$key} > #{$value}px';
+        content: '#{$key} > #{$value}';
       }
     }
   }

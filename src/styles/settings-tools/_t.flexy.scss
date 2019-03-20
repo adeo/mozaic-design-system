@@ -14,7 +14,7 @@
   margin-left: auto;
 
   @each $screen, $value-map in $container-map {
-    @include from-screen($screen) {
+    @include set-from-screen($screen) {
       max-width: map-get($value-map, 'maxwidth');
       padding-right: map-get($value-map, 'gutter');
       padding-left: map-get($value-map, 'gutter');
@@ -23,7 +23,7 @@
 }
 
 /* create gutter variation */
-@mixin make-flexy-gutter($size, $gutter-name, $at-sizes: 'all') {
+@mixin make-flexy-gutter($size, $gutter-name, $at-sizes: 's') {
   @if type-of($size) != number {
     @warn "flexy-gutter first param need to be a number";
   }
@@ -45,7 +45,7 @@
 }
 
 /* create columns */
-@mixin make-flexy-col($portion, $of, $at-sizes: 'all') {
+@mixin make-flexy-col($portion, $of, $at-sizes: 's') {
   @if type-of($portion) != number {
     @warn "flexy-col first param need to be a number";
   }
@@ -69,7 +69,7 @@
     $percent: ($portion / $of) * 100;
 
     .gl-flexy__col--#{$portion}of#{$of} {
-      @include add-from-screens($at-sizes...) {
+      @include modify-from-screens($at-sizes) {
         flex: 0 0 $percent * 1%;
         max-width: $percent * 1%;
       }
@@ -78,7 +78,7 @@
 }
 
 /* create custom named columns with custom content */
-@mixin make-flexy-custom-col($name, $at-sizes: 'all') {
+@mixin make-flexy-custom-col($name, $at-sizes: 's') {
   @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
     @warn "flexy-col second param should a map of existing screens, the name of a screen, or 'all'";
   }
@@ -91,7 +91,7 @@
     (type-of($at-sizes) == list) or
     (type-of($at-sizes) == string) {
     .gl-flexy__col--#{$name} {
-      @include add-from-screens($at-sizes...) {
+      @include modify-from-screens($at-sizes) {
         @content;
       }
     }

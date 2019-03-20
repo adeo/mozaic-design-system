@@ -6,15 +6,16 @@ import PatternCodeSample from './PatternCodeSample'
 import PatternToolBar from './PatternToolBar'
 import PatternFrame from './PatternFrame'
 
-const viewPorts = {
-  xxs: 320,
-  xs: 360,
-  s: 576,
-  m: 750,
-  l: 992,
-  xl: 1200,
-  xxl: 1400,
-}
+import tokensObject from '../../tokens/build/js/tokensObject.js'
+
+let viewPorts = {}
+
+Object.keys(tokensObject.screen).map(
+  screenName =>
+    (viewPorts[screenName] = Number(
+      tokensObject.screen[screenName].value.replace('px', '')
+    ))
+)
 
 const PatternContainer = styled.div`
   ${({ fullScreen }) =>

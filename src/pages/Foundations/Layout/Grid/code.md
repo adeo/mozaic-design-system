@@ -1,11 +1,18 @@
 ---
-title: 'Flexy Grid'
-order: 7
+title: 'SCSS - flexy grid'
+order: 1
 ---
 
 > Flexy is a grid system and a general purpose layout tool based on Flex. It can be used to build page level layout as well as component level one.
 
 ## Basics
+
+### Import the grid :
+
+```scss
+@import 'settings-tools/_all-settings';
+@import 'layouts/_l.flexy';
+```
 
 `gl-flexy` is very close to the bootstrap flex grid system.
 to create a grid, you need 2 elements :
@@ -45,10 +52,10 @@ When **used with gutters**, `.gl-flexy` uses the négative margin pattern : each
 
 ### Related tokens :
 
-| token name               | description                                  | value      |
-| ------------------------ | -------------------------------------------- | ---------- |
-| `size.gutter.screen.xxs` | the gutter width for smallest devices and up | 16px / 1mu |
-| `size.gutter.screen.m`   | the gutter width for screen `m` and up       | 32px / 2mu |
+| token name             | description                                  | value      |
+| ---------------------- | -------------------------------------------- | ---------- |
+| `size.gutter.screen.s` | the gutter width for smallest devices and up | 16px / 1mu |
+| `size.gutter.screen.m` | the gutter width for screen `m` and up       | 32px / 2mu |
 
 ## Columns
 
@@ -92,9 +99,9 @@ The available breakpoints modifiers are :
 | Modifier                              | breakpoint                     | corresponding device                 |
 | ------------------------------------- | ------------------------------ | ------------------------------------ |
 | `gl-flexy__col--[size]` (no modifier) | from 0px and up                | mobile / all                         |
-| `gl-flexy__col--[size]@from-s`        | **s**: from **576px and up**   | fablet / small tablet and up         |
-| `gl-flexy__col--[size]@from-l`        | **l**: from **992px and up**   | large tablets / small labtops and up |
-| `gl-flexy__col--[size]@from-xl`       | **xl**: from **1200px and up** | labtops and up                       |
+| `gl-flexy__col--[size]@from-m`        | **m**: from **576px and up**   | fablet / small tablet and up         |
+| `gl-flexy__col--[size]@from-l`        | **l**: from **1100px and up**  | large tablets / small labtops and up |
+| `gl-flexy__col--[size]@from-xl`       | **xl**: from **1920px and up** | labtops and up                       |
 
 <br>
 

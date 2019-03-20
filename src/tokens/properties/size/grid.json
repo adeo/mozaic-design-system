@@ -2,7 +2,7 @@
   "size": {
     "gutter": {
       "screen": {
-        "xxs": {
+        "s": {
           "value": 1
         },
         "m": {
@@ -13,9 +13,9 @@
   },
   "container": {
     "screen": {
-      "xxs": {
+      "s": {
         "gutter": {
-          "value": "{size.gutter.screen.xxs.value}"
+          "value": "{size.gutter.screen.s.value}"
         },
         "maxwidth": {
           "value": "100%"
@@ -43,14 +43,6 @@
         },
         "maxwidth": {
           "value": "1144px"
-        }
-      },
-      "xxl": {
-        "gutter": {
-          "value": "{size.gutter.screen.m.value}"
-        },
-        "maxwidth": {
-          "value": "1300px"
         }
       }
     }

@@ -1,82 +1,38 @@
-@mixin generate-grid($column-count) {
+@mixin make-grid($column-count) {
   .gl-grid {
     margin: 0 auto;
     width: 100%;
     display: grid;
     grid-auto-rows: minmax(auto, auto);
-    grid-column-gap: 16px; // TODO - Change to use magic-unit token
+    grid-column-gap: $mu100;
 
-    @include from-screen(m) {
-      grid-column-gap: 32px; // TODO - Change to use magic-unit token
+    @include set-from-screen(m) {
+      grid-column-gap: $mu200;
     }
 
     &--#{$column-count} {
-      grid-template-columns: #{generate-grid__column__template($column-count)};
+      grid-template-columns: #{set-grid-column-template($column-count)};
     }
   }
 }
 
-@mixin generate-grid__columns($column-count) {
+@mixin make-grid-columns($column-count) {
   @for $i from 1 through $column-count {
     .gl-grid__col-#{$i} {
-      grid-column-end: span $i;
-
-      @include from-screen(m) {
-        &#{\@}from-m {
-          grid-column-end: span $i;
-        }
-      }
-
-      @include from-screen(l) {
-        &#{\@}from-l {
-          grid-column-end: span $i;
-        }
-      }
-
-      @include from-screen(xl) {
-        &#{\@}from-xl {
-          grid-column-end: span $i;
-        }
-      }
-
-      @include from-screen(xxl) {
-        &#{\@}from-xxl {
-          grid-column-end: span $i;
-        }
+      @include modify-from-screens($major-screens...) {
+        grid-column-end: span $i;
       }
     }
 
     .gl-grid__col-start-#{$i} {
-      grid-column-start: col-#{$i}-start;
-
-      @include from-screen(m) {
-        &#{\@}from-m {
-          grid-column-start: col-#{$i}-start;
-        }
-      }
-
-      @include from-screen(l) {
-        &#{\@}from-l {
-          grid-column-start: col-#{$i}-start;
-        }
-      }
-
-      @include from-screen(xl) {
-        &#{\@}from-xl {
-          grid-column-start: col-#{$i}-start;
-        }
-      }
-
-      @include from-screen(xxl) {
-        &#{\@}from-xxl {
-          grid-column-start: col-#{$i}-start;
-        }
+      @include modify-from-screens($major-screens...) {
+        grid-column-start: col-#{$i}-start;
       }
     }
   }
 }
 
-@function generate-grid__column__template($columnCount) {
+@function set-grid-column-template($columnCount) {
   $grid-template: '';
 
   @for $i from 1 through $columnCount {
