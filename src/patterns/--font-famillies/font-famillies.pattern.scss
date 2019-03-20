@@ -1,3 +1,8 @@
+// setup a local config to tell garden where are your fonts:
+$local-config: (
+  font-path: '/fonts',
+);
+
 @import 'settings-tools/_all-settings';
 
 .example {

@@ -3,37 +3,30 @@ title: 'Developer guide'
 order: 2
 ---
 
-# Installation :
+**[Installation](Installation/)**<br>
+Where to find the dependencies, and the essentials requirements
+<br><br>
 
-### Requirements :
+**[what's included ?](whatsincluded/)**<br>
+The dependencies structure and content
+<br><br>
 
-Installing Garden require `node v10 +`
+**[Configuring PostCSS](configurePostCss/)**<br>
+Use PostCSS and our configuration setup in your project
+<br><br>
 
-### Initialise a new project (if it's not already done):
+**[Configuring Stylelint](configureStylelint/)**<br>
+Stylelint right in your IDE
+<br><br>
 
-```BASH
-# got to your project
-cd my/project/path
-# if it is not already done, initialize npm
-npm init
-```
+**[Importing Garden SCSS files](importingGardenComponents/)**<br>
+The right way to do it
+<br><br>
 
-and follow the npm init instructions
+**[Import and use statics assets](usingStaticAssets/)**<br>
+Import files and configure SCSS path to ststics
+<br><br>
 
-### install garden :
-
-```bash
-npm install --save garden-css
-```
-
----
-
-## Next :
-
-### [What's included ?](whatsIncluded/)
-
-a comprehensive list of the content of `garden-css` package.
-
-### [Web setup example](websetupexample/)
-
-A tutorial using npm script to be up and running with garden and it's configuration.
+**[Tutorial (using npm script)](npmScriptTutorial/)**<br>
+A tutorial to create a devevelopment environment from scratch using npm scripts.
+<br><br>
