@@ -27,6 +27,80 @@ use the set-from-screen mixin in with a screen map key to create a media querie
 
 ---
 
+## The modify-from-screens mixin
+
+<hintitem>
+  use the modify-from-screens mixin to create a series of viewport-specific scoped classes
+</hintitem>
+
+for example, to create an utility that hide an element based on the viewport :
+
+```scss
+.gu-hide
+  @include modify-from-screens(('s', 'm', 'l')) {
+    display: none !important;
+  }
+}
+```
+
+Output:
+
+```scss
+// from screen s and up (will hide anything)
+.gu-hide {
+  display: none;
+}
+
+// from screen m and up
+@media screen and (min-width: 576px) {
+  .gu-hide\@from-m {
+    display: none;
+  }
+}
+
+// rom screen l and up
+@media screen and (min-width: 1100px) {
+  .gu-hide\@from-l {
+    display: none;
+  }
+}
+```
+
+Markup usage :
+
+```html
+<div class="gu-hide@from-l">
+  I will be hidden from 1100px wide and up
+</div>
+```
+
+### The modify from screen **take a map as an argument**.
+
+You can either :
+
+#### 1) declare a map before passing it to the mixin
+
+```scss
+$viewports: ('s', 'm', 'l');
+@include modify-from-screens($viewports) {...}
+```
+
+#### 2) passes the viewports names wrapped in parenthesis
+
+```scss
+@include modify-from-screens(('s', 'm', 'l')) {...}
+```
+
+#### 3) use the \$major-screens variable
+
+(if you want to pass all major screens has arguments)
+
+```scss
+@include modify-from-screens($major-screens) {...}
+```
+
+--
+
 ## The screen variables
 
 <hintitem>
@@ -55,50 +129,3 @@ use the screen varibales to get the <b>px</b> value of a screen size
 <br>
 
 ---
-
-### The modify-from-screens mixin
-
-<hintitem>
-  use the modify-from-screens mixin to create a series of viewport-specific scoped classes
-</hintitem>
-
-for example, to create an utility that hide an element based on the viewport :
-
-```scss
-.gu-hide
-  @include modify-from-screens('s', 'm', 'l') {
-    display: none;
-  }
-}
-```
-
-Output:
-
-```scss
-// from screen s and up (will hide anything)
-.gu-hide {
-  display: none;
-}
-
-// from screen m and up
-@media screen and (min-width: 576px) {
-  .gu-hide\@from-m {
-    display: none;
-  }
-}
-
-// rom screen l and up
-@media screen and (min-width: 1100px) {
-  .gu-hide\@from-l {
-    display: none;
-  }
-}
-```
-
-usage :
-
-```html
-<div class="gu-hide@from-l">
-  I will be hidden from 1100px wide and up
-</div>
-```

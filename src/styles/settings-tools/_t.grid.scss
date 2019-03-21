@@ -19,13 +19,13 @@
 @mixin make-grid-columns($column-count) {
   @for $i from 1 through $column-count {
     .gl-grid__col-#{$i} {
-      @include modify-from-screens($major-screens...) {
+      @include modify-from-screens($major-screens) {
         grid-column-end: span $i;
       }
     }
 
     .gl-grid__col-start-#{$i} {
-      @include modify-from-screens($major-screens...) {
+      @include modify-from-screens($major-screens) {
         grid-column-start: col-#{$i}-start;
       }
     }
