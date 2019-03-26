@@ -65,7 +65,7 @@
     "clean-cache": "rm -rf ./.cache ./public",
     "css:fix": "npx stylelint npx stylelint src/patterns/**/*.scss src/styles/**/*.scss --fix",
     "css:lint": "npx stylelint npx stylelint src/patterns/**/*.scss src/styles/**/*.scss",
-    "prebuild": "yarn clean-cache && yarn tokens:clean-build",
+    "prebuild": "yarn tokens:build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "predevelop": "yarn clean-cache && yarn tokens:clean-build",

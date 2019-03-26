@@ -9,3 +9,4 @@ yarn-error.log
 .vscode
 /.idea/
 package-lock.json
+src/tokens/build/
