@@ -1,4 +1,5 @@
 @import 'settings-tools/_all-settings';
+@import 'layouts/_l.container';
 @import 'layouts/_l.flexy';
 
 * {
@@ -6,13 +7,13 @@
 }
 
 .example {
-  .gl-container {
+  &__container {
     margin-bottom: $mu100;
     margin-top: $mu100;
     box-shadow: 0 0 0 1px $color-secondary-red-500;
   }
 
-  .gl-flexy__col {
+  &__col {
     box-shadow: 0 0 0 1px $color-primary-01-500;
     margin-bottom: $mu100;
   }

@@ -1,9 +1,3 @@
-$container-map: get-token('container', 'screen');
-
-.gl-container {
-  @include make-container($container-map);
-}
-
 .gl-flexy {
   display: flex;
   flex-flow: row wrap;
@@ -33,10 +27,6 @@ $container-map: get-token('container', 'screen');
 
   &--items-center {
     align-items: center;
-  }
-
-  &--column {
-    flex-flow: column nowrap;
   }
 
   // by default a gl-flexy__col is

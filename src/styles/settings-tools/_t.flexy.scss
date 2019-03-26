@@ -9,19 +9,6 @@
   }
 }
 
-@mixin make-container($container-map) {
-  margin-right: auto;
-  margin-left: auto;
-
-  @each $screen, $value-map in $container-map {
-    @include set-from-screen($screen) {
-      max-width: map-get($value-map, 'maxwidth');
-      padding-right: map-get($value-map, 'gutter');
-      padding-left: map-get($value-map, 'gutter');
-    }
-  }
-}
-
 /* create gutter variation */
 @mixin make-flexy-gutter($size, $gutter-name, $at-sizes: 's') {
   @if type-of($size) != number {

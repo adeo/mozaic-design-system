@@ -50,8 +50,8 @@ You can implement your own margins or paggings utility using the space mixin :
 
 ```html
 <div class="gm-list">
-    <div class="gm-list__item gu-mb-025">item</div>
-    <div class="gm-list__item gu-mb-025">item</div>
+  <div class="gm-list__item gu-mb-025">item</div>
+  <div class="gm-list__item gu-mb-025">item</div>
 </div>
 ```
 
@@ -63,8 +63,8 @@ You can implement your own margins or paggings utility using the space mixin :
 
 ```html
 <div class="gm-list gu-mb-025">
-    <div class="gm-list__item">item</div>
-    <div class="gm-list__item">item</div>
+  <div class="gm-list__item">item</div>
+  <div class="gm-list__item">item</div>
 </div>
 <div class="gm-other">other</div>
 ```

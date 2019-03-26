@@ -10,41 +10,5 @@
         }
       }
     }
-  },
-  "container": {
-    "screen": {
-      "s": {
-        "gutter": {
-          "value": "{size.gutter.screen.s.value}"
-        },
-        "maxwidth": {
-          "value": "100%"
-        }
-      },
-      "m": {
-        "gutter": {
-          "value": "{size.gutter.screen.m.value}"
-        },
-        "maxwidth": {
-          "value": "100%"
-        }
-      },
-      "l": {
-        "gutter": {
-          "value": "{size.gutter.screen.m.value}"
-        },
-        "maxwidth": {
-          "value": "964px"
-        }
-      },
-      "xl": {
-        "gutter": {
-          "value": "{size.gutter.screen.m.value}"
-        },
-        "maxwidth": {
-          "value": "1144px"
-        }
-      }
-    }
   }
 }

@@ -7,10 +7,14 @@ order: 1
 
 ## Basics
 
+<hintitem>Use flexy with a container to create page-level layouts</hintitem>
+<hintitem>Use flexy when possible to create flex layouts inside smaller elements ro components</hintitem>
+
 ### Import the grid :
 
 ```scss
 @import 'settings-tools/_all-settings';
+@import 'layouts/_l.container'; // you generally want the container as well
 @import 'layouts/_l.flexy';
 ```
 
@@ -30,6 +34,18 @@ to create a grid, you need 2 elements :
     col 2
   </div>
 </div>
+```
+
+<hintitem>
+  Wrap the grid in a gl-container to set external margins and limit the content's maximum width
+</hintitem>
+
+```html
+<main class="gl-container">
+  <div class="gl-flexy">
+    ...
+  </div>
+</main>
 ```
 
 ### Gutters
@@ -54,8 +70,12 @@ When **used with gutters**, `.gl-flexy` uses the négative margin pattern : each
 
 | token name             | description                                  | value      |
 | ---------------------- | -------------------------------------------- | ---------- |
-| `size.gutter.screen.s` | the gutter width for smallest devices and up | 16px / 1mu |
-| `size.gutter.screen.m` | the gutter width for screen `m` and up       | 32px / 2mu |
+| `size.gutter.screen.s` | the gutter width for smallest devices and up | 16px (1mu) |
+| `size.gutter.screen.m` | the gutter width for screen `m` and up       | 32px (2mu) |
+
+<br>
+
+<small>Reminder : mu = MagicUnit. Ex: 3.5mu = MagicUnit \* 3.5</small>
 
 ## Columns
 
@@ -63,9 +83,13 @@ Columns are defined by the using the class `.gl-flexy__col` on a direct child of
 
 By default, `.gl-flexy` `flex-wrap` is set to `wrap`, meaning that columns will wrap to the next line when their total width exeeds 100% of the `.gl-flexy` width.
 
+<pattern path="src/patterns/--flexy/flexyWrap"></pattern>
+
 `.gl-flexy__col` is set to `flex: 1` by default, meaning that a `.gl-flexy__col` will take the available width of a `.gl-flexy` container.
 
-Adding 3 `.gl-flexy__col` in a same `.gl-flexy` container will result in 3 columns taking up each 1/3 of the availablme space.
+Adding 3 `.gl-flexy__col` in a same `.gl-flexy` container will result in 3 columns taking up each 1/3 of the available space.
+
+<pattern path="src/patterns/--flexy/flexyDefaultCol"></pattern>
 
 ### Columns widths
 
@@ -127,52 +151,26 @@ Available modifiers are :
 
 ## Nesting flexy grids
 
-You can nest flexy grids together either by creating a new `.gl-flexy` grid in inside a column, or by directly applying a `.gl-flexy` class on a `.gl-flexy__column` element.
-
-### 1. creating a new grid inside a column :
+You can either nest flexy grids by creating a new `.gl-flexy` grid inside a column, or by directly applying a `.gl-flexy` class on a `.gl-flexy__column` element.
 
 ```html
-<div class="gl-flexy">
-  <div class="gl-flexy__col">
-    <!-- content 1 -->
-  </div>
-  <div class="gl-flexy__col">
-    <div class="gl-flexy">
-      <div class="gl-flexy__col">
-        <!-- nested content 1-->
-      </div>
-      <div class="gl-flexy__col">
-        <!-- nested content 2 -->
-      </div>
-    </div>
+...
+<div class="gl-flexy__col">
+  <div class="gl-flexy">
+    <!-- nested inside -->
   </div>
 </div>
-```
-
-### 2. directly applying a `.gl-flexy` class directly on a `.gl-flexy__col` element:
-
-```html
-<div class="gl-flexy">
-  <div class="gl-flexy__col">
-    <!-- content 1 -->
-  </div>
-  <div class="gl-flexy__col gl-flexy">
-    <!-- the column is also a grid -->
-    <div class="gl-flexy__col">
-      <!-- nested content 1-->
-    </div>
-    <div class="gl-flexy__col">
-      <!-- nested content 2 -->
-    </div>
-  </div>
+<div class="gl-flexy__col gl-flexy">
+  <!-- the column is a also a flexy -->
 </div>
+...
 ```
 
 <pattern path="src/patterns/--flexy/flexyNested"></pattern>
 
-## column Order
+## Columns Order
 
-Use the `gl-flexy__col--last` and `gl-flexy__col--first` modifier to reorder columns
+Use the `gl-flexy__col--last` and `gl-flexy__col--first` modifier to reorder columns.
 
 <pattern path="src/patterns/--flexy/flexyOrder"></pattern>
 
