@@ -1,6 +1,6 @@
 @import 'settings-tools/_all-settings';
 
-$lines-heights: ('s', 'm', 'l');
+$lines-heights: ('xs', 's', 'm', 'l');
 
 * {
   box-sizing: border-box;
@@ -12,10 +12,14 @@ $lines-heights: ('s', 'm', 'l');
   @include font-face('regular');
 
   &__container {
-    min-height: $mu400;
+    min-height: $mu700;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
-  &__font-line-height {
+  &__title-lh {
+    flex: 0 0 48%;
     box-shadow:
       0 1px 0 0 rgba($color-secondary-red-500, 0.5),
       0 -1px 0 0 rgba($color-secondary-red-500, 0.5);
@@ -25,5 +29,23 @@ $lines-heights: ('s', 'm', 'l');
         @include font-scale('10', $key);
       }
     }
+  }
+
+  &__paragraph-lh {
+    flex: 0 0 48%;
+    color: $color-grey-800;
+    box-shadow:
+      0 1px 0 0 rgba($color-secondary-red-500, 0.5),
+      0 -1px 0 0 rgba($color-secondary-red-500, 0.5);
+
+    @each $key in $lines-heights {
+      &--#{$key} {
+        @include font-scale('05', $key);
+      }
+    }
+  }
+
+  &__paragraph-lh-name {
+    color: $color-grey-999;
   }
 }

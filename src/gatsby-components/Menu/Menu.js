@@ -32,10 +32,16 @@ const Arrow = styled.svg`
 `
 const Container = styled.div`
   width: 220px;
+  display: flex;
+  flex-flow: column nowrap;
+  max-height: 100vh;
+  overflow: hidden;
 `
 
 const NavContainer = styled.nav`
   padding: 0 8px 0 16px;
+  flex: 1;
+  overflow: auto;
 `
 
 const UlMenu = styled.ul`

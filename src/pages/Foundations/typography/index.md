@@ -3,8 +3,8 @@ title: 'Typography'
 order: 6
 ---
 
-### [fonts faces](/Elements/typography/fontFamillies/)
+### [fonts faces](/Foundations/typography/fontFamillies/)
 
-### [scales, sizes and line-heights](/Elements/typography/scaleAndSizes/)
+### [scales, sizes and line-heights](/Foundations/typography/scaleAndSizes/)
 
-### [colors](/Elements/typography/colors/)
+### [colors](/Foundations/typography/colors/)
