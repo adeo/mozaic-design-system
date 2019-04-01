@@ -24,7 +24,7 @@ class SelectViewport extends Component {
           <option
             key={viewportItem}
             default={viewportItem === viewport}
-            value={viewportItem}
+            value={viewPorts[viewportItem].value}
           >
             {viewportItem}
           </option>

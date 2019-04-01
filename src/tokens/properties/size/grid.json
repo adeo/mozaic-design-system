@@ -1,0 +1,14 @@
+{
+  "size": {
+    "gutter": {
+      "screen": {
+        "s": {
+          "value": 1
+        },
+        "m": {
+          "value": 2
+        }
+      }
+    }
+  }
+}

@@ -1,26 +1,10 @@
-$screens: (
-  xxs: 0,
-  xs: 360,
-  s: 576,
-  m: 750,
-  l: 992,
-  xl: 1200,
-  xxl: 1400,
-);
-
-// media screens width variables expressed in px
-$screen-xs: map-get($screens, xs) * 1px;
-$screen-s: map-get($screens, s) * 1px;
-$screen-m: map-get($screens, m) * 1px;
-$screen-l: map-get($screens, l) * 1px;
-$screen-xl: map-get($screens, xl) * 1px;
-$screen-xxl: map-get($screens, xxl) * 1px;
-
 // media-querie mixin
 // mobile first
-@mixin from-screen($size) {
-  @if map-has-key($screens, $size) {
-    @media screen and (min-width: map-get($screens, $size) * 1px) {
+$screens: get-token(screen);
+
+@mixin set-from-screen($size) {
+  @if map-has-key(get-token(screen), $size) {
+    @media screen and (min-width: get-token(screen, $size)) {
       @content;
     }
   }
@@ -28,5 +12,25 @@ $screen-xxl: map-get($screens, xxl) * 1px;
   @else {
     @error "the `#{$size}` key does not exist in the screen map."
       + "Please make sure to use an authorized value";
+  }
+}
+
+$major-screens: ('s', 'm', 'l', 'xl');
+
+// create modifiers from viewport list
+@mixin modify-from-screens($size-list) {
+  @each $size in $size-list {
+    // 's' == 0, so no breakpoints here
+    @if $size == 's' {
+      @content;
+    }
+
+    @else {
+      @include set-from-screen($size) {
+        &\@from-#{$size} {
+          @content;
+        }
+      }
+    }
   }
 }

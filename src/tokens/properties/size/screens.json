@@ -1,0 +1,43 @@
+{
+  "screen": {
+    "s": {
+      "value": "0px"
+    },
+    "s-mini": {
+      "value": "320px"
+    },
+    "s-medium": {
+      "value": "360px"
+    },
+    "s-mega": {
+      "value": "390px"
+    },
+    "m": {
+      "value": "576px"
+    },
+    "m-mini": {
+      "value": "680px"
+    },
+    "m-medium": {
+      "value": "769px"
+    },
+    "m-mega": {
+      "value": "1024px"
+    },
+    "l": {
+      "value": "1100px"
+    },
+    "l-mini": {
+      "value": "1280px"
+    },
+    "l-medium": {
+      "value": "1440px"
+    },
+    "l-mega": {
+      "value": "1680px"
+    },
+    "xl": {
+      "value": "1921px"
+    }
+  }
+}

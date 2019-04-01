@@ -1,0 +1,30 @@
+@import 'settings-tools/_all-settings';
+@import 'layouts/_l.container';
+@import 'layouts/_l.flexy';
+
+// for example purpose only
+@import 'utilities/_u.margin';
+
+* {
+  box-sizing: border-box;
+}
+
+.example {
+  padding-top: $mu200;
+
+  &__container {
+    box-shadow: 0 0 0 1px $color-secondary-red-500;
+  }
+
+  &__item {
+    @include font-scale('04', 's');
+    @include font-face('regular');
+
+    flex: 1;
+    box-shadow: 0 0 0 1px $color-primary-01-500;
+    padding: $mu100 0;
+    margin-bottom: $mu100;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+}
