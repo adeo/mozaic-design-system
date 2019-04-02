@@ -5,16 +5,16 @@ order: 1
 
 # The font-scale mixin :
 
-> The font scale mixin returns a font-size and a line-height :
+> The font scale mixin returns a font-size and a line-height for a given font-size token
+
+<hintitem>
+   Always use the font-scale mixin to define font-size and line-height
+</hintitem>
 
 Params :
 
 - `$size` : **required**, any value between `01` to `12` corresponding to the `size.font.[xx]` tokens
-- `$line-height` : **optional** / `s` , `m` or `l`, default : `l`
-
-<hintitem>
-   Use as much as possible the font-scale mixin to define font-scale
-</hintitem>
+- `$line-height` : **optional** / `xs`, `s` , `m` or `l`, default : `l`
 
 ```scss
 @import 'settings-tools/_all-settings.scss';
@@ -23,12 +23,14 @@ Params :
 @include font-scale('05', 'm');
 ```
 
+> note : the fontscale mixin return a line-height ratio based on the font-size that is calculated
+
 <br>
 
 # Using tokens and variables :
 
 <hintitem>
-   If, for some reason you need another line-height, try to use an authorized magic unit value.
+   If, for some reason you are forced to use another line-height, try to use an authorized magic unit value.
 </hintitem>
 <hintitem dont="true">
    Never use other font-sizes values than the dedicated tokens

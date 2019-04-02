@@ -2,10 +2,7 @@
 $path: '/fonts';
 
 @if variable-exists(local-config) {
-  @warn 'yeaaaaahhhhhhh';
-
   @if type-of($local-config) == map and map-has-key($local-config, font-path) {
-    @warn 'yoooooooupy';
     $path: map-has-key($local-config, 'font-path');
   }
 }
