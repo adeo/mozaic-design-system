@@ -6,7 +6,7 @@ $font-sizes: get-token(size, font);
   padding: $mu300;
 
   &__item {
-    @include font-face('regular');
+    @include set-font-face('regular');
 
     box-shadow: 0 1px 0 0 rgba($color-secondary-red-500, 0.5);
 
@@ -18,7 +18,7 @@ $font-sizes: get-token(size, font);
 
     @each $size, $value in $font-sizes {
       &--#{$size} {
-        @include font-scale($size);
+        @include set-font-scale($size);
 
         &::before {
           content: '#{$size}';

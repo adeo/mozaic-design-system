@@ -1,6 +1,11 @@
-@mixin font-scale($size, $line-height: 'l') {
-  font-size: get-token(size, font, $size);
+@mixin set-line-height($size, $line-height) {
   line-height:
     get-token(size, line, $size, $line-height) /
     get-token(size, font, $size);
+}
+
+@mixin set-font-scale($size, $line-height: 'l') {
+  font-size: get-token(size, font, $size);
+
+  @include set-line-height($size, $line-height);
 }

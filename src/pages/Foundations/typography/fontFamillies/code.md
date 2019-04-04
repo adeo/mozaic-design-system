@@ -14,9 +14,9 @@ Params :
 @import 'settings-tools/_all-settings';
 
 // semi-bold
-@include font-face('semi-bold');
+@include set-font-face('semi-bold');
 // semi-bold italic
-@include font-face('semi-bold', 'italic');
+@include set-font-face('semi-bold', 'italic');
 ```
 
 # Font files :
@@ -24,6 +24,7 @@ Params :
 You can find the font-face into the `[registry path]/statics/fonts/` directory.
 
 ## Overriding default path
+
 You can override the path using `$font-path` variable and define a new path depending on your project files.
 
 Declare the font-path variable in a file imported before `_all-settings.scss`, like `user.config.scss` created in your project.

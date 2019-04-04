@@ -19,8 +19,8 @@ Params :
 ```scss
 @import 'settings-tools/_all-settings.scss';
 
-@include font-scale('08');
-@include font-scale('05', 'm');
+@include set-font-scale('08');
+@include set-font-scale('05', 'm');
 ```
 
 > note : the fontscale mixin return a line-height ratio based on the font-size that is calculated

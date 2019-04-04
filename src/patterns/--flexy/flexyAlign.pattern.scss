@@ -7,8 +7,8 @@
 }
 
 .example {
-  @include font-scale('04', 's');
-  @include font-face('regular');
+  @include set-font-scale('04', 's');
+  @include set-font-face('regular');
 
   text-align: center;
 
