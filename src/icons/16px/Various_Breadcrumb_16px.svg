@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Various/Breadcrumb/16px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.14644661,3.85355339 C5.95118446,3.65829124 5.95118446,3.34170876 6.14644661,3.14644661 C6.34170876,2.95118446 6.65829124,2.95118446 6.85355339,3.14644661 L11.3535534,7.64644661 C11.5488155,7.84170876 11.5488155,8.15829124 11.3535534,8.35355339 L6.85355339,12.8535534 C6.65829124,13.0488155 6.34170876,13.0488155 6.14644661,12.8535534 C5.95118446,12.6582912 5.95118446,12.3417088 6.14644661,12.1464466 L10.2928932,8 L6.14644661,3.85355339 Z" id="path-1"></path>
+    </defs>
+    <g id="Various/Breadcrumb/16px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" x="0" y="0" width="16" height="16"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape"  fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>
