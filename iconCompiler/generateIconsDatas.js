@@ -16,8 +16,8 @@ const iconList = iconDir.children.map(icon => {
     .replace(size, '')
     .slice(1, -1)
 
-  const fullpath = icon.path.replace('static/', '')
-
+  const fullpath = icon.path.replace('static\\', '').replace('static/', '');
+  
   return {
     cat,
     size,

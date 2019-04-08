@@ -10,3 +10,4 @@ yarn-error.log
 /.idea/
 package-lock.json
 src/tokens/build/
+static/icons/
