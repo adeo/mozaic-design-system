@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.4.3",
+    "css-mqpacker": "^7.0.0",
     "postcss": "^7.0.7",
     "postcss-node-sass": "^2.1.8",
     "postcss-reporter": "^6.0.0",
