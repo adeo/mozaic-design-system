@@ -32,6 +32,7 @@
     "gatsby-remark-images": "^2.0.5",
     "gatsby-remark-prismjs": "^3.0.2",
     "gatsby-source-filesystem": "^2.0.3",
+    "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-remark": "^2.1.7",
     "gatsby-transformer-sharp": "^2.1.6",
     "node-sass": "^4.9.4",
@@ -69,7 +70,7 @@
     "prebuild": "yarn tokens:build",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "predevelop": "yarn clean-cache && yarn tokens:clean-build",
+    "predevelop": "yarn tokens:clean-build",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 0",
     "registry": "cp -R src/styles registry && cp -R src/tokens registry && cp -R cssCompiler registry && cp -R static registry"

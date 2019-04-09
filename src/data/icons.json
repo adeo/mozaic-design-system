@@ -1,0 +1,1370 @@
+[
+  {
+    "cat": "Device",
+    "size": "48px",
+    "name": "Desktop",
+    "fullpath": "icons/Device_Desktop_48px.svg"
+  },
+  {
+    "cat": "Device",
+    "size": "48px",
+    "name": "Laptop",
+    "fullpath": "icons/Device_Laptop_48px.svg"
+  },
+  {
+    "cat": "Device",
+    "size": "48px",
+    "name": "Mobile",
+    "fullpath": "icons/Device_Mobile_48px.svg"
+  },
+  {
+    "cat": "Device",
+    "size": "48px",
+    "name": "Tablet",
+    "fullpath": "icons/Device_Tablet_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "BookStore",
+    "fullpath": "icons/Media_BookStore_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Camera",
+    "fullpath": "icons/Media_Camera_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "Camera",
+    "fullpath": "icons/Media_Camera_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Camera",
+    "fullpath": "icons/Media_Camera_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Download",
+    "fullpath": "icons/Media_Download_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "FullScreen",
+    "fullpath": "icons/Media_FullScreen_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "FullScreen",
+    "fullpath": "icons/Media_FullScreen_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Pdf",
+    "fullpath": "icons/Media_Pdf_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Play",
+    "fullpath": "icons/Media_Play_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "Play",
+    "fullpath": "icons/Media_Play_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Play",
+    "fullpath": "icons/Media_Play_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Print",
+    "fullpath": "icons/Media_Print_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Sound",
+    "fullpath": "icons/Media_Sound_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "TimeRead",
+    "fullpath": "icons/Media_TimeRead_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "TimeRead",
+    "fullpath": "icons/Media_TimeRead_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "TimeRead",
+    "fullpath": "icons/Media_TimeRead_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "64px",
+    "name": "TimeRead",
+    "fullpath": "icons/Media_TimeRead_64px.svg"
+  },
+  {
+    "cat": "NU",
+    "size": "32px",
+    "name": "User_Account_Profile--View",
+    "fullpath": "icons/NU_User_Account_Profile--View_32px.svg"
+  },
+  {
+    "cat": "NU",
+    "size": "64px",
+    "name": "User_Account_Profile--View",
+    "fullpath": "icons/NU_User_Account_Profile--View_64px.svg"
+  },
+  {
+    "cat": "Navigation-Notification-Checked",
+    "size": "16px",
+    "name": "",
+    "fullpath": "icons/Navigation-Notification-Checked_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Arrow_Arrow--Bottom",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Bottom_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Arrow_Arrow--Bottom",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Bottom_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Arrow_Arrow--Bottom",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Bottom_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Arrow_Arrow--Bottom",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Bottom_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Arrow_Arrow--Left",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Left_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Arrow_Arrow--Left",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Left_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Arrow_Arrow--Left",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Left_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Arrow_Arrow--Left",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Left_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Arrow_Arrow--Right",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Right_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Arrow_Arrow--Right",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Right_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Arrow_Arrow--Right",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Right_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Arrow_Arrow--Right",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Right_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Arrow_Arrow--Top",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Top_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Arrow_Arrow--Top",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Top_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Arrow_Arrow--Top",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Top_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Arrow_Arrow--Top",
+    "fullpath": "icons/Navigation_Arrow_Arrow--Top_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Arrow_Back",
+    "fullpath": "icons/Navigation_Arrow_Back_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Arrow_Back",
+    "fullpath": "icons/Navigation_Arrow_Back_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Arrow_Back",
+    "fullpath": "icons/Navigation_Arrow_Back_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Arrow_Next",
+    "fullpath": "icons/Navigation_Arrow_Next_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Arrow_Next",
+    "fullpath": "icons/Navigation_Arrow_Next_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Arrow_Next",
+    "fullpath": "icons/Navigation_Arrow_Next_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_Close",
+    "fullpath": "icons/Navigation_Display_Close_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Close",
+    "fullpath": "icons/Navigation_Display_Close_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Close",
+    "fullpath": "icons/Navigation_Display_Close_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Display--Mobile--Horizontal",
+    "fullpath": "icons/Navigation_Display_Display--Mobile--Horizontal_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Display--Mobile--Horizontal",
+    "fullpath": "icons/Navigation_Display_Display--Mobile--Horizontal_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Display--Mobile--Vertical",
+    "fullpath": "icons/Navigation_Display_Display--Mobile--Vertical_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Display--Mobile--Vertical",
+    "fullpath": "icons/Navigation_Display_Display--Mobile--Vertical_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_DisplayProductX4",
+    "fullpath": "icons/Navigation_Display_DisplayProductX4_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_DisplayProductX4",
+    "fullpath": "icons/Navigation_Display_DisplayProductX4_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_DisplayProductX9",
+    "fullpath": "icons/Navigation_Display_DisplayProductX9_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_DisplayProductX9",
+    "fullpath": "icons/Navigation_Display_DisplayProductX9_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Filter",
+    "fullpath": "icons/Navigation_Display_Filter_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_More",
+    "fullpath": "icons/Navigation_Display_More_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_More",
+    "fullpath": "icons/Navigation_Display_More_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_MovingBlock",
+    "fullpath": "icons/Navigation_Display_MovingBlock_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_MovingBlock",
+    "fullpath": "icons/Navigation_Display_MovingBlock_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_MovingBlock",
+    "fullpath": "icons/Navigation_Display_MovingBlock_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Search",
+    "fullpath": "icons/Navigation_Display_Search_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Search",
+    "fullpath": "icons/Navigation_Display_Search_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Setting",
+    "fullpath": "icons/Navigation_Display_Setting_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Tag--Delete",
+    "fullpath": "icons/Navigation_Display_Tag--Delete_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Notification_Avaible",
+    "fullpath": "icons/Navigation_Notification_Avaible_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Notification_Available",
+    "fullpath": "icons/Navigation_Notification_Available_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Notification_Available",
+    "fullpath": "icons/Navigation_Notification_Available_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Notification_Check",
+    "fullpath": "icons/Navigation_Notification_Check_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Notification_Checked",
+    "fullpath": "icons/Navigation_Notification_Checked_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Notification_Checked",
+    "fullpath": "icons/Navigation_Notification_Checked_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Notification_Information",
+    "fullpath": "icons/Navigation_Notification_Information_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Notification_Information",
+    "fullpath": "icons/Navigation_Notification_Information_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Notification_Information",
+    "fullpath": "icons/Navigation_Notification_Information_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Notification_Question",
+    "fullpath": "icons/Navigation_Notification_Question_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Notification_Question",
+    "fullpath": "icons/Navigation_Notification_Question_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Notification_Question",
+    "fullpath": "icons/Navigation_Notification_Question_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Notification_Warning",
+    "fullpath": "icons/Navigation_Notification_Warning_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Notification_Warning",
+    "fullpath": "icons/Navigation_Notification_Warning_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Notification_Warning",
+    "fullpath": "icons/Navigation_Notification_Warning_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Publish_Circle--Add",
+    "fullpath": "icons/Navigation_Publish_Circle--Add_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Publish_Circle--Add",
+    "fullpath": "icons/Navigation_Publish_Circle--Add_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Publish_Circle--Add",
+    "fullpath": "icons/Navigation_Publish_Circle--Add_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Publish_Circle--Delete",
+    "fullpath": "icons/Navigation_Publish_Circle--Delete_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Publish_Circle--Delete",
+    "fullpath": "icons/Navigation_Publish_Circle--Delete_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Publish_Circle--Delete",
+    "fullpath": "icons/Navigation_Publish_Circle--Delete_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Publish_Circle--Substract",
+    "fullpath": "icons/Navigation_Publish_Circle--Substract_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Publish_Circle--Substract",
+    "fullpath": "icons/Navigation_Publish_Circle--Substract_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Publish_Circle--Substract",
+    "fullpath": "icons/Navigation_Publish_Circle--Substract_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Publish_Delete",
+    "fullpath": "icons/Navigation_Publish_Delete_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Publish_Edit",
+    "fullpath": "icons/Navigation_Publish_Edit_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Publish_Edit",
+    "fullpath": "icons/Navigation_Publish_Edit_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Publish_Tag--Delete",
+    "fullpath": "icons/Navigation_Publish_Tag--Delete_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Publish_Tag--Delete",
+    "fullpath": "icons/Navigation_Publish_Tag--Delete_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Publish_Tag--Delete",
+    "fullpath": "icons/Navigation_Publish_Tag--Delete_32px.svg"
+  },
+  {
+    "cat": "Plan de travail 8.svg",
+    "size": "Plan de travail 8",
+    "name": "",
+    "fullpath": "icons/Plan de travail 8.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Aspect_Size",
+    "fullpath": "icons/Product_Aspect_Size_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Aspect_Weight",
+    "fullpath": "icons/Product_Aspect_Weight_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Cart_Add",
+    "fullpath": "icons/Product_Cart_Add_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "32px",
+    "name": "Cart_Cart",
+    "fullpath": "icons/Product_Cart_Cart_32px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Cart_Cart",
+    "fullpath": "icons/Product_Cart_Cart_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "List_AddShoppingList",
+    "fullpath": "icons/Product_List_AddShoppingList_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "24px",
+    "name": "List_ShoppingList",
+    "fullpath": "icons/Product_List_ShoppingList_24px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "32px",
+    "name": "List_ShoppingList",
+    "fullpath": "icons/Product_List_ShoppingList_32px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "List_ShoppingList",
+    "fullpath": "icons/Product_List_ShoppingList_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "32px",
+    "name": "Promise_FairPrice",
+    "fullpath": "icons/Product_Promise_FairPrice_32px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Promise_FairPrice",
+    "fullpath": "icons/Product_Promise_FairPrice_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "32px",
+    "name": "Promise_RelatedProduct",
+    "fullpath": "icons/Product_Promise_RelatedProduct_32px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Promise_RelatedProduct",
+    "fullpath": "icons/Product_Promise_RelatedProduct_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "24px",
+    "name": "Promise_Scan",
+    "fullpath": "icons/Product_Promise_Scan_24px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "32px",
+    "name": "Promise_Scan",
+    "fullpath": "icons/Product_Promise_Scan_32px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px-MacBook Pro de julien (2)",
+    "name": "Promise_Scan",
+    "fullpath": "icons/Product_Promise_Scan_48px-MacBook Pro de julien (2).svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Promise_Scan",
+    "fullpath": "icons/Product_Promise_Scan_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "32px",
+    "name": "Promise_Warranty",
+    "fullpath": "icons/Product_Promise_Warranty_32px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Promise_Warranty",
+    "fullpath": "icons/Product_Promise_Warranty_48px.svg"
+  },
+  {
+    "cat": "Project",
+    "size": "48px",
+    "name": "DescribeProject",
+    "fullpath": "icons/Project_DescribeProject_48px.svg"
+  },
+  {
+    "cat": "Project",
+    "size": "48px",
+    "name": "Inspiration",
+    "fullpath": "icons/Project_Inspiration_48px.svg"
+  },
+  {
+    "cat": "Project",
+    "size": "48px",
+    "name": "MakeProject",
+    "fullpath": "icons/Project_MakeProject_48px.svg"
+  },
+  {
+    "cat": "Project",
+    "size": "48px",
+    "name": "ProductNumb",
+    "fullpath": "icons/Project_ProductNumb_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "AfterSales_AfterSalesService",
+    "fullpath": "icons/Service_AfterSales_AfterSalesService_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "64px",
+    "name": "AfterSales_AfterSalesService",
+    "fullpath": "icons/Service_AfterSales_AfterSalesService_64px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "24px",
+    "name": "AfterSales_RefundReturn",
+    "fullpath": "icons/Service_AfterSales_RefundReturn_24px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "32px",
+    "name": "AfterSales_RefundReturn",
+    "fullpath": "icons/Service_AfterSales_RefundReturn_32px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "AfterSales_RefundReturn",
+    "fullpath": "icons/Service_AfterSales_RefundReturn_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "AfterSales_Support",
+    "fullpath": "icons/Service_AfterSales_Support_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "24px",
+    "name": "Custom_Cuts",
+    "fullpath": "icons/Service_Custom_Cuts_24px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Custom_Cuts",
+    "fullpath": "icons/Service_Custom_Cuts_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "32px",
+    "name": "Delivery_AtHome",
+    "fullpath": "icons/Service_Delivery_AtHome_32px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Delivery_AtHome",
+    "fullpath": "icons/Service_Delivery_AtHome_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "64px",
+    "name": "Delivery_AtHome",
+    "fullpath": "icons/Service_Delivery_AtHome_64px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "32px",
+    "name": "Delivery_PickupPoint",
+    "fullpath": "icons/Service_Delivery_PickupPoint_32px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Delivery_PickupPoint",
+    "fullpath": "icons/Service_Delivery_PickupPoint_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "64px",
+    "name": "Delivery_PickupPoint",
+    "fullpath": "icons/Service_Delivery_PickupPoint_64px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "32px",
+    "name": "Delivery_PickupStore",
+    "fullpath": "icons/Service_Delivery_PickupStore_32px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Delivery_PickupStore",
+    "fullpath": "icons/Service_Delivery_PickupStore_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "PurchaseHelp_HomeInstallation",
+    "fullpath": "icons/Service_PurchaseHelp_HomeInstallation_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Time_Delivery48h",
+    "fullpath": "icons/Service_Time_Delivery48h_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Tools_3d",
+    "fullpath": "icons/Service_Tools_3d_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "32px",
+    "name": "Tools_Calculator",
+    "fullpath": "icons/Service_Tools_Calculator_32px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Tools_Calculator",
+    "fullpath": "icons/Service_Tools_Calculator_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "Comment_Comment",
+    "fullpath": "icons/Social_Comment_Comment_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "32px",
+    "name": "Comment_Comment",
+    "fullpath": "icons/Social_Comment_Comment_32px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "Comment_Comment",
+    "fullpath": "icons/Social_Comment_Comment_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "Comment_Community",
+    "fullpath": "icons/Social_Comment_Community_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "32px",
+    "name": "Comment_Community",
+    "fullpath": "icons/Social_Comment_Community_32px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "Comment_Community",
+    "fullpath": "icons/Social_Comment_Community_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "Comment_ProductQuestion",
+    "fullpath": "icons/Social_Comment_ProductQuestion_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "32px",
+    "name": "Comment_ProductQuestion",
+    "fullpath": "icons/Social_Comment_ProductQuestion_32px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "Comment_ProductQuestion",
+    "fullpath": "icons/Social_Comment_ProductQuestion_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "Share_TesterView",
+    "fullpath": "icons/Social_Share_TesterView_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "SocialNetwork_Facebook",
+    "fullpath": "icons/Social_SocialNetwork_Facebook_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "SocialNetwork_Instagram",
+    "fullpath": "icons/Social_SocialNetwork_Instagram_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "SocialNetwork_Instagram",
+    "fullpath": "icons/Social_SocialNetwork_Instagram_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "SocialNetwork_Linkedin",
+    "fullpath": "icons/Social_SocialNetwork_Linkedin_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "SocialNetwork_Pinterest",
+    "fullpath": "icons/Social_SocialNetwork_Pinterest_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "SocialNetwork_Pinterest",
+    "fullpath": "icons/Social_SocialNetwork_Pinterest_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "SocialNetwork_Twitter",
+    "fullpath": "icons/Social_SocialNetwork_Twitter_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "SocialNetwork_Youtube",
+    "fullpath": "icons/Social_SocialNetwork_Youtube_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "View_Dislike",
+    "fullpath": "icons/Social_View_Dislike_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "View_Like",
+    "fullpath": "icons/Social_View_Like_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "16px",
+    "name": "View_Star--Empty",
+    "fullpath": "icons/Social_View_Star--Empty_16px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "View_Star--Empty",
+    "fullpath": "icons/Social_View_Star--Empty_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "View_Star--Empty",
+    "fullpath": "icons/Social_View_Star--Empty_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "View_Star--First",
+    "fullpath": "icons/Social_View_Star--First_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "View_Star--First",
+    "fullpath": "icons/Social_View_Star--First_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "16px",
+    "name": "View_Star--Full",
+    "fullpath": "icons/Social_View_Star--Full_16px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "View_Star--Full",
+    "fullpath": "icons/Social_View_Star--Full_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "View_Star--Full",
+    "fullpath": "icons/Social_View_Star--Full_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "16px",
+    "name": "View_Star--Half",
+    "fullpath": "icons/Social_View_Star--Half_16px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "24px",
+    "name": "View_Star--Half",
+    "fullpath": "icons/Social_View_Star--Half_24px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "View_Star--Half",
+    "fullpath": "icons/Social_View_Star--Half_48px.svg"
+  },
+  {
+    "cat": "Social",
+    "size": "48px",
+    "name": "View_TesterView",
+    "fullpath": "icons/Social_View_TesterView_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "32px",
+    "name": "Direction",
+    "fullpath": "icons/Store_Direction_32px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "48px",
+    "name": "Direction",
+    "fullpath": "icons/Store_Direction_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "48px",
+    "name": "Map",
+    "fullpath": "icons/Store_Map_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "32px",
+    "name": "StoreLM",
+    "fullpath": "icons/Store_StoreLM_32px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "48px",
+    "name": "StoreLM",
+    "fullpath": "icons/Store_StoreLM_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "64px",
+    "name": "StoreLM",
+    "fullpath": "icons/Store_StoreLM_64px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "24px",
+    "name": "StoreLocation",
+    "fullpath": "icons/Store_StoreLocation_24px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "32px",
+    "name": "StoreLocation",
+    "fullpath": "icons/Store_StoreLocation_32px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "48px",
+    "name": "StoreLocation",
+    "fullpath": "icons/Store_StoreLocation_48px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Bathroom",
+    "fullpath": "icons/Universe_Bathroom_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Carpentry",
+    "fullpath": "icons/Universe_Carpentry_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "48px",
+    "name": "ConnectedHome",
+    "fullpath": "icons/Universe_ConnectedHome_48px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "ConnectedHome",
+    "fullpath": "icons/Universe_ConnectedHome_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Dressing",
+    "fullpath": "icons/Universe_Dressing_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Electricity",
+    "fullpath": "icons/Universe_Electricity_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Floor",
+    "fullpath": "icons/Universe_Floor_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Garden",
+    "fullpath": "icons/Universe_Garden_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Heater",
+    "fullpath": "icons/Universe_Heater_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Kids",
+    "fullpath": "icons/Universe_Kids_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Kitchen1",
+    "fullpath": "icons/Universe_Kitchen1_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Kitchen2",
+    "fullpath": "icons/Universe_Kitchen2_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Lighting",
+    "fullpath": "icons/Universe_Lighting_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "MakeIt",
+    "fullpath": "icons/Universe_MakeIt_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Paint",
+    "fullpath": "icons/Universe_Paint_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Project",
+    "fullpath": "icons/Universe_Project_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Security",
+    "fullpath": "icons/Universe_Security_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Tool",
+    "fullpath": "icons/Universe_Tool_64px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Account_Profile--View",
+    "fullpath": "icons/User_Account_Profile--View_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Account_Profile--View",
+    "fullpath": "icons/User_Account_Profile--View_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Card_IDCard",
+    "fullpath": "icons/User_Card_IDCard_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Card_LoyaltyCard",
+    "fullpath": "icons/User_Card_LoyaltyCard_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Card_LoyaltyCard",
+    "fullpath": "icons/User_Card_LoyaltyCard_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "64px",
+    "name": "Card_LoyaltyCard",
+    "fullpath": "icons/User_Card_LoyaltyCard_64px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Contact_Phone",
+    "fullpath": "icons/User_Contact_Phone_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Contact_Phone",
+    "fullpath": "icons/User_Contact_Phone_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Contact_Phone",
+    "fullpath": "icons/User_Contact_Phone_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "Bill",
+    "fullpath": "icons/Various_Bill_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "16px",
+    "name": "Breadcrumb",
+    "fullpath": "icons/Various_Breadcrumb_16px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "24px",
+    "name": "Calendar",
+    "fullpath": "icons/Various_Calendar_24px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "32px",
+    "name": "Calendar",
+    "fullpath": "icons/Various_Calendar_32px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "Calendar",
+    "fullpath": "icons/Various_Calendar_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "24px",
+    "name": "Favorite",
+    "fullpath": "icons/Various_Favorite_24px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "Favorite",
+    "fullpath": "icons/Various_Favorite_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "Heat",
+    "fullpath": "icons/Various_Heat_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "64px",
+    "name": "Heat",
+    "fullpath": "icons/Various_Heat_64px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "NoPicture",
+    "fullpath": "icons/Various_NoPicture_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "24px",
+    "name": "PaintCan",
+    "fullpath": "icons/Various_PaintCan_24px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "32px",
+    "name": "PaintCan",
+    "fullpath": "icons/Various_PaintCan_32px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "PaintCan",
+    "fullpath": "icons/Various_PaintCan_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "Receipt",
+    "fullpath": "icons/Various_Receipt_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "SecuredPayment",
+    "fullpath": "icons/Various_SecuredPayment_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "Shutter",
+    "fullpath": "icons/Various_Shutter_48px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "64px",
+    "name": "Shutter",
+    "fullpath": "icons/Various_Shutter_64px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "ToolBox",
+    "fullpath": "icons/Various_ToolBox_48px.svg"
+  }
+]
