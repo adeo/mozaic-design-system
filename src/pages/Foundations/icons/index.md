@@ -222,5 +222,3 @@ The same paddings must be used around the main shape of the icon.
 |---------------------------------------------------|-----------------------------------------------------|
 |![DoSingle](DoSingle.jpg)                          |![DontSingle](DontSingle.jpg                         |
 |An icon is unique                                  |An icon can't be used with another element on top    |
-
-commit
