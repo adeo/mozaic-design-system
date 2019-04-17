@@ -1,6 +1,6 @@
 ---
 title: 'Icons'
-order: 1
+order: 2
 ---
 
 ## 1. Presentation
@@ -46,7 +46,7 @@ Icons are used to illustrate what is going to detailed.
 ## 5. Categories
 Icons library is divided in twelve categories.
 
-| Category name                                             |
+| Category name               |                             |
 | --------------------------- | --------------------------- |
 | 1. Navigation               | 7.User                      |  
 | 2. Product                  | 8. Store                    |
@@ -182,43 +182,50 @@ The same paddings must be used around the main shape of the icon.
 ## 6. Best practices
 
 **Fixed size vs. variable size**
+
 |DO                                                 |DON'T                                       |
 |---------------------------------------------------|--------------------------------------------|
 |![DoSize](DoSize.jpg)                              |![DontSize](DontSize.jpg)                   |
 |An icon must be used in its original size          |An icon can't be used in another size       |
 
 **Geometry vs. organic**
+
 |DO                                                 |DON'T                                        |
 |---------------------------------------------------|---------------------------------------------|
 |![DoGeometry](DoGeometry.jpg)                      |![DontGeometry](DontGeometry.jpg)            |
 |An icon is based on geometric shapes               |An icon is not supposed to represent reality |
 
 **Simple icon vs. complex icon**
+
 |DO                                                 |DON'T                                        |
 |---------------------------------------------------|---------------------------------------------|
 |![DoGeometry](DoGeometry.jpg)                      |![DontDetails](DontDetails.jpg)              |
 |An icon must be as simple as possible              |An icon shouldn't carry too many details     |
 
 **Outlined icon vs. filled icon**
+
 |DO                                                 |DON'T                                                |
 |---------------------------------------------------|-----------------------------------------------------|
 |![DoOutline](DoOutline.jpg)                        |![DontOutline](DontOutline.jpg)                      |
 |Leroy Merlin's icons must be outlined              |An icon in Leroy Merlin's design can't be filled     |
 
 **Outline alignments**
+
 |DO                                                 |DON'T                                                |
 |---------------------------------------------------|-----------------------------------------------------|
 |![DoStack](DoStack.jpg)                            |![DontStack](DontStack.jpg)                          |
 |Lines must be stacked                              |An icon in Leroy Merlin's design can't be filled     |
 
 **Opacity**
+
 |DO                                                 |DON'T                                                |
 |---------------------------------------------------|-----------------------------------------------------|
 |![DoOpacity](DoOpacity.jpg)                        |![DontOpacity](DontOpacity.jpg)                      |
 |An icon uses 100% opacity colors                   |An icon can't use an opacity under 100%              |
 
 **Single icon vs. drawn over**
+
 |DO                                                 |DON'T                                                |
 |---------------------------------------------------|-----------------------------------------------------|
 |![DoSingle](DoSingle.jpg)                          |![DontSingle](DontSingle.jpg                         |
-|An icon is unique                                  |An icon can't be used with another element on top    |
+|An icon is unique                                  |An icon can't be used with another element on top    |
