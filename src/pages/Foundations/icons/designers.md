@@ -191,5 +191,5 @@ The same paddings must be used around the main shape of the icon.
 
 |DO                                                 |DON'T                                                |
 |---------------------------------------------------|-----------------------------------------------------|
-|![DoSingle](DoSingle.jpg)                          |![DontSingle](DontSingle).jpg                         |
+|![DoSingle](DoSingle.jpg)                          |![DontSingle](DontSingle.jpg)                         |
 |An icon is unique                                  |An icon can't be used with another element on top    |
