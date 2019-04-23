@@ -1,6 +1,6 @@
 {
     "name": "css-compiler",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "dependencies": {
         "autoprefixer": "^9.4.3",
         "css-mqpacker": "^7.0.0",
