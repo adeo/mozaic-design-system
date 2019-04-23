@@ -1,0 +1,7 @@
+@function get-border($size) {
+  @if ( variable-exists($name: $size)) {
+    @warn "Border size #{$size} doesn't exist";
+  }
+
+  @return get-token(border, $size) * 1px;
+}

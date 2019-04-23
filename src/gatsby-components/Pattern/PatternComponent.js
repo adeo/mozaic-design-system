@@ -6,7 +6,7 @@ import PatternCodeSample from './PatternCodeSample'
 import PatternToolBar from './PatternToolBar'
 import PatternFrame from './PatternFrame'
 
-import tokensObject from '../../tokens/build/js/tokensObject.js'
+import tokensObject from '@gardencss/tokens/build/js/tokensObject.js'
 
 let viewPorts = {}
 
@@ -181,34 +181,34 @@ export class PatternComponent extends PureComponent {
             </Right>
           </Container>
         ) : (
-          <div ref={contRef => (this.contRef = contRef)}>
-            <PatternToolBar
-              fullScreen={fullScreen}
-              availableWidth={availableWidth}
-              toggleFullScreen={toggleFullScreen}
-              viewport={viewport}
-              viewPorts={ViewPortsObj}
-              changeViewPort={changeViewPort}
-            />
-            <PatternFrame
-              availableWidth={availableWidth}
-              viewport={viewport}
-              viewPorts={ViewPortsObj}
-              fullScreen={fullScreen}
-              data={this.props.data}
-            />
-            <PatternCodeSample
-              fullScreen={fullScreen}
-              pattern={pattern}
-              showCode={this.showCode}
-              currentCodeSample={currentCodeSample}
-              copied={copied}
-              copyCompatible={copyCompatible}
-              copyCodeToClipBoard={this.copyCodeToClipBoard}
-              getLanguage={this.getLanguage}
-            />
-          </div>
-        )}
+            <div ref={contRef => (this.contRef = contRef)}>
+              <PatternToolBar
+                fullScreen={fullScreen}
+                availableWidth={availableWidth}
+                toggleFullScreen={toggleFullScreen}
+                viewport={viewport}
+                viewPorts={ViewPortsObj}
+                changeViewPort={changeViewPort}
+              />
+              <PatternFrame
+                availableWidth={availableWidth}
+                viewport={viewport}
+                viewPorts={ViewPortsObj}
+                fullScreen={fullScreen}
+                data={this.props.data}
+              />
+              <PatternCodeSample
+                fullScreen={fullScreen}
+                pattern={pattern}
+                showCode={this.showCode}
+                currentCodeSample={currentCodeSample}
+                copied={copied}
+                copyCompatible={copyCompatible}
+                copyCodeToClipBoard={this.copyCodeToClipBoard}
+                getLanguage={this.getLanguage}
+              />
+            </div>
+          )}
       </PatternContainer>
     )
   }
