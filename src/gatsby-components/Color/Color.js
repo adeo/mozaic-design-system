@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import React, { PureComponent } from 'react'
 
-import Info from './ColorInfo'
+import Copy from '../Copy'
 
 const Container = styled.div`
   border-radius: 4px;
@@ -24,6 +24,16 @@ const Swatch = styled.div`
     `};
 `
 
+const Label = styled.div`
+  display: inline-block;
+  min-width: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: solid 1px #f5f5f5;
+`
+
 class Color extends PureComponent {
   render() {
     const { color, scss, ios, android, es6 } = this.props
@@ -31,14 +41,20 @@ class Color extends PureComponent {
     return (
       <Container>
         <Swatch color={color} />
-        <Info label="val" value={color} />
-        <Info label="scss" value={scss} />
-        <Info label="ios" value={ios} />
-        <Info label="andr" value={android} />
-        <Info label="es6" value={es6} />
+        <Copy value={color} children={<Value label="val" value={color} />} />
+        <Copy value={scss} children={<Value label="scss" value={scss} />} />
+        <Copy value={ios} children={<Value label="ios" value={ios} />} />
+        <Copy value={android} children={<Value label="andr" value={android} />} />
+        <Copy value={es6} children={<Value label="es6" value={es6} />} />
       </Container>
     )
   }
+}
+
+const Value = ({label, value}) => {
+  return (
+    <span><Label><span>{label}</span></Label><b>{value}</b></span>
+  );
 }
 
 export default Color

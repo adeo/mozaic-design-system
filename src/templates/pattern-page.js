@@ -10,6 +10,7 @@ import Color from '../gatsby-components/Color'
 import Swatch from '../gatsby-components/Swatch'
 import PageTabs from '../gatsby-components/PageTabs'
 import Hint, { HintItem } from '../gatsby-components/Hint'
+import IconViewer from '../gatsby-components/IconViewer'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -34,6 +35,7 @@ export default ({ data, location }) => {
       hintitem: HintItem,
       color: Color,
       swatch: Swatch,
+      iconviewer: IconViewer,
     },
   }).Compiler
 
@@ -78,7 +80,9 @@ export default ({ data, location }) => {
         <FullWidthContainer>
           <Container>
             {hasTabs && <h2>{tabPageTitle}</h2>}
-            <PageContent className="main">{renderAst(post.htmlAst)}</PageContent>
+            <PageContent className="main">
+              {renderAst(post.htmlAst)}
+            </PageContent>
           </Container>
         </FullWidthContainer>
       </div>
