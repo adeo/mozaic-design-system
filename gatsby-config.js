@@ -23,6 +23,15 @@ module.exports = {
     {
       resolve: 'gatsby-github-release',
     },
+
+    'gatsby-transformer-json',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -45,16 +54,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src/`,
+        path: `${__dirname}/src`,
         ignore: [`**/\.pattern.*`], // ignore files starting with a dot
-      },
-    },
-    'gatsby-transformer-json',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
       },
     },
     {
