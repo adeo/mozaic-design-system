@@ -1,23 +1,9 @@
 ---
-title: 'Typography'
+title: 'Code'
 order: 2
 ---
 
-## Base typography classes
-
-> base typography classes are meant to help you use coherents typographic hierarchy accross responsive viewports.
-
-**Base typography classes are composed of :**
-
-- body copy classes : `ga-body-[size]`
-- headings classes : `ga-heading-[size]`
-- a hero classe : `ga-hero`
-
-**Base typography classes defines :**
-
-- font-sizes (that may vary depending on the viewport)
-- line-heights that are optimised for readability and accessibility
-- font-weight (regular or bold)
+## Base text classes
 
 Base typography classes **does not apply any external margins nor font-colors**, because they are contextuals. This mean that **color and margins will be either inherited or applied through new classes** set on your dom elements, depending on their position and usage.
 
@@ -28,11 +14,10 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 @import 'atoms/_a.all-base-typography';
 ```
 
-## Bodys classes
+## Body classes
 
-> the bodys atoms provide basic typographic styles for readable multilines text / paragraphs
-
-They are destined to style paragrahs, or multiline texts.
+> Each body atom come with **a modifier to set the font-weight to 'semi bold'** and **a modifier to use an alternative line-height**.
+> **Body classes font-size do not vary depending on the viewport**, because thoses font-sizes are optimized for any viewport.
 
 #### Import
 
@@ -51,12 +36,6 @@ They are destined to style paragrahs, or multiline texts.
   Lorem ipsum...
 </p>
 ```
-
-### Variations
-
-Body classes are a familly of three atoms with font-sizes (s, m, l).
-Each body atom come with **a modifier to set the font-weight to 'semi bold'** and **a modifier to use an alternative line-height**.
-**Body classes font-size do not vary depending on the viewport**, because thoses font-sizes are optimized for any viewport.
 
 <br>
 
@@ -79,16 +58,11 @@ Each body atom come with **a modifier to set the font-weight to 'semi bold'** an
 
 <br>
 
-## Headings classes
+## Heading classes
 
-> the Headings atoms provide basic typographic styles for headings
-
-They are destined to style mono-line (or few lines) headings to create hierarchy accross multple sections of content.
-
-Headings classes are a familly of three atoms with font-sizes (s, m, l).
-Default lines-heights for the headings familly are set to `M`, witch correspond to a ratio close to 1.35.
-Each heading atom comes with **a modifier to set the font-weight to 'semi bold'** and **a modifier to use an alternative `S` line-height**.
-Headings atoms sizes change at the 'M' viewport, witch correspond to tablet sizes.
+> Default lines-heights for the headings familly are set to `M`, witch correspond to a ratio close to 1.35.
+> Each heading atom comes with **a modifier to set the font-weight to 'semi bold'** and **a modifier to use an alternative `S` line-height**.
+> Headings atoms sizes change at the 'M' viewport, witch correspond to tablet sizes.
 
 #### Import Headings atoms
 
@@ -146,15 +120,11 @@ Headings atoms sizes change at the 'M' viewport, witch correspond to tablet size
 | `.ga-heading-s .ga-heading-s--semi-bold`     | `08` : 28px (1.75mu )  | `M` : 36px (2.25mu) | semi bold |
 | `.ga-heading-s .ga-heading-s--line-height-s` | `08` : 28px (1.75mu )  | `S` : 32px (2mu)    | regular   |
 
-## Hero classe
+## Hero classes
 
-> the Hero atoms provide typographic style for a big main page heading
-
-The hero can't be used in combination with a heading L. They share sizes on some viewports.
-
-Default lines-height for Hero is set to `M`, witch correspond to a ratio close to 1.35.
-Hero classe come with **a modifier to set the font-weight to 'semi bold'** and **a modifier to use an alternative `S` line-height**.
-Hero atoms have multiple changes of font-size across viewport.
+> Default lines-height for Hero is set to `M`, witch correspond to a ratio close to 1.35.
+> Hero classe come with **a modifier to set the font-weight to 'semi bold'** and **a modifier to use an alternative `S` line-height**.
+> Hero atoms have multiple changes of font-size across viewport.
 
 #### Import Hero atom
 
