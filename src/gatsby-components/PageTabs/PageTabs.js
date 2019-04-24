@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { MagicUnit } from '../../tokens/build/js/tokens.js'
+import { MagicUnit } from '@gardencss/tokens/build/js/tokens.js'
 
 const Tabs = styled.div`
   position: sticky;

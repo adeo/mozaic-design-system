@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Color from '../Color'
-import tokens from '../../tokens/build/js/tokensObject.js'
+import tokens from '@gardencss/tokens/build/js/tokensObject.js'
 
 const ColorWrapper = styled.div`
   flex: 0 0 32%;

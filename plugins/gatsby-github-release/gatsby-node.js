@@ -29,7 +29,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
 
     const data = await response.json();
 
-    const version = JSON.parse(fs.readFileSync('registry/package.json'));
+    const version = JSON.parse(fs.readFileSync('package.json'));
 
     const tags = data.data.repository.releases.nodes;
 

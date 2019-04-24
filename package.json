@@ -1,7 +1,7 @@
 {
-  "name": "@captainjojo/garden",
+  "name": "@gardencss/designsystem",
   "description": "leroy merlin design system",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
   "repository": {
     "type": "git",
@@ -10,15 +10,17 @@
   "keywords": [
     "gatsby"
   ],
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=10"
   },
   "dependencies": {
-    "autoprefixer": "^9.4.3",
     "babel-plugin-styled-components": "^1.8.0",
     "chokidar": "^1.7.0",
-    "css-mqpacker": "^7.0.0",
     "directory-tree": "^2.1.0",
     "gatsby": "^2.0.19",
     "gatsby-plugin-manifest": "^2.0.5",
@@ -35,10 +37,6 @@
     "gatsby-transformer-remark": "^2.1.7",
     "gatsby-transformer-sharp": "^2.1.6",
     "node-sass": "^4.9.4",
-    "postcss": "^7.0.7",
-    "postcss-node-sass": "^2.1.8",
-    "postcss-reporter": "^6.0.0",
-    "postcss-scss": "^2.0.0",
     "prism-themes": "^1.0.1",
     "prismjs": "^1.15.0",
     "react": "^16.5.1",
@@ -47,9 +45,6 @@
     "rehype-react": "^3.0.3",
     "style-dictionary": "^2.6.2",
     "styled-components": "^4.0.2",
-    "stylelint": "^9.9.0",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-scss": "^3.4.1",
     "xstate": "^3.1.0"
   },
   "devDependencies": {
@@ -60,12 +55,12 @@
     "prettier": "^1.14.2"
   },
   "scripts": {
-    "tokens:build": "npx style-dictionary build --config ./src/tokens/config.js",
-    "tokens:clean": "npx style-dictionary clean --config ./src/tokens/config.js",
+    "tokens:build": "npx style-dictionary build --config ./packages/tokens/config.js",
+    "tokens:clean": "npx style-dictionary clean --config ./packages/tokens/config.js",
     "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
     "clean-cache": "rm -rf ./.cache ./public",
-    "css:fix": "npx stylelint npx stylelint src/patterns/**/*.scss src/styles/**/*.scss --fix",
-    "css:lint": "npx stylelint npx stylelint src/patterns/**/*.scss src/styles/**/*.scss",
+    "css:fix": "npx stylelint npx stylelint src/patterns/**/*.scss packages/styles/**/*.scss --fix",
+    "css:lint": "npx stylelint npx stylelint src/patterns/**/*.scss packages/styles/**/*.scss",
     "prebuild": "yarn tokens:build",
     "build": "gatsby build",
     "develop": "gatsby develop",

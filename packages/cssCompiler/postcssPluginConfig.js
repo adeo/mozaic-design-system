@@ -10,7 +10,7 @@ const styleLintConfig = require('./styleLintConfig')
 const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),
-  nodeSass({ includePaths: ['src/styles/'] }),
+  nodeSass({ includePaths: ['node_modules/@gardencss/styles/'] }),
   mqpacker({ sort: true }),
   autoprefixer({
     grid: 'autoplace',
