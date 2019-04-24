@@ -69,14 +69,9 @@ export default ({ data, location }) => {
             <h1>{parentTitle}</h1>
           </Container>
         </FullWidthContainer>
-        {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
 
         <FullWidthContainer>
           <Container>
-<<<<<<< HEAD
-            {hasTabs && <h2>{tabPageTitle}</h2>}
-=======
->>>>>>> refactor(pattern/buttons): use new template to refactor page
             <PageContent className="main">
               {renderAst(post.htmlAst)}
             </PageContent>
