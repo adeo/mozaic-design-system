@@ -10,16 +10,16 @@ action "not master" {
   args = "not branch master"
 }
 
-action "Npm install" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+action "Npm lerna" {
+  uses = "nuxt/actions-yarn@master"
   needs = ["not master"]
-  args = "install"
+  args = "lerna"
 }
 
 action "npm build" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  needs = ["Npm install"]
-  args = "run build"
+  uses = "nuxt/actions-yarn@master"
+  needs = ["Npm lerna"]
+  args = "build"
 }
 
 action "npm test" {
@@ -52,12 +52,12 @@ workflow "Release" {
 }
 
 action "Npm install release" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  uses = "actions/npm@master"
   args = "install"
 }
 
 action "npm build release" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  uses = "actions/npm@master"
   needs = ["Npm install release"]
   args = "run build"
 }
@@ -81,13 +81,13 @@ action "Deployement tag url" {
 }
 
 action "npm registry" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  uses = "actions/npm@master"
   needs = ["Deployement tag url"]
   args = "run registry"
 }
 
 action "Npm publish" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  uses = "actions/npm@master"
   needs = ["npm registry"]
   secrets = ["NPM_AUTH_TOKEN"]
   args = "publish registry --access public"

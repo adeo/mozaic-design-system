@@ -75,6 +75,7 @@
     "icons:datas": "node iconCompiler/generateIconsDatas.js",
     "icons:build": "yarn icons:clean && yarn icons:datas",
     "prebuild": "yarn tokens:build && yarn icons:build",
+    "lerna": "npx lerna clean -y && npx lerna bootstrap",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
