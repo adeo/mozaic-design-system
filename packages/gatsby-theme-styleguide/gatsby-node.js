@@ -43,7 +43,12 @@ exports.createPages = ({ graphql, actions }) => {
         res.data.allMarkdownRemark.edges.map(({ node }) => {
           createPage({
             path: node.fields.slug,
-            component: path.resolve(`./src/templates/pattern-page.js`),
+            component: path.join(
+              __dirname,
+              'src',
+              'templates',
+              'pattern-page.js'
+            ),
             context: {
               // Data passed to context is available
               // in page queries as GraphQL variables.
@@ -55,7 +60,7 @@ exports.createPages = ({ graphql, actions }) => {
         resolve()
       })
       .catch(err => {
-        console.log(err)
+        reject(err)
       })
   )
 }

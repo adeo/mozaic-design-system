@@ -1,8 +1,7 @@
-const dirTree = require('directory-tree');
+const dirTree = require('directory-tree')
 const chokidar = require(`chokidar`)
 const fs = require(`fs`)
 const { Machine } = require(`xstate`)
-
 
 const createFSMachine = () =>
   Machine({
@@ -35,7 +34,10 @@ const createFSMachine = () =>
     },
   })
 
-exports.sourceNodes = ({ actions, createNodeId, createContentDigest, reporter, emitter }, configOptions) => {
+exports.sourceNodes = (
+  { actions, createNodeId, createContentDigest, reporter, emitter },
+  configOptions
+) => {
   const fsMachine = createFSMachine()
   let currentState = fsMachine.initialState
 
@@ -46,12 +48,7 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest, reporter, e
     )
   })
 
-  const watcher = chokidar.watch(
-    [configOptions.path],
-    {}
-  )
-
-
+  const watcher = chokidar.watch([configOptions.path], {})
 
   // Gatsby adds a configOption that's not needed for this plugin, delete it
   delete configOptions.plugins
@@ -59,53 +56,57 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest, reporter, e
   const buildSourceDirectoryTree = () =>
     new Promise((resolve, reject) => {
       const { createNode } = actions
-      const tree = dirTree(configOptions.path);
+      const tree = dirTree(configOptions.path)
       const processDirectoryTree = (tree, parentNode) => {
         const nodeId = createNodeId(`directory-tree-${tree.path}`)
 
-        const { path, name, size, type } = tree;
-        let childrenNode = [];
+        const { path, name, size, type } = tree
+        let childrenNode = []
 
-        let nodeData = Object.assign({}, { path, name, size, type }, {
-          'id': nodeId,
-          parentNode,
-          path,
-          name,
-          size,
-          type,
-          childrenNode,
-          'internal': {
-            'type': `DirectoryTree`,
-            'content': JSON.stringify({ path, name, size, type }),
-            'contentDigest': createContentDigest({ path, name, size, type }),
+        let nodeData = Object.assign(
+          {},
+          { path: path.replace(process.cwd(), ''), name, size, type },
+          {
+            id: nodeId,
+            parentNode,
+            path,
+            name,
+            size,
+            type,
+            childrenNode,
+            internal: {
+              type: `DirectoryTree`,
+              content: JSON.stringify({ path, name, size, type }),
+              contentDigest: createContentDigest({ path, name, size, type }),
+            },
           }
-        });
+        )
 
         if (tree.children) {
-          childrenNode = processChildren(tree.children, nodeData);
-          nodeData.childrenNode = childrenNode;
+          childrenNode = processChildren(tree.children, nodeData)
+          nodeData.childrenNode = childrenNode
         }
 
-        return nodeData;
+        return nodeData
       }
 
       const processChildren = (children, parentNode) => {
-        let childrenNodes = [];
+        let childrenNodes = []
         children.forEach(element => {
-          const nodeData = processDirectoryTree(element, parentNode);
-          createNode(nodeData);
+          const nodeData = processDirectoryTree(element, parentNode)
+          createNode(nodeData)
 
-          const { path, name, size, type, id, childrenNode } = nodeData;
-          childrenNodes.push({ path, name, size, type, id, childrenNode });
-        });
+          const { path, name, size, type, id, childrenNode } = nodeData
+          childrenNodes.push({ path, name, size, type, id, childrenNode })
+        })
 
-        return childrenNodes;
+        return childrenNodes
       }
 
-      const nodeData = processDirectoryTree(tree);
+      const nodeData = processDirectoryTree(tree)
 
-      resolve(createNode(nodeData));
-    });
+      resolve(createNode(nodeData))
+    })
 
   // For every path that is reported before the 'ready' event, we throw them
   // into a queue and then flush the queue when 'ready' event arrives.
@@ -185,4 +186,3 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest, reporter, e
     })
   })
 }
-
