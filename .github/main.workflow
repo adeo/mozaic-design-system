@@ -11,21 +11,21 @@ action "not master" {
 }
 
 action "Npm install" {
-  uses = "actions/npm@master"
+  uses = "nuxt/actions-yarn@master"
   needs = ["not master"]
   args = "install"
 }
 
 action "Npm lerna" {
-  uses = "actions/npm@master"
+  uses = "nuxt/actions-yarn@master"
   needs = ["Npm install"]
-  args = "run lerna"
+  args = "lerna"
 }
 
 action "npm build" {
-  uses = "actions/npm@master"
+  uses = "nuxt/actions-yarn@master"
   needs = ["Npm lerna"]
-  args = "run build"
+  args = "build"
 }
 
 action "GCP auth" {
