@@ -61,6 +61,7 @@
     "clean-cache": "rm -rf ./.cache ./public",
     "css:fix": "npx stylelint npx stylelint src/patterns/**/*.scss packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint npx stylelint src/patterns/**/*.scss packages/styles/**/*.scss",
+    "lerna": "npx lerna clean -y && npx lerna bootstrap",
     "prebuild": "yarn tokens:build",
     "build": "gatsby build",
     "develop": "gatsby develop",
