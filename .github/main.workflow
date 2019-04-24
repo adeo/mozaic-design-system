@@ -10,15 +10,9 @@ action "not master" {
   args = "not branch master"
 }
 
-action "Npm install" {
-  uses = "nuxt/actions-yarn@master"
-  needs = ["not master"]
-  args = "install"
-}
-
 action "Npm lerna" {
   uses = "nuxt/actions-yarn@master"
-  needs = ["Npm install"]
+  needs = ["not master"]
   args = "lerna"
 }
 
