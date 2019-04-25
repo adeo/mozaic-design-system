@@ -132,7 +132,7 @@ exports.sourceNodes = (
   const flushPathQueue = () => {
     let queue = pathQueue.slice()
     pathQueue = []
-    return Promise.all(queue.map(buildPattern))
+    return Promise.all(queue.map(buildPattern));
   }
 
   watcher.on(`add`, path => {
@@ -199,6 +199,7 @@ exports.sourceNodes = (
   return new Promise((resolve, reject) => {
     watcher.on(`ready`, () => {
       currentState = fsMachine.transition(currentState.value, `CHOKIDAR_READY`)
+      pathQueue.push('test');
       flushPathQueue().then(resolve, reject)
     })
   })
