@@ -42,7 +42,7 @@ action "Deployement url" {
 
 workflow "Release" {
   on = "release"
-  resolves = ["Npm publish"]
+  resolves = ["Deployement tag url"]
 }
 
 action "Npm install release" {
