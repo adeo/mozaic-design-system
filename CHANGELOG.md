@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.1](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.0...v1.0.1-alpha.1) (2019-04-25)
+
+
+### Bug Fixes
+
+* **version:** change version of lerna ([1b0e550](https://github.com/adeo/design-system--styleguide/commit/1b0e550))
+* **version:** change version of lerna ([93a5df8](https://github.com/adeo/design-system--styleguide/commit/93a5df8))
+
+
+### Features
+
+* **build:** not create registry ([1f67124](https://github.com/adeo/design-system--styleguide/commit/1f67124))
+* **build:** not create registry ([ea2c21c](https://github.com/adeo/design-system--styleguide/commit/ea2c21c))
+* **packages:** rename packages ([426d93a](https://github.com/adeo/design-system--styleguide/commit/426d93a))
+
+
+
+
+
 ## [1.0.1-alpha.0](https://github.com/adeo/design-system--styleguide/compare/v0.0.11...v1.0.1-alpha.0) (2019-04-25)
 
 

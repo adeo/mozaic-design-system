@@ -1,13 +1,13 @@
 {
   "name": "@gardencss/gatsby-theme-styleguide",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1-alpha.1",
   "main": "index.js",
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "license": "MIT",
   "dependencies": {
     "@gardencss/gatsby-github-release": "^1.0.1-alpha.0",
     "@gardencss/gatsby-source-directory-tree": "^1.0.1-alpha.0",
-    "@gardencss/gatsby-source-pattern": "^1.0.1-alpha.0"
+    "@gardencss/gatsby-source-pattern": "^1.0.1-alpha.1"
   },
   "peerDependencies": {
     "chokidar": "^1.7.0",
