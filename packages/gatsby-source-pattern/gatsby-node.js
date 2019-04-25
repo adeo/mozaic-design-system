@@ -53,7 +53,7 @@ exports.sourceNodes = (
   })
 
   const watcher = chokidar.watch(
-    [configOptions.path, configOptions.stylesPath],
+    [configOptions.path],
     {}
   )
 
@@ -130,9 +130,10 @@ exports.sourceNodes = (
   // After 'ready', we handle the 'add' event without putting it into a queue.
   let pathQueue = []
   const flushPathQueue = () => {
+
     let queue = pathQueue.slice()
     pathQueue = []
-    return Promise.all(queue.map(buildPattern))
+    return Promise.all([buildPattern()])
   }
 
   watcher.on(`add`, path => {
