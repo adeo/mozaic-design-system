@@ -7,20 +7,20 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
-      resolve: '@captainjojo/gatsby-source-pattern',
+      resolve: '@gardencss/gatsby-source-pattern',
       options: {
         path: path.join('src', 'patterns'),
         stylesPath: path.join('src', 'styles'),
       },
     },
     {
-      resolve: '@captainjojo/gatsby-source-directory-tree',
+      resolve: '@gardencss/gatsby-source-directory-tree',
       options: {
         path: path.join('src', 'pages'),
       },
     },
     {
-      resolve: '@captainjojo/gatsby-github-release',
+      resolve: '@gardencss/gatsby-github-release',
     },
     {
       resolve: `gatsby-plugin-sass`,

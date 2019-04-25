@@ -1,13 +1,13 @@
 {
-  "name": "@captainjojo/gatsby-theme-styleguide",
+  "name": "@gardencss/gatsby-theme-styleguide",
   "version": "0.2.0",
   "main": "index.js",
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "license": "MIT",
   "dependencies": {
-    "@captainjojo/gatsby-source-pattern": "^0.2.0",
-    "@captainjojo/gatsby-github-release": "^0.2.0",
-    "@captainjojo/gatsby-source-directory-tree": "^0.2.0"
+    "@gardencss/gatsby-source-pattern": "^0.2.0",
+    "@gardencss/gatsby-github-release": "^0.2.0",
+    "@gardencss/gatsby-source-directory-tree": "^0.2.0"
   },
   "peerDependencies": {
     "gatsby": "^2.0.19",

@@ -3,6 +3,6 @@ module.exports = {
     title: 'Multi BU',
   },
   __experimentalThemes: [
-    { resolve: '@captainjojo/gatsby-theme-styleguide', options: {} },
+    { resolve: '@gardencss/gatsby-theme-styleguide', options: {} },
   ],
 }

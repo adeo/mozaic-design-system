@@ -19,7 +19,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@captainjojo/gatsby-theme-styleguide": "^0.2.0",
+    "@gardencss/gatsby-theme-styleguide": "^0.2.0",
     "autoprefixer": "^9.4.3",
     "babel-plugin-styled-components": "^1.8.0",
     "chokidar": "^1.7.0",
