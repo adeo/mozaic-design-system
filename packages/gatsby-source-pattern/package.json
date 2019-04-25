@@ -1,6 +1,6 @@
 {
   "name": "@gardencss/gatsby-source-pattern",
-  "version": "0.2.0",
+  "version": "1.0.1-alpha.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "directory-tree": "^2.1.0",
     "chokidar": "^1.7.0",
+    "directory-tree": "^2.1.0",
     "xstate": "^3.1.0"
   }
 }

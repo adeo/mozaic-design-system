@@ -1,3 +1,3 @@
 'use strict'
 
-module.exports = require('@gardencss/css-compiler/styleLintConfig.js')
+module.exports = require('@gardencss/css-dev-tools/styleLintConfig.js')
