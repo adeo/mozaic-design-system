@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: '@gardencss/gatsby-source-pattern',
       options: {
-        path: "src/patterns",
-        stylesPath: "packages/styles",
+        path: 'src/patterns',
+        stylesPath: 'packages/styles',
       },
     },
     {

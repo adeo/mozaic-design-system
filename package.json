@@ -81,7 +81,7 @@
     "lerna": "npx lerna clean -y && npx lerna bootstrap",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build && yarn lerna",
+    "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
     "format": "prettier --write '**/*.js'",
     "test": "jest",
     "registry": "cp -R src/styles registry && cp -R src/tokens registry && cp -R cssCompiler registry && cp -R static registry"

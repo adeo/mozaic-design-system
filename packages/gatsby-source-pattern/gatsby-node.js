@@ -14,23 +14,23 @@ const createFSMachine = () =>
     strict: true,
     states: {
       CHOKIDAR: {
-        initial: `CHOKIDAR_NOT_READY`,
+        initial: `CHOKIDAR_PATTERN_NOT_READY`,
         states: {
-          CHOKIDAR_NOT_READY: {
+          CHOKIDAR_PATTERN_NOT_READY: {
             on: {
-              CHOKIDAR_READY: `CHOKIDAR_WATCHING`,
-              BOOTSTRAP_FINISHED: `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`,
+              CHOKIDAR_PATTERN_READY: `CHOKIDAR_PATTERN_WATCHING`,
+              BOOTSTRAP_FINISHED: `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`,
             },
           },
-          CHOKIDAR_WATCHING: {
+          CHOKIDAR_PATTERN_WATCHING: {
             on: {
-              BOOTSTRAP_FINISHED: `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`,
-              CHOKIDAR_READY: `CHOKIDAR_WATCHING`,
+              BOOTSTRAP_FINISHED: `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`,
+              CHOKIDAR_PATTERN_READY: `CHOKIDAR_PATTERN_WATCHING`,
             },
           },
-          CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED: {
+          CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED: {
             on: {
-              CHOKIDAR_READY: `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`,
+              CHOKIDAR_PATTERN_READY: `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`,
             },
           },
         },
@@ -74,11 +74,11 @@ exports.sourceNodes = (
 
           if (patterns[naming[0]] === undefined) {
             patterns[naming[0]] = {
-              html: null,
-              css: null,
-              scss: null,
-              json: null,
-              js: null,
+              html: '',
+              css: '',
+              scss: '',
+              json: '',
+              js: '',
             }
           }
           patterns[naming[0]][naming[2]] = content
@@ -113,14 +113,30 @@ exports.sourceNodes = (
         const nodeId = createNodeId(`pattern-${key}`)
 
         if (codes.scss && codes.scss !== '') {
-          cssCompiler(codes.scss, key, key.replace('.scss', '.css')).then(
-            res => {
+          cssCompiler(codes.scss, key, key.replace('.scss', '.css'))
+            .then(res => {
               codes.css = res.css
-              resolve(createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/'))))
-            }
-          ).catch(error => resolve(createNode(buildNodeData(nodeId, { html: error, css: '' }, key.replace(/\\/g, '/')))))
+              resolve(
+                createNode(
+                  buildNodeData(nodeId, codes, key.replace(/\\/g, '/'))
+                )
+              )
+            })
+            .catch(error =>
+              resolve(
+                createNode(
+                  buildNodeData(
+                    nodeId,
+                    { html: error, css: '' },
+                    key.replace(/\\/g, '/')
+                  )
+                )
+              )
+            )
         } else {
-          resolve(createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/'))))
+          resolve(
+            createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/')))
+          )
         }
       })
     })
@@ -132,13 +148,14 @@ exports.sourceNodes = (
   const flushPathQueue = () => {
     let queue = pathQueue.slice()
     pathQueue = []
-    return Promise.all(queue.map(buildPattern));
+    return Promise.all(queue.map(buildPattern))
   }
 
   watcher.on(`add`, path => {
-    if (currentState.value.CHOKIDAR !== `CHOKIDAR_NOT_READY`) {
+    if (currentState.value.CHOKIDAR !== `CHOKIDAR_PATTERN_NOT_READY`) {
       if (
-        currentState.value.CHOKIDAR === `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`
+        currentState.value.CHOKIDAR ===
+        `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`
       ) {
         reporter.info(`added pattern file at ${path}`)
       }
@@ -150,7 +167,8 @@ exports.sourceNodes = (
 
   watcher.on(`change`, path => {
     if (
-      currentState.value.CHOKIDAR === `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`
+      currentState.value.CHOKIDAR ===
+      `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`
     ) {
       reporter.info(`changed pattern file at ${path}`)
     }
@@ -159,7 +177,8 @@ exports.sourceNodes = (
 
   watcher.on(`unlink`, path => {
     if (
-      currentState.value.CHOKIDAR === `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`
+      currentState.value.CHOKIDAR ===
+      `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`
     ) {
       reporter.info(`pattern file deleted at ${path}`)
     }
@@ -172,9 +191,10 @@ exports.sourceNodes = (
   })
 
   watcher.on(`addDir`, path => {
-    if (currentState.value.CHOKIDAR !== `CHOKIDAR_NOT_READY`) {
+    if (currentState.value.CHOKIDAR !== `CHOKIDAR_PATTERN_NOT_READY`) {
       if (
-        currentState.value.CHOKIDAR === `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`
+        currentState.value.CHOKIDAR ===
+        `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`
       ) {
         reporter.info(`added directory at ${path}`)
       }
@@ -186,7 +206,8 @@ exports.sourceNodes = (
 
   watcher.on(`unlinkDir`, path => {
     if (
-      currentState.value.CHOKIDAR === `CHOKIDAR_WATCHING_BOOTSTRAP_FINISHED`
+      currentState.value.CHOKIDAR ===
+      `CHOKIDAR_PATTERN_WATCHING_BOOTSTRAP_FINISHED`
     ) {
       reporter.info(`pattern directory deleted at ${path}`)
     }
@@ -198,8 +219,11 @@ exports.sourceNodes = (
 
   return new Promise((resolve, reject) => {
     watcher.on(`ready`, () => {
-      currentState = fsMachine.transition(currentState.value, `CHOKIDAR_READY`)
-      pathQueue.push('test');
+      currentState = fsMachine.transition(
+        currentState.value,
+        `CHOKIDAR_PATTERN_READY`
+      )
+      pathQueue.push('test')
       flushPathQueue().then(resolve, reject)
     })
   })
