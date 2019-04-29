@@ -3,7 +3,7 @@ title: 'Cheat Sheet'
 order: 2
 ---
 
-<pattern path="src/patterns/exemple/--magic-unit/magic-unit"></pattern>
+<pattern path="src/patterns/--magic-unit/magic-unit"></pattern>
 
 <br><br>
 

@@ -20,7 +20,7 @@ In the folowing exemple, we see a **grid in the background that is based on the 
 We can see the red squares snaping to the magic unit grid.
 By **hovering the squares**, you can see how we used the magic unit and the conrresponding values in Px :
 
-<pattern path="src/patterns/exemple/--magic-unit/magic-unit"></pattern>
+<pattern path="src/patterns/--magic-unit/magic-unit"></pattern>
 
 <br><br>
 

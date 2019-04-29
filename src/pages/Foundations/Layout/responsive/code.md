@@ -21,7 +21,7 @@ use the set-from-screen mixin in with a screen map key to create a media querie
 }
 ```
 
-<pattern path="src/patterns/exemple/--responsive/responsive"></pattern>
+<pattern path="src/patterns/--responsive/responsive"></pattern>
 
 <br>
 
