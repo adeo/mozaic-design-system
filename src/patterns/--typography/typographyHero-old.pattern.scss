@@ -1,9 +1,6 @@
 @import 'settings-tools/_all-settings';
 @import 'atoms/_a.heros';
 
-// for example purpose only
-@import 'layouts/_l.flexy';
-
 .example {
   padding: $mu200;
   max-width: magic-unit-rem(38);

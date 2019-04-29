@@ -37,10 +37,6 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 </p>
 ```
 
-<br>
-
-<pattern path="src/patterns/--typography/typographyBody"></pattern>
-
 | Class names                            | font-size (any viewport) | line-height          | weight    |
 | -------------------------------------- | ------------------------ | -------------------- | --------- |
 | **body L**                             |
@@ -81,8 +77,6 @@ You can import all base typography scss files by importing the `_a.all-base-typo
   Lorem ipsum...
 </p>
 ```
-
-<pattern path="src/patterns/--typography/typographyHeadings"></pattern>
 
 **Viewport < M (576px) :**
 
@@ -143,8 +137,6 @@ You can import all base typography scss files by importing the `_a.all-base-typo
   Lorem ipsum...
 </p>
 ```
-
-<pattern path="src/patterns/--typography/typographyHero"></pattern>
 
 **Viewport < M (576px) :**
 

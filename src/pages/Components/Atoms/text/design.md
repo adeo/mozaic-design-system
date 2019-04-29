@@ -13,6 +13,22 @@ As a resultat, we split our text classes into three separate files.
 
 ##Sketch files :
 
+| **[BA] Body.sketch** |                 |
+| -------------------- | --------------- |
+| All viewports :      | 01-Small--14    |
+|                      | 02-Medium--16px |
+|                      | 03-Large--18px  |
+
+| **[BA] Heading.sketch** |                 |
+| ----------------------- | --------------- |
+| Desktop :               | 01-Small--28px  |
+|                         | 02-Medium--34px |
+|                         | 03-Large--41px  |
+|                         |                 |
+| Mobile :                | 01-Small--23px  |
+|                         | 02-Medium--28px |
+|                         | 03-Large--34px  |
+
 - ###[BA] Body.sketch
   - 01-Small--14px
   - 02-Medium--16px
@@ -38,5 +54,3 @@ As a resultat, we split our text classes into three separate files.
   - 04-Screen-XL--59px
 
 <br>
-
-> [Download the UI Kit here](https://github.com/adeo/design-system--design-files/)
