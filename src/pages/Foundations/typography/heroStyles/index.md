@@ -19,9 +19,9 @@ Hero styles are patterns meant to help you use consistent typographic hierarchy 
 
 Each body pattern comes with a modifier to set the font-weight to **'semi bold'** and a modifier to use an alternative **line-height**.
 
-|                                                                     |                                                                                                                                                                                                           |
-| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <pattern path="src/patterns/--typography/typographyHero"></pattern> | **Hero** <br> Viewport < M (576px) : 34px (2.125mu ) <br> Viewport >= M (576px) : 41px (2.5625mu) <br> Viewport >= L (1100px) : 49px (3.0625mu) <br> Viewport >= L-MEDIUM (1440px) : 59px (3.6875mu) <br> |
+|                                                                                         |                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <pattern path="src/pages/Foundations/Typography/--heroStyles/typographyHero"></pattern> | **Hero** <br> Viewport < M (576px) : 34px (2.125mu ) <br> Viewport >= M (576px) : 41px (2.5625mu) <br> Viewport >= L (1100px) : 49px (3.0625mu) <br> Viewport >= L-MEDIUM (1440px) : 59px (3.6875mu) <br> |
 
 ## Do's and don'ts
 

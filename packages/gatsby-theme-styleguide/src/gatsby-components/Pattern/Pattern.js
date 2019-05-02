@@ -15,17 +15,30 @@ class Pattern extends PureComponent {
   }
 
   pickPattern = data => {
-    const pattern = data.allPattern.edges.find(item => {
-      return item.node.path === this.props.path
-    })
+    const pattern = data.allPattern.edges.find(
+      item => item.node.path === this.props.path
+    )
 
-    const cleannedPattern = {
+    if (!pattern) {
+      console.log('pattern not found : ' + this.props.path)
+
+      return {
+        node: {
+          codes: {
+            html: 'not found',
+            css: 'body { color: red }',
+            scss: '/* not found */',
+          },
+        },
+      }
+    }
+
+    return {
       node: {
         ...pattern.node,
         codes: this.cleanEmptyCode(pattern),
       },
     }
-    return cleannedPattern
   }
 
   getAvailableSpace = width => {

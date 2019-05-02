@@ -37,7 +37,7 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 </p>
 ```
 
-<pattern path="src/patterns/--typography/typographyBody-variations"></pattern>
+<pattern path="src/pages/Typography/bodyStyles/--bodyStyles/typographyBody-variations"></pattern>
 
 | Class names                            | font-size (any viewport) | line-height          | weight    |
 | -------------------------------------- | ------------------------ | -------------------- | --------- |

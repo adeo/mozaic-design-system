@@ -19,8 +19,8 @@ Heading styles are patterns meant to help you use consistent typographic hierarc
 
 Each body pattern comes with a modifier to set the font-weight to **'semi bold'** and a modifier to use an alternative **line-height**.
 
-|                                                                              |                                                                                                           |
-| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| <pattern path="src/patterns/--typography/typographyHeadingSmall"></pattern>  | **Heading Small** <br> Viewport < M (576px) : 23px (1.4375mu) <br> Viewport >= M (576px) : 28px (1.75mu)  |
-| <pattern path="src/patterns/--typography/typographyHeadingMedium"></pattern> | **Heading Medium** <br> Viewport < M (576px) : 28px (1.75mu) <br> Viewport >= M (576px) : 34px (2.125mu ) |
-| <pattern path="src/patterns/--typography/typographyHeadingLarge"></pattern>  | **Heading Large** <br> Viewport < M (576px) : 34px (2.125mu) <br> Viewport >= M (576px) : 41px (2.5625mu) |
+|                                                                                                     |                                                                                                           |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| <pattern path="src/pages/Foundations/Typography/--headingStyles/typographyHeadingSmall"></pattern>  | **Heading Small** <br> Viewport < M (576px) : 23px (1.4375mu) <br> Viewport >= M (576px) : 28px (1.75mu)  |
+| <pattern path="src/pages/Foundations/Typography/--headingStyles/typographyHeadingMedium"></pattern> | **Heading Medium** <br> Viewport < M (576px) : 28px (1.75mu) <br> Viewport >= M (576px) : 34px (2.125mu ) |
+| <pattern path="src/pages/Foundations/Typography/--headingStyles/typographyHeadingLarge"></pattern>  | **Heading Large** <br> Viewport < M (576px) : 34px (2.125mu) <br> Viewport >= M (576px) : 41px (2.5625mu) |

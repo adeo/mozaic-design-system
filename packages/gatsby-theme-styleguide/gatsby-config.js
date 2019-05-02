@@ -2,14 +2,12 @@ const path = require('path')
 
 module.exports = {
   plugins: [
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
       resolve: '@gardencss/gatsby-source-pattern',
       options: {
-        path: 'src/patterns',
+        path: 'src/pages',
         stylesPath: 'packages/styles',
       },
     },
@@ -24,9 +22,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sass`,
-      options: {
-        includePaths: ['src/pages/**/*.scss'],
-      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -53,12 +48,7 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-component',
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 760,
-            },
-          },
+          'gatsby-remark-static-images',
           'gatsby-remark-prismjs',
         ],
       },

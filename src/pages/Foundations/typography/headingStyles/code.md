@@ -38,7 +38,7 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 </p>
 ```
 
-<pattern path="src/patterns/--typography/typographyHeading-variations"></pattern>
+<pattern path="src/pages/Foundations/Typography/--headingStyles/typographyHeading-variations"></pattern>
 
 **Viewport < M (576px) :**
 

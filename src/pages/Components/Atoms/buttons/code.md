@@ -18,11 +18,17 @@ To create a solid button apply the `ga-button` class :
 <a href="#" class="ga-button">Label</a>
 ```
 
+<<<<<<< HEAD
 <pattern path="src/patterns/--button/basic"></pattern>
 
 ## Variations
 
 ### Available themes
+
+=======
+<pattern path="src/pages/Components/Atoms/buttons/--button/intro"></pattern>
+
+> > > > > > > feat(styleguide/patterns): clean patterns and allow local usage
 
 - `solid`
 - `bordered`
@@ -40,7 +46,7 @@ example :
 <a href="#" class="ga-button ga-button--bordered-primary-campus">Button</a>
 ```
 
-<pattern path="src/patterns/--button/button-styles"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/--button/button-styles"></pattern>
 
 ### Available sizes
 
@@ -56,7 +62,7 @@ You can use one of the 3 available sizes :
 <a href="#" class="ga-button ga-button--large">Button</a>
 ```
 
-<pattern path="src/patterns/--button/button-sizes"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/--button/button-sizes"></pattern>
 
 #### Responsive classes
 
@@ -96,7 +102,9 @@ Standard button states :
 - `focus`
 - `disabled`
 
-buttons have 2 availables width variant :
+<pattern path="src/pages/Components/Atoms/buttons/--button/button-state"></pattern>
+
+## Available widths
 
 - `ga-button--fit` : Applied by default / fit the button's content size
 - `ga-button--full` : Fill the available width

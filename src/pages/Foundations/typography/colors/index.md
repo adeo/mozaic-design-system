@@ -11,7 +11,7 @@ For common usage the following text color are allowed
 
 <br>
 
-<pattern path="src/patterns/--font-colors/font-colors"></pattern>
+<pattern path="src/pages/Foundations/Typography/colors/--font-colors/font-colors"></pattern>
 
 <br><br>
 
