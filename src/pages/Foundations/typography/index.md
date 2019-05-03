@@ -3,8 +3,14 @@ title: 'Typography'
 order: 6
 ---
 
-### [fonts faces](/Foundations/typography/fontFamillies/)
+### [Fonts faces](/Foundations/typography/fontFamilies/)
 
-### [scales, sizes and line-heights](/Foundations/typography/scaleAndSizes/)
+### [Scales, sizes and line-heights](/Foundations/typography/scaleAndSizes/)
 
-### [colors](/Foundations/typography/colors/)
+### [Colors](/Foundations/typography/colors/)
+
+### [Body styles](/Foundations/typography/bodyStyles/)
+
+### [Heading styles](/Foundations/typography/headingStyles/)
+
+### [Hero styles](/Foundations/typography/heroStyles/)

@@ -7,20 +7,20 @@ order: 2
 
 <pattern path="src/patterns/--font-scale/font-scale"></pattern>
 
-| Id     | value           | mobile usage | desktop usage | token          |
-| ------ | --------------- | ------------ | ------------- | -------------- |
-| **01** | 11px (0.6815mu) | micro copy s | micro copy s  | `size.font.01` |
-| **02** | 12px (0.75mu)   | micro copy m | micro copy m  | `size.font.02` |
-| **03** | 13px (0.8125mu) | body s       | micro copy l  | `size.font.03` |
-| **04** | 14px (0.875mu)  | body std     | body s        | `size.font.04` |
-| **05** | 16px (1mu)      | body l       | body std      | `size.font.05` |
-| **06** | 18px (1.125mu)  | --           | body l        | `size.font.06` |
-| **07** | 23px (1.4375mu) | heading s    | --            | `size.font.07` |
-| **08** | 28px (1.75mu)   | heading m    | heading s     | `size.font.08` |
-| **09** | 34px (2.125mu)  | heading l    | heading m     | `size.font.09` |
-| **10** | 41px (2.4625mu) | hero m       | heading l     | `size.font.10` |
-| **11** | 49px (3.0625mu) | hero l       | hero m        | `size.font.11` |
-| **12** | 59px (3.6875mu) | ---          | hero l        | `size.font.12` |
+| Id     | Value           | Mobile usage              | Desktop usage             | Token          |
+| ------ | --------------- | ------------------------- | ------------------------- | -------------- |
+| **01** | 11px (0.6815mu) | Legal contents / captions | Legal contents / captions | `size.font.01` |
+| **02** | 12px (0.75mu)   | Legal contents / captions | Legal contents / captions | `size.font.02` |
+| **03** | 13px (0.8125mu) | --                        | --                        | `size.font.03` |
+| **04** | 14px (0.875mu)  | Body small                | Body small                | `size.font.04` |
+| **05** | 16px (1mu)      | Body medium               | Body medium               | `size.font.05` |
+| **06** | 18px (1.125mu)  | Body large                | Body large                | `size.font.06` |
+| **07** | 23px (1.4375mu) | Heading small             | --                        | `size.font.07` |
+| **08** | 28px (1.75mu)   | Heading medium            | Heading small             | `size.font.08` |
+| **09** | 34px (2.125mu)  | Heading large / Hero      | Heading medium            | `size.font.09` |
+| **10** | 41px (2.4625mu) | --                        | Heading large / Hero      | `size.font.10` |
+| **11** | 49px (3.0625mu) | --                        | Hero                      | `size.font.11` |
+| **12** | 59px (3.6875mu) | --                        | Hero                      | `size.font.12` |
 
 <br>
 
