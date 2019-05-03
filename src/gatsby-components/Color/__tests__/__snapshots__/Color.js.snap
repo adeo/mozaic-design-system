@@ -17,7 +17,7 @@ exports[`Test color component 1`] = `
     >
       <span>
         val
-         :
+         : 
       </span>
     </div>
     <b>
@@ -33,7 +33,7 @@ exports[`Test color component 1`] = `
     >
       <span>
         scss
-         :
+         : 
       </span>
     </div>
     <b />
@@ -47,7 +47,7 @@ exports[`Test color component 1`] = `
     >
       <span>
         ios
-         :
+         : 
       </span>
     </div>
     <b />
@@ -61,7 +61,7 @@ exports[`Test color component 1`] = `
     >
       <span>
         andr
-         :
+         : 
       </span>
     </div>
     <b />
@@ -75,7 +75,7 @@ exports[`Test color component 1`] = `
     >
       <span>
         es6
-         :
+         : 
       </span>
     </div>
     <b />
