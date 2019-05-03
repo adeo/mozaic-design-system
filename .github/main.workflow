@@ -22,9 +22,15 @@ action "npm build" {
   args = "run build"
 }
 
+action "npm test" {
+  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  needs = ["npm build"]
+  args = "run test"
+}
+
 action "GCP auth" {
   uses = "actions/gcloud/auth@df59b3263b6597df4053a74e4e4376c045d9087e"
-  needs = ["npm build"]
+  needs = ["npm test"]
   secrets = ["GCLOUD_AUTH"]
 }
 
