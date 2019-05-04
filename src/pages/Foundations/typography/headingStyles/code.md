@@ -38,6 +38,8 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 </p>
 ```
 
+<pattern path="src/patterns/--typography/typographyHeading-variations"></pattern>
+
 **Viewport < M (576px) :**
 
 | Class names                                  | font-size              | line-height         | weight    |
