@@ -1,7 +1,7 @@
 {
   "name": "garden-css",
   "description": "leroy merlin design system css",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "keywords": [
     "css"
   ],
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.4.3",
+    "css-mqpacker": "^7.0.0",
     "postcss": "^7.0.7",
     "postcss-node-sass": "^2.1.8",
     "postcss-reporter": "^6.0.0",

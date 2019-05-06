@@ -1,0 +1,159 @@
+$buttons : get-token(color, button);
+
+$button-sizes : (
+  'small' : (
+    'font-size' : '04',
+    'padding-v' : $mu050,
+    'padding-h' : $mu200
+  ),
+  'medium' : (
+    'font-size' : '05',
+    'padding-v' : $mu100,
+    'padding-h' : $mu200
+  ),
+  'large' : (
+    'font-size' : '06',
+    'padding-v' : $mu125,
+    'padding-h' : $mu200
+  )
+);
+
+$button-medium : map-get($button-sizes, 'medium');
+
+$button-radius : get-radius('m');
+$button-border : get-border('m');
+
+@mixin set-button {
+  margin: 0;
+  box-shadow: none;
+  text-decoration: none;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+
+  @include font-face('semi-bold');
+  @include font-scale(map-get($button-medium, 'font-size'), 's');
+
+  border-radius: $button-radius;
+  text-align: center;
+  border: $button-border solid transparent;
+  transition: all ease 200ms;
+  display: inline-flex;
+  padding: calc(#{map-get($button-medium, 'padding-v')} - #{$button-border}) calc(#{map-get($button-medium, 'padding-h')} - #{$button-border});
+
+  &:focus,
+  &.is-focus {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  @each $size, $props in $button-sizes {
+    &--#{$size} {
+      @include font-scale(map-get($props, 'font-size'), 's');
+
+      padding: calc(#{map-get($props, 'padding-v')} - #{$button-border}) calc(#{map-get($props, 'padding-h')} - #{$button-border});
+
+      @each $screen, $screen-size in $screens {
+        @include set-from-screen ($screen) {
+          &\@from-#{$screen} {
+            @include font-scale(map-get($props, 'font-size'), 's');
+
+            padding: calc(#{map-get($props, 'padding-v')} - #{$button-border}) calc(#{map-get($props, 'padding-h')} - #{$button-border});
+          }
+        }
+      }
+    }
+  }
+
+  &--fit {
+    @each $screen, $size in $screens {
+      @include set-from-screen ($screen) {
+        &\@from-#{$screen} {
+          display: inline-flex;
+        }
+      }
+    }
+  }
+
+  &--full {
+    display: block;
+
+    @each $screen, $size in $screens {
+      @include set-from-screen ($screen) {
+        &\@from-#{$screen} {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@mixin set-button-theme($props) {
+  color: map-get($props, 'font');
+
+  @if map-has-key($props, 'border') {
+    border: $button-border solid map-get($props, 'border');
+  }
+
+  @if map-has-key($props, 'background') {
+    background-color: map-get($props, 'background');
+  }
+
+  @else {
+    background-color: transparent;
+  }
+
+  @if map-has-key($props, 'hover') {
+    $hover-props : map-get($props, 'hover');
+
+    @each $prop, $value in $hover-props {
+      &:hover,
+      &.is-hover {
+        @if map-has-key($hover-props, 'background') {
+          background-color: map-get($hover-props, 'background');
+        }
+
+        @if map-has-key($hover-props, 'font') {
+          color: map-get($hover-props, 'font');
+        }
+
+        @else {
+          color: map-get($props, 'font');
+        }
+      }
+    }
+  }
+
+  @if map-has-key($props, 'focus') {
+    $focus-props : map-get($props, 'focus');
+
+    @each $prop, $value in $focus-props {
+      &:focus,
+      &.is-focus {
+        border-color: map-get($focus-props, 'border');
+      }
+    }
+  }
+
+  @if map-has-key($props, 'active') {
+    $active-props : map-get($props, 'active');
+
+    @each $prop, $value in $active-props {
+      &:active,
+      &.is-active {
+        background-color: map-get($active-props, 'background');
+      }
+    }
+  }
+
+  @if map-has-key($props, 'disabled') {
+    $disabled-props : map-get($props, 'disabled');
+
+    &:disabled,
+    &.is-disabled {
+      border-color: transparent;
+      background-color: map-get($disabled-props, 'background');
+      color: map-get($disabled-props, 'font');
+      cursor: default;
+    }
+  }
+}

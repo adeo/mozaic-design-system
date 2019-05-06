@@ -5,15 +5,12 @@ order: 7
 
 > Strokes are visual elements that space and structure contents. Different border thickness are used to create a hierarchy.
 
-## Tokens
+## Three available sizes
 
-There are **three different thickness levels**<br>
-
-| Token                | thickness |
-| -------------------- | --------- |
-| `border.thickness.s` | 1px       |
-| `border.thickness.m` | 2px       |
-| `border.thickness.l` | 3px       |
+There are **three different thickness levels** :
+* `s`
+* `m`
+* `l`
 
 <br>
 

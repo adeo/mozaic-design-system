@@ -54,7 +54,7 @@ Create `src/` and `dist/` directories.
 Create a `src/bundle.scss` file and paste the following code :
 
 ```scss
-@import '../../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -141,10 +141,10 @@ Run the `npm run css:lint-fix` command. Nothing should appen, because the code y
 
 ### C) Let's test that :
 
-Edit your `bundle.css` file, and edit line 5 to remove the line break betwen the mixin instanciation and the first declaration :
+Edit your `src/bundle.scss` file, and edit line 5 to remove the line break betwen the mixin instanciation and the first declaration :
 
 ```scss
-@import '../../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -242,9 +242,12 @@ npm run css:watch
 in the `src/bundle.scss` file add the folowing :
 
 ```scss
-$font-path: 'static/fonts'; /* add this */
+/* add this */
+$local-config: (
+  font-path: 'static/fonts',
+);
 
-@import '../../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 body {
   @include set-font-face('semi-bold'); /* add this */
@@ -261,7 +264,9 @@ body {
 In the previous file, we set our path to path to fontfaces. Graden is now able to load them.
 
 ```scss
-$font-path: 'static/fonts';
+$local-config: (
+  font-path: 'static/fonts',
+);
 ```
 
 Then we set the semi-bold LeroyMerlin font-face into the `body` declaration.
@@ -282,12 +287,12 @@ your browser should now look like this :
 
 ```scss
 // mandatory
-@import '../../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 // your components
-@import '../../node_modules/garden-css/styles/layout/_l.grid';
-@import '../../node_modules/garden-css/styles/atoms/_a.button';
-@import '../../node_modules/garden-css/styles/molecule/_m.button';
+@import '../node_modules/garden-css/styles/layout/_l.grid';
+@import '../node_modules/garden-css/styles/atoms/_a.button';
+@import '../node_modules/garden-css/styles/molecule/_m.button';
 ```
 
 note that you need to follow the ITCSS/ADS [import order](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/principles/unifying-itcss-with-ads#summarize-the-new-architecture)

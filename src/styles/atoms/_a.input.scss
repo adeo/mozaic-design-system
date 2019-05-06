@@ -5,7 +5,7 @@
   display: block;
   width: 100%;
   position: relative;
-  border: 1px solid $color-input-border;
+  border: get-border('s') solid $color-input-border;
   color: $color-input-text;
   background: $color-input-background;
   border-radius: get-radius('m');
