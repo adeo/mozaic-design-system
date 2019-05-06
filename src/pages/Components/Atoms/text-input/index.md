@@ -2,133 +2,39 @@
 title: 'Text input'
 order: 1
 ---
+##Preview
+ > Inputs are used to **create input fields with text on a single line**. Their states depends on the user interaction or the context.
 
-> Everything you need to know about styling HTML input element.
+<!-- #insert here a picture of inputs -->
 
-<hintitem>
-    Supported input types :
-    <ul>
-        <li><code>text</code></li>
-        <li><code>email</code></li>
-        <li><code>date</code></li>
-        <li><code>password</code></li>
-        <li><code>number</code></li>
-        <li><code>tel</code></li>
-        <li><code>number</code></li>
-        <li><code>search</code></li>
-    </ul>
-</hintitem>
+##Variations
+There is no variation of theme or size for input, this atom adapts according to its parent.
 
-# Default
+## Behaviors
+### Standard input states :
 
-<pattern path="src/patterns/--input/input-default"></pattern>
+| State          | Usage                                                                                     |
+| -------------- | ----------------------------------------------------------------------------------------- |
+| Hover          | When the user hover the input                                                             |
+| Focus          | When the user clic inside the input                                                       |
+| Disabled       | When the user can't use the input field                                                   |
+| Valid          | To show the user that his entry is correct against the criteria determined upstream       |
+| Invalid        | To show the user that his entry is invalid against the criteria determined upstream       |
 
-<br/>
 
-### CSS Tokens
 
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **default**  | background    | `color.input.background` |
-| **default**  | border-color  | `color.input.border    ` |
-| **default**  | color         | `color.input.text      ` |
-| **default**  | padding       | `mu-100                     ` |
-| **default**  | border-radius | `radius.m`                     |
-| **default**  | font-size     | `size.font.05`                 |
-
-## Supported events
+## Do's and don'ts
 
 <hintitem>
-    Input supports <code>hover</code> and <code>focus</code> event
+    You can cumulate différents states like that :
 </hintitem>
 
-<hintitem>
-    <strong>Focus border color has priority</strong> on all styles already applied
-</hintitem>
-
-<br/>
-
-<pattern path="src/patterns/--input/input-default-event"></pattern>
-
-<br/>
-
-### CSS tokens
-
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **hover**    | border-color  | `color.input.hover.border` |
-| **focus**    | border-color  | `color.input.focus.border` |
-
-
-<br/>
-
----
-
-# Disabled status
-
+<pattern path="src/patterns/--input/input-invalid-event"></pattern>
 
 <hintitem dont=true>
     <strong>Disabled status</strong> can't support any other styles or event
 </hintitem>
-
-<br/>
-
 <pattern path="src/patterns/--input/input-default-disabled"></pattern>
 
-<br/>
-
----
-
-# Valid status
-
-<pattern path="src/patterns/--input/input-valid"></pattern>
-
-<br/>
-
-### CSS Tokens
-
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **valid**    | border-color  | `color.input.valid.border` |
-
-
-## Supported events
-
-<pattern path="src/patterns/--input/input-valid-event"></pattern>
-
-<br/>
-
-### CSS tokens
-
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **hover**    | border-color  | `color.input.valid.hover.border` |
-
-
-<br/>
-
----
-
-# Invalid status
-
-<pattern path="src/patterns/--input/input-invalid"></pattern>
-
-<br/>
-
-### CSS Tokens
-
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **invalid**    | border-color  | `color.input.invalid.border` |
-
-## Supported events
-
-<pattern path="src/patterns/--input/input-invalid-event"></pattern>
-
-<br/>
-
-### CSS tokens
-
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **hover**    | border-color  | `color.input.invalid.hover.border` |
+## Accessibility
+**Input text must have an explicit label.**
