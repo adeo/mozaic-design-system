@@ -69,7 +69,7 @@ $font-weights: (
   'semi-bold': 600,
 );
 
-@mixin font-face($weight, $italic: '') {
+@mixin set-font-face($weight, $italic: '') {
   font-family: 'LeroyMerlin', sans-serif;
 
   @if map-has-key($font-weights, $weight) {

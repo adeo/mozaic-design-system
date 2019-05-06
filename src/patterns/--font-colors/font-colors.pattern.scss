@@ -3,8 +3,8 @@
 $font-colors: get-token('color', 'font');
 
 .example {
-  @include font-face('semi-bold');
-  @include font-scale('10', 's');
+  @include set-font-face('semi-bold');
+  @include set-font-scale('10', 's');
 
   padding: $mu100;
 

@@ -57,7 +57,7 @@ Create a `src/bundle.scss` file and paste the following code :
 @import '../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 body {
-  @include font-scale('12', 's');
+  @include set-font-scale('12', 's');
 
   background-color: $color-primary-01-500;
   color: $color-font-darker;
@@ -147,7 +147,7 @@ Edit your `src/bundle.scss` file, and edit line 5 to remove the line break betwe
 @import '../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 body {
-  @include font-scale('12', 's');
+  @include set-font-scale('12', 's');
   background-color: $color-primary-01-500;
   color: $color-font-darker;
   text-align: center;
@@ -250,8 +250,8 @@ $local-config: (
 @import '../node_modules/garden-css/styles/settings-tools/_all-settings';
 
 body {
-  @include font-face('semi-bold'); /* add this */
-  @include font-scale('12', 's');
+  @include set-font-face('semi-bold'); /* add this */
+  @include set-font-scale('12', 's');
 
   background-color: $color-primary-01-500;
   color: $color-font-darker;
@@ -273,7 +273,7 @@ Then we set the semi-bold LeroyMerlin font-face into the `body` declaration.
 
 ```scss
 body {
-  @include font-face('semi-bold');
+  @include set-font-face('semi-bold');
   ...
 ```
 
