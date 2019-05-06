@@ -31,8 +31,8 @@ $button-border : get-border('m');
   outline: none;
   box-sizing: border-box;
 
-  @include font-face('semi-bold');
-  @include font-scale(map-get($button-medium, 'font-size'), 's');
+  @include set-font-face('semi-bold');
+  @include set-font-scale(map-get($button-medium, 'font-size'), 's');
 
   border-radius: $button-radius;
   text-align: center;
@@ -48,14 +48,14 @@ $button-border : get-border('m');
 
   @each $size, $props in $button-sizes {
     &--#{$size} {
-      @include font-scale(map-get($props, 'font-size'), 's');
+      @include set-font-scale(map-get($props, 'font-size'), 's');
 
       padding: calc(#{map-get($props, 'padding-v')} - #{$button-border}) calc(#{map-get($props, 'padding-h')} - #{$button-border});
 
       @each $screen, $screen-size in $screens {
         @include set-from-screen ($screen) {
           &\@from-#{$screen} {
-            @include font-scale(map-get($props, 'font-size'), 's');
+            @include set-font-scale(map-get($props, 'font-size'), 's');
 
             padding: calc(#{map-get($props, 'padding-v')} - #{$button-border}) calc(#{map-get($props, 'padding-h')} - #{$button-border});
           }
