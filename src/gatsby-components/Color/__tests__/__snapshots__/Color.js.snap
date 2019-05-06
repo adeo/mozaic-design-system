@@ -2,83 +2,88 @@
 
 exports[`Test color component 1`] = `
 <div
-  className="sc-bxivhb jarGjz"
+  className="sc-htpNat gIKUYi"
 >
   <div
-    className="sc-ifAKCX gcfpeg"
+    className="sc-bxivhb VfbVZ"
     color="blue"
   />
   <div
-    className="sc-bdVaJa hrphmh"
+    className="sc-bdVaJa iYZTXX"
     onClick={[Function]}
   >
-    <div
-      className="sc-htpNat injVZS"
-    >
-      <span>
-        val
-         : 
-      </span>
-    </div>
-    <b>
-      blue
-    </b>
+    <span>
+      <div
+        className="sc-ifAKCX iHSdmX"
+      >
+        <span>
+          val
+        </span>
+      </div>
+      <b>
+        blue
+      </b>
+    </span>
   </div>
   <div
-    className="sc-bdVaJa hrphmh"
+    className="sc-bdVaJa iYZTXX"
     onClick={[Function]}
   >
-    <div
-      className="sc-htpNat injVZS"
-    >
-      <span>
-        scss
-         : 
-      </span>
-    </div>
-    <b />
+    <span>
+      <div
+        className="sc-ifAKCX iHSdmX"
+      >
+        <span>
+          scss
+        </span>
+      </div>
+      <b />
+    </span>
   </div>
   <div
-    className="sc-bdVaJa hrphmh"
+    className="sc-bdVaJa iYZTXX"
     onClick={[Function]}
   >
-    <div
-      className="sc-htpNat injVZS"
-    >
-      <span>
-        ios
-         : 
-      </span>
-    </div>
-    <b />
+    <span>
+      <div
+        className="sc-ifAKCX iHSdmX"
+      >
+        <span>
+          ios
+        </span>
+      </div>
+      <b />
+    </span>
   </div>
   <div
-    className="sc-bdVaJa hrphmh"
+    className="sc-bdVaJa iYZTXX"
     onClick={[Function]}
   >
-    <div
-      className="sc-htpNat injVZS"
-    >
-      <span>
-        andr
-         : 
-      </span>
-    </div>
-    <b />
+    <span>
+      <div
+        className="sc-ifAKCX iHSdmX"
+      >
+        <span>
+          andr
+        </span>
+      </div>
+      <b />
+    </span>
   </div>
   <div
-    className="sc-bdVaJa hrphmh"
+    className="sc-bdVaJa iYZTXX"
     onClick={[Function]}
   >
-    <div
-      className="sc-htpNat injVZS"
-    >
-      <span>
-        es6
-         : 
-      </span>
-    </div>
-    <b />
+    <span>
+      <div
+        className="sc-ifAKCX iHSdmX"
+      >
+        <span>
+          es6
+        </span>
+      </div>
+      <b />
+    </span>
   </div>
 </div>
 `;
