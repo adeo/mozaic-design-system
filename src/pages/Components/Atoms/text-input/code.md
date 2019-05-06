@@ -3,42 +3,55 @@ title: 'Code'
 order: 2
 ---
 
-### File(s) to import
+## Import
 
-First of all, you need to import the `.scss` file.
+Import the settings and the text-input `scss` files.
 
 ```scss
-@import 'atoms/_a.input';
+@import 'settings-tools/_all-settings';
+@import 'atoms/_a.text-input';
 ```
+## Basic usage
+<!-- ### Apply CSS Class -->
+To create an input you have one main class to apply `ga-input`.
 
-### Apply CSS Class
-
-To style an HTML Input, apply the `ga-input` class.
-
+```html
+ <input type="text" class="ga-input" placeholder="Empty" name="example"/>
+```
 <pattern path="src/patterns/--input/input-default"></pattern>
 
-### Manage event
+## Behaviors
+### Standard input states :
 
-<hintitem>
-    Input supports <code>hover</code> and <code>focus</code> event
-</hintitem>
-
-Events are manage using `:hover` and `:focus` CSS pseudo-class.
-
-<br/>
-
-<pattern path="src/patterns/--input/input-default-event"></pattern>
-
-### Manage validation state
-
-To indicate the validation state of your input like valid or invalid. You can use two state CSS Classes :
+* `hover`
+* `focus`
+* `disabled`
 * `is-valid`
 * `is-invalid`
 
 <pattern path="src/patterns/--input/input-state"></pattern>
 
-<br/>
 
----
+## Do's and don'ts
 
-> Note that <strong>if you try to apply those CSS classes to an unsupported input type.</strong> It could work but you should find something which better suits to your needs in the documentation.
+<hintitem>
+    You can cumulate states like that :
+</hintitem>
+
+```html
+<input type="text" class="ga-input is-invalid is-hover" placeholder="Empty" name="example"/>
+```
+
+## Accessibility and semantic
+
+**Always use a label with an input.**
+```html
+<label for="myExample">My example</label>
+<input id="myExample" type="text" class="ga-input" placeholder="Empty" name="example"/>
+```
+**Always use the [WAI-ARIA writing practices](https://www.w3.org/TR/wai-aria-practices/), the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities.**
+
+```html
+<label for="myExample">My example</label>
+<input id="myExample" type="text" class="ga-input" placeholder="Empty" name="example" aria-required="false"/>
+```
