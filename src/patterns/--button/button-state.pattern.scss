@@ -9,7 +9,7 @@
   justify-content: center;
 
   h2 {
-    @include font-face('regular');
+    @include set-font-face('regular');
   }
 
   &__col {
