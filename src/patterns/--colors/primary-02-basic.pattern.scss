@@ -1,0 +1,57 @@
+@import 'settings-tools/_all-settings';
+@import 'src/tokens/build/scss/_tokens.scss';
+@import 'utilities/_u.margin.scss';
+@import 'utilities/_u.padding.scss';
+
+.colors-example {
+  list-style: none;
+}
+
+.colors-example li {
+  width: 30%;
+  margin-right: $mu025;
+  border-radius: $mu025;
+  text-align: center;
+  float: left;
+}
+
+.sample-pallete {
+  height: $mu250;
+  margin-bottom: $mu025;
+}
+
+.primary-color-2-01 {
+  background: $color-primary-02-100;
+}
+
+.primary-color-2-02 {
+  background: $color-primary-02-200;
+}
+
+.primary-color-2-03 {
+  background: $color-primary-02-300;
+}
+
+.primary-color-2-04 {
+  background: $color-primary-02-400;
+}
+
+.primary-color-2-05 {
+  background: $color-primary-02-500;
+}
+
+.primary-color-2-06 {
+  background: $color-primary-02-600;
+}
+
+.primary-color-2-07 {
+  background: $color-primary-02-700;
+}
+
+.primary-color-2-08 {
+  background: $color-primary-02-800;
+}
+
+.primary-color-2-09 {
+  background: $color-primary-02-900;
+}

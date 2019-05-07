@@ -10,10 +10,9 @@ const Container = styled.div`
   border: solid 1px rgba(0, 0, 0, 0.05);
   padding: 0;
 `
-
 const Swatch = styled.div`
   width: 100%;
-  padding-bottom: 33.33%;
+  padding-bottom: 8%;
   max-height: 150px;
   margin-bottom: 10px;
 
@@ -44,17 +43,25 @@ class Color extends PureComponent {
         <Copy value={color} children={<Value label="val" value={color} />} />
         <Copy value={scss} children={<Value label="scss" value={scss} />} />
         <Copy value={ios} children={<Value label="ios" value={ios} />} />
-        <Copy value={android} children={<Value label="andr" value={android} />} />
+        <Copy
+          value={android}
+          children={<Value label="andr" value={android} />}
+        />
         <Copy value={es6} children={<Value label="es6" value={es6} />} />
       </Container>
     )
   }
 }
 
-const Value = ({label, value}) => {
+const Value = ({ label, value }) => {
   return (
-    <span><Label><span>{label}</span></Label><b>{value}</b></span>
-  );
+    <span>
+      <Label>
+        <span>{label}</span>
+      </Label>
+      <b>{value}</b>
+    </span>
+  )
 }
 
 export default Color
