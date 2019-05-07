@@ -6,8 +6,8 @@ order: 2
 ## Import
 
 ```scss
-@import 'settings-tools/_all-settings';
-@import 'atoms/_a.button';
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/garden-css/styles/atoms/_a.button';
 ```
 
 ## Basic usage
