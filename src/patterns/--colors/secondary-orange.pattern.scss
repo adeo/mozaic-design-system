@@ -1,0 +1,57 @@
+@import 'settings-tools/_all-settings';
+@import 'src/tokens/build/scss/_tokens.scss';
+@import 'utilities/_u.margin.scss';
+@import 'utilities/_u.padding.scss';
+
+.colors-example {
+  list-style: none;
+}
+
+.colors-example li {
+  width: 30%;
+  margin-right: $mu025;
+  border-radius: $mu025;
+  text-align: center;
+  float: left;
+}
+
+.sample-pallete {
+  height: $mu250;
+  margin-bottom: $mu025;
+}
+
+.secondary-orange-01 {
+  background: $color-secondary-orange-100;
+}
+
+.secondary-orange-02 {
+  background: $color-secondary-orange-200;
+}
+
+.secondary-orange-03 {
+  background: $color-secondary-orange-300;
+}
+
+.secondary-orange-04 {
+  background: $color-secondary-orange-400;
+}
+
+.secondary-orange-05 {
+  background: $color-secondary-orange-500;
+}
+
+.secondary-orange-06 {
+  background: $color-secondary-orange-600;
+}
+
+.secondary-orange-07 {
+  background: $color-secondary-orange-700;
+}
+
+.secondary-orange-08 {
+  background: $color-secondary-orange-800;
+}
+
+.secondary-orange-09 {
+  background: $color-secondary-orange-900;
+}
