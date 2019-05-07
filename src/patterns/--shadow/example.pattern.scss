@@ -1,0 +1,16 @@
+@import 'settings-tools/_all-settings';
+@import 'atoms/_a.all-base-typography';
+
+.example-wrapper {
+  background: $color-grey-100;
+  padding: $mu150;
+}
+
+.example {
+  @include set-box-shadow('s');
+
+  padding: $mu100;
+  width: 50%;
+  margin: $mu250 auto;
+  background: $color-grey-000;
+}

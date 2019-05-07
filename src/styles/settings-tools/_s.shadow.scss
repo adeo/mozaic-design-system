@@ -1,0 +1,7 @@
+@mixin set-box-shadow($size) {
+  @if ( variable-exists($name: $size)) {
+    @warn "Shadow size #{$size} doesn't exist";
+  }
+
+  box-shadow: map-get(get-token(shadow, $size), "x") map-get(get-token(shadow, $size), "y") map-get(get-token(shadow, $size), "blur") map-get(get-token(shadow, $size), "spread") rgba($color-grey-999, map-get(get-token(shadow, $size), "opacity"));
+}

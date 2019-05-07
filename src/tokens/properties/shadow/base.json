@@ -1,0 +1,55 @@
+{
+    "shadow" : {
+        "s" : {
+            "x" : {
+                "value" : "0px"
+            },
+            "y" : {
+                "value" : "1px"
+            },
+            "blur" : {
+                "value" : "5px"
+            },
+            "spread" :{
+                "value" : "0px"
+            },
+            "opacity" : {
+                "value" : "0.2"
+            }
+        },
+        "m" : {
+            "x" : {
+                "value" : "0px"
+            },
+            "y" : {
+                "value" : "2px"
+            },
+            "blur" : {
+                "value" : "10px"
+            },
+            "spread" :{
+                "value" : "0px"
+            },
+            "opacity" : {
+                "value" : "0.2"
+            }
+        },
+        "l" : {
+            "x" : {
+                "value" : "0px"
+            },
+            "y" : {
+                "value" : "4px"
+            },
+            "blur" : {
+                "value" : "20px"
+            },
+            "spread" :{
+                "value" : "0px"
+            },
+            "opacity" : {
+                "value" : "0.2"
+            }
+        }
+    }
+}
