@@ -3,11 +3,11 @@ title: 'Colors'
 order: 1
 ---
 
-> Color is something the team worked on a lot. We wanted an adaptive and a scalable color system. Our colors have been defined using **HSLA color swatches**. The color pallete has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
+> Color is something the team worked on a lot. We wanted an adaptive and a scalable color system. Our colors have been defined using **HSLA color swatches**. The color palette has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
 
 # Primary colors
 
-Primary colors are the brand colors. They are the key components for our users to live and adopt the Leroy Merlin's experience. These are the two primary colors palletes we use in this design system.
+Primary colors are the brand colors. They are the key components for our users to live and adopt the Leroy Merlin's experience. These are the two primary colors palettes we use in this design system.
 
 ## Primary 01
 
