@@ -3,8 +3,6 @@ title: 'Icons'
 order: 1
 ---
 
-## Presentation
-
 >An icon is a graphic representation of an object, a message or a movement. It's different from an illustration because of its simplistic aspect. An **icon must be recognisable at first sight** so that the user can understand the information or the action it is intended to represent. Icons may be a visual guide to help the user to navigate on leroymerlin.fr faster.
 
 ## Principles
@@ -30,7 +28,7 @@ Icons allows to emphasise an action et make it easier to understand. An icon can
 #### 2. Dropdown and input
 In these cases, the icon is used to guide the user in the action he needs to do. It's also a visual help about the content of the box that is going to open.
 
-#### 3. _Quantité et défilement_
+#### 3. Quantity and scrolling
 Icons can be used to change a quantity or to scroll different options. Icon use in this case is totally functional and usually results of two opposed actions.
 
 #### 4. Close and delete

@@ -1,33 +1,44 @@
 ---
-title: 'Icons'
-order: 2
+title: 'Design'
+order: 4
 ---
 
-## Anatomy
-
-![iconsAnatomy](iconsAnatomy.jpg)
+>**Icons must be recognisable at first sight**. Here you will find how Leroy Merlin's icon kit has been made along with some design specificities to help you understand our vision.
 
 ## Categories
 Icons library is divided in twelve categories.
 
-| Category name               |                             |
-| --------------------------- | --------------------------- |
-| 1. Navigation               | 7.User                      |  
-| 2. Product                  | 8. Store                    |
-| 3. Service                  | 9. Device                   |
-| 4. Project                  | 10. Various                 |
-| 5. Media                    | 11. Universe                |
-| 6. Social                   | 12. Logo                    |
+- Navigation
+- Product
+- Service
+- Project
+- Media
+- Social
+- User
+- Store
+- Device
+- Various
+- Universe
+- Logo
 
 ## Structure
 
 #### 1. Sizes
-Icon sizes are **64px**, **48px**, **32px**, **24px** and **16px**. In some very particular cases a 48px can be resized to 40px. 16px icons can only be used for navigation and rating stars.
+We have defined 5 sizes for our icons :
+- 64px
+- 48px
+- 32px
+- 24px
+- 16px
+
+In some very particular cases a 48px can be resized to 40px. 16px icons can only be used for navigation and rating stars.
 
 #### 2. Thickness
 Leroy Merlin's icon are outlined. Thickness is very important in this style and must be followed. Every icon size has its guidelines in terms of thickness. Icon's thickness are divided in two categories : **major thickness** used to draw the outer shape of the icon and **minor thickness** to add a second level of details in the icon.
 
+<br>
 ![iconsThickness](iconsThickness.jpg)
+<br>
 
 |Size       | Major thickness        | Minor thickness           | 
 |-----------|------------------------|---------------------------|
@@ -49,87 +60,109 @@ Radius is only applied to the outside of an outlined path. Rounded shapes don't 
 | 16px      | 1px                    |
 
 #### 4. Angles
-Angles must be 45° multiples.
-
+<br>
 ![iconsAngles](iconsAngles.jpg)
+<br>
 
-|Angle possibilities|
-|-------------------|
-|45°                |
-|90°                |
-|135°               |
-|180°               |
-|225°               |
-|270°               |
-|315°               |
-|360°               |
+Angles must be 45° multiples. Here are the possibilities :
+
+- 45°
+- 90°
+- 135°
+- 180°
+- 225°
+- 270°
+- 315°
+- 360°
 
 #### 5. Grids
 The grid is a marker in the construction of the icon. It results in a consistent icon kit always using the same proportions. The grid allows the designer to design basic shapes on the same principles every time.
 
-###### 5.1 Grid sizes
-A specific grid has been designed for each size. The designed grids are : **64px**, **48px**, **32px**, **24px** and **16px**. It's important to use the correct size when using an icon in your design. For example, you can't make 200% bigger a 24px icon to have a 48px icon.
+**Grid sizes**
+A specific grid has been designed for each size. The designed grids are :
+
+- 64px
+- 48px
+- 32px
+- 24px
+- 16px
+
+It's important to use the correct size when using an icon in your design. For example, you can't make 200% bigger a 24px icon to have a 48px icon.
 
 ![iconsGrids](iconsGrids.jpg)
 
-###### 5.1 Forms and shapes
+##### 5.1 Forms and shapes
 The same paddings must be used around the main shape of the icon.
 
-|![iconsShapesSquare](iconsShapesSquare.jpg)| Icon size      | Width         |Height         |
-|-------------------------------------------|----------------|---------------|---------------|
-|                                           |64px            |46px           |46px           |
-|                                           |48px            |34px           |34px           |
-|                                           |32px            |22px           |22px           |
-|                                           |24px            |16px           |16px           |
-|                                           |16px            |10px           |10px           |
+![iconsShapesSquare](iconsShapesSquare.jpg)
 
-|![iconsShapesBigRound](iconsShapesBigRound.jpg)| Icon size      | Width         |Height     |
-|-------------------------------------------|----------------|---------------|---------------|
-|                                           |64px            |54px           |54px           |
-|                                           |48px            |40px           |40px           |
-|                                           |32px            |26px           |26px           |
-|                                           |24px            |20px           |20px           |
-|                                           |16px            |12px           |12px           |
+| Icon size      | Width         |Height         |
+|----------------|---------------|---------------|
+|64px            |46px           |46px           |
+|48px            |34px           |34px           |
+|32px            |22px           |22px           |
+|24px            |16px           |16px           |
+|16px            |10px           |10px           |
 
-|![iconsShapesSmallRound](iconsShapesSmallRound.jpg)| Icon size      | Width         |Height |
-|-------------------------------------------|----------------|---------------|---------------|
-|                                           |64px            |27px           |27px           |
-|                                           |48px            |20px           |20px           |
-|                                           |32px            |14px           |14px           |
-|                                           |24px            |10px           |10px           |
-|                                           |16px            |07px           |07px           |
+![iconsShapesBigRound](iconsShapesBigRound.jpg)
 
-|![iconsShapesBigLandscapeRectangle](iconsShapesBigLandscapeRectangle.jpg)| Icon size      | Width         |Height     |
-|-------------------------------------------|----------------|---------------|---------------|
-|                                           |64px            |54px           |38px           |
-|                                           |48px            |40px           |28px           |
-|                                           |32px            |26px           |18px           |
-|                                           |24px            |20px           |12px           |
-|                                           |16px            |12px           |8px            |
+| Icon size      | Width         |Height         |
+|----------------|---------------|---------------|
+|64px            |54px           |54px           |
+|48px            |40px           |40px           |
+|32px            |26px           |26px           |
+|24px            |20px           |20px           |
+|16px            |12px           |12px           |
 
-|![iconsShapesBigPortraitRectangle](iconsShapesBigPortraitRectangle.jpg)| Icon size      | Width         |Height     |
-|-------------------------------------------|----------------|---------------|---------------|
-|                                           |64px            |38px           |54px           |
-|                                           |48px            |28px           |40px           |
-|                                           |32px            |18px           |26px           |
-|                                           |24px            |12px           |20px           |
-|                                           |16px            |8px            |12px           |
+![iconsShapesSmallRound](iconsShapesSmallRound.jpg)
 
-|![iconsShapesSmallLandscapeRectangle](iconsShapesSmallLandscapeRectangle.jpg)| Icon size      | Width         |Height     |
-|-------------------------------------------|----------------|---------------|---------------|
-|                                           |64px            |54px           |22px           |
-|                                           |48px            |40px           |16px           |
-|                                           |32px            |26px           |10px           |
-|                                           |24px            |20px           |8px            |
-|                                           |16px            |12px           |6px            |
+| Icon size      | Width         |Height         |
+|----------------|---------------|---------------|
+|64px            |27px           |27px           |
+|48px            |20px           |20px           |
+|32px            |14px           |14px           |
+|24px            |10px           |10px           |
+|16px            |07px           |07px           |
 
-|![iconsShapesSmallPortraitRectangle](iconsShapesSmallPortraitRectangle.jpg)| Icon size      | Width         |Height     |
-|-------------------------------------------|----------------|---------------|---------------|
-|                                           |64px            |22px           |54px           |
-|                                           |48px            |16px           |40px           |
-|                                           |32px            |10px           |26px           |
-|                                           |24px            |8px            |20px           |
-|                                           |16px            |6px            |12px           |
+![iconsShapesBigLandscapeRectangle](iconsShapesBigLandscapeRectangle.jpg)
+
+| Icon size      | Width         |Height         |
+|----------------|---------------|---------------|
+|64px            |54px           |38px           |
+|48px            |40px           |28px           |
+|32px            |26px           |18px           |
+|24px            |20px           |12px           |
+|16px            |12px           |8px            |
+
+![iconsShapesBigPortraitRectangle](iconsShapesBigPortraitRectangle.jpg)
+
+| Icon size      | Width         |Height         |
+|----------------|---------------|---------------|
+|64px            |38px           |54px           |
+|48px            |28px           |40px           |
+|32px            |18px           |26px           |
+|24px            |12px           |20px           |
+|16px            |8px            |12px           |
+
+![iconsShapesSmallLandscapeRectangle](iconsShapesSmallLandscapeRectangle.jpg)
+
+| Icon size      | Width         |Height         |
+|----------------|---------------|---------------|
+|64px            |54px           |22px           |
+|48px            |40px           |16px           |
+|32px            |26px           |10px           |
+|24px            |20px           |8px            |
+|16px            |12px           |6px            |
+
+![iconsShapesSmallPortraitRectangle](iconsShapesSmallPortraitRectangle.jpg)
+
+| Icon size      | Width         |Height         |
+|----------------|---------------|---------------|
+|64px            |22px           |54px           |
+|48px            |16px           |40px           |
+|32px            |10px           |26px           |
+|24px            |8px            |20px           |
+|16px            |6px            |12px           |
 
 #### Spacings
 
@@ -146,6 +179,21 @@ The same paddings must be used around the main shape of the icon.
 ## Best practices
 
 **Fixed size vs. variable size**
+
+<hint type="do">
+  <hintitem do="true">
+    ![DoSize](DoSize.jpg)
+    <br>
+    An icon must be used in its original size
+  </hintitem>
+</hint>
+<hint type="dont">
+  <hintitem dont="true">
+    ![DontSize](DontSize.jpg)
+    <br>
+    An icon can't be used in another size
+  </hintitem>
+</hint>
 
 |DO                                                 |DON'T                                       |
 |---------------------------------------------------|--------------------------------------------|
