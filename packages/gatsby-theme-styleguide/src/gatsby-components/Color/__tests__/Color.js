@@ -1,14 +1,12 @@
-import React from 'react';
-import Color from '../Color';
-import renderer from 'react-test-renderer';
+import React from 'react'
+import Color from '../Color'
+import renderer from 'react-test-renderer'
 
 test('Test color component', () => {
-  global.navigator = jest.fn();
+  global.navigator = jest.fn()
 
-  const component = renderer.create(
-    <Color color="blue" />,
-  );
+  const component = renderer.create(<Color color="blue" />)
 
-  let tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
-});
+  let tree = component.toJSON()
+  expect(tree).toMatchSnapshot()
+})

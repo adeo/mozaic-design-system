@@ -24,9 +24,8 @@
     "babel-plugin-styled-components": "^1.8.0",
     "chokidar": "^1.7.0",
     "css-mqpacker": "^7.0.0",
-    "gatsby": "^2.0.19",
+    "gatsby": "2.4.3",
     "gatsby-plugin-manifest": "^2.0.5",
-    "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.10",
@@ -61,41 +60,44 @@
     "@commitlint/config-conventional": "^7.3.1",
     "babel-jest": "^24.1.0",
     "husky": "^1.3.1",
-    "jest": "^24.7.0",
-    "lerna": "^3.13.4",
+    "jest": "^23.0.0",
     "lint-staged": "^8.1.4",
     "prettier": "^1.14.2",
     "react-test-renderer": "^16.8.2"
   },
   "scripts": {
     "tokens:build": "npx style-dictionary build --config ./packages/tokens/config.js",
-    "tokens:clean": "npx style-dictionary clean --config ./packages/tokens/config.js",
+    "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js",
     "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
-    "clean-cache": "rm -rf ./.cache ./public",
+    "clean-cache": "npx gatsby clean",
     "css:fix": "npx stylelint npx stylelint src/patterns/**/*.scss packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint npx stylelint src/patterns/**/*.scss packages/styles/**/*.scss",
     "icons:clean": "node iconCompiler/svg-cleaner.js",
     "icons:datas": "node iconCompiler/generateIconsDatas.js",
-    "icons:build": "yarn icons:clean && yarn icons:datas",
+    "icons:build": "yarn icons:clean && yarn icons:datas && cp -R static/icons/ packages/icons/",
     "prebuild": "yarn tokens:build && yarn icons:build",
     "lerna": "npx lerna clean -y && npx lerna bootstrap",
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
+    "build": "npx gatsby build",
+    "develop": "npx gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "jest",
-    "registry": "cp -R src/styles registry && cp -R src/tokens registry && cp -R cssCompiler registry && cp -R static registry"
+    "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
+    "release": "lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --github-release prerelease"
   },
   "lint-staged": {
     "*.scss": [
       "stylelint --fix",
       "stylelint",
       "git add"
+    ],
+    "*.js": [
+      "yarn format",
+      "git add"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && jest",
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }

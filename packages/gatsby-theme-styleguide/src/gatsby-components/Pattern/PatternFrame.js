@@ -28,8 +28,8 @@ const FrameContainer = styled.div`
 
     transform: scale(
       ${availableWidth > viewPorts[viewport]
-      ? 1
-      : availableWidth / viewPorts[viewport]}
+        ? 1
+        : availableWidth / viewPorts[viewport]}
     );
 
     transform-origin: ${fullScreen ? 'center' : 'left'};

@@ -43,6 +43,14 @@ module.exports = {
         ignore: [`**/\.pattern.*`], // ignore files starting with a dot
       },
     },
+    'gatsby-transformer-json',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: path.join('src', 'data'),
+      },
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {

@@ -38,7 +38,7 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 </p>
 ```
 
-<pattern path="src/pages/Foundations/Typography/--heroStyles/typographyHero-variations"></pattern>
+<pattern path="src/pages/Foundations/Typography/heroStyles/--heroStyles/typographyHero-variations"></pattern>
 
 **Viewport < M (576px) :**
 

@@ -69,6 +69,7 @@ export default ({ data, location }) => {
             <h1>{parentTitle}</h1>
           </Container>
         </FullWidthContainer>
+        {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
 
         <FullWidthContainer>
           <Container>

@@ -30,54 +30,54 @@ const Copied = styled.div`
 `
 
 class Copy extends React.Component {
- constructor(props) {
-   super(props)
-   this.state = {
-    copyCompatible: false,
-    copied: false,
-   }
- }
-  
- componentDidMount() {
-   this.isClipBoardAPIAvailable()
- }
-  
- isClipBoardAPIAvailable = () => {
-   if (navigator.permissions && navigator.permissions.query) {
-  navigator.permissions.query({ name: 'clipboard-write' }).then(result => {
-    if (result.state === 'granted' || result.state === 'prompt') {
-   this.setState({ copyCompatible: true })
+  constructor(props) {
+    super(props)
+    this.state = {
+      copyCompatible: false,
+      copied: false,
     }
-  })
-   }
- }
-  
- copyToClipBoard = () => {
-  if (this.state.copyCompatible) {
-        navigator.clipboard.writeText(this.props.value).then(
+  }
+
+  componentDidMount() {
+    this.isClipBoardAPIAvailable()
+  }
+
+  isClipBoardAPIAvailable = () => {
+    if (navigator.permissions && navigator.permissions.query) {
+      navigator.permissions.query({ name: 'clipboard-write' }).then(result => {
+        if (result.state === 'granted' || result.state === 'prompt') {
+          this.setState({ copyCompatible: true })
+        }
+      })
+    }
+  }
+
+  copyToClipBoard = () => {
+    if (this.state.copyCompatible) {
+      navigator.clipboard.writeText(this.props.value).then(
         () => {
           this.setState({ copied: true }, () => {
             setTimeout(() => this.setState({ copied: false }), 1000)
           })
         },
         () => {
-    console.error('error while copying to clipboard')
+          console.error('error while copying to clipboard')
         }
-    )
+      )
+    }
   }
- }
-  
- render() {
-   const { children } = this.props
-   const { copied } = this.state
-  
-   return (
-    <Info onClick={this.copyToClipBoard}>
+
+  render() {
+    const { children } = this.props
+    const { copied } = this.state
+
+    return (
+      <Info onClick={this.copyToClipBoard}>
         {children}
         {copied && <Copied>copied</Copied>}
-    </Info>
-   )
- }
+      </Info>
+    )
+  }
 }
-  
+
 export default Copy

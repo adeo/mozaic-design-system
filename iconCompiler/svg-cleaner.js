@@ -31,8 +31,8 @@ const optimize = (filePath, data) => {
 }
 
 const saveFile = data => {
-  if (!fs.existsSync(outputPath)){
-    fs.mkdirSync(outputPath);
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath)
   }
   fs.writeFileSync(path.join(outputPath, svgName), data, 'utf8')
 }

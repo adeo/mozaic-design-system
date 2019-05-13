@@ -2,9 +2,11 @@ const postcss = require('postcss')
 const scssSyntax = require('postcss-scss')
 const postCssPluginConfig = require('./postcssPluginConfig')
 
+const postcssWithConfig = postcss(postCssPluginConfig)
+
 const cssCompiler = (scss, pathFrom, pathTo) =>
   new Promise((resolve, reject) => {
-    postcss(postCssPluginConfig)
+    postcssWithConfig
       .process(scss, {
         from: pathFrom,
         to: pathTo,

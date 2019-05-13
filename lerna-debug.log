@@ -1,8 +1,0 @@
-0 silly argv { _: [ 'clean' ],
-0 silly argv   lernaVersion: '3.13.3',
-0 silly argv   '$0': '/usr/local/bin/lerna' }
-1 notice cli v3.13.3
-2 verbose rootPath /Users/captainjojo/Sites/lerna-ds
-3 error JSONError: Unexpected token } in JSON at position 893 while parsing near '...arp": "^2.1.6",    }}' in packages/styleguide/package.json
-3 error     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:26:19)
-3 error     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:8:29)

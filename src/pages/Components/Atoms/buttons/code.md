@@ -12,23 +12,17 @@ order: 2
 
 ## Basic usage
 
-To create a solid button apply the `ga-button` class :
+To create a solid button you have one main class to apply `ga-button`.
 
 ```html
 <a href="#" class="ga-button">Label</a>
 ```
 
-<<<<<<< HEAD
-<pattern path="src/patterns/--button/basic"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/--button/basic"></pattern>
 
 ## Variations
 
 ### Available themes
-
-=======
-<pattern path="src/pages/Components/Atoms/buttons/--button/intro"></pattern>
-
-> > > > > > > feat(styleguide/patterns): clean patterns and allow local usage
 
 - `solid`
 - `bordered`
@@ -104,18 +98,61 @@ Standard button states :
 
 <pattern path="src/pages/Components/Atoms/buttons/--button/button-state"></pattern>
 
-## Available widths
+## Mixins
 
-- `ga-button--fit` : Applied by default / fit the button's content size
-- `ga-button--full` : Fill the available width
+### The button mixin
 
-```html
-<a href="#" class="ga-button ga-button--full">My button</a>
+If you need to create a new button theme you need to define a new SASS map, see below :
+
+```scss
+$my-map: (
+  'background': red,
+  'font': green,
+  'border': yellow,
+  'hover': (
+    'background': blue,
+    'font': white,
+  ),
+  'focus': (
+    'border': purple,
+  ),
+  'active': (
+    'background': 'blue',
+  ),
+);
 ```
 
-| Default             | `ga-button--full`          | `ga-button--fit`          |
-| ------------------- | -------------------------- | ------------------------- |
-| From breakpoint m   | `ga-button--full@from-m`   | `ga-button--fit@from-m`   |
-| From breakpoint l   | `ga-button--full@from-l`   | `ga-button--fit@from-l`   |
-| From breakpoint xl  | `ga-button--full@from-xl`  | `ga-button--fit@from-xl`  |
-| From breakpoint xxl | `ga-button--full@from-xxl` | `ga-button--fit@from-xxl` |
+Now the map of your theme is define you can use the mixin `set--button-theme`.
+
+```scss
+.ga-button--my-custom-theme {
+  @include set-button-theme($my-map);
+}
+```
+
+Then, it will generate something like this :
+
+```css
+.ga-button--my-custom-theme {
+  color: green;
+  border: 2px solid yellow;
+  background-color: red;
+}
+
+.ga-button--my-custom-theme:hover,
+.ga-button--my-custom-theme.is-hover {
+  background-color: blue;
+  color: white;
+}
+
+.ga-button--my-custom-theme:hover,
+.ga-button--my-custom-theme.is-hover {
+  background-color: blue;
+  color: white;
+}
+
+.ga-button--my-custom-theme:focus,
+.ga-button--my-custom-theme.is-focus {
+  border-color: purple;
+}
+```

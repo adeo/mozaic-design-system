@@ -16,9 +16,13 @@ const iconList = iconDir.children.map(icon => {
     .replace(size, '')
     .slice(1, -1)
 
-  const fullpath = icon.path.replace('static\\', '/').replace('static/', '/').replace('\\\\', '/').replace('\\', '/');
+  const fullpath = icon.path
+    .replace('static\\', '/')
+    .replace('static/', '/')
+    .replace('\\\\', '/')
+    .replace('\\', '/')
   console.log(fullpath)
-  
+
   return {
     cat,
     size,
@@ -27,8 +31,8 @@ const iconList = iconDir.children.map(icon => {
   }
 })
 
-if (!fs.existsSync(`${process.cwd()}/src/data/`)){
-  fs.mkdirSync(`${process.cwd()}/src/data/`);
+if (!fs.existsSync(`${process.cwd()}/src/data/`)) {
+  fs.mkdirSync(`${process.cwd()}/src/data/`)
 }
 fs.writeFileSync(
   `${process.cwd()}/src/data/icons.json`,

@@ -54,11 +54,15 @@ const IconViewer = () => (
           {Object.keys(categories).map(cat => (
             <div key={cat}>
               <h1>{cat}</h1>
-                <IconsList>
+              <IconsList>
                 {Object.keys(categories[cat]).map(name => (
-                  <IconTile key={`${cat}-${name}`} name={name} icons={categories[cat][name]} />
+                  <IconTile
+                    key={`${cat}-${name}`}
+                    name={name}
+                    icons={categories[cat][name]}
+                  />
                 ))}
-                </IconsList>
+              </IconsList>
             </div>
           ))}
         </div>
