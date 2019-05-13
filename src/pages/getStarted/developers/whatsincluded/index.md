@@ -5,7 +5,7 @@ order: 2
 
 ## Styles
 
-`nodes_modules/garden-css/styles/**`
+`@gardencss/styles/**`
 
 All the CSS and SCSS files that constitute the Garden SCSS frameworks.
 
@@ -39,17 +39,17 @@ styles/
 │   └── ...
 ```
 
-<br>
+---
 
 ## Design Tokens :
 
 > design tokens are theming/styling constants defined in a JSON file. They are trasnpiled into multiple format to be shared across plateforms (SCSS, IOS, ANDROID...).
 
-`nodes_modules/garden-css/tokens/properties/**`
+`@gardencss/tokens/properties/**`
 
 Tokens generation use [style-dictionary](https://amzn.github.io/style-dictionary/#/)
 
-`nodes_modules/garden-css/tokens/build/{platform}/**`
+`@gardencss/tokens/build/{platform}/**`
 
 they are the generated tokens files that you may consume, and they are built in a platform specific directory.
 
@@ -74,11 +74,11 @@ tokens/
 │   └── other props dirs...
 ```
 
-<br>
+---
 
 ## Tools :
 
-`nodes_modules/garden-css/cssCompiler/**`
+`@gardencss/css-dev-tools/**`
 
 Right now the tools are composed only of SCSS/postcss tools.
 
@@ -86,30 +86,29 @@ Right now the tools are composed only of SCSS/postcss tools.
 
 ```tree
 cssCompiler/
-│   ├── postcssPluginsConfig.js (an array of postcss plugins to build the scss files)
+│   ├── postcssPluginConfig.js (an array of postcss plugins to build the scss files)
 │   ├── css-pipeline.js (useless right now)
 │   └── styleLintConfig.js (stylelint config)
 ```
 
-<br>
+---
 
-## A static folder :
+## Web fonts :
 
-`nodes_modules/garden-css/static/**`
-
-Contain only fonts right now, but will certainly contain icons, logos etc...
+`@gardencss/web-fonts/**`
 
 ```tree
-static/
-│   ├── fonts
-│   │   ├── LeroyMerlinSans-Web-Italic.woff
-│   │   └── etc...
+├── LeroyMerlinSans-Web-Italic.woff
+└── etc...
 ```
 
 ---
 
-## Next :
+## Icons :
 
-### [web setup example](/getStarted/developers/websetupexample/)
+`@gardencss/icons/**`
 
-A tutorial using npm script to be up and running with garden and it's configuration.
+```tree
+├── LeroyMerlinSans-Web-Italic.woff
+└── etc...
+```
