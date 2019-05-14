@@ -11,29 +11,30 @@ First of all, you need to import the `.scss` file.
 @import 'settings-tools/_all-settings';
 @import 'atoms/_a.input';
 ```
+
 ## Basic usage
+
 <!-- ### Apply CSS Class -->
+
 To create an input you have one main class to apply `ga-input`
 
 ```html
- <input type="text" class="ga-input" placeholder="Empty" name="example"/>
+<input type="text" class="ga-input" placeholder="Empty" name="example" />
 ```
+
 <pattern path="src/patterns/--input/input-default"></pattern>
 
-## Variations
-There is no variation of theme or size for input, this atom adapts according to its parent.
-
 ## Behaviors
+
 ### Standard input states :
 
-* `hover`
-* `focus`
-* `disabled`
-* `is-valid`
-* `is-invalid`
+- `hover`
+- `focus`
+- `disabled`
+- `is-valid`
+- `is-invalid`
 
 <pattern path="src/patterns/--input/input-state"></pattern>
-
 
 ## Do's and don'ts
 
@@ -42,8 +43,14 @@ There is no variation of theme or size for input, this atom adapts according to 
 </hintitem>
 
 ```html
-<input type="text" class="ga-input is-invalid is-hover" placeholder="Empty" name="example"/>
+<input
+  type="text"
+  class="ga-input is-invalid is-hover"
+  placeholder="Empty"
+  name="example"
+/>
 ```
+
 <hintitem dont=true>
     <strong>Disabled status</strong> can't support any other styles or event
 </hintitem>
@@ -51,14 +58,30 @@ There is no variation of theme or size for input, this atom adapts according to 
 ## Accessibility and semantic
 
 **Do not forget to use labels.**
+
 ```html
 <label for="myExample">My example</label>
-<input id="myExample" type="text" class="ga-input" placeholder="Empty" name="example"/>
+<input
+  id="myExample"
+  type="text"
+  class="ga-input"
+  placeholder="Empty"
+  name="example"
+/>
 ```
+
 **It is strongly recommended to use the [WAI-ARIA writing practices](https://www.w3.org/TR/wai-aria-practices/).**
+
 ```html
 <label for="myExample">My example</label>
-<input id="myExample" type="text" class="ga-input" placeholder="Empty" name="example" aria-required="false"/>
+<input
+  id="myExample"
+  type="text"
+  class="ga-input"
+  placeholder="Empty"
+  name="example"
+  aria-required="false"
+/>
 ```
 
 <!-- ### Manage event
