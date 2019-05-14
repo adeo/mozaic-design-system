@@ -1,10 +1,9 @@
 ---
-title: 'designers'
-order: 1
+title: 'Design'
+order: 3
 ---
 
-# Sketch
+## How to use
 
 Always set **borders inside** with **squared ends** for any component.
 
-![strokesInside](StrokesInside.png)

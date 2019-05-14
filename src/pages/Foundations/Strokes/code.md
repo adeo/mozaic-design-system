@@ -1,9 +1,18 @@
 ---
-title: 'SCSS'
-order: 3
+title: 'Code'
+order: 1
 ---
 
-## The get-border() function
+## Import
+
+To get the `get-border ()` function you need to import `_all-settings.scss`.
+
+```scss
+// mandatory
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
+```
+
+## Basic usage
 
 We provide a unique function to get every border width you need.
 
