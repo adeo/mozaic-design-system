@@ -3,7 +3,7 @@ title: 'Icons'
 order: 1
 ---
 
->An icon is a graphic representation of an object, a message or a movement. It's different from an illustration because of its simplistic aspect. An **icon must be recognisable at first sight** so that the user can understand the information or the action it is intended to represent. Icons may be a visual guide to help the user to navigate on leroymerlin.fr faster.
+>An icon is a graphic representation of an object, a message or a movement. It's different from an illustration because of its simplistic aspect. An icon must be **recognisable at first sight** so that the user can understand the information or the action it is intended to represent. Icons may be a visual guide to help the user to navigate on leroymerlin.fr faster.
 
 ## Principles
 
