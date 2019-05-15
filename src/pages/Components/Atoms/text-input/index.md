@@ -10,11 +10,11 @@ order: 1
 
 | State          | Usage                                                                                     |
 | -------------- | ----------------------------------------------------------------------------------------- |
-| Hover          | When the user hover the input                                                             |
-| Focus          | When the user clic inside the input                                                       |
-| Disabled       | When the user can't use the input field                                                   |
-| Valid          | To show the user that his entry is correct against the criteria determined upstream       |
-| Invalid        | To show the user that his entry is invalid against the criteria determined upstream       |
+| Hover          | When the input is hovered due to user navigation.                                         |
+| Focus          | When the input is focused due to user navigation.                                         |
+| Disabled       | When the input field is inactive or inaccessible                                          |
+| Valid          | When the entry is correct against the criteria determined upstream                        |
+| Invalid        | When the entry is invalid against the criteria determined upstream                        |
 
 
 ## Do's and don'ts

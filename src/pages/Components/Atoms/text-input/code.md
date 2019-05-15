@@ -8,8 +8,8 @@ order: 2
 Import the settings and the text-input `scss` files.
 
 ```scss
-@import 'settings-tools/_all-settings';
-@import 'atoms/_a.text-input';
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/garden-css/styles/atoms/_a.text-input';
 ```
 ## Basic usage
 <!-- ### Apply CSS Class -->
@@ -48,10 +48,4 @@ To create an input you have one main class to apply `ga-input`.
 ```html
 <label for="myExample">My example</label>
 <input id="myExample" type="text" class="ga-input" placeholder="Empty" name="example"/>
-```
-**Always use the [WAI-ARIA writing practices](https://www.w3.org/TR/wai-aria-practices/), the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities.**
-
-```html
-<label for="myExample">My example</label>
-<input id="myExample" type="text" class="ga-input" placeholder="Empty" name="example" aria-required="false"/>
 ```
