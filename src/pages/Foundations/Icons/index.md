@@ -7,17 +7,12 @@ order: 1
 
 ## Principles
 
-#### 1. Easy to understand
-Icon's shape must be easy for the user to understand its purpose without overthinking it.
-
-#### 2. Abstract
-Icon can represent abstract ideas. In that case, its meaning is more about the concept than reality.
-
-#### 3. Visible
-An icon must be easy to identify in the middle of interfaces.
-
-#### 4. Outlined
-We decided to use outlined icons to have a lighter result in our designs.
+An icon must be :
+<br/><br/>
+<hintitem>Easy to understand</hintitem>
+<hintitem>Abstract</hintitem>
+<hintitem>Visual</hintitem>
+<hintitem>Outlined</hintitem>
 
 ## Use cases
 An icon can be used in different cases on leroymerlin.fr.

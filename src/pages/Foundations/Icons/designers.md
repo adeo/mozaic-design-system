@@ -6,7 +6,7 @@ order: 4
 >Icons must be **recognisable at first sight**. Here you will find how Leroy Merlin's icon kit has been made along with some design specificities to help you understand our vision.
 
 ## Categories
-Icons library is divided in twelve categories.
+Icons library is divided in twelve categories :
 
 - Navigation
 - Product
@@ -22,7 +22,7 @@ Icons library is divided in twelve categories.
 - Logo
 
 ## Structure
-#### 1. Sizes
+### 1. Sizes
 We have defined 5 sizes for our icons :
 - 64px
 - 48px
@@ -32,14 +32,14 @@ We have defined 5 sizes for our icons :
 
 In some very particular cases a 48px can be resized to 40px. 16px icons can only be used for navigation and rating stars.
 
-#### 2. Thickness
-Leroy Merlin's icon are outlined. Thickness is very important in this style and must be followed. Every icon size has its guidelines in terms of thickness. Icon's thickness are divided in two categories : **major thickness** used to draw the outer shape of the icon and **minor thickness** to add a second level of details in the icon.
+### 2. Thickness
+Leroy Merlin's icon are **outlined**. Thickness is very important in this style and must be followed. Every icon size has its guidelines in terms of thickness. Icon's thickness are divided in two categories : **major thickness** used to draw the outer shape of the icon and **minor thickness** to add a second level of details in the icon.
 
-<br>
+<br/>
 
 ![iconsThickness](iconsThickness.jpg)
 
-<br>
+<br/>
 
 |Size       | Major thickness        | Minor thickness           | 
 |-----------|------------------------|---------------------------|
@@ -49,7 +49,7 @@ Leroy Merlin's icon are outlined. Thickness is very important in this style and 
 | 24px      | 2px                    | 1px                       |
 | 16px      | 2px                    | 1px                       |
 
-#### 3. Radius
+### 3. Radius
 Radius is only applied to the outside of an outlined path. Rounded shapes don't respond to these following rules.
 
 |Size       | Radius                 |
@@ -60,15 +60,13 @@ Radius is only applied to the outside of an outlined path. Rounded shapes don't 
 | 24px      | 1px                    |
 | 16px      | 1px                    |
 
-#### 4. Angles
+### 4. Angles
 
-<br>
+Angles must be 45° multiples.
 
 ![iconsAngles](iconsAngles.jpg)
 
-<br>
-
-Angles must be 45° multiples. Here are the possibilities :
+Here are the possibilities :
 
 - 45°
 - 90°
@@ -79,11 +77,10 @@ Angles must be 45° multiples. Here are the possibilities :
 - 315°
 - 360°
 
-#### 5. Grids
+### 5. Grids
 The grid is a marker in the construction of the icon. It results in a consistent icon kit always using the same proportions. The grid allows the designer to design basic shapes on the same principles every time.
 
-**Grid sizes**
-A specific grid has been designed for each size. The designed grids are :
+A **specific grid** has been designed for **each size**. The designed grids are :
 
 - 64px
 - 48px
@@ -93,13 +90,9 @@ A specific grid has been designed for each size. The designed grids are :
 
 It's important to use the correct size when using an icon in your design. For example, you can't make 200% bigger a 24px icon to have a 48px icon.
 
-<br>
-
 ![iconsGrids](iconsGrids.jpg)
 
-<br>
-
-##### 5.1 Forms and shapes
+#### 5.1 Forms and shapes
 The same paddings must be used around the main shape of the icon.
 <br>
 
@@ -198,7 +191,7 @@ The same paddings must be used around the main shape of the icon.
 |24px            |8px            |20px           |
 |16px            |6px            |12px           |
 
-#### Spacings
+### Spacings
 
 ![iconsSpacings](iconsSpacings.jpg)
 
@@ -218,60 +211,98 @@ The same paddings must be used around the main shape of the icon.
   <hintitem do="true">
     <img src="DoSize.jpg" alt="DoSize">
     <br>
-    An icon must be used in its original size
+    An icon must be used in its original size.
   </hintitem>
 </hint>
 <hint type="dont">
   <hintitem dont="true">
     <img src="DontSize.jpg" alt="DontSize">
     <br>
-    An icon can't be used in another size
+    An icon can't be used in another size.
   </hintitem>
 </hint>
 
-|DO                                                 |DON'T                                       |
-|---------------------------------------------------|--------------------------------------------|
-|![DoSize](DoSize.jpg)                              |![DontSize](DontSize.jpg)                   |
-|An icon must be used in its original size          |An icon can't be used in another size       |
-
 **Geometry vs. organic**
 
-|DO                                                 |DON'T                                        |
-|---------------------------------------------------|---------------------------------------------|
-|![DoGeometry](DoGeometry.jpg)                      |![DontGeometry](DontGeometry.jpg)            |
-|An icon is based on geometric shapes               |An icon is not supposed to represent reality |
+<hint type="do">
+  <hintitem do="true">
+    <img src="DoGeometry.jpg" alt="DoGeometry">
+    <br>
+    An icon is based on geometric shapes.
+  </hintitem>
+</hint>
+<hint type="dont">
+  <hintitem dont="true">
+    <img src="DontGeometry.jpg" alt="DontGeometry">
+    <br>
+    An icon is not supposed to represent reality.
+  </hintitem>
+</hint>
 
 **Simple icon vs. complex icon**
 
-|DO                                                 |DON'T                                        |
-|---------------------------------------------------|---------------------------------------------|
-|![DoGeometry](DoGeometry.jpg)                      |![DontDetails](DontDetails.jpg)              |
-|An icon must be as simple as possible              |An icon shouldn't carry too many details     |
+<hint type="do">
+  <hintitem do="true">
+    <img src="DoGeometry.jpg" alt="DoGeometry">
+    <br>
+    An icon must be as simple as possible.
+  </hintitem>
+</hint>
+<hint type="dont">
+  <hintitem dont="true">
+    <img src="DontGeometry.jpg" alt="DontDetails">
+    <br>
+    An icon shouldn't carry too many details.
+  </hintitem>
+</hint>
 
 **Outlined icon vs. filled icon**
 
-|DO                                                 |DON'T                                                |
-|---------------------------------------------------|-----------------------------------------------------|
-|![DoOutline](DoOutline.jpg)                        |![DontOutline](DontOutline.jpg)                      |
-|Leroy Merlin's icons must be outlined              |An icon in Leroy Merlin's design can't be filled     |
-
-**Outline alignments**
-
-|DO                                                 |DON'T                                                |
-|---------------------------------------------------|-----------------------------------------------------|
-|![DoStack](DoStack.jpg)                            |![DontStack](DontStack.jpg)                          |
-|Lines must be stacked                              |An icon in Leroy Merlin's design can't be filled     |
+<hint type="do">
+  <hintitem do="true">
+    <img src="DoOutline.jpg" alt="DoOutline">
+    <br>
+    An icon must be as simple as possible.
+  </hintitem>
+</hint>
+<hint type="dont">
+  <hintitem dont="true">
+    <img src="DontOutline.jpg" alt="DontOutline">
+    <br>
+    An icon in Leroy Merlin's design can't be filled.
+  </hintitem>
+</hint>
 
 **Opacity**
 
-|DO                                                 |DON'T                                                |
-|---------------------------------------------------|-----------------------------------------------------|
-|![DoOpacity](DoOpacity.jpg)                        |![DontOpacity](DontOpacity.jpg)                      |
-|An icon uses 100% opacity colors                   |An icon can't use an opacity under 100%              |
+<hint type="do">
+  <hintitem do="true">
+    <img src="DoOpacity.jpg" alt="DoOpacity">
+    <br>
+    An icon uses 100% opacity colors.
+  </hintitem>
+</hint>
+<hint type="dont">
+  <hintitem dont="true">
+    <img src="DontOpacity.jpg" alt="DontOpacity">
+    <br>
+    An icon can't use an opacity under 100%.
+  </hintitem>
+</hint>
 
 **Single icon vs. drawn over**
 
-|DO                                                 |DON'T                                                |
-|---------------------------------------------------|-----------------------------------------------------|
-|![DoSingle](DoSingle.jpg)                          |![DontSingle](DontSingle.jpg)                         |
-|An icon is unique                                  |An icon can't be used with another element on top    |
+<hint type="do">
+  <hintitem do="true">
+    <img src="DoSingle.jpg" alt="DoSingle">
+    <br>
+    An icon is unique.
+  </hintitem>
+</hint>
+<hint type="dont">
+  <hintitem dont="true">
+    <img src="DontSingle.jpg" alt="DontSingle">
+    <br>
+    An icon can't be used with another element on top.
+  </hintitem>
+</hint>
