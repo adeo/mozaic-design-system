@@ -30,4 +30,4 @@ Icons can be used to change a quantity or to scroll different options. Icon use 
 Close icons are very well know by users to close panels or delete options.
 
 #### 5. Illustration and informative
-Icons are used to illustrate what is going to detailed.
+Icons are used to illustrate what is going to detail.
