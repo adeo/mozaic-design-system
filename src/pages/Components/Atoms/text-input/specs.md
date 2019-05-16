@@ -4,7 +4,7 @@ order: 3
 ---
 
 ## Anatomy
-<!-- wait for a picture  -->
+![spec visual](Inputs-documentation.png)
 
 ## Properties
 ### CSS Tokens : layout
