@@ -1,13 +1,13 @@
 {
   "name": "@gardencss/gatsby-theme-styleguide",
-  "version": "1.0.1-alpha.2",
+  "version": "1.0.1-alpha.3",
   "main": "index.js",
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "license": "MIT",
   "dependencies": {
-    "@gardencss/gatsby-github-release": "^1.0.1-alpha.2",
-    "@gardencss/gatsby-source-directory-tree": "^1.0.1-alpha.2",
-    "@gardencss/gatsby-source-pattern": "^1.0.1-alpha.2",
+    "@gardencss/gatsby-github-release": "^1.0.1-alpha.3",
+    "@gardencss/gatsby-source-directory-tree": "^1.0.1-alpha.3",
+    "@gardencss/gatsby-source-pattern": "^1.0.1-alpha.3",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
