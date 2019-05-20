@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.2](https://github.com/adeo/design-system--styleguide/compare/v0.0.12...v1.0.1-alpha.2) (2019-05-20)
+
+
+### Features
+
+* **pattern/button:** adjust style to design ([#228](https://github.com/adeo/design-system--styleguide/issues/228)) ([b8184a8](https://github.com/adeo/design-system--styleguide/commit/b8184a8))
+
+
+
+
+
 ## [1.0.1-alpha.1](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.0...v1.0.1-alpha.1) (2019-04-25)
 
 
