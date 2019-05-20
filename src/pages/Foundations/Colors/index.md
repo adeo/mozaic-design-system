@@ -3,7 +3,7 @@ title: 'Colors'
 order: 1
 ---
 
-> We wanted an adaptive and a scalable color system. Our colors have been defined using [HSLA](#hsla) color swatches. The color palette has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
+> LEROY MERLIN offers an adaptive and a scalable color system. These colors have been defined using [HSLA](#hsla) color swatches. The color palette has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
 
 # Primary colors
 
