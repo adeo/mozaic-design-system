@@ -18,5 +18,5 @@ In that case you can create a `stylelint.config.js` file in the root dir of your
 and you just have to export the styleling config from garden
 
 ```js
-module.exports = require('garden-css/cssCompiler/styleLintConfig.js')
+module.exports = require('@gardencss/css-dev-tools/styleLintConfig.js')
 ```

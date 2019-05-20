@@ -17,8 +17,8 @@ Body styles are patterns meant to help you use consistent typographic hierarchy 
 
 Each body pattern comes with a modifier to set the font-weight to **'semi bold'** and a modifier to use an alternative **line-height**.
 
-|                                                                           |                                    |
-| ------------------------------------------------------------------------- | ---------------------------------- |
-| <pattern path="src/patterns/--typography/typographyBodySmall"></pattern>  | **Body Small** <br> 14px (0.875mu) |
-| <pattern path="src/patterns/--typography/typographyBodyMedium"></pattern> | **Body Medium** <br> 16px (1mu)    |
-| <pattern path="src/patterns/--typography/typographyBodyLarge"></pattern>  | **Body Large** <br> 18px (1.125mu) |
+|                                                                                                          |                                    |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| <pattern path="src/pages/Foundations/Typography/bodyStyles/--bodyStyles/typographyBodySmall"></pattern>  | **Body Small** <br> 14px (0.875mu) |
+| <pattern path="src/pages/Foundations/Typography/bodyStyles/--bodyStyles/typographyBodyMedium"></pattern> | **Body Medium** <br> 16px (1mu)    |
+| <pattern path="src/pages/Foundations/Typography/bodyStyles/--bodyStyles/typographyBodyLarge"></pattern>  | **Body Large** <br> 18px (1.125mu) |

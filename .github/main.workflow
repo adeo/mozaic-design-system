@@ -10,27 +10,21 @@ action "not master" {
   args = "not branch master"
 }
 
-action "Npm install" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+action "Npm lerna" {
+  uses = "nuxt/actions-yarn@master"
   needs = ["not master"]
-  args = "install"
+  args = "lerna"
 }
 
 action "npm build" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  needs = ["Npm install"]
-  args = "run build"
-}
-
-action "npm test" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  needs = ["npm build"]
-  args = "run test"
+  uses = "nuxt/actions-yarn@master"
+  needs = ["Npm lerna"]
+  args = "build"
 }
 
 action "GCP auth" {
   uses = "actions/gcloud/auth@df59b3263b6597df4053a74e4e4376c045d9087e"
-  needs = ["npm test"]
+  needs = ["npm build"]
   secrets = ["GCLOUD_AUTH"]
 }
 
@@ -48,16 +42,16 @@ action "Deployement url" {
 
 workflow "Release" {
   on = "release"
-  resolves = ["Npm publish"]
+  resolves = ["Deployement tag url"]
 }
 
 action "Npm install release" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  args = "install"
+  uses = "nuxt/actions-yarn@master"
+  args = "run lerna"
 }
 
 action "npm build release" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
+  uses = "nuxt/actions-yarn@master"
   needs = ["Npm install release"]
   args = "run build"
 }
@@ -78,17 +72,4 @@ action "Deployement tag url" {
   uses = "swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d"
   needs = ["Deploy Tag"]
   args = ["POST", "https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment", "ref=$GITHUB_REF env=production"]
-}
-
-action "npm registry" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  needs = ["Deployement tag url"]
-  args = "run registry"
-}
-
-action "Npm publish" {
-  uses = "actions/npm@4633da3702a5366129dca9d8cc3191476fc3433c"
-  needs = ["npm registry"]
-  secrets = ["NPM_AUTH_TOKEN"]
-  args = "publish registry --access public"
 }

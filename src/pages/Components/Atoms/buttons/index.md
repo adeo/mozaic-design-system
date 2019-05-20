@@ -12,7 +12,7 @@ order: 1
 You can use **primary**, **secondary**, & **danger** color scheme depending of the type of action the button trigger.
 There is also an alternative primary color scheme, only used for Campus : **primary-campus**.
 
-<pattern path="src/patterns/--button/button-styles"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/--button/button-styles"></pattern>
 
 <br>
 
@@ -31,13 +31,13 @@ There is **3 sizes** for the buttons to create hierarchy and for a better adapta
 - Medium
 - Large
 
-<pattern path="src/patterns/--button/button-sizes"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/--button/button-sizes"></pattern>
 
 <br>
 
 ### A button width can either fit its content or its container
 
-<pattern path="src/patterns/--button/button-widths"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/--button/button-widths"></pattern>
 
 <br>
 
@@ -46,7 +46,7 @@ There is **3 sizes** for the buttons to create hierarchy and for a better adapta
 - solid
 - bordered
 
-<pattern path="src/patterns/--button/intro"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/--button/intro"></pattern>
 
 ## Do's and don'ts
 
@@ -62,5 +62,5 @@ There is **3 sizes** for the buttons to create hierarchy and for a better adapta
 </hintitem>
 
 <hint type="dont" title="Never use in proximity two solid buttons with the same color scheme">
-    <pattern path="src/patterns/--button/button-proximity-dont"></pattern>
+    <pattern path="src/pages/Components/Atoms/buttons/--button/button-proximity-dont"></pattern>
 </hint>

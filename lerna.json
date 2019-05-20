@@ -1,0 +1,17 @@
+{
+    "packages": [
+        "packages/*"
+    ],
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "command": {
+        "publish": {
+            "ignoreChanges": [
+                "ignored-file",
+                "*.md"
+            ],
+            "message": "chore(release): publish"
+        }
+    },
+    "version": "1.0.1-alpha.1"
+}

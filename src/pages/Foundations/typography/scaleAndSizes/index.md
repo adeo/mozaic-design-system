@@ -5,7 +5,7 @@ order: 2
 
 # General fonts sizes and their usage :
 
-<pattern path="src/patterns/--font-scale/font-scale"></pattern>
+<pattern path="src/pages/Foundations/Typography/scaleAndSizes/--font-scale/font-scale"></pattern>
 
 | Id     | Value           | Mobile usage              | Desktop usage             | Token          |
 | ------ | --------------- | ------------------------- | ------------------------- | -------------- |
@@ -54,7 +54,7 @@ You can use any of the previous line-height depending on your needs, but conside
 
 <br>
 
-<pattern path="src/patterns/--font-line-heights/font-line-heights"></pattern>
+<pattern path="src/pages/Foundations/Typography/scaleAndSizes/--font-line-heights/font-line-heights"></pattern>
 
 | id     | font-size value | line-height XS | line-height S  | line-height M  | line-height L  | tokens                    |
 | ------ | --------------- | -------------- | -------------- | -------------- | -------------- | ------------------------- |

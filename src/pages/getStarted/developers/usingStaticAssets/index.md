@@ -7,9 +7,12 @@ order: 5
 
 Garden ship with static assets like fonts, icons, logos etc..
 
-All statics are found in the `nodes_modules/garden/statics/...` directory.
+you can find fonts and icons in the following packages :
 
-You should make a task to copy those static files automatically in order to stay up to date.
+- `@gardencss/web-fonts/**`
+- `@gardencss/icons/**`
+
+You can use make a task to copy those static files from the `nodes_modules` to your favorite destination automatically in order to stay up to date.
 
 To tell SCSS where to find those files in your project environement, declare before all your import a `$local-config` map :
 
@@ -20,7 +23,7 @@ $local-config: (
 );
 
 // then import settings
-@import 'nodes_modules/garden-css/settings-tools/_all-settings';
+@import 'nodes_modules/@gardencss/styles/settings-tools/_all-settings';
 
 // then everything else
 @import ...;

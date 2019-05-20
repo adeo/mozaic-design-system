@@ -21,20 +21,20 @@ order: 1
 
 # Default
 
-<pattern path="src/patterns/--input/input-default"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/--input/input-default"></pattern>
 
 <br/>
 
 ### CSS Tokens
 
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **default**  | background    | `color.input.background` |
-| **default**  | border-color  | `color.input.border    ` |
-| **default**  | color         | `color.input.text      ` |
-| **default**  | padding       | `mu-100                     ` |
-| **default**  | border-radius | `radius.m`                     |
-| **default**  | font-size     | `size.font.05`                 |
+| State       | Property      | Token                    |
+| ----------- | ------------- | ------------------------ |
+| **default** | background    | `color.input.background` |
+| **default** | border-color  | `color.input.border`     |
+| **default** | color         | `color.input.text`       |
+| **default** | padding       | `mu-100`                 |
+| **default** | border-radius | `radius.m`               |
+| **default** | font-size     | `size.font.05`           |
 
 ## Supported events
 
@@ -48,17 +48,16 @@ order: 1
 
 <br/>
 
-<pattern path="src/patterns/--input/input-default-event"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/--input/input-default-event"></pattern>
 
 <br/>
 
 ### CSS tokens
 
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **hover**    | border-color  | `color.input.hover.border` |
-| **focus**    | border-color  | `color.input.focus.border` |
-
+| State     | Property     | Token                      |
+| --------- | ------------ | -------------------------- |
+| **hover** | border-color | `color.input.hover.border` |
+| **focus** | border-color | `color.input.focus.border` |
 
 <br/>
 
@@ -66,14 +65,13 @@ order: 1
 
 # Disabled status
 
-
 <hintitem dont=true>
     <strong>Disabled status</strong> can't support any other styles or event
 </hintitem>
 
 <br/>
 
-<pattern path="src/patterns/--input/input-default-disabled"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/--input/input-default-disabled"></pattern>
 
 <br/>
 
@@ -81,29 +79,27 @@ order: 1
 
 # Valid status
 
-<pattern path="src/patterns/--input/input-valid"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/--input/input-valid"></pattern>
 
 <br/>
 
 ### CSS Tokens
 
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **valid**    | border-color  | `color.input.valid.border` |
-
+| State     | Property     | Token                      |
+| --------- | ------------ | -------------------------- |
+| **valid** | border-color | `color.input.valid.border` |
 
 ## Supported events
 
-<pattern path="src/patterns/--input/input-valid-event"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/--input/input-valid-event"></pattern>
 
 <br/>
 
 ### CSS tokens
 
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **hover**    | border-color  | `color.input.valid.hover.border` |
-
+| State     | Property     | Token                            |
+| --------- | ------------ | -------------------------------- |
+| **hover** | border-color | `color.input.valid.hover.border` |
 
 <br/>
 
@@ -111,24 +107,24 @@ order: 1
 
 # Invalid status
 
-<pattern path="src/patterns/--input/input-invalid"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/--input/input-invalid"></pattern>
 
 <br/>
 
 ### CSS Tokens
 
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **invalid**    | border-color  | `color.input.invalid.border` |
+| State       | Property     | Token                        |
+| ----------- | ------------ | ---------------------------- |
+| **invalid** | border-color | `color.input.invalid.border` |
 
 ## Supported events
 
-<pattern path="src/patterns/--input/input-invalid-event"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/--input/input-invalid-event"></pattern>
 
 <br/>
 
 ### CSS tokens
 
-| State        | Property      | Token              |
-| ------------ | ------------- | ------------------------------ |
-| **hover**    | border-color  | `color.input.invalid.hover.border` |
+| State     | Property     | Token                              |
+| --------- | ------------ | ---------------------------------- |
+| **hover** | border-color | `color.input.invalid.hover.border` |

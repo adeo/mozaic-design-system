@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Layout from '../gatsby-components/layout'
-import Container from '../gatsby-components/Container'
+import Layout from '@gardencss/gatsby-theme-styleguide/src/gatsby-components/layout'
+import Container from '@gardencss/gatsby-theme-styleguide/src/gatsby-components/Container'
 
 const IndexPage = () => {
   return (

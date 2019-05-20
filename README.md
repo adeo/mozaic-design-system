@@ -15,42 +15,49 @@ Please considere that this repo is in early stage of development. You can report
 - [Project roadmap](https://github.com/adeo/design-system--styleguide/wiki)
 - [glossary](https://github.com/adeo/design-system--styleguide/wiki/Glossary)
 - design system workflow :
-    - [Things to keep in mind for any contribution](https://github.com/adeo/design-system--styleguide/wiki/Things-to-keep-in-mind-for-any-contribution)
-    - [Pattern submission workflow](https://github.com/adeo/design-system--styleguide/wiki/New-pattern-submission-workflow)
-    - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
+  - [Things to keep in mind for any contribution](https://github.com/adeo/design-system--styleguide/wiki/Things-to-keep-in-mind-for-any-contribution)
+  - [Pattern submission workflow](https://github.com/adeo/design-system--styleguide/wiki/New-pattern-submission-workflow)
+  - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
 - how to create pages and content in the pattern library :
-    - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
-    - [Create and display a pattern](https://github.com/adeo/design-system--styleguide/wiki/Create-and-display-patterns)
-    - [Other in-page components](https://github.com/adeo/design-system--styleguide/wiki/Other-in-page-components)
+  - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
+  - [Create and display a pattern](https://github.com/adeo/design-system--styleguide/wiki/Create-and-display-patterns)
+  - [Other in-page components](https://github.com/adeo/design-system--styleguide/wiki/Other-in-page-components)
 
 #### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md)
 
-### requirements :
+### Requirements :
 
 - node v10+
 - yarn
 
-#### to install node:
+#### To install node:
 
 please folow the this [guide](https://nodejs.org/en/download/package-manager/)
 
-#### to install yarn :
+#### To install yarn :
 
 `npm i -g yarn`
 
-## development :
+## Development :
 
-#### clone the repo and start the development environement
+### Note about the project architecture
 
-`git clone git@github.com:adeo/design-system--styleguide.git`
-`cd design-system--styleguide`
-`yarn install`
-`yarn develop`
+The project Use a monorepo architecture using [lerna](https://github.com/lerna/lerna/).
+Lerna help us to manage the distribution and the versionning of multiple packages into the same repository.
+It also create symlink between the individual packages nodes_modules so they can be used in one another as npm dependencies.
 
-please considere that being in early stage of development, you may need to stop and restart the `yarn develop` command in order to see changes.
-we are working on it :)
+When releasing the design system, lerna will automaticaly generate changelogs for the global/parent repo, as well as for the individual packages and select a version number based on the commit syntax. It's why it is very important that you follow the [contributing guidelines](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md).
 
-## lint and fix your css files using stylelint
+please [read the docs](https://github.com/lerna/lerna/) to learn more about it.
+
+### Clone the repo and start the development environement
+
+`git clone git@github.com:adeo/design-system--styleguide.git` // clone the repo
+`cd design-system--styleguide` // move to the repo
+`yarn lerna` // install dependencies and create symlink between packages
+`yarn develop` // lunch the dev server
+
+## Lint and fix your css files using stylelint
 
 ```bash
 yarn css:fix
@@ -66,7 +73,7 @@ and make the required changes.
 
 stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuffs ;).
 
-## create a production build :
+## Create a production build :
 
 `yarn build`
 
@@ -106,7 +113,7 @@ the registry is automaticaly deployed and pushed into the npm registry.
 
 **bio and interests :**
 
-UI designer and Front end developer freelance since 2007, I’ve built a solid experience creating HTML/CSS frameworks. I’ve worked with several design systems, and try build a solid expertise in that area.
+UI designer and Front end developer freelance since 2007, I’ve built a solid experience creating HTML/CSS frameworks. I’ve worked with several design systems, and try to build a solid expertise in that area.
 I’m into lean approach, and I like to work with react and javascript too.
 On a personal level, I love boxing, hiking and photography.
 
