@@ -74,7 +74,7 @@
     "css:lint": "npx stylelint npx stylelint src/patterns/**/*.scss packages/styles/**/*.scss",
     "icons:clean": "node iconCompiler/svg-cleaner.js",
     "icons:datas": "node iconCompiler/generateIconsDatas.js",
-    "icons:build": "yarn icons:clean && yarn icons:datas && cp -R static/icons/ packages/icons/",
+    "icons:build": "yarn icons:clean && yarn icons:datas && cp -R static/icons/. packages/icons/",
     "prebuild": "yarn tokens:build && yarn icons:build",
     "lerna": "npx lerna clean -y && npx lerna bootstrap",
     "build": "npx gatsby build",

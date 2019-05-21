@@ -12,17 +12,13 @@ export default (markdowns, fileTree, location) => {
       order: node.frontmatter.order ? node.frontmatter.order : 100,
     }))
 
-  // is it a menu item candidate
-  const isAMenuItemDir = node =>
-    node.type === 'directory' && !node.name.includes('--')
-
   // return a directory tree with only directories
   const filterPagesDirectories = subTree =>
     subTree
-      // filter what's not a directory or is a pattern directory
-      .filter(isAMenuItemDir)
+      // filter what's not a directory
+      .filter(node => node.type === 'directory' && node.name !== 'previews')
       .map(dir => ({
-        path: dir.path.replace(/\\/g, '/').replace('src/', ''), // normalise path to compare between markdowns and dirtree
+        path: dir.path.replace('src/', ''), // normalise path to compare between markdowns and dirtree
         children:
           dir.childrenNode && dir.childrenNode.length > 0
             ? filterPagesDirectories(dir.childrenNode)
@@ -66,5 +62,11 @@ export default (markdowns, fileTree, location) => {
       })
       .sort((a, b) => a.order - b.order)
 
-  return MenuBuilderIterator(filterPagesDirectories(fileTree), markdownsIndexes)
+  const menu = MenuBuilderIterator(
+    filterPagesDirectories(fileTree),
+    markdownsIndexes
+  )
+
+  console.log(JSON.stringify(menu, 0, 2))
+  return menu
 }

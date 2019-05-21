@@ -5,7 +5,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
-      resolve: '@gardencss/gatsby-source-pattern',
+      resolve: '@gardencss/gatsby-source-preview',
       options: {
         path: 'src/pages',
         stylesPath: 'packages/styles',
@@ -40,7 +40,7 @@ module.exports = {
       options: {
         name: `src`,
         path: path.join('src'),
-        ignore: [`**/\.pattern.*`], // ignore files starting with a dot
+        ignore: [`**/Previews/*.*`], // ignore files starting with a dot
       },
     },
     'gatsby-transformer-json',

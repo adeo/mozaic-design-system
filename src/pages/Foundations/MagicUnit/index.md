@@ -1,6 +1,6 @@
 ---
 title: 'Magic Unit'
-order: 2
+order: 3
 ---
 
 > **The magic unit is a base unit for any element or property that require a defined dimension**. It is equal to **16px** but is expressed in **rem**.<br> We multiply or divide it to define white spaces, icons sizes, lines heights etc...
@@ -20,7 +20,7 @@ In the folowing exemple, we see a **grid in the background that is based on the 
 We can see the red squares snaping to the magic unit grid.
 By **hovering the squares**, you can see how we used the magic unit and the conrresponding values in Px :
 
-<pattern path="src/pages/Foundations/magicUnit/--magic-unit/magic-unit"></pattern>
+<preview path="src/pages/Foundations/MagicUnit/previews/magic-unit"></pattern>
 
 <br><br>
 
