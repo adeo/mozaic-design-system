@@ -40,7 +40,7 @@ module.exports = {
       options: {
         name: `src`,
         path: path.join('src'),
-        ignore: [`**/\.pattern.*`], // ignore files starting with a dot
+        ignore: [`**/Previews/*.*`], // ignore files starting with a dot
       },
     },
     'gatsby-transformer-json',

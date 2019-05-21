@@ -88,13 +88,13 @@ Columns are defined by the using the class `.gl-flexy__col` on a direct child of
 
 By default, `.gl-flexy` `flex-wrap` is set to `wrap`, meaning that columns will wrap to the next line when their total width exeeds 100% of the `.gl-flexy` width.
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexyWrap"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexyWrap"></pattern>
 
 `.gl-flexy__col` is set to `flex: 1` by default, meaning that a `.gl-flexy__col` will take the available width of a `.gl-flexy` container.
 
 Adding 3 `.gl-flexy__col` in a same `.gl-flexy` container will result in 3 columns taking up each 1/3 of the available space.
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexyDefaultCol"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexyDefaultCol"></pattern>
 
 ### Columns widths
 
@@ -117,7 +117,7 @@ you can apply specific columns width using `.gl-flexy__col` modifiers :
 
 <br>
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexy"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexy"></pattern>
 
 ### Responsive widths
 
@@ -134,7 +134,7 @@ The available breakpoints modifiers are :
 
 <br>
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexyResponsive"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexyResponsive"></pattern>
 
 ## Alignment
 
@@ -152,7 +152,7 @@ Available modifiers are :
 
 <br>
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexyAlign"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexyAlign"></pattern>
 
 ## Nesting flexy grids
 
@@ -171,16 +171,16 @@ You can either nest flexy grids by creating a new `.gl-flexy` grid inside a colu
 ...
 ```
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexyNested"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexyNested"></pattern>
 
 ## Columns Order
 
 Use the `gl-flexy__col--last` and `gl-flexy__col--first` modifier to reorder columns.
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexyOrder"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexyOrder"></pattern>
 
 ## Use flexy to center vertically and horizontally
 
 Use the `gl-flexy--space-around` and the `gl-flexy--items-center` modifier on a `gl-flexy` element to center vertically and horizontally elements.
 
-<pattern path="src/pages/Foundations/Layout/Grid/--flexy/flexyCentered"></pattern>
+<pattern path="src/pages/Foundations/Layout/Grid/Previews/flexyCentered"></pattern>

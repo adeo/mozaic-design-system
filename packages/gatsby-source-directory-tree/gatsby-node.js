@@ -56,7 +56,14 @@ exports.sourceNodes = (
   const buildSourceDirectoryTree = () =>
     new Promise((resolve, reject) => {
       const { createNode } = actions
-      const tree = dirTree(configOptions.path)
+      const tree = dirTree(configOptions.path, {
+        normalizePath: true,
+        exclude: /Previews/,
+        extensions: /^(.*\.(?!(htm|html|css|scss|jpg|png|svg|js)$))?[^.]*$/i,
+      })
+
+      console.log(JSON.stringify(tree, 0, 2))
+
       const processDirectoryTree = (tree, parentNode) => {
         const nodeId = createNodeId(`directory-tree-${tree.path}`)
 
@@ -92,6 +99,7 @@ exports.sourceNodes = (
 
       const processChildren = (children, parentNode) => {
         let childrenNodes = []
+
         children.forEach(element => {
           const nodeData = processDirectoryTree(element, parentNode)
           createNode(nodeData)
@@ -104,7 +112,6 @@ exports.sourceNodes = (
       }
 
       const nodeData = processDirectoryTree(tree)
-
       resolve(createNode(nodeData))
     })
 

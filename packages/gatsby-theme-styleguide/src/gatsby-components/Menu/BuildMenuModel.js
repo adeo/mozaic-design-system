@@ -66,5 +66,12 @@ export default (markdowns, fileTree, location) => {
       })
       .sort((a, b) => a.order - b.order)
 
-  return MenuBuilderIterator(filterPagesDirectories(fileTree), markdownsIndexes)
+  const menu = MenuBuilderIterator(
+    filterPagesDirectories(fileTree),
+    markdownsIndexes
+  )
+
+  console.log(JSON.stringify(menu, 0, 2))
+
+  return menu
 }

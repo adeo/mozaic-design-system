@@ -21,7 +21,7 @@ order: 1
 
 # Default
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-default"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-default"></pattern>
 
 <br/>
 
@@ -48,7 +48,7 @@ order: 1
 
 <br/>
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-default-event"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-default-event"></pattern>
 
 <br/>
 
@@ -71,7 +71,7 @@ order: 1
 
 <br/>
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-default-disabled"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-default-disabled"></pattern>
 
 <br/>
 
@@ -79,7 +79,7 @@ order: 1
 
 # Valid status
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-valid"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-valid"></pattern>
 
 <br/>
 
@@ -91,7 +91,7 @@ order: 1
 
 ## Supported events
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-valid-event"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-valid-event"></pattern>
 
 <br/>
 
@@ -107,7 +107,7 @@ order: 1
 
 # Invalid status
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-invalid"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-invalid"></pattern>
 
 <br/>
 
@@ -119,7 +119,7 @@ order: 1
 
 ## Supported events
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-invalid-event"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-invalid-event"></pattern>
 
 <br/>
 

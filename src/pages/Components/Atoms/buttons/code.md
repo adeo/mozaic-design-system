@@ -18,7 +18,7 @@ To create a solid button you have one main class to apply `ga-button`.
 <a href="#" class="ga-button">Label</a>
 ```
 
-<pattern path="src/pages/Components/Atoms/buttons/--button/basic"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/Previews/basic"></pattern>
 
 ## Variations
 
@@ -40,7 +40,7 @@ example :
 <a href="#" class="ga-button ga-button--bordered-primary-campus">Button</a>
 ```
 
-<pattern path="src/pages/Components/Atoms/buttons/--button/button-styles"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/Previews/button-styles"></pattern>
 
 ### Available sizes
 
@@ -56,7 +56,7 @@ You can use one of the 3 available sizes :
 <a href="#" class="ga-button ga-button--large">Button</a>
 ```
 
-<pattern path="src/pages/Components/Atoms/buttons/--button/button-sizes"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/Previews/button-sizes"></pattern>
 
 #### Responsive classes
 
@@ -96,7 +96,7 @@ Standard button states :
 - `focus`
 - `disabled`
 
-<pattern path="src/pages/Components/Atoms/buttons/--button/button-state"></pattern>
+<pattern path="src/pages/Components/Atoms/buttons/Previews/button-state"></pattern>
 
 ## Mixins
 

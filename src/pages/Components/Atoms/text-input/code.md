@@ -15,7 +15,7 @@ First of all, you need to import the `.scss` file.
 
 To style an HTML Input, apply the `ga-input` class.
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-default"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-default"></pattern>
 
 ### Manage event
 
@@ -27,7 +27,7 @@ Events are manage using `:hover` and `:focus` CSS pseudo-class.
 
 <br/>
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-default-event"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-default-event"></pattern>
 
 ### Manage validation state
 
@@ -36,7 +36,7 @@ To indicate the validation state of your input like valid or invalid. You can us
 - `is-valid`
 - `is-invalid`
 
-<pattern path="src/pages/Components/Atoms/text-input/--input/input-state"></pattern>
+<pattern path="src/pages/Components/Atoms/text-input/Previews/input-state"></pattern>
 
 <br/>
 
