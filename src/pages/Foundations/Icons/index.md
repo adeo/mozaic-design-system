@@ -9,10 +9,22 @@ order: 1
 
 An icon must be :
 <br/><br/>
-<hintitem>Easy to understand</hintitem>
-<hintitem>Abstract</hintitem>
-<hintitem>Visual</hintitem>
-<hintitem>Outlined</hintitem>
+
+<hintitem>
+  Easy to understand
+</hintitem>
+
+<hintitem>
+  Abstract
+</hintitem>
+
+<hintitem>
+  Visual
+</hintitem>
+
+<hintitem>
+  Outlined
+</hintitem>
 
 ## Use cases
 An icon can be used in different cases on leroymerlin.fr.
