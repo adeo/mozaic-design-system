@@ -1,11 +1,11 @@
 {
   "name": "@gardencss/gatsby-theme-styleguide",
-  "version": "1.0.1-alpha.4",
+  "version": "1.0.1-alpha.5",
   "main": "index.js",
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "license": "MIT",
   "dependencies": {
-    "@gardencss/gatsby-github-release": "^1.0.1-alpha.4",
+    "@gardencss/gatsby-github-release": "^1.0.1-alpha.5",
     "@gardencss/gatsby-source-directory-tree": "^1.0.1-alpha.4",
     "@gardencss/gatsby-source-pattern": "^1.0.1-alpha.4",
     "gatsby-plugin-manifest": "^2.0.5",

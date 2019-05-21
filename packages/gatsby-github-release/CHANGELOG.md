@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.5](https://github.com/adeo/design-system--front-end/compare/v1.0.1-alpha.4...v1.0.1-alpha.5) (2019-05-21)
+
+
+### Bug Fixes
+
+* **version nb:** use lerna.json instead of package.json to get version ([#244](https://github.com/adeo/design-system--front-end/issues/244)) ([4bebc47](https://github.com/adeo/design-system--front-end/commit/4bebc47))
+
+
+
+
+
 ## [1.0.1-alpha.4](https://github.com/adeo/design-system--front-end/compare/v0.0.12...v1.0.1-alpha.4) (2019-05-20)
 
 **Note:** Version bump only for package @gardencss/gatsby-github-release
