@@ -34,7 +34,7 @@ exports.sourceNodes = async ({
   const data = await response.json()
 
   const version = JSON.parse(
-    fs.readFileSync(path.join(process.cwd(), 'package.json'))
+    fs.readFileSync(path.join(process.cwd(), 'lerna.json'))
   )
 
   const tags = data.data.repository.releases.nodes
