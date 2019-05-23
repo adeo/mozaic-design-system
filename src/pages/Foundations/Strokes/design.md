@@ -3,7 +3,12 @@ title: 'Design'
 order: 3
 ---
 
+##Anatomy
+
+![strokesInside](StrokesInside.png)
+
 ## How to use
 
-Always set **borders inside** with **squared ends** for any component.
-
+<hintitem> Always set borders **inside** </hintitem>
+<hintitem> Always set **squared ends** for open shapes</hintitem>
+<hintitem> Always set **squared joins** for open shapes</hintitem>
