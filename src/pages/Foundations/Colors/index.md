@@ -13,13 +13,14 @@ Primary colors are the brand colors. They are the key components for our users t
 
 ## Primary 01
 
-This primary green is the essence of the brand Leroy Merlin.
+The primary green is the essence of the brand **LEROY MERLIN**.
 
 <swatch id="primary-01"></swatch>
 
 ## Primary 02
 
-This primary blue is what defines consumer education in Leroy Merlin.
+The primary blue is the essence of the sub-brand **LEROY MERLIN Campus**. <br>
+Campus is a brand of leroymerlin.fr dedicated to the inhabitant learning, it provides many DIY online and in-store courses.
 
 <swatch id="primary-02"></swatch>
 
