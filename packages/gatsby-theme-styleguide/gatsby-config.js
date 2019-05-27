@@ -2,8 +2,6 @@ const path = require('path')
 
 module.exports = {
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-styled-components',
     {
       resolve: '@gardencss/gatsby-source-preview',
       options: {
@@ -11,6 +9,8 @@ module.exports = {
         stylesPath: 'packages/styles',
       },
     },
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     {
       resolve: '@gardencss/gatsby-source-directory-tree',
       options: {
@@ -40,7 +40,7 @@ module.exports = {
       options: {
         name: `src`,
         path: path.join('src'),
-        ignore: [`**/Previews/*.*`], // ignore files starting with a dot
+        ignore: [`**/Previews/*.*`, `*.previews.*`], // ignore files starting with a dot
       },
     },
     'gatsby-transformer-json',
