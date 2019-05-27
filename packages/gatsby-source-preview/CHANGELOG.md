@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.6](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.5...v1.0.1-alpha.6) (2019-05-27)
+
+
+### Bug Fixes
+
+* **menu:** navigation structure broken + naming cleanup ([#247](https://github.com/adeo/design-system--styleguide/issues/247)) ([eecaa99](https://github.com/adeo/design-system--styleguide/commit/eecaa99))
+
+
+### Performance Improvements
+
+* **styleguide/previews:** make the previews scss build fast ([#248](https://github.com/adeo/design-system--styleguide/issues/248)) ([44846a3](https://github.com/adeo/design-system--styleguide/commit/44846a3))
+
+
+
+
+
 ## [1.0.1-alpha.4](https://github.com/adeo/design-system--front-end/compare/v0.0.12...v1.0.1-alpha.4) (2019-05-20)
 
 **Note:** Version bump only for package @gardencss/gatsby-source-pattern
