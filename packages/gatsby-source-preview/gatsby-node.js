@@ -62,6 +62,10 @@ exports.sourceNodes = (
 
   const buildPreviews = () =>
     new Promise((resolve, reject) => {
+      console.log('-----------------------------')
+      console.log('--- building all previews ---')
+      console.log('-----------------------------')
+
       const { createNode } = actions
       const tree = dirTree(configOptions.path)
 
@@ -145,10 +149,9 @@ exports.sourceNodes = (
   // into a queue and then flush the queue when 'ready' event arrives.
   // After 'ready', we handle the 'add' event without putting it into a queue.
   let pathQueue = []
+
   const flushPathQueue = () => {
-    let queue = pathQueue.slice()
-    pathQueue = []
-    return Promise.all(queue.map(buildPreviews))
+    buildPreviews()
   }
 
   watcher.on(`add`, path => {
@@ -157,11 +160,9 @@ exports.sourceNodes = (
         currentState.value.CHOKIDAR ===
         `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
       ) {
+        buildPreviews().catch(err => reporter.error(err))
         reporter.info(`added PREVIEW file at ${path}`)
       }
-      buildPreviews().catch(err => reporter.error(err))
-    } else {
-      pathQueue.push(path)
     }
   })
 
@@ -170,9 +171,9 @@ exports.sourceNodes = (
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
     ) {
+      buildPreviews().catch(err => reporter.error(err))
       reporter.info(`changed PREVIEW file at ${path}`)
     }
-    buildPreviews().catch(err => reporter.error(err))
   })
 
   watcher.on(`unlink`, path => {
@@ -196,11 +197,9 @@ exports.sourceNodes = (
         currentState.value.CHOKIDAR ===
         `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
       ) {
+        buildPreviews().catch(err => reporter.error(err))
         reporter.info(`added directory at ${path}`)
       }
-      buildPreviews().catch(err => reporter.error(err))
-    } else {
-      pathQueue.push(path)
     }
   })
 
@@ -223,8 +222,7 @@ exports.sourceNodes = (
         currentState.value,
         `CHOKIDAR_PREVIEW_READY`
       )
-      pathQueue.push('test')
-      flushPathQueue().then(resolve, reject)
+      buildPreviews().then(resolve, reject)
     })
   })
 }
