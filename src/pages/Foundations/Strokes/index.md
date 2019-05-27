@@ -1,25 +1,25 @@
 ---
 title: 'Strokes'
-order: 6
+order: 1
 ---
 
 > Strokes are visual elements that space and structure contents. Different border thickness are used to create a hierarchy.
 
-## Three available sizes
+## Preview
 
-There are **three different thickness levels** :
+Strokes can be applied to different components like :
 
-- `s`
-- `m`
-- `l`
-
-<br>
-
-<hintitem>Use borders **S and M** for components.</hintitem>
-<hintitem dont="true">Use border **S, M and L** for icons.</hintitem>
+- Icon lines,
+- Button and notification outlines,
+- Dividers,
+- etc
 
 ![strokesExemples](StrokesExemples.png)
 
-## Icons
+## Variations
 
-Icons use different rules <br>
+There are **three different thickness levels** :
+
+- `Small` : 1px (0.0625mu)
+- `Large` : 2px (0.125mu)
+- `Medium` : 3px (0.1875mu)
