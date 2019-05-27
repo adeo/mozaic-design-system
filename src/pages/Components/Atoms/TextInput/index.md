@@ -3,128 +3,56 @@ title: 'Text input'
 order: 1
 ---
 
-> Everything you need to know about styling HTML input element.
+##Preview
+
+> Inputs are used to **create input fields with text on a single line**. Their states depends on the user interaction or the context.
+
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-preview"></preview>
+
+## Standard input states :
+
+###Hover
+
+When the input is hovered due to user navigation.
+
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-hover-state"></preview>
+
+###Focus
+
+When the input is in focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key.
+
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-focus-state"></preview>
+
+###Disabled
+When the input field is inactive or inaccessible. It is usually used when the input, for some reason, is forbidden or blocked to be edited.
+
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-disabled-state"></preview>
+
+###Valid
+When the entry is correct against the criteria determined upstream.
+
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-valid-state"></preview>
+
+###Invalid
+
+When the entry is invalid against the criteria determined upstream.
+
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-invalid-state"></preview>
+
+## Do's and don'ts
 
 <hintitem>
-    Supported input types :
-    <ul>
-        <li><code>text</code></li>
-        <li><code>email</code></li>
-        <li><code>date</code></li>
-        <li><code>password</code></li>
-        <li><code>number</code></li>
-        <li><code>tel</code></li>
-        <li><code>number</code></li>
-        <li><code>search</code></li>
-    </ul>
+You can cumulate différents states like that :
 </hintitem>
-
-# Default
-
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-default"></pattern>
-
-<br/>
-
-### CSS Tokens
-
-| State       | Property      | Token                    |
-| ----------- | ------------- | ------------------------ |
-| **default** | background    | `color.input.background` |
-| **default** | border-color  | `color.input.border`     |
-| **default** | color         | `color.input.text`       |
-| **default** | padding       | `mu-100`                 |
-| **default** | border-radius | `radius.m`               |
-| **default** | font-size     | `size.font.05`           |
-
-## Supported events
-
-<hintitem>
-    Input supports <code>hover</code> and <code>focus</code> event
-</hintitem>
-
-<hintitem>
-    <strong>Focus border color has priority</strong> on all styles already applied
-</hintitem>
-
-<br/>
-
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-default-event"></pattern>
-
-<br/>
-
-### CSS tokens
-
-| State     | Property     | Token                      |
-| --------- | ------------ | -------------------------- |
-| **hover** | border-color | `color.input.hover.border` |
-| **focus** | border-color | `color.input.focus.border` |
-
-<br/>
-
----
-
-# Disabled status
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-invalid-event"></preview>
 
 <hintitem dont=true>
-    <strong>Disabled status</strong> can't support any other styles or event
+when <strong>disabled</strong>, an input field can never display any other state styles.
 </hintitem>
 
-<br/>
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-default-disabled"></preview>
 
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-default-disabled"></pattern>
+## Accessibility
 
-<br/>
-
----
-
-# Valid status
-
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-valid"></pattern>
-
-<br/>
-
-### CSS Tokens
-
-| State     | Property     | Token                      |
-| --------- | ------------ | -------------------------- |
-| **valid** | border-color | `color.input.valid.border` |
-
-## Supported events
-
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-valid-event"></pattern>
-
-<br/>
-
-### CSS tokens
-
-| State     | Property     | Token                            |
-| --------- | ------------ | -------------------------------- |
-| **hover** | border-color | `color.input.valid.hover.border` |
-
-<br/>
-
----
-
-# Invalid status
-
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-invalid"></pattern>
-
-<br/>
-
-### CSS Tokens
-
-| State       | Property     | Token                        |
-| ----------- | ------------ | ---------------------------- |
-| **invalid** | border-color | `color.input.invalid.border` |
-
-## Supported events
-
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-invalid-event"></pattern>
-
-<br/>
-
-### CSS tokens
-
-| State     | Property     | Token                              |
-| --------- | ------------ | ---------------------------------- |
-| **hover** | border-color | `color.input.invalid.hover.border` |
+- **Input text must have an explicit label.**
+- **Always use a label associated with an input <small>remember that a placeholder is not a replacement for a label !**</small>

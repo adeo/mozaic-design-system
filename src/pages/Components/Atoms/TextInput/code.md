@@ -3,43 +3,65 @@ title: 'Code'
 order: 2
 ---
 
-### File(s) to import
+## Import
 
-First of all, you need to import the `.scss` file.
+Import the settings and the text-input `scss` files.
 
 ```scss
-@import 'atoms/_a.input';
+@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/garden-css/styles/atoms/_a.text-input';
 ```
 
-### Apply CSS Class
+## Basic usage
 
-To style an HTML Input, apply the `ga-input` class.
+<!-- ### Apply CSS Class -->
 
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-default"></pattern>
+To create an input you have one main class to apply `ga-input`.
 
-### Manage event
+```html
+<input type="text" class="ga-input" placeholder="Empty" name="example" />
+```
 
-<hintitem>
-    Input supports <code>hover</code> and <code>focus</code> event
-</hintitem>
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-default"></preview>
 
-Events are manage using `:hover` and `:focus` CSS pseudo-class.
+## Behaviors
 
-<br/>
+### Standard input states :
 
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-default-event"></pattern>
-
-### Manage validation state
-
-To indicate the validation state of your input like valid or invalid. You can use two state CSS Classes :
-
+- `hover`
+- `focus`
+- `disabled`
 - `is-valid`
 - `is-invalid`
 
-<preview path="src/pages/Components/Atoms/TextInput/previews/input-state"></pattern>
+<preview path="src/pages/Components/Atoms/TextInput/previews/input-state"></preview>
 
-<br/>
+## Do's and don'ts
 
----
+<hintitem>
+    You can cumulate states like that :
+</hintitem>
 
-> Note that <strong>if you try to apply those CSS classes to an unsupported input type.</strong> It could work but you should find something which better suits to your needs in the documentation.
+```html
+<input
+  type="text"
+  class="ga-input is-invalid is-hover"
+  placeholder="Empty"
+  name="example"
+/>
+```
+
+## Accessibility and semantic
+
+**Always use a label with an input.**
+
+```html
+<label for="myExample">My example</label>
+<input
+  id="myExample"
+  type="text"
+  class="ga-input"
+  placeholder="Empty"
+  name="example"
+/>
+```
