@@ -1,6 +1,6 @@
 {
   "name": "@gardencss/gatsby-source-preview",
-  "version": "1.0.1-alpha.4",
+  "version": "1.0.1-alpha.6",
   "description": "",
   "main": "index.js",
   "scripts": {
