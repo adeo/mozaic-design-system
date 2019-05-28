@@ -1,9 +1,9 @@
 ---
-title: 'SCSS - flexy grid'
+title: 'Code'
 order: 1
 ---
 
-> Flexy is a grid system and a general purpose layout tool based on Flex. It can be used to build page level layout as well as component level one.
+> Flexy is a grid system and a general purpose layout tool based on Flex. It can be used to build page level layout as well as component level one. It is why it is not called "grid" but "flexy".
 
 ## Basics
 
@@ -57,7 +57,7 @@ to create a grid, you need 2 elements :
 
 In most cases you will need gutters.
 
-When **used with gutters**, `.gl-flexy` uses the négative margin pattern : each column as a padding mesuring alf a gutter width, and the containing `.gl-flexy` as a négative margin equal to alf a gutter width on both side as well.
+When **used with gutters**, `.gl-flexy` uses the negative margin pattern : each column as a padding mesuring half a gutter width, and the containing `.gl-flexy` as a negative margin equal to half a gutter width on both side as well.
 
 ```html
 <div class="gl-flexy gl-flexy--gutter">
@@ -134,7 +134,7 @@ The available breakpoints modifiers are :
 
 <br>
 
-<preview path="src/pages/Foundations/Layout/Grid/previews/flexyResponsive"></pattern>
+<preview path="src/pages/Foundations/Layout/Grid/previews/flexyResponsive"></preview>
 
 ## Alignment
 
@@ -153,6 +153,40 @@ Available modifiers are :
 <br>
 
 <preview path="src/pages/Foundations/Layout/Grid/previews/flexyAlign"></pattern>
+
+## Pushing a column to the left
+
+You can push a column using the `gl-flexy__col--push-[XofY]` modifiers.
+
+```html
+...
+<div
+  class="
+  gl-flexy__col
+  gl-flexy__col--1of3
+  gl-flexy__col--push-1of3"
+>
+  <!-- column content -->
+</div>
+...
+```
+
+All columns widths (numerical) are available as push values from `1of12`, `1of6`, `1of4` ... to `11of12`
+
+<preview path="src/pages/Foundations/Layout/Grid/previews/flexyPush"></pattern>
+
+### Responsive push modifiers
+
+Apply widths to breakpoints using the `@from-XX` sufix to the widths modifiers.
+
+The available breakpoints modifiers are :
+
+| Modifier                                   | breakpoint                     | corresponding device                 |
+| ------------------------------------------ | ------------------------------ | ------------------------------------ |
+| `gl-flexy__col--push-[size]` (no modifier) | from 0px and up                | mobile / all                         |
+| `gl-flexy__col--push-[size]@from-m`        | **m**: from **576px and up**   | fablet / small tablet and up         |
+| `gl-flexy__col--push-[size]@from-l`        | **l**: from **1100px and up**  | large tablets / small labtops and up |
+| `gl-flexy__col--push-[size]@from-xl`       | **xl**: from **1920px and up** | labtops and up                       |
 
 ## Nesting flexy grids
 
@@ -184,3 +218,124 @@ Use the `gl-flexy__col--last` and `gl-flexy__col--first` modifier to reorder col
 Use the `gl-flexy--space-around` and the `gl-flexy--items-center` modifier on a `gl-flexy` element to center vertically and horizontally elements.
 
 <preview path="src/pages/Foundations/Layout/Grid/previews/flexyCentered"></pattern>
+
+## Customisation and mixins
+
+There is 8 available mixins that you can work with to help you create layouts :
+
+- `set-flex-container` : add flex properties to a container (similar than `.gl-flexy`)
+- `set-flex-width` : add a width properties to a flex child (similar than `.gl-flexy__col--XofX`)
+- `set-flex-container-gutter` and `set-flex-child-gutter` : add gutters to the a flex container and his child
+- `set-flex-push` : add a margin left to a flex child (similar than `.gl-flexy__col--push-XofX`)
+- `make-flexy-col` : create a new column width of type `.gl-flexy__col--XofX`
+- `make-flexy-custom-col` : create custom columns (with any properties you whant `.gl-flexy__col--XXX`)
+- `make-flexy-col-push` : create a new column push of type `.gl-flexy__col--push-XofX`
+
+### The set-flex-xxx mixins
+
+<hintitem>
+Use the set-flex-xxx to mimic the behavior of a grid without applying classes on the dom
+</hintitem>
+
+Example : Create a blog post layout with an image and a text. From tablet screens, put the text in front of the image.
+
+```scss
+@import 'settings-tools/_all-settings';
+
+.post-item {
+  $gutter: $mu200;
+  /* set flex */
+  @include set-flex-container(); /* add the gutter to the parent */
+  @include set-flex-container-gutter($gutter);
+
+  &__image,
+  &__body {
+    /* add the gutter to the childs */
+    @include set-flex-child-gutter($gutter);
+  }
+
+  &__image {
+    @include set-flex-width(1, 1); // 100%
+
+    @include set-from-screen(m) {
+      // will output a 1of4 equivalent = 25% width
+      @include set-flex-width(1, 4);
+    }
+  }
+
+  &__body {
+    @include set-flex-width(1, 1); // 100%
+
+    @include set-from-screen(m) {
+      // will output a 1of4 equivalent = 25% width
+      @include set-flex-width(3, 4);
+    }
+  }
+}
+```
+
+#### Set-flex-xxx mixins parameters
+
+- `set-flex-container` : no argument required
+- `set-flex-width` : `$portion`: required - integer, `$of`: required - integer
+- `set-flex-container-gutter` and `set-flex-child-gutter` : `$gutter` : required - a `rem` value of the total gutter width
+- `set-flex-push` : `$portion`: required - integer, `$of`: required - integer
+
+### The make-flexy-xxx mixins
+
+<hintitem>
+Use the make-flexy-xxx to create aditional columns and options to the grid system
+</hintitem>
+
+#### Make-flexy-xxx mixins parameters
+
+- `make-flexy-col` : create a new column width of type `.gl-flexy__col--XofX`
+- `make-flexy-custom-col` : create custom columns (with any properties you whant `.gl-flexy__col--XXX`)
+- `make-flexy-col-push` : create a new column push of type `.gl-flexy__col--push-XofX`
+
+#### Example : adding columns to the flexy grid
+
+Please consider that you need to keep the import order clean and that you should add your grid extension right after the import of flexy.
+
+We advise you to create a new scss file that contain your extensions:
+
+`src/_l.flexy-extend.scss`
+
+```scss
+/*
+create a column of 12.5% width
+named gl-flexy__col--1of8
+with responsive modifiers for all majors screens sizes
+*/
+@include make-flexy-col(1, 8, $major-screens);
+
+/*
+create a custom column of 320px width
+named gl-flexy__col--ads
+with no responsive modifiers
+*/
+@include make-flexy-custom-col('ads') {
+  flex: 0 0 320px;
+  max-width: 320px;
+}
+
+/*
+create a push value of 12.5%
+named gl-flexy__col--push-1of8
+with responsive modifiers for all majors screens sizes
+*/
+@include make-flexy-col-push(1, 8, $major-screens);
+```
+
+then import it in your main bundle
+
+`src/main-bundle.scss`
+
+```scss
+@import 'settings-tools/_all-settings';
+...
+@import 'layouts/_l.flexy';
+@import 'src/_l.flexy-extend'; // insert it right after
+@import 'layouts/_l.other-layout';
+...
+```

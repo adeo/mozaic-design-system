@@ -1,64 +1,87 @@
-// local mixin, used here and in flexy definition do not use in your code !!
-@mixin add-gutter($gutter-width) {
-  margin-right: -($gutter-width / 2);
-  margin-left: -($gutter-width / 2);
-
-  > .gl-flexy__col {
-    padding-right: $gutter-width / 2;
-    padding-left: $gutter-width / 2;
-  }
+@mixin set-flex-container() {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
 }
 
-/* create gutter variation */
-@mixin make-flexy-gutter($size, $gutter-name, $at-sizes: 's') {
-  @if type-of($size) != number {
-    @warn "flexy-gutter first param need to be a number";
-  }
+@mixin set-flex-width($portion, $of) {
+  $percent: ($portion / $of) * 100;
 
-  @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
-    @warn "flexy-gutter third param should a map of existing screens, the name of a screen, or 'all'";
-  }
+  flex: 0 0 $percent * 1%;
+  max-width: $percent * 1%;
+}
 
-  @if type-of($gutter-name) != string {
-    @warn "flexy-gutter second param should be a string ex: 'foo' => '.gl-flexy--gutter-foo'";
-  }
+@mixin set-flex-push($portion, $of) {
+  $percent: ($portion / $of) * 100;
 
-  @if (type-of($size) == number) and
-    (type-of($at-sizes) == list or type-of($at-sizes) != string) {
-    .gl-flexy--gutter-#{$gutter-name} {
-      @include add-gutter($size);
-    }
-  }
+  margin-left: $percent * 1%;
+}
+
+@mixin set-flex-container-gutter($gutter-width) {
+  margin-right: -($gutter-width / 2);
+  margin-left: -($gutter-width / 2);
+}
+
+@mixin set-flex-child-gutter($gutter-width) {
+  padding-right: $gutter-width / 2;
+  padding-left: $gutter-width / 2;
 }
 
 /* create columns */
 @mixin make-flexy-col($portion, $of, $at-sizes: 's') {
   @if type-of($portion) != number {
-    @warn "flexy-col first param need to be a number";
+    @warn "make-flexy-col first param need to be a number";
   }
 
   @if type-of($of) != number {
-    @warn "flexy-col second param need to be a number";
+    @warn "make-flexy-col second param need to be a number";
   }
 
   @if $portion >= $of {
-    @warn "flexy-col first param should be less that the second param";
+    @warn "make-flexy-col first param should be less that the second param";
   }
 
   @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
-    @warn "flexy-col third param should a map of existing screens, the name of a screen, or 'all'";
+    @warn "make-flexy-col third param should a map of existing screens, the name of a screen, or 'all'";
   }
 
   @if (type-of($portion) == number) and
     (type-of($of) == number) and
     ($portion < $of) and
     (type-of($at-sizes) == list or type-of($at-sizes) == string) {
-    $percent: ($portion / $of) * 100;
-
     .gl-flexy__col--#{$portion}of#{$of} {
       @include modify-from-screens($at-sizes) {
-        flex: 0 0 $percent * 1%;
-        max-width: $percent * 1%;
+        @include set-flex-width($portion, $of);
+      }
+    }
+  }
+}
+
+/* create columns */
+@mixin make-flexy-col-push($portion, $of, $at-sizes: 's') {
+  @if type-of($portion) != number {
+    @warn "make-flexy-col-push first param need to be a number";
+  }
+
+  @if type-of($of) != number {
+    @warn "make-flexy-col-push second param need to be a number";
+  }
+
+  @if $portion >= $of {
+    @warn "make-flexy-col-push first param should be less that the second param";
+  }
+
+  @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
+    @warn "make-flexy-col-push third param should a map of existing screens, the name of a screen, or 'all'";
+  }
+
+  @if (type-of($portion) == number) and
+    (type-of($of) == number) and
+    ($portion < $of) and
+    (type-of($at-sizes) == list or type-of($at-sizes) == string) {
+    .gl-flexy__col--push-#{$portion}of#{$of} {
+      @include modify-from-screens($at-sizes) {
+        @include set-flex-push($portion, $of);
       }
     }
   }
@@ -67,11 +90,11 @@
 /* create custom named columns with custom content */
 @mixin make-flexy-custom-col($name, $at-sizes: 's') {
   @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
-    @warn "flexy-col second param should a map of existing screens, the name of a screen, or 'all'";
+    @warn "make-flexy-custom-col second param should a map of existing screens, the name of a screen, or 'all'";
   }
 
   @if type-of($name) != string {
-    @warn "flexy-gutter second param should be a string ex: 'foo' => '.gl-flexy--gutter-foo'";
+    @warn "make-flexy-custom-col second param should be a string ex: 'foo' => '.gl-flexy--gutter-foo'";
   }
 
   @if (type-of($name) == string) and

@@ -14,7 +14,7 @@ Columns and gutters form a container. The container can be **full width or with 
 - **column count** - the number of columns
 - **gutters** - the space between columns
 - **container width** - it can be either fixed (ex: 1200px) or fluid (take the available space)
-- **container paddings** - they create negative space between the edge of the grid (and therefore the content) and the edge of the container and need to be substracted from the congtainer width to get the effective grid width.
+- **container paddings** - they create negative space between the edge of the grid (and therefore the content) and the edge of the container and need to be substracted from the container width to get the effective grid width.
 
 Those properties can change depending on the breakpoint.
 
