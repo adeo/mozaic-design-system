@@ -42,6 +42,7 @@ const Left = styled.div`
   max-width: 70%;
   display: flex;
   flex-flow: column nowrap;
+  background: #f5f5f5;
 `
 const Right = styled.div`
   flex: 0 0 30%;
@@ -52,6 +53,7 @@ const Right = styled.div`
 `
 
 const Body = styled.div`
+  position: relative;
   flex: 1;
   overflow: hidden;
   display: flex;
@@ -62,9 +64,10 @@ const Body = styled.div`
 export class PreviewComponent extends PureComponent {
   constructor(props) {
     super(props)
+    console.log('PreviewComponent', this.props)
     this.body = React.createRef()
     this.state = {
-      currentCodeSample: null,
+      currentCodeSample: 'html',
       copyCompatible: false,
       copied: false,
     }
@@ -73,6 +76,7 @@ export class PreviewComponent extends PureComponent {
   componentDidMount() {
     this.isClipBoardAPIAvailable()
     this.props.getAvailableWidth(this.contRef.clientWidth)
+    Prism.highlightAll()
   }
 
   componentDidUpdate() {
@@ -133,6 +137,12 @@ export class PreviewComponent extends PureComponent {
       fullScreen,
       toggleFullScreen,
       availableWidth,
+      showGrid,
+      grid,
+      showMore,
+      open,
+      nude,
+      toggleOptions,
     } = this.props
 
     const { currentCodeSample, copied, copyCompatible } = this.state
@@ -143,7 +153,6 @@ export class PreviewComponent extends PureComponent {
 
     const ViewPortsObj = viewPorts
     const preview = this.props.data.node.codes
-
     return (
       <PreviewContainer fullScreen={fullScreen}>
         {fullScreen === true ? (
@@ -156,6 +165,8 @@ export class PreviewComponent extends PureComponent {
                 viewport={viewport}
                 viewPorts={ViewPortsObj}
                 changeViewPort={changeViewPort}
+                showGrid={showGrid}
+                grid={grid}
               />
               <Body ref={body => (this.body = body)}>
                 <PreviewFrame
@@ -164,6 +175,8 @@ export class PreviewComponent extends PureComponent {
                   viewPorts={ViewPortsObj}
                   fullScreen={fullScreen}
                   data={this.props.data}
+                  grid={grid}
+                  showGrid={showGrid}
                 />
               </Body>
             </Left>
@@ -177,36 +190,53 @@ export class PreviewComponent extends PureComponent {
                 copyCompatible={copyCompatible}
                 copyCodeToClipBoard={this.copyCodeToClipBoard}
                 getLanguage={this.getLanguage}
+                open={open}
+                showMore={showMore}
               />
             </Right>
           </Container>
         ) : (
-          <div ref={contRef => (this.contRef = contRef)}>
-            <PreviewToolBar
-              fullScreen={fullScreen}
-              availableWidth={availableWidth}
-              toggleFullScreen={toggleFullScreen}
-              viewport={viewport}
-              viewPorts={ViewPortsObj}
-              changeViewPort={changeViewPort}
-            />
+          <div
+            ref={contRef => (this.contRef = contRef)}
+            style={{ margin: '2rem 0' }}
+          >
+            {!nude && (
+              <PreviewToolBar
+                fullScreen={fullScreen}
+                availableWidth={availableWidth}
+                toggleFullScreen={toggleFullScreen}
+                viewport={viewport}
+                viewPorts={ViewPortsObj}
+                changeViewPort={changeViewPort}
+                showGrid={showGrid}
+                grid={grid}
+              />
+            )}
             <PreviewFrame
               availableWidth={availableWidth}
               viewport={viewport}
               viewPorts={ViewPortsObj}
               fullScreen={fullScreen}
               data={this.props.data}
+              grid={grid}
+              toggleOptions={toggleOptions}
+              nude={nude}
             />
-            <PreviewCodeSample
-              fullScreen={fullScreen}
-              preview={preview}
-              showCode={this.showCode}
-              currentCodeSample={currentCodeSample}
-              copied={copied}
-              copyCompatible={copyCompatible}
-              copyCodeToClipBoard={this.copyCodeToClipBoard}
-              getLanguage={this.getLanguage}
-            />
+
+            {!nude && (
+              <PreviewCodeSample
+                fullScreen={fullScreen}
+                preview={preview}
+                showCode={this.showCode}
+                currentCodeSample={currentCodeSample}
+                copied={copied}
+                copyCompatible={copyCompatible}
+                copyCodeToClipBoard={this.copyCodeToClipBoard}
+                getLanguage={this.getLanguage}
+                open={open}
+                showMore={showMore}
+              />
+            )}
           </div>
         )}
       </PreviewContainer>

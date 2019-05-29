@@ -7,33 +7,66 @@ const lineColor = `rgba(0, 100, 100, 0.1)`
 const subLineColor = `rgba(0, 100, 100, 0.03)`
 
 const FrameContainer = styled.div`
+  position: relative;
   padding: ${MagicUnit}rem 0;
-  margin: ${MagicUnit}rem 0;
-  background-image: linear-gradient(90deg, ${lineColor} 1px, transparent 1px),
-    linear-gradient(0deg, ${lineColor} 1px, transparent 1px),
-    linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
-    linear-gradient(0deg, ${subLineColor} 1px, transparent 1px),
-    linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
-    linear-gradient(0deg, ${subLineColor} 1px, transparent 1px);
+  box-shadow: inset 0 0 0 1px #ececec;
+  background-color: #fff;
 
-  background-size: ${MagicUnit}rem ${MagicUnit}rem,
-    ${MagicUnit}rem ${MagicUnit}rem, ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
-    ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
-    ${MagicUnit / 4}rem ${MagicUnit / 4}rem,
-    ${MagicUnit / 4}rem ${MagicUnit / 4}rem;
+  ${({ grid }) =>
+    grid &&
+    css`
+      background-image: linear-gradient(
+          90deg,
+          ${lineColor} 1px,
+          transparent 1px
+        ),
+        linear-gradient(0deg, ${lineColor} 1px, transparent 1px),
+        linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
+        linear-gradient(0deg, ${subLineColor} 1px, transparent 1px),
+        linear-gradient(90deg, ${subLineColor} 1px, transparent 1px),
+        linear-gradient(0deg, ${subLineColor} 1px, transparent 1px);
+
+      background-size: ${MagicUnit}rem ${MagicUnit}rem,
+        ${MagicUnit}rem ${MagicUnit}rem, ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
+        ${MagicUnit / 2}rem ${MagicUnit / 2}rem,
+        ${MagicUnit / 4}rem ${MagicUnit / 4}rem,
+        ${MagicUnit / 4}rem ${MagicUnit / 4}rem;
+    `};
 
   ${({ viewport, viewPorts, availableWidth, fullScreen }) => css`
     width: ${viewPorts[viewport]}px;
     min-width: ${viewPorts[viewport]}px;
 
     transform: scale(
-      ${availableWidth > viewPorts[viewport]
-        ? 1
-        : availableWidth / viewPorts[viewport]}
+      ${
+        availableWidth > viewPorts[viewport]
+          ? 1
+          : availableWidth / viewPorts[viewport]
+      }
     );
 
-    transform-origin: ${fullScreen ? 'center' : 'left'};
+    ${availableWidth > viewPorts[viewport] &&
+      !fullScreen &&
+      css`
+        margin: 0 auto;
+      `}
+
+    transform-origin: ${fullScreen ? 'center' : 'left top'};
   `};
+`
+
+const FrameWrapper = styled.div`
+  background: #f5f5f5;
+  border-bottom: solid 1px #ececec;
+  position: relative;
+  overflow: hidden;
+
+  ${({ viewport, viewPorts, availableWidth, iframeHeight }) =>
+    availableWidth < viewPorts[viewport] &&
+    css`
+      height: ${(availableWidth / viewPorts[viewport]) *
+        (iframeHeight + MagicUnit * 2 * 16)}px;
+    `};
 `
 
 const Frame = styled.iframe`
@@ -42,11 +75,30 @@ const Frame = styled.iframe`
   padding: 0;
 `
 
+const ToggleOptions = styled.button`
+  position: absolute;
+  top: 5px;
+  right: 5px;
+`
+const ViewportInfos = styled.span`
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ececec;
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #666;
+  line-height: 1;
+  padding: 6px 8px;
+`
+
 export class PreviewFrame extends PureComponent {
   constructor(props) {
     super(props)
     this.state = {
       iframeHeight: 0,
+      grid: this.props.grid,
     }
   }
 
@@ -93,26 +145,70 @@ export class PreviewFrame extends PureComponent {
 
     this.setState({
       iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
+      r: this.props.r,
     })
   }
 
   render() {
     const { iframeHeight } = this.state
-    const { viewport, viewPorts, availableWidth, fullScreen } = this.props
+    const { viewport, viewPorts, availableWidth, fullScreen, grid } = this.props
 
     if (this.props.data === undefined) {
       return <div />
     }
 
-    return (
-      <FrameContainer
+    return fullScreen ? (
+      <>
+        <FrameContainer
+          viewport={viewport}
+          viewPorts={viewPorts}
+          availableWidth={availableWidth}
+          fullScreen={fullScreen}
+          grid={grid}
+        >
+          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+        </FrameContainer>
+        {!this.props.nude && (
+          <ViewportInfos>
+            Viewport: {viewPorts[viewport] || availableWidth}px{' '}
+            {viewPorts[viewport] > availableWidth &&
+              `• Zoom: ${Math.ceil(
+                (availableWidth / viewPorts[viewport]) * 1000
+              ) / 10}%`}
+          </ViewportInfos>
+        )}
+      </>
+    ) : (
+      <FrameWrapper
         viewport={viewport}
         viewPorts={viewPorts}
         availableWidth={availableWidth}
-        fullScreen={fullScreen}
+        iframeHeight={iframeHeight}
       >
-        <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
-      </FrameContainer>
+        <FrameContainer
+          viewport={viewport}
+          viewPorts={viewPorts}
+          availableWidth={availableWidth}
+          fullScreen={fullScreen}
+          grid={grid}
+        >
+          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+        </FrameContainer>
+        {!this.props.fullScreen && (
+          <ToggleOptions onClick={this.props.toggleOptions}>
+            {this.props.nude ? 'show options' : 'hide options'}
+          </ToggleOptions>
+        )}
+        {!this.props.nude && (
+          <ViewportInfos>
+            Viewport: {viewPorts[viewport] || availableWidth}px{' '}
+            {viewPorts[viewport] > availableWidth &&
+              `• Zoom: ${Math.ceil(
+                (availableWidth / viewPorts[viewport]) * 1000
+              ) / 10}%`}
+          </ViewportInfos>
+        )}
+      </FrameWrapper>
     )
   }
 }
