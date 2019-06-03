@@ -1,4 +1,4 @@
-# Garden Design system styleguide
+# Multi BU Design system
 
 This repo contain the code and content to create, manage and deploy the Garden design system styleguide.
 the styleguide is based on gatsby, a static site generator based on react and graphql.
@@ -52,10 +52,17 @@ please [read the docs](https://github.com/lerna/lerna/) to learn more about it.
 
 ### Clone the repo and start the development environement
 
-`git clone git@github.com:adeo/design-system--styleguide.git` // clone the repo
-`cd design-system--styleguide` // move to the repo
-`yarn lerna` // install dependencies and create symlink between packages
-`yarn develop` // lunch the dev server
+clone the repo :  
+`git clone git@github.com:adeo/design-system--styleguide.git`
+
+move to the repo :  
+`cd design-system--styleguide`
+
+install dependencies and create symlink between packages :  
+`yarn lerna`
+
+lunch the dev server :  
+`yarn develop`
 
 ## Lint and fix your css files using stylelint
 
@@ -81,7 +88,7 @@ stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuf
 
 If you want more explanation go to the related [wiki page](https://github.com/adeo/design-system--styleguide/wiki/CI-CD).
 
-### Deploiement
+### Deploy
 
 Each branch is deployed when creating a Pull Request. A `view deployment` button is displayed into the Pull Request's timeline at the bottom.
 
@@ -95,7 +102,7 @@ There are two deployment environments that can be found [here](https://github.co
 To create a release, change the registry's package.json version number and create a tag with the version number in github.
 the registry is automaticaly deployed and pushed into the npm registry.
 
-## Maintainers
+## Design system core team
 
 ### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
 
@@ -120,29 +127,47 @@ On a personal level, I love boxing, hiking and photography.
 **Contact:**
 AdeoDev : Gael Boyenval
 
-### [Julien Boucry](https://www.linkedin.com/in/julien-boucry-48747467)
+### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste/?originalSubdomain=fr)
 
 **Role for the project :**
 
 - Design system UI lead
 - arbitrate the patterns inputs and additions to the design system
 
-**Timezone :** Lile - France **Availability :** x%
-
-**bio and interests :**
-
-**Contact:** AdeoDev : Julien Boucry
+**Timezone :** Lile - France **Availability :** 100%
 
 ### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
 
 **Role for the project :**
 
-- DevOps how to share and deploy easily
+- DevOps
 - code quality automation and continuous deployment
 
-**Timezone :** Paris - France **Availability :** 50%
+**Timezone :** Paris - France **Availability :** on demand
 
-**bio and interests :**
+### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
+
+**Role for the project :** Front-end developer
+
+**Timezone :** Lille - France **Availability :** on monday and thuesday
+
+### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
+
+**Role for the project :** Product owner / Backlog prioritization / Sync with stakeholders
+
+**Timezone :** Lille - France **Availability :** 90%
+
+### [Marine Fabien](https://www.linkedin.com/in/marine-fabien/)
+
+**Role for the project :** Front-end developer
+
+**Timezone :** Lille - France **Availability :** from monday to thursday
+
+### [Nicolas Herwegh](https://www.linkedin.com/in/nicolas-herwegh-3a4494136/?originalSubdomain=fr)
+
+**Role for the project :** UI designer
+
+**Timezone :** Lille - France **Availability :** on monday and thuesday
 
 ## Contributors
 
@@ -164,18 +189,3 @@ AdeoDev : Gael Boyenval
 **Timezone :** Sao Paulo - Brazil **Availability :** X%
 
 **Contact :** Leandro Grillo
-
-### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
-
-**Role for the project :**
-
-- contributor to the source code
-- Front-end consulting
-
-**Timezone :** Lille - France **Availability :** X%
-
-### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
-
-**Role for the project :** Product owner / Backlog prioritization / Sync with stakeholders
-
-**Timezone :** Lille - France **Availability :** 90%
