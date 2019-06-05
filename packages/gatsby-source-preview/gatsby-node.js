@@ -53,7 +53,7 @@ exports.sourceNodes = (
   })
 
   const watcher = chokidar.watch(
-    [configOptions.path, configOptions.stylesPath],
+    [configOptions.previewsFiles, configOptions.stylesPath],
     {}
   )
 
@@ -67,7 +67,7 @@ exports.sourceNodes = (
       console.log('-----------------------------')
 
       const { createNode } = actions
-      const tree = dirTree(configOptions.path)
+      const tree = dirTree(configOptions.rootPath)
 
       let previews = {}
 
@@ -119,6 +119,7 @@ exports.sourceNodes = (
         if (codes.scss && codes.scss !== '') {
           cssCompiler(codes.scss, key, key.replace('.scss', '.css'))
             .then(res => {
+              reporter.success(`preview builded: ${key}`)
               codes.css = res.css
               resolve(
                 createNode(
