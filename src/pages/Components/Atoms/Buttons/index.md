@@ -12,7 +12,7 @@ order: 1
 You can use **primary**, **secondary**, & **danger** color scheme depending of the type of action the button trigger.
 There is also an alternative primary color scheme, only used for Campus : **primary-campus**.
 
-<preview path="src/pages/Components/Atoms/Buttons/previews/button-styles"></pattern>
+<preview path="src/pages/Components/Atoms/Buttons/previews/button-styles" nude=true ></preview>
 
 <br>
 
@@ -31,13 +31,13 @@ There is **3 sizes** for the buttons to create hierarchy and for a better adapta
 - Medium
 - Large
 
-<preview path="src/pages/Components/Atoms/Buttons/previews/button-sizes"></pattern>
+<preview path="src/pages/Components/Atoms/Buttons/previews/button-sizes" nude=true ></preview>
 
 <br>
 
 ### A button width can either fit its content or its container
 
-<preview path="src/pages/Components/Atoms/Buttons/previews/button-widths"></pattern>
+<preview path="src/pages/Components/Atoms/Buttons/previews/button-widths" nude=true ></preview>
 
 <br>
 
@@ -46,7 +46,7 @@ There is **3 sizes** for the buttons to create hierarchy and for a better adapta
 - solid
 - bordered
 
-<preview path="src/pages/Components/Atoms/Buttons/previews/intro"></pattern>
+<preview path="src/pages/Components/Atoms/Buttons/previews/intro" nude=true ></preview>
 
 ## Do's and don'ts
 
@@ -62,5 +62,5 @@ There is **3 sizes** for the buttons to create hierarchy and for a better adapta
 </hintitem>
 
 <hint type="dont" title="Never use in proximity two solid buttons with the same color scheme">
-    <preview path="src/pages/Components/Atoms/Buttons/previews/button-proximity-dont"></pattern>
+    <preview path="src/pages/Components/Atoms/Buttons/previews/button-proximity-dont" nude=true ></preview>
 </hint>

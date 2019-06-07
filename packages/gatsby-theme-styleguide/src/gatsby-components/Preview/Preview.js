@@ -11,6 +11,9 @@ class Preview extends PureComponent {
       viewport: 'auto',
       fullScreen: false,
       availableWidth: null,
+      grid: false,
+      open: false,
+      nude: this.props.nude,
     }
   }
 
@@ -51,6 +54,12 @@ class Preview extends PureComponent {
     })
   }
 
+  toggleOptions = () => {
+    this.setState({
+      nude: !this.state.nude,
+    })
+  }
+
   toggleFullScreen = () => {
     this.setState(
       {
@@ -60,9 +69,20 @@ class Preview extends PureComponent {
     )
   }
 
+  showGrid = () => {
+    this.setState({
+      grid: !this.state.grid,
+    })
+  }
+
+  showMore = () => {
+    this.setState({
+      open: !this.state.open,
+    })
+  }
+
   cleanEmptyCode = preview => {
     const cleanedCodes = {}
-
     const previewsCodes = Object.keys(preview.node.codes)
 
     previewsCodes.forEach(lang => {
@@ -100,13 +120,19 @@ class Preview extends PureComponent {
         `}
         render={data => (
           <PreviewComponent
+            toggleOptions={this.toggleOptions}
             viewport={this.state.viewport}
             fullScreen={this.state.fullScreen}
             toggleFullScreen={this.toggleFullScreen}
             changeViewPort={this.changeViewPort}
             getAvailableWidth={this.getAvailableSpace}
             availableWidth={this.state.availableWidth}
+            showGrid={this.showGrid}
+            grid={this.state.grid}
+            showMore={this.showMore}
+            open={this.state.open}
             data={this.pickPreview(data)}
+            nude={this.state.nude}
           />
         )}
       />

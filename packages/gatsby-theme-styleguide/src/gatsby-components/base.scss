@@ -41,8 +41,10 @@ iframe {
   display: block;
 }
 
-pre {
-  font-size: 13px;
+pre,
+pre code {
+  font-size: 12px !important;
+  line-height: 1.5 !important;
 }
 
 pre[class*='language-'] {
