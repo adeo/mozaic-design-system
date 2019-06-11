@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.7](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.6...v1.0.1-alpha.7) (2019-06-11)
+
+
+### Features
+
+* **pattern/grids:** add push, change mixins, update documentation ([#260](https://github.com/adeo/design-system--styleguide/issues/260)) ([3738a76](https://github.com/adeo/design-system--styleguide/commit/3738a76))
+
+
+
+
+
 ## [1.0.1-alpha.6](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.5...v1.0.1-alpha.6) (2019-05-27)
 
 
