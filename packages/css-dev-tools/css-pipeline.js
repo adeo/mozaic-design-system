@@ -6,8 +6,6 @@ const postcssWithConfig = postcss(postCssPluginConfig)
 
 const cssCompiler = (scss, pathFrom, pathTo) =>
   new Promise((resolve, reject) => {
-    console.log('processing css: ' + pathFrom)
-
     postcssWithConfig
       .process(scss, {
         from: pathFrom,

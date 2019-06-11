@@ -5,8 +5,9 @@ module.exports = {
     {
       resolve: '@gardencss/gatsby-source-preview',
       options: {
-        path: 'src/pages',
-        stylesPath: 'packages/styles',
+        previewsFiles: 'src/pages/**/*.preview.*',
+        rootPath: 'src/pages',
+        stylesPath: 'packages/styles/**/*.scss',
       },
     },
     'gatsby-plugin-react-helmet',
