@@ -5,9 +5,9 @@ order: 1
 
 ### Requirements :
 
-Installing Garden require `node v10 +`
+Installing Mozaic require `node v10 +`
 
-As for now the `@mozaic-ds/**` repos are private registries on NPM.
+As for now the `@mozaic-ds/**` repos are public registries on NPM.
 You need to be granted and access to the repos.
 
 #### To get an NPM access :
@@ -41,7 +41,7 @@ The ones you are most likely interested in :
 - `@mozaic-ds/styles` : source `.scss` files
 - `@mozaic-ds/tokens` : tokens json sources as well as compiled ones
 - `@mozaic-ds/sketch-libraries` : the sketch designs files
-- `@mozaic-ds/web-fonts` : the webfonts used by garden
+- `@mozaic-ds/web-fonts` : the webfonts used by mozaic
 - `@mozaic-ds/icons` : the icon svg files library
 
 #### Others :

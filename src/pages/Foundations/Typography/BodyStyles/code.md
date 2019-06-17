@@ -9,7 +9,7 @@ Base typography classes **does not apply any external margins nor font-colors**,
 
 You can import all base typography scss files by importing the `_a.all-base-typography` sub-bundle from the `atoms` directory
 
-```scss
+```css
 @import 'settings-tools/_all-settings';
 @import 'atoms/_a.all-base-typography';
 ```
@@ -21,18 +21,18 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 #### Import
 
-```scss
+```css
 @import 'settings-tools/_all-settings';
-@import 'atoms/_a.bodys';
+@import 'typography/_t.bodys';
 ```
 
 #### usage
 
 ```html
-<p class="ga-body-m">Lorem ipsum...</p>
-<p class="ga-body-m ga-body-m--semi-bold">Lorem ipsum...</p>
-<p class="ga-body-m ga-body-m--line-height-m">Lorem ipsum...</p>
-<p class="ga-body-m ga-body-m--line-height-m ga-body-m--semi-bold">
+<p class="mt-body-m">Lorem ipsum...</p>
+<p class="mt-body-m mt-body-m--semi-bold">Lorem ipsum...</p>
+<p class="mt-body-m mt-body-m--line-height-m">Lorem ipsum...</p>
+<p class="mt-body-m mt-body-m--line-height-m mt-body-m--semi-bold">
   Lorem ipsum...
 </p>
 ```
@@ -42,14 +42,14 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 | Class names                            | font-size (any viewport) | line-height          | weight    |
 | -------------------------------------- | ------------------------ | -------------------- | --------- |
 | **body L**                             |
-| `.ga-body-l`                           | `06` : 18px (1.125mu)    | `L` : 28px (1.175mu) | regular   |
-| `.ga-body-l .ga-body-l--semi-bold`     | `06` : 18px (1.125mu)    | `L` : 28px (1.175mu) | semi bold |
-| `.ga-body-l .ga-body-l--line-height-m` | `06` : 18px (1.125mu)    | `M` : 24px (1.5mu)   | regular   |
+| `.mt-body-l`                           | `06` : 18px (1.125mu)    | `L` : 28px (1.175mu) | regular   |
+| `.mt-body-l .mt-body-l--semi-bold`     | `06` : 18px (1.125mu)    | `L` : 28px (1.175mu) | semi bold |
+| `.mt-body-l .mt-body-l--line-height-m` | `06` : 18px (1.125mu)    | `M` : 24px (1.5mu)   | regular   |
 | **body M**                             |
-| `.ga-body-m`                           | `05` : 16px (1mu)        | `L` : 24px (1.5mu)   | regular   |
-| `.ga-body-m .ga-body-m--semi-bold`     | `05` : 16px (1mu)        | `L` : 24px (1.5mu)   | semi-bold |
-| `.ga-body-m .ga-body-m--line-height-m` | `05` : 16px (1mu)        | `M` : 22px (1.375mu) | regular   |
+| `.mt-body-m`                           | `05` : 16px (1mu)        | `L` : 24px (1.5mu)   | regular   |
+| `.mt-body-m .mt-body-m--semi-bold`     | `05` : 16px (1mu)        | `L` : 24px (1.5mu)   | semi-bold |
+| `.mt-body-m .mt-body-m--line-height-m` | `05` : 16px (1mu)        | `M` : 22px (1.375mu) | regular   |
 | **body S**                             |
-| `.ga-body-s`                           | `04` : 14px (0.875mu)    | `L` : 22px (1.375mu) | regular   |
-| `.ga-body-s .ga-body-s--semi-bold`     | `04` : 14px (0.875mu)    | `L` : 22px (1.375mu) | semi-bold |
-| `.ga-body-s .ga-body-s--line-height-m` | `04` : 14px (0.875mu)    | `M` : 18px (1.125mu) | regular   |
+| `.mt-body-s`                           | `04` : 14px (0.875mu)    | `L` : 22px (1.375mu) | regular   |
+| `.mt-body-s .mt-body-s--semi-bold`     | `04` : 14px (0.875mu)    | `L` : 22px (1.375mu) | semi-bold |
+| `.mt-body-s .mt-body-s--line-height-m` | `04` : 14px (0.875mu)    | `M` : 18px (1.125mu) | regular   |

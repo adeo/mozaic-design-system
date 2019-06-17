@@ -1,5 +1,5 @@
 ---
-title: 'SCSS'
+title: 'Code'
 order: 1
 ---
 
@@ -16,7 +16,7 @@ Params :
 - `$size` : **required**, any value between `01` to `12` corresponding to the `size.font.[xx]` tokens
 - `$line-height` : **optional** / `xs`, `s` , `m` or `l`, default : `l`
 
-```scss
+```css
 @import 'settings-tools/_all-settings.scss';
 
 @include set-font-scale('08');
@@ -36,7 +36,7 @@ Params :
    Never use other font-sizes values than the dedicated tokens
 </hintitem>
 
-```scss
+```css
 @import 'settings-tools/_all-settings.scss';
 
 .some-classes {

@@ -1,4 +1,4 @@
-.gl-flexy {
+.ml-flexy {
   @include set-flex-container();
 
   &--gutter {
@@ -31,7 +31,7 @@
   &__col {
     flex: 1 1 0;
 
-    .gl-flexy--gutter > & {
+    .ml-flexy--gutter > & {
       @include set-flex-child-gutter($size-gutter-screen-s);
 
       @include set-from-screen('m') {

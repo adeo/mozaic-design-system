@@ -10,5 +10,7 @@ lerna-debug.log
 .vscode
 /.idea/
 package-lock.json
-src/tokens/build/
 # static/icons/
+
+# Merge files
+*.orig

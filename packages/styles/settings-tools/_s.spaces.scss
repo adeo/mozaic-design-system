@@ -35,7 +35,7 @@ $props: (
 );
 
 @mixin space-util($prop, $side, $size) {
-  .gu-#{$prop}#{$side}-#{$size} {
+  .mu-#{$prop}#{$side}-#{$size} {
     #{map-get($props, $prop)}-#{map-get($sides, $side)}:
       #{map-get(
         $sizes,

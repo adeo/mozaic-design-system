@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Multi BU',
+    title: 'Mozaic',
   },
   __experimentalThemes: [
     { resolve: '@mozaic-ds/gatsby-theme-styleguide', options: {} },

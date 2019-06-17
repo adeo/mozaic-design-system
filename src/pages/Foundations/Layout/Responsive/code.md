@@ -9,7 +9,7 @@ order: 1
 use the set-from-screen mixin in with a screen map key to create a media querie
 </hintitem>
 
-```scss
+```css
 @include set-from-screen(m) {
   /* ... code */
 }
@@ -35,8 +35,8 @@ use the set-from-screen mixin in with a screen map key to create a media querie
 
 for example, to create an utility that hide an element based on the viewport :
 
-```scss
-.gu-hide
+```css
+.mu-hide
   @include modify-from-screens(('s', 'm', 'l')) {
     display: none !important;
   }
@@ -45,22 +45,22 @@ for example, to create an utility that hide an element based on the viewport :
 
 Output:
 
-```scss
+```css
 // from screen s and up (will hide anything)
-.gu-hide {
+.mu-hide {
   display: none;
 }
 
 // from screen m and up
 @media screen and (min-width: 576px) {
-  .gu-hide\@from-m {
+  .mu-hide\@from-m {
     display: none;
   }
 }
 
 // rom screen l and up
 @media screen and (min-width: 1100px) {
-  .gu-hide\@from-l {
+  .mu-hide\@from-l {
     display: none;
   }
 }
@@ -69,7 +69,7 @@ Output:
 Markup usage :
 
 ```html
-<div class="gu-hide@from-l">
+<div class="mu-hide@from-l">
   I will be hidden from 1100px wide and up
 </div>
 ```
@@ -80,14 +80,14 @@ You can either :
 
 #### 1) declare a map before passing it to the mixin
 
-```scss
+```css
 $viewports: ('s', 'm', 'l');
 @include modify-from-screens($viewports) {...}
 ```
 
 #### 2) passes the viewports names wrapped in parenthesis
 
-```scss
+```css
 @include modify-from-screens(('s', 'm', 'l')) {...}
 ```
 
@@ -95,7 +95,7 @@ $viewports: ('s', 'm', 'l');
 
 (if you want to pass all major screens has arguments)
 
-```scss
+```css
 @include modify-from-screens($major-screens) {...}
 ```
 

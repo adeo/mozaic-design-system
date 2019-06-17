@@ -15,7 +15,7 @@ Leroymerlin and ADEO's Design principles
 
 ### [Developer guide](/getStarted/developers/)
 
-Everything you need to know to install, use, extend or override Garden
+Everything you need to know to install, use, extend or override Mozaic
 
 <br>
 

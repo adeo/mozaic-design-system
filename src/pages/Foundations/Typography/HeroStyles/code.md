@@ -9,7 +9,7 @@ Base typography classes **does not apply any external margins nor font-colors**,
 
 You can import all base typography scss files by importing the `_a.all-base-typography` sub-bundle from the `atoms` directory
 
-```scss
+```css
 @import 'settings-tools/_all-settings';
 @import 'atoms/_a.all-base-typography';
 ```
@@ -22,18 +22,18 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 #### Import Hero atom
 
-```scss
+```css
 @import 'settings-tools/_all-settings';
-@import 'atoms/_a.heros';
+@import 'typography/_t.heros';
 ```
 
 #### usage
 
 ```html
-<p class="ga-hero">Lorem ipsum...</p>
-<p class="ga-hero ga-hero--semi-bold">Lorem ipsum...</p>
-<p class="ga-hero ga-hero--line-height-s">Lorem ipsum...</p>
-<p class="ga-hero ga-hero--line-height-s ga-hero--semi-bold">
+<p class="mt-hero">Lorem ipsum...</p>
+<p class="mt-hero mt-hero--semi-bold">Lorem ipsum...</p>
+<p class="mt-hero mt-hero--line-height-s">Lorem ipsum...</p>
+<p class="mt-hero mt-hero--line-height-s mt-hero--semi-bold">
   Lorem ipsum...
 </p>
 ```
@@ -44,9 +44,9 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 | Class names                        | font-size              | line-height         | weight    |
 | ---------------------------------- | ---------------------- | ------------------- | --------- |
-| `.ga-hero`                         | `09` : 34px (2.125mu ) | `M` : 44px (2.75mu) | regular   |
-| `.ga-hero .ga-hero--semi-bold`     | `09` : 34px (2.125mu ) | `M` : 44px (2.75mu) | semi bold |
-| `.ga-hero .ga-hero--line-height-s` | `09` : 34px (2.125mu ) | `S` : 40px (2.5mu)  | regular   |
+| `.mt-hero`                         | `09` : 34px (2.125mu ) | `M` : 44px (2.75mu) | regular   |
+| `.mt-hero .mt-hero--semi-bold`     | `09` : 34px (2.125mu ) | `M` : 44px (2.75mu) | semi bold |
+| `.mt-hero .mt-hero--line-height-s` | `09` : 34px (2.125mu ) | `S` : 40px (2.5mu)  | regular   |
 
 <br>
 
@@ -54,9 +54,9 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 | Class names                        | font-size              | line-height        | weight    |
 | ---------------------------------- | ---------------------- | ------------------ | --------- |
-| `.ga-hero`                         | `10` : 41px (2.5625mu) | `M` : 56px (3.5mu) | regular   |
-| `.ga-hero .ga-hero--semi-bold`     | `10` : 41px (2.5625mu) | `M` : 56px (3.5mu) | semi bold |
-| `.ga-hero .ga-hero--line-height-s` | `10` : 41px (2.5625mu) | `S` : 48px (3mu)   | regular   |
+| `.mt-hero`                         | `10` : 41px (2.5625mu) | `M` : 56px (3.5mu) | regular   |
+| `.mt-hero .mt-hero--semi-bold`     | `10` : 41px (2.5625mu) | `M` : 56px (3.5mu) | semi bold |
+| `.mt-hero .mt-hero--line-height-s` | `10` : 41px (2.5625mu) | `S` : 48px (3mu)   | regular   |
 
 <br>
 
@@ -64,9 +64,9 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 | Class names                        | font-size              | line-height         | weight    |
 | ---------------------------------- | ---------------------- | ------------------- | --------- |
-| `.ga-hero`                         | `11` : 49px (3.0625mu) | `M` : 68px (4.25mu) | regular   |
-| `.ga-hero .ga-hero--semi-bold`     | `11` : 49px (3.0625mu) | `M` : 68px (4.25mu) | semi bold |
-| `.ga-hero .ga-hero--line-height-s` | `11` : 49px (3.0625mu) | `S` : 56px (3.5mu)  | regular   |
+| `.mt-hero`                         | `11` : 49px (3.0625mu) | `M` : 68px (4.25mu) | regular   |
+| `.mt-hero .mt-hero--semi-bold`     | `11` : 49px (3.0625mu) | `M` : 68px (4.25mu) | semi bold |
+| `.mt-hero .mt-hero--line-height-s` | `11` : 49px (3.0625mu) | `S` : 56px (3.5mu)  | regular   |
 
 <br>
 
@@ -74,8 +74,8 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 | Class names                        | font-size              | line-height         | weight    |
 | ---------------------------------- | ---------------------- | ------------------- | --------- |
-| `.ga-hero`                         | `12` : 59px (3.6875mu) | `M` : 80px (5mu)    | regular   |
-| `.ga-hero .ga-hero--semi-bold`     | `12` : 59px (3.6875mu) | `M` : 80px (5mu)    | semi bold |
-| `.ga-hero .ga-hero--line-height-s` | `12` : 59px (3.6875mu) | `S` : 68px (4.25mu) | regular   |
+| `.mt-hero`                         | `12` : 59px (3.6875mu) | `M` : 80px (5mu)    | regular   |
+| `.mt-hero .mt-hero--semi-bold`     | `12` : 59px (3.6875mu) | `M` : 80px (5mu)    | semi bold |
+| `.mt-hero .mt-hero--line-height-s` | `12` : 59px (3.6875mu) | `S` : 68px (4.25mu) | regular   |
 
 <br>

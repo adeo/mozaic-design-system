@@ -5,7 +5,7 @@ order: 2
 
 ## Import the container
 
-```scss
+```css
 @import 'layouts/_l.container';
 ```
 
@@ -14,17 +14,17 @@ order: 2
 ### Standard container
 
 ```html
-<main class="gl-container">
+<main class="ml-container">
   ...
 </main>
 ```
 
 ### Fluid container
 
-If you want to use only the default paddings, but still want the container to be fluid at any viewport width, use the `gl-container--fluid` modifier.
+If you want to use only the default paddings, but still want the container to be fluid at any viewport width, use the `ml-container--fluid` modifier.
 
 ```html
-<main class="gl-container gl-container--fluid">
+<main class="ml-container ml-container--fluid">
   ...
 </main>
 ```

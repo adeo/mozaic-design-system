@@ -1,5 +1,5 @@
 ---
-title: 'Importing Garden SCSS files'
+title: 'Importing Mozaic SCSS files'
 order: 4
 ---
 
@@ -19,14 +19,14 @@ It contains also many useful tools for your own use.
 
 Compiling a file importing only settings would output an empty file.
 
-```scss
+```css
 // mandatory
 @import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 ```
 
 <br>
 
-### Import garden SCSS files :
+### Import mozaic SCSS files :
 
 It is important that you follow our ITCSS/ADS [import order](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/principles/unifying-itcss-with-ads#summarize-the-new-architecture):
 
@@ -34,7 +34,7 @@ It is important that you follow our ITCSS/ADS [import order](https://gael-boyenv
 
 The import order within the same ITCSS category does not matter.
 
-```scss
+```css
 // mandatory
 @import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 

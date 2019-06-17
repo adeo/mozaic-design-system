@@ -5,13 +5,13 @@ order: 3
 
 ## Introduction
 
-The Garden CSS source files are written in SCSS. But we compile them trough Postcss.
+The Mozaic CSS source files are written in SCSS. But we compile them trough Postcss.
 This allow us to combine a SCSS syntax with the power of Postcss Plugins.
 
-Garden provide you with an array of postcss plugins that is **required to use to build Garden files**, but no task runner, or compiler comes with it.
+Mozaic provide you with an array of postcss plugins that is **required to use to build Mozaic files**, but no task runner, or compiler comes with it.
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-The garden postCSS plugins contains (to this point and in that order):
+The mozaic postCSS plugins contains (to this point and in that order):
 
 - **stylelint:** a powerfull linter for preprocessor languages
 - **nodeSass:** compile SCSS into css

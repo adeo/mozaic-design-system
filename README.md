@@ -1,6 +1,6 @@
 # Multi BU Design system
 
-This repo contain the code and content to create, manage and deploy the Garden design system styleguide.
+This repo contain the code and content to create, manage and deploy the Mozaic design system styleguide.
 the styleguide is based on gatsby, a static site generator based on react and graphql.
 Gatsby allow us to build static html websites that, once loaded on the client act as a SPA.
 
