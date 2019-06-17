@@ -9,8 +9,8 @@ Garden ship with static assets like fonts, icons, logos etc..
 
 you can find fonts and icons in the following packages :
 
-- `@gardencss/web-fonts/**`
-- `@gardencss/icons/**`
+- `@mozaic-ds/web-fonts/**`
+- `@mozaic-ds/icons/**`
 
 You can use make a task to copy those static files from the `nodes_modules` to your favorite destination automatically in order to stay up to date.
 
@@ -23,7 +23,7 @@ $local-config: (
 );
 
 // then import settings
-@import 'nodes_modules/@gardencss/styles/settings-tools/_all-settings';
+@import 'nodes_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 // then everything else
 @import ...;

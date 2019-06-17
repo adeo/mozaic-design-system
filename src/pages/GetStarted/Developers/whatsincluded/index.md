@@ -5,7 +5,7 @@ order: 2
 
 ## Styles
 
-`@gardencss/styles/**`
+`@mozaic-ds/styles/**`
 
 All the CSS and SCSS files that constitute the Garden SCSS frameworks.
 
@@ -45,11 +45,11 @@ styles/
 
 > design tokens are theming/styling constants defined in a JSON file. They are trasnpiled into multiple format to be shared across plateforms (SCSS, IOS, ANDROID...).
 
-`@gardencss/tokens/properties/**`
+`@mozaic-ds/tokens/properties/**`
 
 Tokens generation use [style-dictionary](https://amzn.github.io/style-dictionary/#/)
 
-`@gardencss/tokens/build/{platform}/**`
+`@mozaic-ds/tokens/build/{platform}/**`
 
 they are the generated tokens files that you may consume, and they are built in a platform specific directory.
 
@@ -78,7 +78,7 @@ tokens/
 
 ## Tools :
 
-`@gardencss/css-dev-tools/**`
+`@mozaic-ds/css-dev-tools/**`
 
 Right now the tools are composed only of SCSS/postcss tools.
 
@@ -95,7 +95,7 @@ cssCompiler/
 
 ## Web fonts :
 
-`@gardencss/web-fonts/**`
+`@mozaic-ds/web-fonts/**`
 
 ```tree
 ├── LeroyMerlinSans-Web-Italic.woff
@@ -106,7 +106,7 @@ cssCompiler/
 
 ## Icons :
 
-`@gardencss/icons/**`
+`@mozaic-ds/icons/**`
 
 ```tree
 ├── LeroyMerlinSans-Web-Italic.woff

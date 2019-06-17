@@ -11,7 +11,7 @@ const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),
   nodeSass({
-    includePaths: ['node_modules/@gardencss/styles/'],
+    includePaths: ['node_modules/@mozaic-ds/styles/'],
     outputStyle: 'expanded',
     indentWidth: 2,
   }),

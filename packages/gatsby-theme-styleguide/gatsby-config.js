@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   plugins: [
     {
-      resolve: '@gardencss/gatsby-source-preview',
+      resolve: '@mozaic-ds/gatsby-source-preview',
       options: {
         previewsFiles: 'src/pages/**/*.preview.*',
         rootPath: 'src/pages',
@@ -13,13 +13,13 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
-      resolve: '@gardencss/gatsby-source-directory-tree',
+      resolve: '@mozaic-ds/gatsby-source-directory-tree',
       options: {
         path: path.join('src', 'pages'),
       },
     },
     {
-      resolve: '@gardencss/gatsby-github-release',
+      resolve: '@mozaic-ds/gatsby-github-release',
     },
     {
       resolve: `gatsby-plugin-sass`,

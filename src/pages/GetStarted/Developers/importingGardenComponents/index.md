@@ -21,7 +21,7 @@ Compiling a file importing only settings would output an empty file.
 
 ```scss
 // mandatory
-@import '../node_modules/@gardencss/styles/settings-tools/_all-settings';
+@import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 ```
 
 <br>
@@ -36,15 +36,15 @@ The import order within the same ITCSS category does not matter.
 
 ```scss
 // mandatory
-@import '../node_modules/@gardencss/styles/settings-tools/_all-settings';
+@import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 // Generics
-@import '../node_modules/@gardencss/styles/generics/_g.***.scss';
-@import '../node_modules/@gardencss/styles/generics/_g.***.scss';
+@import '../node_modules/@mozaic-ds/styles/generics/_g.***.scss';
+@import '../node_modules/@mozaic-ds/styles/generics/_g.***.scss';
 
 // Elements
-@import '../node_modules/@gardencss/styles/elements/_e.***.scss';
-@import '../node_modules/@gardencss/styles/elements/_e.***.scss';
+@import '../node_modules/@mozaic-ds/styles/elements/_e.***.scss';
+@import '../node_modules/@mozaic-ds/styles/elements/_e.***.scss';
 
 /*... etc ...*/
 ```

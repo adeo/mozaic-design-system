@@ -1,5 +1,5 @@
 {
-  "name": "@gardencss/css-dev-tools",
+  "name": "@mozaic-ds/css-dev-tools",
   "version": "1.0.1-alpha.7",
   "dependencies": {
     "autoprefixer": "^9.4.3",

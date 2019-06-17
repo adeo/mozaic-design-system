@@ -5,7 +5,7 @@ const chokidar = require(`chokidar`)
 const fs = require(`fs`)
 const { Machine } = require(`xstate`)
 
-const cssCompiler = require('@gardencss/css-dev-tools/css-pipeline.js')
+const cssCompiler = require('@mozaic-ds/css-dev-tools/css-pipeline.js')
 
 const createFSMachine = () =>
   Machine({
