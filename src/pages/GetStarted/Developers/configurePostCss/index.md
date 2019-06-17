@@ -25,7 +25,7 @@ You are free to use this configuration to build your own styles, but note that t
 You can create a `postcss.config.js` file in your project root directory and paste the following code inside :
 
 ```js
-const pluginList = require('@gardencss/css-dev-tools/postcssPluginConfig')
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 module.exports = {
   plugins: pluginList,
@@ -36,7 +36,7 @@ module.exports = {
 
 ```js
 /*... your imports */
-const pluginList = require('@gardencss/css-dev-tools/postcssPluginConfig')
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 /*... your webpack config */
 ...
@@ -61,7 +61,7 @@ const pluginList = require('@gardencss/css-dev-tools/postcssPluginConfig')
 ```js
 var postcss = require('gulp-postcss')
 var gulp = require('gulp')
-const pluginList = require('@gardencss/css-dev-tools/postcssPluginConfig')
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 gulp.task('css', () =>
   gulp

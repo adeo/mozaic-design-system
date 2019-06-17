@@ -40,7 +40,7 @@ npm install --save postcss-cli
 Create a postcss.config.js file in your project root directory and paste the following code inside :
 
 ```js
-const pluginList = require('@gardencss/css-dev-tools/postcssPluginConfig')
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 module.exports = {
   plugins: pluginList,
@@ -54,7 +54,7 @@ Create `src/` and `dist/` directories.
 Create a `src/bundle.scss` file and paste the following code :
 
 ```scss
-@import '../node_modules/@gardencss/styles/settings-tools/_all-settings';
+@import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -134,7 +134,7 @@ Create a `stylelint.config.js` file at your project root.
 then edit the file and add the folowing code :
 
 ```js
-module.exports = require('@gardencss/css-dev-tools/styleLintConfig.js')
+module.exports = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 ```
 
 Run the `npm run css:lint-fix` command. Nothing should appen, because the code you copied as no error (let's hope).
@@ -144,7 +144,7 @@ Run the `npm run css:lint-fix` command. Nothing should appen, because the code y
 Edit your `src/bundle.scss` file, and edit line 5 to remove the line break betwen the mixin instanciation and the first declaration :
 
 ```scss
-@import '../node_modules/@gardencss/styles/settings-tools/_all-settings';
+@import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -178,7 +178,7 @@ Add in your package.json the following script :
 ```json
 "scripts": {
     ...
-    "statics:copy": "rm -rf dist/static && cp -r node_modules/@gardencss/static dist/static"
+    "statics:copy": "rm -rf dist/static && cp -r node_modules/@mozaic-ds/static dist/static"
 },
 ```
 
@@ -247,7 +247,7 @@ $local-config: (
   font-path: 'static/fonts',
 );
 
-@import '../node_modules/@gardencss/styles/settings-tools/_all-settings';
+@import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 body {
   @include set-font-face('semi-bold'); /* add this */
@@ -287,12 +287,12 @@ your browser should now look like this :
 
 ```scss
 // mandatory
-@import '../node_modules/@gardencss/styles/settings-tools/_all-settings';
+@import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 // your components
-@import '../node_modules/@gardencss/styles/layout/_l.grid';
-@import '../node_modules/@gardencss/styles/atoms/_a.button';
-@import '../node_modules/@gardencss/styles/molecule/_m.button';
+@import '../node_modules/@mozaic-ds/styles/layout/_l.grid';
+@import '../node_modules/@mozaic-ds/styles/atoms/_a.button';
+@import '../node_modules/@mozaic-ds/styles/molecule/_m.button';
 ```
 
 note that you need to follow the ITCSS/ADS [import order](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/principles/unifying-itcss-with-ads#summarize-the-new-architecture)

@@ -1,5 +1,5 @@
 {
-  "name": "@gardencss/designsystem",
+  "name": "@mozaic-ds/designsystem",
   "description": "leroy merlin design system",
   "version": "0.0.0",
   "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
@@ -19,7 +19,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@gardencss/gatsby-theme-styleguide": "^1.0.1-alpha",
+    "@mozaic-ds/gatsby-theme-styleguide": "^1.0.1-alpha",
     "autoprefixer": "^9.4.3",
     "babel-plugin-styled-components": "^1.8.0",
     "chokidar": "^1.7.0",

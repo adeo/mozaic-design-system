@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import styled, { css } from 'styled-components'
 
-import { MagicUnit } from '@gardencss/tokens/build/js/tokens.js'
+import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 
 const lineColor = `rgba(0, 100, 100, 0.1)`
 const subLineColor = `rgba(0, 100, 100, 0.03)`

@@ -33,37 +33,37 @@ Please note that we use a slightly modified ITCSS architecture from the original
 
 ## Follow ITCSS order for importing your files
 
-Note that all `settings` and `tools` are bundled into a file nammed `all-settings`.  
-This file is the only file required by all other files.  
+Note that all `settings` and `tools` are bundled into a file nammed `all-settings`.
+This file is the only file required by all other files.
 This File will not output any css when compiled appart from the font-faces declarations.
 
 ```css
 /* mandatory */
-@import '@gardencss/styles/settings-tools/_all-settings';
+@import '@mozaic-ds/styles/settings-tools/_all-settings';
 
 /* Generics */
-@import '@gardencss/styles/generics/_g.reset.scss';
-@import '@gardencss/styles/generics/_g.box-sizing.scss';
+@import '@mozaic-ds/styles/generics/_g.reset.scss';
+@import '@mozaic-ds/styles/generics/_g.box-sizing.scss';
 
 /* Elements */
-@import '@gardencss/styles/elements/_e.inputs.scss';
-@import '@gardencss/styles/elements/_e.headings.scss';
-@import '@gardencss/styles/elements/_e...scss';
+@import '@mozaic-ds/styles/elements/_e.inputs.scss';
+@import '@mozaic-ds/styles/elements/_e.headings.scss';
+@import '@mozaic-ds/styles/elements/_e...scss';
 
 /* Layouts */
-@import '@gardencss/styles/layouts/_l.grid.scss';
-@import '@gardencss/styles/layouts/_l.flex.scss';
-@import '@gardencss/styles/layouts/_l....scss';
+@import '@mozaic-ds/styles/layouts/_l.grid.scss';
+@import '@mozaic-ds/styles/layouts/_l.flex.scss';
+@import '@mozaic-ds/styles/layouts/_l....scss';
 
 /* Components */
-@import '@gardencss/styles/components/_c.buttons.scss';
-@import '@gardencss/styles/components/_c.input-text.scss';
-@import '@gardencss/styles/components/_c....scss';
+@import '@mozaic-ds/styles/components/_c.buttons.scss';
+@import '@mozaic-ds/styles/components/_c.input-text.scss';
+@import '@mozaic-ds/styles/components/_c....scss';
 
 /* Utilities */
-@import '@gardencss/styles/elements/_u.spaces.scss';
-@import '@gardencss/styles/elements/_u.text-align.scss';
-@import '@gardencss/styles/elements/_u....scss';
+@import '@mozaic-ds/styles/elements/_u.spaces.scss';
+@import '@mozaic-ds/styles/elements/_u.text-align.scss';
+@import '@mozaic-ds/styles/elements/_u....scss';
 ```
 
 # Naming conventions
