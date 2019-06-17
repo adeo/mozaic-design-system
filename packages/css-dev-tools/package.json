@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.0.1-alpha.7",
+  "version": "v1.0.1-alpha.8",
   "dependencies": {
     "autoprefixer": "^9.4.3",
     "css-mqpacker": "^7.0.0",
