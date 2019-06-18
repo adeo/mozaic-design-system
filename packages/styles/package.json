@@ -3,5 +3,8 @@
     "version": "v1.0.1-alpha.8",
     "description": "Styles scss for Designe System Adeo",
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "@mozaic-ds/tokens": "^v1.0.1-alpha.8"
+    }
 }
