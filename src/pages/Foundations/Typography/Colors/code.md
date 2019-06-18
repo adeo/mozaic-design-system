@@ -1,5 +1,5 @@
 ---
-title: 'SCSS'
+title: 'Code'
 order: 1
 ---
 
@@ -7,7 +7,7 @@ order: 1
 
 Use the `font-color()` mixin to set an othorized text color to an element.
 
-```scss
+```css
 @import 'settings-tools/_all-settings';
 
 .example-text {

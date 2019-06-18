@@ -49,7 +49,7 @@
     (type-of($of) == number) and
     ($portion < $of) and
     (type-of($at-sizes) == list or type-of($at-sizes) == string) {
-    .gl-flexy__col--#{$portion}of#{$of} {
+    .ml-flexy__col--#{$portion}of#{$of} {
       @include modify-from-screens($at-sizes) {
         @include set-flex-width($portion, $of);
       }
@@ -79,7 +79,7 @@
     (type-of($of) == number) and
     ($portion < $of) and
     (type-of($at-sizes) == list or type-of($at-sizes) == string) {
-    .gl-flexy__col--push-#{$portion}of#{$of} {
+    .ml-flexy__col--push-#{$portion}of#{$of} {
       @include modify-from-screens($at-sizes) {
         @include set-flex-push($portion, $of);
       }
@@ -94,13 +94,13 @@
   }
 
   @if type-of($name) != string {
-    @warn "make-flexy-custom-col second param should be a string ex: 'foo' => '.gl-flexy--gutter-foo'";
+    @warn "make-flexy-custom-col second param should be a string ex: 'foo' => '.ml-flexy--gutter-foo'";
   }
 
   @if (type-of($name) == string) and
     (type-of($at-sizes) == list) or
     (type-of($at-sizes) == string) {
-    .gl-flexy__col--#{$name} {
+    .ml-flexy__col--#{$name} {
       @include modify-from-screens($at-sizes) {
         @content;
       }

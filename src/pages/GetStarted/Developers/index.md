@@ -19,7 +19,7 @@ Use PostCSS and our configuration setup in your project
 Stylelint right in your IDE
 <br><br>
 
-**[Importing Garden SCSS files](importingGardenComponents/)**<br>
+**[Importing Mozaic SCSS files](importingMozaicComponents/)**<br>
 The right way to do it
 <br><br>
 

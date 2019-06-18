@@ -3,14 +3,14 @@ title: 'Tutorial (using npm script)'
 order: 7
 ---
 
-# Setup a project using garden and npm scripts
+# Setup a project using mozaic and npm scripts
 
-In this example, in order to familiarize with garden, we will setup a simple web dev environement :
+In this example, in order to familiarize with mozaic, we will setup a simple web dev environement :
 
 - Install and configure our postcss build pipeline
-- Import our first garden SCSS tools and settings, and use them
+- Import our first mozaic SCSS tools and settings, and use them
 - Configure stylelinnt to auto-fix our styling mistakes
-- Build a live-reload dev server and use Garden static assets in our project
+- Build a live-reload dev server and use Mozaic static assets in our project
 
 You have read [the presentation tab and followed the installation steps](/getStarted/developers/) (or you should have).
 
@@ -18,12 +18,12 @@ Now you should have :
 
 - a brand new project directory
 - node 10+ installed
-- a `package.json` file with garden installed
+- a `package.json` file with mozaic installed
 
 ## I) Install and configure PostCSS
 
 Configuring Postcss is always done by providing an array of plugins.
-Garden provide you with this array of postcss plugins, but no task runner comes with it.
+Mozaic provide you with this array of postcss plugins, but no task runner comes with it.
 
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
@@ -53,7 +53,7 @@ Create `src/` and `dist/` directories.
 
 Create a `src/bundle.scss` file and paste the following code :
 
-```scss
+```css
 @import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 body {
@@ -107,7 +107,7 @@ Postcss is up and running 😝 !!!
 
 ### Stylelint to lint SCSS files :
 
-Stylint comes with its configuration in garden and it is provided at compilation time. You don't necessarily need a root config file, but in some case you may want to have it, for exemple to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
+Stylint comes with its configuration in mozaic and it is provided at compilation time. You don't necessarily need a root config file, but in some case you may want to have it, for exemple to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
 
 In that case you can create a `stylelint.config.js` file in the root dir of your project.
 
@@ -143,7 +143,7 @@ Run the `npm run css:lint-fix` command. Nothing should appen, because the code y
 
 Edit your `src/bundle.scss` file, and edit line 5 to remove the line break betwen the mixin instanciation and the first declaration :
 
-```scss
+```css
 @import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
 body {
@@ -162,7 +162,7 @@ et voilà !
 
 ## III) Static assets :
 
-**Garden provide you with static assets like fonts, icons or logos.**
+**Mozaic provide you with static assets like fonts, icons or logos.**
 
 Depending on your env, statics assets likes icons or fonts may be served from a diferent URL.
 
@@ -170,7 +170,7 @@ let's create **a live-reloading dev server** as an exemple.
 
 ### A) Copy the statics :
 
-Let's make a script that will clean our `dist/statics/` directory and copy the static assets from the garden `nodes_module` to our project.
+Let's make a script that will clean our `dist/statics/` directory and copy the static assets from the mozaic `nodes_module` to our project.
 that way, we will be sure that we always have the last version of thoses static assets in our project.
 
 Add in your package.json the following script :
@@ -199,7 +199,7 @@ And create a scritp to lunch it upon our `dist/` directory. We will tell it to r
 },
 ```
 
-### C) Hello garden :
+### C) Hello mozaic :
 
 create an `index.html` file in the `dist` directory
 
@@ -210,11 +210,11 @@ paste the following inside :
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Garden Test</title>
+    <title>Mozaic Test</title>
     <link rel="stylesheet" type="text/css" media="screen" href="bundle.css" />
   </head>
   <body>
-    Hello Garden
+    Hello Mozaic
   </body>
 </html>
 ```
@@ -225,13 +225,13 @@ you should now see something like this :
 
 ![](tutoserve.png)
 
-Change 'Hello Garden' for 'Hello foo' in your `index.html`and save. Your browser should refresh atomatically.
+Change 'Hello Mozaic' for 'Hello foo' in your `index.html`and save. Your browser should refresh atomatically.
 
-### D) Use the Garden Fonts
+### D) Use the Mozaic Fonts
 
 When starting your server, the fonts should have been added into `dist/static/fonts` directory.
 
-But as you can see, the fonts are not the garden ones. Let's configure that :
+But as you can see, the fonts are not the mozaic ones. Let's configure that :
 
 open a new terminal window at your project dir and run the css wtacher
 
@@ -241,7 +241,7 @@ npm run css:watch
 
 in the `src/bundle.scss` file add the folowing :
 
-```scss
+```css
 /* add this */
 $local-config: (
   font-path: 'static/fonts',
@@ -263,7 +263,7 @@ body {
 
 In the previous file, we set our path to path to fontfaces. Graden is now able to load them.
 
-```scss
+```css
 $local-config: (
   font-path: 'static/fonts',
 );
@@ -271,7 +271,7 @@ $local-config: (
 
 Then we set the semi-bold LeroyMerlin font-face into the `body` declaration.
 
-```scss
+```css
 body {
   @include set-font-face('semi-bold');
   ...
@@ -283,9 +283,9 @@ your browser should now look like this :
 
 # Notes
 
-> Note that you may only want to compile exisiting Garden components. In that case, you just have to create your own bundle, and import the parts you are interested in :
+> Note that you may only want to compile exisiting Mozaic components. In that case, you just have to create your own bundle, and import the parts you are interested in :
 
-```scss
+```css
 // mandatory
 @import '../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
@@ -299,8 +299,8 @@ note that you need to follow the ITCSS/ADS [import order](https://gael-boyenval.
 
 ### If you want to create your own local components :
 
-Note that if you want to pipe your own components into the same as the garden ones, the linter will ask of you to follow our guidelines.
+Note that if you want to pipe your own components into the same as the mozaic ones, the linter will ask of you to follow our guidelines.
 
 Please read [our guidelines](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/) to write CSS that follows our conventions.
 
-If you choose not to follow our guideline, build your CSS appart from the garden ones with the tool of your choice.
+If you choose not to follow our guideline, build your CSS appart from the mozaic ones with the tool of your choice.

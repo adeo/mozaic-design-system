@@ -13,10 +13,10 @@ You can add to your bundle the margins or paggings utility classes like so :
 ```
 
 ```html
-<div class="gu-mb-100">
+<div class="mu-mb-100">
   I will have a 16px margin bottom
 </div>
-<div class="gu-pl-050">
+<div class="mu-pl-050">
   I will have a 8px padding left
 </div>
 ```
@@ -31,12 +31,12 @@ Please considere that those utilities are looping through all magic-unit authori
 
 You can implement your own margins or paggings utility using the space mixin :
 
-```scss
+```css
 @import 'settings-tools/_all-settings.scss';
 
 @include space-util(m, t, 075);
 /*
-.gu-mt-075 { 
+.mu-mt-075 { 
     margin-top: 12px !important;
 }
 */
@@ -49,9 +49,9 @@ You can implement your own margins or paggings utility using the space mixin :
 </hintitem>
 
 ```html
-<div class="gm-list">
-  <div class="gm-list__item gu-mb-025">item</div>
-  <div class="gm-list__item gu-mb-025">item</div>
+<div class="mc-list">
+  <div class="mc-list__item mu-mb-025">item</div>
+  <div class="mc-list__item mu-mb-025">item</div>
 </div>
 ```
 
@@ -62,11 +62,11 @@ You can implement your own margins or paggings utility using the space mixin :
 </hintitem>
 
 ```html
-<div class="gm-list gu-mb-025">
-  <div class="gm-list__item">item</div>
-  <div class="gm-list__item">item</div>
+<div class="mc-list mu-mb-025">
+  <div class="mc-list__item">item</div>
+  <div class="mc-list__item">item</div>
 </div>
-<div class="gm-other">other</div>
+<div class="mc-other">other</div>
 ```
 
 <br/>
@@ -75,10 +75,10 @@ You can implement your own margins or paggings utility using the space mixin :
     Use margins and padding using variables or functions to define inner spaces
 </hintitem>
 
-```scss
+```css
 @import 'settings-tools/_all-settings.scss';
 
-.gm-list {
+.mc-list {
   /* ... list styles */
 
   &__item {
@@ -101,7 +101,7 @@ It makes it easier for your coworker to understant what is related to what.
 
 To remove border sizes from vertical padding, as borders are expressed in `px` and padding in `rem`, use the `calc()` css function :
 
-```scss
+```css
 @import 'settings-tools/_all-settings.scss';
 
 .exemple {

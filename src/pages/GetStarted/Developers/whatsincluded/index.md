@@ -7,7 +7,7 @@ order: 2
 
 `@mozaic-ds/styles/**`
 
-All the CSS and SCSS files that constitute the Garden SCSS frameworks.
+All the CSS and SCSS files that constitute the Mozaic SCSS frameworks.
 
 > Note that some variables are imported from the tokens directory.
 
@@ -25,14 +25,11 @@ styles/
 ├── layouts/
 │   ├── _l.***.scss
 │   └── ...
-├── atoms/
-│   ├── _a.***.scss
+├── typography/
+│   ├── _t.***.scss
 │   └── ...
-├── molecules/
-│   ├── _m.***.scss
-│   └── ...
-├── organisms/
-│   ├── _o.***.scss
+├── components/
+│   ├── _c.***.scss
 │   └── ...
 ├── utilities/
 │   ├── _u.***.scss

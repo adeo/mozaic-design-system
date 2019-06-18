@@ -1,5 +1,5 @@
 ---
-title: 'SCSS'
+title: 'Code'
 order: 1
 ---
 
@@ -10,7 +10,7 @@ Params :
 - `$weight` : 'light', 'regular', 'semi-bold'
 - `$italic` : default : null, option: 'italic'
 
-```scss
+```css
 @import 'settings-tools/_all-settings';
 
 // semi-bold

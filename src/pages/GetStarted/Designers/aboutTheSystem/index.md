@@ -3,7 +3,7 @@ title: 'About the system'
 order: 1
 ---
 
-*As designers*, the **LEROY MERLIN Design System** provide you with a lot of ready to use **patterns**.
+*As designers*, the **Mozaic design system** provide you with a lot of ready to use **patterns**.
 <br>
 <br>
 **What is a pattern?**
@@ -13,7 +13,7 @@ A pattern is a **repeating** or **reusable element** of the inferface like color
 It can be applied or modified to meet a specific design problem, a user need, evoke an emotion, reinforce the brand management.
 
 
-##The LEROY MERLIN Design System UI Kit
+##The Mozaic design system UI Kit
 The UI Kit is a set of sketch files to be used as libraries.
 <br>
 It contains all **core styles** as well as a collection of **reusable components** based on those core styles.

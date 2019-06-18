@@ -7,16 +7,16 @@ order: 1
 
 To get the `get-border ()` function you need to import `_all-settings.scss`.
 
-```scss
+```css
 // mandatory
-@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/mozaic-css/styles/settings-tools/_all-settings';
 ```
 
 ## Basic usage
 
 We provide a unique function to get every border width you need.
 
-```scss
+```css
 .example {
   border-width: get-border('s');
   border-width: get-border('m');

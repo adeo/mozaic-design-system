@@ -7,14 +7,14 @@ order: 1
 
 To get the `set-box-shadow()` mixin, you need to import `_all-settings.scss`.
 
-```scss
+```css
 // mandatory
-@import '../node_modules/garden-css/styles/settings-tools/_all-settings';
+@import '../node_modules/mozaic-css/styles/settings-tools/_all-settings';
 ```
 
 ## Basic usage
 
-```scss
+```css
 .example {
     @include set-box-shadow('s');
     @include set-box-shadow('m');
