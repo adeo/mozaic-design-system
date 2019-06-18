@@ -11,7 +11,16 @@ const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),
   nodeSass({
-    includePaths: ['node_modules/@mozaic-ds/styles/'],
+    includePaths: [
+      './node_modules/@mozaic-ds/styles/',
+      './node_modules/@mozaic-ds/styles/settings-tools/',
+      './node_modules/@mozaic-ds/styles/typography/',
+      './node_modules/@mozaic-ds/styles/layout/',
+      './node_modules/@mozaic-ds/styles/utilities/',
+      './node_modules/@mozaic-ds/styles/components/',
+      './node_modules/@mozaic-ds/tokens/build/scss/',
+      './node_modules/',
+    ],
     outputStyle: 'expanded',
     indentWidth: 2,
   }),
