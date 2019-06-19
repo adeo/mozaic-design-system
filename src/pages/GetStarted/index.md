@@ -7,18 +7,18 @@ order: 1
 
 <br>
 
-### [Principles](/getStarted/Principles/)
+### [Principles](/GetStarted/Principles/)
 
 Leroymerlin and ADEO's Design principles
 
 <br>
 
-### [Developer guide](/getStarted/developers/)
+### [Developer guide](/GetStarted/Developers/)
 
 Everything you need to know to install, use, extend or override Mozaic
 
 <br>
 
-### [Designer guide](/getStarted/designers/)
+### [Designer guide](/GetStarted/Designers/)
 
 How to use, Design kits, assets, rules.

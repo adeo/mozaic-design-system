@@ -7,7 +7,7 @@ The UI Kit is a set of sketch files to be used as libraries.
 <br>
 It contains all **core styles** as well as a collection of **reusable components** based on those core styles.
 
->We recommend that you read the [Naming convention](namingConvention) page to understand the naming convention used on all sketch files.
+>We recommend that you read the [Naming convention](/GetStarted/Designers/namingConvention/) page to understand the naming convention used on all sketch files.
 
 
 ***
