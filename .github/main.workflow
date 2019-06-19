@@ -42,7 +42,7 @@ action "Deployement url" {
 
 workflow "Release" {
   on = "release"
-  resolves = ["Deployement tag url"]
+  resolves = ["npm upload"]
 }
 
 action "Npm install release" {
@@ -72,4 +72,10 @@ action "Deployement tag url" {
   uses = "swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d"
   needs = ["Deploy Tag"]
   args = ["POST", "https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment", "ref=$GITHUB_REF env=production"]
+}
+
+action "npm upload" {
+  uses = "nuxt/actions-yarn@master"
+  needs = ["Deployement tag url"]
+  args = "run upload"
 }

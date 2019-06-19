@@ -1,0 +1,10 @@
+{
+    "assets": [
+        {
+            "name": "css-dev-tools.zip",
+            "folders": [
+                "packages/css-dev-tools"
+            ]
+        }
+    ]
+}
