@@ -6,6 +6,8 @@ const stat = fs.statSync
 
 const lernaData = fs.readFileSync('./lerna.json')
 const lerna = JSON.parse(lernaData)
+console.log(JSON.stringify(lerna.version, 0, 2))
+
 const rawdata = fs.readFileSync('./assets.config.json')
 const assets = JSON.parse(rawdata)
 
@@ -28,9 +30,7 @@ function newArchive(zipFileName, pathNames) {
 async function getReleaseByName() {
   var options = {
     method: 'GET',
-    url: `https://api.github.com/repos/adeo/design-system--styleguide/releases/tags/${
-      lerna.version
-    }`,
+    url: `https://api.github.com/repos/adeo/design-system--styleguide/releases/tags/${lerna.version}`,
     headers: {
       'User-Agent': 'Docker',
       authorization: 'bearer debe49d99c31a1b1079160215b4568cef48c0298',
