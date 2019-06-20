@@ -27,7 +27,7 @@ $button-sizes : (
 
 $button-medium : map-get($button-sizes, 'medium');
 
-$button-radius : get-radius('m');
+$button-radius : get-border-radius('m');
 $button-border : get-border('m');
 
 @mixin set-button {
@@ -37,6 +37,7 @@ $button-border : get-border('m');
   background: none;
   outline: none;
   box-sizing: border-box;
+  cursor: pointer;
 
   @include set-font-face('semi-bold');
   @include set-font-scale(map-get($button-medium, 'font-size'), map-get($button-medium, 'line-height'));
@@ -74,6 +75,7 @@ $button-border : get-border('m');
   &--full {
     @include modify-from-screens($viewports) {
       display: block;
+      width: 100%;
     }
   }
 }

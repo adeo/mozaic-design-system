@@ -34,7 +34,7 @@ $props: (
   'p': 'padding',
 );
 
-@mixin space-util($prop, $side, $size) {
+@mixin make-space-util($prop, $side, $size) {
   .mu-#{$prop}#{$side}-#{$size} {
     #{map-get($props, $prop)}-#{map-get($sides, $side)}:
       #{map-get(

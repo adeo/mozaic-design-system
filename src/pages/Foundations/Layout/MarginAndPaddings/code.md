@@ -34,7 +34,7 @@ You can implement your own margins or paggings utility using the space mixin :
 ```css
 @import 'settings-tools/_all-settings.scss';
 
-@include space-util(m, t, 075);
+@include make-space-util(m, t, 075);
 /*
 .mu-mt-075 { 
     margin-top: 12px !important;
