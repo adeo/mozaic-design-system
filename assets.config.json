@@ -1,10 +1,20 @@
 {
-    "assets": [
-        {
-            "name": "css-dev-tools.zip",
-            "folders": [
-                "packages/css-dev-tools"
-            ]
-        }
-    ]
+  "assets": [
+    {
+      "name": "scss-styles.zip",
+      "folders": ["packages/styles"]
+    },
+    {
+      "name": "web-fonts.zip",
+      "folders": ["packages/web-fonts"]
+    },
+    {
+      "name": "designer-kit.zip",
+      "folders": ["packages/designer-kit"]
+    },
+    {
+      "name": "icons.zip",
+      "folders": ["packages/icons"]
+    }
+  ]
 }
