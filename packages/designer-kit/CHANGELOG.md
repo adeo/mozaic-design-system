@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.10](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.9...v1.0.1-alpha.10) (2019-06-20)
+
+**Note:** Version bump only for package @mozaic-ds/designer-kit
+
+
+
+
+
 ## [1.0.1-alpha.9](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.7...v1.0.1-alpha.9) (2019-06-18)
 
 

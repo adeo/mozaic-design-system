@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.10](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.9...v1.0.1-alpha.10) (2019-06-20)
+
+
+### Features
+
+* **assets/designer kit:** add command to upload designer kit for a given release ([#269](https://github.com/adeo/design-system--styleguide/issues/269)) ([8fab03d](https://github.com/adeo/design-system--styleguide/commit/8fab03d))
+* **styles/mixins:** add a border radius mixin and fix SCSS syntaxes issues ([fc7d71c](https://github.com/adeo/design-system--styleguide/commit/fc7d71c))
+
+
+
+
+
 ## [1.0.1-alpha.9](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.7...v1.0.1-alpha.9) (2019-06-18)
 
 
