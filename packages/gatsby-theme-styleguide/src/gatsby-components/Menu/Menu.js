@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
-
 import { MenuItem } from './MenuItem'
 import MenuHeader from './MenuHeader'
 import buildMenuModel from './BuildMenuModel'
@@ -9,7 +8,6 @@ import buildMenuModel from './BuildMenuModel'
 const MenuItemContainer = styled.div`
   display: flex;
 `
-
 const ShowChildrenButton = styled.button`
   cursor: pointer;
   flex: initial;
@@ -177,6 +175,15 @@ export default class Menu extends Component {
         />
         <NavContainer>
           {this.buildMenu(this.state.menuArray, true)}
+          <a
+            href="https://github.com/adeo/design-system--styleguide/releases/download/v1.0.1-alpha.10/designer-kit.zip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button__menu button button--secondary"
+            title="Download the IU kit"
+          >
+            Download the design kit
+          </a>
         </NavContainer>
       </Container>
     )

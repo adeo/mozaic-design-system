@@ -1,0 +1,255 @@
+@import '~@mozaic-ds/styles/settings-tools/_all-settings';
+@import '~@mozaic-ds/styles/layouts/_l.container';
+@import '~@mozaic-ds/styles/layouts/_l.flexy';
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext');
+
+.mozaic {
+  position: relative;
+  font-family: 'Karla', sans-serif;
+}
+
+.slice {
+  &--dark {
+    background-color: $color-grey-999;
+  }
+
+  &__container {
+    max-width: 860px;
+    margin: 0 auto;
+
+    &--large {
+      max-width: 1376px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.section {
+  padding: $mu300 $mu100;
+
+  &__title {
+    @include set-font-scale('11', 's');
+
+    font-weight: 700;
+    line-height: $mu350;
+    color: $color-grey-999;
+
+    @include set-from-screen(m) {
+      @include set-font-scale('12', 's');
+    }
+  }
+
+  &__content {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  &__tile {
+    display: flex;
+    color: $color-grey-999;
+  }
+}
+
+.help {
+  list-style: none;
+  justify-content: center;
+
+  &__link {
+    align-items: flex-end;
+    display: flex;
+  }
+
+  &__icon {
+    max-height: $mu400;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.hero {
+  color: $color-grey-000;
+
+  &__small {
+    @include set-font-scale('07', 'm');
+  }
+
+  &__title {
+    font-size: $mu500;
+    line-height: $mu500;
+    letter-spacing: -0.086875rem;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: auto;
+    padding: 0 0 2.6075rem 0;
+
+    @include set-from-screen(m) {
+      font-size: $mu600;
+      line-height: $mu600;
+    }
+  }
+
+  &__description {
+    text-align: center;
+
+    @include set-font-scale('07', 'm');
+
+    padding: 0 0 $mu150 0;
+  }
+
+  &__button {
+    text-align: center;
+    margin: $mu150 0 $mu250 0;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.more {
+  justify-content: center;
+
+  &--hide {
+    display: none;
+  }
+
+  &__arrow {
+    background-color: $color-grey-000;
+    width: $mu300;
+    height: $mu300;
+    border-radius: $mu300;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: -$mu150 0 0 0;
+
+    &::before {
+      content: '';
+      border: solid $color-grey-999;
+      border-width: 0 0.13rem 0.13rem 0;
+      display: inline-flex;
+      padding: 0.1rem;
+      width: $mu100;
+      height: $mu100;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      margin: 0.6rem 0 0 0.8rem;
+    }
+  }
+}
+
+.contact {
+  margin: 0 0 $mu100 0;
+
+  &__picture {
+    width: 100%;
+    background-color: $color-grey-999;
+    flex: 1;
+    align-self: stretch;
+    min-height: 15rem;
+  }
+
+  &__infos {
+    padding: $mu050 $mu100 $mu050 $mu200;
+  }
+}
+
+.tile {
+  @include set-box-shadow('m');
+
+  border-radius: $mu150;
+  padding: $mu300;
+  flex: 1;
+  text-align: center;
+  align-self: stretch;
+  margin: 0 0 $mu100 0;
+  position: relative;
+
+  @include set-from-screen(m) {
+    text-align: left;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &__icon {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto $mu300 auto;
+    background-color: $color-grey-999;
+    border-radius: $mu300;
+    width: $mu600;
+    height: $mu600;
+
+    @include set-from-screen(m) {
+      margin: 0 0 $mu300 0;
+    }
+
+    &--center {
+      margin: 0 auto $mu300 auto;
+    }
+  }
+
+  &__title {
+    @include set-font-scale('09', 'm');
+  }
+
+  &__description {
+    @include set-font-scale('07', 'm');
+
+    margin: 0 0 $mu150 0;
+
+    &--italic {
+      @include set-font-scale('06', 'm');
+
+      font-style: italic;
+      margin: 0 0 $mu300 0;
+      font-weight: 700;
+    }
+  }
+
+  &__link {
+    @include set-font-scale('06', 'm');
+
+    text-decoration: underline;
+    font-weight: 700;
+    color: $color-grey-999;
+
+    &--bottom {
+      bottom: $mu300;
+      left: 0;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+    }
+
+    &:hover {
+      color: $color-secondary-purple-500;
+    }
+  }
+}
+
+.button {
+  @include set-button;
+
+  &__menu {
+    margin: $mu300 0;
+  }
+
+  &--primary {
+    background-color: $color-grey-000;
+    color: $color-grey-999;
+
+    &:hover {
+      background-color: $color-grey-100;
+      color: $color-grey-999;
+    }
+  }
+
+  &--secondary {
+    background-color: $color-grey-999;
+    color: $color-grey-000;
+
+    &:hover {
+      background-color: $color-secondary-purple-500;
+      color: $color-grey-000;
+    }
+  }
+}

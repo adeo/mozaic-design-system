@@ -3,22 +3,22 @@ title: 'Designer guide'
 order: 2
 ---
 
-**[About the system](aboutTheSystem/)**<br>
+**[About the system](/GetStarted/Designers/aboutTheSystem/)**<br>
 Introduction for designers.
 <br><br>
 
-**[What's included ?](whatsIncluded/)**<br>
+**[What's included ?](/GetStarted/Designers/whatsIncluded/)**<br>
 The pattern contents list of the LEROY MERLIN UI Kit.
 <br><br>
 
-**[Requirements](requirements/)**<br>
+**[Requirements](/GetStarted/Designers/requirements/)**<br>
 What do you need to use the design system files.
 <br><br>
 
-**[How to use the UI Kit](installation/)**<br>
+**[How to use the UI Kit](/GetStarted/Designers/installation/)**<br>
 The right way to do it.
 <br><br>
 
-**[Naming convention](namingConvention/)**<br>
+**[Naming convention](/GetStarted/Designers/namingConvention/)**<br>
 How the design files are named and why.
 <br><br>

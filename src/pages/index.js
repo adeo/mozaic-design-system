@@ -1,115 +1,245 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Layout from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/layout'
-import Container from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/Container'
+import './index.scss'
 
-const IndexPage = () => {
-  return (
-    <Layout>
-      <Container>
-        <h1>MultiBU Design System</h1>
-        <p>
-          Hello, welcome to our Design System MultiBU yeah, that's a poor name
-          we came up with just for the sake of calling it something else than
-          design system, you can help us on finding a new name on our slack
-          channel.
-          <br />
-          With a modular approch, we intend to serve ADEO with a flexbile design
-          system that allows Business Units to develop it's digital products.
-          All our design principles, rules and conventions are listed here as
-          well as everything you need to have consistent interactions up and
-          running for real humans to use.
-        </p>
-      </Container>
-      <hr />
-      <Container>
-        <h2>Quick start</h2>
-        <h3>
-          To go up and running as fast as possible, go to the{' '}
-          <Link to="/getStarted/">Getting started section</Link>
-        </h3>
-      </Container>
-      <hr />
-      <Container>
-        <h2>
-          The goal is to provide a tool that helps digital teams from Business
-          Units to :
-        </h2>
-        <ul>
-          <li>
-            Design and Develop new interactions faster by providing ready-made
-            reusable building blocks;
-          </li>
-          <li>
-            Consume tested patterns regarding accessibility, browser
-            compatibility and usability;
-          </li>
-          <li>
-            Respect brand identity creating consistency across projects and
-            platforms
-          </li>
-          <li>
-            Learn discoveries about new interactions, and test insights from
-            other Business Units
-          </li>
-          <li>Promoting the Innersource approach on our tech community</li>
-        </ul>
+const Tile = ({
+  icon,
+  center,
+  title,
+  subtext,
+  bottom,
+  linktitle,
+  text,
+  linkurl,
+  link,
+  children,
+}) => (
+  <div className="ml-flexy__col section__tile">
+    <div className={`${center ? 'tile tile--center' : 'tile'}`}>
+      <i
+        className={`${center ? 'tile__icon tile__icon--center' : 'tile__icon'}`}
+      >
+        {icon}
+      </i>
+      <h3 className="tile__title">{title}</h3>
+      <p className="tile__description">{text}</p>
+      <p className="tile__description--italic">{subtext}</p>
+      <Link
+        className={`${bottom ? 'tile__link tile__link--bottom' : 'tile__link'}`}
+        to={linkurl}
+        title={linktitle}
+      >
+        {link}
+      </Link>
+      {children}
+    </div>
+  </div>
+)
 
-        <h3>Our Philosophy:</h3>
-        <p>
-          We now that each BU face different challenges, that's why we want the
-          design system to be :
-        </p>
+const Section = ({ children, title }) => (
+  <div className="section">
+    <h2 className="section__title ml-flexy__col--11of12@from-m  ml-flexy__col--push-1of12@from-m">
+      {title}
+    </h2>
+    <div className="section__content">{children}</div>
+  </div>
+)
 
-        <h4>Extensible</h4>
-        <p>
-          You don't have only the ready components, but you have the tools to
-          build components faster. (design assets, documentations, mixins,
-          functions, linters and sketch files)
-        </p>
+const Slice = ({ children, dark, large }) => (
+  <section className={`${dark ? 'slice--dark' : 'slice'}`}>
+    <div
+      className={`${large ? 'slice__container--large' : 'slice__container'}`}
+    >
+      {children}
+    </div>
+  </section>
+)
 
-        <h4>Modular</h4>
-        <p>
-          Take just what you need, live the rest. You can import the whole
-          project or only the patterns you need. It's possible, for example, to
-          use just our grids, buttons and colors, and keep your own set of
-          icons. We will make sure that what you use will play well with your
-          existing code bases.
-        </p>
+const Linkicon = ({ children, link }) => (
+  <li className="ml-flexy__col">
+    <a
+      className="help__link"
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children}
+    </a>
+  </li>
+)
 
-        <h4>Customizable</h4>
-        <p>
-          If you need another color scheme, override it locally, and use it in
-          your project
+const IndexPage = () => (
+  <main className="mozaic">
+    <Slice dark large>
+      <ul className="help ml-flexy ml-flexy__col-1of2 ml-flexy__col--push-1of2 ml-flexy__col--1of6@from-l ml-flexy__col--push-5of6@from-l">
+        <Linkicon link="https://adeo-tech-community.slack.com/messages/CKQJZL7C4/">
+          <svg
+            className="help__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 270 270"
+          >
+            <title>Slack icon</title>
+            <path
+              fill="#e01e5a"
+              d="M99.4 151.2c0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9 0-7.1 5.8-12.9 12.9-12.9h12.9v12.9zm6.5 0c0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9v32.3c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9v-32.3z"
+            />
+            <path
+              fill="#36c5f0"
+              d="M118.8 99.4c-7.1 0-12.9-5.8-12.9-12.9 0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9v12.9h-12.9zm0 6.5c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9H86.5c-7.1 0-12.9-5.8-12.9-12.9s5.8-12.9 12.9-12.9h32.3z"
+            />
+            <path
+              fill="#2eb67d"
+              d="M170.6 118.8c0-7.1 5.8-12.9 12.9-12.9 7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9h-12.9v-12.9zm-6.5 0c0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9V86.5c0-7.1 5.8-12.9 12.9-12.9 7.1 0 12.9 5.8 12.9 12.9v32.3z"
+            />
+            <path
+              fill="#ecb22e"
+              d="M151.2 170.6c7.1 0 12.9 5.8 12.9 12.9 0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9v-12.9h12.9zm0-6.5c-7.1 0-12.9-5.8-12.9-12.9 0-7.1 5.8-12.9 12.9-12.9h32.3c7.1 0 12.9 5.8 12.9 12.9 0 7.1-5.8 12.9-12.9 12.9h-32.3z"
+            />
+          </svg>
+        </Linkicon>
+        <Linkicon link="https://github.com/adeo/design-system--styleguide">
+          <svg
+            className="help__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-9 -9 34 34"
+            aria-hidden="true"
+          >
+            <title>Github icon</title>
+            <path
+              fill="#ffffff"
+              fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+            />
+          </svg>
+        </Linkicon>
+      </ul>
+    </Slice>
+    <Slice dark>
+      <header className="section hero">
+        <small className="hero__small">Introducing</small>
+        <h1 className="hero__title">Mozaic design system</h1>
+        <p className="hero__description">
+          A design system to reinforce team’s delivery time, improve quality of
+          deliverables and thus help set up a coherent customer experience.
         </p>
-      </Container>
-      <hr />
-      <Container>
-        <h4>Developers, here's our github repo</h4>
-        <a href="https://github.com/adeo/design-system--styleguide">
-          link to github
-        </a>
-        <p>
-          It's worth to mention that this is a living system, still in it's
-          earliest stages. So, bare with us for a little and this will be
-          something great in no time... at least, we expect! :) You can report
-          any bug or request a feature or improvment{' '}
-          <a href="https://github.com/adeo/design-system--styleguide/issues/new/choose">
-            filling an issue here
-          </a>
-        </p>
-
-        <h4>Designers</h4>
-        <p>
-          A great onboarding and documentation for you is comming. For now, you
-          can follow us on the{' '}
-          <a href="https://adeo-tech-community.slack.com/messages/CF7TJ87DL/apps/A0F7YS2SX/">
-            slack channel
-          </a>
-        </p>
-      </Container>
-    </Layout>
-  )
-}
+        <div className="hero__button">
+          <Link
+            to="/GetStarted/"
+            className="button button--primary"
+            title="Principles, designer and developper guide"
+          >
+            Getting started
+          </Link>
+        </div>
+      </header>
+    </Slice>
+    <Slice large>
+      <div className="ml-flexy more--hide">
+        <Link to="/#start" className="more__arrow" title="See more" />
+      </div>
+      <Section title="Get started" id="start">
+        <div className="ml-flexy ml-flexy--items-stretch ml-flexy--gutter">
+          <Tile
+            bottom
+            center
+            title="Designers"
+            text="Learn how to install and use this design system from it’s sketch files to specs on how to create and share your team’s designs based on common foundations."
+            linkurl="/GetStarted/Designers/"
+            linktitle="How to start for designers"
+            link="Getting started"
+          ></Tile>
+          <Tile
+            center
+            title="Developers"
+            text="All you need to get it up and running with in your project from how to install, usage documentation to contribution model so you can share your code."
+            linkurl="/GetStarted/Developers/"
+            linktitle="How to start for developpers"
+            link="Getting started"
+          ></Tile>
+        </div>
+      </Section>
+    </Slice>
+    <Slice large>
+      <Section title="Design language">
+        <div className="ml-flexy ml-flexy--items-stretch ml-flexy--gutter">
+          <Tile
+            bottom
+            center
+            title="Foundations"
+            text="The base of everything. All items you need to conceive a visual element. From colors to breakpoints, going also through margins, paddings, strokes typography, shadows and icons."
+            linkurl="/Foundations/"
+            linktitle="Foundations of Mozaic"
+            link="Discover"
+          ></Tile>
+          <Tile
+            bottom
+            center
+            title="Components"
+            text="Visual components needed to layout an interaction."
+            subtext="(work in progress)"
+            linkurl="/Components/"
+            linktitle="Components of Mozaic"
+            link="Discover"
+          ></Tile>
+        </div>
+      </Section>
+    </Slice>
+    <Slice large>
+      <Section title="Ressources" name="start">
+        <div className="ml-flexy ml-flexy--items-stretch ml-flexy--gutter">
+          <Tile
+            title="Design Kit"
+            text="The UI Kit is a set of sketch files to be used as libraries."
+          >
+            <p className="tile__description--italic">
+              Please read{' '}
+              <Link
+                className="tile__link"
+                to="/GetStarted/Designers/whatsIncluded/"
+              >
+                the What’s included ?
+              </Link>{' '}
+              session before using it.
+            </p>
+            <div className="tile__button">
+              <a
+                href="https://github.com/adeo/design-system--styleguide/releases/download/v1.0.1-alpha.10/designer-kit.zip"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--secondary"
+                title="Download the IU kit"
+              >
+                Download the design kit
+              </a>
+            </div>
+          </Tile>
+        </div>
+      </Section>
+    </Slice>
+    <Slice>
+      <div className="section">
+        <div className="section__content">
+          <div className="contact ml-flexy ml-flexy--gutter">
+            <div className="contact__picture ml-flexy__col--1of3@from-m" />
+            <div className="contact__infos ml-flexy__col--2of3@from-m">
+              <h2 className="section__title">
+                Want to contribute to the project ?
+              </h2>
+              <div className="tile__button">
+                <a
+                  href="/"
+                  className="button button--secondary"
+                  title="Conact us to contribute"
+                >
+                  Conact us !
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Slice>
+  </main>
+)
 
 export default IndexPage

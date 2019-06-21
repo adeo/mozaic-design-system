@@ -12,7 +12,7 @@ In this example, in order to familiarize with mozaic, we will setup a simple web
 - Configure stylelinnt to auto-fix our styling mistakes
 - Build a live-reload dev server and use Mozaic static assets in our project
 
-You have read [the presentation tab and followed the installation steps](/getStarted/developers/) (or you should have).
+You have read [the presentation tab and followed the installation steps](/GetStarted/Developers/) (or you should have).
 
 Now you should have :
 
