@@ -8,18 +8,31 @@ order: 2
 Import the settings and the text-input `scss` files.
 
 ```css
-@import '../node_modules/mozaic-css/styles/settings-tools/_all-settings';
-@import '../node_modules/mozaic-css/styles/components/_c.text-input';
+@import 'settings-tools/_all-settings';
+@import 'components/_c.text-input';
 ```
 
 ## Basic usage
 
-<!-- ### Apply CSS Class -->
+### Supported input types
 
-To create an input you have one main class to apply `mc-input`.
+<ul>
+    <li><code>text</code></li>
+    <li><code>email</code></li>
+    <li><code>date</code></li>
+    <li><code>password</code></li>
+    <li><code>number</code></li>
+    <li><code>tel</code></li>
+    <li><code>number</code></li>
+    <li><code>search</code></li>
+</ul>
+
+> Note that **if you try to apply those CSS classes to an unsupported input type**. It could work but you should find something which better suits to your needs in the documentation.
+
+To create an input you have one main class to apply `mc-text-input`.
 
 ```html
-<input type="text" class="mc-input" placeholder="Empty" name="example" />
+<input type="text" class="mc-text-input" placeholder="Empty" name="example" />
 ```
 
 <preview path="src/pages/Components/TextInput/previews/input-default"></preview>
@@ -45,7 +58,7 @@ To create an input you have one main class to apply `mc-input`.
 ```html
 <input
   type="text"
-  class="mc-input is-invalid is-hover"
+  class="mc-text-input is-invalid is-hover"
   placeholder="Empty"
   name="example"
 />
@@ -60,7 +73,7 @@ To create an input you have one main class to apply `mc-input`.
 <input
   id="myExample"
   type="text"
-  class="mc-input"
+  class="mc-text-input"
   placeholder="Empty"
   name="example"
 />

@@ -1,28 +1,28 @@
-@mixin set-flex-container() {
+@mixin set-flexy() {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
 }
 
-@mixin set-flex-width($portion, $of) {
+@mixin set-flexy-width($portion, $of) {
   $percent: ($portion / $of) * 100;
 
   flex: 0 0 $percent * 1%;
   max-width: $percent * 1%;
 }
 
-@mixin set-flex-push($portion, $of) {
+@mixin set-flexy-col-push($portion, $of) {
   $percent: ($portion / $of) * 100;
 
   margin-left: $percent * 1%;
 }
 
-@mixin set-flex-container-gutter($gutter-width) {
+@mixin set-flexy-gutter($gutter-width) {
   margin-right: -($gutter-width / 2);
   margin-left: -($gutter-width / 2);
 }
 
-@mixin set-flex-child-gutter($gutter-width) {
+@mixin set-flexy-col-gutter($gutter-width) {
   padding-right: $gutter-width / 2;
   padding-left: $gutter-width / 2;
 }
@@ -51,7 +51,7 @@
     (type-of($at-sizes) == list or type-of($at-sizes) == string) {
     .ml-flexy__col--#{$portion}of#{$of} {
       @include modify-from-screens($at-sizes) {
-        @include set-flex-width($portion, $of);
+        @include set-flexy-width($portion, $of);
       }
     }
   }
@@ -81,7 +81,7 @@
     (type-of($at-sizes) == list or type-of($at-sizes) == string) {
     .ml-flexy__col--push-#{$portion}of#{$of} {
       @include modify-from-screens($at-sizes) {
-        @include set-flex-push($portion, $of);
+        @include set-flexy-col-push($portion, $of);
       }
     }
   }

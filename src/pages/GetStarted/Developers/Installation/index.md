@@ -10,24 +10,7 @@ Installing Mozaic require `node v10 +`
 As for now the `@mozaic-ds/**` repos are public registries on NPM.
 You need to be granted and access to the repos.
 
-#### To get an NPM access :
-
-- Create a NPM account (if you don't have one)
-- Send us the email used with your account
-
-Please note that this procedure may take times and may change soon.
-
 ### Install repositories :
-
-first log yourself in your npm account :
-
-```bash
-npm login
-```
-
-and follow the steps prompted by npm to log yourself in
-
-then install any package you want
 
 ```bash
 npm install --save @mozaic-ds/<name-of-your-package>
