@@ -3,6 +3,34 @@
 @import '~@mozaic-ds/styles/layouts/_l.flexy';
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext');
 
+.button {
+  @include set-button;
+
+  &__menu {
+    margin: $mu300 0;
+  }
+
+  &--primary {
+    background-color: $color-grey-000;
+    color: $color-grey-999;
+
+    &:hover {
+      background-color: $color-grey-100;
+      color: $color-grey-999;
+    }
+  }
+
+  &--secondary {
+    background-color: $color-grey-999;
+    color: $color-grey-000;
+
+    &:hover {
+      background-color: $color-secondary-purple-500;
+      color: $color-grey-000;
+    }
+  }
+}
+
 .mozaic {
   position: relative;
   font-family: 'Karla', sans-serif;
@@ -20,6 +48,7 @@
     &--large {
       max-width: 1376px;
       margin: 0 auto;
+      padding-top: $mu600;
     }
   }
 }
@@ -51,27 +80,38 @@
 }
 
 .help {
-  list-style: none;
-  justify-content: center;
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  top: $mu150;
+  right: $mu150;
 
   &__link {
-    align-items: flex-end;
-    display: flex;
+    display: inline-block;
+    color: $color-grey-000;
+    padding: 0 $mu075;
+  }
+
+  &__link-list {
+    display: inline-block;
+    padding-right: $mu100;
+  }
+
+  &__link-icon {
+    display: inline-block;
+    padding: 0;
   }
 
   &__icon {
-    max-height: $mu400;
-    width: 100%;
-    height: 100%;
+    width: $mu300;
+    height: $mu300;
+    display: block;
   }
 }
 
 .hero {
   color: $color-grey-000;
-
-  &__small {
-    @include set-font-scale('07', 'm');
-  }
 
   &__title {
     font-size: $mu500;
@@ -89,16 +129,15 @@
   }
 
   &__description {
-    text-align: center;
-
     @include set-font-scale('07', 'm');
 
+    text-align: center;
     padding: 0 0 $mu150 0;
   }
 
   &__button {
     text-align: center;
-    margin: $mu150 0 $mu250 0;
+    margin: 0 $mu050 $mu100;
     justify-content: center;
     display: flex;
   }
@@ -192,12 +231,12 @@
   }
 
   &__description {
-    @include set-font-scale('07', 'm');
+    @include set-font-scale('06', 'm');
 
-    margin: 0 0 $mu150 0;
+    margin: 0 0 $mu250 0;
 
     &--italic {
-      @include set-font-scale('06', 'm');
+      @include set-font-scale('05', 'm');
 
       font-style: italic;
       margin: 0 0 $mu300 0;
@@ -208,6 +247,8 @@
   &__link {
     @include set-font-scale('06', 'm');
 
+    display: block;
+    padding: $mu050 0 $mu050;
     text-decoration: underline;
     font-weight: 700;
     color: $color-grey-999;
@@ -222,34 +263,6 @@
 
     &:hover {
       color: $color-secondary-purple-500;
-    }
-  }
-}
-
-.button {
-  @include set-button;
-
-  &__menu {
-    margin: $mu300 0;
-  }
-
-  &--primary {
-    background-color: $color-grey-000;
-    color: $color-grey-999;
-
-    &:hover {
-      background-color: $color-grey-100;
-      color: $color-grey-999;
-    }
-  }
-
-  &--secondary {
-    background-color: $color-grey-999;
-    color: $color-grey-000;
-
-    &:hover {
-      background-color: $color-secondary-purple-500;
-      color: $color-grey-000;
     }
   }
 }

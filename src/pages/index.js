@@ -56,22 +56,31 @@ const Slice = ({ children, dark, large }) => (
 )
 
 const Linkicon = ({ children, link }) => (
-  <li className="ml-flexy__col">
-    <a
-      className="help__link"
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {children}
-    </a>
-  </li>
+  <a
+    className="help__link-icon"
+    href={link}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {children}
+  </a>
 )
 
 const IndexPage = () => (
   <main className="mozaic">
     <Slice dark large>
-      <ul className="help ml-flexy ml-flexy__col-1of2 ml-flexy__col--push-1of2 ml-flexy__col--1of6@from-l ml-flexy__col--push-5of6@from-l">
+      <nav className="help">
+        <div className="help__link-list">
+          <Link className="help__link" to="/GetStarted">
+            Get Started
+          </Link>
+          <Link className="help__link" to="/Foundations">
+            Foundations
+          </Link>
+          <Link className="help__link" to="/Components">
+            Components
+          </Link>
+        </div>
         <Linkicon link="https://adeo-tech-community.slack.com/messages/CKQJZL7C4/">
           <svg
             className="help__icon"
@@ -97,7 +106,7 @@ const IndexPage = () => (
             />
           </svg>
         </Linkicon>
-        <Linkicon link="https://github.com/adeo/design-system--styleguide">
+        <Linkicon link="https://github.com/adeo/mozaic-design-system">
           <svg
             className="help__icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -112,11 +121,10 @@ const IndexPage = () => (
             />
           </svg>
         </Linkicon>
-      </ul>
+      </nav>
     </Slice>
     <Slice dark>
       <header className="section hero">
-        <small className="hero__small">Introducing</small>
         <h1 className="hero__title">Mozaic design system</h1>
         <p className="hero__description">
           A design system to reinforce team’s delivery time, improve quality of
@@ -125,11 +133,21 @@ const IndexPage = () => (
         <div className="hero__button">
           <Link
             to="/GetStarted/"
-            className="button button--primary"
+            className="button button--primary hero__button"
             title="Principles, designer and developper guide"
           >
             Getting started
           </Link>
+          {'  '}
+          <a
+            href="https://github.com/adeo/design-system--styleguide/releases/download/v1.0.1-alpha.10/designer-kit.zip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button button--primary hero__button"
+            title="Download the IU kit"
+          >
+            Download the design kit
+          </a>
         </div>
       </header>
     </Slice>
@@ -143,7 +161,7 @@ const IndexPage = () => (
             bottom
             center
             title="Designers"
-            text="Learn how to install and use this design system from it’s sketch files to specs on how to create and share your team’s designs based on common foundations."
+            text="Learn how to install and use this design system from it’s sketch libraries"
             linkurl="/GetStarted/Designers/"
             linktitle="How to start for designers"
             link="Getting started"
@@ -151,7 +169,7 @@ const IndexPage = () => (
           <Tile
             center
             title="Developers"
-            text="All you need to get it up and running with in your project from how to install, usage documentation to contribution model so you can share your code."
+            text="All guidance needed so you can get it up and running on your project."
             linkurl="/GetStarted/Developers/"
             linktitle="How to start for developpers"
             link="Getting started"
@@ -166,7 +184,7 @@ const IndexPage = () => (
             bottom
             center
             title="Foundations"
-            text="The base of everything. All items you need to conceive a visual element. From colors to breakpoints, going also through margins, paddings, strokes typography, shadows and icons."
+            text="The base of everything. All items you need to conceive a visual element."
             linkurl="/Foundations/"
             linktitle="Foundations of Mozaic"
             link="Discover"
@@ -215,29 +233,6 @@ const IndexPage = () => (
           </Tile>
         </div>
       </Section>
-    </Slice>
-    <Slice>
-      <div className="section">
-        <div className="section__content">
-          <div className="contact ml-flexy ml-flexy--gutter">
-            <div className="contact__picture ml-flexy__col--1of3@from-m" />
-            <div className="contact__infos ml-flexy__col--2of3@from-m">
-              <h2 className="section__title">
-                Want to contribute to the project ?
-              </h2>
-              <div className="tile__button">
-                <a
-                  href="/"
-                  className="button button--secondary"
-                  title="Conact us to contribute"
-                >
-                  Conact us !
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </Slice>
   </main>
 )
