@@ -30,7 +30,7 @@ function newArchive(zipFileName, pathNames) {
 async function getReleaseByName() {
   var options = {
     method: 'GET',
-    url: `https://api.github.com/repos/adeo/design-system--styleguide/releases/tags/${lerna.version}`,
+    url: `https://api.github.com/repos/adeo/design-system--styleguide/releases/tags/v${lerna.version}`,
     headers: {
       'User-Agent': 'Docker',
       authorization: 'bearer debe49d99c31a1b1079160215b4568cef48c0298',
