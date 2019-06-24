@@ -9,7 +9,7 @@ To get the `set-box-shadow()` mixin, you need to import `_all-settings.scss`.
 
 ```css
 // mandatory
-@import '../node_modules/mozaic-css/styles/settings-tools/_all-settings';
+@import 'settings-tools/_all-settings';
 ```
 
 ## Basic usage

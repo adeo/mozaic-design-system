@@ -19,7 +19,7 @@ $font-colors: get-token('color', 'font');
   &__font-color {
     @each $key, $value in $font-colors {
       &-#{$key} {
-        @include font-color($key);
+        @include set-color($key);
 
         &::after {
           content: '#{$key}';

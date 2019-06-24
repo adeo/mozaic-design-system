@@ -223,18 +223,18 @@ Use the `ml-flexy--space-around` and the `ml-flexy--items-center` modifier on a 
 
 There is 8 available mixins that you can work with to help you create layouts :
 
-- `set-flex-container` : add flex properties to a container (similar than `.ml-flexy`)
-- `set-flex-width` : add a width properties to a flex child (similar than `.ml-flexy__col--XofX`)
-- `set-flex-container-gutter` and `set-flex-child-gutter` : add gutters to the a flex container and his child
-- `set-flex-push` : add a margin left to a flex child (similar than `.ml-flexy__col--push-XofX`)
+- `set-flexy` : add flex properties to a container (similar than `.ml-flexy`)
+- `set-flexy-width` : add a width properties to a flex child (similar than `.ml-flexy__col--XofX`)
+- `set-flexy-gutter` and `set-flexy-col-gutter` : add gutters to the a flex container and his child
+- `set-flexy-col-push` : add a margin left to a flex child (similar than `.ml-flexy__col--push-XofX`)
 - `make-flexy-col` : create a new column width of type `.ml-flexy__col--XofX`
 - `make-flexy-custom-col` : create custom columns (with any properties you whant `.ml-flexy__col--XXX`)
 - `make-flexy-col-push` : create a new column push of type `.ml-flexy__col--push-XofX`
 
-### The set-flex-xxx mixins
+### The set-flexy-xxx mixins
 
 <hintitem>
-Use the set-flex-xxx to mimic the behavior of a grid without applying classes on the dom
+Use the set-flexy-xxx to mimic the behavior of a grid without applying classes on the dom
 </hintitem>
 
 Example : Create a blog post layout with an image and a text. From tablet screens, put the text in front of the image.
@@ -245,41 +245,41 @@ Example : Create a blog post layout with an image and a text. From tablet screen
 .post-item {
   $gutter: $mu200;
   /* set flex */
-  @include set-flex-container(); /* add the gutter to the parent */
-  @include set-flex-container-gutter($gutter);
+  @include set-flexy(); /* add the gutter to the parent */
+  @include set-flexy-gutter($gutter);
 
   &__image,
   &__body {
     /* add the gutter to the childs */
-    @include set-flex-child-gutter($gutter);
+    @include set-flexy-col-gutter($gutter);
   }
 
   &__image {
-    @include set-flex-width(1, 1); // 100%
+    @include set-flexy-width(1, 1); // 100%
 
     @include set-from-screen(m) {
       // will output a 1of4 equivalent = 25% width
-      @include set-flex-width(1, 4);
+      @include set-flexy-width(1, 4);
     }
   }
 
   &__body {
-    @include set-flex-width(1, 1); // 100%
+    @include set-flexy-width(1, 1); // 100%
 
     @include set-from-screen(m) {
       // will output a 1of4 equivalent = 25% width
-      @include set-flex-width(3, 4);
+      @include set-flexy-width(3, 4);
     }
   }
 }
 ```
 
-#### Set-flex-xxx mixins parameters
+#### set-flexy-xxx mixins parameters
 
-- `set-flex-container` : no argument required
-- `set-flex-width` : `$portion`: required - integer, `$of`: required - integer
-- `set-flex-container-gutter` and `set-flex-child-gutter` : `$gutter` : required - a `rem` value of the total gutter width
-- `set-flex-push` : `$portion`: required - integer, `$of`: required - integer
+- `set-flexy` : no argument required
+- `set-flexy-width` : `$portion`: required - integer, `$of`: required - integer
+- `set-flexy-gutter` and `set-flexy-col-gutter` : `$gutter` : required - a `rem` value of the total gutter width
+- `set-flexy-col-push` : `$portion`: required - integer, `$of`: required - integer
 
 ### The make-flexy-xxx mixins
 

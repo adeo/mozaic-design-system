@@ -7,7 +7,7 @@ order: 2
 
 `@mozaic-ds/styles/**`
 
-All the CSS and SCSS files that constitute the Mozaic SCSS frameworks.
+All the CSS and SCSS files that constitute the Mozaic SCSS framework.
 
 > Note that some variables are imported from the tokens directory.
 
@@ -16,7 +16,7 @@ styles/
 ├── settings-tools/
 │   ├── _s.***.scss
 │   ├── _t.***.scss
-│   └── _allsettings.scss (this is a sub bundle containing all variables, mixins, and functions import only this one)
+│   └── _all-settings.scss (this is a sub bundle containing all variables, mixins, and functions import only this one)
 ├── generics/
 │   └── _g.***.scss
 ├── elements/
@@ -82,7 +82,7 @@ Right now the tools are composed only of SCSS/postcss tools.
 > note that we are using Postcss to build SCSS files
 
 ```tree
-cssCompiler/
+css-dev-tools/
 │   ├── postcssPluginConfig.js (an array of postcss plugins to build the scss files)
 │   ├── css-pipeline.js (useless right now)
 │   └── styleLintConfig.js (stylelint config)

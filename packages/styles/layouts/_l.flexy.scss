@@ -1,11 +1,11 @@
 .ml-flexy {
-  @include set-flex-container();
+  @include set-flexy();
 
   &--gutter {
-    @include set-flex-container-gutter($size-gutter-screen-s);
+    @include set-flexy-gutter($size-gutter-screen-s);
 
     @include set-from-screen('m') {
-      @include set-flex-container-gutter($size-gutter-screen-m);
+      @include set-flexy-gutter($size-gutter-screen-m);
     }
   }
 
@@ -32,10 +32,10 @@
     flex: 1 1 0;
 
     .ml-flexy--gutter > & {
-      @include set-flex-child-gutter($size-gutter-screen-s);
+      @include set-flexy-col-gutter($size-gutter-screen-s);
 
       @include set-from-screen('m') {
-        @include set-flex-child-gutter($size-gutter-screen-m);
+        @include set-flexy-col-gutter($size-gutter-screen-m);
       }
     }
   }

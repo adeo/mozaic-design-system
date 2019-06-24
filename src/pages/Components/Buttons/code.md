@@ -6,8 +6,8 @@ order: 2
 ## Import
 
 ```css
-@import '../node_modules/mozaic-css/styles/settings-tools/_all-settings';
-@import '../node_modules/mozaic-css/styles/components/_c.button';
+@import 'settings-tools/_all-settings';
+@import 'components/_c.button';
 ```
 
 ## Basic usage
@@ -77,6 +77,8 @@ To manage display of your button, you have 2 availables classes :
 ```html
 <a href="#" class="mc-button mc-button--full">My button</a>
 ```
+
+<preview path="src/pages/Components/Buttons/previews/button-widths" ></preview>
 
 #### Responsive classes
 
