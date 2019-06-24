@@ -85,8 +85,8 @@
     "format": "prettier --write '**/*.js'",
     "test": "jest",
     "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
-    "release": "lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --github-release prerelease && yarn assets:upload",
-    "publish": "lerna publish --from-git"
+    "release": "lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --github-release prerelease",
+    "npm:publish": "lerna publish --from-package"
   },
   "lint-staged": {
     "*.scss": [
