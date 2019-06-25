@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.12](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.11...v1.0.1-alpha.12) (2019-06-25)
+
+
+### Bug Fixes
+
+* **ci/assets:** bad path to release for which uploads assets ([0ecb02d](https://github.com/adeo/design-system--styleguide/commit/0ecb02d))
+* **doc/style:** fix inconsistencies in naming conventions ahead of Adeo dev summit ([9973457](https://github.com/adeo/design-system--styleguide/commit/9973457))
+* **styleguide/home:** update content and links ([#275](https://github.com/adeo/design-system--styleguide/issues/275)) ([506d29e](https://github.com/adeo/design-system--styleguide/commit/506d29e))
+
+
+
+
+
 ## [1.0.1-alpha.11](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.10...v1.0.1-alpha.11) (2019-06-24)
 
 

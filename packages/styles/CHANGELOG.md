@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.12](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.11...v1.0.1-alpha.12) (2019-06-25)
+
+
+### Bug Fixes
+
+* **doc/style:** fix inconsistencies in naming conventions ahead of Adeo dev summit ([9973457](https://github.com/adeo/design-system--styleguide/commit/9973457))
+
+
+
+
+
 ## [1.0.1-alpha.10](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.9...v1.0.1-alpha.10) (2019-06-20)
 
 
