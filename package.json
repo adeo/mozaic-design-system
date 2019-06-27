@@ -27,6 +27,7 @@
     "css-mqpacker": "^7.0.0",
     "gatsby": "2.4.3",
     "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-mixpanel": "^3.0.2",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.10",
