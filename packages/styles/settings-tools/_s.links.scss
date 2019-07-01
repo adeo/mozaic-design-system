@@ -18,6 +18,21 @@ $link-sizes : (
   )
 );
 
+$icons : (
+  's' : (
+    'width' : '16px',
+    'height' : '16px'
+  ),
+  'm' : (
+    'width' : '24px',
+    'height' : '24px'
+  ),
+  'l' : (
+    'width' : '32px',
+    'height' : '32px'
+  )
+);
+
 $link-regular : map-get($link-sizes, 'regular');
 $link-border-bottom : get-border('s');
 
@@ -35,7 +50,7 @@ $link-border-bottom : get-border('s');
   @include set-font-face('regular');
   @include set-font-scale(map-get($link-regular, 'font-size'), map-get($link-regular, 'line-height'));
 
-  text-align: center;
+  text-align: left;
   transition: all ease 200ms;
   display: inline-flex;
   min-height: #{map-get($link-regular, 'min-height')}px;
@@ -65,16 +80,11 @@ $link-border-bottom : get-border('s');
     }
   }
 
-  &__icon {
-    width: $mu100;
-    height: $mu100;
-
-    &--left {
-      margin: 0 $mu025 0 0;
-    }
-
-    &--right {
-      margin: 0 0 0 $mu025;
+  @each $size, $width in $icons {
+    &__icon-#{$size} {
+      width: #{map-get($width, 'width')};
+      height: #{map-get($width, 'height')};
+      margin: 0 $mu025;
     }
   }
 }
@@ -90,8 +100,7 @@ $link-border-bottom : get-border('s');
     $hover-props : map-get($props, 'hover');
 
     @each $prop, $value in $hover-props {
-      &:hover,
-      &.is-hover {
+      &:hover {
         @if map-has-key($hover-props, 'font') {
           color: map-get($hover-props, 'font');
 
@@ -111,8 +120,7 @@ $link-border-bottom : get-border('s');
     $focus-props : map-get($props, 'focus');
 
     @each $prop, $value in $focus-props {
-      &:focus,
-      &.is-focus {
+      &:focus {
         color: map-get($focus-props, 'font');
 
         .mc-link__icon {
@@ -126,8 +134,7 @@ $link-border-bottom : get-border('s');
     $active-props : map-get($props, 'active');
 
     @each $prop, $value in $active-props {
-      &:active,
-      &.is-active {
+      &:active {
         color: map-get($active-props, 'font');
 
         .mc-link__icon {
@@ -140,8 +147,7 @@ $link-border-bottom : get-border('s');
   @if map-has-key($props, 'disabled') {
     $disabled-props : map-get($props, 'disabled');
 
-    &:disabled,
-    &.is-disabled {
+    &:disabled {
       color: map-get($disabled-props, 'font');
       cursor: default;
 
