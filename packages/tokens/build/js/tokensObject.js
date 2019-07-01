@@ -3067,6 +3067,686 @@ module.exports = {
           }
         }
       }
+    },
+    "link": {
+      "primary": {
+        "font": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorLinkPrimaryFont",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary",
+            "font"
+          ]
+        },
+        "focus": {
+          "font": {
+            "value": "#41a017",
+            "original": {
+              "value": "{color.primary-01.600.value}"
+            },
+            "name": "ColorLinkPrimaryFocusFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary",
+              "subitem": "focus",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary",
+              "focus",
+              "font"
+            ]
+          }
+        },
+        "disabled": {
+          "font": {
+            "value": "#eeeef0",
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorLinkPrimaryDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "font": {
+            "value": "#158110",
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorLinkPrimaryActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "font": {
+            "value": "#41a017",
+            "original": {
+              "value": "{color.primary-01.600.value}"
+            },
+            "name": "ColorLinkPrimaryHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      },
+      "dark": {
+        "font": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorLinkDarkFont",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "font"
+          ]
+        },
+        "focus": {
+          "font": {
+            "value": "#222020",
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorLinkDarkFocusFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "dark",
+              "subitem": "focus",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "dark",
+              "focus",
+              "font"
+            ]
+          }
+        },
+        "disabled": {
+          "font": {
+            "value": "#eeeef0",
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorLinkDarkDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "dark",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "dark",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "font": {
+            "value": "#222020",
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorLinkDarkActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "dark",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "dark",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "font": {
+            "value": "#222020",
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorLinkDarkHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "dark",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "dark",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      },
+      "light": {
+        "font": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorLinkLightFont",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "font"
+          ]
+        },
+        "focus": {
+          "font": {
+            "value": "#d3d2d6",
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorLinkLightFocusFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "light",
+              "subitem": "focus",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "light",
+              "focus",
+              "font"
+            ]
+          }
+        },
+        "disabled": {
+          "font": {
+            "value": "#eeeef0",
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorLinkLightDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "light",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "light",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "font": {
+            "value": "#d3d2d6",
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorLinkLightActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "light",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "light",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "font": {
+            "value": "#d3d2d6",
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorLinkLightHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "light",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "light",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      },
+      "neutral": {
+        "font": {
+          "value": "#887f87",
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorLinkNeutralFont",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "neutral",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "link",
+            "neutral",
+            "font"
+          ]
+        },
+        "focus": {
+          "font": {
+            "value": "#6f676c",
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorLinkNeutralFocusFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "neutral",
+              "subitem": "focus",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "neutral",
+              "focus",
+              "font"
+            ]
+          }
+        },
+        "disabled": {
+          "font": {
+            "value": "#eeeef0",
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorLinkNeutralDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "neutral",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "neutral",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "font": {
+            "value": "#6f676c",
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorLinkNeutralActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "neutral",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "neutral",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "font": {
+            "value": "#6f676c",
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorLinkNeutralHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "neutral",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "neutral",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      },
+      "primary-campus": {
+        "font": {
+          "value": "#035f64",
+          "original": {
+            "value": "{color.primary-02.600.value}"
+          },
+          "name": "ColorLinkPrimaryCampusFont",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary-campus",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary-campus",
+            "font"
+          ]
+        },
+        "focus": {
+          "font": {
+            "value": "#044c53",
+            "original": {
+              "value": "{color.primary-02.700.value}"
+            },
+            "name": "ColorLinkPrimaryCampusFocusFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary-campus",
+              "subitem": "focus",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary-campus",
+              "focus",
+              "font"
+            ]
+          }
+        },
+        "disabled": {
+          "font": {
+            "value": "#eeeef0",
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorLinkPrimaryCampusDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary-campus",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary-campus",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "font": {
+            "value": "#044c53",
+            "original": {
+              "value": "{color.primary-02.700.value}"
+            },
+            "name": "ColorLinkPrimaryCampusActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary-campus",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary-campus",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "font": {
+            "value": "#044c53",
+            "original": {
+              "value": "{color.primary-02.700.value}"
+            },
+            "name": "ColorLinkPrimaryCampusHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "primary-campus",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "primary-campus",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      },
+      "danger": {
+        "font": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorLinkDangerFont",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "font"
+          ]
+        },
+        "focus": {
+          "font": {
+            "value": "#8b2226",
+            "original": {
+              "value": "{color.secondary-red.700.value}"
+            },
+            "name": "ColorLinkDangerFocusFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "danger",
+              "subitem": "focus",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "danger",
+              "focus",
+              "font"
+            ]
+          }
+        },
+        "disabled": {
+          "font": {
+            "value": "#eeeef0",
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorLinkDangerDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "danger",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "danger",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "font": {
+            "value": "#8b2226",
+            "original": {
+              "value": "{color.secondary-red.700.value}"
+            },
+            "name": "ColorLinkDangerActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "danger",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "danger",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "font": {
+            "value": "#8b2226",
+            "original": {
+              "value": "{color.secondary-red.700.value}"
+            },
+            "name": "ColorLinkDangerHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "link",
+              "item": "danger",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "link",
+              "danger",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      }
     }
   },
   "radius": {

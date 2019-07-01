@@ -159,5 +159,35 @@
   <color name="color_input_valid_hover_border">#ff0a601b</color>
   <color name="color_input_invalid_border">#ffdf382b</color>
   <color name="color_input_invalid_hover_border">#ff641b21</color>
+  <color name="color_link_primary_font">#ff78be20</color>
+  <color name="color_link_primary_focus_font">#ff41a017</color>
+  <color name="color_link_primary_disabled_font">#ffeeeef0</color>
+  <color name="color_link_primary_active_font">#ff158110</color>
+  <color name="color_link_primary_hover_font">#ff41a017</color>
+  <color name="color_link_dark_font">#ff000000</color>
+  <color name="color_link_dark_focus_font">#ff222020</color>
+  <color name="color_link_dark_disabled_font">#ffeeeef0</color>
+  <color name="color_link_dark_active_font">#ff222020</color>
+  <color name="color_link_dark_hover_font">#ff222020</color>
+  <color name="color_link_light_font">#ffffffff</color>
+  <color name="color_link_light_focus_font">#ffd3d2d6</color>
+  <color name="color_link_light_disabled_font">#ffeeeef0</color>
+  <color name="color_link_light_active_font">#ffd3d2d6</color>
+  <color name="color_link_light_hover_font">#ffd3d2d6</color>
+  <color name="color_link_neutral_font">#ff887f87</color>
+  <color name="color_link_neutral_focus_font">#ff6f676c</color>
+  <color name="color_link_neutral_disabled_font">#ffeeeef0</color>
+  <color name="color_link_neutral_active_font">#ff6f676c</color>
+  <color name="color_link_neutral_hover_font">#ff6f676c</color>
+  <color name="color_link_primary_campus_font">#ff035f64</color>
+  <color name="color_link_primary_campus_focus_font">#ff044c53</color>
+  <color name="color_link_primary_campus_disabled_font">#ffeeeef0</color>
+  <color name="color_link_primary_campus_active_font">#ff044c53</color>
+  <color name="color_link_primary_campus_hover_font">#ff044c53</color>
+  <color name="color_link_danger_font">#ffdf382b</color>
+  <color name="color_link_danger_focus_font">#ff8b2226</color>
+  <color name="color_link_danger_disabled_font">#ffeeeef0</color>
+  <color name="color_link_danger_active_font">#ff8b2226</color>
+  <color name="color_link_danger_hover_font">#ff8b2226</color>
   
 </resources>

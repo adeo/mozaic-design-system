@@ -1,0 +1,13 @@
+@import 'settings-tools/_all-settings';
+@import 'components/_c.links';
+
+.example {
+  text-align: left;
+  margin: $mu100 auto;
+  display: flex;
+  justify-content: center;
+
+  &--bg-dark {
+    background-color: $color-grey-999;
+  }
+}

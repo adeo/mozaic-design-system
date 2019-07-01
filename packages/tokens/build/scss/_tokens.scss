@@ -160,6 +160,36 @@ $color-input-valid-border: #78be20 !default;
 $color-input-valid-hover-border: #0a601b !default;
 $color-input-invalid-border: #df382b !default;
 $color-input-invalid-hover-border: #641b21 !default;
+$color-link-primary-font: #78be20 !default;
+$color-link-primary-focus-font: #41a017 !default;
+$color-link-primary-disabled-font: #eeeef0 !default;
+$color-link-primary-active-font: #158110 !default;
+$color-link-primary-hover-font: #41a017 !default;
+$color-link-dark-font: #000000 !default;
+$color-link-dark-focus-font: #222020 !default;
+$color-link-dark-disabled-font: #eeeef0 !default;
+$color-link-dark-active-font: #222020 !default;
+$color-link-dark-hover-font: #222020 !default;
+$color-link-light-font: #ffffff !default;
+$color-link-light-focus-font: #d3d2d6 !default;
+$color-link-light-disabled-font: #eeeef0 !default;
+$color-link-light-active-font: #d3d2d6 !default;
+$color-link-light-hover-font: #d3d2d6 !default;
+$color-link-neutral-font: #887f87 !default;
+$color-link-neutral-focus-font: #6f676c !default;
+$color-link-neutral-disabled-font: #eeeef0 !default;
+$color-link-neutral-active-font: #6f676c !default;
+$color-link-neutral-hover-font: #6f676c !default;
+$color-link-primary-campus-font: #035f64 !default;
+$color-link-primary-campus-focus-font: #044c53 !default;
+$color-link-primary-campus-disabled-font: #eeeef0 !default;
+$color-link-primary-campus-active-font: #044c53 !default;
+$color-link-primary-campus-hover-font: #044c53 !default;
+$color-link-danger-font: #df382b !default;
+$color-link-danger-focus-font: #8b2226 !default;
+$color-link-danger-disabled-font: #eeeef0 !default;
+$color-link-danger-active-font: #8b2226 !default;
+$color-link-danger-hover-font: #8b2226 !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -533,6 +563,98 @@ $tokens: (
         'border': $color-input-invalid-border,
         'hover': (
           'border': $color-input-invalid-hover-border
+        )
+      )
+    ),
+    'link': (
+      'primary': (
+        'font': $color-link-primary-font,
+        'focus': (
+          'font': $color-link-primary-focus-font
+        ),
+        'disabled': (
+          'font': $color-link-primary-disabled-font
+        ),
+        'active': (
+          'font': $color-link-primary-active-font
+        ),
+        'hover': (
+          'font': $color-link-primary-hover-font
+        )
+      ),
+      'dark': (
+        'font': $color-link-dark-font,
+        'focus': (
+          'font': $color-link-dark-focus-font
+        ),
+        'disabled': (
+          'font': $color-link-dark-disabled-font
+        ),
+        'active': (
+          'font': $color-link-dark-active-font
+        ),
+        'hover': (
+          'font': $color-link-dark-hover-font
+        )
+      ),
+      'light': (
+        'font': $color-link-light-font,
+        'focus': (
+          'font': $color-link-light-focus-font
+        ),
+        'disabled': (
+          'font': $color-link-light-disabled-font
+        ),
+        'active': (
+          'font': $color-link-light-active-font
+        ),
+        'hover': (
+          'font': $color-link-light-hover-font
+        )
+      ),
+      'neutral': (
+        'font': $color-link-neutral-font,
+        'focus': (
+          'font': $color-link-neutral-focus-font
+        ),
+        'disabled': (
+          'font': $color-link-neutral-disabled-font
+        ),
+        'active': (
+          'font': $color-link-neutral-active-font
+        ),
+        'hover': (
+          'font': $color-link-neutral-hover-font
+        )
+      ),
+      'primary-campus': (
+        'font': $color-link-primary-campus-font,
+        'focus': (
+          'font': $color-link-primary-campus-focus-font
+        ),
+        'disabled': (
+          'font': $color-link-primary-campus-disabled-font
+        ),
+        'active': (
+          'font': $color-link-primary-campus-active-font
+        ),
+        'hover': (
+          'font': $color-link-primary-campus-hover-font
+        )
+      ),
+      'danger': (
+        'font': $color-link-danger-font,
+        'focus': (
+          'font': $color-link-danger-focus-font
+        ),
+        'disabled': (
+          'font': $color-link-danger-disabled-font
+        ),
+        'active': (
+          'font': $color-link-danger-active-font
+        ),
+        'hover': (
+          'font': $color-link-danger-hover-font
         )
       )
     )
