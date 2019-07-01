@@ -1,0 +1,12 @@
+.mc-link {
+  @include make-link;
+  @include make-link-theme(get-token(color, link, 'primary'));
+
+  @each $name, $props in $links {
+    @if ($name != "primary") {
+      &--#{$name} {
+        @include make-link-theme($props);
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+$links : get-token(color, link);
+$viewports: ('s', 'm', 'l', 'xl');
+
+$link-sizes : (
+  'small' : (
+    'font-size' : '04',
+    'line-height' : 'm',
+    'padding-v' : $mu025,
+    'padding-h' : $mu025,
+    'min-height' : '20'
+  ),
+  'regular' : (
+    'font-size' : '05',
+    'line-height' : 'm',
+    'padding-v' : $mu025,
+    'padding-h' : $mu025,
+    'min-height' : '20'
+  )
+);
+
+$link-regular : map-get($link-sizes, 'regular');
+
+@mixin make-link {
+  @include set-font-face('regular');
+  @include set-font-scale(map-get($link-regular, 'font-size'), map-get($link-regular, 'line-height'));
+
+  margin: 0;
+  box-shadow: none;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: underline;
+  cursor: pointer;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  transition: all ease 200ms;
+  display: inline-flex;
+  min-height: #{map-get($link-regular, 'min-height')}px;
+  padding: #{map-get($link-regular, 'padding-h')} #{map-get($link-regular, 'padding-v')};
+
+  @each $size, $props in $link-sizes {
+    &--#{$size} {
+      @include modify-from-screens($viewports) {
+        @include set-font-scale(map-get($props, 'font-size'), map-get($props, 'line-height'));
+      }
+
+      min-height: #{map-get($props, 'min-height')}px;
+      padding: #{map-get($props, 'padding-v')} #{map-get($props, 'padding-h')};
+    }
+  }
+
+  &--fit {
+    @include modify-from-screens($viewports) {
+      display: inline-flex;
+    }
+  }
+
+  &--full {
+    @include modify-from-screens($viewports) {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__icon {
+    width: $mu100;
+    height: $mu100;
+
+    &--left {
+      margin: 0 $mu025 0 0;
+    }
+
+    &--right {
+      margin: 0 0 0 $mu025;
+    }
+  }
+}
+
+@mixin make-link-theme($props) {
+  color: map-get($props, 'base');
+
+  .mc-link__icon {
+    fill: currentColor;
+  }
+
+  @if map-has-key($props, 'hover') {
+    &:hover,
+    &.is-hover {
+      color: map-get($props, 'hover');
+    }
+  }
+
+  @else {
+    color: map-get($props, 'base');
+  }
+
+  @if map-has-key($props, 'visited') {
+    &:visited,
+    &.is-visited {
+      color: map-get($props, 'visited');
+    }
+  }
+
+  @if map-has-key($props, 'active') {
+    &:active,
+    &.is-active {
+      color: map-get($props, 'active');
+    }
+  }
+
+  @if map-has-key($props, 'disabled') {
+    &:disabled,
+    &.is-disabled {
+      color: map-get($props, 'disabled');
+      cursor: default;
+    }
+  }
+}
