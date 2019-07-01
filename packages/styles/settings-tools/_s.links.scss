@@ -1,0 +1,159 @@
+$links : get-token(color, link);
+$viewports: ('s', 'm', 'l', 'xl');
+
+$link-sizes : (
+  'small' : (
+    'font-size' : '04',
+    'line-height' : 'm',
+    'padding-v' : $mu025,
+    'padding-h' : $mu025,
+    'min-height' : '20'
+  ),
+  'regular' : (
+    'font-size' : '05',
+    'line-height' : 'm',
+    'padding-v' : $mu025,
+    'padding-h' : $mu025,
+    'min-height' : '20'
+  )
+);
+
+$icons : (
+  's' : (
+    'width' : '16px',
+    'height' : '16px'
+  ),
+  'm' : (
+    'width' : '24px',
+    'height' : '24px'
+  ),
+  'l' : (
+    'width' : '32px',
+    'height' : '32px'
+  )
+);
+
+$link-regular : map-get($link-sizes, 'regular');
+$link-border-bottom : get-border('s');
+
+@mixin set-link {
+  margin: 0;
+  box-shadow: none;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: underline;
+  cursor: pointer;
+  align-items: center;
+  vertical-align: middle;
+
+  @include set-font-face('regular');
+  @include set-font-scale(map-get($link-regular, 'font-size'), map-get($link-regular, 'line-height'));
+
+  text-align: left;
+  transition: all ease 200ms;
+  display: inline-flex;
+  min-height: #{map-get($link-regular, 'min-height')}px;
+  padding: #{map-get($link-regular, 'padding-h')} #{map-get($link-regular, 'padding-v')};
+
+  @each $size, $props in $link-sizes {
+    &--#{$size} {
+      @include modify-from-screens($viewports) {
+        @include set-font-scale(map-get($props, 'font-size'), map-get($props, 'line-height'));
+      }
+
+      min-height: #{map-get($props, 'min-height')}px;
+      padding: #{map-get($props, 'padding-v')} #{map-get($props, 'padding-h')};
+    }
+  }
+
+  &--fit {
+    @include modify-from-screens($viewports) {
+      display: inline-flex;
+    }
+  }
+
+  &--full {
+    @include modify-from-screens($viewports) {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  @each $size, $width in $icons {
+    &__icon-#{$size} {
+      width: #{map-get($width, 'width')};
+      height: #{map-get($width, 'height')};
+      margin: 0 $mu025;
+    }
+  }
+}
+
+@mixin set-link-theme($props) {
+  color: map-get($props, 'font');
+
+  .mc-link__icon {
+    fill: map-get($props, 'font');
+  }
+
+  @if map-has-key($props, 'hover') {
+    $hover-props : map-get($props, 'hover');
+
+    @each $prop, $value in $hover-props {
+      &:hover {
+        @if map-has-key($hover-props, 'font') {
+          color: map-get($hover-props, 'font');
+
+          .mc-link__icon {
+            fill: map-get($hover-props, 'font');
+          }
+        }
+
+        @else {
+          color: map-get($props, 'font');
+        }
+      }
+    }
+  }
+
+  @if map-has-key($props, 'focus') {
+    $focus-props : map-get($props, 'focus');
+
+    @each $prop, $value in $focus-props {
+      &:focus {
+        color: map-get($focus-props, 'font');
+
+        .mc-link__icon {
+          fill: map-get($focus-props, 'font');
+        }
+      }
+    }
+  }
+
+  @if map-has-key($props, 'active') {
+    $active-props : map-get($props, 'active');
+
+    @each $prop, $value in $active-props {
+      &:active {
+        color: map-get($active-props, 'font');
+
+        .mc-link__icon {
+          fill: map-get($active-props, 'font');
+        }
+      }
+    }
+  }
+
+  @if map-has-key($props, 'disabled') {
+    $disabled-props : map-get($props, 'disabled');
+
+    &:disabled {
+      color: map-get($disabled-props, 'font');
+      cursor: default;
+
+      .mc-link__icon {
+        fill: map-get($disabled-props, 'font');
+      }
+    }
+  }
+}

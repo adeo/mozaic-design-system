@@ -1,0 +1,156 @@
+{
+    "color": {
+        "link" : {
+            "primary" : {
+                "font" : {
+                    "value" : "{color.primary-01.500.value}"
+                },
+                "focus" : {
+                    "font" : {
+                        "value" : "{color.primary-01.600.value}"
+                    }
+                },
+                "disabled" : {
+                    "font" : {
+                        "value" : "{color.grey.100.value}"
+                    }
+                },
+                "active" : {
+                    "font" : {
+                        "value" : "{color.primary-01.700.value}"
+                    }
+                },
+                "hover" : {
+                    "font" : {
+                        "value" : "{color.primary-01.600.value}"
+                    }
+                }
+            },
+            "dark" : {
+                "font" : {
+                    "value" : "{color.grey.999.value}"
+                },
+                "focus" : {
+                    "font" : {
+                        "value" : "{color.grey.900.value}"
+                    }
+                },
+                "disabled" : {
+                    "font" : {
+                        "value" : "{color.grey.100.value}"
+                    }
+                },
+                "active" : {
+                    "font" : {
+                        "value" : "{color.grey.900.value}"
+                    }
+                },
+                "hover" : {
+                    "font" : {
+                        "value" : "{color.grey.900.value}"
+                    }
+                }
+            },
+            "light" : {
+                "font" : {
+                    "value" : "{color.grey.000.value}"
+                },
+                "focus" : {
+                    "font" : {
+                        "value" : "{color.grey.200.value}"
+                    }
+                },
+                "disabled" : {
+                    "font" : {
+                        "value" : "{color.grey.100.value}"
+                    }
+                },
+                "active" : {
+                    "font" : {
+                        "value" : "{color.grey.200.value}"
+                    }
+                },
+                "hover" : {
+                    "font" : {
+                        "value" : "{color.grey.200.value}"
+                    }
+                }
+            },
+            "neutral" : {
+                "font" : {
+                    "value" : "{color.grey.500.value}"
+                },
+                "focus" : {
+                    "font" : {
+                        "value" : "{color.grey.600.value}"
+                    }
+                },
+                "disabled" : {
+                    "font" : {
+                        "value" : "{color.grey.100.value}"
+                    }
+                },
+                "active" : {
+                    "font" : {
+                        "value" : "{color.grey.600.value}"
+                    }
+                },
+                "hover" : {
+                    "font" : {
+                        "value" : "{color.grey.600.value}"
+                    }
+                }
+            },
+            "primary-campus" : {
+                "font" : {
+                    "value" : "{color.primary-02.600.value}"
+                },
+                "focus" : {
+                    "font" : {
+                        "value" : "{color.primary-02.700.value}"
+                    }
+                },
+                "disabled" : {
+                    "font" : {
+                        "value" : "{color.grey.100.value}"
+                    }
+                },
+                "active" : {
+                    "font" : {
+                        "value" : "{color.primary-02.700.value}"
+                    }
+                },
+                "hover" : {
+                    "font" : {
+                        "value" : "{color.primary-02.700.value}"
+                    }
+                }
+            },
+            "danger" : {
+                "font" : {
+                    "value" : "{color.secondary-red.500.value}"
+                },
+                "focus" : {
+                    "font" : {
+                        "value" : "{color.secondary-red.700.value}"
+                    }
+                },
+                "disabled" : {
+                    "font" : {
+                        "value" : "{color.grey.100.value}"
+                    }
+                },
+                "active" : {
+                    "font" : {
+                        "value" : "{color.secondary-red.700.value}"
+                    }
+                },
+                "hover" : {
+                    "font" : {
+                        "value" : "{color.secondary-red.700.value}"
+                    }
+                }
+            }
+        }
+    }
+}
