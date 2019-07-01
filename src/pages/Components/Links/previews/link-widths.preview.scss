@@ -1,0 +1,11 @@
+@import 'settings-tools/_all-settings';
+@import 'components/_c.links';
+
+.example {
+  text-align: left;
+  margin: $mu100;
+
+  &--bordered {
+    border: solid $mu025 $color-grey-100;
+  }
+}

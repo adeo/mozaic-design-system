@@ -160,6 +160,36 @@ $color-input-valid-border: #78be20 !default;
 $color-input-valid-hover-border: #0a601b !default;
 $color-input-invalid-border: #df382b !default;
 $color-input-invalid-hover-border: #641b21 !default;
+$color-link-primary-base: #78be20 !default;
+$color-link-primary-focus: #41a017 !default;
+$color-link-primary-active: #158110 !default;
+$color-link-primary-disabled: #eeeef0 !default;
+$color-link-primary-hover: #41a017 !default;
+$color-link-dark-base: #000000 !default;
+$color-link-dark-focus: #222020 !default;
+$color-link-dark-active: #222020 !default;
+$color-link-dark-disabled: #eeeef0 !default;
+$color-link-dark-hover: #222020 !default;
+$color-link-light-base: #ffffff !default;
+$color-link-light-focus: #d3d2d6 !default;
+$color-link-light-active: #d3d2d6 !default;
+$color-link-light-disabled: #eeeef0 !default;
+$color-link-light-hover: #d3d2d6 !default;
+$color-link-neutral-base: #887f87 !default;
+$color-link-neutral-focus: #6f676c !default;
+$color-link-neutral-active: #6f676c !default;
+$color-link-neutral-disabled: #eeeef0 !default;
+$color-link-neutral-hover: #6f676c !default;
+$color-link-primary-campus-base: #035f64 !default;
+$color-link-primary-campus-focus: #044c53 !default;
+$color-link-primary-campus-active: #044c53 !default;
+$color-link-primary-campus-disabled: #eeeef0 !default;
+$color-link-primary-campus-hover: #044c53 !default;
+$color-link-danger-base: #df382b !default;
+$color-link-danger-focus: #8b2226 !default;
+$color-link-danger-active: #8b2226 !default;
+$color-link-danger-disabled: #eeeef0 !default;
+$color-link-danger-hover: #8b2226 !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -534,6 +564,50 @@ $tokens: (
         'hover': (
           'border': $color-input-invalid-hover-border
         )
+      )
+    ),
+    'link': (
+      'primary': (
+        'base': $color-link-primary-base,
+        'focus': $color-link-primary-focus,
+        'active': $color-link-primary-active,
+        'disabled': $color-link-primary-disabled,
+        'hover': $color-link-primary-hover
+      ),
+      'dark': (
+        'base': $color-link-dark-base,
+        'focus': $color-link-dark-focus,
+        'active': $color-link-dark-active,
+        'disabled': $color-link-dark-disabled,
+        'hover': $color-link-dark-hover
+      ),
+      'light': (
+        'base': $color-link-light-base,
+        'focus': $color-link-light-focus,
+        'active': $color-link-light-active,
+        'disabled': $color-link-light-disabled,
+        'hover': $color-link-light-hover
+      ),
+      'neutral': (
+        'base': $color-link-neutral-base,
+        'focus': $color-link-neutral-focus,
+        'active': $color-link-neutral-active,
+        'disabled': $color-link-neutral-disabled,
+        'hover': $color-link-neutral-hover
+      ),
+      'primary-campus': (
+        'base': $color-link-primary-campus-base,
+        'focus': $color-link-primary-campus-focus,
+        'active': $color-link-primary-campus-active,
+        'disabled': $color-link-primary-campus-disabled,
+        'hover': $color-link-primary-campus-hover
+      ),
+      'danger': (
+        'base': $color-link-danger-base,
+        'focus': $color-link-danger-focus,
+        'active': $color-link-danger-active,
+        'disabled': $color-link-danger-disabled,
+        'hover': $color-link-danger-hover
       )
     )
   ),

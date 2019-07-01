@@ -1,0 +1,8 @@
+@import 'settings-tools/_all-settings';
+@import 'components/_c.links';
+
+.example {
+  text-align: left;
+  margin: $mu100;
+  display: flex;
+}

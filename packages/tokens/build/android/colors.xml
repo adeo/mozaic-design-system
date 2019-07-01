@@ -159,5 +159,35 @@
   <color name="color_input_valid_hover_border">#ff0a601b</color>
   <color name="color_input_invalid_border">#ffdf382b</color>
   <color name="color_input_invalid_hover_border">#ff641b21</color>
+  <color name="color_link_primary_base">#ff78be20</color>
+  <color name="color_link_primary_focus">#ff41a017</color>
+  <color name="color_link_primary_active">#ff158110</color>
+  <color name="color_link_primary_disabled">#ffeeeef0</color>
+  <color name="color_link_primary_hover">#ff41a017</color>
+  <color name="color_link_dark_base">#ff000000</color>
+  <color name="color_link_dark_focus">#ff222020</color>
+  <color name="color_link_dark_active">#ff222020</color>
+  <color name="color_link_dark_disabled">#ffeeeef0</color>
+  <color name="color_link_dark_hover">#ff222020</color>
+  <color name="color_link_light_base">#ffffffff</color>
+  <color name="color_link_light_focus">#ffd3d2d6</color>
+  <color name="color_link_light_active">#ffd3d2d6</color>
+  <color name="color_link_light_disabled">#ffeeeef0</color>
+  <color name="color_link_light_hover">#ffd3d2d6</color>
+  <color name="color_link_neutral_base">#ff887f87</color>
+  <color name="color_link_neutral_focus">#ff6f676c</color>
+  <color name="color_link_neutral_active">#ff6f676c</color>
+  <color name="color_link_neutral_disabled">#ffeeeef0</color>
+  <color name="color_link_neutral_hover">#ff6f676c</color>
+  <color name="color_link_primary_campus_base">#ff035f64</color>
+  <color name="color_link_primary_campus_focus">#ff044c53</color>
+  <color name="color_link_primary_campus_active">#ff044c53</color>
+  <color name="color_link_primary_campus_disabled">#ffeeeef0</color>
+  <color name="color_link_primary_campus_hover">#ff044c53</color>
+  <color name="color_link_danger_base">#ffdf382b</color>
+  <color name="color_link_danger_focus">#ff8b2226</color>
+  <color name="color_link_danger_active">#ff8b2226</color>
+  <color name="color_link_danger_disabled">#ffeeeef0</color>
+  <color name="color_link_danger_hover">#ff8b2226</color>
   
 </resources>
