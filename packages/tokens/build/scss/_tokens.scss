@@ -93,14 +93,14 @@ $color-button-solid-primary-campus-disabled-font: #887f87 !default;
 $color-button-solid-primary-campus-active-background: #062b35 !default;
 $color-button-solid-primary-campus-hover-background: #063a44 !default;
 $color-button-solid-primary-campus-hover-font: #ffffff !default;
-$color-button-solid-secondary-background: #887f87 !default;
-$color-button-solid-secondary-font: #ffffff !default;
-$color-button-solid-secondary-focus-border: #222020 !default;
-$color-button-solid-secondary-disabled-background: #eeeef0 !default;
-$color-button-solid-secondary-disabled-font: #887f87 !default;
-$color-button-solid-secondary-active-background: #3c3738 !default;
-$color-button-solid-secondary-hover-background: #554f52 !default;
-$color-button-solid-secondary-hover-font: #ffffff !default;
+$color-button-solid-neutral-background: #887f87 !default;
+$color-button-solid-neutral-font: #ffffff !default;
+$color-button-solid-neutral-focus-border: #222020 !default;
+$color-button-solid-neutral-disabled-background: #eeeef0 !default;
+$color-button-solid-neutral-disabled-font: #887f87 !default;
+$color-button-solid-neutral-active-background: #3c3738 !default;
+$color-button-solid-neutral-hover-background: #554f52 !default;
+$color-button-solid-neutral-hover-font: #ffffff !default;
 $color-button-solid-danger-background: #df382b !default;
 $color-button-solid-danger-font: #ffffff !default;
 $color-button-solid-danger-focus-border: #8b2226 !default;
@@ -125,14 +125,14 @@ $color-button-bordered-primary-campus-disabled-background: #eeeef0 !default;
 $color-button-bordered-primary-campus-disabled-font: #887f87 !default;
 $color-button-bordered-primary-campus-active-background: #a5d1cb !default;
 $color-button-bordered-primary-campus-hover-background: #dbedea !default;
-$color-button-bordered-secondary-background: #ffffff !default;
-$color-button-bordered-secondary-border: #554f52 !default;
-$color-button-bordered-secondary-font: #554f52 !default;
-$color-button-bordered-secondary-focus-border: #222020 !default;
-$color-button-bordered-secondary-disabled-background: #eeeef0 !default;
-$color-button-bordered-secondary-disabled-font: #887f87 !default;
-$color-button-bordered-secondary-active-background: #d3d2d6 !default;
-$color-button-bordered-secondary-hover-background: #eeeef0 !default;
+$color-button-bordered-neutral-background: #ffffff !default;
+$color-button-bordered-neutral-border: #554f52 !default;
+$color-button-bordered-neutral-font: #554f52 !default;
+$color-button-bordered-neutral-focus-border: #222020 !default;
+$color-button-bordered-neutral-disabled-background: #eeeef0 !default;
+$color-button-bordered-neutral-disabled-font: #887f87 !default;
+$color-button-bordered-neutral-active-background: #d3d2d6 !default;
+$color-button-bordered-neutral-hover-background: #eeeef0 !default;
 $color-button-bordered-danger-background: #ffffff !default;
 $color-button-bordered-danger-border: #df382b !default;
 $color-button-bordered-danger-font: #df382b !default;
@@ -390,22 +390,22 @@ $tokens: (
           'font': $color-button-solid-primary-campus-hover-font
         )
       ),
-      'solid-secondary': (
-        'background': $color-button-solid-secondary-background,
-        'font': $color-button-solid-secondary-font,
+      'solid-neutral': (
+        'background': $color-button-solid-neutral-background,
+        'font': $color-button-solid-neutral-font,
         'focus': (
-          'border': $color-button-solid-secondary-focus-border
+          'border': $color-button-solid-neutral-focus-border
         ),
         'disabled': (
-          'background': $color-button-solid-secondary-disabled-background,
-          'font': $color-button-solid-secondary-disabled-font
+          'background': $color-button-solid-neutral-disabled-background,
+          'font': $color-button-solid-neutral-disabled-font
         ),
         'active': (
-          'background': $color-button-solid-secondary-active-background
+          'background': $color-button-solid-neutral-active-background
         ),
         'hover': (
-          'background': $color-button-solid-secondary-hover-background,
-          'font': $color-button-solid-secondary-hover-font
+          'background': $color-button-solid-neutral-hover-background,
+          'font': $color-button-solid-neutral-hover-font
         )
       ),
       'solid-danger': (
@@ -462,22 +462,22 @@ $tokens: (
           'background': $color-button-bordered-primary-campus-hover-background
         )
       ),
-      'bordered-secondary': (
-        'background': $color-button-bordered-secondary-background,
-        'border': $color-button-bordered-secondary-border,
-        'font': $color-button-bordered-secondary-font,
+      'bordered-neutral': (
+        'background': $color-button-bordered-neutral-background,
+        'border': $color-button-bordered-neutral-border,
+        'font': $color-button-bordered-neutral-font,
         'focus': (
-          'border': $color-button-bordered-secondary-focus-border
+          'border': $color-button-bordered-neutral-focus-border
         ),
         'disabled': (
-          'background': $color-button-bordered-secondary-disabled-background,
-          'font': $color-button-bordered-secondary-disabled-font
+          'background': $color-button-bordered-neutral-disabled-background,
+          'font': $color-button-bordered-neutral-disabled-font
         ),
         'active': (
-          'background': $color-button-bordered-secondary-active-background
+          'background': $color-button-bordered-neutral-active-background
         ),
         'hover': (
-          'background': $color-button-bordered-secondary-hover-background
+          'background': $color-button-bordered-neutral-hover-background
         )
       ),
       'bordered-danger': (

@@ -4,7 +4,29 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext');
 
 .button {
-  @include set-button;
+  @include set-font-face('semi-bold');
+  @include set-button-theme(get-token(color, button, 'solid'));
+  @include set-button-size($button-medium);
+
+  margin: 0;
+  box-shadow: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: $button-radius;
+  text-align: center;
+  border: $button-border solid transparent;
+  transition: all ease 200ms;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+
+  &:focus,
+  &.is-focus {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
 
   &__menu {
     margin: $mu300 0;

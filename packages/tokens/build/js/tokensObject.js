@@ -1670,23 +1670,23 @@ module.exports = {
           }
         }
       },
-      "solid-secondary": {
+      "solid-neutral": {
         "background": {
           "value": "#887f87",
           "original": {
             "value": "{color.grey.500.value}"
           },
-          "name": "ColorButtonSolidSecondaryBackground",
+          "name": "ColorButtonSolidNeutralBackground",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "solid-secondary",
+            "item": "solid-neutral",
             "subitem": "background"
           },
           "path": [
             "color",
             "button",
-            "solid-secondary",
+            "solid-neutral",
             "background"
           ]
         },
@@ -1695,17 +1695,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorButtonSolidSecondaryFont",
+          "name": "ColorButtonSolidNeutralFont",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "solid-secondary",
+            "item": "solid-neutral",
             "subitem": "font"
           },
           "path": [
             "color",
             "button",
-            "solid-secondary",
+            "solid-neutral",
             "font"
           ]
         },
@@ -1715,18 +1715,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.900.value}"
             },
-            "name": "ColorButtonSolidSecondaryFocusBorder",
+            "name": "ColorButtonSolidNeutralFocusBorder",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-secondary",
+              "item": "solid-neutral",
               "subitem": "focus",
               "state": "border"
             },
             "path": [
               "color",
               "button",
-              "solid-secondary",
+              "solid-neutral",
               "focus",
               "border"
             ]
@@ -1738,18 +1738,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.100.value}"
             },
-            "name": "ColorButtonSolidSecondaryDisabledBackground",
+            "name": "ColorButtonSolidNeutralDisabledBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-secondary",
+              "item": "solid-neutral",
               "subitem": "disabled",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-secondary",
+              "solid-neutral",
               "disabled",
               "background"
             ]
@@ -1759,18 +1759,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.500.value}"
             },
-            "name": "ColorButtonSolidSecondaryDisabledFont",
+            "name": "ColorButtonSolidNeutralDisabledFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-secondary",
+              "item": "solid-neutral",
               "subitem": "disabled",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "solid-secondary",
+              "solid-neutral",
               "disabled",
               "font"
             ]
@@ -1782,18 +1782,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.800.value}"
             },
-            "name": "ColorButtonSolidSecondaryActiveBackground",
+            "name": "ColorButtonSolidNeutralActiveBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-secondary",
+              "item": "solid-neutral",
               "subitem": "active",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-secondary",
+              "solid-neutral",
               "active",
               "background"
             ]
@@ -1805,18 +1805,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.700.value}"
             },
-            "name": "ColorButtonSolidSecondaryHoverBackground",
+            "name": "ColorButtonSolidNeutralHoverBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-secondary",
+              "item": "solid-neutral",
               "subitem": "hover",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-secondary",
+              "solid-neutral",
               "hover",
               "background"
             ]
@@ -1826,18 +1826,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.000.value}"
             },
-            "name": "ColorButtonSolidSecondaryHoverFont",
+            "name": "ColorButtonSolidNeutralHoverFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-secondary",
+              "item": "solid-neutral",
               "subitem": "hover",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "solid-secondary",
+              "solid-neutral",
               "hover",
               "font"
             ]
@@ -2362,23 +2362,23 @@ module.exports = {
           }
         }
       },
-      "bordered-secondary": {
+      "bordered-neutral": {
         "background": {
           "value": "#ffffff",
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorButtonBorderedSecondaryBackground",
+          "name": "ColorButtonBorderedNeutralBackground",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-secondary",
+            "item": "bordered-neutral",
             "subitem": "background"
           },
           "path": [
             "color",
             "button",
-            "bordered-secondary",
+            "bordered-neutral",
             "background"
           ]
         },
@@ -2387,17 +2387,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.700.value}"
           },
-          "name": "ColorButtonBorderedSecondaryBorder",
+          "name": "ColorButtonBorderedNeutralBorder",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-secondary",
+            "item": "bordered-neutral",
             "subitem": "border"
           },
           "path": [
             "color",
             "button",
-            "bordered-secondary",
+            "bordered-neutral",
             "border"
           ]
         },
@@ -2406,17 +2406,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.700.value}"
           },
-          "name": "ColorButtonBorderedSecondaryFont",
+          "name": "ColorButtonBorderedNeutralFont",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-secondary",
+            "item": "bordered-neutral",
             "subitem": "font"
           },
           "path": [
             "color",
             "button",
-            "bordered-secondary",
+            "bordered-neutral",
             "font"
           ]
         },
@@ -2426,18 +2426,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.900.value}"
             },
-            "name": "ColorButtonBorderedSecondaryFocusBorder",
+            "name": "ColorButtonBorderedNeutralFocusBorder",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-secondary",
+              "item": "bordered-neutral",
               "subitem": "focus",
               "state": "border"
             },
             "path": [
               "color",
               "button",
-              "bordered-secondary",
+              "bordered-neutral",
               "focus",
               "border"
             ]
@@ -2449,18 +2449,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.100.value}"
             },
-            "name": "ColorButtonBorderedSecondaryDisabledBackground",
+            "name": "ColorButtonBorderedNeutralDisabledBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-secondary",
+              "item": "bordered-neutral",
               "subitem": "disabled",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-secondary",
+              "bordered-neutral",
               "disabled",
               "background"
             ]
@@ -2470,18 +2470,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.500.value}"
             },
-            "name": "ColorButtonBorderedSecondaryDisabledFont",
+            "name": "ColorButtonBorderedNeutralDisabledFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-secondary",
+              "item": "bordered-neutral",
               "subitem": "disabled",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "bordered-secondary",
+              "bordered-neutral",
               "disabled",
               "font"
             ]
@@ -2493,18 +2493,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.200.value}"
             },
-            "name": "ColorButtonBorderedSecondaryActiveBackground",
+            "name": "ColorButtonBorderedNeutralActiveBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-secondary",
+              "item": "bordered-neutral",
               "subitem": "active",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-secondary",
+              "bordered-neutral",
               "active",
               "background"
             ]
@@ -2516,18 +2516,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.100.value}"
             },
-            "name": "ColorButtonBorderedSecondaryHoverBackground",
+            "name": "ColorButtonBorderedNeutralHoverBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-secondary",
+              "item": "bordered-neutral",
               "subitem": "hover",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-secondary",
+              "bordered-neutral",
               "hover",
               "background"
             ]

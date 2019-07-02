@@ -224,7 +224,7 @@ const IndexPage = () => (
                 href="https://github.com/adeo/design-system--styleguide/releases/download/v1.0.1-alpha.10/designer-kit.zip"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="button button--secondary"
+                className="button button--neutral"
                 title="Download the IU kit"
               >
                 Download the design kit
