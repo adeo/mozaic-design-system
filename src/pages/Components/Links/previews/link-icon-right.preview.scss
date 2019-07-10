@@ -5,12 +5,4 @@
   text-align: left;
   margin: $mu100;
   display: flex;
-
-  &__pagination {
-    justify-content: space-between;
-
-    &--right {
-      justify-content: flex-end;
-    }
-  }
 }

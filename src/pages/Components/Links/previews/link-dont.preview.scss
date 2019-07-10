@@ -2,15 +2,17 @@
 @import 'components/_c.links';
 
 .example {
+  @include set-font-face('regular');
+
   text-align: left;
   margin: $mu100;
   display: flex;
 
-  &__pagination {
-    justify-content: space-between;
+  &_paragraph {
+    color: $color-grey-999;
+  }
 
-    &--right {
-      justify-content: flex-end;
-    }
+  &__native-link {
+    color: $color-grey-999;
   }
 }

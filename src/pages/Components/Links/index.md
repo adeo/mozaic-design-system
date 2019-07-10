@@ -13,7 +13,7 @@ order: 1
 You can use **primary**, **Light**, **Dark**, **Neutral**, & **danger** color scheme depending of the type of action the link trigger.
 There is also an alternative primary color scheme, only used for Campus : **primary-campus**.
 
-<preview path="src/pages/Components/Links/previews/link-styles"></preview>
+<preview path="src/pages/Components/Links/previews/link-styles" nude=true ></preview>
 
 <br>
 
@@ -33,29 +33,22 @@ There is **2 sizes** for the links to create hierarchy and for a better adaptabi
 - Small
 - Regular (Default size)
 
-<preview path="src/pages/Components/Links/previews/link-sizes"></preview>
+<preview path="src/pages/Components/Links/previews/link-sizes"  nude=true ></preview>
 
-
-### A link width can either fit its content or its container
-
-<preview path="src/pages/Components/Links/previews/link-widths"></preview>
-
-<br>
 
 ### Displaying links with icons
 
 In the link component, you can also add icons :
+_Link icons are only used in `16px` regardless of the link size_
 
 <preview path="src/pages/Components/Links/previews/link-icon" nude=true ></preview>
-
-Icons are availables in different sizes depending on the link size. Here you can find which icon you can use for each link size
-
-
-| Link size                       | Icon size `s`    |  Icon size `m`   |   Icon size `l`  |
-| ------------------------------- | ---------------- | ---------------- | ---------------- |
-| **small**                       |       `16px`     |      `24px`      |      `32px`      |
-| **regular** (_default_)         |       `16px`     |      `24px`      |      `32px`      | 
 
 
 ## Do's and don'ts
 
+<hint type="dont" title="Never use the link component in a paragraph, use only native link like this">
+    <preview path="src/pages/Components/Links/previews/link-dont" nude=true ></preview>
+</hint>
+<hintitem>
+  Always use the <b>16px icon</b> with the link components.<br>
+</hintitem>
