@@ -16,7 +16,7 @@ Using a magic unit have multiples benefits.
 
 <br>
 
-In the folowing exemple, we see a **grid in the background that is based on the magic unit**. It is subdivised in halfs and quarters to give us more fine control for small elements that require it.
+In the folowing exemple, we see a **grid in the background based on the magic unit**. It is subdivised in halfs and quarters to give us more fine control for small elements that require it.
 We can see the red squares snaping to the magic unit grid.
 By **hovering the squares**, you can see how we used the magic unit and the conrresponding values in Px :
 
