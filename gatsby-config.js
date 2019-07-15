@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mixpanel',
       options: {
-        apiToken: '5c0a2fe71e9fd4380c29b5ea0aee2382', // required
+        apiToken: '895f364dc47587da5f830e1dec1a65e7', // required
       },
     },
     {
