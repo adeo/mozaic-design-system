@@ -116,24 +116,6 @@
   {
     "cat": "Media",
     "size": "24px",
-    "name": "Play",
-    "fullpath": "/icons/Media_Play_24px.svg"
-  },
-  {
-    "cat": "Media",
-    "size": "32px",
-    "name": "Play",
-    "fullpath": "/icons/Media_Play_32px.svg"
-  },
-  {
-    "cat": "Media",
-    "size": "48px",
-    "name": "Play",
-    "fullpath": "/icons/Media_Play_48px.svg"
-  },
-  {
-    "cat": "Media",
-    "size": "24px",
     "name": "Player",
     "fullpath": "/icons/Media_Player_24px.svg"
   },
@@ -148,6 +130,24 @@
     "size": "48px",
     "name": "Player",
     "fullpath": "/icons/Media_Player_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Play",
+    "fullpath": "/icons/Media_Play_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "Play",
+    "fullpath": "/icons/Media_Play_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Play",
+    "fullpath": "/icons/Media_Play_48px.svg"
   },
   {
     "cat": "Media",

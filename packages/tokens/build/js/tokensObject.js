@@ -3066,6 +3066,88 @@ module.exports = {
             ]
           }
         }
+      },
+      "checked": {
+        "border": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorInputCheckedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "checked",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "checked",
+            "border"
+          ]
+        },
+        "background": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorInputCheckedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "checked",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "input",
+            "checked",
+            "background"
+          ]
+        },
+        "icon": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorInputCheckedIcon",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "checked",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "input",
+            "checked",
+            "icon"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#0a601b",
+            "original": {
+              "value": "{color.primary-01.800.value}"
+            },
+            "name": "ColorInputCheckedHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "input",
+              "item": "checked",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "input",
+              "checked",
+              "hover",
+              "border"
+            ]
+          }
+        }
       }
     }
   },

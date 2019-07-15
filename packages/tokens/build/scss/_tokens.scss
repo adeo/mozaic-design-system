@@ -160,6 +160,10 @@ $color-input-valid-border: #78be20 !default;
 $color-input-valid-hover-border: #0a601b !default;
 $color-input-invalid-border: #df382b !default;
 $color-input-invalid-hover-border: #641b21 !default;
+$color-input-checked-border: #78be20 !default;
+$color-input-checked-background: #78be20 !default;
+$color-input-checked-icon: #ffffff !default;
+$color-input-checked-hover-border: #0a601b !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -533,6 +537,14 @@ $tokens: (
         'border': $color-input-invalid-border,
         'hover': (
           'border': $color-input-invalid-hover-border
+        )
+      ),
+      'checked': (
+        'border': $color-input-checked-border,
+        'background': $color-input-checked-background,
+        'icon': $color-input-checked-icon,
+        'hover': (
+          'border': $color-input-checked-hover-border
         )
       )
     )

@@ -50,6 +50,22 @@
                         "value" : "{color.secondary-red.800.value}"
                     }
                 }
+            },
+            "checked" : {
+                "border" : {
+                    "value" : "{color.primary-01.500.value}"
+                },
+                "background" : {
+                    "value" : "{color.primary-01.500.value}"
+                },
+                "icon" : {
+                    "value" : "{color.grey.000.value}"
+                },
+                "hover": {
+                    "border" : {
+                        "value" : "{color.primary-01.800.value}"
+                    }
+                }
             }
         }
     }
