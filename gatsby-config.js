@@ -12,5 +12,11 @@ module.exports = {
         apiToken: '5c0a2fe71e9fd4380c29b5ea0aee2382', // required
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-123240222-19',
+      },
+    },
   ],
 }
