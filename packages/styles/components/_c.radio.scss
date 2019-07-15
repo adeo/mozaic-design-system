@@ -1,12 +1,12 @@
-.mc-checkbox {
+.mc-radio {
   @include reset-input;
 
-  min-width: $checkbox-min-width;
-  min-height: $checkbox-min-height;
-  width: $checkbox-width;
-  height: $checkbox-width;
-  border-radius: $checkbox-border-radius;
-  border: $checkbox-border-width solid $color-input-border;
+  border: $radio-border-width solid $color-input-border;
+  min-width: $radio-min-width;
+  width: $radio-width;
+  min-height: $radio-min-height;
+  height: $radio-height;
+  border-radius: 50%;
   background: $color-input-background;
   position: relative;
   transition: background-color ease 200ms, border ease 200ms;
@@ -47,17 +47,23 @@
   }
 
   &:checked {
-    background-color: $color-input-checked-background;
     border-color: $color-input-checked-border;
-    background-image:
-      url(
-        inline-icons(
-          'checkmark-16',
-          $color-input-checked-icon
-        )
-      );
-    background-position: center center;
-    background-size: $mu100;
+    background-color: $color-input-checked-background;
+
+    &::before {
+      content: '';
+      background: $color-input-background;
+      display: block;
+      width: px-to-rem(6);
+      min-width: 6px;
+      height: px-to-rem(6);
+      min-height: 6px;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
 
     &:hover {
       border-color: $color-input-checked-hover-border;

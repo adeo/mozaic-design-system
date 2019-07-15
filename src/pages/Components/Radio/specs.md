@@ -9,12 +9,12 @@ order: 3
 
 | State       | Property          | Token                |
 | ----------- | ----------------- | -------------------- |
-| **Default** | border-radius     | `radius.m` (4px)     |
+| **Default** | border-radius     | `50%`                |
 | **Default** | border-width      | `border.m` (2px)     |
 | **Default** | min-width         | `20px`               |
-| **Default** | width             | `1.25rem`            |
+| **Default** | width             | `$mu125`             |
 | **Default** | min-height        | `20px`               |
-| **Default** | height            | `1.25rem`            |
+| **Default** | height            | `$mu125`             |
 
 ### CSS Tokens : state colors
 

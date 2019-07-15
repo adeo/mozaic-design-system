@@ -166,7 +166,12 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+          <Frame
+            sandbox="allow-scripts allow-same-origin"
+            frameBorder="0"
+            height={iframeHeight}
+            ref="iframe"
+          />
         </FrameContainer>
         {!this.props.nude && (
           <ViewportInfos>
@@ -192,7 +197,12 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+          <Frame
+            sandbox="allow-scripts allow-same-origin"
+            frameBorder="0"
+            height={iframeHeight}
+            ref="iframe"
+          />
         </FrameContainer>
         {!this.props.fullScreen && (
           <ToggleOptions onClick={this.props.toggleOptions}>
