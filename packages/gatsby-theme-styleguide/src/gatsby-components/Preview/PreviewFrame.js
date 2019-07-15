@@ -196,7 +196,7 @@ export class PreviewFrame extends PureComponent {
         </FrameContainer>
         {!this.props.fullScreen && (
           <ToggleOptions onClick={this.props.toggleOptions}>
-            {this.props.nude ? 'show options' : 'hide options'}
+            {this.props.nude ? 'display options' : 'hide options'}
           </ToggleOptions>
         )}
         {!this.props.nude && (
