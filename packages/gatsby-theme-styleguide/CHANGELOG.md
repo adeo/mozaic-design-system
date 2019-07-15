@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.15](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.14...v1.0.1-alpha.15) (2019-07-15)
+
+
+### Bug Fixes
+
+* **styleguide:** change previews show option button text ([#285](https://github.com/adeo/design-system--styleguide/issues/285)) ([55c35de](https://github.com/adeo/design-system--styleguide/commit/55c35de))
+
+
+
+
+
 ## [1.0.1-alpha.11](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.10...v1.0.1-alpha.11) (2019-06-24)
 
 
