@@ -3,41 +3,53 @@ title: 'Links'
 order: 1
 ---
 
-> A link is a component used exclusively to navigate to internal or external webpages or to anchors in the current page<br> **Please use a ghost button for an other action, like showing an additional content.**.
+> A link is a component used exclusively to navigate to internal or external webpages or to anchors in the current page.
 
-`Ajouter le lien vers les buttons`
+Please use a [button](/Components/Buttons/) for any other action.
 
-## Two types of links.
+## There is two main types of links.
 
 ### The inline link :
 
-Inline links are links contained into paragraphs of text. By default, the links inherit the style of their context, and their appearance is depending on the type of action required from the user, or the context.
+Inline links are links contained into paragraphs of text. By default, inline links inherit the current text color and size.
 
-By default, an inline link use the color `$color-primary-01-500`, but in depending of the context, you can override the color.
+You can override the color depending on the context, for example on a dark background, or a link in an error box :
 
-### The single link :
+**preview error and dark**
 
-Use single links independently of a paragraph or content, to mark an action . There is **2 sizes**, Small 14px or Medium 16px.
+### The navigation links :
+
+They are interface elements used to navigate between pages
+
+examples :
+
+- previous / next
+- paginations
+- text anchors
+- breadcrumbs
+  etc
+
+in this case we use two sizes
+
+| size                   | value               |
+| ---------------------- | ------------------- |
+| **small**              | size.font.04 (14px) |
+| **medium** _(default)_ | size.font.05 (16px) |
 
 <preview path="src/pages/Components/Links/previews/link-sizes" nude=true></preview>
 
-#### Six color schemes depending of the context
+#### Links colors
 
-You can use **primary**, **Light**, **Dark**, **Neutral**, & **danger** color scheme depending of the type of context.
-There is also an alternative primary color scheme, only used for Campus : **primary-campus**.
+Links, while generaly inheriting color from the context, have two common variations that you should consider using before thinking to any other color option.
 
 <preview path="src/pages/Components/Links/previews/link-styles" nude=true></preview>
 
 <br>
 
-| Color scheme   | Usage                                                  |
-| -------------- | ------------------------------------------------------ |
-| Primary        | For the main links on the page                         |
-| Light          | Alternative for main links when the background is dark |
-| Dark           | For the secondary links on the page                    |
-| Neutral        | For the minor links on the page                        |
-| Danger         | For going on pages with content related to error       |
-| Primary-Campus | For specific navigation dedicated to Campus            |
+| Color scheme | Usage                                |
+| ------------ | ------------------------------------ |
+| Primary      | To higlight important link           |
+| Neutral      | For navigation purpose (prev / next) |
 
 ### Displaying links with icons
 
@@ -49,17 +61,26 @@ _Link icons are only used in `16px` regardless of the link size_
 ## Do's and don'ts
 
 <hintitem>
-Use links only for navigation.
+    Links should be underlined, and react to hover and click.
 </hintitem>
+
 <hintitem>
-Always use the <b>16px icon</b> with the links.<br>
+    Use links only for navigation.
 </hintitem>
-<hint type="do" title="Use inline links inside a paragraph, and single links outside. ">
+
+<hintitem>
+    Always use the <b>16px icon</b> with the links.<br>
+</hintitem>
+
+<hint type="do" title="Use inline links inside a paragraph, and navigation links outside.">
     <preview path="src/pages/Components/Links/previews/link-dont" nude=true ></preview>
 </hint>
+
 <hintitem dont="true">
-Don't use links for the others actions like showing an additional content. Please use a ghost button.
+    Don't use links for the others actions like showing an additional content. Please use a button instead.
+
 </hintitem>
+
 <hintitem dont="true">
-Never use the single link inside a paragraph.
+    Never use the single link inside a paragraph.
 </hintitem>

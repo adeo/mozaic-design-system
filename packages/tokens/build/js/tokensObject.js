@@ -3089,23 +3089,23 @@ module.exports = {
             "base"
           ]
         },
-        "focus": {
+        "visited": {
           "value": "#41a017",
           "original": {
             "value": "{color.primary-01.600.value}"
           },
-          "name": "ColorLinkPrimaryFocus",
+          "name": "ColorLinkPrimaryVisited",
           "attributes": {
             "category": "color",
             "type": "link",
             "item": "primary",
-            "subitem": "focus"
+            "subitem": "visited"
           },
           "path": [
             "color",
             "link",
             "primary",
-            "focus"
+            "visited"
           ]
         },
         "active": {
@@ -3166,200 +3166,6 @@ module.exports = {
           ]
         }
       },
-      "dark": {
-        "base": {
-          "value": "#000000",
-          "original": {
-            "value": "{color.grey.999.value}"
-          },
-          "name": "ColorLinkDarkBase",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "dark",
-            "subitem": "base"
-          },
-          "path": [
-            "color",
-            "link",
-            "dark",
-            "base"
-          ]
-        },
-        "focus": {
-          "value": "#222020",
-          "original": {
-            "value": "{color.grey.900.value}"
-          },
-          "name": "ColorLinkDarkFocus",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "dark",
-            "subitem": "focus"
-          },
-          "path": [
-            "color",
-            "link",
-            "dark",
-            "focus"
-          ]
-        },
-        "active": {
-          "value": "#222020",
-          "original": {
-            "value": "{color.grey.900.value}"
-          },
-          "name": "ColorLinkDarkActive",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "dark",
-            "subitem": "active"
-          },
-          "path": [
-            "color",
-            "link",
-            "dark",
-            "active"
-          ]
-        },
-        "disabled": {
-          "value": "#eeeef0",
-          "original": {
-            "value": "{color.grey.100.value}"
-          },
-          "name": "ColorLinkDarkDisabled",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "dark",
-            "subitem": "disabled"
-          },
-          "path": [
-            "color",
-            "link",
-            "dark",
-            "disabled"
-          ]
-        },
-        "hover": {
-          "value": "#222020",
-          "original": {
-            "value": "{color.grey.900.value}"
-          },
-          "name": "ColorLinkDarkHover",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "dark",
-            "subitem": "hover"
-          },
-          "path": [
-            "color",
-            "link",
-            "dark",
-            "hover"
-          ]
-        }
-      },
-      "light": {
-        "base": {
-          "value": "#ffffff",
-          "original": {
-            "value": "{color.grey.000.value}"
-          },
-          "name": "ColorLinkLightBase",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "light",
-            "subitem": "base"
-          },
-          "path": [
-            "color",
-            "link",
-            "light",
-            "base"
-          ]
-        },
-        "focus": {
-          "value": "#d3d2d6",
-          "original": {
-            "value": "{color.grey.200.value}"
-          },
-          "name": "ColorLinkLightFocus",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "light",
-            "subitem": "focus"
-          },
-          "path": [
-            "color",
-            "link",
-            "light",
-            "focus"
-          ]
-        },
-        "active": {
-          "value": "#d3d2d6",
-          "original": {
-            "value": "{color.grey.200.value}"
-          },
-          "name": "ColorLinkLightActive",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "light",
-            "subitem": "active"
-          },
-          "path": [
-            "color",
-            "link",
-            "light",
-            "active"
-          ]
-        },
-        "disabled": {
-          "value": "#eeeef0",
-          "original": {
-            "value": "{color.grey.100.value}"
-          },
-          "name": "ColorLinkLightDisabled",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "light",
-            "subitem": "disabled"
-          },
-          "path": [
-            "color",
-            "link",
-            "light",
-            "disabled"
-          ]
-        },
-        "hover": {
-          "value": "#d3d2d6",
-          "original": {
-            "value": "{color.grey.200.value}"
-          },
-          "name": "ColorLinkLightHover",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "light",
-            "subitem": "hover"
-          },
-          "path": [
-            "color",
-            "link",
-            "light",
-            "hover"
-          ]
-        }
-      },
       "neutral": {
         "base": {
           "value": "#887f87",
@@ -3380,23 +3186,23 @@ module.exports = {
             "base"
           ]
         },
-        "focus": {
+        "visited": {
           "value": "#6f676c",
           "original": {
             "value": "{color.grey.600.value}"
           },
-          "name": "ColorLinkNeutralFocus",
+          "name": "ColorLinkNeutralVisited",
           "attributes": {
             "category": "color",
             "type": "link",
             "item": "neutral",
-            "subitem": "focus"
+            "subitem": "visited"
           },
           "path": [
             "color",
             "link",
             "neutral",
-            "focus"
+            "visited"
           ]
         },
         "active": {
@@ -3453,200 +3259,6 @@ module.exports = {
             "color",
             "link",
             "neutral",
-            "hover"
-          ]
-        }
-      },
-      "primary-campus": {
-        "base": {
-          "value": "#035f64",
-          "original": {
-            "value": "{color.primary-02.600.value}"
-          },
-          "name": "ColorLinkPrimaryCampusBase",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "primary-campus",
-            "subitem": "base"
-          },
-          "path": [
-            "color",
-            "link",
-            "primary-campus",
-            "base"
-          ]
-        },
-        "focus": {
-          "value": "#044c53",
-          "original": {
-            "value": "{color.primary-02.700.value}"
-          },
-          "name": "ColorLinkPrimaryCampusFocus",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "primary-campus",
-            "subitem": "focus"
-          },
-          "path": [
-            "color",
-            "link",
-            "primary-campus",
-            "focus"
-          ]
-        },
-        "active": {
-          "value": "#044c53",
-          "original": {
-            "value": "{color.primary-02.700.value}"
-          },
-          "name": "ColorLinkPrimaryCampusActive",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "primary-campus",
-            "subitem": "active"
-          },
-          "path": [
-            "color",
-            "link",
-            "primary-campus",
-            "active"
-          ]
-        },
-        "disabled": {
-          "value": "#eeeef0",
-          "original": {
-            "value": "{color.grey.100.value}"
-          },
-          "name": "ColorLinkPrimaryCampusDisabled",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "primary-campus",
-            "subitem": "disabled"
-          },
-          "path": [
-            "color",
-            "link",
-            "primary-campus",
-            "disabled"
-          ]
-        },
-        "hover": {
-          "value": "#044c53",
-          "original": {
-            "value": "{color.primary-02.700.value}"
-          },
-          "name": "ColorLinkPrimaryCampusHover",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "primary-campus",
-            "subitem": "hover"
-          },
-          "path": [
-            "color",
-            "link",
-            "primary-campus",
-            "hover"
-          ]
-        }
-      },
-      "danger": {
-        "base": {
-          "value": "#df382b",
-          "original": {
-            "value": "{color.secondary-red.500.value}"
-          },
-          "name": "ColorLinkDangerBase",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "danger",
-            "subitem": "base"
-          },
-          "path": [
-            "color",
-            "link",
-            "danger",
-            "base"
-          ]
-        },
-        "focus": {
-          "value": "#8b2226",
-          "original": {
-            "value": "{color.secondary-red.700.value}"
-          },
-          "name": "ColorLinkDangerFocus",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "danger",
-            "subitem": "focus"
-          },
-          "path": [
-            "color",
-            "link",
-            "danger",
-            "focus"
-          ]
-        },
-        "active": {
-          "value": "#8b2226",
-          "original": {
-            "value": "{color.secondary-red.700.value}"
-          },
-          "name": "ColorLinkDangerActive",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "danger",
-            "subitem": "active"
-          },
-          "path": [
-            "color",
-            "link",
-            "danger",
-            "active"
-          ]
-        },
-        "disabled": {
-          "value": "#eeeef0",
-          "original": {
-            "value": "{color.grey.100.value}"
-          },
-          "name": "ColorLinkDangerDisabled",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "danger",
-            "subitem": "disabled"
-          },
-          "path": [
-            "color",
-            "link",
-            "danger",
-            "disabled"
-          ]
-        },
-        "hover": {
-          "value": "#8b2226",
-          "original": {
-            "value": "{color.secondary-red.700.value}"
-          },
-          "name": "ColorLinkDangerHover",
-          "attributes": {
-            "category": "color",
-            "type": "link",
-            "item": "danger",
-            "subitem": "hover"
-          },
-          "path": [
-            "color",
-            "link",
-            "danger",
             "hover"
           ]
         }
