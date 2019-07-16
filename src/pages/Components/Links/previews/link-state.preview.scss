@@ -1,6 +1,11 @@
 @import 'settings-tools/_all-settings';
 @import 'components/_c.links';
 
+body {
+  @include set-font-face('regular');
+  @include set-font-scale('05');
+}
+
 .example {
   display: flex;
   width: 90%;
