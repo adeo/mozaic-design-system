@@ -5,13 +5,13 @@ order: 4
 
 ## Links sketch file is composed of three sections :
 
-> The sketch file includes only the single links.
+> The sketch file includes only the single links.<br> **For the inline links, please apply directly an underline in the text options panel.**
 
-![preferences](links--sketch-menu.png)
+![sketch-menu](links--sketch-menu.png)
 
 ### **👾 For developers :**
 
-This part is a specific section for developers, **for a better accessibility** there is all states of the Mozaic links.
+This part describe the various states of a link, to be shared with the tech team.
 
 ### **Links :**
 

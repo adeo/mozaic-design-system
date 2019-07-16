@@ -5,15 +5,19 @@ order: 1
 
 > A link is a component used exclusively to navigate to internal or external webpages or to anchors in the current page<br> **Please use a ghost button for an other action, like showing an additional content.**.
 
+`Ajouter le lien vers les buttons`
+
 ## Two types of links.
 
 ### The inline link :
 
-Use the inline links inside paragraph. By default, the links inherit the style of their context, and their appearance is depending on the type of action required from the user, or the context.
+Inline links are links contained into paragraphs of text. By default, the links inherit the style of their context, and their appearance is depending on the type of action required from the user, or the context.
+
+By default, an inline link use the color `$color-primary-01-500`, but in depending of the context, you can override the color.
 
 ### The single link :
 
-Use single links independently of a paragraph or content, to mark an action . There is **2 sizes**, Small `14px` or Medium `16px`.
+Use single links independently of a paragraph or content, to mark an action . There is **2 sizes**, Small 14px or Medium 16px.
 
 <preview path="src/pages/Components/Links/previews/link-sizes" nude=true></preview>
 
