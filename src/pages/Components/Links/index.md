@@ -17,9 +17,9 @@ Use single links independently of a paragraph or content, to mark an action . Th
 
 <preview path="src/pages/Components/Links/previews/link-sizes" nude=true></preview>
 
-#### Six color schemes for each type of action
+#### Six color schemes depending of the context
 
-You can use **primary**, **Light**, **Dark**, **Neutral**, & **danger** color scheme depending of the type of action the link trigger.
+You can use **primary**, **Light**, **Dark**, **Neutral**, & **danger** color scheme depending of the type of context.
 There is also an alternative primary color scheme, only used for Campus : **primary-campus**.
 
 <preview path="src/pages/Components/Links/previews/link-styles" nude=true></preview>
