@@ -8,14 +8,7 @@ body {
 
 .example {
   text-align: left;
-  margin: $mu100;
+  margin: $mu200;
   display: flex;
-
-  &__pagination {
-    justify-content: space-between;
-
-    &--right {
-      justify-content: flex-end;
-    }
-  }
+  justify-content: space-between;
 }

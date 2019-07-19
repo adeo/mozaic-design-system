@@ -1,12 +1,13 @@
 .mc-link {
   @include set-link-base();
+  @include set-link-theme(get-token(color, link, 'dark'));
   @include mod-link-sizes();
 
   &__icon {
     display: block;
     width: 1em;
     height: 1em;
-    // vertically align the icon with the text
+    fill: currentColor;
     transform: translateY(0.175em);
 
     &--left {
@@ -19,8 +20,10 @@
   }
 
   @each $name, $props in $links-tokens {
-    &--#{$name} {
-      @include set-link-theme($props);
+    @if ($name != 'dark') {
+      &--#{$name} {
+        @include set-link-theme($props);
+      }
     }
   }
 }

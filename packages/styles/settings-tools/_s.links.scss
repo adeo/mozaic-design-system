@@ -1,32 +1,33 @@
 $links-tokens: get-token(color, link);
-$viewports: ('s', 'm', 'l', 'xl');
 
 $link-sizes: (
-  'small': (
+  's': (
     'font-size': '04',
     'line-height': 'm',
   ),
-  'medium': (
+  'm': (
     'font-size': '05',
     'line-height': 'm',
   ),
 );
 
+$link-m: map-get($link-sizes, 'm');
+
 @mixin set-link-base {
-  color: inherit;
-  fill: currentColor;
   box-sizing: border-box;
   text-decoration: underline;
   cursor: pointer;
-  display: inline-flex;
   align-items: baseline;
+  display: inline-flex;
   transition: color ease 200ms;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 @mixin mod-link-sizes {
   @each $size, $props in $link-sizes {
     &--#{$size} {
-      @include modify-from-screens($viewports) {
+      @include modify-from-screens($major-screens) {
         @include set-font-scale(
           map-get($props, 'font-size'),
           map-get($props, 'line-height')
@@ -39,21 +40,17 @@ $link-sizes: (
 @mixin set-link-theme($props) {
   color: map-get($props, 'base');
 
-  @if map-has-key($props, 'hover') {
-    &:hover,
-    &.is-hover {
-      color: map-get($props, 'hover');
-    }
-  }
-
-  @else {
-    color: map-get($props, 'base');
-  }
-
   @if map-has-key($props, 'visited') {
     &:visited,
     &.is-visited {
       color: map-get($props, 'visited');
+    }
+  }
+
+  @if map-has-key($props, 'hover') {
+    &:hover,
+    &.is-hover {
+      color: map-get($props, 'hover');
     }
   }
 
@@ -65,7 +62,6 @@ $link-sizes: (
   }
 
   @if map-has-key($props, 'disabled') {
-    &:disabled,
     &.is-disabled {
       color: map-get($props, 'disabled');
       cursor: default;
