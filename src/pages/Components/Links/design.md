@@ -19,4 +19,9 @@ Here are the single links without icons. This links are available in different c
 
 ### **Links+Icons :**
 
-This section has the same configuration, but with the possibility to add an icon on the righ or the left.
+This section has the same configuration, but with the possibility to add an icon on the right or the left.
+
+> **Good to know :**<br>
+> Please, use the default links `01-Default` before thinking to any other color option, but occasionally, you can use the contextual links `02-Contextual`.
+
+![links-menu](default-link.png)
