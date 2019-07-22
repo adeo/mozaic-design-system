@@ -291,8 +291,7 @@ your browser should now look like this :
 
 // your components
 @import '../node_modules/@mozaic-ds/styles/layout/_l.grid';
-@import '../node_modules/@mozaic-ds/styles/atoms/_a.button';
-@import '../node_modules/@mozaic-ds/styles/molecule/_m.button';
+@import '../node_modules/@mozaic-ds/styles/components/_c.button';
 ```
 
 note that you need to follow the ITCSS/ADS [import order](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/principles/unifying-itcss-with-ads#summarize-the-new-architecture)
