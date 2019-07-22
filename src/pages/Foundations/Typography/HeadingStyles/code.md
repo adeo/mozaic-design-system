@@ -11,7 +11,7 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 ```css
 @import 'settings-tools/_all-settings';
-@import 'atoms/_a.all-base-typography';
+@import 'typography/_t.all-base-typography';
 ```
 
 ## Heading classes
