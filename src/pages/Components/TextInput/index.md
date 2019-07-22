@@ -1,9 +1,9 @@
 ---
 title: 'Text input'
-order: 1
+order: 2
 ---
 
-##Preview
+## Preview
 
 > Inputs are used to **create input fields with text on a single line**. Their states depends on the user interaction or the context.
 
@@ -11,29 +11,31 @@ order: 1
 
 ## Standard input states :
 
-###Hover
+### Hover
 
 When the input is hovered due to user navigation.
 
 <preview path="src/pages/Components/TextInput/previews/input-hover-state"></preview>
 
-###Focus
+### Focus
 
 When the input is in focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key.
 
 <preview path="src/pages/Components/TextInput/previews/input-focus-state"></preview>
 
-###Disabled
+### Disabled
+
 When the input field is inactive or inaccessible. It is usually used when the input, for some reason, is forbidden or blocked to be edited.
 
 <preview path="src/pages/Components/TextInput/previews/input-disabled-state"></preview>
 
-###Valid
+### Valid
+
 When the entry is correct against the criteria determined upstream.
 
 <preview path="src/pages/Components/TextInput/previews/input-valid-state"></preview>
 
-###Invalid
+### Invalid
 
 When the entry is invalid against the criteria determined upstream.
 

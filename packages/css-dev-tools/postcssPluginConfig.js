@@ -2,6 +2,7 @@ const scssSyntax = require('postcss-scss')
 const autoprefixer = require('autoprefixer')
 const nodeSass = require('postcss-node-sass')
 const stylelint = require('stylelint')
+const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
 const mqpacker = require('css-mqpacker')
 
@@ -23,6 +24,10 @@ const plugins = [
     ],
     outputStyle: 'expanded',
     indentWidth: 2,
+  }),
+  base64({
+    pattern: /<svg.*<\/svg>/i,
+    prepend: 'data:image/svg+xml;base64,',
   }),
   mqpacker({ sort: true }),
   autoprefixer({
