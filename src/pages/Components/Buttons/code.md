@@ -12,13 +12,19 @@ order: 2
 
 ## Basic usage
 
-To create a solid button you have one main class to apply `mc-button`.
+To create a solid button you have one main class to apply `mc-button`, and wrap the text inside the button in a `span.mc-button__label`.
+While the text without span will look mostly fine, we use it to opticaly align the characters baseline in the button.
+With unwraped text, buttons using icons will break layout.
 
 ```html
-<a href="#" class="mc-button">Label</a>
+<a href="#" class="mc-button">
+  <span class="mc-button__label">
+    Label
+  </span>
+</a>
 ```
 
-<preview path="src/pages/Components/Buttons/previews/basic"></pattern>
+<preview path="src/pages/Components/Buttons/previews/basic"></preview>
 
 ## Variations
 
@@ -26,8 +32,8 @@ To create a solid button you have one main class to apply `mc-button`.
 
 - `solid`
 - `bordered`
-- `bordered-secondary`
-- `solid-secondary`
+- `bordered-neutral`
+- `solid-neutral`
 - `solid-primary-campus`
 - `bordered-primary-campus`
 - `solid-danger`
@@ -36,58 +42,125 @@ To create a solid button you have one main class to apply `mc-button`.
 example :
 
 ```html
-<a href="#" class="mc-button mc-button--primary-campus">Button</a>
-<a href="#" class="mc-button mc-button--bordered-primary-campus">Button</a>
+<a href="#" class="mc-button mc-button--primary-campus">
+  <span class="mc-button__label">
+    Label
+  </span>
+</a>
+<a href="#" class="mc-button mc-button--bordered-primary-campus">
+  <span class="mc-button__label">
+    Label
+  </span>
+</a>
 ```
 
-<preview path="src/pages/Components/Buttons/previews/button-styles"></pattern>
+<preview path="src/pages/Components/Buttons/previews/button-styles"></preview>
 
 ### Available sizes
 
 You can use one of the 3 available sizes :
 
-- **small** : `--small`
+- **small** : `mc-button--s`
 - **medium** : this is the default style so you don't need to add a modifier class
-- **large** : `--large`;
+- **large** : `mc-button--l`;
 
 ```html
-<a href="#" class="mc-button mc-button--small">Button</a>
-<a href="#" class="mc-button">Button</a>
-<a href="#" class="mc-button mc-button--large">Button</a>
+<a href="#" class="mc-button mc-button--s">
+  <span class="mc-button__label">
+    Label
+  </span>
+</a>
+<a href="#" class="mc-button">
+  <span class="mc-button__label">
+    Label
+  </span>
+</a>
+<a href="#" class="mc-button mc-button--l">
+  <span class="mc-button__label">
+    Label
+  </span>
+</a>
 ```
 
-<preview path="src/pages/Components/Buttons/previews/button-sizes"></pattern>
+<preview path="src/pages/Components/Buttons/previews/button-sizes"></preview>
 
 #### Responsive classes
 
-| Default             | `mc-button--small`          | `mc-button--medium`          | `mc-button--large`          |
-| ------------------- | --------------------------- | ---------------------------- | --------------------------- |
-| From breakpoint m   | `mc-button--small@from-m`   | `mc-button--medium@from-m`   | `mc-button--large@from-m`   |
-| From breakpoint l   | `mc-button--small@from-l`   | `mc-button--medium@from-l`   | `mc-button--large@from-l`   |
-| From breakpoint xl  | `mc-button--small@from-xl`  | `mc-button--medium@from-xl`  | `mc-button--large@from-xl`  |
-| From breakpoint xxl | `mc-button--small@from-xxl` | `mc-button--medium@from-xxl` | `mc-button--large@from-xxl` |
+| breakpoint          | `mc-button--s`          | `mc-button--m`          | `mc-button--l`          |
+| ------------------- | ----------------------- | ----------------------- | ----------------------- |
+| From breakpoint m   | `mc-button--s@from-m`   | `mc-button--m@from-m`   | `mc-button--l@from-m`   |
+| From breakpoint l   | `mc-button--s@from-l`   | `mc-button--m@from-l`   | `mc-button--l@from-l`   |
+| From breakpoint xl  | `mc-button--s@from-xl`  | `mc-button--m@from-xl`  | `mc-button--l@from-xl`  |
+| From breakpoint xxl | `mc-button--s@from-xxl` | `mc-button--m@from-xxl` | `mc-button--l@from-xxl` |
 
 ### Widths modifiers
 
 To manage display of your button, you have 2 availables classes :
 
-- `mc-button--fit` : Applied by default
-- `mc-button--full`
+- `mc-button--fit` : natural size (Applied by default)
+- `mc-button--full` : full width
 
 ```html
 <a href="#" class="mc-button mc-button--full">My button</a>
 ```
 
-<preview path="src/pages/Components/Buttons/previews/button-widths" ></preview>
+<preview path="src/pages/Components/Buttons/previews/button-widths"></preview>
 
 #### Responsive classes
 
-| Default             | `mc-button--full`          | `mc-button--fit`          |
+| breakpoint          | `mc-button--full`          | `mc-button--fit`          |
 | ------------------- | -------------------------- | ------------------------- |
 | From breakpoint m   | `mc-button--full@from-m`   | `mc-button--fit@from-m`   |
 | From breakpoint l   | `mc-button--full@from-l`   | `mc-button--fit@from-l`   |
 | From breakpoint xl  | `mc-button--full@from-xl`  | `mc-button--fit@from-xl`  |
 | From breakpoint xxl | `mc-button--full@from-xxl` | `mc-button--fit@from-xxl` |
+
+### Variations with icons
+
+You can add an icon into any buttons you want.
+
+You should add 2 CSS Classes to your icon HTML tag :
+
+- Element class : `mc-button__icon`
+- Modifier element class : `mc-button__icon--[size]`
+
+```html
+<a href="#" class="mc-button">
+  <span class="mc-button__label">Label</span>
+  <svg class="mc-button__icon mc-button__icon--m">
+    <use xlink:href="#icon" />
+  </svg>
+</a>
+```
+
+<preview path="src/pages/Components/Buttons/previews/button-icon-position"></preview>
+
+#### Icon sizes
+
+As you see above, you need to add a modifier css classes to define the icon size.
+
+Available sizes are :
+
+- **S** : `mc-button__icon--s`
+- **M** : `mc-button__icon--m`
+- **L** : `mc-button__icon--l`
+- **XL** : `mc-button__icon--xl`
+
+#### Icon only and square button
+
+You can also use icon only without text into a square button.
+
+To do that, you shoud follow the rules above to use icon and add on modifier to the button to display it as a square.
+
+```html
+<a href="#" class="mc-button mc-button--square">
+  <svg class="mc-button__icon mc-button__icon--m">
+    <use xlink:href="#icon" />
+  </svg>
+</a>
+```
+
+<preview path="src/pages/Components/Buttons/previews/button-icon-only"></preview>
 
 ## Behaviors
 
@@ -98,7 +171,7 @@ Standard button states :
 - `focus`
 - `disabled`
 
-<preview path="src/pages/Components/Buttons/previews/button-state"></pattern>
+<preview path="src/pages/Components/Buttons/previews/button-state"></preview>
 
 ## Mixins
 
@@ -113,14 +186,14 @@ $my-map: (
   'border': yellow,
   'hover': (
     'background': blue,
-    'font': white,
+    'font': white
   ),
   'focus': (
-    'border': purple,
+    'border': purple
   ),
   'active': (
-    'background': 'blue',
-  ),
+    'background': 'blue'
+  )
 );
 ```
 
@@ -158,3 +231,32 @@ Then, it will generate something like this :
   border-color: purple;
 }
 ```
+
+## Accessibility and semantic
+
+<hintitem>
+  Alway wrap your label into a <code>span.mc-button__label</code> tag
+</hintitem>
+
+<hintitem>
+  Use <code>aria-label="button purpose"</code> <b>using only an icon without text</b>.
+</hintitem>
+
+```html
+<a
+  href="#"
+  class="mc-button mc-button--icon-only mc-button--icon-medium-m"
+  aria-label="my button purpose"
+>
+  <!-- Your icon html tag -->
+</a>
+```
+
+<hintitem>
+  Use the right tag for the right purpose : <br/>
+  <code>&lt;a&gt;</code> for links<br/>
+  <code>&lt;button type="submit" form="form_id"&gt;</code> to submit a form (you should prefer it to input type submit)<br/>
+  <code>&lt;button&gt;</code> for any other actions<br/>
+</hintitem>
+
+<preview path="src/pages/Components/Buttons/previews/suportedMarkup"></preview>

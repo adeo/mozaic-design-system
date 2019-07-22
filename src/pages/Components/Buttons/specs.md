@@ -17,16 +17,25 @@ order: 3
 | **Medium** _(Default size)_ | 48px (3mu)   | 32px (2mu)   | `size.font.05` (16px) | `radius.m` (4px) |
 | **Large**                   | 56px (3.5mu) | 40px (2.5mu) | `size.font.06` (18px) | `radius.m` (4px) |
 
+### Icon / sizes
+
+| Size name | Width and height                   |
+| --------- | ---------------------------------- |
+| **S**     | 16px (1mu)                         |
+| **M**     | 24px (1.5mu)                       |
+| **L**     | 32px (2mu)                         |
+| **XL**    | 48px _(displayed in 40px)_ (2.5mu) |
+
 ### Color themes
 
 Available themes are :
 
 - `solid`
-- `solid-secondary`
+- `solid-neutral`
 - `solid-primary-campus`
 - `solid-danger`
 - `bordered`
-- `bordered-secondary`
+- `bordered-neutral`
 - `bordered-primary-campus`
 - `bordered-danger`
 

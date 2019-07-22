@@ -1,87 +1,76 @@
-$buttons : get-token(color, button);
-$viewports: ('s', 'm', 'l', 'xl');
+$buttons: get-token(color, button);
 
-$button-sizes : (
-  'small' : (
-    'font-size' : '04',
-    'line-height' : 's',
-    'padding-v' : $mu050,
-    'padding-h' : $mu200,
-    'min-height' : '32'
+$button-sizes: (
+  's': (
+    'font-size': '04',
+    'line-height': 'xs',
+    'padding-v': $mu025,
+    'padding-h': $mu100,
+    'min-height': $mu200,
   ),
-  'medium' : (
-    'font-size' : '05',
-    'line-height' : 'xs',
-    'padding-v' : $mu100,
-    'padding-h' : $mu200,
-    'min-height' : '48'
+  'm': (
+    'font-size': '05',
+    'line-height': 'xs',
+    'padding-v': $mu025,
+    'padding-h': $mu200,
+    'min-height': $mu300,
   ),
-  'large' : (
-    'font-size' : '06',
-    'line-height' : 'm',
-    'padding-v' : $mu100,
-    'padding-h' : $mu200,
-    'min-height' : '56'
-  )
+  'l': (
+    'font-size': '06',
+    'line-height': 'xs',
+    'padding-v': $mu025,
+    'padding-h': $mu200,
+    'min-height': $mu350,
+  ),
 );
 
-$button-medium : map-get($button-sizes, 'medium');
+$icons: (
+  's': (
+    'width': $mu100,
+    'height': $mu100,
+  ),
+  'm': (
+    'width': $mu150,
+    'height': $mu150,
+  ),
+  'l': (
+    'width': $mu200,
+    'height': $mu200,
+  ),
+  'xl': (
+    'width': $mu250,
+    'height': $mu250,
+  ),
+);
 
-$button-radius : get-border-radius('m');
-$button-border : get-border('m');
+$button-medium: map-get($button-sizes, 'm');
+$button-radius: get-border-radius('m');
+$button-border: get-border('m');
 
-@mixin set-button {
-  margin: 0;
-  box-shadow: none;
-  text-decoration: none;
-  background: none;
-  outline: none;
-  box-sizing: border-box;
-  cursor: pointer;
+@mixin set-button-size($sizeProps) {
+  @include set-font-scale(
+    map-get($sizeProps, 'font-size'),
+    map-get($sizeProps, 'line-height')
+  );
 
-  @include set-font-face('semi-bold');
-  @include set-font-scale(map-get($button-medium, 'font-size'), map-get($button-medium, 'line-height'));
+  padding: map-get($sizeProps, 'padding-v') map-get($sizeProps, 'padding-h');
+  min-height: map-get($sizeProps, 'min-height');
+  min-width: map-get($sizeProps, 'min-height');
+}
 
-  border-radius: $button-radius;
-  text-align: center;
-  border: $button-border solid transparent;
-  transition: all ease 200ms;
-  display: inline-flex;
-  min-height: #{map-get($button-medium, 'min-height')}px;
-  padding: calc(#{map-get($button-medium, 'padding-v')} - (#{$button-border} * 2)) calc(#{map-get($button-medium, 'padding-h')} - #{$button-border}) map-get($button-medium, 'padding-v');
-
-  &:focus,
-  &.is-focus {
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  @each $size, $props in $button-sizes {
-    &--#{$size} {
-      @include modify-from-screens($viewports) {
-        @include set-font-scale(map-get($props, 'font-size'), map-get($props, 'line-height'));
-
-        min-height: #{ map-get($props, 'min-height')}px;
-        padding: calc(#{map-get($props, 'padding-v')} - (#{$button-border} * 2)) calc(#{map-get($props, 'padding-h')} - #{$button-border}) map-get($props, 'padding-v');
+@mixin mod-button-sizes() {
+  @each $sizeName, $sizeProps in $button-sizes {
+    &--#{$sizeName} {
+      @include modify-from-screens($major-screens) {
+        @include set-button-size($sizeProps);
       }
-    }
-  }
-
-  &--fit {
-    @include modify-from-screens($viewports) {
-      display: inline-flex;
-    }
-  }
-
-  &--full {
-    @include modify-from-screens($viewports) {
-      display: block;
-      width: 100%;
     }
   }
 }
 
 @mixin set-button-theme($props) {
   color: map-get($props, 'font');
+  fill: currentColor;
 
   @if map-has-key($props, 'border') {
     border: $button-border solid map-get($props, 'border');
@@ -96,7 +85,7 @@ $button-border : get-border('m');
   }
 
   @if map-has-key($props, 'hover') {
-    $hover-props : map-get($props, 'hover');
+    $hover-props: map-get($props, 'hover');
 
     @each $prop, $value in $hover-props {
       &:hover,
@@ -117,7 +106,7 @@ $button-border : get-border('m');
   }
 
   @if map-has-key($props, 'focus') {
-    $focus-props : map-get($props, 'focus');
+    $focus-props: map-get($props, 'focus');
 
     @each $prop, $value in $focus-props {
       &:focus,
@@ -128,7 +117,7 @@ $button-border : get-border('m');
   }
 
   @if map-has-key($props, 'active') {
-    $active-props : map-get($props, 'active');
+    $active-props: map-get($props, 'active');
 
     @each $prop, $value in $active-props {
       &:active,
@@ -139,7 +128,7 @@ $button-border : get-border('m');
   }
 
   @if map-has-key($props, 'disabled') {
-    $disabled-props : map-get($props, 'disabled');
+    $disabled-props: map-get($props, 'disabled');
 
     &:disabled,
     &.is-disabled {

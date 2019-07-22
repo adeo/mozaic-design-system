@@ -7,9 +7,9 @@ order: 4
 
 ![preferences](buttons--sketch-menu.png)
 
-### **👾 For developers :**
+### 👾 For developers :
 
-This part is a specific section for developers, **for a better accessibility** there is all states of the LEROY MERLIN buttons :
+This part is a specific section for developers, **for a better accessibility** there is all states of the Mozaic buttons :
 
 - default
 - :active
@@ -18,12 +18,10 @@ This part is a specific section for developers, **for a better accessibility** t
 - :disable
 - :hover:focus
 
-### **🛠 ToolKit :**
+### 🛠 ToolKit :
 
 The ToolKit section bring together the **dedicated symbols used for building the final symbols**, and you can find them in the symbol overrides.
 <br>
-
-**N.b :** _Actually, we just have the content with label only, but soon, contents with icons will be added in addition in this symbols._
 
 <hint type="dont">
   <hintitem dont="true">
@@ -31,10 +29,18 @@ The ToolKit section bring together the **dedicated symbols used for building the
   </hintitem>
 </hint>
 
-### **Buttons :**
+### Buttons :
 
-Here is the ready-to-use symbols for your LEROY MERLIN projects, you can find **all the buttons with all the possible variations** :
+Here is the ready-to-use symbols for your projects, you can find **all the buttons with all the possible variations** :
 
-- Solid or bordered
-- Primary, secondary, danger or disable
 - Small size, medium size or large size
+- Primary, primary-campus, neutral, danger or disable
+- Solid or bordered
+- With or without icons
+- etc...
+
+#### Good to know :
+
+In the all button symbols, you will find a dedicated override for display the left and right paddings.
+
+![preferences](show-padding.png)
