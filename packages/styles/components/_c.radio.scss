@@ -1,0 +1,72 @@
+.mc-radio {
+  @include reset-input;
+
+  border: $radio-border-width solid $color-input-border;
+  min-width: $radio-min-width;
+  width: $radio-width;
+  min-height: $radio-min-height;
+  height: $radio-height;
+  border-radius: 50%;
+  background: $color-input-background;
+  position: relative;
+  transition: background-color ease 200ms, border ease 200ms;
+  cursor: pointer;
+
+  &.is-valid {
+    border-color: $color-input-valid-border;
+
+    &:hover,
+    &.is-hover {
+      border-color: $color-input-valid-hover-border;
+    }
+  }
+
+  &.is-invalid {
+    border-color: $color-input-invalid-border;
+
+    &:hover,
+    &.is-hover {
+      border-color: $color-input-invalid-hover-border;
+    }
+  }
+
+  &:hover,
+  &.is-hover {
+    border-color: $color-input-hover-border;
+  }
+
+  &:focus,
+  &.is-focus {
+    border-color: $color-input-focus-border;
+  }
+
+  &:disabled {
+    border-color: $color-input-disabled-border;
+    background: $color-input-disabled-background;
+    cursor: default;
+  }
+
+  &:checked {
+    border-color: $color-input-checked-border;
+    background-color: $color-input-checked-background;
+
+    &::before {
+      content: '';
+      background: $color-input-background;
+      display: block;
+      width: px-to-rem(6);
+      min-width: 6px;
+      height: px-to-rem(6);
+      min-height: 6px;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+      border-color: $color-input-checked-hover-border;
+    }
+  }
+}
