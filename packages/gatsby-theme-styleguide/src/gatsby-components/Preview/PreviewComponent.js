@@ -64,7 +64,7 @@ const Body = styled.div`
 export class PreviewComponent extends PureComponent {
   constructor(props) {
     super(props)
-    console.log('PreviewComponent', this.props)
+
     this.body = React.createRef()
     this.state = {
       currentCodeSample: 'html',

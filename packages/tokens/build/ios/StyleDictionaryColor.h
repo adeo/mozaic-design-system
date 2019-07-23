@@ -165,7 +165,11 @@ ColorInputFocusBorder,
 ColorInputValidBorder,
 ColorInputValidHoverBorder,
 ColorInputInvalidBorder,
-ColorInputInvalidHoverBorder
+ColorInputInvalidHoverBorder,
+ColorInputCheckedBorder,
+ColorInputCheckedBackground,
+ColorInputCheckedIcon,
+ColorInputCheckedHoverBorder
 };
 
 @interface StyleDictionaryColor : NSObject

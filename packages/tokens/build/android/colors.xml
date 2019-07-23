@@ -159,5 +159,9 @@
   <color name="color_input_valid_hover_border">#ff0a601b</color>
   <color name="color_input_invalid_border">#ffdf382b</color>
   <color name="color_input_invalid_hover_border">#ff641b21</color>
+  <color name="color_input_checked_border">#ff78be20</color>
+  <color name="color_input_checked_background">#ff78be20</color>
+  <color name="color_input_checked_icon">#ffffffff</color>
+  <color name="color_input_checked_hover_border">#ff0a601b</color>
   
 </resources>
