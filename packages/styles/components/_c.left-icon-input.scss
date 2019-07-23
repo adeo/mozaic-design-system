@@ -1,0 +1,19 @@
+.mc-left-icon-input {
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    z-index: 1;
+    left: $mu075;
+    top: 50%;
+    transform: translateY(-50%);
+    width: $mu150;
+    height: $mu150;
+    fill: $color-input-border;
+    pointer-events: none;
+  }
+
+  &__input {
+    padding-left: $mu300;
+  }
+}

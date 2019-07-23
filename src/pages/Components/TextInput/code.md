@@ -16,16 +16,14 @@ Import the settings and the text-input `scss` files.
 
 ### Supported input types
 
-<ul>
-    <li><code>text</code></li>
-    <li><code>email</code></li>
-    <li><code>date</code></li>
-    <li><code>password</code></li>
-    <li><code>number</code></li>
-    <li><code>tel</code></li>
-    <li><code>number</code></li>
-    <li><code>search</code></li>
-</ul>
+- `text`
+- `email`
+- `date`
+- `password`
+- `number`
+- `tel`
+- `number`
+- `search`
 
 > Note that **if you try to apply those CSS classes to an unsupported input type**. It could work but you should find something which better suits to your needs in the documentation.
 
@@ -49,20 +47,28 @@ To create an input you have one main class to apply `mc-text-input`.
 
 <preview path="src/pages/Components/TextInput/previews/input-state"></preview>
 
-## Do's and don'ts
+## Using a left icon
 
-<hintitem>
-    You can cumulate states like that :
-</hintitem>
+To add a left icon, you need to import `'components/_c.left-icon-input'` after the `components/_c.text-input`.
+
+```css
+@import 'settings-tools/_all-settings';
+@import 'components/_c.text-input';
+@import 'components/_c.left-icon-input';
+```
+
+Wrap your input and use a 24px icon size :
 
 ```html
-<input
-  type="text"
-  class="mc-text-input is-invalid is-hover"
-  placeholder="Empty"
-  name="example"
-/>
+<div class="mc-left-icon-input">
+  <svg class="mc-left-icon-input__icon">
+    <use xlink:href="#iconS" />
+  </svg>
+  <input type="text" class="mc-left-icon-input__input mc-text-input" />
+</div>
 ```
+
+<preview path="src/pages/Components/TextInput/previews/left-icon-input"></preview>
 
 ## Accessibility and semantic
 
