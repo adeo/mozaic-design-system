@@ -1,0 +1,35 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import the settings and the radio `scss` files.
+
+```css
+@import 'settings-tools/_all-settings';
+@import 'components/_c.radio';
+```
+
+## Basic usage
+
+To create a classic radio you have one main class to apply `mc-radio`.
+
+```html
+<input type="radio" class="mc-radio" name="example" />
+```
+
+<preview path="src/pages/Components/Radio/previews/intro"></preview>
+
+## Behaviors
+
+### Standard input states :
+
+- `hover`
+- `focus`
+- `disabled`
+- `is-valid`
+- `is-invalid`
+
+<preview path="src/pages/Components/Radio/previews/radio-state"></preview>
