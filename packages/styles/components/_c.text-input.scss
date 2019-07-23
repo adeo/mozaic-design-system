@@ -7,7 +7,7 @@
   position: relative;
   border: get-border('s') solid $color-input-border;
   color: $color-input-text;
-  background: $color-input-background;
+  background-color: $color-input-background;
   border-radius: get-border-radius('m');
   padding: $mu100;
 
@@ -16,20 +16,40 @@
     opacity: 1;
   }
 
+  &.is-valid,
+  &.is-invalid {
+    background-repeat: no-repeat;
+    background-size: $mu150 $mu150;
+    background-position: right $mu050 center;
+    padding-right: $mu300;
+  }
+
   &.is-valid {
     border-color: $color-input-valid-border;
+    background-image:
+      url(
+        inline-icons(
+          'circle-check-24',
+          $color-input-valid-border
+        ));
 
-    &:hover,
-    &.is-hover {
+    &:hover:not(:focus),
+    &.is-hover:not(:focus) {
       border-color: $color-input-valid-hover-border;
     }
   }
 
   &.is-invalid {
     border-color: $color-input-invalid-border;
+    background-image:
+      url(
+        inline-icons(
+          'circle-error-24',
+          $color-input-invalid-border
+        ));
 
-    &:hover,
-    &.is-hover {
+    &:hover:not(:focus),
+    &.is-hover:not(:focus) {
       border-color: $color-input-invalid-hover-border;
     }
   }
