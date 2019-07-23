@@ -173,7 +173,7 @@
           "comment": "32px"
         },
         "l": {
-          "value": 1.75,
+          "value": 2.25,
           "comment": "36px"
         }
       },
@@ -187,11 +187,11 @@
           "comment": "32px"
         },
         "m": {
-          "value": 2.5,
-          "comment": "40px"
+          "value": 2.25,
+          "comment": "36px"
         },
         "l": {
-          "value": 2.5,
+          "value": 2.75,
           "comment": "44px"
         }
       },
@@ -205,7 +205,7 @@
           "comment": "40px"
         },
         "m": {
-          "value": 2.5,
+          "value": 2.75,
           "comment": "44px"
         },
         "l": {
@@ -227,8 +227,8 @@
           "comment": "56px"
         },
         "l": {
-          "value": 4,
-          "comment": "64px"
+          "value": 3.75,
+          "comment": "60px"
         }
       },
       "11": {
