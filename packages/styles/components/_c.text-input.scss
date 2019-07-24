@@ -1,7 +1,9 @@
 .mc-text-input {
-  @include reset-input;
+  $border-width: get-border('s');
 
-  font-size: $size-font-05;
+  @include reset-input;
+  @include set-font-scale('05');
+
   display: block;
   width: 100%;
   position: relative;
@@ -9,9 +11,17 @@
   color: $color-input-text;
   background-color: $color-input-background;
   border-radius: get-border-radius('m');
-  padding: $mu100;
+
+  // remove border height and center baseline optically
+  padding:
+    calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
+    calc(#{$mu075} + 0.125em - #{$border-width});
 
   &::placeholder {
+    @include set-font-scale('05');
+
+    margin: 0;
+    padding: 0;
     color: $color-input-placeholder;
     opacity: 1;
   }
