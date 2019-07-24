@@ -3784,11 +3784,11 @@ module.exports = {
           ]
         },
         "l": {
-          "value": "4rem",
-          "comment": "64px",
+          "value": "3.75rem",
+          "comment": "60px",
           "original": {
-            "value": 4,
-            "comment": "64px"
+            "value": 3.75,
+            "comment": "60px"
           },
           "name": "SizeLine10L",
           "attributes": {
@@ -4558,10 +4558,10 @@ module.exports = {
           ]
         },
         "l": {
-          "value": "1.75rem",
+          "value": "2.25rem",
           "comment": "36px",
           "original": {
-            "value": 1.75,
+            "value": 2.25,
             "comment": "36px"
           },
           "name": "SizeLine07L",
@@ -4623,11 +4623,11 @@ module.exports = {
           ]
         },
         "m": {
-          "value": "2.5rem",
-          "comment": "40px",
+          "value": "2.25rem",
+          "comment": "36px",
           "original": {
-            "value": 2.5,
-            "comment": "40px"
+            "value": 2.25,
+            "comment": "36px"
           },
           "name": "SizeLine08M",
           "attributes": {
@@ -4644,10 +4644,10 @@ module.exports = {
           ]
         },
         "l": {
-          "value": "2.5rem",
+          "value": "2.75rem",
           "comment": "44px",
           "original": {
-            "value": 2.5,
+            "value": 2.75,
             "comment": "44px"
           },
           "name": "SizeLine08L",
@@ -4709,10 +4709,10 @@ module.exports = {
           ]
         },
         "m": {
-          "value": "2.5rem",
+          "value": "2.75rem",
           "comment": "44px",
           "original": {
-            "value": 2.5,
+            "value": 2.75,
             "comment": "44px"
           },
           "name": "SizeLine09M",

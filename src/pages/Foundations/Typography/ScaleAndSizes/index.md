@@ -63,7 +63,7 @@ You can use any of the previous line-height depending on your needs, but conside
 | **03** | 13px (0.8125mu) | 14px (0.875mu) | 16px (1mu)     | 18px (1.125mu) | 20px (1.25mu)  | `size.line.03.(xs,s,m,l)` |
 | **04** | 14px (0.875mu ) | 14px (0.875mu) | 16px (1mu)     | 18px (1.125mu) | 22px (1.375mu) | `size.line.04.(xs,s,m,l)` |
 | **05** | 16px (1mu )     | 16px (1mu)     | 18px (1.125mu) | 22px (1.375mu) | 24px (1.5mu)   | `size.line.05.(xs,s,m,l)` |
-| **06** | 18px (1.125mu ) | 18px (1.125mu) | 22px (1.375mu) | 24px (1.5mu)   | 28px (1.75mu)  | `size.line.06.(xs,s,m,l)` |
+| **06** | 18px (1.125mu ) | 18px (1.125mu) | 20px (1.25mu)  | 24px (1.5mu)   | 28px (1.75mu)  | `size.line.06.(xs,s,m,l)` |
 | **07** | 23px (1.4375mu) | 24px (1.5mu)   | 28px (1.75mu)  | 32px (2mu)     | 36px (2.25mu)  | `size.line.07.(xs,s,m,l)` |
 | **08** | 28px (1.75mu )  | 28px (1.75mu)  | 32px (2mu)     | 36px (2.25mu)  | 44px (2.75mu)  | `size.line.08.(xs,s,m,l)` |
 | **09** | 34px (2.125mu ) | 36px (2.25mu)  | 40px (2.5mu)   | 44px (2.75mu)  | 52px (3.25mu)  | `size.line.09.(xs,s,m,l)` |
