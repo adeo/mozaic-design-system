@@ -29,9 +29,9 @@
   &.is-valid,
   &.is-invalid {
     background-repeat: no-repeat;
-    background-size: $mu150 $mu150;
+    background-size: $mu100 $mu100;
     background-position: right $mu050 center;
-    padding-right: $mu300;
+    padding-right: $mu250;
   }
 
   &.is-valid {
@@ -39,7 +39,7 @@
     background-image:
       url(
         inline-icons(
-          'circle-check-24',
+          'checkmark-16',
           $color-input-valid-border
         ));
 
@@ -54,7 +54,7 @@
     background-image:
       url(
         inline-icons(
-          'circle-error-24',
+          'cross-16',
           $color-input-invalid-border
         ));
 
