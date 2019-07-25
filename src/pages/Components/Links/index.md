@@ -11,11 +11,12 @@ Please use a [button](/Components/Buttons/) for any other action.
 
 ### The inline link :
 
-Inline links are links contained into paragraphs of text. By default, inline links inherit the current text color and size.
+Inline links are links contained into paragraphs of text. By default, inline links inherit the current text styles except for color that will always be dark by default.
+<preview path="src/pages/Components/Links/previews/link-inline-default" nude=true></preview>
 
 You can override the color depending on the context, for example on a dark background, or a link in an error box :
 
-**preview error and dark**
+<preview path="src/pages/Components/Links/previews/link-error-and-light" nude=true></preview>
 
 ### The navigation links :
 
@@ -29,32 +30,35 @@ examples :
 - breadcrumbs
   etc
 
-in this case we use two sizes
+#### In this case we use two sizes
 
-| size                   | value               |
-| ---------------------- | ------------------- |
-| **small**              | size.font.04 (14px) |
-| **medium** _(default)_ | size.font.05 (16px) |
+| size       | value               |
+| ---------- | ------------------- |
+| **small**  | size.font.04 (14px) |
+| **medium** | size.font.05 (16px) |
 
 <preview path="src/pages/Components/Links/previews/link-sizes" nude=true></preview>
 
 #### Links colors
 
-Links, while generaly inheriting color from the context, have two common variations that you should consider using before thinking to any other color option.
+Links, while generaly inheriting styles from the context, have four common variations that you should consider using before thinking to any other color option.
 
 <preview path="src/pages/Components/Links/previews/link-styles" nude=true></preview>
 
 <br>
 
-| Color scheme | Usage                                |
-| ------------ | ------------------------------------ |
-| Primary      | To higlight important link           |
-| Neutral      | For navigation purpose (prev / next) |
+| Color scheme   | Usage                                           |
+| -------------- | ----------------------------------------------- |
+| Default        | For navigation purpose (prev / next)            |
+| Light          | For link with colored background                |
+| Primary        | To higlight important link                      |
+| Primary-campus | To higlight important link for campus templates |
+| Danger         | for error link                                  |
 
 ### Displaying links with icons
 
-In the link component, you can also add icons :
-_Link icons are only used in `16px` regardless of the link size_
+In the link component, you can also add icons :  
+_Exclusively use a `16px` icon variant in links, the icon will be resized automaticaly depending on the font-size_
 
 <preview path="src/pages/Components/Links/previews/link-icon" nude=true></preview>
 

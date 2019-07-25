@@ -26,8 +26,11 @@ To create a link you have one main class to apply `mc-link`.
 
 ### Available color themes
 
+- **dark (default)**: `mc-link`
+- **light**: `mc-link--light`
 - **primary**: `mc-link--primary`
-- **neutral**: `mc-link--neutral`
+- **primary-campus**: `mc-link--primary-campus`
+- **danger**: `mc-link--danger`
 
 <preview path="src/pages/Components/Links/previews/link-styles"></preview>
 
@@ -35,12 +38,12 @@ To create a link you have one main class to apply `mc-link`.
 
 You can use one of the 2 available sizes :
 
-- **small** : `mc-link--small`
-- **regular** : `mc-link--regular` _this is the default style so you don't need to add a modifier class_
+- **small** : `mc-link--s`
+- **medium** : `mc-link--m`
 
 ```html
-<a href="#" class="mc-link mc-link--small">Small link</a>
-<a href="#" class="mc-link">Regular link (default)</a>
+<a href="#" class="mc-link mc-link--s">Small link navigation link</a>
+<a href="#" class="mc-link mc-link--m">Medium link navigation link</a>
 ```
 
 <preview path="src/pages/Components/Links/previews/link-sizes"></pattern>
@@ -77,21 +80,12 @@ Link icons are only used in `16px` regardless of the link size
 
 #### Responsive classes
 
-| Default             | `mc-link--small`          | `mc-link--medium`          |
-| ------------------- | ------------------------- | -------------------------- |
-| From breakpoint m   | `mc-link--small@from-m`   | `mc-link--medium@from-m`   |
-| From breakpoint l   | `mc-link--small@from-l`   | `mc-link--medium@from-l`   |
-| From breakpoint xl  | `mc-link--small@from-xl`  | `mc-link--medium@from-xl`  |
-| From breakpoint xxl | `mc-link--small@from-xxl` | `mc-link--medium@from-xxl` |
-
-#### Responsive classes
-
-| Default             | `mc-link--full`          | `mc-link--fit`          |
-| ------------------- | ------------------------ | ----------------------- |
-| From breakpoint m   | `mc-link--full@from-m`   | `mc-link--fit@from-m`   |
-| From breakpoint l   | `mc-link--full@from-l`   | `mc-link--fit@from-l`   |
-| From breakpoint xl  | `mc-link--full@from-xl`  | `mc-link--fit@from-xl`  |
-| From breakpoint xxl | `mc-link--full@from-xxl` | `mc-link--fit@from-xxl` |
+| Default             | `mc-link--s`          | `mc-link--m`           |
+| ------------------- | --------------------- | ---------------------- |
+| From breakpoint m   | `mc-link--s@from-m`   | `mc-link--m@from-m`    |
+| From breakpoint l   | `mc-link--s@from-l`   | `mc-link-- m@from-l`   |
+| From breakpoint xl  | `mc-link--s@from-xl`  | `mc-link-- m@from-xl`  |
+| From breakpoint xxl | `mc-link--s@from-xxl` | `mc-link-- m@from-xxl` |
 
 ## Behaviors
 
@@ -112,16 +106,10 @@ If you need to create a new link theme you need to define a new SASS map, see be
 
 ```css
 $my-map: (
-  'font': green,
-  'hover': (
-    'font': white
-  ),
-  'focus': (
-    'font': purple
-  ),
-  'active': (
-    'font': 'blue'
-  )
+  'color-theme': {'base': green,
+  'hover': white,
+  'visited': purple,
+  'active': blue}
 );
 ```
 
@@ -145,8 +133,8 @@ Then, it will generate something like this :
   color: white;
 }
 
-.mc-link--my-custom-theme:focus,
-.mc-link--my-custom-theme.is-focus {
+.mc-link--my-custom-theme:visited,
+.mc-link--my-custom-theme.is-visited {
   border-color: purple;
 }
 

@@ -3151,6 +3151,200 @@ module.exports = {
       }
     },
     "link": {
+      "dark": {
+        "base": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorLinkDarkBase",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#554f52",
+          "original": {
+            "value": "{color.grey.700.value}"
+          },
+          "name": "ColorLinkDarkVisited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#554f52",
+          "original": {
+            "value": "{color.grey.700.value}"
+          },
+          "name": "ColorLinkDarkActive",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#eeeef0",
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkDarkDisabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#887f87",
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorLinkDarkHover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "hover"
+          ]
+        }
+      },
+      "light": {
+        "base": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorLinkLightBase",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#bab6bc",
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorLinkLightVisited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#bab6bc",
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorLinkLightActive",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#eeeef0",
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkLightDisabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#887f87",
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorLinkLightHover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "hover"
+          ]
+        }
+      },
       "primary": {
         "base": {
           "value": "#78be20",
@@ -3248,61 +3442,61 @@ module.exports = {
           ]
         }
       },
-      "neutral": {
+      "primary-campus": {
         "base": {
-          "value": "#887f87",
+          "value": "#035f64",
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorLinkNeutralBase",
+          "name": "ColorLinkPrimaryCampusBase",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "neutral",
+            "item": "primary-campus",
             "subitem": "base"
           },
           "path": [
             "color",
             "link",
-            "neutral",
+            "primary-campus",
             "base"
           ]
         },
         "visited": {
-          "value": "#6f676c",
+          "value": "#044c53",
           "original": {
-            "value": "{color.grey.600.value}"
+            "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkNeutralVisited",
+          "name": "ColorLinkPrimaryCampusVisited",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "neutral",
+            "item": "primary-campus",
             "subitem": "visited"
           },
           "path": [
             "color",
             "link",
-            "neutral",
+            "primary-campus",
             "visited"
           ]
         },
         "active": {
-          "value": "#6f676c",
+          "value": "#044c53",
           "original": {
-            "value": "{color.grey.600.value}"
+            "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkNeutralActive",
+          "name": "ColorLinkPrimaryCampusActive",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "neutral",
+            "item": "primary-campus",
             "subitem": "active"
           },
           "path": [
             "color",
             "link",
-            "neutral",
+            "primary-campus",
             "active"
           ]
         },
@@ -3311,36 +3505,133 @@ module.exports = {
           "original": {
             "value": "{color.grey.100.value}"
           },
-          "name": "ColorLinkNeutralDisabled",
+          "name": "ColorLinkPrimaryCampusDisabled",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "neutral",
+            "item": "primary-campus",
             "subitem": "disabled"
           },
           "path": [
             "color",
             "link",
-            "neutral",
+            "primary-campus",
             "disabled"
           ]
         },
         "hover": {
-          "value": "#6f676c",
+          "value": "#044c53",
           "original": {
-            "value": "{color.grey.600.value}"
+            "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkNeutralHover",
+          "name": "ColorLinkPrimaryCampusHover",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "neutral",
+            "item": "primary-campus",
             "subitem": "hover"
           },
           "path": [
             "color",
             "link",
-            "neutral",
+            "primary-campus",
+            "hover"
+          ]
+        }
+      },
+      "danger": {
+        "base": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorLinkDangerBase",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#8b2226",
+          "original": {
+            "value": "{color.secondary-red.700.value}"
+          },
+          "name": "ColorLinkDangerVisited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#8b2226",
+          "original": {
+            "value": "{color.secondary-red.700.value}"
+          },
+          "name": "ColorLinkDangerActive",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#eeeef0",
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkDangerDisabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#8b2226",
+          "original": {
+            "value": "{color.secondary-red.700.value}"
+          },
+          "name": "ColorLinkDangerHover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
             "hover"
           ]
         }

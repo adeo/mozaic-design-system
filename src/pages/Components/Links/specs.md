@@ -21,10 +21,9 @@ order: 3
 
 Available themes are :
 
-- `primary`
+- `dark` _default theme_
 - `light`
-- `dark`
-- `neutral`
+- `primary`
 - `primary-campus`
 - `danger`
 
@@ -32,8 +31,8 @@ Links states colors are defnied for each theme :
 
 | State        | Property         | Token                                      |
 | ------------ | ---------------- | ------------------------------------------ |
-| **Default**  | color            | `color.link.[theme].font`                |
-| **Hover**    | color            | `color.link.[theme].hover.font`          |
-| **Focus**    | color            | `color.link.[theme].focus.font`        |
-| **Active**   | color            | `color.link.[theme].active.font`    |
-| **Disabled** | color            | `color.link.[theme].disabled.font`  |
+| **Default**  | color            | `color.link.[theme].base`                |
+| **Hover**    | color            | `color.link.[theme].hover`          |
+| **Visited**    | color            | `color.link.[theme].visited`        |
+| **Active**   | color            | `color.link.[theme].active`    |
+| **Disabled** | color            | `color.link.[theme].disabled`  |
