@@ -7,30 +7,44 @@ order: 1
 
 Please use a [button](/Components/Buttons/) for any other action.
 
-## There is two main types of links.
+<preview path="src/pages/Components/Links/previews/link-default" nude=true></preview>
 
-### The inline link :
+By default, all the links are black `$color-grey-900`.
 
-Inline links are links contained into paragraphs of text. By default, inline links inherit the current text styles except for color that will always be dark by default.
+You should consider using the default link before thinking to any other color option, but occasionally, you can override the color depending on the context, for example on a dark background, or a link in an error box.
+
+### Contextual links
+
+Links, while generally are dark by default, have contextual variations that you can use occasionally depending on the need.
+
+<preview path="src/pages/Components/Links/previews/contextual-links" nude=true></preview>
+
+<br>
+
+| Color scheme    | Usage                             |
+| --------------- | --------------------------------- |
+| Light           | Used when the background is dark  |
+| Primary         | Highlight important link          |
+| Primary--campus | Highlight specific link to Campus |
+| Danger          | Highlight link to error content   |
+
+## The inline link :
+
+Inline links are links contained into paragraphs of text. By default, the inline links inherit the current size.
+
 <preview path="src/pages/Components/Links/previews/link-inline-default" nude=true></preview>
 
-You can override the color depending on the context, for example on a dark background, or a link in an error box :
+## The navigation links :
 
-<preview path="src/pages/Components/Links/previews/link-error-and-light" nude=true></preview>
-
-### The navigation links :
-
-They are interface elements used to navigate between pages
-
-examples :
+Single links are interface elements used to navigate between pages like :
 
 - previous / next
 - paginations
 - text anchors
 - breadcrumbs
-  etc
+- etc
 
-#### In this case we use two sizes
+### In this case we use two sizes
 
 | size       | value               |
 | ---------- | ------------------- |
@@ -38,22 +52,6 @@ examples :
 | **medium** | size.font.05 (16px) |
 
 <preview path="src/pages/Components/Links/previews/link-sizes" nude=true></preview>
-
-#### Links colors
-
-Links, while generaly inheriting styles from the context, have four common variations that you should consider using before thinking to any other color option.
-
-<preview path="src/pages/Components/Links/previews/link-styles" nude=true></preview>
-
-<br>
-
-| Color scheme   | Usage                                           |
-| -------------- | ----------------------------------------------- |
-| Default        | For navigation purpose (prev / next)            |
-| Light          | For link with colored background                |
-| Primary        | To higlight important link                      |
-| Primary-campus | To higlight important link for campus templates |
-| Danger         | for error link                                  |
 
 ### Displaying links with icons
 
