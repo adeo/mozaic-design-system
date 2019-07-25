@@ -1,0 +1,10 @@
+@import 'settings-tools/_all-settings';
+@import 'components/_c.links';
+
+.example {
+  @include set-font-face('regular');
+
+  text-align: left;
+  margin: $mu100;
+  display: flex;
+}

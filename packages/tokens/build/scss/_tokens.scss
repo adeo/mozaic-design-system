@@ -164,6 +164,31 @@ $color-input-checked-border: #78be20 !default;
 $color-input-checked-background: #78be20 !default;
 $color-input-checked-icon: #ffffff !default;
 $color-input-checked-hover-border: #0a601b !default;
+$color-link-dark-base: #000000 !default;
+$color-link-dark-visited: #554f52 !default;
+$color-link-dark-active: #554f52 !default;
+$color-link-dark-disabled: #eeeef0 !default;
+$color-link-dark-hover: #887f87 !default;
+$color-link-light-base: #ffffff !default;
+$color-link-light-visited: #bab6bc !default;
+$color-link-light-active: #bab6bc !default;
+$color-link-light-disabled: #eeeef0 !default;
+$color-link-light-hover: #887f87 !default;
+$color-link-primary-base: #78be20 !default;
+$color-link-primary-visited: #41a017 !default;
+$color-link-primary-active: #158110 !default;
+$color-link-primary-disabled: #eeeef0 !default;
+$color-link-primary-hover: #41a017 !default;
+$color-link-primary-campus-base: #035f64 !default;
+$color-link-primary-campus-visited: #044c53 !default;
+$color-link-primary-campus-active: #044c53 !default;
+$color-link-primary-campus-disabled: #eeeef0 !default;
+$color-link-primary-campus-hover: #044c53 !default;
+$color-link-danger-base: #df382b !default;
+$color-link-danger-visited: #8b2226 !default;
+$color-link-danger-active: #8b2226 !default;
+$color-link-danger-disabled: #eeeef0 !default;
+$color-link-danger-hover: #8b2226 !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -546,6 +571,43 @@ $tokens: (
         'hover': (
           'border': $color-input-checked-hover-border
         )
+      )
+    ),
+    'link': (
+      'dark': (
+        'base': $color-link-dark-base,
+        'visited': $color-link-dark-visited,
+        'active': $color-link-dark-active,
+        'disabled': $color-link-dark-disabled,
+        'hover': $color-link-dark-hover
+      ),
+      'light': (
+        'base': $color-link-light-base,
+        'visited': $color-link-light-visited,
+        'active': $color-link-light-active,
+        'disabled': $color-link-light-disabled,
+        'hover': $color-link-light-hover
+      ),
+      'primary': (
+        'base': $color-link-primary-base,
+        'visited': $color-link-primary-visited,
+        'active': $color-link-primary-active,
+        'disabled': $color-link-primary-disabled,
+        'hover': $color-link-primary-hover
+      ),
+      'primary-campus': (
+        'base': $color-link-primary-campus-base,
+        'visited': $color-link-primary-campus-visited,
+        'active': $color-link-primary-campus-active,
+        'disabled': $color-link-primary-campus-disabled,
+        'hover': $color-link-primary-campus-hover
+      ),
+      'danger': (
+        'base': $color-link-danger-base,
+        'visited': $color-link-danger-visited,
+        'active': $color-link-danger-active,
+        'disabled': $color-link-danger-disabled,
+        'hover': $color-link-danger-hover
       )
     )
   ),

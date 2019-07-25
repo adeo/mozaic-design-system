@@ -1,0 +1,29 @@
+.mc-link {
+  @include set-link-base();
+  @include set-link-theme(get-token(color, link, 'dark'));
+  @include mod-link-sizes();
+
+  &__icon {
+    display: block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    transform: translateY(0.175em);
+
+    &--left {
+      margin-right: $mu025;
+    }
+
+    &--right {
+      margin-left: $mu025;
+    }
+  }
+
+  @each $name, $props in $links-tokens {
+    @if ($name != 'dark') {
+      &--#{$name} {
+        @include set-link-theme($props);
+      }
+    }
+  }
+}

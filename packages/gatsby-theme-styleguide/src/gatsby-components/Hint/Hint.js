@@ -3,14 +3,14 @@ import styled, { css } from 'styled-components'
 
 const HintTitle = styled.h4`
   color: ${({ type }) => (type === 'dont' ? 'FireBrick' : 'ForestGreen')};
-  margin-top: 0;
+  margin-top: 0 !important;
   line-height: 2.3em;
   border-top: solid 4px
     ${({ type }) => (type === 'dont' ? 'FireBrick ' : 'ForestGreen ')};
 `
 
 const Container = styled.div`
-  margin: 3rem 0;
+  margin: 2rem 0;
 `
 
 const HintBox = styled.div`
@@ -23,6 +23,11 @@ const HintBox = styled.div`
 
   .gatsby-highlight {
     margin: 0;
+  }
+
+  > div,
+  > div > div {
+    margin: 0 !important;
   }
 `
 
