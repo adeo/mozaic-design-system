@@ -3,18 +3,20 @@ title: 'Specs'
 order: 3
 ---
 
+![preferences](Radiobuttons-documentation.png)
+
 ## Properties
 
 ### CSS Tokens : layout
 
-| State       | Property          | Token                |
-| ----------- | ----------------- | -------------------- |
-| **Default** | border-radius     | `50%`                |
-| **Default** | border-width      | `border.m` (2px)     |
-| **Default** | min-width         | `20px`               |
-| **Default** | width             | `$mu125`             |
-| **Default** | min-height        | `20px`               |
-| **Default** | height            | `$mu125`             |
+| State       | Property      | Token            |
+| ----------- | ------------- | ---------------- |
+| **Default** | border-radius | `50%`            |
+| **Default** | border-width  | `border.m` (2px) |
+| **Default** | min-width     | `20px`           |
+| **Default** | width         | `$mu125`         |
+| **Default** | min-height    | `20px`           |
+| **Default** | height        | `$mu125`         |
 
 ### CSS Tokens : state colors
 

@@ -3,45 +3,28 @@ title: 'Radio'
 order: 8
 ---
 
-> Checkboxes are used to **select only one option in a list**. They usually find their place in forms.
-
-## Preview
+> Radios are components that, unlike checkboxes, can't be used alone. They are used to select **a single option from a list**.
 
 <preview path="src/pages/Components/Radio/previews/intro" nude="true"></preview>
 
+## Behaviors
 
-## Standard radio states :
+The radio list must be short and allows the user to quickly scan the different possible options. If the list is long, it's better to use a dropdown, or another component who's more appropriate to the context.
 
-### Hover
+It's better to define a default selected radio with an option more appropriate with the user need, or choose the most selected option.
 
-When the radio is hovered due to user navigation.
+Only one radio can be selected. By clicking on a radio, it automatically de-selects the one previously selected.
 
-<preview path="src/pages/Components/Radio/previews/radio-hover-state" nude="true"></preview>
+## Do & dont's
 
-### Focus
-
-When the radio is in focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key.
-
-<preview path="src/pages/Components/Radio/previews/radio-focus-state" nude="true"></preview>
-
-### Disabled
-When the radio field is inactive or inaccessible. It is usually used when the input, for some reason, is forbidden or blocked to be edited.
-
-<preview path="src/pages/Components/Radio/previews/radio-disabled-state" nude="true"></preview>
-
-### Valid
-When the radio is checked
-
-<preview path="src/pages/Components/Radio/previews/radio-valid-state" nude="true"></preview>
-
-### Invalid
-
-When the radio should be checked
-
-<preview path="src/pages/Components/Radio/previews/radio-invalid-state" nude="true"></preview>
-
-##Do & dont's
+<hintitem>
+    A list of radio buttons includes always minimum two options.
+</hintitem>
 
 <hintitem dont="true">
     Never use the radio alone. You should always use it with a label.
+</hintitem>
+
+<hintitem dont="true">
+    Don't use a radio button to accept mentions. It's more appropriate to use a checkbox.
 </hintitem>
