@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-25)
+
+
+### Features
+
+* **component/links:** create and add links components ([#305](https://github.com/adeo/design-system--styleguide/issues/305)) ([cf1950c](https://github.com/adeo/design-system--styleguide/commit/cf1950c))
+* **pattern/checkbox:** add checkbox input component and documentation ([#290](https://github.com/adeo/design-system--styleguide/issues/290)) ([21dab01](https://github.com/adeo/design-system--styleguide/commit/21dab01))
+
+
+
+
+
 ## [1.0.1-alpha.15](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.14...v1.0.1-alpha.15) (2019-07-15)
 
 
