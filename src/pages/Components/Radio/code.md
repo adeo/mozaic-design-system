@@ -20,7 +20,7 @@ To create a classic radio you have one main class to apply `mc-radio`.
 <input type="radio" class="mc-radio" name="example" />
 ```
 
-<preview path="src/pages/Components/Radio/previews/intro"></preview>
+<preview path="src/pages/Components/Radio/previews/radio-default"></preview>
 
 ## Behaviors
 
@@ -28,8 +28,7 @@ To create a classic radio you have one main class to apply `mc-radio`.
 
 - `hover`
 - `focus`
+- `checked`
 - `disabled`
-- `is-valid`
-- `is-invalid`
 
 <preview path="src/pages/Components/Radio/previews/radio-state"></preview>

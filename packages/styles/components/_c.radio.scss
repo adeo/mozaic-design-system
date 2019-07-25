@@ -12,24 +12,6 @@
   transition: background-color ease 200ms, border ease 200ms;
   cursor: pointer;
 
-  &.is-valid {
-    border-color: $color-input-valid-border;
-
-    &:hover,
-    &.is-hover {
-      border-color: $color-input-valid-hover-border;
-    }
-  }
-
-  &.is-invalid {
-    border-color: $color-input-invalid-border;
-
-    &:hover,
-    &.is-hover {
-      border-color: $color-input-invalid-hover-border;
-    }
-  }
-
   &:hover,
   &.is-hover {
     border-color: $color-input-hover-border;
@@ -41,7 +23,7 @@
   }
 
   &:disabled {
-    border-color: $color-input-disabled-border;
+    border-color: $color-input-disabled-background;
     background: $color-input-disabled-background;
     cursor: default;
   }

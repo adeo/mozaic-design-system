@@ -7,7 +7,6 @@ order: 4
 
 The sketch file includes other form elements. Here is the section you'll find the radio.
 
-
 ### **👾 For developers :**
 
 This part is a specific section for developers, **for a better accessibility**. There are all states of Leroy Merlin's radio :
