@@ -1,0 +1,12 @@
+@import 'settings-tools/_all-settings';
+@import 'components/_c.links';
+
+body {
+  @include set-font-face('regular');
+  @include set-font-scale('05');
+}
+
+.example {
+  text-align: center;
+  margin: $mu100 auto;
+}
