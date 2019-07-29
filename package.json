@@ -65,6 +65,7 @@
     "babel-jest": "^24.1.0",
     "husky": "^1.3.1",
     "jest": "^23.0.0",
+    "lerna": "^3.16.4",
     "lint-staged": "^8.1.4",
     "plop": "^2.4.0",
     "prettier": "^1.14.2",
@@ -88,8 +89,8 @@
     "format": "prettier --write '**/*.js'",
     "test": "jest",
     "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
-    "release": "lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --github-release prerelease",
-    "npm:publish": "lerna publish --from-package"
+    "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --github-release prerelease",
+    "npm:publish": "npx lerna publish --from-package"
   },
   "lint-staged": {
     "*.scss": [
