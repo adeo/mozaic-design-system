@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-29)
+
+
+### Features
+
+* **patterns/inputs:** add base64 postcss + state icon inputs ([#292](https://github.com/adeo/design-system--styleguide/issues/292)) ([cb5f30f](https://github.com/adeo/design-system--styleguide/commit/cb5f30f))
+
+
+
+
+
 ## [1.0.1-alpha.9](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.7...v1.0.1-alpha.9) (2019-06-18)
 
 ### Bug Fixes
