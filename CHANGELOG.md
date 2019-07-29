@@ -3,31 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-29)
-
-
-### Bug Fixes
-
-* **documentation:** wrong imports examples ([#291](https://github.com/adeo/design-system--styleguide/issues/291)) ([954aad9](https://github.com/adeo/design-system--styleguide/commit/954aad9))
-* **pattern/inputs:** fix inputs size and alignment ([#300](https://github.com/adeo/design-system--styleguide/issues/300)) ([20fa277](https://github.com/adeo/design-system--styleguide/commit/20fa277))
-* **styleguide/mixpanel:** change trackID ([#286](https://github.com/adeo/design-system--styleguide/issues/286)) ([84b8369](https://github.com/adeo/design-system--styleguide/commit/84b8369))
-* **tokens/font-scales:** correct wrong values ([#298](https://github.com/adeo/design-system--styleguide/issues/298)) ([bf25de6](https://github.com/adeo/design-system--styleguide/commit/bf25de6))
-
-
-### Features
-
-* **buttons/icons:** add button style with icons ([#279](https://github.com/adeo/design-system--styleguide/issues/279)) ([2fc349a](https://github.com/adeo/design-system--styleguide/commit/2fc349a))
-* **component/links:** create and add links components ([#305](https://github.com/adeo/design-system--styleguide/issues/305)) ([cf1950c](https://github.com/adeo/design-system--styleguide/commit/cf1950c))
-* **pattern/checkbox:** add checkbox input component and documentation ([#290](https://github.com/adeo/design-system--styleguide/issues/290)) ([21dab01](https://github.com/adeo/design-system--styleguide/commit/21dab01))
-* **pattern/inputs:** add left icon support ([#294](https://github.com/adeo/design-system--styleguide/issues/294)) ([2750e6f](https://github.com/adeo/design-system--styleguide/commit/2750e6f))
-* **pattern/radio:** add input radio pattern ([#299](https://github.com/adeo/design-system--styleguide/issues/299)) ([b2c7cf2](https://github.com/adeo/design-system--styleguide/commit/b2c7cf2))
-* **patterns/inputs:** add base64 postcss + state icon inputs ([#292](https://github.com/adeo/design-system--styleguide/issues/292)) ([cb5f30f](https://github.com/adeo/design-system--styleguide/commit/cb5f30f))
-* **styleguide/generator:** install plop to generate new patterns ([#287](https://github.com/adeo/design-system--styleguide/issues/287)) ([39004a4](https://github.com/adeo/design-system--styleguide/commit/39004a4))
-
-
-
-
-
 ## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-25)
 
 
