@@ -1,4 +1,4 @@
-# Multi BU Design system
+# MOZAIC Design system
 
 This repo contain the code and content to create, manage and deploy the Mozaic design system styleguide.
 the styleguide is based on gatsby, a static site generator based on react and graphql.
