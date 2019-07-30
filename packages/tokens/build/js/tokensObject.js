@@ -2899,9 +2899,9 @@ module.exports = {
       },
       "disabled": {
         "border": {
-          "value": "#a19ba2",
+          "value": "#eeeef0",
           "original": {
-            "value": "{color.grey.400.value}"
+            "value": "{color.grey.100.value}"
           },
           "name": "ColorInputDisabledBorder",
           "attributes": {

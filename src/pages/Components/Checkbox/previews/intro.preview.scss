@@ -2,13 +2,23 @@
 @import 'components/_c.checkbox';
 
 .example {
+  @include set-font-face('regular');
+
   margin: $mu200 auto;
   padding: 0 $mu200;
-  width: 40vw;
+  width: fit-content;
 
-  &__list-item {
+  &__item {
+    @include set-flexy;
+
     list-style-type: none;
     margin: $mu100 0;
     text-align: center;
+  }
+
+  &__label {
+    padding-left: $mu100;
+    margin-left: $mu100;
+    border-left: solid 1px $color-grey-200;
   }
 }

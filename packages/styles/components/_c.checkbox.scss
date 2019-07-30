@@ -12,15 +12,6 @@
   transition: background-color ease 200ms, border ease 200ms;
   cursor: pointer;
 
-  &.is-valid {
-    border-color: $color-input-valid-border;
-
-    &:hover,
-    &.is-hover {
-      border-color: $color-input-valid-hover-border;
-    }
-  }
-
   &.is-invalid {
     border-color: $color-input-invalid-border;
 
@@ -54,8 +45,7 @@
         inline-icons(
           'checkmark-16',
           $color-input-checked-icon
-        )
-      );
+        ));
     background-position: center center;
     background-size: $mu100;
 

@@ -20,16 +20,12 @@ To create a classic checkbox you have one main class to apply `mc-checkbox`.
 <input type="checkbox" class="mc-checkbox" name="example" />
 ```
 
-<preview path="src/pages/Components/Checkbox/previews/intro"></preview>
-
-## Behaviors
-
 ### Standard input states :
 
-- `hover`
-- `focus`
-- `disabled`
-- `is-valid`
-- `is-invalid`
+- `:hover`
+- `:focus`
+- `:checked`
+- `:disabled`
+- `.is-invalid`
 
-<preview path="src/pages/Components/Checkbox/previews/checkbox-state"></preview>
+<preview path="src/pages/Components/Checkbox/previews/intro"></preview>

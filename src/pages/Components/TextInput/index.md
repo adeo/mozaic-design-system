@@ -7,39 +7,7 @@ order: 2
 
 > Inputs are used to **create input fields with text on a single line**. Their states depends on the user interaction or the context.
 
-<preview nude="true" path="src/pages/Components/TextInput/previews/input-preview"></preview>
-
-## Standard input states :
-
-### Hover
-
-When the input is hovered due to user navigation.
-
-<preview nude="true" path="src/pages/Components/TextInput/previews/input-hover-state"></preview>
-
-### Focus
-
-When the input is in focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key.
-
-<preview nude="true" path="src/pages/Components/TextInput/previews/input-focus-state"></preview>
-
-### Disabled
-
-When the input field is inactive or inaccessible. It is usually used when the input, for some reason, is forbidden or blocked to be edited.
-
-<preview nude="true" path="src/pages/Components/TextInput/previews/input-disabled-state"></preview>
-
-### Valid
-
-When the entry is correct against the criteria determined upstream.
-
-<preview nude="true" path="src/pages/Components/TextInput/previews/input-valid-state"></preview>
-
-### Invalid
-
-When the entry is invalid against the criteria determined upstream.
-
-<preview nude="true" path="src/pages/Components/TextInput/previews/input-invalid-state"></preview>
+<preview nude="true" path="src/pages/Components/TextInput/previews/input-state"></preview>
 
 ## Input with icon :
 
@@ -49,13 +17,14 @@ Use a left icon to inform about a specific information type or formatting you ex
 
 ## Do's and don'ts
 
-<hintitem dont=true>
-when <strong>disabled</strong>, an input field can never display any other state styles.
+<hintitem>
+    Input text must have an explicit label.
 </hintitem>
 
-<preview nude="true" path="src/pages/Components/TextInput/previews/input-default-disabled"></preview>
+<hintitem>
+    Use Input text for monoline text. For multiple lines, use a textarea instead.
+</hintitem>
 
-## Accessibility
-
-- **Input text must have an explicit label.**
-- **Always use a label associated with an input <small>remember that a placeholder is not a replacement for a label !**</small>
+<hintitem>
+    Always use a label associated with an input, even using placeholders
+</hintitem>
