@@ -1,5 +1,6 @@
 @import 'settings-tools/_all-settings';
+@import 'components/_c.textarea';
 
 .example {
-  color: blue;
+  padding: $mu200;
 }

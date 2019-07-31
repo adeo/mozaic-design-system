@@ -7,15 +7,21 @@ order: 2
 
 ```css
 @import 'settings-tools/_all-settings';
-@import '...';
+@import 'components/_c.textarea';
 ```
 
 ## Basic usage
 
-Apply the classes...
+Apply the classes `mc-textarea` on a standard `textarea` html tag :
 
 ```html
-<div class="class">Label</div>
+<textarea
+  class="mc-textarea"
+  name="foo"
+  id="foo"
+  rows="4"
+  placeholder="placeholder"
+></textarea>
 ```
 
 <preview path="src/pages/Components/TextArea/previews/TextArea"></preview>
@@ -28,17 +34,13 @@ Apply the classes...
 - `.is-valid`
 - `.is-invalid`
 
-## Extension and customization
-
-how to use the mixins and function to customize
-
 ## accessibility and semantic
 
 <hintitem>
   Always use textarea html tag for multi-line text
 </hintitem>
 <hintitem>
-  Prefer the rows attribute to set the textarea height than using CSS
+  Use the rows attribute to set the textarea height
 </hintitem>
 <hintitem>
   Provide minlength and/or maxlength attributes if a text lenght is required from the user
