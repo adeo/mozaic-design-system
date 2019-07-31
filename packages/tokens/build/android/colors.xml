@@ -149,7 +149,7 @@
   <color name="color_font_lightest">#ffffffff</color>
   <color name="color_input_text">#ff222020</color>
   <color name="color_input_border">#ff6f676c</color>
-  <color name="color_input_placeholder">#ffa19ba2</color>
+  <color name="color_input_placeholder">#ff887f87</color>
   <color name="color_input_background">#ffffffff</color>
   <color name="color_input_disabled_border">#ffeeeef0</color>
   <color name="color_input_disabled_background">#ffeeeef0</color>

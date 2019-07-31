@@ -2864,9 +2864,9 @@ module.exports = {
         ]
       },
       "placeholder": {
-        "value": "#a19ba2",
+        "value": "#887f87",
         "original": {
-          "value": "{color.grey.400.value}"
+          "value": "{color.grey.500.value}"
         },
         "name": "ColorInputPlaceholder",
         "attributes": {
