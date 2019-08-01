@@ -39,11 +39,11 @@ To create an input you have one main class to apply `mc-text-input`.
 
 ### Standard input states :
 
-- `hover`
-- `focus`
-- `disabled`
-- `is-valid`
-- `is-invalid`
+- `:hover`
+- `:focus`
+- `:disabled`
+- `.is-valid`
+- `.is-invalid`
 
 <preview path="src/pages/Components/TextInput/previews/input-state"></preview>
 
