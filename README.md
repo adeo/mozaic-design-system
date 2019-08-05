@@ -8,22 +8,22 @@ building a styleguide using a static site generator instead of reliyng on a data
 
 We tryed to focus on developper experience, meaning that working with it should be as simple as possible.
 
-Please considere that this repo is in early stage of development. You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/design-system--styleguide/issues)
+Please considere that this repo is in early stage of development. You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
 #### Please read the wiki before submitting anything :
 
-- [Project roadmap](https://github.com/adeo/design-system--styleguide/wiki)
-- [glossary](https://github.com/adeo/design-system--styleguide/wiki/Glossary)
+- [Project roadmap](https://github.com/adeo/mozaic-design-system/wiki)
+- [glossary](https://github.com/adeo/mozaic-design-system/wiki/Glossary)
 - design system workflow :
-  - [Things to keep in mind for any contribution](https://github.com/adeo/design-system--styleguide/wiki/Things-to-keep-in-mind-for-any-contribution)
-  - [Pattern submission workflow](https://github.com/adeo/design-system--styleguide/wiki/New-pattern-submission-workflow)
-  - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
+  - [Things to keep in mind for any contribution](https://github.com/adeo/mozaic-design-system/wiki/Things-to-keep-in-mind-for-any-contribution)
+  - [Pattern submission workflow](https://github.com/adeo/mozaic-design-system/wiki/New-pattern-submission-workflow)
+  - [Pattern fix and extension workflow](https://github.com/adeo/mozaic-design-system/wiki/Pattern-fix-or-extension-workflow)
 - how to create pages and content in the pattern library :
-  - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
-  - [Create and display a pattern](https://github.com/adeo/design-system--styleguide/wiki/Create-and-display-patterns)
-  - [Other in-page components](https://github.com/adeo/design-system--styleguide/wiki/Other-in-page-components)
+  - [Page creation and edition](https://github.com/adeo/mozaic-design-system/wiki/pages-creation-and-edition)
+  - [Create and display a pattern](https://github.com/adeo/mozaic-design-system/wiki/Create-and-display-patterns)
+  - [Other in-page components](https://github.com/adeo/mozaic-design-system/wiki/Other-in-page-components)
 
-#### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md)
+#### Please read the contributing before contributing: [contributing](https://github.com/adeo/mozaic-design-system/blob/master/CONTRIBUTING.md)
 
 ### Requirements :
 
@@ -46,17 +46,17 @@ The project Use a monorepo architecture using [lerna](https://github.com/lerna/l
 Lerna help us to manage the distribution and the versionning of multiple packages into the same repository.
 It also create symlink between the individual packages nodes_modules so they can be used in one another as npm dependencies.
 
-When releasing the design system, lerna will automaticaly generate changelogs for the global/parent repo, as well as for the individual packages and select a version number based on the commit syntax. It's why it is very important that you follow the [contributing guidelines](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md).
+When releasing the design system, lerna will automaticaly generate changelogs for the global/parent repo, as well as for the individual packages and select a version number based on the commit syntax. It's why it is very important that you follow the [contributing guidelines](https://github.com/adeo/mozaic-design-system/blob/master/CONTRIBUTING.md).
 
 please [read the docs](https://github.com/lerna/lerna/) to learn more about it.
 
 ### Clone the repo and start the development environement
 
 clone the repo :  
-`git clone git@github.com:adeo/design-system--styleguide.git`
+`git clone git@github.com:adeo/mozaic-design-system.git`
 
 move to the repo :  
-`cd design-system--styleguide`
+`cd mozaic-design-system`
 
 install dependencies and create symlink between packages :  
 `yarn lerna`
@@ -86,13 +86,13 @@ stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuf
 
 ## CI/CD
 
-If you want more explanation go to the related [wiki page](https://github.com/adeo/design-system--styleguide/wiki/CI-CD).
+If you want more explanation go to the related [wiki page](https://github.com/adeo/mozaic-design-system/wiki/CI-CD).
 
 ### Deploy
 
 Each branch is deployed when creating a Pull Request. A `view deployment` button is displayed into the Pull Request's timeline at the bottom.
 
-There are two deployment environments that can be found [here](https://github.com/adeo/design-system--styleguide/deployments):
+There are two deployment environments that can be found [here](https://github.com/adeo/mozaic-design-system/deployments):
 
 - staging, allows the deployment of all branches except master
 - production, allows the deployment of master
