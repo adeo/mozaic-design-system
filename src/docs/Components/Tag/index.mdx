@@ -1,0 +1,72 @@
+---
+title: 'Tags'
+order: 6
+---
+
+> Tags are used to categorize, show filters or make selections. They display product properties.
+
+Please check [flags](/Components/Flags/) for other use cases.
+
+<Preview nude path="Tag" />
+
+## Four Tags types for different usages
+
+### Text tags
+
+Text tags are used to display product or service properties with no related page or category, they are not interactive elements.
+
+<Preview nude path="TagText" />
+
+### Link tags
+
+Link tags are a variation of the text tags, they have the same appearance but they are **used as a link**. For example to redirect user to a category page.
+
+<Preview nude path="TagLink" />
+
+### Selectable tags
+
+Selectable tags are used to select (or deselect) values from a proposal of multiple keywords. They are a good alternative to radio buttons, checkboxes or toggle buttons when you need to select values **outside a form**.
+
+<Preview nude path="TagSelectable" />
+
+### Removable tags
+
+Removable tags are indicators for the users, they are the result of the previously selected values and can be removed by taping.
+
+<Preview nude path="TagRemovable" />
+
+## There are two sizes for tags to create hierarchy and for a better adaptability
+
+| Size   | Height value  |
+| ------ | ------------- |
+| Small  | 1.5 mu (24px) |
+| Medium | 2 mu (32px)   |
+
+Small tags should only be used on desktop.
+
+## Spacing in tags list
+
+Tags are mainly used in list. The spacings between each of them must be 1 mu (16px), horizontally and vertically.
+
+<Preview nude path="TagList" />
+
+## Do's and Don'ts
+
+<HintItem>Small tags should only be used on desktop.</HintItem>
+
+<HintItem>
+  Link and removable tags should always be used in tags lists (witch may contain
+  only one item depending on the user interactions).
+</HintItem>
+
+<HintItem>
+  Always use one type of tag in a tag list. Each Tag type corresponds to a
+  specific use case.
+</HintItem>
+
+<HintItem dont>Never use a selectable tag alone.</HintItem>
+
+<HintItem dont>
+  Never use links tags as action buttons. They should only point to a related
+  category of content.
+</HintItem>

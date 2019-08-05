@@ -4571,6 +4571,922 @@ module.exports = {
         ]
       }
     },
+    "tag": {
+      "text": {
+        "light": {
+          "background": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagTextLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "light",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "light",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#554f52",
+            "original": {
+              "value": "{color.grey.700.value}"
+            },
+            "name": "ColorTagTextLightBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "light",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "light",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#554f52",
+            "original": {
+              "value": "{color.grey.700.value}"
+            },
+            "name": "ColorTagTextLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "light",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "light",
+              "text"
+            ]
+          }
+        },
+        "dark": {
+          "background": {
+            "value": "#000000",
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTagTextDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "dark",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "dark",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagTextDarkBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "dark",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "dark",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagTextDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "dark",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "dark",
+              "text"
+            ]
+          }
+        }
+      },
+      "link": {
+        "light": {
+          "background": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagLinkLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "light",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "light",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#554f52",
+            "original": {
+              "value": "{color.grey.700.value}"
+            },
+            "name": "ColorTagLinkLightBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "light",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "light",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#554f52",
+            "original": {
+              "value": "{color.grey.700.value}"
+            },
+            "name": "ColorTagLinkLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "light",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "light",
+              "text"
+            ]
+          },
+          "hover": {
+            "background": {
+              "value": "#eeeef0",
+              "original": {
+                "value": "{color.grey.100.value}"
+              },
+              "name": "ColorTagLinkLightHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "light",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "light",
+                "hover",
+                "background"
+              ]
+            }
+          },
+          "active": {
+            "background": {
+              "value": "#d3d2d6",
+              "original": {
+                "value": "{color.grey.200.value}"
+              },
+              "name": "ColorTagLinkLightActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "light",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "light",
+                "active",
+                "background"
+              ]
+            }
+          }
+        },
+        "dark": {
+          "background": {
+            "value": "#000000",
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTagLinkDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "dark",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "dark",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagLinkDarkBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "dark",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "dark",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagLinkDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "dark",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "dark",
+              "text"
+            ]
+          },
+          "hover": {
+            "background": {
+              "value": "#3c3738",
+              "original": {
+                "value": "{color.grey.800.value}"
+              },
+              "name": "ColorTagLinkDarkHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "dark",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "dark",
+                "hover",
+                "background"
+              ]
+            }
+          },
+          "active": {
+            "background": {
+              "value": "#554f52",
+              "original": {
+                "value": "{color.grey.700.value}"
+              },
+              "name": "ColorTagLinkDarkActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "dark",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "dark",
+                "active",
+                "background"
+              ]
+            }
+          }
+        }
+      },
+      "selectable": {
+        "light": {
+          "background": {
+            "value": "#d3d2d6",
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorTagSelectableLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "light",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "light",
+              "background"
+            ]
+          },
+          "text": {
+            "value": "#222020",
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorTagSelectableLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "light",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "light",
+              "text"
+            ]
+          },
+          "hover": {
+            "background": {
+              "value": "#add585",
+              "original": {
+                "value": "{color.primary-01.300.value}"
+              },
+              "name": "ColorTagSelectableLightHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "hover",
+                "background"
+              ]
+            }
+          },
+          "active": {
+            "background": {
+              "value": "#41a017",
+              "original": {
+                "value": "{color.primary-01.600.value}"
+              },
+              "name": "ColorTagSelectableLightActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "active",
+                "background"
+              ]
+            }
+          },
+          "disabled": {
+            "background": {
+              "value": "#eeeef0",
+              "original": {
+                "value": "{color.grey.100.value}"
+              },
+              "name": "ColorTagSelectableLightDisabledBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "disabled"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "disabled",
+                "background"
+              ]
+            },
+            "text": {
+              "value": "#887f87",
+              "original": {
+                "value": "{color.grey.500.value}"
+              },
+              "name": "ColorTagSelectableLightDisabledText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "disabled"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "disabled",
+                "text"
+              ]
+            }
+          },
+          "selected": {
+            "background": {
+              "value": "#78be20",
+              "original": {
+                "value": "{color.primary-01.500.value}"
+              },
+              "name": "ColorTagSelectableLightSelectedBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "selected"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "selected",
+                "background"
+              ]
+            }
+          }
+        },
+        "dark": {
+          "background": {
+            "value": "#3c3738",
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorTagSelectableDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "dark",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "dark",
+              "background"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagSelectableDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "dark",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "dark",
+              "text"
+            ]
+          },
+          "hover": {
+            "background": {
+              "value": "#78be20",
+              "original": {
+                "value": "{color.primary-01.500.value}"
+              },
+              "name": "ColorTagSelectableDarkHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "hover",
+                "background"
+              ]
+            }
+          },
+          "active": {
+            "background": {
+              "value": "#0a601b",
+              "original": {
+                "value": "{color.primary-01.800.value}"
+              },
+              "name": "ColorTagSelectableDarkActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "active",
+                "background"
+              ]
+            }
+          },
+          "selected": {
+            "background": {
+              "value": "#158110",
+              "original": {
+                "value": "{color.primary-01.700.value}"
+              },
+              "name": "ColorTagSelectableDarkSelectedBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "selected"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "selected",
+                "background"
+              ]
+            }
+          },
+          "disabled": {
+            "background": {
+              "value": "#554f52",
+              "original": {
+                "value": "{color.grey.700.value}"
+              },
+              "name": "ColorTagSelectableDarkDisabledBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "disabled"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "disabled",
+                "background"
+              ]
+            },
+            "text": {
+              "value": "#887f87",
+              "original": {
+                "value": "{color.grey.500.value}"
+              },
+              "name": "ColorTagSelectableDarkDisabledText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "disabled"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "disabled",
+                "text"
+              ]
+            }
+          }
+        }
+      },
+      "removable": {
+        "light": {
+          "background": {
+            "value": "#d3d2d6",
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorTagRemovableLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "light",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "light",
+              "background"
+            ]
+          },
+          "text": {
+            "value": "#222020",
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorTagRemovableLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "light",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "light",
+              "text"
+            ]
+          },
+          "icon": {
+            "value": "#3c3738",
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorTagRemovableLightIcon",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "light",
+              "state": "icon"
+            },
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "light",
+              "icon"
+            ]
+          },
+          "hover": {
+            "background": {
+              "value": "#bab6bc",
+              "original": {
+                "value": "{color.grey.300.value}"
+              },
+              "name": "ColorTagRemovableLightHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "light",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "light",
+                "hover",
+                "background"
+              ]
+            }
+          },
+          "active": {
+            "background": {
+              "value": "#a19ba2",
+              "original": {
+                "value": "{color.grey.400.value}"
+              },
+              "name": "ColorTagRemovableLightActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "light",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "light",
+                "active",
+                "background"
+              ]
+            }
+          }
+        },
+        "dark": {
+          "background": {
+            "value": "#3c3738",
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorTagRemovableDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "dark",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "dark",
+              "background"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagRemovableDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "dark",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "dark",
+              "text"
+            ]
+          },
+          "icon": {
+            "value": "#d3d2d6",
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorTagRemovableDarkIcon",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "dark",
+              "state": "icon"
+            },
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "dark",
+              "icon"
+            ]
+          },
+          "hover": {
+            "background": {
+              "value": "#554f52",
+              "original": {
+                "value": "{color.grey.700.value}"
+              },
+              "name": "ColorTagRemovableDarkHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "dark",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "dark",
+                "hover",
+                "background"
+              ]
+            }
+          },
+          "active": {
+            "background": {
+              "value": "#6f676c",
+              "original": {
+                "value": "{color.grey.600.value}"
+              },
+              "name": "ColorTagRemovableDarkActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "dark",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "dark",
+                "active",
+                "background"
+              ]
+            }
+          }
+        }
+      }
+    },
     "toggle": {
       "off": {
         "background": {

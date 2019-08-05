@@ -237,6 +237,46 @@ $color-star-empty: #d3d2d6 !default;
 $color-star-focus: #25a8d0 !default;
 $color-star-full: #fc961e !default;
 $color-star-hover: #ffc17d !default;
+$color-tag-text-light-background: #ffffff !default;
+$color-tag-text-light-border: #554f52 !default;
+$color-tag-text-light-text: #554f52 !default;
+$color-tag-text-dark-background: #000000 !default;
+$color-tag-text-dark-border: #ffffff !default;
+$color-tag-text-dark-text: #ffffff !default;
+$color-tag-link-light-background: #ffffff !default;
+$color-tag-link-light-border: #554f52 !default;
+$color-tag-link-light-text: #554f52 !default;
+$color-tag-link-light-hover-background: #eeeef0 !default;
+$color-tag-link-light-active-background: #d3d2d6 !default;
+$color-tag-link-dark-background: #000000 !default;
+$color-tag-link-dark-border: #ffffff !default;
+$color-tag-link-dark-text: #ffffff !default;
+$color-tag-link-dark-hover-background: #3c3738 !default;
+$color-tag-link-dark-active-background: #554f52 !default;
+$color-tag-selectable-light-background: #d3d2d6 !default;
+$color-tag-selectable-light-text: #222020 !default;
+$color-tag-selectable-light-hover-background: #add585 !default;
+$color-tag-selectable-light-active-background: #41a017 !default;
+$color-tag-selectable-light-disabled-background: #eeeef0 !default;
+$color-tag-selectable-light-disabled-text: #887f87 !default;
+$color-tag-selectable-light-selected-background: #78be20 !default;
+$color-tag-selectable-dark-background: #3c3738 !default;
+$color-tag-selectable-dark-text: #ffffff !default;
+$color-tag-selectable-dark-hover-background: #78be20 !default;
+$color-tag-selectable-dark-active-background: #0a601b !default;
+$color-tag-selectable-dark-selected-background: #158110 !default;
+$color-tag-selectable-dark-disabled-background: #554f52 !default;
+$color-tag-selectable-dark-disabled-text: #887f87 !default;
+$color-tag-removable-light-background: #d3d2d6 !default;
+$color-tag-removable-light-text: #222020 !default;
+$color-tag-removable-light-icon: #3c3738 !default;
+$color-tag-removable-light-hover-background: #bab6bc !default;
+$color-tag-removable-light-active-background: #a19ba2 !default;
+$color-tag-removable-dark-background: #3c3738 !default;
+$color-tag-removable-dark-text: #ffffff !default;
+$color-tag-removable-dark-icon: #d3d2d6 !default;
+$color-tag-removable-dark-hover-background: #554f52 !default;
+$color-tag-removable-dark-active-background: #6f676c !default;
 $color-toggle-off-background: #887f87 !default;
 $color-toggle-off-circle: #ffffff !default;
 $color-toggle-on-background: #78be20 !default;
@@ -750,6 +790,104 @@ $tokens: (
       'focus': $color-star-focus,
       'full': $color-star-full,
       'hover': $color-star-hover
+    ),
+    'tag': (
+      'text': (
+        'light': (
+          'background': $color-tag-text-light-background,
+          'border': $color-tag-text-light-border,
+          'text': $color-tag-text-light-text
+        ),
+        'dark': (
+          'background': $color-tag-text-dark-background,
+          'border': $color-tag-text-dark-border,
+          'text': $color-tag-text-dark-text
+        )
+      ),
+      'link': (
+        'light': (
+          'background': $color-tag-link-light-background,
+          'border': $color-tag-link-light-border,
+          'text': $color-tag-link-light-text,
+          'hover': (
+            'background': $color-tag-link-light-hover-background
+          ),
+          'active': (
+            'background': $color-tag-link-light-active-background
+          )
+        ),
+        'dark': (
+          'background': $color-tag-link-dark-background,
+          'border': $color-tag-link-dark-border,
+          'text': $color-tag-link-dark-text,
+          'hover': (
+            'background': $color-tag-link-dark-hover-background
+          ),
+          'active': (
+            'background': $color-tag-link-dark-active-background
+          )
+        )
+      ),
+      'selectable': (
+        'light': (
+          'background': $color-tag-selectable-light-background,
+          'text': $color-tag-selectable-light-text,
+          'hover': (
+            'background': $color-tag-selectable-light-hover-background
+          ),
+          'active': (
+            'background': $color-tag-selectable-light-active-background
+          ),
+          'disabled': (
+            'background': $color-tag-selectable-light-disabled-background,
+            'text': $color-tag-selectable-light-disabled-text
+          ),
+          'selected': (
+            'background': $color-tag-selectable-light-selected-background
+          )
+        ),
+        'dark': (
+          'background': $color-tag-selectable-dark-background,
+          'text': $color-tag-selectable-dark-text,
+          'hover': (
+            'background': $color-tag-selectable-dark-hover-background
+          ),
+          'active': (
+            'background': $color-tag-selectable-dark-active-background
+          ),
+          'selected': (
+            'background': $color-tag-selectable-dark-selected-background
+          ),
+          'disabled': (
+            'background': $color-tag-selectable-dark-disabled-background,
+            'text': $color-tag-selectable-dark-disabled-text
+          )
+        )
+      ),
+      'removable': (
+        'light': (
+          'background': $color-tag-removable-light-background,
+          'text': $color-tag-removable-light-text,
+          'icon': $color-tag-removable-light-icon,
+          'hover': (
+            'background': $color-tag-removable-light-hover-background
+          ),
+          'active': (
+            'background': $color-tag-removable-light-active-background
+          )
+        ),
+        'dark': (
+          'background': $color-tag-removable-dark-background,
+          'text': $color-tag-removable-dark-text,
+          'icon': $color-tag-removable-dark-icon,
+          'hover': (
+            'background': $color-tag-removable-dark-hover-background
+          ),
+          'active': (
+            'background': $color-tag-removable-dark-active-background
+          )
+        )
+      )
     ),
     'toggle': (
       'off': (

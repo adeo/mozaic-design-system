@@ -1,0 +1,61 @@
+$tag-themes: get-token(color, tag);
+
+$tag-border: get-border('s');
+$tag-border-focus: get-border('m');
+$tag-sizes: (
+  's': (
+    'padding': $mu025 $mu100,
+    'font-size': '04',
+    'line-height': 's',
+    'border-radius': 0.75rem,
+  ),
+  'm': (
+    'padding': $mu050 $mu100,
+    'font-size': '04',
+    'line-height': 's',
+    'border-radius': 1rem,
+  ),
+);
+
+@mixin set-tag-size($size) {
+  $props: map-get($tag-sizes, $size);
+
+  @include set-font-scale(
+    map-get($props, 'font-size'),
+    map-get($props, 'line-height')
+  );
+
+  border-radius: map-get($props, 'border-radius');
+  padding: map-get($props, 'padding');
+}
+
+@mixin set-tag-base-style($size) {
+  @include set-font-face('regular');
+  @include set-tag-size($size);
+
+  display: inline-flex;
+}
+
+@mixin set-tag-removable-icon($size) {
+  @if $size == 's' {
+    width: $mu150;
+    height: $mu150;
+    background-size: $mu100;
+  }
+
+  @if $size == 'm' {
+    width: $mu200;
+    height: $mu200;
+    background-size: $mu150;
+  }
+}
+
+@mixin set-tag-icon-B64($theme: 'light') {
+  @if $theme == 'light' {
+    background-image: url(inline-icons('tag-delete-24', $color-grey-900));
+  }
+
+  @if $theme == 'dark' {
+    background-image: url(inline-icons('tag-delete-24', $color-grey-200));
+  }
+}

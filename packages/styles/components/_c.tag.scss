@@ -1,0 +1,260 @@
+.mc-tag {
+  &-text {
+    @include set-tag-base-style('m');
+
+    background: $color-tag-text-light-background;
+    color: $color-tag-text-light-text;
+    box-shadow: inset 0 0 0 get-border('s') $color-tag-text-light-border;
+
+    &--s {
+      @include modify-from-screens($major-screens) {
+        @include set-tag-base-style('s');
+      }
+    }
+
+    &--dark {
+      background: $color-tag-text-dark-background;
+      color: $color-tag-text-dark-text;
+      box-shadow: inset 0 0 0 get-border('s') $color-tag-text-dark-border;
+    }
+
+    &__label {
+      transform: translateY(-0.075em);
+    }
+  }
+
+  &-link {
+    @include set-tag-base-style('m');
+
+    text-decoration: none;
+    outline: none;
+    background: $color-tag-link-light-background;
+    color: $color-tag-link-light-text;
+
+    @include set-focus-styles-before();
+
+    box-shadow: inset 0 0 0 get-border('s') $color-tag-link-light-border;
+
+    &:hover {
+      background: $color-tag-link-light-hover-background;
+    }
+
+    &:active {
+      background: $color-tag-link-light-active-background;
+    }
+
+    &:focus {
+      @include set-focus-styles-during();
+    }
+
+    &--s {
+      @include modify-from-screens($major-screens) {
+        @include set-tag-base-style('s');
+      }
+    }
+
+    &--dark {
+      background: $color-tag-link-dark-background;
+      color: $color-tag-link-dark-text;
+      box-shadow: inset 0 0 0 get-border('s') $color-tag-link-dark-border;
+
+      &:hover {
+        background: $color-tag-link-dark-hover-background;
+      }
+
+      &:active {
+        background: $color-tag-link-dark-active-background;
+      }
+    }
+
+    &__label {
+      transform: translateY(-0.075em);
+    }
+  }
+
+  &-selectable {
+    display: inline-block;
+    white-space: nowrap;
+
+    &__input {
+      @include set-hidden-input();
+    }
+
+    &__label {
+      transform: translateY(-0.075em);
+      user-select: none;
+    }
+
+    &__pill {
+      @include set-tag-base-style('m');
+
+      background: $color-tag-selectable-light-background;
+      color: $color-tag-selectable-light-text;
+
+      &:hover {
+        background: $color-tag-selectable-light-hover-background;
+      }
+
+      &:active {
+        background: $color-tag-selectable-light-active-background;
+      }
+
+      @include set-focus-styles-before();
+
+      cursor: pointer;
+
+      :checked + & {
+        background: $color-tag-selectable-light-selected-background;
+      }
+
+      :focus + & {
+        @include set-focus-styles-during();
+      }
+
+      :disabled + & {
+        cursor: default;
+        background: $color-tag-selectable-light-disabled-background;
+        color: $color-tag-selectable-light-disabled-text;
+      }
+    }
+
+    &--dark {
+      .mc-tag-selectable__pill {
+        background: $color-tag-selectable-dark-background;
+        color: $color-tag-selectable-dark-text;
+        cursor: pointer;
+
+        &:hover {
+          background: $color-tag-selectable-dark-hover-background;
+        }
+
+        &:active {
+          background: $color-tag-selectable-dark-active-background;
+        }
+      }
+
+      :checked + .mc-tag-selectable__pill {
+        background: $color-tag-selectable-dark-selected-background;
+      }
+
+      :disabled + .mc-tag-selectable__pill {
+        cursor: default;
+        background: $color-tag-selectable-dark-disabled-background;
+        color: $color-tag-selectable-dark-disabled-text;
+      }
+    }
+
+    &--s {
+      @include modify-from-screens($major-screens) {
+        .mc-tag-selectable__pill {
+          @include set-tag-base-style('s');
+        }
+      }
+    }
+
+    &--m {
+      @include modify-from-screens($major-screens) {
+        .mc-tag-selectable__pill {
+          @include set-tag-base-style('m');
+        }
+      }
+    }
+  }
+
+  &-removable {
+    @include set-tag-base-style('m');
+
+    padding: 0;
+    background-color: $color-tag-removable-light-background;
+    color: $color-tag-removable-light-text;
+
+    &--s {
+      @include modify-from-screens($major-screens) {
+        @include set-tag-base-style('s');
+
+        padding: 0;
+
+        .mc-tag-removable__label {
+          padding: $mu025 $mu025 $mu025 $mu100;
+        }
+
+        .mc-tag-removable__remove {
+          @include set-tag-removable-icon('s');
+          @include set-tag-icon-B64('s');
+        }
+      }
+    }
+
+    &--m {
+      @include modify-from-screens($major-screens) {
+        @include set-tag-base-style('m');
+
+        padding: 0;
+
+        .mc-tag-removable__label {
+          padding: $mu050 $mu025 $mu050 $mu100;
+        }
+
+        .mc-tag-removable__remove {
+          @include set-tag-removable-icon('m');
+          @include set-tag-icon-B64();
+        }
+      }
+    }
+
+    &--dark {
+      background-color: $color-tag-removable-dark-background;
+      color: $color-tag-removable-dark-text;
+    }
+
+    &__label {
+      padding: $mu050 $mu025 $mu050 $mu100;
+      transform: translateY(-0.075em);
+    }
+
+    &__remove {
+      @include unstyle-button();
+      @include set-tag-removable-icon('m');
+      @include set-tag-icon-B64();
+
+      background-color: $color-tag-removable-light-background;
+      margin: 0;
+      display: block;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      &:hover {
+        background-color: $color-tag-removable-light-hover-background;
+      }
+
+      @include set-common-focus();
+
+      &:active {
+        background-color: $color-tag-removable-light-active-background;
+      }
+
+      .mc-tag-removable--dark & {
+        @include set-tag-icon-B64('dark');
+
+        background-color: $color-tag-removable-dark-background;
+
+        &:hover {
+          background-color: $color-tag-removable-dark-hover-background;
+        }
+
+        &:active {
+          background-color: $color-tag-removable-dark-active-background;
+        }
+      }
+    }
+  }
+
+  &-list {
+    @include unstyle-list-inline();
+
+    &__item {
+      margin: 0 $mu100 $mu100 0;
+    }
+  }
+}
