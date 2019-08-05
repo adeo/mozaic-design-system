@@ -1,5 +1,5 @@
 ---
-title: 'Aspect ratios'
+title: 'Images aspect ratios'
 order: 10
 ---
 
@@ -8,15 +8,14 @@ order: 10
 
 ## Utility
 
-For designers, by using aspect ratio for images, and applying it on yours products, you will be able to create consistency between all the pictures.<br>
-For other roles, reference image formats and use them in our user interface designs allows :
+Aspect ratios bring consistent image sizes across product and viewports. Using reference image formats in our user interface designs allow :
 
 - Better anticipation of the image display. It is easier to predict which area of the image will be visible when cropping.
 - Time saving for developers. It is no longer necessary for them to use specific values for each image.
 
 ## Recommended ratios
 
-Here are the **6 recommended ratios** for building your components :
+Here are the **6 recommended ratios** to build your components :
 
 - 16:9
 - 3:2
@@ -34,5 +33,5 @@ Here are the **6 recommended ratios** for building your components :
 </hintitem>
 
 <hintitem dont="true">
-    Don't use referenced aspect ratios for very specific use cases such as wide images (hero) or images outside of parent container.
+    Don't use referenced aspect ratios for very specific use cases such as wide images (hero) or images outside the parent container.
 </hintitem>
