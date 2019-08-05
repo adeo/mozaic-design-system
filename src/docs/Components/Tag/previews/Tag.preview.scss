@@ -1,0 +1,17 @@
+@import 'settings-tools/_all-settings.scss';
+
+@include import-font-families();
+
+@import 'components/_c.tag.scss';
+
+.example {
+  padding: $mu200;
+
+  &__item {
+    padding: $mu100;
+
+    &--dark {
+      background-color: $color-grey-999;
+    }
+  }
+}
