@@ -1,4 +1,4 @@
 ---
 title: 'Suggest a new pattern'
-order: 8
+order: 10
 ---
