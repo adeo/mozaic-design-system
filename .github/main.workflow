@@ -23,9 +23,10 @@ action "npm build" {
 }
 
 action "npm wait" {
-  uses = "actions/gcloud/auth@master"
+  uses = "./ci/docker-wait"
+  args = "ci:wait $(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z)"
+  secrets = ["GCLOUD_AUTH"]
   needs = ["npm build"]
-  args = "npm run ci:wait $(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z)"
 }
 
 action "GCP auth" {
