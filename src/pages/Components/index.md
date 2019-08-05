@@ -1,6 +1,6 @@
 ---
 title: 'Components'
-order: 9
+order: 3
 ---
 
 Comming soon !!
