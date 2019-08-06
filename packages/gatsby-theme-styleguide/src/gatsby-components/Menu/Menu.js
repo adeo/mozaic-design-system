@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 import { MenuItem } from './MenuItem'
 import MenuHeader from './MenuHeader'
 import buildMenuModel from './BuildMenuModel'
-import DesignerKitLink from '../designerKitLink'
+import DesignerKitLink from '../DesignerKitLink'
 
 const MenuItemContainer = styled.div`
   display: flex;

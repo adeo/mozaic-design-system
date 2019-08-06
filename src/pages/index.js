@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import './index.scss'
 
-import DesignerKitLink from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/designerKitLink'
+import DesignerKitLink from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/DesignerKitLink'
 
 const Tile = ({
   icon,
