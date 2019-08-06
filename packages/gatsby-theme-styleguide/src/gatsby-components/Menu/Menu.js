@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 import { MenuItem } from './MenuItem'
 import MenuHeader from './MenuHeader'
 import buildMenuModel from './BuildMenuModel'
-import LstVersionLink from '../LstVersionLink'
+import DesignerKitLink from '../designerKitLink'
 
 const MenuItemContainer = styled.div`
   display: flex;
@@ -177,14 +177,14 @@ export default class Menu extends Component {
         <NavContainer>
           {this.buildMenu(this.state.menuArray, true)}
 
-          <LstVersionLink
+          <DesignerKitLink
             target="_blank"
             rel="noopener noreferrer"
             className="button__menu button button--secondary"
             title="Download the IU kit"
           >
             Download the design kit
-          </LstVersionLink>
+          </DesignerKitLink>
         </NavContainer>
       </Container>
     )

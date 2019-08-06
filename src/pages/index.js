@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import './index.scss'
 
-import LstVersionLink from '../../packages/gatsby-theme-styleguide/src/gatsby-components/LstVersionLink'
+import DesignerKitLink from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/designerKitLink'
 
 const Tile = ({
   icon,
@@ -141,14 +141,14 @@ const IndexPage = () => (
             Getting started
           </Link>
           {'  '}
-          <LstVersionLink
+          <DesignerKitLink
             target="_blank"
             rel="noopener noreferrer"
             className="button button--primary hero__button"
             title="Download the IU kit"
           >
             Download the design kit
-          </LstVersionLink>
+          </DesignerKitLink>
         </div>
       </header>
     </Slice>
@@ -221,14 +221,14 @@ const IndexPage = () => (
               session before using it.
             </p>
             <div className="tile__button">
-              <LstVersionLink
+              <DesignerKitLink
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button--neutral"
                 title="Download the IU kit"
               >
                 Download the design kit
-              </LstVersionLink>
+              </DesignerKitLink>
             </div>
           </Tile>
         </div>
