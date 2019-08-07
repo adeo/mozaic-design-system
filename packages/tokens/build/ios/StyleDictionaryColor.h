@@ -194,7 +194,13 @@ ColorLinkDangerBase,
 ColorLinkDangerVisited,
 ColorLinkDangerActive,
 ColorLinkDangerDisabled,
-ColorLinkDangerHover
+ColorLinkDangerHover,
+ColorToggleOffBackground,
+ColorToggleOffCircle,
+ColorToggleOnBackground,
+ColorToggleOnCircle,
+ColorToggleDisabledBackground,
+ColorToggleDisabledCircle
 };
 
 @interface StyleDictionaryColor : NSObject

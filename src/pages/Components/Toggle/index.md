@@ -19,8 +19,6 @@ order: 7
 - on disabled
 - off disabled
 
-<preview path="src/pages/Components/Toggle/previews/Toggle" nude="true"></preview>
-
 ## do's and don't
 
 when and how should I use and not use the pattern
