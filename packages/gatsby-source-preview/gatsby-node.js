@@ -1,11 +1,16 @@
 const dirTree = require('directory-tree')
-const path = require('path')
+// const path = require('path')
 
 const chokidar = require(`chokidar`)
 const fs = require(`fs`)
 const { Machine } = require(`xstate`)
 
 const cssCompiler = require('@mozaic-ds/css-dev-tools/css-pipeline.js')
+
+// create string for node id creation
+const nodeIdString = path => {
+  return `preview-${path}`
+}
 
 const createFSMachine = () =>
   Machine({
@@ -38,10 +43,21 @@ const createFSMachine = () =>
     },
   })
 
-exports.sourceNodes = (
-  { actions, createNodeId, createContentDigest, reporter, emitter },
-  configOptions
-) => {
+exports.sourceNodes = (tools, configOptions) => {
+  const {
+    actions,
+    createNodeId,
+    createContentDigest,
+    reporter,
+    emitter,
+    getNode,
+  } = tools
+  const { createNode, deleteNode } = actions
+  /* configOptions:
+    { previewsFiles: 'src/pages/** /*.preview.*',
+    rootPath: 'src/pages',
+    stylesPath: 'packages/styles/** /*.scss' }
+  */
   const fsMachine = createFSMachine()
   let currentState = fsMachine.initialState
 
@@ -60,18 +76,30 @@ exports.sourceNodes = (
   // Gatsby adds a configOption that's not needed for this plugin, delete it
   delete configOptions.plugins
 
-  const buildPreviews = () =>
+  const buildPreviews = changedFile =>
     new Promise((resolve, reject) => {
       console.log('-----------------------------')
-      console.log('--- building all previews ---')
+      console.log(`--- building ${changedFile || 'all previews'} ---`)
       console.log('-----------------------------')
 
-      const { createNode } = actions
-      const tree = dirTree(configOptions.rootPath)
+      let tree
+      if (changedFile) {
+        tree = { path: changedFile }
+      } else {
+        tree = dirTree(configOptions.rootPath)
+      }
 
       let previews = {}
 
       const processDirectoryTree = tree => {
+        /* tree:
+          { path:
+            'src/pages/Foundations/Typography/ScaleAndSizes/previews/font-scale.preview.html',
+            name: 'font-scale.preview.html',
+            size: 809,
+            extension: '.html',
+            type: 'file' }
+        */
         if (tree.path.includes('.preview.')) {
           const naming = tree.path.split('.')
           const content = fs.readFileSync(tree.path, 'utf8')
@@ -114,7 +142,8 @@ exports.sourceNodes = (
 
       Object.keys(previews).map(key => {
         const codes = previews[key]
-        const nodeId = createNodeId(`preview-${key}`)
+        // const nodeId = createNodeId(`preview-${key}`)
+        const nodeId = createNodeId(nodeIdString(key))
 
         if (codes.scss && codes.scss !== '') {
           cssCompiler(codes.scss, key, key.replace('.scss', '.css'))
@@ -139,6 +168,7 @@ exports.sourceNodes = (
               )
             )
         } else {
+          reporter.success(`preview builded: ${key}`)
           resolve(
             createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/')))
           )
@@ -151,9 +181,9 @@ exports.sourceNodes = (
   // After 'ready', we handle the 'add' event without putting it into a queue.
   let pathQueue = []
 
-  const flushPathQueue = () => {
-    buildPreviews()
-  }
+  // const flushPathQueue = () => {
+  //   buildPreviews()
+  // }
 
   watcher.on(`add`, path => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
@@ -166,13 +196,13 @@ exports.sourceNodes = (
       }
     }
   })
-
   watcher.on(`change`, path => {
+    // path: src/pages/Components/Buttons/previews/basic.preview.html
     if (
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
     ) {
-      buildPreviews().catch(err => reporter.error(err))
+      buildPreviews(path).catch(err => reporter.error(err))
       reporter.info(`changed PREVIEW file at ${path}`)
     }
   })
@@ -184,7 +214,8 @@ exports.sourceNodes = (
     ) {
       reporter.info(`PREVIEW file deleted at ${path}`)
     }
-    const node = getNode(createNodeId(path))
+
+    const node = getNode(createNodeId(nodeIdString(path.split('.')[0])))
     // It's possible the file node was never created as sometimes tools will
     // write and then immediately delete temporary files to the file system.
     if (node) {
@@ -211,7 +242,9 @@ exports.sourceNodes = (
     ) {
       reporter.info(`PREVIEW directory deleted at ${path}`)
     }
+
     const node = getNode(createNodeId(path))
+
     if (node) {
       deleteNode({ node })
     }
