@@ -1,7 +1,11 @@
 @import 'settings-tools/_all-settings';
 @import 'components/_c.button';
 
+* {
+  box-sizing: border-box;
+}
+
 .example {
   text-align: center;
-  margin: $mu100 auto;
+  margin: $mu200;
 }

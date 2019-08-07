@@ -189,6 +189,12 @@ $color-link-danger-visited: #8b2226 !default;
 $color-link-danger-active: #8b2226 !default;
 $color-link-danger-disabled: #eeeef0 !default;
 $color-link-danger-hover: #8b2226 !default;
+$color-toggle-off-background: #887f87 !default;
+$color-toggle-off-circle: #ffffff !default;
+$color-toggle-on-background: #78be20 !default;
+$color-toggle-on-circle: #ffffff !default;
+$color-toggle-disabled-background: #eeeef0 !default;
+$color-toggle-disabled-circle: #bab6bc !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -608,6 +614,20 @@ $tokens: (
         'active': $color-link-danger-active,
         'disabled': $color-link-danger-disabled,
         'hover': $color-link-danger-hover
+      )
+    ),
+    'toggle': (
+      'off': (
+        'background': $color-toggle-off-background,
+        'circle': $color-toggle-off-circle
+      ),
+      'on': (
+        'background': $color-toggle-on-background,
+        'circle': $color-toggle-on-circle
+      ),
+      'disabled': (
+        'background': $color-toggle-disabled-background,
+        'circle': $color-toggle-disabled-circle
       )
     )
   ),

@@ -18,6 +18,8 @@ order: 7
 
 ## Do's and Don't
 
+More infos in [this medium article](https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8)
+
 <hintitem>
   Always use M sized toggle on touch devices
 </hintitem>
