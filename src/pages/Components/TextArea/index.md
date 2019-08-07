@@ -27,9 +27,3 @@ Text areas are used for content **with multiple sentence like** :
 <hintitem>
   Adapt the textarea width and height depending on the requested content.
 </hintitem>
-
-##
-
-###
-
-###

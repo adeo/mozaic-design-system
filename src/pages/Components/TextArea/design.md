@@ -9,11 +9,11 @@ The sketch file includes other form elements. Here is the section you'll find th
 
 ![sketch-menu](textarea--sketch-menu.png)
 
-### **👾 For developers :**
+### 👾 For developers :
 
 This part is a specific section for developers, **for a better accessibility**. There are all states of forms components.
 
-### **🛠 ToolKit :**
+### 🛠 ToolKit :
 
 The ToolKit section bring together the **dedicated symbols used for building the final symbols**, and you can find them in the symbol overrides.
 <br>
@@ -24,7 +24,7 @@ The ToolKit section bring together the **dedicated symbols used for building the
   </hintitem>
 </hint>
 
-### **TextArea :**
+### TextAreas :
 
 This is the section where you will find the ready to use symbols for your projects. You can find the different states of the text area.
 
@@ -34,4 +34,4 @@ This is the section where you will find the ready to use symbols for your projec
 - Filled
 - Valid
 - Error
-- Disable
+- Disabled
