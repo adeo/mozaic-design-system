@@ -12,6 +12,22 @@ const nodeIdString = path => {
   return `preview-${path}`
 }
 
+// creating a list of files related to a file being changed
+const getRelatedFiles = path => {
+  // path: src/pages/Components/Buttons/previews/basic.preview.html
+  if (path) {
+    const filetypes = ['html', 'css', 'scss', 'json', 'js']
+    const base = path.split('.preview.')[0]
+    const relatedFiles = filetypes.map(elem => {
+      return base + '.preview.' + elem
+    })
+
+    return relatedFiles
+  }
+
+  return false
+}
+
 const createFSMachine = () =>
   Machine({
     key: `emitFSEvents`,
@@ -82,13 +98,6 @@ exports.sourceNodes = (tools, configOptions) => {
       console.log(`--- building ${changedFile || 'all previews'} ---`)
       console.log('-----------------------------')
 
-      let tree
-      if (changedFile) {
-        tree = { path: changedFile }
-      } else {
-        tree = dirTree(configOptions.rootPath)
-      }
-
       let previews = {}
 
       const processDirectoryTree = tree => {
@@ -102,7 +111,12 @@ exports.sourceNodes = (tools, configOptions) => {
         */
         if (tree.path.includes('.preview.')) {
           const naming = tree.path.split('.')
-          const content = fs.readFileSync(tree.path, 'utf8')
+          let content
+          try {
+            content = fs.readFileSync(tree.path, 'utf8')
+          } catch (e) {
+            content = ''
+          }
 
           if (previews[naming[0]] === undefined) {
             previews[naming[0]] = {
@@ -121,7 +135,14 @@ exports.sourceNodes = (tools, configOptions) => {
         }
       }
 
-      processDirectoryTree(tree)
+      let tree
+      if (changedFile) {
+        // tree = { path: changedFile }
+        changedFile.forEach(elem => processDirectoryTree({ path: elem }))
+      } else {
+        tree = dirTree(configOptions.rootPath)
+        processDirectoryTree(tree)
+      }
 
       const buildNodeData = (id, codes, treePath) =>
         Object.assign(
@@ -202,7 +223,8 @@ exports.sourceNodes = (tools, configOptions) => {
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
     ) {
-      buildPreviews(path).catch(err => reporter.error(err))
+      const relatedFiles = getRelatedFiles(path)
+      buildPreviews(relatedFiles).catch(err => reporter.error(err))
       reporter.info(`changed PREVIEW file at ${path}`)
     }
   })
