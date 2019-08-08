@@ -1,5 +1,6 @@
 @import 'settings-tools/_all-settings';
+@import 'components/_c.select';
 
 .example {
-  color: blue;
+  margin: $mu100;
 }
