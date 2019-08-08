@@ -135,33 +135,43 @@
 .hero {
   color: $color-grey-000;
 
+  &__logo {
+    margin: 0 auto $mu250;
+    display: block;
+    width: $mu400;
+    height: $mu400;
+    fill: $color-grey-000;
+  }
+
   &__title {
-    font-size: $mu500;
-    line-height: $mu500;
-    letter-spacing: -0.086875rem;
+    font-size: $mu400;
+    line-height: $mu400;
+    letter-spacing: -0.01625em;
     text-align: center;
     margin-block-start: 0;
     margin-block-end: auto;
-    padding: 0 0 2.6075rem 0;
-
-    @include set-from-screen(m) {
-      font-size: $mu600;
-      line-height: $mu600;
-    }
+    padding: 0 0 $mu100 0;
   }
 
   &__description {
     @include set-font-scale('07', 'm');
 
     text-align: center;
-    padding: 0 0 $mu150 0;
+    padding: 0 0 $mu250 0;
   }
 
   &__button {
     text-align: center;
-    margin: 0 $mu050 $mu100;
+    margin: $mu050 auto;
     justify-content: center;
-    display: flex;
+    display: grid;
+    width: 100%;
+
+    @include set-from-screen(m) {
+      display: flex;
+      margin: 0 $mu050 $mu100;
+      width: auto;
+    }
   }
 }
 

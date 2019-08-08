@@ -127,7 +127,15 @@ const IndexPage = () => (
     </Slice>
     <Slice dark>
       <header className="section hero">
-        <h1 className="hero__title">Mozaic design system</h1>
+        <svg
+          className="hero__logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 200 199.97"
+        >
+          <path d="M190.47 0H.1v95.19H0V200h104.78v-.05H200V0zm0 9.53v85.62h-85.6V9.53zM23.91 50V33.34h9.53V35a16.76 16.76 0 0 1 19.05 3.37A16.68 16.68 0 0 1 81.06 50v21.44h-9.52V50a7.15 7.15 0 1 0-14.29 0v21.44h-9.53V50a7.14 7.14 0 1 0-14.28 0v21.44h-9.53zm71.28 140.4H9.53v-22.18h85.66zm0-47.29v15.59H9.53v-22.23h85.66zM9.53 127v-22.22h85.66V127zm180.91 48.71v14.69h-85.66v-23.69a23.74 23.74 0 0 0 29.93-.47 24.53 24.53 0 0 0 8.48-13.76 23.81 23.81 0 0 1 47.25 4.21zm0-46.62v4.25a33.29 33.29 0 0 0-49.82 2.5A31.36 31.36 0 0 0 134 150c-1.86 7.88-7.53 12.2-14.53 12.18A14.74 14.74 0 0 1 104.78 148v-43.22h85.66z" />
+          <path d="M172.36 19.05h-11l-38.5 66.68h11l38.5-66.68z" />
+        </svg>
+        <h1 className="hero__title">mozaic design system</h1>
         <p className="hero__description">
           A design system to reinforce team’s delivery time, improve quality of
           deliverables and thus help set up a coherent customer experience.
