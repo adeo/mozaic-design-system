@@ -1,0 +1,47 @@
+.mc-textarea {
+  $border-width: get-border('s');
+
+  @include reset-input;
+  @include set-font-scale('05', 'm');
+  @include set-border-radius('m');
+
+  display: block;
+  width: 100%;
+  position: relative;
+  color: $color-font-darker;
+  border: $border-width solid $color-input-border;
+  background: $color-input-background;
+  transition: background-color ease 200ms, border ease 200ms;
+  // remove border height and center baseline optically
+  padding:
+    calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
+    calc(#{$mu075} + 0.125em - #{$border-width});
+
+  &:hover,
+  &.is-hover {
+    border-color: $color-input-hover-border;
+  }
+
+  &.is-valid {
+    border-color: $color-input-valid-border;
+  }
+
+  &.is-invalid {
+    border-color: $color-input-invalid-border;
+  }
+
+  &:focus,
+  &.is-focus {
+    border-color: $color-input-focus-border;
+  }
+
+  &:disabled {
+    border-color: $color-input-disabled-background;
+    background: $color-input-disabled-background;
+    cursor: default;
+  }
+
+  &::placeholder {
+    color: $color-input-placeholder;
+  }
+}

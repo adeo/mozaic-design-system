@@ -3,7 +3,7 @@ title: 'Text area'
 order: 6
 ---
 
-> A text area is used to provide multi-line text input. They have the same state displays of text inputs.
+> A text area is used to fill multi-line text. They share appearence and states with [text inputs](/Components/TextInput/).
 
 <preview path="src/pages/Components/TextArea/previews/TextArea" nude="true"></preview>
 
@@ -25,5 +25,9 @@ Text areas are used for content **with multiple sentence like** :
 </hintitem>
 
 <hintitem>
-  Adapt the textarea width and height depending on the requested content.
+  A textarea height should allow at least 3 lines of text.
+</hintitem>
+
+<hintitem>
+  Adapt the textarea width and height depending on the requested content type and length.
 </hintitem>
