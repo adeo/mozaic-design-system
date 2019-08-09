@@ -141,6 +141,11 @@ $color-button-bordered-danger-disabled-background: #eeeef0 !default;
 $color-button-bordered-danger-disabled-font: #887f87 !default;
 $color-button-bordered-danger-active-background: #fab9bc !default;
 $color-button-bordered-danger-hover-background: #feedee !default;
+$color-fileuploader-font: #000000 !default;
+$color-fileuploader-files-list: #eeeef0 !default;
+$color-fileuploader-files-delete: #d3d2d6 !default;
+$color-fileuploader-valid: #78be20 !default;
+$color-fileuploader-alert: #fc961e !default;
 $color-font-primary-01: #78be20 !default;
 $color-font-primary-02: #007574 !default;
 $color-font-darkest: #000000 !default;
@@ -534,6 +539,15 @@ $tokens: (
           'background': $color-button-bordered-danger-hover-background
         )
       )
+    ),
+    'fileuploader': (
+      'font': $color-fileuploader-font,
+      'files': (
+        'list': $color-fileuploader-files-list,
+        'delete': $color-fileuploader-files-delete
+      ),
+      'valid': $color-fileuploader-valid,
+      'alert': $color-fileuploader-alert
     ),
     'font': (
       'primary-01': $color-font-primary-01,

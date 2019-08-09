@@ -3,4 +3,8 @@
 
 .example {
   margin: $mu150;
+
+  h2 {
+    @include set-font-face('regular');
+  }
 }
