@@ -1,63 +1,13 @@
 const dirTree = require('directory-tree')
 // const path = require('path')
+const fs = require('fs')
 
 const chokidar = require(`chokidar`)
-const fs = require(`fs`)
-const { Machine } = require(`xstate`)
-
 const cssCompiler = require('@mozaic-ds/css-dev-tools/css-pipeline.js')
 
-// create string for node id creation
-const nodeIdString = path => {
-  return `preview-${path}`
-}
-
-// creating a list of files related to a file being changed
-const getRelatedFiles = path => {
-  // path: src/pages/Components/Buttons/previews/basic.preview.html
-  if (path) {
-    const filetypes = ['html', 'css', 'scss', 'json', 'js']
-    const base = path.split('.preview.')[0]
-    const relatedFiles = filetypes.map(elem => {
-      return base + '.preview.' + elem
-    })
-
-    return relatedFiles
-  }
-
-  return false
-}
-
-const createFSMachine = () =>
-  Machine({
-    key: `emitFSEvents`,
-    parallel: true,
-    strict: true,
-    states: {
-      CHOKIDAR: {
-        initial: `CHOKIDAR_PREVIEW_NOT_READY`,
-        states: {
-          CHOKIDAR_PREVIEW_NOT_READY: {
-            on: {
-              CHOKIDAR_PREVIEW_READY: `CHOKIDAR_PREVIEW_WATCHING`,
-              BOOTSTRAP_FINISHED: `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`,
-            },
-          },
-          CHOKIDAR_PREVIEW_WATCHING: {
-            on: {
-              BOOTSTRAP_FINISHED: `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`,
-              CHOKIDAR_PREVIEW_READY: `CHOKIDAR_PREVIEW_WATCHING`,
-            },
-          },
-          CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED: {
-            on: {
-              CHOKIDAR_PREVIEW_READY: `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`,
-            },
-          },
-        },
-      },
-    },
-  })
+const createFSMachine = require('./create-fsmachine')
+const { nodeIdString, processDirectoryTree } = require('./functions')
+const nodeModel = require('./node-model')
 
 exports.sourceNodes = (tools, configOptions) => {
   const {
@@ -74,6 +24,9 @@ exports.sourceNodes = (tools, configOptions) => {
     rootPath: 'src/pages',
     stylesPath: 'packages/styles/** /*.scss' }
   */
+
+  const buildNodeData = nodeModel(createContentDigest)
+
   const fsMachine = createFSMachine()
   let currentState = fsMachine.initialState
 
@@ -92,119 +45,43 @@ exports.sourceNodes = (tools, configOptions) => {
   // Gatsby adds a configOption that's not needed for this plugin, delete it
   delete configOptions.plugins
 
-  const buildPreviews = changedFile =>
-    new Promise((resolve, reject) => {
-      console.log('-----------------------------')
-      console.log(`--- building ${changedFile || 'all previews'} ---`)
-      console.log('-----------------------------')
+  const buildPreviews = addedFile => {
+    console.log('-----------------------------')
+    console.log(`--- building ${addedFile || 'all previews'} ---`)
+    console.log('-----------------------------')
 
-      let previews = {}
+    let previews = {}
 
-      const processDirectoryTree = tree => {
-        /* tree:
-          { path:
-            'src/pages/Foundations/Typography/ScaleAndSizes/previews/font-scale.preview.html',
-            name: 'font-scale.preview.html',
-            size: 809,
-            extension: '.html',
-            type: 'file' }
-        */
-        if (tree.path.includes('.preview.')) {
-          const naming = tree.path.split('.')
-          let content
-          try {
-            content = fs.readFileSync(tree.path, 'utf8')
-          } catch (e) {
-            content = ''
-          }
+    const tree = addedFile
+      ? { path: addedFile }
+      : dirTree(configOptions.rootPath)
 
-          if (previews[naming[0]] === undefined) {
-            previews[naming[0]] = {
-              html: '',
-              css: '',
-              scss: '',
-              json: '',
-              js: '',
-            }
-          }
-          previews[naming[0]][naming[2]] = content
-        }
+    processDirectoryTree(tree, previews)
 
-        if (Array.isArray(tree.children)) {
-          tree.children.forEach(child => processDirectoryTree(child))
-        }
-      }
+    const previewsPromises = Object.keys(previews).map(key => {
+      const codes = previews[key]
+      const nodeId = createNodeId(nodeIdString(key))
+      const replacedKey = key.replace(/\\/g, '/')
 
-      let tree
-      if (changedFile) {
-        // tree = { path: changedFile }
-        changedFile.forEach(elem => processDirectoryTree({ path: elem }))
-      } else {
-        tree = dirTree(configOptions.rootPath)
-        processDirectoryTree(tree)
-      }
-
-      const buildNodeData = (id, codes, treePath) =>
-        Object.assign(
-          {},
-          {
-            id,
-            path: treePath,
-            codes: {
-              ...codes,
-            },
-            internal: {
-              type: `Preview`,
-              content: JSON.stringify(codes),
-              contentDigest: createContentDigest(codes),
-            },
-          }
-        )
-
-      Object.keys(previews).map(key => {
-        const codes = previews[key]
-        // const nodeId = createNodeId(`preview-${key}`)
-        const nodeId = createNodeId(nodeIdString(key))
-
-        if (codes.scss && codes.scss !== '') {
-          cssCompiler(codes.scss, key, key.replace('.scss', '.css'))
-            .then(res => {
-              reporter.success(`preview builded: ${key}`)
-              codes.css = res.css
-              resolve(
-                createNode(
-                  buildNodeData(nodeId, codes, key.replace(/\\/g, '/'))
-                )
-              )
-            })
-            .catch(error =>
-              resolve(
-                createNode(
-                  buildNodeData(
-                    nodeId,
-                    { html: error, css: '' },
-                    key.replace(/\\/g, '/')
-                  )
-                )
-              )
+      if (codes.scss) {
+        return cssCompiler(codes.scss, key, key.replace('.scss', '.css'))
+          .then(res => {
+            reporter.success(`preview builded: ${key}`)
+            codes.css = res.css
+            createNode(buildNodeData(nodeId, codes, replacedKey))
+          })
+          .catch(error =>
+            createNode(
+              buildNodeData(nodeId, { html: error, css: '' }, replacedKey)
             )
-        } else {
-          reporter.success(`preview builded: ${key}`)
-          resolve(
-            createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/')))
           )
-        }
-      })
+      }
+      reporter.success(`preview builded: ${key}`)
+      return createNode(buildNodeData(nodeId, codes, replacedKey))
     })
 
-  // For every path that is reported before the 'ready' event, we throw them
-  // into a queue and then flush the queue when 'ready' event arrives.
-  // After 'ready', we handle the 'add' event without putting it into a queue.
-  let pathQueue = []
-
-  // const flushPathQueue = () => {
-  //   buildPreviews()
-  // }
+    return Promise.all(previewsPromises)
+  } // buildPreviews
 
   watcher.on(`add`, path => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
@@ -212,7 +89,7 @@ exports.sourceNodes = (tools, configOptions) => {
         currentState.value.CHOKIDAR ===
         `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
       ) {
-        buildPreviews().catch(err => reporter.error(err))
+        buildPreviews(path).catch(err => reporter.error(err))
         reporter.info(`added PREVIEW file at ${path}`)
       }
     }
@@ -223,9 +100,35 @@ exports.sourceNodes = (tools, configOptions) => {
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
     ) {
-      const relatedFiles = getRelatedFiles(path)
-      buildPreviews(relatedFiles).catch(err => reporter.error(err))
       reporter.info(`changed PREVIEW file at ${path}`)
+
+      path = path.replace('\\', '/')
+      const pathSplitted = path.split('.')
+      const fileext = pathSplitted[2]
+      const basepath = pathSplitted[0]
+      const nodeId = createNodeId(nodeIdString(pathSplitted[0]))
+      let node = getNode(nodeId)
+      const content = fs.readFileSync(path, 'utf8')
+      node.codes[fileext] = content
+      if (fileext === 'scss') {
+        cssCompiler(node.codes.scss, path, path.replace('.scss', '.css'))
+          .then(res => {
+            reporter.success(`preview builded: ${path}`)
+            node.codes.css = res.css
+            //TODO remove
+            console.log('node223', node)
+            createNode(buildNodeData(nodeId, node.codes, basepath))
+          })
+          .catch(error =>
+            createNode(
+              buildNodeData(nodeId, { html: error, css: '' }, basepath)
+            )
+          )
+      } else {
+        node = buildNodeData(nodeId, node.codes, basepath)
+        createNode(node)
+        reporter.success(`preview builded: ${path}`)
+      }
     }
   })
 
