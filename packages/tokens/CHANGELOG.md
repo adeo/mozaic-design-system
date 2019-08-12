@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.16...v1.0.1-alpha.17) (2019-08-12)
+
+
+### Features
+
+* **patterns/inputs:** simplify docs and previews ([#308](https://github.com/adeo/mozaic-design-system/issues/308)) ([c8185ef](https://github.com/adeo/mozaic-design-system/commit/c8185ef))
+* **tokens/inputs:** change color of input placeholer ([#321](https://github.com/adeo/mozaic-design-system/issues/321)) ([3879ebb](https://github.com/adeo/mozaic-design-system/commit/3879ebb))
+
+
+
+
+
 ## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-29)
 
 

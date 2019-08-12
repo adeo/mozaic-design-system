@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.16...v1.0.1-alpha.17) (2019-08-12)
+
+
+### Bug Fixes
+
+* **styleguide/download kit:** dynamise release number in the download link ([#315](https://github.com/adeo/mozaic-design-system/issues/315)) ([3ec0432](https://github.com/adeo/mozaic-design-system/commit/3ec0432))
+
+
+
+
+
 ## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-29)
 
 

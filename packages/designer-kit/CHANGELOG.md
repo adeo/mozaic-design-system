@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.16...v1.0.1-alpha.17) (2019-08-12)
+
+
+### Bug Fixes
+
+* **patterns/ designerkit:** standardize sizes names using tee-shirt sizes ([#307](https://github.com/adeo/mozaic-design-system/issues/307)) ([2ada730](https://github.com/adeo/mozaic-design-system/commit/2ada730))
+
+
+### Features
+
+* **pattern/aspectratios:** create usage documentation ([#312](https://github.com/adeo/mozaic-design-system/issues/312)) ([3e5a44d](https://github.com/adeo/mozaic-design-system/commit/3e5a44d))
+* **pattern/select:** create select form item ([#306](https://github.com/adeo/mozaic-design-system/issues/306)) ([1134351](https://github.com/adeo/mozaic-design-system/commit/1134351))
+* **pattern/textarea:** create textarea pattern ([#309](https://github.com/adeo/mozaic-design-system/issues/309)) ([4ef5cb3](https://github.com/adeo/mozaic-design-system/commit/4ef5cb3))
+
+
+
+
+
 ## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-29)
 
 
