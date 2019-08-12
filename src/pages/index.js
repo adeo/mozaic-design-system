@@ -212,7 +212,7 @@ const IndexPage = () => (
       </Section>
     </Slice>
     <Slice large>
-      <Section title="Ressources" name="start">
+      <Section title="Resources" name="start">
         <div className="ml-flexy ml-flexy--items-stretch ml-flexy--gutter">
           <Tile
             title="Design Kit"
