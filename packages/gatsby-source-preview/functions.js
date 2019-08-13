@@ -6,23 +6,31 @@ const nodeIdString = path => {
   return `preview-${path}`
 }
 
-// creating a list of files related to a file being changed
-// const getRelatedFiles = path => {
-//   // path: src/pages/Components/Buttons/previews/basic.preview.html
-//   if (path) {
-//     const filetypes = ['html', 'css', 'scss', 'json', 'js']
-//     const base = path.split('.preview.')[0]
-//     const relatedFiles = filetypes.map(elem => {
-//       return base + '.preview.' + elem
-//     })
+const compileCssnCreateNode = (
+  reporter,
+  createNode,
+  createNodeId,
+  buildNodeData
+) => (codes, pathFrom, pathTo) => {
+  const nodeId = createNodeId(nodeIdString(pathFrom))
+  return cssCompiler(codes.scss, pathFrom, pathTo)
+    .then(res => {
+      reporter.success(`preview built: ${pathFrom}`)
+      codes.css = res.css
+      createNode(buildNodeData(nodeId, codes, pathFrom.replace(/\\/g, '/')))
+    })
+    .catch(error =>
+      createNode(
+        buildNodeData(
+          nodeId,
+          { html: error, css: '' },
+          pathFrom.replace(/\\/g, '/')
+        )
+      )
+    )
+}
 
-//     return relatedFiles
-//   }
-
-//   return false
-// }
-
-const processDirectoryTree = (tree, previews) => {
+const createPreviewsObject = (tree, previews) => {
   /* tree:
     { path:
       'src/pages/Foundations/Typography/ScaleAndSizes/previews/font-scale.preview.html',
@@ -33,12 +41,8 @@ const processDirectoryTree = (tree, previews) => {
   */
   if (tree.path.includes('.preview.')) {
     const naming = tree.path.split('.')
-    let content
-    try {
-      content = fs.readFileSync(tree.path, 'utf8')
-    } catch (e) {
-      content = ''
-    }
+
+    const content = fs.readFileSync(tree.path, 'utf8')
 
     if (previews[naming[0]] === undefined) {
       previews[naming[0]] = {
@@ -53,12 +57,12 @@ const processDirectoryTree = (tree, previews) => {
   }
 
   if (Array.isArray(tree.children)) {
-    tree.children.forEach(child => processDirectoryTree(child, previews))
+    tree.children.forEach(child => createPreviewsObject(child, previews))
   }
 }
 
 module.exports = {
   nodeIdString,
-  processDirectoryTree,
-  // getRelatedFiles
+  createPreviewsObject,
+  compileCssnCreateNode,
 }

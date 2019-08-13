@@ -1,12 +1,12 @@
 const dirTree = require('directory-tree')
-// const path = require('path')
 const fs = require('fs')
-
 const chokidar = require(`chokidar`)
-const cssCompiler = require('@mozaic-ds/css-dev-tools/css-pipeline.js')
-
 const createFSMachine = require('./create-fsmachine')
-const { nodeIdString, processDirectoryTree } = require('./functions')
+const {
+  nodeIdString,
+  createPreviewsObject,
+  compileCssnCreateNode,
+} = require('./functions')
 const nodeModel = require('./node-model')
 
 exports.sourceNodes = (tools, configOptions) => {
@@ -26,6 +26,13 @@ exports.sourceNodes = (tools, configOptions) => {
   */
 
   const buildNodeData = nodeModel(createContentDigest)
+
+  const compileCss = compileCssnCreateNode(
+    reporter,
+    createNode,
+    createNodeId,
+    buildNodeData
+  )
 
   const fsMachine = createFSMachine()
   let currentState = fsMachine.initialState
@@ -56,27 +63,14 @@ exports.sourceNodes = (tools, configOptions) => {
       ? { path: addedFile }
       : dirTree(configOptions.rootPath)
 
-    processDirectoryTree(tree, previews)
+    createPreviewsObject(tree, previews)
 
     const previewsPromises = Object.keys(previews).map(key => {
       const codes = previews[key]
-      const nodeId = createNodeId(nodeIdString(key))
-      const replacedKey = key.replace(/\\/g, '/')
-
       if (codes.scss) {
-        return cssCompiler(codes.scss, key, key.replace('.scss', '.css'))
-          .then(res => {
-            reporter.success(`preview builded: ${key}`)
-            codes.css = res.css
-            createNode(buildNodeData(nodeId, codes, replacedKey))
-          })
-          .catch(error =>
-            createNode(
-              buildNodeData(nodeId, { html: error, css: '' }, replacedKey)
-            )
-          )
+        return compileCss(codes, key, key.replace('.scss', '.css'))
       }
-      reporter.success(`preview builded: ${key}`)
+      reporter.success(`preview built: ${key}`)
       return createNode(buildNodeData(nodeId, codes, replacedKey))
     })
 
@@ -111,23 +105,10 @@ exports.sourceNodes = (tools, configOptions) => {
       const content = fs.readFileSync(path, 'utf8')
       node.codes[fileext] = content
       if (fileext === 'scss') {
-        cssCompiler(node.codes.scss, path, path.replace('.scss', '.css'))
-          .then(res => {
-            reporter.success(`preview builded: ${path}`)
-            node.codes.css = res.css
-            //TODO remove
-            console.log('node223', node)
-            createNode(buildNodeData(nodeId, node.codes, basepath))
-          })
-          .catch(error =>
-            createNode(
-              buildNodeData(nodeId, { html: error, css: '' }, basepath)
-            )
-          )
+        return compileCss(node.codes, path, path.replace('.scss', '.css'))
       } else {
-        node = buildNodeData(nodeId, node.codes, basepath)
-        createNode(node)
-        reporter.success(`preview builded: ${path}`)
+        createNode(buildNodeData(nodeId, { ...node.codes }, basepath))
+        reporter.success(`preview built: ${path}`)
       }
     }
   })
