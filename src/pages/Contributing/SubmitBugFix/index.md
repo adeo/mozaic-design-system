@@ -1,4 +1,4 @@
 ---
 title: 'Submit a bug fix'
-order: 5
+order: 7
 ---
