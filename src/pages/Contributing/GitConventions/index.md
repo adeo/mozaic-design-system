@@ -1,4 +1,4 @@
 ---
 title: 'Git conventions'
-order: 10
+order: 5
 ---

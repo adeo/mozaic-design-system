@@ -1,5 +1,5 @@
 ---
-title: 'How to contribute'
+title: 'Contributing'
 order: 4
 ---
 
@@ -9,6 +9,16 @@ order: 4
     * Slack mozaic-support
     * By email
     * Using github
+* Install and run the project
+    * Install the project
+    * Project structure
+    * Available tasks and tools
+    * CI
+* Git conventions
+    * commit messages
+    * PR name
+    * Branch name
+    * WIP
 * Report a bug
     * Create an issue using the good template
     * Follow the process
@@ -27,16 +37,6 @@ order: 4
 * Submit a new pattern (design, code and documentation)
     * Pull request requirements
     * Merge criteria
-* Git conventions
-    * commit messages
-    * PR name
-    * Branch name
-    * WIP
-* Technical documentation
-    * Install the project
-    * Project structure
-    * Available tasks and tools
-    * CI
 * Mozaic contributing conventions
     * design
     * tokens
