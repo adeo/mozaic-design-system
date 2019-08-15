@@ -71,7 +71,7 @@ exports.sourceNodes = (tools, configOptions) => {
         return compileCss(codes, key, key.replace('.scss', '.css'))
       }
       reporter.success(`preview built: ${key}`)
-      return createNode(buildNodeData(nodeId, codes, replacedKey))
+      return createNode(buildNodeData(nodeId, codes, key))
     })
 
     return Promise.all(previewsPromises)
@@ -96,10 +96,14 @@ exports.sourceNodes = (tools, configOptions) => {
     ) {
       reporter.info(`changed PREVIEW file at ${path}`)
 
-      path = path.replace('\\', '/')
+      // is global style? Just rebuild everything!
+      const globalStylePath = 'packages/styles/'
+      if (path.replace(/\\/g, '/').indexOf(globalStylePath) > -1) {
+        return buildPreviews().catch(err => reporter.error(err))
+      }
+
       const pathSplitted = path.split('.')
       const fileext = pathSplitted[2]
-      const basepath = pathSplitted[0]
       const nodeId = createNodeId(nodeIdString(pathSplitted[0]))
       let node = getNode(nodeId)
       const content = fs.readFileSync(path, 'utf8')
@@ -107,7 +111,7 @@ exports.sourceNodes = (tools, configOptions) => {
       if (fileext === 'scss') {
         return compileCss(node.codes, path, path.replace('.scss', '.css'))
       } else {
-        createNode(buildNodeData(nodeId, { ...node.codes }, basepath))
+        createNode(buildNodeData(nodeId, { ...node.codes }, path))
         reporter.success(`preview built: ${path}`)
       }
     }

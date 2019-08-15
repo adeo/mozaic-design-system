@@ -1,9 +1,11 @@
-const nodeModel = createContentDigest => (id, codes, treePath) =>
-  Object.assign(
+const nodeModel = createContentDigest => (id, codes, treePath) => {
+  const pathSplitted = treePath.split('.')
+
+  return Object.assign(
     {},
     {
       id,
-      path: treePath,
+      path: pathSplitted[0].replace(/\\/g, '/'),
       codes: {
         ...codes,
       },
@@ -14,5 +16,6 @@ const nodeModel = createContentDigest => (id, codes, treePath) =>
       },
     }
   )
+}
 
 module.exports = nodeModel

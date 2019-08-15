@@ -1,4 +1,5 @@
 const fs = require(`fs`)
+const path = require('path')
 const cssCompiler = require('@mozaic-ds/css-dev-tools/css-pipeline.js')
 
 // create string for node id creation
@@ -13,20 +14,18 @@ const compileCssnCreateNode = (
   buildNodeData
 ) => (codes, pathFrom, pathTo) => {
   const nodeId = createNodeId(nodeIdString(pathFrom))
-  return cssCompiler(codes.scss, pathFrom, pathTo)
+  return cssCompiler(
+    codes.scss,
+    path.normalize(pathFrom),
+    path.normalize(pathTo)
+  )
     .then(res => {
       reporter.success(`preview built: ${pathFrom}`)
       codes.css = res.css
-      createNode(buildNodeData(nodeId, codes, pathFrom.replace(/\\/g, '/')))
+      createNode(buildNodeData(nodeId, codes, pathFrom))
     })
     .catch(error =>
-      createNode(
-        buildNodeData(
-          nodeId,
-          { html: error, css: '' },
-          pathFrom.replace(/\\/g, '/')
-        )
-      )
+      createNode(buildNodeData(nodeId, { html: error, css: '' }, pathFrom))
     )
 }
 
