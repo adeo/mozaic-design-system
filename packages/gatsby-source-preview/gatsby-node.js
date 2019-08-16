@@ -17,6 +17,7 @@ exports.sourceNodes = (tools, configOptions) => {
     reporter,
     emitter,
     getNode,
+    store,
   } = tools
   const { createNode, deleteNode } = actions
   /* configOptions:
@@ -25,14 +26,9 @@ exports.sourceNodes = (tools, configOptions) => {
     stylesPath: 'packages/styles/** /*.scss' }
   */
 
-  const buildNodeData = nodeModel(createContentDigest)
+  const buildNodeData = nodeModel({ createContentDigest, store, createNodeId })
 
-  const compileCss = compileCssnCreateNode(
-    reporter,
-    createNode,
-    createNodeId,
-    buildNodeData
-  )
+  const compileCss = compileCssnCreateNode(reporter, createNode, buildNodeData)
 
   const fsMachine = createFSMachine()
   let currentState = fsMachine.initialState
@@ -71,7 +67,7 @@ exports.sourceNodes = (tools, configOptions) => {
         return compileCss(codes, key, key.replace('.scss', '.css'))
       }
       reporter.success(`preview built: ${key}`)
-      return createNode(buildNodeData(nodeId, codes, key))
+      return createNode(buildNodeData(codes, key))
     })
 
     return Promise.all(previewsPromises)
@@ -111,7 +107,7 @@ exports.sourceNodes = (tools, configOptions) => {
       if (fileext === 'scss') {
         return compileCss(node.codes, path, path.replace('.scss', '.css'))
       } else {
-        createNode(buildNodeData(nodeId, { ...node.codes }, path))
+        createNode(buildNodeData(node.codes, path))
         reporter.success(`preview built: ${path}`)
       }
     }
