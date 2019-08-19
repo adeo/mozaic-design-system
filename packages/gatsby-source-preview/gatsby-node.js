@@ -1,47 +1,35 @@
 const dirTree = require('directory-tree')
-const path = require('path')
-
+const fs = require('fs')
 const chokidar = require(`chokidar`)
-const fs = require(`fs`)
-const { Machine } = require(`xstate`)
+const createFSMachine = require('./create-fsmachine')
+const {
+  nodeIdString,
+  createPreviewsObject,
+  compileCssnCreateNode,
+} = require('./functions')
+const nodeModel = require('./node-model')
 
-const cssCompiler = require('@mozaic-ds/css-dev-tools/css-pipeline.js')
+exports.sourceNodes = (tools, configOptions) => {
+  const {
+    actions,
+    createNodeId,
+    createContentDigest,
+    reporter,
+    emitter,
+    getNode,
+    store,
+  } = tools
+  const { createNode, deleteNode } = actions
+  /* configOptions:
+    { previewsFiles: 'src/pages/** /*.preview.*',
+    rootPath: 'src/pages',
+    stylesPath: 'packages/styles/** /*.scss' }
+  */
 
-const createFSMachine = () =>
-  Machine({
-    key: `emitFSEvents`,
-    parallel: true,
-    strict: true,
-    states: {
-      CHOKIDAR: {
-        initial: `CHOKIDAR_PREVIEW_NOT_READY`,
-        states: {
-          CHOKIDAR_PREVIEW_NOT_READY: {
-            on: {
-              CHOKIDAR_PREVIEW_READY: `CHOKIDAR_PREVIEW_WATCHING`,
-              BOOTSTRAP_FINISHED: `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`,
-            },
-          },
-          CHOKIDAR_PREVIEW_WATCHING: {
-            on: {
-              BOOTSTRAP_FINISHED: `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`,
-              CHOKIDAR_PREVIEW_READY: `CHOKIDAR_PREVIEW_WATCHING`,
-            },
-          },
-          CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED: {
-            on: {
-              CHOKIDAR_PREVIEW_READY: `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`,
-            },
-          },
-        },
-      },
-    },
-  })
+  const buildNodeData = nodeModel({ createContentDigest, store, createNodeId })
 
-exports.sourceNodes = (
-  { actions, createNodeId, createContentDigest, reporter, emitter },
-  configOptions
-) => {
+  const compileCss = compileCssnCreateNode(reporter, createNode, buildNodeData)
+
   const fsMachine = createFSMachine()
   let currentState = fsMachine.initialState
 
@@ -60,100 +48,30 @@ exports.sourceNodes = (
   // Gatsby adds a configOption that's not needed for this plugin, delete it
   delete configOptions.plugins
 
-  const buildPreviews = () =>
-    new Promise((resolve, reject) => {
-      console.log('-----------------------------')
-      console.log('--- building all previews ---')
-      console.log('-----------------------------')
+  const buildPreviews = addedFile => {
+    console.log('-----------------------------')
+    console.log(`--- building ${addedFile || 'all previews'} ---`)
+    console.log('-----------------------------')
 
-      const { createNode } = actions
-      const tree = dirTree(configOptions.rootPath)
+    let previews = {}
 
-      let previews = {}
+    const tree = addedFile
+      ? { path: addedFile }
+      : dirTree(configOptions.rootPath)
 
-      const processDirectoryTree = tree => {
-        if (tree.path.includes('.preview.')) {
-          const naming = tree.path.split('.')
-          const content = fs.readFileSync(tree.path, 'utf8')
+    createPreviewsObject(tree, previews)
 
-          if (previews[naming[0]] === undefined) {
-            previews[naming[0]] = {
-              html: '',
-              css: '',
-              scss: '',
-              json: '',
-              js: '',
-            }
-          }
-          previews[naming[0]][naming[2]] = content
-        }
-
-        if (Array.isArray(tree.children)) {
-          tree.children.forEach(child => processDirectoryTree(child))
-        }
+    const previewsPromises = Object.keys(previews).map(key => {
+      const codes = previews[key]
+      if (codes.scss) {
+        return compileCss(codes, key, key.replace('.scss', '.css'))
       }
-
-      processDirectoryTree(tree)
-
-      const buildNodeData = (id, codes, treePath) =>
-        Object.assign(
-          {},
-          {
-            id,
-            path: treePath,
-            codes: {
-              ...codes,
-            },
-            internal: {
-              type: `Preview`,
-              content: JSON.stringify(codes),
-              contentDigest: createContentDigest(codes),
-            },
-          }
-        )
-
-      Object.keys(previews).map(key => {
-        const codes = previews[key]
-        const nodeId = createNodeId(`preview-${key}`)
-
-        if (codes.scss && codes.scss !== '') {
-          cssCompiler(codes.scss, key, key.replace('.scss', '.css'))
-            .then(res => {
-              reporter.success(`preview builded: ${key}`)
-              codes.css = res.css
-              resolve(
-                createNode(
-                  buildNodeData(nodeId, codes, key.replace(/\\/g, '/'))
-                )
-              )
-            })
-            .catch(error =>
-              resolve(
-                createNode(
-                  buildNodeData(
-                    nodeId,
-                    { html: error, css: '' },
-                    key.replace(/\\/g, '/')
-                  )
-                )
-              )
-            )
-        } else {
-          resolve(
-            createNode(buildNodeData(nodeId, codes, key.replace(/\\/g, '/')))
-          )
-        }
-      })
+      reporter.success(`preview built: ${key}`)
+      return createNode(buildNodeData(codes, key))
     })
 
-  // For every path that is reported before the 'ready' event, we throw them
-  // into a queue and then flush the queue when 'ready' event arrives.
-  // After 'ready', we handle the 'add' event without putting it into a queue.
-  let pathQueue = []
-
-  const flushPathQueue = () => {
-    buildPreviews()
-  }
+    return Promise.all(previewsPromises)
+  } // buildPreviews
 
   watcher.on(`add`, path => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
@@ -161,19 +79,37 @@ exports.sourceNodes = (
         currentState.value.CHOKIDAR ===
         `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
       ) {
-        buildPreviews().catch(err => reporter.error(err))
+        buildPreviews(path).catch(err => reporter.error(err))
         reporter.info(`added PREVIEW file at ${path}`)
       }
     }
   })
-
   watcher.on(`change`, path => {
+    // path: src/pages/Components/Buttons/previews/basic.preview.html
     if (
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
     ) {
-      buildPreviews().catch(err => reporter.error(err))
       reporter.info(`changed PREVIEW file at ${path}`)
+
+      // is global style? Just rebuild everything!
+      const globalStylePath = 'packages/styles/'
+      if (path.replace(/\\/g, '/').indexOf(globalStylePath) > -1) {
+        return buildPreviews().catch(err => reporter.error(err))
+      }
+
+      const pathSplitted = path.split('.')
+      const fileext = pathSplitted[2]
+      const nodeId = createNodeId(nodeIdString(pathSplitted[0]))
+      let node = getNode(nodeId)
+      const content = fs.readFileSync(path, 'utf8')
+      node.codes[fileext] = content
+      if (fileext === 'scss') {
+        return compileCss(node.codes, path, path.replace('.scss', '.css'))
+      } else {
+        createNode(buildNodeData(node.codes, path))
+        reporter.success(`preview built: ${path}`)
+      }
     }
   })
 
@@ -184,7 +120,8 @@ exports.sourceNodes = (
     ) {
       reporter.info(`PREVIEW file deleted at ${path}`)
     }
-    const node = getNode(createNodeId(path))
+
+    const node = getNode(createNodeId(nodeIdString(path.split('.')[0])))
     // It's possible the file node was never created as sometimes tools will
     // write and then immediately delete temporary files to the file system.
     if (node) {
@@ -211,7 +148,9 @@ exports.sourceNodes = (
     ) {
       reporter.info(`PREVIEW directory deleted at ${path}`)
     }
+
     const node = getNode(createNodeId(path))
+
     if (node) {
       deleteNode({ node })
     }
