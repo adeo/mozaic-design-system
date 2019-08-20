@@ -26,7 +26,7 @@ exports.sourceNodes = async ({
     method: 'post',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: 'Bearer e9ef7c1ff8c80948819552bb00dc59a9bc3a12d3',
+      Authorization: 'Bearer 600891b31a7657e94a9a5aace69dc79791f6f801',
     },
     body: JSON.stringify({ query }),
   })
