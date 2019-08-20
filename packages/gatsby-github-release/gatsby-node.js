@@ -26,7 +26,7 @@ exports.sourceNodes = async ({
     method: 'post',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: 'Bearer 66792a1df6e0dd6345b461535cb37b40961b4439',
+      Authorization: 'Bearer e9ef7c1ff8c80948819552bb00dc59a9bc3a12d3',
     },
     body: JSON.stringify({ query }),
   })
@@ -53,7 +53,7 @@ exports.sourceNodes = async ({
         publishedAt,
         url:
           'https://' +
-          tagName.replace(/\./g, '') +
+          tagName.replace(/\.|-/g, '') +
           '-dot-design-system-adeo.appspot.com',
         internal: {
           type: `GithubRelease`,
