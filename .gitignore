@@ -17,3 +17,6 @@ package-lock.json
 
 # generated assets zips
 *.zip
+
+# env files
+.env

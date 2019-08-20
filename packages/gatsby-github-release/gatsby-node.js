@@ -1,3 +1,4 @@
+require('dotenv').config()
 const fetch = require('node-fetch')
 const fs = require('fs')
 const path = require('path')
@@ -26,7 +27,7 @@ exports.sourceNodes = async ({
     method: 'post',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: 'Bearer 600891b31a7657e94a9a5aace69dc79791f6f801',
+      Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
     },
     body: JSON.stringify({ query }),
   })

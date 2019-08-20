@@ -20,6 +20,7 @@ action "npm build" {
   uses = "nuxt/actions-yarn@master"
   needs = ["Npm lerna"]
   args = "build"
+  secrets = ["GH_API_TOKEN"]
 }
 
 action "npm wait" {
