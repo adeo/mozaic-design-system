@@ -10,7 +10,7 @@ The sketch file includes other form elements. Here is the section you'll find th
 
 ### **👾 For developers :**
 
-This part is a specific section for developers, **for a better accessibility**. There are all states of Leroy Merlin's toggle :
+This part is a specific section for developers, **for a better accessibility**. These are all states of Leroy Merlin's toggle :
 
 - Off:Default
 - On:Default
@@ -21,7 +21,7 @@ _They are all available with the **hover** and **focus** preview._
 
 ### **🛠 ToolKit :**
 
-The ToolKit section bring together the **dedicated symbols used for building the final symbols**, and you can find them in the symbol overrides.
+The ToolKit section brings together the **dedicated symbols used for building the final symbols**, and you can find them in the symbol overrides.
 <br>
 
 <hint type="dont">

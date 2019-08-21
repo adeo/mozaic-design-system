@@ -1,0 +1,35 @@
+{
+  "color": {
+    "toggle": {
+      "off": {
+        "background": {
+          "value": "{color.grey.500.value}"
+        },
+        "circle": {
+          "value": "{color.grey.000.value}"
+        }
+      },
+      "on": {
+        "background": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "circle": {
+          "value": "{color.grey.000.value}"
+        }
+      },
+      "hover": {
+        "circle": {
+          "value": "{color.grey.100.value}"
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "{color.input.disabled.background.value}"
+        },
+        "circle": {
+          "value": "{color.grey.300.value}"
+        }
+      }
+    }
+  }
+}

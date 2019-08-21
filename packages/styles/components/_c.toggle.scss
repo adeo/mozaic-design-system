@@ -1,0 +1,101 @@
+.mc-toggle {
+  display: block;
+
+  // hide the input
+  &__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    visibility: visible;
+    white-space: nowrap;
+  }
+
+  &__label {
+    @include set-font-scale('05', 'xs');
+    @include set-toggle-size('m');
+
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+
+    :disabled + & {
+      cursor: default;
+    }
+
+    &::after,
+    &::before {
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      content: '';
+    }
+
+    // the switch background
+    &::before {
+      background-color: $color-toggle-off-background;
+      will-change: background-color;
+      transition: background-color 100ms ease, border-color 100ms ease;
+
+      :checked + & {
+        background-color: $color-toggle-on-background;
+      }
+
+      :focus + & {
+        box-shadow: 0 0 0 get-border('m') $color-input-focus-border;
+      }
+
+      :disabled + & {
+        background-color: $color-toggle-disabled-background;
+      }
+    }
+
+    // the switch pill foreground
+    &::after {
+      background-color: $color-toggle-off-circle;
+      border: solid get-border('l') $color-toggle-off-background;
+      will-change: transform;
+      transition: transform 100ms ease, border-color 100ms ease;
+
+      :checked + & {
+        border-color: $color-toggle-on-background;
+        background-color: $color-toggle-on-circle;
+        transform: translateX(100%);
+      }
+
+      :disabled + & {
+        border-color: $color-toggle-disabled-background;
+        background-color: $color-toggle-disabled-circle;
+      }
+    }
+
+    :not(:disabled) + &:hover::after {
+      background-color: $color-toggle-hover-circle;
+    }
+  }
+
+  &__state {
+    position: relative;
+  }
+
+  &__on,
+  &__off {
+    position: absolute;
+    left: $mu025;
+  }
+
+  :not(:checked) + &__label &__on,
+  :checked + &__label &__off {
+    visibility: hidden;
+  }
+
+  @include mod-toggle-sizes();
+}

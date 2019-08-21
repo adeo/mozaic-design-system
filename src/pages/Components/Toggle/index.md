@@ -10,16 +10,22 @@ order: 7
 - `S` or small : used only on desktop when space is a concern
 - `M` or medium (default): should be the exclusive size for touch devices, and be used in most of the cases on desktop
 
-<preview path="src/pages/Components/Toggle/previews/Toggle" nude="true"></preview>
+<preview path="src/pages/Components/Toggle/previews/ToggleSizes" nude="true"></preview>
 
 ## States
 
-<preview path="src/pages/Components/Toggle/previews/toggle-states" nude="true"></preview>
+<preview path="src/pages/Components/Toggle/previews/ToggleStates" nude="true"></preview>
+
+### Displaying on/off states in labels
+
+You can use a reactive label, witch will change depending on the state of the toggle.
+
+<preview path="src/pages/Components/Toggle/previews/ToggleStatesLabel" nude="true"></preview>
 
 ## Do's and Don't
 
 <hintitem>
-  Always use M sized toggle on touch devices
+  Always use M sized toggle on touch devices.
 </hintitem>
 <hintitem>
   Toggle should always trigger instantaneous action and feedbacks.<br />
@@ -29,10 +35,10 @@ order: 7
   Use checkboxes instead of toggles if another validation action is to be required from the user.
 </hintitem>
 <hintitem dont="true">
-  Never use toggle for multiple choices in a set of related options, use checkboxes instead
+  Never use toggle for multiple choices in a set of related options, use checkboxes instead.
 </hintitem>
 <hintitem dont="true">
-  Never use toggle when validation is required
+  Never use toggle when validation action is required.
 </hintitem>
 
 You can find more informations in [this medium article](https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8)
