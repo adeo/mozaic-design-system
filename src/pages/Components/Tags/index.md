@@ -5,24 +5,23 @@ order: 6
 
 > Tags are used to categorize, show filters or make selections. They are compact components mostly used as secondary content to display additional information.
 
--- Preview of the three tags --
+-- Preview of the four tags --
 
 ## Sizes
 
-There are three sizes for tags to create hierarchy and for a better adaptability :
+There are two sizes for tags to create hierarchy and for a better adaptability :
 
 - Small
 - Medium
-- Large
 
-## Three Tags variations for three different usages
+# Il existe 2 catégories de tags
 
-### Filter tags
+- Text + Clickable
+- Selectable + Removable
 
-Filter Tags are used to display keywords that can help users find, group and classify large amount of data by common attributes.
-They are the result of selected values in a filter panel and can be removed by taping.
+When you have to deal with a product property
 
--- Preview filter tags --
+## Four Tags variations for different usages
 
 ### Link tags
 
@@ -30,7 +29,14 @@ Link tags are used to display relative keywords of an item or a content. They ar
 
 -- Preview link tags --
 
-### Choice tags
+### Removable tags
+
+Filter Tags are used to display keywords that can help users find, group and classify large amount of data by common attributes.
+They are the result of selected values in a filter panel and can be removed by taping.
+
+-- Preview filter tags --
+
+### Selectable tags
 
 Choice tags are used to select (or deselect) values from a proposal of multiple keywords. They are a good alternative to radio buttons, checkboxes or toggle buttons when you have to make a select values in a hero.
 
