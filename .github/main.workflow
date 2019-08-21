@@ -20,11 +20,19 @@ action "npm build" {
   uses = "nuxt/actions-yarn@master"
   needs = ["Npm lerna"]
   args = "build"
+  secrets = ["GH_API_TOKEN"]
+}
+
+action "npm wait" {
+  uses = "./ci/docker-wait"
+  args = "ci:wait $(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z)"
+  secrets = ["GCLOUD_AUTH"]
+  needs = ["npm build"]
 }
 
 action "GCP auth" {
   uses = "actions/gcloud/auth@df59b3263b6597df4053a74e4e4376c045d9087e"
-  needs = ["npm build"]
+  needs = ["npm wait"]
   secrets = ["GCLOUD_AUTH"]
 }
 

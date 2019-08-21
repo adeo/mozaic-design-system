@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.17](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.16...v1.0.1-alpha.17) (2019-08-12)
+
+
+### Bug Fixes
+
+* **ci:** wait if an other deploy is pending ([#314](https://github.com/adeo/design-system--styleguide/issues/314)) ([7db5509](https://github.com/adeo/design-system--styleguide/commit/7db5509))
+* **logo/hp:** add logo on HP and adapt heading part ([#323](https://github.com/adeo/design-system--styleguide/issues/323)) ([0fe2f5e](https://github.com/adeo/design-system--styleguide/commit/0fe2f5e))
+* **patterns/ designerkit:** standardize sizes names using tee-shirt sizes ([#307](https://github.com/adeo/design-system--styleguide/issues/307)) ([2ada730](https://github.com/adeo/design-system--styleguide/commit/2ada730))
+* **styleguide/download kit:** dynamise release number in the download link ([#315](https://github.com/adeo/design-system--styleguide/issues/315)) ([3ec0432](https://github.com/adeo/design-system--styleguide/commit/3ec0432))
+
+
+### Features
+
+* **pattern/aspectratios:** create usage documentation ([#312](https://github.com/adeo/design-system--styleguide/issues/312)) ([3e5a44d](https://github.com/adeo/design-system--styleguide/commit/3e5a44d))
+* **pattern/select:** create select form item ([#306](https://github.com/adeo/design-system--styleguide/issues/306)) ([1134351](https://github.com/adeo/design-system--styleguide/commit/1134351))
+* **pattern/textarea:** create textarea pattern ([#309](https://github.com/adeo/design-system--styleguide/issues/309)) ([4ef5cb3](https://github.com/adeo/design-system--styleguide/commit/4ef5cb3))
+* **patterns/inputs:** simplify docs and previews ([#308](https://github.com/adeo/design-system--styleguide/issues/308)) ([c8185ef](https://github.com/adeo/design-system--styleguide/commit/c8185ef))
+* **tokens/inputs:** change color of input placeholer ([#321](https://github.com/adeo/design-system--styleguide/issues/321)) ([3879ebb](https://github.com/adeo/design-system--styleguide/commit/3879ebb))
+
+
+
+
+
 ## [1.0.1-alpha.16](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.15...v1.0.1-alpha.16) (2019-07-29)
 
 

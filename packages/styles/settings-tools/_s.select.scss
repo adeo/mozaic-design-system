@@ -1,0 +1,14 @@
+$select-border-radius: get-border-radius('m');
+$select-border-width: get-border('s');
+
+@mixin select-background-arrow ($color: $color-input-text, $background: $color-input-background) {
+  background:
+    $background
+    url(
+      inline-icons(
+        'arrow-down-24',
+        $color
+      )
+    ) right $mu100 center no-repeat;
+  background-size: $mu150;
+}

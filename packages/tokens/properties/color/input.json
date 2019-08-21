@@ -8,7 +8,7 @@
         "value": "{color.grey.600.value}"
       },
       "placeholder": {
-        "value": "{color.grey.400.value}"
+        "value": "{color.grey.500.value}"
       },
       "background": {
         "value": "{color.grey.000.value}"

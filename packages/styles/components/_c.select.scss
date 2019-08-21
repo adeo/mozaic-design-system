@@ -1,0 +1,45 @@
+.mc-select {
+  @include reset-input;
+  @include set-font-scale('05');
+  @include select-background-arrow();
+
+  border: $select-border-width solid $color-input-border;
+  border-radius: $select-border-radius;
+  color: $color-input-text;
+  width: 100%;
+  // remove border height and center baseline optically
+  padding:
+    calc(#{$mu075} - 0.125em - #{$select-border-width}) $mu075
+    calc(#{$mu075} + 0.125em - #{$select-border-width});
+  transition: border-color ease 200ms;
+
+  &::-ms-expand {
+    display: none;
+  }
+
+  &:hover,
+  &.is-hover {
+    border-color: $color-input-hover-border;
+  }
+
+  &:focus,
+  &.is-focus {
+    border-color: $color-input-focus-border;
+  }
+
+  &:disabled {
+    @include select-background-arrow($color-input-placeholder, $color-input-disabled-background);
+
+    border-color: $color-input-disabled-border;
+    color: $color-input-placeholder;
+    cursor: default;
+  }
+
+  &.is-invalid {
+    border-color: $color-input-invalid-border;
+  }
+
+  &.is-valid {
+    border-color: $color-input-valid-border;
+  }
+}

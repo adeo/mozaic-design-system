@@ -1,3 +1,4 @@
+require('dotenv').config()
 const fetch = require('node-fetch')
 const fs = require('fs')
 const path = require('path')
@@ -26,7 +27,7 @@ exports.sourceNodes = async ({
     method: 'post',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: 'Bearer 66792a1df6e0dd6345b461535cb37b40961b4439',
+      Authorization: `Bearer ${process.env.GH_API_TOKEN}`,
     },
     body: JSON.stringify({ query }),
   })
@@ -53,7 +54,7 @@ exports.sourceNodes = async ({
         publishedAt,
         url:
           'https://' +
-          tagName.replace(/\./g, '') +
+          tagName.replace(/\.|-/g, '') +
           '-dot-design-system-adeo.appspot.com',
         internal: {
           type: `GithubRelease`,
