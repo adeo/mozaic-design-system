@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.18](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.17...v1.0.1-alpha.18) (2019-08-22)
+
+
+### Bug Fixes
+
+* **devtools / commitlint:** augment the commit header max length so we can explain more precisely the changes ([#332](https://github.com/adeo/design-system--styleguide/issues/332)) ([4b398da](https://github.com/adeo/design-system--styleguide/commit/4b398da))
+* **styleguide/home:** typo with ressources word ([#326](https://github.com/adeo/design-system--styleguide/issues/326)) ([3df9ca1](https://github.com/adeo/design-system--styleguide/commit/3df9ca1))
+* **styleguide/version select:** return the right styleguide version ([#331](https://github.com/adeo/design-system--styleguide/issues/331)) ([8957f50](https://github.com/adeo/design-system--styleguide/commit/8957f50))
+
+
+### Features
+
+* **documentation:** contributing documentation files structure ([#327](https://github.com/adeo/design-system--styleguide/issues/327)) ([f069fd3](https://github.com/adeo/design-system--styleguide/commit/f069fd3))
+* **pattern/toggle:** create toggle form element ([#317](https://github.com/adeo/design-system--styleguide/issues/317)) ([d22f86c](https://github.com/adeo/design-system--styleguide/commit/d22f86c))
+
+
+
+
+
 ## [1.0.1-alpha.17](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.16...v1.0.1-alpha.17) (2019-08-12)
 
 

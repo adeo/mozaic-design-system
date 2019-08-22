@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.17...v1.0.1-alpha.18) (2019-08-22)
+
+
+### Features
+
+* **pattern/toggle:** create toggle form element ([#317](https://github.com/adeo/mozaic-design-system/issues/317)) ([d22f86c](https://github.com/adeo/mozaic-design-system/commit/d22f86c))
+
+
+
+
+
 ## [1.0.1-alpha.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.16...v1.0.1-alpha.17) (2019-08-12)
 
 
