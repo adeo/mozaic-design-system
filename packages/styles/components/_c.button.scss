@@ -1,6 +1,6 @@
 .mc-button {
-  @include set-font-face('semi-bold');
   @include set-button-theme(get-token(color, button, 'solid'));
+  @include set-font-face('semi-bold');
   @include set-button-size($button-medium);
 
   margin: 0;
