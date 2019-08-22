@@ -62,6 +62,7 @@ action "npm build release" {
   uses = "nuxt/actions-yarn@master"
   needs = ["Npm install release"]
   args = "run build"
+  secrets = ["GH_API_TOKEN"]
 }
 
 action "GCP auth release" {

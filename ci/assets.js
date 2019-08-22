@@ -1,3 +1,4 @@
+require('dotenv').config()
 const fs = require('fs')
 const AdmZip = require('adm-zip')
 const request = require('request-promise')
@@ -33,7 +34,7 @@ async function getReleaseByName() {
     url: `https://api.github.com/repos/adeo/mozaic-design-system/releases/tags/v${lerna.version}`,
     headers: {
       'User-Agent': 'Docker',
-      authorization: 'bearer debe49d99c31a1b1079160215b4568cef48c0298',
+      authorization: `bearer ${process.env.GH_API_TOKEN}`,
       'content-type': 'application/json',
     },
   }
@@ -51,7 +52,7 @@ async function sendAssetForRelease(idRelease, name) {
     qs: { name: name },
     headers: {
       'User-Agent': 'Docker',
-      authorization: 'bearer debe49d99c31a1b1079160215b4568cef48c0298',
+      authorization: `bearer ${process.env.GH_API_TOKEN}`,
       'content-type': 'application/zip',
       'Content-Length': stats.size,
     },
