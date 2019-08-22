@@ -3636,6 +3636,149 @@ module.exports = {
           ]
         }
       }
+    },
+    "toggle": {
+      "off": {
+        "background": {
+          "value": "#887f87",
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorToggleOffBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "off",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "off",
+            "background"
+          ]
+        },
+        "circle": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorToggleOffCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "off",
+            "subitem": "circle"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "off",
+            "circle"
+          ]
+        }
+      },
+      "on": {
+        "background": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorToggleOnBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "on",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "on",
+            "background"
+          ]
+        },
+        "circle": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorToggleOnCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "on",
+            "subitem": "circle"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "on",
+            "circle"
+          ]
+        }
+      },
+      "hover": {
+        "circle": {
+          "value": "#eeeef0",
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorToggleHoverCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "hover",
+            "subitem": "circle"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "hover",
+            "circle"
+          ]
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "#eeeef0",
+          "original": {
+            "value": "{color.input.disabled.background.value}"
+          },
+          "name": "ColorToggleDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled",
+            "background"
+          ]
+        },
+        "circle": {
+          "value": "#bab6bc",
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorToggleDisabledCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled",
+            "subitem": "circle"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled",
+            "circle"
+          ]
+        }
+      }
     }
   },
   "radius": {

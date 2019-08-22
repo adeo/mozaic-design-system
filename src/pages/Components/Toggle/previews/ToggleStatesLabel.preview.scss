@@ -1,0 +1,12 @@
+@import 'settings-tools/_all-settings';
+@import 'components/_c.toggle';
+
+* {
+  box-sizing: border-box;
+}
+
+.example {
+  @include set-font-face('regular');
+
+  margin: $mu200;
+}
