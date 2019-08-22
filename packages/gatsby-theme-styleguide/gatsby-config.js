@@ -5,8 +5,8 @@ module.exports = {
     {
       resolve: '@mozaic-ds/gatsby-source-preview',
       options: {
-        previewsFiles: 'src/pages/**/*.preview.*',
-        rootPath: 'src/pages',
+        previewsFiles: 'src/docs/**/*.preview.*',
+        rootPath: 'src/docs',
         stylesPath: 'packages/styles/**/*.scss',
       },
     },
@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: '@mozaic-ds/gatsby-source-directory-tree',
       options: {
-        path: path.join('src', 'pages'),
+        path: path.join('src', 'docs'),
       },
     },
     {
@@ -53,10 +53,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        plugins: [
-          'gatsby-remark-component',
+        extensions: [`.mdx`],
+        gatsbyRemarkPlugins: [
           'gatsby-remark-static-images',
           'gatsby-remark-prismjs',
         ],
