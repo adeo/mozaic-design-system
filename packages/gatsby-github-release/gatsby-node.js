@@ -12,7 +12,7 @@ exports.sourceNodes = async ({
 
   const query = `
         query {
-            repository(owner: "adeo", name: "design-system--styleguide") {
+            repository(owner: "adeo", name: "mozaic-design-system") {
             releases (first:100,  orderBy: {field: CREATED_AT, direction: DESC}) {
                 totalCount
                 nodes{

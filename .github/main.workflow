@@ -38,7 +38,7 @@ action "GCP auth" {
 
 action "Deploy Demo" {
   uses = "actions/gcloud/cli@df59b3263b6597df4053a74e4e4376c045d9087e"
-  args = "--quiet --verbosity=error app deploy app.demo.yaml --project=design-system-adeo --version=$(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z) --no-promote"
+  args = "--quiet --verbosity=error app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=$(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z) --no-promote"
   needs = ["GCP auth"]
 }
 
@@ -73,7 +73,7 @@ action "GCP auth release" {
 
 action "Deploy Tag" {
   uses = "actions/gcloud/cli@df59b3263b6597df4053a74e4e4376c045d9087e"
-  args = "--quiet --verbosity=error app deploy app.yaml --project=design-system-adeo --version=$(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z) --promote"
+  args = "--quiet --verbosity=error app deploy app.yaml --project=mozaic-design-system-dtrp --version=$(echo $GITHUB_REF | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\\\|-+$//g' | tr A-Z a-z) --promote"
   needs = ["GCP auth release"]
 }
 

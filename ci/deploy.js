@@ -3,7 +3,7 @@ const exec = util.promisify(require('child_process').exec)
 
 async function gcloud() {
   const { stdout } = await exec(
-    'gcloud app operations list --pending --format=json --project=design-system-adeo '
+    'gcloud app operations list --pending --format=json --project=mozaic-design-system '
   )
   return JSON.parse(stdout)
 }
@@ -18,7 +18,7 @@ async function wait(version) {
     }
   } while (
     json.length > 0 &&
-    target === `apps/design-system-adeo/services/demo/versions/${version}`
+    target === `apps/mozaic-design-system/services/demo/versions/${version}`
   )
 }
 
