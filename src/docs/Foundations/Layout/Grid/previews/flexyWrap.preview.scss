@@ -1,0 +1,27 @@
+@import 'settings-tools/_all-settings';
+@import 'layouts/_l.container';
+@import 'layouts/_l.flexy';
+
+* {
+  box-sizing: border-box;
+}
+
+.example {
+  padding-top: $mu100;
+  padding-bottom: $mu100;
+
+  &__container {
+    box-shadow: 0 0 0 1px $color-secondary-red-500;
+  }
+
+  &__item {
+    @include set-font-scale('04', 's');
+    @include set-font-face('regular');
+
+    flex: 1;
+    box-shadow: 0 0 0 1px $color-primary-01-500;
+    padding: $mu100 0;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+}

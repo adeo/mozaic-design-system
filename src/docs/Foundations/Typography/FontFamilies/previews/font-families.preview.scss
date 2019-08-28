@@ -1,0 +1,33 @@
+// setup a local config to tell mozaic where are your fonts:
+$local-config: (
+  font-path: '/fonts',
+);
+
+@import 'settings-tools/_all-settings';
+
+.example {
+  padding: $mu100;
+
+  &__font-face {
+    @include set-font-scale('11');
+
+    padding: $mu100 0;
+    margin-bottom: -1px; // compensate for the border width
+    border-bottom: 1px solid rgba($color-secondary-red-500, 0.5);
+
+    &:first-child {
+      margin-top: -1px; // compensate for the border width
+      border-top: 1px solid rgba($color-secondary-red-500, 0.5);
+    }
+
+    @each $key, $value in $font-weights {
+      &--#{$key} {
+        @include set-font-face($key);
+      }
+
+      &--#{$key}-italic {
+        @include set-font-face($key, 'italic');
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import 'settings-tools/all-settings';
+
+$exemple-colors: (
+  s: yellow,
+  m: orange,
+  l: red,
+  xl: purple,
+);
+
+.exemple {
+  width: 100%;
+  height: $mu1000;
+
+  &::after {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-size: $mu200;
+    line-height: 1;
+    padding-top: $mu400;
+  }
+
+  @each $key, $value in $screens {
+    @include set-from-screen($key) {
+      background-color: map-get($exemple-colors, $key);
+
+      &::after {
+        content: '#{$key} > #{$value}';
+      }
+    }
+  }
+}

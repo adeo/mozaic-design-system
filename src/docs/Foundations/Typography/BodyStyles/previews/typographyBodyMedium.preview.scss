@@ -1,0 +1,28 @@
+@import 'settings-tools/_all-settings';
+
+// for example purpose only
+@import 'layouts/_l.flexy';
+
+// body styles imports
+@import 'typography/_t.bodys';
+
+.example {
+  padding: $mu200;
+
+  &__title {
+    @include set-font-scale('07', 's');
+    @include set-font-face('semi-bold');
+
+    text-align: center;
+  }
+
+  &__modifier {
+    @include set-font-scale('04', 's');
+
+    font-family: monospace;
+    display: block;
+    padding: $mu025 $mu050;
+    border: solid 1px $color-grey-200;
+    border-radius: $radius-s * 1px;
+  }
+}
