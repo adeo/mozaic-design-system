@@ -1,4 +1,4 @@
 ---
 title: 'Suggest a pattern enhancement'
-order: 6
+order: 8
 ---

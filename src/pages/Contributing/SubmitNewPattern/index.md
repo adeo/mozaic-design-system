@@ -1,4 +1,4 @@
 ---
 title: 'Submit a new pattern'
-order: 9
+order: 11
 ---
