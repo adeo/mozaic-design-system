@@ -5,7 +5,7 @@ order: 4
 
 ## File uploader sketch file is merged with the global [BA] Forms file :
 
-The sketch file includes other form elements. Here is the section you'll find the toggle :
+The sketch file includes other form elements. Here is the section you'll find the file uploader :
 ![fileuploader-sketch-menu](fileuploader-sketch-menu.png)
 
 ### **👾 For developers :**
