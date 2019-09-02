@@ -2,40 +2,48 @@
 title: 'Code'
 order: 2
 ---
-
 ## Import
+
+Import the settings and the checkbox `scss` files.
 
 ```css
 @import 'settings-tools/_all-settings';
-@import '...';
+@import 'components/_c.file-uploader';
 ```
 
 ## Basic usage
+> Natively, to upload files we use an `<input type="file"/>`, but in Mozaic, we will customize it with a `<label>` that will act as a button.
 
-Apply the classes...
+Wrap a input[type="file"] and a label inside a div and apply the following classes :
 
-```html
-<div class="class">Label</div>
-```
-
-<preview path="src/pages/Components/FileUploader/previews/FileUploader"></preview>
-
-## Variations
-
-use the same variations in the same order as the index page
+<preview path="src/pages/Components/FileUploader/previews/file-uploader"></preview>
 
 ## Behaviors
+### Standard file uploader states :
 
-use the same Behaviors in the same order as the index page
+- `hover`
+- `focus` 
+- `disabled`
 
-## Responsive behaviors
+<preview path="src/pages/Components/FileUploader/previews/file-uploader-all-states"></preview>
 
-use the same Behaviors in the same order as the index page
+### ⭐️ Bonus states
 
-## Extension and customization
+If you wish, you can **customize** the file addition and their states with **javascript**, it is **already designed** for you 🤘 :
 
-how to use the mixins and function to customize
+<preview path="src/pages/Components/FileUploader/previews/file-uploader-with-file"></preview>
+
+## Validation pattern
+
+### Multiple files
+You can choose to upload **several files at the same time** with the multiple attribute.
+<preview path="src/pages/Components/FileUploader/previews/file-uploader-multiple"></preview>
+
+### Accept type of files
+You can also restrict the type or the path of the file to be uploaded.
+`accept=".jpg, .jpeg, .png"` or ` accept="image/*`
+
+<preview path="src/pages/Components/FileUploader/previews/file-uploader-accept"></preview>
 
 ## accessibility and semantic
-
-what tags to use, behaviors and attributes for accessibility purpose
+Don't forget to add the `aria-label` attribute on the `mc-fileuploader__input`
