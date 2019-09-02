@@ -1,42 +1,46 @@
 ---
-title: 'File uploader'
+title: 'File Uploader'
 order: 7
 ---
 
-> Definition
-
-## Variations
-
-Present the basic anatomy and variations of the component in the top of the page. Should help the user see what it is at
-first glance.
-
-### Variation 1
-
-<preview path="src/pages/Components/FileUploader/previews/file-uploader" nude="true"></preview>
-
-### Variation 2
-
-<preview path="src/pages/Components/FileUploader/previews/file-uploader" nude="true"></preview>
+> A file uploader is a pattern mainly used in forms. It allows the user to upload one or several files like pictures or documents.
 
 ## Behaviors
 
-How the pattern behave (users actions, states etc)
+### Initial state
 
-### Behavior 1
+A File uploader is triggered by a medium bordered primary button.
 
-## Responsive behaviors
+<preview path="src/pages/Components/FileUploader/previews/file-uploader" nude="true"></preview>
 
-How the pattern change depending on the screen size
+### Files preview
 
-### Responsive Behavior 1
+> To go further, you can customize the files preview.
 
-## do's and don't
+After uploading a file, a tile is added to the bottom of the component. This tile allows the user to see the file name and its status :
 
-when and how should I use and not use the pattern
+- Uploaded
+- Error
+
+<preview path="src/pages/Components/FileUploader/previews/file-uploader-with-file" nude="true"></preview>
+
+### Two ways to upload
+
+#### Single upload
+
+When the file uploader allows the user to upload only one file it automatically overwrites the previously uploaded file when a new file is uploaded.
+
+#### Multiple upload
+
+When the file uploader allows the user to upload multiple files, the user can select several files in the dedicated browser window. The files will be added with the previously uploaded files if you repeat this action.
+
+---
+
+## Do's and Dont's
 
 <hintitem>
-  Always...
+  Always give feedback to the user when a file is uploaded or not.
 </hintitem>
 <hintitem dont="true">
-  Never...
+  Never use a solid primary button to trigger the upload.
 </hintitem>

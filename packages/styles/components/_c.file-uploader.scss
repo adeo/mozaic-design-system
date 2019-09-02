@@ -37,10 +37,9 @@
       background-size: $mu150;
       margin-right: $mu050;
       margin-left: -$mu050;
-      transform: translateY(-0.125em);
     }
 
-    span {
+    &--center {
       transform: translateY(-0.125em);
     }
 
@@ -77,7 +76,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    padding: $mu050;
+    padding: $mu050 $mu075;
     flex: 1 0 auto;
     display: flex;
   }
@@ -111,7 +110,7 @@
         content: 'Oops, the file is not uploaded';
         position: absolute;
         padding: 0 0 $mu025 0;
-        margin-top: $mu250;
+        margin-top: 2.75rem;
 
         @include set-font-scale('02');
       }

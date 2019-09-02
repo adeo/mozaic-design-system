@@ -27,12 +27,6 @@ Wrap a input[type="file"] and a label inside a div and apply the following class
 
 <preview path="src/pages/Components/FileUploader/previews/file-uploader-all-states"></preview>
 
-### ⭐️ Bonus states
-
-If you wish, you can **customize** the file addition and their states with **javascript**, it is **already designed** for you 🤘 :
-
-<preview path="src/pages/Components/FileUploader/previews/file-uploader-with-file"></preview>
-
 ## Validation pattern
 
 ### Multiple files
@@ -45,5 +39,13 @@ You can also restrict the type or the path of the file to be uploaded.
 
 <preview path="src/pages/Components/FileUploader/previews/file-uploader-accept"></preview>
 
-## accessibility and semantic
+## Accessibility and semantic
 Don't forget to add the `aria-label` attribute on the `mc-fileuploader__input`
+
+## To go further...
+
+### ⭐️ Bonus states
+
+If you wish, you can **customize** the files preview and their states with **javascript**, it is **already designed** for you 🤘 :
+
+<preview path="src/pages/Components/FileUploader/previews/file-uploader-with-file-delete"></preview>

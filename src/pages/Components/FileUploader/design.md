@@ -3,7 +3,36 @@ title: 'Design'
 order: 4
 ---
 
-- how to use sketch lib / settings / data
-- specific naming conventions
-- LATER : customization of libs ?
-- what's included ?
+## File uploader sketch file is merged with the global [BA] Forms file :
+
+The sketch file includes other form elements. Here is the section you'll find the file uploader :
+![fileuploader-sketch-menu](fileuploader-sketch-menu.png)
+
+### **👾 For developers :**
+
+This part is a specific section for developers, **for a better accessibility**. These are all states of Mozaic file uploader.
+
+_They are all available with the **hover** and **focus** preview._
+
+### **🛠 ToolKit :**
+
+The ToolKit section brings together the **dedicated symbols used for building the final symbols**, and you can find them in the symbol overrides.
+<br>
+
+<hint type="dont">
+  <hintitem dont="true">
+  Never use the toolkit symbols in your project.
+  </hintitem>
+</hint>
+
+### **File uploader :**
+
+This is the section where you will find the ready to use symbols for your projects. You can find the different states of the file uploader.
+
+![fileuploader-sketch-menu2](fileuploader-sketch-menu2.png)
+
+- Default
+- With a single file
+- With a removable single file
+- With multiple files
+- With removable multiple files

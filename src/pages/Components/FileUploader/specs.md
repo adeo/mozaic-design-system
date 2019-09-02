@@ -5,7 +5,8 @@ order: 3
 
 ## Anatomy
 
-=> anatomy image
+
+![FileUploader--Specs](FileUploader--Specs.png)
 
 ## Properties
 
@@ -39,7 +40,9 @@ File uploader states colors according to the theme of the `bordered` buttons :
 | **Disabled**       | background-color | `color.button.bordered.disabled.background` |
 | **Disabled**       | color            | `color.button.bordered.disabled.font`       |
 
-Except for the list of uploaded files :
+</br>
+
+**Except for the list of uploaded files** :
 
 | Element            | Property         | Token                                       |
 | ------------------ | ---------------- | ------------------------------------------- |
