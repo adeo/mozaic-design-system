@@ -2,21 +2,13 @@
   @include set-button-theme(get-token(color, button, 'solid'));
   @include set-font-face('semi-bold');
   @include set-button-size($button-medium);
+  @include set-button-layout();
 
   margin: 0;
   box-shadow: none;
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
-  cursor: pointer;
-  border-radius: $button-radius;
-  text-align: center;
-  border: $button-border solid transparent;
-  transition: all ease 200ms;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
 
   &:focus,
   &.is-focus {

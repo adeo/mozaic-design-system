@@ -2707,6 +2707,99 @@ module.exports = {
         }
       }
     },
+    "fileuploader": {
+      "font": {
+        "value": "#000000",
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorFileuploaderFont",
+        "attributes": {
+          "category": "color",
+          "type": "fileuploader",
+          "item": "font"
+        },
+        "path": [
+          "color",
+          "fileuploader",
+          "font"
+        ]
+      },
+      "files": {
+        "list": {
+          "value": "#eeeef0",
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorFileuploaderFilesList",
+          "attributes": {
+            "category": "color",
+            "type": "fileuploader",
+            "item": "files",
+            "subitem": "list"
+          },
+          "path": [
+            "color",
+            "fileuploader",
+            "files",
+            "list"
+          ]
+        },
+        "delete": {
+          "value": "#d3d2d6",
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorFileuploaderFilesDelete",
+          "attributes": {
+            "category": "color",
+            "type": "fileuploader",
+            "item": "files",
+            "subitem": "delete"
+          },
+          "path": [
+            "color",
+            "fileuploader",
+            "files",
+            "delete"
+          ]
+        }
+      },
+      "valid": {
+        "value": "#78be20",
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorFileuploaderValid",
+        "attributes": {
+          "category": "color",
+          "type": "fileuploader",
+          "item": "valid"
+        },
+        "path": [
+          "color",
+          "fileuploader",
+          "valid"
+        ]
+      },
+      "alert": {
+        "value": "#fc961e",
+        "original": {
+          "value": "{color.secondary-orange.500.value}"
+        },
+        "name": "ColorFileuploaderAlert",
+        "attributes": {
+          "category": "color",
+          "type": "fileuploader",
+          "item": "alert"
+        },
+        "path": [
+          "color",
+          "fileuploader",
+          "alert"
+        ]
+      }
+    },
     "font": {
       "primary-01": {
         "value": "#78be20",

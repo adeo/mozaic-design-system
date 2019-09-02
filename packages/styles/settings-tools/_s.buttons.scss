@@ -139,3 +139,15 @@ $button-border: get-border('m');
     }
   }
 }
+
+@mixin set-button-layout {
+  cursor: pointer;
+  border-radius: $button-radius;
+  text-align: center;
+  border: $button-border solid transparent;
+  transition: all ease 200ms;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}

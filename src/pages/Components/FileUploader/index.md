@@ -1,5 +1,5 @@
 ---
-title: 'FileUploader'
+title: 'File uploader'
 order: 7
 ---
 
@@ -12,11 +12,11 @@ first glance.
 
 ### Variation 1
 
-<preview path="src/pages/Components/FileUploader/previews/FileUploader" nude="true"></preview>
+<preview path="src/pages/Components/FileUploader/previews/file-uploader" nude="true"></preview>
 
 ### Variation 2
 
-<preview path="src/pages/Components/FileUploader/previews/FileUploader" nude="true"></preview>
+<preview path="src/pages/Components/FileUploader/previews/file-uploader" nude="true"></preview>
 
 ## Behaviors
 

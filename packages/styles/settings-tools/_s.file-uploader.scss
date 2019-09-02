@@ -1,0 +1,16 @@
+@mixin file-upload-icon ($icon-name: 'valid-24', $color: $color-fileuploader-valid) {
+  content: '';
+  width: $mu150;
+  height: $mu150;
+  flex: 1 0 auto;
+  margin-left: $mu300;
+  background:
+    transparent
+    url(
+      inline-icons(
+        $icon-name,
+        $color
+      )
+    ) center right no-repeat;
+  background-size: $mu150;
+}
