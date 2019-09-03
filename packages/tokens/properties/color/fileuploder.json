@@ -1,0 +1,23 @@
+{
+  "color": {
+    "fileuploader": {
+      "font": {
+        "value": "{color.grey.999.value}"
+      },
+      "files": {
+        "list": {
+          "value":"{color.grey.100.value}"
+        },
+        "delete": {
+          "value": "{color.grey.200.value}" 
+        }
+      },
+      "valid": {
+        "value": "{color.primary-01.500.value}"
+      },
+      "alert": {
+        "value": "{color.secondary-orange.500.value}"
+      }
+    }
+  }
+}

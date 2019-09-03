@@ -204,6 +204,12 @@
     "fullpath": "/icons/Media_TimeRead_64px.svg"
   },
   {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Upload",
+    "fullpath": "/icons/Media_Upload_24px.svg"
+  },
+  {
     "cat": "Navigation",
     "size": "16px",
     "name": "Arrow_Arrow--Bottom",
