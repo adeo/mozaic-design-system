@@ -10,6 +10,7 @@ To get the `get-border ()` function you need to import `_all-settings.scss`.
 ```css
 // mandatory
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 ```
 
 ## Basic usage

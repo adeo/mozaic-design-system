@@ -9,6 +9,7 @@ Import the settings and the links `scss` files.
 
 ```css
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 @import 'components/_c.links';
 ```
 

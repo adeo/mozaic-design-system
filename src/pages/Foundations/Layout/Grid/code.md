@@ -19,6 +19,7 @@ order: 1
 
 ```css
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 @import 'layouts/_l.container'; // you generally want the container as well
 @import 'layouts/_l.flexy';
 ```
@@ -241,6 +242,7 @@ Example : Create a blog post layout with an image and a text. From tablet screen
 
 ```css
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 
 .post-item {
   $gutter: $mu200;
@@ -333,6 +335,7 @@ then import it in your main bundle
 
 ```css
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 ...
 @import 'layouts/_l.flexy';
 @import 'src/_l.flexy-extend'; // insert it right after

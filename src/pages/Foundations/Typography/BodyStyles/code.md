@@ -11,6 +11,7 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 ```css
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 @import 'typography/_t.all-base-typography';
 ```
 
@@ -23,6 +24,7 @@ You can import all base typography scss files by importing the `_a.all-base-typo
 
 ```css
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 @import 'typography/_t.bodys';
 ```
 

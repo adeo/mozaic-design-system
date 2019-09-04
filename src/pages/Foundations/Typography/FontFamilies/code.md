@@ -12,6 +12,7 @@ Params :
 
 ```css
 @import 'settings-tools/_all-settings';
+@import 'settings-tools/_s.fonts-family.scss';
 
 // semi-bold
 @include set-font-face('semi-bold');

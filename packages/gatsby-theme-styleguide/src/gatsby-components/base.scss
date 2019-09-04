@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'LeroyMerlin';
+  font-family: LeroyMerlin;
   src:
     url('../../static/fonts/LeroyMerlinSans-Web-Regular.woff2')
     format('woff2'),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'LeroyMerlin';
+  font-family: LeroyMerlin;
   src:
     url('../../static/fonts/LeroyMerlinSans-Web-SemiBold.woff2')
     format('woff2'),
@@ -20,7 +20,7 @@
 
 body {
   margin: 0;
-  font-family: 'LeroyMerlin', sans-serif;
+  font-family: LeroyMerlin, sans-serif;
   color: #444;
   font-size: 16px;
   line-height: 1.6;
