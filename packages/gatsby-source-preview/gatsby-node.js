@@ -2,6 +2,11 @@ const dirTree = require('directory-tree')
 const fs = require('fs')
 const chokidar = require(`chokidar`)
 const createFSMachine = require('./create-fsmachine')
+
+const previewsParam = process.argv
+  .filter(val => val.startsWith('previews='))
+  .pop()
+
 const {
   nodeIdString,
   createPreviewsObject,
@@ -55,9 +60,11 @@ exports.sourceNodes = (tools, configOptions) => {
 
     let previews = {}
 
-    const tree = addedFile
-      ? { path: addedFile }
-      : dirTree(configOptions.rootPath)
+    const buildPath = previewsParam
+      ? `${configOptions.rootPath}/${previewsParam.split('=')[1]}`
+      : configOptions.rootPath
+
+    const tree = addedFile ? { path: addedFile } : dirTree(buildPath)
 
     createPreviewsObject(tree, previews)
 

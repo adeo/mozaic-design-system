@@ -64,6 +64,14 @@ install dependencies and create symlink between packages :
 lunch the dev server :  
 `yarn develop`
 
+## Targeting compillation of selected previews directory
+
+Compiling previews take a long time, and most of the time you need only to compile the previews you are working on.
+
+To target only previews contained in a directory, add a preview parameter to the develop command containing a path relative to `src/pages/`:
+
+`yarn develop previews=Components/Buttons`
+
 ## Lint and fix your css files using stylelint
 
 ```bash

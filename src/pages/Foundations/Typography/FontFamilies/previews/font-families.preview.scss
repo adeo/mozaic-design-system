@@ -5,6 +5,8 @@ $local-config: (
 
 @import 'settings-tools/_all-settings';
 
+@include import-font-families();
+
 .example {
   padding: $mu100;
 

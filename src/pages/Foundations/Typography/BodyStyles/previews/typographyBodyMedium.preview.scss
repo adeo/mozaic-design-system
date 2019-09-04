@@ -1,5 +1,7 @@
 @import 'settings-tools/_all-settings';
 
+@include import-font-families();
+
 // for example purpose only
 @import 'layouts/_l.flexy';
 
