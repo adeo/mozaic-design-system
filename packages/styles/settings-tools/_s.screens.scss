@@ -15,7 +15,7 @@ $screens: get-token(screen);
   }
 }
 
-$major-screens: ('s', 'm', 'l', 'xl');
+$major-screens: ('s', 'm', 'l', 'xl', 'xxl');
 
 // create modifiers from viewport list
 @mixin modify-from-screens($size-list) {

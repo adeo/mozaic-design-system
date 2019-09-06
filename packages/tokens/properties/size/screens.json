@@ -3,41 +3,38 @@
     "s": {
       "value": "0px"
     },
-    "s-mini": {
+    "s-medium": {
       "value": "320px"
     },
-    "s-medium": {
+    "s-large": {
       "value": "360px"
     },
-    "s-mega": {
+    "s-xlarge": {
       "value": "390px"
     },
     "m": {
-      "value": "576px"
-    },
-    "m-mini": {
       "value": "680px"
     },
     "m-medium": {
       "value": "769px"
     },
-    "m-mega": {
+    "l": {
       "value": "1024px"
     },
-    "l": {
+    "l-medium": {
       "value": "1100px"
     },
-    "l-mini": {
+    "xl": {
       "value": "1280px"
     },
-    "l-medium": {
+    "xl-medium": {
       "value": "1440px"
     },
-    "l-mega": {
+    "xl-large": {
       "value": "1680px"
     },
-    "xl": {
-      "value": "1921px"
+    "xxl": {
+      "value": "1920px"
     }
   }
 }

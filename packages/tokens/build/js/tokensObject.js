@@ -6305,25 +6305,10 @@ module.exports = {
         "s"
       ]
     },
-    "s-mini": {
+    "s-medium": {
       "value": "320px",
       "original": {
         "value": "320px"
-      },
-      "name": "ScreenSMini",
-      "attributes": {
-        "category": "screen",
-        "type": "s-mini"
-      },
-      "path": [
-        "screen",
-        "s-mini"
-      ]
-    },
-    "s-medium": {
-      "value": "360px",
-      "original": {
-        "value": "360px"
       },
       "name": "ScreenSMedium",
       "attributes": {
@@ -6335,25 +6320,40 @@ module.exports = {
         "s-medium"
       ]
     },
-    "s-mega": {
+    "s-large": {
+      "value": "360px",
+      "original": {
+        "value": "360px"
+      },
+      "name": "ScreenSLarge",
+      "attributes": {
+        "category": "screen",
+        "type": "s-large"
+      },
+      "path": [
+        "screen",
+        "s-large"
+      ]
+    },
+    "s-xlarge": {
       "value": "390px",
       "original": {
         "value": "390px"
       },
-      "name": "ScreenSMega",
+      "name": "ScreenSXlarge",
       "attributes": {
         "category": "screen",
-        "type": "s-mega"
+        "type": "s-xlarge"
       },
       "path": [
         "screen",
-        "s-mega"
+        "s-xlarge"
       ]
     },
     "m": {
-      "value": "576px",
+      "value": "680px",
       "original": {
-        "value": "576px"
+        "value": "680px"
       },
       "name": "ScreenM",
       "attributes": {
@@ -6363,21 +6363,6 @@ module.exports = {
       "path": [
         "screen",
         "m"
-      ]
-    },
-    "m-mini": {
-      "value": "680px",
-      "original": {
-        "value": "680px"
-      },
-      "name": "ScreenMMini",
-      "attributes": {
-        "category": "screen",
-        "type": "m-mini"
-      },
-      "path": [
-        "screen",
-        "m-mini"
       ]
     },
     "m-medium": {
@@ -6395,25 +6380,10 @@ module.exports = {
         "m-medium"
       ]
     },
-    "m-mega": {
+    "l": {
       "value": "1024px",
       "original": {
         "value": "1024px"
-      },
-      "name": "ScreenMMega",
-      "attributes": {
-        "category": "screen",
-        "type": "m-mega"
-      },
-      "path": [
-        "screen",
-        "m-mega"
-      ]
-    },
-    "l": {
-      "value": "1100px",
-      "original": {
-        "value": "1100px"
       },
       "name": "ScreenL",
       "attributes": {
@@ -6425,25 +6395,10 @@ module.exports = {
         "l"
       ]
     },
-    "l-mini": {
-      "value": "1280px",
-      "original": {
-        "value": "1280px"
-      },
-      "name": "ScreenLMini",
-      "attributes": {
-        "category": "screen",
-        "type": "l-mini"
-      },
-      "path": [
-        "screen",
-        "l-mini"
-      ]
-    },
     "l-medium": {
-      "value": "1440px",
+      "value": "1100px",
       "original": {
-        "value": "1440px"
+        "value": "1100px"
       },
       "name": "ScreenLMedium",
       "attributes": {
@@ -6455,25 +6410,10 @@ module.exports = {
         "l-medium"
       ]
     },
-    "l-mega": {
-      "value": "1680px",
-      "original": {
-        "value": "1680px"
-      },
-      "name": "ScreenLMega",
-      "attributes": {
-        "category": "screen",
-        "type": "l-mega"
-      },
-      "path": [
-        "screen",
-        "l-mega"
-      ]
-    },
     "xl": {
-      "value": "1921px",
+      "value": "1280px",
       "original": {
-        "value": "1921px"
+        "value": "1280px"
       },
       "name": "ScreenXl",
       "attributes": {
@@ -6483,6 +6423,51 @@ module.exports = {
       "path": [
         "screen",
         "xl"
+      ]
+    },
+    "xl-medium": {
+      "value": "1440px",
+      "original": {
+        "value": "1440px"
+      },
+      "name": "ScreenXlMedium",
+      "attributes": {
+        "category": "screen",
+        "type": "xl-medium"
+      },
+      "path": [
+        "screen",
+        "xl-medium"
+      ]
+    },
+    "xl-large": {
+      "value": "1680px",
+      "original": {
+        "value": "1680px"
+      },
+      "name": "ScreenXlLarge",
+      "attributes": {
+        "category": "screen",
+        "type": "xl-large"
+      },
+      "path": [
+        "screen",
+        "xl-large"
+      ]
+    },
+    "xxl": {
+      "value": "1920px",
+      "original": {
+        "value": "1920px"
+      },
+      "name": "ScreenXxl",
+      "attributes": {
+        "category": "screen",
+        "type": "xxl"
+      },
+      "path": [
+        "screen",
+        "xxl"
       ]
     }
   }

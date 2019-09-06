@@ -1,15 +1,25 @@
 @import 'settings-tools/all-settings';
 
-$exemple-colors: (
+$example-colors: (
   s: yellow,
   m: orange,
   l: red,
   xl: purple,
+  xxl: mediumseagreen
 );
 
-.exemple {
-  width: 100%;
+$border-screen-width: get-border('m');
+$all-border-width: $border-screen-width*2;
+
+.example {
+  width: calc(100% - #{$all-border-width});
   height: $mu1000;
+
+  &--blue-border {
+    @include modify-from-screens($major-screens) {
+      border: solid $border-screen-width blue;
+    }
+  }
 
   &::after {
     font-family: sans-serif;
@@ -23,7 +33,7 @@ $exemple-colors: (
 
   @each $key, $value in $screens {
     @include set-from-screen($key) {
-      background-color: map-get($exemple-colors, $key);
+      background-color: map-get($example-colors, $key);
 
       &::after {
         content: '#{$key} > #{$value}';

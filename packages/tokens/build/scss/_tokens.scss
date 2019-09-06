@@ -323,18 +323,17 @@ $size-line-09-l: 3.25rem !default; // 52px
 $size-gutter-screen-s: 1rem !default;
 $size-gutter-screen-m: 2rem !default;
 $screen-s: 0px !default;
-$screen-s-mini: 320px !default;
-$screen-s-medium: 360px !default;
-$screen-s-mega: 390px !default;
-$screen-m: 576px !default;
-$screen-m-mini: 680px !default;
+$screen-s-medium: 320px !default;
+$screen-s-large: 360px !default;
+$screen-s-xlarge: 390px !default;
+$screen-m: 680px !default;
 $screen-m-medium: 769px !default;
-$screen-m-mega: 1024px !default;
-$screen-l: 1100px !default;
-$screen-l-mini: 1280px !default;
-$screen-l-medium: 1440px !default;
-$screen-l-mega: 1680px !default;
-$screen-xl: 1921px !default;
+$screen-l: 1024px !default;
+$screen-l-medium: 1100px !default;
+$screen-xl: 1280px !default;
+$screen-xl-medium: 1440px !default;
+$screen-xl-large: 1680px !default;
+$screen-xxl: 1920px !default;
 
 $tokens: (
   'border': (
@@ -887,17 +886,16 @@ $tokens: (
   ),
   'screen': (
     's': $screen-s,
-    's-mini': $screen-s-mini,
     's-medium': $screen-s-medium,
-    's-mega': $screen-s-mega,
+    's-large': $screen-s-large,
+    's-xlarge': $screen-s-xlarge,
     'm': $screen-m,
-    'm-mini': $screen-m-mini,
     'm-medium': $screen-m-medium,
-    'm-mega': $screen-m-mega,
     'l': $screen-l,
-    'l-mini': $screen-l-mini,
     'l-medium': $screen-l-medium,
-    'l-mega': $screen-l-mega,
-    'xl': $screen-xl
+    'xl': $screen-xl,
+    'xl-medium': $screen-xl-medium,
+    'xl-large': $screen-xl-large,
+    'xxl': $screen-xxl
   )
 );
