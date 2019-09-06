@@ -1,0 +1,110 @@
+$text-font-size: get-token(size, font, '04');
+$title-font-size: get-token(size, font, '05');
+
+.mc-notification {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  border-width: get-border('s');
+  border-style: solid;
+  font-size: $text-font-size;
+  padding: $mu150 $mu150 $mu150 $mu400;
+
+  @include set-border-radius();
+  @include notification-border-background();
+  @include set-font-face();
+
+  &,
+  &__link,
+  &__title {
+    @include set-color('darkest');
+  }
+
+  &__title,
+  &__message,
+  &__link {
+    margin: 0;
+  }
+
+  &__link {
+    display: block;
+    text-decoration: underline;
+  }
+
+  &__message,
+  &__link {
+    font-size: inherit;
+    font-family: inherit;
+  }
+
+  &__title {
+    font-size: $title-font-size;
+
+    @include set-font-face('semi-bold');
+  }
+
+  &__title + &__message {
+    margin-top: $mu050;
+  }
+
+  &__message + &__link {
+    margin-top: $mu050;
+  }
+
+  &::before {
+    content: '';
+    width: $mu200;
+    height: $mu200;
+    display: block;
+    left: $mu100;
+    top: $mu150;
+    position: absolute;
+
+    @include set-icon();
+
+    background-size: $mu200;
+  }
+
+  &--success {
+    @include notification-border-background('success');
+  }
+
+  &--warning {
+    @include notification-border-background('warning');
+  }
+
+  &--danger {
+    @include notification-border-background('danger');
+  }
+
+  &--success::before {
+    @include set-icon('success');
+  }
+
+  &--warning::before {
+    @include set-icon('warning');
+  }
+
+  &--danger::before {
+    @include set-icon('danger');
+  }
+
+  &__close {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    width: $mu150;
+    height: $mu150;
+    display: block;
+    right: 0.625rem;
+    top: 0.625rem;
+    padding: 0;
+    position: absolute;
+    background: transparent;
+  }
+
+  &__close-icon {
+    width: 100%;
+    height: 100%;
+  }
+}

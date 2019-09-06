@@ -7,26 +7,40 @@ order: 2
 
 ```css
 @import 'settings-tools/_all-settings';
-@import '...';
+@import 'components/_c.notification';
 ```
 
 ## Basic usage
 
-Apply the classes...
+Wrap a `h3`, `p` and a `a` or `button` tags in a `div` and apply the `mc-notification` class:
 
 ```html
-<div class="class">Label</div>
+  <div class="mc-notification">
+    <h3>Notification title</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    </p>
+    <a href="#">Link</a>
+  </div>
 ```
 
-<preview path="src/pages/Components/Notification/Notification/previews/Notification"></preview>
+<preview path="src/pages/Components/Notification/previews/notification"></preview>
+
+## States
+
+Available notification states:
+ - information (default): `mc-notification--information`
+ - success: `mc-notification--success`
+ - warning: `mc-notification--warning`
+ - danger: `mc-notification--danger`
+
+<preview path="src/pages/Components/Notification/previews/notification-states"></preview>
 
 ## Variations
 
-use the same variations in the same order as the index page
+Using `mc-notification-closable` class you have a closable notification:
 
-## Behaviors
-
-use the same Behaviors in the same order as the index page
+<preview path="src/pages/Components/Notification/previews/notification-variations"></preview>
 
 ## Responsive behaviors
 

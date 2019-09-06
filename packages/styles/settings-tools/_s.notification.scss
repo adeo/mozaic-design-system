@@ -1,0 +1,35 @@
+$theme-border-background-icon: (
+  'information': (
+    'border': $color-notification-information-border,
+    'background': $color-notification-information-background,
+    'icon': 'notification-information-32',
+  ),
+  'success': (
+    'border': $color-notification-success-border,
+    'background':$color-notification-success-background,
+    'icon': 'notification-success-32',
+  ),
+  'warning': (
+    'border': $color-notification-warning-border,
+    'background':$color-notification-warning-background,
+    'icon': 'notification-warning-32',
+  ),
+  'danger': (
+    'border': $color-notification-danger-border,
+    'background':$color-notification-danger-background,
+    'icon': 'notification-danger-32',
+  ),
+);
+
+@mixin notification-border-background($state: 'information') {
+  background: map-deep-get($theme-border-background-icon, $state, 'background');
+  border-color: map-deep-get($theme-border-background-icon, $state, 'border');
+}
+
+@mixin set-icon($state: 'information') {
+  $map-color-icon: map-get($theme-border-background-icon, $state);
+  $color: map-get($map-color-icon, 'border');
+  $icon: map-get($map-color-icon, 'icon');
+
+  background: transparent url(inline-icons($icon, $color)) no-repeat;
+}

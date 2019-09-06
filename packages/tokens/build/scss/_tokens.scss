@@ -194,6 +194,15 @@ $color-link-danger-visited: #8b2226 !default;
 $color-link-danger-active: #8b2226 !default;
 $color-link-danger-disabled: #eeeef0 !default;
 $color-link-danger-hover: #8b2226 !default;
+$color-notification-font: #000000 !default;
+$color-notification-information-background: #ecfcfd !default;
+$color-notification-information-border: #25a8d0 !default;
+$color-notification-success-background: #eaf3e2 !default;
+$color-notification-success-border: #78be20 !default;
+$color-notification-warning-background: #fff5eb !default;
+$color-notification-warning-border: #fc961e !default;
+$color-notification-danger-background: #feedee !default;
+$color-notification-danger-border: #df382b !default;
 $color-toggle-off-background: #887f87 !default;
 $color-toggle-off-circle: #ffffff !default;
 $color-toggle-on-background: #78be20 !default;
@@ -629,6 +638,25 @@ $tokens: (
         'active': $color-link-danger-active,
         'disabled': $color-link-danger-disabled,
         'hover': $color-link-danger-hover
+      )
+    ),
+    'notification': (
+      'font': $color-notification-font,
+      'information': (
+        'background': $color-notification-information-background,
+        'border': $color-notification-information-border
+      ),
+      'success': (
+        'background': $color-notification-success-background,
+        'border': $color-notification-success-border
+      ),
+      'warning': (
+        'background': $color-notification-warning-background,
+        'border': $color-notification-warning-border
+      ),
+      'danger': (
+        'background': $color-notification-danger-background,
+        'border': $color-notification-danger-border
       )
     ),
     'toggle': (
