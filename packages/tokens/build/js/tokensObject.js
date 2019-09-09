@@ -2800,6 +2800,598 @@ module.exports = {
         ]
       }
     },
+    "flag": {
+      "solid": {
+        "background": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorFlagSolidBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorFlagSolidBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagSolidText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid",
+            "text"
+          ]
+        }
+      },
+      "solid-primary-campus": {
+        "background": {
+          "value": "#035f64",
+          "original": {
+            "value": "{color.primary-02.600.value}"
+          },
+          "name": "ColorFlagSolidPrimaryCampusBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-primary-campus",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-primary-campus",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#035f64",
+          "original": {
+            "value": "{color.primary-02.600.value}"
+          },
+          "name": "ColorFlagSolidPrimaryCampusBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-primary-campus",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-primary-campus",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagSolidPrimaryCampusText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-primary-campus",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-primary-campus",
+            "text"
+          ]
+        }
+      },
+      "solid-dark": {
+        "background": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagSolidDarkBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-dark",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-dark",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagSolidDarkBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-dark",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-dark",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagSolidDarkText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-dark",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-dark",
+            "text"
+          ]
+        }
+      },
+      "solid-light": {
+        "background": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagSolidLightBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-light",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-light",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagSolidLightBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-light",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-light",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagSolidLightText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-light",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-light",
+            "text"
+          ]
+        }
+      },
+      "solid-danger": {
+        "background": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorFlagSolidDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorFlagSolidDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-danger",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagSolidDangerText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-danger",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "solid-danger",
+            "text"
+          ]
+        }
+      },
+      "bordered": {
+        "background": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorFlagBorderedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorFlagBorderedText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered",
+            "text"
+          ]
+        }
+      },
+      "bordered-primary-campus": {
+        "background": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedPrimaryCampusBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-primary-campus",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-primary-campus",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#035f64",
+          "original": {
+            "value": "{color.primary-02.600.value}"
+          },
+          "name": "ColorFlagBorderedPrimaryCampusBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-primary-campus",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-primary-campus",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#035f64",
+          "original": {
+            "value": "{color.primary-02.600.value}"
+          },
+          "name": "ColorFlagBorderedPrimaryCampusText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-primary-campus",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-primary-campus",
+            "text"
+          ]
+        }
+      },
+      "bordered-dark": {
+        "background": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedDarkBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-dark",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-dark",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagBorderedDarkBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-dark",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-dark",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagBorderedDarkText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-dark",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-dark",
+            "text"
+          ]
+        }
+      },
+      "bordered-light": {
+        "background": {
+          "value": "#000000",
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagBorderedLightBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-light",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-light",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedLightBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-light",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-light",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedLightText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-light",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-light",
+            "text"
+          ]
+        }
+      },
+      "bordered-danger": {
+        "background": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorFlagBorderedDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-danger",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorFlagBorderedDangerText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-danger",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-danger",
+            "text"
+          ]
+        }
+      }
+    },
     "font": {
       "primary-01": {
         "value": "#78be20",
