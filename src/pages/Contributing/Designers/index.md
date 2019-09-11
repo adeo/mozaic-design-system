@@ -9,9 +9,9 @@ This **Definition of Done** page has been divided in 10 steps.
 
 ## 1. The pattern doesn't exist in Mozaic
 I checked that the pattern is not in another library :
-- I looked over Mozaic’s website (Foundations / Components)
-- I checked on GitHub (Pull requests)
-- I checked on Jira (Issues in the kanban board)
+- I looked over Mozaic’s website ([Foundations](https://mozaic.adeo.cloud/Foundations/) / [Components](https://mozaic.adeo.cloud/Components/))
+- I checked on GitHub ([Pull requests](https://github.com/adeo/mozaic-design-system/pulls))
+- I checked on [Jira](https://design-system-adeo.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=MZC&atlOrigin=eyJpIjoiYTI4ZDJhMmU2MTE1NGQyN2FmNWQxYTE3MjkzODAwMjUiLCJwIjoiaiJ9) (Issues in the kanban board)
 
 ## 2. The pattern is stored in the right file
 I checked that my pattern is in the right Sketch library and it’s in somewhere that makes sense.
@@ -19,14 +19,20 @@ I checked that my pattern is in the right Sketch library and it’s in somewhere
 ## 3. The naming conventions have been respected in my file
 A design system needs to respond to a certain number of criterias. Naming conventions is one of the most important.
 
+> Here is a link where you'll find more informations about that : https://mozaic.adeo.cloud/GetStarted/Designers/namingConvention/
+
 ## 4. Every symbols are usable and responsive
 Before asking for review you need to make sure that every symbol in your library is usable and responsive. Usable means that the symbol will be quickly understood by the designers. Responsive means that the symbol can be resized depending on your needs.
 
+> Here is a tutorial to use resizing constraints in Sketch : https://www.sketch.com/docs/layer-basics/constraints/
+
 ## 5. Layer styles and text styles have been applied on the different components
-We created layer and text styles to make the symbol creation process easier. Thank you for making sure to use them 🤘. This will also make the update process way faster.
+We created layer and text styles to make the symbol creation process easier. Make sure to use it, the second time it will be easier that the first time 🤘. This will also make the update process way faster.
 
 ## 6. Paddings and margins use magic unit values (1mu = 16px)
 Every element must use our magic unit standard which is 1 magic unit for 16 pixels.
+
+> Here is a link where you'll find more informations about that : https://mozaic.adeo.cloud/Foundations/MagicUnit/
 
 ## 7. Every patterns coming from other libraries are up to date
 Thank you for checking that every patterns are up to date (look after the “Library update” notifications in Sketch 🤓).
