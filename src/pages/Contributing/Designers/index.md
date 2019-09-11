@@ -19,12 +19,12 @@ I checked that my pattern is in the right Sketch library and it’s in somewhere
 ## 3. The naming conventions have been respected in my file
 A design system needs to respond to a certain number of criterias. Naming conventions is one of the most important. It helps file organization and generates a common language.
 
-> Here is a link where you'll find more informations about that : https://mozaic.adeo.cloud/GetStarted/Designers/namingConvention/
+> Please read the [naming convention documentation](https://mozaic.adeo.cloud/GetStarted/Designers/namingConvention/) to find out more informations about that.
 
 ## 4. Every symbols are usable and responsive
 Before asking for review you need to make sure that every symbol in your library is usable and responsive. Usable means that the symbol will be quickly understood by the designers. Responsive means that the symbol can be resized depending on your needs.
 
-> Here is a tutorial to use resizing constraints in Sketch : https://www.sketch.com/docs/layer-basics/constraints/
+> Here is a [tutorial](https://www.sketch.com/docs/layer-basics/constraints/) to use resizing constraints in Sketch.
 
 ## 5. Layer styles and text styles have been applied on the different components
 We created layer and text styles to make the symbol creation process easier. Make sure to use it, the second time it will be easier that the first time 🤘. This will also make the update process way faster.
@@ -32,12 +32,12 @@ We created layer and text styles to make the symbol creation process easier. Mak
 ## 6. Paddings and margins use magic unit values (1mu = 16px)
 Every element must use our magic unit standard which is 1 magic unit for 16 pixels.
 
-> Here is a link where you'll find more informations about that : https://mozaic.adeo.cloud/Foundations/MagicUnit/
+> Please read the [Magic Unit documentation](https://mozaic.adeo.cloud/Foundations/MagicUnit/) to find out more informations about that.
 
 ## 7. Every patterns coming from other libraries are up to date
 Thank you for checking that every patterns are up to date (look after the “Library update” notifications in Sketch 🤓).
 
-> Here is a link where you'll find more informations about that : https://www.sketch.com/docs/libraries/library-updates
+> Please read [Sketch documentation](https://www.sketch.com/docs/libraries/library-updates) to find out more informations about that.
 
 ## 8. Layers are well organized and follow our guidelines
 Layers should be organized in a top to bottom reading direction to make the override process easier. For example, the header needs to be on top of the layer list and the footer on the bottom of this list. That corresponds to **top to bottom and left to right**.
@@ -51,4 +51,4 @@ When symbol elements can’t be edited you need to lock the possibility to overr
 
 When an element is used twice, you need to create a symbol that will be usable and repeated in the final symbols. This will make the modification process faster when you need to update the component.
 
-You can download the design kit to check how the symbols are built [here](https://github.com/adeo/design-system--styleguide/releases/download/v1.0.1-alpha.19/designer-kit.zip). Every Sketch file we produce is built the same way.
+You can download the [designer kit](https://github.com/adeo/design-system--styleguide/releases/download/v1.0.1-alpha.19/designer-kit.zip) to check how the symbols are built. Every Sketch file we produce is built the same way.
