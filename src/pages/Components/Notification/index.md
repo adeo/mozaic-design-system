@@ -54,4 +54,14 @@ Embedded notifications are positioned at the top of the page, or between two com
 
 They are like the embedded notifications, with a close button.
 
+## Responsive behaviors
+
+A notification width is depending on its context,it can either fit its content or its container.
+
+-- Pattern preview with a small width and with large width --
+
 ## Do's and Dont's
+
+<hintitem>
+  Always use the type of alert that matches with the displayed message.
+</hintitem>
