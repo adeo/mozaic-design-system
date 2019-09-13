@@ -3,6 +3,7 @@ title: 'Code'
 order: 2
 ---
 
+<<<<<<< 51f91bdf3dda0b8cd57fd38b46acf5729f8e9200
 > Rating stars can be used in two ways : (1.) when filing or amending an opinion (2.) when displaying the overall score on a product sheet.
 
 Implementing rating stars :
@@ -177,3 +178,41 @@ These modifiers are to be applied **to the main container** :
 <hintitem>
   To make the global score accessible, we also express it in text form, by inserting an explicit text in a <strong>span.mc-stars-result__text</strong> tag
 </hintitem>
+=======
+## Import
+
+```css
+@import 'settings-tools/_all-settings';
+@import '...';
+```
+
+## Basic usage
+
+Apply the classes...
+
+```html
+<div class="class">Label</div>
+```
+
+<preview path="src/pages/Components/RatingStars/previews/RatingStars"></preview>
+
+## Variations
+
+use the same variations in the same order as the index page
+
+## Behaviors
+
+use the same Behaviors in the same order as the index page
+
+## Responsive behaviors
+
+use the same Behaviors in the same order as the index page
+
+## Extension and customization
+
+how to use the mixins and function to customize
+
+## accessibility and semantic
+
+what tags to use, behaviors and attributes for accessibility purpose
+>>>>>>> feat(pattern/ratingstars): add initial structure

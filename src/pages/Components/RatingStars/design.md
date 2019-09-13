@@ -3,6 +3,7 @@ title: 'Design'
 order: 4
 ---
 
+<<<<<<< 51f91bdf3dda0b8cd57fd38b46acf5729f8e9200
 ## Rating stars sketch file is composed of five sections :
 
 ![preferences](ratingStars--sketch-menu.png)
@@ -23,3 +24,9 @@ This is the section where you will find the ready to use symbols for your projec
 - 02-M--24px
 - 03-L--32px
 - 04-XL--40px
+=======
+- how to use sketch lib / settings / data
+- specific naming conventions
+- LATER : customization of libs ?
+- what's included ?
+>>>>>>> feat(pattern/ratingstars): add initial structure
