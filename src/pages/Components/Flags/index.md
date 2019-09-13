@@ -3,40 +3,54 @@ title: 'Flags'
 order: 10
 ---
 
-> Definition
+> A flag is used to visually categorize an **invariable** content for a given period.
+
+A flag is composed of :
+
+- **A label :** A word or composed word.
+- **A background :** It can be solid or bordered, it allows to specify the degree of importance.
 
 ## Variations
 
-Present the basic anatomy and variations of the component in the top of the page. Should help the user see what it is at
-first glance.
+-- Preview with the all flags --
 
-### Variation 1
+| Color Scheme   | Usage                                                 |
+| -------------- | ----------------------------------------------------- |
+| Primary        | Used to categorize a content with Leroy Merlin        |
+| Primary-Campus | Used to categorize a content with Leroy Merlin Campus |
+| Dark           | Used on light background for alternative content      |
+| Light          | Used on dark background for alternative content       |
+| Danger         | Used for sales content                                |
 
-<preview path="src/pages/src/pages/Components/Flags/previews/Flags" nude="true"></preview>
+### Two styles to make what's important stand out
 
-### Variation 2
+- Solid
+- Bordered
 
-<preview path="src/pages/src/pages/Components/Flags/previews/Flags" nude="true"></preview>
+-- Preview with a solid and with a bordered flag --
 
 ## Behaviors
 
-How the pattern behave (users actions, states etc)
+A flag width is depending to its content.
 
-### Behavior 1
-
-## Responsive behaviors
-
-How the pattern change depending on the screen size
-
-### Responsive Behavior 1
-
-## do's and don't
-
-when and how should I use and not use the pattern
+## Do's and Dont's
 
 <hintitem>
-  Always...
+  Use a flag to categorize a card or a content.
 </hintitem>
+
 <hintitem dont="true">
-  Never...
+  A flag is not a status, the status should be a tag.
+</hintitem>
+
+<hintitem dont="true">
+  Never use it inside a common text.
+</hintitem>
+
+<hintitem dont="true">
+  Never use a sentence or many words inside a flag.
+</hintitem>
+
+<hintitem dont="true">
+  Never use a flag to trigger an action or send the user in a new page. Please use a button or a link.
 </hintitem>
