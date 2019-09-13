@@ -1,0 +1,41 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+```css
+@import 'settings-tools/_all-settings';
+@import '...';
+```
+
+## Basic usage
+
+Apply the classes...
+
+```html
+<div class="class">Label</div>
+```
+
+<preview path="src/pages/Components/RatingStars/previews/RatingStars"></preview>
+
+## Variations
+
+use the same variations in the same order as the index page
+
+## Behaviors
+
+use the same Behaviors in the same order as the index page
+
+## Responsive behaviors
+
+use the same Behaviors in the same order as the index page
+
+## Extension and customization
+
+how to use the mixins and function to customize
+
+## accessibility and semantic
+
+what tags to use, behaviors and attributes for accessibility purpose
