@@ -1,0 +1,34 @@
+$stars: get-token(color, star);
+
+$stars-sizes: (
+  's': (
+    'width': $mu100,
+    'height': $mu100,
+  ),
+  'm': (
+    'width': $mu150,
+    'height': $mu150,
+  ),
+  'l': (
+    'width': $mu200,
+    'height': $mu200,
+  ),
+  'xl': (
+    'width': $mu250,
+    'height': $mu250,
+  ),
+);
+
+$stars-focus-border: get-border('m');
+$stars-focus-radius: get-border-radius('m');
+$stars-default-size: map-get($stars-sizes, 'm');
+
+@mixin set-stars-size($sizeProps) {
+  width: #{map-get($sizeProps, 'width')};
+  height: #{map-get($sizeProps, 'height')};
+}
+
+@mixin set-stars-container($sizeProps) {
+  height: #{map-get($sizeProps, 'height')};
+  width: calc(#{map-get($sizeProps, 'width')} * 5);
+}

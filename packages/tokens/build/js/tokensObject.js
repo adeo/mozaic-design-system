@@ -3730,6 +3730,76 @@ module.exports = {
         }
       }
     },
+    "star": {
+      "empty": {
+        "value": "#d3d2d6",
+        "original": {
+          "value": "{color.grey.200.value}"
+        },
+        "name": "ColorStarEmpty",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "empty"
+        },
+        "path": [
+          "color",
+          "star",
+          "empty"
+        ]
+      },
+      "focus": {
+        "value": "#25a8d0",
+        "original": {
+          "value": "{color.secondary-blue.500.value}"
+        },
+        "name": "ColorStarFocus",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "focus"
+        },
+        "path": [
+          "color",
+          "star",
+          "focus"
+        ]
+      },
+      "full": {
+        "value": "#fc961e",
+        "original": {
+          "value": "{color.secondary-orange.500.value}"
+        },
+        "name": "ColorStarFull",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "full"
+        },
+        "path": [
+          "color",
+          "star",
+          "full"
+        ]
+      },
+      "hover": {
+        "value": "#ffc17d",
+        "original": {
+          "value": "{color.secondary-orange.300.value}"
+        },
+        "name": "ColorStarHover",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "star",
+          "hover"
+        ]
+      }
+    },
     "toggle": {
       "off": {
         "background": {

@@ -12,12 +12,6 @@ first glance.
 
 ### Variation 1
 
-<preview path="src/pages/Components/RatingStars/previews/RatingStars" nude="true"></preview>
-
-### Variation 2
-
-<preview path="src/pages/Components/RatingStars/previews/RatingStars" nude="true"></preview>
-
 ## Behaviors
 
 How the pattern behave (users actions, states etc)
