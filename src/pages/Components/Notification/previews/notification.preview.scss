@@ -1,15 +1,7 @@
 @import 'settings-tools/_all-settings';
+@import 'components/_c.links';
 @import 'components/_c.notification';
 
 .example {
-  height: 15rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: $mu150;
-}
-
-.example .mc-notification {
-  width: 35%;
+  padding: $mu250;
 }

@@ -2,22 +2,57 @@ $text-font-size: get-token(size, font, '04');
 $title-font-size: get-token(size, font, '05');
 
 .mc-notification {
-  box-sizing: border-box;
-  position: relative;
-  display: inline-block;
-  border-width: get-border('s');
-  border-style: solid;
-  font-size: $text-font-size;
-  padding: $mu150 $mu150 $mu150 $mu400;
-
   @include set-border-radius();
   @include notification-border-background();
   @include set-font-face();
+  @include set-color('darkest');
+  @include set-flexy();
 
-  &,
-  &__link,
-  &__title {
-    @include set-color('darkest');
+  box-sizing: border-box;
+  border-width: get-border('s');
+  border-style: solid;
+  font-size: $text-font-size;
+  padding: $mu150 $mu100;
+
+  // type icon
+  &::before {
+    @include set-icon('information');
+
+    flex: 0 1 auto;
+    content: '';
+    width: $mu200;
+    height: $mu200;
+    padding-right: $mu100;
+    display: block;
+    background-size: $mu200;
+  }
+
+  &--success {
+    @include notification-border-background('success');
+
+    &::before {
+      @include set-icon('success');
+    }
+  }
+
+  &--warning {
+    @include notification-border-background('warning');
+
+    ::before {
+      @include set-icon('warning');
+    }
+  }
+
+  &--danger {
+    @include notification-border-background('danger');
+
+    ::before {
+      @include set-icon('danger');
+    }
+  }
+
+  &__content {
+    flex: 1 1 0;
   }
 
   &__title,
@@ -31,16 +66,10 @@ $title-font-size: get-token(size, font, '05');
     text-decoration: underline;
   }
 
-  &__message,
-  &__link {
-    font-size: inherit;
-    font-family: inherit;
-  }
-
   &__title {
-    font-size: $title-font-size;
-
     @include set-font-face('semi-bold');
+
+    font-size: $title-font-size;
   }
 
   &__title + &__message {
@@ -51,45 +80,8 @@ $title-font-size: get-token(size, font, '05');
     margin-top: $mu050;
   }
 
-  &::before {
-    content: '';
-    width: $mu200;
-    height: $mu200;
-    display: block;
-    left: $mu100;
-    top: $mu150;
-    position: absolute;
-
-    @include set-icon();
-
-    background-size: $mu200;
-  }
-
-  &--success {
-    @include notification-border-background('success');
-  }
-
-  &--warning {
-    @include notification-border-background('warning');
-  }
-
-  &--danger {
-    @include notification-border-background('danger');
-  }
-
-  &--success::before {
-    @include set-icon('success');
-  }
-
-  &--warning::before {
-    @include set-icon('warning');
-  }
-
-  &--danger::before {
-    @include set-icon('danger');
-  }
-
   &__close {
+    flex: 0 1 auto;
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -99,8 +91,8 @@ $title-font-size: get-token(size, font, '05');
     right: 0.625rem;
     top: 0.625rem;
     padding: 0;
-    position: absolute;
     background: transparent;
+    transform: translateX($mu050) translateY(-$mu100);
   }
 
   &__close-icon {
