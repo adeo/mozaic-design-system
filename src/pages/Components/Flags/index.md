@@ -3,7 +3,7 @@ title: 'Flags'
 order: 10
 ---
 
-> A flag is used to visually categorize an **invariable** content for a given period.
+> A flag is used as a component header to categorize its content. Please use a [tag](/Components/Tags/) if you need to display additional information.
 
 A flag is composed of :
 
@@ -12,14 +12,14 @@ A flag is composed of :
 
 ## Variations
 
--- Preview with the all flags --
+<preview path="src/pages/Components/Flags/previews/flag-all"></preview>
 
 | Color Scheme   | Usage                                                 |
 | -------------- | ----------------------------------------------------- |
-| Primary        | Used to categorize a content with Leroy Merlin        |
-| Primary-Campus | Used to categorize a content with Leroy Merlin Campus |
-| Dark           | Used on light background for alternative content      |
-| Light          | Used on dark background for alternative content       |
+| Primary        | For related content to Leroy Merlin                   |
+| Primary-Campus | For related content to Leroy Merlin Campus            |
+| Dark           | Used on light background for neutral content          |
+| Light          | Used on dark background for neutral content           |
 | Danger         | Used for sales content                                |
 
 ### Two styles to make what's important stand out
@@ -27,7 +27,7 @@ A flag is composed of :
 - Solid
 - Bordered
 
--- Preview with a solid and with a bordered flag --
+<preview path="src/pages/Components/Flags/previews/flag-intro"></preview>
 
 ## Behaviors
 
