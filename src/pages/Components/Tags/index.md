@@ -3,44 +3,50 @@ title: 'Tags'
 order: 6
 ---
 
-> Tags are used to categorize, show filters or make selections. They are compact components mostly used as secondary content to display additional information.
+> Tags are used to categorize, show filters or make selections. They are compact components mostly used as secondary content when you have to deal with a product property.
 
 -- Preview of the four tags --
 
-## Sizes
-
-There are two sizes for tags to create hierarchy and for a better adaptability :
-
-- Small
-- Medium
-
-# Il existe 2 catégories de tags
-
-- Text + Clickable
-- Selectable + Removable
-
-When you have to deal with a product property
-
 ## Four Tags variations for different usages
+
+### Text tags
+
+Clickable tags are used to display relative keywords of an item or a content. They are used to create a cloud tag when a content live in a multiple categories.
+
+-- Preview text tags --
 
 ### Link tags
 
-Link tags are used to display relative keywords of an item or a content. They are used to create a cloud tag when a content live in a multiple categories.
+Link tags are a variation of the text tags, they have the same appearance but they are **used as a link**.
 
--- Preview link tags --
-
-### Removable tags
-
-Filter Tags are used to display keywords that can help users find, group and classify large amount of data by common attributes.
-They are the result of selected values in a filter panel and can be removed by taping.
-
--- Preview filter tags --
+-- Preview text tags --
 
 ### Selectable tags
 
-Choice tags are used to select (or deselect) values from a proposal of multiple keywords. They are a good alternative to radio buttons, checkboxes or toggle buttons when you have to make a select values in a hero.
+Selectable tags are used to select (or deselect) values from a proposal of multiple keywords. They are a good alternative to radio buttons, checkboxes or toggle buttons when you need to select values **outside a form**.
 
--- Preview choice tags --
+-- Preview selectable tags --
+
+### Removable tags
+
+Removable tags are indicators for the users, they are the result of the previously selected values and can be removed by taping.
+
+-- Preview removable tags --
+
+## There are two sizes for tags to create hierarchy and for a better adaptability
+
+-- Preview size tags --
+
+| Size   | Height value  |
+| ------ | ------------- |
+| Small  | 1.5 mu (24px) |
+| Medium | 2 mu (32px)   |
+
+## Spacing in tags group
+
+Tags are mainly used in group. The spacings between each of them must be 1 mu (16px), horizontally and vertically.
+
+-- Preview tags group --
 
 ## Do's and Don'ts
 
@@ -53,7 +59,7 @@ Choice tags are used to select (or deselect) values from a proposal of multiple 
 </hintitem>
 
 <hintitem dont="true">
-    Never use a choice tags alone.
+    Never use a selectable tag alone.
 </hintitem>
 
 <hintitem dont="true">
