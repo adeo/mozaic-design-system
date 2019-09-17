@@ -1,9 +1,10 @@
-$text-font-size: get-token(size, font, '04');
-$title-font-size: get-token(size, font, '05');
+$notification-text-font-size: get-token(size, font, '04');
+$notification-title-font-size: get-token(size, font, '05');
+$notification-close-icon-color: get-token(color, notification, font);
 
 .mc-notification {
   @include set-border-radius();
-  @include notification-border-background();
+  @include set-notification-border-background('information');
   @include set-font-face();
   @include set-color('darkest');
   @include set-flexy();
@@ -11,7 +12,7 @@ $title-font-size: get-token(size, font, '05');
   box-sizing: border-box;
   border-width: get-border('s');
   border-style: solid;
-  font-size: $text-font-size;
+  font-size: $notification-text-font-size;
   padding: $mu150 $mu100;
 
   // type icon
@@ -27,27 +28,13 @@ $title-font-size: get-token(size, font, '05');
     background-size: $mu200;
   }
 
-  &--success {
-    @include notification-border-background('success');
+  @each $theme, $props in $theme-border-background-icon {
+    &--#{$theme} {
+      @include set-notification-border-background($theme);
 
-    &::before {
-      @include set-icon('success');
-    }
-  }
-
-  &--warning {
-    @include notification-border-background('warning');
-
-    ::before {
-      @include set-icon('warning');
-    }
-  }
-
-  &--danger {
-    @include notification-border-background('danger');
-
-    ::before {
-      @include set-icon('danger');
+      &::before {
+        @include set-icon($theme);
+      }
     }
   }
 
@@ -69,7 +56,7 @@ $title-font-size: get-token(size, font, '05');
   &__title {
     @include set-font-face('semi-bold');
 
-    font-size: $title-font-size;
+    font-size: $notification-title-font-size;
   }
 
   &__title + &__message {
@@ -91,7 +78,9 @@ $title-font-size: get-token(size, font, '05');
     right: 0.625rem;
     top: 0.625rem;
     padding: 0;
-    background: transparent;
+    background:
+      transparent
+      url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
     transform: translateX($mu050) translateY(-$mu100);
   }
 

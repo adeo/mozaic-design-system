@@ -42,14 +42,11 @@ Using `mc-notification-closable` class you have a closable notification:
 
 <preview path="src/pages/Components/Notification/previews/notification-variations"></preview>
 
-## Responsive behaviors
+## Accessibility and semantic
 
-use the same Behaviors in the same order as the index page
-
-## Extension and customization
-
-how to use the mixins and function to customize
-
-## accessibility and semantic
-
-what tags to use, behaviors and attributes for accessibility purpose
+<hintitem>
+  Don't forget to set <code>role="alert"</code> in the notification when It's used to alert about a result of user's action
+</hintitem>
+<hintitem>
+   Always use a title attribute on the close button <code>title="Close"</code>
+</hintitem>

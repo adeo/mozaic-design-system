@@ -21,7 +21,7 @@ $theme-border-background-icon: (
   ),
 );
 
-@mixin notification-border-background($state: 'information') {
+@mixin set-notification-border-background($state: 'information') {
   background: map-deep-get($theme-border-background-icon, $state, 'background');
   border-color: map-deep-get($theme-border-background-icon, $state, 'border');
 }

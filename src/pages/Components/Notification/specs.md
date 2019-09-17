@@ -33,17 +33,17 @@ Available states:
 
 Notification state colors for each state:
 
-| State           | Property         | Token                                         |
-| --------------- | ---------------- | --------------------------------------------- |
-| **Information** | background-color | `color.notification.information.background`   |
-| **Information** | border-color     | `color.notification.information.border`       |
-| **Information** | color            | `color.notification.font`                     |
-| **Success**     | background-color | `color.notification.success.background`       |
-| **Success**     | border-color     | `color.notification.success.border`           |
-| **Success**     | color            | `color.notification.font`                     |
-| **Warning**     | background-color | `color.notification.warning.background`       |
-| **Warning**     | border-color     | `color.notification.warning.border`           |
-| **Warning**     | color            | `color.notification.font`                     |
-| **Danger**      | background-color | `color.notification.danger.background`        |
-| **Danger**      | border-color     | `color.notification.danger.border`            |
-| **Danger**      | color            | `color.notification.font`                     |
+| State           | Property         | Token                                         | Hex Value
+| --------------- | ---------------- | --------------------------------------------- | ------------- |
+| **Information** | background-color | `color.notification.information.background`   | #ecfcfd
+| **Information** | border-color     | `color.notification.information.border`       | #25a8d0
+| **Information** | color            | `color.notification.font`                     | #000000
+| **Success**     | background-color | `color.notification.success.background`       | #eaf3e2
+| **Success**     | border-color     | `color.notification.success.border`           | #78be20
+| **Success**     | color            | `color.notification.font`                     | #000000
+| **Warning**     | background-color | `color.notification.warning.background`       | #fff5eb
+| **Warning**     | border-color     | `color.notification.warning.border`           | #fc961e
+| **Warning**     | color            | `color.notification.font`                     | #000000
+| **Danger**      | background-color | `color.notification.danger.background`        | #feedee
+| **Danger**      | border-color     | `color.notification.danger.border`            | #df382b
+| **Danger**      | color            | `color.notification.font`                     | #000000
