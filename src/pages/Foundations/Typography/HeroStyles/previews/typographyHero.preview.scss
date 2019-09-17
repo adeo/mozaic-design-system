@@ -1,4 +1,7 @@
 @import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
 @import 'typography/_t.heros';
 
 // for example purpose only

@@ -10,6 +10,9 @@ To get the `set-border-radius()` mixin, you need to import `_all-settings.scss`.
 ```css
 // mandatory
 @import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
 ```
 
 ## Basic usage
