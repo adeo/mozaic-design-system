@@ -3,16 +3,7 @@
 
   // hide the input
   &__input {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-    visibility: visible;
-    white-space: nowrap;
+    @include set-hidden-input();
   }
 
   &__label {
@@ -41,16 +32,21 @@
 
     // the switch background
     &::before {
+      @include set-focus-styles-before();
+
       background-color: $color-toggle-off-background;
-      will-change: background-color;
-      transition: background-color 100ms ease, border-color 100ms ease;
+      will-change: background-color, border-color, box-shadow;
+      transition:
+        background-color 100ms ease,
+        border-color 100ms ease,
+        box-shadow 150ms ease;
 
       :checked + & {
         background-color: $color-toggle-on-background;
       }
 
       :focus + & {
-        box-shadow: 0 0 0 get-border('m') $color-input-focus-border;
+        @include set-focus-styles-during();
       }
 
       :disabled + & {
