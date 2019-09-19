@@ -3,16 +3,7 @@
   display: block;
 
   &__input {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-    visibility: visible;
-    white-space: nowrap;
+    @include set-hidden-input();
   }
 
   &__label {
@@ -33,7 +24,9 @@
       height: $mu150;
       display: flex;
       align-items: center;
-      background: transparent url(inline-icons('upload-24', $color-fileuploader-valid)) no-repeat;
+      background:
+        transparent
+        url(inline-icons('upload-24', $color-fileuploader-valid)) no-repeat;
       background-size: $mu150;
       margin-right: $mu050;
       margin-left: -$mu050;
@@ -55,13 +48,18 @@
 
     :disabled + &,
     .is-disabled + & {
-      @include set-button-theme(get-token(color, button, 'bordered', 'disabled'));
+      @include set-button-theme(
+        get-token(color, button, 'bordered', 'disabled')
+      );
 
       border-color: transparent;
       cursor: default;
 
       &::before {
-        background: transparent url(inline-icons('upload-24', $color-button-bordered-disabled-font)) no-repeat;
+        background:
+          transparent
+          url(inline-icons('upload-24', $color-button-bordered-disabled-font))
+          no-repeat;
       }
     }
   }
@@ -128,7 +126,9 @@
       content: '';
       width: $mu150;
       height: $mu150;
-      background: transparent url(inline-icons('delete-24', $color-fileuploader-font)) no-repeat;
+      background:
+        transparent
+        url(inline-icons('delete-24', $color-fileuploader-font)) no-repeat;
       display: block;
     }
   }

@@ -1,0 +1,23 @@
+@mixin unstyle-button() {
+  margin: 0;
+  box-shadow: none;
+  text-decoration: none;
+  outline: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+@mixin unstyle-list() {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@mixin unstyle-list-inline() {
+  @include unstyle-list();
+
+  display: flex;
+  flex-flow: row wrap;
+}
