@@ -3730,6 +3730,185 @@ module.exports = {
         }
       }
     },
+    "notification": {
+      "font": {
+        "value": "#000000",
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorNotificationFont",
+        "attributes": {
+          "category": "color",
+          "type": "notification",
+          "item": "font"
+        },
+        "path": [
+          "color",
+          "notification",
+          "font"
+        ]
+      },
+      "information": {
+        "background": {
+          "value": "#ecfcfd",
+          "original": {
+            "value": "{color.secondary-blue.100.value}"
+          },
+          "name": "ColorNotificationInformationBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "information",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "information",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#25a8d0",
+          "original": {
+            "value": "{color.secondary-blue.500.value}"
+          },
+          "name": "ColorNotificationInformationBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "information",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "information",
+            "border"
+          ]
+        }
+      },
+      "success": {
+        "background": {
+          "value": "#eaf3e2",
+          "original": {
+            "value": "{color.primary-01.100.value}"
+          },
+          "name": "ColorNotificationSuccessBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "success",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "success",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorNotificationSuccessBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "success",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "success",
+            "border"
+          ]
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "#fff5eb",
+          "original": {
+            "value": "{color.secondary-orange.100.value}"
+          },
+          "name": "ColorNotificationWarningBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "warning",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "warning",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#fc961e",
+          "original": {
+            "value": "{color.secondary-orange.500.value}"
+          },
+          "name": "ColorNotificationWarningBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "warning",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "warning",
+            "border"
+          ]
+        }
+      },
+      "danger": {
+        "background": {
+          "value": "#feedee",
+          "original": {
+            "value": "{color.secondary-red.100.value}"
+          },
+          "name": "ColorNotificationDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#df382b",
+          "original": {
+            "value": "{color.secondary-red.500.value}"
+          },
+          "name": "ColorNotificationDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "danger",
+            "border"
+          ]
+        }
+      }
+    },
     "toggle": {
       "off": {
         "background": {
