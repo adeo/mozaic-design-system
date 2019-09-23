@@ -3,35 +3,48 @@ title: 'Flags'
 order: 10
 ---
 
-> A flag is used as a component header to categorize its content. Please use a [tag](/Components/Tags/) if you need to display additional information.
+> A flag is used to display meta-informations about a product or a service. It must be displayed at the top of the content, and used as an indicator of a content main category.
 
-A flag is composed of :
-
-- **A label :** A word or composed word.
-- **A background :** It can be solid or bordered, it allows to specify the degree of importance.
-
-## Variations
+Please use a [tag](/Components/Tags/) if you need to display additional information.
 
 <preview path="src/pages/Components/Flags/previews/flag-all"></preview>
 
-| Color Scheme   | Usage                                                 |
-| -------------- | ----------------------------------------------------- |
-| Primary        | For related content to Leroy Merlin                   |
-| Primary-Campus | For related content to Leroy Merlin Campus            |
-| Dark           | Used on light background for neutral content          |
-| Light          | Used on dark background for neutral content           |
-| Danger         | Used for sales content                                |
+## Variations
+
+There is different usages, depending on a color scheme.
+
+### Primary
+
+For display meta-informations on Leroy Merlin related content. It's used to indicate which products or services are exclusive to Leroy Merlin.
+
+![Flags-Primary--Zoning](Flags-Primary--Zoning.png)
+
+### Primary-Campus
+
+For display meta-informations on Leroy Merlin Campus related content . For example for the DIY courses card.
+
+![Flags-PrimaryCampus--Zoning](Flags-PrimaryCampus--Zoning.png)
+
+### Light & Dark
+
+Used to indicate when a product is new.
+
+![Flags-DarkLight--Zoning](Flags-DarkLight--Zoning.png)
+
+### Danger
+
+Used for sales content, to display meta-informations about a discount on a article or a product page.
+
+![Flags-Danger--Zoning](Flags-Danger--Zoning.png)
 
 ### Two styles to make what's important stand out
+
+The styles are useful to create hierarchy, depending on your need and the constrast of the background.
 
 - Solid
 - Bordered
 
 <preview path="src/pages/Components/Flags/previews/flag-intro"></preview>
-
-## Behaviors
-
-A flag width is depending to its content.
 
 ## Do's and Dont's
 
@@ -40,11 +53,7 @@ A flag width is depending to its content.
 </hintitem>
 
 <hintitem dont="true">
-  A flag is not a status, the status should be a tag.
-</hintitem>
-
-<hintitem dont="true">
-  Never use it inside a common text.
+  Never use it inside a paragraph.
 </hintitem>
 
 <hintitem dont="true">
@@ -52,5 +61,9 @@ A flag width is depending to its content.
 </hintitem>
 
 <hintitem dont="true">
-  Never use a flag to trigger an action or send the user in a new page. Please use a button or a link.
+  Never use a flag as a clickable element, to trigger an action or as a link.
+</hintitem>
+
+<hintitem dont="true">
+  Never stretch a flag. Flag is never fluid, its width is depending on its content.
 </hintitem>
