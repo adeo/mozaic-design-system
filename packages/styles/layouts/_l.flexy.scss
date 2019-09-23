@@ -9,7 +9,7 @@
     }
   }
 
-  &--space-aroud {
+  &--space-around {
     @include modify-from-screens($major-screens) {
       justify-content: space-around;
     }
