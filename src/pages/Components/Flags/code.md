@@ -65,11 +65,11 @@ example :
 
 <preview path="src/pages/Components/Flags/previews/flag-bordered"></preview>
 
-## Mixins
+## Customization and mixins
 
-### The mixin flag
+### The set-flag-theme mixin
 
-If you need to create a new flag theme you need to define a new SASS map, see below :
+In case you need to create a new flag theme you'll need to define a new SASS map, see below :
 
 ```css
 $my-map: (
@@ -81,7 +81,7 @@ $my-map: (
 );
 ```
 
-Now the map of your theme is define you can use the mixin `set-flag-theme`.
+Once the map of your theme is defined you can use the mixin `set-flag-theme`.
 
 ```css
 .mc-flag--my-custom-theme {
