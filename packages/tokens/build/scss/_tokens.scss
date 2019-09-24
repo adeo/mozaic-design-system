@@ -146,6 +146,36 @@ $color-fileuploader-files-list: #eeeef0 !default;
 $color-fileuploader-files-delete: #d3d2d6 !default;
 $color-fileuploader-valid: #78be20 !default;
 $color-fileuploader-alert: #fc961e !default;
+$color-flag-solid-background: #78be20 !default;
+$color-flag-solid-border: #78be20 !default;
+$color-flag-solid-text: #ffffff !default;
+$color-flag-solid-primary-campus-background: #035f64 !default;
+$color-flag-solid-primary-campus-border: #035f64 !default;
+$color-flag-solid-primary-campus-text: #ffffff !default;
+$color-flag-solid-dark-background: #000000 !default;
+$color-flag-solid-dark-border: #000000 !default;
+$color-flag-solid-dark-text: #ffffff !default;
+$color-flag-solid-light-background: #ffffff !default;
+$color-flag-solid-light-border: #ffffff !default;
+$color-flag-solid-light-text: #000000 !default;
+$color-flag-solid-danger-background: #df382b !default;
+$color-flag-solid-danger-border: #df382b !default;
+$color-flag-solid-danger-text: #ffffff !default;
+$color-flag-bordered-background: #ffffff !default;
+$color-flag-bordered-border: #78be20 !default;
+$color-flag-bordered-text: #78be20 !default;
+$color-flag-bordered-primary-campus-background: #ffffff !default;
+$color-flag-bordered-primary-campus-border: #035f64 !default;
+$color-flag-bordered-primary-campus-text: #035f64 !default;
+$color-flag-bordered-dark-background: #ffffff !default;
+$color-flag-bordered-dark-border: #000000 !default;
+$color-flag-bordered-dark-text: #000000 !default;
+$color-flag-bordered-light-background: #000000 !default;
+$color-flag-bordered-light-border: #ffffff !default;
+$color-flag-bordered-light-text: #ffffff !default;
+$color-flag-bordered-danger-background: #ffffff !default;
+$color-flag-bordered-danger-border: #df382b !default;
+$color-flag-bordered-danger-text: #df382b !default;
 $color-font-primary-01: #78be20 !default;
 $color-font-primary-02: #007574 !default;
 $color-font-darkest: #000000 !default;
@@ -557,6 +587,58 @@ $tokens: (
       ),
       'valid': $color-fileuploader-valid,
       'alert': $color-fileuploader-alert
+    ),
+    'flag': (
+      'solid': (
+        'background': $color-flag-solid-background,
+        'border': $color-flag-solid-border,
+        'text': $color-flag-solid-text
+      ),
+      'solid-primary-campus': (
+        'background': $color-flag-solid-primary-campus-background,
+        'border': $color-flag-solid-primary-campus-border,
+        'text': $color-flag-solid-primary-campus-text
+      ),
+      'solid-dark': (
+        'background': $color-flag-solid-dark-background,
+        'border': $color-flag-solid-dark-border,
+        'text': $color-flag-solid-dark-text
+      ),
+      'solid-light': (
+        'background': $color-flag-solid-light-background,
+        'border': $color-flag-solid-light-border,
+        'text': $color-flag-solid-light-text
+      ),
+      'solid-danger': (
+        'background': $color-flag-solid-danger-background,
+        'border': $color-flag-solid-danger-border,
+        'text': $color-flag-solid-danger-text
+      ),
+      'bordered': (
+        'background': $color-flag-bordered-background,
+        'border': $color-flag-bordered-border,
+        'text': $color-flag-bordered-text
+      ),
+      'bordered-primary-campus': (
+        'background': $color-flag-bordered-primary-campus-background,
+        'border': $color-flag-bordered-primary-campus-border,
+        'text': $color-flag-bordered-primary-campus-text
+      ),
+      'bordered-dark': (
+        'background': $color-flag-bordered-dark-background,
+        'border': $color-flag-bordered-dark-border,
+        'text': $color-flag-bordered-dark-text
+      ),
+      'bordered-light': (
+        'background': $color-flag-bordered-light-background,
+        'border': $color-flag-bordered-light-border,
+        'text': $color-flag-bordered-light-text
+      ),
+      'bordered-danger': (
+        'background': $color-flag-bordered-danger-background,
+        'border': $color-flag-bordered-danger-border,
+        'text': $color-flag-bordered-danger-text
+      )
     ),
     'font': (
       'primary-01': $color-font-primary-01,
