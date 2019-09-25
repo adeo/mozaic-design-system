@@ -24,14 +24,14 @@ The project Use a monorepo architecture using [lerna](https://github.com/lerna/l
 Lerna help us to manage the distribution and the versionning of multiple packages into the same repository.  
 It also create symlink between the individual packages nodes_modules so they can be used in one another as npm dependencies.
 
-When releasing the design system, lerna will automaticaly generate changelogs for the global/parent repo, as well as for the individual packages and select a version number based on the commit syntax. It's why it is very important that you follow the [contributing guidelines](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md).
+When releasing the design system, lerna will automaticaly generate changelogs for the global/parent repo, as well as for the individual packages and select a version number based on the commit syntax. It's why it is very important that you follow the [contributing guidelines](/Contributing/GitConventions/).
 
 please [read the docs](https://github.com/lerna/lerna/) to learn more about it.
 
 ### Clone the repo and start the development environement
 
 clone the repo :  
-`git clone git@github.com:adeo/design-system--styleguide.git`
+`git clone git@github.com:adeo/mozaic-design-system.git`
 
 move to the repo :  
 `cd design-system--styleguide`
@@ -81,7 +81,7 @@ stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuf
 
 ## CI/CD
 
-If you want more explanation go to the related [wiki page](https://github.com/adeo/design-system--styleguide/wiki/CI-CD).
+If you want more explanation go to the related [wiki page](https://github.com/adeo/mozaic-design-system/wiki/CI-CD).
 
 ### Deploy
 
