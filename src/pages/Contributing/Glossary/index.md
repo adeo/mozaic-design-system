@@ -3,8 +3,8 @@ title: 'Glossary'
 order: 2
 ---
 
-> This is a list of terms we use currently in our routine with Mozaic, we’re adding here these terms + definitions just in case you are wondering “what the heck does it mean?” well, here you’ll have the proper info! :)
-> Oh… as we’re far of being perfect, if you find something that’s missing, feel free to add or give us a shout on #mozaic-support
+> This is a list of terms we use in our routine with Mozaic. We are adding these terms and definitions just in case you are wondering "What the heck does it mean ?". Well, you will find the proper piece of informations on this page 🙃.
+> Oh… As we’re far of being perfect, if you find something that’s missing, feel free to add or give us a shout on #mozaic-support
 
 ## Design system
 
