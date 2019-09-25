@@ -1,0 +1,24 @@
+---
+title: 'Getting started'
+order: 1
+---
+
+## Follow the guide
+
+<br>
+
+### [Principles](/GetStarted/Principles/)
+
+Leroymerlin and ADEO's Design principles
+
+<br>
+
+### [Developer guide](/GetStarted/Developers/)
+
+Everything you need to know to install, use, extend or override Mozaic
+
+<br>
+
+### [Designer guide](/GetStarted/Designers/)
+
+How to use, Design kits, assets, rules.

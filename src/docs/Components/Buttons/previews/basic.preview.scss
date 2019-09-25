@@ -4,6 +4,10 @@
 
 @import 'components/_c.button';
 
+* {
+  box-sizing: border-box;
+}
+
 .example {
   text-align: center;
   margin: $mu100 auto;

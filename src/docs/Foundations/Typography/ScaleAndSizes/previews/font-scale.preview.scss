@@ -1,5 +1,7 @@
 @import 'settings-tools/_all-settings';
 
+@include import-font-families();
+
 $font-sizes: get-token(size, font);
 
 .example {
