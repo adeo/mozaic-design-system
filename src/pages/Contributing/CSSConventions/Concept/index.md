@@ -83,6 +83,8 @@ Note that in the following examples, the prefixes are symbolised by `pr` in fron
 
 > You can think of them as components, they are reusable pieces of interface.
 
+The block name defines the namespace for its elements and modifiers.
+
 #### css/scss syntax :
 
 ```css
@@ -111,6 +113,8 @@ Note that in the following examples, the prefixes are symbolised by `pr` in fron
 
 > A constituant of a block, or children
 
+The element name is separated from the block name by a double underscore `(__)`.
+
 #### css/scss syntax :
 
 ```css
@@ -132,6 +136,8 @@ Note that in the following examples, the prefixes are symbolised by `pr` in fron
 ### Modifiers
 
 > A BEM entity that defines a variation in appearance and behavior of a block or an element.
+
+The modifier name is separated from the block or element name by a double hyphen `(--)`
 
 ```css
 .pr-block-name--modifier-name {

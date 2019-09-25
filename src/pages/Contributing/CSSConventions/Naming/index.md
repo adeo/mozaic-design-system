@@ -3,17 +3,25 @@ title: 'Naming'
 order: 2
 ---
 
+## Naming rules
+
+In general, css classes must be written according to these basic principles :
+
+- Names are written in lowercase Latin letters.
+- Words are separated by a hyphen `(-)`.
+- The block name defines the namespace for its elements and modifiers.
+- The element name is separated from the block name by a double underscore `(__)`.
+- The modifier name is separated from the block or element name by a double hyphen `(--)`
+
 ## Prefixed classes
 
-Following the ITCSS convention, we add a two letters prefixe to all our classes.  
-the first letter of the prefixe is the source ID, meaning a letter that tell you that the classe come from our design system. The second letter is the first letter of the ITCSS layer name.
+Following the ITCSS convention, we add a two letters prefixe to all our classes.
+The first letter of the prefixe is the source ID, meaning a letter that tell you that the classe come from our design system. The second letter is the first letter of the ITCSS layer name.
 
 - `.ml-[classname]` : mozaic layout
 - `.mt-[classname]` : mozaic typography
 - `.mc-[classname]` : mozaic component
 - `.mu-[classname]` : mozaic utility
-
-
 
 ### States classes
 
@@ -45,9 +53,6 @@ example: `.mu-hidden@from-m`
 
 to be able to work, the @ character need to be escaped in the css files `.mu-hidden\@from-m` but can be called without the backslash on the dom : `<span class="mu-hidden@from-m"> hide me at M screens </span>`
 
-
-
-
 # Variables and design tokens
 
 Design tokens are variables that defines many properties in a json object that are compiled and exported to multiple formats to be used on web and mobile platforms (or any desired format trully).
@@ -58,7 +63,7 @@ For css, the tokens are exported as SCSS variables as well as SCSS maps (to give
 
 ### 1 - the base, low level layer
 
-To define all the basic values like colors, sizes etc.  
+To define all the basic values like colors, sizes etc.
 As an example, we define all the possible colors in the same place.
 
 Most of the time, you should not have to use thoses variables directly, because a highter level of variable or a mixin should be available to provide authorized values for the type of property/element you are trying to define.
@@ -126,7 +131,7 @@ Output :
 
 ## the mod-xxx mixins
 
-> that extend exising class with modifiers
+> that extend existing class with modifiers
 
 Example :
 
