@@ -8,11 +8,25 @@ order: 2
 
 ## Design system
 
-A design system is a product that allows to share design, code and good practises through comprehensive documentation. This is a tool that gathers different fields around a shared language.
+A set of **connected patterns** and **shared practices**, coherently organized to serve the purpose of a digital product. </br>
+When we refer to the design system, we are talking about the all thing. Patterns, code, design files, principles and even the workflow and processes.
+
+## Styleguide
+
+A tool to capture, collect and share design patterns and guidelines for their usage.
+
+When we refer to the pattern library, we are talking about the documentation website. In our case, this is the static site generator powered by Gatsby and all his pages.
 
 ## Pattern
 
-A pattern is an interface repeating and reusable element. It can color, an icon, a text style, buttons or any generic components... It can be applied or modified to solve a specific design problem, a user needs, evoke an emotion, or reinforce the brand user experience.
+Any **repeating** or **reusable** part of an interface (A color, an icon, a typography, a button, a principle...). </br>
+When we refer to a pattern, we are talking about an item of the pattern library. It is a set of related documentation, design file, code sample etc...</br>
+A pattern contain at least a documentation page (like principles), or a set of elements like documentation, a related design file, static assets (image / font), css utilities and/or helpers and/or classes in the case of more complex patterns, like components.
+
+## Atomic design
+
+The Atomic design is a modular design methodology created by Brad Frost, helpful to create design systems. It consists to start from the simple elements, and reusable it to create more complex components. </br>
+It allows the designers to create the most consistent user interfaces. **This is a methodology we use when we design for Mozaic.**
 
 ## UI Kit
 
@@ -33,20 +47,26 @@ A repository (usually called “repo”) is a location where you will find all t
 ## Git
 
 Git is an open-source version control system that stores the modifications in a central repository.
-GitHub
+
+## GitHub
+
 GitHub is a project hosting platform for collaboration and version control. It allows people to work together on a product.
 
 ## Abstract
 
-Abstract is a software like GitHub, using by the designers to collaborate on design files.
-
-## Master
-
-This is the source of truth of our work where you will find the latest and safest version of Mozaic.
+Abstract is a software like GitHub, used by the designers to collaborate on design files.
 
 ## Branch
 
 Branching, in version control and software configuration management, is the duplication of an object under version control so that modifications can occur in parallel along multiple branches. Learn more (https://help.github.com/en/articles/about-branches)
+
+## Master Branch (on Github)
+
+The latest unified code version. This is where we merge pull-requests before releasing it.
+
+## Master Branch (on Abstract)
+
+This is the source of truth of our design work where you will find the latest and safest version of Mozaic.
 
 ## Pull request
 
@@ -60,38 +80,30 @@ A simple way for non-programming types to write in an easy-to-read format that c
 
 Documentation is a crucial part of the product. It allows everyone to explain their work, their uses cases, and their conventions. Good documentation will be able to onboard new users in an easier way.
 
-## Tokens
+## Usage
+
+Usage defines how to use a component and how it works. Usages help the designers to create a standard user interface.
+
+## Design tokens
 
 Design tokens are UI pieces of information that store visual design attributes, such as values for margins and spacing, font sizes and families, or color values.
 Lean more (https://www.youtube.com/watch?v=wDBEc3dJJV8)
 
 ## Specs
 
-All the important pieces of information to compose our designs in different technology. So if you want to create the patterns in a different technology, you have all the properties behind font size, border-radius, heigh, padding, and all single aspects inside a pattern.
+Stand for specifications. All the important pieces of information to compose our designs in different technology. So if you want to create the patterns in a different technology, you have all the properties behind font size, border-radius, heigh, padding, and all single aspects inside a pattern.
 
 ## Magic Unit
 
 A magic unit is a base unit for any element or property that require a defined dimension. It is equal to 16px but is expressed in rem. We multiply or divide it to define white spaces, icons sizes, line-heights etc…
 
-## Atomic design
-
-The Atomic design is a new modular design methodology created by Brad Frost, helpful to create design systems. It consists to start from the simple elements, and reusable it to create more complex components. It permits to the designers to create the most consistent user interfaces.
-
 ## Hierarchy
 
-Visual hierarchy is the order in which a user processes the information on a page; its function in user interface (UI) design is to allow users to understand the information easily. By assigning different visual characteristics to sections of information (e.g., larger fonts for headings), a designer can influence what users will perceive as being further up in the hierarchy.
-Learn more (https://www.interaction-design.org/literature/topics/visual-hierarchy)
+Visual hierarchy is the order in which a user processes the information on a page; its function in user interface (UI) design is to allow users to understand the information easily. By assigning different visual characteristics to sections of information (e.g., larger fonts for headings), a designer can influence what users will perceive as being further up in the hierarchy. </br>
+[Learn more here](https://www.interaction-design.org/literature/topics/visual-hierarchy)
 
 ## Accessibility
 
-When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.
-Making the web accessible benefits individuals, businesses, and society. International web standards define what is needed for accessibility.
-Learn more (https://www.w3.org/WAI/fundamentals/accessibility-intro/)
-
-## Styleguide
-
-A style guide or manual of style is a set of standards for the writing, formatting and design of documents.
-
-## Usage
-
-Usage defines how to use a component and how it works. Usages help the designers to create a standard user interface.
+When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.<br>
+Making the web accessible benefits individuals, businesses, and society. International web standards define what is needed for accessibility. </br>
+[Learn more here](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
