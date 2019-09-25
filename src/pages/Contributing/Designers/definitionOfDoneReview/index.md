@@ -20,21 +20,21 @@ Commits are a testimony of your work on your files. Use them to make a summary o
 ## 5. Branch summary
 Here is a branch summary to enter in the **Summary** section in Abstract when submitting a `Request Review`.
 
-```## PR Checklist
-Please check if your PR fulfills the following requirements:
+```## Request Review Checklist
+Please check if your Request Review fulfills the following requirements:
 
 - [ ] The commit are meaningful
 - [ ] Symbols follow our [Definition of Done for Symbols](--link--)
 
 
-## PR Type
+## Request Review Type
 What kind of behaviour and change does this branch introduces?
 
-<!-- Please check the one that applies to this PR using "x". -->
+<!-- Please check the one that applies to this Request Review using "x". -->
 
-- [ ] Style
-- [ ] Simple pattern
-- [ ] Complex pattern
+- [ ] Style (AA)
+- [ ] Simple pattern (BA)
+- [ ] Complex pattern (BB)
 
 
 ## Other information
