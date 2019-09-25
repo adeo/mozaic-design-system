@@ -25,90 +25,9 @@ Please considere that this repo is in early stage of development. You can report
 
 #### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md)
 
-### Requirements :
+## Installation
 
-- node v10+
-- yarn
-
-#### To install node:
-
-please folow the this [guide](https://nodejs.org/en/download/package-manager/)
-
-#### To install yarn :
-
-`npm i -g yarn`
-
-## Development :
-
-### Note about the project architecture
-
-The project Use a monorepo architecture using [lerna](https://github.com/lerna/lerna/).
-Lerna help us to manage the distribution and the versionning of multiple packages into the same repository.
-It also create symlink between the individual packages nodes_modules so they can be used in one another as npm dependencies.
-
-When releasing the design system, lerna will automaticaly generate changelogs for the global/parent repo, as well as for the individual packages and select a version number based on the commit syntax. It's why it is very important that you follow the [contributing guidelines](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md).
-
-please [read the docs](https://github.com/lerna/lerna/) to learn more about it.
-
-### Clone the repo and start the development environement
-
-clone the repo :  
-`git clone git@github.com:adeo/design-system--styleguide.git`
-
-move to the repo :  
-`cd design-system--styleguide`
-
-install dependencies and create symlink between packages :  
-`yarn lerna`
-
-lunch the dev server :  
-`yarn develop`
-
-## Targeting compillation of selected previews directory
-
-Compiling previews take a long time, and most of the time you need only to compile the previews you are working on.
-
-To target only previews contained in a directory, add a preview parameter to the develop command containing a path relative to `src/pages/`:
-
-`yarn develop previews=Components/Buttons`
-
-## Lint and fix your css files using stylelint
-
-```bash
-yarn css:fix
-```
-
-Please note that stylelint is not able to fix everything, so run
-
-```bash
-yarn css:lint
-```
-
-and make the required changes.
-
-stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuffs ;).
-
-## Create a production build :
-
-`yarn build`
-
-## CI/CD
-
-If you want more explanation go to the related [wiki page](https://github.com/adeo/design-system--styleguide/wiki/CI-CD).
-
-### Deploy
-
-Each branch is deployed when creating a Pull Request. A `view deployment` button is displayed into the Pull Request's timeline at the bottom.
-
-There are two deployment environments that can be found [here](https://github.com/adeo/design-system--styleguide/deployments):
-
-- staging, allows the deployment of all branches except master
-- production, allows the deployment of master
-
-### Create release
-
-To create a release, change the registry's package.json version number and create a tag with the version number in github.
-the registry is automaticaly deployed and pushed into the npm registry.
+Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Install/)
 
 ## Design system core team
 
