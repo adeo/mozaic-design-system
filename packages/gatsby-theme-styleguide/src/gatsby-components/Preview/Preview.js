@@ -158,13 +158,3 @@ class Preview extends PureComponent {
 }
 
 export default Preview
-
-// export const query = graphql`
-//   query {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//   }
-// `
