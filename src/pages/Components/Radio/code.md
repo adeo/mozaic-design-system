@@ -9,6 +9,9 @@ Import the settings and the radio `scss` files.
 
 ```css
 @import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
 @import 'components/_c.radio';
 ```
 

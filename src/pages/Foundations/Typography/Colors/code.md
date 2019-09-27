@@ -10,6 +10,9 @@ Use the `font-color()` mixin to set an othorized text color to an element.
 ```css
 @import 'settings-tools/_all-settings';
 
+@include import-font-families();
+
+
 .example-text {
   @include set-color('dark');
   // is equivalent to :
