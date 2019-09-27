@@ -5,8 +5,8 @@ order: 1
 
 > Rating stars is a pattern you'll find in almost every website. It allows to do two different things. First, it allows the user to give a feedback on his experience with a product or a service. Second, it allows a brand to provide some informations on other user's opinion on a product or a service to make his choice easier.
 
-<preview path="src/pages/Components/RatingStars/previews/stars-input-basic"></preview>
-<preview path="src/pages/Components/RatingStars/previews/stars-result-basic"></preview>
+<preview path="src/pages/Components/RatingStars/previews/stars-input-basic" nude=true></preview>
+<preview path="src/pages/Components/RatingStars/previews/stars-result-basic" nude=true></preview>
 
 ## Variations
 
