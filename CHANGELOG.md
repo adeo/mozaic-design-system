@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.20](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.19...v1.0.1-alpha.20) (2019-09-19)
+
+
+### Bug Fixes
+
+* **foundations/icon:** add Media_Download svg in size 24px in the project and inside iconviewer ([#338](https://github.com/adeo/design-system--styleguide/issues/338)) ([412ecc6](https://github.com/adeo/design-system--styleguide/commit/412ecc6))
+* **pattern/fonts:** extract font face import into a mixin ([#353](https://github.com/adeo/design-system--styleguide/issues/353)) ([83edac7](https://github.com/adeo/design-system--styleguide/commit/83edac7))
+
+
+### Features
+
+* **build:** delete gitlab-ci ([4a764a4](https://github.com/adeo/design-system--styleguide/commit/4a764a4))
+* **chore/previews:** create a param to build only previews from a specific directory ([#355](https://github.com/adeo/design-system--styleguide/issues/355)) ([45394c3](https://github.com/adeo/design-system--styleguide/commit/45394c3))
+* **pages/contributing:** add git convention to contributing ([#330](https://github.com/adeo/design-system--styleguide/issues/330)) ([16c83a9](https://github.com/adeo/design-system--styleguide/commit/16c83a9))
+* **pattern/fileuploader:** add usage, code, specs, and design doc ([#342](https://github.com/adeo/design-system--styleguide/issues/342)) ([227d524](https://github.com/adeo/design-system--styleguide/commit/227d524)), closes [#323](https://github.com/adeo/design-system--styleguide/issues/323) [#337](https://github.com/adeo/design-system--styleguide/issues/337) [#341](https://github.com/adeo/design-system--styleguide/issues/341)
+* **pattern/pages:** Definition of done for sketch symbols ([#346](https://github.com/adeo/design-system--styleguide/issues/346)) ([3761d64](https://github.com/adeo/design-system--styleguide/commit/3761d64))
+
+
+
+
+
 ## [1.0.1-alpha.19](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.18...v1.0.1-alpha.19) (2019-08-22)
 
 

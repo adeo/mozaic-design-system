@@ -34,8 +34,6 @@ When the file uploader allows the user to upload only one file it automatically 
 
 When the file uploader allows the user to upload multiple files, the user can select several files in the dedicated browser window. The files will be added with the previously uploaded files if you repeat this action.
 
----
-
 ## Do's and Dont's
 
 <hintitem>

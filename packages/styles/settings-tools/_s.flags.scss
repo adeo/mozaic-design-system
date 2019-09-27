@@ -1,0 +1,25 @@
+$flags: get-token(color, flag);
+
+$flag-border: get-border('s');
+
+@mixin set-flag-base {
+  border: $flag-border solid transparent;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 $mu050;
+  margin: 0;
+  vertical-align: middle;
+  min-height: 1.572em;
+}
+
+@mixin set-flag-theme($props) {
+  color: map-get($props, 'text');
+
+  @if map-has-key($props, 'border') {
+    border-color: map-get($props, 'border');
+  }
+
+  @if map-has-key($props, 'background') {
+    background-color: map-get($props, 'background');
+  }
+}

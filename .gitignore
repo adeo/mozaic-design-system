@@ -9,6 +9,7 @@ lerna-debug.log
 .DS_Store
 .vscode
 /.idea/
+*.iml
 package-lock.json
 # static/icons/
 

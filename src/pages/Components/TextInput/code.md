@@ -9,6 +9,9 @@ Import the settings and the text-input `scss` files.
 
 ```css
 @import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
 @import 'components/_c.text-input';
 ```
 
@@ -53,6 +56,9 @@ To add a left icon, you need to import `'components/_c.left-icon-input'` after t
 
 ```css
 @import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
 @import 'components/_c.text-input';
 @import 'components/_c.left-icon-input';
 ```

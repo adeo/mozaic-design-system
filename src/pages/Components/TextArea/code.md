@@ -7,6 +7,9 @@ order: 2
 
 ```css
 @import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
 @import 'components/_c.textarea';
 ```
 

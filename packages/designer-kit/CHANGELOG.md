@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.19...v1.0.1-alpha.20) (2019-09-19)
+
+
+### Features
+
+* **pattern/fileuploader:** add usage, code, specs, and design doc ([#342](https://github.com/adeo/mozaic-design-system/issues/342)) ([227d524](https://github.com/adeo/mozaic-design-system/commit/227d524)), closes [#323](https://github.com/adeo/mozaic-design-system/issues/323) [#337](https://github.com/adeo/mozaic-design-system/issues/337) [#341](https://github.com/adeo/mozaic-design-system/issues/341)
+
+
+
+
+
 ## [1.0.1-alpha.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.17...v1.0.1-alpha.18) (2019-08-22)
 
 
