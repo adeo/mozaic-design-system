@@ -232,6 +232,10 @@
   <color name="color_notification_warning_border">#fffc961e</color>
   <color name="color_notification_danger_background">#fffeedee</color>
   <color name="color_notification_danger_border">#ffdf382b</color>
+  <color name="color_star_empty">#ffd3d2d6</color>
+  <color name="color_star_focus">#ff25a8d0</color>
+  <color name="color_star_full">#fffc961e</color>
+  <color name="color_star_hover">#ffffc17d</color>
   <color name="color_toggle_off_background">#ff887f87</color>
   <color name="color_toggle_off_circle">#ffffffff</color>
   <color name="color_toggle_on_background">#ff78be20</color>

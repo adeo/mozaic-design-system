@@ -1,0 +1,18 @@
+{
+  "color": {
+    "star": {
+      "empty": {
+        "value": "{color.grey.200.value}"
+      },
+      "focus": {
+        "value": "{color.secondary-blue.500.value}"
+      },
+      "full": {
+        "value": "{color.secondary-orange.500.value}"
+      },
+      "hover": {
+        "value": "{color.secondary-orange.300.value}"
+      }
+    }
+  }
+}
