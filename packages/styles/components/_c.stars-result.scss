@@ -1,0 +1,47 @@
+.mc-stars-result {
+  $parent: &;
+
+  &__text {
+    @include set-hidden-input;
+  }
+
+  &__visual {
+    @include set-stars-container($stars-default-size);
+
+    background: url(inline-icons('star-full-32', $color-star-empty)) repeat-x left top;
+    display: block;
+    position: relative;
+
+    &::before {
+      background: url(inline-icons('star-full-32', $color-star-full)) repeat-x left top;
+      bottom: 0;
+      content: "";
+      display: block;
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  @each $size, $props in $stars-sizes {
+    &--#{$size} {
+      @if ($size != 'm') {
+        #{$parent}__visual {
+          @include set-stars-container($props);
+        }
+      }
+    }
+  }
+
+  @for $i from 1 through 10 {
+    &--score-#{$i * 10} {
+      #{$parent}__visual::before {
+        width: percentage($i / 10);
+
+        @if ($i == 1) {
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
