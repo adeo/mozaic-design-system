@@ -26,11 +26,10 @@ We designed rating stars with modularity in mind. You will find four different s
 
 |                 |                                 |
 | --------------- | ------------------------------- |
-| **Small**       | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-s" nude=true></preview>      |
-| **Medium**      | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-m" nude=true></preview>     |
-| **Large**       | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-l" nude=true></preview>
-      |
-| **ExtraLarge**  | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-xl" nude=true></preview> |
+| **Small**       | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-s" nude=true></preview> |
+| **Medium**      | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-m" nude=true></preview> |
+| **Large**       | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-l" nude=true></preview> |
+| **ExtraLarge**  | <preview path="src/pages/Components/RatingStars/previews/stars-result-size-xl" nude=true></preview>|
 
 ## Do's and don't
 
