@@ -8,22 +8,22 @@ building a styleguide using a static site generator instead of reliyng on a data
 
 We tryed to focus on developper experience, meaning that working with it should be as simple as possible.
 
-Please considere that this repo is in early stage of development. You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/design-system--styleguide/issues)
+Please considere that this repo is in early stage of development. You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
 #### Please read the wiki before submitting anything :
 
-- [Project roadmap](https://github.com/adeo/design-system--styleguide/wiki)
-- [glossary](https://github.com/adeo/design-system--styleguide/wiki/Glossary)
+- [Project roadmap](https://github.com/adeo/mozaic-design-system/wiki)
+- [glossary](https://github.com/adeo/mozaic-design-system/wiki/Glossary)
 - design system workflow :
-  - [Things to keep in mind for any contribution](https://github.com/adeo/design-system--styleguide/wiki/Things-to-keep-in-mind-for-any-contribution)
-  - [Pattern submission workflow](https://github.com/adeo/design-system--styleguide/wiki/New-pattern-submission-workflow)
-  - [Pattern fix and extension workflow](https://github.com/adeo/design-system--styleguide/wiki/Pattern-fix-or-extension-workflow)
+  - [Things to keep in mind for any contribution](https://github.com/adeo/mozaic-design-system/wiki/Things-to-keep-in-mind-for-any-contribution)
+  - [Pattern submission workflow](https://github.com/adeo/mozaic-design-system/wiki/New-pattern-submission-workflow)
+  - [Pattern fix and extension workflow](https://github.com/adeo/mozaic-design-system/wiki/Pattern-fix-or-extension-workflow)
 - how to create pages and content in the pattern library :
-  - [Page creation and edition](https://github.com/adeo/design-system--styleguide/wiki/pages-creation-and-edition)
-  - [Create and display a pattern](https://github.com/adeo/design-system--styleguide/wiki/Create-and-display-patterns)
-  - [Other in-page components](https://github.com/adeo/design-system--styleguide/wiki/Other-in-page-components)
+  - [Page creation and edition](https://github.com/adeo/mozaic-design-system/wiki/pages-creation-and-edition)
+  - [Create and display a pattern](https://github.com/adeo/mozaic-design-system/wiki/Create-and-display-patterns)
+  - [Other in-page components](https://github.com/adeo/mozaic-design-system/wiki/Other-in-page-components)
 
-#### Please read the contributing before contributing: [contributing](https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md)
+#### Please read the contributing before contributing: [contributing](https://github.com/adeo/mozaic-design-system/blob/master/CONTRIBUTING.md)
 
 ## Installation
 
