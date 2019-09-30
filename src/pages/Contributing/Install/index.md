@@ -34,7 +34,7 @@ clone the repo :
 `git clone git@github.com:adeo/mozaic-design-system.git`
 
 move to the repo :  
-`cd design-system--styleguide`
+`cd mozaic-design-system`
 
 install dependencies and create symlink between packages :  
 `yarn lerna`
