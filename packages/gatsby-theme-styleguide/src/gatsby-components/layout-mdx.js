@@ -5,10 +5,7 @@ import { MDXProvider } from '@mdx-js/react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import './base.scss'
-
 import Menu from './Menu'
-
-// import Preview from '../gatsby-components/Preview'
 import withLocationPreview from '../gatsby-components/Preview/withLocation'
 import Color from '../gatsby-components/Color'
 import Swatch from '../gatsby-components/Swatch'

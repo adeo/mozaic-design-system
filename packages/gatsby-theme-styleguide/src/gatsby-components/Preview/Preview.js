@@ -32,7 +32,6 @@ class Preview extends PureComponent {
   pickPreview = data => {
     const previewPath = this.getPreviewPath()
     const preview = data.allPreview.edges.find(
-      // item => item.node.path === this.props.path
       item => item.node.path === previewPath
     )
 

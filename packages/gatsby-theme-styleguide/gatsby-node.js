@@ -60,4 +60,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     })
   })
+
+  // creating root index page
+  createPage({
+    path: '/',
+    component: path.join(__dirname, '../../', 'src', 'docs', 'index.js'),
+  })
 }
