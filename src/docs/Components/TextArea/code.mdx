@@ -1,0 +1,59 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+```css
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.textarea';
+```
+
+## Basic usage
+
+Apply the classes `mc-textarea` on a standard `textarea` html tag :
+
+```html
+<textarea
+  class="mc-textarea"
+  name="foo"
+  id="foo"
+  rows="4"
+  placeholder="placeholder"
+></textarea>
+```
+
+<Preview path="TextArea" />
+
+### Standard input states :
+
+- `:hover`
+- `:focus`
+- `:disabled`
+- `.is-valid`
+- `.is-invalid`
+
+## Accessibility and semantic
+
+<HintItem>
+  Always use textarea html tag for multi-line text
+</HintItem>
+<HintItem>
+  Use the rows attribute to set the textarea height
+</HintItem>
+<HintItem>
+  Use a minimum of 3 rows
+</HintItem>
+<HintItem>
+  Provide minlength and/or maxlength attributes if a text lenght is required from the user
+</HintItem>
+<HintItem dont>
+  Never use the resize: none attribute for standards forms
+</HintItem>
+<HintItem dont>
+  Never use vertical-align: baseline
+</HintItem>

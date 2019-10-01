@@ -1,16 +1,11 @@
 import React from 'react'
-import rehypeReact from 'rehype-react'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { graphql } from 'gatsby'
 import styled, { css } from 'styled-components'
 
-import Layout from '../gatsby-components/layout'
 import Container from '../gatsby-components/Container'
-import Preview from '../gatsby-components/Preview'
-import Color from '../gatsby-components/Color'
-import Swatch from '../gatsby-components/Swatch'
+import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
-import Hint, { HintItem } from '../gatsby-components/Hint'
-import IconViewer from '../gatsby-components/IconViewer'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -27,22 +22,13 @@ const PageContent = styled.div`
 `
 
 export default ({ data, location }) => {
-  const renderAst = new rehypeReact({
-    createElement: React.createElement,
-    components: {
-      preview: Preview,
-      hint: Hint,
-      hintitem: HintItem,
-      color: Color,
-      swatch: Swatch,
-      iconviewer: IconViewer,
-    },
-  }).Compiler
+  const post = data.mdx
 
-  const post = data.markdownRemark
-  const otherPosts = data.allMarkdownRemark.edges
+  const otherPosts = data.allMdx.edges
 
   const samePageTabs = [...otherPosts].filter(({ node }) => {
+    console.log(JSON.stringify(post.fields.fileName, 0, 2))
+
     const nodePath = node.fields.fileName.relativePath.replace(
       node.fields.fileName.base,
       ''
@@ -74,7 +60,7 @@ export default ({ data, location }) => {
         <FullWidthContainer>
           <Container>
             <PageContent className="main">
-              {renderAst(post.htmlAst)}
+              <MDXRenderer>{post.body}</MDXRenderer>
             </PageContent>
           </Container>
         </FullWidthContainer>
@@ -84,9 +70,10 @@ export default ({ data, location }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      htmlAst
+  query MDXQuery($slug: String!) {
+    mdx(fields: { slug: { eq: $slug } }) {
+      id
+      body
       fields {
         slug
         fileName {
@@ -101,9 +88,11 @@ export const query = graphql`
         order
       }
     }
-    allMarkdownRemark {
+    allMdx(sort: { fields: [frontmatter___order], order: DESC }) {
+      totalCount
       edges {
         node {
+          id
           frontmatter {
             title
             order
@@ -117,6 +106,7 @@ export const query = graphql`
               extension
             }
           }
+          excerpt
         }
       }
     }

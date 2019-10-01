@@ -4,8 +4,8 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+  if (node.internal.type === `Mdx`) {
+    const slug = createFilePath({ node, getNode, basePath: `docs` })
     const fileName = path.basename(node.fileAbsolutePath)
 
     createNodeField({
@@ -22,45 +22,37 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  // Destructure the createPage function from the actions object
   const { createPage } = actions
-
-  return new Promise((resolve, reject) =>
-    graphql(`
-      {
-        allMarkdownRemark {
-          edges {
-            node {
-              fields {
-                slug
-              }
+  const result = await graphql(`
+    query {
+      allMdx {
+        edges {
+          node {
+            id
+            fields {
+              slug
             }
           }
         }
       }
-    `)
-      .then(res => {
-        res.data.allMarkdownRemark.edges.map(({ node }) => {
-          createPage({
-            path: node.fields.slug,
-            component: path.join(
-              __dirname,
-              'src',
-              'templates',
-              'pattern-page.js'
-            ),
-            context: {
-              // Data passed to context is available
-              // in page queries as GraphQL variables.
-              slug: node.fields.slug,
-            },
-          })
-        })
+    }
+  `)
+  if (result.errors) {
+    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
+  }
 
-        resolve()
-      })
-      .catch(err => {
-        reject(err)
-      })
-  )
+  const posts = result.data.allMdx.edges
+
+  posts.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: path.join(__dirname, 'src', 'templates', 'pattern-page.js'),
+      context: {
+        id: node.id,
+        slug: node.fields.slug,
+      },
+    })
+  })
 }

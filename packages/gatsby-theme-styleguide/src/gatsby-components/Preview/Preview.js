@@ -17,13 +17,29 @@ class Preview extends PureComponent {
     }
   }
 
+  getPreviewPath = () => {
+    // src/docs/Components/Buttons/previews/button-styles
+    const basePath = 'src/docs'
+    const { location, path } = this.props
+
+    // we need only pieces of path
+    let locationParsed = location.pathname.replace(/^\/|\/$/g, '').split('/')
+
+    locationParsed = locationParsed.filter(elem => /^[A-Z]/.test(elem))
+    return `${basePath}/${locationParsed.join('/')}/previews/${path}`
+  }
+
   pickPreview = data => {
+    const previewPath = this.getPreviewPath()
     const preview = data.allPreview.edges.find(
-      item => item.node.path === this.props.path
+      item => item.node.path === previewPath
     )
 
     if (!preview) {
-      console.log('preview not found : ' + this.props.path)
+      console.log(
+        'preview not found : ' + previewPath,
+        this.props.location.pathname
+      )
 
       return {
         node: {

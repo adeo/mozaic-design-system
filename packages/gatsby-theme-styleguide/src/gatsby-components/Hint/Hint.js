@@ -31,7 +31,7 @@ const HintBox = styled.div`
   }
 `
 
-export const HintItem = styled.div`
+const HintItemStyle = styled.div`
   border-bottom: solid 1px rgba(0, 0, 0, 0.1);
   padding: 15px;
 
@@ -64,6 +64,10 @@ export const HintItem = styled.div`
           `};
   }
 `
+
+export const HintItem = ({ children, dont }) => (
+  <HintItemStyle dont={dont}>{children}</HintItemStyle>
+)
 
 const Hint = ({ title, children, contentType = 'text', type = 'do' }) => (
   <Container>

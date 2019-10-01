@@ -1,7 +1,7 @@
 export default (markdowns, fileTree, location) => {
   // filter only index.md from all markdown to display in main menu
   const markdownsIndexes = markdowns
-    .filter(markdown => markdown.node.fields.fileName.base === 'index.md')
+    .filter(markdown => markdown.node.fields.fileName.base === 'index.mdx')
     .map(({ node }) => ({
       dirPath: node.fields.fileName.relativePath.replace(
         `/${node.fields.fileName.base}`,
@@ -52,10 +52,10 @@ export default (markdowns, fileTree, location) => {
         }
 
         dirIndex.level = level
-        dirIndex.isOpened = location.includes(dir.path.replace('pages', ''))
+        dirIndex.isOpened = location.includes(dir.path.replace('docs', ''))
         // hilight current path even if the menu is closed
         dirIndex.isPartOfCurrentlocation = location.includes(
-          dir.path.replace('pages', '')
+          dir.path.replace('docs', '')
         )
 
         return dirIndex
@@ -67,6 +67,5 @@ export default (markdowns, fileTree, location) => {
     markdownsIndexes
   )
 
-  console.log(JSON.stringify(menu, 0, 2))
   return menu
 }
