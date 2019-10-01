@@ -48,22 +48,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
-      component: path.join(
-        __dirname,
-        'src',
-        'templates',
-        'pattern-page-mdx.js'
-      ),
+      component: path.join(__dirname, 'src', 'templates', 'pattern-page.js'),
       context: {
         id: node.id,
         slug: node.fields.slug,
       },
     })
-  })
-
-  // creating root index page
-  createPage({
-    path: '/',
-    component: path.join(__dirname, '../../', 'src', 'docs', 'index.js'),
   })
 }

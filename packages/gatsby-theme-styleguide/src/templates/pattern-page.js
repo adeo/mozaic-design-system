@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import styled, { css } from 'styled-components'
 
 import Container from '../gatsby-components/Container'
-import Layout from '../gatsby-components/layout-mdx'
+import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
 
 const FullWidthContainer = styled.div`
