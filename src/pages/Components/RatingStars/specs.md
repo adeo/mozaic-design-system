@@ -20,7 +20,7 @@ order: 3
 
 ### Colors
 
-Three colours are used to differentiate the state of the stars:
+Three colors are used to differentiate the state of the stars:
 
 | Star state  | Token                                                       |
 | ----------- | ----------------------------------------------------------- |
