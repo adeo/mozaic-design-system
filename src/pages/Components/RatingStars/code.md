@@ -5,13 +5,6 @@ order: 2
 
 > Rating stars can be used in two ways : (1.) when filing or amending an opinion (2.) when displaying the overall score on a product sheet.
 
-Implementing rating stars :
-
-- [When filing or amending an opinion](#case-1)
-- [When displaying the overall score](#case-2)
-
-<a name="case-1"></a>
-
 ## Filing or amending an opinion
 
 ### Import
@@ -98,8 +91,6 @@ To change the size of the stars, simply apply one of the following modifier **to
 <hintitem dont=true>
   Don't forget to insert the first radio button that has a neutral value. This radio button must <strong>NOT</strong> be associated with a label tag. However, in this case the label is replaced by an <strong>aria-label</strong> attribute.
 </hintitem>
-
-<a name="case-2"></a>
 
 ## When displaying the global score
 
