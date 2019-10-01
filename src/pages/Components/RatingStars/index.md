@@ -33,11 +33,8 @@ We designed rating stars with modularity in mind. You will find four different s
 
 ## Do's and don't
 
-<hintitem>
-  Always use rating stars within a group of 5.
-</hintitem>
 <hintitem dont="true">
-  Never use single rating stars.
+  Never use single rating stars. They should always be displayed within a group of 5.
 </hintitem>
 <hintitem dont="true">
   Don't try to reinvent standards and stick to the 5 stars ratings.
