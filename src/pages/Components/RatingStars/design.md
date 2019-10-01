@@ -3,17 +3,17 @@ title: 'Design'
 order: 4
 ---
 
-## Rating stars sketch file is composed of five sections :
+## Rating stars sketch file is composed of five sections:
 
 ![preferences](ratingStars--sketch-menu.png)
 
-### 👾 For developers :
+### 👾 For developers:
 
 This part is a specific section for developers, **for a better accessibility**. These are all states of Mozaic rating stars.
 
 _They are all available with the **hover** and **focus** preview._
 
-### Rating stars :
+### Rating stars:
 
 This is the section where you will find the ready to use symbols for your projects. You can find the different variations of the rating stars depending on the size you want to use.
 

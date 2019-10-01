@@ -20,7 +20,7 @@ order: 3
 
 ### Colors
 
-Three colours are used to differentiate the state of the stars:
+Three colors are used to differentiate the state of the stars:
 
 | Star state  | Token                                                       |
 | ----------- | ----------------------------------------------------------- |
@@ -28,5 +28,3 @@ Three colours are used to differentiate the state of the stars:
 | **Hover**   | `color.star.hover`                                          |
 | **Full**    | `color.star.full`                                           |
 | **Focus**   | `color.star.focus` _(use only for the color of the border)_ |
-
-

@@ -3,7 +3,7 @@ title: 'Code'
 order: 2
 ---
 
-> Rating stars can be used in two ways : (1.) when filing or amending an opinion (2.) when displaying the overall score on a product sheet.
+> Rating stars has two main usages: (1.) when filing or amending an opinion (2.) when displaying the overall score on a product sheet.
 
 ## Filing or amending an opinion
 
