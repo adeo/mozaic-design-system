@@ -10,24 +10,14 @@ order: 1
 
 ## Variations
 
-You can find three different variations of rating stars. One that represents empty stars, half stars and full stars.
-
-| Variation       | Usage                                                              |
-| --------------- | ------------------------------------------------------------------ |
-| Empty stars     | Empty stars are shown when the user hasn't posted a review yet     |
-| Half stars      | Half stars show an half rating of a user on a product or a service |
-| Full stars      | Full stars show user's opinion on a product or a service           |
-
 <preview path="src/pages/Components/RatingStars/previews/stars-result-all-states" nude=true></preview>
-
-## Use cases
 
 We have separated rating stars into `mc-stars-input` and `mc-stars-results`.
 
-**mc-stars-input:**
-This allows the user to rate a product or a service. The user can only give a rate from 0 to 5 by clicking the corresponding star.
+### mc-stars-input:
+This allows the user to rate a product or a service. The user can only give an integer rate from 0 to 5 by clicking the corresponding star.
 
-**mc-stars-results:**
+### mc-stars-results:
 This use case is made to display notes from 0 to 5. This case allows half values, like 2,5 stars for example. This case shows the results of user rated products or services.
 
 ### Sizes
