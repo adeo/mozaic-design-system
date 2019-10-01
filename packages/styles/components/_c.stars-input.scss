@@ -41,17 +41,17 @@
     }
   }
 
-  &__radio:checked ~ &__label,
-  &__radio:focus ~ &__label {
+  :checked ~ &__label,
+  :focus ~ &__label {
     background-image: url(inline-icons('star-full-32', $color-star-empty));
   }
 
-  &__radio:checked + &__label,
-  &__radio:focus + &__label {
+  :checked + &__label,
+  :focus + &__label {
     background-image: url(inline-icons('star-full-32', $color-star-full));
   }
 
-  &__radio:focus + &__label {
+  :focus + &__label {
     box-shadow: 0 0 0 $stars-focus-border $color-star-focus;
   }
 
