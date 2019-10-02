@@ -1,0 +1,81 @@
+.mc-stars-input {
+  $parent: &;
+
+  @include set-stars-container($stars-default-size);
+
+  display: flex;
+  position: relative;
+
+  &__text,
+  &__radio {
+    @include set-hidden-input;
+  }
+
+  &__label {
+    @include set-stars-size($stars-default-size);
+
+    background:
+      url(inline-icons('star-full-32', $color-star-full)) repeat-x
+      left center;
+    border-radius: $stars-focus-radius;
+    cursor: pointer;
+
+    &::before {
+      background:
+        url(inline-icons('star-full-32', $color-star-hover)) repeat-x
+        left center;
+      content: '';
+      left: 0;
+      top: 0;
+      bottom: 0;
+      display: block;
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    @for $i from 5 through 1 {
+      &:nth-of-type(#{$i})::before {
+        width: percentage(($i - 1) / 5);
+      }
+    }
+  }
+
+  :checked ~ &__label,
+  :focus ~ &__label {
+    background-image: url(inline-icons('star-full-32', $color-star-empty));
+  }
+
+  :checked + &__label,
+  :focus + &__label {
+    background-image: url(inline-icons('star-full-32', $color-star-full));
+  }
+
+  :focus + &__label {
+    box-shadow: 0 0 0 $stars-focus-border $color-star-focus;
+  }
+
+  &__radio:hover ~ &__label {
+    background-image: url(inline-icons('star-full-32', $color-star-empty));
+  }
+
+  &__radio:hover + &__label {
+    background-image: url(inline-icons('star-full-32', $color-star-hover));
+
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  @each $size, $props in $stars-sizes {
+    &--#{$size} {
+      @if ($size != 'm') {
+        @include set-stars-container($props);
+
+        #{$parent}__label {
+          @include set-stars-size($props);
+        }
+      }
+    }
+  }
+}

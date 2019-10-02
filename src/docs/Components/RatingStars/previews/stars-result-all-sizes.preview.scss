@@ -1,0 +1,11 @@
+@import 'settings-tools/_all-settings';
+@import 'components/_c.stars-result';
+
+.example {
+  display: block;
+  padding: 0 $mu150;
+
+  &__item {
+    margin: $mu150 auto;
+  }
+}

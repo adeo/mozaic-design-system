@@ -233,6 +233,10 @@ $color-notification-warning-background: #fff5eb !default;
 $color-notification-warning-border: #fc961e !default;
 $color-notification-danger-background: #feedee !default;
 $color-notification-danger-border: #df382b !default;
+$color-star-empty: #d3d2d6 !default;
+$color-star-focus: #25a8d0 !default;
+$color-star-full: #fc961e !default;
+$color-star-hover: #ffc17d !default;
 $color-toggle-off-background: #887f87 !default;
 $color-toggle-off-circle: #ffffff !default;
 $color-toggle-on-background: #78be20 !default;
@@ -740,6 +744,12 @@ $tokens: (
         'background': $color-notification-danger-background,
         'border': $color-notification-danger-border
       )
+    ),
+    'star': (
+      'empty': $color-star-empty,
+      'focus': $color-star-focus,
+      'full': $color-star-full,
+      'hover': $color-star-hover
     ),
     'toggle': (
       'off': (
