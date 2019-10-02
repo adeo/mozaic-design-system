@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.21](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.20...v1.0.1-alpha.21) (2019-10-02)
+
+
+### Bug Fixes
+
+* **chore/deployment:** add gh token to aws lambda queries to fix deploy URLs in PRs ([#370](https://github.com/adeo/design-system--styleguide/issues/370)) ([7890127](https://github.com/adeo/design-system--styleguide/commit/7890127))
+* **chore/pr template:** update git conventions and PR template ([#366](https://github.com/adeo/design-system--styleguide/issues/366)) ([b1eee72](https://github.com/adeo/design-system--styleguide/commit/b1eee72))
+* **onboard/contributing:** change old path to project in docs ([#371](https://github.com/adeo/design-system--styleguide/issues/371)) ([ef6ac8e](https://github.com/adeo/design-system--styleguide/commit/ef6ac8e))
+* **onboard/contributing install:** change paths to new repo name [#367](https://github.com/adeo/design-system--styleguide/issues/367) ([d0228df](https://github.com/adeo/design-system--styleguide/commit/d0228df))
+* **onboard/css conventions:** add lacking images ([#368](https://github.com/adeo/design-system--styleguide/issues/368)) ([9b12853](https://github.com/adeo/design-system--styleguide/commit/9b12853))
+* **pattern/flexy grid:** fix typo in flexy space-around modifier class name ([#359](https://github.com/adeo/design-system--styleguide/issues/359)) ([0ec7ab0](https://github.com/adeo/design-system--styleguide/commit/0ec7ab0))
+
+
+### Features
+
+* **onboard/abstractDesigner:** add definition of done for Abstract review ([#354](https://github.com/adeo/design-system--styleguide/issues/354)) ([2cf7fcc](https://github.com/adeo/design-system--styleguide/commit/2cf7fcc))
+* **onboard/contributing install:** create installation instructions for contributors ([#364](https://github.com/adeo/design-system--styleguide/issues/364)) ([0ddc2fe](https://github.com/adeo/design-system--styleguide/commit/0ddc2fe))
+* **onboard/css conventions:** create docs about css conventions ([#365](https://github.com/adeo/design-system--styleguide/issues/365)) ([1b7681f](https://github.com/adeo/design-system--styleguide/commit/1b7681f))
+* **onboard/design tokens:** create docs about design tokens ([#362](https://github.com/adeo/design-system--styleguide/issues/362)) ([0f84cbe](https://github.com/adeo/design-system--styleguide/commit/0f84cbe))
+* **onboard/git conventions:** add PR labels and breaking changes informations ([#373](https://github.com/adeo/design-system--styleguide/issues/373)) ([648cda2](https://github.com/adeo/design-system--styleguide/commit/648cda2))
+* **onboard/glossary:** add glossary ([#361](https://github.com/adeo/design-system--styleguide/issues/361)) ([5808abc](https://github.com/adeo/design-system--styleguide/commit/5808abc))
+* **onboard/help:** add need help page ([#363](https://github.com/adeo/design-system--styleguide/issues/363)) ([4a30f7e](https://github.com/adeo/design-system--styleguide/commit/4a30f7e))
+* **pattern/notificaion:** add notification pattern ([#343](https://github.com/adeo/design-system--styleguide/issues/343)) ([053a8a7](https://github.com/adeo/design-system--styleguide/commit/053a8a7))
+* **patterns/flags:** create flag component ([#348](https://github.com/adeo/design-system--styleguide/issues/348)) ([7c78093](https://github.com/adeo/design-system--styleguide/commit/7c78093))
+* **website/mdx:** migrate to MDX to generate docs pages ([#360](https://github.com/adeo/design-system--styleguide/issues/360)) ([8360771](https://github.com/adeo/design-system--styleguide/commit/8360771))
+
+
+
+
+
 ## [1.0.1-alpha.20](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.19...v1.0.1-alpha.20) (2019-09-19)
 
 

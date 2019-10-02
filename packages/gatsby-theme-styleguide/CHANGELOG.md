@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.21](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.20...v1.0.1-alpha.21) (2019-10-02)
+
+
+### Features
+
+* **website/mdx:** migrate to MDX to generate docs pages ([#360](https://github.com/adeo/mozaic-design-system/issues/360)) ([8360771](https://github.com/adeo/mozaic-design-system/commit/8360771))
+
+
+
+
+
 ## [1.0.1-alpha.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.19...v1.0.1-alpha.20) (2019-09-19)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
