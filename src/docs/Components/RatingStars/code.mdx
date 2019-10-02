@@ -51,7 +51,7 @@ To use the rating stars when filing or modifying a opinion, you must apply the `
 </div>
 ```
 
-<preview path="src/pages/Components/RatingStars/previews/stars-input-basic"></preview>
+<Preview path="stars-input-basic" />
 
 ### Variations
 
@@ -72,25 +72,25 @@ To change the size of the stars, simply apply one of the following modifier **to
 <div class="mc-stars-input mc-stars-input--l">...</div>
 ```
 
-<preview path="src/pages/Components/RatingStars/previews/stars-input-all-sizes"></preview>
+<Preview path="stars-input-all-sizes" />
 
 ### accessibility and semantic
 
-<hintitem>
+<HintItem>
   Each radio button <strong>(input.mc-stars-input__radio)</strong> must be associated with a label tag <strong>(label.mc-stars-input__label)</strong>
-</hintitem>
+</HintItem>
 
-<hintitem>
+<HintItem>
   Each label <strong>(label.mc-stars-input__label)</strong> must contain an explicit text describing the value of the radio button
-</hintitem>
+</HintItem>
 
-<hintitem>
+<HintItem>
   The label text must be wrapped with a <strong>span.mc-stars-input__text tag</strong>
-</hintitem>
+</HintItem>
 
-<hintitem dont=true>
+<HintItem dont>
   Don't forget to insert the first radio button that has a neutral value. This radio button must <strong>NOT</strong> be associated with a label tag. However, in this case the label is replaced by an <strong>aria-label</strong> attribute.
-</hintitem>
+</HintItem>
 
 ## When displaying the global score
 
@@ -114,7 +114,7 @@ To use rating stars when displaying the global score on a product sheet, you mus
 </div>
 ```
 
-<preview path="src/pages/Components/RatingStars/previews/stars-result-basic"></preview>
+<Preview path="stars-result-basic" />
 
 ### Variations
 
@@ -157,14 +157,14 @@ These modifiers are to be applied **to the main container** :
 | 4,5  | 90%        | `mc-stars-result--score-90`  |
 | 5    | 100%       | `mc-stars-result--score-100` |
 
-<preview path="src/pages/Components/RatingStars/previews/stars-result-all-sizes"></preview>
+<Preview path="stars-result-all-sizes" />
 
 ### accessibility and semantic
 
-<hintitem dont=true>
+<HintItem dont>
   For accessibility reasons, the global score shouldn't be expressed only in the visual form of rating stars.
-</hintitem>
+</HintItem>
 
-<hintitem>
+<HintItem>
   To make the global score accessible, we also express it in text form, by inserting an explicit text in a <strong>span.mc-stars-result__text</strong> tag
-</hintitem>
+</HintItem>
