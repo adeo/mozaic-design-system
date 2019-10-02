@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.21](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.20...v1.0.1-alpha.21) (2019-10-02)
+
+
+### Bug Fixes
+
+* **pattern/flexy grid:** fix typo in flexy space-around modifier class name ([#359](https://github.com/adeo/mozaic-design-system/issues/359)) ([0ec7ab0](https://github.com/adeo/mozaic-design-system/commit/0ec7ab0))
+
+
+### Features
+
+* **pattern/notificaion:** add notification pattern ([#343](https://github.com/adeo/mozaic-design-system/issues/343)) ([053a8a7](https://github.com/adeo/mozaic-design-system/commit/053a8a7))
+* **patterns/flags:** create flag component ([#348](https://github.com/adeo/mozaic-design-system/issues/348)) ([7c78093](https://github.com/adeo/mozaic-design-system/commit/7c78093))
+
+
+
+
+
 ## [1.0.1-alpha.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.19...v1.0.1-alpha.20) (2019-09-19)
 
 
