@@ -1,42 +1,19 @@
-## PR Checklist
-Please check if your PR fulfills the following requirements:
-
-- [ ] The commit message follows our guidelines: https://github.com/adeo/design-system--styleguide/blob/master/CONTRIBUTING.md#commit
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been added / updated (for bug fixes / features)
-
-
-## PR Type
-What kind of change does this PR introduce?
-
-<!-- Please check the one that applies to this PR using "x". -->
-
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update (formatting, local variables)
-- [ ] Refactoring (no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] CI related changes
-- [ ] Documentation content changes
-- [ ] Other... Please describe:
-
-
-## What is the current behavior?
-<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
-
-Issue Number: N/A
-
-
-## What is the new behavior?
-
-
-## Does this PR introduce a breaking change?
+## I have read [the contributing guidelines](https://mozaic.adeo.cloud/contributing)
 
 - [ ] Yes
 - [ ] No
 
+## Does this PR introduce a breaking change?
 
-<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
+read [What is a breaking change ?](/Contributing/GitConventions/)
 
+- [ ] Yes
+- [ ] No
 
-## Other information
+## Describe the changes
+
+<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
+
+Github issue number or Jira issue URL: N/A
+
+## Other informations
