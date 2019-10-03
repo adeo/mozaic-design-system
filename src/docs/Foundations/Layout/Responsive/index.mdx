@@ -14,9 +14,10 @@ Major breakpoints are expressed in tee-shirt sizes letters, they are meant to pr
 | viewport          | token       | corresponding devices types |
 | ----------------- | ----------- | --------------------------- |
 | **0px** and up    | `screen.s`  | phones                      |
-| **576px** and up  | `screen.m`  | tablets and tiny labtops    |
-| **1100px** and up | `screen.l`  | landscape tablets, laptops  |
-| **1920px** and up | `screen.xl` | desktop                     |
+| **680px** and up  | `screen.m`  | tablets and tiny labtops    |
+| **1024px** and up | `screen.l`  | landscape tablets, laptops  |
+| **1280px** and up | `screen.xl` | laptops (depending on settings)                   |
+| **1920px** and up | `screen.xxl` | desktop                    |
 
 <br />
 
@@ -28,26 +29,26 @@ Each major breakpoint come with some minor ones, meant to give a more fine contr
 
 Minor breakpoints start with the name of a major one and use the following sizes declinaisons :
 
-- mini
 - medium
-- mega
+- large
+- xlarge
 
 Using a mobile first approach, a minor breakpoint is inevitabily bigger than the Major one :
 
 | viewport          | token             | examples of devices                                                                                                |
 | ----------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **320px** and up  | `screen.s-mini`   | iphone5, SE                                                                                                        |
-| **360px** and up  | `screen.s-medium` | Sony Xperia P, <br />Samsung Galaxy S4, <br />iphone6,7,8                                                              |
-| **390px** and up  | `screen.s-mega`   | iphone6+,7+,X+, <br />Samsung Galaxy Note                                                                            |
+| **320px** and up  | `screen.s-medium`   | iphone5, SE                                                                                                        |
+| **360px** and up  | `screen.s-large` | Sony Xperia P, <br />Samsung Galaxy S4, <br />iphone6,7,8                                                              |
+| **390px** and up  | `screen.s-xlarge`   | iphone6+,7+,X+, <br />Samsung Galaxy Note                                                                            |
 | -                 | -                 | -                                                                                                                  |
-| **576px** and up  | `screen.m`        | tablets                                                                                                            |
-| **680px** and up  | `screen.m-mini`   | Microsoft Surface Pro, <br />Apple iPad mini, <br />Samsung Galaxy Tab 7"                                              |
-| **769px** and up  | `screen.m-medium` | Samsung Nexus 10, <br />Samsung Galaxy Tab 8.9" & 10"                                                                |
-| **1024px** and up | `screen.m-mega`   | Microsoft Surface Pro 3, <br />Apple iPad Pro<br />Ipad (landscape)                                                    |
+| **680px** and up  | `screen.m`        | Microsoft Surface Pro, <br />Apple iPad mini, <br />Samsung Galaxy Tab 7"                                                                                                                  |
+| **769px** and up  | `screen.m-medium`   | Samsung Nexus 10, <br />Samsung Galaxy Tab 8.9" & 10"   |                              
 | -                 | -                 | -                                                                                                                  |
-| **1100px** and up | `screen.l`        | landscape tablets, laptops                                                                                         |
-| **1280px** and up | `screen.l-mini`   | laptops (depending on settings), <br />Samsung Galaxy Tab 10" (landscape), <br />Samsung Galaxy Tab 2 10" (landscape), |
-| **1440px** and up | `screen.l-medium` | laptops (depending on settings), <br />Microsoft Surface Pro 3 (landscape), <br />Apple iPad Pro 12.9" (landscape)     |
-| **1680px** and up | `screen.l-mega`   | laptops (depending on settings),                                                                                   |
+| **1024px** and up | `screen.l`        | Microsoft Surface Pro 3, <br />Apple iPad Pro<br />Ipad (landscape)    
+| **1100px** and up | `screen.l-medium`        | landscape tablets, laptops                                                                                     |
 | -                 | -                 | -                                                                                                                  |
-| **1920px** and up | `screen.xl`       | desktop computers                                                                                                  |
+| **1280px** and up | `screen.xl`   | laptops (depending on settings), <br />Samsung Galaxy Tab 10" (landscape), <br />Samsung Galaxy Tab 2 10" (landscape), |
+| **1440px** and up | `screen.xl-medium` | laptops (depending on settings), <br />Microsoft Surface Pro 3 (landscape), <br />Apple iPad Pro 12.9" (landscape)     |
+| **1680px** and up | `screen.xl-large`   | laptops (depending on settings)                                                                                  |
+| -                 | -                 | -                                                                                                                  |
+| **1920px** and up | `screen.xxl`       | desktop computers                                                                                                  |
