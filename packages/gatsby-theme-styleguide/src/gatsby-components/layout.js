@@ -28,6 +28,9 @@ const Global = styled.div`
 `
 
 const Main = styled.main`
+  display: flex;
+  flex-direction: row;
+  scroll-behavior: smooth;
   flex: 1;
   overflow: auto;
   position: relative;
@@ -37,9 +40,10 @@ const MenuContainer = styled.main`
   border-right: solid 1px #f5f5f5;
 `
 
-const Layout = ({ children, location }) => {
+const Layout = ({ children, location, tableOfContents }) => {
   const Preview = withLocationPreview(location)
   shortcodes.Preview = Preview
+
   return (
     <StaticQuery
       query={query}

@@ -64,7 +64,7 @@ class PageTabs extends PureComponent {
     const cleanTabs = this.orderPageTab(samePageTabs)
 
     return (
-      <Tabs>
+      <Tabs id="page_tabs_menu">
         <TabsWrapper>
           {cleanTabs.map(node => (
             <TabItem key={node.slug}>

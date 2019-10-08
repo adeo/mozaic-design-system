@@ -117,3 +117,12 @@ td:first-child {
     height: auto;
   }
 }
+
+#page-content-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  > div {
+    flex: 4;
+  }
+}

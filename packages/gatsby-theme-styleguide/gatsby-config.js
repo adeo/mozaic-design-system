@@ -57,6 +57,13 @@ module.exports = {
       options: {
         extensions: [`.mdx`],
         gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-autolink-headers',
+            options: {
+              enableCustomId: true,
+              className: 'anchor-toc',
+            },
+          },
           'gatsby-remark-static-images',
           'gatsby-remark-prismjs',
         ],
