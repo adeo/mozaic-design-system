@@ -1,8 +1,98 @@
 ---
-title: "Naming convention"
+title: 'Naming convention'
 order: 5
 ---
 
-#About the naming convention
+## Files Naming
 
-Xxxxxxxx
+The prefix must contain two letters corresponding of the pattern type.
+
+> [XX] File name
+
+| Prefix   | Pattern type        | Example                                |
+| -------- | ------------------- | -------------------------------------- |
+| **[AA]** | Styles              | Colors, icons, fonts, shapes, ...      |
+| **[BA]** | Simple Component    | Buttons, links, tags, forms, ...       |
+| **[BB]** | Complex Component   | Notifications, accordions, popins, ... |
+| **[ZZ]** | Specific librairies | Tools, documentation, ...              |
+
+## Tools
+
+### Sketch
+
+#### Rules to follow
+
+When you're working for Mozaic, you will probably use Sketch for your designs. The core team has established some ground rules to follow to have an coherent user experience from all across the BU's that are using the product.
+
+- **PascalCase:** Pascal case combines words by capitalizing all words, even the first word and removing the space. For example:
+  - Raw : `user login count`
+  - Pascal Case : `UserLoginCount`
+- **English:** every file, layer, symbol and so on must be named in english.
+
+#### Artboard / Symbols naming
+
+#### Layers naming
+
+##### Shapes
+
+Please use the following naming conventions for your shapes in your Sketch files.
+
+- Frame: frame is the combination of a **background** and an **outline**
+- Divider: this allows you to break the rhythm of the page
+- Shadow: …
+
+<hintitem>
+  Always rename your layers to have an understable file for others.
+</hintitem>
+
+<hintitem dont="true">
+  Never use layer names like _rectangle_, _oval_, etc.
+</hintitem>
+
+##### Icons
+
+Please follow these instructions for the naming of your icon in the layer list.
+
+- Choose the icon here 👇: use this naming if your icon is overridable
+- Icon's action: if your icon isn't overridable please summarise what action it does. For example **Close Icon**
+
+##### Images
+
+Two cases are available for naming images layers.
+
+- Picture:
+- Illustration:
+
+##### Texts
+
+- Content: content can be just one or a combination of the following elements :
+  - Title
+  - Subtitle
+  - Paragraph
+  - Mention
+  - Link
+- Label: when using _label_, please explain what label it is. For example **Button label**
+
+### Abstract
+
+#### Branches
+
+The prefix must contain the last two digits of the current year and the number of the week followed by the name file :
+
+> [Year.Week] File name
+>
+> > _ **[19.40] Buttons** _
+
+#### Child Branches
+
+> [YY.WW] Component name + Action (Major, Minor, Fix)
+>
+> > _ **[19.40] Buttons - Fix ** _
+
+#### Commits message
+
+Commits are a testimony of your work on your files. Use them to make a summary of what's been done during the creation process.
+
+Modified file : Major (add accordion) _ Device if needed
+Modified file : Minor (refoactor for campus) _ Device if needed
+Modified file : Fix (responsive bug) \* Device if needed
