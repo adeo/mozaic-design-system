@@ -25,7 +25,11 @@ export default class TableOfContents extends PureComponent {
   }
 
   scroller = ({ hash }) => {
-    const clientRects = document.querySelector(hash).getBoundingClientRect()
+    hash = hash.replace('#', '')
+    hash = decodeURIComponent(hash)
+    const clientRects = document
+      .querySelector(`[id="${hash}"]`)
+      .getBoundingClientRect()
     const pageTabsHeight = this.getPageTabsHeight()
     const offset = pageTabsHeight || 5
     const scrollingElem = document.querySelectorAll('main').item(1)
@@ -55,7 +59,9 @@ export default class TableOfContents extends PureComponent {
 
     const hash = window.location.href.match(/#[\w-_]+$/)
     if (hash) {
-      this.scroller({ hash })
+      setTimeout(() => {
+        this.scroller({ hash: hash[0] })
+      }, 800)
     }
 
     document.querySelectorAll('.anchor-toc').forEach(elem => {

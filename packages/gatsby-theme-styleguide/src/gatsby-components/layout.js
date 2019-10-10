@@ -28,10 +28,12 @@ const Global = styled.div`
 `
 
 const Main = styled.main`
+  align-items: flex-start;
   display: flex;
   flex-direction: row;
-  scroll-behavior: smooth;
   flex: 1;
+  justify-content: center;
+  scroll-behavior: smooth;
   overflow: auto;
   position: relative;
 `
