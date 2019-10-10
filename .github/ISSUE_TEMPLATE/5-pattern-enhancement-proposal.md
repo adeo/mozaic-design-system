@@ -22,11 +22,14 @@ Existing issues often contain information about workarounds, resolution, or prog
 
 
 ### Description
-<!-- ✍️ A clear and concise description of why this pattern is needed.-->
+
+<!-- ✍️ --> A clear and concise description of the requested pattern.
+
+### Justification
+<!--
+Please explain the benefit of this feature and why this pattern is needed? What need does it meet?
+-->
 
 
 **Anything else relevant?**
 <!-- ✍️ Feel free to add here screenshots, sketch files or even source code-->
-
-
-<!--Learn more about our [workflow](https://github.com/adeo/design-system--styleguide/wiki) for requests-->
