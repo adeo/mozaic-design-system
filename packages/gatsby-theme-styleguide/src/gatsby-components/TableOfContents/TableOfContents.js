@@ -73,11 +73,15 @@ export default class TableOfContents extends PureComponent {
     })
   }
 
-  renderList = list => {
-    return list.map((elem, index) => {
+  renderList = list =>
+    list.map((elem, index) => {
       let { url, title, items } = elem
       if (items) {
-        items = <ul key={'group_' + index}>{this.renderList(items)}</ul>
+        items = (
+          <ul className="toc__list" key={'group_' + index}>
+            {this.renderList(items)}
+          </ul>
+        )
       }
 
       // parsing the {#id} (optional)
@@ -89,19 +93,18 @@ export default class TableOfContents extends PureComponent {
         })
         title = title.trim()
         anchor = (
-          <a onClick={this.onClick} href={url}>
+          <a className="toc__list-link" onClick={this.onClick} href={url}>
             {title}
           </a>
         )
       }
       return (
-        <li key={url + '_link_' + index}>
+        <li className="toc__list-item" key={url + '_link_' + index}>
           {anchor}
           {items}
         </li>
       )
     })
-  }
 
   render() {
     const { tableOfContents = {} } = this.props
@@ -111,12 +114,14 @@ export default class TableOfContents extends PureComponent {
     }
 
     return (
-      <main id="toc">
-        <div>
-          <h2>TABLE OF CONTENTS</h2>
-          <ul>{this.renderList(tableOfContents.items)}</ul>
+      <aside className="toc" id="toc">
+        <div className="toc__wrapper">
+          <h2 className="toc__title">TABLE OF CONTENTS</h2>
+          <ul className="toc__list">
+            {this.renderList(tableOfContents.items)}
+          </ul>
         </div>
-      </main>
+      </aside>
     )
   }
 }

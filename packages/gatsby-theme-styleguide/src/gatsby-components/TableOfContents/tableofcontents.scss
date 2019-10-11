@@ -1,5 +1,5 @@
 /* Table of contents */
-#toc {
+.toc {
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -7,13 +7,13 @@
   height: auto;
   min-width: 200px;
 
-  & > div {
+  &__wrapper {
     padding-right: 15px;
     top: 0;
     position: sticky;
   }
 
-  h2 {
+  &__title {
     font-size: 0.9rem;
     margin-top: 0;
 
@@ -24,15 +24,11 @@
     }
   }
 
-  ul {
+  &__list {
     list-style-type: none;
-
-    a {
-      color: #18656b;
-    }
   }
 
-  li > ul {
+  &__list-item > &__list {
     padding-left: 10px;
     font-size: 0.9em;
   }
