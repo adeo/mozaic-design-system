@@ -93,7 +93,7 @@ export class PreviewComponent extends PureComponent {
       json: 'JSON',
       html: 'html',
       css: 'css',
-      scss: 'css',
+      scss: 'scss',
     }[ext])
 
   showCode = codeSampleName => {

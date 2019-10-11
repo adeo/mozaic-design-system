@@ -125,7 +125,8 @@ const CodeHilight = ({ code, language, fullScreen, isOpen }) => (
     {...defaultProps}
     code={code}
     language={language}
-    PrismTheme="monikai"
+    // theme="monikai"
+    // theme="prism-duotone-dark"
   >
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
       <Preformated
