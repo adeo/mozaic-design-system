@@ -6,6 +6,7 @@ import styled, { css } from 'styled-components'
 import Container from '../gatsby-components/Container'
 import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
+import TableOfContents from '../gatsby-components/TableOfContents'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -23,6 +24,7 @@ const PageContent = styled.div`
 
 export default ({ data, location }) => {
   const post = data.mdx
+  const { tableOfContents } = data.mdx
 
   const otherPosts = data.allMdx.edges
 
@@ -48,7 +50,7 @@ export default ({ data, location }) => {
   const hasTabs = samePageTabs.length > 1
 
   return (
-    <Layout location={location}>
+    <Layout location={location} tableOfContents={tableOfContents}>
       <div>
         <FullWidthContainer separator>
           <Container>
@@ -57,12 +59,13 @@ export default ({ data, location }) => {
         </FullWidthContainer>
         {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
 
-        <FullWidthContainer>
+        <FullWidthContainer id="page-content-wrapper">
           <Container>
             <PageContent className="main">
               <MDXRenderer>{post.body}</MDXRenderer>
             </PageContent>
           </Container>
+          <TableOfContents tableOfContents={tableOfContents} />
         </FullWidthContainer>
       </div>
     </Layout>
@@ -74,6 +77,7 @@ export const query = graphql`
     mdx(fields: { slug: { eq: $slug } }) {
       id
       body
+      tableOfContents
       fields {
         slug
         fileName {
