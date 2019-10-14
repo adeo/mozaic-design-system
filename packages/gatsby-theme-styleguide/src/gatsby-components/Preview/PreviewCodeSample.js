@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 import Highlight, { defaultProps } from 'prism-react-renderer'
-import theme from 'prism-react-renderer/themes/vsDarkPlus'
 
 import IconLibrairy from '../IconLibrairy'
 
@@ -126,8 +125,7 @@ const CodeHilight = ({ code, language, fullScreen, isOpen }) => (
     {...defaultProps}
     code={code}
     language={language}
-    // theme="monikai"
-    theme={theme}
+    theme={undefined}
   >
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
       <Preformated
