@@ -32,7 +32,7 @@ export default class TableOfContents extends PureComponent {
       .getBoundingClientRect()
     const pageTabsHeight = this.getPageTabsHeight()
     const offset = pageTabsHeight || 5
-    const scrollingElem = document.querySelectorAll('main').item(1)
+    const scrollingElem = document.getElementById('scroller')
     scrollingElem.scrollTop = clientRects.y + scrollingElem.scrollTop - offset
   }
 

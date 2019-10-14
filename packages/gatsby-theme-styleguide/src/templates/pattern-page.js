@@ -3,12 +3,14 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { graphql } from 'gatsby'
 import styled, { css } from 'styled-components'
 
+import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 import Container from '../gatsby-components/Container'
 import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
 import TableOfContents from '../gatsby-components/TableOfContents'
 
 const FullWidthContainer = styled.div`
+  width: 100%;
   ${({ separator }) =>
     separator &&
     css`
@@ -16,9 +18,32 @@ const FullWidthContainer = styled.div`
     `};
 `
 
+const PageContentWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+`
+
 const PageContent = styled.div`
+  max-width: ${MagicUnit * 52}rem;
+
   ul {
     margin: 20px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    &:not(:first-child) {
+      margin-top: 2em;
+      margin-bottom: 1.25em;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 `
 
@@ -51,23 +76,21 @@ export default ({ data, location }) => {
 
   return (
     <Layout location={location} tableOfContents={tableOfContents}>
-      <div>
-        <FullWidthContainer separator>
-          <Container>
-            <h1>{parentTitle}</h1>
-          </Container>
-        </FullWidthContainer>
-        {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
+      <FullWidthContainer separator>
+        <Container>
+          <h1>{parentTitle}</h1>
+        </Container>
+      </FullWidthContainer>
+      {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
 
-        <FullWidthContainer id="page-content-wrapper">
-          <Container>
-            <PageContent className="main">
-              <MDXRenderer>{post.body}</MDXRenderer>
-            </PageContent>
-          </Container>
-          <TableOfContents tableOfContents={tableOfContents} />
-        </FullWidthContainer>
-      </div>
+      <PageContentWrapper>
+        <Container>
+          <PageContent>
+            <MDXRenderer>{post.body}</MDXRenderer>
+          </PageContent>
+        </Container>
+        <TableOfContents tableOfContents={tableOfContents} />
+      </PageContentWrapper>
     </Layout>
   )
 }
