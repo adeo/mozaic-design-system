@@ -23,7 +23,7 @@ module.exports = plop => {
     actions: [
       {
         type: 'addMany',
-        destination: 'src/pages/{{path}}/{{name}}',
+        destination: 'src/docs/{{path}}/{{name}}',
         templateFiles: 'plop-templates/pattern/**/*',
         base: 'plop-templates/pattern/',
       },
