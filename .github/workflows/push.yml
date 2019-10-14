@@ -1,0 +1,50 @@
+name: Pull request
+
+on:
+  pull_request:
+    branches-ignore:
+      - master
+  push:
+    branches-ignore:
+      - master
+
+jobs:
+  DeployDemo:
+    name: Deploy a Demo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10
+      - run: npm install yarn -g
+      - run: yarn lerna
+      - name: Build a production website
+        run: yarn build
+        env:
+          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+      - uses: ./ci/docker-wait
+        env:
+          GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
+        with:
+          args:
+            ci:wait $(echo ${{ github.ref }} | iconv -t ascii//TRANSLIT | sed -r
+            's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g'
+            | tr A-Z a-z)
+      - uses: actions/gcloud/auth@df59b3263b6597df4053a74e4e4376c045d9087e
+        env:
+          GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
+      - uses: actions/gcloud/cli@df59b3263b6597df4053a74e4e4376c045d9087e
+        with:
+          args:
+            --quiet --verbosity=error app deploy app.demo.yaml --project=mozaic-design-system-dtrp
+            --version=$(echo ${{ github.ref }} | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g'
+            | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --no-promote
+      - uses: swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d
+        env:
+          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+        with:
+          args:
+            POST https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment
+            "ref=${{ github.ref }} env=staging gh_token=$GH_API_TOKEN"
