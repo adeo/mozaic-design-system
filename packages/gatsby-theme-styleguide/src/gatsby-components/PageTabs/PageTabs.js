@@ -5,6 +5,7 @@ import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 
 const Tabs = styled.div`
   position: sticky;
+  width: 100%;
   z-index: 1;
   top: 0;
   background: #fff;
@@ -12,7 +13,7 @@ const Tabs = styled.div`
 `
 
 const TabsWrapper = styled.div`
-  margin: 0 auto;
+  padding-left: ${MagicUnit * 3}rem;
   max-width: ${MagicUnit * 52}rem;
 `
 

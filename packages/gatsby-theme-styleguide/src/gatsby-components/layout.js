@@ -28,17 +28,13 @@ const Global = styled.div`
 `
 
 const Main = styled.main`
-  align-items: flex-start;
-  display: flex;
-  flex-direction: row;
   flex: 1;
-  justify-content: center;
   scroll-behavior: smooth;
   overflow: auto;
   position: relative;
 `
 
-const MenuContainer = styled.main`
+const MenuContainer = styled.nav`
   border-right: solid 1px #f5f5f5;
 `
 
@@ -71,9 +67,9 @@ const Layout = ({ children, location, tableOfContents }) => {
               }}
             />
           </MenuContainer>
-          <Main>
-            <MDXProvider components={shortcodes}>{children}</MDXProvider>
-          </Main>
+          <MDXProvider components={shortcodes}>
+            <Main id="scroller">{children}</Main>
+          </MDXProvider>
         </Global>
       )}
     />

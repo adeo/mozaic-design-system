@@ -2,7 +2,5 @@ import styled from 'styled-components'
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 
 export default styled.div`
-  padding: ${MagicUnit}rem ${MagicUnit * 2}rem;
-  margin: 0 auto;
-  max-width: ${MagicUnit * 52}rem;
+  padding: ${MagicUnit}rem ${MagicUnit * 3}rem;
 `
