@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.22](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.21...v1.0.1-alpha.22) (2019-10-14)
+
+
+### Bug Fixes
+
+* **chore/github action:** migrate actions to yaml ([#380](https://github.com/adeo/design-system--styleguide/issues/380)) ([ccd9f5f](https://github.com/adeo/design-system--styleguide/commit/ccd9f5f))
+* **chore/npm publish:** fix npm publish command (hopefuly) ([#374](https://github.com/adeo/design-system--styleguide/issues/374)) ([5ffd816](https://github.com/adeo/design-system--styleguide/commit/5ffd816))
+* **chore/releases:** fix npm publish (hopefully again) ([#376](https://github.com/adeo/design-system--styleguide/issues/376)) ([215091c](https://github.com/adeo/design-system--styleguide/commit/215091c))
+* **patterns/flags:** fix flags font-import lacking mixin ([#375](https://github.com/adeo/design-system--styleguide/issues/375)) ([4ef61a9](https://github.com/adeo/design-system--styleguide/commit/4ef61a9))
+* **tools/github templates:** update github templates for issues ([#379](https://github.com/adeo/design-system--styleguide/issues/379)) ([dd17352](https://github.com/adeo/design-system--styleguide/commit/dd17352))
+* **website/toc:** fix layout and add some styles to the toc ([#385](https://github.com/adeo/design-system--styleguide/issues/385)) ([d6ec984](https://github.com/adeo/design-system--styleguide/commit/d6ec984))
+
+
+### Features
+
+* **onboard/contrib:** create contrib doc for bug fixes ([#384](https://github.com/adeo/design-system--styleguide/issues/384)) ([d90b6be](https://github.com/adeo/design-system--styleguide/commit/d90b6be))
+* **onboard/contributing:** documentation - report a bug ([#372](https://github.com/adeo/design-system--styleguide/issues/372)) ([5d04e80](https://github.com/adeo/design-system--styleguide/commit/5d04e80))
+* **onboard/css comments:** add comments section ([#386](https://github.com/adeo/design-system--styleguide/issues/386)) ([58b3681](https://github.com/adeo/design-system--styleguide/commit/58b3681))
+* **onboard/newpattern:** suggest and submit a new pattern ([#377](https://github.com/adeo/design-system--styleguide/issues/377)) ([c67b78c](https://github.com/adeo/design-system--styleguide/commit/c67b78c))
+* **onboard/patternenhancement:** suggest/submit a pattern enhancement ([#381](https://github.com/adeo/design-system--styleguide/issues/381)) ([f0e8ab8](https://github.com/adeo/design-system--styleguide/commit/f0e8ab8))
+* **patterns/rating stars:** create rating stars component  ([#369](https://github.com/adeo/design-system--styleguide/issues/369)) ([81a9393](https://github.com/adeo/design-system--styleguide/commit/81a9393))
+* **patterns/settings:** create hidden input, focus styles + button and list unstyle mixins ([55dc267](https://github.com/adeo/design-system--styleguide/commit/55dc267))
+* **patterns/tag:** create tag component ([3753fa9](https://github.com/adeo/design-system--styleguide/commit/3753fa9))
+* **website/toc:** add a table of contents in docs pages ([#378](https://github.com/adeo/design-system--styleguide/issues/378)) ([8aff78d](https://github.com/adeo/design-system--styleguide/commit/8aff78d))
+
+
+
+
+
 ## [1.0.1-alpha.21](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.20...v1.0.1-alpha.21) (2019-10-02)
 
 
