@@ -37,5 +37,3 @@ jobs:
           args:
             POST https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment
             "ref=${{ github.ref }} env=production gh_token=$GH_API_TOKEN"
-      - name: npm upload
-        run: yarn upload
