@@ -9,7 +9,7 @@ order: 1
   use the set-from-screen mixin in with a screen map key to create a media querie
 </HintItem>
 
-```css
+```scss
 @include set-from-screen(m) {
   /* ... code */
 }
@@ -35,7 +35,7 @@ order: 1
 
 for example, to create an utility that hide an element based on the viewport :
 
-```css
+```scss
 .mu-hide
   @include modify-from-screens(('s', 'm', 'l', 'xl', 'xxl')) {
     display: none !important;
@@ -45,7 +45,7 @@ for example, to create an utility that hide an element based on the viewport :
 
 Output:
 
-```css
+```scss
 // from screen s and up (will hide anything)
 .mu-hide {
   display: none;
@@ -101,14 +101,14 @@ You can either :
 
 #### 1) declare a map before passing it to the mixin
 
-```css
+```scss
 $viewports: ('s', 'm', 'l', 'xl', 'xxl');
 @include modify-from-screens($viewports) {...}
 ```
 
 #### 2) passes the viewports names wrapped in parenthesis
 
-```css
+```scss
 @include modify-from-screens(('s', 'm', 'l', 'xl', 'xxl')) {...}
 ```
 
@@ -116,7 +116,7 @@ $viewports: ('s', 'm', 'l', 'xl', 'xxl');
 
 (if you want to pass all major screens has arguments)
 
-```css
+```scss
 @include modify-from-screens($major-screens) {...}
 ```
 

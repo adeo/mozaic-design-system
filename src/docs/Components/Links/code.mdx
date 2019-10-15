@@ -7,7 +7,7 @@ order: 2
 
 Import the settings and the links `scss` files.
 
-```css
+```scss
 @import 'settings-tools/_all-settings';
 
 @include import-font-families();
@@ -107,7 +107,7 @@ Link icons are only used in `16px` regardless of the link size
 
 If you need to create a new link theme you need to define a new SASS map, see below :
 
-```css
+```scss
 $my-map: (
   'color-theme': {'base': green,
   'hover': white,
@@ -118,7 +118,7 @@ $my-map: (
 
 Now the map of your theme is define you can use the mixin `set--link-theme`.
 
-```css
+```scss
 .mc-link--my-custom-theme {
   @include set-link-theme($my-map);
 }
@@ -126,7 +126,7 @@ Now the map of your theme is define you can use the mixin `set--link-theme`.
 
 Then, it will generate something like this :
 
-```css
+```scss
 .mc-link--my-custom-theme {
   color: green;
 }

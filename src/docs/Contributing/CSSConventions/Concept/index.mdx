@@ -38,7 +38,7 @@ Note that all `settings` and `tools` are bundled into a file nammed `all-setting
 This file is the only file required by all other files.
 This File will not output any css when compiled appart from the font-faces declarations.
 
-```css
+```scss
 /* mandatory */
 @import '@mozaic-ds/styles/settings-tools/_all-settings';
 
@@ -87,7 +87,7 @@ The block name defines the namespace for its elements and modifiers.
 
 #### css/scss syntax :
 
-```css
+```scss
 .pr-block-name {
   ...;
 }
@@ -117,7 +117,7 @@ The element name is separated from the block name by a double underscore `(__)`.
 
 #### css/scss syntax :
 
-```css
+```scss
 .pr-block-name__element-name {
   ...;
 }
@@ -139,7 +139,7 @@ The element name is separated from the block name by a double underscore `(__)`.
 
 The modifier name is separated from the block or element name by a double hyphen `(--)`
 
-```css
+```scss
 .pr-block-name--modifier-name {
   ...;
 }

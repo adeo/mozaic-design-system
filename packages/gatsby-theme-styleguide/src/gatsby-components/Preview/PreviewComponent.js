@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react'
 import styled, { css } from 'styled-components'
-import Prism from 'prismjs'
 
 import PreviewCodeSample from './PreviewCodeSample'
 import PreviewToolBar from './PreviewToolBar'
@@ -76,7 +75,6 @@ export class PreviewComponent extends PureComponent {
   componentDidMount() {
     this.isClipBoardAPIAvailable()
     this.props.getAvailableWidth(this.contRef.clientWidth)
-    Prism.highlightAll()
   }
 
   componentDidUpdate() {
@@ -93,17 +91,14 @@ export class PreviewComponent extends PureComponent {
       json: 'JSON',
       html: 'html',
       css: 'css',
-      scss: 'css',
+      scss: 'scss',
     }[ext])
 
   showCode = codeSampleName => {
-    this.setState(
-      {
-        currentCodeSample: codeSampleName,
-        copied: false,
-      },
-      Prism.highlightAll
-    )
+    this.setState({
+      currentCodeSample: codeSampleName,
+      copied: false,
+    })
   }
 
   isClipBoardAPIAvailable = () => {

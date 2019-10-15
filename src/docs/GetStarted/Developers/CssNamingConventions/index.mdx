@@ -38,7 +38,7 @@ Note that all `settings` and `tools` are bundled into a file nammed `all-setting
 This file is the only file required by all other files.
 This File will not output any css when compiled appart from the font-faces declarations.
 
-```css
+```scss
 /* mandatory */
 @import '@mozaic-ds/styles/settings-tools/_all-settings';
 
@@ -97,7 +97,7 @@ Note that in the following examples, the prefixes are symbolised by `pr` in fron
 
 #### css/scss syntax :
 
-```css
+```scss
 .pr-block-name {
   ...;
 }
@@ -125,7 +125,7 @@ Note that in the following examples, the prefixes are symbolised by `pr` in fron
 
 #### css/scss syntax :
 
-```css
+```scss
 .pr-block-name__element-name {
   ...;
 }
@@ -145,7 +145,7 @@ Note that in the following examples, the prefixes are symbolised by `pr` in fron
 
 > A BEM entity that defines a variation in appearance and behavior of a block or an element.
 
-```css
+```scss
 .pr-block-name--modifier-name {
   ...;
 }
@@ -168,7 +168,7 @@ States classes starts with an auxilary verb **be** (or **have** in fiew cases) l
 
 States classes can only be used in combination with another BEM entity :
 
-```css
+```scss
 .mc-accordion.is-open {
   ...;
 }
@@ -249,7 +249,7 @@ Example :
 
 Output :
 
-```css
+```scss
 .my-class {
   font-familly: LeroyMerlin, arial, sans-serif;
   font-weight: 400;
@@ -268,7 +268,7 @@ Example :
 
 Output :
 
-```css
+```scss
 .ml-flexy__col--1of2 {
   flex: 0 0 50%;
   max-width: 50%;
@@ -298,7 +298,7 @@ Example :
 
 Output :
 
-```css
+```scss
 .mu-hidden {
   display: none !important;
 }

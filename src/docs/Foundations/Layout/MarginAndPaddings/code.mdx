@@ -7,7 +7,7 @@ order: 2
 
 You can add to your bundle the margins or paggings utility classes like so :
 
-```css
+```scss
 @import 'utilities/_u.margin.scss';
 @import 'utilities/_u.padding.scss';
 ```
@@ -31,7 +31,7 @@ Please considere that those utilities are looping through all magic-unit authori
 
 You can implement your own margins or paggings utility using the space mixin :
 
-```css
+```scss
 @import 'settings-tools/_all-settings.scss';
 
 @include make-space-util(m, t, 075);
@@ -75,7 +75,7 @@ You can implement your own margins or paggings utility using the space mixin :
     Use margins and padding using variables or functions to define inner spaces
 </HintItem>
 
-```css
+```scss
 @import 'settings-tools/_all-settings.scss';
 
 .mc-list {
@@ -101,7 +101,7 @@ It makes it easier for your coworker to understant what is related to what.
 
 To remove border sizes from vertical padding, as borders are expressed in `px` and padding in `rem`, use the `calc()` css function :
 
-```css
+```scss
 @import 'settings-tools/_all-settings.scss';
 
 .exemple {
