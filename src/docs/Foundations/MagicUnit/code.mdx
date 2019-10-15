@@ -18,7 +18,7 @@ If you don't know why, [read this first](https://www.sitepoint.com/understanding
 
 Well, depending on the team code base that use it, the value of `1rem` may be different... The value of `1rem` is defined by the `font-size` property attached to the root element (html on the web).
 
-```css
+```scss
 /* it's not uncommon to see this */
 html {
   font-size: 62.5%; /* 62.5% of 16px is 10px */
@@ -31,7 +31,7 @@ html {
 
 by default, the `rem` is equal to `16px` :
 
-```css
+```scss
 html {
   /* ...nothing here redifining the font-size */
 }
@@ -45,7 +45,7 @@ html {
 
 We added a token where you can define your local pixel value of `1rem`. It's exposed in scss as `$local-rem-value`. This value is set to `16` by default. Then, to get a rem value of `$magic-unit`, we divide it by `$local-rem-value` :
 
-```css
+```scss
 @import 'settings-tools/all-settings';
 
 .my-element {
@@ -61,7 +61,7 @@ To make things easier, we created a sass function that do that for you :
 
 **the `to-rem()` sass function :**
 
-```css
+```scss
 @import 'settings-tools/all-settings';
 /* your rem ($local-rem-value) can by equal either to 10px or 16px */
 .my-element {
@@ -95,7 +95,7 @@ Imagine you create a button. You whant it to have exactly 2.5 x magic-unit heigh
 
 One valid approach could be the folowing :
 
-```css
+```scss
 @import 'settings-tools/all-settings';
 
 .my-button {
@@ -124,7 +124,7 @@ One valid approach could be the folowing :
 
 It basically just do the `to-rem()` part for you
 
-```css
+```scss
 @import 'settings-tools/all-settings';
 
 .my-element {

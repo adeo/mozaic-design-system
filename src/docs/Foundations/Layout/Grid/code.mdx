@@ -17,7 +17,7 @@ order: 1
 
 ### Import the grid :
 
-```css
+```scss
 @import 'settings-tools/_all-settings';
 
 @include import-font-families();
@@ -244,7 +244,7 @@ Use the set-flexy-xxx to mimic the behavior of a grid without applying classes o
 
 Example : Create a blog post layout with an image and a text. From tablet screens, put the text in front of the image.
 
-```css
+```scss
 @import 'settings-tools/_all-settings';
 
 @include import-font-families();
@@ -309,7 +309,7 @@ We advise you to create a new scss file that contain your extensions:
 
 `src/_l.flexy-extend.scss`
 
-```css
+```scss
 /*
 create a column of 12.5% width
 named ml-flexy__col--1of8
@@ -339,7 +339,7 @@ then import it in your main bundle
 
 `src/main-bundle.scss`
 
-```css
+```scss
 @import 'settings-tools/_all-settings';
 
 @include import-font-families();
