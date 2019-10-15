@@ -10,7 +10,6 @@ import PageTabs from '../gatsby-components/PageTabs'
 import TableOfContents from '../gatsby-components/TableOfContents'
 
 const FullWidthContainer = styled.div`
-  width: 100%;
   ${({ separator }) =>
     separator &&
     css`
@@ -19,13 +18,13 @@ const FullWidthContainer = styled.div`
 `
 
 const PageContentWrapper = styled.div`
-  width: 100%;
   display: flex;
   flex-direction: row;
 `
 
 const PageContent = styled.div`
   max-width: ${MagicUnit * 52}rem;
+  min-width: ${MagicUnit * 30}rem;
 
   ul {
     margin: 20px;
@@ -84,11 +83,11 @@ export default ({ data, location }) => {
       {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
 
       <PageContentWrapper>
-        <Container>
-          <PageContent>
+        <PageContent>
+          <Container>
             <MDXRenderer>{post.body}</MDXRenderer>
-          </PageContent>
-        </Container>
+          </Container>
+        </PageContent>
         <TableOfContents tableOfContents={tableOfContents} />
       </PageContentWrapper>
     </Layout>
