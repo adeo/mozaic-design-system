@@ -24,13 +24,15 @@ const Global = styled.div`
   display: flex;
   align-content: stretch;
   height: 100vh;
-  overflow: hidden;
+  width: 100vw;
+  overflow-y: hidden;
 `
 
 const Main = styled.main`
   flex: 1;
   scroll-behavior: smooth;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   position: relative;
 `
 
