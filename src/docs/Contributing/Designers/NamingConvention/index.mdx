@@ -9,7 +9,14 @@ We chose to use english in all our files to be understandable by the most. We al
 
 ## File Naming Conventions
 
-We use two letters prefixes to name our files, like `[AA] Colors.sketch`. Please read the [getting started for designers documentation](GetStarted/Designers/namingConvention) to know more.
+We use two letters prefixes to name our files, this two letters depending on the pattern type and look like that: **_[XX] File name.sketch_**
+
+| Prefix   | Pattern type        | Example                                     |
+| -------- | ------------------- | ------------------------------------------- |
+| **[AA]** | Styles              | Colors, icons, fonts, shadows, ...          |
+| **[BA]** | Simple Components   | Buttons, links, tags, forms, ...            |
+| **[BB]** | Complex Components  | Notifications, accordions, popins, tabs ... |
+| **[ZZ]** | Specific librairies | Tools, documentation, ...                   |
 
 ## Sketch
 
@@ -25,19 +32,23 @@ We use this categorisation to create consistency in our libraries:
 | **🛠 ToolKit**         | This section contains the symbols used to build the final symbols. They are not meant to be used directly but to be accessible through symbol overrides. |
 | **Component**         | This is where you'll find the ready to use symbols of the library.                                                                                       |
 
-<br />
+![buttons--sketch-menu.png](buttons--sketch-menu.png)
 
--- Image --
+<br />
 
 **Tips to create hierarchy:**
 
-- We use numbers as prefixes to order components depending on their importance. For example, `Button / 01-Solid / 01-S / 01- Primary`
+- We use numbers as prefixes to order components depending on their importance. For example, `Button / 01-Solid / 01-S / 01-Primary`
 
 ![hierarchy--importance](hierarchy--importance.png)
 
-- We use a double hyphen as suffixes to indicate a specific information. For example, `Button / 01-Solid / 01-S / 01- Primary--Campus`
+- We use a double hyphen as suffixes to indicate a specific information. For example, `Button / 01-Solid / 01-S / 01-Primary--Campus`
 
 ![hierarchy--specific](hierarchy--specific.png)
+
+- We use clothes sizes letters to organize the patterns from the smallest to the biggest. For example, `XS`, `S`, `M`, `L`,`XL`.
+
+![sizes-naming](sizes-naming.png)
 
 ### Layers naming
 
@@ -45,13 +56,13 @@ We use this categorisation to create consistency in our libraries:
 
 Please use the following naming conventions for your shapes:
 
-| Type           | Description                                                     |
-| -------------- | --------------------------------------------------------------- |
-| **Frame**      | Frame is the combination of a **background** and an **outline** |
-| **Background** | Background is the fill of your component                        |
-| **Outline**    | Outline is the border of your component                         |
-| **Divider**    | This allows you to break the rhythm of the page                 |
-| **Shadow**     | This allows you to create relief                                |
+| Type           | Description                                                                  |
+| -------------- | ---------------------------------------------------------------------------- |
+| **Frame**      | Frame is the combination of a **background**, an **outline** or a **shadow** |
+| **Background** | Background is the fill of your component                                     |
+| **Outline**    | Outline is the border of your component                                      |
+| **Divider**    | This allows you to break the rhythm of the page                              |
+| **Shadow**     | This allows you to create relief                                             |
 
 <br />
 
@@ -81,7 +92,7 @@ Two cases are available for naming images layers.
 
 **Tips for aspect ratios:**
 
-- We recommend renaming the image layers using a referenced ratio like this: `ImageSubject-ratio` like `ProductImage-1:1` or `ArticleImage-4:3`.
+- We recommend renaming the image layers using a referenced ratio like this: `ImageSubject--Ratio` like `ProductPicture--1:1` or `ArticleIllustration--4:3`.
 
 #### Texts
 
@@ -96,7 +107,7 @@ This group can be just one or a combination of the following elements:
 - Link
 - Label
 
--- image --
+![texts-naming.png](texts-naming.png)
 
 **Tips for using label naming right:**
 When using _label_, please explain what label it is. For example `Button label`.
@@ -120,6 +131,8 @@ Commits are a testimony of your work on your files. Use them to make a summary o
 
 Examples:
 
-- Major: `Add accordion + Device if needed`
-- Minor: `Refoactor for campus + Device if needed`
-- Fix: `Responsive bug + Device if needed`
+- Major: `Add accordion pattern`
+- Minor: `Refactor tags for campus`
+- Fix: `Responsive bug`
+
+###
