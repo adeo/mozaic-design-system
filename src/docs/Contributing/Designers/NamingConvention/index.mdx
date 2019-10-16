@@ -3,34 +3,34 @@ title: 'Naming convention'
 order: 5
 ---
 
-> Mozaic is a product used by a lot of people. When so many people work together from different places on such a big project, you need to establish some ground rules that everyone needs to follow. These rules must be followed across every tool your team is using to create consistency and simplify the collaboration process.
+> Mozaic is a product used by a lot of people on different teams, business units and even timezones. To have a minimum of organization, we need some ground rules that everyone that wants to contribute needs to follow. These rules must be followed across every tool your team is using to create consistency and simplify the collaboration process.
 
-We chose to use english in all our files to be understandable by the most. We also chose to use the PascalCase standard in our prototyping tools.
+English is the common language in all our files and documentation. We also chose to use the PascalCase standard in our prototyping tools.
 
 ## File Naming Conventions
 
-We use two letters prefixes to name our files, this two letters depending on the pattern type and look like that: **_[XX] File name.sketch_**
+We use two letters prefixes to name our files, this two letters depends on the pattern and follow the pattern below: **_[XX] File name.sketch_**
 
-| Prefix   | Pattern type        | Example                                     |
-| -------- | ------------------- | ------------------------------------------- |
-| **[AA]** | Styles              | Colors, icons, fonts, shadows, ...          |
-| **[BA]** | Simple Components   | Buttons, links, tags, forms, ...            |
-| **[BB]** | Complex Components  | Notifications, accordions, popins, tabs ... |
-| **[ZZ]** | Specific librairies | Tools, documentation, ...                   |
+| Prefix   | Pattern type        | Description                                                                                           |
+| -------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
+| **[AA]** | Styles              | The styles correspond to Mozaic's foundations (Colors, icons, fonts, shadows, ...)                    |
+| **[BA]** | Simple Components   | The simple components are build from the styles (Buttons, links, tags, forms, ...)                    |
+| **[BB]** | Complex Components  | The complex components are depending on simple components or group together several simple components |
+| **[ZZ]** | Specific librairies | Tools, documentation, ...                                                                             |
 
 ## Sketch
 
-Please follow these rules to have the same architecture and standards in every library. This will be very helpful for the design teams to understand every file in Mozaic.
+You need to follow these rules so we can assure the same architecture and standards in every library. This will avoid rework as we will review if each pattern submitted follow these standards.
 
 ### Symbol categorisation
 
-We use this categorisation to create consistency in our libraries:
+We use the categorisations bellow to assure consistency in our libraries:
 
-| Categrory             | Usage                                                                                                                                                    |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **👾 For developers** | These symbols should not be used in your designs. They are meant to share the different states of a component with the development team.                 |
-| **🛠 ToolKit**         | This section contains the symbols used to build the final symbols. They are not meant to be used directly but to be accessible through symbol overrides. |
-| **Component**         | This is where you'll find the ready to use symbols of the library.                                                                                       |
+| Categrory             | Usage                                                                                                                                                                             |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **👾 For developers** | These symbols should not be used in your designs. They are meant to share the different states of a component with with developers.                                               |
+| **🛠 ToolKit**         | This section contains the symbols created to build the pattern symbols, and they are accessible through symbol overrides. Please don't use directly this symbols in your project. |
+| **Pattern name**      | This is where you'll find the ready to use symbols of the library.                                                                                                                |
 
 ![buttons--sketch-menu.png](buttons--sketch-menu.png)
 
@@ -38,7 +38,7 @@ We use this categorisation to create consistency in our libraries:
 
 **Tips to create hierarchy:**
 
-- We use numbers as prefixes to order components depending on their importance. For example, `Button / 01-Solid / 01-S / 01-Primary`
+- We use numbers as prefixes to order components depending on their importance (from most used to least used). For example, `Button / 01-Solid / 01-S / 01-Primary`
 
 ![hierarchy--importance](hierarchy--importance.png)
 
@@ -46,7 +46,7 @@ We use this categorisation to create consistency in our libraries:
 
 ![hierarchy--specific](hierarchy--specific.png)
 
-- We use clothes sizes letters to organize the patterns from the smallest to the biggest. For example, `XS`, `S`, `M`, `L`,`XL`.
+- We use t-shirt size letters to organize the patterns from the smallest to the biggest. For example, `XS` (Extra Small), `S` (Small), `M` (Medium), `L` (Large),`XL` (Extra Large).
 
 ![sizes-naming](sizes-naming.png)
 
@@ -83,9 +83,11 @@ Please follow these instructions for the naming of your icon in the layer list.
 | **Customisable icon** | Choose the icon here 👇         | Use this naming if your icon is overridable                           |
 | **Static icon**       | Icon action (e.g: _Close Icon_) |  If your icon is not overridable please summarise what action it does |
 
+![icon-override](icon-override.png)
+
 #### Images
 
-Two cases are available for naming images layers.
+Two possibilities are available for naming images layers.
 
 - Picture
 - Illustration
