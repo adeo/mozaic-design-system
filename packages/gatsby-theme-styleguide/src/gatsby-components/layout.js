@@ -47,13 +47,7 @@ const Layout = ({ children, location }) => {
       query={query}
       render={data => (
         <Global>
-          <Helmet
-            title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something, test' },
-            ]}
-          ></Helmet>
+          <Helmet title={data.site.siteMetadata.title}></Helmet>
           <MenuContainer>
             <Menu
               location={location}
