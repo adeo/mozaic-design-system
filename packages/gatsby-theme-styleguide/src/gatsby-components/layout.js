@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import Helmet from './Helmet'
 import { MDXProvider } from '@mdx-js/react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
@@ -38,7 +38,7 @@ const MenuContainer = styled.nav`
   border-right: solid 1px #f5f5f5;
 `
 
-const Layout = ({ children, location, tableOfContents }) => {
+const Layout = ({ children, location }) => {
   const Preview = withLocationPreview(location)
   shortcodes.Preview = Preview
 
@@ -51,25 +51,9 @@ const Layout = ({ children, location, tableOfContents }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'keywords', content: 'sample, something, test' },
             ]}
-          >
-            <html lang="en" />
-            <script>
-              {`
-              <!-- Hotjar Tracking Code for http://mozaic.adeo.cloud -->
-                (function(h,o,t,j,a,r){
-                  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                  h._hjSettings={hjid:1528294,hjsv:6};
-                  a=o.getElementsByTagName('head')[0];
-                  r=o.createElement('script');r.async=1;
-                  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                  a.appendChild(r);
-                })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-
-              `}
-            </script>
-          </Helmet>
+          ></Helmet>
           <MenuContainer>
             <Menu
               location={location}

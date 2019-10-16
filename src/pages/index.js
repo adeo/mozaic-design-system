@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import './index.scss'
 
 import DesignerKitLink from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/DesignerKitLink'
+import Helmet from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/Helmet'
 
 const Tile = ({
   icon,
@@ -70,6 +71,7 @@ const Linkicon = ({ children, link }) => (
 
 const IndexPage = () => (
   <main className="mozaic">
+    <Helmet></Helmet>
     <Slice dark large>
       <nav className="help">
         <div className="help__link-list">
