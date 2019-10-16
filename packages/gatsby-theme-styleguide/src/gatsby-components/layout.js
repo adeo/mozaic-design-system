@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import Helmet from './Helmet'
 import { MDXProvider } from '@mdx-js/react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
@@ -40,7 +40,7 @@ const MenuContainer = styled.nav`
   border-right: solid 1px #f5f5f5;
 `
 
-const Layout = ({ children, location, tableOfContents }) => {
+const Layout = ({ children, location }) => {
   const Preview = withLocationPreview(location)
   shortcodes.Preview = Preview
 
@@ -49,15 +49,7 @@ const Layout = ({ children, location, tableOfContents }) => {
       query={query}
       render={data => (
         <Global>
-          <Helmet
-            title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
-            ]}
-          >
-            <html lang="en" />
-          </Helmet>
+          <Helmet title={data.site.siteMetadata.title}></Helmet>
           <MenuContainer>
             <Menu
               location={location}
