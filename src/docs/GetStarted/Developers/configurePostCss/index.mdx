@@ -71,7 +71,7 @@ gulp.task('css', () =>
 )
 ```
 
-### C) with Vue.js
+### C) With Vue.js using vue CLI
 
 You will need to use **PostCSS** via `postcss-loader`.
 
@@ -83,8 +83,8 @@ After installing `postcss-loader`, configure the file `vue.config.js` this way:
 
 ```js
 const postcssPluginConfig  = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+
 module.exports = {
-  lintOnSave: false,
   css: {
     loaderOptions: {
       postcss: {
