@@ -32,7 +32,7 @@ module.exports = {
 }
 ```
 
-### B) with webpack :
+### B) with webpack
 
 ```js
 /*... your imports */
@@ -56,7 +56,7 @@ const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 ...
 ```
 
-### C) with gulp :
+### C) with gulp
 
 ```js
 var postcss = require('gulp-postcss')
@@ -70,3 +70,29 @@ gulp.task('css', () =>
     .pipe(gulp.dest('./dest'))
 )
 ```
+
+### C) With Vue.js using vue CLI
+
+You will need to use **PostCSS** via `postcss-loader`.
+
+```npm
+npm install -D postcss-loader
+```
+
+After installing `postcss-loader`, configure the file `vue.config.js` this way:
+
+```js
+const postcssPluginConfig  = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+
+module.exports = {
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: postcssPluginConfig
+      }
+    }
+  }
+}
+```
+
+Due to the fact that you are using **PostCSS**, you must **remove** the `lang="sass"` attribute on style tags.
