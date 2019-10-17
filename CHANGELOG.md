@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.23](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.22...v1.0.1-alpha.23) (2019-10-17)
+
+
+### Bug Fixes
+
+* **chore/deploy:** remove unused job ([#387](https://github.com/adeo/design-system--styleguide/issues/387)) ([b0bdc04](https://github.com/adeo/design-system--styleguide/commit/b0bdc04))
+* **website/layout:** render better responsive layout ([#389](https://github.com/adeo/design-system--styleguide/issues/389)) ([819c1b8](https://github.com/adeo/design-system--styleguide/commit/819c1b8))
+* **website/syntax-highlight:** fix scss syntax highlight ([#388](https://github.com/adeo/design-system--styleguide/issues/388)) ([d237aa1](https://github.com/adeo/design-system--styleguide/commit/d237aa1))
+
+
+### Features
+
+* **onboard/contrib:** create philosophy page ([#392](https://github.com/adeo/design-system--styleguide/issues/392)) ([d475242](https://github.com/adeo/design-system--styleguide/commit/d475242))
+* **onboard/contrib:** reorganize contrib sub menu ([#393](https://github.com/adeo/design-system--styleguide/issues/393)) ([3b34c47](https://github.com/adeo/design-system--styleguide/commit/3b34c47))
+* **onboard/contrib design:** Add naming conventions ([#382](https://github.com/adeo/design-system--styleguide/issues/382)) ([2b28409](https://github.com/adeo/design-system--styleguide/commit/2b28409))
+* **onboard/postcss vuejs:** postcss config for vue.js ([#391](https://github.com/adeo/design-system--styleguide/issues/391)) ([5adf4b7](https://github.com/adeo/design-system--styleguide/commit/5adf4b7))
+* **website/feedback-module:** add feedback module ([#390](https://github.com/adeo/design-system--styleguide/issues/390)) ([373c058](https://github.com/adeo/design-system--styleguide/commit/373c058))
+
+
+
+
+
 ## [1.0.1-alpha.22](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.21...v1.0.1-alpha.22) (2019-10-14)
 
 

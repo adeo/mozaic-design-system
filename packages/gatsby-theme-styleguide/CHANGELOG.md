@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.23](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.22...v1.0.1-alpha.23) (2019-10-17)
+
+
+### Bug Fixes
+
+* **website/layout:** render better responsive layout ([#389](https://github.com/adeo/mozaic-design-system/issues/389)) ([819c1b8](https://github.com/adeo/mozaic-design-system/commit/819c1b8))
+* **website/syntax-highlight:** fix scss syntax highlight ([#388](https://github.com/adeo/mozaic-design-system/issues/388)) ([d237aa1](https://github.com/adeo/mozaic-design-system/commit/d237aa1))
+
+
+### Features
+
+* **website/feedback-module:** add feedback module ([#390](https://github.com/adeo/mozaic-design-system/issues/390)) ([373c058](https://github.com/adeo/mozaic-design-system/commit/373c058))
+
+
+
+
+
 ## [1.0.1-alpha.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.21...v1.0.1-alpha.22) (2019-10-14)
 
 
