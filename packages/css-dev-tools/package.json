@@ -2,8 +2,10 @@
   "name": "@mozaic-ds/css-dev-tools",
   "version": "1.0.1-alpha.16",
   "dependencies": {
+    "@mozaic-ds/configuration-manager": "^1.0.1-alpha.23",
     "autoprefixer": "^9.4.3",
     "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
     "postcss": "^7.0.7",
     "postcss-base64": "^0.7.1",
     "postcss-node-sass": "^2.1.8",

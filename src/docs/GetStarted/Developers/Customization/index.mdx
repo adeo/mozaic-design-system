@@ -1,0 +1,64 @@
+---
+title: 'Configuration and Customization'
+order: 9
+---
+
+## mozaic.config.js
+
+> mozaic.config.js allow you to configure and customize mozaic.
+
+Create a mozaic.config.js file at the root of your project :
+
+```js
+module.exports = {
+  /* options */
+}
+```
+
+## SASS options
+
+### `sass.includePaths` : array of paths
+
+Allow you to import scss files from those paths without having to specify them.
+Specified paths will be added to the default ones.
+
+**Default values:**
+
+```
+[
+  './node_modules/@mozaic-ds/styles/',
+  './node_modules/@mozaic-ds/styles/settings-tools/',
+  './node_modules/@mozaic-ds/styles/typography/',
+  './node_modules/@mozaic-ds/styles/layout/',
+  './node_modules/@mozaic-ds/styles/utilities/',
+  './node_modules/@mozaic-ds/styles/components/',
+  './node_modules/@mozaic-ds/tokens/build/scss/',
+  './node_modules/',
+]
+```
+
+**Example :**
+
+```js
+module.exports = {
+  sass: {
+    includePaths: ['./src/path/to/cssDir/'],
+  },
+}
+```
+
+### `sass.indentWidth` : integer
+
+Change the indent width of the compiled css file.
+
+**Default values: 2**
+
+**Example :**
+
+```js
+module.exports = {
+  sass: {
+    indentWidth: 4,
+  },
+}
+```
