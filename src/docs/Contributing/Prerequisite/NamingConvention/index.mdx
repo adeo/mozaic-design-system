@@ -9,7 +9,7 @@ English is the common language in all our files and documentation. We also chose
 
 ## File Naming Conventions
 
-We use two letters prefixes to name our files, this two letters depends on the type of pattern as you can see below:: **_[XX] File name.sketch_**
+We use two letters prefixes to name our files, this two letters depends on the type of pattern as you can see below: **_[XX] File name.sketch_**
 
 | Prefix   | Pattern type        | Description                                                                                           |
 | -------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -115,6 +115,71 @@ This group can be just one or a combination of the following elements:
 When using _label_, please explain what label it is. For example `Button label`.
 
 ![text--label](text--label.png)
+
+## Figma
+
+You need to follow these rules so we can assure the same architecture and standards in every library. This will avoid rework as we will review if each pattern submitted follow these standards.
+
+### Component categorisation
+
+**Tips to create hierarchy:**
+
+- We use numbers as prefixes to order components depending on their importance (from most used to least used). For example, `Button / 01-Solid / 01-S / 01-Primary`
+
+* We use a double hyphen as suffixes to indicate a specific information. For example, `Button / 01-Solid / 01-S / 01-Primary--Campus`
+
+- We use t-shirt size letters to organize the patterns from the smallest to the biggest. For example, `XS` (Extra Small), `S` (Small), `M` (Medium), `L` (Large),`XL` (Extra Large).
+
+### Layers naming
+
+#### Shapes
+
+Please use the following naming conventions for your shapes:
+
+| Type           | Description                                                                  |
+| -------------- | ---------------------------------------------------------------------------- |
+| **Frame**      | Frame is the combination of a **background**, an **outline** or a **shadow** |
+| **Background** | Background is the fill of your component                                     |
+| **Outline**    | Outline is the border of your component                                      |
+| **Divider**    | This allows you to break the rhythm of the page                              |
+| **Shadow**     | This allows you to create relief                                             |
+
+<br />
+
+<HintItem>
+  Always rename your layers to have an understable file for others.
+</HintItem>
+
+<HintItem dont="true">
+  Never use layer names like rectangle, oval, etc.
+</HintItem>
+
+#### Images
+
+Two possibilities are available for naming images layers.
+
+- Picture
+- Illustration
+
+**Tips for aspect ratios:**
+
+- We recommend renaming the image layers using a referenced ratio like this: `ImageSubject--Ratio` like `ProductPicture--1:1` or `ArticleIllustration--4:3`.
+
+#### Texts
+
+Please gather your text layers in a group name `Content`.
+
+This group can be just one or a combination of the following elements:
+
+- Title
+- Subtitle
+- Paragraph
+- Mention
+- Link
+- Label
+
+**Tips for using label naming right:**
+When using _label_, please explain what label it is. For example `Button label`.
 
 ## Abstract
 
