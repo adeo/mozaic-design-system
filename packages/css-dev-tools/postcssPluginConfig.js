@@ -5,6 +5,32 @@ const stylelint = require('stylelint')
 const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
 const mqpacker = require('css-mqpacker')
+const cssnano = require('cssnano')
+const CM = require('@mozaic-ds/configuration-manager')
+
+const MOZAIC_ENV = process.env.MOZAIC_ENV
+
+// test for user configured additional paths
+const additionalPaths = CM.getKey('sass.includePaths')
+
+const basePaths = [
+  './node_modules/@mozaic-ds/styles/',
+  './node_modules/@mozaic-ds/styles/settings-tools/',
+  './node_modules/@mozaic-ds/styles/typography/',
+  './node_modules/@mozaic-ds/styles/layout/',
+  './node_modules/@mozaic-ds/styles/utilities/',
+  './node_modules/@mozaic-ds/styles/components/',
+  './node_modules/@mozaic-ds/tokens/build/scss/',
+  './node_modules/',
+]
+
+const includePaths = additionalPaths
+  ? basePaths.concat(additionalPaths)
+  : basePaths
+
+// test for user configured space indent
+const userIndent = CM.getKey('sass.indentWidth')
+const indentWidth = userIndent ? userIndent : 2
 
 const styleLintConfig = require('./styleLintConfig')
 
@@ -12,28 +38,30 @@ const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),
   nodeSass({
-    includePaths: [
-      './node_modules/@mozaic-ds/styles/',
-      './node_modules/@mozaic-ds/styles/settings-tools/',
-      './node_modules/@mozaic-ds/styles/typography/',
-      './node_modules/@mozaic-ds/styles/layout/',
-      './node_modules/@mozaic-ds/styles/utilities/',
-      './node_modules/@mozaic-ds/styles/components/',
-      './node_modules/@mozaic-ds/tokens/build/scss/',
-      './node_modules/',
-    ],
+    includePaths,
     outputStyle: 'expanded',
-    indentWidth: 2,
+    indentWidth,
   }),
   base64({
     pattern: /<svg.*<\/svg>/i,
     prepend: 'data:image/svg+xml;base64,',
   }),
   mqpacker({ sort: true }),
-  autoprefixer({
-    grid: 'autoplace',
-    browsers: ['> 1%'],
-  }),
+  autoprefixer(),
 ]
 
-module.exports = plugins
+const productionPlugins = [
+  nodeSass({
+    includePaths,
+    outputStyle: 'expanded',
+    indentWidth,
+  }),
+  base64({
+    pattern: /<svg.*<\/svg>/i,
+    prepend: 'data:image/svg+xml;base64,',
+  }),
+  mqpacker({ sort: true }),
+  cssnano(['default', { discardComments: { removeAll: true } }]),
+]
+
+module.exports = MOZAIC_ENV === 'production' ? productionPlugins : plugins

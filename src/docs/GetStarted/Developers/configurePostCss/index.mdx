@@ -8,17 +8,19 @@ order: 3
 The Mozaic CSS source files are written in SCSS. But we compile them trough Postcss.
 This allow us to combine a SCSS syntax with the power of Postcss Plugins.
 
-Mozaic provide you with an array of postcss plugins that is **required to use to build Mozaic files**, but no task runner, or compiler comes with it.
+Mozaic provide you with an array of postcss plugins that you are **required to use to build Mozaic files**, but no task runner, or compiler comes with it.
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-The mozaic postCSS plugins contains (to this point and in that order):
+The mozaic postCSS plugins contains :
 
 - **stylelint:** a powerfull linter for preprocessor languages
 - **nodeSass:** compile SCSS into css
 - **autoprefixer:** automatically add browser prefixes
 - **mqpacker:** regroup all media-queries contents
+- **postcss-base64:** url encode svg in css
+- **cssnano:** optimize and minify the CSS code
 
-You are free to use this configuration to build your own styles, but note that this plugin list may change in the future.
+> Some features may not work without our plugins list and are mandatory. We highly recommend you to use our plugins list for the css to work.
 
 ### A) Using a configuration file :
 
@@ -82,17 +84,30 @@ npm install -D postcss-loader
 After installing `postcss-loader`, configure the file `vue.config.js` this way:
 
 ```js
-const postcssPluginConfig  = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const postcssPluginConfig = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 module.exports = {
   css: {
     loaderOptions: {
       postcss: {
-        plugins: postcssPluginConfig
-      }
-    }
-  }
+        plugins: postcssPluginConfig,
+      },
+    },
+  },
 }
 ```
 
 Due to the fact that you are using **PostCSS**, you must **remove** the `lang="sass"` attribute on style tags.
+
+## Compiling for production
+
+To compile for production, you need to set a environment variable.
+Mozaic will deliver to you a postCSS plugin list with production features like minification and will disable development features like Stylelint.
+
+```shell
+MOZAIC_ENV=production
+```
+
+## Sass and postcss configuration options
+
+Read our [configuration and customization guide](/GetStarted/Developers/Customization/).
