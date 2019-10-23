@@ -1,3 +1,4 @@
+const CM = require('@mozaic-ds/configuration-manager')
 const path = require('path')
 
 const getPath = localRelativePath =>
@@ -5,12 +6,25 @@ const getPath = localRelativePath =>
 
 const getBuildPath = path => getPath(path) + '/'
 
+const localSrcPath = CM.getKey('tokens.localTokensSrcPath')
+
+const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
+
+const source = localSrcPath
+  ? [getPath('properties/**/*.json'), `${localSrcPath}properties/**/*.json`]
+  : [getPath('properties/**/*.json')]
+
+const setLocalTokensExportPath = dir =>
+  localTokensExportPath
+    ? `${localTokensExportPath}${dir}/`
+    : getBuildPath(`build/${dir}/`)
+
 const config = {
-  source: [getPath('properties/**/*.json')],
+  source,
   platforms: {
     scss: {
       transformGroup: 'scss',
-      buildPath: getBuildPath('build/scss/'),
+      buildPath: setLocalTokensExportPath('scss'),
       files: [
         {
           destination: '_tokens.scss',
@@ -23,7 +37,7 @@ const config = {
     },
     android: {
       transformGroup: 'android',
-      buildPath: getBuildPath('build/android/'),
+      buildPath: setLocalTokensExportPath('android'),
       files: [
         {
           destination: 'font_dimens.xml',
@@ -43,7 +57,7 @@ const config = {
     },
     js: {
       transformGroup: 'js',
-      buildPath: getBuildPath('build/js/'),
+      buildPath: setLocalTokensExportPath('js'),
       files: [
         {
           destination: 'tokensObject.js',
@@ -63,7 +77,7 @@ const config = {
     },
     ios: {
       transformGroup: 'ios',
-      buildPath: getBuildPath('build/ios/'),
+      buildPath: setLocalTokensExportPath('ios'),
       files: [
         {
           destination: 'StyleDictionaryColor.h',
@@ -137,5 +151,7 @@ const config = {
     },
   },
 }
+
+console.log(JSON.stringify(config, 0, 2))
 
 module.exports = config

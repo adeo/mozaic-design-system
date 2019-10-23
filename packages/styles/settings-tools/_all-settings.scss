@@ -1,4 +1,4 @@
-@import '../../tokens/build/scss/_tokens.scss';
+@import '_tokens.scss';
 @import './_t.map-tools.scss';
 @import './_s.hide.scss';
 @import './_s.unstyle.scss';
@@ -14,7 +14,6 @@
 @import './_s.radius.scss';
 @import './_s.border.scss';
 @import './_s.shadows.scss';
-@import './_s.hide.scss';
 @import './_t.reset-forms.scss';
 @import './_t.flexy.scss';
 @import './_s.buttons.scss';

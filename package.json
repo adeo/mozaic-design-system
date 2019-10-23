@@ -48,7 +48,6 @@
     "react-helmet": "^5.2.0",
     "rehype-react": "^3.0.3",
     "request-promise": "^4.2.4",
-    "style-dictionary": "^2.6.2",
     "styled-components": "^4.0.2",
     "svgo": "^1.2.1",
     "xstate": "^3.1.0"
@@ -70,7 +69,7 @@
     "react-test-renderer": "^16.8.2"
   },
   "scripts": {
-    "tokens:build": "npx style-dictionary build --config ./packages/tokens/config.js",
+    "tokens:build": "mozaic-tokens:build",
     "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js || echo 'nothing to clean'",
     "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
     "assets:upload": "node ci/assets.js",

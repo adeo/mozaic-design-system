@@ -1,0 +1,223 @@
+---
+title: 'Tokens customization'
+order: 9
+---
+
+# Principles
+
+Under the hood, Mozaic SCSS uses the compiled tokens that we provide in the `@mozaic-ds/tokens` npm package. This dependency is imported via `@mozaic-ds/styles` by default.
+
+Mozaic tokens are based upon the LEROY MERLIN brand guidelines but you can adapt thoses tokens to fit your brand identity.
+
+**It is possible for you to override any value and to add new ones in order to create new patterns or pattern variations**.
+
+## About tokens :
+
+As a reminder, we call tokens a series of Json files containing mostly color values (ammong others things). Thoses files are transpiled into SCSS, js, ios, and android formats, to be used within multiple platforms and technologies.
+
+For more informations, read the following documentations :
+
+[Getting started : Variables and design tokens](/GetStarted/Developers/CssNamingConventions/#variables-and-design-tokens)
+
+[Contributting : design tokens](/Contributing/Prerequisite/DesignTokens/)
+
+## 1 - Configure Mozaic
+
+If it is not already done, create a `mozaic.config.js` file at your project root. Then define those keys :
+
+```js
+module.exports = {
+  tokens: {
+    localTokensSrcPath: './src/tokens/', // path to your own js files
+    localTokensExportPath: './dest/build/', // path to compiled files
+  },
+}
+```
+
+By doing that, you tell Mozaic where to look for the source tokens, and where to save the compiled ones. We also use the `localTokensExportPath` inside Postcss to tell it where to look for the SCSS tokens. In that way the SCSS will load the customized ones instead of the ones living in the npm package.
+
+## 2 - Override tokens
+
+To override tokens, you need to use the **same directory structure and file names as the ones provided in the `@mozaic-ds/tokens`** package. Let's take an example by overriding the primary brand color.
+
+The default primary color swatch is situated in `@mozaic-ds/tokens/properties/color/base.json`.
+
+Assuming you have the `mozaic.config.js` set up as described in the previous chapter, we need to create a `./src/tokens/properties/color/base.json` file.
+
+Note that you can override any value, Mozaic will take care of deep merging the source tokens with the new values you provided.
+
+For example, in `./src/tokens/properties/color/base.json` :
+
+```Json
+{
+  "color": {
+    "primary-01": {
+      "100": {
+        "value": "#000"
+      },
+    }
+  }
+}
+```
+
+In this example, Mozaic will replace the `color.primary-01.100` and set it to `#000` (black), but all the other existing values for `color.primary-01.xxx` will be kept as defined in the npm packge source. Meaning `color.primary-01.100` will be customized to `#000` (black), and `color.primary-01.200` will still be green.
+
+## 3 - Compiling tokens
+
+In order to compile tokens, you have two options
+
+### The mozaic-tokens:build command
+
+run directly :
+
+```shell
+mozaic-tokens:build
+```
+
+or though a `package.json` script for example :
+
+```Json
+...
+"scripts": {
+  "develop": "mozaic-tokens:build && npm run develop:watch",
+}
+...
+```
+
+### Using the js funtion
+
+If you want to trigger the tokens build inside a node script, you can use the function provided by Mozaic :
+
+```js
+const tokensBuild = require('@mozaic-ds/tokens/tokensBuild')
+
+tokensBuild()
+```
+
+When triggering the either the command or the function, if you override values, you should see something like this logging into the console :
+
+```
+Property Value Collisions:
+Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value: #000
+```
+
+## 4 - Create new values
+
+The same way, by declaring new values, you can create new tokens for your use :
+
+```Json
+{
+  "color": {
+    "custom": {
+      "100": {
+        "value": "#A0C"
+      },
+      "200": {
+        "value": "#BBE"
+      },
+      "300": {
+        "value": "#C1A"
+      },
+      "400": {
+        "value": "#01E"
+      },
+    }
+  }
+}
+```
+
+Will generate :
+
+```SCSS
+$color-custom-100 : #A0C;
+$color-custom-200 : #BBE;
+$color-custom-300 : #C1A;
+$color-custom-400 : #01E;
+
+$color: (
+  custom: (
+    100:  $color-custom-100;
+    200:  $color-custom-200;
+    300:  $color-custom-300;
+    400:  $color-custom-400;
+  )
+)
+```
+
+**Note :** you can see that we build variables but also a sass map. The map is usefull when we need to loop through values to create multiple variations of a pattern. More infos about that on chapter 5.
+
+**Reminder** : all tokens are available through `@import 'settings-tools/_all-settings';`
+
+## 5 - Overiding components tokens
+
+When we create components related tokens, we try as much as possible to loop through the tokens sass map to generate classes instead of manually creating each variation of the component.
+
+For example, we use mixins to create buttons themes and then we use the key names as modifier classes names:
+
+```SCSS
+.mc-button {
+  ...
+  @each $name, $props in $buttons-themes {
+    @if ($name != 'solid') {
+      &--#{$name} {
+        @include set-button-theme($props);
+      }
+    }
+  }
+}
+```
+
+This mean that if you create a `properties/color/button.json` file and define something like:
+
+```json
+{
+  "color": {
+    "button": {
+      "my-theme": {
+        "background": {
+          "value": "{color.custom.500.value}"
+        },
+        "font": {
+          "value": "{color.custom.000.value}"
+        },
+        "focus": {
+          "border": {
+            "value": "{color.custom.700.value}"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "{color.custom.100.value}"
+          },
+          "font": {
+            "value": "{color.custom.500.value}"
+          }
+        },
+        "active": {
+          "background": {
+            "value": "{color.custom.700.value}"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.custom.600.value}"
+          },
+          "font": {
+            "value": "{color.custom.000.value}"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+You will end up with a new button theme without the need to write any css or sass.
+
+```html
+<button class="mc-button mc-button--my-theme">
+  My button with a custom theme
+</button>
+```
+
+**Tips :** You can look in the specs tab of the component documentation to help you define witch tokens need to be overrided. We generally define most of the tokens used to theme our components.

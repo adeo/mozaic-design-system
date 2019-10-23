@@ -1,6 +1,6 @@
 ---
-title: 'Configuration and Customization'
-order: 9
+title: 'Mozaic configuration'
+order: 10
 ---
 
 ## mozaic.config.js
@@ -59,6 +59,25 @@ Change the indent width of the compiled css file.
 module.exports = {
   sass: {
     indentWidth: 4,
+  },
+}
+```
+
+## Tokens options :
+
+### `tokens.localTokensSrcPath` and `tokens.localTokensExportPath`
+
+`localTokensSrcPath` is used to define your local emplacement for your custom tokens, `localTokensExportPath` defines where they should be built.
+
+Note that both options should always be used togeteher.
+
+Use those options to customize tokens. For more information, read our Tokens customisation guide.
+
+```js
+module.exports = {
+  tokens: {
+    localTokensSrcPath: './src/tokens/', // path to your own js files
+    localTokensExportPath: './dest/build/', // path to compiled files
   },
 }
 ```
