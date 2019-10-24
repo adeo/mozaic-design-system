@@ -2208,6 +2208,114 @@
     "fullpath": "/icons/User_Contact_Phone_48px.svg"
   },
   {
+    "cat": "User",
+    "size": "24px",
+    "name": "Payment_Monochrome_CarteBleue",
+    "fullpath": "/icons/User_Payment_Monochrome_CarteBleue_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Payment_Monochrome_CarteBleue",
+    "fullpath": "/icons/User_Payment_Monochrome_CarteBleue_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Payment_Monochrome_CarteBleue",
+    "fullpath": "/icons/User_Payment_Monochrome_CarteBleue_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Payment_Monochrome_Illico",
+    "fullpath": "/icons/User_Payment_Monochrome_Illico_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Payment_Monochrome_Illico",
+    "fullpath": "/icons/User_Payment_Monochrome_Illico_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Payment_Monochrome_Illico",
+    "fullpath": "/icons/User_Payment_Monochrome_Illico_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Payment_Monochrome_LM",
+    "fullpath": "/icons/User_Payment_Monochrome_LM_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Payment_Monochrome_LM",
+    "fullpath": "/icons/User_Payment_Monochrome_LM_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Payment_Monochrome_LM",
+    "fullpath": "/icons/User_Payment_Monochrome_LM_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Payment_Monochrome_MasterCard",
+    "fullpath": "/icons/User_Payment_Monochrome_MasterCard_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Payment_Monochrome_MasterCard",
+    "fullpath": "/icons/User_Payment_Monochrome_MasterCard_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Payment_Monochrome_MasterCard",
+    "fullpath": "/icons/User_Payment_Monochrome_MasterCard_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Payment_Monochrome_PayLib",
+    "fullpath": "/icons/User_Payment_Monochrome_PayLib_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Payment_Monochrome_PayLib",
+    "fullpath": "/icons/User_Payment_Monochrome_PayLib_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Payment_Monochrome_PayLib",
+    "fullpath": "/icons/User_Payment_Monochrome_PayLib_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Payment_Monochrome_Visa",
+    "fullpath": "/icons/User_Payment_Monochrome_Visa_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Payment_Monochrome_Visa",
+    "fullpath": "/icons/User_Payment_Monochrome_Visa_32px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "48px",
+    "name": "Payment_Monochrome_Visa",
+    "fullpath": "/icons/User_Payment_Monochrome_Visa_48px.svg"
+  },
+  {
     "cat": "Various",
     "size": "48px",
     "name": "Administration",
