@@ -13,6 +13,9 @@ const MOZAIC_ENV = process.env.MOZAIC_ENV
 // test for user configured additional paths
 const additionalPaths = CM.getKey('sass.includePaths')
 
+// test for user configured custom tokens paths
+const tokensBuildPath = CM.getKey('tokens.localTokensExportPath')
+
 const basePaths = [
   './node_modules/@mozaic-ds/styles/',
   './node_modules/@mozaic-ds/styles/settings-tools/',
@@ -20,13 +23,16 @@ const basePaths = [
   './node_modules/@mozaic-ds/styles/layout/',
   './node_modules/@mozaic-ds/styles/utilities/',
   './node_modules/@mozaic-ds/styles/components/',
-  './node_modules/@mozaic-ds/tokens/build/scss/',
   './node_modules/',
 ]
 
+const tokensPath = tokensBuildPath
+  ? basePaths.concat([`${tokensBuildPath}scss/`])
+  : basePaths.concat(['./node_modules/@mozaic-ds/tokens/build/scss/'])
+
 const includePaths = additionalPaths
-  ? basePaths.concat(additionalPaths)
-  : basePaths
+  ? tokensPath.concat(additionalPaths)
+  : tokensPath
 
 // test for user configured space indent
 const userIndent = CM.getKey('sass.indentWidth')
