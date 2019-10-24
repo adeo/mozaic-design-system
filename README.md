@@ -8,26 +8,17 @@ building a styleguide using a static site generator instead of reliyng on a data
 
 We tryed to focus on developper experience, meaning that working with it should be as simple as possible.
 
-Please considere that this repo is in early stage of development. You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
+You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
-#### Please read the wiki before submitting anything :
+#### Please read the contributing docs before submitting anything :
 
-- [Project roadmap](https://github.com/adeo/mozaic-design-system/wiki)
-- [glossary](https://github.com/adeo/mozaic-design-system/wiki/Glossary)
-- design system workflow :
-  - [Things to keep in mind for any contribution](https://github.com/adeo/mozaic-design-system/wiki/Things-to-keep-in-mind-for-any-contribution)
-  - [Pattern submission workflow](https://github.com/adeo/mozaic-design-system/wiki/New-pattern-submission-workflow)
-  - [Pattern fix and extension workflow](https://github.com/adeo/mozaic-design-system/wiki/Pattern-fix-or-extension-workflow)
-- how to create pages and content in the pattern library :
-  - [Page creation and edition](https://github.com/adeo/mozaic-design-system/wiki/pages-creation-and-edition)
-  - [Create and display a pattern](https://github.com/adeo/mozaic-design-system/wiki/Create-and-display-patterns)
-  - [Other in-page components](https://github.com/adeo/mozaic-design-system/wiki/Other-in-page-components)
+[Contributing docuementation](https://mozaic.adeo.cloud/Contributing/)
 
 #### Please read the contributing before contributing: [contributing](https://github.com/adeo/mozaic-design-system/blob/master/CONTRIBUTING.md)
 
 ## Installation
 
-Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Install/)
+Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Prerequisite/InstallForDev/)
 
 ## Design system core team
 
@@ -63,15 +54,6 @@ AdeoDev : Gael Boyenval
 
 **Timezone :** Lile - France **Availability :** 100%
 
-### [Jonathan Jalouzot](https://www.linkedin.com/in/jonathanjalouzot/)
-
-**Role for the project :**
-
-- DevOps
-- code quality automation and continuous deployment
-
-**Timezone :** Paris - France **Availability :** on demand
-
 ### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
 
 **Role for the project :** Front-end developer
@@ -95,24 +77,3 @@ AdeoDev : Gael Boyenval
 **Role for the project :** UI designer
 
 **Timezone :** Lille - France **Availability :** on monday and thuesday
-
-## Contributors
-
-### [Nathan Damie](https://www.linkedin.com/in/ndamie/)
-
-**Role for the project :** contributor to the source code
-
-**Timezone :** Lille - France **Availability :** X%
-
-**Contact:** AdeoDev : @nathandm
-
-### [Leandro Grillo](https://www.linkedin.com/in/leandrocgrillo/)
-
-**Role for the project :**
-
-- contributor to the source code
-- Front-end consulting
-
-**Timezone :** Sao Paulo - Brazil **Availability :** X%
-
-**Contact :** Leandro Grillo

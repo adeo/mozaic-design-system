@@ -1,11 +1,11 @@
-## I have read [the contributing guidelines](https://mozaic.adeo.cloud/contributing)
+## I have read [the contributing guidelines](https://mozaic.adeo.cloud/Contributing/)
 
 - [ ] Yes
 - [ ] No
 
 ## Does this PR introduce a breaking change?
 
-read [What is a breaking change ?](/Contributing/GitConventions/)
+read [What is a breaking change ?](https://mozaic.adeo.cloud/Contributing/Prerequisite/GitConventions/#breaking-changes-)
 
 - [ ] Yes
 - [ ] No
