@@ -3,29 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.1-alpha.24](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
-
-
-### Bug Fixes
-
-* **onboard/broken links:** fix broken links ([0b2817e](https://github.com/adeo/design-system--styleguide/commit/0b2817e1bb9b201bb2902191ef2b05dcab903314))
-* **onboard/readme:** update URL and delete old infos ([#402](https://github.com/adeo/design-system--styleguide/issues/402)) ([3ce87bb](https://github.com/adeo/design-system--styleguide/commit/3ce87bb66dcdd52ae412bafe33345935c374441e))
-* **onboard/scrollbar toc:** add a scrollbar to TOC ([30dff94](https://github.com/adeo/design-system--styleguide/commit/30dff9496723fba814fed71e0710a49ac63e4d69))
-* **patterns/links:** sketch file bugfix ([#396](https://github.com/adeo/design-system--styleguide/issues/396)) ([846e6a8](https://github.com/adeo/design-system--styleguide/commit/846e6a8c9939d4f13af424e44380bb468458bb65))
-* **website:** fix typos in documentation ([#394](https://github.com/adeo/design-system--styleguide/issues/394)) ([2c32fbd](https://github.com/adeo/design-system--styleguide/commit/2c32fbdc468b1f06ac69b8d541642de556bc5bed))
-
-
-### Features
-
-* **onboard/figma:** add figma conventions ([#399](https://github.com/adeo/design-system--styleguide/issues/399)) ([12ab205](https://github.com/adeo/design-system--styleguide/commit/12ab2053d0511595d8512c23d9519909557a146b))
-* **pattern/icons:** add payment icons and regenerate icons after packages update ([#401](https://github.com/adeo/design-system--styleguide/issues/401)) ([5691bb9](https://github.com/adeo/design-system--styleguide/commit/5691bb912ca9b3e47ce5522e80a5e9b64b975d48))
-* **tools/customization:** handle config file, add production build support and basic sass options ([#398](https://github.com/adeo/design-system--styleguide/issues/398)) ([3c8a0a0](https://github.com/adeo/design-system--styleguide/commit/3c8a0a097c48076faff204e075866cf29f22d73a))
-* **tools/tokens:** allow tokens customization ([#400](https://github.com/adeo/design-system--styleguide/issues/400)) ([a3f471a](https://github.com/adeo/design-system--styleguide/commit/a3f471a6fdba40b936dfa29041580f3b4c2687ef))
-
-
-
-
-
 ## [1.0.1-alpha.23](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.22...v1.0.1-alpha.23) (2019-10-17)
 
 

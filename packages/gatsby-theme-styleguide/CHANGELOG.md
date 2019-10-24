@@ -3,23 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.1-alpha.24](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
-
-
-### Bug Fixes
-
-* **onboard/scrollbar toc:** add a scrollbar to TOC ([30dff94](https://github.com/adeo/mozaic-design-system/commit/30dff9496723fba814fed71e0710a49ac63e4d69))
-
-
-### Features
-
-* **tools/customization:** handle config file, add production build support and basic sass options ([#398](https://github.com/adeo/mozaic-design-system/issues/398)) ([3c8a0a0](https://github.com/adeo/mozaic-design-system/commit/3c8a0a097c48076faff204e075866cf29f22d73a))
-* **tools/tokens:** allow tokens customization ([#400](https://github.com/adeo/mozaic-design-system/issues/400)) ([a3f471a](https://github.com/adeo/mozaic-design-system/commit/a3f471a6fdba40b936dfa29041580f3b4c2687ef))
-
-
-
-
-
 ## [1.0.1-alpha.23](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.22...v1.0.1-alpha.23) (2019-10-17)
 
 
