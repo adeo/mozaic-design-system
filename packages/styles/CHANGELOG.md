@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.24](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
+
+
+### Features
+
+* **tools/tokens:** allow tokens customization ([#400](https://github.com/adeo/mozaic-design-system/issues/400)) ([a3f471a](https://github.com/adeo/mozaic-design-system/commit/a3f471a6fdba40b936dfa29041580f3b4c2687ef))
+
+
+
+
+
 ## [1.0.1-alpha.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.21...v1.0.1-alpha.22) (2019-10-14)
 
 
