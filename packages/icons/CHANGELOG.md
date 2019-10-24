@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.24](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
+
+
+### Features
+
+* **pattern/icons:** add payment icons and regenerate icons after packages update ([#401](https://github.com/adeo/mozaic-design-system/issues/401)) ([5691bb9](https://github.com/adeo/mozaic-design-system/commit/5691bb912ca9b3e47ce5522e80a5e9b64b975d48))
+
+
+
+
+
 ## [1.0.1-alpha.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.21...v1.0.1-alpha.22) (2019-10-14)
 
 
