@@ -7,6 +7,8 @@ import PreviewFrame from './PreviewFrame'
 
 import tokensObject from '@mozaic-ds/tokens/build/js/tokensObject.js'
 
+import copyToClipBoard from '../../utils/fnHelper'
+
 let viewPorts = {}
 
 Object.keys(tokensObject.screen).map(
@@ -116,14 +118,27 @@ export class PreviewComponent extends PureComponent {
     const Preview = this.props.data.node.codes
     const codeToCopy = Preview[currentCodeSample]
 
-    navigator.clipboard.writeText(codeToCopy).then(
-      () => {
-        this.setState({ copied: true })
-      },
-      () => {
-        alert(`copy impossible !`)
-      }
-    )
+    if (this.state.copyCompatible) {
+      navigator.clipboard.writeText(codeToCopy).then(
+        () => {
+          this.setState({ copied: true })
+        },
+        () => {
+          alert(`copy impossible !`)
+        }
+      )
+    } else {
+      copyToClipBoard(codeToCopy)
+      this.setState({ copied: true })
+      return Promise.resolve(true).then(
+        () => {
+          this.setState({ copied: true })
+        },
+        () => {
+          alert(`copy impossible !`)
+        }
+      )
+    }
   }
   render() {
     const {

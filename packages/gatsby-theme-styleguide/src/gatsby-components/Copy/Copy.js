@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
+import copyToClipBoard from '../../utils/fnHelper'
 
 const Info = styled.div`
   width: 100%;
@@ -53,8 +54,22 @@ class Copy extends React.Component {
   }
 
   copyToClipBoard = () => {
+    const value = this.props.value
     if (this.state.copyCompatible) {
-      navigator.clipboard.writeText(this.props.value).then(
+      navigator.clipboard.writeText(value).then(
+        () => {
+          this.setState({ copied: true }, () => {
+            setTimeout(() => this.setState({ copied: false }), 1000)
+          })
+        },
+        () => {
+          console.error('error while copying to clipboard')
+        }
+      )
+    } else {
+      copyToClipBoard(value)
+      this.setState({ copied: true })
+      return Promise.resolve(true).then(
         () => {
           this.setState({ copied: true }, () => {
             setTimeout(() => this.setState({ copied: false }), 1000)

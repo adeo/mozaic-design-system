@@ -173,15 +173,13 @@ const PreviewCodeSample = ({
       </CodeButtonWrapper>
 
       <Body fullScreen={fullScreen}>
-        {copyCompatible && (
-          <CopyButton onClick={copyCodeToClipBoard}>
-            {copied ? (
-              <IconLibrairy name="checked" size="16" fill="#ececec" />
-            ) : (
-              <IconLibrairy name="copy" size="16" fill="#ececec" />
-            )}
-          </CopyButton>
-        )}
+        <CopyButton onClick={copyCodeToClipBoard}>
+          {copied ? (
+            <IconLibrairy name="checked" size="16" fill="#ececec" />
+          ) : (
+            <IconLibrairy name="copy" size="16" fill="#ececec" />
+          )}
+        </CopyButton>
         {currentCodeSample && (
           <CodeHilight
             fullScreen={fullScreen}
