@@ -327,31 +327,31 @@
     },
     "warning": {
       "100": {
-        "value": "{color.secondary-yellow.100.value}"
+        "value": "{color.secondary-orange.100.value}"
       },
       "200": {
-        "value": "{color.secondary-yellow.200.value}"
+        "value": "{color.secondary-orange.200.value}"
       },
       "300": {
-        "value": "{color.secondary-yellow.300.value}"
+        "value": "{color.secondary-orange.300.value}"
       },
       "400": {
-        "value": "{color.secondary-yellow.400.value}"
+        "value": "{color.secondary-orange.400.value}"
       },
       "500": {
-        "value": "{color.secondary-yellow.500.value}"
+        "value": "{color.secondary-orange.500.value}"
       },
       "600": {
-        "value": "{color.secondary-yellow.600.value}"
+        "value": "{color.secondary-orange.600.value}"
       },
       "700": {
-        "value": "{color.secondary-yellow.700.value}"
+        "value": "{color.secondary-orange.700.value}"
       },
       "800": {
-        "value": "{color.secondary-yellow.800.value}"
+        "value": "{color.secondary-orange.800.value}"
       },
       "900": {
-        "value": "{color.secondary-yellow.900.value}"
+        "value": "{color.secondary-orange.900.value}"
       }
     },
     "success": {

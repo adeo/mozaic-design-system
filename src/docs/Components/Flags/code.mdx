@@ -33,8 +33,8 @@ To create a flag you have one main class to apply `mc-flag`, and wrap the text i
 
 - `solid`
 - `bordered`
-- `solid-primary-campus`
-- `bordered-primary-campus`
+- `solid-primary-02`
+- `bordered-primary-02`
 - `solid-dark`
 - `bordered-dark`
 - `solid-light`
@@ -51,9 +51,9 @@ example :
   </span>
 </div>
 
-<div class="mc-flag mc-flag--bordered-primary-campus">
+<div class="mc-flag mc-flag--bordered-primary-02">
   <span class="mc-flag__label">
-    Flag bordered primary campus
+    Flag bordered primary 02
   </span>
 </div>
 ```
@@ -76,9 +76,8 @@ In case you need to create a new flag theme you'll need to define a new SASS map
 $my-map: (
   'color-theme': (
     'background': white,
-    'border': blue
-    'text': red
-  )
+    'border': blue 'text': red,
+  ),
 );
 ```
 

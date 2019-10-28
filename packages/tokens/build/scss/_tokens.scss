@@ -104,15 +104,15 @@ $color-info-600: #2282a8 !default;
 $color-info-700: #1e5f82 !default;
 $color-info-800: #18415d !default;
 $color-info-900: #102739 !default;
-$color-warning-100: #fff8e2 !default;
-$color-warning-200: #ffebaf !default;
-$color-warning-300: #fee07d !default;
-$color-warning-400: #fcd64c !default;
-$color-warning-500: #f8cc1c !default;
-$color-warning-600: #c9a21b !default;
-$color-warning-700: #9c7b18 !default;
-$color-warning-800: #705613 !default;
-$color-warning-900: #46350d !default;
+$color-warning-100: #fff5eb !default;
+$color-warning-200: #ffdab2 !default;
+$color-warning-300: #ffc17d !default;
+$color-warning-400: #ffab4b !default;
+$color-warning-500: #fc961e !default;
+$color-warning-600: #c86f21 !default;
+$color-warning-700: #974f20 !default;
+$color-warning-800: #6a351c !default;
+$color-warning-900: #401f15 !default;
 $color-success-100: #eaf3e2 !default;
 $color-success-200: #cbe3b5 !default;
 $color-success-300: #add585 !default;
@@ -194,9 +194,9 @@ $color-fileuploader-alert: #df382b !default;
 $color-flag-solid-background: #78be20 !default;
 $color-flag-solid-border: #78be20 !default;
 $color-flag-solid-text: #ffffff !default;
-$color-flag-solid-primary-campus-background: #035f64 !default;
-$color-flag-solid-primary-campus-border: #035f64 !default;
-$color-flag-solid-primary-campus-text: #ffffff !default;
+$color-flag-solid-primary-02-background: #035f64 !default;
+$color-flag-solid-primary-02-border: #035f64 !default;
+$color-flag-solid-primary-02-text: #ffffff !default;
 $color-flag-solid-dark-background: #000000 !default;
 $color-flag-solid-dark-border: #000000 !default;
 $color-flag-solid-dark-text: #ffffff !default;
@@ -209,9 +209,9 @@ $color-flag-solid-danger-text: #ffffff !default;
 $color-flag-bordered-background: #ffffff !default;
 $color-flag-bordered-border: #78be20 !default;
 $color-flag-bordered-text: #78be20 !default;
-$color-flag-bordered-primary-campus-background: #ffffff !default;
-$color-flag-bordered-primary-campus-border: #035f64 !default;
-$color-flag-bordered-primary-campus-text: #035f64 !default;
+$color-flag-bordered-primary-02-background: #ffffff !default;
+$color-flag-bordered-primary-02-border: #035f64 !default;
+$color-flag-bordered-primary-02-text: #035f64 !default;
 $color-flag-bordered-dark-background: #ffffff !default;
 $color-flag-bordered-dark-border: #000000 !default;
 $color-flag-bordered-dark-text: #000000 !default;
@@ -230,7 +230,7 @@ $color-font-light: #554f52 !default;
 $color-font-lightest: #ffffff !default;
 $color-font-info: #2282a8 !default;
 $color-font-success: #41a017 !default;
-$color-font-warning: #c9a21b !default;
+$color-font-warning: #c86f21 !default;
 $color-font-danger: #b42a27 !default;
 $color-input-text: #222020 !default;
 $color-input-border: #6f676c !default;
@@ -263,11 +263,11 @@ $color-link-primary-visited: #41a017 !default;
 $color-link-primary-active: #158110 !default;
 $color-link-primary-disabled: #eeeef0 !default;
 $color-link-primary-hover: #41a017 !default;
-$color-link-primary-campus-base: #035f64 !default;
-$color-link-primary-campus-visited: #044c53 !default;
-$color-link-primary-campus-active: #044c53 !default;
-$color-link-primary-campus-disabled: #eeeef0 !default;
-$color-link-primary-campus-hover: #044c53 !default;
+$color-link-primary-02-base: #035f64 !default;
+$color-link-primary-02-visited: #044c53 !default;
+$color-link-primary-02-active: #044c53 !default;
+$color-link-primary-02-disabled: #eeeef0 !default;
+$color-link-primary-02-hover: #044c53 !default;
 $color-link-danger-base: #df382b !default;
 $color-link-danger-visited: #8b2226 !default;
 $color-link-danger-active: #8b2226 !default;
@@ -741,10 +741,10 @@ $tokens: (
         'border': $color-flag-solid-border,
         'text': $color-flag-solid-text
       ),
-      'solid-primary-campus': (
-        'background': $color-flag-solid-primary-campus-background,
-        'border': $color-flag-solid-primary-campus-border,
-        'text': $color-flag-solid-primary-campus-text
+      'solid-primary-02': (
+        'background': $color-flag-solid-primary-02-background,
+        'border': $color-flag-solid-primary-02-border,
+        'text': $color-flag-solid-primary-02-text
       ),
       'solid-dark': (
         'background': $color-flag-solid-dark-background,
@@ -766,10 +766,10 @@ $tokens: (
         'border': $color-flag-bordered-border,
         'text': $color-flag-bordered-text
       ),
-      'bordered-primary-campus': (
-        'background': $color-flag-bordered-primary-campus-background,
-        'border': $color-flag-bordered-primary-campus-border,
-        'text': $color-flag-bordered-primary-campus-text
+      'bordered-primary-02': (
+        'background': $color-flag-bordered-primary-02-background,
+        'border': $color-flag-bordered-primary-02-border,
+        'text': $color-flag-bordered-primary-02-text
       ),
       'bordered-dark': (
         'background': $color-flag-bordered-dark-background,
@@ -858,12 +858,12 @@ $tokens: (
         'disabled': $color-link-primary-disabled,
         'hover': $color-link-primary-hover
       ),
-      'primary-campus': (
-        'base': $color-link-primary-campus-base,
-        'visited': $color-link-primary-campus-visited,
-        'active': $color-link-primary-campus-active,
-        'disabled': $color-link-primary-campus-disabled,
-        'hover': $color-link-primary-campus-hover
+      'primary-02': (
+        'base': $color-link-primary-02-base,
+        'visited': $color-link-primary-02-visited,
+        'active': $color-link-primary-02-active,
+        'disabled': $color-link-primary-02-disabled,
+        'hover': $color-link-primary-02-hover
       ),
       'danger': (
         'base': $color-link-danger-base,

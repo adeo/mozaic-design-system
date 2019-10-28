@@ -1788,9 +1788,9 @@ module.exports = {
     },
     "warning": {
       "100": {
-        "value": "#fff8e2",
+        "value": "#fff5eb",
         "original": {
-          "value": "{color.secondary-yellow.100.value}"
+          "value": "{color.secondary-orange.100.value}"
         },
         "name": "ColorWarning100",
         "attributes": {
@@ -1805,9 +1805,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#ffebaf",
+        "value": "#ffdab2",
         "original": {
-          "value": "{color.secondary-yellow.200.value}"
+          "value": "{color.secondary-orange.200.value}"
         },
         "name": "ColorWarning200",
         "attributes": {
@@ -1822,9 +1822,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#fee07d",
+        "value": "#ffc17d",
         "original": {
-          "value": "{color.secondary-yellow.300.value}"
+          "value": "{color.secondary-orange.300.value}"
         },
         "name": "ColorWarning300",
         "attributes": {
@@ -1839,9 +1839,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#fcd64c",
+        "value": "#ffab4b",
         "original": {
-          "value": "{color.secondary-yellow.400.value}"
+          "value": "{color.secondary-orange.400.value}"
         },
         "name": "ColorWarning400",
         "attributes": {
@@ -1856,9 +1856,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#f8cc1c",
+        "value": "#fc961e",
         "original": {
-          "value": "{color.secondary-yellow.500.value}"
+          "value": "{color.secondary-orange.500.value}"
         },
         "name": "ColorWarning500",
         "attributes": {
@@ -1873,9 +1873,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c9a21b",
+        "value": "#c86f21",
         "original": {
-          "value": "{color.secondary-yellow.600.value}"
+          "value": "{color.secondary-orange.600.value}"
         },
         "name": "ColorWarning600",
         "attributes": {
@@ -1890,9 +1890,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#9c7b18",
+        "value": "#974f20",
         "original": {
-          "value": "{color.secondary-yellow.700.value}"
+          "value": "{color.secondary-orange.700.value}"
         },
         "name": "ColorWarning700",
         "attributes": {
@@ -1907,9 +1907,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#705613",
+        "value": "#6a351c",
         "original": {
-          "value": "{color.secondary-yellow.800.value}"
+          "value": "{color.secondary-orange.800.value}"
         },
         "name": "ColorWarning800",
         "attributes": {
@@ -1924,9 +1924,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#46350d",
+        "value": "#401f15",
         "original": {
-          "value": "{color.secondary-yellow.900.value}"
+          "value": "{color.secondary-orange.900.value}"
         },
         "name": "ColorWarning900",
         "attributes": {
@@ -3635,23 +3635,23 @@ module.exports = {
           ]
         }
       },
-      "solid-primary-campus": {
+      "solid-primary-02": {
         "background": {
           "value": "#035f64",
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagSolidPrimaryCampusBackground",
+          "name": "ColorFlagSolidPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "flag",
-            "solid-primary-campus",
+            "solid-primary-02",
             "background"
           ]
         },
@@ -3660,17 +3660,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagSolidPrimaryCampusBorder",
+          "name": "ColorFlagSolidPrimary02Border",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "border"
           },
           "path": [
             "color",
             "flag",
-            "solid-primary-campus",
+            "solid-primary-02",
             "border"
           ]
         },
@@ -3679,17 +3679,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorFlagSolidPrimaryCampusText",
+          "name": "ColorFlagSolidPrimary02Text",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "text"
           },
           "path": [
             "color",
             "flag",
-            "solid-primary-campus",
+            "solid-primary-02",
             "text"
           ]
         }
@@ -3930,23 +3930,23 @@ module.exports = {
           ]
         }
       },
-      "bordered-primary-campus": {
+      "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorFlagBorderedPrimaryCampusBackground",
+          "name": "ColorFlagBorderedPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "flag",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "background"
           ]
         },
@@ -3955,17 +3955,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagBorderedPrimaryCampusBorder",
+          "name": "ColorFlagBorderedPrimary02Border",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "border"
           },
           "path": [
             "color",
             "flag",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "border"
           ]
         },
@@ -3974,17 +3974,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagBorderedPrimaryCampusText",
+          "name": "ColorFlagBorderedPrimary02Text",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "text"
           },
           "path": [
             "color",
             "flag",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "text"
           ]
         }
@@ -4322,7 +4322,7 @@ module.exports = {
         ]
       },
       "warning": {
-        "value": "#c9a21b",
+        "value": "#c86f21",
         "original": {
           "value": "{color.warning.600.value}"
         },
@@ -4970,23 +4970,23 @@ module.exports = {
           ]
         }
       },
-      "primary-campus": {
+      "primary-02": {
         "base": {
           "value": "#035f64",
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorLinkPrimaryCampusBase",
+          "name": "ColorLinkPrimary02Base",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "base"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "base"
           ]
         },
@@ -4995,17 +4995,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkPrimaryCampusVisited",
+          "name": "ColorLinkPrimary02Visited",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "visited"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "visited"
           ]
         },
@@ -5014,17 +5014,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkPrimaryCampusActive",
+          "name": "ColorLinkPrimary02Active",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "active"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "active"
           ]
         },
@@ -5033,17 +5033,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.100.value}"
           },
-          "name": "ColorLinkPrimaryCampusDisabled",
+          "name": "ColorLinkPrimary02Disabled",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "disabled"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "disabled"
           ]
         },
@@ -5052,17 +5052,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkPrimaryCampusHover",
+          "name": "ColorLinkPrimary02Hover",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "hover"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "hover"
           ]
         }
