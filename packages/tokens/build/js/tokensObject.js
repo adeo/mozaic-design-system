@@ -3543,7 +3543,7 @@ module.exports = {
       "valid": {
         "value": "#78be20",
         "original": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.success.500.value}"
         },
         "name": "ColorFileuploaderValid",
         "attributes": {
@@ -3558,9 +3558,9 @@ module.exports = {
         ]
       },
       "alert": {
-        "value": "#fc961e",
+        "value": "#df382b",
         "original": {
-          "value": "{color.secondary-orange.500.value}"
+          "value": "{color.danger.500.value}"
         },
         "name": "ColorFileuploaderAlert",
         "attributes": {
