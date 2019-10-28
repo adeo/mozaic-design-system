@@ -4511,7 +4511,7 @@ module.exports = {
         "border": {
           "value": "#78be20",
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.success.500.value}"
           },
           "name": "ColorInputValidBorder",
           "attributes": {
@@ -4531,7 +4531,7 @@ module.exports = {
           "border": {
             "value": "#0a601b",
             "original": {
-              "value": "{color.primary-01.800.value}"
+              "value": "{color.success.800.value}"
             },
             "name": "ColorInputValidHoverBorder",
             "attributes": {
@@ -4555,7 +4555,7 @@ module.exports = {
         "border": {
           "value": "#df382b",
           "original": {
-            "value": "{color.secondary-red.500.value}"
+            "value": "{color.danger.500.value}"
           },
           "name": "ColorInputInvalidBorder",
           "attributes": {
@@ -4575,7 +4575,7 @@ module.exports = {
           "border": {
             "value": "#641b21",
             "original": {
-              "value": "{color.secondary-red.800.value}"
+              "value": "{color.danger.800.value}"
             },
             "name": "ColorInputInvalidHoverBorder",
             "attributes": {
