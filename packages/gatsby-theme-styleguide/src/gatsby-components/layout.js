@@ -11,6 +11,8 @@ import Color from '../gatsby-components/Color'
 import Swatch from '../gatsby-components/Swatch'
 import Hint, { HintItem } from '../gatsby-components/Hint'
 import IconViewer from '../gatsby-components/IconViewer'
+import Code from '../gatsby-components/Code'
+import Copy from '../gatsby-components/Copy'
 
 const shortcodes = {
   Color,
@@ -18,6 +20,9 @@ const shortcodes = {
   Hint,
   HintItem,
   IconViewer,
+  pre: ({ children }) => <Code>{children}</Code>,
+  code: ({ children }) => <Code>{children}</Code>,
+  //inlineCode: Copy
 }
 
 const Global = styled.div`

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-import copyToClipBoard from '../../utils/fnHelper'
+import copyToClipBoard from '../../utils/copy-to-clipboard'
 
 const Info = styled.div`
   width: 100%;

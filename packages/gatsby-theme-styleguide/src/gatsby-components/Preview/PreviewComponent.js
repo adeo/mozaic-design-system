@@ -7,7 +7,7 @@ import PreviewFrame from './PreviewFrame'
 
 import tokensObject from '@mozaic-ds/tokens/build/js/tokensObject.js'
 
-import copyToClipBoard from '../../utils/fnHelper'
+import copyToClipBoard from '../../utils/copy-to-clipboard'
 
 let viewPorts = {}
 
