@@ -3,34 +3,32 @@ import React from 'react'
 import copyToClipBoard from '../../utils/copy-to-clipboard'
 
 const Info = styled.div`
-  width: 100%;
-  padding: 3px 5px;
-  font-size: 10px;
-  color: #999;
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 12px;
+  background-color: #eff0f1;
   line-height: 2em;
   cursor: pointer;
   position: relative;
   box-sizing: border-box;
-
-  &:not(:last-child) {
-    border-bottom: solid 1px #f5f5f5;
-  }
+  border: 1px solid #bcbec0;
+  font-family: 'LeroyMerlin', sans-serif;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-bottom: 3px;
 `
 
 const Copied = styled.div`
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #f5f5f5;
-  background: #999;
-  border-radius: 3px;
-  padding: 3px;
-  line-height: 1;
-  font-size: 9px;
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 12px;
+  line-height: 2em;
+  position: relative;
+  font-family: 'LeroyMerlin', sans-serif;
 `
 
-class Copy extends React.Component {
+class InlineCode extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -54,7 +52,7 @@ class Copy extends React.Component {
   }
 
   copyToClipBoard = () => {
-    const value = this.props.value
+    const value = this.props.children
     if (this.state.copyCompatible) {
       navigator.clipboard.writeText(value).then(
         () => {
@@ -68,6 +66,7 @@ class Copy extends React.Component {
       )
     } else {
       copyToClipBoard(value)
+      this.setState({ copied: true })
       return Promise.resolve(true).then(
         () => {
           this.setState({ copied: true }, () => {
@@ -94,4 +93,4 @@ class Copy extends React.Component {
   }
 }
 
-export default Copy
+export default InlineCode
