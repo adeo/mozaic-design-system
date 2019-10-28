@@ -12,7 +12,7 @@ import Swatch from '../gatsby-components/Swatch'
 import Hint, { HintItem } from '../gatsby-components/Hint'
 import IconViewer from '../gatsby-components/IconViewer'
 import Code from '../gatsby-components/Code'
-import Copy from '../gatsby-components/Copy'
+// import Copy from '../gatsby-components/Copy'
 
 const shortcodes = {
   Color,

@@ -3,7 +3,7 @@ import Highlight, { defaultProps } from 'prism-react-renderer'
 import copyToClipboard from '../../utils/copy-to-clipboard'
 import IconLibrairy from '../IconLibrairy'
 import normalize from './normalize'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const CopyButton = styled.button`
   width: 1.5rem;
@@ -35,6 +35,23 @@ const Preformated = styled.pre`
   margin: 0 !important;
   white-space: pre-wrap;
   border: none !important;
+  ${({ fullScreen }) =>
+    !fullScreen &&
+    css`
+      max-height: ${({ isOpen }) => (isOpen ? `50vh` : `10vh`)};
+    `}
+
+  ${({ fullScreen }) =>
+    fullScreen &&
+    css`
+      width: 100%;
+      max-height: none;
+      overflow: none;
+
+      code {
+        overflow: none;
+      }
+    `};
 `
 
 const Body = styled.div`
@@ -102,6 +119,8 @@ const Code = ({
   children,
   className = children.props ? children.props.className : ``,
   copy = true,
+  isOpen,
+  fullScreen,
 }) => {
   const [copied, setCopied] = useState(false)
   const [language] = getParams(className)
@@ -112,7 +131,7 @@ const Code = ({
     className
   )
   return (
-    <Body>
+    <Body fullScreen={fullScreen}>
       <CopyButton
         onClick={() => {
           copyToClipboardClick(content, setCopied)
@@ -126,9 +145,10 @@ const Code = ({
       </CopyButton>
       {content && (
         <CodeHilight
-          {...defaultProps}
+          fullScreen={fullScreen}
           code={content}
           language={language}
+          isOpen={isOpen}
           theme={undefined}
         />
       )}
