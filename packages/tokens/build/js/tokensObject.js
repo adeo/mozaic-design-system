@@ -2271,23 +2271,23 @@ module.exports = {
           }
         }
       },
-      "solid-primary-campus": {
+      "solid-primary-02": {
         "background": {
           "value": "#007574",
           "original": {
             "value": "{color.primary-02.500.value}"
           },
-          "name": "ColorButtonSolidPrimaryCampusBackground",
+          "name": "ColorButtonSolidPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "button",
-            "solid-primary-campus",
+            "solid-primary-02",
             "background"
           ]
         },
@@ -2296,17 +2296,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorButtonSolidPrimaryCampusFont",
+          "name": "ColorButtonSolidPrimary02Font",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "font"
           },
           "path": [
             "color",
             "button",
-            "solid-primary-campus",
+            "solid-primary-02",
             "font"
           ]
         },
@@ -2316,18 +2316,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.900.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusFocusBorder",
+            "name": "ColorButtonSolidPrimary02FocusBorder",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "focus",
               "state": "border"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "focus",
               "border"
             ]
@@ -2339,18 +2339,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.100.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusDisabledBackground",
+            "name": "ColorButtonSolidPrimary02DisabledBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "disabled",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "disabled",
               "background"
             ]
@@ -2360,18 +2360,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.500.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusDisabledFont",
+            "name": "ColorButtonSolidPrimary02DisabledFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "disabled",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "disabled",
               "font"
             ]
@@ -2383,18 +2383,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.900.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusActiveBackground",
+            "name": "ColorButtonSolidPrimary02ActiveBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "active",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "active",
               "background"
             ]
@@ -2406,18 +2406,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.800.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusHoverBackground",
+            "name": "ColorButtonSolidPrimary02HoverBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "hover",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "hover",
               "background"
             ]
@@ -2427,18 +2427,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.000.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusHoverFont",
+            "name": "ColorButtonSolidPrimary02HoverFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "hover",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "hover",
               "font"
             ]
@@ -2623,7 +2623,7 @@ module.exports = {
         "background": {
           "value": "#df382b",
           "original": {
-            "value": "{color.secondary-red.500.value}"
+            "value": "{color.danger.500.value}"
           },
           "name": "ColorButtonSolidDangerBackground",
           "attributes": {
@@ -2662,7 +2662,7 @@ module.exports = {
           "border": {
             "value": "#8b2226",
             "original": {
-              "value": "{color.secondary-red.700.value}"
+              "value": "{color.danger.700.value}"
             },
             "name": "ColorButtonSolidDangerFocusBorder",
             "attributes": {
@@ -2729,7 +2729,7 @@ module.exports = {
           "background": {
             "value": "#8b2226",
             "original": {
-              "value": "{color.secondary-red.700.value}"
+              "value": "{color.danger.700.value}"
             },
             "name": "ColorButtonSolidDangerActiveBackground",
             "attributes": {
@@ -2752,7 +2752,7 @@ module.exports = {
           "background": {
             "value": "#b42a27",
             "original": {
-              "value": "{color.secondary-red.600.value}"
+              "value": "{color.danger.600.value}"
             },
             "name": "ColorButtonSolidDangerHoverBackground",
             "attributes": {
@@ -2965,23 +2965,23 @@ module.exports = {
           }
         }
       },
-      "bordered-primary-campus": {
+      "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorButtonBorderedPrimaryCampusBackground",
+          "name": "ColorButtonBorderedPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "button",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "background"
           ]
         },
@@ -2990,17 +2990,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.500.value}"
           },
-          "name": "ColorButtonBorderedPrimaryCampusBorder",
+          "name": "ColorButtonBorderedPrimary02Border",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "border"
           },
           "path": [
             "color",
             "button",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "border"
           ]
         },
@@ -3009,17 +3009,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.500.value}"
           },
-          "name": "ColorButtonBorderedPrimaryCampusFont",
+          "name": "ColorButtonBorderedPrimary02Font",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "font"
           },
           "path": [
             "color",
             "button",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "font"
           ]
         },
@@ -3029,18 +3029,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.900.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusFocusBorder",
+            "name": "ColorButtonBorderedPrimary02FocusBorder",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "focus",
               "state": "border"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "focus",
               "border"
             ]
@@ -3052,18 +3052,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.100.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusDisabledBackground",
+            "name": "ColorButtonBorderedPrimary02DisabledBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "disabled",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "disabled",
               "background"
             ]
@@ -3073,18 +3073,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.500.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusDisabledFont",
+            "name": "ColorButtonBorderedPrimary02DisabledFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "disabled",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "disabled",
               "font"
             ]
@@ -3096,18 +3096,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.200.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusActiveBackground",
+            "name": "ColorButtonBorderedPrimary02ActiveBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "active",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "active",
               "background"
             ]
@@ -3119,18 +3119,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.100.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusHoverBackground",
+            "name": "ColorButtonBorderedPrimary02HoverBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "hover",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "hover",
               "background"
             ]

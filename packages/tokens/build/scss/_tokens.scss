@@ -130,14 +130,14 @@ $color-button-solid-disabled-font: #887f87 !default;
 $color-button-solid-active-background: #158110 !default;
 $color-button-solid-hover-background: #41a017 !default;
 $color-button-solid-hover-font: #ffffff !default;
-$color-button-solid-primary-campus-background: #007574 !default;
-$color-button-solid-primary-campus-font: #ffffff !default;
-$color-button-solid-primary-campus-focus-border: #062b35 !default;
-$color-button-solid-primary-campus-disabled-background: #eeeef0 !default;
-$color-button-solid-primary-campus-disabled-font: #887f87 !default;
-$color-button-solid-primary-campus-active-background: #062b35 !default;
-$color-button-solid-primary-campus-hover-background: #063a44 !default;
-$color-button-solid-primary-campus-hover-font: #ffffff !default;
+$color-button-solid-primary-02-background: #007574 !default;
+$color-button-solid-primary-02-font: #ffffff !default;
+$color-button-solid-primary-02-focus-border: #062b35 !default;
+$color-button-solid-primary-02-disabled-background: #eeeef0 !default;
+$color-button-solid-primary-02-disabled-font: #887f87 !default;
+$color-button-solid-primary-02-active-background: #062b35 !default;
+$color-button-solid-primary-02-hover-background: #063a44 !default;
+$color-button-solid-primary-02-hover-font: #ffffff !default;
 $color-button-solid-neutral-background: #887f87 !default;
 $color-button-solid-neutral-font: #ffffff !default;
 $color-button-solid-neutral-focus-border: #222020 !default;
@@ -162,14 +162,14 @@ $color-button-bordered-disabled-background: #eeeef0 !default;
 $color-button-bordered-disabled-font: #887f87 !default;
 $color-button-bordered-active-background: #cbe3b5 !default;
 $color-button-bordered-hover-background: #eaf3e2 !default;
-$color-button-bordered-primary-campus-background: #ffffff !default;
-$color-button-bordered-primary-campus-border: #007574 !default;
-$color-button-bordered-primary-campus-font: #007574 !default;
-$color-button-bordered-primary-campus-focus-border: #062b35 !default;
-$color-button-bordered-primary-campus-disabled-background: #eeeef0 !default;
-$color-button-bordered-primary-campus-disabled-font: #887f87 !default;
-$color-button-bordered-primary-campus-active-background: #a5d1cb !default;
-$color-button-bordered-primary-campus-hover-background: #dbedea !default;
+$color-button-bordered-primary-02-background: #ffffff !default;
+$color-button-bordered-primary-02-border: #007574 !default;
+$color-button-bordered-primary-02-font: #007574 !default;
+$color-button-bordered-primary-02-focus-border: #062b35 !default;
+$color-button-bordered-primary-02-disabled-background: #eeeef0 !default;
+$color-button-bordered-primary-02-disabled-font: #887f87 !default;
+$color-button-bordered-primary-02-active-background: #a5d1cb !default;
+$color-button-bordered-primary-02-hover-background: #dbedea !default;
 $color-button-bordered-neutral-background: #ffffff !default;
 $color-button-bordered-neutral-border: #554f52 !default;
 $color-button-bordered-neutral-font: #554f52 !default;
@@ -599,22 +599,22 @@ $tokens: (
           'font': $color-button-solid-hover-font
         )
       ),
-      'solid-primary-campus': (
-        'background': $color-button-solid-primary-campus-background,
-        'font': $color-button-solid-primary-campus-font,
+      'solid-primary-02': (
+        'background': $color-button-solid-primary-02-background,
+        'font': $color-button-solid-primary-02-font,
         'focus': (
-          'border': $color-button-solid-primary-campus-focus-border
+          'border': $color-button-solid-primary-02-focus-border
         ),
         'disabled': (
-          'background': $color-button-solid-primary-campus-disabled-background,
-          'font': $color-button-solid-primary-campus-disabled-font
+          'background': $color-button-solid-primary-02-disabled-background,
+          'font': $color-button-solid-primary-02-disabled-font
         ),
         'active': (
-          'background': $color-button-solid-primary-campus-active-background
+          'background': $color-button-solid-primary-02-active-background
         ),
         'hover': (
-          'background': $color-button-solid-primary-campus-hover-background,
-          'font': $color-button-solid-primary-campus-hover-font
+          'background': $color-button-solid-primary-02-hover-background,
+          'font': $color-button-solid-primary-02-hover-font
         )
       ),
       'solid-neutral': (
@@ -671,22 +671,22 @@ $tokens: (
           'background': $color-button-bordered-hover-background
         )
       ),
-      'bordered-primary-campus': (
-        'background': $color-button-bordered-primary-campus-background,
-        'border': $color-button-bordered-primary-campus-border,
-        'font': $color-button-bordered-primary-campus-font,
+      'bordered-primary-02': (
+        'background': $color-button-bordered-primary-02-background,
+        'border': $color-button-bordered-primary-02-border,
+        'font': $color-button-bordered-primary-02-font,
         'focus': (
-          'border': $color-button-bordered-primary-campus-focus-border
+          'border': $color-button-bordered-primary-02-focus-border
         ),
         'disabled': (
-          'background': $color-button-bordered-primary-campus-disabled-background,
-          'font': $color-button-bordered-primary-campus-disabled-font
+          'background': $color-button-bordered-primary-02-disabled-background,
+          'font': $color-button-bordered-primary-02-disabled-font
         ),
         'active': (
-          'background': $color-button-bordered-primary-campus-active-background
+          'background': $color-button-bordered-primary-02-active-background
         ),
         'hover': (
-          'background': $color-button-bordered-primary-campus-hover-background
+          'background': $color-button-bordered-primary-02-hover-background
         )
       ),
       'bordered-neutral': (

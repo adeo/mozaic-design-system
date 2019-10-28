@@ -37,20 +37,20 @@ With unwraped text, buttons using icons will break layout.
 - `bordered`
 - `bordered-neutral`
 - `solid-neutral`
-- `solid-primary-campus`
-- `bordered-primary-campus`
+- `solid-primary-02`
+- `bordered-primary-02`
 - `solid-danger`
 - `bordered-danger`
 
 example :
 
 ```html
-<a href="#" class="mc-button mc-button--primary-campus">
+<a href="#" class="mc-button mc-button--primary-02">
   <span class="mc-button__label">
     Label
   </span>
 </a>
-<a href="#" class="mc-button mc-button--bordered-primary-campus">
+<a href="#" class="mc-button mc-button--bordered-primary-02">
   <span class="mc-button__label">
     Label
   </span>
@@ -176,7 +176,68 @@ Standard button states :
 
 <Preview path="button-state" />
 
-## Mixins
+## Customization and Mixins
+
+### Customize buttons using tokens
+
+Our buttons themes are built by looping through the associated design tokens.
+This mean that you can override or create buttons themes and the associated classes names using only tokens.
+
+Read our [customization doc first](GetStarted/Developers/CustomizeTokens/) first to see how to customize tokens.
+
+Create a json file in `[your/src]/properties/color/button.json`
+
+You can override the existing themes by re-definiing an existing key :
+
+```json
+{
+  "color": {
+    "button": {
+      "danger": {
+        "background": {
+          "value": "{color.custom.500.value}"
+        },
+        "font": {
+          "value": "{color.custom.000.value}"
+        },
+        "focus": {
+          "border": {
+            "value": "{color.custom.700.value}"
+          }
+        },
+        ...etc
+    }
+  }
+}
+```
+
+Which will change the apearence of the `.mc-button--danger` theme.
+
+But you can also create an entierly new theme just by adding a new key :
+
+```json
+{
+  "color": {
+    "button": {
+      "foo-bar": {
+        "background": {
+          "value": "{color.custom.500.value}"
+        },
+        "font": {
+          "value": "{color.custom.000.value}"
+        },
+        "focus": {
+          "border": {
+            "value": "{color.custom.700.value}"
+          }
+        },
+        ...etc
+    }
+  }
+}
+```
+
+Which will create the `.mc-button--foo-bar` theme and associated classes.
 
 ### The button mixin
 
@@ -189,14 +250,14 @@ $my-map: (
   'border': yellow,
   'hover': (
     'background': blue,
-    'font': white
+    'font': white,
   ),
   'focus': (
-    'border': purple
+    'border': purple,
   ),
   'active': (
-    'background': 'blue'
-  )
+    'background': 'blue',
+  ),
 );
 ```
 
@@ -242,7 +303,8 @@ Then, it will generate something like this :
 </HintItem>
 
 <HintItem>
-  Use <code>aria-label="button purpose"</code> <b>using only an icon without text</b>.
+  Use <code>aria-label="button purpose"</code>{' '}
+  <b>using only an icon without text</b>.
 </HintItem>
 
 ```html
@@ -257,9 +319,13 @@ Then, it will generate something like this :
 
 <HintItem>
   Use the right tag for the right purpose : <br />
-  <code>&lt;a&gt;</code> for links<br />
-  <code>&lt;button type="submit" form="form_id"&gt;</code> to submit a form (you should prefer it to input type submit)<br />
-  <code>&lt;button&gt;</code> for any other actions<br />
+  <code>&lt;a&gt;</code> for links
+  <br />
+  <code>&lt;button type="submit" form="form_id"&gt;</code> to submit a form (you
+  should prefer it to input type submit)
+  <br />
+  <code>&lt;button&gt;</code> for any other actions
+  <br />
 </HintItem>
 
 <Preview path="suportedMarkup" />
