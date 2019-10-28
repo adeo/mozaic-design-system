@@ -40,6 +40,15 @@
   <color name="color_secondary_blue_700">#ff1e5f82</color>
   <color name="color_secondary_blue_800">#ff18415d</color>
   <color name="color_secondary_blue_900">#ff102739</color>
+  <color name="color_secondary_green_100">#ffeaf3e2</color>
+  <color name="color_secondary_green_200">#ffcbe3b5</color>
+  <color name="color_secondary_green_300">#ffadd585</color>
+  <color name="color_secondary_green_400">#ff91c854</color>
+  <color name="color_secondary_green_500">#ff78be20</color>
+  <color name="color_secondary_green_600">#ff41a017</color>
+  <color name="color_secondary_green_700">#ff158110</color>
+  <color name="color_secondary_green_800">#ff0a601b</color>
+  <color name="color_secondary_green_900">#ff053e1f</color>
   <color name="color_secondary_purple_100">#ffefebfe</color>
   <color name="color_secondary_purple_200">#ffc7b0fa</color>
   <color name="color_secondary_purple_300">#ffa575f3</color>

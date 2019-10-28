@@ -41,6 +41,15 @@ $color-secondary-blue-600: #2282a8 !default;
 $color-secondary-blue-700: #1e5f82 !default;
 $color-secondary-blue-800: #18415d !default;
 $color-secondary-blue-900: #102739 !default;
+$color-secondary-green-100: #eaf3e2 !default;
+$color-secondary-green-200: #cbe3b5 !default;
+$color-secondary-green-300: #add585 !default;
+$color-secondary-green-400: #91c854 !default;
+$color-secondary-green-500: #78be20 !default;
+$color-secondary-green-600: #41a017 !default;
+$color-secondary-green-700: #158110 !default;
+$color-secondary-green-800: #0a601b !default;
+$color-secondary-green-900: #053e1f !default;
 $color-secondary-purple-100: #efebfe !default;
 $color-secondary-purple-200: #c7b0fa !default;
 $color-secondary-purple-300: #a575f3 !default;
@@ -284,6 +293,42 @@ $color-toggle-on-circle: #ffffff !default;
 $color-toggle-hover-circle: #eeeef0 !default;
 $color-toggle-disabled-background: #eeeef0 !default;
 $color-toggle-disabled-circle: #bab6bc !default;
+$danger-100: #feedee !default;
+$danger-200: #fab9bc !default;
+$danger-300: #f38789 !default;
+$danger-400: #ea5d58 !default;
+$danger-500: #df382b !default;
+$danger-600: #b42a27 !default;
+$danger-700: #8b2226 !default;
+$danger-800: #641b21 !default;
+$danger-900: #3e1219 !default;
+$info-100: #ecfcfd !default;
+$info-200: #b7eef5 !default;
+$info-300: #84dbeb !default;
+$info-400: #54c4de !default;
+$info-500: #25a8d0 !default;
+$info-600: #2282a8 !default;
+$info-700: #1e5f82 !default;
+$info-800: #18415d !default;
+$info-900: #102739 !default;
+$warning-100: #fff8e2 !default;
+$warning-200: #ffebaf !default;
+$warning-300: #fee07d !default;
+$warning-400: #fcd64c !default;
+$warning-500: #f8cc1c !default;
+$warning-600: #c9a21b !default;
+$warning-700: #9c7b18 !default;
+$warning-800: #705613 !default;
+$warning-900: #46350d !default;
+$success-100: #eaf3e2 !default;
+$success-200: #cbe3b5 !default;
+$success-300: #add585 !default;
+$success-400: #91c854 !default;
+$success-500: #78be20 !default;
+$success-600: #41a017 !default;
+$success-700: #158110 !default;
+$success-800: #0a601b !default;
+$success-900: #053e1f !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -431,6 +476,17 @@ $tokens: (
       '700': $color-secondary-blue-700,
       '800': $color-secondary-blue-800,
       '900': $color-secondary-blue-900
+    ),
+    'secondary-green': (
+      '100': $color-secondary-green-100,
+      '200': $color-secondary-green-200,
+      '300': $color-secondary-green-300,
+      '400': $color-secondary-green-400,
+      '500': $color-secondary-green-500,
+      '600': $color-secondary-green-600,
+      '700': $color-secondary-green-700,
+      '800': $color-secondary-green-800,
+      '900': $color-secondary-green-900
     ),
     'secondary-purple': (
       '100': $color-secondary-purple-100,
@@ -905,6 +961,50 @@ $tokens: (
         'circle': $color-toggle-disabled-circle
       )
     )
+  ),
+  'danger': (
+    '100': $danger-100,
+    '200': $danger-200,
+    '300': $danger-300,
+    '400': $danger-400,
+    '500': $danger-500,
+    '600': $danger-600,
+    '700': $danger-700,
+    '800': $danger-800,
+    '900': $danger-900
+  ),
+  'info': (
+    '100': $info-100,
+    '200': $info-200,
+    '300': $info-300,
+    '400': $info-400,
+    '500': $info-500,
+    '600': $info-600,
+    '700': $info-700,
+    '800': $info-800,
+    '900': $info-900
+  ),
+  'warning': (
+    '100': $warning-100,
+    '200': $warning-200,
+    '300': $warning-300,
+    '400': $warning-400,
+    '500': $warning-500,
+    '600': $warning-600,
+    '700': $warning-700,
+    '800': $warning-800,
+    '900': $warning-900
+  ),
+  'success': (
+    '100': $success-100,
+    '200': $success-200,
+    '300': $success-300,
+    '400': $success-400,
+    '500': $success-500,
+    '600': $success-600,
+    '700': $success-700,
+    '800': $success-800,
+    '900': $success-900
   ),
   'radius': (
     's': $radius-s,
