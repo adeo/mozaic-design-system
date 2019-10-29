@@ -65,13 +65,9 @@ const copyToClipboardClick = (str, toogleCopy) => {
   copyToClipboard(str)
     .then(() => {
       toogleCopy(true)
-    })
-    .then(() => {
       setTimeout(() => toogleCopy(false), 3000)
     })
-    .catch(() => {
-      return null
-    })
+    .catch(() => false)
 }
 
 const CodeHilight = ({ code, language, fullScreen, isOpen }) => (

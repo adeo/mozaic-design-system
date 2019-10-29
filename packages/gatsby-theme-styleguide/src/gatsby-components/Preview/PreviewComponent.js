@@ -106,13 +106,9 @@ export class PreviewComponent extends PureComponent {
     copyToClipboard(this.props.children)
       .then(() => {
         this.setState({ copied: true })
-      })
-      .then(() => {
         setTimeout(() => this.setState({ copied: false }), 3000)
       })
-      .catch(() => {
-        return null
-      })
+      .catch(() => false)
   }
 
   render() {
