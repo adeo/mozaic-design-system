@@ -61,27 +61,10 @@ const Body = styled.div`
   border-left: solid 1px #ececec;
 `
 
-const getParams = (name = ``) => {
-  const [lang, params = ``] = name.split(`:`)
-  return [
-    lang
-      .split(`language-`)
-      .pop()
-      .split(`{`)
-      .shift(),
-  ].concat(
-    params.split(`&`).reduce((merged, param) => {
-      const [key, value] = param.split(`=`)
-      merged[key] = value
-      return merged
-    }, {})
-  )
-}
-
-const copyToClipboardClick = (str, setCopied) => {
-  setCopied(true)
+const copyToClipboardClick = (str, toogleCopy) => {
+  toogleCopy(true)
   copyToClipboard(str)
-  setTimeout(setCopied, 3000)
+  setTimeout(toogleCopy, 3000)
 }
 
 const CodeHilight = ({ code, language, fullScreen, isOpen }) => (
@@ -123,7 +106,7 @@ const Code = ({
   fullScreen,
 }) => {
   const [copied, setCopied] = useState(false)
-  const [language] = getParams(className)
+  const language = className.split(`language-`).pop()
   const [content] = normalize(
     children.props && children.props.children
       ? children.props.children

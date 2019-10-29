@@ -1,3 +1,5 @@
+//https://github.com/gatsbyjs/gatsby/blob/master/www/src/components/code-block/normalize.js
+// function that helps deconstruct jsx object to render code higlighted.
 const COMMENT_START = new RegExp(`(#|\\/\\/|\\{\\/\\*|\\/\\*+|<!--)`)
 
 const createDirectiveRegExp = featureSelector =>

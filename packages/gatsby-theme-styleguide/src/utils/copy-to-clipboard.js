@@ -20,10 +20,14 @@ const copyToClipboard = str => {
     textarea.setSelectionRange(0, textarea.value.length)
     document.execCommand(`copy`)
     document.body.removeChild(textarea)
-
-    return Promise.resolve(true)
+    return Promise.resolve(true).catch(e =>
+      console.log('Copy To Clipboard Excepetion' + e)
+    )
   }
-  return clipboard.writeText(str)
+  // Use Clipboard API
+  return clipboard
+    .writeText(str)
+    .catch(e => console.log('Copy To Clipboard Excepetion' + e))
 }
 
 export default copyToClipboard
