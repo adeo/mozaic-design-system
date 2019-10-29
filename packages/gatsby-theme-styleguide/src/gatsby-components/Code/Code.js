@@ -113,7 +113,7 @@ const Code = ({
   fullScreen,
 }) => {
   const [copied, setCopied] = useState(false)
-  const language = className.split(`language-`).pop()
+  const language = className ? className.split(`language-`).pop() : ''
   const [content] = normalize(
     children.props && children.props.children
       ? children.props.children
