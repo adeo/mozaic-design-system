@@ -20,8 +20,8 @@ export default (markdowns, fileTree, location) => {
       .map(dir => ({
         path: dir.path.replace('src/', ''), // normalise path to compare between markdowns and dirtree
         children:
-          dir.childrenNode && dir.childrenNode.length > 0
-            ? filterPagesDirectories(dir.childrenNode)
+          dir.content && dir.content.length > 0
+            ? filterPagesDirectories(dir.content)
             : [],
       }))
 
@@ -29,6 +29,7 @@ export default (markdowns, fileTree, location) => {
     dirs
       .map(dir => {
         let dirIndex
+        dir.path = dir.path.replace(/^\//, '')
         const level = dir.path.split('/').length - 1
 
         const relatedIndex =
@@ -51,12 +52,11 @@ export default (markdowns, fileTree, location) => {
           dirIndex.children = MenuBuilderIterator(dir.children, indexes)
         }
 
+        const pathFiltered = dir.path.replace('docs', '')
         dirIndex.level = level
-        dirIndex.isOpened = location.includes(dir.path.replace('docs', ''))
-        // hilight current path even if the menu is closed
-        dirIndex.isPartOfCurrentlocation = location.includes(
-          dir.path.replace('docs', '')
-        )
+        dirIndex.isOpened = location.includes(pathFiltered)
+        // highlight current path even if the menu is closed
+        dirIndex.isPartOfCurrentlocation = location.includes(pathFiltered)
 
         return dirIndex
       })

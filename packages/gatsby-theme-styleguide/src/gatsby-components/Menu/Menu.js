@@ -5,6 +5,8 @@ import { MenuItem } from './MenuItem'
 import MenuHeader from './MenuHeader'
 import buildMenuModel from './BuildMenuModel'
 import DesignerKitLink from '../DesignerKitLink'
+import CentralizedData from '../CentralizedData'
+import { StaticQuery, graphql } from 'gatsby'
 
 const MenuItemContainer = styled.div`
   display: flex;
@@ -65,7 +67,7 @@ const ListItem = styled.li`
     `}
 `
 
-export default class Menu extends Component {
+class Menu extends Component {
   static propTypes = {
     data: PropTypes.shape({}).isRequired,
     siteTitle: PropTypes.string.isRequired,
@@ -81,10 +83,12 @@ export default class Menu extends Component {
     console.log(currentPath)
     console.log('-----------')
 
+    const { directoryTree, allMdx } = this.props.centralData
+
     this.state = {
       menuArray: buildMenuModel(
-        this.props.data.allMdx.edges,
-        this.props.data.directoryTree.childrenNode,
+        allMdx.edges,
+        directoryTree[0].content,
         currentPath
       ),
     }
@@ -170,27 +174,50 @@ export default class Menu extends Component {
   )
 
   render() {
-    const { siteTitle, data } = this.props
+    const { siteTitle } = this.props
 
     return (
-      <Container>
-        <MenuHeader
-          siteTitle={siteTitle}
-          githubReleases={data.allGithubRelease.edges}
-        />
-        <NavContainer>
-          {this.buildMenu(this.state.menuArray, true)}
+      <StaticQuery
+        query={query}
+        render={data => {
+          return (
+            <Container>
+              <MenuHeader
+                siteTitle={siteTitle}
+                githubReleases={data.allGithubRelease.edges}
+              />
+              <NavContainer>
+                {this.buildMenu(this.state.menuArray, true)}
 
-          <DesignerKitLink
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button__menu button button--secondary"
-            title="Download the IU kit"
-          >
-            Download the design kit
-          </DesignerKitLink>
-        </NavContainer>
-      </Container>
+                <DesignerKitLink
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button__menu button button--secondary"
+                  title="Download the IU kit"
+                >
+                  Download the design kit
+                </DesignerKitLink>
+              </NavContainer>
+            </Container>
+          )
+        }}
+      />
     )
   }
 }
+
+export default CentralizedData({ Component: Menu })
+
+const query = graphql`
+  query AllGitReleasesQuery {
+    allGithubRelease {
+      edges {
+        node {
+          tagName
+          url
+          isCurrent
+        }
+      }
+    }
+  }
+`

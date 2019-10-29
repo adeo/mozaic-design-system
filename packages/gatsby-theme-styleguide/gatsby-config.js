@@ -13,12 +13,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
-      resolve: '@mozaic-ds/gatsby-source-directory-tree',
-      options: {
-        path: path.join('src', 'docs'),
-      },
-    },
-    {
       resolve: '@mozaic-ds/gatsby-github-release',
     },
     {
