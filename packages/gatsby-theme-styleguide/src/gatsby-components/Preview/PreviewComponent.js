@@ -7,7 +7,7 @@ import PreviewFrame from './PreviewFrame'
 
 import tokensObject from '@mozaic-ds/tokens/build/js/tokensObject.js'
 
-import copyToClipBoard from '../../utils/copy-to-clipboard'
+import copyToClipboard from '../../utils/copy-to-clipboard'
 
 let viewPorts = {}
 
@@ -75,7 +75,6 @@ export class PreviewComponent extends PureComponent {
   }
 
   componentDidMount() {
-    this.isClipBoardAPIAvailable()
     this.props.getAvailableWidth(this.contRef.clientWidth)
   }
 
@@ -103,43 +102,18 @@ export class PreviewComponent extends PureComponent {
     })
   }
 
-  isClipBoardAPIAvailable = () => {
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: 'clipboard-write' }).then(result => {
-        if (result.state === 'granted' || result.state === 'prompt') {
-          this.setState({ copyCompatible: true })
-        }
+  copyToClipBoard = () => {
+    this.setState({ copied: true })
+    copyToClipboard(this.props.children)
+      .then(() => {
+        console.log('Copied To Clipboard')
+        setTimeout(() => this.setState({ copied: false }), 3000)
       })
-    }
+      .catch(() => {
+        console.log('Exception')
+      })
   }
 
-  copyCodeToClipBoard = () => {
-    const { currentCodeSample } = this.state
-    const Preview = this.props.data.node.codes
-    const codeToCopy = Preview[currentCodeSample]
-
-    if (this.state.copyCompatible) {
-      navigator.clipboard.writeText(codeToCopy).then(
-        () => {
-          this.setState({ copied: true })
-        },
-        () => {
-          alert(`copy impossible !`)
-        }
-      )
-    } else {
-      copyToClipBoard(codeToCopy)
-      this.setState({ copied: true })
-      return Promise.resolve(true).then(
-        () => {
-          this.setState({ copied: true })
-        },
-        () => {
-          alert(`copy impossible !`)
-        }
-      )
-    }
-  }
   render() {
     const {
       viewport,

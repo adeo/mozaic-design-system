@@ -64,7 +64,13 @@ const Body = styled.div`
 const copyToClipboardClick = (str, toogleCopy) => {
   toogleCopy(true)
   copyToClipboard(str)
-  setTimeout(toogleCopy, 3000)
+    .then(() => {
+      console.log('Copied To Clipboard')
+      setTimeout(() => toogleCopy(false), 3000)
+    })
+    .catch(() => {
+      console.log('Exception')
+    })
 }
 
 const CodeHilight = ({ code, language, fullScreen, isOpen }) => (

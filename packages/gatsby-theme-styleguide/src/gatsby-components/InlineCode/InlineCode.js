@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-import copyToClipBoard from '../../utils/copy-to-clipboard'
+import copyToClipboard from '../../utils/copy-to-clipboard'
 
 const Info = styled.span`
   position: relative;
@@ -36,8 +36,14 @@ class InlineCode extends React.Component {
 
   copyToClipBoard = () => {
     this.setState({ copied: true })
-    copyToClipBoard(this.props.children)
-    setTimeout(() => this.setState({ copied: false }), 3000)
+    copyToClipboard(this.props.children)
+      .then(() => {
+        console.log('Copied To Clipboard')
+        setTimeout(() => this.setState({ copied: false }), 3000)
+      })
+      .catch(() => {
+        console.log('Exception')
+      })
   }
 
   render() {
