@@ -35,14 +35,15 @@ class InlineCode extends React.Component {
   }
 
   copyToClipBoard = () => {
-    this.setState({ copied: true })
     copyToClipboard(this.props.children)
       .then(() => {
-        console.log('Copied To Clipboard')
+        this.setState({ copied: true })
+      })
+      .then(() => {
         setTimeout(() => this.setState({ copied: false }), 3000)
       })
       .catch(() => {
-        console.log('Exception')
+        return null
       })
   }
 
