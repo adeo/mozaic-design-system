@@ -3,22 +3,24 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import { parseAllFiles } from './tools'
 
-// HOC to centralize Graph queries
+// HOC to centralize site structure (site map)
 export default ({ Component }) => props => {
   return (
     <StaticQuery
       query={query}
       render={data => {
-        data.directoryTree = parseAllFiles(data.allFile.nodes)
-        return <Component centralData={data} {...props} />
+        const siteMapData = parseAllFiles(data.allMdx.edges, {
+          location: props.location.pathname,
+        })
+        return <Component siteMapData={siteMapData} {...props} />
       }}
     />
   )
 }
 
 const query = graphql`
-  query CentralizedData {
-    allMdx(sort: { fields: [frontmatter___order], order: DESC }) {
+  query SiteMapData {
+    allMdx(sort: { fields: [fields___slug], order: ASC }) {
       totalCount
       edges {
         node {
@@ -38,13 +40,6 @@ const query = graphql`
           }
           excerpt
         }
-      }
-    }
-    allFile(filter: { absolutePath: { regex: "//src/docs//" } }) {
-      totalCount
-      nodes {
-        absolutePath
-        name
       }
     }
   }

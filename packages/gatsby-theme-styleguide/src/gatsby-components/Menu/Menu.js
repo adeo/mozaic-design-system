@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 import { MenuItem } from './MenuItem'
 import MenuHeader from './MenuHeader'
-import buildMenuModel from './BuildMenuModel'
 import DesignerKitLink from '../DesignerKitLink'
-import CentralizedData from '../CentralizedData'
+import withSiteMapData from '../SiteMapData'
 import { StaticQuery, graphql } from 'gatsby'
 
 const MenuItemContainer = styled.div`
@@ -69,28 +68,14 @@ const ListItem = styled.li`
 
 class Menu extends Component {
   static propTypes = {
-    data: PropTypes.shape({}).isRequired,
     siteTitle: PropTypes.string.isRequired,
   }
 
   constructor(props) {
     super(props)
 
-    const currentPath =
-      (this.props.location && this.props.location.pathname) || ''
-
-    console.log('-----------')
-    console.log(currentPath)
-    console.log('-----------')
-
-    const { directoryTree, allMdx } = this.props.centralData
-
     this.state = {
-      menuArray: buildMenuModel(
-        allMdx.edges,
-        directoryTree[0].content,
-        currentPath
-      ),
+      menuArray: this.props.siteMapData,
     }
   }
 
@@ -101,8 +86,8 @@ class Menu extends Component {
           item.isOpened = true
         }
 
-        if (item.children && item.children.length > 0) {
-          item.children = setOpenItems(item.children)
+        if (item.content && item.content.length > 0) {
+          item.content = setOpenItems(item.content)
         }
 
         return item
@@ -118,8 +103,8 @@ class Menu extends Component {
           item.isOpened = false
         }
 
-        if (item.children && item.children.length > 0) {
-          item.children = setCloseItem(item.children)
+        if (item.content && item.content.length > 0) {
+          item.content = setCloseItem(item.content)
         }
 
         return item
@@ -143,7 +128,7 @@ class Menu extends Component {
               level={item.level}
               isPartOfCurrentlocation={item.isPartOfCurrentlocation}
             />
-            {item.children && (
+            {item.content.length > 0 && (
               <ShowChildrenButton
                 onClick={
                   item.isOpened
@@ -165,8 +150,8 @@ class Menu extends Component {
               </ShowChildrenButton>
             )}
           </MenuItemContainer>
-          {item.children && (
-            <div>{this.buildMenu(item.children, item.isOpened)}</div>
+          {item.content && (
+            <div>{this.buildMenu(item.content, item.isOpened)}</div>
           )}
         </ListItem>
       ))}
@@ -206,7 +191,7 @@ class Menu extends Component {
   }
 }
 
-export default CentralizedData({ Component: Menu })
+export default withSiteMapData({ Component: Menu })
 
 const query = graphql`
   query AllGitReleasesQuery {
