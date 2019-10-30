@@ -446,9 +446,8 @@ Two types of comments can be used in SCSS files:
 - **Multi-line comments** _(also called native CSS comments)_: Start with `/*` and end at the next `*/`
 - **Single line comments**: Start with `//`, and go until the end of the line
 
-```SCSS
+```scss
 .mc-button {
-
   /* this is a native CSS comments */
   &__text {
     /*...*/
@@ -472,7 +471,7 @@ On the other hand, **Multi-line comments** are **always rendered** in the final 
 By default, multi-line comments be stripped from the compiled CSS in compressed mode.  
 If a comment begins with `/*!`, though, it will always be included in the CSS output.
 
-```SCSS
+```scss
 .mc-button {
   // This comment won't be included in the CSS.
 
@@ -486,7 +485,7 @@ If a comment begins with `/*!`, though, it will always be included in the CSS ou
 
 If you think this is required you can add a general purpose comment in the top of your file, for that, use the SCSS single line comment:
 
-```SCSS
+```scss
 // File containing the styles of the .mc-button component
 // as well as the different variations of colors or sizes
 // Don't forget to import the _all-settings.scss file to use variables and mixins
@@ -506,9 +505,8 @@ For this type of comment, **use native CSS comments**.
 Add the **capitalized flags `LEGACY_SUPPORT` and `END_LEGACY_SUPPORT` at the start and at the end** of the legacy support code block.
 Add also **the version in witch the support is supposed to be dropped**.
 
-```SCSS
+```scss
 .mc-button {
-
   /* LEGACY SUPPORT : will be removed in version 2 */
   &__text {
     /*...*/
@@ -517,7 +515,6 @@ Add also **the version in witch the support is supposed to be dropped**.
 
   // replace .go-my-block__toto in version 1.9.6 and higher
   &__wrap {
-
     /* TODO: do something (this should be avoided in production) */
     /*...*/
   }
@@ -557,7 +554,7 @@ The comment will also appear in the output files, if they accept the comments:
 
 _example of a scss output file:_
 
-```SCSS
+```scss
 $color-star-empty: #d3d2d6 !default; // color for empty star
 $color-star-focus: #25a8d0 !default; // color for star on focus
 $color-star-hover: #ffc17d !default; // color for star on hover

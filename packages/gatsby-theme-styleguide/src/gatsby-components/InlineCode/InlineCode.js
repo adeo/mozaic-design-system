@@ -4,25 +4,28 @@ import copyToClipboard from '../../utils/copy-to-clipboard'
 
 const Info = styled.span`
   position: relative;
-  padding: 2px 5px;
+  padding: 1px 5px 2px;
   font-size: 12px;
   background-color: #eff0f1;
-  line-height: 2em;
+  line-height: 1.2;
   cursor: pointer;
   box-sizing: border-box;
-  border: 1px solid #bcbec0;
   font-family: 'LeroyMerlin', sans-serif;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  margin-bottom: 3px;
+  border-radius: 2px;
 `
 
 const Copied = styled.span`
-  padding: 2px 5px;
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 2px 2px 0 0;
   font-size: 12px;
   line-height: 2em;
-  position: relative;
+  position: absolute;
+  font-size: 12px;
+  background-color: #999;
+  color: #fff;
+  bottom: 100%;
+  left: 0;
   font-family: 'LeroyMerlin', sans-serif;
 `
 

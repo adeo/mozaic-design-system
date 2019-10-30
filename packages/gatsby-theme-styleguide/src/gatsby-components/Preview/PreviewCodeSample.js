@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 import Code from '../Code'
 
@@ -59,6 +59,31 @@ const OpenButton = styled.button`
   outline: none;
 `
 
+const Body = styled.div`
+  flex: 1;
+  overflow: auto;
+  position: relative;
+  border-left: solid 1px #ececec;
+
+  ${({ fullScreen }) =>
+    !fullScreen &&
+    css`
+      max-height: ${({ isOpen }) => (isOpen ? `50vh` : `10vh`)};
+    `}
+
+  ${({ fullScreen }) =>
+    fullScreen &&
+    css`
+      width: 100%;
+      max-height: none;
+      overflow: none;
+
+      code {
+        overflow: none;
+      }
+    `};
+`
+
 const PreviewCodeSample = ({
   preview,
   copyCompatible,
@@ -84,15 +109,12 @@ const PreviewCodeSample = ({
           </CodeButton>
         ))}
       </CodeButtonWrapper>
+      <Body fullScreen={fullScreen} isOpen={open}>
+        <Code className={currentCodeSample} copy={true} fullScreen={fullScreen}>
+          {preview[currentCodeSample]}
+        </Code>
+      </Body>
 
-      <Code
-        className={currentCodeSample}
-        copy={true}
-        isOpen={open}
-        fullScreen={fullScreen}
-      >
-        {preview[currentCodeSample]}
-      </Code>
       {!fullScreen && (
         <Footer>
           <OpenButton onClick={() => showMore()}>
