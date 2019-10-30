@@ -7,6 +7,8 @@ import PreviewFrame from './PreviewFrame'
 
 import tokensObject from '@mozaic-ds/tokens/build/js/tokensObject.js'
 
+import copyToClipboard from '../../utils/copy-to-clipboard'
+
 let viewPorts = {}
 
 Object.keys(tokensObject.screen).map(
@@ -73,7 +75,6 @@ export class PreviewComponent extends PureComponent {
   }
 
   componentDidMount() {
-    this.isClipBoardAPIAvailable()
     this.props.getAvailableWidth(this.contRef.clientWidth)
   }
 
@@ -101,30 +102,15 @@ export class PreviewComponent extends PureComponent {
     })
   }
 
-  isClipBoardAPIAvailable = () => {
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: 'clipboard-write' }).then(result => {
-        if (result.state === 'granted' || result.state === 'prompt') {
-          this.setState({ copyCompatible: true })
-        }
-      })
-    }
-  }
-
-  copyCodeToClipBoard = () => {
-    const { currentCodeSample } = this.state
-    const Preview = this.props.data.node.codes
-    const codeToCopy = Preview[currentCodeSample]
-
-    navigator.clipboard.writeText(codeToCopy).then(
-      () => {
+  copyToClipBoard = () => {
+    copyToClipboard(this.props.children)
+      .then(() => {
         this.setState({ copied: true })
-      },
-      () => {
-        alert(`copy impossible !`)
-      }
-    )
+        setTimeout(() => this.setState({ copied: false }), 3000)
+      })
+      .catch(() => false)
   }
+
   render() {
     const {
       viewport,
