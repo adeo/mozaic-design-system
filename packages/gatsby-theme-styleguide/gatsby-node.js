@@ -20,6 +20,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: fileName,
     })
   }
+
+  if (node.internal.type === `Preview`) {
+    const slug = node.path
+
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
 }
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -37,6 +47,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           }
         }
       }
+      allPreview {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
     }
   `)
   if (result.errors) {
@@ -44,6 +63,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   const posts = result.data.allMdx.edges
+  const previews = result.data.allPreview.edges
 
   posts.forEach(({ node }) => {
     createPage({
@@ -51,6 +71,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: path.join(__dirname, 'src', 'templates', 'pattern-page.js'),
       context: {
         id: node.id,
+        slug: node.fields.slug,
+      },
+    })
+  })
+
+  previews.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: path.join(__dirname, 'src', 'templates', 'preview-page.js'),
+      context: {
         slug: node.fields.slug,
       },
     })
