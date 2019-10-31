@@ -7,7 +7,6 @@ const stat = fs.statSync
 
 const lernaData = fs.readFileSync('./lerna.json')
 const lerna = JSON.parse(lernaData)
-console.log(JSON.stringify(lerna.version, 0, 2))
 
 const rawdata = fs.readFileSync('./assets.config.json')
 const assets = JSON.parse(rawdata)
