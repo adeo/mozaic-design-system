@@ -14,6 +14,7 @@ class Preview extends PureComponent {
       grid: false,
       open: false,
       nude: this.props.nude,
+      location: this.props.location,
     }
   }
 
@@ -21,7 +22,6 @@ class Preview extends PureComponent {
     // src/docs/Components/Buttons/previews/button-styles
     const basePath = 'src/docs'
     const { location, path } = this.props
-
     // we need only pieces of path
     let locationParsed = location.pathname.replace(/^\/|\/$/g, '').split('/')
 
@@ -148,7 +148,9 @@ class Preview extends PureComponent {
             showMore={this.showMore}
             open={this.state.open}
             data={this.pickPreview(data)}
+            s
             nude={this.state.nude}
+            location={this.state.location}
           />
         )}
       />

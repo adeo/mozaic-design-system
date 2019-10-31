@@ -124,10 +124,10 @@ export class PreviewComponent extends PureComponent {
       open,
       nude,
       toggleOptions,
+      location,
     } = this.props
 
     const { currentCodeSample, copied, copyCompatible } = this.state
-
     if (this.props.data === undefined) {
       return <div />
     }
@@ -158,6 +158,7 @@ export class PreviewComponent extends PureComponent {
                   data={this.props.data}
                   grid={grid}
                   showGrid={showGrid}
+                  location={location}
                 />
               </Body>
             </Left>
@@ -201,6 +202,7 @@ export class PreviewComponent extends PureComponent {
               data={this.props.data}
               grid={grid}
               toggleOptions={toggleOptions}
+              location={location}
               nude={nude}
             />
 
