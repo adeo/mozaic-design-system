@@ -4,7 +4,6 @@ const nodeSass = require('postcss-node-sass')
 const stylelint = require('stylelint')
 const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
-const mqpacker = require('css-mqpacker')
 const cssnano = require('cssnano')
 const CM = require('@mozaic-ds/configuration-manager')
 
@@ -52,7 +51,6 @@ const plugins = [
     pattern: /<svg.*<\/svg>/i,
     prepend: 'data:image/svg+xml;base64,',
   }),
-  mqpacker({ sort: true }),
   autoprefixer(),
 ]
 
@@ -66,7 +64,6 @@ const productionPlugins = [
     pattern: /<svg.*<\/svg>/i,
     prepend: 'data:image/svg+xml;base64,',
   }),
-  mqpacker({ sort: true }),
   cssnano(['default', { discardComments: { removeAll: true } }]),
 ]
 
