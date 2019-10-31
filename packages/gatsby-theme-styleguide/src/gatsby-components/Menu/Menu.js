@@ -77,10 +77,6 @@ export default class Menu extends Component {
     const currentPath =
       (this.props.location && this.props.location.pathname) || ''
 
-    console.log('-----------')
-    console.log(currentPath)
-    console.log('-----------')
-
     this.state = {
       menuArray: buildMenuModel(
         this.props.data.allMdx.edges,
