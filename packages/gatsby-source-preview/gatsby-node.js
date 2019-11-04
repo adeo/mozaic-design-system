@@ -3,6 +3,16 @@ const fs = require('fs')
 const chokidar = require(`chokidar`)
 const createFSMachine = require('./create-fsmachine')
 
+const debounce = (fnc, tm) => {
+  let time
+  return function() {
+    clearTimeout(time)
+    time = setTimeout(() => {
+      fnc.apply(this, arguments)
+    }, tm)
+  }
+}
+
 const previewsParam = process.argv
   .filter(val => val.startsWith('previews='))
   .pop()
@@ -91,7 +101,8 @@ exports.sourceNodes = (tools, configOptions) => {
       }
     }
   })
-  watcher.on(`change`, path => {
+
+  const onChange = path => {
     // path: src/pages/Components/Buttons/previews/basic.preview.html
     if (
       currentState.value.CHOKIDAR ===
@@ -105,11 +116,12 @@ exports.sourceNodes = (tools, configOptions) => {
         return buildPreviews().catch(err => reporter.error(err))
       }
 
+      const content = fs.readFileSync(path, 'utf8')
       const pathSplitted = path.split('.')
       const fileext = pathSplitted[2]
       const nodeId = createNodeId(nodeIdString(pathSplitted[0]))
       let node = getNode(nodeId)
-      const content = fs.readFileSync(path, 'utf8')
+
       node.codes[fileext] = content
       if (fileext === 'scss') {
         return compileCss(node.codes, path, path.replace('.scss', '.css'))
@@ -118,7 +130,8 @@ exports.sourceNodes = (tools, configOptions) => {
         reporter.success(`preview built: ${path}`)
       }
     }
-  })
+  }
+  watcher.on(`change`, debounce(onChange, 300))
 
   watcher.on(`unlink`, path => {
     if (

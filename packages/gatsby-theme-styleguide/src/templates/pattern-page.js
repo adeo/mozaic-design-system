@@ -53,8 +53,6 @@ export default ({ data, location }) => {
   const otherPosts = data.allMdx.edges
 
   const samePageTabs = [...otherPosts].filter(({ node }) => {
-    console.log(JSON.stringify(post.fields.fileName, 0, 2))
-
     const nodePath = node.fields.fileName.relativePath.replace(
       node.fields.fileName.base,
       ''

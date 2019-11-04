@@ -152,6 +152,4 @@ const config = {
   },
 }
 
-console.log(JSON.stringify(config, 0, 2))
-
 module.exports = config

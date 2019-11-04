@@ -51,25 +51,22 @@ const Layout = ({ children, location }) => {
   return (
     <StaticQuery
       query={query}
-      render={data => (
-        <Global>
-          <Helmet title={data.site.siteMetadata.title}></Helmet>
-          <MenuContainer>
-            <Menu
-              location={location}
-              siteTitle={data.site.siteMetadata.title}
-              data={{
-                directoryTree: data.directoryTree,
-                allMdx: data.allMdx,
-                allGithubRelease: data.allGithubRelease,
-              }}
-            />
-          </MenuContainer>
-          <MDXProvider components={shortcodes}>
-            <Main id="scroller">{children}</Main>
-          </MDXProvider>
-        </Global>
-      )}
+      render={data => {
+        return (
+          <Global>
+            <Helmet title={data.site.siteMetadata.title}></Helmet>
+            <MenuContainer>
+              <Menu
+                location={location}
+                siteTitle={data.site.siteMetadata.title}
+              />
+            </MenuContainer>
+            <MDXProvider components={shortcodes}>
+              <Main id="scroller">{children}</Main>
+            </MDXProvider>
+          </Global>
+        )
+      }}
     />
   )
 }
@@ -85,57 +82,6 @@ const query = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    allGithubRelease {
-      edges {
-        node {
-          tagName
-          url
-          isCurrent
-        }
-      }
-    }
-    allMdx(sort: { fields: [frontmatter___order], order: DESC }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            order
-          }
-          fields {
-            slug
-            fileName {
-              name
-              base
-              relativePath
-              extension
-            }
-          }
-          excerpt
-        }
-      }
-    }
-    directoryTree(path: { eq: "src/docs" }) {
-      path
-      name
-      type
-      childrenNode {
-        path
-        name
-        type
-        childrenNode {
-          path
-          name
-          type
-          childrenNode {
-            path
-            name
-            type
-          }
-        }
       }
     }
   }
