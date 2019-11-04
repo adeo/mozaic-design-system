@@ -14,7 +14,6 @@ class Preview extends PureComponent {
       grid: false,
       open: false,
       nude: this.props.nude,
-      location: this.props.location,
     }
   }
 
@@ -148,9 +147,7 @@ class Preview extends PureComponent {
             showMore={this.showMore}
             open={this.state.open}
             data={this.pickPreview(data)}
-            s
             nude={this.state.nude}
-            location={this.state.location}
           />
         )}
       />
