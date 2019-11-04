@@ -112,48 +112,11 @@ export class PreviewFrame extends PureComponent {
     }
   `
 
-  componentDidMount() {
-    //this.updateIframe()
-  }
-
-  updateIframe = () => {
-    // console.log(this.props)
-    // const preview = this.props.data.node.codes
-    // const iframeSrc = this.props.location ? `${this.props.location.origin}/${this.props.data.node.path}` : ''
-    // const iframe = this.refs.iframe
-    // iframe.src = iframeSrc
-    // console.log(iframeSrc)
-    // const document = iframe.contentDocument
-    // const head = document.getElementsByTagName('head')[0]
-    // const style = document.createElement('style')
-    // if (preview.js) {
-    //   const js = document.createElement('script')
-    //   js.innerHTML = preview.js
-    //   head.appendChild(js)
-    // }
-    // if (preview.css) {
-    //   style.innerHTML = `
-    //     ${this.iframeCSS()}
-    //     ${preview.css}
-    //   `
-    // } else {
-    //   style.innerHTML = this.iframeCSS()
-    // }
-    // head.appendChild(style)
-    // document.body.innerHTML =
-    //   preview.html !== undefined ? preview.html : 'No html'
-    // document.body.style.margin = 0
-    // this.setState({
-    //   //iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
-    //   r: this.props.r,
-    // })
-  }
-
   render() {
     const { iframeHeight } = this.state
     const { viewport, viewPorts, availableWidth, fullScreen, grid } = this.props
     const iframeSrc = this.props.location
-      ? `${this.props.location.origin}/${this.props.data.node.path}`
+      ? `${window.location.hostname}/${this.props.data.node.path}`
       : ''
     if (this.props.data === undefined) {
       return <div />
