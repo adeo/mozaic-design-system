@@ -6,6 +6,7 @@ import MenuHeader from './MenuHeader'
 import DesignerKitLink from '../DesignerKitLink'
 import withSiteMapData from '../SiteMapData'
 import { StaticQuery, graphql } from 'gatsby'
+import { parseLocation } from '../SiteMapData/tools'
 
 const MenuItemContainer = styled.div`
   display: flex;
@@ -75,7 +76,7 @@ class Menu extends Component {
     super(props)
 
     this.state = {
-      menuArray: this.props.siteMapData,
+      menuArray: parseLocation(this.props.siteMapData, this.props.location),
     }
   }
 
@@ -115,46 +116,48 @@ class Menu extends Component {
 
   buildMenu = (menuArray, isOpened = true) => (
     <UlMenu isOpened={isOpened}>
-      {menuArray.map(item => (
-        <ListItem
-          key={item.dirPath}
-          level={item.level}
-          isOpenned={item.isOpened}
-        >
-          <MenuItemContainer>
-            <MenuItem
-              to={item.slug}
-              content={item.title}
-              level={item.level}
-              isPartOfCurrentlocation={item.isPartOfCurrentlocation}
-            />
-            {item.content.length > 0 && (
-              <ShowChildrenButton
-                onClick={
-                  item.isOpened
-                    ? () => this.closeMenu(item.dirPath)
-                    : () => this.openMenu(item.dirPath)
-                }
-              >
-                <Arrow
-                  isOpenned={item.isOpened}
-                  viewBox="0 0 35.57 35.53"
-                  width="20"
-                  height="20"
+      {menuArray.map(item => {
+        return (
+          <ListItem
+            key={item.dirPath}
+            level={item.level}
+            isOpenned={item.isOpened}
+          >
+            <MenuItemContainer>
+              <MenuItem
+                to={item.slug}
+                content={item.title}
+                level={item.level}
+                isPartOfCurrentlocation={item.isPartOfCurrentlocation}
+              />
+              {item.content.length > 0 && (
+                <ShowChildrenButton
+                  onClick={
+                    item.isOpened
+                      ? () => this.closeMenu(item.dirPath)
+                      : () => this.openMenu(item.dirPath)
+                  }
                 >
-                  <path
-                    fill="currentColor"
-                    d="M17.66,23.12l-8.5-8.5a1,1,0,0,1,0-1.42,1,1,0,0,1,1.41,0l7.09,7.09,7.08-7.09a1,1,0,0,1,1.41,0,1,1,0,0,1,0,1.42Z"
-                  />
-                </Arrow>
-              </ShowChildrenButton>
+                  <Arrow
+                    isOpenned={item.isOpened}
+                    viewBox="0 0 35.57 35.53"
+                    width="20"
+                    height="20"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M17.66,23.12l-8.5-8.5a1,1,0,0,1,0-1.42,1,1,0,0,1,1.41,0l7.09,7.09,7.08-7.09a1,1,0,0,1,1.41,0,1,1,0,0,1,0,1.42Z"
+                    />
+                  </Arrow>
+                </ShowChildrenButton>
+              )}
+            </MenuItemContainer>
+            {item.content && (
+              <div>{this.buildMenu(item.content, item.isOpened)}</div>
             )}
-          </MenuItemContainer>
-          {item.content && (
-            <div>{this.buildMenu(item.content, item.isOpened)}</div>
-          )}
-        </ListItem>
-      ))}
+          </ListItem>
+        )
+      })}
     </UlMenu>
   )
 
