@@ -3,8 +3,10 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 import { MenuItem } from './MenuItem'
 import MenuHeader from './MenuHeader'
-import buildMenuModel from './BuildMenuModel'
 import DesignerKitLink from '../DesignerKitLink'
+import withSiteMapData from '../SiteMapData'
+import { StaticQuery, graphql } from 'gatsby'
+import { parseLocation } from '../SiteMapData/tools'
 
 const MenuItemContainer = styled.div`
   display: flex;
@@ -65,24 +67,16 @@ const ListItem = styled.li`
     `}
 `
 
-export default class Menu extends Component {
+class Menu extends Component {
   static propTypes = {
-    data: PropTypes.shape({}).isRequired,
     siteTitle: PropTypes.string.isRequired,
   }
 
   constructor(props) {
     super(props)
 
-    const currentPath =
-      (this.props.location && this.props.location.pathname) || ''
-
     this.state = {
-      menuArray: buildMenuModel(
-        this.props.data.allMdx.edges,
-        this.props.data.directoryTree.childrenNode,
-        currentPath
-      ),
+      menuArray: parseLocation(this.props.siteMapData, this.props.location),
     }
   }
 
@@ -93,8 +87,8 @@ export default class Menu extends Component {
           item.isOpened = true
         }
 
-        if (item.children && item.children.length > 0) {
-          item.children = setOpenItems(item.children)
+        if (item.content && item.content.length > 0) {
+          item.content = setOpenItems(item.content)
         }
 
         return item
@@ -110,8 +104,8 @@ export default class Menu extends Component {
           item.isOpened = false
         }
 
-        if (item.children && item.children.length > 0) {
-          item.children = setCloseItem(item.children)
+        if (item.content && item.content.length > 0) {
+          item.content = setCloseItem(item.content)
         }
 
         return item
@@ -122,71 +116,96 @@ export default class Menu extends Component {
 
   buildMenu = (menuArray, isOpened = true) => (
     <UlMenu isOpened={isOpened}>
-      {menuArray.map(item => (
-        <ListItem
-          key={item.dirPath}
-          level={item.level}
-          isOpenned={item.isOpened}
-        >
-          <MenuItemContainer>
-            <MenuItem
-              to={item.slug}
-              content={item.title}
-              level={item.level}
-              isPartOfCurrentlocation={item.isPartOfCurrentlocation}
-            />
-            {item.children && (
-              <ShowChildrenButton
-                onClick={
-                  item.isOpened
-                    ? () => this.closeMenu(item.dirPath)
-                    : () => this.openMenu(item.dirPath)
-                }
-              >
-                <Arrow
-                  isOpenned={item.isOpened}
-                  viewBox="0 0 35.57 35.53"
-                  width="20"
-                  height="20"
+      {menuArray.map(item => {
+        return (
+          <ListItem
+            key={item.dirPath}
+            level={item.level}
+            isOpenned={item.isOpened}
+          >
+            <MenuItemContainer>
+              <MenuItem
+                to={item.slug}
+                content={item.title}
+                level={item.level}
+                isPartOfCurrentlocation={item.isPartOfCurrentlocation}
+              />
+              {item.content.length > 0 && (
+                <ShowChildrenButton
+                  onClick={
+                    item.isOpened
+                      ? () => this.closeMenu(item.dirPath)
+                      : () => this.openMenu(item.dirPath)
+                  }
                 >
-                  <path
-                    fill="currentColor"
-                    d="M17.66,23.12l-8.5-8.5a1,1,0,0,1,0-1.42,1,1,0,0,1,1.41,0l7.09,7.09,7.08-7.09a1,1,0,0,1,1.41,0,1,1,0,0,1,0,1.42Z"
-                  />
-                </Arrow>
-              </ShowChildrenButton>
+                  <Arrow
+                    isOpenned={item.isOpened}
+                    viewBox="0 0 35.57 35.53"
+                    width="20"
+                    height="20"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M17.66,23.12l-8.5-8.5a1,1,0,0,1,0-1.42,1,1,0,0,1,1.41,0l7.09,7.09,7.08-7.09a1,1,0,0,1,1.41,0,1,1,0,0,1,0,1.42Z"
+                    />
+                  </Arrow>
+                </ShowChildrenButton>
+              )}
+            </MenuItemContainer>
+            {item.content && (
+              <div>{this.buildMenu(item.content, item.isOpened)}</div>
             )}
-          </MenuItemContainer>
-          {item.children && (
-            <div>{this.buildMenu(item.children, item.isOpened)}</div>
-          )}
-        </ListItem>
-      ))}
+          </ListItem>
+        )
+      })}
     </UlMenu>
   )
 
   render() {
-    const { siteTitle, data } = this.props
+    const { siteTitle } = this.props
 
     return (
-      <Container>
-        <MenuHeader
-          siteTitle={siteTitle}
-          githubReleases={data.allGithubRelease.edges}
-        />
-        <NavContainer>
-          {this.buildMenu(this.state.menuArray, true)}
+      <StaticQuery
+        query={query}
+        render={data => {
+          return (
+            <Container>
+              <MenuHeader
+                siteTitle={siteTitle}
+                githubReleases={data.allGithubRelease.edges}
+              />
+              <NavContainer>
+                {this.buildMenu(this.state.menuArray, true)}
 
-          <DesignerKitLink
-            target="_blank"
-            rel="noopener noreferrer"
-            className="button__menu button button--secondary"
-            title="Download the IU kit"
-          >
-            Download the design kit
-          </DesignerKitLink>
-        </NavContainer>
-      </Container>
+                <DesignerKitLink
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button__menu button button--secondary"
+                  title="Download the IU kit"
+                >
+                  Download the design kit
+                </DesignerKitLink>
+              </NavContainer>
+            </Container>
+          )
+        }}
+      />
     )
   }
 }
+
+export default withSiteMapData({ Component: Menu })
+
+const query = graphql`
+  query AllGitReleasesQuery {
+    allGithubRelease {
+      edges {
+        node {
+          tagName
+          url
+          isCurrent
+        }
+      }
+    }
+  }
+`
