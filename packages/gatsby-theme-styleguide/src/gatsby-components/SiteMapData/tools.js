@@ -27,7 +27,6 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
       accumPath += '/' + lookingPath
       accumPath = accumPath.replace('//', '/')
 
-      // const pathFiltered = accumPath.replace('docs', '')
       // does this path already exist in lookingArray?
       pathObj = findAlreadyCreatedPathObj(lookingArray, accumPath)
       if (!pathObj) {
@@ -41,8 +40,6 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
           order,
           type: 'directory',
           content: [],
-          // isOpened: location.includes(pathFiltered),
-          // isPartOfCurrentlocation: location.includes(pathFiltered),
         }
         lookingArray.push(pathObj)
       }
