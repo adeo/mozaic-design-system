@@ -1,6 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import Highlight, { defaultProps } from 'prism-react-renderer'
+
+import Code from '../Code'
 
 import IconLibrairy from '../IconLibrairy'
 
@@ -33,59 +34,7 @@ const CodeButton = styled.button`
   margin-bottom: -1px;
   padding: 5px 16px;
 `
-const Preformated = styled.pre`
-  max-width: 100%;
-  overflow: auto;
-  margin: 0 !important;
-  white-space: pre-wrap;
-  border: none !important;
 
-  ${({ fullScreen }) =>
-    !fullScreen &&
-    css`
-      max-height: ${({ isOpen }) => (isOpen ? `50vh` : `10vh`)};
-    `}
-
-  ${({ fullScreen }) =>
-    fullScreen &&
-    css`
-      width: 100%;
-      max-height: none;
-      overflow: none;
-
-      code {
-        overflow: none;
-      }
-    `};
-`
-
-const Body = styled.div`
-  flex: 1;
-  overflow: auto;
-  position: relative;
-  border-left: solid 1px #ececec;
-
-  ${({ fullScreen }) =>
-    !fullScreen &&
-    css`
-      border-right: solid 1px #ececec;
-    `}
-`
-
-const CopyButton = styled.button`
-  width: 1.5rem;
-  height: 1.5rem;
-  box-sizing: border-box;
-  cursor: pointer;
-  background: rgb(42, 39, 52);
-  box-shadow: none;
-  border: none;
-  position: absolute;
-  right: 1.1rem;
-  top: 6px;
-  outline: none;
-  z-index: 1000;
-`
 const Footer = styled.div`
   background: #f5f5f5;
   color: #554f52;
@@ -110,41 +59,30 @@ const OpenButton = styled.button`
   outline: none;
 `
 
-const LineNumbered = styled.div`
-  &:before {
-    content: ${({ ln }) => `"${ln}"`};
-    display: inline-block;
-    width: 3em;
-    overflow: hidden;
-    font-size: 0.8em;
-  }
-`
+const Body = styled.div`
+  flex: 1;
+  overflow: auto;
+  position: relative;
+  border-left: solid 1px #ececec;
 
-const CodeHilight = ({ code, language, fullScreen, isOpen }) => (
-  <Highlight
-    {...defaultProps}
-    code={code}
-    language={language}
-    theme={undefined}
-  >
-    {({ className, style, tokens, getLineProps, getTokenProps }) => (
-      <Preformated
-        isOpen={isOpen}
-        fullScreen={fullScreen}
-        className={className}
-        style={style}
-      >
-        {tokens.map((line, i) => (
-          <LineNumbered ln={i} {...getLineProps({ line, key: i })}>
-            {line.map((token, key) => (
-              <span {...getTokenProps({ token, key })} />
-            ))}
-          </LineNumbered>
-        ))}
-      </Preformated>
-    )}
-  </Highlight>
-)
+  ${({ fullScreen }) =>
+    !fullScreen &&
+    css`
+      max-height: ${({ isOpen }) => (isOpen ? `50vh` : `10vh`)};
+    `}
+
+  ${({ fullScreen }) =>
+    fullScreen &&
+    css`
+      width: 100%;
+      max-height: none;
+      overflow: none;
+
+      code {
+        overflow: none;
+      }
+    `};
+`
 
 const PreviewCodeSample = ({
   preview,
@@ -171,26 +109,12 @@ const PreviewCodeSample = ({
           </CodeButton>
         ))}
       </CodeButtonWrapper>
-
-      <Body fullScreen={fullScreen}>
-        {copyCompatible && (
-          <CopyButton onClick={copyCodeToClipBoard}>
-            {copied ? (
-              <IconLibrairy name="checked" size="16" fill="#ececec" />
-            ) : (
-              <IconLibrairy name="copy" size="16" fill="#ececec" />
-            )}
-          </CopyButton>
-        )}
-        {currentCodeSample && (
-          <CodeHilight
-            fullScreen={fullScreen}
-            code={preview[currentCodeSample]}
-            language={getLanguage(currentCodeSample)}
-            isOpen={open}
-          />
-        )}
+      <Body fullScreen={fullScreen} isOpen={open}>
+        <Code className={currentCodeSample} copy={true} fullScreen={fullScreen}>
+          {preview[currentCodeSample]}
+        </Code>
       </Body>
+
       {!fullScreen && (
         <Footer>
           <OpenButton onClick={() => showMore()}>

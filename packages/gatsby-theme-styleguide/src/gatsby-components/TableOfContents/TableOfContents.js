@@ -1,24 +1,9 @@
 import React, { PureComponent } from 'react'
 
+import copyToClipBoard from '../../utils/copy-to-clipboard'
 import './tableofcontents.scss'
 
 export default class TableOfContents extends PureComponent {
-  constructor(props) {
-    super(props)
-    this.state = {
-      copyCompatible: false,
-    }
-  }
-  isClipBoardAPIAvailable = () => {
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: 'clipboard-write' }).then(result => {
-        if (result.state === 'granted' || result.state === 'prompt') {
-          this.setState({ copyCompatible: true })
-        }
-      })
-    }
-  }
-
   getPageTabsHeight = () => {
     const pageTabs = document.querySelector('#page_tabs_menu')
     return pageTabs ? pageTabs.offsetHeight + 5 : 0
@@ -45,14 +30,7 @@ export default class TableOfContents extends PureComponent {
     return false
   }
 
-  copyToClipBoard = val => {
-    if (this.state.copyCompatible) {
-      navigator.clipboard.writeText(val)
-    }
-  }
-
   componentDidMount() {
-    this.isClipBoardAPIAvailable()
     const pageTabsHeight = this.getPageTabsHeight()
     const tocDiv = document.querySelector('#toc > div')
     if (tocDiv) tocDiv.style.top = pageTabsHeight + 'px'
@@ -68,7 +46,7 @@ export default class TableOfContents extends PureComponent {
       elem.title = 'Click to copy the link'
       elem.addEventListener('click', e => {
         e.preventDefault()
-        this.copyToClipBoard(e.currentTarget.href)
+        copyToClipBoard(e.currentTarget.href)
       })
     })
   }

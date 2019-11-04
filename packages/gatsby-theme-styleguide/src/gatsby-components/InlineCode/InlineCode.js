@@ -2,35 +2,34 @@ import styled from 'styled-components'
 import React from 'react'
 import copyToClipboard from '../../utils/copy-to-clipboard'
 
-const Info = styled.div`
-  width: 100%;
-  padding: 3px 5px;
-  font-size: 10px;
-  color: #999;
-  line-height: 2em;
-  cursor: pointer;
+const Info = styled.span`
   position: relative;
+  padding: 1px 5px 2px;
+  font-size: 12px;
+  background-color: #eff0f1;
+  line-height: 1.2;
+  cursor: pointer;
   box-sizing: border-box;
-
-  &:not(:last-child) {
-    border-bottom: solid 1px #f5f5f5;
-  }
+  font-family: 'LeroyMerlin', sans-serif;
+  border-radius: 2px;
 `
 
-const Copied = styled.div`
+const Copied = styled.span`
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 2px 2px 0 0;
+  font-size: 12px;
+  line-height: 2em;
   position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #f5f5f5;
-  background: #999;
-  border-radius: 3px;
-  padding: 3px;
-  line-height: 1;
-  font-size: 9px;
+  font-size: 12px;
+  background-color: #999;
+  color: #fff;
+  bottom: 100%;
+  left: 0;
+  font-family: 'LeroyMerlin', sans-serif;
 `
 
-class Copy extends React.Component {
+class InlineCode extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -60,4 +59,4 @@ class Copy extends React.Component {
   }
 }
 
-export default Copy
+export default InlineCode

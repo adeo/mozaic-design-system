@@ -21,7 +21,6 @@ const iconList = iconDir.children.map(icon => {
     .replace('static/', '/')
     .replace('\\\\', '/')
     .replace('\\', '/')
-  console.log(fullpath)
 
   return {
     cat,
