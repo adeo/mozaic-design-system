@@ -31,7 +31,6 @@ const query = graphql`
             title
             order
             description
-            image
           }
           fields {
             slug
