@@ -1,12 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 export default ({ data }) => {
   return (
     <>
-      <style
-        dangerouslySetInnerHTML={{ __html: data.preview.codes.css }}
-      ></style>
+      <Helmet>
+        <title type="text/css">{data.preview.path}</title>
+        <style type="text/css">{data.preview.codes.css}</style>
+      </Helmet>
       <div dangerouslySetInnerHTML={{ __html: data.preview.codes.html }}></div>
     </>
   )

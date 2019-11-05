@@ -121,7 +121,7 @@ export class PreviewFrame extends PureComponent {
     const { viewport, viewPorts, availableWidth, fullScreen, grid } = this.props
     const iframeSrc =
       this.props.data.node.path && this.state.location
-        ? `${this.state.location.hostname}/${this.props.data.node.path}`
+        ? `${this.state.location.origin}/${this.props.data.node.path}`
         : ''
     if (this.props.data === undefined) {
       return <div />
