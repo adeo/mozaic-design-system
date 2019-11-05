@@ -16,7 +16,6 @@ The mozaic postCSS plugins contains :
 - **stylelint:** a powerfull linter for preprocessor languages
 - **nodeSass:** compile SCSS into css
 - **autoprefixer:** automatically add browser prefixes
-- **mqpacker:** regroup all media-queries contents
 - **postcss-base64:** url encode svg in css
 - **cssnano:** optimize and minify the CSS code
 
@@ -39,17 +38,19 @@ module.exports = {
 ```js
 /*... your imports */
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const scssSyntax = require('postcss-scss')
 
 /*... your webpack config */
 ...
 {
-  test: /\.css$/,
+  test: /\.scss$/,
   use: [
     'style-loader',
     'css-loader',
     {
       loader: 'postcss-loader',
       options: {
+        syntax: scssSyntax,
         plugins: pluginList
       }
     }
@@ -84,20 +85,28 @@ npm install -D postcss-loader
 After installing `postcss-loader`, configure the file `vue.config.js` this way:
 
 ```js
-const postcssPluginConfig = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const scssSyntax = require('postcss-scss')
 
 module.exports = {
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPluginConfig,
-      },
-    },
+  chainWebpack: config => {
+    // remove the old loader
+    config.module.rules.delete('css')
+
+    // define the new one with mozaic config
+    config.module
+      .rule('css')
+      .test(/\.scss$/)
+      .use('vue-style-loader')
+      .loader('postcss-loader')
+      .tap(() => ({
+          syntax: scssSyntax,
+          plugins: pluginList,
+        })
+      })
   },
 }
 ```
-
-Due to the fact that you are using **PostCSS**, you must **remove** the `lang="sass"` attribute on style tags.
 
 ## Compiling for production
 
