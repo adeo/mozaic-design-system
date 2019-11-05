@@ -73,6 +73,7 @@ const Frame = styled.iframe`
   width: 100%;
   margin: 0;
   padding: 0;
+  min-height: 300px;
 `
 
 const ToggleOptions = styled.button`
@@ -102,6 +103,10 @@ export class PreviewFrame extends PureComponent {
     }
   }
 
+  componentDidMount = () => {
+    this.setState({ location: window.location })
+  }
+
   iframeCSS = () => `
     body, html {
       margin :0;
@@ -111,48 +116,13 @@ export class PreviewFrame extends PureComponent {
     }
   `
 
-  componentDidMount() {
-    this.updateIframe()
-  }
-
-  updateIframe = () => {
-    const preview = this.props.data.node.codes
-    const iframe = this.refs.iframe
-    const document = iframe.contentDocument
-    const head = document.getElementsByTagName('head')[0]
-    const style = document.createElement('style')
-
-    if (preview.js) {
-      const js = document.createElement('script')
-      js.innerHTML = preview.js
-      head.appendChild(js)
-    }
-
-    if (preview.css) {
-      style.innerHTML = `
-        ${this.iframeCSS()}
-        ${preview.css}
-      `
-    } else {
-      style.innerHTML = this.iframeCSS()
-    }
-
-    head.appendChild(style)
-
-    document.body.innerHTML =
-      preview.html !== undefined ? preview.html : 'No html'
-    document.body.style.margin = 0
-
-    this.setState({
-      iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
-      r: this.props.r,
-    })
-  }
-
   render() {
     const { iframeHeight } = this.state
     const { viewport, viewPorts, availableWidth, fullScreen, grid } = this.props
-
+    const iframeSrc =
+      this.props.data.node.path && this.state.location
+        ? `${this.state.location.origin}/${this.props.data.node.path}`
+        : ''
     if (this.props.data === undefined) {
       return <div />
     }
@@ -166,7 +136,7 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+          <Frame frameBorder="0" height={iframeHeight} src={iframeSrc} />
         </FrameContainer>
         {!this.props.nude && (
           <ViewportInfos>
@@ -192,7 +162,7 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+          <Frame frameBorder="0" height={iframeHeight} src={iframeSrc} />
         </FrameContainer>
         {!this.props.fullScreen && (
           <ToggleOptions onClick={this.props.toggleOptions}>

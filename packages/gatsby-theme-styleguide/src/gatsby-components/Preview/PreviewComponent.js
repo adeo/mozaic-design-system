@@ -127,7 +127,6 @@ export class PreviewComponent extends PureComponent {
     } = this.props
 
     const { currentCodeSample, copied, copyCompatible } = this.state
-
     if (this.props.data === undefined) {
       return <div />
     }
