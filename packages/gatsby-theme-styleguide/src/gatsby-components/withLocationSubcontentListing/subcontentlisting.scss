@@ -1,0 +1,61 @@
+.subcontentlisting {
+  font-size: 1.4rem;
+  min-width: 550px;
+
+  li + li {
+    margin-top: 0.9rem;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    > li {
+      padding-left: 37px;
+    }
+
+    ul {
+      font-size: 0.8em;
+
+      li + li {
+        margin-top: 0.5em;
+      }
+    }
+  }
+
+  &_link {
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 12px;
+    width: 100%;
+  }
+
+  &_title,
+  &_image,
+  &_description {
+    float: left;
+  }
+
+  &_title,
+  &_description {
+    min-width: 60%;
+  }
+
+  &_description {
+    color: #979797;
+    font-size: 0.75rem;
+    margin: 0 0 12px 0;
+  }
+
+  &_title + &_description {
+    margin-top: 10px;
+  }
+
+  &_image {
+    width: 122px;
+    height: 84px !important;
+    margin-right: 15px;
+  }
+}

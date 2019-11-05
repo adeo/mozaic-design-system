@@ -30,6 +30,8 @@ const query = graphql`
           frontmatter {
             title
             order
+            description
+            image
           }
           fields {
             slug

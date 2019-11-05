@@ -13,6 +13,7 @@ import Hint, { HintItem } from '../gatsby-components/Hint'
 import IconViewer from '../gatsby-components/IconViewer'
 import Code from '../gatsby-components/Code'
 import InlineCode from '../gatsby-components/InlineCode'
+import withLocationSubcontentListing from '../gatsby-components/withLocationSubcontentListing'
 
 const shortcodes = {
   Color,
@@ -47,6 +48,7 @@ const MenuContainer = styled.nav`
 const Layout = ({ children, location }) => {
   const Preview = withLocationPreview(location)
   shortcodes.Preview = Preview
+  shortcodes.SubcontentListing = withLocationSubcontentListing(location)
 
   return (
     <StaticQuery

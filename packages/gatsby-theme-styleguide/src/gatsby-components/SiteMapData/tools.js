@@ -16,7 +16,7 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
     pathArray.pop()
     const level = pathArray.length
 
-    const { title, order } = mdxElem.frontmatter
+    const { title, order, description, image } = mdxElem.frontmatter
 
     let pathObj,
       // "lookinArray" starts being "finalArray" and becomes "content" property according to the loop
@@ -38,6 +38,8 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
           level,
           title,
           order,
+          description,
+          image,
           type: 'directory',
           content: [],
         }
