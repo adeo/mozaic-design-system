@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import withSiteMapData from '../SiteMapData'
 
-import './subcontentlisting.scss'
+import './subcontents.scss'
 
 // simple function to build the content HTML structure
 const subcontentHtmlList = (content = []) => {
@@ -15,9 +15,7 @@ const subcontentHtmlList = (content = []) => {
     let image
     try {
       image = require(`../../../../../src/${dirPath}/preview.png`)
-      image = (
-        <img className="subcontentlisting_image" src={image} alt={title} />
-      )
+      image = <img className="subcontents_image" src={image} alt={title} />
     } catch (e) {
       image = false
     }
@@ -25,7 +23,7 @@ const subcontentHtmlList = (content = []) => {
     const content = subcontentHtmlList(siteMapItem.content)
     if (description) {
       description = (
-        <p className="subcontentlisting_description">
+        <p className="subcontents_description">
           {description.substring(0, 240)}
         </p>
       )
@@ -33,9 +31,9 @@ const subcontentHtmlList = (content = []) => {
 
     return (
       <li key={slug}>
-        <Link className="subcontentlisting_link" to={slug}>
+        <Link className="subcontents_link" to={slug}>
           {image}
-          <span className="subcontentlisting_title">{title}</span>
+          <span className="subcontents_title">{title}</span>
           {description}
         </Link>
         {content}
@@ -45,7 +43,7 @@ const subcontentHtmlList = (content = []) => {
   return <ul>{items}</ul>
 }
 
-const SubcontentListing = props => {
+const SubContents = props => {
   const replaceSlashesRegex = /^\/|\/$/g
 
   const { siteMapData } = props
@@ -73,11 +71,11 @@ const SubcontentListing = props => {
 
   const subcontentItems = subcontentHtmlList(currentElement)
 
-  return <div className="subcontentlisting">{subcontentItems}</div>
+  return <div className="subcontents">{subcontentItems}</div>
 }
 
 const withLocation = location => {
-  const WithSiteMapData = withSiteMapData({ Component: SubcontentListing })
+  const WithSiteMapData = withSiteMapData({ Component: SubContents })
   return props => <WithSiteMapData location={location} {...props} />
 }
 
