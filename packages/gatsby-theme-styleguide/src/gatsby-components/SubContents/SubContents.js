@@ -1,23 +1,32 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import withSiteMapData from '../SiteMapData'
 
 import './subcontents.scss'
 
 // simple function to build the content HTML structure
-const subcontentHtmlList = (content = []) => {
+const subcontentHtmlList = (content = [], allPreviewsImgs = []) => {
   if (!content.length) {
     return false
   }
   const items = content.map(siteMapItem => {
     const { title, slug, dirPath } = siteMapItem
     let { description = '' } = siteMapItem
-    let image
-    try {
-      image = require(`../../../../../src/${dirPath}/preview.png`)
-      image = <img className="subcontents_image" src={image} alt={title} />
-    } catch (e) {
-      image = false
+
+    // Is there a "preview.png" file for this "siteMapItem"?
+    const previewImg = allPreviewsImgs.find(
+      elem => elem.node.relativePath === dirPath + '/preview.png'
+    )
+    let image = false
+    if (previewImg) {
+      image = (
+        <img
+          className="subcontents_image"
+          src={previewImg.node.publicURL}
+          alt={title}
+        />
+      )
     }
 
     const content = subcontentHtmlList(siteMapItem.content)
@@ -46,7 +55,7 @@ const subcontentHtmlList = (content = []) => {
 const SubContents = props => {
   const replaceSlashesRegex = /^\/|\/$/g
 
-  const { siteMapData } = props
+  const { siteMapData, allPreviewsImgs } = props
   let {
     location: { pathname },
   } = props
@@ -69,14 +78,38 @@ const SubContents = props => {
     }
   })
 
-  const subcontentItems = subcontentHtmlList(currentElement)
+  const subcontentItems = subcontentHtmlList(currentElement, allPreviewsImgs)
 
   return <div className="subcontents">{subcontentItems}</div>
 }
 
+const SubContentsWithQuery = props => {
+  return (
+    <StaticQuery
+      query={query}
+      render={data => (
+        <SubContents allPreviewsImgs={data.allFile.edges} {...props} />
+      )}
+    />
+  )
+}
+
 const withLocation = location => {
-  const WithSiteMapData = withSiteMapData({ Component: SubContents })
+  const WithSiteMapData = withSiteMapData({ Component: SubContentsWithQuery })
   return props => <WithSiteMapData location={location} {...props} />
 }
 
 export default withLocation
+
+const query = graphql`
+  query previewImgs {
+    allFile(filter: { extension: { eq: "png" }, name: { eq: "preview" } }) {
+      edges {
+        node {
+          publicURL
+          relativePath
+        }
+      }
+    }
+  }
+`
