@@ -10,7 +10,7 @@
     @include set-font-scale('11');
   }
 
-  @include set-from-screen('l-medium') {
+  @include set-from-screen('xl-medium') {
     @include set-font-scale('12');
   }
 
@@ -29,7 +29,7 @@
       @include set-line-height('11', 's');
     }
 
-    @include set-from-screen('l-medium') {
+    @include set-from-screen('xl-medium') {
       @include set-line-height('12', 's');
     }
   }
