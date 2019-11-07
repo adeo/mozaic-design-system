@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
+
+
+### Bug Fixes
+
+* **chore/ci:** rename sketch files with non ascii names ([#414](https://github.com/adeo/mozaic-design-system/issues/414)) ([c835d03](https://github.com/adeo/mozaic-design-system/commit/c835d03cfe0605feb4ab0f2107bc8e3903a7adca))
+
+
+### Features
+
+* **pattern/colors:** create status colors and rename campus classes into primary 02 ([#395](https://github.com/adeo/mozaic-design-system/issues/395)) ([ede011d](https://github.com/adeo/mozaic-design-system/commit/ede011d563545ef8294726934084a1440acbc5a5))
+
+
+
+
+
 ## [1.0.1-alpha.24](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
 
 
