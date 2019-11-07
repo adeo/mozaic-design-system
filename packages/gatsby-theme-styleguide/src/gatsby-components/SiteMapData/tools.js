@@ -16,7 +16,7 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
     pathArray.pop()
     const level = pathArray.length
 
-    const { title, order, description, image } = mdxElem.frontmatter
+    const { title, order, description } = mdxElem.frontmatter
 
     let pathObj,
       // "lookinArray" starts being "finalArray" and becomes "content" property according to the loop
@@ -39,7 +39,6 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
           title,
           order,
           description,
-          image,
           type: 'directory',
           content: [],
         }
@@ -88,5 +87,7 @@ export const parseLocation = (siteMapArray, location = '') => {
     })
   }
 
-  return parseLocationRecursively(siteMapArray)
+  const result = parseLocationRecursively(siteMapArray)
+
+  return result
 }

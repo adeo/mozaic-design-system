@@ -5,91 +5,94 @@ import withSiteMapData from '../SiteMapData'
 
 import './subcontents.scss'
 
+const MainItem = ({ children, slug, thumbNail, title, description }) => (
+  <li key={slug}>
+    <Link className="subcontents__link" to={slug}>
+      {thumbNail && (
+        <div className="subcontents__thumbnail">
+          <img src={thumbNail.node.publicURL} alt={title} />
+        </div>
+      )}
+      <p className="subcontents__body">
+        <span className="subcontents__title">{title}</span>
+        {description && (
+          <p className="subcontents__description">
+            {description.substring(0, 240)}
+          </p>
+        )}
+      </p>
+    </Link>
+    {children}
+  </li>
+)
+
+const SubItem = ({ slug, title, description }) => (
+  <Link to={slug} className="subcontents__submenu-item">
+    <span className="subcontents__title">{title}</span>
+    {description && (
+      <p className="subcontents__description">
+        {description.substring(0, 240)}
+      </p>
+    )}
+  </Link>
+)
+
 // simple function to build the content HTML structure
 const subcontentHtmlList = (content = [], allPreviewsImgs = [], level = 0) => {
-  if (!content.length) {
-    return false
-  }
   const items = content.map(siteMapItem => {
-    const { title, slug, dirPath } = siteMapItem
-    let { description = '' } = siteMapItem
+    const { title, slug, dirPath, description } = siteMapItem
 
     // Is there a "preview.png" file for this "siteMapItem"?
-    const previewImg = allPreviewsImgs.find(
-      elem => elem.node.relativePath === dirPath + '/preview.png'
+    const thumbNail = allPreviewsImgs.find(
+      elem => elem.node.relativePath === dirPath + '/thumbnail.png'
     )
-    let image = false
-    if (previewImg && !level) {
-      image = (
-        <img
-          className="subcontents_image"
-          src={previewImg.node.publicURL}
-          alt={title}
-        />
-      )
-    }
-    const content = subcontentHtmlList(siteMapItem.content, allPreviewsImgs, 1)
-    if (description) {
-      description = (
-        <p className="subcontents_description">
-          {description.substring(0, 240)}
-        </p>
-      )
-    }
 
-    // SubItem
-    if (level) {
-      return (
-        <Link to={slug} className="subcontents_submenu_item">
-          <span className="subcontents_title">{title}</span>
-          {description}
-        </Link>
-      )
-    }
+    const children = !!siteMapItem.content.length
+      ? subcontentHtmlList(siteMapItem.content, allPreviewsImgs, 1)
+      : null
 
     // Main item
-    return (
-      <li key={slug}>
-        <Link className="subcontents_link" to={slug}>
-          {image}
-          <p className="subcontents_titlendescriptionwrapper">
-            <span className="subcontents_title">{title}</span>
-            {description}
-          </p>
-        </Link>
-        {content}
-      </li>
+    return !level ? (
+      <MainItem
+        title={title}
+        slug={slug}
+        thumbNail={thumbNail}
+        description={description}
+      >
+        {children}
+      </MainItem>
+    ) : (
+      <SubItem title={title} slug={slug} description={description}></SubItem>
     )
   })
 
   if (level) {
-    return <div className="subcontents_submenu_wrapper">{items}</div>
+    return <div className="subcontents__submenu-wrapper">{items}</div>
   }
 
   return <ul>{items}</ul>
 }
 
-const SubContents = props => {
+const SubContents = ({ siteMapData, allPreviewsImgs, location }) => {
   const replaceSlashesRegex = /^\/|\/$/g
 
-  const { siteMapData, allPreviewsImgs } = props
-  let {
-    location: { pathname },
-  } = props
-  pathname = pathname.replace(replaceSlashesRegex, '').split('/')
+  const splitPath = location.pathname
+    .replace(replaceSlashesRegex, '')
+    .split('/')
 
   // The element being shown on screen
   let currentElement = siteMapData,
     accumPath = []
 
-  pathname.forEach(path => {
+  splitPath.forEach(path => {
     accumPath.push(path)
-    const foundSiteMapItem = currentElement.find(siteMapItem => {
-      return (
+
+    const foundSiteMapItem = currentElement.find(
+      siteMapItem =>
         siteMapItem.slug.replace(replaceSlashesRegex, '') ===
         accumPath.join('/')
-      )
-    })
+    )
+
     if (foundSiteMapItem && foundSiteMapItem.content) {
       currentElement = foundSiteMapItem.content
     }
@@ -119,8 +122,8 @@ const withLocation = location => {
 export default withLocation
 
 const query = graphql`
-  query previewImgs {
-    allFile(filter: { extension: { eq: "png" }, name: { eq: "preview" } }) {
+  query thumbNails {
+    allFile(filter: { extension: { eq: "png" }, name: { eq: "thumbnail" } }) {
       edges {
         node {
           publicURL
