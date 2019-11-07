@@ -23,8 +23,12 @@ const PageContentWrapper = styled.div`
 `
 
 const PageContent = styled.div`
-  max-width: ${MagicUnit * 52}rem;
+  flex: 1;
   min-width: ${MagicUnit * 30}rem;
+
+  @media screen and (min-width: 1240px) {
+    flex: 0 0 ${MagicUnit * 52}rem;
+  }
 
   ul {
     margin: 20px;

@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 import copyToClipboard from '../../utils/copy-to-clipboard'
 import IconLibrairy from '../IconLibrairy'
-import normalize from './normalize'
 import styled from 'styled-components'
 
 const CopyButton = styled.button`
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
   box-sizing: border-box;
   cursor: pointer;
   background: rgb(42, 39, 52);
@@ -17,10 +16,16 @@ const CopyButton = styled.button`
   right: 1.1rem;
   top: 6px;
   outline: none;
-  z-index: 1000;
+  padding: 0.1rem;
+
+  svg {
+    overflow: visible;
+  }
 `
 
 const LineNumbered = styled.div`
+  min-height: 1em;
+
   &:before {
     display: inline-block;
     width: 3em;
@@ -29,7 +34,7 @@ const LineNumbered = styled.div`
   }
 `
 
-const Preformated = styled.pre`
+const CodeBlock = styled.code`
   max-width: 100%;
   overflow: auto;
   margin: 0 !important;
@@ -39,6 +44,13 @@ const Preformated = styled.pre`
 
 const Wrapper = styled.div`
   position: relative;
+`
+
+const Pre = styled.pre`
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  position: auto !important;
+  padding: 1rem 1rem 0.4rem 1rem !important;
 `
 
 const copyToClipboardClick = (str, toogleCopy) => {
@@ -58,20 +70,22 @@ const CodeHilight = ({ code, language, fullScreen, isOpen }) => (
     theme={undefined}
   >
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
-      <Preformated
-        isOpen={isOpen}
-        fullScreen={fullScreen}
-        className={className}
-        style={style}
-      >
-        {tokens.map((line, i) => (
-          <LineNumbered ln={i} {...getLineProps({ line, key: i })}>
-            {line.map((token, key) => (
-              <span {...getTokenProps({ token, key })} />
-            ))}
-          </LineNumbered>
-        ))}
-      </Preformated>
+      <Pre className={className}>
+        <CodeBlock
+          isOpen={isOpen}
+          fullScreen={fullScreen}
+          className={className}
+          style={style}
+        >
+          {tokens.map((line, i) => (
+            <LineNumbered ln={i} {...getLineProps({ line, key: i })}>
+              {line.map((token, key) => (
+                <span {...getTokenProps({ token, key })} />
+              ))}
+            </LineNumbered>
+          ))}
+        </CodeBlock>
+      </Pre>
     )}
   </Highlight>
 )
@@ -84,7 +98,6 @@ const CodeHilight = ({ code, language, fullScreen, isOpen }) => (
 const Code = ({
   children,
   className = children.props ? children.props.className : ``,
-  copy = true,
   isOpen,
   fullScreen,
 }) => {
@@ -96,26 +109,13 @@ const Code = ({
         .toLowerCase()
     : ''
 
-  const [content] = normalize(
+  const content =
     children.props && children.props.children
       ? children.props.children
-      : children,
-    className
-  )
+      : children
 
   return (
     <Wrapper>
-      <CopyButton
-        onClick={() => {
-          copyToClipboardClick(content, setCopied)
-        }}
-      >
-        {copied ? (
-          <IconLibrairy name="checked" size="16" fill="#ececec" />
-        ) : (
-          <IconLibrairy name="copy" size="16" fill="#ececec" />
-        )}
-      </CopyButton>
       {content && (
         <CodeHilight
           fullScreen={fullScreen}
@@ -125,6 +125,17 @@ const Code = ({
           theme={undefined}
         />
       )}
+      <CopyButton
+        onClick={() => {
+          copyToClipboardClick(content, setCopied)
+        }}
+      >
+        {copied ? (
+          <IconLibrairy name="checked" size="0.8rem" fill="#ececec" />
+        ) : (
+          <IconLibrairy name="copy" size="0.8rem" fill="#ececec" />
+        )}
+      </CopyButton>
     </Wrapper>
   )
 }
