@@ -6,7 +6,7 @@ import withSiteMapData from '../SiteMapData'
 import './subcontents.scss'
 
 // simple function to build the content HTML structure
-const subcontentHtmlList = (content = [], allPreviewsImgs = []) => {
+const subcontentHtmlList = (content = [], allPreviewsImgs = [], level = 0) => {
   if (!content.length) {
     return false
   }
@@ -19,7 +19,7 @@ const subcontentHtmlList = (content = [], allPreviewsImgs = []) => {
       elem => elem.node.relativePath === dirPath + '/preview.png'
     )
     let image = false
-    if (previewImg) {
+    if (previewImg && !level) {
       image = (
         <img
           className="subcontents_image"
@@ -28,8 +28,7 @@ const subcontentHtmlList = (content = [], allPreviewsImgs = []) => {
         />
       )
     }
-
-    const content = subcontentHtmlList(siteMapItem.content)
+    const content = subcontentHtmlList(siteMapItem.content, allPreviewsImgs, 1)
     if (description) {
       description = (
         <p className="subcontents_description">
@@ -38,17 +37,35 @@ const subcontentHtmlList = (content = [], allPreviewsImgs = []) => {
       )
     }
 
+    // SubItem
+    if (level) {
+      return (
+        <Link to={slug} className="subcontents_submenu_item">
+          <span className="subcontents_title">{title}</span>
+          {description}
+        </Link>
+      )
+    }
+
+    // Main item
     return (
       <li key={slug}>
         <Link className="subcontents_link" to={slug}>
           {image}
-          <span className="subcontents_title">{title}</span>
-          {description}
+          <p className="subcontents_titlendescriptionwrapper">
+            <span className="subcontents_title">{title}</span>
+            {description}
+          </p>
         </Link>
         {content}
       </li>
     )
   })
+
+  if (level) {
+    return <div className="subcontents_submenu_wrapper">{items}</div>
+  }
+
   return <ul>{items}</ul>
 }
 
