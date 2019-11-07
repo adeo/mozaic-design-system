@@ -35,7 +35,7 @@
           }
         }
       },
-      "solid-primary-campus": {
+      "solid-primary-02": {
         "background": {
           "value": "{color.primary-02.500.value}"
         },
@@ -105,14 +105,14 @@
       },
       "solid-danger": {
         "background": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "{color.danger.500.value}"
         },
         "font": {
           "value": "{color.grey.000.value}"
         },
         "focus": {
           "border": {
-            "value": "{color.secondary-red.700.value}"
+            "value": "{color.danger.700.value}"
           }
         },
         "disabled": {
@@ -125,12 +125,12 @@
         },
         "active": {
           "background": {
-            "value": "{color.secondary-red.700.value}"
+            "value": "{color.danger.700.value}"
           }
         },
         "hover": {
           "background": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.danger.600.value}"
           },
           "font": {
             "value": "{color.grey.000.value}"
@@ -171,7 +171,7 @@
           }
         }
       },
-      "bordered-primary-campus": {
+      "bordered-primary-02": {
         "background": {
           "value": "{color.grey.000.value}"
         },

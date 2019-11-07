@@ -6,17 +6,17 @@
       },
       "files": {
         "list": {
-          "value":"{color.grey.100.value}"
+          "value": "{color.grey.100.value}"
         },
         "delete": {
-          "value": "{color.grey.200.value}" 
+          "value": "{color.grey.200.value}"
         }
       },
       "valid": {
-        "value": "{color.primary-01.500.value}"
+        "value": "{color.success.500.value}"
       },
       "alert": {
-        "value": "{color.secondary-orange.500.value}"
+        "value": "{color.danger.500.value}"
       }
     }
   }

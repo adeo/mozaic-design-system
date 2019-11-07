@@ -701,6 +701,161 @@ module.exports = {
         ]
       }
     },
+    "secondary-green": {
+      "100": {
+        "value": "#eaf3e2",
+        "original": {
+          "value": "{color.primary-01.100.value}"
+        },
+        "name": "ColorSecondaryGreen100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#cbe3b5",
+        "original": {
+          "value": "{color.primary-01.200.value}"
+        },
+        "name": "ColorSecondaryGreen200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#add585",
+        "original": {
+          "value": "{color.primary-01.300.value}"
+        },
+        "name": "ColorSecondaryGreen300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#91c854",
+        "original": {
+          "value": "{color.primary-01.400.value}"
+        },
+        "name": "ColorSecondaryGreen400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#78be20",
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorSecondaryGreen500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#41a017",
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorSecondaryGreen600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#158110",
+        "original": {
+          "value": "{color.primary-01.700.value}"
+        },
+        "name": "ColorSecondaryGreen700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#0a601b",
+        "original": {
+          "value": "{color.primary-01.800.value}"
+        },
+        "name": "ColorSecondaryGreen800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#053e1f",
+        "original": {
+          "value": "{color.primary-01.900.value}"
+        },
+        "name": "ColorSecondaryGreen900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "secondary-green",
+          "900"
+        ]
+      }
+    },
     "secondary-purple": {
       "100": {
         "value": "#efebfe",
@@ -1321,6 +1476,626 @@ module.exports = {
         ]
       }
     },
+    "danger": {
+      "100": {
+        "value": "#feedee",
+        "original": {
+          "value": "{color.secondary-red.100.value}"
+        },
+        "name": "ColorDanger100",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "danger",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#fab9bc",
+        "original": {
+          "value": "{color.secondary-red.200.value}"
+        },
+        "name": "ColorDanger200",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "danger",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#f38789",
+        "original": {
+          "value": "{color.secondary-red.300.value}"
+        },
+        "name": "ColorDanger300",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "danger",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#ea5d58",
+        "original": {
+          "value": "{color.secondary-red.400.value}"
+        },
+        "name": "ColorDanger400",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "danger",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#df382b",
+        "original": {
+          "value": "{color.secondary-red.500.value}"
+        },
+        "name": "ColorDanger500",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "danger",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#b42a27",
+        "original": {
+          "value": "{color.secondary-red.600.value}"
+        },
+        "name": "ColorDanger600",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "danger",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#8b2226",
+        "original": {
+          "value": "{color.secondary-red.700.value}"
+        },
+        "name": "ColorDanger700",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "danger",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#641b21",
+        "original": {
+          "value": "{color.secondary-red.800.value}"
+        },
+        "name": "ColorDanger800",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "danger",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#3e1219",
+        "original": {
+          "value": "{color.secondary-red.900.value}"
+        },
+        "name": "ColorDanger900",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "danger",
+          "900"
+        ]
+      }
+    },
+    "info": {
+      "100": {
+        "value": "#ecfcfd",
+        "original": {
+          "value": "{color.secondary-blue.100.value}"
+        },
+        "name": "ColorInfo100",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "info",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#b7eef5",
+        "original": {
+          "value": "{color.secondary-blue.200.value}"
+        },
+        "name": "ColorInfo200",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "info",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#84dbeb",
+        "original": {
+          "value": "{color.secondary-blue.300.value}"
+        },
+        "name": "ColorInfo300",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "info",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#54c4de",
+        "original": {
+          "value": "{color.secondary-blue.400.value}"
+        },
+        "name": "ColorInfo400",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "info",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#25a8d0",
+        "original": {
+          "value": "{color.secondary-blue.500.value}"
+        },
+        "name": "ColorInfo500",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "info",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#2282a8",
+        "original": {
+          "value": "{color.secondary-blue.600.value}"
+        },
+        "name": "ColorInfo600",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "info",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#1e5f82",
+        "original": {
+          "value": "{color.secondary-blue.700.value}"
+        },
+        "name": "ColorInfo700",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "info",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#18415d",
+        "original": {
+          "value": "{color.secondary-blue.800.value}"
+        },
+        "name": "ColorInfo800",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "info",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#102739",
+        "original": {
+          "value": "{color.secondary-blue.900.value}"
+        },
+        "name": "ColorInfo900",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "info",
+          "900"
+        ]
+      }
+    },
+    "warning": {
+      "100": {
+        "value": "#fff5eb",
+        "original": {
+          "value": "{color.secondary-orange.100.value}"
+        },
+        "name": "ColorWarning100",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "warning",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#ffdab2",
+        "original": {
+          "value": "{color.secondary-orange.200.value}"
+        },
+        "name": "ColorWarning200",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "warning",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#ffc17d",
+        "original": {
+          "value": "{color.secondary-orange.300.value}"
+        },
+        "name": "ColorWarning300",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "warning",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#ffab4b",
+        "original": {
+          "value": "{color.secondary-orange.400.value}"
+        },
+        "name": "ColorWarning400",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "warning",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#fc961e",
+        "original": {
+          "value": "{color.secondary-orange.500.value}"
+        },
+        "name": "ColorWarning500",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "warning",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#c86f21",
+        "original": {
+          "value": "{color.secondary-orange.600.value}"
+        },
+        "name": "ColorWarning600",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "warning",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#974f20",
+        "original": {
+          "value": "{color.secondary-orange.700.value}"
+        },
+        "name": "ColorWarning700",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "warning",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#6a351c",
+        "original": {
+          "value": "{color.secondary-orange.800.value}"
+        },
+        "name": "ColorWarning800",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "warning",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#401f15",
+        "original": {
+          "value": "{color.secondary-orange.900.value}"
+        },
+        "name": "ColorWarning900",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "warning",
+          "900"
+        ]
+      }
+    },
+    "success": {
+      "100": {
+        "value": "#eaf3e2",
+        "original": {
+          "value": "{color.secondary-green.100.value}"
+        },
+        "name": "ColorSuccess100",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "success",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#cbe3b5",
+        "original": {
+          "value": "{color.secondary-green.200.value}"
+        },
+        "name": "ColorSuccess200",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "success",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#add585",
+        "original": {
+          "value": "{color.secondary-green.300.value}"
+        },
+        "name": "ColorSuccess300",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "success",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#91c854",
+        "original": {
+          "value": "{color.secondary-green.400.value}"
+        },
+        "name": "ColorSuccess400",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "success",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#78be20",
+        "original": {
+          "value": "{color.secondary-green.500.value}"
+        },
+        "name": "ColorSuccess500",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "success",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#41a017",
+        "original": {
+          "value": "{color.secondary-green.600.value}"
+        },
+        "name": "ColorSuccess600",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "success",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#158110",
+        "original": {
+          "value": "{color.secondary-green.700.value}"
+        },
+        "name": "ColorSuccess700",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "success",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#0a601b",
+        "original": {
+          "value": "{color.secondary-green.800.value}"
+        },
+        "name": "ColorSuccess800",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "success",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#053e1f",
+        "original": {
+          "value": "{color.secondary-green.900.value}"
+        },
+        "name": "ColorSuccess900",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "success",
+          "900"
+        ]
+      }
+    },
     "button": {
       "solid": {
         "background": {
@@ -1496,23 +2271,23 @@ module.exports = {
           }
         }
       },
-      "solid-primary-campus": {
+      "solid-primary-02": {
         "background": {
           "value": "#007574",
           "original": {
             "value": "{color.primary-02.500.value}"
           },
-          "name": "ColorButtonSolidPrimaryCampusBackground",
+          "name": "ColorButtonSolidPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "button",
-            "solid-primary-campus",
+            "solid-primary-02",
             "background"
           ]
         },
@@ -1521,17 +2296,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorButtonSolidPrimaryCampusFont",
+          "name": "ColorButtonSolidPrimary02Font",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "font"
           },
           "path": [
             "color",
             "button",
-            "solid-primary-campus",
+            "solid-primary-02",
             "font"
           ]
         },
@@ -1541,18 +2316,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.900.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusFocusBorder",
+            "name": "ColorButtonSolidPrimary02FocusBorder",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "focus",
               "state": "border"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "focus",
               "border"
             ]
@@ -1564,18 +2339,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.100.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusDisabledBackground",
+            "name": "ColorButtonSolidPrimary02DisabledBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "disabled",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "disabled",
               "background"
             ]
@@ -1585,18 +2360,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.500.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusDisabledFont",
+            "name": "ColorButtonSolidPrimary02DisabledFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "disabled",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "disabled",
               "font"
             ]
@@ -1608,18 +2383,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.900.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusActiveBackground",
+            "name": "ColorButtonSolidPrimary02ActiveBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "active",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "active",
               "background"
             ]
@@ -1631,18 +2406,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.800.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusHoverBackground",
+            "name": "ColorButtonSolidPrimary02HoverBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "hover",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "hover",
               "background"
             ]
@@ -1652,18 +2427,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.000.value}"
             },
-            "name": "ColorButtonSolidPrimaryCampusHoverFont",
+            "name": "ColorButtonSolidPrimary02HoverFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "solid-primary-campus",
+              "item": "solid-primary-02",
               "subitem": "hover",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "solid-primary-campus",
+              "solid-primary-02",
               "hover",
               "font"
             ]
@@ -1848,7 +2623,7 @@ module.exports = {
         "background": {
           "value": "#df382b",
           "original": {
-            "value": "{color.secondary-red.500.value}"
+            "value": "{color.danger.500.value}"
           },
           "name": "ColorButtonSolidDangerBackground",
           "attributes": {
@@ -1887,7 +2662,7 @@ module.exports = {
           "border": {
             "value": "#8b2226",
             "original": {
-              "value": "{color.secondary-red.700.value}"
+              "value": "{color.danger.700.value}"
             },
             "name": "ColorButtonSolidDangerFocusBorder",
             "attributes": {
@@ -1954,7 +2729,7 @@ module.exports = {
           "background": {
             "value": "#8b2226",
             "original": {
-              "value": "{color.secondary-red.700.value}"
+              "value": "{color.danger.700.value}"
             },
             "name": "ColorButtonSolidDangerActiveBackground",
             "attributes": {
@@ -1977,7 +2752,7 @@ module.exports = {
           "background": {
             "value": "#b42a27",
             "original": {
-              "value": "{color.secondary-red.600.value}"
+              "value": "{color.danger.600.value}"
             },
             "name": "ColorButtonSolidDangerHoverBackground",
             "attributes": {
@@ -2190,23 +2965,23 @@ module.exports = {
           }
         }
       },
-      "bordered-primary-campus": {
+      "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorButtonBorderedPrimaryCampusBackground",
+          "name": "ColorButtonBorderedPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "button",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "background"
           ]
         },
@@ -2215,17 +2990,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.500.value}"
           },
-          "name": "ColorButtonBorderedPrimaryCampusBorder",
+          "name": "ColorButtonBorderedPrimary02Border",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "border"
           },
           "path": [
             "color",
             "button",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "border"
           ]
         },
@@ -2234,17 +3009,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.500.value}"
           },
-          "name": "ColorButtonBorderedPrimaryCampusFont",
+          "name": "ColorButtonBorderedPrimary02Font",
           "attributes": {
             "category": "color",
             "type": "button",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "font"
           },
           "path": [
             "color",
             "button",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "font"
           ]
         },
@@ -2254,18 +3029,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.900.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusFocusBorder",
+            "name": "ColorButtonBorderedPrimary02FocusBorder",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "focus",
               "state": "border"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "focus",
               "border"
             ]
@@ -2277,18 +3052,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.100.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusDisabledBackground",
+            "name": "ColorButtonBorderedPrimary02DisabledBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "disabled",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "disabled",
               "background"
             ]
@@ -2298,18 +3073,18 @@ module.exports = {
             "original": {
               "value": "{color.grey.500.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusDisabledFont",
+            "name": "ColorButtonBorderedPrimary02DisabledFont",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "disabled",
               "state": "font"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "disabled",
               "font"
             ]
@@ -2321,18 +3096,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.200.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusActiveBackground",
+            "name": "ColorButtonBorderedPrimary02ActiveBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "active",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "active",
               "background"
             ]
@@ -2344,18 +3119,18 @@ module.exports = {
             "original": {
               "value": "{color.primary-02.100.value}"
             },
-            "name": "ColorButtonBorderedPrimaryCampusHoverBackground",
+            "name": "ColorButtonBorderedPrimary02HoverBackground",
             "attributes": {
               "category": "color",
               "type": "button",
-              "item": "bordered-primary-campus",
+              "item": "bordered-primary-02",
               "subitem": "hover",
               "state": "background"
             },
             "path": [
               "color",
               "button",
-              "bordered-primary-campus",
+              "bordered-primary-02",
               "hover",
               "background"
             ]
@@ -2768,7 +3543,7 @@ module.exports = {
       "valid": {
         "value": "#78be20",
         "original": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.success.500.value}"
         },
         "name": "ColorFileuploaderValid",
         "attributes": {
@@ -2783,9 +3558,9 @@ module.exports = {
         ]
       },
       "alert": {
-        "value": "#fc961e",
+        "value": "#df382b",
         "original": {
-          "value": "{color.secondary-orange.500.value}"
+          "value": "{color.danger.500.value}"
         },
         "name": "ColorFileuploaderAlert",
         "attributes": {
@@ -2860,23 +3635,23 @@ module.exports = {
           ]
         }
       },
-      "solid-primary-campus": {
+      "solid-primary-02": {
         "background": {
           "value": "#035f64",
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagSolidPrimaryCampusBackground",
+          "name": "ColorFlagSolidPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "flag",
-            "solid-primary-campus",
+            "solid-primary-02",
             "background"
           ]
         },
@@ -2885,17 +3660,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagSolidPrimaryCampusBorder",
+          "name": "ColorFlagSolidPrimary02Border",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "border"
           },
           "path": [
             "color",
             "flag",
-            "solid-primary-campus",
+            "solid-primary-02",
             "border"
           ]
         },
@@ -2904,17 +3679,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorFlagSolidPrimaryCampusText",
+          "name": "ColorFlagSolidPrimary02Text",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "solid-primary-campus",
+            "item": "solid-primary-02",
             "subitem": "text"
           },
           "path": [
             "color",
             "flag",
-            "solid-primary-campus",
+            "solid-primary-02",
             "text"
           ]
         }
@@ -3155,23 +3930,23 @@ module.exports = {
           ]
         }
       },
-      "bordered-primary-campus": {
+      "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorFlagBorderedPrimaryCampusBackground",
+          "name": "ColorFlagBorderedPrimary02Background",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "background"
           },
           "path": [
             "color",
             "flag",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "background"
           ]
         },
@@ -3180,17 +3955,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagBorderedPrimaryCampusBorder",
+          "name": "ColorFlagBorderedPrimary02Border",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "border"
           },
           "path": [
             "color",
             "flag",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "border"
           ]
         },
@@ -3199,17 +3974,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorFlagBorderedPrimaryCampusText",
+          "name": "ColorFlagBorderedPrimary02Text",
           "attributes": {
             "category": "color",
             "type": "flag",
-            "item": "bordered-primary-campus",
+            "item": "bordered-primary-02",
             "subitem": "text"
           },
           "path": [
             "color",
             "flag",
-            "bordered-primary-campus",
+            "bordered-primary-02",
             "text"
           ]
         }
@@ -3511,6 +4286,74 @@ module.exports = {
           "font",
           "lightest"
         ]
+      },
+      "info": {
+        "value": "#2282a8",
+        "original": {
+          "value": "{color.info.600.value}"
+        },
+        "name": "ColorFontInfo",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "info"
+        },
+        "path": [
+          "color",
+          "font",
+          "info"
+        ]
+      },
+      "success": {
+        "value": "#41a017",
+        "original": {
+          "value": "{color.success.600.value}"
+        },
+        "name": "ColorFontSuccess",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "success"
+        },
+        "path": [
+          "color",
+          "font",
+          "success"
+        ]
+      },
+      "warning": {
+        "value": "#c86f21",
+        "original": {
+          "value": "{color.warning.600.value}"
+        },
+        "name": "ColorFontWarning",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "warning"
+        },
+        "path": [
+          "color",
+          "font",
+          "warning"
+        ]
+      },
+      "danger": {
+        "value": "#b42a27",
+        "original": {
+          "value": "{color.danger.600.value}"
+        },
+        "name": "ColorFontDanger",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "danger"
+        },
+        "path": [
+          "color",
+          "font",
+          "danger"
+        ]
       }
     },
     "input": {
@@ -3668,7 +4511,7 @@ module.exports = {
         "border": {
           "value": "#78be20",
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.success.500.value}"
           },
           "name": "ColorInputValidBorder",
           "attributes": {
@@ -3688,7 +4531,7 @@ module.exports = {
           "border": {
             "value": "#0a601b",
             "original": {
-              "value": "{color.primary-01.800.value}"
+              "value": "{color.success.800.value}"
             },
             "name": "ColorInputValidHoverBorder",
             "attributes": {
@@ -3712,7 +4555,7 @@ module.exports = {
         "border": {
           "value": "#df382b",
           "original": {
-            "value": "{color.secondary-red.500.value}"
+            "value": "{color.danger.500.value}"
           },
           "name": "ColorInputInvalidBorder",
           "attributes": {
@@ -3732,7 +4575,7 @@ module.exports = {
           "border": {
             "value": "#641b21",
             "original": {
-              "value": "{color.secondary-red.800.value}"
+              "value": "{color.danger.800.value}"
             },
             "name": "ColorInputInvalidHoverBorder",
             "attributes": {
@@ -4127,23 +4970,23 @@ module.exports = {
           ]
         }
       },
-      "primary-campus": {
+      "primary-02": {
         "base": {
           "value": "#035f64",
           "original": {
             "value": "{color.primary-02.600.value}"
           },
-          "name": "ColorLinkPrimaryCampusBase",
+          "name": "ColorLinkPrimary02Base",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "base"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "base"
           ]
         },
@@ -4152,17 +4995,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkPrimaryCampusVisited",
+          "name": "ColorLinkPrimary02Visited",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "visited"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "visited"
           ]
         },
@@ -4171,17 +5014,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkPrimaryCampusActive",
+          "name": "ColorLinkPrimary02Active",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "active"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "active"
           ]
         },
@@ -4190,17 +5033,17 @@ module.exports = {
           "original": {
             "value": "{color.grey.100.value}"
           },
-          "name": "ColorLinkPrimaryCampusDisabled",
+          "name": "ColorLinkPrimary02Disabled",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "disabled"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "disabled"
           ]
         },
@@ -4209,17 +5052,17 @@ module.exports = {
           "original": {
             "value": "{color.primary-02.700.value}"
           },
-          "name": "ColorLinkPrimaryCampusHover",
+          "name": "ColorLinkPrimary02Hover",
           "attributes": {
             "category": "color",
             "type": "link",
-            "item": "primary-campus",
+            "item": "primary-02",
             "subitem": "hover"
           },
           "path": [
             "color",
             "link",
-            "primary-campus",
+            "primary-02",
             "hover"
           ]
         }

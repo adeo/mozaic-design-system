@@ -3,28 +3,34 @@ title: 'Colors'
 order: 1
 ---
 
-> LEROY MERLIN offers an adaptive and a scalable color system. These colors have been defined using [HSLA](#hsla) color swatches. The color palette has been divided in three categories : **primary colors**, **secondary colors** and **greys**.
+> Mozaic offers an adaptive and a scalable color system. These colors have been defined using [HSLA](#hsla) color swatches. The color palette has been divided in four categories : **Primary colors**, **Secondary colors** ,**Greys** and **Status colors**.
+
+You will discover that colors are duplicated in some cases. This may seems strange to you, but we need to think about other brands and cultures to allow them to customize the colors.
+
+For example, the success color may not be green in another country, and the primary brand color may not be usable for success with another brand.
+
+**It is why you should take a special care to use the right color variable for the right usage.**
 
 # Primary colors
 
-Primary colors are the brand colors. They are the key components for our users to live and adopt the Leroy Merlin's experience. These are the two primary colors palettes we use in this design system.
+Primary colors are the brand colors. They are the key components for our users to live and adopt the LEROY MERLIN's experience. These are the two primary colors palettes we use in this design system.
 
 > To copy the variables bellow, all you have to do is click on it.
 
 ## Primary 01
 
-The primary green is the essence of the brand **LEROY MERLIN**.
+The primary green is the essence of the **LEROY MERLIN** brand.
 
 <Swatch id="primary-01" />
 
 ## Primary 02
 
-The primary blue is the essence of the sub-brand **LEROY MERLIN Campus**. <br />
+The primary blue is the essence of the sub-brand **LEROY MERLIN Campus**.
 Campus is a brand of leroymerlin.fr dedicated to the inhabitant learning, it provides many DIY online and in-store courses.
 
 <Swatch id="primary-02" />
 
-## Grayscale
+# Greys
 
 We used the same principles to design our greyscale but greys are based on **11 values** swatches. Greys have specific use cases for **UI elements** :
 
@@ -34,33 +40,63 @@ We used the same principles to design our greyscale but greys are based on **11 
 
 <Swatch id="grey" />
 
+# Status colors
+
+Status colors convey various levels of importance for feedback informations, like errors or warning. They can also highlight important informations or tips for the user or inform him that an operation had fail of succeded.
+
+## Info
+
+Used to highlight important information the user should be aware about.
+Should only be used if the information does not represent a threat.
+
+<Swatch id="info" />
+
+## Success
+
+Inform the user that an operation was successful.
+
+<Swatch id="success" />
+
+## Warning
+
+Used to inform abouts risks or threats. It teel the user to be carefull about something.
+
+<Swatch id="warning" />
+
+## Danger
+
+Used to inform user of an error, or that some operation whent wrong.
+
+<Swatch id="danger" />
+
 # Secondary colors
 
-Secondary colors are essential to our designs. We need them in many occasions to accent our primary colors and to deliver a specific message such as discounts and special offers.
+Secondary colors are essential to your design. We need them in many occasions to accent our primary colors and to deliver a specific message such as discounts and special offers. Those guidelines may vary depending on the country and culture you live in.
 
 ## Secondary Blue
 
-Secondary Blue is mostly used for focus or informative contents.
+Secondary Blue is mostly used for focus.
+Use the [info]() swatch to highlight anything related to informational feedback for your users.
 
 <Swatch id="secondary-blue" />
 
-## Secondary Purple
+## Secondary Green
 
-Secondary Purple is used for illustration purposes.
+Secondary Green is for success. In LEROY MERLIN case, it is exacltly the case as the primary-01. But other brands or BU should be able to change that.
 
-<Swatch id="secondary-purple" />
-
-## Secondary Red
-
-Secondary Red is for discounts, alerts and errors.
-
-<Swatch id="secondary-red" />
+<Swatch id="secondary-green" />
 
 ## Secondary Orange
 
-Secondary Orange is for warning.
+Secondary Orange is used for users feedback like the ratings.
 
 <Swatch id="secondary-orange" />
+
+## Secondary Red
+
+Secondary Red is for discounts.
+
+<Swatch id="secondary-red" />
 
 ## Secondary Yellow
 
@@ -68,18 +104,26 @@ Secondary Yellow is for illustrations and special offers.
 
 <Swatch id="secondary-yellow" />
 
+## Secondary Purple
+
+Secondary Purple is used for illustration purposes.
+
+<Swatch id="secondary-purple" />
+
 # Anatomy
 
 In this system, every color has a `dark` and a `light` variant that can be used to adapt to different usages from text to illustrations.
 
 In order to have this flexibility we designed color swatches based on **9 values** for primary and secondary colors. It means that you can use 9 values of the same color to fit your design needs.
 
-> <a name="hsla">HSLA</a> is a way to define colors based on three properties : **Hue**, **Saturation**, **Light** and \*\*Alpha\*\*. We decided to use this standard to have more consistency between colors. It is also easier to relate colors to each other when they are based on HSLA.
+> HSLA is a way to define colors based on three properties : **Hue**, **Saturation**, **Light** and **Alpha**. We decided to use this standard to have more consistency between colors. It is also easier to relate colors to each other when they are based on HSLA.
 
 This system allows the team to have every tint it needs to design every situation. It answers typography problems, illustration needs and it also allows to contrast with deep background colors. Here is an example showing how it works based on our Primary-01 Secondary-Purple colors.
 
 ![Primary-01](Primary-01.jpg)
+
 <br />
+
 ![Primary-02](Primary-02.jpg)
 
 > The design needs to be accessible to everyone and these swatches when combined properly are compliant with color contrast rules for accessibility

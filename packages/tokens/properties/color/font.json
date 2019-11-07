@@ -21,6 +21,18 @@
       },
       "lightest": {
         "value": "{color.grey.000.value}"
+      },
+      "info": {
+        "value": "{color.info.600.value}"
+      },
+      "success": {
+        "value": "{color.success.600.value}"
+      },
+      "warning": {
+        "value": "{color.warning.600.value}"
+      },
+      "danger": {
+        "value": "{color.danger.600.value}"
       }
     }
   }
