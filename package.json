@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@applitools/eyes-selenium": "^4.31.16",
+    "@applitools/eyes-webdriverio": "^5.8.2",
     "@mozaic-ds/gatsby-theme-styleguide": "^1.0.1-alpha",
     "@wdio/applitools-service": "^5.13.2",
     "@wdio/cli": "^5.16.0",
@@ -59,6 +60,7 @@
     "styled-components": "^4.0.2",
     "svgo": "^1.2.1",
     "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.16.3",
     "xstate": "^3.1.0"
   },
   "devDependencies": {

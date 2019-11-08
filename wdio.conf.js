@@ -66,6 +66,9 @@ exports.config = {
     {
       browserName: 'chrome',
       browserVersion: 'latest-1',
+      'goog:chromeOptions': {
+        args: ['--headless', '--disable-gpu'],
+      },
     },
     // {
     //     browserName: 'internet explorer',
@@ -127,15 +130,6 @@ exports.config = {
   services: ['applitools', 'selenium-standalone'],
 
   applitoolsKey: process.env.APPLITOOLS_API_KEY,
-
-  applitools: {
-    appName: 'Mozaic',
-    testName: 'Mozaic Visual Testing',
-    viewport: {
-      width: 1440,
-      height: 900,
-    },
-  },
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
   // see also: https://webdriver.io/docs/frameworks.html

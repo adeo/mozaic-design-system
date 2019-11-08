@@ -1,30 +1,63 @@
-require('dotenv').config()
 const chromedriver = require('chromedriver')
 const { remote } = require('webdriverio')
-const { ClassicRunner, Eyes, Target } = require('@applitools/eyes-webdriverio')
-const { Configuration } = require('@applitools/eyes-selenium')
-const previewsPath = require('./../previewsPath')
+const {
+  By,
+  Eyes,
+  Target,
+  VisualGridRunner,
+  Configuration,
+  BrowserType,
+  DeviceName,
+  ScreenOrientation,
+  BatchInfo,
+} = require('@applitools/eyes-webdriverio')
 
-const runner = new ClassicRunner()
-let eyes = new Eyes(runner)
-const configuration = new Configuration()
+let browser
 
-configuration.setAppName('Mozaic')
-configuration.setApiKey(process.env.APPLITOOLS_API_KEY)
-configuration.setTestName('Visual Testing')
-eyes.setConfiguration(configuration)
-try {
-  previewsPath.forEach(previewPath => {
+describe('Mozaic Visual Testing With Grid', function() {
+  this.timeout(5 * 60 * 1000)
+
+  before(async function() {
+    chromedriver.start()
+  })
+
+  beforeEach(async function() {
+    const chrome = {
+      capabilities: {
+        browserName: 'chrome',
+        'goog:chromeOptions': {},
+      },
+    }
+    browser = await remote(chrome)
+  })
+
+  after(async function() {
+    chromedriver.stop()
+  })
+
+  previewsPath.forEach(async previewPath => {
     it(`creates a screenshot for ${previewPath.split('/').pop()}`, async () => {
-      await eyes.open(browser)
+      await browser.url(`http://localhost:8000/${previewPath}`)
 
-      await browser.url(`/${previewPath}`)
+      const eyes = new Eyes(new VisualGridRunner(3))
+      eyes.setBatch(new BatchInfo('EyesRenderingBatch_WDIO'))
+
+      const configuration = new Configuration()
+      configuration.setTestName('Open Concurrency with Batch 2')
+      configuration.setAppName('RenderingGridIntegration')
+      configuration.addBrowser(800, 600, BrowserType.CHROME)
+      configuration.addBrowser(800, 600, BrowserType.FIREFOX)
+      configuration.addBrowser(800, 600, BrowserType.IE_11)
+
+      eyes.setConfiguration(configuration)
+
+      await eyes.open(browser)
 
       await eyes.check(`${previewPath.split('/').pop()}`, Target.window())
 
-      await eyes.closeAsync()
+      await eyes.getRunner().getAllTestResults(false)
+
+      await browser.deleteSession()
     })
   })
-} finally {
-  eyes.abortIfNotClosed()
-}
+})

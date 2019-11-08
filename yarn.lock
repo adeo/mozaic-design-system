@@ -56,7 +56,7 @@
     "@applitools/eyes-sdk-core" "^5.20.4"
     "@applitools/visual-grid-client" "^13.2.4"
 
-"@applitools/eyes-webdriverio@^5.7.0":
+"@applitools/eyes-webdriverio@^5.7.0", "@applitools/eyes-webdriverio@^5.8.2":
   version "5.8.2"
   resolved "https://registry.npmjs.org/@applitools/eyes-webdriverio/-/eyes-webdriverio-5.8.2.tgz#1c247ec3e35c045cb9d9fc829e528833458ab98e"
   integrity sha512-sy+1TCQkf4StJVpUuUSqquCSQEWwtC4tjIyqVmDGD5cb/mcZmrtC6fh0ZclGl1PzYBm2NWNrtlapMOQwztyYPQ==
@@ -105,6 +105,26 @@
   version "13.2.5"
   resolved "https://registry.npmjs.org/@applitools/visual-grid-client/-/visual-grid-client-13.2.5.tgz#8857189d26bc151c3b76e169f1b2386bb4851777"
   integrity sha512-zuem0yOP5CnjEn0tsptfqi6fSY2B14O9k6YRBDHcySJACDivep/kZTCkiKDRE4mjNpWkcsFWejcJme1jWaLd8A==
+  dependencies:
+    "@applitools/dom-snapshot" "^3.0.4"
+    "@applitools/eyes-common" "^3.11.2"
+    "@applitools/eyes-sdk-core" "^5.20.4"
+    "@applitools/functional-commons" "^1.5.2"
+    "@applitools/http-commons" "^1.3.9"
+    "@applitools/isomorphic-fetch" "^3.0.0"
+    he "^1.2.0"
+    jsdom "^15.1.1"
+    lodash.mapvalues "^4.6.0"
+    mime-types "^2.1.24"
+    mkdirp "^0.5.1"
+    ndb "^1.1.5"
+    postcss-value-parser "^4.0.2"
+    throat "^5.0.0"
+
+"@applitools/visual-grid-client@^13.2.8":
+  version "13.2.8"
+  resolved "https://registry.npmjs.org/@applitools/visual-grid-client/-/visual-grid-client-13.2.8.tgz#63490a14b9d3163014b8385f87eddd4cd793c699"
+  integrity sha512-uwlYPP6FoEVFcdohY34CE/MglK1qb0HWn0CH/O0ZwS2wuyeuM7aB5YR8yv5TbibbOHIpuHRoMQohChawKFVo3w==
   dependencies:
     "@applitools/dom-snapshot" "^3.0.4"
     "@applitools/eyes-common" "^3.11.2"
@@ -2416,6 +2436,15 @@
   version "5.16.0"
   resolved "https://registry.npmjs.org/@wdio/config/-/config-5.16.0.tgz#6992c8e8912bb04498aea2da6f8c642f6357f9cc"
   integrity sha512-jEcCci6oDJ2FONcvB6DZMnrG+P9kG2QIvDkfn0JY0JH3RNcpcnFZnFi6NXw76wWVsj753KLua3qKlwTeHkeMcw==
+  dependencies:
+    "@wdio/logger" "5.13.2"
+    deepmerge "^4.0.0"
+    glob "^7.1.2"
+
+"@wdio/config@5.16.3":
+  version "5.16.3"
+  resolved "https://registry.npmjs.org/@wdio/config/-/config-5.16.3.tgz#1f05ab175e04d8efbe9b9c03ec5fd8bdb102fae7"
+  integrity sha512-w8W2Sx+ZSetzpDPfKOeVNk3uDfl71Tj+pWHLi5Ixi5GdHJmFyF5TumfxsqtE2+a8twd6Z7IOKe3uFaoc6B7l5Q==
   dependencies:
     "@wdio/logger" "5.13.2"
     deepmerge "^4.0.0"
@@ -17865,6 +17894,18 @@ webdriver@5.16.0:
     lodash.merge "^4.6.1"
     request "^2.83.0"
 
+webdriver@5.16.3:
+  version "5.16.3"
+  resolved "https://registry.npmjs.org/webdriver/-/webdriver-5.16.3.tgz#6adcbac450387d95aba2335fbedc5a1cc8c03cd1"
+  integrity sha512-kz6nhsU3qxFpzoq167M+xCXlLWs/WmnLVwJS+IKbNSPYhV7XqnC+Bq4QCUYqT17UL+Z5cdfgtEGCHLLfkIKm0w==
+  dependencies:
+    "@wdio/config" "5.16.3"
+    "@wdio/logger" "5.13.2"
+    "@wdio/protocols" "5.16.0"
+    "@wdio/utils" "5.16.0"
+    lodash.merge "^4.6.1"
+    request "^2.83.0"
+
 webdriverio@5.16.0, webdriverio@^5.15.3:
   version "5.16.0"
   resolved "https://registry.npmjs.org/webdriverio/-/webdriverio-5.16.0.tgz#f0b2ca89e9980eeb0a9ab71fef86f8a886aaf114"
@@ -17885,6 +17926,27 @@ webdriverio@5.16.0, webdriverio@^5.15.3:
     rgb2hex "^0.1.0"
     serialize-error "^5.0.0"
     webdriver "5.16.0"
+
+webdriverio@^5.16.3:
+  version "5.16.3"
+  resolved "https://registry.npmjs.org/webdriverio/-/webdriverio-5.16.3.tgz#40753ecd18049cb247bfd8e7d2f4421d27d10952"
+  integrity sha512-APK5AKFL8KSofJRZ1xte0kblQ89NserXXbVD2+xqDnmmLkYmOUQ7Bc2uJKV5WsbbqcttUNeKqApU7LSEiv4lww==
+  dependencies:
+    "@wdio/config" "5.16.3"
+    "@wdio/logger" "5.13.2"
+    "@wdio/repl" "5.16.0"
+    "@wdio/utils" "5.16.0"
+    archiver "^3.0.0"
+    css-value "^0.0.1"
+    grapheme-splitter "^1.0.2"
+    lodash.clonedeep "^4.5.0"
+    lodash.isobject "^3.0.2"
+    lodash.isplainobject "^4.0.6"
+    lodash.zip "^4.2.0"
+    resq "^1.6.0"
+    rgb2hex "^0.1.0"
+    serialize-error "^5.0.0"
+    webdriver "5.16.3"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
