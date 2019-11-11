@@ -17,7 +17,11 @@ Here's how to use this feature:
 
 The file `mozaic.config.js` allows you to extend the configuration of Mozaic _(you can learn more about this file by [reading the dedicated page](/GetStarted/Developers/Configuration/))_.
 
-In order to activate the **Adeo preset**, you must create at the root of your project a file `mozaic.config.js` if it does not already exist, and add to this file the following code :
+In order to use the **Adeo preset**, you must create at the root of your project a file `mozaic.config.js` _(if it does not already exist)_ and follow these steps:
+
+### 1 - Set the preset property
+
+In the `mozaic.config.js` file you must add a `preset` property and give it `adeo` as value:
 
 ```js
 module.exports = {
@@ -25,6 +29,60 @@ module.exports = {
 }
 ```
 
-Once this option is added to the `mozaic.config.js` file, you must restart the token compilation; as described in the ["Compile Tokens" chapter](/GetStarted/Developers/CustomizeTokens/#3---compiling-tokens) of the customization documentation.
+### 2 - Define your local Token Export Path
 
-> **CAUTION:** When recompiling tokens, several warning messages beginning with "Collision detected at:" are likely to appear. This is quite normal, it simply indicates that the default values of Mozaic have been overridden  by those of Adeo. So you have nothing more to do.
+Using the ADEO preset, Mozaic will generate a series of tokens for you to use in your project.
+
+In order to make it easier for you to see and use these tokens, you must define your local token export path.  To do this, you must add the following code to the `mozaic.config.js` file, in addition to the elements already included:
+
+```js
+module.exports = {
+  preset: 'adeo',
+  tokens: {
+    localTokensExportPath: './dest/build/', // path to compiled files
+  }
+}
+```
+
+In that way the SCSS will load the customized ones instead of the ones living in the npm package.
+
+### 3 - Compiling tokens
+
+Great! You are about to be able to use the ADEO preset, but you still have one last step to take: Compiling tokens.
+
+In order to compile tokens, you have two options:
+
+#### The mozaic-tokens:build command
+
+run directly :
+
+```shell
+mozaic-tokens:build
+```
+
+or though a `package.json` script for example :
+
+```Json
+...
+"scripts": {
+  "develop": "mozaic-tokens:build && npm run develop:watch",
+}
+...
+```
+
+#### Using the js funtion
+
+If you want to trigger the tokens build inside a node script, you can use the function provided by Mozaic :
+
+```js
+const tokensBuild = require('@mozaic-ds/tokens/tokensBuild')
+
+tokensBuild()
+```
+
+When triggering the either the command or the function, if you override values, you should see something like this logging into the console :
+
+```
+Property Value Collisions:
+Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value: #000
+```
