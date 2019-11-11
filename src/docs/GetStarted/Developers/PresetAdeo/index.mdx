@@ -1,0 +1,30 @@
+---
+title: 'Preset Adeo'
+order: 11
+---
+
+Mozaic is designed to be above all the design system of the Leroy Merlin brand.
+
+However, we also offer you the possibility to extend Mozaic to meet specific customization needs.
+
+It is in this context that we have set up the possibility of customizing Mozaic to meet the needs of Leroy Merlin's parent company: ADEO.
+
+Indeed, Mozaic natively embeds a **preset**, allowing to automatically override all the native Leroy Merlin colors with those specific to ADEO.
+
+Here's how to use this feature:
+
+## mozaic.config.js
+
+The file `mozaic.config.js` allows you to extend the configuration of Mozaic _(you can learn more about this file by [reading the dedicated page](/GetStarted/Developers/Configuration/))_.
+
+In order to activate the **Adeo preset**, you must create at the root of your project a file `mozaic.config.js` if it does not already exist, and add to this file the following code :
+
+```js
+module.exports = {
+  preset: 'adeo'
+}
+```
+
+Once this option is added to the `mozaic.config.js` file, you must restart the token compilation; as described in the ["Compile Tokens" chapter](/GetStarted/Developers/CustomizeTokens/#3---compiling-tokens) of the customization documentation.
+
+> **CAUTION:** When recompiling tokens, several warning messages beginning with "Collision detected at:" are likely to appear. This is quite normal, it simply indicates that the default values of Mozaic have been overridden  by those of Adeo. So you have nothing more to do.
