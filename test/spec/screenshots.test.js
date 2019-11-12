@@ -12,6 +12,8 @@ const {
   BatchInfo,
 } = require('@applitools/eyes-webdriverio')
 
+const previewsPath = require('../previewsPath')
+
 let browser
 
 describe('Mozaic Visual Testing With Grid', function() {
@@ -40,14 +42,14 @@ describe('Mozaic Visual Testing With Grid', function() {
       await browser.url(`http://localhost:8000/${previewPath}`)
 
       const eyes = new Eyes(new VisualGridRunner(3))
-      eyes.setBatch(new BatchInfo('EyesRenderingBatch_WDIO'))
+      eyes.setBatch(new BatchInfo(`${previewPath.split('/').pop()}`))
 
       const configuration = new Configuration()
-      configuration.setTestName('Open Concurrency with Batch 2')
-      configuration.setAppName('RenderingGridIntegration')
+      configuration.setTestName(`${previewPath.split('/').pop()}`)
+      configuration.setAppName('MozaicGridVisualisation')
       configuration.addBrowser(800, 600, BrowserType.CHROME)
-      configuration.addBrowser(800, 600, BrowserType.FIREFOX)
-      configuration.addBrowser(800, 600, BrowserType.IE_11)
+      configuration.addBrowser(1000, 800, BrowserType.FIREFOX)
+      configuration.addBrowser(500, 320, BrowserType.IE_11)
 
       eyes.setConfiguration(configuration)
 

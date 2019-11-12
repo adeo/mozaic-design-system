@@ -96,7 +96,7 @@
     "build": "npx gatsby build",
     "develop": "npx gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "./node_modules/.bin/wdio run wdio.conf.js",
+    "test": "npx wdio",
     "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
     "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github prerelease",
     "npm:publish": "npx lerna exec --bail=false npm publish"
