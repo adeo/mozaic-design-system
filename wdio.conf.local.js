@@ -12,22 +12,13 @@ exports.config = {
     },
   ],
   logLevel: 'trace',
-  baseUrl: 'http://localhost:8000',
+  baseUrl: process.baseUrl,
   waitforTimeout: 10000,
   connectionRetryTimeout: 90000,
   connectionRetryCount: 3,
   services: ['applitools', 'selenium-standalone'],
 
   applitoolsKey: process.env.APPLITOOLS_API_KEY,
-
-  applitools: {
-    appName: 'Mozaic',
-    testName: 'Mozaic Visual Testing',
-    viewport: {
-      width: 1440,
-      height: 900,
-    },
-  },
   framework: 'mocha',
   reporters: ['spec'],
   mochaOpts: {

@@ -1,5 +1,6 @@
 // WIP - Waiting on full access to applitools to run tests on their server
 require('dotenv').config()
+//const process = require('process');
 
 exports.config = {
   //
@@ -111,7 +112,7 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: 'http://localhost:8000',
+  baseUrl: process.baseUrl,
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
