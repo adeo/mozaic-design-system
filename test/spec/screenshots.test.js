@@ -27,7 +27,9 @@ describe('Mozaic Visual Testing With Grid', function() {
     const chrome = {
       capabilities: {
         browserName: 'chrome',
-        'goog:chromeOptions': {},
+        'goog:chromeOptions': {
+          args: ['--headless'],
+        },
       },
     }
     browser = await remote(chrome)
@@ -38,14 +40,15 @@ describe('Mozaic Visual Testing With Grid', function() {
   })
 
   previewsPath.forEach(async previewPath => {
-    it(`creates a screenshot for ${previewPath.split('/').pop()}`, async () => {
-      await browser.url(`http://localhost:8000/${previewPath}`)
+    const componentName = previewPath.split('/').pop()
+    it(`creates a screenshot for ${componentName}`, async () => {
+      await browser.url(`/${previewPath}`)
 
       const eyes = new Eyes(new VisualGridRunner(3))
-      eyes.setBatch(new BatchInfo(`${previewPath.split('/').pop()}`))
+      eyes.setBatch(new BatchInfo(`${componentName}`))
 
       const configuration = new Configuration()
-      configuration.setTestName(`${previewPath.split('/').pop()}`)
+      configuration.setTestName(`${componentName}`)
       configuration.setAppName('MozaicGridVisualisation')
       configuration.addBrowser(800, 600, BrowserType.CHROME)
       configuration.addBrowser(1000, 800, BrowserType.FIREFOX)
@@ -55,7 +58,7 @@ describe('Mozaic Visual Testing With Grid', function() {
 
       await eyes.open(browser)
 
-      await eyes.check(`${previewPath.split('/').pop()}`, Target.window())
+      await eyes.check(`${componentName}`, Target.window())
 
       await eyes.getRunner().getAllTestResults(false)
 
