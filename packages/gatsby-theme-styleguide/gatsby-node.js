@@ -25,7 +25,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 
   if (node.internal.type === `Preview`) {
-    const slug = node.path
+    const slug = node.path.split('docs').pop()
 
     createNodeField({
       node,
