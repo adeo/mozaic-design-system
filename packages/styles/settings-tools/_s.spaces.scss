@@ -21,12 +21,13 @@ $sizes: (
   1000: $mu1000,
 );
 
-// top, right, left, bottom
+// top, right, left, bottom, all
 $sides: (
   't': 'top',
   'r': 'right',
   'l': 'left',
   'b': 'bottom',
+  'all' : 'all'
 );
 
 $props: (
@@ -35,11 +36,23 @@ $props: (
 );
 
 @mixin make-space-util($prop, $side, $size) {
-  .mu-#{$prop}#{$side}-#{$size} {
-    #{map-get($props, $prop)}-#{map-get($sides, $side)}:
-      #{map-get(
-        $sizes,
-        $size
-      )} !important;
+  @if ($side == "all") {
+    .mu-#{$prop}-#{$size} {
+      #{map-get($props, $prop)}:
+        #{map-get(
+          $sizes,
+          $size
+        )} !important;
+    }
+  }
+
+  @else {
+    .mu-#{$prop}#{$side}-#{$size} {
+      #{map-get($props, $prop)}-#{map-get($sides, $side)}:
+        #{map-get(
+          $sizes,
+          $size
+        )} !important;
+    }
   }
 }
