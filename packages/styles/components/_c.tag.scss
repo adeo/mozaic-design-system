@@ -1,3 +1,4 @@
+/* mqp:start */
 .mc-tag {
   &-text {
     @include set-tag-base-style('m');
@@ -258,3 +259,5 @@
     }
   }
 }
+
+/* mqp:end */

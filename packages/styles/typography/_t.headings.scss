@@ -1,3 +1,4 @@
+/* mqp:start */
 .mt-heading {
   &-l {
     @include set-font-face('regular');
@@ -62,3 +63,5 @@
     }
   }
 }
+
+/* mqp:end */
