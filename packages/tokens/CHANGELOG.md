@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
+
+
+### Features
+
+* **pattern/colors:** create status colors and rename campus classes into primary 02 ([#395](https://github.com/adeo/mozaic-design-system/issues/395)) ([ede011d](https://github.com/adeo/mozaic-design-system/commit/ede011d563545ef8294726934084a1440acbc5a5))
+
+
+
+
+
 ## [1.0.1-alpha.24](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
 
 

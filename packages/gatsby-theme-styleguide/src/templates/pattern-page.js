@@ -8,6 +8,7 @@ import Container from '../gatsby-components/Container'
 import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
 import TableOfContents from '../gatsby-components/TableOfContents'
+import PatternsStatusFlags from '../gatsby-components/PatternsStatus/PatternsStatusFlags'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -23,8 +24,12 @@ const PageContentWrapper = styled.div`
 `
 
 const PageContent = styled.div`
-  max-width: ${MagicUnit * 52}rem;
+  flex: 1;
   min-width: ${MagicUnit * 30}rem;
+
+  @media screen and (min-width: 1240px) {
+    flex: 0 0 ${MagicUnit * 52}rem;
+  }
 
   ul {
     margin: 20px;
@@ -65,10 +70,12 @@ export default ({ data, location }) => {
   })
 
   // use the index title as main Page name
-  const parentTitle = samePageTabs.find(
+  // use the index status for all other tabs
+  const parentFrontmatter = samePageTabs.find(
     tab => tab.node.fields.fileName.name === 'index'
-  ).node.frontmatter.title
-
+  ).node.frontmatter
+  const parentTitle = parentFrontmatter.title
+  const parentStatus = parentFrontmatter.status
   const hasTabs = samePageTabs.length > 1
 
   return (
@@ -76,6 +83,7 @@ export default ({ data, location }) => {
       <FullWidthContainer separator>
         <Container>
           <h1>{parentTitle}</h1>
+          <PatternsStatusFlags status={parentStatus} />
         </Container>
       </FullWidthContainer>
       {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
@@ -120,6 +128,10 @@ export const query = graphql`
           frontmatter {
             title
             order
+            status {
+              sketch
+              scss
+            }
           }
           fields {
             slug

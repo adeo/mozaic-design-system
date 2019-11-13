@@ -8,15 +8,14 @@ order: 3
 The Mozaic CSS source files are written in SCSS. But we compile them trough Postcss.
 This allow us to combine a SCSS syntax with the power of Postcss Plugins.
 
-Mozaic provide you with an array of postcss plugins that you are **required to use to build Mozaic files**, but no task runner, or compiler comes with it.
+Mozaic provide you with an array of PostCSS plugins that you are **required to use to build Mozaic files**, but no task runner, or compiler comes with it.
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-The mozaic postCSS plugins contains :
+The Mozaic postCSS plugins contains :
 
 - **stylelint:** a powerfull linter for preprocessor languages
 - **nodeSass:** compile SCSS into css
 - **autoprefixer:** automatically add browser prefixes
-- **mqpacker:** regroup all media-queries contents
 - **postcss-base64:** url encode svg in css
 - **cssnano:** optimize and minify the CSS code
 
@@ -28,8 +27,10 @@ You can create a `postcss.config.js` file in your project root directory and pas
 
 ```js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const scssSyntax = require('postcss-scss')
 
 module.exports = {
+  syntax: scssSyntax,
   plugins: pluginList,
 }
 ```
@@ -39,17 +40,19 @@ module.exports = {
 ```js
 /*... your imports */
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const scssSyntax = require('postcss-scss')
 
 /*... your webpack config */
 ...
 {
-  test: /\.css$/,
+  test: /\.scss$/,
   use: [
     'style-loader',
     'css-loader',
     {
       loader: 'postcss-loader',
       options: {
+        syntax: scssSyntax,
         plugins: pluginList
       }
     }
@@ -67,13 +70,13 @@ const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 gulp.task('css', () =>
   gulp
-    .src('./src/*.css')
+    .src('./src/*.scss')
     .pipe(postcss(pluginList))
     .pipe(gulp.dest('./dest'))
 )
 ```
 
-### C) With Vue.js using vue CLI
+### D) With Vue.js using vue CLI
 
 You will need to use **PostCSS** via `postcss-loader`.
 
@@ -84,20 +87,83 @@ npm install -D postcss-loader
 After installing `postcss-loader`, configure the file `vue.config.js` this way:
 
 ```js
-const postcssPluginConfig = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const scssSyntax = require('postcss-scss')
 
 module.exports = {
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPluginConfig,
-      },
-    },
+  chainWebpack: config => {
+    // remove the old loader
+    config.module.rules.delete('css')
+
+    // define the new one with mozaic config
+    config.module
+      .rule('css')
+      .test(/\.scss$/)
+      .use('vue-style-loader')
+      .loader('postcss-loader')
+      .tap(() => ({
+          syntax: scssSyntax,
+          plugins: pluginList,
+        })
+      })
   },
 }
 ```
 
-Due to the fact that you are using **PostCSS**, you must **remove** the `lang="sass"` attribute on style tags.
+### E) With angular CLI
+
+Using angular CLI, you need to override the webpack configuration.  
+Install `@angular-builders/custom-webpack` :
+
+`npm i -D @angular-builders/custom-webpack`
+
+Now we need to change the builder option in the angular.json fields to the following:
+
+```json
+{
+  "architect": {
+    "build": {
+      "builder": "@angular-builders/custom-webpack:browser",
+      "options": {
+        "customWebpackConfig": {
+          "path": "./webpack.config.js"
+        }
+      }
+    },
+    "serve": {
+      "builder": "@angular-builders/custom-webpack:dev-server",
+      "options": {
+        "customWebpackConfig": {
+          "path": "./webpack.config.js"
+        }
+      }
+    }
+  }
+}
+```
+
+You must create a new `webpack.config.js` file in the root directory :
+
+```js
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const scssSyntax = require('postcss-scss')
+
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        loader: 'postcss-loader',
+        options: {
+          ident: 'postcss',
+          syntax: scssSyntax,
+          plugins: pluginList,
+        },
+      },
+    ],
+  },
+}
+```
 
 ## Compiling for production
 
@@ -108,6 +174,6 @@ Mozaic will deliver to you a postCSS plugin list with production features like m
 MOZAIC_ENV=production
 ```
 
-## Sass and postcss configuration options
+## Sass and PostCSS configuration options
 
-Read our [configuration and customization guide](/GetStarted/Developers/Customization/).
+Read our [configuration and customization guide](/GetStarted/Developers/Configuration/).

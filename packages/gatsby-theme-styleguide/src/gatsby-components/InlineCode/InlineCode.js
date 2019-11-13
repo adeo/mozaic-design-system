@@ -2,15 +2,16 @@ import styled from 'styled-components'
 import React from 'react'
 import copyToClipboard from '../../utils/copy-to-clipboard'
 
-const Info = styled.span`
+const Info = styled.code`
   position: relative;
   padding: 1px 5px 2px;
-  font-size: 12px;
+  font-size: 0.8em;
   background-color: #eff0f1;
   line-height: 1.2;
+  font-weight: 400;
   cursor: pointer;
   box-sizing: border-box;
-  font-family: 'LeroyMerlin', sans-serif;
+  font-family: Menlo, Monaco, 'Courier New', monospace;
   border-radius: 2px;
 `
 

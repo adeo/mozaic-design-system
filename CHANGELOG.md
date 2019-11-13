@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.25](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
+
+
+### Bug Fixes
+
+* **chore/ci:** rename sketch files with non ascii names ([#414](https://github.com/adeo/design-system--styleguide/issues/414)) ([c835d03](https://github.com/adeo/design-system--styleguide/commit/c835d03cfe0605feb4ab0f2107bc8e3903a7adca))
+* **patterns/docs:** fix list of documentation typos or inacurate values ([#409](https://github.com/adeo/design-system--styleguide/issues/409)) ([84a6c68](https://github.com/adeo/design-system--styleguide/commit/84a6c68116fa666e9925156c2cc2d2e7fa595fa4))
+* **website/codes blocks:** allow blank lines, and fix lines splits when encounter /n ([#417](https://github.com/adeo/design-system--styleguide/issues/417)) ([7c98d8d](https://github.com/adeo/design-system--styleguide/commit/7c98d8dc465b555e652fdec52eee829bf42b6425))
+
+
+### Features
+
+* **onboard/getting started:** add angular CLI support to postcss config docs ([#416](https://github.com/adeo/design-system--styleguide/issues/416)) ([0a7a67a](https://github.com/adeo/design-system--styleguide/commit/0a7a67aa5788fda2d09081651977686f86959361))
+* **pattern/colors:** create status colors and rename campus classes into primary 02 ([#395](https://github.com/adeo/design-system--styleguide/issues/395)) ([ede011d](https://github.com/adeo/design-system--styleguide/commit/ede011d563545ef8294726934084a1440acbc5a5))
+* **website/chapters:** list pages and patterns in chapters landing pages ([#413](https://github.com/adeo/design-system--styleguide/issues/413)) ([2180149](https://github.com/adeo/design-system--styleguide/commit/2180149b66d3c062a62f79e7468b5c4f2ad6256e))
+* **website/code examples:** add copy to clipboard to all code sample ([#404](https://github.com/adeo/design-system--styleguide/issues/404)) ([3a9a850](https://github.com/adeo/design-system--styleguide/commit/3a9a85002327d899336a1d07991f5a6f42701bef))
+
+
+
+
+
 ## [1.0.1-alpha.24](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
 
 

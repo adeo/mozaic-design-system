@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-source-preview
+
+
+
+
+
 ## [1.0.1-alpha.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.19...v1.0.1-alpha.20) (2019-09-19)
 
 

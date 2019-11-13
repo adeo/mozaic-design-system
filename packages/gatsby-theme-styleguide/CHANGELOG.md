@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
+
+
+### Bug Fixes
+
+* **website/codes blocks:** allow blank lines, and fix lines splits when encounter /n ([#417](https://github.com/adeo/mozaic-design-system/issues/417)) ([7c98d8d](https://github.com/adeo/mozaic-design-system/commit/7c98d8dc465b555e652fdec52eee829bf42b6425))
+
+
+### Features
+
+* **website/chapters:** list pages and patterns in chapters landing pages ([#413](https://github.com/adeo/mozaic-design-system/issues/413)) ([2180149](https://github.com/adeo/mozaic-design-system/commit/2180149b66d3c062a62f79e7468b5c4f2ad6256e))
+* **website/code examples:** add copy to clipboard to all code sample ([#404](https://github.com/adeo/mozaic-design-system/issues/404)) ([3a9a850](https://github.com/adeo/mozaic-design-system/commit/3a9a85002327d899336a1d07991f5a6f42701bef))
+
+
+
+
+
 ## [1.0.1-alpha.24](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.23...v1.0.1-alpha.24) (2019-10-24)
 
 

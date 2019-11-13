@@ -12,7 +12,7 @@
           "value": "{color.grey.000.value}"
         }
       },
-      "solid-primary-campus": {
+      "solid-primary-02": {
         "background": {
           "value": "{color.primary-02.600.value}"
         },
@@ -67,7 +67,7 @@
           "value": "{color.primary-01.500.value}"
         }
       },
-      "bordered-primary-campus": {
+      "bordered-primary-02": {
         "background": {
           "value": "{color.grey.000.value}"
         },

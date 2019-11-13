@@ -22,7 +22,7 @@
         "disabled": { "value": "{color.grey.100.value}" },
         "hover": { "value": "{color.primary-01.600.value}" }
       },
-      "primary-campus": {
+      "primary-02": {
         "base": { "value": "{color.primary-02.600.value}" },
         "visited": { "value": "{color.primary-02.700.value}" },
         "active": { "value": "{color.primary-02.700.value}" },

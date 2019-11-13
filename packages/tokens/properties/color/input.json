@@ -33,21 +33,21 @@
       },
       "valid": {
         "border": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.success.500.value}"
         },
         "hover": {
           "border": {
-            "value": "{color.primary-01.800.value}"
+            "value": "{color.success.800.value}"
           }
         }
       },
       "invalid": {
         "border": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "{color.danger.500.value}"
         },
         "hover": {
           "border": {
-            "value": "{color.secondary-red.800.value}"
+            "value": "{color.danger.800.value}"
           }
         }
       },

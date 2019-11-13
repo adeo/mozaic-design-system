@@ -41,6 +41,15 @@ $color-secondary-blue-600: #2282a8 !default;
 $color-secondary-blue-700: #1e5f82 !default;
 $color-secondary-blue-800: #18415d !default;
 $color-secondary-blue-900: #102739 !default;
+$color-secondary-green-100: #eaf3e2 !default;
+$color-secondary-green-200: #cbe3b5 !default;
+$color-secondary-green-300: #add585 !default;
+$color-secondary-green-400: #91c854 !default;
+$color-secondary-green-500: #78be20 !default;
+$color-secondary-green-600: #41a017 !default;
+$color-secondary-green-700: #158110 !default;
+$color-secondary-green-800: #0a601b !default;
+$color-secondary-green-900: #053e1f !default;
 $color-secondary-purple-100: #efebfe !default;
 $color-secondary-purple-200: #c7b0fa !default;
 $color-secondary-purple-300: #a575f3 !default;
@@ -77,6 +86,42 @@ $color-secondary-yellow-600: #c9a21b !default;
 $color-secondary-yellow-700: #9c7b18 !default;
 $color-secondary-yellow-800: #705613 !default;
 $color-secondary-yellow-900: #46350d !default;
+$color-danger-100: #feedee !default;
+$color-danger-200: #fab9bc !default;
+$color-danger-300: #f38789 !default;
+$color-danger-400: #ea5d58 !default;
+$color-danger-500: #df382b !default;
+$color-danger-600: #b42a27 !default;
+$color-danger-700: #8b2226 !default;
+$color-danger-800: #641b21 !default;
+$color-danger-900: #3e1219 !default;
+$color-info-100: #ecfcfd !default;
+$color-info-200: #b7eef5 !default;
+$color-info-300: #84dbeb !default;
+$color-info-400: #54c4de !default;
+$color-info-500: #25a8d0 !default;
+$color-info-600: #2282a8 !default;
+$color-info-700: #1e5f82 !default;
+$color-info-800: #18415d !default;
+$color-info-900: #102739 !default;
+$color-warning-100: #fff5eb !default;
+$color-warning-200: #ffdab2 !default;
+$color-warning-300: #ffc17d !default;
+$color-warning-400: #ffab4b !default;
+$color-warning-500: #fc961e !default;
+$color-warning-600: #c86f21 !default;
+$color-warning-700: #974f20 !default;
+$color-warning-800: #6a351c !default;
+$color-warning-900: #401f15 !default;
+$color-success-100: #eaf3e2 !default;
+$color-success-200: #cbe3b5 !default;
+$color-success-300: #add585 !default;
+$color-success-400: #91c854 !default;
+$color-success-500: #78be20 !default;
+$color-success-600: #41a017 !default;
+$color-success-700: #158110 !default;
+$color-success-800: #0a601b !default;
+$color-success-900: #053e1f !default;
 $color-button-solid-background: #78be20 !default;
 $color-button-solid-font: #ffffff !default;
 $color-button-solid-focus-border: #158110 !default;
@@ -85,14 +130,14 @@ $color-button-solid-disabled-font: #887f87 !default;
 $color-button-solid-active-background: #158110 !default;
 $color-button-solid-hover-background: #41a017 !default;
 $color-button-solid-hover-font: #ffffff !default;
-$color-button-solid-primary-campus-background: #007574 !default;
-$color-button-solid-primary-campus-font: #ffffff !default;
-$color-button-solid-primary-campus-focus-border: #062b35 !default;
-$color-button-solid-primary-campus-disabled-background: #eeeef0 !default;
-$color-button-solid-primary-campus-disabled-font: #887f87 !default;
-$color-button-solid-primary-campus-active-background: #062b35 !default;
-$color-button-solid-primary-campus-hover-background: #063a44 !default;
-$color-button-solid-primary-campus-hover-font: #ffffff !default;
+$color-button-solid-primary-02-background: #007574 !default;
+$color-button-solid-primary-02-font: #ffffff !default;
+$color-button-solid-primary-02-focus-border: #062b35 !default;
+$color-button-solid-primary-02-disabled-background: #eeeef0 !default;
+$color-button-solid-primary-02-disabled-font: #887f87 !default;
+$color-button-solid-primary-02-active-background: #062b35 !default;
+$color-button-solid-primary-02-hover-background: #063a44 !default;
+$color-button-solid-primary-02-hover-font: #ffffff !default;
 $color-button-solid-neutral-background: #887f87 !default;
 $color-button-solid-neutral-font: #ffffff !default;
 $color-button-solid-neutral-focus-border: #222020 !default;
@@ -117,14 +162,14 @@ $color-button-bordered-disabled-background: #eeeef0 !default;
 $color-button-bordered-disabled-font: #887f87 !default;
 $color-button-bordered-active-background: #cbe3b5 !default;
 $color-button-bordered-hover-background: #eaf3e2 !default;
-$color-button-bordered-primary-campus-background: #ffffff !default;
-$color-button-bordered-primary-campus-border: #007574 !default;
-$color-button-bordered-primary-campus-font: #007574 !default;
-$color-button-bordered-primary-campus-focus-border: #062b35 !default;
-$color-button-bordered-primary-campus-disabled-background: #eeeef0 !default;
-$color-button-bordered-primary-campus-disabled-font: #887f87 !default;
-$color-button-bordered-primary-campus-active-background: #a5d1cb !default;
-$color-button-bordered-primary-campus-hover-background: #dbedea !default;
+$color-button-bordered-primary-02-background: #ffffff !default;
+$color-button-bordered-primary-02-border: #007574 !default;
+$color-button-bordered-primary-02-font: #007574 !default;
+$color-button-bordered-primary-02-focus-border: #062b35 !default;
+$color-button-bordered-primary-02-disabled-background: #eeeef0 !default;
+$color-button-bordered-primary-02-disabled-font: #887f87 !default;
+$color-button-bordered-primary-02-active-background: #a5d1cb !default;
+$color-button-bordered-primary-02-hover-background: #dbedea !default;
 $color-button-bordered-neutral-background: #ffffff !default;
 $color-button-bordered-neutral-border: #554f52 !default;
 $color-button-bordered-neutral-font: #554f52 !default;
@@ -145,13 +190,13 @@ $color-fileuploader-font: #000000 !default;
 $color-fileuploader-files-list: #eeeef0 !default;
 $color-fileuploader-files-delete: #d3d2d6 !default;
 $color-fileuploader-valid: #78be20 !default;
-$color-fileuploader-alert: #fc961e !default;
+$color-fileuploader-alert: #df382b !default;
 $color-flag-solid-background: #78be20 !default;
 $color-flag-solid-border: #78be20 !default;
 $color-flag-solid-text: #ffffff !default;
-$color-flag-solid-primary-campus-background: #035f64 !default;
-$color-flag-solid-primary-campus-border: #035f64 !default;
-$color-flag-solid-primary-campus-text: #ffffff !default;
+$color-flag-solid-primary-02-background: #035f64 !default;
+$color-flag-solid-primary-02-border: #035f64 !default;
+$color-flag-solid-primary-02-text: #ffffff !default;
 $color-flag-solid-dark-background: #000000 !default;
 $color-flag-solid-dark-border: #000000 !default;
 $color-flag-solid-dark-text: #ffffff !default;
@@ -164,9 +209,9 @@ $color-flag-solid-danger-text: #ffffff !default;
 $color-flag-bordered-background: #ffffff !default;
 $color-flag-bordered-border: #78be20 !default;
 $color-flag-bordered-text: #78be20 !default;
-$color-flag-bordered-primary-campus-background: #ffffff !default;
-$color-flag-bordered-primary-campus-border: #035f64 !default;
-$color-flag-bordered-primary-campus-text: #035f64 !default;
+$color-flag-bordered-primary-02-background: #ffffff !default;
+$color-flag-bordered-primary-02-border: #035f64 !default;
+$color-flag-bordered-primary-02-text: #035f64 !default;
 $color-flag-bordered-dark-background: #ffffff !default;
 $color-flag-bordered-dark-border: #000000 !default;
 $color-flag-bordered-dark-text: #000000 !default;
@@ -183,6 +228,10 @@ $color-font-darker: #222020 !default;
 $color-font-dark: #3c3738 !default;
 $color-font-light: #554f52 !default;
 $color-font-lightest: #ffffff !default;
+$color-font-info: #2282a8 !default;
+$color-font-success: #41a017 !default;
+$color-font-warning: #c86f21 !default;
+$color-font-danger: #b42a27 !default;
 $color-input-text: #222020 !default;
 $color-input-border: #6f676c !default;
 $color-input-placeholder: #887f87 !default;
@@ -214,11 +263,11 @@ $color-link-primary-visited: #41a017 !default;
 $color-link-primary-active: #158110 !default;
 $color-link-primary-disabled: #eeeef0 !default;
 $color-link-primary-hover: #41a017 !default;
-$color-link-primary-campus-base: #035f64 !default;
-$color-link-primary-campus-visited: #044c53 !default;
-$color-link-primary-campus-active: #044c53 !default;
-$color-link-primary-campus-disabled: #eeeef0 !default;
-$color-link-primary-campus-hover: #044c53 !default;
+$color-link-primary-02-base: #035f64 !default;
+$color-link-primary-02-visited: #044c53 !default;
+$color-link-primary-02-active: #044c53 !default;
+$color-link-primary-02-disabled: #eeeef0 !default;
+$color-link-primary-02-hover: #044c53 !default;
 $color-link-danger-base: #df382b !default;
 $color-link-danger-visited: #8b2226 !default;
 $color-link-danger-active: #8b2226 !default;
@@ -432,6 +481,17 @@ $tokens: (
       '800': $color-secondary-blue-800,
       '900': $color-secondary-blue-900
     ),
+    'secondary-green': (
+      '100': $color-secondary-green-100,
+      '200': $color-secondary-green-200,
+      '300': $color-secondary-green-300,
+      '400': $color-secondary-green-400,
+      '500': $color-secondary-green-500,
+      '600': $color-secondary-green-600,
+      '700': $color-secondary-green-700,
+      '800': $color-secondary-green-800,
+      '900': $color-secondary-green-900
+    ),
     'secondary-purple': (
       '100': $color-secondary-purple-100,
       '200': $color-secondary-purple-200,
@@ -476,6 +536,50 @@ $tokens: (
       '800': $color-secondary-yellow-800,
       '900': $color-secondary-yellow-900
     ),
+    'danger': (
+      '100': $color-danger-100,
+      '200': $color-danger-200,
+      '300': $color-danger-300,
+      '400': $color-danger-400,
+      '500': $color-danger-500,
+      '600': $color-danger-600,
+      '700': $color-danger-700,
+      '800': $color-danger-800,
+      '900': $color-danger-900
+    ),
+    'info': (
+      '100': $color-info-100,
+      '200': $color-info-200,
+      '300': $color-info-300,
+      '400': $color-info-400,
+      '500': $color-info-500,
+      '600': $color-info-600,
+      '700': $color-info-700,
+      '800': $color-info-800,
+      '900': $color-info-900
+    ),
+    'warning': (
+      '100': $color-warning-100,
+      '200': $color-warning-200,
+      '300': $color-warning-300,
+      '400': $color-warning-400,
+      '500': $color-warning-500,
+      '600': $color-warning-600,
+      '700': $color-warning-700,
+      '800': $color-warning-800,
+      '900': $color-warning-900
+    ),
+    'success': (
+      '100': $color-success-100,
+      '200': $color-success-200,
+      '300': $color-success-300,
+      '400': $color-success-400,
+      '500': $color-success-500,
+      '600': $color-success-600,
+      '700': $color-success-700,
+      '800': $color-success-800,
+      '900': $color-success-900
+    ),
     'button': (
       'solid': (
         'background': $color-button-solid-background,
@@ -495,22 +599,22 @@ $tokens: (
           'font': $color-button-solid-hover-font
         )
       ),
-      'solid-primary-campus': (
-        'background': $color-button-solid-primary-campus-background,
-        'font': $color-button-solid-primary-campus-font,
+      'solid-primary-02': (
+        'background': $color-button-solid-primary-02-background,
+        'font': $color-button-solid-primary-02-font,
         'focus': (
-          'border': $color-button-solid-primary-campus-focus-border
+          'border': $color-button-solid-primary-02-focus-border
         ),
         'disabled': (
-          'background': $color-button-solid-primary-campus-disabled-background,
-          'font': $color-button-solid-primary-campus-disabled-font
+          'background': $color-button-solid-primary-02-disabled-background,
+          'font': $color-button-solid-primary-02-disabled-font
         ),
         'active': (
-          'background': $color-button-solid-primary-campus-active-background
+          'background': $color-button-solid-primary-02-active-background
         ),
         'hover': (
-          'background': $color-button-solid-primary-campus-hover-background,
-          'font': $color-button-solid-primary-campus-hover-font
+          'background': $color-button-solid-primary-02-hover-background,
+          'font': $color-button-solid-primary-02-hover-font
         )
       ),
       'solid-neutral': (
@@ -567,22 +671,22 @@ $tokens: (
           'background': $color-button-bordered-hover-background
         )
       ),
-      'bordered-primary-campus': (
-        'background': $color-button-bordered-primary-campus-background,
-        'border': $color-button-bordered-primary-campus-border,
-        'font': $color-button-bordered-primary-campus-font,
+      'bordered-primary-02': (
+        'background': $color-button-bordered-primary-02-background,
+        'border': $color-button-bordered-primary-02-border,
+        'font': $color-button-bordered-primary-02-font,
         'focus': (
-          'border': $color-button-bordered-primary-campus-focus-border
+          'border': $color-button-bordered-primary-02-focus-border
         ),
         'disabled': (
-          'background': $color-button-bordered-primary-campus-disabled-background,
-          'font': $color-button-bordered-primary-campus-disabled-font
+          'background': $color-button-bordered-primary-02-disabled-background,
+          'font': $color-button-bordered-primary-02-disabled-font
         ),
         'active': (
-          'background': $color-button-bordered-primary-campus-active-background
+          'background': $color-button-bordered-primary-02-active-background
         ),
         'hover': (
-          'background': $color-button-bordered-primary-campus-hover-background
+          'background': $color-button-bordered-primary-02-hover-background
         )
       ),
       'bordered-neutral': (
@@ -637,10 +741,10 @@ $tokens: (
         'border': $color-flag-solid-border,
         'text': $color-flag-solid-text
       ),
-      'solid-primary-campus': (
-        'background': $color-flag-solid-primary-campus-background,
-        'border': $color-flag-solid-primary-campus-border,
-        'text': $color-flag-solid-primary-campus-text
+      'solid-primary-02': (
+        'background': $color-flag-solid-primary-02-background,
+        'border': $color-flag-solid-primary-02-border,
+        'text': $color-flag-solid-primary-02-text
       ),
       'solid-dark': (
         'background': $color-flag-solid-dark-background,
@@ -662,10 +766,10 @@ $tokens: (
         'border': $color-flag-bordered-border,
         'text': $color-flag-bordered-text
       ),
-      'bordered-primary-campus': (
-        'background': $color-flag-bordered-primary-campus-background,
-        'border': $color-flag-bordered-primary-campus-border,
-        'text': $color-flag-bordered-primary-campus-text
+      'bordered-primary-02': (
+        'background': $color-flag-bordered-primary-02-background,
+        'border': $color-flag-bordered-primary-02-border,
+        'text': $color-flag-bordered-primary-02-text
       ),
       'bordered-dark': (
         'background': $color-flag-bordered-dark-background,
@@ -690,7 +794,11 @@ $tokens: (
       'darker': $color-font-darker,
       'dark': $color-font-dark,
       'light': $color-font-light,
-      'lightest': $color-font-lightest
+      'lightest': $color-font-lightest,
+      'info': $color-font-info,
+      'success': $color-font-success,
+      'warning': $color-font-warning,
+      'danger': $color-font-danger
     ),
     'input': (
       'text': $color-input-text,
@@ -750,12 +858,12 @@ $tokens: (
         'disabled': $color-link-primary-disabled,
         'hover': $color-link-primary-hover
       ),
-      'primary-campus': (
-        'base': $color-link-primary-campus-base,
-        'visited': $color-link-primary-campus-visited,
-        'active': $color-link-primary-campus-active,
-        'disabled': $color-link-primary-campus-disabled,
-        'hover': $color-link-primary-campus-hover
+      'primary-02': (
+        'base': $color-link-primary-02-base,
+        'visited': $color-link-primary-02-visited,
+        'active': $color-link-primary-02-active,
+        'disabled': $color-link-primary-02-disabled,
+        'hover': $color-link-primary-02-hover
       ),
       'danger': (
         'base': $color-link-danger-base,
