@@ -1,0 +1,29 @@
+.patternstatusflags {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  &__item {
+    margin: 0;
+  }
+
+  &__item + &__item {
+    margin-left: 50px;
+  }
+}
+
+.patternstatusflags__flag {
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 7px;
+}
+
+.patternstatusflags__flag-beta {
+  background: #f99100;
+}
+
+.patternstatusflags__flag-stable {
+  background: #38a72f;
+}
