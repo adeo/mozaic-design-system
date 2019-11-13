@@ -84,6 +84,12 @@ const IndexPage = () => (
           <Link className="help__link" to="/Components">
             Components
           </Link>
+          <Link className="help__link" to="/Contributing">
+            Contributing
+          </Link>
+          <Link className="help__link" to="/PatternsStatus">
+            Patterns Status
+          </Link>
         </div>
         <Linkicon link="https://adeo-tech-community.slack.com/messages/CKQJZL7C4/">
           <svg
@@ -214,8 +220,23 @@ const IndexPage = () => (
       </Section>
     </Slice>
     <Slice large>
+      <Section title="How to contribute ?">
+        <div className="ml-flexy ml-flexy--items-stretch ml-flexy--gutter ml-flexy__col--1of2">
+          <Tile
+            bottom
+            center
+            title="Contributing"
+            text="Learn how to contribute to Mozaic, report a bug, submit changes or ask for help"
+            linkurl="/Contributing/"
+            linktitle="Contribute to Mozaic"
+            link="Discover"
+          ></Tile>
+        </div>
+      </Section>
+    </Slice>
+    <Slice large>
       <Section title="Resources" name="start">
-        <div className="ml-flexy ml-flexy--items-stretch ml-flexy--gutter">
+        <div className="ml-flexy ml-flexy--items-stretch ml-flexy--gutter ml-flexy__col--1of2">
           <Tile
             title="Design Kit"
             text="The UI Kit is a set of sketch files to be used as libraries."
