@@ -1,3 +1,4 @@
+/* mqp:start */
 .mc-flag {
   @include set-flag-base();
   @include set-font-face('semi-bold');
@@ -16,3 +17,5 @@
     transform: translateY(-0.143em);
   }
 }
+
+/* mqp:end */

@@ -1,3 +1,4 @@
+/* mqp:start */
 .mt-hero {
   @include set-font-face('regular');
   @include set-font-scale('09');
@@ -34,3 +35,5 @@
     }
   }
 }
+
+/* mqp:end */

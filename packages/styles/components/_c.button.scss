@@ -1,3 +1,4 @@
+/* mqp:start */
 .mc-button {
   @include unstyle-button();
   @include set-button-theme(get-token(color, button, 'solid'));
@@ -25,7 +26,6 @@
   &--full {
     @include modify-from-screens($major-screens) {
       display: flex;
-      width: 100%;
     }
   }
 
@@ -68,3 +68,5 @@
     }
   }
 }
+
+/* mqp:end */

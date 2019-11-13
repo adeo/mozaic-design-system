@@ -1,3 +1,4 @@
+/* mqp:start */
 $notification-text-font-size: get-token(size, font, '04');
 $notification-title-font-size: get-token(size, font, '05');
 $notification-close-icon-color: get-token(color, notification, font);
@@ -86,3 +87,5 @@ $notification-close-icon-color: get-token(color, notification, font);
     transform: translateX($mu050) translateY(-$mu100);
   }
 }
+
+/* mqp:end */
