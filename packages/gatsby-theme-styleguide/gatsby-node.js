@@ -1,5 +1,8 @@
 const path = require(`path`)
+const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+let previewsPath = []
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -77,6 +80,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   })
 
   previews.forEach(({ node }) => {
+    previewsPath.push(`${node.fields.slug}`)
     createPage({
       path: node.fields.slug,
       component: path.join(__dirname, 'src', 'templates', 'preview-page.js'),
@@ -84,5 +88,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         slug: node.fields.slug,
       },
     })
+  })
+
+  // Create an array with all the previews path. Used for testing purposes
+  const content = `module.exports =${JSON.stringify(previewsPath, 0, 2)}`
+  fs.writeFile('./test/previewsPath.js', content, err => {
+    if (err) throw err
+    console.log('Previews path list file created (/test/previewsPath.js)')
   })
 }

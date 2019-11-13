@@ -21,3 +21,6 @@ package-lock.json
 
 # env files
 .env
+
+# test file 
+test/previewsPath.js
