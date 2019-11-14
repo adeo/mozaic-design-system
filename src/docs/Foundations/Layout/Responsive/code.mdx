@@ -81,7 +81,8 @@ Will output :
 
 All the médias queries found after a `/* mqp:start */` will be regrouped and outputed in place of the `/* mqp:end */` comment.
 
-> We recommand you to use MQpacker **arround every block/components declarations** like in the previous example.
+> We recommand you to use MQpacker **arround every new block/components declarations** like in the previous example.  
+> Be careful with existing code base, by changing the order of the media-queries, you will change the cascade and thus, **potentially introduce undesired side effects**. It is why we declare it using comments instead of running it on all the code base, **to avoid regressions on any external or pre-existing CSS code base**.
 
 ## The set-from-screen mixin
 
@@ -114,64 +115,90 @@ All the médias queries found after a `/* mqp:start */` will be regrouped and ou
   use the modify-from-screens mixin to create a series of viewport-specific
   scoped classes
 </HintItem>
+<HintItem>
+  Use the MQpacker comments around multiple responsive modifiers when properties may collide
+</HintItem>
 
-for example, to create an utility that hide an element based on the viewport :
+for example, to create utilities that hide or show an element based on the viewport :
 
 ```scss
-.mu-hide
+/* mqp: start */
+.mu-show {
   @include modify-from-screens(('s', 'm', 'l', 'xl', 'xxl')) {
+    display: block !important;
+  }
+}
+.mu-hide {
+  @include modify-from-screens(('s', 'm', 'l', 'xl', 'xxl')) {
+    display: none !important;
+  }
+}
+/* mqp: end */
+```
+
+Output:
+
+```css
+/* from screen s and up (will hide and show at any size) */
+.mu-show {
+  display: block !important;
+}
+.mu-hide {
+  display: none !important;
+}
+
+/* from screen m and up */
+@media screen and (min-width: 680px) {
+  .mu-show\@from-m {
+    display: block !important;
+  }
+  .mu-hide\@from-m {
+    display: none !important;
+  }
+}
+
+/* from screen l and up */
+@media screen and (min-width: 1024px) {
+  .mu-show\@from-l {
+    display: block !important;
+  }
+  .mu-hide\@from-l {
+    display: none !important;
+  }
+}
+
+/* from screen xl and up */
+@media screen and (min-width: 1280px) {
+  .mu-show\@from-xl {
+    display: block !important;
+  }
+  .mu-hide\@from-xl {
+    display: none !important;
+  }
+}
+
+/* from screen xxl and up */
+@media screen and (min-width: 1920px) {
+  .mu-show\@from-xxl {
+    display: block !important;
+  }
+  .mu-hide\@from-xxl {
     display: none !important;
   }
 }
 ```
 
-Output:
-
-```scss
-// from screen s and up (will hide anything)
-.mu-hide {
-  display: none;
-}
-
-// from screen m and up
-@media screen and (min-width: 680px) {
-  .mu-hide\@from-m {
-    display: none;
-  }
-}
-
-// from screen l and up
-@media screen and (min-width: 1024px) {
-  .mu-hide\@from-l {
-    display: none;
-  }
-}
-
-// from screen xl and up
-@media screen and (min-width: 1280px) {
-  .mu-hide\@from-xl {
-    display: none;
-  }
-}
-
-// from screen xxl and up
-@media screen and (min-width: 1920px) {
-  .mu-hide\@from-xxl {
-    display: none;
-  }
-}
-```
+In the output, you can see a backslash in front of the `@`. It is used to escape a non standard character. You don't need to use the backslash on the `html`.
 
 Markup usage :
 
 ```html
-<div class="mu-hide@from-l">
-  I will be hidden from 1024px wide and up
+<div class="mu-hide mu-show@from-l">
+  I will be hidden at screen from 0px wide up to 1024px wide
 </div>
-
-// from screen l and up @media screen and (min-width: 1024px) { .mu-hide\@from-l
-{ display: none; } }
 ```
+
+> Note that if we had not used `mqpacker` to group the media queries of both the `hide` and `show` utilities, and the `hide` utility being declared after the `show`, our element would not have showed up in any cases.
 
 ### The modify from screen **take a map as an argument**.
 
@@ -192,7 +219,7 @@ $viewports: ('s', 'm', 'l', 'xl', 'xxl');
 
 #### 3) use the \$major-screens variable
 
-(if you want to pass all major screens has arguments)
+(if you want to pass all [major screens](/Foundations/Layout/Responsive/#major-breakpoints) has arguments)
 
 ```scss
 @include modify-from-screens($major-screens) {...}
