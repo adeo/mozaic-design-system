@@ -5,6 +5,7 @@ const stylelint = require('stylelint')
 const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
 const cssnano = require('cssnano')
+const mqpackerondemand = require('@mozaic-ds/postcss-media-queries-packer-on-demand')
 const CM = require('@mozaic-ds/configuration-manager')
 
 const MOZAIC_ENV = process.env.MOZAIC_ENV
@@ -51,6 +52,9 @@ const plugins = [
     pattern: /<svg.*<\/svg>/i,
     prepend: 'data:image/svg+xml;base64,',
   }),
+  mqpackerondemand({
+    sort: true,
+  }),
   autoprefixer(),
 ]
 
@@ -63,6 +67,9 @@ const productionPlugins = [
   base64({
     pattern: /<svg.*<\/svg>/i,
     prepend: 'data:image/svg+xml;base64,',
+  }),
+  mqpackerondemand({
+    sort: true,
   }),
   cssnano(['default', { discardComments: { removeAll: true } }]),
 ]

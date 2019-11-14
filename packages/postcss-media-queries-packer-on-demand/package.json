@@ -1,0 +1,29 @@
+{
+  "name": "@mozaic-ds/postcss-media-queries-packer-on-demand",
+  "version": "1.0.1-alpha.25",
+  "description": "PostCSS plugin that group media queries on demand",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "media-queries"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "main": "index.js",
+  "author": "gael-boyenval <gaelboyenval@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^7.0.18"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
