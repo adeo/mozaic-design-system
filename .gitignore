@@ -12,12 +12,14 @@ lerna-debug.log
 *.iml
 package-lock.json
 
-
 # Merge files
 *.orig
 
 # generated assets zips
 *.zip
+
+# icon list
+src/data/icons.json
 
 # env files
 .env
