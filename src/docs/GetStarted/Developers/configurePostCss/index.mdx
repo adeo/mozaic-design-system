@@ -3,6 +3,8 @@ title: 'Configuring PostCSS'
 order: 3
 ---
 
+> **Important note** : Using postCSS with the following configuration **is mandatory for us to garanty Mozaic to work as advertised**. Not following the instructions may cause Mozaic CSS to break silently either now or at some point in the future as new features and bug fixes are published.
+
 ## Introduction
 
 The Mozaic CSS source files are written in SCSS. But we compile them trough Postcss.
@@ -11,7 +13,7 @@ This allow us to combine a SCSS syntax with the power of Postcss Plugins.
 Mozaic provide you with an array of PostCSS plugins that you are **required to use to build Mozaic files**, but no task runner, or compiler comes with it.
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-The Mozaic postCSS plugins contains :
+The Mozaic postCSS plugin list contains :
 
 - **stylelint:** a powerfull linter for preprocessor languages
 - **nodeSass:** compile SCSS into css
@@ -19,8 +21,6 @@ The Mozaic postCSS plugins contains :
 - **mqpacker on demand:** a custom built media queries regrouper based on comments
 - **postcss-base64:** url encode svg in css
 - **cssnano:** optimize and minify the CSS code
-
-> Some features may not work without our plugins list and are mandatory. We highly recommend you to use our plugins list for the css to work.
 
 ### A) Using a configuration file :
 
