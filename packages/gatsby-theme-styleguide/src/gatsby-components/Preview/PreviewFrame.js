@@ -73,7 +73,7 @@ const Frame = styled.iframe`
   width: 100%;
   margin: 0;
   padding: 0;
-  min-height: 300px;
+  min-height: 90px;
 `
 
 const ToggleOptions = styled.button`
@@ -108,6 +108,13 @@ export class PreviewFrame extends PureComponent {
     if (typeof window !== 'undefined') {
       this.setState({ location: window.location })
     }
+    setTimeout(() => {
+      this.setState({
+        iframeHeight: this.refs.iframe.contentDocument.body
+          ? this.refs.iframe.contentDocument.body.scrollHeight
+          : '90px',
+      })
+    }, 800)
   }
 
   iframeCSS = () => `
@@ -141,7 +148,12 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} src={iframeSrc} />
+          <Frame
+            frameBorder="0"
+            height={iframeHeight}
+            src={iframeSrc}
+            ref="iframe"
+          />
         </FrameContainer>
         {!this.props.nude && (
           <ViewportInfos>
@@ -167,7 +179,12 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} src={iframeSrc} />
+          <Frame
+            frameBorder="0"
+            height={iframeHeight}
+            src={iframeSrc}
+            ref="iframe"
+          />
         </FrameContainer>
         {!this.props.fullScreen && (
           <ToggleOptions onClick={this.props.toggleOptions}>
