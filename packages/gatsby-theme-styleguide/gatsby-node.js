@@ -1,8 +1,21 @@
+const express = require('express')
+var mkdirp = require('mkdirp')
 const path = require(`path`)
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 let previewsPath = []
+
+/**
+ * gatsby api hook that will run when the development server is started
+ * adding this line will allow to extend the server development configuration.
+ * For this special case it will allow the content inside the public folder that gatsby will generate to be served and accessible.
+ * more on that here =>https://www.gatsbyjs.org/docs/node-apis/#onCreateDevServer
+ *
+ */
+exports.onCreateDevServer = ({ app }) => {
+  app.use(express.static('public'))
+}
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -56,6 +69,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
+            codes {
+              css
+              html
+              js
+            }
           }
         }
       }
@@ -79,16 +97,37 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   })
 
+  // Create previews html pages into static folder
   previews.forEach(({ node }) => {
-    previewsPath.push(`${node.fields.slug}`)
-    createPage({
-      path: node.fields.slug,
-      component: path.join(__dirname, 'src', 'templates', 'preview-page.js'),
-      context: {
-        slug: node.fields.slug,
-      },
+    const fileName = `static${node.fields.slug.split('docs/').pop()}`
+    const pathName = fileName
+    const str = pathName.substr(pathName.lastIndexOf('/') + 1)
+
+    previewsPath.push(`${node.fields.slug}`) // Add path to the list for tests purposes
+
+    mkdirp(pathName.replace(str, ''), function(err) {
+      if (err) return cb(err)
+      let stream = fs.createWriteStream(`${fileName}.html`)
+      stream.once('open', function(fd) {
+        const html = buildHtml(node)
+        stream.end(html)
+      })
     })
   })
+
+  // Minimal builder for html previews
+  const buildHtml = data => {
+    var header = data.codes.css
+    var body = data.codes.html
+    return (
+      '<!DOCTYPE html>' +
+      '<html><head><style>' +
+      header +
+      '</style></head><body>' +
+      body +
+      '</body></html>'
+    )
+  }
 
   // Create an array with all the previews path. Used for testing purposes
   const content = `module.exports =${JSON.stringify(previewsPath, 0, 2)}`

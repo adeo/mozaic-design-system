@@ -54,6 +54,7 @@ class Preview extends PureComponent {
     return {
       node: {
         ...preview.node,
+        previewPath,
         codes: this.cleanEmptyCode(preview),
       },
     }

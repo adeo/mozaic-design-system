@@ -11,7 +11,7 @@ lerna-debug.log
 /.idea/
 *.iml
 package-lock.json
-# static/icons/
+
 
 # Merge files
 *.orig
@@ -24,3 +24,7 @@ package-lock.json
 
 # test file 
 test/previewsPath.js
+
+# static previews
+static/Components
+static/Foundations

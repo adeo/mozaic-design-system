@@ -100,11 +100,14 @@ export class PreviewFrame extends PureComponent {
     this.state = {
       iframeHeight: 0,
       grid: this.props.grid,
+      location: '',
     }
   }
 
   componentDidMount = () => {
-    this.setState({ location: window.location })
+    if (typeof window !== 'undefined') {
+      this.setState({ location: window.location })
+    }
   }
 
   iframeCSS = () => `
@@ -120,10 +123,10 @@ export class PreviewFrame extends PureComponent {
     const { iframeHeight } = this.state
     const { viewport, viewPorts, availableWidth, fullScreen, grid } = this.props
     const iframeSrc =
-      this.props.data.node.path && this.state.location
-        ? `${this.state.location.origin}/${this.props.data.node.path
-            .split('docs/')
-            .pop()}`
+      this.props.data.node.previewPath && this.state.location
+        ? `${
+            this.state.location.origin
+          }/${this.props.data.node.previewPath.split('docs/').pop()}.html`
         : ''
     if (this.props.data === undefined) {
       return <div />
