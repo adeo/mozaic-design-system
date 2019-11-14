@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/postcss-media-queries-packer-on-demand",
-  "version": "1.0.1-alpha.25",
+  "version": "1.0.1-alpha.26",
   "description": "PostCSS plugin that group media queries on demand",
   "keywords": [
     "postcss",
