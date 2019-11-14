@@ -12,8 +12,16 @@ const logERROR = (name, error) => {
   console.log(`ICON ERROR | in ${name} : ${error}`)
 }
 
+
+
+// verifying if outputPath exists (just one time)
+if (!fs.existsSync(outputPath)) {
+  fs.mkdirSync(outputPath)
+}
+
 glob(inputPath, (er, files) => {
-  files.forEach(file => {
+  const newFilesArray = files.map(file => {
+
     const svgName = path.basename(file)
     const sizeDirectory = file.split(path.sep).reverse()[1]
 
@@ -39,19 +47,35 @@ glob(inputPath, (er, files) => {
       )
     }
 
-    fs.readFile(file, 'utf8', (err, data) => {
-      if (err) {
-        throw err
-      }
-      optimize(data, svgName)
+
+    return new Promise((res, rej) => {
+      fs.readFile(file, 'utf8', (err, data) => {
+        if (err) {
+          throw err
+        }
+
+        const svgName = path.basename(file)
+        return res(optimize(svgName, data))
+      })
     })
-  })
+  }) // newFilesArray
+
+  // waiting for all files to be saved!
+  return Promise.all(newFilesArray)
+    .then(ret => {
+      const qtd = ret.length
+      console.log(`All ${qtd} icons created successfully!`)
+    })
+    .catch(err => {
+      console.err('Error creating icons!', err)
+    })
 })
+
 
 const optimize = (data, svgName) => {
   const cleanedSVG = customOptimization(data, svgName)
 
-  new svgo({ plugins: SVGOPlugins })
+  return new svgo({ plugins: SVGOPlugins })
     .optimize(cleanedSVG)
     .then(result => {
       saveFile(result.data, svgName)
@@ -65,6 +89,21 @@ const saveFile = (data, svgName) => {
   }
 
   fs.writeFileSync(path.join(outputPath, svgName), data, 'utf8')
+const optimize = (svgName, data) => {
+  const svgCleaned = customOptimization(data)
+  return SVGOoptimization(svgCleaned, svgName)
+}
+
+const saveFile = (data, svgName) => {
+  return new Promise((res, rej) => {
+    const savingFile = path.join(outputPath, svgName)
+    fs.writeFile(savingFile, data, 'utf8', err => {
+      if (err) {
+        return rej(err)
+      }
+      res(data)
+    })
+  })
 }
 
 const SVGOPlugins = [
@@ -114,5 +153,52 @@ const customOptimization = (data, file) => {
     .replace(/class="[a-zA-Z0-9:;\.\s\(\)\-\,]*"/gi, '')
     .replace(/fill="[a-zA-Z0 -9:;\.\s\(\)\-\,]*"/gi, '')
     .replace(/<g id="Square">.*?<\/g>/gi, '')
-    .replace('<svg', '<svg fill="#222020"')
+    // .replace('<svg', '<svg fill="#222020"')
+    .replace(/<rect(.*)width="\w+"(.*)height="\w+"\/>/g, '')
+    .replace(/<rect(.*)width="\w+"(.*)height="\w+"\/><\/rect>/g, '')
+// .replace('<path', '<path fill="#888888"')
+
+const SVGOoptimization = (data, svgName) => {
+  return new svgo({
+    plugins: [
+      { cleanupAttrs: true },
+      { removeDoctype: true },
+      { removeXMLProcInst: true },
+      { removeComments: true },
+      { removeMetadata: true },
+      { removeTitle: true },
+      { removeDesc: true },
+      { removeUselessDefs: true },
+      { removeEditorsNSData: true },
+      { removeEmptyAttrs: true },
+      { removeHiddenElems: true },
+      { removeEmptyText: true },
+      { removeEmptyContainers: true },
+      { removeViewBox: false },
+      { cleanupEnableBackground: true },
+      { convertStyleToAttrs: true },
+      { convertColors: true },
+      { convertPathData: true },
+      { convertTransform: true },
+      { removeUnknownsAndDefaults: true },
+      { removeNonInheritableGroupAttrs: true },
+      { removeUselessStrokeAndFill: true },
+      { removeUnusedNS: true },
+      { cleanupIDs: true },
+      { cleanupNumericValues: true },
+      { moveElemsAttrsToGroup: true },
+      { moveGroupAttrsToElems: true },
+      { collapseGroups: true },
+      { removeRasterImages: false },
+      { mergePaths: true },
+      { convertShapeToPath: true },
+      { sortAttrs: true },
+      { removeDimensions: true },
+    ],
+  })
+    .optimize(data)
+    .then(result => {
+      return saveFile(result.data, svgName)
+    })
+    .catch(err => console.log(data, err))
 }
