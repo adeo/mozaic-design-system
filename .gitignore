@@ -12,6 +12,8 @@ lerna-debug.log
 *.iml
 package-lock.json
 
+# Static icons auto-generated
+static/icons
 
 # Merge files
 *.orig
