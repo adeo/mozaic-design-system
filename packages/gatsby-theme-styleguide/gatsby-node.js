@@ -105,7 +105,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     previewsPath.push(`${node.fields.slug}`) // Add path to the list for tests purposes
 
-    mkdirp(pathName.replace(str, ''), function(err) {
+    mkdirp(pathName.replace(`previews/${str}`, 'previews/'), function(err) {
       if (err) return cb(err)
       let stream = fs.createWriteStream(`${fileName}.html`)
       stream.once('open', function(fd) {
