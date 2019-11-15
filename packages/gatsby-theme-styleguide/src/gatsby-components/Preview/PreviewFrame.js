@@ -108,13 +108,6 @@ export class PreviewFrame extends PureComponent {
     if (typeof window !== 'undefined') {
       this.setState({ location: window.location })
     }
-    setTimeout(() => {
-      this.setState({
-        iframeHeight: this.refs.iframe.contentDocument.body
-          ? this.refs.iframe.contentDocument.body.scrollHeight
-          : '90px',
-      })
-    }, 800)
   }
 
   iframeCSS = () => `
@@ -125,6 +118,14 @@ export class PreviewFrame extends PureComponent {
       overflow: hidden
     }
   `
+
+  iframeLoaded = () => {
+    this.setState({
+      iframeHeight: this.refs.iframe.contentDocument.body
+        ? this.refs.iframe.contentDocument.body.scrollHeight
+        : '90px',
+    })
+  }
 
   render() {
     const { iframeHeight } = this.state
@@ -153,6 +154,7 @@ export class PreviewFrame extends PureComponent {
             height={iframeHeight}
             src={iframeSrc}
             ref="iframe"
+            onLoad={this.iframeLoaded}
           />
         </FrameContainer>
         {!this.props.nude && (
@@ -184,6 +186,7 @@ export class PreviewFrame extends PureComponent {
             height={iframeHeight}
             src={iframeSrc}
             ref="iframe"
+            onLoad={this.iframeLoaded}
           />
         </FrameContainer>
         {!this.props.fullScreen && (
