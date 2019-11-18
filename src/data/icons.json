@@ -7,30 +7,6 @@
   },
   {
     "cat": "Device",
-    "size": "32px",
-    "name": "Empty_19",
-    "fullpath": "/icons/Device_Empty_19_32px.svg"
-  },
-  {
-    "cat": "Device",
-    "size": "32px",
-    "name": "Empty_20",
-    "fullpath": "/icons/Device_Empty_20_32px.svg"
-  },
-  {
-    "cat": "Device",
-    "size": "19",
-    "name": "Empty_32px",
-    "fullpath": "/icons/Device_Empty_32px_19.svg"
-  },
-  {
-    "cat": "Device",
-    "size": "20",
-    "name": "Empty_32px",
-    "fullpath": "/icons/Device_Empty_32px_20.svg"
-  },
-  {
-    "cat": "Device",
     "size": "48px",
     "name": "Laptop",
     "fullpath": "/icons/Device_Laptop_48px.svg"
@@ -46,6 +22,30 @@
     "size": "48px",
     "name": "Tablet",
     "fullpath": "/icons/Device_Tablet_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "360",
+    "fullpath": "/icons/Media_360_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "360",
+    "fullpath": "/icons/Media_360_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "360",
+    "fullpath": "/icons/Media_360_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "96px",
+    "name": "360",
+    "fullpath": "/icons/Media_360_96px.svg"
   },
   {
     "cat": "Media",
@@ -91,6 +91,12 @@
   },
   {
     "cat": "Media",
+    "size": "16px",
+    "name": "FullScreen",
+    "fullpath": "/icons/Media_FullScreen_16px.svg"
+  },
+  {
+    "cat": "Media",
     "size": "24px",
     "name": "FullScreen",
     "fullpath": "/icons/Media_FullScreen_24px.svg"
@@ -106,6 +112,18 @@
     "size": "48px",
     "name": "FullScreen",
     "fullpath": "/icons/Media_FullScreen_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "NoPicture",
+    "fullpath": "/icons/Media_NoPicture_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "NoPicture",
+    "fullpath": "/icons/Media_NoPicture_48px.svg"
   },
   {
     "cat": "Media",
@@ -139,6 +157,12 @@
   },
   {
     "cat": "Media",
+    "size": "64px",
+    "name": "Play",
+    "fullpath": "/icons/Media_Play_64px.svg"
+  },
+  {
+    "cat": "Media",
     "size": "24px",
     "name": "Player",
     "fullpath": "/icons/Media_Player_24px.svg"
@@ -157,6 +181,18 @@
   },
   {
     "cat": "Media",
+    "size": "64px",
+    "name": "Player",
+    "fullpath": "/icons/Media_Player_64px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "96px",
+    "name": "Player",
+    "fullpath": "/icons/Media_Player_96px.svg"
+  },
+  {
+    "cat": "Media",
     "size": "24px",
     "name": "Print",
     "fullpath": "/icons/Media_Print_24px.svg"
@@ -166,6 +202,90 @@
     "size": "48px",
     "name": "Print",
     "fullpath": "/icons/Media_Print_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Project",
+    "fullpath": "/icons/Media_Project_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "Project",
+    "fullpath": "/icons/Media_Project_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Project",
+    "fullpath": "/icons/Media_Project_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "64px",
+    "name": "Project",
+    "fullpath": "/icons/Media_Project_64px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Read",
+    "fullpath": "/icons/Media_Read_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Read",
+    "fullpath": "/icons/Media_Read_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "16px",
+    "name": "ReduceScreen",
+    "fullpath": "/icons/Media_ReduceScreen_16px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "ReduceScreen",
+    "fullpath": "/icons/Media_ReduceScreen_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "ReduceScreen",
+    "fullpath": "/icons/Media_ReduceScreen_32px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "ReduceScreen",
+    "fullpath": "/icons/Media_ReduceScreen_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Slideshow",
+    "fullpath": "/icons/Media_Slideshow_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Slideshow",
+    "fullpath": "/icons/Media_Slideshow_48px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "24px",
+    "name": "Sound",
+    "fullpath": "/icons/Media_Sound_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "32px",
+    "name": "Sound",
+    "fullpath": "/icons/Media_Sound_32px.svg"
   },
   {
     "cat": "Media",
@@ -208,6 +328,12 @@
     "size": "24px",
     "name": "Upload",
     "fullpath": "/icons/Media_Upload_24px.svg"
+  },
+  {
+    "cat": "Media",
+    "size": "48px",
+    "name": "Upload",
+    "fullpath": "/icons/Media_Upload_48px.svg"
   },
   {
     "cat": "Navigation",
@@ -332,6 +458,18 @@
   {
     "cat": "Navigation",
     "size": "16px",
+    "name": "Arrow_Breadcrumb--Bottom",
+    "fullpath": "/icons/Navigation_Arrow_Breadcrumb--Bottom_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Arrow_Breadcrumb--Right",
+    "fullpath": "/icons/Navigation_Arrow_Breadcrumb--Right_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
     "name": "Arrow_Next",
     "fullpath": "/icons/Navigation_Arrow_Next_16px.svg"
   },
@@ -355,27 +493,195 @@
   },
   {
     "cat": "Navigation",
-    "size": "16px",
-    "name": "Display_Close",
-    "fullpath": "/icons/Navigation_Display_Close_16px.svg"
+    "size": "64px",
+    "name": "Arrow_Next",
+    "fullpath": "/icons/Navigation_Arrow_Next_64px.svg"
   },
   {
     "cat": "Navigation",
     "size": "24px",
-    "name": "Display_Close",
-    "fullpath": "/icons/Navigation_Display_Close_24px.svg"
+    "name": "Control_Circle--Cross",
+    "fullpath": "/icons/Navigation_Control_Circle--Cross_24px.svg"
   },
   {
     "cat": "Navigation",
     "size": "32px",
-    "name": "Display_Close",
-    "fullpath": "/icons/Navigation_Display_Close_32px.svg"
+    "name": "Control_Circle--Cross",
+    "fullpath": "/icons/Navigation_Control_Circle--Cross_32px.svg"
   },
   {
     "cat": "Navigation",
     "size": "48px",
-    "name": "Display_Close",
-    "fullpath": "/icons/Navigation_Display_Close_48px.svg"
+    "name": "Control_Circle--Cross",
+    "fullpath": "/icons/Navigation_Control_Circle--Cross_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Control_Circle--Less",
+    "fullpath": "/icons/Navigation_Control_Circle--Less_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Control_Circle--Less",
+    "fullpath": "/icons/Navigation_Control_Circle--Less_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Control_Circle--Less",
+    "fullpath": "/icons/Navigation_Control_Circle--Less_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Control_Circle--More",
+    "fullpath": "/icons/Navigation_Control_Circle--More_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Control_Circle--More",
+    "fullpath": "/icons/Navigation_Control_Circle--More_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Control_Circle--More",
+    "fullpath": "/icons/Navigation_Control_Circle--More_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Control_Cross",
+    "fullpath": "/icons/Navigation_Control_Cross_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Control_Cross",
+    "fullpath": "/icons/Navigation_Control_Cross_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Control_Cross",
+    "fullpath": "/icons/Navigation_Control_Cross_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Control_Cross",
+    "fullpath": "/icons/Navigation_Control_Cross_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Control_Less",
+    "fullpath": "/icons/Navigation_Control_Less_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Control_Less",
+    "fullpath": "/icons/Navigation_Control_Less_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Control_Less",
+    "fullpath": "/icons/Navigation_Control_Less_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Control_Less",
+    "fullpath": "/icons/Navigation_Control_Less_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Control_More",
+    "fullpath": "/icons/Navigation_Control_More_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Control_More",
+    "fullpath": "/icons/Navigation_Control_More_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Control_More",
+    "fullpath": "/icons/Navigation_Control_More_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Control_More",
+    "fullpath": "/icons/Navigation_Control_More_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "16px",
+    "name": "Control_Tag--Cross",
+    "fullpath": "/icons/Navigation_Control_Tag--Cross_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Control_Tag--Cross",
+    "fullpath": "/icons/Navigation_Control_Tag--Cross_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Control_Tag--Cross",
+    "fullpath": "/icons/Navigation_Control_Tag--Cross_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Control_Tag--Cross",
+    "fullpath": "/icons/Navigation_Control_Tag--Cross_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Blink",
+    "fullpath": "/icons/Navigation_Display_Blink_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Blink",
+    "fullpath": "/icons/Navigation_Display_Blink_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_Calendar",
+    "fullpath": "/icons/Navigation_Display_Calendar_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Calendar",
+    "fullpath": "/icons/Navigation_Display_Calendar_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Calendar",
+    "fullpath": "/icons/Navigation_Display_Calendar_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "64px",
+    "name": "Display_Calendar",
+    "fullpath": "/icons/Navigation_Display_Calendar_64px.svg"
   },
   {
     "cat": "Navigation",
@@ -482,50 +788,32 @@
   {
     "cat": "Navigation",
     "size": "16px",
-    "name": "Display_Less",
-    "fullpath": "/icons/Navigation_Display_Less_16px.svg"
+    "name": "Display_LinkOut",
+    "fullpath": "/icons/Navigation_Display_LinkOut_16px.svg"
   },
   {
     "cat": "Navigation",
     "size": "24px",
-    "name": "Display_Less",
-    "fullpath": "/icons/Navigation_Display_Less_24px.svg"
+    "name": "Display_LinkOut",
+    "fullpath": "/icons/Navigation_Display_LinkOut_24px.svg"
   },
   {
     "cat": "Navigation",
     "size": "32px",
-    "name": "Display_Less",
-    "fullpath": "/icons/Navigation_Display_Less_32px.svg"
+    "name": "Display_LinkOut",
+    "fullpath": "/icons/Navigation_Display_LinkOut_32px.svg"
   },
   {
     "cat": "Navigation",
     "size": "48px",
-    "name": "Display_Less",
-    "fullpath": "/icons/Navigation_Display_Less_48px.svg"
+    "name": "Display_LinkOut",
+    "fullpath": "/icons/Navigation_Display_LinkOut_48px.svg"
   },
   {
     "cat": "Navigation",
-    "size": "16px",
-    "name": "Display_More",
-    "fullpath": "/icons/Navigation_Display_More_16px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
-    "name": "Display_More",
-    "fullpath": "/icons/Navigation_Display_More_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "32px",
-    "name": "Display_More",
-    "fullpath": "/icons/Navigation_Display_More_32px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Display_More",
-    "fullpath": "/icons/Navigation_Display_More_48px.svg"
+    "size": "64px",
+    "name": "Display_LinkOut",
+    "fullpath": "/icons/Navigation_Display_LinkOut_64px.svg"
   },
   {
     "cat": "Navigation",
@@ -559,6 +847,36 @@
   },
   {
     "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_ProductNumb",
+    "fullpath": "/icons/Navigation_Display_ProductNumb_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_ProductNumb",
+    "fullpath": "/icons/Navigation_Display_ProductNumb_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_Refresh",
+    "fullpath": "/icons/Navigation_Display_Refresh_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Refresh",
+    "fullpath": "/icons/Navigation_Display_Refresh_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_Refresh",
+    "fullpath": "/icons/Navigation_Display_Refresh_48px.svg"
+  },
+  {
+    "cat": "Navigation",
     "size": "32px",
     "name": "Display_ScreenRotation",
     "fullpath": "/icons/Navigation_Display_ScreenRotation_32px.svg"
@@ -568,6 +886,18 @@
     "size": "48px",
     "name": "Display_ScreenRotation",
     "fullpath": "/icons/Navigation_Display_ScreenRotation_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_SearchProduct",
+    "fullpath": "/icons/Navigation_Display_SearchProduct_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_SearchProduct",
+    "fullpath": "/icons/Navigation_Display_SearchProduct_48px.svg"
   },
   {
     "cat": "Navigation",
@@ -589,9 +919,27 @@
   },
   {
     "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_Setting",
+    "fullpath": "/icons/Navigation_Display_Setting_32px.svg"
+  },
+  {
+    "cat": "Navigation",
     "size": "48px",
     "name": "Display_Setting",
     "fullpath": "/icons/Navigation_Display_Setting_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_View",
+    "fullpath": "/icons/Navigation_Display_View_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_View",
+    "fullpath": "/icons/Navigation_Display_View_48px.svg"
   },
   {
     "cat": "Navigation",
@@ -613,45 +961,45 @@
   },
   {
     "cat": "Navigation",
-    "size": "24px",
-    "name": "Notification_Avaible",
-    "fullpath": "/icons/Navigation_Notification_Avaible_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "32px",
-    "name": "Notification_Avaible",
-    "fullpath": "/icons/Navigation_Notification_Avaible_32px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Notification_Avaible",
-    "fullpath": "/icons/Navigation_Notification_Avaible_48px.svg"
-  },
-  {
-    "cat": "Navigation",
     "size": "16px",
-    "name": "Notification_Check",
-    "fullpath": "/icons/Navigation_Notification_Check_16px.svg"
+    "name": "Notification_Available",
+    "fullpath": "/icons/Navigation_Notification_Available_16px.svg"
   },
   {
     "cat": "Navigation",
     "size": "24px",
-    "name": "Notification_Check",
-    "fullpath": "/icons/Navigation_Notification_Check_24px.svg"
+    "name": "Notification_Available",
+    "fullpath": "/icons/Navigation_Notification_Available_24px.svg"
   },
   {
     "cat": "Navigation",
     "size": "32px",
-    "name": "Notification_Check",
-    "fullpath": "/icons/Navigation_Notification_Check_32px.svg"
+    "name": "Notification_Available",
+    "fullpath": "/icons/Navigation_Notification_Available_32px.svg"
   },
   {
     "cat": "Navigation",
     "size": "48px",
-    "name": "Notification_Check",
-    "fullpath": "/icons/Navigation_Notification_Check_48px.svg"
+    "name": "Notification_Available",
+    "fullpath": "/icons/Navigation_Notification_Available_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Notification_Circle--Available",
+    "fullpath": "/icons/Navigation_Notification_Circle--Available_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Notification_Circle--Available",
+    "fullpath": "/icons/Navigation_Notification_Circle--Available_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Notification_Circle--Available",
+    "fullpath": "/icons/Navigation_Notification_Circle--Available_48px.svg"
   },
   {
     "cat": "Navigation",
@@ -710,68 +1058,8 @@
   {
     "cat": "Navigation",
     "size": "24px",
-    "name": "Publish_Add",
-    "fullpath": "/icons/Navigation_Publish_Add_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "32px",
-    "name": "Publish_Add",
-    "fullpath": "/icons/Navigation_Publish_Add_32px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Publish_Add",
-    "fullpath": "/icons/Navigation_Publish_Add_48px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
-    "name": "Publish_CircleAdd",
-    "fullpath": "/icons/Navigation_Publish_CircleAdd_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "32px",
-    "name": "Publish_CircleAdd",
-    "fullpath": "/icons/Navigation_Publish_CircleAdd_32px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Publish_CircleAdd",
-    "fullpath": "/icons/Navigation_Publish_CircleAdd_48px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
-    "name": "Publish_CircleDelete",
-    "fullpath": "/icons/Navigation_Publish_CircleDelete_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "32px",
-    "name": "Publish_CircleDelete",
-    "fullpath": "/icons/Navigation_Publish_CircleDelete_32px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Publish_CircleDelete",
-    "fullpath": "/icons/Navigation_Publish_CircleDelete_48px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
     "name": "Publish_Delete",
     "fullpath": "/icons/Navigation_Publish_Delete_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Publish_Delete",
-    "fullpath": "/icons/Navigation_Publish_Delete_48px.svg"
   },
   {
     "cat": "Navigation",
@@ -794,26 +1082,434 @@
   {
     "cat": "Navigation",
     "size": "16px",
-    "name": "Publish_TagDelete",
-    "fullpath": "/icons/Navigation_Publish_TagDelete_16px.svg"
+    "name": "Publish_Favorite",
+    "fullpath": "/icons/Navigation_Publish_Favorite_16px.svg"
   },
   {
     "cat": "Navigation",
     "size": "24px",
-    "name": "Publish_TagDelete",
-    "fullpath": "/icons/Navigation_Publish_TagDelete_24px.svg"
+    "name": "Publish_Favorite",
+    "fullpath": "/icons/Navigation_Publish_Favorite_24px.svg"
   },
   {
     "cat": "Navigation",
     "size": "32px",
-    "name": "Publish_TagDelete",
-    "fullpath": "/icons/Navigation_Publish_TagDelete_32px.svg"
+    "name": "Publish_Favorite",
+    "fullpath": "/icons/Navigation_Publish_Favorite_32px.svg"
   },
   {
     "cat": "Navigation",
     "size": "48px",
-    "name": "Publish_TagDelete",
-    "fullpath": "/icons/Navigation_Publish_TagDelete_48px.svg"
+    "name": "Publish_Favorite",
+    "fullpath": "/icons/Navigation_Publish_Favorite_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Publish_Send",
+    "fullpath": "/icons/Navigation_Publish_Send_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Publish_Trashbin",
+    "fullpath": "/icons/Navigation_Publish_Trashbin_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Bill",
+    "fullpath": "/icons/Payment_Bill_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Bill",
+    "fullpath": "/icons/Payment_Bill_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Bill",
+    "fullpath": "/icons/Payment_Bill_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_AmericanExpress",
+    "fullpath": "/icons/Payment_Cards_Monochrome_AmericanExpress_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_AmericanExpress",
+    "fullpath": "/icons/Payment_Cards_Monochrome_AmericanExpress_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_AmericanExpress",
+    "fullpath": "/icons/Payment_Cards_Monochrome_AmericanExpress_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_AmericanExpress",
+    "fullpath": "/icons/Payment_Cards_Monochrome_AmericanExpress_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_CB",
+    "fullpath": "/icons/Payment_Cards_Monochrome_CB_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_CB",
+    "fullpath": "/icons/Payment_Cards_Monochrome_CB_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_CB",
+    "fullpath": "/icons/Payment_Cards_Monochrome_CB_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_CB",
+    "fullpath": "/icons/Payment_Cards_Monochrome_CB_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Cheque",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Cheque_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Cheque",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Cheque_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Cheque",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Cheque_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Cheque",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Cheque_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Gift",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Gift_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Gift",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Gift_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Gift",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Gift_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Gift",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Gift_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Illicado",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Illicado_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Illicado",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Illicado_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Illicado",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Illicado_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Illicado",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Illicado_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Loyalty",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Loyalty_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Loyalty",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Loyalty_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Loyalty",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Loyalty_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Loyalty",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Loyalty_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Mastercard",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Mastercard_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Mastercard",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Mastercard_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Mastercard",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Mastercard_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Mastercard",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Mastercard_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Oney3",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Oney3_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_OneyX3",
+    "fullpath": "/icons/Payment_Cards_Monochrome_OneyX3_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_OneyX3",
+    "fullpath": "/icons/Payment_Cards_Monochrome_OneyX3_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_OneyX3",
+    "fullpath": "/icons/Payment_Cards_Monochrome_OneyX3_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Oney",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Oney_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Oney",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Oney_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Oney",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Oney_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Oney",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Oney_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Paylib",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paylib_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Paylib",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paylib_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Paylib",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paylib_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Paylib",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paylib_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Paypal",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paypal_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Paypal",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paypal_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Paypal",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paypal_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Visa",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Visa_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Cards_Monochrome_Visa",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Visa_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_Visa",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Visa_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Cards_Monochrome_Visa",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Visa_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "DetailsOrder",
+    "fullpath": "/icons/Payment_DetailsOrder_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "DetailsOrder",
+    "fullpath": "/icons/Payment_DetailsOrder_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "16px",
+    "name": "Euro",
+    "fullpath": "/icons/Payment_Euro_16px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Euro",
+    "fullpath": "/icons/Payment_Euro_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Euro",
+    "fullpath": "/icons/Payment_Euro_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Euro",
+    "fullpath": "/icons/Payment_Euro_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Euro",
+    "fullpath": "/icons/Payment_Euro_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Monochrome_Oney",
+    "fullpath": "/icons/Payment_Monochrome_Oney_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "Receipt",
+    "fullpath": "/icons/Payment_Receipt_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Receipt",
+    "fullpath": "/icons/Payment_Receipt_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "64px",
+    "name": "Receipt",
+    "fullpath": "/icons/Payment_Receipt_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "SafePayment1",
+    "fullpath": "/icons/Payment_SafePayment1_48px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "SafePayment2",
+    "fullpath": "/icons/Payment_SafePayment2_24px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "32px",
+    "name": "SafePayment2",
+    "fullpath": "/icons/Payment_SafePayment2_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "SafePayment2",
+    "fullpath": "/icons/Payment_SafePayment2_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Aspect_Quantity",
+    "fullpath": "/icons/Product_Aspect_Quantity_48px.svg"
   },
   {
     "cat": "Product",
@@ -841,69 +1537,81 @@
   },
   {
     "cat": "Product",
+    "size": "24px",
+    "name": "Basket_Add",
+    "fullpath": "/icons/Product_Basket_Add_24px.svg"
+  },
+  {
+    "cat": "Product",
     "size": "32px",
-    "name": "Basket_Basket--Add",
-    "fullpath": "/icons/Product_Basket_Basket--Add_32px.svg"
+    "name": "Basket_Add",
+    "fullpath": "/icons/Product_Basket_Add_32px.svg"
   },
   {
     "cat": "Product",
     "size": "48px",
-    "name": "Basket_Basket--Add",
-    "fullpath": "/icons/Product_Basket_Basket--Add_48px.svg"
+    "name": "Basket_Add",
+    "fullpath": "/icons/Product_Basket_Add_48px.svg"
   },
   {
     "cat": "Product",
     "size": "48px",
-    "name": "Basket_Basket--Multi",
-    "fullpath": "/icons/Product_Basket_Basket--Multi_48px.svg"
+    "name": "Basket_Handbag",
+    "fullpath": "/icons/Product_Basket_Handbag_48px.svg"
   },
   {
     "cat": "Product",
     "size": "48px",
-    "name": "Basket_Basket--Save",
-    "fullpath": "/icons/Product_Basket_Basket--Save_48px.svg"
+    "name": "Basket_Multi",
+    "fullpath": "/icons/Product_Basket_Multi_48px.svg"
+  },
+  {
+    "cat": "Product",
+    "size": "48px",
+    "name": "Basket_Save",
+    "fullpath": "/icons/Product_Basket_Save_48px.svg"
   },
   {
     "cat": "Product",
     "size": "24px",
-    "name": "Basket_Basket",
-    "fullpath": "/icons/Product_Basket_Basket_24px.svg"
+    "name": "Basket_Standard",
+    "fullpath": "/icons/Product_Basket_Standard_24px.svg"
   },
   {
     "cat": "Product",
     "size": "32px",
-    "name": "Basket_Basket",
-    "fullpath": "/icons/Product_Basket_Basket_32px.svg"
+    "name": "Basket_Standard",
+    "fullpath": "/icons/Product_Basket_Standard_32px.svg"
   },
   {
     "cat": "Product",
     "size": "48px",
-    "name": "Basket_Basket",
-    "fullpath": "/icons/Product_Basket_Basket_48px.svg"
+    "name": "Basket_Standard",
+    "fullpath": "/icons/Product_Basket_Standard_48px.svg"
   },
   {
     "cat": "Product",
     "size": "48px",
-    "name": "List_List--Add",
-    "fullpath": "/icons/Product_List_List--Add_48px.svg"
+    "name": "List_Add",
+    "fullpath": "/icons/Product_List_Add_48px.svg"
   },
   {
     "cat": "Product",
     "size": "24px",
-    "name": "List_List",
-    "fullpath": "/icons/Product_List_List_24px.svg"
+    "name": "List_Standard",
+    "fullpath": "/icons/Product_List_Standard_24px.svg"
   },
   {
     "cat": "Product",
     "size": "32px",
-    "name": "List_List",
-    "fullpath": "/icons/Product_List_List_32px.svg"
+    "name": "List_Standard",
+    "fullpath": "/icons/Product_List_Standard_32px.svg"
   },
   {
     "cat": "Product",
     "size": "48px",
-    "name": "List_List",
-    "fullpath": "/icons/Product_List_List_48px.svg"
+    "name": "List_Standard",
+    "fullpath": "/icons/Product_List_Standard_48px.svg"
   },
   {
     "cat": "Product",
@@ -922,18 +1630,6 @@
     "size": "48px",
     "name": "Promise_EcoProduct",
     "fullpath": "/icons/Product_Promise_EcoProduct_48px.svg"
-  },
-  {
-    "cat": "Product",
-    "size": "32px",
-    "name": "Promise_FairPrice",
-    "fullpath": "/icons/Product_Promise_FairPrice_32px.svg"
-  },
-  {
-    "cat": "Product",
-    "size": "48px",
-    "name": "Promise_FairPrice",
-    "fullpath": "/icons/Product_Promise_FairPrice_48px.svg"
   },
   {
     "cat": "Product",
@@ -1050,12 +1746,6 @@
     "fullpath": "/icons/Project_MakeProject_48px.svg"
   },
   {
-    "cat": "Project",
-    "size": "48px",
-    "name": "ProductNumb",
-    "fullpath": "/icons/Project_ProductNumb_48px.svg"
-  },
-  {
     "cat": "Service",
     "size": "48px",
     "name": "AfterSales_AfterSalesService",
@@ -1105,6 +1795,18 @@
   },
   {
     "cat": "Service",
+    "size": "48px",
+    "name": "Custom_CopyKey",
+    "fullpath": "/icons/Service_Custom_CopyKey_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Custom_Course",
+    "fullpath": "/icons/Service_Custom_Course_48px.svg"
+  },
+  {
+    "cat": "Service",
     "size": "24px",
     "name": "Custom_CutWoodGlass",
     "fullpath": "/icons/Service_Custom_CutWoodGlass_24px.svg"
@@ -1117,9 +1819,27 @@
   },
   {
     "cat": "Service",
+    "size": "32px",
+    "name": "Custom_Funding",
+    "fullpath": "/icons/Service_Custom_Funding_32px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Custom_Funding",
+    "fullpath": "/icons/Service_Custom_Funding_48px.svg"
+  },
+  {
+    "cat": "Service",
     "size": "48px",
     "name": "Custom_Sample",
     "fullpath": "/icons/Service_Custom_Sample_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "48px",
+    "name": "Custom_Sharpening",
+    "fullpath": "/icons/Service_Custom_Sharpening_48px.svg"
   },
   {
     "cat": "Service",
@@ -1147,6 +1867,18 @@
   },
   {
     "cat": "Service",
+    "size": "64px",
+    "name": "Delay_TimeDecline",
+    "fullpath": "/icons/Service_Delay_TimeDecline_64px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "24px",
+    "name": "Delivery_Delivery--Home",
+    "fullpath": "/icons/Service_Delivery_Delivery--Home_24px.svg"
+  },
+  {
+    "cat": "Service",
     "size": "32px",
     "name": "Delivery_Delivery--Home",
     "fullpath": "/icons/Service_Delivery_Delivery--Home_32px.svg"
@@ -1165,6 +1897,12 @@
   },
   {
     "cat": "Service",
+    "size": "24px",
+    "name": "Delivery_Delivery_Pickup--RelayPoint",
+    "fullpath": "/icons/Service_Delivery_Delivery_Pickup--RelayPoint_24px.svg"
+  },
+  {
+    "cat": "Service",
     "size": "32px",
     "name": "Delivery_Delivery_Pickup--RelayPoint",
     "fullpath": "/icons/Service_Delivery_Delivery_Pickup--RelayPoint_32px.svg"
@@ -1180,6 +1918,12 @@
     "size": "64px",
     "name": "Delivery_Delivery_Pickup--RelayPoint",
     "fullpath": "/icons/Service_Delivery_Delivery_Pickup--RelayPoint_64px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "24px",
+    "name": "Delivery_Delivery_Pickup--Store",
+    "fullpath": "/icons/Service_Delivery_Delivery_Pickup--Store_24px.svg"
   },
   {
     "cat": "Service",
@@ -1231,9 +1975,27 @@
   },
   {
     "cat": "Service",
+    "size": "24px",
+    "name": "Tools_3d",
+    "fullpath": "/icons/Service_Tools_3d_24px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "32px",
+    "name": "Tools_3d",
+    "fullpath": "/icons/Service_Tools_3d_32px.svg"
+  },
+  {
+    "cat": "Service",
     "size": "48px",
     "name": "Tools_3d",
     "fullpath": "/icons/Service_Tools_3d_48px.svg"
+  },
+  {
+    "cat": "Service",
+    "size": "24px",
+    "name": "Tools_Calculator",
+    "fullpath": "/icons/Service_Tools_Calculator_24px.svg"
   },
   {
     "cat": "Service",
@@ -1256,8 +2018,8 @@
   {
     "cat": "Service",
     "size": "48px",
-    "name": "Tools_Comparator_",
-    "fullpath": "/icons/Service_Tools_Comparator__48px.svg"
+    "name": "Tools_Comparator",
+    "fullpath": "/icons/Service_Tools_Comparator_48px.svg"
   },
   {
     "cat": "Social",
@@ -1339,6 +2101,12 @@
   },
   {
     "cat": "Social",
+    "size": "32px",
+    "name": "Share_ShareAndroid",
+    "fullpath": "/icons/Social_Share_ShareAndroid_32px.svg"
+  },
+  {
+    "cat": "Social",
     "size": "48px",
     "name": "Share_ShareAndroid",
     "fullpath": "/icons/Social_Share_ShareAndroid_48px.svg"
@@ -1381,12 +2149,6 @@
   },
   {
     "cat": "Social",
-    "size": "64px",
-    "name": "SocialNetwork_Facebook",
-    "fullpath": "/icons/Social_SocialNetwork_Facebook_64px.svg"
-  },
-  {
-    "cat": "Social",
     "size": "24px",
     "name": "SocialNetwork_Instagram",
     "fullpath": "/icons/Social_SocialNetwork_Instagram_24px.svg"
@@ -1402,12 +2164,6 @@
     "size": "48px",
     "name": "SocialNetwork_Instagram",
     "fullpath": "/icons/Social_SocialNetwork_Instagram_48px.svg"
-  },
-  {
-    "cat": "Social",
-    "size": "64px",
-    "name": "SocialNetwork_Instagram",
-    "fullpath": "/icons/Social_SocialNetwork_Instagram_64px.svg"
   },
   {
     "cat": "Social",
@@ -1429,12 +2185,6 @@
   },
   {
     "cat": "Social",
-    "size": "64px",
-    "name": "SocialNetwork_Linkedin",
-    "fullpath": "/icons/Social_SocialNetwork_Linkedin_64px.svg"
-  },
-  {
-    "cat": "Social",
     "size": "24px",
     "name": "SocialNetwork_Pinterest",
     "fullpath": "/icons/Social_SocialNetwork_Pinterest_24px.svg"
@@ -1450,12 +2200,6 @@
     "size": "48px",
     "name": "SocialNetwork_Pinterest",
     "fullpath": "/icons/Social_SocialNetwork_Pinterest_48px.svg"
-  },
-  {
-    "cat": "Social",
-    "size": "64px",
-    "name": "SocialNetwork_Pinterest",
-    "fullpath": "/icons/Social_SocialNetwork_Pinterest_64px.svg"
   },
   {
     "cat": "Social",
@@ -1477,12 +2221,6 @@
   },
   {
     "cat": "Social",
-    "size": "64px",
-    "name": "SocialNetwork_Twitter",
-    "fullpath": "/icons/Social_SocialNetwork_Twitter_64px.svg"
-  },
-  {
-    "cat": "Social",
     "size": "24px",
     "name": "SocialNetwork_Youtube",
     "fullpath": "/icons/Social_SocialNetwork_Youtube_24px.svg"
@@ -1501,69 +2239,45 @@
   },
   {
     "cat": "Social",
-    "size": "64px",
-    "name": "SocialNetwork_Youtube",
-    "fullpath": "/icons/Social_SocialNetwork_Youtube_64px.svg"
-  },
-  {
-    "cat": "Social",
     "size": "16px",
-    "name": "View_Dislike",
-    "fullpath": "/icons/Social_View_Dislike_16px.svg"
+    "name": "View_Like--Positive",
+    "fullpath": "/icons/Social_View_Like--Positive_16px.svg"
   },
   {
     "cat": "Social",
     "size": "32px",
-    "name": "View_Dislike",
-    "fullpath": "/icons/Social_View_Dislike_32px.svg"
+    "name": "View_Like--Positive",
+    "fullpath": "/icons/Social_View_Like--Positive_32px.svg"
   },
   {
     "cat": "Social",
     "size": "48px",
-    "name": "View_Dislike",
-    "fullpath": "/icons/Social_View_Dislike_48px.svg"
+    "name": "View_Like--Positive",
+    "fullpath": "/icons/Social_View_Like--Positive_48px.svg"
   },
   {
     "cat": "Social",
     "size": "16px",
-    "name": "View_Like",
-    "fullpath": "/icons/Social_View_Like_16px.svg"
+    "name": "View_Like-Negative",
+    "fullpath": "/icons/Social_View_Like-Negative_16px.svg"
   },
   {
     "cat": "Social",
     "size": "32px",
-    "name": "View_Like",
-    "fullpath": "/icons/Social_View_Like_32px.svg"
+    "name": "View_Like-Negative",
+    "fullpath": "/icons/Social_View_Like-Negative_32px.svg"
   },
   {
     "cat": "Social",
     "size": "48px",
-    "name": "View_Like",
-    "fullpath": "/icons/Social_View_Like_48px.svg"
+    "name": "View_Like-Negative",
+    "fullpath": "/icons/Social_View_Like-Negative_48px.svg"
   },
   {
     "cat": "Social",
     "size": "16px",
-    "name": "View_Star--Empty",
-    "fullpath": "/icons/Social_View_Star--Empty_16px.svg"
-  },
-  {
-    "cat": "Social",
-    "size": "24px",
-    "name": "View_Star--Empty",
-    "fullpath": "/icons/Social_View_Star--Empty_24px.svg"
-  },
-  {
-    "cat": "Social",
-    "size": "32px",
-    "name": "View_Star--Empty",
-    "fullpath": "/icons/Social_View_Star--Empty_32px.svg"
-  },
-  {
-    "cat": "Social",
-    "size": "48px",
-    "name": "View_Star--Empty",
-    "fullpath": "/icons/Social_View_Star--Empty_48px.svg"
+    "name": "View_Star--First",
+    "fullpath": "/icons/Social_View_Star--First_16px.svg"
   },
   {
     "cat": "Social",
@@ -1640,24 +2354,6 @@
   {
     "cat": "Store",
     "size": "24px",
-    "name": "ArrowItinerary",
-    "fullpath": "/icons/Store_ArrowItinerary_24px.svg"
-  },
-  {
-    "cat": "Store",
-    "size": "32px",
-    "name": "ArrowItinerary",
-    "fullpath": "/icons/Store_ArrowItinerary_32px.svg"
-  },
-  {
-    "cat": "Store",
-    "size": "48px",
-    "name": "ArrowItinerary",
-    "fullpath": "/icons/Store_ArrowItinerary_48px.svg"
-  },
-  {
-    "cat": "Store",
-    "size": "24px",
     "name": "Itinerary",
     "fullpath": "/icons/Store_Itinerary_24px.svg"
   },
@@ -1675,9 +2371,45 @@
   },
   {
     "cat": "Store",
+    "size": "32px",
+    "name": "Logo",
+    "fullpath": "/icons/Store_Logo_32px.svg"
+  },
+  {
+    "cat": "Store",
     "size": "48px",
     "name": "Logo",
     "fullpath": "/icons/Store_Logo_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "24px",
+    "name": "Map",
+    "fullpath": "/icons/Store_Map_24px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "32px",
+    "name": "Map",
+    "fullpath": "/icons/Store_Map_32px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "48px",
+    "name": "Map",
+    "fullpath": "/icons/Store_Map_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "48px",
+    "name": "RelayLocation--Outline",
+    "fullpath": "/icons/Store_RelayLocation--Outline_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "64px",
+    "name": "RelayLocation--Outline",
+    "fullpath": "/icons/Store_RelayLocation--Outline_64px.svg"
   },
   {
     "cat": "Store",
@@ -1700,20 +2432,32 @@
   {
     "cat": "Store",
     "size": "24px",
-    "name": "StoreLocation",
-    "fullpath": "/icons/Store_StoreLocation_24px.svg"
+    "name": "StoreLocation--Outline",
+    "fullpath": "/icons/Store_StoreLocation--Outline_24px.svg"
   },
   {
     "cat": "Store",
     "size": "32px",
-    "name": "StoreLocation",
-    "fullpath": "/icons/Store_StoreLocation_32px.svg"
+    "name": "StoreLocation--Outline",
+    "fullpath": "/icons/Store_StoreLocation--Outline_32px.svg"
   },
   {
     "cat": "Store",
     "size": "48px",
-    "name": "StoreLocation",
-    "fullpath": "/icons/Store_StoreLocation_48px.svg"
+    "name": "StoreLocation--Outline",
+    "fullpath": "/icons/Store_StoreLocation--Outline_48px.svg"
+  },
+  {
+    "cat": "Store",
+    "size": "64px",
+    "name": "StoreLocation--Outline",
+    "fullpath": "/icons/Store_StoreLocation--Outline_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Attic",
+    "fullpath": "/icons/Universe_Attic_64px.svg"
   },
   {
     "cat": "Universe",
@@ -1807,21 +2551,21 @@
   },
   {
     "cat": "Universe",
-    "size": "32px",
-    "name": "Electricity",
-    "fullpath": "/icons/Universe_Electricity_32px.svg"
-  },
-  {
-    "cat": "Universe",
     "size": "48px",
     "name": "Electricity",
     "fullpath": "/icons/Universe_Electricity_48px.svg"
   },
   {
     "cat": "Universe",
-    "size": "64px",
-    "name": "Electricity",
-    "fullpath": "/icons/Universe_Electricity_64px.svg"
+    "size": "32px",
+    "name": "Enki",
+    "fullpath": "/icons/Universe_Enki_32px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "48px",
+    "name": "Enki",
+    "fullpath": "/icons/Universe_Enki_48px.svg"
   },
   {
     "cat": "Universe",
@@ -1840,6 +2584,18 @@
     "size": "64px",
     "name": "Floor",
     "fullpath": "/icons/Universe_Floor_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "48px",
+    "name": "Garage",
+    "fullpath": "/icons/Universe_Garage_48px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Garage",
+    "fullpath": "/icons/Universe_Garage_64px.svg"
   },
   {
     "cat": "Universe",
@@ -1876,12 +2632,6 @@
     "size": "64px",
     "name": "Garden2",
     "fullpath": "/icons/Universe_Garden2_64px.svg"
-  },
-  {
-    "cat": "Universe",
-    "size": "32px",
-    "name": "Heater",
-    "fullpath": "/icons/Universe_Heater_32px.svg"
   },
   {
     "cat": "Universe",
@@ -1951,12 +2701,6 @@
   },
   {
     "cat": "Universe",
-    "size": "32px",
-    "name": "Lighting",
-    "fullpath": "/icons/Universe_Lighting_32px.svg"
-  },
-  {
-    "cat": "Universe",
     "size": "48px",
     "name": "Lighting",
     "fullpath": "/icons/Universe_Lighting_48px.svg"
@@ -1966,6 +2710,18 @@
     "size": "64px",
     "name": "Lighting",
     "fullpath": "/icons/Universe_Lighting_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "48px",
+    "name": "Living",
+    "fullpath": "/icons/Universe_Living_48px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Living",
+    "fullpath": "/icons/Universe_Living_64px.svg"
   },
   {
     "cat": "Universe",
@@ -2005,15 +2761,9 @@
   },
   {
     "cat": "Universe",
-    "size": "48px",
-    "name": "Project",
-    "fullpath": "/icons/Universe_Project_48px.svg"
-  },
-  {
-    "cat": "Universe",
-    "size": "64px",
-    "name": "Project",
-    "fullpath": "/icons/Universe_Project_64px.svg"
+    "size": "24px",
+    "name": "Security",
+    "fullpath": "/icons/Universe_Security_24px.svg"
   },
   {
     "cat": "Universe",
@@ -2032,12 +2782,6 @@
     "size": "64px",
     "name": "Security",
     "fullpath": "/icons/Universe_Security_64px.svg"
-  },
-  {
-    "cat": "Universe",
-    "size": "32px",
-    "name": "Terrace",
-    "fullpath": "/icons/Universe_Terrace_32px.svg"
   },
   {
     "cat": "Universe",
@@ -2131,45 +2875,45 @@
   },
   {
     "cat": "User",
-    "size": "32px",
-    "name": "Card_Gift",
-    "fullpath": "/icons/User_Card_Gift_32px.svg"
-  },
-  {
-    "cat": "User",
     "size": "48px",
     "name": "Card_Gift",
     "fullpath": "/icons/User_Card_Gift_48px.svg"
   },
   {
     "cat": "User",
-    "size": "24px",
-    "name": "Card_HouseCard",
-    "fullpath": "/icons/User_Card_HouseCard_24px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "32px",
-    "name": "Card_HouseCard",
-    "fullpath": "/icons/User_Card_HouseCard_32px.svg"
-  },
-  {
-    "cat": "User",
     "size": "48px",
-    "name": "Card_HouseCard",
-    "fullpath": "/icons/User_Card_HouseCard_48px.svg"
+    "name": "Card_IDCard",
+    "fullpath": "/icons/User_Card_IDCard_48px.svg"
   },
   {
     "cat": "User",
     "size": "64px",
-    "name": "Card_HouseCard",
-    "fullpath": "/icons/User_Card_HouseCard_64px.svg"
+    "name": "Card_IDCard",
+    "fullpath": "/icons/User_Card_IDCard_64px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "24px",
+    "name": "Card_LoyaltyCard",
+    "fullpath": "/icons/User_Card_LoyaltyCard_24px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "32px",
+    "name": "Card_LoyaltyCard",
+    "fullpath": "/icons/User_Card_LoyaltyCard_32px.svg"
   },
   {
     "cat": "User",
     "size": "48px",
-    "name": "Card_IDCard",
-    "fullpath": "/icons/User_Card_IDCard_48px.svg"
+    "name": "Card_LoyaltyCard",
+    "fullpath": "/icons/User_Card_LoyaltyCard_48px.svg"
+  },
+  {
+    "cat": "User",
+    "size": "64px",
+    "name": "Card_LoyaltyCard",
+    "fullpath": "/icons/User_Card_LoyaltyCard_64px.svg"
   },
   {
     "cat": "User",
@@ -2210,110 +2954,38 @@
   {
     "cat": "User",
     "size": "24px",
-    "name": "Payment_Monochrome_CarteBleue",
-    "fullpath": "/icons/User_Payment_Monochrome_CarteBleue_24px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "32px",
-    "name": "Payment_Monochrome_CarteBleue",
-    "fullpath": "/icons/User_Payment_Monochrome_CarteBleue_32px.svg"
+    "name": "Contact_Website",
+    "fullpath": "/icons/User_Contact_Website_24px.svg"
   },
   {
     "cat": "User",
     "size": "48px",
-    "name": "Payment_Monochrome_CarteBleue",
-    "fullpath": "/icons/User_Payment_Monochrome_CarteBleue_48px.svg"
+    "name": "Contact_Website",
+    "fullpath": "/icons/User_Contact_Website_48px.svg"
   },
   {
     "cat": "User",
     "size": "24px",
-    "name": "Payment_Monochrome_Illico",
-    "fullpath": "/icons/User_Payment_Monochrome_Illico_24px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "32px",
-    "name": "Payment_Monochrome_Illico",
-    "fullpath": "/icons/User_Payment_Monochrome_Illico_32px.svg"
+    "name": "Situation_Owner",
+    "fullpath": "/icons/User_Situation_Owner_24px.svg"
   },
   {
     "cat": "User",
     "size": "48px",
-    "name": "Payment_Monochrome_Illico",
-    "fullpath": "/icons/User_Payment_Monochrome_Illico_48px.svg"
+    "name": "Situation_Owner",
+    "fullpath": "/icons/User_Situation_Owner_48px.svg"
   },
   {
     "cat": "User",
     "size": "24px",
-    "name": "Payment_Monochrome_LM",
-    "fullpath": "/icons/User_Payment_Monochrome_LM_24px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "32px",
-    "name": "Payment_Monochrome_LM",
-    "fullpath": "/icons/User_Payment_Monochrome_LM_32px.svg"
+    "name": "Situation_Tenant",
+    "fullpath": "/icons/User_Situation_Tenant_24px.svg"
   },
   {
     "cat": "User",
     "size": "48px",
-    "name": "Payment_Monochrome_LM",
-    "fullpath": "/icons/User_Payment_Monochrome_LM_48px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "24px",
-    "name": "Payment_Monochrome_MasterCard",
-    "fullpath": "/icons/User_Payment_Monochrome_MasterCard_24px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "32px",
-    "name": "Payment_Monochrome_MasterCard",
-    "fullpath": "/icons/User_Payment_Monochrome_MasterCard_32px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "48px",
-    "name": "Payment_Monochrome_MasterCard",
-    "fullpath": "/icons/User_Payment_Monochrome_MasterCard_48px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "24px",
-    "name": "Payment_Monochrome_PayLib",
-    "fullpath": "/icons/User_Payment_Monochrome_PayLib_24px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "32px",
-    "name": "Payment_Monochrome_PayLib",
-    "fullpath": "/icons/User_Payment_Monochrome_PayLib_32px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "48px",
-    "name": "Payment_Monochrome_PayLib",
-    "fullpath": "/icons/User_Payment_Monochrome_PayLib_48px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "24px",
-    "name": "Payment_Monochrome_Visa",
-    "fullpath": "/icons/User_Payment_Monochrome_Visa_24px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "32px",
-    "name": "Payment_Monochrome_Visa",
-    "fullpath": "/icons/User_Payment_Monochrome_Visa_32px.svg"
-  },
-  {
-    "cat": "User",
-    "size": "48px",
-    "name": "Payment_Monochrome_Visa",
-    "fullpath": "/icons/User_Payment_Monochrome_Visa_48px.svg"
+    "name": "Situation_Tenant",
+    "fullpath": "/icons/User_Situation_Tenant_48px.svg"
   },
   {
     "cat": "Various",
@@ -2323,87 +2995,33 @@
   },
   {
     "cat": "Various",
-    "size": "48px",
-    "name": "Bill",
-    "fullpath": "/icons/Various_Bill_48px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "32px",
-    "name": "Blink",
-    "fullpath": "/icons/Various_Blink_32px.svg"
+    "size": "24px",
+    "name": "Apartment",
+    "fullpath": "/icons/Various_Apartment_24px.svg"
   },
   {
     "cat": "Various",
     "size": "48px",
-    "name": "Blink",
-    "fullpath": "/icons/Various_Blink_48px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "64px",
-    "name": "Blink",
-    "fullpath": "/icons/Various_Blink_64px.svg"
+    "name": "Apartment",
+    "fullpath": "/icons/Various_Apartment_48px.svg"
   },
   {
     "cat": "Various",
     "size": "24px",
-    "name": "Calendar",
-    "fullpath": "/icons/Various_Calendar_24px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "32px",
-    "name": "Calendar",
-    "fullpath": "/icons/Various_Calendar_32px.svg"
+    "name": "Balcony",
+    "fullpath": "/icons/Various_Balcony_24px.svg"
   },
   {
     "cat": "Various",
     "size": "48px",
-    "name": "Calendar",
-    "fullpath": "/icons/Various_Calendar_48px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "64px",
-    "name": "Calendar",
-    "fullpath": "/icons/Various_Calendar_64px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "48px",
-    "name": "DetailsOrder",
-    "fullpath": "/icons/Various_DetailsOrder_48px.svg"
+    "name": "Balcony",
+    "fullpath": "/icons/Various_Balcony_48px.svg"
   },
   {
     "cat": "Various",
     "size": "48px",
     "name": "EcoSaving",
     "fullpath": "/icons/Various_EcoSaving_48px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "16px",
-    "name": "Favorite",
-    "fullpath": "/icons/Various_Favorite_16px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "24px",
-    "name": "Favorite",
-    "fullpath": "/icons/Various_Favorite_24px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "32px",
-    "name": "Favorite",
-    "fullpath": "/icons/Various_Favorite_32px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "48px",
-    "name": "Favorite",
-    "fullpath": "/icons/Various_Favorite_48px.svg"
   },
   {
     "cat": "Various",
@@ -2416,6 +3034,18 @@
     "size": "64px",
     "name": "Heat",
     "fullpath": "/icons/Various_Heat_64px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "24px",
+    "name": "House",
+    "fullpath": "/icons/Various_House_24px.svg"
+  },
+  {
+    "cat": "Various",
+    "size": "48px",
+    "name": "House",
+    "fullpath": "/icons/Various_House_48px.svg"
   },
   {
     "cat": "Various",
@@ -2461,12 +3091,6 @@
   },
   {
     "cat": "Various",
-    "size": "48px",
-    "name": "NoPicture",
-    "fullpath": "/icons/Various_NoPicture_48px.svg"
-  },
-  {
-    "cat": "Various",
     "size": "24px",
     "name": "PaintCan",
     "fullpath": "/icons/Various_PaintCan_24px.svg"
@@ -2503,39 +3127,15 @@
   },
   {
     "cat": "Various",
-    "size": "48px",
-    "name": "Receipt",
-    "fullpath": "/icons/Various_Receipt_48px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "64px",
-    "name": "Receipt",
-    "fullpath": "/icons/Various_Receipt_64px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "48px",
-    "name": "SafePayment1",
-    "fullpath": "/icons/Various_SafePayment1_48px.svg"
-  },
-  {
-    "cat": "Various",
     "size": "24px",
-    "name": "SafePayment2",
-    "fullpath": "/icons/Various_SafePayment2_24px.svg"
-  },
-  {
-    "cat": "Various",
-    "size": "32px",
-    "name": "SafePayment2",
-    "fullpath": "/icons/Various_SafePayment2_32px.svg"
+    "name": "Premium",
+    "fullpath": "/icons/Various_Premium_24px.svg"
   },
   {
     "cat": "Various",
     "size": "48px",
-    "name": "SafePayment2",
-    "fullpath": "/icons/Various_SafePayment2_48px.svg"
+    "name": "Premium",
+    "fullpath": "/icons/Various_Premium_48px.svg"
   },
   {
     "cat": "Various",

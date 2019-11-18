@@ -4,7 +4,10 @@ const fs = require('fs')
 const iconDir = dirtree('static/icons')
 
 const iconList = iconDir.children.map(icon => {
-  const cat = icon.name.split('_')[0]
+  if (icon.type !== 'file') {
+    return
+  }
+  const cat = icon.name.split('_')[0] || ''
   const size = icon.name
     .replace(icon.extension, '')
     .split('_')
