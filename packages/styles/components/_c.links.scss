@@ -1,3 +1,4 @@
+/* mqp:start */
 .mc-link {
   @include set-link-base();
   @include set-link-theme(get-token(color, link, 'dark'));
@@ -27,3 +28,5 @@
     }
   }
 }
+
+/* mqp:end */

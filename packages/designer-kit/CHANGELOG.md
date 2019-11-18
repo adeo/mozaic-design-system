@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.26](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
+
+
+### Bug Fixes
+
+* **patterns/design kit:** remove spaces in the sketch files names to prevent git bugs ([#421](https://github.com/adeo/mozaic-design-system/issues/421)) ([42b11df](https://github.com/adeo/mozaic-design-system/commit/42b11df4280de0093430033196856e4d8a6fb1b2))
+
+
+
+
+
 ## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
 
 

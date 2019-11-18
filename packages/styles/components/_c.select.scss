@@ -1,3 +1,4 @@
+/* mqp:start */
 .mc-select {
   @include reset-input;
   @include set-font-scale('05');
@@ -28,7 +29,10 @@
   }
 
   &:disabled {
-    @include select-background-arrow($color-input-placeholder, $color-input-disabled-background);
+    @include select-background-arrow(
+      $color-input-placeholder,
+      $color-input-disabled-background
+    );
 
     border-color: $color-input-disabled-border;
     color: $color-input-placeholder;
@@ -43,3 +47,5 @@
     border-color: $color-input-valid-border;
   }
 }
+
+/* mqp:end */

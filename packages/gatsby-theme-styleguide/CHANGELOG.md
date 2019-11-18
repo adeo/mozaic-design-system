@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.26](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
+
+
+### Features
+
+* **website/readiness status:** add patterns readiness status page and headers ([#420](https://github.com/adeo/mozaic-design-system/issues/420)) ([d7b4087](https://github.com/adeo/mozaic-design-system/commit/d7b40876f098a8101d84953824cdfc9ebe36843f))
+
+
+
+
+
 ## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
 
 

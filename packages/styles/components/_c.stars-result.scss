@@ -1,3 +1,4 @@
+/* mqp:start */
 .mc-stars-result {
   $parent: &;
 
@@ -8,14 +9,18 @@
   &__visual {
     @include set-stars-container($stars-default-size);
 
-    background: url(inline-icons('star-full-32', $color-star-empty)) repeat-x left top;
+    background:
+      url(inline-icons('star-full-32', $color-star-empty)) repeat-x
+      left top;
     display: block;
     position: relative;
 
     &::before {
-      background: url(inline-icons('star-full-32', $color-star-full)) repeat-x left top;
+      background:
+        url(inline-icons('star-full-32', $color-star-full)) repeat-x
+        left top;
       bottom: 0;
-      content: "";
+      content: '';
       display: block;
       left: 0;
       position: absolute;
@@ -45,3 +50,5 @@
     }
   }
 }
+
+/* mqp:end */

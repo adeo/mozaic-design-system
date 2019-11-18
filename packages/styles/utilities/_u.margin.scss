@@ -1,5 +1,8 @@
+/* mqp:start */
 @each $sideName, $sideVal in $sides {
   @each $sizeName, $sizeVal in $sizes {
     @include make-space-util('m', $sideName, $sizeName);
   }
 }
+
+/* mqp:end */

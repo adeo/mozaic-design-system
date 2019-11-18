@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.26](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
+
+
+### Bug Fixes
+
+* **patterns/design kit:** remove spaces in the sketch files names to prevent git bugs ([#421](https://github.com/adeo/design-system--styleguide/issues/421)) ([42b11df](https://github.com/adeo/design-system--styleguide/commit/42b11df4280de0093430033196856e4d8a6fb1b2))
+* **patterns/media queries:** fix a bug linked to media queries declaration order by activating mqpacker ([43a9438](https://github.com/adeo/design-system--styleguide/commit/43a943871c962584149b60bc73b511092c284099))
+
+
+### Features
+
+* **onboard/mqpacker:** explain mqpacker in depth in the docs ([#425](https://github.com/adeo/design-system--styleguide/issues/425)) ([02f70bd](https://github.com/adeo/design-system--styleguide/commit/02f70bd04b2b51ed872d74684acdfccf6195deb4))
+* **patterns/spaces:** add an utility to manage all sides using a unique css classe ([#415](https://github.com/adeo/design-system--styleguide/issues/415)) ([f5fb22f](https://github.com/adeo/design-system--styleguide/commit/f5fb22fb3d1aaf46cdb936754334777ab534fb2b))
+* **tools/mqpacker:** create an pqpacker plugin that regroup queries only on demand ([5cbec9e](https://github.com/adeo/design-system--styleguide/commit/5cbec9e68827d1a02771f6d17de55635bc59e582))
+* **website/readiness status:** add patterns readiness status page and headers ([#420](https://github.com/adeo/design-system--styleguide/issues/420)) ([d7b4087](https://github.com/adeo/design-system--styleguide/commit/d7b40876f098a8101d84953824cdfc9ebe36843f))
+
+
+
+
+
 ## [1.0.1-alpha.25](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
 
 

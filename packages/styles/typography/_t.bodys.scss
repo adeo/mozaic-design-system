@@ -1,3 +1,4 @@
+/* mqp:start */
 .mt-body {
   &-l {
     @include set-font-face('regular');
@@ -38,3 +39,5 @@
     }
   }
 }
+
+/* mqp:end */

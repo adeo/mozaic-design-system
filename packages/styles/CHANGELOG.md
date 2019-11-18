@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.26](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
+
+
+### Bug Fixes
+
+* **patterns/media queries:** fix a bug linked to media queries declaration order by activating mqpacker ([43a9438](https://github.com/adeo/mozaic-design-system/commit/43a943871c962584149b60bc73b511092c284099))
+
+
+### Features
+
+* **patterns/spaces:** add an utility to manage all sides using a unique css classe ([#415](https://github.com/adeo/mozaic-design-system/issues/415)) ([f5fb22f](https://github.com/adeo/mozaic-design-system/commit/f5fb22fb3d1aaf46cdb936754334777ab534fb2b))
+
+
+
+
+
 ## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
 
 
