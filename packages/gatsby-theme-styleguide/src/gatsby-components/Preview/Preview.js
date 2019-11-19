@@ -21,7 +21,6 @@ class Preview extends PureComponent {
     // src/docs/Components/Buttons/previews/button-styles
     const basePath = 'src/docs'
     const { location, path } = this.props
-
     // we need only pieces of path
     let locationParsed = location.pathname.replace(/^\/|\/$/g, '').split('/')
 
@@ -55,6 +54,7 @@ class Preview extends PureComponent {
     return {
       node: {
         ...preview.node,
+        previewPath,
         codes: this.cleanEmptyCode(preview),
       },
     }

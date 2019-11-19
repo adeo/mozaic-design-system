@@ -73,6 +73,7 @@ const Frame = styled.iframe`
   width: 100%;
   margin: 0;
   padding: 0;
+  min-height: 90px;
 `
 
 const ToggleOptions = styled.button`
@@ -99,6 +100,13 @@ export class PreviewFrame extends PureComponent {
     this.state = {
       iframeHeight: 0,
       grid: this.props.grid,
+      location: '',
+    }
+  }
+
+  componentDidMount = () => {
+    if (typeof window !== 'undefined') {
+      this.setState({ location: window.location })
     }
   }
 
@@ -111,48 +119,23 @@ export class PreviewFrame extends PureComponent {
     }
   `
 
-  componentDidMount() {
-    this.updateIframe()
-  }
-
-  updateIframe = () => {
-    const preview = this.props.data.node.codes
-    const iframe = this.refs.iframe
-    const document = iframe.contentDocument
-    const head = document.getElementsByTagName('head')[0]
-    const style = document.createElement('style')
-
-    if (preview.js) {
-      const js = document.createElement('script')
-      js.innerHTML = preview.js
-      head.appendChild(js)
-    }
-
-    if (preview.css) {
-      style.innerHTML = `
-        ${this.iframeCSS()}
-        ${preview.css}
-      `
-    } else {
-      style.innerHTML = this.iframeCSS()
-    }
-
-    head.appendChild(style)
-
-    document.body.innerHTML =
-      preview.html !== undefined ? preview.html : 'No html'
-    document.body.style.margin = 0
-
+  iframeLoaded = () => {
     this.setState({
-      iframeHeight: this.refs.iframe.contentDocument.body.offsetHeight,
-      r: this.props.r,
+      iframeHeight: this.refs.iframe.contentDocument.body
+        ? this.refs.iframe.contentDocument.body.scrollHeight
+        : '90px',
     })
   }
 
   render() {
     const { iframeHeight } = this.state
     const { viewport, viewPorts, availableWidth, fullScreen, grid } = this.props
-
+    const iframeSrc =
+      this.props.data.node.previewPath && this.state.location
+        ? `${
+            this.state.location.origin
+          }/${this.props.data.node.previewPath.split('docs/').pop()}.html`
+        : ''
     if (this.props.data === undefined) {
       return <div />
     }
@@ -166,7 +149,13 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+          <Frame
+            frameBorder="0"
+            height={iframeHeight}
+            src={iframeSrc}
+            ref="iframe"
+            onLoad={this.iframeLoaded}
+          />
         </FrameContainer>
         {!this.props.nude && (
           <ViewportInfos>
@@ -192,7 +181,13 @@ export class PreviewFrame extends PureComponent {
           fullScreen={fullScreen}
           grid={grid}
         >
-          <Frame frameBorder="0" height={iframeHeight} ref="iframe" />
+          <Frame
+            frameBorder="0"
+            height={iframeHeight}
+            src={iframeSrc}
+            ref="iframe"
+            onLoad={this.iframeLoaded}
+          />
         </FrameContainer>
         {!this.props.fullScreen && (
           <ToggleOptions onClick={this.props.toggleOptions}>
