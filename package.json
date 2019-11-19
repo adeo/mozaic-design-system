@@ -19,10 +19,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@applitools/eyes-selenium": "^4.31.16",
-    "@applitools/eyes-webdriverio": "^5.8.2",
     "@mozaic-ds/gatsby-theme-styleguide": "^1.0.1-alpha",
-    "@wdio/applitools-service": "^5.13.2",
     "@wdio/browserstack-service": "^5.16.5",
     "@wdio/cli": "^5.16.0",
     "@wdio/local-runner": "^5.16.1",
@@ -97,7 +94,6 @@
     "develop": "npx gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "npx wdio",
-    "test:local": "npx wdio --baseUrl=http://localhost:8000",
     "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
     "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github prerelease",
     "npm:publish": "npx lerna exec --bail=false npm publish"
@@ -114,7 +110,9 @@
     ]
   },
   "browserslist": [
-    ">0.3%", "last 3 version", "IE > 10"
+    ">0.3%",
+    "last 3 version",
+    "IE > 10"
   ],
   "husky": {
     "hooks": {

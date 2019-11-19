@@ -9,7 +9,7 @@ describe('Mozaic Visual Testing', function() {
     it(`Previews for ${browser.capabilities.browserName}-${browser.config.capabilities.browser_version}-${browser.config.capabilities.resolution}`, async () => {
       const componentName = previewPath.split('/').pop()
 
-      await browser.url(`http://localhost:8000${previewPath}.html`)
+      await browser.url(`${previewPath}.html`)
 
       await browser.pause(2000)
 
