@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 const fs = require('fs')
+const rimraf = require('rimraf')
 const path = require('path')
 const svgo = require('svgo')
 const glob = require('glob')
@@ -53,9 +54,51 @@ glob(inputPath, (er, files) => {
         if (err) {
           throw err
         }
+// Promise based rimraf
+const promiseRimRaf = globDir => {
+  return new Promise((res, rej) => {
+    rimraf(globDir, err => {
+      if (err) {
+        return rej(err)
+      }
+      res(true)
+    })
+  })
+}
 
-        const svgName = path.basename(file)
-        return res(optimize(svgName, data))
+const main = async () => {
+  // verifying if outputPath exists (just one time)
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath)
+  }
+
+  const mainTask = () => {
+    return new Promise((finalRes, finalRej) => {
+      glob(inputPath, (er, files) => {
+        const newFilesArray = files.map(file => {
+          return new Promise((res, rej) => {
+            fs.readFile(file, 'utf8', (err, data) => {
+              if (err) {
+                throw err
+              }
+
+              const svgName = path.basename(file)
+              return res(optimize(svgName, data))
+            })
+          })
+        })
+
+        // waiting for all files to be saved!
+        Promise.all(newFilesArray)
+          .then(ret => {
+            const qtd = ret.length
+            console.log(`All ${qtd} icons created successfully!`)
+            finalRes(ret)
+          })
+          .catch(err => {
+            console.err('Error creating icons!', err)
+            finalRej(err)
+          })
       })
     })
   }) // newFilesArray
@@ -70,6 +113,15 @@ glob(inputPath, (er, files) => {
       console.err('Error creating icons!', err)
     })
 })
+  }
+
+  // firstly delete all files in target dir
+  await promiseRimRaf(outputPath + '*')
+
+  // Then create cleaned icons files and return an array of raw (svg) icon data
+  const processedIcons = await mainTask()
+  return processedIcons
+}
 
 
 const optimize = (data, svgName) => {
@@ -101,7 +153,7 @@ const saveFile = (data, svgName) => {
       if (err) {
         return rej(err)
       }
-      res(data)
+      res({ fileName: svgName, data })
     })
   })
 }
@@ -201,4 +253,22 @@ const SVGOoptimization = (data, svgName) => {
       return saveFile(result.data, svgName)
     })
     .catch(err => console.log(data, err))
-}
+} // SVGOoptimization
+
+// main()
+// .then(ret=>{
+//   console.log('First item',ret[0])
+//   return generateIconComponents(ret)
+// })
+// .then(ret=>{
+//   console.log('COMPONENTS FILE GENERATED!!',ret)
+
+// })
+// .catch(err=>{
+//   console.log('###################################');
+//   console.log('###################################');
+//   console.log('FINAL ERROR');
+//   console.log(err);
+// })
+
+module.exports = main

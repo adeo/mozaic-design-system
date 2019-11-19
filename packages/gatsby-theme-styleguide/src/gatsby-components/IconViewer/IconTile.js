@@ -2,6 +2,9 @@ import styled from 'styled-components'
 import React from 'react'
 
 import Copy from '../Copy'
+import * as icons from '../IconsComponents'
+
+import './icontile.scss'
 
 const IconDetail = styled.li`
   flex: 0 1 22.8%;
@@ -18,7 +21,8 @@ const IconWrapper = styled.div`
   line-height: 3.75;
   display: flex;
 
-  img {
+  img,
+  svg {
     margin: auto;
   }
 `
@@ -34,8 +38,8 @@ const SizeItem = styled.li`
   list-style: none;
   text-align: center;
   font-size: 0.65rem;
-  line-height: 1;
-  padding: 0.5rem 0.25rem;
+  line-height: 1.62rem;
+
   background: #f2f2f2;
   color: darkgrey;
 
@@ -59,6 +63,7 @@ const SizeItemBtn = styled.button`
   background: none;
   cursor: pointer;
   color: inherit;
+  padding: 0.5rem 0.25rem;
 `
 
 const IconName = styled.p`
@@ -101,28 +106,33 @@ class IconTile extends React.Component {
       sizes: {
         '16px': {
           url: null,
+          component: null,
           fullName: null,
         },
         '24px': {
           url: null,
+          component: null,
           fullName: null,
         },
         '32px': {
           url: null,
+          component: null,
           fullName: null,
         },
         '48px': {
           url: null,
+          component: null,
           fullName: null,
         },
         '64px': {
           url: null,
+          component: null,
           fullName: null,
         },
       },
     }
 
-    Object.keys(dataIcon.sizes).map(size => {
+    Object.keys(dataIcon.sizes).forEach(size => {
       if (!icons[size]) {
         return false
       } else {
@@ -130,6 +140,8 @@ class IconTile extends React.Component {
         dataIcon.sizes[size].fullName = dataIcon.sizes[size].url
           .replace('/icons/', '')
           .replace('.svg', '')
+
+        dataIcon.sizes[size].component = icons[size].componentName
       }
 
       if (!icons[dataIcon.currentSize]) {
@@ -145,15 +157,29 @@ class IconTile extends React.Component {
   }
 
   render() {
+    const Icon = icons[this.state.allIcon[this.state.currentSize].component]
+    console.log(
+      'props.icons',
+      this.props.icons,
+      this.state.allIcon,
+      '######################################################################3',
+      this.state.currentSize,
+      this.state.allIcon[this.state.currentSize].component
+    )
+
     return (
       <IconDetail>
         <IconName>{this.props.name}</IconName>
         <IconWrapper>
-          <img
+          {/* <img
             src={`${this.state.allIcon[this.state.currentSize].url}`}
             width={this.state.currentSize}
             height={this.state.currentSize}
             alt=""
+          /> */}
+          <Icon
+            fill="#454545"
+            className={`iconSize_${this.state.currentSize}`}
           />
         </IconWrapper>
         <SizesList>

@@ -86,6 +86,7 @@
     "css:fix": "npx stylelint npx stylelint src/pages/**/previews/*.scss packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint npx stylelint src/pages/**/previews/*.scss packages/styles/**/*.scss",
     "icons:clean": "rm -rf static/icons/ && rm -rf packages/icons/svg/ && node iconCompiler/svg-cleaner.js",
+    "icons:process": "node iconCompiler/index.js",
     "icons:datas": "node iconCompiler/generateIconsDatas.js",
     "icons:build": "yarn icons:clean && yarn icons:datas && cp -R static/icons/. packages/icons/svg",
     "prebuild": "yarn clean-cache && yarn tokens:build && yarn icons:build",

@@ -3,5 +3,20 @@
   "version": "1.0.1-alpha.29",
   "description": "svg icons for Mozaic design system",
   "author": "",
-  "license": "ISC"
+  "main": "index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "rimraf": "^3.0.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^15.5.4"
+  }
 }

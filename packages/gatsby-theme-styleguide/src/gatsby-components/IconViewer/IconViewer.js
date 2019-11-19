@@ -9,66 +9,75 @@ const IconsList = styled.ul`
   flex-wrap: wrap;
 `
 
-const IconViewer = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        allIconsJson {
-          edges {
-            node {
-              name
-              fullpath
-              size
-              cat
+const IconViewer = () => {
+  return (
+    <StaticQuery
+      query={graphql`
+        query {
+          allIconsJson {
+            edges {
+              node {
+                name
+                fullpath
+                size
+                cat
+                componentName
+              }
             }
           }
         }
-      }
-    `}
-    render={data => {
-      const icons = data.allIconsJson.edges
-      const categories = {}
+      `}
+      render={data => {
+        const icons = data.allIconsJson.edges
+        const categories = {}
 
-      icons.map(icon => {
-        if (!categories[icon.node.cat]) categories[icon.node.cat] = {}
+        icons.forEach(icon => {
+          // TODO - remove
+          // if(icon.node.cat !== 'Media') {
+          //   return true
+          // }
+          if (!categories[icon.node.cat]) categories[icon.node.cat] = {}
 
-        if (!categories[icon.node.cat][icon.node.name])
-          categories[icon.node.cat][icon.node.name] = {
-            '16px': null,
-            '24px': null,
-            '32px': null,
-            '48px': null,
-            '64px': null,
-          }
+          if (!categories[icon.node.cat][icon.node.name])
+            categories[icon.node.cat][icon.node.name] = {
+              '16px': null,
+              '24px': null,
+              '32px': null,
+              '48px': null,
+              '64px': null,
+            }
 
-        if (categories[icon.node.cat][icon.node.name][icon.node.size] === null)
-          categories[icon.node.cat][icon.node.name][icon.node.size] = {
-            ...icon.node,
-          }
+          if (
+            categories[icon.node.cat][icon.node.name][icon.node.size] === null
+          )
+            categories[icon.node.cat][icon.node.name][icon.node.size] = {
+              ...icon.node,
+            }
 
-        return null
-      })
+          return null
+        })
 
-      return (
-        <div>
-          {Object.keys(categories).map(cat => (
-            <div key={cat}>
-              <h1>{cat}</h1>
-              <IconsList>
-                {Object.keys(categories[cat]).map(name => (
-                  <IconTile
-                    key={`${cat}-${name}`}
-                    name={name}
-                    icons={categories[cat][name]}
-                  />
-                ))}
-              </IconsList>
-            </div>
-          ))}
-        </div>
-      )
-    }}
-  />
-)
+        return (
+          <div>
+            {Object.keys(categories).map(cat => (
+              <div key={cat}>
+                <h1>{cat}</h1>
+                <IconsList>
+                  {Object.keys(categories[cat]).map(name => (
+                    <IconTile
+                      key={`${cat}-${name}`}
+                      name={name}
+                      icons={categories[cat][name]}
+                    />
+                  ))}
+                </IconsList>
+              </div>
+            ))}
+          </div>
+        )
+      }}
+    />
+  )
+}
 
 export default IconViewer
