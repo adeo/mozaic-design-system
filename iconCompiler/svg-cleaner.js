@@ -8,97 +8,111 @@ const currentDir = process.cwd()
 const outputPath = path.join(currentDir, 'static/icons/')
 const inputPath = path.join(currentDir, 'src/icons/**/*.svg')
 
-let svgName, filePath
+const logERROR = (name, error) => {
+  console.log(`ICON ERROR | in ${name} : ${error}`)
+}
 
 glob(inputPath, (er, files) => {
   files.forEach(file => {
+    const svgName = path.basename(file)
+    const sizeDirectory = file.split(path.sep).reverse()[1]
+
+    if (svgName.includes(' ')) {
+      logERROR(svgName, 'icon Filename should not have contain spaces')
+    }
+
+    if (!svgName.endsWith('px.svg')) {
+      logERROR(svgName, 'icon Filename alway end with [size]px.svg')
+    }
+
+    if (!svgName.includes('_')) {
+      logERROR(
+        svgName,
+        'icon Filename should always start with a category name separated by an underscore "_"'
+      )
+    }
+
+    if (!svgName.includes(`${sizeDirectory}.svg`)) {
+      logERROR(
+        svgName,
+        'icon File name px value does not match the the related [x]px/ directory'
+      )
+    }
+
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
         throw err
       }
-
-      filePath = file
-      svgName = path.basename(filePath)
-
-      optimize(filePath, data)
+      optimize(data, svgName)
     })
   })
 })
 
-const optimize = (filePath, data) => {
-  let svgCleaned = customOptimization(data)
-  SVGOoptimization(svgCleaned)
+const optimize = (data, svgName) => {
+  const cleanedSVG = customOptimization(data, svgName)
+
+  new svgo({ plugins: SVGOPlugins })
+    .optimize(cleanedSVG)
+    .then(result => {
+      saveFile(result.data, svgName)
+    })
+    .catch(err => console.log(data, err))
 }
 
-const saveFile = data => {
+const saveFile = (data, svgName) => {
   if (!fs.existsSync(outputPath)) {
     fs.mkdirSync(outputPath)
   }
+
   fs.writeFileSync(path.join(outputPath, svgName), data, 'utf8')
 }
 
-const customOptimization = data =>
-  data
-    .replace(/ /g, ' ')
-    .replace(/\t/g, '')
-    .replace(/\n/g, '')
-    .replace(/\r/g, '')
-    // .replace('<?xml version="1.0" encoding="UTF-8"?>', '')
-    .replace(/>\s+</g, '><')
-    .replace(/<g(.*?)>/g, '')
-    .replace(/<\/g>/g, '')
-    // .replace(/<!--(.*)-->/g, '')
+const SVGOPlugins = [
+  { cleanupAttrs: true },
+  { removeDoctype: true },
+  { removeXMLProcInst: true },
+  { removeComments: true },
+  { removeMetadata: true },
+  { removeTitle: true },
+  { removeDesc: true },
+  { removeUselessDefs: true },
+  { removeEditorsNSData: true },
+  { removeEmptyAttrs: true },
+  { removeHiddenElems: true },
+  { removeEmptyText: true },
+  { removeEmptyContainers: true },
+  { removeViewBox: false },
+  { cleanupEnableBackground: true },
+  { convertStyleToAttrs: true },
+  { convertColors: true },
+  { convertPathData: true },
+  { convertTransform: true },
+  { removeUnknownsAndDefaults: true },
+  { removeNonInheritableGroupAttrs: true },
+  { removeUselessStrokeAndFill: true },
+  { removeUnusedNS: true },
+  { cleanupIDs: true },
+  { cleanupNumericValues: true },
+  { moveElemsAttrsToGroup: true },
+  { moveGroupAttrsToElems: true },
+  { collapseGroups: true },
+  { removeRasterImages: false },
+  { mergePaths: true },
+  { convertShapeToPath: false },
+  { sortAttrs: true },
+  { removeDimensions: true },
+]
+
+const customOptimization = (data, file) => {
+  if (!data.match(/<g id="Square">.*?<\/g>/gi)) {
+    logERROR(file, 'Icon should have a group with a "Square" id')
+  }
+
+  return data
     .replace(/<style>(.*)<\/style>/g, '')
     .replace(/<defs><\/defs>/g, '')
-    // .replace(/<title>(.*)<\/title>/g, '')
-    // .replace(/<desc>Created with Sketch.<\/desc>/g, '')
     .replace(/class="[a-zA-Z0-9:;\.\s\(\)\-\,]*"/gi, '')
     .replace(/fill="[a-zA-Z0 -9:;\.\s\(\)\-\,]*"/gi, '')
-    .replace(/<rect(.*)width="\w+"(.*)height="\w+"\/>/g, '')
-    .replace(/<rect(.*)width="\w+"(.*)height="\w+"\/><\/rect>/g, '')
-    .replace('<path', '<path fill="#222020"')
-
-const SVGOoptimization = data => {
-  new svgo({
-    plugins: [
-      { cleanupAttrs: true },
-      { removeDoctype: true },
-      { removeXMLProcInst: true },
-      { removeComments: true },
-      { removeMetadata: true },
-      { removeTitle: true },
-      { removeDesc: true },
-      { removeUselessDefs: true },
-      { removeEditorsNSData: true },
-      { removeEmptyAttrs: true },
-      { removeHiddenElems: true },
-      { removeEmptyText: true },
-      { removeEmptyContainers: true },
-      { removeViewBox: false },
-      { cleanupEnableBackground: true },
-      { convertStyleToAttrs: true },
-      { convertColors: true },
-      { convertPathData: true },
-      { convertTransform: true },
-      { removeUnknownsAndDefaults: true },
-      { removeNonInheritableGroupAttrs: true },
-      { removeUselessStrokeAndFill: true },
-      { removeUnusedNS: true },
-      { cleanupIDs: true },
-      { cleanupNumericValues: true },
-      { moveElemsAttrsToGroup: true },
-      { moveGroupAttrsToElems: true },
-      { collapseGroups: true },
-      { removeRasterImages: false },
-      { mergePaths: true },
-      { convertShapeToPath: true },
-      { sortAttrs: true },
-      { removeDimensions: true },
-    ],
-  })
-    .optimize(data)
-    .then(result => {
-      saveFile(result.data)
-    })
-    .catch(err => console.log(data, err))
+    .replace(/<g id="Square">.*?<\/g>/gi, '')
+    .replace('<svg', '<svg fill="#222020"')
 }
