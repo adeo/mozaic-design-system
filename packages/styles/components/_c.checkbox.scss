@@ -29,31 +29,34 @@
       border-color: $color-input-invalid-border;
     }
 
-    &:hover,
-    &.is-hover {
-      border-color: $color-input-invalid-hover-border;
-
-      &::-ms-check {
+    &:hover {
+      @include add-demo-state-class {
         border-color: $color-input-invalid-hover-border;
+
+        &::-ms-check {
+          border-color: $color-input-invalid-hover-border;
+        }
       }
     }
   }
 
-  &:hover,
-  &.is-hover {
-    border-color: $color-input-hover-border;
-
-    &::-ms-check {
+  &:hover {
+    @include add-demo-state-class {
       border-color: $color-input-hover-border;
+
+      &::-ms-check {
+        border-color: $color-input-hover-border;
+      }
     }
   }
 
-  &:focus,
-  &.is-focus {
-    border-color: $color-input-focus-border;
-
-    &::-ms-check {
+  &:focus {
+    @include add-demo-state-class {
       border-color: $color-input-focus-border;
+
+      &::-ms-check {
+        border-color: $color-input-focus-border;
+      }
     }
   }
 

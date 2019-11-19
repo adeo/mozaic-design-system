@@ -1,0 +1,31 @@
+@mixin add-demo-state-class {
+  @if variable-exists('mozaic-env') {
+    $selector: &;
+
+    $states: (
+      ':active',
+      ':disabled',
+      ':focus',
+      ':hover',
+      ':visited'
+    );
+
+    @each $state in $states {
+      $hasState: str-index('#{$selector}', '#{$state}');
+
+      @if $hasState {
+        $stateClass: '.is-' + str-slice('#{$state}', 2, -1);
+        $newSelector: selector-replace('#{$selector}', '#{$state}', '#{$stateClass}');
+
+        @at-root #{if($mozaic-env == development, '#{$newSelector},', '')}
+        #{$selector} {
+          @content;
+        }
+      }
+    }
+  }
+
+  @else {
+    @content;
+  }
+}

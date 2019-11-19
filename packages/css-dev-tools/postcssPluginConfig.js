@@ -1,3 +1,4 @@
+require('dotenv').config()
 const scssSyntax = require('postcss-scss')
 const autoprefixer = require('autoprefixer')
 const nodeSass = require('postcss-node-sass')
@@ -6,9 +7,12 @@ const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
 const cssnano = require('cssnano')
 const mqpackerondemand = require('@mozaic-ds/postcss-media-queries-packer-on-demand')
+const cssprepend = require('@mozaic-ds/postcss-prepend')
 const CM = require('@mozaic-ds/configuration-manager')
 
 const MOZAIC_ENV = process.env.MOZAIC_ENV
+const mozaicEnvScssVar =
+  MOZAIC_ENV === 'production' ? MOZAIC_ENV : 'development'
 
 // test for user configured additional paths
 const additionalPaths = CM.getKey('sass.includePaths')
@@ -43,6 +47,7 @@ const styleLintConfig = require('./styleLintConfig')
 const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),
+  cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   nodeSass({
     includePaths,
     outputStyle: 'expanded',
@@ -59,6 +64,7 @@ const plugins = [
 ]
 
 const productionPlugins = [
+  cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   nodeSass({
     includePaths,
     outputStyle: 'expanded',

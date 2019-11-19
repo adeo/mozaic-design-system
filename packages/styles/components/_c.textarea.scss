@@ -18,9 +18,10 @@
     calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
     calc(#{$mu075} + 0.125em - #{$border-width});
 
-  &:hover,
-  &.is-hover {
-    border-color: $color-input-hover-border;
+  &:hover {
+    @include add-demo-state-class {
+      border-color: $color-input-hover-border;
+    }
   }
 
   &.is-valid {
@@ -31,9 +32,10 @@
     border-color: $color-input-invalid-border;
   }
 
-  &:focus,
-  &.is-focus {
-    border-color: $color-input-focus-border;
+  &:focus {
+    @include add-demo-state-class {
+      border-color: $color-input-focus-border;
+    }
   }
 
   &:disabled {

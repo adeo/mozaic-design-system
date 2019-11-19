@@ -37,30 +37,33 @@
       transform: translateY(-0.125em);
     }
 
-    :focus + &,
-    .is-focus + & {
-      @include set-button-theme(get-token(color, button, 'bordered', 'focus'));
+    :focus + & {
+      @include add-demo-state-class {
+        @include set-button-theme(get-token(color, button, 'bordered', 'focus'));
+      }
     }
 
-    :hover + &,
-    .is-hover + & {
-      @include set-button-theme(get-token(color, button, 'bordered', 'hover'));
+    :hover + & {
+      @include add-demo-state-class {
+        @include set-button-theme(get-token(color, button, 'bordered', 'hover'));
+      }
     }
 
-    :disabled + &,
-    .is-disabled + & {
-      @include set-button-theme(
-        get-token(color, button, 'bordered', 'disabled')
-      );
+    :disabled + & {
+      @include add-demo-state-class {
+        @include set-button-theme(
+          get-token(color, button, 'bordered', 'disabled')
+        );
 
-      border-color: transparent;
-      cursor: default;
+        border-color: transparent;
+        cursor: default;
 
-      &::before {
-        background:
-          transparent
-          url(inline-icons('upload-24', $color-button-bordered-disabled-font))
-          no-repeat;
+        &::before {
+          background:
+            transparent
+            url(inline-icons('upload-24', $color-button-bordered-disabled-font))
+            no-repeat;
+        }
       }
     }
   }
