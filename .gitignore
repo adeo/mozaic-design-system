@@ -24,6 +24,7 @@ package-lock.json
 
 # test file 
 test/previewsPath.js
+test/screenshots
 
 # static previews
 static/Components

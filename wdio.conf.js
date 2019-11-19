@@ -1,6 +1,4 @@
-// WIP - Waiting on full access to applitools to run tests on their server
 require('dotenv').config()
-//const process = require('process');
 
 exports.config = {
   //
@@ -10,7 +8,7 @@ exports.config = {
   //
   // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
   // on a remote machine).
-  runner: 'local',
+  //runner: 'local',
   //
   // Override default path ('/wd/hub') for chromedriver service.
   // port: 4444,
@@ -44,7 +42,7 @@ exports.config = {
   // and 30 processes will get spawned. The property handles how many capabilities
   // from the same test should run tests.
   //
-  maxInstances: 1,
+  maxInstances: 13,
   //
   // If you have trouble getting all important capabilities together, check out the
   // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -62,24 +60,111 @@ exports.config = {
   //     // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
   //     // excludeDriverLogs: ['bugreport', 'server'],
   // }],
-  sync: false,
+  sync: true,
+
   capabilities: [
     {
       browserName: 'chrome',
-      browserVersion: 'latest-1',
-      'goog:chromeOptions': {
-        args: ['--headless', '--disable-gpu'],
-      },
+      browser_version: '63.0',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
     },
-    // {
-    //     browserName: 'internet explorer',
-    // },
-    // {
-    //     browserName: 'safari',
-    // },
-    // {
-    //     browserName: 'firefox',
-    // }
+    {
+      browserName: 'edge',
+      browser_version: '18.0',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      browserName: 'edge',
+      browser_version: '16.0',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      browserName: 'IE',
+      browser_version: '11.0',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      browserName: 'Opera',
+      browser_version: '12.16',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      browserName: 'safari',
+      browser_version: '13.0',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      browserName: 'safari',
+      browser_version: '5.1',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      browserName: 'safari',
+      browser_version: '13.0',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      browserName: 'firefox',
+      browser_version: '69.0',
+      resolution: '1280x1024',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      device: 'iPhone 11 Pro Max',
+      os_version: '13',
+      browserName: 'iPhone',
+      browser_version: 'Mobile',
+      resolution: '375*812',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      device: 'iPhone 7',
+      os_version: '10',
+      browserName: 'iPhone',
+      browser_version: 'Mobile',
+      resolution: '375x812',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
+    {
+      device: 'Samsung Galaxy S8',
+      os_version: '7.0',
+      browserName: 'Android',
+      browser_version: 'Mobile',
+      resolution: '360x640',
+      'browserstack.video': false,
+      build: 'baseline',
+      project: 'mozaic-testing',
+    },
   ],
   //
   // ===================
@@ -128,9 +213,11 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ['applitools', 'selenium-standalone'],
+  services: ['browserstack'],
 
-  applitoolsKey: process.env.APPLITOOLS_API_KEY,
+  user: process.env.BROWSERSTACK_USERNAME,
+  key: process.env.BROWSERSTACK_KEY,
+  browserstackLocal: true,
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
   // see also: https://webdriver.io/docs/frameworks.html
