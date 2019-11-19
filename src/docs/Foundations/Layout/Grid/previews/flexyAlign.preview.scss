@@ -27,10 +27,12 @@
   }
 
   &__item {
-    flex: 1;
+    flex: 1 1 auto;
     align-self: stretch;
+    min-height: $mu400;
     height: fit-content;
     box-shadow: 0 0 0 1px $color-primary-01-500;
+    overflow: visible;
     padding: $mu100 0;
     text-align: center;
     letter-spacing: 0.05em;

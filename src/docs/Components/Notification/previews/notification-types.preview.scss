@@ -9,15 +9,16 @@ body {
   padding-bottom: $mu600;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .example {
-  margin: $mu150;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 
   &__mc-notification {
-    margin-top: $mu150;
-    width: 38%;
+    padding: $mu050;
+    flex: 0 0 49%;
   }
 }

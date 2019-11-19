@@ -16,6 +16,13 @@
     }
   }
 
+  &--justify-center {
+    @include modify-from-screens($major-screens) {
+      justify-content: center;
+      -ms-flex-pack: center;
+    }
+  }
+
   &--items-stretch {
     align-items: stretch;
   }

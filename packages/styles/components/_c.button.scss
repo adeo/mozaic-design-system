@@ -45,7 +45,7 @@
     }
 
     &:only-child {
-      margin: auto;
+      margin: 0;
     }
 
     @each $size, $props in $icons {
