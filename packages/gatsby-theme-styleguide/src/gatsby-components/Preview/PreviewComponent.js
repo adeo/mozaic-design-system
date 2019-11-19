@@ -71,11 +71,15 @@ export class PreviewComponent extends PureComponent {
       currentCodeSample: 'html',
       copyCompatible: false,
       copied: false,
+      location: '',
     }
   }
 
   componentDidMount() {
     this.props.getAvailableWidth(this.contRef.clientWidth)
+    if (typeof window !== 'undefined') {
+      this.setState({ location: window.location })
+    }
   }
 
   componentDidUpdate() {
@@ -130,6 +134,12 @@ export class PreviewComponent extends PureComponent {
     if (this.props.data === undefined) {
       return <div />
     }
+    const iframeSrc =
+      this.props.data.node.previewPath && this.state.location
+        ? `${
+            this.state.location.origin
+          }/${this.props.data.node.previewPath.split('docs/').pop()}.html`
+        : ''
 
     const ViewPortsObj = viewPorts
     const preview = this.props.data.node.codes
@@ -147,6 +157,7 @@ export class PreviewComponent extends PureComponent {
                 changeViewPort={changeViewPort}
                 showGrid={showGrid}
                 grid={grid}
+                iframeSrc={iframeSrc}
               />
               <Body ref={body => (this.body = body)}>
                 <PreviewFrame
@@ -157,6 +168,7 @@ export class PreviewComponent extends PureComponent {
                   data={this.props.data}
                   grid={grid}
                   showGrid={showGrid}
+                  iframeSrc={iframeSrc}
                 />
               </Body>
             </Left>
@@ -190,6 +202,7 @@ export class PreviewComponent extends PureComponent {
                 changeViewPort={changeViewPort}
                 showGrid={showGrid}
                 grid={grid}
+                iframeSrc={iframeSrc}
               />
             )}
             <PreviewFrame
@@ -201,6 +214,7 @@ export class PreviewComponent extends PureComponent {
               grid={grid}
               toggleOptions={toggleOptions}
               nude={nude}
+              iframeSrc={iframeSrc}
             />
 
             {!nude && (

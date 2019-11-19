@@ -119,15 +119,31 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const buildHtml = data => {
     var header = data.codes.css
     var body = data.codes.html
-    return (
-      '<!DOCTYPE html>' +
-      '<html><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge">' +
-      '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><style>' +
-      header +
-      '</style></head><body>' +
-      body +
-      '</body></html>'
-    )
+    return `
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <style type="text/css">
+            * {
+              box-sizing: padding-box;
+            }
+            
+            body, html {
+              margin :0;
+              padding :0;
+              display: block;
+              overflow: hidden
+            }
+          </style>
+          <style>${header}</style>
+        </head>
+        <body>
+          ${body}
+        </body>
+      </html>
+    `
   }
 
   // Create an array with all the previews path. Used for testing purposes

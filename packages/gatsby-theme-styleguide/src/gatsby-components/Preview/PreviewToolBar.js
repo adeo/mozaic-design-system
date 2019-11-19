@@ -50,6 +50,12 @@ const Item = styled.div`
   border-right: solid 1px #ececec;
 `
 
+const SinglePreview = styled.a`
+  color: #666;
+  font-size: 11px;
+  margin-right: 10px;
+`
+
 const PatternToolBar = ({
   changeViewPort,
   viewport,
@@ -59,6 +65,7 @@ const PatternToolBar = ({
   availableWidth,
   showGrid,
   grid,
+  iframeSrc,
 }) => (
   <Toolbar fullScreen={fullScreen}>
     <div>
@@ -87,6 +94,9 @@ const PatternToolBar = ({
     </div>
 
     <Item>
+      <SinglePreview href={iframeSrc} target="_blank" rel="noopener noreferrer">
+        <IconLibrairy name="external-link" size="12" fill="#554f52" />
+      </SinglePreview>
       <ScreenButton onClick={() => toggleFullScreen()}>
         {fullScreen ? (
           <IconLibrairy name="reducescreen" size="12" fill="#554f52" />

@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import styled, { css } from 'styled-components'
 
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
@@ -94,118 +94,97 @@ const ViewportInfos = styled.span`
   padding: 6px 8px;
 `
 
-export class PreviewFrame extends PureComponent {
-  constructor(props) {
-    super(props)
-    this.state = {
-      iframeHeight: 0,
-      grid: this.props.grid,
-      location: '',
-    }
-  }
+const PreviewFrame = ({
+  viewport,
+  viewPorts,
+  availableWidth,
+  fullScreen,
+  grid,
+  iframeSrc,
+  nude,
+  toggleOptions,
+}) => {
+  const [iframeHeight, setIframeHeight] = useState(0)
+  const frame = useRef(null)
 
-  componentDidMount = () => {
-    if (typeof window !== 'undefined') {
-      this.setState({ location: window.location })
-    }
-  }
+  const resizeFrame = () =>
+    setIframeHeight(
+      frame.current.contentDocument.body
+        ? frame.current.contentDocument.body.scrollHeight
+        : '90px'
+    )
 
-  iframeCSS = () => `
-    body, html {
-      margin :0;
-      padding :0;
-      display: block;
-      overflow: hidden
-    }
-  `
+  useEffect(() => {
+    resizeFrame()
+  })
 
-  iframeLoaded = () => {
-    this.setState({
-      iframeHeight: this.refs.iframe.contentDocument.body
-        ? this.refs.iframe.contentDocument.body.scrollHeight
-        : '90px',
-    })
-  }
-
-  render() {
-    const { iframeHeight } = this.state
-    const { viewport, viewPorts, availableWidth, fullScreen, grid } = this.props
-    const iframeSrc =
-      this.props.data.node.previewPath && this.state.location
-        ? `${
-            this.state.location.origin
-          }/${this.props.data.node.previewPath.split('docs/').pop()}.html`
-        : ''
-    if (this.props.data === undefined) {
-      return <div />
-    }
-
-    return fullScreen ? (
-      <>
-        <FrameContainer
-          viewport={viewport}
-          viewPorts={viewPorts}
-          availableWidth={availableWidth}
-          fullScreen={fullScreen}
-          grid={grid}
-        >
-          <Frame
-            frameBorder="0"
-            height={iframeHeight}
-            src={iframeSrc}
-            ref="iframe"
-            onLoad={this.iframeLoaded}
-          />
-        </FrameContainer>
-        {!this.props.nude && (
-          <ViewportInfos>
-            Viewport: {viewPorts[viewport] || availableWidth}px{' '}
-            {viewPorts[viewport] > availableWidth &&
-              `• Zoom: ${Math.ceil(
-                (availableWidth / viewPorts[viewport]) * 1000
-              ) / 10}%`}
-          </ViewportInfos>
-        )}
-      </>
-    ) : (
-      <FrameWrapper
+  return fullScreen ? (
+    <>
+      <FrameContainer
         viewport={viewport}
         viewPorts={viewPorts}
         availableWidth={availableWidth}
-        iframeHeight={iframeHeight}
+        fullScreen={fullScreen}
+        grid={grid}
       >
-        <FrameContainer
-          viewport={viewport}
-          viewPorts={viewPorts}
-          availableWidth={availableWidth}
-          fullScreen={fullScreen}
-          grid={grid}
-        >
-          <Frame
-            frameBorder="0"
-            height={iframeHeight}
-            src={iframeSrc}
-            ref="iframe"
-            onLoad={this.iframeLoaded}
-          />
-        </FrameContainer>
-        {!this.props.fullScreen && (
-          <ToggleOptions onClick={this.props.toggleOptions}>
-            {this.props.nude ? 'display options' : 'hide options'}
-          </ToggleOptions>
-        )}
-        {!this.props.nude && (
-          <ViewportInfos>
-            Viewport: {viewPorts[viewport] || availableWidth}px{' '}
-            {viewPorts[viewport] > availableWidth &&
-              `• Zoom: ${Math.ceil(
-                (availableWidth / viewPorts[viewport]) * 1000
-              ) / 10}%`}
-          </ViewportInfos>
-        )}
-      </FrameWrapper>
-    )
-  }
+        <Frame
+          frameBorder="0"
+          height={iframeHeight}
+          src={iframeSrc}
+          ref={frame}
+          onLoad={resizeFrame}
+          scrolling="no"
+        />
+      </FrameContainer>
+      {!nude && (
+        <ViewportInfos>
+          Viewport: {viewPorts[viewport] || availableWidth}px{' '}
+          {viewPorts[viewport] > availableWidth &&
+            `• Zoom: ${Math.ceil(
+              (availableWidth / viewPorts[viewport]) * 1000
+            ) / 10}%`}
+        </ViewportInfos>
+      )}
+    </>
+  ) : (
+    <FrameWrapper
+      viewport={viewport}
+      viewPorts={viewPorts}
+      availableWidth={availableWidth}
+      iframeHeight={iframeHeight}
+    >
+      <FrameContainer
+        viewport={viewport}
+        viewPorts={viewPorts}
+        availableWidth={availableWidth}
+        fullScreen={fullScreen}
+        grid={grid}
+      >
+        <Frame
+          frameBorder="0"
+          height={iframeHeight}
+          src={iframeSrc}
+          ref={frame}
+          onLoad={resizeFrame}
+          scrolling="no"
+        />
+      </FrameContainer>
+      {!fullScreen && (
+        <ToggleOptions onClick={toggleOptions}>
+          {nude ? 'display options' : 'hide options'}
+        </ToggleOptions>
+      )}
+      {!nude && (
+        <ViewportInfos>
+          Viewport: {viewPorts[viewport] || availableWidth}px{' '}
+          {viewPorts[viewport] > availableWidth &&
+            `• Zoom: ${Math.ceil(
+              (availableWidth / viewPorts[viewport]) * 1000
+            ) / 10}%`}
+        </ViewportInfos>
+      )}
+    </FrameWrapper>
+  )
 }
 
 export default PreviewFrame
