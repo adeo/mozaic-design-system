@@ -85,34 +85,48 @@
 
     line-height: 1.4;
     display: flex;
+    flex-flow: row wrap;
+    align-items: center;
     background: $color-fileuploader-files-list;
     color: $color-fileuploader-font;
     margin: 0 0 $mu025 0;
     transform: translateY(-0.125em);
 
-    &--is-valid {
-      .mc-fileuploader__file-name {
-        &::after {
-          @include file-upload-icon();
-        }
-      }
+    &-icon {
+      width: $mu150;
+      height: $mu150;
+      display: block;
+      margin: 0 $mu100;
+      background-color: transparent;
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: $mu150;
     }
 
-    &--is-invalid {
-      .mc-fileuploader__file-name {
-        &::after {
-          @include file-upload-icon('alert-24', $color-fileuploader-alert);
-        }
-      }
+    &--is-valid &-icon {
+      background-image:
+        url(
+          inline-icons(
+            'valid-24',
+            $color-fileuploader-valid
+          ));
+    }
 
-      &::after {
-        content: 'Oops, the file is not uploaded';
-        position: absolute;
-        padding: 0 0 $mu025 0;
-        margin-top: 2.75rem;
+    &--is-invalid &-icon {
+      background-image:
+        url(
+          inline-icons(
+            'alert-24',
+            $color-fileuploader-alert
+          ));
+    }
 
-        @include set-font-scale('02');
-      }
+    &--is-invalid &-message {
+      @include set-font-scale('02');
+
+      background: $color-grey-000;
+      flex: 0 0 100%;
+      padding: 0 0 $mu050 0;
     }
   }
 

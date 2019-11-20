@@ -10,6 +10,11 @@ $flag-border: get-border('s');
   margin: 0;
   vertical-align: middle;
   min-height: 1.572em;
+
+  /* ie11 hack to center vertically */
+
+  /* see : https://github.com/philipwalton/flexbugs/issues/231 */
+  height: 0;
 }
 
 @mixin set-flag-theme($props) {

@@ -22,8 +22,15 @@ $notification-type-border-background-icon: (
 );
 
 @mixin set-notification-border-background($type) {
-  background: map-deep-get($notification-type-border-background-icon, $type, 'background');
-  border-color: map-deep-get($notification-type-border-background-icon, $type, 'border');
+  background:
+    map-deep-get(
+      $notification-type-border-background-icon,
+      $type,
+      'background'
+    );
+  box-shadow:
+    inset 0 0 0 get-border(s)
+    map-deep-get($notification-type-border-background-icon, $type, 'border');
 }
 
 @mixin set-notification-icon($type) {
