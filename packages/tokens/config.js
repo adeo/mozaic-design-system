@@ -6,6 +6,8 @@ const getPath = localRelativePath =>
 
 const getBuildPath = path => getPath(path) + '/'
 
+const preset = CM.getKey('preset')
+
 const localSrcPath = CM.getKey('tokens.localTokensSrcPath')
 
 const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
@@ -13,6 +15,9 @@ const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
 const source = localSrcPath
   ? [getPath('properties/**/*.json'), `${localSrcPath}properties/**/*.json`]
   : [getPath('properties/**/*.json')]
+
+if (preset && preset === 'adeo')
+  source.splice(1, 0, getPath('AdeoProperties/**/*.json'))
 
 const setLocalTokensExportPath = dir =>
   localTokensExportPath
