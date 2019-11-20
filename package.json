@@ -77,7 +77,7 @@
     "react-test-renderer": "^16.8.2"
   },
   "scripts": {
-    "tokens:build": "mozaic-tokens:build",
+    "tokens:build": "mozaic-tokens-build",
     "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js || echo 'nothing to clean'",
     "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
     "assets:upload": "node ci/assets.js",

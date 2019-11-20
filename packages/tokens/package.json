@@ -8,6 +8,6 @@
     "style-dictionary": "^2.8.2"
   },
   "bin": {
-    "mozaic-tokens:build": "bin/build.js"
+    "mozaic-tokens-build": "bin/build.js"
   }
 }
