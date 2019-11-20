@@ -20,8 +20,8 @@ please folow the this [guide](https://nodejs.org/en/download/package-manager/)
 
 ### Note about the project architecture
 
-The project Use a monorepo architecture using [lerna](https://github.com/lerna/lerna/).  
-Lerna help us to manage the distribution and the versionning of multiple packages into the same repository.  
+The project Use a monorepo architecture using [lerna](https://github.com/lerna/lerna/).
+Lerna help us to manage the distribution and the versionning of multiple packages into the same repository.
 It also create symlink between the individual packages nodes_modules so they can be used in one another as npm dependencies.
 
 When releasing the design system, lerna will automaticaly generate changelogs for the global/parent repo, as well as for the individual packages and select a version number based on the commit syntax. It's why it is very important that you follow the [contributing guidelines](/Contributing/Prerequisite/GitConventions/).
@@ -30,25 +30,25 @@ please [read the docs](https://github.com/lerna/lerna/) to learn more about it.
 
 ### Clone the repo and start the development environement
 
-clone the repo :  
+clone the repo :
 `git clone git@github.com:adeo/mozaic-design-system.git`
 
-move to the repo :  
+move to the repo :
 `cd mozaic-design-system`
 
-install dependencies and create symlink between packages :  
+install dependencies and create symlink between packages :
 `yarn lerna`
 
-Add a github personal access tokens :  
-[follow those instruction](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) and select `repo` as a scope for you personal access token.  
-Copy your token in your clipboard  
+Add a github personal access tokens :
+[follow those instruction](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) and select `repo` as a scope for you personal access token.
+Copy your token in your clipboard
 Create a `.env` file at the root of the project and add the following (replacing XXX by your token):
 
 ```
 GH_API_TOKEN=XXX
 ```
 
-lunch the dev server :  
+lunch the dev server :
 `yarn develop`
 
 ## Targeting compillation of selected previews directory
