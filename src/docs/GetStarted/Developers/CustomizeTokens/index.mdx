@@ -66,12 +66,12 @@ In this example, Mozaic will replace the `color.primary-01.100` and set it to `#
 
 In order to compile tokens, you have two options
 
-### The mozaic-tokens:build command
+### The mozaic-tokens-build command
 
 run directly :
 
 ```shell
-mozaic-tokens:build
+mozaic-tokens-build
 ```
 
 or though a `package.json` script for example :
@@ -79,7 +79,7 @@ or though a `package.json` script for example :
 ```Json
 ...
 "scripts": {
-  "develop": "mozaic-tokens:build && npm run develop:watch",
+  "develop": "mozaic-tokens-build && npm run develop:watch",
 }
 ...
 ```
