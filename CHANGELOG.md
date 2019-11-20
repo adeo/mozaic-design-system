@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.27](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
+
+
+### Bug Fixes
+
+* **pattern/various:** fixe ie11 bugs for buttons, notifs, file-uploader and flexy patterns ([#430](https://github.com/adeo/design-system--styleguide/issues/430)) ([361848d](https://github.com/adeo/design-system--styleguide/commit/361848d8eceee94df2ddf6c59cbcadebecea54d7))
+* **tools/tokens build cmd:** remove ":" char from command to fix an install bug on windows ([#432](https://github.com/adeo/design-system--styleguide/issues/432)) ([69f5cca](https://github.com/adeo/design-system--styleguide/commit/69f5cca26ca6eae30686445bd4a9c6e4fed1d8f7))
+* **website/previews:** fix copy and paste for colors and icons, add open preview in new tab ([#429](https://github.com/adeo/design-system--styleguide/issues/429)) ([6042dd7](https://github.com/adeo/design-system--styleguide/commit/6042dd79ce9dcd5578c576c0cc1258161bab38b1))
+
+
+### Features
+
+* **chore/test:** use html files in previews and create a command to generate screenshots from BrowserStack ([#428](https://github.com/adeo/design-system--styleguide/issues/428)) ([4333c5b](https://github.com/adeo/design-system--styleguide/commit/4333c5b87b5406feffd3f384e69c264b73c51ed9)), closes [#408](https://github.com/adeo/design-system--styleguide/issues/408) [#199](https://github.com/adeo/design-system--styleguide/issues/199) [#418](https://github.com/adeo/design-system--styleguide/issues/418)
+* **onboard/home:** update home page with links to contributing and status ([#423](https://github.com/adeo/design-system--styleguide/issues/423)) ([d4a1be9](https://github.com/adeo/design-system--styleguide/commit/d4a1be9c599b2695415c9cc4994196e923b63ae0))
+* **pattern/icons:** publish new icon kit and refactor icon kit cleaner script ([#426](https://github.com/adeo/design-system--styleguide/issues/426)) ([4891822](https://github.com/adeo/design-system--styleguide/commit/4891822596d9191c8adce4ef20a57985405742c9))
+* **tools/tokens:** add a adeo preset to use Adeo color scheme instead of leroymerlin  ([#419](https://github.com/adeo/design-system--styleguide/issues/419)) ([7dbe46b](https://github.com/adeo/design-system--styleguide/commit/7dbe46bd605960c21f8f12e3057307fdad5ba928))
+
+
+
+
+
 ## [1.0.1-alpha.26](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
 
 

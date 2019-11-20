@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.27](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
+
+
+### Features
+
+* **pattern/icons:** publish new icon kit and refactor icon kit cleaner script ([#426](https://github.com/adeo/mozaic-design-system/issues/426)) ([4891822](https://github.com/adeo/mozaic-design-system/commit/4891822596d9191c8adce4ef20a57985405742c9))
+
+
+
+
+
 ## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
 
 

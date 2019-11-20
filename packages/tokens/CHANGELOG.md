@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.27](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
+
+
+### Bug Fixes
+
+* **tools/tokens build cmd:** remove ":" char from command to fix an install bug on windows ([#432](https://github.com/adeo/mozaic-design-system/issues/432)) ([69f5cca](https://github.com/adeo/mozaic-design-system/commit/69f5cca26ca6eae30686445bd4a9c6e4fed1d8f7))
+
+
+### Features
+
+* **tools/tokens:** add a adeo preset to use Adeo color scheme instead of leroymerlin  ([#419](https://github.com/adeo/mozaic-design-system/issues/419)) ([7dbe46b](https://github.com/adeo/mozaic-design-system/commit/7dbe46bd605960c21f8f12e3057307fdad5ba928))
+
+
+
+
+
 ## [1.0.1-alpha.25](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.24...v1.0.1-alpha.25) (2019-11-07)
 
 

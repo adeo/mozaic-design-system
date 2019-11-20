@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.27](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
+
+
+### Bug Fixes
+
+* **pattern/various:** fixe ie11 bugs for buttons, notifs, file-uploader and flexy patterns ([#430](https://github.com/adeo/mozaic-design-system/issues/430)) ([361848d](https://github.com/adeo/mozaic-design-system/commit/361848d8eceee94df2ddf6c59cbcadebecea54d7))
+
+
+
+
+
 ## [1.0.1-alpha.26](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
 
 

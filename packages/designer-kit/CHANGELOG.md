@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.27](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
+
+
+### Features
+
+* **tools/tokens:** add a adeo preset to use Adeo color scheme instead of leroymerlin  ([#419](https://github.com/adeo/mozaic-design-system/issues/419)) ([7dbe46b](https://github.com/adeo/mozaic-design-system/commit/7dbe46bd605960c21f8f12e3057307fdad5ba928))
+
+
+
+
+
 ## [1.0.1-alpha.26](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
 
 

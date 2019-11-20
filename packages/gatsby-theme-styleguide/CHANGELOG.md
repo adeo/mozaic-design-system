@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.27](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
+
+
+### Bug Fixes
+
+* **website/previews:** fix copy and paste for colors and icons, add open preview in new tab ([#429](https://github.com/adeo/mozaic-design-system/issues/429)) ([6042dd7](https://github.com/adeo/mozaic-design-system/commit/6042dd79ce9dcd5578c576c0cc1258161bab38b1))
+
+
+### Features
+
+* **chore/test:** use html files in previews and create a command to generate screenshots from BrowserStack ([#428](https://github.com/adeo/mozaic-design-system/issues/428)) ([4333c5b](https://github.com/adeo/mozaic-design-system/commit/4333c5b87b5406feffd3f384e69c264b73c51ed9)), closes [#408](https://github.com/adeo/mozaic-design-system/issues/408) [#199](https://github.com/adeo/mozaic-design-system/issues/199) [#418](https://github.com/adeo/mozaic-design-system/issues/418)
+
+
+
+
+
 ## [1.0.1-alpha.26](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
 
 
