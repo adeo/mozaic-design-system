@@ -1,4 +1,6 @@
 /* mqp:start */
+
+/* stylelint-disable no-descending-specificity */
 .mc-radio {
   @include reset-input;
 
@@ -13,25 +15,50 @@
   transition: background-color ease 200ms, border ease 200ms;
   cursor: pointer;
 
+  &::-ms-check {
+    background: $color-input-background;
+    border: $radio-border-width solid $color-input-border;
+    color: $color-input-background;
+  }
+
   &:hover,
   &.is-hover {
     border-color: $color-input-hover-border;
+
+    &::-ms-check {
+      border-color: $color-input-hover-border;
+    }
   }
 
   &:focus,
   &.is-focus {
     border-color: $color-input-focus-border;
+
+    &::-ms-check {
+      border-color: $color-input-focus-border;
+    }
   }
 
   &:disabled {
     border-color: $color-input-disabled-background;
     background: $color-input-disabled-background;
     cursor: default;
+
+    &::-ms-check {
+      border-color: $color-input-disabled-background;
+      background: $color-input-disabled-background;
+      cursor: default;
+    }
   }
 
   &:checked {
     border-color: $color-input-checked-border;
     background-color: $color-input-checked-background;
+
+    &::-ms-check {
+      border-color: $color-input-checked-border;
+      background-color: $color-input-checked-background;
+    }
 
     &::before {
       content: '';
@@ -50,8 +77,13 @@
 
     &:hover {
       border-color: $color-input-checked-hover-border;
+
+      &::-ms-check {
+        border-color: $color-input-checked-hover-border;
+      }
     }
   }
 }
+/* stylelint-enable */
 
 /* mqp:end */

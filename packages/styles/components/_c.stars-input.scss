@@ -12,12 +12,16 @@
     @include set-hidden-input;
   }
 
+  &__radio::-ms-check {
+    display: none;
+  }
+
   &__label {
     @include set-stars-size($stars-default-size);
 
     background:
       url(inline-icons('star-full-32', $color-star-full)) repeat-x
-      left center;
+      center center;
     border-radius: $stars-focus-radius;
     cursor: pointer;
 
@@ -25,6 +29,7 @@
       background:
         url(inline-icons('star-full-32', $color-star-hover)) repeat-x
         left center;
+      background-size: $stars-default-bg-size $stars-default-bg-size;
       content: '';
       left: 0;
       top: 0;
@@ -75,6 +80,13 @@
 
         #{$parent}__label {
           @include set-stars-size($props);
+
+          /* fix for ie11 */
+          $bg-variation-size: map-deep-get($stars-sizes, $size, 'width');
+
+          &::before {
+            background-size: $bg-variation-size $bg-variation-size;
+          }
         }
       }
     }
