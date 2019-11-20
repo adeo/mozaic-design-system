@@ -15,16 +15,14 @@ const iconsThemeGuideOutput = path.join(
 
 iconsCleaned()
   .then(icons => {
-    console.log('First item', icons[0])
     return generateIconComponents(icons, iconsThemeGuideOutput)
   })
   .then(ret => {
-    console.log('COMPONENTS FILE GENERATED!!', ret)
     return generateIconsData()
   })
   .catch(err => {
     console.log('###################################')
     console.log('###################################')
-    console.log('FINAL ERROR')
+    console.log('ERROR in Icons building!')
     console.log(err)
   })

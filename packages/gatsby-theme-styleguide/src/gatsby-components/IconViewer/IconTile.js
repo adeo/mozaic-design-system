@@ -136,8 +136,7 @@ class IconTile extends React.Component {
       if (!icons[size]) {
         return false
       } else {
-        dataIcon.sizes[size].url = `${icons[size].fullpath}`
-        dataIcon.sizes[size].fullName = dataIcon.sizes[size].url
+        dataIcon.sizes[size].fullName = icons[size].fullpath
           .replace('/icons/', '')
           .replace('.svg', '')
 
@@ -158,25 +157,11 @@ class IconTile extends React.Component {
 
   render() {
     const Icon = icons[this.state.allIcon[this.state.currentSize].component]
-    console.log(
-      'props.icons',
-      this.props.icons,
-      this.state.allIcon,
-      '######################################################################3',
-      this.state.currentSize,
-      this.state.allIcon[this.state.currentSize].component
-    )
 
     return (
       <IconDetail>
         <IconName>{this.props.name}</IconName>
         <IconWrapper>
-          {/* <img
-            src={`${this.state.allIcon[this.state.currentSize].url}`}
-            width={this.state.currentSize}
-            height={this.state.currentSize}
-            alt=""
-          /> */}
           <Icon
             fill="#454545"
             className={`iconSize_${this.state.currentSize}`}
@@ -184,7 +169,7 @@ class IconTile extends React.Component {
         </IconWrapper>
         <SizesList>
           {Object.keys(this.dataIcon.sizes).map(size =>
-            this.state.allIcon[size].url ? (
+            this.state.allIcon[size].fullName ? (
               <SizeItemAvail
                 key={`${this.props.name}-${size}`}
                 isActive={this.state.currentSize === size}
