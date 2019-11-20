@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import React, { PureComponent } from 'react'
+import copyToClipboard from '../../utils/copy-to-clipboard'
 
 const Info = styled.div`
   width: 100%;
@@ -45,33 +46,13 @@ class Color extends PureComponent {
     }
   }
 
-  componentDidMount() {
-    this.isClipBoardAPIAvailable()
-  }
-
-  isClipBoardAPIAvailable = () => {
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: 'clipboard-write' }).then(result => {
-        if (result.state === 'granted' || result.state === 'prompt') {
-          this.setState({ copyCompatible: true })
-        }
+  copyToClipBoard = value => {
+    copyToClipboard(value)
+      .then(() => {
+        this.setState({ copied: true })
+        setTimeout(() => this.setState({ copied: false }), 3000)
       })
-    }
-  }
-
-  copyToClipBoard = () => {
-    if (this.state.copyCompatible) {
-      navigator.clipboard.writeText(this.props.value).then(
-        () => {
-          this.setState({ copied: true }, () => {
-            setTimeout(() => this.setState({ copied: false }), 1000)
-          })
-        },
-        () => {
-          console.error('error while copying to clipboard')
-        }
-      )
-    }
+      .catch(() => false)
   }
 
   render() {
@@ -79,7 +60,7 @@ class Color extends PureComponent {
     const { copied } = this.state
 
     return (
-      <Info onClick={this.copyToClipBoard}>
+      <Info onClick={() => this.copyToClipBoard(value)}>
         <Label>
           <span>{label} : </span>
         </Label>

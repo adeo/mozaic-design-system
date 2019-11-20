@@ -39,7 +39,8 @@ class Copy extends React.Component {
   }
 
   copyToClipBoard = () => {
-    copyToClipboard(this.props.children)
+    const value = this.props.value ? this.props.value : this.props.children
+    copyToClipboard(value)
       .then(() => {
         this.setState({ copied: true })
         setTimeout(() => this.setState({ copied: false }), 3000)
