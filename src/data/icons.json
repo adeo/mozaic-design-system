@@ -757,6 +757,36 @@
   },
   {
     "cat": "Navigation",
+    "size": "16px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/icons/Navigation_Display_ExternalLink_16px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/icons/Navigation_Display_ExternalLink_24px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/icons/Navigation_Display_ExternalLink_32px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/icons/Navigation_Display_ExternalLink_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "64px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/icons/Navigation_Display_ExternalLink_64px.svg"
+  },
+  {
+    "cat": "Navigation",
     "size": "24px",
     "name": "Display_Filter",
     "fullpath": "/icons/Navigation_Display_Filter_24px.svg"
@@ -784,36 +814,6 @@
     "size": "48px",
     "name": "Display_Home",
     "fullpath": "/icons/Navigation_Display_Home_48px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "16px",
-    "name": "Display_LinkOut",
-    "fullpath": "/icons/Navigation_Display_LinkOut_16px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
-    "name": "Display_LinkOut",
-    "fullpath": "/icons/Navigation_Display_LinkOut_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "32px",
-    "name": "Display_LinkOut",
-    "fullpath": "/icons/Navigation_Display_LinkOut_32px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Display_LinkOut",
-    "fullpath": "/icons/Navigation_Display_LinkOut_48px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "64px",
-    "name": "Display_LinkOut",
-    "fullpath": "/icons/Navigation_Display_LinkOut_64px.svg"
   },
   {
     "cat": "Navigation",
@@ -2620,6 +2620,12 @@
     "size": "48px",
     "name": "Garden1",
     "fullpath": "/icons/Universe_Garden1_48px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Garden1",
+    "fullpath": "/icons/Universe_Garden1_64px.svg"
   },
   {
     "cat": "Universe",
