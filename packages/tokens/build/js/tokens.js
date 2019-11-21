@@ -331,6 +331,7 @@ export const ColorToggleOnCircle = "#ffffff";
 export const ColorToggleHoverCircle = "#eeeef0";
 export const ColorToggleDisabledBackground = "#eeeef0";
 export const ColorToggleDisabledCircle = "#bab6bc";
+export const Preset = "lm";
 export const RadiusS = 2;
 export const RadiusM = 4;
 export const RadiusL = 6;

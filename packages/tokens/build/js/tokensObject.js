@@ -6474,6 +6474,19 @@ module.exports = {
       }
     }
   },
+  "preset": {
+    "value": "lm",
+    "original": {
+      "value": "lm"
+    },
+    "name": "Preset",
+    "attributes": {
+      "category": "preset"
+    },
+    "path": [
+      "preset"
+    ]
+  },
   "radius": {
     "s": {
       "value": 2,

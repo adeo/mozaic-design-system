@@ -1058,12 +1058,6 @@
   {
     "cat": "Navigation",
     "size": "24px",
-    "name": "Publish_Delete",
-    "fullpath": "/icons/Navigation_Publish_Delete_24px.svg"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
     "name": "Publish_Edit",
     "fullpath": "/icons/Navigation_Publish_Edit_24px.svg"
   },
@@ -1108,6 +1102,12 @@
     "size": "48px",
     "name": "Publish_Send",
     "fullpath": "/icons/Navigation_Publish_Send_48px.svg"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Publish_Trashbin",
+    "fullpath": "/icons/Navigation_Publish_Trashbin_24px.svg"
   },
   {
     "cat": "Navigation",
@@ -1303,12 +1303,6 @@
   },
   {
     "cat": "Payment",
-    "size": "48px",
-    "name": "Cards_Monochrome_Oney3",
-    "fullpath": "/icons/Payment_Cards_Monochrome_Oney3_48px.svg"
-  },
-  {
-    "cat": "Payment",
     "size": "24px",
     "name": "Cards_Monochrome_OneyX3",
     "fullpath": "/icons/Payment_Cards_Monochrome_OneyX3_24px.svg"
@@ -1318,6 +1312,12 @@
     "size": "32px",
     "name": "Cards_Monochrome_OneyX3",
     "fullpath": "/icons/Payment_Cards_Monochrome_OneyX3_32px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_OneyX3",
+    "fullpath": "/icons/Payment_Cards_Monochrome_OneyX3_48px.svg"
   },
   {
     "cat": "Payment",
@@ -1372,6 +1372,12 @@
     "size": "64px",
     "name": "Cards_Monochrome_Paylib",
     "fullpath": "/icons/Payment_Cards_Monochrome_Paylib_64px.svg"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Paypal",
+    "fullpath": "/icons/Payment_Cards_Monochrome_Paypal_24px.svg"
   },
   {
     "cat": "Payment",
@@ -1456,12 +1462,6 @@
     "size": "64px",
     "name": "Euro",
     "fullpath": "/icons/Payment_Euro_64px.svg"
-  },
-  {
-    "cat": "Payment",
-    "size": "24px",
-    "name": "Monochrome_Oney",
-    "fullpath": "/icons/Payment_Monochrome_Oney_24px.svg"
   },
   {
     "cat": "Payment",
@@ -2551,9 +2551,21 @@
   },
   {
     "cat": "Universe",
+    "size": "32px",
+    "name": "Electricity",
+    "fullpath": "/icons/Universe_Electricity_32px.svg"
+  },
+  {
+    "cat": "Universe",
     "size": "48px",
     "name": "Electricity",
     "fullpath": "/icons/Universe_Electricity_48px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Electricity",
+    "fullpath": "/icons/Universe_Electricity_64px.svg"
   },
   {
     "cat": "Universe",
@@ -2611,12 +2623,6 @@
   },
   {
     "cat": "Universe",
-    "size": "64px",
-    "name": "Garden1",
-    "fullpath": "/icons/Universe_Garden1_64px.svg"
-  },
-  {
-    "cat": "Universe",
     "size": "32px",
     "name": "Garden2",
     "fullpath": "/icons/Universe_Garden2_32px.svg"
@@ -2632,6 +2638,12 @@
     "size": "64px",
     "name": "Garden2",
     "fullpath": "/icons/Universe_Garden2_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Heater",
+    "fullpath": "/icons/Universe_Heater_32px.svg"
   },
   {
     "cat": "Universe",
@@ -2698,6 +2710,12 @@
     "size": "64px",
     "name": "Kitchen",
     "fullpath": "/icons/Universe_Kitchen_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Lighting",
+    "fullpath": "/icons/Universe_Lighting_32px.svg"
   },
   {
     "cat": "Universe",
@@ -2782,6 +2800,12 @@
     "size": "64px",
     "name": "Security",
     "fullpath": "/icons/Universe_Security_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Terrace",
+    "fullpath": "/icons/Universe_Terrace_32px.svg"
   },
   {
     "cat": "Universe",
