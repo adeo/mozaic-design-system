@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.29](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.28...v1.0.1-alpha.29) (2019-11-21)
+
+
+### Bug Fixes
+
+* **pattern/icons:** add missing icon and remove duplicated ones ([#439](https://github.com/adeo/design-system--styleguide/issues/439)) ([68af6f7](https://github.com/adeo/design-system--styleguide/commit/68af6f793bb05eda26df8a7ca155c47a3d5c10b1))
+* **tools/css-dev-tools:** add missing dependency ([#438](https://github.com/adeo/design-system--styleguide/issues/438)) ([0cad1f9](https://github.com/adeo/design-system--styleguide/commit/0cad1f9a1982c2d110ea725edbc4a71176a85b4e))
+
+
+
+
+
 ## [1.0.1-alpha.28](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.27...v1.0.1-alpha.28) (2019-11-21)
 
 
