@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.28](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.27...v1.0.1-alpha.28) (2019-11-21)
+
+
+### Bug Fixes
+
+* **pattern/various:** fix ie11 bugs for input, checkbox, radio and stars ([#435](https://github.com/adeo/mozaic-design-system/issues/435)) ([03da938](https://github.com/adeo/mozaic-design-system/commit/03da9381bdef25babad8ffba7e656389a1242eec))
+
+
+
+
+
 ## [1.0.1-alpha.27](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
 
 
