@@ -12,6 +12,7 @@
     background:
       url(inline-icons('star-full-32', $color-star-empty)) repeat-x
       left top;
+    background-size: $stars-default-bg-size $stars-default-bg-size;
     display: block;
     position: relative;
 
@@ -19,6 +20,7 @@
       background:
         url(inline-icons('star-full-32', $color-star-full)) repeat-x
         left top;
+      background-size: $stars-default-bg-size $stars-default-bg-size;
       bottom: 0;
       content: '';
       display: block;
@@ -33,6 +35,15 @@
       @if ($size != 'm') {
         #{$parent}__visual {
           @include set-stars-container($props);
+
+          /* fix for ie11 */
+          $bg-variation-size: map-deep-get($stars-sizes, $size, 'width');
+
+          background-size: $bg-variation-size $bg-variation-size;
+
+          &::before {
+            background-size: $bg-variation-size $bg-variation-size;
+          }
         }
       }
     }
@@ -42,10 +53,6 @@
     &--score-#{$i * 10} {
       #{$parent}__visual::before {
         width: percentage($i / 10);
-
-        @if ($i == 1) {
-          background-size: cover;
-        }
       }
     }
   }
