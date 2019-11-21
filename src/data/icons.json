@@ -2551,9 +2551,21 @@
   },
   {
     "cat": "Universe",
+    "size": "32px",
+    "name": "Electricity",
+    "fullpath": "/icons/Universe_Electricity_32px.svg"
+  },
+  {
+    "cat": "Universe",
     "size": "48px",
     "name": "Electricity",
     "fullpath": "/icons/Universe_Electricity_48px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Electricity",
+    "fullpath": "/icons/Universe_Electricity_64px.svg"
   },
   {
     "cat": "Universe",
@@ -2611,12 +2623,6 @@
   },
   {
     "cat": "Universe",
-    "size": "64px",
-    "name": "Garden1",
-    "fullpath": "/icons/Universe_Garden1_64px.svg"
-  },
-  {
-    "cat": "Universe",
     "size": "32px",
     "name": "Garden2",
     "fullpath": "/icons/Universe_Garden2_32px.svg"
@@ -2632,6 +2638,12 @@
     "size": "64px",
     "name": "Garden2",
     "fullpath": "/icons/Universe_Garden2_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Heater",
+    "fullpath": "/icons/Universe_Heater_32px.svg"
   },
   {
     "cat": "Universe",
@@ -2698,6 +2710,12 @@
     "size": "64px",
     "name": "Kitchen",
     "fullpath": "/icons/Universe_Kitchen_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Lighting",
+    "fullpath": "/icons/Universe_Lighting_32px.svg"
   },
   {
     "cat": "Universe",
@@ -2782,6 +2800,12 @@
     "size": "64px",
     "name": "Security",
     "fullpath": "/icons/Universe_Security_64px.svg"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Terrace",
+    "fullpath": "/icons/Universe_Terrace_32px.svg"
   },
   {
     "cat": "Universe",
