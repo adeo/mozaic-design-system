@@ -883,6 +883,41 @@
   },
   {
     "cat": "Navigation",
+    "size": "16px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_ExternalLink_16px.svg",
+    "componentName": "Navigation_Display_ExternalLink_16px"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_ExternalLink_24px.svg",
+    "componentName": "Navigation_Display_ExternalLink_24px"
+  },
+  {
+    "cat": "Navigation",
+    "size": "32px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_ExternalLink_32px.svg",
+    "componentName": "Navigation_Display_ExternalLink_32px"
+  },
+  {
+    "cat": "Navigation",
+    "size": "48px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_ExternalLink_48px.svg",
+    "componentName": "Navigation_Display_ExternalLink_48px"
+  },
+  {
+    "cat": "Navigation",
+    "size": "64px",
+    "name": "Display_ExternalLink",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_ExternalLink_64px.svg",
+    "componentName": "Navigation_Display_ExternalLink_64px"
+  },
+  {
+    "cat": "Navigation",
     "size": "24px",
     "name": "Display_Filter",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_Filter_24px.svg",
@@ -915,41 +950,6 @@
     "name": "Display_Home",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_Home_48px.svg",
     "componentName": "Navigation_Display_Home_48px"
-  },
-  {
-    "cat": "Navigation",
-    "size": "16px",
-    "name": "Display_LinkOut",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_LinkOut_16px.svg",
-    "componentName": "Navigation_Display_LinkOut_16px"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
-    "name": "Display_LinkOut",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_LinkOut_24px.svg",
-    "componentName": "Navigation_Display_LinkOut_24px"
-  },
-  {
-    "cat": "Navigation",
-    "size": "32px",
-    "name": "Display_LinkOut",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_LinkOut_32px.svg",
-    "componentName": "Navigation_Display_LinkOut_32px"
-  },
-  {
-    "cat": "Navigation",
-    "size": "48px",
-    "name": "Display_LinkOut",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_LinkOut_48px.svg",
-    "componentName": "Navigation_Display_LinkOut_48px"
-  },
-  {
-    "cat": "Navigation",
-    "size": "64px",
-    "name": "Display_LinkOut",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Display_LinkOut_64px.svg",
-    "componentName": "Navigation_Display_LinkOut_64px"
   },
   {
     "cat": "Navigation",
@@ -1234,13 +1234,6 @@
   {
     "cat": "Navigation",
     "size": "24px",
-    "name": "Publish_Delete",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Publish_Delete_24px.svg",
-    "componentName": "Navigation_Publish_Delete_24px"
-  },
-  {
-    "cat": "Navigation",
-    "size": "24px",
     "name": "Publish_Edit",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Publish_Edit_24px.svg",
     "componentName": "Navigation_Publish_Edit_24px"
@@ -1293,6 +1286,13 @@
     "name": "Publish_Send",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Publish_Send_48px.svg",
     "componentName": "Navigation_Publish_Send_48px"
+  },
+  {
+    "cat": "Navigation",
+    "size": "24px",
+    "name": "Publish_Trashbin",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Navigation_Publish_Trashbin_24px.svg",
+    "componentName": "Navigation_Publish_Trashbin_24px"
   },
   {
     "cat": "Navigation",
@@ -1520,13 +1520,6 @@
   },
   {
     "cat": "Payment",
-    "size": "48px",
-    "name": "Cards_Monochrome_Oney3",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Cards_Monochrome_Oney3_48px.svg",
-    "componentName": "Payment_Cards_Monochrome_Oney3_48px"
-  },
-  {
-    "cat": "Payment",
     "size": "24px",
     "name": "Cards_Monochrome_OneyX3",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Cards_Monochrome_OneyX3_24px.svg",
@@ -1538,6 +1531,13 @@
     "name": "Cards_Monochrome_OneyX3",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Cards_Monochrome_OneyX3_32px.svg",
     "componentName": "Payment_Cards_Monochrome_OneyX3_32px"
+  },
+  {
+    "cat": "Payment",
+    "size": "48px",
+    "name": "Cards_Monochrome_OneyX3",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Cards_Monochrome_OneyX3_48px.svg",
+    "componentName": "Payment_Cards_Monochrome_OneyX3_48px"
   },
   {
     "cat": "Payment",
@@ -1601,6 +1601,13 @@
     "name": "Cards_Monochrome_Paylib",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Cards_Monochrome_Paylib_64px.svg",
     "componentName": "Payment_Cards_Monochrome_Paylib_64px"
+  },
+  {
+    "cat": "Payment",
+    "size": "24px",
+    "name": "Cards_Monochrome_Paypal",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Cards_Monochrome_Paypal_24px.svg",
+    "componentName": "Payment_Cards_Monochrome_Paypal_24px"
   },
   {
     "cat": "Payment",
@@ -1699,13 +1706,6 @@
     "name": "Euro",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Euro_64px.svg",
     "componentName": "Payment_Euro_64px"
-  },
-  {
-    "cat": "Payment",
-    "size": "24px",
-    "name": "Monochrome_Oney",
-    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Payment_Monochrome_Oney_24px.svg",
-    "componentName": "Payment_Monochrome_Oney_24px"
   },
   {
     "cat": "Payment",
@@ -2976,10 +2976,24 @@
   },
   {
     "cat": "Universe",
+    "size": "32px",
+    "name": "Electricity",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Electricity_32px.svg",
+    "componentName": "Universe_Electricity_32px"
+  },
+  {
+    "cat": "Universe",
     "size": "48px",
     "name": "Electricity",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Electricity_48px.svg",
     "componentName": "Universe_Electricity_48px"
+  },
+  {
+    "cat": "Universe",
+    "size": "64px",
+    "name": "Electricity",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Electricity_64px.svg",
+    "componentName": "Universe_Electricity_64px"
   },
   {
     "cat": "Universe",
@@ -3074,6 +3088,13 @@
   },
   {
     "cat": "Universe",
+    "size": "32px",
+    "name": "Heater",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Heater_32px.svg",
+    "componentName": "Universe_Heater_32px"
+  },
+  {
+    "cat": "Universe",
     "size": "48px",
     "name": "Heater",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Heater_48px.svg",
@@ -3148,6 +3169,13 @@
     "name": "Kitchen",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Kitchen_64px.svg",
     "componentName": "Universe_Kitchen_64px"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Lighting",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Lighting_32px.svg",
+    "componentName": "Universe_Lighting_32px"
   },
   {
     "cat": "Universe",
@@ -3246,6 +3274,13 @@
     "name": "Security",
     "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Security_64px.svg",
     "componentName": "Universe_Security_64px"
+  },
+  {
+    "cat": "Universe",
+    "size": "32px",
+    "name": "Terrace",
+    "fullpath": "/home/remy/projetos/adeo/mozaic-design-system/packages/icons/svg/Universe_Terrace_32px.svg",
+    "componentName": "Universe_Terrace_32px"
   },
   {
     "cat": "Universe",
