@@ -4,9 +4,6 @@ const iconsCleaned = require('./svg-cleaner')
 const generateIconComponents = require('./generateIconComponents')
 const generateIconsData = require('./generateIconsData')
 
-// output React components in @mozaic-ds/icons package
-// const iconsComponentsOutput = path.join(currentDir, 'packages/icons/index.js')
-
 // Generating Icons in gatsby-theme-styleguide
 const iconsThemeGuideOutput = path.join(
   currentDir,
@@ -22,7 +19,5 @@ iconsCleaned()
   })
   .catch(err => {
     console.log('###################################')
-    console.log('###################################')
-    console.log('ERROR in Icons building!')
-    console.log(err)
+    console.log('Error in Icons building!', err)
   })

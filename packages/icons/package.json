@@ -13,9 +13,6 @@
     "babel-preset-env": "^1.5.1",
     "rimraf": "^3.0.0"
   },
-  "scripts": {
-    "build": "webpack"
-  },
   "dependencies": {
     "react": "^15.5.4"
   }

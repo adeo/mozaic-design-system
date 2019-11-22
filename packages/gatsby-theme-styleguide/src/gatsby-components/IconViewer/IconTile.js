@@ -136,10 +136,6 @@ class IconTile extends React.Component {
       if (!icons[size]) {
         return false
       } else {
-        dataIcon.sizes[size].fullName = icons[size].fullpath
-          .replace('/icons/', '')
-          .replace('.svg', '')
-
         dataIcon.sizes[size].component = icons[size].componentName
       }
 
@@ -169,7 +165,7 @@ class IconTile extends React.Component {
         </IconWrapper>
         <SizesList>
           {Object.keys(this.dataIcon.sizes).map(size =>
-            this.state.allIcon[size].fullName ? (
+            this.state.allIcon[size].component ? (
               <SizeItemAvail
                 key={`${this.props.name}-${size}`}
                 isActive={this.state.currentSize === size}
@@ -187,10 +183,10 @@ class IconTile extends React.Component {
           )}
         </SizesList>
         <Copy
-          value={this.state.allIcon[this.state.currentSize].fullName}
+          value={this.state.allIcon[this.state.currentSize].component}
           children={
             <TechnicalName
-              value={this.state.allIcon[this.state.currentSize].fullName}
+              value={this.state.allIcon[this.state.currentSize].component}
             />
           }
         />

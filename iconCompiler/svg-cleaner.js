@@ -8,7 +8,6 @@ const { dirsIconsStatic } = require('./config')
 const cleanRecreateIconsDirs = require('./cleanRecreateIconsDirs')
 
 const currentDir = process.cwd()
-// const outputPath = path.join(currentDir, 'static/icons/')
 const outputPath = dirsIconsStatic[0]
 const inputPath = path.join(currentDir, 'src/icons/**/*.svg')
 
@@ -28,11 +27,11 @@ const main = async () => {
           const sizeDirectory = file.split(path.sep).reverse()[1]
 
           if (svgName.includes(' ')) {
-            logERROR(svgName, 'icon Filename should not have contain spaces')
+            logERROR(svgName, 'icon Filename should not contain spaces')
           }
 
           if (!svgName.endsWith('px.svg')) {
-            logERROR(svgName, 'icon Filename alway end with [size]px.svg')
+            logERROR(svgName, 'icon Filename always end with [size]px.svg')
           }
 
           if (!svgName.includes('_')) {
@@ -139,78 +138,12 @@ const customOptimization = (data, file) => {
     logERROR(file, 'Icon should have a group with a "Square" id')
   }
 
-  return (
-    data
-      .replace(/<style>(.*)<\/style>/g, '')
-      .replace(/<defs><\/defs>/g, '')
-      .replace(/class="[a-zA-Z0-9:;\.\s\(\)\-\,]*"/gi, '')
-      .replace(/fill="[a-zA-Z0 -9:;\.\s\(\)\-\,]*"/gi, '')
-      .replace(/<g id="Square">.*?<\/g>/gi, '')
-      // .replace('<svg', '<svg fill="#222020"')
-      .replace(/<rect(.*)width="\w+"(.*)height="\w+"\/>/g, '')
-      .replace(/<rect(.*)width="\w+"(.*)height="\w+"\/><\/rect>/g, '')
-  )
+  return data
+    .replace(/<style>(.*)<\/style>/g, '')
+    .replace(/<defs><\/defs>/g, '')
+    .replace(/class="[a-zA-Z0-9:;\.\s\(\)\-\,]*"/gi, '')
+    .replace(/fill="[a-zA-Z0 -9:;\.\s\(\)\-\,]*"/gi, '')
+    .replace(/<g id="Square">.*?<\/g>/gi, '')
 }
-
-// const SVGOoptimization = (data, svgName) => {
-//   return new svgo({
-//     plugins: [
-//       { cleanupAttrs: true },
-//       { removeDoctype: true },
-//       { removeXMLProcInst: true },
-//       { removeComments: true },
-//       { removeMetadata: true },
-//       { removeTitle: true },
-//       { removeDesc: true },
-//       { removeUselessDefs: true },
-//       { removeEditorsNSData: true },
-//       { removeEmptyAttrs: true },
-//       { removeHiddenElems: true },
-//       { removeEmptyText: true },
-//       { removeEmptyContainers: true },
-//       { removeViewBox: false },
-//       { cleanupEnableBackground: true },
-//       { convertStyleToAttrs: true },
-//       { convertColors: true },
-//       { convertPathData: true },
-//       { convertTransform: true },
-//       { removeUnknownsAndDefaults: true },
-//       { removeNonInheritableGroupAttrs: true },
-//       { removeUselessStrokeAndFill: true },
-//       { removeUnusedNS: true },
-//       { cleanupIDs: true },
-//       { cleanupNumericValues: true },
-//       { moveElemsAttrsToGroup: true },
-//       { moveGroupAttrsToElems: true },
-//       { collapseGroups: true },
-//       { removeRasterImages: false },
-//       { mergePaths: true },
-//       { convertShapeToPath: true },
-//       { sortAttrs: true },
-//       { removeDimensions: true },
-//     ],
-//   })
-//     .optimize(data)
-//     .then(result => {
-//       return saveFile(result.data, svgName)
-//     })
-//     .catch(err => console.log(data, err))
-// } // SVGOoptimization
-
-// main()
-// .then(ret=>{
-//   console.log('First item',ret[0])
-//   return generateIconComponents(ret)
-// })
-// .then(ret=>{
-//   console.log('COMPONENTS FILE GENERATED!!',ret)
-
-// })
-// .catch(err=>{
-//   console.log('###################################');
-//   console.log('###################################');
-//   console.log('FINAL ERROR');
-//   console.log(err);
-// })
 
 module.exports = main

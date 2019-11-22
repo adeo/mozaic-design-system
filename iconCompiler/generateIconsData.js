@@ -1,9 +1,11 @@
 const dirtree = require('directory-tree')
 const fs = require('fs')
+
+const { dirsIconsStatic } = require('./config')
 const { createComponentName } = require('./tools')
 
 const generateIconsData = () => {
-  const iconDir = dirtree('static/icons')
+  const iconDir = dirtree(dirsIconsStatic[0])
   const iconList = iconDir.children.map(icon => {
     const cat = icon.name.split('_')[0]
     const size = icon.name

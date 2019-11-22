@@ -32,10 +32,6 @@ const IconViewer = () => {
         const categories = {}
 
         icons.forEach(icon => {
-          // TODO - remove
-          // if(icon.node.cat !== 'Media') {
-          //   return true
-          // }
           if (!categories[icon.node.cat]) categories[icon.node.cat] = {}
 
           if (!categories[icon.node.cat][icon.node.name])

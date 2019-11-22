@@ -88,7 +88,7 @@
     "css:lint": "npx stylelint npx stylelint src/pages/**/previews/*.scss packages/styles/**/*.scss",
     "icons:clean": "node iconCompiler/execDirsCleaning.js",
     "icons:process": "node iconCompiler/index.js",
-    "icons:build": "yarn icons:clean && yarn icons:process && node iconCompiler/copyIcons.js",
+    "icons:build": "yarn icons:clean && yarn icons:process",
     "prebuild": "yarn clean-cache && yarn tokens:build && yarn icons:build",
     "lerna": "npx lerna clean -y && npx lerna bootstrap",
     "build": "npx gatsby build",
