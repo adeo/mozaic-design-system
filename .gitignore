@@ -32,3 +32,7 @@ test/screenshots
 static/Components
 static/Foundations
 local.log
+
+.jest-cache
+coverage/
+.jest-coverage
