@@ -2239,6 +2239,12 @@
   },
   {
     "cat": "Social",
+    "size": "48px",
+    "name": "View_Like--Negative",
+    "fullpath": "/icons/Social_View_Like--Negative_48px.svg"
+  },
+  {
+    "cat": "Social",
     "size": "16px",
     "name": "View_Like--Positive",
     "fullpath": "/icons/Social_View_Like--Positive_16px.svg"
@@ -2266,12 +2272,6 @@
     "size": "32px",
     "name": "View_Like-Negative",
     "fullpath": "/icons/Social_View_Like-Negative_32px.svg"
-  },
-  {
-    "cat": "Social",
-    "size": "48px",
-    "name": "View_Like-Negative",
-    "fullpath": "/icons/Social_View_Like-Negative_48px.svg"
   },
   {
     "cat": "Social",
