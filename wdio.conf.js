@@ -113,14 +113,6 @@ exports.config = {
     },
     {
       browserName: 'safari',
-      browser_version: '5.1',
-      resolution: '1280x1024',
-      'browserstack.video': false,
-      build: 'baseline',
-      project: 'mozaic-testing',
-    },
-    {
-      browserName: 'safari',
       browser_version: '13.0',
       resolution: '1280x1024',
       'browserstack.video': false,
@@ -197,7 +189,8 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: process.argv[2] || 'http://localhost:8000',
+  baseUrl: process.argv[2] || 'http://bs-local.com:8000',
+  disableHostCheck: true,
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
