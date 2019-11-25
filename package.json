@@ -75,7 +75,8 @@
     "lint-staged": "^8.1.4",
     "plop": "^2.4.0",
     "prettier": "^1.14.2",
-    "react-test-renderer": "^16.8.2"
+    "react-test-renderer": "^16.8.2",
+    "rimraf": "^3.0.0"
   },
   "scripts": {
     "tokens:build": "mozaic-tokens-build",
