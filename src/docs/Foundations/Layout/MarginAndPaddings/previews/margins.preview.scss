@@ -1,0 +1,14 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'utilities/_u.margin';
+@import 'utilities/_u.padding';
+
+.example {
+  background-color: $color-primary-02-200;
+
+  &__item {
+    background-color: $color-primary-01-200;
+  }
+}
