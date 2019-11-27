@@ -87,12 +87,10 @@ const getPath = (name, fill) => {
         <>
           <polygon
             id="box"
-            class="st1"
             points="0,0 6,0 6,2 2,2 2,14 14,14 14,10 16,10 16,16 0,16"
           />
           <polygon
             id="arrow_13_"
-            class="st1"
             points="8.4,0 16,0 16,7.6 13.1,4.8 8.9,9 7,7.1 11.2,2.9"
           />
         </>

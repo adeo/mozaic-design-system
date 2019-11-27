@@ -141,7 +141,7 @@ class Preview extends PureComponent {
             fullScreen={this.state.fullScreen}
             toggleFullScreen={this.toggleFullScreen}
             changeViewPort={this.changeViewPort}
-            getAvailableWidth={this.getAvailableSpace}
+            getAvailableWidth={() => this.getAvailableSpace}
             availableWidth={this.state.availableWidth}
             showGrid={this.showGrid}
             grid={this.state.grid}

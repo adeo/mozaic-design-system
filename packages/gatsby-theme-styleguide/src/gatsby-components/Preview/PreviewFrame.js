@@ -107,12 +107,13 @@ const PreviewFrame = ({
   const [iframeHeight, setIframeHeight] = useState(0)
   const frame = useRef(null)
 
-  const resizeFrame = () =>
+  const resizeFrame = () => {
     setIframeHeight(
-      frame.current.contentDocument.body
+      frame.current.contentDocument && frame.current.contentDocument.body
         ? frame.current.contentDocument.body.scrollHeight
         : '90px'
     )
+  }
 
   useEffect(() => {
     resizeFrame()
