@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.30](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.29...v1.0.1-alpha.30) (2019-11-27)
+
+
+### Bug Fixes
+
+* **chore/test:** fix screenshot to connect to localhost from BrowserStack on mobile devices ([#440](https://github.com/adeo/design-system--styleguide/issues/440)) ([fb5a41e](https://github.com/adeo/design-system--styleguide/commit/fb5a41eae93472aa746e02c1c9afc19d69d0ccbc))
+* **pattern/icon:** rename social icon using naming conventions ([#442](https://github.com/adeo/design-system--styleguide/issues/442)) ([6c93d30](https://github.com/adeo/design-system--styleguide/commit/6c93d305b988f2ed64cadc85b637550cb4183e91))
+* **patterns/margins and paddings:** fix bug where units where rendered as numbers in classes names resulting in truncated leading 0 ([#443](https://github.com/adeo/design-system--styleguide/issues/443)) ([ef178b7](https://github.com/adeo/design-system--styleguide/commit/ef178b75a669b2b7d6e52e4e8bb2c48ac689d789))
+
+
+
+
+
 ## [1.0.1-alpha.29](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.28...v1.0.1-alpha.29) (2019-11-21)
 
 

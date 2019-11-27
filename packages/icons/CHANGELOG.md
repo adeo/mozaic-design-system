@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.30](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.29...v1.0.1-alpha.30) (2019-11-27)
+
+
+### Bug Fixes
+
+* **pattern/icon:** rename social icon using naming conventions ([#442](https://github.com/adeo/mozaic-design-system/issues/442)) ([6c93d30](https://github.com/adeo/mozaic-design-system/commit/6c93d305b988f2ed64cadc85b637550cb4183e91))
+
+
+
+
+
 ## [1.0.1-alpha.29](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.28...v1.0.1-alpha.29) (2019-11-21)
 
 

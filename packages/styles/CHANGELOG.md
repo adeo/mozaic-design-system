@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.30](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.29...v1.0.1-alpha.30) (2019-11-27)
+
+
+### Bug Fixes
+
+* **patterns/margins and paddings:** fix bug where units where rendered as numbers in classes names resulting in truncated leading 0 ([#443](https://github.com/adeo/mozaic-design-system/issues/443)) ([ef178b7](https://github.com/adeo/mozaic-design-system/commit/ef178b75a669b2b7d6e52e4e8bb2c48ac689d789))
+
+
+
+
+
 ## [1.0.1-alpha.28](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.27...v1.0.1-alpha.28) (2019-11-21)
 
 
