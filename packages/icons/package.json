@@ -3,5 +3,9 @@
   "version": "1.0.1-alpha.30",
   "description": "svg icons for Mozaic design system",
   "author": "",
-  "license": "ISC"
+  "main": "index.bundle.js",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0"
+  }
 }
