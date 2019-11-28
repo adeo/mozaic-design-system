@@ -8,5 +8,5 @@ Enzyme.configure({ adapter: new Adapter() })
 test('Test code component', () => {
   const code = `@import 'settings-tools/_all-settings';`
   const component = Enzyme.mount(<Code children={code} />)
-  expect(component.props('children').children).toBe(code)
+  expect(component.props().children).toBe(code)
 })
