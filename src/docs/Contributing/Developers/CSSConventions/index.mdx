@@ -1,6 +1,6 @@
 ---
 title: 'CSS conventions'
-order: 12
+order: 2
 ---
 
 # Concepts
@@ -480,7 +480,7 @@ Indeed, **Single line comments** are **not rendered** in the final CSS file. Thi
 
 On the other hand, **Multi-line comments** are **always rendered** in the final CSS file. They're also called **loud comment**, by contrast with silent comments.
 
-By default, multi-line comments be stripped from the compiled CSS in compressed mode.  
+By default, multi-line comments be stripped from the compiled CSS in compressed mode.
 If a comment begins with `/*!`, though, it will always be included in the CSS output.
 
 ```scss
@@ -513,7 +513,7 @@ You should avoid support comments, but it is possible when required to add comme
 
 Please consider that the **TODOS are not a good practice** and that using the project management tool for that is way better.
 
-For this type of comment, **use native CSS comments**.  
+For this type of comment, **use native CSS comments**.
 Add the **capitalized flags `LEGACY_SUPPORT` and `END_LEGACY_SUPPORT` at the start and at the end** of the legacy support code block.
 Add also **the version in witch the support is supposed to be dropped**.
 
@@ -535,10 +535,10 @@ Add also **the version in witch the support is supposed to be dropped**.
 
 ## Tokens comment
 
-Design tokens are theming/styling constants defined in a JSON file.  
+Design tokens are theming/styling constants defined in a JSON file.
 For more information about tokens, please read the ["Design Tokens" chapter](http://mozaic.adeo.cloud/GetStarted/Developers/whatsincluded/#design-tokens) in the **Getting started** section.
 
-It is possible to add a comment to a token property, simply by adding a new `key/value` pair to the JSON file.  
+It is possible to add a comment to a token property, simply by adding a new `key/value` pair to the JSON file.
 The key must be named `comment` and the value contains the comment you want to write.
 
 ```JSON
