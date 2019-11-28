@@ -103,7 +103,8 @@
     "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
     "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github prerelease",
     "npm:publish": "npx lerna exec --bail=false npm publish",
-    "unit": "jest --coverage --verbose --color --no-cache"
+    "unit": "jest --coverage --verbose --color --no-cache",
+    "unit:watch": "jest --watch"
   },
   "lint-staged": {
     "*.scss": [
@@ -114,7 +115,7 @@
     "*.js": [
       "yarn format",
       "git add",
-      "jest --bail --findRelatedTests"
+      "jest --bail --findRelatedTests --coverage"
     ]
   },
   "browserslist": [
