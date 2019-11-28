@@ -1,12 +1,11 @@
 import React from 'react'
 import Color from '../Color'
-import renderer from 'react-test-renderer'
+const Enzyme = require('enzyme')
+const Adapter = require('enzyme-adapter-react-16')
+
+Enzyme.configure({ adapter: new Adapter() })
 
 test('Test color component', () => {
-  global.navigator = jest.fn()
-
-  const component = renderer.create(<Color color="blue" />)
-
-  let tree = component.toJSON()
-  expect(tree).toMatchSnapshot()
+  const component = Enzyme.mount(<Color color="blue" />)
+  expect(component.props().color).toBe('blue')
 })
