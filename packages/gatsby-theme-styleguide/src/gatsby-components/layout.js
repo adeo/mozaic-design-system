@@ -14,6 +14,7 @@ import IconViewer from '../gatsby-components/IconViewer'
 import Code from '../gatsby-components/Code'
 import InlineCode from '../gatsby-components/InlineCode'
 import SubContents from '../gatsby-components/SubContents'
+import DesignerKitLink from '../gatsby-components/DesignerKitLink'
 
 const shortcodes = {
   Color,
@@ -21,6 +22,7 @@ const shortcodes = {
   Hint,
   HintItem,
   IconViewer,
+  DesignerKitLink,
   pre: ({ children }) => <Code>{children}</Code>,
   inlineCode: InlineCode,
 }
