@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PatternStatusGroup /> render correctly 1`] = `
+.c1 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #58e3b7;
+  color: #328269;
+}
+
+.c2 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #e3cb58;
+  color: #a58e1b;
+}
+
+.c3 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #e35876;
+  color: #82325e;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 0.875rem;
+  color: #525252;
+  margin-right: 1rem;
+}
+
+.c0 span {
+  margin-right: 0.5rem;
+}
+
+<div
+  className="patternstatusflags"
+>
+  <span
+    className="c0"
+  >
+    <span>
+      scss
+    </span>
+     
+    <span
+      className="c1"
+    >
+      stable
+    </span>
+  </span>
+  <span
+    className="c0"
+  >
+    <span>
+      figma
+    </span>
+     
+    <span
+      className="c2"
+    >
+      wip
+    </span>
+  </span>
+  <span
+    className="c0"
+  >
+    <span>
+      sketch
+    </span>
+     
+    <span
+      className="c3"
+    >
+      bêta
+    </span>
+  </span>
+</div>
+`;
