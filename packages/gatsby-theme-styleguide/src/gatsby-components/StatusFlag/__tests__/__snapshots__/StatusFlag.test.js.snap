@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StatusFlag> should render correctly with a bêta status 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #e35876;
+  color: #82325e;
+}
+
+<span
+  className="c0"
+>
+  bêta
+</span>
+`;
+
+exports[`<StatusFlag> should render correctly with a stable status 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #58e3b7;
+  color: #328269;
+}
+
+<span
+  className="c0"
+>
+  stable
+</span>
+`;
+
+exports[`<StatusFlag> should render correctly with a wip status 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #e3cb58;
+  color: #a58e1b;
+}
+
+<span
+  className="c0"
+>
+  wip
+</span>
+`;

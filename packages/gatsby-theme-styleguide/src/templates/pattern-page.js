@@ -8,7 +8,7 @@ import Container from '../gatsby-components/Container'
 import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
 import TableOfContents from '../gatsby-components/TableOfContents'
-import PatternsStatusFlags from '../gatsby-components/PatternsStatus/PatternsStatusFlags'
+import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) =>
@@ -83,7 +83,7 @@ export default ({ data, location }) => {
       <FullWidthContainer separator>
         <Container>
           <h1>{parentTitle}</h1>
-          <PatternsStatusFlags status={parentStatus} />
+          <PatternStatusGroup status={parentStatus} />
         </Container>
       </FullWidthContainer>
       {hasTabs && <PageTabs samePageTabs={samePageTabs} />}

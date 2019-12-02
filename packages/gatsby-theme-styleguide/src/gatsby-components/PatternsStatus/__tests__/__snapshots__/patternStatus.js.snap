@@ -1,0 +1,607 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pattern Status Component render correctly 1`] = `
+.c5 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #e35876;
+  color: #82325e;
+}
+
+.c6 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #e3cb58;
+  color: #a58e1b;
+}
+
+.c7 {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem 0.3rem;
+  background: #fff;
+  border-radius: 3px;
+  border: solid 1px #58e3b7;
+  color: #328269;
+}
+
+.c0 {
+  font-size: 0.875rem;
+  color: #525252;
+}
+
+.c0 td,
+.c0 th {
+  padding: 0.8rem 0.4rem 1rem;
+  line-height: 1.3;
+}
+
+.c0 tr {
+  border: 0 !important;
+}
+
+.c0 th {
+  border: 0 !important;
+}
+
+.c1 {
+  border-bottom: solid 1px #554f52;
+  font-size: 1rem;
+  line-height: 2.5em;
+}
+
+.c4 {
+  display: block;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  width: 110px;
+  max-width: 110px;
+  color: #525252;
+}
+
+.c4:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 {
+  border: 0;
+}
+
+.c3:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+.c2 {
+  font-weight: normal;
+  color: #999;
+  padding-top: 0.6rem !important;
+  padding-bottom: 0.4rem !important;
+}
+
+<div>
+  <h2>
+    Foundations
+  </h2>
+  <div>
+    <table
+      className="c0"
+    >
+      <thead>
+        <tr>
+          <th
+            colSpan={1}
+          >
+            <div
+              className="c1"
+            >
+              Patterns
+            </div>
+          </th>
+          <th
+            colSpan={2}
+          >
+            <div
+              className="c1"
+            >
+              Design
+            </div>
+          </th>
+          <th
+            colSpan={4}
+          >
+            <div
+              className="c1"
+            >
+              Development
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <th
+            className="c2"
+          >
+            
+          </th>
+          <th
+            className="c2"
+          >
+            Sketch
+          </th>
+          <th
+            className="c2"
+          >
+            Figma
+          </th>
+          <th
+            className="c2"
+          >
+            SCSS
+          </th>
+          <th
+            className="c2"
+          >
+            Vue
+          </th>
+          <th
+            className="c2"
+          >
+            React
+          </th>
+          <th
+            className="c2"
+          >
+            Angular
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="c3"
+        >
+          <td>
+            <a
+              className="c4"
+              href="/Foundations/Typography/BodyStyles/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Body styles
+            </a>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr
+          className="c3"
+        >
+          <td>
+            <a
+              className="c4"
+              href="/Foundations/BorderRadius/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Border radius
+            </a>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>
+    Components
+  </h2>
+  <div>
+    <table
+      className="c0"
+    >
+      <thead>
+        <tr>
+          <th
+            colSpan={1}
+          >
+            <div
+              className="c1"
+            >
+              Patterns
+            </div>
+          </th>
+          <th
+            colSpan={2}
+          >
+            <div
+              className="c1"
+            >
+              Design
+            </div>
+          </th>
+          <th
+            colSpan={4}
+          >
+            <div
+              className="c1"
+            >
+              Development
+            </div>
+          </th>
+        </tr>
+        <tr>
+          <th
+            className="c2"
+          >
+            
+          </th>
+          <th
+            className="c2"
+          >
+            Sketch
+          </th>
+          <th
+            className="c2"
+          >
+            Figma
+          </th>
+          <th
+            className="c2"
+          >
+            SCSS
+          </th>
+          <th
+            className="c2"
+          >
+            Vue
+          </th>
+          <th
+            className="c2"
+          >
+            React
+          </th>
+          <th
+            className="c2"
+          >
+            Angular
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="c3"
+        >
+          <td>
+            <a
+              className="c4"
+              href="/Components/Typography/BodyStyles/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Body styles
+            </a>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+        </tr>
+        <tr
+          className="c3"
+        >
+          <td>
+            <a
+              className="c4"
+              href="/Components/Typography/BodyStyles/"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+            >
+              Border radius
+            </a>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <span
+              className="c5"
+            >
+              bêta
+            </span>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+          <td>
+            <svg
+              fill="currentColor"
+              height="1rem"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+              />
+            </svg>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>
+    Statuses meaning
+  </h3>
+  <p>
+    <span
+      className="c6"
+    >
+      wip
+    </span>
+    <b>
+        Work In Progress
+    </b>
+     : The pattern may have code and documentation, but it should no be used.
+  </p>
+  <p>
+    <span
+      className="c5"
+    >
+      bêta
+    </span>
+    <b>
+        Bêta
+    </b>
+     : The pattern is documented, and accessible in the specified platform, but it may have breaking changes before being labeled as stable. Basicaly, a bêta version of a pattern is waiting for users (you) to test it and confirm us that it fit the teams needs. You should avoid using it in production, but if you do, be extra careful when updating Mozaic.
+  </p>
+  <p>
+    <span
+      className="c7"
+    >
+      stable
+    </span>
+    <b>
+        Stable
+    </b>
+     : The pattern is usable in production. The mozaic teams can add features or fix bugs to it, as long there is no changes required from the final user. Features supported in a stable pattern will be supported at least until the next major version (from 1.5.72 to 2.0.0 for example).
+  </p>
+</div>
+`;
