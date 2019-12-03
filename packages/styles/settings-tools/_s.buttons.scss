@@ -93,18 +93,19 @@ $button-border: get-border('m');
     $hover-props: map-get($props, 'hover');
 
     @each $prop, $value in $hover-props {
-      &:hover,
-      &.is-hover {
-        @if map-has-key($hover-props, 'background') {
-          background-color: map-get($hover-props, 'background');
-        }
+      &:hover {
+        @include add-demo-state-class {
+          @if map-has-key($hover-props, 'background') {
+            background-color: map-get($hover-props, 'background');
+          }
 
-        @if map-has-key($hover-props, 'font') {
-          color: map-get($hover-props, 'font');
-        }
+          @if map-has-key($hover-props, 'font') {
+            color: map-get($hover-props, 'font');
+          }
 
-        @else {
-          color: map-get($props, 'font');
+          @else {
+            color: map-get($props, 'font');
+          }
         }
       }
     }
@@ -114,9 +115,10 @@ $button-border: get-border('m');
     $focus-props: map-get($props, 'focus');
 
     @each $prop, $value in $focus-props {
-      &:focus,
-      &.is-focus {
-        border-color: map-get($focus-props, 'border');
+      &:focus {
+        @include add-demo-state-class {
+          border-color: map-get($focus-props, 'border');
+        }
       }
     }
   }
@@ -125,9 +127,10 @@ $button-border: get-border('m');
     $active-props: map-get($props, 'active');
 
     @each $prop, $value in $active-props {
-      &:active,
-      &.is-active {
-        background-color: map-get($active-props, 'background');
+      &:active {
+        @include add-demo-state-class {
+          background-color: map-get($active-props, 'background');
+        }
       }
     }
   }
@@ -135,12 +138,13 @@ $button-border: get-border('m');
   @if map-has-key($props, 'disabled') {
     $disabled-props: map-get($props, 'disabled');
 
-    &:disabled,
-    &.is-disabled {
-      border-color: transparent;
-      background-color: map-get($disabled-props, 'background');
-      color: map-get($disabled-props, 'font');
-      cursor: default;
+    &:disabled {
+      @include add-demo-state-class {
+        border-color: transparent;
+        background-color: map-get($disabled-props, 'background');
+        color: map-get($disabled-props, 'font');
+        cursor: default;
+      }
     }
   }
 }

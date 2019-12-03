@@ -64,14 +64,16 @@
     }
   }
 
-  &:hover,
-  &.is-hover {
-    border-color: $color-input-hover-border;
+  &:hover {
+    @include add-demo-state-class {
+      border-color: $color-input-hover-border;
+    }
   }
 
-  &:focus,
-  &.is-focus {
-    border-color: $color-input-focus-border;
+  &:focus {
+    @include add-demo-state-class {
+      border-color: $color-input-focus-border;
+    }
   }
 
   &:disabled {

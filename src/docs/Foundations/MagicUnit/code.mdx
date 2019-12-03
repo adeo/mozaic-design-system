@@ -137,3 +137,13 @@ It basically just do the `to-rem()` part for you
 ### The shorthands variables :
 
 > the **shorthands variables** behave exactly as the magic-unit-rem, but in a variable form factor.
+
+### The magic unit grid development utility :
+
+In order to help you to position your elements as well as possible according to the magic-unit, Mozaic provides the css class `mdu-magic-unit-grid` to add on your container and which allows the display of a positioning grid.
+
+The `mdu-magic-unit-grid` class is only usable in a development mode, indeed the code of this class will not be compiled into the production build when the **MOZAIC_ENV=production** environment variable is provided.
+
+<Preview path="mdu-magic-unit-grid" />
+
+> As a reminder, you can define an environment variable to determine whether you want to use Mozaic in development or environment mode. For more information on this subject, [see the dedicated document](/GetStarted/Developers/configurePostCss/#compiling-for-production).
