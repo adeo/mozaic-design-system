@@ -1,5 +1,5 @@
 ---
-title: 'Preset Adeo'
+title: 'Adeo Preset'
 order: 11
 ---
 
@@ -33,14 +33,14 @@ module.exports = {
 
 Using the ADEO preset, Mozaic will generate a series of tokens for you to use in your project.
 
-In order to make it easier for you to see and use these tokens, you must define your local token export path.  To do this, you must add the following code to the `mozaic.config.js` file, in addition to the elements already included:
+In order to make it easier for you to see and use these tokens, you must define your local token export path. To do this, you must add the following code to the `mozaic.config.js` file, in addition to the elements already included:
 
 ```js
 module.exports = {
   preset: 'adeo',
   tokens: {
     localTokensExportPath: './dest/build/', // path to compiled files
-  }
+  },
 }
 ```
 
@@ -57,7 +57,7 @@ In order to compile tokens, you have two options:
 Run directly :
 
 ```shell
-mozaic-tokens:build
+mozaic-tokens-build
 ```
 
 Or though a `package.json` script for example :
@@ -65,7 +65,7 @@ Or though a `package.json` script for example :
 ```Json
 ...
 "scripts": {
-  "develop": "mozaic-tokens:build && npm run develop:watch",
+  "develop": "mozaic-tokens-build && npm run develop:watch",
 }
 ...
 ```
@@ -80,9 +80,11 @@ const tokensBuild = require('@mozaic-ds/tokens/tokensBuild')
 tokensBuild()
 ```
 
-When triggering the either the command or the function, if you override values, you should see something like this logging into the console :
+When triggering the either the command or the function, you should see a list of messages looking like this logging into the console :
 
 ```
 Property Value Collisions:
 Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value: #000
 ```
+
+This is a sign that everything is working properly and that the LeroyMerlin values are overrided by the Adeo Preset.
