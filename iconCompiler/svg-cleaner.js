@@ -29,8 +29,8 @@ const main = async () => {
             logERROR(svgName, 'icon Filename should not contain spaces')
           }
 
-          if (!svgName.endsWith('px.svg')) {
-            logERROR(svgName, 'icon Filename always end with [size]px.svg')
+          if (!/_(16|24|32|48|64|96)px.svg$/.test(svgName)) {
+            logERROR(svgName, 'icon Filename always end with _[size]px.svg')
           }
 
           if (!svgName.includes('_')) {
@@ -141,6 +141,7 @@ const customOptimization = (data, file) => {
     .replace(/<style>(.*)<\/style>/g, '')
     .replace(/<defs><\/defs>/g, '')
     .replace(/class="[a-zA-Z0-9:;\.\s\(\)\-\,]*"/gi, '')
+    .replace(/data-name="[a-zA-Z0-9:;\.\s\(\)\-\,\/]*"/gi, '')
     .replace(/fill="[a-zA-Z0 -9:;\.\s\(\)\-\,]*"/gi, '')
     .replace(/<g id="Square">.*?<\/g>/gi, '')
 }

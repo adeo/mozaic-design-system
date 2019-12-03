@@ -9,15 +9,13 @@ const iconsPackageReactOutput = path.join(currentDir, './packages/icons/react/')
 const iconsPackageVueOutput = path.join(currentDir, './packages/icons/vue/')
 
 iconsCleaned()
-  .then(icons => {
-    return generateIconComponents(icons, {
+  .then(icons =>
+    generateIconComponents(icons, {
       react: iconsPackageReactOutput,
       vue: iconsPackageVueOutput,
     })
-  })
-  .then(() => {
-    return generateIconsData()
-  })
+  )
+  .then(() => generateIconsData())
   .catch(err => {
     console.error('Error in Icons building!', err)
   })
