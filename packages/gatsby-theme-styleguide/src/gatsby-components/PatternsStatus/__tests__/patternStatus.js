@@ -1,20 +1,21 @@
 import React from 'react'
-const Enzyme = require('enzyme')
-const Adapter = require('enzyme-adapter-react-16')
+import renderer from 'react-test-renderer'
+import 'jest-styled-components'
 
-Enzyme.configure({ adapter: new Adapter() })
-import { StaticQuery, query } from 'gatsby'
-
-import PatternsStatus from '../PatternsStatus'
+import { StaticQuery } from 'gatsby'
+import PatternsStatus, { StatusTable } from '../PatternsStatus'
 
 beforeEach(() => {
   StaticQuery.mockImplementationOnce(({ render }) =>
     render({
-      allMdx: {
+      Foundations: {
         totalCount: 2,
         edges: [
           {
             node: {
+              fields: {
+                slug: '/Foundations/Typography/BodyStyles/',
+              },
               frontmatter: {
                 title: 'Body styles',
                 order: 4,
@@ -27,6 +28,44 @@ beforeEach(() => {
           },
           {
             node: {
+              fields: {
+                slug: '/Foundations/BorderRadius/',
+              },
+              frontmatter: {
+                title: 'Border radius',
+                order: 8,
+                status: {
+                  sketch: 'bêta',
+                  scss: 'bêta',
+                },
+              },
+            },
+          },
+        ],
+      },
+      Components: {
+        totalCount: 2,
+        edges: [
+          {
+            node: {
+              fields: {
+                slug: '/Components/Typography/BodyStyles/',
+              },
+              frontmatter: {
+                title: 'Body styles',
+                order: 4,
+                status: {
+                  sketch: 'bêta',
+                  scss: 'bêta',
+                },
+              },
+            },
+          },
+          {
+            node: {
+              fields: {
+                slug: '/Components/Typography/BodyStyles/',
+              },
               frontmatter: {
                 title: 'Border radius',
                 order: 8,
@@ -44,9 +83,11 @@ beforeEach(() => {
 })
 
 describe(`Pattern Status Component`, () => {
-  test(`Check number of pattern present in the pattern status table`, () => {
-    const location = { pathname: '/Components/Buttons/' }
-    const patternStatus = Enzyme.mount(<PatternsStatus></PatternsStatus>)
-    expect(patternStatus.find('tr').length).toBe(3) // 2 from mocks + title row
+  it(`render correctly`, () => {
+    const tree = renderer.create(<PatternsStatus />)
+    const treeJSON = tree.toJSON()
+    expect(treeJSON).toMatchSnapshot()
+    expect(tree.root.findAllByType(StatusTable).length).toEqual(2)
+    expect(tree.root.findAllByType('h2').length).toEqual(2)
   })
 })

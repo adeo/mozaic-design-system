@@ -87,8 +87,8 @@ const IndexPage = () => (
           <Link className="help__link" to="/Contributing">
             Contributing
           </Link>
-          <Link className="help__link" to="/PatternsStatus">
-            Patterns Status
+          <Link className="help__link" to="/Updates">
+            Updates
           </Link>
         </div>
         <Linkicon link="https://adeo-tech-community.slack.com/messages/CKQJZL7C4/">
