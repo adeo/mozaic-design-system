@@ -1,6 +1,5 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import 'jest-styled-components'
 
 import { StaticQuery } from 'gatsby'
 import PatternsStatus, { StatusTable } from '../PatternsStatus'

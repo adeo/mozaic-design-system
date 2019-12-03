@@ -65,7 +65,7 @@ const Body = styled.div`
 export class PreviewComponent extends PureComponent {
   constructor(props) {
     super(props)
-
+    this.contRef = React.createRef()
     this.body = React.createRef()
     this.state = {
       currentCodeSample: 'html',
@@ -188,10 +188,7 @@ export class PreviewComponent extends PureComponent {
             </Right>
           </Container>
         ) : (
-          <div
-            ref={contRef => (this.contRef = contRef)}
-            style={{ margin: '2rem 0' }}
-          >
+          <div ref={this.contRef} style={{ margin: '2rem 0' }}>
             {!nude && (
               <PreviewToolBar
                 fullScreen={fullScreen}

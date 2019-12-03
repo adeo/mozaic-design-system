@@ -109,7 +109,9 @@ const PreviewFrame = ({
 
   const resizeFrame = () => {
     setIframeHeight(
-      frame.current.contentDocument && frame.current.contentDocument.body
+      frame.current &&
+        frame.current.contentDocument &&
+        frame.current.contentDocument.body
         ? frame.current.contentDocument.body.scrollHeight
         : '90px'
     )

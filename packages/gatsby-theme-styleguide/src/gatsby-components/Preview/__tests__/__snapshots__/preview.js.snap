@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preview Component check iframe's src 1`] = `
+.c19 {
+  width: 1.2rem;
+  height: 1.2rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: rgb(42,39,52);
+  box-shadow: none;
+  border: none;
+  position: absolute;
+  right: 1.1rem;
+  top: 6px;
+  outline: none;
+  padding: 0.1rem;
+}
+
+.c19 svg {
+  overflow: visible;
+}
+
+.c18 {
+  min-height: 1em;
+}
+
+.c18:before {
+  display: inline-block;
+  width: 3em;
+  overflow: hidden;
+  font-size: 0.8em;
+}
+
+.c17 {
+  max-width: 100%;
+  overflow: auto;
+  margin: 0 !important;
+  white-space: pre-wrap;
+  border: none !important;
+}
+
+.c15 {
+  position: relative;
+}
+
+.c16 {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  position: auto !important;
+  padding: 1rem 1rem 0.4rem 1rem !important;
+}
+
+.c11 {
+  background: #f5f5f5;
+  padding-left: 10px;
+  border: solid 1px #ececec;
+  border-top: 0;
+}
+
+.c12 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  line-height: 1.5rem;
+  font-weight: bold;
+  background: #fff;
+  border: solid 1px #ececec;
+  border-bottom: 0;
+  color: #554f52;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  margin: 0;
+  border-radius: 4px 4px 0 0;
+  margin-top: 6px;
+  margin-bottom: -1px;
+  padding: 5px 16px;
+}
+
+.c13 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  line-height: 1.5rem;
+  font-weight: bold;
+  background: transparent;
+  border: solid 1px transparent;
+  border-bottom: 0;
+  color: #554f52;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  margin: 0;
+  border-radius: 4px 4px 0 0;
+  margin-top: 6px;
+  margin-bottom: -1px;
+  padding: 5px 16px;
+}
+
+.c20 {
+  background: #f5f5f5;
+  color: #554f52;
+  padding: 5px 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-radius: 0 0 4px 4px;
+  border: solid 1px #ececec;
+  border-top: 0;
+}
+
+.c21 {
+  color: #554f52;
+  box-shadow: none;
+  border: none;
+  background: none;
+  padding: none;
+  margin: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.75rem;
+  outline: none;
+}
+
+.c14 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: auto;
+  position: relative;
+  border-left: solid 1px #ececec;
+  max-height: 10vh;
+}
+
+.c1 {
+  background: #f5f5f5;
+  color: #554f52;
+  border: solid 1px #ececec;
+  border-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 34px;
+  position: relative;
+  overflow: visible;
+}
+
+.c3 {
+  box-sizing: border-box;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.c5 {
+  box-sizing: border-box;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.5rem;
+  border-right: solid 1px #ececec;
+}
+
+.c4 {
+  color: #666;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.c7 {
+  position: relative;
+  padding: 1rem 0;
+  box-shadow: inset 0 0 0 1px #ececec;
+  background-color: #fff;
+  width: px;
+  min-width: px;
+  -webkit-transform: scale( NaN );
+  -ms-transform: scale( NaN );
+  transform: scale( NaN );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+}
+
+.c6 {
+  background: #f5f5f5;
+  border-bottom: solid 1px #ececec;
+  position: relative;
+  overflow: hidden;
+}
+
+.c8 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 90px;
+}
+
+.c9 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.c10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ececec;
+  display: inline-block;
+  font-size: 11px;
+  -webkit-letter-spacing: 0.08em;
+  -moz-letter-spacing: 0.08em;
+  -ms-letter-spacing: 0.08em;
+  letter-spacing: 0.08em;
+  color: #666;
+  line-height: 1;
+  padding: 6px 8px;
+}
+
+.c0 {
+  position: relative;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "margin": "2rem 0",
+      }
+    }
+  >
+    <div
+      className="c1"
+    >
+      <div>
+        <div
+          className="c2"
+        >
+          <button
+            className="c3"
+            onClick={[Function]}
+          >
+            <svg
+              fill="#554f52"
+              height="12"
+              style={Object {}}
+              viewBox="0 0 16 16"
+              width="12"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                d="M6 6h-6v-6h6v6zm9-6h-6v6h6v-6zm9 0h-6v6h6v-6zm-18 9h-6v6h6v-6zm9 0h-6v6h6v-6zm9 0h-6v6h6v-6zm-18 9h-6v6h6v-6zm9 0h-6v6h6v-6zm9 0h-6v6h6v-6z"
+                fill="#554f52"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          className="c2"
+        >
+          <svg
+            fill="#554f52"
+            height="12"
+            style={
+              Object {
+                "marginRight": "8px",
+              }
+            }
+            viewBox="0 0 16 16"
+            width="12"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M0 1v10h16v-10h-16zM15 10h-14v-8h14v8zM10.5 12h-5l-0.5 2-1 1h8l-1-1z"
+              fill="#554f52"
+            />
+          </svg>
+          <select
+            onChange={[Function]}
+          >
+            <option
+              default={false}
+              value="auto"
+            >
+              auto
+            </option>
+            <option
+              default={false}
+            >
+              s
+            </option>
+            <option
+              default={false}
+            >
+              s-medium
+            </option>
+            <option
+              default={false}
+            >
+              s-large
+            </option>
+            <option
+              default={false}
+            >
+              s-xlarge
+            </option>
+            <option
+              default={false}
+            >
+              m
+            </option>
+            <option
+              default={false}
+            >
+              m-medium
+            </option>
+            <option
+              default={false}
+            >
+              l
+            </option>
+            <option
+              default={false}
+            >
+              l-medium
+            </option>
+            <option
+              default={false}
+            >
+              xl
+            </option>
+            <option
+              default={false}
+            >
+              xl-medium
+            </option>
+            <option
+              default={false}
+            >
+              xl-large
+            </option>
+            <option
+              default={false}
+            >
+              xxl
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="c2"
+      >
+        <a
+          className="c4"
+          href=""
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            fill="#554f52"
+            height="12"
+            style={Object {}}
+            viewBox="0 0 16 16"
+            width="12"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <polygon
+              id="box"
+              points="0,0 6,0 6,2 2,2 2,14 14,14 14,10 16,10 16,16 0,16"
+            />
+            <polygon
+              id="arrow_13_"
+              points="8.4,0 16,0 16,7.6 13.1,4.8 8.9,9 7,7.1 11.2,2.9"
+            />
+          </svg>
+        </a>
+        <button
+          className="c5"
+          onClick={[Function]}
+        >
+          <svg
+            fill="#554f52"
+            height="12"
+            style={Object {}}
+            viewBox="0 0 16 16"
+            width="12"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M16 0v6.5l-2.5-2.5-3 3-1.5-1.5 3-3-2.5-2.5zM7 10.5l-3 3 2.5 2.5h-6.5v-6.5l2.5 2.5 3-3z"
+              fill="#554f52"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <iframe
+          className="c8"
+          frameBorder="0"
+          height="90px"
+          onLoad={[Function]}
+          scrolling="no"
+          src=""
+        />
+      </div>
+      <button
+        className="c9"
+        onClick={[Function]}
+      >
+        hide options
+      </button>
+      <span
+        className="c10"
+      >
+        Viewport: 
+        px
+         
+      </span>
+    </div>
+    <div
+      className="c11"
+    >
+      <button
+        className="c12"
+        onClick={[Function]}
+      >
+        html
+      </button>
+      <button
+        className="c13"
+        onClick={[Function]}
+      >
+        css
+      </button>
+      <button
+        className="c13"
+        onClick={[Function]}
+      >
+        scss
+      </button>
+    </div>
+    <div
+      className="c14"
+    >
+      <div
+        className="c15"
+      >
+        <pre
+          className="c16 prism-code language-html"
+        >
+          <code
+            className="c17 prism-code language-html"
+            style={Object {}}
+          >
+            <div
+              className="c18 token-line"
+            >
+              <span
+                className="token plain"
+              >
+                not found
+              </span>
+            </div>
+          </code>
+        </pre>
+        <button
+          className="c19"
+          onClick={[Function]}
+        >
+          <svg
+            fill="#ececec"
+            height="0.8rem"
+            style={Object {}}
+            viewBox="0 0 16 16"
+            width="0.8rem"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M10 4v-4h-7l-3 3v9h6v4h10v-12h-6zM3 1.414v1.586h-1.586l1.586-1.586zM1 11v-7h3v-3h5v3l-3 3v4h-5zM9 5.414v1.586h-1.586l1.586-1.586zM15 15h-8v-7h3v-3h5v10z"
+              fill="#ececec"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="c20"
+    >
+      <button
+        className="c21"
+        onClick={[Function]}
+      >
+        Show more  
+        <svg
+          fill="#554f52"
+          height="12px"
+          style={Object {}}
+          viewBox="0 0 16 16"
+          width="12px"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            d="M16 8c0-4.418-3.582-8-8-8s-8 3.582-8 8 3.582 8 8 8 8-3.582 8-8zM1.5 8c0-3.59 2.91-6.5 6.5-6.5s6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5-6.5-2.91-6.5-6.5z"
+            fill="#554f52"
+          />
+          <path
+            d="M4.957 5.543l-1.414 1.414 4.457 4.457 4.457-4.457-1.414-1.414-3.043 3.043z"
+            fill="#554f52"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
