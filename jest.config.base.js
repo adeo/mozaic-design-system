@@ -3,6 +3,7 @@ module.exports = {
     '<rootDir>/test/spec/screenshots.test.js',
     '<rootDir>/node_modules/',
     '<rootDir>/.cache/',
+    '.mock.js',
   ],
   coveragePathIgnorePatterns: [
     '(tests/.*.mock).(jsx?|js?)$',
