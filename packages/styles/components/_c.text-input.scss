@@ -1,9 +1,7 @@
 /* mqp:start */
 .mc-text-input {
-  $border-width: get-border('s');
-
   @include reset-input;
-  @include set-font-scale('05');
+  @include set-input-size($input-default-size);
 
   display: block;
   width: 100%;
@@ -13,14 +11,7 @@
   background-color: $color-input-background;
   border-radius: get-border-radius('m');
 
-  // remove border height and center baseline optically
-  padding:
-    calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
-    calc(#{$mu075} + 0.125em - #{$border-width});
-
   &::placeholder {
-    @include set-font-scale('05');
-
     margin: 0;
     color: $color-input-placeholder;
     opacity: 1;
@@ -79,6 +70,14 @@
   &:disabled {
     border-color: $color-input-disabled-border;
     background: $color-input-disabled-background;
+  }
+
+  @each $size, $props in $input-sizes {
+    &--#{$size} {
+      @include modify-from-screens($major-screens) {
+        @include set-input-size($props);
+      }
+    }
   }
 }
 

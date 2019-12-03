@@ -1,21 +1,26 @@
 /* mqp:start */
 .mc-left-icon-input {
+  $parent: &;
+
   position: relative;
 
   &__icon {
     position: absolute;
     z-index: 1;
-    left: $mu075;
     top: 50%;
     transform: translateY(-50%);
-    width: $mu150;
-    height: $mu150;
     fill: $color-input-border;
     pointer-events: none;
   }
 
-  &__input {
-    padding-left: $mu300;
+  @include set-input-icon-size($input-icon-default-size, $parent);
+
+  @each $size, $props in $input-icon-sizes {
+    &--#{$size} {
+      @if ($size != 'm') {
+        @include set-input-icon-size($props, $parent);
+      }
+    }
   }
 }
 
