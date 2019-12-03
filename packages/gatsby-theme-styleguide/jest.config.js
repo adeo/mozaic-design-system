@@ -1,11 +1,9 @@
+const base = require('../../jest.config.base.js')
+
 module.exports = {
+  ...base,
   name: 'Theme',
   displayName: '@mozaic-ds/gatsby-theme-styleguide',
-  testPathIgnorePatterns: [
-    '<rootDir>/test/spec/screenshots.test.js',
-    '<rootDir>/node_modules/',
-    '<rootDir>/.cache/',
-  ],
   transform: {
     '^.+\\.jsx?$': `<rootDir>/jest-preprocess.js`,
   },
@@ -19,4 +17,5 @@ module.exports = {
   },
   testURL: `http://localhost:8000`,
   setupFiles: [`<rootDir>/loadershim.js`],
+  setupFilesAfterEnv: ['<rootDir>/setup-test-env.js'],
 }
