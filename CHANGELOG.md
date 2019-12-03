@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.31](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.30...v1.0.1-alpha.31) (2019-12-03)
+
+
+### Bug Fixes
+
+* **getting-started/adeo preset:** rename "preset adeo" into "adeo preset" and document the new command for building tokens ([#448](https://github.com/adeo/design-system--styleguide/issues/448)) ([e44b8f4](https://github.com/adeo/design-system--styleguide/commit/e44b8f4d968d84137b1677cb4b9e3b0a165882ba))
+* **onboard/design kit:** use dynamic link to fix design kit path ([#445](https://github.com/adeo/design-system--styleguide/issues/445)) ([ddf82b9](https://github.com/adeo/design-system--styleguide/commit/ddf82b9a37a5c41ed1fc944c0b12d18486dd7f66))
+
+
+### Features
+
+* **chore/tests:** add jest testing to required packages and add it to husky ([#444](https://github.com/adeo/design-system--styleguide/issues/444)) ([d7e48a5](https://github.com/adeo/design-system--styleguide/commit/d7e48a5635835462dafe3344009e88030259c2e0))
+* **pattern/icons:** add new icons ([#447](https://github.com/adeo/design-system--styleguide/issues/447)) ([65abdd3](https://github.com/adeo/design-system--styleguide/commit/65abdd399116274d313f722a46d51c8ff9667657))
+* **tools/devmode:** provide a sass var to manage dev and production mode in styles outputs and add magic unit grid dev util ([#427](https://github.com/adeo/design-system--styleguide/issues/427)) ([bc22205](https://github.com/adeo/design-system--styleguide/commit/bc2220561cd4d2e45c3ae8154dd92ab358051c43))
+* **website/icons:** create react and vue icon components in the icon set for testing purpose and use react version in website icon viewer ([#441](https://github.com/adeo/design-system--styleguide/issues/441)) ([885dbdd](https://github.com/adeo/design-system--styleguide/commit/885dbdde6bc7a2a8ea575fbd9420c8e3908f3cb6))
+* **website/patterns status:** redesign more readable pages for pattern status ([#446](https://github.com/adeo/design-system--styleguide/issues/446)) ([0ddd3aa](https://github.com/adeo/design-system--styleguide/commit/0ddd3aa7e0b616089ec6229e70c1ddf25200e88b))
+
+
+
+
+
 ## [1.0.1-alpha.30](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.29...v1.0.1-alpha.30) (2019-11-27)
 
 

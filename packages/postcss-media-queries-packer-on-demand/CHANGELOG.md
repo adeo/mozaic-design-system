@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.31](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.30...v1.0.1-alpha.31) (2019-12-03)
+
+
+### Features
+
+* **chore/tests:** add jest testing to required packages and add it to husky ([#444](https://github.com/adeo/mozaic-design-system/issues/444)) ([d7e48a5](https://github.com/adeo/mozaic-design-system/commit/d7e48a5635835462dafe3344009e88030259c2e0))
+
+
+
+
+
 ## [1.0.1-alpha.26](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.25...v1.0.1-alpha.26) (2019-11-14)
 
 

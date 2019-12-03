@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.31](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.30...v1.0.1-alpha.31) (2019-12-03)
+
+
+### Bug Fixes
+
+* **onboard/design kit:** use dynamic link to fix design kit path ([#445](https://github.com/adeo/mozaic-design-system/issues/445)) ([ddf82b9](https://github.com/adeo/mozaic-design-system/commit/ddf82b9a37a5c41ed1fc944c0b12d18486dd7f66))
+
+
+### Features
+
+* **chore/tests:** add jest testing to required packages and add it to husky ([#444](https://github.com/adeo/mozaic-design-system/issues/444)) ([d7e48a5](https://github.com/adeo/mozaic-design-system/commit/d7e48a5635835462dafe3344009e88030259c2e0))
+* **website/icons:** create react and vue icon components in the icon set for testing purpose and use react version in website icon viewer ([#441](https://github.com/adeo/mozaic-design-system/issues/441)) ([885dbdd](https://github.com/adeo/mozaic-design-system/commit/885dbdde6bc7a2a8ea575fbd9420c8e3908f3cb6))
+* **website/patterns status:** redesign more readable pages for pattern status ([#446](https://github.com/adeo/mozaic-design-system/issues/446)) ([0ddd3aa](https://github.com/adeo/mozaic-design-system/commit/0ddd3aa7e0b616089ec6229e70c1ddf25200e88b))
+
+
+
+
+
 ## [1.0.1-alpha.27](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.26...v1.0.1-alpha.27) (2019-11-20)
 
 

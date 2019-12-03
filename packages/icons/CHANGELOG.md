@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.31](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.30...v1.0.1-alpha.31) (2019-12-03)
+
+
+### Features
+
+* **pattern/icons:** add new icons ([#447](https://github.com/adeo/mozaic-design-system/issues/447)) ([65abdd3](https://github.com/adeo/mozaic-design-system/commit/65abdd399116274d313f722a46d51c8ff9667657))
+* **website/icons:** create react and vue icon components in the icon set for testing purpose and use react version in website icon viewer ([#441](https://github.com/adeo/mozaic-design-system/issues/441)) ([885dbdd](https://github.com/adeo/mozaic-design-system/commit/885dbdde6bc7a2a8ea575fbd9420c8e3908f3cb6))
+* **website/patterns status:** redesign more readable pages for pattern status ([#446](https://github.com/adeo/mozaic-design-system/issues/446)) ([0ddd3aa](https://github.com/adeo/mozaic-design-system/commit/0ddd3aa7e0b616089ec6229e70c1ddf25200e88b))
+
+
+
+
+
 ## [1.0.1-alpha.30](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.29...v1.0.1-alpha.30) (2019-11-27)
 
 
