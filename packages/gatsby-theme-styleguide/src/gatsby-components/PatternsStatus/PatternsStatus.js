@@ -163,22 +163,24 @@ export default () => (
         <h3>Statuses meaning</h3>
         <p>
           <StatusFlag status="wip" />
-          <b>&nbsp;&nbsp;Work In Progress</b> : The pattern may have code and
-          documentation, but it should no be used.
+          <b>&nbsp;&nbsp;Work In Progress</b> : The pattern should not be used
+          because it is very likelly to change in major ways. Generally, wip
+          patterns will neither be documented or provide code through this
+          website.
         </p>
         <p>
           <StatusFlag status="bêta" />
-          <b>&nbsp;&nbsp;Bêta</b> : The pattern is documented, and accessible in
-          the specified platform, but it may have breaking changes before being
+          <b>&nbsp;&nbsp;Bêta</b> : The pattern is documented and accessible for
+          the specified platform but breaking changes may occur before being
           labeled as stable. Basicaly, a bêta version of a pattern is waiting
           for users (you) to test it and confirm us that it fit the teams needs.
-          You should avoid using it in production, but if you do, be extra
+          You should avoid using it in production but if you do, be extra
           careful when updating Mozaic.
         </p>
         <p>
           <StatusFlag status="stable" />
           <b>&nbsp;&nbsp;Stable</b> : The pattern is usable in production. The
-          mozaic teams can add features or fix bugs to it, as long there is no
+          Mozaic's team can add features or fix bugs to it as long there is no
           changes required from the final user. Features supported in a stable
           pattern will be supported at least until the next major version (from
           1.5.72 to 2.0.0 for example).

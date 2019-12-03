@@ -15,7 +15,7 @@ const iconContent = ({ fileName, data, size }) => {
   const parsedName = createComponentName(fileName)
   return `export const ${parsedName} = ({fill, size = '${convertPxToRem(
     size
-  )}', ...rest}) => ${parsedData}`
+  )}', ...rest}) => (${parsedData})`
 }
 
 const reactIconsIndex = iconList => `${fileHeader}

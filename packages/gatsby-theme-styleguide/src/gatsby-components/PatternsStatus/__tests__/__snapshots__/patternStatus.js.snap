@@ -579,7 +579,7 @@ exports[`Pattern Status Component render correctly 1`] = `
     <b>
         Work In Progress
     </b>
-     : The pattern may have code and documentation, but it should no be used.
+     : The pattern should not be used because it is very likelly to change in major ways. Generally, wip patterns will neither be documented or provide code through this website.
   </p>
   <p>
     <span
@@ -590,7 +590,7 @@ exports[`Pattern Status Component render correctly 1`] = `
     <b>
         Bêta
     </b>
-     : The pattern is documented, and accessible in the specified platform, but it may have breaking changes before being labeled as stable. Basicaly, a bêta version of a pattern is waiting for users (you) to test it and confirm us that it fit the teams needs. You should avoid using it in production, but if you do, be extra careful when updating Mozaic.
+     : The pattern is documented and accessible for the specified platform but breaking changes may occur before being labeled as stable. Basicaly, a bêta version of a pattern is waiting for users (you) to test it and confirm us that it fit the teams needs. You should avoid using it in production but if you do, be extra careful when updating Mozaic.
   </p>
   <p>
     <span
@@ -601,7 +601,7 @@ exports[`Pattern Status Component render correctly 1`] = `
     <b>
         Stable
     </b>
-     : The pattern is usable in production. The mozaic teams can add features or fix bugs to it, as long there is no changes required from the final user. Features supported in a stable pattern will be supported at least until the next major version (from 1.5.72 to 2.0.0 for example).
+     : The pattern is usable in production. The Mozaic's team can add features or fix bugs to it as long there is no changes required from the final user. Features supported in a stable pattern will be supported at least until the next major version (from 1.5.72 to 2.0.0 for example).
   </p>
 </div>
 `;
