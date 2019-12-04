@@ -11,50 +11,46 @@ status:
 
 ## Variations
 
-### Four color schemes for each type of action
+### Color schemes
 
-You can use **primary**, **neutral**, & **danger** color scheme depending of the type of action the button trigger.
-There is also an alternative primary color scheme, only used for Campus : **primary-02**.
+You can use `primary`, `neutral`, & `danger` color scheme depending of the type of action the button trigger.
+There is also an alternative primary color scheme, only used for Campus: `primary-02`.
 
 <Preview path="button-styles" nude />
-
 <br />
 
-| Color scheme | Usage                                                                                     |
-| ------------ | ----------------------------------------------------------------------------------------- |
-| Primary      | For main actions on the page or engaging actions                                          |
-| Primary-02   | For main specific actions dedicated to Campus                                             |
-| Neutral      | For secondary or minor actions on the page                                                |
-| Danger       | For buttons who the following actions is irrevocable, like deleting a product in a basket |
+| Color scheme | Usage                                                                                   |
+| ------------ | --------------------------------------------------------------------------------------- |
+| Primary      | For main actions on the page or engaging actions                                        |
+| Primary-02   | For main specific actions dedicated to Campus                                           |
+| Neutral      | For secondary or minor actions on the page                                              |
+| Danger       | For buttons who the following actions is irrevocable, like deleting a product in a cart |
 
-### Three sizes to create hierarchy
+### Sizes
 
-There is **3 sizes** for the buttons to create hierarchy and for a better adaptability :
+There is 3 sizes for the buttons to create hierarchy and for a better adaptability.
 
-- Small
-- Medium
-- Large
+| Size                   | Value        |
+| ---------------------- | ------------ |
+| **Small**              | 2mu (32px)   |
+| **Medium** (_default_) | 3mu (48px)   |
+| **Large**              | 3.5mu (56px) |
 
 <Preview path="button-sizes" nude />
-
 <br />
 
-### A button width can either fit its content or its container
+### Styles
 
-<Preview path="button-widths" nude />
+There is two styles to make what's important stand out:
 
-<br />
-
-### Two styles to make what's important stand out
-
-- solid
-- bordered
+- Solid
+- Bordered
 
 <Preview path="intro" nude />
 
 ### Displaying buttons with icons
 
-In the button component, you can also add icons :
+In the button component, you can also add icons:
 
 - On the left
 - On the right
@@ -62,29 +58,33 @@ In the button component, you can also add icons :
 
 <Preview path="button-icon" nude />
 
-Icons are availables in different sizes depending on the button size. Here you can find which icon you can use for each button size :
+Icons are availables in different sizes depending on the button size. Here you can find which icon you can use for each button size:
 
-| **button size**        | **Icon S** | **Icon M**   | **Icon L** | **Icon XL**                        |
-| ---------------------- | ---------- | ------------ | ---------- | ---------------------------------- |
-| **small**              | 16px (1mu) | 24px (1.5mu) | /          | /                                  |
-| **medium** (_default_) | /          | 24px (1.5mu) | 32px (2mu) | /                                  |
-| **large**              | /          | /            | 32px (2mu) | 48px _(displayed in 40px)_ (2.5mu) |
+| **Button size** | **Icon only**                      | **Icon + text** |
+| --------------- | ---------------------------------- | --------------- |
+| **Small**       | 1.5mu (24px)                       | 1.5mu (24px)    |
+| **Medium**      | 2mu (32px)                         | 1.5mu (24px)    |
+| **Large**       | 2.5mu (48px) [_displayed in 40px_] | 2mu (32px)      |
+
+## Responsive behaviors
+
+A button width can either fit its content or its container.
+
+<Preview path="button-widths" nude />
+<br />
 
 ## Do's and don'ts
 
 <HintItem>
   Use solid buttons <b>to highlight the important actions</b>.<br />
 </HintItem>
-
 <HintItem>
   Use only one primary button at the time in the user's field of view.
 </HintItem>
-
 <HintItem>
   Use Bordered buttons <b>for minor or secondary actions</b>.<br />
   <small>For example to see more information about a product or service.</small>
 </HintItem>
-
 <HintItem>
   Always use an <b>accurate wording</b> for the button label. The action which
   follows the mouse click must be comprehensive and reassuring for the user.
@@ -93,17 +93,14 @@ Icons are availables in different sizes depending on the button size. Here you c
     For example it's better to write "Add to basket" rather than "Add"
   </small>
 </HintItem>
-
 <HintItem>
   Use icon in button <b>to complete and illustrated the button purpose</b>.
   <br />
 </HintItem>
-
 <HintItem dont>
   Never use an icon that has no connection or is not explicit enough with the
   label.
 </HintItem>
-
 <Hint
   type="dont"
   title="Never use in proximity two solid buttons with the same color scheme"
