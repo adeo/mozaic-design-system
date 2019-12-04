@@ -20,6 +20,8 @@ package-lock.json
 
 # icon list
 src/data/icons.json
+packages/icons/react/index.js
+packages/icons/vue/index.vue
 
 # env files
 .env
