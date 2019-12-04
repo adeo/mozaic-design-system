@@ -1,9 +1,9 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.0.1-alpha.29",
+  "version": "1.0.1-alpha.31",
   "dependencies": {
     "@mozaic-ds/configuration-manager": "^1.0.1-alpha.24",
-    "@mozaic-ds/postcss-media-queries-packer-on-demand": "^1.0.1-alpha.26",
+    "@mozaic-ds/postcss-media-queries-packer-on-demand": "^1.0.1-alpha.31",
     "autoprefixer": "^9.4.3",
     "cssnano": "^4.1.10",
     "postcss": "^7.0.7",
