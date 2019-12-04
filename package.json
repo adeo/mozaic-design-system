@@ -80,7 +80,7 @@
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "lerna": "^3.16.4",
-    "lint-staged": "^8.1.4",
+    "lint-staged": "^9.5",
     "plop": "^2.4.0",
     "prettier": "^1.14.2"
   },
@@ -105,20 +105,9 @@
     "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
     "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github prerelease",
     "npm:publish": "npx lerna exec --bail=false npm publish",
-    "unit": "jest --coverage --verbose --color --no-cache",
-    "unit:watch": "jest --watch"
-  },
-  "lint-staged": {
-    "*.scss": [
-      "stylelint --fix",
-      "stylelint",
-      "git add"
-    ],
-    "*.js": [
-      "yarn format",
-      "git add",
-      "jest --coverage --bail --findRelatedTests"
-    ]
+    "unit": "jest --projects ./packages/*/jest.config.js --coverage --verbose --color --no-cache",
+    "unit:watch": "jest --watch",
+    "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'"    
   },
   "browserslist": [
     ">0.3%",

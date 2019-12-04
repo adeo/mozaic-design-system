@@ -1,7 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 import StatusFlag from '../StatusFlag'
-import 'jest-styled-components'
 
 describe(`<StatusFlag>`, () => {
   it(`should render correctly with a wip status`, () => {

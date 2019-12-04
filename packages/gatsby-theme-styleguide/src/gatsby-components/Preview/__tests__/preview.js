@@ -1,8 +1,5 @@
 import React from 'react'
-const Enzyme = require('enzyme')
-const Adapter = require('enzyme-adapter-react-16')
-
-Enzyme.configure({ adapter: new Adapter() })
+import renderer from 'react-test-renderer'
 import { StaticQuery, query } from 'gatsby'
 
 import Preview from '../Preview'
@@ -36,17 +33,8 @@ beforeEach(() => {
 describe(`Preview Component`, () => {
   test(`check iframe's src`, () => {
     const location = { pathname: '/Components/Buttons/' }
-    const preview = Enzyme.mount(
-      <Preview location={location} path={'button-icon-position'}></Preview>
-    )
-    const iframe = preview.find('PreviewFrame')
-
-    expect(
-      iframe
-        .find('iframe')
-        .props()
-        .src.split('/')
-        .pop()
-    ).toBe('button-icon-position.html')
+    const tree = renderer.create(<Preview location={location} />)
+    const treeJSON = tree.toJSON()
+    expect(treeJSON).toMatchSnapshot()
   })
 })

@@ -1,12 +1,10 @@
 import React from 'react'
+import renderer from 'react-test-renderer'
 import Code from '../Code'
-const Enzyme = require('enzyme')
-const Adapter = require('enzyme-adapter-react-16')
 
-Enzyme.configure({ adapter: new Adapter() })
-
-test('Test code component', () => {
+test('<Code />', () => {
   const code = `@import 'settings-tools/_all-settings';`
-  const component = Enzyme.mount(<Code children={code} />)
-  expect(component.props().children).toBe(code)
+  const tree = renderer.create(<Code children={code} />).toJSON()
+  expect(tree).toMatchSnapshot()
+  expect(tree.children[0].children[0].type).toBe('code')
 })
