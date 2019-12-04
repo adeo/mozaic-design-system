@@ -6,7 +6,4 @@ module.exports = {
   cacheDirectory: '.jest-cache',
   coverageDirectory: '.jest-coverage',
   coverageReporters: ['html', 'text'],
-  globals: {
-    __PATH_PREFIX__: ``,
-  },
 }
