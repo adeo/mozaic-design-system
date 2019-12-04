@@ -5,11 +5,13 @@ order: 4
 
 > First of all, each icon must be reviewed by the designer(s) in charge of the quality and the consistency of the icons at LEROY MERLIN. Second of all, each new icon must be declined in the following sizes: `24px`, `32px`, `48px` & `64px`. Here are the steps that you must follow to add new icons in Mozaic.
 
+We would like to advise you to read this [documentation](/Foundations/Icons/designers/) about icons design principles before getting in touch with Mozaic to add new icons in the design kit. This will definitely help you to understand our vision when it comes to icons and it will make the process way easier for both parties.
+
 ## 1. Get in touch with Mozaic's team
 
 It's important to discuss your needs and what can be produced together before starting to create the said icon. Our icon designer is [Simon Roger](mailto:simon.roger@ext.leroymerlin.fr) for now. Get in touch with him to speak about format and sizes of your icon(s). You can also reach the team from Mozaic on different channels. You will more informations about that right [here](https://mozaic.adeo.cloud/Help/).
 
-## 2. Icon design
+## 2. Icon design phase
 
 This is the point where the icon is designed either by you or our design team.
 
@@ -19,12 +21,12 @@ You must create a branch to be able to push your work in Mozaic's design system 
 
 ## 4. Place your icon(s) in Mozaic's repository
 
-Your icon needs to put in the **design-system--styleguide** repository in this folder `/src/icons/`.
+Your icon needs to put in the **design-system--styleguide** repository in this folder `designer-system--styleguide/src/icons/`.
 
 ## 5. We've built a script for you to search for potential errors
 
 This script will locate errors so you can fix them the easiest way possible. Please type the following lines in your terminal:
-* `cd Documents/GitHub/design-system--styleguide`
+* `cd FolderName/GitHub/design-system--styleguide`
 * `yarn install`
 * `yarn develop`
 
@@ -53,5 +55,7 @@ To finish the process and make the whole Mozaic team review your work, you need 
 * `scope: pattern`
 * `feat`
 * `skill:design`
+
+For example, this pull request can be named: `feat(pattern/icons): add week 49 icons`.
 
 Feel free to read this [page](/Contributing/Developers/GitConventions/#pull-requests) if you need more informations.
