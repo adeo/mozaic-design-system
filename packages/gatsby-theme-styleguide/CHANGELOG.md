@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-alpha.32](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.31...v1.0.1-alpha.32) (2019-12-04)
+
+
+### Bug Fixes
+
+* **chore/test:** run coverage checks only on staged files on commit hook ([#449](https://github.com/adeo/mozaic-design-system/issues/449)) ([703eadc](https://github.com/adeo/mozaic-design-system/commit/703eadcad9cc2b6d90936c865f3bf39acdaa1f1b))
+
+
+
+
+
 ## [1.0.1-alpha.31](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.30...v1.0.1-alpha.31) (2019-12-03)
 
 
