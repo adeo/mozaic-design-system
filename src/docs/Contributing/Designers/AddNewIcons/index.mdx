@@ -3,7 +3,30 @@ title: 'Add new icons'
 order: 4
 ---
 
-> First of all, each icon must be reviewed by the designer(s) in charge of the quality and the consistency of the icons at LEROY MERLIN. Second of all, each new icon must be declined in the following sizes: `24px`, `32px`, `48px` & `64px`. Here are the steps that you must follow to add new icons in Mozaic.
+> We have divided this page in two different sections depending on what your profile is. If you're a designer working on Mozaic just go down in [this section](/Contributing/Designers/AddNewIcons/#im-a-designer-working-on-mozaic). If you're a designer using Mozaic for your work please read the following lines.
+
+# I'm a designer using mozaic
+
+Before wanting to add a new icon you should ask yourself if that's a real need or just a desire. Our icons must be easy to understand and have a real meaning. That is why we encourage you to ask yourself does my user need this icon ? When this question is solved you should know a few things about our [process](/Contributing/SubmitChanges/AddNewPattern/). Every icon produced for Mozaic by yourself or our designers in charge will have to answer these [foundations](/Foundations/Icons/designers/) and will be reviewed by our team. As far as tools are concerned you will need Adobe Illustrator and Sketch to do the whole process.
+
+## Requirements
+
+All icons should be built with a group of two layers:
+* One named `Icon` containing the paths and shapes of the icon
+* One named `Square`used to define the size and the white space around the icon. It must a transparent square
+
+## How to propose a new icon to Mozaic
+
+All icons have a naming convention that must comply to this:
+* start with a category like `category_iconName_`
+* finish with the size like `[size]px`
+* the file extension must be `.svg`
+
+This will give you, for example, `Media_View360_32px.svg`.
+
+# I'm a designer working on Mozaic
+
+First of all, each icon must be reviewed by the designer(s) in charge of the quality and the consistency of the icons at LEROY MERLIN. Second of all, each new icon must be declined in the following sizes: `24px`, `32px`, `48px` & `64px`. Here are the steps that you must follow to add new icons in Mozaic.
 
 We would like to advise you to read this [documentation](/Foundations/Icons/designers/) about icons design principles before getting in touch with Mozaic to add new icons in the design kit. This will definitely help you to understand our vision when it comes to icons and it will make the process way easier for both parties.
 
@@ -26,13 +49,18 @@ Your icon needs to put in the **design-system--styleguide** repository in this f
 ## 5. We've built a script for you to search for potential errors
 
 This script will locate errors so you can fix them the easiest way possible. Please type the following lines in your terminal:
-* `cd FolderName/GitHub/design-system--styleguide`
-* `yarn install`
-* `yarn develop`
+* `cd FolderName/GitHub/mozaic-design-system`
+* `yarn lerna` (more informations can be found [here](/GetStarted/Developers/Installation/) if it's your first time)
+* `yarn icons:build`
 
 Please check for this kind of error in your terminal.
 
-![error--terminal.png](error--terminal.png)
+```
+✗ ERROR : in MediaFullScreen_32 px.svg : icon Filename should start with a category name separated by _ with the icon name
+✗ ERROR : in MediaFullScreen_32 px.svg : icon Filename should not contain spaces
+✗ ERROR : in MediaFullScreen_32 px.svg : icon Filename should always end with _[size]px.svg
+✗ ERROR : in MediaFullScreen_32 px.svg :  found in /16px/ directory. Icon File name is either wrong or the icon is in the wrong directory
+```
 
 ## 6. Solve potential errors
 
@@ -40,7 +68,13 @@ You can solve the potential errors directly in your computer's folder as a regul
 
 ## 7. Please do a final visual check on the style guide
 
-Step 5 will build a local version of the style guide that visually looks like the online website. You will be able to do a final visual check on this built style guide to make that everything looks right. You will just have to go to the page `Foundations/Icons/Preview` to have a preview of every icon.<br/><br/>
+With the following terminal command you will be able to build a local version of the style guide that visually looks like the online website. That will allow you to do a final visual check on this built style guide to make sure that everything looks right.<br/><br/>
+
+Type this in your terminal:
+* `yarn develop`
+
+After the process is done go to `Foundations/Icons/Preview` on the built styleguide.
+
 For example, if you have done a naming typo like `Various_Blower-_32px.svg` instead of `Various_Blower_32px.svg` it will duplicate your icon in this page and will look like the following image.
 
 ![error--styleguide.png](error--styleguide.png)
