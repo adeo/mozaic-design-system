@@ -3,36 +3,31 @@ const _ = require('lodash')
 const stylelint = require('stylelint')
 
 const checkCase = require('./lib/checkCase')
-const getSelector = require('./lib/getSelectors');
-const splitSelector = require('./lib/splitSelector');
+const getSelector = require('./lib/getSelectors')
+const splitSelector = require('./lib/splitSelector')
 
 const ruleName = 'plugin/mozaic-bem-pattern'
 
-const messages =  stylelint.utils.ruleMessages(ruleName, {
-    expected: 'Invalid case'
-});
-
-const isStringOrRegExp = (x) => {
-    return _.isString(x) || _.isRegExp(x);
+const isStringOrRegExp = x => {
+  return _.isString(x) || _.isRegExp(x)
 }
 
-module.exports = stylelint.createPlugin(ruleName, (options) => {
-    return (root, result) => {
-        if (!options) return
-        const validOptions = stylelint.utils.validateOptions(result, ruleName, {
-            wordDelimiterStyle: [isStringOrRegExp],
-            modifierDelimiter: [_.isString]
-        })
+module.exports = stylelint.createPlugin(ruleName, options => {
+  return (root, result) => {
+    if (!options) return
+    const validOptions = stylelint.utils.validateOptions(result, ruleName, {
+      wordDelimiterStyle: [isStringOrRegExp],
+      modifierDelimiter: [_.isString],
+    })
 
-        if (!validOptions) return
+    if (!validOptions) return
 
-        root.walkRules(rule => {
-            const selector = getSelector(rule, result)
-            const splitedSelector = splitSelector(selector, options)
-            checkCase(splitedSelector, rule, result, ruleName, options)
-        })
-    }
+    root.walkRules(rule => {
+      const selector = getSelector(rule, result)
+      const splitedSelector = splitSelector(selector, options)
+      checkCase(splitedSelector, rule, result, ruleName, options)
+    })
+  }
 })
 
 module.exports.ruleName = ruleName
-module.exports.messages = messages

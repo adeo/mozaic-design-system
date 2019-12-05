@@ -93,6 +93,7 @@
     "clean-cache": "npx gatsby clean",
     "css:fix": "npx stylelint npx stylelint src/pages/**/previews/*.scss packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint npx stylelint src/pages/**/previews/*.scss packages/styles/**/*.scss",
+    "stylelint": "npx stylelint src/docs/**/previews/*.scss",
     "icons:clean": "node iconCompiler/execDirsCleaning.js",
     "icons:process": "node iconCompiler/index.js",
     "icons:build": "yarn icons:clean && yarn icons:process",

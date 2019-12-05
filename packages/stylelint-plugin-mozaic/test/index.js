@@ -1,21 +1,22 @@
-var testRule = require('stylelint-test-rule-tape');
-var mozaicBemPattern = require('../index.js');
+var testRule = require('stylelint-test-rule-tape')
+var mozaicBemPattern = require('../index.js')
 
 testRule(mozaicBemPattern.rule, {
-    ruleName: mozaicBemPattern.ruleName,
-    config: {
-        wordDelimiterStyle: 'kebab-case',
-        delimiters: {
-            modifier: '--',
-            element: '__',
-            media: '/@'
-        },
+  ruleName: mozaicBemPattern.ruleName,
+  config: {
+    wordDelimiterStyle: 'kebab-case',
+    delimiters: {
+      modifier: '--',
+      element: '__',
+      media: '/@',
     },
+  },
 
-    skipBasicChecks: true,
+  skipBasicChecks: true,
 
-    accept: [
-        { code: `.ml-container {
+  accept: [
+    {
+      code: `.ml-container {
             margin-left: auto;
           
             @include set-from-screen('m') {
@@ -27,42 +28,45 @@ testRule(mozaicBemPattern.rule, {
                 max-width: none;
               }
             }
-          }`
-        }
-    ],
+          }`,
+    },
+  ],
 
-    reject: [
-        {
-            code: '.Fa__ke {}',
-            message: 'Invalid case: ".Fa__ke" should be "UpperCamelCase" (' + mozaicBemPattern.ruleName + ')',
-            line: 1,
-            column: 1
-        }
-    ]
-});
+  reject: [
+    {
+      code: '.Fa__ke {}',
+      message:
+        'Invalid case: ".Fa__ke" should be "UpperCamelCase" (' +
+        mozaicBemPattern.ruleName +
+        ')',
+      line: 1,
+      column: 1,
+    },
+  ],
+})
 
 testRule(mozaicBemPattern.rule, {
-    ruleName: mozaicBemPattern.ruleName,
-    config: {
-        wordDelimiterStyle: 'UpperCamelCase',
-        delimiters: {
-            modifier: '__',
-            element: '--',
-            media: '/@'
-        },
+  ruleName: mozaicBemPattern.ruleName,
+  config: {
+    wordDelimiterStyle: 'UpperCamelCase',
+    delimiters: {
+      modifier: '__',
+      element: '--',
+      media: '/@',
     },
+  },
 
-    skipBasicChecks: true,
+  skipBasicChecks: true,
 
-    accept: [
-        {
-            code: '.Fa__Ke {}',
-        }
-    ],
+  accept: [
+    {
+      code: '.Fa__Ke {}',
+    },
+  ],
 
-    reject: [
-        {
-            code: '.Fa__ke {}',
-        }
-    ]
-});
+  reject: [
+    {
+      code: '.Fa__ke {}',
+    },
+  ],
+})
