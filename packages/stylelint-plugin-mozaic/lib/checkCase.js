@@ -1,0 +1,39 @@
+const cases = {
+    'kebab-case': /^([a-z][a-z0-9]*)(-[a-z0-9]+)*$/,
+    'lowerCamelCase': /^[a-z][a-zA-Z0-9]+$/,
+    'snake_case': /^[a-z][a-zA-Z0-9]+$/,
+    'PascalCase': /^[A-Z][a-zA-Z0-9]+$/,
+    'UpperCamelCase': /^[A-Z][a-zA-Z0-9]+$/,
+};
+
+const match = (string, configCase) => cases[configCase].test(string);
+
+const checkCase = (splitedSelector, rule, result, ruleName, options) => {
+    let isValid = true;
+    
+    splitedSelector.forEach((selectorPart) => {
+        if (selectorPart.type === 'class') {
+            console.log(selectorPart.bemStructure)
+            selectorPart.bemStructure.forEach((classPart)  => {
+                const isValidCase = match(
+                    classPart.string,
+                    options.wordDelimiterStyle
+                );
+
+                if (!isValidCase) {
+                    isValid = false;
+                }
+            });
+        }
+    });
+
+    if (!isValid) {
+        rule.warn(
+            result,
+            `Invalid class syntax: "${rule.selector}" should be "${options.wordDelimiterStyle}" (${ruleName})`
+        );
+    }
+};
+
+
+module.exports = checkCase;
