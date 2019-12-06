@@ -22,7 +22,6 @@ const selector = (rule, result) => {
       result.warn('Cannot parse selector', {})
     }
   })
-
   return selectorDef
 }
 

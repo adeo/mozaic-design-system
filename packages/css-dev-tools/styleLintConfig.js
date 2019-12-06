@@ -2,17 +2,18 @@
 
 module.exports = {
   extends: ['stylelint-config-standard'],
-  plugins: ['stylelint-scss', '@mozaic-ds/stylelint-plugin-mozaic'],
+  plugins: ['@mozaic-ds/stylelint-plugin-mozaic', 'stylelint-scss'],
   rules: {
     'at-rule-no-unknown': null,
-    'scss/at-rule-no-unknown': true,
-    'plugin/mozaic-bem-pattern': {
-      wordDelimiterStyle: 'kebab-case',
-      delimiters: {
-        modifier: '--',
-        element: '__',
-        media: '/@',
+    'plugin/mozaic-bem-pattern': [
+      {
+        wordDelimiterStyle: 'kebab-case',
+        delimiters: {
+          modifier: '--',
+          element: '__',
+          media: '/@',
+        },
       },
-    },
+    ],
   },
 }

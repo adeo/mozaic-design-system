@@ -7,6 +7,7 @@ const cases = {
   PascalCase: /^[A-Z][a-zA-Z0-9]+$/,
   UpperCamelCase: /^[A-Z][a-zA-Z0-9]+$/,
 }
+const messages = ''
 
 const match = (string, configCase) => cases[configCase].test(string)
 
@@ -16,7 +17,9 @@ const checkCase = (splitedSelector, rule, result, ruleName, options) => {
   splitedSelector.forEach(selectorPart => {
     if (selectorPart.type === 'class') {
       selectorPart.bemStructure.forEach(classPart => {
-        const isValidCase = match(classPart.string, options.wordDelimiterStyle)
+        const isValidCase = classPart.string.includes('#')
+          ? true
+          : match(classPart.string, options.wordDelimiterStyle)
 
         if (!isValidCase) {
           isValid = false
@@ -26,7 +29,7 @@ const checkCase = (splitedSelector, rule, result, ruleName, options) => {
   })
 
   if (!isValid) {
-    const message = `Invalid class syntax: "${rule.selector}" should be "${options.wordDelimiterStyle}" (${ruleName})`
+    message = `Invalid class syntax: "${rule.selector}" should be "${options.wordDelimiterStyle}" (${ruleName})`
 
     stylelint.utils.report({
       message: message,
@@ -38,3 +41,4 @@ const checkCase = (splitedSelector, rule, result, ruleName, options) => {
 }
 
 module.exports = checkCase
+module.exports.messages = messages

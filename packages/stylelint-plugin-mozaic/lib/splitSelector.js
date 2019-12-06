@@ -49,7 +49,6 @@ function splitBem(string, options) {
   })
 
   const splitter = mergeArr(...delimitersToSplit, [0, string.length])
-
   const arr = []
 
   splitter.forEach((stringIndex, i) => {
