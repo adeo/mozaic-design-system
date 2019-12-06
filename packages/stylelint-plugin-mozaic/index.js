@@ -1,4 +1,3 @@
-// Abbreviated example
 const _ = require('lodash')
 const stylelint = require('stylelint')
 

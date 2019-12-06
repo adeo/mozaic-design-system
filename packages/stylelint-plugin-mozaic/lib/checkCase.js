@@ -17,6 +17,7 @@ const checkCase = (splitedSelector, rule, result, ruleName, options) => {
   splitedSelector.forEach(selectorPart => {
     if (selectorPart.type === 'class') {
       selectorPart.bemStructure.forEach(classPart => {
+        // ignore # for variables in scss files
         const isValidCase = classPart.string.includes('#')
           ? true
           : match(classPart.string, options.wordDelimiterStyle)
