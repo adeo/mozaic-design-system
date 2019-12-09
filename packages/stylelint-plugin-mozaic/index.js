@@ -14,18 +14,21 @@ const isStringOrRegExp = x => {
 module.exports = stylelint.createPlugin(
   ruleName,
   (options, secondaryOptionObject) => {
-    const allOptions = { ...options, ...secondaryOptionObject }
     return (root, result) => {
-      if (!allOptions) return
       const validOptions = stylelint.utils.validateOptions(result, ruleName, {
-        wordDelimiterStyle: [isStringOrRegExp],
-        modifierDelimiter: [_.isString],
+        actual: options,
+        possible: {
+          caseStyle: [isStringOrRegExp],
+          bemEntitiesDelimiters: [_.isObject],
+          prefixes: [_.isString],
+        },
       })
       if (!validOptions) return
+
       root.walkRules(rule => {
         const selector = getSelector(rule, result)
-        const splitedSelector = splitSelector(selector, allOptions)
-        checkCase(splitedSelector, rule, result, ruleName, allOptions)
+        const splitedSelector = splitSelector(selector, options)
+        checkCase(splitedSelector, rule, result, ruleName, options)
       })
     }
   }

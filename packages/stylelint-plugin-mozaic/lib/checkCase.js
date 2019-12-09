@@ -3,13 +3,15 @@ var stylelint = require('stylelint')
 const cases = {
   'kebab-case': /^([a-z][a-z0-9]*)(-[a-z0-9]+)*$/,
   lowerCamelCase: /^[a-z][a-zA-Z0-9]+$/,
-  snake_case: /^[a-z][a-zA-Z0-9]+$/,
+  snake_case: /^[a-z]+(_[a-z]+)*$/,
   PascalCase: /^[A-Z][a-zA-Z0-9]+$/,
-  UpperCamelCase: /^[A-Z][a-zA-Z0-9]+$/,
 }
 const messages = ''
 
-const match = (string, configCase) => cases[configCase].test(string)
+const match = (string, configCase) =>
+  cases[configCase] !== undefined
+    ? cases[configCase].test(string)
+    : configCase.test(string)
 
 const checkCase = (splitedSelector, rule, result, ruleName, options) => {
   let isValid = true
@@ -20,7 +22,7 @@ const checkCase = (splitedSelector, rule, result, ruleName, options) => {
         // ignore # for variables in scss files
         const isValidCase = classPart.string.includes('#')
           ? true
-          : match(classPart.string, options.wordDelimiterStyle)
+          : match(classPart.string, options.caseStyle)
 
         if (!isValidCase) {
           isValid = false
@@ -30,7 +32,7 @@ const checkCase = (splitedSelector, rule, result, ruleName, options) => {
   })
 
   if (!isValid) {
-    message = `Invalid class syntax: "${rule.selector}" should be "${options.wordDelimiterStyle}" (${ruleName})`
+    message = `Invalid class syntax: "${rule.selector}" should be "${options.caseStyle}" (${ruleName})`
 
     stylelint.utils.report({
       message: message,

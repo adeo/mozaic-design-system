@@ -5,15 +5,15 @@ module.exports = {
   plugins: ['@mozaic-ds/stylelint-plugin-mozaic', 'stylelint-scss'],
   rules: {
     'at-rule-no-unknown': null,
-    'unit-whitelist': ['px', 'em', '%', 'rem', 'ms', 'deg', 'vw'],
     'plugin/mozaic-bem-pattern': [
       {
-        wordDelimiterStyle: 'kebab-case',
-        delimiters: {
+        caseStyle: 'kebab-case',
+        bemEntitiesDelimiters: {
           modifier: '--',
           element: '__',
           media: '/@',
         },
+        prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
       },
     ],
   },

@@ -41,10 +41,9 @@ function mergeArr(...args) {
 
 function splitBem(string, options) {
   const delimitersToSplit = []
-
-  Object.keys(options.delimiters).forEach(key => {
+  Object.keys(options.bemEntitiesDelimiters).forEach(key => {
     delimitersToSplit.push(
-      getPatternPositionArray(string, options.delimiters[key])
+      getPatternPositionArray(string, options.bemEntitiesDelimiters[key])
     )
   })
 
@@ -55,11 +54,11 @@ function splitBem(string, options) {
     const part = string.substring(stringIndex, splitter[i + 1])
     let partFound = false
 
-    Object.keys(options.delimiters).forEach(key => {
-      if (part.startsWith(options.delimiters[key])) {
+    Object.keys(options.bemEntitiesDelimiters).forEach(key => {
+      if (part.startsWith(options.bemEntitiesDelimiters[key])) {
         arr.push({
           partType: key,
-          string: part.replace(options.delimiters[key], ''),
+          string: part.replace(options.bemEntitiesDelimiters[key], ''),
         })
 
         partFound = true
@@ -70,16 +69,23 @@ function splitBem(string, options) {
       arr.push({ partType: 'block', string: part })
     }
   })
-
   return arr
+}
+
+const removePrefixes = (selector, options) => {
+  const result = options.prefixes
+    ? options.prefixes.filter(prefix => selector.includes(prefix, 0))
+    : []
+  if (result.length === 1) return selector.replace(result[0], '')
+  if (result.length === 0) return selector
 }
 
 const splitSelector = (selector, options) => {
   selector.forEach((part, i) => {
     if (part.type === 'class') {
-      part.bemStructure = splitBem(part.value, options)
+      const value = removePrefixes(part.value, options)
+      part.bemStructure = splitBem(value, options)
     }
-
     selector[i] = part
   })
   return selector
