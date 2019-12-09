@@ -332,5 +332,7 @@
   <color name="color_toggle_hover_circle">#ffeeeef0</color>
   <color name="color_toggle_disabled_background">#ffeeeef0</color>
   <color name="color_toggle_disabled_circle">#ffbab6bc</color>
+  <color name="color_toggle_disabled_checked_background">#ffcbe3b5</color>
+  <color name="color_toggle_disabled_checked_circle">#ffffffff</color>
   
 </resources>
