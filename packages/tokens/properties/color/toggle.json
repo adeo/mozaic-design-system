@@ -29,6 +29,14 @@
         "circle": {
           "value": "{color.grey.300.value}"
         }
+      },
+      "disabled-checked": {
+        "background": {
+          "value": "{color.primary-01.200.value}"
+        },
+        "circle": {
+          "value": "{color.grey.000.value}"
+        }
       }
     }
   }

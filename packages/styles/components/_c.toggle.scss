@@ -18,7 +18,7 @@
     user-select: none;
 
     :disabled + & {
-      cursor: default;
+      cursor: not-allowed;
     }
 
     &::after,
@@ -37,7 +37,9 @@
 
       background-color: $color-toggle-off-background;
       will-change: background-color, border-color, box-shadow;
-      transition: background-color 100ms ease, border-color 100ms ease,
+      transition:
+        background-color 100ms ease,
+        border-color 100ms ease,
         box-shadow 150ms ease;
 
       :checked + & {
@@ -50,6 +52,10 @@
 
       :disabled + & {
         background-color: $color-toggle-disabled-background;
+      }
+
+      :disabled:checked + & {
+        background-color: $color-toggle-disabled-checked-background;
       }
     }
 
@@ -69,6 +75,11 @@
       :disabled + & {
         border-color: $color-toggle-disabled-background;
         background-color: $color-toggle-disabled-circle;
+      }
+
+      :disabled:checked + & {
+        border-color: $color-toggle-disabled-checked-background;
+        background-color: $color-toggle-disabled-checked-circle;
       }
     }
 
