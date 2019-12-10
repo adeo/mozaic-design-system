@@ -2,7 +2,7 @@ var stylelint = require('stylelint')
 
 const cases = {
   'kebab-case': /^([a-z][a-z0-9]*)(-[a-z0-9]+)*$/,
-  lowerCamelCase: /^[a-z][a-zA-Z0-9]+$/,
+  camelCase: /^[a-z][a-zA-Z0-9]+$/,
   snake_case: /^[a-z]+(_[a-z]+)*$/,
   PascalCase: /^[A-Z][a-zA-Z0-9]+$/,
 }
@@ -20,10 +20,10 @@ const checkCase = (splitedSelector, rule, result, ruleName, options) => {
     if (selectorPart.type === 'class') {
       selectorPart.bemStructure.forEach(classPart => {
         // ignore # for variables in scss files
-        const isValidCase = classPart.string.includes('#')
-          ? true
-          : match(classPart.string, options.caseStyle)
-
+        const isValidCase =
+          classPart.string.includes('#') || classPart.partType === 'prefix'
+            ? true
+            : match(classPart.string, options.caseStyle)
         if (!isValidCase) {
           isValid = false
         }

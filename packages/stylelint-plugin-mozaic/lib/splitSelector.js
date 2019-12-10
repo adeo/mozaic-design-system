@@ -1,22 +1,12 @@
 const _ = require('lodash')
 
-// eg .cm-foo-bar__baz--foo div
+// eg .mc-my-call--small@from-m
 // should return
 /* [
-    {
-        type: class,
-        subType: component,
-        string: 'cm-foo-bar__baz--foo',
-        bemStructure: [
-            { namespace: 'cm-' },
-            { block: 'foo-bar' },
-            { element: 'baz' },
-            { modifier: 'foo' }
-        ]
-    },{
-        type: type,
-        string: 'div'
-    }
+    { partType: 'prefix', string: 'mc-' }
+    { partType: 'block', string: 'my-call' },
+    { partType: 'modifier', string: 'small' },
+    { partType: 'media', string: 'from-m' },
 ]*/
 
 function getPatternPositionArray(string, pattern) {
@@ -72,19 +62,24 @@ function splitBem(string, options) {
   return arr
 }
 
-const removePrefixes = (selector, options) => {
+const extractPrefix = (selector, options) => {
   const result = options.prefixes
     ? options.prefixes.filter(prefix => selector.includes(prefix, 0))
     : []
-  if (result.length === 1) return selector.replace(result[0], '')
-  if (result.length === 0) return selector
+
+  if (result.length === 1) return result[0]
+  if (result.length !== 1) return null
 }
 
 const splitSelector = (selector, options) => {
+  let prefix = null
   selector.forEach((part, i) => {
     if (part.type === 'class') {
-      const value = removePrefixes(part.value, options)
-      part.bemStructure = splitBem(value, options)
+      prefix = extractPrefix(part.value, options)
+      part.bemStructure = splitBem(part.value.replace(prefix, ''), options)
+    }
+    if (prefix && part.bemStructure) {
+      part.bemStructure.push({ partType: 'prefix', string: prefix })
     }
     selector[i] = part
   })

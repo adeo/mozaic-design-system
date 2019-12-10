@@ -51,11 +51,11 @@ testRule(mozaicBemPattern.rule, {
   ],
 })
 
-//  test lowerCamelCase
+//  test camelCase
 testRule(mozaicBemPattern.rule, {
   ruleName: mozaicBemPattern.ruleName,
   config: {
-    caseStyle: 'lowerCamelCase',
+    caseStyle: 'camelCase',
     bemEntitiesDelimiters: {
       modifier: '--',
       element: '__',
@@ -82,7 +82,7 @@ testRule(mozaicBemPattern.rule, {
     {
       code: `.ml-Container {}`,
       message:
-        'Invalid class syntax: ".ml-Container" should be "lowerCamelCase" (' +
+        'Invalid class syntax: ".ml-Container" should be "camelCase" (' +
         mozaicBemPattern.ruleName +
         ')',
       line: 1,
@@ -94,7 +94,7 @@ testRule(mozaicBemPattern.rule, {
       }
       `,
       message:
-        'Invalid class syntax: ".mc-block-name__element-name" should be "lowerCamelCase" (' +
+        'Invalid class syntax: ".mc-block-name__element-name" should be "camelCase" (' +
         mozaicBemPattern.ruleName +
         ')',
     },
@@ -289,7 +289,7 @@ testRule(mozaicBemPattern.rule, {
 testRule(mozaicBemPattern.rule, {
   ruleName: mozaicBemPattern.ruleName,
   config: {
-    caseStyle: 'lowerCamelCase',
+    caseStyle: 'camelCase',
     bemEntitiesDelimiters: {
       modifier: '--',
       element: '__',
@@ -316,10 +316,34 @@ testRule(mozaicBemPattern.rule, {
              .mc-block-Name__element-Name {}
              `,
       message:
-        'Invalid class syntax: ".mc-block-Name__element-Name" should be "lowerCamelCase" (' +
+        'Invalid class syntax: ".mc-block-Name__element-Name" should be "camelCase" (' +
         mozaicBemPattern.ruleName +
         ')',
       line: 2,
     },
   ],
+})
+
+// test mc-my-call--small\@from-m
+testRule(mozaicBemPattern.rule, {
+  ruleName: mozaicBemPattern.ruleName,
+  config: {
+    caseStyle: 'kebab-case',
+    bemEntitiesDelimiters: {
+      modifier: '--',
+      element: '__',
+      media: '@',
+    },
+    prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
+  },
+
+  skipBasicChecks: true,
+
+  accept: [
+    {
+      code: `.mc-my-call--small\@from-m {} `,
+    },
+  ],
+
+  reject: [],
 })
