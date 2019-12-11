@@ -81,3 +81,56 @@ module.exports = {
   },
 }
 ```
+
+## Stylelint options :
+
+### `stylelint.caseStyle`: String or Regex 
+
+Allow you to choose the case style to lint. You can add your own Regex rule to lint.
+
+**Default values: 'kebab-case'**
+
+**Example : **
+```js
+  caseStyle: 'kebab-case' | 'camelCase' | 'snake_case' | 'PascalCase' | /^[a-z]+(_[a-z]+)*$/ 
+```
+
+### `stylelint.bemEntitiesDelimiters`: Object
+
+Allow you to specify separators to check the BEM structure.
+
+**Default values: **
+
+```js
+  bemEntitiesDelimiters: {
+    modifier: '--',
+    element: '__',
+    media: '@',
+  }
+```
+
+### `stylelint.prefixes`: Array
+
+Allow you to specify additional prefixes. Multiple prefixes can be added.
+
+**Default values: ['mc-', 'ml-', 'mu-', 'mt-', 'mdu-'] **
+
+```js
+  prefixes: ['lrc-', 'lrl-', 'LrUtility-'],
+```
+
+
+**Full example: **
+```js
+module.exports = {
+	stylelint: {
+    caseStyle: 'kebab-case', // ['camelCase', 'snake_case', 'PascalCase']
+    bemEntitiesDelimiters: {
+      modifier: '--',
+      element: '__',
+      media: '@',
+    },
+    prefixes: ['example-'],
+  },
+}
+```
