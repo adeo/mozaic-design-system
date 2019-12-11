@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`svgCleaner return a list of icons 1`] = `
+Array [
+  Object {
+    "data": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 16 16\\"><path d=\\"M8 11.5a1 1 0 01-.71-.29l-5-5a1 1 0 011.42-1.42L8 9.09l4.29-4.3a1 1 0 111.42 1.42l-5 5a1 1 0 01-.71.29z\\"/></svg>",
+    "fileName": "Navigation_Arrow_Arrow--Bottom_16px.svg",
+    "outputPath": "toto",
+  },
+  Object {
+    "data": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 16 16\\"><path d=\\"M2 10.5a1 1 0 01.29-.71l5-5a1 1 0 011.42 0l5 5a1 1 0 01-1.42 1.42L8 6.91l-4.29 4.3a1 1 0 01-1.42 0A1 1 0 012 10.5z\\"/></svg>",
+    "fileName": "Navigation_Arrow_Arrow--Top_16px.svg",
+    "outputPath": "toto",
+  },
+  Object {
+    "data": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 24 24\\"><path d=\\"M17.59 18.59H6.41a1 1 0 01-1-1V6.41a1 1 0 011-1h11.18a1 1 0 011 1v11.18a1 1 0 01-1 1zm-10.18-2h9.18V7.41H7.41z\\"/><path d=\\"M3 8.39a1 1 0 01-1-1V3a1 1 0 011-1h4.38a1 1 0 010 2H4v3.39a1 1 0 01-1 1zM21 8.38a1 1 0 01-1-1V4h-3.38a1 1 0 110-2H21a1 1 0 011 1v4.38a1 1 0 01-1 1zM7.38 22H3a1 1 0 01-1-1v-4.39a1 1 0 012 0V20h3.38a1 1 0 110 2zM22 21a1 1 0 01-1 1h-4.38a1 1 0 010-2H20v-3.38a1 1 0 112 0z\\"/></svg>",
+    "fileName": "Media_FullScreen_24px.svg",
+    "outputPath": "toto",
+  },
+  Object {
+    "data": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" viewBox=\\"0 0 24 24\\"><path d=\\"M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z\\"/><path d=\\"M10.72 9.77L14.36 12l-3.64 2.22V9.77M9.73 7a1 1 0 00-1 1v8a1 1 0 001 1 .94.94 0 00.52-.15l6.55-4a1 1 0 000-1.71l-6.55-4A1 1 0 009.73 7z\\"/></svg>",
+    "fileName": "Media_Player_24px.svg",
+    "outputPath": "toto",
+  },
+]
+`;
+
+exports[`svgCleaner return errors if the directory does not exist 1`] = `"the directory dontexist/**/*.svg is empty, or do not exist"`;
+
+exports[`svgCleaner return errors when the name of an icon is not valid 1`] = `"in Navigation_Arrow_Arrow--Bottom_32px.svg :  found in /16px/ directory. Icon File name is either wrong or the icon is in the wrong directory"`;
+
+exports[`svgCleaner return errors when the name of an icon is not valid 2`] = `"✗ ERROR : in iconCompiler/svgCleaners/__tests__/testIconsErrorSquareLayer/16px/Navigation_Arrow_Arrow--Top_16px.svg Icon should have a group with a \\"Square\\" id"`;

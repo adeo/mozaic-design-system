@@ -18,9 +18,6 @@ package-lock.json
 # generated assets zips
 *.zip
 
-# icon list
-src/data/icons.json
-
 # env files
 .env
 
