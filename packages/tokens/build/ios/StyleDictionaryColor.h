@@ -338,7 +338,9 @@ ColorToggleOnBackground,
 ColorToggleOnCircle,
 ColorToggleHoverCircle,
 ColorToggleDisabledBackground,
-ColorToggleDisabledCircle
+ColorToggleDisabledCircle,
+ColorToggleDisabledCheckedBackground,
+ColorToggleDisabledCheckedCircle
 };
 
 @interface StyleDictionaryColor : NSObject

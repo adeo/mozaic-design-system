@@ -6471,6 +6471,46 @@ module.exports = {
             "circle"
           ]
         }
+      },
+      "disabled-checked": {
+        "background": {
+          "value": "#cbe3b5",
+          "original": {
+            "value": "{color.primary-01.200.value}"
+          },
+          "name": "ColorToggleDisabledCheckedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled-checked",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled-checked",
+            "background"
+          ]
+        },
+        "circle": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorToggleDisabledCheckedCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled-checked",
+            "subitem": "circle"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled-checked",
+            "circle"
+          ]
+        }
       }
     }
   },
