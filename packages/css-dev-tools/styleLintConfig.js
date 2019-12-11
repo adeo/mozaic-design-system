@@ -12,7 +12,7 @@ const configDefault = {
 }
 
 const pickConfig = () => {
-  const configUser = CM.getKey('plugin/mozaic-bem-pattern')
+  const configUser = CM.getKey('stylelint')
   if (configUser) {
     configUser.caseStyle =
       configUser.caseStyle !== undefined

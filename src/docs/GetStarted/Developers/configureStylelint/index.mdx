@@ -20,3 +20,33 @@ and you just have to export the styleling config from mozaic
 ```js
 module.exports = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 ```
+
+## Usage
+
+**Linter configuration**
+
+Our stylelint plugin allow developers to add their own configuration. 
+It needs to be added in your root `mozaic.config.js` file. 
+
+**Default configuration :**
+```js
+defaultConfig: {
+    caseStyle: 'kebab-case',
+    bemEntitiesDelimiters: {
+        modifier: '--',
+        element: '__',
+        media: '@',
+    },
+    prefixes: ['mc-', 'ml-', 'mu-', 'mt-', 'mdu-'],
+  },
+```
+
+Please checkout [Mozaic configuration](GetStarted/Developers/Configuration/#stylelint-options-) for more information. 
+
+** Disabling Rules with Inline Comments :**
+
+```scss
+/* stylelint-disable plugin/mozaic-bem-pattern  */
+.mc-block-Name__element-Name {}
+/* stylelint-enable */
+```
