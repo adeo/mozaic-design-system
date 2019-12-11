@@ -96,7 +96,7 @@ You can use one of the 3 available sizes :
 | From breakpoint xl  | `mc-button--s@from-xl`  | `mc-button--m@from-xl`  | `mc-button--l@from-xl`  |
 | From breakpoint xxl | `mc-button--s@from-xxl` | `mc-button--m@from-xxl` | `mc-button--l@from-xxl` |
 
-### Widths modifiers
+### Width modifiers
 
 To manage display of your button, you have 2 availables classes :
 
@@ -122,48 +122,52 @@ To manage display of your button, you have 2 availables classes :
 
 You can add an icon into any buttons you want.
 
-You should add 2 CSS Classes to your icon HTML tag :
-
-- Element class : `mc-button__icon`
-- Modifier element class : `mc-button__icon--[size]`
+You only need to add the `mc-button__icon` CSS class to your icon HTML tag.
 
 ```html
 <a href="#" class="mc-button">
   <span class="mc-button__label">Label</span>
-  <svg class="mc-button__icon mc-button__icon--m">
+  <svg class="mc-button__icon">
     <use xlink:href="#icon" />
   </svg>
 </a>
 ```
 
-<Preview path="button-icon-position" />
-
 #### Icon sizes
 
-As you see above, you need to add a modifier css classes to define the icon size.
+The size of the icons is relative to the size of the buttons and corresponds to the rules detailed in the table below:
 
-Available sizes are :
+| **Button size** | **Icon only**                      | **Icon + text** |
+| --------------- | ---------------------------------- | --------------- |
+| **Small**       | 1.5mu (24px)                       | 1.5mu (24px)    |
+| **Medium**      | 2mu (32px)                         | 1.5mu (24px)    |
+| **Large**       | 2.5mu (48px) [_displayed in 40px_] | 2mu (32px)      |
 
-- **S** : `mc-button__icon--s`
-- **M** : `mc-button__icon--m`
-- **L** : `mc-button__icon--l`
-- **XL** : `mc-button__icon--xl`
+#### Icon and text
+
+<Preview path="button-icon-and-text" />
 
 #### Icon only and square button
 
 You can also use icon only without text into a square button.
 
-To do that, you shoud follow the rules above to use icon and add on modifier to the button to display it as a square.
+To do that, you shoud add the `mc-button--square` modifier to the button to display it as a square.
 
 ```html
 <a href="#" class="mc-button mc-button--square">
-  <svg class="mc-button__icon mc-button__icon--m">
+  <svg class="mc-button__icon">
     <use xlink:href="#icon" />
   </svg>
 </a>
 ```
 
 <Preview path="button-icon-only" />
+
+#### Icon position
+
+When an icon is used in a button with text, it is possible to position the icon to the left or right of the text.
+
+<Preview path="button-icon-position" />
 
 ## Behaviors
 

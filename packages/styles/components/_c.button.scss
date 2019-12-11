@@ -48,13 +48,6 @@
     &:only-child {
       margin: 0;
     }
-
-    @each $size, $props in $icons {
-      &--#{$size} {
-        width: #{map-get($props, 'width')};
-        height: #{map-get($props, 'height')};
-      }
-    }
   }
 
   &__label {
