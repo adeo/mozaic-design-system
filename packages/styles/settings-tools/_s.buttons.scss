@@ -7,6 +7,8 @@ $button-sizes: (
     'padding-v': $mu025,
     'padding-h': $mu100,
     'min-height': $mu200,
+    'icon-size': $mu150,
+    'only-icon-size': $mu150,
   ),
   'm': (
     'font-size': '05',
@@ -14,6 +16,8 @@ $button-sizes: (
     'padding-v': $mu025,
     'padding-h': $mu200,
     'min-height': $mu300,
+    'icon-size': $mu150,
+    'only-icon-size': $mu200,
   ),
   'l': (
     'font-size': '06',
@@ -21,25 +25,8 @@ $button-sizes: (
     'padding-v': $mu025,
     'padding-h': $mu200,
     'min-height': $mu350,
-  ),
-);
-
-$icons: (
-  's': (
-    'width': $mu100,
-    'height': $mu100,
-  ),
-  'm': (
-    'width': $mu150,
-    'height': $mu150,
-  ),
-  'l': (
-    'width': $mu200,
-    'height': $mu200,
-  ),
-  'xl': (
-    'width': $mu250,
-    'height': $mu250,
+    'icon-size': $mu200,
+    'only-icon-size': $mu250
   ),
 );
 
@@ -61,6 +48,16 @@ $button-border: get-border('m');
 
   /* see : https://github.com/philipwalton/flexbugs/issues/231 */
   height: 0;
+
+  .mc-button__icon {
+    width: map-get($sizeProps, 'icon-size');
+    height: map-get($sizeProps, 'icon-size');
+
+    &:only-child {
+      width: map-get($sizeProps, 'only-icon-size');
+      height: map-get($sizeProps, 'only-icon-size');
+    }
+  }
 }
 
 @mixin mod-button-sizes() {
