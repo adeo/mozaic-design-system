@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconTile /> render corectly icon colors 1`] = `
+.c8 {
+  width: 100%;
+  padding: 3px 5px;
+  font-size: 10px;
+  color: #999;
+  line-height: 2em;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.c8:not(:last-child) {
+  border-bottom: solid 1px #f5f5f5;
+}
+
+.c0 {
+  -webkit-flex: 0 1 30.8%;
+  -ms-flex: 0 1 30.8%;
+  flex: 0 1 30.8%;
+  list-style: none;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0.5rem;
+}
+
+.c2 {
+  text-align: center;
+  height: 104px;
+  line-height: 3.75;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 img,
+.c2 svg {
+  margin: auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 !important;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.c4 {
+  -webkit-flex: 0 1 20%;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  list-style: none;
+  text-align: center;
+  font-size: 0.65rem;
+  line-height: 1.62rem;
+  background: #f2f2f2;
+  color: darkgrey;
+}
+
+.c4:not(:first-child) {
+  border-left: 1px solid #eee;
+}
+
+.c5 {
+  -webkit-flex: 0 1 20%;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  list-style: none;
+  text-align: center;
+  font-size: 0.65rem;
+  line-height: 1.62rem;
+  background: #f2f2f2;
+  color: darkgrey;
+  background: #78be20;
+  color: white !important;
+}
+
+.c5:not(:first-child) {
+  border-left: 1px solid #eee;
+}
+
+.c7 {
+  -webkit-flex: 0 1 20%;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  list-style: none;
+  text-align: center;
+  font-size: 0.65rem;
+  line-height: 1.62rem;
+  background: #f2f2f2;
+  color: darkgrey;
+  background: none;
+  color: inherit;
+}
+
+.c7:not(:first-child) {
+  border-left: 1px solid #eee;
+}
+
+.c6 {
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0.65rem;
+  line-height: 1;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 0.5rem 0.25rem;
+}
+
+.c1 {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.75rem;
+  margin: 0;
+  font-weight: 600;
+  word-break: break-all;
+  height: 40px;
+}
+
+.c9 {
+  padding: 0 3px;
+  margin: 3px;
+  line-height: 1.25;
+  display: block;
+  word-break: break-all;
+  position: relative;
+}
+
+<li
+  className="c0"
+>
+  <p
+    className="c1"
+  >
+    StoreLocation--Colors
+  </p>
+  <div
+    className="c2"
+  >
+    <img
+      alt="Store_StoreLocation--Colors_48px.svg"
+      height="48px"
+      src="/colorsvg/Store_StoreLocation--Colors_48px.svg"
+      width="48px"
+    />
+  </div>
+  <ul
+    className="c3"
+  >
+    <li
+      className="c4"
+    >
+      16px
+    </li>
+    <li
+      className="c4"
+    >
+      24px
+    </li>
+    <li
+      className="c4"
+    >
+      32px
+    </li>
+    <li
+      className="c5"
+    >
+      <button
+        className="c6"
+        onClick={[Function]}
+        type="button"
+      >
+        48px
+      </button>
+    </li>
+    <li
+      className="c7"
+    >
+      <button
+        className="c6"
+        onClick={[Function]}
+        type="button"
+      >
+        64px
+      </button>
+    </li>
+  </ul>
+  <div
+    className="c8"
+    onClick={[Function]}
+  >
+    <p
+      className="c9"
+    >
+      Svg file : 
+      <br />
+      Store_StoreLocation--Colors_48px.svg
+    </p>
+  </div>
+</li>
+`;
+
+exports[`<IconTile /> render corectly monochrom icon 1`] = `
+.c7 {
+  width: 100%;
+  padding: 3px 5px;
+  font-size: 10px;
+  color: #999;
+  line-height: 2em;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.c7:not(:last-child) {
+  border-bottom: solid 1px #f5f5f5;
+}
+
+.c0 {
+  -webkit-flex: 0 1 30.8%;
+  -ms-flex: 0 1 30.8%;
+  flex: 0 1 30.8%;
+  list-style: none;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0.5rem;
+}
+
+.c2 {
+  text-align: center;
+  height: 104px;
+  line-height: 3.75;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 img,
+.c2 svg {
+  margin: auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 !important;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.c4 {
+  -webkit-flex: 0 1 20%;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  list-style: none;
+  text-align: center;
+  font-size: 0.65rem;
+  line-height: 1.62rem;
+  background: #f2f2f2;
+  color: darkgrey;
+}
+
+.c4:not(:first-child) {
+  border-left: 1px solid #eee;
+}
+
+.c5 {
+  -webkit-flex: 0 1 20%;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  list-style: none;
+  text-align: center;
+  font-size: 0.65rem;
+  line-height: 1.62rem;
+  background: #f2f2f2;
+  color: darkgrey;
+  background: #78be20;
+  color: white !important;
+}
+
+.c5:not(:first-child) {
+  border-left: 1px solid #eee;
+}
+
+.c6 {
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0.65rem;
+  line-height: 1;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 0.5rem 0.25rem;
+}
+
+.c1 {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.75rem;
+  margin: 0;
+  font-weight: 600;
+  word-break: break-all;
+  height: 40px;
+}
+
+.c8 {
+  padding: 0 3px;
+  margin: 3px;
+  line-height: 1.25;
+  display: block;
+  word-break: break-all;
+  position: relative;
+}
+
+<li
+  className="c0"
+>
+  <p
+    className="c1"
+  >
+    Mobile
+  </p>
+  <div
+    className="c2"
+  >
+    <svg
+      fill="#454545"
+      height="48px"
+      viewBox="0 0 48 48"
+      width="48px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M32 7H16a2 2 0 00-2 2v30a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zm-1 3v22H17V10zM17 38v-4h14v4z"
+      />
+      <path
+        d="M25 35h-2a1 1 0 000 2h2a1 1 0 000-2z"
+      />
+    </svg>
+  </div>
+  <ul
+    className="c3"
+  >
+    <li
+      className="c4"
+    >
+      16px
+    </li>
+    <li
+      className="c4"
+    >
+      24px
+    </li>
+    <li
+      className="c4"
+    >
+      32px
+    </li>
+    <li
+      className="c5"
+    >
+      <button
+        className="c6"
+        onClick={[Function]}
+        type="button"
+      >
+        48px
+      </button>
+    </li>
+    <li
+      className="c4"
+    >
+      64px
+    </li>
+  </ul>
+  <div
+    className="c7"
+    onClick={[Function]}
+  >
+    <p
+      className="c8"
+    >
+      React/vue : 
+      <br />
+      Mobile48
+    </p>
+  </div>
+  <div
+    className="c7"
+    onClick={[Function]}
+  >
+    <p
+      className="c8"
+    >
+      Svg file : 
+      <br />
+      Device_Mobile_48px.svg
+    </p>
+  </div>
+</li>
+`;

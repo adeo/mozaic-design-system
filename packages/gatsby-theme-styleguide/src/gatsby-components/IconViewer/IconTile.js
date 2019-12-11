@@ -1,6 +1,5 @@
+import React, { Component } from 'react'
 import styled from 'styled-components'
-import React from 'react'
-
 import Copy from '../Copy'
 import * as icons from '@mozaic-ds/icons/react'
 
@@ -51,7 +50,7 @@ const SizeItemAvail = styled(SizeItem)`
   color: ${({ isActive }) => (isActive ? `white !important` : `inherit`)};
 `
 
-const SizeItemBtn = styled.button`
+export const SizeItemBtn = styled.button`
   box-shadow: none;
   margin: 0;
   padding: 0;
@@ -83,7 +82,7 @@ const IconSizeName = styled.p`
   position: relative;
 `
 
-class IconTile extends React.Component {
+export default class IconTile extends Component {
   constructor(props) {
     super(props)
 
@@ -141,7 +140,7 @@ class IconTile extends React.Component {
       if (!icons[size]) {
         return false
       } else {
-        dataIcon.sizes[size].component = icons[size].componentName
+        dataIcon.sizes[size].component = icons[size].componentName || null
         dataIcon.sizes[size].fileName = icons[size].fileName
       }
 
@@ -164,11 +163,22 @@ class IconTile extends React.Component {
       <IconDetail>
         <IconName>{this.props.name}</IconName>
         <IconWrapper>
-          <Icon fill="#454545" size={this.state.currentSize} />
+          {this.props.type === 'monochrom' ? (
+            <Icon fill="#454545" size={this.state.currentSize} />
+          ) : (
+            <img
+              src={`/colorsvg/${
+                this.state.allIcon[this.state.currentSize].fileName
+              }`}
+              width={this.state.currentSize}
+              height={this.state.currentSize}
+              alt={this.state.allIcon[this.state.currentSize].fileName}
+            />
+          )}
         </IconWrapper>
         <SizesList>
           {Object.keys(this.dataIcon.sizes).map(size =>
-            this.state.allIcon[size].component ? (
+            this.state.allIcon[size].fileName ? (
               <SizeItemAvail
                 key={`${this.props.name}-${size}`}
                 isActive={this.state.currentSize === size}
@@ -185,15 +195,17 @@ class IconTile extends React.Component {
             )
           )}
         </SizesList>
-        <Copy
-          value={this.state.allIcon[this.state.currentSize].component}
-          children={
-            <TechnicalName
-              keyName="React/vue : "
-              value={this.state.allIcon[this.state.currentSize].component}
-            />
-          }
-        />
+        {this.state.allIcon[this.state.currentSize].component && (
+          <Copy
+            value={this.state.allIcon[this.state.currentSize].component}
+            children={
+              <TechnicalName
+                keyName="React/vue : "
+                value={this.state.allIcon[this.state.currentSize].component}
+              />
+            }
+          />
+        )}
         <Copy
           value={this.state.allIcon[this.state.currentSize].fileName}
           children={
@@ -215,5 +227,3 @@ const TechnicalName = ({ keyName, value }) => (
     {value}
   </IconSizeName>
 )
-
-export default IconTile
