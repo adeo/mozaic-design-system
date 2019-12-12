@@ -17,10 +17,7 @@ const transpilers = {
 
 const generateIconComponent = (framework, icons) =>
   new Promise((res, rej) => {
-    const data = transpilers[framework].transpiler(
-      icons,
-      transpilers[framework].color
-    )
+    const data = transpilers[framework].transpiler(icons)
 
     const writePath = path.join(
       process.cwd(),

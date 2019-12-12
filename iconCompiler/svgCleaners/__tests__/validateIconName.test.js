@@ -11,7 +11,7 @@ describe('validateIconName', () => {
     const result = validateIconName('Social_View_Star--Half_32px.svg', '16px')
 
     expect(result).toBe(
-      'in Social_View_Star--Half_32px.svg :  found in /16px/ directory. Icon File name is either wrong or the icon is in the wrong directory'
+      'in Social_View_Star--Half_32px.svg :  found in /16px/ directory. Icon file name is either wrong or the icon is in the wrong directory'
     )
   })
 
@@ -19,7 +19,7 @@ describe('validateIconName', () => {
     const result = validateIconName('Social_View_ Star--Half_32px.svg', '32px')
 
     expect(result).toBe(
-      'in Social_View_ Star--Half_32px.svg : icon Filename should not contain spaces'
+      'in Social_View_ Star--Half_32px.svg : icon file name should not contain spaces'
     )
   })
 
@@ -30,7 +30,7 @@ describe('validateIconName', () => {
     )
 
     expect(result).toBe(
-      'in Social_View_Star--Half_32pxfoo.svg : icon Filename should always end with _[size]px.svg\n✗ ERROR : in Social_View_Star--Half_32pxfoo.svg :  found in /32px/ directory. Icon File name is either wrong or the icon is in the wrong directory'
+      'in Social_View_Star--Half_32pxfoo.svg : icon file name should always end with _[size]px.svg\n✗ ERROR : in Social_View_Star--Half_32pxfoo.svg :  found in /32px/ directory. Icon file name is either wrong or the icon is in the wrong directory'
     )
   })
 
@@ -38,7 +38,7 @@ describe('validateIconName', () => {
     const result = validateIconName('ViewStarHalf_32px.svg', '32px')
 
     expect(result).toBe(
-      'in ViewStarHalf_32px.svg : icon Filename should start with a category name separated by _ and the first letter following the category name should be a capital letter'
+      'in ViewStarHalf_32px.svg : icon file name should start with a category name separated by _ and the first letter following the category name should be a capital letter'
     )
   })
 
@@ -46,13 +46,13 @@ describe('validateIconName', () => {
     const result = validateIconName('View_starHalf_32px.svg', '32px')
 
     expect(result).toBe(
-      'in View_starHalf_32px.svg : icon Filename should start with a category name separated by _ and the first letter following the category name should be a capital letter'
+      'in View_starHalf_32px.svg : icon file name should start with a category name separated by _ and the first letter following the category name should be a capital letter'
     )
 
     const result2 = validateIconName('View_999_32px.svg', '32px')
 
     expect(result2).toBe(
-      'in View_999_32px.svg : icon Filename should start with a category name separated by _ and the first letter following the category name should be a capital letter'
+      'in View_999_32px.svg : icon file name should start with a category name separated by _ and the first letter following the category name should be a capital letter'
     )
   })
 })

@@ -27,6 +27,6 @@ Array [
 
 exports[`svgCleaner return errors if the directory does not exist 1`] = `"the directory dontexist/**/*.svg is empty, or do not exist"`;
 
-exports[`svgCleaner return errors when the name of an icon is not valid 1`] = `"in Navigation_Arrow_Arrow--Bottom_32px.svg :  found in /16px/ directory. Icon File name is either wrong or the icon is in the wrong directory"`;
+exports[`svgCleaner return errors when the name of an icon is not valid 1`] = `"in Navigation_Arrow_Arrow--Bottom_32px.svg :  found in /16px/ directory. Icon file name is either wrong or the icon is in the wrong directory"`;
 
 exports[`svgCleaner return errors when the name of an icon is not valid 2`] = `"✗ ERROR : in iconCompiler/svgCleaners/__tests__/testIconsErrorSquareLayer/16px/Navigation_Arrow_Arrow--Top_16px.svg Icon should have a group with a \\"Square\\" id"`;

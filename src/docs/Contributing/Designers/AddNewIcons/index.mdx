@@ -31,22 +31,87 @@ You must create a branch to be able to push your work in Mozaic's design system 
 
 ## 4. Place your icon(s) in Mozaic's repository
 
-Your icon needs to put in the **design-system--styleguide** repository in this folder `designer-system--styleguide/src/icons/`.
+You should replace the entire Icons directory inside the **mozaic-design-system** repository in the `src/icons/` directory.**Any changes in the icon names or directory structure may cause bugs in production**.  
+Be sure to have the **latest curated and cleaned icon directory**, and add the icon you desire to update.
 
 ## 5. We've built a script for you to search for potential errors
 
 This script will locate errors so you can fix them the easiest way possible. Please type the following lines in your terminal:
-* `cd FolderName/GitHub/mozaic-design-system`
-* `yarn lerna` (more informations can be found [here](/GetStarted/Developers/Installation/) if it's your first time)
-* `yarn icons:build`
+
+- `cd FolderName/GitHub/mozaic-design-system`
+- `yarn lerna` (more informations can be found [here](/GetStarted/Developers/Installation/) if it's your first time)
+- `yarn icons:build`
 
 Please check for this kind of error in your terminal.
 
 ```
-✗ ERROR : in MediaFullScreen_32 px.svg : icon Filename should start with a category name separated by _ with the icon name
-✗ ERROR : in MediaFullScreen_32 px.svg : icon Filename should not contain spaces
-✗ ERROR : in MediaFullScreen_32 px.svg : icon Filename should always end with _[size]px.svg
-✗ ERROR : in MediaFullScreen_32 px.svg :  found in /16px/ directory. Icon File name is either wrong or the icon is in the wrong directory
+✗ ERROR : in MediaFullScreen_32 px.svg : icon file name should start with a category name separated by _ with the icon name
+✗ ERROR : in MediaFullScreen_32 px.svg : icon file name should not contain spaces
+✗ ERROR : in MediaFullScreen_32 px.svg : icon file name should always end with _[size]px.svg
+✗ ERROR : in MediaFullScreen_32 px.svg :  found in /16px/ directory. Icon file name is either wrong or the icon is in the wrong directory
+```
+
+**Keep in mind that the script cannot detect all errors**, and you need to check that icons are respecting the following rules :
+
+### Icon validation rules
+
+![icon naming rules](naming-rules.jpg)
+
+#### Size rules
+
+- It should be placed in the directory related to his size : `32px/....svg`.
+- The file name should finish with an underscore, followed by the size : `_32px`.
+- The SVG file should contain a `viewbox` attribute that equal the icon size : `viewbox="0 0 32 32"`.
+
+#### Category name rules
+
+- The icon file name should start with a category name followed by an underscore : `Category_(...).svg`.
+- The category should start with a capital letter.
+- The category should not contain underscore and be only one word : `CategoryName`, `Category-name` and `Category_name` are not allowed.
+
+#### Name rules
+
+- The name should start with a capital letter (A-Z).
+- The name should not start with a number : `360` is forbiden.
+- The name can contain underscores and dashes : `Icon-Name_with--Dashes`.
+
+#### Vectors and structure rules
+
+- The icon should be built with two layers nammed `Square` and `Icon` (The Square layer will be removed by our optimisation script).
+- The `Square` layer contain a rectangle with the exact corresponding width and height of the icon (ex: `32px`).
+- The `Icon` layer should contain flattened vectorial paths and shapes with no strokes.
+- For monochrom icons, there should be only one color in the `Icon` layer.
+
+#### Export rules :
+
+- Do not optimize the vector paths when exporting, our script will do it for you.
+
+#### Directory structure :
+
+In src/icons :
+
+```
+COLORS/
+├── PDF/
+│   ├── 24px/
+│   │   ├── Category_name_24px.pdf
+│   │   └── ...
+│   └── ...
+└── SVG/
+│   ├── 24px/
+│   │   ├── Category_name_24px.svg
+│   │   └── ...
+│   └── ...
+PDF/
+├── 16px/
+│   ├── Category_name_16px.pdf
+│   └── ...
+└── ...
+SVG/
+├── 16px/
+│   ├── Category_name_16px.svg
+│   └── ...
+└── ...
 ```
 
 ## 6. Solve potential errors
@@ -55,10 +120,11 @@ Mozaic's repository will be locally stored in your computer usually under the fo
 
 ## 7. Please do a final visual check on the style guide
 
-With the following terminal command you will be able to build a local version of the style guide that visually looks like the online website. That will allow you to do a final visual check on this built style guide to make sure that everything looks right.<br/><br/>
+With the following terminal command you will be able to build a local version of the style guide that visually looks like the online website. That will allow you to do a final visual check on this built style guide to make sure that everything looks right.
 
 Type this in your terminal:
-* `yarn develop`
+
+- `yarn develop`
 
 After the process is done go to `Foundations/Icons/Preview` on the built styleguide.
 
@@ -73,9 +139,10 @@ To be available, your branch needs to have a commit and be pushed. Please read [
 ## 9. Make a pull request
 
 To finish the process and make the whole Mozaic team review your work, you need to make a pull request with the following labels :
-* `scope: pattern`
-* `feat`
-* `skill:design`
+
+- `scope: pattern`
+- `feat`
+- `skill:design`
 
 For example, this pull request can be named: `feat(pattern/icons): add week 49 icons`.
 
