@@ -3,15 +3,19 @@ import styled from 'styled-components'
 
 import StatusFlag from '../StatusFlag'
 import { checkPlatform, checkStatus } from '../../utils/status'
+import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 
 const StatusItem = styled.span`
+  align-items: center;
   display: inline-flex;
-  font-size: 0.875rem;
-  color: #525252;
-  margin-right: 1rem;
+  margin-right: ${MagicUnit}rem;
 
-  span {
-    margin-right: 0.5rem;
+  .pattern-status {
+    &__text {
+      color: black;
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
   }
 `
 
@@ -30,8 +34,9 @@ const PatternStatusGroup = ({ status }) => {
       }
 
       return (
-        <StatusItem key={index}>
-          <span>{currentPlatform}</span> <StatusFlag status={currentStatus} />
+        <StatusItem className="pattern-status" key={index}>
+          <span class="pattern-status__text">{currentPlatform}</span>{' '}
+          <StatusFlag status={currentStatus} />
         </StatusItem>
       )
     })

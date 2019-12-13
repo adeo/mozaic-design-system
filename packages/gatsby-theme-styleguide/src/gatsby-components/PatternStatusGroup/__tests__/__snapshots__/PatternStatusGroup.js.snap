@@ -2,49 +2,53 @@
 
 exports[`<PatternStatusGroup /> render correctly 1`] = `
 .c1 {
-  display: inline-block;
+  background: #fff;
+  border: solid 1px transparent;
+  border-radius: 2px;
   font-size: 0.875rem;
   line-height: 1;
   padding: 0.2rem 0.5rem 0.3rem;
-  background: #fff;
-  border-radius: 3px;
-  border: solid 1px #58e3b7;
+  border-color: #58e3b7;
   color: #328269;
 }
 
 .c2 {
-  display: inline-block;
+  background: #fff;
+  border: solid 1px transparent;
+  border-radius: 2px;
   font-size: 0.875rem;
   line-height: 1;
   padding: 0.2rem 0.5rem 0.3rem;
-  background: #fff;
-  border-radius: 3px;
-  border: solid 1px #e3cb58;
+  border-color: #e3cb58;
   color: #a58e1b;
 }
 
 .c3 {
-  display: inline-block;
+  background: #fff;
+  border: solid 1px transparent;
+  border-radius: 2px;
   font-size: 0.875rem;
   line-height: 1;
   padding: 0.2rem 0.5rem 0.3rem;
-  background: #fff;
-  border-radius: 3px;
-  border: solid 1px #e35876;
+  border-color: #e35876;
   color: #82325e;
 }
 
 .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 0.875rem;
-  color: #525252;
   margin-right: 1rem;
 }
 
-.c0 span {
+.c0 .pattern-status__text {
+  color: black;
+  font-weight: bold;
   margin-right: 0.5rem;
 }
 
@@ -52,40 +56,46 @@ exports[`<PatternStatusGroup /> render correctly 1`] = `
   className="patternstatusflags"
 >
   <span
-    className="c0"
+    className="c0 pattern-status"
   >
-    <span>
+    <span
+      class="pattern-status__text"
+    >
       scss
     </span>
      
     <span
-      className="c1"
+      className="c1 pattern-status__flag"
     >
       stable
     </span>
   </span>
   <span
-    className="c0"
+    className="c0 pattern-status"
   >
-    <span>
+    <span
+      class="pattern-status__text"
+    >
       figma
     </span>
      
     <span
-      className="c2"
+      className="c2 pattern-status__flag"
     >
       wip
     </span>
   </span>
   <span
-    className="c0"
+    className="c0 pattern-status"
   >
-    <span>
+    <span
+      class="pattern-status__text"
+    >
       sketch
     </span>
      
     <span
-      className="c3"
+      className="c3 pattern-status__flag"
     >
       bêta
     </span>

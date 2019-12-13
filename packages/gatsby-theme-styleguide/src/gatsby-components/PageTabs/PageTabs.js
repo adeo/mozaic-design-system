@@ -8,8 +8,41 @@ const Tabs = styled.div`
   width: 100%;
   z-index: 1;
   top: 0;
-  background: #fff;
-  border-bottom: solid 1px #f5f5f5;
+  border-bottom: solid 1px #000;
+  background: #e6e6e6;
+
+  .page-tabs {
+    &__content {
+      display: inline-flex;
+    }
+
+    &__link {
+      color: #000;
+      display: block;
+      position: relative;
+      padding: ${MagicUnit}rem ${MagicUnit * 1.5}rem;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0.25rem;
+      }
+
+      &:hover,
+      &--active {
+        &::after {
+          background: #000;
+        }
+      }
+
+      &--active {
+        font-weight: bold;
+      }
+    }
+  }
 `
 
 const TabsWrapper = styled.div`
@@ -17,21 +50,7 @@ const TabsWrapper = styled.div`
   max-width: ${MagicUnit * 52}rem;
 `
 
-const TabItem = styled.div`
-  display: inline-block;
-  padding: 15px;
-  height: 100%;
-  border-right: solid 1px #f5f5f5;
-
-  &:first-child {
-    border-left: solid 1px #f5f5f5;
-  }
-
-  .active-link {
-    font-weight: bold;
-    color: #555;
-  }
-`
+const TabItem = styled.div``
 
 class PageTabs extends PureComponent {
   orderPageTab = pageTabs => {
@@ -65,11 +84,15 @@ class PageTabs extends PureComponent {
     const cleanTabs = this.orderPageTab(samePageTabs)
 
     return (
-      <Tabs id="page_tabs_menu">
-        <TabsWrapper>
+      <Tabs id="page_tabs_menu" className="page-tabs">
+        <TabsWrapper className="page-tabs__content">
           {cleanTabs.map(node => (
-            <TabItem key={node.slug}>
-              <Link to={node.slug} activeClassName="active-link">
+            <TabItem key={node.slug} className="page-tabs__item">
+              <Link
+                to={node.slug}
+                className="page-tabs__link"
+                activeClassName="page-tabs__link--active"
+              >
                 {node.title}
               </Link>
             </TabItem>
