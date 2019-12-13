@@ -76,6 +76,7 @@ export default ({ data, location }) => {
   ).node.frontmatter
   const parentTitle = parentFrontmatter.title
   const parentStatus = parentFrontmatter.status
+  const parentDescription = parentFrontmatter.description
   const hasTabs = samePageTabs.length > 1
 
   return (
@@ -83,6 +84,7 @@ export default ({ data, location }) => {
       <FullWidthContainer separator>
         <Container>
           <h1>{parentTitle}</h1>
+          <p>{parentDescription}</p>
           <PatternStatusGroup status={parentStatus} />
         </Container>
       </FullWidthContainer>
@@ -134,6 +136,7 @@ export const query = graphql`
               react
               vue
             }
+            description
           }
           fields {
             slug
