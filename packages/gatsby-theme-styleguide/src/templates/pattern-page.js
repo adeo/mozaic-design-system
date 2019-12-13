@@ -95,12 +95,14 @@ export default ({ data, location }) => {
   const parentTitle = parentFrontmatter.title
   const parentStatus = parentFrontmatter.status
   const parentDescription = parentFrontmatter.description
+  const mainCategory = post.fields.slug ? post.fields.slug.split('/') : []
   const hasTabs = samePageTabs.length > 1
 
   return (
     <Layout location={location} tableOfContents={tableOfContents}>
       <FullWidthContainer separator>
         <Container className="header">
+          {mainCategory.length > 3 && <h4>{mainTitle[1]}</h4>}
           <h1 class="header__title">{parentTitle}</h1>
           <p class="header__description">{parentDescription}</p>
           <PatternStatusGroup status={parentStatus} />
