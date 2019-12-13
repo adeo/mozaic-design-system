@@ -14,7 +14,25 @@ const FullWidthContainer = styled.div`
   ${({ separator }) =>
     separator &&
     css`
-      border-bottom: solid 1px #f5f5f5;
+      .header {
+        background: #e6e6e6;
+        border-bottom: solid 1px black;
+        padding: ${MagicUnit * 2.25}rem ${MagicUnit * 3}rem
+          ${MagicUnit * 2.5}rem;
+
+        &__title {
+          font-weight: normal;
+          margin: 0 0 0.75rem;
+          line-height: 1;
+          font-size: ${MagicUnit * 3}rem;
+        }
+
+        &__description {
+          font-size: 1.25rem;
+          margin: 0 0 1.5rem;
+          max-width: 38.63rem;
+        }
+      }
     `};
 `
 
@@ -82,9 +100,9 @@ export default ({ data, location }) => {
   return (
     <Layout location={location} tableOfContents={tableOfContents}>
       <FullWidthContainer separator>
-        <Container>
-          <h1>{parentTitle}</h1>
-          <p>{parentDescription}</p>
+        <Container className="header">
+          <h1 class="header__title">{parentTitle}</h1>
+          <p class="header__description">{parentDescription}</p>
           <PatternStatusGroup status={parentStatus} />
         </Container>
       </FullWidthContainer>
