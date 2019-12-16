@@ -29,6 +29,7 @@ const Flag = styled.span`
 `
 
 const StatusFlag = ({ status }) => {
+  if (!status) return false
   const authorizedStatus = checkStatus(status)
   if (!authorizedStatus) return false
   return <Flag status={authorizedStatus}>{authorizedStatus}</Flag>

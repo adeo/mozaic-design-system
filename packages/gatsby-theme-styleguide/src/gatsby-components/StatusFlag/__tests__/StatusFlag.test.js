@@ -25,4 +25,9 @@ describe(`<StatusFlag>`, () => {
     const tree = renderer.create(<StatusFlag status="foo" />).toJSON()
     expect(tree).toBe(null)
   })
+
+  it(`should should not render anything no or empty status prop`, () => {
+    const tree = renderer.create(<StatusFlag status="" />).toJSON()
+    expect(tree).toBe(null)
+  })
 })

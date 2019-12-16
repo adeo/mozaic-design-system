@@ -118,7 +118,10 @@ const PatternsStatus = ({ data }) => {
               </PatternName>
             </td>
           )
-        } else if (relatedStatus) {
+        } else if (
+          relatedStatus &&
+          pattern.node.frontmatter.status[relatedStatus]
+        ) {
           thisPatternStatus.push(
             <td key={'value_row_' + plateform + index}>
               <StatusFlag
@@ -175,6 +178,8 @@ const query = graphql`
             status {
               sketch
               scss
+              react
+              vue
             }
           }
         }
