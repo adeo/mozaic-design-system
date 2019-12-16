@@ -55,7 +55,7 @@ exports.sourceNodes = async ({
         url:
           'https://' +
           tagName.replace(/\.|-/g, '') +
-          '-dot-design-system-adeo.appspot.com',
+          '-dot-mozaic-design-system-dtrp.appspot.com',
         internal: {
           type: `GithubRelease`,
           content: JSON.stringify({ tagName }),

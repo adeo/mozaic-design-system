@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuVersionSelect /> render corectly 1`] = `
+.c0 {
+  font-size: 0.5rem;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  margin-right: 5px;
+}
+
+<div>
+  <label
+    className="c0"
+  >
+    older tags:
+  </label>
+  <select
+    defaultValue="default"
+    onChange={[Function]}
+  >
+    <option
+      value="default"
+    >
+      -- choose --
+    </option>
+    <option
+      value="https://mozaic.adeo.cloud/"
+    >
+      latest release
+    </option>
+    <option
+      value="http://1"
+    >
+      1
+    </option>
+    <option
+      value="http://2"
+    >
+      2
+    </option>
+  </select>
+</div>
+`;
