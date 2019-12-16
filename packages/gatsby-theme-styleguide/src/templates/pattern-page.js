@@ -11,29 +11,7 @@ import TableOfContents from '../gatsby-components/TableOfContents'
 import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
 
 const FullWidthContainer = styled.div`
-  ${({ separator }) =>
-    separator &&
-    css`
-      .header {
-        background: #e6e6e6;
-        border-bottom: solid 1px black;
-        padding: ${MagicUnit * 2.25}rem ${MagicUnit * 3}rem
-          ${MagicUnit * 2.5}rem;
-
-        &__title {
-          font-weight: normal;
-          margin: 0 0 0.75rem;
-          line-height: 1;
-          font-size: ${MagicUnit * 3}rem;
-        }
-
-        &__description {
-          font-size: 1.25rem;
-          margin: 0 0 1.5rem;
-          max-width: 38.63rem;
-        }
-      }
-    `};
+  ${({ separator }) => separator};
 `
 
 const PageContentWrapper = styled.div`
@@ -69,6 +47,38 @@ const PageContent = styled.div`
   }
 `
 
+const Header = styled(Container)`
+  background: #e6e6e6;
+  border-bottom: solid 1px black;
+
+  ${({ hasMainCategory }) =>
+    hasMainCategory
+      ? css`
+          padding: ${MagicUnit * 1.5}rem ${MagicUnit * 3}rem
+            ${MagicUnit * 2.375}rem;
+        `
+      : css`
+          padding: ${MagicUnit * 3}rem;
+        `};
+`
+
+const HeaderTitle = styled.h1`
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.167;
+  font-size: ${MagicUnit * 3}rem;
+
+  &:not(:only-child) {
+    margin: 0 0 0.75rem;
+  }
+`
+
+const HeaderCategory = styled.span`
+  color: #1c4d46;
+  font-size: 10px;
+  text-transform: uppercase;
+`
+
 export default ({ data, location }) => {
   const post = data.mdx
   const { tableOfContents } = data.mdx
@@ -94,19 +104,20 @@ export default ({ data, location }) => {
   ).node.frontmatter
   const parentTitle = parentFrontmatter.title
   const parentStatus = parentFrontmatter.status
-  const parentDescription = parentFrontmatter.description
   const mainCategory = post.fields.slug ? post.fields.slug.split('/') : []
   const hasTabs = samePageTabs.length > 1
+  const hasMainCategory = mainCategory.length > 3
 
   return (
     <Layout location={location} tableOfContents={tableOfContents}>
       <FullWidthContainer separator>
-        <Container className="header">
-          {mainCategory.length > 3 && <h4>{mainCategory[1]}</h4>}
-          <h1 class="header__title">{parentTitle}</h1>
-          <p class="header__description">{parentDescription}</p>
+        <Header hasMainCategory={hasMainCategory}>
+          {hasMainCategory && (
+            <HeaderCategory>{mainCategory[1]}</HeaderCategory>
+          )}
+          <HeaderTitle>{parentTitle}</HeaderTitle>
           <PatternStatusGroup status={parentStatus} />
-        </Container>
+        </Header>
       </FullWidthContainer>
       {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
 

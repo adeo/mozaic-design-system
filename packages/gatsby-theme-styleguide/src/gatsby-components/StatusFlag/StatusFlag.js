@@ -32,11 +32,7 @@ const StatusFlag = ({ status }) => {
   if (!status) return false
   const authorizedStatus = checkStatus(status)
   if (!authorizedStatus) return false
-  return (
-    <Flag className="pattern-status__flag" status={authorizedStatus}>
-      {authorizedStatus}
-    </Flag>
-  )
+  return <Flag status={authorizedStatus}>{authorizedStatus}</Flag>
 }
 
 export default StatusFlag

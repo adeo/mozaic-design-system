@@ -9,14 +9,12 @@ const StatusItem = styled.span`
   align-items: center;
   display: inline-flex;
   margin-right: ${MagicUnit}rem;
+`
 
-  .pattern-status {
-    &__text {
-      color: black;
-      font-weight: bold;
-      margin-right: 0.5rem;
-    }
-  }
+const StatusText = styled.span`
+  color: black;
+  font-weight: bold;
+  margin-right: 0.5rem;
 `
 
 const PatternStatusGroup = ({ status }) => {
@@ -34,8 +32,8 @@ const PatternStatusGroup = ({ status }) => {
       }
 
       return (
-        <StatusItem className="pattern-status" key={index}>
-          <span class="pattern-status__text">{currentPlatform}</span>{' '}
+        <StatusItem key={index}>
+          <StatusText>{currentPlatform}</StatusText>{' '}
           <StatusFlag status={currentStatus} />
         </StatusItem>
       )
