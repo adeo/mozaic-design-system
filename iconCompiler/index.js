@@ -1,21 +1,59 @@
-const path = require('path')
-const currentDir = process.cwd()
-const iconsCleaned = require('./svg-cleaner')
-const generateIconComponents = require('./generateIconComponents')
-const generateIconsData = require('./generateIconsData')
+const config = require('./config')
+const cleanDirectories = require('./utils/cleanDirectories')
+const cleanIcons = require('./svgCleaners')
+const {
+  monochromOptim,
+  colorOptim,
+} = require('./svgCleaners/optimizationConfigs')
 
-// Generating React and vue Components file for Icons Package
-const iconsPackageReactOutput = path.join(currentDir, './packages/icons/react/')
-const iconsPackageVueOutput = path.join(currentDir, './packages/icons/vue/')
+const generateIconComponent = require('./componentsGenerators')
+const generateIconsDatas = require('./generateData')
+const copyPDF = require('./copyPDF')
 
-iconsCleaned()
-  .then(icons =>
-    generateIconComponents(icons, {
-      react: iconsPackageReactOutput,
-      vue: iconsPackageVueOutput,
-    })
-  )
-  .then(() => generateIconsData())
-  .catch(err => {
-    console.error('Error in Icons building!', err)
+const outputIconSetSize = (monochromSet, colorSet) => `
+---------------------------------------
+MONOCHROM ICONS : ${monochromSet.length}
+COLOR ICONS : ${colorSet.length}
+---------------------------------------
+`
+
+console.log(`
+•••••••••••••••••••••••••••••••••••••••
++                                     +
++      COMPILING MOZAIC ICON SET      +
++                                     +
+•••••••••••••••••••••••••••••••••••••••
+`)
+
+cleanDirectories(config)
+  .then(() => {
+    console.log('✓ SUCCESS : Icons Directories cleaned and recreated')
+
+    return Promise.all([
+      cleanIcons('svg', monochromOptim),
+      cleanIcons('svgColor', colorOptim),
+      cleanIcons('svgColorToGatsby', colorOptim),
+    ])
   })
+  .then(icons => {
+    console.log(outputIconSetSize(icons[0], icons[1]))
+    console.log('✓ SUCCESS : Icons cleaned and saved as SVGs in the package')
+
+    return Promise.all([
+      generateIconComponent('react', icons[0]),
+      generateIconComponent('vue', icons[0]),
+      generateIconsDatas(icons),
+    ]).then(() => Promise.resolve())
+  })
+  .then(() => {
+    console.log(
+      '✓ SUCCESS : Monochrom icons compiled into react and vue components' +
+        '\n✓ SUCCESS : JSON created to use in gatsby for previewing all icons'
+    )
+
+    return Promise.all([copyPDF('pdf'), copyPDF('pdfColor')])
+  })
+  .then(() => {
+    console.log('✓ SUCCESS : PDF icons copied into packages')
+  })
+  .catch(err => console.error(`✗ ERROR : ${err}`))

@@ -5,7 +5,7 @@
   "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adeo/design-system--styleguide"
+    "url": "https://github.com/adeo/mozaic-design-system"
   },
   "keywords": [
     "gatsby"
@@ -57,7 +57,7 @@
     "request-promise": "^4.2.4",
     "rimraf": "^3.0.0",
     "styled-components": "^4.0.2",
-    "svgo": "^1.2.1",
+    "svgo": "^1.3.1",
     "wdio-chromedriver-service": "^5.0.2",
     "webdriverio": "^5.16.3",
     "xstate": "^3.1.0"
@@ -81,6 +81,7 @@
     "jest-cli": "^24.9.0",
     "lerna": "^3.16.4",
     "lint-staged": "^9.5",
+    "mock-fs": "^4.10.4",
     "plop": "^2.4.0",
     "prettier": "^1.14.2"
   },
@@ -93,21 +94,19 @@
     "clean-cache": "npx gatsby clean",
     "css:fix": "npx stylelint src/docs/**/previews/*.scss packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint src/docs/**/previews/*.scss packages/styles/**/*.scss",
-    "icons:clean": "node iconCompiler/execDirsCleaning.js",
-    "icons:process": "node iconCompiler/index.js",
-    "icons:build": "yarn icons:clean && yarn icons:process",
-    "prebuild": "yarn clean-cache && yarn tokens:build && yarn icons:build",
+    "icons:build": "node iconCompiler/index.js",
+    "prebuild": "yarn clean-cache && yarn tokens:build",
     "lerna": "npx lerna clean -y && npx lerna bootstrap",
     "build": "npx gatsby build",
     "develop": "npx gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "npx wdio",
-    "predevelop": "yarn clean-cache && yarn tokens:clean-build && yarn icons:build",
+    "predevelop": "yarn clean-cache && yarn tokens:clean-build",
     "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github prerelease",
     "npm:publish": "npx lerna exec --bail=false npm publish",
     "unit": "jest --projects ./packages/*/jest.config.js --coverage --verbose --color --no-cache",
     "unit:watch": "jest --watch",
-    "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'"    
+    "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'"
   },
   "browserslist": [
     ">0.3%",

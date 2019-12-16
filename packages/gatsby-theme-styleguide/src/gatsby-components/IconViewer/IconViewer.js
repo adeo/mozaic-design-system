@@ -11,33 +11,37 @@ const IconsList = styled.ul`
   flex-wrap: wrap;
 `
 
-const IconViewer = () => {
+const IconViewer = ({ type }) => {
   return (
     <StaticQuery
       query={graphql`
-        query {
-          allIconsJson {
-            edges {
-              node {
-                name
-                size
-                cat
-                fileName
-                componentName
-              }
+        query AllIcons {
+          dataJson {
+            monochrom {
+              cat
+              componentName
+              fileName
+              name
+              size
+            }
+            color {
+              cat
+              fileName
+              name
+              size
             }
           }
         }
       `}
       render={data => {
-        const icons = data.allIconsJson.edges
+        const icons = data.dataJson[type]
         const categories = {}
 
         icons.forEach(icon => {
-          if (!categories[icon.node.cat]) categories[icon.node.cat] = {}
+          if (!categories[icon.cat]) categories[icon.cat] = {}
 
-          if (!categories[icon.node.cat][icon.node.name])
-            categories[icon.node.cat][icon.node.name] = {
+          if (!categories[icon.cat][icon.name])
+            categories[icon.cat][icon.name] = {
               '16px': null,
               '24px': null,
               '32px': null,
@@ -45,11 +49,9 @@ const IconViewer = () => {
               '64px': null,
             }
 
-          if (
-            categories[icon.node.cat][icon.node.name][icon.node.size] === null
-          )
-            categories[icon.node.cat][icon.node.name][icon.node.size] = {
-              ...icon.node,
+          if (categories[icon.cat][icon.name][icon.size] === null)
+            categories[icon.cat][icon.name][icon.size] = {
+              ...icon,
             }
 
           return null
@@ -63,6 +65,7 @@ const IconViewer = () => {
                 <IconsList>
                   {Object.keys(categories[cat]).map(name => (
                     <IconTile
+                      type={type}
                       key={`${cat}-${name}`}
                       name={name}
                       icons={categories[cat][name]}

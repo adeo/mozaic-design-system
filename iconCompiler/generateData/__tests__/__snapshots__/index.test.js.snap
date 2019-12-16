@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateColorListObject generateColorListObject return a list of icons without a component name 1`] = `
+Array [
+  Object {
+    "cat": "Navigation",
+    "fileName": "Navigation_Arrow_Arrow--Top_16px.svg",
+    "name": "Arrow_Arrow--Top",
+    "size": "16px",
+  },
+  Object {
+    "cat": "Media",
+    "fileName": "Media_FullScreen_24px.svg",
+    "name": "FullScreen",
+    "size": "24px",
+  },
+]
+`;
+
+exports[`generateMonochromListObject generateMonochromListObject return a list of icons with a component name 1`] = `
+Array [
+  Object {
+    "cat": "Navigation",
+    "componentName": "ArrowArrowTop16",
+    "fileName": "Navigation_Arrow_Arrow--Top_16px.svg",
+    "name": "Arrow_Arrow--Top",
+    "size": "16px",
+  },
+  Object {
+    "cat": "Media",
+    "componentName": "FullScreen24",
+    "fileName": "Media_FullScreen_24px.svg",
+    "name": "FullScreen",
+    "size": "24px",
+  },
+]
+`;
+
+exports[`genrateData should call fs.writeFile and write a valid JSON 1`] = `
+"{
+  \\"color\\": [
+    {
+      \\"cat\\": \\"Navigation\\",
+      \\"size\\": \\"16px\\",
+      \\"name\\": \\"Arrow_Arrow--Top\\",
+      \\"fileName\\": \\"Navigation_Arrow_Arrow--Top_16px.svg\\"
+    },
+    {
+      \\"cat\\": \\"Media\\",
+      \\"size\\": \\"24px\\",
+      \\"name\\": \\"FullScreen\\",
+      \\"fileName\\": \\"Media_FullScreen_24px.svg\\"
+    }
+  ],
+  \\"monochrom\\": [
+    {
+      \\"cat\\": \\"Navigation\\",
+      \\"size\\": \\"16px\\",
+      \\"name\\": \\"Arrow_Arrow--Top\\",
+      \\"fileName\\": \\"Navigation_Arrow_Arrow--Top_16px.svg\\",
+      \\"componentName\\": \\"ArrowArrowTop16\\"
+    },
+    {
+      \\"cat\\": \\"Media\\",
+      \\"size\\": \\"24px\\",
+      \\"name\\": \\"FullScreen\\",
+      \\"fileName\\": \\"Media_FullScreen_24px.svg\\",
+      \\"componentName\\": \\"FullScreen24\\"
+    }
+  ]
+}"
+`;
+
+exports[`getInfosFromName getsInfosFromName detect category, size, name, and filename from file name 1`] = `
+Object {
+  "cat": "Media",
+  "fileName": "Media_FullScreen_16px.svg",
+  "name": "FullScreen",
+  "size": "16px",
+}
+`;
