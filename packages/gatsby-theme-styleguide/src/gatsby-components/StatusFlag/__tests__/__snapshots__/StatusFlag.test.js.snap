@@ -13,7 +13,7 @@ exports[`<StatusFlag> should render correctly with a bêta status 1`] = `
 }
 
 <span
-  className="c0 pattern-status__flag"
+  className="c0"
 >
   bêta
 </span>
@@ -32,7 +32,7 @@ exports[`<StatusFlag> should render correctly with a stable status 1`] = `
 }
 
 <span
-  className="c0 pattern-status__flag"
+  className="c0"
 >
   stable
 </span>
@@ -51,7 +51,7 @@ exports[`<StatusFlag> should render correctly with a wip status 1`] = `
 }
 
 <span
-  className="c0 pattern-status__flag"
+  className="c0"
 >
   wip
 </span>

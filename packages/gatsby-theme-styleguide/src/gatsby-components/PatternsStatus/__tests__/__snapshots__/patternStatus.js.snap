@@ -180,7 +180,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -200,7 +200,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -260,7 +260,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -280,7 +280,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -419,7 +419,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -439,7 +439,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -499,7 +499,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -519,7 +519,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <span
-              className="c5 pattern-status__flag"
+              className="c5"
             >
               bêta
             </span>
@@ -572,7 +572,7 @@ exports[`Pattern Status Component render correctly 1`] = `
   </h3>
   <p>
     <span
-      className="c6 pattern-status__flag"
+      className="c6"
     >
       wip
     </span>
@@ -583,7 +583,7 @@ exports[`Pattern Status Component render correctly 1`] = `
   </p>
   <p>
     <span
-      className="c5 pattern-status__flag"
+      className="c5"
     >
       bêta
     </span>
@@ -594,7 +594,7 @@ exports[`Pattern Status Component render correctly 1`] = `
   </p>
   <p>
     <span
-      className="c7 pattern-status__flag"
+      className="c7"
     >
       stable
     </span>
