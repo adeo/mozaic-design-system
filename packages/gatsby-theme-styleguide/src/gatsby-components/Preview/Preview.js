@@ -10,7 +10,6 @@ class Preview extends PureComponent {
     this.state = {
       viewport: 'auto',
       fullScreen: false,
-      availableWidth: null,
       grid: false,
       open: false,
       nude: this.props.nude,
@@ -141,8 +140,7 @@ class Preview extends PureComponent {
             fullScreen={this.state.fullScreen}
             toggleFullScreen={this.toggleFullScreen}
             changeViewPort={this.changeViewPort}
-            getAvailableWidth={() => this.getAvailableSpace}
-            availableWidth={this.state.availableWidth}
+            getAvailableWidth={this.getAvailableSpace}
             showGrid={this.showGrid}
             grid={this.state.grid}
             showMore={this.showMore}

@@ -1,5 +1,5 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
+const { mount, shallow } = require('enzyme')
 import { StaticQuery, query } from 'gatsby'
 
 import Preview from '../Preview'
@@ -32,9 +32,19 @@ beforeEach(() => {
 
 describe(`Preview Component`, () => {
   test(`check iframe's src`, () => {
-    const location = { pathname: '/Components/Buttons/' }
-    const tree = renderer.create(<Preview location={location} />)
-    const treeJSON = tree.toJSON()
-    expect(treeJSON).toMatchSnapshot()
+    const location = {
+      pathname: 'src/docs/Components/Buttons/previews/button-icon-position',
+    }
+    const preview = mount(
+      <Preview location={location} path={'button-icon-position'} />
+    )
+    const iframe = preview.find('PreviewComponent')
+    expect(
+      iframe
+        .find('iframe')
+        .props()
+        .src.split('/')
+        .pop()
+    ).toBe('button-icon-position.html')
   })
 })
