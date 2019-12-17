@@ -77,9 +77,6 @@ export class PreviewComponent extends PureComponent {
   }
 
   componentDidMount() {
-    //console.log('------')
-    //console.log(this.state.getAvailableWidth())
-    //this.props.getAvailableWidth(this.contRef.clientWidth)
     if (typeof window !== 'undefined') {
       this.setState({ location: window.location })
     }

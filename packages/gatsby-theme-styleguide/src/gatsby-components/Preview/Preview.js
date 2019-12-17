@@ -6,7 +6,6 @@ import PreviewComponent from './PreviewComponent'
 class Preview extends PureComponent {
   constructor(props) {
     super(props)
-    //this.getAvailableSpace = this.getAvailableSpace.bind(this);
     this.state = {
       viewport: 'auto',
       fullScreen: false,
