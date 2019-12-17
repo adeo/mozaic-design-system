@@ -2,8 +2,8 @@
 title: 'Grid system'
 order: 3
 status:
-  sketch: 'bêta'
-  scss: 'bêta'
+  sketch: 'stable'
+  scss: 'stable'
 ---
 
 # Overview
@@ -28,15 +28,13 @@ Those properties can change depending on the breakpoint.
 When using a grid, you decide the size of your elements by **the number of columns they use.**
 
 <HintItem>
-    An element should always stand on one or between several columns
+  An element should always stand on one or between several columns
 </HintItem>
 <HintItem>
-    Elements are always separated by either a gutter or a combination of columns and gutter
+  Elements are always separated by either a gutter or a combination of columns
+  and gutter
 </HintItem>
-<HintItem dont>
-    An element should never start on a gutter
-</HintItem>
-
+<HintItem dont>An element should never start on a gutter</HintItem>
 <br />
 
 ![GridPossibilities](GridPossibilities.png)
@@ -47,9 +45,9 @@ When using a grid, you decide the size of your elements by **the number of colum
 We work with **12-columns grids** because the number 12 is the most versatile. 12 is divisible among reasonably small numbers; it’s possible to have 12, 6, 4, 3, 2 or 1 evenly spaced columns. This gives designers a lot of flexibility when they create a layout.
 
 <HintItem>
-    Gutters and external margins widths should always be multiples of the Magic Unit.
+  Gutters and external margins widths should always be multiples of the Magic
+  Unit.
 </HintItem>
-
 <br />
 
 | breakpoint                   | grid width                 | Col. width         | Gutter     | cont. Padding | cont. width           |
@@ -60,7 +58,6 @@ We work with **12-columns grids** because the number 12 is the most versatile. 1
 | `xl` &nbsp; (1920px and up)  | 1312px (82mu)              | 80px (5mu)         | 32px (2mu) | 32px (2mu)    | 1376px (86mu)         |
 
 <br />
-
 <small>Reminder : mu = MagicUnit. Ex: 3.5mu = MagicUnit \* 3.5</small>
 
 ## Default container
