@@ -12,7 +12,8 @@ const LabelVersion = styled.label`
 
 class MenuVersionRelease extends Component {
   handleChange = event => {
-    window.location.href = event.target.value
+    if (event.target.value !== 'default')
+      window.location.href = event.target.value
   }
 
   static propTypes = {
@@ -33,10 +34,13 @@ class MenuVersionRelease extends Component {
     return (
       <div>
         <LabelVersion>older tags:</LabelVersion>
-        <select
-          defaultValue={githubReleases.pop(release => release.node.isCurrent)}
-          onChange={this.handleChange}
-        >
+        <select defaultValue="default" onChange={this.handleChange}>
+          <option key="default" value="default">
+            -- choose --
+          </option>
+          <option key="latest" value="https://mozaic.adeo.cloud/">
+            latest release
+          </option>
           {githubReleases.reverse().map(release => (
             <option key={release.node.tagName} value={release.node.url}>
               {release.node.tagName}
