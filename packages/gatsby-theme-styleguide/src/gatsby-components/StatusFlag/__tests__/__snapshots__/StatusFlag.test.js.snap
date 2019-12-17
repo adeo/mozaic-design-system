@@ -2,13 +2,13 @@
 
 exports[`<StatusFlag> should render correctly with a bêta status 1`] = `
 .c0 {
-  display: inline-block;
+  background: #fff;
+  border: solid 1px transparent;
+  border-radius: 2px;
   font-size: 0.875rem;
   line-height: 1;
   padding: 0.2rem 0.5rem 0.3rem;
-  background: #fff;
-  border-radius: 3px;
-  border: solid 1px #e35876;
+  border-color: #e35876;
   color: #82325e;
 }
 
@@ -21,13 +21,13 @@ exports[`<StatusFlag> should render correctly with a bêta status 1`] = `
 
 exports[`<StatusFlag> should render correctly with a stable status 1`] = `
 .c0 {
-  display: inline-block;
+  background: #fff;
+  border: solid 1px transparent;
+  border-radius: 2px;
   font-size: 0.875rem;
   line-height: 1;
   padding: 0.2rem 0.5rem 0.3rem;
-  background: #fff;
-  border-radius: 3px;
-  border: solid 1px #58e3b7;
+  border-color: #58e3b7;
   color: #328269;
 }
 
@@ -40,13 +40,13 @@ exports[`<StatusFlag> should render correctly with a stable status 1`] = `
 
 exports[`<StatusFlag> should render correctly with a wip status 1`] = `
 .c0 {
-  display: inline-block;
+  background: #fff;
+  border: solid 1px transparent;
+  border-radius: 2px;
   font-size: 0.875rem;
   line-height: 1;
   padding: 0.2rem 0.5rem 0.3rem;
-  background: #fff;
-  border-radius: 3px;
-  border: solid 1px #e3cb58;
+  border-color: #e3cb58;
   color: #a58e1b;
 }
 

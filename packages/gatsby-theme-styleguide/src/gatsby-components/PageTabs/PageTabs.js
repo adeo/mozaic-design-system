@@ -8,28 +8,45 @@ const Tabs = styled.div`
   width: 100%;
   z-index: 1;
   top: 0;
-  background: #fff;
-  border-bottom: solid 1px #f5f5f5;
+  border-bottom: solid 1px #000;
+  background: #e6e6e6;
 `
 
 const TabsWrapper = styled.div`
+  display: inline-flex;
   padding-left: ${MagicUnit * 3}rem;
   max-width: ${MagicUnit * 52}rem;
 `
 
-const TabItem = styled.div`
-  display: inline-block;
-  padding: 15px;
-  height: 100%;
-  border-right: solid 1px #f5f5f5;
+const TabItem = styled.div``
 
-  &:first-child {
-    border-left: solid 1px #f5f5f5;
+const TabLink = styled(Link)`
+  color: #000;
+  display: block;
+  position: relative;
+  padding: ${MagicUnit}rem ${MagicUnit * 1.5}rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
   }
 
-  .active-link {
+  &:hover:not(.is-active) {
+    &::after {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &.is-active {
     font-weight: bold;
-    color: #555;
+
+    &::after {
+      background: rgba(0, 0, 0, 1);
+    }
   }
 `
 
@@ -69,9 +86,9 @@ class PageTabs extends PureComponent {
         <TabsWrapper>
           {cleanTabs.map(node => (
             <TabItem key={node.slug}>
-              <Link to={node.slug} activeClassName="active-link">
+              <TabLink to={node.slug} activeClassName="is-active">
                 {node.title}
-              </Link>
+              </TabLink>
             </TabItem>
           ))}
         </TabsWrapper>
