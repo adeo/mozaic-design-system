@@ -219,14 +219,14 @@
     {
       "cat": "Store",
       "size": "48px",
-      "name": "RelayLocation--Colors",
-      "fileName": "Store_RelayLocation--Colors_48px.svg"
+      "name": "Colors_RelayLocation",
+      "fileName": "Store_Colors_RelayLocation_48px.svg"
     },
     {
       "cat": "Store",
       "size": "48px",
-      "name": "StoreLocation--Colors",
-      "fileName": "Store_StoreLocation--Colors_48px.svg"
+      "name": "Colors_StoreLocation",
+      "fileName": "Store_Colors_StoreLocation_48px.svg"
     },
     {
       "cat": "Payment",
@@ -303,14 +303,14 @@
     {
       "cat": "Store",
       "size": "64px",
-      "name": "RelayLocation--Colors",
-      "fileName": "Store_RelayLocation--Colors_64px.svg"
+      "name": "Colors_RelayLocation",
+      "fileName": "Store_Colors_RelayLocation_64px.svg"
     },
     {
       "cat": "Store",
       "size": "64px",
-      "name": "StoreLocation--Colors",
-      "fileName": "Store_StoreLocation--Colors_64px.svg"
+      "name": "Colors_StoreLocation",
+      "fileName": "Store_Colors_StoreLocation_64px.svg"
     }
   ],
   "monochrom": [
@@ -1143,9 +1143,9 @@
     {
       "cat": "Store",
       "size": "24px",
-      "name": "StoreLocation--Outline",
-      "fileName": "Store_StoreLocation--Outline_24px.svg",
-      "componentName": "StoreLocationOutline24"
+      "name": "Monochrome_StoreLocation",
+      "fileName": "Store_Monochrome_StoreLocation_24px.svg",
+      "componentName": "MonochromeStoreLocation24"
     },
     {
       "cat": "Universe",
@@ -1969,16 +1969,16 @@
     {
       "cat": "Store",
       "size": "32px",
-      "name": "StoreLM",
-      "fileName": "Store_StoreLM_32px.svg",
-      "componentName": "StoreLM32"
+      "name": "Monochrome_StoreLocation",
+      "fileName": "Store_Monochrome_StoreLocation_32px.svg",
+      "componentName": "MonochromeStoreLocation32"
     },
     {
       "cat": "Store",
       "size": "32px",
-      "name": "StoreLocation--Outline",
-      "fileName": "Store_StoreLocation--Outline_32px.svg",
-      "componentName": "StoreLocationOutline32"
+      "name": "StoreLM",
+      "fileName": "Store_StoreLM_32px.svg",
+      "componentName": "StoreLM32"
     },
     {
       "cat": "Universe",
@@ -3250,9 +3250,16 @@
     {
       "cat": "Store",
       "size": "48px",
-      "name": "RelayLocation--Outline",
-      "fileName": "Store_RelayLocation--Outline_48px.svg",
-      "componentName": "RelayLocationOutline48"
+      "name": "Monochrome_RelayLocation",
+      "fileName": "Store_Monochrome_RelayLocation_48px.svg",
+      "componentName": "MonochromeRelayLocation48"
+    },
+    {
+      "cat": "Store",
+      "size": "48px",
+      "name": "Monochrome_StoreLocation",
+      "fileName": "Store_Monochrome_StoreLocation_48px.svg",
+      "componentName": "MonochromeStoreLocation48"
     },
     {
       "cat": "Store",
@@ -3260,13 +3267,6 @@
       "name": "StoreLM",
       "fileName": "Store_StoreLM_48px.svg",
       "componentName": "StoreLM48"
-    },
-    {
-      "cat": "Store",
-      "size": "48px",
-      "name": "StoreLocation--Outline",
-      "fileName": "Store_StoreLocation--Outline_48px.svg",
-      "componentName": "StoreLocationOutline48"
     },
     {
       "cat": "Universe",
@@ -3887,9 +3887,16 @@
     {
       "cat": "Store",
       "size": "64px",
-      "name": "RelayLocation--Outline",
-      "fileName": "Store_RelayLocation--Outline_64px.svg",
-      "componentName": "RelayLocationOutline64"
+      "name": "Monochrome_RelayLocation",
+      "fileName": "Store_Monochrome_RelayLocation_64px.svg",
+      "componentName": "MonochromeRelayLocation64"
+    },
+    {
+      "cat": "Store",
+      "size": "64px",
+      "name": "Monochrome_StoreLocation",
+      "fileName": "Store_Monochrome_StoreLocation_64px.svg",
+      "componentName": "MonochromeStoreLocation64"
     },
     {
       "cat": "Store",
@@ -3897,13 +3904,6 @@
       "name": "StoreLM",
       "fileName": "Store_StoreLM_64px.svg",
       "componentName": "StoreLM64"
-    },
-    {
-      "cat": "Store",
-      "size": "64px",
-      "name": "StoreLocation--Outline",
-      "fileName": "Store_StoreLocation--Outline_64px.svg",
-      "componentName": "StoreLocationOutline64"
     },
     {
       "cat": "Universe",
