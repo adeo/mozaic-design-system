@@ -65,6 +65,7 @@ const Body = styled.div`
 export class PreviewComponent extends PureComponent {
   constructor(props) {
     super(props)
+    this.availableWidth = null
     this.contRef = React.createRef()
     this.body = React.createRef()
     this.state = {
@@ -76,7 +77,9 @@ export class PreviewComponent extends PureComponent {
   }
 
   componentDidMount() {
-    this.props.getAvailableWidth(this.contRef.clientWidth)
+    //console.log('------')
+    //console.log(this.state.getAvailableWidth())
+    //this.props.getAvailableWidth(this.contRef.clientWidth)
     if (typeof window !== 'undefined') {
       this.setState({ location: window.location })
     }
@@ -84,9 +87,9 @@ export class PreviewComponent extends PureComponent {
 
   componentDidUpdate() {
     if (this.props.fullScreen) {
-      this.props.getAvailableWidth(this.body.clientWidth)
+      this.setState({ availableWidth: this.body.clientWidth })
     } else {
-      this.props.getAvailableWidth(this.contRef.clientWidth)
+      this.setState({ availableWidth: this.contRef.current.clientWidth })
     }
   }
 
@@ -121,7 +124,6 @@ export class PreviewComponent extends PureComponent {
       changeViewPort,
       fullScreen,
       toggleFullScreen,
-      availableWidth,
       showGrid,
       grid,
       showMore,
@@ -130,7 +132,12 @@ export class PreviewComponent extends PureComponent {
       toggleOptions,
     } = this.props
 
-    const { currentCodeSample, copied, copyCompatible } = this.state
+    const {
+      currentCodeSample,
+      copied,
+      copyCompatible,
+      availableWidth,
+    } = this.state
     if (this.props.data === undefined) {
       return <div />
     }
