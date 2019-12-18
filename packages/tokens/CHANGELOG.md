@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* **patterns/toggle:** fix :disabled:checked state ([#455](https://github.com/adeo/mozaic-design-system/issues/455)) ([018e0d7](https://github.com/adeo/mozaic-design-system/commit/018e0d7d4b0264493a11fe9b9a7ab596a39bd3eb))
+
+
+
+
+
 ## [1.0.1-alpha.28](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.27...v1.0.1-alpha.28) (2019-11-21)
 
 

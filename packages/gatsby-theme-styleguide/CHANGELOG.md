@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* **website: release selector:** fix link to older versions ([#459](https://github.com/adeo/mozaic-design-system/issues/459)) ([9ece5ce](https://github.com/adeo/mozaic-design-system/commit/9ece5cef60b813b4936c28b5c09844d4b1e0dbd7))
+* **website/previews:** resize previews using availableWidth ([#461](https://github.com/adeo/mozaic-design-system/issues/461)) ([23c4230](https://github.com/adeo/mozaic-design-system/commit/23c4230fc4c1280e6da52ce513ae91119f21aff4))
+
+
+### Features
+
+* **patterns/icons:** Add color icons and document contributing icon workflow([#457](https://github.com/adeo/mozaic-design-system/issues/457)) ([1953b0e](https://github.com/adeo/mozaic-design-system/commit/1953b0eb21e6002fb0dd9923b2db3d108869c5ac))
+* **patterns/status:** set stable patterns status and prep bêta reslease ([#460](https://github.com/adeo/mozaic-design-system/issues/460)) ([662f5d6](https://github.com/adeo/mozaic-design-system/commit/662f5d632b0b4c11ce1b7fa775d430767a2b473a))
+* **website/header:** redesign page header ([#458](https://github.com/adeo/mozaic-design-system/issues/458)) ([c16a95f](https://github.com/adeo/mozaic-design-system/commit/c16a95f827d88a1a657f6a062060aa2a67793597))
+
+
+
+
+
 ## [1.0.1-alpha.32](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.31...v1.0.1-alpha.32) (2019-12-04)
 
 

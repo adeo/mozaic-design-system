@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* **patterns/designer-kit:** rename adeo folder to lowercase ([#456](https://github.com/adeo/mozaic-design-system/issues/456)) ([4126d3f](https://github.com/adeo/mozaic-design-system/commit/4126d3fc3b16a1fab2dd6a9783d104f0808ae9d2))
+* **patterns/toggle:** fix :disabled:checked state ([#455](https://github.com/adeo/mozaic-design-system/issues/455)) ([018e0d7](https://github.com/adeo/mozaic-design-system/commit/018e0d7d4b0264493a11fe9b9a7ab596a39bd3eb))
+
+
+### Features
+
+* **pattern/input text:** add a small variation to text-inputs components ([#450](https://github.com/adeo/mozaic-design-system/issues/450)) ([eee75d4](https://github.com/adeo/mozaic-design-system/commit/eee75d4237d74e1e2eb04a2448982e4b30585796))
+
+
+
+
+
 ## [1.0.1-alpha.28](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.27...v1.0.1-alpha.28) (2019-11-21)
 
 

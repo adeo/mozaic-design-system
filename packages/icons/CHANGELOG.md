@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
+
+
+### Features
+
+* **pattern/icons:** week 51 icons ([#462](https://github.com/adeo/mozaic-design-system/issues/462)) ([45e0a18](https://github.com/adeo/mozaic-design-system/commit/45e0a189cdd594597a0f59ed1842d464ac29fb59))
+* **patterns/icons:** Add color icons and document contributing icon workflow([#457](https://github.com/adeo/mozaic-design-system/issues/457)) ([1953b0e](https://github.com/adeo/mozaic-design-system/commit/1953b0eb21e6002fb0dd9923b2db3d108869c5ac))
+
+
+
+
+
 ## [1.0.1-alpha.32](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.31...v1.0.1-alpha.32) (2019-12-04)
 
 

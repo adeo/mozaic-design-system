@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* **website: release selector:** fix link to older versions ([#459](https://github.com/adeo/mozaic-design-system/issues/459)) ([9ece5ce](https://github.com/adeo/mozaic-design-system/commit/9ece5cef60b813b4936c28b5c09844d4b1e0dbd7))
+
+
+
+
+
 ## [1.0.1-alpha.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.19...v1.0.1-alpha.20) (2019-09-19)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-github-release

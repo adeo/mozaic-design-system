@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
+
+
+### Bug Fixes
+
+* **patterns/designer-kit:** rename adeo folder to lowercase ([#456](https://github.com/adeo/mozaic-design-system/issues/456)) ([4126d3f](https://github.com/adeo/mozaic-design-system/commit/4126d3fc3b16a1fab2dd6a9783d104f0808ae9d2))
+* **patterns/toggle:** fix :disabled:checked state ([#455](https://github.com/adeo/mozaic-design-system/issues/455)) ([018e0d7](https://github.com/adeo/mozaic-design-system/commit/018e0d7d4b0264493a11fe9b9a7ab596a39bd3eb))
+* **website: release selector:** fix link to older versions ([#459](https://github.com/adeo/mozaic-design-system/issues/459)) ([9ece5ce](https://github.com/adeo/mozaic-design-system/commit/9ece5cef60b813b4936c28b5c09844d4b1e0dbd7))
+* **website/previews:** resize previews using availableWidth ([#461](https://github.com/adeo/mozaic-design-system/issues/461)) ([23c4230](https://github.com/adeo/mozaic-design-system/commit/23c4230fc4c1280e6da52ce513ae91119f21aff4))
+
+
+### Features
+
+* **onboard/icons:** document icon contributing workflow ([#451](https://github.com/adeo/mozaic-design-system/issues/451)) ([7600e49](https://github.com/adeo/mozaic-design-system/commit/7600e495193ba5c14acff7f9d86d1ec4e10eb9ce))
+* **pattern/icons:** week 51 icons ([#462](https://github.com/adeo/mozaic-design-system/issues/462)) ([45e0a18](https://github.com/adeo/mozaic-design-system/commit/45e0a189cdd594597a0f59ed1842d464ac29fb59))
+* **pattern/input text:** add a small variation to text-inputs components ([#450](https://github.com/adeo/mozaic-design-system/issues/450)) ([eee75d4](https://github.com/adeo/mozaic-design-system/commit/eee75d4237d74e1e2eb04a2448982e4b30585796))
+* **patterns/icons:** Add color icons and document contributing icon workflow([#457](https://github.com/adeo/mozaic-design-system/issues/457)) ([1953b0e](https://github.com/adeo/mozaic-design-system/commit/1953b0eb21e6002fb0dd9923b2db3d108869c5ac))
+* **patterns/status:** set stable patterns status and prep bêta reslease ([#460](https://github.com/adeo/mozaic-design-system/issues/460)) ([662f5d6](https://github.com/adeo/mozaic-design-system/commit/662f5d632b0b4c11ce1b7fa775d430767a2b473a))
+* **tools/stylelint:** create mozaic stylelint plugin to check classes case and BEM structure ([#454](https://github.com/adeo/mozaic-design-system/issues/454)) ([c4717a3](https://github.com/adeo/mozaic-design-system/commit/c4717a37ed86342559b33be108f59993f9635111))
+* **website/header:** redesign page header ([#458](https://github.com/adeo/mozaic-design-system/issues/458)) ([c16a95f](https://github.com/adeo/mozaic-design-system/commit/c16a95f827d88a1a657f6a062060aa2a67793597))
+
+
+
+
+
 ## [1.0.1-alpha.32](https://github.com/adeo/design-system--styleguide/compare/v1.0.1-alpha.31...v1.0.1-alpha.32) (2019-12-04)
 
 
