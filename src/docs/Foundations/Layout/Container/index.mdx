@@ -2,8 +2,8 @@
 title: 'Container'
 order: 2
 status:
-  sketch: 'wip'
-  scss: 'wip'
+  sketch: 'Bêta'
+  scss: 'Bêta'
 ---
 
 > the container define the main content width as well as the minimum negative space between the horizontal edges of the screen and the content.
@@ -12,11 +12,15 @@ status:
 
 the default container follow those rules :
 
-- When viewport width **< 680px (m)**, the default container have **16px (1mu)** paddings.
-- When viewport width **>= 680px (m)**, the default container have **32px (2mu)** paddings.
-- When viewport width **< 1376px**, the default container is **fluid**.
-- When viewport width **>= 1376px**, the default container is **1376px (86mu)** wide, given the paddings, this mean that inside **usable width is equal to 1312px (82mu)**
+| Viewport       | Container width          | External margins (on each side) |
+| -------------- | ------------------------ | ------------------------------- |
+| `s` > 0px      | Fluid                    | `1mu` (16px)                    |
+| `m` > 680px    | Fluid                    | `2mu` (32px)                    |
+| `l` > 1024px   | `58mu` (928px) / Fluid   | `3mu` (48px)                    |
+| `xl` > 1280px  | `76mu` (1216px) / Fluid  | `2mu` (32px)                    |
+| `xxl` > 1920px | `115mu` (1840px) / Fluid | `2.5mu` (40px)                  |
 
+<br />
 <small>Reminder : mu = MagicUnit. Ex: 3.5mu = MagicUnit \* 3.5</small>
 
 ## The fluid container
