@@ -52,6 +52,7 @@ const plugins = [
     includePaths,
     outputStyle: 'expanded',
     indentWidth,
+    precision: 7,
   }),
   base64({
     pattern: /<svg.*<\/svg>/i,
@@ -69,6 +70,7 @@ const productionPlugins = [
     includePaths,
     outputStyle: 'expanded',
     indentWidth,
+    precision: 7,
   }),
   base64({
     pattern: /<svg.*<\/svg>/i,
