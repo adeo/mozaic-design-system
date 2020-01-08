@@ -1,28 +1,29 @@
 ---
 title: 'Body styles'
 order: 4
+description: 'A body style in Mozaic is the paragraph of a pattern or a page. It must be easy to identify and provide basic typographic styles for multilines texts'
 status:
   sketch: 'wip'
   scss: 'wip'
 ---
 
-> A body style in typography is the main text part of a pattern or a page. It must be easy to identity and provide basic typographic styles for readable multilines texts or paragraphs.
+> A body style in Mozaic is the paragraph of a pattern or a page. It must be easy to identify and provide basic typographic styles for multilines texts.
 
 ## Recommendation
 
 ### Body Medium
 
-The default body style is **body medium** with the following specifications:
+The default body style is **body medium** (`mt-body-m`) with the following specifications:
 
 | Font-size           | Font-weight           | Line-height           |
 | ------------------- |---------------------- | --------------------- |
-| 16px                | Regular               | 1.35                  |
+| 16px                | Regular               | `$line-height m`      |
 
 <Preview path="typographyBodyMedium" nude />
 
 ## Specific needs
 
-Mozaic's typographic system still allows you to answer specific needs in some cases.
+Mozaic's typographic system still allows you to answer specific needs in some cases like smaller or larger font sizes and also thicker font weight like **semibold**.
 
 ### Body Small
 
@@ -30,7 +31,7 @@ For accessibility and readability, this is the smallest value you can use for th
 
 | Font-size           | Font-weight           | Line-height           |
 | ------------------- |---------------------- | --------------------- |
-| 14px                | Regular               | ????                  |
+| 14px                | Regular               | `$line-height m`      |
 
 <Preview path="typographyBodySmall" nude />
 
@@ -40,6 +41,6 @@ This value must be the biggest you use to be readable on every device.
 
 | Font-size           | Font-weight           | Line-height           |
 | ------------------- |---------------------- | --------------------- |
-| 18px                | Regular               | ????                  |
+| 18px                | Regular               | `$line-height m`      |
 
 <Preview path="typographyBodyLarge" nude />
