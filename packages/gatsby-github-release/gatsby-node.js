@@ -18,6 +18,7 @@ exports.sourceNodes = async ({
                 nodes{
                     tagName
                     publishedAt
+                    descriptionHTML
                 }
             }
         }
@@ -41,7 +42,7 @@ exports.sourceNodes = async ({
   const tags = data.data.repository.releases.nodes
 
   tags.forEach(tag => {
-    const { tagName, publishedAt } = tag
+    const { tagName, publishedAt, descriptionHTML } = tag
 
     let nodeId = createNodeId(`github-release-${tagName}`)
     let nodeData = Object.assign(
@@ -52,6 +53,7 @@ exports.sourceNodes = async ({
         tagName,
         isCurrent: tagName === `v${version.version}` ? true : false,
         publishedAt,
+        descriptionHTML,
         url:
           'https://' +
           tagName.replace(/\.|-/g, '') +
