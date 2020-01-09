@@ -108,7 +108,7 @@ Wrap your input and use a 24px icon size :
 
 ## Accessibility and semantic
 
-**Always use a label with an input.**
+### Always use a label with an input.
 
 ```html
 <label for="myExample">My example</label>
@@ -118,5 +118,38 @@ Wrap your input and use a 24px icon size :
   class="mc-text-input"
   placeholder="Empty"
   name="example"
+/>
+```
+
+### Required field
+
+If an input field is mandatory, then the `required` and `aria-required` attributes must be filled in.
+
+```html
+<label for="requiredField">Required field</label>
+<input
+  id="requiredField"
+  type="text"
+  class="mc-text-input"
+  placeholder="Is required"
+  name="example"
+  required
+  aria-required="true"
+/>
+```
+
+### Invalid field
+
+A text field is invalid when its value does not match the expected type. When a field is invalid, the `aria-invalid` attribute must be added dynamically to the input field in order to indicate it to screen readers.
+
+```html
+<label for="invalidField">Invalid field</label>
+<input
+  id="invalidField"
+  type="text"
+  class="mc-text-input is-invalid"
+  placeholder="Is invalid"
+  name="example"
+  aria-invalid="true"
 />
 ```
