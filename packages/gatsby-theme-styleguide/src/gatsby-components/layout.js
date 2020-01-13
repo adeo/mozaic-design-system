@@ -13,6 +13,7 @@ import Hint, { HintItem } from '../gatsby-components/Hint'
 import IconViewer from '../gatsby-components/IconViewer'
 import Code from '../gatsby-components/Code'
 import InlineCode from '../gatsby-components/InlineCode'
+import Highlight from '../gatsby-components/Highlight'
 import SubContents from '../gatsby-components/SubContents'
 import DesignerKitLink from '../gatsby-components/DesignerKitLink'
 
@@ -23,6 +24,7 @@ const shortcodes = {
   HintItem,
   IconViewer,
   DesignerKitLink,
+  Highlight,
   pre: ({ children }) => <Code>{children}</Code>,
   inlineCode: InlineCode,
 }
