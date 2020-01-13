@@ -23,12 +23,12 @@ jobs:
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
       - name: Deploy Tag
-        uses: actions/gcloud/cli@df59b3263b6597df4053a74e4e4376c045d9087e
+        uses: actions-hub/gcloud@master
+        env:
+          PROJECT_ID: mozaic-design-system-dtrp
+          APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
         with:
-          args:
-            --quiet --verbosity=error app deploy app.yaml --project=mozaic-design-system-dtrp
-            --version=$(echo ${{ github.ref }} | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g'
-            | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --promote
+          args: app deploy app.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --promote
       - name: Deployement tag url
         uses: swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d
         env:

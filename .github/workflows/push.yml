@@ -12,7 +12,9 @@ jobs:
   DeployDemo:
     name: Deploy a Demo
     runs-on: ubuntu-latest
+
     steps:
+      - run: echo ${{ github.ref }} | iconv -t ASCII
       - uses: actions/checkout@v1
       - name: Setup node
         uses: actions/setup-node@v1
@@ -28,19 +30,13 @@ jobs:
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
-          args:
-            ci:wait $(echo ${{ github.ref }} | iconv -t ascii//TRANSLIT | sed -r
-            's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g'
-            | tr A-Z a-z)
-      - uses: actions/gcloud/auth@df59b3263b6597df4053a74e4e4376c045d9087e
+          args: ci:wait $(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)
+      - uses: actions-hub/gcloud@master
         env:
-          GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
-      - uses: actions/gcloud/cli@df59b3263b6597df4053a74e4e4376c045d9087e
+          PROJECT_ID: mozaic-design-system-dtrp
+          APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
         with:
-          args:
-            --quiet --verbosity=error app deploy app.demo.yaml --project=mozaic-design-system-dtrp
-            --version=$(echo ${{ github.ref }} | iconv -t ascii//TRANSLIT | sed -r 's/[^a-zA-Z0-9]+//g'
-            | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --no-promote
+          args: app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --no-promote
       - uses: swinton/httpie.action@8ab0a0e926d091e0444fcacd5eb679d2e2d4ab3d
         env:
           GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
