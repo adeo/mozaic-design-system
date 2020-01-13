@@ -15,11 +15,15 @@ Mozaic tokens are based upon the LEROY MERLIN brand guidelines but you can adapt
 
 As a reminder, we call tokens a series of Json files containing mostly color values (ammong others things). Thoses files are transpiled into SCSS, js, ios, and android formats, to be used within multiple platforms and technologies.
 
-For more informations, read the following documentations :
+<Highlight theme="tips" title="For more informations">
 
-[Getting started : Variables and design tokens](/GetStarted/Developers/CssNamingConventions/#variables-and-design-tokens)
+Read the following documentations :
 
+[Getting started : Variables and design tokens](/GetStarted/Developers/CssNamingConventions/#variables-and-design-tokens)  
 [Contributting : design tokens](/Contributing/Prerequisite/DesignTokens/)
+
+</Highlight>
+
 
 ## 1 - Configure Mozaic
 
@@ -44,7 +48,13 @@ The default primary color swatch is situated in `@mozaic-ds/tokens/properties/co
 
 Assuming you have the `mozaic.config.js` set up as described in the previous chapter, we need to create a `./src/tokens/properties/color/base.json` file.
 
-Note that you can override any value, Mozaic will take care of deep merging the source tokens with the new values you provided.
+
+<Highlight theme="tips" title="For more informations">
+
+You can override any value, Mozaic will take care of deep merging the source tokens with the new values you provided.
+
+</Highlight>
+
 
 For example, in `./src/tokens/properties/color/base.json` :
 
@@ -144,9 +154,18 @@ $color: (
 )
 ```
 
-**Note :** you can see that we build variables but also a sass map. The map is usefull when we need to loop through values to create multiple variations of a pattern. More infos about that on chapter 5.
+<Highlight title="One more thing...">
 
-**Reminder** : all tokens are available through `@import 'settings-tools/_all-settings';`
+You can see that we build variables but also a sass map. The map is usefull when we need to loop through values to create multiple variations of a pattern. More infos about that on chapter 5.
+
+</Highlight>
+
+<Highlight theme="tips" title="Reminder">
+
+All tokens are available through `@import 'settings-tools/_all-settings';`
+
+</Highlight>
+
 
 ## 5 - Overiding components tokens
 
@@ -220,4 +239,8 @@ You will end up with a new button theme without the need to write any css or sas
 </button>
 ```
 
-**Tips :** You can look in the specs tab of the component documentation to help you define witch tokens need to be overrided. We generally define most of the tokens used to theme our components.
+<Highlight theme="tips">
+
+You can look in the specs tab of the component documentation to help you define which tokens need to be overridden. We generally define most of the tokens used to theme our components.
+
+</Highlight>
