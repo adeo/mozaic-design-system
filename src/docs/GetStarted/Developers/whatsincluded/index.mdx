@@ -9,7 +9,12 @@ order: 2
 
 All the CSS and SCSS files that constitute the Mozaic SCSS framework.
 
-> Note that some variables are imported from the tokens directory.
+<Highlight theme="info">
+
+Some variables are generated into and imported from the tokens package directory (`@mozaic-ds/tokens/build/scss`).
+
+</Highlight>
+
 
 ```tree
 styles/
@@ -44,7 +49,12 @@ styles/
 
 `@mozaic-ds/tokens/properties/**`
 
-Tokens generation use [style-dictionary](https://amzn.github.io/style-dictionary/#/)
+<Highlight theme="info">
+
+Tokens generation use [style-dictionary](https://amzn.github.io/style-dictionary/#/), a great tool developed by Amazon.
+
+</Highlight>
+
 
 `@mozaic-ds/tokens/build/{platform}/**`
 
@@ -79,7 +89,12 @@ tokens/
 
 Right now the tools are composed only of SCSS/PostCSS tools.
 
-> note that we are using Postcss to build SCSS files
+<Highlight theme="tips" title="good to know">
+
+We are using Postcss to build SCSS files. The SASS compiler is included into the postcss plugin list, no need to install it on your project.
+
+</Highlight>
+
 
 ```tree
 css-dev-tools/

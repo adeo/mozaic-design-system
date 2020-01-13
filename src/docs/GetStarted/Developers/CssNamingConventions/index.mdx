@@ -21,7 +21,12 @@ The layers are organised in an order following those metrics :
 
 ### The ITCSS architecture layers
 
-Please note that we use a slightly modified ITCSS architecture from the original
+<Highlight>
+
+Please note that we use an ITCSS architecture **slightly different from the original**.
+
+</Highlight>
+
 
 1. **Settings**: Global variables, config switches.
 2. **Tools**: Global mixins and functions.
@@ -34,9 +39,14 @@ Please note that we use a slightly modified ITCSS architecture from the original
 
 ## Follow ITCSS order for importing your files
 
-Note that all `settings` and `tools` are bundled into a file nammed `all-settings`.
-This file is the only file required by all other files.
-This File will not output any css when compiled appart from the font-faces declarations.
+<Highlight theme="tips" title="You should know">
+
+Note that all `settings` and `tools` are bundled into a file nammed `all-settings`.  
+This file is the only file required by all other files.  
+This File does not output any css when compiled.
+
+</Highlight>
+
 
 ```scss
 /* mandatory */
@@ -89,7 +99,11 @@ BEM was created by **Yandex**, the "Russian Google" in 2009.
 
 We will explain the basics here, but we recommend developers on learning BEM : [read the full documentation](https://en.bem.info).
 
-Note that in the following examples, the prefixes are symbolised by `pr` in front of the classes.
+<Highlight>
+
+In the following examples, the prefixes are symbolised by `pr` in front of the classes.
+
+</Highlight>
 
 ### Blocks
 
