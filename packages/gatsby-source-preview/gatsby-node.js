@@ -131,7 +131,7 @@ exports.sourceNodes = (tools, configOptions) => {
       }
     }
   }
-  watcher.on(`change`, debounce(onChange, 300))
+  watcher.on(`change`, debounce(onChange, 900))
 
   watcher.on(`unlink`, path => {
     if (
