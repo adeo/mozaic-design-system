@@ -133,7 +133,7 @@ exports.sourceNodes = (tools, configOptions) => {
   }
   watcher.on(`change`, debounce(onChange, 900))
 
-  watcher.on(`unlink`, path => {
+  const unlink = path => {
     if (
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
@@ -147,9 +147,9 @@ exports.sourceNodes = (tools, configOptions) => {
     if (node) {
       deleteNode({ node })
     }
-  })
+  }
 
-  watcher.on(`change`, debounce(unlink, 900))
+  watcher.on(`unlink`, debounce(unlink, 900))
 
   watcher.on(`addDir`, path => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
