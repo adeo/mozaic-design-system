@@ -149,6 +149,8 @@ exports.sourceNodes = (tools, configOptions) => {
     }
   })
 
+  watcher.on(`change`, debounce(unlink, 900))
+
   watcher.on(`addDir`, path => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
       if (
