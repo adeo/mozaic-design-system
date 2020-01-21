@@ -48,6 +48,102 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
+// Utils
+const debounce = (fnc, tm) => {
+  let time
+  return function() {
+    clearTimeout(time)
+    time = setTimeout(() => {
+      fnc.apply(this, arguments)
+    }, tm)
+  }
+}
+
+// Create an array with all the previews path. Used for testing purposes
+const writePreviewList = (previewsPath, reporter) => {
+  fs.writeFile(
+    './test/previewsPath.js',
+    `module.exports =${JSON.stringify(previewsPath, 0, 2)}`,
+    err => {
+      if (err) throw err
+      reporter.success(
+        'Previews path list file created (/test/previewsPath.js)'
+      )
+    }
+  )
+}
+
+// Create preview html
+const createPreviewHtmlFile = node =>
+  new Promise((resolve, reject) => {
+    const destDir = `public/previews${node.fields.slug
+      .split('/')
+      .slice(0, -1)
+      .join('/')}`
+
+    const fileName = node.fields.slug.split('/').pop()
+
+    mkdirp(destDir, err => {
+      if (err) reject(err)
+
+      fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), error => {
+        if (error) reject(error)
+        resolve()
+      })
+    })
+  })
+
+// build previews for each node
+const createPreviewPages = (previews, previewsPath, reporter) => {
+  // Create previews html pages into static folder
+  const previewPromiseMap = previews.map(({ node }) => {
+    // Add path to the list for tests purposes if it does not exist
+    if (!previewsPath.includes(node.fields.slug)) {
+      previewsPath.push(node.fields.slug)
+    }
+
+    return createPreviewHtmlFile(node)
+  })
+
+  Promise.all(previewPromiseMap)
+    .then(() => {
+      reporter.success('preview files generated')
+      writePreviewList(previewsPath, reporter)
+    })
+    .catch(err => reporter.panicOnBuild(err))
+}
+
+// Minimal builder for html previews
+const buildHtml = data => {
+  var generatedStyles = data.codes.css
+  var body = data.codes.html
+  return `
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <style type="text/css">
+            * {
+              box-sizing: padding-box;
+            }
+            
+            body, html {
+              margin :0;
+              padding :0;
+              display: block;
+              overflow: hidden
+            }
+          </style>
+          <style>${generatedStyles}</style>
+        </head>
+        <body>
+          ${body}
+        </body>
+      </html>
+    `
+}
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   // Destructure the createPage function from the actions object
   const { createPage } = actions
@@ -84,7 +180,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   const posts = result.data.allMdx.edges
-  const previews = result.data.allPreview.edges
 
   posts.forEach(({ node }) => {
     createPage({
@@ -97,59 +192,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   })
 
-  // Create previews html pages into static folder
-  previews.forEach(({ node }) => {
-    const fileName = `static${node.fields.slug.split('docs/').pop()}`
-    const pathName = fileName
-    const str = pathName.substr(pathName.lastIndexOf('/') + 1)
+  const previews = result.data.allPreview.edges
 
-    previewsPath.push(`${node.fields.slug}`) // Add path to the list for tests purposes
-
-    mkdirp(pathName.replace(`previews/${str}`, 'previews/'), function(err) {
-      if (err) return cb(err)
-      let stream = fs.createWriteStream(`${fileName}.html`)
-      stream.once('open', function(fd) {
-        const html = buildHtml(node)
-        stream.end(html)
-      })
-    })
-  })
-
-  // Minimal builder for html previews
-  const buildHtml = data => {
-    var header = data.codes.css
-    var body = data.codes.html
-    return `
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-          <style type="text/css">
-            * {
-              box-sizing: padding-box;
-            }
-            
-            body, html {
-              margin :0;
-              padding :0;
-              display: block;
-              overflow: hidden
-            }
-          </style>
-          <style>${header}</style>
-        </head>
-        <body>
-          ${body}
-        </body>
-      </html>
-    `
-  }
-
-  // Create an array with all the previews path. Used for testing purposes
-  const content = `module.exports =${JSON.stringify(previewsPath, 0, 2)}`
-  fs.writeFile('./test/previewsPath.js', content, err => {
-    if (err) throw err
-    console.log('Previews path list file created (/test/previewsPath.js)')
-  })
+  debounce(createPreviewPages(previews, previewsPath, reporter), 1000)
 }
