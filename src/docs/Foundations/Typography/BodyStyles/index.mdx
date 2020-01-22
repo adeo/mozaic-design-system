@@ -1,27 +1,46 @@
 ---
 title: 'Body styles'
 order: 4
+description: 'A body is a paragraph or a multiline text. It provides basic typographic properties like font-size, line-height and font-weight.'
 status:
   sketch: 'wip'
   scss: 'wip'
 ---
 
-> The body patterns provide basic typographic styles for readable multilines text or paragraphs like a product description or an article.
+> A body is a paragraph or a multiline text. It provides basic typographic properties like font-size, line-height and font-weight.
 
-Body styles are patterns meant to help you use consistent typographic hierarchy with the context and across responsive viewports. It's mainly reserved for users wishing to focus on tasks with added value and user experience. Text classes are families of several font-sizes and help create a hierarchy of contents.
+## Recommended size
 
-#### Body styles are defined with three factors :
+### Body Medium
 
-- Font-size _(that may vary depending on the viewport)_
-- Line-height _(that are optimised for readability and accessibility)_
-- Font-weight _(regular or semi-bold)_
+The default body style is **body medium** (`mt-body-m`) with the following specifications:
 
-#### And comes with two variations for each classe :
+| Font-size           | Font-weight           | Line-height           |
+| ------------------- |---------------------- | --------------------- |
+| 16px                | Regular               | `$line-height l`      |
 
-Each body pattern comes with a modifier to set the font-weight to **'semi bold'** and a modifier to use an alternative **line-height**.
+<Preview path="typographyBodyMedium" nude />
 
-|                                         |                                      |
-| --------------------------------------- | ------------------------------------ |
-| <Preview path="typographyBodySmall" />  | **Body Small** <br /> 14px (0.875mu) |
-| <Preview path="typographyBodyMedium" /> | **Body Medium** <br /> 16px (1mu)    |
-| <Preview path="typographyBodyLarge" />  | **Body Large** <br /> 18px (1.125mu) |
+## Specific needs
+
+Mozaic's typographic system still allows you to answer specific needs in some cases like smaller or larger font-sizes and also thicker font-weight like **semibold**.
+
+### Body Small
+
+For accessibility and readability, this is the smallest value you can use for multiline texts.
+
+| Font-size           | Font-weight           | Line-height           |
+| ------------------- |---------------------- | --------------------- |
+| 14px                | Regular               | `$line-height l`      |
+
+<Preview path="typographyBodySmall" nude />
+
+### Body Large
+
+This value must be the biggest you use to have readable paragraphs on every device.
+
+| Font-size           | Font-weight           | Line-height           |
+| ------------------- |---------------------- | --------------------- |
+| 18px                | Regular               | `$line-height l`      |
+
+<Preview path="typographyBodyLarge" nude />
