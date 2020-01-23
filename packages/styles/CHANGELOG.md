@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.0...v1.0.1-beta.1) (2020-01-23)
+
+
+### Features
+
+* **patterns/container:** use LMFR‘s container as the default one ([#464](https://github.com/adeo/mozaic-design-system/issues/464)) ([a104936](https://github.com/adeo/mozaic-design-system/commit/a1049368a985ae3c221da3bcb842bf062484ddf3))
+
+
+
+
+
 ## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
 
 

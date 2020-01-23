@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.0...v1.0.1-beta.1) (2020-01-23)
+
+
+### Bug Fixes
+
+* **chore/dev build:** fix unexpected and frequent process kills ([#472](https://github.com/adeo/mozaic-design-system/issues/472)) ([c733d0c](https://github.com/adeo/mozaic-design-system/commit/c733d0c7aa0153cc35a3eabf0b1dafbedb02e3f1))
+
+
+
+
+
 ## [1.0.1-alpha.31](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.30...v1.0.1-alpha.31) (2019-12-03)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.0...v1.0.1-beta.1) (2020-01-23)
+
+
+### Features
+
+* **onboard/updates:** create changelog page ([#467](https://github.com/adeo/mozaic-design-system/issues/467)) ([e94db16](https://github.com/adeo/mozaic-design-system/commit/e94db16f77aa565f95d9e1bb16ed175c32e7ef37))
+
+
+
+
+
 ## [1.0.1-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-alpha.32...v1.0.1-beta.0) (2019-12-18)
 
 
