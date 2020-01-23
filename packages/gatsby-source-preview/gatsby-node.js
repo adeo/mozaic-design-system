@@ -83,7 +83,6 @@ exports.sourceNodes = (tools, configOptions) => {
       if (codes.scss) {
         return compileCss(codes, key, key.replace('.scss', '.css'))
       }
-      reporter.success(`preview built: ${key}`)
       return createNode(buildNodeData(codes, key))
     })
 
@@ -96,7 +95,9 @@ exports.sourceNodes = (tools, configOptions) => {
         currentState.value.CHOKIDAR ===
         `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
       ) {
-        buildPreviews(path).catch(err => reporter.error(err))
+        buildPreviews(path)
+          .then(reporter.success(`previews built`))
+          .catch(err => reporter.error(err))
         reporter.info(`added PREVIEW file at ${path}`)
       }
     }
@@ -113,7 +114,9 @@ exports.sourceNodes = (tools, configOptions) => {
       // is global style? Just rebuild everything!
       const globalStylePath = 'packages/styles/'
       if (path.replace(/\\/g, '/').indexOf(globalStylePath) > -1) {
-        return buildPreviews().catch(err => reporter.error(err))
+        return buildPreviews()
+          .then(reporter.success(`previews built`))
+          .catch(err => reporter.error(err))
       }
 
       const content = fs.readFileSync(path, 'utf8')
@@ -127,13 +130,12 @@ exports.sourceNodes = (tools, configOptions) => {
         return compileCss(node.codes, path, path.replace('.scss', '.css'))
       } else {
         createNode(buildNodeData(node.codes, path))
-        reporter.success(`preview built: ${path}`)
       }
     }
   }
-  watcher.on(`change`, debounce(onChange, 300))
+  watcher.on(`change`, onChange)
 
-  watcher.on(`unlink`, path => {
+  const unlink = path => {
     if (
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
@@ -147,7 +149,9 @@ exports.sourceNodes = (tools, configOptions) => {
     if (node) {
       deleteNode({ node })
     }
-  })
+  }
+
+  watcher.on(`unlink`, unlink)
 
   watcher.on(`addDir`, path => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
@@ -155,7 +159,9 @@ exports.sourceNodes = (tools, configOptions) => {
         currentState.value.CHOKIDAR ===
         `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
       ) {
-        buildPreviews().catch(err => reporter.error(err))
+        buildPreviews()
+          .then(reporter.success(`previews built`))
+          .catch(err => reporter.error(err))
         reporter.info(`added directory at ${path}`)
       }
     }
@@ -182,7 +188,9 @@ exports.sourceNodes = (tools, configOptions) => {
         currentState.value,
         `CHOKIDAR_PREVIEW_READY`
       )
-      buildPreviews().then(resolve, reject)
+      buildPreviews()
+        .then(reporter.success(`previews built`))
+        .then(resolve, reject)
     })
   })
 }

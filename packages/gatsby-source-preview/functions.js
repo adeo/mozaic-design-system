@@ -19,7 +19,6 @@ const compileCssnCreateNode = (reporter, createNode, buildNodeData) => (
     path.normalize(pathTo)
   )
     .then(res => {
-      reporter.success(`preview built: ${pathFrom}`)
       codes.css = res.css
       createNode(buildNodeData(codes, pathFrom))
     })

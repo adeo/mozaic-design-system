@@ -142,7 +142,9 @@ export class PreviewComponent extends PureComponent {
       this.props.data.node.previewPath && this.state.location
         ? `${
             this.state.location.origin
-          }/${this.props.data.node.previewPath.split('docs/').pop()}.html`
+          }/previews/${this.props.data.node.previewPath
+            .split('docs/')
+            .pop()}.html`
         : ''
 
     const ViewPortsObj = viewPorts
