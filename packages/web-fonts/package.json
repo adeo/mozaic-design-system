@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/web-fonts",
-  "version": "1.0.1-alpha.25",
+  "version": "1.0.1-beta.2",
   "description": "all static assets used by the Mozaic design system",
   "author": "",
   "license": "ISC"

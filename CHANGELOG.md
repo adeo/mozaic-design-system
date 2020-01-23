@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2020-01-23)
+
+
+### Bug Fixes
+
+* **chore/ci gcp actions:** fix release deploy ([ce10dc4](https://github.com/adeo/mozaic-design-system/commit/ce10dc47d95f342339ab312bc298c8f9dac1e239))
+
+
+
+
+
 ## [1.0.1-beta.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.0...v1.0.1-beta.1) (2020-01-23)
 
 
