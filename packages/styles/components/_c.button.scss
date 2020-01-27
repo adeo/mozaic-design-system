@@ -21,12 +21,18 @@
   &--fit {
     @include modify-from-screens($major-screens) {
       display: inline-flex;
+      width: auto;
     }
   }
 
   &--full {
     @include modify-from-screens($major-screens) {
       display: flex;
+      width: 100%;
+
+      @supports (width: stretch) {
+        width: stretch;
+      }
     }
   }
 
