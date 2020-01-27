@@ -3158,9 +3158,9 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#554f52",
+          "value": "#887f87",
           "original": {
-            "value": "{color.grey.700.value}"
+            "value": "{color.grey.500.value}"
           },
           "name": "ColorButtonBorderedNeutralBorder",
           "attributes": {
@@ -3177,9 +3177,9 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#554f52",
+          "value": "#887f87",
           "original": {
-            "value": "{color.grey.700.value}"
+            "value": "{color.grey.500.value}"
           },
           "name": "ColorButtonBorderedNeutralFont",
           "attributes": {

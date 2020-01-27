@@ -210,10 +210,10 @@
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.grey.700.value}"
+          "value": "{color.grey.500.value}"
         },
         "font": {
-          "value": "{color.grey.700.value}"
+          "value": "{color.grey.500.value}"
         },
         "focus": {
           "border": {
