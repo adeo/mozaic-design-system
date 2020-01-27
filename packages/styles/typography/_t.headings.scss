@@ -1,66 +1,90 @@
 /* mqp:start */
 .mt-heading {
-  &-l {
-    @include set-font-face('regular');
-    @include set-font-scale('09', 'm');
+  $parent: #{&};
 
-    @include set-from-screen('m') {
-      @include set-font-scale('10', 'm');
-    }
+  color: $color-font-darkest;
+  display: block;
 
-    &--semi-bold {
-      @include set-font-face('semi-bold');
-    }
+  // add underline style
 
-    &--line-height-s {
-      @include set-line-height('09', 's');
+  &--underline::after {
+    content: '';
+    display: block;
+    height: $mu025;
+    background-color: $color-primary-01-500;
+  }
 
-      @include set-from-screen('m') {
-        @include set-line-height('10', 's');
+  // underline color variations
+
+  &--line-primary-02-600::after {
+    background-color: $color-primary-02-600;
+  }
+
+  &--line-primary-01-200::after {
+    background-color: $color-primary-01-200;
+  }
+
+  &--line-primary-02-200::after {
+    background-color: $color-primary-02-200;
+  }
+
+  // text alignment
+
+  &--center {
+    @include modify-from-screens($major-screens) {
+      text-align: center;
+
+      &#{$parent}--underline::after {
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
 
-  &-m {
-    @include set-font-face('regular');
-    @include set-font-scale('08', 'm');
+  &--right {
+    text-align: right;
 
-    @include set-from-screen('m') {
-      @include set-font-scale('09', 'm');
-    }
-
-    &--semi-bold {
-      @include set-font-face('semi-bold');
-    }
-
-    &--line-height-s {
-      @include set-line-height('08', 's');
-
-      @include set-from-screen('m') {
-        @include set-line-height('09', 's');
+    @include modify-from-screens($major-screens) {
+      &#{$parent}--underline::after {
+        margin-left: auto;
+        margin-right: 0;
       }
     }
   }
 
-  &-s {
-    @include set-font-face('regular');
-    @include set-font-scale('07', 'm');
+  &--left {
+    text-align: left;
 
-    @include set-from-screen('m') {
-      @include set-font-scale('08', 'm');
-    }
-
-    &--semi-bold {
-      @include set-font-face('semi-bold');
-    }
-
-    &--line-height-s {
-      @include set-line-height('07', 's');
-
-      @include set-from-screen('m') {
-        @include set-line-height('08', 's');
+    @include modify-from-screens($major-screens) {
+      &#{$parent}--underline::after {
+        margin-left: 0;
+        margin-right: auto;
       }
     }
+  }
+
+  // sizes modifiers
+
+  @include mod-heading-sizes($parent);
+
+  // text color
+
+  &--lightest {
+    color: $color-font-lightest;
+  }
+
+  // font-weight variations
+
+  &--light {
+    @include set-font-face('light');
+  }
+
+  &--semi-bold {
+    @include set-font-face('semi-bold');
+  }
+
+  &--underline {
+    @include set-font-face('semi-bold');
   }
 }
 
