@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 let postcss = require('postcss')
 
 let plugin = require('./')
@@ -198,6 +197,28 @@ it('should sort media queries by size', async () => {
 /* mqp:end */`,
     `.tata {
   color: blue
+}
+@media (min-width: 320px) {}
+@media (min-width: 680px) {}
+@media (min-width: 1024px) {}`,
+    { sort: true }
+  )
+})
+
+it('should not impact other at rules than media', async () => {
+  await run(
+    `/* mqp:start */
+.tata {
+  color: blue;
+  @supports (tututata) {}
+}
+@media (min-width: 680px) {}
+@media (min-width: 320px) {}
+@media (min-width: 1024px) {}
+/* mqp:end */`,
+    `.tata {
+  color: blue;
+  @supports (tututata) {}
 }
 @media (min-width: 320px) {}
 @media (min-width: 680px) {}

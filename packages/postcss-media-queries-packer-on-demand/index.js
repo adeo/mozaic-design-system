@@ -172,7 +172,11 @@ module.exports = postcss.plugin(
         startPacking = false
       }
 
-      if (node.type === 'atrule' && startPacking === true) {
+      if (
+        node.type === 'atrule' &&
+        node.name === 'media' &&
+        startPacking === true
+      ) {
         addToAtRules(node)
       }
 
