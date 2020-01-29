@@ -10,6 +10,7 @@
     "@mozaic-ds/gatsby-github-release": "^1.0.1-beta.2",
     "@mozaic-ds/gatsby-source-preview": "^1.0.1-beta.2",
     "gatsby": "^2.8.3",
+    "gatsby-plugin-flexsearch": "^1.0.3",
     "gatsby-plugin-mdx": "^1.0.27",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",

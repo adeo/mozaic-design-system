@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import Search from '../Search/Search'
 import { Link } from 'gatsby'
 
 import MenuVersionSelect from './MenuVersionSelect'
@@ -28,6 +29,7 @@ const getCurrentRelease = githubReleases => {
 
 const MenuHeader = ({ siteTitle, githubReleases }) => (
   <Header>
+    <Search />
     <Link to="/">{siteTitle}</Link>{' '}
     <small>{getCurrentRelease(githubReleases)}</small>
     <MenuVersionSelect githubReleases={githubReleases} />

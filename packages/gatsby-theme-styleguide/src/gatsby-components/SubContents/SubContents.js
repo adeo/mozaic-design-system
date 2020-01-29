@@ -16,9 +16,9 @@ const MainItem = ({ children, slug, thumbNail, title, description }) => (
       <p className="subcontents__body">
         <span className="subcontents__title">{title}</span>
         {description && (
-          <p className="subcontents__description">
+          <span className="subcontents__description">
             {description.substring(0, 240)}
-          </p>
+          </span>
         )}
       </p>
     </Link>
@@ -54,6 +54,7 @@ const subcontentHtmlList = (content = [], allPreviewsImgs = [], level = 0) => {
     // Main item
     return !level ? (
       <MainItem
+        key={slug}
         title={title}
         slug={slug}
         thumbNail={thumbNail}
@@ -62,7 +63,12 @@ const subcontentHtmlList = (content = [], allPreviewsImgs = [], level = 0) => {
         {children}
       </MainItem>
     ) : (
-      <SubItem title={title} slug={slug} description={description}></SubItem>
+      <SubItem
+        key={slug}
+        title={title}
+        slug={slug}
+        description={description}
+      ></SubItem>
     )
   })
 

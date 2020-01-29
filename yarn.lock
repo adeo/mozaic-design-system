@@ -7643,6 +7643,11 @@ flatten@^1.0.2:
   resolved "https://registry.npmjs.org/flatten/-/flatten-1.0.3.tgz#c1283ac9f27b368abc1e36d1ff7b04501a30356b"
   integrity sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==
 
+flexsearch@^0.3.4:
+  version "0.3.61"
+  resolved "https://registry.npmjs.org/flexsearch/-/flexsearch-0.3.61.tgz#ca65068bfc81e6738a92b55c1036f6ffb30eaed0"
+  integrity sha512-CrzQDICJggD0X41gV2PR6JiACdqWTQiGRqjyt2EaBLJVmOI0+/KaJC69AIOVjzE2yw3pzzyrHYo+hpxdKUQlpg==
+
 flush-write-stream@^1.0.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/flush-write-stream/-/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"
@@ -7805,6 +7810,11 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
+fs@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.npmjs.org/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+
 fsevents@^1.0.0, fsevents@^1.2.7:
   version "1.2.9"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-1.2.9.tgz#3f5ed66583ccd6f400b5a00db6f7e861363e388f"
@@ -7942,6 +7952,15 @@ gatsby-page-utils@^0.0.35:
     glob "^7.1.6"
     lodash "^4.17.15"
     micromatch "^3.1.10"
+
+gatsby-plugin-flexsearch@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/gatsby-plugin-flexsearch/-/gatsby-plugin-flexsearch-1.0.3.tgz#6b27ad0ca101c66c303fd8868995633fd2c22c5f"
+  integrity sha512-VJ9V8s4Bv78BQOMelsxYzmonaixKbn+L7iYQX/+Oe3ys/1SpnaCr3nxfZHXZPFJ+wnqSAPvjKf+b3IbHjvE++w==
+  dependencies:
+    flexsearch "^0.3.4"
+    fs "^0.0.1-security"
+    lodash "^4.17.11"
 
 gatsby-plugin-google-analytics@^2.1.4:
   version "2.1.31"

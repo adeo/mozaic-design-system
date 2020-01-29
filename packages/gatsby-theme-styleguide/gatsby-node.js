@@ -17,17 +17,27 @@ exports.onCreateDevServer = ({ app }) => {
   app.use(express.static('public'))
 }
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
+exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `docs` })
     const fileName = path.basename(node.fileAbsolutePath)
 
+    const keywords = `${slug.split('/').join(', ')}, ${
+      node.frontmatter.searchKeywords
+    }`
+
     createNodeField({
       node,
       name: `slug`,
       value: slug,
+    })
+
+    createNodeField({
+      node,
+      name: `keywords`,
+      value: keywords,
     })
 
     createNodeField({
