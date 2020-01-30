@@ -106,6 +106,20 @@ Wrap your input and use a 24px icon size :
 
 <Preview nude path="input-small-left-icon" />
 
+## Form validation
+
+When using a form, you often need to validate the fields in the form to ensure that the data entered by the user complies with the validation criteria you expect.
+
+To indicate to the user that the field he filled in is valid or not, Mozaic provides you with two dedicated CSS classes: `is-valid` and `is-invalid`.
+
+<Highlight theme="warning" title="CSS pseudo-classes :valid or :invalid">
+
+The CSS specification provides two pseudo-classes `:valid` and `:invalid` that can be used to style a field according to its validation state.
+
+On Mozaïc we made the decision not to use these pseudo-classes because of the bad user experience it produces when loading the form.
+
+</Highlight>
+
 ## Accessibility and semantic
 
 ### Always use a label with an input.
@@ -138,9 +152,11 @@ If an input field is mandatory, then the `required` and `aria-required` attribut
 />
 ```
 
-### Invalid field
+### Invalid input
 
-A text field is invalid when its value does not match the expected type. When a field is invalid, the `aria-invalid` attribute must be added dynamically to the input field in order to indicate it to screen readers.
+When a field is invalid, you must :
+- add the class `is-invalid` to the field in order to modify its appearance
+- add the `aria-invalid` attribute to indicate to the screenreaders that the field is invalid
 
 ```html
 <label for="invalidField">Invalid field</label>
