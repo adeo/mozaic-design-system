@@ -1,0 +1,18 @@
+{
+    "color": {
+        "fields": {
+            "error": {
+                "value": "{color.danger.500.value}"
+            },
+            "label": {
+                "value": "{color.grey.700.value}"
+            },
+            "mandatory": {
+                "value": "{color.grey.500.value}"
+            },
+            "suggestion": {
+                "value": "{color.grey.500.value}"
+            }
+        }
+    }
+}

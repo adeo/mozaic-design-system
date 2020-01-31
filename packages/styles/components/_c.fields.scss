@@ -1,0 +1,37 @@
+.mc-fields {
+  font-family: 'LeroyMerlin', sans-serif;
+
+  &__label {
+    @include set-font-scale('04');
+
+    color: $color-fields-label;
+    margin-bottom: $mu025;
+  }
+
+  &__error-message {
+    @include set-font-scale('04');
+
+    color: $color-fields-error;
+    margin-top: $mu025;
+  }
+
+  &__mandatory {
+    @include set-font-scale('02');
+
+    color: $color-fields-mandatory;
+
+    &::before {
+      content: "-";
+      margin-right: $mu025;
+      margin-left: $mu025;
+    }
+  }
+
+  &__suggestion {
+    @include set-font-scale('02');
+
+    color: $color-fields-suggestion;
+    margin-bottom: $mu025;
+    display: block;
+  }
+}

@@ -3482,6 +3482,76 @@ module.exports = {
         }
       }
     },
+    "fields": {
+      "error": {
+        "value": "#df382b",
+        "original": {
+          "value": "{color.danger.500.value}"
+        },
+        "name": "ColorFieldsError",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "error"
+        },
+        "path": [
+          "color",
+          "fields",
+          "error"
+        ]
+      },
+      "label": {
+        "value": "#554f52",
+        "original": {
+          "value": "{color.grey.700.value}"
+        },
+        "name": "ColorFieldsLabel",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "label"
+        },
+        "path": [
+          "color",
+          "fields",
+          "label"
+        ]
+      },
+      "mandatory": {
+        "value": "#887f87",
+        "original": {
+          "value": "{color.grey.500.value}"
+        },
+        "name": "ColorFieldsMandatory",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "mandatory"
+        },
+        "path": [
+          "color",
+          "fields",
+          "mandatory"
+        ]
+      },
+      "suggestion": {
+        "value": "#887f87",
+        "original": {
+          "value": "{color.grey.500.value}"
+        },
+        "name": "ColorFieldsSuggestion",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "suggestion"
+        },
+        "path": [
+          "color",
+          "fields",
+          "suggestion"
+        ]
+      }
+    },
     "fileuploader": {
       "font": {
         "value": "#000000",
