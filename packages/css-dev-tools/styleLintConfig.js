@@ -36,6 +36,7 @@ module.exports = {
   plugins: ['@mozaic-ds/stylelint-plugin-mozaic', 'stylelint-scss'],
   rules: {
     'at-rule-no-unknown': null,
+    'max-empty-lines': null,
     'plugin/mozaic-bem-pattern': [pickConfig()],
   },
 }
