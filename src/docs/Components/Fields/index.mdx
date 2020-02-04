@@ -8,33 +8,30 @@ status:
   vue: 'wip'
 ---
 
-## Preview
+> Fields enable the user to input content in a form. It displays an input, a label, useful informations as well as validation feedback.
 
-> Fields are used to **create input fields with label, and error  message**. Their states depends on the user interaction or the context.
+## Anatomy
 
-<Preview nude path="fields-state" />
+![Fields-Anatomy](Fields--Anatomy.png)
 
-## Variations
 
-### Sizes :
+### Label
 
-We have two different sizes of text inputs to answer differents needs. You can use both cases to suit your interface the best. Just keep in mind touch devices when placing smaller elements near each others.
+The label helps the user to understand what information is needed.
 
-<Preview path="fields-sizes" />
+### Required
 
-###  Mandatory:
+This mention allows to specify that this information is mandatory for the field to be valid.
 
-Use the mandatory label to inform the value of input is required.
+### Help text 
 
-<Preview path="fields-mandatory" />
-
-### Suggestion:
-
-Use the suggestion label to inform about a specific information type or formatting you expect from the user.
-
-<Preview path="fields-suggestion" />
+Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
 
 ## Do's and don'ts
+
+<HintItem>
+  It is recommended to use short and accurate labels.
+</HintItem>
 
 <HintItem>
   Use Input text for monoline text. For multiple lines, use a textarea instead.
@@ -42,6 +39,10 @@ Use the suggestion label to inform about a specific information type or formatti
 
 <HintItem>
   Always use a label associated with an input, even using placeholders
+</HintItem>
+
+<HintItem dont>
+  Use the same value for labels and placeholders.
 </HintItem>
 
 <HintItem dont>
