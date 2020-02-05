@@ -1,31 +1,68 @@
 ---
 title: 'Fields'
 order: 2
-description: 'Fields are used to create input fields with label, and error  message. Their states depends on the user interaction or the context.'
+description: 'Fields enable the user to input content in a form. It displays a label, useful informations, an input and gives validation feedback'
 status:
   sketch: 'bêta'
   scss: 'bêta'
   vue: 'wip'
 ---
 
-> Fields enable the user to input content in a form. It displays an input, a label, useful informations as well as validation feedback.
+> Fields enable the user to input content in a form. It displays a label, useful informations, an input and gives validation feedback.
 
-## Anatomy
+_preview lab+req+help_
 
-![Fields-Anatomy](Fields--Anatomy.png)
+## Overview
 
+![Fields-Overview](Fields--Overview.png)
+
+Fields are a combination of the following mentions. Please note that you can use four different cases:
+  - Label only
+  - Label + required
+  - Label + required + help text
+  - Label + help text
 
 ### Label
 
-The label helps the user to understand what information is needed.
+The label helps the user to understand what information is needed in the field.
+
+_preview with label only_
 
 ### Required
 
 This mention allows to specify that this information is mandatory for the field to be valid.
 
-### Help text 
+<Highlight theme="tips">
+
+  Please note that this mention can also be used to say a specific field is **optionnal** when the other ones are mandatory.
+
+</Highlight>
+
+_preview with label & required_
+
+### Help text
 
 Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
+
+_preview with label & required & help_
+
+## Validation
+
+There are two different elements for validation feedback:
+  - An icon placed in the input.
+  - A text under the field explains what's wrong with the data entered.
+
+_preview with success & preview with error_
+
+## Sizes
+
+You can use two different sizes for fields to answer different needs. You can use both cases to suit your interface the best. Just keep in mind touch devices when placing smaller elements near each other.
+
+<Highlight theme="warning">
+
+  Never use different field sizes together.
+
+</Highlight>
 
 ## Do's and don'ts
 
@@ -33,22 +70,6 @@ Help text corresponds to a relevant piece of information to make sure the user u
   It is recommended to use short and accurate labels.
 </HintItem>
 
-<HintItem>
-  Use Input text for monoline text. For multiple lines, use a textarea instead.
-</HintItem>
-
-<HintItem>
-  Always use a label associated with an input, even using placeholders
-</HintItem>
-
 <HintItem dont>
   Use the same value for labels and placeholders.
-</HintItem>
-
-<HintItem dont>
-  Never use different text input sizes together.
-</HintItem>
-
-<HintItem dont>
-  Never use a medium input with a small button.
 </HintItem>
