@@ -1,0 +1,211 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import the settings, the text-input and the fields `scss` files.
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.text-input';
+
+@import 'components/_c.fields';
+
+```
+
+## Basic usage
+
+To create a fields you have two main class to apply :
+- `mc-field` on container
+- `mc-field__label` on label
+
+and reuse the `mc-text-input` class on the input
+
+```html
+<div class="mc-field">
+
+  <div class="mc-field__label-wrapper">
+    <label class="mc-field__label" for="inp">
+      Label
+    </label>
+  </div>
+    
+  <input id="inp" type="text" class="mc-text-input" placeholder="Empty" name="example" />
+
+</div>
+```
+
+<Preview path="fields" />
+
+## Variations
+
+### Available sizes
+
+You can use any Variation of the `input-text` : [Text input component documentation](/Components/TextInput/)
+
+### Mandatory
+
+Add a span with the class `mc-field__required` right after the label
+
+```html
+<label class="mc-field__label">
+  Required field
+  <span class="mc-field__required">
+    mandatory
+  </span>
+</label>
+```
+
+<Preview path="fields-mandatory" />
+
+### Suggestion
+
+Add a span with the class `mc-field__suggestion` below the label
+
+```html
+<label class="mc-field__label">
+  Suggestion field
+</label>
+<span class="mc-field__suggestion">
+  Suggestion
+</span>
+```
+
+<Preview path="fields-suggestion" />
+
+## Behaviors
+
+### Standard input states :
+
+- `:disabled`
+- `.is-valid`
+- `.is-invalid`
+
+<Preview path="fields-state" />
+
+## Accessibility and semantic
+
+### Always use field inside a form
+
+
+```html
+<form>
+  <div class="mc-field">
+    ...
+  </div>
+<form>
+```
+
+### Always use a label with an input.
+
+```html
+<div class="mc-field">
+
+  <div class="mc-field__label-wrapper">
+    <label class="mc-field__label" for="myExample">
+      My example
+    </label>
+  </div>
+
+  <input
+    id="myExample"
+    type="text"
+    class="mc-text-input"
+    placeholder="Empty"
+    name="example"
+  />
+
+</div>
+```
+
+### Suggestion field
+
+The instructions should be ref by `aria-describedby` in input
+
+```html
+<div class="mc-field">
+
+  <div class="mc-field__label-wrapper">
+    <label class="mc-field__label" for="suggestionField">
+      Suggestion field
+    </label>
+    <span id="sugg" class="mc-field__suggestion">
+      Suggestion
+    </span>
+  </div>
+
+  <input
+    id="suggestionField"
+    type="text"
+    class="mc-text-input"
+    placeholder="Is required"
+    name="example"
+    aria-describedBy="sugg"
+  />
+
+</div>
+```
+
+### Required field
+
+If an input field is mandatory, then the `required` and `aria-required` attributes must be filled in.
+And so the `aria-hidden` attribute must be field on required message
+
+```html
+<div class="mc-field">
+
+  <div class="mc-field__label-wrapper">
+    <label class="mc-field__label" for="requiredField">
+      Required field
+      <span class="mc-field__required" aria-hidden="true">
+        mandatory
+      </span>
+    </label>
+  </div>
+
+  <input
+    id="requiredField"
+    type="text"
+    class="mc-text-input"
+    placeholder="Is required"
+    name="example"
+    required
+    aria-required="true"
+  />
+
+</div>
+```
+
+### Invalid field
+
+A text field is invalid when its value does not match the expected type. When a field is invalid, the `aria-invalid` attribute and the `aria-describedBy` must be added dynamically to the input field in order to indicate it to screen readers.
+
+```html
+<div class="mc-field">
+
+  <div class="mc-field__label-wrapper">
+    <label class="mc-field__label" for="invalidField">
+      Invalid field
+    </label>
+    
+  <input
+      id="invalidField"
+      type="text"
+      class="mc-text-input is-invalid"
+      placeholder="Is invalid"
+      name="example"
+      aria-invalid="true"
+      aria-describedBy="err_1"
+  />
+
+  <span class="mc-field__error-message" id="err_1">
+    Error
+  </span>
+
+</div>
+```

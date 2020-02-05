@@ -2,7 +2,7 @@
     "color": {
         "fields": {
             "error": {
-                "value": "{color.danger.500.value}"
+                "value": "{color.font.danger.value}"
             },
             "label": {
                 "value": "{color.grey.700.value}"

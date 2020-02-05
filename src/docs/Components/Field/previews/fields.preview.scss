@@ -6,6 +6,8 @@
 @import 'components/_c.fields';
 
 .example {
+  @include set-font-face();
+
   margin: $mu200 0;
   padding: 0 $mu200;
 }

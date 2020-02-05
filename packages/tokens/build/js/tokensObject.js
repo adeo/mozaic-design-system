@@ -3484,9 +3484,9 @@ module.exports = {
     },
     "fields": {
       "error": {
-        "value": "#df382b",
+        "value": "#b42a27",
         "original": {
-          "value": "{color.danger.500.value}"
+          "value": "{color.font.danger.value}"
         },
         "name": "ColorFieldsError",
         "attributes": {

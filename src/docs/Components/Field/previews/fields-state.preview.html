@@ -1,0 +1,45 @@
+<div class="example">
+  <div class="mc-field">
+
+    <div class="mc-field__label-wrapper">
+      <label class="mc-field__label" for="disabled">
+        Label
+      </label>      
+    </div>
+
+    <input type="text" class="mc-text-input" id="disabled" disabled placeholder="Disabled" name="example" />
+  
+  </div>
+</div>
+
+<div class="example">
+  <div class="mc-field">
+
+    <div class="mc-field__label-wrapper">
+      <label class="mc-field__label" for="valid">
+        Label
+      </label>
+    </div>
+
+    <input type="text" class="mc-text-input is-valid" id="valid" placeholder="Valid" name="example" />
+
+  </div>
+</div>
+
+<div class="example">
+  <div class="mc-field">
+
+    <div class="mc-field__label-wrapper">
+      <label class="mc-field__label" for="invalid">
+        Label
+      </label>
+    </div>
+
+    <input aria-invalid="true" aria-describedBy="err_1" type="text" class="mc-text-input is-invalid" id="invalid" placeholder="Invalid" name="example"/>
+
+    <span id="err_1" class="mc-field__error-message">
+      Error: the adress field should be at least 32 characters long 
+    </span>
+
+  </div>
+</div>
