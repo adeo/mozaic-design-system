@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
+
+
+### Bug Fixes
+
+* **tools/mqpacker:** impact only media queries instead of all at rules ([fa0d443](https://github.com/adeo/mozaic-design-system/commit/fa0d44357013eae49b14278ee6f7d6a66a168ad5))
+
+
+
+
+
 ## [1.0.1-beta.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2020-01-23)
 
 **Note:** Version bump only for package @mozaic-ds/postcss-media-queries-packer-on-demand

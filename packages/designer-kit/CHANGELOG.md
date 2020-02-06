@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
+
+
+### Bug Fixes
+
+* **onboard/sketch:** update the doc with the current supported sketch version ([#482](https://github.com/adeo/mozaic-design-system/issues/482)) ([92f0c9a](https://github.com/adeo/mozaic-design-system/commit/92f0c9a45fae77fe032febfdb710430159255377))
+
+
+
+
+
 ## [1.0.1-beta.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2020-01-23)
 
 **Note:** Version bump only for package @mozaic-ds/designer-kit

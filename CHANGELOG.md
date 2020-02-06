@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
+
+
+### Bug Fixes
+
+* **onboard/sketch:** update the doc with the current supported sketch version ([#482](https://github.com/adeo/mozaic-design-system/issues/482)) ([92f0c9a](https://github.com/adeo/mozaic-design-system/commit/92f0c9a45fae77fe032febfdb710430159255377))
+* **pattern/buttons:** fix bug width and neutral color variations ([eb74640](https://github.com/adeo/mozaic-design-system/commit/eb7464090dc95a7aed6b9b471414fa556fa00d82))
+* **tools/mqpacker:** impact only media queries instead of all at rules ([fa0d443](https://github.com/adeo/mozaic-design-system/commit/fa0d44357013eae49b14278ee6f7d6a66a168ad5))
+* **tools/stylelint:** quickfix stylelint for vuejs - disable max-empty-lines rule ([#481](https://github.com/adeo/mozaic-design-system/issues/481)) ([a336301](https://github.com/adeo/mozaic-design-system/commit/a336301c07789beeddff4b19ff0269fd2cd83ea3))
+* **website/spacings:** typo with wrong var names in previews - Fixes [#474](https://github.com/adeo/mozaic-design-system/issues/474) ([#475](https://github.com/adeo/mozaic-design-system/issues/475)) ([757d0ba](https://github.com/adeo/mozaic-design-system/commit/757d0ba1f15f327ae0e0c33cd8fe618bf0704c23))
+
+
+### Features
+
+* **onboard/roadmap:** add a roadmap and a want to help section in the docs ([#477](https://github.com/adeo/mozaic-design-system/issues/477)) ([6964bfb](https://github.com/adeo/mozaic-design-system/commit/6964bfbe1a81f733f331b50a1d006783c02c331c))
+* **patterns/input:** update doc about css :valid and :invalid pseudo-classes usage ([#480](https://github.com/adeo/mozaic-design-system/issues/480)) ([c587c77](https://github.com/adeo/mozaic-design-system/commit/c587c773f8c5d497c4ad04e90cc01e42e6fa2819))
+* **website/home:** redesign home and font ([#484](https://github.com/adeo/mozaic-design-system/issues/484)) ([ff2c5d1](https://github.com/adeo/mozaic-design-system/commit/ff2c5d18efe27d0b37b7d86e447cc9d3eb7fc06c))
+* **website/search:** create search engine for the documentation ([#479](https://github.com/adeo/mozaic-design-system/issues/479)) ([5961d4e](https://github.com/adeo/mozaic-design-system/commit/5961d4e4798885806b43f48ebcc0cf53f8243aca))
+
+
+
+
+
 ## [1.0.1-beta.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2020-01-23)
 
 

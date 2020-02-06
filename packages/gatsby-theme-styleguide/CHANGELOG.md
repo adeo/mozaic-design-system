@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
+
+
+### Features
+
+* **website/search:** create search engine for the documentation ([#479](https://github.com/adeo/mozaic-design-system/issues/479)) ([5961d4e](https://github.com/adeo/mozaic-design-system/commit/5961d4e4798885806b43f48ebcc0cf53f8243aca))
+
+
+
+
+
 ## [1.0.1-beta.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2020-01-23)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
