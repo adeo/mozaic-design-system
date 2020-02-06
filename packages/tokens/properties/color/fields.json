@@ -5,7 +5,7 @@
                 "value": "{color.font.danger.value}"
             },
             "label": {
-                "value": "{color.grey.700.value}"
+                "value": "{color.font.light.value}"
             },
             "mandatory": {
                 "value": "{color.grey.500.value}"
