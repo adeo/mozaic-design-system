@@ -1,52 +1,74 @@
 ---
 title: 'Field'
 order: 2
-description: 'Fields enable the user to input content in a form. It displays an input, a label, useful informations as well as validation feedback.'
+description: 'Fields enable the user to input content in a form. It displays a label, useful informations, an input and gives validation feedback'
 status:
   sketch: 'bêta'
   scss: 'bêta'
 ---
 
-## Preview
+> Fields enable the user to input content in a form. It displays a label, useful informations, an input and gives validation feedback.
 
-> Fields enable the user to input content in a form. It displays an input, a label, useful informations as well as validation feedback.
+_preview lab+req+help_
 
-<Preview nude path="fields-state" />
+## Overview
 
-## Variations
+![Fields-Overview](Fields--Overview.png)
 
-### Sizes :
+Fields are a combination of the following mentions. Please note that you can use four different cases:
+  - Label only
+  - Label + required
+  - Label + required + help text
+  - Label + help text
 
-We have two different sizes of text inputs to answer differents needs. You can use both cases to suit your interface the best. Just keep in mind touch devices when placing smaller elements near each others.
+### Label
 
-<Preview nude path="fields-sizes" />
+The label helps the user to understand what information is needed in the field.
 
-###  Mandatory:
+_preview with label only_
 
-Use the mandatory label to inform the value of input is required.
+### Required
 
-<Preview nude path="fields-mandatory" />
+This mention allows to specify that this information is mandatory for the field to be valid.
 
-### Suggestion:
+<Highlight theme="tips">
 
-Use the suggestion label to inform about a specific information type or formatting you expect from the user.
+  Please note that this mention can also be used to say a specific field is **optionnal** when the other ones are mandatory.
 
-<Preview nude path="fields-suggestion" />
+</Highlight>
+
+_preview with label & required_
+
+### Help text
+
+Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
+
+_preview with label & required & help_
+
+## Validation
+
+There are two different elements for validation feedback:
+  - An icon placed in the input.
+  - A text under the field explains what's wrong with the data entered.
+
+_preview with success & preview with error_
+
+## Sizes
+
+You can use two different sizes for fields to answer different needs. You can use both cases to suit your interface the best. Just keep in mind touch devices when placing smaller elements near each other.
+
+<Highlight theme="warning">
+
+  Never use different field sizes together.
+
+</Highlight>
 
 ## Do's and don'ts
 
 <HintItem>
-  Use Input text for monoline text. For multiple lines, use a textarea instead.
-</HintItem>
-
-<HintItem>
-  Always use a label associated with an input, even when using placeholders
+  It is recommended to use short and accurate labels.
 </HintItem>
 
 <HintItem dont>
-  Never use different text input sizes together.
-</HintItem>
-
-<HintItem dont>
-  Never use a medium input with a small button.
+  Use the same value for labels and placeholders.
 </HintItem>
