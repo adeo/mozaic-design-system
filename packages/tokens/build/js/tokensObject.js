@@ -3503,7 +3503,7 @@ module.exports = {
       "label": {
         "value": "#554f52",
         "original": {
-          "value": "{color.grey.700.value}"
+          "value": "{color.font.light.value}"
         },
         "name": "ColorFieldsLabel",
         "attributes": {

@@ -1,19 +1,12 @@
 .mc-field {
+  &__label-wrapper {
+    margin-bottom: $mu050;
+  }
+
   &__label {
     @include set-font-scale('04','xs');
 
     color: $color-fields-label;
-
-    &-wrapper {
-      margin-bottom: $mu050;
-    }
-  }
-
-  &__error-message {
-    @include set-font-scale('04','xs');
-
-    color: $color-fields-error;
-    margin-top: $mu025;
   }
 
   &__required {
@@ -22,9 +15,7 @@
     color: $color-fields-mandatory;
 
     &::before {
-      content: "-";
-      margin-right: $mu025;
-      margin-left: $mu025;
+      content: " - ";
     }
   }
 
@@ -33,5 +24,12 @@
 
     color: $color-fields-suggestion;
     display: block;
+  }
+
+  &__error-message {
+    @include set-font-scale('04','xs');
+
+    color: $color-fields-error;
+    margin-top: $mu025;
   }
 }
