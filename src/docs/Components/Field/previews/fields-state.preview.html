@@ -1,45 +1,54 @@
 <div class="example">
   <div class="mc-field">
+    <label class="mc-field__label" for="disabledField">
+      Label
+    </label>
 
-    <div class="mc-field__label-wrapper">
-      <label class="mc-field__label" for="disabled">
-        Label
-      </label>      
-    </div>
-
-    <input type="text" class="mc-text-input" id="disabled" disabled placeholder="Disabled" name="example" />
-  
+    <input
+      disabled
+      type="text"
+      class="mc-text-input mc-field__input"
+      id="disabledField"
+      placeholder="Disabled"
+      name="example-disabled"
+    />
   </div>
 </div>
 
 <div class="example">
   <div class="mc-field">
+    <label class="mc-field__label" for="validField">
+      Label
+    </label>
 
-    <div class="mc-field__label-wrapper">
-      <label class="mc-field__label" for="valid">
-        Label
-      </label>
-    </div>
-
-    <input type="text" class="mc-text-input is-valid" id="valid" placeholder="Valid" name="example" />
-
+    <input
+      type="text"
+      class="mc-text-input mc-field__input is-valid"
+      id="validField"
+      placeholder="Valid"
+      name="example-valid"
+    />
   </div>
 </div>
 
 <div class="example">
   <div class="mc-field">
+    <label class="mc-field__label" for="invalidField">
+      Label
+    </label>
 
-    <div class="mc-field__label-wrapper">
-      <label class="mc-field__label" for="invalid">
-        Label
-      </label>
-    </div>
-
-    <input aria-invalid="true" aria-describedBy="err_1" type="text" class="mc-text-input is-invalid" id="invalid" placeholder="Invalid" name="example"/>
+    <input
+      aria-invalid="true"
+      aria-describedBy="err_1"
+      type="text"
+      class="mc-text-input mc-field__input is-invalid"
+      id="invalidField"
+      placeholder="Invalid"
+      name="example-invalid"
+    />
 
     <span id="err_1" class="mc-field__error-message">
-      Error: the adress field should be at least 32 characters long 
+      Error: the adress field should be at least 32 characters long
     </span>
-
   </div>
 </div>

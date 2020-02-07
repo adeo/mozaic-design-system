@@ -1,10 +1,7 @@
 <div class="example">
   <div class="mc-field">
-    <label class="mc-field__label" for="default">
+    <label class="mc-field__label" for="helpField">
       Label
-      <span class="mc-field__requirement" aria-hidden="true">
-        mandatory
-      </span>
     </label>
 
     <span id="helptext" class="mc-field__help">
@@ -12,14 +9,12 @@
     </span>
 
     <input
-      required
-      aria-required="true"
       aria-describedby="helptext"
       type="text"
       class="mc-text-input mc-field__input"
-      id="default"
-      placeholder="Input default"
-      name="example-medium"
+      id="helpField"
+      placeholder="Field with help text"
+      name="example-help"
     />
   </div>
 </div>

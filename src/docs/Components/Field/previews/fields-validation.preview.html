@@ -2,38 +2,34 @@
   <div class="mc-field">
     <div class="example">
       <div class="mc-field">
-        <div class="mc-field__label-wrapper">
-          <label class="mc-field__label" for="valid">
-            Label
-          </label>
-        </div>
+        <label class="mc-field__label" for="validField">
+          Label
+        </label>
 
         <input
           type="text"
-          class="mc-text-input is-valid"
-          id="valid"
+          class="mc-text-input mc-field__input is-valid"
+          id="validField"
           placeholder="Valid"
-          name="example"
+          name="example-valid"
         />
       </div>
     </div>
 
     <div class="example">
       <div class="mc-field">
-        <div class="mc-field__label-wrapper">
-          <label class="mc-field__label" for="invalid">
-            Label
-          </label>
-        </div>
+        <label class="mc-field__label" for="invalidField">
+          Label
+        </label>
 
         <input
           aria-invalid="true"
           aria-describedBy="err_1"
           type="text"
-          class="mc-text-input is-invalid"
-          id="invalid"
+          class="mc-text-input mc-field__input is-invalid"
+          id="invalidField"
           placeholder="Invalid"
-          name="example"
+          name="example-invalid"
         />
 
         <span id="err_1" class="mc-field__error-message">
