@@ -1,33 +1,33 @@
 .mc-field {
-  &__label-wrapper {
-    margin-bottom: $mu050;
-  }
-
   &__label {
-    @include set-font-scale('04','xs');
+    @include set-font-scale('04', 'xs');
 
     color: $color-fields-label;
   }
 
-  &__required {
-    @include set-font-scale('02','xs');
+  &__requirement {
+    @include set-font-scale('02', 'xs');
 
-    color: $color-fields-mandatory;
+    color: $color-fields-requirement;
 
     &::before {
-      content: " - ";
+      content: '\00a0-\00a0';
     }
   }
 
-  &__suggestion {
+  &__help {
     @include set-font-scale('02');
 
-    color: $color-fields-suggestion;
+    color: $color-fields-help;
     display: block;
   }
 
+  &__input {
+    margin-top: magic-unit-rem(0.375, true);
+  }
+
   &__error-message {
-    @include set-font-scale('04','xs');
+    @include set-font-scale('04', 'xs');
 
     color: $color-fields-error;
     margin-top: $mu025;

@@ -15,28 +15,29 @@ Import the settings, the text-input and the fields `scss` files.
 @import 'components/_c.text-input';
 
 @import 'components/_c.fields';
-
 ```
 
 ## Basic usage
 
-To create a fields you have two main class to apply :
+To create a field you have three main class to apply:
+
 - `mc-field` on container
 - `mc-field__label` on label
-
-and reuse the `mc-text-input` class on the input
+- and `mc-field__input` in addition of the `mc-text-input` class on the text-input field
 
 ```html
 <div class="mc-field">
+  <label class="mc-field__label" for="default">
+    Label
+  </label>
 
-  <div class="mc-field__label-wrapper">
-    <label class="mc-field__label" for="inp">
-      Label
-    </label>
-  </div>
-    
-  <input id="inp" type="text" class="mc-text-input" placeholder="Empty" name="example" />
-
+  <input
+    type="text"
+    class="mc-text-input mc-field__input"
+    id="default"
+    placeholder="Input default"
+    name="example-default"
+  />
 </div>
 ```
 
@@ -44,44 +45,45 @@ and reuse the `mc-text-input` class on the input
 
 ## Variations
 
-### Available sizes
+### Input variations
 
-Variations sizes concern only the input field element. So you can use all variations of the text-input.
-See the [Text input component documentation](/Components/TextInput/) for more information
+You can use any of the existing text-input component variations.
 
-### Mandatory
+Read the [Text input component documentation](/Components/TextInput/) for more information.
 
-Add a span with the class `mc-field__required` right after the label
+### Requirement
+
+Add a `span` with the class `mc-field__requirement` right after the label
 
 ```html
 <label class="mc-field__label">
-  Required field
-  <span class="mc-field__required">
+  Label
+  <span class="mc-field__requirement">
     mandatory
   </span>
 </label>
 ```
 
-<Preview path="fields-mandatory" />
+<Preview path="fields-requirement" />
 
-### Suggestion
+### Help
 
-Add a span with the class `mc-field__suggestion` below the label
+Add a span with the class `mc-field__help` below the label
 
 ```html
 <label class="mc-field__label">
-  Suggestion field
+  Label
 </label>
-<span class="mc-field__suggestion">
-  Suggestion
+<span class="mc-field__help">
+  Help text
 </span>
 ```
 
-<Preview path="fields-suggestion" />
+<Preview path="fields-help" />
 
 ## Behaviors
 
-### Standard input states :
+### Standard input states
 
 - `:disabled`
 - `.is-valid`
@@ -93,92 +95,80 @@ Add a span with the class `mc-field__suggestion` below the label
 
 ### Always use field inside a form
 
-
 ```html
 <form>
   <div class="mc-field">
     ...
   </div>
-<form>
+</form>
 ```
 
 ### Always use a label with an input.
 
 ```html
 <div class="mc-field">
-
-  <div class="mc-field__label-wrapper">
-    <label class="mc-field__label" for="myExample">
-      My example
-    </label>
-  </div>
+  <label class="mc-field__label" for="myExample">
+    My example
+  </label>
 
   <input
-    id="myExample"
     type="text"
-    class="mc-text-input"
-    placeholder="Empty"
+    class="mc-text-input mc-field__input"
+    id="myExample"
+    placeholder="Example field"
     name="example"
   />
-
 </div>
 ```
 
-### Suggestion field
+### Help field
 
 The instructions should be ref by `aria-describedby` in input
 
 ```html
 <div class="mc-field">
+  <label class="mc-field__label" for="helpField">
+    Label
+  </label>
 
-  <div class="mc-field__label-wrapper">
-    <label class="mc-field__label" for="suggestionField">
-      Suggestion field
-    </label>
-    <span id="sugg" class="mc-field__suggestion">
-      Suggestion
-    </span>
-  </div>
+  <span id="helptext" class="mc-field__help">
+    Help text
+  </span>
 
   <input
-    id="suggestionField"
+    aria-describedby="helptext"
     type="text"
-    class="mc-text-input"
-    placeholder="Is required"
-    name="example"
-    aria-describedBy="sugg"
+    class="mc-text-input mc-field__input"
+    id="helpField"
+    placeholder="Field with help text"
+    name="example-help"
   />
-
 </div>
 ```
 
 ### Required field
 
-If an input field is mandatory, then the `required` and `aria-required` attributes must be filled in.
-And so the `aria-hidden` attribute must be field on required message
+If an input field is mandatory, then the `required` and `aria-required` attributes must be filled in on the text input field.
+And so the `aria-hidden` attribute must be field on requirement message.
 
 ```html
 <div class="mc-field">
-
-  <div class="mc-field__label-wrapper">
-    <label class="mc-field__label" for="requiredField">
-      Required field
-      <span class="mc-field__required" aria-hidden="true">
-        mandatory
-      </span>
-    </label>
-  </div>
+  <label class="mc-field__label" for="requiredField">
+    Label
+    <span class="mc-field__requirement" aria-hidden="true">
+      mandatory
+    </span>
+  </label>
 
   <input
-    id="requiredField"
-    type="text"
-    class="mc-text-input"
-    placeholder="Is required"
-    name="example"
     required
     aria-required="true"
+    type="text"
+    class="mc-text-input mc-field__input"
+    placeholder="Required field"
+    name="example-requirement"
+    id="requiredField"
   />
-
 </div>
 ```
 
@@ -188,25 +178,22 @@ A text field is invalid when its value does not match the expected type. When a 
 
 ```html
 <div class="mc-field">
+  <label class="mc-field__label" for="invalidField">
+    Label
+  </label>
 
-  <div class="mc-field__label-wrapper">
-    <label class="mc-field__label" for="invalidField">
-      Invalid field
-    </label>
-    
   <input
-      id="invalidField"
-      type="text"
-      class="mc-text-input is-invalid"
-      placeholder="Is invalid"
-      name="example"
-      aria-invalid="true"
-      aria-describedBy="err_1"
+    aria-invalid="true"
+    aria-describedBy="err_1"
+    type="text"
+    class="mc-text-input mc-field__input is-invalid"
+    id="invalidField"
+    placeholder="Invalid"
+    name="example-invalid"
   />
 
-  <span class="mc-field__error-message" id="err_1">
-    Error
+  <span id="err_1" class="mc-field__error-message">
+    Error: the adress field should be at least 32 characters long
   </span>
-
 </div>
 ```
