@@ -14,10 +14,10 @@
         "value": "{color.grey.900.value}"
       },
       "dark": {
-        "value": "{color.grey.800.value}"
+        "value": "{color.grey.700.value}"
       },
       "light": {
-        "value": "{color.grey.700.value}"
+        "value": "{color.grey.500.value}"
       },
       "lightest": {
         "value": "{color.grey.000.value}"

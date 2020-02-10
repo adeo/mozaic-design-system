@@ -224,8 +224,8 @@
   <color name="color_font_primary_02">#ff007574</color>
   <color name="color_font_darkest">#ff000000</color>
   <color name="color_font_darker">#ff222020</color>
-  <color name="color_font_dark">#ff3c3738</color>
-  <color name="color_font_light">#ff554f52</color>
+  <color name="color_font_dark">#ff554f52</color>
+  <color name="color_font_light">#ff887f87</color>
   <color name="color_font_lightest">#ffffffff</color>
   <color name="color_font_info">#ff2282a8</color>
   <color name="color_font_success">#ff41a017</color>

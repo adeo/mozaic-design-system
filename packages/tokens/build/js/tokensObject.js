@@ -4237,9 +4237,9 @@ module.exports = {
         ]
       },
       "dark": {
-        "value": "#3c3738",
+        "value": "#554f52",
         "original": {
-          "value": "{color.grey.800.value}"
+          "value": "{color.grey.700.value}"
         },
         "name": "ColorFontDark",
         "attributes": {
@@ -4254,9 +4254,9 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#554f52",
+        "value": "#887f87",
         "original": {
-          "value": "{color.grey.700.value}"
+          "value": "{color.grey.500.value}"
         },
         "name": "ColorFontLight",
         "attributes": {
