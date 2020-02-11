@@ -4254,9 +4254,9 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#554f52",
+        "value": "#6f676c",
         "original": {
-          "value": "{color.grey.700.value}"
+          "value": "{color.grey.600.value}"
         },
         "name": "ColorFontLight",
         "attributes": {
