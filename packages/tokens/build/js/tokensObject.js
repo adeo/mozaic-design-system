@@ -3501,9 +3501,9 @@ module.exports = {
         ]
       },
       "label": {
-        "value": "#554f52",
+        "value": "#3c3738",
         "original": {
-          "value": "{color.font.light.value}"
+          "value": "{color.font.dark.value}"
         },
         "name": "ColorFieldsLabel",
         "attributes": {
@@ -3517,38 +3517,38 @@ module.exports = {
           "label"
         ]
       },
-      "mandatory": {
-        "value": "#887f87",
+      "requirement": {
+        "value": "#6f676c",
         "original": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.font.light.value}"
         },
-        "name": "ColorFieldsMandatory",
+        "name": "ColorFieldsRequirement",
         "attributes": {
           "category": "color",
           "type": "fields",
-          "item": "mandatory"
+          "item": "requirement"
         },
         "path": [
           "color",
           "fields",
-          "mandatory"
+          "requirement"
         ]
       },
-      "suggestion": {
-        "value": "#887f87",
+      "help": {
+        "value": "#6f676c",
         "original": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.font.light.value}"
         },
-        "name": "ColorFieldsSuggestion",
+        "name": "ColorFieldsHelp",
         "attributes": {
           "category": "color",
           "type": "fields",
-          "item": "suggestion"
+          "item": "help"
         },
         "path": [
           "color",
           "fields",
-          "suggestion"
+          "help"
         ]
       }
     },
