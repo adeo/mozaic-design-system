@@ -1,0 +1,18 @@
+{
+  "color": {
+    "fields": {
+      "error": {
+        "value": "{color.font.danger.value}"
+      },
+      "label": {
+        "value": "{color.font.dark.value}"
+      },
+      "requirement": {
+        "value": "{color.font.light.value}"
+      },
+      "help": {
+        "value": "{color.font.light.value}"
+      }
+    }
+  }
+}

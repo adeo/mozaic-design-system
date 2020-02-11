@@ -3482,6 +3482,76 @@ module.exports = {
         }
       }
     },
+    "fields": {
+      "error": {
+        "value": "#b42a27",
+        "original": {
+          "value": "{color.font.danger.value}"
+        },
+        "name": "ColorFieldsError",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "error"
+        },
+        "path": [
+          "color",
+          "fields",
+          "error"
+        ]
+      },
+      "label": {
+        "value": "#3c3738",
+        "original": {
+          "value": "{color.font.dark.value}"
+        },
+        "name": "ColorFieldsLabel",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "label"
+        },
+        "path": [
+          "color",
+          "fields",
+          "label"
+        ]
+      },
+      "requirement": {
+        "value": "#6f676c",
+        "original": {
+          "value": "{color.font.light.value}"
+        },
+        "name": "ColorFieldsRequirement",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "requirement"
+        },
+        "path": [
+          "color",
+          "fields",
+          "requirement"
+        ]
+      },
+      "help": {
+        "value": "#6f676c",
+        "original": {
+          "value": "{color.font.light.value}"
+        },
+        "name": "ColorFieldsHelp",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "help"
+        },
+        "path": [
+          "color",
+          "fields",
+          "help"
+        ]
+      }
+    },
     "fileuploader": {
       "font": {
         "value": "#000000",

@@ -1,0 +1,35 @@
+.mc-field {
+  &__label {
+    @include set-font-scale('04', 'xs');
+
+    color: $color-fields-label;
+  }
+
+  &__requirement {
+    @include set-font-scale('02', 'xs');
+
+    color: $color-fields-requirement;
+
+    &::before {
+      content: '\00a0-\00a0';
+    }
+  }
+
+  &__help {
+    @include set-font-scale('02');
+
+    color: $color-fields-help;
+    display: block;
+  }
+
+  &__input {
+    margin-top: magic-unit-rem(0.375, true);
+  }
+
+  &__error-message {
+    @include set-font-scale('04', 'xs');
+
+    color: $color-fields-error;
+    margin-top: $mu025;
+  }
+}

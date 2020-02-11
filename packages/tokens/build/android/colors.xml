@@ -185,6 +185,10 @@
   <color name="color_button_bordered_danger_disabled_font">#ff887f87</color>
   <color name="color_button_bordered_danger_active_background">#fffab9bc</color>
   <color name="color_button_bordered_danger_hover_background">#fffeedee</color>
+  <color name="color_fields_error">#ffb42a27</color>
+  <color name="color_fields_label">#ff3c3738</color>
+  <color name="color_fields_requirement">#ff6f676c</color>
+  <color name="color_fields_help">#ff6f676c</color>
   <color name="color_fileuploader_font">#ff000000</color>
   <color name="color_fileuploader_files_list">#ffeeeef0</color>
   <color name="color_fileuploader_files_delete">#ffd3d2d6</color>
