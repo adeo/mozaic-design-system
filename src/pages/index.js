@@ -187,11 +187,11 @@ const Navigation = () => (
   <NavWrapper>
     <Container>
       <Nav>
-        <NavLink to="/GetStarted">Get Started</NavLink>
-        <NavLink to="/Foundations">Documentation</NavLink>
-        <NavLink to="/Contributing">Contribute</NavLink>
-        <NavLink to="/Updates">What's new</NavLink>
-        <NavLink to="/Help">Contact us</NavLink>
+        <NavLink to="/GetStarted/">Get Started</NavLink>
+        <NavLink to="/Foundations/">Documentation</NavLink>
+        <NavLink to="/Contributing/">Contribute</NavLink>
+        <NavLink to="/Updates/">What's new</NavLink>
+        <NavLink to="/Help/">Contact us</NavLink>
       </Nav>
     </Container>
   </NavWrapper>
