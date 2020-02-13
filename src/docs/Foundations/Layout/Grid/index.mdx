@@ -1,23 +1,20 @@
 ---
 title: 'Grid system'
-order: 3
+order: 2
+description: 'A grid is used to create a **more structured and more harmonious design.** It’s the framework of your page, you build the layout by placing blocks of contents (text, images,…) on a certain number of columns.'
 status:
   sketch: 'stable'
   scss: 'stable'
 ---
 
-# Overview
+> A grid is used to create a **more structured and more harmonious design.** It’s the framework of your page, you build the layout by placing blocks of contents (text, images,…) on a certain number of columns. Gutters are used to separate 2 blocks, they give air to the design. Columns and gutters form a container. The container can be **full width or with a fixed size.**
 
-A grid is used to create a **more structured and more harmonious design.** It’s the framework of your page, you build the layout by placing blocks of contents (text, images,…) on a certain number of columns.
-Gutters are used to separate 2 blocks, they give air to the design.
-Columns and gutters form a container. The container can be **full width or with a fixed size.**
+## Grids anatomy
 
-### Grids can be described using the following properties :
-
-- **column count** - the number of columns
-- **gutters** - the space between columns
-- **container width** - it can be either fixed (ex: 1200px) or fluid (take the available space)
-- **container paddings** - they create negative space between the edge of the grid (and therefore the content) and the edge of the container and need to be substracted from the container width to get the effective grid width.
+- **Columns**: It allows to place and structure the content.
+- **Gutters**: It's the space between the columns, it gives the design some air and helps to split the content.
+- **Margins**: It's the space between the edge of the screen and the container.
+- **Container**: The container defines the main content width as well as the minimum negative space between the horizontal edges of the screen and the content.
 
 Those properties can change depending on the breakpoint.
 
@@ -28,34 +25,34 @@ Those properties can change depending on the breakpoint.
 When using a grid, you decide the size of your elements by **the number of columns they use.**
 
 <HintItem>
-  An element should always stand on one or between several columns
+  An element should always stand on one or between several columns.
 </HintItem>
 <HintItem>
-  Elements are always separated by either a gutter or a combination of columns
+  Elements are always separated by either a gutter or a combination of columns.
   and gutter
 </HintItem>
-<HintItem dont>An element should never start on a gutter</HintItem>
+<HintItem dont>An element should never start on a gutter.</HintItem>
 <br />
 
 ![GridPossibilities](GridPossibilities.png)
 ![GridSpacing](GridSpacing.png)
 
-# The Leroy Merlin default Grid
+# LEROY MERLIN's default grid
 
-We work with **12-columns grids** because the number 12 is the most versatile. 12 is divisible among reasonably small numbers; it’s possible to have 12, 6, 4, 3, 2 or 1 evenly spaced columns. This gives designers a lot of flexibility when they create a layout.
+We work with **12-columns grids** because the number twelve is the most versatile. Twelve is divisible among reasonably small numbers; it’s possible to have 12, 6, 4, 3, 2 or 1 evenly spaced columns. This gives designers a lot of flexibility when they create a layout.
 
 <HintItem>
-  Gutters and external margins widths should always be multiples of the Magic
-  Unit.
+  Gutters and margins widths should always be multiples of the Magic Unit.
 </HintItem>
 <br />
 
-| breakpoint                   | grid width                 | Col. width         | Gutter     | cont. Padding | cont. width           |
-| ---------------------------- | -------------------------- | ------------------ | ---------- | ------------- | --------------------- |
-| `s` &nbsp; (0 - 576px)       | fluid                      | fluid              | 16px (1mu) | 16px (1mu)    | fuild                 |
-| `m` &nbsp; (576px - 1100px)  | fluid                      | fluid              | 32px (2mu) | 16px (1mu)    | fluid                 |
-| `l` &nbsp; (1100px - 1920px) | fluid - max: 1312px (82mu) | fluid - 80px (5mu) | 32px (2mu) | 32px (2mu)    | fluid - 1376px (86mu) |
-| `xl` &nbsp; (1920px and up)  | 1312px (82mu)              | 80px (5mu)         | 32px (2mu) | 32px (2mu)    | 1376px (86mu)         |
+| Breakpoint            | Container width | Columns | Columns width            | Gutters width | Margins (on each side) |
+| --------------------- | --------------- | ------- | ------------------------ | ------------- | ---------------------- |
+| `s` (320px and up)    | Fluid           | 12      | Fluid                    | `1mu` 16px    | `1mu` (16px)           |
+| `m` (680px and up)    | Fluid           | 12      | Fluid                    | `2mu` 32px    | `2mu` (32px)           |
+| `l` (1024px and up)   | 928px / Fluid   | 12      | `3mu` (48px) / Fluid     | `2mu` 32px    | `3mu` (48px)           |
+| `xl` (1280px and up)  | 1216px / Fluid  | 12      | `4.5mu` (72px) / Fluid   | `2mu` 32px    | `2mu` (32px)           |
+| `xxl` (1920px and up) | 1840px / Fluid  | 12      | `7.75mu` (124px) / Fluid | `2mu` 32px    | `2.5mu` (40px)         |
 
 <br />
 <small>Reminder : mu = MagicUnit. Ex: 3.5mu = MagicUnit \* 3.5</small>

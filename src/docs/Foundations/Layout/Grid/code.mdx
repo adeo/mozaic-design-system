@@ -7,15 +7,13 @@ order: 1
 
 ## Basics
 
+<HintItem>Use flexy with a container to create page-level layouts.</HintItem>
 <HintItem>
-  Use flexy with a container to create page-level layouts
+  Use flexy when possible to create flex layouts inside smaller elements or
+  components.
 </HintItem>
 
-<HintItem>
-  Use flexy when possible to create flex layouts inside smaller elements ro components
-</HintItem>
-
-### Import the grid :
+### Import the grid
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -27,10 +25,11 @@ order: 1
 ```
 
 `ml-flexy` is very close to the bootstrap flex grid system.
-to create a grid, you need 2 elements :
 
-- a grid: `ml-flexy`
-- columns: `ml-flexy__col`
+To create a grid, you need two elements:
+
+- A grid: `ml-flexy`
+- Columns: `ml-flexy__col`
 
 ```html
 <div class="ml-flexy">
@@ -45,7 +44,8 @@ to create a grid, you need 2 elements :
 ```
 
 <HintItem>
-  Wrap the grid in a ml-container to set external margins and limit the content's maximum width
+  Wrap the grid in a ml-container to set external margins and limit the
+  content's maximum width.
 </HintItem>
 
 ```html
@@ -60,7 +60,7 @@ to create a grid, you need 2 elements :
 
 In most cases you will need gutters.
 
-When **used with gutters**, `.ml-flexy` uses the negative margin pattern : each column as a padding mesuring half a gutter width, and the containing `.ml-flexy` as a negative margin equal to half a gutter width on both side as well.
+When **used with gutters**, `.ml-flexy` uses the negative margin pattern: each column as a padding mesuring half a gutter width, and the containing `.ml-flexy` as a negative margin equal to half a gutter width on both side as well.
 
 ```html
 <div class="ml-flexy ml-flexy--gutter">
@@ -74,16 +74,15 @@ When **used with gutters**, `.ml-flexy` uses the negative margin pattern : each 
 </div>
 ```
 
-### Related tokens :
+### Related tokens
 
-| token name             | description                                  | value      |
+| Token name             | Description                                  | Value      |
 | ---------------------- | -------------------------------------------- | ---------- |
-| `size.gutter.screen.s` | the gutter width for smallest devices and up | 16px (1mu) |
-| `size.gutter.screen.m` | the gutter width for screen `m` and up       | 32px (2mu) |
+| `size.gutter.screen.s` | The gutter width for smallest devices and up | `1mu` 16px |
+| `size.gutter.screen.m` | The gutter width for screen `m` and up       | `2mu` 32px |
 
 <br />
-
-<small>Reminder : mu = MagicUnit. Ex: 3.5mu = MagicUnit \* 3.5</small>
+<small>Reminder: mu = MagicUnit. Ex: 3.5mu = MagicUnit \* 3.5</small>
 
 ## Columns
 
@@ -101,7 +100,7 @@ Adding 3 `.ml-flexy__col` in a same `.ml-flexy` container will result in 3 colum
 
 ### Columns widths
 
-you can apply specific columns width using `.ml-flexy__col` modifiers :
+You can apply specific columns width using `.ml-flexy__col` modifiers:
 
 | Modifier                  | Width                       |
 | ------------------------- | --------------------------- |
@@ -119,43 +118,40 @@ you can apply specific columns width using `.ml-flexy__col` modifiers :
 | `.ml-flexy__col--full`    | 100%                        |
 
 <br />
-
 <Preview path="flexy" />
 
 ### Responsive widths
 
 Apply widths to breakpoints using the `@from-XX` sufix to the widths modifiers.
 
-The available breakpoints modifiers are :
+The available breakpoints modifiers are:
 
-| Modifier                              | breakpoint                     | corresponding device                 |
-| ------------------------------------- | ------------------------------ | ------------------------------------ |
-| `ml-flexy__col--[size]` (no modifier) | from 0px and up                | mobile / all                         |
-| `ml-flexy__col--[size]@from-m`        | **m**: from **680px and up**   | fablet / small tablet and up         |
-| `ml-flexy__col--[size]@from-l`        | **l**: from **1024px and up**  | landscape tablets, laptops |
-| `ml-flexy__col--[size]@from-xl`       | **xl**: from **1280px and up** | laptops (depending on settings)      |
-| `ml-flexy__col--[size]@from-xxl`       | **xxl**: from **1920px and up** | desktop                             |
+| Modifier                              | Breakpoint                  | Corresponding device            |
+| ------------------------------------- | --------------------------- | ------------------------------- |
+| `ml-flexy__col--[size]` (no modifier) | From 0px and up             | Mobile / All                    |
+| `ml-flexy__col--[size]@from-m`        | **m**: From 680px and up    | Fablet / Small tablet and up    |
+| `ml-flexy__col--[size]@from-l`        | **l**: From 1024px and up   | Landscape tablets, laptops      |
+| `ml-flexy__col--[size]@from-xl`       | **xl**: From 1280px and up  | Laptops (depending on settings) |
+| `ml-flexy__col--[size]@from-xxl`      | **xxl**: From 1920px and up | Desktop                         |
 
 <br />
-
 <Preview path="flexyResponsive" />
 
 ## Alignment
 
 You can align columns in a `ml-flexy` using the `ml-flexy--items-[xxx]` modifiers.
 
-Available modifiers are :
+Available modifiers are:
 
-| Modifier                  | value                   | behavior                        |
+| Modifier                  | Value                   | Behavior                        |
 | ------------------------- | ----------------------- | ------------------------------- |
-| default (no modifiers)    | align-items: flex-start | top alignment                   |
-| `ml-flexy--items-end`     | align-items: flex-end   | bottom alignment                |
-| `ml-flexy--items-center`  | align-items: center     | vertically centered             |
-| `ml-flexy--items-start`   | align-items: flex-start | top alignment                   |
-| `ml-flexy--items-stretch` | align-items: stretch    | all columns use the same height |
+| default (no modifiers)    | align-items: flex-start | Top alignment                   |
+| `ml-flexy--items-end`     | align-items: flex-end   | Bottom alignment                |
+| `ml-flexy--items-center`  | align-items: center     | Vertically centered             |
+| `ml-flexy--items-start`   | align-items: flex-start | Top alignment                   |
+| `ml-flexy--items-stretch` | align-items: stretch    | All columns use the same height |
 
 <br />
-
 <Preview path="flexyAlign" />
 
 ## Pushing a column to the left
@@ -175,23 +171,23 @@ You can push a column using the `ml-flexy__col--push-[XofY]` modifiers.
 ...
 ```
 
-All columns widths (numerical) are available as push values from `1of12`, `1of6`, `1of4` ... to `11of12`
+All columns widths (numerical) are available as push values from `1of12`, `1of6`, `1of4` ... to `11of12`.
 
 <Preview path="flexyPush" />
 
 ### Responsive push modifiers
 
-Apply widths to breakpoints using the `@from-XX` sufix to the widths modifiers.
+Apply widths to breakpoints using the `@from-XX` suffix to the width modifiers.
 
-The available breakpoints modifiers are :
+The available breakpoints modifiers are:
 
-| Modifier                                   | breakpoint                     | corresponding device                 |
-| ------------------------------------------ | ------------------------------ | ------------------------------------ |
-| `ml-flexy__col--push-[size]` (no modifier) | from 0px and up                | mobile / all                         |
-| `ml-flexy__col--push-[size]@from-m`        | **m**: from **680px and up**   | fablet / small tablet and up         |
-| `ml-flexy__col--push-[size]@from-l`        | **l**: from **1024px and up**  | landscape tablets, laptops |
-| `ml-flexy__col--push-[size]@from-xl`       | **xl**: from **1280px and up** | laptops (depending on settings)      |
-| `ml-flexy__col--push-[size]@from-xxl`      | **xxl**: from **1920px and up** | desktop                             |
+| Modifier                                   | Breakpoint                  | Corresponding device            |
+| ------------------------------------------ | --------------------------- | ------------------------------- |
+| `ml-flexy__col--push-[size]` (no modifier) | From 0px and up             | Mobile / All                    |
+| `ml-flexy__col--push-[size]@from-m`        | **m**: From 680px and up    | Fablet / Small tablet and up    |
+| `ml-flexy__col--push-[size]@from-l`        | **l**: From 1024px and up   | Landscape tablets, laptops      |
+| `ml-flexy__col--push-[size]@from-xl`       | **xl**: From 1280px and up  | Laptops (depending on settings) |
+| `ml-flexy__col--push-[size]@from-xxl`      | **xxl**: From 1920px and up | Desktop                         |
 
 ## Nesting flexy grids
 
@@ -212,7 +208,7 @@ You can either nest flexy grids by creating a new `.ml-flexy` grid inside a colu
 
 <Preview path="flexyNested" />
 
-## Columns Order
+## Columns order
 
 Use the `ml-flexy__col--last` and `ml-flexy__col--first` modifier to reorder columns.
 
@@ -226,29 +222,29 @@ Use the `ml-flexy--space-around` and the `ml-flexy--items-center` modifier on a 
 
 ## Customisation and mixins
 
-There is 8 available mixins that you can work with to help you create layouts :
+There is eight available mixins that you can work with to help you create layouts :
 
-- `set-flexy` : add flex properties to a container (similar than `.ml-flexy`)
-- `set-flexy-width` : add a width properties to a flex child (similar than `.ml-flexy__col--XofX`)
-- `set-flexy-gutter` and `set-flexy-col-gutter` : add gutters to the a flex container and his child
-- `set-flexy-col-push` : add a margin left to a flex child (similar than `.ml-flexy__col--push-XofX`)
-- `make-flexy-col` : create a new column width of type `.ml-flexy__col--XofX`
-- `make-flexy-custom-col` : create custom columns (with any properties you whant `.ml-flexy__col--XXX`)
-- `make-flexy-col-push` : create a new column push of type `.ml-flexy__col--push-XofX`
+- `set-flexy` : Add flex properties to a container (similar than `.ml-flexy`).
+- `set-flexy-width` : Add a width properties to a flex child (similar than `.ml-flexy__col--XofX`).
+- `set-flexy-gutter` and `set-flexy-col-gutter` : Add gutters to the a flex container and his child.
+- `set-flexy-col-push` : Add a margin left to a flex child (similar than `.ml-flexy__col--push-XofX`).
+- `make-flexy-col` : Create a new column width of type `.ml-flexy__col--XofX`.
+- `make-flexy-custom-col` : Create custom columns (with any properties you whant `.ml-flexy__col--XXX`).
+- `make-flexy-col-push` : Create a new column push of type `.ml-flexy__col--push-XofX`.
 
 ### The set-flexy-xxx mixins
 
 <HintItem>
-Use the set-flexy-xxx to mimic the behavior of a grid without applying classes on the dom
+  Use the set-flexy-xxx to mimic the behavior of a grid without applying classes
+  on the dom.
 </HintItem>
 
-Example : Create a blog post layout with an image and a text. From tablet screens, put the text in front of the image.
+Example: Create a blog post layout with an image and a text. From tablet screens, put the text in front of the image.
 
 ```scss
 @import 'settings-tools/_all-settings';
 
 @include import-font-families();
-
 
 .post-item {
   $gutter: $mu200;
@@ -284,7 +280,7 @@ Example : Create a blog post layout with an image and a text. From tablet screen
 
 #### set-flexy-xxx mixins parameters
 
-- `set-flexy` : no argument required
+- `set-flexy` : No argument required
 - `set-flexy-width` : `$portion`: required - integer, `$of`: required - integer
 - `set-flexy-gutter` and `set-flexy-col-gutter` : `$gutter` : required - a `rem` value of the total gutter width
 - `set-flexy-col-push` : `$portion`: required - integer, `$of`: required - integer
@@ -292,16 +288,17 @@ Example : Create a blog post layout with an image and a text. From tablet screen
 ### The make-flexy-xxx mixins
 
 <HintItem>
-Use the make-flexy-xxx to create aditional columns and options to the grid system
+  Use the make-flexy-xxx to create aditional columns and options to the grid
+  system.
 </HintItem>
 
 #### Make-flexy-xxx mixins parameters
 
-- `make-flexy-col` : create a new column width of type `.ml-flexy__col--XofX`
-- `make-flexy-custom-col` : create custom columns (with any properties you whant `.ml-flexy__col--XXX`)
-- `make-flexy-col-push` : create a new column push of type `.ml-flexy__col--push-XofX`
+- `make-flexy-col` : Create a new column width of type `.ml-flexy__col--XofX`
+- `make-flexy-custom-col` : Create custom columns (with any properties you whant `.ml-flexy__col--XXX`)
+- `make-flexy-col-push` : Create a new column push of type `.ml-flexy__col--push-XofX`
 
-#### Example : adding columns to the flexy grid
+#### Example: adding columns to the flexy grid
 
 Please consider that you need to keep the import order clean and that you should add your grid extension right after the import of flexy.
 
