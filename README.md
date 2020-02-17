@@ -18,7 +18,7 @@ You can report any bug or request a feature or improvment [filling an issue here
 
 ## Installation
 
-Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Prerequisite/InstallForDev/)
+Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/)
 
 ## Design system core team
 
