@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.4](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.3...v1.0.1-beta.4) (2020-02-17)
+
+
+### Bug Fixes
+
+* **foundations/gridsystem:** add the disappeared doc and fixed some typos ([#487](https://github.com/adeo/mozaic-design-system/issues/487)) ([fe7b8c6](https://github.com/adeo/mozaic-design-system/commit/fe7b8c6af35139896ab75dd28ca9158be024b74d))
+* **pattern/font colors:** modify font-colors for accessibility (use darker values) ([#486](https://github.com/adeo/mozaic-design-system/issues/486)) ([b9fedb1](https://github.com/adeo/mozaic-design-system/commit/b9fedb14a77aaff82410f941b2cb227f2ad29475))
+* **pattern/notifications:** improve requirements to use pattern notification ([#489](https://github.com/adeo/mozaic-design-system/issues/489)) ([c7f2e0e](https://github.com/adeo/mozaic-design-system/commit/c7f2e0e5dd27cad98abd0328a71539754242e757))
+* **website/links:** repair broken links in the documentation ([#488](https://github.com/adeo/mozaic-design-system/issues/488)) ([7d1e897](https://github.com/adeo/mozaic-design-system/commit/7d1e897c584bf4699d76bf9f5b48596fc2a29993))
+
+
+### Features
+
+* **pattern/fields:** create fields component ([#483](https://github.com/adeo/mozaic-design-system/issues/483)) ([892a155](https://github.com/adeo/mozaic-design-system/commit/892a155758dd3b1707eab6bc4bde432cc2be9b99))
+* **pattern/sketchfiles:** design kit sketch files update ([#490](https://github.com/adeo/mozaic-design-system/issues/490)) ([df300d0](https://github.com/adeo/mozaic-design-system/commit/df300d07cfc3c86aaa9cff8f2367511bf775a6f4))
+
+
+
+
+
 ## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
 
 

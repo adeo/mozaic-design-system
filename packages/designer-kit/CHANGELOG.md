@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.4](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.3...v1.0.1-beta.4) (2020-02-17)
+
+
+### Features
+
+* **pattern/sketchfiles:** design kit sketch files update ([#490](https://github.com/adeo/mozaic-design-system/issues/490)) ([df300d0](https://github.com/adeo/mozaic-design-system/commit/df300d07cfc3c86aaa9cff8f2367511bf775a6f4))
+
+
+
+
+
 ## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
 
 

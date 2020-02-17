@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.4](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.3...v1.0.1-beta.4) (2020-02-17)
+
+
+### Features
+
+* **pattern/fields:** create fields component ([#483](https://github.com/adeo/mozaic-design-system/issues/483)) ([892a155](https://github.com/adeo/mozaic-design-system/commit/892a155758dd3b1707eab6bc4bde432cc2be9b99))
+
+
+
+
+
 ## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
 
 
