@@ -22,6 +22,10 @@
     color: $color-input-checked-icon;
   }
 
+  &__label {
+    margin-left: $checkbox-label-space;
+  }
+
   &.is-invalid {
     border-color: $color-input-invalid-border;
 
