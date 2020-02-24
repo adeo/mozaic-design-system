@@ -2,101 +2,107 @@
 
 /* stylelint-disable no-descending-specificity */
 .mc-checkbox {
-  @include reset-input;
-
-  min-width: $checkbox-min-width;
-  min-height: $checkbox-min-height;
-  width: $checkbox-width;
-  height: $checkbox-width;
-  border-radius: $checkbox-border-radius;
-  border: $checkbox-border-width solid $color-input-border;
-  background: $color-input-background;
-  position: relative;
-  transition: background-color ease 200ms, border ease 200ms;
-  cursor: pointer;
-
-  &::-ms-check {
-    border: $checkbox-border-width solid $color-input-border;
-    background: $color-input-background;
-    border-radius: $checkbox-border-radius;
-    color: $color-input-checked-icon;
-  }
+  vertical-align: middle;
 
   &__label {
-    margin-left: $checkbox-label-space;
+    vertical-align: middle;
+    padding: 0 $mu050;
   }
 
-  &.is-invalid {
-    border-color: $color-input-invalid-border;
+  &__input {
+    @include reset-input;
+
+    vertical-align: middle;
+    min-width: $checkbox-min-width;
+    min-height: $checkbox-min-height;
+    width: $checkbox-width;
+    height: $checkbox-width;
+    border-radius: $checkbox-border-radius;
+    border: $checkbox-border-width solid $color-input-border;
+    background: $color-input-background;
+    position: relative;
+    transition: background-color ease 200ms, border ease 200ms;
+    cursor: pointer;
 
     &::-ms-check {
+      border: $checkbox-border-width solid $color-input-border;
+      background: $color-input-background;
+      border-radius: $checkbox-border-radius;
+      color: $color-input-checked-icon;
+    }
+
+    &.is-invalid {
       border-color: $color-input-invalid-border;
+
+      &::-ms-check {
+        border-color: $color-input-invalid-border;
+      }
+
+      &:hover {
+        @include add-demo-state-class {
+          border-color: $color-input-invalid-hover-border;
+
+          &::-ms-check {
+            border-color: $color-input-invalid-hover-border;
+          }
+        }
+      }
     }
 
     &:hover {
       @include add-demo-state-class {
-        border-color: $color-input-invalid-hover-border;
+        border-color: $color-input-hover-border;
 
         &::-ms-check {
-          border-color: $color-input-invalid-hover-border;
+          border-color: $color-input-hover-border;
         }
       }
     }
-  }
 
-  &:hover {
-    @include add-demo-state-class {
-      border-color: $color-input-hover-border;
-
-      &::-ms-check {
-        border-color: $color-input-hover-border;
-      }
-    }
-  }
-
-  &:focus {
-    @include add-demo-state-class {
-      border-color: $color-input-focus-border;
-
-      &::-ms-check {
+    &:focus {
+      @include add-demo-state-class {
         border-color: $color-input-focus-border;
+
+        &::-ms-check {
+          border-color: $color-input-focus-border;
+        }
       }
     }
-  }
 
-  &:disabled {
-    border-color: $color-input-disabled-border;
-    background: $color-input-disabled-background;
-    cursor: default;
-
-    &::-ms-check {
+    &:disabled {
       border-color: $color-input-disabled-border;
       background: $color-input-disabled-background;
-    }
-  }
-
-  &:checked {
-    background-color: $color-input-checked-background;
-    border-color: $color-input-checked-border;
-    background-image:
-      url(
-        inline-icons(
-          'checkmark-16',
-          $color-input-checked-icon
-        ));
-    background-position: center center;
-    background-size: $mu100;
-
-    &::-ms-check {
-      background-color: $color-input-checked-background;
-      border-color: $color-input-checked-border;
-    }
-
-    &:hover {
-      border-color: $color-input-checked-hover-border;
+      cursor: default;
 
       &::-ms-check {
+        border-color: $color-input-disabled-border;
+        background: $color-input-disabled-background;
+      }
+    }
+
+    &:checked {
+      background-color: $color-input-checked-background;
+      border-color: $color-input-checked-border;
+      background-image:
+        url(
+          inline-icons(
+            'checkmark-16',
+            $color-input-checked-icon
+          ));
+      background-position: center center;
+      background-size: $mu100;
+
+      &::-ms-check {
+        background-color: $color-input-checked-background;
+        border-color: $color-input-checked-border;
+      }
+
+      &:hover {
         border-color: $color-input-checked-hover-border;
+
+        &::-ms-check {
+          border-color: $color-input-checked-hover-border;
+        }
       }
     }
   }
