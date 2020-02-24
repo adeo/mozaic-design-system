@@ -6,7 +6,7 @@ Gatsby allow us to build static html websites that, once loaded on the client ac
 
 building a styleguide using a static site generator instead of reliyng on a database allow us to use a versionned styleguide that match the assets and framework that it is based on.
 
-We tryed to focus on developper experience, meaning that working with it should be as simple as possible.
+We tried to focus on developper experience, meaning that working with it should be as simple as possible.
 
 You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
