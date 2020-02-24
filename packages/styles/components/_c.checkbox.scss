@@ -7,7 +7,7 @@
   &__label {
     @include set-font-scale('05', 'xs');
 
-    margin-left: magic-unit-rem(0.375, true);
+    margin-left: magic-unit-rem(0.5, true);
   }
 
   &__input {
