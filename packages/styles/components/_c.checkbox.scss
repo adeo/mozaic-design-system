@@ -2,17 +2,17 @@
 
 /* stylelint-disable no-descending-specificity */
 .mc-checkbox {
-  vertical-align: middle;
+  display: flex;
 
   &__label {
-    vertical-align: middle;
-    padding: 0 $mu050;
+    @include set-font-scale('05', 'xs');
+
+    margin-left: magic-unit-rem(0.375, true);
   }
 
   &__input {
     @include reset-input;
 
-    vertical-align: middle;
     min-width: $checkbox-min-width;
     min-height: $checkbox-min-height;
     width: $checkbox-width;
