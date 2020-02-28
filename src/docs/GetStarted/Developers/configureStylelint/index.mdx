@@ -61,6 +61,25 @@ Please checkout [Mozaic configuration](/GetStarted/Developers/Configuration/#sty
 
 </Highlight>
 
+### Add your own stylelint rules 
+
+It can appear that sometimes you need to use custom rules in stylelint configuration file for your project, you can add it this way in `stylelint.config.js`: 
+
+```js
+'use strict';
+const mozaicRules = require('@mozaic-ds/css-dev-tools/styleLintConfig.js');
+
+const customRules = {
+  'color-no-invalid-hex': null,
+  'font-family-no-duplicate-names': null
+};
+
+const stylelintConfig = mozaicRules;
+stylelintConfig.rules = {...mozaicRules.rules, ...customRules};
+
+module.exports = stylelintConfig;
+```
+
 
 ### Disabling stylelint rules using inline comments
 
