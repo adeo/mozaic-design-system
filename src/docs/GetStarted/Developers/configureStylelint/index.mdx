@@ -61,9 +61,15 @@ Please checkout [Mozaic configuration](/GetStarted/Developers/Configuration/#sty
 
 </Highlight>
 
-### Add your own stylelint rules 
+### Add custom rules 
 
-It can appear that sometimes you need to use custom rules in stylelint configuration file for your project, you can add it this way in `stylelint.config.js`: 
+<Highlight theme="warning" title="Only for advanced users">
+  The trick below is for advanced users only.
+  By doing this evolution you go out of the rules set and planned by Mozaic. 
+  As a result, we cannot fully guarantee the optimal functioning of Mozaic. So be sure of what you are doing.
+</Highlight>
+
+Sometimes you may need to customize Stylelint rules or add new ones. To do this, you can expand your `stylelint.config.js` file this way : 
 
 ```js
 'use strict';
