@@ -34,7 +34,7 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 
 **Contact on Adeo's Slack:** Gael Boyenval
 
-### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste/?originalSubdomain=fr)
+### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste)
 
 **Role for the project:**
 
