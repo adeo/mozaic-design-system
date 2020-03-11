@@ -27,7 +27,6 @@ test/screenshots
 
 # static previews
 static/Components
-static/Foundations
 local.log
 
 .jest-cache
