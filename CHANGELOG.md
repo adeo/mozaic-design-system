@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.5](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.4...v1.0.1-beta.5) (2020-03-11)
+
+
+### Bug Fixes
+
+* **onboard/readme:** fix spellcheck error on the readme ([#492](https://github.com/adeo/mozaic-design-system/issues/492)) ([ca6dda5](https://github.com/adeo/mozaic-design-system/commit/ca6dda521db4620dad74ee50cd59ca866012494f))
+* **pattern/magic-unit:** add $mu175 variable and spell-check ([#496](https://github.com/adeo/mozaic-design-system/issues/496)) ([308187b](https://github.com/adeo/mozaic-design-system/commit/308187b2ddb9562945a43b24ec2bc291e6049208))
+* **patterns/buttons:** add pointer-events property on button label ([#498](https://github.com/adeo/mozaic-design-system/issues/498)) ([4faddef](https://github.com/adeo/mozaic-design-system/commit/4faddef5f54329ceeeb3298a4dd68758282f8ee4))
+
+
+### Features
+
+* **pattern/checkbox:** add label to checkbox ([#491](https://github.com/adeo/mozaic-design-system/issues/491)) ([3b08763](https://github.com/adeo/mozaic-design-system/commit/3b087637d5e5a1968e2ced8fd621834ffd17682f))
+* **stylelint:** update documentation for stylelint customization ([#494](https://github.com/adeo/mozaic-design-system/issues/494)) ([ef930f3](https://github.com/adeo/mozaic-design-system/commit/ef930f30bbe6e6ee043b8013a8f92becbb9789c5))
+
+
+
+
+
 ## [1.0.1-beta.4](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.3...v1.0.1-beta.4) (2020-02-17)
 
 

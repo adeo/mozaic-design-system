@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.5](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.4...v1.0.1-beta.5) (2020-03-11)
+
+
+### Bug Fixes
+
+* **pattern/magic-unit:** add $mu175 variable and spell-check ([#496](https://github.com/adeo/mozaic-design-system/issues/496)) ([308187b](https://github.com/adeo/mozaic-design-system/commit/308187b2ddb9562945a43b24ec2bc291e6049208))
+* **patterns/buttons:** add pointer-events property on button label ([#498](https://github.com/adeo/mozaic-design-system/issues/498)) ([4faddef](https://github.com/adeo/mozaic-design-system/commit/4faddef5f54329ceeeb3298a4dd68758282f8ee4))
+
+
+### Features
+
+* **pattern/checkbox:** add label to checkbox ([#491](https://github.com/adeo/mozaic-design-system/issues/491)) ([3b08763](https://github.com/adeo/mozaic-design-system/commit/3b087637d5e5a1968e2ced8fd621834ffd17682f))
+
+
+
+
+
 ## [1.0.1-beta.4](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.3...v1.0.1-beta.4) (2020-02-17)
 
 
