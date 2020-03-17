@@ -45,8 +45,11 @@ const Main = styled.main`
   position: relative;
 `
 
-const MenuContainer = styled.nav`
-  border-right: solid 1px #f5f5f5;
+const AsideContainer = styled.aside`
+  background: #eeeef0;
+  min-height: 100vh;
+  position: relative;
+  width: 18.75rem;
 `
 
 const Layout = ({ children, location }) => {
@@ -61,12 +64,12 @@ const Layout = ({ children, location }) => {
         return (
           <Global>
             <Helmet title={data.site.siteMetadata.title}></Helmet>
-            <MenuContainer>
+            <AsideContainer>
               <Menu
                 location={location}
                 siteTitle={data.site.siteMetadata.title}
               />
-            </MenuContainer>
+            </AsideContainer>
             <MDXProvider components={shortcodes}>
               <Main id="scroller">{children}</Main>
             </MDXProvider>

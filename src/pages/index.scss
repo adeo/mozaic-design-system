@@ -12,6 +12,11 @@ html {
   font-weight: 400;
 }
 
+input,
+select {
+  font-family: 'Karla', sans-serif;
+}
+
 .button {
   display: inline-block;
   background: #fff;
@@ -26,5 +31,9 @@ html {
 
   &:hover {
     background: rgba(0, 0, 0, 0.1);
+  }
+
+  &__menu {
+    margin: 1.75rem 0 2.5rem;
   }
 }

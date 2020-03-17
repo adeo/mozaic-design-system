@@ -7,42 +7,12 @@ import DesignerKitLink from '../DesignerKitLink'
 import withSiteMapData from '../SiteMapData'
 import { StaticQuery, graphql } from 'gatsby'
 import { parseLocation } from '../SiteMapData/tools'
+import MenuVersionSelect from './MenuVersionSelect'
 
-const MenuItemContainer = styled.div`
-  display: flex;
-`
-const ShowChildrenButton = styled.button`
-  cursor: pointer;
-  flex: initial;
-  align-self: flex-end;
-  border: none;
-  outline: none;
-  background: none;
-  color: #666;
-  font-size: 0.75rem;
-`
-
-const Arrow = styled.svg`
-  display: inline-block;
-
-  ${({ isOpenned }) =>
-    isOpenned &&
-    css`
-      transform: rotate(-180deg);
-    `}
-`
-const Container = styled.div`
-  width: 220px;
-  display: flex;
-  flex-flow: column nowrap;
-  max-height: 100vh;
-  overflow: hidden;
-`
-
-const NavContainer = styled.nav`
-  padding: 0 8px 0 16px;
-  flex: 1;
-  overflow: auto;
+const Wrapper = styled.div`
+  height: calc(100vh - 6rem);
+  overflow-y: auto;
+  padding: 2.5rem 1.5rem 0;
 `
 
 const UlMenu = styled.ul`
@@ -57,15 +27,88 @@ const UlMenu = styled.ul`
 `
 
 const ListItem = styled.li`
-  padding-left: 0.5rem;
-
   ${({ isOpened, level }) =>
-    !isOpened &&
-    level === 2 &&
+    isOpened &&
+    level === 1 &&
     css`
-      border-left: 3px solid #f5f5f5;
+      &:not(:last-child) {
+        border-bottom: 1px solid #000;
+        padding-bottom: 1rem;
+      }
+
+      & + [class^='Menu__ListItem'] {
+        padding-top: 1rem;
+      }
     `}
 `
+
+const MenuItemContainer = styled.div`
+  display: flex;
+  position: relative;
+
+  ${({ isOpened, level }) => {
+    if (isOpened && level === 1) {
+      return css`
+        &:not(:only-child) {
+          border-bottom: 1px solid black;
+
+          & + div {
+            padding-top: 1.188rem;
+          }
+        }
+      `
+    }
+  }}
+`
+
+const ShowChildrenButton = styled.button`
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+  height: 0.75rem;
+  width: 0.75rem;
+  top: 50%;
+  margin-top: -0.375rem;
+
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #554f52;
+  }
+
+  &::after {
+    height: 2px;
+    width: 0.75rem;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+  }
+
+  &::before {
+    height: 0.75rem;
+    width: 2px;
+    top: 50%;
+    margin-top: -0.375rem;
+    left: 0.312rem;
+  }
+
+  ${({ isOpened }) => {
+    if (isOpened) {
+      return css`
+        &::before {
+          display: none;
+        }
+      `
+    }
+  }}
+`
+
+const NavContainer = styled.nav``
 
 class Menu extends Component {
   static propTypes = {
@@ -121,9 +164,9 @@ class Menu extends Component {
           <ListItem
             key={item.dirPath}
             level={item.level}
-            isOpenned={item.isOpened}
+            isOpened={item.isOpened}
           >
-            <MenuItemContainer>
+            <MenuItemContainer level={item.level} isOpened={item.isOpened}>
               <MenuItem
                 to={item.slug}
                 content={item.title}
@@ -132,27 +175,18 @@ class Menu extends Component {
               />
               {item.content.length > 0 && (
                 <ShowChildrenButton
+                  isOpened={item.isOpened}
                   onClick={
                     item.isOpened
                       ? () => this.closeMenu(item.dirPath)
                       : () => this.openMenu(item.dirPath)
                   }
                 >
-                  <Arrow
-                    isOpenned={item.isOpened}
-                    viewBox="0 0 35.57 35.53"
-                    width="20"
-                    height="20"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M17.66,23.12l-8.5-8.5a1,1,0,0,1,0-1.42,1,1,0,0,1,1.41,0l7.09,7.09,7.08-7.09a1,1,0,0,1,1.41,0,1,1,0,0,1,0,1.42Z"
-                    />
-                  </Arrow>
+                  &nbsp;
                 </ShowChildrenButton>
               )}
             </MenuItemContainer>
-            {item.content && (
+            {item.content.length > 0 && (
               <div>{this.buildMenu(item.content, item.isOpened)}</div>
             )}
           </ListItem>
@@ -169,24 +203,27 @@ class Menu extends Component {
         query={query}
         render={data => {
           return (
-            <Container>
-              <MenuHeader
-                siteTitle={siteTitle}
-                githubReleases={data.allGithubRelease.edges}
-              />
-              <NavContainer>
-                {this.buildMenu(this.state.menuArray, true)}
+            <React.Fragment>
+              <Wrapper>
+                <MenuHeader
+                  siteTitle={siteTitle}
+                  githubReleases={data.allGithubRelease.edges}
+                />
+                <NavContainer>
+                  {this.buildMenu(this.state.menuArray, true)}
 
-                <DesignerKitLink
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="button__menu button button--secondary"
-                  title="Download the IU kit"
-                >
-                  Download the design kit
-                </DesignerKitLink>
-              </NavContainer>
-            </Container>
+                  <DesignerKitLink
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button button--secondary button__menu"
+                    title="Download the IU kit"
+                  >
+                    Download the design kit
+                  </DesignerKitLink>
+                </NavContainer>
+              </Wrapper>
+              <MenuVersionSelect githubReleases={data.allGithubRelease.edges} />
+            </React.Fragment>
           )
         }}
       />

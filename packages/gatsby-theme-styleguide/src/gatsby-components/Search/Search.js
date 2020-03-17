@@ -2,24 +2,25 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-const ResulWrapper = styled.div`
-  position: absolute;
-  right: 0;
-  max-width: 100vw;
-  width: 440px;
-  background: #fff;
-  font-size: 1rem;
-  text-transform: none;
-  box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.3);
-  border-radius: 6px;
-  overflow: hidden;
+const SearchWrapper = styled.div`
+  margin-bottom: 3rem;
+  position: relative;
 `
 
-const SearchWrapper = styled.div`
-  position: fixed;
-  right: 1.875rem;
-  top: 0.75rem;
-  z-index: 99;
+const Input = styled.input`
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #6f676c;
+  color: #6f676c;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.437rem 0.625rem;
+  position: relative;
+  width: 100%;
 `
 
 const ItemSearch = styled.div`
@@ -40,6 +41,20 @@ const ItemSearch = styled.div`
   }
 `
 
+const ResultWrapper = styled.div`
+  background: #fff;
+  border-radius: 0.375rem;
+  box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  left: 0;
+  max-width: 100vw;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-transform: none;
+  z-index: 100;
+`
+
 const Title = styled.div``
 
 const Url = styled.div`
@@ -49,45 +64,10 @@ const Url = styled.div`
   text-transform: uppercase;
   letter-spacing: 0.15em;
 `
+
 const Description = styled.div`
   font-weight: 400;
   font-size: 0.8rem;
-`
-
-const Input = styled.input`
-  font-family: 'LeroyMerlin', sans-serif;
-  font-weight: 400;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  outline: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  padding: 0;
-  margin: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: none;
-  font-size: 0.875rem;
-  line-height: 1.5714286;
-  padding: calc(0.3125rem - 0.125em - 1px) 0.5rem calc(0.3125rem + 0.125em - 1px);
-  display: block;
-  width: 100%;
-  position: relative;
-  border: 1px solid #6f676c;
-  color: #222020;
-  background-color: #ffffff;
-  border-radius: 4px;
-}
-
-&::placeholder {
-  font-size: 0.875rem;
-  line-height: 1.5714286;
-}
-
-&:focus {
-  border-color: #25a8d0;
-}
 `
 
 const ErrMessage = styled.div`
@@ -143,9 +123,9 @@ class Search extends Component {
           onChange={this.search}
           placeholder={'Search'}
         />
-        <ResulWrapper>
+        <ResultWrapper>
           <ResultList />
-        </ResulWrapper>
+        </ResultWrapper>
       </SearchWrapper>
     )
   }
