@@ -59,7 +59,7 @@ class MenuVersionRelease extends Component {
         <LabelVersion>older tags:</LabelVersion>
         <select defaultValue="default" onChange={this.handleChange}>
           <option key="default" value="default">
-            Choose version
+            -- Choose version --
           </option>
           <option key="latest" value="https://mozaic.adeo.cloud/">
             latest release

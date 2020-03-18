@@ -27,6 +27,11 @@ const MenuLink = styled(Link)`
       return css`
         font-size: 1.25rem;
         padding: 0.125rem 0 0.312rem;
+
+        &:focus,
+        &:hover {
+          font-weight: bold;
+        }
       `
     }
 

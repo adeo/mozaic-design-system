@@ -203,7 +203,7 @@ class Menu extends Component {
         query={query}
         render={data => {
           return (
-            <React.Fragment>
+            <>
               <Wrapper>
                 <MenuHeader
                   siteTitle={siteTitle}
@@ -223,7 +223,7 @@ class Menu extends Component {
                 </NavContainer>
               </Wrapper>
               <MenuVersionSelect githubReleases={data.allGithubRelease.edges} />
-            </React.Fragment>
+            </>
           )
         }}
       />

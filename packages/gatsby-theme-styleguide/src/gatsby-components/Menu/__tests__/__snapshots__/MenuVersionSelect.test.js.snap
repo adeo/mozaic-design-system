@@ -48,7 +48,7 @@ exports[`<MenuVersionSelect /> render corectly 1`] = `
     <option
       value="default"
     >
-      Choose version
+      -- Choose version --
     </option>
     <option
       value="https://mozaic.adeo.cloud/"
