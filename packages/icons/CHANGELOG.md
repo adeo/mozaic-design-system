@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.6](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.5...v1.0.1-beta.6) (2020-03-19)
+
+
+### Bug Fixes
+
+* **pattern/ vuejs icons:** change from JSX to createElement api for compatilibity issue ([#501](https://github.com/adeo/mozaic-design-system/issues/501)) ([d6f986c](https://github.com/adeo/mozaic-design-system/commit/d6f986cfef80f71dc322ae5d37f8b40f9f8e41c2))
+
+
+
+
+
 ## [1.0.1-beta.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2020-01-23)
 
 **Note:** Version bump only for package @mozaic-ds/icons

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.6](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.5...v1.0.1-beta.6) (2020-03-19)
+
+
+### Bug Fixes
+
+* **pattern/ vuejs icons:** change from JSX to createElement api for compatilibity issue ([#501](https://github.com/adeo/mozaic-design-system/issues/501)) ([d6f986c](https://github.com/adeo/mozaic-design-system/commit/d6f986cfef80f71dc322ae5d37f8b40f9f8e41c2))
+* **website/icons:** move images to static ([#499](https://github.com/adeo/mozaic-design-system/issues/499)) ([3a37d46](https://github.com/adeo/mozaic-design-system/commit/3a37d465e2230a2b083e78d314e4354971f114e6))
+* **website/menu:** correct the mozaic's version position ([#504](https://github.com/adeo/mozaic-design-system/issues/504)) ([65ded6b](https://github.com/adeo/mozaic-design-system/commit/65ded6b54166b862d9e6caa0507c53bd60029855))
+
+
+### Features
+
+* **onboard/contributing:** add contribution journey page ([#493](https://github.com/adeo/mozaic-design-system/issues/493)) ([f165daa](https://github.com/adeo/mozaic-design-system/commit/f165daaa17c8fcecab10bbc6d282b6816e8e80fb))
+
+
+
+
+
 ## [1.0.1-beta.5](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.4...v1.0.1-beta.5) (2020-03-11)
 
 
