@@ -14,7 +14,7 @@ const Header = styled.div`
     font-size: 1rem;
     font-style: italic;
     position: absolute;
-    left: 5.625rem;
+    left: 38%;
     color: #000;
   }
 `
