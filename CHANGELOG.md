@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.7](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.6...v1.0.1-beta.7) (2020-04-08)
+
+
+### Bug Fixes
+
+* **pattern/icon:** generate only path on Vue component ([#505](https://github.com/adeo/mozaic-design-system/issues/505)) ([9b45fa2](https://github.com/adeo/mozaic-design-system/commit/9b45fa2cff1338954329fdeb04501aa96a3d745d))
+* **pattern/icons:** generate vue icons without svg element ([50be81c](https://github.com/adeo/mozaic-design-system/commit/50be81c864c83dd0564641cfa8a9466a61a717b5))
+
+
+
+
+
 ## [1.0.1-beta.6](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.5...v1.0.1-beta.6) (2020-03-19)
 
 
