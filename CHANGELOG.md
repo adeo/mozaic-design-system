@@ -3,6 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.7](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.6...v1.0.1-beta.7) (2020-04-08)
+
+
+### Bug Fixes
+
+* **pattern/icon:** generate only path on Vue component ([#505](https://github.com/adeo/mozaic-design-system/issues/505)) ([9b45fa2](https://github.com/adeo/mozaic-design-system/commit/9b45fa2cff1338954329fdeb04501aa96a3d745d))
+* **pattern/icons:** generate vue icons without svg element ([50be81c](https://github.com/adeo/mozaic-design-system/commit/50be81c864c83dd0564641cfa8a9466a61a717b5))
+
+
+
+
+
+## [1.0.1-beta.6](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.5...v1.0.1-beta.6) (2020-03-19)
+
+
+### Bug Fixes
+
+* **pattern/ vuejs icons:** change from JSX to createElement api for compatilibity issue ([#501](https://github.com/adeo/mozaic-design-system/issues/501)) ([d6f986c](https://github.com/adeo/mozaic-design-system/commit/d6f986cfef80f71dc322ae5d37f8b40f9f8e41c2))
+* **website/icons:** move images to static ([#499](https://github.com/adeo/mozaic-design-system/issues/499)) ([3a37d46](https://github.com/adeo/mozaic-design-system/commit/3a37d465e2230a2b083e78d314e4354971f114e6))
+* **website/menu:** correct the mozaic's version position ([#504](https://github.com/adeo/mozaic-design-system/issues/504)) ([65ded6b](https://github.com/adeo/mozaic-design-system/commit/65ded6b54166b862d9e6caa0507c53bd60029855))
+
+
+### Features
+
+* **onboard/contributing:** add contribution journey page ([#493](https://github.com/adeo/mozaic-design-system/issues/493)) ([f165daa](https://github.com/adeo/mozaic-design-system/commit/f165daaa17c8fcecab10bbc6d282b6816e8e80fb))
+
+
+
+
+
+## [1.0.1-beta.5](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.4...v1.0.1-beta.5) (2020-03-11)
+
+
+### Bug Fixes
+
+* **onboard/readme:** fix spellcheck error on the readme ([#492](https://github.com/adeo/mozaic-design-system/issues/492)) ([ca6dda5](https://github.com/adeo/mozaic-design-system/commit/ca6dda521db4620dad74ee50cd59ca866012494f))
+* **pattern/magic-unit:** add $mu175 variable and spell-check ([#496](https://github.com/adeo/mozaic-design-system/issues/496)) ([308187b](https://github.com/adeo/mozaic-design-system/commit/308187b2ddb9562945a43b24ec2bc291e6049208))
+* **patterns/buttons:** add pointer-events property on button label ([#498](https://github.com/adeo/mozaic-design-system/issues/498)) ([4faddef](https://github.com/adeo/mozaic-design-system/commit/4faddef5f54329ceeeb3298a4dd68758282f8ee4))
+
+
+### Features
+
+* **pattern/checkbox:** add label to checkbox ([#491](https://github.com/adeo/mozaic-design-system/issues/491)) ([3b08763](https://github.com/adeo/mozaic-design-system/commit/3b087637d5e5a1968e2ced8fd621834ffd17682f))
+* **stylelint:** update documentation for stylelint customization ([#494](https://github.com/adeo/mozaic-design-system/issues/494)) ([ef930f3](https://github.com/adeo/mozaic-design-system/commit/ef930f30bbe6e6ee043b8013a8f92becbb9789c5))
+
+
+
+
+
 ## [1.0.1-beta.4](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.3...v1.0.1-beta.4) (2020-02-17)
 
 
