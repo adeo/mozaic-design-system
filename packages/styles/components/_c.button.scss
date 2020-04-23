@@ -58,6 +58,7 @@
 
   &__label {
     transform: translateY(-0.125em);
+    pointer-events: none;
   }
 
   @each $name, $props in $buttons {
