@@ -83,7 +83,8 @@
     "lint-staged": "^9.5",
     "mock-fs": "^4.10.4",
     "plop": "^2.4.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "svg-parser": "^2.0.4"
   },
   "scripts": {
     "tokens:build": "mozaic-tokens-build",
@@ -105,7 +106,7 @@
     "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github prerelease --preid beta",
     "npm:publish": "npx lerna exec --bail=false npm publish",
     "unit": "jest --projects ./packages/*/jest.config.js --coverage --verbose --color --no-cache",
-    "unit:watch": "jest --watch",
+    "unit:watch": "jest --watch --silent",
     "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'"
   },
   "browserslist": [
