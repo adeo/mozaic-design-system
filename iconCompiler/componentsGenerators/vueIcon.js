@@ -19,12 +19,15 @@ const GenerateIcon = (size, viewBox, childs) => ({
   },
   render: function (createElement) {
     return createElement(
-      attrs: {
-        height: this.size,
-        width: this.size,
-        fill: this.fill,
-        viewBox: viewBox
-      },
+      'svg',
+      {
+        attrs: {
+          height: this.size,
+          width: this.size,
+          fill: this.fill,
+          viewBox: viewBox
+        },
+      }
       childs.map(elem => createElement(...elem))
     );
   },
