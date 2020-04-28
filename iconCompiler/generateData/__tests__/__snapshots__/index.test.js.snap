@@ -5,12 +5,14 @@ Array [
   Object {
     "cat": "Navigation",
     "fileName": "Navigation_Arrow_Arrow--Top_16px.svg",
+    "iconName": "ArrowArrowTop",
     "name": "Arrow_Arrow--Top",
     "size": "16px",
   },
   Object {
     "cat": "Media",
     "fileName": "Media_FullScreen_24px.svg",
+    "iconName": "FullScreen",
     "name": "FullScreen",
     "size": "24px",
   },
@@ -23,6 +25,7 @@ Array [
     "cat": "Navigation",
     "componentName": "ArrowArrowTop16",
     "fileName": "Navigation_Arrow_Arrow--Top_16px.svg",
+    "iconName": "ArrowArrowTop",
     "name": "Arrow_Arrow--Top",
     "size": "16px",
   },
@@ -30,6 +33,7 @@ Array [
     "cat": "Media",
     "componentName": "FullScreen24",
     "fileName": "Media_FullScreen_24px.svg",
+    "iconName": "FullScreen",
     "name": "FullScreen",
     "size": "24px",
   },
@@ -43,13 +47,15 @@ exports[`genrateData should call fs.writeFile and write a valid JSON 1`] = `
       \\"cat\\": \\"Navigation\\",
       \\"size\\": \\"16px\\",
       \\"name\\": \\"Arrow_Arrow--Top\\",
-      \\"fileName\\": \\"Navigation_Arrow_Arrow--Top_16px.svg\\"
+      \\"fileName\\": \\"Navigation_Arrow_Arrow--Top_16px.svg\\",
+      \\"iconName\\": \\"ArrowArrowTop\\"
     },
     {
       \\"cat\\": \\"Media\\",
       \\"size\\": \\"24px\\",
       \\"name\\": \\"FullScreen\\",
-      \\"fileName\\": \\"Media_FullScreen_24px.svg\\"
+      \\"fileName\\": \\"Media_FullScreen_24px.svg\\",
+      \\"iconName\\": \\"FullScreen\\"
     }
   ],
   \\"monochrom\\": [
@@ -58,6 +64,7 @@ exports[`genrateData should call fs.writeFile and write a valid JSON 1`] = `
       \\"size\\": \\"16px\\",
       \\"name\\": \\"Arrow_Arrow--Top\\",
       \\"fileName\\": \\"Navigation_Arrow_Arrow--Top_16px.svg\\",
+      \\"iconName\\": \\"ArrowArrowTop\\",
       \\"componentName\\": \\"ArrowArrowTop16\\"
     },
     {
@@ -65,6 +72,7 @@ exports[`genrateData should call fs.writeFile and write a valid JSON 1`] = `
       \\"size\\": \\"24px\\",
       \\"name\\": \\"FullScreen\\",
       \\"fileName\\": \\"Media_FullScreen_24px.svg\\",
+      \\"iconName\\": \\"FullScreen\\",
       \\"componentName\\": \\"FullScreen24\\"
     }
   ]
@@ -75,6 +83,7 @@ exports[`getInfosFromName getsInfosFromName detect category, size, name, and fil
 Object {
   "cat": "Media",
   "fileName": "Media_FullScreen_16px.svg",
+  "iconName": "FullScreen",
   "name": "FullScreen",
   "size": "16px",
 }

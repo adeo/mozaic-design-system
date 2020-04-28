@@ -22,6 +22,7 @@ const IconViewer = ({ type }) => {
               componentName
               fileName
               name
+              iconName
               size
             }
             color {
