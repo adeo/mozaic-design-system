@@ -49,7 +49,6 @@ $heading-sizes: (
     // headings sizes
 
     &--#{$size} {
-      @include set-font-face('regular');
       @include set-font-scale($font-scale, 'm');
 
       @include set-from-screen('m') {

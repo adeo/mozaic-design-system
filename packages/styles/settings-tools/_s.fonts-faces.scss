@@ -71,9 +71,11 @@ $font-weights: (
   'semi-bold': 600,
 );
 
-@mixin set-font-face($weight: 'regular', $italic: '') {
+@mixin set-font-family() {
   font-family: 'LeroyMerlin', sans-serif;
+}
 
+@mixin set-font-weight($weight: 'regular') {
   @if map-has-key($font-weights, $weight) {
     font-weight: map-get($font-weights, $weight);
   }
@@ -81,6 +83,11 @@ $font-weights: (
   @else {
     @warn 'you are trying to use a font-weight that is not supported : "#{$weight}"';
   }
+}
+
+@mixin set-font-face($weight: 'regular', $italic: '') {
+  @include set-font-family;
+  @include set-font-weight($weight);
 
   @if $italic != '' {
     font-style: italic;
