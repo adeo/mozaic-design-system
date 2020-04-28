@@ -3,9 +3,7 @@
 - [ ] Yes
 - [ ] No
 
-## Does this PR introduce a breaking change?
-
-<!-- Read [what is a breaking change?](https://mozaic.adeo.cloud/Contributing/Developers/GitConventions/#breaking-changes-) -->
+## Does this PR introduce a [breaking change](https://mozaic.adeo.cloud/Contributing/Developers/GitConventions/#breaking-changes-)?
 
 - [ ] Yes
 - [ ] No
