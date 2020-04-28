@@ -105,9 +105,9 @@ Postcss is up and running 😝 !!!
 
 ## II) It's time to write some CSS !
 
-### Stylelint to lint SCSS files :
+### stylelint to lint SCSS files :
 
-Stylelint comes with its configuration in Mozaic and it is provided at compilation time. You don't necessarily need a root config file, but in some case you may want to have it, for exemple to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
+stylelint comes with its configuration in Mozaic and it is provided at compilation time. You don't necessarily need a root config file, but in some case you may want to have it, for exemple to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
 
 In that case you can create a `stylelint.config.js` file in the root dir of your project.
 
@@ -115,7 +115,7 @@ As an exemple, we will create a npm script that will fix the syntax in our SCSS 
 
 ### A) Create a npm fix command :
 
-let's create a npm script to fix our Stylelint errors, add the following in your `package.json` :
+let's create a npm script to fix our stylelint errors, add the following in your `package.json` :
 
 ```json
 "scripts": {
@@ -125,9 +125,9 @@ let's create a npm script to fix our Stylelint errors, add the following in your
 },
 ```
 
-If you try to run the `npm run css:lint-fix` command, node will throw an error because **Stylelint require a config file**.
+If you try to run the `npm run css:lint-fix` command, node will throw an error because **stylelint require a config file**.
 
-### B) Create a Stylelint config file :
+### B) Create a stylelint config file :
 
 Create a `stylelint.config.js` file at your project root.
 
@@ -156,7 +156,7 @@ body {
 }
 ```
 
-Run the `npm run css:lint-fix` again. Stylelint fixed this outrageous mistake and added the line break after the mixin instantiation.
+Run the `npm run css:lint-fix` again. stylelint fixed this outrageous mistake and added the line break after the mixin instantiation.
 
 et voilà !
 
