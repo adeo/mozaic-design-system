@@ -109,6 +109,10 @@
     "unit:watch": "jest --watch --silent",
     "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'"
   },
+  "resolutions": {
+    "minimist": "^0.2.1",
+    "acorn": "^7.1.1"
+  },
   "browserslist": [
     ">0.3%",
     "last 3 version",
