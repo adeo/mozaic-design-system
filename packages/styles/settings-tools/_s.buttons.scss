@@ -33,6 +33,7 @@ $button-sizes: (
 $button-medium: map-get($button-sizes, 'm');
 $button-radius: get-border-radius('m');
 $button-border: get-border('m');
+$button-color-default: map-get(get-token(color, button, 'solid'), 'font');
 
 @mixin set-button-size($sizeProps) {
   @include set-font-scale(
@@ -70,12 +71,15 @@ $button-border: get-border('m');
   }
 }
 
-@mixin set-button-theme($props) {
-  color: map-get($props, 'font');
-  fill: currentColor;
+@mixin set-button-theme($props, $is-default: false) {
+  $button-color: map-get($props, 'font');
+
+  @if $button-color != $button-color-default or $is-default == true {
+    color: $button-color;
+  }
 
   @if map-has-key($props, 'border') {
-    border: $button-border solid map-get($props, 'border');
+    border-color: map-get($props, 'border');
   }
 
   @if map-has-key($props, 'background') {
@@ -88,21 +92,22 @@ $button-border: get-border('m');
 
   @if map-has-key($props, 'hover') {
     $hover-props: map-get($props, 'hover');
+    $button-color-hover: map-get($hover-props, 'font');
 
-    @each $prop, $value in $hover-props {
-      &:hover {
-        @include add-demo-state-class {
-          @if map-has-key($hover-props, 'background') {
-            background-color: map-get($hover-props, 'background');
-          }
+    &:hover {
+      @include add-demo-state-class {
+        @if map-has-key($hover-props, 'background') {
+          background-color: map-get($hover-props, 'background');
+        }
 
-          @if map-has-key($hover-props, 'font') {
-            color: map-get($hover-props, 'font');
+        @if map-has-key($hover-props, 'font') {
+          @if $button-color != $button-color-default or $is-default == true {
+            color: $button-color-hover;
           }
+        }
 
-          @else {
-            color: map-get($props, 'font');
-          }
+        @else {
+          color: $button-color;
         }
       }
     }
