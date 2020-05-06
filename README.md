@@ -1,10 +1,12 @@
 # MOZAIC Design system
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 This repo contain the code and content to create, manage and deploy the Mozaic design system styleguide.
-the styleguide is based on gatsby, a static site generator based on react and graphql.
+The styleguide is based on gatsby, a static site generator based on react and graphql.
 Gatsby allow us to build static html websites that, once loaded on the client act as a SPA.
 
-building a styleguide using a static site generator instead of reliyng on a database allow us to use a versionned styleguide that match the assets and framework that it is based on.
+Building a styleguide using a static site generator instead of reliyng on a database allow us to use a versionned styleguide that match the assets and framework that it is based on.
 
 We tryed to focus on developper experience, meaning that working with it should be as simple as possible.
 
