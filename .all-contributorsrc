@@ -1,6 +1,6 @@
 {
-  "projectName": "il-est-midi-discord",
-  "projectOwner": "Sonia-corporation",
+  "projectName": "mozaic-design-system",
+  "projectOwner": "adeo",
   "repoType": "github",
   "repoHost": "https://github.com",
   "commitConvention": "angular",
@@ -16,63 +16,7 @@
       "name": "Geoffrey 'C0ZEN' TESTELIN",
       "avatar_url": "https://avatars2.githubusercontent.com/u/10194542?s=460&v=4",
       "profile": "http://www.geoffreytestelin.com/",
-      "contributions": [
-        "code",
-        "design",
-        "infra",
-        "ideas",
-        "blog",
-        "doc",
-        "tool",
-        "security",
-        "review",
-        "question",
-        "maintenance",
-        "bug"
-      ]
-    },
-    {
-      "login": "all-contributors",
-      "name": "All Contributors",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/46410174?v=4",
-      "profile": "https://allcontributors.org",
-      "contributions": [
-        "doc",
-        "tool"
-      ]
-    },
-    {
-      "login": "renovate-bot",
-      "name": "WhiteSource Renovate",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/25180681?v=4",
-      "profile": "https://renovate.whitesourcesoftware.com",
-      "contributions": [
-        "tool",
-        "security"
-      ]
-    },
-    {
-      "login": "semantic-release-bot",
-      "name": "Semantic Release Bot",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "profile": "http://semantic-release.org/",
-      "contributions": [
-        "doc",
-        "tool",
-        "security"
-      ]
-    },
-    {
-      "login": "vvalembois",
-      "name": "Vilteros",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/34096840?v=4",
-      "profile": "https://github.com/vvalembois",
-      "contributions": [
-        "code",
-        "ideas",
-        "doc",
-        "review"
-      ]
+      "contributions": []
     }
   ],
   "skipCi": false,
