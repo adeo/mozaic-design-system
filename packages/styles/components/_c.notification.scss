@@ -42,14 +42,8 @@ $notification-close-icon-color: get-token(color, notification, font);
   }
 
   &__title,
-  &__message,
-  &__link {
+  &__message {
     margin: 0;
-  }
-
-  &__link {
-    display: block;
-    text-decoration: underline;
   }
 
   &__title {
@@ -57,11 +51,8 @@ $notification-close-icon-color: get-token(color, notification, font);
     @include set-font-scale('05');
   }
 
-  &__title + &__message {
-    margin-top: $mu050;
-  }
-
-  &__message + &__link {
+  &__message,
+  &__link {
     margin-top: $mu050;
   }
 }

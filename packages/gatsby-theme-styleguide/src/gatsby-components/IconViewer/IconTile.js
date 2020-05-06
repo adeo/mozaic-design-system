@@ -108,30 +108,35 @@ export default class IconTile extends Component {
           component: null,
           fileName: null,
           fullName: null,
+          iconName: null,
         },
         '24px': {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
+          iconName: null,
         },
         '32px': {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
+          iconName: null,
         },
         '48px': {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
+          iconName: null,
         },
         '64px': {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
+          iconName: null,
         },
       },
     }
@@ -142,6 +147,7 @@ export default class IconTile extends Component {
       } else {
         dataIcon.sizes[size].component = icons[size].componentName || null
         dataIcon.sizes[size].fileName = icons[size].fileName
+        dataIcon.sizes[size].iconName = icons[size].iconName
       }
 
       if (!icons[dataIcon.currentSize]) {
@@ -195,6 +201,17 @@ export default class IconTile extends Component {
             )
           )}
         </SizesList>
+        {this.state.allIcon[this.state.currentSize].iconName && (
+          <Copy
+            value={this.state.allIcon[this.state.currentSize].iconName}
+            children={
+              <TechnicalName
+                keyName="Name : "
+                value={this.state.allIcon[this.state.currentSize].iconName}
+              />
+            }
+          />
+        )}
         {this.state.allIcon[this.state.currentSize].component && (
           <Copy
             value={this.state.allIcon[this.state.currentSize].component}

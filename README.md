@@ -1,20 +1,16 @@
 # MOZAIC Design system
 
-This repo contain the code and content to create, manage and deploy the Mozaic design system styleguide.
-the styleguide is based on gatsby, a static site generator based on react and graphql.
-Gatsby allow us to build static html websites that, once loaded on the client act as a SPA.
+This repo contains the code and content to create, manage and deploy Mozaic's design system styleguide. The styleguide is based on gatsby, a static site generator based on react and graphql. Gatsby allows us to build static html websites that, once loaded on the client acts as a SPA.
 
-building a styleguide using a static site generator instead of reliyng on a database allow us to use a versionned styleguide that match the assets and framework that it is based on.
+Building a styleguide using a static site generator instead of relying on a database allow us to use a versionned styleguide that matches the assets and framework that it is based on.
 
-We tryed to focus on developper experience, meaning that working with it should be as simple as possible.
+We tried to focus on the developper experience, meaning that working with it should be as simple as possible.
 
-You can report any bug or request a feature or improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
+You can report any bug, request a feature or any improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
-#### Please read the contributing docs before submitting anything :
+#### Please read the [contributing documentation](https://mozaic.adeo.cloud/Contributing/) before submitting anything.
 
-[Contributing docuementation](https://mozaic.adeo.cloud/Contributing/)
-
-#### Please read the contributing before contributing: [contributing](https://github.com/adeo/mozaic-design-system/blob/master/CONTRIBUTING.md)
+#### Please read the [contributing](https://github.com/adeo/mozaic-design-system/blob/master/CONTRIBUTING.md) before contributing.
 
 ## Installation
 
@@ -24,56 +20,63 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 
 ### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
 
-**Role for the project** :
+**Role for the project**:
 
-- design system front-end lead
-- maintainer of the source code
-- main contributor and maintainer of the styleguide tool based on gatsby
-- keep consistency in code base
-- keep consistency between code and design
-- review code updates
-- help keep things flowing and useful for the differents BU
+- Design system front-end lead
+- Maintainer of the source code
+- Main contributor and maintainer of the styleguide tool based on gatsby
+- Keep consistency in code base
+- Keep consistency between code and design
+- Review code updates
+- Help keep things flowing and useful for the differents BU
 
-**Timezone :** Paris - France **Availability :** 100%
+**Timezone:** Paris - France **Availability:** 100%
 
-**bio and interests :**
+**Contact on Adeo's Slack:** Gael Boyenval
 
-UI designer and Front end developer freelance since 2007, I’ve built a solid experience creating HTML/CSS frameworks. I’ve worked with several design systems, and try to build a solid expertise in that area.
-I’m into lean approach, and I like to work with react and javascript too.
-On a personal level, I love boxing, hiking and photography.
+### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste)
 
-**Contact:**
-AdeoDev : Gael Boyenval
-
-### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste/?originalSubdomain=fr)
-
-**Role for the project :**
+**Role for the project:**
 
 - Design system UI lead
-- arbitrate the patterns inputs and additions to the design system
+- Arbitrates the patterns inputs and additions to the design system
 
-**Timezone :** Lile - France **Availability :** 100%
+**Timezone:** Lile - France **Availability:** 100%
 
-### [Mélanie Anglard](https://www.linkedin.com/in/melanie-anglard-6540b164/)
-
-**Role for the project :** Front-end developer
-
-**Timezone :** Lille - France **Availability :** on monday and thuesday
+**Contact on Adeo's Slack:** Charles-Antoine Queste
 
 ### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
 
-**Role for the project :** Product owner / Backlog prioritization / Sync with stakeholders
+**Role for the project:**
 
-**Timezone :** Lille - France **Availability :** 90%
+- Product owner
+- Backlog prioritization
+- Sync with stakeholders
 
-### [Marine Fabien](https://www.linkedin.com/in/marine-fabien/)
+**Timezone:** Lille - France **Availability:** 90%
 
-**Role for the project :** Front-end developer
+**Contact on Adeo's Slack:** Tiago Rosa
 
-**Timezone :** Lille - France **Availability :** from monday to thursday
+### [Trésor Iloyi](https://www.linkedin.com/in/tresor-iloyi)
 
-### [Nicolas Herwegh](https://www.linkedin.com/in/nicolas-herwegh-3a4494136/?originalSubdomain=fr)
+**Role for the project:** Front-end developer
 
-**Role for the project :** UI designer
+**Timezone:** Rennes - France **Availability:** 100%
 
-**Timezone :** Lille - France **Availability :** on monday and thuesday
+**Contact on Adeo's Slack:** Trésor Iloyi
+
+### [Nicolas Herwegh](https://www.linkedin.com/in/nicolas-herwegh-3a4494136)
+
+**Role for the project:** UI designer
+
+**Timezone:** Lille - France **Availability:** 100%
+
+**Contact on Adeo's Slack:** Nicolas Herwegh
+
+### [Mohamed Mokhtari](https://www.linkedin.com/in/mohamedmokhtari)
+
+**Role for the project:** Front-end developer
+
+**Timezone:** Paris - France **Availability:** 100%
+
+**Contact on Adeo's Slack:** Mohamed Mokhtari

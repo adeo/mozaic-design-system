@@ -15,11 +15,18 @@ const getInfosFromName = fileName => {
     .replace(size, '')
     .slice(1, -1)
 
+  const iconName = fileName
+    .replace('.svg', '')
+    .replace(cat, '')
+    .replace(size, '')
+    .replace(/-|_/g, '')
+
   return {
     cat,
     size,
     name,
     fileName,
+    iconName,
   }
 }
 

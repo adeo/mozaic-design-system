@@ -16,11 +16,17 @@ Import the settings and the checkbox `scss` files.
 ```
 
 ## Basic usage
+To create a classic checkbox you have 3 main classes to apply:
 
-To create a classic checkbox you have one main class to apply `mc-checkbox`.
+- `mc-checkbox` on div
+- `mc-checkbox__input` on input
+- `mc-checkbox__label` on label
 
 ```html
-<input type="checkbox" class="mc-checkbox" name="example" />
+<div class="mc-checkbox">
+  <input id="checkbox-01" type="checkbox" class="mc-checkbox__input" name="example" />
+  <label for="checkbox-01" class="mc-checkbox__label"> Label </label>
+</div>
 ```
 
 ### Standard input states :
