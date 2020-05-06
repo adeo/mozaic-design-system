@@ -123,5 +123,12 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "contributors": [
+    {
+      "email": "geoffrey.testelin@gmail.com",
+      "name": "Geoffrey 'C0ZEN' TESTELIN",
+      "url": "https://github.com/C0ZEN"
+    }
+  ]
 }
