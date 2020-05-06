@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.8](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.7...v1.0.1-beta.8) (2020-05-06)
+
+
+### Bug Fixes
+
+* **chore/security:** fix minimist and acorn vulnerabilities ([#522](https://github.com/adeo/mozaic-design-system/issues/522)) ([10ba13b](https://github.com/adeo/mozaic-design-system/commit/10ba13b45a45abbb8374b18728f0ffff6bfa3035))
+* **icons/inline:** add width and height for inline svg (IE11 fix) ([#534](https://github.com/adeo/mozaic-design-system/issues/534)) ([b2d4ceb](https://github.com/adeo/mozaic-design-system/commit/b2d4ceb021fe0df58b55dac784ea3d2f30128ee9))
+* **onboard/spellcheck:** update stylelint occurrences ([#508](https://github.com/adeo/mozaic-design-system/issues/508)) ([7fab310](https://github.com/adeo/mozaic-design-system/commit/7fab310201e779f8131192246a67f55ddebbf32a))
+* **patterns/buttons:** remove some duplicate css rules ([#535](https://github.com/adeo/mozaic-design-system/issues/535)) ([8d5e1bd](https://github.com/adeo/mozaic-design-system/commit/8d5e1bd4508ca6f35a7720d24d19c7a84aa4fa73)), closes [#503](https://github.com/adeo/mozaic-design-system/issues/503)
+* **patterns/headings:** correct some duplicate css rules ([#514](https://github.com/adeo/mozaic-design-system/issues/514)) ([89e24dd](https://github.com/adeo/mozaic-design-system/commit/89e24dd7589e9f2d7e89bd21d68fbed093eb426b)), closes [#502](https://github.com/adeo/mozaic-design-system/issues/502)
+* **patterns/notification:** remove unnecessary css rules ([#517](https://github.com/adeo/mozaic-design-system/issues/517)) ([022e2ff](https://github.com/adeo/mozaic-design-system/commit/022e2ff590b524ce2f8609813bf98a56240b4b64)), closes [#512](https://github.com/adeo/mozaic-design-system/issues/512)
+* **website/spelling:** spellcheck and link fix ([#518](https://github.com/adeo/mozaic-design-system/issues/518)) ([781ec93](https://github.com/adeo/mozaic-design-system/commit/781ec93ed259f8c8ab00c33f4770c63823e67a7c))
+
+
+### Features
+
+* **onboard/postcss angular:** add warning in configure PostCSS page ([#511](https://github.com/adeo/mozaic-design-system/issues/511)) ([f514b1c](https://github.com/adeo/mozaic-design-system/commit/f514b1c958816d6e7799cc8de2e5981b28edccbc))
+
+
+
+
+
 ## [1.0.1-beta.7](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.6...v1.0.1-beta.7) (2020-04-08)
 
 
