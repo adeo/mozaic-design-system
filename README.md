@@ -80,3 +80,17 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 **Timezone:** Paris - France **Availability:** 100%
 
 **Contact on Adeo's Slack:** Mohamed Mokhtari
+
+## Contributors 
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.  
+Contributions of any kind are welcome!
