@@ -2,12 +2,35 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+const SelectContainer = styled.div`
+  background: #222020;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 1.5rem;
+  position: absolute;
+  width: 100%;
+
+  select {
+    display: block;
+    border: none;
+    border-radius: 0.25rem;
+    background: #fff;
+    width: 100%;
+    font-size: 100%;
+    padding: 0.312rem 1.125rem 0.375rem 0.25rem;
+  }
+`
+
 const LabelVersion = styled.label`
-  font-size: 0.5rem;
-  font-weight: normal;
-  line-height: 1;
-  letter-spacing: 0.1em;
-  margin-right: 5px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 `
 
 class MenuVersionRelease extends Component {
@@ -32,11 +55,11 @@ class MenuVersionRelease extends Component {
     const githubReleases = [...this.props.githubReleases].reverse()
 
     return (
-      <div>
+      <SelectContainer>
         <LabelVersion>older tags:</LabelVersion>
         <select defaultValue="default" onChange={this.handleChange}>
           <option key="default" value="default">
-            -- choose --
+            -- Choose version --
           </option>
           <option key="latest" value="https://mozaic.adeo.cloud/">
             latest release
@@ -47,7 +70,7 @@ class MenuVersionRelease extends Component {
             </option>
           ))}
         </select>
-      </div>
+      </SelectContainer>
     )
   }
 }

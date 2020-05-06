@@ -1,7 +1,7 @@
 /* mqp:start */
 .mc-button {
   @include unstyle-button();
-  @include set-button-theme(get-token(color, button, 'solid'));
+  @include set-button-theme(get-token(color, button, 'solid'), true);
   @include set-font-face('semi-bold');
   @include set-button-size($button-medium);
   @include set-button-layout();
@@ -58,6 +58,7 @@
 
   &__label {
     transform: translateY(-0.125em);
+    pointer-events: none;
   }
 
   @each $name, $props in $buttons {
