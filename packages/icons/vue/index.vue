@@ -25,7 +25,7 @@ const GenerateIcon = (size, viewBox, childs) => ({
           fill: this.fill,
           viewBox: viewBox
         },
-      }
+      },
       childs.map(elem => createElement(...elem))
     );
   },
