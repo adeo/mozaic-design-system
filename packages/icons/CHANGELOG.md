@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.9](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.8...v1.0.1-beta.9) (2020-05-07)
+
+
+### Bug Fixes
+
+* **patterns/icons-vuejs:** missing comma correction ([#536](https://github.com/adeo/mozaic-design-system/issues/536)) ([ad5a885](https://github.com/adeo/mozaic-design-system/commit/ad5a885db872e45efdce8b4397665aa1227b6004))
+
+
+
+
+
 ## [1.0.1-beta.8](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.7...v1.0.1-beta.8) (2020-05-06)
 
 **Note:** Version bump only for package @mozaic-ds/icons
