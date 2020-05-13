@@ -1,6 +1,6 @@
 ---
 title: 'Select'
-order: 11
+order: 6
 description: 'A select is a selection tool used in forms, allowing user to choose between multiple predefined options.'
 status:
   sketch: 'bêta'
@@ -14,25 +14,35 @@ status:
 ## Do's and Don'ts
 
 <HintItem>Always use a select with a meaningful label.</HintItem>
+
 <HintItem>
   Always use a select maximum width in relation to the options line length.
 </HintItem>
-<HintItem>It's recommended to use shorts option texts.</HintItem>
-<HintItem>Always Capitalise the first letter of a select option.</HintItem>
+
+<HintItem>
+  It's recommended to use shorts option texts.
+</HintItem>
+<HintItem>
+ Always Capitalise the first letter of a select option.
+</HintItem>
+
 <Hint
   type="do"
   title="Always use '--' before and after the first option used as a placeholder with spaces between the dashes and the text."
 >
   <Preview path="Select-default" nude />
 </Hint>
+
 <HintItem dont>
   Don't use select with very short list of options, if you have less than 7
   options, use radio buttons instead.
 </HintItem>
+
 <HintItem dont>
   Don't use select if you have more than 15 values. It's recommended to use an
   autocomplete search field inside a dropdown instead.
 </HintItem>
+
 <HintItem dont>
   Never use preselected option, it can create an incorrect user data. Please use
   a button group for the popular values, along with a select for the others.
