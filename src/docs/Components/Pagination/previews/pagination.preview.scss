@@ -1,0 +1,11 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.select';
+@import 'components/_c.button';
+@import 'components/_c.pagination';
+
+.example {
+  margin-bottom: 30px;
+}
