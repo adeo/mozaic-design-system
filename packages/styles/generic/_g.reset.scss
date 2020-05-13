@@ -1,93 +1,3 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-button,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
 html {
   @include set-font-face();
 
@@ -107,15 +17,75 @@ body {
   scroll-behavior: smooth;
 }
 
+main {
+  display: block;
+}
+
+body,
+figure,
+blockquote {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+dl,
+hr,
+textarea {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+fieldset {
+  margin-right: 0;
+}
+
+dd,
+fieldset {
+  margin-left: 0;
+}
+
+td,
+th,
+fieldset {
+  padding: 0;
+}
+
+legend {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+iframe,
+button,
+fieldset {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
 ol,
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
-blockquote,
 q {
-  quotes: none;
-
   &::after,
   &::before {
     content: '';
@@ -135,8 +105,10 @@ video {
 }
 
 input,
+button,
 select,
-optgroup,
 textarea {
-  @include reset-input;
+  font: inherit;
+  appearance: none;
+  padding: 0;
 }
