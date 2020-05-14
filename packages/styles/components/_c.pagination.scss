@@ -1,7 +1,15 @@
 .mc-pagination {
-  display: flex;
-  justify-content: center;
+  $parent: &;
+
+  display: inline-flex;
+  justify-content: space-between;
   align-items: center;
+
+  &--light {
+    #{$parent}__button:first-child {
+      margin-right: $mu150;
+    }
+  }
 
   &__button {
     @include unstyle-button();
@@ -11,7 +19,6 @@
     box-sizing: border-box;
     min-height: $mu300;
     min-width: $mu300;
-    margin: 0 $mu075;
 
     @include set-from-screen("xl") {
       min-height: $mu200;
@@ -34,25 +41,25 @@
     }
   }
 
+  &__field {
+    margin: 0 $mu150;
+  }
+
   &__select {
-    margin: 0 $mu075;
+    @include set-font-scale('05', 'm');
 
-    &-input {
-      @include set-font-scale('05', 'm');
+    min-width: $mu900;
+    padding:
+      calc(#{$mu075} - #{$select-border-width}) $mu075
+      calc(#{$mu075} + 0.125em - #{$select-border-width});
 
-      width: $mu900;
+
+    @include set-from-screen("xl") {
+      @include set-font-scale('04', 'm');
+
       padding:
-        calc(#{$mu075} - #{$select-border-width}) $mu075
-        calc(#{$mu075} + 0.125em - #{$select-border-width});
-
-
-      @include set-from-screen("xl") {
-        @include set-font-scale('04', 'm');
-
-        padding:
-          calc(#{$mu050} - 0.125em - #{$select-border-width}) $mu050
-          calc(#{$mu050} - #{$select-border-width});
-      }
+        calc(#{$mu050} - 0.125em - #{$select-border-width}) $mu050
+        calc(#{$mu050} - #{$select-border-width});
     }
   }
 }
