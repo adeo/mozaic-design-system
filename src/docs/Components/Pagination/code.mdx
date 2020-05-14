@@ -1,3 +1,20 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+```scss
+@import 'settings-tools/_all-settings';
+@import 'components/_c.pagination';
+@import 'components/_c.select'; (Optionnal)
+```
+
+## Default Pagination
+
+
+```html
 <div class="mc-pagination example">
   <a href="#" class="mc-pagination__button" aria-label="Pagination Navigation">
     <svg class="mc-pagination__button-icon">
@@ -16,25 +33,41 @@
     </svg>
   </a>
 </div>
+```
 
+<Preview path="pagination-default" />
+
+## Light Pagination 
+
+```html
 <div class="mc-pagination example">
   <a href="#" class="mc-pagination__button" aria-label="Pagination Navigation">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconLeftL" />
     </svg>
   </a>
+
   <a href="#" class="mc-pagination__button" aria-label="Pagination Navigation">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconRightL" />
     </svg>
   </a>
 </div>
+```
 
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-  <symbol id="iconLeftL" viewBox="0 0 24 24">
-    <path class="cls-2" d="M16.5,22a1,1,0,0,1-.71-.29l-9-9a1,1,0,0,1,0-1.42l9-9a1,1,0,1,1,1.42,1.42L8.91,12l8.3,8.29a1,1,0,0,1,0,1.42A1,1,0,0,1,16.5,22Z"/>
-  </symbol>
-  <symbol id="iconRightL" viewBox="0 0 24 24">
-    <path class="cls-2" d="M7.5,22a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42L15.09,12,6.79,3.71A1,1,0,1,1,8.21,2.29l9,9a1,1,0,0,1,0,1.42l-9,9A1,1,0,0,1,7.5,22Z"/>
-  </symbol>
-</svg>
+<Preview path="pagination-light" />
+
+## Accessibility and semantic
+
+<HintItem>
+  Use <code>aria-label="Pagination Navigation"</code>{' '}
+</HintItem>
+
+```html
+<a 
+  href="#" 
+  class="mc-pagination__button"
+  aria-label="Pagination Navigation">
+  <!-- Your icon html tag -->
+</a>
+```

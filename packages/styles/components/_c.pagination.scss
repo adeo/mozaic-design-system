@@ -21,7 +21,7 @@
     &-icon {
       width: $mu200;
       height: $mu200;
-      fill: white;
+      fill: $color_grey_000;
 
       @include set-from-screen("xl") {
         width: $mu125;
@@ -35,6 +35,8 @@
   }
 
   &__select {
+    margin: 0 $mu075;
+
     &-input {
       @include set-font-scale('05', 'm');
 
