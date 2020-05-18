@@ -1,0 +1,29 @@
+{
+  "extends": [
+    ":enableRenovate",
+    ":semanticCommits",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone",
+    ":separateMultipleMajorReleases",
+    ":separatePatchReleases",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":semanticCommitTypeAll(chore)",
+    ":noUnscheduledUpdates",
+    ":automergePatch",
+    ":automergeRequireAllStatusChecks",
+    ":enableVulnerabilityAlerts",
+    ":assignAndReview(adeo/design-system)",
+    ":ignoreModulesAndTests",
+    ":maintainLockFilesDisabled",
+    ":pinVersions",
+    ":autodetectPinVersions",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor"
+  ],
+  "assignAutomerge": true,
+  "schedule": [
+    "before 9am on every weekday"
+  ]
+}
