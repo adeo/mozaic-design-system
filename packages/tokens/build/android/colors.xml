@@ -124,7 +124,7 @@
   <color name="color_button_solid_background">#ff78be20</color>
   <color name="color_button_solid_font">#ffffffff</color>
   <color name="color_button_solid_focus_border">#ff158110</color>
-  <color name="color_button_solid_disabled_background">#ffeeeef0</color>
+  <color name="color_button_solid_disabled_background">#ffd3d2d6</color>
   <color name="color_button_solid_disabled_font">#ff887f87</color>
   <color name="color_button_solid_active_background">#ff158110</color>
   <color name="color_button_solid_hover_background">#ff41a017</color>
@@ -132,7 +132,7 @@
   <color name="color_button_solid_primary_02_background">#ff007574</color>
   <color name="color_button_solid_primary_02_font">#ffffffff</color>
   <color name="color_button_solid_primary_02_focus_border">#ff062b35</color>
-  <color name="color_button_solid_primary_02_disabled_background">#ffeeeef0</color>
+  <color name="color_button_solid_primary_02_disabled_background">#ffd3d2d6</color>
   <color name="color_button_solid_primary_02_disabled_font">#ff887f87</color>
   <color name="color_button_solid_primary_02_active_background">#ff062b35</color>
   <color name="color_button_solid_primary_02_hover_background">#ff063a44</color>
@@ -140,7 +140,7 @@
   <color name="color_button_solid_neutral_background">#ff887f87</color>
   <color name="color_button_solid_neutral_font">#ffffffff</color>
   <color name="color_button_solid_neutral_focus_border">#ff222020</color>
-  <color name="color_button_solid_neutral_disabled_background">#ffeeeef0</color>
+  <color name="color_button_solid_neutral_disabled_background">#ffd3d2d6</color>
   <color name="color_button_solid_neutral_disabled_font">#ff887f87</color>
   <color name="color_button_solid_neutral_active_background">#ff3c3738</color>
   <color name="color_button_solid_neutral_hover_background">#ff554f52</color>
@@ -148,7 +148,7 @@
   <color name="color_button_solid_danger_background">#ffdf382b</color>
   <color name="color_button_solid_danger_font">#ffffffff</color>
   <color name="color_button_solid_danger_focus_border">#ff8b2226</color>
-  <color name="color_button_solid_danger_disabled_background">#ffeeeef0</color>
+  <color name="color_button_solid_danger_disabled_background">#ffd3d2d6</color>
   <color name="color_button_solid_danger_disabled_font">#ff887f87</color>
   <color name="color_button_solid_danger_active_background">#ff8b2226</color>
   <color name="color_button_solid_danger_hover_background">#ffb42a27</color>
@@ -157,7 +157,7 @@
   <color name="color_button_bordered_border">#ff78be20</color>
   <color name="color_button_bordered_font">#ff78be20</color>
   <color name="color_button_bordered_focus_border">#ff158110</color>
-  <color name="color_button_bordered_disabled_background">#ffeeeef0</color>
+  <color name="color_button_bordered_disabled_background">#ffd3d2d6</color>
   <color name="color_button_bordered_disabled_font">#ff887f87</color>
   <color name="color_button_bordered_active_background">#ffcbe3b5</color>
   <color name="color_button_bordered_hover_background">#ffeaf3e2</color>
@@ -165,7 +165,7 @@
   <color name="color_button_bordered_primary_02_border">#ff007574</color>
   <color name="color_button_bordered_primary_02_font">#ff007574</color>
   <color name="color_button_bordered_primary_02_focus_border">#ff062b35</color>
-  <color name="color_button_bordered_primary_02_disabled_background">#ffeeeef0</color>
+  <color name="color_button_bordered_primary_02_disabled_background">#ffd3d2d6</color>
   <color name="color_button_bordered_primary_02_disabled_font">#ff887f87</color>
   <color name="color_button_bordered_primary_02_active_background">#ffa5d1cb</color>
   <color name="color_button_bordered_primary_02_hover_background">#ffdbedea</color>
@@ -173,7 +173,7 @@
   <color name="color_button_bordered_neutral_border">#ff887f87</color>
   <color name="color_button_bordered_neutral_font">#ff887f87</color>
   <color name="color_button_bordered_neutral_focus_border">#ff222020</color>
-  <color name="color_button_bordered_neutral_disabled_background">#ffeeeef0</color>
+  <color name="color_button_bordered_neutral_disabled_background">#ffd3d2d6</color>
   <color name="color_button_bordered_neutral_disabled_font">#ff887f87</color>
   <color name="color_button_bordered_neutral_active_background">#ffd3d2d6</color>
   <color name="color_button_bordered_neutral_hover_background">#ffeeeef0</color>
@@ -181,7 +181,7 @@
   <color name="color_button_bordered_danger_border">#ffdf382b</color>
   <color name="color_button_bordered_danger_font">#ffdf382b</color>
   <color name="color_button_bordered_danger_focus_border">#ff8b2226</color>
-  <color name="color_button_bordered_danger_disabled_background">#ffeeeef0</color>
+  <color name="color_button_bordered_danger_disabled_background">#ffd3d2d6</color>
   <color name="color_button_bordered_danger_disabled_font">#ff887f87</color>
   <color name="color_button_bordered_danger_active_background">#fffab9bc</color>
   <color name="color_button_bordered_danger_hover_background">#fffeedee</color>
