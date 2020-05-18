@@ -1,0 +1,64 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+```scss
+@import 'settings-tools/_all-settings';
+@import 'components/_c.pagination';
+@import 'components/_c.select'; (Optionnal)
+```
+
+## Default Pagination
+
+
+```html
+<div class="mc-pagination">
+  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+    <svg class="mc-pagination__button-icon">
+      <use xlink:href="#iconLeftL" />
+    </svg>
+  </button>
+  <div class="mc-pagination__field">
+    <select class="mc-select mc-pagination__select">
+      <option value="">Page 1</option>
+    </select>
+  </div>
+
+  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+    <svg class="mc-pagination__button-icon">
+      <use xlink:href="#iconRightL" />
+    </svg>
+  </button>
+</div>
+```
+
+<Preview path="pagination-default" />
+
+## Light Pagination 
+
+```html
+<div class="mc-pagination mc-pagination--light">
+  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+    <svg class="mc-pagination__button-icon">
+      <use xlink:href="#iconLeftL" />
+    </svg>
+  </button>
+
+  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+    <svg class="mc-pagination__button-icon">
+      <use xlink:href="#iconRightL" />
+    </svg>
+  </button>
+</div>
+```
+
+<Preview path="pagination-light" />
+
+## Accessibility and semantic
+
+<HintItem>
+  Use <code>aria-label="Previous page"</code>{' '}
+</HintItem>
