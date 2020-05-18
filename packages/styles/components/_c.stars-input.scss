@@ -23,6 +23,7 @@
       url(inline-icons('star-full-32', $color-star-full)) repeat-x
       center center;
     border-radius: $stars-focus-radius;
+    background-size: $stars-default-bg-size $stars-default-bg-size;
     cursor: pointer;
 
     &::before {
@@ -83,6 +84,8 @@
 
           /* fix for ie11 */
           $bg-variation-size: map-deep-get($stars-sizes, $size, 'width');
+
+          background-size: $bg-variation-size $bg-variation-size;
 
           &::before {
             background-size: $bg-variation-size $bg-variation-size;
