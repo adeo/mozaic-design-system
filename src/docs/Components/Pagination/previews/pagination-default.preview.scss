@@ -1,0 +1,12 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.select';
+@import 'components/_c.pagination';
+
+.example {
+  margin: $mu100;
+  display: flex;
+  justify-content: center;
+}
