@@ -38,7 +38,7 @@
 
     border-color: $color-input-disabled-border;
     color: $color-input-placeholder;
-    cursor: default;
+    cursor: not-allowed;
   }
 
   &.is-invalid {
