@@ -1,0 +1,21 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.divider';
+
+.example {
+  @include set-font-face('regular');
+
+  display: block;
+  padding: $mu150;
+
+  &__element {
+    @include set-divider('bottom', 'light', '100%');
+
+    display: block;
+    margin: 0 auto;
+    min-height: $mu250;
+    position: relative;
+  }
+}

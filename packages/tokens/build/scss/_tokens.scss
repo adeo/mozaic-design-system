@@ -186,6 +186,10 @@ $color-button-bordered-danger-disabled-background: #d3d2d6 !default;
 $color-button-bordered-danger-disabled-font: #887f87 !default;
 $color-button-bordered-danger-active-background: #fab9bc !default;
 $color-button-bordered-danger-hover-background: #feedee !default;
+$color-divider-lightest: #ffffff !default;
+$color-divider-light: #bab6bc !default;
+$color-divider-default: #6f676c !default;
+$color-divider-dark: #000000 !default;
 $color-fields-error: #b42a27 !default;
 $color-fields-label: #3c3738 !default;
 $color-fields-requirement: #6f676c !default;
@@ -732,6 +736,12 @@ $tokens: (
           'background': $color-button-bordered-danger-hover-background
         )
       )
+    ),
+    'divider': (
+      'lightest': $color-divider-lightest,
+      'light': $color-divider-light,
+      'default': $color-divider-default,
+      'dark': $color-divider-dark
     ),
     'fields': (
       'error': $color-fields-error,
