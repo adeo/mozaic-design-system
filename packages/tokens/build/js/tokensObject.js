@@ -2161,9 +2161,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonSolidDisabledBackground",
             "attributes": {
@@ -2335,9 +2335,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonSolidPrimary02DisabledBackground",
             "attributes": {
@@ -2509,9 +2509,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonSolidNeutralDisabledBackground",
             "attributes": {
@@ -2683,9 +2683,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonSolidDangerDisabledBackground",
             "attributes": {
@@ -2876,9 +2876,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonBorderedDisabledBackground",
             "attributes": {
@@ -3048,9 +3048,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonBorderedPrimary02DisabledBackground",
             "attributes": {
@@ -3220,9 +3220,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonBorderedNeutralDisabledBackground",
             "attributes": {
@@ -3392,9 +3392,9 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#d3d2d6",
             "original": {
-              "value": "{color.grey.100.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorButtonBorderedDangerDisabledBackground",
             "attributes": {
