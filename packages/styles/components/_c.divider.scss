@@ -1,0 +1,17 @@
+.mc-divider {
+  position: relative;
+
+  @each $position in $divider-positions {
+    &-#{$position} {
+      border-#{$position}: $divider-border-size solid $color-divider-default;
+
+      @each $name, $props in $dividers {
+        @if ($name != 'default') {
+          &--#{$name} {
+            border-#{$position}-color: $props;
+          }
+        }
+      }
+    }
+  }
+}
