@@ -70,6 +70,7 @@
   &:disabled {
     border-color: $color-input-disabled-border;
     background: $color-input-disabled-background;
+    cursor: not-allowed;
   }
 
   @each $size, $props in $input-sizes {

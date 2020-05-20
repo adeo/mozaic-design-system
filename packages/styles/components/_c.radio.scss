@@ -44,12 +44,12 @@
   &:disabled {
     border-color: $color-input-disabled-background;
     background: $color-input-disabled-background;
-    cursor: default;
+    cursor: not-allowed;
 
     &::-ms-check {
       border-color: $color-input-disabled-background;
       background: $color-input-disabled-background;
-      cursor: default;
+      cursor: not-allowed;
     }
   }
 

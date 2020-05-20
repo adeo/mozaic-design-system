@@ -41,7 +41,7 @@
   &:disabled {
     border-color: $color-input-disabled-background;
     background: $color-input-disabled-background;
-    cursor: default;
+    cursor: not-allowed;
   }
 
   &::placeholder {
