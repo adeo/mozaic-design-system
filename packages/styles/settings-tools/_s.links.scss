@@ -67,7 +67,7 @@ $link-m: map-get($link-sizes, 'm');
   @if map-has-key($props, 'disabled') {
     &.is-disabled {
       color: map-get($props, 'disabled');
-      cursor: default;
+      cursor: not-allowed;
     }
   }
 }
