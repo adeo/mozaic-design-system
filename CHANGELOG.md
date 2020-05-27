@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.10](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.9...v1.0.1-beta.10) (2020-05-20)
+
+
+### Bug Fixes
+
+* **patterns/buttons:** fix regression on the color of icons ([#546](https://github.com/adeo/mozaic-design-system/issues/546)) ([ec00ac5](https://github.com/adeo/mozaic-design-system/commit/ec00ac515cb437f62ee25b33ce549ecda6d9a5a9))
+* **patterns/buttons:** update background-color of disabled buttons ([#543](https://github.com/adeo/mozaic-design-system/issues/543)) ([1d307ad](https://github.com/adeo/mozaic-design-system/commit/1d307ad631096ec04eb47246f7430c81967ebc8e))
+* **patterns/rating-stars:** add background-size on rating stars input ([#539](https://github.com/adeo/mozaic-design-system/issues/539)) ([9ec2625](https://github.com/adeo/mozaic-design-system/commit/9ec262549094925155f2b582f6f494e4bc8f9866))
+
+
+### Features
+
+* **patterns:** add not-allowed cursor on disabled elements ([#550](https://github.com/adeo/mozaic-design-system/issues/550)) ([e67ebaf](https://github.com/adeo/mozaic-design-system/commit/e67ebaf694bcc479bfd57b085e50ce030bcdcd09))
+* **patterns/cssreset:** add a css reset ([#541](https://github.com/adeo/mozaic-design-system/issues/541)) ([b1b8db5](https://github.com/adeo/mozaic-design-system/commit/b1b8db545db66f2020c8fc600ee0b6d4b75d0eed))
+* **patterns/dividers:** add dividers ([#542](https://github.com/adeo/mozaic-design-system/issues/542)) ([e1d3ab7](https://github.com/adeo/mozaic-design-system/commit/e1d3ab7ddc891f173aba55fae7cde5fc9b0657b9))
+* **patterns/pagination:** add pagination pattern ([#540](https://github.com/adeo/mozaic-design-system/issues/540)) ([#544](https://github.com/adeo/mozaic-design-system/issues/544)) ([6425bd7](https://github.com/adeo/mozaic-design-system/commit/6425bd766ada58c4280c4933ffda2ff49ca26488))
+
+
+
+
+
 ## [1.0.1-beta.9](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.8...v1.0.1-beta.9) (2020-05-07)
 
 

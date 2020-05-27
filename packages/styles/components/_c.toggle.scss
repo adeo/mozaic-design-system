@@ -52,10 +52,12 @@
 
       :disabled + & {
         background-color: $color-toggle-disabled-background;
+        cursor: not-allowed;
       }
 
       :disabled:checked + & {
         background-color: $color-toggle-disabled-checked-background;
+        cursor: not-allowed;
       }
     }
 
@@ -75,11 +77,13 @@
       :disabled + & {
         border-color: $color-toggle-disabled-background;
         background-color: $color-toggle-disabled-circle;
+        cursor: not-allowed;
       }
 
       :disabled:checked + & {
         border-color: $color-toggle-disabled-checked-background;
         background-color: $color-toggle-disabled-checked-circle;
+        cursor: not-allowed;
       }
     }
 
