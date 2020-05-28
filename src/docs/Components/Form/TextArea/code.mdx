@@ -7,7 +7,7 @@ order: 2
 
 ### Import
 
-Import **the settings**, **the textarea** and **the fields** scss files.
+Import **the settings**, **the text area** and **the fields** scss files.
 
 
 ```scss
@@ -24,7 +24,7 @@ Import **the settings**, **the textarea** and **the fields** scss files.
 
 ### Usage
 
-To use the textarea in your form, you must use the following 3 CSS classes:
+To use the text area in your form, you must use the following 3 CSS classes:
 
 - `mc-field` on container
 - `mc-field__label` on label
@@ -35,7 +35,7 @@ To use the textarea in your form, you must use the following 3 CSS classes:
   <label class="mc-field__label" for="foo">
     Label
   </label>
-  
+
   <textarea
     class="mc-field__input mc-textarea"
     name="foo"
@@ -52,7 +52,7 @@ To use the textarea in your form, you must use the following 3 CSS classes:
 
 #### Help text
 
-You have the possibility to define a help text when using your textarea.
+You have the possibility to define a help text when using your text area.
 
 For this you have to add a span with the `mc-field__help` class below the label.
 
@@ -69,7 +69,7 @@ For this you have to add a span with the `mc-field__help` class below the label.
 
   When using a help text you must comply with the following accessibility rules:
   - the span `mc-field__help` must always have an `id`
-  - the `aria-describedby` attribute must be added on the textarea element and must refer to the id of the help text
+  - the `aria-describedby` attribute must be added on the text area element and must refer to the id of the help text
 
 </Highlight>
 
@@ -77,7 +77,7 @@ For this you have to add a span with the `mc-field__help` class below the label.
 
 #### Requirement
 
-When the textarea is mandatory you must specify it to the user.
+When the text area is mandatory you must specify it to the user.
 
 For this you have to add a span with the class `mc-field__requirement` right after the label.
 
@@ -92,7 +92,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 
 <Highlight theme="tips" title="Semantic rule">
 
-  When the textarea is mandatory the `required` attribute must be added on the textarea element
+  When the text area is mandatory the `required` attribute must be added on the text area element
 
 </Highlight>
 
@@ -102,7 +102,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 
 #### Valid
 
-To indicate that a field is valid, the `is-valid` class must be added to the textarea element.
+To indicate that a field is valid, the `is-valid` class must be added to the text area element.
 
 <Preview path="valid" />
 
@@ -110,14 +110,14 @@ To indicate that a field is valid, the `is-valid` class must be added to the tex
 
 To indicate that a field is not valid several steps are to be implemented:
 
-- Add the `is-invalid` class and the `aria-invalid` attribute to the textarea element
+- Add the `is-invalid` class and the `aria-invalid` attribute to the text area element
 - You can add in addition a text detailing the error. This text must be added in a **span** with the class `mc-field__error-message` and positioned below the field
 
 <Highlight theme="tips" title="Accessibility rules">
 
   If you use an error message you must comply with the following accessibility rules:
   - the span `mc-field__error-message` must always have an `id`
-  - the `aria-describedby` attribute must be added on the textarea element and must refer to the id of the error message
+  - the `aria-describedby` attribute must be added on the text area element and must refer to the id of the error message
 
 </Highlight>
 
@@ -125,7 +125,7 @@ To indicate that a field is not valid several steps are to be implemented:
 
 #### Disabled
 
-To indicate that textarea is disabled, the `disabled` attribute must be added to the textarea element.
+To indicate that text area is disabled, the `disabled` attribute must be added to the text area element.
 
 <Preview path="disabled" />
 
@@ -162,10 +162,10 @@ Apply the classes `mc-textarea` on a standard `textarea` html tag:
 ## Accessibility and semantic
 
 <HintItem>
-  Always use textarea html tag for multi-line text
+  Always use text area html tag for multi-line text
 </HintItem>
 <HintItem>
-  Use the rows attribute to set the textarea height
+  Use the rows attribute to set the text area height
 </HintItem>
 <HintItem>
   Use a minimum of 3 rows
