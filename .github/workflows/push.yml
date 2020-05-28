@@ -31,7 +31,7 @@ jobs:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
           args: ci:wait $(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)
-      - uses: actions-hub/gcloud@master
+      - uses: actions-hub/gcloud@293.0.0
         env:
           PROJECT_ID: mozaic-design-system-dtrp
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
