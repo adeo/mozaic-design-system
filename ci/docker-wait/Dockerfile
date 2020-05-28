@@ -18,7 +18,6 @@ RUN apt-get -qqy update && apt-get install -qqy \
     git \
     gnupg \
     && easy_install -U pip && \
-    pip install -v '19.2.3' crcmod   && \
     pip install pipenv==2018.11.26 && \
     export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
     echo "deb https://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" > /etc/apt/sources.list.d/google-cloud-sdk.list && \
