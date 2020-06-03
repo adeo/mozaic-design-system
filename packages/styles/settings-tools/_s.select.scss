@@ -26,12 +26,12 @@ $select-border-width: get-border('s');
   background-image:
     url(
       inline-icons(
-        'arrow-down-24',
+        'arrow-down-16',
         $color
       )
     );
   background-repeat: no-repeat;
-  background-size: $mu075 $mu050;
+  background-size: $mu100;
 }
 
 @mixin set-select-size($sizeProps) {
