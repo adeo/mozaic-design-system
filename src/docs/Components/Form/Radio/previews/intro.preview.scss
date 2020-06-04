@@ -7,6 +7,8 @@
 @import 'typography/_t.bodys';
 
 .example {
+  @include set-font-face('regular');
+
   margin: $mu200 auto;
   padding: 0 $mu200;
   width: 40vw;

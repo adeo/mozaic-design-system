@@ -3,17 +3,11 @@
 @include import-font-families();
 
 @import 'components/_c.radio';
+@import 'components/_c.fields';
 
 .example {
   @include set-font-face('regular');
 
-  margin: $mu200 auto;
+  margin: $mu200 0;
   padding: 0 $mu200;
-  width: 40vw;
-
-  &__list-item {
-    list-style-type: none;
-    margin: $mu100 0;
-    text-align: center;
-  }
 }
