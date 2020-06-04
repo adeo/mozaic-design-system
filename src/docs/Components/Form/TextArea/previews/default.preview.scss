@@ -3,7 +3,11 @@
 @include import-font-families();
 
 @import 'components/_c.textarea';
+@import 'components/_c.fields';
 
 .example {
-  padding: $mu200;
+  @include set-font-face();
+
+  margin: $mu200 0;
+  padding: 0 $mu200;
 }
