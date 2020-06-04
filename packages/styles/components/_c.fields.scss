@@ -1,4 +1,6 @@
 .mc-field {
+  $parent: &;
+
   &__label,
   &__legend {
     color: $color-fields-label;
@@ -38,6 +40,17 @@
 
   &__container {
     margin-top: $mu100;
+
+    &--inline {
+      display: flex;
+
+      #{$parent}__item {
+        &:not(:last-child) {
+          margin-bottom: 0;
+          margin-right: $mu200;
+        }
+      }
+    }
   }
 
   &__item {
@@ -55,6 +68,8 @@
 
   &--group {
     padding: 0;
+    margin-left: 0;
+    margin-right: 0;
     border: none;
   }
 }

@@ -6,8 +6,21 @@
 @import 'components/_c.fields';
 
 .example {
-  @include set-font-face();
+  @include set-font-face('regular');
 
-  margin: $mu200 0;
-  padding: 0 $mu200;
+  margin: auto;
+  width: 93%;
+
+  &__title {
+    @include set-font-scale('07', 'm');
+    @include set-font-face('semi-bold');
+
+    background: $color-grey-100;
+    padding: $mu100;
+    margin: $mu300 0 $mu100;
+  }
+
+  &__container {
+    margin: $mu100 auto;
+  }
 }

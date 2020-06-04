@@ -19,7 +19,7 @@ Import **the settings** and **the checkbox** `scss` files.
 
 ### Basic usage
 
-To use the checkbox pattern you have 3 main classes to apply:
+To use the checkbox pattern you have 3 main css classes to apply:
 
 - `mc-checkbox` on a div container
 - `mc-checkbox__input` on the input tag
@@ -58,14 +58,14 @@ Import **the settings**, **the checkbox** and **the fields** scss files.
 
 > Note that the import order is important to get the right rendering of the component.
 
-### Usage
+### Group usage
 
 To use the checkbox pattern in a group of elements in your form, you must use the following:
 
 - `mc-field` and the modifier `mc-field--group` on container (preferably use a fieldset tag)
 - `mc-field__legend` on the legend tag
 - `mc-field__container` on the wrapper of the set of checkbox elements
-- and `mc-field__item` in addition of the `mc-checkbox` class:
+- and `mc-field__item` in addition of the `mc-checkbox` class on the input tag:
 
 ```html
 <div class="example">
@@ -73,22 +73,22 @@ To use the checkbox pattern in a group of elements in your form, you must use th
     <legend class="mc-field__legend">
       Legend
     </legend>
-    
+
     <div class="mc-field__container">
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-01" type="checkbox" class="mc-checkbox__input" name="example" />
+        <input id="checkbox-01" type="checkbox" class="mc-checkbox__input" name="example1" />
         <label for="checkbox-01" class="mc-checkbox__label"> Checkbox Label </label>
       </div>
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-02" type="checkbox" class="mc-checkbox__input" name="example" />
+        <input id="checkbox-02" type="checkbox" class="mc-checkbox__input" name="example2" />
         <label for="checkbox-02" class="mc-checkbox__label"> Checkbox Label </label>
       </div>
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-03" type="checkbox" class="mc-checkbox__input" name="example" />
+        <input id="checkbox-03" type="checkbox" class="mc-checkbox__input" name="example3" />
         <label for="checkbox-03" class="mc-checkbox__label"> Checkbox Label </label>
       </div>
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-04" type="checkbox" class="mc-checkbox__input" name="example" />
+        <input id="checkbox-04" type="checkbox" class="mc-checkbox__input" name="example4" />
         <label for="checkbox-04" class="mc-checkbox__label"> Checkbox Label </label>
       </div>
     </div>
@@ -97,6 +97,18 @@ To use the checkbox pattern in a group of elements in your form, you must use th
 ```
 
 <Preview path="group-default" />
+
+### Variations
+
+#### Horizontal layer group
+
+By default the checkboxes elements are positioned vertically in the group.
+
+If you wish you can arrange the elements vertically. To do so:
+
+- You add the modifier class `mc-field__container--inline` on the `mc-field__container` elements
+
+<Preview path="group-inline" />
 
 ### Behaviors
 
@@ -121,7 +133,7 @@ For this you have to add a span with the `mc-field__help` class below the legend
 
 When **one or more elements of the group are mandatory**, you must specify this to the user.
 
-For this you have to add a span with the class `mc-field__requirement` right after the legend.
+For this you have to add a span with the class `mc-field__requirement` right after the legend text.
 
 ```html
 <legend class="mc-field__legend">
@@ -140,7 +152,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 
 <Preview path="group-requirement" />
 
-### States and Validation
+### Validation
 
 #### Invalid
 
@@ -153,7 +165,7 @@ To indicate that one or more elements of the group are not valid, several steps 
 
   If you use an error message you must comply with the following accessibility rules:
   - the span `mc-field__error-message` must always have an `id`
-  - the `aria-describedby` attribute must be added on the concerned checkbox element and must refer to the id of the error message
+  - the `aria-describedby` attribute must be added on each concerned checkboxes elements and must refer to the id of the error message
 
 </Highlight>
 
