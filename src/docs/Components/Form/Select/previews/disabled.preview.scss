@@ -3,7 +3,11 @@
 @include import-font-families();
 
 @import 'components/_c.select';
+@import 'components/_c.fields';
 
 .example {
-  margin: $mu100;
+  @include set-font-face();
+
+  margin: $mu200 0;
+  padding: 0 $mu200;
 }

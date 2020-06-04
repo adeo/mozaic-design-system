@@ -1,14 +1,56 @@
+$select-sizes: (
+  's': (
+    'background-position': $mu050,
+    'font-size': '04',
+    'line-height': 'l',
+    'padding-left': $mu050,
+    'padding-right': magic-unit-rem(1.875, true),
+    'padding-v': magic-unit-rem(0.3125, true),
+  ),
+  'm': (
+    'background-position': $mu100,
+    'font-size': '05',
+    'line-height': 'l',
+    'padding-left': $mu075,
+    'padding-right': magic-unit-rem(2.875, true),
+    'padding-v': $mu075,
+  ),
+);
+
+$select-default-size: map-get($select-sizes, 'm');
 $select-border-radius: get-border-radius('m');
 $select-border-width: get-border('s');
 
-@mixin select-background-arrow ($color: $color-input-text, $background: $color-input-background) {
-  background:
-    $background
+@mixin select-background-arrow($color: $color-input-text, $background: $color-input-background) {
+  background-color: $background;
+  background-image:
     url(
       inline-icons(
-        'arrow-down-24',
+        'arrow-down-16',
         $color
       )
-    ) right $mu100 center no-repeat;
-  background-size: $mu150;
+    );
+  background-repeat: no-repeat;
+  background-size: $mu100;
+}
+
+@mixin set-select-size($sizeProps) {
+  $border-width: $select-border-width;
+  $padding-left: map-get($sizeProps, 'padding-left');
+  $padding-right: map-get($sizeProps, 'padding-right');
+  $padding-v: map-get($sizeProps, 'padding-v');
+  $background-position: map-get($sizeProps, 'background-position');
+
+  @include set-font-scale(
+    map-get($sizeProps, 'font-size'),
+    map-get($sizeProps, 'line-height')
+  );
+  @include select-background-arrow;
+
+  background-position: right $background-position center;
+
+  // remove border height and center baseline optically
+  padding:
+    calc(#{$padding-v} - 0.125em - #{$border-width}) $padding-right
+    calc(#{$padding-v} + 0.125em - #{$border-width}) $padding-left;
 }
