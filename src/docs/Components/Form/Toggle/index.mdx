@@ -9,10 +9,52 @@ status:
 
 > A toggle is used to choose between two possibilities and when the user needs instant feedback. It is common to use toggles when you need to show or hide content and "on/off" switch.
 
+
+## Toggle item
+
+The toggle item is a combinaison of an input and a label.
+
+<Preview path="Toggle-item" nude />
+
+
+## Toggle group
+
+![Toggle-Overview](Toggle-Overview.png)
+
+Toggle group is a combination of the following mentions. Please note that you can use five different cases:
+  - Group label + toggle-s
+  - Group label + requirement + toggle-s
+  - Group label + requirement + help text + toggle-s
+  - Groupe label + help text + toggle-s
+
+### Group label
+
+The label group helps the user to understand which toggle to select.
+
+-- Preview --
+
+### Requirement
+
+This mention allows to specify that this information is mandatory for the input to be valid.
+
+<Highlight theme="tips">
+
+  Please note that this mention can also be used to say a specific input is **optional** when the other ones are mandatory.
+
+</Highlight>
+
+-- Preview --
+
+### Help text
+
+Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
+
+-- Preview --
+
 ## Sizes
 
-- `S` or small : used only on desktop when space is a concern
-- `M` or medium (default): should be the exclusive size for touch devices, and be used in most of the cases on desktop
+- `S` or small : Used only on desktop when space is a concern.
+- `M` or medium (default): Should be the exclusive size for touch devices, and be used in most of the cases on desktop.
 
 <Preview path="ToggleSizes" nude />
 
@@ -20,7 +62,7 @@ status:
 
 <Preview path="ToggleStates" nude />
 
-### Displaying on/off states in labels
+### Displaying On/Off states in label
 
 You can use a reactive label, witch will change depending on the state of the toggle.
 
@@ -44,4 +86,8 @@ You can use a reactive label, witch will change depending on the state of the to
 </HintItem>
 <HintItem dont>Never use toggle when validation action is required.</HintItem>
 
-You can find more informations in [this medium article](https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8)
+<Highlight theme="tips" title="Good to know">
+
+  You can find more informations in [this medium article](https://uxplanet.org/checkbox-vs-toggle-switch-7fc6e83f10b8).
+
+</Highlight>
