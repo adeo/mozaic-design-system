@@ -1,13 +1,14 @@
 ---
 title: 'Radio'
 order: 3
-description: 'Radios are components that, unlike checkboxes, can’t be used alone. They are used to select a single option from a list.'
+description: 'A radio button is used to offer a unique choice to your user in a form. Unlike checkboxes, it can't be used alone.'
 status:
   sketch: 'bêta'
   scss: 'bêta'
 ---
 
-> Radios are components that, unlike checkboxes, can't be used alone. They are used to select **a single option from a list**.
+> A radio button is used to offer a unique choice to your user in a form. Unlike checkboxes, it can't be used alone.
+
 
 <Preview path="intro" nude />
 
@@ -22,7 +23,7 @@ status:
 
 ![Radio-Overview](Radio-Overview.png)
 
-Checkbox group is a combination of the following mentions. Please note that you can use four different cases:
+Radio button group is a combination of the following mentions. Please note that you can use four different cases:
   - Group label + radio buttons
   - Group label + requirement + radio buttons
   - Group label + requirement + help text + radio buttons
@@ -70,18 +71,21 @@ There are two different elements for validation feedback:
 
 <Preview path="group-invalid-light" nude />
 
-
-
 ## Do & dont's
 
 <HintItem>
-  A list of radio buttons includes always minimum two options.
+  A radio buttons list must include a minimum of two options.
 </HintItem>
+
 <HintItem>
   Use short radio list. User should be able to scan quickly between few option.
   If you have a lot of option, prefer a drop down list.
 </HintItem>
-<HintItem>Preselect an option for the user whenever possible.</HintItem>
+
+<HintItem>
+Preselect an option for the user whenever possible.
+</HintItem>
+
 <HintItem dont>
-  Never use the radio alone. You should always use it with a label.
+  Never use the radio alone. You should always use it with a label and within a group.
 </HintItem>
