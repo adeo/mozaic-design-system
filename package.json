@@ -113,7 +113,8 @@
     "minimist": "^1.2.3",
     "acorn": "^7.1.1",
     "yargs-parser": "^13.1.2",
-    "kind-of": "^6.0.3"
+    "kind-of": "^6.0.3",
+    "websocket-extensions": "^0.1.4"
   },
   "browserslist": [
     ">0.3%",
