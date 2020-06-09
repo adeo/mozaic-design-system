@@ -1,0 +1,64 @@
+.mc-collapse {
+  background: $color-grey-000;
+
+  &__label {
+    @include set-font-scale('06', 'm');
+
+    cursor: pointer;
+    position: relative;
+    padding: $mu125 $mu050;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--icon {
+      padding-left: $mu350;
+    }
+
+    &:hover {
+      background-color: $color-grey-100;
+    }
+  }
+
+  &__picto {
+    width: $mu200;
+    height: $mu200;
+    position: absolute;
+    left: $mu050;
+  }
+
+  &__icon {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7fS5jbHMtMntmaWxsOiM5OTk7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5OYXZpZ2F0aW9uX0NvbnRyb2xfTW9yZV8yNHB4PC90aXRsZT48ZyBpZD0iU3F1YXJlIj48cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPjwvZz48ZyBpZD0iSWNvbiI+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTkuMDksMTFoLTZWNWExLDEsMCwwLDAtMiwwdjZoLTZhMSwxLDAsMCwwLDAsMmg2djZhMSwxLDAsMCwwLDIsMFYxM2g2YTEsMSwwLDAsMCwwLTJaIi8+PC9nPjwvc3ZnPg==');
+    width: $mu150;
+    height: $mu150;
+    margin-left: $mu100;
+    display: block;
+    background-size: cover;
+  }
+
+  &__content {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    border-bottom: get-border(s) solid $color-grey-600;
+  }
+
+  &__trigger {
+    display: none;
+
+    &:checked ~ .mc-collapse__label .mc-collapse__icon {
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7fS5jbHMtMntmaWxsOiM5OTk7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5OYXZpZ2F0aW9uX0NvbnRyb2xfTGVzc18yNHB4PC90aXRsZT48ZyBpZD0iU3F1YXJlIj48cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPjwvZz48ZyBpZD0iSWNvbiI+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTcuMDksMTNoLTEwYTEsMSwwLDAsMSwwLTJoMTBhMSwxLDAsMCwxLDAsMloiLz48L2c+PC9zdmc+');
+    }
+
+    &:checked ~ .mc-collapse__content {
+      max-height: 100vh;
+      padding-bottom: $mu150;
+    }
+
+    &:disabled ~ .mc-collapse__label {
+      background-color: $color-grey-100;
+      color: $color-grey-600;
+    }
+  }
+}
