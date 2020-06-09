@@ -1,8 +1,20 @@
 .mc-field {
+  $parent: &;
+
+  &__label,
+  &__legend {
+    color: $color-fields-label;
+  }
+
   &__label {
     @include set-font-scale('04', 'xs');
+  }
 
-    color: $color-fields-label;
+  &__legend {
+    @include set-font-scale('04', 'm');
+
+    padding-left: 0;
+    padding-right: 0;
   }
 
   &__requirement {
@@ -26,10 +38,38 @@
     margin-top: magic-unit-rem(0.375, true);
   }
 
+  &__container {
+    margin-top: $mu100;
+
+    &--inline {
+      display: flex;
+
+      #{$parent}__item {
+        &:not(:last-child) {
+          margin-bottom: 0;
+          margin-right: $mu200;
+        }
+      }
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: $mu100;
+    }
+  }
+
   &__error-message {
     @include set-font-scale('04', 'xs');
 
     color: $color-fields-error;
     margin-top: $mu025;
+  }
+
+  &--group {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
   }
 }
