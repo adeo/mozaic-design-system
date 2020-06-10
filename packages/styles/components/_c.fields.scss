@@ -60,9 +60,10 @@
   }
 
   &__error-message {
-    @include set-font-scale('04', 'xs');
+    @include set-font-scale('04', 'm');
 
     color: $color-fields-error;
+    display: inline-block;
     margin-top: $mu025;
   }
 
@@ -71,5 +72,9 @@
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+
+    #{$parent}__error-message {
+      margin-top: $mu050;
+    }
   }
 }
