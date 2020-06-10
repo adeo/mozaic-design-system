@@ -1,0 +1,114 @@
+html {
+  @include set-font-face();
+
+  box-sizing: border-box;
+}
+
+* {
+  &,
+  &::after,
+  &::before {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+main {
+  display: block;
+}
+
+body,
+figure,
+blockquote {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+dl,
+hr,
+textarea {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+fieldset {
+  margin-right: 0;
+}
+
+dd,
+fieldset {
+  margin-left: 0;
+}
+
+td,
+th,
+fieldset {
+  padding: 0;
+}
+
+legend {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+iframe,
+button,
+fieldset {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+q {
+  &::after,
+  &::before {
+    content: '';
+    content: none;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+  appearance: none;
+  padding: 0;
+}

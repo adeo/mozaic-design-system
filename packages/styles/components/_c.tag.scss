@@ -113,7 +113,7 @@
       }
 
       :disabled + & {
-        cursor: default;
+        cursor: not-allowed;
         background: $color-tag-selectable-light-disabled-background;
         color: $color-tag-selectable-light-disabled-text;
       }
@@ -139,7 +139,7 @@
       }
 
       :disabled + .mc-tag-selectable__pill {
-        cursor: default;
+        cursor: not-allowed;
         background: $color-tag-selectable-dark-disabled-background;
         color: $color-tag-selectable-dark-disabled-text;
       }

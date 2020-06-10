@@ -3482,6 +3482,76 @@ module.exports = {
         }
       }
     },
+    "divider": {
+      "lightest": {
+        "value": "#ffffff",
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorDividerLightest",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "lightest"
+        },
+        "path": [
+          "color",
+          "divider",
+          "lightest"
+        ]
+      },
+      "light": {
+        "value": "#bab6bc",
+        "original": {
+          "value": "{color.grey.300.value}"
+        },
+        "name": "ColorDividerLight",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "divider",
+          "light"
+        ]
+      },
+      "default": {
+        "value": "#6f676c",
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorDividerDefault",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "default"
+        },
+        "path": [
+          "color",
+          "divider",
+          "default"
+        ]
+      },
+      "dark": {
+        "value": "#000000",
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorDividerDark",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "divider",
+          "dark"
+        ]
+      }
+    },
     "fields": {
       "error": {
         "value": "#b42a27",
