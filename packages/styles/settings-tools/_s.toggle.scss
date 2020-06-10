@@ -26,7 +26,6 @@ $toggle-sizes: (
 
   $toggle-label-left: $toggle-switch-width + 0.75;
 
-  width: magic-unit-rem($toggle-switch-width);
   height: magic-unit-rem($toggle-switch-height);
   // add the switch width to the padding
   padding-left: magic-unit-rem($toggle-label-left, $allow-any-value: true);
