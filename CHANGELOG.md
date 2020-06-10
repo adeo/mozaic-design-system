@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.11](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.10...v1.0.1-beta.11) (2020-06-10)
+
+
+### Bug Fixes
+
+* **chore:** add resolutions for kind-of and minimist ([#554](https://github.com/adeo/mozaic-design-system/issues/554)) ([9b751e4](https://github.com/adeo/mozaic-design-system/commit/9b751e4aabc3621fea5a2a2f0197d4c960e559d6))
+* **chore:** upgrade graphql-playground-html version ([#572](https://github.com/adeo/mozaic-design-system/issues/572)) ([0976888](https://github.com/adeo/mozaic-design-system/commit/0976888b87ccb7d95c6741f6bf8e42e77fa75320))
+* **chore:** use adeo/httpie.action to fix pipenv new breaking changes ([#562](https://github.com/adeo/mozaic-design-system/issues/562)) ([736a144](https://github.com/adeo/mozaic-design-system/commit/736a14417097abc184c919e3010a3c33fd41dc04))
+* **chore/dependencies:** fix security alert websocket-extensions ([#570](https://github.com/adeo/mozaic-design-system/issues/570)) ([190a89f](https://github.com/adeo/mozaic-design-system/commit/190a89fcab4b5129e2d82b6933c62aaa3d12ec50))
+
+
+### Features
+
+* **patterns/form:** add a common structure for all form elements ([#552](https://github.com/adeo/mozaic-design-system/issues/552)) ([0e1eb10](https://github.com/adeo/mozaic-design-system/commit/0e1eb109b7f6f793d576939f3c2acf891e1b6b8b))
+
+
+
+
+
 ## [1.0.1-beta.10](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.9...v1.0.1-beta.10) (2020-05-20)
 
 
