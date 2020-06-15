@@ -1,0 +1,65 @@
+.mc-tabs {
+  position: relative;
+  min-height: 3.25rem;
+  clear: both;
+
+  &__tab {
+    min-height: 17rem;
+    float: left;
+
+    &-label {
+      padding: 1rem 1.5rem;
+      position: relative;
+    }
+
+    &__content {
+      min-height: 20rem;
+      position: absolute;
+      top: 1.75rem;
+      left: 0;
+      background: white;
+      right: 0;
+      bottom: 0;
+      padding: 20px;
+      border: 1px solid white;
+    }
+
+    &-field {
+      display: none;
+
+      &:checked ~ label {
+        color: $color-primary-01-300;
+        border-bottom: 0.125rem solid $color-primary-01-300;
+        z-index: 2;
+      }
+
+      &:focus ~ label {
+        @include add-demo-state-class {
+          border-color: $color-input-focus-border;
+
+          &::-ms-check {
+            border-color: $color-input-focus-border;
+          }
+        }
+      }
+
+      &:checked ~ label ~ .mc-tabs__content {
+        z-index: 1;
+      }
+
+      &:hover ~ label {
+        color: $color-primary-01-300;
+      }
+
+      &:disabled ~ label {
+        color: $color-grey-600;
+      }
+
+      &:disabled:hover ~ label {
+        color: $color-grey-600;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
