@@ -3,6 +3,18 @@
   min-height: 3.25rem;
   clear: both;
 
+  &__content {
+    min-height: 20rem;
+    position: absolute;
+    top: 1.75rem;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border: 1px solid white;
+  }
+
   &__tab {
     min-height: 17rem;
     float: left;
@@ -10,18 +22,6 @@
     &-label {
       padding: 1rem 1.5rem;
       position: relative;
-    }
-
-    &__content {
-      min-height: 20rem;
-      position: absolute;
-      top: 1.75rem;
-      left: 0;
-      background: white;
-      right: 0;
-      bottom: 0;
-      padding: 20px;
-      border: 1px solid white;
     }
 
     &-field {
