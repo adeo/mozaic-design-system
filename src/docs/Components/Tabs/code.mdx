@@ -6,3 +6,124 @@ status:
   sketch: 'bêta'
   scss: 'bêta'
 ---
+
+## Basic implementation
+
+### Import
+
+Import **the settings** and **the tabs** `scss` files.
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.tabs';
+```
+
+### Basic usage
+
+To create a basic tabs, wrap a `input[type="radio"]` and a `label` inside a `div` and apply the following classes:
+
+- `mc-tabs` on a div container
+- `mc-tabs__tab` on the div tag
+- `mc-toggle__tab-field` on the input tag
+- `mc-toggle__tab-label` on the label tag
+- `mc-tabs__content` on the div tag
+
+```html
+    <div class="mc-tabs">
+    
+        <div class="mc-tabs__tab">
+            <input class="mc-tabs__tab-field" type="radio" id="tab-1" name="tab-group-1" checked>
+            <label class="mc-tabs__tab-label" for="tab-1">Tab One</label>
+            
+            <div class="mc-tabs__content">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis mauris quam, in fringilla purus lobortis a. Nunc a venenatis risus, 
+                    sit amet sagittis urna. Proin ac pharetra erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Etiam finibus condimentum tempus. Nullam eget ligula ipsum. Proin vitae sollicitudin turpis. Aenean finibus augue sed convallis suscipit.
+                    Suspendisse potenti. Quisque venenatis elementum libero euismod mattis.</span>
+                
+            </div> 
+        </div>
+         
+        <div class="mc-tabs__tab">
+            <input class="mc-tabs__tab-field" type="radio" id="tab-2" name="tab-group-1" >
+            <label class="mc-tabs__tab-label" for="tab-2">Tab two</label>
+            
+            <div class="mc-tabs__content">
+                Suspendisse finibus nulla eu nulla sagittis, sed malesuada dolor vehicula. Proin sagittis, dolor non vulputate vulputate, libero nibh fermentum risus, sed consectetur elit arcu at dolor. Fusce suscipit tincidunt lorem id imperdiet. Fusce nulla neque, tincidunt pharetra sem quis, auctor rhoncus massa. Nulla viverra vestibulum enim. Vivamus venenatis luctus ex vitae dapibus. Curabitur interdum quam non erat fermentum aliquam. Donec viverra rutrum fringilla. Aliquam eget nibh in mi euismod pellentesque. Donec vel lorem elementum erat varius elementum.stuff 2
+            </div> 
+        </div>
+         
+        <div class="mc-tabs__tab">
+            <input class="mc-tabs__tab-field" type="radio" id="tab-3" name="tab-group-1" >
+            <label class="mc-tabs__tab-label" for="tab-3">Tab three</label>
+            
+            <div class="mc-tabs__content">
+                Morbi efficitur odio quis enim consectetur ultricies. Maecenas non pharetra odio, sit amet porta nibh. Pellentesque suscipit mauris quis ipsum feugiat, at fermentum mauris tristique. Curabitur ut eros lectus. Praesent bibendum erat lorem, nec aliquam metus tempus eu. Nunc et tincidunt nunc, a cursus odio. Quisque auctor risus vel dui cursus, et aliquam quam tristique. Proin sit amet vestibulum nibh, vel porttitor orci. Nam porttitor convallis dui, ut venenatis metus commodo in. Vestibulum interdum maximus imperdiet. Aenean et massa sit amet nibh dictum vulputate. Fusce sed sapien ex. Quisque varius, eros vitae cursus faucibus, justo augue viverra ipsum, ut posuere ipsum felis eu mauris. Sed scelerisque purus ut hendrerit rhoncus. Praesent id tellus metus.
+            </div> 
+        </div>
+
+        <div class="mc-tabs__tab" disabled>
+            <input class="mc-tabs__tab-field" type="radio" id="tab-4" name="tab-group-1" disabled>
+            <label class="mc-tabs__tab-label" for="tab-4" disabled>Tab four</label>
+            
+            <div class="mc-tabs__content">
+                Vivamus sed mi tempus, tempus orci quis, laoreet dolor. Vestibulum in libero ut diam egestas efficitur. Phasellus efficitur ultrices orci a pulvinar. Sed nec vulputate nibh. In metus nibh, euismod a rutrum at, ultricies sit amet libero. Nam scelerisque lectus a libero varius, vitae gravida massa interdum. Quisque commodo venenatis erat. Nam ut metus nec nisi tincidunt viverra eu eu orci. Donec eget risus fringilla, rhoncus velit eget, tempor nibh. Integer sit amet libero non arcu venenatis eleifend nec at sapien. Nulla id diam metus. Donec feugiat tortor vitae augue euismod gravida. Nunc ante enim, vestibulum iaculis congue quis, pulvinar quis augue. Morbi fringilla volutpat velit, ut sollicitudin velit vehicula ac.
+            </div> 
+        </div>
+         
+     </div>
+```
+
+<Preview path="Tabs-all-stats" nude />
+
+### Variations
+
+### States
+
+Depending on the context of use, the toggle can have several states:
+
+- Inactive
+- Active
+- Active disable
+- Inactive disable
+- Off disabled
+
+<Preview path="toggle-states" />
+
+#### Displaying on/off states in labels
+
+In order to add on/off states to the labels, add the following code:
+
+```html
+<span class="mc-toggle__state" aria-hidden="true">
+  <span class="mc-toggle__off">Off</span>
+  <span class="mc-toggle__on">On</span>
+</span>
+```
+
+Inside the label after you text:
+
+```html
+<div class="mc-toggle">
+  <input class="mc-toggle__input" id="example" type="checkbox" />
+  <label class="mc-toggle__label" for="example" aria-label="example toggle 4">
+    My option :
+    <span class="mc-toggle__state" aria-hidden="true">
+      <span class="mc-toggle__off">Off</span>
+      <span class="mc-toggle__on">On</span>
+    </span>
+  </label>
+</div>
+```
+
+<Highlight theme="tips" title="Accessibility rule">
+
+  Don't forget to add the attribute `aria-hidden="true"` on the `mc-toggle__state` element
+
+</Highlight>
+
+<Preview path="toggle-states-label" />
+
