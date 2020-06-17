@@ -11,6 +11,8 @@
 /* mqp:start */
 
 .mc-tabs {
+  @include set-tag-base-style('m');
+
   color: $color-grey-900;
   height: auto;
   width: 100%;
