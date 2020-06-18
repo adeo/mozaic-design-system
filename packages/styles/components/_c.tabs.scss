@@ -1,90 +1,70 @@
 /* mqp:start */
 
 .mc-tabs {
-  @include set-font-face('m');
+  $parent: &;
 
-  color: $color-grey-900;
-  width: 100%;
-  position: relative;
-  background: none;
+  @include set-font-face();
 
   &__nav {
     @include unstyle-list();
 
     margin: 0;
-    padding: 0;
     display: inline-flex;
-    background: none;
-    box-shadow: none;
-    z-index: auto;
   }
 
   &__link {
+    @include set-font-scale('06', 'xs');
+
+    position: relative;
     color: $color-font-darker;
     text-decoration: none;
-    font-weight: 400;
-    padding: $mu150 0;
+    padding: $mu150;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin: 0 $mu150;
-    line-height: $mu100;
     overflow: hidden;
+    border-bottom: 0.125rem solid transparent;
+    outline: none;
+
+    &:hover,
+    &:active {
+      color: $color-primary-01-500;
+    }
+
+    &:focus {
+      @include set-focus-styles-during();
+    }
+
+
+    &--selected {
+      color: $color-primary-01-500;
+      border-bottom-color: $color-primary-01-500;
+
+      &:hover {
+        color: $color-font-success;
+        border-bottom-color: $color-font-success;
+      }
+    }
+
+    &--disabled {
+      cursor: not-allowed;
+
+      &,
+      &:hover,
+      &:focus,
+      &:active {
+        color: $color-font-light;
+        box-shadow: none;
+      }
+
+      &#{$parent}__link--selected {
+        color: $color-primary-01-200;
+        border-bottom-color: $color-primary-01-200;
+      }
+    }
   }
 
   &__item {
     display: flex;
-    padding: 0;
-    cursor: pointer;
-    width: 100%;
-    height: auto;
-
-    &--disabled {
-      cursor: not-allowed;
-      outline: none;
-      color: $color-font-light;
-
-      .mc-tabs__link {
-        color: $color-font-light;
-      }
-    }
-
-    &--selected {
-      color: $color-primary-01-200;
-      border-bottom: 0.125rem solid $color-primary-01-200;
-
-      .mc-tabs__link,
-      .mc-tabs__link:focus,
-      .mc-tabs__link:active {
-        color: $color-primary-01-200;
-      }
-
-      &:not(.mc-tabs__item--disabled) {
-        border: none;
-        display: none;
-        display: flex;
-        border-bottom: 0.125rem solid $color-primary-01-600;
-
-        .mc-tabs__link,
-        .mc-tabs__link:focus,
-        .mc-tabs__link:active {
-          color: $color-primary-01-600;
-        }
-      }
-    }
-
-    &:hover:not(.mc-tabs__item--disabled) {
-      background-color: 0.125rem solid $color-primary-01-600;
-    }
-
-    &:hover:not(.mc-tabs__item--selected):not(.mc-tabs__item--disabled) {
-      background: transparent;
-
-      .mc-tabs__link,
-      .mc-tabs__link:focus,
-      .mc-tabs__link:active {
-        color: $color-primary-01-600;
-      }
-    }
   }
 }
 

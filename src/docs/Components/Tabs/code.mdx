@@ -28,34 +28,35 @@ To create a basic tabs, wrap a link `a` inside a `ul` and apply the following cl
 - `mc-tabs` on a div container
 - `mc-tabs__nav` on the ul tag
 - `mc-tabs__item` on the li tag
-- `mc-toggle__link` on the a tag
+- `mc-tabs__link` on the a tag
 
 ```html
+<div class="example">
 	<div class="mc-tabs">
-		<ul class="mc-tabs__nav" role="tabs-navigation">
+		<ul class="mc-tabs__nav" role="tablist">
 			<li
-				class="mc-tabs__nav-item mc-tabs__nav-item--selected"
-				data-target=".tab-1-content" role="tab"  aria-selected="true">
-				<a tabindex="0" class="mc-tabs__nav-link" href="javascript:void(0);" role="tab">Tab Selected</a>
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link mc-tabs__link--selected"  href="" aria-selected="true" role="tab">Tab Selected</a>
 			</li>
 			<li
-				class="mc-tabs__nav-item "
-				data-target=".tab-2-content" role="tab">
-				<a tabindex="0" class="mc-tabs__nav-link" href="javascript:void(0);" role="tab">Tab Default 1</a>
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link" href="" role="tab">Tab Default 1</a>
 			</li>
 			<li
-				class="mc-tabs__nav-item "
-				data-target=".tab-3-content" role="tab">
-				<a tabindex="0" class="mc-tabs__nav-link" href="javascript:void(0);" role="tab">Tab default 2</a>
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link" href="" role="tab">Tab default 2</a>
 			</li>
 			<li
-				class="mc-tabs__nav-item  mc-tabs__nav-item--disabled "
-				data-target=".tab-4-content" role="tab"  
-				aria-disabled="true">
-				<a tabindex="0" class="mc-tabs__nav-link" href="javascript:void(0);" role="tab">Tab Disabled</a>
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link mc-tabs__link--disabled" href="" aria-disabled="true" role="tab">Tab Disabled</a>
 			</li>
 		</ul>
 	</div>
+</div>
 ```
 
 <Preview path="tabs-all-stats" nude />
