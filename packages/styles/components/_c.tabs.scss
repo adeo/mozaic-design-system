@@ -1,113 +1,88 @@
-
-// .mc-tabs__nav-item--disabled.mc-tabs__nav-item--selected {
-//   color: $color-primary-01-200;
-//   border-bottom: 0.125rem solid $color-primary-01-200;
-
-//   .mc-tabs__nav-link {
-//     color: $color-primary-01-200;
-//   }
-// }
-
 /* mqp:start */
 
 .mc-tabs {
-  @include set-tag-base-style('m');
+  @include set-font-face('m');
 
   color: $color-grey-900;
-  height: auto;
   width: 100%;
   position: relative;
   background: none;
-  min-height: $mu250;
 
   &__nav {
+    @include unstyle-list();
+
     margin: 0;
     padding: 0;
-    position: absolute;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     background: none;
     box-shadow: none;
     z-index: auto;
-    width: auto;
+  }
 
-    &--hidden {
-      display: flex;
-      max-width: 100%;
-      max-height: none;
+  &__link {
+    color: $color-font-darker;
+    text-decoration: none;
+    font-weight: 400;
+    padding: $mu150 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 $mu150;
+    line-height: $mu100;
+    overflow: hidden;
+  }
+
+  &__item {
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+
+    &--disabled {
+      cursor: not-allowed;
+      outline: none;
+      color: $color-font-light;
+
+      .mc-tabs__link {
+        color: $color-font-light;
+      }
     }
 
-    &-link {
-      display: inline-block;
-      color: $color-grey-900;
-      text-decoration: none;
-      font-weight: 400;
-      // padding: $mu150 0;
-      height: 2.5rem;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      margin: 0 $mu150;
-      line-height: $mu100;
-      overflow: hidden;
-    }
+    &--selected {
+      color: $color-primary-01-200;
+      border-bottom: 0.125rem solid $color-primary-01-200;
 
-    &-item {
-      display: flex;
-      padding: 0;
-      cursor: pointer;
-      width: 100%;
-      height: auto;
-      background: transparent;
-
-      &--disabled {
-        cursor: not-allowed;
-        outline: none;
-        color: $color-grey-600;
-
-        .mc-tabs__nav-link {
-          color: $color-grey-600;
-          pointer-events: none;
-        }
+      .mc-tabs__link,
+      .mc-tabs__link:focus,
+      .mc-tabs__link:active {
+        color: $color-primary-01-200;
       }
 
-      // &--disabled &--selected {
-      //   color: $color-primary-01-200;
-      //   border-bottom: 0.125rem solid $color-primary-01-200;
-
-      //   .mc-tabs__nav-link:active {
-      //     color: $color-primary-01-600;
-      //   }
-      // }
-
-      &--selected {
-        &:not(.mc-tabs__nav-item--disabled) {
-          border: none;
-          display: none;
-          display: flex;
-          border-bottom: 0.125rem solid $color-primary-01-600;
-
-          .mc-tabs__nav-link,
-          .mc-tabs__nav-link:focus,
-          .mc-tabs__nav-link:active {
-            color: $color-primary-01-600;
-          }
-        }
-      }
-
-      &:hover:not(.mc-tabs__nav-item--disabled) {
-        background-color: 0.125rem solid $color-primary-01-600;
-      }
-
-      &:hover:not(.mc-tabs__nav-item--selected):not(.mc-tabs__nav-item--disabled) {
-        background: transparent;
+      &:not(.mc-tabs__item--disabled) {
+        border: none;
+        display: none;
+        display: flex;
         border-bottom: 0.125rem solid $color-primary-01-600;
 
-        .mc-tabs__nav-link,
-        .mc-tabs__nav-link:focus,
-        .mc-tabs__nav-link:active {
+        .mc-tabs__link,
+        .mc-tabs__link:focus,
+        .mc-tabs__link:active {
           color: $color-primary-01-600;
         }
+      }
+    }
+
+    &:hover:not(.mc-tabs__item--disabled) {
+      background-color: 0.125rem solid $color-primary-01-600;
+    }
+
+    &:hover:not(.mc-tabs__item--selected):not(.mc-tabs__item--disabled) {
+      background: transparent;
+
+      .mc-tabs__link,
+      .mc-tabs__link:focus,
+      .mc-tabs__link:active {
+        color: $color-primary-01-600;
       }
     }
   }

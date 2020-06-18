@@ -27,8 +27,8 @@ To create a basic tabs, wrap a link `a` inside a `ul` and apply the following cl
 
 - `mc-tabs` on a div container
 - `mc-tabs__nav` on the ul tag
-- `mc-toggle__nav-item` on the li tag
-- `mc-toggle__nav-link` on the a tag
+- `mc-tabs__item` on the li tag
+- `mc-toggle__link` on the a tag
 
 ```html
 	<div class="mc-tabs">
@@ -58,13 +58,13 @@ To create a basic tabs, wrap a link `a` inside a `ul` and apply the following cl
 	</div>
 ```
 
-<Preview path="Tabs-all-stats" nude />
+<Preview path="tabs-all-stats" nude />
 
 ### Variations
 
 ### States
 
-Depending on the context of use, the toggle can have several states:
+Depending on the context of use, the tab can have several states:
 
 - Inactive
 - Active
@@ -72,7 +72,10 @@ Depending on the context of use, the toggle can have several states:
 - Inactive disable
 - Off disabled
 
-<Preview path="Tabs-code-states" />
+<Preview path="tabs-code-states" />
 
+#### Accessibility and semantic
 
-
+<HintItem>
+Content authors need to ensure the content that is added to the tab panel is accessible. For example, if you add an image to the panel you need to include alternative text to pass accessibility testing.
+</HintItem>
