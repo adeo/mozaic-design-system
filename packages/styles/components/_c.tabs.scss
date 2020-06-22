@@ -5,7 +5,7 @@
 
   @include set-font-face();
 
-  box-shadow: 0 4px 1px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 $mu025 $mu025 rgba(0, 0, 0, 0.1);
 
   &__nav {
     @include unstyle-list();
