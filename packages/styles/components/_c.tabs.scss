@@ -5,6 +5,8 @@
 
   @include set-font-face();
 
+  box-shadow: 0 4px 1px -1px rgba(0, 0, 0, 0.1);
+
   &__nav {
     @include unstyle-list();
 
@@ -18,7 +20,7 @@
     position: relative;
     color: $color-font-darker;
     text-decoration: none;
-    padding: $mu150;
+    padding: $mu100 $mu150;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -65,6 +67,13 @@
 
   &__item {
     display: flex;
+  }
+
+  &--full {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 $mu025 $mu025 rgba(0, 0, 0, 0.1);
+    padding: 0;
   }
 }
 
