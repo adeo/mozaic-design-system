@@ -40,7 +40,7 @@
     height: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 0.5s ease-out, padding 0.3s linear;
     border-bottom: get-border(s) solid $color-grey-600;
   }
 

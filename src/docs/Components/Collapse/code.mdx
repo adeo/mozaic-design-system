@@ -1,0 +1,73 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@import 'components/_c.collapse';
+```
+
+## Basic usage
+```html
+<div class="mc-collapse ">
+    <input type="checkbox" id="basicUsage" class="mc-collapse__trigger">
+    <label for="basicUsage" class="mc-collapse__label" aria-expand="false">
+        My label
+        <span class="mc-collapse__icon"></span>
+    </label>
+    <div class="mc-collapse__content">
+        <p>Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet pharetra.</p>
+    </div>
+</div>
+```
+<Preview path="basic" />
+
+## With icon
+```html
+<div class="mc-collapse ">
+    <input type="checkbox" id="iconUsage" class="mc-collapse__trigger">
+    <label for="iconUsage" class="mc-collapse__label mc-collapse__label--with-picto" aria-expand="false">
+        <svg class="mc-collapse__picto" xmlns="http://www.w3.org/2000/svg"><symbol id="Store_StoreLM_32px" viewBox="0 0 32 32"><path d="M23 11l-5.59-5.59a2 2 0 00-2.82 0L9 11H5a2 2 0 00-2 2v12a2 2 0 002 2h22a2 2 0 002-2V13a2 2 0 00-2-2zm-3 14h-3.5v-5H20zm-4.5 0H12v-5h3.5zM27 25h-6v-5.5a.5.5 0 00-.5-.5h-9a.5.5 0 00-.5.5V25H5V13h4.83l.58-.59L16 6.83l5.59 5.58.58.59H27z"></path><path d="M16.71 10.71a1 1 0 00-1.42 0l-3.58 3.58a1 1 0 00.7 1.71h7.18a1 1 0 00.7-1.71z"></path></symbol></svg>    
+        Mon super label
+        <span class="mc-collapse__icon"></span>
+    </label>
+    <div class="mc-collapse__content">
+        <p>Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet pharetra.</p>
+    </div>
+</div>
+```
+<Preview path="icon" />
+
+## Disable
+```html
+<div class="mc-collapse ">
+    <input type="checkbox" id="disableUsage" class="mc-collapse__trigger" disabled>
+    <label for="disableUsage" class="mc-collapse__label" aria-expand="false">
+        My label
+        <span class="mc-collapse__icon"></span>
+    </label>
+    <div class="mc-collapse__content">
+        <p>Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet pharetra.</p>
+    </div>
+</div>
+```
+<Preview path="disable" />
+
+## Open
+```html
+<div class="mc-collapse ">
+    <input type="checkbox" id="openUsage" class="mc-collapse__trigger" checked>
+    <label for="openUsage" class="mc-collapse__label" aria-expand="true">
+        My label
+        <span class="mc-collapse__icon"></span>
+    </label>
+    <div class="mc-collapse__content">
+        <p>Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet pharetra.</p>
+    </div>
+</div>
+```
+<Preview path="open" />
