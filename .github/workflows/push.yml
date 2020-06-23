@@ -25,7 +25,7 @@ jobs:
       - name: Build a production website
         run: yarn build
         env:
-          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
       - uses: ./ci/docker-wait
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
@@ -39,7 +39,7 @@ jobs:
           args: app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --no-promote
       - uses: adeo/httpie.action@master
         env:
-          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
         with:
           args:
             POST https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment
