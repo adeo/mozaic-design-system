@@ -21,6 +21,13 @@ Import **the settings** and **the tabs** `scss` files.
 @import 'components/_c.tabs';
 ```
 
+<Highlight theme="warning" title="Javascript needs">
+To properly use the tabs, you will need to add javascript for the selected tab and display/hide your content.
+
+- When the user clicks a different tab, move the `mc-tabs__link--selected` class and toogle the linked content.
+
+</Highlight>
+
 ### Basic usage
 
 To create a basic tabs, wrap a link `a` inside a `ul` and apply the following classes:
@@ -69,8 +76,8 @@ Depending on the context of use, the tab can have several states:
 
 - Inactive
 - Active
-- Active disable
-- Inactive disable
+- Active disabled
+- Inactive disabled
 - Off disabled
 
 <Preview path="tabs-code-states" />
