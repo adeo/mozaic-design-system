@@ -1,6 +1,8 @@
 .mc-collapse {
   background-color: $color-grey-000;
 
+  @include set-font-face();
+
   &__label {
     @include set-font-scale('06', 'm');
 
