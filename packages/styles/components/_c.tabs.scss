@@ -5,6 +5,7 @@
 
   @include set-font-face();
 
+  display: inline-flex;
   box-shadow: 0 $mu025 $mu025 rgba(0, 0, 0, 0.1);
 
   &__nav {
