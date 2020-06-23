@@ -50,7 +50,11 @@ You can also restrict the type or the path of the file to be uploaded.
 
 ## Accessibility and semantic
 
-Don't forget to add the `aria-label` attribute on the `mc-fileuploader__input`
+<Highlight theme="tips">
+
+  Don't forget to add the `aria-label` attribute on the `mc-fileuploader__input`
+
+</Highlight>
 
 ## Display uploaded files and errors
 
@@ -65,12 +69,12 @@ Inside the file uploader, right after the `label`, add a list of files :
         <li class="mc-fileuploader__file mc-fileuploader__file--is-valid">
             <span class="mc-fileuploader__file-name">filename-valid.jpg</span>
             <span class="mc-fileuploader__file-icon"></span>
-            <button href="#" class="mc-fileuploader__delete"></button>
+            <button type="button" class="mc-fileuploader__delete"></button>
         </li>
         <li class="mc-fileuploader__file mc-fileuploader__file--is-invalid">
             <span class="mc-fileuploader__file-name">filename-invalid.jpg</span>
             <span class="mc-fileuploader__file-icon"></span>
-            <button href="#" class="mc-fileuploader__delete"></button>
+            <button type="button" class="mc-fileuploader__delete"></button>
             <div class="mc-fileuploader__file-message">
                 Oops, the file "filename-invalid.jpg" was not uploaded. please try again
             </div>
