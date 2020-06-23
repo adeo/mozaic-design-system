@@ -6989,14 +6989,6 @@
     {
       "cat": "Social",
       "size": "64px",
-      "name": "View_Like--Negative",
-      "fileName": "Social_View_Like--Negative_64px.svg",
-      "iconName": "ViewLikeNegative",
-      "componentName": "ViewLikeNegative64"
-    },
-    {
-      "cat": "Social",
-      "size": "64px",
       "name": "View_Like--Positive",
       "fileName": "Social_View_Like--Positive_64px.svg",
       "iconName": "ViewLikePositive",
