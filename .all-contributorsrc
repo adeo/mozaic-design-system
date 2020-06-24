@@ -1,0 +1,24 @@
+{
+  "projectName": "mozaic-design-system",
+  "projectOwner": "adeo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "commitConvention": "angular",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": true,
+  "contributorsSortAlphabetically": true,
+  "contributors": [
+    {
+      "login": "C0ZEN",
+      "name": "Geoffrey 'C0ZEN' Testelin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10194542?s=460&v=4",
+      "profile": "http://www.geoffreytestelin.com/",
+      "contributions": []
+    }
+  ],
+  "skipCi": false,
+  "contributorsPerLine": 7
+}
