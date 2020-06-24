@@ -1,5 +1,8 @@
 # MOZAIC Design system
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -89,13 +92,16 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://www.geoffreytestelin.com/"><img src="https://avatars1.githubusercontent.com/u/10194542?v=4" width="100px;" alt=""/><br /><sub><b>Geoffrey Testelin</b></sub></a><br /><a href="#design-C0ZEN" title="Design">🎨</a></td>
+    <td align="center"><a href="http://www.geoffreytestelin.com/"><img src="https://avatars1.githubusercontent.com/u/10194542?v=4" width="100px;" alt=""/><br /><sub><b>Geoffrey Testelin</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AC0ZEN" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/hatem-benmansour-lmfr"><img src="https://avatars1.githubusercontent.com/u/52403372?v=4" width="100px;" alt=""/><br /><sub><b>hatem-benmansour-lmfr</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Ahatem-benmansour-lmfr" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/corentin-verquin-lm"><img src="https://avatars3.githubusercontent.com/u/57133075?v=4" width="100px;" alt=""/><br /><sub><b>corentin-verquin-lm</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/commits?author=corentin-verquin-lm" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/bmondolot"><img src="https://avatars1.githubusercontent.com/u/11473460?v=4" width="100px;" alt=""/><br /><sub><b>Mondolot Bertrand</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Abmondolot" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/marineFabien"><img src="https://avatars1.githubusercontent.com/u/49992054?v=4" width="100px;" alt=""/><br /><sub><b>Marine</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AmarineFabien" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

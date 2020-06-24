@@ -1,9 +1,14 @@
 {
+  "projectName": "mozaic-design-system",
+  "projectOwner": "adeo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
   "files": [
     "README.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
+  "commitConvention": "angular",
   "contributors": [
     {
       "login": "C0ZEN",
@@ -11,14 +16,45 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/10194542?v=4",
       "profile": "http://www.geoffreytestelin.com/",
       "contributions": [
-        "design"
+        "bug"
+      ]
+    },
+    {
+      "login": "hatem-benmansour-lmfr",
+      "name": "hatem-benmansour-lmfr",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52403372?v=4",
+      "profile": "https://github.com/hatem-benmansour-lmfr",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "corentin-verquin-lm",
+      "name": "corentin-verquin-lm",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/57133075?v=4",
+      "profile": "https://github.com/corentin-verquin-lm",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "bmondolot",
+      "name": "Mondolot Bertrand",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11473460?v=4",
+      "profile": "https://github.com/bmondolot",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "marineFabien",
+      "name": "Marine",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/49992054?v=4",
+      "profile": "https://github.com/marineFabien",
+      "contributions": [
+        "bug"
       ]
     }
   ],
-  "contributorsPerLine": 7,
-  "projectName": "mozaic-design-system",
-  "projectOwner": "adeo",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+  "contributorsPerLine": 7
 }
