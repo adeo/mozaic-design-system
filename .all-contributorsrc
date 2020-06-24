@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "C0ZEN",
+      "name": "Geoffrey Testelin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10194542?v=4",
+      "profile": "http://www.geoffreytestelin.com/",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "mozaic-design-system",
+  "projectOwner": "adeo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
