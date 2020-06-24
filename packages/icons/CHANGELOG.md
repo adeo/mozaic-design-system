@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.12](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.11...v1.0.1-beta.12) (2020-06-24)
+
+
+### Features
+
+* **patterns/icons:** add new icons ([#582](https://github.com/adeo/mozaic-design-system/issues/582)) ([2832a36](https://github.com/adeo/mozaic-design-system/commit/2832a36395738bdde33f1c39271103772d814986))
+
+
+
+
+
 ## [1.0.1-beta.9](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.8...v1.0.1-beta.9) (2020-05-07)
 
 

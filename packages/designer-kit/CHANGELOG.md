@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.12](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.11...v1.0.1-beta.12) (2020-06-24)
+
+
+### Features
+
+* **pattern/tabs:** Add pattern tabs ([#574](https://github.com/adeo/mozaic-design-system/issues/574)) ([46a8541](https://github.com/adeo/mozaic-design-system/commit/46a8541691bf37b90fbff316da0e16381e62afdc))
+
+
+
+
+
 ## [1.0.1-beta.10](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.9...v1.0.1-beta.10) (2020-05-20)
 
 
