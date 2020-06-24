@@ -1,0 +1,17 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.tabs';
+
+.example {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  margin-bottom: 6rem;
+}
+
+.example-1 {
+  margin: 2rem 0;
+}
+
