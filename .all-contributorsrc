@@ -54,6 +54,24 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "jeanBptst",
+      "name": "Jean-Baptiste Lecomte",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25452975?v=4",
+      "profile": "https://github.com/jeanBptst",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "ThomasRumasLM",
+      "name": "ThomasRumasLM",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52402267?v=4",
+      "profile": "https://github.com/ThomasRumasLM",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7

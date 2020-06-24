@@ -1,6 +1,6 @@
 # MOZAIC Design system
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
@@ -102,6 +102,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/corentin-verquin-lm"><img src="https://avatars3.githubusercontent.com/u/57133075?v=4" width="100px;" alt=""/><br /><sub><b>corentin-verquin-lm</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/commits?author=corentin-verquin-lm" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/bmondolot"><img src="https://avatars1.githubusercontent.com/u/11473460?v=4" width="100px;" alt=""/><br /><sub><b>Mondolot Bertrand</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Abmondolot" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/marineFabien"><img src="https://avatars1.githubusercontent.com/u/49992054?v=4" width="100px;" alt=""/><br /><sub><b>Marine</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AmarineFabien" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/jeanBptst"><img src="https://avatars2.githubusercontent.com/u/25452975?v=4" width="100px;" alt=""/><br /><sub><b>Jean-Baptiste Lecomte</b></sub></a><br /><a href="#ideas-jeanBptst" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/ThomasRumasLM"><img src="https://avatars2.githubusercontent.com/u/52402267?v=4" width="100px;" alt=""/><br /><sub><b>ThomasRumasLM</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AThomasRumasLM" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
