@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "corentin-verquin-lm",
+      "name": "corentin-verquin-lm",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/57133075?v=4",
+      "profile": "https://github.com/corentin-verquin-lm",
+      "contributions": [
+        "design",
+        "code",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "mozaic-design-system",
+  "projectOwner": "adeo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
