@@ -30,7 +30,7 @@
   }
 
   &__icon {
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7fS5jbHMtMntmaWxsOiM5OTk7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5OYXZpZ2F0aW9uX0NvbnRyb2xfTW9yZV8yNHB4PC90aXRsZT48ZyBpZD0iU3F1YXJlIj48cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPjwvZz48ZyBpZD0iSWNvbiI+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTkuMDksMTFoLTZWNWExLDEsMCwwLDAtMiwwdjZoLTZhMSwxLDAsMCwwLDAsMmg2djZhMSwxLDAsMCwwLDIsMFYxM2g2YTEsMSwwLDAsMCwwLTJaIi8+PC9nPjwvc3ZnPg==');
+    background-image: url(inline-icons('control-more-24',$color-grey-900));
     width: $mu150;
     height: $mu150;
     margin-left: $mu100;
@@ -42,7 +42,8 @@
     height: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease-out, padding 0.3s linear;
+    padding-left: $mu050;
+    transition: max-height 0.5s ease-out, padding-bottom 0.3s linear;
     border-bottom: get-border(s) solid $color-grey-600;
   }
 
@@ -50,20 +51,20 @@
     opacity: 0;
     position: absolute;
 
-    &:focus ~ .mc-collapse__label {
-      outline: 2px solid;
+    &:focus ~ .mc-accordion__label {
+      @include set-focus-styles-during();
     }
 
-    &:checked ~ .mc-collapse__label .mc-collapse__icon {
-      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7fS5jbHMtMntmaWxsOiM5OTk7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5OYXZpZ2F0aW9uX0NvbnRyb2xfTGVzc18yNHB4PC90aXRsZT48ZyBpZD0iU3F1YXJlIj48cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPjwvZz48ZyBpZD0iSWNvbiI+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTcuMDksMTNoLTEwYTEsMSwwLDAsMSwwLTJoMTBhMSwxLDAsMCwxLDAsMloiLz48L2c+PC9zdmc+');
+    &:checked ~ .mc-accordion__label .mc-accordion__icon {
+      background-image: url(inline-icons('control-less-24', $color-grey-900));
     }
 
-    &:checked ~ .mc-collapse__content {
+    &:checked ~ .mc-accordion__content {
       max-height: 100vh;
       padding-bottom: $mu150;
     }
 
-    &:disabled ~ .mc-collapse__label {
+    &:disabled ~ .mc-accordion__label {
       background-color: $color-grey-100;
       color: $color-grey-600;
     }
