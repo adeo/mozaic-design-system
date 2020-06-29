@@ -1,11 +1,15 @@
 .mc-accordion {
+  $parent: &;
+
   background-color: $color-grey-000;
 
   @include set-font-face();
 
   &__label {
     @include set-font-scale('06', 'm');
+    @include set-font-face('semi-bold');
 
+    color: $color-grey-900;
     cursor: pointer;
     position: relative;
     padding: $mu125 $mu050;
@@ -43,15 +47,16 @@
     max-height: 0;
     overflow: hidden;
     padding-left: $mu050;
-    transition: max-height 0.5s ease-out, padding-bottom 0.3s linear;
+    transition: max-height 0.3s ease-out, padding-bottom 0.3s linear;
     border-bottom: get-border(s) solid $color-grey-600;
+    color: $color-grey-800;
   }
 
   &__trigger {
     opacity: 0;
     position: absolute;
 
-    &:focus ~ .mc-accordion__label {
+    &:focus .mc-accordion__label {
       @include set-focus-styles-during();
     }
 
@@ -64,9 +69,19 @@
       padding-bottom: $mu150;
     }
 
+    &:disabled ~ .mc-accordion__content {
+      color: $color-grey-600;
+      cursor: not-allowed;
+    }
+
     &:disabled ~ .mc-accordion__label {
       background-color: $color-grey-100;
       color: $color-grey-600;
+      cursor: not-allowed;
+    }
+
+    &:disabled ~ .mc-accordion__label .mc-accordion__icon {
+      background-image: url(inline-icons('control-more-24', $color-grey-600));
     }
   }
 }

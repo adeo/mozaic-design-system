@@ -1,0 +1,10 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.accordion';
+
+.example {
+  margin: 20px 20px 90px 20px;
+  min-height: 150px;
+}
