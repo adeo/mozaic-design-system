@@ -32,6 +32,27 @@ order: 2
 
 <Preview path="basic" />
 
+## Open
+
+```html
+<div class="mc-accordion">
+  <input type="checkbox" id="openUsage" class="mc-accordion__trigger" checked />
+  <label for="openUsage" class="mc-accordion__label" aria-expand="true">
+    Accordion title
+    <span class="mc-accordion__icon"></span>
+  </label>
+  <div class="mc-accordion__content">
+    <p>
+      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
+      at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
+      pharetra.
+    </p>
+  </div>
+</div>
+```
+
+<Preview path="open" />
+
 ## With icon
 
 ```html
@@ -93,23 +114,10 @@ order: 2
 
 <Preview path="disable" />
 
-## Open
+## No Padding
 
-```html
-<div class="mc-accordion">
-  <input type="checkbox" id="openUsage" class="mc-accordion__trigger" checked />
-  <label for="openUsage" class="mc-accordion__label" aria-expand="true">
-    Accordion title
-    <span class="mc-accordion__icon"></span>
-  </label>
-  <div class="mc-accordion__content">
-    <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-      at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-      pharetra.
-    </p>
-  </div>
-</div>
-```
+You have the possibility to have an accordion with no padding.
 
-<Preview path="open" />
+For this you have to add to the label the `mc-accordion__label--no-padding` modifier.
+
+<Preview path="no-padding" />

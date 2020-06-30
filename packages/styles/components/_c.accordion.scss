@@ -14,11 +14,14 @@
     position: relative;
     padding: $mu125 $mu050;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    background-image: url(inline-icons('control-more-24',$color-grey-900));
+    background-position: right 1rem center;
+    background-repeat: no-repeat;
+    background-size: $mu150;
 
-    &--with-picto {
-      padding-left: $mu350;
+    &--no-padding {
+      padding-left: 0;
     }
 
     &:hover {
@@ -29,17 +32,7 @@
   &__picto {
     width: $mu200;
     height: $mu200;
-    position: absolute;
-    left: $mu050;
-  }
-
-  &__icon {
-    background-image: url(inline-icons('control-more-24',$color-grey-900));
-    width: $mu150;
-    height: $mu150;
-    margin-left: $mu100;
-    display: block;
-    background-size: cover;
+    margin-right: $mu100;
   }
 
   &__content {
@@ -60,7 +53,7 @@
       @include set-focus-styles-during();
     }
 
-    &:checked ~ .mc-accordion__label .mc-accordion__icon {
+    &:checked ~ .mc-accordion__label {
       background-image: url(inline-icons('control-less-24', $color-grey-900));
     }
 
