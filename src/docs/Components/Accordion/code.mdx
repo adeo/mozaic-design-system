@@ -5,6 +5,7 @@ order: 2
 
 ## Import
 
+Import *the settings* and *the accordion* scss files. 
 ```scss
 @import 'settings-tools/_all-settings';
 
@@ -12,6 +13,12 @@ order: 2
 ```
 
 ## Basic usage
+To create a basic accordion, wrap a `checkbox`, a `label` and a `div` inside a `div` and apply the following classes: 
+
+- `mc-accordion` on a div container
+- `mc-accordion__trigger` on a input[checkbox] tag
+- `mc-accordion__label` on a label tag
+- `mc-accordion__content` on a div tag
 
 ```html
 <div class="mc-accordion">
@@ -32,35 +39,37 @@ order: 2
 
 <Preview path="basic" />
 
-## Open
+## States
 
-```html
-<div class="mc-accordion">
-  <input type="checkbox" id="openUsage" class="mc-accordion__trigger" checked />
-  <label for="openUsage" class="mc-accordion__label" aria-expand="true">
-    Accordion title
-    <span class="mc-accordion__icon"></span>
-  </label>
-  <div class="mc-accordion__content">
-    <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-      at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-      pharetra.
-    </p>
-  </div>
-</div>
-```
+Depending on the context of use, the accordion can have several states: 
+
+- Close
+- Open 
+- Close Disabled
+- Open Disabled
 
 <Preview path="open" />
+<Preview path="disable" />
+
+## Padding modifier
+
+You have the possibility to have an accordion with no padding.
+
+For this you have to add to the label the `mc-accordion__label--no-padding` modifier.
+
+<Preview path="no-padding" />
 
 ## With icon
+You can add an icon into any accordions you want.
+
+You only need to add the `mc-accordion__picto` CSS class to you icon.
 
 ```html
 <div class="mc-accordion">
   <input type="checkbox" id="iconUsage" class="mc-accordion__trigger" />
   <label
     for="iconUsage"
-    class="mc-accordion__label mc-accordion__label--with-picto"
+    class="mc-accordion__label mc-accordion__label"
     aria-expand="false"
   >
     <svg class="mc-accordion__picto" xmlns="http://www.w3.org/2000/svg">
@@ -87,37 +96,3 @@ order: 2
 ```
 
 <Preview path="icon" />
-
-## Disable
-
-```html
-<div class="mc-accordion">
-  <input
-    type="checkbox"
-    id="disableUsage"
-    class="mc-accordion__trigger"
-    disabled
-  />
-  <label for="disableUsage" class="mc-accordion__label" aria-expand="false">
-    Accordion title
-    <span class="mc-accordion__icon"></span>
-  </label>
-  <div class="mc-accordion__content">
-    <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-      at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-      pharetra.
-    </p>
-  </div>
-</div>
-```
-
-<Preview path="disable" />
-
-## No Padding
-
-You have the possibility to have an accordion with no padding.
-
-For this you have to add to the label the `mc-accordion__label--no-padding` modifier.
-
-<Preview path="no-padding" />
