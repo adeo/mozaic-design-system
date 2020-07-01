@@ -13,7 +13,7 @@ Import *the settings* and *the accordion* scss files.
 ```
 
 ## Basic usage
-To create a basic accordion, wrap a `checkbox`, a `label` and a `div` inside a `div` and apply the following classes: 
+To create a basic accordion,apply the following classes on this HTML elements:
 
 - `mc-accordion` on a div container
 - `mc-accordion__trigger` on a input[checkbox] tag
@@ -25,7 +25,6 @@ To create a basic accordion, wrap a `checkbox`, a `label` and a `div` inside a `
   <input type="checkbox" id="basicUsage" class="mc-accordion__trigger" />
   <label for="basicUsage" class="mc-accordion__label" aria-expand="false">
     Accordion title
-    <span class="mc-accordion__icon"></span>
   </label>
   <div class="mc-accordion__content">
     <p>
@@ -39,6 +38,12 @@ To create a basic accordion, wrap a `checkbox`, a `label` and a `div` inside a `
 
 <Preview path="basic" />
 
+<Highlight theme="warning">
+
+To have a full HTML/CSS accordion, we decided to use an input[checkbox] and a label instead of a button.
+
+</Highlight>
+
 ## States
 
 Depending on the context of use, the accordion can have several states: 
@@ -48,10 +53,10 @@ Depending on the context of use, the accordion can have several states:
 - Close Disabled
 - Open Disabled
 
-<Preview path="open" />
-<Preview path="disable" />
+<Preview path="states" />
 
-## Padding modifier
+## Variations
+### Padding modifier
 
 You have the possibility to have an accordion with no padding.
 
@@ -59,10 +64,10 @@ For this you have to add to the label the `mc-accordion__label--no-padding` modi
 
 <Preview path="no-padding" />
 
-## With icon
+### With icon
 You can add an icon into any accordions you want.
 
-You only need to add the `mc-accordion__picto` CSS class to you icon.
+You only need to add the `mc-accordion__icon` CSS class to your icon.
 
 ```html
 <div class="mc-accordion">
@@ -72,7 +77,7 @@ You only need to add the `mc-accordion__picto` CSS class to you icon.
     class="mc-accordion__label mc-accordion__label"
     aria-expand="false"
   >
-    <svg class="mc-accordion__picto" xmlns="http://www.w3.org/2000/svg">
+    <svg class="mc-accordion__icon" xmlns="http://www.w3.org/2000/svg">
       <symbol id="Store_StoreLM_32px" viewBox="0 0 32 32">
         <path
           d="M23 11l-5.59-5.59a2 2 0 00-2.82 0L9 11H5a2 2 0 00-2 2v12a2 2 0 002 2h22a2 2 0 002-2V13a2 2 0 00-2-2zm-3 14h-3.5v-5H20zm-4.5 0H12v-5h3.5zM27 25h-6v-5.5a.5.5 0 00-.5-.5h-9a.5.5 0 00-.5.5V25H5V13h4.83l.58-.59L16 6.83l5.59 5.58.58.59H27z"
@@ -83,7 +88,6 @@ You only need to add the `mc-accordion__picto` CSS class to you icon.
       </symbol>
     </svg>
     Accordion title
-    <span class="mc-accordion__icon"></span>
   </label>
   <div class="mc-accordion__content">
     <p>
@@ -96,3 +100,9 @@ You only need to add the `mc-accordion__picto` CSS class to you icon.
 ```
 
 <Preview path="icon" />
+
+## Accessibility and semantic
+
+<HintItem>
+   Don't forget to change the attribute aria-expand="false" to "true" on the mc-accordion__label element when it's open
+</HintItem>

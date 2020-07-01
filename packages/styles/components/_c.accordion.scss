@@ -7,16 +7,16 @@
 
   &__label {
     @include set-font-scale('06', 'm');
-    @include set-font-face('semi-bold');
+    @include set-font-weight('semi-bold');
 
-    color: $color-grey-900;
+    color: $color-font-darker;
     cursor: pointer;
     position: relative;
-    padding: $mu125 $mu050;
+    padding: $mu125 $mu300 $mu125 $mu050;
     display: flex;
     align-items: center;
-    background-image: url(inline-icons('control-more-24',$color-grey-900));
-    background-position: right 1rem center;
+    background-image: url(inline-icons('control-more-24',$color-font-darker));
+    background-position: right $mu050 center;
     background-repeat: no-repeat;
     background-size: $mu150;
 
@@ -33,7 +33,7 @@
     }
   }
 
-  &__picto {
+  &__icon {
     width: $mu200;
     height: $mu200;
     margin-right: $mu100;
@@ -45,8 +45,8 @@
     overflow: hidden;
     padding-left: $mu050;
     transition: max-height 0.3s ease-out, padding-bottom 0.3s linear;
-    border-bottom: get-border(s) solid $color-grey-600;
-    color: $color-grey-800;
+    border-bottom: get-border(s) solid $color-font-light;
+    color: $color-font-dark;
   }
 
   &__trigger {
@@ -55,7 +55,7 @@
 
     &:checked {
       ~ #{$parent}__label {
-        background-image: url(inline-icons('control-less-24', $color-grey-900));
+        background-image: url(inline-icons('control-less-24', $color-font-darker));
       }
       ~ #{$parent}__content {
         max-height: 100vh;
@@ -66,23 +66,22 @@
     &:disabled {
       ~ #{$parent}__label {
         background-color: $color-grey-100;
-        background-image: url(inline-icons('control-more-24', $color-grey-600));
-        color: $color-grey-600;
+        background-image: url(inline-icons('control-more-24', $color-font-light));
+        color: $color-font-light;
         cursor: not-allowed;
       }
       ~ #{$parent}__content {
-        color: $color-grey-600;
+        color: $color-font-light;
         cursor: not-allowed;
       }
     }
 
     &:disabled:checked {
       ~ #{$parent}__label {
-        background-image: url(inline-icons('control-less-24', $color-grey-600));
+        background-image: url(inline-icons('control-less-24', $color-font-light));
       }
       ~ #{$parent}__content {
         max-height: 100vh;
-        padding-bottom: $mu150;
       }
     }
   }
