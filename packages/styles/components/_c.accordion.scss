@@ -1,0 +1,91 @@
+.mc-accordion {
+  $parent: &;
+
+  background-color: $color-grey-000;
+
+  @include set-font-face();
+
+  &__label {
+    @include set-font-scale('06', 'm');
+    @include set-font-weight('semi-bold');
+
+    color: $color-font-darker;
+    cursor: pointer;
+    position: relative;
+    padding: $mu125 $mu300 $mu125 $mu050;
+    display: flex;
+    align-items: center;
+    background-image: url(inline-icons('control-more-24',$color-font-darker));
+    background-position: right $mu050 center;
+    background-repeat: no-repeat;
+    background-size: $mu150;
+
+    &:hover {
+      background-color: $color-grey-100;
+    }
+
+    &:focus {
+      @include set-focus-styles-during();
+    }
+
+    &--no-padding {
+      padding-left: 0;
+    }
+  }
+
+  &__icon {
+    width: $mu200;
+    height: $mu200;
+    margin-right: $mu050;
+    fill: $color-grey-500;
+  }
+
+  &__content {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    padding-left: $mu050;
+    transition: max-height 0.3s ease-out, padding 0.3s linear;
+    border-bottom: get-border(s) solid $color-font-light;
+    color: $color-font-dark;
+  }
+
+  &__trigger {
+    opacity: 0;
+    position: absolute;
+
+    &:checked {
+      ~ #{$parent}__label {
+        background-image: url(inline-icons('control-less-24', $color-font-darker));
+      }
+      ~ #{$parent}__content {
+        padding-top: $mu050;
+        max-height: 100vh;
+        padding-bottom: $mu150;
+      }
+    }
+
+    &:disabled {
+      ~ #{$parent}__label {
+        background-color: $color-grey-100;
+        background-image: url(inline-icons('control-more-24', $color-font-light));
+        color: $color-font-light;
+        cursor: not-allowed;
+      }
+      ~ #{$parent}__content {
+        color: $color-font-light;
+        cursor: not-allowed;
+      }
+    }
+
+    &:disabled:checked {
+      ~ #{$parent}__label {
+        background-image: url(inline-icons('control-less-24', $color-font-light));
+      }
+      ~ #{$parent}__content {
+        padding-top: $mu050;
+        max-height: 100vh;
+      }
+    }
+  }
+}
