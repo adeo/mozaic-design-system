@@ -1,0 +1,27 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.select';
+
+.example {
+  @include set-font-face('regular');
+
+  text-align: center;
+  margin: auto;
+  width: 90%;
+
+  &__title {
+    @include set-font-scale('07', 'm');
+    @include set-font-face('semi-bold');
+
+    background: $color-grey-100;
+    text-align: center;
+    padding: $mu100;
+    margin: $mu300 0 $mu100;
+  }
+
+  &__container {
+    margin: $mu100 auto;
+  }
+}

@@ -17,7 +17,7 @@ jobs:
       - name: Build a production website
         run: yarn build
         env:
-          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
       - name: Deploy Tag
         uses: actions-hub/gcloud@master
         env:
@@ -28,7 +28,7 @@ jobs:
       - name: Deployement tag url
         uses: adeo/httpie.action@master
         env:
-          GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
+          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
         with:
           args:
             POST https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment

@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.12](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.11...v1.0.1-beta.12) (2020-06-24)
+
+
+### Bug Fixes
+
+* **chore:** update api token ([#579](https://github.com/adeo/mozaic-design-system/issues/579)) ([b51ac7d](https://github.com/adeo/mozaic-design-system/commit/b51ac7d66d4c0d5653c3aeb7ca399ff52095b75d))
+* **patterns/container:** make mc-container fluid with .ml-container--fluid modifier ([#590](https://github.com/adeo/mozaic-design-system/issues/590)) ([7235018](https://github.com/adeo/mozaic-design-system/commit/7235018a968a8c26b766ebce418b72006100abe5))
+* **patterns/fileuploader:** remove href attribute on fileuploader delete button ([#580](https://github.com/adeo/mozaic-design-system/issues/580)) ([4c2512d](https://github.com/adeo/mozaic-design-system/commit/4c2512d0b70d6f01d0a655cf29036aa3ad8f9182)), closes [#578](https://github.com/adeo/mozaic-design-system/issues/578)
+* **patterns/pagination:** fix button icon for IE and center pagination by default ([#584](https://github.com/adeo/mozaic-design-system/issues/584)) ([f01de9b](https://github.com/adeo/mozaic-design-system/commit/f01de9b6c71ff9824b4f05c831fdae1d6ef8ba49))
+* **patterns/reset-css:** remove rules for img tag in order to avoid side effects on lmfr site ([#575](https://github.com/adeo/mozaic-design-system/issues/575)) ([e93bab4](https://github.com/adeo/mozaic-design-system/commit/e93bab445cc987c83af168ab5afd739a6f29071c))
+* **patterns/tabs:** remove typo ([#588](https://github.com/adeo/mozaic-design-system/issues/588)) ([5cf4001](https://github.com/adeo/mozaic-design-system/commit/5cf4001d4b0de7d696714765bff2989861e189a9))
+* **website:** remove old pages([#585](https://github.com/adeo/mozaic-design-system/issues/585)) ([9e9de0e](https://github.com/adeo/mozaic-design-system/commit/9e9de0e3c816b2ffa20d84c291f77d8c011f8e34))
+
+
+### Features
+
+* **pattern/tabs:** Add pattern tabs ([#574](https://github.com/adeo/mozaic-design-system/issues/574)) ([46a8541](https://github.com/adeo/mozaic-design-system/commit/46a8541691bf37b90fbff316da0e16381e62afdc))
+* **patterns/border-radius:** update code documentation ([#581](https://github.com/adeo/mozaic-design-system/issues/581)) ([ec1dab3](https://github.com/adeo/mozaic-design-system/commit/ec1dab365442176774c82e24476356432e31c2ab)), closes [#573](https://github.com/adeo/mozaic-design-system/issues/573)
+* **patterns/icons:** add new icons ([#582](https://github.com/adeo/mozaic-design-system/issues/582)) ([2832a36](https://github.com/adeo/mozaic-design-system/commit/2832a36395738bdde33f1c39271103772d814986))
+
+
+
+
+
+## [1.0.1-beta.11](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.10...v1.0.1-beta.11) (2020-06-10)
+
+
+### Bug Fixes
+
+* **chore:** add resolutions for kind-of and minimist ([#554](https://github.com/adeo/mozaic-design-system/issues/554)) ([9b751e4](https://github.com/adeo/mozaic-design-system/commit/9b751e4aabc3621fea5a2a2f0197d4c960e559d6))
+* **chore:** upgrade graphql-playground-html version ([#572](https://github.com/adeo/mozaic-design-system/issues/572)) ([0976888](https://github.com/adeo/mozaic-design-system/commit/0976888b87ccb7d95c6741f6bf8e42e77fa75320))
+* **chore:** use adeo/httpie.action to fix pipenv new breaking changes ([#562](https://github.com/adeo/mozaic-design-system/issues/562)) ([736a144](https://github.com/adeo/mozaic-design-system/commit/736a14417097abc184c919e3010a3c33fd41dc04))
+* **chore/dependencies:** fix security alert websocket-extensions ([#570](https://github.com/adeo/mozaic-design-system/issues/570)) ([190a89f](https://github.com/adeo/mozaic-design-system/commit/190a89fcab4b5129e2d82b6933c62aaa3d12ec50))
+
+
+### Features
+
+* **patterns/form:** add a common structure for all form elements ([#552](https://github.com/adeo/mozaic-design-system/issues/552)) ([0e1eb10](https://github.com/adeo/mozaic-design-system/commit/0e1eb109b7f6f793d576939f3c2acf891e1b6b8b))
+
+
+
+
+
 ## [1.0.1-beta.10](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.9...v1.0.1-beta.10) (2020-05-20)
 
 

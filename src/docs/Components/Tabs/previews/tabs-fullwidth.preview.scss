@@ -1,0 +1,9 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.tabs';
+
+.example-1 {
+  margin: 2rem 0;
+}

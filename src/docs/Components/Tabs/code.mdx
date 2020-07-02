@@ -1,0 +1,112 @@
+---
+title: 'Code'
+order: 2
+description:
+status:
+  sketch: 'bêta'
+  scss: 'bêta'
+---
+
+## Basic implementation
+
+### Import
+
+Import **the settings** and **the tabs** `scss` files.
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.tabs';
+```
+
+<Highlight theme="warning" title="Javascript needs">
+To properly use the tabs, you will need to add javascript for the selected tab and display/hide your content.
+
+- When the user clicks a different tab, move the `mc-tabs__link--selected` class and toogle the linked content.
+
+</Highlight>
+
+### Basic usage
+
+To create a basic tabs, wrap a link `a` inside a `ul` and apply the following classes:
+
+- `mc-tabs` on a div container
+- `mc-tabs__nav` on the ul tag
+- `mc-tabs__item` on the li tag
+- `mc-tabs__link` on the a tag
+
+```html
+<div class="example">
+	<div class="mc-tabs">
+		<ul class="mc-tabs__nav" role="tablist">
+			<li
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link mc-tabs__link--selected"  href="" aria-selected="true" role="tab">Tab Selected</a>
+			</li>
+			<li
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link" href="" role="tab">Tab Default 1</a>
+			</li>
+			<li
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link" href="" role="tab">Tab default 2</a>
+			</li>
+			<li
+				class="mc-tabs__item"
+				role="presentation">
+				<a tabindex="0" class="mc-tabs__link mc-tabs__link--disabled" href="" aria-disabled="true" role="tab">Tab Disabled</a>
+			</li>
+		</ul>
+	</div>
+</div>
+```
+
+<Preview path="tabs-all-stats" nude />
+
+### Variations
+
+### States
+
+Depending on the context of use, the tab can have several states:
+
+- Inactive
+- Active
+- Active disabled
+- Inactive disabled
+- Off disabled
+
+<Preview path="tabs-code-states" />
+
+### Width modifiers
+
+To display your tabs in full width you can use this class:
+- `mc-tabs--full`: full width (Tabs centred by default)
+
+```html
+<div class="mc-tabs mc-tabs--full">...</div>
+```
+
+<Preview path="tabs-full" nude/>
+
+#### Accessibility and semantic
+
+<HintItem>
+Content authors need to ensure the content that is added to the tab panel is accessible. For example, if you add an image to the panel you need to include alternative text to pass accessibility testing.
+</HintItem>
+
+<HintItem>
+Don't forget to add the attribute role="tablist" on the mc-tabs__nav element<br/>
+</HintItem>
+
+<HintItem>
+Don't forget to add the attribute role="presentation" on the mc-tabs__item element<br/>
+</HintItem>
+
+<HintItem>
+Don't forget to add the attribute role="tab" on the mc-tabs__link element<br/>
+</HintItem>

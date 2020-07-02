@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.12](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.11...v1.0.1-beta.12) (2020-06-24)
+
+
+### Bug Fixes
+
+* **patterns/container:** make mc-container fluid with .ml-container--fluid modifier ([#590](https://github.com/adeo/mozaic-design-system/issues/590)) ([7235018](https://github.com/adeo/mozaic-design-system/commit/7235018a968a8c26b766ebce418b72006100abe5))
+* **patterns/pagination:** fix button icon for IE and center pagination by default ([#584](https://github.com/adeo/mozaic-design-system/issues/584)) ([f01de9b](https://github.com/adeo/mozaic-design-system/commit/f01de9b6c71ff9824b4f05c831fdae1d6ef8ba49))
+* **patterns/reset-css:** remove rules for img tag in order to avoid side effects on lmfr site ([#575](https://github.com/adeo/mozaic-design-system/issues/575)) ([e93bab4](https://github.com/adeo/mozaic-design-system/commit/e93bab445cc987c83af168ab5afd739a6f29071c))
+
+
+### Features
+
+* **pattern/tabs:** Add pattern tabs ([#574](https://github.com/adeo/mozaic-design-system/issues/574)) ([46a8541](https://github.com/adeo/mozaic-design-system/commit/46a8541691bf37b90fbff316da0e16381e62afdc))
+
+
+
+
+
+## [1.0.1-beta.11](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.10...v1.0.1-beta.11) (2020-06-10)
+
+
+### Features
+
+* **patterns/form:** add a common structure for all form elements ([#552](https://github.com/adeo/mozaic-design-system/issues/552)) ([0e1eb10](https://github.com/adeo/mozaic-design-system/commit/0e1eb109b7f6f793d576939f3c2acf891e1b6b8b))
+
+
+
+
+
 ## [1.0.1-beta.10](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.9...v1.0.1-beta.10) (2020-05-20)
 
 

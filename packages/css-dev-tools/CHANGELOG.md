@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.11](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.10...v1.0.1-beta.11) (2020-06-10)
+
+
+### Bug Fixes
+
+* **chore:** add resolutions for kind-of and minimist ([#554](https://github.com/adeo/mozaic-design-system/issues/554)) ([9b751e4](https://github.com/adeo/mozaic-design-system/commit/9b751e4aabc3621fea5a2a2f0197d4c960e559d6))
+
+
+
+
+
 ## [1.0.1-beta.3](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.2...v1.0.1-beta.3) (2020-02-06)
 
 
