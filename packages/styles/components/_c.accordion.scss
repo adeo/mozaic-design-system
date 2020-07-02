@@ -45,7 +45,7 @@
     max-height: 0;
     overflow: hidden;
     padding-left: $mu050;
-    transition: max-height 0.3s ease-out, padding-bottom 0.3s linear;
+    transition: max-height 0.3s ease-out, padding 0.3s linear;
     border-bottom: get-border(s) solid $color-font-light;
     color: $color-font-dark;
   }
@@ -59,6 +59,7 @@
         background-image: url(inline-icons('control-less-24', $color-font-darker));
       }
       ~ #{$parent}__content {
+        padding-top: $mu050;
         max-height: 100vh;
         padding-bottom: $mu150;
       }
@@ -82,6 +83,7 @@
         background-image: url(inline-icons('control-less-24', $color-font-light));
       }
       ~ #{$parent}__content {
+        padding-top: $mu050;
         max-height: 100vh;
       }
     }
