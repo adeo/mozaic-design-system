@@ -1,0 +1,124 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import the **settings**, the **modal**, the **bodys**, and the **button** scss files.
+
+> Note that you can also implement in addition the scss file of **the links** if you use this component in your modals.
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'typography/_t.bodys';
+@import 'components/_c.modal';
+@import 'components/_c.button';
+```
+
+## Usage
+
+A modal is composed of several zones:
+
+- **A header** with the class : `mc-modal__header`
+- **A body** with class: `mc-modal__body`
+- **A footer** with class: `mc-modal__footer`
+
+These areas are then encompassed in:
+
+- A specific container with the class: `mc-modal__dialog`
+- A global wrapper with the class: `mc-modal`
+
+```html
+<div class="mc-modal" tabindex="-1" role="dialog">
+  <div class="mc-modal__dialog" role="document">
+    <div class="mc-modal__header">
+      <div class="mc-modal__title">Modale Title</div>
+      <button class="mc-modal__close" type="button">
+        <span class="mc-modal__close-text">Close</span>
+      </button>
+    </div>
+    <div class="mc-modal__body">
+      <article class="mc-modal__content">
+        <h2 class="mc-modal__heading">Title</h2>
+        <p class="mt-body-m">Content paragraph</p>
+      </article>
+    </div>
+    <div class="mc-modal__footer">
+      <button type="button" class="mc-button">
+        <span class="mc-button__label">Button label</span>
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+### Detail of areas
+
+In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
+
+- The **header** contains:
+
+  - the title of the modal _(`.mc-modal__title`)_
+  - as well as its close button _(`.mc-modal__close`)_
+    _(These elements are mandatory and must always be present in your modal code.)_
+
+- The body can contain:
+
+  - a heading _(`.mc-modal__heading`)_
+  - as well as paragraph elements _(`.mt-body-m`)_
+    _(Note that the heading is an optional element)_
+
+- The footer is the area that allows you to insert call-to-actions. This zone must always be present in your modals, and can contain one or more elements. [See details about the footer.](/Components/Modals/#modal-footer)
+
+<Preview path="default" />
+
+## Variations
+
+### Without heading
+
+In cases where it is not necessary, you can use a modal without heading, as follows:
+
+<Preview path="withouttitle" />
+
+### Footer - two call to actions
+
+A primary call to action button accompanied with a secondary button to give the user an alternative
+
+<Preview path="cta-two" />
+
+### Footer - call to action and link
+
+A primary call to action button with a link to redirect the user to a page to give more informations
+
+<Preview path="cta-link" />
+
+## Behaviour
+
+### Width
+
+Modals are responsive elements, therefore with a variable width depending on the screen resolution.
+Thus the width of a modal varies as follows:
+
+| Breakpoint | Modal max-width |
+| ---------- | --------------- |
+| S          | 100%            |
+| M          | 50%             |
+| L          | 33%             |
+| XL         | 66%             |
+| XXL        | 50%             |
+
+### Height
+
+Just as the width of a modal varies according to the rules indicated above, the height of the modal also has max-height rules of variation:
+
+| Breakpoint | Modal max-height |
+| ---------- | ---------------- |
+| S          | 100%             |
+| M          | 1:2 screen       |
+| L          | 2:3 screen       |
+| XL         | 2:3 screen       |
+| XXL        | 1:2 screen       |
