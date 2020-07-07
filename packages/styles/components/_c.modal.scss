@@ -8,12 +8,13 @@
   height: 100%;
   left: 0;
   outline: 0;
-  overflow: hidden;
   padding: $mu100 magic-unit-rem(1.125, true);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1999999999;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   @include set-from-screen(m) {
     align-items: center;
@@ -22,6 +23,7 @@
   &__dialog {
     background: $color-grey-000;
     padding: $mu100;
+    position: relative;
     width: 100%;
 
     @include set-from-screen(m) {
@@ -39,7 +41,6 @@
 
     @include set-from-screen(xl) {
       max-height: calc(100vh * 2 / 3);
-      // max-width: percentage(1/6);
       max-width: 66%;
     }
 
@@ -47,6 +48,10 @@
       max-width: percentage(1/2);
       max-height: calc(100vh / 2);
     }
+  }
+
+  &__content {
+    padding-bottom: $mu050;
   }
 
   &__header {
@@ -84,7 +89,6 @@
     @include set-font-scale('05', 'm');
 
     color: $color-font-darker;
-    padding-bottom: $mu150;
   }
 
   &__heading {
@@ -92,17 +96,20 @@
     @include set-font-weight('semi-bold');
 
     color: $color-font-darkest;
-    margin-bottom: $mu100;
+    margin-bottom: $mu025;
+    margin-top: 0;
   }
 
   &__footer {
-    align-items: center;
+    align-items: stretch;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding-top: $mu100;
 
-    @media screen and (max-width: 679px) {
-      flex-direction: column;
+    @include set-from-screen(m) {
+      align-items: center;
+      flex-direction: row;
     }
 
     & > :first-child {
@@ -120,13 +127,18 @@
     }
   }
 
+  &-open {
+    overflow: hidden;
+  }
+
   &-overlay {
+    filter: blur(1px);
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba($color-grey-999, 0.5);
+    background-color: rgba($color-grey-900, 0.7);
     z-index: 1999999998;
   }
 }

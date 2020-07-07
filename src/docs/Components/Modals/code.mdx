@@ -36,7 +36,7 @@ These areas are then encompassed in:
 <div class="mc-modal" tabindex="-1" role="dialog">
   <div class="mc-modal__dialog" role="document">
     <div class="mc-modal__header">
-      <div class="mc-modal__title">Modale Title</div>
+      <div class="mc-modal__title">Modal Title</div>
       <button class="mc-modal__close" type="button">
         <span class="mc-modal__close-text">Close</span>
       </button>
@@ -60,19 +60,29 @@ These areas are then encompassed in:
 
 In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
 
-- The **header** contains:
+#### The header
 
-  - the title of the modal _(`.mc-modal__title`)_
-  - as well as its close button _(`.mc-modal__close`)_
-    _(These elements are mandatory and must always be present in your modal code.)_
+The header contains:
 
-- The body can contain:
+- the title of the modal _(`.mc-modal__title`)_
+- as well as its close button _(`.mc-modal__close`)_
 
-  - a heading _(`.mc-modal__heading`)_
-  - as well as paragraph elements _(`.mt-body-m`)_
-    _(Note that the heading is an optional element)_
+> These elements are mandatory and must always be present in your modal code.
 
-- The footer is the area that allows you to insert call-to-actions. This zone must always be present in your modals, and can contain one or more elements. [See details about the footer.](/Components/Modals/#modal-footer)
+#### The body
+
+The body can contain:
+
+- a heading _(`.mc-modal__heading`)_
+- as well as paragraph elements _(`.mt-body-m`)_
+
+> Note that the heading is an optional element
+
+#### The footer
+
+The footer is the area that allows you to insert call-to-actions. This zone must always be present in your modals, and can contain one or more elements. [See details about the footer.](/Components/Modals/#modal-footer)
+
+> Note that call to actions always take 100% of the modal's width on `breakpoint-s`.
 
 <Preview path="default" />
 
@@ -86,19 +96,19 @@ In cases where it is not necessary, you can use a modal without heading, as foll
 
 ### Footer - two call to actions
 
-A primary call to action button accompanied with a secondary button to give the user an alternative
+A primary call to action button accompanied with a secondary button to give the user an alternative choice.
 
 <Preview path="cta-two" />
 
 ### Footer - call to action and link
 
-A primary call to action button with a link to redirect the user to a page to give more informations
+A primary call to action button with a link to redirect the user to a page to give more informations.
 
 <Preview path="cta-link" />
 
 ## Behaviour
 
-### Width
+### Max-width
 
 Modals are responsive elements, therefore with a variable width depending on the screen resolution.
 Thus the width of a modal varies as follows:
@@ -111,7 +121,7 @@ Thus the width of a modal varies as follows:
 | XL         | 66%             |
 | XXL        | 50%             |
 
-### Height
+### Max-height
 
 Just as the width of a modal varies according to the rules indicated above, the height of the modal also has max-height rules of variation:
 
@@ -122,3 +132,30 @@ Just as the width of a modal varies according to the rules indicated above, the 
 | L          | 2:3 screen       |
 | XL         | 2:3 screen       |
 | XXL        | 1:2 screen       |
+
+### On opening
+
+During the opening of a modal by Javascript, several events occur:
+
+- Added the `mc-modal-open` class to the body to prevent the default scrolling of the browser window.
+- A `mc-modal-overlay` element is generated in the DOM.
+
+<Preview path="opening" />
+
+## Accessibility
+
+<HintItem>
+  The modal container (mc-modal) must always have a <strong>aria-labelledby</strong> attribute whose value corresponds to the value of the `id` attribute of the modal title.
+</HintItem>
+
+<HintItem>
+  The modal title must always have an <strong>id</strong> attribute.
+</HintItem>
+
+<HintItem>
+  When modal is hidden, the <strong>mc-modal</strong> container must have a <strong>aria-hidden="true"</strong> attribute.
+</HintItem>
+
+<HintItem>
+  When modal is visible, the <strong>mc-modal</strong> container must have a <strong>aria-hidden="false"</strong> attribute.
+</HintItem>
