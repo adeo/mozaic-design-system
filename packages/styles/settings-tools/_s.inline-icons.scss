@@ -62,4 +62,12 @@
   @if $icon == 'star-full-32' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 32 32"><path d="M16 24.56L7.97 29l1.53-9.41L3 12.93l8.98-1.37L16 3l4.02 8.56L29 12.93l-6.5 6.66L24.03 29 16 24.56z"/></svg>';
   }
+
+  @if $icon == 'control-more-24' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}"  viewBox="0 0 24 24"><path d="M19.09,11h-6V5a1,1,0,0,0-2,0v6h-6a1,1,0,0,0,0,2h6v6a1,1,0,0,0,2,0V13h6a1,1,0,0,0,0-2Z"/></svg>';
+  }
+
+  @if $icon == 'control-less-24' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 24 24"><path d="M17.09,13h-10a1,1,0,0,1,0-2h10a1,1,0,0,1,0,2Z"/></svg>';
+  }
 }
