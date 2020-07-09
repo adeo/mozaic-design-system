@@ -63,6 +63,7 @@
 
   &__title {
     @include set-font-scale('04', 'm');
+    @include set-font-weight('regular');
 
     color: $color-font-light;
     display: flex;
