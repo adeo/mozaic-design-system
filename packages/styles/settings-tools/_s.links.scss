@@ -19,6 +19,7 @@ $link-m: map-get($link-sizes, 'm');
   cursor: pointer;
   align-items: baseline;
   display: inline-flex;
+  justify-content: center;
   transition: color ease 200ms;
   font-size: inherit;
   line-height: inherit;
