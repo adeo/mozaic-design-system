@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.13](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.12...v1.0.1-beta.13) (2020-07-09)
+
+
+### Features
+
+* **patterns/modals:** add modals pattern ([#596](https://github.com/adeo/mozaic-design-system/issues/596)) ([3b7ab13](https://github.com/adeo/mozaic-design-system/commit/3b7ab132137160fa9a94d4086ded27a38809ca23))
+
+
+
+
+
 ## [1.0.1-beta.12](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.11...v1.0.1-beta.12) (2020-06-24)
 
 
