@@ -1,0 +1,11 @@
+@import 'settings-tools/_all-settings.scss';
+
+@include import-font-families();
+
+@import 'components/_c.tooltip.scss';
+
+.example {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
