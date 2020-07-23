@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.14](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.13...v1.0.1-beta.14) (2020-07-23)
+
+
+### Features
+
+* **patterns/breadcrumb:** add breadcrumb pattern ([#608](https://github.com/adeo/mozaic-design-system/issues/608)) ([4035763](https://github.com/adeo/mozaic-design-system/commit/4035763018dcdbc45b90128165c770d0a819b6a8))
+* **patterns/tooltip:** add tooltip pattern ([#594](https://github.com/adeo/mozaic-design-system/issues/594)) ([#607](https://github.com/adeo/mozaic-design-system/issues/607)) ([5d1dca5](https://github.com/adeo/mozaic-design-system/commit/5d1dca5cf9e81bdc2754305e45fc53419730b48f))
+
+
+
+
+
 ## [1.0.1-beta.13](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.12...v1.0.1-beta.13) (2020-07-09)
 
 

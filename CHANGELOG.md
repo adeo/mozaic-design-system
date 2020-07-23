@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.14](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.13...v1.0.1-beta.14) (2020-07-23)
+
+
+### Bug Fixes
+
+* **patterns/form:** fix inline form behaviour on mobile ([#611](https://github.com/adeo/mozaic-design-system/issues/611)) ([f696bbf](https://github.com/adeo/mozaic-design-system/commit/f696bbf38086e25af60c852981322059219fab26)), closes [#609](https://github.com/adeo/mozaic-design-system/issues/609)
+
+
+### Features
+
+* **patterns/breadcrumb:** add breadcrumb pattern ([#608](https://github.com/adeo/mozaic-design-system/issues/608)) ([4035763](https://github.com/adeo/mozaic-design-system/commit/4035763018dcdbc45b90128165c770d0a819b6a8))
+* **patterns/datepicker:** add documentation for datepicker pattern ([#599](https://github.com/adeo/mozaic-design-system/issues/599)) ([11e9674](https://github.com/adeo/mozaic-design-system/commit/11e9674f0120c6d5fca6c49e29ecb76d9e53dbde)), closes [#577](https://github.com/adeo/mozaic-design-system/issues/577)
+* **patterns/tooltip:** add tooltip pattern ([#594](https://github.com/adeo/mozaic-design-system/issues/594)) ([#607](https://github.com/adeo/mozaic-design-system/issues/607)) ([5d1dca5](https://github.com/adeo/mozaic-design-system/commit/5d1dca5cf9e81bdc2754305e45fc53419730b48f))
+* **website/chat:** add smallchat on Mozaic website ([#604](https://github.com/adeo/mozaic-design-system/issues/604)) ([d71a069](https://github.com/adeo/mozaic-design-system/commit/d71a0692cab9a6d7c96db984a621cea43ab22651)), closes [#533](https://github.com/adeo/mozaic-design-system/issues/533)
+* **website/vuejs:** add link to Mozaic Vue on homepage ([#605](https://github.com/adeo/mozaic-design-system/issues/605)) ([0da9f6e](https://github.com/adeo/mozaic-design-system/commit/0da9f6e1afabd91c342f28dfbfcef46a7457a997))
+
+
+
+
+
 ## [1.0.1-beta.13](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.12...v1.0.1-beta.13) (2020-07-09)
 
 
