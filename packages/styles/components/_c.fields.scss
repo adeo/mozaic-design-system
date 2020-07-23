@@ -42,12 +42,20 @@
     margin-top: $mu100;
 
     &--inline {
-      display: flex;
+      @include set-from-screen('m-medium') {
+        display: flex;
+      }
 
       #{$parent}__item {
         &:not(:last-child) {
-          margin-bottom: 0;
-          margin-right: $mu200;
+          @include set-from-screen('m-medium') {
+            margin-bottom: 0;
+            margin-right: $mu100;
+          }
+
+          @include set-from-screen('l') {
+            margin-right: $mu200;
+          }
         }
       }
     }
