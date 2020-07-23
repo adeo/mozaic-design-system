@@ -82,4 +82,8 @@
   @if $icon == 'cross-32' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#{$fill}"><path d="M17.41 16l8.8-8.79a1 1 0 10-1.42-1.42L16 14.59l-8.79-8.8a1 1 0 00-1.42 1.42l8.8 8.79-8.8 8.79a1 1 0 000 1.42 1 1 0 001.42 0l8.79-8.8 8.79 8.8a1 1 0 001.42 0 1 1 0 000-1.42z"/></svg>';
   }
+  
+  @if $icon == 'tooltip-arrow' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="0.5rem" width="0.5rem" viewBox="0 0 8 8"><path fill="#{$fill}" d="M1.79 3.11l6.21-3.11v8l-6.21-3.11a1 1 0 0 1-.45-1.34 1 1 0 0 1 .45-.44z"/></svg>';
+  }
 }

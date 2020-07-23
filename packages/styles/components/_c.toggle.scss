@@ -93,19 +93,9 @@
     }
   }
 
-  &__state {
-    position: relative;
-  }
-
-  &__on,
-  &__off {
-    position: absolute;
-    left: $mu025;
-  }
-
   :not(:checked) + &__label &__on,
   :checked + &__label &__off {
-    visibility: hidden;
+    @include set-hidden-input();
   }
 
   @include mod-toggle-sizes();
