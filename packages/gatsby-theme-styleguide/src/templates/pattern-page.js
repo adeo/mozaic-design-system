@@ -9,6 +9,7 @@ import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
 import TableOfContents from '../gatsby-components/TableOfContents'
 import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
+import JSImplementation from '../gatsby-components/JSImplementation'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) => separator};
@@ -104,6 +105,7 @@ export default ({ data, location }) => {
   ).node.frontmatter
   const parentTitle = parentFrontmatter.title
   const parentStatus = parentFrontmatter.status
+  const parentLinks = parentFrontmatter.links
   const mainCategory = post.fields.slug ? post.fields.slug.split('/') : []
   const hasTabs = samePageTabs.length > 1
   const hasMainCategory = mainCategory.length > 3
@@ -117,6 +119,7 @@ export default ({ data, location }) => {
           )}
           <HeaderTitle>{parentTitle}</HeaderTitle>
           <PatternStatusGroup status={parentStatus} />
+          <JSImplementation links={parentLinks} />
         </Header>
       </FullWidthContainer>
       {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
@@ -161,6 +164,11 @@ export const query = graphql`
           frontmatter {
             title
             order
+            links {
+              vue
+              freemarker
+              react
+            }
             status {
               sketch
               scss
