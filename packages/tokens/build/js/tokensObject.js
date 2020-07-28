@@ -3698,9 +3698,9 @@ module.exports = {
         ]
       },
       "alert": {
-        "value": "#df382b",
+        "value": "#b42a27",
         "original": {
-          "value": "{color.danger.500.value}"
+          "value": "{color.danger.600.value}"
         },
         "name": "ColorFileuploaderAlert",
         "attributes": {

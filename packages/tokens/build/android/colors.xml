@@ -197,7 +197,7 @@
   <color name="color_fileuploader_files_list">#ffeeeef0</color>
   <color name="color_fileuploader_files_delete">#ffd3d2d6</color>
   <color name="color_fileuploader_valid">#ff78be20</color>
-  <color name="color_fileuploader_alert">#ffdf382b</color>
+  <color name="color_fileuploader_alert">#ffb42a27</color>
   <color name="color_flag_solid_background">#ff78be20</color>
   <color name="color_flag_solid_border">#ff78be20</color>
   <color name="color_flag_solid_text">#ffffffff</color>
