@@ -7,7 +7,7 @@
   }
 
   &__label {
-    @include set-font-scale('04', 'xs');
+    @include set-font-scale('04', 's');
   }
 
   &__legend {
@@ -17,26 +17,27 @@
     padding-right: 0;
   }
 
-  &__requirement {
-    @include set-font-scale('02', 'xs');
+  &__requirement,
+  &__help {
+    @include set-font-scale('02', 's');
 
     color: $color-fields-requirement;
+  }
 
+  &__requirement {
     &::before {
       content: '\00a0-\00a0';
     }
   }
 
   &__help {
-    @include set-font-scale('02');
-
-    color: $color-fields-help;
     display: block;
+    margin-top: $mu025;
   }
 
   &__input,
   &__element {
-    margin-top: magic-unit-rem(0.375, true);
+    margin-top: $mu050;
   }
 
   &__container {

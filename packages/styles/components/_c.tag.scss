@@ -18,10 +18,6 @@
       color: $color-tag-text-dark-text;
       box-shadow: inset 0 0 0 get-border('s') $color-tag-text-dark-border;
     }
-
-    &__label {
-      transform: translateY(-0.075em);
-    }
   }
 
   &-link {
@@ -67,10 +63,6 @@
         background: $color-tag-link-dark-active-background;
       }
     }
-
-    &__label {
-      transform: translateY(-0.075em);
-    }
   }
 
   &-selectable {
@@ -82,7 +74,6 @@
     }
 
     &__label {
-      transform: translateY(-0.075em);
       user-select: none;
     }
 
@@ -176,7 +167,7 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding: $mu025 $mu025 $mu025 $mu100;
+          padding: $padding-s-y $mu025 $padding-s-y $mu100;
         }
 
         .mc-tag-removable__remove {
@@ -193,7 +184,7 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding: $mu050 $mu100 $mu050 $mu125;
+          padding: $padding-m-y $mu025 $padding-m-y $mu100;
         }
 
         .mc-tag-removable__remove {

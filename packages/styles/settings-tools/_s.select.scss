@@ -1,35 +1,33 @@
+$select-border-width: get-border('s');
+
 $select-sizes: (
   's': (
     'background-position': $mu050,
     'font-size': '04',
-    'line-height': 'l',
-    'padding-left': $mu050,
+    'line-height': 's',
+    'padding-left': calc(#{$mu050} - #{$select-border-width}),
     'padding-right': magic-unit-rem(1.875, true),
-    'padding-v': magic-unit-rem(0.3125, true),
+    'padding-v': calc(#{$mu050} - #{$select-border-width}),
   ),
   'm': (
     'background-position': $mu100,
     'font-size': '05',
-    'line-height': 'l',
-    'padding-left': $mu075,
+    'line-height': 's',
+    'padding-left': calc(#{$mu075} - #{$select-border-width}),
     'padding-right': magic-unit-rem(2.875, true),
-    'padding-v': $mu075,
+    'padding-v': calc(0.9375rem - #{$select-border-width}),
   ),
 );
 
 $select-default-size: map-get($select-sizes, 'm');
 $select-border-radius: get-border-radius('m');
-$select-border-width: get-border('s');
 
-@mixin select-background-arrow($color: $color-input-text, $background: $color-input-background) {
+@mixin select-background-arrow(
+  $color: $color-input-text,
+  $background: $color-input-background
+) {
   background-color: $background;
-  background-image:
-    url(
-      inline-icons(
-        'arrow-down-16',
-        $color
-      )
-    );
+  background-image: url(inline-icons('arrow-down-16', $color));
   background-repeat: no-repeat;
   background-size: $mu100;
 }
@@ -50,7 +48,5 @@ $select-border-width: get-border('s');
   background-position: right $background-position center;
 
   // remove border height and center baseline optically
-  padding:
-    calc(#{$padding-v} - 0.125em - #{$border-width}) $padding-right
-    calc(#{$padding-v} + 0.125em - #{$border-width}) $padding-left;
+  padding: $padding-v $padding-right $padding-v $padding-left;
 }

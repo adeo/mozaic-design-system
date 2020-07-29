@@ -8,7 +8,7 @@
   }
 
   &__label {
-    @include set-font-scale('05', 'm');
+    @include set-font-scale('05', 's');
     @include set-toggle-size('m');
 
     box-sizing: border-box;
@@ -39,9 +39,7 @@
 
       background-color: $color-toggle-off-background;
       will-change: background-color, border-color, box-shadow;
-      transition:
-        background-color 100ms ease,
-        border-color 100ms ease,
+      transition: background-color 100ms ease, border-color 100ms ease,
         box-shadow 150ms ease;
 
       :checked + & {

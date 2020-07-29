@@ -2,7 +2,7 @@
 .mc-flag {
   @include set-flag-base();
   @include set-font-face('semi-bold');
-  @include set-font-scale('04', 's');
+  @include set-font-scale('04', 'xs');
   @include set-flag-theme(get-token(color, flag, 'solid'));
 
   @each $name, $props in $flags {
@@ -11,10 +11,6 @@
         @include set-flag-theme($props);
       }
     }
-  }
-
-  &__label {
-    transform: translateY(-0.143em);
   }
 }
 

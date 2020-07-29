@@ -12,7 +12,7 @@ $notification-close-icon-color: get-token(color, notification, font);
   @include set-font-scale('04');
 
   box-sizing: border-box;
-  padding: $mu150 $mu100;
+  padding: $mu150 $mu100 magic-unit-rem(1.375, 'true');
 
   // type icon
   &::before {
@@ -39,6 +39,7 @@ $notification-close-icon-color: get-token(color, notification, font);
 
   &__content {
     flex: 1 1 0;
+    padding-top: $mu025;
   }
 
   &__title,
@@ -56,6 +57,12 @@ $notification-close-icon-color: get-token(color, notification, font);
   &__title + &__message {
     margin-top: $mu050;
   }
+
+  &__link {
+    @include set-font-scale('04', 'm');
+    // margin-top: $mu050; 0.625
+    margin-top: magic-unit-rem(0.625, 'true');
+  }
 }
 
 .mc-notification-closable {
@@ -70,8 +77,7 @@ $notification-close-icon-color: get-token(color, notification, font);
     right: 0.625rem;
     top: 0.625rem;
     padding: 0;
-    background:
-      transparent
+    background: transparent
       url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
     transform: translateX($mu050) translateY(-$mu100);
   }
