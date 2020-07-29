@@ -85,6 +85,75 @@ const config = {
       buildPath: setLocalTokensExportPath('ios'),
       files: [
         {
+          destination: 'StyleDictionaryColor.swift',
+          format: 'ios-swift/class.swift',
+          options: {
+            showFileHeader: false,
+          },
+          className: 'StyleDictionaryColor',
+          type: 'StyleDictionaryColorName',
+          options: {
+            showFileHeader: false,
+          },
+          filter: {
+            attributes: {
+              category: 'color',
+            },
+          },
+        },
+        {
+          destination: 'StyleDictionaryColor.swift',
+          format: 'ios-swift/enum.swift',
+          options: {
+            showFileHeader: false,
+          },
+          className: 'StyleDictionaryColor',
+          type: 'StyleDictionaryColorName',
+          options: {
+            showFileHeader: false,
+          },
+          filter: {
+            attributes: {
+              category: 'color',
+            },
+          },
+        },
+        {
+          destination: 'StyleDictionarySize.swift',
+          format: 'ios-swift/class.swift',
+          options: {
+            showFileHeader: false,
+          },
+          className: 'StyleDictionarySize',
+          options: {
+            showFileHeader: false,
+          },
+          type: 'float',
+          filter: {
+            attributes: {
+              category: 'size',
+            },
+          },
+        },
+        {
+          destination: 'StyleDictionarySize.swift',
+          format: 'ios-swift/enum.swift',
+          options: {
+            showFileHeader: false,
+          },
+          className: 'StyleDictionarySize',
+          type: 'float',
+          options: {
+            showFileHeader: false,
+          },
+          filter: {
+            attributes: {
+              category: 'size',
+            },
+          },
+        },
+
+        {
           destination: 'StyleDictionaryColor.h',
           format: 'ios/colors.h',
           options: {
