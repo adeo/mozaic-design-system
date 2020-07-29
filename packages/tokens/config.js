@@ -80,8 +80,8 @@ const config = {
         },
       ],
     },
-    ios: {
-      transformGroup: 'ios',
+    'ios-swift': {
+      transformGroup: 'ios-swift',
       buildPath: setLocalTokensExportPath('ios'),
       files: [
         {
@@ -102,23 +102,6 @@ const config = {
           },
         },
         {
-          destination: 'StyleDictionaryColor.swift',
-          format: 'ios-swift/enum.swift',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionaryColor',
-          type: 'StyleDictionaryColorName',
-          options: {
-            showFileHeader: false,
-          },
-          filter: {
-            attributes: {
-              category: 'color',
-            },
-          },
-        },
-        {
           destination: 'StyleDictionarySize.swift',
           format: 'ios-swift/class.swift',
           options: {
@@ -135,24 +118,12 @@ const config = {
             },
           },
         },
-        {
-          destination: 'StyleDictionarySize.swift',
-          format: 'ios-swift/enum.swift',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionarySize',
-          type: 'float',
-          options: {
-            showFileHeader: false,
-          },
-          filter: {
-            attributes: {
-              category: 'size',
-            },
-          },
-        },
-
+      ],
+    },
+    ios: {
+      transformGroup: 'ios',
+      buildPath: setLocalTokensExportPath('ios'),
+      files: [
         {
           destination: 'StyleDictionaryColor.h',
           format: 'ios/colors.h',
