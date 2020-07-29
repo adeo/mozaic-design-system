@@ -17,7 +17,9 @@
     cursor: pointer;
     display: block;
     position: relative;
-    padding: $mu125 $mu300 $mu125 $mu050;
+    padding:
+      magic-unit-rem(1.375, 'true') $mu300 magic-unit-rem(1.125, 'true')
+      $mu050;
 
     &:hover {
       background-color: $color-grey-100;

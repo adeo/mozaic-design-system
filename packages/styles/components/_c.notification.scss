@@ -12,7 +12,7 @@ $notification-close-icon-color: get-token(color, notification, font);
   @include set-font-scale('04');
 
   box-sizing: border-box;
-  padding: $mu150 $mu100;
+  padding: $mu150 $mu100 magic-unit-rem(1.375, 'true');
 
   // type icon
   &::before {
@@ -39,6 +39,7 @@ $notification-close-icon-color: get-token(color, notification, font);
 
   &__content {
     flex: 1 1 0;
+    padding-top: $mu025;
   }
 
   &__title,
@@ -51,9 +52,14 @@ $notification-close-icon-color: get-token(color, notification, font);
     @include set-font-scale('05');
   }
 
-  &__message,
-  &__link {
+  &__message {
     margin-top: $mu050;
+  }
+
+  &__link {
+    @include set-font-scale('04', 'm');
+    // margin-top: $mu050; 0.625
+    margin-top: magic-unit-rem(0.625, 'true');
   }
 }
 

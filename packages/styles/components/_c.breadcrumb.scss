@@ -5,7 +5,9 @@
   @include set-font-scale('04', 'm');
 
   color: $color-font-darker;
-  padding: magic-unit-rem(0.875, 'true') 0 $mu100 magic-unit-rem(1.125, 'true');
+  padding:
+    magic-unit-rem(0.9375, 'true') 0 magic-unit-rem(0.9375, 'true')
+    magic-unit-rem(1.125, 'true');
 
   @include set-from-screen('s-large') {
     padding-left: $mu125;
@@ -72,6 +74,7 @@
     &:only-child {
       @media screen and (max-width: 679px) {
         background-image: url(inline-icons('arrow-left-16', $color-grey-800));
+        background-position: left center;
       }
     }
   }

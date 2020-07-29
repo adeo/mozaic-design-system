@@ -2,10 +2,11 @@
 
 /* stylelint-disable no-descending-specificity */
 .mc-checkbox {
+  align-items: center;
   display: flex;
 
   &__label {
-    @include set-font-scale('05', 'xs');
+    @include set-font-scale('05', 's');
 
     cursor: pointer;
     margin-left: magic-unit-rem(0.5, true);
