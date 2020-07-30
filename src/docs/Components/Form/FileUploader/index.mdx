@@ -1,5 +1,5 @@
 ---
-title: 'File Uploader'
+title: 'File uploader'
 order: 4
 description: 'A file uploader is a pattern mainly used in forms. It allows the user to upload one or several files like pictures or documents.'
 status:
@@ -8,6 +8,42 @@ status:
 ---
 
 > A file uploader is a pattern mainly used in forms. It allows the user to upload one or several files like pictures or documents.
+
+## Overview
+
+![FileUploader-Overview](FileUploader-Overview.png)
+
+A file uploader is a combination of the following mentions. Please note that you can use five different cases:
+
+- Label only + file uploader
+- Label + requirement + file uploader
+- Label + requirement + help text + file uploader
+- Label + help text + file uploader
+- File uploader only
+
+### Label
+
+The label helps the user to understand what information is needed in the file uploader.
+
+<Preview path="with-field" nude />
+
+### Requirement
+
+This mention allows to specify that this information is mandatory for the file uploader to be valid.
+
+<Preview path="requirement" nude />
+
+### Help text
+
+Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
+
+<Preview path="help-text" nude />
+
+### File uploader only
+
+In specific use cases, you can use a file uploader without label.
+
+<Preview path="default" nude />
 
 ## Behaviors
 
@@ -34,9 +70,13 @@ After uploading a file, a tile is added to the bottom of the component. This til
 
 When the file uploader allows the user to upload only one file it automatically overwrites the previously uploaded file when a new file is uploaded.
 
+<Preview path="with-attribute-accept" nude />
+
 #### Multiple upload
 
 When the file uploader allows the user to upload multiple files, the user can select several files in the dedicated browser window. The files will be added with the previously uploaded files if you repeat this action.
+
+<Preview path="with-attribute-multiple" nude />
 
 ## Do's and Dont's
 
