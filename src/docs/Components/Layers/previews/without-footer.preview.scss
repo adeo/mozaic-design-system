@@ -1,0 +1,17 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.layer';
+
+.example {
+  @include set-font-face('regular');
+
+  background-color: #f6f7f7;
+  min-height: 700px;
+  height: 100vh;
+}
+
+.mc-layer__body {
+  background-color: #eeeef0;
+}
