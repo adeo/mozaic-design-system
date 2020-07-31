@@ -30,7 +30,7 @@ Wrap a input[type="file"] and a label inside a div and apply the following class
     <span class="mc-fileuploader__label--center">
       Select a file to upload
     </span>
-  </label>  
+  </label>
 </div>
 ```
 
@@ -60,7 +60,7 @@ You can also restrict the type or the path of the file to be uploaded by using t
 
 #### Display uploaded files and errors
 
-Html and css does not provide a native way to achieve this, but using some Javascript, it is possible to display errors and uploaded files to the user.
+Html and css do not provide a native way to achieve this, but using some Javascript, it is possible to display errors and uploaded files to the user.
 
 Inside the file uploader, right after the `label`, add a list of files :
 
@@ -107,7 +107,7 @@ Import **the settings**, **the file uploader** and **the fields** scss files.
 
 ### Usage
 
-When using the fileuploader as part of a form, you must make sure to respect the following structure:
+When using the file uploader as part of a form, you must make sure to respect the following structure:
 
 ```html
 <div class="mc-field">
@@ -153,7 +153,7 @@ For this you have to add a span with the `mc-field__help` class below the label.
 
 #### Requirement
 
-When the fileuploader is mandatory, you must specify it to the user. 
+When the file uploader is mandatory, you must specify it to the user.
 
 For this you have to add a span with the class `mc-field__requirement` right after the label text.
 
@@ -168,7 +168,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 
 <Highlight theme="tips" title="Semantic rule">
 
-  When the fileuploader is mandatory the `required` attribute must be added on the `mc-fileuploader__input` element
+  When the file uploader is mandatory the `required` attribute must be added on the `mc-fileuploader__input` element
 
 </Highlight>
 
@@ -178,7 +178,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 
 #### Invalid
 
-To indicate that your fileuploader is not valid, several steps are to be implemented:
+To indicate that your file uploader is not valid, several steps are to be implemented:
 
 - Add the `is-invalid` class and the `aria-invalid` attribute to the `mc-fileuploader__input` element
 - You can add in addition a text detailing the error. This text must be added in a **span** with the class `mc-field__error-message` and positioned below the `mc-field__element` element
