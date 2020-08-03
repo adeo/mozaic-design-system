@@ -15,6 +15,14 @@
     {
       "name": "icons.zip",
       "folders": ["packages/icons"]
+    },
+    {
+      "name": "ios-tokens.zip",
+      "folders": ["packages/tokens/build/ios"]
+    },
+    {
+      "name": "android-tokens.zip",
+      "folders": ["packages/tokens/build/android"]
     }
   ]
 }

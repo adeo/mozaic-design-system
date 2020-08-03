@@ -80,6 +80,46 @@ const config = {
         },
       ],
     },
+    'ios-swift': {
+      transformGroup: 'ios-swift',
+      buildPath: setLocalTokensExportPath('ios'),
+      files: [
+        {
+          destination: 'StyleDictionaryColor.swift',
+          format: 'ios-swift/class.swift',
+          options: {
+            showFileHeader: false,
+          },
+          className: 'StyleDictionaryColor',
+          type: 'StyleDictionaryColorName',
+          options: {
+            showFileHeader: false,
+          },
+          filter: {
+            attributes: {
+              category: 'color',
+            },
+          },
+        },
+        {
+          destination: 'StyleDictionarySize.swift',
+          format: 'ios-swift/class.swift',
+          options: {
+            showFileHeader: false,
+          },
+          className: 'StyleDictionarySize',
+          options: {
+            showFileHeader: false,
+          },
+          type: 'float',
+          filter: {
+            attributes: {
+              category: 'size',
+            },
+          },
+        },
+      ],
+    },
     ios: {
       transformGroup: 'ios',
       buildPath: setLocalTokensExportPath('ios'),
