@@ -3,7 +3,10 @@
 @include import-font-families();
 
 @import 'components/_c.file-uploader';
+@import 'components/_c.fields';
 
 .example {
-  margin: $mu150;
+  @include set-font-face('regular');
+
+  padding: $mu150;
 }

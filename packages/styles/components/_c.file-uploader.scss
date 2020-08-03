@@ -39,13 +39,17 @@
 
     :focus + & {
       @include add-demo-state-class {
-        @include set-button-theme(get-token(color, button, 'bordered', 'focus'));
+        @include set-button-theme(
+          get-token(color, button, 'bordered', 'focus')
+        );
       }
     }
 
     :hover + & {
       @include add-demo-state-class {
-        @include set-button-theme(get-token(color, button, 'bordered', 'hover'));
+        @include set-button-theme(
+          get-token(color, button, 'bordered', 'hover')
+        );
       }
     }
 
@@ -74,36 +78,38 @@
     margin: $mu100 0 0 0;
   }
 
-  &__file-name {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    padding: $mu050 $mu075;
-    flex: 1 0 auto;
-    display: flex;
-  }
-
   &__file {
     @include set-font-face('regular');
 
-    line-height: 1.4;
-    display: flex;
-    flex-flow: row wrap;
     align-items: center;
     background: $color-fileuploader-files-list;
     color: $color-fileuploader-font;
-    margin: 0 0 $mu025 0;
-    transform: translateY(-0.125em);
+    display: flex;
+    flex-flow: row wrap;
+
+    &:not(:last-child) {
+      margin-bottom: $mu025;
+    }
+
+    &-name {
+      display: flex;
+      flex: 1 0 auto;
+      overflow: hidden;
+      padding: $mu050 $mu075;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
 
     &-icon {
-      width: $mu150;
-      height: $mu150;
-      display: block;
-      margin: 0 $mu100;
       background-color: transparent;
       background-position: center right;
       background-repeat: no-repeat;
       background-size: $mu150;
+      display: block;
+      height: $mu150;
+      margin-left: $mu100;
+      margin-right: $mu100;
+      width: $mu150;
     }
 
     &--is-valid &-icon {
@@ -125,20 +131,22 @@
     }
 
     &--is-invalid &-message {
-      @include set-font-scale('02');
+      @include set-font-scale('04', 'm');
 
       background: $color-grey-000;
-      flex: 0 0 100%;
-      padding: 0 0 $mu050 0;
+      color: $color-font-danger;
+      flex-basis: 100%;
+      padding-bottom: $mu050;
+      padding-top: $mu025;
     }
   }
 
   &__delete {
+    appearance: none;
     background-color: $color-fileuploader-files-delete;
-    padding: $mu050;
-    -webkit-appearance: none;
     border: none;
     cursor: pointer;
+    padding: $mu050;
 
     &::after {
       content: '';
