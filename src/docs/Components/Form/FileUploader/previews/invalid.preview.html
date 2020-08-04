@@ -1,0 +1,27 @@
+<div class="example">
+  <div class="mc-field">
+    <label class="mc-field__label" for="default">
+      Label
+    </label>
+
+    <div class="mc-field__element mc-fileuploader">
+      <input
+        type="file"
+        class="mc-fileuploader__input is-invalid"
+        id="default"
+        required
+        aria-describedBy="err_1"
+        aria-invalid="true"
+      />
+      <label for="default" class="mc-fileuploader__label">
+        <span class="mc-fileuploader__label--center">
+          Select a file to upload
+        </span>
+      </label>
+    </div>
+
+    <span id="err_1" class="mc-field__error-message">
+      Error: this field is mandatory. Don't forget to fill it in.
+    </span>
+  </div>
+</div>
