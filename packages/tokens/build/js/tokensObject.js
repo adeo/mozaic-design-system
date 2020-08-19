@@ -5554,6 +5554,127 @@ module.exports = {
         ]
       }
     },
+    "tabs": {
+      "background": {
+        "value": "#ffffff",
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorTabsBackground",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "background"
+        ]
+      },
+      "shadow": {
+        "value": "#000000",
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorTabsShadow",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "shadow"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "shadow"
+        ]
+      },
+      "default": {
+        "value": "#222020",
+        "original": {
+          "value": "{color.font.darker.value}"
+        },
+        "name": "ColorTabsDefault",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "default"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "default"
+        ]
+      },
+      "hover": {
+        "value": "#41a017",
+        "original": {
+          "value": "{color.font.success.value}"
+        },
+        "name": "ColorTabsHover",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "hover"
+        ]
+      },
+      "disabled": {
+        "value": "#6f676c",
+        "original": {
+          "value": "{color.font.light.value}"
+        },
+        "name": "ColorTabsDisabled",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "disabled"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "disabled"
+        ]
+      },
+      "active": {
+        "value": "#78be20",
+        "original": {
+          "value": "{color.font.primary-01.value}"
+        },
+        "name": "ColorTabsActive",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "active"
+        ]
+      },
+      "active-disabled": {
+        "value": "#cbe3b5",
+        "original": {
+          "value": "{color.primary-01.200.value}"
+        },
+        "name": "ColorTabsActiveDisabled",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "active-disabled"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "active-disabled"
+        ]
+      }
+    },
     "tag": {
       "text": {
         "light": {
