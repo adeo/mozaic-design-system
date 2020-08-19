@@ -25,28 +25,13 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 
 ## Design system core team
 
-### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
-
-**Role for the project**:
-
-- Design system front-end lead
-- Maintainer of the source code
-- Main contributor and maintainer of the styleguide tool based on gatsby
-- Keep consistency in code base
-- Keep consistency between code and design
-- Review code updates
-- Help keep things flowing and useful for the differents BU
-
-**Timezone:** Paris - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Gael Boyenval
-
 ### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste)
 
 **Role for the project:**
 
 - Design system UI lead
 - Arbitrates the patterns inputs and additions to the design system
+- Welcomes and onboards the designers on Mozaic
 
 **Timezone:** Lile - France **Availability:** 100%
 
@@ -74,7 +59,10 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 
 ### [Nicolas Herwegh](https://www.linkedin.com/in/nicolas-herwegh-3a4494136)
 
-**Role for the project:** UI designer
+**Role for the project:**
+
+- UI designer
+- Designs the patterns and writes the associated documentation
 
 **Timezone:** Lille - France **Availability:** 100%
 
