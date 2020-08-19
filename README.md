@@ -32,6 +32,7 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 - Design system UI lead
 - Arbitrates the patterns inputs and additions to the design system
 - Welcomes and onboards the designers on Mozaic
+- Reviews usage documentation
 
 **Timezone:** Lile - France **Availability:** 100%
 
