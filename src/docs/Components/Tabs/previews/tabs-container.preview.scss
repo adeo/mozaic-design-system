@@ -2,11 +2,9 @@
 
 @include import-font-families();
 
+@import 'layouts/_l.container';
 @import 'components/_c.tabs';
 
 .example {
-  display: flex;
-  justify-content: center;
-  margin: 2rem;
-  margin-bottom: 3rem;
+  margin: $mu200 0;
 }

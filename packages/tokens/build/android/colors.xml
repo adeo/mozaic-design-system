@@ -293,6 +293,13 @@
   <color name="color_star_focus">#ff25a8d0</color>
   <color name="color_star_full">#fffc961e</color>
   <color name="color_star_hover">#ffffc17d</color>
+  <color name="color_tabs_background">#ffffffff</color>
+  <color name="color_tabs_shadow">#ff000000</color>
+  <color name="color_tabs_default">#ff222020</color>
+  <color name="color_tabs_hover">#ff41a017</color>
+  <color name="color_tabs_disabled">#ff6f676c</color>
+  <color name="color_tabs_active">#ff78be20</color>
+  <color name="color_tabs_active_disabled">#ffcbe3b5</color>
   <color name="color_tag_text_light_background">#ffffffff</color>
   <color name="color_tag_text_light_border">#ff554f52</color>
   <color name="color_tag_text_light_text">#ff554f52</color>

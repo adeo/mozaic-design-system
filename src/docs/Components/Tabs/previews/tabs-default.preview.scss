@@ -2,9 +2,10 @@
 
 @include import-font-families();
 
-@import 'components/_c.tabs.scss';
+@import 'components/_c.tabs';
 
 .example {
   display: flex;
-  margin: $mu100;
+  justify-content: center;
+  margin: $mu200;
 }
