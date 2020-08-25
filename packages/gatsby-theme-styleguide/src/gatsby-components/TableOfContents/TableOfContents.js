@@ -30,7 +30,39 @@ export default class TableOfContents extends PureComponent {
     return false
   }
 
+  getAnchorPosition = e => {
+    const scrollValue =
+      document.getElementById('scroller').scrollTop +
+      document.getElementById('page_tabs_menu').clientHeight +
+      10
+
+    const anchors = document.querySelectorAll('.anchor-toc')
+
+    anchors.forEach(function(anchor, index, array) {
+      const position = anchor.offsetTop
+      const hash = anchor.href.match(/#[\w-_]+$/)[0]
+
+      if (!(index < anchors.length - 1)) return false
+
+      const nextPosition = anchors[index + 1].offsetTop
+
+      if (scrollValue >= position && scrollValue < nextPosition) {
+        document.querySelectorAll('.toc__link').forEach(link => {
+          link.classList.remove('toc__link--active')
+        })
+
+        document
+          .querySelector('.toc__link[href="' + hash + '"')
+          .classList.add('toc__link--active')
+      }
+    })
+  }
+
   componentDidMount() {
+    document
+      .getElementById('scroller')
+      .addEventListener('scroll', this.getAnchorPosition)
+
     const pageTabsHeight = this.getPageTabsHeight()
     const tocDiv = document.querySelector('#toc > div')
     if (tocDiv) tocDiv.style.top = pageTabsHeight + 'px'
@@ -71,13 +103,13 @@ export default class TableOfContents extends PureComponent {
         })
         title = title.trim()
         anchor = (
-          <a className="toc__list-link" onClick={this.onClick} href={url}>
+          <a className="toc__link" onClick={this.onClick} href={url}>
             {title}
           </a>
         )
       }
       return (
-        <li className="toc__list-item" key={url + '_link_' + index}>
+        <li className="toc__item" key={url + '_link_' + index}>
           {anchor}
           {items}
         </li>
@@ -94,7 +126,7 @@ export default class TableOfContents extends PureComponent {
     return (
       <aside className="toc" id="toc">
         <div className="toc__wrapper">
-          <h2 className="toc__title">TABLE OF CONTENTS</h2>
+          <h2 className="toc__title">On this page</h2>
           <ul className="toc__list">
             {this.renderList(tableOfContents.items)}
           </ul>
