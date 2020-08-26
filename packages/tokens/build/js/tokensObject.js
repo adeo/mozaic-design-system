@@ -3482,6 +3482,76 @@ module.exports = {
         }
       }
     },
+    "divider": {
+      "lightest": {
+        "value": "#ffffff",
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorDividerLightest",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "lightest"
+        },
+        "path": [
+          "color",
+          "divider",
+          "lightest"
+        ]
+      },
+      "light": {
+        "value": "#bab6bc",
+        "original": {
+          "value": "{color.grey.300.value}"
+        },
+        "name": "ColorDividerLight",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "divider",
+          "light"
+        ]
+      },
+      "default": {
+        "value": "#6f676c",
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorDividerDefault",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "default"
+        },
+        "path": [
+          "color",
+          "divider",
+          "default"
+        ]
+      },
+      "dark": {
+        "value": "#000000",
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorDividerDark",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "divider",
+          "dark"
+        ]
+      }
+    },
     "fields": {
       "error": {
         "value": "#b42a27",
@@ -3628,9 +3698,9 @@ module.exports = {
         ]
       },
       "alert": {
-        "value": "#df382b",
+        "value": "#b42a27",
         "original": {
-          "value": "{color.danger.500.value}"
+          "value": "{color.danger.600.value}"
         },
         "name": "ColorFileuploaderAlert",
         "attributes": {
@@ -4623,9 +4693,9 @@ module.exports = {
       },
       "invalid": {
         "border": {
-          "value": "#df382b",
+          "value": "#b42a27",
           "original": {
-            "value": "{color.danger.500.value}"
+            "value": "{color.danger.600.value}"
           },
           "name": "ColorInputInvalidBorder",
           "attributes": {
@@ -5481,6 +5551,127 @@ module.exports = {
           "color",
           "star",
           "hover"
+        ]
+      }
+    },
+    "tabs": {
+      "background": {
+        "value": "#ffffff",
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorTabsBackground",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "background"
+        ]
+      },
+      "shadow": {
+        "value": "#000000",
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorTabsShadow",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "shadow"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "shadow"
+        ]
+      },
+      "default": {
+        "value": "#222020",
+        "original": {
+          "value": "{color.font.darker.value}"
+        },
+        "name": "ColorTabsDefault",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "default"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "default"
+        ]
+      },
+      "hover": {
+        "value": "#41a017",
+        "original": {
+          "value": "{color.font.success.value}"
+        },
+        "name": "ColorTabsHover",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "hover"
+        ]
+      },
+      "disabled": {
+        "value": "#6f676c",
+        "original": {
+          "value": "{color.font.light.value}"
+        },
+        "name": "ColorTabsDisabled",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "disabled"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "disabled"
+        ]
+      },
+      "active": {
+        "value": "#78be20",
+        "original": {
+          "value": "{color.font.primary-01.value}"
+        },
+        "name": "ColorTabsActive",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "active"
+        ]
+      },
+      "active-disabled": {
+        "value": "#cbe3b5",
+        "original": {
+          "value": "{color.primary-01.200.value}"
+        },
+        "name": "ColorTabsActiveDisabled",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "active-disabled"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "active-disabled"
         ]
       }
     },

@@ -185,6 +185,10 @@
   <color name="color_button_bordered_danger_disabled_font">#ff887f87</color>
   <color name="color_button_bordered_danger_active_background">#fffab9bc</color>
   <color name="color_button_bordered_danger_hover_background">#fffeedee</color>
+  <color name="color_divider_lightest">#ffffffff</color>
+  <color name="color_divider_light">#ffbab6bc</color>
+  <color name="color_divider_default">#ff6f676c</color>
+  <color name="color_divider_dark">#ff000000</color>
   <color name="color_fields_error">#ffb42a27</color>
   <color name="color_fields_label">#ff3c3738</color>
   <color name="color_fields_requirement">#ff6f676c</color>
@@ -193,7 +197,7 @@
   <color name="color_fileuploader_files_list">#ffeeeef0</color>
   <color name="color_fileuploader_files_delete">#ffd3d2d6</color>
   <color name="color_fileuploader_valid">#ff78be20</color>
-  <color name="color_fileuploader_alert">#ffdf382b</color>
+  <color name="color_fileuploader_alert">#ffb42a27</color>
   <color name="color_flag_solid_background">#ff78be20</color>
   <color name="color_flag_solid_border">#ff78be20</color>
   <color name="color_flag_solid_text">#ffffffff</color>
@@ -245,7 +249,7 @@
   <color name="color_input_focus_border">#ff25a8d0</color>
   <color name="color_input_valid_border">#ff78be20</color>
   <color name="color_input_valid_hover_border">#ff0a601b</color>
-  <color name="color_input_invalid_border">#ffdf382b</color>
+  <color name="color_input_invalid_border">#ffb42a27</color>
   <color name="color_input_invalid_hover_border">#ff641b21</color>
   <color name="color_input_checked_border">#ff78be20</color>
   <color name="color_input_checked_background">#ff78be20</color>
@@ -289,6 +293,13 @@
   <color name="color_star_focus">#ff25a8d0</color>
   <color name="color_star_full">#fffc961e</color>
   <color name="color_star_hover">#ffffc17d</color>
+  <color name="color_tabs_background">#ffffffff</color>
+  <color name="color_tabs_shadow">#ff000000</color>
+  <color name="color_tabs_default">#ff222020</color>
+  <color name="color_tabs_hover">#ff41a017</color>
+  <color name="color_tabs_disabled">#ff6f676c</color>
+  <color name="color_tabs_active">#ff78be20</color>
+  <color name="color_tabs_active_disabled">#ffcbe3b5</color>
   <color name="color_tag_text_light_background">#ffffffff</color>
   <color name="color_tag_text_light_border">#ff554f52</color>
   <color name="color_tag_text_light_text">#ff554f52</color>

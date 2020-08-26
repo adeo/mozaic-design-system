@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
+## [1.0.1-beta.14](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.13...v1.0.1-beta.14) (2020-07-23)
+
+
+### Features
+
+* **website/chat:** add smallchat on Mozaic website ([#604](https://github.com/adeo/mozaic-design-system/issues/604)) ([d71a069](https://github.com/adeo/mozaic-design-system/commit/d71a0692cab9a6d7c96db984a621cea43ab22651)), closes [#533](https://github.com/adeo/mozaic-design-system/issues/533)
+
+
+
+
+
 ## [1.0.1-beta.8](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.7...v1.0.1-beta.8) (2020-05-06)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide

@@ -3,6 +3,118 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
+
+
+### Bug Fixes
+
+* **patterns/fileuploader:** update documentation and add error cases ([#614](https://github.com/adeo/mozaic-design-system/issues/614)) ([595ae07](https://github.com/adeo/mozaic-design-system/commit/595ae07186a70d73359b77ae47d4df142f03d2c3))
+
+
+### Features
+
+* **tools:** add swift token config (StyleDictionnary) ([#615](https://github.com/adeo/mozaic-design-system/issues/615)) ([1d8aaf2](https://github.com/adeo/mozaic-design-system/commit/1d8aaf229552a5b2ffcd8dec52ad2a7f30a6da7e))
+
+
+
+
+
+## [1.0.1-beta.14](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.13...v1.0.1-beta.14) (2020-07-23)
+
+
+### Bug Fixes
+
+* **patterns/form:** fix inline form behaviour on mobile ([#611](https://github.com/adeo/mozaic-design-system/issues/611)) ([f696bbf](https://github.com/adeo/mozaic-design-system/commit/f696bbf38086e25af60c852981322059219fab26)), closes [#609](https://github.com/adeo/mozaic-design-system/issues/609)
+
+
+### Features
+
+* **patterns/breadcrumb:** add breadcrumb pattern ([#608](https://github.com/adeo/mozaic-design-system/issues/608)) ([4035763](https://github.com/adeo/mozaic-design-system/commit/4035763018dcdbc45b90128165c770d0a819b6a8))
+* **patterns/datepicker:** add documentation for datepicker pattern ([#599](https://github.com/adeo/mozaic-design-system/issues/599)) ([11e9674](https://github.com/adeo/mozaic-design-system/commit/11e9674f0120c6d5fca6c49e29ecb76d9e53dbde)), closes [#577](https://github.com/adeo/mozaic-design-system/issues/577)
+* **patterns/tooltip:** add tooltip pattern ([#594](https://github.com/adeo/mozaic-design-system/issues/594)) ([#607](https://github.com/adeo/mozaic-design-system/issues/607)) ([5d1dca5](https://github.com/adeo/mozaic-design-system/commit/5d1dca5cf9e81bdc2754305e45fc53419730b48f))
+* **website/chat:** add smallchat on Mozaic website ([#604](https://github.com/adeo/mozaic-design-system/issues/604)) ([d71a069](https://github.com/adeo/mozaic-design-system/commit/d71a0692cab9a6d7c96db984a621cea43ab22651)), closes [#533](https://github.com/adeo/mozaic-design-system/issues/533)
+* **website/vuejs:** add link to Mozaic Vue on homepage ([#605](https://github.com/adeo/mozaic-design-system/issues/605)) ([0da9f6e](https://github.com/adeo/mozaic-design-system/commit/0da9f6e1afabd91c342f28dfbfcef46a7457a997))
+
+
+
+
+
+## [1.0.1-beta.13](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.12...v1.0.1-beta.13) (2020-07-09)
+
+
+### Features
+
+* **chore/contrib:** add contributors list in Readme (all-contributors) ([#587](https://github.com/adeo/mozaic-design-system/issues/587)) ([500897c](https://github.com/adeo/mozaic-design-system/commit/500897cbfeae3dd7e5adba8b12fd92585bb12f95))
+* **patterns/modals:** add modals pattern ([#596](https://github.com/adeo/mozaic-design-system/issues/596)) ([3b7ab13](https://github.com/adeo/mozaic-design-system/commit/3b7ab132137160fa9a94d4086ded27a38809ca23))
+
+
+
+
+
+## [1.0.1-beta.12](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.11...v1.0.1-beta.12) (2020-06-24)
+
+
+### Bug Fixes
+
+* **chore:** update api token ([#579](https://github.com/adeo/mozaic-design-system/issues/579)) ([b51ac7d](https://github.com/adeo/mozaic-design-system/commit/b51ac7d66d4c0d5653c3aeb7ca399ff52095b75d))
+* **patterns/container:** make mc-container fluid with .ml-container--fluid modifier ([#590](https://github.com/adeo/mozaic-design-system/issues/590)) ([7235018](https://github.com/adeo/mozaic-design-system/commit/7235018a968a8c26b766ebce418b72006100abe5))
+* **patterns/fileuploader:** remove href attribute on fileuploader delete button ([#580](https://github.com/adeo/mozaic-design-system/issues/580)) ([4c2512d](https://github.com/adeo/mozaic-design-system/commit/4c2512d0b70d6f01d0a655cf29036aa3ad8f9182)), closes [#578](https://github.com/adeo/mozaic-design-system/issues/578)
+* **patterns/pagination:** fix button icon for IE and center pagination by default ([#584](https://github.com/adeo/mozaic-design-system/issues/584)) ([f01de9b](https://github.com/adeo/mozaic-design-system/commit/f01de9b6c71ff9824b4f05c831fdae1d6ef8ba49))
+* **patterns/reset-css:** remove rules for img tag in order to avoid side effects on lmfr site ([#575](https://github.com/adeo/mozaic-design-system/issues/575)) ([e93bab4](https://github.com/adeo/mozaic-design-system/commit/e93bab445cc987c83af168ab5afd739a6f29071c))
+* **patterns/tabs:** remove typo ([#588](https://github.com/adeo/mozaic-design-system/issues/588)) ([5cf4001](https://github.com/adeo/mozaic-design-system/commit/5cf4001d4b0de7d696714765bff2989861e189a9))
+* **website:** remove old pages([#585](https://github.com/adeo/mozaic-design-system/issues/585)) ([9e9de0e](https://github.com/adeo/mozaic-design-system/commit/9e9de0e3c816b2ffa20d84c291f77d8c011f8e34))
+
+
+### Features
+
+* **pattern/tabs:** Add pattern tabs ([#574](https://github.com/adeo/mozaic-design-system/issues/574)) ([46a8541](https://github.com/adeo/mozaic-design-system/commit/46a8541691bf37b90fbff316da0e16381e62afdc))
+* **patterns/border-radius:** update code documentation ([#581](https://github.com/adeo/mozaic-design-system/issues/581)) ([ec1dab3](https://github.com/adeo/mozaic-design-system/commit/ec1dab365442176774c82e24476356432e31c2ab)), closes [#573](https://github.com/adeo/mozaic-design-system/issues/573)
+* **patterns/icons:** add new icons ([#582](https://github.com/adeo/mozaic-design-system/issues/582)) ([2832a36](https://github.com/adeo/mozaic-design-system/commit/2832a36395738bdde33f1c39271103772d814986))
+
+
+
+
+
+## [1.0.1-beta.11](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.10...v1.0.1-beta.11) (2020-06-10)
+
+
+### Bug Fixes
+
+* **chore:** add resolutions for kind-of and minimist ([#554](https://github.com/adeo/mozaic-design-system/issues/554)) ([9b751e4](https://github.com/adeo/mozaic-design-system/commit/9b751e4aabc3621fea5a2a2f0197d4c960e559d6))
+* **chore:** upgrade graphql-playground-html version ([#572](https://github.com/adeo/mozaic-design-system/issues/572)) ([0976888](https://github.com/adeo/mozaic-design-system/commit/0976888b87ccb7d95c6741f6bf8e42e77fa75320))
+* **chore:** use adeo/httpie.action to fix pipenv new breaking changes ([#562](https://github.com/adeo/mozaic-design-system/issues/562)) ([736a144](https://github.com/adeo/mozaic-design-system/commit/736a14417097abc184c919e3010a3c33fd41dc04))
+* **chore/dependencies:** fix security alert websocket-extensions ([#570](https://github.com/adeo/mozaic-design-system/issues/570)) ([190a89f](https://github.com/adeo/mozaic-design-system/commit/190a89fcab4b5129e2d82b6933c62aaa3d12ec50))
+
+
+### Features
+
+* **patterns/form:** add a common structure for all form elements ([#552](https://github.com/adeo/mozaic-design-system/issues/552)) ([0e1eb10](https://github.com/adeo/mozaic-design-system/commit/0e1eb109b7f6f793d576939f3c2acf891e1b6b8b))
+
+
+
+
+
+## [1.0.1-beta.10](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.9...v1.0.1-beta.10) (2020-05-20)
+
+
+### Bug Fixes
+
+* **patterns/buttons:** fix regression on the color of icons ([#546](https://github.com/adeo/mozaic-design-system/issues/546)) ([ec00ac5](https://github.com/adeo/mozaic-design-system/commit/ec00ac515cb437f62ee25b33ce549ecda6d9a5a9))
+* **patterns/buttons:** update background-color of disabled buttons ([#543](https://github.com/adeo/mozaic-design-system/issues/543)) ([1d307ad](https://github.com/adeo/mozaic-design-system/commit/1d307ad631096ec04eb47246f7430c81967ebc8e))
+* **patterns/rating-stars:** add background-size on rating stars input ([#539](https://github.com/adeo/mozaic-design-system/issues/539)) ([9ec2625](https://github.com/adeo/mozaic-design-system/commit/9ec262549094925155f2b582f6f494e4bc8f9866))
+
+
+### Features
+
+* **patterns:** add not-allowed cursor on disabled elements ([#550](https://github.com/adeo/mozaic-design-system/issues/550)) ([e67ebaf](https://github.com/adeo/mozaic-design-system/commit/e67ebaf694bcc479bfd57b085e50ce030bcdcd09))
+* **patterns/cssreset:** add a css reset ([#541](https://github.com/adeo/mozaic-design-system/issues/541)) ([b1b8db5](https://github.com/adeo/mozaic-design-system/commit/b1b8db545db66f2020c8fc600ee0b6d4b75d0eed))
+* **patterns/dividers:** add dividers ([#542](https://github.com/adeo/mozaic-design-system/issues/542)) ([e1d3ab7](https://github.com/adeo/mozaic-design-system/commit/e1d3ab7ddc891f173aba55fae7cde5fc9b0657b9))
+* **patterns/pagination:** add pagination pattern ([#540](https://github.com/adeo/mozaic-design-system/issues/540)) ([#544](https://github.com/adeo/mozaic-design-system/issues/544)) ([6425bd7](https://github.com/adeo/mozaic-design-system/commit/6425bd766ada58c4280c4933ffda2ff49ca26488))
+
+
+
+
+
 ## [1.0.1-beta.9](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.8...v1.0.1-beta.9) (2020-05-07)
 
 

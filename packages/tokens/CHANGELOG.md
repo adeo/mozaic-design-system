@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
+
+
+### Bug Fixes
+
+* **patterns/fileuploader:** update documentation and add error cases ([#614](https://github.com/adeo/mozaic-design-system/issues/614)) ([595ae07](https://github.com/adeo/mozaic-design-system/commit/595ae07186a70d73359b77ae47d4df142f03d2c3))
+
+
+### Features
+
+* **tools:** add swift token config (StyleDictionnary) ([#615](https://github.com/adeo/mozaic-design-system/issues/615)) ([1d8aaf2](https://github.com/adeo/mozaic-design-system/commit/1d8aaf229552a5b2ffcd8dec52ad2a7f30a6da7e))
+
+
+
+
+
+## [1.0.1-beta.11](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.10...v1.0.1-beta.11) (2020-06-10)
+
+
+### Features
+
+* **patterns/form:** add a common structure for all form elements ([#552](https://github.com/adeo/mozaic-design-system/issues/552)) ([0e1eb10](https://github.com/adeo/mozaic-design-system/commit/0e1eb109b7f6f793d576939f3c2acf891e1b6b8b))
+
+
+
+
+
+## [1.0.1-beta.10](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.9...v1.0.1-beta.10) (2020-05-20)
+
+
+### Bug Fixes
+
+* **patterns/buttons:** update background-color of disabled buttons ([#543](https://github.com/adeo/mozaic-design-system/issues/543)) ([1d307ad](https://github.com/adeo/mozaic-design-system/commit/1d307ad631096ec04eb47246f7430c81967ebc8e))
+
+
+### Features
+
+* **patterns/dividers:** add dividers ([#542](https://github.com/adeo/mozaic-design-system/issues/542)) ([e1d3ab7](https://github.com/adeo/mozaic-design-system/commit/e1d3ab7ddc891f173aba55fae7cde5fc9b0657b9))
+
+
+
+
+
 ## [1.0.1-beta.4](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.3...v1.0.1-beta.4) (2020-02-17)
 
 

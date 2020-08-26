@@ -1,0 +1,18 @@
+{
+  "color": {
+    "divider": {
+      "lightest": {
+        "value": "{color.grey.000.value}"
+      },
+      "light": {
+        "value": "{color.grey.300.value}"
+      },
+      "default": {
+        "value": "{color.grey.600.value}"
+      },
+      "dark": {
+        "value": "{color.grey.999.value}"
+      }
+    }
+  }
+}

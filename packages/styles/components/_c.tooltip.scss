@@ -1,0 +1,136 @@
+/* mqp:start */
+.mc-tooltip {
+  $parent: &;
+
+  @include set-font-face();
+
+  display: inline-flex;
+  position: relative;
+
+  &:focus,
+  &:hover {
+    cursor: pointer;
+
+    #{$parent}__content {
+      visibility: visible;
+    }
+  }
+
+  &__content {
+    @include set-font-scale('04', 'm');
+
+    background-color: $color-grey-700;
+    border-radius: get-border-radius('m');
+    box-sizing: border-box;
+    color: $color-grey-000;
+    padding: magic-unit-rem(0.375, true) $mu100 $mu050;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    z-index: 1000;
+
+    // MS Issue : IE10, IE11 don't support intrinsic widths
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      width: magic-unit-rem(13.75, true);
+    }
+
+    @supports (width: max-content) {
+      min-width: magic-unit-rem(6.625, true);
+      max-width: magic-unit-rem(13.75, true);
+      width: max-content;
+    }
+
+    &::after {
+      background:
+        transparent
+        url(inline-icons('tooltip-arrow', $color-grey-700)) no-repeat;
+      background-size: $mu050;
+      content: '';
+      height: $mu050;
+      position: absolute;
+      width: $mu050;
+    }
+  }
+
+  &--top {
+    #{$parent}__content {
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, calc(-100% - #{$mu075}));
+
+      // MS Issue : IE10, IE11, and Edge < 14 don't support using calc() inside a transform.
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        transform: translate(-50%, -100%);
+        margin-top: -#{$mu075};
+      }
+
+      &::after {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 100%) rotate(-90deg);
+      }
+    }
+  }
+
+  &--right {
+    #{$parent}__content {
+      top: 50%;
+      right: 0;
+      transform: translate(calc(100% + #{$mu075}), -50%);
+
+      // MS Issue : IE10, IE11, and Edge < 14 don't support using calc() inside a transform.
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        transform: translate(100%, -50%);
+        margin-right: -#{$mu075};
+      }
+
+      &::after {
+        top: 50%;
+        left: 0;
+        transform: translate(-99%, -50%);
+      }
+    }
+  }
+
+  &--left {
+    #{$parent}__content {
+      left: 0;
+      top: 50%;
+      transform: translate(calc(-100% - #{$mu075}), -50%);
+
+      // MS Issue : IE10, IE11, and Edge < 14 don't support using calc() inside a transform.
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        transform: translate(-100%, -50%);
+        margin-left: -#{$mu075};
+      }
+
+      &::after {
+        top: 50%;
+        right: 0;
+        transform: translate(99%, -50%) rotate(180deg);
+      }
+    }
+  }
+
+  &--bottom {
+    #{$parent}__content {
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, calc(100% + #{$mu075}));
+
+      // MS Issue : IE10, IE11, and Edge < 14 don't support using calc() inside a transform.
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        transform: translate(-50%, 100%);
+        margin-bottom: -#{$mu075};
+      }
+
+      &::after {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -100%) rotate(90deg);
+      }
+    }
+  }
+}
+
+/* mqp:end */

@@ -43,7 +43,7 @@
       },
       "invalid": {
         "border": {
-          "value": "{color.danger.500.value}"
+          "value": "{color.danger.600.value}"
         },
         "hover": {
           "border": {

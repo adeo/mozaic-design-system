@@ -145,7 +145,7 @@ $button-color-default: map-get(get-token(color, button, 'solid'), 'font');
         border-color: transparent;
         background-color: map-get($disabled-props, 'background');
         color: map-get($disabled-props, 'font');
-        cursor: default;
+        cursor: not-allowed;
       }
     }
   }

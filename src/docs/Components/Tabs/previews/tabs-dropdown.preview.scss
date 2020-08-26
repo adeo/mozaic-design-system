@@ -1,0 +1,12 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.tabs';
+@import 'components/_c.select';
+
+.example {
+  @include set-font-face();
+
+  margin: $mu200;
+}

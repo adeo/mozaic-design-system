@@ -1,36 +1,32 @@
 .mc-pagination {
   $parent: &;
 
-  display: inline-flex;
-  justify-content: space-between;
   align-items: center;
-
-  &--light {
-    #{$parent}__button:first-child {
-      margin-right: $mu150;
-    }
-  }
+  display: flex;
+  justify-content: center;
 
   &__button {
     @include unstyle-button();
-    @include set-button-theme(get-token(color, button, 'solid-neutral'));
+    @include set-button-theme(get-token(color, button, 'solid-neutral'), true);
     @include set-button-layout();
 
     box-sizing: border-box;
+    height: 0;
     min-height: $mu300;
     min-width: $mu300;
 
-    @include set-from-screen("xl") {
+    @include set-from-screen('xl') {
       min-height: $mu200;
       min-width: $mu200;
     }
 
     &-icon {
-      width: $mu200;
       height: $mu200;
-      fill: $color_grey_000;
+      margin: 0;
+      width: $mu200;
+      fill: currentColor;
 
-      @include set-from-screen("xl") {
+      @include set-from-screen('xl') {
         width: $mu125;
         height: $mu125;
       }
@@ -48,18 +44,26 @@
   &__select {
     @include set-font-scale('05', 'm');
 
-    min-width: $mu900;
     padding:
-      calc(#{$mu075} - #{$select-border-width}) $mu075
-      calc(#{$mu075} + 0.125em - #{$select-border-width});
+      calc(#{$mu075} - #{$select-border-width})
+      magic-unit-rem(2.75, true)
+      calc(#{$mu075} + 0.125em - #{$select-border-width}) $mu075;
 
-
-    @include set-from-screen("xl") {
+    @include set-from-screen('xl') {
       @include set-font-scale('04', 'm');
 
       padding:
-        calc(#{$mu050} - 0.125em - #{$select-border-width}) $mu050
-        calc(#{$mu050} - #{$select-border-width});
+        calc(#{$mu050} - 0.125em - #{$select-border-width})
+        magic-unit-rem(2.25, true) calc(#{$mu050} - #{$select-border-width})
+        $mu050;
+    }
+  }
+
+  &--light {
+    #{$parent}__button {
+      &:first-child {
+        margin-right: $mu150;
+      }
     }
   }
 }

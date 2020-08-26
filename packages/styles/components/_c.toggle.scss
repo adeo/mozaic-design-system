@@ -11,6 +11,7 @@
     @include set-font-scale('05', 'xs');
     @include set-toggle-size('m');
 
+    box-sizing: border-box;
     display: inline-block;
     white-space: nowrap;
     cursor: pointer;
@@ -52,10 +53,12 @@
 
       :disabled + & {
         background-color: $color-toggle-disabled-background;
+        cursor: not-allowed;
       }
 
       :disabled:checked + & {
         background-color: $color-toggle-disabled-checked-background;
+        cursor: not-allowed;
       }
     }
 
@@ -75,11 +78,13 @@
       :disabled + & {
         border-color: $color-toggle-disabled-background;
         background-color: $color-toggle-disabled-circle;
+        cursor: not-allowed;
       }
 
       :disabled:checked + & {
         border-color: $color-toggle-disabled-checked-background;
         background-color: $color-toggle-disabled-checked-circle;
+        cursor: not-allowed;
       }
     }
 
@@ -88,19 +93,9 @@
     }
   }
 
-  &__state {
-    position: relative;
-  }
-
-  &__on,
-  &__off {
-    position: absolute;
-    left: $mu025;
-  }
-
   :not(:checked) + &__label &__on,
   :checked + &__label &__off {
-    visibility: hidden;
+    @include set-hidden-input();
   }
 
   @include mod-toggle-sizes();

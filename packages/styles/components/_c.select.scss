@@ -1,18 +1,13 @@
 /* mqp:start */
 .mc-select {
   @include reset-input;
-  @include set-font-scale('05');
-  @include select-background-arrow();
+  @include set-select-size($select-default-size);
 
   border: $select-border-width solid $color-input-border;
   border-radius: $select-border-radius;
   color: $color-input-text;
-  width: 100%;
-  // remove border height and center baseline optically
-  padding:
-    calc(#{$mu075} - 0.125em - #{$select-border-width}) $mu075
-    calc(#{$mu075} + 0.125em - #{$select-border-width});
   transition: border-color ease 200ms;
+  width: 100%;
 
   &::-ms-expand {
     display: none;
@@ -38,7 +33,7 @@
 
     border-color: $color-input-disabled-border;
     color: $color-input-placeholder;
-    cursor: default;
+    cursor: not-allowed;
   }
 
   &.is-invalid {
@@ -47,6 +42,14 @@
 
   &.is-valid {
     border-color: $color-input-valid-border;
+  }
+
+  @each $size, $props in $select-sizes {
+    &--#{$size} {
+      @include modify-from-screens($major-screens) {
+        @include set-select-size($props);
+      }
+    }
   }
 }
 

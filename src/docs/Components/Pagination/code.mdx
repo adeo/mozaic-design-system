@@ -8,7 +8,7 @@ order: 2
 ```scss
 @import 'settings-tools/_all-settings';
 @import 'components/_c.pagination';
-@import 'components/_c.select'; (Optionnal)
+@import 'components/_c.select'; // (Optionnal)
 ```
 
 ## Default Pagination
@@ -16,22 +16,26 @@ order: 2
 
 ```html
 <div class="mc-pagination">
-  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+  <a href="#" class="mc-pagination__button" aria-label="Previous page">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconLeftL" />
     </svg>
-  </button>
+  </a>
+
   <div class="mc-pagination__field">
     <select class="mc-select mc-pagination__select">
-      <option value="">Page 1</option>
+      <option value="1">Page 1 of 99</option>
+      <option value="2">Page 2 of 99</option>
+      <option value="3">Page x of 99</option>
+      <option value="99">Page 99 of 99</option>
     </select>
   </div>
 
-  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+  <a href="#" class="mc-pagination__button" aria-label="Next Page">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconRightL" />
     </svg>
-  </button>
+  </a>
 </div>
 ```
 
@@ -41,17 +45,17 @@ order: 2
 
 ```html
 <div class="mc-pagination mc-pagination--light">
-  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+  <a href="#" class="mc-pagination__button" aria-label="Previous page">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconLeftL" />
     </svg>
-  </button>
+  </a>
 
-  <button type="button" class="mc-pagination__button" aria-label="Pagination Navigation">
+  <a href="#" class="mc-pagination__button" aria-label="Next Page">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconRightL" />
     </svg>
-  </button>
+  </a>
 </div>
 ```
 
@@ -60,5 +64,5 @@ order: 2
 ## Accessibility and semantic
 
 <HintItem>
-  Use <code>aria-label="Previous page"</code>{' '}
+  Use <code>aria-label="the button purpose"</code> on every button of the pagination
 </HintItem>

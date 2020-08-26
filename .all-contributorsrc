@@ -1,0 +1,87 @@
+{
+  "projectName": "mozaic-design-system",
+  "projectOwner": "adeo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "C0ZEN",
+      "name": "Geoffrey Testelin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10194542?v=4",
+      "profile": "http://www.geoffreytestelin.com/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "hatem-benmansour-lmfr",
+      "name": "hatem-benmansour-lmfr",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52403372?v=4",
+      "profile": "https://github.com/hatem-benmansour-lmfr",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "corentin-verquin-lm",
+      "name": "corentin-verquin-lm",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/57133075?v=4",
+      "profile": "https://github.com/corentin-verquin-lm",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "bmondolot",
+      "name": "Mondolot Bertrand",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11473460?v=4",
+      "profile": "https://github.com/bmondolot",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "marineFabien",
+      "name": "Marine",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/49992054?v=4",
+      "profile": "https://github.com/marineFabien",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "jeanBptst",
+      "name": "Jean-Baptiste Lecomte",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25452975?v=4",
+      "profile": "https://github.com/jeanBptst",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "ThomasRumasLM",
+      "name": "ThomasRumasLM",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52402267?v=4",
+      "profile": "https://github.com/ThomasRumasLM",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "simonroger88",
+      "name": "simonroger88",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/67376885?v=4",
+      "profile": "https://github.com/simonroger88",
+      "contributions": [
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
