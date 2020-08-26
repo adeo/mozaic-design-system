@@ -44,9 +44,9 @@
   }
 
   &--right {
-    text-align: right;
-
     @include modify-from-screens($major-screens) {
+      text-align: right;
+
       &#{$parent}--underline::after {
         margin-left: auto;
         margin-right: 0;
@@ -55,9 +55,9 @@
   }
 
   &--left {
-    text-align: left;
-
     @include modify-from-screens($major-screens) {
+      text-align: left;
+
       &#{$parent}--underline::after {
         margin-left: 0;
         margin-right: auto;
