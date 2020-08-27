@@ -1,6 +1,6 @@
 # MOZAIC Design system
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -95,6 +95,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/simonroger88"><img src="https://avatars0.githubusercontent.com/u/67376885?v=4" width="100px;" alt=""/><br /><sub><b>simonroger88</b></sub></a><br /><a href="#ideas-simonroger88" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/MrCloud"><img src="https://avatars0.githubusercontent.com/u/486140?v=4" width="100px;" alt=""/><br /><sub><b>Florian Petit</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AMrCloud" title="Bug reports">🐛</a> <a href="#ideas-MrCloud" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
