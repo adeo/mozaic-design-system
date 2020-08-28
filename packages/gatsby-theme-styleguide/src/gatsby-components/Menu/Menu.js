@@ -7,6 +7,8 @@ import DesignerKitLink from '../DesignerKitLink'
 import withSiteMapData from '../SiteMapData'
 import { StaticQuery, graphql } from 'gatsby'
 import { parseLocation } from '../SiteMapData/tools'
+import { ControlMore16 } from '@mozaic-ds/icons/react'
+import { ControlLess16 } from '@mozaic-ds/icons/react'
 
 const Wrapper = styled.div`
   max-height: 100vh;
@@ -63,44 +65,33 @@ const MenuItemContainer = styled.div`
 const ShowChildrenButton = styled.button`
   border: none;
   background: none;
-  outline: none;
   cursor: pointer;
+  height: 1rem;
+  outline: none;
+  margin-top: -0.5rem;
+  padding: 0;
   position: absolute;
-  right: 2px;
-  height: 0.75rem;
-  width: 0.75rem;
+  right: 0;
   top: 50%;
-  margin-top: -0.375rem;
+  width: 1rem;
 
-  &::after,
-  &::before {
-    content: '';
+  .icon-open {
     display: block;
-    position: absolute;
-    background: #554f52;
   }
 
-  &::after {
-    height: 2px;
-    width: 0.75rem;
-    left: 0;
-    top: 50%;
-    margin-top: -1px;
-  }
-
-  &::before {
-    height: 0.75rem;
-    width: 2px;
-    top: 50%;
-    margin-top: -0.375rem;
-    left: 0.312rem;
+  .icon-close {
+    display: none;
   }
 
   ${({ isOpened }) => {
     if (isOpened) {
       return css`
-        &::before {
+        .icon-open {
           display: none;
+        }
+
+        .icon-close {
+          display: block;
         }
       `
     }
@@ -190,7 +181,8 @@ class Menu extends Component {
                       : () => this.openMenu(item.dirPath)
                   }
                 >
-                  &nbsp;
+                  <ControlMore16 className="icon-open" fill="#554f52" />
+                  <ControlLess16 className="icon-close" fill="#554f52" />
                 </ShowChildrenButton>
               )}
             </MenuItemContainer>

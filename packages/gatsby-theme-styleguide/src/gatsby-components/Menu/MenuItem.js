@@ -8,8 +8,9 @@ const MenuLink = styled(Link)`
   flex: 1;
   position: relative;
 
-  ${({ isPartOfCurrentlocation }) =>
+  ${({ isPartOfCurrentlocation, level }) =>
     isPartOfCurrentlocation &&
+    level === 3 &&
     css`
       font-weight: 600;
     `}
@@ -19,7 +20,8 @@ const MenuLink = styled(Link)`
       return css`
         font-size: 1.25rem;
         font-weight: bold;
-        padding: 0.625rem 0 0.5625rem;
+        line-height: 1.15;
+        padding: 0.8125rem 0 0.75rem;
       `
     }
 
@@ -37,8 +39,8 @@ const MenuLink = styled(Link)`
 
     if (level === 3) {
       return css`
-        font-size: 0.875;
-        padding: 0.25rem 1rem 0.3125rem 1.5rem;
+        font-size: 0.875rem;
+        padding: 0.4375rem 1rem 0.3125rem 1.5rem;
 
         &:active,
         &:focus,

@@ -121,7 +121,7 @@ class Search extends Component {
           type="text"
           autoFocus
           onChange={this.search}
-          placeholder={'Search'}
+          placeholder={`I'm looking for...`}
         />
         <ResultWrapper>
           <ResultList />

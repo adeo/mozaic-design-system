@@ -7,8 +7,7 @@ import MenuVersionSelect from './MenuVersionSelect'
 import { ArrowArrowBottom16 } from '@mozaic-ds/icons/react'
 
 const Header = styled.div`
-  height: 4.062rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   position: relative;
 
   a,
