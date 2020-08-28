@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react'
-
 import copyToClipBoard from '../../utils/copy-to-clipboard'
 import './tableofcontents.scss'
 
@@ -34,7 +33,7 @@ export default class TableOfContents extends PureComponent {
     const scrollValue =
       document.getElementById('scroller').scrollTop +
       document.getElementById('page_tabs_menu').clientHeight +
-      10
+      20
 
     const anchors = document.querySelectorAll('.anchor-toc')
 
@@ -48,7 +47,10 @@ export default class TableOfContents extends PureComponent {
 
       if (scrollValue >= position && scrollValue < nextPosition) {
         document.querySelectorAll('.toc__link').forEach(link => {
-          link.classList.remove('toc__link--active')
+          if (link.classList.contains('toc__link--active')) {
+            link.classList.remove('toc__link--active')
+            link.blur()
+          }
         })
 
         document
@@ -65,7 +67,7 @@ export default class TableOfContents extends PureComponent {
 
     const pageTabsHeight = this.getPageTabsHeight()
     const tocDiv = document.querySelector('#toc > div')
-    if (tocDiv) tocDiv.style.top = pageTabsHeight + 'px'
+    if (tocDiv) tocDiv.style.top = pageTabsHeight + 11 + 'px'
 
     const hash = window.location.href.match(/#[\w-_]+$/)
     if (hash) {
