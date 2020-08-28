@@ -3,20 +3,38 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Search from '../Search/Search'
 import { Link } from 'gatsby'
+import MenuVersionSelect from './MenuVersionSelect'
+import { ArrowArrowBottom16 } from '@mozaic-ds/icons/react'
 
 const Header = styled.div`
   height: 4.062rem;
   margin-bottom: 2rem;
   position: relative;
 
-  span {
-    bottom: 0.25rem;
+  a,
+  svg {
+    display: block;
+  }
+
+  .version-number {
+    color: #000;
     font-size: 1rem;
     font-style: italic;
-    position: absolute;
-    left: 38%;
-    color: #000;
+
+    & > svg {
+      display: inline-block;
+      margin-left: 0.3125rem;
+      position: relative;
+      vertical-align: middle;
+    }
   }
+`
+
+const VersionWrapper = styled.div`
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  right: 0;
 `
 
 const filterCurrentRelease = githubReleases =>
@@ -40,7 +58,13 @@ const MenuHeader = ({ siteTitle, githubReleases }) => (
           <path d="M65 0v65h-65v-65zm-34 54.68h-27.9v7.22h27.9zm23.84-11.49a7.74 7.74 0 0 0-8.29 6.33 7.92 7.92 0 0 1-12.5 4.55v7.83h27.85v-11.28a7.75 7.75 0 0 0-7.06-7.43zm7.06-9.14h-27.85v13.95a4.76 4.76 0 0 0 4.78 4.64 4.64 4.64 0 0 0 4.72-3.85 9.89 9.89 0 0 1 2.17-4.54 10.93 10.93 0 0 1 16.18-.79zm-30.9 10.32h-27.9v7.21h27.9zm0-10.32h-27.9v7.23h27.9zm30.9-30.95h-27.85v27.9h27.85zm-6.19 3.09l-12.38 21.67h-3.09l12.38-21.67zm-44.88 4.64h-3.09v12.38h3.09v-7a2.33 2.33 0 0 1 4.65 0v7h3.09v-7a2.32 2.32 0 0 1 4.64 0v7h3.1v-7a5.38 5.38 0 0 0-3.1-4.87 5.19 5.19 0 0 0-4.64 0 5.43 5.43 0 0 0-1.57 1.13 5.39 5.39 0 0 0-1.54-1.09 5.21 5.21 0 0 0-4.65 0z" />
         </svg>
       </Link>
-      <span>{getCurrentRelease(githubReleases)}</span>
+      <VersionWrapper>
+        <MenuVersionSelect githubReleases={githubReleases} />
+        <div className="version-number">
+          {getCurrentRelease(githubReleases)}
+          <ArrowArrowBottom16 fill="currentColor" />
+        </div>
+      </VersionWrapper>
     </Header>
     <Search />
   </>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
@@ -18,15 +18,15 @@ const MenuLink = styled(Link)`
     if (level === 1) {
       return css`
         font-size: 1.25rem;
-        font-weight: 600;
-        padding: 0.375rem 0 0.562rem;
+        font-weight: bold;
+        padding: 0.625rem 0 0.5625rem;
       `
     }
 
     if (level === 2) {
       return css`
-        font-size: 1.25rem;
-        padding: 0.125rem 0 0.312rem;
+        font-size: 1rem;
+        padding: 0.5625rem 0 0.5rem;
 
         &:focus,
         &:hover {
@@ -37,8 +37,8 @@ const MenuLink = styled(Link)`
 
     if (level === 3) {
       return css`
-        font-size: 1rem;
-        padding: 0.375rem 1.5rem;
+        font-size: 0.875;
+        padding: 0.25rem 1rem 0.3125rem 1.5rem;
 
         &:active,
         &:focus,
@@ -57,24 +57,42 @@ const MenuLink = styled(Link)`
     `}
 `
 
-const MenuItem = ({ to, content, level, isPartOfCurrentlocation }) =>
-  to ? (
-    <MenuLink
-      to={to}
-      level={level}
-      isPartOfCurrentlocation={isPartOfCurrentlocation}
-    >
-      {content}
-    </MenuLink>
-  ) : (
-    <p>{content}</p>
-  )
+class MenuItem extends Component {
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+    let menuItem
+    if (this.props.to) {
+      menuItem = (
+        <MenuLink
+          to={this.props.to}
+          level={this.props.level}
+          isPartOfCurrentlocation={this.props.isPartOfCurrentlocation}
+          onClick={e => this.handleClick(this.props.hasChildren, e)}
+        >
+          {this.props.content}
+        </MenuLink>
+      )
+    } else {
+      menuItem = <p>{this.props.content}</p>
+    }
+
+    return menuItem
+  }
+
+  handleClick = (hasChildren, e) => {
+    if (hasChildren) e.preventDefault()
+  }
+}
 
 MenuItem.propTypes = {
   to: PropTypes.string,
   content: PropTypes.string.isRequired,
   level: PropTypes.number.isRequired,
   isPartOfCurrentlocation: PropTypes.bool,
+  hasChildren: PropTypes.bool,
 }
 
 export { MenuItem }

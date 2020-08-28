@@ -7,10 +7,9 @@ import DesignerKitLink from '../DesignerKitLink'
 import withSiteMapData from '../SiteMapData'
 import { StaticQuery, graphql } from 'gatsby'
 import { parseLocation } from '../SiteMapData/tools'
-import MenuVersionSelect from './MenuVersionSelect'
 
 const Wrapper = styled.div`
-  height: calc(100vh - 6rem);
+  max-height: 100vh;
   overflow-y: auto;
   padding: 2.5rem 1.5rem 0;
 `
@@ -33,11 +32,10 @@ const ListItem = styled.li`
     css`
       &:not(:last-child) {
         border-bottom: 1px solid #000;
-        padding-bottom: 1rem;
+        padding-bottom: 0.625rem;
       }
-
       & + [class^='Menu__ListItem'] {
-        padding-top: 1rem;
+        padding-top: 0.5rem;
       }
     `}
 `
@@ -51,9 +49,10 @@ const MenuItemContainer = styled.div`
       return css`
         &:not(:only-child) {
           border-bottom: 1px solid black;
+          padding-bottom: 0.5rem;
 
           & + div {
-            padding-top: 1.188rem;
+            padding-top: 0.5rem;
           }
         }
       `
@@ -166,12 +165,21 @@ class Menu extends Component {
             level={item.level}
             isOpened={item.isOpened}
           >
-            <MenuItemContainer level={item.level} isOpened={item.isOpened}>
+            <MenuItemContainer
+              level={item.level}
+              isOpened={item.isOpened}
+              onClick={
+                item.isOpened
+                  ? () => this.closeMenu(item.dirPath)
+                  : () => this.openMenu(item.dirPath)
+              }
+            >
               <MenuItem
                 to={item.slug}
                 content={item.title}
                 level={item.level}
                 isPartOfCurrentlocation={item.isPartOfCurrentlocation}
+                hasChildren={item.content.length > 0}
               />
               {item.content.length > 0 && (
                 <ShowChildrenButton
@@ -222,7 +230,6 @@ class Menu extends Component {
                   </DesignerKitLink>
                 </NavContainer>
               </Wrapper>
-              <MenuVersionSelect githubReleases={data.allGithubRelease.edges} />
             </>
           )
         }}
