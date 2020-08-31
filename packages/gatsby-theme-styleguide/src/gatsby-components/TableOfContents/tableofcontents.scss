@@ -1,11 +1,14 @@
 /* Table of contents */
 .toc {
-  margin: 0;
   flex: 1;
-  order: 0;
-  height: auto;
-  min-width: 13rem;
-  max-width: 18rem;
+  margin: 0;
+  order: -1;
+
+  @media screen and (min-width: 1280px) {
+    order: initial;
+    min-width: 13rem;
+    max-width: 18rem;
+  }
 
   &__wrapper {
     padding-right: 1.5rem;
