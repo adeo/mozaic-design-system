@@ -9,7 +9,7 @@ const Tabs = styled.div`
   z-index: 1;
   top: 0;
   border-bottom: solid 1px #000;
-  background: #e6e6e6;
+  background: white;
 `
 
 const TabsWrapper = styled.div`

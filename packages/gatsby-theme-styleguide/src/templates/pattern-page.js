@@ -49,7 +49,6 @@ const PageContent = styled.div`
 `
 
 const Header = styled(Container)`
-  background: #e6e6e6;
   border-bottom: solid 1px black;
 
   ${({ hasMainCategory }) =>
@@ -165,15 +164,21 @@ export const query = graphql`
             title
             order
             links {
-              vue
-              freemarker
-              react
+              vue {
+                status
+                link
+              }
+              freemarker {
+                status
+                link
+              }
             }
             status {
               sketch
               scss
               react
               vue
+              figma
             }
             description
           }
