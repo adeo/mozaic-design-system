@@ -13,12 +13,15 @@
   }
 
   &__wrapper {
-    border-left: 1px solid #887f87;
-    max-height: 90vh;
-    overflow-y: auto;
     padding: 1rem;
-    position: sticky;
-    top: 0;
+
+    @media screen and (min-width: 1280px) {
+      border-left: 1px solid #887f87;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: sticky;
+      top: 0;
+    }
   }
 
   &__title {

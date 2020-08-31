@@ -149,7 +149,7 @@ export default ({ data, location }) => {
   const hasTabs = samePageTabs.length > 1
   const hasMainCategory = mainCategory.length > 3
 
-  function handleMenu(e) {
+  const handleMenu = () => {
     if (document.body.classList.contains('nav-open')) {
       document.body.classList.remove('nav-open')
       return false
