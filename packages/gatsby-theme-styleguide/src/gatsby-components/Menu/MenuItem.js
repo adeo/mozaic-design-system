@@ -62,6 +62,12 @@ const MenuLink = styled(Link)`
 class MenuItem extends Component {
   constructor(props) {
     super(props)
+
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  handleClick(e) {
+    if (this.props.hasChildren) e.preventDefault()
   }
 
   render() {
@@ -72,7 +78,7 @@ class MenuItem extends Component {
           to={this.props.to}
           level={this.props.level}
           isPartOfCurrentlocation={this.props.isPartOfCurrentlocation}
-          onClick={e => this.handleClick(this.props.hasChildren, e)}
+          onClick={this.handleClick}
         >
           {this.props.content}
         </MenuLink>
@@ -82,10 +88,6 @@ class MenuItem extends Component {
     }
 
     return menuItem
-  }
-
-  handleClick = (hasChildren, e) => {
-    if (hasChildren) e.preventDefault()
   }
 }
 
