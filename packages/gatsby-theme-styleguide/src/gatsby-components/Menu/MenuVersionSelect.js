@@ -3,21 +3,19 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const SelectContainer = styled.div`
-  background: #222020;
-  bottom: 0;
+  height: 100%;
   left: 0;
-  padding: 2rem 1.5rem;
   position: absolute;
+  top: 0;
   width: 100%;
 
   select {
     display: block;
-    border: none;
-    border-radius: 0.25rem;
-    background: #fff;
+    cursor: pointer;
+    height: 100%;
+    opacity: 0;
     width: 100%;
-    font-size: 100%;
-    padding: 0.312rem 1.125rem 0.375rem 0.25rem;
+    z-index: 2;
   }
 `
 

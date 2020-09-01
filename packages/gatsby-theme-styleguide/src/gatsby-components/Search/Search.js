@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 const SearchWrapper = styled.div`
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   position: relative;
 `
 
@@ -121,7 +121,7 @@ class Search extends Component {
           type="text"
           autoFocus
           onChange={this.search}
-          placeholder={'Search'}
+          placeholder={`I'm looking for...`}
         />
         <ResultWrapper>
           <ResultList />
