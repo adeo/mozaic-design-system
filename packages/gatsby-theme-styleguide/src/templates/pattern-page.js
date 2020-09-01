@@ -9,6 +9,8 @@ import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
 import TableOfContents from '../gatsby-components/TableOfContents'
 import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
+import { DisplayDisplayList32 } from '@mozaic-ds/icons/react'
+import { ControlCross32 } from '@mozaic-ds/icons/react'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) => separator};
@@ -16,14 +18,18 @@ const FullWidthContainer = styled.div`
 
 const PageContentWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+  }
 `
 
 const PageContent = styled.div`
   flex: 1;
-  min-width: ${MagicUnit * 30}rem;
 
-  @media screen and (min-width: 1240px) {
+  @media screen and (min-width: 1280px) {
+    min-width: ${MagicUnit * 30}rem;
     flex: 0 0 ${MagicUnit * 52}rem;
   }
 
@@ -60,6 +66,41 @@ const Header = styled(Container)`
       : css`
           padding: ${MagicUnit * 3}rem;
         `};
+`
+
+const MenuTriggerButton = styled.button`
+  background: #e6e6e6;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 2rem;
+  z-index: 2000;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+
+  .triggerMenu {
+    &__open {
+      display: block;
+
+      .nav-open & {
+        display: none;
+      }
+    }
+
+    &__close {
+      display: none;
+
+      .nav-open & {
+        display: block;
+      }
+    }
+  }
 `
 
 const HeaderTitle = styled.h1`
@@ -108,10 +149,34 @@ export default ({ data, location }) => {
   const hasTabs = samePageTabs.length > 1
   const hasMainCategory = mainCategory.length > 3
 
+  const handleMenu = () => {
+    if (document.body.classList.contains('nav-open')) {
+      document.body.classList.remove('nav-open')
+      return false
+    }
+
+    document.body.classList.add('nav-open')
+  }
+
   return (
     <Layout location={location} tableOfContents={tableOfContents}>
       <FullWidthContainer separator>
         <Header hasMainCategory={hasMainCategory}>
+          <MenuTriggerButton
+            className="triggerMenu"
+            type="button"
+            title="Open Menu"
+            onClick={handleMenu}
+          >
+            <DisplayDisplayList32
+              className="triggerMenu__open"
+              fill="currentColor"
+            />
+            <ControlCross32
+              className="triggerMenu__close"
+              fill="currentColor"
+            />
+          </MenuTriggerButton>
           {hasMainCategory && (
             <HeaderCategory>{mainCategory[1]}</HeaderCategory>
           )}
