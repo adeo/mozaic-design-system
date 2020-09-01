@@ -3,36 +3,38 @@ import styled from 'styled-components'
 import { checkStatus } from '../../utils/status'
 
 const Flag = styled.span`
-  background: #fff;
-  border: solid 1px transparent;
-  border-radius: 2px;
   font-size: 0.875rem;
-  line-height: 1;
-  padding: 0.2rem 0.5rem 0.3rem;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+  font-weight: bold;
 
   ${({ status }) => {
     return status === 'stable'
       ? `
-        border-color: #58e3b7;
-        color: #328269;
+        color: #41a017;
     `
       : status === 'wip'
       ? `
-        border-color: #e3cb58;
-        color: #a58e1b;
+        color: #c86f21;
     `
       : /*bêta*/ `
-        border-color: #e35876;
-        color: #82325e;
+        color: #b42a27;
     `
   }}
 `
+const capitalizeFirstLetter = word =>
+  word.charAt(0).toUpperCase() + word.slice(1)
 
 const StatusFlag = ({ status }) => {
   if (!status) return false
   const authorizedStatus = checkStatus(status)
+
   if (!authorizedStatus) return false
-  return <Flag status={authorizedStatus}>{authorizedStatus}</Flag>
+  const statusFormatted =
+    authorizedStatus === 'wip'
+      ? authorizedStatus.toUpperCase()
+      : capitalizeFirstLetter(authorizedStatus)
+  return <Flag status={authorizedStatus}>{statusFormatted}</Flag>
 }
 
 export default StatusFlag

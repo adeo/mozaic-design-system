@@ -9,6 +9,7 @@ import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
 import TableOfContents from '../gatsby-components/TableOfContents'
 import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
+import JSImplementation from '../gatsby-components/JSImplementation'
 import { DisplayDisplayList32 } from '@mozaic-ds/icons/react'
 import { ControlCross32 } from '@mozaic-ds/icons/react'
 
@@ -54,7 +55,6 @@ const PageContent = styled.div`
 `
 
 const Header = styled(Container)`
-  background: #e6e6e6;
   border-bottom: solid 1px black;
 
   ${({ hasMainCategory }) =>
@@ -145,6 +145,7 @@ export default ({ data, location }) => {
   ).node.frontmatter
   const parentTitle = parentFrontmatter.title
   const parentStatus = parentFrontmatter.status
+  const parentLinks = parentFrontmatter.links
   const mainCategory = post.fields.slug ? post.fields.slug.split('/') : []
   const hasTabs = samePageTabs.length > 1
   const hasMainCategory = mainCategory.length > 3
@@ -182,6 +183,7 @@ export default ({ data, location }) => {
           )}
           <HeaderTitle>{parentTitle}</HeaderTitle>
           <PatternStatusGroup status={parentStatus} />
+          <JSImplementation links={parentLinks} />
         </Header>
       </FullWidthContainer>
       {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
@@ -226,11 +228,22 @@ export const query = graphql`
           frontmatter {
             title
             order
+            links {
+              vue {
+                status
+                link
+              }
+              freemarker {
+                status
+                link
+              }
+            }
             status {
               sketch
               scss
               react
               vue
+              figma
             }
             description
           }

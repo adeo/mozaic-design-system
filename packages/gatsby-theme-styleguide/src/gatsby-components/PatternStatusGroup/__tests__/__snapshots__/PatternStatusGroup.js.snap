@@ -1,40 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PatternStatusGroup /> render correctly 1`] = `
-.c2 {
-  background: #fff;
-  border: solid 1px transparent;
-  border-radius: 2px;
-  font-size: 0.875rem;
-  line-height: 1;
-  padding: 0.2rem 0.5rem 0.3rem;
-  border-color: #58e3b7;
-  color: #328269;
-}
-
 .c3 {
-  background: #fff;
-  border: solid 1px transparent;
-  border-radius: 2px;
   font-size: 0.875rem;
-  line-height: 1;
-  padding: 0.2rem 0.5rem 0.3rem;
-  border-color: #e3cb58;
-  color: #a58e1b;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+  font-weight: bold;
+  color: #41a017;
 }
 
 .c4 {
-  background: #fff;
-  border: solid 1px transparent;
-  border-radius: 2px;
   font-size: 0.875rem;
-  line-height: 1;
-  padding: 0.2rem 0.5rem 0.3rem;
-  border-color: #e35876;
-  color: #82325e;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+  font-weight: bold;
+  color: #c86f21;
 }
 
-.c0 {
+.c5 {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+  font-weight: bold;
+  color: #b42a27;
+}
+
+.c1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -46,58 +37,64 @@ exports[`<PatternStatusGroup /> render correctly 1`] = `
   margin-right: 1rem;
 }
 
-.c1 {
+.c2 {
   color: black;
-  font-weight: bold;
-  margin-right: 0.5rem;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.c0 {
+  display: inline-block;
 }
 
 <div
-  className="patternstatusflags"
+  className="c0"
 >
   <span
-    className="c0"
+    className="c1"
   >
-    <span
-      className="c1"
-    >
-      scss
-    </span>
-     
     <span
       className="c2"
     >
-      stable
+      scss
+      :
     </span>
-  </span>
-  <span
-    className="c0"
-  >
-    <span
-      className="c1"
-    >
-      figma
-    </span>
-     
     <span
       className="c3"
     >
-      wip
+      Stable
     </span>
   </span>
   <span
-    className="c0"
+    className="c1"
   >
     <span
-      className="c1"
+      className="c2"
     >
-      sketch
+      figma
+      :
     </span>
-     
     <span
       className="c4"
     >
-      bêta
+      WIP
+    </span>
+  </span>
+  <span
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      sketch
+      :
+    </span>
+    <span
+      className="c5"
+    >
+      Bêta
     </span>
   </span>
 </div>

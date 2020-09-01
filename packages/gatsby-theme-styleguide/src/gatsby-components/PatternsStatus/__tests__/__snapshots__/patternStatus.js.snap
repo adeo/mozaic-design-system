@@ -2,36 +2,27 @@
 
 exports[`Pattern Status Component render correctly 1`] = `
 .c5 {
-  background: #fff;
-  border: solid 1px transparent;
-  border-radius: 2px;
   font-size: 0.875rem;
-  line-height: 1;
-  padding: 0.2rem 0.5rem 0.3rem;
-  border-color: #e35876;
-  color: #82325e;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+  font-weight: bold;
+  color: #b42a27;
 }
 
 .c6 {
-  background: #fff;
-  border: solid 1px transparent;
-  border-radius: 2px;
   font-size: 0.875rem;
-  line-height: 1;
-  padding: 0.2rem 0.5rem 0.3rem;
-  border-color: #e3cb58;
-  color: #a58e1b;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+  font-weight: bold;
+  color: #c86f21;
 }
 
 .c7 {
-  background: #fff;
-  border: solid 1px transparent;
-  border-radius: 2px;
   font-size: 0.875rem;
-  line-height: 1;
-  padding: 0.2rem 0.5rem 0.3rem;
-  border-color: #58e3b7;
-  color: #328269;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+  font-weight: bold;
+  color: #41a017;
 }
 
 .c0 {
@@ -182,7 +173,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -202,7 +193,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -262,7 +253,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -282,7 +273,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -421,7 +412,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -441,7 +432,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -501,7 +492,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -521,7 +512,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             <span
               className="c5"
             >
-              bêta
+              Bêta
             </span>
           </td>
           <td>
@@ -574,7 +565,7 @@ exports[`Pattern Status Component render correctly 1`] = `
     <span
       className="c6"
     >
-      wip
+      WIP
     </span>
     <b>
         Work In Progress
@@ -585,7 +576,7 @@ exports[`Pattern Status Component render correctly 1`] = `
     <span
       className="c5"
     >
-      bêta
+      Bêta
     </span>
     <b>
         Bêta
@@ -596,7 +587,7 @@ exports[`Pattern Status Component render correctly 1`] = `
     <span
       className="c7"
     >
-      stable
+      Stable
     </span>
     <b>
         Stable

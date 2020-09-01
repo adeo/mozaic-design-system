@@ -6,22 +6,19 @@ describe(`<StatusFlag>`, () => {
   it(`should render correctly with a wip status`, () => {
     const tree = renderer.create(<StatusFlag status="wip" />).toJSON()
     expect(tree).toMatchSnapshot()
-    expect(tree).toHaveStyleRule('border', 'solid 1px transparent')
-    expect(tree).toHaveStyleRule('border-color', '#e3cb58')
+    expect(tree).toHaveStyleRule('color', '#c86f21')
   })
 
   it(`should render correctly with a bêta status`, () => {
     const tree = renderer.create(<StatusFlag status="bêta" />).toJSON()
     expect(tree).toMatchSnapshot()
-    expect(tree).toHaveStyleRule('border', 'solid 1px transparent')
-    expect(tree).toHaveStyleRule('border-color', '#e35876')
+    expect(tree).toHaveStyleRule('color', '#b42a27')
   })
 
   it(`should render correctly with a stable status`, () => {
     const tree = renderer.create(<StatusFlag status="stable" />).toJSON()
     expect(tree).toMatchSnapshot()
-    expect(tree).toHaveStyleRule('border', 'solid 1px transparent')
-    expect(tree).toHaveStyleRule('border-color', '#58e3b7')
+    expect(tree).toHaveStyleRule('color', '#41a017')
   })
 
   it(`should should not render anything using an unsuported status prop`, () => {
