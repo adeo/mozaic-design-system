@@ -7,11 +7,5 @@
 .example {
   display: flex;
   justify-content: center;
-  margin: 2rem;
-  margin-bottom: 6rem;
+  margin: $mu200;
 }
-
-.example-1 {
-  margin: 2rem 0;
-}
-

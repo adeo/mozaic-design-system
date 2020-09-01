@@ -2,8 +2,12 @@
 
 @include import-font-families();
 
-@import 'components/_c.file-uploader';
+@import 'components/_c.tabs';
 
 .example {
-  margin: $mu150;
+  margin: $mu200;
+
+  &__item {
+    margin: $mu175;
+  }
 }

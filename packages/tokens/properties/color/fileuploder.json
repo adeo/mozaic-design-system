@@ -16,7 +16,7 @@
         "value": "{color.success.500.value}"
       },
       "alert": {
-        "value": "{color.danger.500.value}"
+        "value": "{color.danger.600.value}"
       }
     }
   }

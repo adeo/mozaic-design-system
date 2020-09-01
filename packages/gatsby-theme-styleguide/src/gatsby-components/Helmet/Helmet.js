@@ -20,6 +20,10 @@ export default ({ ...props }) => {
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
       </script>
+      <script
+        src="https://embed.small.chat/T4R6RCZFAG0182TS10L8.js"
+        async
+      ></script>
     </Helmet>
   )
 }
