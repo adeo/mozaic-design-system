@@ -47,7 +47,7 @@ const JSImplementation = ({ links }) => {
           {value.link !== '' ? (
             <StatusText>
               <StatusName>{key}</StatusName>
-              <Link href={value.link}>
+              <Link target="_blank" href={value.link}>
                 <IconLibrairy name="external-link" size="12" fill="#999999" />
               </Link>
             </StatusText>
