@@ -90,7 +90,7 @@ public class StyleDictionaryColor {
     public static let colorFieldsHelp = UIColor(red: 0.435, green: 0.404, blue: 0.424, alpha:1)
     public static let colorFieldsLabel = UIColor(red: 0.235, green: 0.216, blue: 0.220, alpha:1)
     public static let colorFieldsRequirement = UIColor(red: 0.435, green: 0.404, blue: 0.424, alpha:1)
-    public static let colorFileuploaderAlert = UIColor(red: 0.875, green: 0.220, blue: 0.169, alpha:1)
+    public static let colorFileuploaderAlert = UIColor(red: 0.706, green: 0.165, blue: 0.153, alpha:1)
     public static let colorFileuploaderFilesDelete = UIColor(red: 0.827, green: 0.824, blue: 0.839, alpha:1)
     public static let colorFileuploaderFilesList = UIColor(red: 0.933, green: 0.933, blue: 0.941, alpha:1)
     public static let colorFileuploaderFont = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha:1)
