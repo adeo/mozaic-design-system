@@ -3,10 +3,12 @@ import styled from 'styled-components'
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 import IconLibrairy from '../IconLibrairy'
 import StatusFlag from '../StatusFlag'
+import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
 
 const StatusItem = styled.span`
   align-items: center;
   display: inline-flex;
+  align-items: baseline;
   margin-right: ${MagicUnit}rem;
 `
 
@@ -16,6 +18,7 @@ const StatusText = styled.div`
   font-size: 1rem;
   line-height: 1.5;
   text-transform: capitalize;
+  display: flex;
 `
 
 const StatusName = styled.span`
@@ -30,6 +33,8 @@ const Link = styled.a`
   color: black;
   font-weight: bold;
   margin: 0 0.25rem;
+  display: flex;
+  align-items: center;
 `
 
 const JSImplementation = ({ links }) => {
@@ -47,8 +52,8 @@ const JSImplementation = ({ links }) => {
           {value.link !== '' ? (
             <StatusText>
               <StatusName>{key}</StatusName>
-              <Link target="_blank" href={value.link}>
-                <IconLibrairy name="external-link" size="12" fill="#999999" />
+              <Link target="__blank" href={value.link}>
+                <DisplayExternalLink16 fill="#999999" />
               </Link>
             </StatusText>
           ) : (
