@@ -294,6 +294,13 @@ $color-star-empty: #d3d2d6 !default;
 $color-star-focus: #25a8d0 !default;
 $color-star-full: #fc961e !default;
 $color-star-hover: #ffc17d !default;
+$color-tabs-background: #ffffff !default;
+$color-tabs-shadow: #000000 !default;
+$color-tabs-default: #222020 !default;
+$color-tabs-hover: #41a017 !default;
+$color-tabs-disabled: #6f676c !default;
+$color-tabs-active: #78be20 !default;
+$color-tabs-active-disabled: #cbe3b5 !default;
 $color-tag-text-light-background: #ffffff !default;
 $color-tag-text-light-border: #554f52 !default;
 $color-tag-text-light-text: #554f52 !default;
@@ -920,6 +927,15 @@ $tokens: (
       'focus': $color-star-focus,
       'full': $color-star-full,
       'hover': $color-star-hover
+    ),
+    'tabs': (
+      'background': $color-tabs-background,
+      'shadow': $color-tabs-shadow,
+      'default': $color-tabs-default,
+      'hover': $color-tabs-hover,
+      'disabled': $color-tabs-disabled,
+      'active': $color-tabs-active,
+      'active-disabled': $color-tabs-active-disabled
     ),
     'tag': (
       'text': (
