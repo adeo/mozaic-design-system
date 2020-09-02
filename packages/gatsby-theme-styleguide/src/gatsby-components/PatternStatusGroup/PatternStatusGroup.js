@@ -6,7 +6,7 @@ import { checkPlatform, checkStatus } from '../../utils/status'
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 
 const StatusItem = styled.span`
-  align-items: center;
+  align-items: baseline;
   display: inline-flex;
   margin-right: ${MagicUnit}rem;
 `

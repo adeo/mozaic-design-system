@@ -88,13 +88,16 @@ class PageTabs extends PureComponent {
   render() {
     const { samePageTabs } = this.props
     const cleanTabs = this.orderPageTab(samePageTabs)
-
     return (
       <Tabs id="page_tabs_menu">
         <TabsWrapper>
           {cleanTabs.map(node => (
             <TabItem key={node.slug}>
-              <TabLink to={node.slug} activeClassName="is-active">
+              <TabLink
+                to={node.slug}
+                activeClassName="is-active"
+                state={{ isCode: node.title === 'Code' }}
+              >
                 {node.title}
               </TabLink>
             </TabItem>

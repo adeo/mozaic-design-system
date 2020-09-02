@@ -7,11 +7,11 @@ import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 import Container from '../gatsby-components/Container'
 import Layout from '../gatsby-components/layout'
 import PageTabs from '../gatsby-components/PageTabs'
+import CalloutVue from '../gatsby-components/CalloutVue'
 import TableOfContents from '../gatsby-components/TableOfContents'
 import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
 import JSImplementation from '../gatsby-components/JSImplementation'
-import { DisplayDisplayList32 } from '@mozaic-ds/icons/react'
-import { ControlCross32 } from '@mozaic-ds/icons/react'
+import { DisplayDisplayList32, ControlCross32 } from '@mozaic-ds/icons/react'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) => separator};
@@ -149,7 +149,7 @@ export default ({ data, location }) => {
   const mainCategory = post.fields.slug ? post.fields.slug.split('/') : []
   const hasTabs = samePageTabs.length > 1
   const hasMainCategory = mainCategory.length > 3
-
+  const hasVueLink = parentLinks && parentLinks.vue && parentLinks.vue.link
   const handleMenu = () => {
     if (document.body.classList.contains('nav-open')) {
       document.body.classList.remove('nav-open')
@@ -191,6 +191,9 @@ export default ({ data, location }) => {
       <PageContentWrapper>
         <PageContent>
           <Container>
+            {location.state && location.state.isCode && hasVueLink && (
+              <CalloutVue link={parentLinks.vue.link} />
+            )}
             <MDXRenderer>{post.body}</MDXRenderer>
           </Container>
         </PageContent>
