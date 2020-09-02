@@ -5,22 +5,30 @@ import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
 const VueJSBlock = styled.div`
   display: flex;
   align-items: center;
-  background-color: '#25a8d0';
+  background-color: '#ecfcfd';
   border: 1px solid rgb(37, 168, 208);
-  padding: 1.375rem 1.5rem;
+  padding: 1.375rem 0 1.125rem 1.5rem;
   color: rgb(30, 95, 130);
   font-size: 1rem;
+  margin-bottom: 2rem;
 `
 
 const Link = styled.a`
   display: flex;
-  font-weight: bold;
-  margin: 0 0.625rem;
+  align-items: center;
+  color: rgb(30, 95, 130);
+  font-size: 1rem;
+`
+
+const TextLink = styled.span`
+  color: rgb(30, 95, 130);
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  text-decoration: underline;
 `
 
 const VueIcon = styled.svg`
   margin-left: 0.5rem;
-  margin-right: 0.25rem;
 `
 
 const CalloutVue = ({ link }) => {
@@ -42,8 +50,9 @@ const CalloutVue = ({ link }) => {
           fill="#34495e"
         />
       </VueIcon>
-      <u>VueJS</u>
+
       <Link target="__blank" href={link}>
+        <TextLink>VueJS</TextLink>
         <DisplayExternalLink16 fill="#1e5f82" />
       </Link>
     </VueJSBlock>

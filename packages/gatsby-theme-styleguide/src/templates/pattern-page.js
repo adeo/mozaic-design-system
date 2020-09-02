@@ -191,9 +191,9 @@ export default ({ data, location }) => {
       <PageContentWrapper>
         <PageContent>
           <Container>
-            {location.state && location.state.isCode && hasVueLink && (
-              <CalloutVue link={parentLinks.vue.link} />
-            )}
+            {location.state &&
+              (location.state.isCode || location.state.isCode === undefined) &&
+              hasVueLink && <CalloutVue link={parentLinks.vue.link} />}
             <MDXRenderer>{post.body}</MDXRenderer>
           </Container>
         </PageContent>

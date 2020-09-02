@@ -96,7 +96,9 @@ class PageTabs extends PureComponent {
               <TabLink
                 to={node.slug}
                 activeClassName="is-active"
-                state={{ isCode: node.title === 'Code' }}
+                state={{
+                  isCode: node.title === 'Usage' || node.title === 'Code',
+                }}
               >
                 {node.title}
               </TabLink>
