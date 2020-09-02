@@ -5,12 +5,12 @@ import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
 const VueJSBlock = styled.div`
   display: flex;
   align-items: center;
-  background-color: '#ecfcfd';
+  background-color: #ecfcfd;
   border: 1px solid rgb(37, 168, 208);
   padding: 1.375rem 0 1.125rem 1.5rem;
   color: rgb(30, 95, 130);
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
 `
 
 const Link = styled.a`
