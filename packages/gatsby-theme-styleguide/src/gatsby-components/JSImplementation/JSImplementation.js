@@ -6,7 +6,6 @@ import StatusFlag from '../StatusFlag'
 import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
 
 const StatusItem = styled.span`
-  align-items: center;
   display: inline-flex;
   align-items: baseline;
   margin-right: ${MagicUnit}rem;
