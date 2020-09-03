@@ -97,7 +97,7 @@ class PageTabs extends PureComponent {
                 to={node.slug}
                 activeClassName="is-active"
                 state={{
-                  isCode: node.title === 'Usage' || node.title === 'Code',
+                  isCode: node.title === 'Code',
                 }}
               >
                 {node.title}
