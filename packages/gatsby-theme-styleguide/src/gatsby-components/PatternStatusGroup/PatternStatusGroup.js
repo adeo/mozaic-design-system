@@ -6,15 +6,21 @@ import { checkPlatform, checkStatus } from '../../utils/status'
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 
 const StatusItem = styled.span`
-  align-items: center;
+  align-items: baseline;
   display: inline-flex;
   margin-right: ${MagicUnit}rem;
 `
 
 const StatusText = styled.span`
   color: black;
-  font-weight: bold;
-  margin-right: 0.5rem;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+`
+
+const StatusContainer = styled.div`
+  display: inline-block;
 `
 
 const PatternStatusGroup = ({ status }) => {
@@ -30,10 +36,12 @@ const PatternStatusGroup = ({ status }) => {
       if (!currentPlatform || !currentStatus) {
         return false
       }
-
       return (
         <StatusItem key={index}>
-          <StatusText>{currentPlatform}</StatusText>{' '}
+          <StatusText>
+            {currentPlatform}
+            {':'}
+          </StatusText>
           <StatusFlag status={currentStatus} />
         </StatusItem>
       )
@@ -44,7 +52,7 @@ const PatternStatusGroup = ({ status }) => {
     return false
   }
 
-  return <div className="patternstatusflags">{items}</div>
+  return <StatusContainer>{items}</StatusContainer>
 }
 
 export default PatternStatusGroup

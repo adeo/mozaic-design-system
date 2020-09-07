@@ -43,6 +43,10 @@ const Main = styled.main`
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
+
+  .nav-open & {
+    overflow: hidden;
+  }
 `
 
 const AsideContainer = styled.aside`
@@ -50,6 +54,19 @@ const AsideContainer = styled.aside`
   min-height: 100vh;
   position: relative;
   width: 18.75rem;
+
+  @media screen and (max-width: 1023px) {
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.4s;
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+
+  .nav-open & {
+    transform: translateX(0);
+  }
 `
 
 const Layout = ({ children, location }) => {

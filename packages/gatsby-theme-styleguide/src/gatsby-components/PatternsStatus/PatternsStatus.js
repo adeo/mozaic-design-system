@@ -207,6 +207,7 @@ const query = graphql`
             status {
               sketch
               scss
+              vue
             }
           }
         }

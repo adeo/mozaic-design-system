@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.15...v1.0.1-beta.16) (2020-09-01)
+
+
+### Bug Fixes
+
+* **patterns/headings:** fix responsive modifiers for alignment ([#628](https://github.com/adeo/mozaic-design-system/issues/628)) ([cf0b2d4](https://github.com/adeo/mozaic-design-system/commit/cf0b2d4563292342c8530683558eb22856794ab8)), closes [#623](https://github.com/adeo/mozaic-design-system/issues/623)
+
+
+### Features
+
+* **pattern/tabs:** improve tabs accessibility and documentation ([#621](https://github.com/adeo/mozaic-design-system/issues/621)) ([7c79027](https://github.com/adeo/mozaic-design-system/commit/7c79027c4893790731263692234e129278a68549))
+
+
+
+
+
 ## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
 
 
