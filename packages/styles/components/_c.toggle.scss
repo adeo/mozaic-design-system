@@ -12,9 +12,8 @@
     @include set-toggle-size('m');
 
     box-sizing: border-box;
-    display: inline-block;
-    white-space: nowrap;
     cursor: pointer;
+    display: inline-block;
     position: relative;
     user-select: none;
 
