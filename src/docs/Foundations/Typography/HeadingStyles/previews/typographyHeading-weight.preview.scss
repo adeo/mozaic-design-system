@@ -9,8 +9,8 @@
   max-width: magic-unit-rem(38);
   margin: 0 auto;
 
-  &__headings {
-    margin: $mu100 0;
+  &__heading {
+    margin-top: $mu100;
   }
 
   &__modifier {
