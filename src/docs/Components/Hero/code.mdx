@@ -1,0 +1,49 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import *the settings* and *the hero* scss files. 
+```scss
+@import 'settings-tools/_all-settings';
+@include import-font-families();
+@import 'typography/_t.all-base-typography';
+@import 'typography/_t.headings';
+@import 'layouts/_l.flexy';
+
+@import 'components/_c.hero';
+```
+
+## Basic usage
+To create a basic hero, apply the following classes on this HTML elements:
+
+- `mc-hero` on a div container
+- `mc-accordion__header` on a input[checkbox] tag
+
+```html
+  <div class="mc-hero">
+  
+    <div class="mc-hero__header mc-hero__header--content">
+        <p class="mt-heading
+        mt-heading--lightest
+        mt-heading--s
+        mt-heading--underline">Hero title that can be longer in this case</p>
+    </div>
+  </div>
+```
+
+<Preview path="basic" />
+
+### Details of area
+
+## Variation
+
+## Behaviour
+
+## Accessibility and semantic
+
+<HintItem>
+   Don't forget to change the attribute aria-expand="false" to "true" on the mc-accordion__label element when it's open
+</HintItem>

@@ -1,0 +1,26 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'typography/_t.all-base-typography';
+@import 'components/_c.hero';
+@import 'typography/_t.headings';
+@import 'layouts/_l.flexy';
+
+@include make-flexy-col(7, 12, $major-screens);
+@include make-flexy-col(5, 12, $major-screens);
+
+
+.example {
+  margin-bottom: 20px;
+}
+
+.box-example {
+  border-radius: 4px;
+  border: 2px solid rgb(252, 150, 30);
+  height: 100px;
+}
+
+p {
+  margin: 0;
+}
