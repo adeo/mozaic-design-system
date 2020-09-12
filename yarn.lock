@@ -9129,9 +9129,9 @@ graphql-import@^0.7.1:
     resolve-from "^4.0.0"
 
 graphql-playground-html@1.6.12, graphql-playground-html@^1.6.22:
-  version "1.6.25"
-  resolved "https://registry.npmjs.org/graphql-playground-html/-/graphql-playground-html-1.6.25.tgz#2d8fa250cec4036a4f5b7f8ad069c86d6d64c95f"
-  integrity sha512-wMNvGsQ0OwBVhn72VVi7OdpI85IxiIZT43glRx7gQIwQ6NvhFnzMYBIVmcJAJ4UlXRYiWtrQhuOItDXObiR3kg==
+  version "1.6.27"
+  resolved "https://registry.npmjs.org/graphql-playground-html/-/graphql-playground-html-1.6.27.tgz#4ead6ef79c275184bbc90f3d69b4f764b5192090"
+  integrity sha512-f+M74WgZVwoY7CyT3teKpS1W/Zg6p0X4SbQT32oWz8QQ62ipQV0c+Xc/SvAwiBMxVgrbRsw3Yqvz8XdX56e4xw==
   dependencies:
     xss "^1.0.6"
 
@@ -12969,7 +12969,7 @@ node-fetch@2.1.2:
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
   integrity sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
 
-node-fetch@2.6.0, node-fetch@^2.3.0, node-fetch@^2.5.0, node-fetch@^2.6.0:
+node-fetch@2.6.0:
   version "2.6.0"
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
@@ -12981,6 +12981,11 @@ node-fetch@^1.0.1:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
+
+node-fetch@^2.3.0, node-fetch@^2.5.0, node-fetch@^2.6.0:
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@0.9.0:
   version "0.9.0"
