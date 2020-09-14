@@ -14,6 +14,7 @@
   &__bloc-img {
     position: absolute;
     top: 0;
+    left: 0;
     z-index: -1;
     width: 100%;
     height: 100%;
@@ -46,6 +47,7 @@
   }
 
   &__body {
+    position: relative;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -89,47 +91,47 @@
 
     &--with-box {
       @include set-from-screen('s') {
-        padding: $mu250 $mu125 $mu300 $mu125;
+        padding: $mu250 $mu125 $mu900 $mu125;
       }
 
       @include set-from-screen('s-medium') {
-        padding: $mu250 $mu125 $mu300 $mu125;
+        padding: $mu250 $mu125 $mu900 $mu125;
       }
 
       @include set-from-screen('s-large') {
-        padding: $mu250 $mu125 $mu300 $mu125;
+        padding: $mu250 $mu125 $mu900 $mu125;
       }
 
       @include set-from-screen('s-xlarge') {
-        padding: $mu250 $mu125 $mu300 $mu125;
+        padding: $mu250 $mu125 $mu900 $mu125;
       }
 
       @include set-from-screen('m') {
-        padding: $mu400 $mu200 $mu300 $mu200;
+        padding: $mu400 $mu200 $mu900 $mu200;
       }
 
       @include set-from-screen('m-medium') {
-        padding: $mu300 $mu300 $mu300 $mu300;
+        padding: $mu300 $mu300 $mu900 $mu300;
       }
 
       @include set-from-screen('l') {
-        padding: $mu300 $mu300 $mu300 $mu300;
+        padding: $mu300 $mu300 $mu900 $mu300;
       }
 
       @include set-from-screen('xl') {
-        padding: $mu400 $mu200 $mu400 $mu200;
+        padding: $mu400 $mu200 10rem $mu200;
       }
 
       @include set-from-screen('xl-medium') {
-        padding: $mu400 $mu700 $mu400 $mu700;
+        padding: $mu400 $mu700 10rem $mu700;
       }
 
       @include set-from-screen('xl-large') {
-        padding: $mu400 $mu700 $mu400 $mu700;
+        padding: $mu400 $mu700 10rem $mu700;
       }
 
       @include set-from-screen('xxl') {
-        padding: $mu400 $mu250 $mu500 $mu250;
+        padding: $mu400 $mu250 11rem $mu250;
       }
     }
 
@@ -264,29 +266,6 @@
 
   &__container {
     display: flex;
-
-    @include set-from-screen('s') {
-      padding-top: $mu200;
-    }
-
-    @include set-from-screen('s-medium') {
-      padding-top: $mu200;
-    }
-
-    @include set-from-screen('s-large') {
-      padding-top: $mu200;
-    }
-
-    @include set-from-screen('s-xlarge') {
-      padding-top: $mu200;
-    }
-
-    @include set-from-screen('m') {
-      padding-top: $mu200;
-    }
-
-    @include set-from-screen('m-medium') {
-      padding-top: $mu200;
-    }
+    margin-top: -$mu600;
   }
 }
