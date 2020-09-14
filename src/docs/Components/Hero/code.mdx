@@ -5,45 +5,120 @@ order: 2
 
 ## Import
 
-Import *the settings* and *the hero* scss files. 
+Import *the settings*, *headings*, *the grid* and *the hero* scss files. 
 ```scss
 @import 'settings-tools/_all-settings';
+
 @include import-font-families();
+
 @import 'typography/_t.all-base-typography';
 @import 'typography/_t.headings';
 @import 'layouts/_l.flexy';
-
 @import 'components/_c.hero';
 ```
 
 ## Basic usage
-To create a basic hero, apply the following classes on this HTML elements:
+A Hero is composed of several zones:
 
-- `mc-hero` on a div container
-- `mc-accordion__header` on a input[checkbox] tag
+- *A body* with the class: `mc-hero__header`
+- *A header* with the class: `mc-hero__header`
+- *A content* with the class: `mc-hero__content` (optional)
+- *A background image* with the class: `mc-hero__bloc-img`
+- *A box* with the class: `mc-hero__box` (optional)
+
+These area are encompassed by a global wrapper class: `mc-hero`
 
 ```html
-  <div class="mc-hero">
-  
-    <div class="mc-hero__header mc-hero__header--content">
+
+<div class="mc-hero ml-flexy ml-flexy--items-center">
+  <div class="mc-hero__body mc-hero__body--with-content">
+      <div class="mc-hero__header">
         <p class="mt-heading
         mt-heading--lightest
         mt-heading--s
-        mt-heading--underline">Hero title that can be longer in this case</p>
+        mt-heading--underline">Hero title</p>
+    </div>
+    <div class="mc-hero__content mt-body-m">
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
+
+  <div class="mc-hero__bloc-img">
+    <picture>
+      <img class="mc-hero__img" src="https://m1.lmcdn.fr/media/15/5e611393475ea771bbbad626/2872342965/greenkub-maison-sans-permis5e611393063b330009a4a405.jpg?width=800&crop=16:9,smart" alt="Greenkub house">
+    </picture>
+  </div>
+</div>
+
 ```
 
-<Preview path="basic" />
+
+<Preview path="titleContent" />
 
 ### Details of area
+In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
 
-## Variation
+### Main
+In order to have a clean layout you will have to add the following classes to the container (`mc-hero`):
+- `ml-flexy ml-flexy--items-center`
 
-## Behaviour
+### The background
+The background bloc contains:
+- An image element (`mc-hero__img`) inside a pitcture element
+- Before the img element you can add all the source for different screen size
+
+### Body
+The body contains: 
+ - the header (`mc-hero__header`)
+ - the content (`mc-hero__content`)
+
+### The header
+The header contains:
+- the hero title (.mc-hero__header) element must have this classes: `mt-heading mt-heading--lightest mt-heading--s mt-heading--underline`
+
+### The content
+The content contains:
+- A paragraph element (`mt-body-m`)
+
+## Variations
+### Title only
+In cases you only need a title to introduce a page
+
+<Preview path="basic" nude/>
+
+
+### Title with content
+
+- Add `mc-hero__body--with-content` modifier to `mc-hero__body` element
+- Add `mc-hero__content` class after to `mc-hero__header` element
+
+<Preview path="titleContent" nude/>
+
+### Box hero
+
+- Add `mc-hero__body--with-box` modifier to `mc-hero__body` element
+- Add `ml-flexy__col ml-flexy__col--full ml-flexy__col--7of12@from-m` classes to a div around `mc-hero__header` and `mc-hero__content`
+- Add `mc-hero__container ml-flexy__col ml-flexy__col--full ml-flexy__col--5of12@from-m` classes to a div inside `mc-hero__body`
+- Add your box content inside `mc-hero__box` 
+
+<Preview path="box" nude/>
+
+
+### Centered hero
+To center title and content you will have to apply this following classes: 
+- Add `mc-hero--center` modifier to `mc-hero` element
+- Add `mt-heading--center` modifier to `mt-heading` element
+
+<Highlight theme="warning" title="Be aware">
+
+  This centered modifier should only be apply for the title and title with content variation.
+
+</Highlight>
+
+<Preview path="centered" nude/>
 
 ## Accessibility and semantic
 
 <HintItem>
-   Don't forget to change the attribute aria-expand="false" to "true" on the mc-accordion__label element when it's open
+   
 </HintItem>
