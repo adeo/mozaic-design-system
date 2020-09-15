@@ -67,9 +67,10 @@
               $color-font-darker
             ));
       }
+
       ~ #{$parent}__content {
         padding-top: $mu050;
-        max-height: 100vh;
+        max-height: none;
         padding-bottom: $mu150;
       }
     }
@@ -86,6 +87,7 @@
         color: $color-font-light;
         cursor: not-allowed;
       }
+
       ~ #{$parent}__content {
         color: $color-font-light;
         cursor: not-allowed;
@@ -101,9 +103,10 @@
               $color-font-light
             ));
       }
+
       ~ #{$parent}__content {
         padding-top: $mu050;
-        max-height: 100vh;
+        max-height: none;
       }
     }
   }
