@@ -8,16 +8,14 @@
     }
   }
 
-
   &__content {
     display: flex;
     flex-direction: row;
     padding-top: 1.5rem;
     color: white;
-    font-size: 16px;
   }
 
-  &__bloc-img {
+  &__background {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,15 +23,17 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-  }
 
-  &__bloc-img::before {
-    content: "";
-    display: block;
-    background: rgba(60, 55, 56, 0.8);
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      background: rgba($color-grey-900, 0.8);
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
   }
 
   &__img {
@@ -53,25 +53,14 @@
   }
 
   &__body {
-    position: relative;
     display: flex;
+    position: relative;
     width: 100%;
     flex-direction: column;
     padding: $mu400 $mu125 $mu600 $mu125;
 
-    @include set-from-screen('s-large') {
-      padding: $mu400 $mu125 $mu600 $mu125;
-    }
-
-    @include set-from-screen('s-xlarge') {
-      padding: $mu400 $mu125 $mu600 $mu125;
-    }
 
     @include set-from-screen('m') {
-      padding: $mu600 $mu200 8.5rem $mu200;
-    }
-
-    @include set-from-screen('m-medium') {
       padding: $mu600 $mu200 8.5rem $mu200;
     }
 
@@ -80,7 +69,7 @@
     }
 
     @include set-from-screen('xl') {
-      padding: $mu600 28rem 11.5rem $mu300;
+      padding-right: 28rem;
     }
 
     @include set-from-screen('xl-medium') {
@@ -88,11 +77,122 @@
     }
 
     @include set-from-screen('xl-large') {
-      padding: $mu800 41.5rem $mu800 $mu250;
+      padding-right: 41.5rem;
+      padding-left: $mu250;
     }
 
-    @include set-from-screen('xxl') {
-      padding-left: $mu250;
+    &--with-content {
+      @include set-from-screen('s') {
+        padding: $mu250 $mu125 $mu300 $mu125;
+      }
+
+      @include set-from-screen('m') {
+        padding: $mu350 $mu200 $mu500 $mu200;
+      }
+
+      @include set-from-screen('l') {
+        padding: $mu500 13rem $mu600 $mu300;
+      }
+
+      @include set-from-screen('xl') {
+        padding-right: 21.5rem;
+      }
+
+      @include set-from-screen('xl-medium') {
+        padding-left: $mu700;
+      }
+
+      @include set-from-screen('xl-large') {
+        padding-right: 26.5rem;
+      }
+
+      @include set-from-screen('xxl') {
+        padding: $mu500 41.5rem $mu800 $mu250;
+      }
+    }
+
+    &--center {
+      justify-content: center;
+      padding-left: $mu125;
+      padding-right: $mu125;
+
+      @include set-from-screen('s') {
+        padding-left: $mu200;
+        padding-right: $mu200;
+      }
+
+      @include set-from-screen('m') {
+        padding-left: $mu200;
+        padding-right: $mu200;
+      }
+
+      @include set-from-screen('l') {
+        padding-left: $mu800;
+        padding-right: $mu200;
+      }
+
+      @include set-from-screen('xl') {
+        padding-left: 15rem;
+        padding-right: 15rem;
+      }
+
+      @include set-from-screen('xl-medium') {
+        padding-left: 13rem;
+        padding-right: 13rem;
+      }
+
+      @include set-from-screen('xl-large') {
+        padding-left: 22rem;
+        padding-right: 22rem;
+      }
+
+
+
+      .mc-hero__header {
+        @include set-from-screen('m-medium') {
+          @include set-flexy-width(1, 1);
+        }
+
+        @include set-from-screen('m-medium') {
+          padding-right: 5rem;
+          padding-left: 5rem;
+        }
+
+        @include set-from-screen('xl') {
+          padding-right: 6.5rem;
+          padding-left: 6.5rem;
+        }
+
+        @include set-from-screen('xl-large') {
+          padding-right: 9.75rem;
+          padding-left: 9.75rem;
+        }
+      }
+
+      .mc-hero__content {
+        justify-content: center;
+        text-align: center;
+
+        @include set-from-screen('m-medium') {
+          padding-right: $mu500;
+          padding-left: $mu500;
+        }
+
+        @include set-from-screen('l-medium') {
+          padding-right: 6.5rem;
+          padding-left: 6.5rem;
+        }
+
+        @include set-from-screen('xl-medium') {
+          padding-right: 13.5rem;
+          padding-left: 13.5rem;
+        }
+
+        @include set-from-screen('xl-large') {
+          padding-right: 22rem;
+          padding-left: 22rem;
+        }
+      }
     }
 
     &--with-box {
@@ -149,134 +249,6 @@
       .mc-hero__content {
         @include set-from-screen('m-medium') {
           @include set-flexy-width(10, 12);
-        }
-      }
-    }
-
-    &--with-content {
-      @include set-from-screen('s') {
-        padding: $mu250 $mu125 $mu300 $mu125;
-      }
-
-      @include set-from-screen('s-medium') {
-        padding: $mu250 $mu125 $mu300 $mu125;
-      }
-
-      @include set-from-screen('s-large') {
-        padding: $mu250 $mu125 $mu300 $mu125;
-      }
-
-      @include set-from-screen('s-xlarge') {
-        padding: $mu250 $mu125 $mu300 $mu125;
-      }
-
-      @include set-from-screen('m') {
-        padding: $mu350 $mu200 $mu500 $mu200;
-      }
-
-      @include set-from-screen('m-medium') {
-        padding: $mu350 $mu200 $mu500 $mu200;
-      }
-
-      @include set-from-screen('l') {
-        padding: $mu500 13rem $mu600 $mu300;
-      }
-
-      @include set-from-screen('xl') {
-        padding: $mu500 21.5rem $mu600 $mu300;
-      }
-
-      @include set-from-screen('xl-medium') {
-        padding: $mu500 26.5rem $mu600 $mu700;
-      }
-
-      @include set-from-screen('xl-large') {
-        padding: $mu500 26.5rem $mu600 $mu700;
-      }
-
-      @include set-from-screen('xxl') {
-        padding: $mu500 41.5rem $mu800 $mu250;
-      }
-    }
-
-
-    &--center {
-      justify-content: center;
-
-      .mc-hero__header {
-        @include set-from-screen('m-medium') {
-          padding-right: 5rem;
-          padding-left: 5rem;
-        }
-
-        @include set-from-screen('l') {
-          padding-right: 5rem;
-          padding-left: 5rem;
-        }
-
-        @include set-from-screen('l-medium') {
-          padding-right: 5rem;
-          padding-left: 5rem;
-        }
-
-        @include set-from-screen('xl') {
-          padding-right: 6.5rem;
-          padding-left: 6.5rem;
-        }
-
-        @include set-from-screen('xl-medium') {
-          padding-right: 6.5rem;
-          padding-left: 6.5rem;
-        }
-
-        @include set-from-screen('xl-large') {
-          padding-right: 9.75rem;
-          padding-left: 9.75rem;
-        }
-
-        @include set-from-screen('xxl') {
-          padding-right: 9.75rem;
-          padding-left: 9.75rem;
-        }
-      }
-
-      .mc-hero__content {
-        justify-content: center;
-        text-align: center;
-
-        @include set-from-screen('m-medium') {
-          padding-right: $mu500;
-          padding-left: $mu500;
-        }
-
-        @include set-from-screen('l') {
-          padding-right: $mu500;
-          padding-left: $mu500;
-        }
-
-        @include set-from-screen('l-medium') {
-          padding-right: 6.5rem;
-          padding-left: 6.5rem;
-        }
-
-        @include set-from-screen('xl') {
-          padding-right: 6.5rem;
-          padding-left: 6.5rem;
-        }
-
-        @include set-from-screen('xl-medium') {
-          padding-right: 13.5rem;
-          padding-left: 13.5rem;
-        }
-
-        @include set-from-screen('xl-large') {
-          padding-right: 22rem;
-          padding-left: 22rem;
-        }
-
-        @include set-from-screen('xxl') {
-          padding-right: 22rem;
-          padding-left: 22rem;
         }
       }
     }

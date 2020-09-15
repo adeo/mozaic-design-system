@@ -23,7 +23,7 @@ A Hero is composed of several zones:
 - *A body* with the class: `mc-hero__header`
 - *A header* with the class: `mc-hero__header`
 - *A content* with the class: `mc-hero__content` (optional)
-- *A background image* with the class: `mc-hero__bloc-img`
+- *A background image* with the class: `mc-hero__background`
 
 These area are encompassed by a global wrapper class: `mc-hero`
 
@@ -42,7 +42,7 @@ These area are encompassed by a global wrapper class: `mc-hero`
     </div>
   </div>
 
-  <div class="mc-hero__bloc-img">
+  <div class="mc-hero__background">
     <picture>
       <img class="mc-hero__img" src="https://m1.lmcdn.fr/media/15/5e611393475ea771bbbad626/2872342965/greenkub-maison-sans-permis5e611393063b330009a4a405.jpg?width=800&crop=16:9,smart" alt="Greenkub house">
     </picture>
@@ -62,7 +62,7 @@ In order to have a clean layout you will have to add the following classes to th
 
 ### The background
 The background bloc contains:
-- An image element (`mc-hero__img`) inside a pitcture element
+- An image element (`mc-hero__img`) inside a picture element
 - Before the img element you can add all the source for different screen size
 
 ### Body
@@ -72,7 +72,7 @@ The body contains:
 
 ### The header
 The header contains:
-- the hero title (.mc-hero__header) element must have this classes: `mt-heading mt-heading--lightest mt-heading--s mt-heading--underline`
+- the hero title (.mc-hero__header) element must have these classes: `mt-heading mt-heading--lightest mt-heading--s mt-heading--underline`
 
 ### The content
 The content contains:
@@ -103,13 +103,13 @@ In cases you only need a title to introduce a page
 
 
 ### Centered hero
-To center title and content you will have to apply this following classes: 
+To center title and content you will have to apply these following classes: 
 - Add `mc-hero--center` modifier to `mc-hero` element
 - Add `mt-heading--center` modifier to `mt-heading` element
 
 <Highlight theme="warning" title="Be aware">
 
-  This centered modifier should only be apply for the title and title with content variation.
+  This centered modifier should only be applied for the title and title with content variation.
 
 </Highlight>
 
