@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
+
+
+### Features
+
+* **website/calloutvue:** display vuejs link in code tab ([#637](https://github.com/adeo/mozaic-design-system/issues/637)) ([8936e86](https://github.com/adeo/mozaic-design-system/commit/8936e861e6edaa5eb6691b5b2ad23840c69033a1))
+
+
+
+
+
 ## [1.0.1-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.15...v1.0.1-beta.16) (2020-09-01)
 
 

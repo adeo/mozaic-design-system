@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
+
+
+### Bug Fixes
+
+* **patterns/accordions:** set display:flex only if label has an icon ([#644](https://github.com/adeo/mozaic-design-system/issues/644)) ([bc28d8f](https://github.com/adeo/mozaic-design-system/commit/bc28d8f338bd9d0700052a10e8524c89b52e41d2))
+* **patterns/accordions:** update max-height value when accordion is open ([#645](https://github.com/adeo/mozaic-design-system/issues/645)) ([0117c87](https://github.com/adeo/mozaic-design-system/commit/0117c87fee0d30270a9aff9be7b9313a804f78e4))
+* **patterns/toggle:** remove white-space property on .mc-toggle__label ([#640](https://github.com/adeo/mozaic-design-system/issues/640)) ([7550d00](https://github.com/adeo/mozaic-design-system/commit/7550d00ea95a8b2f541550cf79fe6129eb1fe09a))
+* **website/docs:** remove fileuploader section (already under form) ([#639](https://github.com/adeo/mozaic-design-system/issues/639)) ([b95880a](https://github.com/adeo/mozaic-design-system/commit/b95880ad07b548c8cc3676353efc63bc7e77a089))
+* **website/freemarker:** update links to components on the core documentation ([#646](https://github.com/adeo/mozaic-design-system/issues/646)) ([50b0d37](https://github.com/adeo/mozaic-design-system/commit/50b0d3709633d038bb1f6e677ab73d59542b585c))
+
+
+### Features
+
+* **patterns/headings:** add a default margin bottom on headings ([#630](https://github.com/adeo/mozaic-design-system/issues/630)) ([64f7971](https://github.com/adeo/mozaic-design-system/commit/64f7971b97807c75db038f8e022b53c95675f9c6))
+* **website/calloutvue:** display vuejs link in code tab ([#637](https://github.com/adeo/mozaic-design-system/issues/637)) ([8936e86](https://github.com/adeo/mozaic-design-system/commit/8936e861e6edaa5eb6691b5b2ad23840c69033a1))
+
+
+
+
+
 ## [1.0.1-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.15...v1.0.1-beta.16) (2020-09-01)
 
 
