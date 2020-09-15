@@ -4,27 +4,7 @@
 
   &__header {
     @include set-from-screen('m-medium') {
-      width: 75%;
-    }
-
-    @include set-from-screen('l') {
-      width: 66.6%;
-    }
-
-    @include set-from-screen('xl') {
-      width: 75%;
-    }
-
-    @include set-from-screen('xl-medium') {
-      width: 75%;
-    }
-
-    @include set-from-screen('xl-large') {
-      width: 75%;
-    }
-
-    @include set-from-screen('xxl') {
-      width: 75%;
+      @include set-flexy-width(9, 12);
     }
   }
 
@@ -162,53 +142,13 @@
 
       .mc-hero__header {
         @include set-from-screen('m-medium') {
-          width: 75%;
-        }
-
-        @include set-from-screen('l') {
-          width: 75%;
-        }
-
-        @include set-from-screen('xl') {
-          width: 75%;
-        }
-
-        @include set-from-screen('xl-medium') {
-          width: 75%;
-        }
-
-        @include set-from-screen('xl-large') {
-          width: 75%;
-        }
-
-        @include set-from-screen('xxl') {
-          width: 75%;
+          @include set-flexy-width(9, 12);
         }
       }
 
       .mc-hero__content {
         @include set-from-screen('m-medium') {
-          width: 83%;
-        }
-
-        @include set-from-screen('l') {
-          width: 83%;
-        }
-
-        @include set-from-screen('xl') {
-          width: 83%;
-        }
-
-        @include set-from-screen('xl-medium') {
-          width: 83%;
-        }
-
-        @include set-from-screen('xl-large') {
-          width: 83%;
-        }
-
-        @include set-from-screen('xxl') {
-          width: 83%;
+          @include set-flexy-width(10, 12);
         }
       }
     }
