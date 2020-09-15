@@ -3,10 +3,9 @@
 @include import-font-families();
 
 @import 'typography/_t.all-base-typography';
-@import 'components/_c.hero';
-@import 'typography/_t.headings';
-@import 'layouts/_l.container'; // you generally want the container as well
 @import 'layouts/_l.flexy';
+@import 'components/_c.hero';
+
 
 @include make-flexy-col(7, 12, $major-screens);
 @include make-flexy-col(5, 12, $major-screens);

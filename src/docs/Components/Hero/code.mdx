@@ -12,7 +12,6 @@ Import *the settings*, *headings*, *the grid* and *the hero* scss files.
 @include import-font-families();
 
 @import 'typography/_t.all-base-typography';
-@import 'typography/_t.headings';
 @import 'layouts/_l.flexy';
 @import 'components/_c.hero';
 ```
@@ -20,22 +19,22 @@ Import *the settings*, *headings*, *the grid* and *the hero* scss files.
 ## Basic usage
 A Hero is composed of several zones:
 
-- *A body* with the class: `mc-hero__header`
+- *A body* with the class: `mc-hero__body`
 - *A header* with the class: `mc-hero__header`
 - *A content* with the class: `mc-hero__content` (optional)
 - *A background image* with the class: `mc-hero__background`
 
-These area are encompassed by a global wrapper class: `mc-hero`
+These areas are encompassed by a global wrapper element with class mc-hero
 
 ```html
 
 <div class="mc-hero ml-flexy ml-flexy--items-center">
   <div class="mc-hero__body mc-hero__body--with-content">
       <div class="mc-hero__header">
-        <p class="mt-heading
+        <h1 class="mt-heading
         mt-heading--lightest
         mt-heading--s
-        mt-heading--underline">Hero title</p>
+        mt-heading--underline">Hero title</h1>
     </div>
     <div class="mc-hero__content mt-body-m">
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -56,27 +55,50 @@ These area are encompassed by a global wrapper class: `mc-hero`
 ### Details of area
 In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
 
-### Main
+#### Main
 In order to have a clean layout you will have to add the following classes to the container (`mc-hero`):
 - `ml-flexy ml-flexy--items-center`
 
-### The background
-The background bloc contains:
+#### The background
+The background block contains:
 - An image element (`mc-hero__img`) inside a picture element
 - Before the img element you can add all the source for different screen size
 
-### Body
+``` html 
+
+<div class="mc-hero">
+  <div class="mc-hero__body">
+    <div class="mc-hero__header">
+        <p class="mt-heading
+        mt-heading--lightest
+        mt-heading--s
+        mt-heading--underline">Hero title</p>
+    </div>
+  </div>
+  <div class="mc-hero__background">
+    <picture>
+      <source srcset="/media/cc0-images/house-240-200.jpg"
+              media="(min-width: 800px)">
+        <img src="/media/cc0-images/house-298-332.jpg" alt="" />
+      </picture>
+  </div>
+</div>
+
+
+```
+
+#### Body
 The body contains: 
  - the header (`mc-hero__header`)
  - the content (`mc-hero__content`)
 
-### The header
+#### The header
 The header contains:
-- the hero title (.mc-hero__header) element must have these classes: `mt-heading mt-heading--lightest mt-heading--s mt-heading--underline`
+- the hero title (.mc-hero__header) 
+- the title element (h1) must have these classes: `mt-heading mt-heading--lightest mt-heading--s mt-heading--underline`
 
-### The content
-The content contains:
-- A paragraph element (`mt-body-m`)
+#### The content
+- Apply `mt-body-m` on `mc-hero__content`
 
 ## Variations
 ### Title only
@@ -92,25 +114,9 @@ In cases you only need a title to introduce a page
 
 <Preview path="titleContent" nude/>
 
-<!-- ### Box hero
-
-- Add `mc-hero__body--with-box` modifier to `mc-hero__body` element
-- Add `ml-flexy__col ml-flexy__col--full ml-flexy__col--7of12@from-m` classes to a div around `mc-hero__header` and `mc-hero__content`
-- Add `mc-hero__container ml-flexy__col ml-flexy__col--full ml-flexy__col--5of12@from-m` classes to a div inside `mc-hero__body`
-- Add your box content inside `mc-hero__box` 
-
-<Preview path="box" nude/> -->
-
-
 ### Centered hero
 To center title and content you will have to apply these following classes: 
 - Add `mc-hero--center` modifier to `mc-hero` element
 - Add `mt-heading--center` modifier to `mt-heading` element
-
-<Highlight theme="warning" title="Be aware">
-
-  This centered modifier should only be applied for the title and title with content variation.
-
-</Highlight>
 
 <Preview path="centered" nude/>
