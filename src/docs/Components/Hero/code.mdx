@@ -5,7 +5,7 @@ order: 2
 
 ## Import
 
-Import *the settings*, *headings*, *the grid* and *the hero* scss files. 
+Import *the settings*, *the grid* and *the hero* scss files. 
 ```scss
 @import 'settings-tools/_all-settings';
 
@@ -56,7 +56,7 @@ These areas are encompassed by a global wrapper element with class mc-hero
 In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
 
 #### Main
-In order to have a clean layout you will have to add the following classes to the container (`mc-hero`):
+In order to have a clean layout you will have to add the following classes to the container *`mc-hero`*:
 - `ml-flexy ml-flexy--items-center`
 
 #### The background
@@ -64,28 +64,17 @@ The background block contains:
 - An image element (`mc-hero__img`) inside a picture element
 - Before the img element you can add all the source for different screen size
 
+Here a basic implementation of a Picture Element
+
 ``` html 
-
-<div class="mc-hero">
-  <div class="mc-hero__body">
-    <div class="mc-hero__header">
-        <p class="mt-heading
-        mt-heading--lightest
-        mt-heading--s
-        mt-heading--underline">Hero title</p>
-    </div>
-  </div>
-  <div class="mc-hero__background">
-    <picture>
-      <source srcset="/media/cc0-images/house-240-200.jpg"
-              media="(min-width: 800px)">
-        <img src="/media/cc0-images/house-298-332.jpg" alt="" />
-      </picture>
-  </div>
-</div>
-
-
+<picture>
+	<source srcset="here-your-800-image.jpg" media="(min-width: 800px)">
+	<source srcset="here-your-1200-image.jpg" media="(min-width: 1200px)">
+	<img src="here-your-default-image.jpg" alt="" />
+</picture>
 ```
+
+Learn more about this on [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
 #### Body
 The body contains: 
@@ -120,3 +109,20 @@ To center title and content you will have to apply these following classes:
 - Add `mt-heading--center` modifier to `mt-heading` element
 
 <Preview path="centered" nude/>
+
+### Box hero
+
+- Add `mc-hero--with-box` modifier to `mc-hero` element	
+- Add your box content inside `mc-hero__box`
+
+#### Box hero modifier
+There is 2 modifier available for the box hero. 
+
+- `mc-hero--with-box`: the box is placed aside from `screen.m`
+
+<Preview path="box" nude/>
+
+- `mc-hero--with-box-full`: the box is placed aside from `screen.l`
+
+<Preview path="boxFull" nude/>
+
