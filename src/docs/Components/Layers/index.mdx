@@ -1,10 +1,48 @@
 ---
 title: 'Layers'
 order: 8
-description: Description here
+description: 'In modern layouts, a layer is a way to give further actions or display to the user specific content without breaking the user flow, like login or cart overview.'
 status:
   sketch: 'bêta'
   scss: 'bêta'
 ---
 
-> Description here
+> In modern layouts, a layer is a way to give further actions or display to the user specific content without breaking the user flow, like login or cart overview.
+
+## Usages
+
+<Highlight theme="warning" title="Be aware">
+  Never use a layer as way to hide content from the user.
+</Highlight>
+
+Here are a few examples of layers use cases to know this component better:
+
+- **Login:** as a way to avoid to break the user's flow in some specific cases. For example, when the user needs to login to go further.
+- **Cart overview:** to display the cart without breaking the user flow.
+- **List:** to display large amount of informations and allow the user to make a choice.
+
+## Overview
+
+-- Add visual --
+
+Layers are a combination of the following elements:
+
+- A layer title
+- A content
+- A layer footer with actions
+- An overlay
+
+## Behaviors
+
+Layers are always displayed from the side of the page and appear above the content of the page with a dark overlay.
+
+## Do's & Dont's
+
+<HintItem>Please use modals to display informative contents.</HintItem>
+<HintItem dont>
+  Never use a layer for a massive content, don't be afraid to change page.
+</HintItem>
+<HintItem dont>Never use a layer as a navigation element.</HintItem>
+<HintItem dont>
+  Never use a layer as way to hide content from the user.
+</HintItem>
