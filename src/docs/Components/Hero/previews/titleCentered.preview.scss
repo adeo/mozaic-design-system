@@ -5,6 +5,7 @@
 @import 'typography/_t.all-base-typography';
 @import 'layouts/_l.flexy';
 @import 'components/_c.hero';
+@import 'layouts/_l.container';
 
 
 @include make-flexy-col(7, 12, $major-screens);

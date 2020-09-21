@@ -13,6 +13,7 @@ Import *the settings*, *the grid* and *the hero* scss files.
 
 @import 'typography/_t.all-base-typography';
 @import 'layouts/_l.flexy';
+@import 'layouts/_l.container';
 @import 'components/_c.hero';
 ```
 
@@ -106,7 +107,9 @@ In cases you only need a title to introduce a page
 ### Centered hero
 To center title and content you will have to apply these following classes: 
 - Add `mc-hero--center` modifier to `mc-hero` element
+- Add `mc-hero__body--center` modifier to `mc-hero__body` element
 - Add `mt-heading--center` modifier to `mt-heading` element
+- Use `mc-hero__body--center-with-content` modifier instead `mc-hero__body--center` for title with content variation.
 
 <Preview path="centered" nude/>
 
