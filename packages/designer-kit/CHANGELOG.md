@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
+
+
+### Features
+
+* **patterns/headings:** add a default margin bottom on headings ([#630](https://github.com/adeo/mozaic-design-system/issues/630)) ([64f7971](https://github.com/adeo/mozaic-design-system/commit/64f7971b97807c75db038f8e022b53c95675f9c6))
+
+
+
+
+
 ## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
 
 

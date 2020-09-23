@@ -56,7 +56,8 @@ Depending on the context of use, the accordion can have several states:
 <Preview path="states" />
 
 ## Variations
-### Padding modifier
+
+### No padding
 
 You have the possibility to have an accordion with no padding.
 
@@ -65,16 +66,19 @@ For this you have to add to the label the `mc-accordion__label--no-padding` modi
 <Preview path="no-padding" />
 
 ### With icon
+
 You can add an icon into any accordions you want.
 
-You only need to add the `mc-accordion__icon` CSS class to your icon.
+For this you have to add to the label the `mc-accordion__label--no-icon` modifier.
+
+Then just add the CSS class `mc-accordion__icon` to your icon.
 
 ```html
 <div class="mc-accordion">
   <input type="checkbox" id="iconUsage" class="mc-accordion__trigger" />
   <label
     for="iconUsage"
-    class="mc-accordion__label mc-accordion__label"
+    class="mc-accordion__label mc-accordion__label mc-accordion__label--icon"
     aria-expand="false"
   >
     <svg class="mc-accordion__icon" xmlns="http://www.w3.org/2000/svg">
