@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.17...v1.0.1-beta.18) (2020-09-29)
+
+
+### Bug Fixes
+
+* **dev-infra:** upgrade packages versions ([#650](https://github.com/adeo/mozaic-design-system/issues/650)) ([6afa52d](https://github.com/adeo/mozaic-design-system/commit/6afa52dbd829d868c9b655bda50b853108cd9160))
+* **patterns/toggle:** increase line-height ([#648](https://github.com/adeo/mozaic-design-system/issues/648)) ([6667601](https://github.com/adeo/mozaic-design-system/commit/66676017b01674f38cd4ff471525a1674a9a40b7))
+
+
+### Features
+
+* **pattern/hero:** add hero design ([#627](https://github.com/adeo/mozaic-design-system/issues/627)) ([672b461](https://github.com/adeo/mozaic-design-system/commit/672b461f2c7afe39246f7e73dda1e9ea294ed054))
+* **patterns/toggle:** remove the horizontal variation of toggle group ([#649](https://github.com/adeo/mozaic-design-system/issues/649)) ([7754317](https://github.com/adeo/mozaic-design-system/commit/77543173048c0f8a6795e00ae7bfbf07ebc95662))
+
+
+
+
+
 ## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
 
 

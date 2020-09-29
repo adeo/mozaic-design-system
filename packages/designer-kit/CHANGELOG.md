@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.17...v1.0.1-beta.18) (2020-09-29)
+
+
+### Features
+
+* **pattern/hero:** add hero design ([#627](https://github.com/adeo/mozaic-design-system/issues/627)) ([672b461](https://github.com/adeo/mozaic-design-system/commit/672b461f2c7afe39246f7e73dda1e9ea294ed054))
+
+
+
+
+
 ## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
 
 
