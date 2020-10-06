@@ -41,7 +41,7 @@ If you're trying to find something specific, here's a list of our main packages 
 
 
 ## :books: Documentation
-We tried to focus on the developper experience, meaning that working with it should be as simple as possible.
+We tried to focus on the developer experience, meaning that working with it should be as simple as possible.
 
 You can report any bug, request a feature or any improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
