@@ -1,16 +1,46 @@
-# MOZAIC Design system
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<h1 align="center">
+  Mozaic Design System
+</h1>
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+> Mozaic is an open-source design system built by Adeo. A design system to reinforce team’s delivery time, 
+> improve quality of deliverables and thus help set up a coherent customer experience.
 
-[![Smallchat](https://img.shields.io/badge/smallchat-talk%20with%20us-green?style=flat-square)](http://mozaic.adeo.cloud/)
+<p align="center">
+  <a href="https://github.com/carbon-design-system/carbon/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)" alt="Prettier badge" />
+  </a>
+  <a href="https://mozaic.adeo.cloud/">
+    <img src="https://img.shields.io/badge/smallchat-talk%20with%20us-green?style=flat-square)" alt="small chat" />
+  </a>
+  <a href="https://lerna.js.org/">
+    <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="Maintained with Lerna" />
+  </a>
+  <a href="https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" />
+  </a>
+</p>
 
-This repo contains the code and content to create, manage and deploy Mozaic's design system styleguide. The styleguide is based on gatsby, a static site generator based on react and graphql. Gatsby allows us to build static html websites that, once loaded on the client acts as a SPA.
+## Getting started
+If you are just getting started, check out our documentation: https://mozaic.adeo.cloud/
 
-Building a styleguide using a static site generator instead of relying on a database allow us to use a versionned styleguide that matches the assets and framework that it is based on.
+If your are looking for JS components, we have community-contributed components for the following technologies: 
+- [Freemarker](https://github.com/adeo/mozaic-freemarker)
+- [Vue](https://github.com/adeo/mozaic-vue)
+- [Angular](https://github.com/adeo/mozaic-angular)
+- [React](https://github.com/adeo/mozaic-react)
 
+If you're trying to find something specific, here's a list of our main packages that we support!
+
+| Package name                                  | Description                                                                                                                                                                             |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`@mozaic-ds/styles`](./packages/styles)                 | All the CSS and SCSS files that constitute the Mozaic SCSS framework.                                                                                                                                                 |
+| [`@mozaic-ds/tokens`](./packages/tokens)                 | Tokens are theming/styling constants defined in a JSON file. They are trasnpiled into multiple format to be shared across plateforms (SCSS, IOS, ANDROID...).                                                     |
+| [`@mozaic-ds/css-dev-tools`](./packages/css-dev-tools)     | Right now the tools are composed only of SCSS/PostCSS tools.                                                                                                                   |
+| [`@mozaic-ds/web-fonts`](./packages/web-fonts)         | All fonts available in MDS (LM fonts currently)                                                                                                                                                    |
+| [`@mozaic-ds/icons`](./packages/icons)           | Iconography assets. We also offer support in: [React](./packages/icons/react), [Ios](./packages/icons/pdf), and [Vue](./packages/icons/vue) |
+
+
+## :books: Documentation
 We tried to focus on the developper experience, meaning that working with it should be as simple as possible.
 
 You can report any bug, request a feature or any improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
