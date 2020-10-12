@@ -1,9 +1,11 @@
 # MOZAIC Design system
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+[![Smallchat](https://img.shields.io/badge/smallchat-talk%20with%20us-green?style=flat-square)](http://mozaic.adeo.cloud/)
 
 This repo contains the code and content to create, manage and deploy Mozaic's design system styleguide. The styleguide is based on gatsby, a static site generator based on react and graphql. Gatsby allows us to build static html websites that, once loaded on the client acts as a SPA.
 
@@ -23,28 +25,14 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 
 ## Design system core team
 
-### [Gaël Boyenval](https://www.linkedin.com/in/gaël-boyenval-5b931415/)
-
-**Role for the project**:
-
-- Design system front-end lead
-- Maintainer of the source code
-- Main contributor and maintainer of the styleguide tool based on gatsby
-- Keep consistency in code base
-- Keep consistency between code and design
-- Review code updates
-- Help keep things flowing and useful for the differents BU
-
-**Timezone:** Paris - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Gael Boyenval
-
 ### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste)
 
 **Role for the project:**
 
 - Design system UI lead
 - Arbitrates the patterns inputs and additions to the design system
+- Welcomes and onboards the designers on Mozaic
+- Reviews usage documentation
 
 **Timezone:** Lile - France **Availability:** 100%
 
@@ -72,7 +60,10 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 
 ### [Nicolas Herwegh](https://www.linkedin.com/in/nicolas-herwegh-3a4494136)
 
-**Role for the project:** UI designer
+**Role for the project:**
+
+- UI designer
+- Designs the patterns and writes the associated documentation
 
 **Timezone:** Lille - France **Availability:** 100%
 
@@ -94,7 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://www.geoffreytestelin.com/"><img src="https://avatars1.githubusercontent.com/u/10194542?v=4" width="100px;" alt=""/><br /><sub><b>Geoffrey Testelin</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AC0ZEN" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://www.geoffreytestelin.com/"><img src="https://avatars1.githubusercontent.com/u/10194542?v=4" width="100px;" alt=""/><br /><sub><b>Geoffrey Testelin</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AC0ZEN" title="Bug reports">🐛</a> <a href="#ideas-C0ZEN" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tool-C0ZEN" title="Tools">🔧</a> <a href="https://github.com/adeo/mozaic-design-system/commits?author=C0ZEN" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hatem-benmansour-lmfr"><img src="https://avatars1.githubusercontent.com/u/52403372?v=4" width="100px;" alt=""/><br /><sub><b>hatem-benmansour-lmfr</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Ahatem-benmansour-lmfr" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/corentin-verquin-lm"><img src="https://avatars3.githubusercontent.com/u/57133075?v=4" width="100px;" alt=""/><br /><sub><b>corentin-verquin-lm</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/commits?author=corentin-verquin-lm" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/bmondolot"><img src="https://avatars1.githubusercontent.com/u/11473460?v=4" width="100px;" alt=""/><br /><sub><b>Mondolot Bertrand</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Abmondolot" title="Bug reports">🐛</a></td>
@@ -104,6 +95,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/simonroger88"><img src="https://avatars0.githubusercontent.com/u/67376885?v=4" width="100px;" alt=""/><br /><sub><b>simonroger88</b></sub></a><br /><a href="#ideas-simonroger88" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/MrCloud"><img src="https://avatars0.githubusercontent.com/u/486140?v=4" width="100px;" alt=""/><br /><sub><b>Florian Petit</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AMrCloud" title="Bug reports">🐛</a> <a href="#ideas-MrCloud" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.15...v1.0.1-beta.16) (2020-09-01)
+
+
+### Bug Fixes
+
+* **tools/tokens:** update swift colors tokens ([#625](https://github.com/adeo/mozaic-design-system/issues/625)) ([f829cc4](https://github.com/adeo/mozaic-design-system/commit/f829cc44e879e4700aca2b2019fc55a4779f653d)), closes [#624](https://github.com/adeo/mozaic-design-system/issues/624)
+
+
+### Features
+
+* **pattern/tabs:** improve tabs accessibility and documentation ([#621](https://github.com/adeo/mozaic-design-system/issues/621)) ([7c79027](https://github.com/adeo/mozaic-design-system/commit/7c79027c4893790731263692234e129278a68549))
+
+
+
+
+
+## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
+
+
+### Bug Fixes
+
+* **patterns/fileuploader:** update documentation and add error cases ([#614](https://github.com/adeo/mozaic-design-system/issues/614)) ([595ae07](https://github.com/adeo/mozaic-design-system/commit/595ae07186a70d73359b77ae47d4df142f03d2c3))
+
+
+### Features
+
+* **tools:** add swift token config (StyleDictionnary) ([#615](https://github.com/adeo/mozaic-design-system/issues/615)) ([1d8aaf2](https://github.com/adeo/mozaic-design-system/commit/1d8aaf229552a5b2ffcd8dec52ad2a7f30a6da7e))
+
+
+
+
+
 ## [1.0.1-beta.11](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.10...v1.0.1-beta.11) (2020-06-10)
 
 

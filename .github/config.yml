@@ -1,0 +1,4 @@
+helpr:
+  opened: 'opened-pull-request'
+  merged: 'merged-pull-request'
+  rejected: 'rejected-pull-request'

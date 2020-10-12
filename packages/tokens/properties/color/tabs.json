@@ -1,0 +1,27 @@
+{
+  "color": {
+    "tabs": {
+      "background": {
+        "value": "{color.grey.000.value}"
+      },
+      "shadow": {
+        "value": "{color.grey.999.value}"
+      },
+      "default": {
+        "value": "{color.font.darker.value}"
+      },
+      "hover": {
+        "value": "{color.font.success.value}"
+      },
+      "disabled": {
+        "value": "{color.font.light.value}"
+      },
+      "active": {
+        "value": "{color.font.primary-01.value}"
+      },
+      "active-disabled": {
+        "value": "{color.primary-01.200.value}"
+      }
+    }
+  }
+}

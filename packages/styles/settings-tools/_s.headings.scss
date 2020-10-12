@@ -57,6 +57,10 @@ $heading-sizes: (
 
       @include set-from-screen('l') {
         @include set-font-scale($font-scale-from-l, 'm');
+
+        @if ($size == 'l') {
+          margin-bottom: $mu350;
+        }
       }
     }
 

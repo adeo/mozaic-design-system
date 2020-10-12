@@ -3,6 +3,67 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.17...v1.0.1-beta.18) (2020-09-29)
+
+
+### Bug Fixes
+
+* **patterns/toggle:** increase line-height ([#648](https://github.com/adeo/mozaic-design-system/issues/648)) ([6667601](https://github.com/adeo/mozaic-design-system/commit/66676017b01674f38cd4ff471525a1674a9a40b7))
+
+
+### Features
+
+* **pattern/hero:** add hero design ([#627](https://github.com/adeo/mozaic-design-system/issues/627)) ([672b461](https://github.com/adeo/mozaic-design-system/commit/672b461f2c7afe39246f7e73dda1e9ea294ed054))
+
+
+
+
+
+## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
+
+
+### Bug Fixes
+
+* **patterns/accordions:** set display:flex only if label has an icon ([#644](https://github.com/adeo/mozaic-design-system/issues/644)) ([bc28d8f](https://github.com/adeo/mozaic-design-system/commit/bc28d8f338bd9d0700052a10e8524c89b52e41d2))
+* **patterns/accordions:** update max-height value when accordion is open ([#645](https://github.com/adeo/mozaic-design-system/issues/645)) ([0117c87](https://github.com/adeo/mozaic-design-system/commit/0117c87fee0d30270a9aff9be7b9313a804f78e4))
+* **patterns/toggle:** remove white-space property on .mc-toggle__label ([#640](https://github.com/adeo/mozaic-design-system/issues/640)) ([7550d00](https://github.com/adeo/mozaic-design-system/commit/7550d00ea95a8b2f541550cf79fe6129eb1fe09a))
+
+
+### Features
+
+* **patterns/headings:** add a default margin bottom on headings ([#630](https://github.com/adeo/mozaic-design-system/issues/630)) ([64f7971](https://github.com/adeo/mozaic-design-system/commit/64f7971b97807c75db038f8e022b53c95675f9c6))
+
+
+
+
+
+## [1.0.1-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.15...v1.0.1-beta.16) (2020-09-01)
+
+
+### Bug Fixes
+
+* **patterns/headings:** fix responsive modifiers for alignment ([#628](https://github.com/adeo/mozaic-design-system/issues/628)) ([cf0b2d4](https://github.com/adeo/mozaic-design-system/commit/cf0b2d4563292342c8530683558eb22856794ab8)), closes [#623](https://github.com/adeo/mozaic-design-system/issues/623)
+
+
+### Features
+
+* **pattern/tabs:** improve tabs accessibility and documentation ([#621](https://github.com/adeo/mozaic-design-system/issues/621)) ([7c79027](https://github.com/adeo/mozaic-design-system/commit/7c79027c4893790731263692234e129278a68549))
+
+
+
+
+
+## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
+
+
+### Bug Fixes
+
+* **patterns/fileuploader:** update documentation and add error cases ([#614](https://github.com/adeo/mozaic-design-system/issues/614)) ([595ae07](https://github.com/adeo/mozaic-design-system/commit/595ae07186a70d73359b77ae47d4df142f03d2c3))
+
+
+
+
+
 ## [1.0.1-beta.14](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.13...v1.0.1-beta.14) (2020-07-23)
 
 

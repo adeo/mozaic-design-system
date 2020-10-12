@@ -9,13 +9,21 @@ const Tabs = styled.div`
   z-index: 1;
   top: 0;
   border-bottom: solid 1px #000;
-  background: #e6e6e6;
+  background: white;
+
+  @media screen and (max-width: 767px) {
+    overflow-x: auto;
+  }
 `
 
 const TabsWrapper = styled.div`
   display: inline-flex;
-  padding-left: ${MagicUnit * 3}rem;
+  padding-left: ${MagicUnit * 1.5}rem;
   max-width: ${MagicUnit * 52}rem;
+
+  @media screen and (min-width: 768px) {
+    padding-left: ${MagicUnit * 3}rem;
+  }
 `
 
 const TabItem = styled.div``
@@ -80,13 +88,18 @@ class PageTabs extends PureComponent {
   render() {
     const { samePageTabs } = this.props
     const cleanTabs = this.orderPageTab(samePageTabs)
-
     return (
       <Tabs id="page_tabs_menu">
         <TabsWrapper>
           {cleanTabs.map(node => (
             <TabItem key={node.slug}>
-              <TabLink to={node.slug} activeClassName="is-active">
+              <TabLink
+                to={node.slug}
+                activeClassName="is-active"
+                state={{
+                  isCode: node.title === 'Code',
+                }}
+              >
                 {node.title}
               </TabLink>
             </TabItem>

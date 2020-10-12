@@ -34,7 +34,8 @@
     display: block;
   }
 
-  &__input {
+  &__input,
+  &__element {
     margin-top: magic-unit-rem(0.375, true);
   }
 

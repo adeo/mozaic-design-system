@@ -9,16 +9,15 @@
     @include set-font-scale('06', 'm');
     @include set-font-weight('semi-bold');
 
-    color: $color-font-darker;
-    cursor: pointer;
-    position: relative;
-    padding: $mu125 $mu300 $mu125 $mu050;
-    display: flex;
-    align-items: center;
-    background-image: url(inline-icons('control-more-24',$color-font-darker));
+    background-image: url(inline-icons('control-more-24', $color-font-darker));
     background-position: right $mu050 center;
     background-repeat: no-repeat;
     background-size: $mu150;
+    color: $color-font-darker;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: $mu125 $mu300 $mu125 $mu050;
 
     &:hover {
       background-color: $color-grey-100;
@@ -30,6 +29,11 @@
 
     &--no-padding {
       padding-left: 0;
+    }
+
+    &--icon {
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -56,11 +60,17 @@
 
     &:checked {
       ~ #{$parent}__label {
-        background-image: url(inline-icons('control-less-24', $color-font-darker));
+        background-image:
+          url(
+            inline-icons(
+              'control-less-24',
+              $color-font-darker
+            ));
       }
+
       ~ #{$parent}__content {
         padding-top: $mu050;
-        max-height: 100vh;
+        max-height: none;
         padding-bottom: $mu150;
       }
     }
@@ -68,10 +78,16 @@
     &:disabled {
       ~ #{$parent}__label {
         background-color: $color-grey-100;
-        background-image: url(inline-icons('control-more-24', $color-font-light));
+        background-image:
+          url(
+            inline-icons(
+              'control-more-24',
+              $color-font-light
+            ));
         color: $color-font-light;
         cursor: not-allowed;
       }
+
       ~ #{$parent}__content {
         color: $color-font-light;
         cursor: not-allowed;
@@ -80,11 +96,17 @@
 
     &:disabled:checked {
       ~ #{$parent}__label {
-        background-image: url(inline-icons('control-less-24', $color-font-light));
+        background-image:
+          url(
+            inline-icons(
+              'control-less-24',
+              $color-font-light
+            ));
       }
+
       ~ #{$parent}__content {
         padding-top: $mu050;
-        max-height: 100vh;
+        max-height: none;
       }
     }
   }

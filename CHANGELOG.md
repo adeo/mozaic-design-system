@@ -3,6 +3,81 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.17...v1.0.1-beta.18) (2020-09-29)
+
+
+### Bug Fixes
+
+* **dev-infra:** upgrade packages versions ([#650](https://github.com/adeo/mozaic-design-system/issues/650)) ([6afa52d](https://github.com/adeo/mozaic-design-system/commit/6afa52dbd829d868c9b655bda50b853108cd9160))
+* **patterns/toggle:** increase line-height ([#648](https://github.com/adeo/mozaic-design-system/issues/648)) ([6667601](https://github.com/adeo/mozaic-design-system/commit/66676017b01674f38cd4ff471525a1674a9a40b7))
+
+
+### Features
+
+* **pattern/hero:** add hero design ([#627](https://github.com/adeo/mozaic-design-system/issues/627)) ([672b461](https://github.com/adeo/mozaic-design-system/commit/672b461f2c7afe39246f7e73dda1e9ea294ed054))
+* **patterns/toggle:** remove the horizontal variation of toggle group ([#649](https://github.com/adeo/mozaic-design-system/issues/649)) ([7754317](https://github.com/adeo/mozaic-design-system/commit/77543173048c0f8a6795e00ae7bfbf07ebc95662))
+
+
+
+
+
+## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
+
+
+### Bug Fixes
+
+* **patterns/accordions:** set display:flex only if label has an icon ([#644](https://github.com/adeo/mozaic-design-system/issues/644)) ([bc28d8f](https://github.com/adeo/mozaic-design-system/commit/bc28d8f338bd9d0700052a10e8524c89b52e41d2))
+* **patterns/accordions:** update max-height value when accordion is open ([#645](https://github.com/adeo/mozaic-design-system/issues/645)) ([0117c87](https://github.com/adeo/mozaic-design-system/commit/0117c87fee0d30270a9aff9be7b9313a804f78e4))
+* **patterns/toggle:** remove white-space property on .mc-toggle__label ([#640](https://github.com/adeo/mozaic-design-system/issues/640)) ([7550d00](https://github.com/adeo/mozaic-design-system/commit/7550d00ea95a8b2f541550cf79fe6129eb1fe09a))
+* **website/docs:** remove fileuploader section (already under form) ([#639](https://github.com/adeo/mozaic-design-system/issues/639)) ([b95880a](https://github.com/adeo/mozaic-design-system/commit/b95880ad07b548c8cc3676353efc63bc7e77a089))
+* **website/freemarker:** update links to components on the core documentation ([#646](https://github.com/adeo/mozaic-design-system/issues/646)) ([50b0d37](https://github.com/adeo/mozaic-design-system/commit/50b0d3709633d038bb1f6e677ab73d59542b585c))
+
+
+### Features
+
+* **patterns/headings:** add a default margin bottom on headings ([#630](https://github.com/adeo/mozaic-design-system/issues/630)) ([64f7971](https://github.com/adeo/mozaic-design-system/commit/64f7971b97807c75db038f8e022b53c95675f9c6))
+* **website/calloutvue:** display vuejs link in code tab ([#637](https://github.com/adeo/mozaic-design-system/issues/637)) ([8936e86](https://github.com/adeo/mozaic-design-system/commit/8936e861e6edaa5eb6691b5b2ad23840c69033a1))
+
+
+
+
+
+## [1.0.1-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.15...v1.0.1-beta.16) (2020-09-01)
+
+
+### Bug Fixes
+
+* **chore:** update admzip to fix error 79 on Catalina OS ([#619](https://github.com/adeo/mozaic-design-system/issues/619)) ([4a495d6](https://github.com/adeo/mozaic-design-system/commit/4a495d69068dddfb968cd9d0ff5363073f738452))
+* **patterns/headings:** fix responsive modifiers for alignment ([#628](https://github.com/adeo/mozaic-design-system/issues/628)) ([cf0b2d4](https://github.com/adeo/mozaic-design-system/commit/cf0b2d4563292342c8530683558eb22856794ab8)), closes [#623](https://github.com/adeo/mozaic-design-system/issues/623)
+* **tools/tokens:** update swift colors tokens ([#625](https://github.com/adeo/mozaic-design-system/issues/625)) ([f829cc4](https://github.com/adeo/mozaic-design-system/commit/f829cc44e879e4700aca2b2019fc55a4779f653d)), closes [#624](https://github.com/adeo/mozaic-design-system/issues/624)
+
+
+### Features
+
+* **pattern/tabs:** improve tabs accessibility and documentation ([#621](https://github.com/adeo/mozaic-design-system/issues/621)) ([7c79027](https://github.com/adeo/mozaic-design-system/commit/7c79027c4893790731263692234e129278a68549))
+* **website/header:** add js links  ([#612](https://github.com/adeo/mozaic-design-system/issues/612)) ([5e322e3](https://github.com/adeo/mozaic-design-system/commit/5e322e34bb4aba5ee6ee786bc3714ccb898035e2))
+* **website/roadmap:** update the roadmap ([#622](https://github.com/adeo/mozaic-design-system/issues/622)) ([adb7012](https://github.com/adeo/mozaic-design-system/commit/adb701225931f931d240086069c0fcf5ec3a9b84))
+
+
+
+
+
+## [1.0.1-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.14...v1.0.1-beta.15) (2020-08-04)
+
+
+### Bug Fixes
+
+* **patterns/fileuploader:** update documentation and add error cases ([#614](https://github.com/adeo/mozaic-design-system/issues/614)) ([595ae07](https://github.com/adeo/mozaic-design-system/commit/595ae07186a70d73359b77ae47d4df142f03d2c3))
+
+
+### Features
+
+* **tools:** add swift token config (StyleDictionnary) ([#615](https://github.com/adeo/mozaic-design-system/issues/615)) ([1d8aaf2](https://github.com/adeo/mozaic-design-system/commit/1d8aaf229552a5b2ffcd8dec52ad2a7f30a6da7e))
+
+
+
+
+
 ## [1.0.1-beta.14](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.13...v1.0.1-beta.14) (2020-07-23)
 
 

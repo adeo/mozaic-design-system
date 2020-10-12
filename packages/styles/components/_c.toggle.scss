@@ -8,14 +8,14 @@
   }
 
   &__label {
-    @include set-font-scale('05', 'xs');
+    @include set-font-scale('05', 'm');
     @include set-toggle-size('m');
 
     box-sizing: border-box;
-    display: inline-block;
-    white-space: nowrap;
     cursor: pointer;
+    display: table-cell;
     position: relative;
+    vertical-align: middle;
     user-select: none;
 
     :disabled + & {
@@ -25,11 +25,12 @@
     &::after,
     &::before {
       box-sizing: border-box;
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: block;
       content: '';
+      display: block;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
     }
 
     // the switch background
@@ -72,7 +73,7 @@
       :checked + & {
         border-color: $color-toggle-on-background;
         background-color: $color-toggle-on-circle;
-        transform: translateX(100%);
+        transform: translate(100%, -50%);
       }
 
       :disabled + & {

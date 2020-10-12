@@ -1,10 +1,17 @@
 ---
 title: 'Toggle'
-order: 7
+order: 9
 description: 'A toggle is used to choose between two possibilities and when the user needs instant feedback. It is common to use toggles when you need to show or hide content and "on/off" switch'
+links:
+  vue:
+    link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-mtoggle--try-it'
+    status: 'bêta'
+  freemarker:
+    status: 'bêta'
+    link: 'https://adeo.github.io/integration-web-core--socle/pages/Components/form/switch/'
 status:
-  sketch: 'bêta'
-  scss: 'bêta'
+  sketch: 'stable'
+  scss: 'stable'
 ---
 
 > A toggle is used to choose between two possibilities and when the user needs instant feedback. It is common to use toggles when you need to show or hide content and "on/off" switch.
@@ -67,6 +74,17 @@ Help text corresponds to a relevant piece of information to make sure the user u
 You can use a reactive label, witch will change depending on the state of the toggle.
 
 <Preview path="toggle-states-label" nude />
+
+### Label on two lines
+
+In uncommon use cases where the text is on two lines, the text box must stay centred with the toggle.
+
+<Highlight theme="warning" title="Be aware">
+  As a reminder, a toggle is used to have instant feedback, using a short label is the best way to use this component.
+</Highlight>
+
+<Preview path="toggle-default-2lines" nude />
+
 
 ## Do's and Don't
 
