@@ -4,7 +4,6 @@
 
 @import 'components/_c.layer';
 @import 'components/_c.button';
-@import 'components/_c.links';
 
 .example {
   @include set-font-face('regular');
@@ -15,6 +14,5 @@
 }
 
 .mc-layer__content {
-  background-color: #eeeef0;
   min-height: 100%;
 }

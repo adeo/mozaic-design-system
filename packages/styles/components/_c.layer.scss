@@ -25,8 +25,8 @@
     height: 100%;
     max-width: percentage(10/12);
     padding-bottom: $mu100;
-    padding-left: $mu100;
-    padding-right: magic-unit-rem(1.125, true);
+    transform: translate(100%, 0);
+    transition: transform 0.4s ease-in-out;
     width: 100%;
 
     @include set-from-screen(m) {
@@ -36,6 +36,21 @@
     @include set-from-screen(xxl) {
       max-width: 448px;
       padding-bottom: $mu150;
+    }
+
+    &.is-open {
+      transform: translate(0, 0);
+      transition: transform 0.4s ease-in-out;
+    }
+  }
+
+  &__header,
+  &__body,
+  &__footer {
+    padding-left: $mu100;
+    padding-right: magic-unit-rem(1.125, true);
+
+    @include set-from-screen(xxl) {
       padding-left: $mu200;
       padding-right: $mu200;
     }
@@ -94,6 +109,34 @@
   &__body {
     flex-grow: 1;
     overflow: hidden;
+
+    &--overflowing {
+      border-bottom: get-border(s) solid $color-grey-200;
+      position: relative;
+
+      &::after {
+        content: '';
+        background-image:
+          linear-gradient(
+            to top,
+            rgba($color-grey-999, 0.2),
+            rgba($color-grey-999, 0)
+          );
+        bottom: 0;
+        position: absolute;
+        height: 1.875rem;
+        left: 0;
+        right: 0;
+
+        @include set-from-screen(s) {
+          height: 2.625rem;
+        }
+
+        @include set-from-screen(s) {
+          height: 2.25rem;
+        }
+      }
+    }
   }
 
   &__content {
@@ -142,13 +185,25 @@
   }
 
   &-overlay {
-    filter: blur(1px);
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     background-color: rgba($color-grey-900, 0.7);
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    filter: blur(1px);
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    pointer-events: none;
+    right: 0;
+    top: 0;
+    transition: opacity 0.4s ease, visibility 0ms 0.4s;
     z-index: 1999999998;
+
+    &.is-visible {
+      opacity: 1;
+      pointer-events: all;
+      transition: opacity 0.4s ease, visibility 0ms;
+      visibility: visible;
+    }
   }
 }

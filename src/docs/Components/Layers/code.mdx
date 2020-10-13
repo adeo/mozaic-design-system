@@ -22,9 +22,9 @@ Import the **settings**, the **layer**, and the **button** scss files.
 
 A layer is composed of several zones:
 
-- **A header** with the class : `mc-layer__header`
-- **A body** with class: `mc-layer__body`
-- **A footer** with class: `mc-layer__footer`
+- **A header** with the class : `mc-layer__header` **_(mandatory)_**
+- **A body** with class: `mc-layer__body` **_(mandatory)_**
+- **A footer** with class: `mc-layer__footer` **_(optional)_**
 
 These areas are then encompassed in:
 
@@ -66,11 +66,11 @@ These areas are then encompassed in:
 
 <Preview path="default" />
 
-### Detail of areas
+## Detail of areas
 
 In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
 
-#### The header
+### The header
 
 The header contains:
 
@@ -80,11 +80,11 @@ The header contains:
 
 > These elements are mandatory and must always be present in your layer code. With the exception of the icon which is optional.
 
-#### The body
+### The body
 
 The body can contain your custom content. It can be text, buttons, and so on.
 
-#### The footer
+### The footer
 
 The footer is the area that allows you to insert calls to action. This area is optional and is not always present depending on the context in which your layer is used.
 
@@ -99,6 +99,10 @@ As detailed above, you can add an icon in the header. You can do this in the fol
 <Preview path="header-with-icon" />
 
 > The width of the icon is 24px _(`$mu150`)_
+
+### Body with scrolling content
+
+<Preview path="scrolling-content" />
 
 ### Footer - two call to actions
 
@@ -126,22 +130,3 @@ During the opening of a layer by Javascript, several events occur:
 
 - Added the `mc-layer-open` class to the body to prevent the default scrolling of the browser window.
 - A `mc-layer-overlay` element is generated in the DOM.
-
-## Accessibility
-
-<HintItem>
-  The layer container (mc-layer) must always have a{' '}
-  <strong>aria-labelledby</strong> attribute whose value corresponds to the
-  value of the <strong>id</strong> attribute of the layer title.
-</HintItem>
-<HintItem>
-  The layer title must always have an <strong>id</strong> attribute.
-</HintItem>
-<HintItem>
-  When layer is hidden, the <strong>mc-layer</strong> container must have a{' '}
-  <strong>aria-hidden="true"</strong> attribute.
-</HintItem>
-<HintItem>
-  When layer is visible, the <strong>mc-layer</strong> container must have a{' '}
-  <strong>aria-hidden="false"</strong> attribute.
-</HintItem>
