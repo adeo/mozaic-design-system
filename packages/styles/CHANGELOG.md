@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.19](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.18...v1.0.1-beta.19) (2020-10-14)
+
+
+### Bug Fixes
+
+* **patterns/notification:** remove margin-top on notification message if no title ([#654](https://github.com/adeo/mozaic-design-system/issues/654)) ([049e590](https://github.com/adeo/mozaic-design-system/commit/049e590919ec596bc452323c41d76521955464f6))
+
+
+
+
+
 ## [1.0.1-beta.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.17...v1.0.1-beta.18) (2020-09-29)
 
 
