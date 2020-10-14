@@ -10,10 +10,10 @@ $tag-sizes: (
     'border-radius': 0.75rem,
   ),
   'm': (
-    'padding': $mu050 $mu100,
+    'padding': $mu075 $mu150,
     'font-size': '04',
     'line-height': 's',
-    'border-radius': 1rem,
+    'border-radius': 1.25rem,
   ),
 );
 
@@ -44,9 +44,9 @@ $tag-sizes: (
   }
 
   @if $size == 'm' {
-    width: $mu200;
-    height: $mu200;
-    background-size: $mu150;
+    width: $mu250;
+    height: $mu250;
+    background-size: $mu200;
   }
 }
 

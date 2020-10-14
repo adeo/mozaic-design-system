@@ -193,7 +193,7 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding: $mu050 $mu025 $mu050 $mu100;
+          padding: $mu050 $mu100 $mu050 $mu125;
         }
 
         .mc-tag-removable__remove {
@@ -209,7 +209,7 @@
     }
 
     &__label {
-      padding: $mu050 $mu025 $mu050 $mu100;
+      padding: $mu075 $mu100 $mu075 $mu150;
       transform: translateY(-0.075em);
     }
 
