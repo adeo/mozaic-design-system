@@ -2,8 +2,8 @@
   Mozaic Design System
 </h1>
 
-> Mozaic is an open-source design system built by Adeo. A design system to reinforce team’s delivery time, 
-> improve quality of deliverables and thus help set up a coherent customer experience.
+> Mozaic is an open-source design system built by Adeo; to reinforce team’s delivery time, improve quality
+> of deliverables and thus help set up a coherent customer experience.
 
 <p align="center">
   <a href="https://github.com/carbon-design-system/carbon/blob/master/LICENSE">
@@ -27,16 +27,15 @@ If your are looking for JS components, we have community-contributed components 
 - [Freemarker](https://github.com/adeo/mozaic-freemarker)
 - [Vue](https://github.com/adeo/mozaic-vue)
 - [Angular](https://github.com/adeo/mozaic-angular)
-- [React](https://github.com/adeo/mozaic-react)
 
 If you're trying to find something specific, here's a list of our main packages that we support!
 
 | Package name                                  | Description                                                                                                                                                                             |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`@mozaic-ds/styles`](./packages/styles)                 | All the CSS and SCSS files that constitute the Mozaic SCSS framework.                                                                                                                                                 |
-| [`@mozaic-ds/tokens`](./packages/tokens)                 | Tokens are theming/styling constants defined in a JSON file. They are trasnpiled into multiple format to be shared across plateforms (SCSS, IOS, ANDROID...).                                                     |
-| [`@mozaic-ds/css-dev-tools`](./packages/css-dev-tools)     | Right now the tools are composed only of SCSS/PostCSS tools.                                                                                                                   |
-| [`@mozaic-ds/web-fonts`](./packages/web-fonts)         | All fonts available in MDS (LM fonts currently)                                                                                                                                                    |
+| [`@mozaic-ds/styles`](./packages/styles)                 | All the SCSS files that constitute the Mozaic SCSS framework.                                                                                                                                                 |
+| [`@mozaic-ds/tokens`](./packages/tokens)                 | Tokens are theming/styling constants defined in a JSON file. They are transpiled into multiple format to be shared across plateforms (SCSS, IOS, ANDROID...).                                                     |
+| [`@mozaic-ds/css-dev-tools`](./packages/css-dev-tools)     | Tools for css like PostCSS plugins and linters config tools.                                                                                                                   |
+| [`@mozaic-ds/web-fonts`](./packages/web-fonts)         | Currently, the Leroy Merlin font only                                                                                                                                                    |
 | [`@mozaic-ds/icons`](./packages/icons)           | Iconography assets. We also offer support in: [React](./packages/icons/react), [Ios](./packages/icons/pdf), and [Vue](./packages/icons/vue) |
 
 
