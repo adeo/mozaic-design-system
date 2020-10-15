@@ -41,12 +41,14 @@ $tag-sizes: (
     width: $mu150;
     height: $mu150;
     background-size: $mu100;
+    transform: none;
   }
 
   @if $size == 'm' {
     width: $mu200;
     height: $mu200;
     background-size: $mu150;
+    transform: translateY(0.25rem);
   }
 }
 
