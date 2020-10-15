@@ -44,9 +44,9 @@ $tag-sizes: (
   }
 
   @if $size == 'm' {
-    width: $mu250;
-    height: $mu250;
-    background-size: $mu200;
+    width: $mu200;
+    height: $mu200;
+    background-size: $mu150;
   }
 }
 
