@@ -5,7 +5,7 @@ order: 7
 
 # Setup a project using Mozaic and npm scripts
 
-In this example, in order to familiarize with mozaic, we will setup a simple web dev environement :
+In this example, in order to familiarize with Mozaic, we will set up a simple web dev environment :
 
 - Install and configure our postcss build pipeline
 - Import our first Mozaic SCSS tools and settings, and use them
@@ -23,11 +23,11 @@ Now you should have :
 ## I) Install and configure PostCSS
 
 Configuring Postcss is always done by providing an array of plugins.
-Mozaic provide you with this array of postcss plugins, but no task runner comes with it.
+Mozaic provides you with this array of postcss plugins, but no task runner comes with it.
 
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-For this tutorial, we will use npm scripts and some npm package as simple exemple.
+For this tutorial, we will use npm scripts and some npm package as simple example.
 
 ### A) Install postcss-cli :
 
@@ -79,7 +79,7 @@ my-project/
 ├── postcss.config.js
 ```
 
-### D) Add scripts to build and watch your css :
+### D) Add scripts to build and watch your CSS :
 
 create the following npm scripts under the script keys in your package.json file.
 
@@ -99,7 +99,7 @@ We also created a `css:watch` command to watch our changes to the scss files.
 npm run css:watch
 ```
 
-Now each time you make a change, the `dist/bundle.css` file is updated. Postcss also create a `dist/bundle.css.map` witch will alow you to determine the source file and line of a declaration in the browser inspector.
+Now each time you make a change, the `dist/bundle.css` file is updated. Postcss also create a `dist/bundle.css.map` which will allow you to determine the source file and line of a declaration in the browser inspector.
 
 Postcss is up and running 😝 !!!
 
@@ -107,15 +107,15 @@ Postcss is up and running 😝 !!!
 
 ### stylelint to lint SCSS files :
 
-stylelint comes with its configuration in Mozaic and it is provided at compilation time. You don't necessarily need a root config file, but in some case you may want to have it, for exemple to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
+stylelint comes with its configuration in Mozaic and it is provided at compilation time. You don't necessarily need a root config file, but in some case, you may want to have it, for example to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
 
-In that case you can create a `stylelint.config.js` file in the root dir of your project.
+In that case, you can create a `stylelint.config.js` file in the root dir of your project.
 
-As an exemple, we will create a npm script that will fix the syntax in our SCSS files.
+As an example, we will create an NPM script that will fix the syntax in our SCSS files.
 
-### A) Create a npm fix command :
+### A) Create a NPM fix command :
 
-let's create a npm script to fix our stylelint errors, add the following in your `package.json` :
+let's create a NPM script to fix our stylelint errors, add the following in your `package.json` :
 
 ```json
 "scripts": {
@@ -137,11 +137,11 @@ then edit the file and add the folowing code :
 module.exports = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 ```
 
-Run the `npm run css:lint-fix` command. Nothing should appen, because the code you copied as no error (let's hope).
+Run the `npm run css:lint-fix` command. Nothing should happen, because the code you copied as no error (let's hope).
 
 ### C) Let's test that :
 
-Edit your `src/bundle.scss` file, and edit line 5 to remove the line break betwen the mixin instantiation and the first declaration :
+Edit your `src/bundle.scss` file, and edit line 5 to remove the line break between the mixin instantiation and the first declaration :
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -164,14 +164,14 @@ et voilà !
 
 **Mozaic provide you with static assets like fonts, icons or logos.**
 
-Depending on your env, statics assets likes icons or fonts may be served from a diferent URL.
+Depending on your env, statics assets like icons or fonts may be served from a diferent URL.
 
-let's create **a live-reloading dev server** as an exemple.
+let's create **a live-reloading dev server** as an example.
 
 ### A) Copy the statics :
 
 Let's make a script that will clean our `dist/statics/` directory and copy the static assets from the Mozaic `nodes_module` to our project.
-that way, we will be sure that we always have the last version of thoses static assets in our project.
+that way, we will be sure that we always have the last version of those static assets in our project.
 
 Add in your package.json the following script :
 
@@ -182,17 +182,16 @@ Add in your package.json the following script :
 },
 ```
 
-I know it's not the most elegant way of doing thing, but it is only for the example's sake. 😅
 
 ### B) Create a dev server :
 
-First let's install `live-server`
+First, let's install `live-server`
 
 ```shell
 npm install live-server --save-dev
 ```
 
-And create a scritp to lunch it upon our `dist/` directory. We will tell it to refresh the browser whenever there is a change in the dist directory, and also to run the `statics:copy` command before starting.
+And create a script to lunch it upon our `dist/` directory. We will tell it to refresh the browser whenever there is a change in the dist directory, and also to run the `statics:copy` command before starting.
 
 ```json
 "scripts": {
@@ -221,13 +220,13 @@ paste the following inside :
 </html>
 ```
 
-now run `npm run serve`. Live server should open your favorite browser.
+now run `npm run serve`. A live server should open your favorite browser.
 
 you should now see something like this :
 
 ![](tutoserve.png)
 
-Change 'Hello Mozaic' for 'Hello foo' in your `index.html`and save. Your browser should refresh atomatically.
+Change 'Hello Mozaic' for 'Hello foo' in your `index.html` and save. Your browser should refresh automatically.
 
 ### D) Use the Mozaic Fonts
 
@@ -264,7 +263,7 @@ body {
 }
 ```
 
-In the previous file, we set our path to path to fontfaces. Graden is now able to load them.
+In the previous file, we set our path to path to font faces. Graden is now able to load them.
 
 ```scss
 $local-config: (
@@ -286,7 +285,7 @@ your browser should now look like this :
 
 # Notes
 
-> Note that you may only want to compile exisiting Mozaic components. In that case, you just have to create your own bundle, and import the parts you are interested in :
+> Note that you may only want to compile existing Mozaic components. In that case, you just have to create your own bundle, and import the parts you are interested in :
 
 ```scss
 // mandatory
@@ -305,4 +304,4 @@ Note that if you want to pipe your own components into the same as the Mozaic on
 
 Please read [our guidelines](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/) to write CSS that follows our conventions.
 
-If you choose not to follow our guideline, build your CSS appart from the Mozaic ones with the tool of your choice.
+If you choose not to follow our guideline, build your CSS apart from the Mozaic ones with the tool of your choice.
