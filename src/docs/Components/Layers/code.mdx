@@ -1,0 +1,133 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import the **settings**, the **layer**, and the **button** scss files.
+
+> Note that you can also implement in addition the scss file of **the links** if you use this component in your layers.
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.layer';
+@import 'components/_c.button';
+```
+
+## Usage
+
+A layer is composed of several zones:
+
+- **A header** with the class : `mc-layer__header` **_(mandatory)_**
+- **A body** with class: `mc-layer__body` **_(mandatory)_**
+- **A footer** with class: `mc-layer__footer` **_(optional)_**
+
+These areas are then encompassed in:
+
+- A specific container with the class: `mc-layer__dialog`
+- A global wrapper with the class: `mc-layer`
+
+```html
+<div
+  class="mc-layer"
+  role="dialog"
+  aria-labelledby="layerTitle"
+  aria-modal="true"
+  aria-hidden="true"
+  tabindex="-1"
+>
+  <div class="mc-layer__dialog" role="document">
+    <div class="mc-layer__header">
+      <h2 class="mc-layer__title" id="layerTitle">Layer Title</h2>
+      <button class="mc-layer__close" type="button">
+        <span class="mc-layer__close-text">Close</span>
+      </button>
+    </div>
+    <div class="mc-layer__body">
+      <div class="mc-layer__content">
+        <!-- Here your content -->
+      </div>
+    </div>
+    <div class="mc-layer__footer">
+      <button type="button" class="mc-button">
+        <span class="mc-button__label">Button label</span>
+      </button>
+      <button type="button" class="mc-button mc-button--bordered">
+        <span class="mc-button__label">Button label</span>
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+<Preview path="default" />
+
+## Detail of areas
+
+In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
+
+### The header
+
+The header contains:
+
+- the title of the layer _(`.mc-layer__title`)_
+- as well as its close button _(`.mc-layer__close`)_
+- it's also possible to add an icon if needed _(`.mc-layer__icon`)_
+
+> These elements are mandatory and must always be present in your layer code. With the exception of the icon which is optional.
+
+### The body
+
+The body can contain your custom content. It can be text, buttons, and so on.
+
+### The footer
+
+The footer is the area that allows you to insert calls to action. This area is optional and is not always present depending on the context in which your layer is used.
+
+If there is a footer in your layer, note that the call-to-actions buttons inside always take 100% of the layer width on the `breakpoint-s`.
+
+## Variations
+
+### Header with icon
+
+As detailed above, you can add an icon in the header. You can do this in the following way:
+
+<Preview path="header-with-icon" />
+
+> The width of the icon is 24px _(`$mu150`)_
+
+### Body with scrolling content
+
+<Preview path="scrolling-content" />
+
+### Footer - two call to actions
+
+A primary call to action button accompanied with a secondary button to give the user an alternative choice.
+
+<Preview path="cta-two" />
+
+### Footer - call to action and link
+
+A primary call to action button with a link to redirect the user to a page to give more informations.
+
+<Preview path="cta-link" />
+
+### Without footer
+
+As detailed above, the footer is optional. Depending on the context of your layer, you can do without it:
+
+<Preview path="without-footer" />
+
+## Behaviour
+
+### On opening
+
+During the opening of a layer by Javascript, several events occur:
+
+- Added the `mc-layer-open` class to the body to prevent the default scrolling of the browser window.
+- Added the `is-open` class on the `mc-layer__dialog` element.
+- An `mc-layer-overlay` element is generated in the DOM. This element must also have the class `is-visible`.

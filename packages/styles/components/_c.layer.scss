@@ -1,0 +1,209 @@
+.mc-layer {
+  @include set-font-face();
+
+  box-sizing: border-box;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  left: 0;
+  outline: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1999999999; // To get the layer on top of Mopinion.
+
+  * {
+    box-sizing: inherit;
+  }
+
+  &__dialog {
+    background: $color-grey-000;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: percentage(10/12);
+    padding-bottom: $mu100;
+    transform: translate(100%, 0);
+    transition: transform 0.4s ease-in-out;
+    width: 100%;
+
+    @include set-from-screen(m) {
+      max-width: percentage(7/12);
+    }
+
+    @include set-from-screen(l) {
+      max-width: 448px;
+      padding-bottom: $mu150;
+    }
+
+    &.is-open {
+      transform: translate(0, 0);
+      transition: transform 0.4s ease-in-out;
+    }
+  }
+
+  &__header,
+  &__body,
+  &__footer {
+    padding-left: $mu100;
+    padding-right: magic-unit-rem(1.125, true);
+
+    @include set-from-screen(l) {
+      padding-left: $mu200;
+      padding-right: $mu200;
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: $mu050;
+    padding-top: $mu100;
+    margin-bottom: $mu075;
+    min-height: magic-unit-rem(3.75, true);
+
+    @include set-from-screen(l) {
+      padding-bottom: $mu075;
+      padding-top: magic-unit-rem(1.25, true);
+      margin-bottom: $mu150;
+      min-height: magic-unit-rem(4.25, true);
+    }
+  }
+
+  &__icon {
+    fill: $color-grey-600;
+    height: $mu150;
+    margin-right: $mu075;
+    width: $mu150;
+  }
+
+  &__title {
+    @include set-font-scale('04', 'm');
+    @include set-font-weight('regular');
+
+    color: $color-font-light;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  &__close {
+    @include unstyle-button();
+
+    align-self: flex-start;
+    background:
+      transparent
+      url(inline-icons('control-cross-32', $color-grey-500)) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    height: $mu200;
+    margin-left: auto;
+    width: $mu200;
+
+    &-text {
+      @include set-hidden-input();
+    }
+  }
+
+  &__body {
+    flex: 1 1;
+    overflow: hidden;
+
+    &--overflowing {
+      border-bottom: get-border(s) solid $color-grey-200;
+      position: relative;
+
+      &::after {
+        content: '';
+        background-image:
+          linear-gradient(
+            to top,
+            rgba($color-grey-999, 0.2),
+            rgba($color-grey-999, 0)
+          );
+        bottom: 0;
+        position: absolute;
+        height: 1.875rem;
+        left: 0;
+        right: 0;
+
+        @include set-from-screen(s) {
+          height: 2.625rem;
+        }
+
+        @include set-from-screen(s) {
+          height: 2.25rem;
+        }
+      }
+    }
+  }
+
+  &__content {
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: $color-grey-600 $color-grey-100;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+      background-color: $color-grey-100;
+      width: $mu025;
+
+      &-thumb {
+        background: $color-grey-600;
+      }
+    }
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: $mu100;
+
+    @include set-from-screen(l) {
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: $mu150;
+    }
+
+    & > :first-child {
+      &:not(:only-child) {
+        margin-bottom: $mu075;
+
+        @include set-from-screen(l) {
+          margin-bottom: 0;
+          margin-right: $mu100;
+        }
+      }
+    }
+  }
+
+  &-open {
+    overflow: hidden;
+  }
+
+  &-overlay {
+    background-color: rgba($color-grey-900, 0.7);
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    filter: blur(1px);
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    pointer-events: none;
+    right: 0;
+    top: 0;
+    transition: opacity 0.4s ease, visibility 0ms 0.4s;
+    z-index: 1999999998;
+
+    &.is-visible {
+      opacity: 1;
+      pointer-events: all;
+      transition: opacity 0.4s ease, visibility 0ms;
+      visibility: visible;
+    }
+  }
+}
