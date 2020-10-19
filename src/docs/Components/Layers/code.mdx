@@ -129,4 +129,5 @@ As detailed above, the footer is optional. Depending on the context of your laye
 During the opening of a layer by Javascript, several events occur:
 
 - Added the `mc-layer-open` class to the body to prevent the default scrolling of the browser window.
-- A `mc-layer-overlay` element is generated in the DOM.
+- Added the `is-open` class on the `mc-layer__dialog` element.
+- An `mc-layer-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
