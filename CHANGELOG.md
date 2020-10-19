@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.19](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.18...v1.0.1-beta.19) (2020-10-14)
+
+
+### Bug Fixes
+
+* **onboard/contributing:** repair broken link in SubmitNewPattern page ([#653](https://github.com/adeo/mozaic-design-system/issues/653)) ([928c876](https://github.com/adeo/mozaic-design-system/commit/928c8761acef82c9e3e7ec6a702e60101433e1ef))
+* **patterns/notification:** remove margin-top on notification message if no title ([#654](https://github.com/adeo/mozaic-design-system/issues/654)) ([049e590](https://github.com/adeo/mozaic-design-system/commit/049e590919ec596bc452323c41d76521955464f6))
+
+
+### Features
+
+* **onboard/readme:** upgrade readme  ([#652](https://github.com/adeo/mozaic-design-system/issues/652)) ([5b32c89](https://github.com/adeo/mozaic-design-system/commit/5b32c89c231b5a306bc923e9b01ce03717291470))
+
+
+
+
+
 ## [1.0.1-beta.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.17...v1.0.1-beta.18) (2020-09-29)
 
 
