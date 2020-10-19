@@ -7,13 +7,13 @@ $tag-sizes: (
     'padding': $mu025 $mu100,
     'font-size': '04',
     'line-height': 's',
-    'border-radius': 0.75rem,
+    'border-radius': $mu075,
   ),
   'm': (
     'padding': $mu075 $mu150,
     'font-size': '04',
     'line-height': 's',
-    'border-radius': 1.25rem,
+    'border-radius': $mu125,
   ),
 );
 
