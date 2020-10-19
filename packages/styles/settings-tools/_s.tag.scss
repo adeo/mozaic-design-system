@@ -52,7 +52,7 @@ $tag-sizes: (
 
 @mixin set-tag-icon-B64($theme: 'light') {
   @if $theme == 'light' {
-    background-image: url(inline-icons('tag-delete-24', $color-grey-900));
+    background-image: url(inline-icons('tag-delete-24', $color-grey-800));
   }
 
   @if $theme == 'dark' {
