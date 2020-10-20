@@ -7,13 +7,13 @@ $tag-sizes: (
     'padding': $mu025 $mu100,
     'font-size': '04',
     'line-height': 's',
-    'border-radius': 0.75rem,
+    'border-radius': $mu075,
   ),
   'm': (
-    'padding': $mu050 $mu100,
+    'padding': $mu075 $mu150,
     'font-size': '04',
     'line-height': 's',
-    'border-radius': 1rem,
+    'border-radius': $mu125,
   ),
 );
 
@@ -44,15 +44,15 @@ $tag-sizes: (
   }
 
   @if $size == 'm' {
-    width: $mu200;
-    height: $mu200;
+    width: $mu250;
+    height: $mu250;
     background-size: $mu150;
   }
 }
 
 @mixin set-tag-icon-B64($theme: 'light') {
   @if $theme == 'light' {
-    background-image: url(inline-icons('tag-delete-24', $color-grey-900));
+    background-image: url(inline-icons('tag-delete-24', $color-grey-800));
   }
 
   @if $theme == 'dark' {
