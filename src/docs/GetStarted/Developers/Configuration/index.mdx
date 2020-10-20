@@ -1,5 +1,5 @@
 ---
-title: 'Mozaic configuration'
+title: 'Configuration'
 order: 10
 ---
 
@@ -7,7 +7,7 @@ order: 10
 
 > mozaic.config.js allows you to configure and customize Mozaic.
 
-Create a mozaic.config.js file at the root of your project :
+Create a mozaic.config.js file at the root of your project:
 
 ```js
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
 
 ## SASS options
 
-### `sass.includePaths` : array of paths
+### `sass.includePaths`: array of paths
 
 Allow you to import SCSS files from those paths without having to specify them.
 Specified paths will be added to the default ones.
@@ -47,7 +47,7 @@ module.exports = {
 }
 ```
 
-### `sass.indentWidth` : integer
+### `sass.indentWidth`: integer
 
 Change the indent width of the compiled CSS file.
 
@@ -63,7 +63,7 @@ module.exports = {
 }
 ```
 
-## Tokens options :
+## Tokens options:
 
 ### `tokens.localTokensSrcPath` and `tokens.localTokensExportPath`
 
@@ -82,7 +82,7 @@ module.exports = {
 }
 ```
 
-## stylelint options :
+## stylelint options:
 
 ### `stylelint.caseStyle`: String or Regex
 
@@ -90,7 +90,7 @@ Allow you to choose the case style to lint. You can add your own Regex rule to l
 
 **Default values: 'kebab-case'**
 
-**Example : **
+**Example: **
 ```js
   caseStyle: 'kebab-case' | 'camelCase' | 'snake_case' | 'PascalCase' | /^[a-z]+(_[a-z]+)*$/
 ```

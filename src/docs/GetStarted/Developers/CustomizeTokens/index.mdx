@@ -7,27 +7,27 @@ order: 9
 
 Under the hood, Mozaic SCSS uses the compiled tokens that we provide in the `@mozaic-ds/tokens` npm package. This dependency is imported via `@mozaic-ds/styles` by default.
 
-Mozaic tokens are based upon the LEROY MERLIN brand guidelines but you can adapt those tokens to fit your brand identity.
+Mozaic tokens are based upon the LEROY MERLIN brand guidelines but you can adapt these tokens to fit your brand identity.
 
 **It is possible for you to override any value and to add new ones in order to create new patterns or pattern variations**.
 
-## About tokens :
+## About tokens:
 
 As a reminder, we call tokens a series of JSON files containing mostly color values (among others things). Those files are transpiled into SCSS, js, ios, and android formats, to be used within multiple platforms and technologies.
 
 <Highlight theme="tips" title="For more informations">
 
-Read the following documentations :
+Read the following documentations:
 
-[Getting started : Variables and design tokens](/GetStarted/Developers/CssNamingConventions/#variables-and-design-tokens)  
-[Contributting : design tokens](/Contributing/Developers/DesignTokens/)
+[Getting started: Variables and design tokens](/GetStarted/Developers/CssNamingConventions/#variables-and-design-tokens)  
+[Contributting: design tokens](/Contributing/Developers/DesignTokens/)
 
 </Highlight>
 
 
 ## 1 - Configure Mozaic
 
-If it is not already done, create a `mozaic.config.js` file at your project root. Then define those keys :
+If it is not already done, create a `mozaic.config.js` file at your project root. Then define those keys:
 
 ```js
 module.exports = {
@@ -38,7 +38,7 @@ module.exports = {
 }
 ```
 
-By doing that, you tell Mozaic where to look for the source tokens, and where to save the compiled ones. We also use the `localTokensExportPath` inside Postcss to tell it where to look for the SCSS tokens. In that way, the SCSS will load the customized ones instead of the ones living in the npm package.
+By doing that, you tell Mozaic where to look for the source tokens, and where to save the compiled ones. We also use the `localTokensExportPath` inside Postcss to tell it where to look for the SCSS tokens. By doing that, the SCSS will load the customized ones instead of the ones living in the npm package.
 
 ## 2 - Override tokens
 
@@ -56,7 +56,7 @@ You can override any value, Mozaic will take care of deep merging the source tok
 </Highlight>
 
 
-For example, in `./src/tokens/properties/color/base.json` :
+For example, in `./src/tokens/properties/color/base.json`:
 
 ```Json
 {
@@ -78,13 +78,13 @@ In order to compile tokens, you have two options
 
 ### The mozaic-tokens-build command
 
-run directly :
+run directly:
 
 ```shell
 mozaic-tokens-build
 ```
 
-or through a `package.json` script for example :
+or through a `package.json` script for example:
 
 ```Json
 ...
@@ -96,7 +96,7 @@ or through a `package.json` script for example :
 
 ### Using the js funtion
 
-If you want to trigger the tokens build inside a node script, you can use the function provided by Mozaic :
+If you want to trigger the tokens build inside a node script, you can use the function provided by Mozaic:
 
 ```js
 const tokensBuild = require('@mozaic-ds/tokens/tokensBuild')
@@ -113,7 +113,7 @@ Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value:
 
 ## 4 - Create new values
 
-The same way, by declaring new values, you can create new tokens for your use :
+The same way, by declaring new values, you can create new tokens for your use:
 
 ```Json
 {
@@ -136,7 +136,7 @@ The same way, by declaring new values, you can create new tokens for your use :
 }
 ```
 
-Will generate :
+Will generate:
 
 ```SCSS
 $color-custom-100 : #A0C;

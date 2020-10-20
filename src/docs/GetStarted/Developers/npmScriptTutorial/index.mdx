@@ -1,11 +1,11 @@
 ---
-title: 'Tutorial (using npm script)'
+title: 'Tutorial'
 order: 7
 ---
 
 # Setup a project using Mozaic and npm scripts
 
-In this example, in order to familiarize with Mozaic, we will set up a simple web dev environment :
+In this example, in order to familiarize with Mozaic, we will set up a simple web dev environment:
 
 - Install and configure our postcss build pipeline
 - Import our first Mozaic SCSS tools and settings, and use them
@@ -14,7 +14,7 @@ In this example, in order to familiarize with Mozaic, we will set up a simple we
 
 You have read [the presentation tab and followed the installation steps](/GetStarted/Developers/) (or you should have).
 
-Now you should have :
+Now you should have:
 
 - a brand new project directory
 - node 10+ installed
@@ -27,17 +27,17 @@ Mozaic provides you with this array of postcss plugins, but no task runner comes
 
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-For this tutorial, we will use npm scripts and some npm package as simple example.
+For this tutorial, we will use npm scripts and some npm package as a simple example.
 
-### A) Install postcss-cli :
+### A) Install postcss-cli:
 
 ```shell
 npm install --save postcss-cli
 ```
 
-### B) Configure PostCSS :
+### B) Configure PostCSS:
 
-Create a postcss.config.js file in your project root directory and paste the following code inside :
+Create a postcss.config.js file in your project root directory and paste the following code inside:
 
 ```js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
@@ -47,11 +47,11 @@ module.exports = {
 }
 ```
 
-### C) Create some files :
+### C) Create some files:
 
 Create `src/` and `dist/` directories.
 
-Create a `src/bundle.scss` file and paste the following code :
+Create a `src/bundle.scss` file and paste the following code:
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -67,7 +67,7 @@ body {
 }
 ```
 
-your project should look like this now :
+your project should look like this now:
 
 ```
 my-project/
@@ -79,7 +79,7 @@ my-project/
 ├── postcss.config.js
 ```
 
-### D) Add scripts to build and watch your CSS :
+### D) Add scripts to build and watch your CSS:
 
 create the following npm scripts under the script keys in your package.json file.
 
@@ -93,29 +93,29 @@ create the following npm scripts under the script keys in your package.json file
 `css:build` tell `postcss-cli` to build our SCSS and to output the compiled CSS files into the `dist/` directory.
 We also created a `css:watch` command to watch our changes to the scss files.
 
-### E) Run the watcher :
+### E) Run the watcher:
 
 ```shell
 npm run css:watch
 ```
 
-Now each time you make a change, the `dist/bundle.css` file is updated. Postcss also create a `dist/bundle.css.map` which will allow you to determine the source file and line of a declaration in the browser inspector.
+Now each time you make a change, the `dist/bundle.css` file is updated. Postcss also creates a `dist/bundle.css.map` which will allow you to determine the source file and line of a declaration in the browser inspector.
 
 Postcss is up and running 😝 !!!
 
 ## II) It's time to write some CSS !
 
-### stylelint to lint SCSS files :
+### stylelint to lint SCSS files:
 
-stylelint comes with its configuration in Mozaic and it is provided at compilation time. You don't necessarily need a root config file, but in some case, you may want to have it, for example to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
+stylelint comes with its configuration in Mozaic and it is provided at compilation time. You don't necessarily need a root config file, but in some cases, you may want to have it, for example to configure prettier-stylelint on your IDE, or to use stylelint outside of the compilation pipeline.
 
-In that case, you can create a `stylelint.config.js` file in the root dir of your project.
+In this case, you can create a `stylelint.config.js` file in the root dir of your project.
 
 As an example, we will create an NPM script that will fix the syntax in our SCSS files.
 
-### A) Create a NPM fix command :
+### A) Create a NPM fix command:
 
-let's create a NPM script to fix our stylelint errors, add the following in your `package.json` :
+let's create a NPM script to fix our stylelint errors, add the following in your `package.json`:
 
 ```json
 "scripts": {
@@ -127,19 +127,19 @@ let's create a NPM script to fix our stylelint errors, add the following in your
 
 If you try to run the `npm run css:lint-fix` command, node will throw an error because **stylelint require a config file**.
 
-### B) Create a stylelint config file :
+### B) Create a stylelint config file:
 
 Create a `stylelint.config.js` file at your project root.
 
-then edit the file and add the folowing code :
+then edit the file and add the folowing code:
 
 ```js
 module.exports = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 ```
 
-Run the `npm run css:lint-fix` command. Nothing should happen, because the code you copied as no error (let's hope).
+Run the `npm run css:lint-fix` command. Nothing should happen, because the code you copied has no error.
 
-### C) Let's test that :
+### C) Let's test that:
 
 Edit your `src/bundle.scss` file, and edit line 5 to remove the line break between the mixin instantiation and the first declaration :
 
@@ -160,20 +160,20 @@ Run the `npm run css:lint-fix` again. stylelint fixed this outrageous mistake an
 
 et voilà !
 
-## III) Static assets :
+## III) Static assets:
 
 **Mozaic provide you with static assets like fonts, icons or logos.**
 
-Depending on your env, statics assets like icons or fonts may be served from a diferent URL.
+Depending on your environment, statics assets like icons or fonts may be served from a different URL.
 
 let's create **a live-reloading dev server** as an example.
 
-### A) Copy the statics :
+### A) Copy the statics:
 
 Let's make a script that will clean our `dist/statics/` directory and copy the static assets from the Mozaic `nodes_module` to our project.
-that way, we will be sure that we always have the last version of those static assets in our project.
+It will allow us to be sure that we always have the last version of these static assets in our project.
 
-Add in your package.json the following script :
+Add in your package.json the following script:
 
 ```json
 "scripts": {
@@ -183,7 +183,7 @@ Add in your package.json the following script :
 ```
 
 
-### B) Create a dev server :
+### B) Create a dev server:
 
 First, let's install `live-server`
 
@@ -191,7 +191,7 @@ First, let's install `live-server`
 npm install live-server --save-dev
 ```
 
-And create a script to lunch it upon our `dist/` directory. We will tell it to refresh the browser whenever there is a change in the dist directory, and also to run the `statics:copy` command before starting.
+And create a script to launch it upon our `dist/` directory. We will tell it to refresh the browser whenever there is a change in the dist directory, and also to run the `statics:copy` command before starting.
 
 ```json
 "scripts": {
@@ -200,11 +200,11 @@ And create a script to lunch it upon our `dist/` directory. We will tell it to r
 },
 ```
 
-### C) Hello Mozaic :
+### C) Hello Mozaic:
 
 create an `index.html` file in the `dist` directory
 
-paste the following inside :
+paste the following inside:
 
 ```html
 <!DOCTYPE html>
@@ -222,7 +222,7 @@ paste the following inside :
 
 now run `npm run serve`. A live server should open your favorite browser.
 
-you should now see something like this :
+you should now see something like this:
 
 ![](tutoserve.png)
 
@@ -232,7 +232,7 @@ Change 'Hello Mozaic' for 'Hello foo' in your `index.html` and save. Your browse
 
 When starting your server, the fonts should have been added into `dist/static` directory.
 
-But as you can see, the fonts are not the Mozaic ones. Let's configure that :
+But as you can see, the fonts are not the Mozaic ones. Let's configure that:
 
 open a new terminal window at your project dir and run the css wtacher
 
@@ -240,7 +240,7 @@ open a new terminal window at your project dir and run the css wtacher
 npm run css:watch
 ```
 
-in the `src/bundle.scss` file add the folowing :
+in the `src/bundle.scss` file add the folowing:
 
 ```scss
 /* add this */
@@ -263,7 +263,7 @@ body {
 }
 ```
 
-In the previous file, we set our path to path to font faces. Graden is now able to load them.
+In the previous file, we set our path to path to font faces. It is now able to load them.
 
 ```scss
 $local-config: (
@@ -279,13 +279,13 @@ body {
   ...
 ```
 
-your browser should now look like this :
+Your browser should now look like this:
 
 ![](tutoserve-after.png)
 
 # Notes
 
-> Note that you may only want to compile existing Mozaic components. In that case, you just have to create your own bundle, and import the parts you are interested in :
+> Note that you may only want to compile existing Mozaic components. In that case, you just have to create your own bundle, and import the parts you are interested in:
 
 ```scss
 // mandatory
@@ -298,7 +298,7 @@ your browser should now look like this :
 
 note that you need to follow the ITCSS/ADS [import order](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/principles/unifying-itcss-with-ads#summarize-the-new-architecture)
 
-### If you want to create your own local components :
+### If you want to create your own local components:
 
 Note that if you want to pipe your own components into the same as the Mozaic ones, the linter will ask of you to follow our guidelines.
 

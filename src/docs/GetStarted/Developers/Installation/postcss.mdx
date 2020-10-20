@@ -1,6 +1,6 @@
 ---
-title: 'Configuring PostCSS'
-order: 3
+title: 'PostCSS'
+order: 2
 ---
 
 <Highlight theme="warning" title="Important note">
@@ -18,7 +18,7 @@ This allows us to combine an SCSS syntax with the power of Postcss Plugins.
 Mozaic provides you with an array of PostCSS plugins that you are **required to use to build Mozaic files**, but no task runner or compiler comes with it.
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-The Mozaic postCSS plugin list contains :
+The Mozaic postCSS plugin list contains:
 
 - **stylelint:** a powerfull linter for preprocessor languages
 - **nodeSass:** compile SCSS into css
@@ -27,9 +27,9 @@ The Mozaic postCSS plugin list contains :
 - **postcss-base64:** url encode svg in css
 - **cssnano:** optimize and minify the CSS code
 
-### A) Using a configuration file :
+### A) Using a configuration file:
 
-You can create a `postcss.config.js` file in your project root directory and paste the following code inside :
+You can create a `postcss.config.js` file in your project root directory and paste the following code inside:
 
 ```js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
@@ -148,7 +148,7 @@ Now we need to change the builder option in the `angular.json` fields to the fol
 }
 ```
 
-You must create a new `webpack.config.js` file in the root directory :
+You must create a new `webpack.config.js` file in the root directory:
 
 ```js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
@@ -181,7 +181,7 @@ Refer to the [Mozaic configuration SASS options section](http://mozaic.adeo.clou
 
 ## Compiling for production
 
-To compile for production, you need to set an environment variable.
+You need to set an environment variable to compile for production.
 Mozaic will deliver to you a postCSS plugin list with production features like minification and will disable development features like stylelint.
 
 ```shell

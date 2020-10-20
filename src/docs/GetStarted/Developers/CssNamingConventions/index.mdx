@@ -1,5 +1,5 @@
 ---
-title: 'CSS conventions'
+title: 'Conventions'
 order: 8
 ---
 
@@ -13,7 +13,7 @@ order: 8
 - A school-of-thought, not a library.
 - A meta-framework; a framework for frameworks.
 
-The layers are organised in order following those metrics :
+The layers are organised in order following those metrics:
 
 - From the generic to the explicit.
 - From low specificity to high specificity.
@@ -43,7 +43,7 @@ Please note that we use an ITCSS architecture **slightly different from the orig
 
 Note that all `settings` and `tools` are bundled into a file named `all-settings`.  
 This file is the only file required by all other files.  
-This File does not output any CSS when compiled.
+This file does not output any CSS when compiled.
 
 </Highlight>
 
@@ -82,12 +82,12 @@ This File does not output any CSS when compiled.
 ## Prefixed classes
 
 Following the ITCSS convention, we add two letters in prefix to all our classes.  
-the first letter of the prefix is the source ID, meaning a letter that tells you that the classes come from our design system. The second letter is the first letter of the ITCSS layer name.
+The first letter of the prefix is the source ID, meaning a letter that tells you that the classes come from our design system. The second letter is the first letter of the ITCSS layer name.
 
-- `.ml-[classname]` : Mozaic layout
-- `.mt-[classname]` : Mozaic typography
-- `.mc-[classname]` : Mozaic component
-- `.mu-[classname]` : Mozaic utility
+- `.ml-[classname]`: Mozaic layout
+- `.mt-[classname]`: Mozaic typography
+- `.mc-[classname]`: Mozaic component
+- `.mu-[classname]`: Mozaic utility
 
 ## BEM (Blocks / Elements / Modifiers)
 
@@ -97,7 +97,7 @@ BEM was created by **Yandex**, the "Russian Google" in 2009.
 
 > It is a **component based architecture** and naming convention that stand for **Block / Element / Modifier** and relies **only on classes** to create meaningful scalables architectures.
 
-We will explain the basics here, but we recommend developers on learning BEM : [read the full documentation](https://en.bem.info).
+We will explain the basics here, but we recommend developers on learning BEM: [read the full documentation](https://en.bem.info).
 
 <Highlight>
 
@@ -109,7 +109,7 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 > You can think of them as components, they are reusable pieces of interface.
 
-#### css/scss syntax :
+#### css/scss syntax:
 
 ```scss
 .pr-block-name {
@@ -137,7 +137,7 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 > A constituent of a block, or children
 
-#### css/scss syntax :
+#### css/scss syntax:
 
 ```scss
 .pr-block-name__element-name {
@@ -180,7 +180,7 @@ BEM entities can have states.
 
 States classes starts with an auxilary verb **be** (or **have** in fiew cases) like `.is-open` or `.has-no-results`
 
-States classes can only be used in combination with another BEM entity :
+States classes can only be used in combination with another BEM entity:
 
 ```scss
 .mc-accordion.is-open {
@@ -198,15 +198,13 @@ A state can be defined by the fact that it may change due to user interactions o
 
 Responsive modifiers are classes that apply their styles only at a certain breakpoint.
 
-they have a suffix `@` followed by the name of the viewport they apply to `from-xl`
+They have a suffix `@` followed by the name of the viewport they apply to `from-xl` (example: `.mu-hidden@from-m`)
 
-example: `.mu-hidden@from-m`
+To be able to work, the @ character need to be escaped in the css files `.mu-hidden\@from-m` but can be called without the backslash on the dom : `<span class="mu-hidden@from-m"> hide me at M screens </span>`
 
-to be able to work, the @ character need to be escaped in the css files `.mu-hidden\@from-m` but can be called without the backslash on the dom : `<span class="mu-hidden@from-m"> hide me at M screens </span>`
+### Why BEM?
 
-### why BEM?
-
-Just by looking at a piece of markup :
+Just by looking at a piece of markup:
 
 - you can know witch classes are related to others
 - you can also know in which file they are defined, reducing headache
@@ -226,7 +224,7 @@ Design tokens are variables that define many properties in a json object that ar
 
 For CSS, the tokens are exported as SCSS variables as well as SCSS maps (to give us the ability the map though them).
 
-## We use two "layers" of tokens :
+## We use two "layers" of tokens:
 
 ### 1 - the base, low-level layer
 
@@ -247,13 +245,13 @@ All mixins and functions used to build all the part of the Mozaic design system 
 
 We take great care to create a lot of mixins to build our CSS framework so that you can mimic the behavior of a classes by applying his properties into another component without the need to import the related SCSS file into your bundle, but also to give you control and extend the existing classes.
 
-There are three types of mixins :
+There are three types of mixins:
 
 ## the set-xxx mixins
 
 > include properties / values
 
-Example :
+Example:
 
 ```sass
 .my-class {
@@ -261,7 +259,7 @@ Example :
 }
 ```
 
-Output :
+Output:
 
 ```scss
 .my-class {
@@ -274,13 +272,13 @@ Output :
 
 > create complete classes
 
-Example :
+Example:
 
 ```sass
 @include make-flexy-col(1, 2, (s, m));
 ```
 
-Output :
+Output:
 
 ```scss
 .ml-flexy__col--1of2 {
@@ -300,7 +298,7 @@ Output :
 
 > that extend existing class with modifiers
 
-Example :
+Example:
 
 ```sass
 .mu-hidden {
@@ -310,7 +308,7 @@ Example :
 }
 ```
 
-Output :
+Output:
 
 ```scss
 .mu-hidden {
