@@ -1,30 +1,27 @@
 /* mqp:start */
-$notification-text-font-size: get-token(size, font, '04');
-$notification-title-font-size: get-token(size, font, '05');
-$notification-close-icon-color: get-token(color, notification, font);
-
 .mc-notification {
   @include set-border-radius();
   @include set-notification-border-background('information');
   @include set-font-face();
   @include set-color('darkest');
   @include set-flexy();
-  @include set-font-scale('04');
 
   box-sizing: border-box;
-  padding: $mu150 $mu100 magic-unit-rem(1.375, 'true');
+  padding:
+    $mu150 calc(#{$mu100} - #{$notification-border-width})
+    magic-unit-rem(1.4375, 'true') magic-unit-rem(1.4375, 'true');
 
   // type icon
   &::before {
     @include set-notification-icon('information');
 
+    background-size: $mu200;
     content: '';
+    display: block;
     flex: 0 0 $mu200;
-    width: $mu200;
     height: $mu200;
     margin-right: $mu100;
-    display: block;
-    background-size: $mu200;
+    width: $mu200;
   }
 
   @each $type, $props in $notification-type-border-background-icon {
@@ -48,6 +45,10 @@ $notification-close-icon-color: get-token(color, notification, font);
     margin-top: 0;
   }
 
+  &__message {
+    @include set-font-scale('04');
+  }
+
   &__title {
     @include set-font-face('semi-bold');
     @include set-font-scale('05');
@@ -60,8 +61,8 @@ $notification-close-icon-color: get-token(color, notification, font);
 
   &__link {
     @include set-font-scale('04', 'm');
-    // margin-top: $mu050; 0.625
-    margin-top: magic-unit-rem(0.625, 'true');
+
+    margin-top: $mu050;
   }
 }
 
@@ -77,7 +78,8 @@ $notification-close-icon-color: get-token(color, notification, font);
     right: 0.625rem;
     top: 0.625rem;
     padding: 0;
-    background: transparent
+    background:
+      transparent
       url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
     transform: translateX($mu050) translateY(-$mu100);
   }

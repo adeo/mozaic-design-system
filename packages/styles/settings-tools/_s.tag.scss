@@ -1,20 +1,20 @@
 $tag-themes: get-token(color, tag);
 $tag-border: get-border('s');
 $tag-border-focus: get-border('m');
-$padding-s-y: calc(#{$mu025} - #{$tag-border});
-$padding-m-y: calc(#{$mu075} - #{$tag-border});
+$padding-y--s: calc(#{$mu025} - #{$tag-border});
+$padding-y--m: calc(#{$mu075} - #{$tag-border});
 
 $tag-sizes: (
   's': (
-    'padding': $padding-s-y $mu100,
+    'padding': $padding-y--s calc(#{$mu100} - #{$tag-border}),
     'font-size': '04',
-    'line-height': 's',
+    'line-height': 'm',
     'border-radius': $mu075,
   ),
   'm': (
-    'padding': $mu075 $mu150,
+    'padding': $padding-y--m calc(#{$mu150} - #{$tag-border}),
     'font-size': '04',
-    'line-height': 's',
+    'line-height': 'm',
     'border-radius': $mu125,
   ),
 );

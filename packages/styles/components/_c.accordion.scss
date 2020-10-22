@@ -17,9 +17,7 @@
     cursor: pointer;
     display: block;
     position: relative;
-    padding:
-      magic-unit-rem(1.375, 'true') $mu300 magic-unit-rem(1.125, 'true')
-      $mu050;
+    padding: $mu125 $mu300 $mu125 $mu050;
 
     &:hover {
       background-color: $color-grey-100;
@@ -47,6 +45,8 @@
   }
 
   &__content {
+    @include set-font-scale('05', 'm');
+
     height: auto;
     max-height: 0;
     overflow: hidden;
@@ -71,9 +71,9 @@
       }
 
       ~ #{$parent}__content {
-        padding-top: $mu050;
         max-height: none;
-        padding-bottom: $mu150;
+        padding-top: $mu050;
+        padding-bottom: calc(#{$mu150} - #{get-border(s)});
       }
     }
 
@@ -107,8 +107,8 @@
       }
 
       ~ #{$parent}__content {
-        padding-top: $mu050;
         max-height: none;
+        padding-top: $mu050;
       }
     }
   }

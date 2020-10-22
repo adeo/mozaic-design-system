@@ -167,7 +167,9 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding: $padding-s-y $mu025 $padding-s-y $mu100;
+          padding:
+            $padding-y--s $mu025 $padding-y--s
+            calc(#{$mu100} - #{$tag-border});
         }
 
         .mc-tag-removable__remove {
@@ -184,7 +186,9 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding: $padding-m-y $mu025 $padding-m-y $mu100;
+          padding:
+            $padding-y--m $mu025 $padding-y--m
+            calc(#{$mu150} - #{$tag-border});
         }
 
         .mc-tag-removable__remove {
@@ -200,8 +204,9 @@
     }
 
     &__label {
-      padding: $mu075 $mu050 $mu075 $mu150;
-      transform: translateY(-0.075em);
+      padding:
+        $padding-y--m $mu025 $padding-y--m
+        calc(#{$mu150} - #{$tag-border});
     }
 
     &__remove {
