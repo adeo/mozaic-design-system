@@ -3,7 +3,7 @@ title: 'Code'
 order: 1
 ---
 
-> Flexy is a grid system and a general purpose layout tool based on Flex. It can be used to build page level layout as well as component level one. It is why it is not called "grid" but "flexy".
+> Flexy is a grid system and a general-purpose layout tool based on Flex. It can be used to build page-level layout as well as component level one. It is why it is not called "grid" but "flexy".
 
 ## Basics
 
@@ -44,7 +44,7 @@ To create a grid, you need two elements:
 ```
 
 <HintItem>
-  Wrap the grid in a ml-container to set external margins and limit the
+  Wrap the grid in an `ml-container` to set external margins and limit the
   content's maximum width.
 </HintItem>
 
@@ -58,9 +58,9 @@ To create a grid, you need two elements:
 
 ### Gutters
 
-In most cases you will need gutters.
+In most cases, you will need gutters.
 
-When **used with gutters**, `.ml-flexy` uses the negative margin pattern: each column as a padding mesuring half a gutter width, and the containing `.ml-flexy` as a negative margin equal to half a gutter width on both side as well.
+When **used with gutters**, `.ml-flexy` uses the negative margin pattern: each column as a padding measuring half a gutter width, and the containing `.ml-flexy` as a negative margin equal to half a gutter width on both sides as well.
 
 ```html
 <div class="ml-flexy ml-flexy--gutter">
@@ -86,9 +86,9 @@ When **used with gutters**, `.ml-flexy` uses the negative margin pattern: each c
 
 ## Columns
 
-Columns are defined by the using the class `.ml-flexy__col` on a direct child of a `.ml-flexy` container.
+Columns are defined by using the class `.ml-flexy__col` on a direct child of a `.ml-flexy` container.
 
-By default, `.ml-flexy` `flex-wrap` is set to `wrap`, meaning that columns will wrap to the next line when their total width exeeds 100% of the `.ml-flexy` width.
+By default, `.ml-flexy` `flex-wrap` is set to `wrap`, meaning that columns will wrap to the next line when their total width exceeds 100% of the `.ml-flexy` width.
 
 <Preview path="flexyWrap" />
 
@@ -122,7 +122,7 @@ You can apply specific columns width using `.ml-flexy__col` modifiers:
 
 ### Responsive widths
 
-Apply widths to breakpoints using the `@from-XX` sufix to the widths modifiers.
+Apply widths to breakpoints using the `@from-XX` suffix to the widths modifiers.
 
 The available breakpoints modifiers are:
 
