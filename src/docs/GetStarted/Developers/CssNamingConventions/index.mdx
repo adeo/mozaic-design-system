@@ -1,6 +1,6 @@
 ---
-title: 'CSS conventions'
-order: 8
+title: 'Conventions'
+order: 5
 ---
 
 # ITCSS
@@ -11,9 +11,9 @@ order: 8
 
 - A sane, scalable, managed architecture.
 - A school-of-thought, not a library.
-- A meta framework; a framework for frameworks.
+- A meta-framework; a framework for frameworks.
 
-The layers are organised in an order following those metrics :
+The layers are organised in order following those metrics:
 
 - From the generic to the explicit.
 - From low specificity to high specificity.
@@ -41,9 +41,9 @@ Please note that we use an ITCSS architecture **slightly different from the orig
 
 <Highlight theme="tips" title="You should know">
 
-Note that all `settings` and `tools` are bundled into a file nammed `all-settings`.  
+Note that all `settings` and `tools` are bundled into a file named `all-settings`.  
 This file is the only file required by all other files.  
-This File does not output any css when compiled.
+This file does not output any CSS when compiled.
 
 </Highlight>
 
@@ -81,13 +81,13 @@ This File does not output any css when compiled.
 
 ## Prefixed classes
 
-Following the ITCSS convention, we add a two letters prefixe to all our classes.  
-the first letter of the prefixe is the source ID, meaning a letter that tell you that the classe come from our design system. The second letter is the first letter of the ITCSS layer name.
+Following the ITCSS convention, we add two letters in prefix to all our classes.  
+The first letter of the prefix is the source ID, meaning a letter that tells you that the classes come from our design system. The second letter is the first letter of the ITCSS layer name.
 
-- `.ml-[classname]` : Mozaic layout
-- `.mt-[classname]` : Mozaic typography
-- `.mc-[classname]` : Mozaic component
-- `.mu-[classname]` : Mozaic utility
+- `.ml-[classname]`: Mozaic layout
+- `.mt-[classname]`: Mozaic typography
+- `.mc-[classname]`: Mozaic component
+- `.mu-[classname]`: Mozaic utility
 
 ## BEM (Blocks / Elements / Modifiers)
 
@@ -97,7 +97,7 @@ BEM was created by **Yandex**, the "Russian Google" in 2009.
 
 > It is a **component based architecture** and naming convention that stand for **Block / Element / Modifier** and relies **only on classes** to create meaningful scalables architectures.
 
-We will explain the basics here, but we recommend developers on learning BEM : [read the full documentation](https://en.bem.info).
+We will explain the basics here, but we recommend developers on learning BEM: [read the full documentation](https://en.bem.info).
 
 <Highlight>
 
@@ -109,7 +109,7 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 > You can think of them as components, they are reusable pieces of interface.
 
-#### css/scss syntax :
+#### css/scss syntax:
 
 ```scss
 .pr-block-name {
@@ -130,14 +130,14 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
     Blocks can be moved between pages and projects
 </HintItem>
 <HintItem>
-    An interface can contain mulitple instances of the same block
+    An interface can contain multiple instances of the same block
 </HintItem>
 
 ### Elements
 
-> A constituant of a block, or children
+> A constituent of a block, or children
 
-#### css/scss syntax :
+#### css/scss syntax:
 
 ```scss
 .pr-block-name__element-name {
@@ -180,7 +180,7 @@ BEM entities can have states.
 
 States classes starts with an auxilary verb **be** (or **have** in fiew cases) like `.is-open` or `.has-no-results`
 
-States classes can only be used in combination with another BEM entity :
+States classes can only be used in combination with another BEM entity:
 
 ```scss
 .mc-accordion.is-open {
@@ -192,68 +192,66 @@ States classes can only be used in combination with another BEM entity :
 }
 ```
 
-A state can be defined by the fact that it may change due to user interactions or server response. Modifiers are a variations of an element. For example, a button can have modifiers to be a loader button, with a spinning icon `.mc-button--loader`, but a sate in witch it is waiting for a server response, like `.mc-button--loader.is-loading`.
+A state can be defined by the fact that it may change due to user interactions or server response. Modifiers are variations of an element. For example, a button can have modifiers to be a loader button, with a spinning icon `.mc-button--loader`, but a state in which it is waiting for a server response, like `.mc-button--loader.is-loading`.
 
 ### Responsives modifiers
 
-Responsive modifiers are classes that apply theire styles only at a certain breakpoint.
+Responsive modifiers are classes that apply their styles only at a certain breakpoint.
 
-they have a sufix `@` follwed by the name of the viewport they apply to `from-xl`
+They have a suffix `@` followed by the name of the viewport they apply to `from-xl` (example: `.mu-hidden@from-m`)
 
-example: `.mu-hidden@from-m`
+To be able to work, the @ character need to be escaped in the css files `.mu-hidden\@from-m` but can be called without the backslash on the dom : `<span class="mu-hidden@from-m"> hide me at M screens </span>`
 
-to be able to work, the @ character need to be escaped in the css files `.mu-hidden\@from-m` but can be called without the backslash on the dom : `<span class="mu-hidden@from-m"> hide me at M screens </span>`
+### Why BEM?
 
-### why BEM ?
-
-Just by looking at a piece of markup :
+Just by looking at a piece of markup:
 
 - you can know witch classes are related to others
-- you can also know in witch file they are defined, reducing headache
+- you can also know in which file they are defined, reducing headache
 - you can understand the role of the classes (And therefore better follow the SRP)
 
-Following theses practices will help you:
+Following these practices will help you:
 
-- make decision about emplacement easily
-- get self documented code, and logically reduce the need for CSS documentation
-- keep specificity low (because most of your selectors will only be composed of one classe)
-- make class colision almost impossible (all classes will be uniques)
+- take a decision about layout easily
+- get self-documented code, and logically reduce the need for CSS documentation
+- keep specificity low (because most of your selectors will only be composed of one classes)
+- make class collision almost impossible (all classes will be uniques)
 - making it safer to have multiple sources of code (any CSS frameworks mixed with our own)
 
 # Variables and design tokens
 
-Design tokens are variables that defines many properties in a json object that are compiled and exported to multiple formats to be used on web and mobile platforms (or any desired format trully).
+Design tokens are variables that define many properties in a json object that are compiled and exported to multiple formats to be used on web and mobile platforms (or any desired format truly).
 
-For css, the tokens are exported as SCSS variables as well as SCSS maps (to give us the abillity the map though them).
+For CSS, the tokens are exported as SCSS variables as well as SCSS maps (to give us the ability the map though them).
 
-## We use two "layers" of tokens :
+## We use two "layers" of tokens:
 
-### 1 - the base, low level layer
+### 1 - the base, low-level layer
 
 To define all the basic values like colors, sizes etc.  
 As an example, we define all the possible colors in the same place.
 
-Most of the time, you should not have to use thoses variables directly, because a highter level of variable or a mixin should be available to provide authorized values for the type of property/element you are trying to define.
+Most of the time, you should not have to use those variables directly, because a higher level of a variable or a mixin should be available to provide authorized values for the type of property/element you are trying to define.
 
 ### 2 - an "elements" level layer
 
-For example, we create a list of authorized values for text-colors or create some tokens to define buttons cosmetic styles. This layer make reference to the base layers values.
+For example, we create a list of authorized values for text-colors or create some tokens to define buttons cosmetic styles. This layer makes reference to the base layers values.
 
-In the documentation you may read them expressed as js object keys selectors : `color.button.solid.background` when compiled to SCSS the dots are replaced with simple dashes `-` the scss variable will be `$color-button-solid-background`.
+In the documentation you may read them expressed as js object keys selectors: `color.button.solid.background` when compiled to SCSS the dots are replaced with simple dashes `-` the SCSS variable will be `$color-button-solid-background`.
 
 # Mixins and functions
 
-All mixins and functions used to build all the part of the Mozaic design system css are imported into the `all-settings` sub-bundle.
+All mixins and functions used to build all the part of the Mozaic design system CSS are imported into the `all-settings` sub-bundle.
 
-We take great care to create a lot of mixins to build our css framework so that you can mimic the behavior of a classe by applying his properties into another component without the need to import the related SCSS file into your bundle, but also to give you control and extend the existing classes.
+We take great care to create a lot of mixins to build our CSS framework so that you can mimic the behavior of a classes by applying his properties into another component without the need to import the related SCSS file into your bundle, but also to give you control and extend the existing classes.
 
-There is three types of mixins :
+There are three types of mixins:
 
 ## the set-xxx mixins
 
 > include properties / values
 
-Example :
+Example:
 
 ```sass
 .my-class {
@@ -261,7 +259,7 @@ Example :
 }
 ```
 
-Output :
+Output:
 
 ```scss
 .my-class {
@@ -274,13 +272,13 @@ Output :
 
 > create complete classes
 
-Example :
+Example:
 
 ```sass
 @include make-flexy-col(1, 2, (s, m));
 ```
 
-Output :
+Output:
 
 ```scss
 .ml-flexy__col--1of2 {
@@ -298,9 +296,9 @@ Output :
 
 ## the mod-xxx mixins
 
-> that extend exising class with modifiers
+> that extend existing class with modifiers
 
-Example :
+Example:
 
 ```sass
 .mu-hidden {
@@ -310,7 +308,7 @@ Example :
 }
 ```
 
-Output :
+Output:
 
 ```scss
 .mu-hidden {

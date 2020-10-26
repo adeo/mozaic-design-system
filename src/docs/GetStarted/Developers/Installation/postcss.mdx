@@ -1,6 +1,6 @@
 ---
-title: 'Configuring PostCSS'
-order: 3
+title: 'PostCSS'
+order: 2
 ---
 
 <Highlight theme="warning" title="Important note">
@@ -13,12 +13,12 @@ Using postCSS with the following configuration **is mandatory for us to ensure M
 ## Introduction
 
 The Mozaic CSS source files are written in SCSS. But we compile them trough Postcss.
-This allow us to combine a SCSS syntax with the power of Postcss Plugins.
+This allows us to combine an SCSS syntax with the power of Postcss Plugins.
 
-Mozaic provide you with an array of PostCSS plugins that you are **required to use to build Mozaic files**, but no task runner, or compiler comes with it.
+Mozaic provides you with an array of PostCSS plugins that you are **required to use to build Mozaic files**, but no task runner or compiler comes with it.
 That way, you are free to use your favorite one, like gulp, grunt, webpack or even npm scripts.
 
-The Mozaic postCSS plugin list contains :
+The Mozaic postCSS plugin list contains:
 
 - **stylelint:** a powerfull linter for preprocessor languages
 - **nodeSass:** compile SCSS into css
@@ -27,9 +27,9 @@ The Mozaic postCSS plugin list contains :
 - **postcss-base64:** url encode svg in css
 - **cssnano:** optimize and minify the CSS code
 
-### A) Using a configuration file :
+### A) Using a configuration file:
 
-You can create a `postcss.config.js` file in your project root directory and paste the following code inside :
+You can create a `postcss.config.js` file in your project root directory and paste the following code inside:
 
 ```js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
@@ -82,7 +82,7 @@ gulp.task('css', () =>
 )
 ```
 
-### D) With Vue.js using vue CLI
+### D) With Vue.js using Vue-CLI
 
 You will need to use **PostCSS** via `postcss-loader`.
 
@@ -148,7 +148,7 @@ Now we need to change the builder option in the `angular.json` fields to the fol
 }
 ```
 
-You must create a new `webpack.config.js` file in the root directory :
+You must create a new `webpack.config.js` file in the root directory:
 
 ```js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
@@ -175,13 +175,13 @@ module.exports = {
 
 When the [style preprocessor options](https://angular.io/guide/workspace-config#style-preprocessor-options) is used to include custom paths it is not working seamlessly for now.
 You have to configure Mozaic to acknowledge these paths in the same way you did for Angular.
-Refer to the [Mozaic configuration SASS options section](http://mozaic.adeo.cloud/GetStarted/Developers/Configuration/#sassincludepaths--array-of-paths) to know how.
+Refer to the [Mozaic configuration SASS options section](http://mozaic.adeo.cloud/GetStarted/Developers/Configuration/#sassincludepaths--array-of-paths) to know-how.
 
 </Highlight>
 
 ## Compiling for production
 
-To compile for production, you need to set a environment variable.
+You need to set an environment variable to compile for production.
 Mozaic will deliver to you a postCSS plugin list with production features like minification and will disable development features like stylelint.
 
 ```shell
