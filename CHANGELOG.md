@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.19...v1.0.1-beta.20) (2020-10-28)
+
+
+### Features
+
+* **foundations/color:** spelling check ([#658](https://github.com/adeo/mozaic-design-system/issues/658)) ([c41a0ed](https://github.com/adeo/mozaic-design-system/commit/c41a0ed1f71a0fcf2baf75d3728bc208a10f68c1))
+* **onboard/getstarted:** clean documentation ([#657](https://github.com/adeo/mozaic-design-system/issues/657)) ([d37ad91](https://github.com/adeo/mozaic-design-system/commit/d37ad9117078a5b2af34b651554d48fbc0043be9))
+* **pattern/tags:** update tags size (m) ([#656](https://github.com/adeo/mozaic-design-system/issues/656)) ([6cd140b](https://github.com/adeo/mozaic-design-system/commit/6cd140b4f912893c48e4944c6b5fbedf3e0cd6a7))
+* **patterns/fonts:** implementing the new LM webfont ([#616](https://github.com/adeo/mozaic-design-system/issues/616)) ([4cfcf03](https://github.com/adeo/mozaic-design-system/commit/4cfcf03778bcfee90ac553c10a6dfe6f8fb3b7de))
+* **patterns/layer:** add layer pattern ([#617](https://github.com/adeo/mozaic-design-system/issues/617)) ([b441fe1](https://github.com/adeo/mozaic-design-system/commit/b441fe1e77ec18d12a8b61d6ef3b1b90be4d79c3))
+
+
+
+
+
 ## [1.0.1-beta.19](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.18...v1.0.1-beta.19) (2020-10-14)
 
 

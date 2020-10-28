@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.19...v1.0.1-beta.20) (2020-10-28)
+
+
+### Features
+
+* **patterns/fonts:** implementing the new LM webfont ([#616](https://github.com/adeo/mozaic-design-system/issues/616)) ([4cfcf03](https://github.com/adeo/mozaic-design-system/commit/4cfcf03778bcfee90ac553c10a6dfe6f8fb3b7de))
+
+
+
+
+
 ## [1.0.1-beta.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.1...v1.0.1-beta.2) (2020-01-23)
 
 **Note:** Version bump only for package @mozaic-ds/web-fonts
