@@ -1,25 +1,25 @@
 ---
-title: 'Importing Mozaic SCSS files'
+title: 'Import'
 order: 4
 ---
 
-You need to create the bundle scss file (ex: `src/bundle.scss`) that you want to build.
+You need to create the bundle SCSS file (ex: `src/bundle.scss`) that you want to build.
 
-### Import paths :
+### Import paths:
 
 If you [configured PostCSS properly](/GetStarted/Developers/configurePostCss/), you don't need to specify the full relative path to the node modules directory, you can import directly from the `@mozaic-ds/styles` directory :
 
 ```scss
-// Don't do this :
+// Don't do this:
 @import '../../node_modules/@mozaic-ds/styles/settings-tools/_all-settings';
 
-// Do this instead :
+// Do this instead:
 @import 'settings-tools/_all-settings';
 ```
 
-If you can't do this, this mean that you don't use the Mozaic postcss config, which is **mandatory for Mozaic to work as expected**.
+If you can't do this, this means that you don't use the Mozaic postcss config, which is **mandatory for Mozaic to work as expected**.
 
-### Import the settings/tools bundle file :
+### Import the settings/tools bundle file:
 
 #### What's inside?
 
@@ -40,7 +40,7 @@ Compiling a file importing only settings would output an empty file.
 
 <br />
 
-### Import Mozaic SCSS files :
+### Import Mozaic SCSS files:
 
 It is important that you follow our ITCSS/ADS [import order](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/principles/unifying-itcss-with-ads#summarize-the-new-architecture):
 

@@ -1,13 +1,13 @@
 ---
-title: 'Mozaic configuration'
-order: 10
+title: 'Configuration'
+order: 3
 ---
 
 ## mozaic.config.js
 
-> mozaic.config.js allow you to configure and customize mozaic.
+> mozaic.config.js allows you to configure and customize Mozaic.
 
-Create a mozaic.config.js file at the root of your project :
+Create a mozaic.config.js file at the root of your project:
 
 ```js
 module.exports = {
@@ -17,9 +17,9 @@ module.exports = {
 
 ## SASS options
 
-### `sass.includePaths` : array of paths
+### `sass.includePaths`: array of paths
 
-Allow you to import scss files from those paths without having to specify them.
+Allow you to import SCSS files from those paths without having to specify them.
 Specified paths will be added to the default ones.
 
 **Default values:**
@@ -37,7 +37,7 @@ Specified paths will be added to the default ones.
 ]
 ```
 
-**Example :**
+**Example:**
 
 ```js
 module.exports = {
@@ -47,13 +47,13 @@ module.exports = {
 }
 ```
 
-### `sass.indentWidth` : integer
+### `sass.indentWidth`: integer
 
-Change the indent width of the compiled css file.
+Change the indent width of the compiled CSS file.
 
 **Default values: 2**
 
-**Example :**
+**Example:**
 
 ```js
 module.exports = {
@@ -63,13 +63,13 @@ module.exports = {
 }
 ```
 
-## Tokens options :
+## Tokens options:
 
 ### `tokens.localTokensSrcPath` and `tokens.localTokensExportPath`
 
 `localTokensSrcPath` is used to define your local emplacement for your custom tokens, `localTokensExportPath` defines where they should be built.
 
-Note that both options should always be used togeteher.
+Note that both options should always be used together.
 
 Use those options to customize tokens. For more information, read our Tokens customisation guide.
 
@@ -82,7 +82,7 @@ module.exports = {
 }
 ```
 
-## stylelint options :
+## stylelint options:
 
 ### `stylelint.caseStyle`: String or Regex
 
@@ -90,7 +90,7 @@ Allow you to choose the case style to lint. You can add your own Regex rule to l
 
 **Default values: 'kebab-case'**
 
-**Example : **
+**Example: **
 ```js
   caseStyle: 'kebab-case' | 'camelCase' | 'snake_case' | 'PascalCase' | /^[a-z]+(_[a-z]+)*$/
 ```
