@@ -3,8 +3,6 @@
 .mc-tabs {
   $parent: &;
 
-  @include set-font-face();
-
   background-color: $color-tabs-background;
   position: relative;
   width: 100%;
@@ -59,7 +57,8 @@
   }
 
   &__link {
-    @include set-font-scale('06', 'xs');
+    @include set-font-face();
+    @include set-font-scale('05', 's');
 
     background: none;
     border: none;
@@ -68,7 +67,7 @@
     cursor: pointer;
     display: block;
     outline: none;
-    padding: $mu100 $mu150;
+    padding: magic-unit-rem(1.1875, true) $mu150 magic-unit-rem(1.0625, true);
     text-decoration: none;
 
     &:active,
