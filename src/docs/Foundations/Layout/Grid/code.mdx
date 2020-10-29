@@ -3,8 +3,7 @@ title: 'Code'
 order: 1
 ---
 
-> Our grid is built with Flexbox and closely mirrors Bootstrap’s grid in that it uses containers, rows and columns to layout and align content. Below is an in-depth look at how it all comes together.
-> If you’re new to Flexbox, this CSS Tricks Flexbox guide will provide more detail around everything from basic terminology to code.
+> Flexy is a grid system and a general purpose layout tool based on Flex. It can be used to build page level layout as well as component level one. It is why it is not called "grid" but "flexy".
 
 ## Get started
 
@@ -21,16 +20,17 @@ order: 1
 
 ### How it works
 
-The below example creates four equal-width columns at small, medium, large, and extra large breakpoints using our predefined grid classes. The columns are centered in the page within the parent container.
+The example below creates four equal-width columns at small, medium, large, and extra large breakpoints using our predefined grid classes.
 
 <Preview path="basic" />
 
-#### Container
-`ml-container` defines the overall grid context at the top level and applies the proper margin and our default max-width.  You can also remove this max width, by using the grid modifier class ml--container--fluid.
+<Highlight theme="tips" title="Container rules">
 
+  `ml-container` defines the overall grid context at the top level and applies the proper margin and our default max-width.  You can also remove this max width, by using the grid modifier class ml--container--fluid. See [the default container](/Foundations/Layout/Container/).
+</Highlight>
 
 #### Columns
-`ml-flexy__col` defines individual columns inside a row. Use as many columns as you’d like out of the possible 12 per row. With Flexbox columns widths are set in percentages relative to their parent element so columns without a spec’d width will automatically be equal. For example, four instances of `ml-flexy__col` will will give you four equal width columns — each 25% of the parent from the small breakpoint on up.
+`ml-flexy__col` defines individual columns inside the grid. With Flexbox columns widths are set in percentages relative to their parent element so columns without a spec’d width will automatically be equal. For example, four instances of `ml-flexy__col` will will give you four equal width columns — each 25% of the parent from the small breakpoint on up.
 
 ### Gutters
 
@@ -82,7 +82,7 @@ You can apply specific columns width using `.ml-flexy__col` modifiers:
 | `.ml-flexy__col--full`    | 100%                        |
 
 
-### Responsive
+### Responsive modifiers
 
 Apply widths to breakpoints using the `@from-XX` suffix to the widths modifiers.
 

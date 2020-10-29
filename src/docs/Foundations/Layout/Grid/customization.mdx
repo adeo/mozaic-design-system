@@ -9,15 +9,15 @@ status:
 
 # Customisation and mixins
 
-There is eight available mixins that you can work with to help you create layouts :
+There are eight available mixins that you can work with to help you create layouts :
 
-- `set-flexy` : Add flex properties to a container (similar than `.ml-flexy`).
-- `set-flexy-width` : Add a width properties to a flex child (similar than `.ml-flexy__col--XofX`).
-- `set-flexy-gutter` and `set-flexy-col-gutter` : Add gutters to the a flex container and his child.
-- `set-flexy-col-push` : Add a margin left to a flex child (similar than `.ml-flexy__col--push-XofX`).
-- `make-flexy-col` : Create a new column width of type `.ml-flexy__col--XofX`.
-- `make-flexy-custom-col` : Create custom columns (with any properties you whant `.ml-flexy__col--XXX`).
-- `make-flexy-col-push` : Create a new column push of type `.ml-flexy__col--push-XofX`.
+- `set-flexy`: Adds flex properties to a container (similar to `.ml-flexy`).
+- `set-flexy-width`: Adds a width properties to a flex child (similar to `.ml-flexy__col--XofX`).
+- `set-flexy-gutter` and `set-flexy-col-gutter`: Adds gutters to the a flex container and his child.
+- `set-flexy-col-push`: Adds a margin left to a flex child (similar to `.ml-flexy__col--push-XofX`).
+- `make-flexy-col`: Creates a new column width of type `.ml-flexy__col--XofX`.
+- `make-flexy-custom-col`: Creates custom columns (with any properties you want `.ml-flexy__col--XXX`).
+- `make-flexy-col-push`: Creates a new column push of type `.ml-flexy__col--push-XofX`.
 
 ## The set-flexy-xxx mixins
 
@@ -67,10 +67,10 @@ Example: Create a blog post layout with an image and a text. From tablet screens
 
 ### set-flexy-xxx mixins parameters
 
-- `set-flexy` : No argument required
-- `set-flexy-width` : `$portion`: required - integer, `$of`: required - integer
-- `set-flexy-gutter` and `set-flexy-col-gutter` : `$gutter` : required - a `rem` value of the total gutter width
-- `set-flexy-col-push` : `$portion`: required - integer, `$of`: required - integer
+- `set-flexy`: No argument required
+- `set-flexy-width`: `$portion`: required - integer, `$of`: required - integer
+- `set-flexy-gutter` and `set-flexy-col-gutter`: `$gutter` : required - a `rem` value of the total gutter width
+- `set-flexy-col-push`: `$portion`: required - integer, `$of`: required - integer
 
 ## The make-flexy-xxx mixins
 
@@ -81,15 +81,15 @@ Example: Create a blog post layout with an image and a text. From tablet screens
 
 ### Make-flexy-xxx mixins parameters
 
-- `make-flexy-col` : Create a new column width of type `.ml-flexy__col--XofX`
-- `make-flexy-custom-col` : Create custom columns (with any properties you whant `.ml-flexy__col--XXX`)
-- `make-flexy-col-push` : Create a new column push of type `.ml-flexy__col--push-XofX`
+- `make-flexy-col`: Creates a new column width of type `.ml-flexy__col--XofX`
+- `make-flexy-custom-col`: Creates custom columns (with any properties you want `.ml-flexy__col--XXX`)
+- `make-flexy-col-push`: Creates a new column push of type `.ml-flexy__col--push-XofX`
 
 ### Example: adding columns to the flexy grid
 
 Please consider that you need to keep the import order clean and that you should add your grid extension right after the import of flexy.
 
-We advise you to create a new scss file that contain your extensions:
+We advise you to create a new scss file that contains your extensions:
 
 `src/_l.flexy-extend.scss`
 
@@ -97,7 +97,7 @@ We advise you to create a new scss file that contain your extensions:
 /*
 create a column of 12.5% width
 named ml-flexy__col--1of8
-with responsive modifiers for all majors screens sizes
+with responsive modifiers for all major screen sizes
 */
 @include make-flexy-col(1, 8, $major-screens);
 
@@ -114,7 +114,7 @@ with no responsive modifiers
 /*
 create a push value of 12.5%
 named ml-flexy__col--push-1of8
-with responsive modifiers for all majors screens sizes
+with responsive modifiers for all major screen sizes
 */
 @include make-flexy-col-push(1, 8, $major-screens);
 ```
