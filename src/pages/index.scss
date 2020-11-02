@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext');
-
-* {
-  box-sizing: border-box;
-}
+@import '_all-settings.scss';
+@import '_l.flexy.scss';
 
 body,
 html {
-  font-size: 16px !important;
-  line-height: 1.45;
+  box-sizing: border-box;
+  color: #000;
   font-family: 'Karla', sans-serif !important;
+  font-size: 16px !important;
   font-weight: 400;
+  line-height: 1.45;
+}
+
+* {
+  &,
+  &::after,
+  &::before {
+    box-sizing: inherit;
+  }
 }
 
 input,
@@ -38,4 +46,25 @@ select {
     padding: 0.75rem 0.75rem 0.812rem;
     width: 100%;
   }
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
