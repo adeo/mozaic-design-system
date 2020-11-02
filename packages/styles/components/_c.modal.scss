@@ -22,12 +22,12 @@
 
   &__dialog {
     background: $color-grey-000;
-    padding: $mu100;
+    padding: $mu075 $mu100 $mu100;
     position: relative;
     width: 100%;
 
     @include set-from-screen(m) {
-      padding-top: $mu125;
+      padding-top: $mu100;
       padding-left: $mu150;
       padding-right: $mu150;
       max-width: percentage(1/2);
@@ -55,9 +55,10 @@
   }
 
   &__header {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-bottom: $mu125;
+    margin-bottom: $mu150;
     min-height: magic-unit-rem(2.25, true);
   }
 
@@ -66,14 +67,14 @@
     @include set-font-weight('regular');
 
     color: $color-font-light;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   &__close {
     @include unstyle-button();
 
+    flex-shrink: 0;
     height: $mu200;
     width: $mu200;
     background:
@@ -97,7 +98,7 @@
     @include set-font-weight('semi-bold');
 
     color: $color-font-darkest;
-    margin-bottom: $mu025;
+    margin-bottom: 0;
     margin-top: 0;
   }
 

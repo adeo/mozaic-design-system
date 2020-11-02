@@ -14,15 +14,15 @@ $link-sizes: (
 $link-m: map-get($link-sizes, 'm');
 
 @mixin set-link-base {
+  align-items: center;
   box-sizing: border-box;
-  text-decoration: underline;
   cursor: pointer;
-  align-items: baseline;
   display: inline-flex;
-  justify-content: center;
-  transition: color ease 200ms;
   font-size: inherit;
+  justify-content: center;
   line-height: inherit;
+  text-decoration: underline;
+  transition: color ease 200ms;
 }
 
 @mixin mod-link-sizes {

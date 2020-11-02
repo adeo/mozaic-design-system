@@ -6,10 +6,9 @@
 
   &__icon {
     display: block;
-    width: 1em;
-    height: 1em;
+    height: $mu100;
     fill: currentColor;
-    transform: translateY(0.175em);
+    width: $mu100;
 
     &--left {
       margin-right: $mu025;

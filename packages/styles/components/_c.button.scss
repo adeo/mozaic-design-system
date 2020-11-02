@@ -11,7 +11,7 @@
 
   &:focus {
     @include add-demo-state-class {
-      box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 1px 5px 0 rgba($color-grey-999, 0.2);
     }
   }
 
@@ -58,7 +58,6 @@
   }
 
   &__label {
-    transform: translateY(-0.125em);
     pointer-events: none;
   }
 

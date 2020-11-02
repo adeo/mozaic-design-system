@@ -1,15 +1,16 @@
+$border-width: get-border('s');
+
 $input-sizes: (
   's': (
     'font-size': '04',
-    'line-height': 'l',
-    'padding-h': $mu050,
-    'padding-v': magic-unit-rem(0.3125, true),
+    'line-height': 's',
+    'padding': calc(#{$mu050} - #{$border-width}),
   ),
   'm': (
     'font-size': '05',
-    'line-height': 'l',
-    'padding-h': $mu075,
-    'padding-v': $mu075,
+    'line-height': 's',
+    'padding': calc(0.9375rem - #{$border-width})
+    calc(#{$mu075} - #{$border-width}),
   ),
 );
 
@@ -18,13 +19,13 @@ $input-icon-sizes: (
     'left': $mu050,
     'height': $mu150,
     'width': $mu150,
-    'padding-l': $mu250,
+    'padding-l': calc(#{$mu250} - #{$border-width}),
   ),
   'm': (
     'left': $mu075,
     'height': $mu150,
     'width': $mu150,
-    'padding-l': $mu300,
+    'padding-l': calc(#{$mu300} - #{$border-width}),
   ),
 );
 
@@ -33,8 +34,6 @@ $input-icon-default-size: map-get($input-icon-sizes, 'm');
 
 @mixin set-input-size($sizeProps) {
   $border-width: get-border('s');
-  $padding-h: map-get($sizeProps, 'padding-h');
-  $padding-v: map-get($sizeProps, 'padding-v');
 
   @include set-font-scale(
     map-get($sizeProps, 'font-size'),
@@ -42,9 +41,7 @@ $input-icon-default-size: map-get($input-icon-sizes, 'm');
   );
 
   // remove border height and center baseline optically
-  padding:
-    calc(#{$padding-v} - 0.125em - #{$border-width}) $padding-h
-    calc(#{$padding-v} + 0.125em - #{$border-width});
+  padding: map-get($sizeProps, 'padding');
 
   &::placeholder {
     @include set-font-scale(
