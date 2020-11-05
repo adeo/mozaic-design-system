@@ -2182,9 +2182,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidDisabledFont",
             "attributes": {
@@ -2356,9 +2356,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidPrimary02DisabledFont",
             "attributes": {
@@ -2530,9 +2530,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidNeutralDisabledFont",
             "attributes": {
@@ -2704,9 +2704,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidDangerDisabledFont",
             "attributes": {
@@ -2897,9 +2897,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedDisabledFont",
             "attributes": {
@@ -3069,9 +3069,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedPrimary02DisabledFont",
             "attributes": {
@@ -3241,9 +3241,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedNeutralDisabledFont",
             "attributes": {
@@ -3413,9 +3413,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedDangerDisabledFont",
             "attributes": {

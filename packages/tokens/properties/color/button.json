@@ -18,7 +18,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
@@ -52,7 +52,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
@@ -86,7 +86,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
@@ -120,7 +120,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
@@ -157,7 +157,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
@@ -191,7 +191,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
@@ -225,7 +225,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
@@ -259,7 +259,7 @@
             "value": "{color.grey.200.value}"
           },
           "font": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           }
         },
         "active": {
