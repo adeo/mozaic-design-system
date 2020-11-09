@@ -67,20 +67,22 @@ const AsideContainer = styled.aside`
 `
 
 // --------- PAGE
-const IndexPage = ({ release, discover, contactus, ourvalues }) => (
-  <Global>
-    <AsideContainer>
-      <Menu siteTitle={'Mozaic'} />
-    </AsideContainer>
-    <Main>
-      <Header />
-      <AreaDiscover cards={discover} />
-      <AreaContact cards={contactus} />
-      <AreaValues values={ourvalues} />
-      <Footer />
-    </Main>
-  </Global>
-)
+const IndexPage = ({ release, discover, contactus, ourvalues }) => {
+  return (
+    <Global>
+      <AsideContainer>
+        <Menu siteTitle={'Mozaic'} />
+      </AsideContainer>
+      <Main>
+        <Header />
+        <AreaDiscover cards={discover} />
+        <AreaContact cards={contactus} />
+        <AreaValues values={ourvalues} />
+        <Footer />
+      </Main>
+    </Global>
+  )
+}
 
 const query = graphql`
   query currentRelase {

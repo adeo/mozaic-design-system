@@ -10,12 +10,14 @@ import McButton from '../McButton'
 import McCheckbox from '../McCheckbox'
 import McTextInput from '../McTextInput'
 import McToggle from '../McToggle'
+import MenuButton from '../../gatsby-components/Menu/MenuButton'
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
   padding-bottom: 51px;
   padding-left: 1rem;
   padding-right: 1rem;
+  position: relative;
 
   @media (min-width: 680px) {
     padding-left: 2rem;
@@ -32,13 +34,13 @@ const HeaderContainer = styled.div`
 const HeaderTop = styled.div`
   display: flex;
   justify-content: flex-end;
-  padding-top: 24px;
-  margin-bottom: 64px;
+  padding-top: 1.5rem;
+  margin-bottom: 4rem;
 
   a,
   svg {
-    height: 32px;
-    width: 32px;
+    height: 2rem;
+    width: 2rem;
   }
 
   a {
@@ -47,9 +49,9 @@ const HeaderTop = styled.div`
 `
 
 const HeaderMain = styled.div`
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     flex: 0 0 calc(((5 / 12) * 100) * 1%);
     max-width: calc(((5 / 12) * 100) * 1%);
     margin-bottom: 0;
@@ -60,14 +62,14 @@ const HeaderTitle = styled.h1`
   color: #000000;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 1.175;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   margin-top: 0;
 `
 
 const HeaderDesc = styled.p`
-  font-size: 21px;
+  font-size: 1.3125rem;
   line-height: 1.19;
   margin-bottom: 0;
   margin-top: 0;
@@ -77,22 +79,22 @@ const HeaderAside = styled.div``
 
 const HeaderSubtitle = styled.h2`
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.143;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   margin-top: 0;
 `
 
 const StyledMcButton = styled(McButton)`
-  margin-bottom: 16px !important;
+  margin-bottom: 1rem !important;
 `
 
 const StyledMcTextInput = styled(McTextInput)`
-  margin-bottom: 24px !important;
+  margin-bottom: 1.5rem !important;
 `
 
 const StyledMcCheckbox = styled(McCheckbox)`
-  margin-bottom: 24px !important;
+  margin-bottom: 1.5rem !important;
 `
 
 const HeaderWrapper = styled.div`
@@ -100,18 +102,19 @@ const HeaderWrapper = styled.div`
   align-items: center;
 
   &:not(:last-of-type) {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 
   & > * {
     &:not(:last-child) {
-      margin-right: 24px;
+      margin-right: 1.5rem;
     }
   }
 `
 
 const Header = () => (
   <HeaderContainer>
+    <MenuButton />
     <HeaderTop>
       <a
         href="https://adeo-tech-community.slack.com/messages/CKQJZL7C4/"
@@ -174,15 +177,15 @@ const Header = () => (
       </a>
     </HeaderTop>
     <div className="ml-flexy ml-flexy--gutter">
-      <HeaderMain className="ml-flexy__col ml-flexy__col--push-1of12@from-l">
+      <HeaderMain className="ml-flexy__col ml-flexy__col--push-1of12@from-xl">
         <HeaderTitle>Welcome to Mozaic Design System</HeaderTitle>
         <HeaderDesc>
           A design system to reinforce team’s delivery time, improve quality of
           deliverables and thus help set up a coherent customer experience.
         </HeaderDesc>
       </HeaderMain>
-      <HeaderAside className="ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-l">
-        <HeaderSubtitle>Play with Mozaic</HeaderSubtitle>
+      <HeaderAside className="ml-flexy__col ml-flexy__col--full ml-flexy__col--push-1of12@from-xl ml-flexy__col--1of3@from-xl">
+        <HeaderSubtitle>Play with Mozaic 👇</HeaderSubtitle>
         <div className="header__playground">
           <StyledMcButton label="Button label" />
           <StyledMcTextInput />

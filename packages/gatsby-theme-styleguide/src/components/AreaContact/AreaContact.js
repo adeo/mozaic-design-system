@@ -8,22 +8,22 @@ const htmlContent = el => {
 }
 
 const CardTitle = styled.h3`
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   margin-top: 0;
 `
 
 const CardIcon = styled.span`
   display: block;
-  height: 40px;
+  height: 2.5rem;
   margin: 0;
-  width: 40px;
+  width: 2.5rem;
 `
 
 const CardText = styled.p`
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: italic;
   line-height: 1.167;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   margin-top: 0;
 `
 
@@ -32,15 +32,15 @@ const CardLink = styled.a`
   border: 2px solid #000000;
   color: #000000;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 1.5;
-  padding: 12px 24px;
+  padding: 12px 1.5rem;
 `
 
 const Card = ({ className, icon, title, text, link, linkLabel }) => (
   <div
-    className={`${className} ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-l`}
+    className={`${className} ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-xl`}
   >
     <div className="card-contact">
       <CardTitle>
@@ -58,10 +58,12 @@ const Card = ({ className, icon, title, text, link, linkLabel }) => (
 )
 
 const StyledCard = styled(Card)`
-  &:not(:last-child) {
-    margin-bottom: 24px;
+  display: flex;
 
-    @media (min-width: 1024px) {
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+
+    @media (min-width: 1280px) {
       margin-bottom: 0;
     }
   }
@@ -70,7 +72,7 @@ const StyledCard = styled(Card)`
     background: #ffffff;
     border-radius: 4px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
-    padding: 32px 24px 40px;
+    padding: 2rem 1.5rem 2.5rem;
   }
 `
 
@@ -94,36 +96,40 @@ const AreaContainer = styled(Container)``
 
 const AreaWrapper = styled(Container)`
   background: #ecfcfd;
-  margin-bottom: 48px;
-  padding-bottom: 48px;
-  padding-top: 40px;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 2.5rem;
 
   @media (max-width: 767px) {
     margin-left: -1rem;
     margin-right: -1rem;
   }
 
-  @media (min-width: 1024px) {
-    margin-bottom: 56px;
+  @media (min-width: 1280px) {
+    margin-bottom: 3.5rem;
   }
 `
 
+const AreaWrap = styled.div`
+  align-items: stretch !important;
+`
+
 const AreaTitle = styled.h2`
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 1.156;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   margin-top: 0;
 
-  @media (min-width: 1024px) {
-    padding-top: 40px;
+  @media (min-width: 1280px) {
+    padding-top: 2.5rem;
   }
 `
 
 const AreaHat = styled.p`
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.188;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   margin-top: 0;
 `
 
@@ -142,8 +148,8 @@ const AreaContact = props => {
   return (
     <AreaContainer>
       <AreaWrapper>
-        <div className="ml-flexy ml-flexy--gutter">
-          <div className="ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-l">
+        <AreaWrap className="ml-flexy ml-flexy--gutter">
+          <div className="ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-xl">
             <AreaTitle>Need to contact us?</AreaTitle>
             <AreaHat>
               You can speak with Mozaic Design System team on different
@@ -152,7 +158,7 @@ const AreaContact = props => {
             </AreaHat>
           </div>
           {cards}
-        </div>
+        </AreaWrap>
       </AreaWrapper>
     </AreaContainer>
   )

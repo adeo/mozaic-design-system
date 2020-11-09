@@ -18,27 +18,27 @@ const CardLink = styled(Link)`
 `
 
 const CardContent = styled.div`
-  padding: 16px 24px 24px;
+  padding: 1rem 1.5rem 1.5rem;
 `
 
 const CardTitle = styled.h3`
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   line-height: 1.15;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 `
 
 const CardText = styled.p`
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.188;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   margin-top: 0;
 `
 
 const CardCta = styled.p`
   color: #000;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   line-height: 1.167;
   margin-bottom: 0;
@@ -48,7 +48,7 @@ const CardCta = styled.p`
 
 const Card = ({ className, img, title, text, link }) => (
   <CardContainer
-    className={`${className} ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-l`}
+    className={`${className} ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-xl`}
   >
     <CardLink to={link}>
       <figure>
@@ -65,9 +65,9 @@ const Card = ({ className, img, title, text, link }) => (
 
 const StyledCard = styled(Card)`
   &:not(:last-child) {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1280px) {
       margin-bottom: 0;
     }
   }
@@ -78,8 +78,8 @@ const AreaContainer = styled.div`
   padding-left: 1rem;
   padding-right: 1rem;
   background: #222020;
-  margin-bottom: 48px;
-  padding-top: 40px;
+  margin-bottom: 3rem;
+  padding-top: 2.5rem;
   position: relative;
 
   @media (min-width: 680px) {
@@ -87,8 +87,8 @@ const AreaContainer = styled.div`
     padding-right: 2rem;
   }
 
-  @media (min-width: 1024px) {
-    margin-bottom: 56px;
+  @media (min-width: 1280px) {
+    margin-bottom: 3.5rem;
   }
 
   @media (min-width: 1280px) {
@@ -100,24 +100,24 @@ const AreaContainer = styled.div`
     background: #ffffff;
     bottom: 0;
     content: '';
-    height: 64px;
+    height: 4rem;
     left: 0;
     position: absolute;
     right: 0;
     z-index: 0;
 
-    @media (min-width: 1024px) {
-      height: 80px;
+    @media (min-width: 1280px) {
+      height: 5rem;
     }
   }
 `
 
 const AreaTitle = styled.h2`
   color: #ffffff;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 1.156;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   margin-top: 0;
 `
 

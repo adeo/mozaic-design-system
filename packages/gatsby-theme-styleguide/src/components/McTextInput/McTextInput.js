@@ -6,7 +6,7 @@ const McTextInput = ({ className }) => {
     <input
       type="text"
       className={`${className} mc-text-input`}
-      placeholder="Hover"
+      placeholder="Placeholder"
       name="inputExample"
     />
   )

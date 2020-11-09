@@ -10,7 +10,7 @@ const McCheckbox = ({ className, label }) => {
         className="mc-checkbox__input"
         name="checkboxExample"
       />
-      <label for="checkbox-01" className="mc-checkbox__label">
+      <label htmlFor="checkbox-01" className="mc-checkbox__label">
         {label}
       </label>
     </div>

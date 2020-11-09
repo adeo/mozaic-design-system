@@ -8,25 +8,25 @@ const FooterContainer = styled.footer`
   border-top: 1px solid #000000;
   display: flex;
   justify-content: center;
-  min-height: 120px;
+  min-height: 11.25rem;
 `
 
 const FooterContent = styled.p`
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.143;
   margin: 0;
   text-align: center;
 
   span {
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
 
   img {
     display: inline-block;
 
     &:first-of-type {
-      margin-right: 16px;
+      margin-right: 1rem;
       max-width: 53px;
     }
 
