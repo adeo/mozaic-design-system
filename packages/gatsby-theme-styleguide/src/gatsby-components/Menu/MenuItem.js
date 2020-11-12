@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React, { Component } from 'react'
 import styled, { css } from 'styled-components'
 
 const MenuLink = styled(Link)`

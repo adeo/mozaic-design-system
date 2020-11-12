@@ -1,0 +1,19 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.checkbox';
+
+.mc-checkbox {
+  @include set-font-family();
+
+  color: $color-grey-999;
+
+  &__input:checked {
+    background-color: $color-primary-01-500;
+    border-color: $color-primary-01-500;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMXJlbSIgd2lkdGg9IjFyZW0iIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZD0iTTcuNjMgMTEuMjFhMSAxIDAgMCAxLTEuMzggMGwtMi45Mi0yLjZhMSAxIDAgMSAxIDEuMzQtMS40OGwyLjIyIDIgNC40MS00LjM0YTEgMSAwIDEgMSAxLjQgMS40MnoiLz48L3N2Zz4=');
+    background-position: center center;
+    background-size: $mu100;
+  }
+}

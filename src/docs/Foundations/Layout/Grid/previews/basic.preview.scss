@@ -1,0 +1,18 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'layouts/_l.container'; // you generally want the container as well
+@import 'layouts/_l.flexy';
+
+
+.example {
+  @include set-font-scale('04', 's');
+  @include set-font-face('regular');
+
+  background-color: $color-primary-01-200;
+  outline: 1px solid $color-primary-01-500;
+  text-align: center;
+  min-height: 3rem;
+  padding-top: 2rem;
+}

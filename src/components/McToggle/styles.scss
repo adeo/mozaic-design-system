@@ -1,0 +1,11 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.toggle';
+
+.mc-toggle {
+  @include set-font-family();
+
+  color: $color-grey-999;
+}
