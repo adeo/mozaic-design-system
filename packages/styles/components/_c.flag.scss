@@ -12,6 +12,11 @@
       }
     }
   }
+
+  &--extend {
+    flex-shrink: 1;
+    height: auto;
+  }
 }
 
 /* mqp:end */
