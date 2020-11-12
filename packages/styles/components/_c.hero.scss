@@ -1,325 +1,265 @@
 .mc-hero {
+  $parent: &;
+
+  @include set-container-fluid;
+
   position: relative;
-  display: flex;
 
-
-  &__content {
-    display: flex;
-    flex-direction: row;
-    color: $color-grey-000;
+  * {
+    box-sizing: border-box;
   }
 
-  &__background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      background: rgba($color-grey-900, 0.8);
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-    }
-  }
-
-  &__img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  &__box {
-    margin: -$mu400 auto 0;
-    max-width: calc(100% - (#{$mu125} * 2));
-    width: 100%;
-
-    @include set-from-screen('m-medium') {
-      max-width: calc(100% - (#{$mu200} * 2));
-    }
-
-    @include set-from-screen('l') {
-      @include set-flexy-width(4, 12);
-
-      max-width: none;
-    }
-  }
-
-  &__body {
-    display: flex;
-    position: relative;
-    width: 100%;
-    flex-direction: column;
+  &__main {
+    flex: 100%;
+    padding-bottom: magic-unit-rem(4.5, 'true');
     padding-top: $mu400;
-    padding-bottom: $mu600;
 
     @include set-from-screen('m') {
-      padding-bottom: 8.5rem;
+      padding-bottom: $mu700;
+      padding-top: $mu600;
     }
 
     @include set-from-screen('l') {
-      @include set-flexy-width(9, 12);
-
-      padding-top: $mu600;
-      padding-bottom: 11.5rem;
-    }
-
-    @include set-from-screen('xl') {
-      @include set-flexy-width(8, 12);
-
-      padding-top: $mu800;
-      padding-bottom: $mu800;
+      padding-bottom: $mu1000;
     }
 
     @include set-from-screen('xl-medium') {
-      @include set-flexy-width(9, 12);
+      padding-bottom: $mu800;
+      padding-top: $mu800;
+    }
+  }
+
+  &__cover {
+    z-index: -1;
+
+    &,
+    &::before {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    &::before {
+      background-color: rgba($color-grey-900, 0.8);
+      content: '';
+      display: block;
+    }
+  }
+
+  &__visual {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  &__title {
+    margin-top: 0;
+
+    @include set-from-screen('l') {
+      @include set-element-width(9, 12);
+    }
+
+    @include set-from-screen('xl') {
+      @include set-element-width(8, 12);
+    }
+
+    @media (min-width: $screen-xl-medium) and (max-width: ($screen-xxl - 1)) {
+      @include set-element-width(9, 12);
+    }
+  }
+
+  &__content {
+    color: $color-grey-000;
+
+    @include set-from-screen('l') {
+      @include set-element-width(10, 12);
+    }
+
+    @media (min-width: $screen-xl) and (max-width: ($screen-xxl - 1)) {
+      @include set-element-width(9, 12);
+    }
+  }
+
+  &__boxed {
+    flex: 100%;
+    position: relative;
+    margin-top: -$mu600;
+    z-index: 10;
+
+    @include set-from-screen('m') {
+      margin-top: -$mu500;
+    }
+
+    @include set-from-screen('m-medium') {
+      @include set-flexy-width(5, 12);
+
+      margin-top: 0;
     }
 
     @include set-from-screen('xxl') {
-      @include set-flexy-width(8, 12);
+      @include set-flexy-width(4, 12);
     }
+  }
 
-    &--center {
-      justify-content: center;
+  // With Content
+  &--with-content {
+    #{$parent} {
+      &__main {
+        padding-bottom: $mu300;
+        padding-top: $mu250;
 
-      @include set-from-screen('s') {
-        @include set-flexy-width(12, 12);
-      }
-
-      @include set-from-screen('m') {
-        padding-left: 0;
-        padding-right: 0;
-
-        @include set-flexy-width(8, 12);
-        @include set-flexy-col-push(2,12);
-      }
-
-      @include set-from-screen('xxl') {
-        @include set-flexy-width(6, 12);
-        @include set-flexy-col-push(3,12);
-      }
-
-      .mc-hero__header {
-        @include set-from-screen('m-medium') {
-          @include set-flexy-width(1, 1);
+        @include set-from-screen('m') {
+          padding-bottom: $mu500;
+          padding-top: $mu350;
         }
 
-        @include set-from-screen('m-medium') {
-          padding-right: 5rem;
-          padding-left: 5rem;
+        @include set-from-screen('l') {
+          padding-bottom: $mu600;
+          padding-top: $mu500;
         }
 
-        @include set-from-screen('xl') {
-          padding-right: 6.5rem;
-          padding-left: 6.5rem;
-        }
-
-        @include set-from-screen('xl-large') {
-          padding-right: 9.75rem;
-          padding-left: 9.75rem;
+        @include set-from-screen('xxl') {
+          padding-bottom: $mu800;
         }
       }
 
-      .mc-hero__content {
-        justify-content: center;
-        text-align: center;
-
-        @include set-from-screen('m-medium') {
-          padding-right: $mu500;
-          padding-left: $mu500;
+      &__title {
+        @media (min-width: $screen-xl-medium) and (max-width: ($screen-xxl - 1)) {
+          @include set-element-width(8, 12);
         }
 
-        @include set-from-screen('l-medium') {
-          padding-right: 6.5rem;
-          padding-left: 6.5rem;
-        }
-
-        @include set-from-screen('xl-medium') {
-          padding-right: 13.5rem;
-          padding-left: 13.5rem;
-        }
-
-        @include set-from-screen('xl-large') {
-          padding-right: 22rem;
-          padding-left: 22rem;
+        @include set-from-screen('xxl') {
+          @include set-element-width(7, 12);
         }
       }
     }
 
-    &--with-content {
-      @include set-from-screen('s') {
-        @include set-flexy-width(12, 12);
-
-        padding: $mu250 0 $mu300 0;
-      }
-
-      @include set-from-screen('m') {
-        @include set-flexy-width(12, 12);
-
-        padding: $mu350 0 $mu500 0;
-      }
-
-      @include set-from-screen('l') {
-        @include set-flexy-width(12, 12);
-
-        padding: $mu500 0 $mu600 0;
-      }
-
-      @include set-from-screen('xxl') {
-        padding: $mu500 0 $mu800 0;
-      }
-
-      .mc-hero__header {
-        @include set-from-screen('l') {
-          @include set-flexy-width(9, 12);
-        }
-
-        @include set-from-screen('xl') {
-          @include set-flexy-width(8, 12);
-        }
-
-        @include set-from-screen('xxl') {
-          @include set-flexy-width(7, 12);
-        }
-      }
-
-      .mc-hero__content {
-        @include set-from-screen('l') {
-          @include set-flexy-width(10, 12);
-        }
-
-        @include set-from-screen('xl') {
-          @include set-flexy-width(9, 12);
-        }
-
-        @include set-from-screen('xxl') {
-          @include set-flexy-width(10, 12);
-        }
-      }
-    }
-
-    &--center-with-content {
-      justify-content: center;
-
-      @include set-from-screen('s') {
-        @include set-flexy-width(12, 12);
-      }
-
-      @include set-from-screen('l') {
-        padding-left: 0;
-        padding-right: 0;
-
-        @include set-flexy-width(12, 12);
-      }
-
-      .mc-hero__header {
-        @include set-from-screen('s') {
-          @include set-flexy-width(1, 1);
-        }
-
-        @include set-from-screen('l') {
-          @include set-flexy-width(8, 12);
-          @include set-flexy-col-push(2,12);
-        }
-
-        @include set-from-screen('xl') {
-          @include set-flexy-width(6, 12);
-          @include set-flexy-col-push(3,12);
-        }
-
-        @include set-from-screen('xl-medium') {
-          @include set-flexy-width(8, 12);
-          @include set-flexy-col-push(2,12);
-        }
-
-        @include set-from-screen('xxl') {
-          @include set-flexy-width(6, 12);
-          @include set-flexy-col-push(3,12);
-        }
-      }
-
-      .mc-hero__content {
-        justify-content: center;
-        text-align: center;
-
-        @include set-from-screen('l') {
-          @include set-flexy-width(12, 12);
-        }
-
-        @include set-from-screen('xl') {
-          @include set-flexy-width(8, 12);
-          @include set-flexy-col-push(2,12);
-        }
-
-        @include set-from-screen('xl-medium') {
-          @include set-flexy-width(10, 12);
-          @include set-flexy-col-push(1,12);
-        }
-
-        @include set-from-screen('xxl') {
-          @include set-flexy-width(8, 12);
-          @include set-flexy-col-push(2,12);
+    &.mc-hero--center {
+      #{$parent} {
+        &__main {
+          // ????
+          // @media (min-width: $screen-xl-medium) and (max-width: ($screen-xxl - 1)) {
+          //   padding-bottom: magic-unit-rem(7.5, 'true');
+          // }
         }
       }
     }
   }
 
-  // Box modifier
-  &--with-box {
-    @include set-flexy();
-
-    align-items: center;
-
-    @include set-from-screen('l') {
-      padding: $mu400 $mu300 $mu300 $mu300;
+  // With boxed content
+  &--with-boxed {
+    @include set-from-screen('m-medium') {
+      padding-bottom: $mu300;
+      padding-top: $mu400;
     }
 
-    @include set-from-screen('xl') {
-      padding-right: $mu200;
-      padding-left: $mu200;
+    @include set-from-screen('xl-medium') {
       padding-bottom: $mu400;
     }
 
-    @include set-from-screen('xl-medium') {
+    @include set-from-screen('xxl') {
       padding-bottom: $mu500;
     }
 
-    @include set-from-screen('xxl') {
-      padding-right: $mu250;
+    #{$parent} {
+      &__main {
+        padding-bottom: $mu600;
+        padding-top: $mu250;
+        position: relative;
+        flex: 100%;
+
+        @include set-from-screen('m') {
+          padding-bottom: $mu500;
+          padding-top: $mu400;
+        }
+
+        @include set-from-screen('m-medium') {
+          @include set-flexy-width(7, 12);
+
+          padding-bottom: 0;
+          padding-top: 0;
+          position: static;
+        }
+
+        @include set-from-screen('xxl') {
+          @include set-flexy-width(8, 12);
+        }
+      }
+
+      &__cover {
+        @media (max-width: ($screen-m - 1)) {
+          left: -$mu050;
+          width: calc(100% + #{$mu100});
+        }
+
+        @media (max-width: ($screen-l - 1)) {
+          left: -$mu100;
+          width: calc(100% + #{$mu200});
+        }
+      }
+
+      &__title,
+      &__content {
+        max-width: none;
+      }
+
+      &__content {
+        margin-bottom: $mu200;
+
+        @include set-from-screen('m') {
+          margin-bottom: $mu300;
+        }
+
+        @include set-from-screen('m-medium') {
+          margin-bottom: 0;
+        }
+      }
     }
+  }
 
-    .mc-hero__body {
-      width: 100%;
-      max-width: 100%;
-      padding-right: $mu125;
-      padding-left: $mu125;
+  // Center
+  &--center {
+    #{$parent} {
+      // ????
+      // &__main {
+      //   @media (min-width: $screen-l) and (max-width: ($screen-xl - 1)) {
+      //     padding-bottom: $mu700;
+      //   }
+      // }
 
-      @include set-from-screen('m-medium') {
-        flex: auto;
-        width: 100%;
-        max-width: 100%;
-        padding-right: $mu200;
-        padding-left: $mu200;
+      &__title,
+      &__content {
+        margin-left: auto;
+        margin-right: auto;
       }
 
-      @include set-from-screen('l') {
-        position: static;
-        padding-left: 0;
+      &__title {
+        @include set-from-screen('l') {
+          @include set-element-width(8, 12);
+        }
 
-        @include set-flexy-width(7, 12);
+        @include set-from-screen('xxl') {
+          @include set-element-width(6, 12);
+        }
       }
 
+      &__content {
+        text-align: center;
 
-      @include set-from-screen('xl') {
-        @include set-flexy-width(7, 12);
+        @include set-from-screen('l') {
+          max-width: none;
+        }
+
+        @include set-from-screen('xl') {
+          @include set-element-width(8, 12);
+        }
+
+        @media (min-width: $screen-xl-medium) and (max-width: ($screen-xxl - 1)) {
+          @include set-element-width(10, 12);
+        }
       }
     }
   }
