@@ -10,6 +10,7 @@ $flag-border: get-border('s');
   margin: 0;
   vertical-align: middle;
   min-height: 1.375rem;
+  flex-shrink: 0;
 
   /* ie11 hack to center vertically */
 

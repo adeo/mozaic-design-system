@@ -90,13 +90,13 @@
     &-name {
       @include set-font-scale('05', 'm');
 
-      display: flex;
-      flex: 1 0 auto;
+      flex-grow: 1;
       overflow: hidden;
       padding-left: $mu075;
       padding-right: $mu075;
       text-overflow: ellipsis;
       white-space: nowrap;
+      max-width: calc(100% - #{$mu500} - #{$mu250});
     }
 
     &-icon {
