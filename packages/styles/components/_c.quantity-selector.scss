@@ -1,3 +1,27 @@
 .mc-quantity-selector {
   $parent: &;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  &__button {
+    &-right {
+      border-radius: 0 $mu025 $mu025 0;
+    }
+
+    &-left {
+      border-radius: $mu025 0 0 $mu025;
+    }
+  }
+
+  &__field {
+    margin: 0;
+  }
+
+  &__input {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
 }
