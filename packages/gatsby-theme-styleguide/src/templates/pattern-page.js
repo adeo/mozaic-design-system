@@ -1,17 +1,16 @@
-import React from 'react'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-import { graphql } from 'gatsby'
-import styled, { css } from 'styled-components'
-
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
-import Container from '../gatsby-components/Container'
-import Layout from '../gatsby-components/layout'
-import PageTabs from '../gatsby-components/PageTabs'
+import { graphql } from 'gatsby'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+import React from 'react'
+import styled, { css } from 'styled-components'
 import CalloutVue from '../gatsby-components/CalloutVue'
-import TableOfContents from '../gatsby-components/TableOfContents'
-import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
+import Container from '../gatsby-components/Container'
 import JSImplementation from '../gatsby-components/JSImplementation'
-import { DisplayDisplayList32, ControlCross32 } from '@mozaic-ds/icons/react'
+import Layout from '../gatsby-components/layout'
+import MenuButton from '../gatsby-components/Menu/MenuButton'
+import PageTabs from '../gatsby-components/PageTabs'
+import PatternStatusGroup from '../gatsby-components/PatternStatusGroup'
+import TableOfContents from '../gatsby-components/TableOfContents'
 
 const FullWidthContainer = styled.div`
   ${({ separator }) => separator};
@@ -68,41 +67,6 @@ const Header = styled(Container)`
         `};
 `
 
-const MenuTriggerButton = styled.button`
-  background: #e6e6e6;
-  border: none;
-  cursor: pointer;
-  height: 2rem;
-  padding: 0;
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  width: 2rem;
-  z-index: 2000;
-
-  @media screen and (min-width: 1024px) {
-    display: none;
-  }
-
-  .triggerMenu {
-    &__open {
-      display: block;
-
-      .nav-open & {
-        display: none;
-      }
-    }
-
-    &__close {
-      display: none;
-
-      .nav-open & {
-        display: block;
-      }
-    }
-  }
-`
-
 const HeaderTitle = styled.h1`
   font-weight: normal;
   margin: 0;
@@ -150,34 +114,12 @@ export default ({ data, location }) => {
   const hasTabs = samePageTabs.length > 1
   const hasMainCategory = mainCategory.length > 3
   const hasVueLink = parentLinks && parentLinks.vue && parentLinks.vue.link
-  const handleMenu = () => {
-    if (document.body.classList.contains('nav-open')) {
-      document.body.classList.remove('nav-open')
-      return false
-    }
-
-    document.body.classList.add('nav-open')
-  }
 
   return (
     <Layout location={location} tableOfContents={tableOfContents}>
       <FullWidthContainer separator>
         <Header hasMainCategory={hasMainCategory}>
-          <MenuTriggerButton
-            className="triggerMenu"
-            type="button"
-            title="Open Menu"
-            onClick={handleMenu}
-          >
-            <DisplayDisplayList32
-              className="triggerMenu__open"
-              fill="currentColor"
-            />
-            <ControlCross32
-              className="triggerMenu__close"
-              fill="currentColor"
-            />
-          </MenuTriggerButton>
+          <MenuButton />
           {hasMainCategory && (
             <HeaderCategory>{mainCategory[1]}</HeaderCategory>
           )}
