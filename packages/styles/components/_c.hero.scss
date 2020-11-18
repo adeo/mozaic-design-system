@@ -93,7 +93,7 @@
       margin-top: -$mu500;
     }
 
-    @include set-from-screen('m-medium') {
+    @include set-from-screen('l') {
       @include set-flexy-width(5, 12);
 
       margin-top: 0;
@@ -140,10 +140,11 @@
     &.mc-hero--center {
       #{$parent} {
         &__main {
-          // ????
+          /*
           // @media (min-width: $screen-xl-medium) and (max-width: ($screen-xxl - 1)) {
           //   padding-bottom: magic-unit-rem(7.5, 'true');
           // }
+          */
         }
       }
     }
@@ -151,7 +152,7 @@
 
   // With boxed content
   &--with-boxed {
-    @include set-from-screen('m-medium') {
+    @include set-from-screen('l') {
       padding-bottom: $mu300;
       padding-top: $mu400;
     }
@@ -176,7 +177,7 @@
           padding-top: $mu400;
         }
 
-        @include set-from-screen('m-medium') {
+        @include set-from-screen('l') {
           @include set-flexy-width(7, 12);
 
           padding-bottom: 0;
@@ -213,8 +214,42 @@
           margin-bottom: $mu300;
         }
 
-        @include set-from-screen('m-medium') {
+        @include set-from-screen('l') {
           margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &--boxed-bottom {
+    @media (min-width: $screen-l) and (max-width: ($screen-xl - 1)) {
+      padding-bottom: 0;
+      padding-top: 0;
+
+      #{$parent} {
+        &__main,
+        &__boxed {
+          flex: 100%;
+          max-width: none;
+        }
+
+        &__cover {
+          left: -$mu200;
+          width: calc(100% + #{$mu400});
+        }
+
+        &__main {
+          padding-bottom: $mu700;
+          padding-top: $mu400;
+          position: relative;
+        }
+
+        &__content {
+          margin-bottom: $mu300;
+        }
+
+        &__boxed {
+          margin-top: -$mu700;
         }
       }
     }
@@ -223,12 +258,13 @@
   // Center
   &--center {
     #{$parent} {
-      // ????
+      /*
       // &__main {
       //   @media (min-width: $screen-l) and (max-width: ($screen-xl - 1)) {
       //     padding-bottom: $mu700;
       //   }
       // }
+      */
 
       &__title,
       &__content {
