@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.21](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.20...v1.0.1-beta.21) (2020-11-12)
+
+
+### Features
+
+* **website/homepage:** new homepage integration ([#661](https://github.com/adeo/mozaic-design-system/issues/661)) ([d6fc9e7](https://github.com/adeo/mozaic-design-system/commit/d6fc9e71eb2059ec8a6fef439a24ed4eb6e6c53e))
+
+
+
+
+
 ## [1.0.1-beta.17](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.16...v1.0.1-beta.17) (2020-09-15)
 
 

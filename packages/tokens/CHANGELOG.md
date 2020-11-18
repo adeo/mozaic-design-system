@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.21](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.20...v1.0.1-beta.21) (2020-11-12)
+
+
+### Bug Fixes
+
+* **patterns/button:** update the buttons's disabled state color ([#668](https://github.com/adeo/mozaic-design-system/issues/668)) ([c3c0ffd](https://github.com/adeo/mozaic-design-system/commit/c3c0ffd2cd28051d7440993cf859d28f09dacda3))
+
+
+### Features
+
+* **patterns/link:** make the light link accessible ([#673](https://github.com/adeo/mozaic-design-system/issues/673)) ([87c15a1](https://github.com/adeo/mozaic-design-system/commit/87c15a1af097a5e2c12479f55dc1a7b3ef16ca6c))
+
+
+
+
+
 ## [1.0.1-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.15...v1.0.1-beta.16) (2020-09-01)
 
 

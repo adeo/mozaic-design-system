@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.21](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.20...v1.0.1-beta.21) (2020-11-12)
+
+
+### Bug Fixes
+
+* **patterns/button:** update the buttons's disabled state color ([#668](https://github.com/adeo/mozaic-design-system/issues/668)) ([c3c0ffd](https://github.com/adeo/mozaic-design-system/commit/c3c0ffd2cd28051d7440993cf859d28f09dacda3))
+* **patterns/file-uploader:** improve truncation on the loaded file name ([#671](https://github.com/adeo/mozaic-design-system/issues/671)) ([166d52b](https://github.com/adeo/mozaic-design-system/commit/166d52bd5c44ae4a9cebef72641392e67083f7d5)), closes [#670](https://github.com/adeo/mozaic-design-system/issues/670)
+* **patterns/flag:** add a modifier for multi-line flag ([#674](https://github.com/adeo/mozaic-design-system/issues/674)) ([0b69087](https://github.com/adeo/mozaic-design-system/commit/0b69087ebed8a70ce4a5609dd327d588d8c2c84e))
+
+
+### Features
+
+* **foundations/layout:** clean documentation ([#659](https://github.com/adeo/mozaic-design-system/issues/659)) ([50e7541](https://github.com/adeo/mozaic-design-system/commit/50e7541d4f4d22f16787f2264fdea0262009a0e7))
+* **patterns/link:** make the light link accessible ([#673](https://github.com/adeo/mozaic-design-system/issues/673)) ([87c15a1](https://github.com/adeo/mozaic-design-system/commit/87c15a1af097a5e2c12479f55dc1a7b3ef16ca6c))
+* **website/homepage:** new homepage integration ([#661](https://github.com/adeo/mozaic-design-system/issues/661)) ([d6fc9e7](https://github.com/adeo/mozaic-design-system/commit/d6fc9e71eb2059ec8a6fef439a24ed4eb6e6c53e))
+
+
+
+
+
 ## [1.0.1-beta.20](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.19...v1.0.1-beta.20) (2020-10-28)
 
 
