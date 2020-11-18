@@ -1,9 +1,7 @@
 .mc-quantity-selector {
   $parent: &;
 
-  align-items: center;
   display: flex;
-  justify-content: center;
 
   &__button {
     &-right {

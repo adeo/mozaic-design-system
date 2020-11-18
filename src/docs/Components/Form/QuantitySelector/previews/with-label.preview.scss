@@ -3,10 +3,15 @@
 @include import-font-families();
 
 @import 'components/_c.text-input';
+@import 'components/_c.fields';
 @import 'components/_c.button';
 @import 'components/_c.quantity-selector';
 
+
+
 .example {
+  @include set-font-face();
+
   display: flex;
   align-items: center;
   justify-content: center;
