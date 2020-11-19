@@ -4,21 +4,46 @@
       Label
     </label>
 		<div class="mc-quantity-selector mc-field__element">
-			<a href="#" class="mc-button mc-button--s mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-left" aria-label="">
+			<button class="mc-button mc-button--s mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-left" aria-controls="qty-selector" aria-label="Decrement">
 				<svg class="mc-button__icon">
 					<use xlink:href="#iconLeftL" />
 				</svg>
-			</a>
-
+			</button>
+	
 			<div class="mc-quantity-selector__field">
-				<input type="number" class="mc-text-input mc-text-input--s mc-quantity-selector__input" placeholder="Value" name="quantity-selector-input"/>
+				<input id="qty-selector" class="mc-text-input mc-text-input--s mc-quantity-selector__input" name="quantity-selector-input" role="spinbutton" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" type="number" placeholder="Value" />
 			</div>
-
-			<a href="#" class="mc-button mc-button--s mc-button--square mc-button--bordered mc-quantity-selector__button-right" aria-label="Next Page">
+	
+			<button aria-controls="qty-selector" class="mc-button mc-button--s mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-right" aria-label="Increment">
 				<svg class="mc-button__icon">
 					<use xlink:href="#iconRightL" />
 				</svg>
-			</a>
+			</button>
+		</div>
+	</div>
+</div>
+
+<div class="example">
+	<div class="mc-field">
+    <label class="mc-field__label" for="default">
+      Label
+    </label>
+		<div class="mc-quantity-selector mc-field__element">
+			<button class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-left" aria-controls="qty-selector" aria-label="Decrement">
+				<svg class="mc-button__icon">
+					<use xlink:href="#iconLeftL" />
+				</svg>
+			</button>
+	
+			<div class="mc-quantity-selector__field">
+				<input id="qty-selector" class="mc-text-input mc-quantity-selector__input" name="quantity-selector-input" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" type="number"  placeholder="Value" />
+			</div>
+	
+			<button class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-right" aria-controls="qty-selector" aria-label="Increment">
+				<svg class="mc-button__icon">
+					<use xlink:href="#iconRightL" />
+				</svg>
+			</button>
 		</div>
 	</div>
 </div>

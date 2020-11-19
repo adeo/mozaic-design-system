@@ -12,6 +12,26 @@ order: 2
 
 # Usage
 
+```html
+  <div class="mc-quantity-selector">
+    <button class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-left" aria-controls="qty-selector" aria-label="Decrement">
+      <svg class="mc-button__icon">
+        <use xlink:href="#iconLeftL" />
+      </svg>
+    </button>
+
+    <div class="mc-quantity-selector__field">
+      <input id="qty-selector" class="mc-text-input mc-quantity-selector__input" name="quantity-selector-input" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" type="number"  placeholder="Value" />
+    </div>
+
+    <button aria-controls="qty-selector" class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-right" aria-label="Increment">
+      <svg class="mc-button__icon">
+        <use xlink:href="#iconRightL" />
+      </svg>
+    </button>
+  </div>
+```
+
 <Preview path="basic" />
 
 # Variations
@@ -21,13 +41,25 @@ You can use one of the 2 available sizes:
 - *Small* : you will have to use small modifier for input text and button, respectively `mc-text-input--s`, `mc-button--s` 
 - *Medium* : this is the default style so you don't need to add a modifier class
 
+<Preview path="basic" />
+
 ## With label
-### Small
 
 <Preview path="with-label" />
 
-### Medium
+## Behaviour minimal value
 
-<Preview path="medium" />
+<Preview path="minimal" />
 
 # Accessibility and semantic
+<HintItem>
+Use aria-valuemin attribute to set the minimum value allowed for the quantity selector.
+</HintItem>
+
+<HintItem>
+Use aria-valuemax attribute to set the maximum value allowed for the quantity selector.
+</HintItem>
+
+
+
+
