@@ -1,3 +1,8 @@
+$notification-text-font-size: get-token(size, font, '04');
+$notification-title-font-size: get-token(size, font, '05');
+$notification-close-icon-color: get-token(color, notification, font);
+$notification-border-width: get-border('s');
+
 $notification-type-border-background-icon: (
   'information': (
     'border': $color-notification-information-border,

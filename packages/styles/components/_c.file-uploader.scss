@@ -33,10 +33,6 @@
       margin-left: -$mu050;
     }
 
-    &--center {
-      transform: translateY(-0.125em);
-    }
-
     :focus + & {
       @include add-demo-state-class {
         @include set-button-theme(
@@ -92,12 +88,15 @@
     }
 
     &-name {
-      display: flex;
-      flex: 1 0 auto;
+      @include set-font-scale('05', 'm');
+
+      flex-grow: 1;
       overflow: hidden;
-      padding: $mu050 $mu075;
+      padding-left: $mu075;
+      padding-right: $mu075;
       text-overflow: ellipsis;
       white-space: nowrap;
+      max-width: calc(100% - #{$mu500} - #{$mu250});
     }
 
     &-icon {
@@ -136,7 +135,6 @@
       background: $color-grey-000;
       color: $color-font-danger;
       flex-basis: 100%;
-      padding-bottom: $mu050;
       padding-top: $mu025;
     }
   }

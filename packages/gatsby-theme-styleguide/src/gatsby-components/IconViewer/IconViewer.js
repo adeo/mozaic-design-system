@@ -17,25 +17,28 @@ const IconViewer = ({ type }) => {
       query={graphql`
         query AllIcons {
           dataJson {
-            monochrom {
-              cat
-              componentName
-              fileName
-              name
-              iconName
-              size
-            }
-            color {
-              cat
-              fileName
-              name
-              size
+            icons {
+              color {
+                cat
+                size
+                name
+                fileName
+                iconName
+              }
+              monochrom {
+                cat
+                size
+                name
+                fileName
+                iconName
+                componentName
+              }
             }
           }
         }
       `}
       render={data => {
-        const icons = data.dataJson[type]
+        const icons = data.dataJson.icons[type]
         const categories = {}
 
         icons.forEach(icon => {

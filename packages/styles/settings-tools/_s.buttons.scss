@@ -3,8 +3,8 @@ $buttons: get-token(color, button);
 $button-sizes: (
   's': (
     'font-size': '04',
-    'line-height': 'xs',
-    'padding-v': $mu025,
+    'line-height': 'm',
+    'padding-v': magic-unit-rem(0.3125, 'true'),
     'padding-h': $mu100,
     'min-height': $mu200,
     'icon-size': $mu150,
@@ -12,8 +12,8 @@ $button-sizes: (
   ),
   'm': (
     'font-size': '05',
-    'line-height': 'xs',
-    'padding-v': $mu025,
+    'line-height': 'm',
+    'padding-v': magic-unit-rem(0.6875, 'true'),
     'padding-h': $mu200,
     'min-height': $mu300,
     'icon-size': $mu150,
@@ -21,12 +21,12 @@ $button-sizes: (
   ),
   'l': (
     'font-size': '06',
-    'line-height': 'xs',
-    'padding-v': $mu025,
+    'line-height': 'm',
+    'padding-v': magic-unit-rem(0.875, 'true'),
     'padding-h': $mu200,
     'min-height': $mu350,
     'icon-size': $mu200,
-    'only-icon-size': $mu250
+    'only-icon-size': $mu250,
   ),
 );
 

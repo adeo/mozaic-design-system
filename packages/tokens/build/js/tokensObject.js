@@ -2182,9 +2182,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidDisabledFont",
             "attributes": {
@@ -2356,9 +2356,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidPrimary02DisabledFont",
             "attributes": {
@@ -2530,9 +2530,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidNeutralDisabledFont",
             "attributes": {
@@ -2704,9 +2704,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonSolidDangerDisabledFont",
             "attributes": {
@@ -2897,9 +2897,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedDisabledFont",
             "attributes": {
@@ -3069,9 +3069,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedPrimary02DisabledFont",
             "attributes": {
@@ -3241,9 +3241,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedNeutralDisabledFont",
             "attributes": {
@@ -3413,9 +3413,9 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#887f87",
+            "value": "#6f676c",
             "original": {
-              "value": "{color.grey.500.value}"
+              "value": "{color.grey.600.value}"
             },
             "name": "ColorButtonBorderedDangerDisabledFont",
             "attributes": {
@@ -4840,9 +4840,9 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#554f52",
+          "value": "#3c3738",
           "original": {
-            "value": "{color.grey.700.value}"
+            "value": "{color.grey.800.value}"
           },
           "name": "ColorLinkDarkVisited",
           "attributes": {
@@ -4859,9 +4859,9 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#554f52",
+          "value": "#3c3738",
           "original": {
-            "value": "{color.grey.700.value}"
+            "value": "{color.grey.800.value}"
           },
           "name": "ColorLinkDarkActive",
           "attributes": {
@@ -4897,9 +4897,9 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#887f87",
+          "value": "#6f676c",
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorLinkDarkHover",
           "attributes": {
@@ -4937,9 +4937,9 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#bab6bc",
+          "value": "#d3d2d6",
           "original": {
-            "value": "{color.grey.300.value}"
+            "value": "{color.grey.200.value}"
           },
           "name": "ColorLinkLightVisited",
           "attributes": {
@@ -4956,9 +4956,9 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#bab6bc",
+          "value": "#d3d2d6",
           "original": {
-            "value": "{color.grey.300.value}"
+            "value": "{color.grey.200.value}"
           },
           "name": "ColorLinkLightActive",
           "attributes": {
@@ -4994,9 +4994,9 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#887f87",
+          "value": "#a19ba2",
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.400.value}"
           },
           "name": "ColorLinkLightHover",
           "attributes": {
@@ -5034,9 +5034,9 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#41a017",
+          "value": "#158110",
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.700.value}"
           },
           "name": "ColorLinkPrimaryVisited",
           "attributes": {
@@ -5091,9 +5091,9 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#41a017",
+          "value": "#053e1f",
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.900.value}"
           },
           "name": "ColorLinkPrimaryHover",
           "attributes": {
@@ -5188,9 +5188,9 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#044c53",
+          "value": "#062b35",
           "original": {
-            "value": "{color.primary-02.700.value}"
+            "value": "{color.primary-02.900.value}"
           },
           "name": "ColorLinkPrimary02Hover",
           "attributes": {
@@ -5209,9 +5209,9 @@ module.exports = {
       },
       "danger": {
         "base": {
-          "value": "#df382b",
+          "value": "#b42a27",
           "original": {
-            "value": "{color.secondary-red.500.value}"
+            "value": "{color.secondary-red.600.value}"
           },
           "name": "ColorLinkDangerBase",
           "attributes": {
@@ -5285,9 +5285,9 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#8b2226",
+          "value": "#3e1219",
           "original": {
-            "value": "{color.secondary-red.700.value}"
+            "value": "{color.secondary-red.900.value}"
           },
           "name": "ColorLinkDangerHover",
           "attributes": {

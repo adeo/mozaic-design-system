@@ -13,8 +13,9 @@
     }
   }
 
-  &__label {
-    transform: translateY(-0.143em);
+  &--extend {
+    flex-shrink: 1;
+    height: auto;
   }
 }
 
