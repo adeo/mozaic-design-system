@@ -13,23 +13,23 @@ order: 2
 # Usage
 
 ```html
-  <div class="mc-quantity-selector">
-    <button class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-left" aria-controls="qty-selector" aria-label="Decrement">
-      <svg class="mc-button__icon">
-        <use xlink:href="#iconLeftL" />
-      </svg>
-    </button>
+<div class="mc-quantity-selector">
+	<button class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-left" aria-controls="qty-selector" aria-label="Decrement">
+		<svg class="mc-button__icon">
+			<use xlink:href="#iconLeftL" />
+		</svg>
+	</button>
 
-    <div class="mc-quantity-selector__field">
-      <input id="qty-selector" class="mc-text-input mc-quantity-selector__input" name="quantity-selector-input" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" type="number"  placeholder="Value" />
-    </div>
+	<div class="mc-quantity-selector__field">
+		<input id="qty-selector" class="mc-text-input mc-quantity-selector__input" name="quantity-selector-input" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" type="number"  placeholder="Value" />
+	</div>
 
-    <button aria-controls="qty-selector" class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-right" aria-label="Increment">
-      <svg class="mc-button__icon">
-        <use xlink:href="#iconRightL" />
-      </svg>
-    </button>
-  </div>
+	<button aria-controls="qty-selector" class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-right" aria-label="Increment">
+		<svg class="mc-button__icon">
+			<use xlink:href="#iconRightL" />
+		</svg>
+	</button>
+</div>
 ```
 
 <Preview path="basic" />
@@ -48,18 +48,21 @@ You can use one of the 2 available sizes:
 <Preview path="with-label" />
 
 ## Behaviour minimal value
+To indicate that decrement button is disabled, the `is-disabled` class must be added to the button element.
+
 
 <Preview path="minimal" />
 
 # Accessibility and semantic
 <HintItem>
+The buttons element (mc-quantity-selector__button) must always have a aria-controls attribute whose value corresponds to the value of the `id` attribute of the input field element.
+</HintItem>
+<HintItem>
+The input field element must always have an attribute id
+</HintItem>
+<HintItem>
 Use aria-valuemin attribute to set the minimum value allowed for the quantity selector.
 </HintItem>
-
 <HintItem>
 Use aria-valuemax attribute to set the maximum value allowed for the quantity selector.
 </HintItem>
-
-
-
-

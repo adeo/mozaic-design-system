@@ -21,13 +21,19 @@
     border-radius: 0;
     border-left: none;
     border-right: none;
+    text-align: center;
   }
+
+  &__input::placeholder {
+    text-align: center;
+  }
+
   // To be removed - check fix on line he
   .mc-text-input {
     height: 48px;
-  }
 
-  .mc-text-input--s {
-    height: 32px;
+    &--s {
+      height: 32px;
+    }
   }
 }
