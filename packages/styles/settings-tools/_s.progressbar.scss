@@ -1,0 +1,14 @@
+$progressbar-sizes: (
+  's': (
+    'height': $mu025,
+    'border-radius': get-border-radius('m'),
+  ),
+  'm': (
+    'height': $mu050,
+    'border-radius': get-border-radius('l'),
+  ),
+  'percent': (
+    'height': $mu150,
+    'border-radius': unquote('12px'),
+  ),
+);

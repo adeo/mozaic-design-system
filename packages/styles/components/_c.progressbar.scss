@@ -1,0 +1,58 @@
+.mc-progressbar {
+  $parent: &;
+
+  @include set-font-family;
+
+  background-color: $color-progress-background;
+  display: flex;
+  height: $mu050;
+  position: relative;
+
+  &,
+  &__indicator {
+    border-radius: get-border-radius('l');
+    line-height: 0;
+    overflow: hidden;
+  }
+
+  &__indicator {
+    background-color: $color-progress-indicator;
+    transition: width 0.4s ease;
+  }
+
+  &__percentage {
+    @include set-font-scale('04', 'm');
+    @include set-font-weight('semi-bold');
+
+    color: $color-progress-percentage-default;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    @at-root #{$parent}--half & {
+      color: $color-progress-percentage-half;
+    }
+  }
+
+  // Size modifiers
+  @each $name, $props in $progressbar-sizes {
+    &--#{$name} {
+      @if ($name != 'm') {
+        height: map-get($props, 'height');
+
+        &,
+        #{$parent}__indicator {
+          border-radius: map-get($props, 'border-radius');
+        }
+      }
+    }
+  }
+
+  // Color modifiers
+  &--branded {
+    #{$parent}__indicator {
+      background-color: $color-progress-branded-indicator;
+    }
+  }
+}
