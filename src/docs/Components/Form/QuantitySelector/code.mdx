@@ -3,28 +3,29 @@ title: 'Code'
 order: 2
 ---
 # Import
+Import **the settings**, the **text-input**, the **button** and the **quantity-selector** scss files.
 ```scss
 @import 'settings-tools/_all-settings';
-@import 'components/_c.quantity-selector';
 @import 'components/_c.text-input';
 @import 'components/_c.button';
+@import 'components/_c.quantity-selector';
 ```
 
 # Usage
 
 ```html
 <div class="mc-quantity-selector">
-	<button class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-left" aria-controls="qty-selector" aria-label="Decrement">
+	<button class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button-left" aria-controls="qty-selector" aria-label="Decrement">
 		<svg class="mc-button__icon">
 			<use xlink:href="#iconLeftL" />
 		</svg>
 	</button>
 
 	<div class="mc-quantity-selector__field">
-		<input id="qty-selector" class="mc-text-input mc-quantity-selector__input" name="quantity-selector-input" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" type="number"  placeholder="Value" />
+		<input id="qty-selector" class="mc-text-input mc-quantity-selector__input" name="quantity-selector-input" aria-label="QuantitySelector" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" type="number"  placeholder="Value" />
 	</div>
 
-	<button aria-controls="qty-selector" class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button mc-quantity-selector__button-right" aria-label="Increment">
+	<button aria-controls="qty-selector" class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button-right" aria-label="Increment">
 		<svg class="mc-button__icon">
 			<use xlink:href="#iconRightL" />
 		</svg>
@@ -44,25 +45,20 @@ You can use one of the 2 available sizes:
 <Preview path="basic" />
 
 ## With label
+Import the **fields** scss file.
+```scss
+@import 'components/_c.fields';
+```
+
+To use the quantity selector in your form, you must use the following css classes:
+
+- `mc-field` on a container
+- `mc-field__label` on label tag
+- and `mc-field__element` in addition of the `mc-quantity-selector` class on the div element:
 
 <Preview path="with-label" />
 
 ## Behaviour minimal value
 To indicate that decrement button is disabled, the `is-disabled` class must be added to the button element.
 
-
 <Preview path="minimal" />
-
-# Accessibility and semantic
-<HintItem>
-The buttons element (mc-quantity-selector__button) must always have a aria-controls attribute whose value corresponds to the value of the `id` attribute of the input field element.
-</HintItem>
-<HintItem>
-The input field element must always have an attribute id
-</HintItem>
-<HintItem>
-Use aria-valuemin attribute to set the minimum value allowed for the quantity selector.
-</HintItem>
-<HintItem>
-Use aria-valuemax attribute to set the maximum value allowed for the quantity selector.
-</HintItem>
