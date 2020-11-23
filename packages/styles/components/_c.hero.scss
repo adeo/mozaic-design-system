@@ -136,18 +136,6 @@
         }
       }
     }
-
-    &.mc-hero--center {
-      #{$parent} {
-        &__main {
-          /*
-          // @media (min-width: $screen-xl-medium) and (max-width: ($screen-xxl - 1)) {
-          //   padding-bottom: magic-unit-rem(7.5, 'true');
-          // }
-          */
-        }
-      }
-    }
   }
 
   // With boxed content
@@ -258,14 +246,6 @@
   // Center
   &--center {
     #{$parent} {
-      /*
-      // &__main {
-      //   @media (min-width: $screen-l) and (max-width: ($screen-xl - 1)) {
-      //     padding-bottom: $mu700;
-      //   }
-      // }
-      */
-
       &__title,
       &__content {
         margin-left: auto;
