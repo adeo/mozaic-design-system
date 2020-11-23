@@ -79,6 +79,7 @@ const productionPlugins = [
   mqpackerondemand({
     sort: true,
   }),
+  autoprefixer(),
   cssnano(['default', { discardComments: { removeAll: true } }]),
 ]
 
