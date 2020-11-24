@@ -9,7 +9,7 @@
   box-shadow: none;
   border: none;
 
-  &[type=number] {
+  &[type="number"] {
     &::-webkit-inner-spin-button,
     &::-webkit-outer-spin-button {
       appearance: none;
