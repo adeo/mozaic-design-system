@@ -7595,19 +7595,19 @@
         "img": "/images/foundations.jpg",
         "title": "Foundations",
         "text": "Everyting you need to discover our brand foundations.",
-        "link": "Foundations"
+        "link": "Foundations/"
       },
       {
         "img": "/images/components.jpg",
         "title": "Components",
         "text": "Use our components to create accessible and consistent layouts.",
-        "link": "Components"
+        "link": "Components/"
       },
       {
         "img": "/images/whatsnew.jpg",
         "title": "What's new?",
         "text": "Find out what’s planned for Mozaic Design System.",
-        "link": "Roadmap/"
+        "link": "Updates/Roadmap/"
       }
     ],
     "contactus": [
