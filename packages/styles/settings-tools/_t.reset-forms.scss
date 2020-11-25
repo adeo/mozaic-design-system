@@ -8,4 +8,12 @@
   margin: 0;
   box-shadow: none;
   border: none;
+
+  &[type="number"] {
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+      appearance: none;
+      margin: 0;
+    }
+  }
 }
