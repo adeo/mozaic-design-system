@@ -8,6 +8,10 @@
 
 .example {
   @include set-font-family();
+
+  &:not(:last-child) {
+    margin-bottom: $mu500;
+  }
 }
 
 p {
