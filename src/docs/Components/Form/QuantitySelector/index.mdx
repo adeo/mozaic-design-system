@@ -1,7 +1,7 @@
 ---
 title: 'Quantity Selector'
 order: 5
-description: "The quantity selector is form element used to enter or select a number. You can either type the number in the field or use the plus and minus icon to select the wanted number."
+description: "The quantity selector is a form element used to enter or select a number. You can either type the number in the field or use the plus and minus icons to select the wanted number."
 links:
   vue:
     link: ''
@@ -14,7 +14,7 @@ status:
   scss: 'stable'
 ---
 
-The quantity selector is form element used to enter or select a number. You can either type the number in the field or use the plus and minus icon to select the wanted number.
+The quantity selector is a form element used to enter or select a number. You can either type the number in the field or use the plus and minus icons to select the wanted number.
 
 <Preview path="basic" />
 
@@ -22,13 +22,13 @@ The quantity selector is form element used to enter or select a number. You can 
 
 ![QuantitySelector](QtySelector-Overview.png)
 
-Quantity Selector are a combination of the following mentions:
+Quantity Selector is a combination of the following mentions:
 
 - Label + incremental buttons + quantity field
 
 ## Usage
 
-This type of input is best used when the user need to choose the quantity of a selected item, like a product before adding to cart for example.
+This type of input is best used when the user needs to choose the quantity of a selected item, like a product before adding to cart for example.
 
 <Highlight theme="tips">
 
@@ -47,3 +47,9 @@ You can also require a minimal value from the user. In this case please use a gr
 ### Label
 
 You can use quantity selectors with or without label depending on the context of the page where you are using it.
+
+## Do & dont's
+
+<HintItem dont>
+  Never use quantity selector when the user needs to choose a date.
+</HintItem>
