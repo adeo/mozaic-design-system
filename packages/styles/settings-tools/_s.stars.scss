@@ -25,11 +25,11 @@ $stars-default-size: map-get($stars-sizes, 'm');
 $stars-default-bg-size: map-deep-get($stars-sizes, 'm', 'width');
 
 @mixin set-stars-size($sizeProps) {
-  width: #{map-get($sizeProps, 'width')};
-  height: #{map-get($sizeProps, 'height')};
+  width: map-get($sizeProps, 'width');
+  height: map-get($sizeProps, 'height');
 }
 
 @mixin set-stars-container($sizeProps) {
-  height: #{map-get($sizeProps, 'height')};
-  width: calc(#{map-get($sizeProps, 'width')} * 5);
+  height: map-get($sizeProps, 'height');
+  width: map-get($sizeProps, 'width') * 5;
 }
