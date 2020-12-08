@@ -1,7 +1,7 @@
 ---
 title: 'Quantity Selector'
 order: 5
-description: "The quantity selector is a form element used to enter or select a number. You can either type the number in the field or use the plus and minus icons to select the wanted number."
+description: "The quantity selector is a form element used to enter or select a number. This type of input is best used when the user needs to choose the quantity of a selected item, like a product before adding to cart for example"
 links:
   vue:
     link: ''
@@ -14,9 +14,16 @@ status:
   scss: 'stable'
 ---
 
-The quantity selector is a form element used to enter or select a number. You can either type the number in the field or use the plus and minus icons to select the wanted number.
+> The quantity selector is a form element used to enter or select a number. This type of input is best used when the user needs to choose the quantity of a selected item, like a product before adding to cart for example.
 
-<Preview path="basic" />
+<Preview path="medium-input" nude />
+
+<Highlight theme="tips">
+
+  Don't forget that the user can use its keyboard or the incremental buttons to select the quantity.
+
+</Highlight>
+
 
 ## Overview
 
@@ -24,29 +31,22 @@ The quantity selector is a form element used to enter or select a number. You ca
 
 Quantity Selector is a combination of the following mentions:
 
-- Label + incremental buttons + quantity field
+- Label (optional)
+- Incremental buttons + quantity field
 
-## Usage
 
-This type of input is best used when the user needs to choose the quantity of a selected item, like a product before adding to cart for example.
+## Sizes
 
-<Highlight theme="tips">
+We provide two different sizes to adapt to your design needs but keep in mind that the `medium` case must be used on smaller breakpoints. More on [accessibility](Components/Form/QuantitySelector/accessibility/) page.
 
-  Dont forget that the user can use its keyboard or the incremental buttons to select the quantity.
+<Preview path="basic" nude />
 
-</Highlight>
 
-## Variations
+## Behaviors
 
-We provide two different sizes to adapt to your design needs but keep in mind that the `medium` case must be used on smaller breakpoints. More on [accessbility](Components/Form/QuantitySelector/accessibility/) page.
+You can also require a minimal value from the user. In this case the minus button must be disabled.
 
-You can also require a minimal value from the user. In this case please use a greyed out minus button for the incremental button.
-
-<Preview path="minimal" />
-
-### Label
-
-You can use quantity selectors with or without label depending on the context of the page where you are using it.
+<Preview path="minimal" nude />
 
 ## Do & dont's
 
