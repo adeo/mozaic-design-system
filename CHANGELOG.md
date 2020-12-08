@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1-beta.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.21...v1.0.1-beta.22) (2020-11-25)
+
+
+### Bug Fixes
+
+* **patterns/hero:** code refactoring - update of the HTML structure ([#680](https://github.com/adeo/mozaic-design-system/issues/680)) ([c3743ce](https://github.com/adeo/mozaic-design-system/commit/c3743ce242b640de175dfce3a0370101d402441d))
+* **patterns/link:** avoid the link icon from shrinking ([#685](https://github.com/adeo/mozaic-design-system/issues/685)) ([2163cd4](https://github.com/adeo/mozaic-design-system/commit/2163cd4530e286705f0c901a0bb3fede81b5ee76)), closes [#684](https://github.com/adeo/mozaic-design-system/issues/684)
+* **website/homepage:** update roadmap link ([#675](https://github.com/adeo/mozaic-design-system/issues/675)) ([235ee9b](https://github.com/adeo/mozaic-design-system/commit/235ee9b2dc87e234fbd8c89fb684b355329a1468))
+
+
+### Features
+
+* **patterns/text-input:** reset default appearance of input[type="number"] items ([#683](https://github.com/adeo/mozaic-design-system/issues/683)) ([10627d7](https://github.com/adeo/mozaic-design-system/commit/10627d783d54bc4b1fa81cdb549abf08f9095503))
+* **tools/autoprefixer:** add autoprefixer in the production build ([#682](https://github.com/adeo/mozaic-design-system/issues/682)) ([38ab1e1](https://github.com/adeo/mozaic-design-system/commit/38ab1e19415a62499aecb2524376c7c981f5f17b)), closes [#677](https://github.com/adeo/mozaic-design-system/issues/677)
+
+
+
+
+
 ## [1.0.1-beta.21](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.20...v1.0.1-beta.21) (2020-11-12)
 
 
