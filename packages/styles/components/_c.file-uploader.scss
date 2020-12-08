@@ -96,7 +96,7 @@
       padding-right: $mu075;
       text-overflow: ellipsis;
       white-space: nowrap;
-      max-width: calc(100% - #{$mu500} - #{$mu250});
+      max-width: calc(100% - #{$mu500 + $mu250});
     }
 
     &-icon {
