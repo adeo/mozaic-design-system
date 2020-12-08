@@ -119,7 +119,6 @@ class Search extends Component {
       <SearchWrapper className={this.props.classNames}>
         <Input
           type="text"
-          autoFocus
           onChange={this.search}
           placeholder={`I'm looking for...`}
         />

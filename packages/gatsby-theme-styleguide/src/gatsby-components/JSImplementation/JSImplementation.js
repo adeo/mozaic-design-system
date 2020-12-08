@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
-import IconLibrairy from '../IconLibrairy'
 import StatusFlag from '../StatusFlag'
 import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
 
