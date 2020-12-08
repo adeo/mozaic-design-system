@@ -104,7 +104,7 @@
     "format": "prettier --write '**/*.js'",
     "test": "npx wdio",
     "predevelop": "yarn clean-cache && yarn tokens:clean-build",
-    "release": "npx lerna version --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
+    "release": "npx lerna version patch --conventional-commits --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
     "npm:publish": "npx lerna exec --bail=false npm publish",
     "unit": "jest --projects ./packages/*/jest.config.js --coverage --verbose --color --no-cache",
     "unit:watch": "jest --watch --silent",
