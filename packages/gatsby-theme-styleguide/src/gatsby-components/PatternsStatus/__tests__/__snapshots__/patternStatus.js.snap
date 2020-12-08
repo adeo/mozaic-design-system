@@ -1,30 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Pattern Status Component render correctly 1`] = `
-.c5 {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  padding-left: 0.2rem;
-  font-weight: bold;
-  color: #b42a27;
-}
-
-.c6 {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  padding-left: 0.2rem;
-  font-weight: bold;
-  color: #c86f21;
-}
-
-.c7 {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  padding-left: 0.2rem;
-  font-weight: bold;
-  color: #41a017;
-}
-
 .c0 {
   font-size: 0.875rem;
   color: #525252;
@@ -108,7 +84,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             </div>
           </th>
           <th
-            colSpan={4}
+            colSpan={1}
           >
             <div
               className="c1"
@@ -138,21 +114,6 @@ exports[`Pattern Status Component render correctly 1`] = `
           >
             SCSS
           </th>
-          <th
-            className="c2"
-          >
-            Vue
-          </th>
-          <th
-            className="c2"
-          >
-            React
-          </th>
-          <th
-            className="c2"
-          >
-            Angular
-          </th>
         </tr>
       </thead>
       <tbody>
@@ -170,42 +131,18 @@ exports[`Pattern Status Component render correctly 1`] = `
             </a>
           </td>
           <td>
-            <span
-              className="c5"
-            >
-              Bêta
-            </span>
-          </td>
-          <td>
             <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
               />
-            </svg>
-          </td>
-          <td>
-            <span
-              className="c5"
-            >
-              Bêta
-            </span>
-          </td>
-          <td>
-            <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
-              xmlns="http://www.w3.org/2000/svg"
-            >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
               />
             </svg>
           </td>
@@ -224,14 +161,17 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+              />
+              <path
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
               />
             </svg>
           </td>
@@ -250,42 +190,18 @@ exports[`Pattern Status Component render correctly 1`] = `
             </a>
           </td>
           <td>
-            <span
-              className="c5"
-            >
-              Bêta
-            </span>
-          </td>
-          <td>
             <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
               />
-            </svg>
-          </td>
-          <td>
-            <span
-              className="c5"
-            >
-              Bêta
-            </span>
-          </td>
-          <td>
-            <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
-              xmlns="http://www.w3.org/2000/svg"
-            >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
               />
             </svg>
           </td>
@@ -304,14 +220,17 @@ exports[`Pattern Status Component render correctly 1`] = `
           </td>
           <td>
             <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+              />
+              <path
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
               />
             </svg>
           </td>
@@ -347,7 +266,7 @@ exports[`Pattern Status Component render correctly 1`] = `
             </div>
           </th>
           <th
-            colSpan={4}
+            colSpan={3}
           >
             <div
               className="c1"
@@ -385,12 +304,7 @@ exports[`Pattern Status Component render correctly 1`] = `
           <th
             className="c2"
           >
-            React
-          </th>
-          <th
-            className="c2"
-          >
-            Angular
+            Freemarker
           </th>
         </tr>
       </thead>
@@ -409,11 +323,20 @@ exports[`Pattern Status Component render correctly 1`] = `
             </a>
           </td>
           <td>
-            <span
-              className="c5"
+            <svg
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Bêta
-            </span>
+              <path
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+              />
+              <path
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
+              />
+            </svg>
           </td>
           <td>
             <svg
@@ -429,22 +352,18 @@ exports[`Pattern Status Component render correctly 1`] = `
             </svg>
           </td>
           <td>
-            <span
-              className="c5"
-            >
-              Bêta
-            </span>
-          </td>
-          <td>
             <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+              />
+              <path
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
               />
             </svg>
           </td>
@@ -489,11 +408,20 @@ exports[`Pattern Status Component render correctly 1`] = `
             </a>
           </td>
           <td>
-            <span
-              className="c5"
+            <svg
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Bêta
-            </span>
+              <path
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+              />
+              <path
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
+              />
+            </svg>
           </td>
           <td>
             <svg
@@ -509,22 +437,18 @@ exports[`Pattern Status Component render correctly 1`] = `
             </svg>
           </td>
           <td>
-            <span
-              className="c5"
-            >
-              Bêta
-            </span>
-          </td>
-          <td>
             <svg
-              fill="currentColor"
-              height="1rem"
-              viewBox="0 0 16 16"
-              width="1rem"
+              fill="#41a017"
+              height="1.5rem"
+              viewBox="0 0 24 24"
+              width="1.5rem"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+                d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+              />
+              <path
+                d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
               />
             </svg>
           </td>
@@ -562,37 +486,41 @@ exports[`Pattern Status Component render correctly 1`] = `
     Statuses meaning
   </h3>
   <p>
-    <span
-      className="c6"
+    <svg
+      fill="#41a017"
+      height="1.5rem"
+      viewBox="0 0 24 24"
+      width="1.5rem"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      WIP
-    </span>
+      <path
+        d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+      />
+      <path
+        d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"
+      />
+    </svg>
     <b>
-        Work In Progress
+        Ready
     </b>
-     : The pattern should not be used because it is very likelly to change in major ways. Generally, wip patterns will neither be documented or provide code through this website.
+     : The component is dev and design ready.
   </p>
   <p>
-    <span
-      className="c5"
+    <svg
+      fill="currentColor"
+      height="1rem"
+      viewBox="0 0 16 16"
+      width="1rem"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      Bêta
-    </span>
+      <path
+        d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+      />
+    </svg>
     <b>
-        Bêta
+        Not available
     </b>
-     : The pattern is documented and accessible for the specified platform but breaking changes may occur before being labeled as stable. Basicaly, a bêta version of a pattern is waiting for users (you) to test it and confirm us that it fit the teams needs. You should avoid using it in production but if you do, be extra careful when updating Mozaic.
-  </p>
-  <p>
-    <span
-      className="c7"
-    >
-      Stable
-    </span>
-    <b>
-        Stable
-    </b>
-     : The pattern is usable in production. The Mozaic's team can add features or fix bugs to it as long there is no changes required from the final user. Features supported in a stable pattern will be supported at least until the next major version (from 1.5.72 to 2.0.0 for example).
+     : Component is not available in this version of the library.
   </p>
 </div>
 `;

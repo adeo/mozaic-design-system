@@ -30,10 +30,11 @@ export default class TableOfContents extends PureComponent {
   }
 
   getAnchorPosition = e => {
-    const scrollValue =
-      document.getElementById('scroller').scrollTop +
-      document.getElementById('page_tabs_menu').clientHeight +
-      20
+    const scrollValue = document.getElementById('page_tabs_menu')
+      ? document.getElementById('scroller').scrollTop +
+        document.getElementById('page_tabs_menu').clientHeight +
+        20
+      : 20
 
     const anchors = document.querySelectorAll('.anchor-toc')
 
