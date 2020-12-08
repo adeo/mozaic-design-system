@@ -70,25 +70,20 @@
     }
 
     &:not(:first-child) {
-      @include set-from-screen('m-medium') {
-        background-image: url(inline-icons('arrow-right-16', $color-grey-800));
-      }
+      background-image: url(inline-icons('arrow-right-16', $color-grey-800));
     }
 
     &.is-active,
     &:only-child {
-      @media screen and (max-width: ($screen-m-medium - 1)) {
+      @media screen and (max-width: ($screen-l - 1)) {
         background-image: url(inline-icons('arrow-left-16', $color-grey-800));
       }
     }
   }
 
   &__current {
+    cursor: default;
     text-decoration: none;
-
-    @include set-from-screen('m') {
-      cursor: default;
-    }
 
     &,
     &:active,
@@ -116,7 +111,7 @@
 
         &.is-active,
         &:only-child {
-          @media screen and (max-width: ($screen-m-medium - 1)) {
+          @media screen and (max-width: ($screen-l - 1)) {
             background-image:
               url(
                 inline-icons(
@@ -133,16 +128,8 @@
     #{$parent} {
       &__item {
         &:not(.is-active) {
-          @media screen and (max-width: ($screen-m-medium - 1)) {
+          @media screen and (max-width: ($screen-l - 1)) {
             @include set-hidden-input();
-          }
-        }
-
-        &.is-active {
-          .mc-link__icon {
-            @media screen and (max-width: ($screen-m-medium - 1)) {
-              transform: rotate(180deg) translateY(-15%);
-            }
           }
         }
       }
