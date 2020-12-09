@@ -9,7 +9,7 @@ const Flag = styled.span`
   font-weight: bold;
 
   ${({ status }) => {
-    return status === 'stable'
+    return status === 'stable' || status === 'ready'
       ? `
         color: #41a017;
     `
