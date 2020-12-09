@@ -1,0 +1,94 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.progressbar';
+```
+
+## Usage
+
+In its simplest form, the code of the **ProgressBar** component is structured as follows:
+
+- A global div with the class: `mc-progressbar`.
+- An inner div with the class: `mc-progressbar__indicator`.
+
+```html
+<div class="mc-progressbar">
+  <div
+    class="mc-progressbar__indicator"
+    role="progressbar"
+    aria-valuenow="25"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    style="width: 25%;"
+  >
+    &nbsp;
+  </div>
+</div>
+```
+
+<Preview path="default" nude />
+
+<Highlight theme="tips" title="The style attribute">
+
+  The `style` attribute on the `mc-progressbar__indicator` element allows you to manage the width of the progress indicator by updating the `width` property in real time as the load progresses.
+
+</Highlight>
+
+<Highlight theme="warning" title="Accessibility rules">
+
+  As you can see from the code above, many **aria attributes** are on the `mc-progressbar__indicator` element.
+
+  Some of these attributes are mandatory and must always appear in your code in order to comply with accessibility rules.
+
+  We recommend that you [read the page dedicated to the accessibility of this component](/Components/ProgressBar/accessibilty/) in order to learn more.
+
+</Highlight>
+
+## Variations
+
+### Color themes
+
+The **ProgressBar** component is supplied with two color variations:
+
+- **the default variation**: this version is the one that best meets the web accessibility criteria and that we recommend you to use as much as possible.
+- **the brand variation**: this version is the one that embraces the **Leroy Merlin** brand identity. To use this variation, simply apply the `mc-progressbar--branded` modifier to the `mc-progressbar` element.
+
+<Preview path="variations-colors" />
+
+### Sizes
+
+You can create your **ProgressBar** component using one of the two following size formats:
+
+- **small**: by adding the `mc-progressbar--s` modifier to the `mc-progressbar` element.
+- **medium**: this is the default format, therefore it does not need to add a modifier.
+
+<Preview path="variations-sizes" />
+
+### Percentage progress
+
+In some cases, it may be necessary to explicitly tell the user the percentage change in the progress bar.
+
+To do this, you can add the `mc-progressbar--percent` modifier to the `mc-progressbar` element.
+
+You also need to add a new HTML div element with the `mc-progressbar__percentage` class inside the component.
+
+<Preview path="percentage" />
+
+> Note that the height of the component changes to **24px** when using the `mc-progressbar--percent` modifier, in order to allow the optimal display of the percentage.
+
+#### The mc-progressbar--half modifier
+
+In order to respect the accessibility criteria, the color of the percentage text must be updated according to the position of the progress bar.
+
+So when the percentage value is 51% or more, please apply the `mc-progressbar--half` modification to your component.
+
+<Preview path="percentage-half" nude />
