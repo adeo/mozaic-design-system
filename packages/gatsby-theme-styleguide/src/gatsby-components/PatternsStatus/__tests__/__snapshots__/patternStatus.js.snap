@@ -20,6 +20,17 @@ exports[`Pattern Status Component render correctly 1`] = `
   border: 0 !important;
 }
 
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c1 {
   border-bottom: solid 1px #554f52;
   font-size: 1rem;
@@ -485,7 +496,9 @@ exports[`Pattern Status Component render correctly 1`] = `
   <h3>
     Statuses meaning
   </h3>
-  <p>
+  <p
+    className="c5"
+  >
     <svg
       fill="#41a017"
       height="1.5rem"
@@ -505,7 +518,9 @@ exports[`Pattern Status Component render correctly 1`] = `
     </b>
      : The component is dev and design ready.
   </p>
-  <p>
+  <p
+    className="c5"
+  >
     <svg
       fill="currentColor"
       height="1rem"

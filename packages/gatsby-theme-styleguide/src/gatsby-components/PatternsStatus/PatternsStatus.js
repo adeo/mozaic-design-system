@@ -26,6 +26,11 @@ export const StatusTable = styled.table`
   }
 `
 
+const StatusMeaning = styled.p`
+  display: flex;
+  align-items: center;
+`
+
 const Discipline = styled.div`
   border-bottom: solid 1px #554f52;
   font-size: 1rem;
@@ -191,6 +196,7 @@ const query = graphql`
             status {
               sketch
               scss
+              figma
             }
           }
         }
@@ -237,15 +243,15 @@ const PatternStatus = () => (
         <h2>Components</h2>
         <PatternsStatus data={data.Components} />
         <h3>Statuses meaning</h3>
-        <p>
+        <StatusMeaning>
           <NotificationCircleAvailable24 fill="#41a017" />
           <b>&nbsp;&nbsp;Ready</b> : The component is dev and design ready.
-        </p>
-        <p>
+        </StatusMeaning>
+        <StatusMeaning>
           <ControlCross16 fill="currentColor" />
           <b>&nbsp;&nbsp;Not available</b> : Component is not available in this
           version of the library.
-        </p>
+        </StatusMeaning>
       </div>
     )}
   />
