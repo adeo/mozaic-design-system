@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
+
+
+### Bug Fixes
+
+* **onboard/flag:** update flag component code documentation ([#690](https://github.com/adeo/mozaic-design-system/issues/690)) ([0aa699a](https://github.com/adeo/mozaic-design-system/commit/0aa699a7795b4a325e5e2db39b32b9e73254478c)), closes [#688](https://github.com/adeo/mozaic-design-system/issues/688)
+* **patterns/breadcrumb:** improve breadcrumb behavior on mobile resolutions ([#693](https://github.com/adeo/mozaic-design-system/issues/693)) ([26a33b3](https://github.com/adeo/mozaic-design-system/commit/26a33b31290aa1b5032fad8ac6a53b5515d51fa7)), closes [#689](https://github.com/adeo/mozaic-design-system/issues/689)
+* **website/component:** fix warning dev env website ([#687](https://github.com/adeo/mozaic-design-system/issues/687)) ([18663ea](https://github.com/adeo/mozaic-design-system/commit/18663eacea90498b38c46dd5668982b4ad0f5e91))
+
+
+### Features
+
+* **pattern/quantityselector:** add quantity selector ([#678](https://github.com/adeo/mozaic-design-system/issues/678)) ([e5727f7](https://github.com/adeo/mozaic-design-system/commit/e5727f7b3987b3cf208c3a9492ee13cd8db9ba02))
+* **patterns/input:** add height property to input field ([#692](https://github.com/adeo/mozaic-design-system/issues/692)) ([e0f77aa](https://github.com/adeo/mozaic-design-system/commit/e0f77aadcb99e624cf54a178c894ab7bd9348353))
+* **progressbar:** add progress bar design ([#679](https://github.com/adeo/mozaic-design-system/issues/679)) ([ff4f8e5](https://github.com/adeo/mozaic-design-system/commit/ff4f8e5998f61ad47a6283e711efb49384df33f4))
+* **tools/versionning:** remove beta and use semver versionning ([#686](https://github.com/adeo/mozaic-design-system/issues/686)) ([0376635](https://github.com/adeo/mozaic-design-system/commit/0376635837bea027e5cce14c39b12632fe01e325))
+* **website/statuses:** update component status and patternstatus page ([#694](https://github.com/adeo/mozaic-design-system/issues/694)) ([351f806](https://github.com/adeo/mozaic-design-system/commit/351f80665293bc9a99898886d4712114b4ffaf9a))
+
+
+
+
+
 ## [1.0.1-beta.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.21...v1.0.1-beta.22) (2020-11-25)
 
 

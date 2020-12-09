@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
+
+
+### Bug Fixes
+
+* **patterns/breadcrumb:** improve breadcrumb behavior on mobile resolutions ([#693](https://github.com/adeo/mozaic-design-system/issues/693)) ([26a33b3](https://github.com/adeo/mozaic-design-system/commit/26a33b31290aa1b5032fad8ac6a53b5515d51fa7)), closes [#689](https://github.com/adeo/mozaic-design-system/issues/689)
+
+
+### Features
+
+* **pattern/quantityselector:** add quantity selector ([#678](https://github.com/adeo/mozaic-design-system/issues/678)) ([e5727f7](https://github.com/adeo/mozaic-design-system/commit/e5727f7b3987b3cf208c3a9492ee13cd8db9ba02))
+* **patterns/input:** add height property to input field ([#692](https://github.com/adeo/mozaic-design-system/issues/692)) ([e0f77aa](https://github.com/adeo/mozaic-design-system/commit/e0f77aadcb99e624cf54a178c894ab7bd9348353))
+* **progressbar:** add progress bar design ([#679](https://github.com/adeo/mozaic-design-system/issues/679)) ([ff4f8e5](https://github.com/adeo/mozaic-design-system/commit/ff4f8e5998f61ad47a6283e711efb49384df33f4))
+
+
+
+
+
 ## [1.0.1-beta.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.21...v1.0.1-beta.22) (2020-11-25)
 
 
