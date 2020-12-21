@@ -1,4 +1,6 @@
 .mc-modal {
+  $parent: &;
+
   @include set-font-face();
 
   box-sizing: border-box;
@@ -22,31 +24,25 @@
 
   &__dialog {
     background: $color-grey-000;
-    padding: $mu075 $mu100 $mu100;
+    padding-bottom: $mu100;
     position: relative;
     width: 100%;
 
     @include set-from-screen(m) {
       padding-top: $mu100;
-      padding-left: $mu150;
-      padding-right: $mu150;
       max-width: percentage(1/2);
-      max-height: calc(100vh / 2);
     }
 
     @include set-from-screen(l) {
-      max-height: calc(100vh * 2 / 3);
       max-width: percentage(1/3);
     }
 
     @include set-from-screen(xl) {
-      max-height: calc(100vh * 2 / 3);
       max-width: 66%;
     }
 
     @include set-from-screen(xxl) {
       max-width: percentage(1/2);
-      max-height: calc(100vh / 2);
     }
   }
 
@@ -60,6 +56,12 @@
     justify-content: space-between;
     margin-bottom: $mu150;
     min-height: magic-unit-rem(2.25, true);
+    padding: $mu075 $mu100 $mu100;
+
+    @include set-from-screen(m) {
+      padding-left: $mu150;
+      padding-right: $mu150;
+    }
   }
 
   &__title {
@@ -91,6 +93,26 @@
     @include set-font-scale('05', 'm');
 
     color: $color-font-darker;
+    overflow-y: auto;
+    max-height: calc(100vh / 2);
+    padding: $mu075 $mu100 $mu100;
+
+    @include set-from-screen(m) {
+      padding-left: $mu150;
+      padding-right: $mu150;
+    }
+
+    @include set-from-screen(l) {
+      max-height: calc(100vh * 2 / 3);
+    }
+
+    @include set-from-screen(xl) {
+      max-height: calc(100vh * 2 / 3);
+    }
+
+    @include set-from-screen(xxl) {
+      max-height: calc(100vh / 2);
+    }
   }
 
   &__heading {
@@ -107,7 +129,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: $mu100;
+    padding: $mu100 $mu150 $mu150;
 
     @include set-from-screen(m) {
       align-items: center;
@@ -131,6 +153,14 @@
 
   &-open {
     overflow: hidden;
+  }
+
+  &--overflow {
+    #{$parent} {
+      &__footer {
+        box-shadow: 0 -#{$mu100} $mu100 -#{$mu100} $color-grey-900;
+      }
+    }
   }
 
   &-overlay {
