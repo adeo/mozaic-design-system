@@ -23,7 +23,7 @@ To create a basic accordion, apply the following classes on this HTML elements:
 ```html
 <div class="mc-accordion">
   <input type="checkbox" id="basicUsage" class="mc-accordion__trigger" />
-  <label for="basicUsage" class="mc-accordion__label" aria-expand="false">
+  <label for="basicUsage" class="mc-accordion__label" aria-expanded="false">
     Accordion title
   </label>
   <div class="mc-accordion__content">
@@ -79,7 +79,7 @@ Then just add the CSS class `mc-accordion__icon` to your icon.
   <label
     for="iconUsage"
     class="mc-accordion__label mc-accordion__label mc-accordion__label--icon"
-    aria-expand="false"
+    aria-expanded="false"
   >
     <svg class="mc-accordion__icon" xmlns="http://www.w3.org/2000/svg">
       <symbol id="Store_StoreLM_32px" viewBox="0 0 32 32">
@@ -104,9 +104,3 @@ Then just add the CSS class `mc-accordion__icon` to your icon.
 ```
 
 <Preview path="icon" />
-
-## Accessibility and semantic
-
-<HintItem>
-   Don't forget to change the attribute aria-expand="false" to "true" on the mc-accordion__label element when it's open
-</HintItem>
