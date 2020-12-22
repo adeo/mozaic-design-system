@@ -24,7 +24,6 @@
 
   &__dialog {
     background: $color-grey-000;
-    padding-bottom: $mu100;
     position: relative;
     width: 100%;
 
@@ -56,7 +55,8 @@
     justify-content: space-between;
     margin-bottom: $mu150;
     min-height: magic-unit-rem(2.25, true);
-    padding: $mu075 $mu100 $mu100;
+    padding-left: $mu075;
+    padding-right: $mu100;
 
     @include set-from-screen(m) {
       padding-left: $mu150;
@@ -129,7 +129,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: $mu100 $mu150 $mu150;
+    padding: $mu100 $mu150 $mu100;
 
     @include set-from-screen(m) {
       align-items: center;
