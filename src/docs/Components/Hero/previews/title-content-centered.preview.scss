@@ -3,6 +3,7 @@
 @include import-font-families();
 
 @import 'typography/_t.all-base-typography';
+@import 'layouts/_l.container';
 @import 'layouts/_l.flexy';
 @import 'components/_c.hero';
 
