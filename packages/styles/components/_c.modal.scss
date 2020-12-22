@@ -158,7 +158,7 @@
   &--overflow {
     #{$parent} {
       &__footer {
-        box-shadow: 0 -#{$mu100} $mu100 -#{$mu100} $color-grey-900;
+        box-shadow: 0 $mu025 $mu125 0 rgba($color-grey-900, 0.2);
       }
     }
   }
