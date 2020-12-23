@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1...v1.0.2) (2020-12-23)
+
+
+### Bug Fixes
+
+* **patterns/breadcrumb:** adjust breadcrumb behavior on smaller breakpoints ([#701](https://github.com/adeo/mozaic-design-system/issues/701)) ([b2fa9c8](https://github.com/adeo/mozaic-design-system/commit/b2fa9c8f9ef2732d8358ce9cd3e86b1741f4903e))
+
+
+### Features
+
+* **pattern/modal:** add overflow modifier ([#700](https://github.com/adeo/mozaic-design-system/issues/700)) ([5b2cbf0](https://github.com/adeo/mozaic-design-system/commit/5b2cbf0a5703f873a1a40fea8aadda1315f4c4d2))
+* **patterns/hero:** allow the use of a fixed or fluid Hero ([#699](https://github.com/adeo/mozaic-design-system/issues/699)) ([3cff3ec](https://github.com/adeo/mozaic-design-system/commit/3cff3ecd6493dd796c00e84b8ef76ea790662fb0))
+
+
+
+
+
 ## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
 
 
