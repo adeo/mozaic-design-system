@@ -11,6 +11,7 @@ order: 2
 @include import-font-families();
 
 @import 'typography/_t.all-base-typography';
+@import 'layouts/_l.container';
 @import 'layouts/_l.flexy';
 @import 'components/_c.hero';
 ```
@@ -20,31 +21,33 @@ order: 2
 In its simplest form, the **Hero** component consists of the following elements:
 
 - A global wrapper with the class: `mc-hero`
-- A container with the class: `mc-hero__container`
+- A container with the classes: `ml-container` and `ml-container--fluid`
 - A main content area: `mc-hero__main`
 - An image covering the background of the component: `mc-hero__cover`
 
 ```html
   <div class="mc-hero">
-    <div class="mc-hero__container ml-flexy ml-flexy--gutter">
-      <div class="mc-hero__main ml-flexy__col">
-        <picture class="mc-hero__cover">
-          <img
-            class="mc-hero__visual"
-            src="https://m1.lmcdn.fr/media/15/5e611393475ea771bbbad626/2872342965/greenkub-maison-sans-permis5e611393063b330009a4a405.jpg?width=800&crop=16:9,smart"
-            alt=""
-          />
-        </picture>
+    <div class="ml-container ml-container--fluid">
+      <div class="ml-flexy ml-flexy--gutter">
+        <div class="mc-hero__main ml-flexy__col">
+          <picture class="mc-hero__cover">
+            <img
+              class="mc-hero__visual"
+              src="https://m1.lmcdn.fr/media/15/5e611393475ea771bbbad626/2872342965/greenkub-maison-sans-permis5e611393063b330009a4a405.jpg?width=800&crop=16:9,smart"
+              alt=""
+            />
+          </picture>
 
-        <h1
-          class="mc-hero__title 
-          mt-heading
-          mt-heading--lightest
-          mt-heading--s 
-          mt-heading--underline"
-        >
-          Hero title
-        </h1>
+          <h1
+            class="mc-hero__title 
+            mt-heading
+            mt-heading--lightest
+            mt-heading--s 
+            mt-heading--underline"
+          >
+            Hero title
+          </h1>
+        </div>
       </div>
     </div>
   </div>
@@ -54,13 +57,11 @@ In its simplest form, the **Hero** component consists of the following elements:
 
 #### The container
 
-The `mc-hero__container` element is the container that groups together the `mc-hero__main` and `mc-hero__boxed` elements _([more about the boxed-content below](/#title-with-text-and-boxed-content).)_.
+The **container** div allows you to use the Hero component in its fixed or fluid version by applying the following classes:
+- `ml-container`: for a fixed container
+- `ml-container ml-container--fluid`: for a fluid container
 
-<Highlight theme="warning" title="Do not forget">
-
-To ensure proper functioning of the component, **do not forget to add** the `ml-flexy__col` class to the `mc-hero__main` element.
-
-</Highlight>
+> For more details on the behaviour of the Mozaïc container, do not hesitate to consult [the documentation dedicated](/Foundations/Layout/Container/) to it.
 
 #### The main content area
 
@@ -197,3 +198,7 @@ By default the boxed content is positioned next to the main content from the scr
 However, there may be times when you need to leave the boxed content below the main area. To do this, you can use the `mc-hero--boxed-bottom` modifier.
 
 <Preview path="boxed-content-bottom" />
+
+### With a fixed container
+
+<Preview path="fixed" nude />
