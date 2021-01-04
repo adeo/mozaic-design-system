@@ -53,7 +53,7 @@ In its simplest form, the **Hero** component consists of the following elements:
   </div>
 ```
 
-### Details of elements
+### Elements detail
 
 #### The container
 
@@ -65,7 +65,7 @@ The **container** div allows you to use the Hero component in its fixed or fluid
 
 #### The main content area
 
-The main content area `mc-hero__main` is the area where **the cover image** of your component and **the component title** are located.
+The main content area _(`mc-hero__main`)_ is the area where **the cover image** of your component and **the component title** are located.
 
 It is also possible to add **text content** within this area.
 
@@ -79,6 +79,8 @@ The title of your component must be a [Mozaic's Heading](/Foundations/Typography
 </h1>
 ```
 
+> Note that the **Heading** you use in the **Hero** component must always be an [underlined heading](/Foundations/Typography/HeadingStyles/#underlined-headings).
+
 <br/>
 <u>The text content</u>
 
@@ -89,12 +91,6 @@ The text content must be inserted in a `mc-hero__content` div with the additiona
   <!-- Insert your content here -->
 </div>
 ```
-
-<Highlight theme="info" title="Do not forget">
-
-To ensure proper functioning of the component, **do not forget to add** the `ml-flexy ml-flexy--gutter` class to the `mc-hero__container` element.
-
-</Highlight>
 
 #### The background
 
@@ -125,7 +121,7 @@ This background is an HTML element `<picture>` with the class `mc-hero__cover`. 
 
 ## Variations
 
-The Hero pattern is provided with three different versions to cover many cases.
+The Hero component comes with several variations allowing you to cover different use cases.
 
 ### Title only
 
@@ -133,11 +129,11 @@ This is the most minimal Hero case.
 
 <Preview path="basic" />
 
-### Title with text content
+### Title with text content (recommended)
 
-This is the most common Hero case we recommend to use. <br/>This version is made of a headline, a text content and a background image.
+This is the most common Hero case **we recommend to use**. <br/>This version is made of a headline, a text content and a background image.
 
-> When using this variation, you need to add the `mc-hero--with-content` modifier to the global `mc-hero` wrapper.
+When using this variation, you need to add the `mc-hero--with-content` modifier to the global `mc-hero` wrapper.
 
 <Preview path="title-content" />
 
@@ -155,15 +151,17 @@ To do this:
 
 ### Title with text and boxed content
 
-In specific cases, you need to take some content apart of the overall page layout, to put a feature forward, for example.
+In specific cases, you need to take some content apart of the overall page layout, to put a feature forward for example.
 
 Therefore you have the possibility to use a secondary content area within your component.
 
-This secondary content area _(boxed content)_ should be inserted directly after the `mc-hero__main` element, in a div `mc-hero__boxed` as follows:
+This secondary content area _(boxed content)_ should be inserted directly after the `mc-hero__main` element in a div `mc-hero__boxed`.
+
+You also need to add the `mc-hero--with-boxed` modifier to the global `mc-hero` wrapper for optimal rendering.
 
 ```html
 <div class="mc-hero mc-hero--with-boxed">
-  <div class="mc-hero__container ml-flexy ml-flexy--gutter">
+  <div class="ml-flexy ml-flexy--gutter">
     <div class="mc-hero__main ml-flexy__col">
       <!--  Find here the elements mc-hero__cover, mc-hero__title and mc-hero__content -->
     </div>
@@ -174,31 +172,25 @@ This secondary content area _(boxed content)_ should be inserted directly after 
 </div>
 ```
 
-<Preview path="boxed-content" />
-
-#### Boxed content modifiers
-
-<u>The <strong>mc-hero--with-boxed</strong> modifier</u>
-<br/>
-
-When using the Hero component with boxed content, you need to add the `mc-hero--with-boxed` modifier for optimal rendering.
+<Preview path="boxed-content" nude />
 
 <Highlight theme="warning">
 
   When using the `mc-hero--with-boxed` modifier, be careful not to apply in addition the `mc-hero--with-content` modifier to the `mc-hero` element.
 
-  Indeed the `mc-hero--with-boxed` modifier manages the framed content but also manages the behavior of the title and the main content area.
+  Indeed the `mc-hero--with-boxed` modifier manages the boxed content but also manages the behavior of the title and the main content area.
 
 </Highlight>
 
-<u>The <strong>mc-hero--boxed-bottom</strong> modifier</u>
+<Highlight title="More about the boxed content position">
 
-By default the boxed content is positioned next to the main content from the screen size **l** _(1024px)_.
+When using a boxed content, you should be aware that it is positioned as follows:
 
-However, there may be times when you need to leave the boxed content below the main area. To do this, you can use the `mc-hero--boxed-bottom` modifier.
+- Below the breakpoint **L** _(< 1024px)_, the boxed content will be positioned below the main content.
+- From the breakpoint **L** and beyond _(>= 1024px)_, the boxed content will be automatically positioned to the right of the main content.
 
-<Preview path="boxed-content-bottom" />
+</Highlight>
 
 ### With a fixed container
 
-<Preview path="fixed" nude />
+<Preview path="fixed" />
