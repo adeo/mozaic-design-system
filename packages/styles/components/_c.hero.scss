@@ -81,9 +81,7 @@
 
   &__boxed {
     flex: 100%;
-    position: relative;
     margin-top: -$mu600;
-    z-index: 10;
 
     @include set-from-screen('m') {
       margin-top: -$mu500;
