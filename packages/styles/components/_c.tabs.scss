@@ -24,6 +24,12 @@
     z-index: 0;
   }
 
+  &--no-shadow {
+    &::before {
+      box-shadow: none;
+    }
+  }
+
   &:not(#{$parent}--dropdown) {
     &::before {
       @media screen and (max-width: 679px) {

@@ -1,0 +1,12 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.tabs';
+
+.example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: $mu200;
+}
