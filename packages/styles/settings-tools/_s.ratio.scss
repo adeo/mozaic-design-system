@@ -1,0 +1,37 @@
+$aspect-ratios: (
+  '1x1': percentage(1/1),
+  '2x3': percentage(3/2),
+  '3x2': percentage(2/3),
+  '3x4': percentage(4/3),
+  '4x3': percentage(3/4),
+  '16x9': percentage(9/16),
+);
+
+@mixin ratio-item() {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@mixin set-ratio($ratio) {
+  @if map-has-key($aspect-ratios, $ratio) {
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      padding-top: map-get($aspect-ratios, $ratio);
+      width: 100%;
+    }
+
+    > * {
+      @include ratio-item();
+    }
+  }
+
+  @else {
+    @warn 'You are trying to use a ratio size that is not supported : "#{$ratio}"';
+  }
+}
