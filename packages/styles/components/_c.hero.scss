@@ -81,9 +81,7 @@
 
   &__boxed {
     flex: 100%;
-    position: relative;
     margin-top: -$mu600;
-    z-index: 10;
 
     @include set-from-screen('m') {
       margin-top: -$mu500;
@@ -209,8 +207,7 @@
     }
   }
 
-  &--boxed-l,
-  &--boxed-bottom {
+  &--boxed-l {
     @media (min-width: $screen-l) and (max-width: ($screen-xl - 1)) {
       padding-bottom: 0;
       padding-top: 0;

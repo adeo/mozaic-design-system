@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.2...v1.1.0) (2021-01-07)
+
+
+### Features
+
+* **pattern/tags:** removable tag - add text to the remove button ([#713](https://github.com/adeo/mozaic-design-system/issues/713)) ([552aeab](https://github.com/adeo/mozaic-design-system/commit/552aeabb4d100e4ab6ecd034f628157ba8146fcd))
+* **patterns/hero:** add the mc-hero--boxed-l modifier ([#706](https://github.com/adeo/mozaic-design-system/issues/706)) ([0637329](https://github.com/adeo/mozaic-design-system/commit/0637329fc48297d12098feb8f734e7742278e204))
+
+
+
+
+
 ## [1.0.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1...v1.0.2) (2020-12-23)
 
 
