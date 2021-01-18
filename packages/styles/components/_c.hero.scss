@@ -207,8 +207,7 @@
     }
   }
 
-  &--boxed-l,
-  &--boxed-bottom {
+  &--boxed-l {
     @media (min-width: $screen-l) and (max-width: ($screen-xl - 1)) {
       padding-bottom: 0;
       padding-top: 0;
