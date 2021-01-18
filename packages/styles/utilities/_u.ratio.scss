@@ -2,9 +2,7 @@
   position: relative;
 
   &::before {
-    content: '';
-    display: block;
-    width: 100%;
+    @include ratio-before();
   }
 
   &__item {

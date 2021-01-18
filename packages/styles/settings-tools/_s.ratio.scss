@@ -7,6 +7,12 @@ $aspect-ratios: (
   '16x9': percentage(9/16),
 );
 
+@mixin ratio-before() {
+  content: '';
+  display: block;
+  width: 100%;
+}
+
 @mixin ratio-item() {
   height: 100%;
   left: 0;
@@ -20,10 +26,9 @@ $aspect-ratios: (
     position: relative;
 
     &::before {
-      content: '';
-      display: block;
+      @include ratio-before();
+
       padding-top: map-get($aspect-ratios, $ratio);
-      width: 100%;
     }
 
     > * {
@@ -32,6 +37,6 @@ $aspect-ratios: (
   }
 
   @else {
-    @warn 'You are trying to use a ratio size that is not supported : "#{$ratio}"';
+    @warn 'You are trying to use a ratio size that is not supported: "#{$ratio}"';
   }
 }
