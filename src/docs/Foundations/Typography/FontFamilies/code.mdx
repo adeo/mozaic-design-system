@@ -5,7 +5,7 @@ order: 1
 
 ## Import
 
-In order to use the font proposed in Mozaic in your code, start by importing the `_all-settings.scss` file in the following way:
+In order to use the font provided in Mozaic in your code, you have to start by importing the `_all-settings.scss` file in the following way:
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -19,7 +19,7 @@ In order to use the font proposed in Mozaic in your code, start by importing the
   <strong>import-font-families()</strong> mixin. <br />
   <br />
   We <strong>strongly recommend</strong> that you always call this mixin in your
-  code when using the components and tools supplied by Mozaic.
+  code when using the components and tools provided by Mozaic.
 </Highlight>
 
 Importing the `_all-settings.scss` file allows you to manage the font in your code using one of the following mixins:
@@ -30,9 +30,9 @@ Importing the `_all-settings.scss` file allows you to manage the font in your co
 - `set-font-face()`
 - `set-font-scale()` _([see the dedicated documentation here](/Foundations/Typography/ScaleAndSizes/code/#the-font-scale-mixin-))_
 
-## Details of the mixins
+## Mixins details
 
-### The import-font-families() mixin
+### import-font-famimies() mixin
 
 The `import-font-families()` mixin generates the set of `@font-face` rules allowing you to import all variations of the **LeroyMerlinSans** font into your **.scss** file.
 
@@ -63,7 +63,7 @@ The `import-font-families()` mixin can be called by passing to it the `$italic` 
 @include import-font-families(false);
 ```
 
-### The set-font-family() mixin
+### set-font-family() mixin
 
 The `set-font-family()` mixin allows you to include a `font-family` statement in your code.
 
@@ -79,9 +79,9 @@ The `set-font-family()` mixin allows you to include a `font-family` statement in
 }
 ```
 
-### The set-font-weight() mixin
+### set-font-weight() mixin
 
-The `set-font-weight()` mixin allows you to set the font weight you wish to use in your selector.
+The `set-font-weight()` mixin allows you to set the font weight you want to use in your selector.
 
 #### Arguments
 
@@ -103,7 +103,7 @@ The `set-font-weight()` mixin can be called by passing the `$weight` argument wh
 }
 ```
 
-### The set-font-face() mixin
+### set-font-face() mixin
 
 The `set-font-face()` mixin allows you to apply the `font-family`, `font-weight` and `font-style` properties to your code at once.
 
