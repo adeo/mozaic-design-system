@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/adeo/mozaic-design-system/compare/v1.1.0...v1.2.0) (2021-01-20)
+
+
+### Bug Fixes
+
+* **patterns/hero:** remove unnecessary z-index ([#716](https://github.com/adeo/mozaic-design-system/issues/716)) ([e596db1](https://github.com/adeo/mozaic-design-system/commit/e596db1160f4ba110c9aa7071d16f038ce774bef))
+* **patterns/modal:** add accessibility rules for modal opening ([#714](https://github.com/adeo/mozaic-design-system/issues/714)) ([2ae0be3](https://github.com/adeo/mozaic-design-system/commit/2ae0be352fb384fa4faca5a9b2560152708c6b90))
+
+
+### Features
+
+* **foundations/font:** add a parameter to the import-font-families() mixin ([#723](https://github.com/adeo/mozaic-design-system/issues/723)) ([5eca9d1](https://github.com/adeo/mozaic-design-system/commit/5eca9d106ec71e7808e5861bf4f8441326d56e4e)), closes [#695](https://github.com/adeo/mozaic-design-system/issues/695)
+* **foundations/ratio:** add utility and helper for ratios ([#722](https://github.com/adeo/mozaic-design-system/issues/722)) ([9a0896c](https://github.com/adeo/mozaic-design-system/commit/9a0896c9fc8bc1a4cdf163982ee9632973d26ceb)), closes [#664](https://github.com/adeo/mozaic-design-system/issues/664)
+* **pattern/hero:** remove --boxed-bottom modifier ([#720](https://github.com/adeo/mozaic-design-system/issues/720)) ([52ab18c](https://github.com/adeo/mozaic-design-system/commit/52ab18ceb2ca7b3ee1056fafb204731ab8a5ed64))
+* **pattern/tabs:** add no-shadow variation ([#719](https://github.com/adeo/mozaic-design-system/issues/719)) ([fab3de1](https://github.com/adeo/mozaic-design-system/commit/fab3de1f9718310d26a0c9fb3f01a9dd808e9521))
+
+
+
+
+
 # [1.1.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.2...v1.1.0) (2021-01-07)
 
 
