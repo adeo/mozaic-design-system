@@ -1,0 +1,26 @@
+.mc-quantity-selector {
+  $parent: &;
+
+  display: flex;
+
+  &__button {
+    &-right {
+      border-radius: 0 $mu025 $mu025 0;
+    }
+
+    &-left {
+      border-radius: $mu025 0 0 $mu025;
+    }
+  }
+
+  &__input {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+
+    &,
+    &::placeholder {
+      text-align: center;
+    }
+  }
+}

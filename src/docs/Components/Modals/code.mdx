@@ -102,6 +102,13 @@ In cases where it is not necessary, you can use a modal without heading, as foll
 
 <Preview path="withouttitle" />
 
+### Scrolling long content
+
+In some cases, the content paragraph can be bigger than the modal's viewport. A dropped shadow on the top of the footer is used to indicate to the user that this is a scrollable content.
+Add the `mc-modal--overflow` modifier to the global wrapper (`mc-modal`).
+
+<Preview path="big-content" />
+
 ### Footer - two call to actions
 
 A primary call to action button accompanied with a secondary button to give the user an alternative choice.
@@ -149,22 +156,3 @@ During the opening of a modal by Javascript, several events occur:
 - A `mc-modal-overlay` element is generated in the DOM.
 
 <Preview path="opening" />
-
-## Accessibility
-
-<HintItem>
-  The modal container (mc-modal) must always have a{' '}
-  <strong>aria-labelledby</strong> attribute whose value corresponds to the
-  value of the `id` attribute of the modal title.
-</HintItem>
-<HintItem>
-  The modal title must always have an <strong>id</strong> attribute.
-</HintItem>
-<HintItem>
-  When modal is hidden, the <strong>mc-modal</strong> container must have a{' '}
-  <strong>aria-hidden="true"</strong> attribute.
-</HintItem>
-<HintItem>
-  When modal is visible, the <strong>mc-modal</strong> container must have a{' '}
-  <strong>aria-hidden="false"</strong> attribute.
-</HintItem>

@@ -1,0 +1,17 @@
+.mu-ratio {
+  position: relative;
+
+  &::before {
+    @include ratio-before();
+  }
+
+  &__item {
+    @include ratio-item();
+  }
+
+  @each $ratio, $size in $aspect-ratios {
+    &--#{$ratio}::before {
+      padding-top: $size;
+    }
+  }
+}

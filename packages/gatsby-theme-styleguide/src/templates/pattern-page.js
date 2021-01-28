@@ -186,8 +186,6 @@ export const query = graphql`
             status {
               sketch
               scss
-              react
-              vue
               figma
             }
             description

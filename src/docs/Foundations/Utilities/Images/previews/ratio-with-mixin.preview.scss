@@ -1,0 +1,13 @@
+@import "settings-tools/_all-settings";
+
+.example {
+  display: block;
+  padding: $mu150;
+}
+
+.example-element {
+  @include set-ratio("16x9");
+
+  margin: 0 auto;
+  max-width: 800px;
+}

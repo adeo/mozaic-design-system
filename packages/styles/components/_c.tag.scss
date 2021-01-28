@@ -221,6 +221,10 @@
       background-repeat: no-repeat;
       background-position: center;
 
+      &-text {
+        @include set-hidden-input();
+      }
+
       &:hover {
         background-color: $color-tag-removable-light-hover-background;
       }

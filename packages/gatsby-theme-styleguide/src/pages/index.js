@@ -9,22 +9,6 @@ import Header from '../components/Header'
 import Menu from '../gatsby-components/Menu'
 import './index.scss'
 
-const Container = styled.div`
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-  @media (min-width: 680px) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  @media (min-width: 1024px) {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-`
-
 // --------- COMMON
 const Global = styled.div`
   display: flex;

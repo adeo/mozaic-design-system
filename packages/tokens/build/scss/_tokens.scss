@@ -290,6 +290,11 @@ $color-notification-warning-background: #fff5eb !default;
 $color-notification-warning-border: #fc961e !default;
 $color-notification-danger-background: #feedee !default;
 $color-notification-danger-border: #df382b !default;
+$color-progress-background: #d3d2d6 !default;
+$color-progress-indicator: #2282a8 !default;
+$color-progress-percentage-default: #222020 !default;
+$color-progress-percentage-half: #ffffff !default;
+$color-progress-branded-indicator: #78be20 !default;
 $color-star-empty: #d3d2d6 !default;
 $color-star-focus: #25a8d0 !default;
 $color-star-full: #fc961e !default;
@@ -920,6 +925,17 @@ $tokens: (
       'danger': (
         'background': $color-notification-danger-background,
         'border': $color-notification-danger-border
+      )
+    ),
+    'progress': (
+      'background': $color-progress-background,
+      'indicator': $color-progress-indicator,
+      'percentage': (
+        'default': $color-progress-percentage-default,
+        'half': $color-progress-percentage-half
+      ),
+      'branded': (
+        'indicator': $color-progress-branded-indicator
       )
     ),
     'star': (

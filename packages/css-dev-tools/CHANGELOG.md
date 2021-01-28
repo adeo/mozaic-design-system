@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
+
+**Note:** Version bump only for package @mozaic-ds/css-dev-tools
+
+
+
+
+
+## [1.0.1-beta.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.21...v1.0.1-beta.22) (2020-11-25)
+
+
+### Features
+
+* **tools/autoprefixer:** add autoprefixer in the production build ([#682](https://github.com/adeo/mozaic-design-system/issues/682)) ([38ab1e1](https://github.com/adeo/mozaic-design-system/commit/38ab1e19415a62499aecb2524376c7c981f5f17b)), closes [#677](https://github.com/adeo/mozaic-design-system/issues/677)
+
+
+
+
+
 ## [1.0.1-beta.14](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.13...v1.0.1-beta.14) (2020-07-23)
 
 **Note:** Version bump only for package @mozaic-ds/css-dev-tools

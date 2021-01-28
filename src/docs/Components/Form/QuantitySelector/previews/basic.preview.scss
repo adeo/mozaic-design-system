@@ -1,0 +1,14 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.text-input';
+@import 'components/_c.button';
+@import 'components/_c.quantity-selector';
+
+.example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}

@@ -1,13 +1,6 @@
-export const authorizedPlatforms = [
-  'sketch',
-  'scss',
-  'figma',
-  'vue',
-  'react',
-  'angular',
-]
+export const authorizedPlatforms = ['sketch', 'scss', 'figma']
 
-export const authorizedStatus = ['wip', 'bêta', 'stable']
+export const authorizedStatus = ['wip', 'bêta', 'stable', 'ready']
 
 export const checkPlatform = platformInput => {
   if (!platformInput) {

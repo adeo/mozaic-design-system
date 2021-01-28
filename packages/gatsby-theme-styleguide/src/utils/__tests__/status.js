@@ -7,16 +7,12 @@ describe(`checkPlatform utils`, () => {
   it(`should return the same value if the platform is supported`, () => {
     expect(checkPlatform('sketch')).toEqual('sketch')
     expect(checkPlatform('figma')).toEqual('figma')
-    expect(checkPlatform('vue')).toEqual('vue')
-    expect(checkPlatform('react')).toEqual('react')
     expect(checkPlatform('scss')).toEqual('scss')
   })
 
   it(`should return the lowercase value if the platform is supported but case is invalid`, () => {
     expect(checkPlatform('SKetCh')).toEqual('sketch')
     expect(checkPlatform('FigMA')).toEqual('figma')
-    expect(checkPlatform('VUE')).toEqual('vue')
-    expect(checkPlatform('ReAcT')).toEqual('react')
     expect(checkPlatform('SCSS')).toEqual('scss')
   })
 })

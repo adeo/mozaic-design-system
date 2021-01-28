@@ -1,0 +1,12 @@
+@import "settings-tools/_all-settings";
+@import "utilities/_u.ratio.scss";
+
+.example {
+  display: block;
+  padding: $mu150;
+}
+
+.example-element {
+  margin: 0 auto;
+  max-width: 800px;
+}
