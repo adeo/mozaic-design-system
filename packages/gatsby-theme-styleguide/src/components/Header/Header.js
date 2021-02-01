@@ -185,7 +185,12 @@ const Header = () => (
         </HeaderDesc>
       </HeaderMain>
       <HeaderAside className="ml-flexy__col ml-flexy__col--full ml-flexy__col--push-1of12@from-xl ml-flexy__col--1of3@from-xl">
-        <HeaderSubtitle>Play with Mozaic 👇</HeaderSubtitle>
+        <HeaderSubtitle>
+          Play with Mozaic{' '}
+          <span role="img" aria-label="Play with Mozaic">
+            👇
+          </span>
+        </HeaderSubtitle>
         <div className="header__playground">
           <StyledMcButton label="Button label" />
           <StyledMcTextInput />

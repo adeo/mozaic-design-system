@@ -8,6 +8,7 @@
     display: block;
     height: $mu100;
     fill: currentColor;
+    flex-shrink: 0;
     width: $mu100;
 
     &--left {

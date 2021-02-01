@@ -2,7 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import StatusFlag from '../StatusFlag'
-import { ControlCross16 } from '@mozaic-ds/icons/react'
+import {
+  ControlCross16,
+  NotificationCircleAvailable24,
+} from '@mozaic-ds/icons/react'
 
 export const StatusTable = styled.table`
   font-size: 0.875rem;
@@ -21,6 +24,11 @@ export const StatusTable = styled.table`
   th {
     border: 0 !important;
   }
+`
+
+const StatusMeaning = styled.p`
+  display: flex;
+  align-items: center;
 `
 
 const Discipline = styled.div`
@@ -60,21 +68,33 @@ const Platform = styled.th`
 const PatternsStatus = ({ data }) => {
   const edges = data.edges
 
-  const tableModel = {
-    Patterns: {
-      name: null,
-    },
-    Design: {
-      Sketch: null,
-      Figma: null,
-    },
-    Development: {
-      SCSS: null,
-      Vue: null,
-      React: null,
-      Angular: null,
-    },
-  }
+  const tableModel = edges[0].node.fields.slug.includes('Components')
+    ? {
+        Patterns: {
+          name: null,
+        },
+        Design: {
+          Sketch: null,
+          Figma: null,
+        },
+        Development: {
+          SCSS: null,
+          Vue: null,
+          Freemarker: null,
+        },
+      }
+    : {
+        Patterns: {
+          name: null,
+        },
+        Design: {
+          Sketch: null,
+          Figma: null,
+        },
+        Development: {
+          SCSS: null,
+        },
+      }
 
   const categories = Object.keys(tableModel)
 
@@ -124,9 +144,7 @@ const PatternsStatus = ({ data }) => {
         ) {
           thisPatternStatus.push(
             <td key={'value_row_' + plateform + index}>
-              <StatusFlag
-                status={pattern.node.frontmatter.status[relatedStatus]}
-              />
+              <NotificationCircleAvailable24 fill="#41a017" />
             </td>
           )
         } else {
@@ -178,8 +196,7 @@ const query = graphql`
             status {
               sketch
               scss
-              react
-              vue
+              figma
             }
           }
         }
@@ -207,7 +224,7 @@ const query = graphql`
             status {
               sketch
               scss
-              vue
+              figma
             }
           }
         }
@@ -226,30 +243,15 @@ const PatternStatus = () => (
         <h2>Components</h2>
         <PatternsStatus data={data.Components} />
         <h3>Statuses meaning</h3>
-        <p>
-          <StatusFlag status="wip" />
-          <b>&nbsp;&nbsp;Work In Progress</b> : The pattern should not be used
-          because it is very likelly to change in major ways. Generally, wip
-          patterns will neither be documented or provide code through this
-          website.
-        </p>
-        <p>
-          <StatusFlag status="bêta" />
-          <b>&nbsp;&nbsp;Bêta</b> : The pattern is documented and accessible for
-          the specified platform but breaking changes may occur before being
-          labeled as stable. Basicaly, a bêta version of a pattern is waiting
-          for users (you) to test it and confirm us that it fit the teams needs.
-          You should avoid using it in production but if you do, be extra
-          careful when updating Mozaic.
-        </p>
-        <p>
-          <StatusFlag status="stable" />
-          <b>&nbsp;&nbsp;Stable</b> : The pattern is usable in production. The
-          Mozaic's team can add features or fix bugs to it as long there is no
-          changes required from the final user. Features supported in a stable
-          pattern will be supported at least until the next major version (from
-          1.5.72 to 2.0.0 for example).
-        </p>
+        <StatusMeaning>
+          <NotificationCircleAvailable24 fill="#41a017" />
+          <b>&nbsp;&nbsp;Ready</b> : The component is dev and design ready.
+        </StatusMeaning>
+        <StatusMeaning>
+          <ControlCross16 fill="currentColor" />
+          <b>&nbsp;&nbsp;Not available</b> : Component is not available in this
+          version of the library.
+        </StatusMeaning>
       </div>
     )}
   />

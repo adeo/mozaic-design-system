@@ -75,7 +75,7 @@ In addition to the `mc-breadcrumb--dark` modifier to use on the wrapper, you mus
 
 As explained on [the main page](/Components/Breadcrumb/#smaller-breakpoints), the breadcrumb can't be displayed entirely on lower resolutions.
 
-That's why you must make sure to display **only** the current page item on these resolutions.
+That's why you must make sure to display **only** the previous level link of the current page on these resolutions.
 
 ```html
 <nav class="mc-breadcrumb" aria-label="Breadcrumb">
@@ -89,7 +89,7 @@ That's why you must make sure to display **only** the current page item on these
 </nav>
 ```
 
-If you don't have the possibility to perform tests allowing you to display only the current element, we provide you with a way to achieve the desired functioning in pure HTML & CSS:
+If you don't have the possibility to perform tests allowing you to display only the previous level link of the current page, we provide you with a way to achieve the desired functioning in pure HTML & CSS:
 
 - Add the `mc-breadcrumb--responsive` modifier to the wrapper
 - Add the `is-active` class on the last `<li>` level
@@ -127,15 +127,4 @@ If you don't have the possibility to perform tests allowing you to display only 
 <HintItem>
   An HTML structure with <strong>ul</strong> and <strong>li</strong> elements is
   recommended inside your global wrapper.
-</HintItem>
-
-## Accessibility
-
-<HintItem>
-  The global wrapper <strong>.mc-breadcrumb</strong> must have the{' '}
-  <strong>aria-label="Breadcrumb "</strong> attribute.
-</HintItem>
-<HintItem>
-  The HTML element referring to the current page must have the{' '}
-  <strong>aria-current="page "</strong> attribute.
 </HintItem>

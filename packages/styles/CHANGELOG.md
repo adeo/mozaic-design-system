@@ -3,6 +3,89 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/adeo/mozaic-design-system/compare/v1.1.0...v1.2.0) (2021-01-20)
+
+
+### Bug Fixes
+
+* **patterns/hero:** remove unnecessary z-index ([#716](https://github.com/adeo/mozaic-design-system/issues/716)) ([e596db1](https://github.com/adeo/mozaic-design-system/commit/e596db1160f4ba110c9aa7071d16f038ce774bef))
+
+
+### Features
+
+* **foundations/font:** add a parameter to the import-font-families() mixin ([#723](https://github.com/adeo/mozaic-design-system/issues/723)) ([5eca9d1](https://github.com/adeo/mozaic-design-system/commit/5eca9d106ec71e7808e5861bf4f8441326d56e4e)), closes [#695](https://github.com/adeo/mozaic-design-system/issues/695)
+* **foundations/ratio:** add utility and helper for ratios ([#722](https://github.com/adeo/mozaic-design-system/issues/722)) ([9a0896c](https://github.com/adeo/mozaic-design-system/commit/9a0896c9fc8bc1a4cdf163982ee9632973d26ceb)), closes [#664](https://github.com/adeo/mozaic-design-system/issues/664)
+* **pattern/hero:** remove --boxed-bottom modifier ([#720](https://github.com/adeo/mozaic-design-system/issues/720)) ([52ab18c](https://github.com/adeo/mozaic-design-system/commit/52ab18ceb2ca7b3ee1056fafb204731ab8a5ed64))
+* **pattern/tabs:** add no-shadow variation ([#719](https://github.com/adeo/mozaic-design-system/issues/719)) ([fab3de1](https://github.com/adeo/mozaic-design-system/commit/fab3de1f9718310d26a0c9fb3f01a9dd808e9521))
+
+
+
+
+
+# [1.1.0](https://github.com/adeo/mozaic-design-system/compare/v1.0.2...v1.1.0) (2021-01-07)
+
+
+### Features
+
+* **pattern/tags:** removable tag - add text to the remove button ([#713](https://github.com/adeo/mozaic-design-system/issues/713)) ([552aeab](https://github.com/adeo/mozaic-design-system/commit/552aeabb4d100e4ab6ecd034f628157ba8146fcd))
+* **patterns/hero:** add the mc-hero--boxed-l modifier ([#706](https://github.com/adeo/mozaic-design-system/issues/706)) ([0637329](https://github.com/adeo/mozaic-design-system/commit/0637329fc48297d12098feb8f734e7742278e204))
+
+
+
+
+
+## [1.0.2](https://github.com/adeo/mozaic-design-system/compare/v1.0.1...v1.0.2) (2020-12-23)
+
+
+### Bug Fixes
+
+* **patterns/breadcrumb:** adjust breadcrumb behavior on smaller breakpoints ([#701](https://github.com/adeo/mozaic-design-system/issues/701)) ([b2fa9c8](https://github.com/adeo/mozaic-design-system/commit/b2fa9c8f9ef2732d8358ce9cd3e86b1741f4903e))
+
+
+### Features
+
+* **pattern/modal:** add overflow modifier ([#700](https://github.com/adeo/mozaic-design-system/issues/700)) ([5b2cbf0](https://github.com/adeo/mozaic-design-system/commit/5b2cbf0a5703f873a1a40fea8aadda1315f4c4d2))
+* **patterns/hero:** allow the use of a fixed or fluid Hero ([#699](https://github.com/adeo/mozaic-design-system/issues/699)) ([3cff3ec](https://github.com/adeo/mozaic-design-system/commit/3cff3ecd6493dd796c00e84b8ef76ea790662fb0))
+
+
+
+
+
+## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
+
+
+### Bug Fixes
+
+* **patterns/breadcrumb:** improve breadcrumb behavior on mobile resolutions ([#693](https://github.com/adeo/mozaic-design-system/issues/693)) ([26a33b3](https://github.com/adeo/mozaic-design-system/commit/26a33b31290aa1b5032fad8ac6a53b5515d51fa7)), closes [#689](https://github.com/adeo/mozaic-design-system/issues/689)
+
+
+### Features
+
+* **pattern/quantityselector:** add quantity selector ([#678](https://github.com/adeo/mozaic-design-system/issues/678)) ([e5727f7](https://github.com/adeo/mozaic-design-system/commit/e5727f7b3987b3cf208c3a9492ee13cd8db9ba02))
+* **patterns/input:** add height property to input field ([#692](https://github.com/adeo/mozaic-design-system/issues/692)) ([e0f77aa](https://github.com/adeo/mozaic-design-system/commit/e0f77aadcb99e624cf54a178c894ab7bd9348353))
+* **progressbar:** add progress bar design ([#679](https://github.com/adeo/mozaic-design-system/issues/679)) ([ff4f8e5](https://github.com/adeo/mozaic-design-system/commit/ff4f8e5998f61ad47a6283e711efb49384df33f4))
+
+
+
+
+
+## [1.0.1-beta.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.21...v1.0.1-beta.22) (2020-11-25)
+
+
+### Bug Fixes
+
+* **patterns/hero:** code refactoring - update of the HTML structure ([#680](https://github.com/adeo/mozaic-design-system/issues/680)) ([c3743ce](https://github.com/adeo/mozaic-design-system/commit/c3743ce242b640de175dfce3a0370101d402441d))
+* **patterns/link:** avoid the link icon from shrinking ([#685](https://github.com/adeo/mozaic-design-system/issues/685)) ([2163cd4](https://github.com/adeo/mozaic-design-system/commit/2163cd4530e286705f0c901a0bb3fede81b5ee76)), closes [#684](https://github.com/adeo/mozaic-design-system/issues/684)
+
+
+### Features
+
+* **patterns/text-input:** reset default appearance of input[type="number"] items ([#683](https://github.com/adeo/mozaic-design-system/issues/683)) ([10627d7](https://github.com/adeo/mozaic-design-system/commit/10627d783d54bc4b1fa81cdb549abf08f9095503))
+
+
+
+
+
 ## [1.0.1-beta.21](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.20...v1.0.1-beta.21) (2020-11-12)
 
 

@@ -5484,6 +5484,103 @@ module.exports = {
         }
       }
     },
+    "progress": {
+      "background": {
+        "value": "#d3d2d6",
+        "original": {
+          "value": "{color.grey.200.value}"
+        },
+        "name": "ColorProgressBackground",
+        "attributes": {
+          "category": "color",
+          "type": "progress",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "progress",
+          "background"
+        ]
+      },
+      "indicator": {
+        "value": "#2282a8",
+        "original": {
+          "value": "{color.info.600.value}"
+        },
+        "name": "ColorProgressIndicator",
+        "attributes": {
+          "category": "color",
+          "type": "progress",
+          "item": "indicator"
+        },
+        "path": [
+          "color",
+          "progress",
+          "indicator"
+        ]
+      },
+      "percentage": {
+        "default": {
+          "value": "#222020",
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorProgressPercentageDefault",
+          "attributes": {
+            "category": "color",
+            "type": "progress",
+            "item": "percentage",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "progress",
+            "percentage",
+            "default"
+          ]
+        },
+        "half": {
+          "value": "#ffffff",
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorProgressPercentageHalf",
+          "attributes": {
+            "category": "color",
+            "type": "progress",
+            "item": "percentage",
+            "subitem": "half"
+          },
+          "path": [
+            "color",
+            "progress",
+            "percentage",
+            "half"
+          ]
+        }
+      },
+      "branded": {
+        "indicator": {
+          "value": "#78be20",
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorProgressBrandedIndicator",
+          "attributes": {
+            "category": "color",
+            "type": "progress",
+            "item": "branded",
+            "subitem": "indicator"
+          },
+          "path": [
+            "color",
+            "progress",
+            "branded",
+            "indicator"
+          ]
+        }
+      }
+    },
     "star": {
       "empty": {
         "value": "#d3d2d6",

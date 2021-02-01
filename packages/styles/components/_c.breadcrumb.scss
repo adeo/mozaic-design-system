@@ -49,42 +49,44 @@
     @include unstyle-list();
 
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 0;
     margin-top: 0;
   }
 
   &__item {
+    @include set-font-scale('04', 'l');
+
     padding-right: $mu050;
-    background-position: left bottom get-border(s);
+    background-position: left ($mu025 - 0.0625rem);
     background-repeat: no-repeat;
     background-size: $mu100;
 
+    @include set-from-screen('l') {
+      flex-shrink: 0;
+    }
+
+    &.is-active,
     &:only-child,
     &:not(:first-child) {
       padding-left: $mu150;
     }
 
     &:not(:first-child) {
-      @include set-from-screen('m') {
-        background-image: url(inline-icons('arrow-right-16', $color-grey-800));
-      }
+      background-image: url(inline-icons('arrow-right-16', $color-grey-800));
     }
 
     &.is-active,
     &:only-child {
-      @media screen and (max-width: 679px) {
+      @media screen and (max-width: ($screen-l - 1)) {
         background-image: url(inline-icons('arrow-left-16', $color-grey-800));
-        background-position: left center;
       }
     }
   }
 
   &__current {
+    cursor: default;
     text-decoration: none;
-
-    @include set-from-screen('m') {
-      cursor: default;
-    }
 
     &,
     &:active,
@@ -112,7 +114,7 @@
 
         &.is-active,
         &:only-child {
-          @media screen and (max-width: 679px) {
+          @media screen and (max-width: ($screen-l - 1)) {
             background-image:
               url(
                 inline-icons(
@@ -129,16 +131,8 @@
     #{$parent} {
       &__item {
         &:not(.is-active) {
-          @media screen and (max-width: 679px) {
+          @media screen and (max-width: ($screen-l - 1)) {
             @include set-hidden-input();
-          }
-        }
-
-        &.is-active {
-          .mc-link__icon {
-            @media screen and (max-width: 679px) {
-              transform: rotate(180deg) translateY(-15%);
-            }
           }
         }
       }

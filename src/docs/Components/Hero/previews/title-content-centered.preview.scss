@@ -1,0 +1,21 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'typography/_t.all-base-typography';
+@import 'layouts/_l.container';
+@import 'layouts/_l.flexy';
+@import 'components/_c.hero';
+
+.example {
+  @include set-font-family();
+
+  &:not(:last-child) {
+    margin-bottom: $mu500;
+  }
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}

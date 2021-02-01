@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
+
+
+### Features
+
+* **progressbar:** add progress bar design ([#679](https://github.com/adeo/mozaic-design-system/issues/679)) ([ff4f8e5](https://github.com/adeo/mozaic-design-system/commit/ff4f8e5998f61ad47a6283e711efb49384df33f4))
+
+
+
+
+
+## [1.0.1-beta.22](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.21...v1.0.1-beta.22) (2020-11-25)
+
+**Note:** Version bump only for package @mozaic-ds/designer-kit
+
+
+
+
+
 ## [1.0.1-beta.18](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.17...v1.0.1-beta.18) (2020-09-29)
 
 

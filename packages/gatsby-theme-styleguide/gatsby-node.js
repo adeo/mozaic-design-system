@@ -69,20 +69,6 @@ const debounce = (fnc, tm) => {
   }
 }
 
-// Create an array with all the previews path. Used for testing purposes
-const writePreviewList = (previewsPath, reporter) => {
-  fs.writeFile(
-    './test/previewsPath.js',
-    `module.exports =${JSON.stringify(previewsPath, 0, 2)}`,
-    err => {
-      if (err) throw err
-      reporter.success(
-        'Previews path list file created (/test/previewsPath.js)'
-      )
-    }
-  )
-}
-
 // Create preview html
 const createPreviewHtmlFile = node =>
   new Promise((resolve, reject) => {
@@ -118,7 +104,6 @@ const createPreviewPages = (previews, previewsPath, reporter) => {
   Promise.all(previewPromiseMap)
     .then(() => {
       reporter.success('preview files generated')
-      writePreviewList(previewsPath, reporter)
     })
     .catch(err => reporter.panicOnBuild(err))
 }

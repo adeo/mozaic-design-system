@@ -56,7 +56,7 @@
 
 // return a rem authorized magic-unit value
 @function magic-unit-rem($multiplier, $allow-any-value: false) {
-  @return #{magic-unit($multiplier, $allow-any-value)}rem;
+  @return magic-unit($multiplier, $allow-any-value) * 1rem;
 }
 
 $mu025: magic-unit-rem(0.25);

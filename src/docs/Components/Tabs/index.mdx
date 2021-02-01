@@ -2,16 +2,13 @@
 title: 'Tabs'
 order: 12
 description: 'Tabs allow the user to navigate from a content to another within the same context. It keeps the user on the same page.'
-links: 
+links:
   vue:
     link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-mtab--try-it'
-    status: 'bêta'
-  freemarker:
-    status: 'wip'
-    link: ''
+    status: 'ready'
 status:
-  sketch: 'stable'
-  scss: 'stable'
+  sketch: 'ready'
+  scss: 'ready'
 ---
 
 > Tabs allow the user to navigate from a content to another within the same context. It keeps the user on the same page.
@@ -42,6 +39,17 @@ Tabs can have two different alignments depending on the context you are using th
   Please know that your tab labels must be concise to be easily readable by the user and describe what is contained.
 
 </Highlight>
+
+### Without shadow
+
+Depending on the context, it is possible to remove the shadow of the tabs. For example, when you have to use tabs in complex interfaces with many elements like dashboards.
+
+
+<Highlight theme="warning" title="Be aware">
+Keep in mind that tabs must be stacked with bottom elements when you remove the shadow.
+</Highlight>
+
+<Preview path="tabs-no-shadow" nude />
 
 
 ## Specific behaviour

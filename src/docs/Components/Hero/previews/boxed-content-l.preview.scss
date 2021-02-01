@@ -1,0 +1,29 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'typography/_t.all-base-typography';
+@import 'layouts/_l.container';
+@import 'layouts/_l.flexy';
+@import 'components/_c.hero';
+
+.example {
+  @include set-font-family();
+}
+
+.mc-hero__boxed {
+  div {
+    align-items: center;
+    background: orange;
+    color: white;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    min-height: 300px;
+  }
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
