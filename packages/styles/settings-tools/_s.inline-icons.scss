@@ -71,8 +71,16 @@
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 32 32"><path d="M16 24.56L7.97 29l1.53-9.41L3 12.93l8.98-1.37L16 3l4.02 8.56L29 12.93l-6.5 6.66L24.03 29 16 24.56z"/></svg>';
   }
 
+  @if $icon == 'control-more-16' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M13 7H9V3a1 1 0 00-2 0v4H3a1 1 0 000 2h4v4a1 1 0 002 0V9h4a1 1 0 000-2z"/></svg>';
+  }
+
   @if $icon == 'control-more-24' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}"  viewBox="0 0 24 24"><path d="M19.09,11h-6V5a1,1,0,0,0-2,0v6h-6a1,1,0,0,0,0,2h6v6a1,1,0,0,0,2,0V13h6a1,1,0,0,0,0-2Z"/></svg>';
+  }
+
+  @if $icon == 'control-less-16' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M12 9H4a1 1 0 010-2h8a1 1 0 010 2z"/></svg>';
   }
 
   @if $icon == 'control-less-24' {
