@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/adeo/mozaic-design-system/compare/v1.2.0...v1.3.0) (2021-02-03)
+
+
+### Features
+
+* **patterns/accordions:** add small accordions variation ([#726](https://github.com/adeo/mozaic-design-system/issues/726)) ([0ce15a3](https://github.com/adeo/mozaic-design-system/commit/0ce15a3b0856823860d6bda1427f6259cb0c1fdf))
+
+
+
+
+
 ## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
 
 
