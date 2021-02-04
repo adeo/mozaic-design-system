@@ -19,21 +19,19 @@ status:
 
 <Preview path="intro" nude />
 
-----------add indeterminate preview------------
+------preview refactor: add default checkbox with label only | checked & unchecked-------
 
 ## States
 
-### Default
+### Default states
 
-This state is the default when the checkbox is not checked yet.
-
-### Checked
-
-This state illustrates when an option is selected.
+The checkbox has two default states, checked and unchecked. Every state has a disabled and an invalid variation.
 
 ### Indeterminate
 
-The indeterminate case is used when checkboxes are nested together. It means that there is a sublist inside this option but that you can individually select some options inside this sublist.
+This case is used when several items of a sublist are selected. In this specific case, the parent checkbox will have the indeterminate case displayed. Note that you can select or unselect every item of the sublist with this parent checkbox.
+
+-----indeterminate with parent and 3 children----
 
 ## Checkbox item
 
@@ -47,13 +45,11 @@ The checkbox item is a combinaison of an input and a label.
 
 <Preview path="checkbox-item" nude />
 
-
-
 ## Checkbox group
 
 ![Checkbox-Overview](Checkbox-Overview.png)
 
-Checkbox group is a combination of the following mentions. Please note that you can use four different cases:
+The checkbox group is a combination of the following mentions. Please note that you can use four different cases:
   - Group label + checkbox-es
   - Group label + requirement + checkbox-es
   - Group label + requirement + help text + checkbox-es
@@ -79,7 +75,7 @@ This mention allows to specify that this information is mandatory for the input 
 
 ### Help text
 
-Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
+Help text corresponds to a relevant piece of information to make sure that the user understands what is needed.
 
 <Preview path="group-help-light" nude />
 
