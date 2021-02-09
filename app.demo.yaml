@@ -1,5 +1,5 @@
 service: demo
-runtime: nodejs10
+runtime: nodejs12
 instance_class: F1
 
 handlers:
@@ -12,7 +12,6 @@ handlers:
   - url: /(.*)
     static_files: public/\1
     upload: public/(.*)
-
 
 automatic_scaling:
   min_instances: 0
