@@ -102,18 +102,6 @@
     "unit:watch": "jest --watch --silent",
     "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'"
   },
-  "resolutions": {
-    "minimist": "^1.2.3",
-    "acorn": "^7.1.1",
-    "yargs-parser": "^20.2.4",
-    "kind-of": "^6.0.3",
-    "websocket-extensions": "^0.1.4",
-    "graphql-playground-html": "^1.6.22",
-    "serialize-javascript": "^5.0.1",
-    "node-forge": "^0.10.0",
-    "@hapi/hoek": "^9.1.1",
-    "bl": "^4.1.0"
-  },
   "browserslist": [
     ">0.3%",
     "last 3 version",
