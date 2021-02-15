@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chokidar": "^1.7.0",
+    "chokidar": "^3.5.1",
     "directory-tree": "^2.2.6",
-    "xstate": "^3.1.0"
+    "xstate": "^4.16.2"
   }
 }
