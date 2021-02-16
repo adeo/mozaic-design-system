@@ -1,0 +1,24 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.links';
+@import 'components/_c.notification';
+
+.example {
+  padding: $mu250;
+
+  &__title {
+    @include set-font-scale('07', 'm');
+    @include set-font-face('semi-bold');
+
+    background: $color-grey-100;
+    margin: $mu300 0 $mu100;
+    padding: $mu100;
+    text-align: center;
+
+    &:first-child {
+      margin: 0 0 $mu100;
+    }
+  }
+}
