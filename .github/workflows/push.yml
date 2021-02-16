@@ -19,7 +19,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: 12.20.1
+          node-version: 10.16
       - run: npm install yarn -g
       - run: yarn lerna
       - name: Build a production website
