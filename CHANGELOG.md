@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/adeo/mozaic-design-system/compare/v1.2.0...v1.3.0) (2021-02-03)
+
+
+### Bug Fixes
+
+* **chore/docker:** use version 20.3.3 for pip ([#727](https://github.com/adeo/mozaic-design-system/issues/727)) ([0e4b32a](https://github.com/adeo/mozaic-design-system/commit/0e4b32ae0b13bd432084aea56cae3ea8fb0ab701))
+
+
+### Features
+
+* **patterns/accordions:** add small accordions variation ([#726](https://github.com/adeo/mozaic-design-system/issues/726)) ([0ce15a3](https://github.com/adeo/mozaic-design-system/commit/0ce15a3b0856823860d6bda1427f6259cb0c1fdf))
+
+
+
+
+
 # [1.2.0](https://github.com/adeo/mozaic-design-system/compare/v1.1.0...v1.2.0) (2021-01-20)
 
 
