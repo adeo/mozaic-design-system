@@ -121,7 +121,9 @@ module.exports = {
 Using Angular CLI, you need to override the webpack configuration.  
 Install `@angular-builders/custom-webpack`:
 
-`npm i -D @angular-builders/custom-webpack`
+```bash
+npm i -D @angular-builders/custom-webpack
+```
 
 Now we need to change the builder option in the `angular.json` fields to the following:
 
@@ -133,22 +135,33 @@ Now we need to change the builder option in the `angular.json` fields to the fol
       "options": {
         "customWebpackConfig": {
           "path": "./webpack.config.js"
-        }
+        },
+        "stylePreprocessorOptions": {
+          "includePaths": [
+            "./node_modules/@mozaic-ds/styles/",
+            "./node_modules/@mozaic-ds/styles/settings-tools/",
+            "./node_modules/@mozaic-ds/styles/typography/",
+            "./node_modules/@mozaic-ds/styles/layout/",
+            "./node_modules/@mozaic-ds/styles/utilities/",
+            "./node_modules/@mozaic-ds/styles/components/",
+            "./node_modules/@mozaic-ds/tokens/build/scss/",
+            "./node_modules/"
+          ]
+        },
+        // here the rest of your configuraton...,
       }
     },
     "serve": {
       "builder": "@angular-builders/custom-webpack:dev-server",
-      "options": {
-        "customWebpackConfig": {
-          "path": "./webpack.config.js"
-        }
-      }
+      // here the rest of your configuraton..
     }
   }
 }
 ```
 
 You must create a new `webpack.config.js` file in the root directory:
+
+#### With postcss-loader < 4.0.0
 
 ```js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
@@ -169,6 +182,31 @@ module.exports = {
     ],
   },
 }
+```
+
+#### With postcss-loader >= 4.0.0
+
+```js
+const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
+const scssSyntax = require('postcss-scss')
+
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        loader: "postcss-loader",
+        options: {
+          postcssOptions: {
+            ident: "postcss",
+            syntax: scssSyntax,
+            plugins: pluginList,
+          },
+        },
+      },
+    ],
+  },
+};
 ```
 
 <Highlight theme="warning" title="Working with style preprocessor options">
