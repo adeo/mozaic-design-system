@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/adeo/mozaic-design-system/compare/v1.3.0...v1.4.0) (2021-02-17)
+
+
+### Bug Fixes
+
+* **patterns/accordion:** improve accordions accessibility ([#730](https://github.com/adeo/mozaic-design-system/issues/730)) ([6b9eba7](https://github.com/adeo/mozaic-design-system/commit/6b9eba77f7f46416060b2b32d3d0a3b2f5a9041b)), closes [#729](https://github.com/adeo/mozaic-design-system/issues/729)
+
+
+### Features
+
+* **chore/node:** upgrade nodejs minimal version required - node12 ([#718](https://github.com/adeo/mozaic-design-system/issues/718)) ([252525c](https://github.com/adeo/mozaic-design-system/commit/252525c81d7daa739dfc73ef088cce7f851140dc))
+* **patterns/checkbox:** add indeterminate case ([#728](https://github.com/adeo/mozaic-design-system/issues/728)) ([3fd0b84](https://github.com/adeo/mozaic-design-system/commit/3fd0b843e9f250219c529ebff16a0b47b56ffef4))
+* **patterns/notification:** add small notification variation ([#738](https://github.com/adeo/mozaic-design-system/issues/738)) ([237e846](https://github.com/adeo/mozaic-design-system/commit/237e846514d36a59f20ffd90258f1dc0728d5a25))
+
+
+### Reverts
+
+* Revert "feat(chore/node): upgrade nodejs minimal version required - node12 (#718)" (#737) ([1948946](https://github.com/adeo/mozaic-design-system/commit/1948946150dce3c2f592a2da92fc412dc02c79dc)), closes [#718](https://github.com/adeo/mozaic-design-system/issues/718) [#737](https://github.com/adeo/mozaic-design-system/issues/737)
+
+
+
+
+
 # [1.3.0](https://github.com/adeo/mozaic-design-system/compare/v1.2.0...v1.3.0) (2021-02-03)
 
 
