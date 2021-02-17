@@ -77,6 +77,12 @@
       }
     }
 
+    &:focus {
+      ~ #{$parent}__label {
+        @include set-focus-styles-during();
+      }
+    }
+
     &:disabled:checked {
       ~ #{$parent}__content {
         max-height: none;
@@ -94,17 +100,4 @@
       }
     }
   }
-
-  // By Sizes
-  // &__label {
-  //   @include set-font-scale('06', 'm');
-  //   background-image: url(inline-icons('control-more-24', $color-font-darker));
-  //   background-size: $mu150;
-  //   padding: $mu125 $mu300 $mu125 $mu050;
-  // }
-
-  // &__icon {
-  //   width: $mu200;
-  //   height: $mu200;
-  // }
 }
