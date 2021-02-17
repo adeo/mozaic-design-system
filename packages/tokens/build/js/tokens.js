@@ -244,6 +244,7 @@ export const ColorInputPlaceholder = "#887f87";
 export const ColorInputBackground = "#ffffff";
 export const ColorInputDisabledBorder = "#eeeef0";
 export const ColorInputDisabledBackground = "#eeeef0";
+export const ColorInputDisabledIcon = "#a19ba2";
 export const ColorInputHoverBorder = "#222020";
 export const ColorInputFocusBorder = "#25a8d0";
 export const ColorInputValidBorder = "#78be20";

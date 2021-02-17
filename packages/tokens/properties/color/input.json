@@ -19,6 +19,9 @@
         },
         "background": {
           "value": "{color.grey.100.value}"
+        },
+        "icon": {
+          "value": "{color.grey.400.value}"
         }
       },
       "hover": {

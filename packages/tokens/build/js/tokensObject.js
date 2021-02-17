@@ -4603,6 +4603,25 @@ module.exports = {
             "disabled",
             "background"
           ]
+        },
+        "icon": {
+          "value": "#a19ba2",
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorInputDisabledIcon",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "icon"
+          ]
         }
       },
       "hover": {
