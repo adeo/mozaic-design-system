@@ -24,10 +24,8 @@
 
   &__title,
   &__message {
-    margin: {
-      bottom: 0;
-      top: 0;
-    }
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   &__title {
@@ -49,6 +47,14 @@
   @each $type, $props in $notification-types {
     &--#{$type} {
       @include set-notification-type($type);
+
+      @each $size, $props in $notification-sizes {
+        @if ($size != 'm') {
+          &#{$parent}--#{$size} {
+            @include set-notification-type($type, $size);
+          }
+        }
+      }
     }
   }
 
@@ -57,12 +63,6 @@
     &--#{$size} {
       @if ($size != 'm') {
         @include set-notification-size($props);
-
-        @each $type, $props in $notification-types-s {
-          &#{$parent}--#{$type} {
-            @include set-notification-icon-s($type);
-          }
-        }
       }
     }
   }
@@ -80,9 +80,11 @@
     right: 0.625rem;
     top: 0.625rem;
     padding: 0;
-    background: transparent
+    background:
+      transparent
       url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
     transform: translateX($mu050) translateY(-$mu100);
   }
 }
+
 /* mqp:end */
