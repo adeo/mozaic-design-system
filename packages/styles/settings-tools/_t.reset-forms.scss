@@ -16,4 +16,9 @@
       margin: 0;
     }
   }
+
+  /* for mozilla */
+  &[type=number] {
+    -moz-appearance: textfield;
+  }
 }
