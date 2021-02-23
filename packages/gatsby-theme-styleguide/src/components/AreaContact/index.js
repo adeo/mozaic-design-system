@@ -1,1 +1,1 @@
-export { AreaContact, default } from './AreaContact'
+export { default } from './AreaContact'
