@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: '@mozaic-ds/gatsby-source-preview',
@@ -10,7 +11,7 @@ module.exports = {
         stylesPath: 'packages/styles/**/*.scss',
       },
     },
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-react-helmet`,
     'gatsby-plugin-styled-components',
     {
       resolve: '@mozaic-ds/gatsby-github-release',
@@ -18,16 +19,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        includePaths: [
-          './node_modules/@mozaic-ds/styles/',
-          './node_modules/@mozaic-ds/styles/settings-tools/',
-          './node_modules/@mozaic-ds/styles/components/',
-          './node_modules/@mozaic-ds/styles/layouts/',
-          './node_modules/@mozaic-ds/styles/typography/',
-          './node_modules/@mozaic-ds/styles/utilities/',
-          './node_modules/@mozaic-ds/tokens/build/scss',
-          './node_modules/',
-        ],
+        sassOptions: {
+          includePaths: [
+            './node_modules/@mozaic-ds/styles/',
+            './node_modules/@mozaic-ds/styles/settings-tools/',
+            './node_modules/@mozaic-ds/styles/components/',
+            './node_modules/@mozaic-ds/styles/layouts/',
+            './node_modules/@mozaic-ds/styles/typography/',
+            './node_modules/@mozaic-ds/styles/utilities/',
+            './node_modules/@mozaic-ds/tokens/build/scss',
+            './node_modules/',
+          ],
+        },
       },
     },
     {
