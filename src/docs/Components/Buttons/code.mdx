@@ -20,6 +20,16 @@ While the text without span will look mostly fine, we use it to opticaly align t
 With unwraped text, buttons using icons will break layout.
 
 ```html
+<button type="button" class="mc-button">
+  <span class="mc-button__label">
+    Label
+  </span>
+</button>
+```
+
+Note that if you wish, you can also use the `mc-button` with an HTML tag `<a />`:
+
+```html
 <a href="#" class="mc-button">
   <span class="mc-button__label">
     Label
