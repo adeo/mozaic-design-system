@@ -11,7 +11,9 @@
 
   &:focus {
     @include add-demo-state-class {
-      box-shadow: 0 1px 5px 0 rgba($color-grey-999, 0.2);
+      box-shadow:
+        0 0 0 ($mu025/2) $color-font-lightest,
+        0 0 0 $mu025 $color-info-500;
     }
   }
 
