@@ -70,24 +70,26 @@
       }
     }
   }
-}
 
-.mc-notification-closable {
-  &__close {
-    flex: 0 1 auto;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    width: $mu150;
-    height: $mu150;
-    display: block;
-    right: 0.625rem;
-    top: 0.625rem;
-    padding: 0;
-    background:
-      transparent
-      url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
-    transform: translateX($mu050) translateY(-$mu100);
+  // Closable
+  &-closable {
+    position: relative;
+
+    &__close {
+      background:
+        transparent
+        url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
+      border: 0;
+      cursor: pointer;
+      display: block;
+      height: $mu100;
+      padding: 0;
+      position: absolute;
+      outline: 0;
+      right: $mu100;
+      top: $mu100;
+      width: $mu100;
+    }
   }
 }
 
