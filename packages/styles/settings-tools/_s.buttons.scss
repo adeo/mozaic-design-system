@@ -113,18 +113,6 @@ $button-color-default: map-get(get-token(color, button, 'solid'), 'font');
     }
   }
 
-  @if map-has-key($props, 'focus') {
-    $focus-props: map-get($props, 'focus');
-
-    @each $prop, $value in $focus-props {
-      &:focus {
-        @include add-demo-state-class {
-          border-color: map-get($focus-props, 'border');
-        }
-      }
-    }
-  }
-
   @if map-has-key($props, 'active') {
     $active-props: map-get($props, 'active');
 
