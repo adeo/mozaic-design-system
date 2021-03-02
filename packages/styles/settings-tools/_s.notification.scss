@@ -25,22 +25,26 @@ $notification-types: (
   'information': (
     'background': $color-notification-information-background,
     'border': $color-notification-information-border,
-    'icon': 'notification-information-32',
+    'icon-m': 'notification-information-32',
+    'icon-s': 'notification-information-24',
   ),
   'success': (
     'background': $color-notification-success-background,
     'border': $color-notification-success-border,
-    'icon': 'notification-success-32',
+    'icon-m': 'notification-success-32',
+    'icon-s': 'notification-success-24',
   ),
   'warning': (
     'background': $color-notification-warning-background,
     'border': $color-notification-warning-border,
-    'icon': 'notification-warning-32',
+    'icon-m': 'notification-warning-32',
+    'icon-s': 'notification-warning-24',
   ),
   'danger': (
     'background': $color-notification-danger-background,
     'border': $color-notification-danger-border,
-    'icon': 'notification-danger-32',
+    'icon-m': 'notification-danger-32',
+    'icon-s': 'notification-danger-24',
   ),
 );
 
@@ -70,43 +74,17 @@ $notification-types: (
   }
 }
 
-@mixin set-notification-type($type) {
+@mixin set-notification-type($type, $size: 'm') {
   $background: map-deep-get($notification-types, $type, 'background');
-  $icon: map-deep-get($notification-types, $type, 'icon');
+  $icon: map-deep-get($notification-types, $type, 'icon-#{$size}');
   $border-color: map-deep-get($notification-types, $type, 'border');
 
-  background: $background;
-  box-shadow: inset 0 0 0 get-border(s) $border-color;
+  @if $size == 'm' {
+    background: $background;
+    box-shadow: inset 0 0 0 get-border(s) $border-color;
+  }
 
   &::before {
     background-image: url(inline-icons($icon, $border-color));
-  }
-}
-
-$notification-types-s: (
-  'information': (
-    'color': $color-notification-information-border,
-    'icon': 'notification-information-24',
-  ),
-  'success': (
-    'color': $color-notification-success-border,
-    'icon': 'notification-success-24',
-  ),
-  'warning': (
-    'color': $color-notification-warning-border,
-    'icon': 'notification-warning-24',
-  ),
-  'danger': (
-    'color': $color-notification-danger-border,
-    'icon': 'notification-danger-24',
-  ),
-);
-
-@mixin set-notification-icon-s($type) {
-  $icon: map-deep-get($notification-types-s, $type, 'icon');
-  $color: map-deep-get($notification-types-s, $type, 'color');
-
-  &::before {
-    background-image: url(inline-icons($icon, $color));
   }
 }
