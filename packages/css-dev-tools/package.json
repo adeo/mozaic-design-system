@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.0.1",
+  "version": "1.5.0",
   "dependencies": {
     "@mozaic-ds/configuration-manager": "^1.0.1",
     "@mozaic-ds/postcss-media-queries-packer-on-demand": "^1.0.1",

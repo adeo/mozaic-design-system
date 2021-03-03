@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/adeo/mozaic-design-system/compare/v1.4.0...v1.5.0) (2021-03-03)
+
+
+### Bug Fixes
+
+* **pattern/qtyselector:** remove spin button in mozilla ([#743](https://github.com/adeo/mozaic-design-system/issues/743)) ([2985fc5](https://github.com/adeo/mozaic-design-system/commit/2985fc5c060d0080c7957ee6d8b46e000b958120))
+* **patterns/notification:** correct the closing icon position ([#747](https://github.com/adeo/mozaic-design-system/issues/747)) ([51230d3](https://github.com/adeo/mozaic-design-system/commit/51230d3788e08911f7f7259d7d857ffe2aa3ce96))
+
+
+### Features
+
+* **foundations/fonts:** add font-display:swap on [@font-face](https://github.com/font-face) declarations ([#745](https://github.com/adeo/mozaic-design-system/issues/745)) ([ca30329](https://github.com/adeo/mozaic-design-system/commit/ca30329e515a1f7e0d7488443a65525f2deea6b8)), closes [#736](https://github.com/adeo/mozaic-design-system/issues/736)
+* **patterns/button:** improve button focus for accessibility ([#746](https://github.com/adeo/mozaic-design-system/issues/746)) ([aa5e98c](https://github.com/adeo/mozaic-design-system/commit/aa5e98c51f0d1d3efb4b471a900e9f4c78af199f))
+* **patterns/icons:** add arrow-top-16 in sass inline-icons function ([#750](https://github.com/adeo/mozaic-design-system/issues/750)) ([cc163c2](https://github.com/adeo/mozaic-design-system/commit/cc163c26fba40cf5a1250ccb9851b50808e60d4f))
+
+
+
+
+
 # [1.4.0](https://github.com/adeo/mozaic-design-system/compare/v1.3.0...v1.4.0) (2021-02-17)
 
 
