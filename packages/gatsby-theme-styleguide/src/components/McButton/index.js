@@ -1,1 +1,1 @@
-export { default, McButton } from './McButton'
+export { default } from './McButton'
