@@ -22,11 +22,12 @@ const tokensBuildPath = CM.getKey('tokens.localTokensExportPath')
 
 const basePaths = [
   './node_modules/@mozaic-ds/styles/',
+  './node_modules/@mozaic-ds/styles/components/',
+  './node_modules/@mozaic-ds/styles/generic/',
+  './node_modules/@mozaic-ds/styles/layouts/',
   './node_modules/@mozaic-ds/styles/settings-tools/',
   './node_modules/@mozaic-ds/styles/typography/',
-  './node_modules/@mozaic-ds/styles/layout/',
   './node_modules/@mozaic-ds/styles/utilities/',
-  './node_modules/@mozaic-ds/styles/components/',
   './node_modules/',
 ]
 
