@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "description": "PostCSS plugin that group media queries on demand",
   "keywords": [
-    "postcss",
     "css",
+    "postcss",
     "postcss-plugin",
     "media-queries"
   ],
@@ -14,15 +14,13 @@
   "main": "index.js",
   "author": "gael-boyenval <gaelboyenval@icloud.com>",
   "license": "MIT",
-  "dependencies": {
-    "postcss": "^7.0.18"
-  },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.6.2",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "postcss": "^8.2.7"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12"
   },
   "jest": {
     "testEnvironment": "node"
