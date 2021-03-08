@@ -1,1 +1,1 @@
-export { default, McCheckbox } from './McCheckbox'
+export { default } from './McCheckbox'

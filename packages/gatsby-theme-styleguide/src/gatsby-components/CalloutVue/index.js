@@ -1,1 +1,1 @@
-export { default, CalloutVue } from './CalloutVue'
+export { default } from './CalloutVue'

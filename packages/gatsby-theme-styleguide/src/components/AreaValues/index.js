@@ -1,1 +1,1 @@
-export { AreaValues, default } from './AreaValues'
+export { default } from './AreaValues'
