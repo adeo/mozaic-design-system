@@ -5,7 +5,7 @@ order: 2
 
 ## Import
 
-Import the settings and the text-input `scss` files.
+Import the **settings**, the **text-input** and the **field** `scss` files.
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -13,9 +13,11 @@ Import the settings and the text-input `scss` files.
 @include import-font-families();
 
 @import 'components/_c.text-input';
+
+@import 'components/_c.fields';
 ```
 
-## Basic usage
+## Usage
 
 ### Supported input types
 
@@ -30,10 +32,26 @@ Import the settings and the text-input `scss` files.
 
 > Note that **if you try to apply those CSS classes to an unsupported input type**. It could work but you should find something which better suits to your needs in the documentation.
 
-To create an input you have one main class to apply `mc-text-input`.
+To insert an input text on a form field is to apply the following elements:
+
+- add the `mc-field` class on a html container element
+- add the `mc-field__label` class on a label
+- add the `mc-field__input`class in addition of the `mc-text-input` class on an input element
 
 ```html
-<input type="text" class="mc-text-input" placeholder="Empty" name="example" />
+<div class="mc-field">
+  <label class="mc-field__label" for="default">
+    Label
+  </label>
+
+  <input
+    type="text"
+    class="mc-text-input mc-field__input"
+    id="default"
+    placeholder="Text input"
+    name="default"
+  />
+</div>
 ```
 
 <Preview path="input-default" />
@@ -51,7 +69,7 @@ You can use one of the 2 available sizes :
 
 #### Responsive classes
 
-| breakpoint          | `mc-text-input--s`          | `mc-text-input--m`          |
+| Breakpoint          | `mc-text-input--s`          | `mc-text-input--m`          |
 | ------------------- | --------------------------- | --------------------------- |
 | From breakpoint m   | `mc-text-input--s@from-m`   | `mc-text-input--m@from-m`   |
 | From breakpoint l   | `mc-text-input--s@from-l`   | `mc-text-input--m@from-l`   |
@@ -60,7 +78,7 @@ You can use one of the 2 available sizes :
 
 ## Behaviors
 
-### Standard input states :
+### Standard input states
 
 - `:hover`
 - `:focus`
@@ -68,15 +86,15 @@ You can use one of the 2 available sizes :
 - `.is-valid`
 - `.is-invalid`
 
-<Preview path="input-state" />
+<Preview path="input-state" nude />
 
-#### Small variations :
+#### Small variations
 
-<Preview nude path="input-small-state" />
+<Preview path="input-small-state" nude />
 
 ## Using a left icon
 
-To add a left icon, you need to import `'components/_c.left-icon-input'` after the `components/_c.text-input`.
+To add a left icon, you need to import `components/_c.left-icon-input` after the `components/_c.text-input`.
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -85,26 +103,39 @@ To add a left icon, you need to import `'components/_c.left-icon-input'` after t
 
 @import 'components/_c.text-input';
 @import 'components/_c.left-icon-input';
+@import 'components/_c.fields';
 ```
 
 Wrap your input and use a 24px icon size :
 
 ```html
-<div class="mc-left-icon-input">
-  <svg class="mc-left-icon-input__icon">
-    <use xlink:href="#iconS" />
-  </svg>
-  <input type="text" class="mc-left-icon-input__input mc-text-input" />
+<div class="mc-field">
+  <label class="mc-field__label" for="withIcon">
+    Label
+  </label>
+
+  <div class="mc-left-icon-input">
+    <svg class="mc-left-icon-input__icon">
+      <use xlink:href="#iconS" />
+    </svg>
+    <input
+      type="text" 
+      class="mc-text-input mc-left-icon-input__input mc-field__input"
+      id="withIcon" 
+      placeholder="Input with an icon"
+      name="withIcon"
+    />
+  </div>
 </div>
 ```
 
-### Standard input size with left icon :
+### Standard input size with left icon
 
 <Preview path="left-icon-input" />
 
-#### Small variations :
+#### Small variations
 
-<Preview nude path="input-small-left-icon" />
+<Preview path="input-small-left-icon" nude />
 
 ## Form validation
 
@@ -120,52 +151,3 @@ On Mozaïc we made the decision not to use these pseudo-classes because of the b
 
 </Highlight>
 
-## Accessibility and semantic
-
-### Always use a label with an input.
-
-```html
-<label for="myExample">My example</label>
-<input
-  id="myExample"
-  type="text"
-  class="mc-text-input"
-  placeholder="Empty"
-  name="example"
-/>
-```
-
-### Required field
-
-If an input field is mandatory, then the `required` and `aria-required` attributes must be filled in.
-
-```html
-<label for="requiredField">Required field</label>
-<input
-  id="requiredField"
-  type="text"
-  class="mc-text-input"
-  placeholder="Is required"
-  name="example"
-  required
-  aria-required="true"
-/>
-```
-
-### Invalid input
-
-When a field is invalid, you must :
-- add the class `is-invalid` to the field in order to modify its appearance
-- add the `aria-invalid` attribute to indicate to the screenreaders that the field is invalid
-
-```html
-<label for="invalidField">Invalid field</label>
-<input
-  id="invalidField"
-  type="text"
-  class="mc-text-input is-invalid"
-  placeholder="Is invalid"
-  name="example"
-  aria-invalid="true"
-/>
-```

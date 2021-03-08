@@ -5,7 +5,7 @@ order: 2
 
 ## Import
 
-Import the **settings** and the **text-input** `scss` files.
+Import the **settings**, the **text-input** and the **field** `scss` files.
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -13,23 +13,39 @@ Import the **settings** and the **text-input** `scss` files.
 @include import-font-families();
 
 @import 'components/_c.text-input';
+
+@import 'components/_c.fields';
 ```
 
-## Basic usage
+## Usage
 
-The easiest way to implement a date picker on a form field is to use the `type="date"` attribute on your `input` element.
+The easiest way to implement a date picker on a form field is to apply the following elements:
 
-In addition, the `input` element must also have the `mc-text-input` class.
+- add the `mc-field` class on a html **div** element
+- add the `mc-field__label` class on a **label** element
+- add the `mc-field__input`class in addition of the `mc-text-input` class on an **input** element
+- use the `type="date"` attribute on your **input** element
 
 ```html
-<input type="date" class="mc-text-input" placeholder="Empty" name="example" />
+<div class="mc-field">
+  <label class="mc-field__label" for="example">
+    Label
+  </label>
+
+  <input
+    type="date"
+    class="mc-text-input mc-field__input"
+    id="example"
+    name="example"
+  />
+</div>
 ```
 
 <Highlight theme="warning" title="date picker appearance">
 
-  Using the `type="date"` attribute on an `input` element triggers the automatic generation of a date picker by the browser. The appearance of this date picker will therefore depend on the browser used.
+  Using the `type="date"` attribute on an `input` element triggers the automatic generation of a date picker by the browser. The appearance and overall functionality of this date picker will therefore depend on the browser used.
 
-  To solve this problem, you will have to implement a JavaScript library of your choice (see below "Custom date picker").
+  So, if you want to have advanced control over appearance and functionality, you will have to use a JavaScript library for that (see below "[Custom usage](/Components/Form/Datepicker/code/#custom-usage)").
 
 </Highlight>
 
@@ -45,14 +61,26 @@ In addition, the `input` element must also have the `mc-text-input` class.
 
 <Preview path="default" />
 
+### Variations
+
+You can use any of the existing text-input component variations.
+
+Read the [Text input component documentation](/Components/Form/TextInput/code/#available-sizes) for more information.
+
+### Behaviors
+
+The states applicable to the date picker are identical to those applicable to the text-input component.
+
+Read the [Text input component documentation](/Components/Form/TextInput/code/#behaviors) for more information.
+
 ## Custom usage
 
-The use of the `type="date"` attribute creates a concern for consistency in the appearance of the date picker, as explained above. The way to solve this problem is to :
+The use of the `type="date"` attribute creates a concern for consistency in the appearance and functionality of the date picker, as explained above. The way to solve this problem is to:
 
 **1. Using a `type="text"` attribute on your `input` element**
 
 ```html
-<input type="texte" class="mc-text-input" placeholder="Empty" name="example" />
+<input type="text" class="mc-text-input mc-field__input" id="example" name="example" />
 ```
 
 **2. Use a JavaScript library of your choice**
@@ -64,24 +92,6 @@ There are several JavaScript libraries on the market that allow you to implement
   Here are some links of JavaScript libraries we like:
   - [Flatpickr](https://github.com/flatpickr/flatpickr)
   - [Litepicker](https://github.com/wakirin/Litepicker)
-  - [Vanillajs date picker](https://github.com/mymth/vanillajs-date picker)
+  - [Vanillajs date picker](https://github.com/mymth/vanillajs-datepicker)
 
 </Highlight>
-
-## Variations
-
-You can use any of the existing text-input component variations.
-
-Read the [Text input component documentation](/Components/Form/TextInput/code/#available-sizes) for more information.
-
-## Behaviors
-
-The states applicable to the date picker are identical to those applicable to the text-input component.
-
-Read the [Text input component documentation](/Components/Form/TextInput/code/#behaviors) for more information.
-
-## Form validation & Accessibility
-
-The date picker component complies with the same validation and accessibility rules as the text-input component.
-
-Read the [Text input component documentation](/Components/Form/TextInput/code/#form-validation) for more information.
