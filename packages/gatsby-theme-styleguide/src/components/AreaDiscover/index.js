@@ -1,1 +1,1 @@
-export { AreaDiscover, default } from './AreaDiscover'
+export { default } from './AreaDiscover'

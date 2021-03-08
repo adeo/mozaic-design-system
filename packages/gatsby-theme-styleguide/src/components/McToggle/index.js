@@ -1,1 +1,1 @@
-export { default, McToggle } from './McToggle'
+export { default } from './McToggle'
