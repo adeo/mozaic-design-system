@@ -1,8 +1,8 @@
 ---
 title: 'Notification'
 order: 7
-description: Notifications are used to bring user's attention on an information he needs to know. There are four types of notifications. A notification is usually the result of an action made by the user.
-links: 
+description: Notifications are used to bring the user's attention on a piece of information that needs to be known. A notification is usually the result of an action made by the user.
+links:
   vue:
     link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-mnotification--try-it'
     status: 'ready'
@@ -14,9 +14,9 @@ status:
   scss: 'ready'
 ---
 
-> Notifications are used to bring user's attention on an information he needs to know. There are four types of notifications. A notification is usually the result of an action made by the user.
+> Notifications are used to bring the user's attention on a piece of information that needs to be known. A notification is usually the result of an action made by the user.
 
-The notification pattern is made of :
+The notification pattern is made of:
 
 - **An icon:** In addition to the frame color, it allows to specify the degree of importance.
 - **A title _(optional)_:** Concise and precise, to quickly guide the user.
@@ -29,11 +29,11 @@ For SEO & accessibility reasons, a paragraph is always required inside a notific
 
 </Highlight>
 
-<Preview path="notification" />
+<Preview path="notification" nude />
 
 ## Four types of notifications
 
-<Preview path="notification-types" />
+<Preview path="notification-types" nude />
 
 > To learn more about the colors usage, please read the [color documentation](/Foundations/Colors/).
 
@@ -41,39 +41,56 @@ For SEO & accessibility reasons, a paragraph is always required inside a notific
 
 Informational notifications are **blue**. They are used to highlight a piece of relevant information but don't require immediate action.
 
-<Preview path="notification" />
+<Preview path="notification" nude />
 
 ### Success
 
 Success notifications are **green**. They are used when an action is successful.
 
-<Preview path="notification-success" />
+<Preview path="notification-success" nude />
 
 ### Warning
 
 Warning notifications are **orange**. They warn the user about important information that deserves caution.
 
-<Preview path="notification-warning" />
+<Preview path="notification-warning" nude />
 
 ### Danger
 
 Danger notifications are **red**. They are used to warn the user of an error or a problem. This may require immediate action.
 
-<Preview path="notification-danger" />
+<Preview path="notification-danger" nude />
 
 ## Variations
 
-### Embedded notifications
+### Sizes
 
-Embedded notifications are positioned at the top of the page, or between two components (depending of the context). They are mainly used in forms or in pages requiring engaging actions.
+Notifications are available in two sizes.
 
-### Closeable notifications
+#### Small
 
-> To go further, you can have closeable notification in your project.
+This size is less common and must be used inside a box only. The message or required action must be related to the content of the box.
 
-They are like the embedded notifications, with a close button.
+![notification-small-zoning](notification-small-zoning.png)
 
-<Preview path="notification-variations" />
+#### Medium (default)
+
+This is the default variation to use in most cases and is mainly positioned at the top of a page.
+
+
+
+### Closable notifications
+
+You can use a closable notification in your projet to go further.
+
+<Highlight theme="warning" title="Be aware">
+
+Closable notification can be used with the medium size variation only.
+
+</Highlight>
+
+
+<Preview path="notification-variations" nude />
 
 ## Do's and Dont's
 

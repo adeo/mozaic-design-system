@@ -1,6 +1,6 @@
 @function inline-icons($icon, $fill) {
   @if $icon == 'cross-16' {
-    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M9.41 8l3.3-3.29a1 1 0 1 0-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 0 0-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L8 9.41l3.29 3.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"/></svg>';
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"/></svg>';
   }
 
   @if $icon == 'tag-delete-24' {
@@ -13,6 +13,10 @@
 
   @if $icon == 'checkmark-16' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M7.63 11.21a1 1 0 0 1-1.38 0l-2.92-2.6a1 1 0 1 1 1.34-1.48l2.22 2 4.41-4.34a1 1 0 1 1 1.4 1.42z"/></svg>';
+  }
+
+  @if $icon == 'arrow-top-16' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M2 10.5a1 1 0 01.29-.71l5-5a1 1 0 011.42 0l5 5a1 1 0 01-1.42 1.42L8 6.91l-4.29 4.3a1 1 0 01-1.42 0A1 1 0 012 10.5z"/></svg>';
   }
 
   @if $icon == 'arrow-left-16' {
@@ -51,16 +55,32 @@
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" viewBox="0 0 32 32" fill="#{$fill}"><path d="M17.41,16l8.8-8.79a1,1,0,1,0-1.42-1.42L16,14.59,7.21,5.79A1,1,0,0,0,5.79,7.21L14.59,16l-8.8,8.79a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L16,17.41l8.79,8.8a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg>';
   }
 
+  @if $icon == 'notification-information-24' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" fill="#{$fill}"><path d="M12 22a10 10 0 1110-10 10 10 0 01-10 10zm0-18a8 8 0 108 8 8 8 0 00-8-8z"/><path d="M12 17a1 1 0 01-1-1v-4.39a1 1 0 012 0V16a1 1 0 01-1 1z"/><circle cx="12" cy="8" r="1"/></svg>';
+  }
+
   @if $icon == 'notification-information-32' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" viewBox="0 0 32 32" fill="#{$fill}"><path d="M16,29A13,13,0,1,1,29,16,13,13,0,0,1,16,29ZM16,5A11,11,0,1,0,27,16,11,11,0,0,0,16,5Z"/><path d="M16,21.7a1,1,0,0,1-1-1V14.87a1,1,0,1,1,2,0V20.7A1,1,0,0,1,16,21.7Z"/><circle cx="16" cy="11.3" r="1"/></svg>';
+  }
+
+  @if $icon == 'notification-success-24' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" fill="#{$fill}"><path d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"/><path d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"/></svg>';
   }
 
   @if $icon == 'notification-success-32' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 32 32"><path d="M16,5A11,11,0,1,1,5,16,11,11,0,0,1,16,5m0-2A13,13,0,1,0,29,16,13,13,0,0,0,16,3Z"/><path d="M14.2,21.45,8.5,16.18a1,1,0,1,1,1.35-1.47l4.28,4,8-8.09a1,1,0,0,1,1.42,0,1,1,0,0,1,0,1.41Z"/></svg>';
   }
 
+  @if $icon == 'notification-warning-24' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" fill="#{$fill}"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8z"/><path d="M12 7a1 1 0 00-1 1v4.38a1 1 0 002 0V8a1 1 0 00-1-1z"/><circle cx="12" cy="16" r="1"/></svg>';
+  }
+
   @if $icon == 'notification-warning-32' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" viewBox="0 0 32 32" fill="#{$fill}"><path d="M16,29A13,13,0,1,1,29,16,13,13,0,0,1,16,29ZM16,5A11,11,0,1,0,27,16,11,11,0,0,0,16,5Z"/><path d="M16,18.13a1,1,0,0,1-1-1V11.3a1,1,0,0,1,2,0v5.83A1,1,0,0,1,16,18.13Z"/><circle cx="16" cy="20.7" r="1"/></svg>';
+  }
+
+  @if $icon == 'notification-danger-24' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" fill="#{$fill}"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8z"/><path d="M16.21 7.88a1 1 0 00-1.42 0l-2.74 2.74-2.84-2.83a1 1 0 10-1.42 1.42L10.63 12l-2.77 2.79a1 1 0 001.41 1.42l2.78-2.77 2.68 2.68a1 1 0 001.41-1.42L13.46 12l2.75-2.7a1 1 0 000-1.42z"/></svg>';
   }
 
   @if $icon == 'notification-danger-32' {
@@ -71,8 +91,16 @@
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 32 32"><path d="M16 24.56L7.97 29l1.53-9.41L3 12.93l8.98-1.37L16 3l4.02 8.56L29 12.93l-6.5 6.66L24.03 29 16 24.56z"/></svg>';
   }
 
+  @if $icon == 'control-more-16' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M13 7H9V3a1 1 0 00-2 0v4H3a1 1 0 000 2h4v4a1 1 0 002 0V9h4a1 1 0 000-2z"/></svg>';
+  }
+
   @if $icon == 'control-more-24' {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}"  viewBox="0 0 24 24"><path d="M19.09,11h-6V5a1,1,0,0,0-2,0v6h-6a1,1,0,0,0,0,2h6v6a1,1,0,0,0,2,0V13h6a1,1,0,0,0,0-2Z"/></svg>';
+  }
+
+  @if $icon == 'control-less-16' {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M12 9H4a1 1 0 010-2h8a1 1 0 010 2z"/></svg>';
   }
 
   @if $icon == 'control-less-24' {

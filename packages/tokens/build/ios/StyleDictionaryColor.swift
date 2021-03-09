@@ -164,6 +164,7 @@ public class StyleDictionaryColor {
     public static let colorInputCheckedIcon = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha:1)
     public static let colorInputDisabledBackground = UIColor(red: 0.933, green: 0.933, blue: 0.941, alpha:1)
     public static let colorInputDisabledBorder = UIColor(red: 0.933, green: 0.933, blue: 0.941, alpha:1)
+    public static let colorInputDisabledIcon = UIColor(red: 0.631, green: 0.608, blue: 0.635, alpha:1)
     public static let colorInputFocusBorder = UIColor(red: 0.145, green: 0.659, blue: 0.816, alpha:1)
     public static let colorInputHoverBorder = UIColor(red: 0.133, green: 0.125, blue: 0.125, alpha:1)
     public static let colorInputInvalidBorder = UIColor(red: 0.706, green: 0.165, blue: 0.153, alpha:1)

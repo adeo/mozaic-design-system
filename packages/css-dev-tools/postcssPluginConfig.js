@@ -44,6 +44,8 @@ const indentWidth = userIndent ? userIndent : 2
 
 const styleLintConfig = require('./styleLintConfig')
 
+console.info(`Running ${mozaicEnvScssVar} plugins`)
+
 const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),

@@ -1,42 +1,25 @@
 /* mqp:start */
 .mc-notification {
-  @include set-border-radius();
-  @include set-notification-border-background('information');
+  $parent: &;
+
   @include set-font-face();
-  @include set-color('darkest');
+  @include set-border-radius();
   @include set-flexy();
+  @include set-notification-size($notification-default-size);
+  @include set-notification-type('information');
 
   box-sizing: border-box;
-  padding:
-    $mu150 calc(#{$mu100} - #{$notification-border-width})
-    magic-unit-rem(1.4375, 'true') magic-unit-rem(1.4375, 'true');
+  color: $color-font-darkest;
 
-  // type icon
   &::before {
-    @include set-notification-icon('information');
-
-    background-size: $mu200;
+    background-color: transparent;
+    background-repeat: no-repeat;
     content: '';
     display: block;
-    flex: 0 0 $mu200;
-    height: $mu200;
-    margin-right: $mu100;
-    width: $mu200;
-  }
-
-  @each $type, $props in $notification-type-border-background-icon {
-    &--#{$type} {
-      @include set-notification-border-background($type);
-
-      &::before {
-        @include set-notification-icon($type);
-      }
-    }
   }
 
   &__content {
     flex: 1 1 0;
-    padding-top: $mu025;
   }
 
   &__title,
@@ -45,18 +28,13 @@
     margin-top: 0;
   }
 
-  &__message {
-    @include set-font-scale('04');
-  }
-
   &__title {
     @include set-font-face('semi-bold');
     @include set-font-scale('05');
   }
 
-  &__link,
-  &__title + &__message {
-    margin-top: $mu050;
+  &__message {
+    @include set-font-scale('04');
   }
 
   &__link {
@@ -64,24 +42,54 @@
 
     margin-top: $mu050;
   }
-}
 
-.mc-notification-closable {
-  &__close {
-    flex: 0 1 auto;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    width: $mu150;
-    height: $mu150;
-    display: block;
-    right: 0.625rem;
-    top: 0.625rem;
-    padding: 0;
-    background:
-      transparent
-      url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
-    transform: translateX($mu050) translateY(-$mu100);
+  // Notification type
+  @each $type, $props in $notification-types {
+    &--#{$type} {
+      @include set-notification-type($type);
+    }
+  }
+
+  // Notification size
+  @each $size, $props in $notification-sizes {
+    &--#{$size} {
+      @if ($size != 'm') {
+        @include set-notification-size($props);
+
+        @each $type, $props in $notification-types {
+          @if ($type != 'information') {
+            &#{$parent}--#{$type} {
+              @include set-notification-type($type, $size);
+            }
+          }
+
+          @else {
+            @include set-notification-type('information', $size);
+          }
+        }
+      }
+    }
+  }
+
+  // Closable
+  &-closable {
+    position: relative;
+
+    &__close {
+      background:
+        transparent
+        url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
+      border: 0;
+      cursor: pointer;
+      display: block;
+      height: $mu100;
+      padding: 0;
+      position: absolute;
+      outline: 0;
+      right: $mu100;
+      top: $mu100;
+      width: $mu100;
+    }
   }
 }
 

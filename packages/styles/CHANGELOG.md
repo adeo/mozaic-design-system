@@ -3,6 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/adeo/mozaic-design-system/compare/v1.4.0...v1.5.0) (2021-03-03)
+
+
+### Bug Fixes
+
+* **pattern/qtyselector:** remove spin button in mozilla ([#743](https://github.com/adeo/mozaic-design-system/issues/743)) ([2985fc5](https://github.com/adeo/mozaic-design-system/commit/2985fc5c060d0080c7957ee6d8b46e000b958120))
+* **patterns/notification:** correct the closing icon position ([#747](https://github.com/adeo/mozaic-design-system/issues/747)) ([51230d3](https://github.com/adeo/mozaic-design-system/commit/51230d3788e08911f7f7259d7d857ffe2aa3ce96))
+
+
+### Features
+
+* **foundations/fonts:** add font-display:swap on [@font-face](https://github.com/font-face) declarations ([#745](https://github.com/adeo/mozaic-design-system/issues/745)) ([ca30329](https://github.com/adeo/mozaic-design-system/commit/ca30329e515a1f7e0d7488443a65525f2deea6b8)), closes [#736](https://github.com/adeo/mozaic-design-system/issues/736)
+* **patterns/button:** improve button focus for accessibility ([#746](https://github.com/adeo/mozaic-design-system/issues/746)) ([aa5e98c](https://github.com/adeo/mozaic-design-system/commit/aa5e98c51f0d1d3efb4b471a900e9f4c78af199f))
+* **patterns/icons:** add arrow-top-16 in sass inline-icons function ([#750](https://github.com/adeo/mozaic-design-system/issues/750)) ([cc163c2](https://github.com/adeo/mozaic-design-system/commit/cc163c26fba40cf5a1250ccb9851b50808e60d4f))
+
+
+
+
+
+# [1.4.0](https://github.com/adeo/mozaic-design-system/compare/v1.3.0...v1.4.0) (2021-02-17)
+
+
+### Bug Fixes
+
+* **patterns/accordion:** improve accordions accessibility ([#730](https://github.com/adeo/mozaic-design-system/issues/730)) ([6b9eba7](https://github.com/adeo/mozaic-design-system/commit/6b9eba77f7f46416060b2b32d3d0a3b2f5a9041b)), closes [#729](https://github.com/adeo/mozaic-design-system/issues/729)
+
+
+### Features
+
+* **patterns/checkbox:** add indeterminate case ([#728](https://github.com/adeo/mozaic-design-system/issues/728)) ([3fd0b84](https://github.com/adeo/mozaic-design-system/commit/3fd0b843e9f250219c529ebff16a0b47b56ffef4))
+* **patterns/notification:** add small notification variation ([#738](https://github.com/adeo/mozaic-design-system/issues/738)) ([237e846](https://github.com/adeo/mozaic-design-system/commit/237e846514d36a59f20ffd90258f1dc0728d5a25))
+
+
+
+
+
+# [1.3.0](https://github.com/adeo/mozaic-design-system/compare/v1.2.0...v1.3.0) (2021-02-03)
+
+
+### Features
+
+* **patterns/accordions:** add small accordions variation ([#726](https://github.com/adeo/mozaic-design-system/issues/726)) ([0ce15a3](https://github.com/adeo/mozaic-design-system/commit/0ce15a3b0856823860d6bda1427f6259cb0c1fdf))
+
+
+
+
+
 # [1.2.0](https://github.com/adeo/mozaic-design-system/compare/v1.1.0...v1.2.0) (2021-01-20)
 
 

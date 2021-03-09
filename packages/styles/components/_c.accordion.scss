@@ -4,20 +4,18 @@
   background-color: $color-grey-000;
 
   @include set-font-face();
+  @include set-accordion-size($accordion-default-size);
 
   &__label {
-    @include set-font-scale('06', 'm');
     @include set-font-weight('semi-bold');
 
-    background-image: url(inline-icons('control-more-24', $color-font-darker));
     background-position: right $mu050 center;
     background-repeat: no-repeat;
-    background-size: $mu150;
     color: $color-font-darker;
     cursor: pointer;
     display: block;
+    padding-left: $mu050;
     position: relative;
-    padding: $mu125 $mu300 $mu125 $mu050;
 
     &:hover {
       background-color: $color-grey-100;
@@ -38,22 +36,20 @@
   }
 
   &__icon {
-    width: $mu200;
-    height: $mu200;
-    margin-right: $mu050;
     fill: $color-grey-500;
+    margin-right: $mu050;
   }
 
   &__content {
     @include set-font-scale('05', 'm');
 
+    border-bottom: get-border(s) solid $color-font-light;
+    color: $color-font-dark;
     height: auto;
     max-height: 0;
     overflow: hidden;
     padding-left: $mu050;
     transition: max-height 0.3s ease-out, padding 0.3s linear;
-    border-bottom: get-border(s) solid $color-font-light;
-    color: $color-font-dark;
   }
 
   &__trigger {
@@ -61,15 +57,6 @@
     position: absolute;
 
     &:checked {
-      ~ #{$parent}__label {
-        background-image:
-          url(
-            inline-icons(
-              'control-less-24',
-              $color-font-darker
-            ));
-      }
-
       ~ #{$parent}__content {
         max-height: none;
         padding-top: $mu050;
@@ -80,12 +67,6 @@
     &:disabled {
       ~ #{$parent}__label {
         background-color: $color-grey-100;
-        background-image:
-          url(
-            inline-icons(
-              'control-more-24',
-              $color-font-light
-            ));
         color: $color-font-light;
         cursor: not-allowed;
       }
@@ -96,19 +77,26 @@
       }
     }
 
-    &:disabled:checked {
+    &:focus {
       ~ #{$parent}__label {
-        background-image:
-          url(
-            inline-icons(
-              'control-less-24',
-              $color-font-light
-            ));
+        @include set-focus-styles-during();
       }
+    }
 
+    &:disabled:checked {
       ~ #{$parent}__content {
         max-height: none;
         padding-top: $mu050;
+      }
+    }
+  }
+
+  @each $size, $props in $accordion-sizes {
+    &--#{$size} {
+      @if ($size != 'm') {
+        #{$parent} {
+          @include set-accordion-size($props);
+        }
       }
     }
   }

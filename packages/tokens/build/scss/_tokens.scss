@@ -246,6 +246,7 @@ $color-input-placeholder: #887f87 !default;
 $color-input-background: #ffffff !default;
 $color-input-disabled-border: #eeeef0 !default;
 $color-input-disabled-background: #eeeef0 !default;
+$color-input-disabled-icon: #a19ba2 !default;
 $color-input-hover-border: #222020 !default;
 $color-input-focus-border: #25a8d0 !default;
 $color-input-valid-border: #78be20 !default;
@@ -842,7 +843,8 @@ $tokens: (
       'background': $color-input-background,
       'disabled': (
         'border': $color-input-disabled-border,
-        'background': $color-input-disabled-background
+        'background': $color-input-disabled-background,
+        'icon': $color-input-disabled-icon
       ),
       'hover': (
         'border': $color-input-hover-border

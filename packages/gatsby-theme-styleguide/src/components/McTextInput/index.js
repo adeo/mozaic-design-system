@@ -1,1 +1,1 @@
-export { default, McTextInput } from './McTextInput'
+export { default } from './McTextInput'

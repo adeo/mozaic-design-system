@@ -1,0 +1,18 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.accordion';
+
+.example {
+  margin: $mu125;
+  min-height: 15.625rem;
+
+  &__item {
+    padding: $mu100;
+  }
+}
+
+p {
+  margin: 0;
+}

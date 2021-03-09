@@ -2,7 +2,7 @@
 title: 'Checkbox'
 order: 1
 description: 'Checkboxes are used to select one or multiple options in a list. They usually find their place in forms and are also used to accept some mentions'
-links: 
+links:
   vue:
     link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-mcheckbox--try-it'
     status: 'ready'
@@ -19,6 +19,20 @@ status:
 
 <Preview path="intro" nude />
 
+## States
+
+### Default states
+
+The checkbox has two default states, checked and unchecked. Every state has a disabled and an invalid variation.
+
+### Indeterminate
+
+This case is used when several items of a sublist are selected. In this specific case, the parent checkbox will have the indeterminate case displayed. Note that you can select or unselect every item of the sublist with this parent checkbox.
+
+<Preview path="group-indeterminate" nude />
+
+> The above preview is given as an example, you cannot interact with it.
+
 ## Checkbox item
 
 The checkbox item is a combinaison of an input and a label.
@@ -31,13 +45,11 @@ The checkbox item is a combinaison of an input and a label.
 
 <Preview path="checkbox-item" nude />
 
-
-
 ## Checkbox group
 
 ![Checkbox-Overview](Checkbox-Overview.png)
 
-Checkbox group is a combination of the following mentions. Please note that you can use four different cases:
+The checkbox group is a combination of the following mentions. Please note that you can use four different cases:
   - Group label + checkbox-es
   - Group label + requirement + checkbox-es
   - Group label + requirement + help text + checkbox-es
@@ -63,7 +75,7 @@ This mention allows to specify that this information is mandatory for the input 
 
 ### Help text
 
-Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
+Help text corresponds to a relevant piece of information to make sure that the user understands what is needed.
 
 <Preview path="group-help-light" nude />
 

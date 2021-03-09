@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/adeo/mozaic-design-system/compare/v1.3.0...v1.4.0) (2021-02-17)
+
+
+### Features
+
+* **patterns/checkbox:** add indeterminate case ([#728](https://github.com/adeo/mozaic-design-system/issues/728)) ([3fd0b84](https://github.com/adeo/mozaic-design-system/commit/3fd0b843e9f250219c529ebff16a0b47b56ffef4))
+
+
+
+
+
 ## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
 
 
