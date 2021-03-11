@@ -1,0 +1,149 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import **the settings** and **the card** scss files.
+
+In addition to the basic files listed above, you must also import the `_c.button.scss` or `_c.links` file, when you use a button or link inside your card.
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.button'; // optional
+@import 'components/_c.links'; // optional
+@import 'components/_c.card';
+```
+
+## Usage
+
+The creation of a **Card** component in your code is done using the following HTML structure:
+
+```html
+<div class="mc-card">
+  <figure class="mc-card__visual">
+    <img src="your-example-image.jpg" alt="" class="mc-card__img" />
+  </figure>
+  <article class="mc-card__content">
+    <h1 class="mc-card__title">Card title</h1>
+    <h2 class="mc-card__subtitle">There can be a subtitle here.</h2>
+    <div class="mc-card__body">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+    <footer class="mc-card__footer">
+      <a href="#" class="mc-link mc-link--m">Default link</a>
+    </footer>
+  </article>
+</div>
+```
+
+The **Card** component is composed of several elements, namely:
+
+- an image
+- a title
+- a subtitle
+- a description text
+- a card footer with actions
+
+<Highlight theme="warning" title="Mandatory elements">
+
+  Among these elements, please note that **the image and the title are mandatory**, and must **always appear** in your Card elements. The other elements are optional.
+
+</Highlight>
+
+
+## Variations
+
+### Unboxed version
+
+The unboxed version is best used when you have a large amount of cards to display to avoid graphic complexity due to the repetition of the outline.
+
+<Preview path="default" />
+
+### Outlined version
+
+Outlined cards are used to avoid floating impressions.
+
+To define an outlined card, you must add the `mc-card--bordered` modifier to your `mc-card` element.
+
+
+
+```html
+<div class="mc-card mc-card--bordered">
+  <!-- the card elements here -->
+</div>
+```
+
+<Preview path="card-bordered" />
+
+### Card with link
+
+You can use a link inside your card. A link is used when the user needs to go on another page.
+
+When using a link in a card, you must make sure to perform the following scss imports:
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.links';
+@import 'components/_c.card';
+```
+
+<Highlight theme="warning">
+
+  The link inserted in your card must be a Mozaic Link of **size M**.
+  
+  Learn more by looking at [the documentation of the Mozaic Link](/Components/Links/code/#available-sizes).
+
+</Highlight>
+
+<Preview path="card-link" />
+
+### Card with button
+
+You can also use a button inside your card. A button is used when the user can make an action on a card.
+
+When using a button in a card, you must make sure to perform the following scss imports:
+
+```scss
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.button';
+@import 'components/_c.card';
+```
+
+<Highlight theme="warning">
+
+  The button inserted in your card must be a Mozaic Button of **size S**.
+  
+  Learn more by looking at [the documentation of the Mozaic Button](/Components/Buttons/#sizes).
+
+</Highlight>
+
+<Preview path="card-button" />
+
+## Card image ratio
+
+When creating your Card component, you can also define which image ratio should be applied to your component's visual.
+
+For this you have the possibility to choose among the following image ratios, and to apply on your element `mc-card__visual` the associated css modifier:
+
+| ratio    | modifier                               |
+| -------- | -------------------------------------- |
+| **1:1**  | `mc-card__visual--1x1`                 |
+| **4:3**  | _(default ratio - no modifier needed)_  |
+| **16:9** | `mc-card__visual--16x9`                |
+
+
+<Preview path="card-ratios" />

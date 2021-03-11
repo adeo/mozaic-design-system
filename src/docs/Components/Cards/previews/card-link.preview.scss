@@ -1,0 +1,22 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.links';
+@import 'components/_c.card';
+
+.example {
+  @include set-from-screen('m') {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    flex-shrink: 0;
+    padding: $mu200;
+  }
+
+  p {
+    margin: 0;
+  }
+}

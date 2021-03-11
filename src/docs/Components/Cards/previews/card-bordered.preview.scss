@@ -1,0 +1,18 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.button';
+@import 'components/_c.card';
+
+.example {
+  padding: $mu200;
+
+  & > div {
+    margin: 0 auto;
+  }
+
+  p {
+    margin: 0;
+  }
+}
