@@ -102,7 +102,28 @@ As detailed above, you can add an icon in the header. You can do this in the fol
 
 ### Body with scrolling content
 
+Depends on the context, the scrollbar can be next to the content or at the edge of the layer.
+
+<Highlight theme="warning">
+
+Add the `mc-layer-open` class to the html body element to prevent the default scrolling of the browser window.
+
+</Highlight>
+
+#### Scrollbar on content
+
+By default the scrollbar is next to the content.
+- Add `mc-layer__body--overflowing` modifier to the `mc-layer__body` element.
+
 <Preview path="scrolling-content" />
+
+#### Scrollbar on layer
+
+In some context, the scrollbar can be moved to the edge of the layer.
+
+- Add `mc-layer--border-scrollbar` modifier to the `mc-layer` element.
+
+<Preview path="border-scroll-bar" />
 
 ### Footer - two call to actions
 

@@ -1,4 +1,6 @@
 .mc-layer {
+  $parent: &;
+
   @include set-font-face();
 
   box-sizing: border-box;
@@ -204,6 +206,57 @@
       pointer-events: all;
       transition: opacity 0.4s ease, visibility 0ms;
       visibility: visible;
+    }
+  }
+
+  &--border-scrollbar {
+    #{$parent} {
+      &__body {
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-color: $color-grey-600 $color-grey-100;
+        scrollbar-width: thin;
+
+        &::-webkit-scrollbar {
+          background-color: $color-grey-100;
+          width: $mu025;
+
+          &-thumb {
+            background: $color-grey-600;
+          }
+        }
+      }
+
+      &__content {
+        max-height: none;
+      }
+
+      &__footer {
+        position: relative;
+
+        &::before {
+          content: '';
+          background-image:
+            linear-gradient(
+              to top,
+              rgba($color-grey-999, 0.2),
+              rgba($color-grey-999, 0)
+            );
+          bottom: 100%;
+          position: absolute;
+          height: 1.875rem;
+          left: 0;
+          right: 0;
+
+          @include set-from-screen(s) {
+            height: 2.625rem;
+          }
+
+          @include set-from-screen(s) {
+            height: 2.25rem;
+          }
+        }
+      }
     }
   }
 }
