@@ -1,5 +1,5 @@
 .mc-pagination {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   align-items: center;
   display: flex;

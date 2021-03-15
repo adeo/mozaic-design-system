@@ -1,7 +1,8 @@
 @import 'settings-tools/_all-settings';
-@import 'components/_c.stars-result';
 
 .example {
+  @import 'components/_c.stars-result';
+
   display: block;
   padding: 0 $mu150;
 
