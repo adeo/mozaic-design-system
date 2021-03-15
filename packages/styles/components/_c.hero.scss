@@ -1,5 +1,5 @@
 .mc-hero {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   position: relative;
 
