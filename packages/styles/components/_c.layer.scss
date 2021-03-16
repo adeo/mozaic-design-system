@@ -112,7 +112,8 @@
     flex: 1 1;
     overflow: hidden;
 
-    &--overflowing {
+    &--overflowing,
+    &--overflowing-scroll-edge {
       border-bottom: get-border(s) solid $color-grey-200;
       position: relative;
 
@@ -134,7 +135,7 @@
           height: 2.625rem;
         }
 
-        @include set-from-screen(s) {
+        @include set-from-screen(l) {
           height: 2.25rem;
         }
       }
