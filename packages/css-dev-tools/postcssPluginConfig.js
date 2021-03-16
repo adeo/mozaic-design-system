@@ -1,7 +1,7 @@
 require('dotenv').config()
 const scssSyntax = require('postcss-scss')
 const autoprefixer = require('autoprefixer')
-const nodeSass = require('postcss-node-sass')
+const sass = require('@csstools/postcss-sass')
 const stylelint = require('stylelint')
 const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
@@ -50,11 +50,10 @@ const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
-  nodeSass({
+  sass({
     includePaths,
     outputStyle: 'expanded',
     indentWidth,
-    precision: 7,
   }),
   base64({
     pattern: /<svg.*<\/svg>/i,
@@ -68,11 +67,10 @@ const plugins = [
 
 const productionPlugins = [
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
-  nodeSass({
+  sass({
     includePaths,
     outputStyle: 'expanded',
     indentWidth,
-    precision: 7,
   }),
   base64({
     pattern: /<svg.*<\/svg>/i,
