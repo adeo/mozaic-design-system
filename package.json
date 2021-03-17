@@ -55,7 +55,7 @@
     "lint-staged": "^9.5",
     "mock-fs": "^4.10.4",
     "plop": "^2.4.0",
-    "prettier": "^1.14.2",
+    "prettier": "^2.2.1",
     "svg-parser": "^2.0.4"
   },
   "scripts": {
