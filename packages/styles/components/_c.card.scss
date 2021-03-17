@@ -61,19 +61,21 @@
 
   &__title,
   &__subtitle {
-    @include set-font-weight('regular');
-
     margin-top: 0;
     margin-bottom: $mu050;
   }
 
   &__title {
     @include set-font-scale('06', 'm');
+    @include set-font-weight('semi-bold');
+
     color: $color-font-darkest;
   }
 
   &__subtitle {
     @include set-font-scale('04', 'm');
+    @include set-font-weight('regular');
+
     color: $color-font-dark;
   }
 
