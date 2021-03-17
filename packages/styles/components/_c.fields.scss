@@ -1,5 +1,5 @@
 .mc-field {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   &__label,
   &__legend {

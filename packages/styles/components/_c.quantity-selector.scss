@@ -1,5 +1,5 @@
 .mc-quantity-selector {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   display: flex;
 

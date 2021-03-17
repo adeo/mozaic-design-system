@@ -1,6 +1,6 @@
 /* mqp:start */
 .mt-heading {
-  $parent: #{&};
+  $parent: get-parent-selector(&, '.mt-');
 
   @include set-font-face('regular');
 
