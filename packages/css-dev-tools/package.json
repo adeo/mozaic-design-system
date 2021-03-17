@@ -1,7 +1,8 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "dependencies": {
+    "@csstools/postcss-sass": "^4.0.0",
     "@mozaic-ds/configuration-manager": "^1.0.1",
     "@mozaic-ds/postcss-media-queries-packer-on-demand": "^1.0.1",
     "@mozaic-ds/postcss-prepend": "^1.0.1",
@@ -11,7 +12,6 @@
     "dotenv": "^8.2.0",
     "postcss": "^7.0.7",
     "postcss-base64": "^0.7.1",
-    "@csstools/postcss-sass": "^4.0.0",
     "postcss-reporter": "^6.0.0",
     "postcss-scss": "^2.0.0",
     "stylelint": "^13.5.0",

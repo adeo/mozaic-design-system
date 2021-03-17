@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/adeo/mozaic-design-system/compare/v1.5.0...v1.6.0) (2021-03-17)
+
+
+### Bug Fixes
+
+* **patterns/accordion:** a11y - manage focusable elements when accordion is closed ([#767](https://github.com/adeo/mozaic-design-system/issues/767)) ([17c8ee1](https://github.com/adeo/mozaic-design-system/commit/17c8ee19740ff4f26c1e745ba4ef702a12229a82)), closes [#754](https://github.com/adeo/mozaic-design-system/issues/754)
+* **patterns/modal:** update height and width values ([#766](https://github.com/adeo/mozaic-design-system/issues/766)) ([1f77100](https://github.com/adeo/mozaic-design-system/commit/1f77100caad6e0544da9c70133adef34f8f79ddc))
+
+
+### Features
+
+* **patterns/card:** add card pattern ([#724](https://github.com/adeo/mozaic-design-system/issues/724)) ([5291072](https://github.com/adeo/mozaic-design-system/commit/5291072e785bc7f8e0d439bba8cee68cd9f4dc0c)), closes [#526](https://github.com/adeo/mozaic-design-system/issues/526)
+* **patterns/layer:** add a new variation for a scrollbar to the layer's edge ([#764](https://github.com/adeo/mozaic-design-system/issues/764)) ([1e5016e](https://github.com/adeo/mozaic-design-system/commit/1e5016e28863deda24e2c34e2d81d41dd7dba18f))
+* **tools/sass:** add a sass function to get the parent selector ([#765](https://github.com/adeo/mozaic-design-system/issues/765)) ([5ad1d49](https://github.com/adeo/mozaic-design-system/commit/5ad1d4971e1109d82abe3d637717c8750072b807)), closes [#721](https://github.com/adeo/mozaic-design-system/issues/721)
+
+
+
+
+
 # [1.5.0](https://github.com/adeo/mozaic-design-system/compare/v1.4.0...v1.5.0) (2021-03-03)
 
 
