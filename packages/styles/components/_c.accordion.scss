@@ -2,6 +2,7 @@
   $parent: get-parent-selector(&);
 
   background-color: $color-grey-000;
+  border-bottom: get-border(s) solid $color-font-light;
 
   @include set-font-face();
   @include set-accordion-size($accordion-default-size);
@@ -43,13 +44,13 @@
   &__content {
     @include set-font-scale('05', 'm');
 
-    border-bottom: get-border(s) solid $color-font-light;
     color: $color-font-dark;
     height: auto;
     max-height: 0;
     overflow: hidden;
     padding-left: $mu050;
     transition: max-height 0.3s ease-out, padding 0.3s linear;
+    visibility: hidden;
   }
 
   &__trigger {
@@ -61,6 +62,7 @@
         max-height: none;
         padding-top: $mu050;
         padding-bottom: calc(#{$mu150} - #{get-border(s)});
+        visibility: visible;
       }
     }
 

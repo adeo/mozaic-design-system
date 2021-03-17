@@ -3,6 +3,7 @@
 @include import-font-families();
 
 @import 'components/_c.accordion';
+@import 'components/_c.links'; // used only for the example
 
 .example {
   margin: $mu125;
