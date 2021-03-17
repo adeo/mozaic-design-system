@@ -1,6 +1,6 @@
 /* mqp:start */
 .mc-stars-input {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   @include set-stars-container($stars-default-size);
 

@@ -1,6 +1,6 @@
 /* mqp:start */
 .mc-stars-result {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   &__text {
     @include set-hidden-input;
