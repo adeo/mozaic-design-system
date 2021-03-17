@@ -1,7 +1,7 @@
 /* mqp:start */
 
 .mc-tabs {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   background-color: $color-tabs-background;
   position: relative;
