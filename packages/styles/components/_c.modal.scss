@@ -20,32 +20,33 @@
 
   @include set-from-screen(m) {
     align-items: center;
+    padding: 0;
   }
 
   &__dialog {
+    background: $color-grey-000;
     display: flex;
     flex-direction: column;
-    background: $color-grey-000;
     position: relative;
     width: 100%;
 
     @include set-from-screen(m) {
-      max-width: percentage(1/2);
-      max-height: calc(100vh / 2);
+      max-height: 50vh;
+      max-width: magic-unit-rem(38.5, true); // 616px
     }
 
     @include set-from-screen(l) {
-      max-width: percentage(1/3);
-      max-height: calc(100vh * 2 / 3);
+      max-height: 66vh;
+      max-width: magic-unit-rem(48, true); // 768px
     }
 
     @include set-from-screen(xl) {
-      max-width: 66%;
+      max-width: magic-unit-rem(50, true); // 800px
     }
 
     @include set-from-screen(xxl) {
-      max-width: percentage(1/2);
-      max-height: calc(100vh / 2);
+      max-height: 50vh;
+      max-width: magic-unit-rem(56.5, true); // 904px
     }
   }
 
