@@ -1,5 +1,5 @@
 .mc-accordion {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   background-color: $color-grey-000;
 

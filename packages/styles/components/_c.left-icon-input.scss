@@ -1,6 +1,6 @@
 /* mqp:start */
 .mc-left-icon-input {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   position: relative;
 
