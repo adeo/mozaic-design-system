@@ -1,20 +1,15 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "1.6.0",
   "npmClient": "yarn",
-  "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "ignored-file",
-        "*.md"
-      ],
+      "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish"
     }
   },
-  "version": "1.6.0"
+  "packages": ["packages/*"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "useWorkspaces": true
 }
