@@ -90,7 +90,10 @@
     "node-forge": "^0.10.0",
     "@hapi/hoek": "^8.5.1",
     "bl": "^3.0.1",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "react-dev-utils": "11.0.4",
+    "node-notifier": "8.0.1",
+    "is-svg": "4.2.2"
   },
   "husky": {
     "hooks": {
