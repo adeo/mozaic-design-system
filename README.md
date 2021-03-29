@@ -18,6 +18,9 @@
   <a href="https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" />
   </a>
+  <a href="#contributors">
+    <img src="https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat" alt="All Contributors" />
+  </a>
 </p>
 
 ## Getting started
