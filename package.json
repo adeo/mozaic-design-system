@@ -82,14 +82,14 @@
   },
   "resolutions": {
     "minimist": "^1.2.3",
-    "yargs-parser": "^13.1.2",
+    "yargs-parser": "^20.2.7",
     "kind-of": "^6.0.3",
     "websocket-extensions": "^0.1.4",
     "graphql-playground-html": "^1.6.22",
-    "serialize-javascript": "^3.1.0",
+    "serialize-javascript": "^5.0.1",
     "node-forge": "^0.10.0",
-    "@hapi/hoek": "^8.5.1",
-    "bl": "^3.0.1",
+    "@hapi/hoek": "^9.1.1",
+    "bl": "^4.1.0",
     "axios": "^0.21.1"
   },
   "husky": {
