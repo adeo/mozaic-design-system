@@ -1,7 +1,7 @@
 require("dotenv").config()
 const scssSyntax = require("postcss-scss")
 const autoprefixer = require("autoprefixer")
-const sass = require("@csstools/postcss-sass")
+const sass = require("@mozaic-ds/postcss-sass")
 const stylelint = require("stylelint")
 const base64 = require("postcss-base64")
 const reporter = require("postcss-reporter")
