@@ -19,7 +19,7 @@
   "dependencies": {
     "loadash": "^1.0.0",
     "lodash": "^4.17.15",
-    "postcss": "^7.0.23",
+    "postcss": "^8.2.8",
     "postcss-bem-linter": "^3.3.0"
   },
   "devDependencies": {
