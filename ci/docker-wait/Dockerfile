@@ -5,9 +5,9 @@ LABEL "com.github.actions.description"="Launch exec in node"
 LABEL "com.github.actions.icon"="mic"
 LABEL "com.github.actions.color"="green"
 
-ARG CLOUD_SDK_VERSION=256.0.0
+ARG CLOUD_SDK_VERSION=334.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
-RUN apt-get -qqy update && apt-get install -qqy \
+RUN apt-get -qqy update && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     curl \
     gcc \
     python-dev \
