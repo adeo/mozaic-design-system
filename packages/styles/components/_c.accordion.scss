@@ -49,8 +49,7 @@
     max-height: 0;
     overflow: hidden;
     padding-left: $mu050;
-    transition: max-height 0.3s ease-out, padding 0.3s linear;
-    visibility: hidden;
+    transition: 0.3s ease;
   }
 
   &__trigger {
@@ -59,10 +58,11 @@
 
     &:checked {
       ~ #{$parent}__content {
-        max-height: none;
+        max-height: 100vh;
         padding-top: $mu050;
         padding-bottom: calc(#{$mu150} - #{get-border(s)});
         visibility: visible;
+        transition: 0.3s ease;
       }
     }
 
