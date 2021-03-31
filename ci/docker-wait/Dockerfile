@@ -9,6 +9,7 @@ ARG CLOUD_SDK_VERSION=260.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
 RUN apt-get -qqy update && apt-get install -qqy \
     curl \
+    apt-utils \
     gcc \
     python-dev \
     python-setuptools \
