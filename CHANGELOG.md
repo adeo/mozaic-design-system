@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/adeo/mozaic-design-system/compare/v1.6.0...v1.6.1) (2021-03-31)
+
+
+### Bug Fixes
+
+* **pattern/accordion:** add transition on content ([#770](https://github.com/adeo/mozaic-design-system/issues/770)) ([fe3a0c9](https://github.com/adeo/mozaic-design-system/commit/fe3a0c97b4b31b1ea23894af26201883a144c8b2))
+
+
+### Features
+
+* **onboard:** update roadmap ([#784](https://github.com/adeo/mozaic-design-system/issues/784)) ([9ad52d5](https://github.com/adeo/mozaic-design-system/commit/9ad52d5f6304b94976e921aebf6d14b9f6aa4f2c))
+
+
+
+
+
 # [1.6.0](https://github.com/adeo/mozaic-design-system/compare/v1.5.0...v1.6.0) (2021-03-17)
 
 
