@@ -52,7 +52,7 @@
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "lerna": "^4.0.0",
-    "lint-staged": "^9.5",
+    "lint-staged": "^10.5.4",
     "mock-fs": "^4.10.4",
     "plop": "^2.4.0",
     "prettier": "^2.2.1",
@@ -90,7 +90,10 @@
     "node-forge": "^0.10.0",
     "@hapi/hoek": "^9.1.1",
     "bl": "^4.1.0",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "react-dev-utils": "11.0.4",
+    "node-notifier": "8.0.1",
+    "is-svg": "4.2.2"
   },
   "husky": {
     "hooks": {
