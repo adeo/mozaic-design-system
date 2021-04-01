@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.2](https://github.com/adeo/mozaic-design-system/compare/v1.6.1...v1.6.2) (2021-04-01)
+
+
+### Bug Fixes
+
+* **layout/grid:** update ml-flexy__col--initial behaviour ([#786](https://github.com/adeo/mozaic-design-system/issues/786)) ([c5e33e8](https://github.com/adeo/mozaic-design-system/commit/c5e33e84ac6af7f61eb27dddc4f582f6b6d51e08))
+
+
+
+
+
 ## [1.6.1](https://github.com/adeo/mozaic-design-system/compare/v1.6.0...v1.6.1) (2021-03-31)
 
 
