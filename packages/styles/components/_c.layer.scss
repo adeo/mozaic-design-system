@@ -82,8 +82,8 @@
   }
 
   &__title {
-    @include set-font-scale('04', 'm');
-    @include set-font-weight('regular');
+    @include set-font-scale("04", "m");
+    @include set-font-weight("regular");
 
     color: $color-font-light;
     margin-bottom: 0;
@@ -92,11 +92,11 @@
 
   &__close {
     @include unstyle-button();
+    @include set-focus-floating-base();
 
     align-self: flex-start;
-    background:
-      transparent
-      url(inline-icons('control-cross-32', $color-grey-500)) no-repeat;
+    background: transparent
+      url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
     background-size: contain;
     cursor: pointer;
     height: $mu200;
@@ -105,6 +105,10 @@
 
     &-text {
       @include set-hidden-input();
+    }
+
+    &:focus {
+      @include set-focus-floating();
     }
   }
 
@@ -118,13 +122,12 @@
       position: relative;
 
       &::after {
-        content: '';
-        background-image:
-          linear-gradient(
-            to top,
-            rgba($color-grey-999, 0.2),
-            rgba($color-grey-999, 0)
-          );
+        content: "";
+        background-image: linear-gradient(
+          to top,
+          rgba($color-grey-999, 0.2),
+          rgba($color-grey-999, 0)
+        );
         bottom: 0;
         position: absolute;
         height: 1.875rem;

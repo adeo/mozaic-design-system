@@ -1,8 +1,9 @@
 /* mqp:start */
 .mc-link {
   @include set-link-base();
-  @include set-link-theme(get-token(color, link, 'dark'));
+  @include set-link-theme(get-token(color, link, "dark"));
   @include mod-link-sizes();
+  @include set-focus-floating-base();
 
   &__icon {
     display: block;
@@ -21,7 +22,7 @@
   }
 
   @each $name, $props in $links-tokens {
-    @if ($name != 'dark') {
+    @if ($name != "dark") {
       &--#{$name} {
         @include set-link-theme($props);
       }

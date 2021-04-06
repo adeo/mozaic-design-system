@@ -6,7 +6,7 @@
   border: $select-border-width solid $color-input-border;
   border-radius: $select-border-radius;
   color: $color-input-text;
-  transition: border-color ease 200ms;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
   width: 100%;
 
   &::-ms-expand {
@@ -21,7 +21,7 @@
 
   &:focus {
     @include add-demo-state-class {
-      border-color: $color-input-focus-border;
+      @include set-shadow-focus();
     }
   }
 

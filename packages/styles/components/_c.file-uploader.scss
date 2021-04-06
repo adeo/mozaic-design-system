@@ -8,10 +8,10 @@
   }
 
   &__label {
-    @include set-font-face('semi-bold');
+    @include set-font-face("semi-bold");
     @include set-button-layout();
-    @include set-button-size(map-get($button-sizes, 'm'));
-    @include set-button-theme(get-token(color, button, 'bordered'));
+    @include set-button-size(map-get($button-sizes, "m"));
+    @include set-button-theme(get-token(color, button, "bordered"));
 
     margin: 0;
     box-shadow: none;
@@ -20,14 +20,13 @@
     box-sizing: border-box;
 
     &::before {
-      content: '';
+      content: "";
       width: $mu150;
       height: $mu150;
       display: flex;
       align-items: center;
-      background:
-        transparent
-        url(inline-icons('upload-24', $color-fileuploader-valid)) no-repeat;
+      background: transparent
+        url(inline-icons("upload-24", $color-fileuploader-valid)) no-repeat;
       background-size: $mu150;
       margin-right: $mu050;
       margin-left: -$mu050;
@@ -35,16 +34,14 @@
 
     :focus + & {
       @include add-demo-state-class {
-        @include set-button-theme(
-          get-token(color, button, 'bordered', 'focus')
-        );
+        @include set-shadow-focus();
       }
     }
 
     :hover + & {
       @include add-demo-state-class {
         @include set-button-theme(
-          get-token(color, button, 'bordered', 'hover')
+          get-token(color, button, "bordered", "hover")
         );
       }
     }
@@ -52,16 +49,15 @@
     :disabled + & {
       @include add-demo-state-class {
         @include set-button-theme(
-          get-token(color, button, 'bordered', 'disabled')
+          get-token(color, button, "bordered", "disabled")
         );
 
         border-color: transparent;
         cursor: not-allowed;
 
         &::before {
-          background:
-            transparent
-            url(inline-icons('upload-24', $color-button-bordered-disabled-font))
+          background: transparent
+            url(inline-icons("upload-24", $color-button-bordered-disabled-font))
             no-repeat;
         }
       }
@@ -75,7 +71,7 @@
   }
 
   &__file {
-    @include set-font-face('regular');
+    @include set-font-face("regular");
 
     align-items: center;
     background: $color-fileuploader-files-list;
@@ -88,7 +84,7 @@
     }
 
     &-name {
-      @include set-font-scale('05', 'm');
+      @include set-font-scale("05", "m");
 
       flex-grow: 1;
       overflow: hidden;
@@ -112,25 +108,21 @@
     }
 
     &--is-valid &-icon {
-      background-image:
-        url(
-          inline-icons(
-            'valid-24',
-            $color-fileuploader-valid
-          ));
+      background-image: url(inline-icons(
+        "valid-24",
+        $color-fileuploader-valid
+      ));
     }
 
     &--is-invalid &-icon {
-      background-image:
-        url(
-          inline-icons(
-            'alert-24',
-            $color-fileuploader-alert
-          ));
+      background-image: url(inline-icons(
+        "alert-24",
+        $color-fileuploader-alert
+      ));
     }
 
     &--is-invalid &-message {
-      @include set-font-scale('04', 'm');
+      @include set-font-scale("04", "m");
 
       background: $color-grey-000;
       color: $color-font-danger;
@@ -140,6 +132,13 @@
   }
 
   &__delete {
+    @include set-focus-floating-base($before: true) {
+      top: -($mu025 / 2);
+      right: -($mu025 / 2);
+      bottom: -($mu025 / 2);
+      left: -($mu025 / 2);
+    }
+
     appearance: none;
     background-color: $color-fileuploader-files-delete;
     border: none;
@@ -147,13 +146,20 @@
     padding: $mu050;
 
     &::after {
-      content: '';
+      content: "";
       width: $mu150;
       height: $mu150;
-      background:
-        transparent
-        url(inline-icons('delete-24', $color-fileuploader-font)) no-repeat;
+      background: transparent
+        url(inline-icons("delete-24", $color-fileuploader-font)) no-repeat;
       display: block;
+    }
+
+    &:focus {
+      outline: none;
+
+      @include set-focus-floating($before: true) {
+        box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
+      }
     }
   }
 }
