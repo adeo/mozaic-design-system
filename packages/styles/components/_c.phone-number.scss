@@ -1,0 +1,86 @@
+.mc-phone-number {
+  $parent: get-parent-selector(&);
+
+  display: flex;
+  max-width: magic-unit-rem(21);
+
+  &__button {
+    @include unstyle-button();
+    @include set-select-size($select-default-size);
+    @include set-font-face('semi-bold');
+
+    display: flex;
+    align-items: center;
+    color: $color-grey-900;
+    border: get-border('s') solid $color-grey-600;
+    border-radius: $mu025 0 0 $mu025;
+    border-right: none;
+
+    &--hide-country {
+      .mc-phone-number__country {
+        display: none;
+      }
+    }
+  }
+
+  &__flag {
+    margin-right: $mu050;
+    width: $mu150;
+    height: $mu100;
+  }
+
+  &__list {
+    @include set-box-shadow('l');
+
+    position: absolute;
+    width: 100%;
+    max-width: magic-unit-rem(21);
+    max-height: magic-unit-rem(12);
+    padding: 0;
+    margin: 0;
+    border-radius: $mu025 0 0 $mu025;
+    border-top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: $color-grey-600 $color-grey-100;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+      background-color: $color-grey-100;
+      width: $mu025;
+
+      &-thumb {
+        background: $color-grey-600;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    min-height: $mu300;
+    padding-left: $mu075;
+    border-bottom: get-border('s') solid $color-grey-300;
+
+    &--focused {
+      background: $color-grey-100;
+    }
+  }
+
+  &__input {
+    border-radius: 0 $mu025 $mu025 0;
+  }
+
+  &:focus-within {
+    border: get-border('s') solid $color-info-500;
+    border-radius: $mu025;
+  }
+}

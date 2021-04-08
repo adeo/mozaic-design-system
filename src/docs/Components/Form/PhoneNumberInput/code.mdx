@@ -1,0 +1,58 @@
+---
+title: 'Code'
+order: 2
+---
+
+# Import
+
+Import **the settings**, the **text-input** and the **phone-number** scss files.
+
+```scss
+@import 'settings-tools/_all-settings';
+@import 'components/_c.text-input';
+@import 'components/_c.phone-number';
+```
+
+# Usage
+
+```html
+<div class="mc-phone-number">
+  <div class="mc-phone-number__dropdown">
+    <button
+      aria-haspopup="listbox"
+      aria-labelledby="dropdown_country"
+      id="dropdown_country"
+      class="mc-phone-number__button"
+    >
+      <svg class="mc-phone-number__flag">
+        <use xlink:href="#flag" />
+      </svg>
+      <span>+33</span>
+    </button>
+    <ul
+    id="phone_number_list"
+      tabindex="-1"
+      role="listbox"
+      aria-labelledby="phone_number_list"
+      class="mc-phone-number__list mc-phone-number__list--hidden"
+    >
+      <li id="FR" role="option" class="mc-phone-number__item">
+        <svg class="mc-phone-number__flag">
+          <use xlink:href="#flag" />
+        </svg>
+        <span class="mc-phone-number__country">France, </span>
+        <span>+33</span>
+      </li>
+    </ul>
+  </div>
+  <input
+    type="text"
+    class="mc-phone-number__input mc-text-input mc-text-input--m mc-field__input"
+    id="smallField"
+    placeholder="00-00-00-00-00"
+    name="example-small"
+  />
+</div>
+```
+
+<Preview path="basic" />

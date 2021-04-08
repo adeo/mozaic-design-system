@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input phone number</title>
+    <script src="https://www.w3.org/TR/wai-aria-practices/examples/listbox/js/listbox.js"></script>
+    <script src="https://www.w3.org/TR/wai-aria-practices-1.1/examples/js/utils.js"></script>
+  </head>
+  <body>
+    <div class="example">
+      <div class="mc-phone-number">
+        <div class="mc-phone-number__dropdown">
+          <button
+            aria-haspopup="listbox"
+            aria-labelledby="dropdown_country"
+            id="dropdown_country"
+            class="mc-phone-number__button"
+          >
+            <svg class="mc-phone-number__flag">
+              <use xlink:href="#flag" />
+            </svg>
+            <span>+33</span>
+          </button>
+          <ul
+            id="phone_number_list"
+            tabindex="-1"
+            role="listbox"
+            aria-labelledby="phone_number_list"
+            class="mc-phone-number__list mc-phone-number__list--hidden"
+          >
+            <li id="FR" role="option" class="mc-phone-number__item">
+              <svg class="mc-phone-number__flag">
+                <use xlink:href="#flag" />
+              </svg>
+              <span class="mc-phone-number__country">France, </span>
+              <span>+33</span>
+            </li>
+            <li id="IT" role="option" class="mc-phone-number__item">
+              <svg class="mc-phone-number__flag">
+                <use xlink:href="#italy" />
+              </svg>
+              <span class="mc-phone-number__country">Italie, </span>
+              <span>+39</span>
+            </li>
+            <li id="BE" role="option" class="mc-phone-number__item">
+              <svg class="mc-phone-number__flag">
+                <use xlink:href="#belgium" />
+              </svg>
+              <span class="mc-phone-number__country">Belgique, </span>
+              <span>+32</span>
+            </li>
+            <li id="GE" role="option" class="mc-phone-number__item">
+              <svg class="mc-phone-number__flag">
+                <use xlink:href="#germany" />
+              </svg>
+              <span class="mc-phone-number__country">Allemagne, </span>
+              <span>+49</span>
+            </li>
+            <li id="HO" role="option" class="mc-phone-number__item">
+              <svg class="mc-phone-number__flag">
+                <use xlink:href="#holland" />
+              </svg>
+              <span class="mc-phone-number__country">Holland, </span>
+              <span>+31</span>
+            </li>
+            <li id="RU" role="option" class="mc-phone-number__item">
+              <svg class="mc-phone-number__flag">
+                <use xlink:href="#russia" />
+              </svg>
+              <span class="mc-phone-number__country">Russie, </span>
+              <span>+7</span>
+            </li>
+            <li id="LU" role="option" class="mc-phone-number__item">
+              <svg class="mc-phone-number__flag">
+                <use xlink:href="#luxembourg" />
+              </svg>
+              <span class="mc-phone-number__country">Luxembourg, </span>
+              <span>+352</span>
+            </li>
+          </ul>
+        </div>
+        <input
+          type="text"
+          class="mc-phone-number__input mc-text-input mc-text-input--m mc-field__input"
+          id="smallField"
+          placeholder="00-00-00-00-00"
+          name="example-small"
+        />
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="flag">
+        <rect width="16" height="16" fill="#ED2939" />
+        <rect width="10.6" height="16" fill="#fff" />
+        <rect width="5.3" height="16" fill="#002395" />
+      </symbol>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="italy">
+        <rect width="16" height="16" fill="#009246" />
+        <rect width="10.6" height="16" fill="#fff" />
+        <rect width="5.3" height="16" fill="#ce2b37" />
+      </symbol>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="belgium">
+        <rect width="16" height="16" fill="black" />
+        <rect width="10.6" height="16" fill="yellow" />
+        <rect width="5.3" height="16" fill="red" />
+      </symbol>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="germany">
+        <rect id="black_stripe" width="16" height="16" fill="#000" />
+        <rect id="red_stripe" width="16" height="10.6" fill="#D00" />
+        <rect id="gold_stripe" width="16" height="5.3" fill="#FFCE00" />
+      </symbol>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="holland">
+        <rect width="16" height="16" fill="#002395" />
+        <rect width="16" height="10.6" fill="#fff" />
+        <rect width="16" height="5.3" fill="#ED2939" />
+      </symbol>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="russia">
+        <rect width="16" height="16" fill="#ED2939" />
+        <rect width="16" height="10.6" fill="#fff" />
+        <rect width="16" height="5.3" fill="#002395" />
+      </symbol>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="luxembourg">
+        <rect id="black_stripe" width="16" height="16" fill="#00A1DE " />
+        <rect id="red_stripe" width="16" height="10.6" fill="#fff" />
+        <rect id="gold_stripe" width="16" height="5.3" fill="#ed2939" />
+      </symbol>
+    </svg>
+  </body>
+  
+  <script>
+    
+    /**
+     * Phone number example
+     * @function onload
+     * @desc Initialize the phoneNumber example once the page has loaded
+     */
+
+     window.addEventListener("load", function () {
+      var button = document.getElementById("dropdown_country")
+      var exListbox = new aria.Listbox(
+        document.getElementById("phone_number_list")
+      )
+      var listboxButton = new aria.ListboxButton(button, exListbox)
+    })
+    var phoneNumber = aria || {}
+
+    phoneNumber.ListboxButton = function (button, listbox) {
+      this.button = button
+      this.listbox = listbox
+      this.registerEvents()
+    }
+
+    phoneNumber.ListboxButton.prototype.registerEvents = function () {
+      this.button.addEventListener("click", this.showListbox.bind(this))
+      this.button.addEventListener("keyup", this.checkShow.bind(this))
+      this.listbox.listboxNode.addEventListener(
+        "blur",
+        this.hideListbox.bind(this)
+      )
+      this.listbox.listboxNode.addEventListener(
+        "keydown",
+        this.checkHide.bind(this)
+      )
+      this.listbox.setHandleFocusChange(this.onFocusChange.bind(this))
+    }
+
+    phoneNumber.ListboxButton.prototype.checkShow = function (evt) {
+      var key = evt.which || evt.keyCode
+
+      switch (key) {
+        case phoneNumber.KeyCode.UP:
+        case phoneNumber.KeyCode.DOWN:
+          evt.preventDefault()
+          this.showListbox()
+          this.listbox.checkKeyPress(evt)
+          break
+      }
+    }
+
+    phoneNumber.ListboxButton.prototype.checkHide = function (evt) {
+      var key = evt.which || evt.keyCode
+
+      switch (key) {
+        case phoneNumber.KeyCode.RETURN:
+        case phoneNumber.KeyCode.ESC:
+          evt.preventDefault()
+          this.hideListbox()
+          this.button.focus()
+          break
+      }
+    }
+
+    phoneNumber.ListboxButton.prototype.showListbox = function () {
+      phoneNumber.Utils.removeClass(
+        this.listbox.listboxNode,
+        "mc-phone-number__list--hidden"
+      )
+      this.button.setAttribute("aria-expanded", "true")
+      this.listbox.listboxNode.focus()
+    }
+
+    phoneNumber.ListboxButton.prototype.hideListbox = function () {
+      phoneNumber.Utils.addClass(
+        this.listbox.listboxNode,
+        "mc-phone-number__list--hidden"
+      )
+      this.button.removeAttribute("aria-expanded")
+    }
+
+    phoneNumber.ListboxButton.prototype.onFocusChange = function (focusedItem) {
+      this.button.innerHTML = focusedItem.innerHTML
+      phoneNumber.Utils.addClass(this.button, "mc-phone-number__button--hide-country")
+    }
+  </script>
+</html>
