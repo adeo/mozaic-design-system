@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    max-width: percentage(10/12);
+    max-width: calc(100% - #{$mu200});
     padding-bottom: $mu100;
     transform: translate(100%, 0);
     transition: transform 0.4s ease-in-out;
@@ -82,8 +82,8 @@
   }
 
   &__title {
-    @include set-font-scale('04', 'm');
-    @include set-font-weight('regular');
+    @include set-font-scale("04", "m");
+    @include set-font-weight("regular");
 
     color: $color-font-light;
     margin-bottom: 0;
@@ -94,9 +94,8 @@
     @include unstyle-button();
 
     align-self: flex-start;
-    background:
-      transparent
-      url(inline-icons('control-cross-32', $color-grey-500)) no-repeat;
+    background: transparent
+      url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
     background-size: contain;
     cursor: pointer;
     height: $mu200;
@@ -118,13 +117,12 @@
       position: relative;
 
       &::after {
-        content: '';
-        background-image:
-          linear-gradient(
-            to top,
-            rgba($color-grey-999, 0.2),
-            rgba($color-grey-999, 0)
-          );
+        content: "";
+        background-image: linear-gradient(
+          to top,
+          rgba($color-grey-999, 0.2),
+          rgba($color-grey-999, 0)
+        );
         bottom: 0;
         position: absolute;
         height: 1.875rem;
