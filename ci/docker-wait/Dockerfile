@@ -18,7 +18,8 @@ RUN apt-get -qqy update && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     git \
     gnupg \
     && easy_install -U pip && \
-    pip install -U crcmod   && \
+    # pip install -U crcmod   && \
+    pip install pbr \
     export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
     echo "deb https://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" > /etc/apt/sources.list.d/google-cloud-sdk.list && \
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
