@@ -49,10 +49,6 @@
   }
 }
 
-@include make-flexy-custom-col('initial', $major-screens) {
-  flex: 0 1 auto;
-}
-
 @include make-flexy-custom-col('fill', $major-screens) {
   flex: 1 1 0;
 }
@@ -60,6 +56,7 @@
 @include make-flexy-custom-col('full', $major-screens) {
   flex: 100%;
 }
+
 // base 2
 @include make-flexy-col(1, 2, $major-screens);
 @include make-flexy-col-push(1, 2, $major-screens);
@@ -83,6 +80,11 @@
 @include make-flexy-col-push(1, 12, $major-screens);
 @include make-flexy-col(11, 12, $major-screens);
 @include make-flexy-col-push(11, 12, $major-screens);
+
+// Initial
+@include make-flexy-custom-col('initial', $major-screens) {
+  flex: 0 1 auto;
+}
 
 /* ORDERING */
 @include make-flexy-custom-col('first', $major-screens) {
