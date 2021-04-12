@@ -3,89 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Input phone number</title>
+    <title>Input phone number with label</title>
     <script src="https://www.w3.org/TR/wai-aria-practices-1.1/examples/js/utils.js"></script>
   </head>
   <body>
     <div class="example">
-      <div id="mc-phone-number" class="mc-phone-number mc-phone-number--focused">
-        <div class="mc-phone-number__dropdown">
-          <button
-            aria-haspopup="listbox"
-            aria-labelledby="dropdown_country"
-            id="dropdown_country"
-            class="mc-phone-number__button"
-          >
-            <svg class="mc-phone-number__flag">
-              <use xlink:href="#flag" />
-            </svg>
-            <span>+33</span>
-          </button>
-          <ul
-            id="phone_number_list"
-            tabindex="-1"
-            role="listbox"
-            aria-labelledby="phone_number_list"
-            class="mc-phone-number__list"
-          >
-            <li id="FR" role="option" class="mc-phone-number__item">
+      <div class="mc-field">
+        <label class="mc-field__label" for="default"> Label </label>
+        <div id="mc-phone-number" class="mc-phone-number mc-field__input">
+          <div class="mc-phone-number__dropdown">
+            <button
+              aria-haspopup="listbox"
+              aria-labelledby="dropdown_country"
+              id="dropdown_country"
+              class="mc-phone-number__button"
+            >
               <svg class="mc-phone-number__flag">
                 <use xlink:href="#flag" />
               </svg>
-              <span class="mc-phone-number__country">France, </span>
               <span>+33</span>
-            </li>
-            <li id="IT" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#italy" />
-              </svg>
-              <span class="mc-phone-number__country">Italie, </span>
-              <span>+39</span>
-            </li>
-            <li id="BE" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#belgium" />
-              </svg>
-              <span class="mc-phone-number__country">Belgique, </span>
-              <span>+32</span>
-            </li>
-            <li id="GE" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#germany" />
-              </svg>
-              <span class="mc-phone-number__country">Allemagne, </span>
-              <span>+49</span>
-            </li>
-            <li id="HO" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#holland" />
-              </svg>
-              <span class="mc-phone-number__country">Holland, </span>
-              <span>+31</span>
-            </li>
-            <li id="RU" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#russia" />
-              </svg>
-              <span class="mc-phone-number__country">Russie, </span>
-              <span>+7</span>
-            </li>
-            <li id="LU" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#luxembourg" />
-              </svg>
-              <span class="mc-phone-number__country">Luxembourg, </span>
-              <span>+352</span>
-            </li>
-          </ul>
+            </button>
+            <ul
+              id="phone_number_list"
+              tabindex="-1"
+              role="listbox"
+              aria-labelledby="phone_number_list"
+              class="mc-phone-number__list mc-phone-number__list--hidden"
+            >
+              <li id="FR" role="option" class="mc-phone-number__item">
+                <svg class="mc-phone-number__flag">
+                  <use xlink:href="#flag" />
+                </svg>
+                <span class="mc-phone-number__country">France, </span>
+                <span>+33</span>
+              </li>
+              <li id="IT" role="option" class="mc-phone-number__item">
+                <svg class="mc-phone-number__flag">
+                  <use xlink:href="#italy" />
+                </svg>
+                <span class="mc-phone-number__country">Italie, </span>
+                <span>+39</span>
+              </li>
+              <li id="BE" role="option" class="mc-phone-number__item">
+                <svg class="mc-phone-number__flag">
+                  <use xlink:href="#belgium" />
+                </svg>
+                <span class="mc-phone-number__country">Belgique, </span>
+                <span>+32</span>
+              </li>
+              <li id="GE" role="option" class="mc-phone-number__item">
+                <svg class="mc-phone-number__flag">
+                  <use xlink:href="#germany" />
+                </svg>
+                <span class="mc-phone-number__country">Allemagne, </span>
+                <span>+49</span>
+              </li>
+              <li id="HO" role="option" class="mc-phone-number__item">
+                <svg class="mc-phone-number__flag">
+                  <use xlink:href="#holland" />
+                </svg>
+                <span class="mc-phone-number__country">Holland, </span>
+                <span>+31</span>
+              </li>
+              <li id="RU" role="option" class="mc-phone-number__item">
+                <svg class="mc-phone-number__flag">
+                  <use xlink:href="#russia" />
+                </svg>
+                <span class="mc-phone-number__country">Russie, </span>
+                <span>+7</span>
+              </li>
+              <li id="LU" role="option" class="mc-phone-number__item">
+                <svg class="mc-phone-number__flag">
+                  <use xlink:href="#luxembourg" />
+                </svg>
+                <span class="mc-phone-number__country">Luxembourg, </span>
+                <span>+352</span>
+              </li>
+            </ul>
+          </div>
+          <input
+            type="text"
+            class="mc-phone-number__input mc-text-input mc-text-input--m"
+            id="smallField"
+            placeholder="00-00-00-00-00"
+            name="example-small"
+          />
         </div>
-        <input
-          type="text"
-          class="mc-phone-number__input mc-text-input mc-text-input--m"
-          id="smallField"
-          placeholder="00-00-00-00-00"
-          name="example-small"
-        />
       </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">

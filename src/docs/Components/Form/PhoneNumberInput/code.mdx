@@ -14,6 +14,10 @@ Import **the settings**, the **text-input** and the **phone-number** scss files.
 ```
 
 # Usage
+A phone number input is composed of 2 main zones: 
+
+- *A dropdown* with the class : `mc-phone-number__dropdown`
+- *A number input * with the class : `mc-phone-number__input`
 
 ```html
 <div class="mc-phone-number">
@@ -56,3 +60,29 @@ Import **the settings**, the **text-input** and the **phone-number** scss files.
 ```
 
 <Preview path="basic" />
+
+# Detail of areas
+## Dropdown
+The dropdown contains: 
+ - The dropdown trigger (`mc-phone_number_button`)
+ - The list of the countries available (`mc-phone_number_list`)
+
+Each element of list contains: 
+ - The country flag ('mc-phone_number_flag)
+ - The country name ('mc-phone_number_country)
+ - The country indicator
+
+# Variation
+## With label
+
+<Preview path="label" />
+
+# Behaviour
+The javascript to manage the dropdown is based on the listbox from [W3C](https://www.w3.org/TR/2019/NOTE-wai-aria-practices-1.1-20190814/examples/listbox/listbox-collapsible.html)
+
+To have a fully fonctionnal phone number input, make sure to add the following script to your code.
+
+[listbox.js](https://www.w3.org/TR/2019/NOTE-wai-aria-practices-1.1-20190814/examples/listbox/js/listbox.js)
+[utils.js](https://www.w3.org/TR/wai-aria-practices-1.1/examples/js/utils.js)
+
+On the dropdown opening add the `mc-phone-number--focused` class and remove the `mc-phone-number__list--hidden` class.

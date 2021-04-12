@@ -16,10 +16,8 @@
     border-radius: $mu025 0 0 $mu025;
     border-right: none;
 
-    &--hide-country {
-      .mc-phone-number__country {
-        display: none;
-      }
+    #{$parent}__country {
+      display: none;
     }
   }
 
@@ -79,8 +77,15 @@
     border-radius: 0 $mu025 $mu025 0;
   }
 
-  &:focus-within {
-    border: get-border('s') solid $color-info-500;
-    border-radius: $mu025;
+  &--focused {
+    #{$parent}__button {
+      border-color: $color-info-500;
+    }
+
+    #{$parent}__input {
+      border-top-color: $color-info-500;
+      border-right-color: $color-info-500;
+      border-bottom-color: $color-info-500;
+    }
   }
 }
