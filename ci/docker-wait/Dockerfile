@@ -17,7 +17,7 @@ RUN apt-get -qqy update && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     openssh-client \
     git \
     gnupg \
-    && easy_install -U pip && \
+    && easy_install -U pip==20.3.3 && \
     # pip install -U crcmod   && \
     pip install pbr \
     export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
