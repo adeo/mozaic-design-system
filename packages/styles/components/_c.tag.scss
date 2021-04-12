@@ -22,7 +22,6 @@
 
   &-link {
     @include set-tag-base-style("m");
-    @include set-focus-transition();
 
     text-decoration: none;
     outline: none;
@@ -39,10 +38,8 @@
     }
 
     &:focus {
-      @include set-shadow-focus {
-        // TODO: Refactor this
-        box-shadow: inset 0 0 0 get-border("s") $color-tag-link-light-border,
-          0 0 0 ($mu025/2) $color-font-lightest, 0 0 0 $mu025 $color-info-500;
+      @include set-focus-floating {
+        box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
       }
     }
 
@@ -101,7 +98,9 @@
       }
 
       :focus + & {
-        @include set-shadow-focus();
+        @include set-focus-floating {
+          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
+        }
       }
 
       :disabled + & {

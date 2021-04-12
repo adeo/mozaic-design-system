@@ -133,10 +133,10 @@
 
   &__delete {
     @include set-focus-floating-base($before: true) {
-      top: -($mu025 / 2);
-      right: -($mu025 / 2);
-      bottom: -($mu025 / 2);
-      left: -($mu025 / 2);
+      top: -$size-focus-gap;
+      right: -$size-focus-gap;
+      bottom: -$size-focus-gap;
+      left: -$size-focus-gap;
     }
 
     appearance: none;

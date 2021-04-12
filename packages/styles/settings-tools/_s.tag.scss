@@ -29,6 +29,14 @@ $tag-sizes: (
 
   border-radius: map-get($props, 'border-radius');
   padding: map-get($props, 'padding');
+
+  @include set-focus-floating-base {
+    border-radius: (map-get($props, "border-radius") + $size-focus-gap);
+    top: -$size-focus-gap;
+    right: -$size-focus-gap;
+    bottom: -$size-focus-gap;
+    left: -$size-focus-gap;
+  }
 }
 
 @mixin set-tag-base-style($size) {

@@ -1,6 +1,8 @@
 $size-focus-gap: ($mu025 / 2);
 $size-focus-border: $mu025;
 $size-focus-border-thin: $size-focus-gap;
+$size-focus-radius: $size-focus-gap;
+$size-focus-radius-m: ($mu075 / 2);
 
 @mixin set-focus-transition() {
   transition: box-shadow 200ms ease;
