@@ -31,9 +31,26 @@ jobs:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
           args: ci:wait $(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)
+      - name: deployment
+        uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
+        id: deployment
+        with:
+          step: start
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ env.GITHUB_HEAD_REF_SLUG_URL }}
+          ref: ${{ github.head_ref }}
+          transient: true
       - uses: actions-hub/gcloud@master
         env:
           PROJECT_ID: mozaic-design-system-dtrp
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
         with:
           args: app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --no-promote
+      - name: Update deployment status
+        uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
+        with:
+          step: finish
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: https://${{ env.GITHUB_HEAD_REF_SLUG_URL }}-dot-mozaic-design-system-dtrp.appspot.com/
