@@ -37,7 +37,7 @@ jobs:
         with:
           step: start
           token: ${{ secrets.GITHUB_TOKEN }}
-          env: ${{ env.GITHUB_HEAD_REF_SLUG_URL }}
+          env: staging
           ref: ${{ github.head_ref }}
           transient: true
       - uses: actions-hub/gcloud@master
@@ -53,4 +53,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          env_url: https://${{ env.GITHUB_HEAD_REF_SLUG_URL }}-dot-mozaic-design-system-dtrp.appspot.com/
+          env_url: https://${{ github.ref }}-dot-demo-dot-mozaic-design-system-dtrp.appspot.com/
