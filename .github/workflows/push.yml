@@ -16,6 +16,8 @@ jobs:
     steps:
       - run: echo ${{ github.ref }} | iconv -t ASCII
       - uses: actions/checkout@v1
+      - name: GitHub Slug
+        uses: rlespinasse/github-slug-action@v3.x
       - name: Setup node
         uses: actions/setup-node@v1
         with:
@@ -53,4 +55,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          env_url: https://$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)-dot-demo-dot-mozaic-design-system-dtrp.ey.r.appspot.com/
+          env_url: https://${{ env.GITHUB_HEAD_REF_SLUG_URL }}-dot-demo-dot-mozaic-design-system-dtrp.ey.r.appspot.com/
