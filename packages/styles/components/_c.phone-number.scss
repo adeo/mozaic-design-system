@@ -15,6 +15,7 @@
     border: get-border('s') solid $color-grey-600;
     border-radius: $mu025 0 0 $mu025;
     border-right: none;
+    padding-left: $mu100;
 
     #{$parent}__country {
       display: none;
@@ -23,7 +24,7 @@
 
   &__flag {
     margin-right: $mu050;
-    width: $mu150;
+    width: $mu100;
     height: $mu100;
   }
 

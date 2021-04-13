@@ -83,7 +83,7 @@
           type="text"
           class="mc-phone-number__input mc-text-input mc-text-input--m"
           id="smallField"
-          placeholder="00-00-00-00-00"
+          placeholder="00 00 00 00 00"
           name="example-small"
         />
       </div>
@@ -418,6 +418,7 @@
       if (evt.target.getAttribute("role") === "option") {
         this.focusItem(evt.target)
         this.toggleSelectItem(evt.target)
+        aria.Utils.addClass(this.listboxNode, "mc-phone-number__list--hidden")
       }
     }
 
