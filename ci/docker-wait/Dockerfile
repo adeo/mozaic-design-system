@@ -10,15 +10,15 @@ ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
 RUN apt-get -qqy update && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     curl \
     gcc \
-    python-dev \
+    python3 \
     python-setuptools \
     apt-transport-https \
     lsb-release \
     openssh-client \
     git \
     gnupg \
-    && easy_install -U pip==20.3.3 && \
-    pip install -U crcmod   && \
+    python3-pip && \
+    pip3 install -U crcmod && \
     export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
     echo "deb https://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" > /etc/apt/sources.list.d/google-cloud-sdk.list && \
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
