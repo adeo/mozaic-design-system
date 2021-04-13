@@ -23,6 +23,7 @@ A phone number input is composed of 2 main zones:
 <div class="mc-phone-number">
   <div class="mc-phone-number__dropdown">
     <button
+      type="button"
       aria-haspopup="listbox"
       aria-labelledby="dropdown_country"
       id="dropdown_country"
@@ -31,7 +32,7 @@ A phone number input is composed of 2 main zones:
       <svg class="mc-phone-number__flag">
         <use xlink:href="#flag" />
       </svg>
-      <span>+33</span>
+      <span class="mc-phone_number__indicator">+33</span>
     </button>
     <ul
     id="phone_number_list"
@@ -64,25 +65,34 @@ A phone number input is composed of 2 main zones:
 # Detail of areas
 ## Dropdown
 The dropdown contains: 
- - The dropdown trigger (`mc-phone_number_button`)
- - The list of the countries available (`mc-phone_number_list`)
+ - The dropdown trigger (`mc-phone-number__button`)
+ - The list of the countries available (`mc-phone-number__list`)
 
 Each element of list contains: 
- - The country flag ('mc-phone_number_flag)
- - The country name ('mc-phone_number_country)
- - The country indicator
+ - The country flag (`mc-phone-number__flag`)
+ - The country name (`mc-phone-number__country`)
+ - The country indicator (`mc-phone-number__country`)
 
 # Variation
 ## With label
 
+When using a phone number input with a label, you must make sure to import the fields.scss file in addition to the others:
+
+```scss
+@import 'settings-tools/_all-settings'; 
+@import 'components/_c.text-input'; 
+@import 'components/_c.fields'; 
+@import 'components/_c.phone-number';
+```
+
 <Preview path="label" />
 
-# Behaviour
+# Javascript behaviour
 The javascript to manage the dropdown is based on the listbox from [W3C](https://www.w3.org/TR/2019/NOTE-wai-aria-practices-1.1-20190814/examples/listbox/listbox-collapsible.html)
 
 To have a fully fonctionnal phone number input, make sure to add the following script to your code.
-
+<Highlight theme="tips">
 [listbox.js](https://www.w3.org/TR/2019/NOTE-wai-aria-practices-1.1-20190814/examples/listbox/js/listbox.js)
 [utils.js](https://www.w3.org/TR/wai-aria-practices-1.1/examples/js/utils.js)
-
+</Highlight>
 On the dropdown opening add the `mc-phone-number--focused` class and remove the `mc-phone-number__list--hidden` class.

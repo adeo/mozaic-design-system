@@ -1,13 +1,16 @@
 .mc-phone-number {
   $parent: get-parent-selector(&);
 
+  @include set-font-family();
+
   display: flex;
   max-width: magic-unit-rem(21);
+  position: relative;
 
   &__button {
     @include unstyle-button();
     @include set-select-size($select-default-size);
-    @include set-font-face('semi-bold');
+    @include set-font-weight('semi-bold');
 
     display: flex;
     align-items: center;
@@ -29,16 +32,14 @@
   }
 
   &__list {
+    @include unstyle-list();
     @include set-box-shadow('l');
 
+    margin: 0;
     position: absolute;
     width: 100%;
-    max-width: magic-unit-rem(21);
     max-height: magic-unit-rem(12);
-    padding: 0;
-    margin: 0;
     border-radius: $mu025 0 0 $mu025;
-    border-top: 0;
     overflow-y: auto;
     overflow-x: hidden;
     scrollbar-color: $color-grey-600 $color-grey-100;
@@ -63,6 +64,8 @@
   }
 
   &__item {
+    @include set-font-scale('05', 's');
+
     display: flex;
     align-items: center;
     min-height: $mu300;
@@ -75,7 +78,8 @@
   }
 
   &__input {
-    border-radius: 0 $mu025 $mu025 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
 
   &--focused {
