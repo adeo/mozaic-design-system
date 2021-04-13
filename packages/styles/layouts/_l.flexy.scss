@@ -23,6 +23,12 @@
     }
   }
 
+  &--justify-between {
+    @include modify-from-screens($major-screens) {
+      justify-content: space-between;
+    }
+  }
+
   &--items-stretch {
     align-items: stretch;
   }
@@ -84,6 +90,11 @@
 // Initial
 @include make-flexy-custom-col('initial', $major-screens) {
   flex: 0 1 auto;
+}
+
+@include make-flexy-custom-col("grow", $major-screens) {
+  flex: 1 1 auto;
+  max-width: none;
 }
 
 /* ORDERING */
