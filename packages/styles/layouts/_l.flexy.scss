@@ -93,7 +93,7 @@
 }
 
 @include make-flexy-custom-col("grow", $major-screens) {
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   max-width: none;
 }
 
