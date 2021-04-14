@@ -32,7 +32,7 @@ jobs:
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
-          args: ci:wait $(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)
+          args: ci:wait ${{ env.GITHUB_EVENT_REF_SLUG_URL }}
       - name: deployment
         uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
         id: deployment
@@ -47,7 +47,7 @@ jobs:
           PROJECT_ID: mozaic-design-system-dtrp
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
         with:
-          args: app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --no-promote
+          args: app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=${{ env.GITHUB_EVENT_REF_SLUG_URL }} --no-promote
       - name: Update deployment status
         uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
         with:
