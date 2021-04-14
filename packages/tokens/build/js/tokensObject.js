@@ -4681,6 +4681,27 @@ module.exports = {
           ]
         }
       },
+      "focus": {
+        "border": {
+          "value": "#25a8d0",
+          "original": {
+            "value": "{color.secondary-blue.500.value}"
+          },
+          "name": "ColorInputFocusBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "focus",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "focus",
+            "border"
+          ]
+        }
+      },
       "valid": {
         "border": {
           "value": "#78be20",

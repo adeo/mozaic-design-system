@@ -248,6 +248,7 @@ export const ColorInputDisabledBorder = "#eeeef0";
 export const ColorInputDisabledBackground = "#eeeef0";
 export const ColorInputDisabledIcon = "#a19ba2";
 export const ColorInputHoverBorder = "#222020";
+export const ColorInputFocusBorder = "#25a8d0";
 export const ColorInputValidBorder = "#78be20";
 export const ColorInputValidHoverBorder = "#0a601b";
 export const ColorInputInvalidBorder = "#b42a27";
