@@ -2,6 +2,7 @@
 .mc-text-input {
   @include reset-input;
   @include set-input-size($input-default-size);
+  @include set-focus-transition();
 
   display: block;
   width: 100%;
@@ -34,8 +35,8 @@
           $color-input-valid-border
         ));
 
-    &:hover:not(:focus),
-    &.is-hover:not(:focus) {
+    &:hover,
+    &.is-hover {
       border-color: $color-input-valid-hover-border;
     }
   }
@@ -49,8 +50,8 @@
           $color-input-invalid-border
         ));
 
-    &:hover:not(:focus),
-    &.is-hover:not(:focus) {
+    &:hover,
+    &.is-hover {
       border-color: $color-input-invalid-hover-border;
     }
   }
@@ -63,7 +64,7 @@
 
   &:focus {
     @include add-demo-state-class {
-      border-color: $color-input-focus-border;
+      @include set-shadow-focus();
     }
   }
 

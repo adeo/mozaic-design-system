@@ -110,6 +110,7 @@
 
   &__close {
     @include unstyle-button();
+    @include set-focus-floating-base();
 
     align-self: flex-start;
     background: transparent
@@ -122,6 +123,10 @@
 
     &-text {
       @include set-hidden-input();
+    }
+
+    &:focus {
+      @include set-focus-floating();
     }
   }
 

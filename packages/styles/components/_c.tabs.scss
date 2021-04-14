@@ -15,7 +15,7 @@
   &::before {
     bottom: 0;
     box-shadow: 0 $mu025 $mu025 rgba($color-tabs-shadow, 0.1);
-    content: '';
+    content: "";
     display: block;
     left: 0;
     position: absolute;
@@ -64,7 +64,11 @@
 
   &__link {
     @include set-font-face();
-    @include set-font-scale('05', 's');
+    @include set-font-scale("05", "s");
+    @include set-focus-floating-base {
+      bottom: -($mu025/2);
+      top: -($mu025/2);
+    }
 
     background: none;
     border: none;
@@ -87,7 +91,7 @@
     }
 
     &:focus {
-      @include set-focus-styles-during();
+      @include set-focus-floating();
     }
 
     &--selected {

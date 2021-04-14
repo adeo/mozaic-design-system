@@ -76,6 +76,8 @@
     position: relative;
 
     &__close {
+      @include set-focus-floating-base;
+
       background:
         transparent
         url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
@@ -89,6 +91,12 @@
       right: $mu100;
       top: $mu100;
       width: $mu100;
+
+      &:focus {
+        @include set-focus-floating {
+          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
+        }
+      }
     }
   }
 }

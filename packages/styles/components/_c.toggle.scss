@@ -35,19 +35,17 @@
 
     // the switch background
     &::before {
-      @include set-focus-styles-before();
-
       background-color: $color-toggle-off-background;
       will-change: background-color, border-color, box-shadow;
       transition: background-color 100ms ease, border-color 100ms ease,
-        box-shadow 150ms ease;
+        box-shadow 200ms ease;
 
       :checked + & {
         background-color: $color-toggle-on-background;
       }
 
       :focus + & {
-        @include set-focus-styles-during();
+        @include set-shadow-focus();
       }
 
       :disabled + & {
