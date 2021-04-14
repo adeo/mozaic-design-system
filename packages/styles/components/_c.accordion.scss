@@ -8,7 +8,13 @@
   @include set-accordion-size($accordion-default-size);
 
   &__label {
-    @include set-font-weight('semi-bold');
+    @include set-font-weight("semi-bold");
+    @include set-focus-floating-base {
+      top: -($mu025/2);
+      right: -($mu025/2);
+      bottom: -3px;
+      left: -($mu025/2);
+    }
 
     background-position: right $mu050 center;
     background-repeat: no-repeat;
@@ -20,10 +26,6 @@
 
     &:hover {
       background-color: $color-grey-100;
-    }
-
-    &:focus {
-      @include set-focus-styles-during();
     }
 
     &--no-padding {
@@ -42,7 +44,7 @@
   }
 
   &__content {
-    @include set-font-scale('05', 'm');
+    @include set-font-scale("05", "m");
 
     color: $color-font-dark;
     height: auto;
@@ -50,6 +52,7 @@
     overflow: hidden;
     padding-left: $mu050;
     transition: 0.3s ease;
+    visibility: hidden;
   }
 
   &__trigger {
@@ -81,7 +84,9 @@
 
     &:focus {
       ~ #{$parent}__label {
-        @include set-focus-styles-during();
+        @include set-focus-floating {
+          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
+        }
       }
     }
 
@@ -95,7 +100,7 @@
 
   @each $size, $props in $accordion-sizes {
     &--#{$size} {
-      @if ($size != 'm') {
+      @if ($size != "m") {
         #{$parent} {
           @include set-accordion-size($props);
         }

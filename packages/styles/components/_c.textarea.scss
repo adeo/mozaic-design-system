@@ -12,7 +12,7 @@
   color: $color-font-darker;
   border: $border-width solid $color-input-border;
   background: $color-input-background;
-  transition: background-color ease 200ms, border ease 200ms;
+  transition: all ease 200ms;
   // remove border height and center baseline optically
   padding:
     calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
@@ -34,7 +34,7 @@
 
   &:focus {
     @include add-demo-state-class {
-      border-color: $color-input-focus-border;
+      @include set-shadow-focus();
     }
   }
 

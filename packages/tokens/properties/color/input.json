@@ -29,11 +29,6 @@
           "value": "{color.grey.900.value}"
         }
       },
-      "focus": {
-        "border": {
-          "value": "{color.secondary-blue.500.value}"
-        }
-      },
       "valid": {
         "border": {
           "value": "{color.success.500.value}"

@@ -1,0 +1,12 @@
+{
+  "color": {
+    "focus": {
+      "gap": {
+        "value": "{color.grey.000.value}"
+      },
+      "border": {
+        "value": "{color.secondary-blue.500.value}"
+      }
+    }
+  }
+}
