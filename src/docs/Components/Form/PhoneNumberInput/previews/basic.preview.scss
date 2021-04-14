@@ -1,0 +1,14 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.text-input';
+@import 'components/_c.phone-number';
+
+.example {
+  @include set-font-face();
+
+  height: 12rem;
+  margin: $mu200 0;
+  padding: 0 $mu200;
+}
