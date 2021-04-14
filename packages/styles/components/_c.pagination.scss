@@ -15,6 +15,10 @@
     min-height: $mu300;
     min-width: $mu300;
 
+    &:focus {
+      @include set-shadow-focus();
+    }
+
     @include set-from-screen('xl') {
       min-height: $mu200;
       min-width: $mu200;

@@ -228,6 +228,8 @@
   <color name="color_flag_bordered_danger_background">#ffffffff</color>
   <color name="color_flag_bordered_danger_border">#ffdf382b</color>
   <color name="color_flag_bordered_danger_text">#ffdf382b</color>
+  <color name="color_focus_gap">#ffffffff</color>
+  <color name="color_focus_border">#ff25a8d0</color>
   <color name="color_font_primary_01">#ff78be20</color>
   <color name="color_font_primary_02">#ff007574</color>
   <color name="color_font_darkest">#ff000000</color>
@@ -247,7 +249,6 @@
   <color name="color_input_disabled_background">#ffeeeef0</color>
   <color name="color_input_disabled_icon">#ffa19ba2</color>
   <color name="color_input_hover_border">#ff222020</color>
-  <color name="color_input_focus_border">#ff25a8d0</color>
   <color name="color_input_valid_border">#ff78be20</color>
   <color name="color_input_valid_hover_border">#ff0a601b</color>
   <color name="color_input_invalid_border">#ffb42a27</color>

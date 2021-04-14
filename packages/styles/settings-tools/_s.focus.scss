@@ -1,16 +1,69 @@
-@mixin set-focus-styles-before() {
+$size-focus-gap: ($mu025 / 2);
+$size-focus-border: $mu025;
+$size-focus-border-thin: $size-focus-gap;
+$size-focus-radius: $size-focus-gap;
+$size-focus-radius-m: ($mu075 / 2);
+
+@mixin set-focus-transition() {
+  transition: box-shadow 200ms ease;
+}
+
+@mixin set-shadow-focus(
+  $color-focus-gap: $color-focus-gap,
+  $color-focus-border: $color-focus-border
+) {
+  box-shadow: 0 0 0 $size-focus-gap $color-focus-gap,
+    0 0 0 $size-focus-border $color-focus-border;
+
+  @content;
+}
+
+@mixin focus-floating-position() {
+  border-radius: get-border-radius("s");
   box-shadow: 0 0 0 0 transparent;
-  transition: box-shadow 150ms ease;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-@mixin set-focus-styles-during() {
-  box-shadow: 0 0 0 2px $color-secondary-blue-500;
+@mixin set-focus-floating-base($before: false, $position: true) {
+  @if $position {
+    position: relative;
+  }
+
+  @if $before {
+    &::before {
+      @include focus-floating-position();
+      @include set-focus-transition();
+
+      @content;
+    }
+  } @else {
+    &::after {
+      @include focus-floating-position();
+      @include set-focus-transition();
+
+      @content;
+    }
+  }
 }
 
-@mixin set-common-focus() {
-  @include set-focus-styles-before();
+@mixin set-focus-floating($before: false) {
+  @if $before {
+    &::before {
+      @include set-shadow-focus();
 
-  &:focus {
-    @include set-focus-styles-during();
+      @content;
+    }
+  } @else {
+    &::after {
+      @include set-shadow-focus();
+
+      @content;
+    }
   }
 }

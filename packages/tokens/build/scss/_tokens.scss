@@ -229,6 +229,8 @@ $color-flag-bordered-light-text: #ffffff !default;
 $color-flag-bordered-danger-background: #ffffff !default;
 $color-flag-bordered-danger-border: #df382b !default;
 $color-flag-bordered-danger-text: #df382b !default;
+$color-focus-gap: #ffffff !default;
+$color-focus-border: #25a8d0 !default;
 $color-font-primary-01: #78be20 !default;
 $color-font-primary-02: #007574 !default;
 $color-font-darkest: #000000 !default;
@@ -248,7 +250,6 @@ $color-input-disabled-border: #eeeef0 !default;
 $color-input-disabled-background: #eeeef0 !default;
 $color-input-disabled-icon: #a19ba2 !default;
 $color-input-hover-border: #222020 !default;
-$color-input-focus-border: #25a8d0 !default;
 $color-input-valid-border: #78be20 !default;
 $color-input-valid-hover-border: #0a601b !default;
 $color-input-invalid-border: #b42a27 !default;
@@ -823,6 +824,10 @@ $tokens: (
         'text': $color-flag-bordered-danger-text
       )
     ),
+    'focus': (
+      'gap': $color-focus-gap,
+      'border': $color-focus-border
+    ),
     'font': (
       'primary-01': $color-font-primary-01,
       'primary-02': $color-font-primary-02,
@@ -848,9 +853,6 @@ $tokens: (
       ),
       'hover': (
         'border': $color-input-hover-border
-      ),
-      'focus': (
-        'border': $color-input-focus-border
       ),
       'valid': (
         'border': $color-input-valid-border,
