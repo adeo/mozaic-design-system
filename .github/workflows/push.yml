@@ -55,4 +55,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          env_url: https://${{ env.GITHUB_HEAD_REF_SLUG_URL }}-dot-demo-dot-mozaic-design-system-dtrp.ey.r.appspot.com/
+          env_url: https://${{ env.GITHUB_EVENT_REF_SLUG_URL }}-dot-demo-dot-mozaic-design-system-dtrp.ey.r.appspot.com/
