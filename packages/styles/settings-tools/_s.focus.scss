@@ -4,6 +4,23 @@ $size-focus-border-thin: $size-focus-gap;
 $size-focus-radius: $size-focus-gap;
 $size-focus-radius-m: ($mu075 / 2);
 
+@mixin set-focus-styles-before() {
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 150ms ease;
+}
+
+@mixin set-focus-styles-during() {
+  box-shadow: 0 0 0 2px $color-secondary-blue-500;
+}
+
+@mixin set-common-focus() {
+  @include set-focus-styles-before();
+
+  &:focus {
+    @include set-focus-styles-during();
+  }
+}
+
 @mixin set-focus-transition() {
   transition: box-shadow 200ms ease;
 }

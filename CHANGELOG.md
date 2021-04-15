@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.1](https://github.com/adeo/mozaic-design-system/compare/v1.7.0...v1.7.1) (2021-04-14)
+
+
+### Bug Fixes
+
+* **tools/tokens:** fix missing tokens ([#795](https://github.com/adeo/mozaic-design-system/issues/795)) ([3674ef8](https://github.com/adeo/mozaic-design-system/commit/3674ef83691c3cbba3e8e716c4b2fd2ee1d8e36b))
+
+
+
+
+
 # [1.7.0](https://github.com/adeo/mozaic-design-system/compare/v1.6.2...v1.7.0) (2021-04-14)
 
 
