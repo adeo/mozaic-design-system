@@ -14,16 +14,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo ${{ github.ref }} | iconv -t ASCII
       - uses: actions/checkout@v2
       - name: Inject GitHub Slug variables
         uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Extract branch name
-        id: getbranch
-        shell: bash
-        run: echo "::set-output name=branch::$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
-      - run: echo "${{ steps.getbranch.outputs.branch }}"
+      - run: echo "Current branch - ${{ env.GITHUB_REF_SLUG }}"
       - name: Setup node
         uses: actions/setup-node@v2
         with:
@@ -39,18 +33,15 @@ jobs:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
           args: ci:wait ${{ env.GITHUB_REF_SLUG }}
-
       - name: Start deployment
         uses: bobheadxi/deployments@v0.5.2
         id: deployment
         with:
           step: start
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
           env: staging
           ref: ${{ github.head_ref }}
-          transient: true
-
-      - name: Deploy on GCP App Engine
+      - name: Deploy on App Engine
         id: appengine
         uses: google-github-actions/deploy-appengine@main
         with:
@@ -59,12 +50,11 @@ jobs:
           deliverables: app.demo.yaml
           version: ${{ env.GITHUB_REF_SLUG }}
           promote: false
-
       - name: Update deployment status
         uses: bobheadxi/deployments@v0.5.2
         with:
           step: finish
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
           env_url: ${{ steps.appengine.outputs.url }}
