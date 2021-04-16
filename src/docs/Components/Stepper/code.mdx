@@ -1,0 +1,125 @@
+---
+title: "Code"
+order: 2
+---
+
+## Import
+
+Import **the settings** and **the stepper** scss files.
+
+```scss
+@import "settings-tools/_all-settings";
+
+@include import-font-families();
+
+@import "components/_c.stepper";
+```
+
+## Usage
+
+The **Stepper** is an ordered list HTML element, which must be embedded in a nav HTML element.
+
+To implement the **Stepper** in your code, you must therefore use and respect the following HTML structure:
+
+```html
+<nav class="mc-stepper">
+  <ol class="mc-stepper__list">
+    <li class="mc-stepper__item mc-stepper__item--current">
+      <span class="mc-stepper__number">1</span>
+      <div class="mc-stepper__detail">
+        <span class="mc-stepper__title">Step 1 / 2</span>
+        <span class="mc-stepper__label">Shopping cart</span>
+      </div>
+    </li>
+    <li class="mc-stepper__item">
+      <span class="mc-stepper__number">&nbsp;</span>
+      <div class="mc-stepper__detail">
+        <span class="mc-stepper__title">Step 2 / 2</span>
+        <span class="mc-stepper__label">Shipping</span>
+      </div>
+    </li>
+  </ol>
+</nav>
+```
+
+<Preview path="default" />
+
+## States
+
+The stages within the **Stepper** can adopt **different visual states** to indicate to the users where they are in their journey.
+
+These states are as follows:
+
+- Pending validation _(default state - no modifier needeed)_
+- Current step
+- Validated step
+
+### Current step
+
+To indicate that a step is the current step, you must add the `mc-stepper__item--current` modifier to the concerned `.mc-stepper__item` element.
+
+```html
+<li class="mc-stepper__item mc-stepper__item--current">
+  <span class="mc-stepper__number">1</span>
+  <div class="mc-stepper__detail">
+    <span class="mc-stepper__title">Step 1 / 2</span>
+    <span class="mc-stepper__label">Shopping cart</span>
+  </div>
+</li>
+```
+
+<Highlight theme="info">
+
+In its initial state, before the start of the user journey, the first step is by default always in the active/current state.
+
+</Highlight>
+
+<Highlight theme="warning">
+
+A **Stepper** can have only one element that indicate the active/current state.
+
+Please ensure that this rule is respected when implementing a **Stepper** in your code.
+
+</Highlight>
+
+### Validated step
+
+All steps **before** the active step are considered to be validated steps.
+
+You can therefore apply to the `.mc-stepper__item` element of these validated steps, the modifier `mc-stepper__item--validate`.
+
+In addition to adding the `mc-stepper__item--validate` modifier, you must also replace the `mc-stepper__number` element with an icon indicating that the step has been validated.
+
+```html
+<li class="mc-stepper__item mc-stepper__item--validate">
+  <div class="mc-stepper__number">
+    <svg class="mc-stepper__icon">
+      <use xlink:href="#icon" />
+    </svg>
+  </div>
+  <div class="mc-stepper__detail">
+    <span class="mc-stepper__title">Step 2 / 4</span>
+    <span class="mc-stepper__label">Login</span>
+  </div>
+</li>
+```
+
+<Preview path="up-to-three" nude />
+
+## Mobile behaviour
+
+When the **Stepper** has **more than 3 steps**, it becomes difficult to display all the steps optimally on small screen resolutions.
+
+**For this reason, we recommend only displaying the active step on these resolutions.**
+
+To do this, you need to add the `mc-stepper--shrinked` modifier to the main `mc-stepper` element whenever your **Stepper** has more than 3 steps.
+
+Adding this modifier will keep only the active step visible on resolutions below the `M` breakpoint.
+
+```html
+<nav class="mc-stepper mc-stepper--shrinked">
+  <!-- following code here -->
+</nav>
+```
+
+<Preview path="three-and-more" nude />
