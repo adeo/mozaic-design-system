@@ -23,7 +23,7 @@
     border: $checkbox-border-width solid $color-input-border;
     background: $color-input-background;
     position: relative;
-    transition: background-color ease 200ms, border ease 200ms;
+    transition: all 200ms ease;
     cursor: pointer;
 
     &::-ms-check {
@@ -63,10 +63,10 @@
 
     &:focus {
       @include add-demo-state-class {
-        border-color: $color-input-focus-border;
+        @include set-shadow-focus();
 
         &::-ms-check {
-          border-color: $color-input-focus-border;
+          @include set-shadow-focus();
         }
       }
     }

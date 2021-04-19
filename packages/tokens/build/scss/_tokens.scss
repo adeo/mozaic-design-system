@@ -229,6 +229,8 @@ $color-flag-bordered-light-text: #ffffff !default;
 $color-flag-bordered-danger-background: #ffffff !default;
 $color-flag-bordered-danger-border: #df382b !default;
 $color-flag-bordered-danger-text: #df382b !default;
+$color-focus-gap: #ffffff !default;
+$color-focus-border: #25a8d0 !default;
 $color-font-primary-01: #78be20 !default;
 $color-font-primary-02: #007574 !default;
 $color-font-darkest: #000000 !default;
@@ -822,6 +824,10 @@ $tokens: (
         'border': $color-flag-bordered-danger-border,
         'text': $color-flag-bordered-danger-text
       )
+    ),
+    'focus': (
+      'gap': $color-focus-gap,
+      'border': $color-focus-border
     ),
     'font': (
       'primary-01': $color-font-primary-01,

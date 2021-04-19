@@ -18,6 +18,7 @@
 
   &__label {
     @include set-stars-size($stars-default-size);
+    @include set-focus-transition();
 
     background:
       url(inline-icons('star-full-32', $color-star-full)) repeat-x
@@ -59,7 +60,7 @@
   }
 
   :focus + &__label {
-    box-shadow: 0 0 0 $stars-focus-border $color-star-focus;
+    @include set-shadow-focus();
   }
 
   &__radio:hover ~ &__label {

@@ -228,6 +228,8 @@
   <color name="color_flag_bordered_danger_background">#ffffffff</color>
   <color name="color_flag_bordered_danger_border">#ffdf382b</color>
   <color name="color_flag_bordered_danger_text">#ffdf382b</color>
+  <color name="color_focus_gap">#ffffffff</color>
+  <color name="color_focus_border">#ff25a8d0</color>
   <color name="color_font_primary_01">#ff78be20</color>
   <color name="color_font_primary_02">#ff007574</color>
   <color name="color_font_darkest">#ff000000</color>

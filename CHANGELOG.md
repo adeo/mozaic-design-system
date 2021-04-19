@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.1](https://github.com/adeo/mozaic-design-system/compare/v1.7.0...v1.7.1) (2021-04-14)
+
+
+### Bug Fixes
+
+* **tools/tokens:** fix missing tokens ([#795](https://github.com/adeo/mozaic-design-system/issues/795)) ([3674ef8](https://github.com/adeo/mozaic-design-system/commit/3674ef83691c3cbba3e8e716c4b2fd2ee1d8e36b))
+
+
+
+
+
+# [1.7.0](https://github.com/adeo/mozaic-design-system/compare/v1.6.2...v1.7.0) (2021-04-14)
+
+
+### Bug Fixes
+
+* **patterns/layers:** update layer widths ([#789](https://github.com/adeo/mozaic-design-system/issues/789)) ([dae9ef1](https://github.com/adeo/mozaic-design-system/commit/dae9ef170a28a8453f0be29cc7dceebed3765b81))
+
+
+### Features
+
+* **layout/grid:** add --justify-between and --grow modifiers ([#793](https://github.com/adeo/mozaic-design-system/issues/793)) ([6072947](https://github.com/adeo/mozaic-design-system/commit/6072947f06388a6a89cd9ff5566d32b115e49083))
+* **patterns:** a11y - standardize focus states ([#788](https://github.com/adeo/mozaic-design-system/issues/788)) ([1e34b86](https://github.com/adeo/mozaic-design-system/commit/1e34b867fbe281b1a8a7804acac690e33718f0d3))
+* **patterns/phonenumber:** add phone number input ([#780](https://github.com/adeo/mozaic-design-system/issues/780)) ([3d74fa9](https://github.com/adeo/mozaic-design-system/commit/3d74fa90d3c38a2d0f10c4a646bc1e080611088a))
+
+
+
+
+
 ## [1.6.2](https://github.com/adeo/mozaic-design-system/compare/v1.6.1...v1.6.2) (2021-04-01)
 
 

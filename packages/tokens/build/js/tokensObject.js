@@ -4307,6 +4307,42 @@ module.exports = {
         }
       }
     },
+    "focus": {
+      "gap": {
+        "value": "#ffffff",
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorFocusGap",
+        "attributes": {
+          "category": "color",
+          "type": "focus",
+          "item": "gap"
+        },
+        "path": [
+          "color",
+          "focus",
+          "gap"
+        ]
+      },
+      "border": {
+        "value": "#25a8d0",
+        "original": {
+          "value": "{color.secondary-blue.500.value}"
+        },
+        "name": "ColorFocusBorder",
+        "attributes": {
+          "category": "color",
+          "type": "focus",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "focus",
+          "border"
+        ]
+      }
+    },
     "font": {
       "primary-01": {
         "value": "#78be20",
