@@ -4,12 +4,18 @@ instance_class: F1
 
 handlers:
   - url: /
+    secure: always
+    redirect_http_response_code: 301
     static_files: public/index.html
     upload: public/index.html
   - url: /(.*)/
+    secure: always
+    redirect_http_response_code: 301
     static_files: public/\1/index.html
     upload: public/(.*)/index.html
   - url: /(.*)
+    secure: always
+    redirect_http_response_code: 301
     static_files: public/\1
     upload: public/(.*)
 
