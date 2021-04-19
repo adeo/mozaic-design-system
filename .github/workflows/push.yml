@@ -14,14 +14,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Extract branch name 
+        id: getbranch 
+        shell: bash 
+        run: echo "::set-output name=branch::$(echo ${GITHUB_REF#refs/heads/} | sed -r 's/[^a-zA-Z0-9]+//g' | tr A-Z a-z)"
       - run: echo ${{ github.ref }} | iconv -t ASCII
-      - uses: actions/checkout@v1
-      - name: GitHub Slug
-        uses: rlespinasse/github-slug-action@v3.x
+      - uses: actions/checkout@v2
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: 12.20.1
+          node-version: 12
       - run: npm install yarn -g
       - run: yarn lerna
       - name: Build a production website
@@ -32,27 +34,27 @@ jobs:
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
-          args: ci:wait ${{ env.GITHUB_EVENT_REF_SLUG_URL }}
+          args: ci:wait ${{ steps.getbranch.outputs.branch }}
       - name: deployment
-        uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
+        uses: bobheadxi/deployments@v0.5.2
         id: deployment
         with:
           step: start
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
           env: staging
           ref: ${{ github.head_ref }}
           transient: true
-      - uses: actions-hub/gcloud@master
-        env:
-          PROJECT_ID: mozaic-design-system-dtrp
-          APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
+      - uses: google-github-actions/deploy-appengine@main
         with:
-          args: app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=${{ env.GITHUB_EVENT_REF_SLUG_URL }} --no-promote
+          project_id: mozaic-design-system-dtrp
+          credentials: ${{ secrets.GCLOUD_AUTH }}
+          version: ${{ steps.getbranch.outputs.branch }}
+          deliverables: app.demo.yaml
       - name: Update deployment status
-        uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
+        uses: bobheadxi/deployments@v0.5.2
         with:
           step: finish
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          env_url: https://${{ env.GITHUB_EVENT_REF_SLUG_URL }}-dot-demo-dot-mozaic-design-system-dtrp.ey.r.appspot.com/
+          env_url: ${{ steps.appengine.outputs.url }}

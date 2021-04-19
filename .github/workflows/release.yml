@@ -7,11 +7,15 @@ jobs:
     name: deploy a mozaic release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: 12
+      - name: Extract Tag 
+        id: gettag 
+        shell: bash 
+        run: echo "::set-output name=branch::$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)"
       - run: npm install yarn -g
       - run: yarn lerna
       - name: Build a production website
@@ -19,19 +23,29 @@ jobs:
         env:
           GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
       - name: deployment
-        uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
+        uses: bobheadxi/deployments@v0.5.2
         id: deployment
         with:
           step: start
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
           env: production
           no_override: false
           ref: ${{ github.head_ref }}
+
+      - uses: google-github-actions/deploy-appengine@main
+        with:
+          project_id: mozaic-design-system-dtrp
+          credentials: ${{ secrets.GCLOUD_AUTH }}
+          version: ${{ env.GITHUB_EVENT_REF_SLUG_URL }}
+          deliverables: app.demo.yaml
+
       - name: Deploy Tag
-        uses: actions-hub/gcloud@master
+        uses: agoogle-github-actions/deploy-appengine@main
         env:
-          PROJECT_ID: mozaic-design-system-dtrp
-          APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
+          project_id: mozaic-design-system-dtrp
+          credentials: ${{ secrets.GCLOUD_AUTH }}
+          version: ${{ steps.gettag.outputs.branch }}
+          deliverables: app.yaml
         with:
           args: app deploy app.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --promote
       - name: Update deployment status
