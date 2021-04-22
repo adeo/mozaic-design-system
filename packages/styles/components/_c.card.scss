@@ -1,5 +1,5 @@
 .mc-card {
-  $parent: &;
+  $parent: get-parent-selector(&);
 
   &,
   * {
