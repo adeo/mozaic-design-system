@@ -60,4 +60,4 @@ jobs:
           token: ${{ secrets.SVC_GH_API_TOKEN }}
           status: ${{ job.status }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          env_url: https://${{ steps.getbranch.outputs.branch }}-dot-demo-dot-mozaic-design-system-dtrp.ey.r.appspot.com/
+          env_url: ${{ steps.appengine.outputs.url }}
