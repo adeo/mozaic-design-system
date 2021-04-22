@@ -31,23 +31,14 @@ jobs:
           env: production
           no_override: false
           ref: ${{ github.head_ref }}
-
-      - uses: google-github-actions/deploy-appengine@main
-        with:
-          project_id: mozaic-design-system-dtrp
-          credentials: ${{ secrets.GCLOUD_AUTH }}
-          version: ${{ env.GITHUB_EVENT_REF_SLUG_URL }}
-          deliverables: app.demo.yaml
-
       - name: Deploy Tag
-        uses: agoogle-github-actions/deploy-appengine@main
-        env:
+        uses: google-github-actions/deploy-appengine@main
+        with:
           project_id: mozaic-design-system-dtrp
           credentials: ${{ secrets.GCLOUD_AUTH }}
           version: ${{ steps.gettag.outputs.branch }}
           deliverables: app.yaml
-        with:
-          args: app deploy app.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --promote
+          promote: true
       - name: Update deployment status
         uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
         with:
