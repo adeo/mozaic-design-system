@@ -28,8 +28,9 @@
     height: 100%;
     max-width: calc(100% - #{$mu200});
     padding-bottom: $mu100;
-    transform: translate(100%, 0);
-    transition: transform 0.4s ease-in-out;
+    pointer-events: all;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
     width: 100%;
 
     @include set-from-screen("m") {
@@ -46,8 +47,7 @@
     }
 
     &.is-open {
-      transform: translate(0, 0);
-      transition: transform 0.4s ease-in-out;
+      transform: translateX(0);
     }
 
     &--extend {
@@ -224,10 +224,6 @@
 
   &-open {
     overflow: hidden;
-
-    #{$parent} {
-      pointer-events: all;
-    }
   }
 
   &-overlay {
