@@ -7,29 +7,43 @@ jobs:
     name: deploy a mozaic release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: 12
+      - name: Extract Tag 
+        id: gettag 
+        shell: bash 
+        run: echo "::set-output name=branch::$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)"
       - run: npm install yarn -g
       - run: yarn lerna
       - name: Build a production website
         run: yarn build
         env:
           GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
+      - name: deployment
+        uses: bobheadxi/deployments@v0.5.2
+        id: deployment
+        with:
+          step: start
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
+          env: production
+          no_override: false
+          ref: ${{ github.head_ref }}
       - name: Deploy Tag
-        uses: actions-hub/gcloud@master
-        env:
-          PROJECT_ID: mozaic-design-system-dtrp
-          APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
+        uses: google-github-actions/deploy-appengine@main
         with:
-          args: app deploy app.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --promote
-      - name: Deployement tag url
-        uses: adeo/httpie.action@master
-        env:
-          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
+          project_id: mozaic-design-system-dtrp
+          credentials: ${{ secrets.GCLOUD_AUTH }}
+          version: ${{ steps.gettag.outputs.branch }}
+          deliverables: app.yaml
+          promote: true
+      - name: Update deployment status
+        uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
         with:
-          args:
-            POST https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment
-            "ref=${{ github.ref }} env=production gh_token=$GH_API_TOKEN"
+          step: finish
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: https://mozaic.adeo.cloud
