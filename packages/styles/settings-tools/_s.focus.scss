@@ -40,6 +40,7 @@ $size-focus-radius-m: ($mu075 / 2);
   box-shadow: 0 0 0 0 transparent;
   content: "";
   display: block;
+  pointer-events: none;
   position: absolute;
   top: 0;
   right: 0;
