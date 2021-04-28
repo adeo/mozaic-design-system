@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.2](https://github.com/adeo/mozaic-design-system/compare/v1.7.1...v1.7.2) (2021-04-27)
+
+
+### Bug Fixes
+
+* **patterns:** a11y - fix pseudo-element behaviour ([c2e04d3](https://github.com/adeo/mozaic-design-system/commit/c2e04d38451b756a248a5c6c7c82f2ffb40d6969))
+
+
+
+
+
 ## [1.7.1](https://github.com/adeo/mozaic-design-system/compare/v1.7.0...v1.7.1) (2021-04-14)
 
 
