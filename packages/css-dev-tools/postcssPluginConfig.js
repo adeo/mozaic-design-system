@@ -62,7 +62,9 @@ const plugins = [
   mqpackerondemand({
     sort: true,
   }),
-  autoprefixer(),
+  autoprefixer({
+    overrideBrowserslist: CM.getKey('browserslist') ? CM.getKey('browserslist') : ['> 0.3%', 'last 3 version', 'IE > 10']
+  }),
 ]
 
 const productionPlugins = [
@@ -79,7 +81,9 @@ const productionPlugins = [
   mqpackerondemand({
     sort: true,
   }),
-  autoprefixer(),
+  autoprefixer({
+    overrideBrowserslist: CM.getKey('browserslist') ? CM.getKey('browserslist') : ['> 0.3%', 'last 3 version', 'IE > 10']
+  }),
   cssnano(['default', { discardComments: { removeAll: true } }]),
 ]
 
