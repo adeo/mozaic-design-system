@@ -10,6 +10,7 @@
   left: 0;
   outline: 0;
   overflow: hidden;
+  pointer-events: none;
   position: fixed;
   right: 0;
   top: 0;
@@ -27,8 +28,9 @@
     height: 100%;
     max-width: calc(100% - #{$mu200});
     padding-bottom: $mu100;
-    transform: translate(100%, 0);
-    transition: transform 0.4s ease-in-out;
+    pointer-events: all;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
     width: 100%;
 
     @include set-from-screen("m") {
@@ -45,8 +47,7 @@
     }
 
     &.is-open {
-      transform: translate(0, 0);
-      transition: transform 0.4s ease-in-out;
+      transform: translateX(0);
     }
 
     &--extend {
@@ -113,7 +114,8 @@
     @include set-focus-floating-base();
 
     align-self: flex-start;
-    background: transparent
+    background:
+      transparent
       url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
     background-size: contain;
     cursor: pointer;
@@ -141,11 +143,12 @@
 
       &::after {
         content: "";
-        background-image: linear-gradient(
-          to top,
-          rgba($color-grey-999, 0.2),
-          rgba($color-grey-999, 0)
-        );
+        background-image:
+          linear-gradient(
+            to top,
+            rgba($color-grey-999, 0.2),
+            rgba($color-grey-999, 0)
+          );
         bottom: 0;
         position: absolute;
         height: 1.875rem;
