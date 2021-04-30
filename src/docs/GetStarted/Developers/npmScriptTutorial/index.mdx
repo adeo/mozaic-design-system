@@ -18,7 +18,7 @@ Now you should have:
 
 - a brand new project directory
 - node 12+ installed
-- a `package.json` file with Mozaic installed
+- a `package.json` file with Mozaic installed (at least `@mozaic-ds/css-dev-tools`, `@mozaic-ds/styles` and `@mozaic-ds/web-fonts`)
 
 ## I) Install and configure PostCSS
 
@@ -32,7 +32,7 @@ For this tutorial, we will use npm scripts and some npm package as a simple exam
 ### A) Install postcss-cli:
 
 ```shell
-npm install --save postcss-cli
+npm install --save-dev postcss-cli
 ```
 
 ### B) Configure PostCSS:
@@ -249,6 +249,7 @@ $local-config: (
 );
 
 @import 'settings-tools/_all-settings';
+
 @include import-font-families(); /* add this */
 
 body {
