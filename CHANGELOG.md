@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/adeo/mozaic-design-system/compare/v1.7.1...v1.8.0) (2021-04-28)
+
+
+### Bug Fixes
+
+* **patterns:** a11y - fix pseudo-element behaviour ([#806](https://github.com/adeo/mozaic-design-system/issues/806)) ([0b8fc1e](https://github.com/adeo/mozaic-design-system/commit/0b8fc1edbc3a193f020c79d06d246916506eb06b))
+* **patterns/card:** unify unboxed & outlined cards width on breakpoint M ([#801](https://github.com/adeo/mozaic-design-system/issues/801)) ([20113ce](https://github.com/adeo/mozaic-design-system/commit/20113ced3c4f4f83a653ec8ae086840338b80561))
+* **patterns/layer:** make the layer overlay clickable ([#803](https://github.com/adeo/mozaic-design-system/issues/803)) ([b2e4a46](https://github.com/adeo/mozaic-design-system/commit/b2e4a463cc1bc72633698ee56a55cb03f56776ec))
+
+
+### Features
+
+* **onboard/layer:** add documentation about the layer extended variation ([#796](https://github.com/adeo/mozaic-design-system/issues/796)) ([873c80c](https://github.com/adeo/mozaic-design-system/commit/873c80c9616b6be376a1a88aa6063198c1b60351))
+* **website:** redirect to https ([#798](https://github.com/adeo/mozaic-design-system/issues/798)) ([882c2c2](https://github.com/adeo/mozaic-design-system/commit/882c2c246714ffc46a73658a075fcd1fae32e301))
+
+
+
+
+
+## [1.7.2](https://github.com/adeo/mozaic-design-system/compare/v1.7.1...v1.7.2) (2021-04-27)
+
+
+### Bug Fixes
+
+* **patterns:** a11y - fix pseudo-element behaviour ([c2e04d3](https://github.com/adeo/mozaic-design-system/commit/c2e04d38451b756a248a5c6c7c82f2ffb40d6969))
+
+
+
+
+
 ## [1.7.1](https://github.com/adeo/mozaic-design-system/compare/v1.7.0...v1.7.1) (2021-04-14)
 
 

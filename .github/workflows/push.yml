@@ -14,12 +14,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Extract branch name 
+        id: getbranch 
+        shell: bash 
+        run: echo "::set-output name=branch::$(echo ${GITHUB_REF#refs/heads/} | sed -r 's/[^a-zA-Z0-9]+//g' | tr A-Z a-z)"
       - run: echo ${{ github.ref }} | iconv -t ASCII
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: 12.20.1
+          node-version: 12
       - run: npm install yarn -g
       - run: yarn lerna
       - name: Build a production website
@@ -30,17 +34,30 @@ jobs:
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
-          args: ci:wait $(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)
-      - uses: actions-hub/gcloud@master
-        env:
-          PROJECT_ID: mozaic-design-system-dtrp
-          APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_AUTH }}
+          args: ci:wait ${{ steps.getbranch.outputs.branch }}
+      - name: deployment
+        uses: bobheadxi/deployments@v0.5.2
+        id: deployment
         with:
-          args: app deploy app.demo.yaml --project=mozaic-design-system-dtrp --version=$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refsheads//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z) --no-promote
-      - uses: adeo/httpie.action@master
-        env:
-          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
+          step: start
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
+          env: staging
+          ref: ${{ github.head_ref }}
+          transient: true
+      - name: Deploy on App Engine 
+        id: appengine
+        uses: google-github-actions/deploy-appengine@main
         with:
-          args:
-            POST https://535e8ft89a.execute-api.eu-west-3.amazonaws.com/dev/deployment
-            "ref=${{ github.ref }} env=staging gh_token=$GH_API_TOKEN"
+          project_id: mozaic-design-system-dtrp
+          credentials: ${{ secrets.GCLOUD_AUTH }}
+          version: ${{ steps.getbranch.outputs.branch }}
+          deliverables: app.demo.yaml
+          promote: false
+      - name: Update deployment status
+        uses: bobheadxi/deployments@v0.5.2
+        with:
+          step: finish
+          token: ${{ secrets.SVC_GH_API_TOKEN }}
+          status: ${{ job.status }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: ${{ steps.appengine.outputs.url }}

@@ -1,10 +1,11 @@
 ---
-title: 'Layers'
+title: "Layers"
 order: 6
-description: 'In modern layouts, a layer is a way to give further actions or display to the user specific content without breaking the user flow, like login or cart overview.'
+description: "In modern layouts, a layer is a way to give further actions or display to the user specific content without breaking the user flow, like login or cart overview."
 status:
-  sketch: 'ready'
-  scss: 'ready'
+  sketch: "ready"
+  scss: "ready"
+  figma: "ready"
 ---
 
 > In modern layouts, a layer is a way to give further actions or display to the user specific content without breaking the user flow, like login or cart overview.
@@ -63,6 +64,20 @@ Layers must be used with an overlay to focus user's attention on the content.
 ## Behaviors
 
 Layers are always displayed from the side of the page and appear above the content of the page with a dark overlay.
+
+## Specific variation
+
+### Extended width
+
+In the case you have complex elements to display inside the layer and need some air, you can use an extended width for the layers from the breakpoint `M`.
+
+<Highlight theme="warning" title="Be aware">
+  Never use an extended layer like an alternative of a page. Keep in mind that a
+  layer is a way to give further actions or display to the user specific content
+  without breaking the user flow.
+</Highlight>
+
+<Preview path="extended" nude />
 
 ## Do's & Dont's
 
