@@ -7,5 +7,20 @@
 .example {
   @include set-font-family();
 
-  padding: $mu400;
+  padding: $mu200;
+  margin: 0 auto;
+
+  &__title {
+    @include set-font-scale("07", "m");
+    @include set-font-face("semi-bold");
+
+    background: $color-grey-100;
+    margin: $mu300 0 $mu100;
+    padding: $mu100;
+    text-align: center;
+
+    &:first-child {
+      margin: 0 0 $mu100;
+    }
+  }
 }
