@@ -49,9 +49,9 @@ module.exports = {
   "color": {
     "primary-01": {
       "100": {
-        "value": "#d9f0f3",
+        "value": "#eaf3e2",
         "original": {
-          "value": "#D9F0F3"
+          "value": "#EAF3E2"
         },
         "name": "ColorPrimary01100",
         "attributes": {
@@ -66,9 +66,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#91d5db",
+        "value": "#cbe3b5",
         "original": {
-          "value": "#91D5DB"
+          "value": "#CBE3B5"
         },
         "name": "ColorPrimary01200",
         "attributes": {
@@ -83,9 +83,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#48bac4",
+        "value": "#add585",
         "original": {
-          "value": "#48BAC4"
+          "value": "#ADD585"
         },
         "name": "ColorPrimary01300",
         "attributes": {
@@ -100,9 +100,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#009eac",
+        "value": "#91c854",
         "original": {
-          "value": "#009EAC"
+          "value": "#91C854"
         },
         "name": "ColorPrimary01400",
         "attributes": {
@@ -117,9 +117,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#00919f",
+        "value": "#78be20",
         "original": {
-          "value": "#00919F"
+          "value": "#78BE20"
         },
         "name": "ColorPrimary01500",
         "attributes": {
@@ -134,9 +134,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#007f8c",
+        "value": "#41a017",
         "original": {
-          "value": "#007F8C"
+          "value": "#41A017"
         },
         "name": "ColorPrimary01600",
         "attributes": {
@@ -151,9 +151,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006974",
+        "value": "#158110",
         "original": {
-          "value": "#006974"
+          "value": "#158110"
         },
         "name": "ColorPrimary01700",
         "attributes": {
@@ -168,9 +168,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#004e57",
+        "value": "#0a601b",
         "original": {
-          "value": "#004E57"
+          "value": "#0A601B"
         },
         "name": "ColorPrimary01800",
         "attributes": {
@@ -185,9 +185,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#002e33",
+        "value": "#053e1f",
         "original": {
-          "value": "#002E33"
+          "value": "#053E1F"
         },
         "name": "ColorPrimary01900",
         "attributes": {
@@ -359,9 +359,9 @@ module.exports = {
     },
     "grey": {
       "100": {
-        "value": "#eeedea",
+        "value": "#eeeef0",
         "original": {
-          "value": "#EEEDEA"
+          "value": "#EEEEF0"
         },
         "name": "ColorGrey100",
         "attributes": {
@@ -376,9 +376,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#dddcd5",
+        "value": "#d3d2d6",
         "original": {
-          "value": "#DDDCD5"
+          "value": "#D3D2D6"
         },
         "name": "ColorGrey200",
         "attributes": {
@@ -393,9 +393,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#c2c1ba",
+        "value": "#bab6bc",
         "original": {
-          "value": "#C2C1BA"
+          "value": "#BAB6BC"
         },
         "name": "ColorGrey300",
         "attributes": {
@@ -410,9 +410,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#a7a6a0",
+        "value": "#a19ba2",
         "original": {
-          "value": "#A7A6A0"
+          "value": "#A19BA2"
         },
         "name": "ColorGrey400",
         "attributes": {
@@ -427,9 +427,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#8c8b85",
+        "value": "#887f87",
         "original": {
-          "value": "#8C8B85"
+          "value": "#887F87"
         },
         "name": "ColorGrey500",
         "attributes": {
@@ -444,9 +444,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#71706b",
+        "value": "#6f676c",
         "original": {
-          "value": "#71706B"
+          "value": "#6F676C"
         },
         "name": "ColorGrey600",
         "attributes": {
@@ -461,9 +461,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#555550",
+        "value": "#554f52",
         "original": {
-          "value": "#555550"
+          "value": "#554F52"
         },
         "name": "ColorGrey700",
         "attributes": {
@@ -478,9 +478,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#3a3936",
+        "value": "#3c3738",
         "original": {
-          "value": "#3A3936"
+          "value": "#3C3738"
         },
         "name": "ColorGrey800",
         "attributes": {
@@ -495,9 +495,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#1e1e1c",
+        "value": "#222020",
         "original": {
-          "value": "#1E1E1C"
+          "value": "#222020"
         },
         "name": "ColorGrey900",
         "attributes": {
@@ -548,9 +548,9 @@ module.exports = {
     },
     "secondary-blue": {
       "100": {
-        "value": "#eaedef",
+        "value": "#ecfcfd",
         "original": {
-          "value": "#EAEDEF"
+          "value": "#ECFCFD"
         },
         "name": "ColorSecondaryBlue100",
         "attributes": {
@@ -565,9 +565,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#cdd4d8",
+        "value": "#b7eef5",
         "original": {
-          "value": "#CDD4D8"
+          "value": "#B7EEF5"
         },
         "name": "ColorSecondaryBlue200",
         "attributes": {
@@ -582,9 +582,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#b0bbc0",
+        "value": "#84dbeb",
         "original": {
-          "value": "#B0BBC0"
+          "value": "#84DBEB"
         },
         "name": "ColorSecondaryBlue300",
         "attributes": {
@@ -599,9 +599,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#92a2a9",
+        "value": "#54c4de",
         "original": {
-          "value": "#92A2A9"
+          "value": "#54C4DE"
         },
         "name": "ColorSecondaryBlue400",
         "attributes": {
@@ -616,9 +616,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#758992",
+        "value": "#25a8d0",
         "original": {
-          "value": "#758992"
+          "value": "#25A8D0"
         },
         "name": "ColorSecondaryBlue500",
         "attributes": {
@@ -633,9 +633,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#5b737d",
+        "value": "#2282a8",
         "original": {
-          "value": "#5B737D"
+          "value": "#2282A8"
         },
         "name": "ColorSecondaryBlue600",
         "attributes": {
@@ -650,9 +650,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#405d68",
+        "value": "#1e5f82",
         "original": {
-          "value": "#405D68"
+          "value": "#1E5F82"
         },
         "name": "ColorSecondaryBlue700",
         "attributes": {
@@ -667,9 +667,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#264653",
+        "value": "#18415d",
         "original": {
-          "value": "#264653"
+          "value": "#18415D"
         },
         "name": "ColorSecondaryBlue800",
         "attributes": {
@@ -684,9 +684,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#082435",
+        "value": "#102739",
         "original": {
-          "value": "#082435"
+          "value": "#102739"
         },
         "name": "ColorSecondaryBlue900",
         "attributes": {
@@ -703,7 +703,7 @@ module.exports = {
     },
     "secondary-green": {
       "100": {
-        "value": "#d9f0f3",
+        "value": "#eaf3e2",
         "original": {
           "value": "{color.primary-01.100.value}"
         },
@@ -720,7 +720,7 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#91d5db",
+        "value": "#cbe3b5",
         "original": {
           "value": "{color.primary-01.200.value}"
         },
@@ -737,7 +737,7 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#48bac4",
+        "value": "#add585",
         "original": {
           "value": "{color.primary-01.300.value}"
         },
@@ -754,7 +754,7 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#009eac",
+        "value": "#91c854",
         "original": {
           "value": "{color.primary-01.400.value}"
         },
@@ -771,7 +771,7 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#00919f",
+        "value": "#78be20",
         "original": {
           "value": "{color.primary-01.500.value}"
         },
@@ -788,7 +788,7 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#007f8c",
+        "value": "#41a017",
         "original": {
           "value": "{color.primary-01.600.value}"
         },
@@ -805,7 +805,7 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006974",
+        "value": "#158110",
         "original": {
           "value": "{color.primary-01.700.value}"
         },
@@ -822,7 +822,7 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#004e57",
+        "value": "#0a601b",
         "original": {
           "value": "{color.primary-01.800.value}"
         },
@@ -839,7 +839,7 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#002e33",
+        "value": "#053e1f",
         "original": {
           "value": "{color.primary-01.900.value}"
         },
@@ -858,9 +858,9 @@ module.exports = {
     },
     "secondary-purple": {
       "100": {
-        "value": "#e7e7f0",
+        "value": "#efebfe",
         "original": {
-          "value": "#E7E7F0"
+          "value": "#EFEBFE"
         },
         "name": "ColorSecondaryPurple100",
         "attributes": {
@@ -875,9 +875,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#c5c5dc",
+        "value": "#c7b0fa",
         "original": {
-          "value": "#C5C5DC"
+          "value": "#C7B0FA"
         },
         "name": "ColorSecondaryPurple200",
         "attributes": {
@@ -892,9 +892,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#a4a3c7",
+        "value": "#a575f3",
         "original": {
-          "value": "#A4A3C7"
+          "value": "#A575F3"
         },
         "name": "ColorSecondaryPurple300",
         "attributes": {
@@ -909,9 +909,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#8281b2",
+        "value": "#883be9",
         "original": {
-          "value": "#8281B2"
+          "value": "#883BE9"
         },
         "name": "ColorSecondaryPurple400",
         "attributes": {
@@ -926,9 +926,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#605f9d",
+        "value": "#7000dd",
         "original": {
-          "value": "#605F9D"
+          "value": "#7000DD"
         },
         "name": "ColorSecondaryPurple500",
         "attributes": {
@@ -943,9 +943,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#4b4a8c",
+        "value": "#5803b3",
         "original": {
-          "value": "#4B4A8C"
+          "value": "#5803B3"
         },
         "name": "ColorSecondaryPurple600",
         "attributes": {
@@ -960,9 +960,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#393879",
+        "value": "#42058a",
         "original": {
-          "value": "#393879"
+          "value": "#42058A"
         },
         "name": "ColorSecondaryPurple700",
         "attributes": {
@@ -977,9 +977,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#282863",
+        "value": "#2e0663",
         "original": {
-          "value": "#282863"
+          "value": "#2E0663"
         },
         "name": "ColorSecondaryPurple800",
         "attributes": {
@@ -994,9 +994,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#1a1a4b",
+        "value": "#1c053d",
         "original": {
-          "value": "#1A1A4B"
+          "value": "#1C053D"
         },
         "name": "ColorSecondaryPurple900",
         "attributes": {
@@ -1478,9 +1478,9 @@ module.exports = {
     },
     "danger": {
       "100": {
-        "value": "#fdeaea",
+        "value": "#feedee",
         "original": {
-          "value": "#FDEAEA"
+          "value": "{color.secondary-red.100.value}"
         },
         "name": "ColorDanger100",
         "attributes": {
@@ -1495,9 +1495,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#f8bcbb",
+        "value": "#fab9bc",
         "original": {
-          "value": "#F8BCBB"
+          "value": "{color.secondary-red.200.value}"
         },
         "name": "ColorDanger200",
         "attributes": {
@@ -1512,9 +1512,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#f38d8c",
+        "value": "#f38789",
         "original": {
-          "value": "#F38D8C"
+          "value": "{color.secondary-red.300.value}"
         },
         "name": "ColorDanger300",
         "attributes": {
@@ -1529,9 +1529,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ef5f5c",
+        "value": "#ea5d58",
         "original": {
-          "value": "#EF5F5C"
+          "value": "{color.secondary-red.400.value}"
         },
         "name": "ColorDanger400",
         "attributes": {
@@ -1546,9 +1546,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#ea302d",
+        "value": "#df382b",
         "original": {
-          "value": "#EA302D"
+          "value": "{color.secondary-red.500.value}"
         },
         "name": "ColorDanger500",
         "attributes": {
@@ -1563,9 +1563,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "original": {
-          "value": "#C61112"
+          "value": "{color.secondary-red.600.value}"
         },
         "name": "ColorDanger600",
         "attributes": {
@@ -1580,9 +1580,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#8c0003",
+        "value": "#8b2226",
         "original": {
-          "value": "#8C0003"
+          "value": "{color.secondary-red.700.value}"
         },
         "name": "ColorDanger700",
         "attributes": {
@@ -1597,9 +1597,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#530000",
+        "value": "#641b21",
         "original": {
-          "value": "#530000"
+          "value": "{color.secondary-red.800.value}"
         },
         "name": "ColorDanger800",
         "attributes": {
@@ -1614,9 +1614,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#2d0000",
+        "value": "#3e1219",
         "original": {
-          "value": "#2D0000"
+          "value": "{color.secondary-red.900.value}"
         },
         "name": "ColorDanger900",
         "attributes": {
@@ -1633,9 +1633,9 @@ module.exports = {
     },
     "info": {
       "100": {
-        "value": "#daeff7",
+        "value": "#ecfcfd",
         "original": {
-          "value": "#DAEFF7"
+          "value": "{color.secondary-blue.100.value}"
         },
         "name": "ColorInfo100",
         "attributes": {
@@ -1650,9 +1650,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#a7d9ed",
+        "value": "#b7eef5",
         "original": {
-          "value": "#A7D9ED"
+          "value": "{color.secondary-blue.200.value}"
         },
         "name": "ColorInfo200",
         "attributes": {
@@ -1667,9 +1667,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#73c3e2",
+        "value": "#84dbeb",
         "original": {
-          "value": "#73C3E2"
+          "value": "{color.secondary-blue.300.value}"
         },
         "name": "ColorInfo300",
         "attributes": {
@@ -1684,9 +1684,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#3facd7",
+        "value": "#54c4de",
         "original": {
-          "value": "#3FACD7"
+          "value": "{color.secondary-blue.400.value}"
         },
         "name": "ColorInfo400",
         "attributes": {
@@ -1701,9 +1701,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#0b96cc",
+        "value": "#25a8d0",
         "original": {
-          "value": "#0B96CC"
+          "value": "{color.secondary-blue.500.value}"
         },
         "name": "ColorInfo500",
         "attributes": {
@@ -1718,9 +1718,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#007bb4",
+        "value": "#2282a8",
         "original": {
-          "value": "#007BB4"
+          "value": "{color.secondary-blue.600.value}"
         },
         "name": "ColorInfo600",
         "attributes": {
@@ -1735,9 +1735,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#005c91",
+        "value": "#1e5f82",
         "original": {
-          "value": "#005C91"
+          "value": "{color.secondary-blue.700.value}"
         },
         "name": "ColorInfo700",
         "attributes": {
@@ -1752,9 +1752,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#003a5c",
+        "value": "#18415d",
         "original": {
-          "value": "#003A5C"
+          "value": "{color.secondary-blue.800.value}"
         },
         "name": "ColorInfo800",
         "attributes": {
@@ -1769,9 +1769,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#002a41",
+        "value": "#102739",
         "original": {
-          "value": "#002A41"
+          "value": "{color.secondary-blue.900.value}"
         },
         "name": "ColorInfo900",
         "attributes": {
@@ -1788,9 +1788,9 @@ module.exports = {
     },
     "warning": {
       "100": {
-        "value": "#fdf1e8",
+        "value": "#fff5eb",
         "original": {
-          "value": "#FDF1E8"
+          "value": "{color.secondary-orange.100.value}"
         },
         "name": "ColorWarning100",
         "attributes": {
@@ -1805,9 +1805,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#f8d2b3",
+        "value": "#ffdab2",
         "original": {
-          "value": "#F8D2B3"
+          "value": "{color.secondary-orange.200.value}"
         },
         "name": "ColorWarning200",
         "attributes": {
@@ -1822,9 +1822,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#f4b27e",
+        "value": "#ffc17d",
         "original": {
-          "value": "#F4B27E"
+          "value": "{color.secondary-orange.300.value}"
         },
         "name": "ColorWarning300",
         "attributes": {
@@ -1839,9 +1839,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ef934a",
+        "value": "#ffab4b",
         "original": {
-          "value": "#EF934A"
+          "value": "{color.secondary-orange.400.value}"
         },
         "name": "ColorWarning400",
         "attributes": {
@@ -1856,9 +1856,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#ea7315",
+        "value": "#fc961e",
         "original": {
-          "value": "#EA7315"
+          "value": "{color.secondary-orange.500.value}"
         },
         "name": "ColorWarning500",
         "attributes": {
@@ -1873,9 +1873,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c65200",
+        "value": "#c86f21",
         "original": {
-          "value": "#C65200"
+          "value": "{color.secondary-orange.600.value}"
         },
         "name": "ColorWarning600",
         "attributes": {
@@ -1890,9 +1890,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#8c3500",
+        "value": "#974f20",
         "original": {
-          "value": "#8C3500"
+          "value": "{color.secondary-orange.700.value}"
         },
         "name": "ColorWarning700",
         "attributes": {
@@ -1907,9 +1907,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#531b00",
+        "value": "#6a351c",
         "original": {
-          "value": "#531B00"
+          "value": "{color.secondary-orange.800.value}"
         },
         "name": "ColorWarning800",
         "attributes": {
@@ -1924,9 +1924,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#360e00",
+        "value": "#401f15",
         "original": {
-          "value": "#360E00"
+          "value": "{color.secondary-orange.900.value}"
         },
         "name": "ColorWarning900",
         "attributes": {
@@ -1943,9 +1943,9 @@ module.exports = {
     },
     "success": {
       "100": {
-        "value": "#ebf5de",
+        "value": "#eaf3e2",
         "original": {
-          "value": "#EBF5DE"
+          "value": "{color.secondary-green.100.value}"
         },
         "name": "ColorSuccess100",
         "attributes": {
@@ -1960,9 +1960,9 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#c5e39e",
+        "value": "#cbe3b5",
         "original": {
-          "value": "#C5E39E"
+          "value": "{color.secondary-green.200.value}"
         },
         "name": "ColorSuccess200",
         "attributes": {
@@ -1977,9 +1977,9 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#9ed05f",
+        "value": "#add585",
         "original": {
-          "value": "#9ED05F"
+          "value": "{color.secondary-green.300.value}"
         },
         "name": "ColorSuccess300",
         "attributes": {
@@ -1994,9 +1994,9 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#78be20",
+        "value": "#91c854",
         "original": {
-          "value": "#78BE20"
+          "value": "{color.secondary-green.400.value}"
         },
         "name": "ColorSuccess400",
         "attributes": {
@@ -2011,9 +2011,9 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#46a610",
+        "value": "#78be20",
         "original": {
-          "value": "#46A610"
+          "value": "{color.secondary-green.500.value}"
         },
         "name": "ColorSuccess500",
         "attributes": {
@@ -2028,9 +2028,9 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#188803",
+        "value": "#41a017",
         "original": {
-          "value": "#188803"
+          "value": "{color.secondary-green.600.value}"
         },
         "name": "ColorSuccess600",
         "attributes": {
@@ -2045,9 +2045,9 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006902",
+        "value": "#158110",
         "original": {
-          "value": "#006902"
+          "value": "{color.secondary-green.700.value}"
         },
         "name": "ColorSuccess700",
         "attributes": {
@@ -2062,9 +2062,9 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#035010",
+        "value": "#0a601b",
         "original": {
-          "value": "#035010"
+          "value": "{color.secondary-green.800.value}"
         },
         "name": "ColorSuccess800",
         "attributes": {
@@ -2079,9 +2079,9 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#023618",
+        "value": "#053e1f",
         "original": {
-          "value": "#023618"
+          "value": "{color.secondary-green.900.value}"
         },
         "name": "ColorSuccess900",
         "attributes": {
@@ -2099,7 +2099,7 @@ module.exports = {
     "button": {
       "solid": {
         "background": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -2138,7 +2138,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#006974",
+            "value": "#158110",
             "original": {
               "value": "{color.primary-01.700.value}"
             },
@@ -2161,7 +2161,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2182,7 +2182,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2205,7 +2205,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#006974",
+            "value": "#158110",
             "original": {
               "value": "{color.primary-01.700.value}"
             },
@@ -2228,7 +2228,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#007f8c",
+            "value": "#41a017",
             "original": {
               "value": "{color.primary-01.600.value}"
             },
@@ -2335,7 +2335,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2356,7 +2356,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2447,7 +2447,7 @@ module.exports = {
       },
       "solid-neutral": {
         "background": {
-          "value": "#8c8b85",
+          "value": "#887f87",
           "original": {
             "value": "{color.grey.500.value}"
           },
@@ -2486,7 +2486,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#1e1e1c",
+            "value": "#222020",
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -2509,7 +2509,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2530,7 +2530,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2553,7 +2553,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#3a3936",
+            "value": "#3c3738",
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -2576,7 +2576,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#555550",
+            "value": "#554f52",
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -2621,7 +2621,7 @@ module.exports = {
       },
       "solid-danger": {
         "background": {
-          "value": "#ea302d",
+          "value": "#df382b",
           "original": {
             "value": "{color.danger.500.value}"
           },
@@ -2660,7 +2660,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#8c0003",
+            "value": "#8b2226",
             "original": {
               "value": "{color.danger.700.value}"
             },
@@ -2683,7 +2683,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2704,7 +2704,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2727,7 +2727,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#8c0003",
+            "value": "#8b2226",
             "original": {
               "value": "{color.danger.700.value}"
             },
@@ -2750,7 +2750,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#c61112",
+            "value": "#b42a27",
             "original": {
               "value": "{color.danger.600.value}"
             },
@@ -2814,7 +2814,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -2833,7 +2833,7 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -2853,7 +2853,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#006974",
+            "value": "#158110",
             "original": {
               "value": "{color.primary-01.700.value}"
             },
@@ -2876,7 +2876,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2897,7 +2897,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2920,7 +2920,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#91d5db",
+            "value": "#cbe3b5",
             "original": {
               "value": "{color.primary-01.200.value}"
             },
@@ -2943,7 +2943,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#d9f0f3",
+            "value": "#eaf3e2",
             "original": {
               "value": "{color.primary-01.100.value}"
             },
@@ -3048,7 +3048,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3069,7 +3069,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3158,7 +3158,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#8c8b85",
+          "value": "#887f87",
           "original": {
             "value": "{color.grey.500.value}"
           },
@@ -3177,7 +3177,7 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#8c8b85",
+          "value": "#887f87",
           "original": {
             "value": "{color.grey.500.value}"
           },
@@ -3197,7 +3197,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#1e1e1c",
+            "value": "#222020",
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -3220,7 +3220,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3241,7 +3241,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3264,7 +3264,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3287,7 +3287,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#eeedea",
+            "value": "#eeeef0",
             "original": {
               "value": "{color.grey.100.value}"
             },
@@ -3392,7 +3392,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3413,7 +3413,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#6f676c",
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3501,7 +3501,7 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#c2c1ba",
+        "value": "#bab6bc",
         "original": {
           "value": "{color.grey.300.value}"
         },
@@ -3518,7 +3518,7 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "#71706b",
+        "value": "#6f676c",
         "original": {
           "value": "{color.grey.600.value}"
         },
@@ -3554,7 +3554,7 @@ module.exports = {
     },
     "fields": {
       "error": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "original": {
           "value": "{color.font.danger.value}"
         },
@@ -3571,7 +3571,7 @@ module.exports = {
         ]
       },
       "label": {
-        "value": "#3a3936",
+        "value": "#3c3738",
         "original": {
           "value": "{color.font.dark.value}"
         },
@@ -3588,7 +3588,7 @@ module.exports = {
         ]
       },
       "requirement": {
-        "value": "#71706b",
+        "value": "#6f676c",
         "original": {
           "value": "{color.font.light.value}"
         },
@@ -3605,7 +3605,7 @@ module.exports = {
         ]
       },
       "help": {
-        "value": "#71706b",
+        "value": "#6f676c",
         "original": {
           "value": "{color.font.light.value}"
         },
@@ -3642,7 +3642,7 @@ module.exports = {
       },
       "files": {
         "list": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -3661,7 +3661,7 @@ module.exports = {
           ]
         },
         "delete": {
-          "value": "#dddcd5",
+          "value": "#d3d2d6",
           "original": {
             "value": "{color.grey.200.value}"
           },
@@ -3681,7 +3681,7 @@ module.exports = {
         }
       },
       "valid": {
-        "value": "#46a610",
+        "value": "#78be20",
         "original": {
           "value": "{color.success.500.value}"
         },
@@ -3698,7 +3698,7 @@ module.exports = {
         ]
       },
       "alert": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "original": {
           "value": "{color.danger.600.value}"
         },
@@ -3718,7 +3718,7 @@ module.exports = {
     "flag": {
       "solid": {
         "background": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -3737,7 +3737,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4032,7 +4032,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4051,7 +4051,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4326,7 +4326,7 @@ module.exports = {
         ]
       },
       "border": {
-        "value": "#758992",
+        "value": "#25a8d0",
         "original": {
           "value": "{color.secondary-blue.500.value}"
         },
@@ -4345,7 +4345,7 @@ module.exports = {
     },
     "font": {
       "primary-01": {
-        "value": "#00919f",
+        "value": "#78be20",
         "original": {
           "value": "{color.primary-01.500.value}"
         },
@@ -4396,7 +4396,7 @@ module.exports = {
         ]
       },
       "darker": {
-        "value": "#1e1e1c",
+        "value": "#222020",
         "original": {
           "value": "{color.grey.900.value}"
         },
@@ -4413,7 +4413,7 @@ module.exports = {
         ]
       },
       "dark": {
-        "value": "#3a3936",
+        "value": "#3c3738",
         "original": {
           "value": "{color.grey.800.value}"
         },
@@ -4430,7 +4430,7 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#71706b",
+        "value": "#6f676c",
         "original": {
           "value": "{color.grey.600.value}"
         },
@@ -4464,7 +4464,7 @@ module.exports = {
         ]
       },
       "info": {
-        "value": "#007bb4",
+        "value": "#2282a8",
         "original": {
           "value": "{color.info.600.value}"
         },
@@ -4481,7 +4481,7 @@ module.exports = {
         ]
       },
       "success": {
-        "value": "#188803",
+        "value": "#41a017",
         "original": {
           "value": "{color.success.600.value}"
         },
@@ -4498,7 +4498,7 @@ module.exports = {
         ]
       },
       "warning": {
-        "value": "#c65200",
+        "value": "#c86f21",
         "original": {
           "value": "{color.warning.600.value}"
         },
@@ -4515,7 +4515,7 @@ module.exports = {
         ]
       },
       "danger": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "original": {
           "value": "{color.danger.600.value}"
         },
@@ -4534,7 +4534,7 @@ module.exports = {
     },
     "input": {
       "text": {
-        "value": "#1e1e1c",
+        "value": "#222020",
         "original": {
           "value": "{color.grey.900.value}"
         },
@@ -4551,7 +4551,7 @@ module.exports = {
         ]
       },
       "border": {
-        "value": "#71706b",
+        "value": "#6f676c",
         "original": {
           "value": "{color.grey.600.value}"
         },
@@ -4568,7 +4568,7 @@ module.exports = {
         ]
       },
       "placeholder": {
-        "value": "#8c8b85",
+        "value": "#887f87",
         "original": {
           "value": "{color.grey.500.value}"
         },
@@ -4603,7 +4603,7 @@ module.exports = {
       },
       "disabled": {
         "border": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -4622,7 +4622,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -4641,7 +4641,7 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#a7a6a0",
+          "value": "#a19ba2",
           "original": {
             "value": "{color.grey.400.value}"
           },
@@ -4662,7 +4662,7 @@ module.exports = {
       },
       "hover": {
         "border": {
-          "value": "#1e1e1c",
+          "value": "#222020",
           "original": {
             "value": "{color.grey.900.value}"
           },
@@ -4683,7 +4683,7 @@ module.exports = {
       },
       "focus": {
         "border": {
-          "value": "#758992",
+          "value": "#25a8d0",
           "original": {
             "value": "{color.secondary-blue.500.value}"
           },
@@ -4704,7 +4704,7 @@ module.exports = {
       },
       "valid": {
         "border": {
-          "value": "#46a610",
+          "value": "#78be20",
           "original": {
             "value": "{color.success.500.value}"
           },
@@ -4724,7 +4724,7 @@ module.exports = {
         },
         "hover": {
           "border": {
-            "value": "#035010",
+            "value": "#0a601b",
             "original": {
               "value": "{color.success.800.value}"
             },
@@ -4748,7 +4748,7 @@ module.exports = {
       },
       "invalid": {
         "border": {
-          "value": "#c61112",
+          "value": "#b42a27",
           "original": {
             "value": "{color.danger.600.value}"
           },
@@ -4768,7 +4768,7 @@ module.exports = {
         },
         "hover": {
           "border": {
-            "value": "#530000",
+            "value": "#641b21",
             "original": {
               "value": "{color.danger.800.value}"
             },
@@ -4792,7 +4792,7 @@ module.exports = {
       },
       "checked": {
         "border": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4811,7 +4811,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4850,7 +4850,7 @@ module.exports = {
         },
         "hover": {
           "border": {
-            "value": "#004e57",
+            "value": "#0a601b",
             "original": {
               "value": "{color.primary-01.800.value}"
             },
@@ -4895,7 +4895,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#3a3936",
+          "value": "#3c3738",
           "original": {
             "value": "{color.grey.800.value}"
           },
@@ -4914,7 +4914,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#3a3936",
+          "value": "#3c3738",
           "original": {
             "value": "{color.grey.800.value}"
           },
@@ -4933,7 +4933,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -4952,7 +4952,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#71706b",
+          "value": "#6f676c",
           "original": {
             "value": "{color.grey.600.value}"
           },
@@ -4992,7 +4992,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#dddcd5",
+          "value": "#d3d2d6",
           "original": {
             "value": "{color.grey.200.value}"
           },
@@ -5011,7 +5011,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#dddcd5",
+          "value": "#d3d2d6",
           "original": {
             "value": "{color.grey.200.value}"
           },
@@ -5030,7 +5030,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5049,7 +5049,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#a7a6a0",
+          "value": "#a19ba2",
           "original": {
             "value": "{color.grey.400.value}"
           },
@@ -5070,7 +5070,7 @@ module.exports = {
       },
       "primary": {
         "base": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5089,7 +5089,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#006974",
+          "value": "#158110",
           "original": {
             "value": "{color.primary-01.700.value}"
           },
@@ -5108,7 +5108,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#006974",
+          "value": "#158110",
           "original": {
             "value": "{color.primary-01.700.value}"
           },
@@ -5127,7 +5127,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5146,7 +5146,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#002e33",
+          "value": "#053e1f",
           "original": {
             "value": "{color.primary-01.900.value}"
           },
@@ -5224,7 +5224,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5321,7 +5321,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5380,7 +5380,7 @@ module.exports = {
       },
       "information": {
         "background": {
-          "value": "#eaedef",
+          "value": "#ecfcfd",
           "original": {
             "value": "{color.secondary-blue.100.value}"
           },
@@ -5399,7 +5399,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#758992",
+          "value": "#25a8d0",
           "original": {
             "value": "{color.secondary-blue.500.value}"
           },
@@ -5420,7 +5420,7 @@ module.exports = {
       },
       "success": {
         "background": {
-          "value": "#d9f0f3",
+          "value": "#eaf3e2",
           "original": {
             "value": "{color.primary-01.100.value}"
           },
@@ -5439,7 +5439,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5541,7 +5541,7 @@ module.exports = {
     },
     "progress": {
       "background": {
-        "value": "#dddcd5",
+        "value": "#d3d2d6",
         "original": {
           "value": "{color.grey.200.value}"
         },
@@ -5558,7 +5558,7 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#007bb4",
+        "value": "#2282a8",
         "original": {
           "value": "{color.info.600.value}"
         },
@@ -5576,7 +5576,7 @@ module.exports = {
       },
       "percentage": {
         "default": {
-          "value": "#1e1e1c",
+          "value": "#222020",
           "original": {
             "value": "{color.grey.900.value}"
           },
@@ -5616,7 +5616,7 @@ module.exports = {
       },
       "branded": {
         "indicator": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5638,7 +5638,7 @@ module.exports = {
     },
     "star": {
       "empty": {
-        "value": "#dddcd5",
+        "value": "#d3d2d6",
         "original": {
           "value": "{color.grey.200.value}"
         },
@@ -5655,7 +5655,7 @@ module.exports = {
         ]
       },
       "focus": {
-        "value": "#758992",
+        "value": "#25a8d0",
         "original": {
           "value": "{color.secondary-blue.500.value}"
         },
@@ -5742,7 +5742,7 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "#1e1e1c",
+        "value": "#222020",
         "original": {
           "value": "{color.font.darker.value}"
         },
@@ -5759,7 +5759,7 @@ module.exports = {
         ]
       },
       "hover": {
-        "value": "#188803",
+        "value": "#41a017",
         "original": {
           "value": "{color.font.success.value}"
         },
@@ -5776,7 +5776,7 @@ module.exports = {
         ]
       },
       "disabled": {
-        "value": "#71706b",
+        "value": "#6f676c",
         "original": {
           "value": "{color.font.light.value}"
         },
@@ -5793,7 +5793,7 @@ module.exports = {
         ]
       },
       "active": {
-        "value": "#00919f",
+        "value": "#78be20",
         "original": {
           "value": "{color.font.primary-01.value}"
         },
@@ -5810,7 +5810,7 @@ module.exports = {
         ]
       },
       "active-disabled": {
-        "value": "#91d5db",
+        "value": "#cbe3b5",
         "original": {
           "value": "{color.primary-01.200.value}"
         },
@@ -5852,7 +5852,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#555550",
+            "value": "#554f52",
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -5873,7 +5873,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#555550",
+            "value": "#554f52",
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -5984,7 +5984,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#555550",
+            "value": "#554f52",
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -6005,7 +6005,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#555550",
+            "value": "#554f52",
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -6027,7 +6027,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#eeedea",
+              "value": "#eeeef0",
               "original": {
                 "value": "{color.grey.100.value}"
               },
@@ -6051,7 +6051,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#dddcd5",
+              "value": "#d3d2d6",
               "original": {
                 "value": "{color.grey.200.value}"
               },
@@ -6140,7 +6140,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#3a3936",
+              "value": "#3c3738",
               "original": {
                 "value": "{color.grey.800.value}"
               },
@@ -6164,7 +6164,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#555550",
+              "value": "#554f52",
               "original": {
                 "value": "{color.grey.700.value}"
               },
@@ -6191,7 +6191,7 @@ module.exports = {
       "selectable": {
         "light": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -6212,7 +6212,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#1e1e1c",
+            "value": "#222020",
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -6234,7 +6234,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#48bac4",
+              "value": "#add585",
               "original": {
                 "value": "{color.primary-01.300.value}"
               },
@@ -6258,7 +6258,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#007f8c",
+              "value": "#41a017",
               "original": {
                 "value": "{color.primary-01.600.value}"
               },
@@ -6282,7 +6282,7 @@ module.exports = {
           },
           "disabled": {
             "background": {
-              "value": "#eeedea",
+              "value": "#eeeef0",
               "original": {
                 "value": "{color.grey.100.value}"
               },
@@ -6304,7 +6304,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#8c8b85",
+              "value": "#887f87",
               "original": {
                 "value": "{color.grey.500.value}"
               },
@@ -6328,7 +6328,7 @@ module.exports = {
           },
           "selected": {
             "background": {
-              "value": "#00919f",
+              "value": "#78be20",
               "original": {
                 "value": "{color.primary-01.500.value}"
               },
@@ -6353,7 +6353,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#3a3936",
+            "value": "#3c3738",
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -6396,7 +6396,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#00919f",
+              "value": "#78be20",
               "original": {
                 "value": "{color.primary-01.500.value}"
               },
@@ -6420,7 +6420,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#004e57",
+              "value": "#0a601b",
               "original": {
                 "value": "{color.primary-01.800.value}"
               },
@@ -6444,7 +6444,7 @@ module.exports = {
           },
           "selected": {
             "background": {
-              "value": "#006974",
+              "value": "#158110",
               "original": {
                 "value": "{color.primary-01.700.value}"
               },
@@ -6468,7 +6468,7 @@ module.exports = {
           },
           "disabled": {
             "background": {
-              "value": "#555550",
+              "value": "#554f52",
               "original": {
                 "value": "{color.grey.700.value}"
               },
@@ -6490,7 +6490,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#8c8b85",
+              "value": "#887f87",
               "original": {
                 "value": "{color.grey.500.value}"
               },
@@ -6517,7 +6517,7 @@ module.exports = {
       "removable": {
         "light": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -6538,7 +6538,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#1e1e1c",
+            "value": "#222020",
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -6559,7 +6559,7 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#3a3936",
+            "value": "#3c3738",
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -6581,7 +6581,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#c2c1ba",
+              "value": "#bab6bc",
               "original": {
                 "value": "{color.grey.300.value}"
               },
@@ -6605,7 +6605,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#a7a6a0",
+              "value": "#a19ba2",
               "original": {
                 "value": "{color.grey.400.value}"
               },
@@ -6630,7 +6630,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#3a3936",
+            "value": "#3c3738",
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -6672,7 +6672,7 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#dddcd5",
+            "value": "#d3d2d6",
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -6694,7 +6694,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#555550",
+              "value": "#554f52",
               "original": {
                 "value": "{color.grey.700.value}"
               },
@@ -6718,7 +6718,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#71706b",
+              "value": "#6f676c",
               "original": {
                 "value": "{color.grey.600.value}"
               },
@@ -6746,7 +6746,7 @@ module.exports = {
     "toggle": {
       "off": {
         "background": {
-          "value": "#8c8b85",
+          "value": "#887f87",
           "original": {
             "value": "{color.grey.500.value}"
           },
@@ -6786,7 +6786,7 @@ module.exports = {
       },
       "on": {
         "background": {
-          "value": "#00919f",
+          "value": "#78be20",
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -6826,7 +6826,7 @@ module.exports = {
       },
       "hover": {
         "circle": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -6847,7 +6847,7 @@ module.exports = {
       },
       "disabled": {
         "background": {
-          "value": "#eeedea",
+          "value": "#eeeef0",
           "original": {
             "value": "{color.input.disabled.background.value}"
           },
@@ -6866,7 +6866,7 @@ module.exports = {
           ]
         },
         "circle": {
-          "value": "#c2c1ba",
+          "value": "#bab6bc",
           "original": {
             "value": "{color.grey.300.value}"
           },
@@ -6887,7 +6887,7 @@ module.exports = {
       },
       "disabled-checked": {
         "background": {
-          "value": "#91d5db",
+          "value": "#cbe3b5",
           "original": {
             "value": "{color.primary-01.200.value}"
           },
@@ -6928,9 +6928,9 @@ module.exports = {
     }
   },
   "preset": {
-    "value": "adeo",
+    "value": "lm",
     "original": {
-      "value": "adeo"
+      "value": "lm"
     },
     "name": "Preset",
     "attributes": {
