@@ -1,16 +1,16 @@
 ---
-title: 'Code'
+title: "Code"
 order: 2
 ---
 
 ## Import
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.progressbar';
+@import "components/_c.progressbar";
 ```
 
 ## Usage
@@ -39,17 +39,17 @@ In its simplest form, the code of the **ProgressBar** component is structured as
 
 <Highlight theme="tips" title="The style attribute">
 
-  The `style` attribute on the `mc-progressbar__indicator` element allows you to manage the width of the progress indicator by updating the `width` property in real time as the load progresses.
+The `style` attribute on the `mc-progressbar__indicator` element allows you to manage the width of the progress indicator by updating the `width` property in real time as the load progresses.
 
 </Highlight>
 
 <Highlight theme="warning" title="Accessibility rules">
 
-  As you can see from the code above, many **aria attributes** are on the `mc-progressbar__indicator` element.
+As you can see from the code above, many **aria attributes** are on the `mc-progressbar__indicator` element.
 
-  Some of these attributes are mandatory and must always appear in your code in order to comply with accessibility rules.
+Some of these attributes are mandatory and must always appear in your code in order to comply with accessibility rules.
 
-  We recommend that you [read the page dedicated to the accessibility of this component](/Components/ProgressBar/accessibilty/) in order to learn more.
+We recommend that you [read the page dedicated to the accessibility of this component](/Components/ProgressBar/accessibilty/) in order to learn more.
 
 </Highlight>
 
@@ -68,6 +68,7 @@ The **ProgressBar** component is supplied with two color variations:
 
 You can create your **ProgressBar** component using one of the two following size formats:
 
+- **extra small**: by adding the `mc-progressbar--xs` modifier to the `mc-progressbar` element.
 - **small**: by adding the `mc-progressbar--s` modifier to the `mc-progressbar` element.
 - **medium**: this is the default format, therefore it does not need to add a modifier.
 
