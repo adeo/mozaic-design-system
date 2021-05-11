@@ -1,24 +1,25 @@
 ---
-title: 'Code'
+title: "Code"
 order: 2
 ---
 
 ## Import
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.progressbar';
+@import "components/_c.progressbar";
 ```
 
 ## Usage
 
-In its simplest form, the code of the **ProgressBar** component is structured as follows:
+The code of the **ProgressBar** component is structured as follows:
 
 - A global div with the class: `mc-progressbar`.
 - An inner div with the class: `mc-progressbar__indicator`.
+- A div element indicating in a textual way the value of the current percentage with the class: `mc-progressbar__percentage`.
 
 ```html
 <div class="mc-progressbar">
@@ -32,24 +33,34 @@ In its simplest form, the code of the **ProgressBar** component is structured as
   >
     &nbsp;
   </div>
+  <div class="mc-progressbar__percentage">25%</div>
 </div>
 ```
 
 <Preview path="default" nude />
 
+<Highlight theme="info" title="Good to know">
+The <code class="dtEPZw">mc-progressbar__indicator</code> div must always be present in your code to ensure a good level of accessibility to the component.
+
+Note however that by default this element will be visually hidden.
+
+However, you have the possibility to make this element visible if needed ([read more about this above](/Components/ProgressBar/code/#percentage-progress)).
+
+</Highlight>
+
 <Highlight theme="tips" title="The style attribute">
 
-  The `style` attribute on the `mc-progressbar__indicator` element allows you to manage the width of the progress indicator by updating the `width` property in real time as the load progresses.
+The `style` attribute on the `mc-progressbar__indicator` element allows you to manage the width of the progress indicator by updating the `width` property in real time as the load progresses.
 
 </Highlight>
 
 <Highlight theme="warning" title="Accessibility rules">
 
-  As you can see from the code above, many **aria attributes** are on the `mc-progressbar__indicator` element.
+As you can see from the code above, many **aria attributes** are on the `mc-progressbar__indicator` element.
 
-  Some of these attributes are mandatory and must always appear in your code in order to comply with accessibility rules.
+Some of these attributes are mandatory and must always appear in your code in order to comply with accessibility rules.
 
-  We recommend that you [read the page dedicated to the accessibility of this component](/Components/ProgressBar/accessibilty/) in order to learn more.
+We recommend that you [read the page dedicated to the accessibility of this component](/Components/ProgressBar/accessibilty/) in order to learn more.
 
 </Highlight>
 
@@ -75,11 +86,9 @@ You can create your **ProgressBar** component using one of the two following siz
 
 ### Percentage progress
 
-In some cases, it may be necessary to explicitly tell the user the percentage change in the progress bar.
+In some cases, it may be necessary to explicitly show to the user the percentage change in the progress bar.
 
 To do this, you can add the `mc-progressbar--percent` modifier to the `mc-progressbar` element.
-
-You also need to add a new HTML div element with the `mc-progressbar__percentage` class inside the component.
 
 <Preview path="percentage" />
 
