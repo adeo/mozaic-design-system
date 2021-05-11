@@ -44,6 +44,9 @@ const indentWidth = userIndent ? userIndent : 2
 
 const styleLintConfig = require('./styleLintConfig')
 
+// load browserlist config 
+const borwserslistConfig = CM.getKey('browserslist') ? CM.getKey('browserslist') : ['> 0.3%', 'last 3 version', 'IE > 10']
+
 console.info(`Running ${mozaicEnvScssVar} plugins`)
 
 const plugins = [
@@ -62,7 +65,9 @@ const plugins = [
   mqpackerondemand({
     sort: true,
   }),
-  autoprefixer(),
+  autoprefixer({
+    overrideBrowserslist: borwserslistConfig
+  }),
 ]
 
 const productionPlugins = [
@@ -79,7 +84,9 @@ const productionPlugins = [
   mqpackerondemand({
     sort: true,
   }),
-  autoprefixer(),
+  autoprefixer({
+    overrideBrowserslist: borwserslistConfig
+  }),
   cssnano(['default', { discardComments: { removeAll: true } }]),
 ]
 
