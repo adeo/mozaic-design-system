@@ -1,17 +1,20 @@
 <div class="example">
   <div class="example__title">2 steps</div>
 
-  <nav class="mc-stepper">
+  <nav class="mc-stepper" aria-labelledby="Stepper description">
     <ol class="mc-stepper__list">
-      <li class="mc-stepper__item mc-stepper__item--current">
-        <span class="mc-stepper__number">1</span>
+      <li
+        class="mc-stepper__item mc-stepper__item--current"
+        aria-current="step"
+      >
+        <span class="mc-stepper__indicator" aria-hidden="true">1</span>
         <div class="mc-stepper__detail">
           <span class="mc-stepper__title">Step 1 / 2</span>
           <span class="mc-stepper__label">Shopping cart</span>
         </div>
       </li>
       <li class="mc-stepper__item">
-        <span class="mc-stepper__number">&nbsp;</span>
+        <span class="mc-stepper__indicator" aria-hidden="true">&nbsp;</span>
         <div class="mc-stepper__detail">
           <span class="mc-stepper__title">Step 2 / 2</span>
           <span class="mc-stepper__label">Shipping</span>
@@ -22,10 +25,10 @@
 
   <div class="example__title">3 steps</div>
 
-  <nav class="mc-stepper">
+  <nav class="mc-stepper" aria-labelledby="Stepper description">
     <ol class="mc-stepper__list">
-      <li class="mc-stepper__item mc-stepper__item--validate">
-        <div class="mc-stepper__number">
+      <li class="mc-stepper__item mc-stepper__item--validated">
+        <div class="mc-stepper__indicator" aria-hidden="true">
           <svg class="mc-stepper__icon">
             <use xlink:href="#icon" />
           </svg>
@@ -35,15 +38,18 @@
           <span class="mc-stepper__label">Site location</span>
         </div>
       </li>
-      <li class="mc-stepper__item mc-stepper__item--current">
-        <span class="mc-stepper__number">2</span>
+      <li
+        class="mc-stepper__item mc-stepper__item--current"
+        aria-current="step"
+      >
+        <span class="mc-stepper__indicator" aria-hidden="true">2</span>
         <div class="mc-stepper__detail">
           <span class="mc-stepper__title">Step 2 / 3</span>
           <span class="mc-stepper__label">Details of the project</span>
         </div>
       </li>
       <li class="mc-stepper__item">
-        <span class="mc-stepper__number">&nbsp;</span>
+        <span class="mc-stepper__indicator" aria-hidden="true">&nbsp;</span>
         <div class="mc-stepper__detail">
           <span class="mc-stepper__title">Step 3 / 3</span>
           <span class="mc-stepper__label">Delivery & Installation</span>

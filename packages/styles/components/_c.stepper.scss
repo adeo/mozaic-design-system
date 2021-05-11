@@ -4,8 +4,6 @@
   width: 100%;
 
   &__list {
-    // align-items: flex-start;
-    // justify-content: center;
     display: flex;
     padding-left: 0;
     margin: {
@@ -56,10 +54,14 @@
     }
 
     &--current,
-    &--validate {
+    &--validated {
       #{$parent} {
-        &__number {
+        &__indicator {
           border-color: $color-primary-01-400;
+        }
+
+        &__detail {
+          @include set-font-weight("semi-bold");
         }
       }
     }
@@ -70,7 +72,7 @@
       }
 
       #{$parent} {
-        &__number {
+        &__indicator {
           background-color: $color-primary-01-400;
           color: $color-grey-000;
         }
@@ -81,14 +83,14 @@
       }
     }
 
-    &--validate {
+    &--validated {
       &::before,
       &:not(#{$parent}__item--current)::after {
         background-color: $color-primary-01-400;
       }
 
       #{$parent} {
-        &__number {
+        &__indicator {
           border: none;
         }
       }
@@ -108,7 +110,7 @@
     }
   }
 
-  &__number {
+  &__indicator {
     @include set-font-scale("04", "s");
     @include set-font-weight("semi-bold");
 
@@ -133,7 +135,6 @@
 
   &__detail {
     @include set-font-scale("04", "m");
-    @include set-font-weight("semi-bold");
 
     color: $color-font-light;
     text-align: center;
@@ -141,15 +142,14 @@
   }
 
   &__title {
-    // margin-bottom: $mu025;
     display: none;
     color: $color-primary-01-400;
   }
 
   &--shrinked {
-    #{$parent} {
-      &__item {
-        @media screen and (max-width: ($screen-m - 1)) {
+    @media screen and (max-width: ($screen-m - 1)) {
+      #{$parent} {
+        &__item {
           align-items: flex-start;
           flex-direction: row;
           padding-bottom: $mu175;
@@ -168,33 +168,23 @@
 
           &::before {
             z-index: 2;
+            width: calc(var(--current) * 100% / var(--steps));
           }
 
           &:not(#{$parent}__item--current) {
             display: none;
           }
         }
-      }
 
-      &__number {
-        @media screen and (max-width: ($screen-m - 1)) {
-          height: $mu250;
-          width: $mu250;
-          margin: {
-            bottom: 0;
-            right: $mu100;
-          }
+        &__indicator {
+          display: none;
         }
-      }
 
-      &__detail {
-        @media screen and (max-width: ($screen-m - 1)) {
+        &__detail {
           text-align: left;
         }
-      }
 
-      &__title {
-        @media screen and (max-width: ($screen-m - 1)) {
+        &__title {
           display: block;
           margin-bottom: $mu025;
         }
