@@ -1,14 +1,18 @@
 $progressbar-sizes: (
-  's': (
-    'height': $mu025,
-    'border-radius': get-border-radius('m'),
+  "xs": (
+    "height": $mu025 / 2,
+    "border-radius": 1px,
   ),
-  'm': (
-    'height': $mu050,
-    'border-radius': get-border-radius('l'),
+  "s": (
+    "height": $mu025,
+    "border-radius": get-border-radius("s"),
   ),
-  'percent': (
-    'height': $mu150,
-    'border-radius': unquote('12px'),
+  "m": (
+    "height": $mu050,
+    "border-radius": get-border-radius("m"),
+  ),
+  "percent": (
+    "height": $mu150,
+    "border-radius": unquote("12px"),
   ),
 );
