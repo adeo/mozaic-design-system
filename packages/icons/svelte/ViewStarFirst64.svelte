@@ -1,7 +1,9 @@
 <script>
   export let id = undefined;
   export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg width={size} height={size} fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M58.6 25.39a2 2 0 00-1.6-1.34l-16-2.5L33.82 6a2 2 0 00-3.64 0L23 21.55l-16 2.5a2 2 0 00-1.6 1.34 2 2 0 00.45 2l11.69 12.23-2.76 17.23a2 2 0 002 2.32 2.06 2.06 0 001-.26l14.26-8 14.26 8a2 2 0 003-2.06l-2.84-17.23 11.69-12.21a2 2 0 00.45-2.02zM43.27 38.63l2.66 16.65L32 47.43l-13.93 7.85 2.66-16.65L9.34 26.72l15.74-2.45L32 9.22l6.92 15.05 15.74 2.45z"/></svg>
+<svg width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M58.6 25.39a2 2 0 00-1.6-1.34l-16-2.5L33.82 6a2 2 0 00-3.64 0L23 21.55l-16 2.5a2 2 0 00-1.6 1.34 2 2 0 00.45 2l11.69 12.23-2.76 17.23a2 2 0 002 2.32 2.06 2.06 0 001-.26l14.26-8 14.26 8a2 2 0 003-2.06l-2.84-17.23 11.69-12.21a2 2 0 00.45-2.02zM43.27 38.63l2.66 16.65L32 47.43l-13.93 7.85 2.66-16.65L9.34 26.72l15.74-2.45L32 9.22l6.92 15.05 15.74 2.45z"/></svg>
