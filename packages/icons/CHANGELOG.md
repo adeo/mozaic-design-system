@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
+
+
+### Features
+
+* **foundations/icons:** add mozaic svelte icon components ([#824](https://github.com/adeo/mozaic-design-system/issues/824)) ([39aaa12](https://github.com/adeo/mozaic-design-system/commit/39aaa1206116a1abfbf328c89141f09192f3190c))
+
+
+
+
+
 ## [1.0.1](https://github.com/adeo/mozaic-design-system/compare/v1.0.1-beta.22...v1.0.1) (2020-12-09)
 
 **Note:** Version bump only for package @mozaic-ds/icons
