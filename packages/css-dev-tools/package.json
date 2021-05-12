@@ -10,7 +10,7 @@
     "autoprefixer": "^9.4.3",
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
-    "postcss": "^7.0.7",
+    "postcss": "^8.2.10",
     "postcss-base64": "^0.7.1",
     "postcss-reporter": "^6.0.0",
     "postcss-scss": "^2.0.0",
