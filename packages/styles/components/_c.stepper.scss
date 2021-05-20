@@ -88,12 +88,6 @@
       &:not(#{$parent}__item--current)::after {
         background-color: $color-primary-01-400;
       }
-
-      #{$parent} {
-        &__indicator {
-          border: none;
-        }
-      }
     }
   }
 
@@ -131,6 +125,7 @@
 
   &__icon {
     fill: $color-primary-01-400;
+    max-width: 100%;
   }
 
   &__detail {
