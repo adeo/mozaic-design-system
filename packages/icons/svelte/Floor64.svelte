@@ -1,0 +1,9 @@
+<script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "4rem";
+</script>
+
+<svg width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M46 34H30V18a2 2 0 00-2-2H11a2 2 0 00-2 2v35a2 2 0 002 2h35a2 2 0 002-2V36a2 2 0 00-2-2zM12 19h15v15H12zm15 33H12V37h15zm18 0H30V37h15z"/><path d="M53 9H36a2 2 0 00-2 2v17a2 2 0 002 2h17a2 2 0 002-2V11a2 2 0 00-2-2zm-1 18H37V12h15z"/></svg>

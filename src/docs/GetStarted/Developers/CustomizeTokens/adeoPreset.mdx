@@ -1,5 +1,5 @@
 ---
-title: 'Adeo preset'
+title: "Adeo preset"
 order: 2
 ---
 
@@ -7,17 +7,19 @@ order: 2
 
 However, we also offer you the possibility to extend Mozaic to meet specific customization needs.
 
-We have set Mozaic to be customisable to meet the needs of LEROY MERLIN's main brand: ADEO.
+We have set Mozaic to be customisable to meet the needs of **LEROY MERLIN**'s main brand: **ADEO**.
 
-Indeed, Mozaic natively embeds a **preset**, allowing to automatically override all the native LEROY MERLIN colors with those specific to ADEO.
+Indeed, **Mozaic** natively embeds a **preset**, allowing to automatically override the native **LEROY MERLIN** colors with those specific to **ADEO**.
 
 Here's how to use this feature:
 
-## mozaic.config.js
+## Use the mozaic.config.js file
 
-The file `mozaic.config.js` allows you to extend the configuration of Mozaic _(you can learn more about this file by [reading the dedicated page](/GetStarted/Developers/Configuration/))_.
+The file `mozaic.config.js` allows you to extend the configuration of **Mozaic**.
 
-You must create a file `mozaic.config.js` at the root of your project to use the **Adeo preset** _(if it does not already exist)_ and follow these steps:
+> You can learn more about this file by [reading the dedicated page](/GetStarted/Developers/Configuration/).
+
+To use the **Adeo preset**, you must create a file `mozaic.config.js` at the root of your project _(if it does not already exist)_ and follow these steps:
 
 ### 1 - Set the preset property
 
@@ -25,39 +27,55 @@ In the `mozaic.config.js` file you must add a `preset` property and give it `ade
 
 ```js
 module.exports = {
-  preset: 'adeo',
+  preset: "adeo",
 }
 ```
 
-### 2 - Define your local Token Export Path
+### 2 - Define a local token export path
 
-Using the ADEO preset, Mozaic will generate a series of tokens for you to use in your project.
+Using the **Adeo preset**, Mozaic will generate a series of tokens for you to use in your project.
 
-You must define your local token export path to make it easier for you to see and use these tokens. In order to do that, you must add the following code to the `mozaic.config.js` file in addition to the elements that are already included:
+In order to make it easier for you to see and use these tokens, it is preferable that these tokens be generated directly inside a folder in your project.
+
+Therefore, to achieve this, you must indicate to Mozaic a local export path for the tokens.
+
+To do that, you must add the following code to the `mozaic.config.js` file in addition to the elements that are already included:
 
 ```js
 module.exports = {
-  preset: 'adeo',
+  preset: "adeo",
   tokens: {
-    localTokensExportPath: './dest/build/', // path to compiled files
+    localTokensExportPath: "./dest/build/", // path to compiled tokens files
   },
 }
 ```
 
-In that way the SCSS will load the customized ones instead of the ones living in the npm package.
+<Highlight theme="info" title="Good to know">
+
+By setting the `localTokensExportPath` property in the `mozaic.config.js` file, you tell Mozaic not only where to generate new tokens, but also that it should use these new tokens when compiling the SCSS files.
+
+</Highlight>
+
+<Highlight theme="warning" title="Be aware">
+
+The definition of the local token export path, using the `localTokensExportPath` property, is an important step in the use of the Adeo preset, and more generally in the customization of tokens.
+
+Indeed, if you forget to set this property, new tokens will be generated directly inside the `@mozaic-ds/tokens` package and this can cause many side effects in your project.
+
+</Highlight>
 
 ### 3 - Compiling tokens
 
-Great! You are about to be able to use the ADEO preset, but you still have one last step to take: Compiling tokens.
+Great! You are about to be able to use the **Adeo preset**, but you still have one last step to take: **Compiling tokens**.
 
 You have two options to compile tokens:
 
-#### The mozaic-tokens:build command
+#### 3.1 - The mozaic-tokens-build command
 
-Run directly:
+Run the `mozaic-tokens-build` command directly:
 
 ```shell
-mozaic-tokens-build
+  npx mozaic-tokens-build
 ```
 
 Or through a `package.json` script for example:
@@ -65,26 +83,28 @@ Or through a `package.json` script for example:
 ```Json
 ...
 "scripts": {
-  "develop": "mozaic-tokens-build && npm run develop:watch",
+  "tokens:build": "mozaic-tokens-build"
 }
 ...
 ```
 
-#### Using the js function
+#### 3.2 - Using the js function
 
 If you want to trigger the tokens build inside a node script, you can use the function provided by Mozaic:
 
 ```js
-const tokensBuild = require('@mozaic-ds/tokens/tokensBuild')
+const tokensBuild = require("@mozaic-ds/tokens/tokensBuild")
 
 tokensBuild()
 ```
 
+### 4 - It's ready!
+
 When triggering either the command or the function, you should see a list of messages looking like this logging into the console:
 
-```
+```shell
 Property Value Collisions:
 Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value: #000
 ```
 
-This is a sign that everything is working properly and that the LeroyMerlin values are overridden by the Adeo Preset.
+This is a sign that everything is working properly and that the **LEROY MERLIN** values are overridden by the **Adeo preset**. Congratulations!

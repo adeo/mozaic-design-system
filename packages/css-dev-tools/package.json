@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.6.1",
+  "version": "1.9.0",
   "dependencies": {
     "@csstools/postcss-sass": "^4.0.0",
     "@mozaic-ds/configuration-manager": "^1.0.1",

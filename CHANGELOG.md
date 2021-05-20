@@ -3,6 +3,57 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
+
+
+### Bug Fixes
+
+* **onboard:** improve the Getting Started tutorial ([#811](https://github.com/adeo/mozaic-design-system/issues/811)) ([a2385c8](https://github.com/adeo/mozaic-design-system/commit/a2385c86da95a4209773502916cbd1ec23b47b11))
+* **pattern/tabs:** add a pointer-events on tabs dropdown variation ([#820](https://github.com/adeo/mozaic-design-system/issues/820)) ([6a64c71](https://github.com/adeo/mozaic-design-system/commit/6a64c717c405a79311bccc25e6a5a4e37b7717dd))
+* **phonenumber:** add white background for list ([#814](https://github.com/adeo/mozaic-design-system/issues/814)) ([2729df4](https://github.com/adeo/mozaic-design-system/commit/2729df466f7f7e762e6dee74fe26e985ed79066c))
+
+
+### Features
+
+* **autoprefixr:** allow user to override autopefixer with mozaic.conf… ([#809](https://github.com/adeo/mozaic-design-system/issues/809)) ([50c08ac](https://github.com/adeo/mozaic-design-system/commit/50c08ac030e0dab9dc6deb3136c2ac77f65b1373))
+* **foundations/icons:** add mozaic svelte icon components ([#824](https://github.com/adeo/mozaic-design-system/issues/824)) ([39aaa12](https://github.com/adeo/mozaic-design-system/commit/39aaa1206116a1abfbf328c89141f09192f3190c))
+* **pattern/progressbar:** add new size variation - xs variation ([#818](https://github.com/adeo/mozaic-design-system/issues/818)) ([cabf5f6](https://github.com/adeo/mozaic-design-system/commit/cabf5f6b2a82912b90b62d6b73bb1776a5d47e01))
+* **tools/token:** improve and add new colors to the Adeo preset ([#816](https://github.com/adeo/mozaic-design-system/issues/816)) ([496470d](https://github.com/adeo/mozaic-design-system/commit/496470d280cfb0d13468268b97bbe6ff33b598a6))
+
+
+
+
+
+# [1.8.0](https://github.com/adeo/mozaic-design-system/compare/v1.7.1...v1.8.0) (2021-04-28)
+
+
+### Bug Fixes
+
+* **patterns:** a11y - fix pseudo-element behaviour ([#806](https://github.com/adeo/mozaic-design-system/issues/806)) ([0b8fc1e](https://github.com/adeo/mozaic-design-system/commit/0b8fc1edbc3a193f020c79d06d246916506eb06b))
+* **patterns/card:** unify unboxed & outlined cards width on breakpoint M ([#801](https://github.com/adeo/mozaic-design-system/issues/801)) ([20113ce](https://github.com/adeo/mozaic-design-system/commit/20113ced3c4f4f83a653ec8ae086840338b80561))
+* **patterns/layer:** make the layer overlay clickable ([#803](https://github.com/adeo/mozaic-design-system/issues/803)) ([b2e4a46](https://github.com/adeo/mozaic-design-system/commit/b2e4a463cc1bc72633698ee56a55cb03f56776ec))
+
+
+### Features
+
+* **onboard/layer:** add documentation about the layer extended variation ([#796](https://github.com/adeo/mozaic-design-system/issues/796)) ([873c80c](https://github.com/adeo/mozaic-design-system/commit/873c80c9616b6be376a1a88aa6063198c1b60351))
+* **website:** redirect to https ([#798](https://github.com/adeo/mozaic-design-system/issues/798)) ([882c2c2](https://github.com/adeo/mozaic-design-system/commit/882c2c246714ffc46a73658a075fcd1fae32e301))
+
+
+
+
+
+## [1.7.2](https://github.com/adeo/mozaic-design-system/compare/v1.7.1...v1.7.2) (2021-04-27)
+
+
+### Bug Fixes
+
+* **patterns:** a11y - fix pseudo-element behaviour ([c2e04d3](https://github.com/adeo/mozaic-design-system/commit/c2e04d38451b756a248a5c6c7c82f2ffb40d6969))
+
+
+
+
+
 ## [1.7.1](https://github.com/adeo/mozaic-design-system/compare/v1.7.0...v1.7.1) (2021-04-14)
 
 
