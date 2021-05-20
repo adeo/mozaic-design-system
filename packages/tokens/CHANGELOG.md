@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
+
+
+### Features
+
+* **tools/token:** improve and add new colors to the Adeo preset ([#816](https://github.com/adeo/mozaic-design-system/issues/816)) ([496470d](https://github.com/adeo/mozaic-design-system/commit/496470d280cfb0d13468268b97bbe6ff33b598a6))
+
+
+
+
+
 ## [1.7.1](https://github.com/adeo/mozaic-design-system/compare/v1.7.0...v1.7.1) (2021-04-14)
 
 

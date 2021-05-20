@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
+
+
+### Bug Fixes
+
+* **pattern/tabs:** add a pointer-events on tabs dropdown variation ([#820](https://github.com/adeo/mozaic-design-system/issues/820)) ([6a64c71](https://github.com/adeo/mozaic-design-system/commit/6a64c717c405a79311bccc25e6a5a4e37b7717dd))
+* **phonenumber:** add white background for list ([#814](https://github.com/adeo/mozaic-design-system/issues/814)) ([2729df4](https://github.com/adeo/mozaic-design-system/commit/2729df466f7f7e762e6dee74fe26e985ed79066c))
+
+
+### Features
+
+* **pattern/progressbar:** add new size variation - xs variation ([#818](https://github.com/adeo/mozaic-design-system/issues/818)) ([cabf5f6](https://github.com/adeo/mozaic-design-system/commit/cabf5f6b2a82912b90b62d6b73bb1776a5d47e01))
+
+
+
+
+
 # [1.8.0](https://github.com/adeo/mozaic-design-system/compare/v1.7.1...v1.8.0) (2021-04-28)
 
 

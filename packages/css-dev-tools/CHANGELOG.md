@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
+
+
+### Features
+
+* **autoprefixr:** allow user to override autopefixer with mozaic.conf… ([#809](https://github.com/adeo/mozaic-design-system/issues/809)) ([50c08ac](https://github.com/adeo/mozaic-design-system/commit/50c08ac030e0dab9dc6deb3136c2ac77f65b1373))
+
+
+
+
+
 ## [1.6.1](https://github.com/adeo/mozaic-design-system/compare/v1.6.0...v1.6.1) (2021-03-31)
 
 **Note:** Version bump only for package @mozaic-ds/css-dev-tools
