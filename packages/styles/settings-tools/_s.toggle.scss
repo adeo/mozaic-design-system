@@ -1,23 +1,26 @@
+@use "sass:math";
+
 $toggle-sizes: (
-  's': (
-    'width': 3,
-    'height': 1.5,
+  "s": (
+    "width": 3,
+    "height": 1.5,
   ),
-  'm': (
-    'width': 4,
-    'height': 2,
+  "m": (
+    "width": 4,
+    "height": 2,
   ),
 );
 
 @mixin set-toggle-size($size) {
   $toggle-label-font-size: 1;
-  $toggle-switch-width: map-deep-get($toggle-sizes, $size, 'width');
-  $toggle-switch-height: map-deep-get($toggle-sizes, $size, 'height');
+  $toggle-switch-width: map-deep-get($toggle-sizes, $size, "width");
+  $toggle-switch-height: map-deep-get($toggle-sizes, $size, "height");
 
   // opatically align baseline depending on the switch height
   // using a padding-top
-  $toggle-baseline-alignment: (
-    ($toggle-switch-height - $toggle-label-font-size)/2
+  $toggle-baseline-alignment: math.div(
+    $toggle-switch-height - $toggle-label-font-size,
+    2
   ) - 0.125;
 
   @if $toggle-baseline-alignment < 0 {

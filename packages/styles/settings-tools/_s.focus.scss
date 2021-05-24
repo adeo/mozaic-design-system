@@ -1,8 +1,10 @@
-$size-focus-gap: ($mu025 / 2);
+@use "sass:math";
+
+$size-focus-gap: math.div($mu025, 2);
 $size-focus-border: $mu025;
 $size-focus-border-thin: $size-focus-gap;
 $size-focus-radius: $size-focus-gap;
-$size-focus-radius-m: ($mu075 / 2);
+$size-focus-radius-m: math.div($mu075, 2);
 
 @mixin set-focus-styles-before() {
   box-shadow: 0 0 0 0 transparent;
@@ -29,7 +31,8 @@ $size-focus-radius-m: ($mu075 / 2);
   $color-focus-gap: $color-focus-gap,
   $color-focus-border: $color-focus-border
 ) {
-  box-shadow: 0 0 0 $size-focus-gap $color-focus-gap,
+  box-shadow:
+    0 0 0 $size-focus-gap $color-focus-gap,
     0 0 0 $size-focus-border $color-focus-border;
 
   @content;
@@ -60,7 +63,9 @@ $size-focus-radius-m: ($mu075 / 2);
 
       @content;
     }
-  } @else {
+  }
+
+  @else {
     &::after {
       @include focus-floating-position();
       @include set-focus-transition();
@@ -77,7 +82,9 @@ $size-focus-radius-m: ($mu075 / 2);
 
       @content;
     }
-  } @else {
+  }
+
+  @else {
     &::after {
       @include set-shadow-focus();
 

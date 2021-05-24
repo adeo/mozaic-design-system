@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* mqp:start */
 .mc-tag {
   &-text {
@@ -167,7 +169,8 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding: $padding-y--s $mu025 $padding-y--s
+          padding:
+            $padding-y--s $mu025 $padding-y--s
             calc(#{$mu100} - #{$tag-border});
         }
 
@@ -185,7 +188,8 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding: $padding-y--m $mu025 $padding-y--m
+          padding:
+            $padding-y--m $mu025 $padding-y--m
             calc(#{$mu150} - #{$tag-border});
         }
 
@@ -202,7 +206,8 @@
     }
 
     &__label {
-      padding: $padding-y--m $mu025 $padding-y--m
+      padding:
+        $padding-y--m $mu025 $padding-y--m
         calc(#{$mu150} - #{$tag-border});
     }
 
@@ -210,12 +215,13 @@
       @include unstyle-button();
       @include set-tag-removable-icon("m");
       @include set-tag-icon-B64();
+
       @include set-focus-floating-base {
         border-radius: 50%;
-        top: -($mu025/2);
-        right: -($mu025/2);
-        bottom: -($mu025/2);
-        left: -($mu025/2);
+        top: -(math.div($mu025, 2));
+        right: -(math.div($mu025, 2));
+        bottom: -(math.div($mu025, 2));
+        left: -(math.div($mu025, 2));
       }
 
       background-color: $color-tag-removable-light-background;

@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* mqp:start */
 
 .mc-tabs {
@@ -68,8 +70,8 @@
     @include set-font-scale("05", "s");
 
     @include set-focus-floating-base {
-      bottom: -($mu025/2);
-      top: -($mu025/2);
+      bottom: -(math.div($mu025, 2));
+      top: -(math.div($mu025, 2));
     }
 
     background: none;

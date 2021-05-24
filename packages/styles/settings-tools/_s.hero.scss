@@ -1,5 +1,7 @@
-@mixin set-element-width($portion, $of) {
-  $percent: ($portion / $of) * 100;
+@use "sass:math";
 
-  max-width: percentage($portion / $of);
+@mixin set-element-width($portion, $of) {
+  $percent: math.div($portion, $of) * 100;
+
+  max-width: percentage(math.div($portion, $of));
 }
