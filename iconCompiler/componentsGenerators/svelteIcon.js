@@ -8,7 +8,10 @@ const iconContent = (fileName, data) => {
     `<svg width={size} height={size} id={id}  style={style} class={className} fill={fill}`
   )
 
-  return `<script>
+  const tag = fileName.replace(/_/g, "-").replace(".svg", "").toLowerCase()
+
+  return `<svelte:options tag="${tag}" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

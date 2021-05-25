@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="social-socialnetwork-facebook-64px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

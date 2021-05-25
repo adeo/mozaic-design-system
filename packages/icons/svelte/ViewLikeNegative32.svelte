@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="social-view-like--negative-32px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="social-comment-report-64px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

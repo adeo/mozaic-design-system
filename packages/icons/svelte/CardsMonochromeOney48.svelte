@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="payment-cards-monochrome-oney-48px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;
