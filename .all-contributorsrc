@@ -115,6 +115,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "MatthieuLepers",
+      "name": "Matthieu Lepers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14954276?v=4",
+      "profile": "https://github.com/MatthieuLepers",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
