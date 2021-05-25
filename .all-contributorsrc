@@ -105,6 +105,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "pinguet62",
+      "name": "PINGUET Julien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2929786?v=4",
+      "profile": "https://github.com/pinguet62",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
