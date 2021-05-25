@@ -1,8 +1,10 @@
+@use "sass:math";
+
 // a conversion tool to express things in rem taking account of the local 1rem value
 @function px-to-rem($px-val) {
-  @return ($px-val / $local-rem-value) * 1rem;
+  @return math.div($px-val, $local-rem-value) * 1rem;
 }
 
 @if $local-rem-value != 16 {
-  $magic-unit: 16 / $local-rem-value;
+  $magic-unit: math.div(16, $local-rem-value);
 }

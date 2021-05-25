@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @mixin set-flexy() {
   display: flex;
   flex-flow: row wrap;
@@ -5,30 +7,30 @@
 }
 
 @mixin set-flexy-width($portion, $of) {
-  $percent: ($portion / $of) * 100;
+  $percent: math.div($portion, $of) * 100;
 
   flex: 0 0 $percent * 1%;
   max-width: $percent * 1%;
 }
 
 @mixin set-flexy-col-push($portion, $of) {
-  $percent: ($portion / $of) * 100;
+  $percent: math.div($portion, $of) * 100;
 
   margin-left: $percent * 1%;
 }
 
 @mixin set-flexy-gutter($gutter-width) {
-  margin-right: -($gutter-width / 2);
-  margin-left: -($gutter-width / 2);
+  margin-right: -(math.div($gutter-width, 2));
+  margin-left: -(math.div($gutter-width, 2));
 }
 
 @mixin set-flexy-col-gutter($gutter-width) {
-  padding-right: $gutter-width / 2;
-  padding-left: $gutter-width / 2;
+  padding-right: math.div($gutter-width, 2);
+  padding-left: math.div($gutter-width, 2);
 }
 
 /* create columns */
-@mixin make-flexy-col($portion, $of, $at-sizes: 's') {
+@mixin make-flexy-col($portion, $of, $at-sizes: "s") {
   @if type-of($portion) != number {
     @warn "make-flexy-col first param need to be a number";
   }
@@ -58,7 +60,7 @@
 }
 
 /* create columns */
-@mixin make-flexy-col-push($portion, $of, $at-sizes: 's') {
+@mixin make-flexy-col-push($portion, $of, $at-sizes: "s") {
   @if type-of($portion) != number {
     @warn "make-flexy-col-push first param need to be a number";
   }
@@ -88,7 +90,7 @@
 }
 
 /* create custom named columns with custom content */
-@mixin make-flexy-custom-col($name, $at-sizes: 's') {
+@mixin make-flexy-custom-col($name, $at-sizes: "s") {
   @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
     @warn "make-flexy-custom-col second param should a map of existing screens, the name of a screen, or 'all'";
   }

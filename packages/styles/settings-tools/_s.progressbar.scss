@@ -1,6 +1,8 @@
+@use "sass:math";
+
 $progressbar-sizes: (
   "xs": (
-    "height": $mu025 / 2,
+    "height": math.div($mu025, 2),
     "border-radius": 1px,
   ),
   "s": (
