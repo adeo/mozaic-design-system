@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* mqp:start */
 .mc-stars-input {
   $parent: get-parent-selector(&);
@@ -21,7 +23,7 @@
     @include set-focus-transition();
 
     background:
-      url(inline-icons('star-full-32', $color-star-full)) repeat-x
+      url(inline-icons("star-full-32", $color-star-full)) repeat-x
       center center;
     border-radius: $stars-focus-radius;
     background-size: $stars-default-bg-size $stars-default-bg-size;
@@ -29,10 +31,10 @@
 
     &::before {
       background:
-        url(inline-icons('star-full-32', $color-star-hover)) repeat-x
+        url(inline-icons("star-full-32", $color-star-hover)) repeat-x
         left center;
       background-size: $stars-default-bg-size $stars-default-bg-size;
-      content: '';
+      content: "";
       left: 0;
       top: 0;
       bottom: 0;
@@ -44,19 +46,19 @@
 
     @for $i from 5 through 1 {
       &:nth-of-type(#{$i})::before {
-        width: percentage(($i - 1) / 5);
+        width: percentage(math.div($i - 1, 5));
       }
     }
   }
 
   :checked ~ &__label,
   :focus ~ &__label {
-    background-image: url(inline-icons('star-full-32', $color-star-empty));
+    background-image: url(inline-icons("star-full-32", $color-star-empty));
   }
 
   :checked + &__label,
   :focus + &__label {
-    background-image: url(inline-icons('star-full-32', $color-star-full));
+    background-image: url(inline-icons("star-full-32", $color-star-full));
   }
 
   :focus + &__label {
@@ -64,11 +66,11 @@
   }
 
   &__radio:hover ~ &__label {
-    background-image: url(inline-icons('star-full-32', $color-star-empty));
+    background-image: url(inline-icons("star-full-32", $color-star-empty));
   }
 
   &__radio:hover + &__label {
-    background-image: url(inline-icons('star-full-32', $color-star-hover));
+    background-image: url(inline-icons("star-full-32", $color-star-hover));
 
     &::before {
       opacity: 1;
@@ -77,14 +79,14 @@
 
   @each $size, $props in $stars-sizes {
     &--#{$size} {
-      @if ($size != 'm') {
+      @if ($size != "m") {
         @include set-stars-container($props);
 
         #{$parent}__label {
           @include set-stars-size($props);
 
           /* fix for ie11 */
-          $bg-variation-size: map-deep-get($stars-sizes, $size, 'width');
+          $bg-variation-size: map-deep-get($stars-sizes, $size, "width");
 
           background-size: $bg-variation-size $bg-variation-size;
 

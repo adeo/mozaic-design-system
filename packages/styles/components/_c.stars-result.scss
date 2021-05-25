@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* mqp:start */
 .mc-stars-result {
   $parent: get-parent-selector(&);
@@ -52,7 +54,7 @@
   @for $i from 1 through 10 {
     &--score-#{$i * 10} {
       #{$parent}__visual::before {
-        width: percentage($i / 10);
+        width: percentage(math.div($i, 10));
       }
     }
   }

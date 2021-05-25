@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .mc-accordion {
   $parent: get-parent-selector(&);
 
@@ -9,11 +11,12 @@
 
   &__label {
     @include set-font-weight("semi-bold");
+
     @include set-focus-floating-base {
-      top: -($mu025/2);
-      right: -($mu025/2);
+      top: -(math.div($mu025, 2));
+      right: -(math.div($mu025, 2));
       bottom: -3px;
-      left: -($mu025/2);
+      left: -(math.div($mu025, 2));
     }
 
     background-position: right $mu050 center;
