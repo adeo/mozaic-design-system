@@ -1,13 +1,13 @@
-import { ControlLess16, ControlMore16 } from '@mozaic-ds/icons/react'
-import { graphql, StaticQuery } from 'gatsby'
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
-import styled, { css } from 'styled-components'
-import DesignerKitLink from '../DesignerKitLink'
-import withSiteMapData from '../SiteMapData'
-import { parseLocation } from '../SiteMapData/tools'
-import MenuHeader from './MenuHeader'
-import { MenuItem } from './MenuItem'
+import { ControlLess16, ControlMore16 } from "@mozaic-ds/icons/react"
+import { graphql, StaticQuery } from "gatsby"
+import PropTypes from "prop-types"
+import React, { Component } from "react"
+import styled, { css } from "styled-components"
+import DesignerKitLink from "../DesignerKitLink"
+import withSiteMapData from "../SiteMapData"
+import { parseLocation } from "../SiteMapData/tools"
+import MenuHeader from "./MenuHeader"
+import { MenuItem } from "./MenuItem"
 
 const Wrapper = styled.div`
   max-height: 100vh;
@@ -39,7 +39,7 @@ const ListItem = styled.li`
         border-bottom: 1px solid #000;
         padding-bottom: 0.625rem;
       }
-      & + [class^='Menu__ListItem'] {
+      & + [class^="Menu__ListItem"] {
         padding-top: 0.5rem;
       }
     `}
@@ -116,8 +116,8 @@ class Menu extends Component {
     }
   }
 
-  openMenu = dirPath => {
-    const setOpenItems = subMenu =>
+  openMenu = (dirPath) => {
+    const setOpenItems = (subMenu) =>
       subMenu.map((item, i) => {
         if (dirPath.includes(item.dirPath)) {
           item.isOpened = true
@@ -133,8 +133,8 @@ class Menu extends Component {
     this.setState({ menuArray: setOpenItems(this.state.menuArray) })
   }
 
-  closeMenu = dirPath => {
-    const setCloseItem = subMenu =>
+  closeMenu = (dirPath) => {
+    const setCloseItem = (subMenu) =>
       subMenu.map((item, i) => {
         if (dirPath === item.dirPath) {
           item.isOpened = false
@@ -152,7 +152,7 @@ class Menu extends Component {
 
   buildMenu = (menuArray, isOpened = true) => (
     <UlMenu isOpened={isOpened}>
-      {menuArray.map(item => {
+      {menuArray.map((item) => {
         return (
           <ListItem
             key={item.dirPath}
@@ -174,16 +174,10 @@ class Menu extends Component {
                 level={item.level}
                 isPartOfCurrentlocation={item.isPartOfCurrentlocation}
                 hasChildren={item.content.length > 0}
+                tabIndex={isOpened ? 0 : -1}
               />
               {item.content.length > 0 && (
-                <ShowChildrenButton
-                  isOpened={item.isOpened}
-                  onClick={
-                    item.isOpened
-                      ? () => this.closeMenu(item.dirPath)
-                      : () => this.openMenu(item.dirPath)
-                  }
-                >
+                <ShowChildrenButton isOpened={item.isOpened} tabIndex={-1}>
                   <ControlMore16 className="icon-open" fill="#554f52" />
                   <ControlLess16 className="icon-close" fill="#554f52" />
                 </ShowChildrenButton>
@@ -204,7 +198,7 @@ class Menu extends Component {
     return (
       <StaticQuery
         query={query}
-        render={data => {
+        render={(data) => {
           return (
             <>
               <Wrapper className="MenuWrapper">

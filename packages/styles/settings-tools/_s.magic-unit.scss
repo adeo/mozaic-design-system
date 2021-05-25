@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // magicUnit : 16px !default
 
 // a function that return a multiple of the magic-unit
@@ -10,7 +12,7 @@
     @if type-of($multiplier) == number and unitless($multiplier) {
       @if $multiplier < 2 {
         // require a 0.25 minimum increment when < 2
-        $iscorrect: $multiplier / 0.25 == ceil($multiplier / 0.25);
+        $iscorrect: math.div($multiplier, 0.25) == ceil(math.div($multiplier, 0.25));
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;
@@ -23,7 +25,7 @@
 
       @else if $multiplier >= 2 and $multiplier < 4 {
         // require a 0.5 minimum increment when between 2 and 4
-        $iscorrect: $multiplier / 0.5 == ceil($multiplier / 0.5);
+        $iscorrect: math.div($multiplier, 0.5) == ceil(math.div($multiplier, 0.5));
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;
