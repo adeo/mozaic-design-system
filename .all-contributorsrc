@@ -73,7 +73,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/52402267?v=4",
       "profile": "https://github.com/ThomasRumasLM",
       "contributions": [
-        "bug"
+        "bug",
+        "code",
+        "doc"
       ]
     },
     {
@@ -102,6 +104,16 @@
       "profile": "http://gillespie59.github.io/",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "pinguet62",
+      "name": "PINGUET Julien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2929786?v=4",
+      "profile": "https://github.com/pinguet62",
+      "contributions": [
+        "bug",
+        "code"
       ]
     }
   ],
