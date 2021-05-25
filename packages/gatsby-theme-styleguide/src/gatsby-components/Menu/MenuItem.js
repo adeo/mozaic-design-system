@@ -1,7 +1,7 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
-import styled, { css } from 'styled-components'
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import React, { Component } from "react"
+import styled, { css } from "styled-components"
 
 const MenuLink = styled(Link)`
   color: #000;
@@ -79,6 +79,7 @@ class MenuItem extends Component {
           level={this.props.level}
           isPartOfCurrentlocation={this.props.isPartOfCurrentlocation}
           onClick={this.handleClick}
+          tabIndex={this.props.tabIndex}
         >
           {this.props.content}
         </MenuLink>
@@ -97,6 +98,10 @@ MenuItem.propTypes = {
   level: PropTypes.number.isRequired,
   isPartOfCurrentlocation: PropTypes.bool,
   hasChildren: PropTypes.bool,
+  tabIndex: PropTypes.number,
 }
 
+MenuItem.defaultProps = {
+  tabIndex: 0,
+}
 export { MenuItem }
