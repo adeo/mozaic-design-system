@@ -69,21 +69,8 @@ exports[`<IconViewer /> render corectly colors icon 1`] = `
 }
 
 .c6 {
-  -webkit-flex: 0 1 20%;
-  -ms-flex: 0 1 20%;
-  flex: 0 1 20%;
-  list-style: none;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.62rem;
-  background: #f2f2f2;
-  color: darkgrey;
   background: #78be20;
   color: white !important;
-}
-
-.c6:not(:first-child) {
-  border-left: 1px solid #eee;
 }
 
 .c7 {
@@ -170,7 +157,7 @@ exports[`<IconViewer /> render corectly colors icon 1`] = `
             24px
           </li>
           <li
-            className="c6"
+            className="c5 c6"
           >
             <button
               className="c7"
@@ -246,7 +233,7 @@ exports[`<IconViewer /> render corectly colors icon 1`] = `
             48px
           </li>
           <li
-            className="c6"
+            className="c5 c6"
           >
             <button
               className="c7"
@@ -312,7 +299,7 @@ exports[`<IconViewer /> render corectly colors icon 1`] = `
             48px
           </li>
           <li
-            className="c6"
+            className="c5 c6"
           >
             <button
               className="c7"
@@ -393,22 +380,6 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
   border-bottom: 1px solid #eee;
 }
 
-.c7 {
-  -webkit-flex: 0 1 20%;
-  -ms-flex: 0 1 20%;
-  flex: 0 1 20%;
-  list-style: none;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.62rem;
-  background: #f2f2f2;
-  color: darkgrey;
-}
-
-.c7:not(:first-child) {
-  border-left: 1px solid #eee;
-}
-
 .c5 {
   -webkit-flex: 0 1 20%;
   -ms-flex: 0 1 20%;
@@ -419,8 +390,6 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
   line-height: 1.62rem;
   background: #f2f2f2;
   color: darkgrey;
-  background: #78be20;
-  color: white !important;
 }
 
 .c5:not(:first-child) {
@@ -428,6 +397,11 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
 }
 
 .c6 {
+  background: #78be20;
+  color: white !important;
+}
+
+.c7 {
   box-shadow: none;
   margin: 0;
   padding: 0;
@@ -506,10 +480,10 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
           className="c4"
         >
           <li
-            className="c5"
+            className="c5 c6"
           >
             <button
-              className="c6"
+              className="c7"
               onClick={[Function]}
               type="button"
             >
@@ -517,22 +491,22 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
             </button>
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             24px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             32px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             48px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             64px
           </li>
@@ -589,10 +563,10 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
           className="c4"
         >
           <li
-            className="c5"
+            className="c5 c6"
           >
             <button
-              className="c6"
+              className="c7"
               onClick={[Function]}
               type="button"
             >
@@ -600,22 +574,22 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
             </button>
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             24px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             32px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             48px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             64px
           </li>
@@ -684,25 +658,25 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
           className="c4"
         >
           <li
-            className="c7"
+            className="c5"
           >
             16px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             24px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             32px
           </li>
           <li
-            className="c5"
+            className="c5 c6"
           >
             <button
-              className="c6"
+              className="c7"
               onClick={[Function]}
               type="button"
             >
@@ -710,7 +684,7 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
             </button>
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             64px
           </li>
@@ -767,25 +741,25 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
           className="c4"
         >
           <li
-            className="c7"
+            className="c5"
           >
             16px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             24px
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             32px
           </li>
           <li
-            className="c5"
+            className="c5 c6"
           >
             <button
-              className="c6"
+              className="c7"
               onClick={[Function]}
               type="button"
             >
@@ -793,7 +767,7 @@ exports[`<IconViewer /> render corectly monochrom icons 1`] = `
             </button>
           </li>
           <li
-            className="c7"
+            className="c5"
           >
             64px
           </li>
