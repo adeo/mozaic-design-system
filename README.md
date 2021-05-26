@@ -127,6 +127,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/MrCloud"><img src="https://avatars0.githubusercontent.com/u/486140?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Florian Petit</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AMrCloud" title="Bug reports">🐛</a> <a href="#ideas-MrCloud" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://gillespie59.github.io/"><img src="https://avatars.githubusercontent.com/u/555768?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Emmanuel DEMEY</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/commits?author=EmmanuelDemey" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/pinguet62"><img src="https://avatars.githubusercontent.com/u/2929786?v=4?s=100" width="100px;" alt=""/><br /><sub><b>PINGUET Julien</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Apinguet62" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/commits?author=pinguet62" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/MatthieuLepers"><img src="https://avatars.githubusercontent.com/u/14954276?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matthieu Lepers</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/commits?author=MatthieuLepers" title="Code">💻</a></td>
   </tr>
 </table>
 
