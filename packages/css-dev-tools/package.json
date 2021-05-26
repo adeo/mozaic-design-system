@@ -1,12 +1,12 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "dependencies": {
     "@csstools/postcss-sass": "^4.0.0",
     "@mozaic-ds/configuration-manager": "^1.0.1",
     "@mozaic-ds/postcss-media-queries-packer-on-demand": "^1.0.1",
     "@mozaic-ds/postcss-prepend": "^1.0.1",
-    "@mozaic-ds/stylelint-plugin-mozaic": "^1.6.1",
+    "@mozaic-ds/stylelint-plugin-mozaic": "^1.10.0",
     "autoprefixer": "^9.4.3",
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/adeo/mozaic-design-system/compare/v1.9.0...v1.10.0) (2021-05-26)
+
+
+### Bug Fixes
+
+* **tools/css-dev-tools:** add missing paths to the const basePaths ([#833](https://github.com/adeo/mozaic-design-system/issues/833)) ([a606e5c](https://github.com/adeo/mozaic-design-system/commit/a606e5c0a798e8e184281a43af593449555ea796))
+
+
+
+
+
 # [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
 
 
