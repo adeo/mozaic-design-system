@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="product-aspect-quantity-24px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

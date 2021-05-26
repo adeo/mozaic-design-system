@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="universe-electricity-24px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

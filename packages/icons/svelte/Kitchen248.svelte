@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="universe-kitchen2-48px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;
