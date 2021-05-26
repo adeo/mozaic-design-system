@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .mc-stepper {
   $parent: get-parent-selector(&);
 
@@ -27,7 +29,7 @@
     &::after {
       background-color: $color-grey-400;
       content: "";
-      height: ($mu025 / 2);
+      height: math.div($mu025, 2);
       position: absolute;
       top: 11px;
       width: calc(50% - #{$stepper-divider-gap});
