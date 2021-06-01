@@ -5,16 +5,14 @@ order: 3
 
 ## Accessibility
 
-In order to guarantee the accessibility of the component, please make sure to respect the following rules when integrating the component into your pages:
+In order to guarantee the component accessibility, please make sure to respect the following rules when integrating the component into your pages:
 
 <HintItem>
-  Always use a <strong>role="navigation"</strong> attribute on the{" "}
-  <strong>.mc-pagination</strong> element.
+  Always use a <strong>role="navigation"</strong> attribute on the <strong>.mc-pagination</strong> element.
 </HintItem>
 
 <HintItem>
-  Always use an <strong>aria-label="pagination"</strong> attribute on the{" "}
-  <strong>.mc-pagination</strong> element.
+  Always use an <strong>aria-label="pagination"</strong> attribute on the <strong>.mc-pagination</strong> element.
 </HintItem>
 
 ```html
@@ -24,14 +22,7 @@ In order to guarantee the accessibility of the component, please make sure to re
 ```
 
 <HintItem>
-  Always use an <strong>aria-label="Previous page"</strong> attribute on the{" "}
-  <strong>.mc-pagination__button</strong> element to return to the previous
-  page.
-</HintItem>
-
-<HintItem>
-  Always use an <strong>aria-label="Next Page"</strong> attribute on the{" "}
-  <strong>.mc-pagination__button</strong> element to go to the next page.
+  Use <code>aria-label="the button purpose"</code> on every <strong>button.mc-pagination__button</strong> element of the pagination
 </HintItem>
 
 ```html
