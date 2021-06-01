@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="user-contact-phone-32px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

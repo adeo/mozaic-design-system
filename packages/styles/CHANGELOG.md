@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/adeo/mozaic-design-system/compare/v1.9.0...v1.10.0) (2021-05-26)
+
+
+### Bug Fixes
+
+* **tools/sass:** use the new math.div() function for divisions ([#834](https://github.com/adeo/mozaic-design-system/issues/834)) ([ee4eddb](https://github.com/adeo/mozaic-design-system/commit/ee4eddb9340c12a6ffd7ef151d4692e924304f95))
+
+
+### Features
+
+* **patterns/stepper:** add stepper component ([#799](https://github.com/adeo/mozaic-design-system/issues/799)) ([d8fccf3](https://github.com/adeo/mozaic-design-system/commit/d8fccf3f260427aa52f5d02c18fa82b004f4415b))
+
+
+
+
+
 # [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
 
 

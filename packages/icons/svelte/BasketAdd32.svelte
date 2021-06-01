@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="product-basket-add-32px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

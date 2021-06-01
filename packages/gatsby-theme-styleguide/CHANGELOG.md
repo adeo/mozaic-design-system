@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/adeo/mozaic-design-system/compare/v1.9.0...v1.10.0) (2021-05-26)
+
+
+### Bug Fixes
+
+* **docs:** solve A11y issue with the left side collapsible menu ([#810](https://github.com/adeo/mozaic-design-system/issues/810)) ([410a3d6](https://github.com/adeo/mozaic-design-system/commit/410a3d6c2e6b5afa6524f2dab90de48eba802ab7))
+* **tools/sass:** use the new math.div() function for divisions ([#834](https://github.com/adeo/mozaic-design-system/issues/834)) ([ee4eddb](https://github.com/adeo/mozaic-design-system/commit/ee4eddb9340c12a6ffd7ef151d4692e924304f95))
+
+
+
+
+
 # [1.6.0](https://github.com/adeo/mozaic-design-system/compare/v1.5.0...v1.6.0) (2021-03-17)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide

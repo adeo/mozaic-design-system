@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/adeo/mozaic-design-system/compare/v1.9.0...v1.10.0) (2021-05-26)
+
+
+### Bug Fixes
+
+* **docs:** solve A11y issue with the left side collapsible menu ([#810](https://github.com/adeo/mozaic-design-system/issues/810)) ([410a3d6](https://github.com/adeo/mozaic-design-system/commit/410a3d6c2e6b5afa6524f2dab90de48eba802ab7))
+* **tools/css-dev-tools:** add missing paths to the const basePaths ([#833](https://github.com/adeo/mozaic-design-system/issues/833)) ([a606e5c](https://github.com/adeo/mozaic-design-system/commit/a606e5c0a798e8e184281a43af593449555ea796))
+* **tools/sass:** use the new math.div() function for divisions ([#834](https://github.com/adeo/mozaic-design-system/issues/834)) ([ee4eddb](https://github.com/adeo/mozaic-design-system/commit/ee4eddb9340c12a6ffd7ef151d4692e924304f95))
+
+
+### Features
+
+* **icons:** add webcomponent to svelte icons ([#839](https://github.com/adeo/mozaic-design-system/issues/839)) ([62901cf](https://github.com/adeo/mozaic-design-system/commit/62901cfdbe295f9471d5a3e1f4f8c90b915af15d))
+* **patterns/icons:** generate icons as js modules ([#830](https://github.com/adeo/mozaic-design-system/issues/830)) ([ce3e967](https://github.com/adeo/mozaic-design-system/commit/ce3e9676453d78dfe35369cd2af1c391fcf76603))
+* **patterns/stepper:** add stepper component ([#799](https://github.com/adeo/mozaic-design-system/issues/799)) ([d8fccf3](https://github.com/adeo/mozaic-design-system/commit/d8fccf3f260427aa52f5d02c18fa82b004f4415b))
+
+
+
+
+
 # [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
 
 

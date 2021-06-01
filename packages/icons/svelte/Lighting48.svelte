@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="universe-lighting-48px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

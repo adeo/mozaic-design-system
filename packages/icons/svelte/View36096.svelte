@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="media-view360-96px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

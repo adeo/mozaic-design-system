@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="navigation-publish-trashbin-24px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

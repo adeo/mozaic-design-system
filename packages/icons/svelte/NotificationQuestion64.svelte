@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="navigation-notification-question-64px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

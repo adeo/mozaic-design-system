@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="navigation-arrow-breadcrumb--right-16px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;

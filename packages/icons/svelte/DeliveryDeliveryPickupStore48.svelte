@@ -1,4 +1,5 @@
-<script>
+<svelte:options tag="service-delivery-delivery-pickup--store-48px" />
+  <script>
   export let id = undefined;
   export let style = undefined;
   export let className = undefined;
