@@ -15,9 +15,9 @@
   "author": "gael-boyenval <gaelboyenval@icloud.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.6.2",
-    "jest": "^24.9.0",
-    "postcss": "^8.2.7"
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "jest": "^27.0.3",
+    "postcss": "^8.3.0"
   },
   "engines": {
     "node": ">=12"
