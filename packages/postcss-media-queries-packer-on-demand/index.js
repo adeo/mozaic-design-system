@@ -6,13 +6,13 @@ let queryLists = []
 
 /* eslint-disable */
 
-const parseQueryList = queryList => {
+const parseQueryList = (queryList) => {
   const queries = []
 
-  list.comma(queryList).forEach(query => {
+  list.comma(queryList).forEach((query) => {
     const expressions = {}
 
-    list.space(query).forEach(expression => {
+    list.space(query).forEach((expression) => {
       let newExpression = expression.toLowerCase()
 
       if (newExpression === 'and') {
@@ -40,7 +40,7 @@ const parseQueryList = queryList => {
   return queries
 }
 
-const inspectLength = length => {
+const inspectLength = (length) => {
   if (length === '0') {
     return 0
   }
@@ -81,10 +81,10 @@ const inspectLength = length => {
   return newNum
 }
 
-const pickMinimumMinWidth = expressions => {
+const pickMinimumMinWidth = (expressions) => {
   const minWidths = []
 
-  expressions.forEach(feature => {
+  expressions.forEach((feature) => {
     let minWidth = feature['min-width']
 
     if (!minWidth || feature.not || feature.print) {
@@ -108,7 +108,7 @@ const sortQueryLists = (queryLists, sort) => {
     return queryLists.sort(sort)
   }
 
-  queryLists.forEach(queryList => {
+  queryLists.forEach((queryList) => {
     mapQueryLists.push(parseQueryList(queryList))
   })
 
@@ -118,7 +118,7 @@ const sortQueryLists = (queryLists, sort) => {
       value: pickMinimumMinWidth(e),
     }))
     .sort((a, b) => a.value - b.value)
-    .map(e => queryLists[e.index])
+    .map((e) => queryLists[e.index])
 }
 
 function addToAtRules(node) {
@@ -132,7 +132,7 @@ function addToAtRules(node) {
       params: node.parent.params,
     })
 
-    node.each(rule => {
+    node.each((rule) => {
       newAtRule.append(rule)
     })
     node.remove()
@@ -144,7 +144,7 @@ function addToAtRules(node) {
   const past = queries[queryList]
 
   if (typeof past === 'object') {
-    node.each(rule => {
+    node.each((rule) => {
       past.append(rule.clone())
     })
   } else {
@@ -155,44 +155,49 @@ function addToAtRules(node) {
   node.remove()
 }
 
-module.exports = postcss.plugin(
-  'postcss-media-queries-packer-on-demand',
-  options => root => {
-    const opts = {
-      sort: false,
-      ...options,
-    }
-    root.each(node => {
-      if (node.type === 'comment' && node.text === 'mqp:start') {
-        startPacking = true
-        node.remove()
-      }
-
-      if (node.type === 'comment' && node.text === 'mqp:end') {
-        startPacking = false
-      }
-
-      if (
-        node.type === 'atrule' &&
-        node.name === 'media' &&
-        startPacking === true
-      ) {
-        addToAtRules(node)
-      }
-
-      if (
-        node.type === 'comment' &&
-        node.text === 'mqp:end' &&
-        startPacking === false
-      ) {
-        sortQueryLists(queryLists, opts.sort).forEach(queryList => {
-          node.before(queries[queryList])
-        })
-
-        node.remove()
-        queries = {}
-        queryLists = []
-      }
-    })
+module.exports = (options = {}) => {
+  const opts = {
+    sort: false,
+    ...options,
   }
-)
+
+  return {
+    postcssPlugin: 'postcss-media-queries-packer-on-demand',
+    Once(root) {
+      root.each((node) => {
+        if (node.type === 'comment' && node.text === 'mqp:start') {
+          startPacking = true
+          node.remove()
+        }
+
+        if (node.type === 'comment' && node.text === 'mqp:end') {
+          startPacking = false
+        }
+
+        if (
+          node.type === 'atrule' &&
+          node.name === 'media' &&
+          startPacking === true
+        ) {
+          addToAtRules(node)
+        }
+
+        if (
+          node.type === 'comment' &&
+          node.text === 'mqp:end' &&
+          startPacking === false
+        ) {
+          sortQueryLists(queryLists, opts.sort).forEach((queryList) => {
+            node.before(queries[queryList])
+          })
+
+          node.remove()
+          queries = {}
+          queryLists = []
+        }
+      })
+    },
+  }
+}
+
+module.exports.postcss = true

@@ -1,11 +1,10 @@
-const postcss = require('postcss')
-
-module.exports = postcss.plugin('postcss-prepend', opts => {
-  if (!opts) {
-    return null
+module.exports = (opts = {}) => {
+  return {
+    postcssPlugin: 'postcss-prepend',
+    Once(root) {
+      root.prepend(opts)
+    },
   }
+}
 
-  return root => {
-    root.prepend(opts)
-  }
-})
+module.exports.postcss = true
