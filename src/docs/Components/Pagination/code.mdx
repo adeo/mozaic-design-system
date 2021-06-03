@@ -1,21 +1,20 @@
 ---
-title: 'Code'
+title: "Code"
 order: 2
 ---
 
 ## Import
 
 ```scss
-@import 'settings-tools/_all-settings';
-@import 'components/_c.pagination';
-@import 'components/_c.select'; // (Optionnal)
+@import "settings-tools/_all-settings";
+@import "components/_c.pagination";
+@import "components/_c.select"; // (Optionnal)
 ```
 
 ## Default Pagination
 
-
 ```html
-<div class="mc-pagination">
+<nav class="mc-pagination" role="navigation" aria-label="pagination">
   <a href="#" class="mc-pagination__button" aria-label="Previous page">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconLeftL" />
@@ -36,15 +35,19 @@ order: 2
       <use xlink:href="#iconRightL" />
     </svg>
   </a>
-</div>
+</nav>
 ```
 
 <Preview path="pagination-default" />
 
-## Light Pagination 
+## Light Pagination
 
 ```html
-<div class="mc-pagination mc-pagination--light">
+<nav
+  class="mc-pagination mc-pagination--light"
+  role="navigation"
+  aria-label="pagination"
+>
   <a href="#" class="mc-pagination__button" aria-label="Previous page">
     <svg class="mc-pagination__button-icon">
       <use xlink:href="#iconLeftL" />
@@ -56,13 +59,7 @@ order: 2
       <use xlink:href="#iconRightL" />
     </svg>
   </a>
-</div>
+</nav>
 ```
 
 <Preview path="pagination-light" />
-
-## Accessibility and semantic
-
-<HintItem>
-  Use <code>aria-label="the button purpose"</code> on every button of the pagination
-</HintItem>
