@@ -2,20 +2,11 @@
   $parent: get-parent-selector(&);
 
   @include set-font-face();
+  @include set-dialog-base();
 
-  box-sizing: border-box;
-  bottom: 0;
   display: flex;
   justify-content: flex-end;
-  left: 0;
-  outline: 0;
   overflow: hidden;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1999999999; // To get the layer on top of Mopinion.
 
   * {
     box-sizing: inherit;
@@ -227,25 +218,6 @@
   }
 
   &-overlay {
-    background-color: rgba($color-grey-900, 0.7);
-    bottom: 0;
-    cursor: pointer;
-    display: block;
-    filter: blur(1px);
-    left: 0;
-    opacity: 0;
-    position: fixed;
-    pointer-events: none;
-    right: 0;
-    top: 0;
-    transition: opacity 0.4s ease, visibility 0ms 0.4s;
-    z-index: 1999999998;
-
-    &.is-visible {
-      opacity: 1;
-      pointer-events: all;
-      transition: opacity 0.4s ease, visibility 0ms;
-      visibility: visible;
-    }
+    @include set-dialog-overlay();
   }
 }
