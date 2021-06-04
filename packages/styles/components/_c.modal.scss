@@ -20,7 +20,11 @@
     background: $color-grey-000;
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    pointer-events: all;
     position: relative;
+    transform: translateY(-25%);
+    transition: transform 0.4s ease, opacity 0.4s ease;
     width: 100%;
 
     @include set-from-screen(m) {
@@ -40,6 +44,11 @@
     @include set-from-screen(xxl) {
       max-height: 50vh;
       max-width: magic-unit-rem(56.5, true); // 904px
+    }
+
+    &.is-open {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 
