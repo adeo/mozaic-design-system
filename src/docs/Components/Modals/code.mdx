@@ -1,5 +1,5 @@
 ---
-title: 'Code'
+title: "Code"
 order: 2
 ---
 
@@ -10,13 +10,13 @@ Import the **settings**, the **modal**, the **bodys**, and the **button** scss f
 > Note that you can also implement in addition the scss file of **the links** if you use this component in your modals.
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'typography/_t.bodys';
-@import 'components/_c.modal';
-@import 'components/_c.button';
+@import "typography/_t.bodys";
+@import "components/_c.modal";
+@import "components/_c.button";
 ```
 
 ## Usage
@@ -153,6 +153,7 @@ Just as the width of a modal varies according to the rules indicated above, the 
 During the opening of a modal by Javascript, several events occur:
 
 - Added the `mc-modal-open` class to the body to prevent the default scrolling of the browser window.
-- A `mc-modal-overlay` element is generated in the DOM.
+- Added the `is-open` class on the `mc-modal__dialog` element.
+- A `mc-modal-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
 
 <Preview path="opening" />
