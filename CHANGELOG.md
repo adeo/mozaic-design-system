@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/adeo/mozaic-design-system/compare/v1.10.0...v1.11.0) (2021-06-09)
+
+
+### Features
+
+* **patterns/modal:** add css class .is-open & .is-visible on opening ([#849](https://github.com/adeo/mozaic-design-system/issues/849)) ([d281863](https://github.com/adeo/mozaic-design-system/commit/d28186338176c3bfdfe1c0754cef8b8c4ecb3c6d))
+* **patterns/pagination:** a11y - add aria and role attributes ([#842](https://github.com/adeo/mozaic-design-system/issues/842)) ([a8fcfca](https://github.com/adeo/mozaic-design-system/commit/a8fcfca371b3e87cceded9f6e1f489fa59a41d55)), closes [#832](https://github.com/adeo/mozaic-design-system/issues/832)
+
+
+
+
+
 # [1.10.0](https://github.com/adeo/mozaic-design-system/compare/v1.9.0...v1.10.0) (2021-05-26)
 
 
