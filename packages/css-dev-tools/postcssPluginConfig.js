@@ -2,7 +2,6 @@ require("dotenv").config()
 const scssSyntax = require("postcss-scss")
 const autoprefixer = require("autoprefixer")
 const sass = require("@mozaic-ds/postcss-sass")
-const stylelint = require("stylelint")
 const base64 = require("postcss-base64")
 const reporter = require("postcss-reporter")
 const cssnano = require("cssnano")
@@ -43,18 +42,9 @@ const includePaths = additionalPaths
 const userIndent = CM.getKey("sass.indentWidth")
 const indentWidth = userIndent ? userIndent : 2
 
-const styleLintConfig = require("./styleLintConfig")
-
-// load browserlist config
-const borwserslistConfig = CM.getKey("browserslist")
-  ? CM.getKey("browserslist")
-  : ["> 0.3%", "last 3 version", "IE > 10"]
-
 console.info(`Running ${mozaicEnvScssVar} plugins`)
 
 const plugins = [
-  stylelint({ config: styleLintConfig }),
-  reporter({ clearReportedMessages: true }),
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   sass({
     includePaths,
@@ -67,9 +57,6 @@ const plugins = [
   }),
   mqpackerondemand({
     sort: true,
-  }),
-  autoprefixer({
-    overrideBrowserslist: borwserslistConfig,
   }),
 ]
 
@@ -86,9 +73,6 @@ const productionPlugins = [
   }),
   mqpackerondemand({
     sort: true,
-  }),
-  autoprefixer({
-    overrideBrowserslist: borwserslistConfig,
   }),
   cssnano(["default", { discardComments: { removeAll: true } }]),
 ]
