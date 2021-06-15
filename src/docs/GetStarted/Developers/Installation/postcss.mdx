@@ -25,6 +25,17 @@ The Mozaic postCSS plugin list contains:
 - **postcss-base64:** url encode svg in css
 - **cssnano:** optimize and minify the CSS code
 
+<Highlight theme="warning" title="Stylelint support">
+
+Mozaic is no longer offering stylelint and autoprefixer plugins out of the box.
+
+If needed you can use our stylelint config in your environment. 
+
+Export Mozaic stylelint config file to your `stylelint.config.js`
+
+`module.exports = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')`
+</Highlight>
+
 ### A) Using a configuration file:
 
 You can create a `postcss.config.js` file in your project root directory and paste the following code inside:
