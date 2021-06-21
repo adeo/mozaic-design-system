@@ -2,21 +2,14 @@
   $parent: get-parent-selector(&);
 
   @include set-font-face();
+  @include set-dialog-base();
 
-  box-sizing: border-box;
-  display: flex;
   align-items: flex-end;
+  display: flex;
   justify-content: center;
-  height: 100%;
-  left: 0;
-  outline: 0;
-  padding: $mu100 magic-unit-rem(1.125, true);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1999999999;
   overflow-x: hidden;
   overflow-y: auto;
+  padding: $mu100 magic-unit-rem(1.125, true);
 
   @include set-from-screen(m) {
     align-items: center;
@@ -27,7 +20,11 @@
     background: $color-grey-000;
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    pointer-events: all;
     position: relative;
+    transform: translateY(-25%);
+    transition: transform 0.4s ease, opacity 0.4s ease;
     width: 100%;
 
     @include set-from-screen(m) {
@@ -47,6 +44,11 @@
     @include set-from-screen(xxl) {
       max-height: 50vh;
       max-width: magic-unit-rem(56.5, true); // 904px
+    }
+
+    &.is-open {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 
@@ -90,7 +92,8 @@
     flex-shrink: 0;
     height: $mu200;
     width: $mu200;
-    background: transparent
+    background:
+      transparent
       url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
     background-size: contain;
 
@@ -181,13 +184,6 @@
   }
 
   &-overlay {
-    filter: blur(1px);
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba($color-grey-900, 0.7);
-    z-index: 1999999998;
+    @include set-dialog-overlay();
   }
 }
