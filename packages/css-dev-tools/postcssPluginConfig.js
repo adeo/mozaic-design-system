@@ -16,12 +16,16 @@ const mozaicEnvScssVar =
 
 const styleLintConfig = require("./styleLintConfig")
 
-const sassConfig = require("./sassConfig")
+const baseSassConfig = require("./sassConfig")
 
 // load browserlist config
 const borwserslistConfig = CM.getKey("browserslist")
   ? CM.getKey("browserslist")
   : ["> 0.3%", "last 3 version", "IE > 10"]
+
+const sassConfig = CM.getKey("sass.config")
+  ? CM.getKey("sass.config")
+  : baseSassConfig
 
 console.info(`Running ${mozaicEnvScssVar} plugins`)
 
@@ -42,6 +46,14 @@ const plugins = [
   }),
 ]
 
+if (CM.getKey("stylelint.disabled")) {
+  plugins.shift()
+}
+
+if (CM.getKey("autoprefixer.disabled")) {
+  plugins.pop()
+}
+
 const productionPlugins = [
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   sass(sassConfig),
@@ -57,5 +69,9 @@ const productionPlugins = [
   }),
   cssnano(["default", { discardComments: { removeAll: true } }]),
 ]
+
+if (CM.getKey("autoprefixer.disabled")) {
+  productionPlugins.pop()
+}
 
 module.exports = MOZAIC_ENV === "production" ? productionPlugins : plugins
