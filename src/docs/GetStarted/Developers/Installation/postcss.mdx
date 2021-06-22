@@ -84,37 +84,9 @@ gulp.task('css', () =>
 
 ### D) With Vue.js using Vue-CLI
 
-You will need to use **PostCSS** via `postcss-loader`.
+If you are a **Vue.js** user, we invite you to visit the documentation dedicated to the configuration of **Mozaic** with **Vue.js**.
 
-```npm
-npm install -D postcss-loader
-```
-
-After installing `postcss-loader`, configure the file `vue.config.js` this way:
-
-```js
-const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
-const scssSyntax = require('postcss-scss')
-
-module.exports = {
-  chainWebpack: config => {
-    // remove the old loader
-    config.module.rules.delete('css')
-
-    // define the new one with mozaic config
-    config.module
-      .rule('css')
-      .test(/\.scss$/)
-      .use('vue-style-loader')
-      .loader('postcss-loader')
-      .tap(() => ({
-          syntax: scssSyntax,
-          plugins: pluginList,
-        })
-      })
-  },
-}
-```
+You can find this documentation on the associated Github repository: [https://github.com/adeo/mozaic-vue/wiki/Getting-Started](https://github.com/adeo/mozaic-vue/wiki/Getting-Started)
 
 ### E) With Angular CLI
 
