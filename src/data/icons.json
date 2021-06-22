@@ -1701,6 +1701,14 @@
     {
       "cat": "Service",
       "size": "24px",
+      "name": "Custom_Course",
+      "fileName": "Service_Custom_Course_24px.svg",
+      "iconName": "CustomCourse",
+      "componentName": "CustomCourse24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
       "name": "Custom_CutWoodGlass",
       "fileName": "Service_Custom_CutWoodGlass_24px.svg",
       "iconName": "CustomCutWoodGlass",
@@ -1733,38 +1741,6 @@
     {
       "cat": "Service",
       "size": "24px",
-      "name": "Delay_Delivery--2h",
-      "fileName": "Service_Delay_Delivery--2h_24px.svg",
-      "iconName": "DelayDelivery2h",
-      "componentName": "DelayDelivery2h24"
-    },
-    {
-      "cat": "Service",
-      "size": "24px",
-      "name": "Delay_Delivery--3h",
-      "fileName": "Service_Delay_Delivery--3h_24px.svg",
-      "iconName": "DelayDelivery3h",
-      "componentName": "DelayDelivery3h24"
-    },
-    {
-      "cat": "Service",
-      "size": "24px",
-      "name": "Delay_Delivery--48h",
-      "fileName": "Service_Delay_Delivery--48h_24px.svg",
-      "iconName": "DelayDelivery48h",
-      "componentName": "DelayDelivery48h24"
-    },
-    {
-      "cat": "Service",
-      "size": "24px",
-      "name": "Delay_TimeDecline",
-      "fileName": "Service_Delay_TimeDecline_24px.svg",
-      "iconName": "DelayTimeDecline",
-      "componentName": "DelayTimeDecline24"
-    },
-    {
-      "cat": "Service",
-      "size": "24px",
       "name": "Delivery_Delivery_Pickup--RelayPoint",
       "fileName": "Service_Delivery_Delivery_Pickup--RelayPoint_24px.svg",
       "iconName": "DeliveryDeliveryPickupRelayPoint",
@@ -1785,14 +1761,6 @@
       "fileName": "Service_Delivery_Delivery--Home_24px.svg",
       "iconName": "DeliveryDeliveryHome",
       "componentName": "DeliveryDeliveryHome24"
-    },
-    {
-      "cat": "Service",
-      "size": "24px",
-      "name": "Empty",
-      "fileName": "Service_Empty_24px.svg",
-      "iconName": "Empty",
-      "componentName": "Empty24"
     },
     {
       "cat": "Service",
@@ -1825,6 +1793,38 @@
       "fileName": "Service_PurchaseHelp_ToolRent_24px.svg",
       "iconName": "PurchaseHelpToolRent",
       "componentName": "PurchaseHelpToolRent24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
+      "name": "Time_Delivery--2h",
+      "fileName": "Service_Time_Delivery--2h_24px.svg",
+      "iconName": "TimeDelivery2h",
+      "componentName": "TimeDelivery2h24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
+      "name": "Time_Delivery--3h",
+      "fileName": "Service_Time_Delivery--3h_24px.svg",
+      "iconName": "TimeDelivery3h",
+      "componentName": "TimeDelivery3h24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
+      "name": "Time_Delivery--48h",
+      "fileName": "Service_Time_Delivery--48h_24px.svg",
+      "iconName": "TimeDelivery48h",
+      "componentName": "TimeDelivery48h24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
+      "name": "Time_TimeDecline",
+      "fileName": "Service_Time_TimeDecline_24px.svg",
+      "iconName": "TimeTimeDecline",
+      "componentName": "TimeTimeDecline24"
     },
     {
       "cat": "Service",
@@ -2145,6 +2145,14 @@
       "fileName": "Universe_Garden2_24px.svg",
       "iconName": "Garden2",
       "componentName": "Garden224"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "HardwareStore",
+      "fileName": "Universe_HardwareStore_24px.svg",
+      "iconName": "HardwareStore",
+      "componentName": "HardwareStore24"
     },
     {
       "cat": "Universe",
@@ -3661,38 +3669,6 @@
     {
       "cat": "Service",
       "size": "32px",
-      "name": "Delay_Delivery--2h",
-      "fileName": "Service_Delay_Delivery--2h_32px.svg",
-      "iconName": "DelayDelivery2h",
-      "componentName": "DelayDelivery2h32"
-    },
-    {
-      "cat": "Service",
-      "size": "32px",
-      "name": "Delay_Delivery--3h",
-      "fileName": "Service_Delay_Delivery--3h_32px.svg",
-      "iconName": "DelayDelivery3h",
-      "componentName": "DelayDelivery3h32"
-    },
-    {
-      "cat": "Service",
-      "size": "32px",
-      "name": "Delay_Delivery--48h",
-      "fileName": "Service_Delay_Delivery--48h_32px.svg",
-      "iconName": "DelayDelivery48h",
-      "componentName": "DelayDelivery48h32"
-    },
-    {
-      "cat": "Service",
-      "size": "32px",
-      "name": "Delay_TimeDecline",
-      "fileName": "Service_Delay_TimeDecline_32px.svg",
-      "iconName": "DelayTimeDecline",
-      "componentName": "DelayTimeDecline32"
-    },
-    {
-      "cat": "Service",
-      "size": "32px",
       "name": "Delivery_Delivery_Pickup--RelayPoint",
       "fileName": "Service_Delivery_Delivery_Pickup--RelayPoint_32px.svg",
       "iconName": "DeliveryDeliveryPickupRelayPoint",
@@ -3745,6 +3721,38 @@
       "fileName": "Service_PurchaseHelp_ToolRent_32px.svg",
       "iconName": "PurchaseHelpToolRent",
       "componentName": "PurchaseHelpToolRent32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
+      "name": "Time_Delivery--2h",
+      "fileName": "Service_Time_Delivery--2h_32px.svg",
+      "iconName": "TimeDelivery2h",
+      "componentName": "TimeDelivery2h32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
+      "name": "Time_Delivery--3h",
+      "fileName": "Service_Time_Delivery--3h_32px.svg",
+      "iconName": "TimeDelivery3h",
+      "componentName": "TimeDelivery3h32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
+      "name": "Time_Delivery--48h",
+      "fileName": "Service_Time_Delivery--48h_32px.svg",
+      "iconName": "TimeDelivery48h",
+      "componentName": "TimeDelivery48h32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
+      "name": "Time_TimeDecline",
+      "fileName": "Service_Time_TimeDecline_32px.svg",
+      "iconName": "TimeTimeDecline",
+      "componentName": "TimeTimeDecline32"
     },
     {
       "cat": "Service",
@@ -4065,6 +4073,14 @@
       "fileName": "Universe_Garden2_32px.svg",
       "iconName": "Garden2",
       "componentName": "Garden232"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "HardwareStore",
+      "fileName": "Universe_HardwareStore_32px.svg",
+      "iconName": "HardwareStore",
+      "componentName": "HardwareStore32"
     },
     {
       "cat": "Universe",
@@ -5597,38 +5613,6 @@
     {
       "cat": "Service",
       "size": "48px",
-      "name": "Delay_Delivery--2h",
-      "fileName": "Service_Delay_Delivery--2h_48px.svg",
-      "iconName": "DelayDelivery2h",
-      "componentName": "DelayDelivery2h48"
-    },
-    {
-      "cat": "Service",
-      "size": "48px",
-      "name": "Delay_Delivery--3h",
-      "fileName": "Service_Delay_Delivery--3h_48px.svg",
-      "iconName": "DelayDelivery3h",
-      "componentName": "DelayDelivery3h48"
-    },
-    {
-      "cat": "Service",
-      "size": "48px",
-      "name": "Delay_Delivery--48h",
-      "fileName": "Service_Delay_Delivery--48h_48px.svg",
-      "iconName": "DelayDelivery48h",
-      "componentName": "DelayDelivery48h48"
-    },
-    {
-      "cat": "Service",
-      "size": "48px",
-      "name": "Delay_TimeDecline",
-      "fileName": "Service_Delay_TimeDecline_48px.svg",
-      "iconName": "DelayTimeDecline",
-      "componentName": "DelayTimeDecline48"
-    },
-    {
-      "cat": "Service",
-      "size": "48px",
       "name": "Delivery_Delivery_Pickup--RelayPoint",
       "fileName": "Service_Delivery_Delivery_Pickup--RelayPoint_48px.svg",
       "iconName": "DeliveryDeliveryPickupRelayPoint",
@@ -5681,6 +5665,38 @@
       "fileName": "Service_PurchaseHelp_ToolRent_48px.svg",
       "iconName": "PurchaseHelpToolRent",
       "componentName": "PurchaseHelpToolRent48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
+      "name": "Time_Delivery--2h",
+      "fileName": "Service_Time_Delivery--2h_48px.svg",
+      "iconName": "TimeDelivery2h",
+      "componentName": "TimeDelivery2h48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
+      "name": "Time_Delivery--3h",
+      "fileName": "Service_Time_Delivery--3h_48px.svg",
+      "iconName": "TimeDelivery3h",
+      "componentName": "TimeDelivery3h48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
+      "name": "Time_Delivery--48h",
+      "fileName": "Service_Time_Delivery--48h_48px.svg",
+      "iconName": "TimeDelivery48h",
+      "componentName": "TimeDelivery48h48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
+      "name": "Time_TimeDecline",
+      "fileName": "Service_Time_TimeDecline_48px.svg",
+      "iconName": "TimeTimeDecline",
+      "componentName": "TimeTimeDecline48"
     },
     {
       "cat": "Service",
@@ -6001,6 +6017,14 @@
       "fileName": "Universe_Garden2_48px.svg",
       "iconName": "Garden2",
       "componentName": "Garden248"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "HardwareStore",
+      "fileName": "Universe_HardwareStore_48px.svg",
+      "iconName": "HardwareStore",
+      "componentName": "HardwareStore48"
     },
     {
       "cat": "Universe",
@@ -7533,38 +7557,6 @@
     {
       "cat": "Service",
       "size": "64px",
-      "name": "Delay_Delivery--2h",
-      "fileName": "Service_Delay_Delivery--2h_64px.svg",
-      "iconName": "DelayDelivery2h",
-      "componentName": "DelayDelivery2h64"
-    },
-    {
-      "cat": "Service",
-      "size": "64px",
-      "name": "Delay_Delivery--3h",
-      "fileName": "Service_Delay_Delivery--3h_64px.svg",
-      "iconName": "DelayDelivery3h",
-      "componentName": "DelayDelivery3h64"
-    },
-    {
-      "cat": "Service",
-      "size": "64px",
-      "name": "Delay_Delivery--48h",
-      "fileName": "Service_Delay_Delivery--48h_64px.svg",
-      "iconName": "DelayDelivery48h",
-      "componentName": "DelayDelivery48h64"
-    },
-    {
-      "cat": "Service",
-      "size": "64px",
-      "name": "Delay_TimeDecline",
-      "fileName": "Service_Delay_TimeDecline_64px.svg",
-      "iconName": "DelayTimeDecline",
-      "componentName": "DelayTimeDecline64"
-    },
-    {
-      "cat": "Service",
-      "size": "64px",
       "name": "Delivery_Delivery_Pickup--RelayPoint",
       "fileName": "Service_Delivery_Delivery_Pickup--RelayPoint_64px.svg",
       "iconName": "DeliveryDeliveryPickupRelayPoint",
@@ -7617,6 +7609,38 @@
       "fileName": "Service_PurchaseHelp_ToolRent_64px.svg",
       "iconName": "PurchaseHelpToolRent",
       "componentName": "PurchaseHelpToolRent64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
+      "name": "Time_Delivery--2h",
+      "fileName": "Service_Time_Delivery--2h_64px.svg",
+      "iconName": "TimeDelivery2h",
+      "componentName": "TimeDelivery2h64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
+      "name": "Time_Delivery--3h",
+      "fileName": "Service_Time_Delivery--3h_64px.svg",
+      "iconName": "TimeDelivery3h",
+      "componentName": "TimeDelivery3h64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
+      "name": "Time_Delivery--48h",
+      "fileName": "Service_Time_Delivery--48h_64px.svg",
+      "iconName": "TimeDelivery48h",
+      "componentName": "TimeDelivery48h64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
+      "name": "Time_TimeDecline",
+      "fileName": "Service_Time_TimeDecline_64px.svg",
+      "iconName": "TimeTimeDecline",
+      "componentName": "TimeTimeDecline64"
     },
     {
       "cat": "Service",
@@ -7945,6 +7969,14 @@
       "fileName": "Universe_Garden2_64px.svg",
       "iconName": "Garden2",
       "componentName": "Garden264"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "HardwareStore",
+      "fileName": "Universe_HardwareStore_64px.svg",
+      "iconName": "HardwareStore",
+      "componentName": "HardwareStore64"
     },
     {
       "cat": "Universe",
