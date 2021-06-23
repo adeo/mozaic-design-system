@@ -1,8 +1,8 @@
-import styled from 'styled-components'
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import styled from "styled-components"
+import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 
-import IconTile from './IconTile'
+import IconTile from "./IconTile"
 
 const IconsList = styled.ul`
   padding: 0;
@@ -17,40 +17,38 @@ const IconViewer = ({ type }) => {
       query={graphql`
         query AllIcons {
           dataJson {
-            icons {
-              color {
-                cat
-                size
-                name
-                fileName
-                iconName
-              }
-              monochrom {
-                cat
-                size
-                name
-                fileName
-                iconName
-                componentName
-              }
+            color {
+              cat
+              size
+              name
+              fileName
+              iconName
+            }
+            monochrom {
+              cat
+              size
+              name
+              fileName
+              iconName
+              componentName
             }
           }
         }
       `}
-      render={data => {
-        const icons = data.dataJson.icons[type]
+      render={(data) => {
+        const icons = data.dataJson[type]
         const categories = {}
 
-        icons.forEach(icon => {
+        icons.forEach((icon) => {
           if (!categories[icon.cat]) categories[icon.cat] = {}
 
           if (!categories[icon.cat][icon.name])
             categories[icon.cat][icon.name] = {
-              '16px': null,
-              '24px': null,
-              '32px': null,
-              '48px': null,
-              '64px': null,
+              "16px": null,
+              "24px": null,
+              "32px": null,
+              "48px": null,
+              "64px": null,
             }
 
           if (categories[icon.cat][icon.name][icon.size] === null)
@@ -63,11 +61,11 @@ const IconViewer = ({ type }) => {
 
         return (
           <div>
-            {Object.keys(categories).map(cat => (
+            {Object.keys(categories).map((cat) => (
               <div key={cat}>
                 <h1>{cat}</h1>
                 <IconsList>
-                  {Object.keys(categories[cat]).map(name => (
+                  {Object.keys(categories[cat]).map((name) => (
                     <IconTile
                       type={type}
                       key={`${cat}-${name}`}

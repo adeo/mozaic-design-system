@@ -69,39 +69,13 @@ exports[`<IconTile /> render corectly icon colors 1`] = `
 }
 
 .c5 {
-  -webkit-flex: 0 1 20%;
-  -ms-flex: 0 1 20%;
-  flex: 0 1 20%;
-  list-style: none;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.62rem;
-  background: #f2f2f2;
-  color: darkgrey;
   background: #78be20;
   color: white !important;
 }
 
-.c5:not(:first-child) {
-  border-left: 1px solid #eee;
-}
-
 .c7 {
-  -webkit-flex: 0 1 20%;
-  -ms-flex: 0 1 20%;
-  flex: 0 1 20%;
-  list-style: none;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.62rem;
-  background: #f2f2f2;
-  color: darkgrey;
   background: none;
   color: inherit;
-}
-
-.c7:not(:first-child) {
-  border-left: 1px solid #eee;
 }
 
 .c6 {
@@ -173,7 +147,7 @@ exports[`<IconTile /> render corectly icon colors 1`] = `
       32px
     </li>
     <li
-      className="c5"
+      className="c4 c5"
     >
       <button
         className="c6"
@@ -184,7 +158,7 @@ exports[`<IconTile /> render corectly icon colors 1`] = `
       </button>
     </li>
     <li
-      className="c7"
+      className="c4 c7"
     >
       <button
         className="c6"
@@ -279,21 +253,8 @@ exports[`<IconTile /> render corectly monochrom icon 1`] = `
 }
 
 .c5 {
-  -webkit-flex: 0 1 20%;
-  -ms-flex: 0 1 20%;
-  flex: 0 1 20%;
-  list-style: none;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.62rem;
-  background: #f2f2f2;
-  color: darkgrey;
   background: #78be20;
   color: white !important;
-}
-
-.c5:not(:first-child) {
-  border-left: 1px solid #eee;
 }
 
 .c6 {
@@ -373,7 +334,7 @@ exports[`<IconTile /> render corectly monochrom icon 1`] = `
       32px
     </li>
     <li
-      className="c5"
+      className="c4 c5"
     >
       <button
         className="c6"

@@ -1,13 +1,14 @@
-import { graphql, StaticQuery } from 'gatsby'
-import React from 'react'
-import styled from 'styled-components'
-import AreaContact from '../components/AreaContact'
-import AreaDiscover from '../components/AreaDiscover'
-import AreaValues from '../components/AreaValues'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import Menu from '../gatsby-components/Menu'
-import './index.scss'
+import { graphql, StaticQuery } from "gatsby"
+import React from "react"
+import styled from "styled-components"
+import AreaContact from "../components/AreaContact"
+import AreaDiscover from "../components/AreaDiscover"
+import AreaValues from "../components/AreaValues"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import Menu from "../gatsby-components/Menu"
+import JSONData from "../../../../src/content/datas.json"
+import "./index.scss"
 
 // --------- COMMON
 const Global = styled.div`
@@ -55,7 +56,7 @@ const IndexPage = ({ release, discover, contactus, ourvalues }) => {
   return (
     <Global>
       <AsideContainer>
-        <Menu siteTitle={'Mozaic'} />
+        <Menu siteTitle={"Mozaic"} />
       </AsideContainer>
       <Main>
         <Header />
@@ -73,39 +74,18 @@ const query = graphql`
     githubRelease(isCurrent: { eq: true }) {
       tagName
     }
-    dataJson {
-      home {
-        contactus {
-          icon
-          title
-          text
-          link
-          linkLabel
-        }
-        discover {
-          img
-          title
-          text
-          link
-        }
-        ourvalues {
-          title
-          text
-        }
-      }
-    }
   }
 `
 
 export default () => (
   <StaticQuery
     query={query}
-    render={data => (
+    render={(data) => (
       <IndexPage
         release={data.githubRelease.tagName}
-        discover={data.dataJson.home.discover}
-        contactus={data.dataJson.home.contactus}
-        ourvalues={data.dataJson.home.ourvalues}
+        discover={JSONData.discover}
+        contactus={JSONData.contactus}
+        ourvalues={JSONData.ourvalues}
       />
     )}
   />
