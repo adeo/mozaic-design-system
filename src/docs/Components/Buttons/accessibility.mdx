@@ -1,0 +1,38 @@
+---
+title: 'Accessibility'
+order: 4
+---
+
+## Accessibility and semantic
+
+<HintItem>
+  Alway wrap your label into a <code>span.mc-button__label</code> tag
+</HintItem>
+
+<HintItem>
+  Use <code>aria-label="button purpose"</code>{' '}
+  <b>using only an icon without text</b>.
+</HintItem>
+
+```html
+<button
+  type="button"
+  class="mc-button mc-button--icon-only mc-button--icon-medium-m"
+  aria-label="my button purpose"
+>
+  <!-- Your icon html tag -->
+</button>
+```
+
+<HintItem>
+  Use the right tag for the right purpose : <br />
+  <code>&lt;a&gt;</code> for links
+  <br />
+  <code>&lt;button type="submit" form="form_id"&gt;</code> to submit a form (you
+  should prefer it to input type submit)
+  <br />
+  <code>&lt;button&gt;</code> for any other actions
+  <br />
+</HintItem>
+
+<Preview path="suportedMarkup" />
