@@ -54,7 +54,7 @@
     max-height: 0;
     overflow: hidden;
     padding-left: $mu050;
-    transition: 0.3s ease;
+    transition: 0.3s ease-out;
     visibility: hidden;
   }
 
@@ -64,11 +64,12 @@
 
     &:checked {
       ~ #{$parent}__content {
-        max-height: 100vh;
+        // NOTE: The max-height fixed value allows the CSS transition to run correctly
+        // The value 10000vh corresponds to 100 times the viewport height to manage longs contents
+        max-height: 10000vh;
         padding-top: $mu050;
         padding-bottom: calc(#{$mu150} - #{get-border(s)});
         visibility: visible;
-        transition: 0.3s ease;
       }
     }
 
