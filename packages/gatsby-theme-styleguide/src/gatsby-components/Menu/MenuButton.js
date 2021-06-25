@@ -1,6 +1,6 @@
-import { ControlCross24, DisplayDisplayList24 } from '@mozaic-ds/icons/react'
-import React, { PureComponent } from 'react'
-import styled from 'styled-components'
+import { ControlCross24, DisplayMenu24 } from "@mozaic-ds/icons/react"
+import React, { PureComponent } from "react"
+import styled from "styled-components"
 
 const TriggerButton = styled.button`
   background: none;
@@ -48,29 +48,29 @@ const TriggerButton = styled.button`
 
 export default class MenuButton extends PureComponent {
   handleMenu = () => {
-    if (document.body.classList.contains('nav-open')) {
-      document.body.classList.remove('nav-open')
+    if (document.body.classList.contains("nav-open")) {
+      document.body.classList.remove("nav-open")
       return false
     }
 
-    document.body.classList.add('nav-open')
+    document.body.classList.add("nav-open")
   }
 
-  manageScroll = e => {
+  manageScroll = (e) => {
     const scrollValue = e.currentTarget.scrollTop
     if (scrollValue > 0) {
-      document.querySelector('.triggerMenu').classList.add('triggerMenu--hide')
+      document.querySelector(".triggerMenu").classList.add("triggerMenu--hide")
     } else {
       document
-        .querySelector('.triggerMenu')
-        .classList.remove('triggerMenu--hide')
+        .querySelector(".triggerMenu")
+        .classList.remove("triggerMenu--hide")
     }
   }
 
   componentDidMount() {
     document
-      .querySelector('.MenuWrapper')
-      .addEventListener('scroll', this.manageScroll)
+      .querySelector(".MenuWrapper")
+      .addEventListener("scroll", this.manageScroll)
   }
 
   render() {
@@ -81,10 +81,7 @@ export default class MenuButton extends PureComponent {
         title="Open Menu"
         onClick={this.handleMenu}
       >
-        <DisplayDisplayList24
-          className="triggerMenu__open"
-          fill="currentColor"
-        />
+        <DisplayMenu24 className="triggerMenu__open" fill="currentColor" />
         <ControlCross24 className="triggerMenu__close" fill="currentColor" />
       </TriggerButton>
     )

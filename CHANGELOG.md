@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/adeo/mozaic-design-system/compare/v1.11.0...v1.12.0) (2021-06-23)
+
+
+### Bug Fixes
+
+* **tools/stylelint:** turn off the rule 'no-invalid-position-at-import-rule' ([#853](https://github.com/adeo/mozaic-design-system/issues/853)) ([a337c91](https://github.com/adeo/mozaic-design-system/commit/a337c91c1c6bc1d52a5d29c2228758753c9c094a))
+
+
+### Features
+
+* **foundations/icons:** icons update ([#815](https://github.com/adeo/mozaic-design-system/issues/815)) ([04388e7](https://github.com/adeo/mozaic-design-system/commit/04388e7112969e3cfdb9412fd2a64a995cf6a652))
+
+
+
+
+
 # [1.11.0](https://github.com/adeo/mozaic-design-system/compare/v1.10.0...v1.11.0) (2021-06-09)
 
 
