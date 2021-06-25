@@ -1,5 +1,5 @@
 ---
-title: 'Code'
+title: "Code"
 order: 2
 ---
 
@@ -10,12 +10,12 @@ Import the **settings**, the **layer**, and the **button** scss files.
 > Note that you can also implement in addition the scss file of **the links** if you use this component in your layers.
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.layer';
-@import 'components/_c.button';
+@import "components/_c.layer";
+@import "components/_c.button";
 ```
 
 ## Usage
@@ -113,6 +113,7 @@ Add the `mc-layer-open` class to the html body element to prevent the default sc
 #### Scrollbar on content
 
 By default the scrollbar is next to the content.
+
 - Add `mc-layer__body--overflowing` modifier to the `mc-layer__body` element.
 
 <Preview path="scrolling-content" />
@@ -145,7 +146,7 @@ As detailed above, the footer is optional. Depending on the context of your laye
 
 ### Extended layer
 
-In some configurations, you may need to extend the width of the layer. 
+In some configurations, you may need to extend the width of the layer.
 
 To do this, you can add the `mc-layer__dialog--extend` to the `.mc-layer__dialog`.
 
@@ -159,6 +160,23 @@ To do this, you can add the `mc-layer__dialog--extend` to the `.mc-layer__dialog
 
 During the opening of a layer by Javascript, several events occur:
 
-- Added the `mc-layer-open` class to the body to prevent the default scrolling of the browser window.
 - Added the `is-open` class on the `mc-layer__dialog` element.
 - An `mc-layer-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
+
+#### Prevent body from scrolling
+
+When you use a layer, by definition, it opens on top of the content of your page.
+
+But depending on your context of use, you may need to prevent the user from scrolling the page in the background of your layer.
+
+That's why **Mozaic** provides you with a css utility class allowing you to lock the use of scroll.
+
+To do this, you need to add the `.mu-prevent-body-scroll` class to both the `html` and `body` tags.
+
+When using this utility class, do not forget to import the associated SCSS file:
+
+```scss
+@import "utilities/_u.scroll";
+```
+
+> Note that the use of this class is not imposed by Mozaic but left to your discretion.
