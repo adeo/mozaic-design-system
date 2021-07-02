@@ -1,0 +1,9 @@
+.mu-prevent-body-scroll {
+  @at-root html#{&} {
+    overflow: hidden;
+  }
+
+  @at-root body#{&} {
+    overflow-y: scroll;
+  }
+}
