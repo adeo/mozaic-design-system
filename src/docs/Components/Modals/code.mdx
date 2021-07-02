@@ -152,8 +152,25 @@ Just as the width of a modal varies according to the rules indicated above, the 
 
 During the opening of a modal by Javascript, several events occur:
 
-- Added the `mc-modal-open` class to the body to prevent the default scrolling of the browser window.
 - Added the `is-open` class on the `mc-modal__dialog` element.
 - A `mc-modal-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
 
 <Preview path="opening" />
+
+#### Prevent body from scrolling
+
+When you use a modal, by definition, it opens on top of the content of your page.
+
+But depending on your context of use, you may need to prevent the user from scrolling the page in the background of your modal.
+
+That's why **Mozaic** provides you with a css utility class allowing you to lock the use of scroll.
+
+To do this, you need to add the `.mu-prevent-body-scroll` class to both the `html` and `body` tags.
+
+When using this utility class, do not forget to import the associated SCSS file:
+
+```scss
+@import "utilities/_u.scroll";
+```
+
+> Note that the use of this class is not imposed by Mozaic but left to your discretion.
