@@ -186,4 +186,8 @@
   &-overlay {
     @include set-dialog-overlay();
   }
+
+  &.is-hidden {
+    visibility: hidden;
+  }
 }
