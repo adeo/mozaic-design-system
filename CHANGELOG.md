@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/adeo/mozaic-design-system/compare/v1.12.0...v1.13.0) (2021-07-07)
+
+
+### Bug Fixes
+
+* **patterns/accordion:** increase max-height to manage long contents ([#859](https://github.com/adeo/mozaic-design-system/issues/859)) ([07f34b2](https://github.com/adeo/mozaic-design-system/commit/07f34b28716740343a87a66d716df6251316a9fe))
+* **patterns/tooltip:** prevent side-effects when using white-space on parent els ([#866](https://github.com/adeo/mozaic-design-system/issues/866)) ([92ca613](https://github.com/adeo/mozaic-design-system/commit/92ca613b7779f337e79fab78009cf689d0692376))
+
+
+### Features
+
+* **button:** only icon usage and accessibility tab ([#857](https://github.com/adeo/mozaic-design-system/issues/857)) ([1298052](https://github.com/adeo/mozaic-design-system/commit/12980523d228acb9ce9740192c8b0d909aa5d46c))
+* **patterns/toggle:** add a variation for visually hide the toggle label ([#867](https://github.com/adeo/mozaic-design-system/issues/867)) ([f5bcf78](https://github.com/adeo/mozaic-design-system/commit/f5bcf7879cc66ced8b1ad52db9619a54e49c02b6)), closes [#860](https://github.com/adeo/mozaic-design-system/issues/860)
+* **styles/utilities:** add a css utility class to prevent body from scrolling ([#861](https://github.com/adeo/mozaic-design-system/issues/861)) ([e9df695](https://github.com/adeo/mozaic-design-system/commit/e9df695cfaac098ae746d751ac7c69eae7f316f9))
+
+
+
+
+
 # [1.12.0](https://github.com/adeo/mozaic-design-system/compare/v1.11.0...v1.12.0) (2021-06-23)
 
 
