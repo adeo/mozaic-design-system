@@ -1,5 +1,7 @@
 /* mqp:start */
 .mc-toggle {
+  $parent: get-parent-selector(&);
+
   display: block;
 
   // hide the input
@@ -8,8 +10,8 @@
   }
 
   &__label {
-    @include set-font-scale('05', 's');
-    @include set-toggle-size('m');
+    @include set-font-scale("05", "s");
+    @include set-toggle-size("m");
 
     box-sizing: border-box;
     cursor: pointer;
@@ -25,7 +27,7 @@
     &::after,
     &::before {
       box-sizing: border-box;
-      content: '';
+      content: "";
       display: block;
       left: 0;
       position: absolute;
@@ -37,7 +39,9 @@
     &::before {
       background-color: $color-toggle-off-background;
       will-change: background-color, border-color, box-shadow;
-      transition: background-color 100ms ease, border-color 100ms ease,
+      transition:
+        background-color 100ms ease,
+        border-color 100ms ease,
         box-shadow 200ms ease;
 
       :checked + & {
@@ -62,7 +66,7 @@
     // the switch pill foreground
     &::after {
       background-color: $color-toggle-off-circle;
-      border: solid get-border('l') $color-toggle-off-background;
+      border: solid get-border("l") $color-toggle-off-background;
       will-change: transform;
       transition: transform 100ms ease, border-color 100ms ease;
 
@@ -96,6 +100,12 @@
   }
 
   @include mod-toggle-sizes();
+
+  &--hide-label {
+    #{$parent}__content {
+      @include set-hidden-input();
+    }
+  }
 }
 
 /* mqp:end */

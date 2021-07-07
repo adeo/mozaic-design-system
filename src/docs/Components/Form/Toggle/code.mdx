@@ -1,5 +1,5 @@
 ---
-title: 'Code'
+title: "Code"
 order: 2
 ---
 
@@ -10,11 +10,11 @@ order: 2
 Import **the settings** and **the toggle** `scss` files.
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.toggle';
+@import "components/_c.toggle";
 ```
 
 ### Basic usage
@@ -28,9 +28,7 @@ To create a basic toggle, wrap a `input[type="checkbox"]` and a `label` inside a
 ```html
 <div class="mc-toggle">
   <input class="mc-toggle__input" id="example" type="checkbox" />
-  <label class="mc-toggle__label" for="example">
-    Label
-  </label>
+  <label class="mc-toggle__label" for="example"> Label </label>
 </div>
 ```
 
@@ -46,6 +44,22 @@ You can use one of the 2 available sizes:
 - **Medium** : this is the default style so you don't need to add a modifier class
 
 <Preview path="toggle-sizes" />
+
+#### Hide label
+
+In some cases, you may need to visually hide the label text associated with the toggle element.
+
+To achieve this, you can use the modifier `mc-toggle--hide-label`.
+
+<Preview path="hide-label" />
+
+<Highlight theme="warning" title="Accessibility rule">
+
+Note that the `mc-toggle--hide-label` modifier hides the label text only visually.
+
+However, for accessibility reasons, you should always make sure to insert a label text in your toggle code.
+
+</Highlight>
 
 ### States
 
@@ -87,7 +101,7 @@ Inside the label after you text:
 
 <Highlight theme="tips" title="Accessibility rule">
 
-  Don't forget to add the attribute `aria-hidden="true"` on the `mc-toggle__state` element
+Don't forget to add the attribute `aria-hidden="true"` on the `mc-toggle__state` element
 
 </Highlight>
 
@@ -100,13 +114,13 @@ Inside the label after you text:
 Import **the settings**, **the toggle** and **the fields** scss files.
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.toggle';
+@import "components/_c.toggle";
 
-@import 'components/_c.fields';
+@import "components/_c.fields";
 ```
 
 > Note that the import order is important to get the right rendering of the component.
@@ -123,28 +137,20 @@ To use the toggle pattern in a group of elements in your form, you must use the 
 ```html
 <div class="example">
   <fieldset class="mc-field mc-field--group">
-    <legend class="mc-field__legend">
-      Group Label
-    </legend>
+    <legend class="mc-field__legend">Group Label</legend>
 
     <div class="mc-field__container">
       <div class="mc-toggle">
         <input class="mc-toggle__input" id="toggle1" type="checkbox" />
-        <label class="mc-toggle__label" for="toggle1">
-          Label
-        </label>
+        <label class="mc-toggle__label" for="toggle1"> Label </label>
       </div>
       <div class="mc-toggle">
         <input class="mc-toggle__input" id="toggle2" type="checkbox" />
-        <label class="mc-toggle__label" for="toggle2">
-          Label
-        </label>
+        <label class="mc-toggle__label" for="toggle2"> Label </label>
       </div>
       <div class="mc-toggle">
         <input class="mc-toggle__input" id="toggle3" type="checkbox" />
-        <label class="mc-toggle__label" for="toggle3">
-          Label
-        </label>
+        <label class="mc-toggle__label" for="toggle3"> Label </label>
       </div>
     </div>
   </fieldset>
@@ -162,12 +168,8 @@ You have the possibility to define a help text when using toggles in a group.
 For this you have to add a span with the `mc-field__help` class below the legend.
 
 ```html
-<legend class="mc-field__legend">
-  Label
-</legend>
-<span id="helptext" class="mc-field__help">
-  Help text
-</span>
+<legend class="mc-field__legend">Label</legend>
+<span id="helptext" class="mc-field__help"> Help text </span>
 ```
 
 <Preview path="group-help-text" />
@@ -181,15 +183,13 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 ```html
 <legend class="mc-field__legend">
   Legend
-  <span class="mc-field__requirement">
-    mandatory
-  </span>
+  <span class="mc-field__requirement"> mandatory </span>
 </legend>
 ```
 
 <Highlight theme="tips" title="Semantic rule">
 
-  When one or more elements of the group are mandatory the `required` attribute must be added on the concerned toggle element
+When one or more elements of the group are mandatory the `required` attribute must be added on the concerned toggle element
 
 </Highlight>
 
@@ -215,22 +215,22 @@ If you want to add a toggle size, update the `$toggle-sizes` map after the `all-
 example :
 
 ```scss
-@import 'settings/all-settings';
+@import "settings/all-settings";
 $toggle-sizes: map-merge(
   $toggle-sizes,
   (
-    'xs': (
-      'width': 2,
-      'height': 1,
+    "xs": (
+      "width": 2,
+      "height": 1,
     ),
-    'l': (
-      'width': 6,
-      'height': 3,
+    "l": (
+      "width": 6,
+      "height": 3,
     ),
   )
 );
 
-@import 'components/_c.toggles';
+@import "components/_c.toggles";
 ```
 
 <Preview path="toggle-extend-sizes" />
