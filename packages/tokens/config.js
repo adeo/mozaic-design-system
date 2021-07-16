@@ -1,10 +1,10 @@
 const CM = require('@mozaic-ds/configuration-manager')
 const path = require('path')
 
-const getPath = localRelativePath =>
+const getPath = (localRelativePath) =>
   path.relative(process.cwd(), `${__dirname}/${localRelativePath}`)
 
-const getBuildPath = path => getPath(path) + '/'
+const getBuildPath = (path) => getPath(path) + '/'
 
 const preset = CM.getKey('preset')
 
@@ -19,7 +19,7 @@ const source = localSrcPath
 if (preset && preset === 'adeo')
   source.splice(1, 0, getPath('AdeoProperties/**/*.json'))
 
-const setLocalTokensExportPath = dir =>
+const setLocalTokensExportPath = (dir) =>
   localTokensExportPath
     ? `${localTokensExportPath}${dir}/`
     : getBuildPath(`build/${dir}/`)

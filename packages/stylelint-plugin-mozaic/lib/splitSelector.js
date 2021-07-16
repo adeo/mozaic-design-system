@@ -31,7 +31,7 @@ function mergeArr(...args) {
 
 function splitBem(string, options) {
   const delimitersToSplit = []
-  Object.keys(options.bemEntitiesDelimiters).forEach(key => {
+  Object.keys(options.bemEntitiesDelimiters).forEach((key) => {
     delimitersToSplit.push(
       getPatternPositionArray(string, options.bemEntitiesDelimiters[key])
     )
@@ -44,7 +44,7 @@ function splitBem(string, options) {
     const part = string.substring(stringIndex, splitter[i + 1])
     let partFound = false
 
-    Object.keys(options.bemEntitiesDelimiters).forEach(key => {
+    Object.keys(options.bemEntitiesDelimiters).forEach((key) => {
       if (part.startsWith(options.bemEntitiesDelimiters[key])) {
         arr.push({
           partType: key,
@@ -64,7 +64,7 @@ function splitBem(string, options) {
 
 const extractPrefix = (selector, options) => {
   const result = options.prefixes
-    ? options.prefixes.filter(prefix => selector.includes(prefix, 0))
+    ? options.prefixes.filter((prefix) => selector.includes(prefix, 0))
     : []
 
   if (result.length === 1) return result[0]

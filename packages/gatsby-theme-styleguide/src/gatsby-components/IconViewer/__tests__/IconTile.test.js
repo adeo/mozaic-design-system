@@ -79,9 +79,7 @@ describe('<IconTile />', () => {
   it('change the icon when you click on another size', () => {
     const Tile = mount(<IconTile {...ColorProps} />)
     expect(Tile.find(SizeItemBtn).length).toBe(2)
-    Tile.find(SizeItemBtn)
-      .at(1)
-      .simulate('click')
+    Tile.find(SizeItemBtn).at(1).simulate('click')
     expect(Tile.state().currentSize).toBe('64px')
   })
 

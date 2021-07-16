@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const htmlContent = el => {
+const htmlContent = (el) => {
   return {
     __html: el,
   }
@@ -133,7 +133,7 @@ const AreaHat = styled.p`
   margin-top: 0;
 `
 
-const AreaContact = props => {
+const AreaContact = (props) => {
   const cards = props.cards.map((card, index) => (
     <StyledCard
       key={index}

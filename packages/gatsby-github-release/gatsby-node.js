@@ -41,7 +41,7 @@ exports.sourceNodes = async ({
 
   const tags = data.data.repository.releases.nodes
 
-  tags.forEach(tag => {
+  tags.forEach((tag) => {
     const { tagName, publishedAt, descriptionHTML } = tag
 
     let nodeId = createNodeId(`github-release-${tagName}`)

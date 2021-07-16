@@ -127,7 +127,7 @@ const AreaWrapper = styled.div`
   z-index: 1;
 `
 
-const AreaDiscover = props => {
+const AreaDiscover = (props) => {
   const cards = props.cards.map((card, index) => (
     <StyledCard
       key={index}
