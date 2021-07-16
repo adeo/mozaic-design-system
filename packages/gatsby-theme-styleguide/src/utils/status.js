@@ -2,7 +2,7 @@ export const authorizedPlatforms = ['sketch', 'scss', 'figma']
 
 export const authorizedStatus = ['wip', 'bêta', 'stable', 'ready']
 
-export const checkPlatform = platformInput => {
+export const checkPlatform = (platformInput) => {
   if (!platformInput) {
     return platformInput
   }
@@ -16,7 +16,7 @@ export const checkPlatform = platformInput => {
   return false
 }
 
-export const checkStatus = statusInput => {
+export const checkStatus = (statusInput) => {
   if (!statusInput) {
     return statusInput
   }

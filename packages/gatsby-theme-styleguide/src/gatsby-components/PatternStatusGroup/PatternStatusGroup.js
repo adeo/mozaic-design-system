@@ -46,7 +46,7 @@ const PatternStatusGroup = ({ status }) => {
         </StatusItem>
       )
     })
-    .filter(item => !!item)
+    .filter((item) => !!item)
 
   if (!items.length) {
     return false

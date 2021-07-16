@@ -105,7 +105,7 @@ export default ({ data, location }) => {
   // use the index title as main Page name
   // use the index status for all other tabs
   const parentFrontmatter = samePageTabs.find(
-    tab => tab.node.fields.fileName.name === 'index'
+    (tab) => tab.node.fields.fileName.name === 'index'
   ).node.frontmatter
   const parentTitle = parentFrontmatter.title
   const parentStatus = parentFrontmatter.status

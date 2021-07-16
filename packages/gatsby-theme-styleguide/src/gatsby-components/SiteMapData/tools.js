@@ -3,10 +3,10 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
 
   // find if that piece of path already exists in "finalArray"
   const findAlreadyCreatedPathObj = (array, path) => {
-    return array.find(elem => elem.path === path)
+    return array.find((elem) => elem.path === path)
   }
 
-  allMdx.forEach(mdxElem => {
+  allMdx.forEach((mdxElem) => {
     mdxElem = mdxElem.node
     const relativePath = mdxElem.fields.fileName.relativePath
     const slug = mdxElem.fields.slug
@@ -23,7 +23,7 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
       lookingArray = finalArray,
       accumPath = basedir
 
-    pathArray.forEach(lookingPath => {
+    pathArray.forEach((lookingPath) => {
       accumPath += '/' + lookingPath
       accumPath = accumPath.replace('//', '/')
 
@@ -50,9 +50,9 @@ export const parseAllFiles = (allMdx, { basedir = 'docs/', location } = {}) => {
 
   // order the "finalArray" by the "order" property recursively
   // "order" = the order the menu items are shown
-  const orderSiteMapArray = siteMapArray => {
+  const orderSiteMapArray = (siteMapArray) => {
     siteMapArray.sort((a, b) => a.order - b.order)
-    siteMapArray.forEach(siteMapItem => {
+    siteMapArray.forEach((siteMapItem) => {
       if (siteMapItem.content) {
         orderSiteMapArray(siteMapItem.content)
       }
@@ -75,8 +75,8 @@ export const parseLocation = (siteMapArray, location = '') => {
 
   // "contentArray" will be "siteMapArray" and recursively all
   // Its "content" props
-  const parseLocationRecursively = contentArray => {
-    return contentArray.map(pathObj => {
+  const parseLocationRecursively = (contentArray) => {
+    return contentArray.map((pathObj) => {
       const pathFiltered = pathObj.path.replace('docs', '')
       pathObj.isOpened = location.includes(pathFiltered)
       pathObj.isPartOfCurrentlocation = location.includes(pathFiltered)

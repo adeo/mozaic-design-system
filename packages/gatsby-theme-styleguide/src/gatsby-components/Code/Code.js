@@ -103,10 +103,7 @@ const Code = ({
 }) => {
   const [copied, setCopied] = useState(false)
   const language = className
-    ? className
-        .split(`language-`)
-        .pop()
-        .toLowerCase()
+    ? className.split(`language-`).pop().toLowerCase()
     : ''
 
   const content =

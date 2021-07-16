@@ -22,7 +22,7 @@ const Flag = styled.span`
     `
   }}
 `
-const capitalizeFirstLetter = word =>
+const capitalizeFirstLetter = (word) =>
   word.charAt(0).toUpperCase() + word.slice(1)
 
 const StatusFlag = ({ status }) => {

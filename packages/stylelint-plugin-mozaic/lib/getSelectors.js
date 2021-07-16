@@ -6,11 +6,11 @@ const selector = (rule, result) => {
   const selector = rule.selector
   const selectorDef = []
 
-  resolveNestedSelector(selector, rule).forEach(selectorB => {
+  resolveNestedSelector(selector, rule).forEach((selectorB) => {
     try {
-      parseSelector(parsedSelector => {
-        parsedSelector.each(selectorNode => {
-          selectorNode.walk(s => {
+      parseSelector((parsedSelector) => {
+        parsedSelector.each((selectorNode) => {
+          selectorNode.walk((s) => {
             selectorDef.push({
               value: s.value,
               type: s.type,

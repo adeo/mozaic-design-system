@@ -1,4 +1,4 @@
-module.exports = plop => {
+module.exports = (plop) => {
   // controller generator
   plop.setGenerator('pattern', {
     description: 'create a new pattern',

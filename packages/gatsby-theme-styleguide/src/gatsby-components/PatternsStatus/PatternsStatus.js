@@ -99,18 +99,18 @@ const PatternsStatus = ({ data }) => {
   const categories = Object.keys(tableModel)
 
   const platforms = categories
-    .map(title => Object.keys(tableModel[title]).map(subtitle => subtitle))
+    .map((title) => Object.keys(tableModel[title]).map((subtitle) => subtitle))
     .toString()
     .split(',')
-    .map(item => item)
+    .map((item) => item)
 
-  const platformsTableHeader = platforms.map(subtitle => (
+  const platformsTableHeader = platforms.map((subtitle) => (
     <Platform key={'th_' + subtitle}>
       {subtitle === 'name' ? '' : subtitle}
     </Platform>
   ))
 
-  const discipline = categories.map(title => {
+  const discipline = categories.map((title) => {
     const colspan = Object.keys(tableModel[title]).length
 
     return (
@@ -121,13 +121,13 @@ const PatternsStatus = ({ data }) => {
   })
 
   const tblRows = edges
-    .filter(pattern => !!pattern.node.frontmatter.status)
+    .filter((pattern) => !!pattern.node.frontmatter.status)
     .map((pattern, index) => {
       const thisPatternStatus = []
 
-      platforms.forEach(plateform => {
+      platforms.forEach((plateform) => {
         const relatedStatus = Object.keys(pattern.node.frontmatter.status).find(
-          status => status.toLowerCase() === plateform.toLowerCase()
+          (status) => status.toLowerCase() === plateform.toLowerCase()
         )
 
         if (plateform === 'name') {
@@ -236,7 +236,7 @@ const query = graphql`
 const PatternStatus = () => (
   <StaticQuery
     query={query}
-    render={data => (
+    render={(data) => (
       <div>
         <h2>Foundations</h2>
         <PatternsStatus data={data.Foundations} />

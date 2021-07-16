@@ -1,5 +1,5 @@
 module.exports['monochromOptim'] = {
-  custom: data =>
+  custom: (data) =>
     data
       .replace(/<style>(.*)<\/style>/g, '')
       .replace(/<defs>(.*)<\/defs>/g, '')
@@ -47,7 +47,7 @@ module.exports['monochromOptim'] = {
 }
 
 module.exports['colorOptim'] = {
-  custom: data =>
+  custom: (data) =>
     data
       .replace(/<defs><\/defs>/g, '')
       .replace(/data-name="[a-zA-Z0-9:;\.\s\(\)\-\,\/]*"/gi, '')

@@ -1,14 +1,14 @@
-const { convertPxToRem } = require("../utils/tools")
+const { convertPxToRem } = require('../utils/tools')
 
 const iconContent = (fileName, data) => {
-  const size = fileName.replace(".svg", "").split("_").pop()
+  const size = fileName.replace('.svg', '').split('_').pop()
 
   const parsedData = data.replace(
-    "<svg",
+    '<svg',
     `<svg width={size} height={size} id={id}  style={style} class={className} fill={fill}`
   )
 
-  const tag = fileName.replace(/_/g, "-").replace(".svg", "").toLowerCase()
+  const tag = fileName.replace(/_/g, '-').replace('.svg', '').toLowerCase()
 
   return `<svelte:options tag="${tag}" />
   <script>

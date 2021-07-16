@@ -61,7 +61,7 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
 // Utils
 const debounce = (fnc, tm) => {
   let time
-  return function() {
+  return function () {
     clearTimeout(time)
     time = setTimeout(() => {
       fnc.apply(this, arguments)
@@ -70,7 +70,7 @@ const debounce = (fnc, tm) => {
 }
 
 // Create preview html
-const createPreviewHtmlFile = node =>
+const createPreviewHtmlFile = (node) =>
   new Promise((resolve, reject) => {
     const destDir = `public/previews${node.fields.slug
       .split('/')
@@ -79,10 +79,10 @@ const createPreviewHtmlFile = node =>
 
     const fileName = node.fields.slug.split('/').pop()
 
-    mkdirp(destDir, err => {
+    mkdirp(destDir, (err) => {
       if (err) reject(err)
 
-      fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), error => {
+      fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), (error) => {
         if (error) reject(error)
         resolve()
       })
@@ -105,11 +105,11 @@ const createPreviewPages = (previews, previewsPath, reporter) => {
     .then(() => {
       reporter.success('preview files generated')
     })
-    .catch(err => reporter.panicOnBuild(err))
+    .catch((err) => reporter.panicOnBuild(err))
 }
 
 // Minimal builder for html previews
-const buildHtml = data => {
+const buildHtml = (data) => {
   var generatedStyles = data.codes.css
   var body = data.codes.html
   return `

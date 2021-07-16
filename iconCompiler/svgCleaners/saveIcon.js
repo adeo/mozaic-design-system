@@ -3,7 +3,7 @@ module.exports = ({ data, file }, outputPath) =>
     const fileName = path.basename(file)
     const savingFile = path.join(outputPath, fileName)
 
-    fs.writeFile(savingFile, data, 'utf8', err => {
+    fs.writeFile(savingFile, data, 'utf8', (err) => {
       if (err) {
         reject(err)
       }

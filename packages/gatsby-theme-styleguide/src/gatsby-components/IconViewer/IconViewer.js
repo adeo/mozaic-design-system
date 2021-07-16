@@ -1,8 +1,8 @@
-import styled from "styled-components"
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import styled from 'styled-components'
+import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 
-import IconTile from "./IconTile"
+import IconTile from './IconTile'
 
 const IconsList = styled.ul`
   padding: 0;
@@ -44,11 +44,11 @@ const IconViewer = ({ type }) => {
 
           if (!categories[icon.cat][icon.name])
             categories[icon.cat][icon.name] = {
-              "16px": null,
-              "24px": null,
-              "32px": null,
-              "48px": null,
-              "64px": null,
+              '16px': null,
+              '24px': null,
+              '32px': null,
+              '48px': null,
+              '64px': null,
             }
 
           if (categories[icon.cat][icon.name][icon.size] === null)

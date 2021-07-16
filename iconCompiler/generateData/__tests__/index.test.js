@@ -91,7 +91,7 @@ describe('genrateData', () => {
     fs.writeFile = jest.fn((path, data, utf8, callback) => {
       callback(false)
     })
-    generateIconsData([[{ foo: 'bar' }], [{ foo: 'bar' }]]).catch(err => {
+    generateIconsData([[{ foo: 'bar' }], [{ foo: 'bar' }]]).catch((err) => {
       expect(err).toBe(
         `generate icons data : the data received seems to be malformed\nTypeError: Cannot read property 'split' of undefined`
       )
@@ -102,7 +102,7 @@ describe('genrateData', () => {
     fs.writeFile = jest.fn((path, data, utf8, callback) => {
       callback('error message mock')
     })
-    generateIconsData([[...iconList], [...iconList]]).catch(err => {
+    generateIconsData([[...iconList], [...iconList]]).catch((err) => {
       expect(err).toBe(`while trying save the file : error message mock`)
     })
   })

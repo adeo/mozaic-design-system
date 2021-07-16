@@ -62,7 +62,7 @@ const JSImplementation = ({ links }) => {
         </StatusItem>
       )
     })
-    .filter(item => !!item)
+    .filter((item) => !!item)
 
   if (!items.length) {
     return false

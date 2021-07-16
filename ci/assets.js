@@ -14,7 +14,7 @@ const assets = JSON.parse(rawdata)
 function newArchive(zipFileName, pathNames) {
   const zip = new AdmZip()
 
-  pathNames.forEach(path => {
+  pathNames.forEach((path) => {
     const p = stat(path)
     if (p.isFile()) {
       zip.addLocalFile(path)
@@ -66,7 +66,7 @@ async function createAssets() {
   const release = await getReleaseByName()
   const idRelease = JSON.parse(release).id
 
-  assets.assets.forEach(function(asset) {
+  assets.assets.forEach(function (asset) {
     newArchive(asset.name, asset.folders)
     sendAssetForRelease(idRelease, asset.name)
   })

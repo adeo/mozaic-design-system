@@ -7,7 +7,7 @@ const splitSelector = require('./lib/splitSelector')
 
 const ruleName = 'plugin/mozaic-bem-pattern'
 
-const isStringOrRegExp = x => {
+const isStringOrRegExp = (x) => {
   return _.isString(x) || _.isRegExp(x)
 }
 
@@ -25,7 +25,7 @@ module.exports = stylelint.createPlugin(
       })
       if (!validOptions) return
 
-      root.walkRules(rule => {
+      root.walkRules((rule) => {
         const selector = getSelector(rule, result)
         const splitedSelector = splitSelector(selector, options)
         checkCase(splitedSelector, rule, result, ruleName, options)

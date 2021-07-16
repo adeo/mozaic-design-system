@@ -36,10 +36,10 @@ const VersionWrapper = styled.div`
   right: 0;
 `
 
-const filterCurrentRelease = githubReleases =>
-  githubReleases.filter(release => release.node.isCurrent === true)
+const filterCurrentRelease = (githubReleases) =>
+  githubReleases.filter((release) => release.node.isCurrent === true)
 
-const getCurrentRelease = githubReleases => {
+const getCurrentRelease = (githubReleases) => {
   const filtereredGithubReleases = filterCurrentRelease(githubReleases)
   return filtereredGithubReleases.length > 0 &&
     filtereredGithubReleases[0].node &&

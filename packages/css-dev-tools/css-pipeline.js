@@ -12,8 +12,8 @@ const cssCompiler = (scss, pathFrom, pathTo) =>
         to: pathTo,
         syntax: scssSyntax,
       })
-      .then(res => resolve(res))
-      .catch(err => {
+      .then((res) => resolve(res))
+      .catch((err) => {
         console.error(err.stack)
         reject(err.stack)
       })

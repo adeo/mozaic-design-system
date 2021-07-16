@@ -8,7 +8,7 @@ const config = require('../config')
 
 // create an array of all icon
 // or return a list of invalid icons names
-const searchAndValidateIconsIn = inputPath =>
+const searchAndValidateIconsIn = (inputPath) =>
   new Promise((resolve, reject) => {
     glob(inputPath, (err, icons) => {
       if (err) {
@@ -20,12 +20,12 @@ const searchAndValidateIconsIn = inputPath =>
       }
 
       const errors = icons
-        .map(icon => {
+        .map((icon) => {
           const svgName = path.basename(icon)
           const sizeDirectory = icon.split(path.sep).reverse()[1]
           return validateIconName(svgName, sizeDirectory)
         })
-        .filter(error => error !== null)
+        .filter((error) => error !== null)
 
       if (errors.length) {
         reject(errors.join(`\n✗ ERROR : `))
@@ -38,7 +38,7 @@ const searchAndValidateIconsIn = inputPath =>
 // read icon from the file system
 // and return it's content
 
-const readIcon = file =>
+const readIcon = (file) =>
   new Promise((resolve, reject) => {
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
@@ -57,10 +57,10 @@ const optimizeIcon = ({ file, data }, SVGOPlugins, customOptims) =>
       .then(({ file, data }) =>
         new svgo({ plugins: SVGOPlugins })
           .optimize(data)
-          .then(result => resolve({ file, data: result.data }))
-          .catch(err => reject(err))
+          .then((result) => resolve({ file, data: result.data }))
+          .catch((err) => reject(err))
       )
-      .catch(err => reject(err))
+      .catch((err) => reject(err))
   })
 
 const customOptimization = (file, data, customOptims) =>
@@ -82,7 +82,7 @@ const saveIcon = ({ data, file }, outputPath) =>
     const fileName = path.basename(file)
     const savingFile = path.join(outputPath, fileName)
 
-    fs.writeFile(savingFile, data, 'utf8', err => {
+    fs.writeFile(savingFile, data, 'utf8', (err) => {
       if (err) {
         reject(err)
       }
@@ -98,13 +98,17 @@ const main = (key, { SVGOPlugins, custom }) => {
 
   return new Promise((resolve, reject) => {
     searchAndValidateIconsIn(inputPath)
-      .then(icons => Promise.all(icons.map(icon => readIcon(icon))))
-      .then(icons =>
-        Promise.all(icons.map(icon => optimizeIcon(icon, SVGOPlugins, custom)))
+      .then((icons) => Promise.all(icons.map((icon) => readIcon(icon))))
+      .then((icons) =>
+        Promise.all(
+          icons.map((icon) => optimizeIcon(icon, SVGOPlugins, custom))
+        )
       )
-      .then(icons => Promise.all(icons.map(icon => saveIcon(icon, outputPath))))
-      .then(icons => resolve(icons))
-      .catch(err => reject(err))
+      .then((icons) =>
+        Promise.all(icons.map((icon) => saveIcon(icon, outputPath)))
+      )
+      .then((icons) => resolve(icons))
+      .catch((err) => reject(err))
   })
 }
 

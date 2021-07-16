@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
-export default props => {
+export default (props) => {
   const { children, ...rest } = props
   return (
     <StaticQuery
@@ -12,7 +12,7 @@ export default props => {
           }
         }
       `}
-      render={data => {
+      render={(data) => {
         return (
           <a
             {...rest}

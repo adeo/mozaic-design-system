@@ -37,10 +37,7 @@ const GenerateIcon = (size, viewBox, childs) => ({
 const vueIconComponent = ({ fileName, data }) => {
   const parsedFileName = `MIcon${createComponentName(fileName)}`
 
-  const sizePx = fileName
-    .replace('.svg', '')
-    .split('_')
-    .pop()
+  const sizePx = fileName.replace('.svg', '').split('_').pop()
 
   const size = convertPxToRem(sizePx.replace('px', ''))
   const parsedSVG = parse(data)
@@ -60,7 +57,7 @@ const vueIconComponent = ({ fileName, data }) => {
 
 export const ${parsedFileName} = GenerateIcon('${size}', '${viewBox}', [
   ${content.map(
-    elem => `[
+    (elem) => `[
     '${elem.tagName}',
     { attrs: ${JSON.stringify(elem.properties)} },
   ]`
@@ -68,7 +65,7 @@ export const ${parsedFileName} = GenerateIcon('${size}', '${viewBox}', [
 ])`
 }
 
-const vueIconsIndex = iconList => `<script>
+const vueIconsIndex = (iconList) => `<script>
 ${fileHeader}
 ${iconList.map(vueIconComponent).join('')}
 

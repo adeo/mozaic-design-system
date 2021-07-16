@@ -138,7 +138,7 @@ class Search extends Component {
       var results = []
 
       // search the indexed fields
-      Object.keys(index).forEach(idx => {
+      Object.keys(index).forEach((idx) => {
         results.push(...index[idx].values.search(query))
       })
 
@@ -147,9 +147,9 @@ class Search extends Component {
       // return the corresponding nodes in the store
       // filter code, design and specs pages
       var nodes = store
-        .filter(node => (results.includes(node.id) ? node : null))
+        .filter((node) => (results.includes(node.id) ? node : null))
         .filter(
-          page =>
+          (page) =>
             page.node.title !== 'code' &&
             page.node.title !== 'Code' &&
             page.node.title !== 'Design' &&
@@ -157,13 +157,13 @@ class Search extends Component {
             page.node.title !== 'specs' &&
             page.node.title !== 'Specs'
         )
-        .map(node => node.node)
+        .map((node) => node.node)
 
       return nodes
     }
   }
 
-  search = event => {
+  search = (event) => {
     const query = event.target.value
     if (this.state.query.length > 2) {
       const results = this.getSearchResults(query)

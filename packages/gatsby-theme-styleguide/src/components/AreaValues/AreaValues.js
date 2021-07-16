@@ -66,7 +66,7 @@ const AreaTitle = styled.h2`
   line-height: 1.156;
 `
 
-const AreaValues = props => {
+const AreaValues = (props) => {
   const blocks = props.values.map((block, index) => (
     <Block
       key={index}
