@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.1](https://github.com/adeo/mozaic-design-system/compare/v1.13.0...v1.13.1) (2021-07-21)
+
+**Note:** Version bump only for package @mozaic-ds/tokens
+
+
+
+
+
 # [1.9.0](https://github.com/adeo/mozaic-design-system/compare/v1.8.0...v1.9.0) (2021-05-12)
 
 
