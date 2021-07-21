@@ -39,12 +39,12 @@ const SubItem = ({ slug, title, description }) => (
 
 // simple function to build the content HTML structure
 const subcontentHtmlList = (content = [], allPreviewsImgs = [], level = 0) => {
-  const items = content.map(siteMapItem => {
+  const items = content.map((siteMapItem) => {
     const { title, slug, dirPath, description } = siteMapItem
 
     // Is there a "preview.png" file for this "siteMapItem"?
     const thumbNail = allPreviewsImgs.find(
-      elem => elem.node.relativePath === dirPath + '/thumbnail.png'
+      (elem) => elem.node.relativePath === dirPath + '/thumbnail.png'
     )
 
     const children = !!siteMapItem.content.length
@@ -90,11 +90,11 @@ const SubContents = ({ siteMapData, allPreviewsImgs, location }) => {
   let currentElement = siteMapData,
     accumPath = []
 
-  splitPath.forEach(path => {
+  splitPath.forEach((path) => {
     accumPath.push(path)
 
     const foundSiteMapItem = currentElement.find(
-      siteMapItem =>
+      (siteMapItem) =>
         siteMapItem.slug.replace(replaceSlashesRegex, '') ===
         accumPath.join('/')
     )
@@ -109,20 +109,20 @@ const SubContents = ({ siteMapData, allPreviewsImgs, location }) => {
   return <div className="subcontents">{subcontentItems}</div>
 }
 
-const SubContentsWithQuery = props => {
+const SubContentsWithQuery = (props) => {
   return (
     <StaticQuery
       query={query}
-      render={data => (
+      render={(data) => (
         <SubContents allPreviewsImgs={data.allFile.edges} {...props} />
       )}
     />
   )
 }
 
-const withLocation = location => {
+const withLocation = (location) => {
   const WithSiteMapData = withSiteMapData({ Component: SubContentsWithQuery })
-  return props => <WithSiteMapData location={location} {...props} />
+  return (props) => <WithSiteMapData location={location} {...props} />
 }
 
 export default withLocation

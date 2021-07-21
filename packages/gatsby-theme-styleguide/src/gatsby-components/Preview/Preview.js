@@ -23,14 +23,14 @@ class Preview extends PureComponent {
     // we need only pieces of path
     let locationParsed = location.pathname.replace(/^\/|\/$/g, '').split('/')
 
-    locationParsed = locationParsed.filter(elem => /^[A-Z]/.test(elem))
+    locationParsed = locationParsed.filter((elem) => /^[A-Z]/.test(elem))
     return `${basePath}/${locationParsed.join('/')}/previews/${path}`
   }
 
-  pickPreview = data => {
+  pickPreview = (data) => {
     const previewPath = this.getPreviewPath()
     const preview = data.allPreview.edges.find(
-      item => item.node.path === previewPath
+      (item) => item.node.path === previewPath
     )
 
     if (!preview) {
@@ -59,11 +59,11 @@ class Preview extends PureComponent {
     }
   }
 
-  getAvailableSpace = width => {
+  getAvailableSpace = (width) => {
     this.setState({ availableWidth: width })
   }
 
-  changeViewPort = viewport => {
+  changeViewPort = (viewport) => {
     this.setState({
       viewport,
     })
@@ -96,11 +96,11 @@ class Preview extends PureComponent {
     })
   }
 
-  cleanEmptyCode = preview => {
+  cleanEmptyCode = (preview) => {
     const cleanedCodes = {}
     const previewsCodes = Object.keys(preview.node.codes)
 
-    previewsCodes.forEach(lang => {
+    previewsCodes.forEach((lang) => {
       if (
         preview.node.codes[lang] !== '' &&
         preview.node.codes[lang] !== null
@@ -133,7 +133,7 @@ class Preview extends PureComponent {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <PreviewComponent
             toggleOptions={this.toggleOptions}
             viewport={this.state.viewport}

@@ -59,16 +59,16 @@ const TabLink = styled(Link)`
 `
 
 class PageTabs extends PureComponent {
-  orderPageTab = pageTabs => {
+  orderPageTab = (pageTabs) => {
     // order using frontmatter order tag and remove index
     const orderedTabs = [...pageTabs]
       .sort((a, b) => {
         return a.node.frontmatter.order - b.node.frontmatter.order
       })
-      .filter(tab => tab.node.fields.fileName.name !== 'index')
+      .filter((tab) => tab.node.fields.fileName.name !== 'index')
 
     const cleanIndex = [...pageTabs].find(
-      tab => tab.node.fields.fileName.name === 'index'
+      (tab) => tab.node.fields.fileName.name === 'index'
     )
 
     const newArr = [
@@ -76,7 +76,7 @@ class PageTabs extends PureComponent {
         title: 'Usage', // rename index tab 'Usage'
         slug: cleanIndex.node.fields.slug,
       },
-      ...orderedTabs.map(tab => ({
+      ...orderedTabs.map((tab) => ({
         title: tab.node.frontmatter.title,
         slug: tab.node.fields.slug,
       })),
@@ -91,7 +91,7 @@ class PageTabs extends PureComponent {
     return (
       <Tabs id="page_tabs_menu">
         <TabsWrapper>
-          {cleanTabs.map(node => (
+          {cleanTabs.map((node) => (
             <TabItem key={node.slug}>
               <TabLink
                 to={node.slug}

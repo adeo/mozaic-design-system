@@ -5,7 +5,7 @@ const createFSMachine = require('./create-fsmachine')
 
 const debounce = (fnc, tm) => {
   let time
-  return function() {
+  return function () {
     clearTimeout(time)
     time = setTimeout(() => {
       fnc.apply(this, arguments)
@@ -14,7 +14,7 @@ const debounce = (fnc, tm) => {
 }
 
 const previewsParam = process.argv
-  .filter(val => val.startsWith('previews='))
+  .filter((val) => val.startsWith('previews='))
   .pop()
 
 const {
@@ -63,7 +63,7 @@ exports.sourceNodes = (tools, configOptions) => {
   // Gatsby adds a configOption that's not needed for this plugin, delete it
   delete configOptions.plugins
 
-  const buildPreviews = addedFile => {
+  const buildPreviews = (addedFile) => {
     console.log('-----------------------------')
     console.log(`--- building ${addedFile || 'all previews'} ---`)
     console.log('-----------------------------')
@@ -78,7 +78,7 @@ exports.sourceNodes = (tools, configOptions) => {
 
     createPreviewsObject(tree, previews)
 
-    const previewsPromises = Object.keys(previews).map(key => {
+    const previewsPromises = Object.keys(previews).map((key) => {
       const codes = previews[key]
       if (codes.scss) {
         return compileCss(codes, key, key.replace('.scss', '.css'))
@@ -89,7 +89,7 @@ exports.sourceNodes = (tools, configOptions) => {
     return Promise.all(previewsPromises)
   } // buildPreviews
 
-  watcher.on(`add`, path => {
+  watcher.on(`add`, (path) => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
       if (
         currentState.value.CHOKIDAR ===
@@ -97,13 +97,13 @@ exports.sourceNodes = (tools, configOptions) => {
       ) {
         buildPreviews(path)
           .then(reporter.success(`previews built`))
-          .catch(err => reporter.error(err))
+          .catch((err) => reporter.error(err))
         reporter.info(`added PREVIEW file at ${path}`)
       }
     }
   })
 
-  const onChange = path => {
+  const onChange = (path) => {
     // path: src/pages/Components/Buttons/previews/basic.preview.html
     if (
       currentState.value.CHOKIDAR ===
@@ -116,7 +116,7 @@ exports.sourceNodes = (tools, configOptions) => {
       if (path.replace(/\\/g, '/').indexOf(globalStylePath) > -1) {
         return buildPreviews()
           .then(reporter.success(`previews built`))
-          .catch(err => reporter.error(err))
+          .catch((err) => reporter.error(err))
       }
 
       const content = fs.readFileSync(path, 'utf8')
@@ -135,7 +135,7 @@ exports.sourceNodes = (tools, configOptions) => {
   }
   watcher.on(`change`, onChange)
 
-  const unlink = path => {
+  const unlink = (path) => {
     if (
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
@@ -153,7 +153,7 @@ exports.sourceNodes = (tools, configOptions) => {
 
   watcher.on(`unlink`, unlink)
 
-  watcher.on(`addDir`, path => {
+  watcher.on(`addDir`, (path) => {
     if (currentState.value.CHOKIDAR !== `CHOKIDAR_PREVIEW_NOT_READY`) {
       if (
         currentState.value.CHOKIDAR ===
@@ -161,13 +161,13 @@ exports.sourceNodes = (tools, configOptions) => {
       ) {
         buildPreviews()
           .then(reporter.success(`previews built`))
-          .catch(err => reporter.error(err))
+          .catch((err) => reporter.error(err))
         reporter.info(`added directory at ${path}`)
       }
     }
   })
 
-  watcher.on(`unlinkDir`, path => {
+  watcher.on(`unlinkDir`, (path) => {
     if (
       currentState.value.CHOKIDAR ===
       `CHOKIDAR_PREVIEW_WATCHING_BOOTSTRAP_FINISHED`
