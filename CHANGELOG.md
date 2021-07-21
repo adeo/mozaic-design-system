@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.1](https://github.com/adeo/mozaic-design-system/compare/v1.13.0...v1.13.1) (2021-07-21)
+
+
+### Features
+
+* **onboard/contributing:** add the 'Quality Charter' page ([#872](https://github.com/adeo/mozaic-design-system/issues/872)) ([ed41eb9](https://github.com/adeo/mozaic-design-system/commit/ed41eb95090cf4553220bbd85bacf50051c98e4e))
+* **onboard/install:** update Sass requirements on dev documentation ([#871](https://github.com/adeo/mozaic-design-system/issues/871)) ([0ad958d](https://github.com/adeo/mozaic-design-system/commit/0ad958d1066e4b04c0936af42170b0dc52e617b0))
+
+
+
+
+
 # [1.13.0](https://github.com/adeo/mozaic-design-system/compare/v1.12.0...v1.13.0) (2021-07-07)
 
 
