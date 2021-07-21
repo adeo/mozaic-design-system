@@ -1,13 +1,13 @@
-import { ControlLess16, ControlMore16 } from "@mozaic-ds/icons/react"
-import { graphql, StaticQuery } from "gatsby"
-import PropTypes from "prop-types"
-import React, { Component } from "react"
-import styled, { css } from "styled-components"
-import DesignerKitLink from "../DesignerKitLink"
-import withSiteMapData from "../SiteMapData"
-import { parseLocation } from "../SiteMapData/tools"
-import MenuHeader from "./MenuHeader"
-import { MenuItem } from "./MenuItem"
+import { ControlLess16, ControlMore16 } from '@mozaic-ds/icons/react'
+import { graphql, StaticQuery } from 'gatsby'
+import PropTypes from 'prop-types'
+import React, { Component } from 'react'
+import styled, { css } from 'styled-components'
+import DesignerKitLink from '../DesignerKitLink'
+import withSiteMapData from '../SiteMapData'
+import { parseLocation } from '../SiteMapData/tools'
+import MenuHeader from './MenuHeader'
+import { MenuItem } from './MenuItem'
 
 const Wrapper = styled.div`
   max-height: 100vh;
@@ -39,7 +39,7 @@ const ListItem = styled.li`
         border-bottom: 1px solid #000;
         padding-bottom: 0.625rem;
       }
-      & + [class^="Menu__ListItem"] {
+      & + [class^='Menu__ListItem'] {
         padding-top: 0.5rem;
       }
     `}

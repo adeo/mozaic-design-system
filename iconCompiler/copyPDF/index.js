@@ -5,7 +5,7 @@ const validatePDFIconName = require('./pdfValidator')
 const { outputPaths, sourcePaths } = require('../config')
 
 // create an array of all PDF icons
-const searchPDFIconsIn = inputPath =>
+const searchPDFIconsIn = (inputPath) =>
   new Promise((resolve, reject) => {
     glob(inputPath, (err, icons) => {
       if (icons.length === 0) {
@@ -17,12 +17,12 @@ const searchPDFIconsIn = inputPath =>
       }
 
       const errors = icons
-        .map(icon => {
+        .map((icon) => {
           const pdfName = path.basename(icon)
           const sizeDirectory = icon.split(path.sep).reverse()[1]
           return validatePDFIconName(pdfName, sizeDirectory)
         })
-        .filter(error => error !== null)
+        .filter((error) => error !== null)
 
       if (errors.length) {
         reject(errors.join(`\n✗ ERROR : `))
@@ -34,20 +34,20 @@ const searchPDFIconsIn = inputPath =>
 
 // create an array of all PDF icons
 const copyIcons = (icons, dest) =>
-  icons.map(icon => {
+  icons.map((icon) => {
     const destFile = `${dest}/${path.basename(icon)}`
     return fsPromises.copyFile(icon, destFile)
   })
 
-const copyPDF = key => {
+const copyPDF = (key) => {
   const source = `${sourcePaths[key]}/**/*.pdf`
   const dest = outputPaths[key]
 
   return new Promise((resolve, reject) => {
     searchPDFIconsIn(source)
-      .then(icons => copyIcons(icons, dest))
+      .then((icons) => copyIcons(icons, dest))
       .then(() => resolve())
-      .catch(err => reject(err))
+      .catch((err) => reject(err))
   })
 }
 

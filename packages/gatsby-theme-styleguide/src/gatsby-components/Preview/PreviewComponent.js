@@ -12,7 +12,7 @@ import copyToClipboard from '../../utils/copy-to-clipboard'
 let viewPorts = {}
 
 Object.keys(tokensObject.screen).map(
-  screenName =>
+  (screenName) =>
     (viewPorts[screenName] = Number(
       tokensObject.screen[screenName].value.replace('px', '')
     ))
@@ -90,7 +90,7 @@ export class PreviewComponent extends PureComponent {
     }
   }
 
-  getLanguage = ext =>
+  getLanguage = (ext) =>
     ({
       js: 'javascript',
       json: 'JSON',
@@ -99,7 +99,7 @@ export class PreviewComponent extends PureComponent {
       scss: 'scss',
     }[ext])
 
-  showCode = codeSampleName => {
+  showCode = (codeSampleName) => {
     this.setState({
       currentCodeSample: codeSampleName,
       copied: false,
@@ -129,12 +129,8 @@ export class PreviewComponent extends PureComponent {
       toggleOptions,
     } = this.props
 
-    const {
-      currentCodeSample,
-      copied,
-      copyCompatible,
-      availableWidth,
-    } = this.state
+    const { currentCodeSample, copied, copyCompatible, availableWidth } =
+      this.state
     if (this.props.data === undefined) {
       return <div />
     }
@@ -165,7 +161,7 @@ export class PreviewComponent extends PureComponent {
                 grid={grid}
                 iframeSrc={iframeSrc}
               />
-              <Body ref={body => (this.body = body)}>
+              <Body ref={(body) => (this.body = body)}>
                 <PreviewFrame
                   availableWidth={availableWidth}
                   viewport={viewport}

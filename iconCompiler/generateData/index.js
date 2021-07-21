@@ -6,7 +6,7 @@ const {
   writeFile,
 } = require('./lib')
 
-const generateIconsData = icons =>
+const generateIconsData = (icons) =>
   new Promise((resolve, reject) => {
     let allIcons
     try {
@@ -28,7 +28,7 @@ const generateIconsData = icons =>
         )
       )
       .then(() => resolve())
-      .catch(err => reject(err))
+      .catch((err) => reject(err))
   })
 
 module.exports = generateIconsData
