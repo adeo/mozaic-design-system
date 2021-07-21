@@ -31,7 +31,7 @@ export const ChangelogItem = styled.div`
 const ChangelogComponent = ({ data }) => (
   <ChangelogContainer>
     {data.allGithubRelease.edges
-      .filter(release => release.node.descriptionHTML !== '')
+      .filter((release) => release.node.descriptionHTML !== '')
       .map((release, i) => (
         <ChangelogItem
           key={`release-${i}`}
@@ -57,7 +57,7 @@ const query = graphql`
 const Changelog = () => (
   <StaticQuery
     query={query}
-    render={data => <ChangelogComponent data={data} />}
+    render={(data) => <ChangelogComponent data={data} />}
   />
 )
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 class SelectViewport extends Component {
-  handleChange = event => {
+  handleChange = (event) => {
     this.props.changeViewPort(event.target.value)
   }
 
@@ -20,7 +20,7 @@ class SelectViewport extends Component {
         <option default={viewport === null} value="auto">
           auto
         </option>
-        {Object.keys(viewPorts).map(viewportItem => (
+        {Object.keys(viewPorts).map((viewportItem) => (
           <option
             key={viewportItem}
             default={viewportItem === viewport}

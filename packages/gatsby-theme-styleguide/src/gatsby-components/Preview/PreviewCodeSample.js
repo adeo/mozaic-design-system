@@ -99,7 +99,7 @@ const PreviewCodeSample = ({
   return (
     <>
       <CodeButtonWrapper>
-        {Object.keys(preview).map(codeSampleName => (
+        {Object.keys(preview).map((codeSampleName) => (
           <CodeButton
             isActive={codeSampleName === currentCodeSample}
             key={`${preview}${codeSampleName}`}

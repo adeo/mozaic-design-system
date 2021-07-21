@@ -77,7 +77,7 @@ const Layout = ({ children, location }) => {
   return (
     <StaticQuery
       query={query}
-      render={data => {
+      render={(data) => {
         return (
           <Global>
             <Helmet title={data.site.siteMetadata.title}></Helmet>

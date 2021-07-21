@@ -8,5 +8,5 @@ const config = fs.existsSync(configPath) ? require(configPath) : false
 
 module.exports = {
   userConfigExist: () => (config ? true : false),
-  getKey: key => (config ? get(config, key) : false),
+  getKey: (key) => (config ? get(config, key) : false),
 }

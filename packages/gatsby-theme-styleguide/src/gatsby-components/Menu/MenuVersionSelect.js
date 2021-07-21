@@ -32,7 +32,7 @@ const LabelVersion = styled.label`
 `
 
 class MenuVersionRelease extends Component {
-  handleChange = event => {
+  handleChange = (event) => {
     if (event.target.value !== 'default')
       window.location.href = event.target.value
   }
@@ -62,7 +62,7 @@ class MenuVersionRelease extends Component {
           <option key="latest" value="https://mozaic.adeo.cloud/">
             latest release
           </option>
-          {githubReleases.reverse().map(release => (
+          {githubReleases.reverse().map((release) => (
             <option key={release.node.tagName} value={release.node.url}>
               {release.node.tagName}
             </option>

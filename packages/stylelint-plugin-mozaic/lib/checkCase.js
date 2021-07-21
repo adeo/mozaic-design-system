@@ -16,9 +16,9 @@ const match = (string, configCase) =>
 const checkCase = (splitedSelector, rule, result, ruleName, options) => {
   let isValid = true
 
-  splitedSelector.forEach(selectorPart => {
+  splitedSelector.forEach((selectorPart) => {
     if (selectorPart.type === 'class') {
-      selectorPart.bemStructure.forEach(classPart => {
+      selectorPart.bemStructure.forEach((classPart) => {
         // ignore # for variables in scss files
         const isValidCase =
           classPart.string.includes('#') || classPart.partType === 'prefix'
