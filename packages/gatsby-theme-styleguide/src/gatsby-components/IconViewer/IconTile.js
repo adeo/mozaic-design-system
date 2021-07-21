@@ -141,7 +141,7 @@ export default class IconTile extends Component {
       },
     }
 
-    Object.keys(dataIcon.sizes).forEach(size => {
+    Object.keys(dataIcon.sizes).forEach((size) => {
       if (!icons[size]) {
         return false
       } else {
@@ -151,7 +151,7 @@ export default class IconTile extends Component {
       }
 
       if (!icons[dataIcon.currentSize]) {
-        dataIcon.currentSize = Object.keys(icons).find(size => {
+        dataIcon.currentSize = Object.keys(icons).find((size) => {
           return icons[size] != null
         })
       }
@@ -183,7 +183,7 @@ export default class IconTile extends Component {
           )}
         </IconWrapper>
         <SizesList>
-          {Object.keys(this.dataIcon.sizes).map(size =>
+          {Object.keys(this.dataIcon.sizes).map((size) =>
             this.state.allIcon[size].fileName ? (
               <SizeItemAvail
                 key={`${this.props.name}-${size}`}
@@ -191,7 +191,7 @@ export default class IconTile extends Component {
               >
                 <SizeItemBtn
                   type="button"
-                  onClick={e => this.changeIconSize(size, e)}
+                  onClick={(e) => this.changeIconSize(size, e)}
                 >
                   {size}
                 </SizeItemBtn>

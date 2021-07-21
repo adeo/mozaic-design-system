@@ -46,7 +46,7 @@ class Color extends PureComponent {
     }
   }
 
-  copyToClipBoard = value => {
+  copyToClipBoard = (value) => {
     copyToClipboard(value)
       .then(() => {
         this.setState({ copied: true })

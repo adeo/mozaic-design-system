@@ -19,18 +19,14 @@ const Wrapper = styled.div`
 
 // TODO : use a custom format from style dictionary
 // to provide those syntax transformations
-const scssSyntax = arr => `$${arr.join('-')}`
-const andoidSyntax = arr =>
-  arr
-    .join('_')
-    .toLowerCase()
-    .replace('-', '_')
+const scssSyntax = (arr) => `$${arr.join('-')}`
+const andoidSyntax = (arr) => arr.join('_').toLowerCase().replace('-', '_')
 
 // END-TODO
 
 const Swatch = ({ id }) => (
   <Wrapper>
-    {Object.keys(tokens.color[id]).map(colorKey => (
+    {Object.keys(tokens.color[id]).map((colorKey) => (
       <ColorWrapper key={`${id}${colorKey}`}>
         <Color
           color={tokens.color[id][colorKey].value}

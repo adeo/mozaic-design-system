@@ -38,18 +38,16 @@ const FrameContainer = styled.div`
     min-width: ${viewPorts[viewport]}px;
 
     transform: scale(
-      ${
-        availableWidth > viewPorts[viewport]
-          ? 1
-          : availableWidth / viewPorts[viewport]
-      }
+      ${availableWidth > viewPorts[viewport]
+        ? 1
+        : availableWidth / viewPorts[viewport]}
     );
 
     ${availableWidth > viewPorts[viewport] &&
-      !fullScreen &&
-      css`
-        margin: 0 auto;
-      `}
+    !fullScreen &&
+    css`
+      margin: 0 auto;
+    `}
 
     transform-origin: ${fullScreen ? 'center' : 'left top'};
   `};
@@ -65,7 +63,7 @@ const FrameWrapper = styled.div`
     availableWidth < viewPorts[viewport] &&
     css`
       height: ${(availableWidth / viewPorts[viewport]) *
-        (iframeHeight + MagicUnit * 2 * 16)}px;
+      (iframeHeight + MagicUnit * 2 * 16)}px;
     `};
 `
 
@@ -143,9 +141,9 @@ const PreviewFrame = ({
         <ViewportInfos>
           Viewport: {viewPorts[viewport] || availableWidth}px{' '}
           {viewPorts[viewport] > availableWidth &&
-            `• Zoom: ${Math.ceil(
-              (availableWidth / viewPorts[viewport]) * 1000
-            ) / 10}%`}
+            `• Zoom: ${
+              Math.ceil((availableWidth / viewPorts[viewport]) * 1000) / 10
+            }%`}
         </ViewportInfos>
       )}
     </>
@@ -181,9 +179,9 @@ const PreviewFrame = ({
         <ViewportInfos>
           Viewport: {viewPorts[viewport] || availableWidth}px{' '}
           {viewPorts[viewport] > availableWidth &&
-            `• Zoom: ${Math.ceil(
-              (availableWidth / viewPorts[viewport]) * 1000
-            ) / 10}%`}
+            `• Zoom: ${
+              Math.ceil((availableWidth / viewPorts[viewport]) * 1000) / 10
+            }%`}
         </ViewportInfos>
       )}
     </FrameWrapper>

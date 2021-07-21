@@ -20,7 +20,7 @@ export default class TableOfContents extends PureComponent {
     scrollingElem.scrollTop = clientRects.y + scrollingElem.scrollTop - offset
   }
 
-  onClick = e => {
+  onClick = (e) => {
     e.preventDefault()
     const {
       target: { hash },
@@ -29,7 +29,7 @@ export default class TableOfContents extends PureComponent {
     return false
   }
 
-  getAnchorPosition = e => {
+  getAnchorPosition = (e) => {
     const scrollValue = document.getElementById('page_tabs_menu')
       ? document.getElementById('scroller').scrollTop +
         document.getElementById('page_tabs_menu').clientHeight +
@@ -38,7 +38,7 @@ export default class TableOfContents extends PureComponent {
 
     const anchors = document.querySelectorAll('.anchor-toc')
 
-    anchors.forEach(function(anchor, index, array) {
+    anchors.forEach(function (anchor, index, array) {
       const position = anchor.offsetTop
       const hash = anchor.href.match(/#[\w-_]+$/)[0]
 
@@ -47,7 +47,7 @@ export default class TableOfContents extends PureComponent {
       const nextPosition = anchors[index + 1].offsetTop
 
       if (scrollValue >= position && scrollValue < nextPosition) {
-        document.querySelectorAll('.toc__link').forEach(link => {
+        document.querySelectorAll('.toc__link').forEach((link) => {
           if (link.classList.contains('toc__link--active')) {
             link.classList.remove('toc__link--active')
             link.blur()
@@ -77,16 +77,16 @@ export default class TableOfContents extends PureComponent {
       }, 800)
     }
 
-    document.querySelectorAll('.anchor-toc').forEach(elem => {
+    document.querySelectorAll('.anchor-toc').forEach((elem) => {
       elem.title = 'Click to copy the link'
-      elem.addEventListener('click', e => {
+      elem.addEventListener('click', (e) => {
         e.preventDefault()
         copyToClipBoard(e.currentTarget.href)
       })
     })
   }
 
-  renderList = list =>
+  renderList = (list) =>
     list.map((elem, index) => {
       let { url, title, items } = elem
       if (items) {

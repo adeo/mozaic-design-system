@@ -3,6 +3,6 @@ module.exports = {
   '*.js': [
     'yarn format',
     'git add',
-    filenames => `jest --coverage --findRelatedTests ${filenames.join(' ')}`,
+    (filenames) => `jest --coverage --findRelatedTests ${filenames.join(' ')}`,
   ],
 }
