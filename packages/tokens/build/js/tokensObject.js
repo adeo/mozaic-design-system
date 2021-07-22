@@ -2447,9 +2447,9 @@ module.exports = {
       },
       "solid-neutral": {
         "background": {
-          "value": "#887f87",
+          "value": "#3c3738",
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.800.value}"
           },
           "name": "ColorButtonSolidNeutralBackground",
           "attributes": {
@@ -2576,9 +2576,9 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#554f52",
+            "value": "#222020",
             "original": {
-              "value": "{color.grey.700.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorButtonSolidNeutralHoverBackground",
             "attributes": {
@@ -3158,9 +3158,9 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#887f87",
+          "value": "#3c3738",
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.800.value}"
           },
           "name": "ColorButtonBorderedNeutralBorder",
           "attributes": {
@@ -3177,9 +3177,9 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#887f87",
+          "value": "#3c3738",
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.800.value}"
           },
           "name": "ColorButtonBorderedNeutralFont",
           "attributes": {
