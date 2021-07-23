@@ -12,6 +12,6 @@
   "dependencies": {
     "chokidar": "^3.5.2",
     "directory-tree": "^2.2.9",
-    "xstate": "^4.22.0"
+    "xstate": "^4.23.0"
   }
 }
