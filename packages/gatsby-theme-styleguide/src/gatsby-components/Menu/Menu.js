@@ -1,4 +1,8 @@
-import { ControlLess16, ControlMore16 } from '@mozaic-ds/icons/react'
+import {
+  ControlLess16,
+  ControlMore16,
+  DisplayExternalLink16,
+} from '@mozaic-ds/icons/react'
 import { graphql, StaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
@@ -19,6 +23,14 @@ const Wrapper = styled.div`
   }
 `
 
+const GithubLink = styled.a`
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.15;
+  padding: 0.8125rem 0 0.75rem;
+  color: #000;
+`
+
 const UlMenu = styled.ul`
   list-style: none;
 
@@ -31,6 +43,8 @@ const UlMenu = styled.ul`
 `
 
 const ListItem = styled.li`
+  list-style-type: none;
+
   ${({ isOpened, level }) =>
     isOpened &&
     level === 1 &&
@@ -208,7 +222,19 @@ class Menu extends Component {
                 />
                 <NavContainer>
                   {this.buildMenu(this.state.menuArray, true)}
-
+                  <ListItem>
+                    <MenuItemContainer>
+                      <GithubLink
+                        href="https://github.com/adeo/mozaic-design-system"
+                        target="_blank"
+                      >
+                        Github
+                        <ShowChildrenButton tabIndex={-1}>
+                          <DisplayExternalLink16 fill="#554f52"></DisplayExternalLink16>
+                        </ShowChildrenButton>
+                      </GithubLink>
+                    </MenuItemContainer>
+                  </ListItem>
                   <DesignerKitLink
                     target="_blank"
                     rel="noopener noreferrer"
