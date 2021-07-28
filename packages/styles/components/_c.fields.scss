@@ -35,8 +35,8 @@
     margin-top: $mu025;
   }
 
-  &__input,
-  &__element {
+  #{$parent}__input,
+  #{$parent}__element {
     margin-top: $mu050;
   }
 
