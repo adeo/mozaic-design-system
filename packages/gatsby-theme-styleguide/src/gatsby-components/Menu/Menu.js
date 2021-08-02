@@ -228,7 +228,7 @@ class Menu extends Component {
                         href="https://github.com/adeo/mozaic-design-system"
                         target="_blank"
                       >
-                        Github
+                        GitHub
                         <ShowChildrenButton tabIndex={-1}>
                           <DisplayExternalLink16 fill="#554f52"></DisplayExternalLink16>
                         </ShowChildrenButton>
