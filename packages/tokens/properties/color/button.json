@@ -71,7 +71,7 @@
       },
       "solid-neutral": {
         "background": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.grey.800.value}"
         },
         "font": {
           "value": "{color.grey.000.value}"
@@ -96,7 +96,7 @@
         },
         "hover": {
           "background": {
-            "value": "{color.grey.700.value}"
+            "value": "{color.grey.900.value}"
           },
           "font": {
             "value": "{color.grey.000.value}"
@@ -210,10 +210,10 @@
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.grey.800.value}"
         },
         "font": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.grey.800.value}"
         },
         "focus": {
           "border": {

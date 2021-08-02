@@ -5,7 +5,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "style-dictionary": "^2.8.2"
+    "style-dictionary": "^3.0.1"
   },
   "bin": {
     "mozaic-tokens-build": "bin/build.js"
