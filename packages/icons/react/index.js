@@ -6959,7 +6959,7 @@ export const Apartment32 = ({ fill, size = '2rem', ...rest }) => (
   </svg>
 )
 
-export const Balcon32 = ({ fill, size = '2rem', ...rest }) => (
+export const Balcony32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
     width={size}
     height={size}
