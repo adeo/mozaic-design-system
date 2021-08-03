@@ -1,5 +1,5 @@
 @mixin reset-input {
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   box-sizing: border-box;
   outline: none;
@@ -18,7 +18,15 @@
   }
 
   /* for mozilla */
-  &[type=number] {
+  /* stylelint-disable-next-line */
+  &[type="number"] {
     -moz-appearance: textfield;
+  }
+
+  &[type="search"] {
+    &::-webkit-search-decoration:hover,
+    &::-webkit-search-cancel-button:hover {
+      cursor: pointer;
+    }
   }
 }

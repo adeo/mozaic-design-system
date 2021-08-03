@@ -85,15 +85,18 @@
   }
 
   &__current {
-    cursor: default;
-    text-decoration: none;
-
     &,
-    &:active,
-    &:focus,
-    &:hover,
-    &:visited {
-      color: currentColor;
+    &.m-link {
+      cursor: default;
+      text-decoration: none;
+
+      &,
+      &:active,
+      &:focus,
+      &:hover,
+      &:visited {
+        color: currentColor;
+      }
     }
   }
 
