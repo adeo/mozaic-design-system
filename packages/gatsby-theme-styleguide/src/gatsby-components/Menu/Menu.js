@@ -29,6 +29,7 @@ const GithubLink = styled.a`
   line-height: 1.15;
   padding: 0.8125rem 0 0.75rem;
   color: #000;
+  width: 100%;
 `
 
 const UlMenu = styled.ul`
