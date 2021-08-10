@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
+
+
+### Bug Fixes
+
+* **patterns:** increase css specificity in fields and breadcrumb ([#879](https://github.com/adeo/mozaic-design-system/issues/879)) ([3eacc0b](https://github.com/adeo/mozaic-design-system/commit/3eacc0bb53a8d1b290c4f72be48f3e7b4907fbe6))
+
+
+### Features
+
+* **patterns/textinput:** add 'cursor: pointer' property for input[type=search] ([#881](https://github.com/adeo/mozaic-design-system/issues/881)) ([90a871d](https://github.com/adeo/mozaic-design-system/commit/90a871db2ab62179d7f3fcfa6c45523a7aa2508e))
+
+
+
+
+
 ## [1.13.1](https://github.com/adeo/mozaic-design-system/compare/v1.13.0...v1.13.1) (2021-07-21)
 
 **Note:** Version bump only for package @mozaic-ds/styles

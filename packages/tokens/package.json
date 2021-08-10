@@ -1,11 +1,11 @@
 {
   "name": "@mozaic-ds/tokens",
-  "version": "1.13.1",
+  "version": "1.14.0",
   "description": "Tokens to Design Systeme Adeo",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "style-dictionary": "^2.8.2"
+    "style-dictionary": "^3.0.1"
   },
   "bin": {
     "mozaic-tokens-build": "bin/build.js"

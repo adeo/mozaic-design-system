@@ -7747,7 +7747,7 @@ export const Apartment32 = {
     },
   ],
 }
-export const Balcon32 = {
+export const Balcony32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
