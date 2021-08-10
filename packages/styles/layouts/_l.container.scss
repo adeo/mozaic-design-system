@@ -1,4 +1,5 @@
 .ml-container {
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   padding-right: $mu100;
@@ -12,19 +13,19 @@
   @include set-from-screen('l') {
     padding-right: $mu300;
     padding-left: $mu300;
-    max-width: magic-unit-rem(58);
+    max-width: magic-unit-rem(58) + ($mu300 * 2); // 928px
   }
 
   @include set-from-screen('xl') {
     padding-right: $mu200;
     padding-left: $mu200;
-    max-width: magic-unit-rem(76);
+    max-width: magic-unit-rem(76) + ($mu200 * 2); // 1216px
   }
 
   @include set-from-screen('xxl') {
     padding-right: $mu250;
     padding-left: $mu250;
-    max-width: magic-unit-rem(115);
+    max-width: magic-unit-rem(115) + ($mu250 * 2); // 1840px
   }
 
   &--fluid {
