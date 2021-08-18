@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/adeo/mozaic-design-system/compare/v1.14.0...v1.15.0) (2021-08-18)
+
+
+### Features
+
+* **layout/container:** add 'box-sizing: border-box' property to .ml-container ([#880](https://github.com/adeo/mozaic-design-system/issues/880)) ([38be44e](https://github.com/adeo/mozaic-design-system/commit/38be44ec150d502c3dbcb3f56e0b5da7f0cfed4f))
+
+
+
+
+
 # [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
 
 
