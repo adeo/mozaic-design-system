@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/adeo/mozaic-design-system/compare/v1.14.0...v1.15.0) (2021-08-18)
+
+
+### Features
+
+* **layout/container:** add 'box-sizing: border-box' property to .ml-container ([#880](https://github.com/adeo/mozaic-design-system/issues/880)) ([38be44e](https://github.com/adeo/mozaic-design-system/commit/38be44ec150d502c3dbcb3f56e0b5da7f0cfed4f))
+
+
+
+
+
+# [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
+
+
+### Bug Fixes
+
+* **icon/balcony:** rename balcony svg ([#884](https://github.com/adeo/mozaic-design-system/issues/884)) ([d9d21f4](https://github.com/adeo/mozaic-design-system/commit/d9d21f486415062bd9531e25f9494edb8c4daa88))
+* **onboard/install:** fix wrong link to the Margic Unit documentation ([#877](https://github.com/adeo/mozaic-design-system/issues/877)) ([50b7b07](https://github.com/adeo/mozaic-design-system/commit/50b7b077a298d6d80c4d894db23a5cfbfcbc65a6))
+* **patterns:** increase css specificity in fields and breadcrumb ([#879](https://github.com/adeo/mozaic-design-system/issues/879)) ([3eacc0b](https://github.com/adeo/mozaic-design-system/commit/3eacc0bb53a8d1b290c4f72be48f3e7b4907fbe6))
+
+
+### Features
+
+* **patterns/button:** change background-color of the neutral button ([#874](https://github.com/adeo/mozaic-design-system/issues/874)) ([f23852a](https://github.com/adeo/mozaic-design-system/commit/f23852a4959ed9417f2c541a5599a0ec284c4e36))
+* **patterns/textinput:** add 'cursor: pointer' property for input[type=search] ([#881](https://github.com/adeo/mozaic-design-system/issues/881)) ([90a871d](https://github.com/adeo/mozaic-design-system/commit/90a871db2ab62179d7f3fcfa6c45523a7aa2508e))
+
+
+
+
+
 ## [1.13.1](https://github.com/adeo/mozaic-design-system/compare/v1.13.0...v1.13.1) (2021-07-21)
 
 

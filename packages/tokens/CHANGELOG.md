@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
+
+
+### Features
+
+* **patterns/button:** change background-color of the neutral button ([#874](https://github.com/adeo/mozaic-design-system/issues/874)) ([f23852a](https://github.com/adeo/mozaic-design-system/commit/f23852a4959ed9417f2c541a5599a0ec284c4e36))
+
+
+
+
+
 ## [1.13.1](https://github.com/adeo/mozaic-design-system/compare/v1.13.0...v1.13.1) (2021-07-21)
 
 **Note:** Version bump only for package @mozaic-ds/tokens

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
+
+
+### Bug Fixes
+
+* **icon/balcony:** rename balcony svg ([#884](https://github.com/adeo/mozaic-design-system/issues/884)) ([d9d21f4](https://github.com/adeo/mozaic-design-system/commit/d9d21f486415062bd9531e25f9494edb8c4daa88))
+
+
+
+
+
 ## [1.13.1](https://github.com/adeo/mozaic-design-system/compare/v1.13.0...v1.13.1) (2021-07-21)
 
 **Note:** Version bump only for package @mozaic-ds/icons
