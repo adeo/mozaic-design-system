@@ -48,6 +48,13 @@
     }
   }
 
+  // TODO: to be removed later
+  &__link {
+    @include set-font-scale('04', 'm');
+
+    margin-top: $mu050;
+  }
+
   .mc-button {
     &:not(:first-child) {
       margin-top: $mu100;
