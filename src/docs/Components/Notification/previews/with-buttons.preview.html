@@ -1,5 +1,5 @@
 <div class="example">
-  <div class="example__title">Size M (default)</div>
+  <div class="example__title">With only one button</div>
 
   <!-- Notification type Danger -->
   <div class="mc-notification">
@@ -10,12 +10,17 @@
         ligula eget dolor. Aenean massa.
       </p>
       <div class="mc-notification__footer">
-        <a class="mc-notification__link mc-link" href="#">Link</a>
+        <button
+          type="button"
+          class="mc-button mc-button--bordered-neutral mc-button--s@from-l"
+        >
+          <span class="mc-button__label">Button label</span>
+        </button>
       </div>
     </div>
   </div>
 
-  <div class="example__title">Size S</div>
+  <div class="example__title">With two buttons</div>
 
   <!-- Notification type Danger -->
   <div class="mc-notification mc-notification--warning mc-notification--s">
@@ -26,7 +31,18 @@
         ligula eget dolor. Aenean massa.
       </p>
       <div class="mc-notification__footer">
-        <a class="mc-notification__link mc-link" href="#">Link</a>
+        <button
+          type="button"
+          class="mc-button mc-button--bordered-neutral mc-button--s@from-l"
+        >
+          <span class="mc-button__label">Action one</span>
+        </button>
+        <button
+          type="button"
+          class="mc-button mc-button--bordered-neutral mc-button--s@from-l"
+        >
+          <span class="mc-button__label">Action two</span>
+        </button>
       </div>
     </div>
   </div>
