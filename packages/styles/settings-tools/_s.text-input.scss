@@ -1,17 +1,19 @@
+@use "sass:math";
+
 $input-border-width: 0.0625rem; // get-border('s');
 
 $input-sizes: (
   's': (
     'font-size': '04',
-    'line-height': 's',
-    'padding-v': ($mu050 - $input-border-width),
-    'padding-h': ($mu050 - $input-border-width),
+    'line-height': 'm',
+    'padding-v': math.div($mu075, 2),
+    'padding-h': $mu050 - $input-border-width,
   ),
   'm': (
     'font-size': '05',
-    'line-height': 's',
-    'padding-v': (0.9375rem - $input-border-width),
-    'padding-h': ($mu075 - $input-border-width),
+    'line-height': 'm',
+    'padding-v': $mu075,
+    'padding-h': $mu075 - $input-border-width,
   ),
 );
 
@@ -20,13 +22,13 @@ $input-icon-sizes: (
     'left': $mu050,
     'height': $mu150,
     'width': $mu150,
-    'padding-left': ($mu250 - $input-border-width),
+    'padding-left': $mu250 - $input-border-width,
   ),
   'm': (
     'left': $mu075,
     'height': $mu150,
     'width': $mu150,
-    'padding-left': ($mu300 - $input-border-width),
+    'padding-left': $mu300 - $input-border-width,
   ),
 );
 
@@ -39,14 +41,11 @@ $input-icon-default-size: map-get($input-icon-sizes, 'm');
   $font-size: map-get($sizeProps, 'font-size');
   $line-height: map-get($sizeProps, 'line-height');
   $inner-height: get-token(size, line, $font-size, $line-height);
-  $height: (($padding-v + $input-border-width) * 2 + $inner-height);
+  $height: (($padding-v + $input-border-width) * 2) + $inner-height;
 
-  @include set-font-scale(
-    $font-size,
-    $line-height
-  );
+  @include set-font-scale($font-size, $line-height);
 
-  height: $height;
+  min-height: $height;
   padding: $padding-v $padding-h;
 
   &::placeholder {
