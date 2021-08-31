@@ -37,10 +37,35 @@
     @include set-font-scale('04');
   }
 
+  &__footer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: $mu100;
+
+    @include set-from-screen('l') {
+      flex-direction: row;
+    }
+  }
+
+  // TODO: to be removed later
   &__link {
     @include set-font-scale('04', 'm');
 
     margin-top: $mu050;
+  }
+
+  .mc-button {
+    &:not(:first-child) {
+      margin-top: $mu100;
+
+      @include set-from-screen('l') {
+        margin: {
+          top: 0;
+          left: $mu100;
+        }
+      }
+    }
   }
 
   // Notification type
@@ -61,9 +86,7 @@
             &#{$parent}--#{$type} {
               @include set-notification-type($type, $size);
             }
-          }
-
-          @else {
+          } @else {
             @include set-notification-type('information', $size);
           }
         }
@@ -78,8 +101,7 @@
     &__close {
       @include set-focus-floating-base;
 
-      background:
-        transparent
+      background: transparent
         url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
       border: 0;
       cursor: pointer;
