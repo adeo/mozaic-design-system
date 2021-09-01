@@ -28,7 +28,7 @@
     &::before,
     &::after {
       background-color: $color-grey-400;
-      content: "";
+      content: '';
       height: math.div($mu025, 2);
       position: absolute;
       top: 11px;
@@ -50,9 +50,7 @@
 
     &:first-child::before,
     &:last-child::after {
-      @include set-from-screen("m") {
-        content: none;
-      }
+      content: none;
     }
 
     &--current,
@@ -63,7 +61,7 @@
         }
 
         &__detail {
-          @include set-font-weight("semi-bold");
+          @include set-font-weight('semi-bold');
         }
       }
     }
@@ -107,12 +105,12 @@
   }
 
   &__indicator {
-    @include set-font-scale("04", "s");
-    @include set-font-weight("semi-bold");
+    @include set-font-scale('04', 's');
+    @include set-font-weight('semi-bold');
 
     align-items: center;
     background-color: $color-grey-000;
-    border: get-border("m") solid $color-grey-400;
+    border: get-border('m') solid $color-grey-400;
     border-radius: 50%;
     box-sizing: border-box;
     display: flex;
@@ -131,7 +129,7 @@
   }
 
   &__detail {
-    @include set-font-scale("04", "m");
+    @include set-font-scale('04', 'm');
 
     color: $color-font-light;
     text-align: center;
@@ -143,49 +141,13 @@
     color: $color-primary-01-400;
   }
 
+  &--compact {
+    @include set-compact-variation($parent);
+  }
+
   &--shrinked {
     @media screen and (max-width: ($screen-m - 1)) {
-      #{$parent} {
-        &__item {
-          align-items: flex-start;
-          flex-direction: row;
-          padding-bottom: $mu175;
-
-          &::before,
-          &::after {
-            bottom: 0;
-            border-radius: get-border-radius("l");
-            height: $mu025;
-            top: auto;
-          }
-
-          &::after {
-            width: 100%;
-          }
-
-          &::before {
-            z-index: 2;
-            width: calc(var(--current) * 100% / var(--steps));
-          }
-
-          &:not(#{$parent}__item--current) {
-            display: none;
-          }
-        }
-
-        &__indicator {
-          display: none;
-        }
-
-        &__detail {
-          text-align: left;
-        }
-
-        &__title {
-          display: block;
-          margin-bottom: $mu025;
-        }
-      }
+      @include set-compact-variation($parent);
     }
   }
 }
