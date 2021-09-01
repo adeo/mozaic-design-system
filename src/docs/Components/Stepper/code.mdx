@@ -1,5 +1,5 @@
 ---
-title: "Code"
+title: 'Code'
 order: 2
 ---
 
@@ -8,11 +8,11 @@ order: 2
 Import **the settings** and **the stepper** scss files.
 
 ```scss
-@import "settings-tools/_all-settings";
+@import 'settings-tools/_all-settings';
 
 @include import-font-families();
 
-@import "components/_c.stepper";
+@import 'components/_c.stepper';
 ```
 
 ## Usage
@@ -108,11 +108,29 @@ In addition to adding the `mc-stepper__item--validated` modifier, you must also 
 
 <Preview path="up-to-three" nude />
 
-## Mobile behaviour
+## Variations
+
+### Compact version
+
+The **Stepper** component has a "**compact**" variation that can be used in different contexts.
+
+> Learn more about the contexts of use of the compact variation by [reading this section](/Components/Stepper/#compact-version)
+
+To use this variation, you need to add the `mc-stepper--compact` modifier to the main `.mc-stepper` element.
+
+```html
+<nav class="mc-stepper mc-stepper--compact">
+  <!-- following code here -->
+</nav>
+```
+
+<Preview path="compact" nude />
+
+## Mobile recommandation
 
 When the **Stepper** has **more than 3 steps**, it becomes difficult to display all the steps optimally on small screen resolutions.
 
-**For this reason, we recommend only displaying the current step on these resolutions.**
+**For this reason, we recommend that on mobile resolutions only the current step is displayed without the other steps.**
 
 To do this, you need to add the `mc-stepper--shrinked` modifier to the main `mc-stepper` element whenever your **Stepper** has more than 3 steps.
 
