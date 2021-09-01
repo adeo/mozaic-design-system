@@ -1,5 +1,5 @@
 <div class="example">
-  <nav class="mc-stepper" aria-label="Stepper description">
+  <nav class="mc-stepper mc-stepper--compact" aria-label="Stepper description">
     <ol class="mc-stepper__list">
       <li class="mc-stepper__item mc-stepper__item--validated">
         <div class="mc-stepper__indicator" aria-hidden="true">
@@ -8,25 +8,37 @@
           </svg>
         </div>
         <div class="mc-stepper__detail">
-          <span class="mc-stepper__title">Step 1 / 3</span>
-          <span class="mc-stepper__label">Step label 1</span>
+          <span class="mc-stepper__title">Step 1 / 4</span>
+          <span class="mc-stepper__label">Shopping cart</span>
+        </div>
+      </li>
+      <li class="mc-stepper__item mc-stepper__item--validated">
+        <div class="mc-stepper__indicator" aria-hidden="true">
+          <svg class="mc-stepper__icon">
+            <use xlink:href="#Navigation_Notification_Available_16px" />
+          </svg>
+        </div>
+        <div class="mc-stepper__detail">
+          <span class="mc-stepper__title">Step 2 / 4</span>
+          <span class="mc-stepper__label">Login</span>
         </div>
       </li>
       <li
         class="mc-stepper__item mc-stepper__item--current"
+        style="--steps: 5; --current: 3;"
         aria-current="step"
       >
-        <span class="mc-stepper__indicator" aria-hidden="true">2</span>
+        <span class="mc-stepper__indicator" aria-hidden="true">3</span>
         <div class="mc-stepper__detail">
-          <span class="mc-stepper__title">Step 2 / 3</span>
-          <span class="mc-stepper__label">Step label 2</span>
+          <span class="mc-stepper__title">Step 3 / 4</span>
+          <span class="mc-stepper__label">Shipping</span>
         </div>
       </li>
       <li class="mc-stepper__item">
         <span class="mc-stepper__indicator" aria-hidden="true">&nbsp;</span>
         <div class="mc-stepper__detail">
-          <span class="mc-stepper__title">Step 3 / 3</span>
-          <span class="mc-stepper__label">Step label 3</span>
+          <span class="mc-stepper__title">Step 4 / 4</span>
+          <span class="mc-stepper__label">Payment</span>
         </div>
       </li>
     </ol>
