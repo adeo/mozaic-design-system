@@ -3,7 +3,10 @@
 // StyleDictionaryColor.m
 //
 
+//
+
 #import "StyleDictionaryColor.h"
+
 
 @implementation StyleDictionaryColor
 
@@ -17,6 +20,21 @@
 
   dispatch_once(&onceToken, ^{
     colorArray = @[
+[UIColor colorWithRed:0.925f green:0.988f blue:0.992f alpha:1.000f],
+[UIColor colorWithRed:0.145f green:0.659f blue:0.816f alpha:1.000f],
+[UIColor colorWithRed:0.118f green:0.373f blue:0.510f alpha:1.000f],
+[UIColor colorWithRed:0.918f green:0.953f blue:0.886f alpha:1.000f],
+[UIColor colorWithRed:0.471f green:0.745f blue:0.125f alpha:1.000f],
+[UIColor colorWithRed:0.082f green:0.506f blue:0.063f alpha:1.000f],
+[UIColor colorWithRed:1.000f green:0.961f blue:0.922f alpha:1.000f],
+[UIColor colorWithRed:0.988f green:0.588f blue:0.118f alpha:1.000f],
+[UIColor colorWithRed:0.592f green:0.310f blue:0.125f alpha:1.000f],
+[UIColor colorWithRed:0.996f green:0.929f blue:0.933f alpha:1.000f],
+[UIColor colorWithRed:0.875f green:0.220f blue:0.169f alpha:1.000f],
+[UIColor colorWithRed:0.545f green:0.133f blue:0.149f alpha:1.000f],
+[UIColor colorWithRed:0.933f green:0.933f blue:0.941f alpha:1.000f],
+[UIColor colorWithRed:0.533f green:0.498f blue:0.529f alpha:1.000f],
+[UIColor colorWithRed:0.333f green:0.310f blue:0.322f alpha:1.000f],
 [UIColor colorWithRed:0.918f green:0.953f blue:0.886f alpha:1.000f],
 [UIColor colorWithRed:0.796f green:0.890f blue:0.710f alpha:1.000f],
 [UIColor colorWithRed:0.678f green:0.835f blue:0.522f alpha:1.000f],

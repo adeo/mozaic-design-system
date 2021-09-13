@@ -1,0 +1,20 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.badge';
+
+.example {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &__item {
+    margin: $mu100;
+  }
+}
+
+.mc-flag:first-child {
+  margin-right: $mu250;
+}
