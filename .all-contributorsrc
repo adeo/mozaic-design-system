@@ -124,6 +124,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "alex-deneuvillers-lm",
+      "name": "Alex Deneuvillers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68054927?v=4",
+      "profile": "https://github.com/alex-deneuvillers-lm",
+      "contributions": [
+        "bug",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
