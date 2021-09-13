@@ -18,7 +18,6 @@
     flex-direction: column;
     height: 100%;
     max-width: calc(100% - #{$mu200});
-    padding-bottom: $mu100;
     transform: translateX(100%);
     transition: transform 0.4s ease;
     width: 100%;
@@ -33,7 +32,6 @@
 
     @include set-from-screen("l") {
       max-width: 28rem; // 448px;
-      padding-bottom: $mu150;
     }
 
     &.is-open {
@@ -60,7 +58,7 @@
   &__body,
   &__footer {
     padding-left: $mu100;
-    padding-right: magic-unit-rem(1.125, true);
+    padding-right: $mu100;
 
     @include set-from-screen(l) {
       padding-left: $mu200;
@@ -73,13 +71,11 @@
     align-items: center;
     padding-bottom: $mu050;
     padding-top: $mu100;
-    margin-bottom: $mu075;
     min-height: magic-unit-rem(3.75, true);
 
     @include set-from-screen(l) {
       padding-bottom: $mu075;
       padding-top: magic-unit-rem(1.25, true);
-      margin-bottom: $mu150;
       min-height: magic-unit-rem(4.25, true);
     }
   }
@@ -105,8 +101,7 @@
     @include set-focus-floating-base();
 
     align-self: flex-start;
-    background:
-      transparent
+    background: transparent
       url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
     background-size: contain;
     cursor: pointer;
@@ -129,31 +124,10 @@
 
     &--overflowing,
     &--overflowing-scroll-edge {
-      border-bottom: get-border(s) solid $color-grey-200;
       position: relative;
 
-      &::after {
-        content: "";
-        background-image:
-          linear-gradient(
-            to top,
-            rgba($color-grey-999, 0.2),
-            rgba($color-grey-999, 0)
-          );
-        bottom: 0;
-        position: absolute;
-        pointer-events: none;
-        height: 1.875rem;
-        left: 0;
-        right: 0;
-
-        @include set-from-screen(s) {
-          height: 2.625rem;
-        }
-
-        @include set-from-screen(l) {
-          height: 2.25rem;
-        }
+      & + #{$parent}__footer {
+        @include set-box-shadow("l");
       }
     }
 
@@ -171,6 +145,12 @@
         }
       }
     }
+
+    &--scroll-end {
+      & + #{$parent}__footer {
+        box-shadow: none;
+      }
+    }
   }
 
   &__content {
@@ -179,6 +159,10 @@
     overflow-x: hidden;
     scrollbar-color: $color-grey-600 $color-grey-100;
     scrollbar-width: thin;
+    padding: {
+      top: $mu150;
+      bottom: $mu300;
+    }
 
     &::-webkit-scrollbar {
       background-color: $color-grey-100;
@@ -193,13 +177,19 @@
   &__footer {
     display: flex;
     flex-direction: column;
-    padding-top: $mu100;
+    padding: {
+      top: $mu100;
+      bottom: $mu100;
+    }
 
     @include set-from-screen(l) {
       align-items: center;
       flex-direction: row;
       justify-content: center;
-      padding-top: $mu150;
+      padding: {
+        top: $mu150;
+        bottom: $mu150;
+      }
     }
 
     & > :first-child {
