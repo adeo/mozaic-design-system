@@ -108,8 +108,6 @@
   &--hide-label {
     #{$parent}__content {
       @include set-hidden-input();
-
-      padding-left: 0;
     }
   }
 }
