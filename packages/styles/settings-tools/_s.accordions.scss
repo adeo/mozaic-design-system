@@ -36,7 +36,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
 
     background-image: url(inline-icons($background-open, $color-font-darker));
     background-size: $background-size;
-    padding: $padding-v $padding-right $padding-v;
+    padding: $padding-v $padding-right $padding-v $mu050;
 
     &--checkable {
       @include set-font-weight("regular");
