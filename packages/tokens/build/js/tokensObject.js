@@ -6058,7 +6058,7 @@ module.exports = {
       "hover": {
         "value": "#41a017",
         "original": {
-          "value": "{color.font.success.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorTabsHover",
         "attributes": {
