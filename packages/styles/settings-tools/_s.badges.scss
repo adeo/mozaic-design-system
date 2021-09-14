@@ -17,12 +17,6 @@ $badge-border: get-border('s');
 
 @mixin set-badge-theme($props) {
   color: map-get($props, 'text');
-
-  @if map-has-key($props, 'border') {
-    border-color: map-get($props, 'border');
-  }
-
-  @if map-has-key($props, 'background') {
-    background-color: map-get($props, 'background');
-  }
+  border-color: map-get($props, 'border');
+  background-color: map-get($props, 'background');
 }
