@@ -9,6 +9,10 @@
     @include set-hidden-input();
   }
 
+  &__content {
+    padding-left: $mu075;
+  }
+
   &__label {
     @include set-font-scale("05", "s");
     @include set-toggle-size("m");
