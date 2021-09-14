@@ -6373,7 +6373,7 @@ module.exports = {
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.font.success.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorTabsHover",
         "attributes": {
