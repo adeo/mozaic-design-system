@@ -40,7 +40,7 @@
     @include set-starts-label($stars-default-size-label);
 
     color: $color-font-darkest;
-    margin-left: 0.625rem; // 10px
+    margin-left: $mu050;
 
     &--score {
       @include set-font-weight("semi-bold");
