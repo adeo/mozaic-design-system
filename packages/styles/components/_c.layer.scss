@@ -20,18 +20,19 @@
     max-width: calc(100% - #{$mu200});
     padding-bottom: $mu100;
     transform: translateX(100%);
-    transition: transform 0.4s ease;
+    transition: visibility 0s linear 0.4s, transform 0.4s;
+    visibility: hidden;
     width: 100%;
 
-    @include set-from-screen("m") {
+    @include set-from-screen('m') {
       max-width: 25rem; // 400px
     }
 
-    @include set-from-screen("m-medium") {
+    @include set-from-screen('m-medium') {
       max-width: 28.6875rem; // 459px
     }
 
-    @include set-from-screen("l") {
+    @include set-from-screen('l') {
       max-width: 28rem; // 448px;
       padding-bottom: $mu150;
     }
@@ -39,18 +40,20 @@
     &.is-open {
       pointer-events: all;
       transform: translateX(0);
+      transition: visibility 0s linear 0s, transform 0.4s;
+      visibility: visible;
     }
 
     &--extend {
-      @include set-from-screen("m") {
+      @include set-from-screen('m') {
         max-width: 31.75rem; // 508px;
       }
 
-      @include set-from-screen("m-medium") {
+      @include set-from-screen('m-medium') {
         max-width: 36.3125rem; // 581px
       }
 
-      @include set-from-screen("l") {
+      @include set-from-screen('l') {
         max-width: 43rem; // 688px;
       }
     }
@@ -92,8 +95,8 @@
   }
 
   &__title {
-    @include set-font-scale("04", "m");
-    @include set-font-weight("regular");
+    @include set-font-scale('04', 'm');
+    @include set-font-weight('regular');
 
     color: $color-font-light;
     margin-bottom: 0;
@@ -107,7 +110,7 @@
     align-self: flex-start;
     background:
       transparent
-      url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
+      url(inline-icons('control-cross-32', $color-grey-500)) no-repeat;
     background-size: contain;
     cursor: pointer;
     height: $mu200;
@@ -133,7 +136,7 @@
       position: relative;
 
       &::after {
-        content: "";
+        content: '';
         background-image:
           linear-gradient(
             to top,
@@ -142,6 +145,7 @@
           );
         bottom: 0;
         position: absolute;
+        pointer-events: none;
         height: 1.875rem;
         left: 0;
         right: 0;

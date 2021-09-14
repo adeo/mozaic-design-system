@@ -16,6 +16,24 @@
     }
   }
 
+  &--justify-between {
+    @include modify-from-screens($major-screens) {
+      justify-content: space-between;
+    }
+  }
+
+  &--justify-evenly {
+    @include modify-from-screens($major-screens) {
+      justify-content: space-evenly;
+    }
+  }
+
+  &--justify-start {
+    @include modify-from-screens($major-screens) {
+      justify-content: flex-start;
+    }
+  }
+
   &--justify-center {
     @include modify-from-screens($major-screens) {
       justify-content: center;
@@ -23,9 +41,9 @@
     }
   }
 
-  &--justify-between {
+  &--justify-end {
     @include modify-from-screens($major-screens) {
-      justify-content: space-between;
+      justify-content: flex-end;
     }
   }
 
@@ -33,12 +51,16 @@
     align-items: stretch;
   }
 
-  &--items-end {
-    align-items: flex-end;
+  &--items-start {
+    align-items: flex-start;
   }
 
   &--items-center {
     align-items: center;
+  }
+
+  &--items-end {
+    align-items: flex-end;
   }
 
   // by default a gl-flexy__col is
