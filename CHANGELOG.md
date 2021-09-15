@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/adeo/mozaic-design-system/compare/v1.15.0...v1.16.0) (2021-09-01)
+
+
+### Bug Fixes
+
+* **patterns/tabs:** set font-weight to semi-bold for the active tab ([#893](https://github.com/adeo/mozaic-design-system/issues/893)) ([7ee35ba](https://github.com/adeo/mozaic-design-system/commit/7ee35ba344a3788ab2f7c870c8979472f7b2db71))
+* **patterns/text-input:** update the line-height & paddings of the component ([#894](https://github.com/adeo/mozaic-design-system/issues/894)) ([d309cfd](https://github.com/adeo/mozaic-design-system/commit/d309cfdefd4b9305676de84dcf11d9878616a61d)), closes [#892](https://github.com/adeo/mozaic-design-system/issues/892)
+
+
+### Features
+
+* **a11y:** add a mixin allowing to hide content visually ([#905](https://github.com/adeo/mozaic-design-system/issues/905)) ([d4ea4e6](https://github.com/adeo/mozaic-design-system/commit/d4ea4e6a5f57117f2dad6082f05d12ac8862a263))
+* **patterns/notification:** add new variation w/ buttons ([#897](https://github.com/adeo/mozaic-design-system/issues/897)) ([204b6ab](https://github.com/adeo/mozaic-design-system/commit/204b6ab82be8917bd083d35b48d8ff569a7d30cd))
+* **patterns/passwordinput:** add new Password Input component ([#896](https://github.com/adeo/mozaic-design-system/issues/896)) ([af4546a](https://github.com/adeo/mozaic-design-system/commit/af4546a1a5018e530b60f7090b24cb133882a72c))
+* **patterns/stepper:** add new 'compact' variation ([#900](https://github.com/adeo/mozaic-design-system/issues/900)) ([cfc8a04](https://github.com/adeo/mozaic-design-system/commit/cfc8a04015ba9861e3ae0622bfe6824f74ca74d9))
+
+
+
+
+
 # [1.15.0](https://github.com/adeo/mozaic-design-system/compare/v1.14.0...v1.15.0) (2021-08-18)
 
 

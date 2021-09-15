@@ -1,0 +1,61 @@
+{
+  "color": {
+    "badge": {
+      "info": {
+        "background": {
+          "value": "{color.info.100.value}"
+        },
+        "border": {
+          "value": "{color.info.500.value}"
+        },
+        "text": {
+          "value": "{color.info.700.value}"
+        }
+      },
+      "success": {
+        "background": {
+          "value": "{color.success.100.value}"
+        },
+        "border": {
+          "value": "{color.success.500.value}"
+        },
+        "text": {
+          "value": "{color.success.700.value}"
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "{color.warning.100.value}"
+        },
+        "border": {
+          "value": "{color.warning.500.value}"
+        },
+        "text": {
+          "value": "{color.warning.700.value}"
+        }
+      },
+      "danger": {
+        "background": {
+          "value": "{color.danger.100.value}"
+        },
+        "border": {
+          "value": "{color.danger.500.value}"
+        },
+        "text": {
+          "value": "{color.danger.700.value}"
+        }
+      },
+      "neutral": {
+        "background": {
+          "value": "{color.grey.100.value}"
+        },
+        "border": {
+          "value": "{color.grey.500.value}"
+        },
+        "text": {
+          "value": "{color.grey.700.value}"
+        }
+      }
+    }
+  }
+}

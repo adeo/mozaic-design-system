@@ -1,0 +1,22 @@
+$badges: get-token(color, badge);
+
+$badge-border: get-border('s');
+
+@mixin set-badge-base {
+  @include set-border-radius();
+
+  border: $badge-border solid transparent;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 $mu050;
+  margin: 0;
+  vertical-align: middle;
+  min-height: 1.375rem;
+  flex-shrink: 0;
+}
+
+@mixin set-badge-theme($props) {
+  color: map-get($props, 'text');
+  border-color: map-get($props, 'border');
+  background-color: map-get($props, 'background');
+}
