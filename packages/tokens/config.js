@@ -1,5 +1,6 @@
 const CM = require('@mozaic-ds/configuration-manager')
 const path = require('path')
+const customActions = require('./actions/actions.js')
 
 const getPath = (localRelativePath) =>
   path.relative(process.cwd(), `${__dirname}/${localRelativePath}`)
@@ -27,6 +28,21 @@ const setLocalTokensExportPath = (dir) =>
 const config = {
   source,
   platforms: {
+    css: {
+      transformGroup: 'css',
+      buildPath: setLocalTokensExportPath('css'),
+      files: [
+        {
+          destination: 'variables.css',
+          format: 'css/variables',
+          options: {
+            outputReferences: true,
+            showFileHeader: false,
+          },
+        },
+      ],
+      actions: ['cssvariables_to_scss'],
+    },
     scss: {
       transformGroup: 'scss',
       buildPath: setLocalTokensExportPath('scss'),
@@ -195,6 +211,7 @@ const config = {
       ],
     },
   },
+  action: customActions,
 }
 
 module.exports = config
