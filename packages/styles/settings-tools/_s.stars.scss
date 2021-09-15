@@ -1,35 +1,89 @@
 $stars: get-token(color, star);
 
 $stars-sizes: (
-  's': (
-    'width': $mu100,
-    'height': $mu100,
+  "s": (
+    "width": $mu100,
+    "height": $mu100,
+    "icon": "star-full-16",
   ),
-  'm': (
-    'width': $mu150,
-    'height': $mu150,
+  "m": (
+    "width": $mu150,
+    "height": $mu150,
+    "icon": "star-full-24",
   ),
-  'l': (
-    'width': $mu200,
-    'height': $mu200,
+  "l": (
+    "width": $mu200,
+    "height": $mu200,
+    "icon": "star-full-32",
   ),
-  'xl': (
-    'width': $mu250,
-    'height': $mu250,
+  "xl": (
+    "width": $mu300,
+    "height": $mu300,
+    "icon": "star-full-48",
   ),
 );
 
-$stars-focus-border: get-border('m');
-$stars-focus-radius: get-border-radius('m');
-$stars-default-size: map-get($stars-sizes, 'm');
-$stars-default-bg-size: map-deep-get($stars-sizes, 'm', 'width');
+$stars-sizes-label: (
+  "s": (
+    "font-size": "04",
+    "line-height": "xs",
+  ),
+  "m": (
+    "font-size": "06",
+    "line-height": "xs",
+  ),
+  "l": (
+    "font-size": "07",
+    "line-height": "xs",
+  ),
+  "xl": (
+    "font-size": "08",
+    "line-height": "xs",
+  ),
+);
+
+$stars-focus-border: get-border("m");
+$stars-focus-radius: get-border-radius("m");
+$stars-default-size: map-get($stars-sizes, "m");
+$stars-default-size-label: map-get($stars-sizes-label, "m");
+$stars-default-bg-size: map-deep-get($stars-sizes, "m", "width");
 
 @mixin set-stars-size($sizeProps) {
-  width: map-get($sizeProps, 'width');
-  height: map-get($sizeProps, 'height');
+  $height: map-get($sizeProps, "height");
+  $width: map-get($sizeProps, "width");
+
+  height: $height;
+  width: $width;
 }
 
 @mixin set-stars-container($sizeProps) {
-  height: map-get($sizeProps, 'height');
-  width: map-get($sizeProps, 'width') * 5;
+  $height: map-get($sizeProps, "height");
+  $width: map-get($sizeProps, "width");
+
+  height: $height;
+  width: $width * 5;
+}
+
+@mixin set-stars-background($sizeProps, $type: "input") {
+  $icon: map-get($sizeProps, "icon");
+  $icon-color-default: $color-star-full;
+  $icon-color-before: $color-star-hover;
+
+  @if $type == "result" {
+    $icon-color-default: $color-star-empty;
+    $icon-color-before: $color-star-full;
+  }
+
+  background-image: url(inline-icons($icon, $icon-color-default));
+
+  &::before {
+    background-image: url(inline-icons($icon, $icon-color-before));
+  }
+}
+
+@mixin set-starts-label($sizeProps) {
+  $font-size: map-get($sizeProps, "font-size");
+  $line-height: map-get($sizeProps, "line-height");
+
+  @include set-font-scale($font-size, $line-height);
 }
