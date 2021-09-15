@@ -14,3 +14,14 @@
   min-height: 500px;
   height: 100vh;
 }
+
+.mc-modal__content {
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &:not(:last-child) {
+      margin-bottom: $mu100;
+    }
+  }
+}

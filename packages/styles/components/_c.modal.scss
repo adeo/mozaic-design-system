@@ -67,9 +67,12 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding-top: $mu075;
-    margin-bottom: $mu150;
-    min-height: magic-unit-rem(2.25, true);
+    margin-bottom: $mu100;
+    // min-height: magic-unit-rem(2.25, true);
+    padding: {
+      top: $mu075;
+      bottom: $mu075;
+    }
 
     @include set-from-screen(m) {
       padding-top: $mu100;
@@ -92,8 +95,7 @@
     flex-shrink: 0;
     height: $mu200;
     width: $mu200;
-    background:
-      transparent
+    background: transparent
       url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
     background-size: contain;
 
@@ -138,6 +140,13 @@
     color: $color-font-darkest;
     margin-bottom: 0;
     margin-top: 0;
+  }
+
+  &__inner {
+    padding: {
+      top: $mu150;
+      bottom: $mu300;
+    }
   }
 
   &__footer {
