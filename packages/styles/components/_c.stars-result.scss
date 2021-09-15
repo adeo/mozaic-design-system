@@ -4,47 +4,68 @@
 .mc-stars-result {
   $parent: get-parent-selector(&);
 
+  @include set-font-family();
+
+  align-items: center;
+  display: flex;
+
   &__text {
     @include set-hidden-input;
   }
 
   &__visual {
     @include set-stars-container($stars-default-size);
+    @include set-stars-background($stars-default-size, "result");
 
-    background:
-      url(inline-icons('star-full-32', $color-star-empty)) repeat-x
-      left top;
-    background-size: $stars-default-bg-size $stars-default-bg-size;
-    display: block;
     position: relative;
 
+    &,
     &::before {
-      background:
-        url(inline-icons('star-full-32', $color-star-full)) repeat-x
-        left top;
+      background-position: left top;
+      background-repeat: repeat-x;
       background-size: $stars-default-bg-size $stars-default-bg-size;
-      bottom: 0;
-      content: '';
       display: block;
+    }
+
+    &::before {
+      bottom: 0;
+      content: "";
       left: 0;
       position: absolute;
       top: 0;
     }
   }
 
+  &__label {
+    @include set-starts-label($stars-default-size-label);
+
+    color: $color-font-darkest;
+    margin-left: $mu050;
+
+    &--score {
+      @include set-font-weight("semi-bold");
+    }
+  }
+
   @each $size, $props in $stars-sizes {
     &--#{$size} {
-      @if ($size != 'm') {
-        #{$parent}__visual {
-          @include set-stars-container($props);
+      @if ($size != "m") {
+        #{$parent} {
+          &__visual {
+            @include set-stars-container($props);
+            @include set-stars-background($props, "result");
 
-          /* fix for ie11 */
-          $bg-variation-size: map-deep-get($stars-sizes, $size, 'width');
+            /* fix for ie11 */
+            $bg-variation-size: map-deep-get($stars-sizes, $size, "width");
 
-          background-size: $bg-variation-size $bg-variation-size;
+            &,
+            &::before {
+              background-size: $bg-variation-size $bg-variation-size;
+            }
+          }
 
-          &::before {
-            background-size: $bg-variation-size $bg-variation-size;
+          &__label {
+            @include set-starts-label(map-deep-get($stars-sizes-label, $size));
           }
         }
       }
