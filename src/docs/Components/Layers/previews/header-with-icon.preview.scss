@@ -1,12 +1,12 @@
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.layer';
-@import 'components/_c.button';
+@import "components/_c.layer";
+@import "components/_c.button";
 
 .example {
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   background-color: #f6f7f7;
   min-height: 700px;
@@ -16,4 +16,12 @@
 .mc-layer__content {
   background-color: #eeeef0;
   min-height: 100%;
+
+  p {
+    margin-top: 0;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
 }

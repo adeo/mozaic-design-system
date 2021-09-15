@@ -2,6 +2,21 @@
 
 
 <resources>
+  <color name="color_badge_info_background">#ffecfcfd</color>
+  <color name="color_badge_info_border">#ff25a8d0</color>
+  <color name="color_badge_info_text">#ff1e5f82</color>
+  <color name="color_badge_success_background">#ffeaf3e2</color>
+  <color name="color_badge_success_border">#ff78be20</color>
+  <color name="color_badge_success_text">#ff158110</color>
+  <color name="color_badge_warning_background">#fffff5eb</color>
+  <color name="color_badge_warning_border">#fffc961e</color>
+  <color name="color_badge_warning_text">#ff974f20</color>
+  <color name="color_badge_danger_background">#fffeedee</color>
+  <color name="color_badge_danger_border">#ffdf382b</color>
+  <color name="color_badge_danger_text">#ff8b2226</color>
+  <color name="color_badge_neutral_background">#ffeeeef0</color>
+  <color name="color_badge_neutral_border">#ff887f87</color>
+  <color name="color_badge_neutral_text">#ff554f52</color>
   <color name="color_primary_01_100">#ffeaf3e2</color>
   <color name="color_primary_01_200">#ffcbe3b5</color>
   <color name="color_primary_01_300">#ffadd585</color>
