@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/adeo/mozaic-design-system/compare/v1.16.0...v1.17.0) (2021-09-15)
+
+
+### Bug Fixes
+
+* **tokens/tabs:** use primary colors tokens for the tab component ([#915](https://github.com/adeo/mozaic-design-system/issues/915)) ([2b0a542](https://github.com/adeo/mozaic-design-system/commit/2b0a542c60669ec2580657a31d28eea9a36fdfdb))
+
+
+### Features
+
+* **badge:** add badge component code ([#919](https://github.com/adeo/mozaic-design-system/issues/919)) ([eea3b65](https://github.com/adeo/mozaic-design-system/commit/eea3b65cb0966f3fad99739cf6024bdb5c3e969b))
+* **tools/tokens:** generate tokens as native css variables ([#902](https://github.com/adeo/mozaic-design-system/issues/902)) ([4e5c635](https://github.com/adeo/mozaic-design-system/commit/4e5c6358964727c7807124fa0093f8e20ce5d3ff)), closes [#890](https://github.com/adeo/mozaic-design-system/issues/890)
+
+
+
+
+
 # [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
 
 
