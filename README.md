@@ -131,6 +131,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/alex-deneuvillers-lm"><img src="https://avatars.githubusercontent.com/u/68054927?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Deneuvillers</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Aalex-deneuvillers-lm" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3Aalex-deneuvillers-lm" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/humbkr"><img src="https://avatars.githubusercontent.com/u/845297?v=4?s=100" width="100px;" alt=""/><br /><sub><b>humbkr</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Ahumbkr" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3Ahumbkr" title="Reviewed Pull Requests">👀</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Marine-Fabien"><img src="https://avatars.githubusercontent.com/u/77010633?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marine Fabien</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AMarine-Fabien" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3AMarine-Fabien" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
