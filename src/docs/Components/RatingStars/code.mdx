@@ -22,29 +22,67 @@ To use the rating stars when filing or modifying a opinion, you must apply the `
 
 ```html
 <div class="mc-stars-input">
-  <input type="radio" name="rating" value="0" id="no-rate" class="mc-stars-input__radio" checked aria-label="No opinion given" />
+  <input
+    type="radio"
+    name="rating"
+    value="0"
+    id="no-rate"
+    class="mc-stars-input__radio"
+    checked
+    aria-label="No opinion given"
+  />
 
-  <input type="radio" name="rating" value="1" id="ratingstar1" class="mc-stars-input__radio" />
+  <input
+    type="radio"
+    name="rating"
+    value="1"
+    id="ratingstar1"
+    class="mc-stars-input__radio"
+  />
   <label for="ratingstar1" class="mc-stars-input__label">
     <span class="mc-stars-input__text">Very bad</span>
   </label>
 
-  <input type="radio" name="rating" value="2" id="ratingstar2" class="mc-stars-input__radio" />
+  <input
+    type="radio"
+    name="rating"
+    value="2"
+    id="ratingstar2"
+    class="mc-stars-input__radio"
+  />
   <label for="ratingstar2" class="mc-stars-input__label">
     <span class="mc-stars-input__text">Bad</span>
   </label>
 
-  <input type="radio" name="rating" value="3" id="ratingstar3" class="mc-stars-input__radio" />
+  <input
+    type="radio"
+    name="rating"
+    value="3"
+    id="ratingstar3"
+    class="mc-stars-input__radio"
+  />
   <label for="ratingstar3" class="mc-stars-input__label">
     <span class="mc-stars-input__text">Medium</span>
   </label>
 
-  <input type="radio" name="rating" value="4" id="ratingstar4" class="mc-stars-input__radio" />
+  <input
+    type="radio"
+    name="rating"
+    value="4"
+    id="ratingstar4"
+    class="mc-stars-input__radio"
+  />
   <label for="ratingstar4" class="mc-stars-input__label">
     <span class="mc-stars-input__text">Good</span>
   </label>
 
-  <input type="radio" name="rating" value="5" id="ratingstar5" class="mc-stars-input__radio" />
+  <input
+    type="radio"
+    name="rating"
+    value="5"
+    id="ratingstar5"
+    class="mc-stars-input__radio"
+  />
   <label for="ratingstar5" class="mc-stars-input__label">
     <span class="mc-stars-input__text">Excellent</span>
   </label>
@@ -77,19 +115,25 @@ To change the size of the stars, simply apply one of the following modifier **to
 ### accessibility and semantic
 
 <HintItem>
-  Each radio button <strong>(input.mc-stars-input__radio)</strong> must be associated with a label tag <strong>(label.mc-stars-input__label)</strong>
+  Each radio button <strong>(input.mc-stars-input__radio)</strong> must be
+  associated with a label tag <strong>(label.mc-stars-input__label)</strong>
 </HintItem>
 
 <HintItem>
-  Each label <strong>(label.mc-stars-input__label)</strong> must contain an explicit text describing the value of the radio button
+  Each label <strong>(label.mc-stars-input__label)</strong> must contain an
+  explicit text describing the value of the radio button
 </HintItem>
 
 <HintItem>
-  The label text must be wrapped with a <strong>span.mc-stars-input__text tag</strong>
+  The label text must be wrapped with a{' '}
+  <strong>span.mc-stars-input__text tag</strong>
 </HintItem>
 
 <HintItem dont>
-  Don't forget to insert the first radio button that has a neutral value. This radio button must <strong>NOT</strong> be associated with a label tag. However, in this case the label is replaced by an <strong>aria-label</strong> attribute.
+  Don't forget to insert the first radio button that has a neutral value. This
+  radio button must <strong>NOT</strong> be associated with a label tag.
+  However, in this case the label is replaced by an <strong>aria-label</strong>{' '}
+  attribute.
 </HintItem>
 
 ## When displaying the global score
@@ -159,12 +203,35 @@ These modifiers are to be applied **to the main container** :
 
 <Preview path="stars-result-all-sizes" />
 
+#### With a label
+
+You have the possibility (you are able) to display the average score or the total review count.
+
+To do so, you just need to add a `span.mc-stars-result__label` element in your HTML structure, just after the `span.mc-stars-result__visual` element.
+
+<Preview path="stars-result-label" nude />
+
+#### With a label link
+
+If you want your label element to be a link, you can use an `a` tag instead of a `span` tag, while assigning it the classes specific to the [Link component](/Components/Links/code/#available-sizes).
+
+<Preview path="stars-result-label-link" nude />
+
+#### With an overall score
+
+In case you need to display the global score, you can add the `mc-stars-result__label--score` on the `mc-stars-result__label` element
+
+<Preview path="stars-result-overall" nude />
+
 ### accessibility and semantic
 
 <HintItem dont>
-  For accessibility reasons, the global score shouldn't be expressed only in the visual form of rating stars.
+  For accessibility reasons, the global score shouldn't be expressed only in the
+  visual form of rating stars.
 </HintItem>
 
 <HintItem>
-  To make the global score accessible, we also express it in text form, by inserting an explicit text in a <strong>span.mc-stars-result__text</strong> tag
+  To make the global score accessible, we also express it in text form, by
+  inserting an explicit text in a <strong>span.mc-stars-result__text</strong>{' '}
+  tag
 </HintItem>
