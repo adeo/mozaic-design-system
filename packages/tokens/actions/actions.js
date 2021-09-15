@@ -25,7 +25,6 @@ module.exports = {
       }
     },
     undo: function (dictionary, config) {
-      // console.log('Cleaning cssvariables_to_scss action')
       const scssFile = config.buildPath + '_variables.scss'
       fs.unlinkSync(scssFile)
     },
