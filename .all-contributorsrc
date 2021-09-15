@@ -144,6 +144,16 @@
         "bug",
         "review"
       ]
+    },
+    {
+      "login": "Marine-Fabien",
+      "name": "Marine Fabien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77010633?v=4",
+      "profile": "https://github.com/Marine-Fabien",
+      "contributions": [
+        "bug",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
