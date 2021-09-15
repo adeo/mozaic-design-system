@@ -220,6 +220,7 @@
   --color-tag-text-light-border: var(--color-grey-700);
   --color-tag-text-light-background: var(--color-grey-000);
   --color-tabs-active-disabled: var(--color-primary-01-200);
+  --color-tabs-hover: var(--color-primary-01-600);
   --color-tabs-shadow: var(--color-grey-999);
   --color-tabs-background: var(--color-grey-000);
   --color-star-hover: var(--color-secondary-orange-300);
@@ -419,6 +420,9 @@
   --color-secondary-green-300: var(--color-primary-01-300);
   --color-secondary-green-200: var(--color-primary-01-200);
   --color-secondary-green-100: var(--color-primary-01-100);
+  --color-badge-neutral-text: var(--color-grey-700);
+  --color-badge-neutral-border: var(--color-grey-500);
+  --color-badge-neutral-background: var(--color-grey-100);
   --color-toggle-disabled-background: var(--color-input-disabled-background);
   --color-tabs-active: var(--color-font-primary-01);
   --color-tabs-disabled: var(--color-font-light);
@@ -446,10 +450,21 @@
   --color-success-300: var(--color-secondary-green-300);
   --color-success-200: var(--color-secondary-green-200);
   --color-success-100: var(--color-secondary-green-100);
+  --color-badge-danger-text: var(--color-danger-700);
+  --color-badge-danger-border: var(--color-danger-500);
+  --color-badge-danger-background: var(--color-danger-100);
+  --color-badge-warning-text: var(--color-warning-700);
+  --color-badge-warning-border: var(--color-warning-500);
+  --color-badge-warning-background: var(--color-warning-100);
+  --color-badge-info-text: var(--color-info-700);
+  --color-badge-info-border: var(--color-info-500);
+  --color-badge-info-background: var(--color-info-100);
   --color-input-valid-hover-border: var(--color-success-800);
   --color-input-valid-border: var(--color-success-500);
   --color-font-success: var(--color-success-600);
   --color-fileuploader-valid: var(--color-success-500);
   --color-fields-error: var(--color-font-danger);
-  --color-tabs-hover: var(--color-font-success);
+  --color-badge-success-text: var(--color-success-700);
+  --color-badge-success-border: var(--color-success-500);
+  --color-badge-success-background: var(--color-success-100);
 }

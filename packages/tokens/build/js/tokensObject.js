@@ -2,6 +2,8 @@ module.exports = {
   "border": {
     "s": {
       "value": 1,
+      "filePath": "packages/tokens/properties/border/base.json",
+      "isSource": true,
       "original": {
         "value": 1
       },
@@ -17,6 +19,8 @@ module.exports = {
     },
     "m": {
       "value": 2,
+      "filePath": "packages/tokens/properties/border/base.json",
+      "isSource": true,
       "original": {
         "value": 2
       },
@@ -32,6 +36,8 @@ module.exports = {
     },
     "l": {
       "value": 3,
+      "filePath": "packages/tokens/properties/border/base.json",
+      "isSource": true,
       "original": {
         "value": 3
       },
@@ -51,6 +57,8 @@ module.exports = {
       "info": {
         "background": {
           "value": "#ecfcfd",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.info.100.value}"
           },
@@ -70,6 +78,8 @@ module.exports = {
         },
         "border": {
           "value": "#25a8d0",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.info.500.value}"
           },
@@ -89,6 +99,8 @@ module.exports = {
         },
         "text": {
           "value": "#1e5f82",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.info.700.value}"
           },
@@ -110,6 +122,8 @@ module.exports = {
       "success": {
         "background": {
           "value": "#eaf3e2",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.success.100.value}"
           },
@@ -129,6 +143,8 @@ module.exports = {
         },
         "border": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.success.500.value}"
           },
@@ -148,6 +164,8 @@ module.exports = {
         },
         "text": {
           "value": "#158110",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.success.700.value}"
           },
@@ -169,6 +187,8 @@ module.exports = {
       "warning": {
         "background": {
           "value": "#fff5eb",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.warning.100.value}"
           },
@@ -188,6 +208,8 @@ module.exports = {
         },
         "border": {
           "value": "#fc961e",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.warning.500.value}"
           },
@@ -207,6 +229,8 @@ module.exports = {
         },
         "text": {
           "value": "#974f20",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.warning.700.value}"
           },
@@ -228,6 +252,8 @@ module.exports = {
       "danger": {
         "background": {
           "value": "#feedee",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.danger.100.value}"
           },
@@ -247,6 +273,8 @@ module.exports = {
         },
         "border": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.danger.500.value}"
           },
@@ -266,6 +294,8 @@ module.exports = {
         },
         "text": {
           "value": "#8b2226",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.danger.700.value}"
           },
@@ -287,6 +317,8 @@ module.exports = {
       "neutral": {
         "background": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -306,6 +338,8 @@ module.exports = {
         },
         "border": {
           "value": "#887f87",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
           },
@@ -325,6 +359,8 @@ module.exports = {
         },
         "text": {
           "value": "#554f52",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.700.value}"
           },
@@ -347,6 +383,8 @@ module.exports = {
     "primary-01": {
       "100": {
         "value": "#eaf3e2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#EAF3E2"
         },
@@ -364,6 +402,8 @@ module.exports = {
       },
       "200": {
         "value": "#cbe3b5",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#CBE3B5"
         },
@@ -381,6 +421,8 @@ module.exports = {
       },
       "300": {
         "value": "#add585",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#ADD585"
         },
@@ -398,6 +440,8 @@ module.exports = {
       },
       "400": {
         "value": "#91c854",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#91C854"
         },
@@ -415,6 +459,8 @@ module.exports = {
       },
       "500": {
         "value": "#78be20",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#78BE20"
         },
@@ -432,6 +478,8 @@ module.exports = {
       },
       "600": {
         "value": "#41a017",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#41A017"
         },
@@ -449,6 +497,8 @@ module.exports = {
       },
       "700": {
         "value": "#158110",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#158110"
         },
@@ -466,6 +516,8 @@ module.exports = {
       },
       "800": {
         "value": "#0a601b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#0A601B"
         },
@@ -483,6 +535,8 @@ module.exports = {
       },
       "900": {
         "value": "#053e1f",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#053E1F"
         },
@@ -502,6 +556,8 @@ module.exports = {
     "primary-02": {
       "100": {
         "value": "#dbedea",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#DBEDEA"
         },
@@ -519,6 +575,8 @@ module.exports = {
       },
       "200": {
         "value": "#a5d1cb",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#A5D1CB"
         },
@@ -536,6 +594,8 @@ module.exports = {
       },
       "300": {
         "value": "#6eb4ad",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#6EB4AD"
         },
@@ -553,6 +613,8 @@ module.exports = {
       },
       "400": {
         "value": "#379590",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#379590"
         },
@@ -570,6 +632,8 @@ module.exports = {
       },
       "500": {
         "value": "#007574",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#007574"
         },
@@ -587,6 +651,8 @@ module.exports = {
       },
       "600": {
         "value": "#035f64",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#035F64"
         },
@@ -604,6 +670,8 @@ module.exports = {
       },
       "700": {
         "value": "#044c53",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#044C53"
         },
@@ -621,6 +689,8 @@ module.exports = {
       },
       "800": {
         "value": "#063a44",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#063A44"
         },
@@ -638,6 +708,8 @@ module.exports = {
       },
       "900": {
         "value": "#062b35",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#062B35"
         },
@@ -657,6 +729,8 @@ module.exports = {
     "grey": {
       "100": {
         "value": "#eeeef0",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#EEEEF0"
         },
@@ -674,6 +748,8 @@ module.exports = {
       },
       "200": {
         "value": "#d3d2d6",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#D3D2D6"
         },
@@ -691,6 +767,8 @@ module.exports = {
       },
       "300": {
         "value": "#bab6bc",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#BAB6BC"
         },
@@ -708,6 +786,8 @@ module.exports = {
       },
       "400": {
         "value": "#a19ba2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#A19BA2"
         },
@@ -725,6 +805,8 @@ module.exports = {
       },
       "500": {
         "value": "#887f87",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#887F87"
         },
@@ -742,6 +824,8 @@ module.exports = {
       },
       "600": {
         "value": "#6f676c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#6F676C"
         },
@@ -759,6 +843,8 @@ module.exports = {
       },
       "700": {
         "value": "#554f52",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#554F52"
         },
@@ -776,6 +862,8 @@ module.exports = {
       },
       "800": {
         "value": "#3c3738",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#3C3738"
         },
@@ -793,6 +881,8 @@ module.exports = {
       },
       "900": {
         "value": "#222020",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#222020"
         },
@@ -810,6 +900,8 @@ module.exports = {
       },
       "999": {
         "value": "#000000",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -827,6 +919,8 @@ module.exports = {
       },
       "000": {
         "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FFFFFF"
         },
@@ -846,6 +940,8 @@ module.exports = {
     "secondary-blue": {
       "100": {
         "value": "#ecfcfd",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#ECFCFD"
         },
@@ -863,6 +959,8 @@ module.exports = {
       },
       "200": {
         "value": "#b7eef5",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#B7EEF5"
         },
@@ -880,6 +978,8 @@ module.exports = {
       },
       "300": {
         "value": "#84dbeb",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#84DBEB"
         },
@@ -897,6 +997,8 @@ module.exports = {
       },
       "400": {
         "value": "#54c4de",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#54C4DE"
         },
@@ -914,6 +1016,8 @@ module.exports = {
       },
       "500": {
         "value": "#25a8d0",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#25A8D0"
         },
@@ -931,6 +1035,8 @@ module.exports = {
       },
       "600": {
         "value": "#2282a8",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#2282A8"
         },
@@ -948,6 +1054,8 @@ module.exports = {
       },
       "700": {
         "value": "#1e5f82",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#1E5F82"
         },
@@ -965,6 +1073,8 @@ module.exports = {
       },
       "800": {
         "value": "#18415d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#18415D"
         },
@@ -982,6 +1092,8 @@ module.exports = {
       },
       "900": {
         "value": "#102739",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#102739"
         },
@@ -1001,6 +1113,8 @@ module.exports = {
     "secondary-green": {
       "100": {
         "value": "#eaf3e2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.100.value}"
         },
@@ -1018,6 +1132,8 @@ module.exports = {
       },
       "200": {
         "value": "#cbe3b5",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.200.value}"
         },
@@ -1035,6 +1151,8 @@ module.exports = {
       },
       "300": {
         "value": "#add585",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.300.value}"
         },
@@ -1052,6 +1170,8 @@ module.exports = {
       },
       "400": {
         "value": "#91c854",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.400.value}"
         },
@@ -1069,6 +1189,8 @@ module.exports = {
       },
       "500": {
         "value": "#78be20",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.500.value}"
         },
@@ -1086,6 +1208,8 @@ module.exports = {
       },
       "600": {
         "value": "#41a017",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.600.value}"
         },
@@ -1103,6 +1227,8 @@ module.exports = {
       },
       "700": {
         "value": "#158110",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.700.value}"
         },
@@ -1120,6 +1246,8 @@ module.exports = {
       },
       "800": {
         "value": "#0a601b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.800.value}"
         },
@@ -1137,6 +1265,8 @@ module.exports = {
       },
       "900": {
         "value": "#053e1f",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.900.value}"
         },
@@ -1156,6 +1286,8 @@ module.exports = {
     "secondary-purple": {
       "100": {
         "value": "#efebfe",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#EFEBFE"
         },
@@ -1173,6 +1305,8 @@ module.exports = {
       },
       "200": {
         "value": "#c7b0fa",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#C7B0FA"
         },
@@ -1190,6 +1324,8 @@ module.exports = {
       },
       "300": {
         "value": "#a575f3",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#A575F3"
         },
@@ -1207,6 +1343,8 @@ module.exports = {
       },
       "400": {
         "value": "#883be9",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#883BE9"
         },
@@ -1224,6 +1362,8 @@ module.exports = {
       },
       "500": {
         "value": "#7000dd",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#7000DD"
         },
@@ -1241,6 +1381,8 @@ module.exports = {
       },
       "600": {
         "value": "#5803b3",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#5803B3"
         },
@@ -1258,6 +1400,8 @@ module.exports = {
       },
       "700": {
         "value": "#42058a",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#42058A"
         },
@@ -1275,6 +1419,8 @@ module.exports = {
       },
       "800": {
         "value": "#2e0663",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#2E0663"
         },
@@ -1292,6 +1438,8 @@ module.exports = {
       },
       "900": {
         "value": "#1c053d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#1C053D"
         },
@@ -1311,6 +1459,8 @@ module.exports = {
     "secondary-red": {
       "100": {
         "value": "#feedee",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FEEDEE"
         },
@@ -1328,6 +1478,8 @@ module.exports = {
       },
       "200": {
         "value": "#fab9bc",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FAB9BC"
         },
@@ -1345,6 +1497,8 @@ module.exports = {
       },
       "300": {
         "value": "#f38789",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#F38789"
         },
@@ -1362,6 +1516,8 @@ module.exports = {
       },
       "400": {
         "value": "#ea5d58",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#EA5D58"
         },
@@ -1379,6 +1535,8 @@ module.exports = {
       },
       "500": {
         "value": "#df382b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#DF382B"
         },
@@ -1396,6 +1554,8 @@ module.exports = {
       },
       "600": {
         "value": "#b42a27",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#B42A27"
         },
@@ -1413,6 +1573,8 @@ module.exports = {
       },
       "700": {
         "value": "#8b2226",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#8B2226"
         },
@@ -1430,6 +1592,8 @@ module.exports = {
       },
       "800": {
         "value": "#641b21",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#641B21"
         },
@@ -1447,6 +1611,8 @@ module.exports = {
       },
       "900": {
         "value": "#3e1219",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#3E1219"
         },
@@ -1466,6 +1632,8 @@ module.exports = {
     "secondary-orange": {
       "100": {
         "value": "#fff5eb",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FFF5EB"
         },
@@ -1483,6 +1651,8 @@ module.exports = {
       },
       "200": {
         "value": "#ffdab2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FFDAB2"
         },
@@ -1500,6 +1670,8 @@ module.exports = {
       },
       "300": {
         "value": "#ffc17d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FFC17D"
         },
@@ -1517,6 +1689,8 @@ module.exports = {
       },
       "400": {
         "value": "#ffab4b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FFAB4B"
         },
@@ -1534,6 +1708,8 @@ module.exports = {
       },
       "500": {
         "value": "#fc961e",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FC961E"
         },
@@ -1551,6 +1727,8 @@ module.exports = {
       },
       "600": {
         "value": "#c86f21",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#C86F21"
         },
@@ -1568,6 +1746,8 @@ module.exports = {
       },
       "700": {
         "value": "#974f20",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#974F20"
         },
@@ -1585,6 +1765,8 @@ module.exports = {
       },
       "800": {
         "value": "#6a351c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#6A351C"
         },
@@ -1602,6 +1784,8 @@ module.exports = {
       },
       "900": {
         "value": "#401f15",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#401F15"
         },
@@ -1621,6 +1805,8 @@ module.exports = {
     "secondary-yellow": {
       "100": {
         "value": "#fff8e2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FFF8E2"
         },
@@ -1638,6 +1824,8 @@ module.exports = {
       },
       "200": {
         "value": "#ffebaf",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FFEBAF"
         },
@@ -1655,6 +1843,8 @@ module.exports = {
       },
       "300": {
         "value": "#fee07d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FEE07D"
         },
@@ -1672,6 +1862,8 @@ module.exports = {
       },
       "400": {
         "value": "#fcd64c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#FCD64C"
         },
@@ -1689,6 +1881,8 @@ module.exports = {
       },
       "500": {
         "value": "#f8cc1c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#F8CC1C"
         },
@@ -1706,6 +1900,8 @@ module.exports = {
       },
       "600": {
         "value": "#c9a21b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#C9A21B"
         },
@@ -1723,6 +1919,8 @@ module.exports = {
       },
       "700": {
         "value": "#9c7b18",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#9C7B18"
         },
@@ -1740,6 +1938,8 @@ module.exports = {
       },
       "800": {
         "value": "#705613",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#705613"
         },
@@ -1757,6 +1957,8 @@ module.exports = {
       },
       "900": {
         "value": "#46350d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "#46350D"
         },
@@ -1776,6 +1978,8 @@ module.exports = {
     "danger": {
       "100": {
         "value": "#feedee",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.100.value}"
         },
@@ -1793,6 +1997,8 @@ module.exports = {
       },
       "200": {
         "value": "#fab9bc",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.200.value}"
         },
@@ -1810,6 +2016,8 @@ module.exports = {
       },
       "300": {
         "value": "#f38789",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.300.value}"
         },
@@ -1827,6 +2035,8 @@ module.exports = {
       },
       "400": {
         "value": "#ea5d58",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.400.value}"
         },
@@ -1844,6 +2054,8 @@ module.exports = {
       },
       "500": {
         "value": "#df382b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.500.value}"
         },
@@ -1861,6 +2073,8 @@ module.exports = {
       },
       "600": {
         "value": "#b42a27",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.600.value}"
         },
@@ -1878,6 +2092,8 @@ module.exports = {
       },
       "700": {
         "value": "#8b2226",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.700.value}"
         },
@@ -1895,6 +2111,8 @@ module.exports = {
       },
       "800": {
         "value": "#641b21",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.800.value}"
         },
@@ -1912,6 +2130,8 @@ module.exports = {
       },
       "900": {
         "value": "#3e1219",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-red.900.value}"
         },
@@ -1931,6 +2151,8 @@ module.exports = {
     "info": {
       "100": {
         "value": "#ecfcfd",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.100.value}"
         },
@@ -1948,6 +2170,8 @@ module.exports = {
       },
       "200": {
         "value": "#b7eef5",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.200.value}"
         },
@@ -1965,6 +2189,8 @@ module.exports = {
       },
       "300": {
         "value": "#84dbeb",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.300.value}"
         },
@@ -1982,6 +2208,8 @@ module.exports = {
       },
       "400": {
         "value": "#54c4de",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.400.value}"
         },
@@ -1999,6 +2227,8 @@ module.exports = {
       },
       "500": {
         "value": "#25a8d0",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.500.value}"
         },
@@ -2016,6 +2246,8 @@ module.exports = {
       },
       "600": {
         "value": "#2282a8",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.600.value}"
         },
@@ -2033,6 +2265,8 @@ module.exports = {
       },
       "700": {
         "value": "#1e5f82",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.700.value}"
         },
@@ -2050,6 +2284,8 @@ module.exports = {
       },
       "800": {
         "value": "#18415d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.800.value}"
         },
@@ -2067,6 +2303,8 @@ module.exports = {
       },
       "900": {
         "value": "#102739",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.900.value}"
         },
@@ -2086,6 +2324,8 @@ module.exports = {
     "warning": {
       "100": {
         "value": "#fff5eb",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.100.value}"
         },
@@ -2103,6 +2343,8 @@ module.exports = {
       },
       "200": {
         "value": "#ffdab2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.200.value}"
         },
@@ -2120,6 +2362,8 @@ module.exports = {
       },
       "300": {
         "value": "#ffc17d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.300.value}"
         },
@@ -2137,6 +2381,8 @@ module.exports = {
       },
       "400": {
         "value": "#ffab4b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.400.value}"
         },
@@ -2154,6 +2400,8 @@ module.exports = {
       },
       "500": {
         "value": "#fc961e",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.500.value}"
         },
@@ -2171,6 +2419,8 @@ module.exports = {
       },
       "600": {
         "value": "#c86f21",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.600.value}"
         },
@@ -2188,6 +2438,8 @@ module.exports = {
       },
       "700": {
         "value": "#974f20",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.700.value}"
         },
@@ -2205,6 +2457,8 @@ module.exports = {
       },
       "800": {
         "value": "#6a351c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.800.value}"
         },
@@ -2222,6 +2476,8 @@ module.exports = {
       },
       "900": {
         "value": "#401f15",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.900.value}"
         },
@@ -2241,6 +2497,8 @@ module.exports = {
     "success": {
       "100": {
         "value": "#eaf3e2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.100.value}"
         },
@@ -2258,6 +2516,8 @@ module.exports = {
       },
       "200": {
         "value": "#cbe3b5",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.200.value}"
         },
@@ -2275,6 +2535,8 @@ module.exports = {
       },
       "300": {
         "value": "#add585",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.300.value}"
         },
@@ -2292,6 +2554,8 @@ module.exports = {
       },
       "400": {
         "value": "#91c854",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.400.value}"
         },
@@ -2309,6 +2573,8 @@ module.exports = {
       },
       "500": {
         "value": "#78be20",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.500.value}"
         },
@@ -2326,6 +2592,8 @@ module.exports = {
       },
       "600": {
         "value": "#41a017",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.600.value}"
         },
@@ -2343,6 +2611,8 @@ module.exports = {
       },
       "700": {
         "value": "#158110",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.700.value}"
         },
@@ -2360,6 +2630,8 @@ module.exports = {
       },
       "800": {
         "value": "#0a601b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.800.value}"
         },
@@ -2377,6 +2649,8 @@ module.exports = {
       },
       "900": {
         "value": "#053e1f",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-green.900.value}"
         },
@@ -2397,6 +2671,8 @@ module.exports = {
       "solid": {
         "background": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -2416,6 +2692,8 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -2436,6 +2714,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#158110",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
             },
@@ -2459,6 +2739,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2480,6 +2762,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2503,6 +2787,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#158110",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
             },
@@ -2526,6 +2812,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#41a017",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-01.600.value}"
             },
@@ -2547,6 +2835,8 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -2571,6 +2861,8 @@ module.exports = {
       "solid-primary-02": {
         "background": {
           "value": "#007574",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
           },
@@ -2590,6 +2882,8 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -2610,6 +2904,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#062b35",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
             },
@@ -2633,6 +2929,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2654,6 +2952,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2677,6 +2977,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#062b35",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
             },
@@ -2700,6 +3002,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#063a44",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-02.800.value}"
             },
@@ -2721,6 +3025,8 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -2745,6 +3051,8 @@ module.exports = {
       "solid-neutral": {
         "background": {
           "value": "#3c3738",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
           },
@@ -2764,6 +3072,8 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -2784,6 +3094,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#222020",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -2807,6 +3119,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -2828,6 +3142,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -2851,6 +3167,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#3c3738",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -2874,6 +3192,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#222020",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -2895,6 +3215,8 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -2919,6 +3241,8 @@ module.exports = {
       "solid-danger": {
         "background": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.danger.500.value}"
           },
@@ -2938,6 +3262,8 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -2958,6 +3284,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#8b2226",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
             },
@@ -2981,6 +3309,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3002,6 +3332,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3025,6 +3357,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#8b2226",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
             },
@@ -3048,6 +3382,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#b42a27",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.danger.600.value}"
             },
@@ -3069,6 +3405,8 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -3093,6 +3431,8 @@ module.exports = {
       "bordered": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -3112,6 +3452,8 @@ module.exports = {
         },
         "border": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -3131,6 +3473,8 @@ module.exports = {
         },
         "font": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -3151,6 +3495,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#158110",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
             },
@@ -3174,6 +3520,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3195,6 +3543,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3218,6 +3568,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#cbe3b5",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-01.200.value}"
             },
@@ -3241,6 +3593,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#eaf3e2",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-01.100.value}"
             },
@@ -3265,6 +3619,8 @@ module.exports = {
       "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -3284,6 +3640,8 @@ module.exports = {
         },
         "border": {
           "value": "#007574",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
           },
@@ -3303,6 +3661,8 @@ module.exports = {
         },
         "font": {
           "value": "#007574",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
           },
@@ -3323,6 +3683,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#062b35",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
             },
@@ -3346,6 +3708,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3367,6 +3731,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3390,6 +3756,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#a5d1cb",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-02.200.value}"
             },
@@ -3413,6 +3781,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#dbedea",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-02.100.value}"
             },
@@ -3437,6 +3807,8 @@ module.exports = {
       "bordered-neutral": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -3456,6 +3828,8 @@ module.exports = {
         },
         "border": {
           "value": "#3c3738",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
           },
@@ -3475,6 +3849,8 @@ module.exports = {
         },
         "font": {
           "value": "#3c3738",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
           },
@@ -3495,6 +3871,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#222020",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -3518,6 +3896,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3539,6 +3919,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3562,6 +3944,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3585,6 +3969,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#eeeef0",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.100.value}"
             },
@@ -3609,6 +3995,8 @@ module.exports = {
       "bordered-danger": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -3628,6 +4016,8 @@ module.exports = {
         },
         "border": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.500.value}"
           },
@@ -3647,6 +4037,8 @@ module.exports = {
         },
         "font": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.500.value}"
           },
@@ -3667,6 +4059,8 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#8b2226",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.secondary-red.700.value}"
             },
@@ -3690,6 +4084,8 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -3711,6 +4107,8 @@ module.exports = {
           },
           "font": {
             "value": "#6f676c",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
             },
@@ -3734,6 +4132,8 @@ module.exports = {
         "active": {
           "background": {
             "value": "#fab9bc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.secondary-red.200.value}"
             },
@@ -3757,6 +4157,8 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#feedee",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
             "original": {
               "value": "{color.secondary-red.100.value}"
             },
@@ -3782,6 +4184,8 @@ module.exports = {
     "divider": {
       "lightest": {
         "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
         },
@@ -3799,6 +4203,8 @@ module.exports = {
       },
       "light": {
         "value": "#bab6bc",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.300.value}"
         },
@@ -3816,6 +4222,8 @@ module.exports = {
       },
       "default": {
         "value": "#6f676c",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
         },
@@ -3833,6 +4241,8 @@ module.exports = {
       },
       "dark": {
         "value": "#000000",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
         },
@@ -3852,6 +4262,8 @@ module.exports = {
     "fields": {
       "error": {
         "value": "#b42a27",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
         "original": {
           "value": "{color.font.danger.value}"
         },
@@ -3869,6 +4281,8 @@ module.exports = {
       },
       "label": {
         "value": "#3c3738",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
         "original": {
           "value": "{color.font.dark.value}"
         },
@@ -3886,6 +4300,8 @@ module.exports = {
       },
       "requirement": {
         "value": "#6f676c",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
         "original": {
           "value": "{color.font.light.value}"
         },
@@ -3903,6 +4319,8 @@ module.exports = {
       },
       "help": {
         "value": "#6f676c",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
         "original": {
           "value": "{color.font.light.value}"
         },
@@ -3922,6 +4340,8 @@ module.exports = {
     "fileuploader": {
       "font": {
         "value": "#000000",
+        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
         },
@@ -3940,6 +4360,8 @@ module.exports = {
       "files": {
         "list": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/fileuploder.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -3959,6 +4381,8 @@ module.exports = {
         },
         "delete": {
           "value": "#d3d2d6",
+          "filePath": "packages/tokens/properties/color/fileuploder.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
           },
@@ -3979,6 +4403,8 @@ module.exports = {
       },
       "valid": {
         "value": "#78be20",
+        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "isSource": true,
         "original": {
           "value": "{color.success.500.value}"
         },
@@ -3996,6 +4422,8 @@ module.exports = {
       },
       "alert": {
         "value": "#b42a27",
+        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "isSource": true,
         "original": {
           "value": "{color.danger.600.value}"
         },
@@ -4016,6 +4444,8 @@ module.exports = {
       "solid": {
         "background": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4035,6 +4465,8 @@ module.exports = {
         },
         "border": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4054,6 +4486,8 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4075,6 +4509,8 @@ module.exports = {
       "solid-primary-02": {
         "background": {
           "value": "#035f64",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
           },
@@ -4094,6 +4530,8 @@ module.exports = {
         },
         "border": {
           "value": "#035f64",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
           },
@@ -4113,6 +4551,8 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4134,6 +4574,8 @@ module.exports = {
       "solid-dark": {
         "background": {
           "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
           },
@@ -4153,6 +4595,8 @@ module.exports = {
         },
         "border": {
           "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
           },
@@ -4172,6 +4616,8 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4193,6 +4639,8 @@ module.exports = {
       "solid-light": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4212,6 +4660,8 @@ module.exports = {
         },
         "border": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4231,6 +4681,8 @@ module.exports = {
         },
         "text": {
           "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
           },
@@ -4252,6 +4704,8 @@ module.exports = {
       "solid-danger": {
         "background": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.500.value}"
           },
@@ -4271,6 +4725,8 @@ module.exports = {
         },
         "border": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.500.value}"
           },
@@ -4290,6 +4746,8 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4311,6 +4769,8 @@ module.exports = {
       "bordered": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4330,6 +4790,8 @@ module.exports = {
         },
         "border": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4349,6 +4811,8 @@ module.exports = {
         },
         "text": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -4370,6 +4834,8 @@ module.exports = {
       "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4389,6 +4855,8 @@ module.exports = {
         },
         "border": {
           "value": "#035f64",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
           },
@@ -4408,6 +4876,8 @@ module.exports = {
         },
         "text": {
           "value": "#035f64",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
           },
@@ -4429,6 +4899,8 @@ module.exports = {
       "bordered-dark": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4448,6 +4920,8 @@ module.exports = {
         },
         "border": {
           "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
           },
@@ -4467,6 +4941,8 @@ module.exports = {
         },
         "text": {
           "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
           },
@@ -4488,6 +4964,8 @@ module.exports = {
       "bordered-light": {
         "background": {
           "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
           },
@@ -4507,6 +4985,8 @@ module.exports = {
         },
         "border": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4526,6 +5006,8 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4547,6 +5029,8 @@ module.exports = {
       "bordered-danger": {
         "background": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -4566,6 +5050,8 @@ module.exports = {
         },
         "border": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.500.value}"
           },
@@ -4585,6 +5071,8 @@ module.exports = {
         },
         "text": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.500.value}"
           },
@@ -4607,6 +5095,8 @@ module.exports = {
     "focus": {
       "gap": {
         "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/focus.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
         },
@@ -4624,6 +5114,8 @@ module.exports = {
       },
       "border": {
         "value": "#25a8d0",
+        "filePath": "packages/tokens/properties/color/focus.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.500.value}"
         },
@@ -4643,6 +5135,8 @@ module.exports = {
     "font": {
       "primary-01": {
         "value": "#78be20",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.500.value}"
         },
@@ -4660,6 +5154,8 @@ module.exports = {
       },
       "primary-02": {
         "value": "#007574",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-02.500.value}"
         },
@@ -4677,6 +5173,8 @@ module.exports = {
       },
       "darkest": {
         "value": "#000000",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
         },
@@ -4694,6 +5192,8 @@ module.exports = {
       },
       "darker": {
         "value": "#222020",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.900.value}"
         },
@@ -4711,6 +5211,8 @@ module.exports = {
       },
       "dark": {
         "value": "#3c3738",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.800.value}"
         },
@@ -4728,6 +5230,8 @@ module.exports = {
       },
       "light": {
         "value": "#6f676c",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
         },
@@ -4745,6 +5249,8 @@ module.exports = {
       },
       "lightest": {
         "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
         },
@@ -4762,6 +5268,8 @@ module.exports = {
       },
       "info": {
         "value": "#2282a8",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.info.600.value}"
         },
@@ -4779,6 +5287,8 @@ module.exports = {
       },
       "success": {
         "value": "#41a017",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.success.600.value}"
         },
@@ -4796,6 +5306,8 @@ module.exports = {
       },
       "warning": {
         "value": "#c86f21",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.warning.600.value}"
         },
@@ -4813,6 +5325,8 @@ module.exports = {
       },
       "danger": {
         "value": "#b42a27",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
         "original": {
           "value": "{color.danger.600.value}"
         },
@@ -4832,6 +5346,8 @@ module.exports = {
     "input": {
       "text": {
         "value": "#222020",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.900.value}"
         },
@@ -4849,6 +5365,8 @@ module.exports = {
       },
       "border": {
         "value": "#6f676c",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
         },
@@ -4866,6 +5384,8 @@ module.exports = {
       },
       "placeholder": {
         "value": "#887f87",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.500.value}"
         },
@@ -4883,6 +5403,8 @@ module.exports = {
       },
       "background": {
         "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
         },
@@ -4901,6 +5423,8 @@ module.exports = {
       "disabled": {
         "border": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -4920,6 +5444,8 @@ module.exports = {
         },
         "background": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -4939,6 +5465,8 @@ module.exports = {
         },
         "icon": {
           "value": "#a19ba2",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.400.value}"
           },
@@ -4960,6 +5488,8 @@ module.exports = {
       "hover": {
         "border": {
           "value": "#222020",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
           },
@@ -4981,6 +5511,8 @@ module.exports = {
       "focus": {
         "border": {
           "value": "#25a8d0",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-blue.500.value}"
           },
@@ -5002,6 +5534,8 @@ module.exports = {
       "valid": {
         "border": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.success.500.value}"
           },
@@ -5022,6 +5556,8 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#0a601b",
+            "filePath": "packages/tokens/properties/color/input.json",
+            "isSource": true,
             "original": {
               "value": "{color.success.800.value}"
             },
@@ -5046,6 +5582,8 @@ module.exports = {
       "invalid": {
         "border": {
           "value": "#b42a27",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.danger.600.value}"
           },
@@ -5066,6 +5604,8 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#641b21",
+            "filePath": "packages/tokens/properties/color/input.json",
+            "isSource": true,
             "original": {
               "value": "{color.danger.800.value}"
             },
@@ -5090,6 +5630,8 @@ module.exports = {
       "checked": {
         "border": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5109,6 +5651,8 @@ module.exports = {
         },
         "background": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5128,6 +5672,8 @@ module.exports = {
         },
         "icon": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -5148,6 +5694,8 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#0a601b",
+            "filePath": "packages/tokens/properties/color/input.json",
+            "isSource": true,
             "original": {
               "value": "{color.primary-01.800.value}"
             },
@@ -5174,6 +5722,8 @@ module.exports = {
       "dark": {
         "base": {
           "value": "#000000",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
           },
@@ -5193,6 +5743,8 @@ module.exports = {
         },
         "visited": {
           "value": "#3c3738",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
           },
@@ -5212,6 +5764,8 @@ module.exports = {
         },
         "active": {
           "value": "#3c3738",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
           },
@@ -5231,6 +5785,8 @@ module.exports = {
         },
         "disabled": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5250,6 +5806,8 @@ module.exports = {
         },
         "hover": {
           "value": "#6f676c",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.600.value}"
           },
@@ -5271,6 +5829,8 @@ module.exports = {
       "light": {
         "base": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -5290,6 +5850,8 @@ module.exports = {
         },
         "visited": {
           "value": "#d3d2d6",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
           },
@@ -5309,6 +5871,8 @@ module.exports = {
         },
         "active": {
           "value": "#d3d2d6",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
           },
@@ -5328,6 +5892,8 @@ module.exports = {
         },
         "disabled": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5347,6 +5913,8 @@ module.exports = {
         },
         "hover": {
           "value": "#a19ba2",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.400.value}"
           },
@@ -5368,6 +5936,8 @@ module.exports = {
       "primary": {
         "base": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5387,6 +5957,8 @@ module.exports = {
         },
         "visited": {
           "value": "#158110",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.700.value}"
           },
@@ -5406,6 +5978,8 @@ module.exports = {
         },
         "active": {
           "value": "#158110",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.700.value}"
           },
@@ -5425,6 +5999,8 @@ module.exports = {
         },
         "disabled": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5444,6 +6020,8 @@ module.exports = {
         },
         "hover": {
           "value": "#053e1f",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.900.value}"
           },
@@ -5465,6 +6043,8 @@ module.exports = {
       "primary-02": {
         "base": {
           "value": "#035f64",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
           },
@@ -5484,6 +6064,8 @@ module.exports = {
         },
         "visited": {
           "value": "#044c53",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.700.value}"
           },
@@ -5503,6 +6085,8 @@ module.exports = {
         },
         "active": {
           "value": "#044c53",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.700.value}"
           },
@@ -5522,6 +6106,8 @@ module.exports = {
         },
         "disabled": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5541,6 +6127,8 @@ module.exports = {
         },
         "hover": {
           "value": "#062b35",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-02.900.value}"
           },
@@ -5562,6 +6150,8 @@ module.exports = {
       "danger": {
         "base": {
           "value": "#b42a27",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
           },
@@ -5581,6 +6171,8 @@ module.exports = {
         },
         "visited": {
           "value": "#8b2226",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.700.value}"
           },
@@ -5600,6 +6192,8 @@ module.exports = {
         },
         "active": {
           "value": "#8b2226",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.700.value}"
           },
@@ -5619,6 +6213,8 @@ module.exports = {
         },
         "disabled": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -5638,6 +6234,8 @@ module.exports = {
         },
         "hover": {
           "value": "#3e1219",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.900.value}"
           },
@@ -5660,6 +6258,8 @@ module.exports = {
     "notification": {
       "font": {
         "value": "#000000",
+        "filePath": "packages/tokens/properties/color/notification.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
         },
@@ -5678,6 +6278,8 @@ module.exports = {
       "information": {
         "background": {
           "value": "#ecfcfd",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-blue.100.value}"
           },
@@ -5697,6 +6299,8 @@ module.exports = {
         },
         "border": {
           "value": "#25a8d0",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-blue.500.value}"
           },
@@ -5718,6 +6322,8 @@ module.exports = {
       "success": {
         "background": {
           "value": "#eaf3e2",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.100.value}"
           },
@@ -5737,6 +6343,8 @@ module.exports = {
         },
         "border": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5758,6 +6366,8 @@ module.exports = {
       "warning": {
         "background": {
           "value": "#fff5eb",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-orange.100.value}"
           },
@@ -5777,6 +6387,8 @@ module.exports = {
         },
         "border": {
           "value": "#fc961e",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-orange.500.value}"
           },
@@ -5798,6 +6410,8 @@ module.exports = {
       "danger": {
         "background": {
           "value": "#feedee",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.100.value}"
           },
@@ -5817,6 +6431,8 @@ module.exports = {
         },
         "border": {
           "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
           "original": {
             "value": "{color.secondary-red.500.value}"
           },
@@ -5839,6 +6455,8 @@ module.exports = {
     "progress": {
       "background": {
         "value": "#d3d2d6",
+        "filePath": "packages/tokens/properties/color/progressbar.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.200.value}"
         },
@@ -5856,6 +6474,8 @@ module.exports = {
       },
       "indicator": {
         "value": "#2282a8",
+        "filePath": "packages/tokens/properties/color/progressbar.json",
+        "isSource": true,
         "original": {
           "value": "{color.info.600.value}"
         },
@@ -5874,6 +6494,8 @@ module.exports = {
       "percentage": {
         "default": {
           "value": "#222020",
+          "filePath": "packages/tokens/properties/color/progressbar.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
           },
@@ -5893,6 +6515,8 @@ module.exports = {
         },
         "half": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/progressbar.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -5914,6 +6538,8 @@ module.exports = {
       "branded": {
         "indicator": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/progressbar.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -5936,6 +6562,8 @@ module.exports = {
     "star": {
       "empty": {
         "value": "#d3d2d6",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.200.value}"
         },
@@ -5953,6 +6581,8 @@ module.exports = {
       },
       "focus": {
         "value": "#25a8d0",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-blue.500.value}"
         },
@@ -5970,6 +6600,8 @@ module.exports = {
       },
       "full": {
         "value": "#fc961e",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.500.value}"
         },
@@ -5987,6 +6619,8 @@ module.exports = {
       },
       "hover": {
         "value": "#ffc17d",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
         "original": {
           "value": "{color.secondary-orange.300.value}"
         },
@@ -6006,6 +6640,8 @@ module.exports = {
     "tabs": {
       "background": {
         "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/tabs.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
         },
@@ -6023,6 +6659,8 @@ module.exports = {
       },
       "shadow": {
         "value": "#000000",
+        "filePath": "packages/tokens/properties/color/tabs.json",
+        "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
         },
@@ -6040,6 +6678,8 @@ module.exports = {
       },
       "default": {
         "value": "#222020",
+        "filePath": "packages/tokens/properties/color/tabs.json",
+        "isSource": true,
         "original": {
           "value": "{color.font.darker.value}"
         },
@@ -6057,6 +6697,8 @@ module.exports = {
       },
       "hover": {
         "value": "#41a017",
+        "filePath": "packages/tokens/properties/color/tabs.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.600.value}"
         },
@@ -6074,6 +6716,8 @@ module.exports = {
       },
       "disabled": {
         "value": "#6f676c",
+        "filePath": "packages/tokens/properties/color/tabs.json",
+        "isSource": true,
         "original": {
           "value": "{color.font.light.value}"
         },
@@ -6091,6 +6735,8 @@ module.exports = {
       },
       "active": {
         "value": "#78be20",
+        "filePath": "packages/tokens/properties/color/tabs.json",
+        "isSource": true,
         "original": {
           "value": "{color.font.primary-01.value}"
         },
@@ -6108,6 +6754,8 @@ module.exports = {
       },
       "active-disabled": {
         "value": "#cbe3b5",
+        "filePath": "packages/tokens/properties/color/tabs.json",
+        "isSource": true,
         "original": {
           "value": "{color.primary-01.200.value}"
         },
@@ -6129,6 +6777,8 @@ module.exports = {
         "light": {
           "background": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6150,6 +6800,8 @@ module.exports = {
           },
           "border": {
             "value": "#554f52",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -6171,6 +6823,8 @@ module.exports = {
           },
           "text": {
             "value": "#554f52",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -6194,6 +6848,8 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#000000",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.999.value}"
             },
@@ -6215,6 +6871,8 @@ module.exports = {
           },
           "border": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6236,6 +6894,8 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6261,6 +6921,8 @@ module.exports = {
         "light": {
           "background": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6282,6 +6944,8 @@ module.exports = {
           },
           "border": {
             "value": "#554f52",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -6303,6 +6967,8 @@ module.exports = {
           },
           "text": {
             "value": "#554f52",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.700.value}"
             },
@@ -6325,6 +6991,8 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#eeeef0",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.100.value}"
               },
@@ -6349,6 +7017,8 @@ module.exports = {
           "active": {
             "background": {
               "value": "#d3d2d6",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.200.value}"
               },
@@ -6374,6 +7044,8 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#000000",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.999.value}"
             },
@@ -6395,6 +7067,8 @@ module.exports = {
           },
           "border": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6416,6 +7090,8 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6438,6 +7114,8 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#3c3738",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.800.value}"
               },
@@ -6462,6 +7140,8 @@ module.exports = {
           "active": {
             "background": {
               "value": "#554f52",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.700.value}"
               },
@@ -6489,6 +7169,8 @@ module.exports = {
         "light": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -6510,6 +7192,8 @@ module.exports = {
           },
           "text": {
             "value": "#222020",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -6532,6 +7216,8 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#add585",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.primary-01.300.value}"
               },
@@ -6556,6 +7242,8 @@ module.exports = {
           "active": {
             "background": {
               "value": "#41a017",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.primary-01.600.value}"
               },
@@ -6580,6 +7268,8 @@ module.exports = {
           "disabled": {
             "background": {
               "value": "#eeeef0",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.100.value}"
               },
@@ -6602,6 +7292,8 @@ module.exports = {
             },
             "text": {
               "value": "#887f87",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.500.value}"
               },
@@ -6626,6 +7318,8 @@ module.exports = {
           "selected": {
             "background": {
               "value": "#78be20",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.primary-01.500.value}"
               },
@@ -6651,6 +7345,8 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#3c3738",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -6672,6 +7368,8 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6694,6 +7392,8 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#78be20",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.primary-01.500.value}"
               },
@@ -6718,6 +7418,8 @@ module.exports = {
           "active": {
             "background": {
               "value": "#0a601b",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.primary-01.800.value}"
               },
@@ -6742,6 +7444,8 @@ module.exports = {
           "selected": {
             "background": {
               "value": "#158110",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.primary-01.700.value}"
               },
@@ -6766,6 +7470,8 @@ module.exports = {
           "disabled": {
             "background": {
               "value": "#554f52",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.700.value}"
               },
@@ -6788,6 +7494,8 @@ module.exports = {
             },
             "text": {
               "value": "#887f87",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.500.value}"
               },
@@ -6815,6 +7523,8 @@ module.exports = {
         "light": {
           "background": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -6836,6 +7546,8 @@ module.exports = {
           },
           "text": {
             "value": "#222020",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
             },
@@ -6857,6 +7569,8 @@ module.exports = {
           },
           "icon": {
             "value": "#3c3738",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -6879,6 +7593,8 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#bab6bc",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.300.value}"
               },
@@ -6903,6 +7619,8 @@ module.exports = {
           "active": {
             "background": {
               "value": "#a19ba2",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.400.value}"
               },
@@ -6928,6 +7646,8 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#3c3738",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
             },
@@ -6949,6 +7669,8 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
             },
@@ -6970,6 +7692,8 @@ module.exports = {
           },
           "icon": {
             "value": "#d3d2d6",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
             },
@@ -6992,6 +7716,8 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#554f52",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.700.value}"
               },
@@ -7016,6 +7742,8 @@ module.exports = {
           "active": {
             "background": {
               "value": "#6f676c",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
               "original": {
                 "value": "{color.grey.600.value}"
               },
@@ -7044,6 +7772,8 @@ module.exports = {
       "off": {
         "background": {
           "value": "#887f87",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
           },
@@ -7063,6 +7793,8 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -7084,6 +7816,8 @@ module.exports = {
       "on": {
         "background": {
           "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
           },
@@ -7103,6 +7837,8 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -7124,6 +7860,8 @@ module.exports = {
       "hover": {
         "circle": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
           },
@@ -7145,6 +7883,8 @@ module.exports = {
       "disabled": {
         "background": {
           "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.input.disabled.background.value}"
           },
@@ -7164,6 +7904,8 @@ module.exports = {
         },
         "circle": {
           "value": "#bab6bc",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
           },
@@ -7185,6 +7927,8 @@ module.exports = {
       "disabled-checked": {
         "background": {
           "value": "#cbe3b5",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.primary-01.200.value}"
           },
@@ -7204,6 +7948,8 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
@@ -7226,6 +7972,8 @@ module.exports = {
   },
   "preset": {
     "value": "lm",
+    "filePath": "packages/tokens/properties/preset.json",
+    "isSource": true,
     "original": {
       "value": "lm"
     },
@@ -7240,6 +7988,8 @@ module.exports = {
   "radius": {
     "s": {
       "value": 2,
+      "filePath": "packages/tokens/properties/radius/base.json",
+      "isSource": true,
       "original": {
         "value": 2
       },
@@ -7255,6 +8005,8 @@ module.exports = {
     },
     "m": {
       "value": 4,
+      "filePath": "packages/tokens/properties/radius/base.json",
+      "isSource": true,
       "original": {
         "value": 4
       },
@@ -7270,6 +8022,8 @@ module.exports = {
     },
     "l": {
       "value": 6,
+      "filePath": "packages/tokens/properties/radius/base.json",
+      "isSource": true,
       "original": {
         "value": 6
       },
@@ -7288,6 +8042,8 @@ module.exports = {
     "s": {
       "x": {
         "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0px"
         },
@@ -7305,6 +8061,8 @@ module.exports = {
       },
       "y": {
         "value": "1px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "1px"
         },
@@ -7322,6 +8080,8 @@ module.exports = {
       },
       "blur": {
         "value": "5px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "5px"
         },
@@ -7339,6 +8099,8 @@ module.exports = {
       },
       "spread": {
         "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0px"
         },
@@ -7356,6 +8118,8 @@ module.exports = {
       },
       "opacity": {
         "value": "0.2",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0.2"
         },
@@ -7375,6 +8139,8 @@ module.exports = {
     "m": {
       "x": {
         "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0px"
         },
@@ -7392,6 +8158,8 @@ module.exports = {
       },
       "y": {
         "value": "2px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "2px"
         },
@@ -7409,6 +8177,8 @@ module.exports = {
       },
       "blur": {
         "value": "10px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "10px"
         },
@@ -7426,6 +8196,8 @@ module.exports = {
       },
       "spread": {
         "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0px"
         },
@@ -7443,6 +8215,8 @@ module.exports = {
       },
       "opacity": {
         "value": "0.2",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0.2"
         },
@@ -7462,6 +8236,8 @@ module.exports = {
     "l": {
       "x": {
         "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0px"
         },
@@ -7479,6 +8255,8 @@ module.exports = {
       },
       "y": {
         "value": "4px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "4px"
         },
@@ -7496,6 +8274,8 @@ module.exports = {
       },
       "blur": {
         "value": "20px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "20px"
         },
@@ -7513,6 +8293,8 @@ module.exports = {
       },
       "spread": {
         "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0px"
         },
@@ -7530,6 +8312,8 @@ module.exports = {
       },
       "opacity": {
         "value": "0.2",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
         "original": {
           "value": "0.2"
         },
@@ -7549,6 +8333,8 @@ module.exports = {
   },
   "magic-unit": {
     "value": 1,
+    "filePath": "packages/tokens/properties/size/base.json",
+    "isSource": true,
     "original": {
       "value": 1
     },
@@ -7562,6 +8348,8 @@ module.exports = {
   },
   "local-rem-value": {
     "value": 16,
+    "filePath": "packages/tokens/properties/size/base.json",
+    "isSource": true,
     "original": {
       "value": 16
     },
@@ -7578,6 +8366,8 @@ module.exports = {
       "10": {
         "value": "2.5625rem",
         "comment": "41px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 2.5625,
           "comment": "41px"
@@ -7597,6 +8387,8 @@ module.exports = {
       "11": {
         "value": "3.0625rem",
         "comment": "49px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 3.0625,
           "comment": "49px"
@@ -7616,6 +8408,8 @@ module.exports = {
       "12": {
         "value": "3.6875rem",
         "comment": "59px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 3.6875,
           "comment": "59px"
@@ -7635,6 +8429,8 @@ module.exports = {
       "01": {
         "value": "0.6815rem",
         "comment": "11px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 0.6815,
           "comment": "11px"
@@ -7654,6 +8450,8 @@ module.exports = {
       "02": {
         "value": "0.75rem",
         "comment": "12px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 0.75,
           "comment": "12px"
@@ -7673,6 +8471,8 @@ module.exports = {
       "03": {
         "value": "0.8125rem",
         "comment": "13px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 0.8125,
           "comment": "13px"
@@ -7692,6 +8492,8 @@ module.exports = {
       "04": {
         "value": "0.875rem",
         "comment": "14px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 0.875,
           "comment": "14px"
@@ -7711,6 +8513,8 @@ module.exports = {
       "05": {
         "value": "1rem",
         "comment": "16px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 1,
           "comment": "16px"
@@ -7730,6 +8534,8 @@ module.exports = {
       "06": {
         "value": "1.125rem",
         "comment": "18px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 1.125,
           "comment": "18px"
@@ -7749,6 +8555,8 @@ module.exports = {
       "07": {
         "value": "1.4375rem",
         "comment": "23px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 1.4375,
           "comment": "23px"
@@ -7768,6 +8576,8 @@ module.exports = {
       "08": {
         "value": "1.75rem",
         "comment": "28px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 1.75,
           "comment": "28px"
@@ -7787,6 +8597,8 @@ module.exports = {
       "09": {
         "value": "2.125rem",
         "comment": "34px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
         "original": {
           "value": 2.125,
           "comment": "34px"
@@ -7809,6 +8621,8 @@ module.exports = {
         "xs": {
           "value": "2.5rem",
           "comment": "40px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2.5,
             "comment": "40px"
@@ -7830,6 +8644,8 @@ module.exports = {
         "s": {
           "value": "3rem",
           "comment": "48px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 3,
             "comment": "48px"
@@ -7851,6 +8667,8 @@ module.exports = {
         "m": {
           "value": "3.5rem",
           "comment": "56px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 3.5,
             "comment": "56px"
@@ -7872,6 +8690,8 @@ module.exports = {
         "l": {
           "value": "3.75rem",
           "comment": "60px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 3.75,
             "comment": "60px"
@@ -7895,6 +8715,8 @@ module.exports = {
         "xs": {
           "value": "3rem",
           "comment": "48px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 3,
             "comment": "48px"
@@ -7916,6 +8738,8 @@ module.exports = {
         "s": {
           "value": "3.5rem",
           "comment": "56px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 3.5,
             "comment": "56px"
@@ -7937,6 +8761,8 @@ module.exports = {
         "m": {
           "value": "4.25rem",
           "comment": "68px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 4.25,
             "comment": "68px"
@@ -7958,6 +8784,8 @@ module.exports = {
         "l": {
           "value": "4.5rem",
           "comment": "72px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 4.5,
             "comment": "72px"
@@ -7981,6 +8809,8 @@ module.exports = {
         "xs": {
           "value": "3.75rem",
           "comment": "60px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 3.75,
             "comment": "60px"
@@ -8002,6 +8832,8 @@ module.exports = {
         "s": {
           "value": "4.25rem",
           "comment": "68px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 4.25,
             "comment": "68px"
@@ -8023,6 +8855,8 @@ module.exports = {
         "m": {
           "value": "5rem",
           "comment": "80px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 5,
             "comment": "80px"
@@ -8044,6 +8878,8 @@ module.exports = {
         "l": {
           "value": "5.5rem",
           "comment": "88px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 5.5,
             "comment": "88px"
@@ -8067,6 +8903,8 @@ module.exports = {
         "xs": {
           "value": "0.75rem",
           "comment": "12px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 0.75,
             "comment": "12px"
@@ -8088,6 +8926,8 @@ module.exports = {
         "s": {
           "value": "0.75rem",
           "comment": "12px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 0.75,
             "comment": "12px"
@@ -8109,6 +8949,8 @@ module.exports = {
         "m": {
           "value": "0.875rem",
           "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 0.875,
             "comment": "14px"
@@ -8130,6 +8972,8 @@ module.exports = {
         "l": {
           "value": "1rem",
           "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1,
             "comment": "16px"
@@ -8153,6 +8997,8 @@ module.exports = {
         "xs": {
           "value": "0.75rem",
           "comment": "12px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 0.75,
             "comment": "12px"
@@ -8174,6 +9020,8 @@ module.exports = {
         "s": {
           "value": "0.875rem",
           "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 0.875,
             "comment": "14px"
@@ -8195,6 +9043,8 @@ module.exports = {
         "m": {
           "value": "1rem",
           "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1,
             "comment": "16px"
@@ -8216,6 +9066,8 @@ module.exports = {
         "l": {
           "value": "1.125rem",
           "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.125,
             "comment": "18px"
@@ -8239,6 +9091,8 @@ module.exports = {
         "xs": {
           "value": "0.875rem",
           "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 0.875,
             "comment": "14px"
@@ -8260,6 +9114,8 @@ module.exports = {
         "s": {
           "value": "1rem",
           "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1,
             "comment": "16px"
@@ -8281,6 +9137,8 @@ module.exports = {
         "m": {
           "value": "1.125rem",
           "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.125,
             "comment": "18px"
@@ -8302,6 +9160,8 @@ module.exports = {
         "l": {
           "value": "1.25rem",
           "comment": "20px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.25,
             "comment": "20px"
@@ -8325,6 +9185,8 @@ module.exports = {
         "xs": {
           "value": "0.875rem",
           "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 0.875,
             "comment": "14px"
@@ -8346,6 +9208,8 @@ module.exports = {
         "s": {
           "value": "1rem",
           "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1,
             "comment": "16px"
@@ -8367,6 +9231,8 @@ module.exports = {
         "m": {
           "value": "1.125rem",
           "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.125,
             "comment": "18px"
@@ -8388,6 +9254,8 @@ module.exports = {
         "l": {
           "value": "1.375rem",
           "comment": "22px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.375,
             "comment": "22px"
@@ -8411,6 +9279,8 @@ module.exports = {
         "xs": {
           "value": "1rem",
           "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1,
             "comment": "16px"
@@ -8432,6 +9302,8 @@ module.exports = {
         "s": {
           "value": "1.125rem",
           "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.125,
             "comment": "18px"
@@ -8453,6 +9325,8 @@ module.exports = {
         "m": {
           "value": "1.375rem",
           "comment": "22px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.375,
             "comment": "22px"
@@ -8474,6 +9348,8 @@ module.exports = {
         "l": {
           "value": "1.5rem",
           "comment": "24px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.5,
             "comment": "24px"
@@ -8497,6 +9373,8 @@ module.exports = {
         "xs": {
           "value": "1.125rem",
           "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.125,
             "comment": "18px"
@@ -8518,6 +9396,8 @@ module.exports = {
         "s": {
           "value": "1.25rem",
           "comment": "20px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.25,
             "comment": "20px"
@@ -8539,6 +9419,8 @@ module.exports = {
         "m": {
           "value": "1.5rem",
           "comment": "24px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.5,
             "comment": "24px"
@@ -8560,6 +9442,8 @@ module.exports = {
         "l": {
           "value": "1.75rem",
           "comment": "28px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.75,
             "comment": "28px"
@@ -8583,6 +9467,8 @@ module.exports = {
         "xs": {
           "value": "1.5rem",
           "comment": "24px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.5,
             "comment": "24px"
@@ -8604,6 +9490,8 @@ module.exports = {
         "s": {
           "value": "1.75rem",
           "comment": "28px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.75,
             "comment": "28px"
@@ -8625,6 +9513,8 @@ module.exports = {
         "m": {
           "value": "2rem",
           "comment": "32px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2,
             "comment": "32px"
@@ -8646,6 +9536,8 @@ module.exports = {
         "l": {
           "value": "2.25rem",
           "comment": "36px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2.25,
             "comment": "36px"
@@ -8669,6 +9561,8 @@ module.exports = {
         "xs": {
           "value": "1.75rem",
           "comment": "28px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 1.75,
             "comment": "28px"
@@ -8690,6 +9584,8 @@ module.exports = {
         "s": {
           "value": "2rem",
           "comment": "32px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2,
             "comment": "32px"
@@ -8711,6 +9607,8 @@ module.exports = {
         "m": {
           "value": "2.25rem",
           "comment": "36px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2.25,
             "comment": "36px"
@@ -8732,6 +9630,8 @@ module.exports = {
         "l": {
           "value": "2.75rem",
           "comment": "44px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2.75,
             "comment": "44px"
@@ -8755,6 +9655,8 @@ module.exports = {
         "xs": {
           "value": "2.25rem",
           "comment": "36px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2.25,
             "comment": "36px"
@@ -8776,6 +9678,8 @@ module.exports = {
         "s": {
           "value": "2.5rem",
           "comment": "40px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2.5,
             "comment": "40px"
@@ -8797,6 +9701,8 @@ module.exports = {
         "m": {
           "value": "2.75rem",
           "comment": "44px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 2.75,
             "comment": "44px"
@@ -8818,6 +9724,8 @@ module.exports = {
         "l": {
           "value": "3.25rem",
           "comment": "52px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
           "original": {
             "value": 3.25,
             "comment": "52px"
@@ -8842,6 +9750,8 @@ module.exports = {
       "screen": {
         "s": {
           "value": "1rem",
+          "filePath": "packages/tokens/properties/size/grid.json",
+          "isSource": true,
           "original": {
             "value": 1
           },
@@ -8861,6 +9771,8 @@ module.exports = {
         },
         "m": {
           "value": "2rem",
+          "filePath": "packages/tokens/properties/size/grid.json",
+          "isSource": true,
           "original": {
             "value": 2
           },
@@ -8884,6 +9796,8 @@ module.exports = {
   "screen": {
     "s": {
       "value": "0px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "0px"
       },
@@ -8899,6 +9813,8 @@ module.exports = {
     },
     "s-medium": {
       "value": "320px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "320px"
       },
@@ -8914,6 +9830,8 @@ module.exports = {
     },
     "s-large": {
       "value": "360px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "360px"
       },
@@ -8929,6 +9847,8 @@ module.exports = {
     },
     "s-xlarge": {
       "value": "390px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "390px"
       },
@@ -8944,6 +9864,8 @@ module.exports = {
     },
     "m": {
       "value": "680px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "680px"
       },
@@ -8959,6 +9881,8 @@ module.exports = {
     },
     "m-medium": {
       "value": "769px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "769px"
       },
@@ -8974,6 +9898,8 @@ module.exports = {
     },
     "l": {
       "value": "1024px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "1024px"
       },
@@ -8989,6 +9915,8 @@ module.exports = {
     },
     "l-medium": {
       "value": "1100px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "1100px"
       },
@@ -9004,6 +9932,8 @@ module.exports = {
     },
     "xl": {
       "value": "1280px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "1280px"
       },
@@ -9019,6 +9949,8 @@ module.exports = {
     },
     "xl-medium": {
       "value": "1440px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "1440px"
       },
@@ -9034,6 +9966,8 @@ module.exports = {
     },
     "xl-large": {
       "value": "1680px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "1680px"
       },
@@ -9049,6 +9983,8 @@ module.exports = {
     },
     "xxl": {
       "value": "1920px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
       "original": {
         "value": "1920px"
       },
