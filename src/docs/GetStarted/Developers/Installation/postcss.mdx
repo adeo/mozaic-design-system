@@ -133,6 +133,16 @@ Now we need to change the builder option in the `angular.json` fields to the fol
 
 You must create a new `webpack.config.js` file in the root directory:
 
+### F) With create-react-app
+
+If your project is in react and you built your app with create-react-app tool, you will have to pass the path for the Mozaic sass files.
+
+In order to do that you can edit your `.env` config file (or create one) at the root of your app and copy paste this inside ([according to create-react-app documentation](https://create-react-app.dev/docs/adding-a-sass-stylesheet)): 
+
+```bash
+SASS_PATH=./node_modules:./node_modules/@mozaic-ds/tokens/build/scss/:./node_modules/@mozaic-ds/styles/:./node_modules/@mozaic-ds/styles/settings-tools/:./node_modules/@mozaic-ds/styles/typography/:./node_modules/@mozaic-ds/styles/layout/:./node_modules/@mozaic-ds/styles/utilities/:./node_modules/@mozaic-ds/styles/components/
+```
+
 #### With postcss-loader < 4.0.0
 
 ```js
