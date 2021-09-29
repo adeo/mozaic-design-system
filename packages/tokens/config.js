@@ -33,11 +33,16 @@ const config = {
       buildPath: setLocalTokensExportPath('css'),
       files: [
         {
-          destination: 'variables.css',
+          destination: 'root.scss',
           format: 'css/variables',
           options: {
-            outputReferences: true,
             showFileHeader: false,
+            outputReferences: true,
+          },
+          filter: {
+            attributes: {
+              category: 'color',
+            },
           },
         },
       ],

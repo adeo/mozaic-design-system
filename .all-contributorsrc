@@ -156,6 +156,15 @@
         "bug",
         "review"
       ]
+    },
+    {
+      "login": "Jupoulet",
+      "name": "Jupoulet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53181261?v=4",
+      "profile": "https://github.com/Jupoulet",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
