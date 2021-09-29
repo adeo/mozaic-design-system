@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://github.com/adeo/mozaic-design-system/compare/v1.17.1...v1.18.0) (2021-09-29)
+
+
+### Bug Fixes
+
+* **tools/tokens:** generate only color tokens as CSS variables ([#932](https://github.com/adeo/mozaic-design-system/issues/932)) ([474e945](https://github.com/adeo/mozaic-design-system/commit/474e945ad8fadd5f48e11d22c539df4aed3d5e6c))
+
+
+
+
+
 # [1.17.0](https://github.com/adeo/mozaic-design-system/compare/v1.16.0...v1.17.0) (2021-09-15)
 
 

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://github.com/adeo/mozaic-design-system/compare/v1.17.1...v1.18.0) (2021-09-29)
+
+
+### Bug Fixes
+
+* **onboard:** fix typo font-families ([#934](https://github.com/adeo/mozaic-design-system/issues/934)) ([a839633](https://github.com/adeo/mozaic-design-system/commit/a83963365fa1dfad275bada23c758f50abe65ece))
+* **tools/tokens:** generate only color tokens as CSS variables ([#932](https://github.com/adeo/mozaic-design-system/issues/932)) ([474e945](https://github.com/adeo/mozaic-design-system/commit/474e945ad8fadd5f48e11d22c539df4aed3d5e6c))
+
+
+### Features
+
+* **foundations/fonts:** add the Cyrillic version of LeroyMerlin webfont ([#930](https://github.com/adeo/mozaic-design-system/issues/930)) ([75d40a4](https://github.com/adeo/mozaic-design-system/commit/75d40a45896c51c5fd6f6cda7d394af3160d17b8))
+* **installation:** add some guidelines to add mozaic for a react project using create-react-app tool ([#926](https://github.com/adeo/mozaic-design-system/issues/926)) ([e721cdf](https://github.com/adeo/mozaic-design-system/commit/e721cdfc0b888ccb68ee7485415a90b8722eda1b))
+
+
+
+
+
 ## [1.17.1](https://github.com/adeo/mozaic-design-system/compare/v1.17.0...v1.17.1) (2021-09-15)
 
 
