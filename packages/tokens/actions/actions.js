@@ -5,28 +5,32 @@ module.exports = {
   cssvariables_to_scss: {
     do: function (dictionary, config) {
       console.log('Create a file that assign CSS variables to SCSS variables')
-      const cssFile = config.buildPath + 'variables.css'
       const scssFile = config.buildPath + '_variables.scss'
 
       try {
-        if (fs.existsSync(cssFile)) {
-          const properties = dictionary.allProperties
-          let content = ''
+        const properties = dictionary.allProperties
+        let content = ''
 
-          properties.forEach(function (property) {
-            content += `$${property.name}: var(--${property.name});\n`
-          })
+        properties.forEach((property) => {
+          if (property.attributes.category !== 'color') return
+          content += `$${property.name}: var(--${property.name});\n`
+        })
 
-          fs.writeFileSync(scssFile, content)
-          console.log(chalk.bold.green(`✔︎ ${scssFile}`))
-        }
+        fs.writeFileSync(scssFile, content)
+
+        console.log(chalk.bold.green(`✔︎ ${scssFile}`))
       } catch (err) {
         console.error(err)
       }
     },
     undo: function (dictionary, config) {
-      const scssFile = config.buildPath + '_variables.scss'
-      fs.unlinkSync(scssFile)
+      const dir = config.buildPath
+      try {
+        fs.rmdirSync(dir, { recursive: true })
+        console.log(`${dir} is deleted!`)
+      } catch (err) {
+        console.error(`Error while deleting ${dir}.`)
+      }
     },
   },
 }
