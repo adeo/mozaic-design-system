@@ -182,6 +182,10 @@ export const query = graphql`
                 status
                 link
               }
+              webComponent {
+                status
+                link
+              }
             }
             status {
               sketch
