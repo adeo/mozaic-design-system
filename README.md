@@ -134,6 +134,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Marine-Fabien"><img src="https://avatars.githubusercontent.com/u/77010633?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marine Fabien</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AMarine-Fabien" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3AMarine-Fabien" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/Jupoulet"><img src="https://avatars.githubusercontent.com/u/53181261?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jupoulet</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/commits?author=Jupoulet" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://sadcitizen.me"><img src="https://avatars.githubusercontent.com/u/5613376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eugene Abrosimov</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Asadcitizen" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3Asadcitizen" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
