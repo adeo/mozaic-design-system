@@ -9,7 +9,6 @@ Using postCSS with the following configuration **is mandatory for us to ensure M
 
 </Highlight>
 
-
 ## Introduction
 
 The Mozaic CSS source files are written in SCSS. But we compile them trough Postcss.
@@ -41,7 +40,7 @@ module.exports = {
 }
 ```
 
-### B) with webpack
+### B) With webpack
 
 ```js
 /*... your imports */
@@ -67,7 +66,7 @@ const scssSyntax = require('postcss-scss')
 ...
 ```
 
-### C) with gulp
+### C) With gulp
 
 ```js
 var postcss = require('gulp-postcss')
@@ -75,29 +74,29 @@ var gulp = require('gulp')
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 gulp.task('css', () =>
-  gulp
-    .src('./src/*.scss')
-    .pipe(postcss(pluginList))
-    .pipe(gulp.dest('./dest'))
+  gulp.src('./src/*.scss').pipe(postcss(pluginList)).pipe(gulp.dest('./dest'))
 )
 ```
 
 ### D) With Vue.js using Vue-CLI
 
-If you are a **Vue.js** user, we invite you to visit the documentation dedicated to the configuration of **Mozaic** with **Vue.js**.
+If you are a **Vue.js** user, we invite you to visit our dedicated implementation of **Mozaic for Vue.js**.
 
-You can find this documentation on the associated Github repository: [https://github.com/adeo/mozaic-vue/wiki/Getting-Started](https://github.com/adeo/mozaic-vue/wiki/Getting-Started)
+You can find all you need on the associated Github repository: [https://github.com/adeo/mozaic-vue](https://github.com/adeo/mozaic-vue)
 
 ### E) With Angular CLI
 
-Using Angular CLI, you need to override the webpack configuration.  
-Install `@angular-builders/custom-webpack`:
+Using Angular CLI, you need to override the webpack configuration.
+
+1. Install `@angular-builders/custom-webpack`:
 
 ```bash
 npm i -D @angular-builders/custom-webpack
 ```
 
-Now we need to change the builder option in the `angular.json` fields to the following:
+2. Update your `angular.json` file
+
+Now you need to update the builder option in the `angular.json` fields to the following:
 
 ```json
 {
@@ -111,33 +110,56 @@ Now we need to change the builder option in the `angular.json` fields to the fol
         "stylePreprocessorOptions": {
           "includePaths": [
             "./node_modules/@mozaic-ds/styles/",
+            "./node_modules/@mozaic-ds/styles/components/",
+            "./node_modules/@mozaic-ds/styles/generic/",
+            "./node_modules/@mozaic-ds/styles/layouts/",
             "./node_modules/@mozaic-ds/styles/settings-tools/",
             "./node_modules/@mozaic-ds/styles/typography/",
-            "./node_modules/@mozaic-ds/styles/layout/",
             "./node_modules/@mozaic-ds/styles/utilities/",
-            "./node_modules/@mozaic-ds/styles/components/",
+            "./node_modules/@mozaic-ds/tokens/build/css/",
             "./node_modules/@mozaic-ds/tokens/build/scss/",
             "./node_modules/"
           ]
-        },
+        }
         // here the rest of your configuraton...,
       }
     },
     "serve": {
-      "builder": "@angular-builders/custom-webpack:dev-server",
+      "builder": "@angular-builders/custom-webpack:dev-server"
       // here the rest of your configuraton..
     }
   }
 }
 ```
 
+3. Implement a webpack configuration
+
 You must create a new `webpack.config.js` file in the root directory:
+
+```javascript
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        loader: 'postcss-loader',
+        options: {
+          postcssOptions: {
+            syntax: require('postcss-scss'),
+            plugins: require('@mozaic-ds/css-dev-tools/postcssPluginConfig'),
+          },
+        },
+      },
+    ],
+  },
+}
+```
 
 ### F) With create-react-app
 
 If your project is in react and you built your app with create-react-app tool, you will have to pass the path for the Mozaic sass files.
 
-In order to do that you can edit your `.env` config file (or create one) at the root of your app and copy paste this inside ([according to create-react-app documentation](https://create-react-app.dev/docs/adding-a-sass-stylesheet)): 
+In order to do that you can edit your `.env` config file (or create one) at the root of your app and copy paste this inside ([according to create-react-app documentation](https://create-react-app.dev/docs/adding-a-sass-stylesheet)):
 
 ```bash
 SASS_PATH=./node_modules:./node_modules/@mozaic-ds/tokens/build/scss/:./node_modules/@mozaic-ds/styles/:./node_modules/@mozaic-ds/styles/settings-tools/:./node_modules/@mozaic-ds/styles/typography/:./node_modules/@mozaic-ds/styles/layout/:./node_modules/@mozaic-ds/styles/utilities/:./node_modules/@mozaic-ds/styles/components/
@@ -177,10 +199,10 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        loader: "postcss-loader",
+        loader: 'postcss-loader',
         options: {
           postcssOptions: {
-            ident: "postcss",
+            ident: 'postcss',
             syntax: scssSyntax,
             plugins: pluginList,
           },
@@ -188,7 +210,7 @@ module.exports = {
       },
     ],
   },
-};
+}
 ```
 
 <Highlight theme="warning" title="Working with style preprocessor options">
