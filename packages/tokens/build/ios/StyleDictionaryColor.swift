@@ -363,7 +363,7 @@ public class StyleDictionaryColor {
     public static let colorToggleDisabledCheckedCircle = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorToggleDisabledCircle = UIColor(red: 0.729, green: 0.714, blue: 0.737, alpha: 1)
     public static let colorToggleHoverCircle = UIColor(red: 0.933, green: 0.933, blue: 0.941, alpha: 1)
-    public static let colorToggleOffBackground = UIColor(red: 0.533, green: 0.498, blue: 0.529, alpha: 1)
+    public static let colorToggleOffBackground = UIColor(red: 0.435, green: 0.404, blue: 0.424, alpha: 1)
     public static let colorToggleOffCircle = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorToggleOnBackground = UIColor(red: 0.471, green: 0.745, blue: 0.125, alpha: 1)
     public static let colorToggleOnCircle = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
