@@ -71,7 +71,7 @@ const productionPlugins = [
 ]
 
 if (CM.getKey('autoprefixer.disabled')) {
-  productionPlugins.pop()
+  productionPlugins.splice(3,1);
 }
 
 module.exports = MOZAIC_ENV === 'production' ? productionPlugins : plugins
