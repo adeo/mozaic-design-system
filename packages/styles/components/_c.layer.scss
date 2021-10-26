@@ -127,10 +127,10 @@
 
     &--overflowing,
     &--overflowing-scroll-edge {
-      position: relative;
-
       & + #{$parent}__footer {
         @include set-box-shadow("l");
+
+        position: relative;
       }
     }
 
