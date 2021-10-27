@@ -363,7 +363,7 @@
   <color name="color_tag_removable_dark_icon">#ffd3d2d6</color>
   <color name="color_tag_removable_dark_hover_background">#ff554f52</color>
   <color name="color_tag_removable_dark_active_background">#ff6f676c</color>
-  <color name="color_toggle_off_background">#ff887f87</color>
+  <color name="color_toggle_off_background">#ff6f676c</color>
   <color name="color_toggle_off_circle">#ffffffff</color>
   <color name="color_toggle_on_background">#ff78be20</color>
   <color name="color_toggle_on_circle">#ffffffff</color>
