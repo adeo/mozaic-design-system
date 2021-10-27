@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 // Centralized "Helmet" implementation
 
-export default ({ ...props }) => {
+const HelmetImplementation = ({ ...props }) => {
   return (
     <Helmet {...props}>
       <html lang="en" about="Mozaic test" />
@@ -27,3 +27,5 @@ export default ({ ...props }) => {
     </Helmet>
   )
 }
+
+export default HelmetImplementation
