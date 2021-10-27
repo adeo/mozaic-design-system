@@ -3,7 +3,7 @@
     "toggle": {
       "off": {
         "background": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.grey.600.value}"
         },
         "circle": {
           "value": "{color.grey.000.value}"
