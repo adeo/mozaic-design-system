@@ -7771,11 +7771,11 @@ module.exports = {
     "toggle": {
       "off": {
         "background": {
-          "value": "#887f87",
+          "value": "#6f676c",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorToggleOffBackground",
           "attributes": {
