@@ -7,4 +7,4 @@
   export let size = "4rem";
 </script>
 
-<svg width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="10" cy="10" r="5"/><circle cx="32" cy="10" r="5"/><circle cx="54" cy="10" r="5"/><circle cx="10" cy="32" r="5"/><circle cx="32" cy="32" r="5"/><circle cx="54" cy="32" r="5"/><circle cx="10" cy="54" r="5"/><circle cx="32" cy="54" r="5"/><circle cx="54" cy="54" r="5"/></svg>
+<svg width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><circle cx="10" cy="10" r="5"/><circle cx="32" cy="10" r="5"/><circle cx="54" cy="10" r="5"/><circle cx="10" cy="32" r="5"/><circle cx="32" cy="32" r="5"/><circle cx="54" cy="32" r="5"/><circle cx="10" cy="54" r="5"/><circle cx="32" cy="54" r="5"/><circle cx="54" cy="54" r="5"/></svg>
