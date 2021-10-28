@@ -55,6 +55,10 @@
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" viewBox="0 0 32 32" fill="#{$fill}"><path d="M17.41,16l8.8-8.79a1,1,0,1,0-1.42-1.42L16,14.59,7.21,5.79A1,1,0,0,0,5.79,7.21L14.59,16l-8.8,8.79a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L16,17.41l8.79,8.8a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg>';
   }
 
+  @if $icon == "notification-available-16" {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M7.63 11.21a1 1 0 01-1.38 0l-2.92-2.6a1 1 0 111.34-1.48l2.22 2 4.41-4.34a1 1 0 111.4 1.42z"/></svg>';
+  }
+
   @if $icon == "notification-information-24" {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" fill="#{$fill}"><path d="M12 22a10 10 0 1110-10 10 10 0 01-10 10zm0-18a8 8 0 108 8 8 8 0 00-8-8z"/><path d="M12 17a1 1 0 01-1-1v-4.39a1 1 0 012 0V16a1 1 0 01-1 1z"/><circle cx="12" cy="8" r="1"/></svg>';
   }
@@ -117,6 +121,10 @@
 
   @if $icon == "control-less-24" {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 24 24"><path d="M17.09,13h-10a1,1,0,0,1,0-2h10a1,1,0,0,1,0,2Z"/></svg>';
+  }
+
+  @if $icon == "control-cross-16" {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"/></svg>';
   }
 
   @if $icon == "control-cross-32" {
