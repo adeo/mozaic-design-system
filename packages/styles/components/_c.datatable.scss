@@ -1,0 +1,247 @@
+@use "sass:math";
+
+.mc-datatable {
+  $parent: get-parent-selector(&);
+  $border-size: 0.0625rem;
+
+  @include set-font-family;
+
+  box-sizing: border-box;
+
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+
+  // Header
+  &__topbar {
+    justify-content: space-between;
+    padding: {
+      top: $mu100;
+      bottom: $mu100;
+    }
+
+    &,
+    &-main,
+    &-secondary {
+      display: flex;
+    }
+
+    &-main,
+    &-secondary {
+      align-items: center;
+      gap: $mu100;
+    }
+
+    &-secondary {
+      justify-content: flex-end;
+    }
+  }
+
+  &__filters {
+    align-items: center;
+    border-top: get-border(s) solid $color-grey-300;
+    display: flex;
+    gap: $mu100;
+    justify-content: flex-end;
+    padding: {
+      top: $mu100;
+      bottom: $mu100;
+    }
+  }
+
+  // Main
+  // &__main {}
+  &__wrapper {
+    @include set-border-radius();
+    @include set-box-shadow("s");
+  }
+
+  // Table
+  &__table {
+    border-collapse: collapse;
+    // border-spacing: 0; // à mettre uniquement si border-collpase: separate;
+    caption-side: bottom;
+    table-layout: auto; // could be fixed;
+
+    &,
+    tr {
+      width: 100%;
+    }
+
+    tr {
+      height: $mu300 - $border-size;
+    }
+
+    th,
+    td {
+      border-bottom: get-border(s) solid $color-grey-300;
+      text-align: left;
+      vertical-align: middle;
+      padding: {
+        right: $mu100;
+        left: $mu100;
+      }
+    }
+  }
+
+  &__thead {
+    th,
+    td {
+      @include set-font-weight("semi-bold");
+      @include set-font-scale("02", "m"); // 12px / 16px
+
+      color: $color-secondary-purple-500;
+      text-transform: uppercase;
+    }
+  }
+
+  &__head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__sort {
+    align-items: center;
+    flex-direction: column;
+    height: $mu150;
+    gap: math.div($mu025, 2);
+    justify-content: center;
+    width: $mu150;
+
+    &-arrow {
+      &-top,
+      &-bottom {
+        background-color: $color-grey-200;
+        height: $mu050;
+        width: $mu075;
+      }
+
+      &-top {
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+        .asc & {
+          background-color: $color-secondary-purple-500;
+        }
+      }
+
+      &-bottom {
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+
+        .desc & {
+          background-color: $color-secondary-purple-500;
+        }
+      }
+    }
+
+    &-label {
+      @include visually-hidden();
+    }
+  }
+
+  &__tbody {
+    tr {
+      &:hover {
+        background-color: $color-grey-100;
+      }
+
+      &.selected {
+        background-color: $color-primary-01-100;
+      }
+    }
+
+    th,
+    td {
+      @include set-font-scale("04", "m"); // 14px / 18px
+
+      color: $color-grey-900;
+    }
+  }
+
+  // TODO: to be deported in a mixin
+  &__cell {
+    &-checkbox {
+      width: $mu125 + $mu200;
+    }
+
+    &-button {
+      width: $mu150 + $mu200;
+    }
+
+    &-number {
+      @at-root td#{&} {
+        text-align: right;
+      }
+    }
+  }
+
+  // Footer
+  &__footer {
+    align-items: center;
+    border-top: get-border(s) solid $color-grey-300;
+    display: flex;
+    padding: $mu075 $mu100;
+    gap: $mu100;
+  }
+
+  &__select {
+    display: flex;
+    align-items: center;
+    gap: $mu050;
+
+    &-label {
+      @include set-font-scale("04", "m"); // 14px / 18px
+
+      color: $color-grey-800;
+      flex-shrink: 0;
+    }
+  }
+
+  &__count {
+    @include set-font-scale("02", "m"); // 12px / 16px
+
+    color: $color-grey-600;
+  }
+
+  &__pagination {
+    margin-left: auto;
+  }
+
+  // modifiers
+  &--s {
+    #{$parent} {
+      &__table {
+        tr {
+          height: $mu250 - $border-size;
+        }
+      }
+    }
+  }
+
+  &--l {
+    #{$parent} {
+      &__table {
+        tr {
+          height: $mu350 - $border-size;
+        }
+      }
+    }
+  }
+
+  // helpers
+  .button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    svg {
+      width: $mu150; // 24px
+      height: $mu150;
+    }
+  }
+}
