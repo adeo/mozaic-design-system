@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "chokidar": "^3.5.2",
-    "directory-tree": "^2.2.9",
+    "directory-tree": "^3.0.0",
     "xstate": "^4.23.0"
   }
 }
