@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.19.0](https://github.com/adeo/mozaic-design-system/compare/v1.18.0...v1.19.0) (2021-10-27)
+
+
+### Features
+
+* **component/toggle:** improve toggle's a11y ([#941](https://github.com/adeo/mozaic-design-system/issues/941)) ([4853931](https://github.com/adeo/mozaic-design-system/commit/48539317221399b6c5d883d447a7b72653fceeb2)), closes [#710](https://github.com/adeo/mozaic-design-system/issues/710)
+
+
+
+
+
 # [1.18.0](https://github.com/adeo/mozaic-design-system/compare/v1.17.1...v1.18.0) (2021-09-29)
 
 
