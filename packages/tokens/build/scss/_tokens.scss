@@ -2,6 +2,21 @@
 $border-s: 1 !default;
 $border-m: 2 !default;
 $border-l: 3 !default;
+$color-badge-info-background: #ecfcfd !default;
+$color-badge-info-border: #25a8d0 !default;
+$color-badge-info-text: #1e5f82 !default;
+$color-badge-success-background: #eaf3e2 !default;
+$color-badge-success-border: #78be20 !default;
+$color-badge-success-text: #158110 !default;
+$color-badge-warning-background: #fff5eb !default;
+$color-badge-warning-border: #fc961e !default;
+$color-badge-warning-text: #974f20 !default;
+$color-badge-danger-background: #feedee !default;
+$color-badge-danger-border: #df382b !default;
+$color-badge-danger-text: #8b2226 !default;
+$color-badge-neutral-background: #eeeef0 !default;
+$color-badge-neutral-border: #887f87 !default;
+$color-badge-neutral-text: #554f52 !default;
 $color-primary-01-100: #eaf3e2 !default;
 $color-primary-01-200: #cbe3b5 !default;
 $color-primary-01-300: #add585 !default;
@@ -348,7 +363,7 @@ $color-tag-removable-dark-text: #ffffff !default;
 $color-tag-removable-dark-icon: #d3d2d6 !default;
 $color-tag-removable-dark-hover-background: #554f52 !default;
 $color-tag-removable-dark-active-background: #6f676c !default;
-$color-toggle-off-background: #887f87 !default;
+$color-toggle-off-background: #6f676c !default;
 $color-toggle-off-circle: #ffffff !default;
 $color-toggle-on-background: #78be20 !default;
 $color-toggle-on-circle: #ffffff !default;
@@ -460,6 +475,33 @@ $tokens: (
     'l': $border-l
   ),
   'color': (
+    'badge': (
+      'info': (
+        'background': $color-badge-info-background,
+        'border': $color-badge-info-border,
+        'text': $color-badge-info-text
+      ),
+      'success': (
+        'background': $color-badge-success-background,
+        'border': $color-badge-success-border,
+        'text': $color-badge-success-text
+      ),
+      'warning': (
+        'background': $color-badge-warning-background,
+        'border': $color-badge-warning-border,
+        'text': $color-badge-warning-text
+      ),
+      'danger': (
+        'background': $color-badge-danger-background,
+        'border': $color-badge-danger-border,
+        'text': $color-badge-danger-text
+      ),
+      'neutral': (
+        'background': $color-badge-neutral-background,
+        'border': $color-badge-neutral-border,
+        'text': $color-badge-neutral-text
+      )
+    ),
     'primary-01': (
       '100': $color-primary-01-100,
       '200': $color-primary-01-200,

@@ -53,6 +53,333 @@ module.exports = {
     }
   },
   "color": {
+    "badge": {
+      "info": {
+        "background": {
+          "value": "#ecfcfd",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.100.value}"
+          },
+          "name": "ColorBadgeInfoBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "info",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "badge",
+            "info",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#25a8d0",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.500.value}"
+          },
+          "name": "ColorBadgeInfoBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "info",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "badge",
+            "info",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#1e5f82",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.700.value}"
+          },
+          "name": "ColorBadgeInfoText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "info",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "badge",
+            "info",
+            "text"
+          ]
+        }
+      },
+      "success": {
+        "background": {
+          "value": "#eaf3e2",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.100.value}"
+          },
+          "name": "ColorBadgeSuccessBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "success",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "badge",
+            "success",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.500.value}"
+          },
+          "name": "ColorBadgeSuccessBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "success",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "badge",
+            "success",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#158110",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.700.value}"
+          },
+          "name": "ColorBadgeSuccessText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "success",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "badge",
+            "success",
+            "text"
+          ]
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "#fff5eb",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.100.value}"
+          },
+          "name": "ColorBadgeWarningBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "warning",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "badge",
+            "warning",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#fc961e",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.500.value}"
+          },
+          "name": "ColorBadgeWarningBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "warning",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "badge",
+            "warning",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#974f20",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.700.value}"
+          },
+          "name": "ColorBadgeWarningText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "warning",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "badge",
+            "warning",
+            "text"
+          ]
+        }
+      },
+      "danger": {
+        "background": {
+          "value": "#feedee",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.100.value}"
+          },
+          "name": "ColorBadgeDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "badge",
+            "danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#df382b",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.500.value}"
+          },
+          "name": "ColorBadgeDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "badge",
+            "danger",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#8b2226",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.700.value}"
+          },
+          "name": "ColorBadgeDangerText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "danger",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "badge",
+            "danger",
+            "text"
+          ]
+        }
+      },
+      "neutral": {
+        "background": {
+          "value": "#eeeef0",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorBadgeNeutralBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "neutral",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "badge",
+            "neutral",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#887f87",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorBadgeNeutralBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "neutral",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "badge",
+            "neutral",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#554f52",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.700.value}"
+          },
+          "name": "ColorBadgeNeutralText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "neutral",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "badge",
+            "neutral",
+            "text"
+          ]
+        }
+      }
+    },
     "primary-01": {
       "100": {
         "value": "#eaf3e2",
@@ -6373,7 +6700,7 @@ module.exports = {
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.font.success.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorTabsHover",
         "attributes": {
@@ -7444,11 +7771,11 @@ module.exports = {
     "toggle": {
       "off": {
         "background": {
-          "value": "#887f87",
+          "value": "#6f676c",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.500.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorToggleOffBackground",
           "attributes": {

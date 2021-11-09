@@ -6,6 +6,21 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+ColorBadgeInfoBackground,
+ColorBadgeInfoBorder,
+ColorBadgeInfoText,
+ColorBadgeSuccessBackground,
+ColorBadgeSuccessBorder,
+ColorBadgeSuccessText,
+ColorBadgeWarningBackground,
+ColorBadgeWarningBorder,
+ColorBadgeWarningText,
+ColorBadgeDangerBackground,
+ColorBadgeDangerBorder,
+ColorBadgeDangerText,
+ColorBadgeNeutralBackground,
+ColorBadgeNeutralBorder,
+ColorBadgeNeutralText,
 ColorPrimary01100,
 ColorPrimary01200,
 ColorPrimary01300,

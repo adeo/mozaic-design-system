@@ -14,7 +14,7 @@ const McToggle = ({ className, size, label, checked }) => {
         type="checkbox"
       />
       <label className="mc-toggle__label" htmlFor={`toggleExample${randomId}`}>
-        {label}
+        <span class="mc-toggle__content">{label}</span>
       </label>
     </div>
   )

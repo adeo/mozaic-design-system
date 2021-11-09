@@ -4,13 +4,15 @@ order: 1
 description: 'Checkboxes are used to select one or multiple options in a list. They usually find their place in forms and are also used to accept some mentions'
 links:
   vue:
-    link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-mcheckbox--try-it'
+    link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-form-mcheckbox'
     status: 'ready'
   freemarker:
     status: 'ready'
-    link: 'https://adeo.github.io/integration-web-core--socle/pages/Components/form/checkbox/'
+    link: 'https://solid-bassoon-011c369c.pages.github.io/pages/3_Components/form/checkbox/'
+  webComponent:
+    status: 'ready'
+    link: 'https://ubiquitous-giggle-7b5b6e33.pages.github.io/?path=/story/components-checkbox'
 status:
-  sketch: 'ready'
   figma: 'ready'
   scss: 'ready'
 ---
@@ -41,7 +43,7 @@ The checkbox item is a combinaison of an input and a label.
 
 <Highlight theme="warning">
 
-  A checkbox can't be used without an associated label.
+A checkbox can't be used without an associated label.
 
 </Highlight>
 
@@ -52,10 +54,11 @@ The checkbox item is a combinaison of an input and a label.
 ![Checkbox-Overview](Checkbox-Overview.png)
 
 The checkbox group is a combination of the following mentions. Please note that you can use four different cases:
-  - Group label + checkbox-es
-  - Group label + requirement + checkbox-es
-  - Group label + requirement + help text + checkbox-es
-  - Groupe label + help text + checkbox-es
+
+- Group label + checkbox-es
+- Group label + requirement + checkbox-es
+- Group label + requirement + help text + checkbox-es
+- Groupe label + help text + checkbox-es
 
 ### Group label
 
@@ -69,7 +72,7 @@ This mention allows to specify that this information is mandatory for the input 
 
 <Highlight theme="tips">
 
-  Please note that this mention can also be used to say a specific input is **optional** when the other ones are mandatory.
+Please note that this mention can also be used to say a specific input is **optional** when the other ones are mandatory.
 
 </Highlight>
 
@@ -96,8 +99,9 @@ Help text corresponds to a relevant piece of information to make sure that the u
 ## Validation
 
 There are two different elements for validation feedback:
-  - The color of the input outline.
-  - A text under the checkbox group explains what's wrong with the data entered.
+
+- The color of the input outline.
+- A text under the checkbox group explains what's wrong with the data entered.
 
 <Preview path="group-invalid-light" nude />
 
