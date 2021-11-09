@@ -77,7 +77,7 @@ const query = graphql`
   }
 `
 
-export default () => (
+const Index = () => (
   <StaticQuery
     query={query}
     render={(data) => (
@@ -90,3 +90,5 @@ export default () => (
     )}
   />
 )
+
+export default Index

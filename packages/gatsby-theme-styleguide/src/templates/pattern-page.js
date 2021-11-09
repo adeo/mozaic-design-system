@@ -84,7 +84,7 @@ const HeaderCategory = styled.span`
   text-transform: uppercase;
 `
 
-export default ({ data, location }) => {
+const PatternPage = ({ data, location }) => {
   const post = data.mdx
   const { tableOfContents } = data.mdx
 
@@ -144,6 +144,8 @@ export default ({ data, location }) => {
     </Layout>
   )
 }
+
+export default PatternPage
 
 export const query = graphql`
   query MDXQuery($slug: String!) {
