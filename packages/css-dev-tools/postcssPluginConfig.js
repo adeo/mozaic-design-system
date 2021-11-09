@@ -6,6 +6,7 @@ const stylelint = require('stylelint')
 const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
 const cssnano = require('cssnano')
+const purgecss = require('@fullhuman/postcss-purgecss')
 const mqpackerondemand = require('@mozaic-ds/postcss-media-queries-packer-on-demand')
 const cssprepend = require('@mozaic-ds/postcss-prepend')
 const CM = require('@mozaic-ds/configuration-manager')
@@ -72,6 +73,10 @@ const productionPlugins = [
 
 if (CM.getKey('autoprefixer.disabled')) {
   productionPlugins.splice(3,1);
+}
+
+if(CM.getKey('purgecss')) {
+  productionPlugins.push(purgecss(CM.getKey('purgecss')));
 }
 
 module.exports = MOZAIC_ENV === 'production' ? productionPlugins : plugins

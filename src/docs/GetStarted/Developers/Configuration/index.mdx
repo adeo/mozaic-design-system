@@ -155,7 +155,7 @@ Allow you to disabled Mozaic built-in config.
 
 **Example: **
 ```js
-  disbaled: true | false
+  disabled: true | false
 ```
 
 `browserslist` is used to define custom browsers to use for SCSS compilation. 
@@ -172,3 +172,19 @@ module.exports = {
 	browserslist: ['last 2 versions', 'firefox >= 45', 'IE >= 11']
 }
 ```
+
+## PurgeCSS option: 
+
+### `purgecss` : Object
+
+Allow you to clean up CSS from your sources files.
+**Default values: null**
+
+**Example: **
+```js
+purgecss: {
+  content: ['./src/**/*.html', './src/**/*.js', './src/**/*.vue']
+}
+```
+
+To see all available options, referer to the [official documentation of the PostCSS plugin](https://purgecss.com/configuration.html#options)
