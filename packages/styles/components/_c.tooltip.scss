@@ -29,6 +29,7 @@
     visibility: hidden;
     white-space: normal;
     z-index: 1000;
+    border: get-border("s") solid $color-grey-000;
 
     // MS Issue : IE10, IE11 don't support intrinsic widths
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -39,6 +40,17 @@
       min-width: magic-unit-rem(6.625, true);
       max-width: magic-unit-rem(13.75, true);
       width: max-content;
+    }
+
+    &::before {
+      background:
+        transparent
+        url(inline-icons("tooltip-arrow", $color-grey-000)) no-repeat;
+      background-size: $mu050;
+      content: "";
+      height: $mu050;
+      position: absolute;
+      width: $mu050;
     }
 
     &::after {
@@ -70,6 +82,12 @@
         left: 50%;
         transform: translate(-50%, 100%) rotate(-90deg);
       }
+
+      &::before {
+        bottom: -1px;
+        left: 50%;
+        transform: translate(-50%, 100%) rotate(-90deg);
+      }
     }
   }
 
@@ -88,6 +106,12 @@
       &::after {
         top: 50%;
         left: 0;
+        transform: translate(-99%, -50%);
+      }
+
+      &::before {
+        top: 50%;
+        left: -1px;
         transform: translate(-99%, -50%);
       }
     }
@@ -110,6 +134,12 @@
         right: 0;
         transform: translate(99%, -50%) rotate(180deg);
       }
+
+      &::before {
+        top: 50%;
+        right: -1px;
+        transform: translate(99%, -50%) rotate(180deg);
+      }
     }
   }
 
@@ -127,6 +157,12 @@
 
       &::after {
         top: 0;
+        left: 50%;
+        transform: translate(-50%, -100%) rotate(90deg);
+      }
+
+      &::before {
+        top: -1px;
         left: 50%;
         transform: translate(-50%, -100%) rotate(90deg);
       }
