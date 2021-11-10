@@ -46,9 +46,9 @@
       background:
         transparent
         url(inline-icons("tooltip-arrow", $color-grey-000)) no-repeat;
-      background-size: $mu050;
+      background-size: 0.625rem;
       content: "";
-      height: $mu050;
+      height: 0.625rem;
       position: absolute;
       width: 0.625rem;
     }
@@ -79,7 +79,7 @@
 
       &::after,
       &::before {
-        bottom: 1px;
+        bottom: 0;
         left: 50%;
         transform: translate(-50%, 100%) rotate(-90deg);
       }
@@ -101,7 +101,7 @@
       &::after,
       &::before {
         top: 50%;
-        left: 1px;
+        left: 0;
         transform: translate(-99%, -50%);
       }
     }
@@ -122,7 +122,7 @@
       &::after,
       &::before {
         top: 50%;
-        right: 1px;
+        right: 0;
         transform: translate(99%, -50%) rotate(180deg);
       }
     }
@@ -142,7 +142,7 @@
 
       &::after,
       &::before {
-        top: 1px;
+        top: 0;
         left: 50%;
         transform: translate(-50%, -100%) rotate(90deg);
       }
