@@ -51,11 +51,11 @@ const readIcon = (file) =>
 
 // optimize using SVGO and custom clean options
 
-const optimizeIcon = ({ file, data }, svgoPlugins, customOptims) =>
+const optimizeIcon = ({ file, data }, SVGOPlugins, customOptims) =>
   new Promise((resolve, reject) => {
     customOptimization(file, data, customOptims)
       .then(({ file, data }) =>
-        new svgo({ plugins: svgoPlugins })
+        new svgo({ plugins: SVGOPlugins })
           .optimize(data)
           .then((result) => resolve({ file, data: result.data }))
           .catch((err) => reject(err))
@@ -91,7 +91,7 @@ const saveIcon = ({ data, file }, outputPath) =>
     })
   })
 
-const main = (key, { svgoPlugins, custom }) => {
+const main = (key, { SVGOPlugins, custom }) => {
   const sourcePath = config.sourcePaths[key]
   const outputPath = config.outputPaths[key]
   const inputPath = path.relative(process.cwd(), `${sourcePath}/**/*.svg`)
@@ -101,7 +101,7 @@ const main = (key, { svgoPlugins, custom }) => {
       .then((icons) => Promise.all(icons.map((icon) => readIcon(icon))))
       .then((icons) =>
         Promise.all(
-          icons.map((icon) => optimizeIcon(icon, svgoPlugins, custom))
+          icons.map((icon) => optimizeIcon(icon, SVGOPlugins, custom))
         )
       )
       .then((icons) =>
