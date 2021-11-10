@@ -75,8 +75,8 @@ if (CM.getKey('autoprefixer.disabled')) {
   productionPlugins.splice(4,1);
 }
 
-if(CM.getKey('purgecss')) {
-  productionPlugins.push(purgecss(CM.getKey('purgecss')));
+if (CM.getKey('purgecss')) {
+  productionPlugins.push(purgecss(CM.getKey('purgecss')))
 }
 
 module.exports = MOZAIC_ENV === 'production' ? productionPlugins : plugins
