@@ -12,7 +12,7 @@ const iconContent = ({ fileName, data }) => {
 
   const parsedData = data.replace(
     '<svg',
-    `<svg width={size} height={size} {...rest} fill={fill}`
+    `<svg aria-hidden="true" width={size} height={size} {...rest} fill={fill}`
   )
   const parsedName = createComponentName(fileName)
 
