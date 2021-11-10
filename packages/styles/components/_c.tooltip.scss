@@ -79,7 +79,7 @@
 
       &::after,
       &::before {
-        bottom: 0;
+        bottom: 1px;
         left: 50%;
         transform: translate(-50%, 100%) rotate(-90deg);
       }
@@ -101,7 +101,7 @@
       &::after,
       &::before {
         top: 50%;
-        left: 0;
+        left: 1px;
         transform: translate(-99%, -50%);
       }
     }
@@ -122,7 +122,7 @@
       &::after,
       &::before {
         top: 50%;
-        right: 0;
+        right: 1px;
         transform: translate(99%, -50%) rotate(180deg);
       }
     }
@@ -142,7 +142,7 @@
 
       &::after,
       &::before {
-        top: 0;
+        top: 1px;
         left: 50%;
         transform: translate(-50%, -100%) rotate(90deg);
       }
