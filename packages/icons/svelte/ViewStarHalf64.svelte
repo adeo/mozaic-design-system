@@ -7,4 +7,4 @@
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><polygon points="32 5.25 23.65 23.03 5 25.88 18.5 39.71 15.31 59.25 32 50.03 32.04 50.05 32.04 5.34 32 5.25"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M32 5.25l-8.35 17.78L5 25.88l13.5 13.83-3.19 19.54L32 50.03l.04.02V5.34L32 5.25z"/></svg>
