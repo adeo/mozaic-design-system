@@ -9,8 +9,9 @@
   @include set-font-face();
   @include set-accordion-size($accordion-default-size);
 
-  &__label {
-    @include set-font-weight("semi-bold");
+  &__trigger {
+    @include unstyle-button();
+    @include set-accordion-size($accordion-default-size);
 
     @include set-focus-floating-base {
       top: -(math.div($mu025, 2));
@@ -19,12 +20,14 @@
       left: -(math.div($mu025, 2));
     }
 
+    width: 100%;
+    text-align: left;
     background-position: right $mu050 center;
     background-repeat: no-repeat;
+    background-color: $color-grey-000;
     color: $color-font-darker;
     cursor: pointer;
     display: block;
-    padding-left: $mu050;
     position: relative;
 
     &:hover {
@@ -39,6 +42,37 @@
       display: flex;
       align-items: center;
     }
+
+    &:disabled {
+      background-color: $color-grey-100;
+      color: $color-font-light;
+      cursor: not-allowed;
+
+      #{$parent}__content {
+        color: $color-font-light;
+        cursor: not-allowed;
+      }
+    }
+
+    &:focus {
+      @include set-focus-floating {
+        box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
+      }
+    }
+
+    &:disabled:checked {
+      ~ #{$parent}__content {
+        max-height: none;
+        padding-top: $mu050;
+      }
+    }
+  }
+
+  &__label {
+    @include set-font-weight("semi-bold");
+
+    display: flex;
+    align-items: center;
   }
 
   &__icon {
@@ -50,9 +84,15 @@
     margin-right: $mu050;
   }
 
-  &__header {
-    display: flex;
-    align-items: center;
+  &.is-open {
+    #{$parent}__content {
+      // NOTE: The max-height fixed value allows the CSS transition to run correctly
+      // The value 10000vh corresponds to 100 times the viewport height to manage longs contents
+      max-height: 10000vh;
+      padding-top: $mu050;
+      padding-bottom: calc(#{$mu150} - #{get-border(s)});
+      visibility: visible;
+    }
   }
 
   &__content {
@@ -65,50 +105,6 @@
     padding-left: $mu050;
     transition: 0.3s ease-out;
     visibility: hidden;
-  }
-
-  &__trigger {
-    opacity: 0;
-    position: absolute;
-
-    &:checked {
-      ~ #{$parent}__content {
-        // NOTE: The max-height fixed value allows the CSS transition to run correctly
-        // The value 10000vh corresponds to 100 times the viewport height to manage longs contents
-        max-height: 10000vh;
-        padding-top: $mu050;
-        padding-bottom: calc(#{$mu150} - #{get-border(s)});
-        visibility: visible;
-      }
-    }
-
-    &:disabled {
-      ~ #{$parent}__label {
-        background-color: $color-grey-100;
-        color: $color-font-light;
-        cursor: not-allowed;
-      }
-
-      ~ #{$parent}__content {
-        color: $color-font-light;
-        cursor: not-allowed;
-      }
-    }
-
-    &:focus {
-      ~ #{$parent}__label {
-        @include set-focus-floating {
-          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
-        }
-      }
-    }
-
-    &:disabled:checked {
-      ~ #{$parent}__content {
-        max-height: none;
-        padding-top: $mu050;
-      }
-    }
   }
 
   @each $size, $props in $accordion-sizes {

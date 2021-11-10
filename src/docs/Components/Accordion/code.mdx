@@ -22,15 +22,14 @@ To create a basic accordion, apply the following classes on this HTML elements:
 
 ```html
 <div class="mc-accordion">
-  <input type="checkbox" id="basicUsage" class="mc-accordion__trigger" />
-  <label for="basicUsage" class="mc-accordion__label" aria-expanded="false">
-    Accordion title
-  </label>
-  <div class="mc-accordion__content">
+  <button id="accordion" class="mc-accordion__trigger" aria-expanded="false" aria-controls="content">
+    <span class="mc-accordion__label">Accordion title</span>
+  </button>
+  <div id="content" class="mc-accordion__content">
     <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-      at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-      pharetra.
+      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+      condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
+      amet pharetra.
     </p>
   </div>
 </div>
@@ -70,7 +69,7 @@ Mozaic offers you two sizes of accordions that you can use, by applying the foll
 
 You have the possibility to have an accordion with no padding.
 
-For this you have to add to the label the `mc-accordion__label--no-padding` modifier.
+For this you have to add to the label the `mc-accordion__trigger--no-padding` modifier.
 
 <Preview path="no-padding" />
 
@@ -78,36 +77,34 @@ For this you have to add to the label the `mc-accordion__label--no-padding` modi
 
 You can add an icon into any accordions you want.
 
-For this you have to add to the label the `mc-accordion__label--icon` modifier.
+For this you have to add to the label the `mc-accordion__trigger--icon` modifier.
 
 Then just add the CSS class `mc-accordion__icon` to your icon.
 
 ```html
 <div class="mc-accordion">
-  <input type="checkbox" id="iconUsage" class="mc-accordion__trigger" />
-  <label
-    for="iconUsage"
-    class="mc-accordion__label mc-accordion__label mc-accordion__label--icon"
-    aria-expanded="false"
-  >
-    <svg class="mc-accordion__icon" xmlns="http://www.w3.org/2000/svg">
-      <symbol id="Store_StoreLM_32px" viewBox="0 0 32 32">
-        <path
-          d="M23 11l-5.59-5.59a2 2 0 00-2.82 0L9 11H5a2 2 0 00-2 2v12a2 2 0 002 2h22a2 2 0 002-2V13a2 2 0 00-2-2zm-3 14h-3.5v-5H20zm-4.5 0H12v-5h3.5zM27 25h-6v-5.5a.5.5 0 00-.5-.5h-9a.5.5 0 00-.5.5V25H5V13h4.83l.58-.59L16 6.83l5.59 5.58.58.59H27z"
-        ></path>
-        <path
-          d="M16.71 10.71a1 1 0 00-1.42 0l-3.58 3.58a1 1 0 00.7 1.71h7.18a1 1 0 00.7-1.71z"
-        ></path>
-      </symbol>
-    </svg>
-    Accordion title
-  </label>
-  <div class="mc-accordion__content">
-    <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-      at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-      pharetra.
-    </p>
+    <div class="mc-accordion__header">
+      <button
+        class="mc-accordion__trigger mc-accordion__trigger--icon "
+        aria-expanded="false"
+        aria-controls="content"
+        id="accordion"
+      >
+        <span class="mc-accordion__label">
+          <svg class="mc-accordion__icon">
+            <use href="#Store_StoreLM_32px"></use>
+          </svg>
+          Accordion title</span
+        >
+      </button>
+    </div>
+    <div id="content" class="mc-accordion__content">
+      <p>
+        Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+        condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
+        amet pharetra.
+      </p>
+    </div>
   </div>
 </div>
 ```
@@ -120,31 +117,29 @@ You can add a Mozaic toggle into any accordions you want.
 
 For this you have to add to the label the `mc-accordion__header` modifier.
 
-Then just add the CSS class `mc-accordion__selectable` to your toogle.
+Then add the CSS class `mc-accordion__selectable` to your toogle.
 
 ```html
 <div class="mc-accordion">
-  <input type="checkbox" id="toggle" class="mc-accordion__trigger" />
-  <label
-    class="
-      mc-accordion__label mc-accordion__header
-    "
-    for="toggle"
-  >
-    <div class="mc-toggle mc-accordion__selectable">
-      <input class="mc-toggle__input" id="toggle" type="checkbox" />
-      <label class="mc-toggle__label" for="toggle"> </label>
+    <div class="mc-accordion__header">
+      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
+        <div class="mc-accordion__label">
+          <div class="mc-toggle mc-accordion__selectable">
+            <input class="mc-toggle__input" id="togg" type="checkbox" />
+            <label class="mc-toggle__label" for="togg">
+          </div>
+          <span>Accordion with toggle</span>
+        </div>
+      </button>  
     </div>
-    <span aria-expanded="false">Accordion with toggle </span>
-  </label>
-  <div class="mc-accordion__content">
-    <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
-      condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
-      amet pharetra.
-    </p>
+    <div id="content" class="mc-accordion__content">
+      <p>
+        Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+        condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
+        amet pharetra.
+      </p>
+    </div>
   </div>
-</div>
 ```
 
 <Preview path="selectable" />
@@ -160,31 +155,32 @@ Then just add the CSS class `mc-accordion__selectable` to your checkbox.
 Finally add the class `mc-accordion__label--checkable` to the span element.
 
 ```html
-<div class="mc-accordion">
-  <input type="checkbox" id="checkable" class="mc-accordion__trigger" />
-  <label class="mc-accordion__label mc-accordion__header" for="checkable">
-    <div class="mc-checkbox mc-accordion__selectable">
-      <input
-        id="checkbox-01"
-        type="checkbox"
-        class="mc-checkbox__input"
-        name="example"
-      />
+  <div class="mc-accordion">
+    <div class="mc-accordion__header">
+      <button class="mc-accordion__trigger" aria-controls="content" id="accordion">
+        <div class="mc-accordion__label">
+          <div class="mc-checkbox mc-accordion__selectable">
+            <input
+              id="checkbox-01"
+              type="checkbox"
+              class="mc-checkbox__input"
+              name="example"
+              aria-label="checkboxlabel"
+            />
+          </div>
+          <span>
+            Accordion with checkbox
+          </span>
+        </div>
+      </button>
     </div>
-    <span
-      class="mc-accordion__label--checkable"
-      aria-expanded="false"
-    >
-      Accordion with checkbox
-    </span>
-  </label>
-  <div class="mc-accordion__content">
-    <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
-      condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
-      amet pharetra.
-    </p>
+    <div id="content" class="mc-accordion__content">
+      <p> 
+        Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+        condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
+        amet pharetra.
+      </p>
+    </div>
   </div>
-</div>
 ```
 <Preview path="checkable" />

@@ -1,14 +1,13 @@
 <div class="example">
   <div class="mc-accordion">
-    <input type="checkbox" id="basic" class="mc-accordion__trigger" />
-    <label
-      for="basic"
-      class="mc-accordion__label mc-accordion__label--no-padding"
-      aria-expanded="false"
-    >
-      Accordion title
-    </label>
-    <div class="mc-accordion__content">
+    <div class="mc-accordion__header">
+      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
+        <span class="mc-accordion__label mc-accordion__label--no-padding"
+          >Accordion title</span
+        >
+      </button>
+    </div>
+    <div id="content" class="mc-accordion__content">
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -17,18 +16,25 @@
     </div>
   </div>
   <div class="mc-accordion">
-    <input type="checkbox" id="icon" class="mc-accordion__trigger" />
-    <label
-      for="icon"
-      class="mc-accordion__label mc-accordion__label--no-padding mc-accordion__label--icon"
-      aria-expanded="false"
-    >
-      <svg class="mc-accordion__icon">
-        <use href="#Store_StoreLM_32px"></use>
-      </svg>
-      Accordion title
-    </label>
-    <div class="mc-accordion__content">
+    <div class="mc-accordion__header">
+      <button
+        class="
+          mc-accordion__trigger
+          mc-accordion__trigger--no-padding
+          mc-accordion__trigger--icon
+        "
+        aria-expanded="false"
+        aria-controls="content" id="accordion"
+      >
+        <div class="mc-accordion__label mc-accordion__header">
+          <svg class="mc-accordion__icon">
+            <use href="#Store_StoreLM_32px"></use>
+          </svg>
+          <span>Accordion title</span>
+        </div>
+      </button>
+    </div>
+    <div id="content" class="mc-accordion__content">
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit

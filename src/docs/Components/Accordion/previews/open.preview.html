@@ -1,10 +1,11 @@
 <div class="example">
-  <div class="mc-accordion">
-    <input type="checkbox" id="open" class="mc-accordion__trigger" checked />
-    <label for="open" class="mc-accordion__label" aria-expanded="true">
-      Accordion title
-    </label>
-    <div class="mc-accordion__content">
+  <div class="mc-accordion is-open">
+    <div class="mc-accordion__header">
+      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
+        <span class="mc-accordion__label">Accordion title</span>
+      </button>  
+    </div>
+    <div id="content" class="mc-accordion__content">
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit

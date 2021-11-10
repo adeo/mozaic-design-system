@@ -31,12 +31,26 @@ $accordion-default-size: map-get($accordion-sizes, "m");
   $padding-right: map-get($sizeProps, "padding-right");
   $padding-v: map-get($sizeProps, "padding-v");
 
-  &__label {
+  &.is-open {
+    .mc-accordion__trigger {
+      background-image: url(inline-icons($background-close, $color-font-darker));
+    }
+
+    .mc-accordion__trigger:disabled {
+      background-image: url(inline-icons($background-close, $color-font-light));
+    }
+  }
+
+  &__trigger {
     @include set-font-scale($font-size, "m");
 
     background-image: url(inline-icons($background-open, $color-font-darker));
     background-size: $background-size;
-    padding: $padding-v $padding-right $padding-v $mu050;
+    padding: $padding-v $padding-right $padding-v $mu050 !important;
+
+    &:disabled {
+      background-image: url(inline-icons($background-open, $color-font-light));
+    }
 
     &--checkable {
       @include set-font-weight("regular");
@@ -47,40 +61,5 @@ $accordion-default-size: map-get($accordion-sizes, "m");
   &__icon {
     height: $icon-size;
     width: $icon-size;
-  }
-
-  &__trigger {
-    &:checked {
-      ~ #{$accordion-selector}__label {
-        background-image:
-          url(
-            inline-icons(
-              $background-close,
-              $color-font-darker
-            ));
-      }
-    }
-
-    &:disabled {
-      ~ #{$accordion-selector}__label {
-        background-image:
-          url(
-            inline-icons(
-              $background-open,
-              $color-font-light
-            ));
-      }
-    }
-
-    &:disabled:checked {
-      ~ #{$accordion-selector}__label {
-        background-image:
-          url(
-            inline-icons(
-              $background-close,
-              $color-font-light
-            ));
-      }
-    }
   }
 }
