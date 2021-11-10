@@ -43,7 +43,7 @@
 
     th,
     td {
-      border-bottom: get-border(s) solid $color-grey-300;
+      // border-bottom: get-border(s) solid $color-grey-300;
       text-align: left;
       vertical-align: middle;
       padding: {
@@ -274,6 +274,59 @@
           position: sticky;
         }
       }
+    }
+  }
+
+  // tools
+  &__sort {
+    align-items: center;
+    flex-direction: column;
+    height: $mu150;
+    gap: math.div($mu025, 2);
+    justify-content: center;
+    width: $mu150;
+
+    &-arrow {
+      &-top,
+      &-bottom {
+        background-color: $color-grey-200;
+        height: $mu050;
+        width: $mu075;
+      }
+
+      &-top {
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+        .asc & {
+          background-color: $color-grey-900;
+        }
+
+        .desc & {
+          display: none;
+        }
+      }
+
+      &-bottom {
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+
+        .asc & {
+          display: none;
+        }
+
+        .desc & {
+          background-color: $color-grey-900;
+        }
+      }
+    }
+
+    &-label {
+      @include visually-hidden();
+    }
+  }
+
+  &__expand {
+    &-icon {
+      fill: $color-primary-01-500;
     }
   }
 }
