@@ -26,6 +26,7 @@
     &-main,
     &-secondary {
       display: flex;
+      flex-wrap: wrap;
     }
 
     &-main,
@@ -43,6 +44,7 @@
     align-items: center;
     border-top: get-border(s) solid $color-grey-300;
     display: flex;
+    flex-wrap: wrap;
     gap: $mu100;
     justify-content: flex-end;
     padding: {
@@ -59,11 +61,14 @@
   }
 
   // Table
-  &__table {
+  &__table,
+  &__subtable {
     border-collapse: collapse;
+    table-layout: auto; // could be fixed;
+  }
+  &__table {
     // border-spacing: 0; // à mettre uniquement si border-collpase: separate;
     caption-side: bottom;
-    table-layout: auto; // could be fixed;
 
     &,
     tr {
@@ -72,11 +77,18 @@
 
     tr {
       height: $mu300 - $border-size;
+
+      &:not(:last-child) {
+        th,
+        td {
+          border-bottom: get-border(s) solid $color-grey-300;
+        }
+      }
     }
 
     th,
     td {
-      border-bottom: get-border(s) solid $color-grey-300;
+      // border-bottom: get-border(s) solid $color-grey-300;
       text-align: left;
       vertical-align: middle;
       padding: {
@@ -86,13 +98,17 @@
     }
   }
 
+  &__main {
+    overflow-x: auto;
+  }
+
   &__thead {
     th,
     td {
       @include set-font-weight("semi-bold");
       @include set-font-scale("02", "m"); // 12px / 16px
 
-      color: $color-secondary-purple-500;
+      color: $color-grey-900;
       text-transform: uppercase;
     }
   }
@@ -103,53 +119,15 @@
     justify-content: space-between;
   }
 
-  &__sort {
-    align-items: center;
-    flex-direction: column;
-    height: $mu150;
-    gap: math.div($mu025, 2);
-    justify-content: center;
-    width: $mu150;
-
-    &-arrow {
-      &-top,
-      &-bottom {
-        background-color: $color-grey-200;
-        height: $mu050;
-        width: $mu075;
-      }
-
-      &-top {
-        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-
-        .asc & {
-          background-color: $color-secondary-purple-500;
-        }
-      }
-
-      &-bottom {
-        clip-path: polygon(0 0, 100% 0, 50% 100%);
-
-        .desc & {
-          background-color: $color-secondary-purple-500;
-        }
-      }
-    }
-
-    &-label {
-      @include visually-hidden();
-    }
-  }
-
   &__tbody {
     tr {
       &:hover {
         background-color: $color-grey-100;
       }
 
-      &.selected {
-        background-color: $color-primary-01-100;
-      }
+      // &.selected {
+      //   background-color: $color-primary-01-100;
+      // }
     }
 
     th,
@@ -157,6 +135,14 @@
       @include set-font-scale("04", "m"); // 14px / 18px
 
       color: $color-grey-900;
+    }
+  }
+
+  &__row {
+    &-expandable {
+      & > td {
+        padding: 0;
+      }
     }
   }
 
@@ -180,10 +166,14 @@
   // Footer
   &__footer {
     align-items: center;
-    border-top: get-border(s) solid $color-grey-300;
+    // border-top: get-border(s) solid $color-grey-300;
     display: flex;
     padding: $mu075 $mu100;
     gap: $mu100;
+
+    @media screen and (max-width: ($screen-m - 1)) {
+      flex-direction: column;
+    }
   }
 
   &__select {
@@ -230,6 +220,20 @@
     }
   }
 
+  // nested
+  &--nested {
+    tr {
+      height: $mu300 - $border-size;
+
+      &:not(:last-child) {
+        th,
+        td {
+          border-color: $color-grey-300;
+        }
+      }
+    }
+  }
+
   // helpers
   .button {
     background: none;
@@ -242,6 +246,59 @@
     svg {
       width: $mu150; // 24px
       height: $mu150;
+    }
+  }
+
+  // tools
+  &__sort {
+    align-items: center;
+    flex-direction: column;
+    height: $mu150;
+    gap: math.div($mu025, 2);
+    justify-content: center;
+    width: $mu150;
+
+    &-arrow {
+      &-top,
+      &-bottom {
+        background-color: $color-grey-200;
+        height: $mu050;
+        width: $mu075;
+      }
+
+      &-top {
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+        .asc & {
+          background-color: $color-grey-900;
+        }
+
+        .desc & {
+          display: none;
+        }
+      }
+
+      &-bottom {
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+
+        .asc & {
+          display: none;
+        }
+
+        .desc & {
+          background-color: $color-grey-900;
+        }
+      }
+    }
+
+    &-label {
+      @include visually-hidden();
+    }
+  }
+
+  &__expand {
+    &-icon {
+      fill: $color-primary-01-500;
     }
   }
 }
