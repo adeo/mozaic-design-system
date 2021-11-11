@@ -1,14 +1,29 @@
 <div class="example">
-  <div class="mc-accordion">
+  <div class="mc-accordion mc-accordion--checkable">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
-        <div class="mc-accordion__label"><div class="mc-toggle mc-accordion__selectable">
-        <input class="mc-toggle__input" id="togg" type="checkbox" />
-        <label class="mc-toggle__label" for="togg"> </div>
-        <span>Accordion with toggle</span></div>
-      </button>  
+      <div class="mc-toggle mc-toggle--hide-label">
+        <input class="mc-toggle__input" id="toggle" type="checkbox" />
+        <label class="mc-toggle__label" for="toggle">
+          <span class="mc-toggle__content">Toggle label</span>
+        </label>
+      </div>
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion"
+          class="mc-accordion__trigger"
+          aria-controls="content"
+          aria-expanded="false"
+        >
+          Accordion with toggle
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
+    <div
+      id="content"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit

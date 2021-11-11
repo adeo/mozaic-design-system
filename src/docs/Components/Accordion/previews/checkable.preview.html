@@ -1,28 +1,28 @@
 <div class="example">
-  <div class="mc-accordion">
+  <div class="mc-accordion mc-accordion--checkable">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-controls="content" id="accordion">
-        <div class="mc-accordion__label">
-          <div class="mc-checkbox mc-accordion__selectable">
-            <input
-              id="checkbox-01"
-              type="checkbox"
-              class="mc-checkbox__input"
-              name="example"
-              aria-label=""
-            />
-          </div>
-          <span
-            class="mc-accordion__label mc-accordion__label--checkable"
-            aria-expanded="false"
-          >
-            Accordion with checkbox
-          </span>
-        </div>
-      </button>
+      <div class="mc-checkbox">
+        <input
+          id="checkbox-01"
+          type="checkbox"
+          class="mc-checkbox__input"
+          name="example"
+          aria-label="Checkbox label"
+        />
+      </div>
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion"
+          class="mc-accordion__trigger"
+          aria-controls="content"
+          aria-expanded="false"
+        >
+          Accordion title
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
-      <p> 
+    <div id="content" class="mc-accordion__content" aria-hidden="true">
+      <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
         amet pharetra.

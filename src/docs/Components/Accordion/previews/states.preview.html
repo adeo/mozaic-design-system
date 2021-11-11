@@ -1,11 +1,23 @@
 <div class="example">
   <div class="mc-accordion">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
-        <span class="mc-accordion__label">Accordion close</span>
-      </button>  
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion1"
+          class="mc-accordion__trigger"
+          aria-controls="content1"
+          aria-expanded="false"
+        >
+          Accordion close
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
+    <div
+      id="content1"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion1"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -16,11 +28,23 @@
 
   <div class="mc-accordion is-open">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
-        <span class="mc-accordion__label">Accordion open</span>
-      </button>  
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion2"
+          class="mc-accordion__trigger"
+          aria-controls="content2"
+          aria-expanded="true"
+        >
+          Accordion open
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
+    <div
+      id="content2"
+      class="mc-accordion__content"
+      aria-hidden="false"
+      aria-labelledby="accordion2"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -31,11 +55,24 @@
 
   <div class="mc-accordion">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-expanded="false" disabled aria-controls="content" id="accordion">
-        <span class="mc-accordion__label">Accordion close & disabled</span>
-      </button>  
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion3"
+          class="mc-accordion__trigger"
+          aria-controls="content3"
+          aria-expanded="false"
+          disabled
+        >
+          Accordion close & disabled
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
+    <div
+      id="content3"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion3"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -46,11 +83,24 @@
 
   <div class="mc-accordion is-open">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-expanded="false" disabled aria-controls="content" id="accordion">
-        <span class="mc-accordion__label">Accordion open & disabled</span>
-      </button>  
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion4"
+          class="mc-accordion__trigger"
+          aria-controls="content4"
+          aria-expanded="false"
+          disabled
+        >
+          Accordion open & disabled
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
+    <div
+      id="content4"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion4"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit

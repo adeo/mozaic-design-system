@@ -1,11 +1,23 @@
 <div class="example">
   <div class="mc-accordion">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
-        <span class="mc-accordion__label">Accordion title</span>
-      </button>  
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion1"
+          class="mc-accordion__trigger"
+          aria-controls="content1"
+          aria-expanded="false"
+        >
+          Accordion title
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
+    <div
+      id="content1"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion1"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -14,13 +26,26 @@
       </p>
     </div>
   </div>
+
   <div class="mc-accordion">
     <div class="mc-accordion__header">
-      <button class="mc-accordion__trigger" aria-expanded="false" aria-controls="content" id="accordion">
-        <span class="mc-accordion__label">Accordion title</span>
-      </button>  
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion2"
+          class="mc-accordion__trigger"
+          aria-controls="content2"
+          aria-expanded="false"
+        >
+          Accordion title 2
+        </button>
+      </h2>
     </div>
-    <div id="content" class="mc-accordion__content">
+    <div
+      id="content2"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion2"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
