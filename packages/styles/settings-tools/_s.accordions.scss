@@ -1,38 +1,46 @@
 $accordion-sizes: (
-  's': (
-    'background-open': 'control-more-16',
-    'background-close': 'control-less-16',
-    'background-size': $mu100,
-    'font-size': '05',
-    'icon-size': $mu150,
-    'padding-right': $mu250,
-    'padding-v': $mu100,
+  "s": (
+    "background-open": "control-more-16",
+    "background-close": "control-less-16",
+    "background-size": $mu100,
+    "font-size": "05",
+    "icon-size": $mu150,
+    "padding-right": $mu250,
+    "padding-v": $mu100,
   ),
-  'm': (
-    'background-open': 'control-more-24',
-    'background-close': 'control-less-24',
-    'background-size': $mu150,
-    'font-size': '06',
-    'icon-size': $mu200,
-    'padding-right': $mu300,
-    'padding-v': $mu125,
+  "m": (
+    "background-open": "control-more-24",
+    "background-close": "control-less-24",
+    "background-size": $mu150,
+    "font-size": "06",
+    "icon-size": $mu200,
+    "padding-right": $mu300,
+    "padding-v": $mu125,
   ),
 );
 
-$accordion-selector: '.mc-accordion';
-$accordion-default-size: map-get($accordion-sizes, 'm');
+$accordion-selector: ".mc-accordion";
+$accordion-default-size: map-get($accordion-sizes, "m");
 
-@mixin set-accordion-size($sizeProps) {
-  $background-open: map-get($sizeProps, 'background-open');
-  $background-close: map-get($sizeProps, 'background-close');
-  $background-size: map-get($sizeProps, 'background-size');
-  $font-size: map-get($sizeProps, 'font-size');
-  $icon-size: map-get($sizeProps, 'icon-size');
-  $padding-right: map-get($sizeProps, 'padding-right');
-  $padding-v: map-get($sizeProps, 'padding-v');
+@mixin set-accordion-size($sizeProps, $parent) {
+  $background-open: map-get($sizeProps, "background-open");
+  $background-close: map-get($sizeProps, "background-close");
+  $background-size: map-get($sizeProps, "background-size");
+  $font-size: map-get($sizeProps, "font-size");
+  $icon-size: map-get($sizeProps, "icon-size");
+  $padding-right: map-get($sizeProps, "padding-right");
+  $padding-v: map-get($sizeProps, "padding-v");
 
-  &__label {
-    @include set-font-scale($font-size, 'm');
+  #{$parent}__icon {
+    height: $icon-size;
+    width: $icon-size;
+  }
+
+  // TODO:
+  // this code with "label" is a backup code in order not to cause a breaking change
+  // it should be removed once the teams have migrated to the new version of the component
+  #{$parent}__label {
+    @include set-font-scale($font-size, "m");
 
     background-image: url(inline-icons($background-open, $color-font-darker));
     background-size: $background-size;
@@ -43,12 +51,10 @@ $accordion-default-size: map-get($accordion-sizes, 'm');
     }
   }
 
-  &__icon {
-    height: $icon-size;
-    width: $icon-size;
-  }
-
-  &__trigger {
+  // TODO:
+  // this code with "input" as trigger is a backup code in order not to cause a breaking change
+  // it should be removed once the teams have migrated to the new version of the component
+  input#{$parent}__trigger {
     &:checked {
       ~ #{$accordion-selector}__label {
         background-image: url(inline-icons(
@@ -74,6 +80,21 @@ $accordion-default-size: map-get($accordion-sizes, 'm');
           $color-font-light
         ));
       }
+    }
+  }
+
+  // NEW CODE
+  #{$parent}__title {
+    @include set-font-scale($font-size, "m");
+  }
+
+  button#{$parent}__trigger {
+    background-image: url(inline-icons($background-open, $color-font-darker));
+    background-size: $background-size;
+    padding: {
+      top: $padding-v;
+      right: $padding-right;
+      bottom: $padding-v;
     }
   }
 }
