@@ -7,6 +7,7 @@
           class="mc-accordion__trigger"
           aria-controls="content1"
           aria-expanded="false"
+          data-mc-component="accordion"
         >
           Accordion close
         </button>
@@ -34,6 +35,7 @@
           class="mc-accordion__trigger"
           aria-controls="content2"
           aria-expanded="true"
+          data-mc-component="accordion"
         >
           Accordion open
         </button>
@@ -89,6 +91,7 @@
           class="mc-accordion__trigger"
           aria-controls="content4"
           aria-expanded="false"
+          data-mc-component="accordion"
           disabled
         >
           Accordion open & disabled
@@ -109,3 +112,28 @@
     </div>
   </div>
 </div>
+
+<script>
+  const accordions = document.querySelectorAll(
+    '[data-mc-component="accordion"]'
+  )
+  accordions.forEach(function (accordion) {
+    if (accordion.hasAttribute('disabled')) {
+      accordion.closest('.mc-accordion').classList.add('is-disabled')
+    }
+
+    accordion.addEventListener('click', function (e) {
+      const component = accordion.closest('.mc-accordion')
+      const button = component.querySelector('.mc-accordion__trigger')
+      const content = component.querySelector('.mc-accordion__content')
+      const expanded =
+        button.getAttribute('aria-expanded') === 'false' ? false : true
+      const hidden =
+        content.getAttribute('aria-hidden') === 'false' ? false : true
+
+      component.classList.toggle('is-open')
+      button.setAttribute('aria-expanded', !expanded)
+      content.setAttribute('aria-hidden', !hidden)
+    })
+  })
+</script>
