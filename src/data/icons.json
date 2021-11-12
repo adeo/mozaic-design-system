@@ -4309,10 +4309,10 @@
     {
       "cat": "Various",
       "size": "32px",
-      "name": "Balcony",
-      "fileName": "Various_Balcony_32px.svg",
-      "iconName": "Balcony",
-      "componentName": "Balcony32"
+      "name": "Balcon",
+      "fileName": "Various_Balcon_32px.svg",
+      "iconName": "Balcon",
+      "componentName": "Balcon32"
     },
     {
       "cat": "Various",

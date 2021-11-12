@@ -5,7 +5,7 @@ const iconContent = (fileName, data) => {
 
   const parsedData = data.replace(
     '<svg',
-    `<svg width={size} height={size} id={id}  style={style} class={className} fill={fill}`
+    `<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill}`
   )
 
   const tag = fileName.replace(/_/g, '-').replace('.svg', '').toLowerCase()

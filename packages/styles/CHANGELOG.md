@@ -3,6 +3,63 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.19.0](https://github.com/adeo/mozaic-design-system/compare/v1.18.0...v1.19.0) (2021-10-27)
+
+
+### Bug Fixes
+
+* **component/layer:** always position the footer above the content ([#947](https://github.com/adeo/mozaic-design-system/issues/947)) ([e8bf399](https://github.com/adeo/mozaic-design-system/commit/e8bf3991e6a5de9b97a24c60eabf145e26d7d8eb))
+
+
+### Features
+
+* **component/toggle:** improve toggle's a11y ([#941](https://github.com/adeo/mozaic-design-system/issues/941)) ([4853931](https://github.com/adeo/mozaic-design-system/commit/48539317221399b6c5d883d447a7b72653fceeb2)), closes [#710](https://github.com/adeo/mozaic-design-system/issues/710)
+* **layouts/container:** improve ml-container size behaviour ([#946](https://github.com/adeo/mozaic-design-system/issues/946)) ([b05ce52](https://github.com/adeo/mozaic-design-system/commit/b05ce527821b131a9d8eeb52034e4f56846a8905))
+
+
+
+
+
+# [1.18.0](https://github.com/adeo/mozaic-design-system/compare/v1.17.1...v1.18.0) (2021-09-29)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
+
+
+
+
+## [1.17.1](https://github.com/adeo/mozaic-design-system/compare/v1.17.0...v1.17.1) (2021-09-15)
+
+
+### Bug Fixes
+
+* **toggle:** add missing classes ([#925](https://github.com/adeo/mozaic-design-system/issues/925)) ([4a12c53](https://github.com/adeo/mozaic-design-system/commit/4a12c53d8d502ae85eab2959d03c59d71e162575))
+
+
+
+
+
+# [1.17.0](https://github.com/adeo/mozaic-design-system/compare/v1.16.0...v1.17.0) (2021-09-15)
+
+
+### Bug Fixes
+
+* **patterns/dialogs:** prevent dialog elements to be focusable on modal & layer ([#895](https://github.com/adeo/mozaic-design-system/issues/895)) ([18241c3](https://github.com/adeo/mozaic-design-system/commit/18241c36907f3f38644d6345bc55d4c533992ddc)), closes [#887](https://github.com/adeo/mozaic-design-system/issues/887) [#888](https://github.com/adeo/mozaic-design-system/issues/888)
+* **patterns/layer:** make the layer's shadow unclickable ([#911](https://github.com/adeo/mozaic-design-system/issues/911)) ([8afb9a9](https://github.com/adeo/mozaic-design-system/commit/8afb9a9b1214257180b454c0a2bd2cf5b951f01a))
+* **patterns/layer:** update paddings values ([#916](https://github.com/adeo/mozaic-design-system/issues/916)) ([ee02154](https://github.com/adeo/mozaic-design-system/commit/ee021542712e5fa47feef0f45dc7fe7163481ed0))
+* **patterns/toggle:** update the label padding value from mixin ([#913](https://github.com/adeo/mozaic-design-system/issues/913)) ([9f3e4bd](https://github.com/adeo/mozaic-design-system/commit/9f3e4bda591216934ade53a980d84d03f30aaf26))
+
+
+### Features
+
+* **badge:** add badge component code ([#919](https://github.com/adeo/mozaic-design-system/issues/919)) ([eea3b65](https://github.com/adeo/mozaic-design-system/commit/eea3b65cb0966f3fad99739cf6024bdb5c3e969b))
+* **flex:** add missing justify modifier ([#910](https://github.com/adeo/mozaic-design-system/issues/910)) ([fe905df](https://github.com/adeo/mozaic-design-system/commit/fe905df95708c0b64f33ce6c0d385cd1cf665931))
+* **patterns/rating-stars:** add new variations with label, link & overall score ([#920](https://github.com/adeo/mozaic-design-system/issues/920)) ([e6acb92](https://github.com/adeo/mozaic-design-system/commit/e6acb9220da330c38ee447211f37bf3a097ac85e))
+
+
+
+
+
 # [1.16.0](https://github.com/adeo/mozaic-design-system/compare/v1.15.0...v1.16.0) (2021-09-01)
 
 

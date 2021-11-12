@@ -37,7 +37,9 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/57133075?v=4",
       "profile": "https://github.com/corentin-verquin-lm",
       "contributions": [
-        "doc"
+        "doc",
+        "review",
+        "example"
       ]
     },
     {
@@ -123,6 +125,55 @@
       "profile": "https://github.com/MatthieuLepers",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "alex-deneuvillers-lm",
+      "name": "Alex Deneuvillers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68054927?v=4",
+      "profile": "https://github.com/alex-deneuvillers-lm",
+      "contributions": [
+        "bug",
+        "review"
+      ]
+    },
+    {
+      "login": "humbkr",
+      "name": "humbkr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/845297?v=4",
+      "profile": "https://github.com/humbkr",
+      "contributions": [
+        "bug",
+        "review"
+      ]
+    },
+    {
+      "login": "Marine-Fabien",
+      "name": "Marine Fabien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77010633?v=4",
+      "profile": "https://github.com/Marine-Fabien",
+      "contributions": [
+        "bug",
+        "review"
+      ]
+    },
+    {
+      "login": "Jupoulet",
+      "name": "Jupoulet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53181261?v=4",
+      "profile": "https://github.com/Jupoulet",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "sadcitizen",
+      "name": "Eugene Abrosimov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5613376?v=4",
+      "profile": "http://sadcitizen.me",
+      "contributions": [
+        "bug",
+        "review"
       ]
     }
   ],

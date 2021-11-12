@@ -84,7 +84,7 @@ const HeaderCategory = styled.span`
   text-transform: uppercase;
 `
 
-export default ({ data, location }) => {
+const PatternPage = ({ data, location }) => {
   const post = data.mdx
   const { tableOfContents } = data.mdx
 
@@ -145,6 +145,8 @@ export default ({ data, location }) => {
   )
 }
 
+export default PatternPage
+
 export const query = graphql`
   query MDXQuery($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
@@ -179,6 +181,10 @@ export const query = graphql`
                 link
               }
               freemarker {
+                status
+                link
+              }
+              webComponent {
                 status
                 link
               }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
-export default (props) => {
+const DesignerKitLink = (props) => {
   const { children, ...rest } = props
   return (
     <StaticQuery
@@ -25,3 +25,5 @@ export default (props) => {
     />
   )
 }
+
+export default DesignerKitLink
