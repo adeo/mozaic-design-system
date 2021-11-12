@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+
+### Bug Fixes
+
+* **svg:** add aria-hidden to svg ([#949](https://github.com/adeo/mozaic-design-system/issues/949)) ([570de57](https://github.com/adeo/mozaic-design-system/commit/570de573fddc8c82e3982f096c8f7cc83621a02f))
+* **tools/autoprefixer:** fix wrong removal of cssnano when autoprefixer is disabled ([#942](https://github.com/adeo/mozaic-design-system/issues/942)) ([5105327](https://github.com/adeo/mozaic-design-system/commit/510532724775aa13152ed8003bcaca900b537e5f))
+
+
+### Features
+
+* **component/accordion:** update the HTML structure of the component & add variation with checkbox and toggle ([#912](https://github.com/adeo/mozaic-design-system/issues/912)) ([0912aeb](https://github.com/adeo/mozaic-design-system/commit/0912aeba800268bb0991081f101ee99a680738ee))
+* **foundations/icons:** run svgoplugin ([#956](https://github.com/adeo/mozaic-design-system/issues/956)) ([cb9f087](https://github.com/adeo/mozaic-design-system/commit/cb9f08711948cece0351564adab0396c9710919b))
+* **purgecss:** add PurgeCSS PostCSS plugins for production ([d2a04c9](https://github.com/adeo/mozaic-design-system/commit/d2a04c96fc088aeb8e4938632e89924b04ad77db))
+* **tooltip:** add border for a11y ([#955](https://github.com/adeo/mozaic-design-system/issues/955)) ([5a24f49](https://github.com/adeo/mozaic-design-system/commit/5a24f49f3d55ccc0d8fbe3d6952814a8bd776454))
+
+
+
+
+
 # [1.19.0](https://github.com/adeo/mozaic-design-system/compare/v1.18.0...v1.19.0) (2021-10-27)
 
 

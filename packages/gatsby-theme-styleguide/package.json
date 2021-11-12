@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/gatsby-theme-styleguide",
-  "version": "1.18.0",
+  "version": "1.20.0",
   "main": "index.js",
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@mozaic-ds/gatsby-github-release": "^1.14.0",
-    "@mozaic-ds/gatsby-source-preview": "^1.14.0",
+    "@mozaic-ds/gatsby-source-preview": "^1.20.0",
     "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.9.1",
     "gatsby-plugin-flexsearch": "^1.0.3",

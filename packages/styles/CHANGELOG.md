@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+
+### Features
+
+* **component/accordion:** update the HTML structure of the component & add variation with checkbox and toggle ([#912](https://github.com/adeo/mozaic-design-system/issues/912)) ([0912aeb](https://github.com/adeo/mozaic-design-system/commit/0912aeba800268bb0991081f101ee99a680738ee))
+* **tooltip:** add border for a11y ([#955](https://github.com/adeo/mozaic-design-system/issues/955)) ([5a24f49](https://github.com/adeo/mozaic-design-system/commit/5a24f49f3d55ccc0d8fbe3d6952814a8bd776454))
+
+
+
+
+
 # [1.19.0](https://github.com/adeo/mozaic-design-system/compare/v1.18.0...v1.19.0) (2021-10-27)
 
 
