@@ -1,10 +1,50 @@
 <div class="example">
   <div class="mc-accordion">
-    <input type="checkbox" id="close" class="mc-accordion__trigger" />
-    <label for="close" class="mc-accordion__label" aria-expanded="false">
-      Accordion close
-    </label>
-    <div class="mc-accordion__content">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion1"
+          class="mc-accordion__trigger"
+          aria-controls="content1"
+          aria-expanded="false"
+        >
+          Accordion close
+        </button>
+      </h2>
+    </div>
+    <div
+      id="content1"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion1"
+    >
+      <p>
+        Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+        condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
+        amet pharetra.
+      </p>
+    </div>
+  </div>
+
+  <div class="mc-accordion is-open">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion2"
+          class="mc-accordion__trigger"
+          aria-controls="content2"
+          aria-expanded="true"
+        >
+          Accordion open
+        </button>
+      </h2>
+    </div>
+    <div
+      id="content2"
+      class="mc-accordion__content"
+      aria-hidden="false"
+      aria-labelledby="accordion2"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -14,11 +54,25 @@
   </div>
 
   <div class="mc-accordion">
-    <input type="checkbox" id="open" class="mc-accordion__trigger" checked />
-    <label for="open" class="mc-accordion__label" aria-expanded="true">
-      Accordion open
-    </label>
-    <div class="mc-accordion__content">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion3"
+          class="mc-accordion__trigger"
+          aria-controls="content3"
+          aria-expanded="false"
+          disabled
+        >
+          Accordion close & disabled
+        </button>
+      </h2>
+    </div>
+    <div
+      id="content3"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion3"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -27,37 +81,26 @@
     </div>
   </div>
 
-  <div class="mc-accordion">
-    <input
-      type="checkbox"
-      id="close-disabled"
-      class="mc-accordion__trigger"
-      disabled
-    />
-    <label for="close-disabled" class="mc-accordion__label" aria-expanded="false">
-      Accordion close & disabled
-    </label>
-    <div class="mc-accordion__content">
-      <p>
-        Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
-        condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
-        amet pharetra.
-      </p>
+  <div class="mc-accordion is-open">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion4"
+          class="mc-accordion__trigger"
+          aria-controls="content4"
+          aria-expanded="false"
+          disabled
+        >
+          Accordion open & disabled
+        </button>
+      </h2>
     </div>
-  </div>
-
-  <div class="mc-accordion">
-    <input
-      type="checkbox"
-      id="open-disabled"
-      class="mc-accordion__trigger"
-      checked
-      disabled
-    />
-    <label for="open-disabled" class="mc-accordion__label" aria-expanded="true">
-      Accordion open & disabled
-    </label>
-    <div class="mc-accordion__content">
+    <div
+      id="content4"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion4"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
