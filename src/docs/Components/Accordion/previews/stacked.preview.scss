@@ -1,13 +1,12 @@
-@import 'settings-tools/_all-settings';
+@import "settings-tools/_all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.accordion';
-@import 'components/_c.links'; // used only for the example
+@import "components/_c.accordion";
+@import "components/_c.links"; // used only for the example
 
 .example {
   margin: $mu125;
-  min-height: $mu1000;
 }
 
 p {
