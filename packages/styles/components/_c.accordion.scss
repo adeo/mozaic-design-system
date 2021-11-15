@@ -108,7 +108,7 @@
     }
   }
 
-  // new version
+  // new HTML structure
   &__header {
     display: flex;
     align-items: center;
@@ -151,7 +151,6 @@
     gap: $mu050;
     padding-left: $mu050;
     width: 100%;
-    position: relative;
 
     &:focus {
       @include set-focus-floating {
@@ -166,7 +165,6 @@
     }
   }
 
-  // open accordion
   &.is-open {
     #{$parent}__content {
       // NOTE: The max-height fixed value allows the CSS transition to run correctly
@@ -178,9 +176,7 @@
     }
   }
 
-  // modifiers
-
-  &--disabled {
+  &.is-disabled {
     #{$parent}__content {
       color: $color-font-light;
       cursor: not-allowed;
@@ -188,29 +184,31 @@
   }
 
   &--checkable {
-    #{$parent}__header {
-      padding-left: $mu050;
-      position: relative;
-    }
+    #{$parent} {
+      &__header {
+        padding-left: $mu050;
+        position: relative;
+      }
 
-    #{$parent}__trigger {
-      position: static;
+      &__trigger {
+        position: static;
+      }
     }
   }
 
   &--no-padding {
-    #{$parent}__trigger,
-    #{$parent}__header {
-      padding-left: 0;
+    #{$parent} {
+      &__header,
+      &__trigger {
+        padding-left: 0;
+      }
     }
   }
 
   @each $size, $props in $accordion-sizes {
     &--#{$size} {
       @if ($size != "m") {
-        // #{$parent} {
         @include set-accordion-size($props, $parent);
-        // }
       }
     }
   }
