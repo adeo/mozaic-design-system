@@ -3,15 +3,17 @@
 @include import-font-families();
 
 @import "components/_c.accordion";
+@import "components/_c.checkbox";
+@import "components/_c.toggle";
 
 .example {
   margin: $mu125;
-
-  &__item {
-    padding: $mu100;
-  }
 }
 
 p {
   margin: 0;
+}
+
+.hidden {
+  display: none;
 }
