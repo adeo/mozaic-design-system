@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+
+### Bug Fixes
+
+* **svg:** add aria-hidden to svg ([#949](https://github.com/adeo/mozaic-design-system/issues/949)) ([570de57](https://github.com/adeo/mozaic-design-system/commit/570de573fddc8c82e3982f096c8f7cc83621a02f))
+
+
+### Features
+
+* **foundations/icons:** run svgoplugin ([#956](https://github.com/adeo/mozaic-design-system/issues/956)) ([cb9f087](https://github.com/adeo/mozaic-design-system/commit/cb9f08711948cece0351564adab0396c9710919b))
+
+
+
+
+
 # [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
 
 

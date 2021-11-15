@@ -1,17 +1,21 @@
 <div class="example">
   <div class="mc-accordion">
-    <input type="checkbox" id="icon" class="mc-accordion__trigger" />
-    <label
-      for="icon"
-      class="mc-accordion__label mc-accordion__label--icon"
-      aria-expanded="false"
-    >
-      <svg class="mc-accordion__icon">
-        <use href="#Store_StoreLM_32px"></use>
-      </svg>
-      Accordion title
-    </label>
-    <div class="mc-accordion__content">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion"
+          class="mc-accordion__trigger"
+          aria-controls="content"
+          aria-expanded="false"
+        >
+          <svg class="mc-accordion__icon">
+            <use href="#Store_StoreLM_32px"></use>
+          </svg>
+          Accordion title
+        </button>
+      </h2>
+    </div>
+    <div id="content" class="mc-accordion__content" aria-hidden="true" aria-labelledby="accordion">
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit

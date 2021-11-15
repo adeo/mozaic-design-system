@@ -7,6 +7,7 @@ import React from 'react'
 
 export const FullScreen16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -20,6 +21,7 @@ export const FullScreen16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ReduceScreen16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -33,6 +35,7 @@ export const ReduceScreen16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowArrowBottom16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -46,6 +49,7 @@ export const ArrowArrowBottom16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowArrowLeft16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -59,6 +63,7 @@ export const ArrowArrowLeft16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowArrowRight16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -72,6 +77,7 @@ export const ArrowArrowRight16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowArrowTop16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -85,6 +91,7 @@ export const ArrowArrowTop16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowBack16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -98,6 +105,7 @@ export const ArrowBack16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowBreadcrumbBottom16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -111,6 +119,7 @@ export const ArrowBreadcrumbBottom16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowBreadcrumbRight16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -124,6 +133,7 @@ export const ArrowBreadcrumbRight16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ArrowNext16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -137,6 +147,7 @@ export const ArrowNext16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ControlCross16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -150,6 +161,7 @@ export const ControlCross16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ControlLess16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -163,6 +175,7 @@ export const ControlLess16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ControlMore16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -176,6 +189,7 @@ export const ControlMore16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ControlTagCross16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -189,6 +203,7 @@ export const ControlTagCross16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const DisplayExternalLink16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -203,6 +218,7 @@ export const DisplayExternalLink16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const NotificationAvailable16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -216,6 +232,7 @@ export const NotificationAvailable16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const PublishFavorite16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -229,6 +246,7 @@ export const PublishFavorite16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const PublishFavoriteFull16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -242,6 +260,7 @@ export const PublishFavoriteFull16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const Euro16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -255,6 +274,7 @@ export const Euro16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ViewLikeNegative16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -268,6 +288,7 @@ export const ViewLikeNegative16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ViewLikePositive16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -281,6 +302,7 @@ export const ViewLikePositive16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ViewStarFirst16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -294,6 +316,7 @@ export const ViewStarFirst16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ViewStarFull16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -308,6 +331,7 @@ export const ViewStarFull16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const ViewStarHalf16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -322,6 +346,7 @@ export const ViewStarHalf16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const Locator16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -335,6 +360,7 @@ export const Locator16 = ({ fill, size = '1rem', ...rest }) => (
 
 export const Desktop24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -348,6 +374,7 @@ export const Desktop24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Laptop24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -361,6 +388,7 @@ export const Laptop24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Mobile24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -375,6 +403,7 @@ export const Mobile24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Tablet24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -389,6 +418,7 @@ export const Tablet24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HygieneCleaned24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -402,6 +432,7 @@ export const HygieneCleaned24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HygieneDanger24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -416,6 +447,7 @@ export const HygieneDanger24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HygieneDistance24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -429,6 +461,7 @@ export const HygieneDistance24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HygieneGel24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -442,6 +475,7 @@ export const HygieneGel24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HygieneMask24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -456,6 +490,7 @@ export const HygieneMask24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HygieneNoContact24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -469,6 +504,7 @@ export const HygieneNoContact24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HygienePlexiglas24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -484,6 +520,7 @@ export const HygienePlexiglas24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PaymentCheckout24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -498,6 +535,7 @@ export const PaymentCheckout24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PaymentNoContact24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -519,6 +557,7 @@ export const ServicePurchaseHelpCarOpenBoot24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -536,6 +575,7 @@ export const ServicePurchaseHelpCarStandInLine24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -553,6 +593,7 @@ export const ServicePurchaseHelpCarStayInside24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -571,6 +612,7 @@ export const ServicePurchaseHelpLoading24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -589,6 +631,7 @@ export const ServicePurchaseHelpNoCarRent24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -606,6 +649,7 @@ export const ServicePurchaseHelpRequest24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -623,6 +667,7 @@ export const ServicePurchaseHelpTruck24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -640,6 +685,7 @@ export const UniverseEssentialProduct24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -654,6 +700,7 @@ export const UniverseEssentialProduct24 = ({
 
 export const BookStore24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -668,6 +715,7 @@ export const BookStore24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Camera24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -683,6 +731,7 @@ export const Camera24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DownloadApp24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -697,6 +746,7 @@ export const DownloadApp24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DownloadWeb24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -711,6 +761,7 @@ export const DownloadWeb24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const FullScreen24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -724,6 +775,7 @@ export const FullScreen24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const NoPicture24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -739,6 +791,7 @@ export const NoPicture24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Pdf24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -753,6 +806,7 @@ export const Pdf24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Play24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -766,6 +820,7 @@ export const Play24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Player24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -780,6 +835,7 @@ export const Player24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Print24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -794,6 +850,7 @@ export const Print24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Project24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -808,6 +865,7 @@ export const Project24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Read24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -822,6 +880,7 @@ export const Read24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ReduceScreen24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -835,6 +894,7 @@ export const ReduceScreen24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Slideshow24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -849,6 +909,7 @@ export const Slideshow24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Sound24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -863,6 +924,7 @@ export const Sound24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Stop24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -876,6 +938,7 @@ export const Stop24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const TimeRead24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -890,6 +953,7 @@ export const TimeRead24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Upload24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -904,6 +968,7 @@ export const Upload24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const View36024 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -918,6 +983,7 @@ export const View36024 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ArrowArrowBottom24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -931,6 +997,7 @@ export const ArrowArrowBottom24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ArrowArrowLeft24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -944,6 +1011,7 @@ export const ArrowArrowLeft24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ArrowArrowRight24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -957,6 +1025,7 @@ export const ArrowArrowRight24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ArrowArrowTop24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -970,6 +1039,7 @@ export const ArrowArrowTop24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ArrowBack24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -984,6 +1054,7 @@ export const ArrowBack24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ArrowNext24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -998,6 +1069,7 @@ export const ArrowNext24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Bell24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1011,6 +1083,7 @@ export const Bell24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ControlCircleCross24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1025,6 +1098,7 @@ export const ControlCircleCross24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ControlCircleLess24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1039,6 +1113,7 @@ export const ControlCircleLess24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ControlCircleMore24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1053,6 +1128,7 @@ export const ControlCircleMore24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ControlCross24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1066,6 +1142,7 @@ export const ControlCross24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ControlLess24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1079,6 +1156,7 @@ export const ControlLess24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ControlMore24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1092,6 +1170,7 @@ export const ControlMore24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ControlTagCross24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1105,6 +1184,7 @@ export const ControlTagCross24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayBlink24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1119,6 +1199,7 @@ export const DisplayBlink24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayCalendar24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1132,6 +1213,7 @@ export const DisplayCalendar24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayConnect24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1150,6 +1232,7 @@ export const DisplayDisplayFullFilled24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1167,6 +1250,7 @@ export const DisplayDisplayFullOutline24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1184,6 +1268,7 @@ export const DisplayDisplayListFilled24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1203,6 +1288,7 @@ export const DisplayDisplayListOutline24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1220,6 +1306,7 @@ export const DisplayDisplayMobileHorizontal24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1237,6 +1324,7 @@ export const DisplayDisplayMobileVertical24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1254,6 +1342,7 @@ export const DisplayDisplayProductX4Filled24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1274,6 +1363,7 @@ export const DisplayDisplayProductX4Outline24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1291,6 +1381,7 @@ export const DisplayDisplayProductX924 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1312,6 +1403,7 @@ export const DisplayDisplayProductX924 = ({
 
 export const DisplayExternalLink24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1326,6 +1418,7 @@ export const DisplayExternalLink24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayFilter24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1339,6 +1432,7 @@ export const DisplayFilter24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayHome24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1352,6 +1446,7 @@ export const DisplayHome24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayMenu24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1365,6 +1460,7 @@ export const DisplayMenu24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayMovingBlock24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1386,6 +1482,7 @@ export const DisplayMovingBlock24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayOther24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1401,6 +1498,7 @@ export const DisplayOther24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayProductNumb24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1419,6 +1517,7 @@ export const DisplayProductNumb24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayRefresh24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1432,6 +1531,7 @@ export const DisplayRefresh24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayScreenRotation24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1445,6 +1545,7 @@ export const DisplayScreenRotation24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplaySearch24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1458,6 +1559,7 @@ export const DisplaySearch24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplaySearchProduct24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1472,6 +1574,7 @@ export const DisplaySearchProduct24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplaySetting24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1486,6 +1589,7 @@ export const DisplaySetting24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayView24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1500,6 +1604,7 @@ export const DisplayView24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DisplayVocalSearch24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1514,6 +1619,7 @@ export const DisplayVocalSearch24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const NotificationAvailable24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1531,6 +1637,7 @@ export const NotificationCircleAvailable24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1549,6 +1656,7 @@ export const NotificationInformation24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1564,6 +1672,7 @@ export const NotificationInformation24 = ({
 
 export const NotificationQuestion24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1579,6 +1688,7 @@ export const NotificationQuestion24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const NotificationWarning24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1594,6 +1704,7 @@ export const NotificationWarning24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PublishCopy24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1608,6 +1719,7 @@ export const PublishCopy24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PublishEdit24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1622,6 +1734,7 @@ export const PublishEdit24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PublishFavorite24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1635,6 +1748,7 @@ export const PublishFavorite24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PublishFavoriteFull24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1648,6 +1762,7 @@ export const PublishFavoriteFull24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PublishSend24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1661,6 +1776,7 @@ export const PublishSend24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PublishTrashbin24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1675,6 +1791,7 @@ export const PublishTrashbin24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Bill24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1694,6 +1811,7 @@ export const CardsMonochromeAmericanExpress24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1710,6 +1828,7 @@ export const CardsMonochromeAmericanExpress24 = ({
 
 export const CardsMonochromeCB24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1724,6 +1843,7 @@ export const CardsMonochromeCB24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardsMonochromeCheque24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1738,6 +1858,7 @@ export const CardsMonochromeCheque24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardsMonochromeGift24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1756,6 +1877,7 @@ export const CardsMonochromeIllicado24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1776,6 +1898,7 @@ export const CardsMonochromeLoyalty24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1794,6 +1917,7 @@ export const CardsMonochromeMastercard24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1808,6 +1932,7 @@ export const CardsMonochromeMastercard24 = ({
 
 export const CardsMonochromeOney24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1822,6 +1947,7 @@ export const CardsMonochromeOney24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardsMonochromeOneyX324 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1835,6 +1961,7 @@ export const CardsMonochromeOneyX324 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardsMonochromePaylib24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1850,6 +1977,7 @@ export const CardsMonochromePaylib24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardsMonochromePaypal24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1865,6 +1993,7 @@ export const CardsMonochromePaypal24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardsMonochromeVisa24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1880,6 +2009,7 @@ export const CardsMonochromeVisa24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DetailsOrder24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1894,6 +2024,7 @@ export const DetailsOrder24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Euro24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1907,6 +2038,7 @@ export const Euro24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Receipt24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1921,6 +2053,7 @@ export const Receipt24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const SafePayment124 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1936,6 +2069,7 @@ export const SafePayment124 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const SafePayment224 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1950,6 +2084,7 @@ export const SafePayment224 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const AspectQuantity24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1965,6 +2100,7 @@ export const AspectQuantity24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const AspectSize24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1978,6 +2114,7 @@ export const AspectSize24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const AspectWeight24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -1991,6 +2128,7 @@ export const AspectWeight24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const BasketAdd24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2007,6 +2145,7 @@ export const BasketAdd24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const BasketHandbag24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2020,6 +2159,7 @@ export const BasketHandbag24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const BasketMulti24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2033,6 +2173,7 @@ export const BasketMulti24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const BasketSave24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2048,6 +2189,7 @@ export const BasketSave24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const BasketStandard24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2063,6 +2205,7 @@ export const BasketStandard24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ListAdd24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2078,6 +2221,7 @@ export const ListAdd24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ListStandard24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2092,6 +2236,7 @@ export const ListStandard24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseCertification24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2106,6 +2251,7 @@ export const PromiseCertification24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseDestocking24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2120,6 +2266,7 @@ export const PromiseDestocking24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseEcoProduct24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2133,6 +2280,7 @@ export const PromiseEcoProduct24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseFashionChoice24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2147,6 +2295,7 @@ export const PromiseFashionChoice24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseMadeInEurope24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2160,6 +2309,7 @@ export const PromiseMadeInEurope24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseMadeInFrance24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2173,6 +2323,7 @@ export const PromiseMadeInFrance24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseModular24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2190,6 +2341,7 @@ export const PromiseProductOnPicture24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2204,6 +2356,7 @@ export const PromiseProductOnPicture24 = ({
 
 export const PromiseProductSheet24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2218,6 +2371,7 @@ export const PromiseProductSheet24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseScan24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2231,6 +2385,7 @@ export const PromiseScan24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PromiseWarranty24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2245,6 +2400,7 @@ export const PromiseWarranty24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const DescribeProject24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2258,6 +2414,7 @@ export const DescribeProject24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Inspiration24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2272,6 +2429,7 @@ export const Inspiration24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const MakeProject24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2289,6 +2447,7 @@ export const AfterSalesAfterSalesService24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2302,6 +2461,7 @@ export const AfterSalesAfterSalesService24 = ({
 
 export const AfterSalesHelpline24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2315,6 +2475,7 @@ export const AfterSalesHelpline24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const AfterSalesPayback24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2332,6 +2493,7 @@ export const AfterSalesSatisfaction24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2346,6 +2508,7 @@ export const AfterSalesSatisfaction24 = ({
 
 export const CustomCopyKey24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2360,6 +2523,7 @@ export const CustomCopyKey24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CustomCourse24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2374,6 +2538,7 @@ export const CustomCourse24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CustomCutWoodGlass24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2388,6 +2553,7 @@ export const CustomCutWoodGlass24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CustomFunding24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2401,6 +2567,7 @@ export const CustomFunding24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CustomSample24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2414,6 +2581,7 @@ export const CustomSample24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CustomSharpening24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2433,6 +2601,7 @@ export const DeliveryDeliveryPickupRelayPoint24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2450,6 +2619,7 @@ export const DeliveryDeliveryPickupStore24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2464,6 +2634,7 @@ export const DeliveryDeliveryPickupStore24 = ({
 
 export const DeliveryDeliveryHome24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2478,6 +2649,7 @@ export const DeliveryDeliveryHome24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PurchaseHelpCarRent24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2491,6 +2663,7 @@ export const PurchaseHelpCarRent24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PurchaseHelpHomeDIY24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2508,6 +2681,7 @@ export const PurchaseHelpHomeInstall24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2521,6 +2695,7 @@ export const PurchaseHelpHomeInstall24 = ({
 
 export const PurchaseHelpToolRent24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2534,6 +2709,7 @@ export const PurchaseHelpToolRent24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const TimeDelivery2h24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2548,6 +2724,7 @@ export const TimeDelivery2h24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const TimeDelivery3h24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2562,6 +2739,7 @@ export const TimeDelivery3h24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const TimeDelivery48h24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2576,6 +2754,7 @@ export const TimeDelivery48h24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const TimeTimeDecline24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2590,6 +2769,7 @@ export const TimeTimeDecline24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Tools3d24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2603,6 +2783,7 @@ export const Tools3d24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ToolsCalculator24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2619,6 +2800,7 @@ export const ToolsCalculator24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ToolsComparator24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2632,6 +2814,7 @@ export const ToolsComparator24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CommentComment24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2645,6 +2828,7 @@ export const CommentComment24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CommentCommunity24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2662,6 +2846,7 @@ export const CommentQuestionArticle24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2676,6 +2861,7 @@ export const CommentQuestionArticle24 = ({
 
 export const CommentReport24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2689,6 +2875,7 @@ export const CommentReport24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ShareShareAndroid24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2702,6 +2889,7 @@ export const ShareShareAndroid24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ShareShareIOS24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2716,6 +2904,7 @@ export const ShareShareIOS24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const SocialNetworkFacebook24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2733,6 +2922,7 @@ export const SocialNetworkInstagram24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2748,6 +2938,7 @@ export const SocialNetworkInstagram24 = ({
 
 export const SocialNetworkLinkedin24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2765,6 +2956,7 @@ export const SocialNetworkPinterest24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2778,6 +2970,7 @@ export const SocialNetworkPinterest24 = ({
 
 export const SocialNetworkTwitter24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2791,6 +2984,7 @@ export const SocialNetworkTwitter24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const SocialNetworkYoutube24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2805,6 +2999,7 @@ export const SocialNetworkYoutube24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ViewLikeNegative24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2818,6 +3013,7 @@ export const ViewLikeNegative24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ViewLikePositive24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2831,6 +3027,7 @@ export const ViewLikePositive24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ViewStarFirst24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2844,6 +3041,7 @@ export const ViewStarFirst24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ViewStarFull24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2857,6 +3055,7 @@ export const ViewStarFull24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ViewStarHalf24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2870,6 +3069,7 @@ export const ViewStarHalf24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ViewTesterView24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2884,6 +3084,7 @@ export const ViewTesterView24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Itinerary24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2897,6 +3098,7 @@ export const Itinerary24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Locator24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2910,6 +3112,7 @@ export const Locator24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Logo24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2923,6 +3126,7 @@ export const Logo24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Map24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2940,6 +3144,7 @@ export const MonochromeRelayLocation24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2958,6 +3163,7 @@ export const MonochromeStoreLocation24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2972,6 +3178,7 @@ export const MonochromeStoreLocation24 = ({
 
 export const StoreLM24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -2986,6 +3193,7 @@ export const StoreLM24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Attic24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3002,6 +3210,7 @@ export const Attic24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Bathroom24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3015,6 +3224,7 @@ export const Bathroom24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Bedroom24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3028,6 +3238,7 @@ export const Bedroom24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Carpentry24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3041,6 +3252,7 @@ export const Carpentry24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ConnectedHome24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3058,6 +3270,7 @@ export const ConnectedHome24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Dressing24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3072,6 +3285,7 @@ export const Dressing24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Electricity24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3088,6 +3302,7 @@ export const Electricity24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Enki24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3101,6 +3316,7 @@ export const Enki24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Floor24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3115,6 +3331,7 @@ export const Floor24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Garage24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3129,6 +3346,7 @@ export const Garage24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Garden124 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3142,6 +3360,7 @@ export const Garden124 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Garden224 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3155,6 +3374,7 @@ export const Garden224 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const HardwareStore24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3168,6 +3388,7 @@ export const HardwareStore24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Heater24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3181,6 +3402,7 @@ export const Heater24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Kids24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3195,6 +3417,7 @@ export const Kids24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Kitchen24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3209,6 +3432,7 @@ export const Kitchen24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Kitchen224 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3223,6 +3447,7 @@ export const Kitchen224 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Lighting24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3236,6 +3461,7 @@ export const Lighting24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Living24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3249,6 +3475,7 @@ export const Living24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const MakeIt24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3262,6 +3489,7 @@ export const MakeIt24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Paint24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3275,6 +3503,7 @@ export const Paint24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Security24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3291,6 +3520,7 @@ export const Security24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Terrace24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3304,6 +3534,7 @@ export const Terrace24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Tool24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3322,6 +3553,7 @@ export const AccountCustomerCollaborator24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3340,6 +3572,7 @@ export const AccountCustomerPassion24 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3353,6 +3586,7 @@ export const AccountCustomerPassion24 = ({
 
 export const AccountCustomerPro24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3366,6 +3600,7 @@ export const AccountCustomerPro24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const AccountProfileView24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3379,6 +3614,7 @@ export const AccountProfileView24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardFunding24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3393,6 +3629,7 @@ export const CardFunding24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardGift24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3406,6 +3643,7 @@ export const CardGift24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardIDCard24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3420,6 +3658,7 @@ export const CardIDCard24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const CardLoyaltyCard24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3435,6 +3674,7 @@ export const CardLoyaltyCard24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ContactMail24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3449,6 +3689,7 @@ export const ContactMail24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ContactPhone24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3462,6 +3703,7 @@ export const ContactPhone24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ContactWebsite24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3475,6 +3717,7 @@ export const ContactWebsite24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const SituationOwner24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3488,6 +3731,7 @@ export const SituationOwner24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const SituationTenant24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3502,6 +3746,7 @@ export const SituationTenant24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Administration24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3516,6 +3761,7 @@ export const Administration24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Apartment24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3530,6 +3776,7 @@ export const Apartment24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Balcony24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3543,6 +3790,7 @@ export const Balcony24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Blower24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3557,6 +3805,7 @@ export const Blower24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Door24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3571,6 +3820,7 @@ export const Door24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const EcoSaving24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3585,6 +3835,7 @@ export const EcoSaving24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Heat24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3598,6 +3849,7 @@ export const Heat24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const House24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3611,6 +3863,7 @@ export const House24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const IncreaseValue24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3625,6 +3878,7 @@ export const IncreaseValue24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Insulation24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3639,6 +3893,7 @@ export const Insulation24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const LessonDIY24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3653,6 +3908,7 @@ export const LessonDIY24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Level24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3666,6 +3922,7 @@ export const Level24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PaintCan24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3679,6 +3936,7 @@ export const PaintCan24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PartnerCompany24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3692,6 +3950,7 @@ export const PartnerCompany24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const PartnerWorker24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3705,6 +3964,7 @@ export const PartnerWorker24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Pipe24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3718,6 +3978,7 @@ export const Pipe24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Premium24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3731,6 +3992,7 @@ export const Premium24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Shutter24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3744,6 +4006,7 @@ export const Shutter24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Survey24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3758,6 +4021,7 @@ export const Survey24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Temperature24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3772,6 +4036,7 @@ export const Temperature24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ThermalControl24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3787,6 +4052,7 @@ export const ThermalControl24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const ToolBox24 = ({ fill, size = '1.5rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3800,6 +4066,7 @@ export const ToolBox24 = ({ fill, size = '1.5rem', ...rest }) => (
 
 export const Desktop32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3813,6 +4080,7 @@ export const Desktop32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Laptop32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3826,6 +4094,7 @@ export const Laptop32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Mobile32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3840,6 +4109,7 @@ export const Mobile32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Tablet32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3854,6 +4124,7 @@ export const Tablet32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HygieneCleaned32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3867,6 +4138,7 @@ export const HygieneCleaned32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HygieneDanger32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3881,6 +4153,7 @@ export const HygieneDanger32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HygieneDistance32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3894,6 +4167,7 @@ export const HygieneDistance32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HygieneGel32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3907,6 +4181,7 @@ export const HygieneGel32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HygieneMask32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3922,6 +4197,7 @@ export const HygieneMask32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HygieneNoContact32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3935,6 +4211,7 @@ export const HygieneNoContact32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HygienePlexiglas32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3949,6 +4226,7 @@ export const HygienePlexiglas32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PaymentCheckout32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3963,6 +4241,7 @@ export const PaymentCheckout32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PaymentNoContact32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -3984,6 +4263,7 @@ export const ServicePurchaseHelpCarOpenBoot32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4001,6 +4281,7 @@ export const ServicePurchaseHelpCarStandInLine32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4018,6 +4299,7 @@ export const ServicePurchaseHelpCarStayInside32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4036,6 +4318,7 @@ export const ServicePurchaseHelpLoading32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4055,6 +4338,7 @@ export const ServicePurchaseHelpNoCarRent32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4072,6 +4356,7 @@ export const ServicePurchaseHelpRequest32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4090,6 +4375,7 @@ export const ServicePurchaseHelpTruck32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4107,6 +4393,7 @@ export const UniverseEssentialProduct32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4121,6 +4408,7 @@ export const UniverseEssentialProduct32 = ({
 
 export const BookStore32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4135,6 +4423,7 @@ export const BookStore32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Camera32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4150,6 +4439,7 @@ export const Camera32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DownloadApp32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4164,6 +4454,7 @@ export const DownloadApp32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DownloadWeb32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4178,6 +4469,7 @@ export const DownloadWeb32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const FullScreen32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4192,6 +4484,7 @@ export const FullScreen32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const NoPicture32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4207,6 +4500,7 @@ export const NoPicture32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Pdf32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4221,6 +4515,7 @@ export const Pdf32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Play32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4234,6 +4529,7 @@ export const Play32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Player32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4248,6 +4544,7 @@ export const Player32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Print32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4262,6 +4559,7 @@ export const Print32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Project32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4276,6 +4574,7 @@ export const Project32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Read32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4290,6 +4589,7 @@ export const Read32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ReduceScreen32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4303,6 +4603,7 @@ export const ReduceScreen32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Slideshow32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4317,6 +4618,7 @@ export const Slideshow32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Sound32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4331,6 +4633,7 @@ export const Sound32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Stop32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4344,6 +4647,7 @@ export const Stop32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const TimeRead32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4358,6 +4662,7 @@ export const TimeRead32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Upload32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4372,6 +4677,7 @@ export const Upload32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const View36032 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4385,6 +4691,7 @@ export const View36032 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ArrowArrowBottom32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4398,6 +4705,7 @@ export const ArrowArrowBottom32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ArrowArrowLeft32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4411,6 +4719,7 @@ export const ArrowArrowLeft32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ArrowArrowRight32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4424,6 +4733,7 @@ export const ArrowArrowRight32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ArrowArrowTop32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4437,6 +4747,7 @@ export const ArrowArrowTop32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ArrowBack32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4450,6 +4761,7 @@ export const ArrowBack32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ArrowNext32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4463,6 +4775,7 @@ export const ArrowNext32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ControlCircleCross32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4477,6 +4790,7 @@ export const ControlCircleCross32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ControlCircleLess32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4491,6 +4805,7 @@ export const ControlCircleLess32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ControlCircleMore32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4505,6 +4820,7 @@ export const ControlCircleMore32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ControlCross32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4518,6 +4834,7 @@ export const ControlCross32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ControlLess32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4531,6 +4848,7 @@ export const ControlLess32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ControlMore32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4544,6 +4862,7 @@ export const ControlMore32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ControlTagCross32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4557,6 +4876,7 @@ export const ControlTagCross32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayBlink32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4571,6 +4891,7 @@ export const DisplayBlink32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayCalendar32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4584,6 +4905,7 @@ export const DisplayCalendar32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayConnect32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4602,6 +4924,7 @@ export const DisplayDisplayFullFilled32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4619,6 +4942,7 @@ export const DisplayDisplayFullOutline32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4636,6 +4960,7 @@ export const DisplayDisplayListFilled32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4655,6 +4980,7 @@ export const DisplayDisplayListOutline32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4672,6 +4998,7 @@ export const DisplayDisplayMobileHorizontal32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4689,6 +5016,7 @@ export const DisplayDisplayMobileVertical32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4706,6 +5034,7 @@ export const DisplayDisplayProductX4Filled32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4726,6 +5055,7 @@ export const DisplayDisplayProductX4Outline32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4739,6 +5069,7 @@ export const DisplayDisplayProductX4Outline32 = ({
 
 export const DisplayDisplayProductX932 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4752,6 +5083,7 @@ export const DisplayDisplayProductX932 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayExternalLink32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4766,6 +5098,7 @@ export const DisplayExternalLink32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayFilter32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4779,6 +5112,7 @@ export const DisplayFilter32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayHome32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4793,6 +5127,7 @@ export const DisplayHome32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayMenu32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4806,6 +5141,7 @@ export const DisplayMenu32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayMovingBlock32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4827,6 +5163,7 @@ export const DisplayMovingBlock32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayOther32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4842,6 +5179,7 @@ export const DisplayOther32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayProductNumb32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4858,6 +5196,7 @@ export const DisplayProductNumb32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayRefresh32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4871,6 +5210,7 @@ export const DisplayRefresh32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayScreenRotation32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4885,6 +5225,7 @@ export const DisplayScreenRotation32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplaySearch32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4898,6 +5239,7 @@ export const DisplaySearch32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplaySearchProduct32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4912,6 +5254,7 @@ export const DisplaySearchProduct32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplaySetting32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4926,6 +5269,7 @@ export const DisplaySetting32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayView32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4940,6 +5284,7 @@ export const DisplayView32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DisplayVocalSearch32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4954,6 +5299,7 @@ export const DisplayVocalSearch32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const NotificationAvailable32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4967,6 +5313,7 @@ export const NotificationAvailable32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const NotificationBell32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4984,6 +5331,7 @@ export const NotificationCircleAvailable32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -4998,6 +5346,7 @@ export const NotificationCircleAvailable32 = ({
 
 export const NotificationInformation32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5013,6 +5362,7 @@ export const NotificationInformation32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const NotificationQuestion32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5028,6 +5378,7 @@ export const NotificationQuestion32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const NotificationWarning32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5043,6 +5394,7 @@ export const NotificationWarning32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PublishCopy32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5057,6 +5409,7 @@ export const PublishCopy32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PublishEdit32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5071,6 +5424,7 @@ export const PublishEdit32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PublishFavorite32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5084,6 +5438,7 @@ export const PublishFavorite32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PublishFavoriteFull32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5097,6 +5452,7 @@ export const PublishFavoriteFull32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PublishSend32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5110,6 +5466,7 @@ export const PublishSend32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PublishTrashbin32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5124,6 +5481,7 @@ export const PublishTrashbin32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Bill32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5145,6 +5503,7 @@ export const CardsMonochromeAmericanExpress32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5161,6 +5520,7 @@ export const CardsMonochromeAmericanExpress32 = ({
 
 export const CardsMonochromeCB32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5175,6 +5535,7 @@ export const CardsMonochromeCB32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromeCheque32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5189,6 +5550,7 @@ export const CardsMonochromeCheque32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromeGift32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5203,6 +5565,7 @@ export const CardsMonochromeGift32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromeIllicado32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5219,6 +5582,7 @@ export const CardsMonochromeIllicado32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromeLoyalty32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5237,6 +5601,7 @@ export const CardsMonochromeMastercard32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5252,6 +5617,7 @@ export const CardsMonochromeMastercard32 = ({
 
 export const CardsMonochromeOney32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5266,6 +5632,7 @@ export const CardsMonochromeOney32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromeOneyX332 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5279,6 +5646,7 @@ export const CardsMonochromeOneyX332 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromePaylib32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5294,6 +5662,7 @@ export const CardsMonochromePaylib32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromePaypal32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5309,6 +5678,7 @@ export const CardsMonochromePaypal32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardsMonochromeVisa32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5324,6 +5694,7 @@ export const CardsMonochromeVisa32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DetailsOrder32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5338,6 +5709,7 @@ export const DetailsOrder32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Euro32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5351,6 +5723,7 @@ export const Euro32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Receipt32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5365,6 +5738,7 @@ export const Receipt32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SafePayment132 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5380,6 +5754,7 @@ export const SafePayment132 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SafePayment232 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5394,6 +5769,7 @@ export const SafePayment232 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AspectQuantity32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5407,6 +5783,7 @@ export const AspectQuantity32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AspectSize32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5420,6 +5797,7 @@ export const AspectSize32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AspectWeight32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5433,6 +5811,7 @@ export const AspectWeight32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const BasketAdd32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5447,6 +5826,7 @@ export const BasketAdd32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const BasketHandbag32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5460,6 +5840,7 @@ export const BasketHandbag32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const BasketMulti32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5473,6 +5854,7 @@ export const BasketMulti32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const BasketSave32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5486,6 +5868,7 @@ export const BasketSave32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const BasketStandard32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5499,6 +5882,7 @@ export const BasketStandard32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ListAdd32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5514,6 +5898,7 @@ export const ListAdd32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ListStandard32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5528,6 +5913,7 @@ export const ListStandard32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseCertification32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5542,6 +5928,7 @@ export const PromiseCertification32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseDestocking32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5556,6 +5943,7 @@ export const PromiseDestocking32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseEcoProduct32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5569,6 +5957,7 @@ export const PromiseEcoProduct32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseFashionChoice32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5583,6 +5972,7 @@ export const PromiseFashionChoice32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseMadeInEurope32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5596,6 +5986,7 @@ export const PromiseMadeInEurope32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseMadeInFrance32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5609,6 +6000,7 @@ export const PromiseMadeInFrance32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseModular32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5622,6 +6014,7 @@ export const PromiseModular32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseProductOnPicture32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5636,6 +6029,7 @@ export const PromiseProductOnPicture32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseProductSheet32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5650,6 +6044,7 @@ export const PromiseProductSheet32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseScan32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5663,6 +6058,7 @@ export const PromiseScan32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PromiseWarranty32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5677,6 +6073,7 @@ export const PromiseWarranty32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const DescribeProject32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5690,6 +6087,7 @@ export const DescribeProject32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Inspiration32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5704,6 +6102,7 @@ export const Inspiration32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const MakeProject32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5721,6 +6120,7 @@ export const AfterSalesAfterSalesService32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5735,6 +6135,7 @@ export const AfterSalesAfterSalesService32 = ({
 
 export const AfterSalesHelpline32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5748,6 +6149,7 @@ export const AfterSalesHelpline32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AfterSalesPayback32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5761,6 +6163,7 @@ export const AfterSalesPayback32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AfterSalesSatisfaction32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5775,6 +6178,7 @@ export const AfterSalesSatisfaction32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CustomCopyKey32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5789,6 +6193,7 @@ export const CustomCopyKey32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CustomCourse32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5803,6 +6208,7 @@ export const CustomCourse32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CustomCutWoodGlass32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5817,6 +6223,7 @@ export const CustomCutWoodGlass32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CustomFunding32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5830,6 +6237,7 @@ export const CustomFunding32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CustomSample32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5843,6 +6251,7 @@ export const CustomSample32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CustomSharpening32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5861,6 +6270,7 @@ export const DeliveryDeliveryPickupRelayPoint32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5878,6 +6288,7 @@ export const DeliveryDeliveryPickupStore32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5892,6 +6303,7 @@ export const DeliveryDeliveryPickupStore32 = ({
 
 export const DeliveryDeliveryHome32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5906,6 +6318,7 @@ export const DeliveryDeliveryHome32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PurchaseHelpCarRent32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5919,6 +6332,7 @@ export const PurchaseHelpCarRent32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PurchaseHelpHomeDIY32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5932,6 +6346,7 @@ export const PurchaseHelpHomeDIY32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PurchaseHelpHomeInstall32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5945,6 +6360,7 @@ export const PurchaseHelpHomeInstall32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PurchaseHelpToolRent32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5958,6 +6374,7 @@ export const PurchaseHelpToolRent32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const TimeDelivery2h32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5972,6 +6389,7 @@ export const TimeDelivery2h32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const TimeDelivery3h32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -5986,6 +6404,7 @@ export const TimeDelivery3h32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const TimeDelivery48h32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6000,6 +6419,7 @@ export const TimeDelivery48h32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const TimeTimeDecline32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6014,6 +6434,7 @@ export const TimeTimeDecline32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Tools3d32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6027,6 +6448,7 @@ export const Tools3d32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ToolsCalculator32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6041,6 +6463,7 @@ export const ToolsCalculator32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ToolsComparator32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6054,6 +6477,7 @@ export const ToolsComparator32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CommentComment32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6067,6 +6491,7 @@ export const CommentComment32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CommentCommunity32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6080,6 +6505,7 @@ export const CommentCommunity32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CommentQuestionArticle32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6094,6 +6520,7 @@ export const CommentQuestionArticle32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CommentReport32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6107,6 +6534,7 @@ export const CommentReport32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ShareShareAndroid32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6120,6 +6548,7 @@ export const ShareShareAndroid32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ShareShareIOS32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6134,6 +6563,7 @@ export const ShareShareIOS32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SocialNetworkFacebook32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6147,6 +6577,7 @@ export const SocialNetworkFacebook32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SocialNetworkInstagram32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6162,6 +6593,7 @@ export const SocialNetworkInstagram32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SocialNetworkLinkedin32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6175,6 +6607,7 @@ export const SocialNetworkLinkedin32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SocialNetworkPinterest32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6188,6 +6621,7 @@ export const SocialNetworkPinterest32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SocialNetworkTwitter32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6201,6 +6635,7 @@ export const SocialNetworkTwitter32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SocialNetworkYoutube32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6215,6 +6650,7 @@ export const SocialNetworkYoutube32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ViewLikeNegative32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6228,6 +6664,7 @@ export const ViewLikeNegative32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ViewLikePositive32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6241,6 +6678,7 @@ export const ViewLikePositive32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ViewStarFirst32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6254,6 +6692,7 @@ export const ViewStarFirst32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ViewStarFull32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6267,6 +6706,7 @@ export const ViewStarFull32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ViewStarHalf32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6280,6 +6720,7 @@ export const ViewStarHalf32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ViewTesterView32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6294,6 +6735,7 @@ export const ViewTesterView32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Itinerary32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6307,6 +6749,7 @@ export const Itinerary32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Locator32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6320,6 +6763,7 @@ export const Locator32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Logo32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6333,6 +6777,7 @@ export const Logo32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Map32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6346,6 +6791,7 @@ export const Map32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const MonochromeRelayLocation32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6360,6 +6806,7 @@ export const MonochromeRelayLocation32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const MonochromeStoreLocation32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6374,6 +6821,7 @@ export const MonochromeStoreLocation32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const StoreLM32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6388,6 +6836,7 @@ export const StoreLM32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Attic32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6404,6 +6853,7 @@ export const Attic32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Bathroom32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6417,6 +6867,7 @@ export const Bathroom32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Bedroom32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6430,6 +6881,7 @@ export const Bedroom32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Carpentry32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6443,6 +6895,7 @@ export const Carpentry32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ConnectedHome32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6460,6 +6913,7 @@ export const ConnectedHome32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Dressing32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6474,6 +6928,7 @@ export const Dressing32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Electricity32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6490,6 +6945,7 @@ export const Electricity32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Enki32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6503,6 +6959,7 @@ export const Enki32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Floor32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6517,6 +6974,7 @@ export const Floor32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Garage32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6531,6 +6989,7 @@ export const Garage32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Garden132 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6545,6 +7004,7 @@ export const Garden132 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Garden232 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6558,6 +7018,7 @@ export const Garden232 = ({ fill, size = '2rem', ...rest }) => (
 
 export const HardwareStore32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6571,6 +7032,7 @@ export const HardwareStore32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Heater32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6584,6 +7046,7 @@ export const Heater32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Kids32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6598,6 +7061,7 @@ export const Kids32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Kitchen32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6612,6 +7076,7 @@ export const Kitchen32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Kitchen232 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6631,6 +7096,7 @@ export const Kitchen232 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Lighting32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6644,6 +7110,7 @@ export const Lighting32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Living32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6657,6 +7124,7 @@ export const Living32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const MakeIt32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6670,6 +7138,7 @@ export const MakeIt32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Paint32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6683,6 +7152,7 @@ export const Paint32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Security32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6697,6 +7167,7 @@ export const Security32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Terrace32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6710,6 +7181,7 @@ export const Terrace32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Tool32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6728,6 +7200,7 @@ export const AccountCustomerCollaborator32 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6742,6 +7215,7 @@ export const AccountCustomerCollaborator32 = ({
 
 export const AccountCustomerPassion32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6755,6 +7229,7 @@ export const AccountCustomerPassion32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AccountCustomerPro32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6768,6 +7243,7 @@ export const AccountCustomerPro32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AccountProfileMan32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6782,6 +7258,7 @@ export const AccountProfileMan32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AccountProfileView32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6795,6 +7272,7 @@ export const AccountProfileView32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const AccountProfileWoman32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6808,6 +7286,7 @@ export const AccountProfileWoman32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardFunding32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6822,6 +7301,7 @@ export const CardFunding32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardGift32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6835,6 +7315,7 @@ export const CardGift32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardIDCard32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6849,6 +7330,7 @@ export const CardIDCard32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const CardLoyaltyCard32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6864,6 +7346,7 @@ export const CardLoyaltyCard32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ContactMail32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6878,6 +7361,7 @@ export const ContactMail32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ContactPhone32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6891,6 +7375,7 @@ export const ContactPhone32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ContactWebsite32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6904,6 +7389,7 @@ export const ContactWebsite32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SituationOwner32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6918,6 +7404,7 @@ export const SituationOwner32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const SituationTenant32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6933,6 +7420,7 @@ export const SituationTenant32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Administration32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6947,6 +7435,7 @@ export const Administration32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Apartment32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6959,8 +7448,9 @@ export const Apartment32 = ({ fill, size = '2rem', ...rest }) => (
   </svg>
 )
 
-export const Balcony32 = ({ fill, size = '2rem', ...rest }) => (
+export const Balcon32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6975,6 +7465,7 @@ export const Balcony32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Blower32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -6990,6 +7481,7 @@ export const Blower32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Door32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7004,6 +7496,7 @@ export const Door32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const EcoSaving32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7018,6 +7511,7 @@ export const EcoSaving32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Heat32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7031,6 +7525,7 @@ export const Heat32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const House32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7045,6 +7540,7 @@ export const House32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const IncreaseValue32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7059,6 +7555,7 @@ export const IncreaseValue32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Insulation32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7072,6 +7569,7 @@ export const Insulation32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const LessonDIY32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7086,6 +7584,7 @@ export const LessonDIY32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Level32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7099,6 +7598,7 @@ export const Level32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PaintCan32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7112,6 +7612,7 @@ export const PaintCan32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PartnerCompany32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7125,6 +7626,7 @@ export const PartnerCompany32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const PartnerWorker32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7138,6 +7640,7 @@ export const PartnerWorker32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Pipe32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7151,6 +7654,7 @@ export const Pipe32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Premium32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7164,6 +7668,7 @@ export const Premium32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Shutter32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7177,6 +7682,7 @@ export const Shutter32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Survey32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7193,6 +7699,7 @@ export const Survey32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Temperature32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7207,6 +7714,7 @@ export const Temperature32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ThermalControl32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7222,6 +7730,7 @@ export const ThermalControl32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const ToolBox32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7235,6 +7744,7 @@ export const ToolBox32 = ({ fill, size = '2rem', ...rest }) => (
 
 export const Desktop48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7248,6 +7758,7 @@ export const Desktop48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Laptop48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7261,6 +7772,7 @@ export const Laptop48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Mobile48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7275,6 +7787,7 @@ export const Mobile48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Tablet48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7289,6 +7802,7 @@ export const Tablet48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HygieneCleaned48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7302,6 +7816,7 @@ export const HygieneCleaned48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HygieneDanger48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7316,6 +7831,7 @@ export const HygieneDanger48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HygieneDistance48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7329,6 +7845,7 @@ export const HygieneDistance48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HygieneGel48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7343,6 +7860,7 @@ export const HygieneGel48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HygieneMask48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7359,6 +7877,7 @@ export const HygieneMask48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HygieneNoContact48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7372,6 +7891,7 @@ export const HygieneNoContact48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HygienePlexiglas48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7386,6 +7906,7 @@ export const HygienePlexiglas48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PaymentCheckout48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7400,6 +7921,7 @@ export const PaymentCheckout48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PaymentNoContact48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7421,6 +7943,7 @@ export const ServicePurchaseHelpCarOpenBoot48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7438,6 +7961,7 @@ export const ServicePurchaseHelpCarStandInLine48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7455,6 +7979,7 @@ export const ServicePurchaseHelpCarStayInside48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7473,6 +7998,7 @@ export const ServicePurchaseHelpLoading48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7492,6 +8018,7 @@ export const ServicePurchaseHelpNoCarRent48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7509,6 +8036,7 @@ export const ServicePurchaseHelpRequest48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7527,6 +8055,7 @@ export const ServicePurchaseHelpTruck48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7544,6 +8073,7 @@ export const UniverseEssentialProduct48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7558,6 +8088,7 @@ export const UniverseEssentialProduct48 = ({
 
 export const BookStore48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7572,6 +8103,7 @@ export const BookStore48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Camera48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7587,6 +8119,7 @@ export const Camera48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DownloadApp48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7601,6 +8134,7 @@ export const DownloadApp48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DownloadWeb48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7615,6 +8149,7 @@ export const DownloadWeb48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const FullScreen48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7628,6 +8163,7 @@ export const FullScreen48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const NoPicture48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7642,6 +8178,7 @@ export const NoPicture48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Pdf48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7656,6 +8193,7 @@ export const Pdf48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Play48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7669,6 +8207,7 @@ export const Play48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Player48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7683,6 +8222,7 @@ export const Player48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Print48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7698,6 +8238,7 @@ export const Print48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Project48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7712,6 +8253,7 @@ export const Project48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Read48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7726,6 +8268,7 @@ export const Read48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ReduceScreen48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7739,6 +8282,7 @@ export const ReduceScreen48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Slideshow48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7753,6 +8297,7 @@ export const Slideshow48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Sound48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7767,6 +8312,7 @@ export const Sound48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Stop48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7780,6 +8326,7 @@ export const Stop48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const TimeRead48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7794,6 +8341,7 @@ export const TimeRead48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Upload48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7808,6 +8356,7 @@ export const Upload48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const View36048 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7821,6 +8370,7 @@ export const View36048 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ArrowArrowBottom48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7834,6 +8384,7 @@ export const ArrowArrowBottom48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ArrowArrowLeft48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7847,6 +8398,7 @@ export const ArrowArrowLeft48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ArrowArrowRight48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7860,6 +8412,7 @@ export const ArrowArrowRight48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ArrowArrowTop48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7873,6 +8426,7 @@ export const ArrowArrowTop48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ArrowBack48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7886,6 +8440,7 @@ export const ArrowBack48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ArrowNext48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7899,6 +8454,7 @@ export const ArrowNext48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ControlCircleCross48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7913,6 +8469,7 @@ export const ControlCircleCross48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ControlCircleLess48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7927,6 +8484,7 @@ export const ControlCircleLess48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ControlCircleMore48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7941,6 +8499,7 @@ export const ControlCircleMore48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ControlCross48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7954,6 +8513,7 @@ export const ControlCross48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ControlLess48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7967,6 +8527,7 @@ export const ControlLess48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ControlMore48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7980,6 +8541,7 @@ export const ControlMore48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ControlTagCross48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -7993,6 +8555,7 @@ export const ControlTagCross48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayBlink48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8007,6 +8570,7 @@ export const DisplayBlink48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayCalendar48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8020,6 +8584,7 @@ export const DisplayCalendar48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayConnect48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8038,6 +8603,7 @@ export const DisplayDisplayFullFilled48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8055,6 +8621,7 @@ export const DisplayDisplayFullOutline48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8072,6 +8639,7 @@ export const DisplayDisplayListFilled48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8091,6 +8659,7 @@ export const DisplayDisplayListOutline48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8108,6 +8677,7 @@ export const DisplayDisplayMobileHorizontal48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8125,6 +8695,7 @@ export const DisplayDisplayMobileVertical48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8142,6 +8713,7 @@ export const DisplayDisplayProductX4Filled48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8162,6 +8734,7 @@ export const DisplayDisplayProductX4Outline48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8176,6 +8749,7 @@ export const DisplayDisplayProductX4Outline48 = ({
 
 export const DisplayDisplayProductX948 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8189,6 +8763,7 @@ export const DisplayDisplayProductX948 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayExternalLink48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8203,6 +8778,7 @@ export const DisplayExternalLink48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayFilter48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8216,6 +8792,7 @@ export const DisplayFilter48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayHome48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8229,6 +8806,7 @@ export const DisplayHome48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayMenu48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8242,6 +8820,7 @@ export const DisplayMenu48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayMovingBlock48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8263,6 +8842,7 @@ export const DisplayMovingBlock48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayOther48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8278,6 +8858,7 @@ export const DisplayOther48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayProductNumb48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8294,6 +8875,7 @@ export const DisplayProductNumb48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayRefresh48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8307,6 +8889,7 @@ export const DisplayRefresh48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayScreenRotation48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8321,6 +8904,7 @@ export const DisplayScreenRotation48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplaySearch48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8334,6 +8918,7 @@ export const DisplaySearch48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplaySearchProduct48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8348,6 +8933,7 @@ export const DisplaySearchProduct48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplaySetting48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8362,6 +8948,7 @@ export const DisplaySetting48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayView48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8376,6 +8963,7 @@ export const DisplayView48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DisplayVocalSearch48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8390,6 +8978,7 @@ export const DisplayVocalSearch48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const NavigationBell48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8403,6 +8992,7 @@ export const NavigationBell48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const NotificationAvailable48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8420,6 +9010,7 @@ export const NotificationCircleAvailable48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8434,6 +9025,7 @@ export const NotificationCircleAvailable48 = ({
 
 export const NotificationInformation48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8449,6 +9041,7 @@ export const NotificationInformation48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const NotificationQuestion48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8467,6 +9060,7 @@ export const NotificationQuestion48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const NotificationWarning48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8482,6 +9076,7 @@ export const NotificationWarning48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PublishCopy48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8496,6 +9091,7 @@ export const PublishCopy48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PublishEdit48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8510,6 +9106,7 @@ export const PublishEdit48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PublishFavorite48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8523,6 +9120,7 @@ export const PublishFavorite48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PublishFavoriteFull48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8536,6 +9134,7 @@ export const PublishFavoriteFull48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PublishSend48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8549,6 +9148,7 @@ export const PublishSend48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PublishTrashbin48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8563,6 +9163,7 @@ export const PublishTrashbin48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Bill48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8584,6 +9185,7 @@ export const CardsMonochromeAmericanExpress48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8600,6 +9202,7 @@ export const CardsMonochromeAmericanExpress48 = ({
 
 export const CardsMonochromeCB48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8614,6 +9217,7 @@ export const CardsMonochromeCB48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromeCheque48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8628,6 +9232,7 @@ export const CardsMonochromeCheque48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromeGift48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8642,6 +9247,7 @@ export const CardsMonochromeGift48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromeIllicado48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8658,6 +9264,7 @@ export const CardsMonochromeIllicado48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromeLoyalty48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8676,6 +9283,7 @@ export const CardsMonochromeMastercard48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8690,6 +9298,7 @@ export const CardsMonochromeMastercard48 = ({
 
 export const CardsMonochromeOney48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8704,6 +9313,7 @@ export const CardsMonochromeOney48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromeOneyX348 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8717,6 +9327,7 @@ export const CardsMonochromeOneyX348 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromePaylib48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8732,6 +9343,7 @@ export const CardsMonochromePaylib48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromePaypal48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8747,6 +9359,7 @@ export const CardsMonochromePaypal48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardsMonochromeVisa48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8762,6 +9375,7 @@ export const CardsMonochromeVisa48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DetailsOrder48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8776,6 +9390,7 @@ export const DetailsOrder48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Euro48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8789,6 +9404,7 @@ export const Euro48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Receipt48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8803,6 +9419,7 @@ export const Receipt48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SafePayment148 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8818,6 +9435,7 @@ export const SafePayment148 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SafePayment248 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8832,6 +9450,7 @@ export const SafePayment248 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AspectQuantity48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8845,6 +9464,7 @@ export const AspectQuantity48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AspectSize48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8860,6 +9480,7 @@ export const AspectSize48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AspectWeight48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8873,6 +9494,7 @@ export const AspectWeight48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const BasketAdd48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8887,6 +9509,7 @@ export const BasketAdd48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const BasketHandbag48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8900,6 +9523,7 @@ export const BasketHandbag48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const BasketMulti48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8913,6 +9537,7 @@ export const BasketMulti48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const BasketSave48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8926,6 +9551,7 @@ export const BasketSave48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const BasketStandard48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8939,6 +9565,7 @@ export const BasketStandard48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ListAdd48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8954,6 +9581,7 @@ export const ListAdd48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ListStandard48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8968,6 +9596,7 @@ export const ListStandard48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseCertification48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8982,6 +9611,7 @@ export const PromiseCertification48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseDestocking48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -8996,6 +9626,7 @@ export const PromiseDestocking48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseEcoProduct48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9009,6 +9640,7 @@ export const PromiseEcoProduct48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseFashionChoice48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9023,6 +9655,7 @@ export const PromiseFashionChoice48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseMadeInEurope48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9036,6 +9669,7 @@ export const PromiseMadeInEurope48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseMadeInFrance48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9049,6 +9683,7 @@ export const PromiseMadeInFrance48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseModular48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9062,6 +9697,7 @@ export const PromiseModular48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseProductOnPicture48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9076,6 +9712,7 @@ export const PromiseProductOnPicture48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseProductSheet48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9093,6 +9730,7 @@ export const PromiseProductSheet48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseScan48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9106,6 +9744,7 @@ export const PromiseScan48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PromiseWarranty48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9120,6 +9759,7 @@ export const PromiseWarranty48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const DescribeProject48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9133,6 +9773,7 @@ export const DescribeProject48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Inspiration48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9147,6 +9788,7 @@ export const Inspiration48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const MakeProject48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9164,6 +9806,7 @@ export const AfterSalesAfterSalesService48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9178,6 +9821,7 @@ export const AfterSalesAfterSalesService48 = ({
 
 export const AfterSalesHelpline48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9191,6 +9835,7 @@ export const AfterSalesHelpline48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AfterSalesPayback48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9204,6 +9849,7 @@ export const AfterSalesPayback48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AfterSalesSatisfaction48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9218,6 +9864,7 @@ export const AfterSalesSatisfaction48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CustomCopyKey48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9232,6 +9879,7 @@ export const CustomCopyKey48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CustomCourse48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9246,6 +9894,7 @@ export const CustomCourse48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CustomCutWoodGlass48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9260,6 +9909,7 @@ export const CustomCutWoodGlass48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CustomFunding48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9273,6 +9923,7 @@ export const CustomFunding48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CustomSample48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9286,6 +9937,7 @@ export const CustomSample48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CustomSharpening48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9304,6 +9956,7 @@ export const DeliveryDeliveryPickupRelayPoint48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9321,6 +9974,7 @@ export const DeliveryDeliveryPickupStore48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9335,6 +9989,7 @@ export const DeliveryDeliveryPickupStore48 = ({
 
 export const DeliveryDeliveryHome48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9350,6 +10005,7 @@ export const DeliveryDeliveryHome48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PurchaseHelpCarRent48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9363,6 +10019,7 @@ export const PurchaseHelpCarRent48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PurchaseHelpHomeDIY48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9376,6 +10033,7 @@ export const PurchaseHelpHomeDIY48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PurchaseHelpHomeInstall48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9389,6 +10047,7 @@ export const PurchaseHelpHomeInstall48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PurchaseHelpToolRent48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9402,6 +10061,7 @@ export const PurchaseHelpToolRent48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const TimeDelivery2h48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9416,6 +10076,7 @@ export const TimeDelivery2h48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const TimeDelivery3h48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9430,6 +10091,7 @@ export const TimeDelivery3h48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const TimeDelivery48h48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9444,6 +10106,7 @@ export const TimeDelivery48h48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const TimeTimeDecline48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9458,6 +10121,7 @@ export const TimeTimeDecline48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Tools3d48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9471,6 +10135,7 @@ export const Tools3d48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ToolsCalculator48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9485,6 +10150,7 @@ export const ToolsCalculator48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ToolsComparator48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9498,6 +10164,7 @@ export const ToolsComparator48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CommentComment48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9511,6 +10178,7 @@ export const CommentComment48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CommentCommunity48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9525,6 +10193,7 @@ export const CommentCommunity48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CommentQuestionArticle48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9540,6 +10209,7 @@ export const CommentQuestionArticle48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CommentReport48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9553,6 +10223,7 @@ export const CommentReport48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ShareShareAndroid48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9566,6 +10237,7 @@ export const ShareShareAndroid48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ShareShareIOS48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9580,6 +10252,7 @@ export const ShareShareIOS48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SocialNetworkFacebook48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9593,6 +10266,7 @@ export const SocialNetworkFacebook48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SocialNetworkInstagram48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9608,6 +10282,7 @@ export const SocialNetworkInstagram48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SocialNetworkLinkedin48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9622,6 +10297,7 @@ export const SocialNetworkLinkedin48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SocialNetworkPinterest48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9635,6 +10311,7 @@ export const SocialNetworkPinterest48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SocialNetworkTwitter48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9648,6 +10325,7 @@ export const SocialNetworkTwitter48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SocialNetworkYoutube48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9662,6 +10340,7 @@ export const SocialNetworkYoutube48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ViewLikeNegative48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9675,6 +10354,7 @@ export const ViewLikeNegative48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ViewLikePositive48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9688,6 +10368,7 @@ export const ViewLikePositive48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ViewStarFirst48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9701,6 +10382,7 @@ export const ViewStarFirst48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ViewStarFull48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9714,6 +10396,7 @@ export const ViewStarFull48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ViewStarHalf48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9727,6 +10410,7 @@ export const ViewStarHalf48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ViewTesterView48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9741,6 +10425,7 @@ export const ViewTesterView48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Itinerary48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9754,6 +10439,7 @@ export const Itinerary48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Locator48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9767,6 +10453,7 @@ export const Locator48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Logo48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9780,6 +10467,7 @@ export const Logo48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Map48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9793,6 +10481,7 @@ export const Map48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const MonochromeRelayLocation48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9807,6 +10496,7 @@ export const MonochromeRelayLocation48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const MonochromeStoreLocation48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9821,6 +10511,7 @@ export const MonochromeStoreLocation48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const StoreLM48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9835,6 +10526,7 @@ export const StoreLM48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Attic48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9851,6 +10543,7 @@ export const Attic48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Bathroom48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9864,6 +10557,7 @@ export const Bathroom48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Bedroom48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9877,6 +10571,7 @@ export const Bedroom48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Carpentry48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9890,6 +10585,7 @@ export const Carpentry48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ConnectedHome48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9907,6 +10603,7 @@ export const ConnectedHome48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Dressing48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9921,6 +10618,7 @@ export const Dressing48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Electricity48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9937,6 +10635,7 @@ export const Electricity48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Enki48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9950,6 +10649,7 @@ export const Enki48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Floor48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9964,6 +10664,7 @@ export const Floor48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Garage48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9978,6 +10679,7 @@ export const Garage48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Garden148 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -9992,6 +10694,7 @@ export const Garden148 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Garden248 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10005,6 +10708,7 @@ export const Garden248 = ({ fill, size = '3rem', ...rest }) => (
 
 export const HardwareStore48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10018,6 +10722,7 @@ export const HardwareStore48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Heater48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10031,6 +10736,7 @@ export const Heater48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Kids48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10045,6 +10751,7 @@ export const Kids48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Kitchen48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10058,6 +10765,7 @@ export const Kitchen48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Kitchen248 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10076,6 +10784,7 @@ export const Kitchen248 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Lighting48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10089,6 +10798,7 @@ export const Lighting48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Living48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10102,6 +10812,7 @@ export const Living48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const MakeIt48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10115,6 +10826,7 @@ export const MakeIt48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Paint48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10128,6 +10840,7 @@ export const Paint48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Security48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10142,6 +10855,7 @@ export const Security48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Terrace48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10155,6 +10869,7 @@ export const Terrace48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Tool48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10173,6 +10888,7 @@ export const AccountCustomerCollaborator48 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10187,6 +10903,7 @@ export const AccountCustomerCollaborator48 = ({
 
 export const AccountCustomerPassion48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10200,6 +10917,7 @@ export const AccountCustomerPassion48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AccountCustomerPro48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10213,6 +10931,7 @@ export const AccountCustomerPro48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AccountProfileMan48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10227,6 +10946,7 @@ export const AccountProfileMan48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AccountProfileView48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10240,6 +10960,7 @@ export const AccountProfileView48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const AccountProfileWoman48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10253,6 +10974,7 @@ export const AccountProfileWoman48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardFunding48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10267,6 +10989,7 @@ export const CardFunding48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardGift48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10280,6 +11003,7 @@ export const CardGift48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardIDCard48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10296,6 +11020,7 @@ export const CardIDCard48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const CardLoyaltyCard48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10311,6 +11036,7 @@ export const CardLoyaltyCard48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ContactMail48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10325,6 +11051,7 @@ export const ContactMail48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ContactPhone48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10338,6 +11065,7 @@ export const ContactPhone48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ContactWebsite48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10351,6 +11079,7 @@ export const ContactWebsite48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SituationOwner48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10364,6 +11093,7 @@ export const SituationOwner48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const SituationTenant48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10379,6 +11109,7 @@ export const SituationTenant48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Administration48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10393,6 +11124,7 @@ export const Administration48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Apartment48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10407,6 +11139,7 @@ export const Apartment48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Balcony48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10421,6 +11154,7 @@ export const Balcony48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Blower48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10436,6 +11170,7 @@ export const Blower48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Door48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10450,6 +11185,7 @@ export const Door48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const EcoSaving48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10464,6 +11200,7 @@ export const EcoSaving48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Heat48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10477,6 +11214,7 @@ export const Heat48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const House48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10491,6 +11229,7 @@ export const House48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const IncreaseValue48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10506,6 +11245,7 @@ export const IncreaseValue48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Insulation48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10519,6 +11259,7 @@ export const Insulation48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const LessonDIY48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10533,6 +11274,7 @@ export const LessonDIY48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Level48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10546,6 +11288,7 @@ export const Level48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PaintCan48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10559,6 +11302,7 @@ export const PaintCan48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PartnerCompany48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10572,6 +11316,7 @@ export const PartnerCompany48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const PartnerWorker48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10585,6 +11330,7 @@ export const PartnerWorker48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Pipe48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10598,6 +11344,7 @@ export const Pipe48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Premium48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10611,6 +11358,7 @@ export const Premium48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Shutter48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10624,6 +11372,7 @@ export const Shutter48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Survey48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10640,6 +11389,7 @@ export const Survey48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Temperature48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10654,6 +11404,7 @@ export const Temperature48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ThermalControl48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10669,6 +11420,7 @@ export const ThermalControl48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const ToolBox48 = ({ fill, size = '3rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10682,6 +11434,7 @@ export const ToolBox48 = ({ fill, size = '3rem', ...rest }) => (
 
 export const Desktop64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10695,6 +11448,7 @@ export const Desktop64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Laptop64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10708,6 +11462,7 @@ export const Laptop64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Mobile64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10722,6 +11477,7 @@ export const Mobile64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Tablet64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10736,6 +11492,7 @@ export const Tablet64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HygieneCleaned64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10750,6 +11507,7 @@ export const HygieneCleaned64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HygieneDanger64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10764,6 +11522,7 @@ export const HygieneDanger64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HygieneDistance64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10777,6 +11536,7 @@ export const HygieneDistance64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HygieneGel64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10791,6 +11551,7 @@ export const HygieneGel64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HygieneMask64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10806,6 +11567,7 @@ export const HygieneMask64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HygieneNoContact64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10819,6 +11581,7 @@ export const HygieneNoContact64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HygienePlexiglas64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10834,6 +11597,7 @@ export const HygienePlexiglas64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PaymentCheckout64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10849,6 +11613,7 @@ export const PaymentCheckout64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PaymentNoContact64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10871,6 +11636,7 @@ export const ServicePurchaseHelpCarOpenBoot64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10888,6 +11654,7 @@ export const ServicePurchaseHelpCarStandInLine64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10905,6 +11672,7 @@ export const ServicePurchaseHelpCarStayInside64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10923,6 +11691,7 @@ export const ServicePurchaseHelpLoading64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10941,6 +11710,7 @@ export const ServicePurchaseHelpNoCarRent64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10958,6 +11728,7 @@ export const ServicePurchaseHelpRequest64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10976,6 +11747,7 @@ export const ServicePurchaseHelpTruck64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -10993,6 +11765,7 @@ export const UniverseEssentialProduct64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11007,6 +11780,7 @@ export const UniverseEssentialProduct64 = ({
 
 export const BookStore64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11021,6 +11795,7 @@ export const BookStore64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Camera64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11036,6 +11811,7 @@ export const Camera64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DownloadApp64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11050,6 +11826,7 @@ export const DownloadApp64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DownloadWeb64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11064,6 +11841,7 @@ export const DownloadWeb64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const FullScreen64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11077,6 +11855,7 @@ export const FullScreen64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const NoPicture64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11091,6 +11870,7 @@ export const NoPicture64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Pdf64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11105,6 +11885,7 @@ export const Pdf64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Play64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11118,6 +11899,7 @@ export const Play64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Player64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11132,6 +11914,7 @@ export const Player64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Print64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11146,6 +11929,7 @@ export const Print64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Project64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11160,6 +11944,7 @@ export const Project64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Read64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11174,6 +11959,7 @@ export const Read64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ReduceScreen64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11187,6 +11973,7 @@ export const ReduceScreen64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Slideshow64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11201,6 +11988,7 @@ export const Slideshow64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Sound64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11215,6 +12003,7 @@ export const Sound64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Stop64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11228,6 +12017,7 @@ export const Stop64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const TimeRead64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11242,6 +12032,7 @@ export const TimeRead64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Upload64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11256,6 +12047,7 @@ export const Upload64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const View36064 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11269,6 +12061,7 @@ export const View36064 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ArrowArrowBottom64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11282,6 +12075,7 @@ export const ArrowArrowBottom64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ArrowArrowLeft64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11295,6 +12089,7 @@ export const ArrowArrowLeft64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ArrowArrowRight64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11308,6 +12103,7 @@ export const ArrowArrowRight64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ArrowArrowTop64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11321,6 +12117,7 @@ export const ArrowArrowTop64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ArrowBack64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11334,6 +12131,7 @@ export const ArrowBack64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ArrowNext64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11347,6 +12145,7 @@ export const ArrowNext64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ControlCircleAdd64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11361,6 +12160,7 @@ export const ControlCircleAdd64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ControlCircleCross64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11375,6 +12175,7 @@ export const ControlCircleCross64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ControlCircleLess64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11389,6 +12190,7 @@ export const ControlCircleLess64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ControlCross64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11402,6 +12204,7 @@ export const ControlCross64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ControlLess64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11415,6 +12218,7 @@ export const ControlLess64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ControlMore64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11428,6 +12232,7 @@ export const ControlMore64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ControlTagCross64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11441,6 +12246,7 @@ export const ControlTagCross64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayBlink64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11455,6 +12261,7 @@ export const DisplayBlink64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayCalendar64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11468,6 +12275,7 @@ export const DisplayCalendar64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayConnect64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11486,6 +12294,7 @@ export const DisplayDisplayFullFilled64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11503,6 +12312,7 @@ export const DisplayDisplayFullOutline64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11520,6 +12330,7 @@ export const DisplayDisplayListFilled64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11539,6 +12350,7 @@ export const DisplayDisplayListOutline64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11556,6 +12368,7 @@ export const DisplayDisplayMobileHorizontal64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11573,6 +12386,7 @@ export const DisplayDisplayMobileVertical64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11590,6 +12404,7 @@ export const DisplayDisplayProductX4Filled64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11610,6 +12425,7 @@ export const DisplayDisplayProductX4Outline64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11623,6 +12439,7 @@ export const DisplayDisplayProductX4Outline64 = ({
 
 export const DisplayDisplayProductX964 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11636,6 +12453,7 @@ export const DisplayDisplayProductX964 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayExternalLink64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11650,6 +12468,7 @@ export const DisplayExternalLink64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayFilter64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11663,6 +12482,7 @@ export const DisplayFilter64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayHome64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11676,6 +12496,7 @@ export const DisplayHome64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayMenu64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11689,6 +12510,7 @@ export const DisplayMenu64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayMovingBlock64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11710,6 +12532,7 @@ export const DisplayMovingBlock64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayOther64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11725,6 +12548,7 @@ export const DisplayOther64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayProductNumb64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11738,6 +12562,7 @@ export const DisplayProductNumb64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayRefresh64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11751,6 +12576,7 @@ export const DisplayRefresh64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayScreenRotation64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11765,6 +12591,7 @@ export const DisplayScreenRotation64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplaySearch64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11778,6 +12605,7 @@ export const DisplaySearch64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplaySearchProduct64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11792,6 +12620,7 @@ export const DisplaySearchProduct64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplaySetting64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11806,6 +12635,7 @@ export const DisplaySetting64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayView64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11820,6 +12650,7 @@ export const DisplayView64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DisplayVocalSearch64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11834,6 +12665,7 @@ export const DisplayVocalSearch64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const NotificationAvailable64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11847,6 +12679,7 @@ export const NotificationAvailable64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const NotificationBell64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11864,6 +12697,7 @@ export const NotificationCircleAvailable64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11878,6 +12712,7 @@ export const NotificationCircleAvailable64 = ({
 
 export const NotificationInformation64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11892,6 +12727,7 @@ export const NotificationInformation64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const NotificationQuestion64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11906,6 +12742,7 @@ export const NotificationQuestion64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const NotificationWarning64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11920,6 +12757,7 @@ export const NotificationWarning64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PublishCopy64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11934,6 +12772,7 @@ export const PublishCopy64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PublishEdit64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11948,6 +12787,7 @@ export const PublishEdit64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PublishFavorite64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11961,6 +12801,7 @@ export const PublishFavorite64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PublishFavoriteFull64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11974,6 +12815,7 @@ export const PublishFavoriteFull64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PublishSend64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -11987,6 +12829,7 @@ export const PublishSend64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PublishTrashbin64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12001,6 +12844,7 @@ export const PublishTrashbin64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Bill64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12021,6 +12865,7 @@ export const CardsMonochromeAmericanExpress64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12037,6 +12882,7 @@ export const CardsMonochromeAmericanExpress64 = ({
 
 export const CardsMonochromeCB64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12051,6 +12897,7 @@ export const CardsMonochromeCB64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromeCheque64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12065,6 +12912,7 @@ export const CardsMonochromeCheque64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromeGift64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12079,6 +12927,7 @@ export const CardsMonochromeGift64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromeIllicado64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12095,6 +12944,7 @@ export const CardsMonochromeIllicado64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromeLoyalty64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12113,6 +12963,7 @@ export const CardsMonochromeMastercard64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12127,6 +12978,7 @@ export const CardsMonochromeMastercard64 = ({
 
 export const CardsMonochromeOney64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12141,6 +12993,7 @@ export const CardsMonochromeOney64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromeOneyX364 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12154,6 +13007,7 @@ export const CardsMonochromeOneyX364 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromePaylib64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12169,6 +13023,7 @@ export const CardsMonochromePaylib64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromePaypal64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12184,6 +13039,7 @@ export const CardsMonochromePaypal64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardsMonochromeVisa64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12199,6 +13055,7 @@ export const CardsMonochromeVisa64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DetailsOrder64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12213,6 +13070,7 @@ export const DetailsOrder64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Euro64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12226,6 +13084,7 @@ export const Euro64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Receipt64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12240,6 +13099,7 @@ export const Receipt64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SafePayment164 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12254,6 +13114,7 @@ export const SafePayment164 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SafePayment264 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12268,6 +13129,7 @@ export const SafePayment264 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AspectQuantity64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12281,6 +13143,7 @@ export const AspectQuantity64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AspectSize64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12294,6 +13157,7 @@ export const AspectSize64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AspectWeight64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12307,6 +13171,7 @@ export const AspectWeight64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const BasketAdd64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12321,6 +13186,7 @@ export const BasketAdd64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const BasketHandbag64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12334,6 +13200,7 @@ export const BasketHandbag64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const BasketMulti64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12347,6 +13214,7 @@ export const BasketMulti64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const BasketSave64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12360,6 +13228,7 @@ export const BasketSave64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const BasketStandard64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12373,6 +13242,7 @@ export const BasketStandard64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ListAdd64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12387,6 +13257,7 @@ export const ListAdd64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ListStandard64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12401,6 +13272,7 @@ export const ListStandard64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseCertification64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12415,6 +13287,7 @@ export const PromiseCertification64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseDestocking64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12429,6 +13302,7 @@ export const PromiseDestocking64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseEcoProduct64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12442,6 +13316,7 @@ export const PromiseEcoProduct64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseFashionChoice64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12456,6 +13331,7 @@ export const PromiseFashionChoice64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseFunding64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12469,6 +13345,7 @@ export const PromiseFunding64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseMadeInEurope64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12482,6 +13359,7 @@ export const PromiseMadeInEurope64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseMadeInFrance64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12495,6 +13373,7 @@ export const PromiseMadeInFrance64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseModular64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12508,6 +13387,7 @@ export const PromiseModular64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseProductOnPicture64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12522,6 +13402,7 @@ export const PromiseProductOnPicture64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseProductSheet64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12539,6 +13420,7 @@ export const PromiseProductSheet64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseScan64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12552,6 +13434,7 @@ export const PromiseScan64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PromiseWarranty64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12566,6 +13449,7 @@ export const PromiseWarranty64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const DescribeProject64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12579,6 +13463,7 @@ export const DescribeProject64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Inspiration64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12593,6 +13478,7 @@ export const Inspiration64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const MakeProject64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12610,6 +13496,7 @@ export const AfterSalesAfterSalesService64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12624,6 +13511,7 @@ export const AfterSalesAfterSalesService64 = ({
 
 export const AfterSalesHelpline64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12637,6 +13525,7 @@ export const AfterSalesHelpline64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AfterSalesPayback64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12650,6 +13539,7 @@ export const AfterSalesPayback64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AfterSalesSatisfaction64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12664,6 +13554,7 @@ export const AfterSalesSatisfaction64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CustomCopyKey64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12678,6 +13569,7 @@ export const CustomCopyKey64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CustomCourse64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12691,6 +13583,7 @@ export const CustomCourse64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CustomCutWoodGlass64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12705,6 +13598,7 @@ export const CustomCutWoodGlass64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CustomSample64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12718,6 +13612,7 @@ export const CustomSample64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CustomSharpening64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12736,6 +13631,7 @@ export const DeliveryDeliveryPickupRelayPoint64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12753,6 +13649,7 @@ export const DeliveryDeliveryPickupStore64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12767,6 +13664,7 @@ export const DeliveryDeliveryPickupStore64 = ({
 
 export const DeliveryDeliveryHome64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12781,6 +13679,7 @@ export const DeliveryDeliveryHome64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PurchaseHelpCarRent64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12794,6 +13693,7 @@ export const PurchaseHelpCarRent64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PurchaseHelpHomeDIY64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12808,6 +13708,7 @@ export const PurchaseHelpHomeDIY64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PurchaseHelpHomeInstall64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12821,6 +13722,7 @@ export const PurchaseHelpHomeInstall64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PurchaseHelpToolRent64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12834,6 +13736,7 @@ export const PurchaseHelpToolRent64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const TimeDelivery2h64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12848,6 +13751,7 @@ export const TimeDelivery2h64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const TimeDelivery3h64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12862,6 +13766,7 @@ export const TimeDelivery3h64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const TimeDelivery48h64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12876,6 +13781,7 @@ export const TimeDelivery48h64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const TimeTimeDecline64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12890,6 +13796,7 @@ export const TimeTimeDecline64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Tools3d64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12903,6 +13810,7 @@ export const Tools3d64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ToolsCalculator64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12917,6 +13825,7 @@ export const ToolsCalculator64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ToolsComparator64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12930,6 +13839,7 @@ export const ToolsComparator64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CommentComment64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12943,6 +13853,7 @@ export const CommentComment64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CommentCommunity64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12956,6 +13867,7 @@ export const CommentCommunity64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CommentQuestionArticle64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12970,6 +13882,7 @@ export const CommentQuestionArticle64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CommentReport64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12983,6 +13896,7 @@ export const CommentReport64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ShareShareAndroid64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -12996,6 +13910,7 @@ export const ShareShareAndroid64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ShareShareIOS64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13010,6 +13925,7 @@ export const ShareShareIOS64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SocialNetworkFacebook64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13023,6 +13939,7 @@ export const SocialNetworkFacebook64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SocialNetworkInstagram64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13038,6 +13955,7 @@ export const SocialNetworkInstagram64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SocialNetworkLinkedin64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13052,6 +13970,7 @@ export const SocialNetworkLinkedin64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SocialNetworkPinterest64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13065,6 +13984,7 @@ export const SocialNetworkPinterest64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SocialNetworkTwitter64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13078,6 +13998,7 @@ export const SocialNetworkTwitter64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SocialNetworkYoutube64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13092,6 +14013,7 @@ export const SocialNetworkYoutube64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ViewLikeNegative64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13105,6 +14027,7 @@ export const ViewLikeNegative64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ViewLikePositive64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13118,6 +14041,7 @@ export const ViewLikePositive64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ViewStarEmpty64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13131,6 +14055,7 @@ export const ViewStarEmpty64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ViewStarFirst64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13144,6 +14069,7 @@ export const ViewStarFirst64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ViewStarFull64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13157,6 +14083,7 @@ export const ViewStarFull64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ViewStarHalf64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13170,6 +14097,7 @@ export const ViewStarHalf64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ViewTesterView64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13184,6 +14112,7 @@ export const ViewTesterView64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Itinerary64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13197,6 +14126,7 @@ export const Itinerary64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Locator64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13210,6 +14140,7 @@ export const Locator64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Logo64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13223,6 +14154,7 @@ export const Logo64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Map64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13236,6 +14168,7 @@ export const Map64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const MonochromeRelayLocation64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13250,6 +14183,7 @@ export const MonochromeRelayLocation64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const MonochromeStoreLocation64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13264,6 +14198,7 @@ export const MonochromeStoreLocation64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const StoreLM64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13278,6 +14213,7 @@ export const StoreLM64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Attic64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13294,6 +14230,7 @@ export const Attic64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Bathroom64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13307,6 +14244,7 @@ export const Bathroom64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Bedroom64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13320,6 +14258,7 @@ export const Bedroom64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Carpentry64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13333,6 +14272,7 @@ export const Carpentry64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ConnectedHome64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13350,6 +14290,7 @@ export const ConnectedHome64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Dressing64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13364,6 +14305,7 @@ export const Dressing64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Electricity64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13380,6 +14322,7 @@ export const Electricity64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Enki64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13393,6 +14336,7 @@ export const Enki64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Floor64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13407,6 +14351,7 @@ export const Floor64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Garage64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13421,6 +14366,7 @@ export const Garage64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Garden164 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13435,6 +14381,7 @@ export const Garden164 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Garden264 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13448,6 +14395,7 @@ export const Garden264 = ({ fill, size = '4rem', ...rest }) => (
 
 export const HardwareStore64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13461,6 +14409,7 @@ export const HardwareStore64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Heater64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13474,6 +14423,7 @@ export const Heater64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Kids64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13488,6 +14438,7 @@ export const Kids64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Kitchen64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13501,6 +14452,7 @@ export const Kitchen64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Kitchen264 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13520,6 +14472,7 @@ export const Kitchen264 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Lighting64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13533,6 +14486,7 @@ export const Lighting64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Living64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13546,6 +14500,7 @@ export const Living64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const MakeIt64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13559,6 +14514,7 @@ export const MakeIt64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Paint64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13572,6 +14528,7 @@ export const Paint64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Security64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13586,6 +14543,7 @@ export const Security64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Terrace64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13599,6 +14557,7 @@ export const Terrace64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Tool64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13617,6 +14576,7 @@ export const AccountCustomerCollaborator64 = ({
   ...rest
 }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13631,6 +14591,7 @@ export const AccountCustomerCollaborator64 = ({
 
 export const AccountCustomerPassion64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13645,6 +14606,7 @@ export const AccountCustomerPassion64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AccountCustomerPro64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13658,6 +14620,7 @@ export const AccountCustomerPro64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AccountProfileMan64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13671,6 +14634,7 @@ export const AccountProfileMan64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AccountProfileView64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13684,6 +14648,7 @@ export const AccountProfileView64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const AccountProfileWoman64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13697,6 +14662,7 @@ export const AccountProfileWoman64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardFunding64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13711,6 +14677,7 @@ export const CardFunding64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardGift64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13724,6 +14691,7 @@ export const CardGift64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardIDCard64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13738,6 +14706,7 @@ export const CardIDCard64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const CardLoyaltyCard64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13753,6 +14722,7 @@ export const CardLoyaltyCard64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ContactMail64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13767,6 +14737,7 @@ export const ContactMail64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ContactPhone64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13780,6 +14751,7 @@ export const ContactPhone64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ContactWebsite64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13793,6 +14765,7 @@ export const ContactWebsite64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SituationOwner64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13806,6 +14779,7 @@ export const SituationOwner64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const SituationTenant64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13821,6 +14795,7 @@ export const SituationTenant64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Administration64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13835,6 +14810,7 @@ export const Administration64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Apartment64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13849,6 +14825,7 @@ export const Apartment64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Balcony64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13863,6 +14840,7 @@ export const Balcony64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Blower64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13878,6 +14856,7 @@ export const Blower64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Door64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13892,6 +14871,7 @@ export const Door64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const EcoSaving64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13906,6 +14886,7 @@ export const EcoSaving64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Heat64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13919,6 +14900,7 @@ export const Heat64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const House64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13933,6 +14915,7 @@ export const House64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const IncreaseValue64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13947,6 +14930,7 @@ export const IncreaseValue64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Insulation64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13966,6 +14950,7 @@ export const Insulation64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const LessonDIY64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13980,6 +14965,7 @@ export const LessonDIY64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Level64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -13993,6 +14979,7 @@ export const Level64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PaintCan64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14006,6 +14993,7 @@ export const PaintCan64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PartnerCompany64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14019,6 +15007,7 @@ export const PartnerCompany64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const PartnerWorker64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14032,6 +15021,7 @@ export const PartnerWorker64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Pipe64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14045,6 +15035,7 @@ export const Pipe64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Premium64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14058,6 +15049,7 @@ export const Premium64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Shutter64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14071,6 +15063,7 @@ export const Shutter64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Survey64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14085,6 +15078,7 @@ export const Survey64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Temperature64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14099,6 +15093,7 @@ export const Temperature64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ThermalControl64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14114,6 +15109,7 @@ export const ThermalControl64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const ToolBox64 = ({ fill, size = '4rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14127,6 +15123,7 @@ export const ToolBox64 = ({ fill, size = '4rem', ...rest }) => (
 
 export const Player96 = ({ fill, size = '6rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
@@ -14141,6 +15138,7 @@ export const Player96 = ({ fill, size = '6rem', ...rest }) => (
 
 export const View36096 = ({ fill, size = '6rem', ...rest }) => (
   <svg
+    aria-hidden="true"
     width={size}
     height={size}
     {...rest}
