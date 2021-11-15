@@ -7,6 +7,7 @@
           class="mc-accordion__trigger"
           aria-controls="content"
           aria-expanded="false"
+          data-mc-component="accordion"
         >
           <svg class="mc-accordion__icon">
             <use href="#Store_StoreLM_32px"></use>
@@ -15,7 +16,12 @@
         </button>
       </h2>
     </div>
-    <div id="content" class="mc-accordion__content" aria-hidden="true" aria-labelledby="accordion">
+    <div
+      id="content"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -24,6 +30,7 @@
     </div>
   </div>
 </div>
+
 <svg class="hidden" xmlns="http://www.w3.org/2000/svg">
   <symbol id="Store_StoreLM_32px" viewBox="0 0 32 32">
     <path
@@ -34,3 +41,28 @@
     ></path>
   </symbol>
 </svg>
+
+<script>
+  const accordions = document.querySelectorAll(
+    '[data-mc-component="accordion"]'
+  )
+  accordions.forEach(function (accordion) {
+    if (accordion.hasAttribute('disabled')) {
+      accordion.closest('.mc-accordion').classList.add('is-disabled')
+    }
+
+    accordion.addEventListener('click', function (e) {
+      const component = accordion.closest('.mc-accordion')
+      const button = component.querySelector('.mc-accordion__trigger')
+      const content = component.querySelector('.mc-accordion__content')
+      const expanded =
+        button.getAttribute('aria-expanded') === 'false' ? false : true
+      const hidden =
+        content.getAttribute('aria-hidden') === 'false' ? false : true
+
+      component.classList.toggle('is-open')
+      button.setAttribute('aria-expanded', !expanded)
+      content.setAttribute('aria-hidden', !hidden)
+    })
+  })
+</script>

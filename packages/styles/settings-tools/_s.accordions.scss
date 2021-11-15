@@ -19,7 +19,6 @@ $accordion-sizes: (
   ),
 );
 
-$accordion-selector: ".mc-accordion";
 $accordion-default-size: map-get($accordion-sizes, "m");
 
 @mixin set-accordion-size($sizeProps, $parent) {
@@ -56,7 +55,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
   // it should be removed once the teams have migrated to the new version of the component
   input#{$parent}__trigger {
     &:checked {
-      ~ #{$accordion-selector}__label {
+      ~ #{$parent}__label {
         background-image: url(inline-icons(
           $background-close,
           $color-font-darker
@@ -65,7 +64,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
     }
 
     &:disabled {
-      ~ #{$accordion-selector}__label {
+      ~ #{$parent}__label {
         background-image: url(inline-icons(
           $background-open,
           $color-font-light
@@ -74,7 +73,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
     }
 
     &:disabled:checked {
-      ~ #{$accordion-selector}__label {
+      ~ #{$parent}__label {
         background-image: url(inline-icons(
           $background-close,
           $color-font-light
@@ -83,7 +82,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
     }
   }
 
-  // NEW CODE
+  // new HTML structure
   #{$parent}__title {
     @include set-font-scale($font-size, "m");
   }
@@ -95,6 +94,24 @@ $accordion-default-size: map-get($accordion-sizes, "m");
       top: $padding-v;
       right: $padding-right;
       bottom: $padding-v;
+    }
+
+    &:disabled {
+      background-image: url(inline-icons($background-open, $color-font-light));
+    }
+
+    @at-root .is-open#{&} {
+      background-image: url(inline-icons(
+        $background-close,
+        $color-font-darker
+      ));
+
+      &:disabled {
+        background-image: url(inline-icons(
+          $background-close,
+          $color-font-light
+        ));
+      }
     }
   }
 }
