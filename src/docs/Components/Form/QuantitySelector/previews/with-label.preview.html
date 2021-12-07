@@ -1,13 +1,16 @@
 <div class="example">
   <div class="mc-field">
-    <label class="mc-field__label" for="default">
-      Label
-    </label>
+    <label class="mc-field__label" for="default"> Label </label>
     <div class="mc-quantity-selector mc-field__element">
       <button
-        class="mc-button mc-button--s mc-button--square mc-button--bordered mc-quantity-selector__button-left"
+        class="
+          mc-button mc-button--s mc-button--square mc-button--bordered
+          mc-quantity-selector__button-left
+        "
         aria-controls="qty-selector"
         aria-label="Decrement"
+        aria-hidden="true"
+        tabindex="-1"
       >
         <svg class="mc-button__icon">
           <use xlink:href="#iconLeftS" />
@@ -24,12 +27,18 @@
         aria-valuenow="0"
         type="number"
         placeholder="Value"
+        role="spinbutton"
       />
 
       <button
         aria-controls="qty-selector"
-        class="mc-button mc-button--s mc-button--square mc-button--bordered mc-quantity-selector__button-right"
+        class="
+          mc-button mc-button--s mc-button--square mc-button--bordered
+          mc-quantity-selector__button-right
+        "
         aria-label="Increment"
+        aria-hidden="true"
+        tabindex="-1"
       >
         <svg class="mc-button__icon">
           <use xlink:href="#iconRightS" />
@@ -41,14 +50,16 @@
 
 <div class="example">
   <div class="mc-field">
-    <label class="mc-field__label" for="default">
-      Label
-    </label>
+    <label class="mc-field__label" for="default"> Label </label>
     <div class="mc-quantity-selector mc-field__element">
       <button
-        class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button-left"
+        class="
+          mc-button mc-button--square mc-button--bordered
+          mc-quantity-selector__button-left
+        "
         aria-controls="qty-selector2"
         aria-label="Decrement"
+        tabindex="-1"
       >
         <svg class="mc-button__icon">
           <use xlink:href="#iconLeftM" />
@@ -65,12 +76,17 @@
         aria-valuenow="0"
         type="number"
         placeholder="Value"
+        role="spinbutton"
       />
 
       <button
-        class="mc-button mc-button--square mc-button--bordered mc-quantity-selector__button-right"
+        class="
+          mc-button mc-button--square mc-button--bordered
+          mc-quantity-selector__button-right
+        "
         aria-controls="qty-selector2"
         aria-label="Increment"
+        tabindex="-1"
       >
         <svg class="mc-button__icon">
           <use xlink:href="#iconRightM" />
@@ -80,7 +96,7 @@
   </div>
 </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
   <symbol id="iconLeftS" viewBox="0 0 24 24">
     <path d="M17.09 13h-10a1 1 0 010-2h10a1 1 0 010 2z" />
   </symbol>
@@ -91,7 +107,7 @@
   </symbol>
 </svg>
 
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
   <symbol id="iconLeftM" viewBox="0 0 32 32">
     <path d="M24 17H8a1 1 0 010-2h16a1 1 0 010 2z" />
   </symbol>
