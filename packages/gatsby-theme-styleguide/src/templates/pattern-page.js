@@ -180,6 +180,10 @@ export const query = graphql`
                 status
                 link
               }
+              react {
+                status
+                link
+              }
               freemarker {
                 status
                 link
