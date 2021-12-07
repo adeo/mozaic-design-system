@@ -161,8 +161,16 @@ If your project is in react and you built your app with create-react-app tool, y
 
 In order to do that you can edit your `.env` config file (or create one) at the root of your app and copy paste this inside ([according to create-react-app documentation](https://create-react-app.dev/docs/adding-a-sass-stylesheet)):
 
+Using Unix filesystem:
+
 ```bash
 SASS_PATH=./node_modules:./node_modules/@mozaic-ds/tokens/build/scss/:./node_modules/@mozaic-ds/styles/:./node_modules/@mozaic-ds/styles/settings-tools/:./node_modules/@mozaic-ds/styles/typography/:./node_modules/@mozaic-ds/styles/layout/:./node_modules/@mozaic-ds/styles/utilities/:./node_modules/@mozaic-ds/styles/components/
+```
+
+Using Windows filesystem:
+
+```bash
+SASS_PATH=./node_modules;./node_modules/@mozaic-ds/tokens/build/scss/;./node_modules/@mozaic-ds/styles/;./node_modules/@mozaic-ds/styles/settings-tools/;./node_modules/@mozaic-ds/styles/typography/;./node_modules/@mozaic-ds/styles/layout/;./node_modules/@mozaic-ds/styles/utilities/;./node_modules/@mozaic-ds/styles/components/
 ```
 
 #### With postcss-loader < 4.0.0
