@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
+
+
+### Bug Fixes
+
+* **tokens:** update of the token value of some components ([#974](https://github.com/adeo/mozaic-design-system/issues/974)) ([e48317d](https://github.com/adeo/mozaic-design-system/commit/e48317d5d806e1c554d08cd471344807edcb3e75))
+
+
+### Reverts
+
+* Revert "chore(release): publish" ([2042380](https://github.com/adeo/mozaic-design-system/commit/204238091c6d99ded469f97e2a04a9ba4c3b92bc))
+
+
+
+
+
 # [1.19.0](https://github.com/adeo/mozaic-design-system/compare/v1.18.0...v1.19.0) (2021-10-27)
 
 
