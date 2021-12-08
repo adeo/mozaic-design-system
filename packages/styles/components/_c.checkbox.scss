@@ -6,7 +6,7 @@
   display: flex;
 
   &__label {
-    @include set-font-scale('05', 's');
+    @include set-font-scale("05", "s");
 
     cursor: pointer;
     margin-left: magic-unit-rem(0.5, true);
@@ -86,7 +86,7 @@
         background-image:
           url(
             inline-icons(
-              'control-less-16',
+              "control-less-16",
               $color-input-disabled-icon
             ));
         border-color: $color-input-disabled-border;
@@ -99,7 +99,7 @@
       background-image:
         url(
           inline-icons(
-            'checkmark-16',
+            "checkmark-16",
             $color-input-checked-icon
           ));
       background-position: center center;
@@ -117,6 +117,17 @@
           border-color: $color-input-checked-hover-border;
         }
       }
+
+      &:disabled {
+        border-color: $color-input-disabled-border;
+        background: $color-input-disabled-background;
+        background-image:
+          url(
+            inline-icons(
+              "checkmark-16",
+              $color-input-disabled-icon
+            ));
+      }
     }
 
     &:indeterminate {
@@ -125,7 +136,7 @@
       background-image:
         url(
           inline-icons(
-            'control-less-16',
+            "control-less-16",
             $color-input-checked-icon
           ));
     }
