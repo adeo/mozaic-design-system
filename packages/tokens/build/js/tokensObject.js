@@ -4406,7 +4406,7 @@ module.exports = {
         "filePath": "packages/tokens/properties/color/fileuploder.json",
         "isSource": true,
         "original": {
-          "value": "{color.success.500.value}"
+          "value": "{color.primary-01.500.value}"
         },
         "name": "ColorFileuploaderValid",
         "attributes": {
@@ -6281,7 +6281,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-blue.100.value}"
+            "value": "{color.info.100.value}"
           },
           "name": "ColorNotificationInformationBackground",
           "attributes": {
@@ -6302,7 +6302,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-blue.500.value}"
+            "value": "{color.info.500.value}"
           },
           "name": "ColorNotificationInformationBorder",
           "attributes": {
@@ -6325,7 +6325,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.100.value}"
+            "value": "{color.success.100.value}"
           },
           "name": "ColorNotificationSuccessBackground",
           "attributes": {
@@ -6346,7 +6346,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.success.500.value}"
           },
           "name": "ColorNotificationSuccessBorder",
           "attributes": {
@@ -6369,7 +6369,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-orange.100.value}"
+            "value": "{color.warning.100.value}"
           },
           "name": "ColorNotificationWarningBackground",
           "attributes": {
@@ -6390,7 +6390,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-orange.500.value}"
+            "value": "{color.warning.500.value}"
           },
           "name": "ColorNotificationWarningBorder",
           "attributes": {
@@ -6413,7 +6413,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.100.value}"
+            "value": "{color.danger.100.value}"
           },
           "name": "ColorNotificationDangerBackground",
           "attributes": {
@@ -6434,7 +6434,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.500.value}"
+            "value": "{color.danger.500.value}"
           },
           "name": "ColorNotificationDangerBorder",
           "attributes": {
@@ -7886,7 +7886,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.input.disabled.background.value}"
+            "value": "{color.grey.100.value}"
           },
           "name": "ColorToggleDisabledBackground",
           "attributes": {

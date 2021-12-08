@@ -6,34 +6,34 @@
       },
       "information": {
         "background": {
-          "value": "{color.secondary-blue.100.value}"
+          "value": "{color.info.100.value}"
         },
         "border": {
-          "value": "{color.secondary-blue.500.value}"
+          "value": "{color.info.500.value}"
         }
       },
       "success": {
         "background": {
-          "value": "{color.primary-01.100.value}"
+          "value": "{color.success.100.value}"
         },
         "border": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.success.500.value}"
         }
       },
       "warning": {
         "background": {
-          "value": "{color.secondary-orange.100.value}"
+          "value": "{color.warning.100.value}"
         },
         "border": {
-          "value": "{color.secondary-orange.500.value}"
+          "value": "{color.warning.500.value}"
         }
       },
       "danger": {
         "background": {
-          "value": "{color.secondary-red.100.value}"
+          "value": "{color.danger.100.value}"
         },
         "border": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "{color.danger.500.value}"
         }
       }
     }
