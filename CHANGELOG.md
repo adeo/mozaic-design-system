@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
+
+
+### Bug Fixes
+
+* **component/checkbox:** adjust the visual rendering of the checked & disabled status ([#975](https://github.com/adeo/mozaic-design-system/issues/975)) ([4208b97](https://github.com/adeo/mozaic-design-system/commit/4208b9747fc8a8e71c47e7703af14422493b33e8)), closes [#962](https://github.com/adeo/mozaic-design-system/issues/962)
+* **component/modal:** adjust the margin-right behavior of the footer button ([#967](https://github.com/adeo/mozaic-design-system/issues/967)) ([581bf7c](https://github.com/adeo/mozaic-design-system/commit/581bf7c23f7fde91abe96c3d22b35a52e2808a11))
+* **component/quantityselector:** improve the component's accessility ([#963](https://github.com/adeo/mozaic-design-system/issues/963)) ([130c665](https://github.com/adeo/mozaic-design-system/commit/130c6659a0592a2b0c012d4b30d0bcd615040c5b))
+* **tokens:** update of the token value of some components ([#974](https://github.com/adeo/mozaic-design-system/issues/974)) ([e48317d](https://github.com/adeo/mozaic-design-system/commit/e48317d5d806e1c554d08cd471344807edcb3e75))
+* **website/menu:** reorder pages ([#970](https://github.com/adeo/mozaic-design-system/issues/970)) ([1b8b064](https://github.com/adeo/mozaic-design-system/commit/1b8b064479b17cfda91491e5d2b59bf18b72bac1))
+
+
+### Features
+
+* **component/badge:** add usage documentation ([#969](https://github.com/adeo/mozaic-design-system/issues/969)) ([a02df4c](https://github.com/adeo/mozaic-design-system/commit/a02df4cc10f00eb73250ab5247b88fd67bcf5ab9))
+
+
+### Reverts
+
+* Revert "chore(release): publish" ([2042380](https://github.com/adeo/mozaic-design-system/commit/204238091c6d99ded469f97e2a04a9ba4c3b92bc))
+
+
+
+
+
 ## [1.20.1](https://github.com/adeo/mozaic-design-system/compare/v1.20.0...v1.20.1) (2021-11-15)
 
 
