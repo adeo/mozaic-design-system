@@ -5,19 +5,19 @@
 
   &__main {
     flex: 100%;
-    padding-bottom: magic-unit-rem(4.5, 'true');
+    padding-bottom: magic-unit-rem(4.5, "true");
     padding-top: $mu400;
 
-    @include set-from-screen('m') {
+    @include set-from-screen("m") {
       padding-bottom: $mu700;
       padding-top: $mu600;
     }
 
-    @include set-from-screen('l') {
+    @include set-from-screen("l") {
       padding-bottom: $mu1000;
     }
 
-    @include set-from-screen('xl-medium') {
+    @include set-from-screen("xl-medium") {
       padding-bottom: $mu800;
       padding-top: $mu800;
     }
@@ -36,8 +36,8 @@
     }
 
     &::before {
-      background-color: rgba($color-grey-900, 0.8);
-      content: '';
+      background-color: mt-rgba($color-grey-900, 0.8);
+      content: "";
       display: block;
     }
   }
@@ -50,11 +50,11 @@
   }
 
   &__header {
-    @include set-from-screen('l') {
+    @include set-from-screen("l") {
       @include set-element-width(9, 12);
     }
 
-    @include set-from-screen('xl') {
+    @include set-from-screen("xl") {
       @include set-element-width(8, 12);
     }
 
@@ -70,7 +70,7 @@
   &__content {
     color: $color-grey-000;
 
-    @include set-from-screen('l') {
+    @include set-from-screen("l") {
       @include set-element-width(10, 12);
     }
 
@@ -83,17 +83,17 @@
     flex: 100%;
     margin-top: -$mu600;
 
-    @include set-from-screen('m') {
+    @include set-from-screen("m") {
       margin-top: -$mu500;
     }
 
-    @include set-from-screen('l') {
+    @include set-from-screen("l") {
       @include set-flexy-width(5, 12);
 
       margin-top: 0;
     }
 
-    @include set-from-screen('xxl') {
+    @include set-from-screen("xxl") {
       @include set-flexy-width(4, 12);
     }
   }
@@ -105,17 +105,17 @@
         padding-bottom: $mu300;
         padding-top: $mu250;
 
-        @include set-from-screen('m') {
+        @include set-from-screen("m") {
           padding-bottom: $mu500;
           padding-top: $mu350;
         }
 
-        @include set-from-screen('l') {
+        @include set-from-screen("l") {
           padding-bottom: $mu600;
           padding-top: $mu500;
         }
 
-        @include set-from-screen('xxl') {
+        @include set-from-screen("xxl") {
           padding-bottom: $mu800;
         }
       }
@@ -125,7 +125,7 @@
           @include set-element-width(8, 12);
         }
 
-        @include set-from-screen('xxl') {
+        @include set-from-screen("xxl") {
           @include set-element-width(7, 12);
         }
       }
@@ -138,16 +138,16 @@
       box-sizing: border-box;
     }
 
-    @include set-from-screen('l') {
+    @include set-from-screen("l") {
       padding-bottom: $mu300;
       padding-top: $mu400;
     }
 
-    @include set-from-screen('xl-medium') {
+    @include set-from-screen("xl-medium") {
       padding-bottom: $mu400;
     }
 
-    @include set-from-screen('xxl') {
+    @include set-from-screen("xxl") {
       padding-bottom: $mu500;
     }
 
@@ -158,12 +158,12 @@
         position: relative;
         flex: 100%;
 
-        @include set-from-screen('m') {
+        @include set-from-screen("m") {
           padding-bottom: $mu500;
           padding-top: $mu400;
         }
 
-        @include set-from-screen('l') {
+        @include set-from-screen("l") {
           @include set-flexy-width(7, 12);
 
           padding-bottom: 0;
@@ -171,7 +171,7 @@
           position: static;
         }
 
-        @include set-from-screen('xxl') {
+        @include set-from-screen("xxl") {
           @include set-flexy-width(8, 12);
         }
       }
@@ -196,11 +196,11 @@
       &__content {
         margin-bottom: $mu200;
 
-        @include set-from-screen('m') {
+        @include set-from-screen("m") {
           margin-bottom: $mu300;
         }
 
-        @include set-from-screen('l') {
+        @include set-from-screen("l") {
           margin-bottom: 0;
         }
       }
@@ -251,11 +251,11 @@
       }
 
       &__header {
-        @include set-from-screen('l') {
+        @include set-from-screen("l") {
           @include set-element-width(8, 12);
         }
 
-        @include set-from-screen('xxl') {
+        @include set-from-screen("xxl") {
           @include set-element-width(6, 12);
         }
       }
@@ -263,11 +263,11 @@
       &__content {
         text-align: center;
 
-        @include set-from-screen('l') {
+        @include set-from-screen("l") {
           max-width: none;
         }
 
-        @include set-from-screen('xl') {
+        @include set-from-screen("xl") {
           @include set-element-width(8, 12);
         }
 
