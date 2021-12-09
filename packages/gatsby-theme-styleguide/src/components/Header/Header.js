@@ -180,7 +180,7 @@ const Header = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
           <title>React.js</title>
           <path
             fill="#61dafb"
