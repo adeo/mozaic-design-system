@@ -14,81 +14,38 @@
     box-sizing: inherit;
   }
 
-  // Header
-  &__topbar {
-    justify-content: space-between;
-    padding: {
-      top: $mu100;
-      bottom: $mu100;
-    }
-
-    &,
-    &-main,
-    &-secondary {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    &-main,
-    &-secondary {
-      align-items: center;
-      gap: $mu100;
-    }
-
-    &-secondary {
-      justify-content: flex-end;
-    }
-  }
-
-  &__filters {
-    align-items: center;
-    border-top: get-border(s) solid $color-grey-300;
-    display: flex;
-    flex-wrap: wrap;
-    gap: $mu100;
-    justify-content: flex-end;
-    padding: {
-      top: $mu100;
-      bottom: $mu100;
-    }
-  }
-
   // Main
-  // &__main {}
-  &__wrapper {
+  &__container {
     @include set-border-radius();
     @include set-box-shadow("s");
+
+    background-color: $color-background-datatable-container;
+    overflow: hidden;
+  }
+
+  &__main {
+    @include mc-datatable-scrollbar();
+
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
   // Table
-  &__table,
-  &__subtable {
-    border-collapse: collapse;
-    table-layout: auto; // could be fixed;
-  }
   &__table {
-    // border-spacing: 0; // à mettre uniquement si border-collpase: separate;
-    caption-side: bottom;
+    @include mc-datatable-base();
 
-    &,
-    tr {
-      width: 100%;
+    & > thead,
+    & > tbody {
+      background-color: $color-grey-000;
     }
 
     tr {
-      height: $mu300 - $border-size;
-
-      &:not(:last-child) {
-        th,
-        td {
-          border-bottom: get-border(s) solid $color-grey-300;
-        }
-      }
+      height: $height-datatable-cell-size-m;
     }
 
     th,
     td {
-      // border-bottom: get-border(s) solid $color-grey-300;
+      border-bottom: get-border(s) solid $color-grey-300;
       text-align: left;
       vertical-align: middle;
       padding: {
@@ -98,18 +55,10 @@
     }
   }
 
-  &__main {
-    overflow-x: auto;
-  }
-
-  &__thead {
+  thead {
     th,
     td {
-      @include set-font-weight("semi-bold");
-      @include set-font-scale("02", "m"); // 12px / 16px
-
-      color: $color-grey-900;
-      text-transform: uppercase;
+      @include mc-datatable-head-label();
     }
   }
 
@@ -119,41 +68,84 @@
     justify-content: space-between;
   }
 
-  &__tbody {
+  tbody {
     tr {
       &:hover {
-        background-color: $color-grey-100;
+        background-color: $color-background-datatable-cell-hover;
       }
 
-      // &.selected {
-      //   background-color: $color-primary-01-100;
-      // }
+      &.selected {
+        background-color: $color-background-datatable-cell-selected;
+      }
     }
 
     th,
     td {
       @include set-font-scale("04", "m"); // 14px / 18px
 
-      color: $color-grey-900;
+      color: $color-font-tbody-cell;
     }
   }
 
   &__row {
+    $datatable-row: &;
+
+    &-parent:not(.mc-datatable__row-parent--expanded)
+      + .mc-datatable__row-expandable {
+      height: 0;
+
+      .mc-datatable__row-inner {
+        overflow: hidden;
+        max-height: 0;
+      }
+    }
+
+    &-parent.mc-datatable__row-parent--expanded
+      + .mc-datatable__row-expandable {
+      .mc-datatable__row-inner {
+        max-height: 100%;
+      }
+    }
+
     &-expandable {
       & > td {
         padding: 0;
+        border-bottom: 0;
+      }
+
+      &--offset {
+        &-1 {
+          table {
+            th:first-child,
+            td:first-child {
+              padding-left: $width-cell-checkbox + $mu100;
+            }
+          }
+        }
+
+        &-2 {
+          table {
+            th:first-child,
+            td:first-child {
+              padding-left: $width-cell-checkbox + $width-cell-button + $mu100;
+            }
+          }
+        }
       }
     }
   }
 
-  // TODO: to be deported in a mixin
   &__cell {
     &-checkbox {
-      width: $mu125 + $mu200;
+      width: $width-cell-checkbox;
     }
 
     &-button {
-      width: $mu150 + $mu200;
+      width: $width-cell-button;
+    }
+
+    &-field {
+      min-width: $width-cell-field;
     }
 
     &-number {
@@ -163,48 +155,12 @@
     }
   }
 
-  // Footer
-  &__footer {
-    align-items: center;
-    // border-top: get-border(s) solid $color-grey-300;
-    display: flex;
-    padding: $mu075 $mu100;
-    gap: $mu100;
-
-    @media screen and (max-width: ($screen-m - 1)) {
-      flex-direction: column;
-    }
-  }
-
-  &__select {
-    display: flex;
-    align-items: center;
-    gap: $mu050;
-
-    &-label {
-      @include set-font-scale("04", "m"); // 14px / 18px
-
-      color: $color-grey-800;
-      flex-shrink: 0;
-    }
-  }
-
-  &__count {
-    @include set-font-scale("02", "m"); // 12px / 16px
-
-    color: $color-grey-600;
-  }
-
-  &__pagination {
-    margin-left: auto;
-  }
-
-  // modifiers
+  // size
   &--s {
     #{$parent} {
       &__table {
         tr {
-          height: $mu250 - $border-size;
+          height: $height-datatable-cell-size-s;
         }
       }
     }
@@ -214,91 +170,118 @@
     #{$parent} {
       &__table {
         tr {
-          height: $mu350 - $border-size;
+          height: $height-datatable-cell-size-l;
         }
       }
     }
   }
 
-  // nested
-  &--nested {
-    tr {
-      height: $mu300 - $border-size;
+  // Sticky
+  &--sticky,
+  &--sticky-header {
+    #{$parent} {
+      &__table {
+        > thead {
+          @include set-box-shadow("l");
 
-      &:not(:last-child) {
-        th,
-        td {
-          border-color: $color-grey-300;
+          top: 0;
+          z-index: 2;
+        }
+      }
+
+      &__table {
+        > tbody {
+          tr:last-child {
+            th,
+            td {
+              border-bottom: transparent;
+            }
+          }
+        }
+      }
+
+      &__footer {
+        border-top: get-border(s) solid $color-grey-300;
+        position: relative;
+        z-index: 2;
+      }
+    }
+  }
+
+  &--sticky {
+    #{$parent} {
+      &__main {
+        padding-top: $height-datatable-cell-size-m;
+        transform: translateZ(0);
+      }
+
+      &__table {
+        @include mc-datatable-scrollbar();
+
+        display: block;
+        overflow-y: auto;
+
+        > thead {
+          position: fixed;
+          width: 100%;
+        }
+
+        > thead,
+        > tbody,
+        > thead tr,
+        > tbody tr,
+        > thead th,
+        > thead td,
+        > tbody th,
+        > tbody td {
+          display: flex;
+        }
+
+        > thead,
+        > tbody,
+        > thead tr,
+        > tbody tr {
+          width: 100%;
+        }
+
+        > tbody {
+          flex-direction: column;
+        }
+
+        > thead th,
+        > thead td,
+        > tbody th,
+        > tbody td {
+          align-items: center;
+
+          &:not(.mc-datatable__cell-checkbox):not(.mc-datatable__cell-button) {
+            flex: 1;
+          }
+        }
+      }
+
+      &__cell {
+        &-checkbox,
+        &-button,
+        &-field,
+        &-number {
+          flex-shrink: 0;
+        }
+
+        &-number {
+          justify-content: flex-end;
         }
       }
     }
   }
 
-  // helpers
-  .button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-    svg {
-      width: $mu150; // 24px
-      height: $mu150;
-    }
-  }
-
-  // tools
-  &__sort {
-    align-items: center;
-    flex-direction: column;
-    height: $mu150;
-    gap: math.div($mu025, 2);
-    justify-content: center;
-    width: $mu150;
-
-    &-arrow {
-      &-top,
-      &-bottom {
-        background-color: $color-grey-200;
-        height: $mu050;
-        width: $mu075;
-      }
-
-      &-top {
-        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-
-        .asc & {
-          background-color: $color-grey-900;
-        }
-
-        .desc & {
-          display: none;
+  &--sticky-header {
+    #{$parent} {
+      &__table {
+        > thead {
+          position: sticky;
         }
       }
-
-      &-bottom {
-        clip-path: polygon(0 0, 100% 0, 50% 100%);
-
-        .asc & {
-          display: none;
-        }
-
-        .desc & {
-          background-color: $color-grey-900;
-        }
-      }
-    }
-
-    &-label {
-      @include visually-hidden();
-    }
-  }
-
-  &__expand {
-    &-icon {
-      fill: $color-primary-01-500;
     }
   }
 }

@@ -1,11 +1,9 @@
 <div class="example">
   <div class="mc-datatable mc-datatable--l">
-    <div class="mc-datatable__wrapper">
-      <!-- MAIN -->
+    <div class="mc-datatable__container">
       <div class="mc-datatable__main">
-        <!-- main -->
         <table class="mc-datatable__table">
-          <thead class="mc-datatable__thead">
+          <thead>
             <tr>
               <th scope="col" class="mc-datatable__cell-checkbox">
                 <div class="mc-checkbox">
@@ -17,241 +15,367 @@
                   />
                 </div>
               </th>
-              <th scope="col" class="mc-datatable__cell-button">&nbsp;</th>
               <th scope="col">
-                <div class="mc-datatable__head">
-                  Label (text)
+                <button
+                  class="mc-datatable__sort mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__sort-label">
+                    <span class="visually-hidden">Trier par</span> Label (text)
+                  </span>
 
-                  <button class="mc-datatable__sort asc button" type="button">
-                    <span class="mc-datatable__sort-arrow-top">&nbsp;</span>
-                    <span class="mc-datatable__sort-arrow-bottom">&nbsp;</span>
-                    <span class="mc-datatable__sort-label">
-                      Trier par label (number)
-                    </span>
-                  </button>
-                </div>
+                  <span class="mc-datatable__sort-arrow"></span>
+                </button>
               </th>
+              <th scope="col">Label</th>
+              <th scope="col">Label</th>
               <th scope="col">
-                <div class="mc-datatable__head">
-                  Label (number)
+                <button
+                  class="mc-datatable__sort mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__sort-label">
+                    <span class="visually-hidden">Trier par</span> Label
+                    (number)
+                  </span>
 
-                  <button class="mc-datatable__sort button" type="button">
-                    <span class="mc-datatable__sort-arrow-top">&nbsp;</span>
-                    <span class="mc-datatable__sort-arrow-bottom">&nbsp;</span>
-                    <span class="mc-datatable__sort-label">
-                      Trier par label (number)
-                    </span>
-                  </button>
-                </div>
+                  <span class="mc-datatable__sort-arrow"></span>
+                </button>
               </th>
-              <th scope="col">Label (field)</th>
-              <th scope="col">Label (badge)</th>
-              <th scope="col">Label (link)</th>
+              <th scope="col">Label</th>
+              <th scope="col">Label</th>
+              <th scope="col">Label</th>
+              <th scope="col">Label</th>
+              <th scope="col">Label</th>
+              <th scope="col">Label</th>
               <th scope="col" class="mc-datatable__cell-button">
-                <!-- Label (settings) -->
-                &nbsp;
-              </th>
-              <th scope="col" class="mc-datatable__cell-button">
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
               </th>
             </tr>
           </thead>
-          <tbody class="mc-datatable__tbody">
-            <!-- ROW 1 -->
+          <tbody>
             <tr>
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-01"
+                    id="checkbox-00"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
-                    <use xlink:href="#ControlCircleMore24" />
-                  </svg>
-                </button>
-              </td>
+              <td>Text</td>
+              <td>Text</td>
               <td>Text</td>
               <td class="mc-datatable__cell-number">99999999</td>
-              <td class="mc-datatable__cell-field">
-                <input
-                  type="text"
-                  class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
-                />
-              </td>
-              <td class="mc-datatable__cell-badge">
-                <div class="mc-badge">Badge text</div>
-              </td>
-              <td class="mc-datatable__cell-link">
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
-              </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
-                  </svg>
-                </button>
-              </td>
-              <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
               </td>
             </tr>
-            <!-- ROW 2 -->
             <tr>
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-01"
+                    id="checkbox-10"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
-                    <use xlink:href="#ControlCircleMore24" />
-                  </svg>
-                </button>
-              </td>
+              <td>Text</td>
+              <td>Text</td>
               <td>Text</td>
               <td class="mc-datatable__cell-number">99999999</td>
-              <td class="mc-datatable__cell-field">
-                <input
-                  type="text"
-                  class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
-                />
-              </td>
-              <td class="mc-datatable__cell-badge">
-                <div class="mc-badge">Badge text</div>
-              </td>
-              <td class="mc-datatable__cell-link">
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
-              </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
-                  </svg>
-                </button>
-              </td>
-              <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
               </td>
             </tr>
-            <!-- ROW 3 -->
-            <tr class="selected">
+            <tr>
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-01"
+                    id="checkbox-02"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
-                    <use xlink:href="#ControlCircleMore24" />
-                  </svg>
-                </button>
-              </td>
+              <td>Text</td>
+              <td>Text</td>
               <td>Text</td>
               <td class="mc-datatable__cell-number">99999999</td>
-              <td class="mc-datatable__cell-field">
-                <input
-                  type="text"
-                  class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
-                />
-              </td>
-              <td class="mc-datatable__cell-badge">
-                <div class="mc-badge">Badge text</div>
-              </td>
-              <td class="mc-datatable__cell-link">
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
-              </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
-                  </svg>
-                </button>
-              </td>
-              <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
               </td>
             </tr>
-            <!-- ROW 4 -->
             <tr>
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-01"
+                    id="checkbox-03"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
-                    <use xlink:href="#ControlCircleMore24" />
-                  </svg>
-                </button>
-              </td>
+              <td>Text</td>
+              <td>Text</td>
               <td>Text</td>
               <td class="mc-datatable__cell-number">99999999</td>
-              <td class="mc-datatable__cell-field">
-                <input
-                  type="text"
-                  class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
-                />
-              </td>
-              <td class="mc-datatable__cell-badge">
-                <div class="mc-badge">Badge text</div>
-              </td>
-              <td class="mc-datatable__cell-link">
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
-              </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
               </td>
-              <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="mc-checkbox">
+                  <input
+                    id="checkbox-04"
+                    type="checkbox"
+                    class="mc-checkbox__input"
+                    aria-label="Checkbox Label"
+                  />
+                </div>
+              </th>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#DisplayOther24" />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="mc-checkbox">
+                  <input
+                    id="checkbox-05"
+                    type="checkbox"
+                    class="mc-checkbox__input"
+                    aria-label="Checkbox Label"
+                  />
+                </div>
+              </th>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#DisplayOther24" />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="mc-checkbox">
+                  <input
+                    id="checkbox-06"
+                    type="checkbox"
+                    class="mc-checkbox__input"
+                    aria-label="Checkbox Label"
+                  />
+                </div>
+              </th>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#DisplayOther24" />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="mc-checkbox">
+                  <input
+                    id="checkbox-07"
+                    type="checkbox"
+                    class="mc-checkbox__input"
+                    aria-label="Checkbox Label"
+                  />
+                </div>
+              </th>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#DisplayOther24" />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="mc-checkbox">
+                  <input
+                    id="checkbox-08"
+                    type="checkbox"
+                    class="mc-checkbox__input"
+                    aria-label="Checkbox Label"
+                  />
+                </div>
+              </th>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#DisplayOther24" />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="mc-checkbox">
+                  <input
+                    id="checkbox-09"
+                    type="checkbox"
+                    class="mc-checkbox__input"
+                    aria-label="Checkbox Label"
+                  />
+                </div>
+              </th>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
@@ -259,58 +383,12 @@
             </tr>
           </tbody>
         </table>
-        <!-- /main -->
-      </div>
-      <!-- FOOTER -->
-      <div class="mc-datatable__footer">
-        <div class="mc-datatable__select">
-          <label for="selectRows" class="mc-datatable__select-label">
-            Rows per page
-          </label>
-          <select id="selectRows" class="mc-select mc-select--s">
-            <option value="option1">1</option>
-            <option value="option2">10</option>
-            <option value="option3">...</option>
-            <option value="option4" selected>999</option>
-          </select>
-        </div>
-        <div class="mc-datatable__count">
-          <strong>1-999</strong> of <strong>9999 items</strong>
-        </div>
-        <!-- Pagination -->
-        <div class="mc-datatable__pagination">
-          <nav class="mc-pagination" role="navigation" aria-label="pagination">
-            <a
-              href="#"
-              class="mc-pagination__button"
-              aria-label="Previous page"
-            >
-              <svg class="mc-pagination__button-icon">
-                <use xlink:href="#iconPaginationPrev" />
-              </svg>
-            </a>
-
-            <div class="mc-pagination__field">
-              <select class="mc-select mc-pagination__select">
-                <option value="1">Page 1 of 99</option>
-                <option value="2">Page 2 of 99</option>
-                <option value="3">Page x of 99</option>
-                <option value="99">Page 99 of 99</option>
-              </select>
-            </div>
-
-            <a href="#" class="mc-pagination__button" aria-label="Next Page">
-              <svg class="mc-pagination__button-icon">
-                <use xlink:href="#iconPaginationNext" />
-              </svg>
-            </a>
-          </nav>
-        </div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- icons -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
   <symbol id="PublishEdit24" viewBox="0 0 24 24">
     <path
@@ -378,3 +456,13 @@
     />
   </symbol>
 </svg>
+
+<!-- scripts -->
+<script>
+  var checkboxes = document.querySelectorAll('.mc-checkbox__input')
+  checkboxes.forEach(function (checkbox) {
+    checkbox.addEventListener('change', function (e) {
+      var tr = checkbox.closest('tr').classList.toggle('selected')
+    })
+  })
+</script>

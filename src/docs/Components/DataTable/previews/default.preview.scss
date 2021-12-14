@@ -12,7 +12,10 @@
 @import "components/_c.pagination";
 @import "components/_c.tag";
 @import "components/_c.toggle";
-@import "components/_c.datatable";
+@import "components/_c.datatable"; // mandatory
+@import "components/_c.datatable-tools"; // mandatory
+@import "components/_c.datatable-header"; // import when using the DataTable with a header
+@import "components/_c.datatable-footer"; // import when using the DataTable with a footer
 
 html,
 body {

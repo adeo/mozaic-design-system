@@ -1,0 +1,49 @@
+@use "sass:math";
+
+.mc-datatable {
+  $parent: get-parent-selector(&);
+
+  // Header - Topbar
+  &__topbar {
+    justify-content: space-between;
+    padding: {
+      top: $mu100;
+      bottom: $mu100;
+    }
+
+    &,
+    &-edition,
+    &-actions {
+      display: flex;
+      gap: $mu100;
+    }
+
+    &-edition,
+    &-actions {
+      flex-wrap: wrap;
+    }
+
+    &-edition {
+      flex-shrink: 0;
+    }
+
+    &-actions {
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+  // Header - Filters
+  &__filters {
+    align-items: center;
+    border-top: get-border(s) solid $color-border-datatable-filters;
+    display: flex;
+    flex-wrap: wrap;
+    gap: $mu100;
+    justify-content: flex-end;
+    padding: {
+      top: $mu100;
+      bottom: $mu100;
+    }
+  }
+}

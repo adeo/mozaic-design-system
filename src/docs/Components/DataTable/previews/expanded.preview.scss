@@ -14,6 +14,7 @@
 @import "components/_c.toggle";
 @import "components/_c.datatable"; // mandatory
 @import "components/_c.datatable-tools"; // mandatory
+@import "components/_c.datatable-subtable"; // import when using the DataTable with Expand
 
 html,
 body {

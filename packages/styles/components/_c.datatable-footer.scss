@@ -1,0 +1,38 @@
+.mc-datatable {
+  $parent: get-parent-selector(&);
+
+  &__footer {
+    align-items: center;
+    background-color: $color-grey-000;
+    display: flex;
+    padding: $mu075 $mu100;
+    gap: $mu100;
+
+    @media screen and (max-width: ($screen-m - 1)) {
+      flex-direction: column;
+    }
+  }
+
+  &__select {
+    display: flex;
+    align-items: center;
+    gap: $mu050;
+
+    &-label {
+      @include set-font-scale("04", "m"); // 14px / 18px
+
+      color: $color-grey-800;
+      flex-shrink: 0;
+    }
+  }
+
+  &__count {
+    @include set-font-scale("02", "m"); // 12px / 16px
+
+    color: $color-grey-600;
+  }
+
+  &__pagination {
+    margin-left: auto;
+  }
+}

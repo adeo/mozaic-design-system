@@ -1,5 +1,5 @@
 <div class="example">
-  <div class="mc-datatable mc-datatable--s">
+  <div class="mc-datatable">
     <div class="mc-datatable__container">
       <div class="mc-datatable__main">
         <table class="mc-datatable__table">
@@ -15,20 +15,7 @@
                   />
                 </div>
               </th>
-              <th scope="col">
-                <button
-                  class="mc-datatable__sort mc-datatable__btn"
-                  type="button"
-                >
-                  <span class="mc-datatable__sort-label">
-                    <span class="visually-hidden">Trier par</span> Label (text)
-                  </span>
-
-                  <span class="mc-datatable__sort-arrow"></span>
-                </button>
-              </th>
-              <th scope="col">Label</th>
-              <th scope="col">Label</th>
+              <th scope="col" class="mc-datatable__cell-button">&nbsp;</th>
               <th scope="col">
                 <button
                   class="mc-datatable__sort mc-datatable__btn"
@@ -42,39 +29,51 @@
                   <span class="mc-datatable__sort-arrow"></span>
                 </button>
               </th>
-              <th scope="col">Label</th>
-              <th scope="col">Label</th>
-              <th scope="col">Label</th>
-              <th scope="col">Label</th>
-              <th scope="col">Label</th>
-              <th scope="col">Label</th>
-              <th scope="col" class="mc-datatable__cell-button">
-                <button
-                  class="mc-datatable__options mc-datatable__btn"
-                  type="button"
-                >
-                  <svg class="mc-datatable__btn-icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
-                </button>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label</span>
               </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label</span>
+              </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label</span>
+              </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label</span>
+              </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label</span>
+              </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label</span>
+              </th>
+              <th scope="col" class="mc-datatable__cell-button">&nbsp;</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr class="mc-datatable__row-parent">
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-00"
+                    id="checkbox-01"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
+              <td>
+                <button
+                  id="expand"
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#ControlCircleMore24" />
+                  </svg>
+                </button>
+              </td>
               <td class="mc-datatable__cell-number">99999999</td>
               <td>Text</td>
               <td>Text</td>
@@ -93,20 +92,68 @@
                 </button>
               </td>
             </tr>
-            <tr>
+            <!--  expanded row -->
+            <tr
+              class="
+                mc-datatable__row-expandable
+                mc-datatable__row-expandable--offset-2
+              "
+            >
+              <td colspan="10">
+                <div class="mc-datatable__row-inner">
+                  <table class="mc-datatable__subtable">
+                    <thead>
+                      <tr>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+            <!-- /expanded row -->
+            <tr class="mc-datatable__row-parent">
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-10"
+                    id="checkbox-01"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
+              <td>
+                <button
+                  id="expand"
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#ControlCircleMore24" />
+                  </svg>
+                </button>
+              </td>
               <td class="mc-datatable__cell-number">99999999</td>
               <td>Text</td>
               <td>Text</td>
@@ -125,20 +172,68 @@
                 </button>
               </td>
             </tr>
-            <tr>
+            <!--  expanded row -->
+            <tr
+              class="
+                mc-datatable__row-expandable
+                mc-datatable__row-expandable--offset-2
+              "
+            >
+              <td colspan="10">
+                <div class="mc-datatable__row-inner">
+                  <table class="mc-datatable__subtable">
+                    <thead>
+                      <tr>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+            <!-- /expanded row -->
+            <tr class="mc-datatable__row-parent">
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-02"
+                    id="checkbox-01"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
+              <td>
+                <button
+                  id="expand"
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#ControlCircleMore24" />
+                  </svg>
+                </button>
+              </td>
               <td class="mc-datatable__cell-number">99999999</td>
               <td>Text</td>
               <td>Text</td>
@@ -157,20 +252,68 @@
                 </button>
               </td>
             </tr>
-            <tr>
+            <!--  expanded row -->
+            <tr
+              class="
+                mc-datatable__row-expandable
+                mc-datatable__row-expandable--offset-2
+              "
+            >
+              <td colspan="10">
+                <div class="mc-datatable__row-inner">
+                  <table class="mc-datatable__subtable">
+                    <thead>
+                      <tr>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+            <!-- /expanded row -->
+            <tr class="mc-datatable__row-parent">
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-03"
+                    id="checkbox-01"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
+              <td>
+                <button
+                  id="expand"
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#ControlCircleMore24" />
+                  </svg>
+                </button>
+              </td>
               <td class="mc-datatable__cell-number">99999999</td>
               <td>Text</td>
               <td>Text</td>
@@ -189,198 +332,45 @@
                 </button>
               </td>
             </tr>
-            <tr>
-              <th scope="row">
-                <div class="mc-checkbox">
-                  <input
-                    id="checkbox-04"
-                    type="checkbox"
-                    class="mc-checkbox__input"
-                    aria-label="Checkbox Label"
-                  />
+            <!--  expanded row -->
+            <tr
+              class="
+                mc-datatable__row-expandable
+                mc-datatable__row-expandable--offset-2
+              "
+            >
+              <td colspan="10">
+                <div class="mc-datatable__row-inner">
+                  <table class="mc-datatable__subtable">
+                    <thead>
+                      <tr>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-              </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-button">
-                <button
-                  class="mc-datatable__options mc-datatable__btn"
-                  type="button"
-                >
-                  <svg class="mc-datatable__btn-icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
-                </button>
               </td>
             </tr>
-            <tr>
-              <th scope="row">
-                <div class="mc-checkbox">
-                  <input
-                    id="checkbox-05"
-                    type="checkbox"
-                    class="mc-checkbox__input"
-                    aria-label="Checkbox Label"
-                  />
-                </div>
-              </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-button">
-                <button
-                  class="mc-datatable__options mc-datatable__btn"
-                  type="button"
-                >
-                  <svg class="mc-datatable__btn-icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">
-                <div class="mc-checkbox">
-                  <input
-                    id="checkbox-06"
-                    type="checkbox"
-                    class="mc-checkbox__input"
-                    aria-label="Checkbox Label"
-                  />
-                </div>
-              </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-button">
-                <button
-                  class="mc-datatable__options mc-datatable__btn"
-                  type="button"
-                >
-                  <svg class="mc-datatable__btn-icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">
-                <div class="mc-checkbox">
-                  <input
-                    id="checkbox-07"
-                    type="checkbox"
-                    class="mc-checkbox__input"
-                    aria-label="Checkbox Label"
-                  />
-                </div>
-              </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-button">
-                <button
-                  class="mc-datatable__options mc-datatable__btn"
-                  type="button"
-                >
-                  <svg class="mc-datatable__btn-icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">
-                <div class="mc-checkbox">
-                  <input
-                    id="checkbox-08"
-                    type="checkbox"
-                    class="mc-checkbox__input"
-                    aria-label="Checkbox Label"
-                  />
-                </div>
-              </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-button">
-                <button
-                  class="mc-datatable__options mc-datatable__btn"
-                  type="button"
-                >
-                  <svg class="mc-datatable__btn-icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">
-                <div class="mc-checkbox">
-                  <input
-                    id="checkbox-09"
-                    type="checkbox"
-                    class="mc-checkbox__input"
-                    aria-label="Checkbox Label"
-                  />
-                </div>
-              </th>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-button">
-                <button
-                  class="mc-datatable__options mc-datatable__btn"
-                  type="button"
-                >
-                  <svg class="mc-datatable__btn-icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
-                </button>
-              </td>
-            </tr>
+            <!-- /expanded row -->
           </tbody>
         </table>
       </div>
@@ -432,6 +422,12 @@
       d="M15.5 11h-2.42V8.5a1 1 0 00-2 0V11H8.5a1 1 0 000 2h2.58v2.5a1 1 0 002 0V13h2.42a1 1 0 000-2z"
     />
   </symbol>
+  <symbol id="ControlCircleLess24" viewBox="0 0 24 24">
+    <path
+      d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+    />
+    <path d="M15.5 13h-7a1 1 0 010-2h7a1 1 0 010 2z" />
+  </symbol>
   <symbol id="DisplayOther24" viewBox="0 0 24 24">
     <circle cx="12" cy="12" r="2" />
     <circle cx="6" cy="12" r="2" />
@@ -459,10 +455,20 @@
 
 <!-- scripts -->
 <script>
-  var checkboxes = document.querySelectorAll('.mc-checkbox__input')
-  checkboxes.forEach(function (checkbox) {
-    checkbox.addEventListener('change', function (e) {
-      var tr = checkbox.closest('tr').classList.toggle('selected')
+  var expands = document.querySelectorAll('.mc-datatable__expand')
+  expands.forEach(function (expand) {
+    expand.addEventListener('click', function (e) {
+      var use = expand.querySelector('use')
+      var svgAttr = use.getAttribute('xlink:href')
+
+      if (svgAttr === '#ControlCircleMore24') {
+        use.setAttribute('xlink:href', '#ControlCircleLess24')
+      } else {
+        use.setAttribute('xlink:href', '#ControlCircleMore24')
+      }
+
+      var tr = expand.closest('tr.mc-datatable__row-parent')
+      tr.classList.toggle('mc-datatable__row-parent--expanded')
     })
   })
 </script>

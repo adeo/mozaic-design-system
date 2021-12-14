@@ -1,8 +1,9 @@
 <div class="example">
   <div class="mc-datatable">
+    <!-- HEADER -->
     <div class="mc-datatable__header">
       <div class="mc-datatable__topbar">
-        <div class="mc-datatable__topbar-main">
+        <div class="mc-datatable__topbar-edition">
           <!-- PublishEdit24 -->
           <button
             type="button"
@@ -32,7 +33,7 @@
             </svg>
           </button>
         </div>
-        <div class="mc-datatable__topbar-secondary">
+        <div class="mc-datatable__topbar-actions">
           <!-- Field -->
           <div class="mc-toggle mc-toggle--s">
             <input class="mc-toggle__input" id="toggle" type="checkbox" />
@@ -123,47 +124,17 @@
             <span class="mc-tag-removable__remove-text">Supprimer</span>
           </button>
         </div>
-        <div
-          class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
-        >
-          <span class="mc-tag-removable__label">Label</span>
-          <button class="mc-tag-removable__remove">
-            <span class="mc-tag-removable__remove-text">Supprimer</span>
-          </button>
-        </div>
-        <div
-          class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
-        >
-          <span class="mc-tag-removable__label">Label</span>
-          <button class="mc-tag-removable__remove">
-            <span class="mc-tag-removable__remove-text">Supprimer</span>
-          </button>
-        </div>
-        <div
-          class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
-        >
-          <span class="mc-tag-removable__label">Label</span>
-          <button class="mc-tag-removable__remove">
-            <span class="mc-tag-removable__remove-text">Supprimer</span>
-          </button>
-        </div>
-        <div
-          class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
-        >
-          <span class="mc-tag-removable__label">Label</span>
-          <button class="mc-tag-removable__remove">
-            <span class="mc-tag-removable__remove-text">Supprimer</span>
-          </button>
-        </div>
         <a href="#" class="mc-link mc-link--s">Reset</a>
       </div>
     </div>
-    <div class="mc-datatable__wrapper">
+
+    <!-- DATATABLE -->
+    <div class="mc-datatable__container">
       <!-- MAIN -->
       <div class="mc-datatable__main">
         <!-- main -->
         <table class="mc-datatable__table">
-          <thead class="mc-datatable__thead">
+          <thead>
             <tr>
               <th scope="col" class="mc-datatable__cell-checkbox">
                 <div class="mc-checkbox">
@@ -177,50 +148,48 @@
               </th>
               <th scope="col" class="mc-datatable__cell-button">&nbsp;</th>
               <th scope="col">
-                <div class="mc-datatable__head">
-                  Label (text)
+                <button
+                  class="mc-datatable__sort mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__sort-label">
+                    <span class="visually-hidden">Trier par</span> Label (text)
+                  </span>
 
-                  <button class="mc-datatable__sort asc button" type="button">
-                    <span class="mc-datatable__sort-arrow-top">&nbsp;</span>
-                    <span class="mc-datatable__sort-arrow-bottom">&nbsp;</span>
-                    <span class="mc-datatable__sort-label">
-                      Trier par label (number)
-                    </span>
-                  </button>
-                </div>
+                  <span class="mc-datatable__sort-arrow"></span>
+                </button>
               </th>
               <th scope="col">
-                <div class="mc-datatable__head">
-                  Label (number)
+                <button
+                  class="mc-datatable__sort mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__sort-label">
+                    <span class="visually-hidden">Trier par</span> Label
+                    (number)
+                  </span>
 
-                  <button class="mc-datatable__sort button" type="button">
-                    <span class="mc-datatable__sort-arrow-top">&nbsp;</span>
-                    <span class="mc-datatable__sort-arrow-bottom">&nbsp;</span>
-                    <span class="mc-datatable__sort-label">
-                      Trier par label (number)
-                    </span>
-                  </button>
-                </div>
-              </th>
-              <th scope="col">Label (field)</th>
-              <th scope="col">Label (badge)</th>
-              <th scope="col">Label (link)</th>
-              <th scope="col" class="mc-datatable__cell-button">
-                <!-- Label (settings) -->
-                &nbsp;
-              </th>
-              <th scope="col" class="mc-datatable__cell-button">
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayOther24" />
-                  </svg>
+                  <span class="mc-datatable__sort-arrow"></span>
                 </button>
+              </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label (field)</span>
+              </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label (badge)</span>
+              </th>
+              <th scope="col">
+                <span class="mc-datatable__head-label">Label (link)</span>
+              </th>
+              <th scope="col" class="mc-datatable__cell-button">
+                <!-- Label (options) -->
+                &nbsp;
               </th>
             </tr>
           </thead>
-          <tbody class="mc-datatable__tbody">
+          <tbody>
             <!-- ROW 1 -->
-            <tr>
+            <tr class="mc-datatable__row-parent">
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
@@ -232,8 +201,13 @@
                 </div>
               </th>
               <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
+                <button
+                  id="expand"
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#ControlCircleMore24" />
                   </svg>
                 </button>
@@ -247,25 +221,59 @@
                   placeholder="Placeholder"
                 />
               </td>
-              <td class="mc-datatable__cell-badge">
+              <td>
                 <div class="mc-badge">Badge text</div>
               </td>
-              <td class="mc-datatable__cell-link">
+              <td>
                 <a href="#" class="mc-link mc-link--s"> Link label </a>
               </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
-                  </svg>
-                </button>
-              </td>
-              <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
+              </td>
+            </tr>
+            <!-- ROW 1bis -->
+            <tr
+              class="
+                mc-datatable__row-expandable
+                mc-datatable__row-expandable--offset-2
+              "
+            >
+              <td colspan="8">
+                <div class="mc-datatable__row-inner">
+                  <table class="mc-datatable__subtable">
+                    <thead>
+                      <tr>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                        <th scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                      <tr>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                        <td>Text-sub</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </td>
             </tr>
             <!-- ROW 2 -->
@@ -281,8 +289,12 @@
                 </div>
               </th>
               <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
+                <button
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#ControlCircleMore24" />
                   </svg>
                 </button>
@@ -296,22 +308,18 @@
                   placeholder="Placeholder"
                 />
               </td>
-              <td class="mc-datatable__cell-badge">
+              <td>
                 <div class="mc-badge">Badge text</div>
               </td>
-              <td class="mc-datatable__cell-link">
+              <td>
                 <a href="#" class="mc-link mc-link--s"> Link label </a>
               </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
-                  </svg>
-                </button>
-              </td>
-              <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
@@ -322,16 +330,21 @@
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-01"
+                    id="checkbox-02"
                     type="checkbox"
+                    checked
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
                   />
                 </div>
               </th>
               <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
+                <button
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#ControlCircleMore24" />
                   </svg>
                 </button>
@@ -345,22 +358,18 @@
                   placeholder="Placeholder"
                 />
               </td>
-              <td class="mc-datatable__cell-badge">
+              <td>
                 <div class="mc-badge">Badge text</div>
               </td>
-              <td class="mc-datatable__cell-link">
+              <td>
                 <a href="#" class="mc-link mc-link--s"> Link label </a>
               </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
-                  </svg>
-                </button>
-              </td>
-              <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
@@ -371,7 +380,7 @@
               <th scope="row">
                 <div class="mc-checkbox">
                   <input
-                    id="checkbox-01"
+                    id="checkbox-03"
                     type="checkbox"
                     class="mc-checkbox__input"
                     aria-label="Checkbox Label"
@@ -379,8 +388,12 @@
                 </div>
               </th>
               <td>
-                <button class="button mc-datatable__expand" type="button">
-                  <svg class="mc-datatable__expand-icon">
+                <button
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#ControlCircleMore24" />
                   </svg>
                 </button>
@@ -394,22 +407,67 @@
                   placeholder="Placeholder"
                 />
               </td>
-              <td class="mc-datatable__cell-badge">
+              <td>
                 <div class="mc-badge">Badge text</div>
               </td>
-              <td class="mc-datatable__cell-link">
+              <td>
                 <a href="#" class="mc-link mc-link--s"> Link label </a>
               </td>
-              <td>
-                <button class="button settings-button" type="button">
-                  <svg class="mc-button__icon">
-                    <use xlink:href="#DisplayBlink24" />
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
               </td>
+            </tr>
+            <!-- ROW 5 -->
+            <tr>
+              <th scope="row">
+                <div class="mc-checkbox">
+                  <input
+                    id="checkbox-04"
+                    type="checkbox"
+                    class="mc-checkbox__input"
+                    aria-label="Checkbox Label"
+                  />
+                </div>
+              </th>
               <td>
-                <button class="button tools-button" type="button">
-                  <svg class="mc-button__icon">
+                <button
+                  class="mc-datatable__expand mc-datatable__btn"
+                  type="button"
+                >
+                  <span class="mc-datatable__btn-label">Déplier la ligne</span>
+                  <svg class="mc-datatable__btn-icon">
+                    <use xlink:href="#ControlCircleMore24" />
+                  </svg>
+                </button>
+              </td>
+              <td>Text</td>
+              <td class="mc-datatable__cell-number">99999999</td>
+              <td class="mc-datatable__cell-field">
+                <input
+                  type="text"
+                  class="mc-text-input mc-text-input--s"
+                  placeholder="Placeholder"
+                />
+              </td>
+              <td>
+                <div class="mc-badge">Badge text</div>
+              </td>
+              <td>
+                <a href="#" class="mc-link mc-link--s"> Link label </a>
+              </td>
+              <td class="mc-datatable__cell-button">
+                <button
+                  class="mc-datatable__options mc-datatable__btn"
+                  type="button"
+                >
+                  <svg class="mc-datatable__btn-icon">
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
@@ -419,6 +477,7 @@
         </table>
         <!-- /main -->
       </div>
+
       <!-- FOOTER -->
       <div class="mc-datatable__footer">
         <div class="mc-datatable__select">
@@ -511,6 +570,12 @@
     <path
       d="M15.5 11h-2.42V8.5a1 1 0 00-2 0V11H8.5a1 1 0 000 2h2.58v2.5a1 1 0 002 0V13h2.42a1 1 0 000-2z"
     />
+  </symbol>
+  <symbol id="ControlCircleLess24" viewBox="0 0 24 24">
+    <path
+      d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"
+    />
+    <path d="M15.5 13h-7a1 1 0 010-2h7a1 1 0 010 2z" />
   </symbol>
   <symbol id="DisplayOther24" viewBox="0 0 24 24">
     <circle cx="12" cy="12" r="2" />

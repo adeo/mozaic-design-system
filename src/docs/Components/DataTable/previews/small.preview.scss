@@ -12,7 +12,8 @@
 @import "components/_c.pagination";
 @import "components/_c.tag";
 @import "components/_c.toggle";
-@import "components/_c.datatable";
+@import "components/_c.datatable"; // mandatory
+@import "components/_c.datatable-tools"; // mandatory
 
 html,
 body {

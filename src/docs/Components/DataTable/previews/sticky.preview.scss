@@ -23,3 +23,19 @@ body {
 .example {
   padding: $mu125;
 }
+
+.mc-datatable {
+  $parent: &;
+
+  &--sticky {
+    #{$parent}__table {
+      max-height: 500px;
+    }
+
+    &-header {
+      #{$parent}__main {
+        max-height: 500px;
+      }
+    }
+  }
+}
