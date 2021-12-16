@@ -1,62 +1,73 @@
+@use "sass:math";
+
 $buttons: get-token(color, button);
 
 $button-sizes: (
-  's': (
-    'font-size': '04',
-    'line-height': 'm',
-    'padding-v': magic-unit-rem(0.3125, 'true'),
-    'padding-h': $mu100,
-    'min-height': $mu200,
-    'icon-size': $mu150,
-    'only-icon-size': $mu150,
+  "s": (
+    "font-size": "04",
+    "line-height": "m",
+    "padding-v": magic-unit-rem(0.3125, "true"),
+    "padding-h": $mu100,
+    "min-height": $mu200,
+    "icon-size": $mu150,
+    "icon-margin-top": -(math.div($mu075, 4)),
+    "icon-margin-bottom": -(math.div($mu075, 4)),
+    "only-icon-size": $mu150,
   ),
-  'm': (
-    'font-size': '05',
-    'line-height': 'm',
-    'padding-v': magic-unit-rem(0.6875, 'true'),
-    'padding-h': $mu200,
-    'min-height': $mu300,
-    'icon-size': $mu150,
-    'only-icon-size': $mu200,
+  "m": (
+    "font-size": "05",
+    "line-height": "m",
+    "padding-v": magic-unit-rem(0.6875, "true"),
+    "padding-h": $mu150,
+    "min-height": $mu300,
+    "icon-size": $mu150,
+    "icon-margin-top": -(math.div($mu025, $mu025)),
+    "icon-margin-bottom": -(math.div($mu025, $mu025)),
+    "only-icon-size": $mu200,
   ),
-  'l': (
-    'font-size': '06',
-    'line-height': 'm',
-    'padding-v': magic-unit-rem(0.875, 'true'),
-    'padding-h': $mu200,
-    'min-height': $mu350,
-    'icon-size': $mu200,
-    'only-icon-size': $mu200,
+  "l": (
+    "font-size": "06",
+    "line-height": "m",
+    "padding-v": magic-unit-rem(0.875, "true"),
+    "padding-h": $mu150,
+    "min-height": $mu350,
+    "icon-size": $mu200,
+    "icon-margin-top": -$mu025,
+    "icon-margin-bottom": -$mu025,
+    "only-icon-size": $mu200,
   ),
 );
 
-$button-medium: map-get($button-sizes, 'm');
-$button-radius: get-border-radius('m');
-$button-border: get-border('m');
-$button-color-default: map-get(get-token(color, button, 'solid'), 'font');
+$button-medium: map-get($button-sizes, "m");
+$button-radius: get-border-radius("m");
+$button-border: get-border("m");
+$button-color-default: map-get(get-token(color, button, "solid"), "font");
 
 @mixin set-button-size($sizeProps) {
   @include set-font-scale(
-    map-get($sizeProps, 'font-size'),
-    map-get($sizeProps, 'line-height')
+    map-get($sizeProps, "font-size"),
+    map-get($sizeProps, "line-height")
   );
 
-  padding: map-get($sizeProps, 'padding-v') map-get($sizeProps, 'padding-h');
-  min-height: map-get($sizeProps, 'min-height');
-  min-width: map-get($sizeProps, 'min-height');
-
-  /* ie11 hack to center vertically */
-
-  /* see : https://github.com/philipwalton/flexbugs/issues/231 */
-  height: 0;
+  padding: map-get($sizeProps, "padding-v") map-get($sizeProps, "padding-h");
+  min-height: map-get($sizeProps, "min-height");
+  min-width: map-get($sizeProps, "min-height");
 
   .mc-button__icon {
-    width: map-get($sizeProps, 'icon-size');
-    height: map-get($sizeProps, 'icon-size');
+    width: map-get($sizeProps, "icon-size");
+    height: map-get($sizeProps, "icon-size");
+
+    &:first-child,
+    &:last-child {
+      margin-bottom: map-get($sizeProps, "icon-margin-bottom");
+      margin-top: map-get($sizeProps, "icon-margin-top");
+    }
 
     &:only-child {
-      width: map-get($sizeProps, 'only-icon-size');
-      height: map-get($sizeProps, 'only-icon-size');
+      margin-bottom: 0;
+      margin-top: 0;
+      width: map-get($sizeProps, "only-icon-size");
+      height: map-get($sizeProps, "only-icon-size");
     }
   }
 }
@@ -72,35 +83,35 @@ $button-color-default: map-get(get-token(color, button, 'solid'), 'font');
 }
 
 @mixin set-button-theme($props, $is-default: false) {
-  $button-color: map-get($props, 'font');
+  $button-color: map-get($props, "font");
 
   @if $button-color != $button-color-default or $is-default == true {
     color: $button-color;
   }
 
-  @if map-has-key($props, 'border') {
-    border-color: map-get($props, 'border');
+  @if map-has-key($props, "border") {
+    border-color: map-get($props, "border");
   }
 
-  @if map-has-key($props, 'background') {
-    background-color: map-get($props, 'background');
+  @if map-has-key($props, "background") {
+    background-color: map-get($props, "background");
   }
 
   @else {
     background-color: transparent;
   }
 
-  @if map-has-key($props, 'hover') {
-    $hover-props: map-get($props, 'hover');
-    $button-color-hover: map-get($hover-props, 'font');
+  @if map-has-key($props, "hover") {
+    $hover-props: map-get($props, "hover");
+    $button-color-hover: map-get($hover-props, "font");
 
     &:hover {
       @include add-demo-state-class {
-        @if map-has-key($hover-props, 'background') {
-          background-color: map-get($hover-props, 'background');
+        @if map-has-key($hover-props, "background") {
+          background-color: map-get($hover-props, "background");
         }
 
-        @if map-has-key($hover-props, 'font') {
+        @if map-has-key($hover-props, "font") {
           @if $button-color != $button-color-default or $is-default == true {
             color: $button-color-hover;
           }
@@ -113,26 +124,26 @@ $button-color-default: map-get(get-token(color, button, 'solid'), 'font');
     }
   }
 
-  @if map-has-key($props, 'active') {
-    $active-props: map-get($props, 'active');
+  @if map-has-key($props, "active") {
+    $active-props: map-get($props, "active");
 
     @each $prop, $value in $active-props {
       &:active {
         @include add-demo-state-class {
-          background-color: map-get($active-props, 'background');
+          background-color: map-get($active-props, "background");
         }
       }
     }
   }
 
-  @if map-has-key($props, 'disabled') {
-    $disabled-props: map-get($props, 'disabled');
+  @if map-has-key($props, "disabled") {
+    $disabled-props: map-get($props, "disabled");
 
     &:disabled {
       @include add-demo-state-class {
         border-color: transparent;
-        background-color: map-get($disabled-props, 'background');
-        color: map-get($disabled-props, 'font');
+        background-color: map-get($disabled-props, "background");
+        color: map-get($disabled-props, "font");
         cursor: not-allowed;
       }
     }
