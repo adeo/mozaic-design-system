@@ -1,0 +1,1266 @@
+
+$border-s: 1 !default;
+$border-m: 2 !default;
+$border-l: 3 !default;
+$color-badge-info-background: #daeff7 !default;
+$color-badge-info-border: #0b96cc !default;
+$color-badge-info-text: #005c91 !default;
+$color-badge-success-background: #ebf5de !default;
+$color-badge-success-border: #46a610 !default;
+$color-badge-success-text: #006902 !default;
+$color-badge-warning-background: #fdf1e8 !default;
+$color-badge-warning-border: #ea7315 !default;
+$color-badge-warning-text: #8c3500 !default;
+$color-badge-danger-background: #fdeaea !default;
+$color-badge-danger-border: #ea302d !default;
+$color-badge-danger-text: #8c0003 !default;
+$color-badge-neutral-background: #eeedea !default;
+$color-badge-neutral-border: #8c8b85 !default;
+$color-badge-neutral-text: #555550 !default;
+$color-primary-01-100: #d9f0f3 !default;
+$color-primary-01-200: #91d5db !default;
+$color-primary-01-300: #48bac4 !default;
+$color-primary-01-400: #009eac !default;
+$color-primary-01-500: #00919f !default;
+$color-primary-01-600: #007f8c !default;
+$color-primary-01-700: #006974 !default;
+$color-primary-01-800: #004e57 !default;
+$color-primary-01-900: #002e33 !default;
+$color-primary-02-100: #dbedea !default;
+$color-primary-02-200: #a5d1cb !default;
+$color-primary-02-300: #6eb4ad !default;
+$color-primary-02-400: #379590 !default;
+$color-primary-02-500: #007574 !default;
+$color-primary-02-600: #035f64 !default;
+$color-primary-02-700: #044c53 !default;
+$color-primary-02-800: #063a44 !default;
+$color-primary-02-900: #062b35 !default;
+$color-grey-100: #eeedea !default;
+$color-grey-200: #dddcd5 !default;
+$color-grey-300: #c2c1ba !default;
+$color-grey-400: #a7a6a0 !default;
+$color-grey-500: #8c8b85 !default;
+$color-grey-600: #71706b !default;
+$color-grey-700: #555550 !default;
+$color-grey-800: #3a3936 !default;
+$color-grey-900: #1e1e1c !default;
+$color-grey-999: #000 !default;
+$color-grey-000: #fff !default;
+$color-secondary-blue-100: #eaedef !default;
+$color-secondary-blue-200: #cdd4d8 !default;
+$color-secondary-blue-300: #b0bbc0 !default;
+$color-secondary-blue-400: #92a2a9 !default;
+$color-secondary-blue-500: #758992 !default;
+$color-secondary-blue-600: #5b737d !default;
+$color-secondary-blue-700: #405d68 !default;
+$color-secondary-blue-800: #264653 !default;
+$color-secondary-blue-900: #082435 !default;
+$color-secondary-green-100: #d9f0f3 !default;
+$color-secondary-green-200: #91d5db !default;
+$color-secondary-green-300: #48bac4 !default;
+$color-secondary-green-400: #009eac !default;
+$color-secondary-green-500: #00919f !default;
+$color-secondary-green-600: #007f8c !default;
+$color-secondary-green-700: #006974 !default;
+$color-secondary-green-800: #004e57 !default;
+$color-secondary-green-900: #002e33 !default;
+$color-secondary-purple-100: #e7e7f0 !default;
+$color-secondary-purple-200: #c5c5dc !default;
+$color-secondary-purple-300: #a4a3c7 !default;
+$color-secondary-purple-400: #8281b2 !default;
+$color-secondary-purple-500: #605f9d !default;
+$color-secondary-purple-600: #4b4a8c !default;
+$color-secondary-purple-700: #393879 !default;
+$color-secondary-purple-800: #282863 !default;
+$color-secondary-purple-900: #1a1a4b !default;
+$color-secondary-red-100: #feedee !default;
+$color-secondary-red-200: #fab9bc !default;
+$color-secondary-red-300: #f38789 !default;
+$color-secondary-red-400: #ea5d58 !default;
+$color-secondary-red-500: #df382b !default;
+$color-secondary-red-600: #b42a27 !default;
+$color-secondary-red-700: #8b2226 !default;
+$color-secondary-red-800: #641b21 !default;
+$color-secondary-red-900: #3e1219 !default;
+$color-secondary-orange-100: #fff5eb !default;
+$color-secondary-orange-200: #ffdab2 !default;
+$color-secondary-orange-300: #ffc17d !default;
+$color-secondary-orange-400: #ffab4b !default;
+$color-secondary-orange-500: #fc961e !default;
+$color-secondary-orange-600: #c86f21 !default;
+$color-secondary-orange-700: #974f20 !default;
+$color-secondary-orange-800: #6a351c !default;
+$color-secondary-orange-900: #401f15 !default;
+$color-secondary-yellow-100: #fff8e2 !default;
+$color-secondary-yellow-200: #ffebaf !default;
+$color-secondary-yellow-300: #fee07d !default;
+$color-secondary-yellow-400: #fcd64c !default;
+$color-secondary-yellow-500: #f8cc1c !default;
+$color-secondary-yellow-600: #c9a21b !default;
+$color-secondary-yellow-700: #9c7b18 !default;
+$color-secondary-yellow-800: #705613 !default;
+$color-secondary-yellow-900: #46350d !default;
+$color-danger-100: #fdeaea !default;
+$color-danger-200: #f8bcbb !default;
+$color-danger-300: #f38d8c !default;
+$color-danger-400: #ef5f5c !default;
+$color-danger-500: #ea302d !default;
+$color-danger-600: #c61112 !default;
+$color-danger-700: #8c0003 !default;
+$color-danger-800: #530000 !default;
+$color-danger-900: #2d0000 !default;
+$color-info-100: #daeff7 !default;
+$color-info-200: #a7d9ed !default;
+$color-info-300: #73c3e2 !default;
+$color-info-400: #3facd7 !default;
+$color-info-500: #0b96cc !default;
+$color-info-600: #007bb4 !default;
+$color-info-700: #005c91 !default;
+$color-info-800: #003a5c !default;
+$color-info-900: #002a41 !default;
+$color-warning-100: #fdf1e8 !default;
+$color-warning-200: #f8d2b3 !default;
+$color-warning-300: #f4b27e !default;
+$color-warning-400: #ef934a !default;
+$color-warning-500: #ea7315 !default;
+$color-warning-600: #c65200 !default;
+$color-warning-700: #8c3500 !default;
+$color-warning-800: #531b00 !default;
+$color-warning-900: #360e00 !default;
+$color-success-100: #ebf5de !default;
+$color-success-200: #c5e39e !default;
+$color-success-300: #9ed05f !default;
+$color-success-400: #78be20 !default;
+$color-success-500: #46a610 !default;
+$color-success-600: #188803 !default;
+$color-success-700: #006902 !default;
+$color-success-800: #035010 !default;
+$color-success-900: #023618 !default;
+$color-button-solid-background: #00919f !default;
+$color-button-solid-font: #fff !default;
+$color-button-solid-focus-border: #006974 !default;
+$color-button-solid-disabled-background: #dddcd5 !default;
+$color-button-solid-disabled-font: #71706b !default;
+$color-button-solid-active-background: #006974 !default;
+$color-button-solid-hover-background: #007f8c !default;
+$color-button-solid-hover-font: #fff !default;
+$color-button-solid-primary-02-background: #007574 !default;
+$color-button-solid-primary-02-font: #fff !default;
+$color-button-solid-primary-02-focus-border: #062b35 !default;
+$color-button-solid-primary-02-disabled-background: #dddcd5 !default;
+$color-button-solid-primary-02-disabled-font: #71706b !default;
+$color-button-solid-primary-02-active-background: #062b35 !default;
+$color-button-solid-primary-02-hover-background: #063a44 !default;
+$color-button-solid-primary-02-hover-font: #fff !default;
+$color-button-solid-neutral-background: #3a3936 !default;
+$color-button-solid-neutral-font: #fff !default;
+$color-button-solid-neutral-focus-border: #1e1e1c !default;
+$color-button-solid-neutral-disabled-background: #dddcd5 !default;
+$color-button-solid-neutral-disabled-font: #71706b !default;
+$color-button-solid-neutral-active-background: #3a3936 !default;
+$color-button-solid-neutral-hover-background: #1e1e1c !default;
+$color-button-solid-neutral-hover-font: #fff !default;
+$color-button-solid-danger-background: #ea302d !default;
+$color-button-solid-danger-font: #fff !default;
+$color-button-solid-danger-focus-border: #8c0003 !default;
+$color-button-solid-danger-disabled-background: #dddcd5 !default;
+$color-button-solid-danger-disabled-font: #71706b !default;
+$color-button-solid-danger-active-background: #8c0003 !default;
+$color-button-solid-danger-hover-background: #c61112 !default;
+$color-button-solid-danger-hover-font: #fff !default;
+$color-button-bordered-background: #fff !default;
+$color-button-bordered-border: #00919f !default;
+$color-button-bordered-font: #00919f !default;
+$color-button-bordered-focus-border: #006974 !default;
+$color-button-bordered-disabled-background: #dddcd5 !default;
+$color-button-bordered-disabled-font: #71706b !default;
+$color-button-bordered-active-background: #91d5db !default;
+$color-button-bordered-hover-background: #d9f0f3 !default;
+$color-button-bordered-primary-02-background: #fff !default;
+$color-button-bordered-primary-02-border: #007574 !default;
+$color-button-bordered-primary-02-font: #007574 !default;
+$color-button-bordered-primary-02-focus-border: #062b35 !default;
+$color-button-bordered-primary-02-disabled-background: #dddcd5 !default;
+$color-button-bordered-primary-02-disabled-font: #71706b !default;
+$color-button-bordered-primary-02-active-background: #a5d1cb !default;
+$color-button-bordered-primary-02-hover-background: #dbedea !default;
+$color-button-bordered-neutral-background: #fff !default;
+$color-button-bordered-neutral-border: #3a3936 !default;
+$color-button-bordered-neutral-font: #3a3936 !default;
+$color-button-bordered-neutral-focus-border: #1e1e1c !default;
+$color-button-bordered-neutral-disabled-background: #dddcd5 !default;
+$color-button-bordered-neutral-disabled-font: #71706b !default;
+$color-button-bordered-neutral-active-background: #dddcd5 !default;
+$color-button-bordered-neutral-hover-background: #eeedea !default;
+$color-button-bordered-danger-background: #fff !default;
+$color-button-bordered-danger-border: #df382b !default;
+$color-button-bordered-danger-font: #df382b !default;
+$color-button-bordered-danger-focus-border: #8b2226 !default;
+$color-button-bordered-danger-disabled-background: #dddcd5 !default;
+$color-button-bordered-danger-disabled-font: #71706b !default;
+$color-button-bordered-danger-active-background: #fab9bc !default;
+$color-button-bordered-danger-hover-background: #feedee !default;
+$color-divider-lightest: #fff !default;
+$color-divider-light: #c2c1ba !default;
+$color-divider-default: #71706b !default;
+$color-divider-dark: #000 !default;
+$color-fields-error: #c61112 !default;
+$color-fields-label: #3a3936 !default;
+$color-fields-requirement: #71706b !default;
+$color-fields-help: #71706b !default;
+$color-fileuploader-font: #000 !default;
+$color-fileuploader-files-list: #eeedea !default;
+$color-fileuploader-files-delete: #dddcd5 !default;
+$color-fileuploader-valid: #46a610 !default;
+$color-fileuploader-alert: #c61112 !default;
+$color-flag-solid-background: #00919f !default;
+$color-flag-solid-border: #00919f !default;
+$color-flag-solid-text: #fff !default;
+$color-flag-solid-primary-02-background: #035f64 !default;
+$color-flag-solid-primary-02-border: #035f64 !default;
+$color-flag-solid-primary-02-text: #fff !default;
+$color-flag-solid-dark-background: #000 !default;
+$color-flag-solid-dark-border: #000 !default;
+$color-flag-solid-dark-text: #fff !default;
+$color-flag-solid-light-background: #fff !default;
+$color-flag-solid-light-border: #fff !default;
+$color-flag-solid-light-text: #000 !default;
+$color-flag-solid-danger-background: #df382b !default;
+$color-flag-solid-danger-border: #df382b !default;
+$color-flag-solid-danger-text: #fff !default;
+$color-flag-bordered-background: #fff !default;
+$color-flag-bordered-border: #00919f !default;
+$color-flag-bordered-text: #00919f !default;
+$color-flag-bordered-primary-02-background: #fff !default;
+$color-flag-bordered-primary-02-border: #035f64 !default;
+$color-flag-bordered-primary-02-text: #035f64 !default;
+$color-flag-bordered-dark-background: #fff !default;
+$color-flag-bordered-dark-border: #000 !default;
+$color-flag-bordered-dark-text: #000 !default;
+$color-flag-bordered-light-background: #000 !default;
+$color-flag-bordered-light-border: #fff !default;
+$color-flag-bordered-light-text: #fff !default;
+$color-flag-bordered-danger-background: #fff !default;
+$color-flag-bordered-danger-border: #df382b !default;
+$color-flag-bordered-danger-text: #df382b !default;
+$color-focus-gap: #fff !default;
+$color-focus-border: #758992 !default;
+$color-font-primary-01: #00919f !default;
+$color-font-primary-02: #007574 !default;
+$color-font-darkest: #000 !default;
+$color-font-darker: #1e1e1c !default;
+$color-font-dark: #3a3936 !default;
+$color-font-light: #71706b !default;
+$color-font-lightest: #fff !default;
+$color-font-info: #007bb4 !default;
+$color-font-success: #188803 !default;
+$color-font-warning: #c65200 !default;
+$color-font-danger: #c61112 !default;
+$color-input-text: #1e1e1c !default;
+$color-input-border: #71706b !default;
+$color-input-placeholder: #8c8b85 !default;
+$color-input-background: #fff !default;
+$color-input-disabled-border: #eeedea !default;
+$color-input-disabled-background: #eeedea !default;
+$color-input-disabled-icon: #a7a6a0 !default;
+$color-input-hover-border: #1e1e1c !default;
+$color-input-focus-border: #758992 !default;
+$color-input-valid-border: #46a610 !default;
+$color-input-valid-hover-border: #035010 !default;
+$color-input-invalid-border: #c61112 !default;
+$color-input-invalid-hover-border: #530000 !default;
+$color-input-checked-border: #00919f !default;
+$color-input-checked-background: #00919f !default;
+$color-input-checked-icon: #fff !default;
+$color-input-checked-hover-border: #004e57 !default;
+$color-link-dark-base: #000 !default;
+$color-link-dark-visited: #3a3936 !default;
+$color-link-dark-active: #3a3936 !default;
+$color-link-dark-disabled: #eeedea !default;
+$color-link-dark-hover: #71706b !default;
+$color-link-light-base: #fff !default;
+$color-link-light-visited: #dddcd5 !default;
+$color-link-light-active: #dddcd5 !default;
+$color-link-light-disabled: #eeedea !default;
+$color-link-light-hover: #a7a6a0 !default;
+$color-link-primary-base: #00919f !default;
+$color-link-primary-visited: #006974 !default;
+$color-link-primary-active: #006974 !default;
+$color-link-primary-disabled: #eeedea !default;
+$color-link-primary-hover: #002e33 !default;
+$color-link-primary-02-base: #035f64 !default;
+$color-link-primary-02-visited: #044c53 !default;
+$color-link-primary-02-active: #044c53 !default;
+$color-link-primary-02-disabled: #eeedea !default;
+$color-link-primary-02-hover: #062b35 !default;
+$color-link-danger-base: #b42a27 !default;
+$color-link-danger-visited: #8b2226 !default;
+$color-link-danger-active: #8b2226 !default;
+$color-link-danger-disabled: #eeedea !default;
+$color-link-danger-hover: #3e1219 !default;
+$color-notification-font: #000 !default;
+$color-notification-information-background: #eaedef !default;
+$color-notification-information-border: #758992 !default;
+$color-notification-success-background: #d9f0f3 !default;
+$color-notification-success-border: #00919f !default;
+$color-notification-warning-background: #fff5eb !default;
+$color-notification-warning-border: #fc961e !default;
+$color-notification-danger-background: #feedee !default;
+$color-notification-danger-border: #df382b !default;
+$color-progress-background: #dddcd5 !default;
+$color-progress-indicator: #007bb4 !default;
+$color-progress-percentage-default: #1e1e1c !default;
+$color-progress-percentage-half: #fff !default;
+$color-progress-branded-indicator: #00919f !default;
+$color-star-empty: #dddcd5 !default;
+$color-star-focus: #758992 !default;
+$color-star-full: #fc961e !default;
+$color-star-hover: #ffc17d !default;
+$color-tabs-background: #fff !default;
+$color-tabs-shadow: #000 !default;
+$color-tabs-default: #1e1e1c !default;
+$color-tabs-hover: #007f8c !default;
+$color-tabs-disabled: #71706b !default;
+$color-tabs-active: #00919f !default;
+$color-tabs-active-disabled: #91d5db !default;
+$color-tag-text-light-background: #fff !default;
+$color-tag-text-light-border: #555550 !default;
+$color-tag-text-light-text: #555550 !default;
+$color-tag-text-dark-background: #000 !default;
+$color-tag-text-dark-border: #fff !default;
+$color-tag-text-dark-text: #fff !default;
+$color-tag-link-light-background: #fff !default;
+$color-tag-link-light-border: #555550 !default;
+$color-tag-link-light-text: #555550 !default;
+$color-tag-link-light-hover-background: #eeedea !default;
+$color-tag-link-light-active-background: #dddcd5 !default;
+$color-tag-link-dark-background: #000 !default;
+$color-tag-link-dark-border: #fff !default;
+$color-tag-link-dark-text: #fff !default;
+$color-tag-link-dark-hover-background: #3a3936 !default;
+$color-tag-link-dark-active-background: #555550 !default;
+$color-tag-selectable-light-background: #dddcd5 !default;
+$color-tag-selectable-light-text: #1e1e1c !default;
+$color-tag-selectable-light-hover-background: #48bac4 !default;
+$color-tag-selectable-light-active-background: #007f8c !default;
+$color-tag-selectable-light-disabled-background: #eeedea !default;
+$color-tag-selectable-light-disabled-text: #8c8b85 !default;
+$color-tag-selectable-light-selected-background: #00919f !default;
+$color-tag-selectable-dark-background: #3a3936 !default;
+$color-tag-selectable-dark-text: #fff !default;
+$color-tag-selectable-dark-hover-background: #00919f !default;
+$color-tag-selectable-dark-active-background: #004e57 !default;
+$color-tag-selectable-dark-selected-background: #006974 !default;
+$color-tag-selectable-dark-disabled-background: #555550 !default;
+$color-tag-selectable-dark-disabled-text: #8c8b85 !default;
+$color-tag-removable-light-background: #dddcd5 !default;
+$color-tag-removable-light-text: #1e1e1c !default;
+$color-tag-removable-light-icon: #3a3936 !default;
+$color-tag-removable-light-hover-background: #c2c1ba !default;
+$color-tag-removable-light-active-background: #a7a6a0 !default;
+$color-tag-removable-dark-background: #3a3936 !default;
+$color-tag-removable-dark-text: #fff !default;
+$color-tag-removable-dark-icon: #dddcd5 !default;
+$color-tag-removable-dark-hover-background: #555550 !default;
+$color-tag-removable-dark-active-background: #71706b !default;
+$color-toggle-off-background: #71706b !default;
+$color-toggle-off-circle: #fff !default;
+$color-toggle-on-background: #00919f !default;
+$color-toggle-on-circle: #fff !default;
+$color-toggle-hover-circle: #eeedea !default;
+$color-toggle-disabled-background: #eeedea !default;
+$color-toggle-disabled-circle: #c2c1ba !default;
+$color-toggle-disabled-checked-background: #91d5db !default;
+$color-toggle-disabled-checked-circle: #fff !default;
+$preset: adeo !default;
+$radius-s: 2 !default;
+$radius-m: 4 !default;
+$radius-l: 6 !default;
+$shadow-s-x: 0 !default;
+$shadow-s-y: 1px !default;
+$shadow-s-blur: 5px !default;
+$shadow-s-spread: 0 !default;
+$shadow-s-opacity: 0.2 !default;
+$shadow-m-x: 0 !default;
+$shadow-m-y: 2px !default;
+$shadow-m-blur: 10px !default;
+$shadow-m-spread: 0 !default;
+$shadow-m-opacity: 0.2 !default;
+$shadow-l-x: 0 !default;
+$shadow-l-y: 4px !default;
+$shadow-l-blur: 20px !default;
+$shadow-l-spread: 0 !default;
+$shadow-l-opacity: 0.2 !default;
+$magic-unit: 1 !default;
+$local-rem-value: 16 !default;
+$size-font-10: 2.5625rem !default; // 41px
+$size-font-11: 3.0625rem !default; // 49px
+$size-font-12: 3.6875rem !default; // 59px
+$size-font-01: 0.6815rem !default; // 11px
+$size-font-02: 0.75rem !default; // 12px
+$size-font-03: 0.8125rem !default; // 13px
+$size-font-04: 0.875rem !default; // 14px
+$size-font-05: 1rem !default; // 16px
+$size-font-06: 1.125rem !default; // 18px
+$size-font-07: 1.4375rem !default; // 23px
+$size-font-08: 1.75rem !default; // 28px
+$size-font-09: 2.125rem !default; // 34px
+$size-line-10-xs: 2.5rem !default; // 40px
+$size-line-10-s: 3rem !default; // 48px
+$size-line-10-m: 3.5rem !default; // 56px
+$size-line-10-l: 3.75rem !default; // 60px
+$size-line-11-xs: 3rem !default; // 48px
+$size-line-11-s: 3.5rem !default; // 56px
+$size-line-11-m: 4.25rem !default; // 68px
+$size-line-11-l: 4.5rem !default; // 72px
+$size-line-12-xs: 3.75rem !default; // 60px
+$size-line-12-s: 4.25rem !default; // 68px
+$size-line-12-m: 5rem !default; // 80px
+$size-line-12-l: 5.5rem !default; // 88px
+$size-line-01-xs: 0.75rem !default; // 12px
+$size-line-01-s: 0.75rem !default; // 12px
+$size-line-01-m: 0.875rem !default; // 14px
+$size-line-01-l: 1rem !default; // 16px
+$size-line-02-xs: 0.75rem !default; // 12px
+$size-line-02-s: 0.875rem !default; // 14px
+$size-line-02-m: 1rem !default; // 16px
+$size-line-02-l: 1.125rem !default; // 18px
+$size-line-03-xs: 0.875rem !default; // 14px
+$size-line-03-s: 1rem !default; // 16px
+$size-line-03-m: 1.125rem !default; // 18px
+$size-line-03-l: 1.25rem !default; // 20px
+$size-line-04-xs: 0.875rem !default; // 14px
+$size-line-04-s: 1rem !default; // 16px
+$size-line-04-m: 1.125rem !default; // 18px
+$size-line-04-l: 1.375rem !default; // 22px
+$size-line-05-xs: 1rem !default; // 16px
+$size-line-05-s: 1.125rem !default; // 18px
+$size-line-05-m: 1.375rem !default; // 22px
+$size-line-05-l: 1.5rem !default; // 24px
+$size-line-06-xs: 1.125rem !default; // 18px
+$size-line-06-s: 1.25rem !default; // 20px
+$size-line-06-m: 1.5rem !default; // 24px
+$size-line-06-l: 1.75rem !default; // 28px
+$size-line-07-xs: 1.5rem !default; // 24px
+$size-line-07-s: 1.75rem !default; // 28px
+$size-line-07-m: 2rem !default; // 32px
+$size-line-07-l: 2.25rem !default; // 36px
+$size-line-08-xs: 1.75rem !default; // 28px
+$size-line-08-s: 2rem !default; // 32px
+$size-line-08-m: 2.25rem !default; // 36px
+$size-line-08-l: 2.75rem !default; // 44px
+$size-line-09-xs: 2.25rem !default; // 36px
+$size-line-09-s: 2.5rem !default; // 40px
+$size-line-09-m: 2.75rem !default; // 44px
+$size-line-09-l: 3.25rem !default; // 52px
+$size-gutter-screen-s: 1rem !default;
+$size-gutter-screen-m: 2rem !default;
+$screen-s: 0 !default;
+$screen-s-medium: 320px !default;
+$screen-s-large: 360px !default;
+$screen-s-xlarge: 390px !default;
+$screen-m: 680px !default;
+$screen-m-medium: 769px !default;
+$screen-l: 1024px !default;
+$screen-l-medium: 1100px !default;
+$screen-xl: 1280px !default;
+$screen-xl-medium: 1440px !default;
+$screen-xl-large: 1680px !default;
+$screen-xxl: 1920px !default;
+
+$tokens: (
+  'border': (
+    's': $border-s,
+    'm': $border-m,
+    'l': $border-l
+  ),
+  'color': (
+    'badge': (
+      'info': (
+        'background': $color-badge-info-background,
+        'border': $color-badge-info-border,
+        'text': $color-badge-info-text
+      ),
+      'success': (
+        'background': $color-badge-success-background,
+        'border': $color-badge-success-border,
+        'text': $color-badge-success-text
+      ),
+      'warning': (
+        'background': $color-badge-warning-background,
+        'border': $color-badge-warning-border,
+        'text': $color-badge-warning-text
+      ),
+      'danger': (
+        'background': $color-badge-danger-background,
+        'border': $color-badge-danger-border,
+        'text': $color-badge-danger-text
+      ),
+      'neutral': (
+        'background': $color-badge-neutral-background,
+        'border': $color-badge-neutral-border,
+        'text': $color-badge-neutral-text
+      )
+    ),
+    'primary-01': (
+      '100': $color-primary-01-100,
+      '200': $color-primary-01-200,
+      '300': $color-primary-01-300,
+      '400': $color-primary-01-400,
+      '500': $color-primary-01-500,
+      '600': $color-primary-01-600,
+      '700': $color-primary-01-700,
+      '800': $color-primary-01-800,
+      '900': $color-primary-01-900
+    ),
+    'primary-02': (
+      '100': $color-primary-02-100,
+      '200': $color-primary-02-200,
+      '300': $color-primary-02-300,
+      '400': $color-primary-02-400,
+      '500': $color-primary-02-500,
+      '600': $color-primary-02-600,
+      '700': $color-primary-02-700,
+      '800': $color-primary-02-800,
+      '900': $color-primary-02-900
+    ),
+    'grey': (
+      '100': $color-grey-100,
+      '200': $color-grey-200,
+      '300': $color-grey-300,
+      '400': $color-grey-400,
+      '500': $color-grey-500,
+      '600': $color-grey-600,
+      '700': $color-grey-700,
+      '800': $color-grey-800,
+      '900': $color-grey-900,
+      '999': $color-grey-999,
+      '000': $color-grey-000
+    ),
+    'secondary-blue': (
+      '100': $color-secondary-blue-100,
+      '200': $color-secondary-blue-200,
+      '300': $color-secondary-blue-300,
+      '400': $color-secondary-blue-400,
+      '500': $color-secondary-blue-500,
+      '600': $color-secondary-blue-600,
+      '700': $color-secondary-blue-700,
+      '800': $color-secondary-blue-800,
+      '900': $color-secondary-blue-900
+    ),
+    'secondary-green': (
+      '100': $color-secondary-green-100,
+      '200': $color-secondary-green-200,
+      '300': $color-secondary-green-300,
+      '400': $color-secondary-green-400,
+      '500': $color-secondary-green-500,
+      '600': $color-secondary-green-600,
+      '700': $color-secondary-green-700,
+      '800': $color-secondary-green-800,
+      '900': $color-secondary-green-900
+    ),
+    'secondary-purple': (
+      '100': $color-secondary-purple-100,
+      '200': $color-secondary-purple-200,
+      '300': $color-secondary-purple-300,
+      '400': $color-secondary-purple-400,
+      '500': $color-secondary-purple-500,
+      '600': $color-secondary-purple-600,
+      '700': $color-secondary-purple-700,
+      '800': $color-secondary-purple-800,
+      '900': $color-secondary-purple-900
+    ),
+    'secondary-red': (
+      '100': $color-secondary-red-100,
+      '200': $color-secondary-red-200,
+      '300': $color-secondary-red-300,
+      '400': $color-secondary-red-400,
+      '500': $color-secondary-red-500,
+      '600': $color-secondary-red-600,
+      '700': $color-secondary-red-700,
+      '800': $color-secondary-red-800,
+      '900': $color-secondary-red-900
+    ),
+    'secondary-orange': (
+      '100': $color-secondary-orange-100,
+      '200': $color-secondary-orange-200,
+      '300': $color-secondary-orange-300,
+      '400': $color-secondary-orange-400,
+      '500': $color-secondary-orange-500,
+      '600': $color-secondary-orange-600,
+      '700': $color-secondary-orange-700,
+      '800': $color-secondary-orange-800,
+      '900': $color-secondary-orange-900
+    ),
+    'secondary-yellow': (
+      '100': $color-secondary-yellow-100,
+      '200': $color-secondary-yellow-200,
+      '300': $color-secondary-yellow-300,
+      '400': $color-secondary-yellow-400,
+      '500': $color-secondary-yellow-500,
+      '600': $color-secondary-yellow-600,
+      '700': $color-secondary-yellow-700,
+      '800': $color-secondary-yellow-800,
+      '900': $color-secondary-yellow-900
+    ),
+    'danger': (
+      '100': $color-danger-100,
+      '200': $color-danger-200,
+      '300': $color-danger-300,
+      '400': $color-danger-400,
+      '500': $color-danger-500,
+      '600': $color-danger-600,
+      '700': $color-danger-700,
+      '800': $color-danger-800,
+      '900': $color-danger-900
+    ),
+    'info': (
+      '100': $color-info-100,
+      '200': $color-info-200,
+      '300': $color-info-300,
+      '400': $color-info-400,
+      '500': $color-info-500,
+      '600': $color-info-600,
+      '700': $color-info-700,
+      '800': $color-info-800,
+      '900': $color-info-900
+    ),
+    'warning': (
+      '100': $color-warning-100,
+      '200': $color-warning-200,
+      '300': $color-warning-300,
+      '400': $color-warning-400,
+      '500': $color-warning-500,
+      '600': $color-warning-600,
+      '700': $color-warning-700,
+      '800': $color-warning-800,
+      '900': $color-warning-900
+    ),
+    'success': (
+      '100': $color-success-100,
+      '200': $color-success-200,
+      '300': $color-success-300,
+      '400': $color-success-400,
+      '500': $color-success-500,
+      '600': $color-success-600,
+      '700': $color-success-700,
+      '800': $color-success-800,
+      '900': $color-success-900
+    ),
+    'button': (
+      'solid': (
+        'background': $color-button-solid-background,
+        'font': $color-button-solid-font,
+        'focus': (
+          'border': $color-button-solid-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-solid-disabled-background,
+          'font': $color-button-solid-disabled-font
+        ),
+        'active': (
+          'background': $color-button-solid-active-background
+        ),
+        'hover': (
+          'background': $color-button-solid-hover-background,
+          'font': $color-button-solid-hover-font
+        )
+      ),
+      'solid-primary-02': (
+        'background': $color-button-solid-primary-02-background,
+        'font': $color-button-solid-primary-02-font,
+        'focus': (
+          'border': $color-button-solid-primary-02-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-solid-primary-02-disabled-background,
+          'font': $color-button-solid-primary-02-disabled-font
+        ),
+        'active': (
+          'background': $color-button-solid-primary-02-active-background
+        ),
+        'hover': (
+          'background': $color-button-solid-primary-02-hover-background,
+          'font': $color-button-solid-primary-02-hover-font
+        )
+      ),
+      'solid-neutral': (
+        'background': $color-button-solid-neutral-background,
+        'font': $color-button-solid-neutral-font,
+        'focus': (
+          'border': $color-button-solid-neutral-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-solid-neutral-disabled-background,
+          'font': $color-button-solid-neutral-disabled-font
+        ),
+        'active': (
+          'background': $color-button-solid-neutral-active-background
+        ),
+        'hover': (
+          'background': $color-button-solid-neutral-hover-background,
+          'font': $color-button-solid-neutral-hover-font
+        )
+      ),
+      'solid-danger': (
+        'background': $color-button-solid-danger-background,
+        'font': $color-button-solid-danger-font,
+        'focus': (
+          'border': $color-button-solid-danger-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-solid-danger-disabled-background,
+          'font': $color-button-solid-danger-disabled-font
+        ),
+        'active': (
+          'background': $color-button-solid-danger-active-background
+        ),
+        'hover': (
+          'background': $color-button-solid-danger-hover-background,
+          'font': $color-button-solid-danger-hover-font
+        )
+      ),
+      'bordered': (
+        'background': $color-button-bordered-background,
+        'border': $color-button-bordered-border,
+        'font': $color-button-bordered-font,
+        'focus': (
+          'border': $color-button-bordered-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-bordered-disabled-background,
+          'font': $color-button-bordered-disabled-font
+        ),
+        'active': (
+          'background': $color-button-bordered-active-background
+        ),
+        'hover': (
+          'background': $color-button-bordered-hover-background
+        )
+      ),
+      'bordered-primary-02': (
+        'background': $color-button-bordered-primary-02-background,
+        'border': $color-button-bordered-primary-02-border,
+        'font': $color-button-bordered-primary-02-font,
+        'focus': (
+          'border': $color-button-bordered-primary-02-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-bordered-primary-02-disabled-background,
+          'font': $color-button-bordered-primary-02-disabled-font
+        ),
+        'active': (
+          'background': $color-button-bordered-primary-02-active-background
+        ),
+        'hover': (
+          'background': $color-button-bordered-primary-02-hover-background
+        )
+      ),
+      'bordered-neutral': (
+        'background': $color-button-bordered-neutral-background,
+        'border': $color-button-bordered-neutral-border,
+        'font': $color-button-bordered-neutral-font,
+        'focus': (
+          'border': $color-button-bordered-neutral-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-bordered-neutral-disabled-background,
+          'font': $color-button-bordered-neutral-disabled-font
+        ),
+        'active': (
+          'background': $color-button-bordered-neutral-active-background
+        ),
+        'hover': (
+          'background': $color-button-bordered-neutral-hover-background
+        )
+      ),
+      'bordered-danger': (
+        'background': $color-button-bordered-danger-background,
+        'border': $color-button-bordered-danger-border,
+        'font': $color-button-bordered-danger-font,
+        'focus': (
+          'border': $color-button-bordered-danger-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-bordered-danger-disabled-background,
+          'font': $color-button-bordered-danger-disabled-font
+        ),
+        'active': (
+          'background': $color-button-bordered-danger-active-background
+        ),
+        'hover': (
+          'background': $color-button-bordered-danger-hover-background
+        )
+      )
+    ),
+    'divider': (
+      'lightest': $color-divider-lightest,
+      'light': $color-divider-light,
+      'default': $color-divider-default,
+      'dark': $color-divider-dark
+    ),
+    'fields': (
+      'error': $color-fields-error,
+      'label': $color-fields-label,
+      'requirement': $color-fields-requirement,
+      'help': $color-fields-help
+    ),
+    'fileuploader': (
+      'font': $color-fileuploader-font,
+      'files': (
+        'list': $color-fileuploader-files-list,
+        'delete': $color-fileuploader-files-delete
+      ),
+      'valid': $color-fileuploader-valid,
+      'alert': $color-fileuploader-alert
+    ),
+    'flag': (
+      'solid': (
+        'background': $color-flag-solid-background,
+        'border': $color-flag-solid-border,
+        'text': $color-flag-solid-text
+      ),
+      'solid-primary-02': (
+        'background': $color-flag-solid-primary-02-background,
+        'border': $color-flag-solid-primary-02-border,
+        'text': $color-flag-solid-primary-02-text
+      ),
+      'solid-dark': (
+        'background': $color-flag-solid-dark-background,
+        'border': $color-flag-solid-dark-border,
+        'text': $color-flag-solid-dark-text
+      ),
+      'solid-light': (
+        'background': $color-flag-solid-light-background,
+        'border': $color-flag-solid-light-border,
+        'text': $color-flag-solid-light-text
+      ),
+      'solid-danger': (
+        'background': $color-flag-solid-danger-background,
+        'border': $color-flag-solid-danger-border,
+        'text': $color-flag-solid-danger-text
+      ),
+      'bordered': (
+        'background': $color-flag-bordered-background,
+        'border': $color-flag-bordered-border,
+        'text': $color-flag-bordered-text
+      ),
+      'bordered-primary-02': (
+        'background': $color-flag-bordered-primary-02-background,
+        'border': $color-flag-bordered-primary-02-border,
+        'text': $color-flag-bordered-primary-02-text
+      ),
+      'bordered-dark': (
+        'background': $color-flag-bordered-dark-background,
+        'border': $color-flag-bordered-dark-border,
+        'text': $color-flag-bordered-dark-text
+      ),
+      'bordered-light': (
+        'background': $color-flag-bordered-light-background,
+        'border': $color-flag-bordered-light-border,
+        'text': $color-flag-bordered-light-text
+      ),
+      'bordered-danger': (
+        'background': $color-flag-bordered-danger-background,
+        'border': $color-flag-bordered-danger-border,
+        'text': $color-flag-bordered-danger-text
+      )
+    ),
+    'focus': (
+      'gap': $color-focus-gap,
+      'border': $color-focus-border
+    ),
+    'font': (
+      'primary-01': $color-font-primary-01,
+      'primary-02': $color-font-primary-02,
+      'darkest': $color-font-darkest,
+      'darker': $color-font-darker,
+      'dark': $color-font-dark,
+      'light': $color-font-light,
+      'lightest': $color-font-lightest,
+      'info': $color-font-info,
+      'success': $color-font-success,
+      'warning': $color-font-warning,
+      'danger': $color-font-danger
+    ),
+    'input': (
+      'text': $color-input-text,
+      'border': $color-input-border,
+      'placeholder': $color-input-placeholder,
+      'background': $color-input-background,
+      'disabled': (
+        'border': $color-input-disabled-border,
+        'background': $color-input-disabled-background,
+        'icon': $color-input-disabled-icon
+      ),
+      'hover': (
+        'border': $color-input-hover-border
+      ),
+      'focus': (
+        'border': $color-input-focus-border
+      ),
+      'valid': (
+        'border': $color-input-valid-border,
+        'hover': (
+          'border': $color-input-valid-hover-border
+        )
+      ),
+      'invalid': (
+        'border': $color-input-invalid-border,
+        'hover': (
+          'border': $color-input-invalid-hover-border
+        )
+      ),
+      'checked': (
+        'border': $color-input-checked-border,
+        'background': $color-input-checked-background,
+        'icon': $color-input-checked-icon,
+        'hover': (
+          'border': $color-input-checked-hover-border
+        )
+      )
+    ),
+    'link': (
+      'dark': (
+        'base': $color-link-dark-base,
+        'visited': $color-link-dark-visited,
+        'active': $color-link-dark-active,
+        'disabled': $color-link-dark-disabled,
+        'hover': $color-link-dark-hover
+      ),
+      'light': (
+        'base': $color-link-light-base,
+        'visited': $color-link-light-visited,
+        'active': $color-link-light-active,
+        'disabled': $color-link-light-disabled,
+        'hover': $color-link-light-hover
+      ),
+      'primary': (
+        'base': $color-link-primary-base,
+        'visited': $color-link-primary-visited,
+        'active': $color-link-primary-active,
+        'disabled': $color-link-primary-disabled,
+        'hover': $color-link-primary-hover
+      ),
+      'primary-02': (
+        'base': $color-link-primary-02-base,
+        'visited': $color-link-primary-02-visited,
+        'active': $color-link-primary-02-active,
+        'disabled': $color-link-primary-02-disabled,
+        'hover': $color-link-primary-02-hover
+      ),
+      'danger': (
+        'base': $color-link-danger-base,
+        'visited': $color-link-danger-visited,
+        'active': $color-link-danger-active,
+        'disabled': $color-link-danger-disabled,
+        'hover': $color-link-danger-hover
+      )
+    ),
+    'notification': (
+      'font': $color-notification-font,
+      'information': (
+        'background': $color-notification-information-background,
+        'border': $color-notification-information-border
+      ),
+      'success': (
+        'background': $color-notification-success-background,
+        'border': $color-notification-success-border
+      ),
+      'warning': (
+        'background': $color-notification-warning-background,
+        'border': $color-notification-warning-border
+      ),
+      'danger': (
+        'background': $color-notification-danger-background,
+        'border': $color-notification-danger-border
+      )
+    ),
+    'progress': (
+      'background': $color-progress-background,
+      'indicator': $color-progress-indicator,
+      'percentage': (
+        'default': $color-progress-percentage-default,
+        'half': $color-progress-percentage-half
+      ),
+      'branded': (
+        'indicator': $color-progress-branded-indicator
+      )
+    ),
+    'star': (
+      'empty': $color-star-empty,
+      'focus': $color-star-focus,
+      'full': $color-star-full,
+      'hover': $color-star-hover
+    ),
+    'tabs': (
+      'background': $color-tabs-background,
+      'shadow': $color-tabs-shadow,
+      'default': $color-tabs-default,
+      'hover': $color-tabs-hover,
+      'disabled': $color-tabs-disabled,
+      'active': $color-tabs-active,
+      'active-disabled': $color-tabs-active-disabled
+    ),
+    'tag': (
+      'text': (
+        'light': (
+          'background': $color-tag-text-light-background,
+          'border': $color-tag-text-light-border,
+          'text': $color-tag-text-light-text
+        ),
+        'dark': (
+          'background': $color-tag-text-dark-background,
+          'border': $color-tag-text-dark-border,
+          'text': $color-tag-text-dark-text
+        )
+      ),
+      'link': (
+        'light': (
+          'background': $color-tag-link-light-background,
+          'border': $color-tag-link-light-border,
+          'text': $color-tag-link-light-text,
+          'hover': (
+            'background': $color-tag-link-light-hover-background
+          ),
+          'active': (
+            'background': $color-tag-link-light-active-background
+          )
+        ),
+        'dark': (
+          'background': $color-tag-link-dark-background,
+          'border': $color-tag-link-dark-border,
+          'text': $color-tag-link-dark-text,
+          'hover': (
+            'background': $color-tag-link-dark-hover-background
+          ),
+          'active': (
+            'background': $color-tag-link-dark-active-background
+          )
+        )
+      ),
+      'selectable': (
+        'light': (
+          'background': $color-tag-selectable-light-background,
+          'text': $color-tag-selectable-light-text,
+          'hover': (
+            'background': $color-tag-selectable-light-hover-background
+          ),
+          'active': (
+            'background': $color-tag-selectable-light-active-background
+          ),
+          'disabled': (
+            'background': $color-tag-selectable-light-disabled-background,
+            'text': $color-tag-selectable-light-disabled-text
+          ),
+          'selected': (
+            'background': $color-tag-selectable-light-selected-background
+          )
+        ),
+        'dark': (
+          'background': $color-tag-selectable-dark-background,
+          'text': $color-tag-selectable-dark-text,
+          'hover': (
+            'background': $color-tag-selectable-dark-hover-background
+          ),
+          'active': (
+            'background': $color-tag-selectable-dark-active-background
+          ),
+          'selected': (
+            'background': $color-tag-selectable-dark-selected-background
+          ),
+          'disabled': (
+            'background': $color-tag-selectable-dark-disabled-background,
+            'text': $color-tag-selectable-dark-disabled-text
+          )
+        )
+      ),
+      'removable': (
+        'light': (
+          'background': $color-tag-removable-light-background,
+          'text': $color-tag-removable-light-text,
+          'icon': $color-tag-removable-light-icon,
+          'hover': (
+            'background': $color-tag-removable-light-hover-background
+          ),
+          'active': (
+            'background': $color-tag-removable-light-active-background
+          )
+        ),
+        'dark': (
+          'background': $color-tag-removable-dark-background,
+          'text': $color-tag-removable-dark-text,
+          'icon': $color-tag-removable-dark-icon,
+          'hover': (
+            'background': $color-tag-removable-dark-hover-background
+          ),
+          'active': (
+            'background': $color-tag-removable-dark-active-background
+          )
+        )
+      )
+    ),
+    'toggle': (
+      'off': (
+        'background': $color-toggle-off-background,
+        'circle': $color-toggle-off-circle
+      ),
+      'on': (
+        'background': $color-toggle-on-background,
+        'circle': $color-toggle-on-circle
+      ),
+      'hover': (
+        'circle': $color-toggle-hover-circle
+      ),
+      'disabled': (
+        'background': $color-toggle-disabled-background,
+        'circle': $color-toggle-disabled-circle
+      ),
+      'disabled-checked': (
+        'background': $color-toggle-disabled-checked-background,
+        'circle': $color-toggle-disabled-checked-circle
+      )
+    )
+  ),
+  'preset': $preset,
+  'radius': (
+    's': $radius-s,
+    'm': $radius-m,
+    'l': $radius-l
+  ),
+  'shadow': (
+    's': (
+      'x': $shadow-s-x,
+      'y': $shadow-s-y,
+      'blur': $shadow-s-blur,
+      'spread': $shadow-s-spread,
+      'opacity': $shadow-s-opacity
+    ),
+    'm': (
+      'x': $shadow-m-x,
+      'y': $shadow-m-y,
+      'blur': $shadow-m-blur,
+      'spread': $shadow-m-spread,
+      'opacity': $shadow-m-opacity
+    ),
+    'l': (
+      'x': $shadow-l-x,
+      'y': $shadow-l-y,
+      'blur': $shadow-l-blur,
+      'spread': $shadow-l-spread,
+      'opacity': $shadow-l-opacity
+    )
+  ),
+  'magic-unit': $magic-unit,
+  'local-rem-value': $local-rem-value,
+  'size': (
+    'font': (
+      '10': $size-font-10,
+      '11': $size-font-11,
+      '12': $size-font-12,
+      '01': $size-font-01,
+      '02': $size-font-02,
+      '03': $size-font-03,
+      '04': $size-font-04,
+      '05': $size-font-05,
+      '06': $size-font-06,
+      '07': $size-font-07,
+      '08': $size-font-08,
+      '09': $size-font-09
+    ),
+    'line': (
+      '10': (
+        'xs': $size-line-10-xs,
+        's': $size-line-10-s,
+        'm': $size-line-10-m,
+        'l': $size-line-10-l
+      ),
+      '11': (
+        'xs': $size-line-11-xs,
+        's': $size-line-11-s,
+        'm': $size-line-11-m,
+        'l': $size-line-11-l
+      ),
+      '12': (
+        'xs': $size-line-12-xs,
+        's': $size-line-12-s,
+        'm': $size-line-12-m,
+        'l': $size-line-12-l
+      ),
+      '01': (
+        'xs': $size-line-01-xs,
+        's': $size-line-01-s,
+        'm': $size-line-01-m,
+        'l': $size-line-01-l
+      ),
+      '02': (
+        'xs': $size-line-02-xs,
+        's': $size-line-02-s,
+        'm': $size-line-02-m,
+        'l': $size-line-02-l
+      ),
+      '03': (
+        'xs': $size-line-03-xs,
+        's': $size-line-03-s,
+        'm': $size-line-03-m,
+        'l': $size-line-03-l
+      ),
+      '04': (
+        'xs': $size-line-04-xs,
+        's': $size-line-04-s,
+        'm': $size-line-04-m,
+        'l': $size-line-04-l
+      ),
+      '05': (
+        'xs': $size-line-05-xs,
+        's': $size-line-05-s,
+        'm': $size-line-05-m,
+        'l': $size-line-05-l
+      ),
+      '06': (
+        'xs': $size-line-06-xs,
+        's': $size-line-06-s,
+        'm': $size-line-06-m,
+        'l': $size-line-06-l
+      ),
+      '07': (
+        'xs': $size-line-07-xs,
+        's': $size-line-07-s,
+        'm': $size-line-07-m,
+        'l': $size-line-07-l
+      ),
+      '08': (
+        'xs': $size-line-08-xs,
+        's': $size-line-08-s,
+        'm': $size-line-08-m,
+        'l': $size-line-08-l
+      ),
+      '09': (
+        'xs': $size-line-09-xs,
+        's': $size-line-09-s,
+        'm': $size-line-09-m,
+        'l': $size-line-09-l
+      )
+    ),
+    'gutter': (
+      'screen': (
+        's': $size-gutter-screen-s,
+        'm': $size-gutter-screen-m
+      )
+    )
+  ),
+  'screen': (
+    's': $screen-s,
+    's-medium': $screen-s-medium,
+    's-large': $screen-s-large,
+    's-xlarge': $screen-s-xlarge,
+    'm': $screen-m,
+    'm-medium': $screen-m-medium,
+    'l': $screen-l,
+    'l-medium': $screen-l-medium,
+    'xl': $screen-xl,
+    'xl-medium': $screen-xl-medium,
+    'xl-large': $screen-xl-large,
+    'xxl': $screen-xxl
+  )
+);
