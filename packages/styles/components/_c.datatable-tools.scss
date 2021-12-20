@@ -21,7 +21,7 @@
 
   // Sort button
   &__sort {
-    @include mc-datatable-head-label();
+    @include set-datatable-head-label();
 
     align-items: center;
     display: flex;

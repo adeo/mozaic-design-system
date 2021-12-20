@@ -4,7 +4,7 @@
   $parent: get-parent-selector(&);
 
   &__subtable {
-    @include mc-datatable-base();
+    @include set-datatable-base();
 
     background-color: $color-background-datatable-subtable;
 
