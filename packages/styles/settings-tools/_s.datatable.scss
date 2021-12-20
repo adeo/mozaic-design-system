@@ -1,6 +1,7 @@
 @use "sass:math";
 
 $presetAdeo: false;
+
 @if $preset == "adeo" {
   $presetAdeo: true;
 }
@@ -87,25 +88,51 @@ $color-background-icon: if(
   $color-primary-01-500
 );
 
-@mixin mc-datatable-base() {
+$datatable-sizes: (
+  "s": (
+    "height": $height-datatable-cell-size-s,
+  ),
+  "m": (
+    "height": $height-datatable-cell-size-m,
+  ),
+  "l": (
+    "height": $height-datatable-cell-size-l,
+  ),
+);
+
+$datatabke-default-celle-size: map-get($datatable-sizes, "m");
+
+@mixin set-datatable-base() {
   border-collapse: collapse;
   border-spacing: 0;
   caption-side: bottom;
   width: 100%;
-  // border-spacing: 0; // à mettre uniquement si border-collpase: separate;
-  // table-layout: auto; // could be fixed;
 }
 
-@mixin mc-datatable-head-label() {
+@mixin set-datatable-size($sizesArgs) {
+  &__table {
+    tr {
+      height: map-get($sizesArgs, "height");
+    }
+  }
+
+  thead {
+    th,
+    td {
+      height: map-get($sizesArgs, "height");
+    }
+  }
+}
+
+@mixin set-datatable-head-label() {
   @include set-font-weight("semi-bold");
   @include set-font-scale("02", "m"); // 12px / 16px
 
   color: $color-font-thead;
-  // height: $height-datatable-cell-size-m;
   text-transform: uppercase;
 }
 
-@mixin mc-datatable-scrollbar() {
+@mixin set-datatable-scrollbar() {
   scrollbar-color: $color-grey-600 $color-grey-100;
   scrollbar-width: thin;
 

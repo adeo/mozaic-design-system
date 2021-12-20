@@ -14,7 +14,7 @@
     box-sizing: inherit;
   }
 
-  // Main
+  // main
   &__container {
     @include set-border-radius();
     @include set-box-shadow("s");
@@ -24,23 +24,21 @@
   }
 
   &__main {
-    @include mc-datatable-scrollbar();
+    @include set-datatable-scrollbar();
 
     overflow-x: auto;
     overflow-y: hidden;
   }
 
-  // Table
+  // table
+  @include set-datatable-size($datatabke-default-celle-size);
+  
   &__table {
-    @include mc-datatable-base();
+    @include set-datatable-base();
 
     & > thead,
     & > tbody {
       background-color: $color-grey-000;
-    }
-
-    tr {
-      height: $height-datatable-cell-size-m;
     }
 
     th,
@@ -58,7 +56,7 @@
   thead {
     th,
     td {
-      @include mc-datatable-head-label();
+      @include set-datatable-head-label();
     }
   }
 
@@ -156,27 +154,17 @@
   }
 
   // size
-  &--s {
-    #{$parent} {
-      &__table {
-        tr {
-          height: $height-datatable-cell-size-s;
+  @each $size, $props in $datatable-sizes {
+    @if ($size != "m") {
+      &--#{$size} {
+        #{$parent} {
+          @include set-datatable-size($props);
         }
       }
     }
   }
 
-  &--l {
-    #{$parent} {
-      &__table {
-        tr {
-          height: $height-datatable-cell-size-l;
-        }
-      }
-    }
-  }
-
-  // Sticky
+  // sticky
   &--sticky,
   &--sticky-header {
     #{$parent} {
@@ -216,7 +204,7 @@
       }
 
       &__table {
-        @include mc-datatable-scrollbar();
+        @include set-datatable-scrollbar();
 
         display: block;
         overflow-y: auto;
@@ -277,6 +265,10 @@
 
   &--sticky-header {
     #{$parent} {
+      &__main {
+        overflow-y: auto;
+      }
+
       &__table {
         > thead {
           position: sticky;
