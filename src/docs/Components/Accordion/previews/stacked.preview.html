@@ -1,10 +1,24 @@
 <div class="example">
   <div class="mc-accordion">
-    <input type="checkbox" id="open" class="mc-accordion__trigger" />
-    <label for="open" class="mc-accordion__label" aria-expanded="false">
-      Accordion title
-    </label>
-    <div class="mc-accordion__content">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion1"
+          class="mc-accordion__trigger"
+          aria-controls="content1"
+          aria-expanded="false"
+          data-mc-component="accordion"
+        >
+          Accordion title
+        </button>
+      </h2>
+    </div>
+    <div
+      id="content1"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion1"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -13,12 +27,27 @@
       </p>
     </div>
   </div>
+
   <div class="mc-accordion">
-    <input type="checkbox" id="close" class="mc-accordion__trigger" />
-    <label for="close" class="mc-accordion__label" aria-expanded="false">
-      Accordion title 2
-    </label>
-    <div class="mc-accordion__content">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          id="accordion2"
+          class="mc-accordion__trigger"
+          aria-controls="content2"
+          aria-expanded="false"
+          data-mc-component="accordion"
+        >
+          Accordion title 2
+        </button>
+      </h2>
+    </div>
+    <div
+      id="content2"
+      class="mc-accordion__content"
+      aria-hidden="true"
+      aria-labelledby="accordion2"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -27,3 +56,28 @@
     </div>
   </div>
 </div>
+
+<script>
+  const accordions = document.querySelectorAll(
+    '[data-mc-component="accordion"]'
+  )
+  accordions.forEach(function (accordion) {
+    if (accordion.hasAttribute('disabled')) {
+      accordion.closest('.mc-accordion').classList.add('is-disabled')
+    }
+
+    accordion.addEventListener('click', function (e) {
+      const component = accordion.closest('.mc-accordion')
+      const button = component.querySelector('.mc-accordion__trigger')
+      const content = component.querySelector('.mc-accordion__content')
+      const expanded =
+        button.getAttribute('aria-expanded') === 'false' ? false : true
+      const hidden =
+        content.getAttribute('aria-hidden') === 'false' ? false : true
+
+      component.classList.toggle('is-open')
+      button.setAttribute('aria-expanded', !expanded)
+      content.setAttribute('aria-hidden', !hidden)
+    })
+  })
+</script>

@@ -1,10 +1,24 @@
 <div class="example">
-  <div class="mc-accordion">
-    <input type="checkbox" id="open" class="mc-accordion__trigger" checked />
-    <label for="open" class="mc-accordion__label" aria-expanded="true">
-      Accordion title
-    </label>
-    <div class="mc-accordion__content">
+  <div class="mc-accordion is-open">
+    <div class="mc-accordion__header">
+      <h2 class="mc-accordion__title">
+        <button
+          class="mc-accordion__trigger"
+          aria-expanded="true"
+          aria-controls="content"
+          id="accordion"
+          data-mc-component="accordion"
+        >
+          Accordion title
+        </button>
+      </h2>
+    </div>
+    <div
+      id="content"
+      class="mc-accordion__content"
+      aria-hidden="false"
+      aria-labelledby="accordion"
+    >
       <p>
         Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
         condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
@@ -13,3 +27,28 @@
     </div>
   </div>
 </div>
+
+<script>
+  const accordions = document.querySelectorAll(
+    '[data-mc-component="accordion"]'
+  )
+  accordions.forEach(function (accordion) {
+    if (accordion.hasAttribute('disabled')) {
+      accordion.closest('.mc-accordion').classList.add('is-disabled')
+    }
+
+    accordion.addEventListener('click', function (e) {
+      const component = accordion.closest('.mc-accordion')
+      const button = component.querySelector('.mc-accordion__trigger')
+      const content = component.querySelector('.mc-accordion__content')
+      const expanded =
+        button.getAttribute('aria-expanded') === 'false' ? false : true
+      const hidden =
+        content.getAttribute('aria-hidden') === 'false' ? false : true
+
+      component.classList.toggle('is-open')
+      button.setAttribute('aria-expanded', !expanded)
+      content.setAttribute('aria-hidden', !hidden)
+    })
+  })
+</script>

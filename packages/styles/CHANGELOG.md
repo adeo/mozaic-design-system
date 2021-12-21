@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
+
+
+### Bug Fixes
+
+* **component/checkbox:** adjust the visual rendering of the checked & disabled status ([#975](https://github.com/adeo/mozaic-design-system/issues/975)) ([4208b97](https://github.com/adeo/mozaic-design-system/commit/4208b9747fc8a8e71c47e7703af14422493b33e8)), closes [#962](https://github.com/adeo/mozaic-design-system/issues/962)
+* **component/modal:** adjust the margin-right behavior of the footer button ([#967](https://github.com/adeo/mozaic-design-system/issues/967)) ([581bf7c](https://github.com/adeo/mozaic-design-system/commit/581bf7c23f7fde91abe96c3d22b35a52e2808a11))
+* **tokens:** update of the token value of some components ([#974](https://github.com/adeo/mozaic-design-system/issues/974)) ([e48317d](https://github.com/adeo/mozaic-design-system/commit/e48317d5d806e1c554d08cd471344807edcb3e75))
+
+
+### Reverts
+
+* Revert "chore(release): publish" ([2042380](https://github.com/adeo/mozaic-design-system/commit/204238091c6d99ded469f97e2a04a9ba4c3b92bc))
+
+
+
+
+
+## [1.20.1](https://github.com/adeo/mozaic-design-system/compare/v1.20.0...v1.20.1) (2021-11-15)
+
+
+### Bug Fixes
+
+* **component/accordion:** correct the display of the opening icon ([#959](https://github.com/adeo/mozaic-design-system/issues/959)) ([57ce21f](https://github.com/adeo/mozaic-design-system/commit/57ce21f84b8f599ea9956547356604e18533fa72))
+* **tooltip:** clean arrow base ([#958](https://github.com/adeo/mozaic-design-system/issues/958)) ([0901965](https://github.com/adeo/mozaic-design-system/commit/0901965821e4ac5aeed2a5f27ed6c2eed35544e1))
+
+
+
+
+
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+
+### Features
+
+* **component/accordion:** update the HTML structure of the component & add variation with checkbox and toggle ([#912](https://github.com/adeo/mozaic-design-system/issues/912)) ([0912aeb](https://github.com/adeo/mozaic-design-system/commit/0912aeba800268bb0991081f101ee99a680738ee))
+* **tooltip:** add border for a11y ([#955](https://github.com/adeo/mozaic-design-system/issues/955)) ([5a24f49](https://github.com/adeo/mozaic-design-system/commit/5a24f49f3d55ccc0d8fbe3d6952814a8bd776454))
+
+
+
+
+
 # [1.19.0](https://github.com/adeo/mozaic-design-system/compare/v1.18.0...v1.19.0) (2021-10-27)
 
 

@@ -5,28 +5,38 @@ order: 2
 
 ## Import
 
-Import *the settings* and *the accordion* scss files. 
+Import _the settings_ and _the accordion_ scss files.
+
 ```scss
 @import 'settings-tools/_all-settings';
-
 @import 'components/_c.accordion';
 ```
 
 ## Basic usage
-To create a basic accordion, apply the following classes on this HTML elements:
 
-- `mc-accordion` on a div container
-- `mc-accordion__trigger` on a input[checkbox] tag
-- `mc-accordion__label` on a label tag
-- `mc-accordion__content` on a div tag
+The creation of an **Accordion** in your code is done using the following HTML structure:
 
 ```html
 <div class="mc-accordion">
-  <input type="checkbox" id="basicUsage" class="mc-accordion__trigger" />
-  <label for="basicUsage" class="mc-accordion__label" aria-expanded="false">
-    Accordion title
-  </label>
-  <div class="mc-accordion__content">
+  <div class="mc-acccordion__header">
+    <h2 class="mc-accordion__title">
+      <button
+        id="accordion"
+        class="mc-accordion__trigger"
+        data-mc-component="accordion"
+        aria-controls="content"
+        aria-expanded="false"
+      >
+        Accordion title
+      </button>
+    </h2>
+  </div>
+  <div
+    id="content"
+    class="mc-accordion__content"
+    aria-hidden="true"
+    aria-labelledby="accordion"
+  >
     <p>
       Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
       at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
@@ -38,22 +48,16 @@ To create a basic accordion, apply the following classes on this HTML elements:
 
 <Preview path="basic" />
 
-<Highlight theme="warning">
-
-To have a full HTML/CSS accordion, we decided to use an input[checkbox] and a label instead of a button.
-
-</Highlight>
-
 ## States
 
-Depending on the context of use, the accordion can have several states: 
+Depending on the context of use, the accordion can have several states:
 
 - Close
-- Open 
+- Open
 - Close Disabled
 - Open Disabled
 
-<Preview path="states" />
+<Preview path="states" nude />
 
 ## Variations
 
@@ -64,52 +68,40 @@ Mozaic offers you two sizes of accordions that you can use, by applying the foll
 - Size **S**: use the `mc-accordion--s` modifier
 - Size **M**: default size - no modifier needeed
 
-<Preview path="sizes" />
+<Preview path="sizes" nude />
 
 ### No padding
 
 You have the possibility to have an accordion with no padding.
 
-For this you have to add to the label the `mc-accordion__label--no-padding` modifier.
+For this you have to add the `mc-accordion--no-padding` modifier to the main `mc-accordion` element.
 
-<Preview path="no-padding" />
+<Preview path="no-padding" nude />
 
 ### With icon
 
 You can add an icon into any accordions you want.
 
-For this you have to add to the label the `mc-accordion__label--no-icon` modifier.
-
-Then just add the CSS class `mc-accordion__icon` to your icon.
-
-```html
-<div class="mc-accordion">
-  <input type="checkbox" id="iconUsage" class="mc-accordion__trigger" />
-  <label
-    for="iconUsage"
-    class="mc-accordion__label mc-accordion__label mc-accordion__label--icon"
-    aria-expanded="false"
-  >
-    <svg class="mc-accordion__icon" xmlns="http://www.w3.org/2000/svg">
-      <symbol id="Store_StoreLM_32px" viewBox="0 0 32 32">
-        <path
-          d="M23 11l-5.59-5.59a2 2 0 00-2.82 0L9 11H5a2 2 0 00-2 2v12a2 2 0 002 2h22a2 2 0 002-2V13a2 2 0 00-2-2zm-3 14h-3.5v-5H20zm-4.5 0H12v-5h3.5zM27 25h-6v-5.5a.5.5 0 00-.5-.5h-9a.5.5 0 00-.5.5V25H5V13h4.83l.58-.59L16 6.83l5.59 5.58.58.59H27z"
-        ></path>
-        <path
-          d="M16.71 10.71a1 1 0 00-1.42 0l-3.58 3.58a1 1 0 00.7 1.71h7.18a1 1 0 00.7-1.71z"
-        ></path>
-      </symbol>
-    </svg>
-    Accordion title
-  </label>
-  <div class="mc-accordion__content">
-    <p>
-      Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-      at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-      pharetra.
-    </p>
-  </div>
-</div>
-```
+For this just add the CSS class `mc-accordion__icon` to your svg icon and and insert the icon inside the button `mc-accordion__trigger`.
 
 <Preview path="icon" />
+
+### With Toogle
+
+You can add [a Mozaic Toggle](/Components/Form/Toggle/) into any accordions you want.
+
+For this you have to add to the `mc-accordion--checkable` modifier to the main `mc-accordion` element.
+
+Then add your toggle element inside the `mc-accordion__header` element.
+
+<Preview path="toggle" />
+
+### With Checkbox
+
+You can add [a Mozaic Checkbox](/Components/Form/Datepicker/) into any accordions you want.
+
+For this you have to add to the `mc-accordion--checkable` modifier to the main `mc-accordion` element.
+
+Then add your toggle element inside the `mc-accordion__header` element.
+
+<Preview path="checkbox" />

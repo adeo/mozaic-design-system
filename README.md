@@ -26,7 +26,8 @@ If you are just getting started, check out our documentation: https://mozaic.ade
 If your are looking for JS components, we have community-contributed components for the following technologies: 
 - [Freemarker](https://github.com/adeo/mozaic-freemarker)
 - [Vue](https://github.com/adeo/mozaic-vue)
-- [Angular](https://github.com/adeo/mozaic-angular)
+- [React](https://github.com/adeo/mozaic-react)
+- [Svelte/WebComponent](https://github.com/adeo/mozaic-web-components)
 
 If you're trying to find something specific, here's a list of our main packages that we support!
 

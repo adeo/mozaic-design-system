@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.18.0",
+  "version": "1.20.0",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "@mozaic-ds/configuration-manager": "^1.13.1",
