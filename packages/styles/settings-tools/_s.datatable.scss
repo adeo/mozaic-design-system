@@ -129,7 +129,6 @@ $datatabke-default-celle-size: map-get($datatable-sizes, "m");
   @include set-font-scale("02", "m"); // 12px / 16px
 
   color: $color-font-thead;
-  height: $height-datatable-cell-size-m;
   text-transform: uppercase;
 }
 
