@@ -1,0 +1,31 @@
+@use "sass:math";
+
+@function mt-dectohex($number) {
+  $hex-chars: "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C",
+    "D", "E", "F";
+  $base: 16;
+  $result: "";
+  $rest: $number;
+
+  @while $rest > 0 {
+    $result: nth($hex-chars, $rest % $base + 1) + $result;
+    $rest: floor(math.div($rest, $base));
+  }
+
+  @return $result;
+}
+
+@function mt-rgba($var, $opacity) {
+  $isCSSVar: str-index(#{$var}, "var");
+
+  @if ($isCSSVar) {
+    $hexaColor: str-slice($var, str-index($var, "#"), (str-length($var) - 1));
+    $alpha: mt-dectohex(round($opacity * 255));
+
+    @return $hexaColor + $alpha;
+  }
+
+  @else {
+    @return rgba($var, $opacity);
+  }
+}
