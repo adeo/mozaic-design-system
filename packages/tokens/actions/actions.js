@@ -13,7 +13,7 @@ module.exports = {
 
         properties.forEach((property) => {
           if (property.attributes.category !== 'color') return
-          content += `$${property.name}: var(--${property.name});\n`
+          content += `$${property.name}: var(--${property.name}, ${property.value});\n`
         })
 
         fs.writeFileSync(scssFile, content)

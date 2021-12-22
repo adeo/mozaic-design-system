@@ -16,8 +16,8 @@
 
   &::before {
     bottom: 0;
-    box-shadow: 0 $mu025 $mu025 rgba($color-tabs-shadow, 0.1);
-    content: '';
+    box-shadow: 0 $mu025 $mu025 mt-rgba($color-tabs-shadow, 0.1);
+    content: "";
     display: block;
     left: 0;
     pointer-events: none;
@@ -67,7 +67,7 @@
 
   &__link {
     @include set-font-face();
-    @include set-font-scale('05', 's');
+    @include set-font-scale("05", "s");
 
     @include set-focus-floating-base {
       bottom: -(math.div($mu025, 2));
@@ -86,7 +86,7 @@
 
     &:active,
     &--selected {
-      @include set-font-weight('semi-bold');
+      @include set-font-weight("semi-bold");
 
       color: $color-tabs-active;
     }
