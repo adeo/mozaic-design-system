@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.22.1](https://github.com/adeo/mozaic-design-system/compare/v1.22.0...v1.22.1) (2021-12-22)
+
+
+### Bug Fixes
+
+* **component/button:** ensure that the buttons with icons keep the right height ([#986](https://github.com/adeo/mozaic-design-system/issues/986)) ([16a613b](https://github.com/adeo/mozaic-design-system/commit/16a613bd2f9e767704161ca449afc2d9b17b1974))
+
+
+
+
+
 # [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
 
 
