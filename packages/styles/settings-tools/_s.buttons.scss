@@ -21,8 +21,8 @@ $button-sizes: (
     "padding-h": $mu150,
     "min-height": $mu300,
     "icon-size": $mu150,
-    "icon-margin-top": -(math.div($mu025, $mu025)),
-    "icon-margin-bottom": -(math.div($mu025, $mu025)),
+    "icon-margin-top": -(math.div($mu025, $mu025)) * 1px,
+    "icon-margin-bottom": -(math.div($mu025, $mu025)) * 1px,
     "only-icon-size": $mu200,
   ),
   "l": (
