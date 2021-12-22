@@ -1,0 +1,32 @@
+@use "sass:math";
+
+.mc-datatable {
+  $parent: get-parent-selector(&);
+
+  &__subtable {
+    @include set-datatable-base();
+
+    background-color: $color-background-datatable-subtable;
+
+    th,
+    td {
+      border-bottom-color: $color-border-datatable-subtable;
+    }
+
+    thead {
+      th,
+      td {
+        @include set-font-scale("02", "m"); // 12px / 16px
+
+        color: $color-font-subtable-thead;
+      }
+    }
+
+    tbody {
+      th,
+      td {
+        color: $color-font-subtable-tbody;
+      }
+    }
+  }
+}
