@@ -1,0 +1,93 @@
+.mc-datatable {
+  $parent: get-parent-selector(&);
+
+  &__btn {
+    @include unstyle-button();
+
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+
+    &-label {
+      @include visually-hidden();
+    }
+
+    &-icon,
+    svg {
+      width: $mu150;
+      height: $mu150;
+    }
+  }
+
+  // Sort button
+  &__sort {
+    @include set-datatable-head-label();
+
+    align-items: center;
+    display: flex;
+    height: 100%;
+    font-family: inherit;
+    justify-content: space-between;
+    width: 100%;
+
+    &-arrow {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: $mu150;
+      justify-content: space-around;
+      margin-left: $mu050;
+      width: $mu150;
+
+      &::after,
+      &::before {
+        background-color: $color-background-arrow-default;
+        content: "";
+        flex-shrink: 0;
+        height: $mu050;
+        width: $mu075;
+      }
+
+      &::before {
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+        .asc & {
+          background-color: $color-background-arrow-active;
+        }
+
+        .desc & {
+          display: none;
+        }
+      }
+
+      &::after {
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+
+        .asc & {
+          display: none;
+        }
+
+        .desc & {
+          background-color: $color-background-arrow-active;
+        }
+      }
+    }
+  }
+
+  // Options button
+  &__options {
+    width: $mu150;
+    height: $mu150;
+  }
+
+  &__expand {
+    #{$parent}__btn-icon {
+      fill: $color-background-icon;
+    }
+  }
+
+  // Visually hidden
+  .visually-hidden {
+    @include visually-hidden();
+  }
+}
