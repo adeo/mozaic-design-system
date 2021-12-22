@@ -1,9 +1,8 @@
 <h1 align="center">
-  Mozaic Design System
+  Adeo Design System
 </h1>
 
-> Mozaic is an open-source design system built by Adeo; to reinforce team’s delivery time, improve quality
-> of deliverables and thus help set up a coherent customer experience.
+> Mozaic is an open-source design system built by Adeo, designed to help set up a coherent human experience, to reinforce team’s delivery time and improve quality of deliverables.
 
 <p align="center">
   <a href="https://github.com/carbon-design-system/carbon/blob/master/LICENSE">
@@ -43,7 +42,7 @@ If you're trying to find something specific, here's a list of our main packages 
 ## :books: Documentation
 We tried to focus on the developer experience, meaning that working with it should be as simple as possible.
 
-You can report any bug, request a feature or any improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
+You can report any bug, request a feature or any improvement [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
 #### Please read the [contributing documentation](https://mozaic.adeo.cloud/Contributing/) before submitting anything.
 
@@ -57,51 +56,33 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/De
 
 ### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste)
 
-**Role for the project:**
-
-- Design system UI lead
+**Role:**
+- **Design system Product Leader**
+- Define the vision and the product strategy
+- Manage the roadmap and its backlog
+- Lead content, documentation, guidelines and deployment
 - Arbitrates the patterns inputs and additions to the design system
-- Welcomes and onboards the designers on Mozaic
-- Reviews usage documentation
+- Welcomes and onboards the designers on Adeo Design system
 
 **Timezone:** Lile - France **Availability:** 100%
 
 **Contact on Adeo's Slack:** Charles-Antoine Queste
 
-### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
-
-**Role for the project:**
-
-- Product owner
-- Backlog prioritization
-- Sync with stakeholders
-
-**Timezone:** Lille - France **Availability:** 90%
-
-**Contact on Adeo's Slack:** Tiago Rosa
-
 ### [Trésor Iloyi](https://www.linkedin.com/in/tresor-iloyi)
 
-**Role for the project:** Front-end developer
+**Role:**
+- **Front-end developer**
+- To complete
 
 **Timezone:** Rennes - France **Availability:** 100%
 
 **Contact on Adeo's Slack:** Trésor Iloyi
 
-### [Nicolas Herwegh](https://www.linkedin.com/in/nicolas-herwegh-3a4494136)
-
-**Role for the project:**
-
-- UI designer
-- Designs the patterns and writes the associated documentation
-
-**Timezone:** Lille - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Nicolas Herwegh
-
 ### [Mohamed Mokhtari](https://www.linkedin.com/in/mohamedmokhtari)
 
-**Role for the project:** Front-end developer
+**Role:**
+- **Front-end developer**
+- To complete
 
 **Timezone:** Paris - France **Availability:** 100%
 
