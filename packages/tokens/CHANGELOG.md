@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
+
+
+### Bug Fixes
+
+* **tools/tokens:** implement a custom SASS function to manage rgba colors ([#979](https://github.com/adeo/mozaic-design-system/issues/979)) ([0178567](https://github.com/adeo/mozaic-design-system/commit/01785675b9d85b6e30b3de9c523190336ed768bb)), closes [#937](https://github.com/adeo/mozaic-design-system/issues/937)
+
+
+
+
+
 # [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
 
 

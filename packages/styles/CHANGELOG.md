@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
+
+
+### Bug Fixes
+
+* **tools/tokens:** implement a custom SASS function to manage rgba colors ([#979](https://github.com/adeo/mozaic-design-system/issues/979)) ([0178567](https://github.com/adeo/mozaic-design-system/commit/01785675b9d85b6e30b3de9c523190336ed768bb)), closes [#937](https://github.com/adeo/mozaic-design-system/issues/937)
+
+
+### Features
+
+* **component/badge:** ensure that badges are always on one line ([#984](https://github.com/adeo/mozaic-design-system/issues/984)) ([6e17e2a](https://github.com/adeo/mozaic-design-system/commit/6e17e2a28db00ced857898573c991de5b06b88ee))
+* **component/button:** improve the button behaviour with long label ([#982](https://github.com/adeo/mozaic-design-system/issues/982)) ([e957ae4](https://github.com/adeo/mozaic-design-system/commit/e957ae40eef263f517777bbbc8e1e7be564ce9c5)), closes [#954](https://github.com/adeo/mozaic-design-system/issues/954)
+* **component/datatable:** add the new DataTable component ([#953](https://github.com/adeo/mozaic-design-system/issues/953)) ([0970590](https://github.com/adeo/mozaic-design-system/commit/097059005f31a68942672b55391f1bc07e1ccc17))
+* **component/pagination:** change the breakpoint of the size behaviour - XL to L ([#983](https://github.com/adeo/mozaic-design-system/issues/983)) ([dfab6fb](https://github.com/adeo/mozaic-design-system/commit/dfab6fb488d8bf9382dbdefd33e3eb1ea8e74019))
+
+
+
+
+
 # [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
 
 

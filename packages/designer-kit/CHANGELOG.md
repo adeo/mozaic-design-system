@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
+
+
+### Features
+
+* **foundations/fonts:** update LeroyMerlin font with fixed Cyrillic characters ([#981](https://github.com/adeo/mozaic-design-system/issues/981)) ([c38e55c](https://github.com/adeo/mozaic-design-system/commit/c38e55cf17388361faad73b7ca8a9de18905000e))
+
+
+
+
+
 # [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
 
 **Note:** Version bump only for package @mozaic-ds/designer-kit

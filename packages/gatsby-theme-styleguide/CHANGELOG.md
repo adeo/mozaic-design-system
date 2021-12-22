@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
+
+
+### Bug Fixes
+
+* **logo:** change view box for logo ([#977](https://github.com/adeo/mozaic-design-system/issues/977)) ([b5ee342](https://github.com/adeo/mozaic-design-system/commit/b5ee3427a02e36bccc4ee03358a47c6d7ba72366))
+
+
+
+
+
 # [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
 
 
