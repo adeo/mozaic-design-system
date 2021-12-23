@@ -5,7 +5,7 @@
 > Mozaic is an open-source design system built by Adeo, designed to help set up a coherent human experience, to reinforce team’s delivery time and improve quality of deliverables.
 
 <p align="center">
-  <a href="https://github.com/carbon-design-system/carbon/blob/master/LICENSE">
+  <a href="https://github.com/adeo/mozaic-design-system/blob/master/.prettierrc">
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)" alt="Prettier badge" />
   </a>
   <a href="https://mozaic.adeo.cloud/">
@@ -52,41 +52,11 @@ You can report any bug, request a feature or any improvement [filling an issue h
 
 Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/)
 
-## Design system core team
+## Maintainers
 
-### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste)
+To complete
 
-**Role:**
-- **Design system Product Leader**
-- Define the vision and the product strategy
-- Manage the roadmap and its backlog
-- Lead content, documentation, guidelines and deployment
-- Arbitrates the patterns inputs and additions to the design system
-- Welcomes and onboards the designers on Adeo Design system
 
-**Timezone:** Lile - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Charles-Antoine Queste
-
-### [Trésor Iloyi](https://www.linkedin.com/in/tresor-iloyi)
-
-**Role:**
-- **Front-end developer**
-- To complete
-
-**Timezone:** Rennes - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Trésor Iloyi
-
-### [Mohamed Mokhtari](https://www.linkedin.com/in/mohamedmokhtari)
-
-**Role:**
-- **Front-end developer**
-- To complete
-
-**Timezone:** Paris - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Mohamed Mokhtari
 
 ## Contributors ✨
 
