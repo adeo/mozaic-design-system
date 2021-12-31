@@ -1,16 +1,92 @@
 ---
 title: 'DataTable'
 order: 1
-description: ''
+description: 'The DataTable is a complex and multi-usage component. It provides a structure to display many items, edit them and compare them easily through some features.'
 status:
   figma: 'ready'
   scss: 'ready'
 ---
 
+> The DataTable is a complex and multi-usage component. It provides a structure to display many items, edit them and compare them easily through some features.
+
 <Preview path="default" nude />
+
+## Structure
+
+### Header
+
+The header section allows users to edit, filter, set up or make actions.
+
+<Preview path="header-only" nude />
+
+#### Edition
+
+#### Filter
+
+#### Option
+
+#### Action
+
+- The first area is the topbar area, in which you can insert different edit and/or action buttons.
+
+- The second area is the filters area, in which you should only insert filters that are active on the table.
+
+| Feature                         | Usage                                                                                                        | Preview |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------- |
+| **Edit selection**              | Only available with selected rows                                                                            |         |
+| **Download / Download section** | Download table or selected rows                                                                              |         |
+| **Number of selected rows**     |                                                                                                              |         |
+| **Active selection**            | Edit and Download actions are impacted by a selection                                                        |         |
+| **Qucik filter**                | quick filter                                                                                                 |         |
+| **Search input**                | Filter rows with keywords - Please be explicit for user (kind of keyword)                                    |         |
+| **Filter button**               | Open filters layer                                                                                           |         |
+| **Settings button**             | Access to table edition like edit columns (reorder, show/hide) or change display density (size of the cells) |         |
+| **Validation action**           |                                                                                                              |         |
+| **Rejected/Negative action**    |                                                                                                              |         |
+
+### Content
+
+The Datatable allows to display several types of data.
+
+| Data                | Usage                                                                                                                                          | Width behaviour        |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Text**            | Used to display the name of the item.                                                                                                          | Fixed or fluid         |
+| **Multi-line text** | ?                                                                                                                                              | Fixed or fluid         |
+| **Number**          | The content is always right justified                                                                                                          | Fixed or fluid         |
+| **Badge**           | Status                                                                                                                                         | Adapted to the content |
+| **Input**           | ?                                                                                                                                              | Fixed or fluid         |
+| **Checkbox**        | Only one column per table, always in first position (on the left)                                                                              | Fixed                  |
+| **Options**         | Only on column per table, always in last position (on the right)                                                                               | Fixed                  |
+| **Icon**            | Action ?                                                                                                                                       | Fixed                  |
+| **Link**            |                                                                                                                                                | Fixed or fluid         |
+| **KPI**             | ?                                                                                                                                              | Adapted to the content |
+| **Expand**          | Only one column per table, always after the checkbox column, in first position when no checkbox column/ always in first position (on the left) | Fixed                  |
+
+### Footer
+
+<Preview path="footer-only" nude />
+
+- The DataTable footer is placed at the bottom of the component table and contains the elements that allow you to manage the navigation and pagination of the table.
+
+| Feature                                              | Usage                                                       | Preview                            |
+| ---------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------- |
+| **Aperçu du nombre de produits / Produits affichés** | Only available with selected rows                           | <Preview path="badge-info" nude /> |
+| ** Pagination**                                      | Permet de naviguer entre les différentes pages du DataTable | -- Preview --                      |
 
 ## Variations
 
-There is different usages, depending on a color scheme.
+### Sizes
+
+Each cells are available in 3 sizes.
+
+| Size             | Value        |
+| ---------------- | ------------ |
+| Small            | 2.5mu (40px) |
+| Medium (default) | 3mu (48px)   |
+| Large            | 3.5mu (56px) |
+
+## How to use
 
 ## Do's and Dont's
+
+- Never combine different sizes of cells inside the same datatable.
