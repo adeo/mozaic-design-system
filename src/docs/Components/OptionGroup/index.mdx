@@ -1,0 +1,90 @@
+---
+title: 'Option group'
+order: 1
+description: 'Definition'
+links:
+
+status:
+  figma: 'ready'
+  scss: 'ready'
+---
+
+> The option group component allows confronting some options of an item (product or service) and can be used inside a questionnaire, survey, to a parameter or even filter a selection. The content of each option card must be a comparable synthesis to help the user make a choice.
+
+-- Preview --
+
+<Highlight theme="warning" title="Be aware">
+
+Visually, the option group looks like a card. Please, don't confuse this component with the [Card component](/Components/Cards), which has different usage.
+
+</Highlight>
+
+## Variation
+
+### Default
+
+By default, the option group is available with a text element. Useful for questionnaire and survey.
+
+<Highlight theme="warning" title="Be aware">
+
+Please use [radio buttons](/Components/Form/Radio) inside forms.
+
+</Highlight>
+
+### Extended version
+
+The component provides a default frame and its selected state. Please note that the structure can't be overridable.
+From an accessible and inclusive way, the option group always contain a checkbox for the multiple choices or a radio button for the single choices.
+
+#### Text content
+
+The content should be short and readable to help users to compare it quickly and easily.
+
+#### Image content
+
+#### Padding
+
+There are two sizes of padding for the option group card.
+
+| Size             | Value       |
+| ---------------- | ----------- |
+| Small            | 0.5mu (8px) |
+| Medium (default) | 1mu (16px)  |
+
+<Highlight theme="warning" title="Be aware">
+
+To keep consistency through products, padding aren't overridable.
+
+</Highlight>
+
+-- Preview --
+
+## Behaviours
+
+For accessibility reasons, each option card must be fully clickable. Please, don't display secondary actions inside an unselected ones.
+
+### States
+
+#### Default
+
+-- Preview --
+
+#### Selected
+
+-- Preview --
+
+### Specific actions
+
+Depending on the context, a button or a link can appear if the option card is selected.
+
+-- Exemple avec la livraison --
+
+<Highlight theme="tips" title="Good to know">
+
+In case you have to associate a button (or a link) to an unselected option card, it must be displayed outside of the component, for example, below it.
+
+</Highlight>
+
+## Do's and Don'ts
+
+<HintItem dont>Never use a button or a link inside a card.</HintItem>
