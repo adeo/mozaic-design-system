@@ -62,7 +62,8 @@
     }
   }
 
-  &--light {
+  &--light,
+  &--compact {
     #{$parent}__button {
       &:first-child {
         margin-right: $mu100;
