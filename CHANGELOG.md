@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.23.0](https://github.com/adeo/mozaic-design-system/compare/v1.22.1...v1.23.0) (2022-01-05)
+
+
+### Bug Fixes
+
+* **component/pagination:** change margin to 16px ([#990](https://github.com/adeo/mozaic-design-system/issues/990)) ([2a24750](https://github.com/adeo/mozaic-design-system/commit/2a247508ba9373ac1b34075671d5ee131315e8b8))
+
+
+### Features
+
+* **component/pagination:** add the new 'compact' variation ([#993](https://github.com/adeo/mozaic-design-system/issues/993)) ([856986b](https://github.com/adeo/mozaic-design-system/commit/856986bece431d467b28be0e15840a8ab5773420))
+
+
+
+
+
 ## [1.22.1](https://github.com/adeo/mozaic-design-system/compare/v1.22.0...v1.22.1) (2021-12-22)
 
 
