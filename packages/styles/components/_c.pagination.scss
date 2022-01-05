@@ -42,7 +42,7 @@
   }
 
   &__field {
-    margin: 0 $mu150;
+    margin: 0 $mu100;
   }
 
   &__select {
@@ -62,10 +62,11 @@
     }
   }
 
-  &--light {
+  &--light,
+  &--compact {
     #{$parent}__button {
       &:first-child {
-        margin-right: $mu150;
+        margin-right: $mu100;
       }
     }
   }
