@@ -53,9 +53,28 @@ You can report any bug, request a feature or any improvement [filling an issue h
 Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/)
 
 ## Maintainers
-
-To complete
-
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/caqueste"><img src="https://avatars.githubusercontent.com/u/43212270?v=4" width="100px;" alt=""/><br /><sub><b>Charles-Antoine Queste</b></sub></a><br />
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=caquest" title="Design">🎨</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Mentoring">🧑‍🏫</a>
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=caquest" title="Documentation">📖</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Answering questions">💬</a>
+    </td>
+      <td align="center"><a href="https://github.com/tiloyi"><img src="https://avatars.githubusercontent.com/u/6053330?v=4" width="100px;" alt=""/><br /><sub><b>Trésor Iloyi</b></sub></a><br />
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=tiloyi" title="Code">💻</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Mentoring">🧑‍🏫</a>
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=tiloyi" title="Documentation">📖</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Answering questions">💬</a>
+    </td>
+      <td align="center"><a href="https://github.com/mohamedmok"><img src="https://avatars.githubusercontent.com/u/7878860?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Mokhtari</b></sub></a><br />
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=mohamedmok" title="Code">💻</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Mentoring">🧑‍🏫</a>
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=mohamedmok" title="Documentation">📖</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Answering questions">💬</a>
+    </td>
+  </tr>
+</table>
 
 
 ## Contributors ✨
