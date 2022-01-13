@@ -14,15 +14,15 @@ Import the settings and the flag `scss` files.
 
 ## Basic usage
 
-To create a flag you have one main class to apply `mc-flag`, and wrap the text inside the flag in a `span.mc-flag__label`. While the text without span will look mostly fine, we use it to opticaly align the characters baseline in the flag.
+The creation of a **Flag** component in your code is done using the following HTML structure:
 
 ```html
 <div class="mc-flag">
-  Flag label
+  <span class="mc-flag__label">Flag label</span>
 </div>
 ```
 
-<Preview path="flag-default" />
+<Preview path="default" />
 
 ## Variations
 
@@ -39,37 +39,13 @@ To create a flag you have one main class to apply `mc-flag`, and wrap the text i
 - `solid-danger`
 - `bordered-danger`
 
-example :
-
-```html
-<div class="mc-flag">
-  Flag flag__label
-</div>
-
-<div class="mc-flag mc-flag--bordered-primary-02">
-  Flag bordered primary 02
-</div>
-```
-
 #### Solid
 
-<Preview path="flag-solid" />
+<Preview path="solid" />
 
 #### Bordered
 
-<Preview path="flag-bordered" />
-
-### Multi-line flag
-
-<Highlight theme="warning">
-
-By default, the flag component can't extend over several lines.
-
-Indeed, as indicated in the [Do's and Dont's](/Components/Flags/#dos-and-donts) section of the documentation, it is not allowed to use too long text inside your flag.
-
-</Highlight>
-
-However in rare exceptions where you don't have the possibility to make your content fit on a single line we provide you with the `mc-flag--extend` modifier which allows you to get a multi-line flag.
+<Preview path="bordered" />
 
 ## Customization and mixins
 

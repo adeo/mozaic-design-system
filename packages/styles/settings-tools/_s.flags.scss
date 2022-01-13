@@ -1,31 +1,36 @@
 $flags: get-token(color, flag);
 
-$flag-border: get-border('s');
+$flag-border: get-border("s");
 
-@mixin set-flag-base {
-  border: $flag-border solid transparent;
-  display: inline-flex;
-  align-items: center;
-  padding: 0 $mu050;
+@mixin set-flag-base($parent) {
+  display: inline-block;
+  font-size: get-token(size, font, "04");
   margin: 0;
   vertical-align: middle;
-  min-height: 1.375rem;
-  flex-shrink: 0;
+  // custom line-height to ensure the multi-line behaviour is done in the right conditions
+  line-height: 1.786;
 
-  /* ie11 hack to center vertically */
+  @at-root #{$parent}__label {
+    @include set-line-height("04", "s");
 
-  /* see : https://github.com/philipwalton/flexbugs/issues/231 */
-  height: 0;
+    border: $flag-border solid transparent;
+    box-decoration-break: clone;
+    padding: $mu025 $mu050;
+  }
 }
 
-@mixin set-flag-theme($props) {
-  color: map-get($props, 'text');
+@mixin set-flag-theme($parent, $props) {
+  #{$parent} {
+    &__label {
+      color: map-get($props, "text");
 
-  @if map-has-key($props, 'border') {
-    border-color: map-get($props, 'border');
-  }
+      @if map-has-key($props, "border") {
+        border-color: map-get($props, "border");
+      }
 
-  @if map-has-key($props, 'background') {
-    background-color: map-get($props, 'background');
+      @if map-has-key($props, "background") {
+        background-color: map-get($props, "background");
+      }
+    }
   }
 }
