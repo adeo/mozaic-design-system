@@ -81,20 +81,5 @@
     "unit:watch": "jest --watch --silent",
     "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'",
     "prepare": "husky install"
-  },
-  "resolutions": {
-    "minimist": "^1.2.5",
-    "yargs-parser": "^20.2.9",
-    "kind-of": "^6.0.3",
-    "websocket-extensions": "^0.1.4",
-    "graphql-playground-html": "^1.6.29",
-    "serialize-javascript": "^6.0.0",
-    "node-forge": "^0.10.0",
-    "@hapi/hoek": "^9.2.0",
-    "bl": "^5.0.0",
-    "axios": "^0.23.0",
-    "react-dev-utils": "11.0.4",
-    "node-notifier": "10.0.0",
-    "is-svg": "4.3.1"
   }
 }
