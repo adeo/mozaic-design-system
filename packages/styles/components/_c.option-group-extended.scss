@@ -1,0 +1,69 @@
+.mc-option-group-extended {
+  $parent: get-parent-selector(&);
+
+  display: flex;
+  justify-content: space-evenly;
+
+  &__card {
+    position: relative;
+    padding: $mu150 $mu200;
+    border-radius: get-border-radius("m");
+    border: 2px solid $color-grey-300;
+    height: 150px;
+    width: 150px;
+  }
+
+  &__input {
+    position: absolute !important;
+    right: $mu100;
+    top: $mu100;
+
+    &:checked + #{$parent}__label {
+      border: 2px solid $color-primary-01-500;
+      box-shadow: 0 0 0 4px $color-success-100;
+    }
+
+    &:focus + #{$parent}__label {
+      @include set-shadow-focus();
+    }
+
+    &:focus {
+      box-shadow: none !important;
+    }
+
+    :disabled + #{$parent}__label {
+      cursor: not-allowed;
+      background-color: #d3d2d6;
+      color: #6f676c;
+      border: none;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    border-radius: get-border-radius("m");
+    border: 2px none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &--spaced {
+    #{$parent} {
+      &__input {
+        right: $mu050;
+        top: $mu050;
+      }
+    }
+  }
+
+  &--centered {
+    #{$parent} {
+      &__input {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
