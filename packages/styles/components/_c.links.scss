@@ -4,6 +4,10 @@
   @include set-link-theme(get-token(color, link, "dark"));
   @include mod-link-sizes();
   @include set-focus-floating-base();
+  @include set-font-scale(
+    map-get($link-m, "font-size"),
+    map-get($link-m, "line-height")
+  );
 
   &__icon {
     display: block;
