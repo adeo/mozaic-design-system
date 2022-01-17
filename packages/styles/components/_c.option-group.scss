@@ -10,7 +10,7 @@
 
   &__label {
     padding: $mu150 $mu200;
-    border-radius: get-border-radius('m');
+    border-radius: get-border-radius("m");
     border: 2px solid $color-grey-300;
     cursor: pointer;
   }
@@ -29,5 +29,9 @@
     background-color: #d3d2d6;
     color: #6f676c;
     border: none;
+  }
+
+  :hover + &__label {
+    border: 2px solid $color-grey-800;
   }
 }

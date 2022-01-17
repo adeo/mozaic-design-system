@@ -11,12 +11,36 @@
     border: 2px solid $color-grey-300;
     height: 150px;
     width: 150px;
+    cursor: pointer;
+  }
+
+  &__label {
+    position: absolute;
+    border-radius: get-border-radius("m");
+    border: 2px solid $color-grey-300;
+    height: 100%;
+    width: 100%;
+    top: -2px;
+    left: -2px;
+    cursor: pointer;
   }
 
   &__input {
     position: absolute !important;
     right: $mu100;
     top: $mu100;
+
+    &:focus {
+      box-shadow: none !important;
+    }
+
+    &:hover {
+      border-color: $color-input-border !important;
+    }
+
+    &:checked:hover {
+      border-color: $color-input-checked-border !important;
+    }
 
     &:checked + #{$parent}__label {
       border: 2px solid $color-primary-01-500;
@@ -27,26 +51,16 @@
       @include set-shadow-focus();
     }
 
-    &:focus {
-      box-shadow: none !important;
-    }
-
-    :disabled + #{$parent}__label {
+    &:disabled + #{$parent}__label {
       cursor: not-allowed;
       background-color: #d3d2d6;
       color: #6f676c;
       border: none;
     }
-  }
 
-  &__label {
-    position: absolute;
-    border-radius: get-border-radius("m");
-    border: 2px none;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
+    &:hover + #{$parent}__label {
+      border: 2px solid $color-grey-800;
+    }
   }
 
   &--spaced {

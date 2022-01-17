@@ -1,0 +1,12 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.option-group-extended';
+@import 'components/_c.checkbox';
+
+.example {
+  @include set-font-family();
+
+  padding: 2rem;
+}
