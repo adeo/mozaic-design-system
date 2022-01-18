@@ -1,5 +1,5 @@
 service: demo
-runtime: nodejs12
+runtime: nodejs16
 instance_class: F1
 
 handlers:
@@ -18,7 +18,6 @@ handlers:
     redirect_http_response_code: 301
     static_files: public/\1
     upload: public/(.*)
-
 
 automatic_scaling:
   min_instances: 0
