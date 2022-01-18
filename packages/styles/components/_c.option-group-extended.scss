@@ -6,22 +6,19 @@
 
   &__card {
     position: relative;
-    padding: $mu150 $mu200;
     border-radius: get-border-radius("m");
-    border: 2px solid $color-grey-300;
-    height: 150px;
-    width: 150px;
+    border: 1px solid $color-grey-300;
     cursor: pointer;
   }
 
   &__label {
     position: absolute;
     border-radius: get-border-radius("m");
-    border: 2px solid $color-grey-300;
+    border: 1px solid $color-grey-300;
     height: 100%;
     width: 100%;
-    top: -2px;
-    left: -2px;
+    top: -1px;
+    left: -1px;
     cursor: pointer;
   }
 
@@ -45,21 +42,25 @@
     &:checked + #{$parent}__label {
       border: 2px solid $color-primary-01-500;
       box-shadow: 0 0 0 4px $color-success-100;
+      top: -2px;
+      left: -2px;
     }
 
     &:focus + #{$parent}__label {
       @include set-shadow-focus();
-    }
 
-    &:disabled + #{$parent}__label {
-      cursor: not-allowed;
-      background-color: #d3d2d6;
-      color: #6f676c;
-      border: none;
+      top: -2px;
+      left: -2px;
     }
 
     &:hover + #{$parent}__label {
       border: 2px solid $color-grey-800;
+      top: -2px;
+      left: -2px;
+    }
+
+    &:checked:hover + #{$parent}__label {
+      border-color: $color-input-checked-hover-border;
     }
   }
 
