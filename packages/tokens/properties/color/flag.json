@@ -3,10 +3,10 @@
     "flag": {
       "solid": {
         "background": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "border": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "text": {
           "value": "{color.grey.000.value}"
@@ -47,10 +47,10 @@
       },
       "solid-danger": {
         "background": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "{color.secondary-red.600.value}"
         },
         "border": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "{color.secondary-red.600.value}"
         },
         "text": {
           "value": "{color.grey.000.value}"
@@ -61,10 +61,10 @@
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "text": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.primary-01.600.value}"
         }
       },
       "bordered-primary-02": {
@@ -105,10 +105,10 @@
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "{color.secondary-red.600.value}"
         },
         "text": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "{color.secondary-red.600.value}"
         }
       }
     }

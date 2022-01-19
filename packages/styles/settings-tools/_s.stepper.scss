@@ -1,5 +1,5 @@
 $stepper_colors: (
-  'campus': $color-primary-02-400,
+  "campus": $color-primary-02-400,
 );
 
 $stepper-divider-gap: $mu150 - $mu025;
@@ -14,7 +14,7 @@ $stepper-divider-gap: $mu150 - $mu025;
       &::before,
       &::after {
         bottom: 0;
-        border-radius: get-border-radius('l');
+        border-radius: get-border-radius("l");
         height: $mu025;
         top: auto;
       }
