@@ -96,6 +96,9 @@
           "selected": {
             "background": {
               "value": "{color.primary-01.500.value}"
+            },
+            "text": {
+              "value": "{color.grey.000.value}"
             }
           }
         },
