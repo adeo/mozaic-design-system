@@ -97,6 +97,7 @@
 
       :checked + & {
         background: $color-tag-selectable-light-selected-background;
+        color: $color-tag-selectable-light-selected-text;
       }
 
       :focus + & {
@@ -169,8 +170,7 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding:
-            $padding-y--s $mu025 $padding-y--s
+          padding: $padding-y--s $mu025 $padding-y--s
             calc(#{$mu100} - #{$tag-border});
         }
 
@@ -188,8 +188,7 @@
         padding: 0;
 
         .mc-tag-removable__label {
-          padding:
-            $padding-y--m $mu025 $padding-y--m
+          padding: $padding-y--m $mu025 $padding-y--m
             calc(#{$mu150} - #{$tag-border});
         }
 
@@ -206,8 +205,7 @@
     }
 
     &__label {
-      padding:
-        $padding-y--m $mu025 $padding-y--m
+      padding: $padding-y--m $mu025 $padding-y--m
         calc(#{$mu150} - #{$tag-border});
     }
 

@@ -2,7 +2,7 @@
   "color": {
     "font": {
       "primary-01": {
-        "value": "{color.primary-01.500.value}"
+        "value": "{color.primary-01.600.value}"
       },
       "primary-02": {
         "value": "{color.primary-02.500.value}"
