@@ -28,7 +28,7 @@
     &::before,
     &::after {
       background-color: $color-grey-400;
-      content: '';
+      content: "";
       height: math.div($mu025, 2);
       position: absolute;
       top: 11px;
@@ -57,23 +57,23 @@
     &--validated {
       #{$parent} {
         &__indicator {
-          border-color: $color-primary-01-400;
+          border-color: $color-primary-01-500;
         }
 
         &__detail {
-          @include set-font-weight('semi-bold');
+          @include set-font-weight("semi-bold");
         }
       }
     }
 
     &--current {
       &::before {
-        background-color: $color-primary-01-400;
+        background-color: $color-primary-01-500;
       }
 
       #{$parent} {
         &__indicator {
-          background-color: $color-primary-01-400;
+          background-color: $color-primary-01-500;
           color: $color-grey-000;
         }
 
@@ -86,7 +86,7 @@
     &--validated {
       &::before,
       &:not(#{$parent}__item--current)::after {
-        background-color: $color-primary-01-400;
+        background-color: $color-primary-01-500;
       }
     }
   }
@@ -99,18 +99,18 @@
     &:hover,
     &:focus {
       #{$parent}__label {
-        color: $color-primary-01-400;
+        color: $color-primary-01-500;
       }
     }
   }
 
   &__indicator {
-    @include set-font-scale('04', 's');
-    @include set-font-weight('semi-bold');
+    @include set-font-scale("04", "s");
+    @include set-font-weight("semi-bold");
 
     align-items: center;
     background-color: $color-grey-000;
-    border: get-border('m') solid $color-grey-400;
+    border: get-border("m") solid $color-grey-400;
     border-radius: 50%;
     box-sizing: border-box;
     display: flex;
@@ -124,12 +124,12 @@
   }
 
   &__icon {
-    fill: $color-primary-01-400;
+    fill: $color-primary-01-500;
     max-width: 100%;
   }
 
   &__detail {
-    @include set-font-scale('04', 'm');
+    @include set-font-scale("04", "m");
 
     color: $color-font-light;
     text-align: center;
@@ -138,7 +138,7 @@
 
   &__title {
     display: none;
-    color: $color-primary-01-400;
+    color: $color-primary-01-500;
   }
 
   &--compact {
