@@ -1,0 +1,94 @@
+@use "sass:math";
+
+.mc-option-card {
+  $parent: get-parent-selector(&);
+
+  position: relative;
+  border-radius: get-border-radius("m");
+  cursor: pointer;
+
+  &__input {
+    position: absolute !important;
+    right: $mu100;
+    top: $mu100;
+    border-color: $color-input-border;
+
+    &.mc-radio__input,
+    &.mc-checkbox__input,
+    &:focus {
+      box-shadow: none;
+    }
+
+    &.mc-radio__input &.mc-checkbox__input &:checked {
+      border-color: $color-input-checked-border;
+    }
+
+    &.mc-radio__input &.mc-checkbox__input &:hover {
+      border-color: $color-input-border;
+    }
+
+    &.mc-radio__input &.mc-checkbox__input &:checked:hover {
+      border-color: $color-input-checked-border;
+    }
+
+    &:checked + #{$parent}__label {
+      border-color: $color-primary-01-500;
+      box-shadow: 0 0 0 $mu025 $color-success-100;
+    }
+
+    &:focus + #{$parent}__label {
+      &::after {
+        box-shadow: 0 0 0 2px $color-focus-border;
+      }
+    }
+
+    &:hover + #{$parent}__label {
+      box-shadow: 0 0 0 2px $color-grey-800;
+    }
+
+    &:checked:hover + #{$parent}__label {
+      box-shadow: 0 0 0 $mu025 $color-success-100;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    border-radius: get-border-radius("m");
+    box-shadow: 0 0 0 1px $color-grey-300;
+    border: 2px solid transparent;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+
+    &::after {
+      position: absolute;
+      border-radius: get-border-radius("l");
+      box-shadow: 0 0 0 0 transparent;
+      content: "";
+      display: block;
+      pointer-events: none;
+      top: -6px;
+      right: -6px;
+      bottom: -6px;
+      left: -6px;
+    }
+  }
+
+  &--spaced {
+    #{$parent} {
+      &__input {
+        right: $mu050;
+        top: $mu050;
+      }
+    }
+  }
+
+  &--centered {
+    #{$parent} {
+      &__input {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

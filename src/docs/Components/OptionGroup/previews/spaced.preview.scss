@@ -2,8 +2,8 @@
 
 @include import-font-families();
 
-@import 'components/_c.option-group-extended';
-@import 'components/_c.radio';
+@import 'components/_c.checkbox';
+@import 'components/_c.option-card';
 
 .example {
   @include set-font-family();
@@ -14,4 +14,10 @@
 .example-size {
   width: 200px;
   height: 200px;
+}
+
+.mc-option-group {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
