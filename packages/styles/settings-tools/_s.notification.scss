@@ -1,59 +1,63 @@
-$notification-selector: '.mc-notification';
+$notification-selector: ".mc-notification";
 $notification-close-icon-color: get-token(color, notification, font);
-$notification-border-width: get-border('s');
+$notification-border-width: get-border("s");
 
 $notification-sizes: (
-  's': (
-    'padding': $mu075 $mu075 $mu150,
-    'icon-size': $mu150,
-    'icon-margin': $mu050,
-    'margin-top': $mu025,
-    'content-padding-top': 0,
+  "s": (
+    "padding": $mu075 $mu075 $mu150,
+    "icon-size": $mu150,
+    "icon-margin": $mu050,
+    "margin-top": $mu025,
+    "content-padding-top": 0,
   ),
-  'm': (
-    'padding': $mu100 $mu150 $mu150 $mu100,
-    'icon-size': $mu200,
-    'icon-margin': $mu100,
-    'margin-top': $mu050,
-    'content-padding-top': $mu025,
+  "m": (
+    "padding": $mu100 $mu150 $mu150 $mu100,
+    "icon-size": $mu200,
+    "icon-margin": $mu100,
+    "margin-top": $mu050,
+    "content-padding-top": $mu025,
   ),
 );
 
-$notification-default-size: map-get($notification-sizes, 'm');
+$notification-default-size: map-get($notification-sizes, "m");
 
 $notification-types: (
-  'information': (
-    'background': $color-notification-information-background,
-    'border': $color-notification-information-border,
-    'icon-m': 'notification-information-32',
-    'icon-s': 'notification-information-24',
+  "information": (
+    "background": $color-notification-information-background,
+    "border": $color-notification-information-border,
+    "icon": $color-notification-information-icon,
+    "icon-m": "notification-information-32",
+    "icon-s": "notification-information-24",
   ),
-  'success': (
-    'background': $color-notification-success-background,
-    'border': $color-notification-success-border,
-    'icon-m': 'notification-success-32',
-    'icon-s': 'notification-success-24',
+  "success": (
+    "background": $color-notification-success-background,
+    "border": $color-notification-success-border,
+    "icon": $color-notification-success-icon,
+    "icon-m": "notification-success-32",
+    "icon-s": "notification-success-24",
   ),
-  'warning': (
-    'background': $color-notification-warning-background,
-    'border': $color-notification-warning-border,
-    'icon-m': 'notification-warning-32',
-    'icon-s': 'notification-warning-24',
+  "warning": (
+    "background": $color-notification-warning-background,
+    "border": $color-notification-warning-border,
+    "icon": $color-notification-warning-icon,
+    "icon-m": "notification-warning-32",
+    "icon-s": "notification-warning-24",
   ),
-  'danger': (
-    'background': $color-notification-danger-background,
-    'border': $color-notification-danger-border,
-    'icon-m': 'notification-danger-32',
-    'icon-s': 'notification-danger-24',
+  "danger": (
+    "background": $color-notification-danger-background,
+    "border": $color-notification-danger-border,
+    "icon": $color-notification-danger-icon,
+    "icon-m": "notification-danger-32",
+    "icon-s": "notification-danger-24",
   ),
 );
 
 @mixin set-notification-size($props) {
-  $icon-size: map-get($props, 'icon-size');
-  $icon-margin: map-get($props, 'icon-margin');
-  $margin-top: map-get($props, 'margin-top');
-  $padding: map-get($props, 'padding');
-  $content-padding-top: map-get($props, 'content-padding-top');
+  $icon-size: map-get($props, "icon-size");
+  $icon-margin: map-get($props, "icon-margin");
+  $margin-top: map-get($props, "margin-top");
+  $padding: map-get($props, "padding");
+  $content-padding-top: map-get($props, "content-padding-top");
 
   padding: $padding;
 
@@ -74,17 +78,18 @@ $notification-types: (
   }
 }
 
-@mixin set-notification-type($type, $size: 'm') {
-  $background: map-deep-get($notification-types, $type, 'background');
-  $icon: map-deep-get($notification-types, $type, 'icon-#{$size}');
-  $border-color: map-deep-get($notification-types, $type, 'border');
+@mixin set-notification-type($type, $size: "m") {
+  $background: map-deep-get($notification-types, $type, "background");
+  $icon: map-deep-get($notification-types, $type, "icon-#{$size}");
+  $border-color: map-deep-get($notification-types, $type, "border");
+  $icon-color: map-deep-get($notification-types, $type, "icon");
 
-  @if $size == 'm' {
+  @if $size == "m" {
     background: $background;
     box-shadow: inset 0 0 0 get-border(s) $border-color;
   }
 
   &::before {
-    background-image: url(inline-icons($icon, $border-color));
+    background-image: url(inline-icons($icon, $icon-color));
   }
 }
