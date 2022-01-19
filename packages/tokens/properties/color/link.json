@@ -16,11 +16,11 @@
         "hover": { "value": "{color.grey.400.value}" }
       },
       "primary": {
-        "base": { "value": "{color.primary-01.500.value}" },
+        "base": { "value": "{color.primary-01.600.value}" },
         "visited": { "value": "{color.primary-01.700.value}" },
         "active": { "value": "{color.primary-01.700.value}" },
         "disabled": { "value": "{color.grey.100.value}" },
-        "hover": { "value": "{color.primary-01.900.value}" }
+        "hover": { "value": "{color.primary-01.800.value}" }
       },
       "primary-02": {
         "base": { "value": "{color.primary-02.600.value}" },
@@ -34,7 +34,7 @@
         "visited": { "value": "{color.secondary-red.700.value}" },
         "active": { "value": "{color.secondary-red.700.value}" },
         "disabled": { "value": "{color.grey.100.value}" },
-        "hover": { "value": "{color.secondary-red.900.value}" }
+        "hover": { "value": "{color.secondary-red.800.value}" }
       }
     }
   }
