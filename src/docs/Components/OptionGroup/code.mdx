@@ -5,14 +5,14 @@ order: 2
 
 ## Import
 
-Import the settings and the option-group `scss` files for the default version.
+Import the settings and the option-button `scss` files for the option button component.
 
 ```scss
 @import 'settings-tools/_all-settings';
 @import '_c.option-button'; // mandatory
 ```
 
-Import the settings and the option-group-extended `scss` files for the extended version.
+Import the settings and the option-card `scss` files for the option card component.
 
 ```scss
 @import 'settings-tools/_all-settings';
@@ -21,81 +21,76 @@ Import the settings and the option-group-extended `scss` files for the extended 
 
 ## Usage
 
-The creation of a default option-group component in your code is done using the following HTML structure:
+The creation of an option-button component in your code is done using the following HTML structure:
 
 ```HTML
-  <div class="mc-option-group">
-    <div class="mc-option-button">
-      <input
-        type="radio"
-        name="option-group"
-        value="madame"
-        id="radio-01"
-        class="mc-option-button__input"
-        checked
-      />
-      <label class="mc-option-button__label" for="radio-01"> Content </label>
-    </div>
-    <div class="mc-option-button">
-      <input
-        type="radio"
-        name="option-group"
-        value="monsieur"
-        id="radio-02"
-        class="mc-option-button__input"
-      />
-      <label class="mc-option-button__label" for="radio-02"> Content </label>
-    </div>
-    <div class="mc-option-button">
-      <input
-        disabled
-        type="radio"
-        name="option-group"
-        value="disabled"
-        id="radio-03"
-        class="mc-option-button__input"
-      />
-      <label class="mc-option-button__label" for="radio-03"> Content </label>
-    </div>
+  <div class="mc-option-button">
+    <input
+      type="radio"
+      name="option-button"
+      value="radio-01"
+      id="radio-01"
+      class="mc-option-button__input"
+    />
+    <label class="mc-option-button__label" for="radio-01"> Content </label>
   </div>
 ```
 
-The creation of a extended option-group component in your code is done using the following HTML structure:
+The creation of an option card component in your code is done using the following HTML structure:
 
 ```HTML
-<div class="mc-option-group">
   <div class="mc-option-card">
-    <input type="radio" name="option-group" id="radio-01" class="mc-radio__input mc-option-card__input" aria-label="radio-01"/>
+    <input 
+      type="radio" 
+      name="option-group" 
+      id="radio-01" 
+      class="mc-radio__input mc-option-card__input" 
+      />
     <label for="radio-01" class="mc-option-card__label"></label>
-    <div class="mc-option-card__content example-size"></div>
+    <div class="mc-option-card__content">
+      <!-- Here your content -->
+    </div>
   </div>
-  <div class="mc-option-card">
-    <input type="radio" name="option-group" id="radio-02" class="mc-radio__input mc-option-card__input" aria-label="radio-02" checked/>
-    <label for="radio-02" class="mc-option-card__label"></label>
-    <div class="mc-option-card__content example-size"></div>
-  </div>
-</div>
 ```
 
 ## Variations
 
-### Default
+In order to group and organize a list of `option-button` or `option-card` you must wrap them in a HTML element using `mc-option-group` class.
 
-The default version of the option-group component can only contain text element.
-This variation is single choice only, you must use radio buttons inside the component.
+This class has to be define in the user environment. In fact we let the end-user choose the layout that suit their needs. 
+We highly recommand to use it with `flexbox`. 
+
+```scss
+  .mc-option-group {
+    display: flex;
+    justify-content: space-between | space-evenly;
+    ...
+  }
+```
+
+<Highlight theme="warning" title="Be aware">
+
+Please, make sure your option-card and option button are wrapped around flex div. 
+
+</Highlight>
+
+### Option button
+
+The option-button component can only contain text element.
 
 <Preview path="default" />
 
-### Extended
+### Option card
 
 #### Single option
 
-In order to use the extended option-group with a single option you must use radio buttons inside the component.
+In order to use the option-card with a single option, you must use radio buttons inside the component.
 
 <Preview path="extended" />
+
 #### Multi options
 
-In order to use the extended option-group with a multi options you must use checkboxes inside the component.
+In order to use the option-card with multi choices, you must use checkboxes inside the component.
 
 <Preview path="checkbox" />
 
@@ -103,7 +98,7 @@ In order to use the extended option-group with a multi options you must use chec
 
 In some cases, the radio or the checkbox has to be centered.
 
-To achieve that you have to add `mc-option-group-extended--centered` modifier to the `mc-option-group-extended` element.
+To achieve that you have to add `mc-option-card--centered` modifier to the `mc-option-card` element.
 
 <Preview path="centered" />
 
@@ -111,6 +106,6 @@ To achieve that you have to add `mc-option-group-extended--centered` modifier to
 
 In some cases, the radio or the checkbox needs a smaller padding (default: 16px).
 
-To achieve that you have to add `mc-option-group-extended--spaced` modifier to the `mc-option-group-extended` element.
+To achieve that you have to add `mc-option-card--spaced` modifier to the `mc-option-card` element.
 
 <Preview path="spaced" />
