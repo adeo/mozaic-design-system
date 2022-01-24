@@ -5,18 +5,11 @@ order: 2
 
 ## Import
 
-Import the settings and the option-button `scss` files for the option button component.
+Import the settings and the option-button `scss` files.
 
 ```scss
 @import 'settings-tools/_all-settings';
 @import '_c.option-button'; // mandatory
-```
-
-Import the settings and the option-card `scss` files for the option card component.
-
-```scss
-@import 'settings-tools/_all-settings';
-@import '_c.option-card'; // mandatory
 ```
 
 ## Usage
@@ -36,26 +29,19 @@ The creation of an option-button component in your code is done using the follow
   </div>
 ```
 
-The creation of an option card component in your code is done using the following HTML structure:
+### States
 
-```HTML
-  <div class="mc-option-card">
-    <input 
-      type="radio" 
-      name="option-group" 
-      id="radio-01" 
-      class="mc-radio__input mc-option-card__input" 
-      />
-    <label for="radio-01" class="mc-option-card__label"></label>
-    <div class="mc-option-card__content">
-      <!-- Here your content -->
-    </div>
-  </div>
-```
+Depending on the context of use, the option-buttons can have several states:
 
-## Variations
+- `unchecked`
+- `checked`
+- `disabled`
 
-In order to group and organize a list of `option-button` or `option-card` you must wrap them in a HTML element using `mc-option-group` class.
+<Preview path="default" />
+
+## Implement as a group
+
+In order to group and organize a list of `option-button` you must wrap them in a HTML element using `mc-option-group` class.
 
 This class has to be define in the user environment. In fact we let the end-user choose the layout that suit their needs. 
 We highly recommand to use it with `flexbox`. 
@@ -70,42 +56,6 @@ We highly recommand to use it with `flexbox`.
 
 <Highlight theme="warning" title="Be aware">
 
-Please, make sure your option-card and option button are wrapped around flex div. 
+Please, make sure the option-button components are wrapped around a flex div. 
 
 </Highlight>
-
-### Option button
-
-The option-button component can only contain text element.
-
-<Preview path="default" />
-
-### Option card
-
-#### Single option
-
-In order to use the option-card with a single option, you must use radio buttons inside the component.
-
-<Preview path="extended" />
-
-#### Multi options
-
-In order to use the option-card with multi choices, you must use checkboxes inside the component.
-
-<Preview path="checkbox" />
-
-#### Centered
-
-In some cases, the radio or the checkbox has to be centered.
-
-To achieve that you have to add `mc-option-card--centered` modifier to the `mc-option-card` element.
-
-<Preview path="centered" />
-
-#### Padding
-
-In some cases, the radio or the checkbox needs a smaller padding (default: 16px).
-
-To achieve that you have to add `mc-option-card--spaced` modifier to the `mc-option-card` element.
-
-<Preview path="spaced" />
