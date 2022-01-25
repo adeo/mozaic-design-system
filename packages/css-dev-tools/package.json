@@ -10,7 +10,7 @@
     "@mozaic-ds/stylelint-plugin-mozaic": "^1.24.0",
     "autoprefixer": "^10.3.7",
     "cssnano": "^5.0.8",
-    "dotenv": "^14.1.0",
+    "dotenv": "^16.0.0",
     "postcss": "^8.3.11",
     "postcss-base64": "^0.7.1",
     "postcss-reporter": "^7.0.4",
