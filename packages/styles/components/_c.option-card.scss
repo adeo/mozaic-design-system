@@ -8,27 +8,17 @@
   cursor: pointer;
 
   &__input {
-    position: absolute !important;
+    position: absolute;
     right: $mu100;
     top: $mu100;
     border-color: $color-input-border;
 
-    &.mc-radio__input,
-    &.mc-checkbox__input,
     &:focus {
       box-shadow: none;
     }
 
-    &.mc-radio__input &.mc-checkbox__input &:checked {
-      border-color: $color-input-checked-border;
-    }
-
-    &.mc-radio__input &.mc-checkbox__input &:hover {
-      border-color: $color-input-border;
-    }
-
-    &.mc-radio__input &.mc-checkbox__input &:checked:hover {
-      border-color: $color-input-checked-border;
+    &:hover + #{$parent}__label {
+      box-shadow: 0 0 0 2px $color-grey-800;
     }
 
     &:checked + #{$parent}__label {
@@ -41,14 +31,6 @@
         box-shadow: 0 0 0 2px $color-focus-border;
       }
     }
-
-    &:hover + #{$parent}__label {
-      box-shadow: 0 0 0 2px $color-grey-800;
-    }
-
-    &:checked:hover + #{$parent}__label {
-      box-shadow: 0 0 0 $mu025 $color-success-100;
-    }
   }
 
   &__label {
@@ -59,6 +41,10 @@
     height: 100%;
     width: 100%;
     cursor: pointer;
+
+    &-text {
+      @include visually-hidden();
+    }
 
     &::after {
       position: absolute;

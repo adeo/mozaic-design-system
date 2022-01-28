@@ -6,6 +6,10 @@
   &__input {
     @include set-hidden-input;
 
+    &:hover + #{$parent}__label {
+      box-shadow: 0 0 0 2px $color-grey-800;
+    }
+
     &:checked + #{$parent}__label {
       border-color: $color-primary-01-500;
       box-shadow: 0 0 0 $mu025 $color-success-100;
@@ -15,14 +19,6 @@
       &::after {
         box-shadow: 0 0 0 2px $color-focus-border;
       }
-    }
-
-    &:hover + #{$parent}__label {
-      box-shadow: 0 0 0 2px $color-grey-800;
-    }
-
-    &:checked:hover + #{$parent}__label {
-      box-shadow: 0 0 0 $mu025 $color-success-100;
     }
 
     &:disabled + #{$parent}__label {

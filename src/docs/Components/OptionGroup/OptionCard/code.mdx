@@ -10,6 +10,8 @@ Import the settings and the option-card `scss` files for the option card compone
 ```scss
 @import 'settings-tools/_all-settings';
 @import '_c.option-card'; // mandatory
+@import 'components/_c.checkbox'; // import when using a option-card "multiple option"
+@import 'components/_c.radio'; // import when using a option-card "single option"
 ```
 
 ## Usage
@@ -36,7 +38,7 @@ The creation of an option card component in your code is done using the followin
 In order to group and organize a list of `option-card` you must wrap them in a HTML element using `mc-option-group` class.
 
 This class has to be define in the user environment. In fact we let the end-user choose the layout that suit their needs. 
-We highly recommand to use it with `flexbox`. 
+For example, you can use it with flexbox.
 
 ```scss
   .mc-option-group {
@@ -46,19 +48,13 @@ We highly recommand to use it with `flexbox`.
   }
 ```
 
-<Highlight theme="warning" title="Be aware">
-
-Please, make sure your option-card are wrapped around a flex div. 
-
-</Highlight>
-
 ## Variations
 
 ### Single option
 
 In order to use the option-card with a single option, you must use radio buttons inside the component.
 
-<Preview path="extended" />
+<Preview path="default" />
 
 ### Multi options
 
