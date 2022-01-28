@@ -258,7 +258,7 @@ export default withSiteMapData({ Component: Menu })
 
 const query = graphql`
   query AllGitReleasesQuery {
-    allGithubRelease {
+    allGithubRelease(limit: 20) {
       edges {
         node {
           tagName
