@@ -1,9 +1,9 @@
-const { Machine } = require(`xstate`)
+const { createMachine } = require('xstate')
 
 const createFSMachine = () =>
-  Machine({
+  createMachine({
     key: `emitFSEvents`,
-    parallel: true,
+    type: 'parallel',
     strict: true,
     states: {
       CHOKIDAR: {
