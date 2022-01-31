@@ -13,8 +13,28 @@
     top: $mu100;
     border-color: $color-input-border;
 
+    &.mc-radio__input,
+    &.mc-checkbox__input,
     &:focus {
       box-shadow: none;
+    }
+
+    &.mc-radio__input:checked,
+    &.mc-checkbox__input:checked,
+    &:checked {
+      border-color: $color-input-checked-border;
+    }
+
+    &.mc-radio__input:hover,
+    &.mc-checkbox__input:hover,
+    &:hover {
+      border-color: $color-input-border;
+    }
+
+    &.mc-radio__input:checked:hover,
+    &.mc-checkbox__input:checked:hover,
+    &:checked:hover {
+      border-color: $color-input-checked-border;
     }
 
     &:hover + #{$parent}__label {
@@ -27,9 +47,7 @@
     }
 
     &:focus + #{$parent}__label {
-      &::after {
-        box-shadow: 0 0 0 2px $color-focus-border;
-      }
+      @include set-focus-floating();
     }
   }
 
@@ -41,30 +59,37 @@
     height: 100%;
     width: 100%;
     cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     &-text {
       @include visually-hidden();
     }
 
-    &::after {
-      position: absolute;
+    @include set-focus-floating-base($position: false) {
       border-radius: get-border-radius("l");
-      box-shadow: 0 0 0 0 transparent;
-      content: "";
-      display: block;
-      pointer-events: none;
-      top: -6px;
-      right: -6px;
-      bottom: -6px;
-      left: -6px;
+      top: -$mu025;
+      right: -$mu025;
+      bottom: -$mu025;
+      left: -$mu025;
     }
   }
 
-  &--spaced {
+  &__content {
+    border-radius: 4px;
+    padding: $mu100;
+  }
+
+  &--small {
     #{$parent} {
       &__input {
         right: $mu050;
         top: $mu050;
+      }
+
+      &__content {
+        padding: $mu050;
       }
     }
   }
@@ -74,6 +99,14 @@
       &__input {
         top: 50%;
         transform: translateY(-50%);
+      }
+    }
+  }
+
+  &--no-padding {
+    #{$parent} {
+      &__content {
+        padding: 0;
       }
     }
   }

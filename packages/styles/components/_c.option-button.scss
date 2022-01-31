@@ -16,9 +16,7 @@
     }
 
     &:focus + #{$parent}__label {
-      &::after {
-        box-shadow: 0 0 0 2px $color-focus-border;
-      }
+      @include set-focus-floating();
     }
 
     &:disabled + #{$parent}__label {
@@ -30,20 +28,17 @@
   }
 
   &__label {
+    @include set-font-face("semi-bold");
+
     position: relative;
-    padding: magic-unit-rem(1.5625, true) $mu200;
+    padding: magic-unit-rem(1.5625, true) $mu200; // 25px 32px
     border-radius: get-border-radius("m");
     box-shadow: 0 0 0 1px $color-grey-300;
     border: 2px solid transparent;
     cursor: pointer;
 
-    &::after {
-      position: absolute;
+    @include set-focus-floating-base() {
       border-radius: get-border-radius("l");
-      box-shadow: 0 0 0 0 transparent;
-      content: "";
-      display: block;
-      pointer-events: none;
       top: -$mu025;
       right: -$mu025;
       bottom: -$mu025;

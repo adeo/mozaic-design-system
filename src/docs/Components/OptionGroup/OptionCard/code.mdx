@@ -20,11 +20,11 @@ The creation of an option card component in your code is done using the followin
 
 ```HTML
   <div class="mc-option-card">
-    <input 
-      type="radio" 
-      name="option-group" 
-      id="radio-01" 
-      class="mc-radio__input mc-option-card__input" 
+    <input
+      type="radio"
+      name="option-group"
+      id="radio-01"
+      class="mc-radio__input mc-option-card__input"
       />
     <label for="radio-01" class="mc-option-card__label"></label>
     <div class="mc-option-card__content">
@@ -37,7 +37,7 @@ The creation of an option card component in your code is done using the followin
 
 In order to group and organize a list of `option-card` you must wrap them in a HTML element using `mc-option-group` class.
 
-This class has to be define in the user environment. In fact we let the end-user choose the layout that suit their needs. 
+This class has to be define in the user environment. In fact we let the end-user choose the layout that suit their needs.
 For example, you can use it with flexbox.
 
 ```scss
@@ -70,10 +70,29 @@ To achieve that you have to add `mc-option-card--centered` modifier to the `mc-o
 
 <Preview path="centered" />
 
-#### Padding
+### Padding
 
-In some cases, the radio or the checkbox needs a smaller padding (default: 16px).
+In some cases, the radio or the checkbox needs a smaller padding.
 
-To achieve that you have to add `mc-option-card--spaced` modifier to the `mc-option-card` element.
+To achieve that you have to add `mc-option-card--small` modifier to the `mc-option-card` element.
 
-<Preview path="spaced" />
+## Content
+
+All your content must go inside the `.mc-option-card__content` element.
+The content container is fluid, it means that the user content will shape the card aspect.
+
+### Padding
+
+By default, the content has a padding of 16px.
+
+#### Small
+
+In some cases, your content will need a smaller padding.
+
+To achieve that you have to add `mc-option-card--small` modifier to the `mc-option-card` element.
+
+#### No padding
+
+In some cases, your content need to fill the whole card. To add an image for example.
+
+To achieve that you have to add `mc-option-card--no-padding` modifier to the `mc-option-card` element.
