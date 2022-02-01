@@ -1,0 +1,40 @@
+@import 'settings-tools/_all-settings';
+
+@include import-font-families();
+
+@import 'components/_c.radio';
+@import 'typography/_t.bodys';
+@import 'components/_c.option-card';
+
+.example {
+  @include set-font-family();
+
+  padding: 2rem;
+}
+
+.example-content {
+  display: flex;
+  padding: 0.5rem;
+  padding-right: 3rem;
+}
+
+.example-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.example-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+
+.example-info-time {
+  color: $color-font-light;
+}
+
+.mc-option-group {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
