@@ -1,13 +1,13 @@
 ---
 title: 'DataTable'
 order: 1
-description: 'The DataTable is a complex and multi-usage component. It provides a structure to display many items, edit them and compare them easily through some features.'
+description: 'The DataTable is a complex and multi-usage component. It provides a structure to display many items and edit them easily through some features.'
 status:
   figma: 'ready'
   scss: 'ready'
 ---
 
-> The DataTable is a complex and multi-usage component. It provides a structure to display many items, edit them and compare them easily through some features.
+> The DataTable is a complex and multi-usage component. It provides a structure to display many items and edit them easily through some features.
 
 <Preview path="default" nude />
 
@@ -21,57 +21,66 @@ The header section allows users to edit, filter, set up or make actions.
 
 #### Edition
 
+Allow the user to interact with selected items.
+
+| Feature                     | Usage                               | Preview |
+| --------------------------- | ----------------------------------- | ------- |
+| **Edit selection**          | Only available with selected rows   |         |
+| **Download**                | Download table or selected rows     |         |
+| **Number of selected rows** | Display the number of selected rows |         |
+
 #### Filter
+
+| Feature           | Usage                                                   | Preview |
+| ----------------- | ------------------------------------------------------- | ------- |
+| **Toggle**        | Quick filter (max. 1)                                   |         |
+| **Search input**  | Filter rows with keywords (Please be explicit for user) |         |
+| **Filter button** | Open filters layer                                      |         |
 
 #### Option
 
+Allow the user to set up the display of the datatable layout.
+
+| Feature      | Usage                                                                                                        | Preview |
+| ------------ | ------------------------------------------------------------------------------------------------------------ | ------- |
+| **Settings** | Access to table edition like edit columns (reorder, show/hide) or change display density (size of the cells) |         |
+
 #### Action
 
-- The first area is the topbar area, in which you can insert different edit and/or action buttons.
+| Feature                      | Preview |
+| ---------------------------- | ------- |
+| **Validation action**        |         |
+| **Rejected/Negative action** |         |
 
-- The second area is the filters area, in which you should only insert filters that are active on the table.
-
-| Feature                         | Usage                                                                                                        | Preview |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------- |
-| **Edit selection**              | Only available with selected rows                                                                            |         |
-| **Download / Download section** | Download table or selected rows                                                                              |         |
-| **Number of selected rows**     |                                                                                                              |         |
-| **Active selection**            | Edit and Download actions are impacted by a selection                                                        |         |
-| **Qucik filter**                | quick filter                                                                                                 |         |
-| **Search input**                | Filter rows with keywords - Please be explicit for user (kind of keyword)                                    |         |
-| **Filter button**               | Open filters layer                                                                                           |         |
-| **Settings button**             | Access to table edition like edit columns (reorder, show/hide) or change display density (size of the cells) |         |
-| **Validation action**           |                                                                                                              |         |
-| **Rejected/Negative action**    |                                                                                                              |         |
-
-### Content
+### Data content
 
 The Datatable allows to display several types of data.
 
-| Data                | Usage                                                                                                                                          | Width behaviour        |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| **Text**            | Used to display the name of the item.                                                                                                          | Fixed or fluid         |
-| **Multi-line text** | ?                                                                                                                                              | Fixed or fluid         |
-| **Number**          | The content is always right justified                                                                                                          | Fixed or fluid         |
-| **Badge**           | Status                                                                                                                                         | Adapted to the content |
-| **Input**           | ?                                                                                                                                              | Fixed or fluid         |
-| **Checkbox**        | Only one column per table, always in first position (on the left)                                                                              | Fixed                  |
-| **Options**         | Only on column per table, always in last position (on the right)                                                                               | Fixed                  |
-| **Icon**            | Action ?                                                                                                                                       | Fixed                  |
-| **Link**            |                                                                                                                                                | Fixed or fluid         |
-| **KPI**             | ?                                                                                                                                              | Adapted to the content |
-| **Expand**          | Only one column per table, always after the checkbox column, in first position when no checkbox column/ always in first position (on the left) | Fixed                  |
+| Data                                  | Usage                                                                                                                         | Width behaviour        |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Text**                              | Display the name, short description of an item                                                                                | Fixed or fluid         |
+| **Multi-line text**                   | Use to be more explicit and display complementary information of an item                                                      | Fixed or fluid         |
+| **Number**                            | Display numeric value. The content is always right justified for better reading                                               | Fixed or fluid         |
+| [**Badge**](/Components/Badge/)       | Display the item status                                                                                                       | Adapted to the content |
+| **Input**                             | Allow to edit the content of an item                                                                                          | Fixed or fluid         |
+| [**Checkbox**](/Components/Checkbox/) | Allow to select an item. Only one column per table, always in first position (on the left)                                    | Fixed                  |
+| **Options**                           | Display multiple actions. Only one column per table, always in last position (on the right)                                   | Fixed                  |
+| **Icon**                              | Display one specific action                                                                                                   | Fixed                  |
+| [**Link**](/Components/Link/)         | Allow to access to the dedicated page of an item                                                                              | Fixed or fluid         |
+| **KPI**                               | Display a progression indicator                                                                                               | Adapted to the content |
+| **Expand**                            | Display sub-items or details about an item (Only one column per table, always in first position or after the checkbox column) | Fixed                  |
 
 ### Footer
 
+The DataTable footer is placed at the bottom of the component and contains the elements that allow you to manage the navigation and pagination of the table.
+
 <Preview path="footer-only" nude />
 
-- The DataTable footer is placed at the bottom of the component table and contains the elements that allow you to manage the navigation and pagination of the table.
-
-| Feature                                              | Usage                                                       | Preview                            |
-| ---------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------- |
-| **Aperçu du nombre de produits / Produits affichés** | Only available with selected rows                           | <Preview path="badge-info" nude /> |
-| ** Pagination**                                      | Permet de naviguer entre les différentes pages du DataTable | -- Preview --                      |
+| Feature                                   | Usage                                                 | Preview |
+| ----------------------------------------- | ----------------------------------------------------- | ------- |
+| ** Rows's number selector**               | Allow to choose the number of row to display          |         |
+| **Displayed rows indicator**              | Display the page's rows and the total number of rows  |         |
+| [**Pagination**](/Components/Pagination/) | Allow to navigate to the other pages of the datatable |         |
 
 ## Variations
 
@@ -87,6 +96,15 @@ Each cells are available in 3 sizes.
 
 ## How to use
 
+<Highlight theme="warning" title="Work in progress">
+  We are currently working on the how to use documentation, it will be available
+  soon.
+</Highlight>
+
 ## Do's and Dont's
 
-- Never combine different sizes of cells inside the same datatable.
+<HintItem dont>
+  Never combine different sizes of cells inside the same datatable.
+</HintItem>
+
+<HintItem dont>Never use more than one quick filter.</HintItem>
