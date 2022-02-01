@@ -3,6 +3,8 @@
 .mc-option-button {
   $parent: get-parent-selector(&);
 
+  display: flex;
+
   &__input {
     @include set-hidden-input;
 
@@ -43,6 +45,14 @@
       right: -$mu025;
       bottom: -$mu025;
       left: -$mu025;
+    }
+  }
+
+  &--full {
+    #{$parent} {
+      &__label {
+        width: 100%;
+      }
     }
   }
 }
