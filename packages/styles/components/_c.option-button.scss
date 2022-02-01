@@ -4,6 +4,7 @@
   $parent: get-parent-selector(&);
 
   display: flex;
+  text-align: center;
 
   &__input {
     @include set-hidden-input;
