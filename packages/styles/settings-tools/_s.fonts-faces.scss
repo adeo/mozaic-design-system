@@ -1,44 +1,52 @@
 // Default path
-$font-path: '/fonts';
+$font-path: "/fonts";
+
+$presetAdeo: false;
+
+@if $preset == "adeo" {
+  $presetAdeo: true;
+}
+
+$font-family: if($presetAdeo, "Roboto", "LeroyMerlin");
 
 @if variable-exists(local-config) {
   @if type-of($local-config) == map and map-has-key($local-config, font-path) {
-    $font-path: map-get($local-config, 'font-path');
+    $font-path: map-get($local-config, "font-path");
   }
 }
 
 $font-weights: (
-  'light': 300,
-  'regular': 400,
-  'semi-bold': 600,
+  "light": 300,
+  "regular": 400,
+  "semi-bold": 600,
 );
 
 @mixin import-font-families($italic: true) {
   @font-face {
-    font-family: 'LeroyMerlin';
+    font-family: "LeroyMerlin";
     src:
-      url('#{$font-path}/LeroyMerlinSans-Web-Light.woff2') format('woff2'),
-      url('#{$font-path}/LeroyMerlinSans-Web-Light.woff') format('woff');
+      url("#{$font-path}/LeroyMerlinSans-Web-Light.woff2") format("woff2"),
+      url("#{$font-path}/LeroyMerlinSans-Web-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
   }
 
   @font-face {
-    font-family: 'LeroyMerlin';
+    font-family: "LeroyMerlin";
     src:
-      url('#{$font-path}/LeroyMerlinSans-Web-Regular.woff2') format('woff2'),
-      url('#{$font-path}/LeroyMerlinSans-Web-Regular.woff') format('woff');
+      url("#{$font-path}/LeroyMerlinSans-Web-Regular.woff2") format("woff2"),
+      url("#{$font-path}/LeroyMerlinSans-Web-Regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
 
   @font-face {
-    font-family: 'LeroyMerlin';
+    font-family: "LeroyMerlin";
     src:
-      url('#{$font-path}/LeroyMerlinSans-Web-SemiBold.woff2') format('woff2'),
-      url('#{$font-path}/LeroyMerlinSans-Web-SemiBold.woff') format('woff');
+      url("#{$font-path}/LeroyMerlinSans-Web-SemiBold.woff2") format("woff2"),
+      url("#{$font-path}/LeroyMerlinSans-Web-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -46,33 +54,33 @@ $font-weights: (
 
   @if $italic {
     @font-face {
-      font-family: 'LeroyMerlin';
+      font-family: "LeroyMerlin";
       src:
-        url('#{$font-path}/LeroyMerlinSans-Web-LightItalic.woff2')
-        format('woff2'),
-        url('#{$font-path}/LeroyMerlinSans-Web-LightItalic.woff') format('woff');
+        url("#{$font-path}/LeroyMerlinSans-Web-LightItalic.woff2")
+        format("woff2"),
+        url("#{$font-path}/LeroyMerlinSans-Web-LightItalic.woff") format("woff");
       font-weight: 300;
       font-style: italic;
       font-display: swap;
     }
 
     @font-face {
-      font-family: 'LeroyMerlin';
+      font-family: "LeroyMerlin";
       src:
-        url('#{$font-path}/LeroyMerlinSans-Web-Italic.woff2') format('woff2'),
-        url('#{$font-path}/LeroyMerlinSans-Web-Italic.woff') format('woff');
+        url("#{$font-path}/LeroyMerlinSans-Web-Italic.woff2") format("woff2"),
+        url("#{$font-path}/LeroyMerlinSans-Web-Italic.woff") format("woff");
       font-weight: 400;
       font-style: italic;
       font-display: swap;
     }
 
     @font-face {
-      font-family: 'LeroyMerlin';
+      font-family: "LeroyMerlin";
       src:
-        url('#{$font-path}/LeroyMerlinSans-Web-SemiBoldItalic.woff2')
-        format('woff2'),
-        url('#{$font-path}/LeroyMerlinSans-Web-SemiBoldItalic.woff')
-        format('woff');
+        url("#{$font-path}/LeroyMerlinSans-Web-SemiBoldItalic.woff2")
+        format("woff2"),
+        url("#{$font-path}/LeroyMerlinSans-Web-SemiBoldItalic.woff")
+        format("woff");
       font-weight: 600;
       font-style: italic;
       font-display: swap;
@@ -81,10 +89,10 @@ $font-weights: (
 }
 
 @mixin set-font-family() {
-  font-family: 'LeroyMerlin', sans-serif;
+  font-family: $font-family, sans-serif;
 }
 
-@mixin set-font-weight($weight: 'regular') {
+@mixin set-font-weight($weight: "regular") {
   @if map-has-key($font-weights, $weight) {
     font-weight: map-get($font-weights, $weight);
   }
@@ -94,11 +102,11 @@ $font-weights: (
   }
 }
 
-@mixin set-font-face($weight: 'regular', $italic: '') {
+@mixin set-font-face($weight: "regular", $italic: "") {
   @include set-font-family;
   @include set-font-weight($weight);
 
-  @if $italic != '' {
+  @if $italic != "" {
     font-style: italic;
   }
 }
