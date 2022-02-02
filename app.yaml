@@ -14,7 +14,6 @@ handlers:
       X-XSS-Protection: 1; mode=block
       X-FRAME-OPTIONS: 'sameorigin'
       Referrer-Policy: 'strict-origin-when-cross-origin'
-      Content-Security-Policy: "script-src 'self' https://embed.small.chat/T4R6RCZFAG0182TS10L8.js https://script.hotjar.com/modules.b840cee57f816b17fc8e.js https://static.hotjar.com/c/hotjar-1528294.js https://static.small.chat/messenger.js https://www.google-analytics.com/analytics.js; object-src 'self'"
   - url: /(.*)/
     secure: always
     redirect_http_response_code: 301
@@ -26,7 +25,6 @@ handlers:
       X-XSS-Protection: 1; mode=block
       X-FRAME-OPTIONS: 'sameorigin'
       Referrer-Policy: 'strict-origin-when-cross-origin'
-      Content-Security-Policy: "script-src 'self' https://embed.small.chat/T4R6RCZFAG0182TS10L8.js https://script.hotjar.com/modules.b840cee57f816b17fc8e.js https://static.hotjar.com/c/hotjar-1528294.js https://static.small.chat/messenger.js https://www.google-analytics.com/analytics.js; object-src 'self'"
   - url: /(.*)
     secure: always
     redirect_http_response_code: 301
@@ -38,7 +36,6 @@ handlers:
       X-XSS-Protection: 1; mode=block
       X-FRAME-OPTIONS: 'sameorigin'
       Referrer-Policy: 'strict-origin-when-cross-origin'
-      Content-Security-Policy: "script-src 'self' https://embed.small.chat/T4R6RCZFAG0182TS10L8.js https://script.hotjar.com/modules.b840cee57f816b17fc8e.js https://static.hotjar.com/c/hotjar-1528294.js https://static.small.chat/messenger.js https://www.google-analytics.com/analytics.js; object-src 'self'"
 
 automatic_scaling:
   min_instances: 0
