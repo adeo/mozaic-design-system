@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.24.1](https://github.com/adeo/mozaic-design-system/compare/v1.24.0...v1.24.1) (2022-02-02)
+
+
+### Bug Fixes
+
+* **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
+* **readme:** update link ([a681853](https://github.com/adeo/mozaic-design-system/commit/a6818533aeeb6a1a68333ee4e8385077901b5acc))
+* **release:** empty commit due to release issue ([e9a83cb](https://github.com/adeo/mozaic-design-system/commit/e9a83cbd9893c086adee6e1b752ae1e0a64151be))
+* **release:** remove duplicate from app.yaml ([#1021](https://github.com/adeo/mozaic-design-system/issues/1021)) ([2ca963a](https://github.com/adeo/mozaic-design-system/commit/2ca963a289ee1de61482f5edb32658a7a24212c4))
+
+
+
+
+
 # [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
 
 
