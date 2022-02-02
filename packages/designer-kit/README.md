@@ -24,4 +24,4 @@ Once the version selected, click on the clone or download drop-down button in th
 
 ### Install and use
 
-Please follow the instructions provided in the [documentation](https://design-system-adeo.appspot.com/getStarted/) to install the design files.
+Please follow the instructions provided in the [documentation](https://mozaic.adeo.cloud/GetStarted/Designers/installation/) to install the design files.
