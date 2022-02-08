@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.24.1](https://github.com/adeo/mozaic-design-system/compare/v1.24.0...v1.24.1) (2022-02-02)
+
+
+### Bug Fixes
+
+* **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
+
+
+
+
+
+# [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
+
+
+### Bug Fixes
+
+* **component/breadcrumb:** correct the size of the breadcrumb links ([#1006](https://github.com/adeo/mozaic-design-system/issues/1006)) ([9a46c60](https://github.com/adeo/mozaic-design-system/commit/9a46c60c03b5c32390482383c384eae2bc8553d5))
+
+
+### Features
+
+* **pattern/font:** set Roboto font-family when using the Adeo preset ([#1018](https://github.com/adeo/mozaic-design-system/issues/1018)) ([6612e13](https://github.com/adeo/mozaic-design-system/commit/6612e131131b088f9017ffc5620ca4f4903ed924))
+* **pattern/optiongroup:** add component ([#992](https://github.com/adeo/mozaic-design-system/issues/992)) ([1acae2c](https://github.com/adeo/mozaic-design-system/commit/1acae2c25beda79c20d00821277d1eca0be69300))
+
+
+
+
+
 ## [1.23.1](https://github.com/adeo/mozaic-design-system/compare/v1.23.0...v1.23.1) (2022-01-10)
 
 

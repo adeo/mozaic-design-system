@@ -2,46 +2,45 @@
   $parent: get-parent-selector(&);
 
   @include set-font-face();
-  @include set-font-scale('04', 'm');
 
   color: $color-font-darker;
   padding:
-    magic-unit-rem(0.9375, 'true') 0 magic-unit-rem(0.9375, 'true')
-    magic-unit-rem(1.125, 'true');
+    magic-unit-rem(0.9375, "true") 0 magic-unit-rem(0.9375, "true")
+    magic-unit-rem(1.125, "true");
 
-  @include set-from-screen('s-large') {
+  @include set-from-screen("s-large") {
     padding-left: $mu125;
   }
 
-  @include set-from-screen('s-xlarge') {
-    padding-left: magic-unit-rem(1.375, 'true');
+  @include set-from-screen("s-xlarge") {
+    padding-left: magic-unit-rem(1.375, "true");
   }
 
-  @include set-from-screen('m') {
+  @include set-from-screen("m") {
     padding-left: $mu200;
   }
 
-  @include set-from-screen('m-medium') {
-    padding-left: magic-unit-rem(2.125, 'true');
+  @include set-from-screen("m-medium") {
+    padding-left: magic-unit-rem(2.125, "true");
   }
 
-  @include set-from-screen('l') {
+  @include set-from-screen("l") {
     padding-left: $mu300;
   }
 
-  @include set-from-screen('xl') {
+  @include set-from-screen("xl") {
     padding-left: $mu200;
   }
 
-  @include set-from-screen('xl-medium') {
+  @include set-from-screen("xl-medium") {
     padding-left: $mu700;
   }
 
-  @include set-from-screen('xl-large') {
+  @include set-from-screen("xl-large") {
     padding-left: $mu200;
   }
 
-  @include set-from-screen('xxl') {
+  @include set-from-screen("xxl") {
     padding-left: $mu250;
   }
 
@@ -55,14 +54,12 @@
   }
 
   &__item {
-    @include set-font-scale('04', 'l');
-
     padding-right: $mu050;
-    background-position: left ($mu025 - 0.0625rem);
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: $mu100;
 
-    @include set-from-screen('l') {
+    @include set-from-screen("l") {
       flex-shrink: 0;
     }
 
@@ -73,13 +70,13 @@
     }
 
     &:not(:first-child) {
-      background-image: url(inline-icons('arrow-right-16', $color-grey-800));
+      background-image: url(inline-icons("arrow-right-16", $color-grey-800));
     }
 
     &.is-active,
     &:only-child {
       @media screen and (max-width: ($screen-l - 1)) {
-        background-image: url(inline-icons('arrow-left-16', $color-grey-800));
+        background-image: url(inline-icons("arrow-left-16", $color-grey-800));
       }
     }
   }
@@ -110,7 +107,7 @@
           background-image:
             url(
               inline-icons(
-                'arrow-right-16',
+                "arrow-right-16",
                 $color-grey-000
               ));
         }
@@ -121,7 +118,7 @@
             background-image:
               url(
                 inline-icons(
-                  'arrow-left-16',
+                  "arrow-left-16",
                   $color-grey-000
                 ));
           }

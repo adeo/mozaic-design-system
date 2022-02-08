@@ -9,7 +9,6 @@ handlers:
     static_files: public/index.html
     upload: public/index.html
     http_headers:
-      Strict-Transport-Security: 'max-age=63072000; includeSubDomains; preload'
       X-Content-Type-Options: nosniff
       X-XSS-Protection: 1; mode=block
       X-FRAME-OPTIONS: 'sameorigin'
@@ -20,7 +19,6 @@ handlers:
     static_files: public/\1/index.html
     upload: public/(.*)/index.html
     http_headers:
-      Strict-Transport-Security: 'max-age=63072000; includeSubDomains; preload'
       X-Content-Type-Options: nosniff
       X-XSS-Protection: 1; mode=block
       X-FRAME-OPTIONS: 'sameorigin'
@@ -31,7 +29,6 @@ handlers:
     static_files: public/\1
     upload: public/(.*)
     http_headers:
-      Strict-Transport-Security: 'max-age=63072000; includeSubDomains; preload'
       X-Content-Type-Options: nosniff
       X-XSS-Protection: 1; mode=block
       X-FRAME-OPTIONS: 'sameorigin'

@@ -1,5 +1,5 @@
 @use "sass:math";
-
+// Option card should be used with an option group
 .mc-option-card {
   $parent: get-parent-selector(&);
 
