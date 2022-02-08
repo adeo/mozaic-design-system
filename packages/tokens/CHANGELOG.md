@@ -156,6 +156,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @mozaic-ds/tokens
 
+
+
+
+
+# [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
+
+
+### Features
+
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8854fb8](https://github.com/adeo/mozaic-design-system/commit/8854fb89fda1ecd3d9be10b9fcc7aa102fdc7102))
+
+
+
+
+
 # [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
 
 ### Bug Fixes

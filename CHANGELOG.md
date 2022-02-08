@@ -579,6 +579,24 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **component/pswdinput:** increase CSS specificity on the input[type=password"] element ([#1032](https://github.com/adeo/mozaic-design-system/issues/1032)) ([9cbed7c](https://github.com/adeo/mozaic-design-system/commit/9cbed7c34a3d37be0bc15c08acfa3b59c6684e06))
 - **foundations/icons:** add typescript to react icons ([#1025](https://github.com/adeo/mozaic-design-system/issues/1025)) ([93ce0ff](https://github.com/adeo/mozaic-design-system/commit/93ce0ff0c9b85bfac4e10149def885790631a360))
 
+# [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
+
+
+### Bug Fixes
+
+* **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
+* **readme:** update link ([a681853](https://github.com/adeo/mozaic-design-system/commit/a6818533aeeb6a1a68333ee4e8385077901b5acc))
+* **release:** empty commit due to release issue ([e9a83cb](https://github.com/adeo/mozaic-design-system/commit/e9a83cbd9893c086adee6e1b752ae1e0a64151be))
+
+
+### Features
+
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8854fb8](https://github.com/adeo/mozaic-design-system/commit/8854fb89fda1ecd3d9be10b9fcc7aa102fdc7102))
+
+
+
+
+
 ## [1.24.1](https://github.com/adeo/mozaic-design-system/compare/v1.24.0...v1.24.1) (2022-02-02)
 
 ### Bug Fixes

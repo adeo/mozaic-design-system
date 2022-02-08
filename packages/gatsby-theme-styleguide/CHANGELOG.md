@@ -63,6 +63,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
 
+
+
+
+
+# [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
 # [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
