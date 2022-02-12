@@ -1,21 +1,17 @@
 /* mqp:start */
 .mc-flag {
-  @include set-flag-base();
-  @include set-font-face('semi-bold');
-  @include set-font-scale('04', 's');
-  @include set-flag-theme(get-token(color, flag, 'solid'));
+  $parent: get-parent-selector(&);
+
+  @include set-flag-base($parent);
+  @include set-font-face("semi-bold");
+  @include set-flag-theme($parent, get-token(color, flag, "solid"));
 
   @each $name, $props in $flags {
-    @if ($name != 'solid') {
+    @if ($name != "solid") {
       &--#{$name} {
-        @include set-flag-theme($props);
+        @include set-flag-theme($parent, $props);
       }
     }
-  }
-
-  &--extend {
-    flex-shrink: 1;
-    height: auto;
   }
 }
 
