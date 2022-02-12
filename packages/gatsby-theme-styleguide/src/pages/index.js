@@ -7,7 +7,7 @@ import AreaValues from '../components/AreaValues'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Menu from '../gatsby-components/Menu'
-import JSONData from '../../../../src/content/datas.json'
+import JSONData from './datas.json'
 import './index.scss'
 
 // --------- COMMON
