@@ -1,8 +1,0 @@
-@import "settings-tools/all-settings";
-@include import-font-families();
-@import "components/c.flag";
-
-.example {
-  margin: $mu100 auto;
-  padding: 0 $mu150;
-}
