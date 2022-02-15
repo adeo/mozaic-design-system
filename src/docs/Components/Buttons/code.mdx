@@ -19,9 +19,7 @@ With unwraped text, buttons using icons will break layout.
 
 ```html
 <button type="button" class="mc-button">
-  <span class="mc-button__label">
-    Label
-  </span>
+  <span class="mc-button__label"> Label </span>
 </button>
 ```
 
@@ -29,9 +27,7 @@ Note that if you wish, you can also use the `mc-button` with an HTML tag `<a />`
 
 ```html
 <a href="#" class="mc-button">
-  <span class="mc-button__label">
-    Label
-  </span>
+  <span class="mc-button__label"> Label </span>
 </a>
 ```
 
@@ -45,23 +41,19 @@ Note that if you wish, you can also use the `mc-button` with an HTML tag `<a />`
 - `bordered`
 - `bordered-neutral`
 - `solid-neutral`
-- `solid-primary-02`
-- `bordered-primary-02`
+- `solid-primary-02` (no longer maintened)
+- `bordered-primary-02` (no longer maintened)
 - `solid-danger`
 - `bordered-danger`
 
 example :
 
 ```html
-<a href="#" class="mc-button mc-button--primary-02">
-  <span class="mc-button__label">
-    Label
-  </span>
+<a href="#" class="mc-button mc-button--neutral">
+  <span class="mc-button__label"> Label </span>
 </a>
-<a href="#" class="mc-button mc-button--bordered-primary-02">
-  <span class="mc-button__label">
-    Label
-  </span>
+<a href="#" class="mc-button mc-button--bordered-neutral">
+  <span class="mc-button__label"> Label </span>
 </a>
 ```
 
@@ -77,19 +69,13 @@ You can use one of the 3 available sizes :
 
 ```html
 <a href="#" class="mc-button mc-button--s">
-  <span class="mc-button__label">
-    Label
-  </span>
+  <span class="mc-button__label"> Label </span>
 </a>
 <a href="#" class="mc-button">
-  <span class="mc-button__label">
-    Label
-  </span>
+  <span class="mc-button__label"> Label </span>
 </a>
 <a href="#" class="mc-button mc-button--l">
-  <span class="mc-button__label">
-    Label
-  </span>
+  <span class="mc-button__label"> Label </span>
 </a>
 ```
 
@@ -145,11 +131,11 @@ You only need to add the `mc-button__icon` CSS class to your icon HTML tag.
 
 The size of the icons is relative to the size of the buttons and corresponds to the rules detailed in the table below:
 
-| **Button size** | **Icon only**                      | **Icon + text** |
-| --------------- | ---------------------------------- | --------------- |
-| **Small**       | 1.5mu (24px)                       | 1.5mu (24px)    |
-| **Medium**      | 2mu (32px)                         | 1.5mu (24px)    |
-| **Large**       | 2mu (32px)                         | 2mu (32px)      |
+| **Button size** | **Icon only** | **Icon + text** |
+| --------------- | ------------- | --------------- |
+| **Small**       | 1.5mu (24px)  | 1.5mu (24px)    |
+| **Medium**      | 2mu (32px)    | 1.5mu (24px)    |
+| **Large**       | 2mu (32px)    | 2mu (32px)      |
 
 #### Icon and text
 
@@ -200,7 +186,6 @@ This mean that you can override or create buttons themes and the associated clas
 Read our [customization documentation first](/GetStarted/Developers/CustomizeTokens/) first to see how to customize tokens.
 
 </Highlight>
-
 
 Create a json file in `[your/src]/properties/color/button.json`
 
