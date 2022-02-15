@@ -1,67 +1,62 @@
 @use "sass:math";
-// Option card should be used with an option group
+
 .mc-option-card {
   $parent: get-parent-selector(&);
 
-  position: relative;
   border-radius: get-border-radius("m");
   cursor: pointer;
+  position: relative;
 
   &__input {
-    position: absolute;
-    right: $mu100;
-    top: $mu100;
-    border-color: $color-input-border;
-
-    &.mc-radio__input,
-    &.mc-checkbox__input,
-    &:focus {
-      box-shadow: none;
-    }
-
-    &.mc-radio__input:checked,
-    &.mc-checkbox__input:checked,
-    &:checked {
-      border-color: $color-input-checked-border;
-    }
-
-    &.mc-radio__input:hover,
-    &.mc-checkbox__input:hover,
-    &:hover {
+    @at-root input#{&} {
       border-color: $color-input-border;
-    }
+      position: absolute;
+      right: $mu100;
+      top: $mu100;
 
-    &.mc-radio__input:checked:hover,
-    &.mc-checkbox__input:checked:hover,
-    &:checked:hover {
-      border-color: $color-input-checked-border;
-    }
+      &,
+      &:focus {
+        box-shadow: none;
+      }
 
-    &:hover + #{$parent}__label {
-      box-shadow: 0 0 0 2px $color-grey-800;
-    }
+      &:checked {
+        border-color: $color-input-checked-border;
+      }
 
-    &:checked + #{$parent}__label {
-      border-color: $color-primary-01-500;
-      box-shadow: 0 0 0 $mu025 $color-success-100;
-    }
+      &:hover {
+        border-color: $color-input-border;
+      }
 
-    &:focus + #{$parent}__label {
-      @include set-focus-floating();
+      &:checked:hover {
+        border-color: $color-input-checked-border;
+      }
+
+      &:hover + #{$parent}__label {
+        box-shadow: 0 0 0 2px $color-grey-800;
+      }
+
+      &:checked + #{$parent}__label {
+        border-color: $color-primary-01-500;
+        box-shadow: 0 0 0 $mu025 $color-success-100;
+      }
+
+      &:focus + #{$parent}__label {
+        @include set-focus-floating();
+      }
     }
   }
 
   &__label {
-    position: absolute;
+    border: 2px solid transparent;
     border-radius: get-border-radius("m");
     box-shadow: 0 0 0 1px $color-grey-300;
-    border: 2px solid transparent;
-    height: 100%;
-    width: 100%;
     cursor: pointer;
-    top: 50%;
+    height: 100%;
     left: 50%;
+    position: absolute;
+    top: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 
     &-text {
       @include visually-hidden();
@@ -82,32 +77,26 @@
   }
 
   &--small {
-    #{$parent} {
-      &__input {
-        right: $mu050;
-        top: $mu050;
-      }
+    input#{$parent}__input {
+      right: $mu050;
+      top: $mu050;
+    }
 
-      &__content {
-        padding: $mu050;
-      }
+    #{$parent}__content {
+      padding: $mu050;
     }
   }
 
   &--centered {
-    #{$parent} {
-      &__input {
-        top: 50%;
-        transform: translateY(-50%);
-      }
+    input#{$parent}__input {
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 
   &--no-padding {
-    #{$parent} {
-      &__content {
-        padding: 0;
-      }
+    #{$parent}__content {
+      padding: 0;
     }
   }
 }
