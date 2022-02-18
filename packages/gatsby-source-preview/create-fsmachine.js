@@ -2,6 +2,7 @@ const { createMachine } = require('xstate')
 
 const createFSMachine = () =>
   createMachine({
+    id: 'fsMachine',
     key: `emitFSEvents`,
     type: 'parallel',
     strict: true,
