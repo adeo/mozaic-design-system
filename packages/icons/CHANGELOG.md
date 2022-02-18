@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.25.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.1...v1.25.0) (2022-02-16)
+
+
+### Features
+
+* **foundations/icons:** add typescript to react icons ([#1025](https://github.com/adeo/mozaic-design-system/issues/1025)) ([93ce0ff](https://github.com/adeo/mozaic-design-system/commit/93ce0ff0c9b85bfac4e10149def885790631a360))
+
+
+
+
+
 # [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
 
 
