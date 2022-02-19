@@ -32,8 +32,8 @@ const pickConfig = () => {
 }
 
 module.exports = {
-  extends: ['stylelint-config-standard'],
-  plugins: ['@mozaic-ds/stylelint-plugin-mozaic', 'stylelint-scss'],
+  extends: ['stylelint-config-standard-scss'],
+  plugins: ['@mozaic-ds/stylelint-plugin-mozaic'],
   rules: {
     'at-rule-no-unknown': null,
     'max-empty-lines': null,
