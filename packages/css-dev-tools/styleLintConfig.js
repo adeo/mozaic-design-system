@@ -32,12 +32,17 @@ const pickConfig = () => {
 }
 
 module.exports = {
-  extends: ['stylelint-config-standard'],
-  plugins: ['@mozaic-ds/stylelint-plugin-mozaic', 'stylelint-scss'],
+  extends: ['stylelint-config-standard-scss'],
+  plugins: ['@mozaic-ds/stylelint-plugin-mozaic'],
   rules: {
     'at-rule-no-unknown': null,
     'max-empty-lines': null,
     'plugin/mozaic-bem-pattern': [pickConfig()],
     'no-invalid-position-at-import-rule': null,
+    'alpha-value-notation': null,
+    'selector-class-pattern': null,
+    'scss/at-mixin-argumentless-call-parentheses': 'always',
+    'scss/no-global-function-names': null,
+    'scss/at-import-partial-extension': null,
   },
 }
