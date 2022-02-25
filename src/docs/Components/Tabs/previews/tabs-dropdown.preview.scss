@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.tabs';
-@import 'components/_c.select';
+@import "components/c.tabs";
+@import "components/c.select";
 
 .example {
   @include set-font-face();

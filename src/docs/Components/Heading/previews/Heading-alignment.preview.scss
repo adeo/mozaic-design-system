@@ -1,8 +1,6 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'typography/_t.headings';
+@import "typography/t.headings";
 
 .example {
   padding: $mu200;
@@ -14,7 +12,7 @@
   }
 
   &__modifier {
-    @include set-font-scale('03', 's');
+    @include set-font-scale("03", "s");
 
     margin-top: $mu200;
     font-family: monospace;
