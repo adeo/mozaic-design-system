@@ -72,7 +72,7 @@ const productionPlugins = [
 ]
 
 if (CM.getKey('autoprefixer.disabled')) {
-  productionPlugins.splice(4,1);
+  productionPlugins.splice(4, 1)
 }
 
 if (CM.getKey('purgecss')) {
