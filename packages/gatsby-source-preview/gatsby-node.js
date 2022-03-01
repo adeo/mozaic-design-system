@@ -147,7 +147,7 @@ exports.sourceNodes = (tools, configOptions) => {
     // It's possible the file node was never created as sometimes tools will
     // write and then immediately delete temporary files to the file system.
     if (node) {
-      deleteNode({ node })
+      deleteNode(node)
     }
   }
 
@@ -178,7 +178,7 @@ exports.sourceNodes = (tools, configOptions) => {
     const node = getNode(createNodeId(path))
 
     if (node) {
-      deleteNode({ node })
+      deleteNode(node)
     }
   })
 
