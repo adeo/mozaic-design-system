@@ -3,6 +3,7 @@
 @include import-font-families();
 
 @import "components/_c.radio";
+@import "components/_c.button";
 @import "typography/_t.bodys";
 @import "components/_c.option-card";
 
@@ -47,4 +48,8 @@
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
+}
+
+.hide-button {
+  display: none;
 }

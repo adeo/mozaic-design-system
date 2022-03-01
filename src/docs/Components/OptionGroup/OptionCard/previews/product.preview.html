@@ -1,6 +1,6 @@
 <div class="example">
   <div class="mc-option-group">
-    <div class="mc-option-card mc-option-card--small">
+    <div id="ok" class="mc-option-card mc-option-card--small">
       <input
         type="radio"
         name="option-group"
@@ -8,6 +8,8 @@
         id="radio-01"
         class="mc-radio__input mc-option-card__input"
         aria-label="radio-01"
+        data-mc-component="card"
+        onchange="manageButton(this)"
       />
       <label for="radio-01" class="mc-option-card__label"
         ><span class="mc-option-card__label-text">Label group</span></label
@@ -28,6 +30,9 @@
             <span class="mt-body-m example-info-time">à partir de</span>
             <span class="mt-body-l">1549.00€</span>
           </div>
+          <button id="exampleButton" class="mc-button mc-button--s hide-button">
+            Acheter
+          </button>
         </div>
       </div>
     </div>
@@ -39,6 +44,8 @@
         id="radio-02"
         class="mc-radio__input mc-option-card__input"
         aria-label="radio-02"
+        data-mc-component="card"
+        onchange="manageButton(this)"
       />
       <label for="radio-02" class="mc-option-card__label"
         ><span class="mc-option-card__label-text">Label group</span></label
@@ -59,8 +66,26 @@
             <span class="mt-body-m example-info-time">à partir de</span>
             <span class="mt-body-l">1549.00€</span>
           </div>
+          <button id="exampleButton" class="mc-button mc-button--s hide-button">
+            Acheter
+          </button>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  function manageButton(radio) {
+    const buttons = document.querySelectorAll('.mc-button')
+    buttons.forEach(function (button) {
+      button.classList.add('hide-button');
+    })
+    
+    const component = radio.closest('.mc-option-card')
+    const input = component.querySelector('.mc-button')
+    if (radio.checked) {
+      input.classList.remove('hide-button')
+    }
+  }
+</script>

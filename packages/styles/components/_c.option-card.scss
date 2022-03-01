@@ -38,6 +38,7 @@
       &:checked + #{$parent}__label {
         border-color: $color-primary-01-500;
         box-shadow: 0 0 0 $mu025 $color-success-100;
+        pointer-events: none;
       }
 
       &:focus + #{$parent}__label {
