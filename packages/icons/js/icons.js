@@ -3298,6 +3298,7 @@ export const Carpentry24 = {
     },
   ],
 }
+
 export const ConnectedHome24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -3332,6 +3333,7 @@ export const ConnectedHome24 = {
     },
   ],
 }
+
 export const Dressing24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -3620,6 +3622,7 @@ export const Tool24 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -7103,6 +7106,7 @@ export const Carpentry32 = {
     },
   ],
 }
+
 export const ConnectedHome32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -7137,6 +7141,7 @@ export const ConnectedHome32 = {
     },
   ],
 }
+
 export const Dressing32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -7453,6 +7458,7 @@ export const Tool32 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -11050,6 +11056,7 @@ export const Carpentry48 = {
     },
   ],
 }
+
 export const ConnectedHome48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -11084,6 +11091,7 @@ export const ConnectedHome48 = {
     },
   ],
 }
+
 export const Dressing48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -11388,6 +11396,7 @@ export const Tool48 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -14931,6 +14940,7 @@ export const Carpentry64 = {
     },
   ],
 }
+
 export const ConnectedHome64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
@@ -14965,6 +14975,7 @@ export const ConnectedHome64 = {
     },
   ],
 }
+
 export const Dressing64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
@@ -15273,6 +15284,7 @@ export const Tool64 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
