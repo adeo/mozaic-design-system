@@ -44,7 +44,7 @@
         @include set-focus-floating();
       }
 
-      &:checked + #{$parent}__content {
+      &:checked ~ #{$parent}__content {
         button,
         [href],
         input,
