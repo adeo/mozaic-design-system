@@ -1,5 +1,5 @@
 service: demo
-runtime: nodejs12
+runtime: nodejs16
 instance_class: F1
 
 handlers:
@@ -33,7 +33,6 @@ handlers:
       X-XSS-Protection: 1; mode=block
       X-FRAME-OPTIONS: 'sameorigin'
       Referrer-Policy: 'strict-origin-when-cross-origin'
-
 
 automatic_scaling:
   min_instances: 0

@@ -14,16 +14,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Extract branch name 
-        id: getbranch 
-        shell: bash 
+      - name: Extract branch name
+        id: getbranch
+        shell: bash
         run: echo "::set-output name=branch::$(echo ${GITHUB_REF#refs/heads/} | sed -r 's/[^a-zA-Z0-9]+//g' | tr A-Z a-z)"
       - run: echo ${{ github.ref }} | iconv -t ASCII
       - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: '16'
       - run: npm install yarn -g
       - run: yarn lerna
       - name: Build a production website
@@ -44,7 +44,7 @@ jobs:
           env: staging
           ref: ${{ github.head_ref }}
           transient: true
-      - name: Deploy on App Engine 
+      - name: Deploy on App Engine
         id: appengine
         uses: google-github-actions/deploy-appengine@main
         with:
