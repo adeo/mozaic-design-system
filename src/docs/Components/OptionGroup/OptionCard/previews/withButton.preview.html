@@ -75,14 +75,13 @@
 <script>
   function manageButton(checkbox) {
     const buttons = document.querySelectorAll('.mc-button')
-    buttons.forEach(function (button) {
-      button.classList.add('hide-button');
-    })
     
     const component = checkbox.closest('.mc-option-card')
     const input = component.querySelector('.mc-button')
     if (checkbox.checked) {
       input.classList.remove('hide-button')
+    } else {
+      input.classList.add('hide-button')
     }
   }
 </script>

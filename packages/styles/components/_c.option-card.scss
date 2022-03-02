@@ -38,19 +38,21 @@
       &:checked + #{$parent}__label {
         border-color: $color-primary-01-500;
         box-shadow: 0 0 0 $mu025 $color-success-100;
+      }
 
+      &:focus + #{$parent}__label {
+        @include set-focus-floating();
+      }
+
+      &:checked + #{$parent}__content {
         button,
         [href],
         input,
         select,
         textarea,
         [tabindex]:not([tabindex="-1"]) {
-          z-index: 1;
+          z-index: 2;
         }
-      }
-
-      &:focus + #{$parent}__label {
-        @include set-focus-floating();
       }
     }
   }
