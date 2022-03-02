@@ -1,11 +1,9 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'typography/_t.heros';
+@import "typography/t.heros";
 
 // for example purpose only
-@import 'layouts/_l.flexy';
+@import "layouts/l.flexy";
 
 .example {
   padding: $mu200;
@@ -17,8 +15,8 @@
   }
 
   &__title {
-    @include set-font-scale('07', 'm');
-    @include set-font-face('semi-bold');
+    @include set-font-scale("07", "m");
+    @include set-font-face("semi-bold");
 
     background: $color-grey-100;
     text-align: center;
@@ -31,7 +29,7 @@
   }
 
   &__modifier {
-    @include set-font-scale('04', 's');
+    @include set-font-scale("04", "s");
 
     margin-top: $mu200;
     font-family: monospace;

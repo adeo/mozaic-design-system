@@ -1,25 +1,24 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
 
 // for example purpose only
-@import 'layouts/_l.flexy';
+@import "layouts/l.flexy";
 
 // body styles imports
-@import 'typography/_t.bodys';
+@import "typography/t.bodys";
 
 .example {
   padding: $mu200;
 
   &__title {
-    @include set-font-scale('07', 's');
-    @include set-font-face('semi-bold');
+    @include set-font-scale("07", "s");
+    @include set-font-face("semi-bold");
 
     text-align: center;
   }
 
   &__modifier {
-    @include set-font-scale('04', 's');
+    @include set-font-scale("04", "s");
 
     font-family: monospace;
     display: block;

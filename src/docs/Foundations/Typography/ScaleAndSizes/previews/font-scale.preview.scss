@@ -1,5 +1,4 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
 
 $font-sizes: get-token(size, font);
@@ -8,7 +7,7 @@ $font-sizes: get-token(size, font);
   padding: $mu300;
 
   &__item {
-    @include set-font-face('regular');
+    @include set-font-face("regular");
 
     box-shadow: 0 1px 0 0 rgba($color-secondary-red-500, 0.5);
 
@@ -23,7 +22,7 @@ $font-sizes: get-token(size, font);
         @include set-font-scale($size);
 
         &::before {
-          content: '#{$size}';
+          content: "#{$size}";
           text-align: center;
           display: inline-block;
           width: $mu400;

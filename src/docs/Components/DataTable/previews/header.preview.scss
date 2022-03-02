@@ -1,20 +1,18 @@
-@import "settings-tools/_all-settings";
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import "components/_c.badge";
-@import "components/_c.button";
-@import "components/_c.checkbox";
-@import "components/_c.text-input";
-@import "components/_c.left-icon-input";
-@import "components/_c.links";
-@import "components/_c.select";
-@import "components/_c.pagination";
-@import "components/_c.tag";
-@import "components/_c.toggle";
-@import "components/_c.datatable"; // mandatory
-@import "components/_c.datatable-tools"; // mandatory
-@import "components/_c.datatable-header"; // import when using the DataTable with a header
+@import "components/c.badge";
+@import "components/c.button";
+@import "components/c.checkbox";
+@import "components/c.text-input";
+@import "components/c.left-icon-input";
+@import "components/c.links";
+@import "components/c.select";
+@import "components/c.pagination";
+@import "components/c.tag";
+@import "components/c.toggle";
+@import "components/c.datatable"; // mandatory
+@import "components/c.datatable-tools"; // mandatory
+@import "components/c.datatable-header"; // import when using the DataTable with a header
 
 html,
 body {

@@ -1,12 +1,11 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
 
-$font-colors: get-token('color', 'font');
+$font-colors: get-token("color", "font");
 
 .example {
-  @include set-font-face('semi-bold');
-  @include set-font-scale('10', 's');
+  @include set-font-face("semi-bold");
+  @include set-font-scale("10", "s");
 
   padding: $mu100;
 
@@ -24,7 +23,7 @@ $font-colors: get-token('color', 'font');
         @include set-color($key);
 
         &::after {
-          content: '#{$key}';
+          content: "#{$key}";
         }
       }
     }

@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'utilities/_u.margin';
-@import 'utilities/_u.padding';
+@import "utilities/u.margin";
+@import "utilities/u.padding";
 
 .example {
   background-color: $color-primary-02-200;
