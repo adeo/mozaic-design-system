@@ -1,19 +1,18 @@
 <div class="example">
   <div class="mc-option-group">
-    <div class="mc-option-card mc-option-card--small">
+    <div class="mc-option-card">
       <input
-        type="radio"
+        type="checkbox"
         name="option-group"
-        value="1"
-        id="radio-01"
-        class="mc-radio__input mc-option-card__input"
-        aria-label="radio-01"
+        id="checkbox-01"
+        class="mc-checkbox__input mc-option-card__input"
+        aria-label="checkbox-01"
         onchange="manageButton(this)"
       />
-      <label for="radio-01" class="mc-option-card__label"
+      <label for="checkbox-01" class="mc-option-card__label"
         ><span class="mc-option-card__label-text">Label group</span></label
       >
-      <div class="mc-option-card__content example-content">
+            <div class="mc-option-card__content example-content">
         <div class="example-image">
           <img
             src="https://media.adeo.com/marketplace/LMFR/73263253/4281a1e5-7beb-4715-ba09-1f8f59cf8b6d.jpeg?width=80"
@@ -35,20 +34,19 @@
         </div>
       </div>
     </div>
-    <div class="mc-option-card mc-option-card--small">
+    <div class="mc-option-card">
       <input
-        type="radio"
+        type="checkbox"
         name="option-group"
-        value="2"
-        id="radio-02"
-        class="mc-radio__input mc-option-card__input"
-        aria-label="radio-02"
+        id="checkbox-02"
+        class="mc-checkbox__input mc-option-card__input"
+        aria-label="checkbox-02"
         onchange="manageButton(this)"
       />
-      <label for="radio-02" class="mc-option-card__label"
+      <label for="checkbox-02" class="mc-option-card__label"
         ><span class="mc-option-card__label-text">Label group</span></label
       >
-      <div class="mc-option-card__content example-content">
+            <div class="mc-option-card__content example-content">
         <div class="example-image">
           <img
             src="https://media.adeo.com/marketplace/LMFR/73263176/2af9b0ec-82a9-4ba7-9042-fa6de3e8f4f3.jpeg?width=80"
@@ -64,7 +62,7 @@
             <span class="mt-body-m example-info-time">à partir de</span>
             <span class="mt-body-l">1549.00€</span>
           </div>
-          <button id="exampleButton" class="mc-button mc-button--s hide-button ">
+          <button id="exampleButton" class="mc-button mc-button--s hide-button">
             Acheter
           </button>
         </div>
@@ -73,17 +71,17 @@
   </div>
 </div>
 
+
 <script>
-  function manageButton(radio) {
+  function manageButton(checkbox) {
     const buttons = document.querySelectorAll('.mc-button')
-    buttons.forEach(function (button) {
-      button.classList.add('hide-button');
-    })
     
-    const component = radio.closest('.mc-option-card')
+    const component = checkbox.closest('.mc-option-card')
     const input = component.querySelector('.mc-button')
-    if (radio.checked) {
+    if (checkbox.checked) {
       input.classList.remove('hide-button')
+    } else {
+      input.classList.add('hide-button')
     }
   }
 </script>
