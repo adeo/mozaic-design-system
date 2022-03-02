@@ -2093,10 +2093,26 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_24px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_24px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_24px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains24"
     },
     {
       "cat": "Universe",
@@ -2249,6 +2265,14 @@
       "fileName": "Universe_Tool_24px.svg",
       "iconName": "Tool",
       "componentName": "Tool24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_24px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw24"
     },
     {
       "cat": "User",
@@ -4029,10 +4053,26 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_32px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_32px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_32px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains32"
     },
     {
       "cat": "Universe",
@@ -4185,6 +4225,14 @@
       "fileName": "Universe_Tool_32px.svg",
       "iconName": "Tool",
       "componentName": "Tool32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_32px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw32"
     },
     {
       "cat": "User",
@@ -5981,10 +6029,26 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_48px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_48px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_48px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains48"
     },
     {
       "cat": "Universe",
@@ -6137,6 +6201,14 @@
       "fileName": "Universe_Tool_48px.svg",
       "iconName": "Tool",
       "componentName": "Tool48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_48px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw48"
     },
     {
       "cat": "User",
@@ -7941,10 +8013,26 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_64px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_64px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_64px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains64"
     },
     {
       "cat": "Universe",
@@ -8097,6 +8185,14 @@
       "fileName": "Universe_Tool_64px.svg",
       "iconName": "Tool",
       "componentName": "Tool64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_64px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw64"
     },
     {
       "cat": "User",
