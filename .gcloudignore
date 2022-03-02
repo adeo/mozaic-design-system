@@ -15,3 +15,9 @@
 
 # Node.js dependencies:
 node_modules/
+
+# Icones
+packages/icons/svelte
+packages/icons/js
+packages/icons/pdf
+packages/icons/pdf-color
