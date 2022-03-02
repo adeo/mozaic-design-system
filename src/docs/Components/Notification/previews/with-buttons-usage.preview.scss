@@ -1,17 +1,15 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.links';
-@import 'components/_c.notification';
-@import 'components/_c.button';
+@import "components/c.links";
+@import "components/c.notification";
+@import "components/c.button";
 
 .example {
   padding: $mu250;
 
   &__title {
-    @include set-font-scale('07', 'm');
-    @include set-font-face('semi-bold');
+    @include set-font-scale("07", "m");
+    @include set-font-face("semi-bold");
 
     background: $color-grey-100;
     margin: $mu300 0 $mu100;

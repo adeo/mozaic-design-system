@@ -1,15 +1,14 @@
-@import 'settings-tools/all-settings';
+@import "settings-tools/all-settings";
 
 $example-colors: (
   s: yellow,
   m: orange,
   l: red,
   xl: purple,
-  xxl: mediumseagreen
+  xxl: mediumseagreen,
 );
-
-$border-screen-width: get-border('m');
-$all-border-width: $border-screen-width*2;
+$border-screen-width: get-border("m");
+$all-border-width: $border-screen-width * 2;
 
 .example {
   width: calc(100% - #{$all-border-width});
@@ -36,7 +35,7 @@ $all-border-width: $border-screen-width*2;
       background-color: map-get($example-colors, $key);
 
       &::after {
-        content: '#{$key} > #{$value}';
+        content: "#{$key} > #{$value}";
       }
     }
   }

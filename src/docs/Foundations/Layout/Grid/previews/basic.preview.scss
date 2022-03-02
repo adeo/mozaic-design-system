@@ -1,14 +1,12 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'layouts/_l.container'; // you generally want the container as well
-@import 'layouts/_l.flexy';
+@import "layouts/l.container"; // you generally want the container as well
+@import "layouts/l.flexy";
 
 
 .example {
-  @include set-font-scale('04', 's');
-  @include set-font-face('regular');
+  @include set-font-scale("04", "s");
+  @include set-font-face("regular");
 
   background-color: $color-primary-01-200;
   outline: 1px solid $color-primary-01-500;
