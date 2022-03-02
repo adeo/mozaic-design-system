@@ -14,9 +14,8 @@
     "postcss": "^8.3.11",
     "postcss-base64": "^0.7.1",
     "postcss-reporter": "^7.0.4",
-    "postcss-scss": "^4.0.1",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-scss": "^3.20.1"
+    "postcss-scss": "^4.0.3",
+    "stylelint": "^14.5.1",
+    "stylelint-config-standard-scss": "^3.0.0"
   }
 }
