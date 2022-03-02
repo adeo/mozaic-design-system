@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.26.1](https://github.com/adeo/mozaic-design-system/compare/v1.26.0...v1.26.1) (2022-03-02)
+
+
+### Bug Fixes
+
+* **opt-card:** enable having button or link clickable ([#1046](https://github.com/adeo/mozaic-design-system/issues/1046)) ([b85a310](https://github.com/adeo/mozaic-design-system/commit/b85a3107e38584348aa05762651024110a7e5b01))
+
+
+
+
+
 # [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
 
 **Note:** Version bump only for package @mozaic-ds/styles
