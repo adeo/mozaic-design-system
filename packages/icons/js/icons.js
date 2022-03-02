@@ -1977,18 +1977,7 @@ export const CardsMonochromeOney24 = {
     },
   ],
 }
-export const CardsMonochromeOneyX324 = {
-  viewBox: '0 0 24 24',
-  size: '1.5rem',
-  paths: [
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M11.94 4.5a7.5 7.5 0 107.5 7.5 7.5 7.5 0 00-7.5-7.5zm-.06 9.65H10.6l-.67-1-.61 1H8.1l1.25-1.87-1.25-1.89h1.28l.65 1 .65-1h1.22l-1.31 1.83zm3.49-.33a2 2 0 01-1.31.42 2.08 2.08 0 01-1.21-.33 1.59 1.59 0 01-.64-.9l1-.29a.85.85 0 00.32.42 1 1 0 00.55.15.71.71 0 00.47-.16.53.53 0 00.2-.44.5.5 0 00-.21-.43.91.91 0 00-.54-.15h-.55v-.87H14a.8.8 0 00.5-.13.51.51 0 00.18-.44.45.45 0 00-.18-.38.59.59 0 00-.42-.14.66.66 0 00-.67.52l-1-.29a1.43 1.43 0 01.19-.44 1.72 1.72 0 01.34-.38 1.7 1.7 0 01.52-.27 2.43 2.43 0 01.68-.1 2 2 0 011.23.36 1.27 1.27 0 01.3 1.62.92.92 0 01-.48.38 1 1 0 01.52.41 1.2 1.2 0 01.22.74 1.42 1.42 0 01-.56 1.12z',
-      },
-    },
-  ],
-}
+
 export const CardsMonochromePaylib24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -3309,6 +3298,7 @@ export const Carpentry24 = {
     },
   ],
 }
+
 export const ConnectedHome24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -3343,6 +3333,7 @@ export const ConnectedHome24 = {
     },
   ],
 }
+
 export const Dressing24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -3631,6 +3622,7 @@ export const Tool24 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -5823,18 +5815,7 @@ export const CardsMonochromeOney32 = {
     },
   ],
 }
-export const CardsMonochromeOneyX332 = {
-  viewBox: '0 0 32 32',
-  size: '2rem',
-  paths: [
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M15.94 6.5a9.5 9.5 0 109.5 9.5 9.5 9.5 0 00-9.5-9.5zm-.11 12.28h-1.65l-.86-1.28-.78 1.28H11l1.61-2.4L11 14h1.64l.84 1.26.8-1.26h1.57l-1.68 2.3zm4.48-.43a2.48 2.48 0 01-1.68.55 2.71 2.71 0 01-1.56-.42 2.07 2.07 0 01-.82-1.16l1.29-.32a1.08 1.08 0 00.41.53 1.2 1.2 0 00.7.2.92.92 0 00.61-.21.66.66 0 00.25-.56.63.63 0 00-.27-.55 1.15 1.15 0 00-.69-.2h-.71v-1.16h.68a1.09 1.09 0 00.65-.17.69.69 0 00.23-.57.59.59 0 00-.23-.49.82.82 0 00-.54-.18.84.84 0 00-.86.67l-1.35-.38a1.88 1.88 0 01.25-.56 2.22 2.22 0 01.44-.48 1.94 1.94 0 01.67-.35 2.73 2.73 0 01.87-.13 2.51 2.51 0 011.58.46 1.51 1.51 0 01.61 1.25 1.59 1.59 0 01-.22.84 1.27 1.27 0 01-.61.48 1.38 1.38 0 01.67.52 1.67 1.67 0 01.27 1 1.77 1.77 0 01-.64 1.39z',
-      },
-    },
-  ],
-}
+
 export const CardsMonochromePaylib32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -7125,6 +7106,7 @@ export const Carpentry32 = {
     },
   ],
 }
+
 export const ConnectedHome32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -7159,6 +7141,7 @@ export const ConnectedHome32 = {
     },
   ],
 }
+
 export const Dressing32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -7475,6 +7458,7 @@ export const Tool32 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -9743,18 +9727,7 @@ export const CardsMonochromeOney48 = {
     },
   ],
 }
-export const CardsMonochromeOneyX348 = {
-  viewBox: '0 0 48 48',
-  size: '3rem',
-  paths: [
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M23.94 9a15 15 0 1015 15 15 15 0 00-15-15zm-.38 19.31H21l-1.33-2-1.22 2H16l2.5-3.74-2.5-3.78h2.56l1.3 2 1.3-2h2.44L21 24.45zm7-.67a3.87 3.87 0 01-2.61.85 4.14 4.14 0 01-2.42-.66A3.19 3.19 0 0124.22 26l2-.59a1.64 1.64 0 00.64.84 1.89 1.89 0 001.09.3 1.47 1.47 0 00.95-.32 1.06 1.06 0 00.39-.87 1 1 0 00-.42-.86 1.8 1.8 0 00-1.07-.3h-1.11v-1.7h1.06a1.64 1.64 0 001-.27 1 1 0 00.35-.88 1 1 0 00-.35-.77 1.4 1.4 0 00-2.19.77l-2.08-.59a2.81 2.81 0 01.38-.87 3.05 3.05 0 01.69-.75 3 3 0 011-.54 4.16 4.16 0 011.45-.2 4 4 0 012.46.72 2.29 2.29 0 01.94 1.94 2.35 2.35 0 01-.34 1.3 1.83 1.83 0 01-1 .75 2 2 0 011 .81 2.49 2.49 0 01.43 1.48 2.75 2.75 0 01-.96 2.24z',
-      },
-    },
-  ],
-}
+
 export const CardsMonochromePaylib48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -11083,6 +11056,7 @@ export const Carpentry48 = {
     },
   ],
 }
+
 export const ConnectedHome48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -11117,6 +11091,7 @@ export const ConnectedHome48 = {
     },
   ],
 }
+
 export const Dressing48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -11421,6 +11396,7 @@ export const Tool48 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -13659,18 +13635,7 @@ export const CardsMonochromeOney64 = {
     },
   ],
 }
-export const CardsMonochromeOneyX364 = {
-  viewBox: '0 0 64 64',
-  size: '4rem',
-  paths: [
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M32 12.25A19.75 19.75 0 1051.75 32 19.75 19.75 0 0032 12.25zm-.54 26H27.8l-1.91-2.86-1.74 2.86h-3.49l3.57-5.34-3.57-5.4h3.66l1.85 2.8 1.83-2.8h3.49l-3.74 5.22zm10-1a5.56 5.56 0 01-3.73 1.21 5.91 5.91 0 01-3.46-.94A4.55 4.55 0 0132.41 35l2.86-.84a2.28 2.28 0 00.9 1.19 2.72 2.72 0 001.56.43 2.1 2.1 0 001.36-.45 1.53 1.53 0 00.56-1.25 1.43 1.43 0 00-.6-1.23 2.55 2.55 0 00-1.54-.43h-1.58V30h1.51a2.35 2.35 0 001.44-.38 1.49 1.49 0 00.51-1.26 1.35 1.35 0 00-.5-1.1 1.87 1.87 0 00-1.2-.4 1.91 1.91 0 00-1.93 1.5l-3-.84a4 4 0 01.55-1.25 4.71 4.71 0 011-1.08 4.6 4.6 0 011.48-.77 6.25 6.25 0 011.93-.28 5.67 5.67 0 013.51 1 3.31 3.31 0 011.35 2.78 3.37 3.37 0 01-.48 1.85 2.75 2.75 0 01-1.37 1.09 2.88 2.88 0 011.5 1.14 3.56 3.56 0 01.61 2.12 4 4 0 01-1.42 3.18z',
-      },
-    },
-  ],
-}
+
 export const CardsMonochromePaylib64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
@@ -14975,6 +14940,7 @@ export const Carpentry64 = {
     },
   ],
 }
+
 export const ConnectedHome64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
@@ -15009,6 +14975,7 @@ export const ConnectedHome64 = {
     },
   ],
 }
+
 export const Dressing64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
@@ -15317,6 +15284,7 @@ export const Tool64 = {
     },
   ],
 }
+
 export const AccountCustomerCollaborator64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
