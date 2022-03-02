@@ -1,8 +1,6 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'typography/_t.headings';
+@import "typography/t.headings";
 
 .example {
   padding: $mu200;

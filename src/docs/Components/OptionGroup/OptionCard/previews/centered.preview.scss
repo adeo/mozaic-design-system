@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.radio';
-@import 'components/_c.option-card';
+@import "components/c.radio";
+@import "components/c.option-card";
 
 .example {
   @include set-font-family();

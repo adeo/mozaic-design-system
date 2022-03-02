@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.text-input';
-@import 'components/_c.fields';
+@import "components/c.text-input";
+@import "components/c.fields";
 
 .example {
   @include set-font-face();
@@ -11,8 +9,8 @@
   padding: $mu250;
 
   &__title {
-    @include set-font-scale('07', 'm');
-    @include set-font-face('semi-bold');
+    @include set-font-scale("07", "m");
+    @include set-font-face("semi-bold");
 
     background: $color-grey-100;
     margin: $mu300 0 $mu100;

@@ -1,9 +1,7 @@
-@import "settings-tools/_all-settings";
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import "components/_c.layer";
-@import "components/_c.button";
+@import "components/c.layer";
+@import "components/c.button";
 
 .example {
   @include set-font-face("regular");
