@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Color from '../Color'
 import tokens from '@mozaic-ds/tokens/build/js/tokensObject.js'
+import adeoTokens from '@mozaic-ds/tokens/buildAdeo/js/tokensObject.js'
 
 const ColorWrapper = styled.div`
   flex: 0 0 32%;
@@ -21,19 +22,19 @@ const Wrapper = styled.div`
 // to provide those syntax transformations
 const scssSyntax = (arr) => `$${arr.join('-')}`
 const andoidSyntax = (arr) => arr.join('_').toLowerCase().replace('-', '_')
-
+const realTokens = (preset) => (preset === 'adeo' ? adeoTokens : tokens)
 // END-TODO
 
-const Swatch = ({ id }) => (
+const Swatch = ({ id, preset }) => (
   <Wrapper>
-    {Object.keys(tokens.color[id]).map((colorKey) => (
+    {Object.keys(realTokens(preset).color[id]).map((colorKey) => (
       <ColorWrapper key={`${id}${colorKey}`}>
         <Color
-          color={tokens.color[id][colorKey].value}
-          scss={scssSyntax(tokens.color[id][colorKey].path)}
-          ios={tokens.color[id][colorKey].name}
-          android={andoidSyntax(tokens.color[id][colorKey].path)}
-          es6={tokens.color[id][colorKey].name}
+          color={realTokens(preset).color[id][colorKey].value}
+          scss={scssSyntax(realTokens(preset).color[id][colorKey].path)}
+          ios={realTokens(preset).color[id][colorKey].name}
+          android={andoidSyntax(realTokens(preset).color[id][colorKey].path)}
+          es6={realTokens(preset).color[id][colorKey].name}
         />
       </ColorWrapper>
     ))}
