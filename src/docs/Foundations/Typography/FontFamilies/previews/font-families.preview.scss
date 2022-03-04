@@ -1,17 +1,16 @@
 // setup a local config to tell Mozaic where are your fonts:
 $local-config: (
-  font-path: '/fonts',
+  font-path: "/fonts",
 );
 
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
 
 .example {
   padding: $mu100;
 
   &__font-face {
-    @include set-font-scale('11');
+    @include set-font-scale("11");
 
     padding: $mu100 0;
     margin-bottom: -1px; // compensate for the border width
@@ -28,7 +27,7 @@ $local-config: (
       }
 
       &--#{$key}-italic {
-        @include set-font-face($key, 'italic');
+        @include set-font-face($key, "italic");
       }
     }
   }

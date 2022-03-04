@@ -1,8 +1,6 @@
-@import "settings-tools/_all-settings";
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import "components/_c.option-button";
+@import "components/c.option-button";
 
 .example {
   @include set-font-family();
