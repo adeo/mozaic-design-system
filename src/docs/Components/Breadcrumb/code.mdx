@@ -11,34 +11,22 @@ Import **the settings**, **the link** and **the breadcrumb** scss files.
 
 ```scss
 @import 'settings-tools/_all-settings';
-
 @import 'components/_c.links';
-
 @import 'components/_c.breadcrumb';
 ```
 
 ### Usage
 
-You can create breadcrumbs in the following way:
-
-- Use the `mc-breadcrumb` class on an HTML element `<nav>` as a wrapper
-- Apply the `mc-breadcrumb__container` class to the `<ul>` container of your breadcrumb
-- The `<li>` elements must have the class `mc-breadcrumb__item`
-- Each link must have the class `mc-link`
-- In addition to the `mc-link` class, add the class `mc-breadcrumb__current` on the last level link
+The creation of a **Breadcrumb** component in your code is done using the following HTML structure:
 
 ```html
 <nav class="mc-breadcrumb" aria-label="Breadcrumb">
   <ul class="mc-breadcrumb__container">
     <li class="mc-breadcrumb__item">
-      <a href="#" class="mc-link">
-        Level 00
-      </a>
+      <a href="#" class="mc-link mc-link--s"> Level 00 </a>
     </li>
     <li class="mc-breadcrumb__item">
-      <span class="mc-link mc-breadcrumb__current">
-        Level 01
-      </span>
+      <span class="mc-link mc-link--s mc-breadcrumb__current"> Level 01 </span>
     </li>
   </ul>
 </nav>
@@ -46,7 +34,15 @@ You can create breadcrumbs in the following way:
 
 > Note that for all behaviors related to breadcrumb links, please refer to the [Links pattern documentation](/Components/Links/code/).
 
-<Preview path="default" />
+<Preview path="default" nude />
+
+<Highlight theme="warning" title="About the breadcrumb links">
+
+The links in the breadcrumb trail are [Mozaic Links components](/Components/Links/) in size S.
+
+In order to guarantee the harmony of your page, please always use [the S size of the mc-link component](/Components/Links/code/#available-sizes) when it is used in a **Breadcrumb** component.
+
+</Highlight>
 
 ## Variations
 
@@ -65,7 +61,7 @@ In addition to the `mc-breadcrumb--dark` modifier to use on the wrapper, you mus
 
 > You can learn more about how this works in the [Links pattern documentation](/Components/Links/code/).
 
-<Preview path="dark-mode" />
+<Preview path="dark-mode" nude />
 
 ## Behaviours
 
@@ -79,9 +75,7 @@ That's why you must make sure to display **only** the previous level link of the
 <nav class="mc-breadcrumb" aria-label="Breadcrumb">
   <ul class="mc-breadcrumb__container">
     <li class="mc-breadcrumb__item">
-      <a href="#" class="mc-link mc-breadcrumb__current">
-        Level
-      </a>
+      <a href="#" class="mc-link mc-link--s mc-breadcrumb__current"> Level </a>
     </li>
   </ul>
 </nav>
@@ -96,25 +90,19 @@ If you don't have the possibility to perform tests allowing you to display only 
 <nav class="mc-breadcrumb mc-breadcrumb--responsive" aria-label="Breadcrumb">
   <ul class="mc-breadcrumb__container">
     <li class="mc-breadcrumb__item">
-      <a href="#" class="mc-link">
-        Level 00
-      </a>
+      <a href="#" class="mc-link mc-link--s"> Level 00 </a>
     </li>
     <li class="mc-breadcrumb__item">
-      <a href="#" class="mc-link">
-        Level 01
-      </a>
+      <a href="#" class="mc-link mc-link--s"> Level 01 </a>
     </li>
     <li class="mc-breadcrumb__item is-active">
-      <span class="mc-link mc-breadcrumb__current">
-        Level 02
-      </span>
+      <span class="mc-link mc-link--s mc-breadcrumb__current"> Level 02 </span>
     </li>
   </ul>
 </nav>
 ```
 
-<Preview path="responsive" />
+<Preview path="responsive" nude />
 
 ## Semantic
 

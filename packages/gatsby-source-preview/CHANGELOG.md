@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-source-preview
+
+
+
+
+
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-source-preview
+
+
+
+
+
 # [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-source-preview

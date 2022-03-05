@@ -1,0 +1,18 @@
+@import "settings-tools/_all-settings";
+
+@include import-font-families();
+
+@import "components/_c.option-button";
+
+.example {
+  @include set-font-family();
+
+  padding: 1rem;
+}
+
+.mc-option-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}

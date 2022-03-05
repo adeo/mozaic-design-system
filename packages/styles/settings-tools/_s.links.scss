@@ -11,6 +11,7 @@ $link-sizes: (
   ),
 );
 
+$link-s: map-get($link-sizes, "s");
 $link-m: map-get($link-sizes, "m");
 
 @mixin set-link-base {
@@ -26,6 +27,7 @@ $link-m: map-get($link-sizes, "m");
 
   &:focus {
     @include set-focus-floating();
+
     outline: none;
   }
 }

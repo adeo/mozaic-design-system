@@ -7,7 +7,7 @@
 
   &__button {
     @include unstyle-button();
-    @include set-button-theme(get-token(color, button, 'solid-neutral'), true);
+    @include set-button-theme(get-token(color, button, "solid-neutral"), true);
     @include set-button-layout();
 
     box-sizing: border-box;
@@ -19,7 +19,7 @@
       @include set-shadow-focus();
     }
 
-    @include set-from-screen('xl') {
+    @include set-from-screen("l") {
       min-height: $mu200;
       min-width: $mu200;
     }
@@ -30,7 +30,7 @@
       width: $mu200;
       fill: currentColor;
 
-      @include set-from-screen('xl') {
+      @include set-from-screen("l") {
         width: $mu125;
         height: $mu125;
       }
@@ -42,18 +42,18 @@
   }
 
   &__field {
-    margin: 0 $mu150;
+    margin: 0 $mu100;
   }
 
   &__select {
-    @include set-font-scale('05', 's');
+    @include set-font-scale("05", "s");
 
     padding:
-      magic-unit-rem(0.875, 'true') $mu300 magic-unit-rem(0.875, 'true')
+      magic-unit-rem(0.875, "true") $mu300 magic-unit-rem(0.875, "true")
       calc(#{$mu075} - #{$select-border-width});
 
-    @include set-from-screen('xl') {
-      @include set-font-scale('04', 's');
+    @include set-from-screen("l") {
+      @include set-font-scale("04", "s");
 
       padding:
         calc(#{$mu050} - #{$select-border-width})
@@ -62,10 +62,11 @@
     }
   }
 
-  &--light {
+  &--light,
+  &--compact {
     #{$parent}__button {
       &:first-child {
-        margin-right: $mu150;
+        margin-right: $mu100;
       }
     }
   }

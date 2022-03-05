@@ -1,11 +1,12 @@
 /* mqp:start */
 .mc-button {
   @include unstyle-button();
-  @include set-button-theme(get-token(color, button, 'solid'), true);
-  @include set-font-face('semi-bold');
+  @include set-button-theme(get-token(color, button, "solid"), true);
+  @include set-font-face("semi-bold");
   @include set-button-size($button-medium);
   @include set-button-layout();
 
+  align-items: stretch;
   box-sizing: border-box;
   fill: currentColor;
 
@@ -38,10 +39,14 @@
   }
 
   &--square {
+    align-items: center;
+    height: 0;
     padding: 0;
   }
 
   &__icon {
+    flex-shrink: 0;
+
     &:last-child {
       margin-left: $mu050;
       margin-right: -$mu025;
@@ -58,11 +63,13 @@
   }
 
   &__label {
+    align-items: center;
+    display: flex;
     pointer-events: none;
   }
 
   @each $name, $props in $buttons {
-    @if ($name != 'solid') {
+    @if ($name != "solid") {
       &--#{$name} {
         @include set-button-theme($props);
       }

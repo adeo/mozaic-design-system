@@ -1,12 +1,11 @@
 <h1 align="center">
-  Mozaic Design System
+  Adeo Design System
 </h1>
 
-> Mozaic is an open-source design system built by Adeo; to reinforce team’s delivery time, improve quality
-> of deliverables and thus help set up a coherent customer experience.
+> Mozaic is an open-source design system built by Adeo, designed to help set up a coherent human experience, to reinforce team’s delivery time and improve quality of deliverables.
 
 <p align="center">
-  <a href="https://github.com/carbon-design-system/carbon/blob/master/LICENSE">
+  <a href="https://github.com/adeo/mozaic-design-system/blob/master/.prettierrc">
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)" alt="Prettier badge" />
   </a>
   <a href="https://mozaic.adeo.cloud/">
@@ -26,7 +25,8 @@ If you are just getting started, check out our documentation: https://mozaic.ade
 If your are looking for JS components, we have community-contributed components for the following technologies: 
 - [Freemarker](https://github.com/adeo/mozaic-freemarker)
 - [Vue](https://github.com/adeo/mozaic-vue)
-- [Angular](https://github.com/adeo/mozaic-angular)
+- [React](https://github.com/adeo/mozaic-react)
+- [Svelte/WebComponent](https://github.com/adeo/mozaic-web-components)
 
 If you're trying to find something specific, here's a list of our main packages that we support!
 
@@ -42,7 +42,7 @@ If you're trying to find something specific, here's a list of our main packages 
 ## :books: Documentation
 We tried to focus on the developer experience, meaning that working with it should be as simple as possible.
 
-You can report any bug, request a feature or any improvment [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
+You can report any bug, request a feature or any improvement [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
 #### Please read the [contributing documentation](https://mozaic.adeo.cloud/Contributing/) before submitting anything.
 
@@ -52,59 +52,30 @@ You can report any bug, request a feature or any improvment [filling an issue he
 
 Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/)
 
-## Design system core team
+## Maintainers
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/caqueste"><img src="https://avatars.githubusercontent.com/u/43212270?v=4" width="100px;" alt=""/><br /><sub><b>Charles-Antoine Queste</b></sub></a><br />
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=caquest" title="Design">🎨</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Mentoring">🧑‍🏫</a>
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=caquest" title="Documentation">📖</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Answering questions">💬</a>
+    </td>
+      <td align="center"><a href="https://github.com/tiloyi"><img src="https://avatars.githubusercontent.com/u/6053330?v=4" width="100px;" alt=""/><br /><sub><b>Trésor Iloyi</b></sub></a><br />
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=tiloyi" title="Code">💻</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Mentoring">🧑‍🏫</a>
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=tiloyi" title="Documentation">📖</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Answering questions">💬</a>
+    </td>
+      <td align="center"><a href="https://github.com/mohamedmok"><img src="https://avatars.githubusercontent.com/u/7878860?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Mokhtari</b></sub></a><br />
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=mohamedmok" title="Code">💻</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Mentoring">🧑‍🏫</a>
+      <a href="https://github.com/adeo/mozaic-design-system/commits?author=mohamedmok" title="Documentation">📖</a>
+      <a href="https://adeo-tech-community.slack.com/archives/CKQJZL7C4" title="Answering questions">💬</a>
+    </td>
+  </tr>
+</table>
 
-### [Charles-Antoine Queste](https://www.linkedin.com/in/charlesantoinequeste)
-
-**Role for the project:**
-
-- Design system UI lead
-- Arbitrates the patterns inputs and additions to the design system
-- Welcomes and onboards the designers on Mozaic
-- Reviews usage documentation
-
-**Timezone:** Lile - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Charles-Antoine Queste
-
-### [Tiago Rosa](https://www.linkedin.com/in/tiagorosa/)
-
-**Role for the project:**
-
-- Product owner
-- Backlog prioritization
-- Sync with stakeholders
-
-**Timezone:** Lille - France **Availability:** 90%
-
-**Contact on Adeo's Slack:** Tiago Rosa
-
-### [Trésor Iloyi](https://www.linkedin.com/in/tresor-iloyi)
-
-**Role for the project:** Front-end developer
-
-**Timezone:** Rennes - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Trésor Iloyi
-
-### [Nicolas Herwegh](https://www.linkedin.com/in/nicolas-herwegh-3a4494136)
-
-**Role for the project:**
-
-- UI designer
-- Designs the patterns and writes the associated documentation
-
-**Timezone:** Lille - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Nicolas Herwegh
-
-### [Mohamed Mokhtari](https://www.linkedin.com/in/mohamedmokhtari)
-
-**Role for the project:** Front-end developer
-
-**Timezone:** Paris - France **Availability:** 100%
-
-**Contact on Adeo's Slack:** Mohamed Mokhtari
 
 ## Contributors ✨
 

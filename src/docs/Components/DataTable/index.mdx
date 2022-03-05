@@ -1,0 +1,110 @@
+---
+title: 'DataTable'
+order: 1
+description: 'The DataTable is a complex and multi-usage component. It provides a structure to display many items and edit them easily through some features.'
+status:
+  figma: 'ready'
+  scss: 'ready'
+---
+
+> The DataTable is a complex and multi-usage component. It provides a structure to display many items and edit them easily through some features.
+
+<Preview path="default" nude />
+
+## Structure
+
+### Header
+
+The header section allows users to edit, filter, set up or make actions.
+
+<Preview path="header-only" nude />
+
+#### Edition
+
+Allow the user to interact with selected items.
+
+| Feature                     | Usage                               | Preview |
+| --------------------------- | ----------------------------------- | ------- |
+| **Edit selection**          | Only available with selected rows   |         |
+| **Download**                | Download table or selected rows     |         |
+| **Number of selected rows** | Display the number of selected rows |         |
+
+#### Filter
+
+| Feature           | Usage                                                   | Preview |
+| ----------------- | ------------------------------------------------------- | ------- |
+| **Toggle**        | Quick filter (max. 1)                                   |         |
+| **Search input**  | Filter rows with keywords (Please be explicit for user) |         |
+| **Filter button** | Open filters layer                                      |         |
+
+#### Option
+
+Allow the user to set up the display of the datatable layout.
+
+| Feature      | Usage                                                                                                        | Preview |
+| ------------ | ------------------------------------------------------------------------------------------------------------ | ------- |
+| **Settings** | Access to table edition like edit columns (reorder, show/hide) or change display density (size of the cells) |         |
+
+#### Action
+
+| Feature                      | Preview |
+| ---------------------------- | ------- |
+| **Validation action**        |         |
+| **Rejected/Negative action** |         |
+
+### Data content
+
+The Datatable allows to display several types of data.
+
+| Data                                  | Usage                                                                                                                         | Width behaviour        |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Text**                              | Display the name, short description of an item                                                                                | Fixed or fluid         |
+| **Multi-line text**                   | Use to be more explicit and display complementary information of an item                                                      | Fixed or fluid         |
+| **Number**                            | Display numeric value. The content is always right justified for better reading                                               | Fixed or fluid         |
+| [**Badge**](/Components/Badge/)       | Display the item status                                                                                                       | Adapted to the content |
+| **Input**                             | Allow to edit the content of an item                                                                                          | Fixed or fluid         |
+| [**Checkbox**](/Components/Checkbox/) | Allow to select an item. Only one column per table, always in first position (on the left)                                    | Fixed                  |
+| **Options**                           | Display multiple actions. Only one column per table, always in last position (on the right)                                   | Fixed                  |
+| **Icon**                              | Display one specific action                                                                                                   | Fixed                  |
+| [**Link**](/Components/Link/)         | Allow to access to the dedicated page of an item                                                                              | Fixed or fluid         |
+| **KPI**                               | Display a progression indicator                                                                                               | Adapted to the content |
+| **Expand**                            | Display sub-items or details about an item (Only one column per table, always in first position or after the checkbox column) | Fixed                  |
+
+### Footer
+
+The DataTable footer is placed at the bottom of the component and contains the elements that allow you to manage the navigation and pagination of the table.
+
+<Preview path="footer-only" nude />
+
+| Feature                                   | Usage                                                 | Preview |
+| ----------------------------------------- | ----------------------------------------------------- | ------- |
+| ** Rows's number selector**               | Allow to choose the number of row to display          |         |
+| **Displayed rows indicator**              | Display the page's rows and the total number of rows  |         |
+| [**Pagination**](/Components/Pagination/) | Allow to navigate to the other pages of the datatable |         |
+
+## Variations
+
+### Sizes
+
+Each cells are available in 3 sizes.
+
+| Size             | Value        |
+| ---------------- | ------------ |
+| Small            | 2.5mu (40px) |
+| Medium (default) | 3mu (48px)   |
+| Large            | 3.5mu (56px) |
+
+## How to use
+
+<Highlight theme="warning" title="Work in progress">
+  We are currently working on the how to use documentation, it will be available
+  soon.
+</Highlight>
+
+## Do's and Dont's
+
+<HintItem dont>
+  Never combine different sizes of cells inside the same datatable.
+</HintItem>
+
+<HintItem dont>Never use more than one quick filter.</HintItem>

@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
+# [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
+# [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
+
+
+### Bug Fixes
+
+* **logo:** change view box for logo ([#977](https://github.com/adeo/mozaic-design-system/issues/977)) ([b5ee342](https://github.com/adeo/mozaic-design-system/commit/b5ee3427a02e36bccc4ee03358a47c6d7ba72366))
+
+
+
+
+
+# [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
+
+
+### Reverts
+
+* Revert "chore(release): publish" ([2042380](https://github.com/adeo/mozaic-design-system/commit/204238091c6d99ded469f97e2a04a9ba4c3b92bc))
+
+
+
+
+
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
 # [1.18.0](https://github.com/adeo/mozaic-design-system/compare/v1.17.1...v1.18.0) (2021-09-29)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide

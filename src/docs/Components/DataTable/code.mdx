@@ -1,0 +1,68 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import the settings and the datatable `scss` files.
+
+```scss
+@import 'settings-tools/_all-settings';
+@import '_c.datatable'; // mandatory
+@import '_c.datatable-tools'; // mandatory
+@import '_c.datatable-header'; // optional - import when using the DataTable with a header
+@import '_c.datatable-footer'; // optional -  import when using the DataTable with a footer
+@import '_c.datatable-subtable'; // optional - import when using the Expanded DataTable
+```
+
+## Usage
+
+The creation of a **DataTable** component in your code is done using the following HTML structure:
+
+<Preview path="default" />
+
+### Composition
+
+The DataTable is composed of several elements that you are free to use (or not) according to your needs and use cases.
+
+These elements are as follows:
+
+- The DataTable table **(mandatory)**
+- The DataTable header _(optional)_: learn more on the [releated documentation](/Components/Datatable/header/)
+- The DataTable footer _(optional)_: learn more on the [releated documentation](/Components/Datatable/footer/)
+- The Expanded DataTable _(optional)_: learn more on the [releated documentation](/Components/Datatable/expand/)
+
+## Variations
+
+### Size
+
+You can create your Datatable component using one of the following size formats:
+
+- **small**: by adding the `mc-datatable--s` modifier to the `mc-datatable` element.
+- **medium**: this is the default format, therefore it does not need to add a modifier.
+- **large**: by adding the `mc-datatable--l` modifier to the `mc-datatable` element.
+
+#### Small
+
+<Preview path="small" nude />
+
+#### Large
+
+<Preview path="large" nude />
+
+## Behaviour
+
+### Sticky table header
+
+In some cases, you may need to stick the header of your DataTable.
+
+To do this, simply add the `mc-datatable--sticky-header` modifier to your `mc-datatable` element.
+
+<Preview path="sticky" nude />
+
+<Highlight theme="tips" title="Define your own max-height">
+
+In order for the `mc-datatable--sticky-header` modifier to provide the expected sticky behaviour, you need to define a custom `max-height: [VALUE]` css rule on the `.mc-datatable__main` element.
+
+</Highlight>

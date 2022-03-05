@@ -1,11 +1,25 @@
 <div class="example">
   <div class="example__item">
     <div class="mc-accordion mc-accordion--s">
-      <input type="checkbox" id="sizeS" class="mc-accordion__trigger" />
-      <label for="sizeS" class="mc-accordion__label" aria-expanded="false">
-        Accordion size S
-      </label>
-      <div class="mc-accordion__content">
+      <div class="mc-accordion__header">
+        <h2 class="mc-accordion__title">
+          <button
+            id="accordion"
+            class="mc-accordion__trigger"
+            aria-controls="content"
+            aria-expanded="false"
+            data-mc-component="accordion"
+          >
+            Accordion size S
+          </button>
+        </h2>
+      </div>
+      <div
+        id="content"
+        class="mc-accordion__content"
+        aria-hidden="true"
+        aria-labelledby="accordion"
+      >
         <p>
           Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
           condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo
@@ -14,13 +28,28 @@
       </div>
     </div>
   </div>
+
   <div class="example__item">
     <div class="mc-accordion">
-      <input type="checkbox" id="sizeM" class="mc-accordion__trigger" />
-      <label for="sizeM" class="mc-accordion__label" aria-expanded="false">
-        Accordion size M
-      </label>
-      <div class="mc-accordion__content">
+      <div class="mc-accordion__header">
+        <h2 class="mc-accordion__title">
+          <button
+            id="accordion"
+            class="mc-accordion__trigger"
+            aria-controls="content"
+            aria-expanded="false"
+            data-mc-component="accordion"
+          >
+            Accordion size M
+          </button>
+        </h2>
+      </div>
+      <div
+        id="content"
+        class="mc-accordion__content"
+        aria-hidden="true"
+        aria-labelledby="accordion"
+      >
         <p>
           Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
           condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo
@@ -30,3 +59,28 @@
     </div>
   </div>
 </div>
+
+<script>
+  const accordions = document.querySelectorAll(
+    '[data-mc-component="accordion"]'
+  )
+  accordions.forEach(function (accordion) {
+    if (accordion.hasAttribute('disabled')) {
+      accordion.closest('.mc-accordion').classList.add('is-disabled')
+    }
+
+    accordion.addEventListener('click', function (e) {
+      const component = accordion.closest('.mc-accordion')
+      const button = component.querySelector('.mc-accordion__trigger')
+      const content = component.querySelector('.mc-accordion__content')
+      const expanded =
+        button.getAttribute('aria-expanded') === 'false' ? false : true
+      const hidden =
+        content.getAttribute('aria-hidden') === 'false' ? false : true
+
+      component.classList.toggle('is-open')
+      button.setAttribute('aria-expanded', !expanded)
+      content.setAttribute('aria-hidden', !hidden)
+    })
+  })
+</script>

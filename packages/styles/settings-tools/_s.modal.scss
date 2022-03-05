@@ -11,7 +11,7 @@
 }
 
 @mixin set-dialog-overlay() {
-  background-color: rgba($color-grey-900, 0.7);
+  background-color: mt-rgba($color-grey-900, 0.7);
   bottom: 0;
   cursor: pointer;
   filter: blur(1px);

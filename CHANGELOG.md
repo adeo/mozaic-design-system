@@ -3,6 +3,189 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.26.1](https://github.com/adeo/mozaic-design-system/compare/v1.26.0...v1.26.1) (2022-03-02)
+
+
+### Bug Fixes
+
+* **opt-card:** enable having button or link clickable ([#1046](https://github.com/adeo/mozaic-design-system/issues/1046)) ([b85a310](https://github.com/adeo/mozaic-design-system/commit/b85a3107e38584348aa05762651024110a7e5b01))
+
+
+
+
+
+# [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
+
+
+### Features
+
+* **icons:** add new icons ([#1045](https://github.com/adeo/mozaic-design-system/issues/1045)) ([a84c8ea](https://github.com/adeo/mozaic-design-system/commit/a84c8eafdc540459d84715d1ebb707c819cff247))
+
+
+
+
+
+# [1.25.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.1...v1.25.0) (2022-02-16)
+
+
+### Features
+
+* **component/option-card:** increase CSS specificity on the input element ([#1033](https://github.com/adeo/mozaic-design-system/issues/1033)) ([37f1704](https://github.com/adeo/mozaic-design-system/commit/37f170417b0df864638cc3dc35c52f050c8147f0))
+* **component/pswdinput:** increase CSS specificity on the input[type=password"] element ([#1032](https://github.com/adeo/mozaic-design-system/issues/1032)) ([9cbed7c](https://github.com/adeo/mozaic-design-system/commit/9cbed7c34a3d37be0bc15c08acfa3b59c6684e06))
+* **foundations/icons:** add typescript to react icons ([#1025](https://github.com/adeo/mozaic-design-system/issues/1025)) ([93ce0ff](https://github.com/adeo/mozaic-design-system/commit/93ce0ff0c9b85bfac4e10149def885790631a360))
+
+
+
+
+
+## [1.24.1](https://github.com/adeo/mozaic-design-system/compare/v1.24.0...v1.24.1) (2022-02-02)
+
+
+### Bug Fixes
+
+* **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
+* **readme:** update link ([a681853](https://github.com/adeo/mozaic-design-system/commit/a6818533aeeb6a1a68333ee4e8385077901b5acc))
+* **release:** empty commit due to release issue ([e9a83cb](https://github.com/adeo/mozaic-design-system/commit/e9a83cbd9893c086adee6e1b752ae1e0a64151be))
+* **release:** remove duplicate from app.yaml ([#1021](https://github.com/adeo/mozaic-design-system/issues/1021)) ([2ca963a](https://github.com/adeo/mozaic-design-system/commit/2ca963a289ee1de61482f5edb32658a7a24212c4))
+
+
+
+
+
+# [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
+
+
+### Bug Fixes
+
+* **component/breadcrumb:** correct the size of the breadcrumb links ([#1006](https://github.com/adeo/mozaic-design-system/issues/1006)) ([9a46c60](https://github.com/adeo/mozaic-design-system/commit/9a46c60c03b5c32390482383c384eae2bc8553d5))
+
+
+### Features
+
+* **component/datatable:** add usage documentation ([#991](https://github.com/adeo/mozaic-design-system/issues/991)) ([30e2b51](https://github.com/adeo/mozaic-design-system/commit/30e2b51a4e65d8013917dbe8795a4853aee87b34))
+* **pattern/font:** set Roboto font-family when using the Adeo preset ([#1018](https://github.com/adeo/mozaic-design-system/issues/1018)) ([6612e13](https://github.com/adeo/mozaic-design-system/commit/6612e131131b088f9017ffc5620ca4f4903ed924))
+* **pattern/optiongroup:** add component ([#992](https://github.com/adeo/mozaic-design-system/issues/992)) ([1acae2c](https://github.com/adeo/mozaic-design-system/commit/1acae2c25beda79c20d00821277d1eca0be69300))
+
+
+
+
+
+## [1.23.1](https://github.com/adeo/mozaic-design-system/compare/v1.23.0...v1.23.1) (2022-01-10)
+
+
+### Bug Fixes
+
+* **component/accordion:** allow title to go to line on small screens ([#994](https://github.com/adeo/mozaic-design-system/issues/994)) ([0d3e02c](https://github.com/adeo/mozaic-design-system/commit/0d3e02c79d857cd95df7d452adbc6cc96dc30bef))
+
+
+
+
+
+# [1.23.0](https://github.com/adeo/mozaic-design-system/compare/v1.22.1...v1.23.0) (2022-01-05)
+
+
+### Bug Fixes
+
+* **component/pagination:** change margin to 16px ([#990](https://github.com/adeo/mozaic-design-system/issues/990)) ([2a24750](https://github.com/adeo/mozaic-design-system/commit/2a247508ba9373ac1b34075671d5ee131315e8b8))
+
+
+### Features
+
+* **component/pagination:** add the new 'compact' variation ([#993](https://github.com/adeo/mozaic-design-system/issues/993)) ([856986b](https://github.com/adeo/mozaic-design-system/commit/856986bece431d467b28be0e15840a8ab5773420))
+
+
+
+
+
+## [1.22.1](https://github.com/adeo/mozaic-design-system/compare/v1.22.0...v1.22.1) (2021-12-22)
+
+
+### Bug Fixes
+
+* **component/button:** ensure that the buttons with icons keep the right height ([#986](https://github.com/adeo/mozaic-design-system/issues/986)) ([16a613b](https://github.com/adeo/mozaic-design-system/commit/16a613bd2f9e767704161ca449afc2d9b17b1974))
+
+
+
+
+
+# [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
+
+
+### Bug Fixes
+
+* **logo:** change view box for logo ([#977](https://github.com/adeo/mozaic-design-system/issues/977)) ([b5ee342](https://github.com/adeo/mozaic-design-system/commit/b5ee3427a02e36bccc4ee03358a47c6d7ba72366))
+* **tools/tokens:** implement a custom SASS function to manage rgba colors ([#979](https://github.com/adeo/mozaic-design-system/issues/979)) ([0178567](https://github.com/adeo/mozaic-design-system/commit/01785675b9d85b6e30b3de9c523190336ed768bb)), closes [#937](https://github.com/adeo/mozaic-design-system/issues/937)
+
+
+### Features
+
+* **component/badge:** ensure that badges are always on one line ([#984](https://github.com/adeo/mozaic-design-system/issues/984)) ([6e17e2a](https://github.com/adeo/mozaic-design-system/commit/6e17e2a28db00ced857898573c991de5b06b88ee))
+* **component/button:** improve the button behaviour with long label ([#982](https://github.com/adeo/mozaic-design-system/issues/982)) ([e957ae4](https://github.com/adeo/mozaic-design-system/commit/e957ae40eef263f517777bbbc8e1e7be564ce9c5)), closes [#954](https://github.com/adeo/mozaic-design-system/issues/954)
+* **component/datatable:** add the new DataTable component ([#953](https://github.com/adeo/mozaic-design-system/issues/953)) ([0970590](https://github.com/adeo/mozaic-design-system/commit/097059005f31a68942672b55391f1bc07e1ccc17))
+* **component/pagination:** change the breakpoint of the size behaviour - XL to L ([#983](https://github.com/adeo/mozaic-design-system/issues/983)) ([dfab6fb](https://github.com/adeo/mozaic-design-system/commit/dfab6fb488d8bf9382dbdefd33e3eb1ea8e74019))
+* **foundations/fonts:** update LeroyMerlin font with fixed Cyrillic characters ([#981](https://github.com/adeo/mozaic-design-system/issues/981)) ([c38e55c](https://github.com/adeo/mozaic-design-system/commit/c38e55cf17388361faad73b7ca8a9de18905000e))
+
+
+
+
+
+# [1.21.0](https://github.com/adeo/mozaic-design-system/compare/v1.20.1...v1.21.0) (2021-12-08)
+
+
+### Bug Fixes
+
+* **component/checkbox:** adjust the visual rendering of the checked & disabled status ([#975](https://github.com/adeo/mozaic-design-system/issues/975)) ([4208b97](https://github.com/adeo/mozaic-design-system/commit/4208b9747fc8a8e71c47e7703af14422493b33e8)), closes [#962](https://github.com/adeo/mozaic-design-system/issues/962)
+* **component/modal:** adjust the margin-right behavior of the footer button ([#967](https://github.com/adeo/mozaic-design-system/issues/967)) ([581bf7c](https://github.com/adeo/mozaic-design-system/commit/581bf7c23f7fde91abe96c3d22b35a52e2808a11))
+* **component/quantityselector:** improve the component's accessility ([#963](https://github.com/adeo/mozaic-design-system/issues/963)) ([130c665](https://github.com/adeo/mozaic-design-system/commit/130c6659a0592a2b0c012d4b30d0bcd615040c5b))
+* **tokens:** update of the token value of some components ([#974](https://github.com/adeo/mozaic-design-system/issues/974)) ([e48317d](https://github.com/adeo/mozaic-design-system/commit/e48317d5d806e1c554d08cd471344807edcb3e75))
+* **website/menu:** reorder pages ([#970](https://github.com/adeo/mozaic-design-system/issues/970)) ([1b8b064](https://github.com/adeo/mozaic-design-system/commit/1b8b064479b17cfda91491e5d2b59bf18b72bac1))
+
+
+### Features
+
+* **component/badge:** add usage documentation ([#969](https://github.com/adeo/mozaic-design-system/issues/969)) ([a02df4c](https://github.com/adeo/mozaic-design-system/commit/a02df4cc10f00eb73250ab5247b88fd67bcf5ab9))
+
+
+### Reverts
+
+* Revert "chore(release): publish" ([2042380](https://github.com/adeo/mozaic-design-system/commit/204238091c6d99ded469f97e2a04a9ba4c3b92bc))
+
+
+
+
+
+## [1.20.1](https://github.com/adeo/mozaic-design-system/compare/v1.20.0...v1.20.1) (2021-11-15)
+
+
+### Bug Fixes
+
+* **component/accordion:** correct the display of the opening icon ([#959](https://github.com/adeo/mozaic-design-system/issues/959)) ([57ce21f](https://github.com/adeo/mozaic-design-system/commit/57ce21f84b8f599ea9956547356604e18533fa72))
+* **tooltip:** clean arrow base ([#958](https://github.com/adeo/mozaic-design-system/issues/958)) ([0901965](https://github.com/adeo/mozaic-design-system/commit/0901965821e4ac5aeed2a5f27ed6c2eed35544e1))
+
+
+
+
+
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+
+### Bug Fixes
+
+* **svg:** add aria-hidden to svg ([#949](https://github.com/adeo/mozaic-design-system/issues/949)) ([570de57](https://github.com/adeo/mozaic-design-system/commit/570de573fddc8c82e3982f096c8f7cc83621a02f))
+* **tools/autoprefixer:** fix wrong removal of cssnano when autoprefixer is disabled ([#942](https://github.com/adeo/mozaic-design-system/issues/942)) ([5105327](https://github.com/adeo/mozaic-design-system/commit/510532724775aa13152ed8003bcaca900b537e5f))
+
+
+### Features
+
+* **component/accordion:** update the HTML structure of the component & add variation with checkbox and toggle ([#912](https://github.com/adeo/mozaic-design-system/issues/912)) ([0912aeb](https://github.com/adeo/mozaic-design-system/commit/0912aeba800268bb0991081f101ee99a680738ee))
+* **foundations/icons:** run svgoplugin ([#956](https://github.com/adeo/mozaic-design-system/issues/956)) ([cb9f087](https://github.com/adeo/mozaic-design-system/commit/cb9f08711948cece0351564adab0396c9710919b))
+* **purgecss:** add PurgeCSS PostCSS plugins for production ([d2a04c9](https://github.com/adeo/mozaic-design-system/commit/d2a04c96fc088aeb8e4938632e89924b04ad77db))
+* **tooltip:** add border for a11y ([#955](https://github.com/adeo/mozaic-design-system/issues/955)) ([5a24f49](https://github.com/adeo/mozaic-design-system/commit/5a24f49f3d55ccc0d8fbe3d6952814a8bd776454))
+
+
+
+
+
 # [1.19.0](https://github.com/adeo/mozaic-design-system/compare/v1.18.0...v1.19.0) (2021-10-27)
 
 

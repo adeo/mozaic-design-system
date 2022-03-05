@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
+
+**Note:** Version bump only for package @mozaic-ds/css-dev-tools
+
+
+
+
+
+# [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
+
+**Note:** Version bump only for package @mozaic-ds/css-dev-tools
+
+
+
+
+
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+
+### Bug Fixes
+
+* **svg:** add aria-hidden to svg ([#949](https://github.com/adeo/mozaic-design-system/issues/949)) ([570de57](https://github.com/adeo/mozaic-design-system/commit/570de573fddc8c82e3982f096c8f7cc83621a02f))
+* **tools/autoprefixer:** fix wrong removal of cssnano when autoprefixer is disabled ([#942](https://github.com/adeo/mozaic-design-system/issues/942)) ([5105327](https://github.com/adeo/mozaic-design-system/commit/510532724775aa13152ed8003bcaca900b537e5f))
+
+
+### Features
+
+* **purgecss:** add PurgeCSS PostCSS plugins for production ([d2a04c9](https://github.com/adeo/mozaic-design-system/commit/d2a04c96fc088aeb8e4938632e89924b04ad77db))
+
+
+
+
+
 # [1.18.0](https://github.com/adeo/mozaic-design-system/compare/v1.17.1...v1.18.0) (2021-09-29)
 
 

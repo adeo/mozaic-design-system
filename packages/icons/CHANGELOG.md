@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
+
+
+### Features
+
+* **icons:** add new icons ([#1045](https://github.com/adeo/mozaic-design-system/issues/1045)) ([a84c8ea](https://github.com/adeo/mozaic-design-system/commit/a84c8eafdc540459d84715d1ebb707c819cff247))
+
+
+
+
+
+# [1.25.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.1...v1.25.0) (2022-02-16)
+
+
+### Features
+
+* **foundations/icons:** add typescript to react icons ([#1025](https://github.com/adeo/mozaic-design-system/issues/1025)) ([93ce0ff](https://github.com/adeo/mozaic-design-system/commit/93ce0ff0c9b85bfac4e10149def885790631a360))
+
+
+
+
+
+# [1.20.0](https://github.com/adeo/mozaic-design-system/compare/v1.19.0...v1.20.0) (2021-11-12)
+
+
+### Bug Fixes
+
+* **svg:** add aria-hidden to svg ([#949](https://github.com/adeo/mozaic-design-system/issues/949)) ([570de57](https://github.com/adeo/mozaic-design-system/commit/570de573fddc8c82e3982f096c8f7cc83621a02f))
+
+
+### Features
+
+* **foundations/icons:** run svgoplugin ([#956](https://github.com/adeo/mozaic-design-system/issues/956)) ([cb9f087](https://github.com/adeo/mozaic-design-system/commit/cb9f08711948cece0351564adab0396c9710919b))
+
+
+
+
+
 # [1.14.0](https://github.com/adeo/mozaic-design-system/compare/v1.13.1...v1.14.0) (2021-08-04)
 
 

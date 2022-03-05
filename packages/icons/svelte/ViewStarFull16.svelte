@@ -7,4 +7,4 @@
   export let size = "1rem";
 </script>
 
-<svg width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 11.95L4.29 14 5 9.66 2 6.58l4.15-.63L8 2l1.85 3.95 4.15.63-3 3.08.71 4.34L8 11.95z"/><path d="M8 11.95L4.29 14 5 9.66 2 6.58l4.15-.63L8 2l1.85 3.95 4.15.63-3 3.08.71 4.34L8 11.95z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 11.95L4.29 14 5 9.66 2 6.58l4.15-.63L8 2l1.85 3.95 4.15.63-3 3.08.71 4.34L8 11.95z"/><path d="M8 11.95L4.29 14 5 9.66 2 6.58l4.15-.63L8 2l1.85 3.95 4.15.63-3 3.08.71 4.34L8 11.95z"/></svg>

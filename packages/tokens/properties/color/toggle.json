@@ -24,7 +24,7 @@
       },
       "disabled": {
         "background": {
-          "value": "{color.input.disabled.background.value}"
+          "value": "{color.grey.100.value}"
         },
         "circle": {
           "value": "{color.grey.300.value}"
