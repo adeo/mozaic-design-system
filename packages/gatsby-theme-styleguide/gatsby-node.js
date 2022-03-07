@@ -1,5 +1,5 @@
 const express = require('express')
-var mkdirp = require('mkdirp')
+const mkdirp = require('mkdirp')
 const path = require(`path`)
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
@@ -79,14 +79,28 @@ const createPreviewHtmlFile = (node) =>
 
     const fileName = node.fields.slug.split('/').pop()
 
-    mkdirp(destDir, (err) => {
-      if (err) reject(err)
+    // mkdirp(destDir, (err) => {
+    //   if (err) reject(err)
 
-      fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), (error) => {
-        if (error) reject(error)
-        resolve()
+    //   fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), (error) => {
+    //     if (error) reject(error)
+    //     resolve()
+    //   })
+    // })
+    mkdirp(destDir)
+      .then((made) => {
+        fs.writeFile(
+          `${destDir}/${fileName}.html`,
+          buildHtml(node),
+          (error) => {
+            if (error) reject(error)
+            resolve()
+          }
+        )
       })
-    })
+      .catch((error) => {
+        if (error) reject(err)
+      })
   })
 
 // build previews for each node
