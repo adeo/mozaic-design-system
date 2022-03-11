@@ -72,7 +72,7 @@
     "build": "npx gatsby build",
     "develop": "npx gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "predevelop": "yarn clean-cache && yarn tokens:clean-build",
+    "predevelop": "yarn tokens:clean-build",
     "release": "npx lerna version --conventional-commits --conventional-graduate --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
     "releaseBeta": "npx lerna version --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid beta",
     "npm:publish": "npx lerna exec --bail=false npm publish",
