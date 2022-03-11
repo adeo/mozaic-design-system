@@ -37,12 +37,10 @@ const query = graphql`
             slug
             fileName {
               name
-              base
               relativePath
               extension
             }
           }
-          excerpt
         }
       }
     }
