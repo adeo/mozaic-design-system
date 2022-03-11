@@ -4,7 +4,6 @@
 @import "typography/t.bodys";
 @import "components/c.option-card";
 
-
 .example {
   @include set-font-family();
 
@@ -45,4 +44,12 @@
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
+}
+
+.hide-button {
+  display: none;
+}
+
+#exampleButton {
+  z-index: 10;
 }

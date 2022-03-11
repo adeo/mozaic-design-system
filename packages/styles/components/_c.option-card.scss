@@ -43,6 +43,17 @@
       &:focus + #{$parent}__label {
         @include set-focus-floating();
       }
+
+      &:checked ~ #{$parent}__content {
+        button,
+        [href],
+        input,
+        select,
+        textarea,
+        [tabindex]:not([tabindex="-1"]) {
+          z-index: 2;
+        }
+      }
     }
   }
 
