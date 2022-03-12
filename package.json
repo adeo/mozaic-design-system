@@ -21,7 +21,7 @@
   "dependencies": {
     "@mozaic-ds/gatsby-theme-styleguide": "^1.6.0",
     "adm-zip": "^0.5.9",
-    "chromedriver": "^98.0.1",
+    "chromedriver": "^99.0.0",
     "core-js": "^3.18.3",
     "gatsby": "^4.8.1",
     "gatsby-plugin-google-analytics": "^4.8.0",
@@ -31,7 +31,7 @@
     "request-promise": "^4.2.6",
     "rimraf": "^3.0.2",
     "svgo": "^1.3.1",
-    "xstate": "^4.30.1"
+    "xstate": "^4.30.6"
   },
   "devDependencies": {
     "@babel/core": "^7.17.4",
