@@ -39,6 +39,7 @@ module.exports = {
     'max-empty-lines': null,
     'plugin/mozaic-bem-pattern': [pickConfig()],
     'no-invalid-position-at-import-rule': null,
+    'max-line-length': null,
     'alpha-value-notation': null,
     'selector-class-pattern': null,
     'scss/at-mixin-argumentless-call-parentheses': 'always',
