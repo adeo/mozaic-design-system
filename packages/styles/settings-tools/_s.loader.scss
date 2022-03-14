@@ -1,0 +1,50 @@
+$loader-sizes: (
+  "s": (
+    "height": $mu150,
+    "stroke-width": 4,
+    "width": $mu150,
+  ),
+  "m": (
+    "height": $mu200,
+    "stroke-width": 4,
+    "width": $mu200,
+  ),
+  "l": (
+    "height": $mu400,
+    "stroke-width": 8,
+    "width": $mu400,
+  ),
+);
+
+$loader-theme: (
+  "dark": $color-grey-900,
+  "light": $color-grey-000,
+  "primary": $color-primary-01-600,
+);
+
+$animation-duration-loader: 2s;
+$loader-default-size: map-get($loader-sizes, "m");
+$loader-default-theme: map-get($loader-theme, "primary");
+
+@mixin set-loader-size($props, $parent) {
+  $height-spinner-loader: map-get($props, "height");
+  $width-spinner-loader: map-get($props, "width");
+  $stroke-width-loader: map-get($props, "stroke-width");
+
+  #{$parent} {
+    &__spinner {
+      height: $height-spinner-loader;
+      width: $width-spinner-loader;
+    }
+
+    &__path {
+      stroke-width: $stroke-width-loader;
+    }
+  }
+}
+
+@mixin set-loader-theme($color-loader, $parent) {
+  #{$parent}__path {
+    stroke: $color-loader;
+  }
+}
