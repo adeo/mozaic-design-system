@@ -18,11 +18,12 @@ Import the settings and the listbox `scss` files.
 
 The creation of an listbox component in your code is done using the following HTML structure:
 
+### Mono selection
 ```HTML
   <ul
     tabindex="-1"
     role="listbox"
-    aria-labelledby="phone_number_list"
+    aria-labelledby="listbox"
     class="mc-list-box"
   >
     <li class="mc-list-box__item" role="option">
@@ -30,7 +31,21 @@ The creation of an listbox component in your code is done using the following HT
     </li>
     ...
   </ul>
-	
+```
+
+### Multi selection
+```HTML
+  <ul
+    tabindex="-1"
+    role="listbox"
+    aria-labelledby="listbox"
+    class="mc-list-box"
+  >
+    <li class="mc-list-box__item" role="option">
+      <span class="mc-list-box__text">Option label</span>
+    </li>
+    ...
+  </ul>
 ```
 
 ## Variations
@@ -65,8 +80,8 @@ The items states needs to be manage by javascript
 
 ### Disabled
 
-To disable an item you have to add `mc-listbox__item--disabled` modifier to the `mc-listbox__item` element.
+To disable an item you have to add `is-disabled` modifier to the `mc-listbox__item` element.
 
 ### Focus
 
-To disable an item you have to add `mc-listbox__item--focus` modifier to the `mc-listbox__item` element.
+To disable an item you have to add `is-focus` modifier to the `mc-listbox__item` element.

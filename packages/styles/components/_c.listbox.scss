@@ -1,4 +1,6 @@
 .mc-list-box {
+  $parent: get-parent-selector(&);
+
   @include unstyle-list();
   position: absolute;
   border: 1px solid $color-grey-600;
@@ -42,22 +44,6 @@
       cursor: pointer;
     }
 
-    &--focus {
-      @include set-focus-floating();
-    }
-
-    &--disabled {
-      &,
-      &:hover,
-      &:focus,
-      &:active {
-        cursor: not-allowed;
-        box-shadow: none;
-        background-color: $color-grey-200;
-        color: $color-grey-600;
-      }
-    }
-
     &--checked {
       pointer-events: none;
       background-size: $mu150;
@@ -68,12 +54,6 @@
       background-repeat: no-repeat;
       background-position: right $mu075 center;
     }
-  }
-
-  &__checkbox {
-    margin-left: auto;
-    margin-right: $mu075;
-    pointer-events: none;
   }
 
   &__text {
@@ -92,5 +72,74 @@
     border: 1px solid $color-grey-600;
     border-radius: get-border-radius("m");
     padding: $mu100 $mu050;
+  }
+
+  .is-focus {
+    @include set-focus-floating();
+  }
+
+  .is-disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+    background-color: $color-grey-200;
+    color: $color-grey-600;
+  }
+
+  &--multi {
+    #{$parent} {
+      &__item {
+        position: relative;
+      }
+
+      &__input {
+        border-color: $color-input-border;
+        position: absolute;
+        right: $mu100;
+        top: $mu100;
+
+        @include reset-input;
+
+        min-width: $checkbox-min-width;
+        min-height: $checkbox-min-height;
+        width: $checkbox-width;
+        height: $checkbox-width;
+        border-radius: $checkbox-border-radius;
+        border: $checkbox-border-width solid $color-input-border;
+        background: $color-input-background;
+
+        &:checked {
+          background-color: $color-input-checked-background;
+          border-color: $color-input-checked-border;
+          background-image: url(inline-icons(
+            "checkmark-16",
+            $color-input-checked-icon
+          ));
+          background-position: center center;
+          background-size: $mu100;
+
+          &::-ms-check {
+            background-color: $color-input-checked-background;
+            border-color: $color-input-checked-border;
+          }
+
+          &:disabled {
+            border-color: $color-input-disabled-border;
+            background: $color-input-disabled-background;
+            background-image: url(inline-icons(
+              "checkmark-16",
+              $color-input-disabled-icon
+            ));
+          }
+        }
+      }
+
+      &__label {
+        cursor: pointer;
+        align-self: stretch;
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+      }
+    }
   }
 }
