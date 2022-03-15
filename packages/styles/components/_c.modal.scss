@@ -64,6 +64,8 @@
   }
 
   &__header {
+    @include set-divider("bottom", "light", "100%");
+
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -171,6 +173,7 @@
     @include set-from-screen(m) {
       align-items: center;
       flex-direction: row;
+      padding: $mu150;
     }
 
     & > :first-child {
