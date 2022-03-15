@@ -28,22 +28,45 @@ The creation of an listbox component in your code is done using the following HT
     <li class="mc-list-box__item" role="option">
       <span class="mc-list-box__text">Option label</span>
     </li>
+    ...
   </ul>
 	
 ```
 
-### States
+## Variations
 
-Depending on the context of use, the listbox can have several states:
+### Mono selection
 
-- Mono selection
+This variation is mostly combined with direct action or with a dropdown component.
+To display a checked item, you have to add the modifier `mc-listbox__item--checked` on the `li` element.
 
 <Preview path="default" />
 
-- Multi selection 
+### Multi selection
+
+In order to use the listbox with a multi selection, you must use checkboxes inside the items. 
+To achieve that you have to add the class `mc-listbox__checkbox` to checkbox components.
+
 
 <Preview path="multiselect" />
 
-### Variation
+### Icons 
+To be more explicit, you may want to add an icon before the item label. 
+To achieve that you have to add the class `mc-listbox__icon` to your icons. 
 
 <Preview path="icons" />
+
+## States 
+<Highlight theme="warning">
+
+The items states needs to be manage by javascript
+
+</Highlight>
+
+### Disabled
+
+To disable an item you have to add `mc-listbox__item--disabled` modifier to the `mc-listbox__item` element.
+
+### Focus
+
+To disable an item you have to add `mc-listbox__item--focus` modifier to the `mc-listbox__item` element.

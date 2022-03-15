@@ -28,8 +28,12 @@
     min-height: $mu300;
     border-bottom: 1px solid $color-grey-300;
 
-    &:focus {
-      @include set-focus-floating();
+    @include set-focus-floating-base() {
+      border-radius: 0;
+      top: $mu025;
+      right: $mu025;
+      bottom: $mu025;
+      left: $mu025;
     }
 
     &:hover {
@@ -38,16 +42,25 @@
       cursor: pointer;
     }
 
-    &:disabled {
-      background-color: $color-grey-200;
-      color: $color-grey-600;
-      box-shadow: inset 9px 0 0 -7px $color-grey-900;
-      cursor: not-allowed;
+    &--focus {
+      @include set-focus-floating();
+    }
+
+    &--disabled {
+      &,
+      &:hover,
+      &:focus,
+      &:active {
+        cursor: not-allowed;
+        box-shadow: none;
+        background-color: $color-grey-200;
+        color: $color-grey-600;
+      }
     }
 
     &--checked {
       pointer-events: none;
-      background-size: $mu200;
+      background-size: $mu150;
       background-image: url(inline-icons(
         "notification-available-24",
         $color-grey-900
