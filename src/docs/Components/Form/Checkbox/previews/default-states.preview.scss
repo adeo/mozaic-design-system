@@ -1,18 +1,16 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.checkbox';
+@import "components/c.checkbox";
 
 .example {
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   margin: $mu200 auto;
   padding: 0 $mu200;
   width: fit-content;
 
   &__item {
-    @include set-flexy;
+    @include set-flexy ();
 
     list-style-type: none;
     margin: $mu100 0;

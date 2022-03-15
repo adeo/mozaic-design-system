@@ -1,11 +1,9 @@
-@import "settings-tools/_all-settings";
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import "generic/_g.reset";
-@import "typography/_t.bodys";
-@import "components/_c.modal";
-@import "components/_c.button";
+@import "generic/g.reset";
+@import "typography/t.bodys";
+@import "components/c.modal";
+@import "components/c.button";
 
 .example {
   @include set-font-face("regular");

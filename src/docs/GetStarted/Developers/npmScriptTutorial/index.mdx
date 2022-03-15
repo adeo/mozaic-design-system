@@ -54,7 +54,7 @@ Create `src/` and `dist/` directories.
 Create a `src/bundle.scss` file and paste the following code:
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -144,7 +144,7 @@ Run the `npm run css:lint-fix` command. Nothing should happen, because the code 
 Edit your `src/bundle.scss` file, and edit line 5 to remove the line break between the mixin instantiation and the first declaration :
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -247,7 +247,7 @@ $local-config: (
   font-path: 'static',
 );
 
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 @include import-font-families(); /* add this */
 
@@ -289,7 +289,7 @@ Your browser should now look like this:
 
 ```scss
 // mandatory
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 // your components
 @import 'layout/_l.grid';

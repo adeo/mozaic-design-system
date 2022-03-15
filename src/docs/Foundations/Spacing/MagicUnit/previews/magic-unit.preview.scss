@@ -1,5 +1,4 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
 
 $magic-units-sizes: (
@@ -56,18 +55,18 @@ body {
 
     &::before {
       display: block;
-      content: '';
+      content: "";
     }
 
     &::after {
-      content: '';
+      content: "";
       display: none;
       position: absolute;
       left: magic-unit-rem(22);
       width: magic-unit-rem(20);
       bottom: magic-unit-rem(8);
       padding: magic-unit-rem(1);
-      background-color: rgba(255, 255, 255, 0.6);
+      background-color: rgb(255 255 255 / 0.6);
       white-space: pre;
       line-height: 2;
     }
@@ -75,7 +74,7 @@ body {
     @each $key in $magic-units-sizes {
       $iterator: $iterator - 1;
 
-      &--#{$key*100} {
+      &--#{$key * 100} {
         z-index: $iterator;
 
         &::before {
@@ -85,7 +84,7 @@ body {
 
         &:hover::after {
           display: block;
-          content: 'multiplier value: #{$key} \A rem value: #{magic-unit-rem($key)}\A px value: #{magic-unit($key) * $local-rem-value}px \A unitless sass function: magic-unit(#{$key}) \A rem sass function: magic-unit-rem(#{$key})';
+          content: "multiplier value: #{$key} \A rem value: #{magic-unit-rem($key)}\A px value: #{magic-unit($key) * $local-rem-value}px \A unitless sass function: magic-unit(#{$key}) \A rem sass function: magic-unit-rem(#{$key})";
         }
       }
     }

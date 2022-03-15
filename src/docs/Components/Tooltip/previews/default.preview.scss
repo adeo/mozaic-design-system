@@ -1,8 +1,6 @@
-@import 'settings-tools/_all-settings.scss';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.tooltip.scss';
+@import "components/c.tooltip";
 
 .example {
   padding: 3rem;

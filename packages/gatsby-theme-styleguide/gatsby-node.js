@@ -1,5 +1,4 @@
 const express = require('express')
-var mkdirp = require('mkdirp')
 const path = require(`path`)
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
@@ -79,9 +78,8 @@ const createPreviewHtmlFile = (node) =>
 
     const fileName = node.fields.slug.split('/').pop()
 
-    mkdirp(destDir, (err) => {
+    fs.mkdir(destDir, { recursive: true }, (err) => {
       if (err) reject(err)
-
       fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), (error) => {
         if (error) reject(error)
         resolve()
