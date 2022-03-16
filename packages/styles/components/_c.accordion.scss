@@ -65,8 +65,7 @@
   // this code with "input" as trigger is a backup code in order not to cause a breaking change
   // it should be removed once the teams have migrated to the new version of the component
   @at-root input#{$parent}__trigger {
-    opacity: 0;
-    position: absolute;
+    @include visually-hidden();
 
     &:checked {
       ~ #{$parent}__content {
