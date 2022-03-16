@@ -222,6 +222,6 @@
   }
 
   &-overlay {
-    @include set-dialog-overlay();
+    @include set-page-overlay();
   }
 }
