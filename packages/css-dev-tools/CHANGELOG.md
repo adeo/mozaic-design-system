@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.27.0](https://github.com/adeo/mozaic-design-system/compare/v1.26.1...v1.27.0) (2022-03-16)
+
+
+### Bug Fixes
+
+* **tools/stylelint:** turn of the rule max-line-length ([#1058](https://github.com/adeo/mozaic-design-system/issues/1058)) ([66988c9](https://github.com/adeo/mozaic-design-system/commit/66988c95739af023043a2ef28ddddcf0b190b806))
+
+
+
+
+
 # [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
 
 **Note:** Version bump only for package @mozaic-ds/css-dev-tools

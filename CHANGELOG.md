@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.27.0](https://github.com/adeo/mozaic-design-system/compare/v1.26.1...v1.27.0) (2022-03-16)
+
+
+### Bug Fixes
+
+* **deps/mkdirp:** use fs.mkdir instead of mkdirp ([#1049](https://github.com/adeo/mozaic-design-system/issues/1049)) ([b34e1ba](https://github.com/adeo/mozaic-design-system/commit/b34e1bafd9e2ee33fe4a2c65406bf5f40d866324)), closes [#1050](https://github.com/adeo/mozaic-design-system/issues/1050)
+* **tools/stylelint:** turn of the rule max-line-length ([#1058](https://github.com/adeo/mozaic-design-system/issues/1058)) ([66988c9](https://github.com/adeo/mozaic-design-system/commit/66988c95739af023043a2ef28ddddcf0b190b806))
+
+
+### Features
+
+* **component/loader:** add the new Loader component ([#1060](https://github.com/adeo/mozaic-design-system/issues/1060)) ([bb0a3d2](https://github.com/adeo/mozaic-design-system/commit/bb0a3d2ad694b24ec70f2cd1688b936f2854885e))
+* **components/layer:** update content paddings values ([#1063](https://github.com/adeo/mozaic-design-system/issues/1063)) ([84084d7](https://github.com/adeo/mozaic-design-system/commit/84084d70602484275892606c052540303ebc4c1b)), closes [#978](https://github.com/adeo/mozaic-design-system/issues/978)
+* **components/modal:** update paddings values + add a divider on the header ([#921](https://github.com/adeo/mozaic-design-system/issues/921)) ([109afa4](https://github.com/adeo/mozaic-design-system/commit/109afa4aa5a4bee12daa5a29647b7e86bf208c6d))
+
+
+
+
+
 ## [1.26.1](https://github.com/adeo/mozaic-design-system/compare/v1.26.0...v1.26.1) (2022-03-02)
 
 
