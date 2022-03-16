@@ -1,6 +1,7 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
 @import "typography/t.bodys";
+@import "components/c.divider";
 @import "components/c.modal";
 @import "components/c.button";
 
@@ -10,4 +11,15 @@
   background-color: #f6f7f7;
   min-height: 500px;
   height: 100vh;
+}
+
+.mc-modal__content {
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &:not(:last-child) {
+      margin-bottom: $mu100;
+    }
+  }
 }

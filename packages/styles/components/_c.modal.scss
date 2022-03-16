@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .mc-modal {
   $parent: get-parent-selector(&);
 
@@ -6,10 +8,12 @@
 
   align-items: flex-end;
   display: flex;
+  height: 100vh;
   justify-content: center;
   overflow-x: hidden;
   overflow-y: auto;
   padding: $mu100 magic-unit-rem(1.125, true);
+  width: 100vw;
 
   @include set-from-screen(m) {
     align-items: center;
@@ -29,12 +33,15 @@
     width: 100%;
 
     @include set-from-screen(m) {
-      max-height: 50vh;
+      max-height: percentage(math.div(1, 2));
       max-width: magic-unit-rem(38.5, true); // 616px
     }
 
+    @media (min-width: $screen-l) and (max-width: ($screen-xxl - 1)) {
+      max-height: percentage(math.div(2, 3));
+    }
+
     @include set-from-screen(l) {
-      max-height: 66vh;
       max-width: magic-unit-rem(48, true); // 768px
     }
 
@@ -43,7 +50,6 @@
     }
 
     @include set-from-screen(xxl) {
-      max-height: 50vh;
       max-width: magic-unit-rem(56.5, true); // 904px
     }
 
@@ -57,27 +63,17 @@
     }
   }
 
-  &__header,
-  &__body {
-    padding-left: $mu100;
-    padding-right: $mu100;
-
-    @include set-from-screen(m) {
-      padding-left: $mu150;
-      padding-right: $mu150;
-    }
-  }
-
   &__header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding-top: $mu075;
-    margin-bottom: $mu150;
-    min-height: magic-unit-rem(2.25, true);
+    margin-bottom: $mu100;
+    padding: $mu075 $mu075 $mu075 $mu100;
 
     @include set-from-screen(m) {
       padding-top: $mu100;
+      padding-right: $mu100;
+      padding-left: $mu150;
     }
   }
 
@@ -116,6 +112,13 @@
     flex: 1 1;
     color: $color-font-darker;
     overflow: hidden;
+    padding-left: math.div($mu100, 2);
+    padding-right: math.div($mu100, 2);
+
+    @include set-from-screen(m) {
+      padding-left: math.div($mu150, 2);
+      padding-right: $mu100;
+    }
   }
 
   &__content {
@@ -124,6 +127,13 @@
     overflow-x: hidden;
     scrollbar-color: $color-grey-600 $color-grey-100;
     scrollbar-width: thin;
+    padding-left: math.div($mu100, 2);
+    padding-right: math.div($mu100, 2);
+
+    @include set-from-screen(m) {
+      padding-left: math.div($mu150, 2);
+      padding-right: $mu075;
+    }
 
     &::-webkit-scrollbar {
       background-color: $color-grey-100;
@@ -144,6 +154,13 @@
     margin-top: 0;
   }
 
+  &__inner {
+    padding: {
+      top: $mu150;
+      bottom: $mu300;
+    }
+  }
+
   &__footer {
     align-items: stretch;
     display: flex;
@@ -154,6 +171,7 @@
     @include set-from-screen(m) {
       align-items: center;
       flex-direction: row;
+      padding: $mu150;
     }
 
     & > :first-child {
