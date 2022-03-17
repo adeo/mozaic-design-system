@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.27.1](https://github.com/adeo/mozaic-design-system/compare/v1.27.0...v1.27.1) (2022-03-17)
+
+
+### Bug Fixes
+
+* **tools/stylelint:** turn off some new stylelint rules ([#1067](https://github.com/adeo/mozaic-design-system/issues/1067)) ([ef404a8](https://github.com/adeo/mozaic-design-system/commit/ef404a8c32b4767b0af3c0a4c9a257408a59ef89))
+
+
+
+
+
 # [1.27.0](https://github.com/adeo/mozaic-design-system/compare/v1.26.1...v1.27.0) (2022-03-16)
 
 
