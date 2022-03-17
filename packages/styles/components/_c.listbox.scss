@@ -1,16 +1,16 @@
-.mc-list-box {
+.mc-listbox {
   $parent: get-parent-selector(&);
 
   @include unstyle-list();
   position: absolute;
   border: 1px solid $color-grey-600;
   margin-top: 5px;
-  padding-inline-start: 0;
   overflow-y: auto;
   border-radius: 3px;
   max-height: 13.5rem;
   z-index: 11;
-  width: 18rem;
+  margin-bottom: 0;
+  min-width: 18rem;
   background-color: $color-grey-000;
 
   &::-webkit-scrollbar {
@@ -23,13 +23,6 @@
   }
 
   &__item {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding-left: $mu075;
-    min-height: $mu300;
-    border-bottom: 1px solid $color-grey-300;
-
     @include set-focus-floating-base() {
       border-radius: 0;
       top: $mu025;
@@ -38,33 +31,25 @@
       left: $mu025;
     }
 
+    display: flex;
+    align-items: center;
+    gap: $mu075;
+    padding-left: $mu075;
+    min-height: $mu300;
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-grey-300;
+    }
+
     &:hover {
       background-color: $color-grey-100;
       box-shadow: inset 9px 0 0 -7px $color-grey-900;
       cursor: pointer;
     }
-
-    &--checked {
-      pointer-events: none;
-      background-size: $mu150;
-      background-image: url(inline-icons(
-        "notification-available-24",
-        $color-grey-900
-      ));
-      background-repeat: no-repeat;
-      background-position: right $mu075 center;
-    }
-  }
-
-  &__text {
-    pointer-events: none;
   }
 
   &__icon {
-    pointer-events: none;
     width: $mu200;
     height: $mu200;
-    margin-right: $mu075;
   }
 
   &__empty {
@@ -72,6 +57,17 @@
     border: 1px solid $color-grey-600;
     border-radius: get-border-radius("m");
     padding: $mu100 $mu050;
+  }
+
+  .is-checked {
+    pointer-events: none;
+    background-size: $mu150;
+    background-image: url(inline-icons(
+      "notification-available-24",
+      $color-grey-900
+    ));
+    background-repeat: no-repeat;
+    background-position: right $mu075 center;
   }
 
   .is-focus {
@@ -83,54 +79,20 @@
     box-shadow: none;
     background-color: $color-grey-200;
     color: $color-grey-600;
+    pointer-events: none;
   }
 
   &--multi {
     #{$parent} {
-      &__item {
-        position: relative;
-      }
-
       &__input {
         border-color: $color-input-border;
         position: absolute;
-        right: $mu100;
-        top: $mu100;
+        left: $mu100;
 
         @include reset-input;
 
-        min-width: $checkbox-min-width;
-        min-height: $checkbox-min-height;
-        width: $checkbox-width;
-        height: $checkbox-width;
-        border-radius: $checkbox-border-radius;
-        border: $checkbox-border-width solid $color-input-border;
-        background: $color-input-background;
-
-        &:checked {
-          background-color: $color-input-checked-background;
-          border-color: $color-input-checked-border;
-          background-image: url(inline-icons(
-            "checkmark-16",
-            $color-input-checked-icon
-          ));
-          background-position: center center;
-          background-size: $mu100;
-
-          &::-ms-check {
-            background-color: $color-input-checked-background;
-            border-color: $color-input-checked-border;
-          }
-
-          &:disabled {
-            border-color: $color-input-disabled-border;
-            background: $color-input-disabled-background;
-            background-image: url(inline-icons(
-              "checkmark-16",
-              $color-input-disabled-icon
-            ));
-          }
-        }
+        @include set-checkbox-input;
+        @include set-checkbox-checked;
       }
 
       &__label {
@@ -138,7 +100,6 @@
         align-self: stretch;
         display: inline-flex;
         align-items: center;
-        width: 100%;
       }
     }
   }
