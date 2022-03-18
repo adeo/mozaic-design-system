@@ -94,7 +94,7 @@
                   tabindex="-1"
                   role="listbox"
                   aria-labelledby="lisbox"
-                  class="mc-listbox mc-listbox--left hide size"
+                  class="mc-listbox mc-listbox--left"
                   id="listbox"
                 >
                   <li
@@ -477,7 +477,7 @@
   actions.forEach(function (action) {
     action.addEventListener('click', function (e) {
       const list = document.getElementById('listbox')
-      list.classList.toggle('show')
+      list.classList.toggle('is-open')
     })
   })
 
