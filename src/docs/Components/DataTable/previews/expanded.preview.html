@@ -90,14 +90,40 @@
                     <use xlink:href="#DisplayOther24" />
                   </svg>
                 </button>
+                <ul
+                  tabindex="-1"
+                  role="listbox"
+                  aria-labelledby="lisbox"
+                  class="mc-listbox mc-listbox--left hide size"
+                  id="listbox"
+                >
+                  <li
+                    class="mc-listbox__item"
+                    role="option"
+                  >
+                    <svg fill="#6F676C" class="mc-listbox__icon">
+                      <use xlink:href="#PublishEdit24" />
+                    </svg>
+                    <span class="mc-listbox__label">Edit</span>
+                  </li>
+                  <li class="mc-listbox__item is-disabled" role="option">
+                    <svg fill="#6F676C" class="mc-listbox__icon">
+                      <use xlink:href="#DownloadWeb24" />
+                    </svg>
+                    <span class="mc-listbox__label">Download</span>
+                  </li>
+                  <li class="mc-listbox__item" role="option">
+                    <svg fill="#6F676C" class="mc-listbox__icon">
+                      <use xlink:href="#DisplaySetting24" />
+                    </svg>
+                    <span class="mc-listbox__label">Setting</span>
+                  </li>
+                </ul>
               </td>
             </tr>
             <!--  expanded row -->
             <tr
-              class="
-                mc-datatable__row-expandable
-                mc-datatable__row-expandable--offset-2
-              "
+              class="mc-datatable__row-expandable mc-datatable__row-expandable--offset-2"
             >
               <td colspan="10">
                 <div class="mc-datatable__row-inner">
@@ -174,10 +200,7 @@
             </tr>
             <!--  expanded row -->
             <tr
-              class="
-                mc-datatable__row-expandable
-                mc-datatable__row-expandable--offset-2
-              "
+              class="mc-datatable__row-expandable mc-datatable__row-expandable--offset-2"
             >
               <td colspan="10">
                 <div class="mc-datatable__row-inner">
@@ -254,10 +277,7 @@
             </tr>
             <!--  expanded row -->
             <tr
-              class="
-                mc-datatable__row-expandable
-                mc-datatable__row-expandable--offset-2
-              "
+              class="mc-datatable__row-expandable mc-datatable__row-expandable--offset-2"
             >
               <td colspan="10">
                 <div class="mc-datatable__row-inner">
@@ -334,10 +354,7 @@
             </tr>
             <!--  expanded row -->
             <tr
-              class="
-                mc-datatable__row-expandable
-                mc-datatable__row-expandable--offset-2
-              "
+              class="mc-datatable__row-expandable mc-datatable__row-expandable--offset-2"
             >
               <td colspan="10">
                 <div class="mc-datatable__row-inner">
@@ -455,6 +472,15 @@
 
 <!-- scripts -->
 <script>
+  const actions = document.querySelectorAll('.mc-datatable__options')
+
+  actions.forEach(function (action) {
+    action.addEventListener('click', function (e) {
+      const list = document.getElementById('listbox')
+      list.classList.toggle('show')
+    })
+  })
+
   var expands = document.querySelectorAll('.mc-datatable__expand')
   expands.forEach(function (expand) {
     expand.addEventListener('click', function (e) {

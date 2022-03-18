@@ -8,10 +8,17 @@
   overflow-y: auto;
   border-radius: 3px;
   max-height: 13.5rem;
-  z-index: 11;
   margin-bottom: 0;
   min-width: 18rem;
   background-color: $color-grey-000;
+  opacity: 0;
+  visibility: hidden;
+
+  &.is-open {
+    z-index: 11;
+    opacity: 1;
+    visibility: visible;
+  }
 
   &::-webkit-scrollbar {
     background-color: $color-grey-100;
@@ -82,17 +89,21 @@
     pointer-events: none;
   }
 
+  &--left {
+    transform: translateX(-90%);
+  }
+
   &--multi {
     #{$parent} {
       &__input {
-        border-color: $color-input-border;
-        position: absolute;
-        left: $mu100;
-
         @include reset-input;
-
         @include set-checkbox-input;
         @include set-checkbox-checked;
+
+        border-color: $color-input-border;
+        position: absolute;
+        right: $mu100;
+        z-index: 2;
       }
 
       &__label {
@@ -100,6 +111,14 @@
         align-self: stretch;
         display: inline-flex;
         align-items: center;
+
+        &::after {
+          position: absolute;
+          top: 100%;
+          left: 100%;
+          right: 100%;
+          z-index: 1;
+        }
       }
     }
   }
