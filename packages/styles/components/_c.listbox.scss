@@ -54,12 +54,6 @@
     }
   }
 
-  &__label {
-    &::after {
-      background-color: red;
-    }
-  }
-
   &__icon {
     width: $mu200;
     height: $mu200;
@@ -118,11 +112,10 @@
         display: inline-flex;
         align-items: center;
 
-        &#{$parent}--multi__label::after {
+        &::after {
+          content: '';
           position: absolute;
-          top: 100%;
-          left: 100%;
-          right: 100%;
+          inset: 0;
           z-index: 1;
         }
       }
