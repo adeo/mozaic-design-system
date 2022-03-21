@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:none;}.cls-2{fill:#999;}</style></defs><title>Navigation_Arrow_Arrow--Right_48px</title><g id="Square"><rect class="cls-1" width="48" height="48"/></g><g id="Icon"><path class="cls-2" d="M12.5,42.5A1.5,1.5,0,0,1,13,41.4L31.79,24,13,6.6a1.5,1.5,0,0,1,2-2.2L35,22.86A1.48,1.48,0,0,1,35.5,24h0a1.49,1.49,0,0,1-.48,1.1L15,43.6a1.5,1.5,0,0,1-2.12-.08A1.48,1.48,0,0,1,12.5,42.5Z"/></g></svg>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Square"> </g>
+  <g id="Icon">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M15.1893 7.43934C15.7751 6.85355 16.7249 6.85355 17.3107 7.43934L32.8107 22.9393C33.3964 23.5251 33.3964 24.4749 32.8107 25.0607L17.3107 40.5607C16.7249 41.1464 15.7751 41.1464 15.1893 40.5607C14.6036 39.9749 14.6036 39.0251 15.1893 38.4393L29.6287 24L15.1893 9.56066C14.6036 8.97487 14.6036 8.02513 15.1893 7.43934Z" fill="black"/>
+</g>
+</svg>
