@@ -54,6 +54,12 @@
     }
   }
 
+  &__label {
+    &::after {
+      background-color: red;
+    }
+  }
+
   &__icon {
     width: $mu200;
     height: $mu200;
@@ -112,7 +118,7 @@
         display: inline-flex;
         align-items: center;
 
-        &::after {
+        &#{$parent}--multi__label::after {
           position: absolute;
           top: 100%;
           left: 100%;
