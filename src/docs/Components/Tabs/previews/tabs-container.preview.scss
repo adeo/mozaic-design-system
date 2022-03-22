@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'layouts/_l.container';
-@import 'components/_c.tabs';
+@import "layouts/l.container";
+@import "components/c.tabs";
 
 .example {
   margin: $mu200 0;

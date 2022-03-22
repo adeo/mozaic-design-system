@@ -1,15 +1,25 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'typography/_t.bodys';
-@import 'components/_c.modal';
-@import 'components/_c.button';
+@import "typography/t.bodys";
+@import "components/c.divider";
+@import "components/c.modal";
+@import "components/c.button";
 
 .example {
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   background-color: #f6f7f7;
   min-height: 500px;
   height: 100vh;
+}
+
+.mc-modal__content {
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &:not(:last-child) {
+      margin-bottom: $mu100;
+    }
+  }
 }

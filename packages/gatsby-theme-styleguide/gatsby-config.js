@@ -3,7 +3,6 @@ const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
 const base64 = require('postcss-base64')
 
 module.exports = {
-  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: '@mozaic-ds/gatsby-source-preview',

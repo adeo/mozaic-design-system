@@ -1,13 +1,11 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.radio';
-@import 'typography/_t.all-base-typography';
-@import 'typography/_t.bodys';
+@import "components/c.radio";
+@import "typography/t.all-base-typography";
+@import "typography/t.bodys";
 
 .example {
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   margin: $mu200 auto;
   padding: 0 $mu200;

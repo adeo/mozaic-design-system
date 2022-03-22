@@ -1,0 +1,78 @@
+// .mc-spinner
+.mc-loader {
+  $parent: get-parent-selector(&);
+
+  @include set-loader-size($loader-default-size, $parent);
+  @include set-loader-theme($loader-default-theme, $parent);
+
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+
+  &__spinner {
+    &:not(:only-child) {
+      margin-bottom: $mu100;
+    }
+  }
+
+  &__icon {
+    animation: rotate-loader $animation-duration-loader linear infinite;
+    transform-origin: center;
+  }
+
+  &__path {
+    fill: none;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    animation: animate-dash-loader $animation-duration-loader ease-in-out
+      infinite;
+  }
+
+  &__text {
+    @include set-font-scale("05", "m");
+
+    color: $color-font-lightest;
+  }
+
+  @each $size, $props in $loader-sizes {
+    &--#{$size} {
+      @if ($size != "m") {
+        @include set-loader-size($props, $parent);
+      }
+    }
+  }
+
+  @each $theme, $color in $loader-theme {
+    &--#{$theme} {
+      @if ($theme != "primary") {
+        @include set-loader-theme($color, $parent);
+      }
+    }
+  }
+}
+
+@keyframes rotate-loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes animate-dash-loader {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}

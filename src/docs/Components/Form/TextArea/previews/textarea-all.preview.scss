@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.textarea';
-@import 'components/_c.fields';
+@import "components/c.textarea";
+@import "components/c.fields";
 
 .example {
   @include set-font-face();
