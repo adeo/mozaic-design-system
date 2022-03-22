@@ -17,8 +17,14 @@ const source = localSrcPath
   ? [getPath('properties/**/*.json'), `${localSrcPath}properties/**/*.json`]
   : [getPath('properties/**/*.json')]
 
-if (preset && preset === 'adeo')
-  source.splice(1, 0, getPath('AdeoProperties/**/*.json'))
+const availablePresets = {
+  adeo: 'AdeoProperties/**/*.json',
+  bricoman: 'BricomanProperties/**/*.json',
+}
+
+if (preset) {
+  source.splice(1, 0, getPath(availablePresets[preset]))
+}
 
 const setLocalTokensExportPath = (dir) =>
   localTokensExportPath
