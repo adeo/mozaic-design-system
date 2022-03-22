@@ -5337,18 +5337,18 @@
     {
       "cat": "Navigation",
       "size": "48px",
-      "name": "Navigation_Bell",
-      "fileName": "Navigation_Navigation_Bell_48px.svg",
-      "iconName": "NavigationBell",
-      "componentName": "NavigationBell48"
-    },
-    {
-      "cat": "Navigation",
-      "size": "48px",
       "name": "Notification_Available",
       "fileName": "Navigation_Notification_Available_48px.svg",
       "iconName": "NotificationAvailable",
       "componentName": "NotificationAvailable48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Notification_Bell",
+      "fileName": "Navigation_Notification_Bell_48px.svg",
+      "iconName": "NotificationBell",
+      "componentName": "NotificationBell48"
     },
     {
       "cat": "Navigation",

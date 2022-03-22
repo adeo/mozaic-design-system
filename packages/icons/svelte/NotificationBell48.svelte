@@ -1,4 +1,4 @@
-<svelte:options tag="navigation-navigation-bell-48px" />
+<svelte:options tag="navigation-notification-bell-48px" />
   <script>
   export let id = undefined;
   export let style = undefined;
