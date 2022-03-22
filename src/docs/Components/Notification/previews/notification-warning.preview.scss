@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.links';
-@import 'components/_c.notification';
+@import "components/c.links";
+@import "components/c.notification";
 
 .example {
   padding: $mu250;

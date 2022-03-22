@@ -1,9 +1,9 @@
-@import "settings-tools/_all-settings";
-
+@import "settings-tools/all-settings";
 @include import-font-families();
+@import "components/c.layer";
+@import "components/c.button";
 
-@import "components/_c.layer";
-@import "components/_c.button";
+$background-color-content: #eeeef0;
 
 .example {
   @include set-font-face("regular");
@@ -14,8 +14,19 @@
 }
 
 .mc-layer__content {
-  background-color: #eeeef0;
+  background: linear-gradient(
+      90deg,
+      $background-color-content,
+      $background-color-content
+    )
+    no-repeat;
+  background-position: center;
+  background-size: calc(100% - 16px) auto;
   min-height: 100%;
+
+  @include set-from-screen(l) {
+    background-size: calc(100% - 32px) auto;
+  }
 
   p {
     margin-top: 0;

@@ -1,12 +1,10 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'layouts/_l.container';
-@import 'layouts/_l.flexy';
+@import "layouts/l.container";
+@import "layouts/l.flexy";
 
 // for example purpose only
-@import 'utilities/_u.margin';
+@import "utilities/u.margin";
 
 * {
   box-sizing: border-box;
@@ -20,8 +18,8 @@
   }
 
   &__item {
-    @include set-font-scale('04', 's');
-    @include set-font-face('regular');
+    @include set-font-scale("04", "s");
+    @include set-font-face("regular");
 
     flex: 1;
     box-shadow: 0 0 0 1px $color-primary-01-500;

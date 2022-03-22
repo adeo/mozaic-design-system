@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.27.0](https://github.com/adeo/mozaic-design-system/compare/v1.26.1...v1.27.0) (2022-03-16)
+
+
+### Bug Fixes
+
+* **deps/mkdirp:** use fs.mkdir instead of mkdirp ([#1049](https://github.com/adeo/mozaic-design-system/issues/1049)) ([b34e1ba](https://github.com/adeo/mozaic-design-system/commit/b34e1bafd9e2ee33fe4a2c65406bf5f40d866324)), closes [#1050](https://github.com/adeo/mozaic-design-system/issues/1050)
+
+
+
+
+
 # [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
