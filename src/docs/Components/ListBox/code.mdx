@@ -71,17 +71,32 @@ To achieve that you have to add the class `mc-listbox__icon` to your icons.
 
 <Preview path="icons" />
 
-## States 
+### Left opening
+In some cases, you may want to open the listbox in the left side of the trigger. 
+To achieve that you have to add the modifier `mc-listbox--left` to `mc-listbox` element.
+
+
+<Preview path="trigger" />
+
+## Behaviour
 <Highlight theme="warning">
 
-The items states needs to be manage by javascript
+The items states can only be manage by javascript. 
 
 </Highlight>
 
-### Disabled
+### Open 
 
-To disable an item you have to add `is-disabled` modifier to the `mc-listbox__item` element.
+By default the listbox is set to be hidden. To display the listbox, you have to add `is-open` class to `mc-listbox` element.
+
+### Checked 
+
+To checked an item you have to add `is-checked` class to the `mc-listbox__item` element.
 
 ### Focus
 
-To disable an item you have to add `is-focus` modifier to the `mc-listbox__item` element.
+To focus an item you have to add `is-focus` class to the `mc-listbox__item` element.
+
+### Disabled
+
+To disable an item you have to add `is-disabled` class to the `mc-listbox__item` element.
