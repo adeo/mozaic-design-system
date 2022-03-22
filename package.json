@@ -19,7 +19,7 @@
     "node": ">=16"
   },
   "dependencies": {
-    "@mozaic-ds/gatsby-theme-styleguide": "^1.6.0",
+    "@mozaic-ds/gatsby-theme-styleguide": "1.28.0",
     "adm-zip": "^0.5.9",
     "chromedriver": "^99.0.0",
     "core-js": "^3.18.3",
