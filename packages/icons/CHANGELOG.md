@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.28.0](https://github.com/adeo/mozaic-design-system/compare/v1.27.1...v1.28.0) (2022-03-23)
+
+
+### Bug Fixes
+
+* **icons:** fix ts for react icons ([#1071](https://github.com/adeo/mozaic-design-system/issues/1071)) ([6f4bc3a](https://github.com/adeo/mozaic-design-system/commit/6f4bc3a441034732c7a0141c0e6a236697e22abe))
+
+
+### Features
+
+* **foundations/icons:** add oney colour icons ([#1073](https://github.com/adeo/mozaic-design-system/issues/1073)) ([e9bf3eb](https://github.com/adeo/mozaic-design-system/commit/e9bf3eb70585728d6546d73f13715facd9577cee))
+
+
+
+
+
 # [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
 
 
