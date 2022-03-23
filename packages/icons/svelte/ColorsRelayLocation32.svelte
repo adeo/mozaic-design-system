@@ -1,0 +1,10 @@
+<svelte:options tag="store-colors-relaylocation-32px" />
+  <script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "2rem";
+</script>
+
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 3A10.73 10.73 0 005.29 13.73c0 5 7.64 12.88 10 15.2a1 1 0 001.4 0c2.37-2.32 10-10.19 10-15.2A10.73 10.73 0 0016 3zm0 3.76l4.72 2.83-1.8 1.08-4.72-2.85zm-.52 12.3l-4.71-2.83v-5.69l4.67 2.81zm-4.2-9.47l1.89-1.14 4.74 2.85L16 12.43zm10 6.64l-4.71 2.83v-5.69l4.67-2.81z"/></svg>

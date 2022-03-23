@@ -1,0 +1,10 @@
+<svelte:options tag="payment-cards-colors-gift-48px" />
+  <script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "3rem";
+</script>
+
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect x="4" y="10" width="40" height="28" rx="2"/><path d="M42 11a1 1 0 011 1v24a1 1 0 01-1 1H6a1 1 0 01-1-1V12a1 1 0 011-1h36m0-1H6a2 2 0 00-2 2v24a2 2 0 002 2h36a2 2 0 002-2V12a2 2 0 00-2-2z"/><path d="M42 10H16v28h26a2 2 0 002-2V12a2 2 0 00-2-2zM10.92 12.5l3.59 3.59a1 1 0 01-.71 1.7H6.63a1 1 0 01-.71-1.7l3.59-3.59a1 1 0 011.41 0z"/><path d="M42 38H16v-1h26a1 1 0 001-1V12a1 1 0 00-1-1H16v-1h26a2 2 0 012 2v24a2 2 0 01-2 2z"/><path d="M37 20h-.56a3.91 3.91 0 00.56-2 4 4 0 00-7-2.62A4 4 0 0023 18a3.91 3.91 0 00.56 2H23a1 1 0 00-1 1v12a1 1 0 001 1h14a1 1 0 001-1V21a1 1 0 00-1-1zm-8 6h-5v-4h5zm2-4h5v4h-5zm2-6a2 2 0 010 4h-2v-2a2 2 0 012-2zm-8 2a2 2 0 014 0v2h-2a2 2 0 01-2-2zm-1 10h5v4h-5zm7 4v-4h5v4z"/></svg>

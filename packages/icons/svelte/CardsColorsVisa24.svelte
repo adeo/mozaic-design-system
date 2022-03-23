@@ -1,0 +1,10 @@
+<svelte:options tag="payment-cards-colors-visa-24px" />
+  <script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "1.5rem";
+</script>
+
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="1"/><path d="M21 5.5a.5.5 0 01.5.5v12a.5.5 0 01-.5.5H3a.5.5 0 01-.5-.5V6a.5.5 0 01.5-.5h18m0-.5H3a1 1 0 00-1 1v12a1 1 0 001 1h18a1 1 0 001-1V6a1 1 0 00-1-1z"/><rect x="2" y="5" width="20" height="14" rx="1"/><path d="M9.98 14.04l.6-3.57h.98l-.61 3.57h-.97zM14.47 10.56a2.57 2.57 0 00-.87-.15c-1 0-1.64.49-1.64 1.18 0 .51.48.79.85 1s.5.29.5.45-.3.35-.58.35a2.09 2.09 0 01-.91-.19l-.13-.06-.13.8a3.13 3.13 0 001.08.19c1 0 1.68-.48 1.69-1.22 0-.41-.25-.71-.81-1-.34-.16-.55-.27-.55-.44s.18-.31.55-.31a1.83 1.83 0 01.73.14h.09l.13-.77M17 10.48h-.76a.46.46 0 00-.5.29L14.26 14h1l.21-.54h1.24l.12.53h.9L17 10.47m-1.2 2.3l.38-1 .13-.34.07.31.22 1zM9.16 10.48l-.95 2.43-.1-.5a2.8 2.8 0 00-1.34-1.49L7.64 14h1l1.53-3.55h-1"/><path d="M7.33 10.47H5.76v.08a3.2 3.2 0 012.36 1.86l-.34-1.63a.41.41 0 00-.44-.31M2 16v2a1 1 0 001 1h18a1 1 0 001-1v-2zM22 6a1 1 0 00-1-1H3a1 1 0 00-1 1v2h20z"/></svg>

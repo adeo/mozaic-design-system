@@ -49,8 +49,11 @@ module.exports['monochromOptim'] = {
 module.exports['colorOptim'] = {
   custom: (data) =>
     data
-      .replace(/<defs><\/defs>/g, '')
+      .replace(/<style>(.*)<\/style>/g, '')
+      .replace(/<defs>(.*)<\/defs>/g, '')
+      .replace(/class="[a-zA-Z0-9:;\.\s\(\)\-\,]*"/gi, '')
       .replace(/data-name="[a-zA-Z0-9:;\.\s\(\)\-\,\/]*"/gi, '')
+      .replace(/fill="[a-zA-Z0 -9:;\.\s\(\)\-\,]*"/gi, '')
       .replace(/<g id="Square">.*?<\/g>/gi, ''),
 
   svgoPlugins: [
