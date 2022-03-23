@@ -15,13 +15,11 @@ $loader-sizes: (
     "width": $mu400,
   ),
 );
-
 $loader-theme: (
   "dark": $color-grey-900,
   "light": $color-grey-000,
   "primary": $color-primary-01-600,
 );
-
 $animation-duration-loader: 2s;
 $loader-default-size: map-get($loader-sizes, "m");
 $loader-default-theme: map-get($loader-theme, "primary");
@@ -44,7 +42,9 @@ $loader-default-theme: map-get($loader-theme, "primary");
 }
 
 @mixin set-loader-theme($color-loader, $parent) {
+  color: $color-loader;
+
   #{$parent}__path {
-    stroke: $color-loader;
+    stroke: currentColor;
   }
 }
