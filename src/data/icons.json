@@ -66,6 +66,13 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_24px.svg",
+      "iconName": "CardsColorsOneyX4"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "Cards_Colors_Paylib",
       "fileName": "Payment_Cards_Colors_Paylib_24px.svg",
       "iconName": "CardsColorsPaylib"
@@ -160,6 +167,13 @@
       "name": "Cards_Colors_OneyX3",
       "fileName": "Payment_Cards_Colors_OneyX3_32px.svg",
       "iconName": "CardsColorsOneyX3"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_32px.svg",
+      "iconName": "CardsColorsOneyX4"
     },
     {
       "cat": "Payment",
@@ -262,6 +276,13 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_48px.svg",
+      "iconName": "CardsColorsOneyX4"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Colors_Paylib",
       "fileName": "Payment_Cards_Colors_Paylib_48px.svg",
       "iconName": "CardsColorsPaylib"
@@ -356,6 +377,13 @@
       "name": "Cards_Colors_OneyX3",
       "fileName": "Payment_Cards_Colors_OneyX3_64px.svg",
       "iconName": "CardsColorsOneyX3"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_64px.svg",
+      "iconName": "CardsColorsOneyX4"
     },
     {
       "cat": "Payment",
