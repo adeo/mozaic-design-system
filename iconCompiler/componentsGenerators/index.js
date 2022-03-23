@@ -51,6 +51,19 @@ const generateIconComponent = (framework, icons) =>
         if (err) rej(err)
         res(true)
       })
+      if (framework === 'react') {
+        const data = "declare module '@mozaic-ds/icons/react'"
+
+        const writeTypeScriptFile = path.join(
+          process.cwd(),
+          config.outputPaths[framework],
+          'index.d.ts'
+        )
+        fs.writeFile(writeTypeScriptFile, data, 'utf8', (err) => {
+          if (err) rej(err)
+          res(true)
+        })
+      }
     }
   })
 
