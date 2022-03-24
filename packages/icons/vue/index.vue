@@ -47,31 +47,31 @@ export const MIconReduceScreen16 = GenerateIcon('1rem', '0 0 16 16', [
   ]
 ])
 
-export const MIconArrowArrowBottom16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowArrowBottom16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.293 5.293a1 1 0 011.414 0L8 8.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"} },
+    { attrs: {"d":"M3.293 5.293a1 1 0 011.414 0L8 8.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"} },
   ]
 ])
 
-export const MIconArrowArrowLeft16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowArrowLeft16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M10.707 3.293a1 1 0 010 1.414L7.414 8l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"} },
+    { attrs: {"d":"M10.707 3.293a1 1 0 010 1.414L7.414 8l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"} },
   ]
 ])
 
-export const MIconArrowArrowRight16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowArrowRight16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.293 3.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L8.586 8 5.293 4.707a1 1 0 010-1.414z"} },
+    { attrs: {"d":"M5.293 3.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L8.586 8 5.293 4.707a1 1 0 010-1.414z"} },
   ]
 ])
 
-export const MIconArrowArrowTop16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowArrowTop16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.293 5.293a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L8 7.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4z"} },
+    { attrs: {"d":"M7.293 5.293a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L8 7.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4z"} },
   ]
 ])
 
@@ -82,21 +82,21 @@ export const MIconArrowBack16 = GenerateIcon('1rem', '0 0 16 16', [
   ]
 ])
 
-export const MIconArrowDoubleArrowLeft16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowDoubleArrowLeft16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.707 4.707a1 1 0 00-1.414-1.414l-4 4a1 1 0 000 1.414l4 4a1 1 0 001.414-1.414L4.414 8l3.293-3.293zm5 0a1 1 0 00-1.414-1.414l-4 4a1 1 0 000 1.414l4 4a1 1 0 001.414-1.414L9.414 8l3.293-3.293z"} },
+    { attrs: {"d":"M4.707 3.293a1 1 0 00-1.414 1.414L6.586 8l-3.293 3.293a1 1 0 101.414 1.414l4-4a1 1 0 000-1.414l-4-4zm5 0a1 1 0 00-1.414 1.414L11.586 8l-3.293 3.293a1 1 0 101.414 1.414l4-4a1 1 0 000-1.414l-4-4z"} },
   ]
 ])
 
-export const MIconArrowDoubleArrowRight16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowDoubleArrowRight16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4.707 3.293a1 1 0 00-1.414 1.414L6.586 8l-3.293 3.293a1 1 0 101.414 1.414l4-4a1 1 0 000-1.414l-4-4zm5 0a1 1 0 00-1.414 1.414L11.586 8l-3.293 3.293a1 1 0 101.414 1.414l4-4a1 1 0 000-1.414l-4-4z"} },
+    { attrs: {"d":"M7.707 4.707a1 1 0 00-1.414-1.414l-4 4a1 1 0 000 1.414l4 4a1 1 0 001.414-1.414L4.414 8l3.293-3.293zm5 0a1 1 0 00-1.414-1.414l-4 4a1 1 0 000 1.414l4 4a1 1 0 001.414-1.414L9.414 8l3.293-3.293z"} },
   ]
 ])
 
-export const MIconArrowDown16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowDown16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
     { attrs: {"d":"M9 3a1 1 0 00-2 0h2zM8 13l-.707.707a1 1 0 001.414 0L8 13zm3.707-2.293a1 1 0 00-1.414-1.414l1.414 1.414zm-6-1.414a1 1 0 00-1.414 1.414l1.414-1.414zM7 3v10h2V3H7zm1.707 10.707l3-3-1.414-1.414-3 3 1.414 1.414zm0-1.414l-3-3-1.414 1.414 3 3 1.414-1.414z"} },
@@ -110,7 +110,7 @@ export const MIconArrowNext16 = GenerateIcon('1rem', '0 0 16 16', [
   ]
 ])
 
-export const MIconArrowUp16 = GenerateIcon('1rem', 'undefined', [
+export const MIconArrowUp16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
     { attrs: {"d":"M7 13a1 1 0 102 0H7zM8 3l.707-.707a1 1 0 00-1.414 0L8 3zM4.293 5.293a1 1 0 001.414 1.414L4.293 5.293zm6 1.414a1 1 0 101.414-1.414l-1.414 1.414zM9 13V3H7v10h2zM7.293 2.293l-3 3 1.414 1.414 3-3-1.414-1.414zm0 1.414l3 3 1.414-1.414-3-3-1.414 1.414z"} },
@@ -604,31 +604,31 @@ export const MIconView36024 = GenerateIcon('1.5rem', '0 0 24 24', [
   ]
 ])
 
-export const MIconArrowArrowBottom24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowArrowBottom24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4.293 7.793a1 1 0 011.414 0L12 14.086l6.293-6.293a1 1 0 111.414 1.414l-7 7a1 1 0 01-1.414 0l-7-7a1 1 0 010-1.414z"} },
+    { attrs: {"d":"M4.293 7.793a1 1 0 011.414 0L12 14.086l6.293-6.293a1 1 0 111.414 1.414l-7 7a1 1 0 01-1.414 0l-7-7a1 1 0 010-1.414z"} },
   ]
 ])
 
-export const MIconArrowArrowLeft24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowArrowLeft24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M16.207 4.293a1 1 0 010 1.414L9.914 12l6.293 6.293a1 1 0 01-1.414 1.414l-7-7a1 1 0 010-1.414l7-7a1 1 0 011.414 0z"} },
+    { attrs: {"d":"M16.207 4.293a1 1 0 010 1.414L9.914 12l6.293 6.293a1 1 0 01-1.414 1.414l-7-7a1 1 0 010-1.414l7-7a1 1 0 011.414 0z"} },
   ]
 ])
 
-export const MIconArrowArrowRight24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowArrowRight24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.793 4.293a1 1 0 011.414 0l7 7a1 1 0 010 1.414l-7 7a1 1 0 01-1.414-1.414L14.086 12 7.793 5.707a1 1 0 010-1.414z"} },
+    { attrs: {"d":"M7.793 4.293a1 1 0 011.414 0l7 7a1 1 0 010 1.414l-7 7a1 1 0 01-1.414-1.414L14.086 12 7.793 5.707a1 1 0 010-1.414z"} },
   ]
 ])
 
-export const MIconArrowArrowTop24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowArrowTop24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11.293 7.793a1 1 0 011.414 0l7 7a1 1 0 01-1.414 1.414L12 9.914l-6.293 6.293a1 1 0 01-1.414-1.414l7-7z"} },
+    { attrs: {"d":"M11.293 7.793a1 1 0 011.414 0l7 7a1 1 0 01-1.414 1.414L12 9.914l-6.293 6.293a1 1 0 01-1.414-1.414l7-7z"} },
   ]
 ])
 
@@ -642,21 +642,21 @@ export const MIconArrowBack24 = GenerateIcon('1.5rem', '0 0 24 24', [
   ]
 ])
 
-export const MIconArrowDoubleArrowLeft24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowDoubleArrowLeft24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M10.707 5.707a1 1 0 00-1.414-1.414l-7 7a1 1 0 000 1.414l7 7a1 1 0 001.414-1.414L4.414 12l6.293-6.293zm9 0a1 1 0 00-1.414-1.414l-7 7a1 1 0 000 1.414l7 7a1 1 0 001.414-1.414L13.414 12l6.293-6.293z"} },
+    { attrs: {"d":"M5.707 4.293a1 1 0 00-1.414 1.414L10.586 12l-6.293 6.293a1 1 0 101.414 1.414l7-7a1 1 0 000-1.414l-7-7zm9 0a1 1 0 10-1.414 1.414L19.586 12l-6.293 6.293a1 1 0 001.414 1.414l7-7a1 1 0 000-1.414l-7-7z"} },
   ]
 ])
 
-export const MIconArrowDoubleArrowRight24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowDoubleArrowRight24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.707 4.293a1 1 0 00-1.414 1.414L10.586 12l-6.293 6.293a1 1 0 101.414 1.414l7-7a1 1 0 000-1.414l-7-7zm9 0a1 1 0 10-1.414 1.414L19.586 12l-6.293 6.293a1 1 0 001.414 1.414l7-7a1 1 0 000-1.414l-7-7z"} },
+    { attrs: {"d":"M10.707 5.707a1 1 0 00-1.414-1.414l-7 7a1 1 0 000 1.414l7 7a1 1 0 001.414-1.414L4.414 12l6.293-6.293zm9 0a1 1 0 00-1.414-1.414l-7 7a1 1 0 000 1.414l7 7a1 1 0 001.414-1.414L13.414 12l6.293-6.293z"} },
   ]
 ])
 
-export const MIconArrowDown24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowDown24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
     { attrs: {"d":"M13 3a1 1 0 10-2 0h2zm-1 18l-.707.707a1 1 0 001.414 0L12 21zm5.707-4.293a1 1 0 00-1.414-1.414l1.414 1.414zm-10-1.414a1 1 0 00-1.414 1.414l1.414-1.414zM11 3v18h2V3h-2zm1.707 18.707l5-5-1.414-1.414-5 5 1.414 1.414zm0-1.414l-5-5-1.414 1.414 5 5 1.414-1.414z"} },
@@ -673,7 +673,7 @@ export const MIconArrowNext24 = GenerateIcon('1.5rem', '0 0 24 24', [
   ]
 ])
 
-export const MIconArrowUp24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconArrowUp24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
     { attrs: {"d":"M11 21a1 1 0 102 0h-2zm1-18l.707-.707a1 1 0 00-1.414 0L12 3zM6.293 7.293a1 1 0 001.414 1.414L6.293 7.293zm10 1.414a1 1 0 101.414-1.414l-1.414 1.414zM13 21V3h-2v18h2zM11.293 2.293l-5 5 1.414 1.414 5-5-1.414-1.414zm0 1.414l5 5 1.414-1.414-5-5-1.414 1.414z"} },
@@ -926,6 +926,13 @@ export const MIconDisplayMovingBlock24 = GenerateIcon('1.5rem', '0 0 24 24', [
   ],[
     'circle',
     { attrs: {"cx":20.09,"cy":20,"r":2} },
+  ]
+])
+
+export const MIconDisplayOptions24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"d":"M14 6a2 2 0 11-4 0 2 2 0 014 0zm0 6a2 2 0 11-4 0 2 2 0 014 0zm0 6a2 2 0 11-4 0 2 2 0 014 0z"} },
   ]
 ])
 
@@ -1687,10 +1694,10 @@ export const MIconDeliveryDeliveryHome24 = GenerateIcon('1.5rem', '0 0 24 24', [
   ]
 ])
 
-export const MIconDeliveryDeliveryLocker24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconDeliveryDeliveryLocker24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4 4v2h4V4H4zm0 3h4v3H4V7zm0 4h4v3H4v-3zm0 4h4v5H4v-5zm5 0v5h6v-5H9zm7 0v5h4v-5h-4zm0-1v-3h4v3h-4zm0-4h4V7h-4v3zm0-4h4V4h-4v2zm-1-2v10H9V4h6zM3 2a1 1 0 00-1 1v18a1 1 0 001 1h18a1 1 0 001-1V3a1 1 0 00-1-1H3zm8 6h2v2h-2V8zm-1 0a1 1 0 011-1h2a1 1 0 011 1v3a1 1 0 01-1 1h-2a1 1 0 01-1-1V8z"} },
+    { attrs: {"fill-rule":"evenodd","d":"M4 4v2h4V4H4zm0 3h4v3H4V7zm0 4h4v3H4v-3zm0 4h4v5H4v-5zm5 0v5h6v-5H9zm7 0v5h4v-5h-4zm0-1v-3h4v3h-4zm0-4h4V7h-4v3zm0-4h4V4h-4v2zm-1-2v10H9V4h6zM3 2a1 1 0 00-1 1v18a1 1 0 001 1h18a1 1 0 001-1V3a1 1 0 00-1-1H3zm8 6h2v2h-2V8zm-1 0a1 1 0 011-1h2a1 1 0 011 1v3a1 1 0 01-1 1h-2a1 1 0 01-1-1V8z"} },
   ]
 ])
 
@@ -2267,10 +2274,10 @@ export const MIconAccountCustomerPro24 = GenerateIcon('1.5rem', '0 0 24 24', [
   ]
 ])
 
-export const MIconAccountProfileMan24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconAccountProfileMan24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M17.26 14.71l3.92.71a1 1 0 01.82.99V21a1 1 0 01-1 1H3.01a1 1 0 01-1-1v-4.59a1 1 0 01.82-1l3.92-.71.77-1a.5.5 0 01.61-.15L12 15.44l3.88-1.88a.5.5 0 01.61.15l.77 1zm-1.03.3l-.29-.38-3.21 1.57L14 18.12l2.23-3.11zm-8.17-.38l3.21 1.57L10 18.12 7.77 15l.29-.37zM4 17.24V20h16l-.01-2.76-3.66-.66-1.93 2.71a.52.52 0 01-.41.21.53.53 0 01-.41-.22L12 16.9l-1.59 2.38a.53.53 0 01-.41.22.52.52 0 01-.41-.21l-1.93-2.71-3.66.66zM12 14a5 5 0 005-5V7.92c.307-.191.592-.416.85-.67a.5.5 0 10-.7-.71l-.15.14A5.003 5.003 0 007 7v2a5 5 0 005 5zm3-5a3 3 0 11-6 0v-.42a4 4 0 001.76-1.09 5.24 5.24 0 003.41 1.26c.278-.006.556-.033.83-.08V9zm-3-5a3 3 0 013 3v.67a4.27 4.27 0 01-3.93-1.26L10.65 6l-.35.51c-.328.452-.78.8-1.3 1V7a3 3 0 013-3z"} },
+    { attrs: {"fill-rule":"evenodd","d":"M17.26 14.71l3.92.71a1 1 0 01.82.99V21a1 1 0 01-1 1H3.01a1 1 0 01-1-1v-4.59a1 1 0 01.82-1l3.92-.71.77-1a.5.5 0 01.61-.15L12 15.44l3.88-1.88a.5.5 0 01.61.15l.77 1zm-1.03.3l-.29-.38-3.21 1.57L14 18.12l2.23-3.11zm-8.17-.38l3.21 1.57L10 18.12 7.77 15l.29-.37zM4 17.24V20h16l-.01-2.76-3.66-.66-1.93 2.71a.52.52 0 01-.41.21.53.53 0 01-.41-.22L12 16.9l-1.59 2.38a.53.53 0 01-.41.22.52.52 0 01-.41-.21l-1.93-2.71-3.66.66zM12 14a5 5 0 005-5V7.92c.307-.191.592-.416.85-.67a.5.5 0 10-.7-.71l-.15.14A5.003 5.003 0 007 7v2a5 5 0 005 5zm3-5a3 3 0 11-6 0v-.42a4 4 0 001.76-1.09 5.24 5.24 0 003.41 1.26c.278-.006.556-.033.83-.08V9zm-3-5a3 3 0 013 3v.67a4.27 4.27 0 01-3.93-1.26L10.65 6l-.35.51c-.328.452-.78.8-1.3 1V7a3 3 0 013-3z"} },
   ]
 ])
 
@@ -2281,10 +2288,10 @@ export const MIconAccountProfileView24 = GenerateIcon('1.5rem', '0 0 24 24', [
   ]
 ])
 
-export const MIconAccountProfileWoman24 = GenerateIcon('1.5rem', 'undefined', [
+export const MIconAccountProfileWoman24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M21.18 15.42l-1.69-.3c.44-.459.78-1.004 1-1.6l.29-.9-.87-.35a1.68 1.68 0 01-1.06-1.44V8.72a6.81 6.81 0 10-13.62 0v2.11a1.66 1.66 0 01-1.05 1.43l-.9.35.31.91a4.62 4.62 0 001 1.6l-1.69.3a1 1 0 00-.82 1V21a1 1 0 001 1H21a1 1 0 001-1v-4.59a1 1 0 00-.82-.99zM12 4a4.79 4.79 0 014.52 3.16 4.24 4.24 0 01-5.73-.42A.49.49 0 0010 7a2 2 0 01-2.77 1.34A4.76 4.76 0 0112 4zm3 5v.5a3 3 0 11-6 0 .41.41 0 000-.16 3 3 0 001.66-1.4 5.22 5.22 0 003.24 1.14A5.08 5.08 0 0015 9zm-7.81 1.83V9.38c.264.075.536.116.81.12v.44a4.006 4.006 0 108-.44v-.87c.265-.11.52-.243.76-.4.01.163.01.327 0 .49v2.11a3.43 3.43 0 001.37 2.74 2.4 2.4 0 01-1.13.83 2.53 2.53 0 00-.37-.55l-.16-.18a.49.49 0 00-.59-.12L12 15.44l-3.87-1.89a.49.49 0 00-.59.12l-.16.18a2.53 2.53 0 00-.38.55 2.4 2.4 0 01-1.19-.83 3.43 3.43 0 001.38-2.74zm9.12 5c-.044.49-.29.939-.68 1.24a1.74 1.74 0 01-1.38.35 1.77 1.77 0 01-1.2-.77l-.32-.48L16 14.62c.255.36.366.802.31 1.24v-.03zm-5 .34l-.32.48a1.77 1.77 0 01-1.2.77 1.74 1.74 0 01-1.38-.35A1.78 1.78 0 018 14.62l3.31 1.55zM20 20H4v-2.76l2.89-.52a2.71 2.71 0 002.58 1.75h.44a2.8 2.8 0 001.87-1.21l.22-.36.22.33a2.8 2.8 0 001.87 1.21h.44a2.71 2.71 0 002.58-1.75l2.89.52V20z"} },
+    { attrs: {"fill-rule":"evenodd","d":"M21.18 15.42l-1.69-.3c.44-.459.78-1.004 1-1.6l.29-.9-.87-.35a1.68 1.68 0 01-1.06-1.44V8.72a6.81 6.81 0 10-13.62 0v2.11a1.66 1.66 0 01-1.05 1.43l-.9.35.31.91a4.62 4.62 0 001 1.6l-1.69.3a1 1 0 00-.82 1V21a1 1 0 001 1H21a1 1 0 001-1v-4.59a1 1 0 00-.82-.99zM12 4a4.79 4.79 0 014.52 3.16 4.24 4.24 0 01-5.73-.42A.49.49 0 0010 7a2 2 0 01-2.77 1.34A4.76 4.76 0 0112 4zm3 5v.5a3 3 0 11-6 0 .41.41 0 000-.16 3 3 0 001.66-1.4 5.22 5.22 0 003.24 1.14A5.08 5.08 0 0015 9zm-7.81 1.83V9.38c.264.075.536.116.81.12v.44a4.006 4.006 0 108-.44v-.87c.265-.11.52-.243.76-.4.01.163.01.327 0 .49v2.11a3.43 3.43 0 001.37 2.74 2.4 2.4 0 01-1.13.83 2.53 2.53 0 00-.37-.55l-.16-.18a.49.49 0 00-.59-.12L12 15.44l-3.87-1.89a.49.49 0 00-.59.12l-.16.18a2.53 2.53 0 00-.38.55 2.4 2.4 0 01-1.19-.83 3.43 3.43 0 001.38-2.74zm9.12 5c-.044.49-.29.939-.68 1.24a1.74 1.74 0 01-1.38.35 1.77 1.77 0 01-1.2-.77l-.32-.48L16 14.62c.255.36.366.802.31 1.24v-.03zm-5 .34l-.32.48a1.77 1.77 0 01-1.2.77 1.74 1.74 0 01-1.38-.35A1.78 1.78 0 018 14.62l3.31 1.55zM20 20H4v-2.76l2.89-.52a2.71 2.71 0 002.58 1.75h.44a2.8 2.8 0 001.87-1.21l.22-.36.22.33a2.8 2.8 0 001.87 1.21h.44a2.71 2.71 0 002.58-1.75l2.89.52V20z"} },
   ]
 ])
 
@@ -2938,31 +2945,31 @@ export const MIconView36032 = GenerateIcon('2rem', '0 0 32 32', [
   ]
 ])
 
-export const MIconArrowArrowBottom32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowArrowBottom32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.293 10.293a1 1 0 011.414 0L16 19.586l9.293-9.293a1 1 0 111.414 1.414l-10 10a1 1 0 01-1.414 0l-10-10a1 1 0 010-1.414z"} },
+    { attrs: {"d":"M5.293 10.293a1 1 0 011.414 0L16 19.586l9.293-9.293a1 1 0 111.414 1.414l-10 10a1 1 0 01-1.414 0l-10-10a1 1 0 010-1.414z"} },
   ]
 ])
 
-export const MIconArrowArrowLeft32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowArrowLeft32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M21.707 5.293a1 1 0 010 1.414L12.414 16l9.293 9.293a1 1 0 01-1.414 1.414l-10-10a1 1 0 010-1.414l10-10a1 1 0 011.414 0z"} },
+    { attrs: {"d":"M21.707 5.293a1 1 0 010 1.414L12.414 16l9.293 9.293a1 1 0 01-1.414 1.414l-10-10a1 1 0 010-1.414l10-10a1 1 0 011.414 0z"} },
   ]
 ])
 
-export const MIconArrowArrowRight32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowArrowRight32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M10.293 5.293a1 1 0 011.414 0l10 10a1 1 0 010 1.414l-10 10a1 1 0 01-1.414-1.414L19.586 16l-9.293-9.293a1 1 0 010-1.414z"} },
+    { attrs: {"d":"M10.293 5.293a1 1 0 011.414 0l10 10a1 1 0 010 1.414l-10 10a1 1 0 01-1.414-1.414L19.586 16l-9.293-9.293a1 1 0 010-1.414z"} },
   ]
 ])
 
-export const MIconArrowArrowTop32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowArrowTop32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15.293 10.293a1 1 0 011.414 0l10 10a1 1 0 01-1.414 1.414L16 12.414l-9.293 9.293a1 1 0 01-1.414-1.414l10-10z"} },
+    { attrs: {"d":"M15.293 10.293a1 1 0 011.414 0l10 10a1 1 0 01-1.414 1.414L16 12.414l-9.293 9.293a1 1 0 01-1.414-1.414l10-10z"} },
   ]
 ])
 
@@ -2973,21 +2980,21 @@ export const MIconArrowBack32 = GenerateIcon('2rem', '0 0 32 32', [
   ]
 ])
 
-export const MIconArrowDoubleArrowLeft32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowDoubleArrowLeft32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M14.707 6.707a1 1 0 00-1.414-1.414l-10 10a1 1 0 000 1.414l10 10a1 1 0 001.414-1.414L5.414 16l9.293-9.293zm12 0a1 1 0 00-1.414-1.414l-10 10a1 1 0 000 1.414l10 10a1 1 0 001.414-1.414L17.414 16l9.293-9.293z"} },
+    { attrs: {"d":"M6.707 5.293a1 1 0 00-1.414 1.414L14.586 16l-9.293 9.293a1 1 0 101.414 1.414l10-10a1 1 0 000-1.414l-10-10zm12 0a1 1 0 10-1.414 1.414L26.586 16l-9.293 9.293a1 1 0 001.414 1.414l10-10a1 1 0 000-1.414l-10-10z"} },
   ]
 ])
 
-export const MIconArrowDoubleArrowRight32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowDoubleArrowRight32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M6.707 5.293a1 1 0 00-1.414 1.414L14.586 16l-9.293 9.293a1 1 0 101.414 1.414l10-10a1 1 0 000-1.414l-10-10zm12 0a1 1 0 10-1.414 1.414L26.586 16l-9.293 9.293a1 1 0 001.414 1.414l10-10a1 1 0 000-1.414l-10-10z"} },
+    { attrs: {"d":"M14.707 6.707a1 1 0 00-1.414-1.414l-10 10a1 1 0 000 1.414l10 10a1 1 0 001.414-1.414L5.414 16l9.293-9.293zm12 0a1 1 0 00-1.414-1.414l-10 10a1 1 0 000 1.414l10 10a1 1 0 001.414-1.414L17.414 16l9.293-9.293z"} },
   ]
 ])
 
-export const MIconArrowDown32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowDown32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
     { attrs: {"d":"M17 4a1 1 0 10-2 0h2zm-1 24l-.707.707a1 1 0 001.414 0L16 28zm8.707-7.293a1 1 0 00-1.414-1.414l1.414 1.414zm-16-1.414a1 1 0 00-1.414 1.414l1.414-1.414zM15 4v24h2V4h-2zm1.707 24.707l8-8-1.414-1.414-8 8 1.414 1.414zm0-1.414l-8-8-1.414 1.414 8 8 1.414-1.414z"} },
@@ -3001,7 +3008,7 @@ export const MIconArrowNext32 = GenerateIcon('2rem', '0 0 32 32', [
   ]
 ])
 
-export const MIconArrowUp32 = GenerateIcon('2rem', 'undefined', [
+export const MIconArrowUp32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
     { attrs: {"d":"M15 28a1 1 0 102 0h-2zm1-24l.707-.707a1 1 0 00-1.414 0L16 4zm-8.707 7.293a1 1 0 101.414 1.414l-1.414-1.414zm16 1.414a1 1 0 001.414-1.414l-1.414 1.414zM17 28V4h-2v24h2zM15.293 3.293l-8 8 1.414 1.414 8-8-1.414-1.414zm0 1.414l8 8 1.414-1.414-8-8-1.414 1.414z"} },
@@ -3233,6 +3240,13 @@ export const MIconDisplayMovingBlock32 = GenerateIcon('2rem', '0 0 32 32', [
   ],[
     'path',
     { attrs: {"d":"M16 13.5a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5z"} },
+  ]
+])
+
+export const MIconDisplayOptions32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"d":"M18 9a2 2 0 11-4 0 2 2 0 014 0zm0 7a2 2 0 11-4 0 2 2 0 014 0zm-2 9a2 2 0 100-4 2 2 0 000 4z"} },
   ]
 ])
 
@@ -3976,10 +3990,10 @@ export const MIconDeliveryDeliveryHome32 = GenerateIcon('2rem', '0 0 32 32', [
   ]
 ])
 
-export const MIconDeliveryDeliveryLocker32 = GenerateIcon('2rem', 'undefined', [
+export const MIconDeliveryDeliveryLocker32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5 5h5v4H5V5zm6 4V5h10v14H11V9zm10 11H11v7h10v-7zm1 7v-7h5v7h-5zm0-8v-4h5v4h-5zm0-5h5v-4h-5v4zm0-5h5V5h-5v4zm-12 6v4H5v-4h5zm0-5v4H5v-4h5zm0 17v-7H5v7h5zM3 5a2 2 0 012-2h22a2 2 0 012 2v22a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm15 5h-4v4h4v-4zm-4-1a1 1 0 00-1 1v5a1 1 0 001 1h4a1 1 0 001-1v-5a1 1 0 00-1-1h-4z"} },
+    { attrs: {"fill-rule":"evenodd","d":"M5 5h5v4H5V5zm6 4V5h10v14H11V9zm10 11H11v7h10v-7zm1 7v-7h5v7h-5zm0-8v-4h5v4h-5zm0-5h5v-4h-5v4zm0-5h5V5h-5v4zm-12 6v4H5v-4h5zm0-5v4H5v-4h5zm0 17v-7H5v7h5zM3 5a2 2 0 012-2h22a2 2 0 012 2v22a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm15 5h-4v4h4v-4zm-4-1a1 1 0 00-1 1v5a1 1 0 001 1h4a1 1 0 001-1v-5a1 1 0 00-1-1h-4z"} },
   ]
 ])
 
@@ -5257,31 +5271,31 @@ export const MIconView36048 = GenerateIcon('3rem', '0 0 48 48', [
   ]
 ])
 
-export const MIconArrowArrowBottom48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowArrowBottom48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.44 15.19a1.5 1.5 0 012.12 0L24 29.628l14.44-14.44a1.5 1.5 0 012.12 2.122l-15.5 15.5a1.5 1.5 0 01-2.12 0l-15.5-15.5a1.5 1.5 0 010-2.122z"} },
+    { attrs: {"d":"M7.44 15.19a1.5 1.5 0 012.12 0L24 29.628l14.44-14.44a1.5 1.5 0 012.12 2.122l-15.5 15.5a1.5 1.5 0 01-2.12 0l-15.5-15.5a1.5 1.5 0 010-2.122z"} },
   ]
 ])
 
-export const MIconArrowArrowLeft48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowArrowLeft48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M32.81 7.44a1.5 1.5 0 010 2.12L18.372 24l14.44 14.44a1.5 1.5 0 01-2.122 2.12l-15.5-15.5a1.5 1.5 0 010-2.12l15.5-15.5a1.5 1.5 0 012.122 0z"} },
+    { attrs: {"d":"M32.81 7.44a1.5 1.5 0 010 2.12L18.372 24l14.44 14.44a1.5 1.5 0 01-2.122 2.12l-15.5-15.5a1.5 1.5 0 010-2.12l15.5-15.5a1.5 1.5 0 012.122 0z"} },
   ]
 ])
 
-export const MIconArrowArrowRight48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowArrowRight48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15.19 7.44a1.5 1.5 0 012.12 0l15.5 15.5a1.5 1.5 0 010 2.12l-15.5 15.5a1.5 1.5 0 01-2.12-2.12L29.628 24 15.189 9.56a1.5 1.5 0 010-2.12z"} },
+    { attrs: {"d":"M15.19 7.44a1.5 1.5 0 012.12 0l15.5 15.5a1.5 1.5 0 010 2.12l-15.5 15.5a1.5 1.5 0 01-2.12-2.12L29.628 24 15.189 9.56a1.5 1.5 0 010-2.12z"} },
   ]
 ])
 
-export const MIconArrowArrowTop48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowArrowTop48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M22.94 15.19a1.5 1.5 0 012.12 0l15.5 15.5a1.5 1.5 0 01-2.12 2.12L24 18.372 9.56 32.811a1.5 1.5 0 01-2.12-2.122l15.5-15.5z"} },
+    { attrs: {"d":"M22.94 15.19a1.5 1.5 0 012.12 0l15.5 15.5a1.5 1.5 0 01-2.12 2.12L24 18.372 9.56 32.811a1.5 1.5 0 01-2.12-2.122l15.5-15.5z"} },
   ]
 ])
 
@@ -5292,21 +5306,21 @@ export const MIconArrowBack48 = GenerateIcon('3rem', '0 0 48 48', [
   ]
 ])
 
-export const MIconArrowDoubleArrowLeft48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowDoubleArrowLeft48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M22.06 9.56a1.5 1.5 0 00-2.12-2.12l-15.5 15.5a1.5 1.5 0 000 2.12l15.5 15.5a1.5 1.5 0 002.12-2.12L7.622 24l14.44-14.44zm18.5 0a1.5 1.5 0 00-2.12-2.12l-15.5 15.5a1.5 1.5 0 000 2.12l15.5 15.5a1.5 1.5 0 002.12-2.12L26.122 24l14.44-14.44z"} },
+    { attrs: {"d":"M9.56 7.44a1.5 1.5 0 10-2.12 2.12L21.878 24 7.439 38.44a1.5 1.5 0 002.122 2.12l15.5-15.5a1.5 1.5 0 000-2.12L9.56 7.44zm18.5 0a1.5 1.5 0 00-2.12 2.12L40.378 24l-14.44 14.44a1.5 1.5 0 002.122 2.12l15.5-15.5a1.5 1.5 0 000-2.12l-15.5-15.5z"} },
   ]
 ])
 
-export const MIconArrowDoubleArrowRight48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowDoubleArrowRight48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9.56 7.44a1.5 1.5 0 10-2.12 2.12L21.878 24 7.439 38.44a1.5 1.5 0 002.122 2.12l15.5-15.5a1.5 1.5 0 000-2.12L9.56 7.44zm18.5 0a1.5 1.5 0 00-2.12 2.12L40.378 24l-14.44 14.44a1.5 1.5 0 002.122 2.12l15.5-15.5a1.5 1.5 0 000-2.12l-15.5-15.5z"} },
+    { attrs: {"d":"M22.06 9.56a1.5 1.5 0 00-2.12-2.12l-15.5 15.5a1.5 1.5 0 000 2.12l15.5 15.5a1.5 1.5 0 002.12-2.12L7.622 24l14.44-14.44zm18.5 0a1.5 1.5 0 00-2.12-2.12l-15.5 15.5a1.5 1.5 0 000 2.12l15.5 15.5a1.5 1.5 0 002.12-2.12L26.122 24l14.44-14.44z"} },
   ]
 ])
 
-export const MIconArrowDown48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowDown48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
     { attrs: {"d":"M25.5 5.5a1.5 1.5 0 00-3 0h3zm-1.5 37l-1.06 1.06a1.5 1.5 0 002.12 0L24 42.5zm13.56-11.44a1.5 1.5 0 00-2.12-2.12l2.12 2.12zm-25-2.12a1.5 1.5 0 00-2.12 2.12l2.12-2.12zM22.5 5.5v37h3v-37h-3zm2.56 38.06l12.5-12.5-2.12-2.12-12.5 12.5 2.12 2.12zm0-2.12l-12.5-12.5-2.12 2.12 12.5 12.5 2.12-2.12z"} },
@@ -5320,10 +5334,10 @@ export const MIconArrowNext48 = GenerateIcon('3rem', '0 0 48 48', [
   ]
 ])
 
-export const MIconArrowUp48 = GenerateIcon('3rem', 'undefined', [
+export const MIconArrowUp48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M22.94 4.44a1.5 1.5 0 012.12 0l12.5 12.5a1.5 1.5 0 01-2.12 2.12L25.5 9.122V42.5a1.5 1.5 0 01-3 0V9.121l-9.94 9.94a1.5 1.5 0 01-2.12-2.122l12.5-12.5z"} },
+    { attrs: {"d":"M22.94 4.44a1.5 1.5 0 012.12 0l12.5 12.5a1.5 1.5 0 01-2.12 2.12L25.5 9.122V42.5a1.5 1.5 0 01-3 0V9.121l-9.94 9.94a1.5 1.5 0 01-2.12-2.122l12.5-12.5z"} },
   ]
 ])
 
@@ -5552,6 +5566,13 @@ export const MIconDisplayMovingBlock48 = GenerateIcon('3rem', '0 0 48 48', [
   ],[
     'circle',
     { attrs: {"cx":40,"cy":40,"r":4} },
+  ]
+])
+
+export const MIconDisplayOptions48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"d":"M24 16a3 3 0 100-6 3 3 0 000 6zm3 8a3 3 0 11-6 0 3 3 0 016 0zm0 11a3 3 0 11-6 0 3 3 0 016 0z"} },
   ]
 ])
 
@@ -6319,10 +6340,10 @@ export const MIconDeliveryDeliveryHome48 = GenerateIcon('3rem', '0 0 48 48', [
   ]
 ])
 
-export const MIconDeliveryDeliveryLocker48 = GenerateIcon('3rem', 'undefined', [
+export const MIconDeliveryDeliveryLocker48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7 29v-6h8v6H7zm10-6V7h14v22H17v-6zm14 8H17v10h14V31zm2 10V31h8v10h-8zm0 3H6a2 2 0 01-2-2V6a2 2 0 012-2h36a2 2 0 012 2v36a2 2 0 01-2 2h-9zm0-37v6h8V7h-8zm0 8v6h8v-6h-8zm0 8h8v6h-8v-6zm-18-2v-6H7v6h8zm0-14v6H7V7h8zm0 34V31H7v10h8zm12-26h-6v6h6v-6zm-6-2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2v-8a2 2 0 00-2-2h-6z"} },
+    { attrs: {"fill-rule":"evenodd","d":"M7 29v-6h8v6H7zm10-6V7h14v22H17v-6zm14 8H17v10h14V31zm2 10V31h8v10h-8zm0 3H6a2 2 0 01-2-2V6a2 2 0 012-2h36a2 2 0 012 2v36a2 2 0 01-2 2h-9zm0-37v6h8V7h-8zm0 8v6h8v-6h-8zm0 8h8v6h-8v-6zm-18-2v-6H7v6h8zm0-14v6H7V7h8zm0 34V31H7v10h8zm12-26h-6v6h6v-6zm-6-2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2v-8a2 2 0 00-2-2h-6z"} },
   ]
 ])
 
@@ -7612,31 +7633,31 @@ export const MIconView36064 = GenerateIcon('4rem', '0 0 64 64', [
   ]
 ])
 
-export const MIconArrowArrowBottom64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowArrowBottom64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9.44 20.19a1.5 1.5 0 012.12 0L32 40.628l20.44-20.44a1.5 1.5 0 012.12 2.122l-21.5 21.5a1.5 1.5 0 01-2.12 0l-21.5-21.5a1.5 1.5 0 010-2.122z"} },
+    { attrs: {"d":"M9.44 20.19a1.5 1.5 0 012.12 0L32 40.628l20.44-20.44a1.5 1.5 0 012.12 2.122l-21.5 21.5a1.5 1.5 0 01-2.12 0l-21.5-21.5a1.5 1.5 0 010-2.122z"} },
   ]
 ])
 
-export const MIconArrowArrowLeft64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowArrowLeft64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M43.81 9.44a1.5 1.5 0 010 2.12L23.372 32l20.44 20.44a1.5 1.5 0 01-2.122 2.12l-21.5-21.5a1.5 1.5 0 010-2.12l21.5-21.5a1.5 1.5 0 012.122 0z"} },
+    { attrs: {"d":"M43.81 9.44a1.5 1.5 0 010 2.12L23.372 32l20.44 20.44a1.5 1.5 0 01-2.122 2.12l-21.5-21.5a1.5 1.5 0 010-2.12l21.5-21.5a1.5 1.5 0 012.122 0z"} },
   ]
 ])
 
-export const MIconArrowArrowRight64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowArrowRight64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M20.19 9.44a1.5 1.5 0 012.12 0l21.5 21.5a1.5 1.5 0 010 2.12l-21.5 21.5a1.5 1.5 0 01-2.12-2.12L40.628 32l-20.44-20.44a1.5 1.5 0 010-2.12z"} },
+    { attrs: {"d":"M20.19 9.44a1.5 1.5 0 012.12 0l21.5 21.5a1.5 1.5 0 010 2.12l-21.5 21.5a1.5 1.5 0 01-2.12-2.12L40.628 32l-20.44-20.44a1.5 1.5 0 010-2.12z"} },
   ]
 ])
 
-export const MIconArrowArrowTop64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowArrowTop64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M30.94 20.19a1.5 1.5 0 012.12 0l21.5 21.5a1.5 1.5 0 01-2.12 2.12L32 23.372l-20.44 20.44a1.5 1.5 0 01-2.12-2.122l21.5-21.5z"} },
+    { attrs: {"d":"M30.94 20.19a1.5 1.5 0 012.12 0l21.5 21.5a1.5 1.5 0 01-2.12 2.12L32 23.372l-20.44 20.44a1.5 1.5 0 01-2.12-2.122l21.5-21.5z"} },
   ]
 ])
 
@@ -7647,21 +7668,21 @@ export const MIconArrowBack64 = GenerateIcon('4rem', '0 0 64 64', [
   ]
 ])
 
-export const MIconArrowDoubleArrowLeft64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowDoubleArrowLeft64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M29.06 11.56a1.5 1.5 0 00-2.12-2.12l-21.5 21.5a1.5 1.5 0 000 2.12l21.5 21.5a1.5 1.5 0 002.12-2.12L8.622 32l20.44-20.44zm25.5 0a1.5 1.5 0 00-2.12-2.12l-21.5 21.5a1.5 1.5 0 000 2.12l21.5 21.5a1.5 1.5 0 002.12-2.12L34.122 32l20.44-20.44z"} },
+    { attrs: {"d":"M11.56 9.44a1.5 1.5 0 00-2.12 2.12L29.878 32 9.439 52.44a1.5 1.5 0 002.122 2.12l21.5-21.5a1.5 1.5 0 000-2.12l-21.5-21.5zm25.5 0a1.5 1.5 0 00-2.12 2.12L55.378 32l-20.44 20.44a1.5 1.5 0 002.122 2.12l21.5-21.5a1.5 1.5 0 000-2.12l-21.5-21.5z"} },
   ]
 ])
 
-export const MIconArrowDoubleArrowRight64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowDoubleArrowRight64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11.56 9.44a1.5 1.5 0 00-2.12 2.12L29.878 32 9.439 52.44a1.5 1.5 0 002.122 2.12l21.5-21.5a1.5 1.5 0 000-2.12l-21.5-21.5zm25.5 0a1.5 1.5 0 00-2.12 2.12L55.378 32l-20.44 20.44a1.5 1.5 0 002.122 2.12l21.5-21.5a1.5 1.5 0 000-2.12l-21.5-21.5z"} },
+    { attrs: {"d":"M29.06 11.56a1.5 1.5 0 00-2.12-2.12l-21.5 21.5a1.5 1.5 0 000 2.12l21.5 21.5a1.5 1.5 0 002.12-2.12L8.622 32l20.44-20.44zm25.5 0a1.5 1.5 0 00-2.12-2.12l-21.5 21.5a1.5 1.5 0 000 2.12l21.5 21.5a1.5 1.5 0 002.12-2.12L34.122 32l20.44-20.44z"} },
   ]
 ])
 
-export const MIconArrowDown64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowDown64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
     { attrs: {"d":"M33.5 6.5a1.5 1.5 0 00-3 0h3zm-1.5 51l-1.06 1.06a1.5 1.5 0 002.12 0L32 57.5zm18.56-16.44a1.5 1.5 0 00-2.12-2.12l2.12 2.12zm-35-2.12a1.5 1.5 0 00-2.12 2.12l2.12-2.12zM30.5 6.5v51h3v-51h-3zm2.56 52.06l17.5-17.5-2.12-2.12-17.5 17.5 2.12 2.12zm0-2.12l-17.5-17.5-2.12 2.12 17.5 17.5 2.12-2.12z"} },
@@ -7675,7 +7696,7 @@ export const MIconArrowNext64 = GenerateIcon('4rem', '0 0 64 64', [
   ]
 ])
 
-export const MIconArrowUp64 = GenerateIcon('4rem', 'undefined', [
+export const MIconArrowUp64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
     { attrs: {"d":"M30.5 57.5a1.5 1.5 0 003 0h-3zm1.5-51l1.06-1.06a1.5 1.5 0 00-2.12 0L32 6.5zM13.44 22.94a1.5 1.5 0 002.12 2.12l-2.12-2.12zm35 2.12a1.5 1.5 0 002.12-2.12l-2.12 2.12zM33.5 57.5v-51h-3v51h3zM30.94 5.44l-17.5 17.5 2.12 2.12 17.5-17.5-2.12-2.12zm0 2.12l17.5 17.5 2.12-2.12-17.5-17.5-2.12 2.12z"} },
@@ -7904,6 +7925,13 @@ export const MIconDisplayMovingBlock64 = GenerateIcon('4rem', '0 0 64 64', [
   ],[
     'circle',
     { attrs: {"cx":54,"cy":54,"r":5} },
+  ]
+])
+
+export const MIconDisplayOptions64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"d":"M32 21a4 4 0 100-8 4 4 0 000 8zm4 11a4 4 0 11-8 0 4 4 0 018 0zm0 15a4 4 0 11-8 0 4 4 0 018 0z"} },
   ]
 ])
 
@@ -8623,10 +8651,10 @@ export const MIconDeliveryDeliveryHome64 = GenerateIcon('4rem', '0 0 64 64', [
   ]
 ])
 
-export const MIconDeliveryDeliveryLocker64 = GenerateIcon('4rem', 'undefined', [
+export const MIconDeliveryDeliveryLocker64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
-    { attrs: {"fill-rule":"evenodd","clip-rule":"evenodd","d":"M8 39v-9h12v9H8zm12-19v8H8v-8h12zm0-12v10H8V8h12zm2-3H7a2 2 0 00-2 2v50a2 2 0 002 2h50a2 2 0 002-2V7a2 2 0 00-2-2H22zm20 3H22v31h20V8zm0 33H22v15h20V41zm2 15V41h12v15H44zm0-17v-9h12v9H44zm0-11h12v-9H44v9zm0-11h12V8H44v9zM20 56V41H8v15h12zm16-37h-8v8h8v-8zm-8-2a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V19a2 2 0 00-2-2h-8z"} },
+    { attrs: {"fill-rule":"evenodd","d":"M8 39v-9h12v9H8zm12-19v8H8v-8h12zm0-12v10H8V8h12zm2-3H7a2 2 0 00-2 2v50a2 2 0 002 2h50a2 2 0 002-2V7a2 2 0 00-2-2H22zm20 3H22v31h20V8zm0 33H22v15h20V41zm2 15V41h12v15H44zm0-17v-9h12v9H44zm0-11h12v-9H44v9zm0-11h12V8H44v9zM20 56V41H8v15h12zm16-37h-8v8h8v-8zm-8-2a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V19a2 2 0 00-2-2h-8z"} },
   ]
 ])
 

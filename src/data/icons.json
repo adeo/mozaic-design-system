@@ -1233,6 +1233,14 @@
     {
       "cat": "Navigation",
       "size": "24px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_24px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
       "name": "Display_Other",
       "fileName": "Navigation_Display_Other_24px.svg",
       "iconName": "DisplayOther",
@@ -3245,6 +3253,14 @@
       "fileName": "Navigation_Display_MovingBlock_32px.svg",
       "iconName": "DisplayMovingBlock",
       "componentName": "DisplayMovingBlock32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_32px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions32"
     },
     {
       "cat": "Navigation",
@@ -5265,6 +5281,14 @@
     {
       "cat": "Navigation",
       "size": "48px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_48px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
       "name": "Display_Other",
       "fileName": "Navigation_Display_Other_48px.svg",
       "iconName": "DisplayOther",
@@ -7277,6 +7301,14 @@
       "fileName": "Navigation_Display_MovingBlock_64px.svg",
       "iconName": "DisplayMovingBlock",
       "componentName": "DisplayMovingBlock64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_64px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions64"
     },
     {
       "cat": "Navigation",
