@@ -1,0 +1,25 @@
+.mc-dropdown {
+  $parent: get-parent-selector(&);
+
+  &__trigger {
+    @include unstyle-button();
+    @include set-select-size($select-default-size);
+
+    display: flex;
+    width: 18rem;
+    color: $color-grey-900;
+    border: get-border("s") solid $color-grey-600;
+    border-radius: get-border-radius("m");
+    padding-left: $mu075;
+
+    &:disabled {
+      @include add-demo-state-class {
+        border-color: transparent;
+        background-color: $color-grey-100;
+        color: $color-grey-600;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
+    }
+  }
+}

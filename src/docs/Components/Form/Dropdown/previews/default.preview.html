@@ -1,0 +1,43 @@
+<div class="example">
+  <div class="mc-dropdown">
+    <button id="trigger" class="mc-dropdown__trigger">Placeholder</button>
+    <ul
+			id="listbox"
+      tabindex="-1"
+      role="listbox"
+      aria-labelledby="lisbox"
+      class="mc-listbox"
+    >
+      <li class="mc-listbox__item is-focus is-checked" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item is-disabled" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  <!-- scripts -->
+  <script>
+    const action = document.getElementById('trigger')
+
+    action.addEventListener('click', function (e) {
+			const list = document.getElementById('listbox')
+			list.classList.toggle('is-open')
+		})
+
+  </script>
+</div>
