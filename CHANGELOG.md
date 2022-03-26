@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.28.0](https://github.com/adeo/mozaic-design-system/compare/v1.27.1...v1.28.0) (2022-03-23)
+
+
+### Bug Fixes
+
+* **component/loader:** unify the loader text colour & the spinner colour ([#1068](https://github.com/adeo/mozaic-design-system/issues/1068)) ([10c1ccb](https://github.com/adeo/mozaic-design-system/commit/10c1ccbfda81cd77c5d213a7361f459226d83733))
+* **icons:** fix ts for react icons ([#1071](https://github.com/adeo/mozaic-design-system/issues/1071)) ([6f4bc3a](https://github.com/adeo/mozaic-design-system/commit/6f4bc3a441034732c7a0141c0e6a236697e22abe))
+
+
+### Features
+
+* **foundations/icons:** add oney colour icons ([#1073](https://github.com/adeo/mozaic-design-system/issues/1073)) ([e9bf3eb](https://github.com/adeo/mozaic-design-system/commit/e9bf3eb70585728d6546d73f13715facd9577cee))
+* **tools/tokens:** add the new Bricoman preset ([#1072](https://github.com/adeo/mozaic-design-system/issues/1072)) ([8d3d51b](https://github.com/adeo/mozaic-design-system/commit/8d3d51b1bbf2063847d0e88f29549f51c49845f3))
+
+
+
+
+
+## [1.27.1](https://github.com/adeo/mozaic-design-system/compare/v1.27.0...v1.27.1) (2022-03-17)
+
+
+### Bug Fixes
+
+* **tools/stylelint:** turn off some new stylelint rules ([#1067](https://github.com/adeo/mozaic-design-system/issues/1067)) ([ef404a8](https://github.com/adeo/mozaic-design-system/commit/ef404a8c32b4767b0af3c0a4c9a257408a59ef89))
+
+
+
+
+
+# [1.27.0](https://github.com/adeo/mozaic-design-system/compare/v1.26.1...v1.27.0) (2022-03-16)
+
+
+### Bug Fixes
+
+* **deps/mkdirp:** use fs.mkdir instead of mkdirp ([#1049](https://github.com/adeo/mozaic-design-system/issues/1049)) ([b34e1ba](https://github.com/adeo/mozaic-design-system/commit/b34e1bafd9e2ee33fe4a2c65406bf5f40d866324)), closes [#1050](https://github.com/adeo/mozaic-design-system/issues/1050)
+* **tools/stylelint:** turn of the rule max-line-length ([#1058](https://github.com/adeo/mozaic-design-system/issues/1058)) ([66988c9](https://github.com/adeo/mozaic-design-system/commit/66988c95739af023043a2ef28ddddcf0b190b806))
+
+
+### Features
+
+* **component/loader:** add the new Loader component ([#1060](https://github.com/adeo/mozaic-design-system/issues/1060)) ([bb0a3d2](https://github.com/adeo/mozaic-design-system/commit/bb0a3d2ad694b24ec70f2cd1688b936f2854885e))
+* **components/layer:** update content paddings values ([#1063](https://github.com/adeo/mozaic-design-system/issues/1063)) ([84084d7](https://github.com/adeo/mozaic-design-system/commit/84084d70602484275892606c052540303ebc4c1b)), closes [#978](https://github.com/adeo/mozaic-design-system/issues/978)
+* **components/modal:** update paddings values + add a divider on the header ([#921](https://github.com/adeo/mozaic-design-system/issues/921)) ([109afa4](https://github.com/adeo/mozaic-design-system/commit/109afa4aa5a4bee12daa5a29647b7e86bf208c6d))
+
+
+
+
+
 ## [1.26.1](https://github.com/adeo/mozaic-design-system/compare/v1.26.0...v1.26.1) (2022-03-02)
 
 

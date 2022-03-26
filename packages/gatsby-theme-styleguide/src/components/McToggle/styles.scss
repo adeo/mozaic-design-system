@@ -1,8 +1,8 @@
-@import 'settings-tools/_all-settings';
+@import "settings-tools/all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.toggle';
+@import "components/c.toggle";
 
 .mc-toggle {
   @include set-font-family();
