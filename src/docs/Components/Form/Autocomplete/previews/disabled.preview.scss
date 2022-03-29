@@ -10,7 +10,7 @@
 .example {
   @include set-font-face();
 
-  height: 250px;
+  height: 150px;
   margin: $mu200 0;
   padding: 0 $mu200;
   display: flex;

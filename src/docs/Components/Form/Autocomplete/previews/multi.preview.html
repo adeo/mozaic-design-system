@@ -1,6 +1,6 @@
 <div class="example">
   <div class="mc-autocomplete mc-autocomplete--multi">
-    <span class="mc-autocomplete__tag mc-tag-removable mc-tag-removable--s">
+    <span class="mc-autocomplete__tag mc-tag-removable mc-tag-text--dark mc-tag-removable--s">
       <span class="mc-tag-removable__label">
         1
       </span>
@@ -22,6 +22,9 @@
         id="trigger"
         placeholder="Placeholder"
         name="withIcon"
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-expanded="false"
       />
     </div>
       <ul
@@ -29,6 +32,7 @@
     role="listbox"
     aria-labelledby="listbox"
     class="mc-listbox mc-listbox--multi is-open"
+    aria-label="Options"
   >
     <li class="mc-listbox__item">
       <svg class="mc-listbox__icon">

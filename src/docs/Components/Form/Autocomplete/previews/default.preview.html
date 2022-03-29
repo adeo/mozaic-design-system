@@ -10,6 +10,9 @@
         id="trigger"
         placeholder="Placeholder"
         name="withIcon"
+        autocomplete="off"
+        aria-autocomplete="list"
+        aria-expanded="false"
       />
     </div>
     <ul
@@ -18,8 +21,9 @@
       role="listbox"
       aria-labelledby="lisbox"
       class="mc-listbox"
+      aria-label="Options"
     >
-      <li class="mc-listbox__item is-focus is-checked" role="option">
+      <li class="mc-listbox__item is-focus is-checked" role="option" aria-selected="true">
         <span class="mc-listbox__label">Option label</span>
       </li>
       <li class="mc-listbox__item is-disabled" role="option">

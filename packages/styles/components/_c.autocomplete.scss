@@ -26,8 +26,10 @@
   }
 
   &--multi {
-    &__trigger {
-      padding-left: 6.375rem !important;
+    #{$parent} {
+      &__trigger {
+        padding-left: 6.375rem;
+      }
     }
   }
 }
