@@ -1,9 +1,24 @@
 <div class="example">
-  <ul
+  <div class="mc-dropdown mc-dropdown--multi">
+      <span class="mc-dropdown__tag mc-tag-removable mc-tag-removable--s">
+      <span class="mc-tag-removable__label">
+        1
+      </span>
+      <button
+        class="mc-tag-removable__remove"
+      >
+        <span class="mc-tag-removable__remove-text">
+          Delete tag
+        </span>
+      </button>
+    </span>
+    <button id="trigger" class="mc-dropdown__trigger">Placeholder</button>
+    <ul
+    id="listbox"
     tabindex="-1"
     role="listbox"
     aria-labelledby="listbox"
-    class="mc-listbox mc-listbox--multi is-open is-focus"
+    class="mc-listbox mc-listbox--multi is-focus"
   >
     <li class="mc-listbox__item">
       <svg class="mc-listbox__icon">
@@ -79,8 +94,7 @@
       />
     </li>
   </ul>
-
-  <svg
+    <svg
     width="32px"
     height="32px"
     viewBox="0 0 32 32"
@@ -100,4 +114,17 @@
       <path d="M28.19 20.03H4.009v.779h24.183v-.78Z" fill="#A6A696" />
     </symbol>
   </svg>
+  </div>
+</div>
+
+  <!-- scripts -->
+  <script>
+    const action = document.getElementById('trigger')
+
+    action.addEventListener('click', function (e) {
+			const list = document.getElementById('listbox')
+			list.classList.toggle('is-open')
+		})
+
+  </script>
 </div>

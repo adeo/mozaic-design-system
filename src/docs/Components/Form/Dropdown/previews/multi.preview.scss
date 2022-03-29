@@ -1,0 +1,15 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.tag";
+@import "components/c.listbox";
+@import "components/c.dropdown";
+
+.example {
+  @include set-font-face();
+
+  height: 250px;
+  margin: $mu200 0;
+  padding: 0 $mu200;
+  display: flex;
+  justify-content: center;
+}
