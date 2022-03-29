@@ -2,6 +2,7 @@
   $parent: get-parent-selector(&);
 
   @include unstyle-list();
+
   position: absolute;
   border: 1px solid $color-grey-600;
   margin-top: 5px;
@@ -20,6 +21,10 @@
     visibility: visible;
   }
 
+  &.is-focus {
+    @include set-shadow-focus();
+  }
+
   &::-webkit-scrollbar {
     background-color: $color-grey-100;
     width: $mu025;
@@ -30,14 +35,6 @@
   }
 
   &__item {
-    @include set-focus-floating-base() {
-      border-radius: 0;
-      top: $mu025;
-      right: $mu025;
-      bottom: $mu025;
-      left: $mu025;
-    }
-
     display: flex;
     align-items: center;
     gap: $mu075;
@@ -69,16 +66,18 @@
   .is-checked {
     pointer-events: none;
     background-size: $mu150;
-    background-image: url(inline-icons(
-      "notification-available-24",
-      $color-grey-900
-    ));
+    background-image: url(
+      inline-icons(
+        "notification-available-24",
+        $color-grey-900
+      ));
     background-repeat: no-repeat;
     background-position: right $mu075 center;
   }
 
   .is-focus {
-    @include set-focus-floating();
+    background-color: $color-grey-100;
+    box-shadow: inset 9px 0 0 -7px $color-grey-900;
   }
 
   .is-disabled {
@@ -95,6 +94,10 @@
 
   &--multi {
     #{$parent} {
+      &__item {
+        position: relative;
+      }
+
       &__input {
         @include reset-input;
         @include set-checkbox-input;
@@ -113,7 +116,7 @@
         align-items: center;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           inset: 0;
           z-index: 1;
