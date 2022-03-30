@@ -1,7 +1,7 @@
 ---
 title: 'Listbox'
 order: 1
-description: 'The listbox component allows confronting some options and can be triggered through a button, a datatable actions. The content of each option button must be easily readable to help the user make a choice'
+description: 'The definition will be added soon.'
 links:
 
 status:
@@ -9,20 +9,36 @@ status:
   scss: 'beta'
 ---
 
-> The listbox component allows confronting some options and can be triggered through a button, a datatable actions. The content of each option button must be easily readable to help the user make a choice (WIP)
+> The definition will be added soon.
 
-<Preview path="default" />
+<Highlight theme="warning" title="Work in progress">
+  Please, note that the ListBox is a beta component and it will be improved
+  through the following sprints.
+</Highlight>
 
 ## Variations
 
-### Single select 
+### Single select
 
-<Preview path="default" />
+<Preview path="default" nude />
 
-### Multi select
+### Multi-select
 
-<Preview path="multiselect" />
+<Preview path="multiselect" nude />
 
-### With icons
+### Data Content
 
-<Preview path="icons" />
+The Listbox allows to display several types of data.
+
+| Data           | Preview                        |
+| -------------- | ------------------------------ |
+| Text only      | <Preview path="default" nude />|
+| Text with icon | <Preview path="actions" nude />  |
+| Text with image (logo, picture) | <Preview path="icons" nude />  |
+| Text with flag | -- coming soon --              |
+
+## Behaviours
+
+A listbox can't be used alone. It always must be triggered by an element like an input, a button or an icon.
+
+## Do's and Don'ts
