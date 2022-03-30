@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.29.0](https://github.com/adeo/mozaic-design-system/compare/v1.28.0...v1.29.0) (2022-03-30)
+
+
+### Features
+
+* **autocomplete:** add autocomplete component ([#1080](https://github.com/adeo/mozaic-design-system/issues/1080)) ([4e99f1a](https://github.com/adeo/mozaic-design-system/commit/4e99f1a227e39077cee7b133eafaafc2a7340100))
+* **dropdown:** add dropdown ([#1078](https://github.com/adeo/mozaic-design-system/issues/1078)) ([d900e69](https://github.com/adeo/mozaic-design-system/commit/d900e69a837713bea20edd3572c8867d33d07c8a))
+* **foundations/icons:** update icon set ([#1069](https://github.com/adeo/mozaic-design-system/issues/1069)) ([95065d8](https://github.com/adeo/mozaic-design-system/commit/95065d81a333cea0be60d16c1c74c041bb03b24c))
+* **generic/cssreset:** add hidden attr & .visually-hidden helpers ([#1081](https://github.com/adeo/mozaic-design-system/issues/1081)) ([af0e3a0](https://github.com/adeo/mozaic-design-system/commit/af0e3a051ae7ffebdff6e79b3ee6610802220612))
+* **listbox:** add listbox component ([#1061](https://github.com/adeo/mozaic-design-system/issues/1061)) ([9eb36df](https://github.com/adeo/mozaic-design-system/commit/9eb36dfde80469d05513783b05bfe12cda44cd1c))
+
+
+
+
+
 # [1.28.0](https://github.com/adeo/mozaic-design-system/compare/v1.27.1...v1.28.0) (2022-03-23)
 
 
