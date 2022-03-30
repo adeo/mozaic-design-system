@@ -1,0 +1,35 @@
+.mc-autocomplete {
+  $parent: get-parent-selector(&);
+
+  position: relative;
+
+  &__trigger {
+    width: 18rem;
+
+    &:disabled {
+      @include add-demo-state-class {
+        border-color: transparent;
+        background-color: $color-grey-100;
+        color: $color-grey-600;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
+    }
+  }
+
+  &__tag {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 2.75rem;
+    transform: translateY(-50%);
+  }
+
+  &--multi {
+    #{$parent} {
+      &__trigger {
+        padding-left: 6.375rem;
+      }
+    }
+  }
+}
