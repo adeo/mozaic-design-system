@@ -150,7 +150,6 @@ export default PatternPage
 export const query = graphql`
   query MDXQuery($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
-      id
       body
       tableOfContents
       fields {
@@ -159,12 +158,10 @@ export const query = graphql`
           name
           base
           relativePath
-          extension
         }
       }
       frontmatter {
         title
-        order
       }
     }
     allMdx(sort: { fields: [frontmatter___order], order: DESC }) {
@@ -206,10 +203,8 @@ export const query = graphql`
               name
               base
               relativePath
-              extension
             }
           }
-          excerpt
         }
       }
     }

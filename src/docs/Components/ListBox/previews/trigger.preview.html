@@ -1,0 +1,78 @@
+<div class="example">
+  <div class="example-default">
+    <button id="default" type="button" class="mc-button">
+      <svg class="mc-button__icon">
+        <use xlink:href="#icon" />
+      </svg>
+    </button>
+    <ul
+      tabindex="-1"
+      role="listbox"
+      aria-labelledby="lisbox"
+      class="mc-listbox"
+      id="listbox"
+    >
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item is-disabled" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="example-left">
+    <button id="left" type="button" class="mc-button button-example">
+      <svg class="mc-button__icon">
+        <use xlink:href="#icon" />
+      </svg>
+    </button>
+    <ul
+      tabindex="-1"
+      role="listbox"
+      aria-labelledby="lisbox"
+      class="mc-listbox mc-listbox--left"
+      id="listbox-left"
+    >
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item is-disabled" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+    </ul>
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <symbol id="icon" viewBox="0 0 24 24">
+      <path
+        d="M17.13 16.57H8a1 1 0 0 1-1-.74L4.39 6H3a1 1 0 0 1 0-2h2.15a1 1 0 0 1 1 .74l.53 2H20A1 1 0 0 1 20.94 8l-2.87 7.87a1 1 0 0 1-.94.7zm-8.34-2h7.64l2.14-5.87H7.2z"
+      />
+      <circle cx="9.46" cy="19.85" r="2.15" />
+      <circle cx="15.69" cy="19.85" r="2.15" />
+    </symbol>
+  </svg>
+</div>
+
+<!-- script-->
+
+<script>
+  const button = document.getElementById('default')
+  const buttonLeft = document.getElementById('left')
+
+  button.addEventListener('click', function (e) {
+    const list = document.getElementById('listbox')
+    list.classList.toggle('is-open')
+  })
+
+  buttonLeft.addEventListener('click', function (e) {
+    const list = document.getElementById('listbox-left')
+    list.classList.toggle('is-open')
+  })
+</script>

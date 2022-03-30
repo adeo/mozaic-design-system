@@ -1,0 +1,126 @@
+.mc-listbox {
+  $parent: get-parent-selector(&);
+
+  @include unstyle-list();
+
+  position: absolute;
+  border: 1px solid $color-grey-600;
+  margin-top: 5px;
+  overflow-y: auto;
+  border-radius: 3px;
+  max-height: 13.5rem;
+  margin-bottom: 0;
+  min-width: 18rem;
+  background-color: $color-grey-000;
+  opacity: 0;
+  visibility: hidden;
+
+  &.is-open {
+    z-index: 11;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.is-focus {
+    @include set-shadow-focus();
+  }
+
+  &::-webkit-scrollbar {
+    background-color: $color-grey-100;
+    width: $mu025;
+
+    &-thumb {
+      background: $color-grey-600;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: $mu075;
+    padding-left: $mu075;
+    min-height: $mu300;
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-grey-300;
+    }
+
+    &:hover {
+      background-color: $color-grey-100;
+      box-shadow: inset 9px 0 0 -7px $color-grey-900;
+      cursor: pointer;
+    }
+  }
+
+  &__icon {
+    width: $mu200;
+    height: $mu200;
+  }
+
+  &__empty {
+    align-items: center;
+    border: 1px solid $color-grey-600;
+    border-radius: get-border-radius("m");
+    padding: $mu100 $mu050;
+  }
+
+  .is-checked {
+    background-size: $mu150;
+    background-image: url(
+      inline-icons(
+        "notification-available-24",
+        $color-grey-900
+      ));
+    background-repeat: no-repeat;
+    background-position: right $mu075 center;
+  }
+
+  .is-focus {
+    background-color: $color-grey-100;
+    box-shadow: inset 9px 0 0 -7px $color-grey-900;
+  }
+
+  .is-disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+    background-color: $color-grey-200;
+    color: $color-grey-600;
+    pointer-events: none;
+  }
+
+  &--left {
+    transform: translateX(-75%);
+  }
+
+  &--multi {
+    #{$parent} {
+      &__item {
+        position: relative;
+      }
+
+      &__input {
+        @include reset-input;
+        @include set-checkbox-input;
+        @include set-checkbox-checked;
+
+        border-color: $color-input-border;
+        position: absolute;
+        right: $mu100;
+        z-index: 2;
+      }
+
+      &__label {
+        cursor: pointer;
+        align-self: stretch;
+        display: inline-flex;
+        align-items: center;
+
+        &::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}

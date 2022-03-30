@@ -88,7 +88,7 @@ ul {
 q {
   &::after,
   &::before {
-    content: '';
+    content: "";
     content: none;
   }
 }
@@ -112,3 +112,6 @@ textarea {
   padding: 0;
 }
 
+[hidden] {
+  display: none !important;
+}
