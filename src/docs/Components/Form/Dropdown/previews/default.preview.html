@@ -1,6 +1,6 @@
 <div class="example">
   <div class="mc-dropdown">
-    <button id="trigger" class="mc-dropdown__trigger">Placeholder</button>
+    <button type="button" id="trigger" class="mc-dropdown__trigger" aria-haspopup="listbox" title="Dropdown menu options" aria-expanded="false">Placeholder</button>
     <ul
 			id="listbox"
       tabindex="-1"
@@ -8,10 +8,10 @@
       aria-labelledby="lisbox"
       class="mc-listbox"
     >
-      <li class="mc-listbox__item is-focus is-checked" role="option">
+      <li class="mc-listbox__item is-checked" role="option">
         <span class="mc-listbox__label">Option label</span>
       </li>
-      <li class="mc-listbox__item is-disabled" role="option">
+      <li class="mc-listbox__item" role="option">
         <span class="mc-listbox__label">Option label</span>
       </li>
       <li class="mc-listbox__item" role="option">

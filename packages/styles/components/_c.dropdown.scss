@@ -6,6 +6,7 @@
   &__trigger {
     @include unstyle-button();
     @include set-select-size($select-default-size);
+    @include set-font-face();
 
     display: flex;
     width: 18rem;
@@ -25,17 +26,19 @@
     }
   }
 
-  &--multi {
-    &__trigger {
-      padding-left: 6.375rem !important;
-    }
+  &__tag {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: $mu075;
+    transform: translateY(-50%);
+  }
 
-    &__tag {
-      position: absolute;
-      z-index: 2;
-      top: 50%;
-      left: 2.75rem;
-      transform: translateY(-50%);
+  &--multi {
+    #{$parent} {
+      &__trigger {
+        padding-left: 4.375rem;
+      }
     }
   }
 }
