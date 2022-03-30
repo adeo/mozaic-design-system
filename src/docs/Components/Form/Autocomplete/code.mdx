@@ -1,0 +1,76 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import the settings and the autocomplete `scss` files.
+
+```scss
+@import 'settings-tools/all-settings';
+
+@import "components/c.left-icon-input";
+@import "components/c.text-input";
+@import "components/c.tag";
+@import 'components/c.listbox';
+@import 'components/c.autocomplete';
+```
+
+## Usage
+
+The creation of an autocomplete component in your code is done using the following HTML structure:
+
+```HTML
+<div class="mc-autocomplete">
+  <div class="mc-left-icon-input">
+    <svg class="mc-left-icon-input__icon">
+      <use xlink:href="#iconS" />
+    </svg>
+    <input
+      type="search"
+      class="mc-autocomplete__trigger mc-left-icon-input__input mc-text-input"
+      id="trigger"
+      placeholder="Placeholder"
+      name="withIcon"
+      autocomplete="off"
+      aria-autocomplete="list"
+      aria-expanded="false"
+    />
+  </div>
+  <ul
+    id="listbox"
+    tabindex="-1"
+    role="listbox"
+    aria-labelledby="lisbox"
+    class="mc-listbox"
+    aria-label="Options"
+  >
+    <li class="mc-listbox__item" role="option" aria-selected="false">
+      <span class="mc-listbox__label">Option label</span>
+    </li>
+    ...
+  </ul>
+</div>
+```
+
+### Single select
+<Preview path="default" />
+
+### Multi select
+
+<Preview path="multi" />
+
+## Behaviour
+
+<Highlight theme="warning">
+
+The autocomplete navigation has to be done using javascript. 
+
+</Highlight>
+
+### Disabled
+
+To disable the autocomplete component you have to add `disabled` attribut to the `mc-listbox__trigger` element.
+
+<Preview path="disabled" />

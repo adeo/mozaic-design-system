@@ -1,0 +1,61 @@
+---
+title: 'Code'
+order: 2
+---
+
+## Import
+
+Import the settings and the dropdown `scss` files.
+
+```scss
+@import 'settings-tools/all-settings';
+
+@import 'components/c.listbox';
+@import 'components/c.dropdown';
+```
+
+## Usage
+
+The creation of a dropdown component in your code is done using the following HTML structure:
+
+```HTML
+<div class="mc-dropdown">
+    <button 
+      type="button" 
+      id="trigger" 
+      class="mc-dropdown__trigger" 
+      aria-haspopup="listbox" 
+      title="Dropdown menu options" 
+      aria-expanded="false"
+    >
+      Placeholder
+    </button>
+    <ul
+      tabindex="-1"
+      role="listbox"
+      aria-labelledby="lisbox"
+      class="mc-listbox"
+    >
+      <li class="mc-listbox__item" role="option">
+        <span class="mc-listbox__label">Option label</span>
+      </li>
+      ...
+    </ul>
+  </div>
+```
+
+### Single select
+
+<Preview path="default" />
+
+### Multi select
+
+<Preview path="multi" />
+
+## Behaviour
+
+### Disabled
+
+To disable an item you have to add `disabled` attribut to the `mc-dropdown__trigger` element.
+
+<Preview path="disabled" />
