@@ -164,9 +164,6 @@ export default class IconTile extends Component {
 
   render() {
     const Icon = icons[this.state.allIcon[this.state.currentSize].component]
-    if (Icon === undefined) {
-      console.log(icons)  
-    }
 
     return (
       <IconDetail>
