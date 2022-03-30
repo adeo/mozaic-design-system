@@ -5,7 +5,7 @@
 @import "components/c.dropdown";
 
 .example {
-  @include set-font-face();
+  @include set-font-family();
 
   height: 250px;
   margin: $mu200 0;

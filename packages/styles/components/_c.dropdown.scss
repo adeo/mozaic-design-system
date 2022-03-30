@@ -6,6 +6,7 @@
   &__trigger {
     @include unstyle-button();
     @include set-select-size($select-default-size);
+    @include set-font-face();
 
     display: flex;
     width: 18rem;
