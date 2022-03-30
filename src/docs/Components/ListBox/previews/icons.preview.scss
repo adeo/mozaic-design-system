@@ -5,6 +5,8 @@
 .example {
   @include set-font-family();
 
+  display: flex;
+  justify-content: center;
   min-height: 300px;
   padding: 1rem;
 }
