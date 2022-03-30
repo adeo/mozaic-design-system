@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:none;}.cls-2{fill:#999;}</style></defs><title>Navigation_Arrow_Arrow--Left_48px</title><g id="Square"><rect class="cls-1" width="48" height="48"/></g><g id="Icon"><path class="cls-2" d="M35.5,42.5A1.5,1.5,0,0,0,35,41.4L16.21,24,35,6.6a1.5,1.5,0,1,0-2-2.2L13,22.86A1.48,1.48,0,0,0,12.5,24h0a1.49,1.49,0,0,0,.48,1.1L33,43.6a1.5,1.5,0,0,0,2.12-.08A1.48,1.48,0,0,0,35.5,42.5Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g id="Square"> </g>
+  <path d="M32.81 7.44a1.5 1.5 0 010 2.12L18.372 24l14.44 14.44a1.5 1.5 0 01-2.122 2.12l-15.5-15.5a1.5 1.5 0 010-2.12l15.5-15.5a1.5 1.5 0 012.122 0z"/>
+</svg>

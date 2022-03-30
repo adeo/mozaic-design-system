@@ -14,7 +14,7 @@ const iconModule = ({ fileName, data }) => {
   const viewBox = parsedSVG.children[0].properties.viewBox
   const content = parsedSVG.children[0].children
 
-  if (!size || !viewBox || !content || content.length === 0) {
+  if (!size || !content || content.length === 0) {
     console.error(
       `✗ ERROR : there was a problem building ${fileName} for vueJS`
     )
