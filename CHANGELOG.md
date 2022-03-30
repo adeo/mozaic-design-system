@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.28.0](https://github.com/adeo/mozaic-design-system/compare/v1.27.1...v1.28.0) (2022-03-23)
+
+
+### Bug Fixes
+
+* **component/loader:** unify the loader text colour & the spinner colour ([#1068](https://github.com/adeo/mozaic-design-system/issues/1068)) ([10c1ccb](https://github.com/adeo/mozaic-design-system/commit/10c1ccbfda81cd77c5d213a7361f459226d83733))
+* **icons:** fix ts for react icons ([#1071](https://github.com/adeo/mozaic-design-system/issues/1071)) ([6f4bc3a](https://github.com/adeo/mozaic-design-system/commit/6f4bc3a441034732c7a0141c0e6a236697e22abe))
+
+
+### Features
+
+* **foundations/icons:** add oney colour icons ([#1073](https://github.com/adeo/mozaic-design-system/issues/1073)) ([e9bf3eb](https://github.com/adeo/mozaic-design-system/commit/e9bf3eb70585728d6546d73f13715facd9577cee))
+* **tools/tokens:** add the new Bricoman preset ([#1072](https://github.com/adeo/mozaic-design-system/issues/1072)) ([8d3d51b](https://github.com/adeo/mozaic-design-system/commit/8d3d51b1bbf2063847d0e88f29549f51c49845f3))
+
+
+
+
+
 ## [1.27.1](https://github.com/adeo/mozaic-design-system/compare/v1.27.0...v1.27.1) (2022-03-17)
 
 

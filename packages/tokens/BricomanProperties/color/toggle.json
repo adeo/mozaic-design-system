@@ -1,0 +1,16 @@
+{
+  "color": {
+    "toggle": {
+      "off": {
+        "background": {
+          "value": "{color.grey.500.value}"
+        }
+      },
+      "on": {
+        "background": {
+          "value": "{color.primary-02.600.value}"
+        }
+      }
+    }
+  }
+}

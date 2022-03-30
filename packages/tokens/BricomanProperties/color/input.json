@@ -1,0 +1,31 @@
+{
+  "color": {
+    "input": {
+      "text": {
+        "value": "{color.grey.800.value}"
+      },
+      "border": {
+        "value": "{color.grey.500.value}"
+      },
+      "placeholder": {
+        "value": "{color.grey.500.value}"
+      },
+      "background": {
+        "value": "{color.grey.000.value}"
+      },
+      "checked": {
+        "border": {
+          "value": "{color.primary-02.600.value}"
+        },
+        "background": {
+          "value": "{color.primary-02.600.value}"
+        },
+        "hover": {
+          "border": {
+            "value": "{color.primary-02.600.value}"
+          }
+        }
+      }
+    }
+  }
+}

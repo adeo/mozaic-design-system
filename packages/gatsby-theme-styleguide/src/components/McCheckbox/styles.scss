@@ -1,8 +1,8 @@
-@import 'settings-tools/_all-settings';
+@import "settings-tools/all-settings";
 
 @include import-font-families();
 
-@import 'components/_c.checkbox';
+@import "components/c.checkbox";
 
 .mc-checkbox {
   @include set-font-family();
