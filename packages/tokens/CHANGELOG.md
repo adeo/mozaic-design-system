@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.29.0](https://github.com/adeo/mozaic-design-system/compare/v1.28.0...v1.29.0) (2022-03-30)
+
+
+### Features
+
+* **tools/tokens:** update of ADEO colours for buttons, flags & links ([#1082](https://github.com/adeo/mozaic-design-system/issues/1082)) ([db839ce](https://github.com/adeo/mozaic-design-system/commit/db839cee656dff7d6d45afd76001c3538ecfe708))
+
+
+
+
+
 # [1.28.0](https://github.com/adeo/mozaic-design-system/compare/v1.27.1...v1.28.0) (2022-03-23)
 
 

@@ -45,7 +45,7 @@ const vueIconComponent = ({ fileName, data }) => {
 
   const content = parsedSVG.children[0].children
 
-  if (!size || !viewBox || !content || content.length === 0) {
+  if (!size || !content || !viewBox || content.length === 0) {
     console.error(
       `✗ ERROR : there was a problem building ${fileName} for vueJS`
     )

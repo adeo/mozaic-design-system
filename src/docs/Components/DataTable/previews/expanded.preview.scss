@@ -10,6 +10,7 @@
 @import "components/c.pagination";
 @import "components/c.tag";
 @import "components/c.toggle";
+@import "components/c.listbox";
 @import "components/c.datatable"; // mandatory
 @import "components/c.datatable-tools"; // mandatory
 @import "components/c.datatable-subtable"; // import when using the DataTable with Expand
@@ -21,4 +22,9 @@ body {
 
 .example {
   padding: $mu125;
+}
+
+.size {
+  min-width: 10rem;
+  width: 10rem;
 }
