@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v2.0.0-rc.1) (2022-03-31)
+
+
+### Features
+
+* **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([590f3af](https://github.com/adeo/mozaic-design-system/commit/590f3af0506ad8c009725043225abda5b87a6e6f))
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([4691c6a](https://github.com/adeo/mozaic-design-system/commit/4691c6a9fcf3d74366ba075d5f7724fa7198bdc2))
+
+
+
+
+
 # [1.68.0](https://github.com/adeo/mozaic-design-system/compare/v1.67.0...v1.68.0) (2023-12-11)
 
 ### Bug Fixes
