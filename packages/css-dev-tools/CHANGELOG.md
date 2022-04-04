@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.29.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v1.29.1) (2022-04-04)
+
+**Note:** Version bump only for package @mozaic-ds/css-dev-tools
+
+
+
+
+
 ## [1.27.1](https://github.com/adeo/mozaic-design-system/compare/v1.27.0...v1.27.1) (2022-03-17)
 
 
