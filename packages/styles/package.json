@@ -5,6 +5,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mozaic-ds/tokens": "^1.58.1"
+    "@mozaic-ds/tokens": "^2.0.0-rc.2"
   }
 }
