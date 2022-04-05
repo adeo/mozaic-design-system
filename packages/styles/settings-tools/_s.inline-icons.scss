@@ -96,19 +96,19 @@
   }
 
   @if $icon == "star-full-16" {
-    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M8 11.95L4.29 14 5 9.66 2 6.58l4.15-.63L8 2l1.85 3.95 4.15.63-3 3.08.71 4.34L8 11.95z"/><path d="M8 11.95L4.29 14 5 9.66 2 6.58l4.15-.63L8 2l1.85 3.95 4.15.63-3 3.08.71 4.34L8 11.95z"/></svg>';
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.906 2.077a1 1 0 00-1.812 0L5.558 5.37l-3.254.65a1 1 0 00-.437 1.755l2.296 1.879-.648 3.673a1 1 0 001.566.988L8 12.229l2.919 2.085a1 1 0 001.566-.988l-.648-3.673 2.296-1.879a1 1 0 00-.437-1.755l-3.254-.65-1.536-3.292z"/></svg>';
   }
 
   @if $icon == "star-full-24" {
-    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" fill="#{$fill}" viewBox="0 0 24 24"><path d="M12 18.58L5.82 22 7 14.76 2 9.64l6.91-1.06L12 2l3.09 6.58L22 9.64l-5 5.12L18.18 22 12 18.58z"/></svg>';
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" fill="#{$fill}" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.908 2.08a1 1 0 00-1.816 0L8.32 8.088 1.86 9.01a1 1 0 00-.492 1.764l4.99 4.084-1.818 6.367a1 1 0 001.485 1.127L12 18.674l5.976 3.678a1 1 0 001.486-1.127l-1.82-6.367 4.991-4.084a1 1 0 00-.491-1.764l-6.462-.923-2.772-6.006z"/></svg>';
   }
 
   @if $icon == "star-full-32" {
-    @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 32 32"><path d="M16 24.56L7.97 29l1.53-9.41L3 12.93l8.98-1.37L16 3l4.02 8.56L29 12.93l-6.5 6.66L24.03 29 16 24.56z"/></svg>';
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 32 32"><path fill-rule="evenodd" d="M16.908 2.914a1 1 0 00-1.816 0l-3.772 8.173-8.794 1.256a1 1 0 00-.492 1.764l6.824 5.584-2.486 8.7a1 1 0 001.486 1.127L16 24.508l8.143 5.01a1 1 0 001.486-1.126l-2.487-8.701 6.825-5.584a1 1 0 00-.492-1.764l-8.795-1.256-3.772-8.173z"/></svg>';
   }
 
   @if $icon == "star-full-48" {
-    @return '<svg xmlns="http://www.w3.org/2000/svg" height="3rem" width="3rem" fill="#{$fill}" viewBox="0 0 48 48"><path d="M24 37.17L11.64 44 14 29.53 4 19.28l13.82-2.11L24 4l6.18 13.17L44 19.28 34 29.53 36.36 44 24 37.17z"/></svg>';
+    @return '<svg xmlns="http://www.w3.org/2000/svg" height="3rem" width="3rem" fill="#{$fill}" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M24.908 4.58a1 1 0 00-1.816 0L17.32 17.088 3.86 19.01a1 1 0 00-.492 1.764l10.49 8.584-3.818 13.367a1 1 0 001.485 1.127L24 36.174l12.476 7.678a1 1 0 001.486-1.127l-3.82-13.367 10.491-8.584a1 1 0 00-.492-1.764L30.68 17.087 24.908 4.581z"/></svg>';
   }
 
   @if $icon == "control-more-16" {
