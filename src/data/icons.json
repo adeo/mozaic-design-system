@@ -609,10 +609,10 @@
     {
       "cat": "Social",
       "size": "16px",
-      "name": "View_Star--First",
-      "fileName": "Social_View_Star--First_16px.svg",
-      "iconName": "ViewStarFirst",
-      "componentName": "ViewStarFirst16"
+      "name": "View_Star--Empty",
+      "fileName": "Social_View_Star--Empty_16px.svg",
+      "iconName": "ViewStarEmpty",
+      "componentName": "ViewStarEmpty16"
     },
     {
       "cat": "Social",
@@ -2065,10 +2065,10 @@
     {
       "cat": "Social",
       "size": "24px",
-      "name": "View_Star--First",
-      "fileName": "Social_View_Star--First_24px.svg",
-      "iconName": "ViewStarFirst",
-      "componentName": "ViewStarFirst24"
+      "name": "View_Star--Empty",
+      "fileName": "Social_View_Star--Empty_24px.svg",
+      "iconName": "ViewStarEmpty",
+      "componentName": "ViewStarEmpty24"
     },
     {
       "cat": "Social",
@@ -4089,10 +4089,10 @@
     {
       "cat": "Social",
       "size": "32px",
-      "name": "View_Star--First",
-      "fileName": "Social_View_Star--First_32px.svg",
-      "iconName": "ViewStarFirst",
-      "componentName": "ViewStarFirst32"
+      "name": "View_Star--Empty",
+      "fileName": "Social_View_Star--Empty_32px.svg",
+      "iconName": "ViewStarEmpty",
+      "componentName": "ViewStarEmpty32"
     },
     {
       "cat": "Social",
@@ -6113,10 +6113,10 @@
     {
       "cat": "Social",
       "size": "48px",
-      "name": "View_Star--First",
-      "fileName": "Social_View_Star--First_48px.svg",
-      "iconName": "ViewStarFirst",
-      "componentName": "ViewStarFirst48"
+      "name": "View_Star--Empty",
+      "fileName": "Social_View_Star--Empty_48px.svg",
+      "iconName": "ViewStarEmpty",
+      "componentName": "ViewStarEmpty48"
     },
     {
       "cat": "Social",
@@ -8141,14 +8141,6 @@
       "fileName": "Social_View_Star--Empty_64px.svg",
       "iconName": "ViewStarEmpty",
       "componentName": "ViewStarEmpty64"
-    },
-    {
-      "cat": "Social",
-      "size": "64px",
-      "name": "View_Star--First",
-      "fileName": "Social_View_Star--First_64px.svg",
-      "iconName": "ViewStarFirst",
-      "componentName": "ViewStarFirst64"
     },
     {
       "cat": "Social",
