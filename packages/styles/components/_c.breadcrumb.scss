@@ -4,44 +4,8 @@
   @include set-font-face();
 
   color: $color-font-darker;
-  padding: magic-unit-rem(0.9375, "true") 0 magic-unit-rem(0.9375, "true")
-    magic-unit-rem(1.125, "true");
-
-  @include set-from-screen("s-large") {
-    padding-left: $mu125;
-  }
-
-  @include set-from-screen("s-xlarge") {
-    padding-left: magic-unit-rem(1.375, "true");
-  }
-
-  @include set-from-screen("m") {
-    padding-left: $mu200;
-  }
-
-  @include set-from-screen("m-medium") {
-    padding-left: magic-unit-rem(2.125, "true");
-  }
-
-  @include set-from-screen("l") {
-    padding-left: $mu300;
-  }
-
-  @include set-from-screen("xl") {
-    padding-left: $mu200;
-  }
-
-  @include set-from-screen("xl-medium") {
-    padding-left: $mu700;
-  }
-
-  @include set-from-screen("xl-large") {
-    padding-left: $mu200;
-  }
-
-  @include set-from-screen("xxl") {
-    padding-left: $mu250;
-  }
+  padding-bottom: magic-unit-rem(0.9375, "true");
+  padding-top: magic-unit-rem(0.9375, "true");
 
   &__container {
     @include unstyle-list();
@@ -105,7 +69,6 @@
   }
 
   &--dark {
-    background-color: $color-grey-700;
     color: $color-font-lightest;
 
     #{$parent} {
