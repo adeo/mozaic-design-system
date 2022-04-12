@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.29.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v1.29.1) (2022-04-04)
+
+
+### Bug Fixes
+
+* **component/listbox:** enhance left opening ([#1088](https://github.com/adeo/mozaic-design-system/issues/1088)) ([adf239e](https://github.com/adeo/mozaic-design-system/commit/adf239e5f48c0e5dbec57ea85afd6eb91ef3f612))
+* **component/toggle:** maintain the input position within the component ([#1087](https://github.com/adeo/mozaic-design-system/issues/1087)) ([c2771f0](https://github.com/adeo/mozaic-design-system/commit/c2771f04c53cf633d4fc6fe87c1cdd376c0d04b4))
+
+
+
+
+
 # [1.29.0](https://github.com/adeo/mozaic-design-system/compare/v1.28.0...v1.29.0) (2022-03-30)
 
 
