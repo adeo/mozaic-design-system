@@ -63,6 +63,10 @@
     }
   }
 
+  &__form {
+    display: contents;
+  }
+
   &__header {
     align-items: center;
     display: flex;
