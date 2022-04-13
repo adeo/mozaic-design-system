@@ -175,6 +175,15 @@
         "bug",
         "review"
       ]
+    },
+    {
+      "login": "NicolasDiarra-LMFR",
+      "name": "Nicolas DIarra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94369347?v=4",
+      "profile": "https://github.com/NicolasDiarra-LMFR",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
