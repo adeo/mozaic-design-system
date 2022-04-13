@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;}.cls-2{fill:#191919;}.cls-3{fill:#fff;}</style></defs><title>Store_Colors_StoreLocation_24px</title><g id="Square"><rect class="cls-1" width="24" height="24"/></g><g id="Calque_5" data-name="Calque 5"><path class="cls-2" d="M12,2a8,8,0,0,0-8,8c0,4.16,6.54,10.94,7.29,11.7a1,1,0,0,0,1.42,0C13.46,20.94,20,14.16,20,10A8,8,0,0,0,12,2Z"/><path class="cls-3" d="M15.24,9.25,13.49,7.51,12.42,6.43a.59.59,0,0,0-.83,0L10.52,7.51,8.77,9.25,8,10a.58.58,0,0,0,.41,1h7.16A.58.58,0,0,0,16,10Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <g id="Square"> </g>
+  <g fill-rule="evenodd">
+    <path fill="#006902" d="M12 2a8 8 0 0 0-8 8c0 4.16 6.54 10.94 7.29 11.7a1 1 0 0 0 1.42 0C13.46 20.94 20 14.16 20 10a8 8 0 0 0-8-8Z"/>
+    <path fill="#fff" d="m15.24 9.25-1.75-1.74-1.07-1.08a.59.59 0 0 0-.83 0l-1.07 1.08-1.75 1.74L8 10a.58.58 0 0 0 .41 1h7.16a.58.58 0 0 0 .43-1l-.76-.75Z"/>
+  </g>
+</svg>
