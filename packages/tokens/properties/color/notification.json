@@ -34,7 +34,7 @@
           "value": "{color.warning.500.value}"
         },
         "icon": {
-          "value": "{color.success.600.value}"
+          "value": "{color.warning.600.value}"
         }
       },
       "danger": {
@@ -45,7 +45,7 @@
           "value": "{color.danger.500.value}"
         },
         "icon": {
-          "value": "{color.success.600.value}"
+          "value": "{color.danger.600.value}"
         }
       }
     }
