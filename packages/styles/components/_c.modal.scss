@@ -68,11 +68,18 @@
   }
 
   &__header {
+    @include set-divider($color: "light") {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+    }
+
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin-bottom: $mu100;
     padding: $mu075 $mu075 $mu075 $mu100;
+    position: relative;
 
     @include set-from-screen(m) {
       padding-top: $mu100;
