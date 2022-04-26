@@ -3,12 +3,20 @@
 
   @each $position in $divider-positions {
     &-#{$position} {
-      border-#{$position}: $divider-border-size solid $color-divider-default;
+      border-#{$position}: $divider-border-size-s solid $color-divider-default;
 
       @each $name, $props in $dividers {
-        @if ($name != 'default') {
+        @if ($name != "default") {
           &--#{$name} {
             border-#{$position}-color: $props;
+          }
+        }
+      }
+
+      @each $size, $props in $divider-sizes {
+        @if ($size != "s") {
+          &--#{$size} {
+            border-#{$position}-width: $props;
           }
         }
       }
