@@ -15,6 +15,10 @@
     border-radius: get-border-radius("m");
     padding-left: $mu075;
 
+    &.is-open {
+      background-image: url(inline-icons('arrow-top-16', $color-grey-999));
+    }
+
     &:disabled {
       @include add-demo-state-class {
         border-color: transparent;
