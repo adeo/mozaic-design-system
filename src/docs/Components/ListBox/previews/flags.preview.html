@@ -1,109 +1,34 @@
 <div class="example">
-  <div class="mc-dropdown mc-dropdown--multi">
-    <span
-      class="
-        mc-dropdown__tag
-        mc-tag-removable
-        mc-tag-removable--dark
-        mc-tag-removable--s
-        "
-    >
-      <span class="mc-tag-removable__label">
-        1
-      </span>
-      <button
-        class="mc-tag-removable__remove"
-      >
-        <span class="mc-tag-removable__remove-text">
-          Delete tag
-        </span>
-      </button>
-    </span>
-    <button type="button" id="trigger" class="mc-dropdown__trigger" aria-haspopup="listbox" title="Dropdown menu options" aria-expanded="false">Placeholder</button>
-    <ul
-    id="listbox"
-    tabindex="-1"
-    role="listbox"
-    aria-labelledby="listbox"
-    class="mc-listbox mc-listbox--multi is-focus"
-  >
-    <li class="mc-listbox__item">
-      <svg class="mc-listbox__icon">
-        <use xlink:href="#adeo" />
-      </svg>
-      <label for="checkbox-01" class="mc-listbox__label"> Option label</label>
-      <input
-        id="checkbox-01"
-        type="checkbox"
-        class="mc-listbox__input"
-        name="example"
-      />
+  <ul tabindex="-1" role="listbox" aria-labelledby="listbox" class="mc-listbox is-open">
+    <li class="mc-listbox__item is-checked">
+      <span class="mc-listbox__flag">🏴‍☠️</span>
+      <span class="mc-listbox__label">Option label</span>
     </li>
     <li class="mc-listbox__item">
-      <svg class="mc-listbox__icon">
-        <use xlink:href="#adeo" />
-      </svg>
-      <label for="checkbox-02" class="mc-listbox__label">Option label</label>
-      <input
-        id="checkbox-02"
-        type="checkbox"
-        class="mc-listbox__input"
-        name="example"
-      />
+      <span class="mc-listbox__flag">🏴‍☠️</span>
+      <span class="mc-listbox__label">Option label</span>
     </li>
     <li class="mc-listbox__item">
-      <svg class="mc-listbox__icon">
-        <use xlink:href="#adeo" />
-      </svg>
-      <label for="checkbox-03" class="mc-listbox__label">Option label</label>
-      <input
-        id="checkbox-03"
-        type="checkbox"
-        class="mc-listbox__input"
-        name="example"
-        checked
-      />
+      <span class="mc-listbox__flag">🏴‍☠️</span>
+      <span class="mc-listbox__label">Option label</span>
     </li>
     <li class="mc-listbox__item">
-      <svg class="mc-listbox__icon">
-        <use xlink:href="#adeo" />
-      </svg>
-      <label for="checkbox-04" class="mc-listbox__label">Option label</label>
-      <input
-        id="checkbox-04"
-        type="checkbox"
-        class="mc-listbox__input"
-        name="example"
-      />
+      <span class="mc-listbox__flag">🏴‍☠️</span>
+      <span class="mc-listbox__label">Option label</span>
     </li>
     <li class="mc-listbox__item">
-      <svg class="mc-listbox__icon">
-        <use xlink:href="#adeo" />
-      </svg>
-      <label for="checkbox-05" class="mc-listbox__label">Option label</label>
-      <input
-        id="checkbox-05"
-        type="checkbox"
-        class="mc-listbox__input"
-        name="example"
-      />
+      <span class="mc-listbox__flag">🏴‍☠️</span>
+      <span class="mc-listbox__label">Option label</span>
     </li>
     <li class="mc-listbox__item">
-      <svg class="mc-listbox__icon">
-        <use xlink:href="#adeo" />
-      </svg>
-      <label for="checkbox-06" class="mc-listbox__label">Option label</label>
-      <input
-        id="checkbox-06"
-        type="checkbox"
-        class="mc-listbox__input"
-        name="example"
-      />
+      <span class="mc-listbox__flag">🏴‍☠️</span>
+      <span class="mc-listbox__label">Option label</span>
     </li>
   </ul>
-    <svg
-    width="32px"
-    height="32px"
+
+  <svg
+    width="32"
+    height="32"
     viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -121,19 +46,4 @@
       <path d="M28.19 20.03H4.009v.779h24.183v-.78Z" fill="#A6A696" />
     </symbol>
   </svg>
-  </div>
-</div>
-
-  <!-- scripts -->
-  <script>
-    const action = document.getElementById('trigger')
-
-    action.addEventListener('click', function (e) {
-			const list = document.getElementById('listbox')
-      const trigger = document.getElementById('trigger')
-			list.classList.toggle('is-open')
-      trigger.classList.toggle('is-open')
-		})
-
-  </script>
 </div>

@@ -37,6 +37,8 @@ You must apply one of these classes on your HTML element according to the desire
 
 ### Variations
 
+#### Color variations
+
 The divider is available with 4 color variations:
 
 - **default**
@@ -53,7 +55,28 @@ You can use these color variations by adding one of the following modifiers to t
 | Vertical right    | `mc-divider-right`  | `mc-divider-right--dark`  | `mc-divider-right--light`  | `mc-divider-right--lightest`  |
 | Vertical left     | `mc-divider-left`   | `mc-divider-left--dark`   | `mc-divider-left--light`   | `mc-divider-left--lightest`   |
 
-<Preview path="all-variations" />
+<Preview path="color-variations" nude />
+
+#### Size variations
+
+The divider is available with 3 size variations:
+
+| available size    | size value       |
+| ----------------- | ---------------- |
+| **s** _(default)_ | `1px`            |
+| **m**             | `$mu025` _(4px)_ |
+| **l**             | `$mu050` _(8px)_ |
+
+You can use these size variations by adding one of the following modifiers to the basic css class (see above):
+
+| divider position  | default             | m                      | l                      |
+| ----------------- | ------------------- | ---------------------- | ---------------------- |
+| Horizontal top    | `mc-divider-top`    | `mc-divider-top--m`    | `mc-divider-top--l`    |
+| Horizontal bottom | `mc-divider-bottom` | `mc-divider-bottom--m` | `mc-divider-bottom--l` |
+| Vertical right    | `mc-divider-right`  | `mc-divider-right--m`  | `mc-divider-right--l`  |
+| Vertical left     | `mc-divider-left`   | `mc-divider-left--m`   | `mc-divider-left--l`   |
+
+<Preview path="size-variations" nude />
 
 ## Implementing a divider - advanced method
 
@@ -71,7 +94,7 @@ For this purpose we provide you with the `set-divider` mixin.
 
 ```scss
 .your-element-class {
-  @include set-divider('bottom', 'dark', '100%');
+  @include set-divider('bottom', 'dark', '100%', 'm');
 }
 ```
 
@@ -81,7 +104,8 @@ The `set-divider` mixin allows you to act on the following parameters:
 | ---------- | -------------------------------------------------- |
 | position   | `top`, `right`, `bottom` _(default)_, `left`       |
 | color      | `default` _(default)_, `dark`, `light`, `lightest` |
-| size       | `100%` _(default)_                                 |
+| width      | `100%` _(default)_                                 |
+| size       | `s` _(default)_ , `m`, `l`,                        |
 
 <br />
 <Preview path="advanced" />
