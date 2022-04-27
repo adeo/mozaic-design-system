@@ -7238,11 +7238,11 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#158110",
+              "value": "#add585",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.primary-01.700.value}"
+                "value": "{color.primary-01.300.value}"
               },
               "name": "ColorTagSelectableLightHoverBackground",
               "attributes": {
@@ -7259,54 +7259,6 @@ module.exports = {
                 "light",
                 "hover",
                 "background"
-              ]
-            },
-            "border": {
-              "value": "#158110",
-              "filePath": "packages/tokens/properties/color/tag.json",
-              "isSource": true,
-              "original": {
-                "value": "{color.primary-01.700.value}"
-              },
-              "name": "ColorTagSelectableLightHoverBorder",
-              "attributes": {
-                "category": "color",
-                "type": "tag",
-                "item": "selectable",
-                "subitem": "light",
-                "state": "hover"
-              },
-              "path": [
-                "color",
-                "tag",
-                "selectable",
-                "light",
-                "hover",
-                "border"
-              ]
-            },
-            "text": {
-              "value": "#ffffff",
-              "filePath": "packages/tokens/properties/color/tag.json",
-              "isSource": true,
-              "original": {
-                "value": "{color.grey.000.value}"
-              },
-              "name": "ColorTagSelectableLightHoverText",
-              "attributes": {
-                "category": "color",
-                "type": "tag",
-                "item": "selectable",
-                "subitem": "light",
-                "state": "hover"
-              },
-              "path": [
-                "color",
-                "tag",
-                "selectable",
-                "light",
-                "hover",
-                "text"
               ]
             }
           },
@@ -7482,6 +7434,33 @@ module.exports = {
                 "selected",
                 "text"
               ]
+            },
+            "hover": {
+              "background": {
+                "value": "#158110",
+                "filePath": "packages/tokens/properties/color/tag.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.primary-01.700.value}"
+                },
+                "name": "ColorTagSelectableLightSelectedHoverBackground",
+                "attributes": {
+                  "category": "color",
+                  "type": "tag",
+                  "item": "selectable",
+                  "subitem": "light",
+                  "state": "selected"
+                },
+                "path": [
+                  "color",
+                  "tag",
+                  "selectable",
+                  "light",
+                  "selected",
+                  "hover",
+                  "background"
+                ]
+              }
             }
           }
         },
@@ -7557,11 +7536,11 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#add585",
+              "value": "#158110",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.primary-01.300.value}"
+                "value": "{color.primary-01.700.value}"
               },
               "name": "ColorTagSelectableDarkHoverBackground",
               "attributes": {
@@ -7578,54 +7557,6 @@ module.exports = {
                 "dark",
                 "hover",
                 "background"
-              ]
-            },
-            "border": {
-              "value": "#add585",
-              "filePath": "packages/tokens/properties/color/tag.json",
-              "isSource": true,
-              "original": {
-                "value": "{color.primary-01.300.value}"
-              },
-              "name": "ColorTagSelectableDarkHoverBorder",
-              "attributes": {
-                "category": "color",
-                "type": "tag",
-                "item": "selectable",
-                "subitem": "dark",
-                "state": "hover"
-              },
-              "path": [
-                "color",
-                "tag",
-                "selectable",
-                "dark",
-                "hover",
-                "border"
-              ]
-            },
-            "text": {
-              "value": "#222020",
-              "filePath": "packages/tokens/properties/color/tag.json",
-              "isSource": true,
-              "original": {
-                "value": "{color.grey.900.value}"
-              },
-              "name": "ColorTagSelectableDarkHoverText",
-              "attributes": {
-                "category": "color",
-                "type": "tag",
-                "item": "selectable",
-                "subitem": "dark",
-                "state": "hover"
-              },
-              "path": [
-                "color",
-                "tag",
-                "selectable",
-                "dark",
-                "hover",
-                "text"
               ]
             }
           },
@@ -7775,6 +7706,33 @@ module.exports = {
                 "selected",
                 "text"
               ]
+            },
+            "hover": {
+              "background": {
+                "value": "#add585",
+                "filePath": "packages/tokens/properties/color/tag.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.primary-01.300.value}"
+                },
+                "name": "ColorTagSelectableDarkSelectedHoverBackground",
+                "attributes": {
+                  "category": "color",
+                  "type": "tag",
+                  "item": "selectable",
+                  "subitem": "dark",
+                  "state": "selected"
+                },
+                "path": [
+                  "color",
+                  "tag",
+                  "selectable",
+                  "dark",
+                  "selected",
+                  "hover",
+                  "background"
+                ]
+              }
             }
           },
           "disabled": {

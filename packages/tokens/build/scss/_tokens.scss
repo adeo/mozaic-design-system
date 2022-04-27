@@ -342,9 +342,7 @@ $color-tag-link-dark-active-background: #554f52 !default;
 $color-tag-selectable-light-background: #ffffff !default;
 $color-tag-selectable-light-border: #887f87 !default;
 $color-tag-selectable-light-text: #222020 !default;
-$color-tag-selectable-light-hover-background: #158110 !default;
-$color-tag-selectable-light-hover-border: #158110 !default;
-$color-tag-selectable-light-hover-text: #ffffff !default;
+$color-tag-selectable-light-hover-background: #add585 !default;
 $color-tag-selectable-light-active-background: #0a601b !default;
 $color-tag-selectable-light-active-border: #0a601b !default;
 $color-tag-selectable-light-active-text: #ffffff !default;
@@ -352,18 +350,18 @@ $color-tag-selectable-light-disabled-background: #eeeef0 !default;
 $color-tag-selectable-light-disabled-text: #887f87 !default;
 $color-tag-selectable-light-selected-background: #41a017 !default;
 $color-tag-selectable-light-selected-text: #ffffff !default;
+$color-tag-selectable-light-selected-hover-background: #158110 !default;
 $color-tag-selectable-dark-background: #222020 !default;
 $color-tag-selectable-dark-border: #ffffff !default;
 $color-tag-selectable-dark-text: #ffffff !default;
-$color-tag-selectable-dark-hover-background: #add585 !default;
-$color-tag-selectable-dark-hover-border: #add585 !default;
-$color-tag-selectable-dark-hover-text: #222020 !default;
+$color-tag-selectable-dark-hover-background: #158110 !default;
 $color-tag-selectable-dark-active-background: #cbe3b5 !default;
 $color-tag-selectable-dark-active-border: #cbe3b5 !default;
 $color-tag-selectable-dark-active-text: #222020 !default;
 $color-tag-selectable-dark-selected-background: #91c854 !default;
 $color-tag-selectable-dark-selected-border: #91c854 !default;
 $color-tag-selectable-dark-selected-text: #222020 !default;
+$color-tag-selectable-dark-selected-hover-background: #add585 !default;
 $color-tag-selectable-dark-disabled-background: #554f52 !default;
 $color-tag-selectable-dark-disabled-text: #887f87 !default;
 $color-tag-removable-light-background: #3c3738 !default;
@@ -1058,9 +1056,7 @@ $tokens: (
           'border': $color-tag-selectable-light-border,
           'text': $color-tag-selectable-light-text,
           'hover': (
-            'background': $color-tag-selectable-light-hover-background,
-            'border': $color-tag-selectable-light-hover-border,
-            'text': $color-tag-selectable-light-hover-text
+            'background': $color-tag-selectable-light-hover-background
           ),
           'active': (
             'background': $color-tag-selectable-light-active-background,
@@ -1073,7 +1069,10 @@ $tokens: (
           ),
           'selected': (
             'background': $color-tag-selectable-light-selected-background,
-            'text': $color-tag-selectable-light-selected-text
+            'text': $color-tag-selectable-light-selected-text,
+            'hover': (
+              'background': $color-tag-selectable-light-selected-hover-background
+            )
           )
         ),
         'dark': (
@@ -1081,9 +1080,7 @@ $tokens: (
           'border': $color-tag-selectable-dark-border,
           'text': $color-tag-selectable-dark-text,
           'hover': (
-            'background': $color-tag-selectable-dark-hover-background,
-            'border': $color-tag-selectable-dark-hover-border,
-            'text': $color-tag-selectable-dark-hover-text
+            'background': $color-tag-selectable-dark-hover-background
           ),
           'active': (
             'background': $color-tag-selectable-dark-active-background,
@@ -1093,7 +1090,10 @@ $tokens: (
           'selected': (
             'background': $color-tag-selectable-dark-selected-background,
             'border': $color-tag-selectable-dark-selected-border,
-            'text': $color-tag-selectable-dark-selected-text
+            'text': $color-tag-selectable-dark-selected-text,
+            'hover': (
+              'background': $color-tag-selectable-dark-selected-hover-background
+            )
           ),
           'disabled': (
             'background': $color-tag-selectable-dark-disabled-background,

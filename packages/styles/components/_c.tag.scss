@@ -85,12 +85,23 @@
       background: $color-tag-selectable-light-background;
       box-shadow: inset 0 0 0 get-border("s") $color-tag-selectable-light-border;
       color: $color-tag-selectable-light-text;
+      cursor: pointer;
 
       &:hover {
         background: $color-tag-selectable-light-hover-background;
+      }
+
+      :checked + & {
+        background: $color-tag-selectable-light-selected-background;
         box-shadow: inset 0 0 0 get-border("s")
-          $color-tag-selectable-light-hover-border;
-        color: $color-tag-selectable-light-hover-text;
+          $color-tag-selectable-light-selected-background;
+        color: $color-tag-selectable-light-selected-text;
+
+        &:hover {
+          background: $color-tag-selectable-light-selected-hover-background;
+          box-shadow: inset 0 0 0 get-border("s")
+            $color-tag-selectable-light-selected-hover-background;
+        }
       }
 
       &:active {
@@ -98,15 +109,6 @@
         box-shadow: inset 0 0 0 get-border("s")
           $color-tag-selectable-light-active-border;
         color: $color-tag-selectable-light-active-text;
-      }
-
-      cursor: pointer;
-
-      :checked + & {
-        background: $color-tag-selectable-light-selected-background;
-        box-shadow: inset 0 0 0 get-border("s")
-          $color-tag-selectable-light-selected-background;
-        color: $color-tag-selectable-light-selected-text;
       }
 
       :focus + & {
@@ -130,9 +132,6 @@
 
         &:hover {
           background: $color-tag-selectable-dark-hover-background;
-          box-shadow: inset 0 0 0 get-border("s")
-            $color-tag-selectable-dark-hover-border;
-          color: $color-tag-selectable-dark-hover-text;
         }
 
         &:active {
@@ -148,6 +147,10 @@
         box-shadow: inset 0 0 0 get-border("s")
           $color-tag-selectable-dark-selected-border;
         color: $color-tag-selectable-dark-selected-text;
+
+        &:hover {
+          background: $color-tag-selectable-dark-selected-hover-background;
+        }
       }
 
       :disabled + .mc-tag-selectable__pill {
