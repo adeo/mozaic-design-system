@@ -56,7 +56,7 @@ module.exports = {
     "badge": {
       "info": {
         "background": {
-          "value": "#daeff7",
+          "value": "#ecfcfd",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -77,7 +77,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#0b96cc",
+          "value": "#25a8d0",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -98,7 +98,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#005c91",
+          "value": "#1e5f82",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -121,7 +121,7 @@ module.exports = {
       },
       "success": {
         "background": {
-          "value": "#ebf5de",
+          "value": "#eaf3e2",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -142,7 +142,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#46a610",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -163,7 +163,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#006902",
+          "value": "#158110",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -186,7 +186,7 @@ module.exports = {
       },
       "warning": {
         "background": {
-          "value": "#fdf1e8",
+          "value": "#fff5eb",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -207,7 +207,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#ea7315",
+          "value": "#fc961e",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -228,7 +228,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#8c3500",
+          "value": "#974f20",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -251,7 +251,7 @@ module.exports = {
       },
       "danger": {
         "background": {
-          "value": "#fdeaea",
+          "value": "#feedee",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -272,7 +272,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#ea302d",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -293,7 +293,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#8c0003",
+          "value": "#8b2226",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -382,11 +382,11 @@ module.exports = {
     },
     "primary-01": {
       "100": {
-        "value": "#ebf5de",
+        "value": "#eaf3e2",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EBF5DE"
+          "value": "#EAF3E2"
         },
         "name": "ColorPrimary01100",
         "attributes": {
@@ -401,11 +401,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#c5e39e",
+        "value": "#cbe3b5",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#C5E39E"
+          "value": "#CBE3B5"
         },
         "name": "ColorPrimary01200",
         "attributes": {
@@ -420,11 +420,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#9ed05f",
+        "value": "#add585",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#9ED05F"
+          "value": "#ADD585"
         },
         "name": "ColorPrimary01300",
         "attributes": {
@@ -439,11 +439,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#78be20",
+        "value": "#91c854",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#78BE20"
+          "value": "#91C854"
         },
         "name": "ColorPrimary01400",
         "attributes": {
@@ -458,11 +458,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#46a610",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#46A610"
+          "value": "#78BE20"
         },
         "name": "ColorPrimary01500",
         "attributes": {
@@ -477,11 +477,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#188803",
+        "value": "#41a017",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#188803"
+          "value": "#41A017"
         },
         "name": "ColorPrimary01600",
         "attributes": {
@@ -496,11 +496,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006902",
+        "value": "#158110",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#006902"
+          "value": "#158110"
         },
         "name": "ColorPrimary01700",
         "attributes": {
@@ -515,11 +515,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#035010",
+        "value": "#0a601b",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#035010"
+          "value": "#0A601B"
         },
         "name": "ColorPrimary01800",
         "attributes": {
@@ -534,11 +534,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#023618",
+        "value": "#053e1f",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#023618"
+          "value": "#053E1F"
         },
         "name": "ColorPrimary01900",
         "attributes": {
@@ -939,11 +939,11 @@ module.exports = {
     },
     "secondary-blue": {
       "100": {
-        "value": "#daeff7",
+        "value": "#ecfcfd",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#DAEFF7"
+          "value": "#ECFCFD"
         },
         "name": "ColorSecondaryBlue100",
         "attributes": {
@@ -958,11 +958,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#a7d9ed",
+        "value": "#b7eef5",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#A7D9ED"
+          "value": "#B7EEF5"
         },
         "name": "ColorSecondaryBlue200",
         "attributes": {
@@ -977,11 +977,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#73c3e2",
+        "value": "#84dbeb",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#73C3E2"
+          "value": "#84DBEB"
         },
         "name": "ColorSecondaryBlue300",
         "attributes": {
@@ -996,11 +996,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#3facd7",
+        "value": "#54c4de",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#3FACD7"
+          "value": "#54C4DE"
         },
         "name": "ColorSecondaryBlue400",
         "attributes": {
@@ -1015,11 +1015,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#0b96cc",
+        "value": "#25a8d0",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#0B96CC"
+          "value": "#25A8D0"
         },
         "name": "ColorSecondaryBlue500",
         "attributes": {
@@ -1034,11 +1034,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#007bb4",
+        "value": "#2282a8",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#007BB4"
+          "value": "#2282A8"
         },
         "name": "ColorSecondaryBlue600",
         "attributes": {
@@ -1053,11 +1053,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#005c91",
+        "value": "#1e5f82",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#005C91"
+          "value": "#1E5F82"
         },
         "name": "ColorSecondaryBlue700",
         "attributes": {
@@ -1072,11 +1072,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#003a5c",
+        "value": "#18415d",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#003A5C"
+          "value": "#18415D"
         },
         "name": "ColorSecondaryBlue800",
         "attributes": {
@@ -1091,11 +1091,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#002a41",
+        "value": "#102739",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#002A41"
+          "value": "#102739"
         },
         "name": "ColorSecondaryBlue900",
         "attributes": {
@@ -1112,7 +1112,7 @@ module.exports = {
     },
     "secondary-green": {
       "100": {
-        "value": "#ebf5de",
+        "value": "#eaf3e2",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1131,7 +1131,7 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#c5e39e",
+        "value": "#cbe3b5",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1150,7 +1150,7 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#9ed05f",
+        "value": "#add585",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1169,7 +1169,7 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#78be20",
+        "value": "#91c854",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1188,7 +1188,7 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#46a610",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1207,7 +1207,7 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#188803",
+        "value": "#41a017",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1226,7 +1226,7 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006902",
+        "value": "#158110",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1245,7 +1245,7 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#035010",
+        "value": "#0a601b",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1264,7 +1264,7 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#023618",
+        "value": "#053e1f",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1458,11 +1458,11 @@ module.exports = {
     },
     "secondary-red": {
       "100": {
-        "value": "#fdeaea",
+        "value": "#feedee",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FDEAEA"
+          "value": "#FEEDEE"
         },
         "name": "ColorSecondaryRed100",
         "attributes": {
@@ -1477,11 +1477,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#f8bcbb",
+        "value": "#fab9bc",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#F8BCBB"
+          "value": "#FAB9BC"
         },
         "name": "ColorSecondaryRed200",
         "attributes": {
@@ -1496,11 +1496,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#f38d8c",
+        "value": "#f38789",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#F38D8C"
+          "value": "#F38789"
         },
         "name": "ColorSecondaryRed300",
         "attributes": {
@@ -1515,11 +1515,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ef5f5c",
+        "value": "#ea5d58",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EF5F5C"
+          "value": "#EA5D58"
         },
         "name": "ColorSecondaryRed400",
         "attributes": {
@@ -1534,11 +1534,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#ea302d",
+        "value": "#df382b",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EA302D"
+          "value": "#DF382B"
         },
         "name": "ColorSecondaryRed500",
         "attributes": {
@@ -1553,11 +1553,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#C61112"
+          "value": "#B42A27"
         },
         "name": "ColorSecondaryRed600",
         "attributes": {
@@ -1572,11 +1572,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#8c0003",
+        "value": "#8b2226",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#8C0003"
+          "value": "#8B2226"
         },
         "name": "ColorSecondaryRed700",
         "attributes": {
@@ -1591,11 +1591,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#530000",
+        "value": "#641b21",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#530000"
+          "value": "#641B21"
         },
         "name": "ColorSecondaryRed800",
         "attributes": {
@@ -1610,11 +1610,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#2d0000",
+        "value": "#3e1219",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#2D0000"
+          "value": "#3E1219"
         },
         "name": "ColorSecondaryRed900",
         "attributes": {
@@ -1631,11 +1631,11 @@ module.exports = {
     },
     "secondary-orange": {
       "100": {
-        "value": "#fdf1e8",
+        "value": "#fff5eb",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FDF1E8"
+          "value": "#FFF5EB"
         },
         "name": "ColorSecondaryOrange100",
         "attributes": {
@@ -1650,11 +1650,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#f8d2b3",
+        "value": "#ffdab2",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#F8D2B3"
+          "value": "#FFDAB2"
         },
         "name": "ColorSecondaryOrange200",
         "attributes": {
@@ -1669,11 +1669,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#f4b27e",
+        "value": "#ffc17d",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#F4B27E"
+          "value": "#FFC17D"
         },
         "name": "ColorSecondaryOrange300",
         "attributes": {
@@ -1688,11 +1688,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ef934a",
+        "value": "#ffab4b",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EF934A"
+          "value": "#FFAB4B"
         },
         "name": "ColorSecondaryOrange400",
         "attributes": {
@@ -1707,11 +1707,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#ea7315",
+        "value": "#fc961e",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EA7315"
+          "value": "#FC961E"
         },
         "name": "ColorSecondaryOrange500",
         "attributes": {
@@ -1726,11 +1726,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c65200",
+        "value": "#c86f21",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#C65200"
+          "value": "#C86F21"
         },
         "name": "ColorSecondaryOrange600",
         "attributes": {
@@ -1745,11 +1745,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#8c3500",
+        "value": "#974f20",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#8C3500"
+          "value": "#974F20"
         },
         "name": "ColorSecondaryOrange700",
         "attributes": {
@@ -1764,11 +1764,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#531b00",
+        "value": "#6a351c",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#531B00"
+          "value": "#6A351C"
         },
         "name": "ColorSecondaryOrange800",
         "attributes": {
@@ -1783,11 +1783,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#360e00",
+        "value": "#401f15",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#360E00"
+          "value": "#401F15"
         },
         "name": "ColorSecondaryOrange900",
         "attributes": {
@@ -1977,7 +1977,7 @@ module.exports = {
     },
     "danger": {
       "100": {
-        "value": "#fdeaea",
+        "value": "#feedee",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1996,7 +1996,7 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#f8bcbb",
+        "value": "#fab9bc",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2015,7 +2015,7 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#f38d8c",
+        "value": "#f38789",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2034,7 +2034,7 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ef5f5c",
+        "value": "#ea5d58",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2053,7 +2053,7 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#ea302d",
+        "value": "#df382b",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2072,7 +2072,7 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2091,7 +2091,7 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#8c0003",
+        "value": "#8b2226",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2110,7 +2110,7 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#530000",
+        "value": "#641b21",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2129,7 +2129,7 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#2d0000",
+        "value": "#3e1219",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2150,7 +2150,7 @@ module.exports = {
     },
     "info": {
       "100": {
-        "value": "#daeff7",
+        "value": "#ecfcfd",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2169,7 +2169,7 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#a7d9ed",
+        "value": "#b7eef5",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2188,7 +2188,7 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#73c3e2",
+        "value": "#84dbeb",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2207,7 +2207,7 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#3facd7",
+        "value": "#54c4de",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2226,7 +2226,7 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#0b96cc",
+        "value": "#25a8d0",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2245,7 +2245,7 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#007bb4",
+        "value": "#2282a8",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2264,7 +2264,7 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#005c91",
+        "value": "#1e5f82",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2283,7 +2283,7 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#003a5c",
+        "value": "#18415d",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2302,7 +2302,7 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#002a41",
+        "value": "#102739",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2323,7 +2323,7 @@ module.exports = {
     },
     "warning": {
       "100": {
-        "value": "#fdf1e8",
+        "value": "#fff5eb",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2342,7 +2342,7 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#f8d2b3",
+        "value": "#ffdab2",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2361,7 +2361,7 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#f4b27e",
+        "value": "#ffc17d",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2380,7 +2380,7 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ef934a",
+        "value": "#ffab4b",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2399,7 +2399,7 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#ea7315",
+        "value": "#fc961e",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2418,7 +2418,7 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c65200",
+        "value": "#c86f21",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2437,7 +2437,7 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#8c3500",
+        "value": "#974f20",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2456,7 +2456,7 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#531b00",
+        "value": "#6a351c",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2475,7 +2475,7 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#360e00",
+        "value": "#401f15",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2496,7 +2496,7 @@ module.exports = {
     },
     "success": {
       "100": {
-        "value": "#ebf5de",
+        "value": "#eaf3e2",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2515,7 +2515,7 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#c5e39e",
+        "value": "#cbe3b5",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2534,7 +2534,7 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#9ed05f",
+        "value": "#add585",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2553,7 +2553,7 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#78be20",
+        "value": "#91c854",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2572,7 +2572,7 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#46a610",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2591,7 +2591,7 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#188803",
+        "value": "#41a017",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2610,7 +2610,7 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006902",
+        "value": "#158110",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2629,7 +2629,7 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#035010",
+        "value": "#0a601b",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2648,7 +2648,7 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#023618",
+        "value": "#053e1f",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -2670,11 +2670,11 @@ module.exports = {
     "button": {
       "solid": {
         "background": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorButtonSolidBackground",
           "attributes": {
@@ -2713,7 +2713,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#006902",
+            "value": "#158110",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2786,7 +2786,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#006902",
+            "value": "#158110",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2811,11 +2811,11 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#006902",
+            "value": "#41a017",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.primary-01.700.value}"
+              "value": "{color.primary-01.600.value}"
             },
             "name": "ColorButtonSolidHoverBackground",
             "attributes": {
@@ -3240,11 +3240,11 @@ module.exports = {
       },
       "solid-danger": {
         "background": {
-          "value": "#c61112",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.danger.600.value}"
+            "value": "{color.danger.500.value}"
           },
           "name": "ColorButtonSolidDangerBackground",
           "attributes": {
@@ -3283,7 +3283,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#8c0003",
+            "value": "#8b2226",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3356,7 +3356,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#8c0003",
+            "value": "#8b2226",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3381,11 +3381,11 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#8c0003",
+            "value": "#b42a27",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.danger.700.value}"
+              "value": "{color.danger.600.value}"
             },
             "name": "ColorButtonSolidDangerHoverBackground",
             "attributes": {
@@ -3451,11 +3451,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorButtonBorderedBorder",
           "attributes": {
@@ -3472,11 +3472,11 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorButtonBorderedFont",
           "attributes": {
@@ -3494,7 +3494,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#006902",
+            "value": "#158110",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3567,7 +3567,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#c5e39e",
+            "value": "#cbe3b5",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3592,7 +3592,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#ebf5de",
+            "value": "#eaf3e2",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4015,11 +4015,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#c61112",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.secondary-red.500.value}"
           },
           "name": "ColorButtonBorderedDangerBorder",
           "attributes": {
@@ -4036,11 +4036,11 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#c61112",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.secondary-red.500.value}"
           },
           "name": "ColorButtonBorderedDangerFont",
           "attributes": {
@@ -4058,7 +4058,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#8c0003",
+            "value": "#8b2226",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4131,7 +4131,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#f8bcbb",
+            "value": "#fab9bc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4156,7 +4156,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#fdeaea",
+            "value": "#feedee",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4261,7 +4261,7 @@ module.exports = {
     },
     "fields": {
       "error": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "filePath": "packages/tokens/properties/color/fields.json",
         "isSource": true,
         "original": {
@@ -4402,7 +4402,7 @@ module.exports = {
         }
       },
       "valid": {
-        "value": "#46a610",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/fileuploder.json",
         "isSource": true,
         "original": {
@@ -4421,7 +4421,7 @@ module.exports = {
         ]
       },
       "alert": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "filePath": "packages/tokens/properties/color/fileuploder.json",
         "isSource": true,
         "original": {
@@ -4443,11 +4443,11 @@ module.exports = {
     "flag": {
       "solid": {
         "background": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorFlagSolidBackground",
           "attributes": {
@@ -4464,11 +4464,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorFlagSolidBorder",
           "attributes": {
@@ -4703,11 +4703,11 @@ module.exports = {
       },
       "solid-danger": {
         "background": {
-          "value": "#c61112",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.secondary-red.500.value}"
           },
           "name": "ColorFlagSolidDangerBackground",
           "attributes": {
@@ -4724,11 +4724,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#c61112",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.secondary-red.500.value}"
           },
           "name": "ColorFlagSolidDangerBorder",
           "attributes": {
@@ -4789,11 +4789,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorFlagBorderedBorder",
           "attributes": {
@@ -4810,11 +4810,11 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorFlagBorderedText",
           "attributes": {
@@ -5049,11 +5049,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#c61112",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.secondary-red.500.value}"
           },
           "name": "ColorFlagBorderedDangerBorder",
           "attributes": {
@@ -5070,11 +5070,11 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#c61112",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.secondary-red.500.value}"
           },
           "name": "ColorFlagBorderedDangerText",
           "attributes": {
@@ -5113,7 +5113,7 @@ module.exports = {
         ]
       },
       "border": {
-        "value": "#0b96cc",
+        "value": "#25a8d0",
         "filePath": "packages/tokens/properties/color/focus.json",
         "isSource": true,
         "original": {
@@ -5134,11 +5134,11 @@ module.exports = {
     },
     "font": {
       "primary-01": {
-        "value": "#188803",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.600.value}"
+          "value": "{color.primary-01.500.value}"
         },
         "name": "ColorFontPrimary01",
         "attributes": {
@@ -5267,7 +5267,7 @@ module.exports = {
         ]
       },
       "info": {
-        "value": "#007bb4",
+        "value": "#2282a8",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5286,7 +5286,7 @@ module.exports = {
         ]
       },
       "success": {
-        "value": "#188803",
+        "value": "#41a017",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5305,7 +5305,7 @@ module.exports = {
         ]
       },
       "warning": {
-        "value": "#c65200",
+        "value": "#c86f21",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5324,7 +5324,7 @@ module.exports = {
         ]
       },
       "danger": {
-        "value": "#c61112",
+        "value": "#b42a27",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5510,7 +5510,7 @@ module.exports = {
       },
       "focus": {
         "border": {
-          "value": "#0b96cc",
+          "value": "#25a8d0",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5533,7 +5533,7 @@ module.exports = {
       },
       "valid": {
         "border": {
-          "value": "#46a610",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5555,7 +5555,7 @@ module.exports = {
         },
         "hover": {
           "border": {
-            "value": "#035010",
+            "value": "#0a601b",
             "filePath": "packages/tokens/properties/color/input.json",
             "isSource": true,
             "original": {
@@ -5581,7 +5581,7 @@ module.exports = {
       },
       "invalid": {
         "border": {
-          "value": "#c61112",
+          "value": "#b42a27",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5603,7 +5603,7 @@ module.exports = {
         },
         "hover": {
           "border": {
-            "value": "#530000",
+            "value": "#641b21",
             "filePath": "packages/tokens/properties/color/input.json",
             "isSource": true,
             "original": {
@@ -5629,7 +5629,7 @@ module.exports = {
       },
       "checked": {
         "border": {
-          "value": "#46a610",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5650,7 +5650,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "#46a610",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5693,7 +5693,7 @@ module.exports = {
         },
         "hover": {
           "border": {
-            "value": "#035010",
+            "value": "#0a601b",
             "filePath": "packages/tokens/properties/color/input.json",
             "isSource": true,
             "original": {
@@ -5935,11 +5935,11 @@ module.exports = {
       },
       "primary": {
         "base": {
-          "value": "#188803",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.500.value}"
           },
           "name": "ColorLinkPrimaryBase",
           "attributes": {
@@ -5956,7 +5956,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#006902",
+          "value": "#158110",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5977,7 +5977,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#006902",
+          "value": "#158110",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6019,11 +6019,11 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#035010",
+          "value": "#053e1f",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.800.value}"
+            "value": "{color.primary-01.900.value}"
           },
           "name": "ColorLinkPrimaryHover",
           "attributes": {
@@ -6149,7 +6149,7 @@ module.exports = {
       },
       "danger": {
         "base": {
-          "value": "#c61112",
+          "value": "#b42a27",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6170,7 +6170,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#8c0003",
+          "value": "#8b2226",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6191,7 +6191,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#8c0003",
+          "value": "#8b2226",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6233,11 +6233,11 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#530000",
+          "value": "#3e1219",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.800.value}"
+            "value": "{color.secondary-red.900.value}"
           },
           "name": "ColorLinkDangerHover",
           "attributes": {
@@ -6277,7 +6277,7 @@ module.exports = {
       },
       "information": {
         "background": {
-          "value": "#daeff7",
+          "value": "#ecfcfd",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6298,7 +6298,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#0b96cc",
+          "value": "#25a8d0",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6317,32 +6317,11 @@ module.exports = {
             "information",
             "border"
           ]
-        },
-        "icon": {
-          "value": "#007bb4",
-          "filePath": "packages/tokens/properties/color/notification.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.info.600.value}"
-          },
-          "name": "ColorNotificationInformationIcon",
-          "attributes": {
-            "category": "color",
-            "type": "notification",
-            "item": "information",
-            "subitem": "icon"
-          },
-          "path": [
-            "color",
-            "notification",
-            "information",
-            "icon"
-          ]
         }
       },
       "success": {
         "background": {
-          "value": "#ebf5de",
+          "value": "#eaf3e2",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6363,7 +6342,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#46a610",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6382,32 +6361,11 @@ module.exports = {
             "success",
             "border"
           ]
-        },
-        "icon": {
-          "value": "#188803",
-          "filePath": "packages/tokens/properties/color/notification.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.success.600.value}"
-          },
-          "name": "ColorNotificationSuccessIcon",
-          "attributes": {
-            "category": "color",
-            "type": "notification",
-            "item": "success",
-            "subitem": "icon"
-          },
-          "path": [
-            "color",
-            "notification",
-            "success",
-            "icon"
-          ]
         }
       },
       "warning": {
         "background": {
-          "value": "#fdf1e8",
+          "value": "#fff5eb",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6428,7 +6386,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#ea7315",
+          "value": "#fc961e",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6447,32 +6405,11 @@ module.exports = {
             "warning",
             "border"
           ]
-        },
-        "icon": {
-          "value": "#188803",
-          "filePath": "packages/tokens/properties/color/notification.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.success.600.value}"
-          },
-          "name": "ColorNotificationWarningIcon",
-          "attributes": {
-            "category": "color",
-            "type": "notification",
-            "item": "warning",
-            "subitem": "icon"
-          },
-          "path": [
-            "color",
-            "notification",
-            "warning",
-            "icon"
-          ]
         }
       },
       "danger": {
         "background": {
-          "value": "#fdeaea",
+          "value": "#feedee",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6493,7 +6430,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#ea302d",
+          "value": "#df382b",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
@@ -6511,27 +6448,6 @@ module.exports = {
             "notification",
             "danger",
             "border"
-          ]
-        },
-        "icon": {
-          "value": "#188803",
-          "filePath": "packages/tokens/properties/color/notification.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.success.600.value}"
-          },
-          "name": "ColorNotificationDangerIcon",
-          "attributes": {
-            "category": "color",
-            "type": "notification",
-            "item": "danger",
-            "subitem": "icon"
-          },
-          "path": [
-            "color",
-            "notification",
-            "danger",
-            "icon"
           ]
         }
       }
@@ -6557,7 +6473,7 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#007bb4",
+        "value": "#2282a8",
         "filePath": "packages/tokens/properties/color/progressbar.json",
         "isSource": true,
         "original": {
@@ -6621,7 +6537,7 @@ module.exports = {
       },
       "branded": {
         "indicator": {
-          "value": "#46a610",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/progressbar.json",
           "isSource": true,
           "original": {
@@ -6664,7 +6580,7 @@ module.exports = {
         ]
       },
       "focus": {
-        "value": "#0b96cc",
+        "value": "#25a8d0",
         "filePath": "packages/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
@@ -6683,7 +6599,7 @@ module.exports = {
         ]
       },
       "full": {
-        "value": "#ea7315",
+        "value": "#fc961e",
         "filePath": "packages/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
@@ -6702,7 +6618,7 @@ module.exports = {
         ]
       },
       "hover": {
-        "value": "#f4b27e",
+        "value": "#ffc17d",
         "filePath": "packages/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
@@ -6780,11 +6696,11 @@ module.exports = {
         ]
       },
       "hover": {
-        "value": "#035010",
+        "value": "#41a017",
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.800.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorTabsHover",
         "attributes": {
@@ -6818,7 +6734,7 @@ module.exports = {
         ]
       },
       "active": {
-        "value": "#188803",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
@@ -6837,7 +6753,7 @@ module.exports = {
         ]
       },
       "active-disabled": {
-        "value": "#c5e39e",
+        "value": "#cbe3b5",
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
@@ -6883,11 +6799,11 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#554f52",
+            "value": "#887f87",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.700.value}"
+              "value": "{color.grey.500.value}"
             },
             "name": "ColorTagTextLightBorder",
             "attributes": {
@@ -6906,11 +6822,11 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#554f52",
+            "value": "#222020",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.700.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorTagTextLightText",
             "attributes": {
@@ -6931,11 +6847,11 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#000000",
+            "value": "#222020",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.999.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorTagTextDarkBackground",
             "attributes": {
@@ -7027,11 +6943,11 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#554f52",
+            "value": "#887f87",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.700.value}"
+              "value": "{color.grey.500.value}"
             },
             "name": "ColorTagLinkLightBorder",
             "attributes": {
@@ -7050,11 +6966,11 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#554f52",
+            "value": "#222020",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.700.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorTagLinkLightText",
             "attributes": {
@@ -7127,11 +7043,11 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#000000",
+            "value": "#222020",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.999.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorTagLinkDarkBackground",
             "attributes": {
@@ -7252,11 +7168,11 @@ module.exports = {
       "selectable": {
         "light": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#ffffff",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.200.value}"
+              "value": "{color.grey.000.value}"
             },
             "name": "ColorTagSelectableLightBackground",
             "attributes": {
@@ -7272,6 +7188,29 @@ module.exports = {
               "selectable",
               "light",
               "background"
+            ]
+          },
+          "border": {
+            "value": "#887f87",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.500.value}"
+            },
+            "name": "ColorTagSelectableLightBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "light",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "light",
+              "border"
             ]
           },
           "text": {
@@ -7299,7 +7238,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#9ed05f",
+              "value": "#add585",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7325,11 +7264,11 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#188803",
+              "value": "#0a601b",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.primary-01.600.value}"
+                "value": "{color.primary-01.800.value}"
               },
               "name": "ColorTagSelectableLightActiveBackground",
               "attributes": {
@@ -7346,6 +7285,54 @@ module.exports = {
                 "light",
                 "active",
                 "background"
+              ]
+            },
+            "border": {
+              "value": "#0a601b",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.800.value}"
+              },
+              "name": "ColorTagSelectableLightActiveBorder",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "active",
+                "border"
+              ]
+            },
+            "text": {
+              "value": "#ffffff",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.000.value}"
+              },
+              "name": "ColorTagSelectableLightActiveText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "active",
+                "text"
               ]
             }
           },
@@ -7401,11 +7388,11 @@ module.exports = {
           },
           "selected": {
             "background": {
-              "value": "#46a610",
+              "value": "#41a017",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.primary-01.500.value}"
+                "value": "{color.primary-01.600.value}"
               },
               "name": "ColorTagSelectableLightSelectedBackground",
               "attributes": {
@@ -7447,16 +7434,43 @@ module.exports = {
                 "selected",
                 "text"
               ]
+            },
+            "hover": {
+              "background": {
+                "value": "#158110",
+                "filePath": "packages/tokens/properties/color/tag.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.primary-01.700.value}"
+                },
+                "name": "ColorTagSelectableLightSelectedHoverBackground",
+                "attributes": {
+                  "category": "color",
+                  "type": "tag",
+                  "item": "selectable",
+                  "subitem": "light",
+                  "state": "selected"
+                },
+                "path": [
+                  "color",
+                  "tag",
+                  "selectable",
+                  "light",
+                  "selected",
+                  "hover",
+                  "background"
+                ]
+              }
             }
           }
         },
         "dark": {
           "background": {
-            "value": "#3c3738",
+            "value": "#222020",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.800.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorTagSelectableDarkBackground",
             "attributes": {
@@ -7472,6 +7486,29 @@ module.exports = {
               "selectable",
               "dark",
               "background"
+            ]
+          },
+          "border": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagSelectableDarkBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "dark",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "dark",
+              "border"
             ]
           },
           "text": {
@@ -7499,11 +7536,11 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#46a610",
+              "value": "#158110",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.primary-01.500.value}"
+                "value": "{color.primary-01.700.value}"
               },
               "name": "ColorTagSelectableDarkHoverBackground",
               "attributes": {
@@ -7525,11 +7562,11 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#035010",
+              "value": "#cbe3b5",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.primary-01.800.value}"
+                "value": "{color.primary-01.200.value}"
               },
               "name": "ColorTagSelectableDarkActiveBackground",
               "attributes": {
@@ -7547,15 +7584,63 @@ module.exports = {
                 "active",
                 "background"
               ]
+            },
+            "border": {
+              "value": "#cbe3b5",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.200.value}"
+              },
+              "name": "ColorTagSelectableDarkActiveBorder",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "active",
+                "border"
+              ]
+            },
+            "text": {
+              "value": "#222020",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.900.value}"
+              },
+              "name": "ColorTagSelectableDarkActiveText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "active"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "active",
+                "text"
+              ]
             }
           },
           "selected": {
             "background": {
-              "value": "#006902",
+              "value": "#91c854",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.primary-01.700.value}"
+                "value": "{color.primary-01.400.value}"
               },
               "name": "ColorTagSelectableDarkSelectedBackground",
               "attributes": {
@@ -7573,6 +7658,81 @@ module.exports = {
                 "selected",
                 "background"
               ]
+            },
+            "border": {
+              "value": "#91c854",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.400.value}"
+              },
+              "name": "ColorTagSelectableDarkSelectedBorder",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "selected"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "selected",
+                "border"
+              ]
+            },
+            "text": {
+              "value": "#222020",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.900.value}"
+              },
+              "name": "ColorTagSelectableDarkSelectedText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "selected"
+              },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "selected",
+                "text"
+              ]
+            },
+            "hover": {
+              "background": {
+                "value": "#add585",
+                "filePath": "packages/tokens/properties/color/tag.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.primary-01.300.value}"
+                },
+                "name": "ColorTagSelectableDarkSelectedHoverBackground",
+                "attributes": {
+                  "category": "color",
+                  "type": "tag",
+                  "item": "selectable",
+                  "subitem": "dark",
+                  "state": "selected"
+                },
+                "path": [
+                  "color",
+                  "tag",
+                  "selectable",
+                  "dark",
+                  "selected",
+                  "hover",
+                  "background"
+                ]
+              }
             }
           },
           "disabled": {
@@ -7630,11 +7790,11 @@ module.exports = {
       "removable": {
         "light": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#3c3738",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.200.value}"
+              "value": "{color.grey.800.value}"
             },
             "name": "ColorTagRemovableLightBackground",
             "attributes": {
@@ -7653,11 +7813,11 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#222020",
+            "value": "#ffffff",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.900.value}"
+              "value": "{color.grey.000.value}"
             },
             "name": "ColorTagRemovableLightText",
             "attributes": {
@@ -7676,11 +7836,11 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#3c3738",
+            "value": "#d3d2d6",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.800.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorTagRemovableLightIcon",
             "attributes": {
@@ -7700,11 +7860,11 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#bab6bc",
+              "value": "#554f52",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.grey.300.value}"
+                "value": "{color.grey.700.value}"
               },
               "name": "ColorTagRemovableLightHoverBackground",
               "attributes": {
@@ -7726,11 +7886,11 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#a19ba2",
+              "value": "#6f676c",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.grey.400.value}"
+                "value": "{color.grey.600.value}"
               },
               "name": "ColorTagRemovableLightActiveBackground",
               "attributes": {
@@ -7753,11 +7913,11 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#3c3738",
+            "value": "#d3d2d6",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.800.value}"
+              "value": "{color.grey.200.value}"
             },
             "name": "ColorTagRemovableDarkBackground",
             "attributes": {
@@ -7776,11 +7936,11 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#ffffff",
+            "value": "#222020",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.000.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorTagRemovableDarkText",
             "attributes": {
@@ -7799,11 +7959,11 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#d3d2d6",
+            "value": "#222020",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
-              "value": "{color.grey.200.value}"
+              "value": "{color.grey.900.value}"
             },
             "name": "ColorTagRemovableDarkIcon",
             "attributes": {
@@ -7823,11 +7983,11 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#554f52",
+              "value": "#bab6bc",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.grey.700.value}"
+                "value": "{color.grey.300.value}"
               },
               "name": "ColorTagRemovableDarkHoverBackground",
               "attributes": {
@@ -7849,11 +8009,11 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#6f676c",
+              "value": "#a19ba2",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
-                "value": "{color.grey.600.value}"
+                "value": "{color.grey.400.value}"
               },
               "name": "ColorTagRemovableDarkActiveBackground",
               "attributes": {
@@ -7923,7 +8083,7 @@ module.exports = {
       },
       "on": {
         "background": {
-          "value": "#46a610",
+          "value": "#78be20",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8034,7 +8194,7 @@ module.exports = {
       },
       "disabled-checked": {
         "background": {
-          "value": "#c5e39e",
+          "value": "#cbe3b5",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {

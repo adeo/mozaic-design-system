@@ -83,21 +83,32 @@
       @include set-focus-transition();
 
       background: $color-tag-selectable-light-background;
+      box-shadow: inset 0 0 0 get-border("s") $color-tag-selectable-light-border;
       color: $color-tag-selectable-light-text;
+      cursor: pointer;
 
       &:hover {
         background: $color-tag-selectable-light-hover-background;
       }
 
-      &:active {
-        background: $color-tag-selectable-light-active-background;
-      }
-
-      cursor: pointer;
-
       :checked + & {
         background: $color-tag-selectable-light-selected-background;
+        box-shadow: inset 0 0 0 get-border("s")
+          $color-tag-selectable-light-selected-background;
         color: $color-tag-selectable-light-selected-text;
+
+        &:hover {
+          background: $color-tag-selectable-light-selected-hover-background;
+          box-shadow: inset 0 0 0 get-border("s")
+            $color-tag-selectable-light-selected-hover-background;
+        }
+      }
+
+      &:active {
+        background: $color-tag-selectable-light-active-background;
+        box-shadow: inset 0 0 0 get-border("s")
+          $color-tag-selectable-light-active-border;
+        color: $color-tag-selectable-light-active-text;
       }
 
       :focus + & {
@@ -125,11 +136,21 @@
 
         &:active {
           background: $color-tag-selectable-dark-active-background;
+          box-shadow: inset 0 0 0 get-border("s")
+            $color-tag-selectable-dark-active-border;
+          color: $color-tag-selectable-dark-active-text;
         }
       }
 
       :checked + .mc-tag-selectable__pill {
         background: $color-tag-selectable-dark-selected-background;
+        box-shadow: inset 0 0 0 get-border("s")
+          $color-tag-selectable-dark-selected-border;
+        color: $color-tag-selectable-dark-selected-text;
+
+        &:hover {
+          background: $color-tag-selectable-dark-selected-hover-background;
+        }
       }
 
       :disabled + .mc-tag-selectable__pill {
