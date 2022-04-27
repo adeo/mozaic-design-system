@@ -45,11 +45,13 @@
       }
 
       &:checked ~ #{$parent}__content {
+        label,
         button,
         [href],
         input,
         select,
         textarea,
+        #{$parent}__focusable,
         [tabindex]:not([tabindex="-1"]) {
           z-index: 2;
         }

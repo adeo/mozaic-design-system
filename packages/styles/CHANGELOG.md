@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.30.0](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v1.30.0) (2022-04-13)
+
+
+### Bug Fixes
+
+* **component/overlay-loader:** update overlay bgcolor for ADEO Preset ([#1093](https://github.com/adeo/mozaic-design-system/issues/1093)) ([01d1be8](https://github.com/adeo/mozaic-design-system/commit/01d1be8a8bc3e3ef397346d43ae8319f01a67b2e))
+
+
+### Features
+
+* **component/accordion:** change background image inside accordion button ([#1096](https://github.com/adeo/mozaic-design-system/issues/1096)) ([73b2001](https://github.com/adeo/mozaic-design-system/commit/73b200102b62d65c23e6e1506f1890c46598c6b8)), closes [#1037](https://github.com/adeo/mozaic-design-system/issues/1037)
+* **component/modal:** improve the display of forms within a modal ([#1089](https://github.com/adeo/mozaic-design-system/issues/1089)) ([8b6a19f](https://github.com/adeo/mozaic-design-system/commit/8b6a19fee74204da1995169e146dff76915b80d2))
+
+
+
+
+
 ## [1.29.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v1.29.1) (2022-04-04)
 
 
