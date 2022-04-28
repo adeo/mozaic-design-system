@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/adeo/mozaic-design-system/compare/v1.30.0...v1.31.0) (2022-04-27)
+
+
+### Features
+
+* **component/tag:** update tags colors ([#1116](https://github.com/adeo/mozaic-design-system/issues/1116)) ([dd5df6d](https://github.com/adeo/mozaic-design-system/commit/dd5df6da04509355b004d8f5538da0c18c681982))
+
+
+
+
+
 # [2.0.0-rc.3](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.2...v2.0.0-rc.3) (2022-04-05)
 
 **Note:** Version bump only for package @mozaic-ds/tokens

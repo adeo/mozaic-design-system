@@ -7,11 +7,26 @@
   @include set-dialog-base();
 
   display: flex;
-  justify-content: flex-end;
   overflow: hidden;
 
   * {
     box-sizing: inherit;
+  }
+
+  &--ltr {
+    justify-content: flex-start;
+
+    #{$parent}__dialog {
+      transform: translateX(-100%);
+    }
+  }
+
+  &:not(#{$parent}--ltr) {
+    justify-content: flex-end;
+
+    #{$parent}__dialog {
+      transform: translateX(100%);
+    }
   }
 
   &__dialog {
@@ -20,7 +35,6 @@
     flex-direction: column;
     height: 100%;
     max-width: calc(100% - #{$mu200});
-    transform: translateX(100%);
     transition: visibility 0s linear 0.4s, transform 0.4s;
     visibility: hidden;
     width: 100%;
@@ -37,7 +51,7 @@
       max-width: 28rem; // 448px;
     }
 
-    &.is-open {
+    @at-root #{$parent} &.is-open {
       pointer-events: all;
       transform: translateX(0);
       transition: visibility 0s linear 0s, transform 0.4s;
@@ -71,11 +85,18 @@
   }
 
   &__header {
+    @include set-divider($color: "light") {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+    }
+
     display: flex;
     align-items: center;
     padding-bottom: $mu050;
     padding-top: $mu100;
     min-height: magic-unit-rem(3.75, true);
+    position: relative;
 
     @include set-from-screen(l) {
       padding-bottom: $mu075;

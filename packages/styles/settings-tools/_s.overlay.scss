@@ -1,10 +1,8 @@
 $z-index-page-overlay: 1999999998;
-
 $background-overlay-theme: (
   "lm": $color-grey-900,
-  "adeo": $color-secondary-blue-100,
+  "adeo": $color-secondary-blue-900,
 );
-
 $background-color-overlay-loader: map-get($background-overlay-theme, $preset);
 
 /// The mixin set-page-overlay() defines the styles
@@ -15,6 +13,7 @@ $background-color-overlay-loader: map-get($background-overlay-theme, $preset);
   @if $blur {
     filter: blur(1px);
   }
+
   inset: 0;
   opacity: 0;
   position: fixed;
