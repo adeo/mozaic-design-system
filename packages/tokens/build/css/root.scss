@@ -334,8 +334,10 @@
   --color-tabs-disabled: var(--color-font-light);
   --color-tabs-default: var(--color-font-darker);
   --color-progress-indicator: var(--color-info-600);
+  --color-notification-danger-icon: var(--color-danger-600);
   --color-notification-danger-border: var(--color-danger-500);
   --color-notification-danger-background: var(--color-danger-100);
+  --color-notification-warning-icon: var(--color-warning-600);
   --color-notification-warning-border: var(--color-warning-500);
   --color-notification-warning-background: var(--color-warning-100);
   --color-notification-information-icon: var(--color-info-600);
@@ -372,8 +374,6 @@
   --color-badge-info-text: var(--color-info-700);
   --color-badge-info-border: var(--color-info-500);
   --color-badge-info-background: var(--color-info-100);
-  --color-notification-danger-icon: var(--color-success-600);
-  --color-notification-warning-icon: var(--color-success-600);
   --color-notification-success-icon: var(--color-success-600);
   --color-notification-success-border: var(--color-success-500);
   --color-notification-success-background: var(--color-success-100);

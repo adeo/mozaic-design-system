@@ -6449,11 +6449,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#188803",
+          "value": "#c65200",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.success.600.value}"
+            "value": "{color.warning.600.value}"
           },
           "name": "ColorNotificationWarningIcon",
           "attributes": {
@@ -6514,11 +6514,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#188803",
+          "value": "#c61112",
           "filePath": "packages/tokens/properties/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.success.600.value}"
+            "value": "{color.danger.600.value}"
           },
           "name": "ColorNotificationDangerIcon",
           "attributes": {
@@ -7348,7 +7348,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#188803",
+              "value": "#035010",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7372,7 +7372,7 @@ module.exports = {
               ]
             },
             "border": {
-              "value": "#0a601b",
+              "value": "#035010",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7472,7 +7472,7 @@ module.exports = {
           },
           "selected": {
             "background": {
-              "value": "#46a610",
+              "value": "#188803",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7521,7 +7521,7 @@ module.exports = {
             },
             "hover": {
               "background": {
-                "value": "#158110",
+                "value": "#006902",
                 "filePath": "packages/tokens/properties/color/tag.json",
                 "isSource": true,
                 "original": {
@@ -7620,7 +7620,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#46a610",
+              "value": "#006902",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7646,7 +7646,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#035010",
+              "value": "#c5e39e",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7670,7 +7670,7 @@ module.exports = {
               ]
             },
             "border": {
-              "value": "#cbe3b5",
+              "value": "#c5e39e",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7720,7 +7720,7 @@ module.exports = {
           },
           "selected": {
             "background": {
-              "value": "#006902",
+              "value": "#78be20",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7744,7 +7744,7 @@ module.exports = {
               ]
             },
             "border": {
-              "value": "#91c854",
+              "value": "#78be20",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7793,7 +7793,7 @@ module.exports = {
             },
             "hover": {
               "background": {
-                "value": "#add585",
+                "value": "#9ed05f",
                 "filePath": "packages/tokens/properties/color/tag.json",
                 "isSource": true,
                 "original": {
