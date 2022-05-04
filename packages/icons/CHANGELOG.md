@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
+
+**Note:** Version bump only for package @mozaic-ds/icons
+
+
+
+
+
 ## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
 
 ### Bug Fixes
