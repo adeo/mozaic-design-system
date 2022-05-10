@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.32.0](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v1.32.0) (2022-05-05)
+
+
+### Features
+
+* **foundations/icons:** add color icons in the icons.js file ([#1118](https://github.com/adeo/mozaic-design-system/issues/1118)) ([5a4ece5](https://github.com/adeo/mozaic-design-system/commit/5a4ece5f0f226c33e2bbbda71ae70676b9060677))
+
+
+
+
+
 # [1.30.0](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v1.30.0) (2022-04-13)
 
 
