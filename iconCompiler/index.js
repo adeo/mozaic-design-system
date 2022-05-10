@@ -44,7 +44,7 @@ cleanDirectories(config)
       generateIconComponent('react', icons[0]),
       generateIconComponent('vue', icons[0]),
       generateIconComponent('svelte', icons[0]),
-      generateIconsModules(icons[0]),
+      generateIconsModules(icons[0].concat(icons[1])),
       generateIconsDatas(icons),
     ]).then(() => Promise.resolve())
   })
