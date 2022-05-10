@@ -164,6 +164,15 @@
       }
     }
   }
+
+  &--no-pointer {
+    #{$parent}__content {
+      &::after,
+      &::before {
+        background: none;
+      }
+    }
+  }
 }
 
 /* mqp:end */
