@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $accordion-sizes: (
   "s": (
     "background-open": "control-more-16",
@@ -97,7 +99,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
     &::before {
         content:'';
         position: absolute;
-        top: calc(50% - ($background-size / 2));
+        top: calc(50% - math.div($background-size, 2));
         right: .5rem;
         background-image: url(inline-icons($background-open, $color-font-darker));
         background-size: $background-size;
