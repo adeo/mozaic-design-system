@@ -15915,7 +15915,7 @@ export const CardsColorsCB24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb24)',
         d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
       },
     },
@@ -15932,7 +15932,7 @@ export const CardsColorsCB24 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscb24',
             x1: 12.009,
             x2: 24.699,
             y1: 25.199,
@@ -15963,7 +15963,7 @@ export const CardsColorsCheque24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque24)',
         d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
       },
     },
@@ -16002,7 +16002,7 @@ export const CardsColorsCheque24 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscheque24',
             x1: 12.006,
             x2: 24.737,
             y1: 25.556,
@@ -16157,7 +16157,7 @@ export const CardsColorsLoyalty24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty24)',
         d: 'M2.125 5.875a1 1 0 011-1h17.75a1 1 0 011 1v11.75a1 1 0 01-1 1H3.125a1 1 0 01-1-1V5.875z',
       },
     },
@@ -16201,7 +16201,7 @@ export const CardsColorsLoyalty24 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsloyalty24',
             x1: 12.046,
             x2: 24.735,
             y1: 24.996,
@@ -16232,7 +16232,7 @@ export const CardsColorsMastercard24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard24)',
         d: 'M2 5.75a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12z',
       },
     },
@@ -16305,7 +16305,7 @@ export const CardsColorsMastercard24 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsmastercard24',
             x1: 21.977,
             x2: 21.977,
             y1: 18.421,
@@ -16435,7 +16435,7 @@ export const CardsColorsPaypal24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal24)',
         d: 'M2.125 5.875a1 1 0 011-1h17.75a1 1 0 011 1v11.75a1 1 0 01-1 1H3.125a1 1 0 01-1-1V5.875z',
       },
     },
@@ -16505,7 +16505,7 @@ export const CardsColorsPaypal24 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorspaypal24',
             x1: 12.032,
             x2: 24.721,
             y1: 24.996,
@@ -16668,7 +16668,7 @@ export const CardsColorsCB32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb32)',
         d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
       },
     },
@@ -16685,7 +16685,7 @@ export const CardsColorsCB32 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscb32',
             x1: 16.325,
             x2: 32.13,
             y1: 34.308,
@@ -16716,7 +16716,7 @@ export const CardsColorsCheque32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque32)',
         d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
       },
     },
@@ -16755,7 +16755,7 @@ export const CardsColorsCheque32 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscheque32',
             x1: 14.173,
             x2: 30.011,
             y1: 37.922,
@@ -16902,7 +16902,7 @@ export const CardsColorsLoyalty32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty32)',
         d: 'M3.125 9.125a2 2 0 012-2h21.75a2 2 0 012 2v13.75a2 2 0 01-2 2H5.125a2 2 0 01-2-2V9.125z',
       },
     },
@@ -16946,7 +16946,7 @@ export const CardsColorsLoyalty32 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsloyalty32',
             x1: 16.64,
             x2: 32.423,
             y1: 34.373,
@@ -16977,7 +16977,7 @@ export const CardsColorsMastercard32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard32)',
         d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
       },
     },
@@ -17060,7 +17060,7 @@ export const CardsColorsMastercard32 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsmastercard32',
             x1: 29.564,
             x2: 29.564,
             y1: 26.254,
@@ -17190,7 +17190,7 @@ export const CardsColorsPaypal32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal32)',
         d: 'M3.125 9.125a2 2 0 012-2h21.75a2 2 0 012 2v13.75a2 2 0 01-2 2H5.125a2 2 0 01-2-2V9.125z',
       },
     },
@@ -17260,7 +17260,7 @@ export const CardsColorsPaypal32 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorspaypal32',
             x1: 17.153,
             x2: 32.936,
             y1: 34.373,
@@ -17425,7 +17425,7 @@ export const CardsColorsCB48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb48)',
         d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
       },
     },
@@ -17442,7 +17442,7 @@ export const CardsColorsCB48 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscb48',
             x1: 23.857,
             x2: 49.339,
             y1: 48.873,
@@ -17473,7 +17473,7 @@ export const CardsColorsCheque48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque48)',
         d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
       },
     },
@@ -17512,7 +17512,7 @@ export const CardsColorsCheque48 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscheque48',
             x1: 21.32,
             x2: 46.808,
             y1: 59.637,
@@ -17666,7 +17666,7 @@ export const CardsColorsLoyalty48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty48)',
         d: 'M4.125 12.125a2 2 0 012-2h35.75a2 2 0 012 2v23.75a2 2 0 01-2 2H6.125a2 2 0 01-2-2v-23.75z',
       },
     },
@@ -17707,7 +17707,7 @@ export const CardsColorsLoyalty48 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsloyalty48',
             x1: 24.071,
             x2: 49.548,
             y1: 53.162,
@@ -17738,7 +17738,7 @@ export const CardsColorsMastercard48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard48)',
         d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
       },
     },
@@ -17818,7 +17818,7 @@ export const CardsColorsMastercard48 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsmastercard48',
             x1: 44.132,
             x2: 44.132,
             y1: 40.032,
@@ -17948,7 +17948,7 @@ export const CardsColorsPaypal48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal48)',
         d: 'M4.125 12.125a2 2 0 012-2h35.75a2 2 0 012 2v23.75a2 2 0 01-2 2H6.125a2 2 0 01-2-2v-23.75z',
       },
     },
@@ -18018,7 +18018,7 @@ export const CardsColorsPaypal48 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorspaypal48',
             x1: 24.494,
             x2: 49.968,
             y1: 53.161,
@@ -18173,7 +18173,7 @@ export const CardsColorsCB64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb64)',
         d: 'M55.962 13.375H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66z',
       },
     },
@@ -18190,7 +18190,7 @@ export const CardsColorsCB64 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscb64',
             x1: 31.841,
             x2: 65.719,
             y1: 65.853,
@@ -18221,7 +18221,7 @@ export const CardsColorsCheque64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque64)',
         d: 'M5 15a2 2 0 012-2h50a2 2 0 012 2v34a2 2 0 01-2 2H7a2 2 0 01-2-2V15z',
       },
     },
@@ -18260,7 +18260,7 @@ export const CardsColorsCheque64 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorscheque64',
             x1: 28.72,
             x2: 63.84,
             y1: 77.569,
@@ -18407,7 +18407,7 @@ export const CardsColorsLoyalty64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty64)',
         d: 'M8.037 50.375a2.415 2.415 0 01-2.412-2.41v-31.93a2.415 2.415 0 012.412-2.41h47.925a2.415 2.415 0 012.413 2.41v31.93a2.415 2.415 0 01-2.413 2.41H8.038z',
       },
     },
@@ -18448,7 +18448,7 @@ export const CardsColorsLoyalty64 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsloyalty64',
             x1: 32.198,
             x2: 66.056,
             y1: 70.106,
@@ -18479,7 +18479,7 @@ export const CardsColorsMastercard64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard64)',
         d: 'M8.037 50.625h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66z',
       },
     },
@@ -18562,7 +18562,7 @@ export const CardsColorsMastercard64 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorsmastercard64',
             x1: 58.871,
             x2: 58.871,
             y1: 52.603,
@@ -18692,7 +18692,7 @@ export const CardsColorsPaypal64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal64)',
         d: 'M8.037 50.375a2.415 2.415 0 01-2.412-2.41v-31.93a2.415 2.415 0 012.412-2.41h47.925a2.415 2.415 0 012.413 2.41v31.93a2.415 2.415 0 01-2.413 2.41H8.038z',
       },
     },
@@ -18762,7 +18762,7 @@ export const CardsColorsPaypal64 = {
         {
           tagName: 'linearGradient',
           attrs: {
-            id: 'a',
+            id: 'fill-cardscolorspaypal64',
             x1: 32.839,
             x2: 66.695,
             y1: 70.108,
