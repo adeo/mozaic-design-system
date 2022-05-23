@@ -3,6 +3,164 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.3](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.2...v2.0.0-rc.3) (2022-04-05)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
+
+
+
+
+# [2.0.0-rc.2](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v2.0.0-rc.2) (2022-04-05)
+
+
+### Features
+
+* **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([73d9aaa](https://github.com/adeo/mozaic-design-system/commit/73d9aaa7acd242d656797af50f64bdead22b0a1d))
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8392150](https://github.com/adeo/mozaic-design-system/commit/839215063a46de6c80fe1f31216dae1f379fdc74))
+
+
+
+
+
+## [1.29.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v1.29.1) (2022-04-04)
+
+
+### Bug Fixes
+
+* **component/listbox:** enhance left opening ([#1088](https://github.com/adeo/mozaic-design-system/issues/1088)) ([adf239e](https://github.com/adeo/mozaic-design-system/commit/adf239e5f48c0e5dbec57ea85afd6eb91ef3f612))
+* **component/toggle:** maintain the input position within the component ([#1087](https://github.com/adeo/mozaic-design-system/issues/1087)) ([c2771f0](https://github.com/adeo/mozaic-design-system/commit/c2771f04c53cf633d4fc6fe87c1cdd376c0d04b4))
+
+
+
+
+
+# [2.0.0-rc.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v2.0.0-rc.1) (2022-03-31)
+
+
+### Features
+
+* **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([590f3af](https://github.com/adeo/mozaic-design-system/commit/590f3af0506ad8c009725043225abda5b87a6e6f))
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([4691c6a](https://github.com/adeo/mozaic-design-system/commit/4691c6a9fcf3d74366ba075d5f7724fa7198bdc2))
+
+
+
+
+
+# [1.29.0](https://github.com/adeo/mozaic-design-system/compare/v1.28.0...v1.29.0) (2022-03-30)
+
+
+### Features
+
+* **autocomplete:** add autocomplete component ([#1080](https://github.com/adeo/mozaic-design-system/issues/1080)) ([4e99f1a](https://github.com/adeo/mozaic-design-system/commit/4e99f1a227e39077cee7b133eafaafc2a7340100))
+* **dropdown:** add dropdown ([#1078](https://github.com/adeo/mozaic-design-system/issues/1078)) ([d900e69](https://github.com/adeo/mozaic-design-system/commit/d900e69a837713bea20edd3572c8867d33d07c8a))
+* **foundations/icons:** update icon set ([#1069](https://github.com/adeo/mozaic-design-system/issues/1069)) ([95065d8](https://github.com/adeo/mozaic-design-system/commit/95065d81a333cea0be60d16c1c74c041bb03b24c))
+* **generic/cssreset:** add hidden attr & .visually-hidden helpers ([#1081](https://github.com/adeo/mozaic-design-system/issues/1081)) ([af0e3a0](https://github.com/adeo/mozaic-design-system/commit/af0e3a051ae7ffebdff6e79b3ee6610802220612))
+* **listbox:** add listbox component ([#1061](https://github.com/adeo/mozaic-design-system/issues/1061)) ([9eb36df](https://github.com/adeo/mozaic-design-system/commit/9eb36dfde80469d05513783b05bfe12cda44cd1c))
+
+
+
+
+
+# [1.28.0](https://github.com/adeo/mozaic-design-system/compare/v1.27.1...v1.28.0) (2022-03-23)
+
+
+### Bug Fixes
+
+* **component/loader:** unify the loader text colour & the spinner colour ([#1068](https://github.com/adeo/mozaic-design-system/issues/1068)) ([10c1ccb](https://github.com/adeo/mozaic-design-system/commit/10c1ccbfda81cd77c5d213a7361f459226d83733))
+
+
+
+
+
+# [1.27.0](https://github.com/adeo/mozaic-design-system/compare/v1.26.1...v1.27.0) (2022-03-16)
+
+
+### Features
+
+* **component/loader:** add the new Loader component ([#1060](https://github.com/adeo/mozaic-design-system/issues/1060)) ([bb0a3d2](https://github.com/adeo/mozaic-design-system/commit/bb0a3d2ad694b24ec70f2cd1688b936f2854885e))
+* **components/layer:** update content paddings values ([#1063](https://github.com/adeo/mozaic-design-system/issues/1063)) ([84084d7](https://github.com/adeo/mozaic-design-system/commit/84084d70602484275892606c052540303ebc4c1b)), closes [#978](https://github.com/adeo/mozaic-design-system/issues/978)
+* **components/modal:** update paddings values + add a divider on the header ([#921](https://github.com/adeo/mozaic-design-system/issues/921)) ([109afa4](https://github.com/adeo/mozaic-design-system/commit/109afa4aa5a4bee12daa5a29647b7e86bf208c6d))
+
+
+
+
+
+## [1.26.1](https://github.com/adeo/mozaic-design-system/compare/v1.26.0...v1.26.1) (2022-03-02)
+
+
+### Bug Fixes
+
+* **opt-card:** enable having button or link clickable ([#1046](https://github.com/adeo/mozaic-design-system/issues/1046)) ([b85a310](https://github.com/adeo/mozaic-design-system/commit/b85a3107e38584348aa05762651024110a7e5b01))
+
+
+
+
+
+# [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
+
+
+
+
+# [1.25.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.1...v1.25.0) (2022-02-16)
+
+
+### Features
+
+* **component/option-card:** increase CSS specificity on the input element ([#1033](https://github.com/adeo/mozaic-design-system/issues/1033)) ([37f1704](https://github.com/adeo/mozaic-design-system/commit/37f170417b0df864638cc3dc35c52f050c8147f0))
+* **component/pswdinput:** increase CSS specificity on the input[type=password"] element ([#1032](https://github.com/adeo/mozaic-design-system/issues/1032)) ([9cbed7c](https://github.com/adeo/mozaic-design-system/commit/9cbed7c34a3d37be0bc15c08acfa3b59c6684e06))
+
+
+
+
+
+# [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
+
+
+### Bug Fixes
+
+* **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
+
+
+### Features
+
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8854fb8](https://github.com/adeo/mozaic-design-system/commit/8854fb89fda1ecd3d9be10b9fcc7aa102fdc7102))
+
+
+
+
+
+## [1.24.1](https://github.com/adeo/mozaic-design-system/compare/v1.24.0...v1.24.1) (2022-02-02)
+
+
+### Bug Fixes
+
+* **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
+
+
+
+
+
+# [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
+
+
+### Bug Fixes
+
+* **component/breadcrumb:** correct the size of the breadcrumb links ([#1006](https://github.com/adeo/mozaic-design-system/issues/1006)) ([9a46c60](https://github.com/adeo/mozaic-design-system/commit/9a46c60c03b5c32390482383c384eae2bc8553d5))
+
+
+### Features
+
+* **pattern/font:** set Roboto font-family when using the Adeo preset ([#1018](https://github.com/adeo/mozaic-design-system/issues/1018)) ([6612e13](https://github.com/adeo/mozaic-design-system/commit/6612e131131b088f9017ffc5620ca4f4903ed924))
+* **pattern/optiongroup:** add component ([#992](https://github.com/adeo/mozaic-design-system/issues/992)) ([1acae2c](https://github.com/adeo/mozaic-design-system/commit/1acae2c25beda79c20d00821277d1eca0be69300))
+
+
+
+
+
 ## [1.23.1](https://github.com/adeo/mozaic-design-system/compare/v1.23.0...v1.23.1) (2022-01-10)
 
 

@@ -1,125 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<IconTile /> render corectly icon colors 1`] = `
-.c8 {
-  width: 100%;
-  padding: 3px 5px;
-  font-size: 10px;
-  color: #999;
-  line-height: 2em;
-  cursor: pointer;
-  position: relative;
-  box-sizing: border-box;
-}
-
-.c8:not(:last-child) {
-  border-bottom: solid 1px #f5f5f5;
-}
-
-.c0 {
-  -webkit-flex: 0 1 30.8%;
-  -ms-flex: 0 1 30.8%;
-  flex: 0 1 30.8%;
-  list-style: none;
-  border: 1px solid #eee;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin: 0.5rem;
-}
-
-.c2 {
-  text-align: center;
-  height: 104px;
-  line-height: 3.75;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c2 img,
-.c2 svg {
-  margin: auto;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 !important;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-.c4 {
-  -webkit-flex: 0 1 20%;
-  -ms-flex: 0 1 20%;
-  flex: 0 1 20%;
-  list-style: none;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.62rem;
-  background: #f2f2f2;
-  color: darkgrey;
-}
-
-.c4:not(:first-child) {
-  border-left: 1px solid #eee;
-}
-
-.c5 {
-  background: #78be20;
-  color: white !important;
-}
-
-.c7 {
-  background: none;
-  color: inherit;
-}
-
-.c6 {
-  box-shadow: none;
-  margin: 0;
-  padding: 0;
-  border: none;
-  font-size: 0.65rem;
-  line-height: 1;
-  background: none;
-  cursor: pointer;
-  color: inherit;
-  padding: 0.5rem 0.25rem;
-}
-
-.c1 {
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
-  font-size: 0.75rem;
-  margin: 0;
-  font-weight: 600;
-  word-break: break-all;
-  height: 40px;
-}
-
-.c9 {
-  padding: 0 3px;
-  margin: 3px;
-  line-height: 1.25;
-  display: block;
-  word-break: break-all;
-  position: relative;
-}
-
 <li
-  className="c0"
+  className=""
 >
   <p
-    className="c1"
+    className=""
   >
     StoreLocation--Colors
   </p>
   <div
-    className="c2"
+    className=""
   >
     <img
       alt="Store_StoreLocation--Colors_48px.svg"
@@ -129,28 +20,28 @@ exports[`<IconTile /> render corectly icon colors 1`] = `
     />
   </div>
   <ul
-    className="c3"
+    className=""
   >
     <li
-      className="c4"
+      className=""
     >
       16px
     </li>
     <li
-      className="c4"
+      className=""
     >
       24px
     </li>
     <li
-      className="c4"
+      className=""
     >
       32px
     </li>
     <li
-      className="c4 c5"
+      className=""
     >
       <button
-        className="c6"
+        className=""
         onClick={[Function]}
         type="button"
       >
@@ -158,10 +49,10 @@ exports[`<IconTile /> render corectly icon colors 1`] = `
       </button>
     </li>
     <li
-      className="c4 c7"
+      className=""
     >
       <button
-        className="c6"
+        className=""
         onClick={[Function]}
         type="button"
       >
@@ -170,11 +61,11 @@ exports[`<IconTile /> render corectly icon colors 1`] = `
     </li>
   </ul>
   <div
-    className="c8"
+    className=""
     onClick={[Function]}
   >
     <p
-      className="c9"
+      className=""
     >
       Svg file : 
       <br />
@@ -185,122 +76,19 @@ exports[`<IconTile /> render corectly icon colors 1`] = `
 `;
 
 exports[`<IconTile /> render corectly monochrom icon 1`] = `
-.c7 {
-  width: 100%;
-  padding: 3px 5px;
-  font-size: 10px;
-  color: #999;
-  line-height: 2em;
-  cursor: pointer;
-  position: relative;
-  box-sizing: border-box;
-}
-
-.c7:not(:last-child) {
-  border-bottom: solid 1px #f5f5f5;
-}
-
-.c0 {
-  -webkit-flex: 0 1 30.8%;
-  -ms-flex: 0 1 30.8%;
-  flex: 0 1 30.8%;
-  list-style: none;
-  border: 1px solid #eee;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin: 0.5rem;
-}
-
-.c2 {
-  text-align: center;
-  height: 104px;
-  line-height: 3.75;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c2 img,
-.c2 svg {
-  margin: auto;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 !important;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-.c4 {
-  -webkit-flex: 0 1 20%;
-  -ms-flex: 0 1 20%;
-  flex: 0 1 20%;
-  list-style: none;
-  text-align: center;
-  font-size: 0.65rem;
-  line-height: 1.62rem;
-  background: #f2f2f2;
-  color: darkgrey;
-}
-
-.c4:not(:first-child) {
-  border-left: 1px solid #eee;
-}
-
-.c5 {
-  background: #78be20;
-  color: white !important;
-}
-
-.c6 {
-  box-shadow: none;
-  margin: 0;
-  padding: 0;
-  border: none;
-  font-size: 0.65rem;
-  line-height: 1;
-  background: none;
-  cursor: pointer;
-  color: inherit;
-  padding: 0.5rem 0.25rem;
-}
-
-.c1 {
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
-  font-size: 0.75rem;
-  margin: 0;
-  font-weight: 600;
-  word-break: break-all;
-  height: 40px;
-}
-
-.c8 {
-  padding: 0 3px;
-  margin: 3px;
-  line-height: 1.25;
-  display: block;
-  word-break: break-all;
-  position: relative;
-}
-
 <li
-  className="c0"
+  className=""
 >
   <p
-    className="c1"
+    className=""
   >
     Mobile
   </p>
   <div
-    className="c2"
+    className=""
   >
     <svg
+      aria-hidden="true"
       fill="#454545"
       height="48px"
       viewBox="0 0 48 48"
@@ -316,28 +104,28 @@ exports[`<IconTile /> render corectly monochrom icon 1`] = `
     </svg>
   </div>
   <ul
-    className="c3"
+    className=""
   >
     <li
-      className="c4"
+      className=""
     >
       16px
     </li>
     <li
-      className="c4"
+      className=""
     >
       24px
     </li>
     <li
-      className="c4"
+      className=""
     >
       32px
     </li>
     <li
-      className="c4 c5"
+      className=""
     >
       <button
-        className="c6"
+        className=""
         onClick={[Function]}
         type="button"
       >
@@ -345,17 +133,17 @@ exports[`<IconTile /> render corectly monochrom icon 1`] = `
       </button>
     </li>
     <li
-      className="c4"
+      className=""
     >
       64px
     </li>
   </ul>
   <div
-    className="c7"
+    className=""
     onClick={[Function]}
   >
     <p
-      className="c8"
+      className=""
     >
       React/vue : 
       <br />
@@ -363,11 +151,11 @@ exports[`<IconTile /> render corectly monochrom icon 1`] = `
     </p>
   </div>
   <div
-    className="c7"
+    className=""
     onClick={[Function]}
   >
     <p
-      className="c8"
+      className=""
     >
       Svg file : 
       <br />

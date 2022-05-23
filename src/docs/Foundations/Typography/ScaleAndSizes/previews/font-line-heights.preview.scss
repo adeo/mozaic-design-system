@@ -1,8 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
 
-$lines-heights: ('xs', 's', 'm', 'l');
+$lines-heights: ("xs", "s", "m", "l");
 
 * {
   box-sizing: border-box;
@@ -11,7 +10,7 @@ $lines-heights: ('xs', 's', 'm', 'l');
 .example {
   padding: $mu100;
 
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   &__container {
     min-height: $mu700;
@@ -28,7 +27,7 @@ $lines-heights: ('xs', 's', 'm', 'l');
 
     @each $key in $lines-heights {
       &--#{$key} {
-        @include set-font-scale('10', $key);
+        @include set-font-scale("10", $key);
       }
     }
   }
@@ -42,7 +41,7 @@ $lines-heights: ('xs', 's', 'm', 'l');
 
     @each $key in $lines-heights {
       &--#{$key} {
-        @include set-font-scale('05', $key);
+        @include set-font-scale("05", $key);
       }
     }
   }

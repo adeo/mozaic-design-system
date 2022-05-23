@@ -1,5 +1,5 @@
 ---
-title: "Code"
+title: 'Code'
 order: 2
 ---
 
@@ -10,11 +10,11 @@ Import the **settings**, the **modal**, the **bodys**, and the **button** scss f
 > Note that you can also implement in addition the scss file of **the links** if you use this component in your modals.
 
 ```scss
-@import "settings-tools/_all-settings";
-
-@import "typography/_t.bodys";
-@import "components/_c.modal";
-@import "components/_c.button";
+@import 'settings-tools/all-settings';
+@import 'typography/t.bodys';
+@import 'components/c.divider';
+@import 'components/c.modal';
+@import 'components/c.button';
 ```
 
 ## Usage
@@ -40,7 +40,9 @@ These areas are then encompassed in:
     aria-hidden="true"
   >
     <div class="mc-modal__dialog" role="document">
-      <header class="mc-modal__header">
+      <header
+        class="mc-modal__header mc-divider-bottom mc-divider-bottom--light"
+      >
         <h2 class="mc-modal__title" id="modalTitle">Modal Title</h2>
         <button class="mc-modal__close" type="button">
           <span class="mc-modal__close-text">Close</span>
@@ -49,7 +51,9 @@ These areas are then encompassed in:
       <main class="mc-modal__body">
         <article class="mc-modal__content">
           <h3 class="mc-modal__heading">Title</h3>
-          <p class="mt-body-m">Content paragraph</p>
+          <div class="mc-modal__inner mt-body-m">
+            <p>Content paragraph</p>
+          </div>
         </article>
       </main>
       <footer class="mc-modal__footer">
@@ -79,8 +83,9 @@ The header contains:
 
 The body can contain:
 
+- a content area _(`.mc-modal__content`)_
 - a heading _(`.mc-modal__heading`)_
-- as well as paragraph elements _(`.mt-body-m`)_
+- as well as an inner content where you can add paragraph elements _(`.mc-modal__inner.mt-body-m`)_
 
 > Note that the heading is an optional element
 
@@ -168,7 +173,7 @@ To do this, you need to add the `.mu-prevent-body-scroll` class to both the `htm
 When using this utility class, do not forget to import the associated SCSS file:
 
 ```scss
-@import "utilities/_u.scroll";
+@import 'utilities/_u.scroll';
 ```
 
 > Note that the use of this class is not imposed by Mozaic but left to your discretion.

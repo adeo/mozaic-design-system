@@ -8,7 +8,7 @@ order: 2
 Import the settings and the links `scss` files.
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 @import 'components/_c.links';
 ```
@@ -30,7 +30,7 @@ To create a link you have one main class to apply `mc-link`.
 - **dark (default)**: `mc-link`
 - **light**: `mc-link--light`
 - **primary**: `mc-link--primary`
-- **primary-02**: `mc-link--primary-02`
+- **primary-02**: `mc-link--primary-02` (no longer maintened)
 - **danger**: `mc-link--danger`
 
 <Preview path="link-styles" />
@@ -81,12 +81,12 @@ Link icons are only used in `16px` regardless of the link size
 
 #### Responsive classes
 
-| Default             | `mc-link--s`          | `mc-link--m`           |
-| ------------------- | --------------------- | ---------------------- |
-| From breakpoint m   | `mc-link--s@from-m`   | `mc-link--m@from-m`    |
-| From breakpoint l   | `mc-link--s@from-l`   | `mc-link-- m@from-l`   |
-| From breakpoint xl  | `mc-link--s@from-xl`  | `mc-link-- m@from-xl`  |
-| From breakpoint xxl | `mc-link--s@from-xxl` | `mc-link-- m@from-xxl` |
+| Default             | `mc-link--s`          | `mc-link--m`          |
+| ------------------- | --------------------- | --------------------- |
+| From breakpoint m   | `mc-link--s@from-m`   | `mc-link--m@from-m`   |
+| From breakpoint l   | `mc-link--s@from-l`   | `mc-link--m@from-l`   |
+| From breakpoint xl  | `mc-link--s@from-xl`  | `mc-link--m@from-xl`  |
+| From breakpoint xxl | `mc-link--s@from-xxl` | `mc-link--m@from-xxl` |
 
 ## Behaviors
 
@@ -110,7 +110,7 @@ $my-map: (
   'base': green,
   'hover': white,
   'visited': purple,
-  'active': blue
+  'active': blue,
 );
 ```
 

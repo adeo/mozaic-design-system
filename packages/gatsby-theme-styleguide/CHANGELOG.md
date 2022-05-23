@@ -3,6 +3,71 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.29.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v1.29.1) (2022-04-04)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
+# [1.29.0](https://github.com/adeo/mozaic-design-system/compare/v1.28.0...v1.29.0) (2022-03-30)
+
+
+### Features
+
+* **foundations/icons:** update icon set ([#1069](https://github.com/adeo/mozaic-design-system/issues/1069)) ([95065d8](https://github.com/adeo/mozaic-design-system/commit/95065d81a333cea0be60d16c1c74c041bb03b24c))
+
+
+
+
+
+# [1.28.0](https://github.com/adeo/mozaic-design-system/compare/v1.27.1...v1.28.0) (2022-03-23)
+
+
+### Features
+
+* **tools/tokens:** add the new Bricoman preset ([#1072](https://github.com/adeo/mozaic-design-system/issues/1072)) ([8d3d51b](https://github.com/adeo/mozaic-design-system/commit/8d3d51b1bbf2063847d0e88f29549f51c49845f3))
+
+
+
+
+
+# [1.27.0](https://github.com/adeo/mozaic-design-system/compare/v1.26.1...v1.27.0) (2022-03-16)
+
+
+### Bug Fixes
+
+* **deps/mkdirp:** use fs.mkdir instead of mkdirp ([#1049](https://github.com/adeo/mozaic-design-system/issues/1049)) ([b34e1ba](https://github.com/adeo/mozaic-design-system/commit/b34e1bafd9e2ee33fe4a2c65406bf5f40d866324)), closes [#1050](https://github.com/adeo/mozaic-design-system/issues/1050)
+
+
+
+
+
+# [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
+# [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
+# [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
 # [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
 
 

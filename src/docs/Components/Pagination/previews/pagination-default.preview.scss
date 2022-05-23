@@ -1,9 +1,7 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.select';
-@import 'components/_c.pagination';
+@import "components/c.select";
+@import "components/c.pagination";
 
 .example {
   margin: $mu100;

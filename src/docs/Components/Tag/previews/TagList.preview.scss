@@ -1,8 +1,6 @@
-@import 'settings-tools/_all-settings.scss';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.tag.scss';
+@import "components/c.tag";
 
 .example {
   padding: $mu200;

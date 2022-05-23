@@ -38,7 +38,7 @@
           <div class="mc-toggle mc-toggle--s">
             <input class="mc-toggle__input" id="toggle" type="checkbox" />
             <label class="mc-toggle__label" for="toggle">
-              <span class="mc-toggle__content">Toggle label</span>
+              <span class="mc-toggle__content">Online products only</span>
             </label>
           </div>
           <!-- Field -->
@@ -50,7 +50,7 @@
               type="search"
               class="mc-left-icon-input__input mc-text-input mc-text-input--s"
               id="withIcon"
-              placeholder="Placeholder"
+              placeholder="I am looking for..."
               name="withIcon"
             />
           </div>
@@ -80,14 +80,14 @@
           </button>
           <!-- Primary action -->
           <button type="button" class="mc-button mc-button--s">
-            <span class="mc-button__label">Primary action</span>
+            <span class="mc-button__label">Add new product</span>
           </button>
           <!-- Negative action -->
           <button
             type="button"
             class="mc-button mc-button--s mc-button--bordered-danger"
           >
-            <span class="mc-button__label">Negative action</span>
+            <span class="mc-button__label">Delete product</span>
           </button>
         </div>
       </div>
@@ -95,7 +95,7 @@
         <div
           class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
         >
-          <span class="mc-tag-removable__label">Label</span>
+          <span class="mc-tag-removable__label">Hammer drill</span>
           <button class="mc-tag-removable__remove">
             <span class="mc-tag-removable__remove-text">Supprimer</span>
           </button>
@@ -103,7 +103,7 @@
         <div
           class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
         >
-          <span class="mc-tag-removable__label">Label</span>
+          <span class="mc-tag-removable__label">Regular drill</span>
           <button class="mc-tag-removable__remove">
             <span class="mc-tag-removable__remove-text">Supprimer</span>
           </button>
@@ -111,15 +111,7 @@
         <div
           class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
         >
-          <span class="mc-tag-removable__label">Label</span>
-          <button class="mc-tag-removable__remove">
-            <span class="mc-tag-removable__remove-text">Supprimer</span>
-          </button>
-        </div>
-        <div
-          class="mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
-        >
-          <span class="mc-tag-removable__label">Label</span>
+          <span class="mc-tag-removable__label">Hammer</span>
           <button class="mc-tag-removable__remove">
             <span class="mc-tag-removable__remove-text">Supprimer</span>
           </button>
@@ -153,7 +145,7 @@
                   type="button"
                 >
                   <span class="mc-datatable__sort-label">
-                    <span class="visually-hidden">Trier par</span> Label (text)
+                    <span class="visually-hidden">Trier par</span> Product name
                   </span>
 
                   <span class="mc-datatable__sort-arrow"></span>
@@ -165,21 +157,20 @@
                   type="button"
                 >
                   <span class="mc-datatable__sort-label">
-                    <span class="visually-hidden">Trier par</span> Label
-                    (number)
+                    <span class="visually-hidden">Trier par</span> Product ID
                   </span>
 
                   <span class="mc-datatable__sort-arrow"></span>
                 </button>
               </th>
               <th scope="col">
-                <span class="mc-datatable__head-label">Label (field)</span>
+                <span class="mc-datatable__head-label">Discount %</span>
               </th>
               <th scope="col">
-                <span class="mc-datatable__head-label">Label (badge)</span>
+                <span class="mc-datatable__head-label">Status</span>
               </th>
               <th scope="col">
-                <span class="mc-datatable__head-label">Label (link)</span>
+                <span class="mc-datatable__head-label">Product Link</span>
               </th>
               <th scope="col" class="mc-datatable__cell-button">
                 <!-- Label (options) -->
@@ -212,20 +203,22 @@
                   </svg>
                 </button>
               </td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Perceuse-visseuse à Percussion</td>
+              <td class="mc-datatable__cell-number">#123456789</td>
               <td class="mc-datatable__cell-field">
                 <input
                   type="text"
                   class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
+                  placeholder="e.g. 15"
                 />
               </td>
               <td>
-                <div class="mc-badge">Badge text</div>
+                <div class="mc-badge mc-badge--warning">
+                  Waiting for approval
+                </div>
               </td>
               <td>
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
+                <a href="#" class="mc-link mc-link--s"> Page link </a>
               </td>
               <td class="mc-datatable__cell-button">
                 <button
@@ -299,20 +292,20 @@
                   </svg>
                 </button>
               </td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Perceuse à percussion sans fil</td>
+              <td class="mc-datatable__cell-number">#456</td>
               <td class="mc-datatable__cell-field">
                 <input
                   type="text"
                   class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
+                  placeholder="e.g. 15"
                 />
               </td>
               <td>
-                <div class="mc-badge">Badge text</div>
+                <div class="mc-badge mc-badge--success">Online</div>
               </td>
               <td>
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
+                <a href="#" class="mc-link mc-link--s"> Page link </a>
               </td>
               <td class="mc-datatable__cell-button">
                 <button
@@ -349,20 +342,20 @@
                   </svg>
                 </button>
               </td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Perceuse sans fil</td>
+              <td class="mc-datatable__cell-number">#2345678</td>
               <td class="mc-datatable__cell-field">
                 <input
                   type="text"
                   class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
+                  placeholder="e.g. 15"
                 />
               </td>
               <td>
-                <div class="mc-badge">Badge text</div>
+                <div class="mc-badge mc-badge--success">Online</div>
               </td>
               <td>
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
+                <a href="#" class="mc-link mc-link--s"> Page link </a>
               </td>
               <td class="mc-datatable__cell-button">
                 <button
@@ -398,20 +391,20 @@
                   </svg>
                 </button>
               </td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Perceuse à percussion filaire</td>
+              <td class="mc-datatable__cell-number">-</td>
               <td class="mc-datatable__cell-field">
                 <input
                   type="text"
                   class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
+                  placeholder="e.g. 15"
                 />
               </td>
               <td>
-                <div class="mc-badge">Badge text</div>
+                <div class="mc-badge mc-badge--neutral">Draft</div>
               </td>
               <td>
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
+                <a href="#" class="mc-link mc-link--s"> Page link </a>
               </td>
               <td class="mc-datatable__cell-button">
                 <button
@@ -447,20 +440,20 @@
                   </svg>
                 </button>
               </td>
-              <td>Text</td>
-              <td class="mc-datatable__cell-number">99999999</td>
+              <td>Perceuse visseuse sans fil</td>
+              <td class="mc-datatable__cell-number">#34567</td>
               <td class="mc-datatable__cell-field">
                 <input
                   type="text"
                   class="mc-text-input mc-text-input--s"
-                  placeholder="Placeholder"
+                  placeholder="e.g. 15"
                 />
               </td>
               <td>
-                <div class="mc-badge">Badge text</div>
+                <div class="mc-badge mc-badge--danger">Offline</div>
               </td>
               <td>
-                <a href="#" class="mc-link mc-link--s"> Link label </a>
+                <a href="#" class="mc-link mc-link--s"> Page link </a>
               </td>
               <td class="mc-datatable__cell-button">
                 <button

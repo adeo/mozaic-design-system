@@ -66,6 +66,13 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_24px.svg",
+      "iconName": "CardsColorsOneyX4"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "Cards_Colors_Paylib",
       "fileName": "Payment_Cards_Colors_Paylib_24px.svg",
       "iconName": "CardsColorsPaylib"
@@ -160,6 +167,13 @@
       "name": "Cards_Colors_OneyX3",
       "fileName": "Payment_Cards_Colors_OneyX3_32px.svg",
       "iconName": "CardsColorsOneyX3"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_32px.svg",
+      "iconName": "CardsColorsOneyX4"
     },
     {
       "cat": "Payment",
@@ -262,6 +276,13 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_48px.svg",
+      "iconName": "CardsColorsOneyX4"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Colors_Paylib",
       "fileName": "Payment_Cards_Colors_Paylib_48px.svg",
       "iconName": "CardsColorsPaylib"
@@ -360,6 +381,13 @@
     {
       "cat": "Payment",
       "size": "64px",
+      "name": "Cards_Colors_OneyX4",
+      "fileName": "Payment_Cards_Colors_OneyX4_64px.svg",
+      "iconName": "CardsColorsOneyX4"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
       "name": "Cards_Colors_Paylib",
       "fileName": "Payment_Cards_Colors_Paylib_64px.svg",
       "iconName": "CardsColorsPaylib"
@@ -453,18 +481,26 @@
     {
       "cat": "Navigation",
       "size": "16px",
-      "name": "Arrow_Breadcrumb--Bottom",
-      "fileName": "Navigation_Arrow_Breadcrumb--Bottom_16px.svg",
-      "iconName": "ArrowBreadcrumbBottom",
-      "componentName": "ArrowBreadcrumbBottom16"
+      "name": "Arrow_DoubleArrow--Left",
+      "fileName": "Navigation_Arrow_DoubleArrow--Left_16px.svg",
+      "iconName": "ArrowDoubleArrowLeft",
+      "componentName": "ArrowDoubleArrowLeft16"
     },
     {
       "cat": "Navigation",
       "size": "16px",
-      "name": "Arrow_Breadcrumb--Right",
-      "fileName": "Navigation_Arrow_Breadcrumb--Right_16px.svg",
-      "iconName": "ArrowBreadcrumbRight",
-      "componentName": "ArrowBreadcrumbRight16"
+      "name": "Arrow_DoubleArrow--Right",
+      "fileName": "Navigation_Arrow_DoubleArrow--Right_16px.svg",
+      "iconName": "ArrowDoubleArrowRight",
+      "componentName": "ArrowDoubleArrowRight16"
+    },
+    {
+      "cat": "Navigation",
+      "size": "16px",
+      "name": "Arrow_Down",
+      "fileName": "Navigation_Arrow_Down_16px.svg",
+      "iconName": "ArrowDown",
+      "componentName": "ArrowDown16"
     },
     {
       "cat": "Navigation",
@@ -473,6 +509,14 @@
       "fileName": "Navigation_Arrow_Next_16px.svg",
       "iconName": "ArrowNext",
       "componentName": "ArrowNext16"
+    },
+    {
+      "cat": "Navigation",
+      "size": "16px",
+      "name": "Arrow_Up",
+      "fileName": "Navigation_Arrow_Up_16px.svg",
+      "iconName": "ArrowUp",
+      "componentName": "ArrowUp16"
     },
     {
       "cat": "Navigation",
@@ -957,6 +1001,30 @@
     {
       "cat": "Navigation",
       "size": "24px",
+      "name": "Arrow_DoubleArrow--Left",
+      "fileName": "Navigation_Arrow_DoubleArrow--Left_24px.svg",
+      "iconName": "ArrowDoubleArrowLeft",
+      "componentName": "ArrowDoubleArrowLeft24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Arrow_DoubleArrow--Right",
+      "fileName": "Navigation_Arrow_DoubleArrow--Right_24px.svg",
+      "iconName": "ArrowDoubleArrowRight",
+      "componentName": "ArrowDoubleArrowRight24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Arrow_Down",
+      "fileName": "Navigation_Arrow_Down_24px.svg",
+      "iconName": "ArrowDown",
+      "componentName": "ArrowDown24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
       "name": "Arrow_Next",
       "fileName": "Navigation_Arrow_Next_24px.svg",
       "iconName": "ArrowNext",
@@ -965,10 +1033,10 @@
     {
       "cat": "Navigation",
       "size": "24px",
-      "name": "Bell",
-      "fileName": "Navigation_Bell_24px.svg",
-      "iconName": "Bell",
-      "componentName": "Bell24"
+      "name": "Arrow_Up",
+      "fileName": "Navigation_Arrow_Up_24px.svg",
+      "iconName": "ArrowUp",
+      "componentName": "ArrowUp24"
     },
     {
       "cat": "Navigation",
@@ -1165,6 +1233,14 @@
     {
       "cat": "Navigation",
       "size": "24px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_24px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
       "name": "Display_Other",
       "fileName": "Navigation_Display_Other_24px.svg",
       "iconName": "DisplayOther",
@@ -1241,6 +1317,14 @@
       "fileName": "Navigation_Notification_Available_24px.svg",
       "iconName": "NotificationAvailable",
       "componentName": "NotificationAvailable24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Notification_Bell",
+      "fileName": "Navigation_Notification_Bell_24px.svg",
+      "iconName": "NotificationBell",
+      "componentName": "NotificationBell24"
     },
     {
       "cat": "Navigation",
@@ -1401,6 +1485,14 @@
       "fileName": "Payment_Cards_Monochrome_OneyX3_24px.svg",
       "iconName": "CardsMonochromeOneyX3",
       "componentName": "CardsMonochromeOneyX324"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
+      "name": "Cards_Monochrome_OneyX4",
+      "fileName": "Payment_Cards_Monochrome_OneyX4_24px.svg",
+      "iconName": "CardsMonochromeOneyX4",
+      "componentName": "CardsMonochromeOneyX424"
     },
     {
       "cat": "Payment",
@@ -1581,6 +1673,14 @@
     {
       "cat": "Product",
       "size": "24px",
+      "name": "Promise_Funding",
+      "fileName": "Product_Promise_Funding_24px.svg",
+      "iconName": "PromiseFunding",
+      "componentName": "PromiseFunding24"
+    },
+    {
+      "cat": "Product",
+      "size": "24px",
       "name": "Promise_MadeInEurope",
       "fileName": "Product_Promise_MadeInEurope_24px.svg",
       "iconName": "PromiseMadeInEurope",
@@ -1717,14 +1817,6 @@
     {
       "cat": "Service",
       "size": "24px",
-      "name": "Custom_Funding",
-      "fileName": "Service_Custom_Funding_24px.svg",
-      "iconName": "CustomFunding",
-      "componentName": "CustomFunding24"
-    },
-    {
-      "cat": "Service",
-      "size": "24px",
       "name": "Custom_Sample",
       "fileName": "Service_Custom_Sample_24px.svg",
       "iconName": "CustomSample",
@@ -1761,6 +1853,14 @@
       "fileName": "Service_Delivery_Delivery--Home_24px.svg",
       "iconName": "DeliveryDeliveryHome",
       "componentName": "DeliveryDeliveryHome24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
+      "name": "Delivery_Delivery--Locker",
+      "fileName": "Service_Delivery_Delivery--Locker_24px.svg",
+      "iconName": "DeliveryDeliveryLocker",
+      "componentName": "DeliveryDeliveryLocker24"
     },
     {
       "cat": "Service",
@@ -2085,10 +2185,26 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_24px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_24px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_24px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains24"
     },
     {
       "cat": "Universe",
@@ -2243,6 +2359,14 @@
       "componentName": "Tool24"
     },
     {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_24px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw24"
+    },
+    {
       "cat": "User",
       "size": "24px",
       "name": "Account_Customer--Collaborator",
@@ -2269,10 +2393,26 @@
     {
       "cat": "User",
       "size": "24px",
+      "name": "Account_Profile--Man",
+      "fileName": "User_Account_Profile--Man_24px.svg",
+      "iconName": "AccountProfileMan",
+      "componentName": "AccountProfileMan24"
+    },
+    {
+      "cat": "User",
+      "size": "24px",
       "name": "Account_Profile--View",
       "fileName": "User_Account_Profile--View_24px.svg",
       "iconName": "AccountProfileView",
       "componentName": "AccountProfileView24"
+    },
+    {
+      "cat": "User",
+      "size": "24px",
+      "name": "Account_Profile--Woman",
+      "fileName": "User_Account_Profile--Woman_24px.svg",
+      "iconName": "AccountProfileWoman",
+      "componentName": "AccountProfileWoman24"
     },
     {
       "cat": "User",
@@ -2885,10 +3025,42 @@
     {
       "cat": "Navigation",
       "size": "32px",
+      "name": "Arrow_DoubleArrow--Left",
+      "fileName": "Navigation_Arrow_DoubleArrow--Left_32px.svg",
+      "iconName": "ArrowDoubleArrowLeft",
+      "componentName": "ArrowDoubleArrowLeft32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Arrow_DoubleArrow--Right",
+      "fileName": "Navigation_Arrow_DoubleArrow--Right_32px.svg",
+      "iconName": "ArrowDoubleArrowRight",
+      "componentName": "ArrowDoubleArrowRight32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Arrow_Down",
+      "fileName": "Navigation_Arrow_Down_32px.svg",
+      "iconName": "ArrowDown",
+      "componentName": "ArrowDown32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
       "name": "Arrow_Next",
       "fileName": "Navigation_Arrow_Next_32px.svg",
       "iconName": "ArrowNext",
       "componentName": "ArrowNext32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Arrow_Up",
+      "fileName": "Navigation_Arrow_Up_32px.svg",
+      "iconName": "ArrowUp",
+      "componentName": "ArrowUp32"
     },
     {
       "cat": "Navigation",
@@ -3081,6 +3253,14 @@
       "fileName": "Navigation_Display_MovingBlock_32px.svg",
       "iconName": "DisplayMovingBlock",
       "componentName": "DisplayMovingBlock32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_32px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions32"
     },
     {
       "cat": "Navigation",
@@ -3333,6 +3513,14 @@
     {
       "cat": "Payment",
       "size": "32px",
+      "name": "Cards_Monochrome_OneyX4",
+      "fileName": "Payment_Cards_Monochrome_OneyX4_32px.svg",
+      "iconName": "CardsMonochromeOneyX4",
+      "componentName": "CardsMonochromeOneyX432"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
       "name": "Cards_Monochrome_Paylib",
       "fileName": "Payment_Cards_Monochrome_Paylib_32px.svg",
       "iconName": "CardsMonochromePaylib",
@@ -3509,6 +3697,14 @@
     {
       "cat": "Product",
       "size": "32px",
+      "name": "Promise_Funding",
+      "fileName": "Product_Promise_Funding_32px.svg",
+      "iconName": "PromiseFunding",
+      "componentName": "PromiseFunding32"
+    },
+    {
+      "cat": "Product",
+      "size": "32px",
       "name": "Promise_MadeInEurope",
       "fileName": "Product_Promise_MadeInEurope_32px.svg",
       "iconName": "PromiseMadeInEurope",
@@ -3645,14 +3841,6 @@
     {
       "cat": "Service",
       "size": "32px",
-      "name": "Custom_Funding",
-      "fileName": "Service_Custom_Funding_32px.svg",
-      "iconName": "CustomFunding",
-      "componentName": "CustomFunding32"
-    },
-    {
-      "cat": "Service",
-      "size": "32px",
       "name": "Custom_Sample",
       "fileName": "Service_Custom_Sample_32px.svg",
       "iconName": "CustomSample",
@@ -3689,6 +3877,14 @@
       "fileName": "Service_Delivery_Delivery--Home_32px.svg",
       "iconName": "DeliveryDeliveryHome",
       "componentName": "DeliveryDeliveryHome32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
+      "name": "Delivery_Delivery--Locker",
+      "fileName": "Service_Delivery_Delivery--Locker_32px.svg",
+      "iconName": "DeliveryDeliveryLocker",
+      "componentName": "DeliveryDeliveryLocker32"
     },
     {
       "cat": "Service",
@@ -4013,10 +4209,26 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_32px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_32px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_32px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains32"
     },
     {
       "cat": "Universe",
@@ -4171,6 +4383,14 @@
       "componentName": "Tool32"
     },
     {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_32px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw32"
+    },
+    {
       "cat": "User",
       "size": "32px",
       "name": "Account_Customer--Collaborator",
@@ -4309,10 +4529,10 @@
     {
       "cat": "Various",
       "size": "32px",
-      "name": "Balcon",
-      "fileName": "Various_Balcon_32px.svg",
-      "iconName": "Balcon",
-      "componentName": "Balcon32"
+      "name": "Balcony",
+      "fileName": "Various_Balcony_32px.svg",
+      "iconName": "Balcony",
+      "componentName": "Balcony32"
     },
     {
       "cat": "Various",
@@ -4829,10 +5049,42 @@
     {
       "cat": "Navigation",
       "size": "48px",
+      "name": "Arrow_DoubleArrow--Left",
+      "fileName": "Navigation_Arrow_DoubleArrow--Left_48px.svg",
+      "iconName": "ArrowDoubleArrowLeft",
+      "componentName": "ArrowDoubleArrowLeft48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Arrow_DoubleArrow--Right",
+      "fileName": "Navigation_Arrow_DoubleArrow--Right_48px.svg",
+      "iconName": "ArrowDoubleArrowRight",
+      "componentName": "ArrowDoubleArrowRight48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Arrow_Down",
+      "fileName": "Navigation_Arrow_Down_48px.svg",
+      "iconName": "ArrowDown",
+      "componentName": "ArrowDown48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
       "name": "Arrow_Next",
       "fileName": "Navigation_Arrow_Next_48px.svg",
       "iconName": "ArrowNext",
       "componentName": "ArrowNext48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Arrow_Up",
+      "fileName": "Navigation_Arrow_Up_48px.svg",
+      "iconName": "ArrowUp",
+      "componentName": "ArrowUp48"
     },
     {
       "cat": "Navigation",
@@ -5029,6 +5281,14 @@
     {
       "cat": "Navigation",
       "size": "48px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_48px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
       "name": "Display_Other",
       "fileName": "Navigation_Display_Other_48px.svg",
       "iconName": "DisplayOther",
@@ -5101,18 +5361,18 @@
     {
       "cat": "Navigation",
       "size": "48px",
-      "name": "Navigation_Bell",
-      "fileName": "Navigation_Navigation_Bell_48px.svg",
-      "iconName": "NavigationBell",
-      "componentName": "NavigationBell48"
-    },
-    {
-      "cat": "Navigation",
-      "size": "48px",
       "name": "Notification_Available",
       "fileName": "Navigation_Notification_Available_48px.svg",
       "iconName": "NotificationAvailable",
       "componentName": "NotificationAvailable48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Notification_Bell",
+      "fileName": "Navigation_Notification_Bell_48px.svg",
+      "iconName": "NotificationBell",
+      "componentName": "NotificationBell48"
     },
     {
       "cat": "Navigation",
@@ -5273,6 +5533,14 @@
       "fileName": "Payment_Cards_Monochrome_OneyX3_48px.svg",
       "iconName": "CardsMonochromeOneyX3",
       "componentName": "CardsMonochromeOneyX348"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
+      "name": "Cards_Monochrome_OneyX4",
+      "fileName": "Payment_Cards_Monochrome_OneyX4_48px.svg",
+      "iconName": "CardsMonochromeOneyX4",
+      "componentName": "CardsMonochromeOneyX448"
     },
     {
       "cat": "Payment",
@@ -5453,6 +5721,14 @@
     {
       "cat": "Product",
       "size": "48px",
+      "name": "Promise_Funding",
+      "fileName": "Product_Promise_Funding_48px.svg",
+      "iconName": "PromiseFunding",
+      "componentName": "PromiseFunding48"
+    },
+    {
+      "cat": "Product",
+      "size": "48px",
       "name": "Promise_MadeInEurope",
       "fileName": "Product_Promise_MadeInEurope_48px.svg",
       "iconName": "PromiseMadeInEurope",
@@ -5589,14 +5865,6 @@
     {
       "cat": "Service",
       "size": "48px",
-      "name": "Custom_Funding",
-      "fileName": "Service_Custom_Funding_48px.svg",
-      "iconName": "CustomFunding",
-      "componentName": "CustomFunding48"
-    },
-    {
-      "cat": "Service",
-      "size": "48px",
       "name": "Custom_Sample",
       "fileName": "Service_Custom_Sample_48px.svg",
       "iconName": "CustomSample",
@@ -5633,6 +5901,14 @@
       "fileName": "Service_Delivery_Delivery--Home_48px.svg",
       "iconName": "DeliveryDeliveryHome",
       "componentName": "DeliveryDeliveryHome48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
+      "name": "Delivery_Delivery--Locker",
+      "fileName": "Service_Delivery_Delivery--Locker_48px.svg",
+      "iconName": "DeliveryDeliveryLocker",
+      "componentName": "DeliveryDeliveryLocker48"
     },
     {
       "cat": "Service",
@@ -5957,10 +6233,26 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_48px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_48px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_48px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains48"
     },
     {
       "cat": "Universe",
@@ -6113,6 +6405,14 @@
       "fileName": "Universe_Tool_48px.svg",
       "iconName": "Tool",
       "componentName": "Tool48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_48px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw48"
     },
     {
       "cat": "User",
@@ -6773,6 +7073,30 @@
     {
       "cat": "Navigation",
       "size": "64px",
+      "name": "Arrow_DoubleArrow--Left",
+      "fileName": "Navigation_Arrow_DoubleArrow--Left_64px.svg",
+      "iconName": "ArrowDoubleArrowLeft",
+      "componentName": "ArrowDoubleArrowLeft64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Arrow_DoubleArrow--Right",
+      "fileName": "Navigation_Arrow_DoubleArrow--Right_64px.svg",
+      "iconName": "ArrowDoubleArrowRight",
+      "componentName": "ArrowDoubleArrowRight64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Arrow_Down",
+      "fileName": "Navigation_Arrow_Down_64px.svg",
+      "iconName": "ArrowDown",
+      "componentName": "ArrowDown64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
       "name": "Arrow_Next",
       "fileName": "Navigation_Arrow_Next_64px.svg",
       "iconName": "ArrowNext",
@@ -6781,10 +7105,10 @@
     {
       "cat": "Navigation",
       "size": "64px",
-      "name": "Control_Circle--Add",
-      "fileName": "Navigation_Control_Circle--Add_64px.svg",
-      "iconName": "ControlCircleAdd",
-      "componentName": "ControlCircleAdd64"
+      "name": "Arrow_Up",
+      "fileName": "Navigation_Arrow_Up_64px.svg",
+      "iconName": "ArrowUp",
+      "componentName": "ArrowUp64"
     },
     {
       "cat": "Navigation",
@@ -6801,6 +7125,14 @@
       "fileName": "Navigation_Control_Circle--Less_64px.svg",
       "iconName": "ControlCircleLess",
       "componentName": "ControlCircleLess64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Control_Circle--More",
+      "fileName": "Navigation_Control_Circle--More_64px.svg",
+      "iconName": "ControlCircleMore",
+      "componentName": "ControlCircleMore64"
     },
     {
       "cat": "Navigation",
@@ -6969,6 +7301,14 @@
       "fileName": "Navigation_Display_MovingBlock_64px.svg",
       "iconName": "DisplayMovingBlock",
       "componentName": "DisplayMovingBlock64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Display_Options",
+      "fileName": "Navigation_Display_Options_64px.svg",
+      "iconName": "DisplayOptions",
+      "componentName": "DisplayOptions64"
     },
     {
       "cat": "Navigation",
@@ -7217,6 +7557,14 @@
       "fileName": "Payment_Cards_Monochrome_OneyX3_64px.svg",
       "iconName": "CardsMonochromeOneyX3",
       "componentName": "CardsMonochromeOneyX364"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Cards_Monochrome_OneyX4",
+      "fileName": "Payment_Cards_Monochrome_OneyX4_64px.svg",
+      "iconName": "CardsMonochromeOneyX4",
+      "componentName": "CardsMonochromeOneyX464"
     },
     {
       "cat": "Payment",
@@ -7581,6 +7929,14 @@
     {
       "cat": "Service",
       "size": "64px",
+      "name": "Delivery_Delivery--Locker",
+      "fileName": "Service_Delivery_Delivery--Locker_64px.svg",
+      "iconName": "DeliveryDeliveryLocker",
+      "componentName": "DeliveryDeliveryLocker64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
       "name": "PurchaseHelp_CarRent",
       "fileName": "Service_PurchaseHelp_CarRent_64px.svg",
       "iconName": "PurchaseHelpCarRent",
@@ -7909,10 +8265,26 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "ChristmasTree",
+      "fileName": "Universe_ChristmasTree_64px.svg",
+      "iconName": "ChristmasTree",
+      "componentName": "ChristmasTree64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "ConnectedHome",
       "fileName": "Universe_ConnectedHome_64px.svg",
       "iconName": "ConnectedHome",
       "componentName": "ConnectedHome64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Curtains",
+      "fileName": "Universe_Curtains_64px.svg",
+      "iconName": "Curtains",
+      "componentName": "Curtains64"
     },
     {
       "cat": "Universe",
@@ -8065,6 +8437,14 @@
       "fileName": "Universe_Tool_64px.svg",
       "iconName": "Tool",
       "componentName": "Tool64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "WoodSaw",
+      "fileName": "Universe_WoodSaw_64px.svg",
+      "iconName": "WoodSaw",
+      "componentName": "WoodSaw64"
     },
     {
       "cat": "User",

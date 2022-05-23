@@ -17,7 +17,7 @@ You have read [the presentation tab and followed the installation steps](/GetSta
 Now you should have:
 
 - a brand new project directory
-- node 12+ installed
+- node 16+ installed
 - a `package.json` file with Mozaic installed (at least `@mozaic-ds/css-dev-tools`, `@mozaic-ds/styles` and `@mozaic-ds/web-fonts`)
 
 ## I) Install and configure PostCSS
@@ -54,7 +54,7 @@ Create `src/` and `dist/` directories.
 Create a `src/bundle.scss` file and paste the following code:
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -144,7 +144,7 @@ Run the `npm run css:lint-fix` command. Nothing should happen, because the code 
 Edit your `src/bundle.scss` file, and edit line 5 to remove the line break between the mixin instantiation and the first declaration :
 
 ```scss
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 body {
   @include set-font-scale('12', 's');
@@ -181,7 +181,6 @@ Add in your package.json the following script:
     "statics:copy": "rm -rf dist/static && mkdir dist/static && cp node_modules/@mozaic-ds/web-fonts/*.{woff,woff2} dist/static"
 },
 ```
-
 
 ### B) Create a dev server:
 
@@ -248,7 +247,7 @@ $local-config: (
   font-path: 'static',
 );
 
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 @include import-font-families(); /* add this */
 
@@ -290,7 +289,7 @@ Your browser should now look like this:
 
 ```scss
 // mandatory
-@import 'settings-tools/_all-settings';
+@import 'settings-tools/all-settings';
 
 // your components
 @import 'layout/_l.grid';

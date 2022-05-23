@@ -1,0 +1,11 @@
+.mc-overlay {
+  @include set-page-overlay();
+}
+
+.mc-overlay-loader {
+  @include set-page-overlay($background-color-overlay-loader, false);
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

@@ -1,16 +1,15 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
 
 .example {
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   display: block;
   padding: $mu150;
 
   &__title {
-    @include set-font-scale('07', 'm');
-    @include set-font-face('semi-bold');
+    @include set-font-scale("07", "m");
+    @include set-font-face("semi-bold");
 
     background: $color-grey-100;
     text-align: center;
@@ -25,15 +24,15 @@
     position: relative;
 
     &--default {
-      @include set-divider('bottom', 'default', '100%');
+      @include set-divider("bottom", "default", "100%");
     }
 
     &--custom-width {
-      @include set-divider('bottom', 'light', '50%');
+      @include set-divider("bottom", "light", "50%");
     }
 
     &--vertical {
-      @include set-divider('right', 'dark', '100%');
+      @include set-divider("right", "dark", "100%");
 
       max-width: 50%;
       padding: 0 $mu100;

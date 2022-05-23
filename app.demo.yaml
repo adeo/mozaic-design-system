@@ -1,5 +1,5 @@
 service: demo
-runtime: nodejs12
+runtime: nodejs16
 instance_class: F1
 
 handlers:
@@ -8,17 +8,31 @@ handlers:
     redirect_http_response_code: 301
     static_files: public/index.html
     upload: public/index.html
+    http_headers:
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+      X-FRAME-OPTIONS: 'sameorigin'
+      Referrer-Policy: 'strict-origin-when-cross-origin'
   - url: /(.*)/
     secure: always
     redirect_http_response_code: 301
     static_files: public/\1/index.html
     upload: public/(.*)/index.html
+    http_headers:
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+      X-FRAME-OPTIONS: 'sameorigin'
+      Referrer-Policy: 'strict-origin-when-cross-origin'
   - url: /(.*)
     secure: always
     redirect_http_response_code: 301
     static_files: public/\1
     upload: public/(.*)
-
+    http_headers:
+      X-Content-Type-Options: nosniff
+      X-XSS-Protection: 1; mode=block
+      X-FRAME-OPTIONS: 'sameorigin'
+      Referrer-Policy: 'strict-origin-when-cross-origin'
 
 automatic_scaling:
   min_instances: 0

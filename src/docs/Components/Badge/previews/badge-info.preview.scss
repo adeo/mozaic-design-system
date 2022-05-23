@@ -1,8 +1,6 @@
-@import "settings-tools/_all-settings";
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import "components/_c.badge";
+@import "components/c.badge";
 
 .example {
   align-items: flex-start;

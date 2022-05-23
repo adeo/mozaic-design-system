@@ -1,0 +1,11 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.overlay";
+@import "components/c.loader";
+
+.example {
+  @include set-font-face();
+
+  min-height: 500px;
+  padding: $mu200;
+}

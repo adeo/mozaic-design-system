@@ -1,12 +1,10 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.button';
-@import 'components/_c.card';
+@import "components/c.button";
+@import "components/c.card";
 
 .example {
-  @include set-from-screen('m') {
+  @include set-from-screen("m") {
     display: flex;
     justify-content: center;
   }

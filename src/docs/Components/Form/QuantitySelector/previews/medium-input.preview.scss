@@ -1,11 +1,9 @@
-@import 'settings-tools/_all-settings';
-
+@import "settings-tools/all-settings";
 @include import-font-families();
-
-@import 'components/_c.text-input';
-@import 'components/_c.fields';
-@import 'components/_c.button';
-@import 'components/_c.quantity-selector';
+@import "components/c.text-input";
+@import "components/c.fields";
+@import "components/c.button";
+@import "components/c.quantity-selector";
 
 .example {
   @include set-font-face();

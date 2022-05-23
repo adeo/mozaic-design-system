@@ -59,6 +59,10 @@
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M7.63 11.21a1 1 0 01-1.38 0l-2.92-2.6a1 1 0 111.34-1.48l2.22 2 4.41-4.34a1 1 0 111.4 1.42z"/></svg>';
   }
 
+  @if $icon == "notification-available-24" {
+    @return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 18.68a1 1 0 01-.7-.29l-5-5A1 1 0 015.73 12L10 16.27 18.31 8a1 1 0 011.42 1.42l-9 9a1 1 0 01-.73.26z"/></svg>';
+  }
+
   @if $icon == "notification-information-24" {
     @return '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" fill="#{$fill}"><path d="M12 22a10 10 0 1110-10 10 10 0 01-10 10zm0-18a8 8 0 108 8 8 8 0 00-8-8z"/><path d="M12 17a1 1 0 01-1-1v-4.39a1 1 0 012 0V16a1 1 0 01-1 1z"/><circle cx="12" cy="8" r="1"/></svg>';
   }
