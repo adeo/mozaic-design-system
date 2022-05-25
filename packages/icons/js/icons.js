@@ -163,10 +163,7 @@ export const ControlLess16 = {
   viewBox: '0 0 16 16',
   size: '1rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M12 9H4a1 1 0 010-2h8a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M12 9H4a1 1 0 010-2h8a1 1 0 010 2z' } },
   ],
 }
 export const ControlMore16 = {
@@ -384,10 +381,7 @@ export const Tablet24 = {
         d: 'M18 4H6a1 1 0 00-1 1v14a1 1 0 001 1h12a1 1 0 001-1V5a1 1 0 00-1-1zm-1 2v9H7V6zM7 18v-2h10v2z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 17, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 17, r: 0.5 } },
   ],
 }
 export const HygieneCleaned24 = {
@@ -530,10 +524,7 @@ export const PaymentNoContact24 = {
         d: 'M6 14.5h4a.5.5 0 00.5-.5v-4a.5.5 0 00-.5-.5H6a.5.5 0 00-.5.5v4a.5.5 0 00.5.5zm.5-1v-1h1v1zm3-3v3h-1v-3zm-3 0h1v1h-1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.75, cy: 12, r: 0.75 },
-    },
+    { tagName: 'circle', attrs: { cx: 12.75, cy: 12, r: 0.75 } },
     {
       tagName: 'path',
       attrs: {
@@ -696,10 +687,7 @@ export const Camera24 = {
         d: 'M15.17 6l1.12 1.12a3 3 0 002.12.88H20v10H4V8h1.59a3 3 0 002.12-.88L8.83 6h6.34m.42-2H8.41a1 1 0 00-.7.29L6.29 5.71a1 1 0 01-.7.29H3a1 1 0 00-1 1v12a1 1 0 001 1h18a1 1 0 001-1V7a1 1 0 00-1-1h-2.59a1 1 0 01-.7-.29l-1.42-1.42a1 1 0 00-.7-.29z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M6 11a1 1 0 110-2 1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M6 11a1 1 0 110-2 1 1 0 010 2z' } },
   ],
 }
 export const DownloadApp24 = {
@@ -766,10 +754,7 @@ export const NoPicture24 = {
         d: 'M12 9.25a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5zm0 4a1.5 1.5 0 111.5-1.5 1.5 1.5 0 01-1.5 1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8.5, cy: 10, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 8.5, cy: 10, r: 0.5 } },
   ],
 }
 export const Pdf24 = {
@@ -1144,10 +1129,7 @@ export const ControlCircleLess24 = {
         d: 'M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M15.5 13h-7a1 1 0 010-2h7a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M15.5 13h-7a1 1 0 010-2h7a1 1 0 010 2z' } },
   ],
 }
 export const ControlCircleMore24 = {
@@ -1218,10 +1200,7 @@ export const DisplayBlink24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 12, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 12, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -1262,10 +1241,7 @@ export const DisplayDisplayFullFilled24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 2, width: 20, height: 20, rx: 1.15 },
-    },
+    { tagName: 'rect', attrs: { x: 2, y: 2, width: 20, height: 20, rx: 1.15 } },
   ],
 }
 export const DisplayDisplayFullOutline24 = {
@@ -1338,22 +1314,10 @@ export const DisplayDisplayProductX4Filled24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 13, width: 9, height: 9, rx: 1.15 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 13, y: 13, width: 9, height: 9, rx: 1.15 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 2, width: 9, height: 9, rx: 1.15 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 13, y: 2, width: 9, height: 9, rx: 1.15 },
-    },
+    { tagName: 'rect', attrs: { x: 2, y: 13, width: 9, height: 9, rx: 1.15 } },
+    { tagName: 'rect', attrs: { x: 13, y: 13, width: 9, height: 9, rx: 1.15 } },
+    { tagName: 'rect', attrs: { x: 2, y: 2, width: 9, height: 9, rx: 1.15 } },
+    { tagName: 'rect', attrs: { x: 13, y: 2, width: 9, height: 9, rx: 1.15 } },
   ],
 }
 export const DisplayDisplayProductX4Outline24 = {
@@ -1372,38 +1336,14 @@ export const DisplayDisplayProductX924 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 17, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 2, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 9.5, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 17, y: 17, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 17, y: 2, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 17, y: 9.5, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 9.5, y: 17, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 9.5, y: 2, width: 5, height: 5, rx: 1.5 },
-    },
+    { tagName: 'rect', attrs: { x: 2, y: 17, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 2, y: 2, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 2, y: 9.5, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 17, y: 17, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 17, y: 2, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 17, y: 9.5, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 9.5, y: 17, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 9.5, y: 2, width: 5, height: 5, rx: 1.5 } },
     {
       tagName: 'rect',
       attrs: { x: 9.5, y: 9.5, width: 5, height: 5, rx: 1.5 },
@@ -1468,42 +1408,15 @@ export const DisplayMovingBlock24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.09, cy: 4, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.09, cy: 4, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.09, cy: 4, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.09, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.09, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.09, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.09, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.09, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.09, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 4.09, cy: 4, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 12.09, cy: 4, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 20.09, cy: 4, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 4.09, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 12.09, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 20.09, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 4.09, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 12.09, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 20.09, cy: 20, r: 2 } },
   ],
 }
 export const DisplayOptions24 = {
@@ -1522,48 +1435,21 @@ export const DisplayOther24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 12, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 6, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 18, cy: 12, r: 2 } },
   ],
 }
 export const DisplayProductNumb24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M21 7H8a1 1 0 010-2h13a1 1 0 010 2z' },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 3.25, cy: 6, r: 1.25 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M21 13H8a1 1 0 010-2h13a1 1 0 010 2z' },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 3.25, cy: 12, r: 1.25 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M21 19H8a1 1 0 010-2h13a1 1 0 010 2z' },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 3.25, cy: 18, r: 1.25 },
-    },
+    { tagName: 'path', attrs: { d: 'M21 7H8a1 1 0 010-2h13a1 1 0 010 2z' } },
+    { tagName: 'circle', attrs: { cx: 3.25, cy: 6, r: 1.25 } },
+    { tagName: 'path', attrs: { d: 'M21 13H8a1 1 0 010-2h13a1 1 0 010 2z' } },
+    { tagName: 'circle', attrs: { cx: 3.25, cy: 12, r: 1.25 } },
+    { tagName: 'path', attrs: { d: 'M21 19H8a1 1 0 010-2h13a1 1 0 010 2z' } },
+    { tagName: 'circle', attrs: { cx: 3.25, cy: 18, r: 1.25 } },
   ],
 }
 export const DisplayRefresh24 = {
@@ -1612,10 +1498,7 @@ export const DisplaySearchProduct24 = {
         d: 'M22 8.91V3a1 1 0 00-1-1h-5.91a1.05 1.05 0 00-.71.29L2.29 14.38a1 1 0 000 1.42l5.91 5.91a1 1 0 00.71.29 1 1 0 00.71-.29l1.78-1.79a.47.47 0 00.06-.09A6 6 0 0015 21a6 6 0 003.47-1.11l1.82 1.82a1 1 0 001.42 0 1 1 0 000-1.42l-1.82-1.82A6 6 0 0021 15a6 6 0 00-1.11-3.47l1.84-1.93a1 1 0 00.27-.69zM15 19a4 4 0 114-4 4 4 0 01-4 4zm5-10.49l-1.52 1.61a6 6 0 00-8.39 8.32l-.1.07-1.08 1.08-4.5-4.5L15.51 4H20z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17.5, cy: 6.5, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 17.5, cy: 6.5, r: 1 } },
   ],
 }
 export const DisplaySetting24 = {
@@ -1728,10 +1611,7 @@ export const NotificationInformation24 = {
       tagName: 'path',
       attrs: { d: 'M12 17a1 1 0 01-1-1v-4.39a1 1 0 012 0V16a1 1 0 01-1 1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 8, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 8, r: 1 } },
   ],
 }
 export const NotificationQuestion24 = {
@@ -1744,10 +1624,7 @@ export const NotificationQuestion24 = {
         d: 'M11.74 12.03h.02-.02zM12 7a3 3 0 00-3 3 .75.75 0 001.5 0A1.5 1.5 0 0112 8.51a1.5 1.5 0 01.66 2.85 2.41 2.41 0 00-1.41 2.16v.25a.75.75 0 001.5 0v-.25a.91.91 0 01.57-.81A3 3 0 0012 7z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 16.24, r: 0.75 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 16.24, r: 0.75 } },
     {
       tagName: 'path',
       attrs: {
@@ -1770,10 +1647,7 @@ export const NotificationWarning24 = {
       tagName: 'path',
       attrs: { d: 'M12 7a1 1 0 00-1 1v4.38a1 1 0 002 0V8a1 1 0 00-1-1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 16, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 16, r: 1 } },
   ],
 }
 export const PublishCopy24 = {
@@ -2206,10 +2080,7 @@ export const SafePayment124 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 10.5, width: 4, height: 2, rx: 0.5 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 10.5, width: 4, height: 2, rx: 0.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -2294,14 +2165,8 @@ export const BasketAdd24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.5, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
     {
       tagName: 'path',
       attrs: {
@@ -2350,14 +2215,8 @@ export const BasketSave24 = {
         d: 'M20.79 6.38A1 1 0 0020 6h-6.5V2.5a.5.5 0 00-1 0V6H6.71l-.59-2.25a1 1 0 00-1-.75H3a1 1 0 000 2h1.38l2.68 10.25A1 1 0 008 16h10a1 1 0 001-.76l2-8a1 1 0 00-.21-.86zM17.22 14H8.8L7.23 8h5.27v3.29l-1.65-1.64a.49.49 0 00-.7.7l2.5 2.5a.36.36 0 00.16.11.47.47 0 00.38 0 .36.36 0 00.16-.11l2.5-2.5a.49.49 0 00-.7-.7l-1.65 1.64V8h5.22z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.5, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
   ],
 }
 export const BasketStandard24 = {
@@ -2370,14 +2229,8 @@ export const BasketStandard24 = {
         d: 'M18 16H8a1 1 0 01-1-.75L4.38 5H3a1 1 0 010-2h2.15a1 1 0 011 .75L6.71 6H20a1 1 0 01.79.38 1 1 0 01.18.86l-2 8A1 1 0 0118 16zm-9.2-2h8.42l1.5-6H7.23z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.5, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
   ],
 }
 export const ListAdd24 = {
@@ -2480,10 +2333,7 @@ export const PromiseFashionChoice24 = {
         d: 'M20.36 6.56a1.52 1.52 0 00-.8-.87L16 4l-.08-.15a1.56 1.56 0 00-1-.63l-4.31-.76A1.5 1.5 0 009.18 2l-4.39.8a1.5 1.5 0 00-1.22 1.74l2.86 16.23A1.51 1.51 0 007.91 22a1.15 1.15 0 00.26 0l4.4-.77.11-.05a1 1 0 00.88-.54l6.75-12.9a1.56 1.56 0 00.05-1.18zm-7.68 6.68L11.16 4.6l2.93.52zm-7-8.56L9 4.08l2.69 15.25-3.41.6zm8.85 9.94l1.4-8.42 2.35 1.1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.63, cy: 17.38, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 9.63, cy: 17.38, r: 1 } },
   ],
 }
 export const PromiseFunding24 = {
@@ -2544,10 +2394,7 @@ export const PromiseProductOnPicture24 = {
         d: 'M20 4v5.26L9.63 19.59l-5.21-5.21L14.82 4H20m1-2h-6.59a1 1 0 00-.71.29L2.29 13.68a1 1 0 000 1.41l6.63 6.62a1 1 0 001.42 0l11.34-11.33a1 1 0 00.29-.7L22 3a1 1 0 00-1-1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 8, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 8, r: 1.5 } },
   ],
 }
 export const PromiseProductSheet24 = {
@@ -2702,10 +2549,7 @@ export const CustomCopyKey24 = {
         d: 'M21.36 12.5a5.39 5.39 0 00-3.12-2.5l-3.88-6.51a1 1 0 00-.52-.43l-3.5-1.25a1 1 0 00-.83.07 1 1 0 00-.51.67L8.27 6.3a1 1 0 00.12.7l1.83 3.14-3-1.75a1 1 0 00-.64-.13l-3.75.5a1 1 0 00-.82 1.31l1.29 3.75a1 1 0 00.44.54l6.37 3.77a5.37 5.37 0 002.38 3.23 4.74 4.74 0 002.45.68 4.85 4.85 0 001.36-.19 5.2 5.2 0 003.06-2.34 3.68 3.68 0 00.21-.45 5 5 0 002.3-3 4.62 4.62 0 00-.51-3.56zm-5.6 7.42a2.76 2.76 0 01-2.25-.28A3.35 3.35 0 0112 17.36a1 1 0 00-.48-.72L8.75 15l.43-.76a.5.5 0 10-.86-.5l-.43.75L7 14l.41-.73a.5.5 0 00-.86-.5l-.41.72-1.08-.64-.75-2.25 2.21-.29 6.48 3.8a1 1 0 00.85.08 3.12 3.12 0 012.65.17 3.21 3.21 0 011.43 1.88 2.84 2.84 0 01-.28 2.25 3.21 3.21 0 01-1.89 1.43zm4.18-4.34a1.67 1.67 0 01-.08.2.19.19 0 000-.08 5.2 5.2 0 00-2.34-3.06 5 5 0 00-3.84-.48.76.76 0 00-.06-.16L12.4 9.92l.85-.49a.5.5 0 00-.5-.86l-.85.48-.4-.69.75-.43a.5.5 0 00-.5-.86L11 7.5l-.7-1.18.45-2.24 2.07.74 3.92 6.59a1 1 0 00.7.48 3.31 3.31 0 012.2 1.61 2.7 2.7 0 01.3 2.08z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 14.89, cy: 17, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 14.89, cy: 17, r: 1 } },
   ],
 }
 export const CustomCourse24 = {
@@ -2718,20 +2562,14 @@ export const CustomCourse24 = {
         d: 'M21 17.59v-7l.45-.22a1 1 0 000-1.79l-9-4.46a1 1 0 00-.89 0l-9 4.54a1 1 0 000 1.79L5 11.66v4.63a1 1 0 00.25.66 9 9 0 0013.5.05 1 1 0 00.25-.67v-4.75l1-.5v6.51a1.5 1.5 0 101 0zM12.05 6.12l6.71 3.34L12 12.88 5.24 9.54zM17 15.94a7 7 0 01-10 0v-3.29l4.51 2.25a1.13 1.13 0 00.49.1 1 1 0 00.45-.11L17 12.58z',
       },
     },
-    {
-      tagName: 'ellipse',
-      attrs: { cx: 12, cy: 9.5, rx: 1, ry: 0.75 },
-    },
+    { tagName: 'ellipse', attrs: { cx: 12, cy: 9.5, rx: 1, ry: 0.75 } },
   ],
 }
 export const CustomCutWoodGlass24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 13, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 13, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -2756,10 +2594,7 @@ export const CustomSharpening24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 13, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 13, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -2983,14 +2818,8 @@ export const ToolsCalculator24 = {
         d: 'M7.75 9.75h2.5a.5.5 0 000-1h-2.5a.5.5 0 000 1zM13.5 9.75h1v1a.5.5 0 001 0v-1h1a.5.5 0 000-1h-1v-1a.5.5 0 00-1 0v1h-1a.5.5 0 000 1zM10.41 13.34a.48.48 0 00-.7 0L9 14l-.71-.7a.49.49 0 00-.7.7l.7.71-.7.71a.48.48 0 000 .7.48.48 0 00.7 0l.71-.7.71.7a.48.48 0 00.7 0 .48.48 0 000-.7l-.7-.71.7-.71a.48.48 0 000-.66zM16.25 14.25h-2.5a.5.5 0 000 1h2.5a.5.5 0 000-1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15, cy: 13.25, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15, cy: 16.25, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 15, cy: 13.25, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 15, cy: 16.25, r: 0.5 } },
   ],
 }
 export const ToolsComparator24 = {
@@ -3165,10 +2994,7 @@ export const SocialNetworkYoutube24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M10.93 13.62l2.79-1.61-2.79-1.62v3.23z' },
-    },
+    { tagName: 'path', attrs: { d: 'M10.93 13.62l2.79-1.61-2.79-1.62v3.23z' } },
     {
       tagName: 'path',
       attrs: {
@@ -3370,18 +3196,9 @@ export const Attic24 = {
         d: 'M21.38 6.08a1 1 0 00-1.09.21l-14 14a1 1 0 00-.21 1.09A1 1 0 007 22h14a1 1 0 001-1V7a1 1 0 00-.62-.92zm-1.38 9a2.52 2.52 0 00-1.33.76 2.83 2.83 0 00-4.57 1.44H14a1.73 1.73 0 00-.75.18 2.45 2.45 0 00-.53-.74L20 9.41zM9.41 20L12 17.4a1.45 1.45 0 01.44.8 1.79 1.79 0 00-.2.8.5.5 0 001 0 .77.77 0 011-.69.46.46 0 00.2.05.48.48 0 00.46-.3.42.42 0 000-.16 1.85 1.85 0 013.54-.62.5.5 0 10.92-.38 2.8 2.8 0 00-.15-.3 1.47 1.47 0 01.79-.5V20zM21.71 2.29a1 1 0 00-1.42 0l-3.2 3.21H15a.5.5 0 000 1h1.09l-2 2H12a.5.5 0 000 1h1.09l-2 2H9a.5.5 0 000 1h1.09l-2 2H6a.5.5 0 000 1h1.09l-2 2H3a.5.5 0 000 1h1.09l-1.8 1.79a1 1 0 000 1.42 1 1 0 001.42 0l18-18a1 1 0 000-1.42z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 17.5, r: 0.25 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 18.5, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 19, r: 0.25 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 17.5, r: 0.25 } },
+    { tagName: 'circle', attrs: { cx: 18, cy: 18.5, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 16, cy: 19, r: 0.25 } },
   ],
 }
 export const Bathroom24 = {
@@ -3461,10 +3278,7 @@ export const ConnectedHome24 = {
         d: 'M9.72 15.9a.5.5 0 00.36.85.49.49 0 00.35-.15 2.23 2.23 0 013-.11.5.5 0 10.66-.74 3.24 3.24 0 00-4.37.15z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 18, r: 0.75 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 18, r: 0.75 } },
   ],
 }
 export const Curtains24 = {
@@ -3512,14 +3326,8 @@ export const Electricity24 = {
         d: 'M12 19a7 7 0 10-7-7 7 7 0 007 7zm0-13a6 6 0 11-6 6 6 6 0 016-6z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15, cy: 12, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9, cy: 12, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 15, cy: 12, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 9, cy: 12, r: 1 } },
   ],
 }
 export const Enki24 = {
@@ -3562,10 +3370,7 @@ export const Garage24 = {
         d: 'M21 20h-1v-7.59l.29.3a1 1 0 001.42 0 1 1 0 000-1.42l-2-2-7-7a1 1 0 00-1.42 0l-7 7-2 2a1 1 0 001.42 1.42l.29-.3V20H3a1 1 0 000 2h18a1 1 0 000-2zM8 15h8v2H8zm8-1H8v-2h8zm-8 4h8v2H8zm9 2v-8.5a.5.5 0 00-.5-.5h-9a.5.5 0 00-.5.5V20H6v-9.59l6-6 6 6V20z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 8.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 8.5, r: 1.5 } },
   ],
 }
 export const Garden124 = {
@@ -3722,22 +3527,13 @@ export const Security24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M19 22H5V9h14zM7 20h10v-9H7z' },
-    },
+    { tagName: 'path', attrs: { d: 'M19 22H5V9h14zM7 20h10v-9H7z' } },
     {
       tagName: 'path',
       attrs: { d: 'M17 10h-2V7a3 3 0 00-6 0v3H7V7a5 5 0 0110 0z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 14.5, r: 2 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M11 15.5h2v3h-2z' },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 14.5, r: 2 } },
+    { tagName: 'path', attrs: { d: 'M11 15.5h2v3h-2z' } },
   ],
 }
 export const Terrace24 = {
@@ -3943,10 +3739,7 @@ export const ContactMail24 = {
         d: 'M19 7V5a1 1 0 00-1-1H6a1 1 0 00-1 1v2H3a1 1 0 00-1 1v11a1 1 0 001 1h18a1 1 0 001-1V8a1 1 0 00-1-1zm-5.08 6.5L20 9.78v7.44zM9.83 11h4.34L12 12.33zM17 6v3.27l-1.58 1A.5.5 0 0015 10H9a.5.5 0 00-.42.24L7 9.27V6zM4 9.78L17.45 18H4z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M9 8.5h6a.5.5 0 000-1H9a.5.5 0 000 1z' },
-    },
+    { tagName: 'path', attrs: { d: 'M9 8.5h6a.5.5 0 000-1H9a.5.5 0 000 1z' } },
   ],
 }
 export const ContactPhone24 = {
@@ -4013,10 +3806,7 @@ export const Administration24 = {
         d: 'M21 20H3a1 1 0 000 2h18a1 1 0 000-2zM3 12h2v5h-.5a1 1 0 000 2h15a1 1 0 000-2H19v-5h2a1 1 0 00.93-.64 1 1 0 00-.27-1.11l-9-8a1 1 0 00-1.32 0l-9 8a1 1 0 00-.27 1.11A1 1 0 003 12zm4 5v-5h2v5zm4 0v-5h2v5zm6 0h-2v-5h2zM12 4.34L18.37 10H5.63z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 7.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 7.5, r: 1.5 } },
   ],
 }
 export const Apartment24 = {
@@ -4531,10 +4321,7 @@ export const PaymentNoContact32 = {
         d: 'M7.5 19h4a1 1 0 001-1v-4a1 1 0 00-1-1h-4a1 1 0 00-1 1v4a1 1 0 001 1zm0-2.5H9V18H7.5zm4 1.5H10v-4h1.5zM9 14v1.5H7.5V14z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 16, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 18, cy: 16, r: 1 } },
     {
       tagName: 'path',
       attrs: {
@@ -4707,10 +4494,7 @@ export const Camera32 = {
         d: 'M20.24 7l1.66 1.48a4 4 0 002.66 1H27V25H5V9.5h2.44a4 4 0 002.66-1L11.76 7h8.48m0-2h-8.48a2 2 0 00-1.33.51L8.77 7a2 2 0 01-1.33.51H5a2 2 0 00-2 2V25a2 2 0 002 2h22a2 2 0 002-2V9.5a2 2 0 00-2-2h-2.44a2 2 0 01-1.33-.5l-1.66-1.49A2 2 0 0020.24 5z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M8 13a1 1 0 110-2 1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M8 13a1 1 0 110-2 1 1 0 010 2z' } },
   ],
 }
 export const DownloadApp32 = {
@@ -4783,10 +4567,7 @@ export const NoPicture32 = {
         d: 'M16 12a3.5 3.5 0 103.5 3.5A3.5 3.5 0 0016 12zm0 6a2.5 2.5 0 112.5-2.5A2.5 2.5 0 0116 18z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11.5, cy: 13, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11.5, cy: 13, r: 0.5 } },
   ],
 }
 export const Pdf32 = {
@@ -5147,10 +4928,7 @@ export const ControlCircleLess32 = {
         d: 'M16 5A11 11 0 115 16 11 11 0 0116 5m0-2a13 13 0 1013 13A13 13 0 0016 3z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M20 17h-8a1 1 0 010-2h8a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M20 17h-8a1 1 0 010-2h8a1 1 0 010 2z' } },
   ],
 }
 export const ControlCircleMore32 = {
@@ -5187,10 +4965,7 @@ export const ControlLess32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M24 17H8a1 1 0 010-2h16a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M24 17H8a1 1 0 010-2h16a1 1 0 010 2z' } },
   ],
 }
 export const ControlMore32 = {
@@ -5221,10 +4996,7 @@ export const DisplayBlink32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 16, r: 1.95 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 16, r: 1.95 } },
     {
       tagName: 'path',
       attrs: {
@@ -5267,10 +5039,7 @@ export const DisplayDisplayFullFilled32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 3, width: 26, height: 26, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 3, y: 3, width: 26, height: 26, rx: 2 } },
   ],
 }
 export const DisplayDisplayFullOutline32 = {
@@ -5289,18 +5058,9 @@ export const DisplayDisplayListFilled32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 13, width: 26, height: 6, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 3, width: 26, height: 6, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 23, width: 26, height: 6, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 3, y: 13, width: 26, height: 6, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 3, y: 3, width: 26, height: 6, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 3, y: 23, width: 26, height: 6, rx: 2 } },
   ],
 }
 export const DisplayDisplayListOutline32 = {
@@ -5453,38 +5213,20 @@ export const DisplayMovingBlock32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 5.5, cy: 5.5, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 26.5, cy: 5.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 5.5, cy: 5.5, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 26.5, cy: 5.5, r: 2.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M16 3a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 5.5, cy: 26.5, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 26.5, cy: 26.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 5.5, cy: 26.5, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 26.5, cy: 26.5, r: 2.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M16 24a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 24z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 5.5, cy: 16, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 26.5, cy: 16, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 5.5, cy: 16, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 26.5, cy: 16, r: 2.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M16 13.5a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5z' },
@@ -5507,36 +5249,18 @@ export const DisplayOther32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 16, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 16, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 22, cy: 16, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 16, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 10, cy: 16, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 22, cy: 16, r: 1.5 } },
   ],
 }
 export const DisplayProductNumb32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.5, cy: 8, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.5, cy: 24, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.5, cy: 16, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 4.5, cy: 8, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 4.5, cy: 24, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 4.5, cy: 16, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -5717,10 +5441,7 @@ export const NotificationInformation32 = {
         d: 'M16 21.7a1 1 0 01-1-1v-5.83a1 1 0 112 0v5.83a1 1 0 01-1 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 11.3, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 11.3, r: 1 } },
   ],
 }
 export const NotificationQuestion32 = {
@@ -5733,10 +5454,7 @@ export const NotificationQuestion32 = {
         d: 'M15.68 16.04h-.01.01zM16 9.51a3.91 3.91 0 00-3.9 3.9 1 1 0 102 0 2 2 0 011.9-1.95 2 2 0 01.85 3.71A3.15 3.15 0 0015 18v.32a1 1 0 101.95 0V18a1.2 1.2 0 01.74-1.06A3.91 3.91 0 0016 9.51z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 21.51, r: 0.97 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 21.51, r: 0.97 } },
     {
       tagName: 'path',
       attrs: {
@@ -5761,10 +5479,7 @@ export const NotificationWarning32 = {
         d: 'M16 18.13a1 1 0 01-1-1V11.3a1 1 0 012 0v5.83a1 1 0 01-1 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 20.7, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 20.7, r: 1 } },
   ],
 }
 export const PublishCopy32 = {
@@ -5871,18 +5586,12 @@ export const Bill32 = {
         d: 'M19.7 14.34a.5.5 0 00-.71-.06A3 3 0 0117 15a3 3 0 01-2.58-1.47h2.38a.5.5 0 000-1h-2.73A3.07 3.07 0 0114 12a3.07 3.07 0 01.06-.53h2.76a.5.5 0 000-1h-2.37a3 3 0 014.41-.86.5.5 0 00.7-.09.51.51 0 00-.1-.7A3.94 3.94 0 0017 8a4 4 0 00-3.71 2.47h-.64a.5.5 0 000 1h.39A3.19 3.19 0 0013 12a3.19 3.19 0 00.06.53h-.39a.5.5 0 000 1h.64A4 4 0 0019.64 15a.49.49 0 00.06-.66zM20.5 21h-7a.5.5 0 010-1h7a.5.5 0 010 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11.5, cy: 20.5, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11.5, cy: 20.5, r: 0.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M20.5 24h-7a.5.5 0 010-1h7a.5.5 0 010 1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11.5, cy: 23.5, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11.5, cy: 23.5, r: 0.5 } },
   ],
 }
 export const CardsMonochromeAmericanExpress32 = {
@@ -6621,10 +6330,7 @@ export const AfterSalesAfterSalesService32 = {
         d: 'M29 9.23A2 2 0 0025.55 8l-2.05 2.09-1.59-1.59 2.05-2A2 2 0 0022.77 3a7.94 7.94 0 00-5.69 1.75 2.28 2.28 0 00-.46.47 7.72 7.72 0 00-1.47 6.18L3.79 22.79a3.83 3.83 0 005.42 5.42l11.4-11.35a7.84 7.84 0 006.13-1.48 2.27 2.27 0 00.47-.46A7.91 7.91 0 0029 9.23zm-3.39 4.52A5.75 5.75 0 0121 14.9a2 2 0 00-1.86.54L7.79 26.79a1.82 1.82 0 01-2.58-2.58l11.35-11.36A2 2 0 0017.1 11a5.78 5.78 0 011.19-4.61A6.19 6.19 0 0122 5a5.27 5.27 0 01.56 0L20.5 7.09a2 2 0 000 2.82l1.59 1.59a2 2 0 002.82 0L27 9.45a5.91 5.91 0 01-1.43 4.3z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 25.5, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 25.5, r: 1 } },
   ],
 }
 export const AfterSalesHelpline32 = {
@@ -6691,10 +6397,7 @@ export const CustomCourse32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'ellipse',
-      attrs: { cx: 16, cy: 13, rx: 1, ry: 0.75 },
-    },
+    { tagName: 'ellipse', attrs: { cx: 16, cy: 13, rx: 1, ry: 0.75 } },
     {
       tagName: 'path',
       attrs: {
@@ -7134,10 +6837,7 @@ export const SocialNetworkYoutube32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M14.52 18.23l3.84-2.22-3.84-2.22v4.44z' },
-    },
+    { tagName: 'path', attrs: { d: 'M14.52 18.23l3.84-2.22-3.84-2.22v4.44z' } },
     {
       tagName: 'path',
       attrs: {
@@ -7345,14 +7045,8 @@ export const Attic32 = {
         d: 'M22.67 24.47a.66.66 0 00-.67.66.67.67 0 00.67.67.66.66 0 00.66-.67.65.65 0 00-.66-.66z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.67, cy: 23.58, r: 0.44 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 19.34, cy: 25.8, r: 0.44 },
-    },
+    { tagName: 'circle', attrs: { cx: 20.67, cy: 23.58, r: 0.44 } },
+    { tagName: 'circle', attrs: { cx: 19.34, cy: 25.8, r: 0.44 } },
   ],
 }
 export const Bathroom32 = {
@@ -7426,10 +7120,7 @@ export const ConnectedHome32 = {
         d: 'M13.29 20.61a.51.51 0 000 .71.5.5 0 00.36.14.47.47 0 00.35-.14 2.89 2.89 0 013.86-.13.5.5 0 00.66-.76 3.93 3.93 0 00-5.23.18z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 23, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 23, r: 1 } },
     {
       tagName: 'path',
       attrs: {
@@ -7483,14 +7174,8 @@ export const Electricity32 = {
         d: 'M16 10a6 6 0 11-6 6 6 6 0 016-6m0-1a7 7 0 107 7 7 7 0 00-7-7z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 13, cy: 16, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 19, cy: 16, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 13, cy: 16, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 19, cy: 16, r: 1 } },
   ],
 }
 export const Enki32 = {
@@ -7647,22 +7332,10 @@ export const Kitchen232 = {
         d: 'M23 12.5H9a.5.5 0 000 1h14a.5.5 0 000-1zM14 7.5h4a.5.5 0 000-1h-4a.5.5 0 000 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11, cy: 7, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 7, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 7, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 21, cy: 7, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11, cy: 7, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 8, cy: 7, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 7, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 21, cy: 7, r: 0.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -7986,10 +7659,7 @@ export const SituationOwner32 = {
         d: 'M28.77 21.22a2.7 2.7 0 00-3.53-1.48l-3.39 1.4A2.63 2.63 0 0019.29 19h-6.58a11.9 11.9 0 00-5.39 1.3l-1.77.91a1 1 0 00.9 1.79l1.78-.91A9.83 9.83 0 0112.71 21h6.58a.67.67 0 010 1.34H15.5a1 1 0 000 2h3.79a2.54 2.54 0 001.76-.71l4.95-2a.71.71 0 01.93.41.91.91 0 010 .67.82.82 0 01-.42.42L17.6 26.8a2.44 2.44 0 01-1.05.24H11a1 1 0 100 2h5.59a4.22 4.22 0 001.85-.41l8.88-3.65a2.76 2.76 0 001.5-1.52 2.85 2.85 0 00-.05-2.24zM9.75 14.5a4.74 4.74 0 004.56-3.5H26a1 1 0 000-2H14.42a4.74 4.74 0 10-4.67 5.5zm0-7.5A2.75 2.75 0 117 9.75 2.75 2.75 0 019.75 7z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M26 12h-4a1 1 0 000 2h4a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M26 12h-4a1 1 0 000 2h4a1 1 0 000-2z' } },
   ],
 }
 export const SituationTenant32 = {
@@ -8402,10 +8072,7 @@ export const Mobile48 = {
         d: 'M32 7H16a2 2 0 00-2 2v30a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zm-1 3v22H17V10zM17 38v-4h14v4z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M25 35h-2a1 1 0 000 2h2a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M25 35h-2a1 1 0 000 2h2a1 1 0 000-2z' } },
   ],
 }
 export const Tablet48 = {
@@ -8418,10 +8085,7 @@ export const Tablet48 = {
         d: 'M36 7H12a2 2 0 00-2 2v30a2 2 0 002 2h24a2 2 0 002-2V9a2 2 0 00-2-2zm-1 3v22H13V10zM13 38v-4h22v4z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 36, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 36, r: 1 } },
   ],
 }
 export const HygieneCleaned48 = {
@@ -8576,10 +8240,7 @@ export const PaymentNoContact48 = {
         d: 'M10 28.5h7a1 1 0 001-1v-7a1 1 0 00-1-1h-7a1 1 0 00-1 1v7a1 1 0 001 1zm1-3.5h1.5v1.5H11zm5 1.5h-1.5v-5H16zm-3.5-5V23H11v-1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27, cy: 24, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 27, cy: 24, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -8746,10 +8407,7 @@ export const Camera48 = {
         d: 'M24 35a9 9 0 119-9 9 9 0 01-9 9zm0-15a6 6 0 106 6 6 6 0 00-6-6z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 19, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 19, r: 2 } },
     {
       tagName: 'path',
       attrs: {
@@ -9260,10 +8918,7 @@ export const DisplayBlink48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 24, r: 3 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 24, r: 3 } },
     {
       tagName: 'path',
       attrs: {
@@ -9306,10 +8961,7 @@ export const DisplayDisplayFullFilled48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 4, width: 40, height: 40, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 4, y: 4, width: 40, height: 40, rx: 2 } },
   ],
 }
 export const DisplayDisplayFullOutline48 = {
@@ -9328,18 +8980,9 @@ export const DisplayDisplayListFilled48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 4, width: 40, height: 10, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 19, width: 40, height: 10, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 34, width: 40, height: 10, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 4, y: 4, width: 40, height: 10, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 4, y: 19, width: 40, height: 10, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 4, y: 34, width: 40, height: 10, rx: 2 } },
   ],
 }
 export const DisplayDisplayListOutline48 = {
@@ -9492,42 +9135,15 @@ export const DisplayMovingBlock48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 8, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 8, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 8, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 24, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 24, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 24, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 40, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 40, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 40, r: 4 },
-    },
+    { tagName: 'circle', attrs: { cx: 8, cy: 8, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 8, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 8, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 8, cy: 24, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 24, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 24, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 8, cy: 40, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 40, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 40, r: 4 } },
   ],
 }
 export const DisplayOptions48 = {
@@ -9546,18 +9162,9 @@ export const DisplayOther48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 14, cy: 24, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 24, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 34, cy: 24, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 14, cy: 24, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 24, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 34, cy: 24, r: 2.5 } },
   ],
 }
 export const DisplayProductNumb48 = {
@@ -9570,18 +9177,9 @@ export const DisplayProductNumb48 = {
         d: 'M17.5 13h25a1.5 1.5 0 000-3h-25a1.5 1.5 0 000 3zM42.5 22.5h-25a1.5 1.5 0 000 3h25a1.5 1.5 0 000-3zM42.5 35h-25a1.5 1.5 0 000 3h25a1.5 1.5 0 000-3z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 11.5, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 24, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 36.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 11.5, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 24, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 36.5, r: 2.5 } },
   ],
 }
 export const DisplayRefresh48 = {
@@ -9600,10 +9198,7 @@ export const DisplayScreenRotation48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M15 38h-2a1 1 0 000 2h2a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M15 38h-2a1 1 0 000 2h2a1 1 0 000-2z' } },
     {
       tagName: 'path',
       attrs: {
@@ -9748,10 +9343,7 @@ export const NotificationInformation48 = {
         d: 'M24 32.75a1.5 1.5 0 01-1.5-1.5v-9a1.5 1.5 0 013 0v9a1.5 1.5 0 01-1.5 1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 16.75, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 16.75, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -9776,10 +9368,7 @@ export const NotificationQuestion48 = {
         d: 'M24 14a6 6 0 00-6 6 1.5 1.5 0 003 0 3 3 0 013-3 3.08 3.08 0 013 3 3 3 0 01-1.69 2.7A4.84 4.84 0 0022.5 27v.5a1.5 1.5 0 003 0V27a1.85 1.85 0 011.13-1.63A6 6 0 0024 14z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 32.48, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 32.48, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -9792,10 +9381,7 @@ export const NotificationQuestion48 = {
         d: 'M24 14a6 6 0 00-6 6 1.5 1.5 0 003 0 3 3 0 013-3 3.08 3.08 0 013 3 3 3 0 01-1.69 2.7A4.84 4.84 0 0022.5 27v.5a1.5 1.5 0 003 0V27a1.85 1.85 0 011.13-1.63A6 6 0 0024 14z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 32.48, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 32.48, r: 1.5 } },
   ],
 }
 export const NotificationWarning48 = {
@@ -9808,10 +9394,7 @@ export const NotificationWarning48 = {
         d: 'M24 27.25a1.5 1.5 0 01-1.5-1.5v-9a1.5 1.5 0 013 0v9a1.5 1.5 0 01-1.5 1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 31.25, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 31.25, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -9926,18 +9509,12 @@ export const Bill48 = {
         d: 'M18.5 18.4a1 1 0 001 1h.66a5.78 5.78 0 009 2 1 1 0 10-1.3-1.52 3.76 3.76 0 01-5.33-.45h2.6a1 1 0 000-2h-3.46a2.57 2.57 0 01-.05-.4 2.57 2.57 0 01.05-.4h3.45a1 1 0 000-2h-2.6a3.76 3.76 0 012.88-1.35 3.69 3.69 0 012.28.77 1 1 0 001.21-1.6 5.78 5.78 0 00-8.73 2.18h-.66a1 1 0 100 2h.15v.8h-.15a1 1 0 00-1 .97zM30 34h-8.58a1 1 0 000 2H30a1 1 0 000-2z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 35, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 18, cy: 35, r: 1 } },
     {
       tagName: 'path',
       attrs: { d: 'M20.42 30a1 1 0 001 1H30a1 1 0 000-2h-8.58a1 1 0 00-1 1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 30, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 18, cy: 30, r: 1 } },
   ],
 }
 export const CardsMonochromeAmericanExpress48 = {
@@ -10508,10 +10085,7 @@ export const PromiseFashionChoice48 = {
         d: 'M38.26 5.12l-8.13-1a1.22 1.22 0 00-.57-.12 2.76 2.76 0 00-1.37.22l-8 1.29a1.12 1.12 0 00-.9 1.1 2 2 0 00-2 0L9 11.41a2 2 0 00-.72 2.71L24.94 43a2 2 0 002.72.72L35.93 39a2 2 0 00.72-2.71l-.27-.48L40 7.33a2 2 0 00-1.74-2.21zm-9.9 2l3.32 20.56-11-19.12v-.18zM27 40.86L11.14 13.44 18 9.51l15.78 27.42zm7.58-13.2L31.23 7.08l5.84.74z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27.34, cy: 33.11, r: 1.74 },
-    },
+    { tagName: 'circle', attrs: { cx: 27.34, cy: 33.11, r: 1.74 } },
   ],
 }
 export const PromiseFunding48 = {
@@ -10594,18 +10168,12 @@ export const PromiseProductSheet48 = {
       tagName: 'path',
       attrs: { d: 'M30.89 24h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.89, cy: 25.47, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.89, cy: 25.47, r: 1.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M30.89 32h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.89, cy: 33.47, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.89, cy: 33.47, r: 1.5 } },
   ],
 }
 export const PromiseScan48 = {
@@ -10690,10 +10258,7 @@ export const AfterSalesAfterSalesService48 = {
         d: 'M42.3 9.92a1.51 1.51 0 00-1.39.4l-4.39 4.39a.83.83 0 01-.58.23.79.79 0 01-.58-.24l-2-2a.85.85 0 010-1.18l4.39-4.38a1.5 1.5 0 00.41-1.39 1.48 1.48 0 00-1-1.08 10.43 10.43 0 00-13.73 12.22.24.24 0 01-.06.23L5.56 34.9a5.34 5.34 0 000 7.52A5.27 5.27 0 009.3 44a5.27 5.27 0 003.76-1.56l17.78-17.78a.21.21 0 01.22-.06 10.33 10.33 0 009.83-2.71 10.54 10.54 0 002.49-11 1.52 1.52 0 00-1.08-.97zm-3.52 9.83a7.34 7.34 0 01-7 1.94 3.27 3.27 0 00-3.06.85L11 40.32a2.33 2.33 0 01-1.69.68 2.34 2.34 0 01-1.64-.69 2.31 2.31 0 010-3.29l17.82-17.78a3.22 3.22 0 00.85-3.06 7.51 7.51 0 012-7A7.36 7.36 0 0133.54 7h.05l-2.38 2.37a3.84 3.84 0 000 5.41l2 2a3.8 3.8 0 002.7 1.12 3.79 3.79 0 002.7-1.11L41 14.47a7.35 7.35 0 01-2.22 5.28z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.49, cy: 38.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 9.49, cy: 38.5, r: 1.5 } },
   ],
 }
 export const AfterSalesHelpline48 = {
@@ -10766,10 +10331,7 @@ export const CustomCourse48 = {
         d: 'M42.69 20.81a2 2 0 000-3.62L24.86 8.75a2 2 0 00-1.72 0L5.31 17.19a2 2 0 000 3.62L10 23v8.41a3.45 3.45 0 00.61 2c1.25 1.83 5.07 6.09 13.39 6.09s12.14-4.26 13.4-6.09a3.52 3.52 0 00.6-2V23l2-1v12.2a2 2 0 00-1 1.8 2 2 0 004 0 2 2 0 00-1-1.72V21.13zM35 31.44a.5.5 0 01-.08.27c-1 1.44-4 4.79-10.92 4.79s-9.93-3.35-10.92-4.79a.5.5 0 01-.08-.27v-7l10.14 4.8a1.95 1.95 0 001.72 0L35 24.45zm-11-5.1L8.5 19 24 11.66 39.5 19z',
       },
     },
-    {
-      tagName: 'ellipse',
-      attrs: { cx: 24, cy: 19, rx: 2, ry: 1.5 },
-    },
+    { tagName: 'ellipse', attrs: { cx: 24, cy: 19, rx: 2, ry: 1.5 } },
   ],
 }
 export const CustomCutWoodGlass48 = {
@@ -11065,10 +10627,7 @@ export const CommentCommunity48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M39 42v-1h-1.3l1.3 1z' },
-    },
+    { tagName: 'path', attrs: { d: 'M39 42v-1h-1.3l1.3 1z' } },
     {
       tagName: 'path',
       attrs: {
@@ -11223,10 +10782,7 @@ export const SocialNetworkYoutube48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M21.71 27.43L27.65 24l-5.94-3.43v6.86z' },
-    },
+    { tagName: 'path', attrs: { d: 'M21.71 27.43L27.65 24l-5.94-3.43v6.86z' } },
     {
       tagName: 'path',
       attrs: {
@@ -11428,18 +10984,9 @@ export const Attic48 = {
         d: 'M43.07 11.61a1.5 1.5 0 00-1.63.33l-29.5 29.5a1.5 1.5 0 00-.33 1.63A1.51 1.51 0 0013 44h29.5a1.5 1.5 0 001.5-1.5V13a1.51 1.51 0 00-.93-1.39zM41 33.13a5.08 5.08 0 00-2.16 0 6.45 6.45 0 00-.68-.88 7 7 0 00-12.1 3.85A5.38 5.38 0 0025 36h-.42a5 5 0 00-1.24-1.75L41 16.62zM16.62 41l5.29-5.29a3.35 3.35 0 01.74.89 5 5 0 00-2.26 2.45 1 1 0 00.53 1.31.91.91 0 00.39.08 1 1 0 00.93-.61 3 3 0 011.88-1.7A2.82 2.82 0 0125 38a3 3 0 011.52.41h.07l.2.07h.4a.76.76 0 00.2-.06l.16-.07.15-.12.13-.15.06-.06a.45.45 0 000-.11 1 1 0 00.07-.18 1.49 1.49 0 000-.21v-.1-.46a5 5 0 0110 0 1 1 0 002 0 7.27 7.27 0 00-.28-2 3.1 3.1 0 011.28.16V41zM43.56 4.44a1.49 1.49 0 00-2.12 0L36.88 9H33a1 1 0 000 2h1.88l-5.5 5.5H25.5a1 1 0 000 2h1.88l-4.5 4.5H18.5a1 1 0 000 2h2.38l-5 5H11.5a1 1 0 000 2h2.38l-5 5H5a1 1 0 000 2h1.88l-2.44 2.44a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l37-37a1.49 1.49 0 000-2.12z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 35.5, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 35, cy: 37.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 30.5, cy: 38.5, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 35.5, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 35, cy: 37.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 30.5, cy: 38.5, r: 0.5 } },
   ],
 }
 export const Bathroom48 = {
@@ -11513,10 +11060,7 @@ export const ConnectedHome48 = {
         d: 'M24 29.67a6.59 6.59 0 00-4.71 1.95 1 1 0 000 1.41 1 1 0 00.7.3 1 1 0 00.71-.3 4.63 4.63 0 013.3-1.36 4.68 4.68 0 013.07 1.15 1 1 0 001.41-.09 1 1 0 00-.09-1.42A6.67 6.67 0 0024 29.67z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 35.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 35.5, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -11548,10 +11092,7 @@ export const Dressing48 = {
         d: 'M7 7v32.5a1.5 1.5 0 003 0V33h13v6.5a1 1 0 002 0V18h5.5v2.11a5 5 0 00-3.31 2.39 1 1 0 00.36 1.36 1 1 0 001.37-.36 3 3 0 015.16 0 1 1 0 00.92.5.93.93 0 00.5-.14 1 1 0 00.36-1.36 5 5 0 00-3.31-2.39V18H38v21.5a1.5 1.5 0 003 0V7zm16 3v6H10v-6zm0 21H10v-5h13zm0-7H10v-6h13zm2-8v-6h13v6z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M15 29.5h3a1 1 0 000-2h-3a1 1 0 000 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M15 29.5h3a1 1 0 000-2h-3a1 1 0 000 2z' } },
   ],
 }
 export const Electricity48 = {
@@ -11570,14 +11111,8 @@ export const Electricity48 = {
         d: 'M24 34a10 10 0 10-10-10 10 10 0 0010 10zm0-18a8 8 0 11-8 8 8 8 0 018-8z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.5, cy: 24, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27.5, cy: 24, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 20.5, cy: 24, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 27.5, cy: 24, r: 1.5 } },
   ],
 }
 export const Enki48 = {
@@ -11728,22 +11263,10 @@ export const Kitchen248 = {
         d: 'M35 21H13a2 2 0 00-2 2v12a2 2 0 002 2h22a2 2 0 002-2V23a2 2 0 00-2-2zm0 14H13V23h22zM36 17H12a1 1 0 000 2h24a1 1 0 000-2zM22 10.5h4a1 1 0 000-2h-4a1 1 0 000 2z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11, cy: 9.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17, cy: 9.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 31, cy: 9.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 37, cy: 9.5, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 11, cy: 9.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 17, cy: 9.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 31, cy: 9.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 37, cy: 9.5, r: 1 } },
   ],
 }
 export const Lighting48 = {
@@ -11985,14 +11508,8 @@ export const CardIDCard48 = {
         d: 'M17 26.5a5 5 0 014.93 4.15 1 1 0 001 .85 1 1 0 001-1.14 7 7 0 00-4.66-5.48 4.5 4.5 0 10-4.5 0 7 7 0 00-4.66 5.48 1 1 0 001 1.14 1 1 0 001-.85A5 5 0 0117 26.5zm0-8a2.5 2.5 0 11-2.5 2.5 2.5 2.5 0 012.5-2.5z',
       },
     },
-    {
-      tagName: 'rect',
-      attrs: { x: 26, y: 18, width: 12, height: 2, rx: 1 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 26, y: 23, width: 12, height: 2, rx: 1 },
-    },
+    { tagName: 'rect', attrs: { x: 26, y: 18, width: 12, height: 2, rx: 1 } },
+    { tagName: 'rect', attrs: { x: 26, y: 23, width: 12, height: 2, rx: 1 } },
   ],
 }
 export const CardLoyaltyCard48 = {
@@ -12029,10 +11546,7 @@ export const ContactMail48 = {
         d: 'M38 13V9a2 2 0 00-2-2H12a2 2 0 00-2 2v4H6a2 2 0 00-2 2v24a2 2 0 002 2h36a2 2 0 002-2V15a2 2 0 00-2-2zm-20.51 8h13L24 25.21zM41 17.79v18.42L26.76 27zM38.24 16l-.24.15V16zM35 10v8.1L32 20a1 1 0 00-1-1H17a1 1 0 00-1 1l-3-1.9V10zm-25 6.15L9.76 16H10zm-3 1.64L38.24 38H7z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M17 15h14a1 1 0 000-2H17a1 1 0 000 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M17 15h14a1 1 0 000-2H17a1 1 0 000 2z' } },
   ],
 }
 export const ContactPhone48 = {
@@ -12141,10 +11655,7 @@ export const Balcony48 = {
         d: 'M42.5 25h-37a1.5 1.5 0 000 3H7v13.09A1.5 1.5 0 007.5 44h33a1.5 1.5 0 00.5-2.91V28h1.5a1.5 1.5 0 000-3zM17 28h2v13h-2zm-2 13h-2V28h2zm6-13h2v13h-2zm4 0h2v13h-2zm4 0h2v13h-2zm4 0h2v13h-2zm-22 0v13H9V28zm28 13h-2V28h2zM13 14h10v9h2v-9h10v9h3V6a2 2 0 00-2-2H12a2 2 0 00-2 2v17h3zm22-2H25V7h10zM23 7v5H13V7z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M28 21a1 1 0 000 2h3a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M28 21a1 1 0 000 2h3a1 1 0 000-2z' } },
   ],
 }
 export const Blower48 = {
@@ -12409,10 +11920,7 @@ export const Temperature48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M24 30.8V16.5h-3v14.3a4 4 0 103 0z' },
-    },
+    { tagName: 'path', attrs: { d: 'M24 30.8V16.5h-3v14.3a4 4 0 103 0z' } },
     {
       tagName: 'path',
       attrs: {
@@ -12507,10 +12015,7 @@ export const Tablet64 = {
         d: 'M49 9H15a2 2 0 00-2 2v42a2 2 0 002 2h34a2 2 0 002-2V11a2 2 0 00-2-2zm-1 3v31H16V12zM16 52v-7h32v7z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 48.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 48.5, r: 1.5 } },
   ],
 }
 export const HygieneCleaned64 = {
@@ -12653,10 +12158,7 @@ export const PaymentCheckout64 = {
         d: 'M57 43h-.73l-2.94-17.26a7.49 7.49 0 00-7.4-6.24H33.5V17h9a2 2 0 002-2V7a2 2 0 00-2-2h-21a2 2 0 00-2 2v8a2 2 0 002 2h9v2.5H18.07a7.49 7.49 0 00-7.4 6.24L7.73 43H7a2 2 0 00-2 2v12a2 2 0 002 2h50a2 2 0 002-2V45a2 2 0 00-2-2zM22.5 8h19v6h-19zm-8.87 18.24a4.49 4.49 0 014.44-3.74h27.86a4.49 4.49 0 014.44 3.74L53.22 43H10.78zM56 56H8V46h48z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M17 27.5h30v6H17z' },
-    },
+    { tagName: 'path', attrs: { d: 'M17 27.5h30v6H17z' } },
   ],
 }
 export const PaymentNoContact64 = {
@@ -12675,10 +12177,7 @@ export const PaymentNoContact64 = {
         d: 'M13 38h10a1 1 0 001-1V27a1 1 0 00-1-1H13a1 1 0 00-1 1v10a1 1 0 001 1zm1-5h3v3h-3zm8 3h-3v-8h3zm-5-8v3h-3v-3z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 36, cy: 32, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 36, cy: 32, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -12853,10 +12352,7 @@ export const Camera64 = {
         d: 'M32 23.5A13.5 13.5 0 1045.5 37 13.52 13.52 0 0032 23.5zm0 24A10.5 10.5 0 1142.5 37 10.51 10.51 0 0132 47.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15.5, cy: 23.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 15.5, cy: 23.5, r: 2.5 } },
   ],
 }
 export const DownloadApp64 = {
@@ -13357,10 +12853,7 @@ export const DisplayBlink64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 32, r: 3 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 32, r: 3 } },
     {
       tagName: 'path',
       attrs: {
@@ -13403,10 +12896,7 @@ export const DisplayDisplayFullFilled64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 5, width: 54, height: 54, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 5, width: 54, height: 54, rx: 2 } },
   ],
 }
 export const DisplayDisplayFullOutline64 = {
@@ -13425,18 +12915,9 @@ export const DisplayDisplayListFilled64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 5, width: 54, height: 14, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 45, width: 54, height: 14, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 25, width: 54, height: 14, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 5, width: 54, height: 14, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 5, y: 45, width: 54, height: 14, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 5, y: 25, width: 54, height: 14, rx: 2 } },
   ],
 }
 export const DisplayDisplayListOutline64 = {
@@ -13479,22 +12960,10 @@ export const DisplayDisplayProductX4Filled64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 5, width: 25, height: 25, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 34, y: 5, width: 25, height: 25, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 34, width: 25, height: 25, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 34, y: 34, width: 25, height: 25, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 5, width: 25, height: 25, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 34, y: 5, width: 25, height: 25, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 5, y: 34, width: 25, height: 25, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 34, y: 34, width: 25, height: 25, rx: 2 } },
   ],
 }
 export const DisplayDisplayProductX4Outline64 = {
@@ -13579,42 +13048,15 @@ export const DisplayMovingBlock64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 10, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 10, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 54, cy: 10, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 32, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 32, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 54, cy: 32, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 54, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 54, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 54, cy: 54, r: 5 },
-    },
+    { tagName: 'circle', attrs: { cx: 10, cy: 10, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 32, cy: 10, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 54, cy: 10, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 10, cy: 32, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 32, cy: 32, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 54, cy: 32, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 10, cy: 54, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 32, cy: 54, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 54, cy: 54, r: 5 } },
   ],
 }
 export const DisplayOptions64 = {
@@ -13633,18 +13075,9 @@ export const DisplayOther64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 32, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 47, cy: 32, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17, cy: 32, r: 4 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 32, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 47, cy: 32, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 17, cy: 32, r: 4 } },
   ],
 }
 export const DisplayProductNumb64 = {
@@ -13975,14 +13408,8 @@ export const Bill64 = {
         d: 'M29 42a1 1 0 001 1h12a1 1 0 000-2H30a1 1 0 00-1 1zM42 46.5H30a1 1 0 000 2h12a1 1 0 000-2zM23 24.5a1 1 0 001 1h1.73a8.79 8.79 0 008.21 5.5 9 9 0 005.7-2 1 1 0 00-1.28-1.54A7 7 0 0133.94 29a6.82 6.82 0 01-6-3.5H33a1 1 0 000-2h-5.75a5.55 5.55 0 01-.09-1V22H33a1 1 0 000-2h-5.32a6.79 6.79 0 016.26-4 6.88 6.88 0 014.12 1.34 1 1 0 001.18-1.62 8.93 8.93 0 00-5.3-1.72 8.76 8.76 0 00-8.39 6H24a1 1 0 000 2h1.18v.5a8.26 8.26 0 00.06 1H24a1 1 0 00-1 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 42, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 47.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 42, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 47.5, r: 1.5 } },
   ],
 }
 export const CardsMonochromeAmericanExpress64 = {
@@ -14529,10 +13956,7 @@ export const PromiseFashionChoice64 = {
         d: 'M51.68 8.57a2 2 0 00-1.76-2.21L38 5a2 2 0 00-1.43-.29L24 7a2 2 0 00-1.63 1.89 2.08 2.08 0 00-.76.26l-11.02 6.46a2 2 0 00-.73 2.72L32.61 58.1a2 2 0 001.22.94 2.31 2.31 0 00.52.06 2 2 0 001-.27l11.06-6.44a2 2 0 00.73-2.72l-.06-.1zm-15.52-.73l6 33.05L26.14 13l-.57-3.17zm-1.45 47.89L13 17.7l9.33-5.43L44 50.3zm10.37-15.28L39.26 8.16l9.33 1.06z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 35.06, cy: 45.61, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 35.06, cy: 45.61, r: 2 } },
   ],
 }
 export const PromiseFunding64 = {
@@ -14615,18 +14039,12 @@ export const PromiseProductSheet64 = {
       tagName: 'path',
       attrs: { d: 'M41.5 32H28.61a1.5 1.5 0 000 3H41.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 22.5, cy: 33.54, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 22.5, cy: 33.54, r: 1.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M41.5 43H28.61a1.5 1.5 0 000 3H41.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 22.5, cy: 44.54, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 22.5, cy: 44.54, r: 1.5 } },
   ],
 }
 export const PromiseScan64 = {
@@ -15192,10 +14610,7 @@ export const SocialNetworkLinkedin64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M33.74 29.77v-.09l-.07.09z' },
-    },
+    { tagName: 'path', attrs: { d: 'M33.74 29.77v-.09l-.07.09z' } },
     {
       tagName: 'path',
       attrs: {
@@ -15232,10 +14647,7 @@ export const SocialNetworkYoutube64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M28.91 36.64L36.94 32l-8.03-4.64v9.28z' },
-    },
+    { tagName: 'path', attrs: { d: 'M28.91 36.64L36.94 32l-8.03-4.64v9.28z' } },
     {
       tagName: 'path',
       attrs: {
@@ -15437,18 +14849,9 @@ export const Attic64 = {
         d: 'M58.07 13.11a1.5 1.5 0 00-1.63.33l-43 43a1.5 1.5 0 00-.33 1.63 1.51 1.51 0 001.39.93h43a1.5 1.5 0 001.5-1.5v-43a1.51 1.51 0 00-.93-1.39zM56 46.15a8.14 8.14 0 00-4.15.29 10.76 10.76 0 00-5.19-4.6 11 11 0 00-2.6-.72h-.26a11.05 11.05 0 00-1.3-.12 10.82 10.82 0 00-10.41 8.09A6.19 6.19 0 0031 49h-.15a6.51 6.51 0 00-.88.06 8.26 8.26 0 00-.86.2l-.24.07c-.21.07-.41.15-.62.24l-.21.09a7.53 7.53 0 00-.73.41l-.22.16-.3.21a8.2 8.2 0 00-1.32-1.83L56 18.12zM18.12 56l6-6a6.4 6.4 0 011.25 2.06 6 6 0 00-.54 1 1 1 0 00.52 1.31.91.91 0 00.39.08 1 1 0 00.92-.6 4.9 4.9 0 01.64-1.06 4.4 4.4 0 01.46-.5 4.71 4.71 0 014.78-1 1 1 0 00.85-.09 1 1 0 00.47-.71A8.79 8.79 0 0142.5 43a8.92 8.92 0 011.16.08h.18a8.92 8.92 0 011.14.25 8.76 8.76 0 015.47 4.76 9.21 9.21 0 01.63 2 1 1 0 001 .82h.18a1 1 0 00.81-1.16 11.25 11.25 0 00-.41-1.54 6.18 6.18 0 013.33-.1V56zM58.56 7.56a1.5 1.5 0 00-2.12-2.12l-6.06 6.06H44.5a1.5 1.5 0 000 3h2.88l-6.5 6.5H35a1.5 1.5 0 000 3h2.88l-6.5 6.5H25.5a1.5 1.5 0 000 3h2.88l-6.5 6.5H16a1.5 1.5 0 000 3h2.88l-6.5 6.5H6.5a1.5 1.5 0 000 3h2.88l-3.94 3.94a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 45.5, cy: 51.5, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 41, cy: 48, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 38, cy: 53, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 45.5, cy: 51.5, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 41, cy: 48, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 38, cy: 53, r: 1 } },
   ],
 }
 export const Bathroom64 = {
@@ -15516,10 +14919,7 @@ export const ConnectedHome64 = {
         d: 'M32 38.5a9.46 9.46 0 00-6.72 2.78 1.51 1.51 0 000 2.12 1.48 1.48 0 001.06.44 1.45 1.45 0 001.06-.44 6.52 6.52 0 018.88-.3 1.5 1.5 0 102-2.25A9.46 9.46 0 0032 38.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 47, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 47, r: 2 } },
     {
       tagName: 'path',
       attrs: {
@@ -15551,10 +14951,7 @@ export const Dressing64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M22.5 36h-3a1 1 0 000 2h3a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M22.5 36h-3a1 1 0 000 2h3a1 1 0 000-2z' } },
     {
       tagName: 'path',
       attrs: {
@@ -15579,14 +14976,8 @@ export const Electricity64 = {
         d: 'M32 45.5A13.5 13.5 0 1018.5 32 13.49 13.49 0 0032 45.5zm0-25A11.5 11.5 0 1120.5 32 11.51 11.51 0 0132 20.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27, cy: 32, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 37, cy: 32, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 27, cy: 32, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 37, cy: 32, r: 2 } },
   ],
 }
 export const Enki64 = {
@@ -15737,26 +15128,11 @@ export const Kitchen264 = {
         d: 'M18 48h28a2 2 0 002-2V28a2 2 0 00-2-2H18a2 2 0 00-2 2v18a2 2 0 002 2zm0-20h28v18H18zM21 20h22v2H21z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 47, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M31 15h2a1 1 0 000-2h-2a1 1 0 000 2z' },
-    },
+    { tagName: 'circle', attrs: { cx: 17, cy: 14, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 14, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 14, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 47, cy: 14, r: 1 } },
+    { tagName: 'path', attrs: { d: 'M31 15h2a1 1 0 000-2h-2a1 1 0 000 2z' } },
   ],
 }
 export const Lighting64 = {
@@ -16434,10 +15810,7 @@ export const Temperature64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M30 41.21V21h-3v20.21a5.5 5.5 0 103 0z' },
-    },
+    { tagName: 'path', attrs: { d: 'M30 41.21V21h-3v20.21a5.5 5.5 0 103 0z' } },
     {
       tagName: 'path',
       attrs: {
@@ -16456,10 +15829,7 @@ export const ThermalControl64 = {
         d: 'M32 56a24 24 0 01-14-43.48V17a1.5 1.5 0 003 0V9.5a2 2 0 00-2-2h-7.5a1.5 1.5 0 000 3h4.18A27 27 0 0032 59a1.5 1.5 0 000-3zM52.5 53.5h-4.18A27 27 0 0032 5a1.5 1.5 0 000 3 24 24 0 0114 43.48V47a1.5 1.5 0 00-3 0v7.5a2 2 0 002 2h7.5a1.5 1.5 0 000-3z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M33.5 34.3v-6.8h-3v6.8a4 4 0 103 0z' },
-    },
+    { tagName: 'path', attrs: { d: 'M33.5 34.3v-6.8h-3v6.8a4 4 0 103 0z' } },
     {
       tagName: 'path',
       attrs: {
@@ -16545,7 +15915,7 @@ export const CardsColorsCB24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb24)',
         d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
       },
     },
@@ -16558,7 +15928,31 @@ export const CardsColorsCB24 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb24',
+            x1: 12.009,
+            x2: 24.699,
+            y1: 25.199,
+            y2: 7.047,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -16569,7 +15963,7 @@ export const CardsColorsCheque24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque24)',
         d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
       },
     },
@@ -16604,7 +15998,27 @@ export const CardsColorsCheque24 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque24',
+            x1: 12.006,
+            x2: 24.737,
+            y1: 25.556,
+            y2: 7.358,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -16743,7 +16157,7 @@ export const CardsColorsLoyalty24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty24)',
         d: 'M2.125 5.875a1 1 0 011-1h17.75a1 1 0 011 1v11.75a1 1 0 01-1 1H3.125a1 1 0 01-1-1V5.875z',
       },
     },
@@ -16783,7 +16197,31 @@ export const CardsColorsLoyalty24 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty24',
+            x1: 12.046,
+            x2: 24.735,
+            y1: 24.996,
+            y2: 6.76,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -16794,7 +16232,7 @@ export const CardsColorsMastercard24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard24)',
         d: 'M2 5.75a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12z',
       },
     },
@@ -16863,7 +16301,31 @@ export const CardsColorsMastercard24 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard24',
+            x1: 21.977,
+            x2: 21.977,
+            y1: 18.421,
+            y2: 4.426,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -16973,7 +16435,7 @@ export const CardsColorsPaypal24 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal24)',
         d: 'M2.125 5.875a1 1 0 011-1h17.75a1 1 0 011 1v11.75a1 1 0 01-1 1H3.125a1 1 0 01-1-1V5.875z',
       },
     },
@@ -17039,7 +16501,31 @@ export const CardsColorsPaypal24 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal24',
+            x1: 12.032,
+            x2: 24.721,
+            y1: 24.996,
+            y2: 6.76,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17128,6 +16614,22 @@ export const ColorsStoreLocation24 = {
     {
       tagName: 'g',
       attrs: { 'fill-rule': 'evenodd' },
+      children: [
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#006902',
+            d: 'M12 2a8 8 0 00-8 8c0 4.16 6.54 10.94 7.29 11.7a1 1 0 001.42 0C13.46 20.94 20 14.16 20 10a8 8 0 00-8-8z',
+          },
+        },
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#fff',
+            d: 'M15.24 9.25l-1.75-1.74-1.07-1.08a.59.59 0 00-.83 0l-1.07 1.08-1.75 1.74L8 10a.58.58 0 00.41 1h7.16a.58.58 0 00.43-1l-.76-.75z',
+          },
+        },
+      ],
     },
   ],
 }
@@ -17166,7 +16668,7 @@ export const CardsColorsCB32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb32)',
         d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
       },
     },
@@ -17179,7 +16681,31 @@ export const CardsColorsCB32 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb32',
+            x1: 16.325,
+            x2: 32.13,
+            y1: 34.308,
+            y2: 11.21,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17190,7 +16716,7 @@ export const CardsColorsCheque32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque32)',
         d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
       },
     },
@@ -17225,7 +16751,27 @@ export const CardsColorsCheque32 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque32',
+            x1: 14.173,
+            x2: 30.011,
+            y1: 37.922,
+            y2: 14.797,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17356,7 +16902,7 @@ export const CardsColorsLoyalty32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty32)',
         d: 'M3.125 9.125a2 2 0 012-2h21.75a2 2 0 012 2v13.75a2 2 0 01-2 2H5.125a2 2 0 01-2-2V9.125z',
       },
     },
@@ -17396,7 +16942,31 @@ export const CardsColorsLoyalty32 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty32',
+            x1: 16.64,
+            x2: 32.423,
+            y1: 34.373,
+            y2: 11.205,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17407,7 +16977,7 @@ export const CardsColorsMastercard32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard32)',
         d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
       },
     },
@@ -17486,7 +17056,31 @@ export const CardsColorsMastercard32 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard32',
+            x1: 29.564,
+            x2: 29.564,
+            y1: 26.254,
+            y2: 8.252,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17596,7 +17190,7 @@ export const CardsColorsPaypal32 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal32)',
         d: 'M3.125 9.125a2 2 0 012-2h21.75a2 2 0 012 2v13.75a2 2 0 01-2 2H5.125a2 2 0 01-2-2V9.125z',
       },
     },
@@ -17662,7 +17256,31 @@ export const CardsColorsPaypal32 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal32',
+            x1: 17.153,
+            x2: 32.936,
+            y1: 34.373,
+            y2: 11.205,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17727,6 +17345,22 @@ export const ColorsRelayLocation32 = {
     {
       tagName: 'g',
       attrs: { 'fill-rule': 'evenodd' },
+      children: [
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#006902',
+            d: 'M16 3c-5.918.011-10.71 4.812-10.71 10.73 0 5 7.64 12.88 10 15.2a1 1 0 001.4 0c2.37-2.32 10-10.19 10-15.2C26.69 7.82 21.91 3.022 16 3z',
+          },
+        },
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#fff',
+            d: 'M16 6.76l4.72 2.83-1.8 1.08-4.72-2.85L16 6.76zm-.52 12.3l-4.71-2.83v-5.69l4.67 2.81.04 5.71zm-4.2-9.47l1.89-1.14 4.74 2.85L16 12.43l-4.72-2.84zm10 6.64l-4.71 2.83v-5.69l4.67-2.81.04 5.67z',
+          },
+        },
+      ],
     },
   ],
 }
@@ -17737,6 +17371,22 @@ export const ColorsStoreLocation32 = {
     {
       tagName: 'g',
       attrs: { 'fill-rule': 'evenodd' },
+      children: [
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#006902',
+            d: 'M16 3c-5.918.011-10.71 4.812-10.71 10.73 0 5 7.64 12.88 10 15.2a1 1 0 001.4 0c2.37-2.32 10-10.19 10-15.2C26.69 7.82 21.91 3.022 16 3z',
+          },
+        },
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#fff',
+            d: 'M20.47 14.74h-8.92a.72.72 0 01-.55-1.23l.94-.95 3.51-3.51a.72.72 0 011 0l1.34 1.34L20 12.56l.95.95a.72.72 0 01-.48 1.23z',
+          },
+        },
+      ],
     },
   ],
 }
@@ -17775,7 +17425,7 @@ export const CardsColorsCB48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb48)',
         d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
       },
     },
@@ -17788,7 +17438,31 @@ export const CardsColorsCB48 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb48',
+            x1: 23.857,
+            x2: 49.339,
+            y1: 48.873,
+            y2: 12.691,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17799,7 +17473,7 @@ export const CardsColorsCheque48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque48)',
         d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
       },
     },
@@ -17834,7 +17508,27 @@ export const CardsColorsCheque48 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque48',
+            x1: 21.32,
+            x2: 46.808,
+            y1: 59.637,
+            y2: 23.453,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -17972,7 +17666,7 @@ export const CardsColorsLoyalty48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty48)',
         d: 'M4.125 12.125a2 2 0 012-2h35.75a2 2 0 012 2v23.75a2 2 0 01-2 2H6.125a2 2 0 01-2-2v-23.75z',
       },
     },
@@ -18009,7 +17703,31 @@ export const CardsColorsLoyalty48 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty48',
+            x1: 24.071,
+            x2: 49.548,
+            y1: 53.162,
+            y2: 16.895,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -18020,7 +17738,7 @@ export const CardsColorsMastercard48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard48)',
         d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
       },
     },
@@ -18096,7 +17814,31 @@ export const CardsColorsMastercard48 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard48',
+            x1: 44.132,
+            x2: 44.132,
+            y1: 40.032,
+            y2: 12.185,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -18206,7 +17948,7 @@ export const CardsColorsPaypal48 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal48)',
         d: 'M4.125 12.125a2 2 0 012-2h35.75a2 2 0 012 2v23.75a2 2 0 01-2 2H6.125a2 2 0 01-2-2v-23.75z',
       },
     },
@@ -18272,7 +18014,31 @@ export const CardsColorsPaypal48 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal48',
+            x1: 24.494,
+            x2: 49.968,
+            y1: 53.161,
+            y2: 16.894,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -18407,7 +18173,7 @@ export const CardsColorsCB64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscb64)',
         d: 'M55.962 13.375H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66z',
       },
     },
@@ -18420,7 +18186,31 @@ export const CardsColorsCB64 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb64',
+            x1: 31.841,
+            x2: 65.719,
+            y1: 65.853,
+            y2: 17.691,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -18431,7 +18221,7 @@ export const CardsColorsCheque64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorscheque64)',
         d: 'M5 15a2 2 0 012-2h50a2 2 0 012 2v34a2 2 0 01-2 2H7a2 2 0 01-2-2V15z',
       },
     },
@@ -18466,7 +18256,27 @@ export const CardsColorsCheque64 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque64',
+            x1: 28.72,
+            x2: 63.84,
+            y1: 77.569,
+            y2: 28.23,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -18597,7 +18407,7 @@ export const CardsColorsLoyalty64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsloyalty64)',
         d: 'M8.037 50.375a2.415 2.415 0 01-2.412-2.41v-31.93a2.415 2.415 0 012.412-2.41h47.925a2.415 2.415 0 012.413 2.41v31.93a2.415 2.415 0 01-2.413 2.41H8.038z',
       },
     },
@@ -18634,7 +18444,31 @@ export const CardsColorsLoyalty64 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty64',
+            x1: 32.198,
+            x2: 66.056,
+            y1: 70.106,
+            y2: 21.774,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -18645,7 +18479,7 @@ export const CardsColorsMastercard64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorsmastercard64)',
         d: 'M8.037 50.625h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66z',
       },
     },
@@ -18724,7 +18558,31 @@ export const CardsColorsMastercard64 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard64',
+            x1: 58.871,
+            x2: 58.871,
+            y1: 52.603,
+            y2: 15.556,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
     },
   ],
 }
@@ -18834,7 +18692,7 @@ export const CardsColorsPaypal64 = {
     {
       tagName: 'path',
       attrs: {
-        fill: 'url(#a)',
+        fill: 'url(#fill-cardscolorspaypal64)',
         d: 'M8.037 50.375a2.415 2.415 0 01-2.412-2.41v-31.93a2.415 2.415 0 012.412-2.41h47.925a2.415 2.415 0 012.413 2.41v31.93a2.415 2.415 0 01-2.413 2.41H8.038z',
       },
     },
@@ -18900,7 +18758,31 @@ export const CardsColorsPaypal64 = {
     },
     {
       tagName: 'defs',
-      attrs: {},
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal64',
+            x1: 32.839,
+            x2: 66.695,
+            y1: 70.108,
+            y2: 21.774,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
     },
   ],
 }
