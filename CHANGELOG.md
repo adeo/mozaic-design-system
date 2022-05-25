@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.33.0](https://github.com/adeo/mozaic-design-system/compare/v1.32.0...v1.33.0) (2022-05-11)
+
+
+### Features
+
+* **phonenumber:** use emoji flags ([#1125](https://github.com/adeo/mozaic-design-system/issues/1125)) ([1e7bf52](https://github.com/adeo/mozaic-design-system/commit/1e7bf527c7938aaddd8da6a409f433f269ac6728))
+* **tooltip:** add no pointer variation ([#1126](https://github.com/adeo/mozaic-design-system/issues/1126)) ([8c5eb76](https://github.com/adeo/mozaic-design-system/commit/8c5eb764d44a95744c1708ba6210baff01d70b37))
+
+
+
+
+
 # [1.32.0](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v1.32.0) (2022-05-05)
 
 

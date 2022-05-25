@@ -10,12 +10,12 @@
   &__button {
     @include unstyle-button();
     @include set-select-size($select-default-size);
-    @include set-font-weight('semi-bold');
+    @include set-font-weight("semi-bold");
 
     display: flex;
     align-items: center;
     color: $color-grey-900;
-    border: get-border('s') solid $color-grey-600;
+    border: get-border("s") solid $color-grey-600;
     border-radius: $mu025 0 0 $mu025;
     border-right: none;
     padding-left: $mu100;
@@ -29,11 +29,12 @@
     margin-right: $mu050;
     width: $mu100;
     height: $mu100;
+    text-align: center;
   }
 
   &__list {
     @include unstyle-list();
-    @include set-box-shadow('l');
+    @include set-box-shadow("l");
 
     margin: 0;
     position: absolute;
@@ -65,13 +66,13 @@
   }
 
   &__item {
-    @include set-font-scale('05', 's');
+    @include set-font-scale("05", "s");
 
     display: flex;
     align-items: center;
     min-height: $mu300;
     padding-left: $mu075;
-    border-bottom: get-border('s') solid $color-grey-300;
+    border-bottom: get-border("s") solid $color-grey-300;
 
     &--focused {
       background: $color-grey-100;
@@ -81,6 +82,22 @@
   &__input {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+  }
+
+  &__indicator,
+  &__country {
+    padding-left: $mu100;
+  }
+
+  &__overlay {
+    background: transparent;
+    inset: 0;
+    position: fixed;
+    z-index: 10;
+  }
+
+  &__dropdown {
+    z-index: 20;
   }
 
   &--focused {
