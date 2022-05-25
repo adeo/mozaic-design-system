@@ -1,5 +1,5 @@
 ---
-title: "Code"
+title: 'Code'
 order: 2
 ---
 
@@ -10,10 +10,10 @@ Import the **settings**, the **layer**, and the **button** scss files.
 > Note that you can also implement in addition the scss file of **the links** if you use this component in your layers.
 
 ```scss
-@import "settings-tools/all-settings";
+@import 'settings-tools/all-settings';
 
-@import "components/_c.layer";
-@import "components/_c.button";
+@import 'components/_c.layer';
+@import 'components/_c.button';
 ```
 
 ## Usage
@@ -152,6 +152,14 @@ To do this, you can add the `mc-layer__dialog--extend` to the `.mc-layer__dialog
 
 <Preview path="extended" />
 
+### Open from left to right
+
+In some configurations, you may want to open the layer from the left to the right.
+
+To do this, you can add the `mc-layer--ltr` to the `.mc-layer`.
+
+<Preview path="open-ltr" />
+
 ## Behaviour
 
 ### On opening
@@ -174,7 +182,7 @@ To do this, you need to add the `.mu-prevent-body-scroll` class to both the `htm
 When using this utility class, do not forget to import the associated SCSS file:
 
 ```scss
-@import "utilities/_u.scroll";
+@import 'utilities/_u.scroll';
 ```
 
 > Note that the use of this class is not imposed by Mozaic but left to your discretion.

@@ -37,7 +37,7 @@
   &__item {
     display: flex;
     align-items: center;
-    gap: $mu075;
+    gap: $mu050;
     padding-left: $mu075;
     min-height: $mu300;
     &:not(:last-child) {
@@ -54,6 +54,14 @@
   &__icon {
     width: $mu200;
     height: $mu200;
+  }
+
+  &__flag {
+    @include set-font-scale("07", "m");
+
+    width: $mu200;
+    height: $mu200;
+    text-align: center;
   }
 
   &__empty {

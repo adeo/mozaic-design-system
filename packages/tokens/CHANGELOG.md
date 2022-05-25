@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/adeo/mozaic-design-system/compare/v1.30.0...v1.31.0) (2022-04-27)
+
+
+### Features
+
+* **component/tag:** update tags colors ([#1116](https://github.com/adeo/mozaic-design-system/issues/1116)) ([dd5df6d](https://github.com/adeo/mozaic-design-system/commit/dd5df6da04509355b004d8f5538da0c18c681982))
+
+
+
+
+
 # [1.29.0](https://github.com/adeo/mozaic-design-system/compare/v1.28.0...v1.29.0) (2022-03-30)
 
 

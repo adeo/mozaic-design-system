@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.33.0](https://github.com/adeo/mozaic-design-system/compare/v1.32.0...v1.33.0) (2022-05-11)
+
+
+### Features
+
+* **phonenumber:** use emoji flags ([#1125](https://github.com/adeo/mozaic-design-system/issues/1125)) ([1e7bf52](https://github.com/adeo/mozaic-design-system/commit/1e7bf527c7938aaddd8da6a409f433f269ac6728))
+* **tooltip:** add no pointer variation ([#1126](https://github.com/adeo/mozaic-design-system/issues/1126)) ([8c5eb76](https://github.com/adeo/mozaic-design-system/commit/8c5eb764d44a95744c1708ba6210baff01d70b37))
+
+
+
+
+
+# [1.31.0](https://github.com/adeo/mozaic-design-system/compare/v1.30.0...v1.31.0) (2022-04-27)
+
+
+### Bug Fixes
+
+* **component/dropdown:** add arrow up when dropdown is open ([#1111](https://github.com/adeo/mozaic-design-system/issues/1111)) ([6d1ca77](https://github.com/adeo/mozaic-design-system/commit/6d1ca7742c8a2967a4e2a3b27db4b9ef3c893285))
+
+
+### Features
+
+* **component/divider:** add new sizes ([#1110](https://github.com/adeo/mozaic-design-system/issues/1110)) ([2461679](https://github.com/adeo/mozaic-design-system/commit/2461679359f8abcaf389d73128aea701f14d51c0))
+* **component/layer:** allow the layer to open from the left to the right ([#1115](https://github.com/adeo/mozaic-design-system/issues/1115)) ([15c1857](https://github.com/adeo/mozaic-design-system/commit/15c18574789878f7cd6d40461c31ecdb5b8a9ca8))
+* **component/listbox:** add flags preview ([#1114](https://github.com/adeo/mozaic-design-system/issues/1114)) ([9af868f](https://github.com/adeo/mozaic-design-system/commit/9af868f7112a2c9f9fe3006c46588210e2aeebaf))
+* **component/loader:** add divider under the header ([#1112](https://github.com/adeo/mozaic-design-system/issues/1112)) ([84c843b](https://github.com/adeo/mozaic-design-system/commit/84c843bbac71190c270ea8607b3ee0bb1936c09f))
+* **component/optioncard:** add label tag to focusable elements list ([1680672](https://github.com/adeo/mozaic-design-system/commit/1680672cac90050146c3e37c89951fcaaccee07c))
+* **component/tag:** update tags colors ([#1116](https://github.com/adeo/mozaic-design-system/issues/1116)) ([dd5df6d](https://github.com/adeo/mozaic-design-system/commit/dd5df6da04509355b004d8f5538da0c18c681982))
+
+
+
+
+
 # [1.30.0](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v1.30.0) (2022-04-13)
 
 

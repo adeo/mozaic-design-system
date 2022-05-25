@@ -1,21 +1,21 @@
 $tag-themes: get-token(color, tag);
-$tag-border: get-border('s');
-$tag-border-focus: get-border('m');
+$tag-border: get-border("s");
+$tag-border-focus: get-border("m");
 $padding-y--s: calc(#{$mu025} - #{$tag-border});
 $padding-y--m: calc(#{$mu075} - #{$tag-border});
 
 $tag-sizes: (
-  's': (
-    'padding': $padding-y--s calc(#{$mu100} - #{$tag-border}),
-    'font-size': '04',
-    'line-height': 'm',
-    'border-radius': $mu075,
+  "s": (
+    "padding": $padding-y--s calc(#{$mu100} - #{$tag-border}),
+    "font-size": "04",
+    "line-height": "m",
+    "border-radius": $mu075,
   ),
-  'm': (
-    'padding': $padding-y--m calc(#{$mu150} - #{$tag-border}),
-    'font-size': '04',
-    'line-height': 'm',
-    'border-radius': $mu125,
+  "m": (
+    "padding": $padding-y--m calc(#{$mu150} - #{$tag-border}),
+    "font-size": "04",
+    "line-height": "m",
+    "border-radius": $mu125,
   ),
 );
 
@@ -23,12 +23,12 @@ $tag-sizes: (
   $props: map-get($tag-sizes, $size);
 
   @include set-font-scale(
-    map-get($props, 'font-size'),
-    map-get($props, 'line-height')
+    map-get($props, "font-size"),
+    map-get($props, "line-height")
   );
 
-  border-radius: map-get($props, 'border-radius');
-  padding: map-get($props, 'padding');
+  border-radius: map-get($props, "border-radius");
+  padding: map-get($props, "padding");
 
   @include set-focus-floating-base {
     border-radius: (map-get($props, "border-radius") + $size-focus-gap);
@@ -40,32 +40,38 @@ $tag-sizes: (
 }
 
 @mixin set-tag-base-style($size) {
-  @include set-font-face('regular');
+  @include set-font-face("regular");
   @include set-tag-size($size);
 
   display: inline-flex;
 }
 
 @mixin set-tag-removable-icon($size) {
-  @if $size == 's' {
+  @if $size == "s" {
     width: $mu150;
     height: $mu150;
     background-size: $mu100;
   }
 
-  @if $size == 'm' {
+  @if $size == "m" {
     width: $mu250;
     height: $mu250;
     background-size: $mu150;
   }
 }
 
-@mixin set-tag-icon-B64($theme: 'light') {
-  @if $theme == 'light' {
-    background-image: url(inline-icons('tag-delete-24', $color-grey-800));
+@mixin set-tag-icon-B64($theme: "light") {
+  @if $theme == "light" {
+    background-image: url(inline-icons(
+      "tag-delete-24",
+      $color-tag-removable-light-icon
+    ));
   }
 
-  @if $theme == 'dark' {
-    background-image: url(inline-icons('tag-delete-24', $color-grey-200));
+  @if $theme == "dark" {
+    background-image: url(inline-icons(
+      "tag-delete-24",
+      $color-tag-removable-dark-icon
+    ));
   }
 }
