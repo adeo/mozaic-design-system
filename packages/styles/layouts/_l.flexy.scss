@@ -106,6 +106,24 @@
 // base 12
 @include make-flexy-col(1, 12, $major-screens);
 @include make-flexy-col-push(1, 12, $major-screens);
+@include make-flexy-col(2, 12, $major-screens);
+@include make-flexy-col-push(2, 12, $major-screens);
+@include make-flexy-col(3, 12, $major-screens);
+@include make-flexy-col-push(3, 12, $major-screens);
+@include make-flexy-col(4, 12, $major-screens);
+@include make-flexy-col-push(4, 12, $major-screens);
+@include make-flexy-col(5, 12, $major-screens);
+@include make-flexy-col-push(5, 12, $major-screens);
+@include make-flexy-col(6, 12, $major-screens);
+@include make-flexy-col-push(6, 12, $major-screens);
+@include make-flexy-col(7, 12, $major-screens);
+@include make-flexy-col-push(7, 12, $major-screens);
+@include make-flexy-col(8, 12, $major-screens);
+@include make-flexy-col-push(8, 12, $major-screens);
+@include make-flexy-col(9, 12, $major-screens);
+@include make-flexy-col-push(9, 12, $major-screens);
+@include make-flexy-col(10, 12, $major-screens);
+@include make-flexy-col-push(10, 12, $major-screens);
 @include make-flexy-col(11, 12, $major-screens);
 @include make-flexy-col-push(11, 12, $major-screens);
 
