@@ -128,4 +128,8 @@
   order: 999;
 }
 
+// Reset
+
+@include make-flexy-col-push-reset($major-screens);
+
 /* mqp:end */
