@@ -83,6 +83,7 @@
 
 @include make-flexy-custom-col('full', $major-screens) {
   flex: 100%;
+  max-width: 100%;
 }
 
 // base 2
