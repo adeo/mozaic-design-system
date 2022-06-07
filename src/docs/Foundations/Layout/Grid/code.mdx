@@ -149,6 +149,24 @@ The available breakpoints modifiers are:
 | `ml-flexy__col--push-[size]@from-xl`       | **xl**: From 1280px and up  | Laptops (depending on settings) |
 | `ml-flexy__col--push-[size]@from-xxl`      | **xxl**: From 1920px and up | Desktop                         |
 
+### Reset pushed modifiers
+For a specific a breakpoint you can reset the pushed column using `mc-flexy__col--push--reset@from-XX`.
+
+```html
+...
+<div
+  class="
+  ml-flexy__col
+  ml-flexy__col--1of12
+  ml-flexy__col--push-1of12@from-l 
+  ml-flexy__col--push-reset@from-xl
+"
+>
+  <!-- column content -->
+</div>
+...
+```
+
 ## Nesting flexy grids
 
 You can either nest flexy grids by creating a new `.ml-flexy` grid inside a column, or by directly applying a `.ml-flexy` class on a `.ml-flexy__column` element.
