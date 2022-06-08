@@ -176,6 +176,16 @@ export const MIconPublishFavoriteFull16 = GenerateIcon('1rem', '0 0 16 16', [
   ]
 ])
 
+export const MIconPublishLock16 = GenerateIcon('1rem', '0 0 16 16', [
+  [
+    'g',
+    { attrs: {"clip-path":"url(#a)"} },
+  ],[
+    'defs',
+    { attrs: {} },
+  ]
+])
+
 export const MIconEuro16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
@@ -885,6 +895,13 @@ export const MIconDisplayHome24 = GenerateIcon('1.5rem', '0 0 24 24', [
   ]
 ])
 
+export const MIconDisplayLogOut24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M3 2a1 1 0 00-1 1v18a1 1 0 001 1h10a1 1 0 001-1v-4a1 1 0 10-2 0v3H4V4h8v3a1 1 0 102 0V3a1 1 0 00-1-1H3zm15.707 6.293a1 1 0 10-1.414 1.414L18.586 11H9a1 1 0 100 2h9.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3z"} },
+  ]
+])
+
 export const MIconDisplayMenu24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
@@ -983,6 +1000,13 @@ export const MIconDisplaySearch24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
     { attrs: {"d":"M18 6.05a7 7 0 00-10.51 9.14l-3.08 3.08a1 1 0 001.41 1.42l3.09-3.09A7 7 0 0018 6.05zm-1.41 8.49a5 5 0 110-7.08 5 5 0 01.04 7.08z"} },
+  ]
+])
+
+export const MIconDisplaySearchList24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M3 3a1 1 0 000 2h14a1 1 0 100-2H3zm11 7a4 4 0 100 8 4 4 0 000-8zm-6 4a6 6 0 1110.89 3.477l2.817 2.816a1 1 0 01-1.414 1.414l-2.816-2.816A6 6 0 018 14zM2 9a1 1 0 011-1h4.5a1 1 0 010 2H3a1 1 0 01-1-1zm1 4a1 1 0 100 2h2.5a1 1 0 100-2H3z"} },
   ]
 ])
 
@@ -1120,6 +1144,13 @@ export const MIconPublishFavoriteFull24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
     { attrs: {"d":"M11.28 19.7l-7-7a5.32 5.32 0 01-1.58-3A5 5 0 018.36 4a5.37 5.37 0 013 1.57l.6.6.6-.6a5.31 5.31 0 013-1.57 5 5 0 014.21 1.43 5 5 0 011.43 4.21 5.32 5.32 0 01-1.58 3l-7 7a1 1 0 01-1.34.06z"} },
+  ]
+])
+
+export const MIconPublishLock24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M12 2a5 5 0 00-5 5v2H5a1 1 0 00-1 1v11a1 1 0 001 1h14a1 1 0 001-1V10a1 1 0 00-1-1h-2V7a5 5 0 00-5-5zm3 7V7a3 3 0 10-6 0v2h6zM6 20v-9h12v9H6z"} },
   ]
 ])
 
@@ -3199,6 +3230,13 @@ export const MIconDisplayHome32 = GenerateIcon('2rem', '0 0 32 32', [
   ]
 ])
 
+export const MIconDisplayLogOut32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M4 3a1 1 0 00-1 1v24a1 1 0 001 1h13.333a1 1 0 001-1v-5.333a1 1 0 10-2 0V27H5V5h11.333v4.333a1 1 0 102 0V4a1 1 0 00-1-1H4zm20.707 8.293a1 1 0 00-1.414 1.414L25.586 15H12a1 1 0 100 2h13.586l-2.293 2.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414l-4-4z"} },
+  ]
+])
+
 export const MIconDisplayMenu32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
@@ -3294,6 +3332,13 @@ export const MIconDisplaySearch32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
     { attrs: {"d":"M24.4 7.93A10 10 0 009.6 21.34L5.92 25a1 1 0 001.41 1.42L11 22.78A10 10 0 0024.4 7.93zM23 20.66A8 8 0 1125.33 15 7.95 7.95 0 0123 20.66z"} },
+  ]
+])
+
+export const MIconDisplaySearchList32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M4 4.333a1 1 0 000 2h18.667a1 1 0 100-2H4zM18.667 13a5.667 5.667 0 100 11.333 5.667 5.667 0 000-11.333zM11 18.667a7.667 7.667 0 1113.749 4.668l3.958 3.958a1 1 0 01-1.414 1.414l-3.958-3.958A7.667 7.667 0 0111 18.667zM3 12a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zm1 5.667a1 1 0 100 2h3.333a1 1 0 100-2H4z"} },
   ]
 ])
 
@@ -3431,6 +3476,13 @@ export const MIconPublishFavoriteFull32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
     { attrs: {"d":"M17.41 26.09a2 2 0 01-2.82 0L5 16.5a6.8 6.8 0 01.66-10.2 7 7 0 019.1.76L16 8.3l1.24-1.24a7 7 0 019.1-.76A6.8 6.8 0 0127 16.5z"} },
+  ]
+])
+
+export const MIconPublishLock32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M16 3a6.333 6.333 0 00-6.333 6.333v3h-3a1 1 0 00-1 1V28a1 1 0 001 1h18.666a1 1 0 001-1V13.333a1 1 0 00-1-1h-3v-3A6.333 6.333 0 0016 3zm4.333 9.333v-3a4.333 4.333 0 10-8.666 0v3h8.666zM7.667 27V14.333h16.666V27H7.667z"} },
   ]
 ])
 
@@ -5525,6 +5577,13 @@ export const MIconDisplayHome48 = GenerateIcon('3rem', '0 0 48 48', [
   ]
 ])
 
+export const MIconDisplayLogOut48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M6 4.5A1.5 1.5 0 004.5 6v36A1.5 1.5 0 006 43.5h20a1.5 1.5 0 001.5-1.5v-8a1.5 1.5 0 00-3 0v6.5h-17v-33h17V14a1.5 1.5 0 003 0V6A1.5 1.5 0 0026 4.5H6zm31.06 12.44a1.5 1.5 0 00-2.12 2.12l3.439 3.44H18a1.5 1.5 0 000 3h20.379l-3.44 3.44a1.5 1.5 0 002.122 2.12l6-6a1.5 1.5 0 000-2.12l-6-6z"} },
+  ]
+])
+
 export const MIconDisplayMenu48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
@@ -5620,6 +5679,13 @@ export const MIconDisplaySearch48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
     { attrs: {"d":"M36.61 11.39a15 15 0 00-22.22 20.1L7.58 38.3a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l6.81-6.81a15 15 0 0020.1-22.22zm-2.12 19.1A12 12 0 1138 22a12 12 0 01-3.51 8.49z"} },
+  ]
+])
+
+export const MIconDisplaySearchList48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M6 6.5a1.5 1.5 0 100 3h28a1.5 1.5 0 000-3H6zm22 13a8.5 8.5 0 100 17 8.5 8.5 0 000-17zM16.5 28c0-6.351 5.149-11.5 11.5-11.5S39.5 21.649 39.5 28a11.45 11.45 0 01-2.377 7.002l5.938 5.937a1.5 1.5 0 01-2.122 2.122l-5.937-5.938A11.45 11.45 0 0128 39.5c-6.351 0-11.5-5.149-11.5-11.5zm-12-10A1.5 1.5 0 016 16.5h9a1.5 1.5 0 010 3H6A1.5 1.5 0 014.5 18zM6 26.5a1.5 1.5 0 000 3h5a1.5 1.5 0 000-3H6z"} },
   ]
 ])
 
@@ -5766,6 +5832,13 @@ export const MIconPublishFavoriteFull48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
     { attrs: {"d":"M22.55 38.81l-13.7-13.7a9.76 9.76 0 01-.68-13.24 9.53 9.53 0 0113.92-.48L24 13.27l1.64-1.64a9.75 9.75 0 0113.2-.63 9.53 9.53 0 01.48 13.92L25.38 38.81a2 2 0 01-2.83 0z"} },
+  ]
+])
+
+export const MIconPublishLock48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M24 4.5a9.5 9.5 0 00-9.5 9.5v4.5H10A1.5 1.5 0 008.5 20v22a1.5 1.5 0 001.5 1.5h28a1.5 1.5 0 001.5-1.5V20a1.5 1.5 0 00-1.5-1.5h-4.5V14A9.5 9.5 0 0024 4.5zm6.5 14V14a6.5 6.5 0 10-13 0v4.5h13zm-19 22v-19h25v19h-25z"} },
   ]
 ])
 
@@ -7884,6 +7957,13 @@ export const MIconDisplayHome64 = GenerateIcon('4rem', '0 0 64 64', [
   ]
 ])
 
+export const MIconDisplayLogOut64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M8 6.5A1.5 1.5 0 006.5 8v48A1.5 1.5 0 008 57.5h26.667a1.5 1.5 0 001.5-1.5V45.333a1.5 1.5 0 00-3 0V54.5H9.5v-45h23.667v9.167a1.5 1.5 0 103 0V8a1.5 1.5 0 00-1.5-1.5H8zm41.06 16.44a1.5 1.5 0 00-2.12 2.12l5.439 5.44H24a1.5 1.5 0 000 3h28.379l-5.44 5.44a1.5 1.5 0 002.122 2.12l8-8a1.5 1.5 0 000-2.12l-8-8z"} },
+  ]
+])
+
 export const MIconDisplayMenu64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
@@ -7970,6 +8050,13 @@ export const MIconDisplaySearch64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
     { attrs: {"d":"M34 9a21 21 0 00-15.85 34.73l-8.71 8.71a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l8.71-8.71A21 21 0 1034 9zm0 39a18 18 0 1118-18 18 18 0 01-18 18z"} },
+  ]
+])
+
+export const MIconDisplaySearchList64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M8 9.167a1.5 1.5 0 100 3h37.333a1.5 1.5 0 100-3H8zM37.333 25.5c-6.535 0-11.833 5.298-11.833 11.833 0 6.536 5.298 11.834 11.833 11.834 6.536 0 11.834-5.298 11.834-11.834 0-6.535-5.298-11.833-11.834-11.833zM22.5 37.333c0-8.192 6.641-14.833 14.833-14.833 8.193 0 14.834 6.641 14.834 14.833 0 3.556-1.252 6.82-3.338 9.375l8.232 8.231a1.5 1.5 0 01-2.122 2.122l-8.231-8.232a14.772 14.772 0 01-9.375 3.338c-8.192 0-14.833-6.641-14.833-14.834zM6.5 24A1.5 1.5 0 018 22.5h12a1.5 1.5 0 010 3H8A1.5 1.5 0 016.5 24zM8 35.833a1.5 1.5 0 000 3h6.667a1.5 1.5 0 000-3H8z"} },
   ]
 ])
 
@@ -8098,6 +8185,13 @@ export const MIconPublishFavoriteFull64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
     { attrs: {"d":"M55 13.09a13.82 13.82 0 00-19.52 0L32 16.53l-3.44-3.44A13.8 13.8 0 109.05 32.62L30.6 53.73a2 2 0 002.8 0L55 32.61a13.82 13.82 0 000-19.52z"} },
+  ]
+])
+
+export const MIconPublishLock64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M32 6.5c-6.72 0-12.167 5.447-12.167 12.167v6.5h-6.5a1.5 1.5 0 00-1.5 1.5V56a1.5 1.5 0 001.5 1.5h37.334a1.5 1.5 0 001.5-1.5V26.667a1.5 1.5 0 00-1.5-1.5h-6.5v-6.5C44.167 11.947 38.719 6.5 32 6.5zm9.167 18.667v-6.5a9.167 9.167 0 10-18.334 0v6.5h18.334zM14.833 54.5V28.167h34.334V54.5H14.833z"} },
   ]
 ])
 
