@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.35.0](https://github.com/adeo/mozaic-design-system/compare/v1.34.0...v1.35.0) (2022-06-08)
+
+
+### Bug Fixes
+
+* **grid:** add max-width for full modifier ([#1142](https://github.com/adeo/mozaic-design-system/issues/1142)) ([c482f79](https://github.com/adeo/mozaic-design-system/commit/c482f7922707cd87ab451bc51b4f95bee80c827a))
+
+
+### Features
+
+* **foundations/icons:** add new icons ([#1133](https://github.com/adeo/mozaic-design-system/issues/1133)) ([ee5007a](https://github.com/adeo/mozaic-design-system/commit/ee5007a30ee0a57339439fb83cc202332f7b82fc))
+* **grid:** add all col for base 12 ([#1143](https://github.com/adeo/mozaic-design-system/issues/1143)) ([f8e06d5](https://github.com/adeo/mozaic-design-system/commit/f8e06d56d70693a4fd5905ec454888c7cab92d2f))
+* **grid:** add reset on pushed col ([#1144](https://github.com/adeo/mozaic-design-system/issues/1144)) ([6c37464](https://github.com/adeo/mozaic-design-system/commit/6c3746420b03868a362bbcd38f5f6bce9f62b77c))
+
+
+
+
+
 # [1.34.0](https://github.com/adeo/mozaic-design-system/compare/v1.33.0...v1.34.0) (2022-05-25)
 
 
