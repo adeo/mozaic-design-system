@@ -89,6 +89,21 @@
   }
 }
 
+@mixin make-flexy-col-push-reset($at-sizes: "s") {
+
+  @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
+    @warn "make-flexy-col-push--reset third param should a map of existing screens, the name of a screen, or 'all'";
+  }
+
+  @if (type-of($at-sizes) == list or type-of($at-sizes) == string) {
+    .ml-flexy__col--push--reset {
+      @include modify-from-screens($at-sizes) {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
 /* create custom named columns with custom content */
 @mixin make-flexy-custom-col($name, $at-sizes: "s") {
   @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {

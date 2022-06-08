@@ -83,6 +83,7 @@
 
 @include make-flexy-custom-col("full", $major-screens) {
   flex: 100%;
+  max-width: 100%;
 }
 
 // base 2
@@ -127,5 +128,9 @@
 @include make-flexy-custom-col("last", $major-screens) {
   order: 999;
 }
+
+// Reset
+
+@include make-flexy-col-push-reset($major-screens);
 
 /* mqp:end */
