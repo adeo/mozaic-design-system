@@ -5,7 +5,7 @@
   &--gutter {
     @include set-flexy-gutter($size-gutter-screen-s);
 
-    @include set-from-screen('m') {
+    @include set-from-screen("m") {
       @include set-flexy-gutter($size-gutter-screen-m);
     }
   }
@@ -70,18 +70,18 @@
     .ml-flexy--gutter > & {
       @include set-flexy-col-gutter($size-gutter-screen-s);
 
-      @include set-from-screen('m') {
+      @include set-from-screen("m") {
         @include set-flexy-col-gutter($size-gutter-screen-m);
       }
     }
   }
 }
 
-@include make-flexy-custom-col('fill', $major-screens) {
+@include make-flexy-custom-col("fill", $major-screens) {
   flex: 1 1 0;
 }
 
-@include make-flexy-custom-col('full', $major-screens) {
+@include make-flexy-custom-col("full", $major-screens) {
   flex: 100%;
 }
 
@@ -104,31 +104,13 @@
 @include make-flexy-col(5, 6, $major-screens);
 @include make-flexy-col-push(5, 6, $major-screens);
 // base 12
-@include make-flexy-col(1, 12, $major-screens);
-@include make-flexy-col-push(1, 12, $major-screens);
-@include make-flexy-col(2, 12, $major-screens);
-@include make-flexy-col-push(2, 12, $major-screens);
-@include make-flexy-col(3, 12, $major-screens);
-@include make-flexy-col-push(3, 12, $major-screens);
-@include make-flexy-col(4, 12, $major-screens);
-@include make-flexy-col-push(4, 12, $major-screens);
-@include make-flexy-col(5, 12, $major-screens);
-@include make-flexy-col-push(5, 12, $major-screens);
-@include make-flexy-col(6, 12, $major-screens);
-@include make-flexy-col-push(6, 12, $major-screens);
-@include make-flexy-col(7, 12, $major-screens);
-@include make-flexy-col-push(7, 12, $major-screens);
-@include make-flexy-col(8, 12, $major-screens);
-@include make-flexy-col-push(8, 12, $major-screens);
-@include make-flexy-col(9, 12, $major-screens);
-@include make-flexy-col-push(9, 12, $major-screens);
-@include make-flexy-col(10, 12, $major-screens);
-@include make-flexy-col-push(10, 12, $major-screens);
-@include make-flexy-col(11, 12, $major-screens);
-@include make-flexy-col-push(11, 12, $major-screens);
+@for $i from 1 through 12 {
+  @include make-flexy-col($i, 12, $major-screens);
+  @include make-flexy-col-push($i, 12, $major-screens);
+}
 
 // Initial
-@include make-flexy-custom-col('initial', $major-screens) {
+@include make-flexy-custom-col("initial", $major-screens) {
   flex: 0 1 auto;
 }
 
@@ -138,11 +120,11 @@
 }
 
 /* ORDERING */
-@include make-flexy-custom-col('first', $major-screens) {
+@include make-flexy-custom-col("first", $major-screens) {
   order: -1;
 }
 
-@include make-flexy-custom-col('last', $major-screens) {
+@include make-flexy-custom-col("last", $major-screens) {
   order: 999;
 }
 
