@@ -1,4 +1,4 @@
-<svelte:options tag="user-account-customer--passion-32px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

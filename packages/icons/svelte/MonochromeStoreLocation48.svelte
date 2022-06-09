@@ -1,4 +1,4 @@
-<svelte:options tag="store-monochrome-storelocation-48px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

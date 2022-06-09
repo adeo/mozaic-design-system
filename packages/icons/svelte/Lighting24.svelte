@@ -1,4 +1,4 @@
-<svelte:options tag="universe-lighting-24px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

@@ -1,4 +1,4 @@
-<svelte:options tag="instruction-payment-nocontact-48px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

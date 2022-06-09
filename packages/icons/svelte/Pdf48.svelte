@@ -1,4 +1,4 @@
-<svelte:options tag="media-pdf-48px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

@@ -1,4 +1,4 @@
-<svelte:options tag="navigation-display-displaymobile--vertical-32px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

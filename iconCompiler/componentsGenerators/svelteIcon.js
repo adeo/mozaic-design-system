@@ -10,7 +10,7 @@ const iconContent = (fileName, data) => {
 
   const tag = fileName.replace(/_/g, '-').replace('.svg', '').toLowerCase()
 
-  return `<svelte:options tag="${tag}" />
+  return `<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;
