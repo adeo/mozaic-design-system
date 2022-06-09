@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.36.0](https://github.com/adeo/mozaic-design-system/compare/v1.35.0...v1.36.0) (2022-06-09)
+
+
+### Features
+
+* **icons:** nameless svelte icons for web compoenent ([#1150](https://github.com/adeo/mozaic-design-system/issues/1150)) ([a2b0352](https://github.com/adeo/mozaic-design-system/commit/a2b035240b06c58e66ff03a697c34c649c996507))
+
+
+
+
+
 # [1.35.0](https://github.com/adeo/mozaic-design-system/compare/v1.34.0...v1.35.0) (2022-06-08)
 
 
