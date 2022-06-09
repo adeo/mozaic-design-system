@@ -1,4 +1,4 @@
-<svelte:options tag="instruction-hygiene-gel-24px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

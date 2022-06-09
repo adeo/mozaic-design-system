@@ -1,4 +1,4 @@
-<svelte:options tag="product-promise-fashionchoice-64px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

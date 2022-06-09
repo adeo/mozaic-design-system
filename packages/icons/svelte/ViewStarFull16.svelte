@@ -1,4 +1,4 @@
-<svelte:options tag="social-view-star--full-16px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

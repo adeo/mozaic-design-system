@@ -1,4 +1,4 @@
-<svelte:options tag="service-tools-3d-64px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;
