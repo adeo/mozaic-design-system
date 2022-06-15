@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.5](https://github.com/adeo/mozaic-design-system/compare/v1.36.0...v2.0.0-rc.5) (2022-06-15)
+
+
+### Bug Fixes
+
+* **pattern/colors:** update the color of the notification icons ([#1104](https://github.com/adeo/mozaic-design-system/issues/1104)) ([29afbbc](https://github.com/adeo/mozaic-design-system/commit/29afbbc89d11aba5c02e0ea439a34370ba1ab3a1))
+
+
+### Features
+
+* **component/accordion:** change background image inside accordion button ([#1096](https://github.com/adeo/mozaic-design-system/issues/1096)) ([2f4034a](https://github.com/adeo/mozaic-design-system/commit/2f4034aeea20ce4bf1c876d7e253d2e85f5edd0f)), closes [#1037](https://github.com/adeo/mozaic-design-system/issues/1037)
+* **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([28618b6](https://github.com/adeo/mozaic-design-system/commit/28618b68102d9903bac6e702a5b5d6e62fb5da5a))
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([c9e9096](https://github.com/adeo/mozaic-design-system/commit/c9e90965ab1dd8991ad63701f9167722ca43561c))
+* **tools/tokens:** regenerate tokens ([e1d2f59](https://github.com/adeo/mozaic-design-system/commit/e1d2f591a312eebf2b313addc50a46afba138d7d))
+* **tools/tokens:** regenerate tokens with the new LM colors ([fd9f510](https://github.com/adeo/mozaic-design-system/commit/fd9f51016a1d7cf33da3a1cb8c35a8c568177b2e))
+
+
+
+
+
 # [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
 
 
