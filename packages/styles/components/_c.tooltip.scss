@@ -2,8 +2,6 @@
 .mc-tooltip {
   $parent: get-parent-selector(&);
 
-  @include set-font-face();
-
   display: inline-flex;
   position: relative;
 
@@ -43,8 +41,7 @@
     }
 
     &::before {
-      background:
-        transparent
+      background: transparent
         url(inline-icons("tooltip-arrow", $color-grey-000)) no-repeat;
       background-size: 0.625rem;
       content: "";
@@ -54,8 +51,7 @@
     }
 
     &::after {
-      background:
-        transparent
+      background: transparent
         url(inline-icons("tooltip-arrow", $color-grey-700)) no-repeat;
       background-size: $mu050;
       content: "";
