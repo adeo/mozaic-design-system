@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.36.1](https://github.com/adeo/mozaic-design-system/compare/v1.36.0...v1.36.1) (2022-06-17)
+
+
+### Bug Fixes
+
+* **icons:** rename bundle icon name ([#1152](https://github.com/adeo/mozaic-design-system/issues/1152)) ([6ce1c8b](https://github.com/adeo/mozaic-design-system/commit/6ce1c8b13b16507779adf545a4d1ea532899bb11))
+
+
+
+
+
 # [1.36.0](https://github.com/adeo/mozaic-design-system/compare/v1.35.0...v1.36.0) (2022-06-09)
 
 
