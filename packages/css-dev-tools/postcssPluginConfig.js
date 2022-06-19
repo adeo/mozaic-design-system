@@ -1,7 +1,7 @@
 require('dotenv').config()
 const scssSyntax = require('postcss-scss')
 const autoprefixer = require('autoprefixer')
-const sass = require('@mozaic-ds/postcss-sass')
+const postcssSass = require('@csstools/postcss-sass')
 const stylelint = require('stylelint')
 const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
@@ -34,7 +34,7 @@ const plugins = [
   stylelint({ config: styleLintConfig }),
   reporter({ clearReportedMessages: true }),
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
-  sass(sassConfig),
+  postcssSass(sassConfig),
   base64({
     pattern: /<svg.*<\/svg>/i,
     prepend: 'data:image/svg+xml;base64,',
@@ -57,7 +57,7 @@ if (CM.getKey('autoprefixer.disabled')) {
 
 const productionPlugins = [
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
-  sass(sassConfig),
+  postcssSass(sassConfig),
   base64({
     pattern: /<svg.*<\/svg>/i,
     prepend: 'data:image/svg+xml;base64,',
