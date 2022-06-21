@@ -1,4 +1,4 @@
-<svelte:options tag="navigation-display-externallink-48px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;
@@ -7,4 +7,4 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M42.15 4H25.5a1.5 1.5 0 000 3h13.38L17.44 28.44a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0L41 9.12V22.5a1.5 1.5 0 003 0V5.85A1.85 1.85 0 0042.15 4z"/><path d="M37 41H7V11h9V8H6a2 2 0 00-2 2v32a2 2 0 002 2h32a2 2 0 002-2V32h-3z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M24.5 6A1.5 1.5 0 0026 7.5h12.379l-21.44 21.44a1.5 1.5 0 002.122 2.12L40.5 9.622V22a1.5 1.5 0 003 0V6A1.5 1.5 0 0042 4.5H26A1.5 1.5 0 0024.5 6zM6 12.5A1.5 1.5 0 004.5 14v28A1.5 1.5 0 006 43.5h28a1.5 1.5 0 001.5-1.5v-8a1.5 1.5 0 00-3 0v6.5h-25v-25H14a1.5 1.5 0 000-3H6z"/></svg>

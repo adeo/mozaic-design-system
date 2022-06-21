@@ -3,6 +3,57 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.36.1](https://github.com/adeo/mozaic-design-system/compare/v1.36.0...v1.36.1) (2022-06-17)
+
+
+### Bug Fixes
+
+* **icons:** rename bundle icon name ([#1152](https://github.com/adeo/mozaic-design-system/issues/1152)) ([6ce1c8b](https://github.com/adeo/mozaic-design-system/commit/6ce1c8b13b16507779adf545a4d1ea532899bb11))
+
+
+
+
+
+# [1.36.0](https://github.com/adeo/mozaic-design-system/compare/v1.35.0...v1.36.0) (2022-06-09)
+
+
+### Features
+
+* **icons:** nameless svelte icons for web compoenent ([#1150](https://github.com/adeo/mozaic-design-system/issues/1150)) ([a2b0352](https://github.com/adeo/mozaic-design-system/commit/a2b035240b06c58e66ff03a697c34c649c996507))
+
+
+
+
+
+# [1.35.0](https://github.com/adeo/mozaic-design-system/compare/v1.34.0...v1.35.0) (2022-06-08)
+
+
+### Bug Fixes
+
+* **grid:** add max-width for full modifier ([#1142](https://github.com/adeo/mozaic-design-system/issues/1142)) ([c482f79](https://github.com/adeo/mozaic-design-system/commit/c482f7922707cd87ab451bc51b4f95bee80c827a))
+
+
+### Features
+
+* **foundations/icons:** add new icons ([#1133](https://github.com/adeo/mozaic-design-system/issues/1133)) ([ee5007a](https://github.com/adeo/mozaic-design-system/commit/ee5007a30ee0a57339439fb83cc202332f7b82fc))
+* **grid:** add all col for base 12 ([#1143](https://github.com/adeo/mozaic-design-system/issues/1143)) ([f8e06d5](https://github.com/adeo/mozaic-design-system/commit/f8e06d56d70693a4fd5905ec454888c7cab92d2f))
+* **grid:** add reset on pushed col ([#1144](https://github.com/adeo/mozaic-design-system/issues/1144)) ([6c37464](https://github.com/adeo/mozaic-design-system/commit/6c3746420b03868a362bbcd38f5f6bce9f62b77c))
+
+
+
+
+
+# [1.34.0](https://github.com/adeo/mozaic-design-system/compare/v1.33.0...v1.34.0) (2022-05-25)
+
+
+### Features
+
+* **foundations/icons:** icons.js - implement a better management of colored icons ([#1129](https://github.com/adeo/mozaic-design-system/issues/1129)) ([2fc28d0](https://github.com/adeo/mozaic-design-system/commit/2fc28d0f85c91a4954f7e44d2070b0894b0dad70))
+
+
+
+
+
 # [1.33.0](https://github.com/adeo/mozaic-design-system/compare/v1.32.0...v1.33.0) (2022-05-11)
 
 

@@ -1,4 +1,4 @@
-<svelte:options tag="universe-garden2-64px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;
