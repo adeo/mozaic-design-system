@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "keywords": [
-    "styleling",
+    "stylelint",
     "stylelint-plugin",
     "css",
     "linter",
@@ -25,7 +25,6 @@
   "devDependencies": {
     "jest": "^28.1.1",
     "jest-preset-stylelint": "^5.0.4",
-    "stylelint": "^14.9.1",
-    "stylelint-test-rule-tape": "^0.2.0"
+    "stylelint": "^14.9.1"
   }
 }
