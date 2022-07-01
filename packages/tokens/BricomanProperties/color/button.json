@@ -13,11 +13,11 @@
       },
       "solid-primary-02": {
         "background": {
-          "value": "{color.primary-02.600.value}"
+          "value": "{color.primary-02.400.value}"
         },
         "hover": {
           "background": {
-            "value": "{color.primary-02.800.value}"
+            "value": "{color.primary-02.600.value}"
           }
         }
       },
@@ -37,7 +37,7 @@
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.primary-02.600.value}"
+          "value": "{color.primary-02.400.value}"
         },
         "font": {
           "value": "{color.primary-02.600.value}"
