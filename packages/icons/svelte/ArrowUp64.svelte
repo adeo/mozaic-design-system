@@ -1,4 +1,4 @@
-<svelte:options tag="navigation-arrow-up-64px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

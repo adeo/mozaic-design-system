@@ -3,6 +3,80 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.36.2](https://github.com/adeo/mozaic-design-system/compare/v1.36.1...v1.36.2) (2022-06-22)
+
+**Note:** Version bump only for package @mozaic-ds/icons
+
+
+
+
+
+## [1.36.1](https://github.com/adeo/mozaic-design-system/compare/v1.36.0...v1.36.1) (2022-06-17)
+
+
+### Bug Fixes
+
+* **icons:** rename bundle icon name ([#1152](https://github.com/adeo/mozaic-design-system/issues/1152)) ([6ce1c8b](https://github.com/adeo/mozaic-design-system/commit/6ce1c8b13b16507779adf545a4d1ea532899bb11))
+
+
+
+
+
+# [1.36.0](https://github.com/adeo/mozaic-design-system/compare/v1.35.0...v1.36.0) (2022-06-09)
+
+
+### Features
+
+* **icons:** nameless svelte icons for web compoenent ([#1150](https://github.com/adeo/mozaic-design-system/issues/1150)) ([a2b0352](https://github.com/adeo/mozaic-design-system/commit/a2b035240b06c58e66ff03a697c34c649c996507))
+
+
+
+
+
+# [1.35.0](https://github.com/adeo/mozaic-design-system/compare/v1.34.0...v1.35.0) (2022-06-08)
+
+
+### Features
+
+* **foundations/icons:** add new icons ([#1133](https://github.com/adeo/mozaic-design-system/issues/1133)) ([ee5007a](https://github.com/adeo/mozaic-design-system/commit/ee5007a30ee0a57339439fb83cc202332f7b82fc))
+
+
+
+
+
+# [1.34.0](https://github.com/adeo/mozaic-design-system/compare/v1.33.0...v1.34.0) (2022-05-25)
+
+
+### Features
+
+* **foundations/icons:** icons.js - implement a better management of colored icons ([#1129](https://github.com/adeo/mozaic-design-system/issues/1129)) ([2fc28d0](https://github.com/adeo/mozaic-design-system/commit/2fc28d0f85c91a4954f7e44d2070b0894b0dad70))
+
+
+
+
+
+# [1.32.0](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v1.32.0) (2022-05-05)
+
+
+### Features
+
+* **foundations/icons:** add color icons in the icons.js file ([#1118](https://github.com/adeo/mozaic-design-system/issues/1118)) ([5a4ece5](https://github.com/adeo/mozaic-design-system/commit/5a4ece5f0f226c33e2bbbda71ae70676b9060677))
+
+
+
+
+
+# [1.30.0](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v1.30.0) (2022-04-13)
+
+
+### Features
+
+* **foundations/icons:** add coloured icons ([#1099](https://github.com/adeo/mozaic-design-system/issues/1099)) ([42540e4](https://github.com/adeo/mozaic-design-system/commit/42540e4d0ef8677d17d6bf65239ea18433b7f5e4))
+
+
+
+
+
 # [1.29.0](https://github.com/adeo/mozaic-design-system/compare/v1.28.0...v1.29.0) (2022-03-30)
 
 

@@ -3,6 +3,152 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.37.0](https://github.com/adeo/mozaic-design-system/compare/v1.36.3...v1.37.0) (2022-06-24)
+
+
+### Features
+
+* **foundations/icons:** add web component tag name ([#1159](https://github.com/adeo/mozaic-design-system/issues/1159)) ([fe2c51d](https://github.com/adeo/mozaic-design-system/commit/fe2c51d69fc9ecc73b819e05719d55edfc3288b6))
+
+
+
+
+
+## [1.36.3](https://github.com/adeo/mozaic-design-system/compare/v1.36.2...v1.36.3) (2022-06-23)
+
+
+### Bug Fixes
+
+* **component/grid:** enhance loop to remove stylelint issue ([#1160](https://github.com/adeo/mozaic-design-system/issues/1160)) ([eceb4a4](https://github.com/adeo/mozaic-design-system/commit/eceb4a4a387f2035c6a86f892a0ba0cc53e7beb7))
+
+
+
+
+
+## [1.36.2](https://github.com/adeo/mozaic-design-system/compare/v1.36.1...v1.36.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* **component/modal:** use fill-available ([#1158](https://github.com/adeo/mozaic-design-system/issues/1158)) ([4c9f332](https://github.com/adeo/mozaic-design-system/commit/4c9f332508743e177dbb688283204cce61829e55))
+
+
+
+
+
+## [1.36.1](https://github.com/adeo/mozaic-design-system/compare/v1.36.0...v1.36.1) (2022-06-17)
+
+
+### Bug Fixes
+
+* **icons:** rename bundle icon name ([#1152](https://github.com/adeo/mozaic-design-system/issues/1152)) ([6ce1c8b](https://github.com/adeo/mozaic-design-system/commit/6ce1c8b13b16507779adf545a4d1ea532899bb11))
+
+
+
+
+
+# [1.36.0](https://github.com/adeo/mozaic-design-system/compare/v1.35.0...v1.36.0) (2022-06-09)
+
+
+### Features
+
+* **icons:** nameless svelte icons for web compoenent ([#1150](https://github.com/adeo/mozaic-design-system/issues/1150)) ([a2b0352](https://github.com/adeo/mozaic-design-system/commit/a2b035240b06c58e66ff03a697c34c649c996507))
+
+
+
+
+
+# [1.35.0](https://github.com/adeo/mozaic-design-system/compare/v1.34.0...v1.35.0) (2022-06-08)
+
+
+### Bug Fixes
+
+* **grid:** add max-width for full modifier ([#1142](https://github.com/adeo/mozaic-design-system/issues/1142)) ([c482f79](https://github.com/adeo/mozaic-design-system/commit/c482f7922707cd87ab451bc51b4f95bee80c827a))
+
+
+### Features
+
+* **foundations/icons:** add new icons ([#1133](https://github.com/adeo/mozaic-design-system/issues/1133)) ([ee5007a](https://github.com/adeo/mozaic-design-system/commit/ee5007a30ee0a57339439fb83cc202332f7b82fc))
+* **grid:** add all col for base 12 ([#1143](https://github.com/adeo/mozaic-design-system/issues/1143)) ([f8e06d5](https://github.com/adeo/mozaic-design-system/commit/f8e06d56d70693a4fd5905ec454888c7cab92d2f))
+* **grid:** add reset on pushed col ([#1144](https://github.com/adeo/mozaic-design-system/issues/1144)) ([6c37464](https://github.com/adeo/mozaic-design-system/commit/6c3746420b03868a362bbcd38f5f6bce9f62b77c))
+
+
+
+
+
+# [1.34.0](https://github.com/adeo/mozaic-design-system/compare/v1.33.0...v1.34.0) (2022-05-25)
+
+
+### Features
+
+* **foundations/icons:** icons.js - implement a better management of colored icons ([#1129](https://github.com/adeo/mozaic-design-system/issues/1129)) ([2fc28d0](https://github.com/adeo/mozaic-design-system/commit/2fc28d0f85c91a4954f7e44d2070b0894b0dad70))
+
+
+
+
+
+# [1.33.0](https://github.com/adeo/mozaic-design-system/compare/v1.32.0...v1.33.0) (2022-05-11)
+
+
+### Features
+
+* **phonenumber:** use emoji flags ([#1125](https://github.com/adeo/mozaic-design-system/issues/1125)) ([1e7bf52](https://github.com/adeo/mozaic-design-system/commit/1e7bf527c7938aaddd8da6a409f433f269ac6728))
+* **tooltip:** add no pointer variation ([#1126](https://github.com/adeo/mozaic-design-system/issues/1126)) ([8c5eb76](https://github.com/adeo/mozaic-design-system/commit/8c5eb764d44a95744c1708ba6210baff01d70b37))
+
+
+
+
+
+# [1.32.0](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v1.32.0) (2022-05-05)
+
+
+### Features
+
+* **foundations/icons:** add color icons in the icons.js file ([#1118](https://github.com/adeo/mozaic-design-system/issues/1118)) ([5a4ece5](https://github.com/adeo/mozaic-design-system/commit/5a4ece5f0f226c33e2bbbda71ae70676b9060677))
+
+
+
+
+
+# [1.31.0](https://github.com/adeo/mozaic-design-system/compare/v1.30.0...v1.31.0) (2022-04-27)
+
+
+### Bug Fixes
+
+* **component/dropdown:** add arrow up when dropdown is open ([#1111](https://github.com/adeo/mozaic-design-system/issues/1111)) ([6d1ca77](https://github.com/adeo/mozaic-design-system/commit/6d1ca7742c8a2967a4e2a3b27db4b9ef3c893285))
+
+
+### Features
+
+* **component/divider:** add new sizes ([#1110](https://github.com/adeo/mozaic-design-system/issues/1110)) ([2461679](https://github.com/adeo/mozaic-design-system/commit/2461679359f8abcaf389d73128aea701f14d51c0))
+* **component/layer:** allow the layer to open from the left to the right ([#1115](https://github.com/adeo/mozaic-design-system/issues/1115)) ([15c1857](https://github.com/adeo/mozaic-design-system/commit/15c18574789878f7cd6d40461c31ecdb5b8a9ca8))
+* **component/listbox:** add flags preview ([#1114](https://github.com/adeo/mozaic-design-system/issues/1114)) ([9af868f](https://github.com/adeo/mozaic-design-system/commit/9af868f7112a2c9f9fe3006c46588210e2aeebaf))
+* **component/loader:** add divider under the header ([#1112](https://github.com/adeo/mozaic-design-system/issues/1112)) ([84c843b](https://github.com/adeo/mozaic-design-system/commit/84c843bbac71190c270ea8607b3ee0bb1936c09f))
+* **component/optioncard:** add label tag to focusable elements list ([1680672](https://github.com/adeo/mozaic-design-system/commit/1680672cac90050146c3e37c89951fcaaccee07c))
+* **component/tag:** update tags colors ([#1116](https://github.com/adeo/mozaic-design-system/issues/1116)) ([dd5df6d](https://github.com/adeo/mozaic-design-system/commit/dd5df6da04509355b004d8f5538da0c18c681982))
+
+
+
+
+
+# [1.30.0](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v1.30.0) (2022-04-13)
+
+
+### Bug Fixes
+
+* **component/overlay-loader:** update overlay bgcolor for ADEO Preset ([#1093](https://github.com/adeo/mozaic-design-system/issues/1093)) ([01d1be8](https://github.com/adeo/mozaic-design-system/commit/01d1be8a8bc3e3ef397346d43ae8319f01a67b2e))
+
+
+### Features
+
+* **component/accordion:** change background image inside accordion button ([#1096](https://github.com/adeo/mozaic-design-system/issues/1096)) ([73b2001](https://github.com/adeo/mozaic-design-system/commit/73b200102b62d65c23e6e1506f1890c46598c6b8)), closes [#1037](https://github.com/adeo/mozaic-design-system/issues/1037)
+* **component/modal:** improve the display of forms within a modal ([#1089](https://github.com/adeo/mozaic-design-system/issues/1089)) ([8b6a19f](https://github.com/adeo/mozaic-design-system/commit/8b6a19fee74204da1995169e146dff76915b80d2))
+* **foundations/icons:** add coloured icons ([#1099](https://github.com/adeo/mozaic-design-system/issues/1099)) ([42540e4](https://github.com/adeo/mozaic-design-system/commit/42540e4d0ef8677d17d6bf65239ea18433b7f5e4))
+
+
+
+
+
 ## [1.29.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v1.29.1) (2022-04-04)
 
 

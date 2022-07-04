@@ -8,7 +8,10 @@
   </head>
   <body>
     <div class="example">
-      <div id="mc-phone-number" class="mc-phone-number mc-phone-number--focused">
+      <div
+        id="mc-phone-number"
+        class="mc-phone-number mc-phone-number--focused"
+      >
         <div class="mc-phone-number__dropdown">
           <button
             type="button"
@@ -17,9 +20,9 @@
             id="dropdown_country"
             class="mc-phone-number__button"
           >
-            <svg class="mc-phone-number__flag">
-              <use xlink:href="#flag" />
-            </svg>
+            <span class="mc-phone-number__flag">
+                🇫🇷
+              </span>
             <span class="mc-phone_number__indicator">+33</span>
           </button>
           <ul
@@ -30,53 +33,34 @@
             class="mc-phone-number__list"
           >
             <li id="FR" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#flag" />
-              </svg>
+              <span class="mc-phone-number__flag"> 🇫🇷 </span>
               <span class="mc-phone-number__country">France, </span>
               <span>+33</span>
             </li>
             <li id="IT" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#italy" />
-              </svg>
+              <span class="mc-phone-number__flag"> 🇮🇹 </span>
               <span class="mc-phone-number__country">Italie, </span>
               <span>+39</span>
             </li>
             <li id="BE" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#belgium" />
-              </svg>
+              <span class="mc-phone-number__flag"> 🇧🇪 </span>
               <span class="mc-phone-number__country">Belgique, </span>
               <span>+32</span>
             </li>
             <li id="GE" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#germany" />
-              </svg>
+              <span class="mc-phone-number__flag"> 🇩🇪 </span>
               <span class="mc-phone-number__country">Allemagne, </span>
               <span>+49</span>
             </li>
             <li id="HO" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#holland" />
-              </svg>
+              <span class="mc-phone-number__flag"> 🇳🇱 </span>
               <span class="mc-phone-number__country">Holland, </span>
               <span>+31</span>
             </li>
             <li id="RU" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#russia" />
-              </svg>
+              <span class="mc-phone-number__flag"> 🇷🇺 </span>
               <span class="mc-phone-number__country">Russie, </span>
               <span>+7</span>
-            </li>
-            <li id="LU" role="option" class="mc-phone-number__item">
-              <svg class="mc-phone-number__flag">
-                <use xlink:href="#luxembourg" />
-              </svg>
-              <span class="mc-phone-number__country">Luxembourg, </span>
-              <span>+352</span>
             </li>
           </ul>
         </div>
@@ -89,58 +73,6 @@
         />
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="flag">
-        <rect width="16" height="16" fill="#ED2939" />
-        <rect width="10.6" height="16" fill="#fff" />
-        <rect width="5.3" height="16" fill="#002395" />
-      </symbol>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="italy">
-        <rect width="16" height="16" fill="#009246" />
-        <rect width="10.6" height="16" fill="#fff" />
-        <rect width="5.3" height="16" fill="#ce2b37" />
-      </symbol>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="belgium">
-        <rect width="16" height="16" fill="black" />
-        <rect width="10.6" height="16" fill="yellow" />
-        <rect width="5.3" height="16" fill="red" />
-      </symbol>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="germany">
-        <rect id="black_stripe" width="16" height="16" fill="#000" />
-        <rect id="red_stripe" width="16" height="10.6" fill="#D00" />
-        <rect id="gold_stripe" width="16" height="5.3" fill="#FFCE00" />
-      </symbol>
-    </svg>
-
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="holland">
-        <rect width="16" height="16" fill="#002395" />
-        <rect width="16" height="10.6" fill="#fff" />
-        <rect width="16" height="5.3" fill="#ED2939" />
-      </symbol>
-    </svg>
-
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="russia">
-        <rect width="16" height="16" fill="#ED2939" />
-        <rect width="16" height="10.6" fill="#fff" />
-        <rect width="16" height="5.3" fill="#002395" />
-      </symbol>
-    </svg>
-
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="luxembourg">
-        <rect id="black_stripe" width="16" height="16" fill="#00A1DE " />
-        <rect id="red_stripe" width="16" height="10.6" fill="#fff" />
-        <rect id="gold_stripe" width="16" height="5.3" fill="#ed2939" />
-      </symbol>
-    </svg>
   </body>
 
   <script>
@@ -165,17 +97,17 @@
     aria.Listbox = function (listboxNode) {
       this.listboxNode = listboxNode
       this.activeDescendant = this.listboxNode.getAttribute(
-        "aria-activedescendant"
+        'aria-activedescendant'
       )
       this.multiselectable = this.listboxNode.hasAttribute(
-        "aria-multiselectable"
+        'aria-multiselectable'
       )
       this.moveUpDownEnabled = false
       this.siblingList = null
       this.upButton = null
       this.downButton = null
       this.moveButton = null
-      this.keysSoFar = ""
+      this.keysSoFar = ''
       this.handleFocusChange = function () {}
       this.handleItemChange = function (event, items) {}
       this.registerEvents()
@@ -186,12 +118,12 @@
      *  Register events for the listbox interactions
      */
     aria.Listbox.prototype.registerEvents = function () {
-      this.listboxNode.addEventListener("focus", this.setupFocus.bind(this))
+      this.listboxNode.addEventListener('focus', this.setupFocus.bind(this))
       this.listboxNode.addEventListener(
-        "keydown",
+        'keydown',
         this.checkKeyPress.bind(this)
       )
-      this.listboxNode.addEventListener("click", this.checkClickItem.bind(this))
+      this.listboxNode.addEventListener('click', this.checkClickItem.bind(this))
     }
 
     /**
@@ -305,16 +237,16 @@
             return
           }
 
-          var keyshortcuts = this.moveButton.getAttribute("aria-keyshortcuts")
+          var keyshortcuts = this.moveButton.getAttribute('aria-keyshortcuts')
           if (
             key === aria.KeyCode.RETURN &&
-            keyshortcuts.indexOf("Enter") === -1
+            keyshortcuts.indexOf('Enter') === -1
           ) {
             return
           }
           if (
             (key === aria.KeyCode.BACKSPACE || key === aria.KeyCode.DELETE) &&
-            keyshortcuts.indexOf("Delete") === -1
+            keyshortcuts.indexOf('Delete') === -1
           ) {
             return
           }
@@ -323,7 +255,7 @@
 
           var nextUnselected = nextItem.nextElementSibling
           while (nextUnselected) {
-            if (nextUnselected.getAttribute("aria-selected") != "true") {
+            if (nextUnselected.getAttribute('aria-selected') != 'true') {
               break
             }
             nextUnselected = nextUnselected.nextElementSibling
@@ -331,7 +263,7 @@
           if (!nextUnselected) {
             nextUnselected = nextItem.previousElementSibling
             while (nextUnselected) {
-              if (nextUnselected.getAttribute("aria-selected") != "true") {
+              if (nextUnselected.getAttribute('aria-selected') != 'true') {
                 break
               }
               nextUnselected = nextUnselected.previousElementSibling
@@ -359,7 +291,7 @@
 
       if (!this.keysSoFar) {
         for (var i = 0; i < itemList.length; i++) {
-          if (itemList[i].getAttribute("id") == this.activeDescendant) {
+          if (itemList[i].getAttribute('id') == this.activeDescendant) {
             this.searchIndex = i
           }
         }
@@ -385,7 +317,7 @@
       }
       this.keyClear = setTimeout(
         function () {
-          this.keysSoFar = ""
+          this.keysSoFar = ''
           this.keyClear = null
         }.bind(this),
         500
@@ -416,10 +348,10 @@
      *  The click event object
      */
     aria.Listbox.prototype.checkClickItem = function (evt) {
-      if (evt.target.getAttribute("role") === "option") {
+      if (evt.target.getAttribute('role') === 'option') {
         this.focusItem(evt.target)
         this.toggleSelectItem(evt.target)
-        aria.Utils.addClass(this.listboxNode, "mc-phone-number__list--hidden")
+        aria.Utils.addClass(this.listboxNode, 'mc-phone-number__list--hidden')
       }
     }
 
@@ -433,15 +365,15 @@
     aria.Listbox.prototype.toggleSelectItem = function (element) {
       if (this.multiselectable) {
         element.setAttribute(
-          "aria-selected",
-          element.getAttribute("aria-selected") === "true" ? "false" : "true"
+          'aria-selected',
+          element.getAttribute('aria-selected') === 'true' ? 'false' : 'true'
         )
 
         if (this.moveButton) {
           if (this.listboxNode.querySelector('[aria-selected="true"]')) {
-            this.moveButton.setAttribute("aria-disabled", "false")
+            this.moveButton.setAttribute('aria-disabled', 'false')
           } else {
-            this.moveButton.setAttribute("aria-disabled", "true")
+            this.moveButton.setAttribute('aria-disabled', 'true')
           }
         }
       }
@@ -459,9 +391,9 @@
         return
       }
       if (!this.multiselectable) {
-        element.removeAttribute("aria-selected")
+        element.removeAttribute('aria-selected')
       }
-      aria.Utils.removeClass(element, "mc-phone-number__item--focused")
+      aria.Utils.removeClass(element, 'mc-phone-number__item--focused')
     }
 
     /**
@@ -474,10 +406,10 @@
     aria.Listbox.prototype.focusItem = function (element) {
       this.defocusItem(document.getElementById(this.activeDescendant))
       if (!this.multiselectable) {
-        element.setAttribute("aria-selected", "true")
+        element.setAttribute('aria-selected', 'true')
       }
-      aria.Utils.addClass(element, "mc-phone-number__item--focused")
-      this.listboxNode.setAttribute("aria-activedescendant", element.id)
+      aria.Utils.addClass(element, 'mc-phone-number__item--focused')
+      this.listboxNode.setAttribute('aria-activedescendant', element.id)
       this.activeDescendant = element.id
 
       if (this.listboxNode.scrollHeight > this.listboxNode.clientHeight) {
@@ -493,7 +425,7 @@
       }
 
       if (!this.multiselectable && this.moveButton) {
-        this.moveButton.setAttribute("aria-disabled", false)
+        this.moveButton.setAttribute('aria-disabled', false)
       }
 
       this.checkUpDownButtons()
@@ -512,24 +444,24 @@
       }
 
       if (!activeElement) {
-        this.upButton.setAttribute("aria-disabled", "true")
-        this.downButton.setAttribute("aria-disabled", "true")
+        this.upButton.setAttribute('aria-disabled', 'true')
+        this.downButton.setAttribute('aria-disabled', 'true')
         return
       }
 
       if (this.upButton) {
         if (activeElement.previousElementSibling) {
-          this.upButton.setAttribute("aria-disabled", false)
+          this.upButton.setAttribute('aria-disabled', false)
         } else {
-          this.upButton.setAttribute("aria-disabled", "true")
+          this.upButton.setAttribute('aria-disabled', 'true')
         }
       }
 
       if (this.downButton) {
         if (activeElement.nextElementSibling) {
-          this.downButton.setAttribute("aria-disabled", false)
+          this.downButton.setAttribute('aria-disabled', false)
         } else {
-          this.downButton.setAttribute("aria-disabled", "true")
+          this.downButton.setAttribute('aria-disabled', 'true')
         }
       }
     }
@@ -558,7 +490,7 @@
         this.focusItem(items[0])
       }
 
-      this.handleItemChange("added", items)
+      this.handleItemChange('added', items)
     }
 
     /**
@@ -595,17 +527,17 @@
         }.bind(this)
       )
 
-      this.handleItemChange("removed", itemsToDelete)
+      this.handleItemChange('removed', itemsToDelete)
 
       return itemsToDelete
     }
 
     aria.Listbox.prototype.clearActiveDescendant = function () {
       this.activeDescendant = null
-      this.listboxNode.setAttribute("aria-activedescendant", null)
+      this.listboxNode.setAttribute('aria-activedescendant', null)
 
       if (this.moveButton) {
-        this.moveButton.setAttribute("aria-disabled", "true")
+        this.moveButton.setAttribute('aria-disabled', 'true')
       }
 
       this.checkUpDownButtons()
@@ -628,7 +560,7 @@
 
       if (previousItem) {
         this.listboxNode.insertBefore(currentItem, previousItem)
-        this.handleItemChange("moved_up", [currentItem])
+        this.handleItemChange('moved_up', [currentItem])
       }
 
       this.checkUpDownButtons()
@@ -651,7 +583,7 @@
 
       if (nextItem) {
         this.listboxNode.insertBefore(nextItem, currentItem)
-        this.handleItemChange("moved_down", [currentItem])
+        this.handleItemChange('moved_down', [currentItem])
       }
 
       this.checkUpDownButtons()
@@ -684,8 +616,8 @@
       this.moveUpDownEnabled = true
       this.upButton = upButton
       this.downButton = downButton
-      upButton.addEventListener("click", this.moveUpItems.bind(this))
-      downButton.addEventListener("click", this.moveDownItems.bind(this))
+      upButton.addEventListener('click', this.moveUpItems.bind(this))
+      downButton.addEventListener('click', this.moveDownItems.bind(this))
     }
 
     /**
@@ -702,7 +634,7 @@
     aria.Listbox.prototype.setupMove = function (button, siblingList) {
       this.siblingList = siblingList
       this.moveButton = button
-      button.addEventListener("click", this.moveItems.bind(this))
+      button.addEventListener('click', this.moveItems.bind(this))
     }
 
     aria.Listbox.prototype.setHandleItemChange = function (handlerFn) {
@@ -721,11 +653,11 @@
      * @desc Initialize the phoneNumber example once the page has loaded
      */
 
-    window.addEventListener("load", function () {
-      var phoneNumberEl = document.getElementById("mc-phone-number")
-      var button = document.getElementById("dropdown_country")
+    window.addEventListener('load', function () {
+      var phoneNumberEl = document.getElementById('mc-phone-number')
+      var button = document.getElementById('dropdown_country')
       var exListbox = new aria.Listbox(
-        document.getElementById("phone_number_list")
+        document.getElementById('phone_number_list')
       )
       var listboxButton = new aria.ListboxButton(
         button,
@@ -743,14 +675,14 @@
     }
 
     phoneNumber.ListboxButton.prototype.registerEvents = function () {
-      this.button.addEventListener("click", this.showListbox.bind(this))
-      this.button.addEventListener("keyup", this.checkShow.bind(this))
+      this.button.addEventListener('click', this.showListbox.bind(this))
+      this.button.addEventListener('keyup', this.checkShow.bind(this))
       this.listbox.listboxNode.addEventListener(
-        "blur",
+        'blur',
         this.hideListbox.bind(this)
       )
       this.listbox.listboxNode.addEventListener(
-        "keydown",
+        'keydown',
         this.checkHide.bind(this)
       )
       this.listbox.setHandleFocusChange(this.onFocusChange.bind(this))
@@ -785,23 +717,23 @@
     phoneNumber.ListboxButton.prototype.showListbox = function () {
       phoneNumber.Utils.removeClass(
         this.listbox.listboxNode,
-        "mc-phone-number__list--hidden"
+        'mc-phone-number__list--hidden'
       )
-      this.button.setAttribute("aria-expanded", "true")
-      phoneNumber.Utils.addClass(this.phoneNumberEl, "mc-phone-number--focused")
+      this.button.setAttribute('aria-expanded', 'true')
+      phoneNumber.Utils.addClass(this.phoneNumberEl, 'mc-phone-number--focused')
       this.listbox.listboxNode.focus()
     }
 
     phoneNumber.ListboxButton.prototype.hideListbox = function () {
       phoneNumber.Utils.addClass(
         this.listbox.listboxNode,
-        "mc-phone-number__list--hidden"
+        'mc-phone-number__list--hidden'
       )
       phoneNumber.Utils.removeClass(
         this.phoneNumberEl,
-        "mc-phone-number--focused"
+        'mc-phone-number--focused'
       )
-      this.button.removeAttribute("aria-expanded")
+      this.button.removeAttribute('aria-expanded')
     }
 
     phoneNumber.ListboxButton.prototype.onFocusChange = function (focusedItem) {

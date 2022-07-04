@@ -1,10 +1,10 @@
 {
   "name": "@mozaic-ds/styles",
-  "version": "1.29.1",
+  "version": "1.36.3",
   "description": "Styles scss for Designe System Adeo",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mozaic-ds/tokens": "^1.29.0"
+    "@mozaic-ds/tokens": "^1.31.0"
   }
 }

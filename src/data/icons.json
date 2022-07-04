@@ -583,6 +583,14 @@
       "componentName": "PublishFavoriteFull16"
     },
     {
+      "cat": "Navigation",
+      "size": "16px",
+      "name": "Publish_Lock",
+      "fileName": "Navigation_Publish_Lock_16px.svg",
+      "iconName": "PublishLock",
+      "componentName": "PublishLock16"
+    },
+    {
       "cat": "Payment",
       "size": "16px",
       "name": "Euro",
@@ -1217,6 +1225,14 @@
     {
       "cat": "Navigation",
       "size": "24px",
+      "name": "Display_LogOut",
+      "fileName": "Navigation_Display_LogOut_24px.svg",
+      "iconName": "DisplayLogOut",
+      "componentName": "DisplayLogOut24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
       "name": "Display_Menu",
       "fileName": "Navigation_Display_Menu_24px.svg",
       "iconName": "DisplayMenu",
@@ -1277,6 +1293,14 @@
       "fileName": "Navigation_Display_Search_24px.svg",
       "iconName": "DisplaySearch",
       "componentName": "DisplaySearch24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Display_SearchList",
+      "fileName": "Navigation_Display_SearchList_24px.svg",
+      "iconName": "DisplaySearchList",
+      "componentName": "DisplaySearchList24"
     },
     {
       "cat": "Navigation",
@@ -1389,6 +1413,14 @@
       "fileName": "Navigation_Publish_FavoriteFull_24px.svg",
       "iconName": "PublishFavoriteFull",
       "componentName": "PublishFavoriteFull24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Publish_Lock",
+      "fileName": "Navigation_Publish_Lock_24px.svg",
+      "iconName": "PublishLock",
+      "componentName": "PublishLock24"
     },
     {
       "cat": "Navigation",
@@ -3241,6 +3273,14 @@
     {
       "cat": "Navigation",
       "size": "32px",
+      "name": "Display_LogOut",
+      "fileName": "Navigation_Display_LogOut_32px.svg",
+      "iconName": "DisplayLogOut",
+      "componentName": "DisplayLogOut32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
       "name": "Display_Menu",
       "fileName": "Navigation_Display_Menu_32px.svg",
       "iconName": "DisplayMenu",
@@ -3301,6 +3341,14 @@
       "fileName": "Navigation_Display_Search_32px.svg",
       "iconName": "DisplaySearch",
       "componentName": "DisplaySearch32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Display_SearchList",
+      "fileName": "Navigation_Display_SearchList_32px.svg",
+      "iconName": "DisplaySearchList",
+      "componentName": "DisplaySearchList32"
     },
     {
       "cat": "Navigation",
@@ -3413,6 +3461,14 @@
       "fileName": "Navigation_Publish_FavoriteFull_32px.svg",
       "iconName": "PublishFavoriteFull",
       "componentName": "PublishFavoriteFull32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Publish_Lock",
+      "fileName": "Navigation_Publish_Lock_32px.svg",
+      "iconName": "PublishLock",
+      "componentName": "PublishLock32"
     },
     {
       "cat": "Navigation",
@@ -5265,6 +5321,14 @@
     {
       "cat": "Navigation",
       "size": "48px",
+      "name": "Display_LogOut",
+      "fileName": "Navigation_Display_LogOut_48px.svg",
+      "iconName": "DisplayLogOut",
+      "componentName": "DisplayLogOut48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
       "name": "Display_Menu",
       "fileName": "Navigation_Display_Menu_48px.svg",
       "iconName": "DisplayMenu",
@@ -5325,6 +5389,14 @@
       "fileName": "Navigation_Display_Search_48px.svg",
       "iconName": "DisplaySearch",
       "componentName": "DisplaySearch48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Display_SearchList",
+      "fileName": "Navigation_Display_SearchList_48px.svg",
+      "iconName": "DisplaySearchList",
+      "componentName": "DisplaySearchList48"
     },
     {
       "cat": "Navigation",
@@ -5437,6 +5509,14 @@
       "fileName": "Navigation_Publish_FavoriteFull_48px.svg",
       "iconName": "PublishFavoriteFull",
       "componentName": "PublishFavoriteFull48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Publish_Lock",
+      "fileName": "Navigation_Publish_Lock_48px.svg",
+      "iconName": "PublishLock",
+      "componentName": "PublishLock48"
     },
     {
       "cat": "Navigation",
@@ -7289,6 +7369,14 @@
     {
       "cat": "Navigation",
       "size": "64px",
+      "name": "Display_LogOut",
+      "fileName": "Navigation_Display_LogOut_64px.svg",
+      "iconName": "DisplayLogOut",
+      "componentName": "DisplayLogOut64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
       "name": "Display_Menu",
       "fileName": "Navigation_Display_Menu_64px.svg",
       "iconName": "DisplayMenu",
@@ -7349,6 +7437,14 @@
       "fileName": "Navigation_Display_Search_64px.svg",
       "iconName": "DisplaySearch",
       "componentName": "DisplaySearch64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Display_SearchList",
+      "fileName": "Navigation_Display_SearchList_64px.svg",
+      "iconName": "DisplaySearchList",
+      "componentName": "DisplaySearchList64"
     },
     {
       "cat": "Navigation",
@@ -7461,6 +7557,14 @@
       "fileName": "Navigation_Publish_FavoriteFull_64px.svg",
       "iconName": "PublishFavoriteFull",
       "componentName": "PublishFavoriteFull64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Publish_Lock",
+      "fileName": "Navigation_Publish_Lock_64px.svg",
+      "iconName": "PublishLock",
+      "componentName": "PublishLock64"
     },
     {
       "cat": "Navigation",

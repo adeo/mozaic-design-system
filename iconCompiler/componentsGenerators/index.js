@@ -21,20 +21,54 @@ const transpilers = {
   },
 }
 
+const declareWebRegistry = (parsedName, icon) => {
+  const tag = icon.fileName.replace(/_/g, '-').replace('.svg', '').toLowerCase()
+  return `if (!customElements.get('${tag}')) {
+  customElements.define('${tag}', ${parsedName});
+}
+`
+}
+
 const generateIconComponent = (framework, icons) =>
   new Promise((res, rej) => {
     if (framework === 'svelte') {
+      // Generate import statement in index.js file
+      icons.map((icon) => {
+        const parsedName = createComponentName(icon.fileName)
+        const importStatement = `import ${parsedName} from './icons/${parsedName}.js';\n`
+        const writeIndex = path.join(
+          process.cwd(),
+          config.outputPaths[framework],
+          'icons.js'
+        )
+
+        fs.appendFile(writeIndex, importStatement, 'utf8', (err) => {
+          if (err) rej(err)
+          res(true)
+        })
+      })
+
       icons.map((icon) => {
         const dataSvelte = transpilers[framework].transpiler(icon)
         const parsedName = createComponentName(icon.fileName)
-
+        const defineRegistry = declareWebRegistry(parsedName, icon)
+        const writeIndex = path.join(
+          process.cwd(),
+          config.outputPaths[framework],
+          'icons.js'
+        )
         const writePath = path.join(
           process.cwd(),
           config.outputPaths[framework],
           `${parsedName}.svelte`
         )
-
+        // Write individual svele file
         fs.writeFile(writePath, dataSvelte, 'utf8', (err) => {
+          if (err) rej(err)
+          res(true)
+        })
+        // Define web compoennt in registry
+        fs.appendFile(writeIndex, defineRegistry, 'utf8', (err) => {
           if (err) rej(err)
           res(true)
         })

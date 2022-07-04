@@ -9,6 +9,7 @@
   align-items: flex-end;
   display: flex;
   height: 100vh;
+  height: fill-available;
   justify-content: center;
   overflow-x: hidden;
   overflow-y: auto;
@@ -63,12 +64,23 @@
     }
   }
 
+  &__form {
+    display: contents;
+  }
+
   &__header {
+    @include set-divider($color: "light") {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+    }
+
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin-bottom: $mu100;
     padding: $mu075 $mu075 $mu075 $mu100;
+    position: relative;
 
     @include set-from-screen(m) {
       padding-top: $mu100;

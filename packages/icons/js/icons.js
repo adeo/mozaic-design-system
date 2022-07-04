@@ -163,10 +163,7 @@ export const ControlLess16 = {
   viewBox: '0 0 16 16',
   size: '1rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M12 9H4a1 1 0 010-2h8a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M12 9H4a1 1 0 010-2h8a1 1 0 010 2z' } },
   ],
 }
 export const ControlMore16 = {
@@ -200,13 +197,8 @@ export const DisplayExternalLink16 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M13 2H9a1 1 0 000 2h1.59l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L12 5.41V7a1 1 0 002 0V3a1 1 0 00-1-1z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M11 12H4V5h1.5V3H3a1 1 0 00-1 1v9a1 1 0 001 1h9a1 1 0 001-1v-2.5h-2z',
+        'fill-rule': 'evenodd',
+        d: 'M9 2a1 1 0 000 2h1.586L6.293 8.293a1 1 0 001.414 1.414L12 5.414V7a1 1 0 102 0V3a1 1 0 00-1-1H9zM3 4a1 1 0 00-1 1v8a1 1 0 001 1h8a1 1 0 001-1v-2a1 1 0 10-2 0v1H4V6h1a1 1 0 000-2H3z',
       },
     },
   ],
@@ -244,6 +236,35 @@ export const PublishFavoriteFull16 = {
       attrs: {
         d: 'M7.29 12.91L3.08 8.7a3.53 3.53 0 01-1-1.8 3.4 3.4 0 011.1-3.27A3.52 3.52 0 018 3.92V4l.17-.18a3.5 3.5 0 014.83 0 3.42 3.42 0 01.94 3.06 3.59 3.59 0 01-1 1.86l-4.2 4.2a1 1 0 01-1.45-.03z',
       },
+    },
+  ],
+}
+export const PublishLock16 = {
+  viewBox: '0 0 16 16',
+  size: '1rem',
+  paths: [
+    {
+      tagName: 'g',
+      attrs: { 'clip-path': 'url(#a)' },
+      children: [
+        {
+          tagName: 'path',
+          attrs: {
+            'fill-rule': 'evenodd',
+            d: 'M8 2a3 3 0 00-3 3v1H4a1 1 0 00-1 1v6a1 1 0 001 1h8a1 1 0 001-1V7a1 1 0 00-1-1h-1V5a3 3 0 00-3-3zm1 4V5a1 1 0 10-2 0v1h2zm-4 6V8h6v4H5z',
+          },
+        },
+      ],
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'clipPath',
+          attrs: { id: 'a' },
+          children: [{ tagName: 'path', attrs: { d: 'M0 0h16v16H0z' } }],
+        },
+      ],
     },
   ],
 }
@@ -384,10 +405,7 @@ export const Tablet24 = {
         d: 'M18 4H6a1 1 0 00-1 1v14a1 1 0 001 1h12a1 1 0 001-1V5a1 1 0 00-1-1zm-1 2v9H7V6zM7 18v-2h10v2z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 17, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 17, r: 0.5 } },
   ],
 }
 export const HygieneCleaned24 = {
@@ -530,10 +548,7 @@ export const PaymentNoContact24 = {
         d: 'M6 14.5h4a.5.5 0 00.5-.5v-4a.5.5 0 00-.5-.5H6a.5.5 0 00-.5.5v4a.5.5 0 00.5.5zm.5-1v-1h1v1zm3-3v3h-1v-3zm-3 0h1v1h-1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.75, cy: 12, r: 0.75 },
-    },
+    { tagName: 'circle', attrs: { cx: 12.75, cy: 12, r: 0.75 } },
     {
       tagName: 'path',
       attrs: {
@@ -696,10 +711,7 @@ export const Camera24 = {
         d: 'M15.17 6l1.12 1.12a3 3 0 002.12.88H20v10H4V8h1.59a3 3 0 002.12-.88L8.83 6h6.34m.42-2H8.41a1 1 0 00-.7.29L6.29 5.71a1 1 0 01-.7.29H3a1 1 0 00-1 1v12a1 1 0 001 1h18a1 1 0 001-1V7a1 1 0 00-1-1h-2.59a1 1 0 01-.7-.29l-1.42-1.42a1 1 0 00-.7-.29z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M6 11a1 1 0 110-2 1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M6 11a1 1 0 110-2 1 1 0 010 2z' } },
   ],
 }
 export const DownloadApp24 = {
@@ -766,10 +778,7 @@ export const NoPicture24 = {
         d: 'M12 9.25a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5zm0 4a1.5 1.5 0 111.5-1.5 1.5 1.5 0 01-1.5 1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8.5, cy: 10, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 8.5, cy: 10, r: 0.5 } },
   ],
 }
 export const Pdf24 = {
@@ -1144,10 +1153,7 @@ export const ControlCircleLess24 = {
         d: 'M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M15.5 13h-7a1 1 0 010-2h7a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M15.5 13h-7a1 1 0 010-2h7a1 1 0 010 2z' } },
   ],
 }
 export const ControlCircleMore24 = {
@@ -1218,10 +1224,7 @@ export const DisplayBlink24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 12, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 12, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -1262,10 +1265,7 @@ export const DisplayDisplayFullFilled24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 2, width: 20, height: 20, rx: 1.15 },
-    },
+    { tagName: 'rect', attrs: { x: 2, y: 2, width: 20, height: 20, rx: 1.15 } },
   ],
 }
 export const DisplayDisplayFullOutline24 = {
@@ -1338,22 +1338,10 @@ export const DisplayDisplayProductX4Filled24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 13, width: 9, height: 9, rx: 1.15 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 13, y: 13, width: 9, height: 9, rx: 1.15 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 2, width: 9, height: 9, rx: 1.15 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 13, y: 2, width: 9, height: 9, rx: 1.15 },
-    },
+    { tagName: 'rect', attrs: { x: 2, y: 13, width: 9, height: 9, rx: 1.15 } },
+    { tagName: 'rect', attrs: { x: 13, y: 13, width: 9, height: 9, rx: 1.15 } },
+    { tagName: 'rect', attrs: { x: 2, y: 2, width: 9, height: 9, rx: 1.15 } },
+    { tagName: 'rect', attrs: { x: 13, y: 2, width: 9, height: 9, rx: 1.15 } },
   ],
 }
 export const DisplayDisplayProductX4Outline24 = {
@@ -1372,38 +1360,14 @@ export const DisplayDisplayProductX924 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 17, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 2, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 2, y: 9.5, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 17, y: 17, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 17, y: 2, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 17, y: 9.5, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 9.5, y: 17, width: 5, height: 5, rx: 1.5 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 9.5, y: 2, width: 5, height: 5, rx: 1.5 },
-    },
+    { tagName: 'rect', attrs: { x: 2, y: 17, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 2, y: 2, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 2, y: 9.5, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 17, y: 17, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 17, y: 2, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 17, y: 9.5, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 9.5, y: 17, width: 5, height: 5, rx: 1.5 } },
+    { tagName: 'rect', attrs: { x: 9.5, y: 2, width: 5, height: 5, rx: 1.5 } },
     {
       tagName: 'rect',
       attrs: { x: 9.5, y: 9.5, width: 5, height: 5, rx: 1.5 },
@@ -1417,13 +1381,8 @@ export const DisplayExternalLink24 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M21 2h-8a1 1 0 000 2h5.59l-9.3 9.29a1 1 0 000 1.42 1 1 0 001.42 0L20 5.41V11a1 1 0 002 0V3a1 1 0 00-1-1z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M17 20H4V7h4V5H3a1 1 0 00-1 1v15a1 1 0 001 1h15a1 1 0 001-1v-5h-2z',
+        'fill-rule': 'evenodd',
+        d: 'M13 2a1 1 0 100 2h5.586L8.293 14.293a1 1 0 101.414 1.414L20 5.414V11a1 1 0 102 0V3a1 1 0 00-1-1h-8zM3 6a1 1 0 00-1 1v14a1 1 0 001 1h14a1 1 0 001-1v-4a1 1 0 10-2 0v3H4V8h3a1 1 0 000-2H3z',
       },
     },
   ],
@@ -1452,6 +1411,19 @@ export const DisplayHome24 = {
     },
   ],
 }
+export const DisplayLogOut24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M3 2a1 1 0 00-1 1v18a1 1 0 001 1h10a1 1 0 001-1v-4a1 1 0 10-2 0v3H4V4h8v3a1 1 0 102 0V3a1 1 0 00-1-1H3zm15.707 6.293a1 1 0 10-1.414 1.414L18.586 11H9a1 1 0 100 2h9.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3z',
+      },
+    },
+  ],
+}
 export const DisplayMenu24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -1468,42 +1440,15 @@ export const DisplayMovingBlock24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.09, cy: 4, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.09, cy: 4, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.09, cy: 4, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.09, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.09, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.09, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.09, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12.09, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.09, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 4.09, cy: 4, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 12.09, cy: 4, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 20.09, cy: 4, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 4.09, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 12.09, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 20.09, cy: 12, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 4.09, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 12.09, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 20.09, cy: 20, r: 2 } },
   ],
 }
 export const DisplayOptions24 = {
@@ -1513,7 +1458,8 @@ export const DisplayOptions24 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M14 6a2 2 0 11-4 0 2 2 0 014 0zm0 6a2 2 0 11-4 0 2 2 0 014 0zm0 6a2 2 0 11-4 0 2 2 0 014 0z',
+        'fill-rule': 'evenodd',
+        d: 'M14 5a2 2 0 11-4 0 2 2 0 014 0zm0 14a2 2 0 11-4 0 2 2 0 014 0zm-2-5a2 2 0 100-4 2 2 0 000 4z',
       },
     },
   ],
@@ -1523,16 +1469,11 @@ export const DisplayOther24 = {
   size: '1.5rem',
   paths: [
     {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6, cy: 12, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 12, r: 2 },
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M7 12a2 2 0 11-4 0 2 2 0 014 0zm14 0a2 2 0 11-4 0 2 2 0 014 0zm-9 2a2 2 0 100-4 2 2 0 000 4z',
+      },
     },
   ],
 }
@@ -1540,30 +1481,12 @@ export const DisplayProductNumb24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M21 7H8a1 1 0 010-2h13a1 1 0 010 2z' },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 3.25, cy: 6, r: 1.25 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M21 13H8a1 1 0 010-2h13a1 1 0 010 2z' },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 3.25, cy: 12, r: 1.25 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M21 19H8a1 1 0 010-2h13a1 1 0 010 2z' },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 3.25, cy: 18, r: 1.25 },
-    },
+    { tagName: 'path', attrs: { d: 'M21 7H8a1 1 0 010-2h13a1 1 0 010 2z' } },
+    { tagName: 'circle', attrs: { cx: 3.25, cy: 6, r: 1.25 } },
+    { tagName: 'path', attrs: { d: 'M21 13H8a1 1 0 010-2h13a1 1 0 010 2z' } },
+    { tagName: 'circle', attrs: { cx: 3.25, cy: 12, r: 1.25 } },
+    { tagName: 'path', attrs: { d: 'M21 19H8a1 1 0 010-2h13a1 1 0 010 2z' } },
+    { tagName: 'circle', attrs: { cx: 3.25, cy: 18, r: 1.25 } },
   ],
 }
 export const DisplayRefresh24 = {
@@ -1602,6 +1525,19 @@ export const DisplaySearch24 = {
     },
   ],
 }
+export const DisplaySearchList24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M3 3a1 1 0 000 2h14a1 1 0 100-2H3zm11 7a4 4 0 100 8 4 4 0 000-8zm-6 4a6 6 0 1110.89 3.477l2.817 2.816a1 1 0 01-1.414 1.414l-2.816-2.816A6 6 0 018 14zM2 9a1 1 0 011-1h4.5a1 1 0 010 2H3a1 1 0 01-1-1zm1 4a1 1 0 100 2h2.5a1 1 0 100-2H3z',
+      },
+    },
+  ],
+}
 export const DisplaySearchProduct24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
@@ -1612,10 +1548,7 @@ export const DisplaySearchProduct24 = {
         d: 'M22 8.91V3a1 1 0 00-1-1h-5.91a1.05 1.05 0 00-.71.29L2.29 14.38a1 1 0 000 1.42l5.91 5.91a1 1 0 00.71.29 1 1 0 00.71-.29l1.78-1.79a.47.47 0 00.06-.09A6 6 0 0015 21a6 6 0 003.47-1.11l1.82 1.82a1 1 0 001.42 0 1 1 0 000-1.42l-1.82-1.82A6 6 0 0021 15a6 6 0 00-1.11-3.47l1.84-1.93a1 1 0 00.27-.69zM15 19a4 4 0 114-4 4 4 0 01-4 4zm5-10.49l-1.52 1.61a6 6 0 00-8.39 8.32l-.1.07-1.08 1.08-4.5-4.5L15.51 4H20z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17.5, cy: 6.5, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 17.5, cy: 6.5, r: 1 } },
   ],
 }
 export const DisplaySetting24 = {
@@ -1728,10 +1661,7 @@ export const NotificationInformation24 = {
       tagName: 'path',
       attrs: { d: 'M12 17a1 1 0 01-1-1v-4.39a1 1 0 012 0V16a1 1 0 01-1 1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 8, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 8, r: 1 } },
   ],
 }
 export const NotificationQuestion24 = {
@@ -1744,10 +1674,7 @@ export const NotificationQuestion24 = {
         d: 'M11.74 12.03h.02-.02zM12 7a3 3 0 00-3 3 .75.75 0 001.5 0A1.5 1.5 0 0112 8.51a1.5 1.5 0 01.66 2.85 2.41 2.41 0 00-1.41 2.16v.25a.75.75 0 001.5 0v-.25a.91.91 0 01.57-.81A3 3 0 0012 7z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 16.24, r: 0.75 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 16.24, r: 0.75 } },
     {
       tagName: 'path',
       attrs: {
@@ -1770,10 +1697,7 @@ export const NotificationWarning24 = {
       tagName: 'path',
       attrs: { d: 'M12 7a1 1 0 00-1 1v4.38a1 1 0 002 0V8a1 1 0 00-1-1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 16, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 16, r: 1 } },
   ],
 }
 export const PublishCopy24 = {
@@ -1801,13 +1725,8 @@ export const PublishEdit24 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M19 12a1 1 0 00-1 1v5H6V6h5a1 1 0 000-2H5a1 1 0 00-1 1v14a1 1 0 001 1h14a1 1 0 001-1v-6a1 1 0 00-1-1z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M21.7 4.24l-2-2a1 1 0 00-1.4 0l-9.59 9.39a.91.91 0 00-.25.41L7.29 15.7a.5.5 0 00.61.64l3.83-1.11a.94.94 0 00.42-.25l9.55-9.31a1 1 0 000-1.43zM19.57 5l-.57.53-.6-.53.6-.61zM11 12.23l6.72-6.56.58.56-6.73 6.56zm-.7.72l.49.48-.7.2z',
+        'fill-rule': 'evenodd',
+        d: 'M19.207 2.293a1 1 0 00-1.414 0l-10 10a1 1 0 00-.23.356l-1.5 4a1 1 0 001.288 1.287l4-1.5a1 1 0 00.356-.229l10-10a1 1 0 000-1.414l-2.5-2.5zM9.084 14.29l-.375 1 1-.375-.625-.625zm1.562.148l7.043-7.043-1.085-1.085-7.043 7.043 1.085 1.085zm7.75-7.75l-1.085-1.085 1.189-1.19L19.586 5.5l-1.19 1.19zM3 6a1 1 0 00-1 1v14a1 1 0 001 1h14a1 1 0 001-1v-4a1 1 0 10-2 0v3H4V8h3a1 1 0 000-2H3z',
       },
     },
   ],
@@ -1832,6 +1751,19 @@ export const PublishFavoriteFull24 = {
       tagName: 'path',
       attrs: {
         d: 'M11.28 19.7l-7-7a5.32 5.32 0 01-1.58-3A5 5 0 018.36 4a5.37 5.37 0 013 1.57l.6.6.6-.6a5.31 5.31 0 013-1.57 5 5 0 014.21 1.43 5 5 0 011.43 4.21 5.32 5.32 0 01-1.58 3l-7 7a1 1 0 01-1.34.06z',
+      },
+    },
+  ],
+}
+export const PublishLock24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M12 2a5 5 0 00-5 5v2H5a1 1 0 00-1 1v11a1 1 0 001 1h14a1 1 0 001-1V10a1 1 0 00-1-1h-2V7a5 5 0 00-5-5zm3 7V7a3 3 0 10-6 0v2h6zM6 20v-9h12v9H6z',
       },
     },
   ],
@@ -2206,10 +2138,7 @@ export const SafePayment124 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 10.5, width: 4, height: 2, rx: 0.5 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 10.5, width: 4, height: 2, rx: 0.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -2294,14 +2223,8 @@ export const BasketAdd24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.5, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
     {
       tagName: 'path',
       attrs: {
@@ -2350,14 +2273,8 @@ export const BasketSave24 = {
         d: 'M20.79 6.38A1 1 0 0020 6h-6.5V2.5a.5.5 0 00-1 0V6H6.71l-.59-2.25a1 1 0 00-1-.75H3a1 1 0 000 2h1.38l2.68 10.25A1 1 0 008 16h10a1 1 0 001-.76l2-8a1 1 0 00-.21-.86zM17.22 14H8.8L7.23 8h5.27v3.29l-1.65-1.64a.49.49 0 00-.7.7l2.5 2.5a.36.36 0 00.16.11.47.47 0 00.38 0 .36.36 0 00.16-.11l2.5-2.5a.49.49 0 00-.7-.7l-1.65 1.64V8h5.22z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.5, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
   ],
 }
 export const BasketStandard24 = {
@@ -2370,14 +2287,8 @@ export const BasketStandard24 = {
         d: 'M18 16H8a1 1 0 01-1-.75L4.38 5H3a1 1 0 010-2h2.15a1 1 0 011 .75L6.71 6H20a1 1 0 01.79.38 1 1 0 01.18.86l-2 8A1 1 0 0118 16zm-9.2-2h8.42l1.5-6H7.23z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 20, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.5, cy: 20, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
   ],
 }
 export const ListAdd24 = {
@@ -2480,10 +2391,7 @@ export const PromiseFashionChoice24 = {
         d: 'M20.36 6.56a1.52 1.52 0 00-.8-.87L16 4l-.08-.15a1.56 1.56 0 00-1-.63l-4.31-.76A1.5 1.5 0 009.18 2l-4.39.8a1.5 1.5 0 00-1.22 1.74l2.86 16.23A1.51 1.51 0 007.91 22a1.15 1.15 0 00.26 0l4.4-.77.11-.05a1 1 0 00.88-.54l6.75-12.9a1.56 1.56 0 00.05-1.18zm-7.68 6.68L11.16 4.6l2.93.52zm-7-8.56L9 4.08l2.69 15.25-3.41.6zm8.85 9.94l1.4-8.42 2.35 1.1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.63, cy: 17.38, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 9.63, cy: 17.38, r: 1 } },
   ],
 }
 export const PromiseFunding24 = {
@@ -2544,10 +2452,7 @@ export const PromiseProductOnPicture24 = {
         d: 'M20 4v5.26L9.63 19.59l-5.21-5.21L14.82 4H20m1-2h-6.59a1 1 0 00-.71.29L2.29 13.68a1 1 0 000 1.41l6.63 6.62a1 1 0 001.42 0l11.34-11.33a1 1 0 00.29-.7L22 3a1 1 0 00-1-1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 8, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 8, r: 1.5 } },
   ],
 }
 export const PromiseProductSheet24 = {
@@ -2702,10 +2607,7 @@ export const CustomCopyKey24 = {
         d: 'M21.36 12.5a5.39 5.39 0 00-3.12-2.5l-3.88-6.51a1 1 0 00-.52-.43l-3.5-1.25a1 1 0 00-.83.07 1 1 0 00-.51.67L8.27 6.3a1 1 0 00.12.7l1.83 3.14-3-1.75a1 1 0 00-.64-.13l-3.75.5a1 1 0 00-.82 1.31l1.29 3.75a1 1 0 00.44.54l6.37 3.77a5.37 5.37 0 002.38 3.23 4.74 4.74 0 002.45.68 4.85 4.85 0 001.36-.19 5.2 5.2 0 003.06-2.34 3.68 3.68 0 00.21-.45 5 5 0 002.3-3 4.62 4.62 0 00-.51-3.56zm-5.6 7.42a2.76 2.76 0 01-2.25-.28A3.35 3.35 0 0112 17.36a1 1 0 00-.48-.72L8.75 15l.43-.76a.5.5 0 10-.86-.5l-.43.75L7 14l.41-.73a.5.5 0 00-.86-.5l-.41.72-1.08-.64-.75-2.25 2.21-.29 6.48 3.8a1 1 0 00.85.08 3.12 3.12 0 012.65.17 3.21 3.21 0 011.43 1.88 2.84 2.84 0 01-.28 2.25 3.21 3.21 0 01-1.89 1.43zm4.18-4.34a1.67 1.67 0 01-.08.2.19.19 0 000-.08 5.2 5.2 0 00-2.34-3.06 5 5 0 00-3.84-.48.76.76 0 00-.06-.16L12.4 9.92l.85-.49a.5.5 0 00-.5-.86l-.85.48-.4-.69.75-.43a.5.5 0 00-.5-.86L11 7.5l-.7-1.18.45-2.24 2.07.74 3.92 6.59a1 1 0 00.7.48 3.31 3.31 0 012.2 1.61 2.7 2.7 0 01.3 2.08z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 14.89, cy: 17, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 14.89, cy: 17, r: 1 } },
   ],
 }
 export const CustomCourse24 = {
@@ -2718,20 +2620,14 @@ export const CustomCourse24 = {
         d: 'M21 17.59v-7l.45-.22a1 1 0 000-1.79l-9-4.46a1 1 0 00-.89 0l-9 4.54a1 1 0 000 1.79L5 11.66v4.63a1 1 0 00.25.66 9 9 0 0013.5.05 1 1 0 00.25-.67v-4.75l1-.5v6.51a1.5 1.5 0 101 0zM12.05 6.12l6.71 3.34L12 12.88 5.24 9.54zM17 15.94a7 7 0 01-10 0v-3.29l4.51 2.25a1.13 1.13 0 00.49.1 1 1 0 00.45-.11L17 12.58z',
       },
     },
-    {
-      tagName: 'ellipse',
-      attrs: { cx: 12, cy: 9.5, rx: 1, ry: 0.75 },
-    },
+    { tagName: 'ellipse', attrs: { cx: 12, cy: 9.5, rx: 1, ry: 0.75 } },
   ],
 }
 export const CustomCutWoodGlass24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 13, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 13, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -2756,10 +2652,7 @@ export const CustomSharpening24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 13, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 13, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -2983,14 +2876,8 @@ export const ToolsCalculator24 = {
         d: 'M7.75 9.75h2.5a.5.5 0 000-1h-2.5a.5.5 0 000 1zM13.5 9.75h1v1a.5.5 0 001 0v-1h1a.5.5 0 000-1h-1v-1a.5.5 0 00-1 0v1h-1a.5.5 0 000 1zM10.41 13.34a.48.48 0 00-.7 0L9 14l-.71-.7a.49.49 0 00-.7.7l.7.71-.7.71a.48.48 0 000 .7.48.48 0 00.7 0l.71-.7.71.7a.48.48 0 00.7 0 .48.48 0 000-.7l-.7-.71.7-.71a.48.48 0 000-.66zM16.25 14.25h-2.5a.5.5 0 000 1h2.5a.5.5 0 000-1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15, cy: 13.25, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15, cy: 16.25, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 15, cy: 13.25, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 15, cy: 16.25, r: 0.5 } },
   ],
 }
 export const ToolsComparator24 = {
@@ -3165,10 +3052,7 @@ export const SocialNetworkYoutube24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M10.93 13.62l2.79-1.61-2.79-1.62v3.23z' },
-    },
+    { tagName: 'path', attrs: { d: 'M10.93 13.62l2.79-1.61-2.79-1.62v3.23z' } },
     {
       tagName: 'path',
       attrs: {
@@ -3370,18 +3254,9 @@ export const Attic24 = {
         d: 'M21.38 6.08a1 1 0 00-1.09.21l-14 14a1 1 0 00-.21 1.09A1 1 0 007 22h14a1 1 0 001-1V7a1 1 0 00-.62-.92zm-1.38 9a2.52 2.52 0 00-1.33.76 2.83 2.83 0 00-4.57 1.44H14a1.73 1.73 0 00-.75.18 2.45 2.45 0 00-.53-.74L20 9.41zM9.41 20L12 17.4a1.45 1.45 0 01.44.8 1.79 1.79 0 00-.2.8.5.5 0 001 0 .77.77 0 011-.69.46.46 0 00.2.05.48.48 0 00.46-.3.42.42 0 000-.16 1.85 1.85 0 013.54-.62.5.5 0 10.92-.38 2.8 2.8 0 00-.15-.3 1.47 1.47 0 01.79-.5V20zM21.71 2.29a1 1 0 00-1.42 0l-3.2 3.21H15a.5.5 0 000 1h1.09l-2 2H12a.5.5 0 000 1h1.09l-2 2H9a.5.5 0 000 1h1.09l-2 2H6a.5.5 0 000 1h1.09l-2 2H3a.5.5 0 000 1h1.09l-1.8 1.79a1 1 0 000 1.42 1 1 0 001.42 0l18-18a1 1 0 000-1.42z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.5, cy: 17.5, r: 0.25 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 18.5, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 19, r: 0.25 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.5, cy: 17.5, r: 0.25 } },
+    { tagName: 'circle', attrs: { cx: 18, cy: 18.5, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 16, cy: 19, r: 0.25 } },
   ],
 }
 export const Bathroom24 = {
@@ -3461,10 +3336,7 @@ export const ConnectedHome24 = {
         d: 'M9.72 15.9a.5.5 0 00.36.85.49.49 0 00.35-.15 2.23 2.23 0 013-.11.5.5 0 10.66-.74 3.24 3.24 0 00-4.37.15z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 18, r: 0.75 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 18, r: 0.75 } },
   ],
 }
 export const Curtains24 = {
@@ -3512,14 +3384,8 @@ export const Electricity24 = {
         d: 'M12 19a7 7 0 10-7-7 7 7 0 007 7zm0-13a6 6 0 11-6 6 6 6 0 016-6z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15, cy: 12, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9, cy: 12, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 15, cy: 12, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 9, cy: 12, r: 1 } },
   ],
 }
 export const Enki24 = {
@@ -3562,10 +3428,7 @@ export const Garage24 = {
         d: 'M21 20h-1v-7.59l.29.3a1 1 0 001.42 0 1 1 0 000-1.42l-2-2-7-7a1 1 0 00-1.42 0l-7 7-2 2a1 1 0 001.42 1.42l.29-.3V20H3a1 1 0 000 2h18a1 1 0 000-2zM8 15h8v2H8zm8-1H8v-2h8zm-8 4h8v2H8zm9 2v-8.5a.5.5 0 00-.5-.5h-9a.5.5 0 00-.5.5V20H6v-9.59l6-6 6 6V20z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 8.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 8.5, r: 1.5 } },
   ],
 }
 export const Garden124 = {
@@ -3722,22 +3585,13 @@ export const Security24 = {
   viewBox: '0 0 24 24',
   size: '1.5rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M19 22H5V9h14zM7 20h10v-9H7z' },
-    },
+    { tagName: 'path', attrs: { d: 'M19 22H5V9h14zM7 20h10v-9H7z' } },
     {
       tagName: 'path',
       attrs: { d: 'M17 10h-2V7a3 3 0 00-6 0v3H7V7a5 5 0 0110 0z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 14.5, r: 2 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M11 15.5h2v3h-2z' },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 14.5, r: 2 } },
+    { tagName: 'path', attrs: { d: 'M11 15.5h2v3h-2z' } },
   ],
 }
 export const Terrace24 = {
@@ -3943,10 +3797,7 @@ export const ContactMail24 = {
         d: 'M19 7V5a1 1 0 00-1-1H6a1 1 0 00-1 1v2H3a1 1 0 00-1 1v11a1 1 0 001 1h18a1 1 0 001-1V8a1 1 0 00-1-1zm-5.08 6.5L20 9.78v7.44zM9.83 11h4.34L12 12.33zM17 6v3.27l-1.58 1A.5.5 0 0015 10H9a.5.5 0 00-.42.24L7 9.27V6zM4 9.78L17.45 18H4z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M9 8.5h6a.5.5 0 000-1H9a.5.5 0 000 1z' },
-    },
+    { tagName: 'path', attrs: { d: 'M9 8.5h6a.5.5 0 000-1H9a.5.5 0 000 1z' } },
   ],
 }
 export const ContactPhone24 = {
@@ -4013,10 +3864,7 @@ export const Administration24 = {
         d: 'M21 20H3a1 1 0 000 2h18a1 1 0 000-2zM3 12h2v5h-.5a1 1 0 000 2h15a1 1 0 000-2H19v-5h2a1 1 0 00.93-.64 1 1 0 00-.27-1.11l-9-8a1 1 0 00-1.32 0l-9 8a1 1 0 00-.27 1.11A1 1 0 003 12zm4 5v-5h2v5zm4 0v-5h2v5zm6 0h-2v-5h2zM12 4.34L18.37 10H5.63z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 7.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 7.5, r: 1.5 } },
   ],
 }
 export const Apartment24 = {
@@ -4531,10 +4379,7 @@ export const PaymentNoContact32 = {
         d: 'M7.5 19h4a1 1 0 001-1v-4a1 1 0 00-1-1h-4a1 1 0 00-1 1v4a1 1 0 001 1zm0-2.5H9V18H7.5zm4 1.5H10v-4h1.5zM9 14v1.5H7.5V14z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 16, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 18, cy: 16, r: 1 } },
     {
       tagName: 'path',
       attrs: {
@@ -4707,10 +4552,7 @@ export const Camera32 = {
         d: 'M20.24 7l1.66 1.48a4 4 0 002.66 1H27V25H5V9.5h2.44a4 4 0 002.66-1L11.76 7h8.48m0-2h-8.48a2 2 0 00-1.33.51L8.77 7a2 2 0 01-1.33.51H5a2 2 0 00-2 2V25a2 2 0 002 2h22a2 2 0 002-2V9.5a2 2 0 00-2-2h-2.44a2 2 0 01-1.33-.5l-1.66-1.49A2 2 0 0020.24 5z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M8 13a1 1 0 110-2 1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M8 13a1 1 0 110-2 1 1 0 010 2z' } },
   ],
 }
 export const DownloadApp32 = {
@@ -4783,10 +4625,7 @@ export const NoPicture32 = {
         d: 'M16 12a3.5 3.5 0 103.5 3.5A3.5 3.5 0 0016 12zm0 6a2.5 2.5 0 112.5-2.5A2.5 2.5 0 0116 18z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11.5, cy: 13, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11.5, cy: 13, r: 0.5 } },
   ],
 }
 export const Pdf32 = {
@@ -5147,10 +4986,7 @@ export const ControlCircleLess32 = {
         d: 'M16 5A11 11 0 115 16 11 11 0 0116 5m0-2a13 13 0 1013 13A13 13 0 0016 3z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M20 17h-8a1 1 0 010-2h8a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M20 17h-8a1 1 0 010-2h8a1 1 0 010 2z' } },
   ],
 }
 export const ControlCircleMore32 = {
@@ -5187,10 +5023,7 @@ export const ControlLess32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M24 17H8a1 1 0 010-2h16a1 1 0 010 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M24 17H8a1 1 0 010-2h16a1 1 0 010 2z' } },
   ],
 }
 export const ControlMore32 = {
@@ -5221,10 +5054,7 @@ export const DisplayBlink32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 16, r: 1.95 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 16, r: 1.95 } },
     {
       tagName: 'path',
       attrs: {
@@ -5267,10 +5097,7 @@ export const DisplayDisplayFullFilled32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 3, width: 26, height: 26, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 3, y: 3, width: 26, height: 26, rx: 2 } },
   ],
 }
 export const DisplayDisplayFullOutline32 = {
@@ -5289,18 +5116,9 @@ export const DisplayDisplayListFilled32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 13, width: 26, height: 6, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 3, width: 26, height: 6, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 3, y: 23, width: 26, height: 6, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 3, y: 13, width: 26, height: 6, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 3, y: 3, width: 26, height: 6, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 3, y: 23, width: 26, height: 6, rx: 2 } },
   ],
 }
 export const DisplayDisplayListOutline32 = {
@@ -5396,13 +5214,8 @@ export const DisplayExternalLink32 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M27.27 3H17a1 1 0 000 2h8.59l-13.3 13.29a1 1 0 000 1.42 1 1 0 001.42 0L27 6.41V15a1 1 0 002 0V4.73A1.74 1.74 0 0027.27 3z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M24 27H5V8h6V6H5a2 2 0 00-2 2v19a2 2 0 002 2h19a2 2 0 002-2v-6h-2z',
+        'fill-rule': 'evenodd',
+        d: 'M17.333 3a1 1 0 100 2h8.253L11.293 19.293a1 1 0 001.414 1.414L27 6.414v8.253a1 1 0 102 0V4a1 1 0 00-1-1H17.333zM4 8.333a1 1 0 00-1 1V28a1 1 0 001 1h18.667a1 1 0 001-1v-5.333a1 1 0 10-2 0V27H5V10.333h4.333a1 1 0 100-2H4z',
       },
     },
   ],
@@ -5437,6 +5250,19 @@ export const DisplayHome32 = {
     },
   ],
 }
+export const DisplayLogOut32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M4 3a1 1 0 00-1 1v24a1 1 0 001 1h13.333a1 1 0 001-1v-5.333a1 1 0 10-2 0V27H5V5h11.333v4.333a1 1 0 102 0V4a1 1 0 00-1-1H4zm20.707 8.293a1 1 0 00-1.414 1.414L25.586 15H12a1 1 0 100 2h13.586l-2.293 2.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414l-4-4z',
+      },
+    },
+  ],
+}
 export const DisplayMenu32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
@@ -5453,38 +5279,20 @@ export const DisplayMovingBlock32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 5.5, cy: 5.5, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 26.5, cy: 5.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 5.5, cy: 5.5, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 26.5, cy: 5.5, r: 2.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M16 3a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 5.5, cy: 26.5, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 26.5, cy: 26.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 5.5, cy: 26.5, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 26.5, cy: 26.5, r: 2.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M16 24a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 24z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 5.5, cy: 16, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 26.5, cy: 16, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 5.5, cy: 16, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 26.5, cy: 16, r: 2.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M16 13.5a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5z' },
@@ -5498,7 +5306,8 @@ export const DisplayOptions32 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M18 9a2 2 0 11-4 0 2 2 0 014 0zm0 7a2 2 0 11-4 0 2 2 0 014 0zm-2 9a2 2 0 100-4 2 2 0 000 4z',
+        'fill-rule': 'evenodd',
+        d: 'M18.667 6.667a2.667 2.667 0 11-5.333 0 2.667 2.667 0 015.333 0zm0 18.666a2.667 2.667 0 11-5.334 0 2.667 2.667 0 015.334 0zM16 18.667a2.667 2.667 0 100-5.334 2.667 2.667 0 000 5.334z',
       },
     },
   ],
@@ -5508,16 +5317,11 @@ export const DisplayOther32 = {
   size: '2rem',
   paths: [
     {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 16, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 16, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 22, cy: 16, r: 1.5 },
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M9.333 16A2.667 2.667 0 114 16a2.667 2.667 0 015.333 0zM28 16a2.667 2.667 0 11-5.333 0A2.667 2.667 0 0128 16zm-12 2.667a2.667 2.667 0 100-5.334 2.667 2.667 0 000 5.334z',
+      },
     },
   ],
 }
@@ -5525,18 +5329,9 @@ export const DisplayProductNumb32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.5, cy: 8, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.5, cy: 24, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 4.5, cy: 16, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 4.5, cy: 8, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 4.5, cy: 24, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 4.5, cy: 16, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -5583,6 +5378,19 @@ export const DisplaySearch32 = {
       tagName: 'path',
       attrs: {
         d: 'M24.4 7.93A10 10 0 009.6 21.34L5.92 25a1 1 0 001.41 1.42L11 22.78A10 10 0 0024.4 7.93zM23 20.66A8 8 0 1125.33 15 7.95 7.95 0 0123 20.66z',
+      },
+    },
+  ],
+}
+export const DisplaySearchList32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M4 4.333a1 1 0 000 2h18.667a1 1 0 100-2H4zM18.667 13a5.667 5.667 0 100 11.333 5.667 5.667 0 000-11.333zM11 18.667a7.667 7.667 0 1113.749 4.668l3.958 3.958a1 1 0 01-1.414 1.414l-3.958-3.958A7.667 7.667 0 0111 18.667zM3 12a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zm1 5.667a1 1 0 100 2h3.333a1 1 0 100-2H4z',
       },
     },
   ],
@@ -5717,10 +5525,7 @@ export const NotificationInformation32 = {
         d: 'M16 21.7a1 1 0 01-1-1v-5.83a1 1 0 112 0v5.83a1 1 0 01-1 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 11.3, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 11.3, r: 1 } },
   ],
 }
 export const NotificationQuestion32 = {
@@ -5733,10 +5538,7 @@ export const NotificationQuestion32 = {
         d: 'M15.68 16.04h-.01.01zM16 9.51a3.91 3.91 0 00-3.9 3.9 1 1 0 102 0 2 2 0 011.9-1.95 2 2 0 01.85 3.71A3.15 3.15 0 0015 18v.32a1 1 0 101.95 0V18a1.2 1.2 0 01.74-1.06A3.91 3.91 0 0016 9.51z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 21.51, r: 0.97 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 21.51, r: 0.97 } },
     {
       tagName: 'path',
       attrs: {
@@ -5761,10 +5563,7 @@ export const NotificationWarning32 = {
         d: 'M16 18.13a1 1 0 01-1-1V11.3a1 1 0 012 0v5.83a1 1 0 01-1 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 20.7, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 20.7, r: 1 } },
   ],
 }
 export const PublishCopy32 = {
@@ -5790,13 +5589,8 @@ export const PublishEdit32 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M25 25H7V7h9V5H7a2 2 0 00-2 2v18a2 2 0 002 2h18a2 2 0 002-2v-9h-2z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M28.46 5.07l-1.52-1.53a2 2 0 00-2.72 0L11.88 15.88a.8.8 0 00-.23.37l-1.59 4.41a1 1 0 001.28 1.28l4.41-1.59a.8.8 0 00.37-.23L28.46 7.78A1.89 1.89 0 0029 6.42a1.87 1.87 0 00-.54-1.35zm-15.8 14.27l.52-1.45.93.93zm2.4-1l-1.41-1.41L23.94 6.65l1.41 1.41zm11-11l-1.41-1.4.93-.94L27 6.42z',
+        'fill-rule': 'evenodd',
+        d: 'M25.374 3.293a1 1 0 00-1.414 0L10.626 16.626a1 1 0 00-.229.356l-2 5.334a1 1 0 001.287 1.287l5.334-2a1 1 0 00.356-.23L28.707 8.04a1 1 0 000-1.414l-3.333-3.333zM11.917 18.624l-.875 2.334 2.334-.875-1.459-1.459zm2.396.982L23.94 9.98l-1.92-1.92-9.626 9.627 1.92 1.919zM24.646 9.273l-1.919-1.92 1.94-1.939 1.919 1.92-1.94 1.939zM4 8.333a1 1 0 00-1 1V28a1 1 0 001 1h18.667a1 1 0 001-1v-5.333a1 1 0 10-2 0V27H5V10.333h4.333a1 1 0 100-2H4z',
       },
     },
   ],
@@ -5821,6 +5615,19 @@ export const PublishFavoriteFull32 = {
       tagName: 'path',
       attrs: {
         d: 'M17.41 26.09a2 2 0 01-2.82 0L5 16.5a6.8 6.8 0 01.66-10.2 7 7 0 019.1.76L16 8.3l1.24-1.24a7 7 0 019.1-.76A6.8 6.8 0 0127 16.5z',
+      },
+    },
+  ],
+}
+export const PublishLock32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M16 3a6.333 6.333 0 00-6.333 6.333v3h-3a1 1 0 00-1 1V28a1 1 0 001 1h18.666a1 1 0 001-1V13.333a1 1 0 00-1-1h-3v-3A6.333 6.333 0 0016 3zm4.333 9.333v-3a4.333 4.333 0 10-8.666 0v3h8.666zM7.667 27V14.333h16.666V27H7.667z',
       },
     },
   ],
@@ -5871,18 +5678,12 @@ export const Bill32 = {
         d: 'M19.7 14.34a.5.5 0 00-.71-.06A3 3 0 0117 15a3 3 0 01-2.58-1.47h2.38a.5.5 0 000-1h-2.73A3.07 3.07 0 0114 12a3.07 3.07 0 01.06-.53h2.76a.5.5 0 000-1h-2.37a3 3 0 014.41-.86.5.5 0 00.7-.09.51.51 0 00-.1-.7A3.94 3.94 0 0017 8a4 4 0 00-3.71 2.47h-.64a.5.5 0 000 1h.39A3.19 3.19 0 0013 12a3.19 3.19 0 00.06.53h-.39a.5.5 0 000 1h.64A4 4 0 0019.64 15a.49.49 0 00.06-.66zM20.5 21h-7a.5.5 0 010-1h7a.5.5 0 010 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11.5, cy: 20.5, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11.5, cy: 20.5, r: 0.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M20.5 24h-7a.5.5 0 010-1h7a.5.5 0 010 1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11.5, cy: 23.5, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11.5, cy: 23.5, r: 0.5 } },
   ],
 }
 export const CardsMonochromeAmericanExpress32 = {
@@ -6621,10 +6422,7 @@ export const AfterSalesAfterSalesService32 = {
         d: 'M29 9.23A2 2 0 0025.55 8l-2.05 2.09-1.59-1.59 2.05-2A2 2 0 0022.77 3a7.94 7.94 0 00-5.69 1.75 2.28 2.28 0 00-.46.47 7.72 7.72 0 00-1.47 6.18L3.79 22.79a3.83 3.83 0 005.42 5.42l11.4-11.35a7.84 7.84 0 006.13-1.48 2.27 2.27 0 00.47-.46A7.91 7.91 0 0029 9.23zm-3.39 4.52A5.75 5.75 0 0121 14.9a2 2 0 00-1.86.54L7.79 26.79a1.82 1.82 0 01-2.58-2.58l11.35-11.36A2 2 0 0017.1 11a5.78 5.78 0 011.19-4.61A6.19 6.19 0 0122 5a5.27 5.27 0 01.56 0L20.5 7.09a2 2 0 000 2.82l1.59 1.59a2 2 0 002.82 0L27 9.45a5.91 5.91 0 01-1.43 4.3z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 25.5, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 25.5, r: 1 } },
   ],
 }
 export const AfterSalesHelpline32 = {
@@ -6691,10 +6489,7 @@ export const CustomCourse32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'ellipse',
-      attrs: { cx: 16, cy: 13, rx: 1, ry: 0.75 },
-    },
+    { tagName: 'ellipse', attrs: { cx: 16, cy: 13, rx: 1, ry: 0.75 } },
     {
       tagName: 'path',
       attrs: {
@@ -7134,10 +6929,7 @@ export const SocialNetworkYoutube32 = {
   viewBox: '0 0 32 32',
   size: '2rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M14.52 18.23l3.84-2.22-3.84-2.22v4.44z' },
-    },
+    { tagName: 'path', attrs: { d: 'M14.52 18.23l3.84-2.22-3.84-2.22v4.44z' } },
     {
       tagName: 'path',
       attrs: {
@@ -7345,14 +7137,8 @@ export const Attic32 = {
         d: 'M22.67 24.47a.66.66 0 00-.67.66.67.67 0 00.67.67.66.66 0 00.66-.67.65.65 0 00-.66-.66z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.67, cy: 23.58, r: 0.44 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 19.34, cy: 25.8, r: 0.44 },
-    },
+    { tagName: 'circle', attrs: { cx: 20.67, cy: 23.58, r: 0.44 } },
+    { tagName: 'circle', attrs: { cx: 19.34, cy: 25.8, r: 0.44 } },
   ],
 }
 export const Bathroom32 = {
@@ -7426,10 +7212,7 @@ export const ConnectedHome32 = {
         d: 'M13.29 20.61a.51.51 0 000 .71.5.5 0 00.36.14.47.47 0 00.35-.14 2.89 2.89 0 013.86-.13.5.5 0 00.66-.76 3.93 3.93 0 00-5.23.18z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16, cy: 23, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 16, cy: 23, r: 1 } },
     {
       tagName: 'path',
       attrs: {
@@ -7483,14 +7266,8 @@ export const Electricity32 = {
         d: 'M16 10a6 6 0 11-6 6 6 6 0 016-6m0-1a7 7 0 107 7 7 7 0 00-7-7z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 13, cy: 16, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 19, cy: 16, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 13, cy: 16, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 19, cy: 16, r: 1 } },
   ],
 }
 export const Enki32 = {
@@ -7647,22 +7424,10 @@ export const Kitchen232 = {
         d: 'M23 12.5H9a.5.5 0 000 1h14a.5.5 0 000-1zM14 7.5h4a.5.5 0 000-1h-4a.5.5 0 000 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11, cy: 7, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 7, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 7, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 21, cy: 7, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 11, cy: 7, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 8, cy: 7, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 7, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 21, cy: 7, r: 0.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -7986,10 +7751,7 @@ export const SituationOwner32 = {
         d: 'M28.77 21.22a2.7 2.7 0 00-3.53-1.48l-3.39 1.4A2.63 2.63 0 0019.29 19h-6.58a11.9 11.9 0 00-5.39 1.3l-1.77.91a1 1 0 00.9 1.79l1.78-.91A9.83 9.83 0 0112.71 21h6.58a.67.67 0 010 1.34H15.5a1 1 0 000 2h3.79a2.54 2.54 0 001.76-.71l4.95-2a.71.71 0 01.93.41.91.91 0 010 .67.82.82 0 01-.42.42L17.6 26.8a2.44 2.44 0 01-1.05.24H11a1 1 0 100 2h5.59a4.22 4.22 0 001.85-.41l8.88-3.65a2.76 2.76 0 001.5-1.52 2.85 2.85 0 00-.05-2.24zM9.75 14.5a4.74 4.74 0 004.56-3.5H26a1 1 0 000-2H14.42a4.74 4.74 0 10-4.67 5.5zm0-7.5A2.75 2.75 0 117 9.75 2.75 2.75 0 019.75 7z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M26 12h-4a1 1 0 000 2h4a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M26 12h-4a1 1 0 000 2h4a1 1 0 000-2z' } },
   ],
 }
 export const SituationTenant32 = {
@@ -8402,10 +8164,7 @@ export const Mobile48 = {
         d: 'M32 7H16a2 2 0 00-2 2v30a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zm-1 3v22H17V10zM17 38v-4h14v4z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M25 35h-2a1 1 0 000 2h2a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M25 35h-2a1 1 0 000 2h2a1 1 0 000-2z' } },
   ],
 }
 export const Tablet48 = {
@@ -8418,10 +8177,7 @@ export const Tablet48 = {
         d: 'M36 7H12a2 2 0 00-2 2v30a2 2 0 002 2h24a2 2 0 002-2V9a2 2 0 00-2-2zm-1 3v22H13V10zM13 38v-4h22v4z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 36, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 36, r: 1 } },
   ],
 }
 export const HygieneCleaned48 = {
@@ -8576,10 +8332,7 @@ export const PaymentNoContact48 = {
         d: 'M10 28.5h7a1 1 0 001-1v-7a1 1 0 00-1-1h-7a1 1 0 00-1 1v7a1 1 0 001 1zm1-3.5h1.5v1.5H11zm5 1.5h-1.5v-5H16zm-3.5-5V23H11v-1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27, cy: 24, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 27, cy: 24, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -8746,10 +8499,7 @@ export const Camera48 = {
         d: 'M24 35a9 9 0 119-9 9 9 0 01-9 9zm0-15a6 6 0 106 6 6 6 0 00-6-6z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 12, cy: 19, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 12, cy: 19, r: 2 } },
     {
       tagName: 'path',
       attrs: {
@@ -9260,10 +9010,7 @@ export const DisplayBlink48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 24, r: 3 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 24, r: 3 } },
     {
       tagName: 'path',
       attrs: {
@@ -9306,10 +9053,7 @@ export const DisplayDisplayFullFilled48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 4, width: 40, height: 40, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 4, y: 4, width: 40, height: 40, rx: 2 } },
   ],
 }
 export const DisplayDisplayFullOutline48 = {
@@ -9328,18 +9072,9 @@ export const DisplayDisplayListFilled48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 4, width: 40, height: 10, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 19, width: 40, height: 10, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 4, y: 34, width: 40, height: 10, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 4, y: 4, width: 40, height: 10, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 4, y: 19, width: 40, height: 10, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 4, y: 34, width: 40, height: 10, rx: 2 } },
   ],
 }
 export const DisplayDisplayListOutline48 = {
@@ -9441,13 +9176,8 @@ export const DisplayExternalLink48 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M42.15 4H25.5a1.5 1.5 0 000 3h13.38L17.44 28.44a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0L41 9.12V22.5a1.5 1.5 0 003 0V5.85A1.85 1.85 0 0042.15 4z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M37 41H7V11h9V8H6a2 2 0 00-2 2v32a2 2 0 002 2h32a2 2 0 002-2V32h-3z',
+        'fill-rule': 'evenodd',
+        d: 'M24.5 6A1.5 1.5 0 0026 7.5h12.379l-21.44 21.44a1.5 1.5 0 002.122 2.12L40.5 9.622V22a1.5 1.5 0 003 0V6A1.5 1.5 0 0042 4.5H26A1.5 1.5 0 0024.5 6zM6 12.5A1.5 1.5 0 004.5 14v28A1.5 1.5 0 006 43.5h28a1.5 1.5 0 001.5-1.5v-8a1.5 1.5 0 00-3 0v6.5h-25v-25H14a1.5 1.5 0 000-3H6z',
       },
     },
   ],
@@ -9476,6 +9206,19 @@ export const DisplayHome48 = {
     },
   ],
 }
+export const DisplayLogOut48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M6 4.5A1.5 1.5 0 004.5 6v36A1.5 1.5 0 006 43.5h20a1.5 1.5 0 001.5-1.5v-8a1.5 1.5 0 00-3 0v6.5h-17v-33h17V14a1.5 1.5 0 003 0V6A1.5 1.5 0 0026 4.5H6zm31.06 12.44a1.5 1.5 0 00-2.12 2.12l3.439 3.44H18a1.5 1.5 0 000 3h20.379l-3.44 3.44a1.5 1.5 0 002.122 2.12l6-6a1.5 1.5 0 000-2.12l-6-6z',
+      },
+    },
+  ],
+}
 export const DisplayMenu48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
@@ -9492,42 +9235,15 @@ export const DisplayMovingBlock48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 8, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 8, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 8, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 24, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 24, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 24, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 8, cy: 40, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 40, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 40, r: 4 },
-    },
+    { tagName: 'circle', attrs: { cx: 8, cy: 8, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 8, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 8, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 8, cy: 24, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 24, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 24, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 8, cy: 40, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 40, r: 4 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 40, r: 4 } },
   ],
 }
 export const DisplayOptions48 = {
@@ -9537,7 +9253,8 @@ export const DisplayOptions48 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M24 16a3 3 0 100-6 3 3 0 000 6zm3 8a3 3 0 11-6 0 3 3 0 016 0zm0 11a3 3 0 11-6 0 3 3 0 016 0z',
+        'fill-rule': 'evenodd',
+        d: 'M28 10a4 4 0 11-8 0 4 4 0 018 0zm0 28a4 4 0 11-8 0 4 4 0 018 0zm-4-10a4 4 0 100-8 4 4 0 000 8z',
       },
     },
   ],
@@ -9547,16 +9264,11 @@ export const DisplayOther48 = {
   size: '3rem',
   paths: [
     {
-      tagName: 'circle',
-      attrs: { cx: 14, cy: 24, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 24, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 34, cy: 24, r: 2.5 },
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M14 24a4 4 0 11-8 0 4 4 0 018 0zm28 0a4 4 0 11-8 0 4 4 0 018 0zm-18 4a4 4 0 100-8 4 4 0 000 8z',
+      },
     },
   ],
 }
@@ -9570,18 +9282,9 @@ export const DisplayProductNumb48 = {
         d: 'M17.5 13h25a1.5 1.5 0 000-3h-25a1.5 1.5 0 000 3zM42.5 22.5h-25a1.5 1.5 0 000 3h25a1.5 1.5 0 000-3zM42.5 35h-25a1.5 1.5 0 000 3h25a1.5 1.5 0 000-3z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 11.5, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 24, r: 2.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 6.5, cy: 36.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 11.5, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 24, r: 2.5 } },
+    { tagName: 'circle', attrs: { cx: 6.5, cy: 36.5, r: 2.5 } },
   ],
 }
 export const DisplayRefresh48 = {
@@ -9600,10 +9303,7 @@ export const DisplayScreenRotation48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M15 38h-2a1 1 0 000 2h2a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M15 38h-2a1 1 0 000 2h2a1 1 0 000-2z' } },
     {
       tagName: 'path',
       attrs: {
@@ -9620,6 +9320,19 @@ export const DisplaySearch48 = {
       tagName: 'path',
       attrs: {
         d: 'M36.61 11.39a15 15 0 00-22.22 20.1L7.58 38.3a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l6.81-6.81a15 15 0 0020.1-22.22zm-2.12 19.1A12 12 0 1138 22a12 12 0 01-3.51 8.49z',
+      },
+    },
+  ],
+}
+export const DisplaySearchList48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M6 6.5a1.5 1.5 0 100 3h28a1.5 1.5 0 000-3H6zm22 13a8.5 8.5 0 100 17 8.5 8.5 0 000-17zM16.5 28c0-6.351 5.149-11.5 11.5-11.5S39.5 21.649 39.5 28a11.45 11.45 0 01-2.377 7.002l5.938 5.937a1.5 1.5 0 01-2.122 2.122l-5.937-5.938A11.45 11.45 0 0128 39.5c-6.351 0-11.5-5.149-11.5-11.5zm-12-10A1.5 1.5 0 016 16.5h9a1.5 1.5 0 010 3H6A1.5 1.5 0 014.5 18zM6 26.5a1.5 1.5 0 000 3h5a1.5 1.5 0 000-3H6z',
       },
     },
   ],
@@ -9748,10 +9461,7 @@ export const NotificationInformation48 = {
         d: 'M24 32.75a1.5 1.5 0 01-1.5-1.5v-9a1.5 1.5 0 013 0v9a1.5 1.5 0 01-1.5 1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 16.75, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 16.75, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -9776,10 +9486,7 @@ export const NotificationQuestion48 = {
         d: 'M24 14a6 6 0 00-6 6 1.5 1.5 0 003 0 3 3 0 013-3 3.08 3.08 0 013 3 3 3 0 01-1.69 2.7A4.84 4.84 0 0022.5 27v.5a1.5 1.5 0 003 0V27a1.85 1.85 0 011.13-1.63A6 6 0 0024 14z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 32.48, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 32.48, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -9792,10 +9499,7 @@ export const NotificationQuestion48 = {
         d: 'M24 14a6 6 0 00-6 6 1.5 1.5 0 003 0 3 3 0 013-3 3.08 3.08 0 013 3 3 3 0 01-1.69 2.7A4.84 4.84 0 0022.5 27v.5a1.5 1.5 0 003 0V27a1.85 1.85 0 011.13-1.63A6 6 0 0024 14z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 32.48, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 32.48, r: 1.5 } },
   ],
 }
 export const NotificationWarning48 = {
@@ -9808,10 +9512,7 @@ export const NotificationWarning48 = {
         d: 'M24 27.25a1.5 1.5 0 01-1.5-1.5v-9a1.5 1.5 0 013 0v9a1.5 1.5 0 01-1.5 1.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 31.25, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 31.25, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -9845,13 +9546,8 @@ export const PublishEdit48 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M39.5 24a1.5 1.5 0 00-1.5 1.5V38H10V10h12.5a1.5 1.5 0 000-3H9a2 2 0 00-2 2v30a2 2 0 002 2h30a2 2 0 002-2V25.5a1.5 1.5 0 00-1.5-1.5z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M43.41 8.83l-4.24-4.24a2 2 0 00-2.83 0l-20 20a2 2 0 00-.5.84l-1.8 6.05a2 2 0 002.48 2.48l6.05-1.8a2 2 0 00.84-.5l20-20a2 2 0 000-2.83zM17.49 30.51l1-3.28 2.3 2.3zm5-2.13l-2.83-2.83L35 10.15 37.85 13zm16.78-16.82l-2.83-2.83 1.32-1.32 2.83 2.83z',
+        'fill-rule': 'evenodd',
+        d: 'M38.06 4.94a1.5 1.5 0 00-2.12 0l-20 20a1.5 1.5 0 00-.345.533l-3 8a1.5 1.5 0 001.932 1.931l8-3a1.5 1.5 0 00.534-.343l20-20a1.5 1.5 0 000-2.122l-5-5zM17.78 28.193l-1.217 3.243 3.243-1.216-2.027-2.027zm3.866 1.038l14.086-14.086-2.878-2.878-14.086 14.086 2.878 2.878zm15.5-15.5l-2.878-2.878L37 8.12 39.879 11l-2.733 2.732zM6 12.5A1.5 1.5 0 004.5 14v28A1.5 1.5 0 006 43.5h28a1.5 1.5 0 001.5-1.5v-8a1.5 1.5 0 00-3 0v6.5h-25v-25H14a1.5 1.5 0 000-3H6z',
       },
     },
   ],
@@ -9876,6 +9572,19 @@ export const PublishFavoriteFull48 = {
       tagName: 'path',
       attrs: {
         d: 'M22.55 38.81l-13.7-13.7a9.76 9.76 0 01-.68-13.24 9.53 9.53 0 0113.92-.48L24 13.27l1.64-1.64a9.75 9.75 0 0113.2-.63 9.53 9.53 0 01.48 13.92L25.38 38.81a2 2 0 01-2.83 0z',
+      },
+    },
+  ],
+}
+export const PublishLock48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M24 4.5a9.5 9.5 0 00-9.5 9.5v4.5H10A1.5 1.5 0 008.5 20v22a1.5 1.5 0 001.5 1.5h28a1.5 1.5 0 001.5-1.5V20a1.5 1.5 0 00-1.5-1.5h-4.5V14A9.5 9.5 0 0024 4.5zm6.5 14V14a6.5 6.5 0 10-13 0v4.5h13zm-19 22v-19h25v19h-25z',
       },
     },
   ],
@@ -9926,18 +9635,12 @@ export const Bill48 = {
         d: 'M18.5 18.4a1 1 0 001 1h.66a5.78 5.78 0 009 2 1 1 0 10-1.3-1.52 3.76 3.76 0 01-5.33-.45h2.6a1 1 0 000-2h-3.46a2.57 2.57 0 01-.05-.4 2.57 2.57 0 01.05-.4h3.45a1 1 0 000-2h-2.6a3.76 3.76 0 012.88-1.35 3.69 3.69 0 012.28.77 1 1 0 001.21-1.6 5.78 5.78 0 00-8.73 2.18h-.66a1 1 0 100 2h.15v.8h-.15a1 1 0 00-1 .97zM30 34h-8.58a1 1 0 000 2H30a1 1 0 000-2z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 35, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 18, cy: 35, r: 1 } },
     {
       tagName: 'path',
       attrs: { d: 'M20.42 30a1 1 0 001 1H30a1 1 0 000-2h-8.58a1 1 0 00-1 1z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 18, cy: 30, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 18, cy: 30, r: 1 } },
   ],
 }
 export const CardsMonochromeAmericanExpress48 = {
@@ -10508,10 +10211,7 @@ export const PromiseFashionChoice48 = {
         d: 'M38.26 5.12l-8.13-1a1.22 1.22 0 00-.57-.12 2.76 2.76 0 00-1.37.22l-8 1.29a1.12 1.12 0 00-.9 1.1 2 2 0 00-2 0L9 11.41a2 2 0 00-.72 2.71L24.94 43a2 2 0 002.72.72L35.93 39a2 2 0 00.72-2.71l-.27-.48L40 7.33a2 2 0 00-1.74-2.21zm-9.9 2l3.32 20.56-11-19.12v-.18zM27 40.86L11.14 13.44 18 9.51l15.78 27.42zm7.58-13.2L31.23 7.08l5.84.74z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27.34, cy: 33.11, r: 1.74 },
-    },
+    { tagName: 'circle', attrs: { cx: 27.34, cy: 33.11, r: 1.74 } },
   ],
 }
 export const PromiseFunding48 = {
@@ -10594,18 +10294,12 @@ export const PromiseProductSheet48 = {
       tagName: 'path',
       attrs: { d: 'M30.89 24h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.89, cy: 25.47, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.89, cy: 25.47, r: 1.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M30.89 32h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 16.89, cy: 33.47, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 16.89, cy: 33.47, r: 1.5 } },
   ],
 }
 export const PromiseScan48 = {
@@ -10690,10 +10384,7 @@ export const AfterSalesAfterSalesService48 = {
         d: 'M42.3 9.92a1.51 1.51 0 00-1.39.4l-4.39 4.39a.83.83 0 01-.58.23.79.79 0 01-.58-.24l-2-2a.85.85 0 010-1.18l4.39-4.38a1.5 1.5 0 00.41-1.39 1.48 1.48 0 00-1-1.08 10.43 10.43 0 00-13.73 12.22.24.24 0 01-.06.23L5.56 34.9a5.34 5.34 0 000 7.52A5.27 5.27 0 009.3 44a5.27 5.27 0 003.76-1.56l17.78-17.78a.21.21 0 01.22-.06 10.33 10.33 0 009.83-2.71 10.54 10.54 0 002.49-11 1.52 1.52 0 00-1.08-.97zm-3.52 9.83a7.34 7.34 0 01-7 1.94 3.27 3.27 0 00-3.06.85L11 40.32a2.33 2.33 0 01-1.69.68 2.34 2.34 0 01-1.64-.69 2.31 2.31 0 010-3.29l17.82-17.78a3.22 3.22 0 00.85-3.06 7.51 7.51 0 012-7A7.36 7.36 0 0133.54 7h.05l-2.38 2.37a3.84 3.84 0 000 5.41l2 2a3.8 3.8 0 002.7 1.12 3.79 3.79 0 002.7-1.11L41 14.47a7.35 7.35 0 01-2.22 5.28z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 9.49, cy: 38.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 9.49, cy: 38.5, r: 1.5 } },
   ],
 }
 export const AfterSalesHelpline48 = {
@@ -10766,10 +10457,7 @@ export const CustomCourse48 = {
         d: 'M42.69 20.81a2 2 0 000-3.62L24.86 8.75a2 2 0 00-1.72 0L5.31 17.19a2 2 0 000 3.62L10 23v8.41a3.45 3.45 0 00.61 2c1.25 1.83 5.07 6.09 13.39 6.09s12.14-4.26 13.4-6.09a3.52 3.52 0 00.6-2V23l2-1v12.2a2 2 0 00-1 1.8 2 2 0 004 0 2 2 0 00-1-1.72V21.13zM35 31.44a.5.5 0 01-.08.27c-1 1.44-4 4.79-10.92 4.79s-9.93-3.35-10.92-4.79a.5.5 0 01-.08-.27v-7l10.14 4.8a1.95 1.95 0 001.72 0L35 24.45zm-11-5.1L8.5 19 24 11.66 39.5 19z',
       },
     },
-    {
-      tagName: 'ellipse',
-      attrs: { cx: 24, cy: 19, rx: 2, ry: 1.5 },
-    },
+    { tagName: 'ellipse', attrs: { cx: 24, cy: 19, rx: 2, ry: 1.5 } },
   ],
 }
 export const CustomCutWoodGlass48 = {
@@ -11065,10 +10753,7 @@ export const CommentCommunity48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M39 42v-1h-1.3l1.3 1z' },
-    },
+    { tagName: 'path', attrs: { d: 'M39 42v-1h-1.3l1.3 1z' } },
     {
       tagName: 'path',
       attrs: {
@@ -11223,10 +10908,7 @@ export const SocialNetworkYoutube48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M21.71 27.43L27.65 24l-5.94-3.43v6.86z' },
-    },
+    { tagName: 'path', attrs: { d: 'M21.71 27.43L27.65 24l-5.94-3.43v6.86z' } },
     {
       tagName: 'path',
       attrs: {
@@ -11428,18 +11110,9 @@ export const Attic48 = {
         d: 'M43.07 11.61a1.5 1.5 0 00-1.63.33l-29.5 29.5a1.5 1.5 0 00-.33 1.63A1.51 1.51 0 0013 44h29.5a1.5 1.5 0 001.5-1.5V13a1.51 1.51 0 00-.93-1.39zM41 33.13a5.08 5.08 0 00-2.16 0 6.45 6.45 0 00-.68-.88 7 7 0 00-12.1 3.85A5.38 5.38 0 0025 36h-.42a5 5 0 00-1.24-1.75L41 16.62zM16.62 41l5.29-5.29a3.35 3.35 0 01.74.89 5 5 0 00-2.26 2.45 1 1 0 00.53 1.31.91.91 0 00.39.08 1 1 0 00.93-.61 3 3 0 011.88-1.7A2.82 2.82 0 0125 38a3 3 0 011.52.41h.07l.2.07h.4a.76.76 0 00.2-.06l.16-.07.15-.12.13-.15.06-.06a.45.45 0 000-.11 1 1 0 00.07-.18 1.49 1.49 0 000-.21v-.1-.46a5 5 0 0110 0 1 1 0 002 0 7.27 7.27 0 00-.28-2 3.1 3.1 0 011.28.16V41zM43.56 4.44a1.49 1.49 0 00-2.12 0L36.88 9H33a1 1 0 000 2h1.88l-5.5 5.5H25.5a1 1 0 000 2h1.88l-4.5 4.5H18.5a1 1 0 000 2h2.38l-5 5H11.5a1 1 0 000 2h2.38l-5 5H5a1 1 0 000 2h1.88l-2.44 2.44a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l37-37a1.49 1.49 0 000-2.12z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 35.5, r: 0.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 35, cy: 37.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 30.5, cy: 38.5, r: 0.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 35.5, r: 0.5 } },
+    { tagName: 'circle', attrs: { cx: 35, cy: 37.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 30.5, cy: 38.5, r: 0.5 } },
   ],
 }
 export const Bathroom48 = {
@@ -11513,10 +11186,7 @@ export const ConnectedHome48 = {
         d: 'M24 29.67a6.59 6.59 0 00-4.71 1.95 1 1 0 000 1.41 1 1 0 00.7.3 1 1 0 00.71-.3 4.63 4.63 0 013.3-1.36 4.68 4.68 0 013.07 1.15 1 1 0 001.41-.09 1 1 0 00-.09-1.42A6.67 6.67 0 0024 29.67z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 35.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 35.5, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -11548,10 +11218,7 @@ export const Dressing48 = {
         d: 'M7 7v32.5a1.5 1.5 0 003 0V33h13v6.5a1 1 0 002 0V18h5.5v2.11a5 5 0 00-3.31 2.39 1 1 0 00.36 1.36 1 1 0 001.37-.36 3 3 0 015.16 0 1 1 0 00.92.5.93.93 0 00.5-.14 1 1 0 00.36-1.36 5 5 0 00-3.31-2.39V18H38v21.5a1.5 1.5 0 003 0V7zm16 3v6H10v-6zm0 21H10v-5h13zm0-7H10v-6h13zm2-8v-6h13v6z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M15 29.5h3a1 1 0 000-2h-3a1 1 0 000 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M15 29.5h3a1 1 0 000-2h-3a1 1 0 000 2z' } },
   ],
 }
 export const Electricity48 = {
@@ -11570,14 +11237,8 @@ export const Electricity48 = {
         d: 'M24 34a10 10 0 10-10-10 10 10 0 0010 10zm0-18a8 8 0 11-8 8 8 8 0 018-8z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 20.5, cy: 24, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27.5, cy: 24, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 20.5, cy: 24, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 27.5, cy: 24, r: 1.5 } },
   ],
 }
 export const Enki48 = {
@@ -11728,22 +11389,10 @@ export const Kitchen248 = {
         d: 'M35 21H13a2 2 0 00-2 2v12a2 2 0 002 2h22a2 2 0 002-2V23a2 2 0 00-2-2zm0 14H13V23h22zM36 17H12a1 1 0 000 2h24a1 1 0 000-2zM22 10.5h4a1 1 0 000-2h-4a1 1 0 000 2z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 11, cy: 9.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17, cy: 9.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 31, cy: 9.5, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 37, cy: 9.5, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 11, cy: 9.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 17, cy: 9.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 31, cy: 9.5, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 37, cy: 9.5, r: 1 } },
   ],
 }
 export const Lighting48 = {
@@ -11985,14 +11634,8 @@ export const CardIDCard48 = {
         d: 'M17 26.5a5 5 0 014.93 4.15 1 1 0 001 .85 1 1 0 001-1.14 7 7 0 00-4.66-5.48 4.5 4.5 0 10-4.5 0 7 7 0 00-4.66 5.48 1 1 0 001 1.14 1 1 0 001-.85A5 5 0 0117 26.5zm0-8a2.5 2.5 0 11-2.5 2.5 2.5 2.5 0 012.5-2.5z',
       },
     },
-    {
-      tagName: 'rect',
-      attrs: { x: 26, y: 18, width: 12, height: 2, rx: 1 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 26, y: 23, width: 12, height: 2, rx: 1 },
-    },
+    { tagName: 'rect', attrs: { x: 26, y: 18, width: 12, height: 2, rx: 1 } },
+    { tagName: 'rect', attrs: { x: 26, y: 23, width: 12, height: 2, rx: 1 } },
   ],
 }
 export const CardLoyaltyCard48 = {
@@ -12029,10 +11672,7 @@ export const ContactMail48 = {
         d: 'M38 13V9a2 2 0 00-2-2H12a2 2 0 00-2 2v4H6a2 2 0 00-2 2v24a2 2 0 002 2h36a2 2 0 002-2V15a2 2 0 00-2-2zm-20.51 8h13L24 25.21zM41 17.79v18.42L26.76 27zM38.24 16l-.24.15V16zM35 10v8.1L32 20a1 1 0 00-1-1H17a1 1 0 00-1 1l-3-1.9V10zm-25 6.15L9.76 16H10zm-3 1.64L38.24 38H7z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M17 15h14a1 1 0 000-2H17a1 1 0 000 2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M17 15h14a1 1 0 000-2H17a1 1 0 000 2z' } },
   ],
 }
 export const ContactPhone48 = {
@@ -12141,10 +11781,7 @@ export const Balcony48 = {
         d: 'M42.5 25h-37a1.5 1.5 0 000 3H7v13.09A1.5 1.5 0 007.5 44h33a1.5 1.5 0 00.5-2.91V28h1.5a1.5 1.5 0 000-3zM17 28h2v13h-2zm-2 13h-2V28h2zm6-13h2v13h-2zm4 0h2v13h-2zm4 0h2v13h-2zm4 0h2v13h-2zm-22 0v13H9V28zm28 13h-2V28h2zM13 14h10v9h2v-9h10v9h3V6a2 2 0 00-2-2H12a2 2 0 00-2 2v17h3zm22-2H25V7h10zM23 7v5H13V7z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M28 21a1 1 0 000 2h3a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M28 21a1 1 0 000 2h3a1 1 0 000-2z' } },
   ],
 }
 export const Blower48 = {
@@ -12409,10 +12046,7 @@ export const Temperature48 = {
   viewBox: '0 0 48 48',
   size: '3rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M24 30.8V16.5h-3v14.3a4 4 0 103 0z' },
-    },
+    { tagName: 'path', attrs: { d: 'M24 30.8V16.5h-3v14.3a4 4 0 103 0z' } },
     {
       tagName: 'path',
       attrs: {
@@ -12507,10 +12141,7 @@ export const Tablet64 = {
         d: 'M49 9H15a2 2 0 00-2 2v42a2 2 0 002 2h34a2 2 0 002-2V11a2 2 0 00-2-2zm-1 3v31H16V12zM16 52v-7h32v7z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 48.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 48.5, r: 1.5 } },
   ],
 }
 export const HygieneCleaned64 = {
@@ -12653,10 +12284,7 @@ export const PaymentCheckout64 = {
         d: 'M57 43h-.73l-2.94-17.26a7.49 7.49 0 00-7.4-6.24H33.5V17h9a2 2 0 002-2V7a2 2 0 00-2-2h-21a2 2 0 00-2 2v8a2 2 0 002 2h9v2.5H18.07a7.49 7.49 0 00-7.4 6.24L7.73 43H7a2 2 0 00-2 2v12a2 2 0 002 2h50a2 2 0 002-2V45a2 2 0 00-2-2zM22.5 8h19v6h-19zm-8.87 18.24a4.49 4.49 0 014.44-3.74h27.86a4.49 4.49 0 014.44 3.74L53.22 43H10.78zM56 56H8V46h48z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M17 27.5h30v6H17z' },
-    },
+    { tagName: 'path', attrs: { d: 'M17 27.5h30v6H17z' } },
   ],
 }
 export const PaymentNoContact64 = {
@@ -12675,10 +12303,7 @@ export const PaymentNoContact64 = {
         d: 'M13 38h10a1 1 0 001-1V27a1 1 0 00-1-1H13a1 1 0 00-1 1v10a1 1 0 001 1zm1-5h3v3h-3zm8 3h-3v-8h3zm-5-8v3h-3v-3z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 36, cy: 32, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 36, cy: 32, r: 1.5 } },
     {
       tagName: 'path',
       attrs: {
@@ -12853,10 +12478,7 @@ export const Camera64 = {
         d: 'M32 23.5A13.5 13.5 0 1045.5 37 13.52 13.52 0 0032 23.5zm0 24A10.5 10.5 0 1142.5 37 10.51 10.51 0 0132 47.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 15.5, cy: 23.5, r: 2.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 15.5, cy: 23.5, r: 2.5 } },
   ],
 }
 export const DownloadApp64 = {
@@ -13357,10 +12979,7 @@ export const DisplayBlink64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 32, r: 3 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 32, r: 3 } },
     {
       tagName: 'path',
       attrs: {
@@ -13403,10 +13022,7 @@ export const DisplayDisplayFullFilled64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 5, width: 54, height: 54, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 5, width: 54, height: 54, rx: 2 } },
   ],
 }
 export const DisplayDisplayFullOutline64 = {
@@ -13425,18 +13041,9 @@ export const DisplayDisplayListFilled64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 5, width: 54, height: 14, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 45, width: 54, height: 14, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 25, width: 54, height: 14, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 5, width: 54, height: 14, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 5, y: 45, width: 54, height: 14, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 5, y: 25, width: 54, height: 14, rx: 2 } },
   ],
 }
 export const DisplayDisplayListOutline64 = {
@@ -13479,22 +13086,10 @@ export const DisplayDisplayProductX4Filled64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 5, width: 25, height: 25, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 34, y: 5, width: 25, height: 25, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 5, y: 34, width: 25, height: 25, rx: 2 },
-    },
-    {
-      tagName: 'rect',
-      attrs: { x: 34, y: 34, width: 25, height: 25, rx: 2 },
-    },
+    { tagName: 'rect', attrs: { x: 5, y: 5, width: 25, height: 25, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 34, y: 5, width: 25, height: 25, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 5, y: 34, width: 25, height: 25, rx: 2 } },
+    { tagName: 'rect', attrs: { x: 34, y: 34, width: 25, height: 25, rx: 2 } },
   ],
 }
 export const DisplayDisplayProductX4Outline64 = {
@@ -13528,13 +13123,8 @@ export const DisplayExternalLink64 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M57.22 5H33.5a1.5 1.5 0 000 3h20.38L24.44 37.44a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0L56 10.12V30.5a1.5 1.5 0 003 0V6.78A1.78 1.78 0 0057.22 5z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M51 56H8V13h12.5v-3H7a2 2 0 00-2 2v45a2 2 0 002 2h45a2 2 0 002-2V43h-3z',
+        'fill-rule': 'evenodd',
+        d: 'M33.167 8a1.5 1.5 0 001.5 1.5h17.712l-29.44 29.44a1.5 1.5 0 002.122 2.12L54.5 11.622v17.712a1.5 1.5 0 103 0V8A1.5 1.5 0 0056 6.5H34.667a1.5 1.5 0 00-1.5 1.5zM8 17.167a1.5 1.5 0 00-1.5 1.5V56A1.5 1.5 0 008 57.5h37.333a1.5 1.5 0 001.5-1.5V45.333a1.5 1.5 0 10-3 0V54.5H9.5V20.167h9.167a1.5 1.5 0 000-3H8z',
       },
     },
   ],
@@ -13563,6 +13153,19 @@ export const DisplayHome64 = {
     },
   ],
 }
+export const DisplayLogOut64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M8 6.5A1.5 1.5 0 006.5 8v48A1.5 1.5 0 008 57.5h26.667a1.5 1.5 0 001.5-1.5V45.333a1.5 1.5 0 00-3 0V54.5H9.5v-45h23.667v9.167a1.5 1.5 0 103 0V8a1.5 1.5 0 00-1.5-1.5H8zm41.06 16.44a1.5 1.5 0 00-2.12 2.12l5.439 5.44H24a1.5 1.5 0 000 3h28.379l-5.44 5.44a1.5 1.5 0 002.122 2.12l8-8a1.5 1.5 0 000-2.12l-8-8z',
+      },
+    },
+  ],
+}
 export const DisplayMenu64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
@@ -13579,42 +13182,15 @@ export const DisplayMovingBlock64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 10, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 10, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 54, cy: 10, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 32, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 32, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 54, cy: 32, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 10, cy: 54, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 54, r: 5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 54, cy: 54, r: 5 },
-    },
+    { tagName: 'circle', attrs: { cx: 10, cy: 10, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 32, cy: 10, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 54, cy: 10, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 10, cy: 32, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 32, cy: 32, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 54, cy: 32, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 10, cy: 54, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 32, cy: 54, r: 5 } },
+    { tagName: 'circle', attrs: { cx: 54, cy: 54, r: 5 } },
   ],
 }
 export const DisplayOptions64 = {
@@ -13624,7 +13200,8 @@ export const DisplayOptions64 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M32 21a4 4 0 100-8 4 4 0 000 8zm4 11a4 4 0 11-8 0 4 4 0 018 0zm0 15a4 4 0 11-8 0 4 4 0 018 0z',
+        'fill-rule': 'evenodd',
+        d: 'M37.333 13.333a5.333 5.333 0 11-10.666 0 5.333 5.333 0 0110.666 0zm0 37.334a5.333 5.333 0 11-10.666 0 5.333 5.333 0 0110.666 0zM32 37.333a5.333 5.333 0 100-10.666 5.333 5.333 0 000 10.666z',
       },
     },
   ],
@@ -13634,16 +13211,11 @@ export const DisplayOther64 = {
   size: '4rem',
   paths: [
     {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 32, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 47, cy: 32, r: 4 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17, cy: 32, r: 4 },
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M18.667 32A5.333 5.333 0 118 32a5.333 5.333 0 0110.667 0zM56 32a5.333 5.333 0 11-10.667 0A5.333 5.333 0 0156 32zm-24 5.333a5.333 5.333 0 100-10.666 5.333 5.333 0 000 10.666z',
+      },
     },
   ],
 }
@@ -13697,6 +13269,19 @@ export const DisplaySearch64 = {
       tagName: 'path',
       attrs: {
         d: 'M34 9a21 21 0 00-15.85 34.73l-8.71 8.71a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l8.71-8.71A21 21 0 1034 9zm0 39a18 18 0 1118-18 18 18 0 01-18 18z',
+      },
+    },
+  ],
+}
+export const DisplaySearchList64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M8 9.167a1.5 1.5 0 100 3h37.333a1.5 1.5 0 100-3H8zM37.333 25.5c-6.535 0-11.833 5.298-11.833 11.833 0 6.536 5.298 11.834 11.833 11.834 6.536 0 11.834-5.298 11.834-11.834 0-6.535-5.298-11.833-11.834-11.833zM22.5 37.333c0-8.192 6.641-14.833 14.833-14.833 8.193 0 14.834 6.641 14.834 14.833 0 3.556-1.252 6.82-3.338 9.375l8.232 8.231a1.5 1.5 0 01-2.122 2.122l-8.231-8.232a14.772 14.772 0 01-9.375 3.338c-8.192 0-14.833-6.641-14.833-14.834zM6.5 24A1.5 1.5 0 018 22.5h12a1.5 1.5 0 010 3H8A1.5 1.5 0 016.5 24zM8 35.833a1.5 1.5 0 000 3h6.667a1.5 1.5 0 000-3H8z',
       },
     },
   ],
@@ -13894,13 +13479,8 @@ export const PublishEdit64 = {
     {
       tagName: 'path',
       attrs: {
-        d: 'M51.85 52H12V12h18.5a1.5 1.5 0 001.5-1.5A1.5 1.5 0 0030.5 9H11a2 2 0 00-2 2v42a2 2 0 002 2h41.85a2 2 0 002-2V33.5a1.5 1.5 0 00-1.5-1.5 1.5 1.5 0 00-1.5 1.5z',
-      },
-    },
-    {
-      tagName: 'path',
-      attrs: {
-        d: 'M58.31 11.63l-5.84-5.84a2.65 2.65 0 00-1.9-.79 2.72 2.72 0 00-1.94.81L21.55 32.89a2.14 2.14 0 00-.49.82l-3 9.76A2 2 0 0020.5 46l9.88-2.93a1.94 1.94 0 00.85-.5l27.06-27.1a2.73 2.73 0 00.02-3.84zM25 33.69l21.33-21.34 5.42 5.42-21.33 21.34zm-1.28 1.55l5.13 5.14-7.41 2.19zm29.44-18.88l-5.42-5.42 2.82-2.82L56 13.54z',
+        'fill-rule': 'evenodd',
+        d: 'M50.394 6.94a1.5 1.5 0 00-2.121 0L21.606 33.605a1.5 1.5 0 00-.344.534l-4 10.667a1.5 1.5 0 001.931 1.93l10.667-4a1.5 1.5 0 00.534-.343l26.667-26.667a1.5 1.5 0 000-2.121l-6.667-6.667zM23.446 36.86l-2.216 5.91 5.91-2.216-3.694-3.694zm5.534 2.706l19.252-19.253-4.545-4.545L24.434 35.02l4.546 4.546zm20.666-20.667l-4.545-4.545 4.232-4.233 4.546 4.546-4.233 4.232zM8 17.167a1.5 1.5 0 00-1.5 1.5V56A1.5 1.5 0 008 57.5h37.333a1.5 1.5 0 001.5-1.5V45.333a1.5 1.5 0 10-3 0V54.5H9.5V20.167h9.167a1.5 1.5 0 000-3H8z',
       },
     },
   ],
@@ -13925,6 +13505,19 @@ export const PublishFavoriteFull64 = {
       tagName: 'path',
       attrs: {
         d: 'M55 13.09a13.82 13.82 0 00-19.52 0L32 16.53l-3.44-3.44A13.8 13.8 0 109.05 32.62L30.6 53.73a2 2 0 002.8 0L55 32.61a13.82 13.82 0 000-19.52z',
+      },
+    },
+  ],
+}
+export const PublishLock64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M32 6.5c-6.72 0-12.167 5.447-12.167 12.167v6.5h-6.5a1.5 1.5 0 00-1.5 1.5V56a1.5 1.5 0 001.5 1.5h37.334a1.5 1.5 0 001.5-1.5V26.667a1.5 1.5 0 00-1.5-1.5h-6.5v-6.5C44.167 11.947 38.719 6.5 32 6.5zm9.167 18.667v-6.5a9.167 9.167 0 10-18.334 0v6.5h18.334zM14.833 54.5V28.167h34.334V54.5H14.833z',
       },
     },
   ],
@@ -13975,14 +13568,8 @@ export const Bill64 = {
         d: 'M29 42a1 1 0 001 1h12a1 1 0 000-2H30a1 1 0 00-1 1zM42 46.5H30a1 1 0 000 2h12a1 1 0 000-2zM23 24.5a1 1 0 001 1h1.73a8.79 8.79 0 008.21 5.5 9 9 0 005.7-2 1 1 0 00-1.28-1.54A7 7 0 0133.94 29a6.82 6.82 0 01-6-3.5H33a1 1 0 000-2h-5.75a5.55 5.55 0 01-.09-1V22H33a1 1 0 000-2h-5.32a6.79 6.79 0 016.26-4 6.88 6.88 0 014.12 1.34 1 1 0 001.18-1.62 8.93 8.93 0 00-5.3-1.72 8.76 8.76 0 00-8.39 6H24a1 1 0 000 2h1.18v.5a8.26 8.26 0 00.06 1H24a1 1 0 00-1 1z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 42, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 47.5, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 24, cy: 42, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 47.5, r: 1.5 } },
   ],
 }
 export const CardsMonochromeAmericanExpress64 = {
@@ -14529,10 +14116,7 @@ export const PromiseFashionChoice64 = {
         d: 'M51.68 8.57a2 2 0 00-1.76-2.21L38 5a2 2 0 00-1.43-.29L24 7a2 2 0 00-1.63 1.89 2.08 2.08 0 00-.76.26l-11.02 6.46a2 2 0 00-.73 2.72L32.61 58.1a2 2 0 001.22.94 2.31 2.31 0 00.52.06 2 2 0 001-.27l11.06-6.44a2 2 0 00.73-2.72l-.06-.1zm-15.52-.73l6 33.05L26.14 13l-.57-3.17zm-1.45 47.89L13 17.7l9.33-5.43L44 50.3zm10.37-15.28L39.26 8.16l9.33 1.06z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 35.06, cy: 45.61, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 35.06, cy: 45.61, r: 2 } },
   ],
 }
 export const PromiseFunding64 = {
@@ -14615,18 +14199,12 @@ export const PromiseProductSheet64 = {
       tagName: 'path',
       attrs: { d: 'M41.5 32H28.61a1.5 1.5 0 000 3H41.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 22.5, cy: 33.54, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 22.5, cy: 33.54, r: 1.5 } },
     {
       tagName: 'path',
       attrs: { d: 'M41.5 43H28.61a1.5 1.5 0 000 3H41.5a1.5 1.5 0 000-3z' },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 22.5, cy: 44.54, r: 1.5 },
-    },
+    { tagName: 'circle', attrs: { cx: 22.5, cy: 44.54, r: 1.5 } },
   ],
 }
 export const PromiseScan64 = {
@@ -15192,10 +14770,7 @@ export const SocialNetworkLinkedin64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M33.74 29.77v-.09l-.07.09z' },
-    },
+    { tagName: 'path', attrs: { d: 'M33.74 29.77v-.09l-.07.09z' } },
     {
       tagName: 'path',
       attrs: {
@@ -15232,10 +14807,7 @@ export const SocialNetworkYoutube64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M28.91 36.64L36.94 32l-8.03-4.64v9.28z' },
-    },
+    { tagName: 'path', attrs: { d: 'M28.91 36.64L36.94 32l-8.03-4.64v9.28z' } },
     {
       tagName: 'path',
       attrs: {
@@ -15437,18 +15009,9 @@ export const Attic64 = {
         d: 'M58.07 13.11a1.5 1.5 0 00-1.63.33l-43 43a1.5 1.5 0 00-.33 1.63 1.51 1.51 0 001.39.93h43a1.5 1.5 0 001.5-1.5v-43a1.51 1.51 0 00-.93-1.39zM56 46.15a8.14 8.14 0 00-4.15.29 10.76 10.76 0 00-5.19-4.6 11 11 0 00-2.6-.72h-.26a11.05 11.05 0 00-1.3-.12 10.82 10.82 0 00-10.41 8.09A6.19 6.19 0 0031 49h-.15a6.51 6.51 0 00-.88.06 8.26 8.26 0 00-.86.2l-.24.07c-.21.07-.41.15-.62.24l-.21.09a7.53 7.53 0 00-.73.41l-.22.16-.3.21a8.2 8.2 0 00-1.32-1.83L56 18.12zM18.12 56l6-6a6.4 6.4 0 011.25 2.06 6 6 0 00-.54 1 1 1 0 00.52 1.31.91.91 0 00.39.08 1 1 0 00.92-.6 4.9 4.9 0 01.64-1.06 4.4 4.4 0 01.46-.5 4.71 4.71 0 014.78-1 1 1 0 00.85-.09 1 1 0 00.47-.71A8.79 8.79 0 0142.5 43a8.92 8.92 0 011.16.08h.18a8.92 8.92 0 011.14.25 8.76 8.76 0 015.47 4.76 9.21 9.21 0 01.63 2 1 1 0 001 .82h.18a1 1 0 00.81-1.16 11.25 11.25 0 00-.41-1.54 6.18 6.18 0 013.33-.1V56zM58.56 7.56a1.5 1.5 0 00-2.12-2.12l-6.06 6.06H44.5a1.5 1.5 0 000 3h2.88l-6.5 6.5H35a1.5 1.5 0 000 3h2.88l-6.5 6.5H25.5a1.5 1.5 0 000 3h2.88l-6.5 6.5H16a1.5 1.5 0 000 3h2.88l-6.5 6.5H6.5a1.5 1.5 0 000 3h2.88l-3.94 3.94a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 45.5, cy: 51.5, r: 1.5 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 41, cy: 48, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 38, cy: 53, r: 1 },
-    },
+    { tagName: 'circle', attrs: { cx: 45.5, cy: 51.5, r: 1.5 } },
+    { tagName: 'circle', attrs: { cx: 41, cy: 48, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 38, cy: 53, r: 1 } },
   ],
 }
 export const Bathroom64 = {
@@ -15516,10 +15079,7 @@ export const ConnectedHome64 = {
         d: 'M32 38.5a9.46 9.46 0 00-6.72 2.78 1.51 1.51 0 000 2.12 1.48 1.48 0 001.06.44 1.45 1.45 0 001.06-.44 6.52 6.52 0 018.88-.3 1.5 1.5 0 102-2.25A9.46 9.46 0 0032 38.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 32, cy: 47, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 32, cy: 47, r: 2 } },
     {
       tagName: 'path',
       attrs: {
@@ -15551,10 +15111,7 @@ export const Dressing64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M22.5 36h-3a1 1 0 000 2h3a1 1 0 000-2z' },
-    },
+    { tagName: 'path', attrs: { d: 'M22.5 36h-3a1 1 0 000 2h3a1 1 0 000-2z' } },
     {
       tagName: 'path',
       attrs: {
@@ -15579,14 +15136,8 @@ export const Electricity64 = {
         d: 'M32 45.5A13.5 13.5 0 1018.5 32 13.49 13.49 0 0032 45.5zm0-25A11.5 11.5 0 1120.5 32 11.51 11.51 0 0132 20.5z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 27, cy: 32, r: 2 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 37, cy: 32, r: 2 },
-    },
+    { tagName: 'circle', attrs: { cx: 27, cy: 32, r: 2 } },
+    { tagName: 'circle', attrs: { cx: 37, cy: 32, r: 2 } },
   ],
 }
 export const Enki64 = {
@@ -15737,26 +15288,11 @@ export const Kitchen264 = {
         d: 'M18 48h28a2 2 0 002-2V28a2 2 0 00-2-2H18a2 2 0 00-2 2v18a2 2 0 002 2zm0-20h28v18H18zM21 20h22v2H21z',
       },
     },
-    {
-      tagName: 'circle',
-      attrs: { cx: 17, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 24, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 40, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'circle',
-      attrs: { cx: 47, cy: 14, r: 1 },
-    },
-    {
-      tagName: 'path',
-      attrs: { d: 'M31 15h2a1 1 0 000-2h-2a1 1 0 000 2z' },
-    },
+    { tagName: 'circle', attrs: { cx: 17, cy: 14, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 24, cy: 14, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 40, cy: 14, r: 1 } },
+    { tagName: 'circle', attrs: { cx: 47, cy: 14, r: 1 } },
+    { tagName: 'path', attrs: { d: 'M31 15h2a1 1 0 000-2h-2a1 1 0 000 2z' } },
   ],
 }
 export const Lighting64 = {
@@ -16434,10 +15970,7 @@ export const Temperature64 = {
   viewBox: '0 0 64 64',
   size: '4rem',
   paths: [
-    {
-      tagName: 'path',
-      attrs: { d: 'M30 41.21V21h-3v20.21a5.5 5.5 0 103 0z' },
-    },
+    { tagName: 'path', attrs: { d: 'M30 41.21V21h-3v20.21a5.5 5.5 0 103 0z' } },
     {
       tagName: 'path',
       attrs: {
@@ -16456,10 +15989,7 @@ export const ThermalControl64 = {
         d: 'M32 56a24 24 0 01-14-43.48V17a1.5 1.5 0 003 0V9.5a2 2 0 00-2-2h-7.5a1.5 1.5 0 000 3h4.18A27 27 0 0032 59a1.5 1.5 0 000-3zM52.5 53.5h-4.18A27 27 0 0032 5a1.5 1.5 0 000 3 24 24 0 0114 43.48V47a1.5 1.5 0 00-3 0v7.5a2 2 0 002 2h7.5a1.5 1.5 0 000-3z',
       },
     },
-    {
-      tagName: 'path',
-      attrs: { d: 'M33.5 34.3v-6.8h-3v6.8a4 4 0 103 0z' },
-    },
+    { tagName: 'path', attrs: { d: 'M33.5 34.3v-6.8h-3v6.8a4 4 0 103 0z' } },
     {
       tagName: 'path',
       attrs: {
@@ -16506,6 +16036,3011 @@ export const View36096 = {
       tagName: 'path',
       attrs: {
         d: 'M35.24 55.26a2 2 0 00-3.24 2.3L35.79 63C22 60.71 12 54.58 12 48c0-4.27 4.42-8.7 12-11.81V31.9C14.23 35.51 8 41.32 8 48c0 8.83 11 16.34 27.27 19l-5.67 4a2 2 0 002.3 3.28l9.52-6.66a2 2 0 00.49-2.79zM72 31.9v4.29C79.58 39.3 84 43.73 84 48c0 7.27-12.12 14-28.2 15.61a2 2 0 00.2 4h.2C74.92 65.69 88 57.63 88 48c0-6.68-6.23-12.49-16-16.1zM33.21 39.62a7.1 7.1 0 01-4.15-1.14 5.41 5.41 0 01-2.18-3.07l3.43-1a2.74 2.74 0 001.08 1.43 3.31 3.31 0 001.87.52 2.55 2.55 0 001.64-.54 1.81 1.81 0 00.67-1.5 1.71 1.71 0 00-.72-1.48 3.14 3.14 0 00-1.85-.53h-1.89v-3h1.81a2.78 2.78 0 001.73-.46 1.78 1.78 0 00.6-1.51 1.57 1.57 0 00-.59-1.31 2.2 2.2 0 00-1.45-.48 2.27 2.27 0 00-2.3 1.79l-3.58-1a5 5 0 01.66-1.5 6 6 0 011.18-1.29 5.25 5.25 0 011.83-.9 7.41 7.41 0 012.31-.34 6.78 6.78 0 014.22 1.23 4 4 0 011.62 3.33 4.07 4.07 0 01-.58 2.22 3.22 3.22 0 01-1.64 1.3 3.53 3.53 0 011.79 1.39 4.3 4.3 0 01.73 2.54 4.78 4.78 0 01-1.71 3.81 6.67 6.67 0 01-4.53 1.49zM47.83 39.62a5.77 5.77 0 01-4.78-2.16 9.27 9.27 0 01-1.73-5.94 14 14 0 01.56-4.12 7.7 7.7 0 011.5-2.9 6.27 6.27 0 012.17-1.64 6.34 6.34 0 012.64-.55 5.7 5.7 0 013.62 1.09 5 5 0 011.85 2.8l-3.17.89a3.29 3.29 0 00-1-1.15 2.51 2.51 0 00-1.4-.36 2.61 2.61 0 00-2.18 1.13 5.84 5.84 0 00-1 2.94 5.1 5.1 0 011.63-1.14 4.87 4.87 0 012-.41 5.66 5.66 0 012.09.38 5.79 5.79 0 011.77 1.1 5 5 0 011.23 1.81 6.13 6.13 0 01.46 2.41 6 6 0 01-.4 2.2 6.05 6.05 0 01-1.17 1.85 5.55 5.55 0 01-2 1.3 7.31 7.31 0 01-2.69.47zm-1.65-3.95a2.31 2.31 0 001.72.68 2.35 2.35 0 001.73-.68 2.51 2.51 0 00.67-1.84 2.47 2.47 0 00-.68-1.8 2.46 2.46 0 00-3.44 0 2.46 2.46 0 00-.67 1.8 2.51 2.51 0 00.67 1.84zM62.35 22.31a5.58 5.58 0 014.75 2.22 10.56 10.56 0 011.66 6.41c0 2.81-.55 4.95-1.66 6.44a5.57 5.57 0 01-4.75 2.24 5.5 5.5 0 01-4.71-2.23C56.55 35.9 56 33.76 56 30.94a10.7 10.7 0 011.63-6.41 5.49 5.49 0 014.72-2.22zm0 3.27A2 2 0 0060.46 27a9.53 9.53 0 00-.66 4 9.63 9.63 0 00.66 4 2 2 0 001.89 1.4 2.11 2.11 0 001.93-1.4 9.69 9.69 0 00.66-4 9.53 9.53 0 00-.66-4 2.1 2.1 0 00-1.93-1.42zM76.18 27.82a3.26 3.26 0 01-4.58 0 3.23 3.23 0 114.58 0zm-3.36-1.22a1.5 1.5 0 001.07.43A1.46 1.46 0 0075 26.6a1.43 1.43 0 00.43-1.06 1.46 1.46 0 00-.43-1.07 1.43 1.43 0 00-1.11-.47 1.5 1.5 0 00-1.51 1.51 1.44 1.44 0 00.44 1.09z',
+      },
+    },
+  ],
+}
+export const CardsColorsAmericanExpress24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006FCF',
+        d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M13 16.782V13h-.001v-.7H11.2l2.23-5.045h2.15l.767 1.728V7.255h2.662l.462 1.302.465-1.302H22v.561h-1.646l-.878 2.44-.873-2.44h-1.674v3.918l-1.73-3.918h-1.376l-1.73 3.918h1.175l.325-.784h1.802l.33.784h2.262V8.991l1.007 2.743h.94l1.008-2.748v2.748H22v.569h-1.382l-1.147 1.253-1.137-1.253H16.93l1.847 1.959-1.847 1.959h1.366l1.153-1.265 1.148 1.265H22v.56h-1.689l-.87-.96-.873.96H13zm.593-.561v-3.918h3.336v.906h-2.266v.61h2.21v.885h-2.21v.61h2.266v.907h-3.336z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M22 15.397v.824l-1.858-1.97L22 12.302v.814l-1.076 1.135L22 15.397zm-6.974-5.325l-.532-1.282-.531 1.282h1.063z',
+      },
+    },
+  ],
+}
+export const CardsColorsCB24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscb24)',
+        d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M9.607 11.82h2.62a1.888 1.888 0 00-.557-1.393c-.475-.407-1.307-.557-2.055-.557-.748 0-1.635.165-2.11.603-.417.377-.5.982-.5 1.527 0 .545.173 1.235.623 1.62s1.25.5 2 .5 1.5-.117 1.98-.5c.48-.382.634-1.035.634-1.622H9.607v-.178zM12.4 12v2.043h3.643a1 1 0 00.957-1A1.035 1.035 0 0016.043 12H12.4zm4.535-1.115a.925.925 0 00-.922-.93.848.848 0 00-.113 0h-3.5v1.87h3.673a.942.942 0 00.862-.94z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb24',
+            x1: 12.009,
+            x2: 24.699,
+            y1: 25.199,
+            y2: 7.047,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsCheque24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscheque24)',
+        d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        'fill-rule': 'evenodd',
+        d: 'M3 5h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1zm18.5 1a.5.5 0 00-.5-.5H3a.5.5 0 00-.5.5v12a.5.5 0 00.5.5h18a.5.5 0 00.5-.5V6z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#84DBEB',
+        d: 'M18.5 10h-6.29l1-1h5.29a.5.5 0 000-1h-4.29l.14-.15a.495.495 0 10-.7-.7l-.86.85H5.5a.5.5 0 000 1h6.29l-1 1H5.5a.5.5 0 000 1h4.29l-.14.15a.48.48 0 000 .7.48.48 0 00.7 0l.86-.85h7.29a.5.5 0 000-1z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        d: 'M5 13.5a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v3a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-3z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#25A8D0',
+        d: 'M13 17h-.13a.5.5 0 01-.35-.61c.4-1.54 1.1-3.37 2.07-3.37.7 0 1.25.94 1.66 2 .58-1.18.92-1.18 1.13-1.18.21 0 .7 0 1.54 2.14h.58a.5.5 0 010 1h-.93a.51.51 0 01-.47-.33 12.166 12.166 0 00-.72-1.6 10.87 10.87 0 00-.73 1.6.48.48 0 01-.49.33.5.5 0 01-.46-.37A7.44 7.44 0 0014.59 14a7.44 7.44 0 00-1.11 2.6.5.5 0 01-.48.4z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque24',
+            x1: 12.006,
+            x2: 24.737,
+            y1: 25.556,
+            y2: 7.358,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsGift24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M2.125 5.875a1 1 0 011-1h17.75a1 1 0 011 1v11.75a1 1 0 01-1 1H3.125a1 1 0 01-1-1V5.875z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EAF3E2',
+        d: 'M20.875 4.875H8v13.75h12.875a1 1 0 001-1V5.875a1 1 0 00-1-1z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#CBE3B5',
+        d: 'M20.875 18.75H8v-.25h12.875a.875.875 0 00.875-.875V5.875A.875.875 0 0020.875 5H8v-.25h12.875c.62.001 1.124.504 1.125 1.125v11.75a1.127 1.127 0 01-1.125 1.125z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        d: 'M8 18.75H3.125A1.127 1.127 0 012 17.625V5.875A1.127 1.127 0 013.125 4.75H8V5H3.125a.875.875 0 00-.875.875v11.75c0 .483.392.875.875.875H8v.25z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        d: 'M5.478 6.25l1.795 1.793a.5.5 0 01-.355.855H3.332a.5.5 0 01-.354-.855L4.771 6.25a.5.5 0 01.705 0z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        'fill-rule': 'evenodd',
+        d: 'M18.438 9.555h-.658a1.68 1.68 0 10-2.843-1.785 1.68 1.68 0 10-2.842 1.785h-.658a.5.5 0 00-.5.5v6a.5.5 0 00.5.5h7a.5.5 0 00.5-.5v-6a.5.5 0 00-.5-.5zm-.25 3.125h-2.875v-2.375h2.874v2.375zm-1.805-4.985a.93.93 0 00-.93.93v.93h.93a.93.93 0 000-1.86zm-3.82.93a.93.93 0 011.86 0v.93H13.5a.933.933 0 01-.938-.93zm2.007 1.68h-2.883v2.375h2.883v-2.375zm-2.875 3.125h2.875v2.375h-2.883l.008-2.375zm3.625 0v2.375h2.875V13.43H15.32z',
+      },
+    },
+  ],
+}
+export const CardsColorsIllicado24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#111116',
+        d: 'M5.065 15.088h10.832a3.02 3.02 0 001.658-.478 3 3 0 001.39-2.032 3.085 3.085 0 00-3.027-3.665H8.09A3.08 3.08 0 005 11.96v3.07c0 .058 0 .058.065.058z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M4.978 11.193a3.21 3.21 0 013.107-2.405h7.83a3.215 3.215 0 013.152 3.808 3.115 3.115 0 01-1.445 2.117 3.155 3.155 0 01-1.694.5H5.065a.185.185 0 01-.147-.045.177.177 0 01-.043-.138v-3.07a3.17 3.17 0 01.103-.768zm10.937-2.28h-7.83A3.08 3.08 0 005 11.96v3.06c0 .028-.001.042.005.05.008.008.024.008.06.008h10.863a3.1 3.1 0 003.017-2.5 3.085 3.085 0 00-3.03-3.665z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M13.643 12.553c.014.217.046.432.095.644a.13.13 0 01-.09.173.137.137 0 01-.205-.075.946.946 0 01-.053-.115l-.103.07a.93.93 0 01-.722.133.785.785 0 01-.625-.883.893.893 0 01.333-.595c.28-.199.64-.243.96-.117l.074.032a.09.09 0 00.103 0 .23.23 0 01.123-.033c.082 0 .11.028.11.113v.652zm-.41.382a.355.355 0 00.117-.285v-.072a1.002 1.002 0 00-.015-.23.335.335 0 00-.303-.313.75.75 0 00-.392.015.583.583 0 00-.388.68.44.44 0 00.118.22.56.56 0 00.545.158.72.72 0 00.318-.173z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M11.563 12.768a.117.117 0 00-.16.027.326.326 0 00-.05.07.467.467 0 01-.353.235.786.786 0 01-.387-.03.462.462 0 01-.328-.4.565.565 0 01.465-.645.555.555 0 01.5.145l.11.098c.068.057.103.057.173 0a.127.127 0 00.042-.186.935.935 0 00-.607-.377.812.812 0 00-.378.037.945.945 0 00-.518.393.75.75 0 00-.124.463.71.71 0 00.052.294.75.75 0 00.63.5c.199.03.402.011.592-.054a.662.662 0 00.393-.333l.027-.065a.128.128 0 00-.037-.15l-.043-.022z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#D35D91',
+        d: 'M7.605 10.35a.173.173 0 00-.23.123 1.09 1.09 0 00-.055.277c0 .06-.015.12-.025.182-.045.383-.045.775-.045 1.168 0 .205 0 .41.015.617v.088a2.018 2.018 0 00.09.475c.03.069.098.113.172.113a.173.173 0 00.088 0 .107.107 0 00.087-.126 8.182 8.182 0 01-.037-.364c-.01-.128-.025-.25-.027-.378a9.774 9.774 0 01-.016-1c0-.205.028-.41.053-.613 0-.105.018-.21.035-.312a.353.353 0 000-.102.122.122 0 00-.105-.148z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#9779AB',
+        d: 'M8.59 10.807l.04-.335a.1.1 0 00-.075-.117.25.25 0 00-.19 0 .143.143 0 00-.085.102 1.138 1.138 0 00-.055.25 7.8 7.8 0 00-.075.835v.917c.003.237.025.475.065.71 0 .03.015.062.025.092.009.023.02.044.033.065.042.093.27.085.312.015a.19.19 0 00.027-.133 3.082 3.082 0 01-.032-.317c0-.163-.023-.325-.033-.5-.02-.298-.014-.6 0-.905 0-.226.014-.453.043-.678z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M9.43 10.78a.3.3 0 00-.375.293v.075a.295.295 0 00.393.22h.022a.267.267 0 00.167-.343c-.022-.125-.027-.19-.207-.245zm-.075.947a.163.163 0 00-.193.108.943.943 0 00-.047.25c0 .188 0 .375-.013.563-.012.187 0 .395 0 .595 0 .036.017.071.046.095.057.044.13.065.202.06a.12.12 0 00.11-.13.618.618 0 000-.118 6.371 6.371 0 010-.818l.04-.427a.157.157 0 00-.145-.178z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B9CD5C',
+        d: 'M6.522 10.765a.335.335 0 00-.295.337c0 .13.145.275.313.28a.292.292 0 00.29-.317.31.31 0 00-.308-.3zm.111.967a.223.223 0 00-.213.056.13.13 0 00-.035.09c0 .212.02.427.025.637v.7c0 .14.055.188.19.178h.038c.09 0 .122-.05.127-.146.018-.39.013-.787.013-1.184a.805.805 0 00-.023-.19.173.173 0 00-.122-.14z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M16.808 11.703a.78.78 0 01.672.42c.06.1.104.211.128.327a.82.82 0 01-.058.453l-.018.037a.827.827 0 01-.25.29.815.815 0 01-.564.182 1.342 1.342 0 01-.173 0 .835.835 0 01-.635-.602 1.08 1.08 0 010-.43.828.828 0 01.482-.603.98.98 0 01.416-.074zM17.073 13a.452.452 0 00.202-.303.797.797 0 00-.025-.367.467.467 0 00-.457-.33.836.836 0 00-.276.035.47.47 0 00-.327.363.732.732 0 000 .312.532.532 0 00.552.397.54.54 0 00.33-.107zm-1.573-.732c0 .117 0 .232.025.35.027.204.065.407.11.607a.087.087 0 010 .075.177.177 0 01-.21.07.133.133 0 01-.053-.052 1.064 1.064 0 01-.044-.125c-.01-.022-.005-.027-.006-.03l-.01-.003c-.011-.003-.047.028-.085.062-.027.023-.055.048-.077.063a.75.75 0 01-.593.102.658.658 0 01-.5-.46 1 1 0 01-.02-.617.68.68 0 01.2-.363.883.883 0 01.733-.22.551.551 0 01.197.06v-.037c-.01-.405.01-.813.033-1.217a.205.205 0 01.158-.193h.074c.08-.005.118.02.118.1a.77.77 0 010 .2 6.1 6.1 0 00-.025.406 6.797 6.797 0 01-.025.407c-.018.18-.012.362-.006.544.003.09.006.18.006.27zm-.625.79c.188-.05.32-.22.322-.415a1.097 1.097 0 00-.02-.356.436.436 0 00-.032-.09.297.297 0 00-.25-.177h-.07l-.15.02a.427.427 0 00-.333.28.879.879 0 00-.045.36.425.425 0 00.578.377z',
+      },
+    },
+  ],
+}
+export const CardsColorsLoyalty24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsloyalty24)',
+        d: 'M2.125 5.875a1 1 0 011-1h17.75a1 1 0 011 1v11.75a1 1 0 01-1 1H3.125a1 1 0 01-1-1V5.875z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M3 4.75h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12a1 1 0 011-1zm18.75 1A.75.75 0 0021 5H3a.75.75 0 00-.75.75v12c0 .414.336.75.75.75h18a.75.75 0 00.75-.75v-12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        d: 'M7.263 15.355h9.312l-4.657-4.675-4.655 4.675z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M7.06 15.148l.72-.72-.24-.24-.455.452-.817-.822-.268.27 1.06 1.06zm.278-1.968l.182.183.37-.375.215.217-.373.375.23.232.466-.464.21.217-.728.73-1.058-1.06.73-.735.213.217-.457.463zm2.387-.705L9 12.273a.452.452 0 00-.095-.523.437.437 0 00-.607.03l-.533.538 1.055 1.065.272-.273-.857-.86.173-.172a.192.192 0 11.27.272l-.158.158.918.25.287-.283z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M9.77 10.563a.717.717 0 00-.54.234.73.73 0 00.02 1.085.751.751 0 001.055-1.07.717.717 0 00-.534-.25zm-.237 1.03c-.203-.208-.263-.415-.095-.583V11c.167-.158.37-.1.577.105.207.205.26.412.092.575-.167.162-.372.12-.574-.088z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M10.63 10.24l-.195-.6.31-.318.265 1.033.415.412-.27.273-.415-.415-.982-.31.297-.303.568.223.007.005zm4.895 3.65l1.06-1.06-.288-.285-1.06 1.065.288.28zM11.48 9.835l.822-.393-.604.605.24.248 1.06-1.06-.335-.34-.798.39.397-.79-.345-.35-1.06 1.065.248.247.607-.612-.394.827.162.163zm1.835.15l-.178.183.403.407-.215.218-.405-.41-.232.232.494.495-.212.215-.765-.765 1.06-1.065.76.77-.213.217-.497-.497zm1 2.697l.72.726.242-.243-.45-.452.82-.825-.272-.265-1.06 1.06zm2.88.761l-.34 1.127.73-.735.252.252-1.06 1.066-.332-.335.293-1.16v-.003l-.726.728-.247-.245 1.063-1.066.367.37zm-3.058-.943l.208-.725c.177.08.385.037.518-.105a.432.432 0 00-.03-.605l-.57-.565-1.058 1.065.268.273.857-.865.207.207a.192.192 0 01.02.273.19.19 0 01-.27.02l-.02-.02-.192-.203-.223.95.285.3z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty24',
+            x1: 12.046,
+            x2: 24.735,
+            y1: 24.996,
+            y2: 6.76,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsMastercard24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsmastercard24)',
+        d: 'M2 5.75a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: { fill: '#FF5F00', d: 'M10.525 8.918h2.598v4.665h-2.598V8.918z' },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EB001B',
+        d: 'M10.69 11.25c0-.91.416-1.769 1.13-2.332a2.967 2.967 0 100 4.665 2.96 2.96 0 01-1.13-2.333z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#F79E1B',
+        d: 'M16.625 11.25a2.965 2.965 0 01-4.797 2.332 2.972 2.972 0 000-4.665 2.965 2.965 0 014.797 2.333z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M16.994 15.11v.5a.341.341 0 00-.128-.1.404.404 0 00-.18-.035.492.492 0 00-.179.025.444.444 0 00-.256.26.506.506 0 00-.036.2.488.488 0 00.138.355.5.5 0 00.344.14.385.385 0 00.18-.04.298.298 0 00.128-.1v.115h.21v-1.325l-.22.005zm0 .975a.359.359 0 01-.061.095.3.3 0 01-.092.06.319.319 0 01-.246 0 .229.229 0 01-.093-.065.318.318 0 01-.077-.21c0-.042.008-.085.02-.125a.4.4 0 01.062-.09.299.299 0 01.339-.065.229.229 0 01.092.065.26.26 0 01.062.095c.013.04.02.083.02.125a.47.47 0 01-.03.115h.004z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M11.305 16.25a.21.21 0 01-.095.02l-.06-.02a.075.075 0 01-.045-.03.195.195 0 01-.035-.055.342.342 0 01-.01-.08v-.41h.33v-.19h-.33V15.2h-.205v.285h-.19v.19h.19v.415c-.008.1.023.198.085.275a.34.34 0 00.25.09.392.392 0 00.16-.03.48.48 0 00.09-.04l-.07-.175a.155.155 0 01-.065.04zM8.1 15.495a.46.46 0 01.125.075.46.46 0 01.08.115.472.472 0 01.025.15v.595h-.2v-.525a.266.266 0 00-.055-.185.2.2 0 00-.155-.06.221.221 0 00-.09.015.178.178 0 00-.075.045.294.294 0 00-.055.08.301.301 0 00-.015.105v.525h-.2v-.525a.289.289 0 00-.055-.185.212.212 0 00-.16-.06.278.278 0 00-.09.015.178.178 0 00-.075.045.25.25 0 00-.05.08.231.231 0 00-.02.105v.515h-.2v-.945h.2v.115a.25.25 0 01.06-.065.279.279 0 01.07-.045l.075-.02h.075a.375.375 0 01.185.04c.05.031.093.074.125.125a.206.206 0 01.065-.075.295.295 0 01.08-.055l.09-.025h.09a.361.361 0 01.15.025zm5.645.195a.292.292 0 00-.09.06.25.25 0 00-.065.09.354.354 0 00-.02.125.329.329 0 00.02.125.25.25 0 00.065.095c.026.027.056.05.09.065.04.013.083.02.125.02a.477.477 0 00.125-.02.28.28 0 00.1-.06l.1.165a.681.681 0 01-.125.07.524.524 0 01-.565-.105.5.5 0 01.16-.81.546.546 0 01.205-.035.489.489 0 01.325.11l-.1.165a.188.188 0 00-.1-.06.333.333 0 00-.25 0z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M9.166 15.505a.34.34 0 01.129.101v-.116h.21v.954h-.21v-.116a.3.3 0 01-.129.101.383.383 0 01-.179.04.499.499 0 01-.344-.141.498.498 0 01-.138-.358.516.516 0 01.036-.202.465.465 0 01.446-.298.401.401 0 01.18.035zm.067.682a.36.36 0 00.062-.096H9.29a.482.482 0 00.025-.121.43.43 0 00-.02-.126.263.263 0 00-.062-.096.292.292 0 00-.21-.09.317.317 0 00-.128.024.27.27 0 00-.149.162.326.326 0 00-.02.126.325.325 0 00.076.212c.025.03.057.052.093.066a.315.315 0 00.338-.061z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M10.185 15.87c.087.008.17.039.24.09a.22.22 0 01.085.195.25.25 0 01-.025.125.295.295 0 01-.085.095.348.348 0 01-.135.06.674.674 0 01-.18.02H10l-.105-.02-.11-.035a.57.57 0 01-.105-.065l.095-.155.055.04.07.03.085.025.105.01a.274.274 0 00.16-.035.09.09 0 00.04-.085.087.087 0 00-.04-.07.293.293 0 00-.125-.035l-.095-.015a.478.478 0 01-.24-.09.227.227 0 01-.08-.185c0-.043.009-.085.025-.125a.235.235 0 01.08-.095.431.431 0 01.125-.06.564.564 0 01.165-.02.752.752 0 01.21.025.472.472 0 01.17.075l-.09.16-.05-.03-.07-.025-.085-.02-.085-.01a.237.237 0 00-.125.035.095.095 0 00-.05.08c0 .015.005.029.015.04l.035.03.045.015.065.01.095.015z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M12.27 15.505a.437.437 0 01.251.258c.027.064.04.133.039.202v.04a.098.098 0 000 .04h-.76a.243.243 0 00.11.182.353.353 0 00.197.06.378.378 0 00.152-.03.447.447 0 00.137-.07l.114.146a.596.596 0 01-.202.106.832.832 0 01-.224.03.714.714 0 01-.213-.035.609.609 0 01-.164-.1.486.486 0 01-.147-.364.512.512 0 01.142-.364.386.386 0 01.164-.1.529.529 0 01.207-.036.499.499 0 01.197.035zm-.448.283a.417.417 0 00-.027.091h.535a.329.329 0 00-.087-.172.25.25 0 00-.175-.06.228.228 0 00-.186.065.209.209 0 00-.06.076zm3.278-.182a.43.43 0 00-.128-.1.376.376 0 00-.175-.036.484.484 0 00-.344.136.416.416 0 00-.102.162.521.521 0 00.103.56c.042.046.095.08.153.101.06.027.125.04.19.04a.36.36 0 00.175-.04.355.355 0 00.128-.1v.115h.21v-.954h-.21v.116zm-.01.485a.4.4 0 01-.057.096.315.315 0 01-.338.06.228.228 0 01-.093-.065.215.215 0 01-.056-.096.3.3 0 01-.02-.116.326.326 0 01.02-.126c.01-.037.03-.07.056-.096a.288.288 0 01.21-.091c.045 0 .088.008.129.025a.23.23 0 01.092.066c.026.027.045.06.056.096.016.04.023.083.021.126a.326.326 0 01-.02.121z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M13 15.5a.385.385 0 01.16-.03h.085l.05.01-.06.2-.04-.015h-.08a.221.221 0 00-.09.015.14.14 0 00-.07.05.25.25 0 00-.05.08.302.302 0 00-.015.105v.52h-.19v-.945h.185v.125A.317.317 0 0113 15.5zm3.015-.03a.385.385 0 00-.155.03.317.317 0 00-.115.115v-.125h-.19v.945h.195v-.52a.231.231 0 01.02-.105.182.182 0 01.045-.08.14.14 0 01.07-.05.221.221 0 01.09-.015h.08l.04.015.06-.2-.05-.01h-.09z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard24',
+            x1: 21.977,
+            x2: 21.977,
+            y1: 18.421,
+            y2: 4.426,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsOney24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        d: 'M2 5.75a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M13.854 10.585l-.104-.013-.027-.017h-.053a1.382 1.382 0 00-.71.223 1.5 1.5 0 00-.645 1.58 1.483 1.483 0 002.705.5c.015-.023.03-.05.044-.076a1.62 1.62 0 01.028-.052h-.567a.074.074 0 00-.04.02.98.98 0 01-.697.3.938.938 0 01-.948-.75v-.023h2.318a1.75 1.75 0 000-.484 1.463 1.463 0 00-1.13-1.185 2.1 2.1 0 00-.174-.024zm.741 1.212h-1.74a.908.908 0 01.922-.712c.386.02.818.385.818.712zm-6.901-1.211a1.27 1.27 0 01-.089-.014H7.38a3.264 3.264 0 01-.078.012A1.475 1.475 0 006 11.915v.315c.023.13.056.256.1.38.201.572.74.956 1.348.958a1.41 1.41 0 001.184-.518 1.5 1.5 0 00-.938-2.464zm.744 1.277c.012.069.022.14.027.21a1 1 0 01-.827.984.965.965 0 01-1.078-.727 1 1 0 01.608-1.18.96.96 0 011.27.713z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M15.86 14.43c.145-.348.285-.695.425-1.043a.07.07 0 000-.055c-.383-.92-.768-1.836-1.152-2.75h.6a.07.07 0 000 .023l.832 2.043.015.024a.507.507 0 00.02-.047c.105-.25.21-.515.315-.768l.52-1.274H18a.38.38 0 010 .05l-1.125 2.75-.44 1.065-.575-.018zm-5.092-3.858c.074.013.15.018.224.038.46.088.826.436.938.89.03.123.045.249.045.375v1.692h-.543v-1.642c0-.118-.012-.235-.037-.35a.615.615 0 00-.5-.487 1.102 1.102 0 00-.5 0 .638.638 0 00-.527.56 1.395 1.395 0 00-.023.287v1.622h-.54a.085.085 0 010-.024V11.8a1.153 1.153 0 01.415-.913c.21-.18.473-.29.75-.312h.05l.248-.002z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX324 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M19.42 11.998a7.423 7.423 0 11-14.845 0 7.423 7.423 0 0114.845 0zm-9.395 2.226a2.043 2.043 0 01-1.2-.329 1.574 1.574 0 01-.63-.885l.989-.292a.785.785 0 00.312.413c.16.102.349.154.54.148a.742.742 0 00.472-.156.522.522 0 00.195-.433.495.495 0 00-.21-.425.89.89 0 00-.532-.149h-.55v-.86h.525a.804.804 0 00.495-.134.51.51 0 00.176-.436.46.46 0 00-.171-.378.65.65 0 00-.418-.139.663.663 0 00-.668.517l-1.025-.297c.04-.154.106-.3.193-.433a1.76 1.76 0 01.34-.37c.152-.12.326-.211.512-.268.216-.067.441-.1.668-.099.434-.02.862.105 1.217.356.482.388.61 1.069.3 1.604a.934.934 0 01-.47.376c.21.073.391.214.514.4.148.219.223.479.213.743a1.38 1.38 0 01-.495 1.098 1.927 1.927 0 01-1.292.428zm6.15-3.82l-1.297 1.809 1.274 1.912h-1.267l-.66-.99-.601.99H12.41l1.237-1.85-1.237-1.87h1.27l.643.969.653-.97h1.197z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX424 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M19.42 11.998a7.423 7.423 0 11-14.845 0 7.423 7.423 0 0114.845 0zm-8.014 2.234h-1.06v-1.053H8.191v-.894l1.247-3.064h1.175l-1.211 3h.944v-1.082h1.06v1.081h.533v.959h-.533v1.053zm4.768-3.828l-1.296 1.809 1.274 1.912h-1.267l-.66-.99-.601.99H12.41l1.237-1.85-1.237-1.87h1.27l.643.969.653-.97h1.197z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaylib24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#16D6FF',
+        d: 'M2 5.75a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M6 10.732h.428v.143h.017c.137-.1.299-.16.467-.172a1.5 1.5 0 01.486.027.662.662 0 01.5.543c.05.238.064.482.04.725a1.93 1.93 0 01-.058.415.675.675 0 01-.603.532c-.184.025-.37.02-.557.03v-.442h.183c.082 0 .162 0 .25-.02a.265.265 0 00.227-.21 1.19 1.19 0 00.043-.25c.018-.205.014-.41-.013-.613a.905.905 0 00-.025-.112.278.278 0 00-.217-.193.92.92 0 00-.388 0 .308.308 0 00-.25.308v2.279h-.475c-.04 0-.047 0-.047-.042v-.215L6 10.733z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M15.415 9.35h-.022a2.635 2.635 0 00-1.5.428.105.105 0 00-.058.102v2.405l-.001.042c-.001.026-.002.05.001.095.005.068.03.093.097.093h.285v.452a2.668 2.668 0 01-.55-.024.412.412 0 01-.347-.36 1.458 1.458 0 01-.015-.233v-2.047h-.018a2.688 2.688 0 00-.477 2.5 2.623 2.623 0 001.727 1.722v-3h.55v3.112a2.605 2.605 0 002.383-1.062c.619-.8.709-1.887.23-2.777a2.587 2.587 0 00-1.75-1.388v2.83c.018.175.093.27.25.293.1.012.2.012.3 0a.308.308 0 00.317-.283c.043-.26.043-.525 0-.785a.308.308 0 00-.322-.283c-.1-.005-.2-.005-.3 0h-.05v-.432h.018a5.05 5.05 0 01.522 0c.32.022.583.265.63.582.072.338.072.688 0 1.025a.715.715 0 01-.538.573 1.778 1.778 0 01-.887 0 .57.57 0 01-.435-.438 1.326 1.326 0 01-.04-.33V9.35zm-.872 1.873a.25.25 0 01-.043-.19.25.25 0 01.283-.283.513.513 0 01.125 0 .25.25 0 01.217.25v.075a.25.25 0 01-.25.25.525.525 0 01-.165 0 .25.25 0 01-.167-.102z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M10.387 10.75h.525v1.435a1.42 1.42 0 000 .178.19.19 0 00.138.152.785.785 0 00.485 0 .213.213 0 00.15-.197V10.75h.5v2.43c0 .084-.009.168-.025.25a.383.383 0 01-.315.308 3.244 3.244 0 01-.548.027v-.455h.283a.087.087 0 00.085-.083v-.287l-.36.025a1.303 1.303 0 01-.518-.067.6.6 0 01-.42-.558v-1.547l.02-.043z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M10.102 12.965v-2.232l-.437-.013v.15a.765.765 0 00-.317-.152 1.667 1.667 0 00-.46-.028.69.69 0 00-.685.593c-.047.247-.06.499-.038.75.003.112.017.223.043.332a.657.657 0 00.47.545c.232.074.481.08.717.018a1 1 0 00.188-.073v.11h.52zm-.52-1.143l.013.343a.338.338 0 01-.32.368c-.1.012-.2.012-.3 0a.27.27 0 01-.232-.203.935.935 0 01-.043-.25v-.598c.006-.04.014-.08.025-.12.03-.127.14-.22.27-.227.103-.008.207-.008.31 0 .167.015.29.16.277.328v.36z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaypal24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorspaypal24)',
+        d: 'M2.125 5.875a1 1 0 011-1h17.75a1 1 0 011 1v11.75a1 1 0 01-1 1H3.125a1 1 0 01-1-1V5.875z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M3 4.75h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12a1 1 0 011-1zm18.75 1A.75.75 0 0021 5H3a.75.75 0 00-.75.75v12c0 .414.336.75.75.75h18a.75.75 0 00.75-.75v-12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M12.75 14.185h.623a.57.57 0 01.452.162.485.485 0 01.078.403.638.638 0 01-.706.585h-.194a.09.09 0 00-.085.075l-.073.45a.06.06 0 01-.058.053h-.327a.055.055 0 01-.045-.06l.25-1.595a.085.085 0 01.085-.073zm.325.815c.175 0 .335 0 .37-.232v.01a.193.193 0 00-.033-.173c-.055-.065-.16-.065-.272-.065h-.043a.05.05 0 00-.05.043L12.98 15h.095z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        'fill-rule': 'evenodd',
+        d: 'M8.313 14.185h.622a.58.58 0 01.455.162.485.485 0 01.077.403.638.638 0 01-.717.585h-.188a.082.082 0 00-.082.075l-.072.43a.083.083 0 01-.083.072h-.3a.055.055 0 01-.045-.06l.25-1.595a.083.083 0 01.082-.072zm.317.805c.165 0 .335 0 .37-.223a.192.192 0 00-.033-.172c-.055-.065-.16-.065-.272-.065h-.043a.05.05 0 00-.05.043l-.067.417h.095zm1.87-.24h.295v.01a.05.05 0 01.043.06l-.16 1.02a.085.085 0 01-.086.072h-.274a.053.053 0 01-.045-.06l.014-.082a.582.582 0 01-.412.168.463.463 0 01-.375-.153.565.565 0 01-.102-.467.685.685 0 01.665-.598c.13-.015.26.031.352.125l.02.03.015-.082a.05.05 0 01.05-.043zm-.457.865a.332.332 0 00.337-.285h-.005a.268.268 0 00-.05-.213.25.25 0 00-.2-.08.33.33 0 00-.332.288.23.23 0 00.25.29z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M14.935 14.75h.315c.024.01.038.035.033.06l-.163 1.02a.083.083 0 01-.082.072h-.278a.053.053 0 01-.043-.06l.013-.082a.575.575 0 01-.412.168.468.468 0 01-.375-.153.555.555 0 01-.11-.457.683.683 0 01.665-.598.43.43 0 01.352.125l.02.03.013-.082a.053.053 0 01.052-.043zm-.455.865a.338.338 0 00.338-.285.25.25 0 00-.053-.213.25.25 0 00-.197-.082.34.34 0 00-.335.287.25.25 0 00.047.21.25.25 0 00.2.083z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M12.383 14.75h-.3a.085.085 0 00-.073.037l-.415.608-.175-.582a.085.085 0 00-.082-.063h-.295a.052.052 0 00-.053.053.032.032 0 000 .014l.33.97-.31.438a.053.053 0 00.013.072.06.06 0 00.03 0h.3a.083.083 0 00.07-.037l1-1.435a.052.052 0 00-.015-.072.037.037 0 00-.025-.003z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        d: 'M15.582 14.227l-.25 1.625a.053.053 0 00.045.06h.265c.043.001.08-.03.085-.072l.25-1.595a.053.053 0 00-.042-.06h-.298a.053.053 0 00-.055.042zM14 9.65c0 .032 0 .063-.018.098-.214 1.104-.95 1.485-1.89 1.485h-.47a.233.233 0 00-.23.197l-.25 1.555-.07.44a.125.125 0 00.123.143h.848a.203.203 0 00.202-.173v-.043l.16-1.014v-.058a.208.208 0 01.203-.172h.142c.822 0 1.467-.333 1.655-1.3a1.113 1.113 0 00-.155-.978.802.802 0 00-.25-.18z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#222D65',
+        d: 'M13.785 9.56l-.103-.025-.107-.02a2.457 2.457 0 00-.422-.033h-1.278a.215.215 0 00-.09.02.21.21 0 00-.113.153L11.4 11.38v.05a.233.233 0 01.23-.197h.48c.94 0 1.675-.383 1.89-1.486 0-.034.012-.065.018-.097a1.452 1.452 0 00-.178-.075l-.055-.015z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M11.672 9.655a.2.2 0 01.113-.15.183.183 0 01.09-.02h1.277c.142 0 .283.01.423.03l.107.02.103.025.047.015c.061.021.12.046.178.075.084-.33.002-.68-.22-.938-.25-.277-.685-.394-1.25-.394h-1.627a.233.233 0 00-.23.197L10 12.822a.14.14 0 00.137.163h1l.25-1.605.285-1.725z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal24',
+            x1: 12.032,
+            x2: 24.721,
+            y1: 24.996,
+            y2: 6.76,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsVisa24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M2 5.75a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M3 4.75h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1v-12a1 1 0 011-1zm18.75 1A.75.75 0 0021 5H3a.75.75 0 00-.75.75v12c0 .414.336.75.75.75h18a.75.75 0 00.75-.75v-12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M21 4.75H3a1 1 0 00-1 1V8h20V5.75a1 1 0 00-1-1z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#F7B601',
+        d: 'M2 16v1.75a1 1 0 001 1h18a1 1 0 001-1V16H2z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M9.975 13.787l.61-3.565h.972l-.61 3.566h-.972zm4.498-3.474a2.47 2.47 0 00-.87-.15c-.96 0-1.638.482-1.643 1.172 0 .515.485.797.852.97.368.172.5.287.5.44 0 .25-.3.353-.582.353a2.017 2.017 0 01-.915-.19l-.122-.056-.138.798c.348.127.715.19 1.085.188 1.02 0 1.68-.475 1.688-1.215 0-.408-.25-.718-.816-.97-.337-.163-.547-.276-.542-.44.005-.165.175-.31.553-.31.249-.005.497.041.727.137l.085.043.135-.77',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        'fill-rule': 'evenodd',
+        d: 'M16.215 10.225h.75v-.002l.785 3.557h-.88s-.09-.407-.12-.53H15.5l-.217.537h-1.02l1.452-3.264a.482.482 0 01.5-.298zm-.063 1.293l-.387 1 .808.01-.226-1.028-.067-.325c-.047.132-.128.342-.128.342z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M8.21 12.655l.953-2.43v-.012h1.027L8.665 13.77h-1.03l-.86-3.082a4.086 4.086 0 00-1.025-.39l.013-.075h1.564a.402.402 0 01.44.302l.342 1.62.004.01.097.5z',
+      },
+    },
+  ],
+}
+export const ColorsRelayLocation24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006902',
+        'fill-rule': 'evenodd',
+        d: 'M12 2a8 8 0 00-8 8c0 4.16 6.54 10.94 7.29 11.7a1 1 0 001.42 0C13.46 20.94 20 14.16 20 10a8 8 0 00-8-8z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M14.35 8.01l1.25-.84-3.6-2.4-1.3.87 3.65 2.37zm-2.85 2.37v4.12L8 12.22V8.1l3.5 2.28zm4.5 1.84l-3.5 2.28v-4.12L16 8.1v4.12zM8.4 7.17l1.39-.92 3.65 2.36-1.44.96-3.6-2.4z',
+      },
+    },
+  ],
+}
+export const ColorsStoreLocation24 = {
+  viewBox: '0 0 24 24',
+  size: '1.5rem',
+  paths: [
+    {
+      tagName: 'g',
+      attrs: { 'fill-rule': 'evenodd' },
+      children: [
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#006902',
+            d: 'M12 2a8 8 0 00-8 8c0 4.16 6.54 10.94 7.29 11.7a1 1 0 001.42 0C13.46 20.94 20 14.16 20 10a8 8 0 00-8-8z',
+          },
+        },
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#fff',
+            d: 'M15.24 9.25l-1.75-1.74-1.07-1.08a.59.59 0 00-.83 0l-1.07 1.08-1.75 1.74L8 10a.58.58 0 00.41 1h7.16a.58.58 0 00.43-1l-.76-.75z',
+          },
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsAmericanExpress32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006FCF',
+        d: 'M3 8.333C3 7.597 3.597 7 4.333 7h23.334C28.403 7 29 7.597 29 8.333v15.334c0 .736-.597 1.333-1.333 1.333H4.333A1.333 1.333 0 013 23.667V8.333z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M17.332 22v-4.763h-.002v-.882H15L17.89 10h2.788l.995 2.177V10h3.45l.6 1.64.602-1.64H29v.707h-2.133l-1.14 3.074-1.132-3.074h-2.17v4.935l-2.242-4.935h-1.785l-2.242 4.935h1.524l.42-.987h2.337l.428.987h2.932v-3.455l1.306 3.455h1.22l1.305-3.462v3.462H29v.716h-1.792l-1.487 1.58-1.474-1.58h-1.82l2.394 2.468-2.395 2.467h1.77l1.495-1.593 1.488 1.593H29V22h-2.19l-1.127-1.211L24.55 22h-7.218zm.77-.707v-4.935h4.324V17.5h-2.939v.769h2.867v1.114h-2.867v.768h2.939v1.142h-4.325z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M29 20.255v1.038l-2.409-2.481L29 16.358v1.026l-1.395 1.43L29 20.255zm-9.041-6.707l-.69-1.614-.69 1.614h1.38z',
+      },
+    },
+  ],
+}
+export const CardsColorsCB32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscb32)',
+        d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M12.172 15.71h4.19c-.037-.825-.25-1.68-.892-2.228-.75-.652-2.093-.892-3.285-.892-1.193 0-2.615.265-3.38.967C8.143 14.16 8 15.125 8 16s.277 1.975 1 2.59c.723.615 2 .82 3.188.82 1.187 0 2.412-.192 3.17-.813.757-.62 1.012-1.655 1.012-2.597h-4.198v-.29zm4.468.29v3.262h5.828A1.612 1.612 0 0024 17.65c0-.866-.669-1.586-1.532-1.65H16.64zm7.255-1.785a1.485 1.485 0 00-1.477-1.5H16.64v3h5.877a1.5 1.5 0 001.378-1.5z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb32',
+            x1: 16.325,
+            x2: 32.13,
+            y1: 34.308,
+            y2: 11.21,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsCheque32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscheque32)',
+        d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        'fill-rule': 'evenodd',
+        d: 'M5 7h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2zm23 2a1 1 0 00-1-1H5a1 1 0 00-1 1v14a1 1 0 001 1h22a1 1 0 001-1V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#84DBEB',
+        d: 'M24.5 14h-8.79l2-2h6.79a.5.5 0 000-1h-5.79l.64-.65a.495.495 0 00-.7-.7L17.29 11H7.5a.5.5 0 000 1h8.79l-2 2H7.5a.5.5 0 000 1h5.79l-.64.65a.48.48 0 000 .7.48.48 0 00.7 0L14.71 15h9.79a.5.5 0 000-1z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        d: 'M7 18.5a.5.5 0 01.5-.5h6a.5.5 0 01.5.5V22a.5.5 0 01-.5.5h-6A.5.5 0 017 22v-3.5z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#25A8D0',
+        d: 'M16.5 22.5h-.14a.5.5 0 01-.34-.62C16.43 20.42 17.3 18 18.5 18c.89 0 1.59 1.33 2.07 2.6C21.35 19 21.79 19 22 19c.21 0 .79 0 1.84 2.5H25a.5.5 0 010 1h-1.5a.49.49 0 01-.46-.31 11.442 11.442 0 00-1-2.07 11.442 11.442 0 00-1 2.07.48.48 0 01-.49.31.5.5 0 01-.45-.36c-.45-1.56-1.18-3.06-1.53-3.14-.33.08-1.06 1.58-1.51 3.14a.49.49 0 01-.56.36z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque32',
+            x1: 14.173,
+            x2: 30.011,
+            y1: 37.922,
+            y2: 14.797,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsGift32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M26.895 7.125H5.105a1.978 1.978 0 00-1.98 1.973v13.804a1.977 1.977 0 001.98 1.973h21.79a1.977 1.977 0 001.98-1.973V9.098a1.978 1.978 0 00-1.98-1.972z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EAF3E2',
+        d: 'M26.895 7.125H11v17.75h15.895a1.977 1.977 0 001.98-1.973V9.098a1.978 1.978 0 00-1.98-1.972z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        d: 'M11 25H5.125A2.128 2.128 0 013 22.875V9.125A2.128 2.128 0 015.125 7H11v.25H5.125c-1.036 0-1.875.84-1.875 1.875v13.75c0 1.035.84 1.875 1.875 1.875H11V25z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#CBE3B5',
+        d: 'M26.875 25H11v-.25h15.875c1.035 0 1.875-.84 1.875-1.875V9.125c0-1.036-.84-1.875-1.875-1.875H11V7h15.875A2.128 2.128 0 0129 9.125v13.75A2.128 2.128 0 0126.875 25z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        d: 'M7.665 8.78l2.19 2.19a.75.75 0 01-.533 1.28H4.946a.75.75 0 01-.53-1.28l2.19-2.19a.75.75 0 011.06 0z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        'fill-rule': 'evenodd',
+        d: 'M23.938 13.25h-.603a2.1 2.1 0 00-3.398-2.46 2.1 2.1 0 00-3.397 2.46h-.602a1 1 0 00-1 1V21a1 1 0 001 1h8a1 1 0 001-1v-6.75a1 1 0 00-1-1zm0 3.875h-3.5V14.25h3.5v2.875zm-2.338-6.13a1.1 1.1 0 00-1.1 1.1v1.1h1.1a1.1 1.1 0 000-2.2zM18.287 11c.608.001 1.1.495 1.1 1.102v1.1h-1.1a1.103 1.103 0 010-2.202zm1.15 6.125V14.25h-3.5v2.875h3.5zm-3.5 1h3.5V21h-3.5v-2.875zm4.5.008V21h3.5v-2.867h-3.5z',
+      },
+    },
+  ],
+}
+export const CardsColorsIllicado32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M2.667 8.667a2 2 0 012-2h22.666a2 2 0 012 2v14.666a2 2 0 01-2 2H4.667a2 2 0 01-2-2V8.667z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#111116',
+        d: 'M6.26 20.413h15.473a4.314 4.314 0 002.367-.68 4.269 4.269 0 001.987-2.9 4.407 4.407 0 00-4.334-5.233H10.587a4.407 4.407 0 00-4.274 3.3 4.32 4.32 0 00-.146 1.047v4.386c0 .08 0 .08.093.08z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M6.145 14.852a4.573 4.573 0 014.427-3.425v-.007h11.186a4.575 4.575 0 014.492 5.43 4.59 4.59 0 01-4.473 3.723H6.26a.255.255 0 01-.203-.06.227.227 0 01-.057-.166v-4.402a4.48 4.48 0 01.145-1.093zm15.613-3.259H10.572a4.407 4.407 0 00-4.405 4.354v4.386c0 .039-.002.058.007.069.01.011.034.011.086.011h15.522a4.424 4.424 0 004.31-3.586 4.407 4.407 0 00-4.334-5.234z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M15.54 17.1a.167.167 0 00-.227.04.485.485 0 00-.073.1.667.667 0 01-.513.333 1.11 1.11 0 01-.56-.04.657.657 0 01-.467-.573.803.803 0 01.687-.92.78.78 0 01.7.207l.166.14c.094.08.147.08.247 0a.183.183 0 00.06-.267.793.793 0 00-.153-.18 1.333 1.333 0 00-.707-.347 1.121 1.121 0 00-.54.054 1.351 1.351 0 00-.74.56 1.08 1.08 0 00-.18.666 1.04 1.04 0 00.08.414c.13.398.483.682.9.726.284.044.575.017.847-.08a.94.94 0 00.56-.473l.04-.093a.188.188 0 00-.054-.214l-.073-.053z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M12.5 14.26a.43.43 0 00-.533.42c0 .04 0 .073.013.107.013.033.012.045.018.068.083.213.32.322.535.245a.387.387 0 00.273-.5c-.046-.167-.053-.267-.306-.34zm-.113 1.353a.235.235 0 00-.274.154 1.322 1.322 0 00-.066.36c-.014.266 0 .533-.02.8-.02.266 0 .566 0 .853 0 .052.024.102.066.133a.405.405 0 00.287.087h.013a.166.166 0 00.167-.187 1.405 1.405 0 000-.166 8.507 8.507 0 010-1.167l.04-.613a.228.228 0 00-.213-.254z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#D35D91',
+        d: 'M9.887 13.647a.245.245 0 00-.334.166 1.55 1.55 0 00-.08.387c-.013.087-.02.167-.033.26a16.622 16.622 0 00-.08 1.68c0 .293.007.587.02.88 0 .04 0 .08.013.127.01.175.037.35.08.52.01.057.025.113.047.166.04.101.138.167.247.167.041.01.085.01.126 0h.01a.153.153 0 00.124-.178c-.02-.167-.04-.334-.054-.52-.013-.187-.033-.36-.04-.54-.026-.48-.04-.967-.02-1.447.014-.293.04-.587.074-.873.013-.154.026-.3.053-.447a.537.537 0 000-.147.18.18 0 00-.153-.201z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B9CD5C',
+        d: 'M8.667 15.82a.253.253 0 00-.167-.2.323.323 0 00-.307.08.178.178 0 00-.046.127c.013.306.026.613.033.913v1c0 .2.08.267.273.253H8.5c.127-.02.167-.073.18-.206.027-.56.02-1.127.02-1.694a1.14 1.14 0 00-.033-.273zm-.334-1.58a.475.475 0 00-.42.48c-.013.187.207.393.447.4a.413.413 0 00.42-.453.438.438 0 00-.447-.427z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#9779AB',
+        d: 'M11.293 14.3l.06-.48a.147.147 0 00-.106-.167.353.353 0 00-.274.014.205.205 0 00-.12.146 1.54 1.54 0 00-.08.354c-.055.393-.09.79-.106 1.186v1.307c.004.34.035.679.093 1.013.008.045.02.09.033.134.014.033.034.066.047.093.06.133.387.12.447.02a.264.264 0 00.04-.187c-.02-.153-.034-.22-.047-.453-.013-.233-.033-.467-.047-.7-.026-.427-.02-.86 0-1.293 0-.33.02-.66.06-.987z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M21.167 16.387c.006.166.013.333.033.5.027.2.061.398.095.595l.045.271a.12.12 0 010 .107.253.253 0 01-.3.1.193.193 0 01-.073-.073c-.027-.06-.047-.12-.067-.18-.013-.038-.007-.044-.007-.045l-.013-.002c-.015-.004-.063.038-.117.085-.04.035-.082.072-.116.095a1.07 1.07 0 01-.847.147.95.95 0 01-.7-.667c-.1-.283-.11-.591-.027-.88a.99.99 0 01.287-.52 1.263 1.263 0 011.047-.313.868.868 0 01.28.086v-.053c-.014-.573.013-1.16.046-1.74a.293.293 0 01.227-.273h.107c.113-.007.153.026.166.14a.98.98 0 01-.013.286c-.032.314-.047.624-.062.933l-.011.234a9.55 9.55 0 00.01.911l.01.256zm-.894 1.126a.62.62 0 00.46-.593c.02-.167.014-.335-.02-.5a1.135 1.135 0 00-.046-.127.425.425 0 00-.374-.26h-.1l-.213.027a.615.615 0 00-.473.4 1.21 1.21 0 00-.067.513.61.61 0 00.833.54zm2.767-1.933c.406.008.774.239.96.6.075.149.125.31.147.475.035.219.007.444-.082.647l-.025.051c-.22.428-.667.688-1.147.667a1.515 1.515 0 01-.246 0 1.195 1.195 0 01-.907-.86 1.462 1.462 0 01.02-.613c.07-.384.328-.706.687-.86.187-.079.39-.115.593-.107zm.373 1.867c.156-.1.26-.264.287-.447a1.087 1.087 0 00-.053-.527.667.667 0 00-.64-.466c-.132 0-.262.02-.387.06a.675.675 0 00-.467.52c-.033.147-.033.3 0 .446a.76.76 0 00.787.567.783.783 0 00.473-.153zm-4.9-.654c.024.301.071.6.14.894a.185.185 0 01-.126.246.197.197 0 01-.294-.106 1.236 1.236 0 01-.073-.167l-.147.1c-.3.212-.673.292-1.033.22a1.167 1.167 0 01-.867-.82 1.087 1.087 0 01-.026-.44c.037-.337.204-.645.466-.86a1.467 1.467 0 011.374-.167l.106.047c.045.03.102.03.147 0a.314.314 0 01.167-.047c.126 0 .166.047.166.167v.933zm-.586.547a.5.5 0 00.166-.407v-.1a1.33 1.33 0 00-.02-.333.478.478 0 00-.433-.447 1.064 1.064 0 00-.56.02.833.833 0 00-.553.974.631.631 0 00.166.313c.2.21.498.296.78.227.17-.044.325-.128.454-.247z',
+      },
+    },
+  ],
+}
+export const CardsColorsLoyalty32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsloyalty32)',
+        d: 'M3.125 9.125a2 2 0 012-2h21.75a2 2 0 012 2v13.75a2 2 0 01-2 2H5.125a2 2 0 01-2-2V9.125z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M5 7h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2zm23.75 2A1.75 1.75 0 0027 7.25H5A1.75 1.75 0 003.25 9v14c0 .966.784 1.75 1.75 1.75h22A1.75 1.75 0 0028.75 23V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        d: 'M9.682 20.558H22.1l-6.208-6.236-6.21 6.236z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M9.415 20.28l.96-.96-.322-.32-.606.605-1.092-1.1-.355.363 1.415 1.412zm.368-2.623l.242.243.495-.5.287.29-.5.5.31.31.618-.62.283.29-.973.972-1.408-1.412.973-.98.285.29-.612.617zm3.182-.939l-.965-.27a.6.6 0 00-.127-.698.577.577 0 00-.808.037l-.71.718 1.407 1.42.36-.36-1.142-1.152.23-.23a.256.256 0 01.36.362l-.21.21 1.223.35.382-.387z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M13.033 14.162a.957.957 0 00-.726.318.972.972 0 00.023 1.447 1.007 1.007 0 001.42-1.427.958.958 0 00-.717-.338zm-.325 1.378c-.268-.277-.348-.552-.126-.777.225-.223.493-.146.77.124.278.27.348.54.125.77-.222.23-.502.16-.77-.117z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M14.175 13.738l-.263-.803.413-.42.357 1.375.553.553-.362.36-.553-.553-1.31-.415.395-.4.758.295.012.008zm6.525 4.867l1.413-1.415-.383-.383-1.413 1.423.383.375zm-5.393-5.408l1.098-.524-.81.807.322.33 1.415-1.415-.447-.452-1.065.52.532-1.053-.46-.467-1.415 1.42.33.33.808-.816-.525 1.105.217.216zm2.446.198l-.238.245.54.545-.29.29-.538-.547-.31.31.658.657-.282.29-1.02-1.02 1.415-1.42L18.7 13.77l-.282.29-.665-.665zm1.334 3.597l.96.968.323-.323-.598-.605 1.09-1.097-.36-.355-1.415 1.412zm3.84 1.013l-.452 1.508.973-.98.334.334-1.412 1.42-.443-.447.39-1.545v-.008l-.967.976-.33-.33 1.415-1.42.492.492zM18.85 16.75l.277-.965a.61.61 0 00.69-.137.58.58 0 00-.04-.81l-.75-.75-1.42 1.412.355.363 1.146-1.153.274.29a.25.25 0 11-.332.375l-.027-.025-.25-.25-.296 1.27.373.38z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty32',
+            x1: 16.64,
+            x2: 32.423,
+            y1: 34.373,
+            y2: 11.205,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsMastercard32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsmastercard32)',
+        d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M10.658 20.793a.67.67 0 00-.16-.103.514.514 0 00-.203-.033h-.12l-.123.033a.46.46 0 00-.107.075.32.32 0 00-.093.107.46.46 0 00-.422-.222h-.102l-.1.027a.327.327 0 00-.093.06.388.388 0 00-.082.088v-.155h-.268v1.27h.268v-.69a.37.37 0 01.095-.247.25.25 0 01.1-.06.34.34 0 01.122-.02.27.27 0 01.213.08c.053.072.08.16.075.25v.704h.267v-.707c0-.047.007-.094.02-.14a.414.414 0 01.075-.107.25.25 0 01.1-.06.295.295 0 01.123-.02.27.27 0 01.207.08c.055.07.08.16.073.25v.704h.27v-.802a.616.616 0 00-.035-.203.662.662 0 00-.1-.16z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M11.905 20.705c.064.03.12.076.163.133v-.153h.274v1.268h-.274v-.155a.501.501 0 01-.398.19.683.683 0 01-.453-.19.7.7 0 01-.18-.475.67.67 0 01.048-.27.834.834 0 01.132-.216.911.911 0 01.203-.132.598.598 0 01.25-.047.499.499 0 01.235.047zm.083.905a.479.479 0 00.08-.127h-.008a.691.691 0 00.035-.16.598.598 0 00-.027-.163.38.38 0 00-.08-.128.345.345 0 00-.12-.087.419.419 0 00-.155-.032.46.46 0 00-.163.032.368.368 0 00-.195.215.452.452 0 00-.025.163.411.411 0 00.1.282.31.31 0 00.12.085.377.377 0 00.317 0 .347.347 0 00.12-.08z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M13.61 21.315a.65.65 0 00-.322-.12l-.128-.02-.088-.015-.06-.02-.047-.04a.08.08 0 01-.02-.053.128.128 0 01.067-.107.307.307 0 01.175-.048l.116.013.112.027.095.033.068.043.12-.215a.625.625 0 00-.228-.103 1.076 1.076 0 00-.283-.033.6.6 0 00-.383.108.356.356 0 00-.107.128.426.426 0 00-.032.167.302.302 0 00.108.25.645.645 0 00.32.123l.127.02a.37.37 0 01.17.047.11.11 0 01.053.093.123.123 0 01-.073.107.382.382 0 01-.215.047h-.143l-.107-.027-.092-.04-.075-.055-.128.207a.706.706 0 00.143.088l.147.047.14.028h.115a.864.864 0 00.25-.027.443.443 0 00.183-.088.394.394 0 00.112-.127.354.354 0 00.035-.168.293.293 0 00-.125-.27z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M16.008 20.705a.475.475 0 01.187.133.63.63 0 01.1.21c.033.085.05.176.047.267v.055a.178.178 0 000 .052h-.932a.335.335 0 00.135.243.326.326 0 00.113.06.452.452 0 00.317-.02.5.5 0 00.173-.095l.142.195a.726.726 0 01-.25.14.916.916 0 01-.275.043.836.836 0 01-.25-.048.735.735 0 01-.203-.135.665.665 0 01-.18-.482.73.73 0 01.046-.276.622.622 0 01.127-.21.477.477 0 01.203-.132.591.591 0 01.25-.047.582.582 0 01.25.047zm-.553.383a.657.657 0 00-.033.12h.65a.438.438 0 00-.107-.228.285.285 0 00-.215-.08.341.341 0 00-.125.02.366.366 0 00-.095.067.27.27 0 00-.075.1zm4.235-.383a.547.547 0 01.17.133v-.153h.275v1.268h-.275v-.155a.45.45 0 01-.17.135.478.478 0 01-.228.055.605.605 0 01-.25-.055.526.526 0 01-.202-.136.48.48 0 01-.133-.215.665.665 0 010-.53.585.585 0 01.133-.215.605.605 0 01.202-.132.56.56 0 01.25-.047.472.472 0 01.228.047zm.082.905a.458.458 0 00.073-.45.36.36 0 00-.072-.128.333.333 0 00-.123-.087.435.435 0 00-.16-.032.378.378 0 00-.275.12.33.33 0 00-.075.127.452.452 0 00-.025.163.411.411 0 00.1.282.293.293 0 00.12.085.377.377 0 00.315 0 .358.358 0 00.123-.08z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M14.793 21.698a.285.285 0 01-.128.027l-.082-.015a.095.095 0 01-.06-.04.25.25 0 01-.046-.073.399.399 0 01-.014-.107v-.55h.442v-.25h-.442v-.388h-.275v.383h-.25v.25h.25v.565c-.01.133.03.264.114.367a.46.46 0 00.335.123.533.533 0 00.215-.042.515.515 0 00.12-.053l-.092-.235a.212.212 0 01-.088.038zm2.489-1.041a.551.551 0 00-.21.04.432.432 0 00-.152.155v-.167h-.25v1.268h.25v-.703A.378.378 0 0117 21a.18.18 0 01.093-.067.295.295 0 01.122-.02h.105l.055.02.08-.27-.067-.013-.106.008zm3.833 0a.551.551 0 00-.21.04.413.413 0 00-.152.155v-.167H20.5v1.268h.25v-.703a.298.298 0 01.025-.14.223.223 0 01.063-.107.18.18 0 01.092-.068.29.29 0 01.12-.02h.107l.055.02.08-.27-.067-.012-.11.005z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M22.402 20.837v-.662h.268v1.79h-.275v-.155a.382.382 0 01-.16.135A.515.515 0 0122 22a.66.66 0 01-.242-.067.643.643 0 01-.2-.136.685.685 0 01-.183-.474.716.716 0 01.047-.27.776.776 0 01.136-.216.897.897 0 01.2-.132.618.618 0 01.25-.047.455.455 0 01.395.18zm-.08.773a.479.479 0 00.08-.127h-.007a.578.578 0 00.035-.16.53.53 0 00-.027-.163.38.38 0 00-.08-.128.325.325 0 00-.12-.087.419.419 0 00-.155-.032.378.378 0 00-.283.12.54.54 0 00-.073.127.598.598 0 00-.027.163c.002.052.01.104.027.154a.54.54 0 00.073.128.303.303 0 00.122.085.377.377 0 00.315 0 .347.347 0 00.12-.08z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M17.945 21.027a.409.409 0 01.45-.082.25.25 0 01.135.082l.135-.222a.747.747 0 00-.168-.1.716.716 0 00-.27-.047.75.75 0 00-.274.047.648.648 0 00-.355.348.665.665 0 000 .53.633.633 0 00.355.35c.087.034.18.052.274.055a.765.765 0 00.44-.15l-.135-.22a.388.388 0 01-.134.08.732.732 0 01-.168.027.58.58 0 01-.16-.027.38.38 0 01-.122-.088.386.386 0 01-.113-.287.422.422 0 01.027-.168.318.318 0 01.083-.128z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#FF5F00',
+        d: 'M13.672 11.015h4.155v7.468h-4.155v-7.468z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EB001B',
+        d: 'M13.935 14.75a4.768 4.768 0 011.815-3.735 4.75 4.75 0 100 7.47 4.75 4.75 0 01-1.815-3.735z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#F79E1B',
+        d: 'M23.435 14.75a4.75 4.75 0 01-7.685 3.735 4.763 4.763 0 000-7.47 4.75 4.75 0 017.685 3.735z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard32',
+            x1: 29.564,
+            x2: 29.564,
+            y1: 26.254,
+            y2: 8.252,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsOney32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M18.763 13.872a7.406 7.406 0 01-.126-.014l-.062.007H18.5a2.133 2.133 0 00-1.07.313 2.25 2.25 0 00-.968 2.37 2.227 2.227 0 004.058.75c.02-.033.039-.067.057-.103l.05-.09h-.852a.075.075 0 00-.057.027 1.484 1.484 0 01-1.046.45 1.405 1.405 0 01-1.422-1.132.071.071 0 010-.032h3.5a2.83 2.83 0 000-.728 2.192 2.192 0 00-1.695-1.777 3.2 3.2 0 00-.292-.041zm1.154 1.825H17.28a1.363 1.363 0 011.407-1.067c.578.03 1.23.567 1.23 1.067zM9.49 13.87l-.082-.012h-.325l-.133.02a2.21 2.21 0 00-1.938 1.992.356.356 0 01-.012.055v.352a.13.13 0 01.013.068c.03.193.077.384.137.57a2.145 2.145 0 002.02 1.435 2.11 2.11 0 001.777-.775 2.25 2.25 0 00-1.21-3.662c-.082-.017-.165-.03-.247-.043zm1.168 1.925c.02.103.04.208.04.313a1.485 1.485 0 01-1.243 1.467 1.448 1.448 0 01-1.615-1.092 1.48 1.48 0 011.123-1.828 1.448 1.448 0 011.695 1.14z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M21.793 19.642l.637-1.56a.125.125 0 000-.085l-1.732-4.134h.9v.032l1.25 3.06.02.04a.746.746 0 00.032-.073l1.25-3.06H25c0 .023 0 .048-.02.073l-1.688 4.107a352.86 352.86 0 01-.657 1.6h-.843zm-7.643-5.785c.112.02.227.03.338.058.69.13 1.242.652 1.41 1.335.044.185.065.375.062.565v2.535h-.81v-2.447c0-.176-.02-.351-.058-.523a.93.93 0 00-.75-.735 1.75 1.75 0 00-.75 0 .965.965 0 00-.795.84c-.022.144-.032.29-.032.435v2.432h-.808a.196.196 0 010-.037v-2.598a1.75 1.75 0 01.62-1.37 1.97 1.97 0 011.118-.467l.075-.015.38-.008z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX332 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M25.427 16.001a9.426 9.426 0 11-18.852 0 9.426 9.426 0 0118.852 0zm-12.003 2.88a2.641 2.641 0 01-1.545-.424 2.032 2.032 0 01-.814-1.144l1.277-.374c.07.217.211.405.4.533.207.131.449.198.694.191a.95.95 0 00.61-.2.677.677 0 00.249-.559.632.632 0 00-.268-.548 1.153 1.153 0 00-.687-.194h-.7v-1.106h.675c.228.014.454-.046.645-.171a.657.657 0 00.223-.56.588.588 0 00-.22-.497.823.823 0 00-.54-.178.848.848 0 00-.857.667l-1.33-.377a1.86 1.86 0 01.248-.558 2.001 2.001 0 011.099-.824 2.81 2.81 0 01.86-.127 2.528 2.528 0 011.571.46c.394.287.62.752.603 1.24.01.291-.065.579-.216.828a1.213 1.213 0 01-.61.496c.273.096.507.278.667.519.184.28.275.612.26.948a1.77 1.77 0 01-.635 1.416 2.48 2.48 0 01-1.66.543zm7.739-4.916l-1.67 2.334 1.645 2.463h-1.623l-.863-1.272-.776 1.277h-1.56l1.594-2.384-1.595-2.418h1.635l.821 1.252.829-1.252h1.563z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX432 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M25.427 16.001a9.426 9.426 0 11-18.852 0 9.426 9.426 0 0118.852 0zm-10.222 2.874H13.84V17.52h-2.775v-1.15l1.606-3.945h1.513l-1.56 3.861h1.216v-1.392h1.365v1.392h.686v1.234h-.686v1.355zm5.958-4.91l-1.67 2.334 1.645 2.463h-1.623l-.863-1.272-.776 1.277h-1.56l1.595-2.384-1.596-2.418h1.635l.821 1.252.829-1.252h1.563z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaylib32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#16D6FF',
+        d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M7 14.1h.643v.213h.025c.206-.147.45-.233.702-.25.242-.026.487-.013.725.037a1 1 0 01.75.818c.078.355.1.72.067 1.082-.005.21-.034.419-.085.622-.093.436-.46.76-.905.798-.277.037-.552.032-.835.045V16.8h.276a3.5 3.5 0 00.36-.033.393.393 0 00.34-.314 1.6 1.6 0 00.064-.36c.026-.307.02-.615-.02-.92a1.342 1.342 0 00-.037-.168.412.412 0 00-.32-.288 1.335 1.335 0 00-.58 0 .463.463 0 00-.36.463c0 .078-.012.155-.012.232V18.6h-.72c-.058 0-.07-.013-.07-.065v-.32L7 14.1z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M21.125 12.023h-.04a3.985 3.985 0 00-2.25.642.155.155 0 00-.082.155v3.607l-.002.062c0 .038-.002.075.002.143.005.103.044.143.147.143h.423v.68a3.777 3.777 0 01-.823-.037.62.62 0 01-.525-.54 2.033 2.033 0 01-.027-.348v-3.075h-.026a4.015 4.015 0 00-.712 3.75c.41 1.285 1.305 2.128 2.59 2.585v-4.5h.825v4.668a3.922 3.922 0 003.575-1.595 3.84 3.84 0 00.348-4.168 3.892 3.892 0 00-2.638-2.082v4.044c-.004.065-.004.13 0 .195.02.263.117.405.367.436.15.02.301.02.45 0a.458.458 0 00.48-.438c.07-.388.075-.785.015-1.175a.463.463 0 00-.482-.425h-.527v-.64h.024l.246.003c.184.001.366.002.54.024.478.026.874.382.95.855.11.506.11 1.03 0 1.535-.073.422-.388.76-.803.863a2.663 2.663 0 01-1.33 0 .858.858 0 01-.657-.655 2.214 2.214 0 01-.058-.5v-4.212zM20.062 15a.395.395 0 01-.312-.45.395.395 0 01.407-.438c.062-.005.124-.005.186 0a.397.397 0 01.33.373v.148a.375.375 0 01-.36.367.851.851 0 01-.25 0z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M13.582 14.105h.785v2.155a1.9 1.9 0 00.02.25.285.285 0 00.205.232c.237.078.492.078.728 0a.307.307 0 00.225-.294c0-.078.012-.148.012-.226V14.1h.766v3.648a1.771 1.771 0 01-.04.36.573.573 0 01-.468.462c-.274.035-.55.048-.825.038v-.65h.425a.13.13 0 00.13-.12v-.428l-.545.04a2 2 0 01-.78-.102.908.908 0 01-.625-.848v-2.315l-.013-.08z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M13.152 17.45V14.1H12.5v.225a1.183 1.183 0 00-.48-.23 2.436 2.436 0 00-.688-.038 1.03 1.03 0 00-1.027.888 4.09 4.09 0 00-.057 1.105c.004.168.025.336.062.5a1 1 0 00.707.815 1.91 1.91 0 001.075.027c.097-.029.192-.066.283-.11v.168h.777zm-.777-1.2a.5.5 0 01-.482.545c-.15.015-.302.01-.45-.015a.397.397 0 01-.348-.3 1.475 1.475 0 01-.065-.375c0-.148.005-.297.01-.446.005-.15.01-.299.01-.447a2.3 2.3 0 01.037-.18.44.44 0 01.405-.34 2.58 2.58 0 01.465 0 .455.455 0 01.418.5v1.058z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaypal32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorspaypal32)',
+        d: 'M3.125 9.125a2 2 0 012-2h21.75a2 2 0 012 2v13.75a2 2 0 01-2 2H5.125a2 2 0 01-2-2V9.125z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M5 7h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2zm23.75 2A1.75 1.75 0 0027 7.25H5A1.75 1.75 0 003.25 9v14c0 .966.784 1.75 1.75 1.75h22A1.75 1.75 0 0028.75 23V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M17.138 19h.932a.86.86 0 01.68.23.727.727 0 01.128.61c-.093.587-.448.885-1.063.885h-.295a.13.13 0 00-.125.11l-.107.677a.092.092 0 01-.09.078h-.5a.08.08 0 01-.065-.09l.377-2.39a.13.13 0 01.128-.11zm.487 1.21c.247 0 .502 0 .552-.335v-.01a.292.292 0 00-.045-.25c-.082-.095-.242-.095-.41-.095h-.062a.08.08 0 00-.078.063l-.1.627h.143z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        'fill-rule': 'evenodd',
+        d: 'M10.483 19h.932a.86.86 0 01.68.238.72.72 0 01.12.602c-.092.588-.447.885-1.062.885h-.295a.127.127 0 00-.125.11l-.108.645a.128.128 0 01-.125.11h-.46a.078.078 0 01-.062-.09l.377-2.39a.13.13 0 01.128-.11zm.485 1.21c.248 0 .505 0 .555-.335l-.002-.03a.3.3 0 00-.048-.25c-.082-.095-.24-.095-.41-.095h-.062a.075.075 0 00-.073.082l-.1.628h.14zm2.782-.357h.455l.02.005c.042.007.07.047.062.09l-.25 1.53a.13.13 0 01-.127.11h-.413a.078.078 0 01-.067-.09l.02-.125a.853.853 0 01-.618.25.697.697 0 01-.562-.228.845.845 0 01-.168-.685 1.03 1.03 0 011-.9.635.635 0 01.528.19l.022.043.02-.125a.08.08 0 01.078-.065zm-.668 1.297a.5.5 0 00.5-.427h-.005a.358.358 0 00-.375-.438.5.5 0 00-.5.558.345.345 0 00.38.307z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M20.412 19.853h.448l.01.002c.042.008.07.048.062.09l-.25 1.53a.13.13 0 01-.125.11h-.415a.075.075 0 01-.065-.09l.02-.125a.853.853 0 01-.617.25.697.697 0 01-.563-.227.843.843 0 01-.167-.685 1.03 1.03 0 011-.9.635.635 0 01.535.192l.032.043.02-.125a.075.075 0 01.075-.065zm-.662 1.297a.5.5 0 00.5-.427.358.358 0 00-.37-.44.5.5 0 00-.5.43.348.348 0 00.37.437z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M16.585 19.853h-.45a.135.135 0 00-.107.057l-.622.913-.25-.878a.13.13 0 00-.126-.092h-.454a.077.077 0 00-.078.08.07.07 0 000 .022l.5 1.455-.465.655a.077.077 0 00.02.108.07.07 0 00.045.015h.447c.043 0 .083-.02.108-.055l1.5-2.155a.078.078 0 00-.02-.11.068.068 0 00-.047-.015z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        d: 'M21.387 19.055L21 21.5a.08.08 0 00.065.09h.4a.127.127 0 00.125-.11l.38-2.392a.077.077 0 00-.065-.088h-.438a.08.08 0 00-.08.055zm-2.445-6.772c0 .047-.015.095-.025.145-.327 1.685-1.45 2.265-2.882 2.265h-.73a.355.355 0 00-.35.307l-.373 2.368-.107.672a.187.187 0 00.185.215h1.295a.313.313 0 00.307-.25v-.065l.25-1.547.015-.085a.313.313 0 01.308-.25h.195c1.25 0 2.235-.5 2.522-1.983.118-.615.058-1.127-.25-1.5a1.25 1.25 0 00-.36-.292z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#222D65',
+        d: 'M18.6 12.145l-.155-.04-.165-.03a3.949 3.949 0 00-.642-.047H15.69a.312.312 0 00-.308.262l-.414 2.628v.077a.355.355 0 01.35-.302h.73c1.432 0 2.555-.58 2.882-2.265 0-.05.018-.098.025-.146a1.452 1.452 0 00-.27-.112l-.085-.025z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M15.383 12.29c.015-.1.08-.187.172-.23a.302.302 0 01.135-.033h1.948c.215-.001.43.015.642.048l.165.03.155.04.072.025c.094.03.184.067.27.113.098-.623 0-1.045-.337-1.43-.338-.386-1.04-.603-1.895-.603h-2.5a.358.358 0 00-.353.3l-1.022 6.565a.215.215 0 00.21.25h1.537l.8-5.075z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal32',
+            x1: 17.153,
+            x2: 32.936,
+            y1: 34.373,
+            y2: 11.205,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsVisa32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M3 9a2 2 0 012-2h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M5 7h22a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2zm23.75 2A1.75 1.75 0 0027 7.25H5A1.75 1.75 0 003.25 9v14c0 .966.784 1.75 1.75 1.75h22A1.75 1.75 0 0028.75 23V9z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M27 7H5a2 2 0 00-2 2v2h26V9a2 2 0 00-2-2z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: { fill: '#F7B601', d: 'M3 21v2a2 2 0 002 2h22a2 2 0 002-2v-2H3z' },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M12.838 18.68l.915-5.348h1.457l-.913 5.348h-1.46zm6.744-5.213a3.685 3.685 0 00-1.305-.225c-1.44 0-2.455.725-2.462 1.75 0 .773.728 1.198 1.28 1.456.553.257.75.43.75.66 0 .36-.45.527-.875.527a3.043 3.043 0 01-1.37-.283l-.185-.082-.207 1.195a4.652 4.652 0 001.63.285c1.53 0 2.52-.712 2.532-1.825 0-.61-.38-1.075-1.223-1.453-.5-.25-.822-.412-.814-.662.007-.25.25-.463.83-.463.374-.01.746.06 1.092.206l.128.064.2-1.157',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        'fill-rule': 'evenodd',
+        d: 'M22.192 13.338h1.13v-.005l1.178 5.342h-1.35s-.135-.613-.18-.797h-1.865l-.308.802h-1.53l2.175-4.897a.722.722 0 01.75-.445zm-.09 1.94l-.58 1.5 1.21-.01-.334-1.543-.103-.463c-.07.2-.193.528-.193.515z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M10.19 16.983l1.428-3.646v-.017h1.542l-2.287 5.337H9.327l-1.29-4.624a6.109 6.109 0 00-1.537-.585l.02-.116h2.345c.322.013.572.115.662.455l.51 2.43.005.016.148.75z',
+      },
+    },
+  ],
+}
+export const ColorsRelayLocation32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'g',
+      attrs: { 'fill-rule': 'evenodd' },
+      children: [
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#006902',
+            d: 'M16 3c-5.918.011-10.71 4.812-10.71 10.73 0 5 7.64 12.88 10 15.2a1 1 0 001.4 0c2.37-2.32 10-10.19 10-15.2C26.69 7.82 21.91 3.022 16 3z',
+          },
+        },
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#fff',
+            d: 'M16 6.76l4.72 2.83-1.8 1.08-4.72-2.85L16 6.76zm-.52 12.3l-4.71-2.83v-5.69l4.67 2.81.04 5.71zm-4.2-9.47l1.89-1.14 4.74 2.85L16 12.43l-4.72-2.84zm10 6.64l-4.71 2.83v-5.69l4.67-2.81.04 5.67z',
+          },
+        },
+      ],
+    },
+  ],
+}
+export const ColorsStoreLocation32 = {
+  viewBox: '0 0 32 32',
+  size: '2rem',
+  paths: [
+    {
+      tagName: 'g',
+      attrs: { 'fill-rule': 'evenodd' },
+      children: [
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#006902',
+            d: 'M16 3c-5.918.011-10.71 4.812-10.71 10.73 0 5 7.64 12.88 10 15.2a1 1 0 001.4 0c2.37-2.32 10-10.19 10-15.2C26.69 7.82 21.91 3.022 16 3z',
+          },
+        },
+        {
+          tagName: 'path',
+          attrs: {
+            fill: '#fff',
+            d: 'M20.47 14.74h-8.92a.72.72 0 01-.55-1.23l.94-.95 3.51-3.51a.72.72 0 011 0l1.34 1.34L20 12.56l.95.95a.72.72 0 01-.48 1.23z',
+          },
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsAmericanExpress48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006FCF',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M26 33.563V26h-.003v-1.4h-3.594l4.459-10.09h4.3l1.535 3.457V14.51h5.322l.925 2.605.93-2.605H44v1.122h-3.291l-1.758 4.88-1.746-4.88h-3.347v7.836l-3.459-7.836h-2.754l-3.459 7.836h2.351l.65-1.567h3.604l.66 1.567h4.523v-5.485l2.015 5.485h1.88l2.015-5.496v5.496H44v1.137h-2.764l-2.295 2.508-2.273-2.508h-2.81l3.695 3.918-3.694 3.918h2.731l2.306-2.53 2.295 2.53H44v1.122h-3.378l-1.74-1.923-1.747 1.923H26zm1.187-1.122v-7.836h6.672v1.814h-4.534v1.22h4.422v1.768h-4.422v1.22h4.534v1.814h-6.672z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M44 30.793v1.648l-3.716-3.94L44 24.605v1.629l-2.152 2.27L44 30.794zm-13.948-10.65L28.99 17.58l-1.064 2.563h2.127z',
+      },
+    },
+  ],
+}
+export const CardsColorsCB48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscb48)',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M17.78 23.53h6.81c-.06-1.34-.41-2.73-1.45-3.62-1.23-1.06-3.4-1.45-5.34-1.45s-4.25.43-5.5 1.57C11.23 21 11 22.58 11 24c0 1.42.45 3.21 1.62 4.21 1.17 1 3.25 1.33 5.18 1.33 1.93 0 3.92-.31 5.15-1.32 1.23-1.01 1.65-2.69 1.65-4.22h-6.82v-.47zm7.26.47v5.3h9.46a2.62 2.62 0 002.5-2.62A2.69 2.69 0 0034.5 24h-9.46zm11.79-2.9a2.413 2.413 0 00-2.4-2.42h-.03a2.805 2.805 0 00-.29 0h-9.07v4.85h9.55a2.45 2.45 0 002.24-2.43z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb48',
+            x1: 23.857,
+            x2: 49.339,
+            y1: 48.873,
+            y2: 12.691,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsCheque48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscheque48)',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        'fill-rule': 'evenodd',
+        d: 'M6 10h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12a2 2 0 012-2zm37 2a1 1 0 00-1-1H6a1 1 0 00-1 1v24a1 1 0 001 1h36a1 1 0 001-1V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#84DBEB',
+        d: 'M37 20H24.41l2-2H37a1 1 0 100-2h-8.59l.8-.79a1.004 1.004 0 00-1.42-1.42L25.59 16H11a1 1 0 100 2h12.59l-2 2H11a1 1 0 100 2h8.59l-.8.79a1 1 0 000 1.42 1 1 0 001.42 0l2.2-2.21H37a1 1 0 100-2z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        d: 'M10 28a1 1 0 011-1h10a1 1 0 011 1v5a1 1 0 01-1 1H11a1 1 0 01-1-1v-5z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#25A8D0',
+        d: 'M25 34a1 1 0 01-.93-1.37C26.32 27 27.5 27 28 27s1.38 0 3.09 3.67C32.57 28 33 28 33.5 28c.5 0 1.07 0 3.12 4H38a1 1 0 110 2h-2a1 1 0 01-.89-.55c-.51-1-1.15-2.19-1.61-2.92-.46.73-1.1 1.9-1.61 2.92A1 1 0 0131 34a1 1 0 01-.89-.63A23 23 0 0028 29.25a23 23 0 00-2.07 4.12A1 1 0 0125 34z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque48',
+            x1: 21.32,
+            x2: 46.808,
+            y1: 59.637,
+            y2: 23.453,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsGift48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M4.125 12.125a2 2 0 012-2h35.75a2 2 0 012 2v23.75a2 2 0 01-2 2H6.125a2 2 0 01-2-2v-23.75z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EAF3E2',
+        d: 'M42 10H16v28h26a2 2 0 002-2V12a2 2 0 00-2-2z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        d: 'M16 37.975H6.125A2.128 2.128 0 014 35.85V12.1a2.128 2.128 0 012.125-2.125H16v.25H6.125A1.877 1.877 0 004.25 12.1v23.75c0 1.035.84 1.875 1.875 1.875H16v.25z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#CBE3B5',
+        d: 'M41.875 37.975H16v-.25h25.875c1.035 0 1.875-.84 1.875-1.875V12.1a1.877 1.877 0 00-1.875-1.875H16v-.25h25.875A2.128 2.128 0 0144 12.1v23.75a2.128 2.128 0 01-2.125 2.125z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        d: 'M10.92 12.5l3.58 3.585a1 1 0 01-.707 1.707H6.628a1 1 0 01-.708-1.707L9.5 12.5a1 1 0 011.42 0z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EAF3E2',
+        d: 'M41.75 10.225H16v27.5h25.75a2 2 0 002.013-1.962V12.19a2 2 0 00-2.013-1.965z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        'fill-rule': 'evenodd',
+        d: 'M36.375 19.475H35.5a3.5 3.5 0 00-5.625-4.16 3.5 3.5 0 00-5.625 4.16h-.875a1.5 1.5 0 00-1.5 1.5v11a1.5 1.5 0 001.5 1.5h13a1.5 1.5 0 001.5-1.5v-11a1.5 1.5 0 00-1.5-1.5zm0 6.25h-5.75v-4.75h5.75v4.75zm-1.75-8.25a2 2 0 10-4 0v2h2a2 2 0 002-2zm-9.5 0a2 2 0 114 0v2h-2a2 2 0 01-2-2zm4 3.5h-5.75v4.75h5.75v-4.75zm-5.75 6.25h5.75v4.75h-5.75v-4.75zm7.25 0v4.75h5.75v-4.75h-5.75z',
+      },
+    },
+  ],
+}
+export const CardsColorsIllicado48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#111116',
+        d: 'M9.39 30.62H32.6a6.47 6.47 0 003.55-1.02 6.403 6.403 0 002.98-4.35 6.61 6.61 0 00-6.5-7.85H15.88a6.61 6.61 0 00-6.41 4.95 6.48 6.48 0 00-.22 1.57v6.58c0 .12 0 .12.14.12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M9.217 22.277a6.86 6.86 0 016.64-5.137v-.01h16.78a6.863 6.863 0 016.738 8.145 6.885 6.885 0 01-6.71 5.585H9.39a.383.383 0 01-.305-.09.34.34 0 01-.085-.25v-6.602a6.728 6.728 0 01.217-1.64zm23.42-4.887h-16.78a6.61 6.61 0 00-6.607 6.53v6.58c0 .057-.002.087.012.103.015.017.05.017.128.017h23.282a6.635 6.635 0 006.466-5.38 6.61 6.61 0 00-6.5-7.85z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M23.31 25.65a.25.25 0 00-.34.06.726.726 0 00-.11.15 1 1 0 01-.77.5 1.67 1.67 0 01-.84-.06.985.985 0 01-.7-.86 1.205 1.205 0 011.03-1.38c.38-.077.773.04 1.05.31l.25.21c.14.12.22.12.37 0a.275.275 0 00.09-.4 1.186 1.186 0 00-.23-.27 2 2 0 00-1.06-.52 1.685 1.685 0 00-.81.08c-.457.14-.85.438-1.11.84a1.62 1.62 0 00-.27 1 1.55 1.55 0 00.12.62 1.598 1.598 0 001.35 1.09 2.61 2.61 0 001.27-.12 1.41 1.41 0 00.84-.71l.06-.14a.283.283 0 00-.08-.32l-.11-.08z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M18.75 21.39a.645.645 0 00-.8.63c0 .06 0 .11.02.16s.018.067.027.102c.124.32.48.483.803.368a.58.58 0 00.41-.75c-.07-.25-.08-.4-.46-.51zm-.17 2.03a.352.352 0 00-.41.23 1.983 1.983 0 00-.1.54c-.02.4 0 .8-.03 1.2-.03.4 0 .85 0 1.28a.25.25 0 00.1.2.607.607 0 00.43.13h.02a.25.25 0 00.25-.28 2.085 2.085 0 000-.25c-.04-.583-.04-1.167 0-1.75l.06-.92a.343.343 0 00-.32-.38z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#D35D91',
+        d: 'M14.83 20.47a.367.367 0 00-.5.25 2.305 2.305 0 00-.12.58c-.02.13-.03.25-.05.39a24.947 24.947 0 00-.12 2.52c0 .44.01.88.03 1.32 0 .06 0 .12.02.19.015.263.055.524.12.78.014.086.037.17.07.25.06.151.207.25.37.25a.407.407 0 00.19 0h.015a.23.23 0 00.185-.267c-.03-.25-.06-.5-.08-.78-.02-.28-.05-.54-.06-.81-.04-.72-.06-1.45-.03-2.17.02-.44.06-.88.11-1.31.02-.23.04-.45.08-.67a.81.81 0 000-.22.27.27 0 00-.23-.303z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B9CD5C',
+        d: 'M13 23.73a.38.38 0 00-.25-.3.485.485 0 00-.46.12.267.267 0 00-.07.19c.02.46.04.92.05 1.37v1.5c0 .3.12.4.41.38h.07c.19-.03.25-.11.27-.31.04-.84.03-1.69.03-2.54 0-.138-.017-.276-.05-.41zm-.5-2.37a.712.712 0 00-.63.72c-.02.28.31.59.67.6a.62.62 0 00.63-.68.658.658 0 00-.67-.64z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#9779AB',
+        d: 'M16.94 21.45l.09-.72a.22.22 0 00-.16-.25.53.53 0 00-.41.02.308.308 0 00-.18.22 2.31 2.31 0 00-.12.53c-.083.59-.137 1.184-.16 1.78v1.96c.007.51.053 1.018.14 1.52.013.068.03.134.05.2.02.05.05.1.07.14.09.2.58.18.67.03a.395.395 0 00.06-.28c-.03-.23-.05-.33-.07-.68-.02-.35-.05-.7-.07-1.05-.04-.64-.03-1.29 0-1.94 0-.495.03-.989.09-1.48z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M31.75 24.58c.01.25.02.5.05.75.041.301.091.598.142.893l.068.407a.18.18 0 010 .16.38.38 0 01-.45.15.29.29 0 01-.11-.11c-.04-.09-.07-.18-.1-.27-.019-.057-.01-.066-.01-.067l-.02-.003c-.023-.006-.095.057-.175.127-.06.053-.124.109-.175.143a1.605 1.605 0 01-1.27.22 1.425 1.425 0 01-1.05-1 2.165 2.165 0 01-.04-1.32c.06-.298.21-.57.43-.78a1.895 1.895 0 011.57-.47c.146.02.288.063.42.13v-.08c-.02-.86.02-1.74.07-2.61a.44.44 0 01.34-.41h.16c.17-.01.23.04.25.21a1.55 1.55 0 01-.02.43c-.048.47-.07.935-.093 1.399a14.668 14.668 0 00-.003 1.718c.006.128.012.256.016.383zm-1.34 1.69a.93.93 0 00.69-.89c.03-.25.02-.503-.03-.75a1.736 1.736 0 00-.07-.19.637.637 0 00-.56-.39h-.15l-.32.04a.922.922 0 00-.71.6c-.088.247-.122.51-.1.77a.915.915 0 001.25.81zm4.15-2.9a1.658 1.658 0 011.44.9c.113.223.188.464.22.713.053.328.01.665-.123.97l-.037.077c-.329.64-1 1.031-1.72 1-.123.01-.247.01-.37 0a1.792 1.792 0 01-1.36-1.29 2.196 2.196 0 01.03-.92 1.75 1.75 0 011.03-1.29 2.09 2.09 0 01.89-.16zm.56 2.8a.962.962 0 00.43-.67 1.63 1.63 0 00-.08-.79 1 1 0 00-.96-.7 1.9 1.9 0 00-.58.09c-.36.11-.63.41-.7.78-.05.22-.05.45 0 .67.138.53.634.887 1.18.85a1.17 1.17 0 00.71-.23zm-7.35-.98c.036.451.106.9.21 1.34a.277.277 0 01-.19.37.295.295 0 01-.44-.16 1.854 1.854 0 01-.11-.25l-.22.15a2 2 0 01-1.55.33 1.75 1.75 0 01-1.3-1.23 1.633 1.633 0 01-.04-.66c.056-.505.307-.968.7-1.29a2.2 2.2 0 012.06-.25l.16.07a.2.2 0 00.22 0 .473.473 0 01.25-.07c.19 0 .25.07.25.25v1.4zm-.88.82a.75.75 0 00.25-.61v-.15a2 2 0 00-.03-.5.718.718 0 00-.65-.67 1.597 1.597 0 00-.84.03c-.611.2-.97.832-.83 1.46a.95.95 0 00.25.47c.3.315.747.445 1.17.34.254-.065.488-.192.68-.37z',
+      },
+    },
+  ],
+}
+export const CardsColorsLoyalty48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsloyalty48)',
+        d: 'M4.125 12.125a2 2 0 012-2h35.75a2 2 0 012 2v23.75a2 2 0 01-2 2H6.125a2 2 0 01-2-2v-23.75z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M6 10h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12a2 2 0 012-2zm37.75 2A1.75 1.75 0 0042 10.25H6A1.75 1.75 0 004.25 12v24c0 .967.784 1.75 1.75 1.75h36A1.75 1.75 0 0043.75 36V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: { fill: '#78BE20', d: 'M14.56 30.81h18.88L24 21.33l-9.44 9.48z' },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M14.15 30.39l1.46-1.46-.49-.49-.92.92-1.66-1.67-.54.55 2.15 2.15zm.56-3.99l.37.37.75-.76.44.44-.76.76.47.47.94-.94.43.44-1.48 1.48-2.14-2.15 1.48-1.49.43.44-.93.94zm4.84-1.43l-1.46-.41a.92.92 0 00-.2-1.05.883.883 0 00-1.23.06l-1.08 1.09 2.14 2.16.55-.55-1.75-1.75.35-.35a.39.39 0 11.55.55l-.32.32 1.86.53.59-.6z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M19.647 21.094a1.455 1.455 0 00-1.097.476 1.568 1.568 0 002.21 2.22c.67-.67.59-1.55-.03-2.19a1.455 1.455 0 00-1.083-.506zm-.487 2.086c-.41-.43-.53-.84-.19-1.18.34-.34.75-.23 1.17.19.42.42.53.82.19 1.17s-.76.25-1.17-.18z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M21.39 20.44l-.4-1.22.63-.64.54 2.09.84.84-.55.55-.84-.84-1.99-.63.6-.61 1.15.45.02.01zm9.92 7.4l2.15-2.15-.58-.58-2.15 2.16.58.57zm-8.2-8.22l1.67-.8-1.23 1.23.49.5 2.15-2.15-.68-.69-1.62.79.81-1.6-.7-.71-2.15 2.16.5.5 1.23-1.24-.8 1.68.33.33zm3.72.3l-.36.37.82.83-.44.44-.82-.83-.47.47 1 1-.43.44-1.55-1.55 2.15-2.16 1.54 1.56-.43.44-1.01-1.01zm2.03 5.47l1.46 1.47.49-.49-.91-.92 1.66-1.67-.55-.54-2.15 2.15zm5.84 1.54l-.69 2.29 1.48-1.49.51.51-2.15 2.16-.67-.68.59-2.35v-.01l-1.47 1.48-.5-.5 2.15-2.16.75.75zm-6.2-1.9l.42-1.47a.92.92 0 001.05-.21.883.883 0 00-.06-1.23l-1.16-1.16-2.14 2.16.54.55 1.75-1.75.42.42a.39.39 0 11-.5.59s-.027-.025-.04-.04l-.41-.39-.45 1.93.58.6z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty48',
+            x1: 24.071,
+            x2: 49.548,
+            y1: 53.162,
+            y2: 16.895,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsMastercard48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsmastercard48)',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: { fill: '#FF5F00', d: 'M20.89 16.538h6.22v11.174h-6.22V16.538z' },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EB001B',
+        d: 'M21.285 22.125A7.13 7.13 0 0124 16.538a7.107 7.107 0 100 11.174 7.1 7.1 0 01-2.715-5.587z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#F79E1B',
+        d: 'M35.5 22.125A7.1 7.1 0 0124 27.712a7.122 7.122 0 000-11.174 7.1 7.1 0 0111.5 5.587z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M16.45 31.14a.923.923 0 00-.25-.15.722.722 0 00-.3-.05h-.18l-.18.05a.586.586 0 00-.16.11.413.413 0 00-.13.15A.777.777 0 0015 31a.75.75 0 00-.37-.08h-.15l-.15.04a.558.558 0 00-.14.09.502.502 0 00-.12.13v-.23h-.4v1.89h.4v-1.03a.461.461 0 01.04-.21.5.5 0 01.1-.16.355.355 0 01.15-.09.554.554 0 01.18-.03.422.422 0 01.32.12.577.577 0 01.11.37v1.05h.4v-1.05a.604.604 0 01.03-.21.586.586 0 01.11-.16.355.355 0 01.15-.09.44.44 0 01.18-.03.4.4 0 01.31.12c.082.105.12.237.11.37v1.05h.4v-1.19a.945.945 0 00-.05-.3.923.923 0 00-.16-.23z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M18.3 31.01a.665.665 0 01.25.2v-.23h.41v1.89h-.41v-.23a.585.585 0 01-.25.2.735.735 0 01-.35.08.904.904 0 01-.37-.08.97.97 0 01-.3-.2 1.063 1.063 0 01-.2-.32 1 1 0 01-.07-.39 1.03 1.03 0 01.07-.4.877.877 0 01.5-.52.895.895 0 01.37-.07.77.77 0 01.35.07zm.13 1.35a.72.72 0 00.12-.19h-.01a.965.965 0 00.05-.24.863.863 0 00-.04-.25.522.522 0 00-.12-.19.446.446 0 00-.18-.13.607.607 0 00-.48 0 .533.533 0 00-.29.32.653.653 0 00-.04.25.645.645 0 00.15.42.44.44 0 00.18.13.607.607 0 00.66-.12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M20.85 31.92a.955.955 0 00-.48-.18l-.19-.03-.13-.02-.09-.03-.07-.06a.117.117 0 01-.03-.08.19.19 0 01.1-.16.473.473 0 01.25-.07l.17.02.17.04.14.05.1.06.18-.32a.946.946 0 00-.34-.15 1.499 1.499 0 00-.42-.05 1.128 1.128 0 00-.33.04.865.865 0 00-.25.12.47.47 0 00-.16.19.666.666 0 00-.05.25.455.455 0 00.16.37.95.95 0 00.48.18l.19.03a.584.584 0 01.25.07c.048.03.078.083.08.14a.18.18 0 01-.08.17.548.548 0 01-.32.07l-.21-.02-.17-.05-.14-.06-.11-.08-.19.31c.065.05.136.094.21.13l.22.07.21.04h.17c.121.003.242-.01.36-.04a.695.695 0 00.27-.12.59.59 0 00.17-.19.5.5 0 00.05-.25.44.44 0 00-.17-.39z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M24.42 31.01a.697.697 0 01.28.2c.08.09.142.195.18.31.05.127.073.263.07.4V32a.211.211 0 000 .08h-1.39a.53.53 0 00.07.22.462.462 0 00.13.14.604.604 0 00.36.12.67.67 0 00.28-.06.795.795 0 00.25-.14l.21.29a1.068 1.068 0 01-.37.21c-.133.04-.271.06-.41.06a1.22 1.22 0 01-.39-.07 1.106 1.106 0 01-.3-.2 1.038 1.038 0 01-.27-.72c-.003-.14.02-.28.07-.41a.902.902 0 01.19-.31.697.697 0 01.3-.2.9.9 0 01.38-.07.85.85 0 01.36.07zm-.82.56a.871.871 0 00-.05.18h.98a.67.67 0 00-.16-.34.435.435 0 00-.32-.12.4.4 0 00-.34.13.41.41 0 00-.11.15zm6.31-.56c.095.05.18.118.25.2v-.23h.41v1.89h-.41v-.23a.692.692 0 01-.25.2.702.702 0 01-.34.08.896.896 0 01-.37-.08.765.765 0 01-.3-.2.75.75 0 01-.2-.32 1.002 1.002 0 010-.79c.041-.12.11-.23.2-.32a.941.941 0 01.3-.2.855.855 0 01.37-.07.723.723 0 01.34.07zm.12 1.35a.655.655 0 00.15-.43.608.608 0 00-.04-.25.52.52 0 00-.11-.19.445.445 0 00-.18-.13.607.607 0 00-.25-.05.557.557 0 00-.41.18.428.428 0 00-.11.19.655.655 0 00-.04.25.602.602 0 00.04.23.43.43 0 00.11.19.44.44 0 00.18.13.607.607 0 00.66-.12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M22.61 32.5a.42.42 0 01-.19.04l-.12-.04a.15.15 0 01-.09-.06.392.392 0 01-.07-.11.685.685 0 01-.02-.16v-.82h.66v-.38h-.66v-.57h-.41v.57h-.38v.38h.38v.83a.782.782 0 00.17.55.68.68 0 00.5.18.782.782 0 00.32-.06.969.969 0 00.18-.08l-.14-.35a.31.31 0 01-.13.08zm3.71-1.56A.77.77 0 0026 31a.636.636 0 00-.23.23v-.25h-.37v1.89h.38v-1.04a.604.604 0 01.03-.21.5.5 0 01.1-.16.28.28 0 01.14-.1.44.44 0 01.18-.03h.16l.08.03.12-.4-.1-.02h-.17zm5.71 0a.77.77 0 00-.31.06.636.636 0 00-.23.23v-.25h-.38v1.89h.39v-1.04a.464.464 0 01.04-.21.366.366 0 01.09-.16.28.28 0 01.14-.1.44.44 0 01.18-.03h.16l.08.03.12-.4-.1-.02h-.18z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M33.95 31.22v-1l.43-.01v2.65h-.41v-.23a.585.585 0 01-.25.2.735.735 0 01-.35.08 1 1 0 01-.67-.28 1.063 1.063 0 01-.2-.32 1 1 0 01-.07-.39 1.03 1.03 0 01.07-.4.877.877 0 01.5-.52.937.937 0 01.35-.05.77.77 0 01.35.07.665.665 0 01.25.2zm-.12 1.14a.72.72 0 00.12-.19h-.01a.964.964 0 00.06-.23.863.863 0 00-.04-.25.522.522 0 00-.12-.19.445.445 0 00-.18-.13.607.607 0 00-.48 0 .582.582 0 00-.18.13.8.8 0 00-.12.18.863.863 0 00-.04.25.645.645 0 00.15.42.44.44 0 00.18.13.607.607 0 00.66-.12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M27.31 31.5a.607.607 0 01.43-.17c.086 0 .17.017.25.05.078.018.148.06.2.12l.2-.33a.977.977 0 00-.25-.15 1.038 1.038 0 00-.4-.07.974.974 0 00-1.02.99 1.002 1.002 0 00.29.7c.092.09.2.162.32.21.13.053.27.08.41.08.137 0 .273-.027.4-.08.088-.038.172-.085.25-.14l-.2-.33a.563.563 0 01-.2.12.95.95 0 01-.25.04.863.863 0 01-.25-.04.582.582 0 01-.18-.13.5.5 0 01-.13-.19.653.653 0 01-.04-.25.706.706 0 01.04-.25.5.5 0 01.13-.18z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard48',
+            x1: 44.132,
+            x2: 44.132,
+            y1: 40.032,
+            y2: 12.185,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsOney48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M28.316 20.523c-.068-.007-.136-.014-.203-.023h-.088a.96.96 0 01-.12 0 3.29 3.29 0 00-1.655.527 3.5 3.5 0 00-1.5 3.685 3.462 3.462 0 006.302 1.148c.038-.058.073-.123.109-.188l.061-.112a.159.159 0 00-.045-.015h-1.28a.14.14 0 00-.092.042 2.307 2.307 0 01-1.625.7 2.187 2.187 0 01-2.212-1.762.168.168 0 010-.05h5.45a4.38 4.38 0 00-.018-1.13 3.41 3.41 0 00-2.64-2.76 4.39 4.39 0 00-.444-.062zm1.784 2.832H26a2.115 2.115 0 012.188-1.66c.9.045 1.895.91 1.912 1.66zm-16.205-2.833l-.145-.022-.502-.005-.184.028c-.122.018-.244.035-.364.062a3.435 3.435 0 00-2.672 3.04.853.853 0 01-.02.085v.547c.02.035.02.07.02.105.047.302.118.598.212.888.572 1.407 1.645 2.16 3.145 2.23a3.282 3.282 0 002.765-1.205 3.512 3.512 0 00-1.885-5.69 7.72 7.72 0 00-.37-.063zm1.838 3.324c.005.051.01.102.017.154a2.303 2.303 0 01-1.947 2.273 2.25 2.25 0 01-2.5-1.7 2.307 2.307 0 011.417-2.75 2.25 2.25 0 012.967 1.677c.023.119.035.233.046.346z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M33.015 29.5l1-2.43a.2.2 0 000-.133c-.9-2.148-1.8-4.294-2.7-6.437h1.4a.298.298 0 000 .05l1.942 4.75.036.063.05-.116c.25-.6.487-1.195.73-1.787.404-1 .809-1.99 1.212-2.973H38c0 .038-.02.076-.032.113L35.342 27l-1.02 2.5h-1.307zm-11.885-9c.175.027.353.045.525.087 1.11.285 1.895.933 2.192 2.07.07.288.104.582.1.878v3.945h-1.262v-3.808c0-.273-.03-.545-.09-.812a1.435 1.435 0 00-1.175-1.142 2.625 2.625 0 00-1.15 0 1.5 1.5 0 00-1.235 1.307 4.335 4.335 0 00-.052.675v3.783H17.72a.5.5 0 010-.06v-4.038a2.71 2.71 0 01.965-2.135 3.08 3.08 0 011.735-.727c.04 0 .08-.015.117-.023h.593z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX348 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M38.813 24c0 8.18-6.632 14.813-14.813 14.813-8.18 0-14.813-6.632-14.813-14.813C9.188 15.82 15.82 9.187 24 9.187S38.813 15.819 38.813 24zm-19.37 4.884c-1.05 0-1.915-.237-2.595-.71a3.396 3.396 0 01-1.367-1.924l2.147-.63c.12.365.358.68.677.892.348.224.755.336 1.168.323.37.01.73-.109 1.022-.336a1.12 1.12 0 00.42-.937 1.069 1.069 0 00-.45-.925 1.941 1.941 0 00-1.153-.322h-1.187v-1.86h1.136c.382.025.761-.075 1.08-.285.25-.191.375-.504.375-.938a.997.997 0 00-.375-.819 1.393 1.393 0 00-.905-.302c-.719 0-1.2.375-1.442 1.125l-2.235-.63c.084-.333.224-.65.414-.937.204-.304.453-.576.737-.807.33-.26.706-.457 1.108-.577a4.697 4.697 0 011.448-.212c1.084 0 1.962.256 2.636.769a2.471 2.471 0 011.01 2.08c.018.488-.108.972-.361 1.39a2.036 2.036 0 01-1.022.814v.015c.46.16.856.466 1.125.872a2.7 2.7 0 01.457 1.588 2.972 2.972 0 01-1.07 2.378c-.709.603-1.641.905-2.798.905zm13.026-8.259l-2.812 3.919 2.767 4.143h-2.747l-1.427-2.146-1.312 2.146h-2.625l2.68-4.006-2.669-4.056h2.747l1.391 2.102 1.392-2.102h2.615z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX448 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M38.813 24c0 8.18-6.632 14.813-14.813 14.813-8.18 0-14.813-6.632-14.813-14.813C9.188 15.82 15.82 9.187 24 9.187S38.813 15.819 38.813 24zm-16.376 4.88h-2.286v-2.27H15.5v-1.93l2.69-6.61h2.536l-2.613 6.47h2.038v-2.333h2.286v2.334h1.151v2.068h-1.15v2.271zm10.032-8.255l-2.812 3.919 2.767 4.143h-2.747l-1.427-2.146-1.312 2.146h-2.625l2.68-4.006-2.669-4.056h2.747l1.391 2.102 1.392-2.102h2.615z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaylib48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#16D6FF',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M10 21.05h1v.33h.04a2.13 2.13 0 011.09-.4c.377-.04.759-.02 1.13.06a1.547 1.547 0 011.18 1.27c.118.555.148 1.125.09 1.69-.01.327-.053.652-.13.97a1.582 1.582 0 01-1.41 1.25c-.43.06-.86.05-1.3.07v-1.04h.43a5.27 5.27 0 00.56-.05.62.62 0 00.53-.5c.053-.183.087-.37.1-.56.04-.476.03-.956-.03-1.43a2.307 2.307 0 00-.06-.25.64.64 0 00-.5-.45 2.101 2.101 0 00-.9 0 .718.718 0 00-.57.72c0 .12-.02.25-.02.36v4.96h-1.11c-.09 0-.11-.02-.11-.1v-.5l-.01-6.4z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M31.97 17.82l-.07-.01a6.183 6.183 0 00-3.5 1 .25.25 0 00-.13.25v5.61l-.002.097a1.69 1.69 0 00.002.223c.01.16.07.22.23.22h.68v1.06a6.045 6.045 0 01-1.28-.06.965.965 0 01-.81-.84 3.255 3.255 0 01-.04-.54v-4.76h-.04c-1.36 1.76-1.75 3.85-1.11 5.85.64 2 2.03 3.31 4.03 4.02v-7.02h1.28v7.25a6.093 6.093 0 005.56-2.48c1.46-2.03 1.64-4.23.54-6.48-.85-1.72-2.25-2.75-4.1-3.25v6.62c.03.41.2.63.57.68.232.03.468.03.7 0a.715.715 0 00.75-.68 5.62 5.62 0 00.02-1.83.72.72 0 00-.77-.69h-.82v-1h.04c.123.003.246.003.369.004.286 0 .571.001.851.036.744.04 1.36.594 1.48 1.33.17.788.17 1.602 0 2.39a1.672 1.672 0 01-1.25 1.34 4.146 4.146 0 01-2.07 0c-.51-.11-.91-.51-1.02-1.02-.06-.252-.09-.51-.09-.77v-6.55zm-1.64 4.61a.612.612 0 01-.5-.68.612.612 0 01.66-.68c.096-.01.194-.01.29 0 .283.05.491.293.5.58v.23a.58.58 0 01-.56.57c-.13.013-.262.007-.39-.02z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M20.25 21.06h1.22v3.35c0 .137.01.274.03.41a.447.447 0 00.32.36c.367.12.763.12 1.13 0a.477.477 0 00.35-.46c0-.12.02-.23.02-.35v-3.3h1.18v5.67c0 .188-.02.376-.06.56a.892.892 0 01-.73.7 7.639 7.639 0 01-1.28.06v-1h.66a.198.198 0 00.2-.19v-.67l-.84.05a3.11 3.11 0 01-1.2-.15 1.407 1.407 0 01-1-1.3v-3.74z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M19.57 26.25v-5.2h-1.01v.35a1.826 1.826 0 00-.75-.36 3.841 3.841 0 00-1.07-.06c-.89.07-1.4.51-1.6 1.38a6.607 6.607 0 00-.09 1.72c.008.263.042.524.1.78a1.55 1.55 0 001.1 1.27 2.965 2.965 0 001.67.04c.152-.043.299-.1.44-.17v.25h1.21zm-1.21-1.84a.787.787 0 01-.75.86 2.748 2.748 0 01-.7-.02.62.62 0 01-.53-.47 2.277 2.277 0 01-.1-.58c0-.23.008-.462.015-.695.007-.232.015-.465.015-.695.015-.094.035-.188.06-.28A.683.683 0 0117 22c.236-.02.474-.02.71 0 .4.04.62.3.65.75v1.66z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaypal48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorspaypal48)',
+        d: 'M4.125 12.125a2 2 0 012-2h35.75a2 2 0 012 2v23.75a2 2 0 01-2 2H6.125a2 2 0 01-2-2v-23.75z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M6 10h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12a2 2 0 012-2zm37.75 2A1.75 1.75 0 0042 10.25H6A1.75 1.75 0 004.25 12v24c0 .967.784 1.75 1.75 1.75h36A1.75 1.75 0 0043.75 36V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M25.817 28.59h1.478c.495 0 .867.13 1.072.38.202.274.272.624.19.955-.147.927-.71 1.4-1.682 1.4h-.468a.205.205 0 00-.2.172l-.167 1.073a.147.147 0 01-.143.122h-.777a.125.125 0 01-.103-.142l.6-3.788c.013-.1.1-.174.2-.172zm.77 1.912c.392 0 .797 0 .877-.53v-.01a.468.468 0 00-.072-.41c-.13-.15-.383-.15-.65-.15h-.1a.122.122 0 00-.12.1l-.158 1h.223z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        'fill-rule': 'evenodd',
+        d: 'M15.28 28.59h1.47c.5 0 .875.13 1.085.382.202.275.272.625.19.955-.147.928-.71 1.4-1.682 1.4h-.468a.2.2 0 00-.2.173l-.168 1.02a.205.205 0 01-.2.172h-.725a.125.125 0 01-.102-.142l.6-3.788a.203.203 0 01.2-.172zm.77 1.91c.392 0 .797 0 .87-.528l.007-.012a.465.465 0 00-.075-.41c-.13-.15-.38-.15-.647-.15h-.1a.123.123 0 00-.12.1l-.158 1h.223zm4.418-.545h.707l.015-.003a.12.12 0 01.1.143l-.382 2.42a.202.202 0 01-.2.175h-.655a.125.125 0 01-.105-.14l.032-.2a1.36 1.36 0 01-.98.4 1.1 1.1 0 01-.897-.358 1.327 1.327 0 01-.25-1.087c.1-.8.771-1.405 1.577-1.423.338 0 .683.078.838.3l.047.073.033-.2c.01-.058.061-.1.12-.1zm-1.078 2.053c.4.01.743-.28.8-.676l-.002-.012a.608.608 0 00-.12-.5.587.587 0 00-.47-.192.792.792 0 00-.795.68.537.537 0 00-.015.2.548.548 0 00.602.5z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M31 29.955h.733a.123.123 0 01.1.142l-.383 2.42a.207.207 0 01-.2.175h-.672a.125.125 0 01-.105-.14l.032-.2a1.35 1.35 0 01-.977.4 1.105 1.105 0 01-.893-.36 1.335 1.335 0 01-.25-1.087c.102-.8.772-1.404 1.578-1.423.337 0 .682.078.837.3l.048.073.032-.2a.123.123 0 01.12-.1zm-1.075 2.053c.4.01.744-.28.8-.676a.565.565 0 00-.592-.697.792.792 0 00-.793.682c-.04.175 0 .359.11.5.123.13.297.2.475.19z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M24.943 29.955h-.713a.212.212 0 00-.17.09l-.985 1.455-.415-1.387a.207.207 0 00-.2-.148h-.71a.122.122 0 00-.122.125.18.18 0 000 .038l.785 2.3-.738 1.04a.123.123 0 00.1.192h.725c.067 0 .13-.032.168-.087l2.372-3.413a.125.125 0 00-.03-.172.123.123 0 00-.067-.033z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        d: 'M32.545 28.692l-.607 3.858a.128.128 0 00.105.142h.632a.195.195 0 00.2-.172l.6-3.79a.122.122 0 00-.102-.14h-.7a.125.125 0 00-.128.102zm-3.607-10.517c0 .075-.025.15-.04.227-.5 2.633-2.265 3.54-4.5 3.54H23.25c-.273 0-.506.2-.547.47l-.748 4.75a.29.29 0 00.295.338h2.023a.5.5 0 00.477-.41l.02-.103.38-2.415.025-.132a.5.5 0 01.48-.413h.303c1.957 0 3.5-.795 3.94-3.097.187-.96.09-1.75-.405-2.328a1.933 1.933 0 00-.555-.427z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#222D65',
+        d: 'M28.4 17.962a2.605 2.605 0 00-.25-.062c-.092-.018-.17-.035-.25-.048a6.305 6.305 0 00-1-.075h-3.047a.485.485 0 00-.48.413l-.648 4.102-.02.12a.555.555 0 01.545-.47h1.14c2.25 0 4-.907 4.5-3.54.015-.077.028-.152.04-.227a2.824 2.824 0 00-.422-.178l-.108-.035z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M23.373 18.19a.48.48 0 01.27-.363.467.467 0 01.21-.05h3.044c.335-.001.67.024 1 .075.088 0 .173.03.25.048l.25.063.115.034c.146.048.287.108.423.178.152-.973 0-1.633-.528-2.232-.58-.66-1.625-.943-2.962-.943H21.56c-.273 0-.506.2-.548.47l-1.617 10.25a.332.332 0 00.327.385h2.4l.603-3.813.648-4.102z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal48',
+            x1: 24.494,
+            x2: 49.968,
+            y1: 53.161,
+            y2: 16.894,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsVisa48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M4 12a2 2 0 012-2h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M6 10h36a2 2 0 012 2v24a2 2 0 01-2 2H6a2 2 0 01-2-2V12a2 2 0 012-2zm37.75 2A1.75 1.75 0 0042 10.25H6A1.75 1.75 0 004.25 12v24c0 .967.784 1.75 1.75 1.75h36A1.75 1.75 0 0043.75 36V12z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M42 10H6a2 2 0 00-2 2v4h40v-4a2 2 0 00-2-2z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: { fill: '#F7B601', d: 'M4 32v4a2 2 0 002 2h36a2 2 0 002-2v-4H4z' },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M18.86 28.17l1.42-8.32h2.27l-1.42 8.32h-2.27zm10.49-8.11a5.792 5.792 0 00-2.03-.35c-2.25 0-3.82 1.13-3.83 2.75 0 1.2 1.13 1.86 2 2.25.87.39 1.17.67 1.17 1.03 0 .56-.7.82-1.36.82a4.75 4.75 0 01-2.13-.44l-.3-.12-.32 1.85a7.25 7.25 0 002.53.44c2.38 0 3.92-1.11 3.94-2.84 0-.95-.59-1.67-1.9-2.25-.79-.38-1.28-.64-1.27-1.03.01-.39.41-.72 1.29-.72a4.171 4.171 0 011.7.32l.2.1.31-1.8',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        'fill-rule': 'evenodd',
+        d: 'M33.42 19.86h1.75v-.01L37 28.17h-2.09s-.21-.96-.28-1.25h-2.9l-.48 1.25h-2.38l3.37-7.62c.23-.54.64-.69 1.18-.69zm-.15 3.03l-.9 2.32h1.88l-.52-2.4-.16-.72-.026.07a19.6 19.6 0 01-.274.73z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M9.03 19.85h3.64c.5.02.89.18 1.03.71l.8 3.82.25 1.15 2.21-5.67-.01-.01h2.4l-3.56 8.3h-2.4l-2.014-7.214A9.434 9.434 0 009 20.03l.03-.18z',
+      },
+    },
+  ],
+}
+export const ColorsRelayLocation48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006902',
+        'fill-rule': 'evenodd',
+        d: 'M40.5 20.51c0-9.113-7.387-16.5-16.5-16.5S7.5 11.397 7.5 20.51a13.26 13.26 0 001.35 5.27c.12.27.25.54.38.81.27.54.56 1.09.87 1.63a46.775 46.775 0 002.66 4.1c.59.81 1.19 1.61 1.81 2.38.62.77 1.24 1.54 1.86 2.27.41.49.82 1 1.23 1.42 1.41 1.59 2.75 3 3.83 4.1l.85.86a2.34 2.34 0 003.32 0l.85-.86c1.08-1.1 2.41-2.51 3.83-4.1.4-.46.82-.93 1.23-1.42.62-.73 1.24-1.49 1.86-2.27.62-.78 1.22-1.57 1.81-2.38a46.775 46.775 0 002.66-4.1c.31-.54.6-1.09.87-1.63.13-.27.26-.54.38-.81a13.26 13.26 0 001.35-5.27z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M29 15.85l3-1.76-7-4.15a2 2 0 00-2 0l-1.92 1.14L29 15.85zm-14-.03l8 4.75v9.5l-7-4.17a2 2 0 01-1-1.72v-8.36zm10 14.25v-9.5l8-4.75v8.36a2 2 0 01-1 1.72l-7 4.17zm-9-15.98l3.11-1.85 7.97 4.77L24 18.84l-8-4.75z',
+      },
+    },
+  ],
+}
+export const ColorsStoreLocation48 = {
+  viewBox: '0 0 48 48',
+  size: '3rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006902',
+        'fill-rule': 'evenodd',
+        d: 'M40.5 20.51c0-9.113-7.387-16.5-16.5-16.5S7.5 11.397 7.5 20.51a13.26 13.26 0 001.35 5.27c.12.27.25.54.38.81.27.54.56 1.09.87 1.63a46.775 46.775 0 002.66 4.1c.59.81 1.19 1.61 1.81 2.38.62.77 1.24 1.54 1.86 2.27.41.49.82 1 1.23 1.42 1.41 1.59 2.75 3 3.83 4.1l.85.86a2.34 2.34 0 003.32 0l.85-.86c1.08-1.1 2.41-2.51 3.83-4.1.4-.46.82-.93 1.23-1.42.62-.73 1.24-1.49 1.86-2.27.62-.78 1.22-1.57 1.81-2.38a46.775 46.775 0 002.66-4.1c.31-.54.6-1.09.87-1.63.13-.27.26-.54.38-.81a13.26 13.26 0 001.35-5.27z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M30.22 18.7l-5.42-5.42a1.13 1.13 0 00-1.58 0L17.8 18.7l-1.45 1.46a1.11 1.11 0 00.79 1.9h13.74a1.11 1.11 0 00.79-1.9l-1.45-1.46z',
+      },
+    },
+  ],
+}
+export const CardsColorsAmericanExpress64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006FCF',
+        d: 'M55.962 13.375H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M34.646 45.079v-10.22h-.003v-1.892H29.85l5.945-13.636h5.734l2.046 4.672V19.33h7.097l1.233 3.52 1.24-3.52h5.501v1.517h-4.388l-2.343 6.595-2.329-6.596h-4.462v10.59l-4.612-10.59H36.84l-4.612 10.59h3.134l.866-2.118h4.806l.88 2.118h6.031v-7.413l2.687 7.413h2.508l2.686-7.428v7.428h2.821v1.536h-3.685l-3.06 3.389-3.03-3.389h-3.746l4.925 5.295-4.925 5.294h3.641l3.075-3.418 3.06 3.419h3.745v1.516h-4.504l-2.319-2.599-2.33 2.599H34.646zm1.583-1.517V32.974h8.896v2.451H39.08v1.649h5.895v2.39H39.08v1.649h6.044v2.45H36.23z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M58.646 41.336v2.227l-4.954-5.325 4.954-5.265v2.201l-2.869 3.068 2.87 3.094zM40.049 26.944l-1.418-3.464-1.418 3.464h2.836z',
+      },
+    },
+  ],
+}
+export const CardsColorsCB64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscb64)',
+        d: 'M55.962 13.375H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M22.91 31.313h9.952c-.087-1.958-.6-4-2.12-5.29-1.797-1.55-4.967-2.12-7.805-2.12-2.837 0-6.21.63-8.022 2.295C13.335 27.63 13 29.925 13 32c0 2.075.658 4.693 2.367 6.153 1.71 1.46 4.735 1.944 7.57 1.944s5.73-.452 7.528-1.93c1.798-1.477 2.412-3.932 2.412-6.167H22.91v-.688zm10.61.672v7.75h13.84A3.827 3.827 0 0051 35.917c0-2.047-1.608-3.83-3.64-3.932H33.52zm17.23-4.223a3.523 3.523 0 00-3.5-3.537h-.045a4.02 4.02 0 00-.425-.015H33.53v7.102h13.957a3.58 3.58 0 003.263-3.55z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscb64',
+            x1: 31.841,
+            x2: 65.719,
+            y1: 65.853,
+            y2: 17.691,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#109A72' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.3, 'stop-color': '#008A8D' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.69, 'stop-color': '#01679B' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#03376F' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsCheque64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorscheque64)',
+        d: 'M5 15a2 2 0 012-2h50a2 2 0 012 2v34a2 2 0 01-2 2H7a2 2 0 01-2-2V15z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        'fill-rule': 'evenodd',
+        d: 'M7 13h50a2 2 0 012 2v34a2 2 0 01-2 2H7a2 2 0 01-2-2V15a2 2 0 012-2zm51 2a1 1 0 00-1-1H7a1 1 0 00-1 1v34a1 1 0 001 1h50a1 1 0 001-1V15z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B7EEF5',
+        d: 'M13 37a1 1 0 011-1h14a1 1 0 011 1v7a1 1 0 01-1 1H14a1 1 0 01-1-1v-7z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#25A8D0',
+        d: 'M34 45a1 1 0 01-.94-1.35C35.92 36 37.38 36 37.92 36s1.71 0 4 5.51c2.08-4.11 2.67-4.11 3.2-4.11.53 0 1.24 0 3.9 5.6h2a1 1 0 110 2h-2.64a1 1 0 01-.9-.58c-.77-1.65-1.75-3.53-2.36-4.52a49.576 49.576 0 00-2.37 4.52 1 1 0 01-.94.58 1 1 0 01-.9-.65 28.261 28.261 0 00-3-6.18 28.351 28.351 0 00-3 6.18A1 1 0 0134 45z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#84DBEB',
+        d: 'M50 27H31.91l3-3H50a1 1 0 100-2H36.91l.8-.79a1.004 1.004 0 00-1.42-1.42L34.09 22H14a1 1 0 100 2h18.09l-3 3H14a1 1 0 100 2h13.09l-.8.79a1 1 0 000 1.42 1 1 0 001.42 0l2.2-2.21H50a1 1 0 100-2z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorscheque64',
+            x1: 28.72,
+            x2: 63.84,
+            y1: 77.569,
+            y2: 28.23,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.53, 'stop-color': '#F1FDFE' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#ECFCFD' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsGift64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M8.15 50.5h47.7a2.648 2.648 0 002.65-2.642V16.143a2.648 2.648 0 00-2.65-2.643H8.15a2.647 2.647 0 00-2.65 2.642v31.716A2.647 2.647 0 008.15 50.5z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        d: 'M14.435 16.625L18.815 21a1.5 1.5 0 01-1.065 2.565H9A1.5 1.5 0 017.935 21l4.38-4.375a1.5 1.5 0 012.12 0z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EAF3E2',
+        d: 'M55.962 13.375H21.25v37.25h34.712c1.47 0 2.662-1.19 2.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        d: 'M21.25 50.625H8.262a2.885 2.885 0 01-2.887-2.875v-31.5a2.885 2.885 0 012.887-2.875H21.25v.5H8.262a2.383 2.383 0 00-2.387 2.375v31.5a2.383 2.383 0 002.387 2.375H21.25v.5z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#CBE3B5',
+        d: 'M55.75 50.625h-34.5v-.5h34.5a2.383 2.383 0 002.388-2.375v-31.5a2.383 2.383 0 00-2.388-2.375h-34.5v-.5h34.5a2.885 2.885 0 012.875 2.875v31.5a2.885 2.885 0 01-2.875 2.875z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#78BE20',
+        'fill-rule': 'evenodd',
+        d: 'M48.438 26.25h-2.023a4 4 0 00-6.477-4.62 4 4 0 00-6.478 4.62h-2.023a1.5 1.5 0 00-1.5 1.5v14a1.5 1.5 0 001.5 1.5h17a1.5 1.5 0 001.5-1.5v-14a1.5 1.5 0 00-1.5-1.5zm-.5 7.5h-7.08v-5.5h7.08v5.5zm-4.983-11.5a2 2 0 00-2 2v2h2a2 2 0 100-4zm-8.035 2a2 2 0 114 0v2h-2a2 2 0 01-2-2zm3.938 4h-6.92v5.5h6.92v-5.5zm-6.92 7.5h6.92v5.5h-6.92v-5.5zm8.92 0v5.5h7.08v-5.5h-7.08z',
+      },
+    },
+  ],
+}
+export const CardsColorsIllicado64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M8.037 50.625h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#111116',
+        d: 'M13.485 40.042h28.92a8.27 8.27 0 008.135-6.702 8.25 8.25 0 00-8.1-9.783H21.56a8.25 8.25 0 00-7.987 6.168 8.055 8.055 0 00-.25 1.97v8.197c-.01.15-.023.15.162.15z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M13.273 29.648a8.547 8.547 0 018.272-6.4v-.006H42.45c.538 0 1.076.05 1.605.15a8.55 8.55 0 016.79 10 8.583 8.583 0 01-8.36 6.96h-29a.475.475 0 01-.377-.11.425.425 0 01-.108-.325v-8.225c.005-.69.097-1.377.273-2.044zm29.177-6.09H21.545a8.235 8.235 0 00-7.983 6.167 8.055 8.055 0 00-.25 1.97v8.197c0 .072-.002.11.015.13.019.02.062.02.158.02h29a8.27 8.27 0 008.055-6.702 8.25 8.25 0 00-8.09-9.783z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M30.83 33.85a.313.313 0 00-.425.075c-.052.058-.098.12-.138.188-.2.35-.556.581-.957.622a2.076 2.076 0 01-1.035-.075 1.227 1.227 0 01-.872-1.072c-.15-1.02.597-1.583 1.285-1.72A1.46 1.46 0 0130 32.25l.297.25c.175.148.276.148.463 0a.345.345 0 00.112-.5 1.535 1.535 0 00-.287-.335 2.477 2.477 0 00-1.32-.648 2.13 2.13 0 00-1 .098c-.57.176-1.06.547-1.383 1.048-.241.364-.36.796-.337 1.232a2.185 2.185 0 001.832 2.133c.532.08 1.076.029 1.583-.15A1.75 1.75 0 0031 34.5l.075-.175a.347.347 0 00-.098-.398l-.147-.077z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#ECAA3A',
+        d: 'M25.135 28.543a.802.802 0 00-1 .785c0 .075 0 .137.025.2.01.042.022.084.038.125a.782.782 0 001 .46l.06-.018a.723.723 0 00.45-.918c-.073-.312-.085-.485-.573-.634zm-.2 2.527a.438.438 0 00-.5.288 2.477 2.477 0 00-.125.672c-.025.5 0 1-.037 1.5-.026.538 0 1.06 0 1.595.002.098.048.19.125.25.151.12.342.178.535.163h.027a.322.322 0 00.297-.348 2.567 2.567 0 00-.012-.31c-.05-.727-.05-1.456 0-2.183l.075-1.145a.428.428 0 00-.385-.482z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#D35D91',
+        d: 'M20.265 27.395a.46.46 0 00-.613.325 2.972 2.972 0 00-.147.723c-.025.162-.037.324-.063.484a29.959 29.959 0 00-.15 3.14c0 .548 0 1.098.038 1.645.013.075.013.15.025.25.017.328.068.653.15.97.017.103.045.204.085.3a.5.5 0 00.462.3.545.545 0 00.25-.012h.018a.287.287 0 00.23-.335c-.038-.323-.075-.635-.1-.973-.025-.337-.063-.672-.075-1a28.718 28.718 0 01-.038-2.705 24.36 24.36 0 01.138-1.632c.025-.285.05-.56.1-.832a1.013 1.013 0 000-.276.337.337 0 00-.31-.372z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#B9CD5C',
+        d: 'M18 31.457a.48.48 0 00-.325-.375.615.615 0 00-.573.15.335.335 0 00-.087.238c.025.572.05 1.145.063 1.708v1.862c0 .375.15.5.5.475h.1c.25-.038.325-.138.334-.388.05-1.044.038-2.105.038-3.165a2.354 2.354 0 00-.05-.505zm-.628-2.957a.887.887 0 00-.785.898c-.024.347.388.735.835.75a.775.775 0 00.773-.848.823.823 0 00-.823-.8z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#9779AB',
+        d: 'M22.892 28.617l.113-.897a.275.275 0 00-.2-.313.668.668 0 00-.5.026.392.392 0 00-.225.274 2.89 2.89 0 00-.15.648 22.26 22.26 0 00-.197 2.23v2.443c.007.634.065 1.267.172 1.892.017.085.037.167.063.25.024.082.062.125.087.175.113.25.723.225.835.038a.5.5 0 00.075-.35 8.452 8.452 0 01-.087-.848c-.026-.435-.063-.87-.088-1.308a22.28 22.28 0 010-2.417c-.002-.616.032-1.23.102-1.843z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M41.345 32.521c.013.309.025.62.063.929.051.378.114.75.178 1.119l.084.501a.225.225 0 010 .2.475.475 0 01-.563.188.363.363 0 01-.137-.138c-.04-.09-.07-.18-.1-.268l-.023-.07c-.024-.07-.012-.082-.013-.084l-.024-.003c-.029-.006-.118.072-.217.158a2.67 2.67 0 01-.22.18 2 2 0 01-1.583.275 1.78 1.78 0 01-1.307-1.236 2.7 2.7 0 01-.05-1.645c.074-.37.26-.709.535-.97a2.367 2.367 0 011.957-.587c.182.025.359.08.523.163v-.1c-.026-1.083.024-2.168.087-3.25a.55.55 0 01.423-.5h.2c.212-.025.287.037.312.25.016.178.007.358-.025.535-.06.58-.088 1.158-.116 1.739l-.022.428c-.029.566-.005 1.138.02 1.705l.018.477v.004zm-1.67 2.102a1.16 1.16 0 00.86-1.11c.034-.314.017-.63-.05-.938a1.59 1.59 0 00-.087-.238.803.803 0 00-.673-.475h-.188l-.397.05a1.148 1.148 0 00-.885.75 2.28 2.28 0 00-.125.96 1.14 1.14 0 001.545 1zm5.158-3.613a2.062 2.062 0 011.794 1.12 2.7 2.7 0 01.276.885 2.17 2.17 0 01-.153 1.207l-.047.098a2.298 2.298 0 01-2.143 1.263 3.174 3.174 0 01-.463-.013 2.228 2.228 0 01-1.692-1.608c-.07-.38-.058-.771.035-1.147a2.2 2.2 0 011.285-1.607 2.55 2.55 0 011.108-.198zm.71 3.488a1.2 1.2 0 00.537-.835 2.03 2.03 0 00-.097-.985 1.25 1.25 0 00-1.198-.87 2.291 2.291 0 00-.722.11 1.268 1.268 0 00-.873.972c-.063.275-.063.56 0 .835.17.661.789 1.107 1.47 1.06a1.46 1.46 0 00.883-.287zm-9.158-1.22c.044.569.132 1.134.263 1.69a.347.347 0 01-.238.462.365.365 0 01-.547-.2 2.69 2.69 0 01-.138-.313l-.273.188a2.5 2.5 0 01-1.932.413 2.168 2.168 0 01-1.62-1.533 2.073 2.073 0 01-.05-.822c.07-.63.382-1.207.872-1.608a2.75 2.75 0 012.568-.313l.2.088a.25.25 0 00.273 0c.097-.06.21-.09.325-.087.224 0 .297.075.297.3v1.735zm-1.095 1a.93.93 0 00.31-.75v-.208c.012-.205 0-.41-.035-.612a.897.897 0 00-.81-.835 2.013 2.013 0 00-1.047.037 1.558 1.558 0 00-1.035 1.82c.045.221.154.424.312.585.375.392.93.555 1.458.425.316-.08.608-.24.847-.462z',
+      },
+    },
+  ],
+}
+export const CardsColorsLoyalty64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsloyalty64)',
+        d: 'M8.037 50.375a2.415 2.415 0 01-2.412-2.41v-31.93a2.415 2.415 0 012.412-2.41h47.925a2.415 2.415 0 012.413 2.41v31.93a2.415 2.415 0 01-2.413 2.41H8.038z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M8.037 13.375h47.925c1.47 0 2.662 1.19 2.663 2.66v31.93a2.662 2.662 0 01-2.663 2.66H8.038a2.662 2.662 0 01-2.662-2.66v-31.93a2.662 2.662 0 012.662-2.66zm50.088 2.66a2.165 2.165 0 00-2.163-2.16H8.038a2.165 2.165 0 00-2.162 2.16v31.93a2.165 2.165 0 002.162 2.16h47.925a2.165 2.165 0 002.163-2.16v-31.93z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: { fill: '#78BE20', d: 'M20.2 40.138h23.6L32 28.288l-11.8 11.85z' },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M19.688 39.612l1.825-1.825-.613-.612-1.15 1.15-2.075-2.088-.675.688 2.688 2.688zm.699-4.987l.463.462.938-.95.55.55-.95.95.587.588 1.175-1.175.538.55-1.85 1.85-2.675-2.688 1.85-1.862.537.55-1.163 1.175zm6.051-1.788l-1.825-.5a1.15 1.15 0 00-.25-1.312 1.102 1.102 0 00-1.538.075l-1.35 1.362 2.675 2.7.688-.687-2.175-2.188.437-.437a.488.488 0 11.688.688l-.4.4 2.324.662.726-.763z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        'fill-rule': 'evenodd',
+        d: 'M27.913 28.625c-.776-.788-1.888-.875-2.726-.038-.85.85-.787 1.988.013 2.763.8.775 1.913.875 2.75.025.838-.85.738-1.962-.037-2.75zm-1.95 1.975c-.526-.525-.675-1.05-.25-1.475.424-.425.924-.288 1.462.238.537.524.675 1.024.25 1.462-.425.438-.938.3-1.463-.225z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        d: 'M28.738 27.175l-.5-1.525.787-.8.675 2.612 1.05 1.05-.688.688-1.05-1.05-2.487-.787.75-.763 1.438.563.024.012zm12.4 9.25l2.687-2.688-.725-.724-2.688 2.7.726.712zM30.887 26.15l2.088-1-1.538 1.538.613.625 2.688-2.688-.85-.863-2.025.988 1.012-2-.875-.887-2.688 2.7.625.625 1.538-1.55-1 2.1.412.412zm4.651.375l-.45.463 1.024 1.037-.55.55-1.024-1.037-.588.587 1.25 1.25-.538.55-1.937-1.938 2.688-2.7 1.925 1.95-.538.55-1.262-1.262zm2.537 6.837L39.9 35.2l.613-.613-1.138-1.15 2.075-2.087-.688-.675-2.687 2.687zm7.3 1.926l-.862 2.862 1.85-1.862.637.637-2.688 2.7-.837-.85.737-2.938v-.012l-1.837 1.85-.625-.625 2.688-2.7.937.938zm-7.75-2.375l.525-1.838a1.15 1.15 0 001.313-.25 1.102 1.102 0 00-.075-1.537l-1.45-1.45-2.675 2.7.675.687 2.174-2.188.526.526a.5.5 0 11-.636.75l-.552-.553-.563 2.412.738.74z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsloyalty64',
+            x1: 32.198,
+            x2: 66.056,
+            y1: 70.106,
+            y2: 21.774,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsMastercard64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorsmastercard64)',
+        d: 'M8.037 50.625h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#FF5F00',
+        d: 'M27.945 22.308h8.112v14.575h-8.112V22.306z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#EB001B',
+        d: 'M28.46 29.595A9.292 9.292 0 0132 22.308a9.27 9.27 0 100 14.575 9.25 9.25 0 01-3.54-7.288z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#F79E1B',
+        d: 'M47 29.595a9.25 9.25 0 01-14.987 7.288 9.293 9.293 0 000-14.576A9.25 9.25 0 0147 29.596z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M22.14 41.352a1.279 1.279 0 00-.315-.194.906.906 0 00-.39-.066H21.2l-.235.066a.751.751 0 00-.207.142.568.568 0 00-.183.21 1.038 1.038 0 00-.34-.328.978.978 0 00-.482-.102h-.195l-.198.05a.785.785 0 00-.183.117.67.67 0 00-.154.17v-.3H18.5v2.466h.523V42.25a.583.583 0 01.052-.275.689.689 0 01.13-.208.475.475 0 01.195-.117.749.749 0 01.235-.04.55.55 0 01.417.157.75.75 0 01.143.483v1.37h.523v-1.37a.863.863 0 01.04-.275.729.729 0 01.142-.208.475.475 0 01.195-.117.628.628 0 01.235-.04.53.53 0 01.405.157c.107.137.158.31.143.483v1.37h.522v-1.552a1.25 1.25 0 00-.065-.393 1.31 1.31 0 00-.195-.322z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M24.565 41.182c.123.063.23.153.313.263v-.3h.535v2.465h-.535v-.3a.773.773 0 01-.313.25.968.968 0 01-.457.105 1.198 1.198 0 01-.483-.105 1.283 1.283 0 01-.39-.25 1.346 1.346 0 01-.25-.418 1.48 1.48 0 010-1.03c.06-.152.144-.293.25-.417a1.61 1.61 0 01.39-.263c.153-.063.317-.094.483-.09a1 1 0 01.457.09zm.142 1.763a.999.999 0 00.158-.25v.002a1.34 1.34 0 00.053-.312 1.121 1.121 0 00-.053-.313.665.665 0 00-.157-.25.602.602 0 00-.233-.17.828.828 0 00-.3-.065.8.8 0 00-.315.066.693.693 0 00-.377.417.839.839 0 00-.053.313.85.85 0 00.195.547.605.605 0 00.235.17.75.75 0 00.615 0 .729.729 0 00.232-.155z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M27.878 42.37a1.283 1.283 0 00-.625-.235l-.25-.038-.17-.027-.118-.04-.093-.078a.143.143 0 01-.037-.105.25.25 0 01.13-.207.627.627 0 01.34-.093l.22.028.223.052.182.066.13.077.235-.418a1.25 1.25 0 00-.443-.194 1.934 1.934 0 00-.547-.066 1.417 1.417 0 00-.433.053 1.178 1.178 0 00-.312.155.66.66 0 00-.207.25.87.87 0 00-.066.328.592.592 0 00.208.482c.184.133.401.214.627.235l.25.038a.784.784 0 01.326.092c.063.04.102.108.104.182a.25.25 0 01-.145.21.725.725 0 01-.415.09l-.274-.025-.21-.052-.183-.08-.142-.102-.25.402c.084.067.175.124.272.17l.288.092.274.053H27c.157.003.315-.015.468-.053a.872.872 0 00.352-.17.783.783 0 00.223-.25.704.704 0 00.065-.327.572.572 0 00-.23-.495z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M32.535 41.182a.89.89 0 01.365.263c.092.117.16.25.203.392.064.167.095.345.09.523v.105a.294.294 0 00-.013.105h-1.813a.65.65 0 00.26.468.576.576 0 00.223.117c.08.027.165.04.25.04a.92.92 0 00.365-.078c.123-.04.238-.101.34-.182l.273.377a1.425 1.425 0 01-.483.276 1.6 1.6 0 01-1.032-.015 1.283 1.283 0 01-.39-.25 1.25 1.25 0 01-.25-.418 1.321 1.321 0 01-.09-.523 1.4 1.4 0 01.09-.535c.054-.15.14-.287.25-.402a.916.916 0 01.392-.263 1.2 1.2 0 01.5-.09c.161-.004.322.027.47.09zm-1.07.745a1.25 1.25 0 00-.065.236h1.267a.873.873 0 00-.207-.445.572.572 0 00-.418-.156.818.818 0 00-.25.038c-.066.037-.128.08-.184.13a.587.587 0 00-.143.198zm8.23-.745c.125.066.236.155.328.263v-.3h.534v2.465h-.535v-.3a.922.922 0 01-.327.25.903.903 0 01-.443.105 1.14 1.14 0 01-.482-.105 1.036 1.036 0 01-.643-.668c-.14-.329-.14-.7 0-1.03.05-.156.136-.299.25-.417a1.23 1.23 0 01.393-.263c.152-.064.317-.095.482-.09a.933.933 0 01.443.09zm.157 1.763a.98.98 0 00.143-.25l.005.002a.852.852 0 00.047-.315.749.749 0 00-.052-.312.63.63 0 00-.142-.25.612.612 0 00-.236-.17.794.794 0 00-.312-.065.722.722 0 00-.535.235.608.608 0 00-.145.25.836.836 0 00-.05.313.764.764 0 00.05.3.7.7 0 00.38.417.75.75 0 00.612 0 .75.75 0 00.236-.155z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M30.175 43.115a.568.568 0 01-.25.05l-.155-.025a.19.19 0 01-.117-.078.55.55 0 01-.093-.145.967.967 0 01-.025-.207v-1.07h.86v-.5h-.86v-.75H29v.75h-.5v.5h.5v1.082c-.02.26.06.516.223.718a.89.89 0 00.652.235 1.07 1.07 0 00.418-.078c.08-.027.158-.062.232-.105l-.182-.457a.386.386 0 01-.168.08zm4.838-2.022a1.032 1.032 0 00-.405.077.842.842 0 00-.3.3v-.325h-.5v2.465h.5v-1.36a.877.877 0 01.04-.273.674.674 0 01.13-.21.38.38 0 01.182-.13.628.628 0 01.235-.04h.21l.103.04.157-.522-.13-.025-.222.002zm7.447 0a1.001 1.001 0 00-.403.077.803.803 0 00-.3.3v-.325h-.5v2.465h.5v-1.36a.6.6 0 01.05-.273.473.473 0 01.118-.21.38.38 0 01.183-.13.628.628 0 01.235-.04h.21l.105.04.154-.522-.13-.025-.222.002z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M44.965 41.445v-1.292h.535v3.457h-.535v-.3a.786.786 0 01-.313.25.968.968 0 01-.457.105 1.251 1.251 0 01-.483-.105 1.283 1.283 0 01-.39-.25 1.403 1.403 0 01-.25-.418 1.517 1.517 0 010-1.03c.06-.151.145-.292.25-.417.116-.107.248-.196.39-.263.154-.062.318-.092.483-.09a1 1 0 01.458.09.91.91 0 01.312.263zm-.17 1.502a.999.999 0 00.157-.25 1.34 1.34 0 00.053-.315 1.121 1.121 0 00-.053-.312.698.698 0 00-.157-.25.592.592 0 00-.235-.17.72.72 0 00-.3-.065.794.794 0 00-.313.065.83.83 0 00-.235.17 1.159 1.159 0 00-.142.25 1.14 1.14 0 00-.053.313 1 1 0 00.053.3 1.1 1.1 0 00.142.25.605.605 0 00.235.17.75.75 0 00.613 0 .75.75 0 00.235-.156z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M36.305 41.81a.787.787 0 01.547-.223.952.952 0 01.326.066.48.48 0 01.25.157l.25-.43a1.22 1.22 0 00-.848-.288 1.442 1.442 0 00-.535.09 1.332 1.332 0 00-.418.276 1.25 1.25 0 00-.275.404c-.136.33-.136.7 0 1.03a1.272 1.272 0 00.693.678c.17.068.352.104.535.105.18-.001.357-.037.523-.105.114-.05.222-.111.325-.182l-.25-.43a.75.75 0 01-.25.157c-.106.03-.215.047-.325.05a1.183 1.183 0 01-.313-.05.766.766 0 01-.235-.17.697.697 0 01-.17-.25.844.844 0 01-.052-.315.906.906 0 01.052-.325.655.655 0 01.17-.245z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorsmastercard64',
+            x1: 58.871,
+            x2: 58.871,
+            y1: 52.603,
+            y2: 15.556,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#0B0A0C' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.27, 'stop-color': '#100F12' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.63, 'stop-color': '#1F1E22' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#35333A' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsOney64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        d: 'M8.037 50.625h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M37.853 27.427c-.095-.01-.189-.02-.283-.032l-.12-.003c-.055.018-.108.018-.163.018-.8.029-1.577.273-2.25.707a4.75 4.75 0 00-2.042 5c.485 2.328 2.72 4.198 5.398 3.666a4.625 4.625 0 003.164-2.11 3.37 3.37 0 00.146-.251c.028-.053.057-.105.087-.157l-.063-.02H39.99a.198.198 0 00-.125.06c-.58.598-1.373.94-2.205.95a2.97 2.97 0 01-3-2.393.328.328 0 010-.07h7.398a5.93 5.93 0 00-.026-1.532 4.627 4.627 0 00-3.58-3.75 6.273 6.273 0 00-.6-.083zm2.414 3.85h-5.562a2.872 2.872 0 012.968-2.25c1.222.06 2.572 1.215 2.594 2.25zm-21.973-3.849a7.34 7.34 0 01-.214-.033l-.675.003-.234.035a4.662 4.662 0 00-4.143 4.215.9.9 0 01-.026.112v.75a.568.568 0 00.013.055c.007.029.015.058.015.088.064.409.16.813.288 1.207.767 1.91 2.22 2.932 4.267 3.028a4.455 4.455 0 003.75-1.638 4.77 4.77 0 00-2.555-7.74 8.958 8.958 0 00-.486-.082zm2.49 4.511l.024.206a3.133 3.133 0 01-2.625 3.105 3.062 3.062 0 01-3.413-2.315 3.135 3.135 0 011.925-3.733 3.05 3.05 0 014.027 2.28c.03.15.046.304.063.457z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M44.227 39.608c.45-1.099.899-2.197 1.346-3.295a.277.277 0 000-.18c-1.215-2.91-2.434-5.82-3.656-8.73h1.9a.83.83 0 00.018.067l2.637 6.465c0 .023.023.042.045.085.03-.068.05-.113.068-.158.333-.815.667-1.624 1-2.427.547-1.345 1.095-2.69 1.645-4.032H51a3.47 3.47 0 01-.042.152l-3.563 8.685a959.81 959.81 0 01-1.388 3.375l-1.78-.008zM28.093 27.395c.237.038.482.06.715.12 1.5.387 2.57 1.25 2.974 2.81.094.39.14.79.136 1.19.015 1.75 0 3.487 0 5.23v.123h-1.72v-5.175c0-.371-.04-.74-.12-1.103a1.955 1.955 0 00-1.595-1.55 3.581 3.581 0 00-1.563 0 2.03 2.03 0 00-1.675 1.773 5.65 5.65 0 00-.073.917v5.135h-1.704c0-.028 0-.055-.013-.083v-5.48a3.668 3.668 0 011.313-2.895 4.203 4.203 0 012.354-1l.158-.027.813.015z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX364 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M51.75 32c0 10.908-8.842 19.75-19.75 19.75S12.25 42.908 12.25 32 21.092 12.25 32 12.25 51.75 21.092 51.75 32zm-25.825 6.513c-1.4 0-2.553-.316-3.46-.948A4.528 4.528 0 0120.643 35l2.862-.84c.159.487.477.906.903 1.19a2.717 2.717 0 001.557.43c.492.013.974-.145 1.363-.447a1.5 1.5 0 00.56-1.25 1.425 1.425 0 00-.6-1.233 2.588 2.588 0 00-1.538-.43h-1.582v-2.48h1.515c.508.034 1.014-.1 1.44-.38.333-.255.5-.672.5-1.25a1.33 1.33 0 00-.5-1.092 1.858 1.858 0 00-1.208-.403c-.958 0-1.6.5-1.922 1.5l-2.98-.84a4.07 4.07 0 01.552-1.25c.272-.405.603-.768.983-1.075.439-.348.94-.61 1.477-.77a6.265 6.265 0 011.93-.282c1.445 0 2.617.341 3.515 1.024a3.295 3.295 0 011.348 2.773 3.358 3.358 0 01-.483 1.855 2.715 2.715 0 01-1.362 1.085v.02a2.96 2.96 0 011.5 1.162 3.6 3.6 0 01.61 2.118 3.963 3.963 0 01-1.428 3.17c-.945.805-2.188 1.208-3.73 1.208zM42.96 27.5l-3.75 5.225 3.69 5.525h-3.662l-1.903-2.862-1.75 2.862h-3.5l3.573-5.343L32.1 27.5h3.662l1.855 2.802 1.855-2.802h3.487z',
+      },
+    },
+  ],
+}
+export const CardsColorsOneyX464 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#81BC00',
+        'fill-rule': 'evenodd',
+        d: 'M51.75 32c0 10.908-8.842 19.75-19.75 19.75S12.25 42.908 12.25 32 21.092 12.25 32 12.25 51.75 21.092 51.75 32zm-21.956 6.52h-3.05v-3.03H20.54v-2.572l3.59-8.818h3.381l-3.485 8.631h2.718V29.62h3.05v3.112h1.535v2.76h-1.535v3.03zM42.959 27.5l-3.75 5.225 3.69 5.525h-3.662l-1.903-2.862-1.75 2.862h-3.5l3.573-5.343L32.1 27.5h3.662l1.855 2.802 1.855-2.802h3.487z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaylib64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#16D6FF',
+        d: 'M8.037 50.625h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M13 28h1.357v.45h.056a2.902 2.902 0 011.477-.545 4.949 4.949 0 011.535.082c.91.23 1.398.843 1.6 1.723a7.34 7.34 0 01.123 2.295 6.34 6.34 0 01-.175 1.315A2.152 2.152 0 0117.058 35c-.583.08-1.168.068-1.765.095v-1.4h.585c.25-.008.501-.03.75-.068a.843.843 0 00.72-.665c.071-.244.116-.495.135-.75a9.32 9.32 0 00-.04-1.94 4.69 4.69 0 00-.083-.352.865.865 0 00-.692-.61 2.79 2.79 0 00-1.22 0c-.463.108-.72.448-.75.975a5.434 5.434 0 00-.028.5V37.5h-1.5c-.123 0-.15-.028-.15-.138v-.677L13 28z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M42.818 23.605l-.11.012a8.372 8.372 0 00-4.75 1.358.32.32 0 00-.178.325c.006 1.269.006 2.537.006 3.807 0 1.269 0 2.538.006 3.808 0 .148.003.215.015.432.013.218.096.3.313.3h.883v1.438c-.174-.004-.345 0-.513.002-.422.007-.83.014-1.238-.082a1.312 1.312 0 01-1.1-1.14 4.5 4.5 0 01-.055-.735v-6.5h-.055c-1.84 2.39-2.367 5.233-1.5 7.94.868 2.708 2.755 4.492 5.47 5.458V30.5h1.738v9.852a8.27 8.27 0 007.55-3.364c1.983-2.755 2.233-5.743.733-8.796-1.14-2.322-3.053-3.732-5.566-4.397v8.542a3.71 3.71 0 00.016.408c.04.555.272.855.772.922.315.046.634.05.95.013.625-.053.895-.297 1.017-.922a7.59 7.59 0 00.028-2.483c-.095-.585-.435-.855-1.017-.895-.313-.015-.638-.015-.95-.015h-.163v-1.37h.055c.552-.01 1.105.008 1.655.055a2.15 2.15 0 012 1.805 7.624 7.624 0 010 3.25 2.267 2.267 0 01-1.695 1.818 5.63 5.63 0 01-2.81 0 1.808 1.808 0 01-1.385-1.383 4.608 4.608 0 01-.122-1.045v-8.89zm-2.24 6.258c-.433-.083-.666-.425-.666-.925l-.01.012c0-.582.285-.895.87-.935a1.88 1.88 0 01.393 0 .83.83 0 01.693.787v.313a.785.785 0 01-.75.773c-.177.019-.356.01-.53-.026z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M26.898 28h1.654v4.545c0 .187.013.373.04.557a.61.61 0 00.436.5c.499.16 1.036.156 1.532-.012a.648.648 0 00.475-.625 5.06 5.06 0 00.027-.475c.015-1.425.015-2.863.015-4.288V28h1.616c0 .055.012.108.012.163 0 2.51-.004 5.02-.012 7.532a3.568 3.568 0 01-.083.75 1.21 1.21 0 01-1 .977c-.53.123-1.155.056-1.75.08v-1.37h.895a.273.273 0 00.273-.25v-.91l-1.14.083a4.248 4.248 0 01-1.643-.218 1.907 1.907 0 01-1.33-1.765c-.015-.25-.015-.515-.015-.772v-4.112L26.898 28z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        'fill-rule': 'evenodd',
+        d: 'M26 35.072V28h-1.407v.475a2.5 2.5 0 00-1-.488 5.25 5.25 0 00-1.453-.082c-1.207.095-1.9.692-2.172 1.875a9.001 9.001 0 00-.12 2.332c.01.357.055.712.135 1.06.182.84.645 1.473 1.5 1.723a4.022 4.022 0 002.267.055c.204-.06.404-.137.595-.23v.352H26zm-1.64-3.815l-.002.19v1.1c-.018.668-.338 1.073-1.018 1.168a3.668 3.668 0 01-.95-.028.842.842 0 01-.733-.637 3.001 3.001 0 01-.134-.787c0-.32.01-.638.02-.954.01-.312.02-.623.02-.934.02-.128.047-.255.082-.38a.923.923 0 01.855-.718c.325-.027.652-.027.977 0 .555.068.84.42.88 1.03.008.096.004.19 0 .286-.003.095-.007.19 0 .285.01.126.007.253.004.38z',
+      },
+    },
+  ],
+}
+export const CardsColorsPaypal64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: 'url(#fill-cardscolorspaypal64)',
+        d: 'M8.037 50.375a2.415 2.415 0 01-2.412-2.41v-31.93a2.415 2.415 0 012.412-2.41h47.925a2.415 2.415 0 012.413 2.41v31.93a2.415 2.415 0 01-2.413 2.41H8.038z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M8.037 13.375h47.925c1.47 0 2.662 1.19 2.663 2.66v31.93a2.662 2.662 0 01-2.663 2.66H8.038a2.662 2.662 0 01-2.662-2.66v-31.93a2.662 2.662 0 012.662-2.66zm50.088 2.66a2.165 2.165 0 00-2.163-2.16H8.038a2.165 2.165 0 00-2.162 2.16v31.93a2.165 2.165 0 002.162 2.16h47.925a2.165 2.165 0 002.163-2.16v-31.93z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M34.517 37.835h2.023c.678 0 1.185.178 1.475.515.273.376.365.854.25 1.305-.2 1.27-.968 1.915-2.3 1.915h-.638a.282.282 0 00-.274.237l-.23 1.47a.2.2 0 01-.196.168h-1.062a.173.173 0 01-.142-.195l.822-5.178a.27.27 0 01.273-.237zm1.055 2.62c.538 0 1.09 0 1.2-.727a.627.627 0 00-.1-.56c-.177-.208-.522-.208-.887-.208h-.137a.172.172 0 00-.168.137l-.212 1.358h.304z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        'fill-rule': 'evenodd',
+        d: 'M20.098 37.835h2.02c.677 0 1.187.178 1.485.502.271.378.363.857.25 1.308-.203 1.27-.97 1.915-2.303 1.915h-.635a.275.275 0 00-.275.237l-.23 1.398a.282.282 0 01-.273.25h-1A.17.17 0 0119 43.25l.823-5.178a.282.282 0 01.274-.237zm1.052 2.62c.538 0 1.093 0 1.203-.727a.65.65 0 00-.103-.56c-.177-.208-.523-.208-.887-.208h-.138a.168.168 0 00-.165.137l-.215 1.358h.305zm6.048-.75h.967l.033-.017a.17.17 0 01.14.194l-.526 3.313a.275.275 0 01-.274.25h-.896a.172.172 0 01-.142-.195l.035-.258a1.847 1.847 0 01-1.34.548 1.515 1.515 0 01-1.22-.5 1.828 1.828 0 01-.36-1.487 2.227 2.227 0 012.163-1.948c.465 0 .932.108 1.142.413l.067.097.043-.275a.17.17 0 01.168-.135zm-1.478 2.81a1.08 1.08 0 001.095-.925h-.003a.825.825 0 00-.165-.685.813.813 0 00-.642-.265 1.087 1.087 0 00-1.087.932.75.75 0 00.802.943z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        'fill-rule': 'evenodd',
+        d: 'M41.615 39.705h.97l.03.003a.165.165 0 01.135.195l-.528 3.307a.28.28 0 01-.272.25h-.898a.172.172 0 01-.142-.195l.045-.273a1.847 1.847 0 01-1.34.548 1.515 1.515 0 01-1.22-.5 1.828 1.828 0 01-.363-1.487 2.227 2.227 0 012.163-1.948c.465 0 .935.108 1.142.413l.068.097.045-.275a.17.17 0 01.165-.135zm-1.475 2.81a1.083 1.083 0 001.095-.925v-.013a.843.843 0 00-.165-.69.822.822 0 00-.648-.25 1.082 1.082 0 00-1.084.93.75.75 0 00.802.948z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M33.318 39.705h-.973a.28.28 0 00-.233.123l-1.347 1.977-.567-1.9a.283.283 0 00-.276-.2h-.957a.168.168 0 00-.168.17.192.192 0 000 .053l1.073 3.147-1 1.422a.168.168 0 00.137.266h.973a.28.28 0 00.23-.12l3.25-4.673a.17.17 0 00-.043-.235.168.168 0 00-.1-.03z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#179BD7',
+        d: 'M43.725 37.977l-.83 5.273a.17.17 0 00.14.195h.868a.275.275 0 00.275-.25L45 38.03a.165.165 0 00-.14-.193h-.96a.167.167 0 00-.175.14zm-4.937-14.392c-.018.1-.035.205-.055.31-.703 3.605-3.1 4.855-6.165 4.855H31a.75.75 0 00-.75.642l-.8 5.066-.225 1.434a.398.398 0 00.392.463h2.768a.665.665 0 00.657-.563l.028-.14.52-3.305.035-.182a.665.665 0 01.657-.563h.413c2.682 0 4.78-1.087 5.392-4.25.25-1.314.125-2.415-.552-3.187a2.681 2.681 0 00-.747-.58z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#222D65',
+        d: 'M38.053 23.293a4.55 4.55 0 00-.33-.085 6.792 6.792 0 00-.353-.068 8.705 8.705 0 00-1.375-.1h-4.167a.667.667 0 00-.657.565l-.886 5.615-.025.165a.75.75 0 01.75-.643h1.56c3.065 0 5.462-1.25 6.165-4.845.02-.104.038-.21.055-.31a3.78 3.78 0 00-.578-.25l-.16-.044z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#253B80',
+        d: 'M31.17 23.602a.667.667 0 01.657-.564H36c.46-.004.92.03 1.375.1.12.02.237.042.352.067.113.025.223.053.33.085l.158.047c.2.068.392.151.577.25.208-1.332 0-2.25-.722-3.057-.797-.905-2.227-1.28-4.07-1.28h-5.308a.75.75 0 00-.75.642l-2.215 14.04a.455.455 0 00.45.528h3.283l1.71-10.858z',
+      },
+    },
+    {
+      tagName: 'defs',
+      children: [
+        {
+          tagName: 'linearGradient',
+          attrs: {
+            id: 'fill-cardscolorspaypal64',
+            x1: 32.839,
+            x2: 66.695,
+            y1: 70.108,
+            y2: 21.774,
+            gradientUnits: 'userSpaceOnUse',
+          },
+          children: [
+            { tagName: 'stop', attrs: { 'stop-color': '#fff' } },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.4, 'stop-color': '#F9F9F9' },
+            },
+            {
+              tagName: 'stop',
+              attrs: { offset: 0.93, 'stop-color': '#E9E9E9' },
+            },
+            { tagName: 'stop', attrs: { offset: 1, 'stop-color': '#E6E6E6' } },
+          ],
+        },
+      ],
+    },
+  ],
+}
+export const CardsColorsVisa64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M8.037 50.625h47.925a2.66 2.66 0 002.663-2.66v-31.93a2.66 2.66 0 00-2.663-2.66H8.038a2.66 2.66 0 00-2.662 2.66v31.93a2.66 2.66 0 002.662 2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#DDD',
+        'fill-rule': 'evenodd',
+        d: 'M8.037 13.375h47.925c1.47 0 2.662 1.19 2.663 2.66v31.93a2.662 2.662 0 01-2.663 2.66H8.038a2.662 2.662 0 01-2.662-2.66v-31.93a2.662 2.662 0 012.662-2.66zm50.088 2.66a2.165 2.165 0 00-2.163-2.16H8.038a2.165 2.165 0 00-2.162 2.16v31.93a2.165 2.165 0 002.162 2.16h47.925a2.165 2.165 0 002.163-2.16v-31.93z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M55.962 13.375H8.038a2.662 2.662 0 00-2.662 2.66v5.323h53.25v-5.323a2.662 2.662 0 00-2.663-2.66z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#F7B601',
+        d: 'M5.375 42.642v5.323a2.662 2.662 0 002.662 2.66h47.925c1.47 0 2.662-1.19 2.663-2.66v-5.323H5.375z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M24.883 37.66l1.925-11.292h3.082L27.962 37.66h-3.08zm14.234-11.008a7.897 7.897 0 00-2.75-.475c-3.04 0-5.184 1.535-5.197 3.72 0 1.628 1.532 2.523 2.7 3.066 1.168.542 1.588.91 1.588 1.4-.013.75-.95 1.112-1.846 1.112a6.463 6.463 0 01-2.89-.598l-.395-.177-.432 2.525c.718.313 2.047.582 3.433.597 3.23 0 5.32-1.5 5.347-3.855 0-1.29-.8-2.264-2.578-3.067-1.072-.515-1.75-.867-1.724-1.397.025-.53.557-.978 1.75-.978a5.657 5.657 0 012.307.435l.273.135.42-2.442',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        'fill-rule': 'evenodd',
+        d: 'M44.627 26.383h2.39v-.015L49.5 37.645h-2.85s-.285-1.288-.38-1.683h-3.935l-.653 1.698h-3.23l4.576-10.342c.31-.733.867-.936 1.6-.936zm-.19 4.11l-1.22 3.15 2.55-.008-.705-3.25-.217-.978-.21.559c-.11.293-.205.543-.197.526z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#1B2070',
+        d: 'M11.54 26.367h4.96l-.005.005c.677.028 1.207.245 1.397.965l1.06 5.065a2.5 2.5 0 01.038.113l.313 1.563 3-7.696h3.27L20.74 37.645h-3.25l-2.725-9.777a12.792 12.792 0 00-3.265-1.25l.04-.25z',
+      },
+    },
+  ],
+}
+export const ColorsRelayLocation64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006902',
+        'fill-rule': 'evenodd',
+        d: 'M32 5C19.578 5.011 9.511 15.078 9.5 27.5c0 11.24 17.63 27.65 21.17 30.83a2 2 0 002.66-.01C36.87 55.15 54.5 38.74 54.5 27.5 54.489 15.078 44.422 5.011 32 5z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M43 19.34L38.48 22l-10.92-6.56 3.44-2a2 2 0 012 0l10 5.9zm-22 0l4.58-2.71 10.94 6.54L32 25.84l-11-6.5zm12 8.21v13l10-5.9a2 2 0 001-1.72V21.07l-11 6.48zm-13-6.48l11 6.52v13l-10-5.94a2 2 0 01-1-1.72V21.07z',
+      },
+    },
+  ],
+}
+export const ColorsStoreLocation64 = {
+  viewBox: '0 0 64 64',
+  size: '4rem',
+  paths: [
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#006902',
+        'fill-rule': 'evenodd',
+        d: 'M32 5C19.578 5.011 9.511 15.078 9.5 27.5c0 11.24 17.63 27.65 21.17 30.83a2 2 0 002.66-.01C36.87 55.15 54.5 38.74 54.5 27.5 54.489 15.078 44.422 5.011 32 5z',
+      },
+    },
+    {
+      tagName: 'path',
+      attrs: {
+        fill: '#fff',
+        d: 'M33.41 16.91l10.18 10.18a2 2 0 01-1.42 3.41H21.83a2 2 0 01-1.42-3.41l10.18-10.18a2 2 0 012.82 0z',
       },
     },
   ],

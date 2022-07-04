@@ -1,4 +1,4 @@
-<svelte:options tag="product-promise-warranty-32px" />
+<svelte:options tag={null} />
   <script>
   export let id = undefined;
   export let style = undefined;

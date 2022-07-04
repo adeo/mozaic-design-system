@@ -1,61 +1,63 @@
 $dividers: get-token(color, divider);
-$divider-positions: 'top', 'right', 'bottom', 'left';
-$color-divider-default: get-token(color, divider, 'default');
-$divider-border-size: get-border('s');
+$divider-positions: "top", "right", "bottom", "left";
+$color-divider-default: get-token(color, divider, "default");
+$divider-border-size-s: get-border("s");
+$divider-sizes: (
+  "s": get-border("s"),
+  "m": $mu025,
+  "l": $mu050,
+);
 
-@mixin divider-layout($position, $color, $width) {
+@mixin divider-layout($position, $color, $width, $size) {
+  $divider-border-size: map-get($divider-sizes, $size);
+
   background: get-token(color, divider, $color);
-  content: '';
+  content: "";
   display: block;
 
-  @if ($position == 'bottom' or $position == 'top') {
+  @if ($position == "bottom" or $position == "top") {
     margin: 0 auto;
     height: $divider-border-size;
     width: unquote($width);
-  }
-
-  @else if($position == 'left' or $position == 'right') {
+  } @else if ($position == "left" or $position == "right") {
     width: $divider-border-size;
     height: unquote($width);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 
-    @if $position == 'right' {
+    @if $position == "right" {
       right: 0;
-    }
-
-    @else if $position == 'left' {
+    } @else if $position == "left" {
       left: 0;
     }
   }
 }
 
-@mixin set-divider($position: 'bottom', $color: $color-divider-default, $width: '100%') {
-  @if ($position == 'top') {
+@mixin set-divider(
+  $position: "bottom",
+  $color: $color-divider-default,
+  $width: "100%",
+  $size: "s"
+) {
+  @if ($position == "top") {
     &::before {
-      @include divider-layout($position, $color, $width);
+      @include divider-layout($position, $color, $width, $size);
       @content;
     }
-  }
-
-  @else if($position == 'right') {
+  } @else if ($position == "right") {
     &::after {
-      @include divider-layout($position, $color, $width);
+      @include divider-layout($position, $color, $width, $size);
       @content;
     }
-  }
-
-  @else if($position == 'bottom') {
+  } @else if ($position == "bottom") {
     &::after {
-      @include divider-layout($position, $color, $width);
+      @include divider-layout($position, $color, $width, $size);
       @content;
     }
-  }
-
-  @else if($position == 'left') {
+  } @else if ($position == "left") {
     &::before {
-      @include divider-layout($position, $color, $width);
+      @include divider-layout($position, $color, $width, $size);
       @content;
     }
   }
