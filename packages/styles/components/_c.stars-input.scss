@@ -23,7 +23,7 @@
     @include set-focus-transition();
 
     background:
-      url(inline-icons("star-full-32", $color-star-full)) repeat-x
+      url(inline-icons("star-full-32", $color-star-full, $color-star-full)) repeat-x
       center center;
     border-radius: $stars-focus-radius;
     background-size: $stars-default-bg-size $stars-default-bg-size;
@@ -31,7 +31,7 @@
 
     &::before {
       background:
-        url(inline-icons("star-full-32", $color-star-hover)) repeat-x
+        url(inline-icons("star-full-32", $color-star-hover, $color-star-hover)) repeat-x
         left center;
       background-size: $stars-default-bg-size $stars-default-bg-size;
       content: "";
@@ -53,12 +53,12 @@
 
   :checked ~ &__label,
   :focus ~ &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-empty));
+    background-image: url(inline-icons("star-full-32", transparent, $color-star-full));
   }
 
   :checked + &__label,
   :focus + &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-full));
+    background-image: url(inline-icons("star-full-32", $color-star-full, $color-star-full));
   }
 
   :focus + &__label {
@@ -66,11 +66,11 @@
   }
 
   &__radio:hover ~ &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-empty));
+    background-image: url(inline-icons("star-full-32", transparent, $color-star-full));
   }
 
   &__radio:hover + &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-hover));
+    background-image: url(inline-icons("star-full-32", $color-star-hover, $color-star-hover));
 
     &::before {
       opacity: 1;
