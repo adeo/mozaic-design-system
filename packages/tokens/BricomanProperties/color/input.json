@@ -15,14 +15,14 @@
       },
       "checked": {
         "border": {
-          "value": "{color.primary-02.600.value}"
+          "value": "{color.primary-02.400.value}"
         },
         "background": {
-          "value": "{color.primary-02.600.value}"
+          "value": "{color.primary-02.400.value}"
         },
         "hover": {
           "border": {
-            "value": "{color.primary-02.600.value}"
+            "value": "{color.primary-02.400.value}"
           }
         }
       }
