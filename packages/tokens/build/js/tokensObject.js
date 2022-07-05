@@ -316,7 +316,7 @@ module.exports = {
       },
       "neutral": {
         "background": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -337,7 +337,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#887f87",
+          "value": "#808080",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -358,7 +358,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#554f52",
+          "value": "#4d4d4d",
           "filePath": "packages/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -555,11 +555,11 @@ module.exports = {
     },
     "primary-02": {
       "100": {
-        "value": "#dbedea",
+        "value": "#cfd2d8",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#DBEDEA"
+          "value": "#CFD2D8"
         },
         "name": "ColorPrimary02100",
         "attributes": {
@@ -574,11 +574,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#a5d1cb",
+        "value": "#cfd2d8",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#A5D1CB"
+          "value": "#CFD2D8"
         },
         "name": "ColorPrimary02200",
         "attributes": {
@@ -593,11 +593,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#6eb4ad",
+        "value": "#b3b7c1",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#6EB4AD"
+          "value": "#B3B7C1"
         },
         "name": "ColorPrimary02300",
         "attributes": {
@@ -612,11 +612,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#379590",
+        "value": "#8f94a3",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#379590"
+          "value": "#8F94A3"
         },
         "name": "ColorPrimary02400",
         "attributes": {
@@ -631,11 +631,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#007574",
+        "value": "#6a7081",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#007574"
+          "value": "#6A7081"
         },
         "name": "ColorPrimary02500",
         "attributes": {
@@ -650,11 +650,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#035f64",
+        "value": "#494f60",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#035F64"
+          "value": "#494F60"
         },
         "name": "ColorPrimary02600",
         "attributes": {
@@ -669,11 +669,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#044c53",
+        "value": "#343b4c",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#044C53"
+          "value": "#343B4C"
         },
         "name": "ColorPrimary02700",
         "attributes": {
@@ -688,11 +688,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#063a44",
+        "value": "#242938",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#063A44"
+          "value": "#242938"
         },
         "name": "ColorPrimary02800",
         "attributes": {
@@ -707,11 +707,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#062b35",
+        "value": "#171b26",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#062B35"
+          "value": "#171B26"
         },
         "name": "ColorPrimary02900",
         "attributes": {
@@ -728,11 +728,11 @@ module.exports = {
     },
     "grey": {
       "100": {
-        "value": "#eeeef0",
+        "value": "#e6e6e6",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EEEEF0"
+          "value": "#E6E6E6"
         },
         "name": "ColorGrey100",
         "attributes": {
@@ -747,11 +747,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#d3d2d6",
+        "value": "#cccccc",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#D3D2D6"
+          "value": "#CCCCCC"
         },
         "name": "ColorGrey200",
         "attributes": {
@@ -766,11 +766,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#bab6bc",
+        "value": "#b3b3b3",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#BAB6BC"
+          "value": "#B3B3B3"
         },
         "name": "ColorGrey300",
         "attributes": {
@@ -785,11 +785,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#a19ba2",
+        "value": "#999999",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#A19BA2"
+          "value": "#999999"
         },
         "name": "ColorGrey400",
         "attributes": {
@@ -804,11 +804,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#887f87",
+        "value": "#808080",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#887F87"
+          "value": "#808080"
         },
         "name": "ColorGrey500",
         "attributes": {
@@ -823,11 +823,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#6f676c",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#6F676C"
+          "value": "#666666"
         },
         "name": "ColorGrey600",
         "attributes": {
@@ -842,11 +842,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#554f52",
+        "value": "#4d4d4d",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#554F52"
+          "value": "#4D4D4D"
         },
         "name": "ColorGrey700",
         "attributes": {
@@ -861,11 +861,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#3c3738",
+        "value": "#333333",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#3C3738"
+          "value": "#333333"
         },
         "name": "ColorGrey800",
         "attributes": {
@@ -880,11 +880,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#222020",
+        "value": "#191919",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#222020"
+          "value": "#191919"
         },
         "name": "ColorGrey900",
         "attributes": {
@@ -2738,7 +2738,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2761,7 +2761,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2860,7 +2860,7 @@ module.exports = {
       },
       "solid-primary-02": {
         "background": {
-          "value": "#007574",
+          "value": "#6a7081",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -2903,7 +2903,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#062b35",
+            "value": "#171b26",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2928,7 +2928,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2951,7 +2951,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2976,7 +2976,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#062b35",
+            "value": "#171b26",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3001,7 +3001,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#063a44",
+            "value": "#242938",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3050,7 +3050,7 @@ module.exports = {
       },
       "solid-neutral": {
         "background": {
-          "value": "#3c3738",
+          "value": "#333333",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3093,7 +3093,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3118,7 +3118,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3141,7 +3141,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3166,7 +3166,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#3c3738",
+            "value": "#333333",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3191,7 +3191,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3308,7 +3308,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3331,7 +3331,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3519,7 +3519,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3542,7 +3542,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3639,7 +3639,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#007574",
+          "value": "#6a7081",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3660,7 +3660,7 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#007574",
+          "value": "#6a7081",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3682,7 +3682,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#062b35",
+            "value": "#171b26",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3707,7 +3707,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3730,7 +3730,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3755,7 +3755,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#a5d1cb",
+            "value": "#cfd2d8",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3780,7 +3780,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#dbedea",
+            "value": "#cfd2d8",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3827,7 +3827,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#3c3738",
+          "value": "#333333",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3848,7 +3848,7 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#3c3738",
+          "value": "#333333",
           "filePath": "packages/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3870,7 +3870,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3895,7 +3895,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3918,7 +3918,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3943,7 +3943,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3968,7 +3968,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#eeeef0",
+            "value": "#e6e6e6",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4083,7 +4083,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4106,7 +4106,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#6f676c",
+            "value": "#666666",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4202,7 +4202,7 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#bab6bc",
+        "value": "#b3b3b3",
         "filePath": "packages/tokens/properties/color/divider.json",
         "isSource": true,
         "original": {
@@ -4221,7 +4221,7 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "#6f676c",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/divider.json",
         "isSource": true,
         "original": {
@@ -4280,7 +4280,7 @@ module.exports = {
         ]
       },
       "label": {
-        "value": "#3c3738",
+        "value": "#333333",
         "filePath": "packages/tokens/properties/color/fields.json",
         "isSource": true,
         "original": {
@@ -4299,7 +4299,7 @@ module.exports = {
         ]
       },
       "requirement": {
-        "value": "#6f676c",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/fields.json",
         "isSource": true,
         "original": {
@@ -4318,7 +4318,7 @@ module.exports = {
         ]
       },
       "help": {
-        "value": "#6f676c",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/fields.json",
         "isSource": true,
         "original": {
@@ -4359,7 +4359,7 @@ module.exports = {
       },
       "files": {
         "list": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/fileuploder.json",
           "isSource": true,
           "original": {
@@ -4380,7 +4380,7 @@ module.exports = {
           ]
         },
         "delete": {
-          "value": "#d3d2d6",
+          "value": "#cccccc",
           "filePath": "packages/tokens/properties/color/fileuploder.json",
           "isSource": true,
           "original": {
@@ -4508,7 +4508,7 @@ module.exports = {
       },
       "solid-primary-02": {
         "background": {
-          "value": "#035f64",
+          "value": "#494f60",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -4529,7 +4529,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#035f64",
+          "value": "#494f60",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -4854,7 +4854,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#035f64",
+          "value": "#494f60",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -4875,7 +4875,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#035f64",
+          "value": "#494f60",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -5153,7 +5153,7 @@ module.exports = {
         ]
       },
       "primary-02": {
-        "value": "#007574",
+        "value": "#6a7081",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5191,7 +5191,7 @@ module.exports = {
         ]
       },
       "darker": {
-        "value": "#222020",
+        "value": "#191919",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5210,7 +5210,7 @@ module.exports = {
         ]
       },
       "dark": {
-        "value": "#3c3738",
+        "value": "#333333",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5229,7 +5229,7 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#6f676c",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5345,7 +5345,7 @@ module.exports = {
     },
     "input": {
       "text": {
-        "value": "#222020",
+        "value": "#191919",
         "filePath": "packages/tokens/properties/color/input.json",
         "isSource": true,
         "original": {
@@ -5364,7 +5364,7 @@ module.exports = {
         ]
       },
       "border": {
-        "value": "#6f676c",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/input.json",
         "isSource": true,
         "original": {
@@ -5383,7 +5383,7 @@ module.exports = {
         ]
       },
       "placeholder": {
-        "value": "#887f87",
+        "value": "#808080",
         "filePath": "packages/tokens/properties/color/input.json",
         "isSource": true,
         "original": {
@@ -5422,7 +5422,7 @@ module.exports = {
       },
       "disabled": {
         "border": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5443,7 +5443,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5464,7 +5464,7 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#a19ba2",
+          "value": "#999999",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5487,7 +5487,7 @@ module.exports = {
       },
       "hover": {
         "border": {
-          "value": "#222020",
+          "value": "#191919",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5742,7 +5742,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#3c3738",
+          "value": "#333333",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5763,7 +5763,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#3c3738",
+          "value": "#333333",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5784,7 +5784,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5805,7 +5805,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#6f676c",
+          "value": "#666666",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5849,7 +5849,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#d3d2d6",
+          "value": "#cccccc",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5870,7 +5870,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#d3d2d6",
+          "value": "#cccccc",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5891,7 +5891,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5912,7 +5912,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#a19ba2",
+          "value": "#999999",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5998,7 +5998,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6042,7 +6042,7 @@ module.exports = {
       },
       "primary-02": {
         "base": {
-          "value": "#035f64",
+          "value": "#494f60",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6063,7 +6063,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#044c53",
+          "value": "#343b4c",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6084,7 +6084,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#044c53",
+          "value": "#343b4c",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6105,7 +6105,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6126,7 +6126,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#062b35",
+          "value": "#171b26",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6212,7 +6212,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6454,7 +6454,7 @@ module.exports = {
     },
     "progress": {
       "background": {
-        "value": "#d3d2d6",
+        "value": "#cccccc",
         "filePath": "packages/tokens/properties/color/progressbar.json",
         "isSource": true,
         "original": {
@@ -6493,7 +6493,7 @@ module.exports = {
       },
       "percentage": {
         "default": {
-          "value": "#222020",
+          "value": "#191919",
           "filePath": "packages/tokens/properties/color/progressbar.json",
           "isSource": true,
           "original": {
@@ -6561,7 +6561,7 @@ module.exports = {
     },
     "star": {
       "empty": {
-        "value": "#d3d2d6",
+        "value": "#cccccc",
         "filePath": "packages/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
@@ -6677,7 +6677,7 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "#222020",
+        "value": "#191919",
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
@@ -6715,7 +6715,7 @@ module.exports = {
         ]
       },
       "disabled": {
-        "value": "#6f676c",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
@@ -6799,7 +6799,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#887f87",
+            "value": "#808080",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6822,7 +6822,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6847,7 +6847,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6943,7 +6943,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#887f87",
+            "value": "#808080",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6966,7 +6966,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6990,7 +6990,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#eeeef0",
+              "value": "#e6e6e6",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7016,7 +7016,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#d3d2d6",
+              "value": "#cccccc",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7043,7 +7043,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7113,7 +7113,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#3c3738",
+              "value": "#333333",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7139,7 +7139,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#554f52",
+              "value": "#4d4d4d",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7191,7 +7191,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#887f87",
+            "value": "#808080",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7214,7 +7214,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7338,7 +7338,7 @@ module.exports = {
           },
           "disabled": {
             "background": {
-              "value": "#eeeef0",
+              "value": "#e6e6e6",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7362,7 +7362,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#887f87",
+              "value": "#808080",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7466,7 +7466,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7610,7 +7610,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#222020",
+              "value": "#191919",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7684,7 +7684,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#222020",
+              "value": "#191919",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7737,7 +7737,7 @@ module.exports = {
           },
           "disabled": {
             "background": {
-              "value": "#554f52",
+              "value": "#4d4d4d",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7761,7 +7761,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#887f87",
+              "value": "#808080",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7790,7 +7790,7 @@ module.exports = {
       "removable": {
         "light": {
           "background": {
-            "value": "#3c3738",
+            "value": "#333333",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7836,7 +7836,7 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7860,7 +7860,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#554f52",
+              "value": "#4d4d4d",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7886,7 +7886,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#6f676c",
+              "value": "#666666",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7913,7 +7913,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#d3d2d6",
+            "value": "#cccccc",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7936,7 +7936,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7959,7 +7959,7 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#222020",
+            "value": "#191919",
             "filePath": "packages/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7983,7 +7983,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#bab6bc",
+              "value": "#b3b3b3",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8009,7 +8009,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#a19ba2",
+              "value": "#999999",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8039,7 +8039,7 @@ module.exports = {
     "toggle": {
       "off": {
         "background": {
-          "value": "#6f676c",
+          "value": "#666666",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8127,7 +8127,7 @@ module.exports = {
       },
       "hover": {
         "circle": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8150,7 +8150,7 @@ module.exports = {
       },
       "disabled": {
         "background": {
-          "value": "#eeeef0",
+          "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8171,7 +8171,7 @@ module.exports = {
           ]
         },
         "circle": {
-          "value": "#bab6bc",
+          "value": "#b3b3b3",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
