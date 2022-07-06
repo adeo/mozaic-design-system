@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.36.3](https://github.com/adeo/mozaic-design-system/compare/v1.36.2...v1.36.3) (2022-06-23)
+
+
+### Bug Fixes
+
+* **component/grid:** enhance loop to remove stylelint issue ([#1160](https://github.com/adeo/mozaic-design-system/issues/1160)) ([eceb4a4](https://github.com/adeo/mozaic-design-system/commit/eceb4a4a387f2035c6a86f892a0ba0cc53e7beb7))
+
+
+
+
+
+## [1.36.2](https://github.com/adeo/mozaic-design-system/compare/v1.36.1...v1.36.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* **component/modal:** use fill-available ([#1158](https://github.com/adeo/mozaic-design-system/issues/1158)) ([4c9f332](https://github.com/adeo/mozaic-design-system/commit/4c9f332508743e177dbb688283204cce61829e55))
+
+
+
+
+
 # [1.35.0](https://github.com/adeo/mozaic-design-system/compare/v1.34.0...v1.35.0) (2022-06-08)
 
 

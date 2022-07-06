@@ -105,7 +105,7 @@
 @include make-flexy-col(5, 6, $major-screens);
 @include make-flexy-col-push(5, 6, $major-screens);
 // base 12
-@for $i from 1 through 12 {
+@for $i from 1 through 11 {
   @include make-flexy-col($i, 12, $major-screens);
   @include make-flexy-col-push($i, 12, $major-screens);
 }

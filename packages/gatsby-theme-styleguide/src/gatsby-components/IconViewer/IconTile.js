@@ -97,6 +97,8 @@ export default class IconTile extends Component {
   changeIconSize(size) {
     this.setState({ currentSize: size })
   }
+  createComponentName = (str) =>
+    str.replace(/_/g, '-').replace('.svg', '').toLowerCase()
 
   buildIconData(name, icons) {
     let dataIcon = {
@@ -219,6 +221,21 @@ export default class IconTile extends Component {
               <TechnicalName
                 keyName="React/vue : "
                 value={this.state.allIcon[this.state.currentSize].component}
+              />
+            }
+          />
+        )}
+        {this.state.allIcon[this.state.currentSize].fileName && (
+          <Copy
+            value={this.createComponentName(
+              this.state.allIcon[this.state.currentSize].fileName
+            )}
+            children={
+              <TechnicalName
+                keyName="Web Component : "
+                value={this.createComponentName(
+                  this.state.allIcon[this.state.currentSize].fileName
+                )}
               />
             }
           />
