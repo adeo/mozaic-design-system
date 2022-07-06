@@ -24,7 +24,7 @@ const transpilers = {
 const declareWebRegistry = (parsedName, icon) => {
   const tag = icon.fileName.replace(/_/g, '-').replace('.svg', '').toLowerCase()
   return `if (!customElements.get('${tag}')) {
-  customElements.define('${tag}', ${parsedName}.js);
+  customElements.define('${tag}', ${parsedName});
 }
 `
 }
@@ -35,13 +35,11 @@ const generateIconComponent = (framework, icons) =>
       // Generate import statement in index.js file
       icons.map((icon) => {
         const parsedName = createComponentName(icon.fileName)
-
         const importStatement = `import ${parsedName} from './icons/${parsedName}.js';\n`
-
         const writeIndex = path.join(
           process.cwd(),
           config.outputPaths[framework],
-          'index.js'
+          'icons.js'
         )
 
         fs.appendFile(writeIndex, importStatement, 'utf8', (err) => {
@@ -57,7 +55,7 @@ const generateIconComponent = (framework, icons) =>
         const writeIndex = path.join(
           process.cwd(),
           config.outputPaths[framework],
-          'index.js'
+          'icons.js'
         )
         const writePath = path.join(
           process.cwd(),

@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;}.cls-2{fill:#191919;}</style></defs><title>Navigation_Display_Other_24px</title><g id="Square"><rect class="cls-1" width="24" height="24"/></g><g id="Calque_5" data-name="Calque 5"><g id="Autre"><circle class="cls-2" cx="12" cy="12" r="2"/><circle class="cls-2" cx="6" cy="12" r="2"/><circle class="cls-2" cx="18" cy="12" r="2"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g id="Square"> </g>
+  <path fill-rule="evenodd" d="M7 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm14 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-9 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+</svg>
