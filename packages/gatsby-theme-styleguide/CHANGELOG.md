@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.6](https://github.com/adeo/mozaic-design-system/compare/v1.37.0...v2.0.0-rc.6) (2022-07-06)
+
+**Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
 # [1.37.0](https://github.com/adeo/mozaic-design-system/compare/v1.36.3...v1.37.0) (2022-06-24)
 
 
