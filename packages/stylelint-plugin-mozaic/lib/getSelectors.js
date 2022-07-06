@@ -1,14 +1,13 @@
-const stylelint = require('stylelint')
-const resolveNestedSelector = require('postcss-resolve-nested-selector')
-const parseSelector = require('postcss-selector-parser')
+const resolvedNestedSelector = require('postcss-resolve-nested-selector')
+const parser = require('postcss-selector-parser')
 
 const selector = (rule, result) => {
   const selector = rule.selector
   const selectorDef = []
 
-  resolveNestedSelector(selector, rule).forEach((selectorB) => {
+  resolvedNestedSelector(selector, rule).forEach((resolvedSelector) => {
     try {
-      parseSelector((parsedSelector) => {
+      parser((parsedSelector) => {
         parsedSelector.each((selectorNode) => {
           selectorNode.walk((s) => {
             selectorDef.push({
@@ -17,11 +16,12 @@ const selector = (rule, result) => {
             })
           })
         })
-      }).process(selectorB)
+      }).process(resolvedSelector)
     } catch (e) {
       result.warn('Cannot parse selector', {})
     }
   })
+
   return selectorDef
 }
 
