@@ -8,7 +8,7 @@
         "value": "{color.secondary-blue.500.value}"
       },
       "full": {
-        "value": "{color.secondary-orange.500.value}"
+        "value": "#EA7315"
       },
       "hover": {
         "value": "{color.secondary-orange.300.value}"

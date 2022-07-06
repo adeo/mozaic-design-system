@@ -1,28 +1,34 @@
 $stars: get-token(color, star);
-
 $stars-sizes: (
   "s": (
     "width": $mu100,
     "height": $mu100,
     "icon": "star-full-16",
+    "icon-empty": "star-empty-16",
+    "icon-full": "star-full-16",
   ),
   "m": (
     "width": $mu150,
     "height": $mu150,
     "icon": "star-full-24",
+    "icon-empty": "star-empty-24",
+    "icon-full": "star-full-24",
   ),
   "l": (
     "width": $mu200,
     "height": $mu200,
     "icon": "star-full-32",
+    "icon-empty": "star-empty-32",
+    "icon-full": "star-full-32",
   ),
   "xl": (
     "width": $mu300,
     "height": $mu300,
     "icon": "star-full-48",
+    "icon-empty": "star-empty-48",
+    "icon-full": "star-full-48",
   ),
 );
-
 $stars-sizes-label: (
   "s": (
     "font-size": "04",
@@ -41,7 +47,6 @@ $stars-sizes-label: (
     "line-height": "xs",
   ),
 );
-
 $stars-focus-border: get-border("m");
 $stars-focus-radius: get-border-radius("m");
 $stars-default-size: map-get($stars-sizes, "m");
@@ -66,18 +71,20 @@ $stars-default-bg-size: map-deep-get($stars-sizes, "m", "width");
 
 @mixin set-stars-background($sizeProps, $type: "input") {
   $icon: map-get($sizeProps, "icon");
+  $icon-empty: map-get($sizeProps, "icon-empty");
+  $icon-full: map-get($sizeProps, "icon-full");
   $icon-color-default: $color-star-full;
   $icon-color-before: $color-star-hover;
 
   @if $type == "result" {
-    $icon-color-default: $color-star-empty;
+    $icon-color-default: $color-star-full;
     $icon-color-before: $color-star-full;
   }
 
-  background-image: url(inline-icons($icon, $icon-color-default));
+  background-image: url(inline-icons($icon-empty, $icon-color-default));
 
   &::before {
-    background-image: url(inline-icons($icon, $icon-color-before));
+    background-image: url(inline-icons($icon-full, $icon-color-before));
   }
 }
 

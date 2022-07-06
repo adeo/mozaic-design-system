@@ -22,17 +22,17 @@
     @include set-stars-size($stars-default-size);
     @include set-focus-transition();
 
-    background:
-      url(inline-icons("star-full-32", $color-star-full, $color-star-full)) repeat-x
-      center center;
-    border-radius: $stars-focus-radius;
+    background-image: url(inline-icons("star-full-32", $color-star-full));
+    background-position: center center;
+    background-repeat: repeat-x;
     background-size: $stars-default-bg-size $stars-default-bg-size;
+    border-radius: $stars-focus-radius;
     cursor: pointer;
 
     &::before {
-      background:
-        url(inline-icons("star-full-32", $color-star-hover, $color-star-hover)) repeat-x
-        left center;
+      background-image: url(inline-icons("star-full-32", $color-star-full));
+      background-position: left center;
+      background-repeat: repeat-x;
       background-size: $stars-default-bg-size $stars-default-bg-size;
       content: "";
       left: 0;
@@ -53,12 +53,12 @@
 
   :checked ~ &__label,
   :focus ~ &__label {
-    background-image: url(inline-icons("star-full-32", transparent, $color-star-full));
+    background-image: url(inline-icons("star-empty-32", $color-star-full));
   }
 
   :checked + &__label,
   :focus + &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-full, $color-star-full));
+    background-image: url(inline-icons("star-full-32", $color-star-full));
   }
 
   :focus + &__label {
@@ -66,11 +66,11 @@
   }
 
   &__radio:hover ~ &__label {
-    background-image: url(inline-icons("star-full-32", transparent, $color-star-full));
+    background-image: url(inline-icons("star-empty-32", $color-star-full));
   }
 
   &__radio:hover + &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-hover, $color-star-hover));
+    background-image: url(inline-icons("star-full-32", $color-star-full));
 
     &::before {
       opacity: 1;
@@ -82,16 +82,41 @@
       @if ($size != "m") {
         @include set-stars-container($props);
 
-        #{$parent}__label {
-          @include set-stars-size($props);
 
-          /* fix for ie11 */
-          $bg-variation-size: map-deep-get($stars-sizes, $size, "width");
+        $bg-variation-size: map-deep-get($stars-sizes, $size, "width"); // fix for ie11
+        $icon-empty: map-deep-get($stars-sizes, $size, "icon-empty");
+        $icon-full: map-deep-get($stars-sizes, $size, "icon-full");
 
-          background-size: $bg-variation-size $bg-variation-size;
+        #{$parent} {
+          &__label {
+            @include set-stars-size($props);
 
-          &::before {
             background-size: $bg-variation-size $bg-variation-size;
+            background-image: url(inline-icons($icon-full, $color-star-full));
+
+            &::before {
+              background-image: url(inline-icons($icon-full, $color-star-full));
+              background-size: $bg-variation-size $bg-variation-size;
+            }
+          }
+
+
+          :checked ~ &__label,
+          :focus ~ &__label {
+            background-image: url(inline-icons($icon-empty, $color-star-full));
+          }
+
+          :checked + &__label,
+          :focus + &__label {
+            background-image: url(inline-icons($icon-full, $color-star-full));
+          }
+
+          &__radio:hover ~ &__label {
+            background-image: url(inline-icons($icon-empty, $color-star-full));
+          }
+
+          &__radio:hover + &__label {
+            background-image: url(inline-icons($icon-full, $color-star-full));
           }
         }
       }
