@@ -1,9 +1,9 @@
-var testRule = require('stylelint-test-rule-tape')
-var mozaicBemPattern = require('../index.js')
+const { ruleName } = require('.')
 
 // kebab-case test
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: 'kebab-case',
     bemEntitiesDelimiters: {
@@ -13,8 +13,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
@@ -33,7 +31,7 @@ testRule(mozaicBemPattern.rule, {
       code: `.ml-Container {}`,
       message:
         'Invalid class syntax: ".ml-Container" should be "kebab-case" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
       line: 1,
       column: 1,
@@ -45,15 +43,16 @@ testRule(mozaicBemPattern.rule, {
       `,
       message:
         'Invalid class syntax: ".mcBlock-name__element-name" should be "kebab-case" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
     },
   ],
 })
 
 //  test camelCase
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: 'camelCase',
     bemEntitiesDelimiters: {
@@ -63,8 +62,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
@@ -83,7 +80,7 @@ testRule(mozaicBemPattern.rule, {
       code: `.ml-Container {}`,
       message:
         'Invalid class syntax: ".ml-Container" should be "camelCase" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
       line: 1,
       column: 1,
@@ -95,15 +92,16 @@ testRule(mozaicBemPattern.rule, {
       `,
       message:
         'Invalid class syntax: ".mc-block-name__element-name" should be "camelCase" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
     },
   ],
 })
 
 //  test snake_case
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: 'snake_case',
     bemEntitiesDelimiters: {
@@ -113,8 +111,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
@@ -133,7 +129,7 @@ testRule(mozaicBemPattern.rule, {
       code: `.ml-Container {}`,
       message:
         'Invalid class syntax: ".ml-Container" should be "snake_case" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
       line: 1,
       column: 1,
@@ -145,15 +141,16 @@ testRule(mozaicBemPattern.rule, {
       `,
       message:
         'Invalid class syntax: ".mc-block-name__element-name" should be "snake_case" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
     },
   ],
 })
 
 //  test PascalCase
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: 'PascalCase',
     bemEntitiesDelimiters: {
@@ -163,8 +160,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
@@ -183,7 +178,7 @@ testRule(mozaicBemPattern.rule, {
       code: `.ml-container {}`,
       message:
         'Invalid class syntax: ".ml-container" should be "PascalCase" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
       line: 1,
       column: 1,
@@ -195,15 +190,16 @@ testRule(mozaicBemPattern.rule, {
       `,
       message:
         'Invalid class syntax: ".mc-block-name__element-name" should be "PascalCase" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
     },
   ],
 })
 
 //  test prefixes
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: 'PascalCase',
     bemEntitiesDelimiters: {
@@ -213,8 +209,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ML-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
@@ -233,7 +227,7 @@ testRule(mozaicBemPattern.rule, {
       code: `.mm-Container {}`,
       message:
         'Invalid class syntax: ".mm-Container" should be "PascalCase" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
       line: 1,
       column: 1,
@@ -245,15 +239,16 @@ testRule(mozaicBemPattern.rule, {
       `,
       message:
         'Invalid class syntax: ".Ml-block-name__element-name" should be "PascalCase" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
     },
   ],
 })
 
 //  test case using regex
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: /^[A-Z]+(_[A-Z]+)*$/,
     bemEntitiesDelimiters: {
@@ -263,8 +258,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ML-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
@@ -277,7 +270,7 @@ testRule(mozaicBemPattern.rule, {
       code: `.mc-container {}`,
       message:
         'Invalid class syntax: ".mc-container" should be "/^[A-Z]+(_[A-Z]+)*$/" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
       line: 1,
       column: 1,
@@ -286,8 +279,9 @@ testRule(mozaicBemPattern.rule, {
 })
 
 // test stylelint-disable
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: 'camelCase',
     bemEntitiesDelimiters: {
@@ -297,8 +291,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
@@ -317,7 +309,7 @@ testRule(mozaicBemPattern.rule, {
              `,
       message:
         'Invalid class syntax: ".mc-block-Name__element-Name" should be "camelCase" (' +
-        mozaicBemPattern.ruleName +
+        ruleName +
         ')',
       line: 2,
     },
@@ -325,8 +317,9 @@ testRule(mozaicBemPattern.rule, {
 })
 
 // test mc-my-call--small\@from-m
-testRule(mozaicBemPattern.rule, {
-  ruleName: mozaicBemPattern.ruleName,
+testRule({
+  plugins: ['.'],
+  ruleName,
   config: {
     caseStyle: 'kebab-case',
     bemEntitiesDelimiters: {
@@ -336,8 +329,6 @@ testRule(mozaicBemPattern.rule, {
     },
     prefixes: ['mc-', 'ml-', 'mu-', 'mt-'],
   },
-
-  skipBasicChecks: true,
 
   accept: [
     {
