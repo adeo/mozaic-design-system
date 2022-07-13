@@ -89,6 +89,81 @@ export const ArrowArrowTop16 = ({ fill, size = '1rem', ...rest }) => (
   </svg>
 )
 
+export const ArrowArrowBottomLeft16 = ({ fill, size = '1rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M13.707 2.293a1 1 0 010 1.414L5.414 12H10a1 1 0 110 2H3a1 1 0 01-1-1V6a1 1 0 112 0v4.586l8.293-8.293a1 1 0 011.414 0z"
+    />
+  </svg>
+)
+
+export const ArrowArrowBottomRight16 = ({ fill, size = '1rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+  >
+    <g clip-path="url(#a)">
+      <path
+        fill-rule="evenodd"
+        d="M2.293 2.293a1 1 0 011.414 0L12 10.586V6a1 1 0 112 0v7a1 1 0 01-1 1H6a1 1 0 110-2h4.586L2.293 3.707a1 1 0 010-1.414z"
+      />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path d="M0 0h16v16H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+)
+
+export const ArrowArrowTopLeft16 = ({ fill, size = '1rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M2.293 2.293A1 1 0 013 2h7a1 1 0 110 2H5.414l8.293 8.293a1 1 0 01-1.414 1.414L4 5.414V10a1 1 0 11-2 0V3a1 1 0 01.293-.707z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopRight16 = ({ fill, size = '1rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M5 3a1 1 0 011-1h7a1 1 0 011 1v7a1 1 0 11-2 0V5.414l-8.293 8.293a1 1 0 01-1.414-1.414L10.586 4H6a1 1 0 01-1-1z"
+    />
+  </svg>
+)
+
 export const ArrowBack16 = ({ fill, size = '1rem', ...rest }) => (
   <svg
     aria-hidden="true"
@@ -1095,6 +1170,74 @@ export const ArrowArrowTop24 = ({ fill, size = '1.5rem', ...rest }) => (
     viewBox="0 0 24 24"
   >
     <path d="M11.293 7.793a1 1 0 011.414 0l7 7a1 1 0 01-1.414 1.414L12 9.914l-6.293 6.293a1 1 0 01-1.414-1.414l7-7z" />
+  </svg>
+)
+
+export const ArrowArrowBottomLeft24 = ({ fill, size = '1.5rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M19.707 4.293a1 1 0 010 1.414L7.414 18H15a1 1 0 110 2H5a1 1 0 01-1-1V9a1 1 0 112 0v7.586L18.293 4.293a1 1 0 011.414 0z"
+    />
+  </svg>
+)
+
+export const ArrowArrowBottomRight24 = ({ fill, size = '1.5rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M4.293 4.293a1 1 0 011.414 0L18 16.586V9a1 1 0 112 0v10a1 1 0 01-1 1H9a1 1 0 110-2h7.586L4.293 5.707a1 1 0 010-1.414z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopLeft24 = ({ fill, size = '1.5rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M4.293 4.293A1 1 0 015 4h10a1 1 0 110 2H7.414l12.293 12.293a1 1 0 01-1.414 1.414L6 7.414V15a1 1 0 11-2 0V5a1 1 0 01.293-.707z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopRight24 = ({ fill, size = '1.5rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M8 5a1 1 0 011-1h10a1 1 0 011 1v10a1 1 0 11-2 0V7.414L5.707 19.707a1 1 0 11-1.414-1.414L16.586 6H9a1 1 0 01-1-1z"
+    />
   </svg>
 )
 
@@ -5070,6 +5213,74 @@ export const ArrowArrowTop32 = ({ fill, size = '2rem', ...rest }) => (
   </svg>
 )
 
+export const ArrowArrowBottomLeft32 = ({ fill, size = '2rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M26.04 5.96a1 1 0 010 1.414L9.08 24.334H20a1 1 0 010 2H6.667a1 1 0 01-1-1V12a1 1 0 112 0v10.92l16.96-16.96a1 1 0 011.413 0z"
+    />
+  </svg>
+)
+
+export const ArrowArrowBottomRight32 = ({ fill, size = '2rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M5.96 5.96a1 1 0 011.414 0l16.96 16.96V12a1 1 0 112 0v13.333a1 1 0 01-1 1H12a1 1 0 110-2h10.92L5.96 7.373a1 1 0 010-1.413z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopLeft32 = ({ fill, size = '2rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M5.96 5.96a1 1 0 01.707-.293H20a1 1 0 010 2H9.08l16.96 16.96a1 1 0 01-1.414 1.413L7.666 9.08V20a1 1 0 11-2 0V6.666a1 1 0 01.294-.707z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopRight32 = ({ fill, size = '2rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M11 6.667a1 1 0 011-1h13.333a1 1 0 011 1V20a1 1 0 11-2 0V9.081l-16.96 16.96a1 1 0 01-1.413-1.415l16.96-16.96H12a1 1 0 01-1-1z"
+    />
+  </svg>
+)
+
 export const ArrowBack32 = ({ fill, size = '2rem', ...rest }) => (
   <svg
     aria-hidden="true"
@@ -8972,6 +9183,74 @@ export const ArrowArrowTop48 = ({ fill, size = '3rem', ...rest }) => (
     viewBox="0 0 48 48"
   >
     <path d="M22.94 15.19a1.5 1.5 0 012.12 0l15.5 15.5a1.5 1.5 0 01-2.12 2.12L24 18.372 9.56 32.811a1.5 1.5 0 01-2.12-2.122l15.5-15.5z" />
+  </svg>
+)
+
+export const ArrowArrowBottomLeft48 = ({ fill, size = '3rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 48 48"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M39.06 8.94a1.5 1.5 0 010 2.12L13.622 36.5H30a1.5 1.5 0 010 3H10A1.5 1.5 0 018.5 38V18a1.5 1.5 0 013 0v16.379l25.44-25.44a1.5 1.5 0 012.12 0z"
+    />
+  </svg>
+)
+
+export const ArrowArrowBottomRight48 = ({ fill, size = '3rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 48 48"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M8.94 8.94a1.5 1.5 0 012.12 0L36.5 34.378V18a1.5 1.5 0 013 0v20a1.5 1.5 0 01-1.5 1.5H18a1.5 1.5 0 010-3h16.379L8.939 11.06a1.5 1.5 0 010-2.12z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopLeft48 = ({ fill, size = '3rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 48 48"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M8.94 8.94A1.5 1.5 0 0110 8.5h20a1.5 1.5 0 010 3H13.621l25.44 25.44a1.5 1.5 0 01-2.122 2.12L11.5 13.622V30a1.5 1.5 0 01-3 0V10c0-.398.158-.78.44-1.06z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopRight48 = ({ fill, size = '3rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 48 48"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M16.5 10A1.5 1.5 0 0118 8.5h20a1.5 1.5 0 011.5 1.5v20a1.5 1.5 0 01-3 0V13.621l-25.44 25.44a1.5 1.5 0 11-2.12-2.122L34.378 11.5H18a1.5 1.5 0 01-1.5-1.5z"
+    />
   </svg>
 )
 
@@ -12889,6 +13168,74 @@ export const ArrowArrowTop64 = ({ fill, size = '4rem', ...rest }) => (
     viewBox="0 0 64 64"
   >
     <path d="M30.94 20.19a1.5 1.5 0 012.12 0l21.5 21.5a1.5 1.5 0 01-2.12 2.12L32 23.372l-20.44 20.44a1.5 1.5 0 01-2.12-2.122l21.5-21.5z" />
+  </svg>
+)
+
+export const ArrowArrowBottomLeft64 = ({ fill, size = '4rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M51.727 12.273a1.5 1.5 0 010 2.121L16.955 49.167H40a1.5 1.5 0 110 3H13.333a1.5 1.5 0 01-1.5-1.5V24a1.5 1.5 0 113 0v23.045l34.773-34.772a1.5 1.5 0 012.121 0z"
+    />
+  </svg>
+)
+
+export const ArrowArrowBottomRight64 = ({ fill, size = '4rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M12.273 12.273a1.5 1.5 0 012.121 0l34.773 34.772V24a1.5 1.5 0 013 0v26.667a1.5 1.5 0 01-1.5 1.5H24a1.5 1.5 0 010-3h23.045L12.273 14.394a1.5 1.5 0 010-2.121z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopLeft64 = ({ fill, size = '4rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M12.273 12.273a1.5 1.5 0 011.06-.44H40a1.5 1.5 0 110 3H16.955l34.772 34.773a1.5 1.5 0 11-2.121 2.121L14.833 16.955V40a1.5 1.5 0 01-3 0V13.333c0-.398.158-.78.44-1.06z"
+    />
+  </svg>
+)
+
+export const ArrowArrowTopRight64 = ({ fill, size = '4rem', ...rest }) => (
+  <svg
+    aria-hidden="true"
+    width={size}
+    height={size}
+    {...rest}
+    fill={fill}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M22.5 13.334a1.5 1.5 0 011.5-1.5h26.667a1.5 1.5 0 011.5 1.5V40a1.5 1.5 0 01-3 0V16.955L14.394 51.728a1.5 1.5 0 11-2.121-2.122l34.772-34.773H24a1.5 1.5 0 01-1.5-1.5z"
+    />
   </svg>
 )
 
