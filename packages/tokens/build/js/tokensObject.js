@@ -6561,11 +6561,11 @@ module.exports = {
     },
     "star": {
       "empty": {
-        "value": "#cccccc",
+        "value": "#ffffff",
         "filePath": "packages/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.200.value}"
+          "value": "{color.grey.000.value}"
         },
         "name": "ColorStarEmpty",
         "attributes": {
@@ -6599,11 +6599,11 @@ module.exports = {
         ]
       },
       "full": {
-        "value": "#fc961e",
+        "value": "#ea7315",
         "filePath": "packages/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.500.value}"
+          "value": "#EA7315"
         },
         "name": "ColorStarFull",
         "attributes": {

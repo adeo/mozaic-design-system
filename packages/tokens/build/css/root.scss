@@ -1,4 +1,5 @@
 :root {
+  --color-star-full: #ea7315;
   --color-secondary-yellow-900: #46350d;
   --color-secondary-yellow-800: #705613;
   --color-secondary-yellow-700: #9c7b18;
@@ -138,9 +139,8 @@
   --color-tabs-shadow: var(--color-grey-999);
   --color-tabs-background: var(--color-grey-000);
   --color-star-hover: var(--color-secondary-orange-300);
-  --color-star-full: var(--color-secondary-orange-500);
   --color-star-focus: var(--color-secondary-blue-500);
-  --color-star-empty: var(--color-grey-200);
+  --color-star-empty: var(--color-grey-000);
   --color-progress-branded-indicator: var(--color-primary-01-500);
   --color-progress-percentage-half: var(--color-grey-000);
   --color-progress-percentage-default: var(--color-grey-900);

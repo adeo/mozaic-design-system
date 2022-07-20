@@ -2,7 +2,7 @@ module.exports = {
   border: {
     s: {
       value: 1,
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/border/base.json',
+      filePath: 'packages/tokens/properties/border/base.json',
       isSource: true,
       original: {
         value: 1,
@@ -16,7 +16,7 @@ module.exports = {
     },
     m: {
       value: 2,
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/border/base.json',
+      filePath: 'packages/tokens/properties/border/base.json',
       isSource: true,
       original: {
         value: 2,
@@ -30,7 +30,7 @@ module.exports = {
     },
     l: {
       value: 3,
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/border/base.json',
+      filePath: 'packages/tokens/properties/border/base.json',
       isSource: true,
       original: {
         value: 3,
@@ -48,8 +48,7 @@ module.exports = {
       info: {
         background: {
           value: '#daeff7',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.info.100.value}',
@@ -65,8 +64,7 @@ module.exports = {
         },
         border: {
           value: '#0b96cc',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.info.500.value}',
@@ -82,8 +80,7 @@ module.exports = {
         },
         text: {
           value: '#005c91',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.info.700.value}',
@@ -101,8 +98,7 @@ module.exports = {
       success: {
         background: {
           value: '#ebf5de',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.success.100.value}',
@@ -118,8 +114,7 @@ module.exports = {
         },
         border: {
           value: '#46a610',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.success.500.value}',
@@ -135,8 +130,7 @@ module.exports = {
         },
         text: {
           value: '#006902',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.success.700.value}',
@@ -154,8 +148,7 @@ module.exports = {
       warning: {
         background: {
           value: '#fdf1e8',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.warning.100.value}',
@@ -171,8 +164,7 @@ module.exports = {
         },
         border: {
           value: '#ea7315',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.warning.500.value}',
@@ -188,8 +180,7 @@ module.exports = {
         },
         text: {
           value: '#8c3500',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.warning.700.value}',
@@ -207,8 +198,7 @@ module.exports = {
       danger: {
         background: {
           value: '#fdeaea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.danger.100.value}',
@@ -224,8 +214,7 @@ module.exports = {
         },
         border: {
           value: '#ea302d',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.danger.500.value}',
@@ -241,8 +230,7 @@ module.exports = {
         },
         text: {
           value: '#8c0003',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.danger.700.value}',
@@ -259,9 +247,8 @@ module.exports = {
       },
       neutral: {
         background: {
-          value: '#eeedea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -276,9 +263,8 @@ module.exports = {
           path: ['color', 'badge', 'neutral', 'background'],
         },
         border: {
-          value: '#8c8b85',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          value: '#808080',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.grey.500.value}',
@@ -293,9 +279,8 @@ module.exports = {
           path: ['color', 'badge', 'neutral', 'border'],
         },
         text: {
-          value: '#555550',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/badge.json',
+          value: '#4d4d4d',
+          filePath: 'packages/tokens/properties/color/badge.json',
           isSource: true,
           original: {
             value: '{color.grey.700.value}',
@@ -314,8 +299,7 @@ module.exports = {
     'primary-01': {
       100: {
         value: '#d9f0f3',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#D9F0F3',
@@ -330,8 +314,7 @@ module.exports = {
       },
       200: {
         value: '#91d5db',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#91D5DB',
@@ -346,8 +329,7 @@ module.exports = {
       },
       300: {
         value: '#48bac4',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#48BAC4',
@@ -362,8 +344,7 @@ module.exports = {
       },
       400: {
         value: '#009eac',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#009EAC',
@@ -378,8 +359,7 @@ module.exports = {
       },
       500: {
         value: '#00919f',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#00919F',
@@ -394,8 +374,7 @@ module.exports = {
       },
       600: {
         value: '#007f8c',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#007F8C',
@@ -410,8 +389,7 @@ module.exports = {
       },
       700: {
         value: '#006974',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#006974',
@@ -426,8 +404,7 @@ module.exports = {
       },
       800: {
         value: '#004e57',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#004E57',
@@ -442,8 +419,7 @@ module.exports = {
       },
       900: {
         value: '#002e33',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#002E33',
@@ -459,11 +435,11 @@ module.exports = {
     },
     'primary-02': {
       100: {
-        value: '#dbedea',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#cfd2d8',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#DBEDEA',
+          value: '#CFD2D8',
         },
         name: 'ColorPrimary02100',
         attributes: {
@@ -474,11 +450,11 @@ module.exports = {
         path: ['color', 'primary-02', '100'],
       },
       200: {
-        value: '#a5d1cb',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#cfd2d8',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#A5D1CB',
+          value: '#CFD2D8',
         },
         name: 'ColorPrimary02200',
         attributes: {
@@ -489,11 +465,11 @@ module.exports = {
         path: ['color', 'primary-02', '200'],
       },
       300: {
-        value: '#6eb4ad',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#b3b7c1',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#6EB4AD',
+          value: '#B3B7C1',
         },
         name: 'ColorPrimary02300',
         attributes: {
@@ -504,11 +480,11 @@ module.exports = {
         path: ['color', 'primary-02', '300'],
       },
       400: {
-        value: '#379590',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#8f94a3',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#379590',
+          value: '#8F94A3',
         },
         name: 'ColorPrimary02400',
         attributes: {
@@ -519,11 +495,11 @@ module.exports = {
         path: ['color', 'primary-02', '400'],
       },
       500: {
-        value: '#007574',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#6a7081',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#007574',
+          value: '#6A7081',
         },
         name: 'ColorPrimary02500',
         attributes: {
@@ -534,11 +510,11 @@ module.exports = {
         path: ['color', 'primary-02', '500'],
       },
       600: {
-        value: '#035f64',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#494f60',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#035F64',
+          value: '#494F60',
         },
         name: 'ColorPrimary02600',
         attributes: {
@@ -549,11 +525,11 @@ module.exports = {
         path: ['color', 'primary-02', '600'],
       },
       700: {
-        value: '#044c53',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#343b4c',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#044C53',
+          value: '#343B4C',
         },
         name: 'ColorPrimary02700',
         attributes: {
@@ -564,11 +540,11 @@ module.exports = {
         path: ['color', 'primary-02', '700'],
       },
       800: {
-        value: '#063a44',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#242938',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#063A44',
+          value: '#242938',
         },
         name: 'ColorPrimary02800',
         attributes: {
@@ -579,11 +555,11 @@ module.exports = {
         path: ['color', 'primary-02', '800'],
       },
       900: {
-        value: '#062b35',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        value: '#171b26',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
-          value: '#062B35',
+          value: '#171B26',
         },
         name: 'ColorPrimary02900',
         attributes: {
@@ -596,12 +572,11 @@ module.exports = {
     },
     grey: {
       100: {
-        value: '#eeedea',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#e6e6e6',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#EEEDEA',
+          value: '#E6E6E6',
         },
         name: 'ColorGrey100',
         attributes: {
@@ -612,12 +587,11 @@ module.exports = {
         path: ['color', 'grey', '100'],
       },
       200: {
-        value: '#dddcd5',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#cccccc',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#DDDCD5',
+          value: '#CCCCCC',
         },
         name: 'ColorGrey200',
         attributes: {
@@ -628,12 +602,11 @@ module.exports = {
         path: ['color', 'grey', '200'],
       },
       300: {
-        value: '#c2c1ba',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#b3b3b3',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#C2C1BA',
+          value: '#B3B3B3',
         },
         name: 'ColorGrey300',
         attributes: {
@@ -644,12 +617,11 @@ module.exports = {
         path: ['color', 'grey', '300'],
       },
       400: {
-        value: '#a7a6a0',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#999999',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#A7A6A0',
+          value: '#999999',
         },
         name: 'ColorGrey400',
         attributes: {
@@ -660,12 +632,11 @@ module.exports = {
         path: ['color', 'grey', '400'],
       },
       500: {
-        value: '#8c8b85',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#808080',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#8C8B85',
+          value: '#808080',
         },
         name: 'ColorGrey500',
         attributes: {
@@ -676,12 +647,11 @@ module.exports = {
         path: ['color', 'grey', '500'],
       },
       600: {
-        value: '#71706b',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#666666',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#71706B',
+          value: '#666666',
         },
         name: 'ColorGrey600',
         attributes: {
@@ -692,12 +662,11 @@ module.exports = {
         path: ['color', 'grey', '600'],
       },
       700: {
-        value: '#555550',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#4d4d4d',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#555550',
+          value: '#4D4D4D',
         },
         name: 'ColorGrey700',
         attributes: {
@@ -708,12 +677,11 @@ module.exports = {
         path: ['color', 'grey', '700'],
       },
       800: {
-        value: '#3a3936',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#333333',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#3A3936',
+          value: '#333333',
         },
         name: 'ColorGrey800',
         attributes: {
@@ -724,12 +692,11 @@ module.exports = {
         path: ['color', 'grey', '800'],
       },
       900: {
-        value: '#1e1e1c',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        value: '#191919',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
-          value: '#1E1E1C',
+          value: '#191919',
         },
         name: 'ColorGrey900',
         attributes: {
@@ -741,8 +708,7 @@ module.exports = {
       },
       999: {
         value: '#000000',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#000000',
@@ -757,8 +723,7 @@ module.exports = {
       },
       '000': {
         value: '#ffffff',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#FFFFFF',
@@ -775,8 +740,7 @@ module.exports = {
     'secondary-blue': {
       100: {
         value: '#eaedef',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#EAEDEF',
@@ -791,8 +755,7 @@ module.exports = {
       },
       200: {
         value: '#cdd4d8',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#CDD4D8',
@@ -807,8 +770,7 @@ module.exports = {
       },
       300: {
         value: '#b0bbc0',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#B0BBC0',
@@ -823,8 +785,7 @@ module.exports = {
       },
       400: {
         value: '#92a2a9',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#92A2A9',
@@ -839,8 +800,7 @@ module.exports = {
       },
       500: {
         value: '#758992',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#758992',
@@ -855,8 +815,7 @@ module.exports = {
       },
       600: {
         value: '#5b737d',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#5B737D',
@@ -871,8 +830,7 @@ module.exports = {
       },
       700: {
         value: '#405d68',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#405D68',
@@ -887,8 +845,7 @@ module.exports = {
       },
       800: {
         value: '#264653',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#264653',
@@ -903,8 +860,7 @@ module.exports = {
       },
       900: {
         value: '#082435',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#082435',
@@ -921,7 +877,7 @@ module.exports = {
     'secondary-green': {
       100: {
         value: '#d9f0f3',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.100.value}',
@@ -936,7 +892,7 @@ module.exports = {
       },
       200: {
         value: '#91d5db',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.200.value}',
@@ -951,7 +907,7 @@ module.exports = {
       },
       300: {
         value: '#48bac4',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.300.value}',
@@ -966,7 +922,7 @@ module.exports = {
       },
       400: {
         value: '#009eac',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.400.value}',
@@ -981,7 +937,7 @@ module.exports = {
       },
       500: {
         value: '#00919f',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.500.value}',
@@ -996,7 +952,7 @@ module.exports = {
       },
       600: {
         value: '#007f8c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.600.value}',
@@ -1011,7 +967,7 @@ module.exports = {
       },
       700: {
         value: '#006974',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.700.value}',
@@ -1026,7 +982,7 @@ module.exports = {
       },
       800: {
         value: '#004e57',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.800.value}',
@@ -1041,7 +997,7 @@ module.exports = {
       },
       900: {
         value: '#002e33',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '{color.primary-01.900.value}',
@@ -1058,8 +1014,7 @@ module.exports = {
     'secondary-purple': {
       100: {
         value: '#e7e7f0',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#E7E7F0',
@@ -1074,8 +1029,7 @@ module.exports = {
       },
       200: {
         value: '#c5c5dc',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#C5C5DC',
@@ -1090,8 +1044,7 @@ module.exports = {
       },
       300: {
         value: '#a4a3c7',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#A4A3C7',
@@ -1106,8 +1059,7 @@ module.exports = {
       },
       400: {
         value: '#8281b2',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#8281B2',
@@ -1122,8 +1074,7 @@ module.exports = {
       },
       500: {
         value: '#605f9d',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#605F9D',
@@ -1138,8 +1089,7 @@ module.exports = {
       },
       600: {
         value: '#4b4a8c',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#4B4A8C',
@@ -1154,8 +1104,7 @@ module.exports = {
       },
       700: {
         value: '#393879',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#393879',
@@ -1170,8 +1119,7 @@ module.exports = {
       },
       800: {
         value: '#282863',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#282863',
@@ -1186,8 +1134,7 @@ module.exports = {
       },
       900: {
         value: '#1a1a4b',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#1A1A4B',
@@ -1204,7 +1151,7 @@ module.exports = {
     'secondary-red': {
       100: {
         value: '#feedee',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FEEDEE',
@@ -1219,7 +1166,7 @@ module.exports = {
       },
       200: {
         value: '#fab9bc',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FAB9BC',
@@ -1234,7 +1181,7 @@ module.exports = {
       },
       300: {
         value: '#f38789',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#F38789',
@@ -1249,7 +1196,7 @@ module.exports = {
       },
       400: {
         value: '#ea5d58',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#EA5D58',
@@ -1264,7 +1211,7 @@ module.exports = {
       },
       500: {
         value: '#df382b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#DF382B',
@@ -1279,7 +1226,7 @@ module.exports = {
       },
       600: {
         value: '#b42a27',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#B42A27',
@@ -1294,7 +1241,7 @@ module.exports = {
       },
       700: {
         value: '#8b2226',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#8B2226',
@@ -1309,7 +1256,7 @@ module.exports = {
       },
       800: {
         value: '#641b21',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#641B21',
@@ -1324,7 +1271,7 @@ module.exports = {
       },
       900: {
         value: '#3e1219',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#3E1219',
@@ -1341,7 +1288,7 @@ module.exports = {
     'secondary-orange': {
       100: {
         value: '#fff5eb',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FFF5EB',
@@ -1356,7 +1303,7 @@ module.exports = {
       },
       200: {
         value: '#ffdab2',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FFDAB2',
@@ -1371,7 +1318,7 @@ module.exports = {
       },
       300: {
         value: '#ffc17d',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FFC17D',
@@ -1386,7 +1333,7 @@ module.exports = {
       },
       400: {
         value: '#ffab4b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FFAB4B',
@@ -1401,7 +1348,7 @@ module.exports = {
       },
       500: {
         value: '#fc961e',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FC961E',
@@ -1416,7 +1363,7 @@ module.exports = {
       },
       600: {
         value: '#c86f21',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#C86F21',
@@ -1431,7 +1378,7 @@ module.exports = {
       },
       700: {
         value: '#974f20',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#974F20',
@@ -1446,7 +1393,7 @@ module.exports = {
       },
       800: {
         value: '#6a351c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#6A351C',
@@ -1461,7 +1408,7 @@ module.exports = {
       },
       900: {
         value: '#401f15',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#401F15',
@@ -1478,7 +1425,7 @@ module.exports = {
     'secondary-yellow': {
       100: {
         value: '#fff8e2',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FFF8E2',
@@ -1493,7 +1440,7 @@ module.exports = {
       },
       200: {
         value: '#ffebaf',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FFEBAF',
@@ -1508,7 +1455,7 @@ module.exports = {
       },
       300: {
         value: '#fee07d',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FEE07D',
@@ -1523,7 +1470,7 @@ module.exports = {
       },
       400: {
         value: '#fcd64c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#FCD64C',
@@ -1538,7 +1485,7 @@ module.exports = {
       },
       500: {
         value: '#f8cc1c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#F8CC1C',
@@ -1553,7 +1500,7 @@ module.exports = {
       },
       600: {
         value: '#c9a21b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#C9A21B',
@@ -1568,7 +1515,7 @@ module.exports = {
       },
       700: {
         value: '#9c7b18',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#9C7B18',
@@ -1583,7 +1530,7 @@ module.exports = {
       },
       800: {
         value: '#705613',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#705613',
@@ -1598,7 +1545,7 @@ module.exports = {
       },
       900: {
         value: '#46350d',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/base.json',
+        filePath: 'packages/tokens/properties/color/base.json',
         isSource: true,
         original: {
           value: '#46350D',
@@ -1615,8 +1562,7 @@ module.exports = {
     danger: {
       100: {
         value: '#fdeaea',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#FDEAEA',
@@ -1631,8 +1577,7 @@ module.exports = {
       },
       200: {
         value: '#f8bcbb',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#F8BCBB',
@@ -1647,8 +1592,7 @@ module.exports = {
       },
       300: {
         value: '#f38d8c',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#F38D8C',
@@ -1663,8 +1607,7 @@ module.exports = {
       },
       400: {
         value: '#ef5f5c',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#EF5F5C',
@@ -1679,8 +1622,7 @@ module.exports = {
       },
       500: {
         value: '#ea302d',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#EA302D',
@@ -1695,8 +1637,7 @@ module.exports = {
       },
       600: {
         value: '#c61112',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#C61112',
@@ -1711,8 +1652,7 @@ module.exports = {
       },
       700: {
         value: '#8c0003',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#8C0003',
@@ -1727,8 +1667,7 @@ module.exports = {
       },
       800: {
         value: '#530000',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#530000',
@@ -1743,8 +1682,7 @@ module.exports = {
       },
       900: {
         value: '#2d0000',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#2D0000',
@@ -1761,8 +1699,7 @@ module.exports = {
     info: {
       100: {
         value: '#daeff7',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#DAEFF7',
@@ -1777,8 +1714,7 @@ module.exports = {
       },
       200: {
         value: '#a7d9ed',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#A7D9ED',
@@ -1793,8 +1729,7 @@ module.exports = {
       },
       300: {
         value: '#73c3e2',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#73C3E2',
@@ -1809,8 +1744,7 @@ module.exports = {
       },
       400: {
         value: '#3facd7',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#3FACD7',
@@ -1825,8 +1759,7 @@ module.exports = {
       },
       500: {
         value: '#0b96cc',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#0B96CC',
@@ -1841,8 +1774,7 @@ module.exports = {
       },
       600: {
         value: '#007bb4',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#007BB4',
@@ -1857,8 +1789,7 @@ module.exports = {
       },
       700: {
         value: '#005c91',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#005C91',
@@ -1873,8 +1804,7 @@ module.exports = {
       },
       800: {
         value: '#003a5c',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#003A5C',
@@ -1889,8 +1819,7 @@ module.exports = {
       },
       900: {
         value: '#002a41',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#002A41',
@@ -1907,8 +1836,7 @@ module.exports = {
     warning: {
       100: {
         value: '#fdf1e8',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#FDF1E8',
@@ -1923,8 +1851,7 @@ module.exports = {
       },
       200: {
         value: '#f8d2b3',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#F8D2B3',
@@ -1939,8 +1866,7 @@ module.exports = {
       },
       300: {
         value: '#f4b27e',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#F4B27E',
@@ -1955,8 +1881,7 @@ module.exports = {
       },
       400: {
         value: '#ef934a',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#EF934A',
@@ -1971,8 +1896,7 @@ module.exports = {
       },
       500: {
         value: '#ea7315',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#EA7315',
@@ -1987,8 +1911,7 @@ module.exports = {
       },
       600: {
         value: '#c65200',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#C65200',
@@ -2003,8 +1926,7 @@ module.exports = {
       },
       700: {
         value: '#8c3500',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#8C3500',
@@ -2019,8 +1941,7 @@ module.exports = {
       },
       800: {
         value: '#531b00',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#531B00',
@@ -2035,8 +1956,7 @@ module.exports = {
       },
       900: {
         value: '#360e00',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#360E00',
@@ -2053,8 +1973,7 @@ module.exports = {
     success: {
       100: {
         value: '#ebf5de',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#EBF5DE',
@@ -2069,8 +1988,7 @@ module.exports = {
       },
       200: {
         value: '#c5e39e',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#C5E39E',
@@ -2085,8 +2003,7 @@ module.exports = {
       },
       300: {
         value: '#9ed05f',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#9ED05F',
@@ -2101,8 +2018,7 @@ module.exports = {
       },
       400: {
         value: '#78be20',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#78BE20',
@@ -2117,8 +2033,7 @@ module.exports = {
       },
       500: {
         value: '#46a610',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#46A610',
@@ -2133,8 +2048,7 @@ module.exports = {
       },
       600: {
         value: '#188803',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#188803',
@@ -2149,8 +2063,7 @@ module.exports = {
       },
       700: {
         value: '#006902',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#006902',
@@ -2165,8 +2078,7 @@ module.exports = {
       },
       800: {
         value: '#035010',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#035010',
@@ -2181,8 +2093,7 @@ module.exports = {
       },
       900: {
         value: '#023618',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
         isSource: true,
         original: {
           value: '#023618',
@@ -2199,12 +2110,11 @@ module.exports = {
     button: {
       solid: {
         background: {
-          value: '#00919f',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/button.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorButtonSolidBackground',
           attributes: {
@@ -2217,8 +2127,7 @@ module.exports = {
         },
         font: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -2235,8 +2144,7 @@ module.exports = {
         focus: {
           border: {
             value: '#006974',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-01.700.value}',
@@ -2254,9 +2162,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -2272,9 +2179,8 @@ module.exports = {
             path: ['color', 'button', 'solid', 'disabled', 'background'],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -2293,8 +2199,7 @@ module.exports = {
         active: {
           background: {
             value: '#006974',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-01.700.value}',
@@ -2312,12 +2217,11 @@ module.exports = {
         },
         hover: {
           background: {
-            value: '#007f8c',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#006974',
+            filePath: 'packages/tokens/AdeoProperties/color/button.json',
             isSource: true,
             original: {
-              value: '{color.primary-01.600.value}',
+              value: '{color.primary-01.700.value}',
             },
             name: 'ColorButtonSolidHoverBackground',
             attributes: {
@@ -2331,8 +2235,7 @@ module.exports = {
           },
           font: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -2351,9 +2254,8 @@ module.exports = {
       },
       'solid-primary-02': {
         background: {
-          value: '#007574',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#6a7081',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.primary-02.500.value}',
@@ -2369,8 +2271,7 @@ module.exports = {
         },
         font: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -2386,9 +2287,8 @@ module.exports = {
         },
         focus: {
           border: {
-            value: '#062b35',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#171b26',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-02.900.value}',
@@ -2406,9 +2306,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -2430,9 +2329,8 @@ module.exports = {
             ],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -2450,9 +2348,8 @@ module.exports = {
         },
         active: {
           background: {
-            value: '#062b35',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#171b26',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-02.900.value}',
@@ -2476,9 +2373,8 @@ module.exports = {
         },
         hover: {
           background: {
-            value: '#063a44',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#242938',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-02.800.value}',
@@ -2501,8 +2397,7 @@ module.exports = {
           },
           font: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -2521,9 +2416,8 @@ module.exports = {
       },
       'solid-neutral': {
         background: {
-          value: '#3a3936',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#333333',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.800.value}',
@@ -2539,8 +2433,7 @@ module.exports = {
         },
         font: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -2556,9 +2449,8 @@ module.exports = {
         },
         focus: {
           border: {
-            value: '#1e1e1c',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.900.value}',
@@ -2576,9 +2468,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -2600,9 +2491,8 @@ module.exports = {
             ],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -2620,9 +2510,8 @@ module.exports = {
         },
         active: {
           background: {
-            value: '#3a3936',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#333333',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.800.value}',
@@ -2640,9 +2529,8 @@ module.exports = {
         },
         hover: {
           background: {
-            value: '#1e1e1c',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.900.value}',
@@ -2659,8 +2547,7 @@ module.exports = {
           },
           font: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -2679,12 +2566,11 @@ module.exports = {
       },
       'solid-danger': {
         background: {
-          value: '#ea302d',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#b42a27',
+          filePath: 'packages/tokens/AdeoProperties/color/button.json',
           isSource: true,
           original: {
-            value: '{color.danger.500.value}',
+            value: '{color.secondary-red.600.value}',
           },
           name: 'ColorButtonSolidDangerBackground',
           attributes: {
@@ -2697,8 +2583,7 @@ module.exports = {
         },
         font: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -2715,8 +2600,7 @@ module.exports = {
         focus: {
           border: {
             value: '#8c0003',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.danger.700.value}',
@@ -2734,9 +2618,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -2752,9 +2635,8 @@ module.exports = {
             path: ['color', 'button', 'solid-danger', 'disabled', 'background'],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -2773,8 +2655,7 @@ module.exports = {
         active: {
           background: {
             value: '#8c0003',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.danger.700.value}',
@@ -2792,12 +2673,11 @@ module.exports = {
         },
         hover: {
           background: {
-            value: '#c61112',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#8c0003',
+            filePath: 'packages/tokens/AdeoProperties/color/button.json',
             isSource: true,
             original: {
-              value: '{color.danger.600.value}',
+              value: '{color.danger.700.value}',
             },
             name: 'ColorButtonSolidDangerHoverBackground',
             attributes: {
@@ -2811,8 +2691,7 @@ module.exports = {
           },
           font: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -2832,8 +2711,7 @@ module.exports = {
       bordered: {
         background: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -2848,12 +2726,11 @@ module.exports = {
           path: ['color', 'button', 'bordered', 'background'],
         },
         border: {
-          value: '#00919f',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/button.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorButtonBorderedBorder',
           attributes: {
@@ -2865,12 +2742,11 @@ module.exports = {
           path: ['color', 'button', 'bordered', 'border'],
         },
         font: {
-          value: '#00919f',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/button.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorButtonBorderedFont',
           attributes: {
@@ -2884,8 +2760,7 @@ module.exports = {
         focus: {
           border: {
             value: '#006974',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-01.700.value}',
@@ -2903,9 +2778,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -2921,9 +2795,8 @@ module.exports = {
             path: ['color', 'button', 'bordered', 'disabled', 'background'],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -2942,8 +2815,7 @@ module.exports = {
         active: {
           background: {
             value: '#91d5db',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-01.200.value}',
@@ -2962,8 +2834,7 @@ module.exports = {
         hover: {
           background: {
             value: '#d9f0f3',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-01.100.value}',
@@ -2983,8 +2854,7 @@ module.exports = {
       'bordered-primary-02': {
         background: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -2999,9 +2869,8 @@ module.exports = {
           path: ['color', 'button', 'bordered-primary-02', 'background'],
         },
         border: {
-          value: '#007574',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#6a7081',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.primary-02.500.value}',
@@ -3016,9 +2885,8 @@ module.exports = {
           path: ['color', 'button', 'bordered-primary-02', 'border'],
         },
         font: {
-          value: '#007574',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#6a7081',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.primary-02.500.value}',
@@ -3034,9 +2902,8 @@ module.exports = {
         },
         focus: {
           border: {
-            value: '#062b35',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#171b26',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-02.900.value}',
@@ -3054,9 +2921,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -3078,9 +2944,8 @@ module.exports = {
             ],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -3104,9 +2969,8 @@ module.exports = {
         },
         active: {
           background: {
-            value: '#a5d1cb',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cfd2d8',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-02.200.value}',
@@ -3130,9 +2994,8 @@ module.exports = {
         },
         hover: {
           background: {
-            value: '#dbedea',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cfd2d8',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.primary-02.100.value}',
@@ -3158,8 +3021,7 @@ module.exports = {
       'bordered-neutral': {
         background: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3174,9 +3036,8 @@ module.exports = {
           path: ['color', 'button', 'bordered-neutral', 'background'],
         },
         border: {
-          value: '#3a3936',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#333333',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.800.value}',
@@ -3191,9 +3052,8 @@ module.exports = {
           path: ['color', 'button', 'bordered-neutral', 'border'],
         },
         font: {
-          value: '#3a3936',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#333333',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.800.value}',
@@ -3209,9 +3069,8 @@ module.exports = {
         },
         focus: {
           border: {
-            value: '#1e1e1c',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.900.value}',
@@ -3229,9 +3088,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -3253,9 +3111,8 @@ module.exports = {
             ],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -3273,9 +3130,8 @@ module.exports = {
         },
         active: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -3299,9 +3155,8 @@ module.exports = {
         },
         hover: {
           background: {
-            value: '#eeedea',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#e6e6e6',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.100.value}',
@@ -3327,8 +3182,7 @@ module.exports = {
       'bordered-danger': {
         background: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          filePath: 'packages/tokens/properties/color/button.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3343,12 +3197,11 @@ module.exports = {
           path: ['color', 'button', 'bordered-danger', 'background'],
         },
         border: {
-          value: '#df382b',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#b42a27',
+          filePath: 'packages/tokens/AdeoProperties/color/button.json',
           isSource: true,
           original: {
-            value: '{color.secondary-red.500.value}',
+            value: '{color.secondary-red.600.value}',
           },
           name: 'ColorButtonBorderedDangerBorder',
           attributes: {
@@ -3360,12 +3213,11 @@ module.exports = {
           path: ['color', 'button', 'bordered-danger', 'border'],
         },
         font: {
-          value: '#df382b',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+          value: '#b42a27',
+          filePath: 'packages/tokens/AdeoProperties/color/button.json',
           isSource: true,
           original: {
-            value: '{color.secondary-red.500.value}',
+            value: '{color.secondary-red.600.value}',
           },
           name: 'ColorButtonBorderedDangerFont',
           attributes: {
@@ -3379,8 +3231,7 @@ module.exports = {
         focus: {
           border: {
             value: '#8b2226',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.secondary-red.700.value}',
@@ -3398,9 +3249,8 @@ module.exports = {
         },
         disabled: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.200.value}',
@@ -3422,9 +3272,8 @@ module.exports = {
             ],
           },
           font: {
-            value: '#71706b',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            value: '#666666',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.grey.600.value}',
@@ -3443,8 +3292,7 @@ module.exports = {
         active: {
           background: {
             value: '#fab9bc',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.secondary-red.200.value}',
@@ -3469,8 +3317,7 @@ module.exports = {
         hover: {
           background: {
             value: '#feedee',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/button.json',
+            filePath: 'packages/tokens/properties/color/button.json',
             isSource: true,
             original: {
               value: '{color.secondary-red.100.value}',
@@ -3491,8 +3338,7 @@ module.exports = {
     divider: {
       lightest: {
         value: '#ffffff',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/divider.json',
+        filePath: 'packages/tokens/properties/color/divider.json',
         isSource: true,
         original: {
           value: '{color.grey.000.value}',
@@ -3506,9 +3352,8 @@ module.exports = {
         path: ['color', 'divider', 'lightest'],
       },
       light: {
-        value: '#c2c1ba',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/divider.json',
+        value: '#b3b3b3',
+        filePath: 'packages/tokens/properties/color/divider.json',
         isSource: true,
         original: {
           value: '{color.grey.300.value}',
@@ -3522,9 +3367,8 @@ module.exports = {
         path: ['color', 'divider', 'light'],
       },
       default: {
-        value: '#71706b',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/divider.json',
+        value: '#666666',
+        filePath: 'packages/tokens/properties/color/divider.json',
         isSource: true,
         original: {
           value: '{color.grey.600.value}',
@@ -3539,8 +3383,7 @@ module.exports = {
       },
       dark: {
         value: '#000000',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/divider.json',
+        filePath: 'packages/tokens/properties/color/divider.json',
         isSource: true,
         original: {
           value: '{color.grey.999.value}',
@@ -3557,7 +3400,7 @@ module.exports = {
     fields: {
       error: {
         value: '#c61112',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/fields.json',
+        filePath: 'packages/tokens/properties/color/fields.json',
         isSource: true,
         original: {
           value: '{color.font.danger.value}',
@@ -3571,8 +3414,8 @@ module.exports = {
         path: ['color', 'fields', 'error'],
       },
       label: {
-        value: '#3a3936',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/fields.json',
+        value: '#333333',
+        filePath: 'packages/tokens/properties/color/fields.json',
         isSource: true,
         original: {
           value: '{color.font.dark.value}',
@@ -3586,8 +3429,8 @@ module.exports = {
         path: ['color', 'fields', 'label'],
       },
       requirement: {
-        value: '#71706b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/fields.json',
+        value: '#666666',
+        filePath: 'packages/tokens/properties/color/fields.json',
         isSource: true,
         original: {
           value: '{color.font.light.value}',
@@ -3601,8 +3444,8 @@ module.exports = {
         path: ['color', 'fields', 'requirement'],
       },
       help: {
-        value: '#71706b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/fields.json',
+        value: '#666666',
+        filePath: 'packages/tokens/properties/color/fields.json',
         isSource: true,
         original: {
           value: '{color.font.light.value}',
@@ -3619,8 +3462,7 @@ module.exports = {
     fileuploader: {
       font: {
         value: '#000000',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/fileuploder.json',
+        filePath: 'packages/tokens/properties/color/fileuploder.json',
         isSource: true,
         original: {
           value: '{color.grey.999.value}',
@@ -3635,9 +3477,8 @@ module.exports = {
       },
       files: {
         list: {
-          value: '#eeedea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/fileuploder.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/fileuploder.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -3652,9 +3493,8 @@ module.exports = {
           path: ['color', 'fileuploader', 'files', 'list'],
         },
         delete: {
-          value: '#dddcd5',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/fileuploder.json',
+          value: '#cccccc',
+          filePath: 'packages/tokens/properties/color/fileuploder.json',
           isSource: true,
           original: {
             value: '{color.grey.200.value}',
@@ -3671,8 +3511,7 @@ module.exports = {
       },
       valid: {
         value: '#00919f',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/fileuploder.json',
+        filePath: 'packages/tokens/properties/color/fileuploder.json',
         isSource: true,
         original: {
           value: '{color.primary-01.500.value}',
@@ -3687,8 +3526,7 @@ module.exports = {
       },
       alert: {
         value: '#c61112',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/fileuploder.json',
+        filePath: 'packages/tokens/properties/color/fileuploder.json',
         isSource: true,
         original: {
           value: '{color.danger.600.value}',
@@ -3705,11 +3543,11 @@ module.exports = {
     flag: {
       solid: {
         background: {
-          value: '#00919f',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorFlagSolidBackground',
           attributes: {
@@ -3721,11 +3559,11 @@ module.exports = {
           path: ['color', 'flag', 'solid', 'background'],
         },
         border: {
-          value: '#00919f',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorFlagSolidBorder',
           attributes: {
@@ -3738,7 +3576,7 @@ module.exports = {
         },
         text: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3755,11 +3593,11 @@ module.exports = {
       },
       'solid-primary-02': {
         background: {
-          value: '#035f64',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#4b4a8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-02.600.value}',
+            value: '{color.secondary-purple.600.value}',
           },
           name: 'ColorFlagSolidPrimary02Background',
           attributes: {
@@ -3771,11 +3609,11 @@ module.exports = {
           path: ['color', 'flag', 'solid-primary-02', 'background'],
         },
         border: {
-          value: '#035f64',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#4b4a8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-02.600.value}',
+            value: '{color.secondary-purple.600.value}',
           },
           name: 'ColorFlagSolidPrimary02Border',
           attributes: {
@@ -3788,7 +3626,7 @@ module.exports = {
         },
         text: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3806,7 +3644,7 @@ module.exports = {
       'solid-dark': {
         background: {
           value: '#000000',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.999.value}',
@@ -3822,7 +3660,7 @@ module.exports = {
         },
         border: {
           value: '#000000',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.999.value}',
@@ -3838,7 +3676,7 @@ module.exports = {
         },
         text: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3856,7 +3694,7 @@ module.exports = {
       'solid-light': {
         background: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3872,7 +3710,7 @@ module.exports = {
         },
         border: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3888,7 +3726,7 @@ module.exports = {
         },
         text: {
           value: '#000000',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.999.value}',
@@ -3905,11 +3743,11 @@ module.exports = {
       },
       'solid-danger': {
         background: {
-          value: '#df382b',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#b42a27',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.secondary-red.500.value}',
+            value: '{color.secondary-red.600.value}',
           },
           name: 'ColorFlagSolidDangerBackground',
           attributes: {
@@ -3921,11 +3759,11 @@ module.exports = {
           path: ['color', 'flag', 'solid-danger', 'background'],
         },
         border: {
-          value: '#df382b',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#b42a27',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.secondary-red.500.value}',
+            value: '{color.secondary-red.600.value}',
           },
           name: 'ColorFlagSolidDangerBorder',
           attributes: {
@@ -3938,7 +3776,7 @@ module.exports = {
         },
         text: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3956,7 +3794,7 @@ module.exports = {
       bordered: {
         background: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -3971,11 +3809,11 @@ module.exports = {
           path: ['color', 'flag', 'bordered', 'background'],
         },
         border: {
-          value: '#00919f',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorFlagBorderedBorder',
           attributes: {
@@ -3987,11 +3825,11 @@ module.exports = {
           path: ['color', 'flag', 'bordered', 'border'],
         },
         text: {
-          value: '#00919f',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorFlagBorderedText',
           attributes: {
@@ -4006,7 +3844,7 @@ module.exports = {
       'bordered-primary-02': {
         background: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -4021,11 +3859,11 @@ module.exports = {
           path: ['color', 'flag', 'bordered-primary-02', 'background'],
         },
         border: {
-          value: '#035f64',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#4b4a8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-02.600.value}',
+            value: '{color.secondary-purple.600.value}',
           },
           name: 'ColorFlagBorderedPrimary02Border',
           attributes: {
@@ -4037,11 +3875,11 @@ module.exports = {
           path: ['color', 'flag', 'bordered-primary-02', 'border'],
         },
         text: {
-          value: '#035f64',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#4b4a8c',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.primary-02.600.value}',
+            value: '{color.secondary-purple.600.value}',
           },
           name: 'ColorFlagBorderedPrimary02Text',
           attributes: {
@@ -4056,7 +3894,7 @@ module.exports = {
       'bordered-dark': {
         background: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -4072,7 +3910,7 @@ module.exports = {
         },
         border: {
           value: '#000000',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.999.value}',
@@ -4088,7 +3926,7 @@ module.exports = {
         },
         text: {
           value: '#000000',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.999.value}',
@@ -4106,7 +3944,7 @@ module.exports = {
       'bordered-light': {
         background: {
           value: '#000000',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.999.value}',
@@ -4122,7 +3960,7 @@ module.exports = {
         },
         border: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -4138,7 +3976,7 @@ module.exports = {
         },
         text: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/properties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -4156,7 +3994,7 @@ module.exports = {
       'bordered-danger': {
         background: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -4171,11 +4009,11 @@ module.exports = {
           path: ['color', 'flag', 'bordered-danger', 'background'],
         },
         border: {
-          value: '#df382b',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#b42a27',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.secondary-red.500.value}',
+            value: '{color.secondary-red.600.value}',
           },
           name: 'ColorFlagBorderedDangerBorder',
           attributes: {
@@ -4187,11 +4025,11 @@ module.exports = {
           path: ['color', 'flag', 'bordered-danger', 'border'],
         },
         text: {
-          value: '#df382b',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/flag.json',
+          value: '#b42a27',
+          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
           isSource: true,
           original: {
-            value: '{color.secondary-red.500.value}',
+            value: '{color.secondary-red.600.value}',
           },
           name: 'ColorFlagBorderedDangerText',
           attributes: {
@@ -4207,7 +4045,7 @@ module.exports = {
     focus: {
       gap: {
         value: '#ffffff',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/focus.json',
+        filePath: 'packages/tokens/properties/color/focus.json',
         isSource: true,
         original: {
           value: '{color.grey.000.value}',
@@ -4222,7 +4060,7 @@ module.exports = {
       },
       border: {
         value: '#758992',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/focus.json',
+        filePath: 'packages/tokens/properties/color/focus.json',
         isSource: true,
         original: {
           value: '{color.secondary-blue.500.value}',
@@ -4239,7 +4077,7 @@ module.exports = {
     font: {
       'primary-01': {
         value: '#00919f',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.primary-01.500.value}',
@@ -4253,8 +4091,8 @@ module.exports = {
         path: ['color', 'font', 'primary-01'],
       },
       'primary-02': {
-        value: '#007574',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        value: '#6a7081',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.primary-02.500.value}',
@@ -4269,7 +4107,7 @@ module.exports = {
       },
       darkest: {
         value: '#000000',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.grey.999.value}',
@@ -4283,8 +4121,8 @@ module.exports = {
         path: ['color', 'font', 'darkest'],
       },
       darker: {
-        value: '#1e1e1c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        value: '#191919',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.grey.900.value}',
@@ -4298,8 +4136,8 @@ module.exports = {
         path: ['color', 'font', 'darker'],
       },
       dark: {
-        value: '#3a3936',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        value: '#333333',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.grey.800.value}',
@@ -4313,8 +4151,8 @@ module.exports = {
         path: ['color', 'font', 'dark'],
       },
       light: {
-        value: '#71706b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        value: '#666666',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.grey.600.value}',
@@ -4329,7 +4167,7 @@ module.exports = {
       },
       lightest: {
         value: '#ffffff',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.grey.000.value}',
@@ -4344,7 +4182,7 @@ module.exports = {
       },
       info: {
         value: '#007bb4',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.info.600.value}',
@@ -4359,7 +4197,7 @@ module.exports = {
       },
       success: {
         value: '#188803',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.success.600.value}',
@@ -4374,7 +4212,7 @@ module.exports = {
       },
       warning: {
         value: '#c65200',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.warning.600.value}',
@@ -4389,7 +4227,7 @@ module.exports = {
       },
       danger: {
         value: '#c61112',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/font.json',
+        filePath: 'packages/tokens/properties/color/font.json',
         isSource: true,
         original: {
           value: '{color.danger.600.value}',
@@ -4405,8 +4243,8 @@ module.exports = {
     },
     input: {
       text: {
-        value: '#1e1e1c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+        value: '#191919',
+        filePath: 'packages/tokens/properties/color/input.json',
         isSource: true,
         original: {
           value: '{color.grey.900.value}',
@@ -4420,8 +4258,8 @@ module.exports = {
         path: ['color', 'input', 'text'],
       },
       border: {
-        value: '#71706b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+        value: '#666666',
+        filePath: 'packages/tokens/properties/color/input.json',
         isSource: true,
         original: {
           value: '{color.grey.600.value}',
@@ -4435,8 +4273,8 @@ module.exports = {
         path: ['color', 'input', 'border'],
       },
       placeholder: {
-        value: '#8c8b85',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+        value: '#808080',
+        filePath: 'packages/tokens/properties/color/input.json',
         isSource: true,
         original: {
           value: '{color.grey.500.value}',
@@ -4451,7 +4289,7 @@ module.exports = {
       },
       background: {
         value: '#ffffff',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+        filePath: 'packages/tokens/properties/color/input.json',
         isSource: true,
         original: {
           value: '{color.grey.000.value}',
@@ -4466,9 +4304,8 @@ module.exports = {
       },
       disabled: {
         border: {
-          value: '#eeedea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -4483,9 +4320,8 @@ module.exports = {
           path: ['color', 'input', 'disabled', 'border'],
         },
         background: {
-          value: '#eeedea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -4500,9 +4336,8 @@ module.exports = {
           path: ['color', 'input', 'disabled', 'background'],
         },
         icon: {
-          value: '#a7a6a0',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          value: '#999999',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.grey.400.value}',
@@ -4519,9 +4354,8 @@ module.exports = {
       },
       hover: {
         border: {
-          value: '#1e1e1c',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          value: '#191919',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.grey.900.value}',
@@ -4539,8 +4373,7 @@ module.exports = {
       focus: {
         border: {
           value: '#758992',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.secondary-blue.500.value}',
@@ -4558,8 +4391,7 @@ module.exports = {
       valid: {
         border: {
           value: '#46a610',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.success.500.value}',
@@ -4576,8 +4408,7 @@ module.exports = {
         hover: {
           border: {
             value: '#035010',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+            filePath: 'packages/tokens/properties/color/input.json',
             isSource: true,
             original: {
               value: '{color.success.800.value}',
@@ -4597,8 +4428,7 @@ module.exports = {
       invalid: {
         border: {
           value: '#c61112',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.danger.600.value}',
@@ -4615,8 +4445,7 @@ module.exports = {
         hover: {
           border: {
             value: '#530000',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+            filePath: 'packages/tokens/properties/color/input.json',
             isSource: true,
             original: {
               value: '{color.danger.800.value}',
@@ -4636,8 +4465,7 @@ module.exports = {
       checked: {
         border: {
           value: '#00919f',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.primary-01.500.value}',
@@ -4653,8 +4481,7 @@ module.exports = {
         },
         background: {
           value: '#00919f',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.primary-01.500.value}',
@@ -4670,8 +4497,7 @@ module.exports = {
         },
         icon: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+          filePath: 'packages/tokens/properties/color/input.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -4688,8 +4514,7 @@ module.exports = {
         hover: {
           border: {
             value: '#004e57',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/input.json',
+            filePath: 'packages/tokens/properties/color/input.json',
             isSource: true,
             original: {
               value: '{color.primary-01.800.value}',
@@ -4711,7 +4536,7 @@ module.exports = {
       dark: {
         base: {
           value: '#000000',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.999.value}',
@@ -4726,8 +4551,8 @@ module.exports = {
           path: ['color', 'link', 'dark', 'base'],
         },
         visited: {
-          value: '#3a3936',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#333333',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.800.value}',
@@ -4742,8 +4567,8 @@ module.exports = {
           path: ['color', 'link', 'dark', 'visited'],
         },
         active: {
-          value: '#3a3936',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#333333',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.800.value}',
@@ -4758,8 +4583,8 @@ module.exports = {
           path: ['color', 'link', 'dark', 'active'],
         },
         disabled: {
-          value: '#eeedea',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -4774,8 +4599,8 @@ module.exports = {
           path: ['color', 'link', 'dark', 'disabled'],
         },
         hover: {
-          value: '#71706b',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#666666',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.600.value}',
@@ -4793,7 +4618,7 @@ module.exports = {
       light: {
         base: {
           value: '#ffffff',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -4808,8 +4633,8 @@ module.exports = {
           path: ['color', 'link', 'light', 'base'],
         },
         visited: {
-          value: '#dddcd5',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#cccccc',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.200.value}',
@@ -4824,8 +4649,8 @@ module.exports = {
           path: ['color', 'link', 'light', 'visited'],
         },
         active: {
-          value: '#dddcd5',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#cccccc',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.200.value}',
@@ -4840,8 +4665,8 @@ module.exports = {
           path: ['color', 'link', 'light', 'active'],
         },
         disabled: {
-          value: '#eeedea',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -4856,8 +4681,8 @@ module.exports = {
           path: ['color', 'link', 'light', 'disabled'],
         },
         hover: {
-          value: '#a7a6a0',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#999999',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.400.value}',
@@ -4874,11 +4699,11 @@ module.exports = {
       },
       primary: {
         base: {
-          value: '#00919f',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#007f8c',
+          filePath: 'packages/tokens/AdeoProperties/color/link.json',
           isSource: true,
           original: {
-            value: '{color.primary-01.500.value}',
+            value: '{color.primary-01.600.value}',
           },
           name: 'ColorLinkPrimaryBase',
           attributes: {
@@ -4891,7 +4716,7 @@ module.exports = {
         },
         visited: {
           value: '#006974',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.primary-01.700.value}',
@@ -4907,7 +4732,7 @@ module.exports = {
         },
         active: {
           value: '#006974',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.primary-01.700.value}',
@@ -4922,8 +4747,8 @@ module.exports = {
           path: ['color', 'link', 'primary', 'active'],
         },
         disabled: {
-          value: '#eeedea',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -4939,7 +4764,7 @@ module.exports = {
         },
         hover: {
           value: '#002e33',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.primary-01.900.value}',
@@ -4956,8 +4781,8 @@ module.exports = {
       },
       'primary-02': {
         base: {
-          value: '#035f64',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#494f60',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.primary-02.600.value}',
@@ -4972,8 +4797,8 @@ module.exports = {
           path: ['color', 'link', 'primary-02', 'base'],
         },
         visited: {
-          value: '#044c53',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#343b4c',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.primary-02.700.value}',
@@ -4988,8 +4813,8 @@ module.exports = {
           path: ['color', 'link', 'primary-02', 'visited'],
         },
         active: {
-          value: '#044c53',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#343b4c',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.primary-02.700.value}',
@@ -5004,8 +4829,8 @@ module.exports = {
           path: ['color', 'link', 'primary-02', 'active'],
         },
         disabled: {
-          value: '#eeedea',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -5020,8 +4845,8 @@ module.exports = {
           path: ['color', 'link', 'primary-02', 'disabled'],
         },
         hover: {
-          value: '#062b35',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#171b26',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.primary-02.900.value}',
@@ -5039,7 +4864,7 @@ module.exports = {
       danger: {
         base: {
           value: '#b42a27',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/AdeoProperties/color/link.json',
           isSource: true,
           original: {
             value: '{color.secondary-red.600.value}',
@@ -5055,7 +4880,7 @@ module.exports = {
         },
         visited: {
           value: '#8b2226',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.secondary-red.700.value}',
@@ -5071,7 +4896,7 @@ module.exports = {
         },
         active: {
           value: '#8b2226',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.secondary-red.700.value}',
@@ -5086,8 +4911,8 @@ module.exports = {
           path: ['color', 'link', 'danger', 'active'],
         },
         disabled: {
-          value: '#eeedea',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -5103,7 +4928,7 @@ module.exports = {
         },
         hover: {
           value: '#3e1219',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/color/link.json',
+          filePath: 'packages/tokens/properties/color/link.json',
           isSource: true,
           original: {
             value: '{color.secondary-red.900.value}',
@@ -5122,8 +4947,7 @@ module.exports = {
     notification: {
       font: {
         value: '#000000',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+        filePath: 'packages/tokens/properties/color/notification.json',
         isSource: true,
         original: {
           value: '{color.grey.999.value}',
@@ -5139,8 +4963,7 @@ module.exports = {
       information: {
         background: {
           value: '#daeff7',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.info.100.value}',
@@ -5156,8 +4979,7 @@ module.exports = {
         },
         border: {
           value: '#0b96cc',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.info.500.value}',
@@ -5175,8 +4997,7 @@ module.exports = {
       success: {
         background: {
           value: '#ebf5de',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.success.100.value}',
@@ -5192,8 +5013,7 @@ module.exports = {
         },
         border: {
           value: '#46a610',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.success.500.value}',
@@ -5211,8 +5031,7 @@ module.exports = {
       warning: {
         background: {
           value: '#fdf1e8',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.warning.100.value}',
@@ -5228,8 +5047,7 @@ module.exports = {
         },
         border: {
           value: '#ea7315',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.warning.500.value}',
@@ -5247,8 +5065,7 @@ module.exports = {
       danger: {
         background: {
           value: '#fdeaea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.danger.100.value}',
@@ -5264,8 +5081,7 @@ module.exports = {
         },
         border: {
           value: '#ea302d',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/notification.json',
+          filePath: 'packages/tokens/properties/color/notification.json',
           isSource: true,
           original: {
             value: '{color.danger.500.value}',
@@ -5283,9 +5099,8 @@ module.exports = {
     },
     progress: {
       background: {
-        value: '#dddcd5',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/progressbar.json',
+        value: '#cccccc',
+        filePath: 'packages/tokens/properties/color/progressbar.json',
         isSource: true,
         original: {
           value: '{color.grey.200.value}',
@@ -5300,8 +5115,7 @@ module.exports = {
       },
       indicator: {
         value: '#007bb4',
-        filePath:
-          'node_modules/@mozaic-ds/tokens/properties/color/progressbar.json',
+        filePath: 'packages/tokens/properties/color/progressbar.json',
         isSource: true,
         original: {
           value: '{color.info.600.value}',
@@ -5316,9 +5130,8 @@ module.exports = {
       },
       percentage: {
         default: {
-          value: '#1e1e1c',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/progressbar.json',
+          value: '#191919',
+          filePath: 'packages/tokens/properties/color/progressbar.json',
           isSource: true,
           original: {
             value: '{color.grey.900.value}',
@@ -5334,8 +5147,7 @@ module.exports = {
         },
         half: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/progressbar.json',
+          filePath: 'packages/tokens/properties/color/progressbar.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -5353,8 +5165,7 @@ module.exports = {
       branded: {
         indicator: {
           value: '#00919f',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/progressbar.json',
+          filePath: 'packages/tokens/properties/color/progressbar.json',
           isSource: true,
           original: {
             value: '{color.primary-01.500.value}',
@@ -5372,8 +5183,8 @@ module.exports = {
     },
     star: {
       empty: {
-        value: '#dddcd5',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/star.json',
+        value: '#cccccc',
+        filePath: 'packages/tokens/properties/color/star.json',
         isSource: true,
         original: {
           value: '{color.grey.200.value}',
@@ -5388,7 +5199,7 @@ module.exports = {
       },
       focus: {
         value: '#758992',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/star.json',
+        filePath: 'packages/tokens/properties/color/star.json',
         isSource: true,
         original: {
           value: '{color.secondary-blue.500.value}',
@@ -5403,7 +5214,7 @@ module.exports = {
       },
       full: {
         value: '#fc961e',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/star.json',
+        filePath: 'packages/tokens/properties/color/star.json',
         isSource: true,
         original: {
           value: '{color.secondary-orange.500.value}',
@@ -5418,7 +5229,7 @@ module.exports = {
       },
       hover: {
         value: '#ffc17d',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/star.json',
+        filePath: 'packages/tokens/properties/color/star.json',
         isSource: true,
         original: {
           value: '{color.secondary-orange.300.value}',
@@ -5435,7 +5246,7 @@ module.exports = {
     tabs: {
       background: {
         value: '#ffffff',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/tabs.json',
+        filePath: 'packages/tokens/properties/color/tabs.json',
         isSource: true,
         original: {
           value: '{color.grey.000.value}',
@@ -5450,7 +5261,7 @@ module.exports = {
       },
       shadow: {
         value: '#000000',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/tabs.json',
+        filePath: 'packages/tokens/properties/color/tabs.json',
         isSource: true,
         original: {
           value: '{color.grey.999.value}',
@@ -5464,8 +5275,8 @@ module.exports = {
         path: ['color', 'tabs', 'shadow'],
       },
       default: {
-        value: '#1e1e1c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/tabs.json',
+        value: '#191919',
+        filePath: 'packages/tokens/properties/color/tabs.json',
         isSource: true,
         original: {
           value: '{color.font.darker.value}',
@@ -5480,7 +5291,7 @@ module.exports = {
       },
       hover: {
         value: '#007f8c',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/tabs.json',
+        filePath: 'packages/tokens/properties/color/tabs.json',
         isSource: true,
         original: {
           value: '{color.primary-01.600.value}',
@@ -5494,8 +5305,8 @@ module.exports = {
         path: ['color', 'tabs', 'hover'],
       },
       disabled: {
-        value: '#71706b',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/tabs.json',
+        value: '#666666',
+        filePath: 'packages/tokens/properties/color/tabs.json',
         isSource: true,
         original: {
           value: '{color.font.light.value}',
@@ -5510,7 +5321,7 @@ module.exports = {
       },
       active: {
         value: '#00919f',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/tabs.json',
+        filePath: 'packages/tokens/properties/color/tabs.json',
         isSource: true,
         original: {
           value: '{color.font.primary-01.value}',
@@ -5525,7 +5336,7 @@ module.exports = {
       },
       'active-disabled': {
         value: '#91d5db',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/color/tabs.json',
+        filePath: 'packages/tokens/properties/color/tabs.json',
         isSource: true,
         original: {
           value: '{color.primary-01.200.value}',
@@ -5544,8 +5355,7 @@ module.exports = {
         light: {
           background: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -5561,12 +5371,11 @@ module.exports = {
             path: ['color', 'tag', 'text', 'light', 'background'],
           },
           border: {
-            value: '#555550',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#808080',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.700.value}',
+              value: '{color.grey.500.value}',
             },
             name: 'ColorTagTextLightBorder',
             attributes: {
@@ -5579,12 +5388,11 @@ module.exports = {
             path: ['color', 'tag', 'text', 'light', 'border'],
           },
           text: {
-            value: '#555550',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.700.value}',
+              value: '{color.grey.900.value}',
             },
             name: 'ColorTagTextLightText',
             attributes: {
@@ -5599,12 +5407,11 @@ module.exports = {
         },
         dark: {
           background: {
-            value: '#000000',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.999.value}',
+              value: '{color.grey.900.value}',
             },
             name: 'ColorTagTextDarkBackground',
             attributes: {
@@ -5618,8 +5425,7 @@ module.exports = {
           },
           border: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -5636,8 +5442,7 @@ module.exports = {
           },
           text: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -5658,8 +5463,7 @@ module.exports = {
         light: {
           background: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -5675,12 +5479,11 @@ module.exports = {
             path: ['color', 'tag', 'link', 'light', 'background'],
           },
           border: {
-            value: '#555550',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#808080',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.700.value}',
+              value: '{color.grey.500.value}',
             },
             name: 'ColorTagLinkLightBorder',
             attributes: {
@@ -5693,12 +5496,11 @@ module.exports = {
             path: ['color', 'tag', 'link', 'light', 'border'],
           },
           text: {
-            value: '#555550',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.700.value}',
+              value: '{color.grey.900.value}',
             },
             name: 'ColorTagLinkLightText',
             attributes: {
@@ -5712,9 +5514,8 @@ module.exports = {
           },
           hover: {
             background: {
-              value: '#eeedea',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#e6e6e6',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.100.value}',
@@ -5732,9 +5533,8 @@ module.exports = {
           },
           active: {
             background: {
-              value: '#dddcd5',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#cccccc',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.200.value}',
@@ -5753,12 +5553,11 @@ module.exports = {
         },
         dark: {
           background: {
-            value: '#000000',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.999.value}',
+              value: '{color.grey.900.value}',
             },
             name: 'ColorTagLinkDarkBackground',
             attributes: {
@@ -5772,8 +5571,7 @@ module.exports = {
           },
           border: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -5790,8 +5588,7 @@ module.exports = {
           },
           text: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -5808,9 +5605,8 @@ module.exports = {
           },
           hover: {
             background: {
-              value: '#3a3936',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#333333',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.800.value}',
@@ -5828,9 +5624,8 @@ module.exports = {
           },
           active: {
             background: {
-              value: '#555550',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#4d4d4d',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.700.value}',
@@ -5851,12 +5646,11 @@ module.exports = {
       selectable: {
         light: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#ffffff',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.200.value}',
+              value: '{color.grey.000.value}',
             },
             name: 'ColorTagSelectableLightBackground',
             attributes: {
@@ -5868,10 +5662,26 @@ module.exports = {
             },
             path: ['color', 'tag', 'selectable', 'light', 'background'],
           },
+          border: {
+            value: '#808080',
+            filePath: 'packages/tokens/properties/color/tag.json',
+            isSource: true,
+            original: {
+              value: '{color.grey.500.value}',
+            },
+            name: 'ColorTagSelectableLightBorder',
+            attributes: {
+              category: 'color',
+              type: 'tag',
+              item: 'selectable',
+              subitem: 'light',
+              state: 'border',
+            },
+            path: ['color', 'tag', 'selectable', 'light', 'border'],
+          },
           text: {
-            value: '#1e1e1c',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.900.value}',
@@ -5889,8 +5699,7 @@ module.exports = {
           hover: {
             background: {
               value: '#48bac4',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.primary-01.300.value}',
@@ -5915,12 +5724,11 @@ module.exports = {
           },
           active: {
             background: {
-              value: '#007f8c',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#004e57',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.primary-01.600.value}',
+                value: '{color.primary-01.800.value}',
               },
               name: 'ColorTagSelectableLightActiveBackground',
               attributes: {
@@ -5939,12 +5747,45 @@ module.exports = {
                 'background',
               ],
             },
+            border: {
+              value: '#004e57',
+              filePath: 'packages/tokens/properties/color/tag.json',
+              isSource: true,
+              original: {
+                value: '{color.primary-01.800.value}',
+              },
+              name: 'ColorTagSelectableLightActiveBorder',
+              attributes: {
+                category: 'color',
+                type: 'tag',
+                item: 'selectable',
+                subitem: 'light',
+                state: 'active',
+              },
+              path: ['color', 'tag', 'selectable', 'light', 'active', 'border'],
+            },
+            text: {
+              value: '#ffffff',
+              filePath: 'packages/tokens/properties/color/tag.json',
+              isSource: true,
+              original: {
+                value: '{color.grey.000.value}',
+              },
+              name: 'ColorTagSelectableLightActiveText',
+              attributes: {
+                category: 'color',
+                type: 'tag',
+                item: 'selectable',
+                subitem: 'light',
+                state: 'active',
+              },
+              path: ['color', 'tag', 'selectable', 'light', 'active', 'text'],
+            },
           },
           disabled: {
             background: {
-              value: '#eeedea',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#e6e6e6',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.100.value}',
@@ -5967,9 +5808,8 @@ module.exports = {
               ],
             },
             text: {
-              value: '#8c8b85',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#808080',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.500.value}',
@@ -5987,12 +5827,11 @@ module.exports = {
           },
           selected: {
             background: {
-              value: '#00919f',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#007f8c',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.primary-01.500.value}',
+                value: '{color.primary-01.600.value}',
               },
               name: 'ColorTagSelectableLightSelectedBackground',
               attributes: {
@@ -6011,16 +5850,59 @@ module.exports = {
                 'background',
               ],
             },
+            text: {
+              value: '#ffffff',
+              filePath: 'packages/tokens/properties/color/tag.json',
+              isSource: true,
+              original: {
+                value: '{color.grey.000.value}',
+              },
+              name: 'ColorTagSelectableLightSelectedText',
+              attributes: {
+                category: 'color',
+                type: 'tag',
+                item: 'selectable',
+                subitem: 'light',
+                state: 'selected',
+              },
+              path: ['color', 'tag', 'selectable', 'light', 'selected', 'text'],
+            },
+            hover: {
+              background: {
+                value: '#006974',
+                filePath: 'packages/tokens/properties/color/tag.json',
+                isSource: true,
+                original: {
+                  value: '{color.primary-01.700.value}',
+                },
+                name: 'ColorTagSelectableLightSelectedHoverBackground',
+                attributes: {
+                  category: 'color',
+                  type: 'tag',
+                  item: 'selectable',
+                  subitem: 'light',
+                  state: 'selected',
+                },
+                path: [
+                  'color',
+                  'tag',
+                  'selectable',
+                  'light',
+                  'selected',
+                  'hover',
+                  'background',
+                ],
+              },
+            },
           },
         },
         dark: {
           background: {
-            value: '#3a3936',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.800.value}',
+              value: '{color.grey.900.value}',
             },
             name: 'ColorTagSelectableDarkBackground',
             attributes: {
@@ -6032,10 +5914,26 @@ module.exports = {
             },
             path: ['color', 'tag', 'selectable', 'dark', 'background'],
           },
+          border: {
+            value: '#ffffff',
+            filePath: 'packages/tokens/properties/color/tag.json',
+            isSource: true,
+            original: {
+              value: '{color.grey.000.value}',
+            },
+            name: 'ColorTagSelectableDarkBorder',
+            attributes: {
+              category: 'color',
+              type: 'tag',
+              item: 'selectable',
+              subitem: 'dark',
+              state: 'border',
+            },
+            path: ['color', 'tag', 'selectable', 'dark', 'border'],
+          },
           text: {
             value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
               value: '{color.grey.000.value}',
@@ -6052,12 +5950,11 @@ module.exports = {
           },
           hover: {
             background: {
-              value: '#00919f',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#006974',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.primary-01.500.value}',
+                value: '{color.primary-01.700.value}',
               },
               name: 'ColorTagSelectableDarkHoverBackground',
               attributes: {
@@ -6079,12 +5976,11 @@ module.exports = {
           },
           active: {
             background: {
-              value: '#004e57',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#91d5db',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.primary-01.800.value}',
+                value: '{color.primary-01.200.value}',
               },
               name: 'ColorTagSelectableDarkActiveBackground',
               attributes: {
@@ -6103,15 +5999,48 @@ module.exports = {
                 'background',
               ],
             },
+            border: {
+              value: '#91d5db',
+              filePath: 'packages/tokens/properties/color/tag.json',
+              isSource: true,
+              original: {
+                value: '{color.primary-01.200.value}',
+              },
+              name: 'ColorTagSelectableDarkActiveBorder',
+              attributes: {
+                category: 'color',
+                type: 'tag',
+                item: 'selectable',
+                subitem: 'dark',
+                state: 'active',
+              },
+              path: ['color', 'tag', 'selectable', 'dark', 'active', 'border'],
+            },
+            text: {
+              value: '#191919',
+              filePath: 'packages/tokens/properties/color/tag.json',
+              isSource: true,
+              original: {
+                value: '{color.grey.900.value}',
+              },
+              name: 'ColorTagSelectableDarkActiveText',
+              attributes: {
+                category: 'color',
+                type: 'tag',
+                item: 'selectable',
+                subitem: 'dark',
+                state: 'active',
+              },
+              path: ['color', 'tag', 'selectable', 'dark', 'active', 'text'],
+            },
           },
           selected: {
             background: {
-              value: '#006974',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#009eac',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.primary-01.700.value}',
+                value: '{color.primary-01.400.value}',
               },
               name: 'ColorTagSelectableDarkSelectedBackground',
               attributes: {
@@ -6130,12 +6059,79 @@ module.exports = {
                 'background',
               ],
             },
+            border: {
+              value: '#009eac',
+              filePath: 'packages/tokens/properties/color/tag.json',
+              isSource: true,
+              original: {
+                value: '{color.primary-01.400.value}',
+              },
+              name: 'ColorTagSelectableDarkSelectedBorder',
+              attributes: {
+                category: 'color',
+                type: 'tag',
+                item: 'selectable',
+                subitem: 'dark',
+                state: 'selected',
+              },
+              path: [
+                'color',
+                'tag',
+                'selectable',
+                'dark',
+                'selected',
+                'border',
+              ],
+            },
+            text: {
+              value: '#191919',
+              filePath: 'packages/tokens/properties/color/tag.json',
+              isSource: true,
+              original: {
+                value: '{color.grey.900.value}',
+              },
+              name: 'ColorTagSelectableDarkSelectedText',
+              attributes: {
+                category: 'color',
+                type: 'tag',
+                item: 'selectable',
+                subitem: 'dark',
+                state: 'selected',
+              },
+              path: ['color', 'tag', 'selectable', 'dark', 'selected', 'text'],
+            },
+            hover: {
+              background: {
+                value: '#48bac4',
+                filePath: 'packages/tokens/properties/color/tag.json',
+                isSource: true,
+                original: {
+                  value: '{color.primary-01.300.value}',
+                },
+                name: 'ColorTagSelectableDarkSelectedHoverBackground',
+                attributes: {
+                  category: 'color',
+                  type: 'tag',
+                  item: 'selectable',
+                  subitem: 'dark',
+                  state: 'selected',
+                },
+                path: [
+                  'color',
+                  'tag',
+                  'selectable',
+                  'dark',
+                  'selected',
+                  'hover',
+                  'background',
+                ],
+              },
+            },
           },
           disabled: {
             background: {
-              value: '#555550',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#4d4d4d',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.700.value}',
@@ -6158,9 +6154,8 @@ module.exports = {
               ],
             },
             text: {
-              value: '#8c8b85',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#808080',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
                 value: '{color.grey.500.value}',
@@ -6181,12 +6176,11 @@ module.exports = {
       removable: {
         light: {
           background: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#333333',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.200.value}',
+              value: '{color.grey.800.value}',
             },
             name: 'ColorTagRemovableLightBackground',
             attributes: {
@@ -6199,12 +6193,11 @@ module.exports = {
             path: ['color', 'tag', 'removable', 'light', 'background'],
           },
           text: {
-            value: '#1e1e1c',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#ffffff',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.900.value}',
+              value: '{color.grey.000.value}',
             },
             name: 'ColorTagRemovableLightText',
             attributes: {
@@ -6217,12 +6210,11 @@ module.exports = {
             path: ['color', 'tag', 'removable', 'light', 'text'],
           },
           icon: {
-            value: '#3a3936',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.800.value}',
+              value: '{color.grey.200.value}',
             },
             name: 'ColorTagRemovableLightIcon',
             attributes: {
@@ -6236,12 +6228,11 @@ module.exports = {
           },
           hover: {
             background: {
-              value: '#c2c1ba',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#4d4d4d',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.grey.300.value}',
+                value: '{color.grey.700.value}',
               },
               name: 'ColorTagRemovableLightHoverBackground',
               attributes: {
@@ -6263,12 +6254,11 @@ module.exports = {
           },
           active: {
             background: {
-              value: '#a7a6a0',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#666666',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.grey.400.value}',
+                value: '{color.grey.600.value}',
               },
               name: 'ColorTagRemovableLightActiveBackground',
               attributes: {
@@ -6291,12 +6281,11 @@ module.exports = {
         },
         dark: {
           background: {
-            value: '#3a3936',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#cccccc',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.800.value}',
+              value: '{color.grey.200.value}',
             },
             name: 'ColorTagRemovableDarkBackground',
             attributes: {
@@ -6309,12 +6298,11 @@ module.exports = {
             path: ['color', 'tag', 'removable', 'dark', 'background'],
           },
           text: {
-            value: '#ffffff',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.000.value}',
+              value: '{color.grey.900.value}',
             },
             name: 'ColorTagRemovableDarkText',
             attributes: {
@@ -6327,12 +6315,11 @@ module.exports = {
             path: ['color', 'tag', 'removable', 'dark', 'text'],
           },
           icon: {
-            value: '#dddcd5',
-            filePath:
-              'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+            value: '#191919',
+            filePath: 'packages/tokens/properties/color/tag.json',
             isSource: true,
             original: {
-              value: '{color.grey.200.value}',
+              value: '{color.grey.900.value}',
             },
             name: 'ColorTagRemovableDarkIcon',
             attributes: {
@@ -6346,12 +6333,11 @@ module.exports = {
           },
           hover: {
             background: {
-              value: '#555550',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#b3b3b3',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.grey.700.value}',
+                value: '{color.grey.300.value}',
               },
               name: 'ColorTagRemovableDarkHoverBackground',
               attributes: {
@@ -6373,12 +6359,11 @@ module.exports = {
           },
           active: {
             background: {
-              value: '#71706b',
-              filePath:
-                'node_modules/@mozaic-ds/tokens/properties/color/tag.json',
+              value: '#999999',
+              filePath: 'packages/tokens/properties/color/tag.json',
               isSource: true,
               original: {
-                value: '{color.grey.600.value}',
+                value: '{color.grey.400.value}',
               },
               name: 'ColorTagRemovableDarkActiveBackground',
               attributes: {
@@ -6404,9 +6389,8 @@ module.exports = {
     toggle: {
       off: {
         background: {
-          value: '#71706b',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          value: '#666666',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.grey.600.value}',
@@ -6422,8 +6406,7 @@ module.exports = {
         },
         circle: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -6441,8 +6424,7 @@ module.exports = {
       on: {
         background: {
           value: '#00919f',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.primary-01.500.value}',
@@ -6458,8 +6440,7 @@ module.exports = {
         },
         circle: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -6476,9 +6457,8 @@ module.exports = {
       },
       hover: {
         circle: {
-          value: '#eeedea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -6495,9 +6475,8 @@ module.exports = {
       },
       disabled: {
         background: {
-          value: '#eeedea',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          value: '#e6e6e6',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.grey.100.value}',
@@ -6512,9 +6491,8 @@ module.exports = {
           path: ['color', 'toggle', 'disabled', 'background'],
         },
         circle: {
-          value: '#c2c1ba',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          value: '#b3b3b3',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.grey.300.value}',
@@ -6532,8 +6510,7 @@ module.exports = {
       'disabled-checked': {
         background: {
           value: '#91d5db',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.primary-01.200.value}',
@@ -6549,8 +6526,7 @@ module.exports = {
         },
         circle: {
           value: '#ffffff',
-          filePath:
-            'node_modules/@mozaic-ds/tokens/properties/color/toggle.json',
+          filePath: 'packages/tokens/properties/color/toggle.json',
           isSource: true,
           original: {
             value: '{color.grey.000.value}',
@@ -6566,10 +6542,147 @@ module.exports = {
         },
       },
     },
+    'secondary-sandgrey': {
+      100: {
+        value: '#eeedea',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#EEEDEA',
+        },
+        name: 'ColorSecondarySandgrey100',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '100',
+        },
+        path: ['color', 'secondary-sandgrey', '100'],
+      },
+      200: {
+        value: '#dddcd5',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#DDDCD5',
+        },
+        name: 'ColorSecondarySandgrey200',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '200',
+        },
+        path: ['color', 'secondary-sandgrey', '200'],
+      },
+      300: {
+        value: '#c2c1ba',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#C2C1BA',
+        },
+        name: 'ColorSecondarySandgrey300',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '300',
+        },
+        path: ['color', 'secondary-sandgrey', '300'],
+      },
+      400: {
+        value: '#a7a6a0',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#A7A6A0',
+        },
+        name: 'ColorSecondarySandgrey400',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '400',
+        },
+        path: ['color', 'secondary-sandgrey', '400'],
+      },
+      500: {
+        value: '#8c8b85',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#8C8B85',
+        },
+        name: 'ColorSecondarySandgrey500',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '500',
+        },
+        path: ['color', 'secondary-sandgrey', '500'],
+      },
+      600: {
+        value: '#71706b',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#71706B',
+        },
+        name: 'ColorSecondarySandgrey600',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '600',
+        },
+        path: ['color', 'secondary-sandgrey', '600'],
+      },
+      700: {
+        value: '#555550',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#555550',
+        },
+        name: 'ColorSecondarySandgrey700',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '700',
+        },
+        path: ['color', 'secondary-sandgrey', '700'],
+      },
+      800: {
+        value: '#3a3936',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#3A3936',
+        },
+        name: 'ColorSecondarySandgrey800',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '800',
+        },
+        path: ['color', 'secondary-sandgrey', '800'],
+      },
+      900: {
+        value: '#1e1e1c',
+        filePath: 'packages/tokens/AdeoProperties/color/base.json',
+        isSource: true,
+        original: {
+          value: '#1E1E1C',
+        },
+        name: 'ColorSecondarySandgrey900',
+        attributes: {
+          category: 'color',
+          type: 'secondary-sandgrey',
+          item: '900',
+        },
+        path: ['color', 'secondary-sandgrey', '900'],
+      },
+    },
   },
   preset: {
     value: 'adeo',
-    filePath: 'node_modules/@mozaic-ds/tokens/AdeoProperties/preset.json',
+    filePath: 'packages/tokens/AdeoProperties/preset.json',
     isSource: true,
     original: {
       value: 'adeo',
@@ -6583,7 +6696,7 @@ module.exports = {
   radius: {
     s: {
       value: 2,
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/radius/base.json',
+      filePath: 'packages/tokens/properties/radius/base.json',
       isSource: true,
       original: {
         value: 2,
@@ -6597,7 +6710,7 @@ module.exports = {
     },
     m: {
       value: 4,
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/radius/base.json',
+      filePath: 'packages/tokens/properties/radius/base.json',
       isSource: true,
       original: {
         value: 4,
@@ -6611,7 +6724,7 @@ module.exports = {
     },
     l: {
       value: 6,
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/radius/base.json',
+      filePath: 'packages/tokens/properties/radius/base.json',
       isSource: true,
       original: {
         value: 6,
@@ -6628,7 +6741,7 @@ module.exports = {
     s: {
       x: {
         value: '0px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0px',
@@ -6643,7 +6756,7 @@ module.exports = {
       },
       y: {
         value: '1px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '1px',
@@ -6658,7 +6771,7 @@ module.exports = {
       },
       blur: {
         value: '5px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '5px',
@@ -6673,7 +6786,7 @@ module.exports = {
       },
       spread: {
         value: '0px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0px',
@@ -6688,7 +6801,7 @@ module.exports = {
       },
       opacity: {
         value: '0.2',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0.2',
@@ -6705,7 +6818,7 @@ module.exports = {
     m: {
       x: {
         value: '0px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0px',
@@ -6720,7 +6833,7 @@ module.exports = {
       },
       y: {
         value: '2px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '2px',
@@ -6735,7 +6848,7 @@ module.exports = {
       },
       blur: {
         value: '10px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '10px',
@@ -6750,7 +6863,7 @@ module.exports = {
       },
       spread: {
         value: '0px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0px',
@@ -6765,7 +6878,7 @@ module.exports = {
       },
       opacity: {
         value: '0.2',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0.2',
@@ -6782,7 +6895,7 @@ module.exports = {
     l: {
       x: {
         value: '0px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0px',
@@ -6797,7 +6910,7 @@ module.exports = {
       },
       y: {
         value: '4px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '4px',
@@ -6812,7 +6925,7 @@ module.exports = {
       },
       blur: {
         value: '20px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '20px',
@@ -6827,7 +6940,7 @@ module.exports = {
       },
       spread: {
         value: '0px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0px',
@@ -6842,7 +6955,7 @@ module.exports = {
       },
       opacity: {
         value: '0.2',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/shadow/base.json',
+        filePath: 'packages/tokens/properties/shadow/base.json',
         isSource: true,
         original: {
           value: '0.2',
@@ -6859,7 +6972,7 @@ module.exports = {
   },
   'magic-unit': {
     value: 1,
-    filePath: 'node_modules/@mozaic-ds/tokens/properties/size/base.json',
+    filePath: 'packages/tokens/properties/size/base.json',
     isSource: true,
     original: {
       value: 1,
@@ -6872,7 +6985,7 @@ module.exports = {
   },
   'local-rem-value': {
     value: 16,
-    filePath: 'node_modules/@mozaic-ds/tokens/properties/size/base.json',
+    filePath: 'packages/tokens/properties/size/base.json',
     isSource: true,
     original: {
       value: 16,
@@ -6888,7 +7001,7 @@ module.exports = {
       10: {
         value: '2.5625rem',
         comment: '41px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 2.5625,
@@ -6905,7 +7018,7 @@ module.exports = {
       11: {
         value: '3.0625rem',
         comment: '49px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 3.0625,
@@ -6922,7 +7035,7 @@ module.exports = {
       12: {
         value: '3.6875rem',
         comment: '59px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 3.6875,
@@ -6939,7 +7052,7 @@ module.exports = {
       '01': {
         value: '0.6815rem',
         comment: '11px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 0.6815,
@@ -6956,7 +7069,7 @@ module.exports = {
       '02': {
         value: '0.75rem',
         comment: '12px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 0.75,
@@ -6973,7 +7086,7 @@ module.exports = {
       '03': {
         value: '0.8125rem',
         comment: '13px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 0.8125,
@@ -6990,7 +7103,7 @@ module.exports = {
       '04': {
         value: '0.875rem',
         comment: '14px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 0.875,
@@ -7007,7 +7120,7 @@ module.exports = {
       '05': {
         value: '1rem',
         comment: '16px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 1,
@@ -7024,7 +7137,7 @@ module.exports = {
       '06': {
         value: '1.125rem',
         comment: '18px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 1.125,
@@ -7041,7 +7154,7 @@ module.exports = {
       '07': {
         value: '1.4375rem',
         comment: '23px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 1.4375,
@@ -7058,7 +7171,7 @@ module.exports = {
       '08': {
         value: '1.75rem',
         comment: '28px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 1.75,
@@ -7075,7 +7188,7 @@ module.exports = {
       '09': {
         value: '2.125rem',
         comment: '34px',
-        filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+        filePath: 'packages/tokens/properties/size/font.json',
         isSource: true,
         original: {
           value: 2.125,
@@ -7095,7 +7208,7 @@ module.exports = {
         xs: {
           value: '2.5rem',
           comment: '40px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2.5,
@@ -7113,7 +7226,7 @@ module.exports = {
         s: {
           value: '3rem',
           comment: '48px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 3,
@@ -7131,7 +7244,7 @@ module.exports = {
         m: {
           value: '3.5rem',
           comment: '56px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 3.5,
@@ -7149,7 +7262,7 @@ module.exports = {
         l: {
           value: '3.75rem',
           comment: '60px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 3.75,
@@ -7169,7 +7282,7 @@ module.exports = {
         xs: {
           value: '3rem',
           comment: '48px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 3,
@@ -7187,7 +7300,7 @@ module.exports = {
         s: {
           value: '3.5rem',
           comment: '56px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 3.5,
@@ -7205,7 +7318,7 @@ module.exports = {
         m: {
           value: '4.25rem',
           comment: '68px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 4.25,
@@ -7223,7 +7336,7 @@ module.exports = {
         l: {
           value: '4.5rem',
           comment: '72px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 4.5,
@@ -7243,7 +7356,7 @@ module.exports = {
         xs: {
           value: '3.75rem',
           comment: '60px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 3.75,
@@ -7261,7 +7374,7 @@ module.exports = {
         s: {
           value: '4.25rem',
           comment: '68px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 4.25,
@@ -7279,7 +7392,7 @@ module.exports = {
         m: {
           value: '5rem',
           comment: '80px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 5,
@@ -7297,7 +7410,7 @@ module.exports = {
         l: {
           value: '5.5rem',
           comment: '88px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 5.5,
@@ -7317,7 +7430,7 @@ module.exports = {
         xs: {
           value: '0.75rem',
           comment: '12px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 0.75,
@@ -7335,7 +7448,7 @@ module.exports = {
         s: {
           value: '0.75rem',
           comment: '12px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 0.75,
@@ -7353,7 +7466,7 @@ module.exports = {
         m: {
           value: '0.875rem',
           comment: '14px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 0.875,
@@ -7371,7 +7484,7 @@ module.exports = {
         l: {
           value: '1rem',
           comment: '16px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1,
@@ -7391,7 +7504,7 @@ module.exports = {
         xs: {
           value: '0.75rem',
           comment: '12px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 0.75,
@@ -7409,7 +7522,7 @@ module.exports = {
         s: {
           value: '0.875rem',
           comment: '14px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 0.875,
@@ -7427,7 +7540,7 @@ module.exports = {
         m: {
           value: '1rem',
           comment: '16px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1,
@@ -7445,7 +7558,7 @@ module.exports = {
         l: {
           value: '1.125rem',
           comment: '18px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.125,
@@ -7465,7 +7578,7 @@ module.exports = {
         xs: {
           value: '0.875rem',
           comment: '14px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 0.875,
@@ -7483,7 +7596,7 @@ module.exports = {
         s: {
           value: '1rem',
           comment: '16px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1,
@@ -7501,7 +7614,7 @@ module.exports = {
         m: {
           value: '1.125rem',
           comment: '18px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.125,
@@ -7519,7 +7632,7 @@ module.exports = {
         l: {
           value: '1.25rem',
           comment: '20px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.25,
@@ -7539,7 +7652,7 @@ module.exports = {
         xs: {
           value: '0.875rem',
           comment: '14px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 0.875,
@@ -7557,7 +7670,7 @@ module.exports = {
         s: {
           value: '1rem',
           comment: '16px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1,
@@ -7575,7 +7688,7 @@ module.exports = {
         m: {
           value: '1.125rem',
           comment: '18px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.125,
@@ -7593,7 +7706,7 @@ module.exports = {
         l: {
           value: '1.375rem',
           comment: '22px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.375,
@@ -7613,7 +7726,7 @@ module.exports = {
         xs: {
           value: '1rem',
           comment: '16px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1,
@@ -7631,7 +7744,7 @@ module.exports = {
         s: {
           value: '1.125rem',
           comment: '18px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.125,
@@ -7649,7 +7762,7 @@ module.exports = {
         m: {
           value: '1.375rem',
           comment: '22px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.375,
@@ -7667,7 +7780,7 @@ module.exports = {
         l: {
           value: '1.5rem',
           comment: '24px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.5,
@@ -7687,7 +7800,7 @@ module.exports = {
         xs: {
           value: '1.125rem',
           comment: '18px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.125,
@@ -7705,7 +7818,7 @@ module.exports = {
         s: {
           value: '1.25rem',
           comment: '20px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.25,
@@ -7723,7 +7836,7 @@ module.exports = {
         m: {
           value: '1.5rem',
           comment: '24px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.5,
@@ -7741,7 +7854,7 @@ module.exports = {
         l: {
           value: '1.75rem',
           comment: '28px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.75,
@@ -7761,7 +7874,7 @@ module.exports = {
         xs: {
           value: '1.5rem',
           comment: '24px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.5,
@@ -7779,7 +7892,7 @@ module.exports = {
         s: {
           value: '1.75rem',
           comment: '28px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.75,
@@ -7797,7 +7910,7 @@ module.exports = {
         m: {
           value: '2rem',
           comment: '32px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2,
@@ -7815,7 +7928,7 @@ module.exports = {
         l: {
           value: '2.25rem',
           comment: '36px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2.25,
@@ -7835,7 +7948,7 @@ module.exports = {
         xs: {
           value: '1.75rem',
           comment: '28px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 1.75,
@@ -7853,7 +7966,7 @@ module.exports = {
         s: {
           value: '2rem',
           comment: '32px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2,
@@ -7871,7 +7984,7 @@ module.exports = {
         m: {
           value: '2.25rem',
           comment: '36px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2.25,
@@ -7889,7 +8002,7 @@ module.exports = {
         l: {
           value: '2.75rem',
           comment: '44px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2.75,
@@ -7909,7 +8022,7 @@ module.exports = {
         xs: {
           value: '2.25rem',
           comment: '36px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2.25,
@@ -7927,7 +8040,7 @@ module.exports = {
         s: {
           value: '2.5rem',
           comment: '40px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2.5,
@@ -7945,7 +8058,7 @@ module.exports = {
         m: {
           value: '2.75rem',
           comment: '44px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 2.75,
@@ -7963,7 +8076,7 @@ module.exports = {
         l: {
           value: '3.25rem',
           comment: '52px',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/font.json',
+          filePath: 'packages/tokens/properties/size/font.json',
           isSource: true,
           original: {
             value: 3.25,
@@ -7984,7 +8097,7 @@ module.exports = {
       screen: {
         s: {
           value: '1rem',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/grid.json',
+          filePath: 'packages/tokens/properties/size/grid.json',
           isSource: true,
           original: {
             value: 1,
@@ -8000,7 +8113,7 @@ module.exports = {
         },
         m: {
           value: '2rem',
-          filePath: 'node_modules/@mozaic-ds/tokens/properties/size/grid.json',
+          filePath: 'packages/tokens/properties/size/grid.json',
           isSource: true,
           original: {
             value: 2,
@@ -8020,7 +8133,7 @@ module.exports = {
   screen: {
     s: {
       value: '0px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '0px',
@@ -8034,7 +8147,7 @@ module.exports = {
     },
     's-medium': {
       value: '320px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '320px',
@@ -8048,7 +8161,7 @@ module.exports = {
     },
     's-large': {
       value: '360px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '360px',
@@ -8062,7 +8175,7 @@ module.exports = {
     },
     's-xlarge': {
       value: '390px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '390px',
@@ -8076,7 +8189,7 @@ module.exports = {
     },
     m: {
       value: '680px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '680px',
@@ -8090,7 +8203,7 @@ module.exports = {
     },
     'm-medium': {
       value: '769px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '769px',
@@ -8104,7 +8217,7 @@ module.exports = {
     },
     l: {
       value: '1024px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '1024px',
@@ -8118,7 +8231,7 @@ module.exports = {
     },
     'l-medium': {
       value: '1100px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '1100px',
@@ -8132,7 +8245,7 @@ module.exports = {
     },
     xl: {
       value: '1280px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '1280px',
@@ -8146,7 +8259,7 @@ module.exports = {
     },
     'xl-medium': {
       value: '1440px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '1440px',
@@ -8160,7 +8273,7 @@ module.exports = {
     },
     'xl-large': {
       value: '1680px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '1680px',
@@ -8174,7 +8287,7 @@ module.exports = {
     },
     xxl: {
       value: '1920px',
-      filePath: 'node_modules/@mozaic-ds/tokens/properties/size/screens.json',
+      filePath: 'packages/tokens/properties/size/screens.json',
       isSource: true,
       original: {
         value: '1920px',
