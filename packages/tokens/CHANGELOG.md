@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/adeo/mozaic-design-system/compare/v1.37.0...v1.38.0) (2022-07-06)
+
+
+### Features
+
+* **foundations/colours:** change bricoman tokens ([#1163](https://github.com/adeo/mozaic-design-system/issues/1163)) ([8d90a8e](https://github.com/adeo/mozaic-design-system/commit/8d90a8e1bbc369f9db9ac7b7ef0b7c5f3b1bceb6))
+* **foundations/colours:** update colour tokens ([#1164](https://github.com/adeo/mozaic-design-system/issues/1164)) ([56b8a16](https://github.com/adeo/mozaic-design-system/commit/56b8a16efd93dbe8a3ab85076efb968ab71c42aa))
+
+
+
+
+
 # [1.31.0](https://github.com/adeo/mozaic-design-system/compare/v1.30.0...v1.31.0) (2022-04-27)
 
 

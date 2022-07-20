@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/adeo/mozaic-design-system/compare/v1.37.0...v1.38.0) (2022-07-06)
+
+
+### Features
+
+* **components/tooltip:** improve documentation ([#1161](https://github.com/adeo/mozaic-design-system/issues/1161)) ([62fd7ac](https://github.com/adeo/mozaic-design-system/commit/62fd7ac7d9b0f93c8e86c7c53db4654161985ee8))
+* **foundations/colours:** change bricoman tokens ([#1163](https://github.com/adeo/mozaic-design-system/issues/1163)) ([8d90a8e](https://github.com/adeo/mozaic-design-system/commit/8d90a8e1bbc369f9db9ac7b7ef0b7c5f3b1bceb6))
+* **foundations/colours:** update colour tokens ([#1164](https://github.com/adeo/mozaic-design-system/issues/1164)) ([56b8a16](https://github.com/adeo/mozaic-design-system/commit/56b8a16efd93dbe8a3ab85076efb968ab71c42aa))
+* **foundations/font:** use weight 700 for adeo ([#1166](https://github.com/adeo/mozaic-design-system/issues/1166)) ([980cf89](https://github.com/adeo/mozaic-design-system/commit/980cf897997190f7e2f6c96d1390aaf386a3520d))
+* **tools/postcss-sass:** Use csstools/postcss-sass instead of @mozaic-ds/postcss-sass ([#1155](https://github.com/adeo/mozaic-design-system/issues/1155)) ([f42f32f](https://github.com/adeo/mozaic-design-system/commit/f42f32f5ad678a50cacaab532be7345f704b01a6)), closes [#1123](https://github.com/adeo/mozaic-design-system/issues/1123)
+
+
+
+
+
 # [1.37.0](https://github.com/adeo/mozaic-design-system/compare/v1.36.3...v1.37.0) (2022-06-24)
 
 

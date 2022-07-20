@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/adeo/mozaic-design-system/compare/v1.37.0...v1.38.0) (2022-07-06)
+
+
+### Features
+
+* **tools/postcss-sass:** Use csstools/postcss-sass instead of @mozaic-ds/postcss-sass ([#1155](https://github.com/adeo/mozaic-design-system/issues/1155)) ([f42f32f](https://github.com/adeo/mozaic-design-system/commit/f42f32f5ad678a50cacaab532be7345f704b01a6)), closes [#1123](https://github.com/adeo/mozaic-design-system/issues/1123)
+
+
+
+
+
 ## [1.29.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v1.29.1) (2022-04-04)
 
 **Note:** Version bump only for package @mozaic-ds/css-dev-tools
