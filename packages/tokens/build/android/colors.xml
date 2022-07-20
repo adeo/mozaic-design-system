@@ -312,9 +312,9 @@
   <color name="color_progress_percentage_default">#ff191919</color>
   <color name="color_progress_percentage_half">#ffffffff</color>
   <color name="color_progress_branded_indicator">#ff78be20</color>
-  <color name="color_star_empty">#ffcccccc</color>
+  <color name="color_star_empty">#ffffffff</color>
   <color name="color_star_focus">#ff25a8d0</color>
-  <color name="color_star_full">#fffc961e</color>
+  <color name="color_star_full">#ffea7315</color>
   <color name="color_star_hover">#ffffc17d</color>
   <color name="color_tabs_background">#ffffffff</color>
   <color name="color_tabs_shadow">#ff000000</color>
