@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.39.0](https://github.com/adeo/mozaic-design-system/compare/v1.38.0...v1.39.0) (2022-07-20)
+
+
+### Features
+
+* **foundations/icons:** add new icons ([#1170](https://github.com/adeo/mozaic-design-system/issues/1170)) ([286167a](https://github.com/adeo/mozaic-design-system/commit/286167a2452abda0ca4d970541f267a615d14fb7))
+* **rating:** use new icons ([#1092](https://github.com/adeo/mozaic-design-system/issues/1092)) ([4d440c1](https://github.com/adeo/mozaic-design-system/commit/4d440c192fd436005405edee5efeaa289dbf3d1f))
+
+
+
+
+
 # [1.38.0](https://github.com/adeo/mozaic-design-system/compare/v1.37.0...v1.38.0) (2022-07-06)
 
 
