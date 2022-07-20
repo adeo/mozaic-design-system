@@ -473,6 +473,38 @@
     {
       "cat": "Navigation",
       "size": "16px",
+      "name": "Arrow_ArrowBottomLeft",
+      "fileName": "Navigation_Arrow_ArrowBottomLeft_16px.svg",
+      "iconName": "ArrowArrowBottomLeft",
+      "componentName": "ArrowArrowBottomLeft16"
+    },
+    {
+      "cat": "Navigation",
+      "size": "16px",
+      "name": "Arrow_ArrowBottomRight",
+      "fileName": "Navigation_Arrow_ArrowBottomRight_16px.svg",
+      "iconName": "ArrowArrowBottomRight",
+      "componentName": "ArrowArrowBottomRight16"
+    },
+    {
+      "cat": "Navigation",
+      "size": "16px",
+      "name": "Arrow_ArrowTopLeft",
+      "fileName": "Navigation_Arrow_ArrowTopLeft_16px.svg",
+      "iconName": "ArrowArrowTopLeft",
+      "componentName": "ArrowArrowTopLeft16"
+    },
+    {
+      "cat": "Navigation",
+      "size": "16px",
+      "name": "Arrow_ArrowTopRight",
+      "fileName": "Navigation_Arrow_ArrowTopRight_16px.svg",
+      "iconName": "ArrowArrowTopRight",
+      "componentName": "ArrowArrowTopRight16"
+    },
+    {
+      "cat": "Navigation",
+      "size": "16px",
       "name": "Arrow_Back",
       "fileName": "Navigation_Arrow_Back_16px.svg",
       "iconName": "ArrowBack",
@@ -997,6 +1029,38 @@
       "fileName": "Navigation_Arrow_Arrow--Top_24px.svg",
       "iconName": "ArrowArrowTop",
       "componentName": "ArrowArrowTop24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Arrow_ArrowBottomLeft",
+      "fileName": "Navigation_Arrow_ArrowBottomLeft_24px.svg",
+      "iconName": "ArrowArrowBottomLeft",
+      "componentName": "ArrowArrowBottomLeft24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Arrow_ArrowBottomRight",
+      "fileName": "Navigation_Arrow_ArrowBottomRight_24px.svg",
+      "iconName": "ArrowArrowBottomRight",
+      "componentName": "ArrowArrowBottomRight24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Arrow_ArrowTopLeft",
+      "fileName": "Navigation_Arrow_ArrowTopLeft_24px.svg",
+      "iconName": "ArrowArrowTopLeft",
+      "componentName": "ArrowArrowTopLeft24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Arrow_ArrowTopRight",
+      "fileName": "Navigation_Arrow_ArrowTopRight_24px.svg",
+      "iconName": "ArrowArrowTopRight",
+      "componentName": "ArrowArrowTopRight24"
     },
     {
       "cat": "Navigation",
@@ -3049,6 +3113,38 @@
     {
       "cat": "Navigation",
       "size": "32px",
+      "name": "Arrow_ArrowBottomLeft",
+      "fileName": "Navigation_Arrow_ArrowBottomLeft_32px.svg",
+      "iconName": "ArrowArrowBottomLeft",
+      "componentName": "ArrowArrowBottomLeft32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Arrow_ArrowBottomRight",
+      "fileName": "Navigation_Arrow_ArrowBottomRight_32px.svg",
+      "iconName": "ArrowArrowBottomRight",
+      "componentName": "ArrowArrowBottomRight32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Arrow_ArrowTopLeft",
+      "fileName": "Navigation_Arrow_ArrowTopLeft_32px.svg",
+      "iconName": "ArrowArrowTopLeft",
+      "componentName": "ArrowArrowTopLeft32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Arrow_ArrowTopRight",
+      "fileName": "Navigation_Arrow_ArrowTopRight_32px.svg",
+      "iconName": "ArrowArrowTopRight",
+      "componentName": "ArrowArrowTopRight32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
       "name": "Arrow_Back",
       "fileName": "Navigation_Arrow_Back_32px.svg",
       "iconName": "ArrowBack",
@@ -5097,6 +5193,38 @@
     {
       "cat": "Navigation",
       "size": "48px",
+      "name": "Arrow_ArrowBottomLeft",
+      "fileName": "Navigation_Arrow_ArrowBottomLeft_48px.svg",
+      "iconName": "ArrowArrowBottomLeft",
+      "componentName": "ArrowArrowBottomLeft48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Arrow_ArrowBottomRight",
+      "fileName": "Navigation_Arrow_ArrowBottomRight_48px.svg",
+      "iconName": "ArrowArrowBottomRight",
+      "componentName": "ArrowArrowBottomRight48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Arrow_ArrowTopLeft",
+      "fileName": "Navigation_Arrow_ArrowTopLeft_48px.svg",
+      "iconName": "ArrowArrowTopLeft",
+      "componentName": "ArrowArrowTopLeft48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Arrow_ArrowTopRight",
+      "fileName": "Navigation_Arrow_ArrowTopRight_48px.svg",
+      "iconName": "ArrowArrowTopRight",
+      "componentName": "ArrowArrowTopRight48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
       "name": "Arrow_Back",
       "fileName": "Navigation_Arrow_Back_48px.svg",
       "iconName": "ArrowBack",
@@ -7141,6 +7269,38 @@
       "fileName": "Navigation_Arrow_Arrow--Top_64px.svg",
       "iconName": "ArrowArrowTop",
       "componentName": "ArrowArrowTop64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Arrow_ArrowBottomLeft",
+      "fileName": "Navigation_Arrow_ArrowBottomLeft_64px.svg",
+      "iconName": "ArrowArrowBottomLeft",
+      "componentName": "ArrowArrowBottomLeft64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Arrow_ArrowBottomRight",
+      "fileName": "Navigation_Arrow_ArrowBottomRight_64px.svg",
+      "iconName": "ArrowArrowBottomRight",
+      "componentName": "ArrowArrowBottomRight64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Arrow_ArrowTopLeft",
+      "fileName": "Navigation_Arrow_ArrowTopLeft_64px.svg",
+      "iconName": "ArrowArrowTopLeft",
+      "componentName": "ArrowArrowTopLeft64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Arrow_ArrowTopRight",
+      "fileName": "Navigation_Arrow_ArrowTopRight_64px.svg",
+      "iconName": "ArrowArrowTopRight",
+      "componentName": "ArrowArrowTopRight64"
     },
     {
       "cat": "Navigation",
