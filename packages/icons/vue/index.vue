@@ -75,6 +75,37 @@ export const MIconArrowArrowTop16 = GenerateIcon('1rem', '0 0 16 16', [
   ]
 ])
 
+export const MIconArrowArrowBottomLeft16 = GenerateIcon('1rem', '0 0 16 16', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M13.707 2.293a1 1 0 010 1.414L5.414 12H10a1 1 0 110 2H3a1 1 0 01-1-1V6a1 1 0 112 0v4.586l8.293-8.293a1 1 0 011.414 0z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomRight16 = GenerateIcon('1rem', '0 0 16 16', [
+  [
+    'g',
+    { attrs: {"clip-path":"url(#a)"} },
+  ],[
+    'defs',
+    { attrs: {} },
+  ]
+])
+
+export const MIconArrowArrowTopLeft16 = GenerateIcon('1rem', '0 0 16 16', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M2.293 2.293A1 1 0 013 2h7a1 1 0 110 2H5.414l8.293 8.293a1 1 0 01-1.414 1.414L4 5.414V10a1 1 0 11-2 0V3a1 1 0 01.293-.707z"} },
+  ]
+])
+
+export const MIconArrowArrowTopRight16 = GenerateIcon('1rem', '0 0 16 16', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M5 3a1 1 0 011-1h7a1 1 0 011 1v7a1 1 0 11-2 0V5.414l-8.293 8.293a1 1 0 01-1.414-1.414L10.586 4H6a1 1 0 01-1-1z"} },
+  ]
+])
+
 export const MIconArrowBack16 = GenerateIcon('1rem', '0 0 16 16', [
   [
     'path',
@@ -630,6 +661,34 @@ export const MIconArrowArrowTop24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
     { attrs: {"d":"M11.293 7.793a1 1 0 011.414 0l7 7a1 1 0 01-1.414 1.414L12 9.914l-6.293 6.293a1 1 0 01-1.414-1.414l7-7z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomLeft24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M19.707 4.293a1 1 0 010 1.414L7.414 18H15a1 1 0 110 2H5a1 1 0 01-1-1V9a1 1 0 112 0v7.586L18.293 4.293a1 1 0 011.414 0z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomRight24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M4.293 4.293a1 1 0 011.414 0L18 16.586V9a1 1 0 112 0v10a1 1 0 01-1 1H9a1 1 0 110-2h7.586L4.293 5.707a1 1 0 010-1.414z"} },
+  ]
+])
+
+export const MIconArrowArrowTopLeft24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M4.293 4.293A1 1 0 015 4h10a1 1 0 110 2H7.414l12.293 12.293a1 1 0 01-1.414 1.414L6 7.414V15a1 1 0 11-2 0V5a1 1 0 01.293-.707z"} },
+  ]
+])
+
+export const MIconArrowArrowTopRight24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M8 5a1 1 0 011-1h10a1 1 0 011 1v10a1 1 0 11-2 0V7.414L5.707 19.707a1 1 0 11-1.414-1.414L16.586 6H9a1 1 0 01-1-1z"} },
   ]
 ])
 
@@ -2983,6 +3042,34 @@ export const MIconArrowArrowTop32 = GenerateIcon('2rem', '0 0 32 32', [
   ]
 ])
 
+export const MIconArrowArrowBottomLeft32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M26.04 5.96a1 1 0 010 1.414L9.08 24.334H20a1 1 0 010 2H6.667a1 1 0 01-1-1V12a1 1 0 112 0v10.92l16.96-16.96a1 1 0 011.413 0z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomRight32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M5.96 5.96a1 1 0 011.414 0l16.96 16.96V12a1 1 0 112 0v13.333a1 1 0 01-1 1H12a1 1 0 110-2h10.92L5.96 7.373a1 1 0 010-1.413z"} },
+  ]
+])
+
+export const MIconArrowArrowTopLeft32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M5.96 5.96a1 1 0 01.707-.293H20a1 1 0 010 2H9.08l16.96 16.96a1 1 0 01-1.414 1.413L7.666 9.08V20a1 1 0 11-2 0V6.666a1 1 0 01.294-.707z"} },
+  ]
+])
+
+export const MIconArrowArrowTopRight32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M11 6.667a1 1 0 011-1h13.333a1 1 0 011 1V20a1 1 0 11-2 0V9.081l-16.96 16.96a1 1 0 01-1.413-1.415l16.96-16.96H12a1 1 0 01-1-1z"} },
+  ]
+])
+
 export const MIconArrowBack32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
@@ -5315,6 +5402,34 @@ export const MIconArrowArrowTop48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
     { attrs: {"d":"M22.94 15.19a1.5 1.5 0 012.12 0l15.5 15.5a1.5 1.5 0 01-2.12 2.12L24 18.372 9.56 32.811a1.5 1.5 0 01-2.12-2.122l15.5-15.5z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomLeft48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M39.06 8.94a1.5 1.5 0 010 2.12L13.622 36.5H30a1.5 1.5 0 010 3H10A1.5 1.5 0 018.5 38V18a1.5 1.5 0 013 0v16.379l25.44-25.44a1.5 1.5 0 012.12 0z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomRight48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M8.94 8.94a1.5 1.5 0 012.12 0L36.5 34.378V18a1.5 1.5 0 013 0v20a1.5 1.5 0 01-1.5 1.5H18a1.5 1.5 0 010-3h16.379L8.939 11.06a1.5 1.5 0 010-2.12z"} },
+  ]
+])
+
+export const MIconArrowArrowTopLeft48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M8.94 8.94A1.5 1.5 0 0110 8.5h20a1.5 1.5 0 010 3H13.621l25.44 25.44a1.5 1.5 0 01-2.122 2.12L11.5 13.622V30a1.5 1.5 0 01-3 0V10c0-.398.158-.78.44-1.06z"} },
+  ]
+])
+
+export const MIconArrowArrowTopRight48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M16.5 10A1.5 1.5 0 0118 8.5h20a1.5 1.5 0 011.5 1.5v20a1.5 1.5 0 01-3 0V13.621l-25.44 25.44a1.5 1.5 0 11-2.12-2.122L34.378 11.5H18a1.5 1.5 0 01-1.5-1.5z"} },
   ]
 ])
 
@@ -7686,6 +7801,34 @@ export const MIconArrowArrowTop64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
     { attrs: {"d":"M30.94 20.19a1.5 1.5 0 012.12 0l21.5 21.5a1.5 1.5 0 01-2.12 2.12L32 23.372l-20.44 20.44a1.5 1.5 0 01-2.12-2.122l21.5-21.5z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomLeft64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M51.727 12.273a1.5 1.5 0 010 2.121L16.955 49.167H40a1.5 1.5 0 110 3H13.333a1.5 1.5 0 01-1.5-1.5V24a1.5 1.5 0 113 0v23.045l34.773-34.772a1.5 1.5 0 012.121 0z"} },
+  ]
+])
+
+export const MIconArrowArrowBottomRight64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M12.273 12.273a1.5 1.5 0 012.121 0l34.773 34.772V24a1.5 1.5 0 013 0v26.667a1.5 1.5 0 01-1.5 1.5H24a1.5 1.5 0 010-3h23.045L12.273 14.394a1.5 1.5 0 010-2.121z"} },
+  ]
+])
+
+export const MIconArrowArrowTopLeft64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M12.273 12.273a1.5 1.5 0 011.06-.44H40a1.5 1.5 0 110 3H16.955l34.772 34.773a1.5 1.5 0 11-2.121 2.121L14.833 16.955V40a1.5 1.5 0 01-3 0V13.333c0-.398.158-.78.44-1.06z"} },
+  ]
+])
+
+export const MIconArrowArrowTopRight64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M22.5 13.334a1.5 1.5 0 011.5-1.5h26.667a1.5 1.5 0 011.5 1.5V40a1.5 1.5 0 01-3 0V16.955L14.394 51.728a1.5 1.5 0 11-2.121-2.122l34.772-34.773H24a1.5 1.5 0 01-1.5-1.5z"} },
   ]
 ])
 

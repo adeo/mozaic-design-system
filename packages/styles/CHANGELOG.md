@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/adeo/mozaic-design-system/compare/v1.37.0...v1.38.0) (2022-07-06)
+
+
+### Features
+
+* **foundations/font:** use weight 700 for adeo ([#1166](https://github.com/adeo/mozaic-design-system/issues/1166)) ([980cf89](https://github.com/adeo/mozaic-design-system/commit/980cf897997190f7e2f6c96d1390aaf386a3520d))
+
+
+
+
+
 ## [1.36.3](https://github.com/adeo/mozaic-design-system/compare/v1.36.2...v1.36.3) (2022-06-23)
 
 
