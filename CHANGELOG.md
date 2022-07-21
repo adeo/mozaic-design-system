@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.39.1](https://github.com/adeo/mozaic-design-system/compare/v1.39.0...v1.39.1) (2022-07-21)
+
+
+### Bug Fixes
+
+* **component/accordion:** improve styles to handle nested accordions ([#1174](https://github.com/adeo/mozaic-design-system/issues/1174)) ([9a7007a](https://github.com/adeo/mozaic-design-system/commit/9a7007abf5274fc5f55277bfb75d21ea4861b611))
+
+
+
+
+
 # [1.39.0](https://github.com/adeo/mozaic-design-system/compare/v1.38.0...v1.39.0) (2022-07-20)
 
 
