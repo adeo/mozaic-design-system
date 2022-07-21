@@ -166,7 +166,7 @@
   }
 
   &.is-open {
-    #{$parent}__content {
+    > #{$parent}__content {
       // NOTE: The max-height fixed value allows the CSS transition to run correctly
       // The value 10000vh corresponds to 100 times the viewport height to manage longs contents
       max-height: 10000vh;
@@ -177,7 +177,7 @@
   }
 
   &.is-disabled {
-    #{$parent}__content {
+    > #{$parent}__content {
       color: $color-font-light;
       cursor: not-allowed;
     }
