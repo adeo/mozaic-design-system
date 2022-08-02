@@ -1,6 +1,41 @@
 {
   "color": [
     {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Brand_LM",
+      "fileName": "Logotypes_Brand_LM_24px.svg",
+      "iconName": "BrandLM"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_24px.svg",
+      "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_24px.svg",
+      "iconName": "PaymentOney3x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_24px.svg",
+      "iconName": "PaymentOney3x4x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_24px.svg",
+      "iconName": "PaymentPayPal"
+    },
+    {
       "cat": "Payment",
       "size": "24px",
       "name": "Cards_Colors_AmericanExpress",
@@ -104,6 +139,41 @@
       "name": "Colors_StoreLocation",
       "fileName": "Store_Colors_StoreLocation_24px.svg",
       "iconName": "ColorsStoreLocation"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Brand_LM",
+      "fileName": "Logotypes_Brand_LM_32px.svg",
+      "iconName": "BrandLM"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_32px.svg",
+      "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_32px.svg",
+      "iconName": "PaymentOney3x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_32px.svg",
+      "iconName": "PaymentOney3x4x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_32px.svg",
+      "iconName": "PaymentPayPal"
     },
     {
       "cat": "Payment",
@@ -211,6 +281,41 @@
       "iconName": "ColorsStoreLocation"
     },
     {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Brand_LM",
+      "fileName": "Logotypes_Brand_LM_48px.svg",
+      "iconName": "BrandLM"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_48px.svg",
+      "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_48px.svg",
+      "iconName": "PaymentOney3x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_48px.svg",
+      "iconName": "PaymentOney3x4x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_48px.svg",
+      "iconName": "PaymentPayPal"
+    },
+    {
       "cat": "Payment",
       "size": "48px",
       "name": "Cards_Colors_AmericanExpress",
@@ -314,6 +419,41 @@
       "name": "Colors_StoreLocation",
       "fileName": "Store_Colors_StoreLocation_48px.svg",
       "iconName": "ColorsStoreLocation"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Brand_LM",
+      "fileName": "Logotypes_Brand_LM_64px.svg",
+      "iconName": "BrandLM"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_64px.svg",
+      "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_64px.svg",
+      "iconName": "PaymentOney3x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_64px.svg",
+      "iconName": "PaymentOney3x4x"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_64px.svg",
+      "iconName": "PaymentPayPal"
     },
     {
       "cat": "Payment",
