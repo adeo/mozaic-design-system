@@ -26,7 +26,7 @@
   <color name="color_primary_01_700">#ff158110</color>
   <color name="color_primary_01_800">#ff0a601b</color>
   <color name="color_primary_01_900">#ff053e1f</color>
-  <color name="color_primary_02_100">#ffcfd2d8</color>
+  <color name="color_primary_02_100">#ffeeeff1</color>
   <color name="color_primary_02_200">#ffcfd2d8</color>
   <color name="color_primary_02_300">#ffb3b7c1</color>
   <color name="color_primary_02_400">#ff8f94a3</color>
@@ -183,7 +183,7 @@
   <color name="color_button_bordered_primary_02_disabled_background">#ffcccccc</color>
   <color name="color_button_bordered_primary_02_disabled_font">#ff666666</color>
   <color name="color_button_bordered_primary_02_active_background">#ffcfd2d8</color>
-  <color name="color_button_bordered_primary_02_hover_background">#ffcfd2d8</color>
+  <color name="color_button_bordered_primary_02_hover_background">#ffeeeff1</color>
   <color name="color_button_bordered_neutral_background">#ffffffff</color>
   <color name="color_button_bordered_neutral_border">#ff333333</color>
   <color name="color_button_bordered_neutral_font">#ff333333</color>

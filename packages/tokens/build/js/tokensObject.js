@@ -555,11 +555,11 @@ module.exports = {
     },
     "primary-02": {
       "100": {
-        "value": "#cfd2d8",
+        "value": "#eeeff1",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#CFD2D8"
+          "value": "#EEEFF1"
         },
         "name": "ColorPrimary02100",
         "attributes": {
@@ -3780,7 +3780,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#cfd2d8",
+            "value": "#eeeff1",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
