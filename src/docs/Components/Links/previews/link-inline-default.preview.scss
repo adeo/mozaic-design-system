@@ -1,10 +1,9 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
-@import "components/c.links";
-
-body {
-  @include set-font-face("regular");
+html {
+  @include set-font-face();
 }
+@import "components/c.links";
 
 .example {
   margin: $mu100 auto;
