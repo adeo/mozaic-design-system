@@ -1,0 +1,26 @@
+{
+  "color": {
+    "phone-number": {
+      "button": {
+        "border": {
+          "value": "{color.grey.600.value}"
+        }
+      },
+      "list": {
+        "background": {
+          "value": "{color.grey.000.value}"
+        }
+      },
+      "item": {
+        "border": {
+          "value": "{color.grey.300.value}"
+        },
+        "focus": {
+          "background": {
+            "value": "{color.grey.100.value}"
+          }
+        }
+      }
+    }
+  }
+}

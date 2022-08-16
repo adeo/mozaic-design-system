@@ -36,7 +36,7 @@
     }
 
     &::before {
-      background-color: mt-rgba($color-grey-900, 0.8);
+      background-color: mt-rgba($color-hero-cover-background, 0.8);
       content: "";
       display: block;
     }
@@ -68,7 +68,7 @@
   }
 
   &__content {
-    color: $color-grey-000;
+    color: $color-font-lightest;
 
     @include set-from-screen("l") {
       @include set-element-width(10, 12);

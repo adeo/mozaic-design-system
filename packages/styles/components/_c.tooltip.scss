@@ -19,17 +19,17 @@
   &__content {
     @include set-font-scale("04", "m");
 
-    background-color: $color-grey-700;
+    background-color: $color-tooltip-background;
     border-radius: get-border-radius("m");
     box-sizing: border-box;
-    color: $color-grey-000;
+    color: $color-font-lightest;
     padding: magic-unit-rem(0.4375, true) $mu100;
     position: absolute;
     text-align: center;
     visibility: hidden;
     white-space: normal;
     z-index: 1000;
-    border: get-border("s") solid $color-grey-000;
+    border: get-border("s") solid $color-tooltip-border;
 
     // MS Issue : IE10, IE11 don't support intrinsic widths
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -43,9 +43,8 @@
     }
 
     &::before {
-      background:
-        transparent
-        url(inline-icons("tooltip-arrow", $color-grey-000)) no-repeat;
+      background: transparent
+        url(inline-icons("tooltip-arrow", $color-tooltip-border)) no-repeat;
       background-size: 0.625rem;
       content: "";
       height: 0.625rem;
@@ -54,9 +53,8 @@
     }
 
     &::after {
-      background:
-        transparent
-        url(inline-icons("tooltip-arrow", $color-grey-700)) no-repeat;
+      background: transparent
+        url(inline-icons("tooltip-arrow", $color-tooltip-background)) no-repeat;
       background-size: $mu050;
       content: "";
       height: $mu050;
