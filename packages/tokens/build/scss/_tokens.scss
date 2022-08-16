@@ -136,6 +136,8 @@ $color-success-600: #41a017 !default;
 $color-success-700: #158110 !default;
 $color-success-800: #0a601b !default;
 $color-success-900: #053e1f !default;
+$color-breadcrumb-arrow: #333333 !default;
+$color-breadcrumb-dark-arrow: #ffffff !default;
 $color-button-solid-background: #78be20 !default;
 $color-button-solid-font: #ffffff !default;
 $color-button-solid-focus-border: #158110 !default;
@@ -200,6 +202,12 @@ $color-button-bordered-danger-disabled-background: #cccccc !default;
 $color-button-bordered-danger-disabled-font: #666666 !default;
 $color-button-bordered-danger-active-background: #fab9bc !default;
 $color-button-bordered-danger-hover-background: #feedee !default;
+$color-card-bordered-background: #ffffff !default;
+$color-card-bordered-border: #808080 !default;
+$color-dialog-background: #ffffff !default;
+$color-dialog-icon: #666666 !default;
+$color-dialog-close: #808080 !default;
+$color-dialog-footer-shadow: #191919 !default;
 $color-divider-lightest: #ffffff !default;
 $color-divider-light: #b3b3b3 !default;
 $color-divider-default: #666666 !default;
@@ -256,6 +264,9 @@ $color-font-info: #2282a8 !default;
 $color-font-success: #41a017 !default;
 $color-font-warning: #c86f21 !default;
 $color-font-danger: #b42a27 !default;
+$color-heading-underline-default: #78be20 !default;
+$color-heading-underline-lightest: #cbe3b5 !default;
+$color-hero-cover-background: #191919 !default;
 $color-input-text: #191919 !default;
 $color-input-border: #666666 !default;
 $color-input-placeholder: #808080 !default;
@@ -307,6 +318,22 @@ $color-notification-warning-background: #fff5eb !default;
 $color-notification-warning-border: #fc961e !default;
 $color-notification-danger-background: #feedee !default;
 $color-notification-danger-border: #df382b !default;
+$color-option-button-label-shadow: #b3b3b3 !default;
+$color-option-button-hover-label-shadow: #333333 !default;
+$color-option-button-checked-label-border: #78be20 !default;
+$color-option-button-checked-label-shadow: #eaf3e2 !default;
+$color-option-button-disabled-label-background: #cccccc !default;
+$color-option-card-label-shadow: #b3b3b3 !default;
+$color-option-card-hover-label-shadow: #333333 !default;
+$color-option-card-checked-label-border: #78be20 !default;
+$color-option-card-checked-label-shadow: #eaf3e2 !default;
+$color-overlay-background: #191919 !default;
+$color-overlay-loader-background: #191919 !default;
+$color-password-input-button-hover-background: #e6e6e6 !default;
+$color-phone-number-button-border: #666666 !default;
+$color-phone-number-list-background: #ffffff !default;
+$color-phone-number-item-border: #b3b3b3 !default;
+$color-phone-number-item-focus-background: #e6e6e6 !default;
 $color-progress-background: #cccccc !default;
 $color-progress-indicator: #2282a8 !default;
 $color-progress-percentage-default: #191919 !default;
@@ -316,6 +343,15 @@ $color-star-empty: #ffffff !default;
 $color-star-focus: #25a8d0 !default;
 $color-star-full: #ea7315 !default;
 $color-star-hover: #ffc17d !default;
+$color-stepper-item-background: #999999 !default;
+$color-stepper-item-current-background: #91c854 !default;
+$color-stepper-link-hover-text: #91c854 !default;
+$color-stepper-indicator-background: #ffffff !default;
+$color-stepper-indicator-border: #999999 !default;
+$color-stepper-indicator-current-background: #91c854 !default;
+$color-stepper-indicator-current-border: #91c854 !default;
+$color-stepper-icon: #91c854 !default;
+$color-stepper-title: #91c854 !default;
 $color-tabs-background: #ffffff !default;
 $color-tabs-shadow: #000000 !default;
 $color-tabs-default: #191919 !default;
@@ -383,6 +419,9 @@ $color-toggle-disabled-background: #e6e6e6 !default;
 $color-toggle-disabled-circle: #b3b3b3 !default;
 $color-toggle-disabled-checked-background: #cbe3b5 !default;
 $color-toggle-disabled-checked-circle: #ffffff !default;
+$color-tooltip-background: #4d4d4d !default;
+$color-tooltip-border: #ffffff !default;
+$color-tooltip-text: #ffffff !default;
 $preset: lm !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
@@ -658,6 +697,12 @@ $tokens: (
       '800': $color-success-800,
       '900': $color-success-900
     ),
+    'breadcrumb': (
+      'arrow': $color-breadcrumb-arrow,
+      'dark': (
+        'arrow': $color-breadcrumb-dark-arrow
+      )
+    ),
     'button': (
       'solid': (
         'background': $color-button-solid-background,
@@ -804,6 +849,20 @@ $tokens: (
         )
       )
     ),
+    'card': (
+      'bordered': (
+        'background': $color-card-bordered-background,
+        'border': $color-card-bordered-border
+      )
+    ),
+    'dialog': (
+      'background': $color-dialog-background,
+      'icon': $color-dialog-icon,
+      'close': $color-dialog-close,
+      'footer': (
+        'shadow': $color-dialog-footer-shadow
+      )
+    ),
     'divider': (
       'lightest': $color-divider-lightest,
       'light': $color-divider-light,
@@ -893,6 +952,17 @@ $tokens: (
       'success': $color-font-success,
       'warning': $color-font-warning,
       'danger': $color-font-danger
+    ),
+    'heading': (
+      'underline': (
+        'default': $color-heading-underline-default,
+        'lightest': $color-heading-underline-lightest
+      )
+    ),
+    'hero': (
+      'cover': (
+        'background': $color-hero-cover-background
+      )
     ),
     'input': (
       'text': $color-input-text,
@@ -987,6 +1057,70 @@ $tokens: (
         'border': $color-notification-danger-border
       )
     ),
+    'option-button': (
+      'label': (
+        'shadow': $color-option-button-label-shadow
+      ),
+      'hover': (
+        'label': (
+          'shadow': $color-option-button-hover-label-shadow
+        )
+      ),
+      'checked': (
+        'label': (
+          'border': $color-option-button-checked-label-border,
+          'shadow': $color-option-button-checked-label-shadow
+        )
+      ),
+      'disabled': (
+        'label': (
+          'background': $color-option-button-disabled-label-background
+        )
+      )
+    ),
+    'option-card': (
+      'label': (
+        'shadow': $color-option-card-label-shadow
+      ),
+      'hover': (
+        'label': (
+          'shadow': $color-option-card-hover-label-shadow
+        )
+      ),
+      'checked': (
+        'label': (
+          'border': $color-option-card-checked-label-border,
+          'shadow': $color-option-card-checked-label-shadow
+        )
+      )
+    ),
+    'overlay': (
+      'background': $color-overlay-background,
+      'loader': (
+        'background': $color-overlay-loader-background
+      )
+    ),
+    'password-input': (
+      'button': (
+        'hover': (
+          'background': $color-password-input-button-hover-background
+        )
+      )
+    ),
+    'phone-number': (
+      'button': (
+        'border': $color-phone-number-button-border
+      ),
+      'list': (
+        'background': $color-phone-number-list-background
+      ),
+      'item': (
+        'border': $color-phone-number-item-border,
+        'focus': (
+          'background': $color-phone-number-item-focus-background
+        )
+      )
+    ),
     'progress': (
       'background': $color-progress-background,
       'indicator': $color-progress-indicator,
@@ -1003,6 +1137,29 @@ $tokens: (
       'focus': $color-star-focus,
       'full': $color-star-full,
       'hover': $color-star-hover
+    ),
+    'stepper': (
+      'item': (
+        'background': $color-stepper-item-background,
+        'current': (
+          'background': $color-stepper-item-current-background
+        )
+      ),
+      'link': (
+        'hover': (
+          'text': $color-stepper-link-hover-text
+        )
+      ),
+      'indicator': (
+        'background': $color-stepper-indicator-background,
+        'border': $color-stepper-indicator-border,
+        'current': (
+          'background': $color-stepper-indicator-current-background,
+          'border': $color-stepper-indicator-current-border
+        )
+      ),
+      'icon': $color-stepper-icon,
+      'title': $color-stepper-title
     ),
     'tabs': (
       'background': $color-tabs-background,
@@ -1146,6 +1303,11 @@ $tokens: (
         'background': $color-toggle-disabled-checked-background,
         'circle': $color-toggle-disabled-checked-circle
       )
+    ),
+    'tooltip': (
+      'background': $color-tooltip-background,
+      'border': $color-tooltip-border,
+      'text': $color-tooltip-text
     )
   ),
   'preset': $preset,

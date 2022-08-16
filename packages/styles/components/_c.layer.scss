@@ -30,7 +30,7 @@
   }
 
   &__dialog {
-    background: $color-grey-000;
+    background: $color-dialog-background;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -106,7 +106,7 @@
   }
 
   &__icon {
-    fill: $color-grey-600;
+    fill: $color-dialog-icon;
     height: $mu150;
     margin-right: $mu075;
     width: $mu150;
@@ -127,7 +127,7 @@
 
     align-self: flex-start;
     background: transparent
-      url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
+      url(inline-icons("control-cross-32", $color-dialog-close)) no-repeat;
     background-size: contain;
     cursor: pointer;
     height: $mu200;

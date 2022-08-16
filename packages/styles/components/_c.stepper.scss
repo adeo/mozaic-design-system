@@ -27,8 +27,8 @@
 
     &::before,
     &::after {
-      background-color: $color-grey-400;
-      content: '';
+      background-color: $color-stepper-item-background;
+      content: "";
       height: math.div($mu025, 2);
       position: absolute;
       top: 11px;
@@ -57,28 +57,28 @@
     &--validated {
       #{$parent} {
         &__indicator {
-          border-color: $color-primary-01-400;
+          border-color: $color-stepper-item-current-background;
         }
 
         &__detail {
-          @include set-font-weight('semi-bold');
+          @include set-font-weight("semi-bold");
         }
       }
     }
 
     &--current {
       &::before {
-        background-color: $color-primary-01-400;
+        background-color: $color-stepper-item-current-background;
       }
 
       #{$parent} {
         &__indicator {
-          background-color: $color-primary-01-400;
-          color: $color-grey-000;
+          background-color: $color-stepper-item-current-background;
+          color: $color-font-lightest;
         }
 
         &__label {
-          color: $color-grey-999;
+          color: $color-font-darkest;
         }
       }
     }
@@ -86,7 +86,7 @@
     &--validated {
       &::before,
       &:not(#{$parent}__item--current)::after {
-        background-color: $color-primary-01-400;
+        background-color: $color-stepper-item-current-background;
       }
     }
   }
@@ -99,18 +99,18 @@
     &:hover,
     &:focus {
       #{$parent}__label {
-        color: $color-primary-01-400;
+        color: $color-stepper-link-hover-text;
       }
     }
   }
 
   &__indicator {
-    @include set-font-scale('04', 's');
-    @include set-font-weight('semi-bold');
+    @include set-font-scale("04", "s");
+    @include set-font-weight("semi-bold");
 
     align-items: center;
-    background-color: $color-grey-000;
-    border: get-border('m') solid $color-grey-400;
+    background-color: $color-stepper-indicator-background;
+    border: get-border("m") solid $color-stepper-indicator-border;
     border-radius: 50%;
     box-sizing: border-box;
     display: flex;
@@ -124,12 +124,12 @@
   }
 
   &__icon {
-    fill: $color-primary-01-400;
+    fill: $color-stepper-icon;
     max-width: 100%;
   }
 
   &__detail {
-    @include set-font-scale('04', 'm');
+    @include set-font-scale("04", "m");
 
     color: $color-font-light;
     text-align: center;
@@ -138,7 +138,7 @@
 
   &__title {
     display: none;
-    color: $color-primary-01-400;
+    color: $color-stepper-title;
   }
 
   &--compact {

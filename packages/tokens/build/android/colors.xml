@@ -136,6 +136,8 @@
   <color name="color_success_700">#ff158110</color>
   <color name="color_success_800">#ff0a601b</color>
   <color name="color_success_900">#ff053e1f</color>
+  <color name="color_breadcrumb_arrow">#ff333333</color>
+  <color name="color_breadcrumb_dark_arrow">#ffffffff</color>
   <color name="color_button_solid_background">#ff78be20</color>
   <color name="color_button_solid_font">#ffffffff</color>
   <color name="color_button_solid_focus_border">#ff158110</color>
@@ -200,6 +202,12 @@
   <color name="color_button_bordered_danger_disabled_font">#ff666666</color>
   <color name="color_button_bordered_danger_active_background">#fffab9bc</color>
   <color name="color_button_bordered_danger_hover_background">#fffeedee</color>
+  <color name="color_card_bordered_background">#ffffffff</color>
+  <color name="color_card_bordered_border">#ff808080</color>
+  <color name="color_dialog_background">#ffffffff</color>
+  <color name="color_dialog_icon">#ff666666</color>
+  <color name="color_dialog_close">#ff808080</color>
+  <color name="color_dialog_footer_shadow">#ff191919</color>
   <color name="color_divider_lightest">#ffffffff</color>
   <color name="color_divider_light">#ffb3b3b3</color>
   <color name="color_divider_default">#ff666666</color>
@@ -256,6 +264,9 @@
   <color name="color_font_success">#ff41a017</color>
   <color name="color_font_warning">#ffc86f21</color>
   <color name="color_font_danger">#ffb42a27</color>
+  <color name="color_heading_underline_default">#ff78be20</color>
+  <color name="color_heading_underline_lightest">#ffcbe3b5</color>
+  <color name="color_hero_cover_background">#ff191919</color>
   <color name="color_input_text">#ff191919</color>
   <color name="color_input_border">#ff666666</color>
   <color name="color_input_placeholder">#ff808080</color>
@@ -307,6 +318,22 @@
   <color name="color_notification_warning_border">#fffc961e</color>
   <color name="color_notification_danger_background">#fffeedee</color>
   <color name="color_notification_danger_border">#ffdf382b</color>
+  <color name="color_option_button_label_shadow">#ffb3b3b3</color>
+  <color name="color_option_button_hover_label_shadow">#ff333333</color>
+  <color name="color_option_button_checked_label_border">#ff78be20</color>
+  <color name="color_option_button_checked_label_shadow">#ffeaf3e2</color>
+  <color name="color_option_button_disabled_label_background">#ffcccccc</color>
+  <color name="color_option_card_label_shadow">#ffb3b3b3</color>
+  <color name="color_option_card_hover_label_shadow">#ff333333</color>
+  <color name="color_option_card_checked_label_border">#ff78be20</color>
+  <color name="color_option_card_checked_label_shadow">#ffeaf3e2</color>
+  <color name="color_overlay_background">#ff191919</color>
+  <color name="color_overlay_loader_background">#ff191919</color>
+  <color name="color_password_input_button_hover_background">#ffe6e6e6</color>
+  <color name="color_phone_number_button_border">#ff666666</color>
+  <color name="color_phone_number_list_background">#ffffffff</color>
+  <color name="color_phone_number_item_border">#ffb3b3b3</color>
+  <color name="color_phone_number_item_focus_background">#ffe6e6e6</color>
   <color name="color_progress_background">#ffcccccc</color>
   <color name="color_progress_indicator">#ff2282a8</color>
   <color name="color_progress_percentage_default">#ff191919</color>
@@ -316,6 +343,15 @@
   <color name="color_star_focus">#ff25a8d0</color>
   <color name="color_star_full">#ffea7315</color>
   <color name="color_star_hover">#ffffc17d</color>
+  <color name="color_stepper_item_background">#ff999999</color>
+  <color name="color_stepper_item_current_background">#ff91c854</color>
+  <color name="color_stepper_link_hover_text">#ff91c854</color>
+  <color name="color_stepper_indicator_background">#ffffffff</color>
+  <color name="color_stepper_indicator_border">#ff999999</color>
+  <color name="color_stepper_indicator_current_background">#ff91c854</color>
+  <color name="color_stepper_indicator_current_border">#ff91c854</color>
+  <color name="color_stepper_icon">#ff91c854</color>
+  <color name="color_stepper_title">#ff91c854</color>
   <color name="color_tabs_background">#ffffffff</color>
   <color name="color_tabs_shadow">#ff000000</color>
   <color name="color_tabs_default">#ff191919</color>
@@ -383,5 +419,8 @@
   <color name="color_toggle_disabled_circle">#ffb3b3b3</color>
   <color name="color_toggle_disabled_checked_background">#ffcbe3b5</color>
   <color name="color_toggle_disabled_checked_circle">#ffffffff</color>
+  <color name="color_tooltip_background">#ff4d4d4d</color>
+  <color name="color_tooltip_border">#ffffffff</color>
+  <color name="color_tooltip_text">#ffffffff</color>
   
 </resources>

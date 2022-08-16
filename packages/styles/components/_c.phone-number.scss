@@ -14,8 +14,8 @@
 
     display: flex;
     align-items: center;
-    color: $color-grey-900;
-    border: get-border("s") solid $color-grey-600;
+    color: $color-font-darker;
+    border: get-border("s") solid $color-phone-number-button-border;
     border-radius: $mu025 0 0 $mu025;
     border-right: none;
     padding-left: $mu100;
@@ -45,7 +45,7 @@
     overflow-x: hidden;
     scrollbar-color: $color-grey-600 $color-grey-100;
     scrollbar-width: thin;
-    background-color: $color-grey-000;
+    background-color: $color-phone-number-list-background;
 
     &::-webkit-scrollbar {
       background-color: $color-grey-100;
@@ -72,10 +72,10 @@
     align-items: center;
     min-height: $mu300;
     padding-left: $mu075;
-    border-bottom: get-border("s") solid $color-grey-300;
+    border-bottom: get-border("s") solid $color-phone-number-item-border;
 
     &--focused {
-      background: $color-grey-100;
+      background: $color-phone-number-item-focus-background;
     }
   }
 

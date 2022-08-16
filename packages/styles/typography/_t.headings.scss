@@ -1,8 +1,8 @@
 /* mqp:start */
 .mt-heading {
-  $parent: get-parent-selector(&, '.mt-');
+  $parent: get-parent-selector(&, ".mt-");
 
-  @include set-font-face('regular');
+  @include set-font-face("regular");
 
   color: $color-font-darkest;
   display: block;
@@ -11,24 +11,25 @@
   // add underline style
 
   &--underline::after {
-    content: '';
+    content: "";
     display: block;
     height: $mu025;
-    background-color: $color-primary-01-500;
+    background-color: $color-heading-underline-default;
   }
 
   // underline color variations
 
-  &--line-primary-02-600::after {
-    background-color: $color-primary-02-600;
-  }
-
-  &--line-primary-01-200::after {
-    background-color: $color-primary-01-200;
+  &--line-primary-01-200::after,
+  &--line-lightest::after {
+    background-color: $color-heading-underline-lightest;
   }
 
   &--line-primary-02-200::after {
     background-color: $color-primary-02-200;
+  }
+
+  &--line-primary-02-600::after {
+    background-color: $color-primary-02-600;
   }
 
   // text alignment
@@ -79,12 +80,12 @@
   // font-weight variations
 
   &--light {
-    @include set-font-weight('light');
+    @include set-font-weight("light");
   }
 
   &--semi-bold,
   &--underline {
-    @include set-font-weight('semi-bold');
+    @include set-font-weight("semi-bold");
   }
 }
 

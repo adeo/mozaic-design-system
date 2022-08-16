@@ -4,8 +4,7 @@
   @include set-font-face();
 
   color: $color-font-darker;
-  padding:
-    magic-unit-rem(0.9375, "true") 0 magic-unit-rem(0.9375, "true")
+  padding: magic-unit-rem(0.9375, "true") 0 magic-unit-rem(0.9375, "true")
     magic-unit-rem(1.125, "true");
 
   @include set-from-screen("s-large") {
@@ -70,13 +69,19 @@
     }
 
     &:not(:first-child) {
-      background-image: url(inline-icons("arrow-right-16", $color-grey-800));
+      background-image: url(inline-icons(
+        "arrow-right-16",
+        $color-breadcrumb-arrow
+      ));
     }
 
     &.is-active,
     &:only-child {
       @media screen and (max-width: ($screen-l - 1)) {
-        background-image: url(inline-icons("arrow-left-16", $color-grey-800));
+        background-image: url(inline-icons(
+          "arrow-left-16",
+          $color-breadcrumb-arrow
+        ));
       }
     }
   }
@@ -104,23 +109,19 @@
     #{$parent} {
       &__item {
         &:not(:first-child) {
-          background-image:
-            url(
-              inline-icons(
-                "arrow-right-16",
-                $color-grey-000
-              ));
+          background-image: url(inline-icons(
+            "arrow-right-16",
+            $color-breadcrumb-dark-arrow
+          ));
         }
 
         &.is-active,
         &:only-child {
           @media screen and (max-width: ($screen-l - 1)) {
-            background-image:
-              url(
-                inline-icons(
-                  "arrow-left-16",
-                  $color-grey-000
-                ));
+            background-image: url(inline-icons(
+              "arrow-left-16",
+              $color-breadcrumb-dark-arrow
+            ));
           }
         }
       }

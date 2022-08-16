@@ -22,7 +22,7 @@
   }
 
   &__dialog {
-    background: $color-grey-000;
+    background: $color-dialog-background;
     display: flex;
     flex-direction: column;
     opacity: 0;
@@ -106,7 +106,7 @@
     height: $mu200;
     width: $mu200;
     background: transparent
-      url(inline-icons("control-cross-32", $color-grey-500)) no-repeat;
+      url(inline-icons("control-cross-32", $color-dialog-close)) no-repeat;
     background-size: contain;
 
     &-text {
@@ -209,7 +209,7 @@
       }
 
       &__footer {
-        box-shadow: 0 $mu025 $mu125 0 mt-rgba($color-grey-900, 0.2);
+        box-shadow: 0 $mu025 $mu125 0 mt-rgba($color-dialog-footer-shadow, 0.2);
       }
     }
   }
