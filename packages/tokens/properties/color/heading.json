@@ -1,0 +1,14 @@
+{
+  "color": {
+    "heading": {
+      "underline": {
+        "default": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "lightest": {
+          "value": "{color.primary-01.200.value}"
+        }
+      }
+    }
+  }
+}

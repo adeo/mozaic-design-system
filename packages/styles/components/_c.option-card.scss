@@ -32,12 +32,12 @@
       }
 
       &:hover + #{$parent}__label {
-        box-shadow: 0 0 0 2px $color-grey-800;
+        box-shadow: 0 0 0 2px $color-option-card-hover-label-shadow;
       }
 
       &:checked + #{$parent}__label {
-        border-color: $color-primary-01-500;
-        box-shadow: 0 0 0 $mu025 $color-success-100;
+        border-color: $color-option-card-checked-label-border;
+        box-shadow: 0 0 0 $mu025 $color-option-card-checked-label-shadow;
       }
 
       &:focus + #{$parent}__label {
@@ -62,7 +62,7 @@
   &__label {
     border: 2px solid transparent;
     border-radius: get-border-radius("m");
-    box-shadow: 0 0 0 1px $color-grey-300;
+    box-shadow: 0 0 0 1px $color-option-card-label-shadow;
     cursor: pointer;
     height: 100%;
     left: 50%;

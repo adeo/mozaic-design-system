@@ -1,0 +1,14 @@
+{
+  "color": {
+    "card": {
+      "bordered": {
+        "background": {
+          "value": "{color.grey.000.value}"
+        },
+        "border": {
+          "value": "{color.grey.500.value}"
+        }
+      }
+    }
+  }
+}

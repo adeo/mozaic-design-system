@@ -1,0 +1,20 @@
+{
+  "color": {
+    "dialog": {
+      "background": {
+        "value": "{color.grey.000.value}"
+      },
+      "icon": {
+        "value": "{color.grey.600.value}"
+      },
+      "close": {
+        "value": "{color.grey.500.value}"
+      },
+      "footer": {
+        "shadow": {
+          "value": "{color.grey.900.value}"
+        }
+      }
+    }
+  }
+}
