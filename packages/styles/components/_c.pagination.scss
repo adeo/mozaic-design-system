@@ -28,7 +28,7 @@
       height: $mu200;
       margin: 0;
       width: $mu200;
-      fill: currentColor;
+      fill: currentcolor;
 
       @include set-from-screen("l") {
         width: $mu125;

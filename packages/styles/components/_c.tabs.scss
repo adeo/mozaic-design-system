@@ -68,7 +68,7 @@
   &__link {
     @include set-font-scale("05", "s");
 
-    @include set-focus-floating-base {
+    @include set-focus-floating-base() {
       bottom: -(math.div($mu025, 2));
       top: -(math.div($mu025, 2));
     }

@@ -1,18 +1,17 @@
 $tag-themes: get-token(color, tag);
 $tag-border: get-border("s");
 $tag-border-focus: get-border("m");
-$padding-y--s: calc(#{$mu025} - #{$tag-border});
-$padding-y--m: calc(#{$mu075} - #{$tag-border});
-
+$padding-y-size-s: calc(#{$mu025} - #{$tag-border});
+$padding-y-size-m: calc(#{$mu075} - #{$tag-border});
 $tag-sizes: (
   "s": (
-    "padding": $padding-y--s calc(#{$mu100} - #{$tag-border}),
+    "padding": $padding-y-size-s calc(#{$mu100} - #{$tag-border}),
     "font-size": "04",
     "line-height": "m",
     "border-radius": $mu075,
   ),
   "m": (
-    "padding": $padding-y--m calc(#{$mu150} - #{$tag-border}),
+    "padding": $padding-y-size-m calc(#{$mu150} - #{$tag-border}),
     "font-size": "04",
     "line-height": "m",
     "border-radius": $mu125,
@@ -30,7 +29,7 @@ $tag-sizes: (
   border-radius: map-get($props, "border-radius");
   padding: map-get($props, "padding");
 
-  @include set-focus-floating-base {
+  @include set-focus-floating-base() {
     border-radius: (map-get($props, "border-radius") + $size-focus-gap);
     top: -$size-focus-gap;
     right: -$size-focus-gap;
@@ -59,18 +58,12 @@ $tag-sizes: (
   }
 }
 
-@mixin set-tag-icon-B64($theme: "light") {
+@mixin set-tag-icon-base64($theme: "light") {
   @if $theme == "light" {
-    background-image: url(inline-icons(
-      "tag-delete-24",
-      $color-tag-removable-light-icon
-    ));
+    background-image: url("#{inline-icons('tag-delete-24', $color-tag-removable-light-icon)}");
   }
 
   @if $theme == "dark" {
-    background-image: url(inline-icons(
-      "tag-delete-24",
-      $color-tag-removable-dark-icon
-    ));
+    background-image: url("#{inline-icons('tag-delete-24', $color-tag-removable-dark-icon)}");
   }
 }

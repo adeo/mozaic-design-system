@@ -7,11 +7,11 @@
   }
 
   &__label {
-    @include set-font-scale('04', 's');
+    @include set-font-scale("04", "s");
   }
 
   &__legend {
-    @include set-font-scale('04', 'm');
+    @include set-font-scale("04", "m");
 
     padding-left: 0;
     padding-right: 0;
@@ -19,14 +19,14 @@
 
   &__requirement,
   &__help {
-    @include set-font-scale('02', 's');
+    @include set-font-scale("02", "s");
 
     color: $color-fields-requirement;
   }
 
   &__requirement {
     &::before {
-      content: '\00a0-\00a0';
+      content: "\00a0-\00a0";
     }
   }
 
@@ -44,18 +44,18 @@
     margin-top: $mu100;
 
     &--inline {
-      @include set-from-screen('m-medium') {
+      @include set-from-screen("m-medium") {
         display: flex;
       }
 
       #{$parent}__item {
         &:not(:last-child) {
-          @include set-from-screen('m-medium') {
+          @include set-from-screen("m-medium") {
             margin-bottom: 0;
             margin-right: $mu100;
           }
 
-          @include set-from-screen('l') {
+          @include set-from-screen("l") {
             margin-right: $mu200;
           }
         }
@@ -70,7 +70,7 @@
   }
 
   &__error-message {
-    @include set-font-scale('04', 'm');
+    @include set-font-scale("04", "m");
 
     color: $color-fields-error;
     display: inline-block;

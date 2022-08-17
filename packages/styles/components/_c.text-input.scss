@@ -1,16 +1,16 @@
 /* mqp:start */
 .mc-text-input {
-  @include reset-input;
+  @include reset-input();
   @include set-input-size($input-default-size);
   @include set-focus-transition();
 
   display: block;
   width: 100%;
   position: relative;
-  border: get-border('s') solid $color-input-border;
+  border: get-border("s") solid $color-input-border;
   color: $color-input-text;
   background-color: $color-input-background;
-  border-radius: get-border-radius('m');
+  border-radius: get-border-radius("m");
 
   &::placeholder {
     margin: 0;
@@ -28,12 +28,7 @@
 
   &.is-valid {
     border-color: $color-input-valid-border;
-    background-image:
-      url(
-        inline-icons(
-          'checkmark-16',
-          $color-input-valid-border
-        ));
+    background-image: url("#{inline-icons('checkmark-16', $color-input-valid-border)}");
 
     &:hover,
     &.is-hover {
@@ -43,12 +38,7 @@
 
   &.is-invalid {
     border-color: $color-input-invalid-border;
-    background-image:
-      url(
-        inline-icons(
-          'cross-16',
-          $color-input-invalid-border
-        ));
+    background-image: url("#{inline-icons('cross-16', $color-input-invalid-border)}");
 
     &:hover,
     &.is-hover {
@@ -57,13 +47,13 @@
   }
 
   &:hover {
-    @include add-demo-state-class {
+    @include add-demo-state-class() {
       border-color: $color-input-hover-border;
     }
   }
 
   &:focus {
-    @include add-demo-state-class {
+    @include add-demo-state-class() {
       @include set-shadow-focus();
     }
   }
