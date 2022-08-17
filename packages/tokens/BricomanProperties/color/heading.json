@@ -1,0 +1,14 @@
+{
+  "color": {
+    "heading": {
+      "line": {
+        "default": {
+          "value": "{color.primary-02.400.value}"
+        },
+        "lightest": {
+          "value": "{color.primary-02.200.value}"
+        }
+      }
+    }
+  }
+}
