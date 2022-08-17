@@ -5,6 +5,7 @@ const svelteIconsIndex = require('./svelteIcon')
 const vueIconsIndex = require('./vueIcon')
 const config = require('../config')
 const { createComponentName } = require('../utils/tools')
+const babel = require('@babel/core')
 
 const transpilers = {
   react: {
@@ -62,19 +63,45 @@ const generateIconComponent = (framework, icons) =>
           config.outputPaths[framework],
           `${parsedName}.svelte`
         )
-        // Write individual svele file
+        // Write individual svelte file
         fs.writeFile(writePath, dataSvelte, 'utf8', (err) => {
           if (err) rej(err)
           res(true)
         })
-        // Define web compoennt in registry
+        // Define web component in registry
         fs.appendFile(writeIndex, defineRegistry, 'utf8', (err) => {
           if (err) rej(err)
           res(true)
         })
       })
     } else {
-      const data = transpilers[framework].transpiler(icons)
+      let data = ''
+
+      if (framework === 'react') {
+        data = babel.transformSync(transpilers[framework].transpiler(icons), {
+          presets: ['@babel/preset-react'],
+          configFile: false,
+        }).code
+
+        // Typescript
+        const writeTypeScriptFile = path.join(
+          process.cwd(),
+          config.outputPaths[framework],
+          'index.d.ts'
+        )
+        fs.writeFile(
+          writeTypeScriptFile,
+          "declare module '@mozaic-ds/icons/react'",
+          'utf8',
+          (err) => {
+            if (err) rej(err)
+            res(true)
+          }
+        )
+      } else {
+        data = transpilers[framework].transpiler(icons)
+      }
+
       const writePath = path.join(
         process.cwd(),
         config.outputPaths[framework],
@@ -85,19 +112,6 @@ const generateIconComponent = (framework, icons) =>
         if (err) rej(err)
         res(true)
       })
-      if (framework === 'react') {
-        const data = "declare module '@mozaic-ds/icons/react'"
-
-        const writeTypeScriptFile = path.join(
-          process.cwd(),
-          config.outputPaths[framework],
-          'index.d.ts'
-        )
-        fs.writeFile(writeTypeScriptFile, data, 'utf8', (err) => {
-          if (err) rej(err)
-          res(true)
-        })
-      }
     }
   })
 
