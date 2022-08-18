@@ -56,7 +56,7 @@ function generateTagObject(obj, iconName) {
 
 const iconModule = ({ fileName, data }) => {
   const iconName = createComponentName(fileName)
-  const type = fileName.replace('.svg', '').split('_').shift()
+  const type = fileName.replace('.svg', '').split('_').shift().toLowerCase()
   const sizePx = fileName.replace('.svg', '').split('_').pop()
   const sizeRem = convertPxToRem(sizePx.replace('px', ''))
   const parsedSVG = parse(data).children[0]
@@ -75,7 +75,7 @@ const iconModule = ({ fileName, data }) => {
     viewBox: "${viewBox}",
     size: "${sizeRem}",
     paths: ${generatePaths(content, iconName)},
-    id: "${type}"
+    type: "${type}"
   };`
 }
 
