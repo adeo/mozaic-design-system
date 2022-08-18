@@ -74,8 +74,8 @@ const iconModule = ({ fileName, data }) => {
   return `export const ${iconName} = {
     viewBox: "${viewBox}",
     size: "${sizeRem}",
-    paths: "${generatePaths(content, iconName)}",
-    id: ${type}
+    paths: ${generatePaths(content, iconName)},
+    id: "${type}"
   };`
 }
 
