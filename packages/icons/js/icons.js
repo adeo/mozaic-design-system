@@ -14,7 +14,7 @@ export const FullScreen16 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ReduceScreen16 = {
   viewBox: '0 0 16 16',
@@ -27,7 +27,7 @@ export const ReduceScreen16 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ArrowArrowBottom16 = {
   viewBox: '0 0 16 16',
@@ -40,7 +40,7 @@ export const ArrowArrowBottom16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowLeft16 = {
   viewBox: '0 0 16 16',
@@ -53,7 +53,7 @@ export const ArrowArrowLeft16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowRight16 = {
   viewBox: '0 0 16 16',
@@ -66,7 +66,7 @@ export const ArrowArrowRight16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTop16 = {
   viewBox: '0 0 16 16',
@@ -79,7 +79,7 @@ export const ArrowArrowTop16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomLeft16 = {
   viewBox: '0 0 16 16',
@@ -93,7 +93,7 @@ export const ArrowArrowBottomLeft16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomRight16 = {
   viewBox: '0 0 16 16',
@@ -123,7 +123,7 @@ export const ArrowArrowBottomRight16 = {
       ],
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopLeft16 = {
   viewBox: '0 0 16 16',
@@ -137,7 +137,7 @@ export const ArrowArrowTopLeft16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopRight16 = {
   viewBox: '0 0 16 16',
@@ -151,7 +151,7 @@ export const ArrowArrowTopRight16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowBack16 = {
   viewBox: '0 0 16 16',
@@ -164,7 +164,7 @@ export const ArrowBack16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowLeft16 = {
   viewBox: '0 0 16 16',
@@ -177,7 +177,7 @@ export const ArrowDoubleArrowLeft16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowRight16 = {
   viewBox: '0 0 16 16',
@@ -190,7 +190,7 @@ export const ArrowDoubleArrowRight16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDown16 = {
   viewBox: '0 0 16 16',
@@ -203,7 +203,7 @@ export const ArrowDown16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowNext16 = {
   viewBox: '0 0 16 16',
@@ -216,7 +216,7 @@ export const ArrowNext16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowUp16 = {
   viewBox: '0 0 16 16',
@@ -229,7 +229,7 @@ export const ArrowUp16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCross16 = {
   viewBox: '0 0 16 16',
@@ -242,7 +242,7 @@ export const ControlCross16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlLess16 = {
   viewBox: '0 0 16 16',
@@ -250,7 +250,7 @@ export const ControlLess16 = {
   paths: [
     { tagName: 'path', attrs: { d: 'M12 9H4a1 1 0 010-2h8a1 1 0 010 2z' } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlMore16 = {
   viewBox: '0 0 16 16',
@@ -263,7 +263,7 @@ export const ControlMore16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlTagCross16 = {
   viewBox: '0 0 16 16',
@@ -276,7 +276,7 @@ export const ControlTagCross16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayExternalLink16 = {
   viewBox: '0 0 16 16',
@@ -290,7 +290,7 @@ export const DisplayExternalLink16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationAvailable16 = {
   viewBox: '0 0 16 16',
@@ -303,7 +303,7 @@ export const NotificationAvailable16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavorite16 = {
   viewBox: '0 0 16 16',
@@ -316,7 +316,7 @@ export const PublishFavorite16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavoriteFull16 = {
   viewBox: '0 0 16 16',
@@ -329,7 +329,7 @@ export const PublishFavoriteFull16 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishLock16 = {
   viewBox: '0 0 16 16',
@@ -359,7 +359,7 @@ export const PublishLock16 = {
       ],
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const Euro16 = {
   viewBox: '0 0 16 16',
@@ -372,7 +372,7 @@ export const Euro16 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const ViewLikeNegative16 = {
   viewBox: '0 0 16 16',
@@ -385,7 +385,7 @@ export const ViewLikeNegative16 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikePositive16 = {
   viewBox: '0 0 16 16',
@@ -398,7 +398,7 @@ export const ViewLikePositive16 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarEmpty16 = {
   viewBox: '0 0 16 16',
@@ -412,7 +412,7 @@ export const ViewStarEmpty16 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarFull16 = {
   viewBox: '0 0 16 16',
@@ -426,7 +426,7 @@ export const ViewStarFull16 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarHalf16 = {
   viewBox: '0 0 16 16',
@@ -440,7 +440,7 @@ export const ViewStarHalf16 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const Locator16 = {
   viewBox: '0 0 16 16',
@@ -453,7 +453,7 @@ export const Locator16 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Desktop24 = {
   viewBox: '0 0 24 24',
@@ -466,7 +466,7 @@ export const Desktop24 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Laptop24 = {
   viewBox: '0 0 24 24',
@@ -479,7 +479,7 @@ export const Laptop24 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Mobile24 = {
   viewBox: '0 0 24 24',
@@ -496,7 +496,7 @@ export const Mobile24 = {
       attrs: { d: 'M12.5 16.5h-1a.5.5 0 000 1h1a.5.5 0 000-1z' },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Tablet24 = {
   viewBox: '0 0 24 24',
@@ -510,7 +510,7 @@ export const Tablet24 = {
     },
     { tagName: 'circle', attrs: { cx: 12, cy: 17, r: 0.5 } },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const HygieneCleaned24 = {
   viewBox: '0 0 24 24',
@@ -523,7 +523,7 @@ export const HygieneCleaned24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDanger24 = {
   viewBox: '0 0 24 24',
@@ -542,7 +542,7 @@ export const HygieneDanger24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDistance24 = {
   viewBox: '0 0 24 24',
@@ -555,7 +555,7 @@ export const HygieneDistance24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneGel24 = {
   viewBox: '0 0 24 24',
@@ -568,7 +568,7 @@ export const HygieneGel24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneMask24 = {
   viewBox: '0 0 24 24',
@@ -587,7 +587,7 @@ export const HygieneMask24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneNoContact24 = {
   viewBox: '0 0 24 24',
@@ -600,7 +600,7 @@ export const HygieneNoContact24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygienePlexiglas24 = {
   viewBox: '0 0 24 24',
@@ -625,7 +625,7 @@ export const HygienePlexiglas24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentCheckout24 = {
   viewBox: '0 0 24 24',
@@ -642,7 +642,7 @@ export const PaymentCheckout24 = {
       attrs: { d: 'M10.5 19h3a.5.5 0 000-1h-3a.5.5 0 000 1zM8 10h8v2H8z' },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentNoContact24 = {
   viewBox: '0 0 24 24',
@@ -674,7 +674,7 @@ export const PaymentNoContact24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarOpenBoot24 = {
   viewBox: '0 0 24 24',
@@ -687,7 +687,7 @@ export const ServicePurchaseHelpCarOpenBoot24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStandInLine24 = {
   viewBox: '0 0 24 24',
@@ -700,7 +700,7 @@ export const ServicePurchaseHelpCarStandInLine24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStayInside24 = {
   viewBox: '0 0 24 24',
@@ -719,7 +719,7 @@ export const ServicePurchaseHelpCarStayInside24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpLoading24 = {
   viewBox: '0 0 24 24',
@@ -738,7 +738,7 @@ export const ServicePurchaseHelpLoading24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpNoCarRent24 = {
   viewBox: '0 0 24 24',
@@ -751,7 +751,7 @@ export const ServicePurchaseHelpNoCarRent24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpRequest24 = {
   viewBox: '0 0 24 24',
@@ -764,7 +764,7 @@ export const ServicePurchaseHelpRequest24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpTruck24 = {
   viewBox: '0 0 24 24',
@@ -777,7 +777,7 @@ export const ServicePurchaseHelpTruck24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const UniverseEssentialProduct24 = {
   viewBox: '0 0 24 24',
@@ -796,7 +796,7 @@ export const UniverseEssentialProduct24 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const BookStore24 = {
   viewBox: '0 0 24 24',
@@ -815,7 +815,7 @@ export const BookStore24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Camera24 = {
   viewBox: '0 0 24 24',
@@ -835,7 +835,7 @@ export const Camera24 = {
     },
     { tagName: 'path', attrs: { d: 'M6 11a1 1 0 110-2 1 1 0 010 2z' } },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadApp24 = {
   viewBox: '0 0 24 24',
@@ -854,7 +854,7 @@ export const DownloadApp24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadWeb24 = {
   viewBox: '0 0 24 24',
@@ -873,7 +873,7 @@ export const DownloadWeb24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const FullScreen24 = {
   viewBox: '0 0 24 24',
@@ -886,7 +886,7 @@ export const FullScreen24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const NoPicture24 = {
   viewBox: '0 0 24 24',
@@ -906,7 +906,7 @@ export const NoPicture24 = {
     },
     { tagName: 'circle', attrs: { cx: 8.5, cy: 10, r: 0.5 } },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Pdf24 = {
   viewBox: '0 0 24 24',
@@ -925,7 +925,7 @@ export const Pdf24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Play24 = {
   viewBox: '0 0 24 24',
@@ -938,7 +938,7 @@ export const Play24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Player24 = {
   viewBox: '0 0 24 24',
@@ -957,7 +957,7 @@ export const Player24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Print24 = {
   viewBox: '0 0 24 24',
@@ -976,7 +976,7 @@ export const Print24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Project24 = {
   viewBox: '0 0 24 24',
@@ -995,7 +995,7 @@ export const Project24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Read24 = {
   viewBox: '0 0 24 24',
@@ -1014,7 +1014,7 @@ export const Read24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ReduceScreen24 = {
   viewBox: '0 0 24 24',
@@ -1027,7 +1027,7 @@ export const ReduceScreen24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Slideshow24 = {
   viewBox: '0 0 24 24',
@@ -1046,7 +1046,7 @@ export const Slideshow24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Sound24 = {
   viewBox: '0 0 24 24',
@@ -1065,7 +1065,7 @@ export const Sound24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Stop24 = {
   viewBox: '0 0 24 24',
@@ -1078,7 +1078,7 @@ export const Stop24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const TimeRead24 = {
   viewBox: '0 0 24 24',
@@ -1097,7 +1097,7 @@ export const TimeRead24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Upload24 = {
   viewBox: '0 0 24 24',
@@ -1116,7 +1116,7 @@ export const Upload24 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const View36024 = {
   viewBox: '0 0 24 24',
@@ -1135,7 +1135,7 @@ export const View36024 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ArrowArrowBottom24 = {
   viewBox: '0 0 24 24',
@@ -1148,7 +1148,7 @@ export const ArrowArrowBottom24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowLeft24 = {
   viewBox: '0 0 24 24',
@@ -1161,7 +1161,7 @@ export const ArrowArrowLeft24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowRight24 = {
   viewBox: '0 0 24 24',
@@ -1174,7 +1174,7 @@ export const ArrowArrowRight24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTop24 = {
   viewBox: '0 0 24 24',
@@ -1187,7 +1187,7 @@ export const ArrowArrowTop24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomLeft24 = {
   viewBox: '0 0 24 24',
@@ -1201,7 +1201,7 @@ export const ArrowArrowBottomLeft24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomRight24 = {
   viewBox: '0 0 24 24',
@@ -1215,7 +1215,7 @@ export const ArrowArrowBottomRight24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopLeft24 = {
   viewBox: '0 0 24 24',
@@ -1229,7 +1229,7 @@ export const ArrowArrowTopLeft24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopRight24 = {
   viewBox: '0 0 24 24',
@@ -1243,7 +1243,7 @@ export const ArrowArrowTopRight24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowBack24 = {
   viewBox: '0 0 24 24',
@@ -1260,7 +1260,7 @@ export const ArrowBack24 = {
       attrs: { d: 'M21 13H3.24a1 1 0 010-2H21a1 1 0 010 2z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowLeft24 = {
   viewBox: '0 0 24 24',
@@ -1273,7 +1273,7 @@ export const ArrowDoubleArrowLeft24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowRight24 = {
   viewBox: '0 0 24 24',
@@ -1286,7 +1286,7 @@ export const ArrowDoubleArrowRight24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDown24 = {
   viewBox: '0 0 24 24',
@@ -1299,7 +1299,7 @@ export const ArrowDown24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowNext24 = {
   viewBox: '0 0 24 24',
@@ -1316,7 +1316,7 @@ export const ArrowNext24 = {
       attrs: { d: 'M20.76 13H3a1 1 0 010-2h17.76a1 1 0 110 2z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowUp24 = {
   viewBox: '0 0 24 24',
@@ -1329,7 +1329,7 @@ export const ArrowUp24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleCross24 = {
   viewBox: '0 0 24 24',
@@ -1348,7 +1348,7 @@ export const ControlCircleCross24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleLess24 = {
   viewBox: '0 0 24 24',
@@ -1362,7 +1362,7 @@ export const ControlCircleLess24 = {
     },
     { tagName: 'path', attrs: { d: 'M15.5 13h-7a1 1 0 010-2h7a1 1 0 010 2z' } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleMore24 = {
   viewBox: '0 0 24 24',
@@ -1381,7 +1381,7 @@ export const ControlCircleMore24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCross24 = {
   viewBox: '0 0 24 24',
@@ -1394,7 +1394,7 @@ export const ControlCross24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlLess24 = {
   viewBox: '0 0 24 24',
@@ -1405,7 +1405,7 @@ export const ControlLess24 = {
       attrs: { d: 'M17.09 13h-10a1 1 0 010-2h10a1 1 0 010 2z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlMore24 = {
   viewBox: '0 0 24 24',
@@ -1418,7 +1418,7 @@ export const ControlMore24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlTagCross24 = {
   viewBox: '0 0 24 24',
@@ -1431,7 +1431,7 @@ export const ControlTagCross24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayBlink24 = {
   viewBox: '0 0 24 24',
@@ -1445,7 +1445,7 @@ export const DisplayBlink24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayCalendar24 = {
   viewBox: '0 0 24 24',
@@ -1458,7 +1458,7 @@ export const DisplayCalendar24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayConnect24 = {
   viewBox: '0 0 24 24',
@@ -1475,7 +1475,7 @@ export const DisplayConnect24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullFilled24 = {
   viewBox: '0 0 24 24',
@@ -1483,7 +1483,7 @@ export const DisplayDisplayFullFilled24 = {
   paths: [
     { tagName: 'rect', attrs: { x: 2, y: 2, width: 20, height: 20, rx: 1.15 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullOutline24 = {
   viewBox: '0 0 24 24',
@@ -1496,7 +1496,7 @@ export const DisplayDisplayFullOutline24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListFilled24 = {
   viewBox: '0 0 24 24',
@@ -1515,7 +1515,7 @@ export const DisplayDisplayListFilled24 = {
       attrs: { x: 2, y: 16.5, width: 20, height: 5.5, rx: 1.15 },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListOutline24 = {
   viewBox: '0 0 24 24',
@@ -1528,7 +1528,7 @@ export const DisplayDisplayListOutline24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileHorizontal24 = {
   viewBox: '0 0 24 24',
@@ -1541,7 +1541,7 @@ export const DisplayDisplayMobileHorizontal24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileVertical24 = {
   viewBox: '0 0 24 24',
@@ -1554,7 +1554,7 @@ export const DisplayDisplayMobileVertical24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Filled24 = {
   viewBox: '0 0 24 24',
@@ -1565,7 +1565,7 @@ export const DisplayDisplayProductX4Filled24 = {
     { tagName: 'rect', attrs: { x: 2, y: 2, width: 9, height: 9, rx: 1.15 } },
     { tagName: 'rect', attrs: { x: 13, y: 2, width: 9, height: 9, rx: 1.15 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Outline24 = {
   viewBox: '0 0 24 24',
@@ -1578,7 +1578,7 @@ export const DisplayDisplayProductX4Outline24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX924 = {
   viewBox: '0 0 24 24',
@@ -1597,7 +1597,7 @@ export const DisplayDisplayProductX924 = {
       attrs: { x: 9.5, y: 9.5, width: 5, height: 5, rx: 1.5 },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayExternalLink24 = {
   viewBox: '0 0 24 24',
@@ -1611,7 +1611,7 @@ export const DisplayExternalLink24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayFilter24 = {
   viewBox: '0 0 24 24',
@@ -1624,7 +1624,7 @@ export const DisplayFilter24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayHome24 = {
   viewBox: '0 0 24 24',
@@ -1637,7 +1637,7 @@ export const DisplayHome24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayLogOut24 = {
   viewBox: '0 0 24 24',
@@ -1651,7 +1651,7 @@ export const DisplayLogOut24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMenu24 = {
   viewBox: '0 0 24 24',
@@ -1664,7 +1664,7 @@ export const DisplayMenu24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMovingBlock24 = {
   viewBox: '0 0 24 24',
@@ -1680,7 +1680,7 @@ export const DisplayMovingBlock24 = {
     { tagName: 'circle', attrs: { cx: 12.09, cy: 20, r: 2 } },
     { tagName: 'circle', attrs: { cx: 20.09, cy: 20, r: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOptions24 = {
   viewBox: '0 0 24 24',
@@ -1694,7 +1694,7 @@ export const DisplayOptions24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOther24 = {
   viewBox: '0 0 24 24',
@@ -1708,7 +1708,7 @@ export const DisplayOther24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayProductNumb24 = {
   viewBox: '0 0 24 24',
@@ -1721,7 +1721,7 @@ export const DisplayProductNumb24 = {
     { tagName: 'path', attrs: { d: 'M21 19H8a1 1 0 010-2h13a1 1 0 010 2z' } },
     { tagName: 'circle', attrs: { cx: 3.25, cy: 18, r: 1.25 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayRefresh24 = {
   viewBox: '0 0 24 24',
@@ -1734,7 +1734,7 @@ export const DisplayRefresh24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayScreenRotation24 = {
   viewBox: '0 0 24 24',
@@ -1747,7 +1747,7 @@ export const DisplayScreenRotation24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearch24 = {
   viewBox: '0 0 24 24',
@@ -1760,7 +1760,7 @@ export const DisplaySearch24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchList24 = {
   viewBox: '0 0 24 24',
@@ -1774,7 +1774,7 @@ export const DisplaySearchList24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchProduct24 = {
   viewBox: '0 0 24 24',
@@ -1788,7 +1788,7 @@ export const DisplaySearchProduct24 = {
     },
     { tagName: 'circle', attrs: { cx: 17.5, cy: 6.5, r: 1 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySetting24 = {
   viewBox: '0 0 24 24',
@@ -1807,7 +1807,7 @@ export const DisplaySetting24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayView24 = {
   viewBox: '0 0 24 24',
@@ -1826,7 +1826,7 @@ export const DisplayView24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayVocalSearch24 = {
   viewBox: '0 0 24 24',
@@ -1845,7 +1845,7 @@ export const DisplayVocalSearch24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationAvailable24 = {
   viewBox: '0 0 24 24',
@@ -1858,7 +1858,7 @@ export const NotificationAvailable24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationBell24 = {
   viewBox: '0 0 24 24',
@@ -1871,7 +1871,7 @@ export const NotificationBell24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationCircleAvailable24 = {
   viewBox: '0 0 24 24',
@@ -1890,7 +1890,7 @@ export const NotificationCircleAvailable24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationInformation24 = {
   viewBox: '0 0 24 24',
@@ -1908,7 +1908,7 @@ export const NotificationInformation24 = {
     },
     { tagName: 'circle', attrs: { cx: 12, cy: 8, r: 1 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationQuestion24 = {
   viewBox: '0 0 24 24',
@@ -1928,7 +1928,7 @@ export const NotificationQuestion24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationWarning24 = {
   viewBox: '0 0 24 24',
@@ -1946,7 +1946,7 @@ export const NotificationWarning24 = {
     },
     { tagName: 'circle', attrs: { cx: 12, cy: 16, r: 1 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishCopy24 = {
   viewBox: '0 0 24 24',
@@ -1965,7 +1965,7 @@ export const PublishCopy24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishEdit24 = {
   viewBox: '0 0 24 24',
@@ -1979,7 +1979,7 @@ export const PublishEdit24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavorite24 = {
   viewBox: '0 0 24 24',
@@ -1992,7 +1992,7 @@ export const PublishFavorite24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavoriteFull24 = {
   viewBox: '0 0 24 24',
@@ -2005,7 +2005,7 @@ export const PublishFavoriteFull24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishLock24 = {
   viewBox: '0 0 24 24',
@@ -2019,7 +2019,7 @@ export const PublishLock24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishSend24 = {
   viewBox: '0 0 24 24',
@@ -2032,7 +2032,7 @@ export const PublishSend24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishTrashbin24 = {
   viewBox: '0 0 24 24',
@@ -2051,7 +2051,7 @@ export const PublishTrashbin24 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const Bill24 = {
   viewBox: '0 0 24 24',
@@ -2076,7 +2076,7 @@ export const Bill24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeAmericanExpress24 = {
   viewBox: '0 0 24 24',
@@ -2107,7 +2107,7 @@ export const CardsMonochromeAmericanExpress24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCB24 = {
   viewBox: '0 0 24 24',
@@ -2126,7 +2126,7 @@ export const CardsMonochromeCB24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCheque24 = {
   viewBox: '0 0 24 24',
@@ -2145,7 +2145,7 @@ export const CardsMonochromeCheque24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeGift24 = {
   viewBox: '0 0 24 24',
@@ -2164,7 +2164,7 @@ export const CardsMonochromeGift24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeIllicado24 = {
   viewBox: '0 0 24 24',
@@ -2193,7 +2193,7 @@ export const CardsMonochromeIllicado24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeLoyalty24 = {
   viewBox: '0 0 24 24',
@@ -2212,7 +2212,7 @@ export const CardsMonochromeLoyalty24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeMastercard24 = {
   viewBox: '0 0 24 24',
@@ -2231,7 +2231,7 @@ export const CardsMonochromeMastercard24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOney24 = {
   viewBox: '0 0 24 24',
@@ -2250,7 +2250,7 @@ export const CardsMonochromeOney24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX324 = {
   viewBox: '0 0 24 24',
@@ -2264,7 +2264,7 @@ export const CardsMonochromeOneyX324 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX424 = {
   viewBox: '0 0 24 24',
@@ -2278,7 +2278,7 @@ export const CardsMonochromeOneyX424 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaylib24 = {
   viewBox: '0 0 24 24',
@@ -2303,7 +2303,7 @@ export const CardsMonochromePaylib24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaypal24 = {
   viewBox: '0 0 24 24',
@@ -2328,7 +2328,7 @@ export const CardsMonochromePaypal24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeVisa24 = {
   viewBox: '0 0 24 24',
@@ -2353,7 +2353,7 @@ export const CardsMonochromeVisa24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const DetailsOrder24 = {
   viewBox: '0 0 24 24',
@@ -2372,7 +2372,7 @@ export const DetailsOrder24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Euro24 = {
   viewBox: '0 0 24 24',
@@ -2385,7 +2385,7 @@ export const Euro24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Receipt24 = {
   viewBox: '0 0 24 24',
@@ -2404,7 +2404,7 @@ export const Receipt24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment124 = {
   viewBox: '0 0 24 24',
@@ -2424,7 +2424,7 @@ export const SafePayment124 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment224 = {
   viewBox: '0 0 24 24',
@@ -2443,7 +2443,7 @@ export const SafePayment224 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const AspectQuantity24 = {
   viewBox: '0 0 24 24',
@@ -2468,7 +2468,7 @@ export const AspectQuantity24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectSize24 = {
   viewBox: '0 0 24 24',
@@ -2481,7 +2481,7 @@ export const AspectSize24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectWeight24 = {
   viewBox: '0 0 24 24',
@@ -2494,7 +2494,7 @@ export const AspectWeight24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketAdd24 = {
   viewBox: '0 0 24 24',
@@ -2515,7 +2515,7 @@ export const BasketAdd24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketHandbag24 = {
   viewBox: '0 0 24 24',
@@ -2528,7 +2528,7 @@ export const BasketHandbag24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketMulti24 = {
   viewBox: '0 0 24 24',
@@ -2541,7 +2541,7 @@ export const BasketMulti24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketSave24 = {
   viewBox: '0 0 24 24',
@@ -2556,7 +2556,7 @@ export const BasketSave24 = {
     { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
     { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketStandard24 = {
   viewBox: '0 0 24 24',
@@ -2571,7 +2571,7 @@ export const BasketStandard24 = {
     { tagName: 'circle', attrs: { cx: 16.5, cy: 20, r: 2 } },
     { tagName: 'circle', attrs: { cx: 9.5, cy: 20, r: 2 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListAdd24 = {
   viewBox: '0 0 24 24',
@@ -2596,7 +2596,7 @@ export const ListAdd24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListStandard24 = {
   viewBox: '0 0 24 24',
@@ -2615,7 +2615,7 @@ export const ListStandard24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseCertification24 = {
   viewBox: '0 0 24 24',
@@ -2634,7 +2634,7 @@ export const PromiseCertification24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseDestocking24 = {
   viewBox: '0 0 24 24',
@@ -2653,7 +2653,7 @@ export const PromiseDestocking24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseEcoProduct24 = {
   viewBox: '0 0 24 24',
@@ -2666,7 +2666,7 @@ export const PromiseEcoProduct24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFashionChoice24 = {
   viewBox: '0 0 24 24',
@@ -2680,7 +2680,7 @@ export const PromiseFashionChoice24 = {
     },
     { tagName: 'circle', attrs: { cx: 9.63, cy: 17.38, r: 1 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFunding24 = {
   viewBox: '0 0 24 24',
@@ -2693,7 +2693,7 @@ export const PromiseFunding24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInEurope24 = {
   viewBox: '0 0 24 24',
@@ -2706,7 +2706,7 @@ export const PromiseMadeInEurope24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInFrance24 = {
   viewBox: '0 0 24 24',
@@ -2719,7 +2719,7 @@ export const PromiseMadeInFrance24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseModular24 = {
   viewBox: '0 0 24 24',
@@ -2732,7 +2732,7 @@ export const PromiseModular24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductOnPicture24 = {
   viewBox: '0 0 24 24',
@@ -2746,7 +2746,7 @@ export const PromiseProductOnPicture24 = {
     },
     { tagName: 'circle', attrs: { cx: 16, cy: 8, r: 1.5 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductSheet24 = {
   viewBox: '0 0 24 24',
@@ -2765,7 +2765,7 @@ export const PromiseProductSheet24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseScan24 = {
   viewBox: '0 0 24 24',
@@ -2778,7 +2778,7 @@ export const PromiseScan24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseWarranty24 = {
   viewBox: '0 0 24 24',
@@ -2797,7 +2797,7 @@ export const PromiseWarranty24 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const DescribeProject24 = {
   viewBox: '0 0 24 24',
@@ -2810,7 +2810,7 @@ export const DescribeProject24 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const Inspiration24 = {
   viewBox: '0 0 24 24',
@@ -2827,7 +2827,7 @@ export const Inspiration24 = {
       attrs: { d: 'M15.5 8A1.5 1.5 0 1014 6.5 1.5 1.5 0 0015.5 8z' },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const MakeProject24 = {
   viewBox: '0 0 24 24',
@@ -2840,7 +2840,7 @@ export const MakeProject24 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const AfterSalesAfterSalesService24 = {
   viewBox: '0 0 24 24',
@@ -2853,7 +2853,7 @@ export const AfterSalesAfterSalesService24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesHelpline24 = {
   viewBox: '0 0 24 24',
@@ -2866,7 +2866,7 @@ export const AfterSalesHelpline24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesPayback24 = {
   viewBox: '0 0 24 24',
@@ -2879,7 +2879,7 @@ export const AfterSalesPayback24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesSatisfaction24 = {
   viewBox: '0 0 24 24',
@@ -2898,7 +2898,7 @@ export const AfterSalesSatisfaction24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCopyKey24 = {
   viewBox: '0 0 24 24',
@@ -2912,7 +2912,7 @@ export const CustomCopyKey24 = {
     },
     { tagName: 'circle', attrs: { cx: 14.89, cy: 17, r: 1 } },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCourse24 = {
   viewBox: '0 0 24 24',
@@ -2926,7 +2926,7 @@ export const CustomCourse24 = {
     },
     { tagName: 'ellipse', attrs: { cx: 12, cy: 9.5, rx: 1, ry: 0.75 } },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCutWoodGlass24 = {
   viewBox: '0 0 24 24',
@@ -2940,7 +2940,7 @@ export const CustomCutWoodGlass24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSample24 = {
   viewBox: '0 0 24 24',
@@ -2953,7 +2953,7 @@ export const CustomSample24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSharpening24 = {
   viewBox: '0 0 24 24',
@@ -2973,7 +2973,7 @@ export const CustomSharpening24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupRelayPoint24 = {
   viewBox: '0 0 24 24',
@@ -2986,7 +2986,7 @@ export const DeliveryDeliveryPickupRelayPoint24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupStore24 = {
   viewBox: '0 0 24 24',
@@ -3005,7 +3005,7 @@ export const DeliveryDeliveryPickupStore24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryHome24 = {
   viewBox: '0 0 24 24',
@@ -3024,7 +3024,7 @@ export const DeliveryDeliveryHome24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryLocker24 = {
   viewBox: '0 0 24 24',
@@ -3038,7 +3038,7 @@ export const DeliveryDeliveryLocker24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpCarRent24 = {
   viewBox: '0 0 24 24',
@@ -3051,7 +3051,7 @@ export const PurchaseHelpCarRent24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeDIY24 = {
   viewBox: '0 0 24 24',
@@ -3064,7 +3064,7 @@ export const PurchaseHelpHomeDIY24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeInstall24 = {
   viewBox: '0 0 24 24',
@@ -3077,7 +3077,7 @@ export const PurchaseHelpHomeInstall24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpToolRent24 = {
   viewBox: '0 0 24 24',
@@ -3090,7 +3090,7 @@ export const PurchaseHelpToolRent24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery2h24 = {
   viewBox: '0 0 24 24',
@@ -3109,7 +3109,7 @@ export const TimeDelivery2h24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery3h24 = {
   viewBox: '0 0 24 24',
@@ -3128,7 +3128,7 @@ export const TimeDelivery3h24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery48h24 = {
   viewBox: '0 0 24 24',
@@ -3147,7 +3147,7 @@ export const TimeDelivery48h24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeTimeDecline24 = {
   viewBox: '0 0 24 24',
@@ -3166,7 +3166,7 @@ export const TimeTimeDecline24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const Tools3d24 = {
   viewBox: '0 0 24 24',
@@ -3179,7 +3179,7 @@ export const Tools3d24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsCalculator24 = {
   viewBox: '0 0 24 24',
@@ -3200,7 +3200,7 @@ export const ToolsCalculator24 = {
     { tagName: 'circle', attrs: { cx: 15, cy: 13.25, r: 0.5 } },
     { tagName: 'circle', attrs: { cx: 15, cy: 16.25, r: 0.5 } },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsComparator24 = {
   viewBox: '0 0 24 24',
@@ -3213,7 +3213,7 @@ export const ToolsComparator24 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CommentComment24 = {
   viewBox: '0 0 24 24',
@@ -3226,7 +3226,7 @@ export const CommentComment24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentCommunity24 = {
   viewBox: '0 0 24 24',
@@ -3239,7 +3239,7 @@ export const CommentCommunity24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentQuestionArticle24 = {
   viewBox: '0 0 24 24',
@@ -3258,7 +3258,7 @@ export const CommentQuestionArticle24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentReport24 = {
   viewBox: '0 0 24 24',
@@ -3271,7 +3271,7 @@ export const CommentReport24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareAndroid24 = {
   viewBox: '0 0 24 24',
@@ -3284,7 +3284,7 @@ export const ShareShareAndroid24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareIOS24 = {
   viewBox: '0 0 24 24',
@@ -3303,7 +3303,7 @@ export const ShareShareIOS24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkFacebook24 = {
   viewBox: '0 0 24 24',
@@ -3316,7 +3316,7 @@ export const SocialNetworkFacebook24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkInstagram24 = {
   viewBox: '0 0 24 24',
@@ -3341,7 +3341,7 @@ export const SocialNetworkInstagram24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkLinkedin24 = {
   viewBox: '0 0 24 24',
@@ -3354,7 +3354,7 @@ export const SocialNetworkLinkedin24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkPinterest24 = {
   viewBox: '0 0 24 24',
@@ -3367,7 +3367,7 @@ export const SocialNetworkPinterest24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkTwitter24 = {
   viewBox: '0 0 24 24',
@@ -3380,7 +3380,7 @@ export const SocialNetworkTwitter24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkYoutube24 = {
   viewBox: '0 0 24 24',
@@ -3394,7 +3394,7 @@ export const SocialNetworkYoutube24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikeNegative24 = {
   viewBox: '0 0 24 24',
@@ -3407,7 +3407,7 @@ export const ViewLikeNegative24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikePositive24 = {
   viewBox: '0 0 24 24',
@@ -3420,7 +3420,7 @@ export const ViewLikePositive24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarEmpty24 = {
   viewBox: '0 0 24 24',
@@ -3434,7 +3434,7 @@ export const ViewStarEmpty24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarFull24 = {
   viewBox: '0 0 24 24',
@@ -3448,7 +3448,7 @@ export const ViewStarFull24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarHalf24 = {
   viewBox: '0 0 24 24',
@@ -3462,7 +3462,7 @@ export const ViewStarHalf24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewTesterView24 = {
   viewBox: '0 0 24 24',
@@ -3481,7 +3481,7 @@ export const ViewTesterView24 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const Itinerary24 = {
   viewBox: '0 0 24 24',
@@ -3494,7 +3494,7 @@ export const Itinerary24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Locator24 = {
   viewBox: '0 0 24 24',
@@ -3507,7 +3507,7 @@ export const Locator24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Logo24 = {
   viewBox: '0 0 24 24',
@@ -3520,7 +3520,7 @@ export const Logo24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Map24 = {
   viewBox: '0 0 24 24',
@@ -3533,7 +3533,7 @@ export const Map24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeRelayLocation24 = {
   viewBox: '0 0 24 24',
@@ -3552,7 +3552,7 @@ export const MonochromeRelayLocation24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeStoreLocation24 = {
   viewBox: '0 0 24 24',
@@ -3571,7 +3571,7 @@ export const MonochromeStoreLocation24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const StoreLM24 = {
   viewBox: '0 0 24 24',
@@ -3590,7 +3590,7 @@ export const StoreLM24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Attic24 = {
   viewBox: '0 0 24 24',
@@ -3606,7 +3606,7 @@ export const Attic24 = {
     { tagName: 'circle', attrs: { cx: 18, cy: 18.5, r: 0.5 } },
     { tagName: 'circle', attrs: { cx: 16, cy: 19, r: 0.25 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bathroom24 = {
   viewBox: '0 0 24 24',
@@ -3619,7 +3619,7 @@ export const Bathroom24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bedroom24 = {
   viewBox: '0 0 24 24',
@@ -3632,7 +3632,7 @@ export const Bedroom24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Carpentry24 = {
   viewBox: '0 0 24 24',
@@ -3645,7 +3645,7 @@ export const Carpentry24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ChristmasTree24 = {
   viewBox: '0 0 24 24',
@@ -3659,7 +3659,7 @@ export const ChristmasTree24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ConnectedHome24 = {
   viewBox: '0 0 24 24',
@@ -3691,7 +3691,7 @@ export const ConnectedHome24 = {
     },
     { tagName: 'circle', attrs: { cx: 12, cy: 18, r: 0.75 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Curtains24 = {
   viewBox: '0 0 24 24',
@@ -3705,7 +3705,7 @@ export const Curtains24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Dressing24 = {
   viewBox: '0 0 24 24',
@@ -3722,7 +3722,7 @@ export const Dressing24 = {
       attrs: { d: 'M8.5 15H7a.5.5 0 000 1h1.5a.5.5 0 000-1z' },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Electricity24 = {
   viewBox: '0 0 24 24',
@@ -3743,7 +3743,7 @@ export const Electricity24 = {
     { tagName: 'circle', attrs: { cx: 15, cy: 12, r: 1 } },
     { tagName: 'circle', attrs: { cx: 9, cy: 12, r: 1 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Enki24 = {
   viewBox: '0 0 24 24',
@@ -3756,7 +3756,7 @@ export const Enki24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Floor24 = {
   viewBox: '0 0 24 24',
@@ -3775,7 +3775,7 @@ export const Floor24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garage24 = {
   viewBox: '0 0 24 24',
@@ -3789,7 +3789,7 @@ export const Garage24 = {
     },
     { tagName: 'circle', attrs: { cx: 12, cy: 8.5, r: 1.5 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden124 = {
   viewBox: '0 0 24 24',
@@ -3802,7 +3802,7 @@ export const Garden124 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden224 = {
   viewBox: '0 0 24 24',
@@ -3815,7 +3815,7 @@ export const Garden224 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const HardwareStore24 = {
   viewBox: '0 0 24 24',
@@ -3828,7 +3828,7 @@ export const HardwareStore24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Heater24 = {
   viewBox: '0 0 24 24',
@@ -3841,7 +3841,7 @@ export const Heater24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kids24 = {
   viewBox: '0 0 24 24',
@@ -3860,7 +3860,7 @@ export const Kids24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen24 = {
   viewBox: '0 0 24 24',
@@ -3879,7 +3879,7 @@ export const Kitchen24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen224 = {
   viewBox: '0 0 24 24',
@@ -3898,7 +3898,7 @@ export const Kitchen224 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Lighting24 = {
   viewBox: '0 0 24 24',
@@ -3911,7 +3911,7 @@ export const Lighting24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Living24 = {
   viewBox: '0 0 24 24',
@@ -3924,7 +3924,7 @@ export const Living24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const MakeIt24 = {
   viewBox: '0 0 24 24',
@@ -3937,7 +3937,7 @@ export const MakeIt24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Paint24 = {
   viewBox: '0 0 24 24',
@@ -3950,7 +3950,7 @@ export const Paint24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Security24 = {
   viewBox: '0 0 24 24',
@@ -3964,7 +3964,7 @@ export const Security24 = {
     { tagName: 'circle', attrs: { cx: 12, cy: 14.5, r: 2 } },
     { tagName: 'path', attrs: { d: 'M11 15.5h2v3h-2z' } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Terrace24 = {
   viewBox: '0 0 24 24',
@@ -3977,7 +3977,7 @@ export const Terrace24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Tool24 = {
   viewBox: '0 0 24 24',
@@ -3994,7 +3994,7 @@ export const Tool24 = {
       attrs: { d: 'M11.5 7.5h-2a.5.5 0 000 1h2a.5.5 0 000-1z' },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const WoodSaw24 = {
   viewBox: '0 0 24 24',
@@ -4008,7 +4008,7 @@ export const WoodSaw24 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const AccountCustomerCollaborator24 = {
   viewBox: '0 0 24 24',
@@ -4027,7 +4027,7 @@ export const AccountCustomerCollaborator24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPassion24 = {
   viewBox: '0 0 24 24',
@@ -4040,7 +4040,7 @@ export const AccountCustomerPassion24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPro24 = {
   viewBox: '0 0 24 24',
@@ -4053,7 +4053,7 @@ export const AccountCustomerPro24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileMan24 = {
   viewBox: '0 0 24 24',
@@ -4067,7 +4067,7 @@ export const AccountProfileMan24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileView24 = {
   viewBox: '0 0 24 24',
@@ -4080,7 +4080,7 @@ export const AccountProfileView24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileWoman24 = {
   viewBox: '0 0 24 24',
@@ -4094,7 +4094,7 @@ export const AccountProfileWoman24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardFunding24 = {
   viewBox: '0 0 24 24',
@@ -4113,7 +4113,7 @@ export const CardFunding24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardGift24 = {
   viewBox: '0 0 24 24',
@@ -4126,7 +4126,7 @@ export const CardGift24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardIDCard24 = {
   viewBox: '0 0 24 24',
@@ -4145,7 +4145,7 @@ export const CardIDCard24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardLoyaltyCard24 = {
   viewBox: '0 0 24 24',
@@ -4170,7 +4170,7 @@ export const CardLoyaltyCard24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactMail24 = {
   viewBox: '0 0 24 24',
@@ -4184,7 +4184,7 @@ export const ContactMail24 = {
     },
     { tagName: 'path', attrs: { d: 'M9 8.5h6a.5.5 0 000-1H9a.5.5 0 000 1z' } },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactPhone24 = {
   viewBox: '0 0 24 24',
@@ -4197,7 +4197,7 @@ export const ContactPhone24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactWebsite24 = {
   viewBox: '0 0 24 24',
@@ -4210,7 +4210,7 @@ export const ContactWebsite24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationOwner24 = {
   viewBox: '0 0 24 24',
@@ -4223,7 +4223,7 @@ export const SituationOwner24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationTenant24 = {
   viewBox: '0 0 24 24',
@@ -4242,7 +4242,7 @@ export const SituationTenant24 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const Administration24 = {
   viewBox: '0 0 24 24',
@@ -4256,7 +4256,7 @@ export const Administration24 = {
     },
     { tagName: 'circle', attrs: { cx: 12, cy: 7.5, r: 1.5 } },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Apartment24 = {
   viewBox: '0 0 24 24',
@@ -4275,7 +4275,7 @@ export const Apartment24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Balcony24 = {
   viewBox: '0 0 24 24',
@@ -4288,7 +4288,7 @@ export const Balcony24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Blower24 = {
   viewBox: '0 0 24 24',
@@ -4307,7 +4307,7 @@ export const Blower24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Door24 = {
   viewBox: '0 0 24 24',
@@ -4326,7 +4326,7 @@ export const Door24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const EcoSaving24 = {
   viewBox: '0 0 24 24',
@@ -4345,7 +4345,7 @@ export const EcoSaving24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Heat24 = {
   viewBox: '0 0 24 24',
@@ -4358,7 +4358,7 @@ export const Heat24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const House24 = {
   viewBox: '0 0 24 24',
@@ -4371,7 +4371,7 @@ export const House24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const IncreaseValue24 = {
   viewBox: '0 0 24 24',
@@ -4388,7 +4388,7 @@ export const IncreaseValue24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Insulation24 = {
   viewBox: '0 0 24 24',
@@ -4407,7 +4407,7 @@ export const Insulation24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const LessonDIY24 = {
   viewBox: '0 0 24 24',
@@ -4426,7 +4426,7 @@ export const LessonDIY24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Level24 = {
   viewBox: '0 0 24 24',
@@ -4439,7 +4439,7 @@ export const Level24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PaintCan24 = {
   viewBox: '0 0 24 24',
@@ -4452,7 +4452,7 @@ export const PaintCan24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerCompany24 = {
   viewBox: '0 0 24 24',
@@ -4465,7 +4465,7 @@ export const PartnerCompany24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerWorker24 = {
   viewBox: '0 0 24 24',
@@ -4478,7 +4478,7 @@ export const PartnerWorker24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Pipe24 = {
   viewBox: '0 0 24 24',
@@ -4491,7 +4491,7 @@ export const Pipe24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Premium24 = {
   viewBox: '0 0 24 24',
@@ -4504,7 +4504,7 @@ export const Premium24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Shutter24 = {
   viewBox: '0 0 24 24',
@@ -4517,7 +4517,7 @@ export const Shutter24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Survey24 = {
   viewBox: '0 0 24 24',
@@ -4536,7 +4536,7 @@ export const Survey24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Temperature24 = {
   viewBox: '0 0 24 24',
@@ -4555,7 +4555,7 @@ export const Temperature24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ThermalControl24 = {
   viewBox: '0 0 24 24',
@@ -4578,7 +4578,7 @@ export const ThermalControl24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ToolBox24 = {
   viewBox: '0 0 24 24',
@@ -4591,7 +4591,7 @@ export const ToolBox24 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Desktop32 = {
   viewBox: '0 0 32 32',
@@ -4604,7 +4604,7 @@ export const Desktop32 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Laptop32 = {
   viewBox: '0 0 32 32',
@@ -4617,7 +4617,7 @@ export const Laptop32 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Mobile32 = {
   viewBox: '0 0 32 32',
@@ -4634,7 +4634,7 @@ export const Mobile32 = {
       attrs: { d: 'M16.5 23h-1a.5.5 0 000 1h1a.5.5 0 000-1z' },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Tablet32 = {
   viewBox: '0 0 32 32',
@@ -4653,7 +4653,7 @@ export const Tablet32 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const HygieneCleaned32 = {
   viewBox: '0 0 32 32',
@@ -4666,7 +4666,7 @@ export const HygieneCleaned32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDanger32 = {
   viewBox: '0 0 32 32',
@@ -4685,7 +4685,7 @@ export const HygieneDanger32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDistance32 = {
   viewBox: '0 0 32 32',
@@ -4698,7 +4698,7 @@ export const HygieneDistance32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneGel32 = {
   viewBox: '0 0 32 32',
@@ -4711,7 +4711,7 @@ export const HygieneGel32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneMask32 = {
   viewBox: '0 0 32 32',
@@ -4736,7 +4736,7 @@ export const HygieneMask32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneNoContact32 = {
   viewBox: '0 0 32 32',
@@ -4749,7 +4749,7 @@ export const HygieneNoContact32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygienePlexiglas32 = {
   viewBox: '0 0 32 32',
@@ -4768,7 +4768,7 @@ export const HygienePlexiglas32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentCheckout32 = {
   viewBox: '0 0 32 32',
@@ -4785,7 +4785,7 @@ export const PaymentCheckout32 = {
       attrs: { d: 'M10 14h12v3H10zM14 26h4a1 1 0 000-2h-4a1 1 0 000 2z' },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentNoContact32 = {
   viewBox: '0 0 32 32',
@@ -4817,7 +4817,7 @@ export const PaymentNoContact32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarOpenBoot32 = {
   viewBox: '0 0 32 32',
@@ -4830,7 +4830,7 @@ export const ServicePurchaseHelpCarOpenBoot32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStandInLine32 = {
   viewBox: '0 0 32 32',
@@ -4843,7 +4843,7 @@ export const ServicePurchaseHelpCarStandInLine32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStayInside32 = {
   viewBox: '0 0 32 32',
@@ -4862,7 +4862,7 @@ export const ServicePurchaseHelpCarStayInside32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpLoading32 = {
   viewBox: '0 0 32 32',
@@ -4887,7 +4887,7 @@ export const ServicePurchaseHelpLoading32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpNoCarRent32 = {
   viewBox: '0 0 32 32',
@@ -4900,7 +4900,7 @@ export const ServicePurchaseHelpNoCarRent32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpRequest32 = {
   viewBox: '0 0 32 32',
@@ -4919,7 +4919,7 @@ export const ServicePurchaseHelpRequest32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpTruck32 = {
   viewBox: '0 0 32 32',
@@ -4932,7 +4932,7 @@ export const ServicePurchaseHelpTruck32 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const UniverseEssentialProduct32 = {
   viewBox: '0 0 32 32',
@@ -4949,7 +4949,7 @@ export const UniverseEssentialProduct32 = {
       attrs: { d: 'M24.5 21h-2v1.5H21v2h1.5V26h2v-1.5H26v-2h-1.5V21z' },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const BookStore32 = {
   viewBox: '0 0 32 32',
@@ -4968,7 +4968,7 @@ export const BookStore32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Camera32 = {
   viewBox: '0 0 32 32',
@@ -4988,7 +4988,7 @@ export const Camera32 = {
     },
     { tagName: 'path', attrs: { d: 'M8 13a1 1 0 110-2 1 1 0 010 2z' } },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadApp32 = {
   viewBox: '0 0 32 32',
@@ -5007,7 +5007,7 @@ export const DownloadApp32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadWeb32 = {
   viewBox: '0 0 32 32',
@@ -5026,7 +5026,7 @@ export const DownloadWeb32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const FullScreen32 = {
   viewBox: '0 0 32 32',
@@ -5045,7 +5045,7 @@ export const FullScreen32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const NoPicture32 = {
   viewBox: '0 0 32 32',
@@ -5065,7 +5065,7 @@ export const NoPicture32 = {
     },
     { tagName: 'circle', attrs: { cx: 11.5, cy: 13, r: 0.5 } },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Pdf32 = {
   viewBox: '0 0 32 32',
@@ -5084,7 +5084,7 @@ export const Pdf32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Play32 = {
   viewBox: '0 0 32 32',
@@ -5097,7 +5097,7 @@ export const Play32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Player32 = {
   viewBox: '0 0 32 32',
@@ -5116,7 +5116,7 @@ export const Player32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Print32 = {
   viewBox: '0 0 32 32',
@@ -5135,7 +5135,7 @@ export const Print32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Project32 = {
   viewBox: '0 0 32 32',
@@ -5154,7 +5154,7 @@ export const Project32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Read32 = {
   viewBox: '0 0 32 32',
@@ -5173,7 +5173,7 @@ export const Read32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ReduceScreen32 = {
   viewBox: '0 0 32 32',
@@ -5186,7 +5186,7 @@ export const ReduceScreen32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Slideshow32 = {
   viewBox: '0 0 32 32',
@@ -5205,7 +5205,7 @@ export const Slideshow32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Sound32 = {
   viewBox: '0 0 32 32',
@@ -5224,7 +5224,7 @@ export const Sound32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Stop32 = {
   viewBox: '0 0 32 32',
@@ -5237,7 +5237,7 @@ export const Stop32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const TimeRead32 = {
   viewBox: '0 0 32 32',
@@ -5256,7 +5256,7 @@ export const TimeRead32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Upload32 = {
   viewBox: '0 0 32 32',
@@ -5275,7 +5275,7 @@ export const Upload32 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const View36032 = {
   viewBox: '0 0 32 32',
@@ -5288,7 +5288,7 @@ export const View36032 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ArrowArrowBottom32 = {
   viewBox: '0 0 32 32',
@@ -5301,7 +5301,7 @@ export const ArrowArrowBottom32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowLeft32 = {
   viewBox: '0 0 32 32',
@@ -5314,7 +5314,7 @@ export const ArrowArrowLeft32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowRight32 = {
   viewBox: '0 0 32 32',
@@ -5327,7 +5327,7 @@ export const ArrowArrowRight32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTop32 = {
   viewBox: '0 0 32 32',
@@ -5340,7 +5340,7 @@ export const ArrowArrowTop32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomLeft32 = {
   viewBox: '0 0 32 32',
@@ -5354,7 +5354,7 @@ export const ArrowArrowBottomLeft32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomRight32 = {
   viewBox: '0 0 32 32',
@@ -5368,7 +5368,7 @@ export const ArrowArrowBottomRight32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopLeft32 = {
   viewBox: '0 0 32 32',
@@ -5382,7 +5382,7 @@ export const ArrowArrowTopLeft32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopRight32 = {
   viewBox: '0 0 32 32',
@@ -5396,7 +5396,7 @@ export const ArrowArrowTopRight32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowBack32 = {
   viewBox: '0 0 32 32',
@@ -5409,7 +5409,7 @@ export const ArrowBack32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowLeft32 = {
   viewBox: '0 0 32 32',
@@ -5422,7 +5422,7 @@ export const ArrowDoubleArrowLeft32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowRight32 = {
   viewBox: '0 0 32 32',
@@ -5435,7 +5435,7 @@ export const ArrowDoubleArrowRight32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDown32 = {
   viewBox: '0 0 32 32',
@@ -5448,7 +5448,7 @@ export const ArrowDown32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowNext32 = {
   viewBox: '0 0 32 32',
@@ -5461,7 +5461,7 @@ export const ArrowNext32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowUp32 = {
   viewBox: '0 0 32 32',
@@ -5474,7 +5474,7 @@ export const ArrowUp32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleCross32 = {
   viewBox: '0 0 32 32',
@@ -5493,7 +5493,7 @@ export const ControlCircleCross32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleLess32 = {
   viewBox: '0 0 32 32',
@@ -5507,7 +5507,7 @@ export const ControlCircleLess32 = {
     },
     { tagName: 'path', attrs: { d: 'M20 17h-8a1 1 0 010-2h8a1 1 0 010 2z' } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleMore32 = {
   viewBox: '0 0 32 32',
@@ -5526,7 +5526,7 @@ export const ControlCircleMore32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCross32 = {
   viewBox: '0 0 32 32',
@@ -5539,7 +5539,7 @@ export const ControlCross32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlLess32 = {
   viewBox: '0 0 32 32',
@@ -5547,7 +5547,7 @@ export const ControlLess32 = {
   paths: [
     { tagName: 'path', attrs: { d: 'M24 17H8a1 1 0 010-2h16a1 1 0 010 2z' } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlMore32 = {
   viewBox: '0 0 32 32',
@@ -5560,7 +5560,7 @@ export const ControlMore32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlTagCross32 = {
   viewBox: '0 0 32 32',
@@ -5573,7 +5573,7 @@ export const ControlTagCross32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayBlink32 = {
   viewBox: '0 0 32 32',
@@ -5587,7 +5587,7 @@ export const DisplayBlink32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayCalendar32 = {
   viewBox: '0 0 32 32',
@@ -5600,7 +5600,7 @@ export const DisplayCalendar32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayConnect32 = {
   viewBox: '0 0 32 32',
@@ -5619,7 +5619,7 @@ export const DisplayConnect32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullFilled32 = {
   viewBox: '0 0 32 32',
@@ -5627,7 +5627,7 @@ export const DisplayDisplayFullFilled32 = {
   paths: [
     { tagName: 'rect', attrs: { x: 3, y: 3, width: 26, height: 26, rx: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullOutline32 = {
   viewBox: '0 0 32 32',
@@ -5640,7 +5640,7 @@ export const DisplayDisplayFullOutline32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListFilled32 = {
   viewBox: '0 0 32 32',
@@ -5650,7 +5650,7 @@ export const DisplayDisplayListFilled32 = {
     { tagName: 'rect', attrs: { x: 3, y: 3, width: 26, height: 6, rx: 2 } },
     { tagName: 'rect', attrs: { x: 3, y: 23, width: 26, height: 6, rx: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListOutline32 = {
   viewBox: '0 0 32 32',
@@ -5663,7 +5663,7 @@ export const DisplayDisplayListOutline32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileHorizontal32 = {
   viewBox: '0 0 32 32',
@@ -5676,7 +5676,7 @@ export const DisplayDisplayMobileHorizontal32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileVertical32 = {
   viewBox: '0 0 32 32',
@@ -5689,7 +5689,7 @@ export const DisplayDisplayMobileVertical32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Filled32 = {
   viewBox: '0 0 32 32',
@@ -5716,7 +5716,7 @@ export const DisplayDisplayProductX4Filled32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Outline32 = {
   viewBox: '0 0 32 32',
@@ -5729,7 +5729,7 @@ export const DisplayDisplayProductX4Outline32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX932 = {
   viewBox: '0 0 32 32',
@@ -5742,7 +5742,7 @@ export const DisplayDisplayProductX932 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayExternalLink32 = {
   viewBox: '0 0 32 32',
@@ -5756,7 +5756,7 @@ export const DisplayExternalLink32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayFilter32 = {
   viewBox: '0 0 32 32',
@@ -5769,7 +5769,7 @@ export const DisplayFilter32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayHome32 = {
   viewBox: '0 0 32 32',
@@ -5788,7 +5788,7 @@ export const DisplayHome32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayLogOut32 = {
   viewBox: '0 0 32 32',
@@ -5802,7 +5802,7 @@ export const DisplayLogOut32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMenu32 = {
   viewBox: '0 0 32 32',
@@ -5815,7 +5815,7 @@ export const DisplayMenu32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMovingBlock32 = {
   viewBox: '0 0 32 32',
@@ -5840,7 +5840,7 @@ export const DisplayMovingBlock32 = {
       attrs: { d: 'M16 13.5a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOptions32 = {
   viewBox: '0 0 32 32',
@@ -5854,7 +5854,7 @@ export const DisplayOptions32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOther32 = {
   viewBox: '0 0 32 32',
@@ -5868,7 +5868,7 @@ export const DisplayOther32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayProductNumb32 = {
   viewBox: '0 0 32 32',
@@ -5884,7 +5884,7 @@ export const DisplayProductNumb32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayRefresh32 = {
   viewBox: '0 0 32 32',
@@ -5897,7 +5897,7 @@ export const DisplayRefresh32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayScreenRotation32 = {
   viewBox: '0 0 32 32',
@@ -5916,7 +5916,7 @@ export const DisplayScreenRotation32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearch32 = {
   viewBox: '0 0 32 32',
@@ -5929,7 +5929,7 @@ export const DisplaySearch32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchList32 = {
   viewBox: '0 0 32 32',
@@ -5943,7 +5943,7 @@ export const DisplaySearchList32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchProduct32 = {
   viewBox: '0 0 32 32',
@@ -5962,7 +5962,7 @@ export const DisplaySearchProduct32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySetting32 = {
   viewBox: '0 0 32 32',
@@ -5981,7 +5981,7 @@ export const DisplaySetting32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayView32 = {
   viewBox: '0 0 32 32',
@@ -6000,7 +6000,7 @@ export const DisplayView32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayVocalSearch32 = {
   viewBox: '0 0 32 32',
@@ -6019,7 +6019,7 @@ export const DisplayVocalSearch32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationAvailable32 = {
   viewBox: '0 0 32 32',
@@ -6032,7 +6032,7 @@ export const NotificationAvailable32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationBell32 = {
   viewBox: '0 0 32 32',
@@ -6045,7 +6045,7 @@ export const NotificationBell32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationCircleAvailable32 = {
   viewBox: '0 0 32 32',
@@ -6064,7 +6064,7 @@ export const NotificationCircleAvailable32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationInformation32 = {
   viewBox: '0 0 32 32',
@@ -6084,7 +6084,7 @@ export const NotificationInformation32 = {
     },
     { tagName: 'circle', attrs: { cx: 16, cy: 11.3, r: 1 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationQuestion32 = {
   viewBox: '0 0 32 32',
@@ -6104,7 +6104,7 @@ export const NotificationQuestion32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationWarning32 = {
   viewBox: '0 0 32 32',
@@ -6124,7 +6124,7 @@ export const NotificationWarning32 = {
     },
     { tagName: 'circle', attrs: { cx: 16, cy: 20.7, r: 1 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishCopy32 = {
   viewBox: '0 0 32 32',
@@ -6141,7 +6141,7 @@ export const PublishCopy32 = {
       attrs: { d: 'M22 27H7V8a1 1 0 00-2 0v19a2 2 0 002 2h15a1 1 0 000-2z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishEdit32 = {
   viewBox: '0 0 32 32',
@@ -6155,7 +6155,7 @@ export const PublishEdit32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavorite32 = {
   viewBox: '0 0 32 32',
@@ -6168,7 +6168,7 @@ export const PublishFavorite32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavoriteFull32 = {
   viewBox: '0 0 32 32',
@@ -6181,7 +6181,7 @@ export const PublishFavoriteFull32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishLock32 = {
   viewBox: '0 0 32 32',
@@ -6195,7 +6195,7 @@ export const PublishLock32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishSend32 = {
   viewBox: '0 0 32 32',
@@ -6208,7 +6208,7 @@ export const PublishSend32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishTrashbin32 = {
   viewBox: '0 0 32 32',
@@ -6227,7 +6227,7 @@ export const PublishTrashbin32 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const Bill32 = {
   viewBox: '0 0 32 32',
@@ -6252,7 +6252,7 @@ export const Bill32 = {
     },
     { tagName: 'circle', attrs: { cx: 11.5, cy: 23.5, r: 0.5 } },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeAmericanExpress32 = {
   viewBox: '0 0 32 32',
@@ -6283,7 +6283,7 @@ export const CardsMonochromeAmericanExpress32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCB32 = {
   viewBox: '0 0 32 32',
@@ -6302,7 +6302,7 @@ export const CardsMonochromeCB32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCheque32 = {
   viewBox: '0 0 32 32',
@@ -6321,7 +6321,7 @@ export const CardsMonochromeCheque32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeGift32 = {
   viewBox: '0 0 32 32',
@@ -6340,7 +6340,7 @@ export const CardsMonochromeGift32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeIllicado32 = {
   viewBox: '0 0 32 32',
@@ -6371,7 +6371,7 @@ export const CardsMonochromeIllicado32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeLoyalty32 = {
   viewBox: '0 0 32 32',
@@ -6390,7 +6390,7 @@ export const CardsMonochromeLoyalty32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeMastercard32 = {
   viewBox: '0 0 32 32',
@@ -6415,7 +6415,7 @@ export const CardsMonochromeMastercard32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOney32 = {
   viewBox: '0 0 32 32',
@@ -6434,7 +6434,7 @@ export const CardsMonochromeOney32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX332 = {
   viewBox: '0 0 32 32',
@@ -6448,7 +6448,7 @@ export const CardsMonochromeOneyX332 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX432 = {
   viewBox: '0 0 32 32',
@@ -6462,7 +6462,7 @@ export const CardsMonochromeOneyX432 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaylib32 = {
   viewBox: '0 0 32 32',
@@ -6487,7 +6487,7 @@ export const CardsMonochromePaylib32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaypal32 = {
   viewBox: '0 0 32 32',
@@ -6512,7 +6512,7 @@ export const CardsMonochromePaypal32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeVisa32 = {
   viewBox: '0 0 32 32',
@@ -6537,7 +6537,7 @@ export const CardsMonochromeVisa32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const DetailsOrder32 = {
   viewBox: '0 0 32 32',
@@ -6556,7 +6556,7 @@ export const DetailsOrder32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Euro32 = {
   viewBox: '0 0 32 32',
@@ -6569,7 +6569,7 @@ export const Euro32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Receipt32 = {
   viewBox: '0 0 32 32',
@@ -6588,7 +6588,7 @@ export const Receipt32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment132 = {
   viewBox: '0 0 32 32',
@@ -6613,7 +6613,7 @@ export const SafePayment132 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment232 = {
   viewBox: '0 0 32 32',
@@ -6632,7 +6632,7 @@ export const SafePayment232 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const AspectQuantity32 = {
   viewBox: '0 0 32 32',
@@ -6645,7 +6645,7 @@ export const AspectQuantity32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectSize32 = {
   viewBox: '0 0 32 32',
@@ -6658,7 +6658,7 @@ export const AspectSize32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectWeight32 = {
   viewBox: '0 0 32 32',
@@ -6671,7 +6671,7 @@ export const AspectWeight32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketAdd32 = {
   viewBox: '0 0 32 32',
@@ -6690,7 +6690,7 @@ export const BasketAdd32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketHandbag32 = {
   viewBox: '0 0 32 32',
@@ -6703,7 +6703,7 @@ export const BasketHandbag32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketMulti32 = {
   viewBox: '0 0 32 32',
@@ -6716,7 +6716,7 @@ export const BasketMulti32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketSave32 = {
   viewBox: '0 0 32 32',
@@ -6729,7 +6729,7 @@ export const BasketSave32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketStandard32 = {
   viewBox: '0 0 32 32',
@@ -6742,7 +6742,7 @@ export const BasketStandard32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListAdd32 = {
   viewBox: '0 0 32 32',
@@ -6767,7 +6767,7 @@ export const ListAdd32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListStandard32 = {
   viewBox: '0 0 32 32',
@@ -6786,7 +6786,7 @@ export const ListStandard32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseCertification32 = {
   viewBox: '0 0 32 32',
@@ -6805,7 +6805,7 @@ export const PromiseCertification32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseDestocking32 = {
   viewBox: '0 0 32 32',
@@ -6824,7 +6824,7 @@ export const PromiseDestocking32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseEcoProduct32 = {
   viewBox: '0 0 32 32',
@@ -6837,7 +6837,7 @@ export const PromiseEcoProduct32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFashionChoice32 = {
   viewBox: '0 0 32 32',
@@ -6854,7 +6854,7 @@ export const PromiseFashionChoice32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFunding32 = {
   viewBox: '0 0 32 32',
@@ -6867,7 +6867,7 @@ export const PromiseFunding32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInEurope32 = {
   viewBox: '0 0 32 32',
@@ -6880,7 +6880,7 @@ export const PromiseMadeInEurope32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInFrance32 = {
   viewBox: '0 0 32 32',
@@ -6893,7 +6893,7 @@ export const PromiseMadeInFrance32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseModular32 = {
   viewBox: '0 0 32 32',
@@ -6906,7 +6906,7 @@ export const PromiseModular32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductOnPicture32 = {
   viewBox: '0 0 32 32',
@@ -6925,7 +6925,7 @@ export const PromiseProductOnPicture32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductSheet32 = {
   viewBox: '0 0 32 32',
@@ -6944,7 +6944,7 @@ export const PromiseProductSheet32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseScan32 = {
   viewBox: '0 0 32 32',
@@ -6957,7 +6957,7 @@ export const PromiseScan32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseWarranty32 = {
   viewBox: '0 0 32 32',
@@ -6976,7 +6976,7 @@ export const PromiseWarranty32 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const DescribeProject32 = {
   viewBox: '0 0 32 32',
@@ -6989,7 +6989,7 @@ export const DescribeProject32 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const Inspiration32 = {
   viewBox: '0 0 32 32',
@@ -7008,7 +7008,7 @@ export const Inspiration32 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const MakeProject32 = {
   viewBox: '0 0 32 32',
@@ -7021,7 +7021,7 @@ export const MakeProject32 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const AfterSalesAfterSalesService32 = {
   viewBox: '0 0 32 32',
@@ -7035,7 +7035,7 @@ export const AfterSalesAfterSalesService32 = {
     },
     { tagName: 'circle', attrs: { cx: 6.5, cy: 25.5, r: 1 } },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesHelpline32 = {
   viewBox: '0 0 32 32',
@@ -7048,7 +7048,7 @@ export const AfterSalesHelpline32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesPayback32 = {
   viewBox: '0 0 32 32',
@@ -7061,7 +7061,7 @@ export const AfterSalesPayback32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesSatisfaction32 = {
   viewBox: '0 0 32 32',
@@ -7080,7 +7080,7 @@ export const AfterSalesSatisfaction32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCopyKey32 = {
   viewBox: '0 0 32 32',
@@ -7099,7 +7099,7 @@ export const CustomCopyKey32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCourse32 = {
   viewBox: '0 0 32 32',
@@ -7113,7 +7113,7 @@ export const CustomCourse32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCutWoodGlass32 = {
   viewBox: '0 0 32 32',
@@ -7132,7 +7132,7 @@ export const CustomCutWoodGlass32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSample32 = {
   viewBox: '0 0 32 32',
@@ -7145,7 +7145,7 @@ export const CustomSample32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSharpening32 = {
   viewBox: '0 0 32 32',
@@ -7164,7 +7164,7 @@ export const CustomSharpening32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupRelayPoint32 = {
   viewBox: '0 0 32 32',
@@ -7177,7 +7177,7 @@ export const DeliveryDeliveryPickupRelayPoint32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupStore32 = {
   viewBox: '0 0 32 32',
@@ -7196,7 +7196,7 @@ export const DeliveryDeliveryPickupStore32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryHome32 = {
   viewBox: '0 0 32 32',
@@ -7215,7 +7215,7 @@ export const DeliveryDeliveryHome32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryLocker32 = {
   viewBox: '0 0 32 32',
@@ -7229,7 +7229,7 @@ export const DeliveryDeliveryLocker32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpCarRent32 = {
   viewBox: '0 0 32 32',
@@ -7242,7 +7242,7 @@ export const PurchaseHelpCarRent32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeDIY32 = {
   viewBox: '0 0 32 32',
@@ -7255,7 +7255,7 @@ export const PurchaseHelpHomeDIY32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeInstall32 = {
   viewBox: '0 0 32 32',
@@ -7268,7 +7268,7 @@ export const PurchaseHelpHomeInstall32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpToolRent32 = {
   viewBox: '0 0 32 32',
@@ -7281,7 +7281,7 @@ export const PurchaseHelpToolRent32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery2h32 = {
   viewBox: '0 0 32 32',
@@ -7300,7 +7300,7 @@ export const TimeDelivery2h32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery3h32 = {
   viewBox: '0 0 32 32',
@@ -7319,7 +7319,7 @@ export const TimeDelivery3h32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery48h32 = {
   viewBox: '0 0 32 32',
@@ -7338,7 +7338,7 @@ export const TimeDelivery48h32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeTimeDecline32 = {
   viewBox: '0 0 32 32',
@@ -7357,7 +7357,7 @@ export const TimeTimeDecline32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const Tools3d32 = {
   viewBox: '0 0 32 32',
@@ -7370,7 +7370,7 @@ export const Tools3d32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsCalculator32 = {
   viewBox: '0 0 32 32',
@@ -7389,7 +7389,7 @@ export const ToolsCalculator32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsComparator32 = {
   viewBox: '0 0 32 32',
@@ -7402,7 +7402,7 @@ export const ToolsComparator32 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CommentComment32 = {
   viewBox: '0 0 32 32',
@@ -7415,7 +7415,7 @@ export const CommentComment32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentCommunity32 = {
   viewBox: '0 0 32 32',
@@ -7428,7 +7428,7 @@ export const CommentCommunity32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentQuestionArticle32 = {
   viewBox: '0 0 32 32',
@@ -7447,7 +7447,7 @@ export const CommentQuestionArticle32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentReport32 = {
   viewBox: '0 0 32 32',
@@ -7460,7 +7460,7 @@ export const CommentReport32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareAndroid32 = {
   viewBox: '0 0 32 32',
@@ -7473,7 +7473,7 @@ export const ShareShareAndroid32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareIOS32 = {
   viewBox: '0 0 32 32',
@@ -7492,7 +7492,7 @@ export const ShareShareIOS32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkFacebook32 = {
   viewBox: '0 0 32 32',
@@ -7505,7 +7505,7 @@ export const SocialNetworkFacebook32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkInstagram32 = {
   viewBox: '0 0 32 32',
@@ -7530,7 +7530,7 @@ export const SocialNetworkInstagram32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkLinkedin32 = {
   viewBox: '0 0 32 32',
@@ -7543,7 +7543,7 @@ export const SocialNetworkLinkedin32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkPinterest32 = {
   viewBox: '0 0 32 32',
@@ -7556,7 +7556,7 @@ export const SocialNetworkPinterest32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkTwitter32 = {
   viewBox: '0 0 32 32',
@@ -7569,7 +7569,7 @@ export const SocialNetworkTwitter32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkYoutube32 = {
   viewBox: '0 0 32 32',
@@ -7583,7 +7583,7 @@ export const SocialNetworkYoutube32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikeNegative32 = {
   viewBox: '0 0 32 32',
@@ -7596,7 +7596,7 @@ export const ViewLikeNegative32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikePositive32 = {
   viewBox: '0 0 32 32',
@@ -7609,7 +7609,7 @@ export const ViewLikePositive32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarEmpty32 = {
   viewBox: '0 0 32 32',
@@ -7623,7 +7623,7 @@ export const ViewStarEmpty32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarFull32 = {
   viewBox: '0 0 32 32',
@@ -7637,7 +7637,7 @@ export const ViewStarFull32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarHalf32 = {
   viewBox: '0 0 32 32',
@@ -7651,7 +7651,7 @@ export const ViewStarHalf32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewTesterView32 = {
   viewBox: '0 0 32 32',
@@ -7670,7 +7670,7 @@ export const ViewTesterView32 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const Itinerary32 = {
   viewBox: '0 0 32 32',
@@ -7683,7 +7683,7 @@ export const Itinerary32 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Locator32 = {
   viewBox: '0 0 32 32',
@@ -7696,7 +7696,7 @@ export const Locator32 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Logo32 = {
   viewBox: '0 0 32 32',
@@ -7709,7 +7709,7 @@ export const Logo32 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Map32 = {
   viewBox: '0 0 32 32',
@@ -7722,7 +7722,7 @@ export const Map32 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeRelayLocation32 = {
   viewBox: '0 0 32 32',
@@ -7741,7 +7741,7 @@ export const MonochromeRelayLocation32 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeStoreLocation32 = {
   viewBox: '0 0 32 32',
@@ -7760,7 +7760,7 @@ export const MonochromeStoreLocation32 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const StoreLM32 = {
   viewBox: '0 0 32 32',
@@ -7779,7 +7779,7 @@ export const StoreLM32 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Attic32 = {
   viewBox: '0 0 32 32',
@@ -7800,7 +7800,7 @@ export const Attic32 = {
     { tagName: 'circle', attrs: { cx: 20.67, cy: 23.58, r: 0.44 } },
     { tagName: 'circle', attrs: { cx: 19.34, cy: 25.8, r: 0.44 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bathroom32 = {
   viewBox: '0 0 32 32',
@@ -7813,7 +7813,7 @@ export const Bathroom32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bedroom32 = {
   viewBox: '0 0 32 32',
@@ -7826,7 +7826,7 @@ export const Bedroom32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Carpentry32 = {
   viewBox: '0 0 32 32',
@@ -7839,7 +7839,7 @@ export const Carpentry32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ChristmasTree32 = {
   viewBox: '0 0 32 32',
@@ -7853,7 +7853,7 @@ export const ChristmasTree32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ConnectedHome32 = {
   viewBox: '0 0 32 32',
@@ -7885,7 +7885,7 @@ export const ConnectedHome32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Curtains32 = {
   viewBox: '0 0 32 32',
@@ -7899,7 +7899,7 @@ export const Curtains32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Dressing32 = {
   viewBox: '0 0 32 32',
@@ -7916,7 +7916,7 @@ export const Dressing32 = {
       attrs: { d: 'M12.5 20.5h-3a.5.5 0 000 1h3a.5.5 0 000-1z' },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Electricity32 = {
   viewBox: '0 0 32 32',
@@ -7937,7 +7937,7 @@ export const Electricity32 = {
     { tagName: 'circle', attrs: { cx: 13, cy: 16, r: 1 } },
     { tagName: 'circle', attrs: { cx: 19, cy: 16, r: 1 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Enki32 = {
   viewBox: '0 0 32 32',
@@ -7950,7 +7950,7 @@ export const Enki32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Floor32 = {
   viewBox: '0 0 32 32',
@@ -7969,7 +7969,7 @@ export const Floor32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garage32 = {
   viewBox: '0 0 32 32',
@@ -7988,7 +7988,7 @@ export const Garage32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden132 = {
   viewBox: '0 0 32 32',
@@ -8007,7 +8007,7 @@ export const Garden132 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden232 = {
   viewBox: '0 0 32 32',
@@ -8020,7 +8020,7 @@ export const Garden232 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const HardwareStore32 = {
   viewBox: '0 0 32 32',
@@ -8033,7 +8033,7 @@ export const HardwareStore32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Heater32 = {
   viewBox: '0 0 32 32',
@@ -8046,7 +8046,7 @@ export const Heater32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kids32 = {
   viewBox: '0 0 32 32',
@@ -8065,7 +8065,7 @@ export const Kids32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen32 = {
   viewBox: '0 0 32 32',
@@ -8084,7 +8084,7 @@ export const Kitchen32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen232 = {
   viewBox: '0 0 32 32',
@@ -8113,7 +8113,7 @@ export const Kitchen232 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Lighting32 = {
   viewBox: '0 0 32 32',
@@ -8126,7 +8126,7 @@ export const Lighting32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Living32 = {
   viewBox: '0 0 32 32',
@@ -8139,7 +8139,7 @@ export const Living32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const MakeIt32 = {
   viewBox: '0 0 32 32',
@@ -8152,7 +8152,7 @@ export const MakeIt32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Paint32 = {
   viewBox: '0 0 32 32',
@@ -8165,7 +8165,7 @@ export const Paint32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Security32 = {
   viewBox: '0 0 32 32',
@@ -8184,7 +8184,7 @@ export const Security32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Terrace32 = {
   viewBox: '0 0 32 32',
@@ -8197,7 +8197,7 @@ export const Terrace32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Tool32 = {
   viewBox: '0 0 32 32',
@@ -8216,7 +8216,7 @@ export const Tool32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const WoodSaw32 = {
   viewBox: '0 0 32 32',
@@ -8230,7 +8230,7 @@ export const WoodSaw32 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const AccountCustomerCollaborator32 = {
   viewBox: '0 0 32 32',
@@ -8249,7 +8249,7 @@ export const AccountCustomerCollaborator32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPassion32 = {
   viewBox: '0 0 32 32',
@@ -8262,7 +8262,7 @@ export const AccountCustomerPassion32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPro32 = {
   viewBox: '0 0 32 32',
@@ -8275,7 +8275,7 @@ export const AccountCustomerPro32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileMan32 = {
   viewBox: '0 0 32 32',
@@ -8294,7 +8294,7 @@ export const AccountProfileMan32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileView32 = {
   viewBox: '0 0 32 32',
@@ -8307,7 +8307,7 @@ export const AccountProfileView32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileWoman32 = {
   viewBox: '0 0 32 32',
@@ -8320,7 +8320,7 @@ export const AccountProfileWoman32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardFunding32 = {
   viewBox: '0 0 32 32',
@@ -8339,7 +8339,7 @@ export const CardFunding32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardGift32 = {
   viewBox: '0 0 32 32',
@@ -8352,7 +8352,7 @@ export const CardGift32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardIDCard32 = {
   viewBox: '0 0 32 32',
@@ -8371,7 +8371,7 @@ export const CardIDCard32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardLoyaltyCard32 = {
   viewBox: '0 0 32 32',
@@ -8396,7 +8396,7 @@ export const CardLoyaltyCard32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactMail32 = {
   viewBox: '0 0 32 32',
@@ -8413,7 +8413,7 @@ export const ContactMail32 = {
       attrs: { d: 'M11.5 10.5h9a.5.5 0 000-1h-9a.5.5 0 000 1z' },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactPhone32 = {
   viewBox: '0 0 32 32',
@@ -8426,7 +8426,7 @@ export const ContactPhone32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactWebsite32 = {
   viewBox: '0 0 32 32',
@@ -8439,7 +8439,7 @@ export const ContactWebsite32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationOwner32 = {
   viewBox: '0 0 32 32',
@@ -8453,7 +8453,7 @@ export const SituationOwner32 = {
     },
     { tagName: 'path', attrs: { d: 'M26 12h-4a1 1 0 000 2h4a1 1 0 000-2z' } },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationTenant32 = {
   viewBox: '0 0 32 32',
@@ -8478,7 +8478,7 @@ export const SituationTenant32 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const Administration32 = {
   viewBox: '0 0 32 32',
@@ -8497,7 +8497,7 @@ export const Administration32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Apartment32 = {
   viewBox: '0 0 32 32',
@@ -8516,7 +8516,7 @@ export const Apartment32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Balcony32 = {
   viewBox: '0 0 32 32',
@@ -8533,7 +8533,7 @@ export const Balcony32 = {
       attrs: { d: 'M18.54 14.5a.5.5 0 000 1h2a.5.5 0 000-1z' },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Blower32 = {
   viewBox: '0 0 32 32',
@@ -8558,7 +8558,7 @@ export const Blower32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Door32 = {
   viewBox: '0 0 32 32',
@@ -8577,7 +8577,7 @@ export const Door32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const EcoSaving32 = {
   viewBox: '0 0 32 32',
@@ -8596,7 +8596,7 @@ export const EcoSaving32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Heat32 = {
   viewBox: '0 0 32 32',
@@ -8609,7 +8609,7 @@ export const Heat32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const House32 = {
   viewBox: '0 0 32 32',
@@ -8628,7 +8628,7 @@ export const House32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const IncreaseValue32 = {
   viewBox: '0 0 32 32',
@@ -8645,7 +8645,7 @@ export const IncreaseValue32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Insulation32 = {
   viewBox: '0 0 32 32',
@@ -8658,7 +8658,7 @@ export const Insulation32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const LessonDIY32 = {
   viewBox: '0 0 32 32',
@@ -8677,7 +8677,7 @@ export const LessonDIY32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Level32 = {
   viewBox: '0 0 32 32',
@@ -8690,7 +8690,7 @@ export const Level32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PaintCan32 = {
   viewBox: '0 0 32 32',
@@ -8703,7 +8703,7 @@ export const PaintCan32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerCompany32 = {
   viewBox: '0 0 32 32',
@@ -8716,7 +8716,7 @@ export const PartnerCompany32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerWorker32 = {
   viewBox: '0 0 32 32',
@@ -8729,7 +8729,7 @@ export const PartnerWorker32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Pipe32 = {
   viewBox: '0 0 32 32',
@@ -8742,7 +8742,7 @@ export const Pipe32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Premium32 = {
   viewBox: '0 0 32 32',
@@ -8755,7 +8755,7 @@ export const Premium32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Shutter32 = {
   viewBox: '0 0 32 32',
@@ -8768,7 +8768,7 @@ export const Shutter32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Survey32 = {
   viewBox: '0 0 32 32',
@@ -8797,7 +8797,7 @@ export const Survey32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Temperature32 = {
   viewBox: '0 0 32 32',
@@ -8814,7 +8814,7 @@ export const Temperature32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ThermalControl32 = {
   viewBox: '0 0 32 32',
@@ -8839,7 +8839,7 @@ export const ThermalControl32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ToolBox32 = {
   viewBox: '0 0 32 32',
@@ -8852,7 +8852,7 @@ export const ToolBox32 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Desktop48 = {
   viewBox: '0 0 48 48',
@@ -8865,7 +8865,7 @@ export const Desktop48 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Laptop48 = {
   viewBox: '0 0 48 48',
@@ -8878,7 +8878,7 @@ export const Laptop48 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Mobile48 = {
   viewBox: '0 0 48 48',
@@ -8892,7 +8892,7 @@ export const Mobile48 = {
     },
     { tagName: 'path', attrs: { d: 'M25 35h-2a1 1 0 000 2h2a1 1 0 000-2z' } },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Tablet48 = {
   viewBox: '0 0 48 48',
@@ -8906,7 +8906,7 @@ export const Tablet48 = {
     },
     { tagName: 'circle', attrs: { cx: 24, cy: 36, r: 1 } },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const HygieneCleaned48 = {
   viewBox: '0 0 48 48',
@@ -8919,7 +8919,7 @@ export const HygieneCleaned48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDanger48 = {
   viewBox: '0 0 48 48',
@@ -8938,7 +8938,7 @@ export const HygieneDanger48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDistance48 = {
   viewBox: '0 0 48 48',
@@ -8951,7 +8951,7 @@ export const HygieneDistance48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneGel48 = {
   viewBox: '0 0 48 48',
@@ -8970,7 +8970,7 @@ export const HygieneGel48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneMask48 = {
   viewBox: '0 0 48 48',
@@ -9001,7 +9001,7 @@ export const HygieneMask48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneNoContact48 = {
   viewBox: '0 0 48 48',
@@ -9014,7 +9014,7 @@ export const HygieneNoContact48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygienePlexiglas48 = {
   viewBox: '0 0 48 48',
@@ -9033,7 +9033,7 @@ export const HygienePlexiglas48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentCheckout48 = {
   viewBox: '0 0 48 48',
@@ -9050,7 +9050,7 @@ export const PaymentCheckout48 = {
       attrs: { d: 'M15.5 22h17v4h-17zM21.5 39h5a1 1 0 000-2h-5a1 1 0 000 2z' },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentNoContact48 = {
   viewBox: '0 0 48 48',
@@ -9082,7 +9082,7 @@ export const PaymentNoContact48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarOpenBoot48 = {
   viewBox: '0 0 48 48',
@@ -9095,7 +9095,7 @@ export const ServicePurchaseHelpCarOpenBoot48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStandInLine48 = {
   viewBox: '0 0 48 48',
@@ -9108,7 +9108,7 @@ export const ServicePurchaseHelpCarStandInLine48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStayInside48 = {
   viewBox: '0 0 48 48',
@@ -9127,7 +9127,7 @@ export const ServicePurchaseHelpCarStayInside48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpLoading48 = {
   viewBox: '0 0 48 48',
@@ -9152,7 +9152,7 @@ export const ServicePurchaseHelpLoading48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpNoCarRent48 = {
   viewBox: '0 0 48 48',
@@ -9165,7 +9165,7 @@ export const ServicePurchaseHelpNoCarRent48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpRequest48 = {
   viewBox: '0 0 48 48',
@@ -9184,7 +9184,7 @@ export const ServicePurchaseHelpRequest48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpTruck48 = {
   viewBox: '0 0 48 48',
@@ -9197,7 +9197,7 @@ export const ServicePurchaseHelpTruck48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const UniverseEssentialProduct48 = {
   viewBox: '0 0 48 48',
@@ -9214,7 +9214,7 @@ export const UniverseEssentialProduct48 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const BookStore48 = {
   viewBox: '0 0 48 48',
@@ -9233,7 +9233,7 @@ export const BookStore48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Camera48 = {
   viewBox: '0 0 48 48',
@@ -9253,7 +9253,7 @@ export const Camera48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadApp48 = {
   viewBox: '0 0 48 48',
@@ -9272,7 +9272,7 @@ export const DownloadApp48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadWeb48 = {
   viewBox: '0 0 48 48',
@@ -9291,7 +9291,7 @@ export const DownloadWeb48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const FullScreen48 = {
   viewBox: '0 0 48 48',
@@ -9304,7 +9304,7 @@ export const FullScreen48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const NoPicture48 = {
   viewBox: '0 0 48 48',
@@ -9323,7 +9323,7 @@ export const NoPicture48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Pdf48 = {
   viewBox: '0 0 48 48',
@@ -9342,7 +9342,7 @@ export const Pdf48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Play48 = {
   viewBox: '0 0 48 48',
@@ -9355,7 +9355,7 @@ export const Play48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Player48 = {
   viewBox: '0 0 48 48',
@@ -9374,7 +9374,7 @@ export const Player48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Print48 = {
   viewBox: '0 0 48 48',
@@ -9397,7 +9397,7 @@ export const Print48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Project48 = {
   viewBox: '0 0 48 48',
@@ -9416,7 +9416,7 @@ export const Project48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Read48 = {
   viewBox: '0 0 48 48',
@@ -9435,7 +9435,7 @@ export const Read48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ReduceScreen48 = {
   viewBox: '0 0 48 48',
@@ -9448,7 +9448,7 @@ export const ReduceScreen48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Slideshow48 = {
   viewBox: '0 0 48 48',
@@ -9467,7 +9467,7 @@ export const Slideshow48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Sound48 = {
   viewBox: '0 0 48 48',
@@ -9486,7 +9486,7 @@ export const Sound48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Stop48 = {
   viewBox: '0 0 48 48',
@@ -9499,7 +9499,7 @@ export const Stop48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const TimeRead48 = {
   viewBox: '0 0 48 48',
@@ -9518,7 +9518,7 @@ export const TimeRead48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Upload48 = {
   viewBox: '0 0 48 48',
@@ -9537,7 +9537,7 @@ export const Upload48 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const View36048 = {
   viewBox: '0 0 48 48',
@@ -9550,7 +9550,7 @@ export const View36048 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ArrowArrowBottom48 = {
   viewBox: '0 0 48 48',
@@ -9563,7 +9563,7 @@ export const ArrowArrowBottom48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowLeft48 = {
   viewBox: '0 0 48 48',
@@ -9576,7 +9576,7 @@ export const ArrowArrowLeft48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowRight48 = {
   viewBox: '0 0 48 48',
@@ -9589,7 +9589,7 @@ export const ArrowArrowRight48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTop48 = {
   viewBox: '0 0 48 48',
@@ -9602,7 +9602,7 @@ export const ArrowArrowTop48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomLeft48 = {
   viewBox: '0 0 48 48',
@@ -9616,7 +9616,7 @@ export const ArrowArrowBottomLeft48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomRight48 = {
   viewBox: '0 0 48 48',
@@ -9630,7 +9630,7 @@ export const ArrowArrowBottomRight48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopLeft48 = {
   viewBox: '0 0 48 48',
@@ -9644,7 +9644,7 @@ export const ArrowArrowTopLeft48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopRight48 = {
   viewBox: '0 0 48 48',
@@ -9658,7 +9658,7 @@ export const ArrowArrowTopRight48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowBack48 = {
   viewBox: '0 0 48 48',
@@ -9671,7 +9671,7 @@ export const ArrowBack48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowLeft48 = {
   viewBox: '0 0 48 48',
@@ -9684,7 +9684,7 @@ export const ArrowDoubleArrowLeft48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowRight48 = {
   viewBox: '0 0 48 48',
@@ -9697,7 +9697,7 @@ export const ArrowDoubleArrowRight48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDown48 = {
   viewBox: '0 0 48 48',
@@ -9710,7 +9710,7 @@ export const ArrowDown48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowNext48 = {
   viewBox: '0 0 48 48',
@@ -9723,7 +9723,7 @@ export const ArrowNext48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowUp48 = {
   viewBox: '0 0 48 48',
@@ -9736,7 +9736,7 @@ export const ArrowUp48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleCross48 = {
   viewBox: '0 0 48 48',
@@ -9755,7 +9755,7 @@ export const ControlCircleCross48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleLess48 = {
   viewBox: '0 0 48 48',
@@ -9772,7 +9772,7 @@ export const ControlCircleLess48 = {
       attrs: { d: 'M32 22.5H16a1.5 1.5 0 000 3h16a1.5 1.5 0 000-3z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleMore48 = {
   viewBox: '0 0 48 48',
@@ -9791,7 +9791,7 @@ export const ControlCircleMore48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCross48 = {
   viewBox: '0 0 48 48',
@@ -9804,7 +9804,7 @@ export const ControlCross48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlLess48 = {
   viewBox: '0 0 48 48',
@@ -9815,7 +9815,7 @@ export const ControlLess48 = {
       attrs: { d: 'M35.49 25.58h-23a1.5 1.5 0 110-3h23a1.5 1.5 0 010 3z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlMore48 = {
   viewBox: '0 0 48 48',
@@ -9828,7 +9828,7 @@ export const ControlMore48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlTagCross48 = {
   viewBox: '0 0 48 48',
@@ -9841,7 +9841,7 @@ export const ControlTagCross48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayBlink48 = {
   viewBox: '0 0 48 48',
@@ -9855,7 +9855,7 @@ export const DisplayBlink48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayCalendar48 = {
   viewBox: '0 0 48 48',
@@ -9868,7 +9868,7 @@ export const DisplayCalendar48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayConnect48 = {
   viewBox: '0 0 48 48',
@@ -9887,7 +9887,7 @@ export const DisplayConnect48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullFilled48 = {
   viewBox: '0 0 48 48',
@@ -9895,7 +9895,7 @@ export const DisplayDisplayFullFilled48 = {
   paths: [
     { tagName: 'rect', attrs: { x: 4, y: 4, width: 40, height: 40, rx: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullOutline48 = {
   viewBox: '0 0 48 48',
@@ -9908,7 +9908,7 @@ export const DisplayDisplayFullOutline48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListFilled48 = {
   viewBox: '0 0 48 48',
@@ -9918,7 +9918,7 @@ export const DisplayDisplayListFilled48 = {
     { tagName: 'rect', attrs: { x: 4, y: 19, width: 40, height: 10, rx: 2 } },
     { tagName: 'rect', attrs: { x: 4, y: 34, width: 40, height: 10, rx: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListOutline48 = {
   viewBox: '0 0 48 48',
@@ -9931,7 +9931,7 @@ export const DisplayDisplayListOutline48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileHorizontal48 = {
   viewBox: '0 0 48 48',
@@ -9944,7 +9944,7 @@ export const DisplayDisplayMobileHorizontal48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileVertical48 = {
   viewBox: '0 0 48 48',
@@ -9957,7 +9957,7 @@ export const DisplayDisplayMobileVertical48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Filled48 = {
   viewBox: '0 0 48 48',
@@ -9984,7 +9984,7 @@ export const DisplayDisplayProductX4Filled48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Outline48 = {
   viewBox: '0 0 48 48',
@@ -10003,7 +10003,7 @@ export const DisplayDisplayProductX4Outline48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX948 = {
   viewBox: '0 0 48 48',
@@ -10016,7 +10016,7 @@ export const DisplayDisplayProductX948 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayExternalLink48 = {
   viewBox: '0 0 48 48',
@@ -10030,7 +10030,7 @@ export const DisplayExternalLink48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayFilter48 = {
   viewBox: '0 0 48 48',
@@ -10043,7 +10043,7 @@ export const DisplayFilter48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayHome48 = {
   viewBox: '0 0 48 48',
@@ -10056,7 +10056,7 @@ export const DisplayHome48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayLogOut48 = {
   viewBox: '0 0 48 48',
@@ -10070,7 +10070,7 @@ export const DisplayLogOut48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMenu48 = {
   viewBox: '0 0 48 48',
@@ -10083,7 +10083,7 @@ export const DisplayMenu48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMovingBlock48 = {
   viewBox: '0 0 48 48',
@@ -10099,7 +10099,7 @@ export const DisplayMovingBlock48 = {
     { tagName: 'circle', attrs: { cx: 24, cy: 40, r: 4 } },
     { tagName: 'circle', attrs: { cx: 40, cy: 40, r: 4 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOptions48 = {
   viewBox: '0 0 48 48',
@@ -10113,7 +10113,7 @@ export const DisplayOptions48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOther48 = {
   viewBox: '0 0 48 48',
@@ -10127,7 +10127,7 @@ export const DisplayOther48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayProductNumb48 = {
   viewBox: '0 0 48 48',
@@ -10143,7 +10143,7 @@ export const DisplayProductNumb48 = {
     { tagName: 'circle', attrs: { cx: 6.5, cy: 24, r: 2.5 } },
     { tagName: 'circle', attrs: { cx: 6.5, cy: 36.5, r: 2.5 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayRefresh48 = {
   viewBox: '0 0 48 48',
@@ -10156,7 +10156,7 @@ export const DisplayRefresh48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayScreenRotation48 = {
   viewBox: '0 0 48 48',
@@ -10170,7 +10170,7 @@ export const DisplayScreenRotation48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearch48 = {
   viewBox: '0 0 48 48',
@@ -10183,7 +10183,7 @@ export const DisplaySearch48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchList48 = {
   viewBox: '0 0 48 48',
@@ -10197,7 +10197,7 @@ export const DisplaySearchList48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchProduct48 = {
   viewBox: '0 0 48 48',
@@ -10216,7 +10216,7 @@ export const DisplaySearchProduct48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySetting48 = {
   viewBox: '0 0 48 48',
@@ -10235,7 +10235,7 @@ export const DisplaySetting48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayView48 = {
   viewBox: '0 0 48 48',
@@ -10254,7 +10254,7 @@ export const DisplayView48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayVocalSearch48 = {
   viewBox: '0 0 48 48',
@@ -10273,7 +10273,7 @@ export const DisplayVocalSearch48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationAvailable48 = {
   viewBox: '0 0 48 48',
@@ -10286,7 +10286,7 @@ export const NotificationAvailable48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationBell48 = {
   viewBox: '0 0 48 48',
@@ -10299,7 +10299,7 @@ export const NotificationBell48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationCircleAvailable48 = {
   viewBox: '0 0 48 48',
@@ -10318,7 +10318,7 @@ export const NotificationCircleAvailable48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationInformation48 = {
   viewBox: '0 0 48 48',
@@ -10338,7 +10338,7 @@ export const NotificationInformation48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationQuestion48 = {
   viewBox: '0 0 48 48',
@@ -10371,7 +10371,7 @@ export const NotificationQuestion48 = {
     },
     { tagName: 'circle', attrs: { cx: 24, cy: 32.48, r: 1.5 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationWarning48 = {
   viewBox: '0 0 48 48',
@@ -10391,7 +10391,7 @@ export const NotificationWarning48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishCopy48 = {
   viewBox: '0 0 48 48',
@@ -10410,7 +10410,7 @@ export const PublishCopy48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishEdit48 = {
   viewBox: '0 0 48 48',
@@ -10424,7 +10424,7 @@ export const PublishEdit48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavorite48 = {
   viewBox: '0 0 48 48',
@@ -10437,7 +10437,7 @@ export const PublishFavorite48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavoriteFull48 = {
   viewBox: '0 0 48 48',
@@ -10450,7 +10450,7 @@ export const PublishFavoriteFull48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishLock48 = {
   viewBox: '0 0 48 48',
@@ -10464,7 +10464,7 @@ export const PublishLock48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishSend48 = {
   viewBox: '0 0 48 48',
@@ -10477,7 +10477,7 @@ export const PublishSend48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishTrashbin48 = {
   viewBox: '0 0 48 48',
@@ -10496,7 +10496,7 @@ export const PublishTrashbin48 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const Bill48 = {
   viewBox: '0 0 48 48',
@@ -10521,7 +10521,7 @@ export const Bill48 = {
     },
     { tagName: 'circle', attrs: { cx: 18, cy: 30, r: 1 } },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeAmericanExpress48 = {
   viewBox: '0 0 48 48',
@@ -10552,7 +10552,7 @@ export const CardsMonochromeAmericanExpress48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCB48 = {
   viewBox: '0 0 48 48',
@@ -10571,7 +10571,7 @@ export const CardsMonochromeCB48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCheque48 = {
   viewBox: '0 0 48 48',
@@ -10590,7 +10590,7 @@ export const CardsMonochromeCheque48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeGift48 = {
   viewBox: '0 0 48 48',
@@ -10609,7 +10609,7 @@ export const CardsMonochromeGift48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeIllicado48 = {
   viewBox: '0 0 48 48',
@@ -10640,7 +10640,7 @@ export const CardsMonochromeIllicado48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeLoyalty48 = {
   viewBox: '0 0 48 48',
@@ -10659,7 +10659,7 @@ export const CardsMonochromeLoyalty48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeMastercard48 = {
   viewBox: '0 0 48 48',
@@ -10678,7 +10678,7 @@ export const CardsMonochromeMastercard48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOney48 = {
   viewBox: '0 0 48 48',
@@ -10697,7 +10697,7 @@ export const CardsMonochromeOney48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX348 = {
   viewBox: '0 0 48 48',
@@ -10711,7 +10711,7 @@ export const CardsMonochromeOneyX348 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX448 = {
   viewBox: '0 0 48 48',
@@ -10725,7 +10725,7 @@ export const CardsMonochromeOneyX448 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaylib48 = {
   viewBox: '0 0 48 48',
@@ -10750,7 +10750,7 @@ export const CardsMonochromePaylib48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaypal48 = {
   viewBox: '0 0 48 48',
@@ -10775,7 +10775,7 @@ export const CardsMonochromePaypal48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeVisa48 = {
   viewBox: '0 0 48 48',
@@ -10800,7 +10800,7 @@ export const CardsMonochromeVisa48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const DetailsOrder48 = {
   viewBox: '0 0 48 48',
@@ -10819,7 +10819,7 @@ export const DetailsOrder48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Euro48 = {
   viewBox: '0 0 48 48',
@@ -10832,7 +10832,7 @@ export const Euro48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Receipt48 = {
   viewBox: '0 0 48 48',
@@ -10851,7 +10851,7 @@ export const Receipt48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment148 = {
   viewBox: '0 0 48 48',
@@ -10876,7 +10876,7 @@ export const SafePayment148 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment248 = {
   viewBox: '0 0 48 48',
@@ -10895,7 +10895,7 @@ export const SafePayment248 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const AspectQuantity48 = {
   viewBox: '0 0 48 48',
@@ -10908,7 +10908,7 @@ export const AspectQuantity48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectSize48 = {
   viewBox: '0 0 48 48',
@@ -10931,7 +10931,7 @@ export const AspectSize48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectWeight48 = {
   viewBox: '0 0 48 48',
@@ -10944,7 +10944,7 @@ export const AspectWeight48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketAdd48 = {
   viewBox: '0 0 48 48',
@@ -10963,7 +10963,7 @@ export const BasketAdd48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketHandbag48 = {
   viewBox: '0 0 48 48',
@@ -10976,7 +10976,7 @@ export const BasketHandbag48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketMulti48 = {
   viewBox: '0 0 48 48',
@@ -10989,7 +10989,7 @@ export const BasketMulti48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketSave48 = {
   viewBox: '0 0 48 48',
@@ -11002,7 +11002,7 @@ export const BasketSave48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketStandard48 = {
   viewBox: '0 0 48 48',
@@ -11015,7 +11015,7 @@ export const BasketStandard48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListAdd48 = {
   viewBox: '0 0 48 48',
@@ -11040,7 +11040,7 @@ export const ListAdd48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListStandard48 = {
   viewBox: '0 0 48 48',
@@ -11059,7 +11059,7 @@ export const ListStandard48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseCertification48 = {
   viewBox: '0 0 48 48',
@@ -11078,7 +11078,7 @@ export const PromiseCertification48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseDestocking48 = {
   viewBox: '0 0 48 48',
@@ -11097,7 +11097,7 @@ export const PromiseDestocking48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseEcoProduct48 = {
   viewBox: '0 0 48 48',
@@ -11110,7 +11110,7 @@ export const PromiseEcoProduct48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFashionChoice48 = {
   viewBox: '0 0 48 48',
@@ -11124,7 +11124,7 @@ export const PromiseFashionChoice48 = {
     },
     { tagName: 'circle', attrs: { cx: 27.34, cy: 33.11, r: 1.74 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFunding48 = {
   viewBox: '0 0 48 48',
@@ -11137,7 +11137,7 @@ export const PromiseFunding48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInEurope48 = {
   viewBox: '0 0 48 48',
@@ -11150,7 +11150,7 @@ export const PromiseMadeInEurope48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInFrance48 = {
   viewBox: '0 0 48 48',
@@ -11163,7 +11163,7 @@ export const PromiseMadeInFrance48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseModular48 = {
   viewBox: '0 0 48 48',
@@ -11176,7 +11176,7 @@ export const PromiseModular48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductOnPicture48 = {
   viewBox: '0 0 48 48',
@@ -11195,7 +11195,7 @@ export const PromiseProductOnPicture48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductSheet48 = {
   viewBox: '0 0 48 48',
@@ -11218,7 +11218,7 @@ export const PromiseProductSheet48 = {
     },
     { tagName: 'circle', attrs: { cx: 16.89, cy: 33.47, r: 1.5 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseScan48 = {
   viewBox: '0 0 48 48',
@@ -11231,7 +11231,7 @@ export const PromiseScan48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseWarranty48 = {
   viewBox: '0 0 48 48',
@@ -11250,7 +11250,7 @@ export const PromiseWarranty48 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const DescribeProject48 = {
   viewBox: '0 0 48 48',
@@ -11263,7 +11263,7 @@ export const DescribeProject48 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const Inspiration48 = {
   viewBox: '0 0 48 48',
@@ -11282,7 +11282,7 @@ export const Inspiration48 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const MakeProject48 = {
   viewBox: '0 0 48 48',
@@ -11295,7 +11295,7 @@ export const MakeProject48 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const AfterSalesAfterSalesService48 = {
   viewBox: '0 0 48 48',
@@ -11309,7 +11309,7 @@ export const AfterSalesAfterSalesService48 = {
     },
     { tagName: 'circle', attrs: { cx: 9.49, cy: 38.5, r: 1.5 } },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesHelpline48 = {
   viewBox: '0 0 48 48',
@@ -11322,7 +11322,7 @@ export const AfterSalesHelpline48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesPayback48 = {
   viewBox: '0 0 48 48',
@@ -11335,7 +11335,7 @@ export const AfterSalesPayback48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesSatisfaction48 = {
   viewBox: '0 0 48 48',
@@ -11354,7 +11354,7 @@ export const AfterSalesSatisfaction48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCopyKey48 = {
   viewBox: '0 0 48 48',
@@ -11373,7 +11373,7 @@ export const CustomCopyKey48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCourse48 = {
   viewBox: '0 0 48 48',
@@ -11387,7 +11387,7 @@ export const CustomCourse48 = {
     },
     { tagName: 'ellipse', attrs: { cx: 24, cy: 19, rx: 2, ry: 1.5 } },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCutWoodGlass48 = {
   viewBox: '0 0 48 48',
@@ -11406,7 +11406,7 @@ export const CustomCutWoodGlass48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSample48 = {
   viewBox: '0 0 48 48',
@@ -11419,7 +11419,7 @@ export const CustomSample48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSharpening48 = {
   viewBox: '0 0 48 48',
@@ -11438,7 +11438,7 @@ export const CustomSharpening48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupRelayPoint48 = {
   viewBox: '0 0 48 48',
@@ -11451,7 +11451,7 @@ export const DeliveryDeliveryPickupRelayPoint48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupStore48 = {
   viewBox: '0 0 48 48',
@@ -11470,7 +11470,7 @@ export const DeliveryDeliveryPickupStore48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryHome48 = {
   viewBox: '0 0 48 48',
@@ -11495,7 +11495,7 @@ export const DeliveryDeliveryHome48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryLocker48 = {
   viewBox: '0 0 48 48',
@@ -11509,7 +11509,7 @@ export const DeliveryDeliveryLocker48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpCarRent48 = {
   viewBox: '0 0 48 48',
@@ -11522,7 +11522,7 @@ export const PurchaseHelpCarRent48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeDIY48 = {
   viewBox: '0 0 48 48',
@@ -11535,7 +11535,7 @@ export const PurchaseHelpHomeDIY48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeInstall48 = {
   viewBox: '0 0 48 48',
@@ -11548,7 +11548,7 @@ export const PurchaseHelpHomeInstall48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpToolRent48 = {
   viewBox: '0 0 48 48',
@@ -11561,7 +11561,7 @@ export const PurchaseHelpToolRent48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery2h48 = {
   viewBox: '0 0 48 48',
@@ -11580,7 +11580,7 @@ export const TimeDelivery2h48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery3h48 = {
   viewBox: '0 0 48 48',
@@ -11599,7 +11599,7 @@ export const TimeDelivery3h48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery48h48 = {
   viewBox: '0 0 48 48',
@@ -11618,7 +11618,7 @@ export const TimeDelivery48h48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeTimeDecline48 = {
   viewBox: '0 0 48 48',
@@ -11637,7 +11637,7 @@ export const TimeTimeDecline48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const Tools3d48 = {
   viewBox: '0 0 48 48',
@@ -11650,7 +11650,7 @@ export const Tools3d48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsCalculator48 = {
   viewBox: '0 0 48 48',
@@ -11669,7 +11669,7 @@ export const ToolsCalculator48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsComparator48 = {
   viewBox: '0 0 48 48',
@@ -11682,7 +11682,7 @@ export const ToolsComparator48 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CommentComment48 = {
   viewBox: '0 0 48 48',
@@ -11695,7 +11695,7 @@ export const CommentComment48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentCommunity48 = {
   viewBox: '0 0 48 48',
@@ -11709,7 +11709,7 @@ export const CommentCommunity48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentQuestionArticle48 = {
   viewBox: '0 0 48 48',
@@ -11732,7 +11732,7 @@ export const CommentQuestionArticle48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentReport48 = {
   viewBox: '0 0 48 48',
@@ -11745,7 +11745,7 @@ export const CommentReport48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareAndroid48 = {
   viewBox: '0 0 48 48',
@@ -11758,7 +11758,7 @@ export const ShareShareAndroid48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareIOS48 = {
   viewBox: '0 0 48 48',
@@ -11777,7 +11777,7 @@ export const ShareShareIOS48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkFacebook48 = {
   viewBox: '0 0 48 48',
@@ -11790,7 +11790,7 @@ export const SocialNetworkFacebook48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkInstagram48 = {
   viewBox: '0 0 48 48',
@@ -11815,7 +11815,7 @@ export const SocialNetworkInstagram48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkLinkedin48 = {
   viewBox: '0 0 48 48',
@@ -11834,7 +11834,7 @@ export const SocialNetworkLinkedin48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkPinterest48 = {
   viewBox: '0 0 48 48',
@@ -11847,7 +11847,7 @@ export const SocialNetworkPinterest48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkTwitter48 = {
   viewBox: '0 0 48 48',
@@ -11860,7 +11860,7 @@ export const SocialNetworkTwitter48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkYoutube48 = {
   viewBox: '0 0 48 48',
@@ -11874,7 +11874,7 @@ export const SocialNetworkYoutube48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikeNegative48 = {
   viewBox: '0 0 48 48',
@@ -11887,7 +11887,7 @@ export const ViewLikeNegative48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikePositive48 = {
   viewBox: '0 0 48 48',
@@ -11900,7 +11900,7 @@ export const ViewLikePositive48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarEmpty48 = {
   viewBox: '0 0 48 48',
@@ -11914,7 +11914,7 @@ export const ViewStarEmpty48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarFull48 = {
   viewBox: '0 0 48 48',
@@ -11928,7 +11928,7 @@ export const ViewStarFull48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarHalf48 = {
   viewBox: '0 0 48 48',
@@ -11942,7 +11942,7 @@ export const ViewStarHalf48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewTesterView48 = {
   viewBox: '0 0 48 48',
@@ -11961,7 +11961,7 @@ export const ViewTesterView48 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const Itinerary48 = {
   viewBox: '0 0 48 48',
@@ -11974,7 +11974,7 @@ export const Itinerary48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Locator48 = {
   viewBox: '0 0 48 48',
@@ -11987,7 +11987,7 @@ export const Locator48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Logo48 = {
   viewBox: '0 0 48 48',
@@ -12000,7 +12000,7 @@ export const Logo48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Map48 = {
   viewBox: '0 0 48 48',
@@ -12013,7 +12013,7 @@ export const Map48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeRelayLocation48 = {
   viewBox: '0 0 48 48',
@@ -12032,7 +12032,7 @@ export const MonochromeRelayLocation48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeStoreLocation48 = {
   viewBox: '0 0 48 48',
@@ -12051,7 +12051,7 @@ export const MonochromeStoreLocation48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const StoreLM48 = {
   viewBox: '0 0 48 48',
@@ -12070,7 +12070,7 @@ export const StoreLM48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Attic48 = {
   viewBox: '0 0 48 48',
@@ -12086,7 +12086,7 @@ export const Attic48 = {
     { tagName: 'circle', attrs: { cx: 35, cy: 37.5, r: 1 } },
     { tagName: 'circle', attrs: { cx: 30.5, cy: 38.5, r: 0.5 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bathroom48 = {
   viewBox: '0 0 48 48',
@@ -12099,7 +12099,7 @@ export const Bathroom48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bedroom48 = {
   viewBox: '0 0 48 48',
@@ -12112,7 +12112,7 @@ export const Bedroom48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Carpentry48 = {
   viewBox: '0 0 48 48',
@@ -12125,7 +12125,7 @@ export const Carpentry48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ChristmasTree48 = {
   viewBox: '0 0 48 48',
@@ -12139,7 +12139,7 @@ export const ChristmasTree48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ConnectedHome48 = {
   viewBox: '0 0 48 48',
@@ -12171,7 +12171,7 @@ export const ConnectedHome48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Curtains48 = {
   viewBox: '0 0 48 48',
@@ -12185,7 +12185,7 @@ export const Curtains48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Dressing48 = {
   viewBox: '0 0 48 48',
@@ -12199,7 +12199,7 @@ export const Dressing48 = {
     },
     { tagName: 'path', attrs: { d: 'M15 29.5h3a1 1 0 000-2h-3a1 1 0 000 2z' } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Electricity48 = {
   viewBox: '0 0 48 48',
@@ -12220,7 +12220,7 @@ export const Electricity48 = {
     { tagName: 'circle', attrs: { cx: 20.5, cy: 24, r: 1.5 } },
     { tagName: 'circle', attrs: { cx: 27.5, cy: 24, r: 1.5 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Enki48 = {
   viewBox: '0 0 48 48',
@@ -12233,7 +12233,7 @@ export const Enki48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Floor48 = {
   viewBox: '0 0 48 48',
@@ -12252,7 +12252,7 @@ export const Floor48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garage48 = {
   viewBox: '0 0 48 48',
@@ -12271,7 +12271,7 @@ export const Garage48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden148 = {
   viewBox: '0 0 48 48',
@@ -12290,7 +12290,7 @@ export const Garden148 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden248 = {
   viewBox: '0 0 48 48',
@@ -12303,7 +12303,7 @@ export const Garden248 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const HardwareStore48 = {
   viewBox: '0 0 48 48',
@@ -12316,7 +12316,7 @@ export const HardwareStore48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Heater48 = {
   viewBox: '0 0 48 48',
@@ -12329,7 +12329,7 @@ export const Heater48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kids48 = {
   viewBox: '0 0 48 48',
@@ -12348,7 +12348,7 @@ export const Kids48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen48 = {
   viewBox: '0 0 48 48',
@@ -12361,7 +12361,7 @@ export const Kitchen48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen248 = {
   viewBox: '0 0 48 48',
@@ -12384,7 +12384,7 @@ export const Kitchen248 = {
     { tagName: 'circle', attrs: { cx: 31, cy: 9.5, r: 1 } },
     { tagName: 'circle', attrs: { cx: 37, cy: 9.5, r: 1 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Lighting48 = {
   viewBox: '0 0 48 48',
@@ -12397,7 +12397,7 @@ export const Lighting48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Living48 = {
   viewBox: '0 0 48 48',
@@ -12410,7 +12410,7 @@ export const Living48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const MakeIt48 = {
   viewBox: '0 0 48 48',
@@ -12423,7 +12423,7 @@ export const MakeIt48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Paint48 = {
   viewBox: '0 0 48 48',
@@ -12436,7 +12436,7 @@ export const Paint48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Security48 = {
   viewBox: '0 0 48 48',
@@ -12455,7 +12455,7 @@ export const Security48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Terrace48 = {
   viewBox: '0 0 48 48',
@@ -12468,7 +12468,7 @@ export const Terrace48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Tool48 = {
   viewBox: '0 0 48 48',
@@ -12487,7 +12487,7 @@ export const Tool48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const WoodSaw48 = {
   viewBox: '0 0 48 48',
@@ -12501,7 +12501,7 @@ export const WoodSaw48 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const AccountCustomerCollaborator48 = {
   viewBox: '0 0 48 48',
@@ -12520,7 +12520,7 @@ export const AccountCustomerCollaborator48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPassion48 = {
   viewBox: '0 0 48 48',
@@ -12533,7 +12533,7 @@ export const AccountCustomerPassion48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPro48 = {
   viewBox: '0 0 48 48',
@@ -12546,7 +12546,7 @@ export const AccountCustomerPro48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileMan48 = {
   viewBox: '0 0 48 48',
@@ -12565,7 +12565,7 @@ export const AccountProfileMan48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileView48 = {
   viewBox: '0 0 48 48',
@@ -12578,7 +12578,7 @@ export const AccountProfileView48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileWoman48 = {
   viewBox: '0 0 48 48',
@@ -12591,7 +12591,7 @@ export const AccountProfileWoman48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardFunding48 = {
   viewBox: '0 0 48 48',
@@ -12610,7 +12610,7 @@ export const CardFunding48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardGift48 = {
   viewBox: '0 0 48 48',
@@ -12623,7 +12623,7 @@ export const CardGift48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardIDCard48 = {
   viewBox: '0 0 48 48',
@@ -12644,7 +12644,7 @@ export const CardIDCard48 = {
     { tagName: 'rect', attrs: { x: 26, y: 18, width: 12, height: 2, rx: 1 } },
     { tagName: 'rect', attrs: { x: 26, y: 23, width: 12, height: 2, rx: 1 } },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardLoyaltyCard48 = {
   viewBox: '0 0 48 48',
@@ -12669,7 +12669,7 @@ export const CardLoyaltyCard48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactMail48 = {
   viewBox: '0 0 48 48',
@@ -12683,7 +12683,7 @@ export const ContactMail48 = {
     },
     { tagName: 'path', attrs: { d: 'M17 15h14a1 1 0 000-2H17a1 1 0 000 2z' } },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactPhone48 = {
   viewBox: '0 0 48 48',
@@ -12696,7 +12696,7 @@ export const ContactPhone48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactWebsite48 = {
   viewBox: '0 0 48 48',
@@ -12709,7 +12709,7 @@ export const ContactWebsite48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationOwner48 = {
   viewBox: '0 0 48 48',
@@ -12722,7 +12722,7 @@ export const SituationOwner48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationTenant48 = {
   viewBox: '0 0 48 48',
@@ -12747,7 +12747,7 @@ export const SituationTenant48 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const Administration48 = {
   viewBox: '0 0 48 48',
@@ -12766,7 +12766,7 @@ export const Administration48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Apartment48 = {
   viewBox: '0 0 48 48',
@@ -12785,7 +12785,7 @@ export const Apartment48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Balcony48 = {
   viewBox: '0 0 48 48',
@@ -12799,7 +12799,7 @@ export const Balcony48 = {
     },
     { tagName: 'path', attrs: { d: 'M28 21a1 1 0 000 2h3a1 1 0 000-2z' } },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Blower48 = {
   viewBox: '0 0 48 48',
@@ -12824,7 +12824,7 @@ export const Blower48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Door48 = {
   viewBox: '0 0 48 48',
@@ -12843,7 +12843,7 @@ export const Door48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const EcoSaving48 = {
   viewBox: '0 0 48 48',
@@ -12862,7 +12862,7 @@ export const EcoSaving48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Heat48 = {
   viewBox: '0 0 48 48',
@@ -12875,7 +12875,7 @@ export const Heat48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const House48 = {
   viewBox: '0 0 48 48',
@@ -12894,7 +12894,7 @@ export const House48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const IncreaseValue48 = {
   viewBox: '0 0 48 48',
@@ -12919,7 +12919,7 @@ export const IncreaseValue48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Insulation48 = {
   viewBox: '0 0 48 48',
@@ -12932,7 +12932,7 @@ export const Insulation48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const LessonDIY48 = {
   viewBox: '0 0 48 48',
@@ -12951,7 +12951,7 @@ export const LessonDIY48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Level48 = {
   viewBox: '0 0 48 48',
@@ -12964,7 +12964,7 @@ export const Level48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PaintCan48 = {
   viewBox: '0 0 48 48',
@@ -12977,7 +12977,7 @@ export const PaintCan48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerCompany48 = {
   viewBox: '0 0 48 48',
@@ -12990,7 +12990,7 @@ export const PartnerCompany48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerWorker48 = {
   viewBox: '0 0 48 48',
@@ -13003,7 +13003,7 @@ export const PartnerWorker48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Pipe48 = {
   viewBox: '0 0 48 48',
@@ -13016,7 +13016,7 @@ export const Pipe48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Premium48 = {
   viewBox: '0 0 48 48',
@@ -13029,7 +13029,7 @@ export const Premium48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Shutter48 = {
   viewBox: '0 0 48 48',
@@ -13042,7 +13042,7 @@ export const Shutter48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Survey48 = {
   viewBox: '0 0 48 48',
@@ -13073,7 +13073,7 @@ export const Survey48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Temperature48 = {
   viewBox: '0 0 48 48',
@@ -13087,7 +13087,7 @@ export const Temperature48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ThermalControl48 = {
   viewBox: '0 0 48 48',
@@ -13112,7 +13112,7 @@ export const ThermalControl48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ToolBox48 = {
   viewBox: '0 0 48 48',
@@ -13125,7 +13125,7 @@ export const ToolBox48 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Desktop64 = {
   viewBox: '0 0 64 64',
@@ -13138,7 +13138,7 @@ export const Desktop64 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Laptop64 = {
   viewBox: '0 0 64 64',
@@ -13151,7 +13151,7 @@ export const Laptop64 = {
       },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Mobile64 = {
   viewBox: '0 0 64 64',
@@ -13168,7 +13168,7 @@ export const Mobile64 = {
       attrs: { d: 'M34 47.25h-4a1.5 1.5 0 000 3h4a1.5 1.5 0 000-3z' },
     },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const Tablet64 = {
   viewBox: '0 0 64 64',
@@ -13182,7 +13182,7 @@ export const Tablet64 = {
     },
     { tagName: 'circle', attrs: { cx: 32, cy: 48.5, r: 1.5 } },
   ],
-  id: Device,
+  id: 'Device',
 }
 export const HygieneCleaned64 = {
   viewBox: '0 0 64 64',
@@ -13201,7 +13201,7 @@ export const HygieneCleaned64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDanger64 = {
   viewBox: '0 0 64 64',
@@ -13220,7 +13220,7 @@ export const HygieneDanger64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneDistance64 = {
   viewBox: '0 0 64 64',
@@ -13233,7 +13233,7 @@ export const HygieneDistance64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneGel64 = {
   viewBox: '0 0 64 64',
@@ -13252,7 +13252,7 @@ export const HygieneGel64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneMask64 = {
   viewBox: '0 0 64 64',
@@ -13277,7 +13277,7 @@ export const HygieneMask64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygieneNoContact64 = {
   viewBox: '0 0 64 64',
@@ -13290,7 +13290,7 @@ export const HygieneNoContact64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const HygienePlexiglas64 = {
   viewBox: '0 0 64 64',
@@ -13315,7 +13315,7 @@ export const HygienePlexiglas64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentCheckout64 = {
   viewBox: '0 0 64 64',
@@ -13333,7 +13333,7 @@ export const PaymentCheckout64 = {
     },
     { tagName: 'path', attrs: { d: 'M17 27.5h30v6H17z' } },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const PaymentNoContact64 = {
   viewBox: '0 0 64 64',
@@ -13371,7 +13371,7 @@ export const PaymentNoContact64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarOpenBoot64 = {
   viewBox: '0 0 64 64',
@@ -13384,7 +13384,7 @@ export const ServicePurchaseHelpCarOpenBoot64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStandInLine64 = {
   viewBox: '0 0 64 64',
@@ -13397,7 +13397,7 @@ export const ServicePurchaseHelpCarStandInLine64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpCarStayInside64 = {
   viewBox: '0 0 64 64',
@@ -13416,7 +13416,7 @@ export const ServicePurchaseHelpCarStayInside64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpLoading64 = {
   viewBox: '0 0 64 64',
@@ -13435,7 +13435,7 @@ export const ServicePurchaseHelpLoading64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpNoCarRent64 = {
   viewBox: '0 0 64 64',
@@ -13448,7 +13448,7 @@ export const ServicePurchaseHelpNoCarRent64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpRequest64 = {
   viewBox: '0 0 64 64',
@@ -13467,7 +13467,7 @@ export const ServicePurchaseHelpRequest64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const ServicePurchaseHelpTruck64 = {
   viewBox: '0 0 64 64',
@@ -13480,7 +13480,7 @@ export const ServicePurchaseHelpTruck64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const UniverseEssentialProduct64 = {
   viewBox: '0 0 64 64',
@@ -13499,7 +13499,7 @@ export const UniverseEssentialProduct64 = {
       },
     },
   ],
-  id: Instruction,
+  id: 'Instruction',
 }
 export const BookStore64 = {
   viewBox: '0 0 64 64',
@@ -13518,7 +13518,7 @@ export const BookStore64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Camera64 = {
   viewBox: '0 0 64 64',
@@ -13538,7 +13538,7 @@ export const Camera64 = {
     },
     { tagName: 'circle', attrs: { cx: 15.5, cy: 23.5, r: 2.5 } },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadApp64 = {
   viewBox: '0 0 64 64',
@@ -13557,7 +13557,7 @@ export const DownloadApp64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const DownloadWeb64 = {
   viewBox: '0 0 64 64',
@@ -13576,7 +13576,7 @@ export const DownloadWeb64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const FullScreen64 = {
   viewBox: '0 0 64 64',
@@ -13589,7 +13589,7 @@ export const FullScreen64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const NoPicture64 = {
   viewBox: '0 0 64 64',
@@ -13608,7 +13608,7 @@ export const NoPicture64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Pdf64 = {
   viewBox: '0 0 64 64',
@@ -13627,7 +13627,7 @@ export const Pdf64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Play64 = {
   viewBox: '0 0 64 64',
@@ -13640,7 +13640,7 @@ export const Play64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Player64 = {
   viewBox: '0 0 64 64',
@@ -13659,7 +13659,7 @@ export const Player64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Print64 = {
   viewBox: '0 0 64 64',
@@ -13678,7 +13678,7 @@ export const Print64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Project64 = {
   viewBox: '0 0 64 64',
@@ -13697,7 +13697,7 @@ export const Project64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Read64 = {
   viewBox: '0 0 64 64',
@@ -13716,7 +13716,7 @@ export const Read64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ReduceScreen64 = {
   viewBox: '0 0 64 64',
@@ -13729,7 +13729,7 @@ export const ReduceScreen64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Slideshow64 = {
   viewBox: '0 0 64 64',
@@ -13748,7 +13748,7 @@ export const Slideshow64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Sound64 = {
   viewBox: '0 0 64 64',
@@ -13767,7 +13767,7 @@ export const Sound64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Stop64 = {
   viewBox: '0 0 64 64',
@@ -13780,7 +13780,7 @@ export const Stop64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const TimeRead64 = {
   viewBox: '0 0 64 64',
@@ -13799,7 +13799,7 @@ export const TimeRead64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const Upload64 = {
   viewBox: '0 0 64 64',
@@ -13818,7 +13818,7 @@ export const Upload64 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const View36064 = {
   viewBox: '0 0 64 64',
@@ -13831,7 +13831,7 @@ export const View36064 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const ArrowArrowBottom64 = {
   viewBox: '0 0 64 64',
@@ -13844,7 +13844,7 @@ export const ArrowArrowBottom64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowLeft64 = {
   viewBox: '0 0 64 64',
@@ -13857,7 +13857,7 @@ export const ArrowArrowLeft64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowRight64 = {
   viewBox: '0 0 64 64',
@@ -13870,7 +13870,7 @@ export const ArrowArrowRight64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTop64 = {
   viewBox: '0 0 64 64',
@@ -13883,7 +13883,7 @@ export const ArrowArrowTop64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomLeft64 = {
   viewBox: '0 0 64 64',
@@ -13897,7 +13897,7 @@ export const ArrowArrowBottomLeft64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowBottomRight64 = {
   viewBox: '0 0 64 64',
@@ -13911,7 +13911,7 @@ export const ArrowArrowBottomRight64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopLeft64 = {
   viewBox: '0 0 64 64',
@@ -13925,7 +13925,7 @@ export const ArrowArrowTopLeft64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowArrowTopRight64 = {
   viewBox: '0 0 64 64',
@@ -13939,7 +13939,7 @@ export const ArrowArrowTopRight64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowBack64 = {
   viewBox: '0 0 64 64',
@@ -13952,7 +13952,7 @@ export const ArrowBack64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowLeft64 = {
   viewBox: '0 0 64 64',
@@ -13965,7 +13965,7 @@ export const ArrowDoubleArrowLeft64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDoubleArrowRight64 = {
   viewBox: '0 0 64 64',
@@ -13978,7 +13978,7 @@ export const ArrowDoubleArrowRight64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowDown64 = {
   viewBox: '0 0 64 64',
@@ -13991,7 +13991,7 @@ export const ArrowDown64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowNext64 = {
   viewBox: '0 0 64 64',
@@ -14004,7 +14004,7 @@ export const ArrowNext64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ArrowUp64 = {
   viewBox: '0 0 64 64',
@@ -14017,7 +14017,7 @@ export const ArrowUp64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleCross64 = {
   viewBox: '0 0 64 64',
@@ -14036,7 +14036,7 @@ export const ControlCircleCross64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleLess64 = {
   viewBox: '0 0 64 64',
@@ -14053,7 +14053,7 @@ export const ControlCircleLess64 = {
       attrs: { d: 'M44 30.5H20a1.5 1.5 0 000 3h24a1.5 1.5 0 000-3z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCircleMore64 = {
   viewBox: '0 0 64 64',
@@ -14072,7 +14072,7 @@ export const ControlCircleMore64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlCross64 = {
   viewBox: '0 0 64 64',
@@ -14085,7 +14085,7 @@ export const ControlCross64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlLess64 = {
   viewBox: '0 0 64 64',
@@ -14096,7 +14096,7 @@ export const ControlLess64 = {
       attrs: { d: 'M49.5 30.5h-35a1.5 1.5 0 000 3h35a1.5 1.5 0 000-3z' },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlMore64 = {
   viewBox: '0 0 64 64',
@@ -14109,7 +14109,7 @@ export const ControlMore64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const ControlTagCross64 = {
   viewBox: '0 0 64 64',
@@ -14122,7 +14122,7 @@ export const ControlTagCross64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayBlink64 = {
   viewBox: '0 0 64 64',
@@ -14136,7 +14136,7 @@ export const DisplayBlink64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayCalendar64 = {
   viewBox: '0 0 64 64',
@@ -14149,7 +14149,7 @@ export const DisplayCalendar64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayConnect64 = {
   viewBox: '0 0 64 64',
@@ -14168,7 +14168,7 @@ export const DisplayConnect64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullFilled64 = {
   viewBox: '0 0 64 64',
@@ -14176,7 +14176,7 @@ export const DisplayDisplayFullFilled64 = {
   paths: [
     { tagName: 'rect', attrs: { x: 5, y: 5, width: 54, height: 54, rx: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayFullOutline64 = {
   viewBox: '0 0 64 64',
@@ -14189,7 +14189,7 @@ export const DisplayDisplayFullOutline64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListFilled64 = {
   viewBox: '0 0 64 64',
@@ -14199,7 +14199,7 @@ export const DisplayDisplayListFilled64 = {
     { tagName: 'rect', attrs: { x: 5, y: 45, width: 54, height: 14, rx: 2 } },
     { tagName: 'rect', attrs: { x: 5, y: 25, width: 54, height: 14, rx: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayListOutline64 = {
   viewBox: '0 0 64 64',
@@ -14212,7 +14212,7 @@ export const DisplayDisplayListOutline64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileHorizontal64 = {
   viewBox: '0 0 64 64',
@@ -14225,7 +14225,7 @@ export const DisplayDisplayMobileHorizontal64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayMobileVertical64 = {
   viewBox: '0 0 64 64',
@@ -14238,7 +14238,7 @@ export const DisplayDisplayMobileVertical64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Filled64 = {
   viewBox: '0 0 64 64',
@@ -14249,7 +14249,7 @@ export const DisplayDisplayProductX4Filled64 = {
     { tagName: 'rect', attrs: { x: 5, y: 34, width: 25, height: 25, rx: 2 } },
     { tagName: 'rect', attrs: { x: 34, y: 34, width: 25, height: 25, rx: 2 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX4Outline64 = {
   viewBox: '0 0 64 64',
@@ -14262,7 +14262,7 @@ export const DisplayDisplayProductX4Outline64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayDisplayProductX964 = {
   viewBox: '0 0 64 64',
@@ -14275,7 +14275,7 @@ export const DisplayDisplayProductX964 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayExternalLink64 = {
   viewBox: '0 0 64 64',
@@ -14289,7 +14289,7 @@ export const DisplayExternalLink64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayFilter64 = {
   viewBox: '0 0 64 64',
@@ -14302,7 +14302,7 @@ export const DisplayFilter64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayHome64 = {
   viewBox: '0 0 64 64',
@@ -14315,7 +14315,7 @@ export const DisplayHome64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayLogOut64 = {
   viewBox: '0 0 64 64',
@@ -14329,7 +14329,7 @@ export const DisplayLogOut64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMenu64 = {
   viewBox: '0 0 64 64',
@@ -14342,7 +14342,7 @@ export const DisplayMenu64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayMovingBlock64 = {
   viewBox: '0 0 64 64',
@@ -14358,7 +14358,7 @@ export const DisplayMovingBlock64 = {
     { tagName: 'circle', attrs: { cx: 32, cy: 54, r: 5 } },
     { tagName: 'circle', attrs: { cx: 54, cy: 54, r: 5 } },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOptions64 = {
   viewBox: '0 0 64 64',
@@ -14372,7 +14372,7 @@ export const DisplayOptions64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayOther64 = {
   viewBox: '0 0 64 64',
@@ -14386,7 +14386,7 @@ export const DisplayOther64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayProductNumb64 = {
   viewBox: '0 0 64 64',
@@ -14399,7 +14399,7 @@ export const DisplayProductNumb64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayRefresh64 = {
   viewBox: '0 0 64 64',
@@ -14412,7 +14412,7 @@ export const DisplayRefresh64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayScreenRotation64 = {
   viewBox: '0 0 64 64',
@@ -14431,7 +14431,7 @@ export const DisplayScreenRotation64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearch64 = {
   viewBox: '0 0 64 64',
@@ -14444,7 +14444,7 @@ export const DisplaySearch64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchList64 = {
   viewBox: '0 0 64 64',
@@ -14458,7 +14458,7 @@ export const DisplaySearchList64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySearchProduct64 = {
   viewBox: '0 0 64 64',
@@ -14477,7 +14477,7 @@ export const DisplaySearchProduct64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplaySetting64 = {
   viewBox: '0 0 64 64',
@@ -14496,7 +14496,7 @@ export const DisplaySetting64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayView64 = {
   viewBox: '0 0 64 64',
@@ -14515,7 +14515,7 @@ export const DisplayView64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const DisplayVocalSearch64 = {
   viewBox: '0 0 64 64',
@@ -14534,7 +14534,7 @@ export const DisplayVocalSearch64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationAvailable64 = {
   viewBox: '0 0 64 64',
@@ -14547,7 +14547,7 @@ export const NotificationAvailable64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationBell64 = {
   viewBox: '0 0 64 64',
@@ -14560,7 +14560,7 @@ export const NotificationBell64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationCircleAvailable64 = {
   viewBox: '0 0 64 64',
@@ -14579,7 +14579,7 @@ export const NotificationCircleAvailable64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationInformation64 = {
   viewBox: '0 0 64 64',
@@ -14598,7 +14598,7 @@ export const NotificationInformation64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationQuestion64 = {
   viewBox: '0 0 64 64',
@@ -14617,7 +14617,7 @@ export const NotificationQuestion64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const NotificationWarning64 = {
   viewBox: '0 0 64 64',
@@ -14636,7 +14636,7 @@ export const NotificationWarning64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishCopy64 = {
   viewBox: '0 0 64 64',
@@ -14655,7 +14655,7 @@ export const PublishCopy64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishEdit64 = {
   viewBox: '0 0 64 64',
@@ -14669,7 +14669,7 @@ export const PublishEdit64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavorite64 = {
   viewBox: '0 0 64 64',
@@ -14682,7 +14682,7 @@ export const PublishFavorite64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishFavoriteFull64 = {
   viewBox: '0 0 64 64',
@@ -14695,7 +14695,7 @@ export const PublishFavoriteFull64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishLock64 = {
   viewBox: '0 0 64 64',
@@ -14709,7 +14709,7 @@ export const PublishLock64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishSend64 = {
   viewBox: '0 0 64 64',
@@ -14722,7 +14722,7 @@ export const PublishSend64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const PublishTrashbin64 = {
   viewBox: '0 0 64 64',
@@ -14741,7 +14741,7 @@ export const PublishTrashbin64 = {
       },
     },
   ],
-  id: Navigation,
+  id: 'Navigation',
 }
 export const Bill64 = {
   viewBox: '0 0 64 64',
@@ -14762,7 +14762,7 @@ export const Bill64 = {
     { tagName: 'circle', attrs: { cx: 24, cy: 42, r: 1.5 } },
     { tagName: 'circle', attrs: { cx: 24, cy: 47.5, r: 1.5 } },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeAmericanExpress64 = {
   viewBox: '0 0 64 64',
@@ -14793,7 +14793,7 @@ export const CardsMonochromeAmericanExpress64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCB64 = {
   viewBox: '0 0 64 64',
@@ -14812,7 +14812,7 @@ export const CardsMonochromeCB64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeCheque64 = {
   viewBox: '0 0 64 64',
@@ -14831,7 +14831,7 @@ export const CardsMonochromeCheque64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeGift64 = {
   viewBox: '0 0 64 64',
@@ -14850,7 +14850,7 @@ export const CardsMonochromeGift64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeIllicado64 = {
   viewBox: '0 0 64 64',
@@ -14881,7 +14881,7 @@ export const CardsMonochromeIllicado64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeLoyalty64 = {
   viewBox: '0 0 64 64',
@@ -14900,7 +14900,7 @@ export const CardsMonochromeLoyalty64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeMastercard64 = {
   viewBox: '0 0 64 64',
@@ -14919,7 +14919,7 @@ export const CardsMonochromeMastercard64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOney64 = {
   viewBox: '0 0 64 64',
@@ -14938,7 +14938,7 @@ export const CardsMonochromeOney64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX364 = {
   viewBox: '0 0 64 64',
@@ -14952,7 +14952,7 @@ export const CardsMonochromeOneyX364 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeOneyX464 = {
   viewBox: '0 0 64 64',
@@ -14966,7 +14966,7 @@ export const CardsMonochromeOneyX464 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaylib64 = {
   viewBox: '0 0 64 64',
@@ -14991,7 +14991,7 @@ export const CardsMonochromePaylib64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromePaypal64 = {
   viewBox: '0 0 64 64',
@@ -15016,7 +15016,7 @@ export const CardsMonochromePaypal64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsMonochromeVisa64 = {
   viewBox: '0 0 64 64',
@@ -15041,7 +15041,7 @@ export const CardsMonochromeVisa64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const DetailsOrder64 = {
   viewBox: '0 0 64 64',
@@ -15058,7 +15058,7 @@ export const DetailsOrder64 = {
       attrs: { d: 'M21 24.5h-5a1.5 1.5 0 000 3h5a1.5 1.5 0 000-3z' },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Euro64 = {
   viewBox: '0 0 64 64',
@@ -15071,7 +15071,7 @@ export const Euro64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const Receipt64 = {
   viewBox: '0 0 64 64',
@@ -15090,7 +15090,7 @@ export const Receipt64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment164 = {
   viewBox: '0 0 64 64',
@@ -15109,7 +15109,7 @@ export const SafePayment164 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const SafePayment264 = {
   viewBox: '0 0 64 64',
@@ -15128,7 +15128,7 @@ export const SafePayment264 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const AspectQuantity64 = {
   viewBox: '0 0 64 64',
@@ -15141,7 +15141,7 @@ export const AspectQuantity64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectSize64 = {
   viewBox: '0 0 64 64',
@@ -15154,7 +15154,7 @@ export const AspectSize64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const AspectWeight64 = {
   viewBox: '0 0 64 64',
@@ -15167,7 +15167,7 @@ export const AspectWeight64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketAdd64 = {
   viewBox: '0 0 64 64',
@@ -15186,7 +15186,7 @@ export const BasketAdd64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketHandbag64 = {
   viewBox: '0 0 64 64',
@@ -15199,7 +15199,7 @@ export const BasketHandbag64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketMulti64 = {
   viewBox: '0 0 64 64',
@@ -15212,7 +15212,7 @@ export const BasketMulti64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketSave64 = {
   viewBox: '0 0 64 64',
@@ -15225,7 +15225,7 @@ export const BasketSave64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const BasketStandard64 = {
   viewBox: '0 0 64 64',
@@ -15238,7 +15238,7 @@ export const BasketStandard64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListAdd64 = {
   viewBox: '0 0 64 64',
@@ -15257,7 +15257,7 @@ export const ListAdd64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const ListStandard64 = {
   viewBox: '0 0 64 64',
@@ -15276,7 +15276,7 @@ export const ListStandard64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseCertification64 = {
   viewBox: '0 0 64 64',
@@ -15295,7 +15295,7 @@ export const PromiseCertification64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseDestocking64 = {
   viewBox: '0 0 64 64',
@@ -15314,7 +15314,7 @@ export const PromiseDestocking64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseEcoProduct64 = {
   viewBox: '0 0 64 64',
@@ -15327,7 +15327,7 @@ export const PromiseEcoProduct64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFashionChoice64 = {
   viewBox: '0 0 64 64',
@@ -15341,7 +15341,7 @@ export const PromiseFashionChoice64 = {
     },
     { tagName: 'circle', attrs: { cx: 35.06, cy: 45.61, r: 2 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseFunding64 = {
   viewBox: '0 0 64 64',
@@ -15354,7 +15354,7 @@ export const PromiseFunding64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInEurope64 = {
   viewBox: '0 0 64 64',
@@ -15367,7 +15367,7 @@ export const PromiseMadeInEurope64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseMadeInFrance64 = {
   viewBox: '0 0 64 64',
@@ -15380,7 +15380,7 @@ export const PromiseMadeInFrance64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseModular64 = {
   viewBox: '0 0 64 64',
@@ -15393,7 +15393,7 @@ export const PromiseModular64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductOnPicture64 = {
   viewBox: '0 0 64 64',
@@ -15412,7 +15412,7 @@ export const PromiseProductOnPicture64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseProductSheet64 = {
   viewBox: '0 0 64 64',
@@ -15435,7 +15435,7 @@ export const PromiseProductSheet64 = {
     },
     { tagName: 'circle', attrs: { cx: 22.5, cy: 44.54, r: 1.5 } },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseScan64 = {
   viewBox: '0 0 64 64',
@@ -15448,7 +15448,7 @@ export const PromiseScan64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const PromiseWarranty64 = {
   viewBox: '0 0 64 64',
@@ -15467,7 +15467,7 @@ export const PromiseWarranty64 = {
       },
     },
   ],
-  id: Product,
+  id: 'Product',
 }
 export const DescribeProject64 = {
   viewBox: '0 0 64 64',
@@ -15480,7 +15480,7 @@ export const DescribeProject64 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const Inspiration64 = {
   viewBox: '0 0 64 64',
@@ -15499,7 +15499,7 @@ export const Inspiration64 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const MakeProject64 = {
   viewBox: '0 0 64 64',
@@ -15512,7 +15512,7 @@ export const MakeProject64 = {
       },
     },
   ],
-  id: Project,
+  id: 'Project',
 }
 export const AfterSalesAfterSalesService64 = {
   viewBox: '0 0 64 64',
@@ -15531,7 +15531,7 @@ export const AfterSalesAfterSalesService64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesHelpline64 = {
   viewBox: '0 0 64 64',
@@ -15544,7 +15544,7 @@ export const AfterSalesHelpline64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesPayback64 = {
   viewBox: '0 0 64 64',
@@ -15557,7 +15557,7 @@ export const AfterSalesPayback64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const AfterSalesSatisfaction64 = {
   viewBox: '0 0 64 64',
@@ -15576,7 +15576,7 @@ export const AfterSalesSatisfaction64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCopyKey64 = {
   viewBox: '0 0 64 64',
@@ -15595,7 +15595,7 @@ export const CustomCopyKey64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCourse64 = {
   viewBox: '0 0 64 64',
@@ -15608,7 +15608,7 @@ export const CustomCourse64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomCutWoodGlass64 = {
   viewBox: '0 0 64 64',
@@ -15627,7 +15627,7 @@ export const CustomCutWoodGlass64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSample64 = {
   viewBox: '0 0 64 64',
@@ -15640,7 +15640,7 @@ export const CustomSample64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CustomSharpening64 = {
   viewBox: '0 0 64 64',
@@ -15659,7 +15659,7 @@ export const CustomSharpening64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupRelayPoint64 = {
   viewBox: '0 0 64 64',
@@ -15672,7 +15672,7 @@ export const DeliveryDeliveryPickupRelayPoint64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryPickupStore64 = {
   viewBox: '0 0 64 64',
@@ -15691,7 +15691,7 @@ export const DeliveryDeliveryPickupStore64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryHome64 = {
   viewBox: '0 0 64 64',
@@ -15710,7 +15710,7 @@ export const DeliveryDeliveryHome64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const DeliveryDeliveryLocker64 = {
   viewBox: '0 0 64 64',
@@ -15724,7 +15724,7 @@ export const DeliveryDeliveryLocker64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpCarRent64 = {
   viewBox: '0 0 64 64',
@@ -15737,7 +15737,7 @@ export const PurchaseHelpCarRent64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeDIY64 = {
   viewBox: '0 0 64 64',
@@ -15756,7 +15756,7 @@ export const PurchaseHelpHomeDIY64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpHomeInstall64 = {
   viewBox: '0 0 64 64',
@@ -15769,7 +15769,7 @@ export const PurchaseHelpHomeInstall64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const PurchaseHelpToolRent64 = {
   viewBox: '0 0 64 64',
@@ -15782,7 +15782,7 @@ export const PurchaseHelpToolRent64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery2h64 = {
   viewBox: '0 0 64 64',
@@ -15801,7 +15801,7 @@ export const TimeDelivery2h64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery3h64 = {
   viewBox: '0 0 64 64',
@@ -15820,7 +15820,7 @@ export const TimeDelivery3h64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeDelivery48h64 = {
   viewBox: '0 0 64 64',
@@ -15839,7 +15839,7 @@ export const TimeDelivery48h64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const TimeTimeDecline64 = {
   viewBox: '0 0 64 64',
@@ -15858,7 +15858,7 @@ export const TimeTimeDecline64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const Tools3d64 = {
   viewBox: '0 0 64 64',
@@ -15871,7 +15871,7 @@ export const Tools3d64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsCalculator64 = {
   viewBox: '0 0 64 64',
@@ -15890,7 +15890,7 @@ export const ToolsCalculator64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const ToolsComparator64 = {
   viewBox: '0 0 64 64',
@@ -15903,7 +15903,7 @@ export const ToolsComparator64 = {
       },
     },
   ],
-  id: Service,
+  id: 'Service',
 }
 export const CommentComment64 = {
   viewBox: '0 0 64 64',
@@ -15916,7 +15916,7 @@ export const CommentComment64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentCommunity64 = {
   viewBox: '0 0 64 64',
@@ -15929,7 +15929,7 @@ export const CommentCommunity64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentQuestionArticle64 = {
   viewBox: '0 0 64 64',
@@ -15948,7 +15948,7 @@ export const CommentQuestionArticle64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const CommentReport64 = {
   viewBox: '0 0 64 64',
@@ -15961,7 +15961,7 @@ export const CommentReport64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareAndroid64 = {
   viewBox: '0 0 64 64',
@@ -15974,7 +15974,7 @@ export const ShareShareAndroid64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ShareShareIOS64 = {
   viewBox: '0 0 64 64',
@@ -15993,7 +15993,7 @@ export const ShareShareIOS64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkFacebook64 = {
   viewBox: '0 0 64 64',
@@ -16006,7 +16006,7 @@ export const SocialNetworkFacebook64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkInstagram64 = {
   viewBox: '0 0 64 64',
@@ -16031,7 +16031,7 @@ export const SocialNetworkInstagram64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkLinkedin64 = {
   viewBox: '0 0 64 64',
@@ -16045,7 +16045,7 @@ export const SocialNetworkLinkedin64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkPinterest64 = {
   viewBox: '0 0 64 64',
@@ -16058,7 +16058,7 @@ export const SocialNetworkPinterest64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkTwitter64 = {
   viewBox: '0 0 64 64',
@@ -16071,7 +16071,7 @@ export const SocialNetworkTwitter64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const SocialNetworkYoutube64 = {
   viewBox: '0 0 64 64',
@@ -16085,7 +16085,7 @@ export const SocialNetworkYoutube64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikeNegative64 = {
   viewBox: '0 0 64 64',
@@ -16098,7 +16098,7 @@ export const ViewLikeNegative64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewLikePositive64 = {
   viewBox: '0 0 64 64',
@@ -16111,7 +16111,7 @@ export const ViewLikePositive64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarEmpty64 = {
   viewBox: '0 0 64 64',
@@ -16125,7 +16125,7 @@ export const ViewStarEmpty64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarFull64 = {
   viewBox: '0 0 64 64',
@@ -16139,7 +16139,7 @@ export const ViewStarFull64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewStarHalf64 = {
   viewBox: '0 0 64 64',
@@ -16153,7 +16153,7 @@ export const ViewStarHalf64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const ViewTesterView64 = {
   viewBox: '0 0 64 64',
@@ -16172,7 +16172,7 @@ export const ViewTesterView64 = {
       },
     },
   ],
-  id: Social,
+  id: 'Social',
 }
 export const Itinerary64 = {
   viewBox: '0 0 64 64',
@@ -16185,7 +16185,7 @@ export const Itinerary64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Locator64 = {
   viewBox: '0 0 64 64',
@@ -16198,7 +16198,7 @@ export const Locator64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Logo64 = {
   viewBox: '0 0 64 64',
@@ -16211,7 +16211,7 @@ export const Logo64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Map64 = {
   viewBox: '0 0 64 64',
@@ -16224,7 +16224,7 @@ export const Map64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeRelayLocation64 = {
   viewBox: '0 0 64 64',
@@ -16243,7 +16243,7 @@ export const MonochromeRelayLocation64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const MonochromeStoreLocation64 = {
   viewBox: '0 0 64 64',
@@ -16262,7 +16262,7 @@ export const MonochromeStoreLocation64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const StoreLM64 = {
   viewBox: '0 0 64 64',
@@ -16281,7 +16281,7 @@ export const StoreLM64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const Attic64 = {
   viewBox: '0 0 64 64',
@@ -16297,7 +16297,7 @@ export const Attic64 = {
     { tagName: 'circle', attrs: { cx: 41, cy: 48, r: 1 } },
     { tagName: 'circle', attrs: { cx: 38, cy: 53, r: 1 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bathroom64 = {
   viewBox: '0 0 64 64',
@@ -16310,7 +16310,7 @@ export const Bathroom64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Bedroom64 = {
   viewBox: '0 0 64 64',
@@ -16323,7 +16323,7 @@ export const Bedroom64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Carpentry64 = {
   viewBox: '0 0 64 64',
@@ -16336,7 +16336,7 @@ export const Carpentry64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ChristmasTree64 = {
   viewBox: '0 0 64 64',
@@ -16350,7 +16350,7 @@ export const ChristmasTree64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const ConnectedHome64 = {
   viewBox: '0 0 64 64',
@@ -16382,7 +16382,7 @@ export const ConnectedHome64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Curtains64 = {
   viewBox: '0 0 64 64',
@@ -16396,7 +16396,7 @@ export const Curtains64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Dressing64 = {
   viewBox: '0 0 64 64',
@@ -16410,7 +16410,7 @@ export const Dressing64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Electricity64 = {
   viewBox: '0 0 64 64',
@@ -16431,7 +16431,7 @@ export const Electricity64 = {
     { tagName: 'circle', attrs: { cx: 27, cy: 32, r: 2 } },
     { tagName: 'circle', attrs: { cx: 37, cy: 32, r: 2 } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Enki64 = {
   viewBox: '0 0 64 64',
@@ -16444,7 +16444,7 @@ export const Enki64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Floor64 = {
   viewBox: '0 0 64 64',
@@ -16463,7 +16463,7 @@ export const Floor64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garage64 = {
   viewBox: '0 0 64 64',
@@ -16482,7 +16482,7 @@ export const Garage64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden164 = {
   viewBox: '0 0 64 64',
@@ -16501,7 +16501,7 @@ export const Garden164 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Garden264 = {
   viewBox: '0 0 64 64',
@@ -16514,7 +16514,7 @@ export const Garden264 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const HardwareStore64 = {
   viewBox: '0 0 64 64',
@@ -16527,7 +16527,7 @@ export const HardwareStore64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Heater64 = {
   viewBox: '0 0 64 64',
@@ -16540,7 +16540,7 @@ export const Heater64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kids64 = {
   viewBox: '0 0 64 64',
@@ -16559,7 +16559,7 @@ export const Kids64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen64 = {
   viewBox: '0 0 64 64',
@@ -16572,7 +16572,7 @@ export const Kitchen64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Kitchen264 = {
   viewBox: '0 0 64 64',
@@ -16596,7 +16596,7 @@ export const Kitchen264 = {
     { tagName: 'circle', attrs: { cx: 47, cy: 14, r: 1 } },
     { tagName: 'path', attrs: { d: 'M31 15h2a1 1 0 000-2h-2a1 1 0 000 2z' } },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Lighting64 = {
   viewBox: '0 0 64 64',
@@ -16609,7 +16609,7 @@ export const Lighting64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Living64 = {
   viewBox: '0 0 64 64',
@@ -16622,7 +16622,7 @@ export const Living64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const MakeIt64 = {
   viewBox: '0 0 64 64',
@@ -16635,7 +16635,7 @@ export const MakeIt64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Paint64 = {
   viewBox: '0 0 64 64',
@@ -16648,7 +16648,7 @@ export const Paint64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Security64 = {
   viewBox: '0 0 64 64',
@@ -16667,7 +16667,7 @@ export const Security64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Terrace64 = {
   viewBox: '0 0 64 64',
@@ -16680,7 +16680,7 @@ export const Terrace64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const Tool64 = {
   viewBox: '0 0 64 64',
@@ -16699,7 +16699,7 @@ export const Tool64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const WoodSaw64 = {
   viewBox: '0 0 64 64',
@@ -16713,7 +16713,7 @@ export const WoodSaw64 = {
       },
     },
   ],
-  id: Universe,
+  id: 'Universe',
 }
 export const AccountCustomerCollaborator64 = {
   viewBox: '0 0 64 64',
@@ -16732,7 +16732,7 @@ export const AccountCustomerCollaborator64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPassion64 = {
   viewBox: '0 0 64 64',
@@ -16751,7 +16751,7 @@ export const AccountCustomerPassion64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountCustomerPro64 = {
   viewBox: '0 0 64 64',
@@ -16764,7 +16764,7 @@ export const AccountCustomerPro64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileMan64 = {
   viewBox: '0 0 64 64',
@@ -16777,7 +16777,7 @@ export const AccountProfileMan64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileView64 = {
   viewBox: '0 0 64 64',
@@ -16790,7 +16790,7 @@ export const AccountProfileView64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const AccountProfileWoman64 = {
   viewBox: '0 0 64 64',
@@ -16803,7 +16803,7 @@ export const AccountProfileWoman64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardFunding64 = {
   viewBox: '0 0 64 64',
@@ -16822,7 +16822,7 @@ export const CardFunding64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardGift64 = {
   viewBox: '0 0 64 64',
@@ -16835,7 +16835,7 @@ export const CardGift64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardIDCard64 = {
   viewBox: '0 0 64 64',
@@ -16854,7 +16854,7 @@ export const CardIDCard64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const CardLoyaltyCard64 = {
   viewBox: '0 0 64 64',
@@ -16879,7 +16879,7 @@ export const CardLoyaltyCard64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactMail64 = {
   viewBox: '0 0 64 64',
@@ -16898,7 +16898,7 @@ export const ContactMail64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactPhone64 = {
   viewBox: '0 0 64 64',
@@ -16911,7 +16911,7 @@ export const ContactPhone64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const ContactWebsite64 = {
   viewBox: '0 0 64 64',
@@ -16924,7 +16924,7 @@ export const ContactWebsite64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationOwner64 = {
   viewBox: '0 0 64 64',
@@ -16937,7 +16937,7 @@ export const SituationOwner64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const SituationTenant64 = {
   viewBox: '0 0 64 64',
@@ -16962,7 +16962,7 @@ export const SituationTenant64 = {
       },
     },
   ],
-  id: User,
+  id: 'User',
 }
 export const Administration64 = {
   viewBox: '0 0 64 64',
@@ -16981,7 +16981,7 @@ export const Administration64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Apartment64 = {
   viewBox: '0 0 64 64',
@@ -17000,7 +17000,7 @@ export const Apartment64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Balcony64 = {
   viewBox: '0 0 64 64',
@@ -17017,7 +17017,7 @@ export const Balcony64 = {
       attrs: { d: 'M37.88 28a1 1 0 100 2h4.24a1 1 0 100-2z' },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Blower64 = {
   viewBox: '0 0 64 64',
@@ -17042,7 +17042,7 @@ export const Blower64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Door64 = {
   viewBox: '0 0 64 64',
@@ -17061,7 +17061,7 @@ export const Door64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const EcoSaving64 = {
   viewBox: '0 0 64 64',
@@ -17080,7 +17080,7 @@ export const EcoSaving64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Heat64 = {
   viewBox: '0 0 64 64',
@@ -17093,7 +17093,7 @@ export const Heat64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const House64 = {
   viewBox: '0 0 64 64',
@@ -17112,7 +17112,7 @@ export const House64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const IncreaseValue64 = {
   viewBox: '0 0 64 64',
@@ -17131,7 +17131,7 @@ export const IncreaseValue64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Insulation64 = {
   viewBox: '0 0 64 64',
@@ -17180,7 +17180,7 @@ export const Insulation64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const LessonDIY64 = {
   viewBox: '0 0 64 64',
@@ -17199,7 +17199,7 @@ export const LessonDIY64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Level64 = {
   viewBox: '0 0 64 64',
@@ -17212,7 +17212,7 @@ export const Level64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PaintCan64 = {
   viewBox: '0 0 64 64',
@@ -17225,7 +17225,7 @@ export const PaintCan64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerCompany64 = {
   viewBox: '0 0 64 64',
@@ -17238,7 +17238,7 @@ export const PartnerCompany64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const PartnerWorker64 = {
   viewBox: '0 0 64 64',
@@ -17251,7 +17251,7 @@ export const PartnerWorker64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Pipe64 = {
   viewBox: '0 0 64 64',
@@ -17264,7 +17264,7 @@ export const Pipe64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Premium64 = {
   viewBox: '0 0 64 64',
@@ -17277,7 +17277,7 @@ export const Premium64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Shutter64 = {
   viewBox: '0 0 64 64',
@@ -17290,7 +17290,7 @@ export const Shutter64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Survey64 = {
   viewBox: '0 0 64 64',
@@ -17309,7 +17309,7 @@ export const Survey64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Temperature64 = {
   viewBox: '0 0 64 64',
@@ -17323,7 +17323,7 @@ export const Temperature64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ThermalControl64 = {
   viewBox: '0 0 64 64',
@@ -17343,7 +17343,7 @@ export const ThermalControl64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const ToolBox64 = {
   viewBox: '0 0 64 64',
@@ -17356,7 +17356,7 @@ export const ToolBox64 = {
       },
     },
   ],
-  id: Various,
+  id: 'Various',
 }
 export const Player96 = {
   viewBox: '0 0 96 96',
@@ -17375,7 +17375,7 @@ export const Player96 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const View36096 = {
   viewBox: '0 0 96 96',
@@ -17388,7 +17388,7 @@ export const View36096 = {
       },
     },
   ],
-  id: Media,
+  id: 'Media',
 }
 export const BrandLM24 = {
   viewBox: '0 0 25 24',
@@ -17408,7 +17408,7 @@ export const BrandLM24 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentFintecture24 = {
   viewBox: '0 0 89 24',
@@ -17442,7 +17442,7 @@ export const PaymentFintecture24 = {
       ],
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x24 = {
   viewBox: '0 0 65 24',
@@ -17463,7 +17463,7 @@ export const PaymentOney3x24 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x4x24 = {
   viewBox: '0 0 86 24',
@@ -17498,7 +17498,7 @@ export const PaymentOney3x4x24 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentPayPal24 = {
   viewBox: '0 0 87 24',
@@ -17533,7 +17533,7 @@ export const PaymentPayPal24 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const CardsColorsAmericanExpress24 = {
   viewBox: '0 0 24 24',
@@ -17562,7 +17562,7 @@ export const CardsColorsAmericanExpress24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCB24 = {
   viewBox: '0 0 24 24',
@@ -17611,7 +17611,7 @@ export const CardsColorsCB24 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCheque24 = {
   viewBox: '0 0 24 24',
@@ -17678,7 +17678,7 @@ export const CardsColorsCheque24 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsGift24 = {
   viewBox: '0 0 24 24',
@@ -17728,7 +17728,7 @@ export const CardsColorsGift24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsIllicado24 = {
   viewBox: '0 0 24 24',
@@ -17808,7 +17808,7 @@ export const CardsColorsIllicado24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsLoyalty24 = {
   viewBox: '0 0 24 24',
@@ -17884,7 +17884,7 @@ export const CardsColorsLoyalty24 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsMastercard24 = {
   viewBox: '0 0 24 24',
@@ -17989,7 +17989,7 @@ export const CardsColorsMastercard24 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOney24 = {
   viewBox: '0 0 24 24',
@@ -18018,7 +18018,7 @@ export const CardsColorsOney24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX324 = {
   viewBox: '0 0 24 24',
@@ -18033,7 +18033,7 @@ export const CardsColorsOneyX324 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX424 = {
   viewBox: '0 0 24 24',
@@ -18048,7 +18048,7 @@ export const CardsColorsOneyX424 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaylib24 = {
   viewBox: '0 0 24 24',
@@ -18092,7 +18092,7 @@ export const CardsColorsPaylib24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaypal24 = {
   viewBox: '0 0 24 24',
@@ -18194,7 +18194,7 @@ export const CardsColorsPaypal24 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsVisa24 = {
   viewBox: '0 0 24 24',
@@ -18252,7 +18252,7 @@ export const CardsColorsVisa24 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const ColorsRelayLocation24 = {
   viewBox: '0 0 24 24',
@@ -18274,7 +18274,7 @@ export const ColorsRelayLocation24 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const ColorsStoreLocation24 = {
   viewBox: '0 0 24 24',
@@ -18301,7 +18301,7 @@ export const ColorsStoreLocation24 = {
       ],
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const BrandLM32 = {
   viewBox: '0 0 32 32',
@@ -18321,7 +18321,7 @@ export const BrandLM32 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentFintecture32 = {
   viewBox: '0 0 124 32',
@@ -18355,7 +18355,7 @@ export const PaymentFintecture32 = {
       ],
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x32 = {
   viewBox: '0 0 89 32',
@@ -18376,7 +18376,7 @@ export const PaymentOney3x32 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x4x32 = {
   viewBox: '0 0 117 32',
@@ -18411,7 +18411,7 @@ export const PaymentOney3x4x32 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentPayPal32 = {
   viewBox: '0 0 119 32',
@@ -18446,7 +18446,7 @@ export const PaymentPayPal32 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const CardsColorsAmericanExpress32 = {
   viewBox: '0 0 32 32',
@@ -18475,7 +18475,7 @@ export const CardsColorsAmericanExpress32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCB32 = {
   viewBox: '0 0 32 32',
@@ -18524,7 +18524,7 @@ export const CardsColorsCB32 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCheque32 = {
   viewBox: '0 0 32 32',
@@ -18591,7 +18591,7 @@ export const CardsColorsCheque32 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsGift32 = {
   viewBox: '0 0 32 32',
@@ -18641,7 +18641,7 @@ export const CardsColorsGift32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsIllicado32 = {
   viewBox: '0 0 32 32',
@@ -18713,7 +18713,7 @@ export const CardsColorsIllicado32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsLoyalty32 = {
   viewBox: '0 0 32 32',
@@ -18789,7 +18789,7 @@ export const CardsColorsLoyalty32 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsMastercard32 = {
   viewBox: '0 0 32 32',
@@ -18904,7 +18904,7 @@ export const CardsColorsMastercard32 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOney32 = {
   viewBox: '0 0 32 32',
@@ -18933,7 +18933,7 @@ export const CardsColorsOney32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX332 = {
   viewBox: '0 0 32 32',
@@ -18948,7 +18948,7 @@ export const CardsColorsOneyX332 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX432 = {
   viewBox: '0 0 32 32',
@@ -18963,7 +18963,7 @@ export const CardsColorsOneyX432 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaylib32 = {
   viewBox: '0 0 32 32',
@@ -19007,7 +19007,7 @@ export const CardsColorsPaylib32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaypal32 = {
   viewBox: '0 0 32 32',
@@ -19109,7 +19109,7 @@ export const CardsColorsPaypal32 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsVisa32 = {
   viewBox: '0 0 32 32',
@@ -19164,7 +19164,7 @@ export const CardsColorsVisa32 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const ColorsRelayLocation32 = {
   viewBox: '0 0 32 32',
@@ -19191,7 +19191,7 @@ export const ColorsRelayLocation32 = {
       ],
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const ColorsStoreLocation32 = {
   viewBox: '0 0 32 32',
@@ -19218,7 +19218,7 @@ export const ColorsStoreLocation32 = {
       ],
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const BrandLM48 = {
   viewBox: '0 0 49 48',
@@ -19238,7 +19238,7 @@ export const BrandLM48 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentFintecture48 = {
   viewBox: '0 0 193 48',
@@ -19272,7 +19272,7 @@ export const PaymentFintecture48 = {
       ],
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x48 = {
   viewBox: '0 0 136 48',
@@ -19293,7 +19293,7 @@ export const PaymentOney3x48 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x4x48 = {
   viewBox: '0 0 182 48',
@@ -19328,7 +19328,7 @@ export const PaymentOney3x4x48 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentPayPal48 = {
   viewBox: '0 0 179 48',
@@ -19363,7 +19363,7 @@ export const PaymentPayPal48 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const CardsColorsAmericanExpress48 = {
   viewBox: '0 0 48 48',
@@ -19392,7 +19392,7 @@ export const CardsColorsAmericanExpress48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCB48 = {
   viewBox: '0 0 48 48',
@@ -19441,7 +19441,7 @@ export const CardsColorsCB48 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCheque48 = {
   viewBox: '0 0 48 48',
@@ -19508,7 +19508,7 @@ export const CardsColorsCheque48 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsGift48 = {
   viewBox: '0 0 48 48',
@@ -19565,7 +19565,7 @@ export const CardsColorsGift48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsIllicado48 = {
   viewBox: '0 0 48 48',
@@ -19637,7 +19637,7 @@ export const CardsColorsIllicado48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsLoyalty48 = {
   viewBox: '0 0 48 48',
@@ -19710,7 +19710,7 @@ export const CardsColorsLoyalty48 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsMastercard48 = {
   viewBox: '0 0 48 48',
@@ -19822,7 +19822,7 @@ export const CardsColorsMastercard48 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOney48 = {
   viewBox: '0 0 48 48',
@@ -19851,7 +19851,7 @@ export const CardsColorsOney48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX348 = {
   viewBox: '0 0 48 48',
@@ -19866,7 +19866,7 @@ export const CardsColorsOneyX348 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX448 = {
   viewBox: '0 0 48 48',
@@ -19881,7 +19881,7 @@ export const CardsColorsOneyX448 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaylib48 = {
   viewBox: '0 0 48 48',
@@ -19925,7 +19925,7 @@ export const CardsColorsPaylib48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaypal48 = {
   viewBox: '0 0 48 48',
@@ -20027,7 +20027,7 @@ export const CardsColorsPaypal48 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsVisa48 = {
   viewBox: '0 0 48 48',
@@ -20082,7 +20082,7 @@ export const CardsColorsVisa48 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const ColorsRelayLocation48 = {
   viewBox: '0 0 48 48',
@@ -20104,7 +20104,7 @@ export const ColorsRelayLocation48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const ColorsStoreLocation48 = {
   viewBox: '0 0 48 48',
@@ -20126,7 +20126,7 @@ export const ColorsStoreLocation48 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const BrandLM64 = {
   viewBox: '0 0 65 64',
@@ -20146,7 +20146,7 @@ export const BrandLM64 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentFintecture64 = {
   viewBox: '0 0 261 64',
@@ -20180,7 +20180,7 @@ export const PaymentFintecture64 = {
       ],
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x64 = {
   viewBox: '0 0 183 64',
@@ -20201,7 +20201,7 @@ export const PaymentOney3x64 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentOney3x4x64 = {
   viewBox: '0 0 246 64',
@@ -20236,7 +20236,7 @@ export const PaymentOney3x4x64 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const PaymentPayPal64 = {
   viewBox: '0 0 243 64',
@@ -20271,7 +20271,7 @@ export const PaymentPayPal64 = {
       },
     },
   ],
-  id: Logotypes,
+  id: 'Logotypes',
 }
 export const CardsColorsAmericanExpress64 = {
   viewBox: '0 0 64 64',
@@ -20300,7 +20300,7 @@ export const CardsColorsAmericanExpress64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCB64 = {
   viewBox: '0 0 64 64',
@@ -20349,7 +20349,7 @@ export const CardsColorsCB64 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsCheque64 = {
   viewBox: '0 0 64 64',
@@ -20416,7 +20416,7 @@ export const CardsColorsCheque64 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsGift64 = {
   viewBox: '0 0 64 64',
@@ -20466,7 +20466,7 @@ export const CardsColorsGift64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsIllicado64 = {
   viewBox: '0 0 64 64',
@@ -20538,7 +20538,7 @@ export const CardsColorsIllicado64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsLoyalty64 = {
   viewBox: '0 0 64 64',
@@ -20611,7 +20611,7 @@ export const CardsColorsLoyalty64 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsMastercard64 = {
   viewBox: '0 0 64 64',
@@ -20726,7 +20726,7 @@ export const CardsColorsMastercard64 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOney64 = {
   viewBox: '0 0 64 64',
@@ -20755,7 +20755,7 @@ export const CardsColorsOney64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX364 = {
   viewBox: '0 0 64 64',
@@ -20770,7 +20770,7 @@ export const CardsColorsOneyX364 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsOneyX464 = {
   viewBox: '0 0 64 64',
@@ -20785,7 +20785,7 @@ export const CardsColorsOneyX464 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaylib64 = {
   viewBox: '0 0 64 64',
@@ -20829,7 +20829,7 @@ export const CardsColorsPaylib64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsPaypal64 = {
   viewBox: '0 0 64 64',
@@ -20931,7 +20931,7 @@ export const CardsColorsPaypal64 = {
       ],
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const CardsColorsVisa64 = {
   viewBox: '0 0 64 64',
@@ -20989,7 +20989,7 @@ export const CardsColorsVisa64 = {
       },
     },
   ],
-  id: Payment,
+  id: 'Payment',
 }
 export const ColorsRelayLocation64 = {
   viewBox: '0 0 64 64',
@@ -21011,7 +21011,7 @@ export const ColorsRelayLocation64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
 export const ColorsStoreLocation64 = {
   viewBox: '0 0 64 64',
@@ -21033,5 +21033,5 @@ export const ColorsStoreLocation64 = {
       },
     },
   ],
-  id: Store,
+  id: 'Store',
 }
