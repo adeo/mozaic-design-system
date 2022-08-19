@@ -1,5 +1,5 @@
 module.exports = {
   tokens: {
-    platforms: ['js'],
+    platforms: ['css', 'js'],
   },
 }

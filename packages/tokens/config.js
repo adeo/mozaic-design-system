@@ -31,7 +31,7 @@ const setLocalTokensExportPath = (dir) =>
     ? `${localTokensExportPath}${dir}/`
     : getBuildPath(`build/${dir}/`)
 
-const defaultPlatforms = ['css', 'scss']
+const defaultPlatforms = ['scss']
 const customPlatforms = CM.getKey('tokens.platforms')
 const allowedPlatforms = customPlatforms
   ? defaultPlatforms.concat(customPlatforms)
