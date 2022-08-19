@@ -241,8 +241,4 @@
   &-open {
     overflow: hidden;
   }
-
-  &-overlay {
-    @include set-page-overlay();
-  }
 }
