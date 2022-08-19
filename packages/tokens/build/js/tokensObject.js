@@ -2667,6 +2667,46 @@ module.exports = {
         ]
       }
     },
+    "breadcrumb": {
+      "arrow": {
+        "value": "#333333",
+        "filePath": "packages/tokens/properties/color/breadcrumb.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.800.value}"
+        },
+        "name": "ColorBreadcrumbArrow",
+        "attributes": {
+          "category": "color",
+          "type": "breadcrumb",
+          "item": "arrow"
+        },
+        "path": [
+          "color",
+          "breadcrumb",
+          "arrow"
+        ]
+      },
+      "arrow-invert": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/breadcrumb.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorBreadcrumbArrowInvert",
+        "attributes": {
+          "category": "color",
+          "type": "breadcrumb",
+          "item": "arrow-invert"
+        },
+        "path": [
+          "color",
+          "breadcrumb",
+          "arrow-invert"
+        ]
+      }
+    },
     "button": {
       "solid": {
         "background": {
@@ -4181,6 +4221,134 @@ module.exports = {
         }
       }
     },
+    "card": {
+      "bordered": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorCardBorderedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "card",
+            "item": "bordered",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "card",
+            "bordered",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#808080",
+          "filePath": "packages/tokens/properties/color/card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorCardBorderedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "card",
+            "item": "bordered",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "card",
+            "bordered",
+            "border"
+          ]
+        }
+      }
+    },
+    "dialog": {
+      "background": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorDialogBackground",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "dialog",
+          "background"
+        ]
+      },
+      "icon": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorDialogIcon",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "dialog",
+          "icon"
+        ]
+      },
+      "close": {
+        "value": "#808080",
+        "filePath": "packages/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.500.value}"
+        },
+        "name": "ColorDialogClose",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "close"
+        },
+        "path": [
+          "color",
+          "dialog",
+          "close"
+        ]
+      },
+      "footer": {
+        "shadow": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDialogFooterShadow",
+          "attributes": {
+            "category": "color",
+            "type": "dialog",
+            "item": "footer",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "dialog",
+            "footer",
+            "shadow"
+          ]
+        }
+      }
+    },
     "divider": {
       "lightest": {
         "value": "#ffffff",
@@ -5343,6 +5511,77 @@ module.exports = {
         ]
       }
     },
+    "heading": {
+      "underline": {
+        "default": {
+          "value": "#78be20",
+          "filePath": "packages/tokens/properties/color/heading.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorHeadingUnderlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "heading",
+            "item": "underline",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "heading",
+            "underline",
+            "default"
+          ]
+        },
+        "lightest": {
+          "value": "#cbe3b5",
+          "filePath": "packages/tokens/properties/color/heading.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.200.value}"
+          },
+          "name": "ColorHeadingUnderlineLightest",
+          "attributes": {
+            "category": "color",
+            "type": "heading",
+            "item": "underline",
+            "subitem": "lightest"
+          },
+          "path": [
+            "color",
+            "heading",
+            "underline",
+            "lightest"
+          ]
+        }
+      }
+    },
+    "hero": {
+      "cover": {
+        "background": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/hero.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorHeroCoverBackground",
+          "attributes": {
+            "category": "color",
+            "type": "hero",
+            "item": "cover",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "hero",
+            "cover",
+            "background"
+          ]
+        }
+      }
+    },
     "input": {
       "text": {
         "value": "#191919",
@@ -6452,6 +6691,406 @@ module.exports = {
         }
       }
     },
+    "option-button": {
+      "label": {
+        "shadow": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/option-button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorOptionButtonLabelShadow",
+          "attributes": {
+            "category": "color",
+            "type": "option-button",
+            "item": "label",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "option-button",
+            "label",
+            "shadow"
+          ]
+        }
+      },
+      "hover": {
+        "label": {
+          "shadow": {
+            "value": "#333333",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorOptionButtonHoverLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "hover",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "hover",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "label": {
+          "border": {
+            "value": "#78be20",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorOptionButtonCheckedLabelBorder",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "checked",
+              "subitem": "label",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "checked",
+              "label",
+              "border"
+            ]
+          },
+          "shadow": {
+            "value": "#eaf3e2",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorOptionButtonCheckedLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "checked",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "checked",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "disabled": {
+        "label": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorOptionButtonDisabledLabelBackground",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "disabled",
+              "subitem": "label",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "disabled",
+              "label",
+              "background"
+            ]
+          }
+        }
+      }
+    },
+    "option-card": {
+      "label": {
+        "shadow": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/option-card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorOptionCardLabelShadow",
+          "attributes": {
+            "category": "color",
+            "type": "option-card",
+            "item": "label",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "option-card",
+            "label",
+            "shadow"
+          ]
+        }
+      },
+      "hover": {
+        "label": {
+          "shadow": {
+            "value": "#333333",
+            "filePath": "packages/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorOptionCardHoverLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "hover",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "hover",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "label": {
+          "border": {
+            "value": "#78be20",
+            "filePath": "packages/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorOptionCardCheckedLabelBorder",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "checked",
+              "subitem": "label",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "checked",
+              "label",
+              "border"
+            ]
+          },
+          "shadow": {
+            "value": "#eaf3e2",
+            "filePath": "packages/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorOptionCardCheckedLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "checked",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "checked",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      }
+    },
+    "overlay": {
+      "background": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/overlay.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorOverlayBackground",
+        "attributes": {
+          "category": "color",
+          "type": "overlay",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "overlay",
+          "background"
+        ]
+      },
+      "loader": {
+        "background": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/overlay.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorOverlayLoaderBackground",
+          "attributes": {
+            "category": "color",
+            "type": "overlay",
+            "item": "loader",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "overlay",
+            "loader",
+            "background"
+          ]
+        }
+      }
+    },
+    "password-input": {
+      "button": {
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/password-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorPasswordInputButtonHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "password-input",
+              "item": "button",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "password-input",
+              "button",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      }
+    },
+    "phone-number": {
+      "button": {
+        "border": {
+          "value": "#666666",
+          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorPhoneNumberButtonBorder",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "button",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "button",
+            "border"
+          ]
+        }
+      },
+      "list": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorPhoneNumberListBackground",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "list",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "list",
+            "background"
+          ]
+        }
+      },
+      "item": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorPhoneNumberItemBorder",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "item",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "item",
+            "border"
+          ]
+        },
+        "focus": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/phone-number.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorPhoneNumberItemFocusBackground",
+            "attributes": {
+              "category": "color",
+              "type": "phone-number",
+              "item": "item",
+              "subitem": "focus",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "phone-number",
+              "item",
+              "focus",
+              "background"
+            ]
+          }
+        }
+      }
+    },
     "progress": {
       "background": {
         "value": "#cccccc",
@@ -6634,6 +7273,213 @@ module.exports = {
           "color",
           "star",
           "hover"
+        ]
+      }
+    },
+    "stepper": {
+      "item": {
+        "background": {
+          "value": "#999999",
+          "filePath": "packages/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorStepperItemBackground",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "item",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "item",
+            "background"
+          ]
+        },
+        "current": {
+          "background": {
+            "value": "#91c854",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.400.value}"
+            },
+            "name": "ColorStepperItemCurrentBackground",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "item",
+              "subitem": "current",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "item",
+              "current",
+              "background"
+            ]
+          }
+        }
+      },
+      "link": {
+        "hover": {
+          "text": {
+            "value": "#91c854",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.400.value}"
+            },
+            "name": "ColorStepperLinkHoverText",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "link",
+              "subitem": "hover",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "link",
+              "hover",
+              "text"
+            ]
+          }
+        }
+      },
+      "indicator": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorStepperIndicatorBackground",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "indicator",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "indicator",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#999999",
+          "filePath": "packages/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorStepperIndicatorBorder",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "indicator",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "indicator",
+            "border"
+          ]
+        },
+        "current": {
+          "background": {
+            "value": "#91c854",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.400.value}"
+            },
+            "name": "ColorStepperIndicatorCurrentBackground",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "indicator",
+              "subitem": "current",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "indicator",
+              "current",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#91c854",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.400.value}"
+            },
+            "name": "ColorStepperIndicatorCurrentBorder",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "indicator",
+              "subitem": "current",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "indicator",
+              "current",
+              "border"
+            ]
+          }
+        }
+      },
+      "icon": {
+        "value": "#91c854",
+        "filePath": "packages/tokens/properties/color/stepper.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.400.value}"
+        },
+        "name": "ColorStepperIcon",
+        "attributes": {
+          "category": "color",
+          "type": "stepper",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "stepper",
+          "icon"
+        ]
+      },
+      "title": {
+        "value": "#91c854",
+        "filePath": "packages/tokens/properties/color/stepper.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.400.value}"
+        },
+        "name": "ColorStepperTitle",
+        "attributes": {
+          "category": "color",
+          "type": "stepper",
+          "item": "title"
+        },
+        "path": [
+          "color",
+          "stepper",
+          "title"
         ]
       }
     },
@@ -8235,6 +9081,46 @@ module.exports = {
             "circle"
           ]
         }
+      }
+    },
+    "tooltip": {
+      "background": {
+        "value": "#4d4d4d",
+        "filePath": "packages/tokens/properties/color/tooltip.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.700.value}"
+        },
+        "name": "ColorTooltipBackground",
+        "attributes": {
+          "category": "color",
+          "type": "tooltip",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "tooltip",
+          "background"
+        ]
+      },
+      "border": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/tooltip.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorTooltipBorder",
+        "attributes": {
+          "category": "color",
+          "type": "tooltip",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "tooltip",
+          "border"
+        ]
       }
     }
   },

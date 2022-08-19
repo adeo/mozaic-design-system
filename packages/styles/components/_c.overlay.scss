@@ -3,7 +3,7 @@
 }
 
 .mc-overlay-loader {
-  @include set-page-overlay($background-color-overlay-loader, false);
+  @include set-page-overlay($color-overlay-loader-background, false);
 
   align-items: center;
   display: flex;

@@ -1,0 +1,35 @@
+{
+  "color": {
+    "option-button": {
+      "label": {
+        "shadow": {
+          "value": "{color.grey.300.value}"
+        }
+      },
+      "hover": {
+        "label": {
+          "shadow": {
+            "value": "{color.grey.800.value}"
+          }
+        }
+      },
+      "checked": {
+        "label": {
+          "border": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "shadow": {
+            "value": "{color.primary-01.100.value}"
+          }
+        }
+      },
+      "disabled": {
+        "label": {
+          "background": {
+            "value": "{color.grey.200.value}"
+          }
+        }
+      }
+    }
+  }
+}

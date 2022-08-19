@@ -1,0 +1,11 @@
+{
+  "color": {
+    "hero": {
+      "cover": {
+        "background": {
+          "value": "{color.grey.900.value}"
+        }
+      }
+    }
+  }
+}

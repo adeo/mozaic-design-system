@@ -1,0 +1,12 @@
+{
+  "color": {
+    "breadcrumb": {
+      "arrow": {
+        "value": "{color.grey.800.value}"
+      },
+      "arrow-invert": {
+        "value": "{color.grey.000.value}"
+      }
+    }
+  }
+}

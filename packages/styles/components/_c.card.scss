@@ -8,22 +8,22 @@
 
   @include set-font-family();
 
-  max-width: magic-unit-rem(17.75, 'true'); // 284px
+  max-width: magic-unit-rem(17.75, "true"); // 284px
 
-  @include set-from-screen('m') {
-    max-width: magic-unit-rem(18.25, 'true'); // 292px;
+  @include set-from-screen("m") {
+    max-width: magic-unit-rem(18.25, "true"); // 292px;
   }
 
-  @include set-from-screen('l') {
-    max-width: magic-unit-rem(18, 'true'); // 288px
+  @include set-from-screen("l") {
+    max-width: magic-unit-rem(18, "true"); // 288px
   }
 
-  @include set-from-screen('xl') {
-    max-width: magic-unit-rem(17.5, 'true'); // 280px
+  @include set-from-screen("xl") {
+    max-width: magic-unit-rem(17.5, "true"); // 280px
   }
 
-  @include set-from-screen('xxl') {
-    max-width: magic-unit-rem(27.25, 'true'); // 436px
+  @include set-from-screen("xxl") {
+    max-width: magic-unit-rem(27.25, "true"); // 436px
   }
 
   &__visual {
@@ -34,11 +34,11 @@
     &::before {
       @include ratio-before();
 
-      padding-top: map-get($card-visual-ratios, '4x3');
+      padding-top: map-get($card-visual-ratios, "4x3");
     }
 
     @each $ratio, $size in $card-visual-ratios {
-      @if ($ratio != '4x3') {
+      @if ($ratio != "4x3") {
         &--#{$ratio}::before {
           padding-top: $size;
         }
@@ -66,29 +66,29 @@
   }
 
   &__title {
-    @include set-font-scale('06', 'm');
-    @include set-font-weight('semi-bold');
+    @include set-font-scale("06", "m");
+    @include set-font-weight("semi-bold");
 
     color: $color-font-darkest;
   }
 
   &__subtitle {
-    @include set-font-scale('04', 'm');
-    @include set-font-weight('regular');
+    @include set-font-scale("04", "m");
+    @include set-font-weight("regular");
 
     color: $color-font-dark;
   }
 
   &__body {
-    @include set-font-scale('05', 'm');
+    @include set-font-scale("05", "m");
 
     color: $color-font-darker;
     margin-bottom: $mu100;
   }
 
   &--bordered {
-    background: $color-grey-000;
-    border: get-border(m) solid $color-grey-500;
+    background: $color-card-bordered-background;
+    border: get-border(m) solid $color-card-bordered-border;
     border-radius: $mu025;
     overflow: hidden;
 

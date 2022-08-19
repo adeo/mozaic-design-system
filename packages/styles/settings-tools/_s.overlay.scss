@@ -1,13 +1,11 @@
 $z-index-page-overlay: 1999999998;
-$background-overlay-theme: (
-  "lm": $color-grey-900,
-  "adeo": $color-secondary-blue-900,
-);
-$background-color-overlay-loader: map-get($background-overlay-theme, $preset);
 
 /// The mixin set-page-overlay() defines the styles
 /// of an overlay element that apply to all the space on a page
-@mixin set-page-overlay($background-color: $color-grey-900, $blur: true) {
+@mixin set-page-overlay(
+  $background-color: $color-overlay-background,
+  $blur: true
+) {
   background-color: mt-rgba($background-color, 0.7);
   cursor: pointer;
   @if $blur {

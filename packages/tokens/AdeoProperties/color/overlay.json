@@ -1,0 +1,11 @@
+{
+  "color": {
+    "overlay": {
+      "loader": {
+        "background": {
+          "value": "{color.secondary-blue.900.value}"
+        }
+      }
+    }
+  }
+}

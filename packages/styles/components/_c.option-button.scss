@@ -10,12 +10,12 @@
     @include set-hidden-input;
 
     &:hover + #{$parent}__label {
-      box-shadow: 0 0 0 2px $color-grey-800;
+      box-shadow: 0 0 0 2px $color-option-button-hover-label-shadow;
     }
 
     &:checked + #{$parent}__label {
-      border-color: $color-primary-01-500;
-      box-shadow: 0 0 0 $mu025 $color-success-100;
+      border-color: $color-option-button-checked-label-border;
+      box-shadow: 0 0 0 $mu025 $color-option-button-checked-label-shadow;
     }
 
     &:focus + #{$parent}__label {
@@ -24,8 +24,8 @@
 
     &:disabled + #{$parent}__label {
       cursor: not-allowed;
-      background-color: $color-grey-200;
-      color: $color-grey-600;
+      background-color: $color-option-button-disabled-label-background;
+      color: $color-font-light;
       box-shadow: none;
     }
   }
@@ -36,7 +36,7 @@
     position: relative;
     padding: magic-unit-rem(1.5625, true) $mu200; // 25px 32px
     border-radius: get-border-radius("m");
-    box-shadow: 0 0 0 1px $color-grey-300;
+    box-shadow: 0 0 0 1px $color-option-button-label-shadow;
     border: 2px solid transparent;
     cursor: pointer;
 
