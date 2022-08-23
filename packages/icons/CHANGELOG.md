@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.41.0](https://github.com/adeo/mozaic-design-system/compare/v1.40.0...v1.41.0) (2022-08-23)
+
+
+### Features
+
+* **icons/react:** build react icons with babel ([#1190](https://github.com/adeo/mozaic-design-system/issues/1190)) ([049672b](https://github.com/adeo/mozaic-design-system/commit/049672bf7ebd83a043eae853627ab2c579e23487))
+* **icons:** icon.js — add the type of the icon in the exported icons objects ([#1186](https://github.com/adeo/mozaic-design-system/issues/1186)) ([948e508](https://github.com/adeo/mozaic-design-system/commit/948e50817440c96eed1730f524e66e6f671f5664))
+
+
+
+
+
 # [1.40.0](https://github.com/adeo/mozaic-design-system/compare/v1.39.1...v1.40.0) (2022-08-03)
 
 

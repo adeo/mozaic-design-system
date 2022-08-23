@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.41.0](https://github.com/adeo/mozaic-design-system/compare/v1.40.0...v1.41.0) (2022-08-23)
+
+
+### Bug Fixes
+
+* **foundation/colours:** change token value ([#1179](https://github.com/adeo/mozaic-design-system/issues/1179)) ([f4c19b2](https://github.com/adeo/mozaic-design-system/commit/f4c19b25654fc010caf0c391ae8ad16a48f9ac3e))
+* **patterns/icons:** generate usable react icon with @babel/preset-react ([#1185](https://github.com/adeo/mozaic-design-system/issues/1185)) ([bd2ea94](https://github.com/adeo/mozaic-design-system/commit/bd2ea9489d73a8793642186366a50d7c1854c314))
+* **tools/tokens:** bricoman - update tokens for button & heading ([#1183](https://github.com/adeo/mozaic-design-system/issues/1183)) ([d16ed15](https://github.com/adeo/mozaic-design-system/commit/d16ed154e3ce7fee6d63189bd2fe47d3be7aaed0))
+
+
+### Features
+
+* **components/tokens:** add tokens to components that had none ([a942a63](https://github.com/adeo/mozaic-design-system/commit/a942a633d2682f007cf4c6fee7096f802f85e621))
+* **icons/react:** build react icons with babel ([#1190](https://github.com/adeo/mozaic-design-system/issues/1190)) ([049672b](https://github.com/adeo/mozaic-design-system/commit/049672bf7ebd83a043eae853627ab2c579e23487))
+* **icons:** icon.js — add the type of the icon in the exported icons objects ([#1186](https://github.com/adeo/mozaic-design-system/issues/1186)) ([948e508](https://github.com/adeo/mozaic-design-system/commit/948e50817440c96eed1730f524e66e6f671f5664))
+
+
+
+
+
 # [1.40.0](https://github.com/adeo/mozaic-design-system/compare/v1.39.1...v1.40.0) (2022-08-03)
 
 
