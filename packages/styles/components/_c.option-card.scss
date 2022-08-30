@@ -7,52 +7,54 @@
   cursor: pointer;
   position: relative;
 
-  @at-root input#{$parent}__input {
-    border-color: $color-input-border;
-    position: absolute;
-    right: $mu100;
-    top: $mu100;
-
-    &,
-    &:focus {
-      box-shadow: none;
-    }
-
-    &:checked {
-      border-color: $color-input-checked-border;
-    }
-
-    &:hover {
+  &__input {
+    @include unify-parent("input") {
       border-color: $color-input-border;
-    }
+      position: absolute;
+      right: $mu100;
+      top: $mu100;
 
-    &:checked:hover {
-      border-color: $color-input-checked-border;
-    }
+      &,
+      &:focus {
+        box-shadow: none;
+      }
 
-    &:hover + #{$parent}__label {
-      box-shadow: 0 0 0 2px $color-option-card-hover-label-shadow;
-    }
+      &:checked {
+        border-color: $color-input-checked-border;
+      }
 
-    &:checked + #{$parent}__label {
-      border-color: $color-option-card-checked-label-border;
-      box-shadow: 0 0 0 $mu025 $color-option-card-checked-label-shadow;
-    }
+      &:hover {
+        border-color: $color-input-border;
+      }
 
-    &:focus + #{$parent}__label {
-      @include set-focus-floating();
-    }
+      &:checked:hover {
+        border-color: $color-input-checked-border;
+      }
 
-    &:checked ~ #{$parent}__content {
-      label,
-      button,
-      [href],
-      input,
-      select,
-      textarea,
-      #{$parent}__focusable,
-      [tabindex]:not([tabindex="-1"]) {
-        z-index: 2;
+      &:hover + #{$parent}__label {
+        box-shadow: 0 0 0 2px $color-option-card-hover-label-shadow;
+      }
+
+      &:checked + #{$parent}__label {
+        border-color: $color-option-card-checked-label-border;
+        box-shadow: 0 0 0 $mu025 $color-option-card-checked-label-shadow;
+      }
+
+      &:focus + #{$parent}__label {
+        @include set-focus-floating();
+      }
+
+      &:checked ~ #{$parent}__content {
+        label,
+        button,
+        [href],
+        input,
+        select,
+        textarea,
+        #{$parent}__focusable,
+        [tabindex]:not([tabindex="-1"]) {
+          z-index: 2;
+        }
       }
     }
   }
