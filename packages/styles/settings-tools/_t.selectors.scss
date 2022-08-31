@@ -1,15 +1,21 @@
-@function get-parent-selector($selector, $prefix: '.mc-') {
+@use "sass:selector";
+
+@function get-parent-selector($selector, $prefix: ".mc-") {
   $start-index: str-index(#{$selector}, $prefix);
 
   @if $start-index {
     $mozaic-class: str-slice(#{$selector}, $start-index);
 
     @return $mozaic-class;
-  }
-
-  @else {
+  } @else {
     @warn "Unknown prefix #{$prefix} in #{$selector} selector.";
 
     @return $selector;
+  }
+}
+
+@mixin unify-parent($child) {
+  @at-root #{selector.unify(&, $child)} {
+    @content;
   }
 }
