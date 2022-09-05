@@ -309,6 +309,12 @@
   <color name="color_link_danger_active">#ff8b2226</color>
   <color name="color_link_danger_disabled">#ffe6e6e6</color>
   <color name="color_link_danger_hover">#ff3e1219</color>
+  <color name="color_listbox_background">#ffffffff</color>
+  <color name="color_listbox_border">#ff666666</color>
+  <color name="color_listbox_tile_border">#ffb3b3b3</color>
+  <color name="color_listbox_tile_shadow">#ff191919</color>
+  <color name="color_listbox_tile_hover_background">#ffe6e6e6</color>
+  <color name="color_listbox_disabled_background">#ffcccccc</color>
   <color name="color_notification_font">#ff000000</color>
   <color name="color_notification_information_background">#ffecfcfd</color>
   <color name="color_notification_information_border">#ff25a8d0</color>

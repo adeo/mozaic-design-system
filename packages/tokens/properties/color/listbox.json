@@ -1,0 +1,30 @@
+{
+  "color": {
+    "listbox": {
+      "background": {
+        "value": "{color.grey.000.value}"
+      },
+      "border": {
+        "value": "{color.grey.600.value}"
+      },
+      "tile": {
+        "border": {
+          "value": "{color.grey.300.value}"
+        },
+        "shadow": {
+          "value": "{color.grey.900.value}"
+        },
+        "hover": {
+          "background": {
+            "value": "{color.grey.100.value}"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "{color.grey.200.value}"
+        }
+      }
+    }
+  }
+}
