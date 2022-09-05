@@ -6494,6 +6494,138 @@ module.exports = {
         }
       }
     },
+    "listbox": {
+      "background": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/listbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorListboxBackground",
+        "attributes": {
+          "category": "color",
+          "type": "listbox",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "listbox",
+          "background"
+        ]
+      },
+      "border": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/listbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorListboxBorder",
+        "attributes": {
+          "category": "color",
+          "type": "listbox",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "listbox",
+          "border"
+        ]
+      },
+      "tile": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorListboxTileBorder",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "tile",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "tile",
+            "border"
+          ]
+        },
+        "shadow": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorListboxTileShadow",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "tile",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "tile",
+            "shadow"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/listbox.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorListboxTileHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "listbox",
+              "item": "tile",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "listbox",
+              "tile",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorListboxDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "disabled",
+            "background"
+          ]
+        }
+      }
+    },
     "notification": {
       "font": {
         "value": "#000000",
