@@ -6,6 +6,7 @@
   // Header - Topbar
   &__topbar {
     justify-content: space-between;
+
     padding: {
       top: $mu100;
       bottom: $mu100;
@@ -28,8 +29,9 @@
     }
 
     &-actions {
-      justify-content: flex-end;
       align-items: center;
+      justify-content: flex-end;
+      margin-left: auto;
     }
   }
 
