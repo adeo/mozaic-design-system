@@ -108,8 +108,13 @@ button,
 select,
 textarea {
   font: inherit;
-  appearance: none;
   padding: 0;
+}
+
+button,
+select,
+textarea {
+  appearance: none;
 }
 
 [hidden] {
