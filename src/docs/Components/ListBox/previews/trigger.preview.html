@@ -1,50 +1,97 @@
 <div class="example">
-  <div class="example-default">
+  <div class="example__container">
     <button id="default" type="button" class="mc-button">
       <svg class="mc-button__icon">
         <use xlink:href="#icon" />
       </svg>
     </button>
-    <ul
-      tabindex="-1"
-      role="listbox"
-      aria-labelledby="lisbox"
-      class="mc-listbox"
-      id="listbox"
-    >
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+    <ul id="listboxDefault" class="mc-listbox" role="listbox" tabindex="0">
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem1"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option1"
+        />
+        <label for="monoItem1" class="mc-listbox__label">
+          Option label n°1
+        </label>
       </li>
-      <li class="mc-listbox__item is-disabled" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem2"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option2"
+        />
+        <label for="monoItem2" class="mc-listbox__label">
+          Option label n°2
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile is-disabled" role="option">
+        <input
+          id="monoItem3"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option3"
+        />
+        <label for="monoItem3" class="mc-listbox__label">
+          Option label n°3
+        </label>
       </li>
     </ul>
   </div>
 
-  <div class="example-left">
+  <div class="example__container">
     <button id="left" type="button" class="mc-button button-example">
       <svg class="mc-button__icon">
         <use xlink:href="#icon" />
       </svg>
     </button>
     <ul
-      tabindex="-1"
-      role="listbox"
-      aria-labelledby="lisbox"
+      id="listboxLeft"
       class="mc-listbox mc-listbox--left"
-      id="listbox-left"
+      role="listbox"
+      tabindex="0"
     >
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem1"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option1"
+        />
+        <label for="monoItem1" class="mc-listbox__label">
+          Option label n°1
+        </label>
       </li>
-      <li class="mc-listbox__item is-disabled" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem2"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option2"
+        />
+        <label for="monoItem2" class="mc-listbox__label">
+          Option label n°2
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile is-disabled" role="option">
+        <input
+          id="monoItem3"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option3"
+        />
+        <label for="monoItem3" class="mc-listbox__label">
+          Option label n°3
+        </label>
       </li>
     </ul>
   </div>
@@ -60,19 +107,18 @@
   </svg>
 </div>
 
-<!-- script-->
-
+<!-- JS script-->
 <script>
   const button = document.getElementById('default')
   const buttonLeft = document.getElementById('left')
 
   button.addEventListener('click', function (e) {
-    const list = document.getElementById('listbox')
+    const list = document.getElementById('listboxDefault')
     list.classList.toggle('is-open')
   })
 
   buttonLeft.addEventListener('click', function (e) {
-    const list = document.getElementById('listbox-left')
+    const list = document.getElementById('listboxLeft')
     list.classList.toggle('is-open')
   })
 </script>

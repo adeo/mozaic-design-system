@@ -3,26 +3,23 @@
 
   @include unstyle-list();
 
+  background-color: $color-listbox-background;
+  border: get-border("s") solid $color-listbox-border;
+  border-radius: get-border-radius("m") - 1;
   position: absolute;
-  border: 1px solid $color-grey-600;
-  margin-top: 5px;
   overflow-y: auto;
-  border-radius: 3px;
-  max-height: 13.5rem;
+  margin-top: $mu025;
   margin-bottom: 0;
-  min-width: 18rem;
-  background-color: $color-grey-000;
+  max-height: $listbox-height;
+  min-width: $listbox-width;
   opacity: 0;
   visibility: hidden;
+  width: var(--listbox-width, $listbox-width);
 
   &.is-open {
-    z-index: 11;
     opacity: 1;
     visibility: visible;
-  }
-
-  &.is-focus {
-    @include set-shadow-focus();
+    z-index: 10;
   }
 
   &::-webkit-scrollbar {
@@ -34,23 +31,27 @@
     }
   }
 
-  &__item {
-    display: flex;
+  &__item,
+  &__tile {
     align-items: center;
+    display: flex;
     gap: $mu050;
-    padding-left: $mu075;
     min-height: $mu300;
+    padding-left: $mu075;
+    padding-right: $mu075;
+    position: relative;
+    justify-content: space-between;
+
     &:not(:last-child) {
-      border-bottom: 1px solid $color-grey-300;
+      border-bottom: get-border("s") solid $color-listbox-tile-border;
     }
 
     &:hover {
-      background-color: $color-grey-100;
-      box-shadow: inset 9px 0 0 -7px $color-grey-900;
-      cursor: pointer;
+      @include listbox-tile-hover();
     }
   }
 
+  &__flag,
   &__icon {
     width: $mu200;
     height: $mu200;
@@ -59,77 +60,72 @@
   &__flag {
     @include set-font-scale("07", "m");
 
-    width: $mu200;
-    height: $mu200;
     text-align: center;
   }
 
   &__empty {
-    align-items: center;
-    border: 1px solid $color-grey-600;
-    border-radius: get-border-radius("m");
-    padding: $mu100 $mu050;
+    @include set-font-scale("04", "m");
+
+    color: $color-fields-error;
+    display: inline-block;
+    margin-top: $mu025;
   }
 
-  .is-checked {
-    background-size: $mu150;
-    background-image: url(
-      inline-icons(
-        "notification-available-24",
-        $color-grey-900
-      ));
-    background-repeat: no-repeat;
-    background-position: right $mu075 center;
+  &__label {
+    cursor: pointer;
+    margin-right: auto;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+  }
+
+  &__input {
+    order: 1;
+  }
+
+  .is-checked,
+  .is-selected {
+    @include listbox-tile-selected(
+      $position: right $mu075 center,
+      $size: $mu150
+    );
   }
 
   .is-focus {
-    background-color: $color-grey-100;
-    box-shadow: inset 9px 0 0 -7px $color-grey-900;
+    @include listbox-tile-hover();
   }
 
   .is-disabled {
     cursor: not-allowed;
     box-shadow: none;
-    background-color: $color-grey-200;
-    color: $color-grey-600;
+    background-color: $color-listbox-disabled-background;
+    color: $color-font-light;
     pointer-events: none;
+  }
+
+  &:not(.mc-listbox--multi) {
+    #{$parent}__input {
+      @include visually-hidden();
+
+      &:checked + #{$parent}__label::before {
+        @include listbox-tile-selected();
+
+        content: "";
+        height: $mu150;
+        position: absolute;
+        right: $mu075;
+        top: 0;
+        transform: translateY(50%);
+        width: $mu150;
+      }
+    }
   }
 
   &--left {
     right: 0;
-    transform: translateX(-100%);
-  }
-
-  &--multi {
-    #{$parent} {
-      &__item {
-        position: relative;
-      }
-
-      &__input {
-        @include reset-input;
-        @include set-checkbox-input;
-        @include set-checkbox-checked;
-
-        border-color: $color-input-border;
-        position: absolute;
-        right: $mu100;
-        z-index: 2;
-      }
-
-      &__label {
-        cursor: pointer;
-        align-self: stretch;
-        display: inline-flex;
-        align-items: center;
-
-        &::after {
-          content: "";
-          position: absolute;
-          inset: 0;
-          z-index: 1;
-        }
-      }
-    }
   }
 }

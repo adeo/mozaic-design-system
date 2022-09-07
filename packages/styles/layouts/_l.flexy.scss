@@ -1,5 +1,7 @@
 /* mqp:start */
 .ml-flexy {
+  $parent: get-parent-selector(&, ".ml-");
+
   @include set-flexy();
 
   &--gutter {
@@ -67,7 +69,7 @@
   &__col {
     flex: 1 1 0;
 
-    .ml-flexy--gutter > & {
+    .ml-flexy--gutter > #{$parent}__col {
       @include set-flexy-col-gutter($size-gutter-screen-s);
 
       @include set-from-screen("m") {
