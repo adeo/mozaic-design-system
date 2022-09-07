@@ -309,6 +309,12 @@ $color-link-danger-visited: #8b2226 !default;
 $color-link-danger-active: #8b2226 !default;
 $color-link-danger-disabled: #e6e6e6 !default;
 $color-link-danger-hover: #3e1219 !default;
+$color-listbox-background: #ffffff !default;
+$color-listbox-border: #666666 !default;
+$color-listbox-tile-border: #b3b3b3 !default;
+$color-listbox-tile-shadow: #191919 !default;
+$color-listbox-tile-hover-background: #e6e6e6 !default;
+$color-listbox-disabled-background: #cccccc !default;
 $color-notification-font: #000000 !default;
 $color-notification-information-background: #ecfcfd !default;
 $color-notification-information-border: #25a8d0 !default;
@@ -1033,6 +1039,20 @@ $tokens: (
         'active': $color-link-danger-active,
         'disabled': $color-link-danger-disabled,
         'hover': $color-link-danger-hover
+      )
+    ),
+    'listbox': (
+      'background': $color-listbox-background,
+      'border': $color-listbox-border,
+      'tile': (
+        'border': $color-listbox-tile-border,
+        'shadow': $color-listbox-tile-shadow,
+        'hover': (
+          'background': $color-listbox-tile-hover-background
+        )
+      ),
+      'disabled': (
+        'background': $color-listbox-disabled-background
       )
     ),
     'notification': (

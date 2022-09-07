@@ -5,98 +5,123 @@ order: 2
 
 ## Import
 
-Import the settings and the listbox `scss` files.
-
 ```scss
 @import 'settings-tools/all-settings';
-
-@import 'components/c.checkbox';
+@import 'components/c.checkbox'; // optional - to be imported when using the multiselection version
 @import 'components/c.listbox';
 ```
 
 ## Usage
 
-The creation of an listbox component in your code is done using the following HTML structure:
+The creation of an **Listbox** component in your code is done using the following HTML structure:
 
 ### Mono selection
+
 ```HTML
-  <ul
-    tabindex="-1"
-    role="listbox"
-    aria-labelledby="listbox"
-    class="mc-listbox"
-  >
-    <li class="mc-listbox__item" role="option">
-      <span class="mc-listbox__text">Option label</span>
-    </li>
-    ...
-  </ul>
+<ul class="mc-listbox" role="listbox" tabindex="0">
+  <li class="mc-listbox__tile" role="option">
+    <input type="radio"
+      name="monoSelection"
+      id="monoItem1"
+      class="mc-listbox__input"
+      value="option1"
+    />
+    <label for="monoItem1" class="mc-listbox__label">
+      Option label n°1
+    </label>
+  </li>
+  ...
+</ul>
 ```
 
 ### Multi selection
+
 ```HTML
-  <ul
-    tabindex="-1"
-    role="listbox"
-    aria-labelledby="listbox"
-    class="mc-listbox"
-  >
-    <li class="mc-listbox__item" role="option">
-      <span class="mc-listbox__text">Option label</span>
-    </li>
-    ...
-  </ul>
+<ul class="mc-listbox mc-listbox--multi" role="listbox" tabindex="0">
+  <li class="mc-listbox__tile" role="option">
+    <input type="checkbox"
+      id="multiItem1"
+      class="mc-listbox__input mc-checkbox__input"
+      value="option1" />
+    <label for="multiItem1" class="mc-listbox__label">
+      Option label n°1
+    </label>
+  </li>
+  ...
+</ul>
 ```
+
+<Highlight>
+  In order to facilitate the accessibility and the selection/transmission of
+  values, the items of the <strong>Listbox</strong> component are constituted by
+  default of the elements :
+  <ul>
+    <li>
+      <strong>input[type="radio"] + label</strong> — for the mono-selection
+      version
+    </li>
+    <li>
+      or <strong>input[type="checkbox"] + label</strong> — for the
+      multi-selection version
+    </li>
+  </ul>
+</Highlight>
 
 ## Variations
 
 ### Mono selection
 
 This variation is mostly combined with direct action or with a dropdown component.
-To display a checked item, you have to add the modifier `is-checked` on the `li` element.
 
 <Preview path="default" />
 
+<Highlight theme="tips">
+  As mentioned before, in its basic structure, the component works with HTML
+  input elements. <br />
+  However, it may happen that you do not want to use input elements when implementing
+  the component. <br />
+  If this is the case, we provide you with the <strong>is-selected</strong>{' '}
+  class which can be put on an <strong>li</strong> element to indicate the
+  selected element.
+</Highlight>
+
 ### Multi selection
 
-In order to use the listbox with a multi selection, you must use checkboxes inside the items. 
-To achieve that you have to add the class `mc-listbox__checkbox` to checkbox components.
-
+In order to use the listbox with a multi selection, you must use checkboxes inside the `li` items.
+To do this, in addition to the `mc-listbox__input` class, you must add the `mc-listbox__checkbox` class to the checkbox elements.
 
 <Preview path="multiselect" />
 
-### Icons 
-To be more explicit, you may want to add an icon before the item label. 
-To achieve that you have to add the class `mc-listbox__icon` to your icons. 
+### Icons
+
+To be more explicit, you may want to add an icon before the item label.
+To achieve that you have to add the class `mc-listbox__icon` to your icons.
 
 <Preview path="icons" />
 
 ### Left opening
-In some cases, you may want to open the listbox in the left side of the trigger. 
-To achieve that you have to add the modifier `mc-listbox--left` to `mc-listbox` element.
 
+In some cases, you may want to open the listbox in the left side of the trigger.
+To achieve that you have to add the modifier `mc-listbox--left` to `mc-listbox` element.
 
 <Preview path="trigger" />
 
 ## Behaviour
+
 <Highlight theme="warning">
 
-The items states can only be manage by javascript. 
+The items states can only be manage by javascript.
 
 </Highlight>
 
-### Open 
+### Open
 
-By default the listbox is set to be hidden. To display the listbox, you have to add `is-open` class to `mc-listbox` element.
-
-### Checked 
-
-To checked an item you have to add `is-checked` class to the `mc-listbox__item` element.
+By default the listbox is set to be hidden. <br />To display the listbox, you have to add the `is-open` class to `mc-listbox` element.
 
 ### Focus
 
-To focus an item you have to add `is-focus` class to the `mc-listbox__item` element.
+To focus an item you have to add `is-focus` class to the `mc-listbox__tile` element.
 
 ### Disabled
 
-To disable an item you have to add `is-disabled` class to the `mc-listbox__item` element.
+To disable an item you have to add `is-disabled` class to the `mc-listbox__tile` element and the `disabled` attribute on the `input` element.
