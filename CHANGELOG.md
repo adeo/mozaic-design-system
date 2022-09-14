@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.42.0](https://github.com/adeo/mozaic-design-system/compare/v1.41.0...v1.42.0) (2022-09-14)
+
+
+### Bug Fixes
+
+* **component/datatable:** improve datatable-actions position ([#1198](https://github.com/adeo/mozaic-design-system/issues/1198)) ([614be6f](https://github.com/adeo/mozaic-design-system/commit/614be6fdb1f3f7c5e8d75e2ba237724320c06fac))
+* **component/modal:** styles - replace fill-available to stretch ([#1194](https://github.com/adeo/mozaic-design-system/issues/1194)) ([4889066](https://github.com/adeo/mozaic-design-system/commit/488906650dec3b8c7ea29269a8ae8f23052a2c54))
+* **component/option-card:** manage the use of the [@at-root](https://github.com/at-root) selector differently ([#1192](https://github.com/adeo/mozaic-design-system/issues/1192)) ([fffecca](https://github.com/adeo/mozaic-design-system/commit/fffecca4c51babfa2239de179c1d82c672c5e5f7))
+* **generic/reset:** remove the input tag from the scope of the appearance:none rule ([#1199](https://github.com/adeo/mozaic-design-system/issues/1199)) ([41cf438](https://github.com/adeo/mozaic-design-system/commit/41cf438bc84e728cfb59d8cf38fea95392017b87)), closes [#1197](https://github.com/adeo/mozaic-design-system/issues/1197)
+* **layouts/grid:** make the .ml-flexy__col selector scopable ([#1195](https://github.com/adeo/mozaic-design-system/issues/1195)) ([9035c64](https://github.com/adeo/mozaic-design-system/commit/9035c64371c4d83782cba852aec14b692bde95de)), closes [#1178](https://github.com/adeo/mozaic-design-system/issues/1178)
+
+
+### Features
+
+* **component/listbox:** improve the styles and documentation of the component ([#1193](https://github.com/adeo/mozaic-design-system/issues/1193)) ([6a15da9](https://github.com/adeo/mozaic-design-system/commit/6a15da919d7d07016b93a40125c6cd5a2a0c52f5))
+
+
+
+
+
 # [1.41.0](https://github.com/adeo/mozaic-design-system/compare/v1.40.0...v1.41.0) (2022-08-23)
 
 

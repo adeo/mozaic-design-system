@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.42.0](https://github.com/adeo/mozaic-design-system/compare/v1.41.0...v1.42.0) (2022-09-14)
+
+
+### Features
+
+* **component/listbox:** improve the styles and documentation of the component ([#1193](https://github.com/adeo/mozaic-design-system/issues/1193)) ([6a15da9](https://github.com/adeo/mozaic-design-system/commit/6a15da919d7d07016b93a40125c6cd5a2a0c52f5))
+
+
+
+
+
 # [1.41.0](https://github.com/adeo/mozaic-design-system/compare/v1.40.0...v1.41.0) (2022-08-23)
 
 
