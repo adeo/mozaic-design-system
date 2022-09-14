@@ -6,7 +6,6 @@
 .example {
   @include set-font-face();
 
-  background-color: $color-grey-700;
   display: block;
   padding: $mu150;
 }
