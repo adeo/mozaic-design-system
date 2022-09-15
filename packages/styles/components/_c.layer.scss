@@ -17,7 +17,7 @@
     justify-content: flex-start;
 
     #{$parent}__dialog {
-      margin-left: -100%;
+      transform: translate3d(-100%, 0, 0);
     }
   }
 
@@ -25,7 +25,7 @@
     justify-content: flex-end;
 
     #{$parent}__dialog {
-      margin-right: -100%;
+      transform: translate3d(100%, 0, 0);
     }
   }
 
@@ -35,7 +35,7 @@
     flex-direction: column;
     height: 100%;
     max-width: calc(100% - #{$mu200});
-    transition: margin-right 0.4s linear, visibility 0s linear 0.4s;
+    transition: visibility 0s linear 0.4s, transform 0.4s;
     visibility: hidden;
     width: 100%;
 
@@ -53,9 +53,8 @@
 
     @at-root #{$parent} &.is-open {
       pointer-events: all;
-      margin-left: 0;
-      margin-right: 0;
-      transition: margin-right 0.4s linear, visibility 0s;
+      transform: translate3d(0, 0, 0);
+      transition: visibility 0s linear 0s, transform 0.4s;
       visibility: visible;
     }
 
