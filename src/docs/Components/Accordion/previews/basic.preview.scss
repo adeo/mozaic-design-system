@@ -1,6 +1,10 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
 
+html {
+  @include set-font-face();
+}
+
 #example {
   @import "components/c.accordion";
 }

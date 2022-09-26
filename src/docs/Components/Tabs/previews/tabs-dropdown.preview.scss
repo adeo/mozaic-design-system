@@ -1,5 +1,8 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.tabs";
 @import "components/c.select";
 
@@ -8,7 +11,5 @@ body {
 }
 
 .example {
-  @include set-font-face();
-
   margin: $mu200;
 }

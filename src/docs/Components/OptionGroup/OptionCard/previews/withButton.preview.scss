@@ -1,12 +1,14 @@
 @import "settings-tools/_all-settings";
 
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 
 @import "components/_c.checkbox";
 @import "components/_c.button";
 @import "typography/_t.bodys";
 @import "components/_c.option-card";
-
 
 .example {
   @include set-font-family();

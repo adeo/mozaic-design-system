@@ -1,11 +1,12 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.toggle";
 @import "components/c.fields";
 
 .example {
-  @include set-font-face("regular");
-
   margin: $mu200 0;
   padding: 0 $mu200;
 }
