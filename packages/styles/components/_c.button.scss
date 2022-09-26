@@ -2,7 +2,7 @@
 .mc-button {
   @include unstyle-button();
   @include set-button-theme(get-token(color, button, "solid"), true);
-  @include set-font-face("semi-bold");
+  @include set-font-weight("semi-bold");
   @include set-button-size($button-medium);
   @include set-button-layout();
 

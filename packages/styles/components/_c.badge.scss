@@ -1,7 +1,7 @@
 /* mqp:start */
 .mc-badge {
   @include set-badge-base();
-  @include set-font-face("semi-bold");
+  @include set-font-weight("semi-bold");
   @include set-font-scale("04", "m");
   @include set-badge-theme(get-token(color, badge, "info"));
 

@@ -8,7 +8,7 @@
   }
 
   &__label {
-    @include set-font-face("semi-bold");
+    @include set-font-weight("semi-bold");
     @include set-button-layout();
     @include set-button-size(map-get($button-sizes, "m"));
     @include set-button-theme(get-token(color, button, "bordered"));
@@ -71,8 +71,6 @@
   }
 
   &__file {
-    @include set-font-face("regular");
-
     align-items: center;
     background: $color-fileuploader-files-list;
     box-sizing: content-box;
@@ -109,19 +107,17 @@
     }
 
     &--is-valid &-icon {
-      background-image: url(
-        inline-icons(
-          "valid-24",
-          $color-fileuploader-valid
-        ));
+      background-image: url(inline-icons(
+        "valid-24",
+        $color-fileuploader-valid
+      ));
     }
 
     &--is-invalid &-icon {
-      background-image: url(
-        inline-icons(
-          "alert-24",
-          $color-fileuploader-alert
-        ));
+      background-image: url(inline-icons(
+        "alert-24",
+        $color-fileuploader-alert
+      ));
     }
 
     &--is-invalid &-message {

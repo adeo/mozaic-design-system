@@ -31,7 +31,7 @@
   }
 
   &__label {
-    @include set-font-face("semi-bold");
+    @include set-font-weight("semi-bold");
 
     position: relative;
     padding: magic-unit-rem(1.5625, true) $mu200; // 25px 32px

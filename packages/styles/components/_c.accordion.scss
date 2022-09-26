@@ -6,7 +6,6 @@
   background-color: $color-grey-000;
   border-bottom: get-border(s) solid $color-font-light;
 
-  @include set-font-face();
   @include set-accordion-size($accordion-default-size, $parent);
 
   &__header {

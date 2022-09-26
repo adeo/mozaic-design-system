@@ -40,7 +40,6 @@ $tag-sizes: (
 }
 
 @mixin set-tag-base-style($size) {
-  @include set-font-face("regular");
   @include set-tag-size($size);
 
   display: inline-flex;
