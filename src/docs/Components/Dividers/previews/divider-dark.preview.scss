@@ -1,10 +1,11 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.divider";
 
 .example {
-  @include set-font-face("regular");
-
   display: block;
   padding: $mu150;
 

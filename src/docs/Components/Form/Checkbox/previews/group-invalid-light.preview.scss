@@ -1,17 +1,18 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.checkbox";
 @import "components/c.fields";
 
 .example {
-  @include set-font-face("regular");
-
   margin: auto;
   width: 93%;
 
   &__title {
     @include set-font-scale("07", "m");
-    @include set-font-face("semi-bold");
+    @include set-font-weight("semi-bold");
 
     background: $color-grey-100;
     padding: $mu100;

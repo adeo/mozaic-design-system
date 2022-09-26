@@ -1,6 +1,9 @@
 @import "settings-tools/_all-settings";
 
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 
 @import "components/_c.flag";
 

@@ -1,16 +1,17 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.checkbox";
 
 .example {
-  @include set-font-face("regular");
-
   margin: $mu200 auto;
   padding: 0 $mu200;
   width: fit-content;
 
   &__item {
-    @include set-flexy ();
+    @include set-flexy();
 
     list-style-type: none;
     margin: $mu100 0;
