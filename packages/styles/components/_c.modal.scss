@@ -8,7 +8,6 @@
     box-sizing: border-box;
   }
 
-  @include set-font-face();
   @include set-dialog-base();
 
   align-items: flex-end;
