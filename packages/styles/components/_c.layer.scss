@@ -3,7 +3,6 @@
 .mc-layer {
   $parent: get-parent-selector(&);
 
-  @include set-font-face();
   @include set-dialog-base();
 
   display: flex;

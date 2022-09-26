@@ -1,5 +1,8 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 
 @import "components/c.left-icon-input";
 @import "components/c.text-input";
@@ -8,8 +11,6 @@
 @import "components/c.autocomplete";
 
 .example {
-  @include set-font-face();
-
   height: 250px;
   margin: $mu200 0;
   padding: 0 $mu200;

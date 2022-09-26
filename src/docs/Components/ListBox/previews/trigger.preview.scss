@@ -1,5 +1,9 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
+
 @import "components/c.button";
 @import "components/c.listbox";
 
@@ -10,8 +14,8 @@
   padding: 1rem;
   display: flex;
   justify-content: space-around;
+}
 
-  &__container {
-    position: relative;
-  }
+.button-example {
+  margin-left: 1rem;
 }

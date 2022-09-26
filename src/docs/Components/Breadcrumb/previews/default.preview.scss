@@ -1,11 +1,12 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.links";
 @import "components/c.breadcrumb";
 
 .example {
-  @include set-font-face();
-
   display: block;
   padding: $mu150;
 }

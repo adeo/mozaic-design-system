@@ -5514,7 +5514,7 @@ module.exports = {
     "heading": {
       "underline": {
         "default": {
-          "value": "#78be20",
+          "value": "#46a610",
           "filePath": "packages/tokens/properties/color/heading.json",
           "isSource": true,
           "original": {
@@ -5535,7 +5535,7 @@ module.exports = {
           ]
         },
         "lightest": {
-          "value": "#cbe3b5",
+          "value": "#c5e39e",
           "filePath": "packages/tokens/properties/color/heading.json",
           "isSource": true,
           "original": {
@@ -6961,7 +6961,7 @@ module.exports = {
       "checked": {
         "label": {
           "border": {
-            "value": "#78be20",
+            "value": "#46a610",
             "filePath": "packages/tokens/properties/color/option-button.json",
             "isSource": true,
             "original": {
@@ -6984,7 +6984,7 @@ module.exports = {
             ]
           },
           "shadow": {
-            "value": "#eaf3e2",
+            "value": "#ebf5de",
             "filePath": "packages/tokens/properties/color/option-button.json",
             "isSource": true,
             "original": {
@@ -7090,7 +7090,7 @@ module.exports = {
       "checked": {
         "label": {
           "border": {
-            "value": "#78be20",
+            "value": "#46a610",
             "filePath": "packages/tokens/properties/color/option-card.json",
             "isSource": true,
             "original": {
@@ -7113,7 +7113,7 @@ module.exports = {
             ]
           },
           "shadow": {
-            "value": "#eaf3e2",
+            "value": "#ebf5de",
             "filePath": "packages/tokens/properties/color/option-card.json",
             "isSource": true,
             "original": {
@@ -7517,7 +7517,7 @@ module.exports = {
         },
         "current": {
           "background": {
-            "value": "#91c854",
+            "value": "#78be20",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7544,7 +7544,7 @@ module.exports = {
       "link": {
         "hover": {
           "text": {
-            "value": "#91c854",
+            "value": "#78be20",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7613,7 +7613,7 @@ module.exports = {
         },
         "current": {
           "background": {
-            "value": "#91c854",
+            "value": "#78be20",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7636,7 +7636,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#91c854",
+            "value": "#78be20",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7661,7 +7661,7 @@ module.exports = {
         }
       },
       "icon": {
-        "value": "#91c854",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/stepper.json",
         "isSource": true,
         "original": {
@@ -7680,7 +7680,7 @@ module.exports = {
         ]
       },
       "title": {
-        "value": "#91c854",
+        "value": "#78be20",
         "filePath": "packages/tokens/properties/color/stepper.json",
         "isSource": true,
         "original": {
