@@ -8,11 +8,28 @@
   width: 100%;
 
   &__trigger {
-    display: block;
-    text-align: left;
+    @include unstyle-button();
+    @include set-select-size($select-default-size);
+
+    display: flex;
+    width: 18rem;
+    color: $color-grey-900;
+    border: get-border("s") solid $color-grey-600;
+    border-radius: get-border-radius("m");
+    padding-left: $mu075;
 
     &.is-open {
       background-image: url(inline-icons("arrow-top-16", $color-grey-999));
+    }
+
+    &:disabled {
+      @include add-demo-state-class {
+        border-color: transparent;
+        background-color: $color-grey-100;
+        color: $color-grey-600;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
     }
   }
 

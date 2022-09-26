@@ -4,6 +4,10 @@
 @import "components/c.listbox";
 @import "components/c.dropdown";
 
+html {
+  @include set-font-face();
+}
+
 .example {
   @include set-font-family();
 

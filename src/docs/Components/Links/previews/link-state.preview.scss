@@ -1,9 +1,11 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.links";
 
 body {
-  @include set-font-face("regular");
   @include set-font-scale("05");
 }
 
@@ -15,7 +17,7 @@ body {
   justify-content: center;
 
   &__col-title {
-    @include set-font-face("regular");
+    @include set-font-weight("regular");
   }
 
   &__col {
