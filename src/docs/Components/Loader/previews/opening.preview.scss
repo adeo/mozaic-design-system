@@ -1,12 +1,13 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.button";
 @import "components/c.overlay";
 @import "components/c.loader";
 
 .example {
-  @include set-font-face();
-
   min-height: 500px;
   padding: $mu200;
 }

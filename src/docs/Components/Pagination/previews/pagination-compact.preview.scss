@@ -3,6 +3,10 @@
 @import "components/c.button";
 @import "components/c.pagination";
 
+html {
+  @include set-font-face();
+}
+
 .example {
   margin: $mu100;
 }

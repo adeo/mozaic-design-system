@@ -1,5 +1,8 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.layer";
 @import "components/c.button";
 @import "components/c.links";
@@ -7,8 +10,6 @@
 $background-color-content: #eeeef0;
 
 .example {
-  @include set-font-face("regular");
-
   background-color: #f6f7f7;
   min-height: 700px;
   height: 100vh;
