@@ -3,7 +3,7 @@
   $parent: get-parent-selector(&);
 
   @include set-flag-base($parent);
-  @include set-font-face("semi-bold");
+  @include set-font-weight("semi-bold");
   @include set-flag-theme($parent, get-token(color, flag, "solid"));
 
   @each $name, $props in $flags {

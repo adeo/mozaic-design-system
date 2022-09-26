@@ -2,11 +2,10 @@
 .mc-notification {
   $parent: get-parent-selector(&);
 
-  @include set-font-face();
   @include set-border-radius();
   @include set-flexy();
   @include set-notification-size($notification-default-size);
-  @include set-notification-type('information');
+  @include set-notification-type("information");
 
   box-sizing: border-box;
   color: $color-font-darkest;
@@ -14,7 +13,7 @@
   &::before {
     background-color: transparent;
     background-repeat: no-repeat;
-    content: '';
+    content: "";
     display: block;
   }
 
@@ -29,12 +28,12 @@
   }
 
   &__title {
-    @include set-font-face('semi-bold');
-    @include set-font-scale('05');
+    @include set-font-weight("semi-bold");
+    @include set-font-scale("05");
   }
 
   &__message {
-    @include set-font-scale('04');
+    @include set-font-scale("04");
   }
 
   &__footer {
@@ -43,14 +42,14 @@
     flex-direction: column;
     margin-top: $mu100;
 
-    @include set-from-screen('l') {
+    @include set-from-screen("l") {
       flex-direction: row;
     }
   }
 
   // TODO: to be removed later
   &__link {
-    @include set-font-scale('04', 'm');
+    @include set-font-scale("04", "m");
 
     margin-top: $mu050;
   }
@@ -59,7 +58,7 @@
     &:not(:first-child) {
       margin-top: $mu100;
 
-      @include set-from-screen('l') {
+      @include set-from-screen("l") {
         margin: {
           top: 0;
           left: $mu100;
@@ -78,16 +77,16 @@
   // Notification size
   @each $size, $props in $notification-sizes {
     &--#{$size} {
-      @if ($size != 'm') {
+      @if ($size != "m") {
         @include set-notification-size($props);
 
         @each $type, $props in $notification-types {
-          @if ($type != 'information') {
+          @if ($type != "information") {
             &#{$parent}--#{$type} {
               @include set-notification-type($type, $size);
             }
           } @else {
-            @include set-notification-type('information', $size);
+            @include set-notification-type("information", $size);
           }
         }
       }

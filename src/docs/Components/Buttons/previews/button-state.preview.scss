@@ -1,5 +1,8 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.button";
 
 .example {
@@ -8,10 +11,6 @@
   margin: auto;
   text-align: center;
   justify-content: center;
-
-  h2 {
-    @include set-font-face("regular");
-  }
 
   &__col {
     flex: 0 1 33%;

@@ -6,7 +6,7 @@
 }
 
 .example {
-  @include set-font-face("regular");
+  @include set-font-face();
   @import "components/c.toggle";
 
   margin: $mu200;
