@@ -1,11 +1,11 @@
-@import "settings-tools/_all-settings";
-
+@import "settings-tools/all-settings";
 @include import-font-families();
+
 html {
   @include set-font-face();
 }
 
-@import "components/_c.flag";
+@import "components/c.flag";
 
 .example {
   margin: $mu100 auto;

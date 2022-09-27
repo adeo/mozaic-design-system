@@ -4,9 +4,10 @@
   display: flex;
   position: relative;
 
+  /* stylelint-disable no-descending-specificity */
   &__button-right,
   &__button-left {
-    @include set-focus-floating-base {
+    @include set-focus-floating-base() {
       top: -$size-focus-border;
       right: -$size-focus-border;
       bottom: -$size-focus-border;
@@ -19,7 +20,7 @@
       box-shadow: none;
       z-index: 1;
 
-      @include set-focus-floating {
+      @include set-focus-floating() {
         box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
       }
     }
@@ -30,7 +31,8 @@
     margin-left: -1px;
 
     &:focus::after {
-      border-radius: $size-focus-border $size-focus-radius-m
+      border-radius:
+        $size-focus-border $size-focus-radius-m
         $size-focus-radius-m $size-focus-border;
     }
   }
@@ -40,10 +42,12 @@
     margin-right: -1px;
 
     &:focus::after {
-      border-radius: $size-focus-radius-m $size-focus-border $size-focus-border
+      border-radius:
+        $size-focus-radius-m $size-focus-border $size-focus-border
         $size-focus-radius-m;
     }
   }
+  /* stylelint-enable no-descending-specificity */
 
   &__input {
     &,
