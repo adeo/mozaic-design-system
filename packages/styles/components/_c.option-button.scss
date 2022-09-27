@@ -7,7 +7,7 @@
   text-align: center;
 
   &__input {
-    @include set-hidden-input;
+    @include set-hidden-input ();
 
     &:hover + #{$parent}__label {
       box-shadow: 0 0 0 2px $color-option-button-hover-label-shadow;

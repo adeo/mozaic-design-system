@@ -1,13 +1,17 @@
-@if variable-exists('mozaic-env') and $mozaic-env == development {
-  $grid-line-color: rgba(0, 100, 100, 0.1);
-  $grid-subline-color: rgba(0, 100, 100, 0.03);
+@if variable-exists("mozaic-env") and $mozaic-env == development {
+  $grid-line-color: rgb(0 100 100 / 0.1);
+  $grid-subline-color: rgb(0 100 100 / 0.03);
   $grid-shadow-color: #ececec;
   $grid-magic-unit: #{$magic-unit}rem;
 
   .mdu-magic-unit-grid {
     box-shadow: inset 0 0 0 1px $grid-shadow-color;
     background-image:
-      linear-gradient(90deg, $grid-line-color 1px, transparent 1px),
+      linear-gradient(
+        90deg,
+        $grid-line-color 1px,
+        transparent 1px
+      ),
       linear-gradient(0deg, $grid-line-color 1px, transparent 1px),
       linear-gradient(90deg, $grid-subline-color 1px, transparent 1px),
       linear-gradient(0deg, $grid-subline-color 1px, transparent 1px),

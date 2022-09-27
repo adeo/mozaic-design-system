@@ -16,16 +16,14 @@
 }
 
 @function mt-rgba($var, $opacity) {
-  $isCSSVar: str-index(#{$var}, "var");
+  $is-custom-property: str-index(#{$var}, "var");
 
-  @if ($isCSSVar) {
-    $hexaColor: str-slice($var, str-index($var, "#"), (str-length($var) - 1));
+  @if $is-custom-property {
+    $hexa-color: str-slice($var, str-index($var, "#"), (str-length($var) - 1));
     $alpha: mt-dectohex(round($opacity * 255));
 
-    @return $hexaColor + $alpha;
-  }
-
-  @else {
+    @return $hexa-color + $alpha;
+  } @else {
     @return rgba($var, $opacity);
   }
 }

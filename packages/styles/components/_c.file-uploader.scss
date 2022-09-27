@@ -25,21 +25,22 @@
       height: $mu150;
       display: flex;
       align-items: center;
-      background: transparent
-        url(inline-icons("upload-24", $color-button-bordered-border)) no-repeat;
+      background-color: transparent;
+      background-image: url("#{inline-icons('upload-24', $color-button-bordered-border)}");
+      background-repeat: no-repeat;
       background-size: $mu150;
       margin-right: $mu050;
       margin-left: -$mu050;
     }
 
     :focus + & {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         @include set-shadow-focus();
       }
     }
 
     :hover + & {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         @include set-button-theme(
           get-token(color, button, "bordered", "hover")
         );
@@ -47,7 +48,7 @@
     }
 
     :disabled + & {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         @include set-button-theme(
           get-token(color, button, "bordered", "disabled")
         );
@@ -56,9 +57,9 @@
         cursor: not-allowed;
 
         &::before {
-          background: transparent
-            url(inline-icons("upload-24", $color-button-bordered-disabled-font))
-            no-repeat;
+          background-color: transparent;
+          background-image: url("#{inline-icons('upload-24', $color-button-bordered-disabled-font)}");
+          background-repeat: no-repeat;
         }
       }
     }
@@ -107,17 +108,11 @@
     }
 
     &--is-valid &-icon {
-      background-image: url(inline-icons(
-        "valid-24",
-        $color-fileuploader-valid
-      ));
+      background-image: url("#{inline-icons('valid-24', $color-fileuploader-valid)}");
     }
 
     &--is-invalid &-icon {
-      background-image: url(inline-icons(
-        "alert-24",
-        $color-fileuploader-alert
-      ));
+      background-image: url("#{inline-icons('alert-24', $color-fileuploader-alert)}");
     }
 
     &--is-invalid &-message {
@@ -148,8 +143,9 @@
       content: "";
       width: $mu150;
       height: $mu150;
-      background: transparent
-        url(inline-icons("delete-24", $color-fileuploader-font)) no-repeat;
+      background-color: transparent;
+      background-image: url("#{inline-icons('delete-24', $color-fileuploader-font)}");
+      background-repeat: no-repeat;
       background-size: $mu150;
       display: block;
     }

@@ -81,10 +81,10 @@ $stars-default-bg-size: map-deep-get($stars-sizes, "m", "width");
     $icon-color-before: $color-star-full;
   }
 
-  background-image: url(inline-icons($icon-empty, $icon-color-default));
+  background-image: url("#{inline-icons($icon-empty, $icon-color-default)}");
 
   &::before {
-    background-image: url(inline-icons($icon-full, $icon-color-before));
+    background-image: url("#{inline-icons($icon-full, $icon-color-before)}");
   }
 }
 

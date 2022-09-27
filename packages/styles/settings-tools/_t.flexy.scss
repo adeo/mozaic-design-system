@@ -30,6 +30,7 @@
 }
 
 /* create columns */
+/* stylelint-disable scss/at-rule-conditional-no-parentheses */
 @mixin make-flexy-col($portion, $of, $at-sizes: "s") {
   @if type-of($portion) != number {
     @warn "make-flexy-col first param need to be a number";
@@ -90,7 +91,6 @@
 }
 
 @mixin make-flexy-col-push-reset($at-sizes: "s") {
-
   @if (type-of($at-sizes) != list) and (type-of($at-sizes) != string) {
     @warn "make-flexy-col-push--reset third param should a map of existing screens, the name of a screen, or 'all'";
   }
@@ -124,3 +124,4 @@
     }
   }
 }
+/* stylelint-enable scss/at-rule-conditional-no-parentheses */

@@ -34,7 +34,9 @@
     max-height: 100%;
     position: relative;
     transform: translateY(-25%);
-    transition: visibility 0s linear 0.4s, transform 0.4s ease,
+    transition:
+      visibility 0s linear 0.4s,
+      transform 0.4s ease,
       opacity 0.4s ease;
     visibility: hidden;
     width: 100%;
@@ -64,7 +66,9 @@
       opacity: 1;
       pointer-events: all;
       transform: translateY(0);
-      transition: visibility 0s linear 0s, transform 0.4s ease,
+      transition:
+        visibility 0s linear 0s,
+        transform 0.4s ease,
         opacity 0.4s ease;
       visibility: visible;
     }

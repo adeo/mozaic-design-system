@@ -1,6 +1,6 @@
 /* mqp:start */
 .mc-select {
-  @include reset-input;
+  @include reset-input();
   @include set-select-size($select-default-size);
 
   background-image: $select-background-arrow;
@@ -18,13 +18,13 @@
   }
 
   &:hover {
-    @include add-demo-state-class {
+    @include add-demo-state-class() {
       border-color: $color-input-hover-border;
     }
   }
 
   &:focus {
-    @include add-demo-state-class {
+    @include add-demo-state-class() {
       @include set-shadow-focus();
     }
   }

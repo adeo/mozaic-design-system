@@ -1,5 +1,4 @@
 $flags: get-token(color, flag);
-
 $flag-border: get-border("s");
 
 @mixin set-flag-base($parent) {
@@ -7,6 +6,7 @@ $flag-border: get-border("s");
   font-size: get-token(size, font, "04");
   margin: 0;
   vertical-align: middle;
+
   // custom line-height to ensure the multi-line behaviour is done in the right conditions
   line-height: 1.786;
 

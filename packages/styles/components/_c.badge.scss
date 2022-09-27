@@ -6,7 +6,7 @@
   @include set-badge-theme(get-token(color, badge, "info"));
 
   @each $name, $props in $badges {
-    @if ($name != "info") {
+    @if $name != "info" {
       &--#{$name} {
         @include set-badge-theme($props);
       }

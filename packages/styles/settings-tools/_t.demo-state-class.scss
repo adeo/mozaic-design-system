@@ -1,31 +1,26 @@
-@mixin add-demo-state-class {
-  @if variable-exists('mozaic-env') {
+@mixin add-demo-state-class() {
+  @if variable-exists("mozaic-env") {
     $selector: &;
-
-    $states: (
-      ':active',
-      ':disabled',
-      ':focus',
-      ':hover',
-      ':visited'
-    );
+    $states: (":active", ":disabled", ":focus", ":hover", ":visited");
 
     @each $state in $states {
-      $hasState: str-index('#{$selector}', '#{$state}');
+      $has-state: str-index("#{$selector}", "#{$state}");
 
-      @if $hasState {
-        $stateClass: '.is-' + str-slice('#{$state}', 2, -1);
-        $newSelector: selector-replace('#{$selector}', '#{$state}', '#{$stateClass}');
+      @if $has-state {
+        $state-class: ".is-" + str-slice("#{$state}", 2, -1);
+        $new-selector: selector-replace(
+          "#{$selector}",
+          "#{$state}",
+          "#{$state-class}"
+        );
 
-        @at-root #{if($mozaic-env == development, '#{$newSelector},', '')}
+        @at-root #{if($mozaic-env == development, "#{$new-selector},", "")}
         #{$selector} {
           @content;
         }
       }
     }
-  }
-
-  @else {
+  } @else {
     @content;
   }
 }

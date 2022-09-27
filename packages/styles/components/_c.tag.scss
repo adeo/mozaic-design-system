@@ -40,7 +40,7 @@
     }
 
     &:focus {
-      @include set-focus-floating {
+      @include set-focus-floating() {
         box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
       }
     }
@@ -78,6 +78,7 @@
       user-select: none;
     }
 
+    /* stylelint-disable no-descending-specificity */
     &__pill {
       @include set-tag-base-style("m");
       @include set-focus-transition();
@@ -93,26 +94,29 @@
 
       :checked + & {
         background: $color-tag-selectable-light-selected-background;
-        box-shadow: inset 0 0 0 get-border("s")
+        box-shadow:
+          inset 0 0 0 get-border("s")
           $color-tag-selectable-light-selected-background;
         color: $color-tag-selectable-light-selected-text;
 
         &:hover {
           background: $color-tag-selectable-light-selected-hover-background;
-          box-shadow: inset 0 0 0 get-border("s")
+          box-shadow:
+            inset 0 0 0 get-border("s")
             $color-tag-selectable-light-selected-hover-background;
         }
       }
 
       &:active {
         background: $color-tag-selectable-light-active-background;
-        box-shadow: inset 0 0 0 get-border("s")
+        box-shadow:
+          inset 0 0 0 get-border("s")
           $color-tag-selectable-light-active-border;
         color: $color-tag-selectable-light-active-text;
       }
 
       :focus + & {
-        @include set-focus-floating {
+        @include set-focus-floating() {
           box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
         }
       }
@@ -136,7 +140,8 @@
 
         &:active {
           background: $color-tag-selectable-dark-active-background;
-          box-shadow: inset 0 0 0 get-border("s")
+          box-shadow:
+            inset 0 0 0 get-border("s")
             $color-tag-selectable-dark-active-border;
           color: $color-tag-selectable-dark-active-text;
         }
@@ -144,7 +149,8 @@
 
       :checked + .mc-tag-selectable__pill {
         background: $color-tag-selectable-dark-selected-background;
-        box-shadow: inset 0 0 0 get-border("s")
+        box-shadow:
+          inset 0 0 0 get-border("s")
           $color-tag-selectable-dark-selected-border;
         color: $color-tag-selectable-dark-selected-text;
 
@@ -159,6 +165,7 @@
         color: $color-tag-selectable-dark-disabled-text;
       }
     }
+    /* stylelint-enable no-descending-specificity */
 
     &--s {
       @include modify-from-screens($major-screens) {
@@ -196,7 +203,7 @@
 
         .mc-tag-removable__remove {
           @include set-tag-removable-icon("s");
-          @include set-tag-icon-B64("s");
+          @include set-tag-icon-base64("s");
         }
       }
     }
@@ -213,7 +220,7 @@
 
         .mc-tag-removable__remove {
           @include set-tag-removable-icon("m");
-          @include set-tag-icon-B64();
+          @include set-tag-icon-base64();
         }
       }
     }
@@ -230,9 +237,9 @@
     &__remove {
       @include unstyle-button();
       @include set-tag-removable-icon("m");
-      @include set-tag-icon-B64();
+      @include set-tag-icon-base64();
 
-      @include set-focus-floating-base {
+      @include set-focus-floating-base() {
         border-radius: 50%;
         top: -(math.div($mu025, 2));
         right: -(math.div($mu025, 2));
@@ -256,7 +263,7 @@
       }
 
       &:focus {
-        @include set-focus-floating {
+        @include set-focus-floating() {
           box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
         }
       }
@@ -266,7 +273,7 @@
       }
 
       .mc-tag-removable--dark & {
-        @include set-tag-icon-B64("dark");
+        @include set-tag-icon-base64("dark");
 
         background-color: $color-tag-removable-dark-background;
 
