@@ -242,9 +242,4 @@
     transition: visibility 0s linear 0s, transform 0.4s;
     visibility: visible;
   }
-
-  // Overlay
-  @at-root #{$parent}-overlay {
-    @include set-page-overlay();
-  }
 }
