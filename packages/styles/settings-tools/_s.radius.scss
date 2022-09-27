@@ -1,20 +1,19 @@
-@function get-border-radius($size : 'm') {
+@function get-border-radius($size : "m") {
   @return get-token(radius, $size) * 1px;
 }
 
-@mixin set-border-radius($size: 'm', $side: 'all') {
+@mixin set-border-radius($size: "m", $side: "all") {
   $px-size: get-border-radius($size);
-
   $sides: (
-    'all': $px-size,
-    'top': $px-size $px-size 0 0,
-    'bottom': 0 0 $px-size $px-size,
-    'left': $px-size 0 0 $px-size,
-    'right': 0 $px-size $px-size 0,
-    'top-left':  $px-size 0 0 0,
-    'top-right': 0 $px-size 0 0,
-    'bottom-left': 0 0 0 $px-size,
-    'bottom-right': 0 0 $px-size 0,
+    "all": $px-size,
+    "top": $px-size $px-size 0 0,
+    "bottom": 0 0 $px-size $px-size,
+    "left": $px-size 0 0 $px-size,
+    "right": 0 $px-size $px-size 0,
+    "top-left":  $px-size 0 0 0,
+    "top-right": 0 $px-size 0 0,
+    "bottom-left": 0 0 0 $px-size,
+    "bottom-right": 0 0 $px-size 0,
   );
 
   border-radius: #{map-get($sides, $side)};

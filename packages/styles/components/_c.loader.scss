@@ -25,19 +25,20 @@
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0;
     stroke-linecap: round;
-    animation: animate-dash-loader $animation-duration-loader ease-in-out
+    animation:
+      animate-dash-loader $animation-duration-loader ease-in-out
       infinite;
   }
 
   &__text {
     @include set-font-scale("05", "m");
 
-    color: currentColor;
+    color: currentcolor;
   }
 
   @each $size, $props in $loader-sizes {
     &--#{$size} {
-      @if ($size != "m") {
+      @if $size != "m" {
         @include set-loader-size($props, $parent);
       }
     }
@@ -45,7 +46,7 @@
 
   @each $theme, $color in $loader-theme {
     &--#{$theme} {
-      @if ($theme != "primary") {
+      @if $theme != "primary" {
         @include set-loader-theme($color, $parent);
       }
     }
@@ -56,6 +57,7 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(270deg);
   }
@@ -66,10 +68,12 @@
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0;
   }
+
   50% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -35px;
   }
+
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -124px;

@@ -4,7 +4,7 @@
   $parent: get-parent-selector(&);
   $border-size: 0.0625rem;
 
-  @include set-font-family;
+  @include set-font-family();
 
   box-sizing: border-box;
 
@@ -84,11 +84,11 @@
     }
   }
 
+  /* stylelint-disable no-descending-specificity */
   &__row {
     $datatable-row: &;
 
-    &-parent:not(.mc-datatable__row-parent--expanded)
-      + .mc-datatable__row-expandable {
+    &-parent:not(.mc-datatable__row-parent--expanded) + .mc-datatable__row-expandable {
       height: 0;
 
       .mc-datatable__row-inner {
@@ -97,8 +97,7 @@
       }
     }
 
-    &-parent.mc-datatable__row-parent--expanded
-      + .mc-datatable__row-expandable {
+    &-parent.mc-datatable__row-parent--expanded + .mc-datatable__row-expandable {
       .mc-datatable__row-inner {
         max-height: 100%;
       }
@@ -131,6 +130,7 @@
       }
     }
   }
+  /* stylelint-enable no-descending-specificity */
 
   &__cell {
     &-checkbox {
@@ -154,7 +154,7 @@
 
   // size
   @each $size, $props in $datatable-sizes {
-    @if ($size != "m") {
+    @if $size != "m" {
       &--#{$size} {
         #{$parent} {
           @include set-datatable-size($props);
@@ -164,6 +164,7 @@
   }
 
   // sticky
+  /* stylelint-disable no-duplicate-selectors */
   &--sticky,
   &--sticky-header {
     #{$parent} {
@@ -194,6 +195,7 @@
       }
     }
   }
+  /* stylelint-enable no-duplicate-selectors */
 
   &--sticky {
     #{$parent} {
