@@ -15,7 +15,7 @@
   }
 
   &__input {
-    @include reset-input;
+    @include reset-input();
 
     border: $radio-border-width solid $color-input-border;
     min-width: $radio-min-width;
@@ -49,7 +49,7 @@
     }
 
     &:hover {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         border-color: $color-input-hover-border;
 
         &::-ms-check {
@@ -59,7 +59,7 @@
     }
 
     &:focus {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         @include set-shadow-focus();
 
         &::-ms-check {
