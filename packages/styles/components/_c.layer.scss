@@ -118,8 +118,9 @@
     @include set-focus-floating-base();
 
     align-self: flex-start;
-    background: transparent
-      url(inline-icons("control-cross-32", $color-dialog-close)) no-repeat;
+    background-color: transparent;
+    background-image: url("#{inline-icons('control-cross-32', $color-grey-500)}");
+    background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
     height: $mu200;

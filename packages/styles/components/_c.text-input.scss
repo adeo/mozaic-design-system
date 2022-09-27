@@ -2,7 +2,7 @@
 
 /* mqp:start */
 .mc-text-input {
-  @include reset-input;
+  @include reset-input();
   @include set-input-size($input-default-size);
   @include set-focus-transition();
 
@@ -30,11 +30,7 @@
 
   &.is-valid {
     border-color: $color-input-valid-border;
-    background-image: url(
-      inline-icons(
-        "notification-circle-available-24",
-        $color-input-valid-border
-      ));
+    background-image: url("#{inline-icons('notification-circle-available-24', $color-input-valid-border)}");
 
     &:hover,
     &.is-hover {
@@ -44,11 +40,7 @@
 
   &.is-invalid {
     border-color: $color-input-invalid-border;
-    background-image: url(
-      inline-icons(
-        "notification-warning-24",
-        $color-input-invalid-border
-      ));
+    background-image: url("#{inline-icons('notification-warning-24', $color-input-invalid-border)}");
 
     &:hover,
     &.is-hover {
@@ -57,13 +49,13 @@
   }
 
   &:hover {
-    @include add-demo-state-class {
+    @include add-demo-state-class() {
       border-color: $color-input-hover-border;
     }
   }
 
   &:focus {
-    @include add-demo-state-class {
+    @include add-demo-state-class() {
       @include set-shadow-focus();
     }
   }

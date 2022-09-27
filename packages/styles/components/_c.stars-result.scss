@@ -10,7 +10,7 @@
   display: flex;
 
   &__text {
-    @include set-hidden-input;
+    @include set-hidden-input();
   }
 
   &__visual {
@@ -49,7 +49,7 @@
 
   @each $size, $props in $stars-sizes {
     &--#{$size} {
-      @if ($size != "m") {
+      @if $size != "m" {
         #{$parent} {
           &__visual {
             @include set-stars-container($props);

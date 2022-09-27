@@ -30,7 +30,7 @@ $tag-sizes: (
   border-radius: map-get($props, "border-radius");
   padding: map-get($props, "padding");
 
-  @include set-focus-floating-base {
+  @include set-focus-floating-base() {
     border-radius: (map-get($props, "border-radius") + $size-focus-gap);
     top: -$size-focus-gap;
     right: -$size-focus-gap;
@@ -59,18 +59,12 @@ $tag-sizes: (
   }
 }
 
-@mixin set-tag-icon-B64($theme: "light") {
+@mixin set-tag-icon-base64($theme: "light") {
   @if $theme == "light" {
-    background-image: url(inline-icons(
-      "tag-delete-24",
-      $color-tag-removable-light-icon
-    ));
+    background-image: url("#{inline-icons('tag-delete-24', $color-tag-removable-light-icon)}");
   }
 
   @if $theme == "dark" {
-    background-image: url(inline-icons(
-      "tag-delete-24",
-      $color-tag-removable-dark-icon
-    ));
+    background-image: url("#{inline-icons('tag-delete-24', $color-tag-removable-dark-icon)}");
   }
 }

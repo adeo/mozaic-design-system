@@ -8,10 +8,10 @@
 
   align-items: stretch;
   box-sizing: border-box;
-  fill: currentColor;
+  fill: currentcolor;
 
   &:focus {
-    @include add-demo-state-class {
+    @include add-demo-state-class() {
       @include set-shadow-focus();
     }
   }
@@ -80,7 +80,7 @@
   }
 
   @each $name, $props in $buttons {
-    @if ($name != "solid") {
+    @if $name != "solid" {
       &--#{$name} {
         @include set-button-theme($props);
       }

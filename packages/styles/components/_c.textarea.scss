@@ -1,10 +1,10 @@
 /* mqp:start */
 .mc-textarea {
-  $border-width: get-border('s');
+  $border-width: get-border("s");
 
-  @include reset-input;
-  @include set-font-scale('05', 'm');
-  @include set-border-radius('m');
+  @include reset-input();
+  @include set-font-scale("05", "m");
+  @include set-border-radius("m");
 
   display: block;
   width: 100%;
@@ -13,13 +13,14 @@
   border: $border-width solid $color-input-border;
   background: $color-input-background;
   transition: all ease 200ms;
+
   // remove border height and center baseline optically
   padding:
     calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
     calc(#{$mu075} + 0.125em - #{$border-width});
 
   &:hover {
-    @include add-demo-state-class {
+    @include add-demo-state-class () {
       border-color: $color-input-hover-border;
     }
   }
@@ -33,7 +34,7 @@
   }
 
   &:focus {
-    @include add-demo-state-class {
+    @include add-demo-state-class () {
       @include set-shadow-focus();
     }
   }

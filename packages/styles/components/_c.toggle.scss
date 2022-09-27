@@ -138,9 +138,9 @@
 
     // the switch pill foreground
     &::after {
-      background: $color-toggle-off-circle
-        url(inline-icons("control-cross-16", $color-toggle-off-background))
-        no-repeat center;
+      background-color: $color-toggle-off-circle;
+      background-image: url("#{inline-icons('control-cross-16', $color-toggle-off-background)}");
+      background-repeat: no-repeat center;
       background-size: $mu100;
       border: solid get-border("l") $color-toggle-off-background;
       will-change: transform;
