@@ -11,7 +11,7 @@
 
   &__text,
   &__radio {
-    @include set-hidden-input;
+    @include set-hidden-input();
   }
 
   &__radio::-ms-check {
@@ -22,7 +22,7 @@
     @include set-stars-size($stars-default-size);
     @include set-focus-transition();
 
-    background-image: url(inline-icons("star-full-32", $color-star-full));
+    background-image: url("#{inline-icons('star-full-32', $color-star-full)}");
     background-position: center center;
     background-repeat: repeat-x;
     background-size: $stars-default-bg-size $stars-default-bg-size;
@@ -30,7 +30,7 @@
     cursor: pointer;
 
     &::before {
-      background-image: url(inline-icons("star-full-32", $color-star-full));
+      background-image: url("#{inline-icons('star-full-32', $color-star-full)}");
       background-position: left center;
       background-repeat: repeat-x;
       background-size: $stars-default-bg-size $stars-default-bg-size;
@@ -53,12 +53,12 @@
 
   :checked ~ &__label,
   :focus ~ &__label {
-    background-image: url(inline-icons("star-empty-32", $color-star-full));
+    background-image: url("#{inline-icons('star-empty-32', $color-star-full)}");
   }
 
   :checked + &__label,
   :focus + &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-full));
+    background-image: url("#{inline-icons('star-full-32', $color-star-full)}");
   }
 
   :focus + &__label {
@@ -66,11 +66,11 @@
   }
 
   &__radio:hover ~ &__label {
-    background-image: url(inline-icons("star-empty-32", $color-star-full));
+    background-image: url("#{inline-icons('star-empty-32', $color-star-full)}");
   }
 
   &__radio:hover + &__label {
-    background-image: url(inline-icons("star-full-32", $color-star-full));
+    background-image: url("#{inline-icons('star-full-32', $color-star-full)}");
 
     &::before {
       opacity: 1;
@@ -79,7 +79,7 @@
 
   @each $size, $props in $stars-sizes {
     &--#{$size} {
-      @if ($size != "m") {
+      @if $size != "m" {
         @include set-stars-container($props);
 
         $bg-variation-size: map-deep-get(
@@ -95,10 +95,10 @@
             @include set-stars-size($props);
 
             background-size: $bg-variation-size $bg-variation-size;
-            background-image: url(inline-icons("#{$icon-full}", $color-star-full));
+            background-image: url("#{inline-icons($icon-full, $color-star-full)}");
 
             &::before {
-              background-image: url(inline-icons("#{$icon-full}", $color-star-full));
+              background-image: url("#{inline-icons($icon-full, $color-star-full)}");
               background-size: $bg-variation-size $bg-variation-size;
             }
           }

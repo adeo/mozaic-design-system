@@ -77,11 +77,11 @@
   // Notification size
   @each $size, $props in $notification-sizes {
     &--#{$size} {
-      @if ($size != "m") {
+      @if $size != "m" {
         @include set-notification-size($props);
 
         @each $type, $props in $notification-types {
-          @if ($type != "information") {
+          @if $type != "information" {
             &#{$parent}--#{$type} {
               @include set-notification-type($type, $size);
             }
@@ -98,10 +98,11 @@
     position: relative;
 
     &__close {
-      @include set-focus-floating-base;
+      @include set-focus-floating-base();
 
-      background: transparent
-        url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
+      background-color: transparent;
+      background-image: url("#{inline-icons('cross-16', $notification-close-icon-color)}");
+      background-repeat: no-repeat;
       background-size: $mu100;
       border: 0;
       cursor: pointer;
@@ -115,7 +116,7 @@
       width: $mu100;
 
       &:focus {
-        @include set-focus-floating {
+        @include set-focus-floating() {
           box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
         }
       }

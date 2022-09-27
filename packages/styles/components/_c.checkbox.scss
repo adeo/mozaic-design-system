@@ -16,7 +16,7 @@
   }
 
   &__input {
-    @include reset-input;
+    @include reset-input();
 
     min-width: $checkbox-min-width;
     min-height: $checkbox-min-height;
@@ -37,7 +37,7 @@
     }
 
     &:hover {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         border-color: $color-input-hover-border;
 
         &::-ms-check {
@@ -47,7 +47,7 @@
     }
 
     &:focus {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         @include set-shadow-focus();
 
         &::-ms-check {

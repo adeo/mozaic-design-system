@@ -17,7 +17,7 @@
 
   @each $size, $props in $input-icon-sizes {
     &--#{$size} {
-      @if ($size != 'm') {
+      @if $size != "m" {
         @include set-input-icon-size($props, $parent);
       }
     }

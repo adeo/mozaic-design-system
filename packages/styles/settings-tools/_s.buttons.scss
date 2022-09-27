@@ -1,7 +1,6 @@
 @use "sass:math";
 
 $buttons: get-token(color, button);
-
 $button-sizes: (
   "s": (
     "font-size": "04",
@@ -10,8 +9,8 @@ $button-sizes: (
     "padding-h": $mu100,
     "min-height": $mu200,
     "icon-size": $mu150,
-    "icon-margin-top": -(math.div($mu075, 4)),
-    "icon-margin-bottom": -(math.div($mu075, 4)),
+    "icon-margin-top": -1 * math.div($mu075, 4),
+    "icon-margin-bottom": -1 * math.div($mu075, 4),
     "only-icon-size": $mu150,
   ),
   "m": (
@@ -21,8 +20,8 @@ $button-sizes: (
     "padding-h": $mu150,
     "min-height": $mu300,
     "icon-size": $mu150,
-    "icon-margin-top": -(math.div($mu025, $mu025)) * 1px,
-    "icon-margin-bottom": -(math.div($mu025, $mu025)) * 1px,
+    "icon-margin-top": -1 * math.div($mu025, $mu025) * 1px,
+    "icon-margin-bottom": -1 * math.div($mu025, $mu025) * 1px,
     "only-icon-size": $mu200,
   ),
   "l": (
@@ -32,12 +31,11 @@ $button-sizes: (
     "padding-h": $mu150,
     "min-height": $mu350,
     "icon-size": $mu200,
-    "icon-margin-top": -$mu025,
-    "icon-margin-bottom": -$mu025,
+    "icon-margin-top": -1 * $mu025,
+    "icon-margin-bottom": -1 * $mu025,
     "only-icon-size": $mu200,
   ),
 );
-
 $button-medium: map-get($button-sizes, "m");
 $button-radius: get-border-radius("m");
 $button-border: get-border("m");
@@ -95,9 +93,7 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
 
   @if map-has-key($props, "background") {
     background-color: map-get($props, "background");
-  }
-
-  @else {
+  } @else {
     background-color: transparent;
   }
 
@@ -106,7 +102,7 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
     $button-color-hover: map-get($hover-props, "font");
 
     &:hover {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         @if map-has-key($hover-props, "background") {
           background-color: map-get($hover-props, "background");
         }
@@ -115,9 +111,7 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
           @if $button-color != $button-color-default or $is-default == true {
             color: $button-color-hover;
           }
-        }
-
-        @else {
+        } @else {
           color: $button-color;
         }
       }
@@ -129,7 +123,7 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
 
     @each $prop, $value in $active-props {
       &:active {
-        @include add-demo-state-class {
+        @include add-demo-state-class() {
           background-color: map-get($active-props, "background");
           color: map-get($active-props, "font");
         }
@@ -150,7 +144,7 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
   }
 }
 
-@mixin set-button-layout {
+@mixin set-button-layout() {
   cursor: pointer;
   border-radius: $button-radius;
   text-align: center;
