@@ -13,81 +13,67 @@ $height-datatable-cell-size-l: $mu350 - $border-size;
 $width-cell-checkbox: $mu125 + $mu200;
 $width-cell-button: $mu150 + $mu200;
 $width-cell-field: $mu1000 - math.div($mu125, 2);
-
 $color-border-datatable-filters: if(
   $presetAdeo,
   $color-secondary-blue-300,
   $color-grey-300
 );
-
 $color-background-datatable-container: if(
   $presetAdeo,
   $color-secondary-purple-100,
   $color-grey-100
 );
-
 $color-font-thead: if(
   $presetAdeo,
   $color-secondary-purple-700,
   $color-grey-900
 );
-
 $color-background-arrow-default: if(
   $presetAdeo,
   $color-secondary-blue-200,
   $color-grey-200
 );
-
 $color-background-arrow-active: if(
   $presetAdeo,
   $color-secondary-purple-500,
   $color-grey-800
 );
-
 $color-font-tbody-cell: if($presetAdeo, $color-grey-900, $color-grey-900);
-
 $color-background-datatable-cell-hover: if(
   $presetAdeo,
   $color-secondary-blue-100,
   $color-grey-100
 );
-
 $color-background-datatable-cell-selected: if(
   $presetAdeo,
   $color-primary-01-100,
   $color-primary-01-100
 );
-
 $color-background-datatable-subtable: if(
   $presetAdeo,
   $color-secondary-purple-100,
   $color-grey-100
 );
-
 $color-border-datatable-subtable: if(
   $presetAdeo,
   $color-secondary-purple-300,
   $color-grey-300
 );
-
 $color-font-subtable-thead: if(
   $presetAdeo,
   $color-secondary-purple-900,
   $color-grey-999
 );
-
 $color-font-subtable-tbody: if(
   $presetAdeo,
   $color-secondary-purple-900,
   $color-grey-999
 );
-
 $color-background-icon: if(
   $presetAdeo,
   $color-primary-01-600,
   $color-primary-01-500
 );
-
 $datatable-sizes: (
   "s": (
     "height": $height-datatable-cell-size-s,
@@ -99,7 +85,6 @@ $datatable-sizes: (
     "height": $height-datatable-cell-size-l,
   ),
 );
-
 $datatabke-default-celle-size: map-get($datatable-sizes, "m");
 
 @mixin set-datatable-base() {
