@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.42.1](https://github.com/adeo/mozaic-design-system/compare/v1.42.0...v1.42.1) (2022-09-27)
+
+
+### Bug Fixes
+
+* **layouts/grid:** improvee .ml-flexy__col selector scopable behaviour ([#1209](https://github.com/adeo/mozaic-design-system/issues/1209)) ([493a90b](https://github.com/adeo/mozaic-design-system/commit/493a90bb03c772a60edfb34a6608b8dda4170042))
+
+
+
+
+
 # [1.42.0](https://github.com/adeo/mozaic-design-system/compare/v1.41.0...v1.42.0) (2022-09-14)
 
 
