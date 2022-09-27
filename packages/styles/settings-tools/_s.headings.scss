@@ -1,64 +1,64 @@
 $heading-sizes: (
-  's': (
-    'font-scale': '07',
-    'font-scale@from-m': '08',
-    'font-scale@from-l': '09',
-    'underline-width': $mu400,
-    'underline-width@from-m': magic-unit-rem(4.5, 'true'),
-    'underline-width@from-l': $mu500,
-    'underline-margin': $mu100,
-    'underline-margin@from-m': $mu100,
-    'underline-margin@from-l': $mu125,
+  "s": (
+    "font-scale": "07",
+    "font-scale@from-m": "08",
+    "font-scale@from-l": "09",
+    "underline-width": $mu400,
+    "underline-width@from-m": magic-unit-rem(4.5, "true"),
+    "underline-width@from-l": $mu500,
+    "underline-margin": $mu100,
+    "underline-margin@from-m": $mu100,
+    "underline-margin@from-l": $mu125,
   ),
-  'm': (
-    'font-scale': '08',
-    'font-scale@from-m': '09',
-    'font-scale@from-l': '10',
-    'underline-width': magic-unit-rem(4.5, 'true'),
-    'underline-width@from-m': $mu500,
-    'underline-width@from-l': magic-unit-rem(5.5, 'true'),
-    'underline-margin': $mu100,
-    'underline-margin@from-m': $mu125,
-    'underline-margin@from-l': $mu150,
+  "m": (
+    "font-scale": "08",
+    "font-scale@from-m": "09",
+    "font-scale@from-l": "10",
+    "underline-width": magic-unit-rem(4.5, "true"),
+    "underline-width@from-m": $mu500,
+    "underline-width@from-l": magic-unit-rem(5.5, "true"),
+    "underline-margin": $mu100,
+    "underline-margin@from-m": $mu125,
+    "underline-margin@from-l": $mu150,
   ),
-  'l': (
-    'font-scale': '09',
-    'font-scale@from-m': '10',
-    'font-scale@from-l': '11',
-    'underline-width': $mu500,
-    'underline-width@from-m': magic-unit-rem(5.5, 'true'),
-    'underline-width@from-l': $mu600,
-    'underline-margin': $mu125,
-    'underline-margin@from-m': $mu150,
-    'underline-margin@from-l': $mu200,
+  "l": (
+    "font-scale": "09",
+    "font-scale@from-m": "10",
+    "font-scale@from-l": "11",
+    "underline-width": $mu500,
+    "underline-width@from-m": magic-unit-rem(5.5, "true"),
+    "underline-width@from-l": $mu600,
+    "underline-margin": $mu125,
+    "underline-margin@from-m": $mu150,
+    "underline-margin@from-l": $mu200,
   ),
 );
 
 @mixin mod-heading-sizes($parent) {
   @each $size, $props in $heading-sizes {
-    $font-scale: map-get($props, 'font-scale');
-    $font-scale-from-m: map-get($props, 'font-scale@from-m');
-    $font-scale-from-l: map-get($props, 'font-scale@from-l');
-    $underline-width: map-get($props, 'underline-width');
-    $underline-width-from-m: map-get($props, 'underline-width@from-m');
-    $underline-width-from-l: map-get($props, 'underline-width@from-l');
-    $underline-margin: map-get($props, 'underline-margin');
-    $underline-margin-from-m: map-get($props, 'underline-margin@from-m');
-    $underline-margin-from-l: map-get($props, 'underline-margin@from-l');
+    $font-scale: map-get($props, "font-scale");
+    $font-scale-from-m: map-get($props, "font-scale@from-m");
+    $font-scale-from-l: map-get($props, "font-scale@from-l");
+    $underline-width: map-get($props, "underline-width");
+    $underline-width-from-m: map-get($props, "underline-width@from-m");
+    $underline-width-from-l: map-get($props, "underline-width@from-l");
+    $underline-margin: map-get($props, "underline-margin");
+    $underline-margin-from-m: map-get($props, "underline-margin@from-m");
+    $underline-margin-from-l: map-get($props, "underline-margin@from-l");
 
     // headings sizes
 
     &--#{$size} {
-      @include set-font-scale($font-scale, 'm');
+      @include set-font-scale($font-scale, "m");
 
-      @include set-from-screen('m') {
-        @include set-font-scale($font-scale-from-m, 'm');
+      @include set-from-screen("m") {
+        @include set-font-scale($font-scale-from-m, "m");
       }
 
-      @include set-from-screen('l') {
-        @include set-font-scale($font-scale-from-l, 'm');
+      @include set-from-screen("l") {
+        @include set-font-scale($font-scale-from-l, "m");
 
-        @if ($size == 'l') {
+        @if $size == "l" {
           margin-bottom: $mu350;
         }
       }
@@ -70,12 +70,12 @@ $heading-sizes: (
       width: $underline-width;
       margin-top: $underline-margin;
 
-      @include set-from-screen('m') {
+      @include set-from-screen("m") {
         width: $underline-width-from-m;
         margin-top: $underline-margin-from-m;
       }
 
-      @include set-from-screen('l') {
+      @include set-from-screen("l") {
         width: $underline-width-from-l;
         margin-top: $underline-margin-from-l;
       }
@@ -84,14 +84,14 @@ $heading-sizes: (
     // alternative extra small line-height
 
     &--#{$size}#{$parent}--line-height-xs {
-      @include set-line-height($font-scale, 'xs');
+      @include set-line-height($font-scale, "xs");
 
-      @include set-from-screen('m') {
-        @include set-line-height($font-scale-from-m, 'xs');
+      @include set-from-screen("m") {
+        @include set-line-height($font-scale-from-m, "xs");
       }
 
-      @include set-from-screen('l') {
-        @include set-line-height($font-scale-from-l, 'xs');
+      @include set-from-screen("l") {
+        @include set-line-height($font-scale-from-l, "xs");
       }
     }
   }

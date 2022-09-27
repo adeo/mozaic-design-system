@@ -1,5 +1,5 @@
-@mixin set-field-label {
-  @include set-font-scale('04', 'xs');
+@mixin set-field-label() {
+  @include set-font-scale("04", "xs");
 
   color: $color-fields-label;
 }

@@ -3,43 +3,41 @@
 $input-border-width: 0.0625rem; // get-border('s');
 
 $input-sizes: (
-  's': (
-    'font-size': '04',
-    'line-height': 'm',
-    'padding-v': math.div($mu075, 2),
-    'padding-h': $mu050 - $input-border-width,
+  "s": (
+    "font-size": "04",
+    "line-height": "m",
+    "padding-v": math.div($mu075, 2),
+    "padding-h": $mu050 - $input-border-width,
   ),
-  'm': (
-    'font-size': '05',
-    'line-height': 'm',
-    'padding-v': $mu075,
-    'padding-h': $mu075 - $input-border-width,
+  "m": (
+    "font-size": "05",
+    "line-height": "m",
+    "padding-v": $mu075,
+    "padding-h": $mu075 - $input-border-width,
   ),
 );
-
 $input-icon-sizes: (
-  's': (
-    'left': $mu050,
-    'height': $mu150,
-    'width': $mu150,
-    'padding-left': $mu250 - $input-border-width,
+  "s": (
+    "left": $mu050,
+    "height": $mu150,
+    "width": $mu150,
+    "padding-left": $mu250 - $input-border-width,
   ),
-  'm': (
-    'left': $mu075,
-    'height': $mu150,
-    'width': $mu150,
-    'padding-left': $mu300 - $input-border-width,
+  "m": (
+    "left": $mu075,
+    "height": $mu150,
+    "width": $mu150,
+    "padding-left": $mu300 - $input-border-width,
   ),
 );
-
-$input-default-size: map-get($input-sizes, 'm');
-$input-icon-default-size: map-get($input-icon-sizes, 'm');
+$input-default-size: map-get($input-sizes, "m");
+$input-icon-default-size: map-get($input-icon-sizes, "m");
 
 @mixin set-input-size($sizeProps) {
-  $padding-v: map-get($sizeProps, 'padding-v');
-  $padding-h: map-get($sizeProps, 'padding-h');
-  $font-size: map-get($sizeProps, 'font-size');
-  $line-height: map-get($sizeProps, 'line-height');
+  $padding-v: map-get($sizeProps, "padding-v");
+  $padding-h: map-get($sizeProps, "padding-h");
+  $font-size: map-get($sizeProps, "font-size");
+  $line-height: map-get($sizeProps, "line-height");
   $inner-height: get-token(size, line, $font-size, $line-height);
   $height: (($padding-v + $input-border-width) * 2) + $inner-height;
 
@@ -50,17 +48,17 @@ $input-icon-default-size: map-get($input-icon-sizes, 'm');
 
   &::placeholder {
     @include set-font-scale(
-      map-get($sizeProps, 'font-size'),
-      map-get($sizeProps, 'line-height')
+      map-get($sizeProps, "font-size"),
+      map-get($sizeProps, "line-height")
     );
   }
 }
 
 @mixin set-input-icon-size($sizeProps, $parent) {
-  $left: map-get($sizeProps, 'left');
-  $height: map-get($sizeProps, 'height');
-  $width: map-get($sizeProps, 'width');
-  $padding-left: map-get($sizeProps, 'padding-left');
+  $left: map-get($sizeProps, "left");
+  $height: map-get($sizeProps, "height");
+  $width: map-get($sizeProps, "width");
+  $padding-left: map-get($sizeProps, "padding-left");
 
   #{$parent}__icon {
     left: $left;

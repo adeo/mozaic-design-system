@@ -13,7 +13,7 @@
   }
 
   &__input {
-    @include reset-input;
+    @include reset-input();
 
     min-width: $checkbox-min-width;
     min-height: $checkbox-min-height;
@@ -41,7 +41,7 @@
       }
 
       &:hover {
-        @include add-demo-state-class {
+        @include add-demo-state-class() {
           border-color: $color-input-invalid-hover-border;
 
           &::-ms-check {
@@ -52,7 +52,7 @@
     }
 
     &:hover {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         border-color: $color-input-hover-border;
 
         &::-ms-check {
@@ -62,7 +62,7 @@
     }
 
     &:focus {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         @include set-shadow-focus();
 
         &::-ms-check {
@@ -83,12 +83,7 @@
 
       &:indeterminate {
         background-color: $color-input-disabled-background;
-        background-image:
-          url(
-            inline-icons(
-              "control-less-16",
-              $color-input-disabled-icon
-            ));
+        background-image: url("#{inline-icons('control-less-16', $color-input-disabled-icon)}");
         border-color: $color-input-disabled-border;
       }
     }
@@ -96,12 +91,7 @@
     &:checked {
       background-color: $color-input-checked-background;
       border-color: $color-input-checked-border;
-      background-image:
-        url(
-          inline-icons(
-            "checkmark-16",
-            $color-input-checked-icon
-          ));
+      background-image: url("#{inline-icons('checkmark-16', $color-input-checked-icon)}");
       background-position: center center;
       background-size: $mu100;
 
@@ -121,24 +111,14 @@
       &:disabled {
         border-color: $color-input-disabled-border;
         background: $color-input-disabled-background;
-        background-image:
-          url(
-            inline-icons(
-              "checkmark-16",
-              $color-input-disabled-icon
-            ));
+        background-image: url("#{inline-icons('checkmark-16', $color-input-disabled-icon)}");
       }
     }
 
     &:indeterminate {
       background-color: $color-input-checked-background;
       border-color: $color-input-checked-border;
-      background-image:
-        url(
-          inline-icons(
-            "control-less-16",
-            $color-input-checked-icon
-          ));
+      background-image: url("#{inline-icons('control-less-16', $color-input-checked-icon)}");
     }
   }
 }

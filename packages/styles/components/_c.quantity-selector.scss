@@ -4,9 +4,10 @@
   display: flex;
   position: relative;
 
+  /* stylelint-disable no-descending-specificity */
   &__button-right,
   &__button-left {
-    @include set-focus-floating-base {
+    @include set-focus-floating-base() {
       top: -$size-focus-border;
       right: -$size-focus-border;
       bottom: -$size-focus-border;
@@ -17,7 +18,7 @@
       box-shadow: none;
       z-index: 1;
 
-      @include set-focus-floating {
+      @include set-focus-floating() {
         box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
       }
     }
@@ -27,7 +28,8 @@
     border-radius: 0 $mu025 $mu025 0;
 
     &:focus::after {
-      border-radius: $size-focus-border $size-focus-radius-m
+      border-radius:
+        $size-focus-border $size-focus-radius-m
         $size-focus-radius-m $size-focus-border;
     }
   }
@@ -36,10 +38,12 @@
     border-radius: $mu025 0 0 $mu025;
 
     &:focus::after {
-      border-radius: $size-focus-radius-m $size-focus-border $size-focus-border
+      border-radius:
+        $size-focus-radius-m $size-focus-border $size-focus-border
         $size-focus-radius-m;
     }
   }
+  /* stylelint-enable no-descending-specificity */
 
   &__input {
     border-radius: 0;

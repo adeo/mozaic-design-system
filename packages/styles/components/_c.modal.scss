@@ -27,7 +27,9 @@
     opacity: 0;
     position: relative;
     transform: translateY(-25%);
-    transition: visibility 0s linear 0.4s, transform 0.4s ease,
+    transition:
+      visibility 0s linear 0.4s,
+      transform 0.4s ease,
       opacity 0.4s ease;
     visibility: hidden;
     width: 100%;
@@ -57,7 +59,9 @@
       opacity: 1;
       pointer-events: all;
       transform: translateY(0);
-      transition: visibility 0s linear 0s, transform 0.4s ease,
+      transition:
+        visibility 0s linear 0s,
+        transform 0.4s ease,
         opacity 0.4s ease;
       visibility: visible;
     }
@@ -104,8 +108,9 @@
     flex-shrink: 0;
     height: $mu200;
     width: $mu200;
-    background: transparent
-      url(inline-icons("control-cross-32", $color-dialog-close)) no-repeat;
+    background-color: transparent;
+    background-image: url("#{inline-icons('control-cross-32', $color-dialog-close)}");
+    background-repeat: no-repeat;
     background-size: contain;
 
     &-text {

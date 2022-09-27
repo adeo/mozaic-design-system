@@ -7,7 +7,7 @@
     width: 18rem;
 
     &:disabled {
-      @include add-demo-state-class {
+      @include add-demo-state-class() {
         border-color: transparent;
         background-color: $color-grey-100;
         color: $color-grey-600;

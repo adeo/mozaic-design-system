@@ -15,11 +15,11 @@
     padding-left: $mu075;
 
     &.is-open {
-      background-image: url(inline-icons("arrow-top-16", $color-grey-999));
+      background-image: url("#{inline-icons('arrow-top-16', $color-grey-999)}");
     }
 
     &:disabled {
-      @include add-demo-state-class {
+      @include add-demo-state-class () {
         border-color: transparent;
         background-color: $color-grey-100;
         color: $color-grey-600;
