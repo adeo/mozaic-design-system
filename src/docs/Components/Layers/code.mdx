@@ -14,6 +14,7 @@ Import the **settings**, the **layer**, and the **button** scss files.
 
 @import 'components/c.layer';
 @import 'components/c.button';
+@import 'components/c.overlay';
 ```
 
 ## Usage
@@ -159,7 +160,7 @@ To do this, you can add the `mc-layer--ltr` to the `.mc-layer`.
 During the opening of a layer by Javascript, several events occur:
 
 - Added the `is-open` class on the `mc-layer__dialog` element.
-- An `mc-layer-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
+- An `mc-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
 
 #### Prevent body from scrolling
 
