@@ -10,6 +10,9 @@
         },
         "border": {
           "value": "{color.info.500.value}"
+        },
+        "icon": {
+          "value": "{color.info.600.value}"
         }
       },
       "success": {
@@ -18,6 +21,9 @@
         },
         "border": {
           "value": "{color.success.500.value}"
+        },
+        "icon": {
+          "value": "{color.success.600.value}"
         }
       },
       "warning": {
@@ -26,6 +32,9 @@
         },
         "border": {
           "value": "{color.warning.500.value}"
+        },
+        "icon": {
+          "value": "{color.warning.600.value}"
         }
       },
       "danger": {
@@ -34,6 +43,9 @@
         },
         "border": {
           "value": "{color.danger.500.value}"
+        },
+        "icon": {
+          "value": "{color.danger.600.value}"
         }
       }
     }
