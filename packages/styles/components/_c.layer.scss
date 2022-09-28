@@ -51,13 +51,6 @@
       max-width: 28rem; // 448px;
     }
 
-    @at-root #{$parent} &.is-open {
-      pointer-events: all;
-      transform: translateX(0);
-      transition: visibility 0s linear 0s, transform 0.4s;
-      visibility: visible;
-    }
-
     &--extend {
       @include set-from-screen("m") {
         max-width: 31.75rem; // 508px;
@@ -244,5 +237,13 @@
 
   &-overlay {
     @include set-page-overlay();
+  }
+
+  /* States */
+  #{$parent}__dialog.is-open {
+    pointer-events: all;
+    transform: translateX(0);
+    transition: visibility 0s linear 0s, transform 0.4s;
+    visibility: visible;
   }
 }
