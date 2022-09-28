@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.43.1](https://github.com/adeo/mozaic-design-system/compare/v1.43.0...v1.43.1) (2022-09-28)
+
+
+### Bug Fixes
+
+* **component/layer:** improve the scoping of the is-open state class ([#1213](https://github.com/adeo/mozaic-design-system/issues/1213)) ([d3962df](https://github.com/adeo/mozaic-design-system/commit/d3962df84971027e7afc59c36a14feb88155ad97))
+
+
+
+
+
 # [1.43.0](https://github.com/adeo/mozaic-design-system/compare/v1.42.1...v1.43.0) (2022-09-28)
 
 
