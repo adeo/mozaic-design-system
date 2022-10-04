@@ -16,7 +16,6 @@ export const FullScreen16 = {
   ],
   type: 'media',
 }
-
 export const ReduceScreen16 = {
   viewBox: '0 0 16 16',
   size: '1rem',
