@@ -10,6 +10,13 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_24px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_24px.svg",
       "iconName": "PaymentFintecture"
@@ -76,6 +83,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_24px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_24px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -150,6 +164,13 @@
     {
       "cat": "Logotypes",
       "size": "32px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_32px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_32px.svg",
       "iconName": "PaymentFintecture"
@@ -216,6 +237,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_32px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_32px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -290,6 +318,13 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_48px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_48px.svg",
       "iconName": "PaymentFintecture"
@@ -356,6 +391,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_48px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_48px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -430,6 +472,13 @@
     {
       "cat": "Logotypes",
       "size": "64px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_64px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_64px.svg",
       "iconName": "PaymentFintecture"
@@ -496,6 +545,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_64px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_64px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -1649,6 +1705,14 @@
       "fileName": "Payment_Bill_24px.svg",
       "iconName": "Bill",
       "componentName": "Bill24"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_24px.svg",
+      "iconName": "CardsColorsMaestro",
+      "componentName": "CardsColorsMaestro24"
     },
     {
       "cat": "Payment",
@@ -3733,6 +3797,14 @@
     {
       "cat": "Payment",
       "size": "32px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_32px.svg",
+      "iconName": "CardsColorsMaestro",
+      "componentName": "CardsColorsMaestro32"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
       "name": "Cards_Monochrome_AmericanExpress",
       "fileName": "Payment_Cards_Monochrome_AmericanExpress_32px.svg",
       "iconName": "CardsMonochromeAmericanExpress",
@@ -5813,6 +5885,14 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_48px.svg",
+      "iconName": "CardsColorsMaestro",
+      "componentName": "CardsColorsMaestro48"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Monochrome_AmericanExpress",
       "fileName": "Payment_Cards_Monochrome_AmericanExpress_48px.svg",
       "iconName": "CardsMonochromeAmericanExpress",
@@ -7889,6 +7969,14 @@
       "fileName": "Payment_Bill_64px.svg",
       "iconName": "Bill",
       "componentName": "Bill64"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_64px.svg",
+      "iconName": "CardsColorsMaestro",
+      "componentName": "CardsColorsMaestro64"
     },
     {
       "cat": "Payment",
