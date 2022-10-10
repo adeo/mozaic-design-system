@@ -82,6 +82,27 @@ module.exports = {
 }
 ```
 
+### `platforms`
+
+By default, we generate tokens that can be consumed as `scss` or `css` variable files.
+
+However, you may want to generate tokens that can be consumed by another technology.
+
+To do so, you just have to add inside your `mozaic.config.js` filde in the `tokens` object, a `platform` key, which takes as value an array listing the desired technologies.
+
+```js
+module.exports = {
+  tokens: {
+    platforms: ['js', 'ios'],
+  },
+}
+```
+
+- Default values: ['scss']
+- Allowed values: `css`, `js`, `android`, `ios`, `ios-swift`
+
+> Note that the values you add in the `tokens.platforms` array are in addition to the default values, but do not replace them.
+
 ## stylelint options:
 
 ### `stylelint.disabled`

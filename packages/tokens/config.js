@@ -1,242 +1,247 @@
-const path = require('path')
 const CM = require('@mozaic-ds/configuration-manager')
-const preset = CM.getKey('preset')
-const localSrcPath = CM.getKey('tokens.localTokensSrcPath')
-const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
-const sdCustomActions = require('./actions/actions.js') // *sd = StyleDictionary
+const path = require('path')
+const customActions = require('./actions/actions.js')
 
 const getPath = (localRelativePath) =>
   path.relative(process.cwd(), `${__dirname}/${localRelativePath}`)
 
 const getBuildPath = (path) => getPath(path) + '/'
 
-const getSourceDir = (preset, customSourcePath) => {
-  const source = []
-  const sourceDir = {
-    adeo: 'AdeoProperties/**/*.json',
-    bricoman: 'BricomanProperties/**/*.json',
-    lm: 'properties/**/*.json',
-  }
+const preset = CM.getKey('preset')
 
-  source.push(getPath(sourceDir.lm))
+const localSrcPath = CM.getKey('tokens.localTokensSrcPath')
 
-  if (customSourcePath)
-    source.push(getPath(`${customSourcePath}${sourceDir[lm]}`))
+const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
 
-  if (preset) source.splice(1, 0, getPath(sourceDir[preset]))
+const source = localSrcPath
+  ? [getPath('properties/**/*.json'), `${localSrcPath}properties/**/*.json`]
+  : [getPath('properties/**/*.json')]
 
-  return source
+const availablePresets = {
+  adeo: 'AdeoProperties/**/*.json',
+  bricoman: 'BricomanProperties/**/*.json',
 }
 
-const source = getSourceDir(preset, localSrcPath)
+if (preset) {
+  source.splice(1, 0, getPath(availablePresets[preset]))
+}
 
-const setLocalTokensExportPath = (dir) => {
-  let outputDir = ''
-  const buildDir = {
-    adeo: 'buildAdeo/',
-    bricoman: 'buildBricoman/',
-    lm: 'build/',
-  }
+const setLocalTokensExportPath = (dir) =>
+  localTokensExportPath
+    ? `${localTokensExportPath}${dir}/`
+    : getBuildPath(`build/${dir}/`)
 
-  outputDir = preset ? buildDir[preset] : buildDir.lm
+const defaultPlatforms = ['scss']
+const customPlatforms = CM.getKey('tokens.platforms')
+const allowedPlatforms = customPlatforms
+  ? defaultPlatforms.concat(customPlatforms)
+  : defaultPlatforms
+const platforms = {
+  css: {
+    transformGroup: 'css',
+    buildPath: setLocalTokensExportPath('css'),
+    files: [
+      {
+        destination: 'root.scss',
+        format: 'css/variables',
+        options: {
+          showFileHeader: false,
+          outputReferences: true,
+        },
+        filter: {
+          attributes: {
+            category: 'color',
+          },
+        },
+      },
+    ],
+    actions: ['cssvariables_to_scss'],
+  },
+  scss: {
+    transformGroup: 'scss',
+    buildPath: setLocalTokensExportPath('scss'),
+    files: [
+      {
+        destination: '_tokens.scss',
+        format: 'scss/map-deep',
+        options: {
+          showFileHeader: false,
+        },
+      },
+    ],
+  },
+  android: {
+    transformGroup: 'android',
+    buildPath: setLocalTokensExportPath('android'),
+    files: [
+      {
+        destination: 'font_dimens.xml',
+        format: 'android/fontDimens',
+        options: {
+          showFileHeader: false,
+        },
+      },
+      {
+        destination: 'colors.xml',
+        format: 'android/colors',
+        options: {
+          showFileHeader: false,
+        },
+      },
+    ],
+  },
+  js: {
+    transformGroup: 'js',
+    buildPath: setLocalTokensExportPath('js'),
+    files: [
+      {
+        destination: 'tokensObject.js',
+        format: 'javascript/module',
+        options: {
+          showFileHeader: false,
+        },
+      },
+      {
+        format: 'javascript/es6',
+        destination: 'tokens.js',
+        options: {
+          showFileHeader: false,
+        },
+      },
+    ],
+  },
+  'ios-swift': {
+    transformGroup: 'ios-swift',
+    buildPath: setLocalTokensExportPath('ios'),
+    files: [
+      {
+        destination: 'StyleDictionaryColor.swift',
+        format: 'ios-swift/class.swift',
+        options: {
+          showFileHeader: false,
+        },
+        className: 'StyleDictionaryColor',
+        type: 'StyleDictionaryColorName',
+        options: {
+          showFileHeader: false,
+        },
+        filter: {
+          attributes: {
+            category: 'color',
+          },
+        },
+      },
+      {
+        destination: 'StyleDictionarySize.swift',
+        format: 'ios-swift/class.swift',
+        options: {
+          showFileHeader: false,
+        },
+        className: 'StyleDictionarySize',
+        options: {
+          showFileHeader: false,
+        },
+        type: 'float',
+        filter: {
+          attributes: {
+            category: 'size',
+          },
+        },
+      },
+    ],
+  },
+  ios: {
+    transformGroup: 'ios',
+    buildPath: setLocalTokensExportPath('ios'),
+    files: [
+      {
+        destination: 'StyleDictionaryColor.h',
+        format: 'ios/colors.h',
+        options: {
+          showFileHeader: false,
+        },
+        className: 'StyleDictionaryColor',
+        type: 'StyleDictionaryColorName',
+        options: {
+          showFileHeader: false,
+        },
+        filter: {
+          attributes: {
+            category: 'color',
+          },
+        },
+      },
+      {
+        destination: 'StyleDictionaryColor.m',
+        format: 'ios/colors.m',
+        options: {
+          showFileHeader: false,
+        },
+        className: 'StyleDictionaryColor',
+        type: 'StyleDictionaryColorName',
+        options: {
+          showFileHeader: false,
+        },
+        filter: {
+          attributes: {
+            category: 'color',
+          },
+        },
+      },
+      {
+        destination: 'StyleDictionarySize.h',
+        format: 'ios/static.h',
+        options: {
+          showFileHeader: false,
+        },
+        className: 'StyleDictionarySize',
+        options: {
+          showFileHeader: false,
+        },
+        type: 'float',
+        filter: {
+          attributes: {
+            category: 'size',
+          },
+        },
+      },
+      {
+        destination: 'StyleDictionarySize.m',
+        format: 'ios/static.m',
+        options: {
+          showFileHeader: false,
+        },
+        className: 'StyleDictionarySize',
+        type: 'float',
+        options: {
+          showFileHeader: false,
+        },
+        filter: {
+          attributes: {
+            category: 'size',
+          },
+        },
+      },
+    ],
+  },
+}
 
-  if (localTokensExportPath) return `${localTokensExportPath}${dir}/`
+function setPlatforms(platforms, allowedPlatforms) {
+  const configPlatforms = {}
 
-  return getBuildPath(`${outputDir}${dir}/`)
+  allowedPlatforms.forEach(function (platform) {
+    if (platforms.hasOwnProperty(platform)) {
+      configPlatforms[platform] = platforms[platform]
+    }
+  })
+
+  return configPlatforms
 }
 
 const config = {
   source,
-  platforms: {
-    css: {
-      transformGroup: 'css',
-      buildPath: setLocalTokensExportPath('css'),
-      files: [
-        {
-          destination: 'root.scss',
-          format: 'css/variables',
-          options: {
-            showFileHeader: false,
-            outputReferences: true,
-          },
-          filter: {
-            attributes: {
-              category: 'color',
-            },
-          },
-        },
-      ],
-      actions: ['cssvariables_to_scss'],
-    },
-    scss: {
-      transformGroup: 'scss',
-      buildPath: setLocalTokensExportPath('scss'),
-      files: [
-        {
-          destination: '_tokens.scss',
-          format: 'scss/map-deep',
-          options: {
-            showFileHeader: false,
-          },
-        },
-      ],
-    },
-    android: {
-      transformGroup: 'android',
-      buildPath: setLocalTokensExportPath('android'),
-      files: [
-        {
-          destination: 'font_dimens.xml',
-          format: 'android/fontDimens',
-          options: {
-            showFileHeader: false,
-          },
-        },
-        {
-          destination: 'colors.xml',
-          format: 'android/colors',
-          options: {
-            showFileHeader: false,
-          },
-        },
-      ],
-    },
-    js: {
-      transformGroup: 'js',
-      buildPath: setLocalTokensExportPath('js'),
-      files: [
-        {
-          destination: 'tokensObject.js',
-          format: 'javascript/module',
-          options: {
-            showFileHeader: false,
-          },
-        },
-        {
-          format: 'javascript/es6',
-          destination: 'tokens.js',
-          options: {
-            showFileHeader: false,
-          },
-        },
-      ],
-    },
-    'ios-swift': {
-      transformGroup: 'ios-swift',
-      buildPath: setLocalTokensExportPath('ios'),
-      files: [
-        {
-          destination: 'StyleDictionaryColor.swift',
-          format: 'ios-swift/class.swift',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionaryColor',
-          type: 'StyleDictionaryColorName',
-          options: {
-            showFileHeader: false,
-          },
-          filter: {
-            attributes: {
-              category: 'color',
-            },
-          },
-        },
-        {
-          destination: 'StyleDictionarySize.swift',
-          format: 'ios-swift/class.swift',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionarySize',
-          options: {
-            showFileHeader: false,
-          },
-          type: 'float',
-          filter: {
-            attributes: {
-              category: 'size',
-            },
-          },
-        },
-      ],
-    },
-    ios: {
-      transformGroup: 'ios',
-      buildPath: setLocalTokensExportPath('ios'),
-      files: [
-        {
-          destination: 'StyleDictionaryColor.h',
-          format: 'ios/colors.h',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionaryColor',
-          type: 'StyleDictionaryColorName',
-          options: {
-            showFileHeader: false,
-          },
-          filter: {
-            attributes: {
-              category: 'color',
-            },
-          },
-        },
-        {
-          destination: 'StyleDictionaryColor.m',
-          format: 'ios/colors.m',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionaryColor',
-          type: 'StyleDictionaryColorName',
-          options: {
-            showFileHeader: false,
-          },
-          filter: {
-            attributes: {
-              category: 'color',
-            },
-          },
-        },
-        {
-          destination: 'StyleDictionarySize.h',
-          format: 'ios/static.h',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionarySize',
-          options: {
-            showFileHeader: false,
-          },
-          type: 'float',
-          filter: {
-            attributes: {
-              category: 'size',
-            },
-          },
-        },
-        {
-          destination: 'StyleDictionarySize.m',
-          format: 'ios/static.m',
-          options: {
-            showFileHeader: false,
-          },
-          className: 'StyleDictionarySize',
-          type: 'float',
-          options: {
-            showFileHeader: false,
-          },
-          filter: {
-            attributes: {
-              category: 'size',
-            },
-          },
-        },
-      ],
-    },
-  },
-  action: sdCustomActions,
+  platforms: setPlatforms(platforms, allowedPlatforms),
+  action: customActions,
 }
 
 module.exports = config
