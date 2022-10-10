@@ -242,7 +242,7 @@
   /* States */
   #{$parent}__dialog.is-open {
     pointer-events: all;
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
     transition: visibility 0s linear 0s, transform 0.4s;
     visibility: visible;
   }
