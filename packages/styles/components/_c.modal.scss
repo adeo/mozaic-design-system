@@ -225,9 +225,4 @@
       }
     }
   }
-
-  // Overlay
-  @at-root #{$parent}-overlay {
-    @include set-page-overlay();
-  }
 }

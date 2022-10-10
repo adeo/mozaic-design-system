@@ -1,7 +1,4 @@
-import ReduceScreen16 from './icons/ReduceScreen16.js';
 import FullScreen16 from './icons/FullScreen16.js';
-import ArrowArrowBottom16 from './icons/ArrowArrowBottom16.js';
-import ArrowArrowLeft16 from './icons/ArrowArrowLeft16.js';
 import ArrowArrowRight16 from './icons/ArrowArrowRight16.js';
 import ArrowArrowTop16 from './icons/ArrowArrowTop16.js';
 import ArrowArrowBottomLeft16 from './icons/ArrowArrowBottomLeft16.js';
@@ -30,12 +27,12 @@ import ViewStarEmpty16 from './icons/ViewStarEmpty16.js';
 import ViewStarFull16 from './icons/ViewStarFull16.js';
 import ViewStarHalf16 from './icons/ViewStarHalf16.js';
 import Locator16 from './icons/Locator16.js';
-import Laptop24 from './icons/Laptop24.js';
 import Desktop24 from './icons/Desktop24.js';
+import Laptop24 from './icons/Laptop24.js';
 import Mobile24 from './icons/Mobile24.js';
 import Tablet24 from './icons/Tablet24.js';
-import HygieneDanger24 from './icons/HygieneDanger24.js';
 import HygieneCleaned24 from './icons/HygieneCleaned24.js';
+import HygieneDanger24 from './icons/HygieneDanger24.js';
 import HygieneDistance24 from './icons/HygieneDistance24.js';
 import HygieneGel24 from './icons/HygieneGel24.js';
 import HygieneMask24 from './icons/HygieneMask24.js';
@@ -67,8 +64,8 @@ import FullScreen24 from './icons/FullScreen24.js';
 import Gauge24 from './icons/Gauge24.js';
 import Group24 from './icons/Group24.js';
 import NoPicture24 from './icons/NoPicture24.js';
-import Play24 from './icons/Play24.js';
 import Pdf24 from './icons/Pdf24.js';
+import Play24 from './icons/Play24.js';
 import Player24 from './icons/Player24.js';
 import Policies24 from './icons/Policies24.js';
 import Print24 from './icons/Print24.js';
@@ -116,16 +113,17 @@ import DisplayDisplayProductX4Outline24 from './icons/DisplayDisplayProductX4Out
 import DisplayDisplayProductX924 from './icons/DisplayDisplayProductX924.js';
 import DisplayExternalLink24 from './icons/DisplayExternalLink24.js';
 import DisplayFilter24 from './icons/DisplayFilter24.js';
+import ReduceScreen16 from './icons/ReduceScreen16.js';
 import DisplayHome24 from './icons/DisplayHome24.js';
-import DisplayLogOut24 from './icons/DisplayLogOut24.js';
 import DisplayMenu24 from './icons/DisplayMenu24.js';
 import DisplayMovingBlock24 from './icons/DisplayMovingBlock24.js';
+import DisplayLogOut24 from './icons/DisplayLogOut24.js';
 import DisplayOptions24 from './icons/DisplayOptions24.js';
 import DisplayOther24 from './icons/DisplayOther24.js';
 import DisplayProductNumb24 from './icons/DisplayProductNumb24.js';
 import DisplayRefresh24 from './icons/DisplayRefresh24.js';
-import DisplaySearch24 from './icons/DisplaySearch24.js';
 import DisplayScreenRotation24 from './icons/DisplayScreenRotation24.js';
+import DisplaySearch24 from './icons/DisplaySearch24.js';
 import DisplaySearchList24 from './icons/DisplaySearchList24.js';
 import DisplaySearchProduct24 from './icons/DisplaySearchProduct24.js';
 import DisplaySetting24 from './icons/DisplaySetting24.js';
@@ -135,8 +133,8 @@ import NotificationAvailable24 from './icons/NotificationAvailable24.js';
 import NotificationBell24 from './icons/NotificationBell24.js';
 import NotificationCircleAvailable24 from './icons/NotificationCircleAvailable24.js';
 import NotificationInformation24 from './icons/NotificationInformation24.js';
-import NotificationQuestion24 from './icons/NotificationQuestion24.js';
 import NotificationWarning24 from './icons/NotificationWarning24.js';
+import NotificationQuestion24 from './icons/NotificationQuestion24.js';
 import PublishCopy24 from './icons/PublishCopy24.js';
 import PublishEdit24 from './icons/PublishEdit24.js';
 import PublishFavorite24 from './icons/PublishFavorite24.js';
@@ -150,13 +148,13 @@ import CardsMonochromeAmericanExpress24 from './icons/CardsMonochromeAmericanExp
 import CardsMonochromeCB24 from './icons/CardsMonochromeCB24.js';
 import CardsMonochromeCheque24 from './icons/CardsMonochromeCheque24.js';
 import CardsMonochromeGift24 from './icons/CardsMonochromeGift24.js';
-import CardsMonochromeIllicado24 from './icons/CardsMonochromeIllicado24.js';
 import CardsMonochromeLoyalty24 from './icons/CardsMonochromeLoyalty24.js';
+import CardsMonochromeIllicado24 from './icons/CardsMonochromeIllicado24.js';
 import CardsMonochromeMaestro24 from './icons/CardsMonochromeMaestro24.js';
 import CardsMonochromeMastercard24 from './icons/CardsMonochromeMastercard24.js';
+import CardsMonochromeOney24 from './icons/CardsMonochromeOney24.js';
 import CardsMonochromeOneyX324 from './icons/CardsMonochromeOneyX324.js';
 import CardsMonochromeOneyX424 from './icons/CardsMonochromeOneyX424.js';
-import CardsMonochromeOney24 from './icons/CardsMonochromeOney24.js';
 import CardsMonochromePaylib24 from './icons/CardsMonochromePaylib24.js';
 import CardsMonochromePaypal24 from './icons/CardsMonochromePaypal24.js';
 import CardsMonochromeVisa24 from './icons/CardsMonochromeVisa24.js';
@@ -224,8 +222,8 @@ import ShareShareAndroid24 from './icons/ShareShareAndroid24.js';
 import ShareShareIOS24 from './icons/ShareShareIOS24.js';
 import SocialNetworkFacebook24 from './icons/SocialNetworkFacebook24.js';
 import SocialNetworkInstagram24 from './icons/SocialNetworkInstagram24.js';
-import SocialNetworkPinterest24 from './icons/SocialNetworkPinterest24.js';
 import SocialNetworkLinkedin24 from './icons/SocialNetworkLinkedin24.js';
+import SocialNetworkPinterest24 from './icons/SocialNetworkPinterest24.js';
 import SocialNetworkTwitter24 from './icons/SocialNetworkTwitter24.js';
 import SocialNetworkYoutube24 from './icons/SocialNetworkYoutube24.js';
 import ViewLikeNegative24 from './icons/ViewLikeNegative24.js';
@@ -247,8 +245,8 @@ import Bedroom24 from './icons/Bedroom24.js';
 import Carpentry24 from './icons/Carpentry24.js';
 import ChristmasTree24 from './icons/ChristmasTree24.js';
 import ConnectedHome24 from './icons/ConnectedHome24.js';
-import Dressing24 from './icons/Dressing24.js';
 import Curtains24 from './icons/Curtains24.js';
+import Dressing24 from './icons/Dressing24.js';
 import Electricity24 from './icons/Electricity24.js';
 import Enki24 from './icons/Enki24.js';
 import Floor24 from './icons/Floor24.js';
@@ -330,8 +328,8 @@ import ServicePurchaseHelpRequest32 from './icons/ServicePurchaseHelpRequest32.j
 import ServicePurchaseHelpTruck32 from './icons/ServicePurchaseHelpTruck32.js';
 import UniverseEssentialProduct32 from './icons/UniverseEssentialProduct32.js';
 import PaymentMonochromeBizum32 from './icons/PaymentMonochromeBizum32.js';
-import PaymentMonochromeOney3x32 from './icons/PaymentMonochromeOney3x32.js';
 import PaymentMonochromeFintecture32 from './icons/PaymentMonochromeFintecture32.js';
+import PaymentMonochromeOney3x32 from './icons/PaymentMonochromeOney3x32.js';
 import PaymentMonochromeOney3x4x32 from './icons/PaymentMonochromeOney3x4x32.js';
 import PaymentMonochromePayPal32 from './icons/PaymentMonochromePayPal32.js';
 import API32 from './icons/API32.js';
@@ -351,8 +349,8 @@ import Player32 from './icons/Player32.js';
 import Policies32 from './icons/Policies32.js';
 import Print32 from './icons/Print32.js';
 import Project32 from './icons/Project32.js';
-import Read32 from './icons/Read32.js';
 import ReduceScreen32 from './icons/ReduceScreen32.js';
+import Read32 from './icons/Read32.js';
 import Slideshow32 from './icons/Slideshow32.js';
 import Sound32 from './icons/Sound32.js';
 import Stop32 from './icons/Stop32.js';
@@ -384,8 +382,8 @@ import DisplayBlink32 from './icons/DisplayBlink32.js';
 import DisplayCalendar32 from './icons/DisplayCalendar32.js';
 import DisplayConnect32 from './icons/DisplayConnect32.js';
 import DisplayDisplayFullFilled32 from './icons/DisplayDisplayFullFilled32.js';
-import DisplayDisplayListFilled32 from './icons/DisplayDisplayListFilled32.js';
 import DisplayDisplayFullOutline32 from './icons/DisplayDisplayFullOutline32.js';
+import DisplayDisplayListFilled32 from './icons/DisplayDisplayListFilled32.js';
 import DisplayDisplayListOutline32 from './icons/DisplayDisplayListOutline32.js';
 import DisplayDisplayMobileHorizontal32 from './icons/DisplayDisplayMobileHorizontal32.js';
 import DisplayDisplayMobileVertical32 from './icons/DisplayDisplayMobileVertical32.js';
@@ -413,13 +411,13 @@ import NotificationAvailable32 from './icons/NotificationAvailable32.js';
 import NotificationBell32 from './icons/NotificationBell32.js';
 import NotificationCircleAvailable32 from './icons/NotificationCircleAvailable32.js';
 import NotificationInformation32 from './icons/NotificationInformation32.js';
-import NotificationQuestion32 from './icons/NotificationQuestion32.js';
 import NotificationWarning32 from './icons/NotificationWarning32.js';
+import NotificationQuestion32 from './icons/NotificationQuestion32.js';
 import PublishCopy32 from './icons/PublishCopy32.js';
 import PublishEdit32 from './icons/PublishEdit32.js';
 import PublishFavorite32 from './icons/PublishFavorite32.js';
-import PublishFavoriteFull32 from './icons/PublishFavoriteFull32.js';
 import PublishLock32 from './icons/PublishLock32.js';
+import PublishFavoriteFull32 from './icons/PublishFavoriteFull32.js';
 import PublishSend32 from './icons/PublishSend32.js';
 import PublishTrashbin32 from './icons/PublishTrashbin32.js';
 import Split32 from './icons/Split32.js';
@@ -438,8 +436,8 @@ import CardsMonochromeOneyX432 from './icons/CardsMonochromeOneyX432.js';
 import CardsMonochromePaylib32 from './icons/CardsMonochromePaylib32.js';
 import CardsMonochromePaypal32 from './icons/CardsMonochromePaypal32.js';
 import CardsMonochromeVisa32 from './icons/CardsMonochromeVisa32.js';
-import DetailsOrder32 from './icons/DetailsOrder32.js';
 import Euro32 from './icons/Euro32.js';
+import DetailsOrder32 from './icons/DetailsOrder32.js';
 import Receipt32 from './icons/Receipt32.js';
 import SafePayment132 from './icons/SafePayment132.js';
 import SafePayment232 from './icons/SafePayment232.js';
@@ -479,6 +477,8 @@ import CustomCutWoodGlass32 from './icons/CustomCutWoodGlass32.js';
 import CustomSample32 from './icons/CustomSample32.js';
 import CustomSharpening32 from './icons/CustomSharpening32.js';
 import DeliveryDeliveryPickupRelayPoint32 from './icons/DeliveryDeliveryPickupRelayPoint32.js';
+import DeliveryDeliveryPickupStore32 from './icons/DeliveryDeliveryPickupStore32.js';
+import DeliveryDeliveryHome32 from './icons/DeliveryDeliveryHome32.js';
 import DeliveryDeliveryLocker32 from './icons/DeliveryDeliveryLocker32.js';
 import Pallet32 from './icons/Pallet32.js';
 import PurchaseHelpCarRent32 from './icons/PurchaseHelpCarRent32.js';
@@ -488,13 +488,11 @@ import PurchaseHelpToolRent32 from './icons/PurchaseHelpToolRent32.js';
 import TimeDelivery2h32 from './icons/TimeDelivery2h32.js';
 import TimeDelivery3h32 from './icons/TimeDelivery3h32.js';
 import TimeDelivery48h32 from './icons/TimeDelivery48h32.js';
-import DeliveryDeliveryPickupStore32 from './icons/DeliveryDeliveryPickupStore32.js';
-import DeliveryDeliveryHome32 from './icons/DeliveryDeliveryHome32.js';
 import TimeTimeDecline32 from './icons/TimeTimeDecline32.js';
 import Tools3d32 from './icons/Tools3d32.js';
 import ToolsCalculator32 from './icons/ToolsCalculator32.js';
-import CommentComment32 from './icons/CommentComment32.js';
 import ToolsComparator32 from './icons/ToolsComparator32.js';
+import CommentComment32 from './icons/CommentComment32.js';
 import CommentCommunity32 from './icons/CommentCommunity32.js';
 import CommentQuestionArticle32 from './icons/CommentQuestionArticle32.js';
 import CommentReport32 from './icons/CommentReport32.js';
@@ -502,6 +500,8 @@ import ShareShareAndroid32 from './icons/ShareShareAndroid32.js';
 import ShareShareIOS32 from './icons/ShareShareIOS32.js';
 import SocialNetworkFacebook32 from './icons/SocialNetworkFacebook32.js';
 import SocialNetworkInstagram32 from './icons/SocialNetworkInstagram32.js';
+import ArrowArrowBottom16 from './icons/ArrowArrowBottom16.js';
+import ArrowArrowLeft16 from './icons/ArrowArrowLeft16.js';
 import SocialNetworkLinkedin32 from './icons/SocialNetworkLinkedin32.js';
 import SocialNetworkPinterest32 from './icons/SocialNetworkPinterest32.js';
 import SocialNetworkTwitter32 from './icons/SocialNetworkTwitter32.js';
@@ -545,8 +545,8 @@ import Living32 from './icons/Living32.js';
 import MakeIt32 from './icons/MakeIt32.js';
 import Paint32 from './icons/Paint32.js';
 import Pool32 from './icons/Pool32.js';
-import Security32 from './icons/Security32.js';
 import Terrace32 from './icons/Terrace32.js';
+import Security32 from './icons/Security32.js';
 import Tool32 from './icons/Tool32.js';
 import WoodSaw32 from './icons/WoodSaw32.js';
 import AccountCustomerCollaborator32 from './icons/AccountCustomerCollaborator32.js';
@@ -600,8 +600,8 @@ import HygienePlexiglas48 from './icons/HygienePlexiglas48.js';
 import PaymentCheckout48 from './icons/PaymentCheckout48.js';
 import PaymentNoContact48 from './icons/PaymentNoContact48.js';
 import ServicePurchaseHelpCarOpenBoot48 from './icons/ServicePurchaseHelpCarOpenBoot48.js';
-import ServicePurchaseHelpCarStandInLine48 from './icons/ServicePurchaseHelpCarStandInLine48.js';
 import ServicePurchaseHelpCarStayInside48 from './icons/ServicePurchaseHelpCarStayInside48.js';
+import ServicePurchaseHelpCarStandInLine48 from './icons/ServicePurchaseHelpCarStandInLine48.js';
 import ServicePurchaseHelpLoading48 from './icons/ServicePurchaseHelpLoading48.js';
 import ServicePurchaseHelpNoCarRent48 from './icons/ServicePurchaseHelpNoCarRent48.js';
 import ServicePurchaseHelpRequest48 from './icons/ServicePurchaseHelpRequest48.js';
@@ -615,8 +615,8 @@ import PaymentMonochromePayPal48 from './icons/PaymentMonochromePayPal48.js';
 import API48 from './icons/API48.js';
 import BookStore48 from './icons/BookStore48.js';
 import Camera48 from './icons/Camera48.js';
-import Document48 from './icons/Document48.js';
 import Code48 from './icons/Code48.js';
+import Document48 from './icons/Document48.js';
 import DownloadApp48 from './icons/DownloadApp48.js';
 import DownloadWeb48 from './icons/DownloadWeb48.js';
 import FullScreen48 from './icons/FullScreen48.js';
@@ -642,8 +642,8 @@ import ArrowArrowLeft48 from './icons/ArrowArrowLeft48.js';
 import ArrowArrowRight48 from './icons/ArrowArrowRight48.js';
 import ArrowArrowTop48 from './icons/ArrowArrowTop48.js';
 import ArrowArrowBottomLeft48 from './icons/ArrowArrowBottomLeft48.js';
-import ArrowArrowBottomRight48 from './icons/ArrowArrowBottomRight48.js';
 import ArrowArrowTopLeft48 from './icons/ArrowArrowTopLeft48.js';
+import ArrowArrowBottomRight48 from './icons/ArrowArrowBottomRight48.js';
 import ArrowArrowTopRight48 from './icons/ArrowArrowTopRight48.js';
 import ArrowBack48 from './icons/ArrowBack48.js';
 import ArrowDoubleArrowLeft48 from './icons/ArrowDoubleArrowLeft48.js';
@@ -704,8 +704,8 @@ import Split48 from './icons/Split48.js';
 import Bill48 from './icons/Bill48.js';
 import CardsMonochromeAmericanExpress48 from './icons/CardsMonochromeAmericanExpress48.js';
 import CardsMonochromeCB48 from './icons/CardsMonochromeCB48.js';
-import CardsMonochromeGift48 from './icons/CardsMonochromeGift48.js';
 import CardsMonochromeCheque48 from './icons/CardsMonochromeCheque48.js';
+import CardsMonochromeGift48 from './icons/CardsMonochromeGift48.js';
 import CardsMonochromeIllicado48 from './icons/CardsMonochromeIllicado48.js';
 import CardsMonochromeLoyalty48 from './icons/CardsMonochromeLoyalty48.js';
 import CardsMonochromeMaestro48 from './icons/CardsMonochromeMaestro48.js';
@@ -795,8 +795,8 @@ import Locator48 from './icons/Locator48.js';
 import Logo48 from './icons/Logo48.js';
 import Map48 from './icons/Map48.js';
 import MonochromeRelayLocation48 from './icons/MonochromeRelayLocation48.js';
-import StoreLM48 from './icons/StoreLM48.js';
 import MonochromeStoreLocation48 from './icons/MonochromeStoreLocation48.js';
+import StoreLM48 from './icons/StoreLM48.js';
 import Attic48 from './icons/Attic48.js';
 import Bathroom48 from './icons/Bathroom48.js';
 import Bedroom48 from './icons/Bedroom48.js';
@@ -851,8 +851,8 @@ import EcoSaving48 from './icons/EcoSaving48.js';
 import Heat48 from './icons/Heat48.js';
 import House48 from './icons/House48.js';
 import IncreaseValue48 from './icons/IncreaseValue48.js';
-import LessonDIY48 from './icons/LessonDIY48.js';
 import Insulation48 from './icons/Insulation48.js';
+import LessonDIY48 from './icons/LessonDIY48.js';
 import Level48 from './icons/Level48.js';
 import PaintCan48 from './icons/PaintCan48.js';
 import PartnerCompany48 from './icons/PartnerCompany48.js';
@@ -1008,6 +1008,7 @@ import BasketMulti64 from './icons/BasketMulti64.js';
 import BasketSave64 from './icons/BasketSave64.js';
 import BasketStandard64 from './icons/BasketStandard64.js';
 import ListAdd64 from './icons/ListAdd64.js';
+import ListStandard64 from './icons/ListStandard64.js';
 import PromiseCertification64 from './icons/PromiseCertification64.js';
 import PromiseCircularEconomy64 from './icons/PromiseCircularEconomy64.js';
 import PromiseDestocking64 from './icons/PromiseDestocking64.js';
@@ -1036,7 +1037,6 @@ import CustomSharpening64 from './icons/CustomSharpening64.js';
 import DeliveryDeliveryPickupRelayPoint64 from './icons/DeliveryDeliveryPickupRelayPoint64.js';
 import DeliveryDeliveryPickupStore64 from './icons/DeliveryDeliveryPickupStore64.js';
 import DeliveryDeliveryHome64 from './icons/DeliveryDeliveryHome64.js';
-import ListStandard64 from './icons/ListStandard64.js';
 import DeliveryDeliveryLocker64 from './icons/DeliveryDeliveryLocker64.js';
 import Pallet64 from './icons/Pallet64.js';
 import PurchaseHelpCarRent64 from './icons/PurchaseHelpCarRent64.js';
@@ -1143,10 +1143,10 @@ import Temperature64 from './icons/Temperature64.js';
 import ThermalControl64 from './icons/ThermalControl64.js';
 import ToolBox64 from './icons/ToolBox64.js';
 import Player96 from './icons/Player96.js';
+import View36096 from './icons/View36096.js';
 if (!customElements.get('media-fullscreen-16px')) {
   customElements.define('media-fullscreen-16px', FullScreen16);
 }
-import View36096 from './icons/View36096.js';
 if (!customElements.get('media-reducescreen-16px')) {
   customElements.define('media-reducescreen-16px', ReduceScreen16);
 }
@@ -1171,11 +1171,11 @@ if (!customElements.get('navigation-arrow-arrowbottomright-16px')) {
 if (!customElements.get('navigation-arrow-arrowtopleft-16px')) {
   customElements.define('navigation-arrow-arrowtopleft-16px', ArrowArrowTopLeft16);
 }
-if (!customElements.get('navigation-arrow-arrowtopright-16px')) {
-  customElements.define('navigation-arrow-arrowtopright-16px', ArrowArrowTopRight16);
-}
 if (!customElements.get('navigation-arrow-back-16px')) {
   customElements.define('navigation-arrow-back-16px', ArrowBack16);
+}
+if (!customElements.get('navigation-arrow-arrowtopright-16px')) {
+  customElements.define('navigation-arrow-arrowtopright-16px', ArrowArrowTopRight16);
 }
 if (!customElements.get('navigation-arrow-doublearrow--left-16px')) {
   customElements.define('navigation-arrow-doublearrow--left-16px', ArrowDoubleArrowLeft16);
@@ -1255,9 +1255,6 @@ if (!customElements.get('device-tablet-24px')) {
 if (!customElements.get('instruction-hygiene-cleaned-24px')) {
   customElements.define('instruction-hygiene-cleaned-24px', HygieneCleaned24);
 }
-if (!customElements.get('instruction-hygiene-danger-24px')) {
-  customElements.define('instruction-hygiene-danger-24px', HygieneDanger24);
-}
 if (!customElements.get('instruction-hygiene-distance-24px')) {
   customElements.define('instruction-hygiene-distance-24px', HygieneDistance24);
 }
@@ -1266,6 +1263,9 @@ if (!customElements.get('instruction-hygiene-gel-24px')) {
 }
 if (!customElements.get('instruction-hygiene-mask-24px')) {
   customElements.define('instruction-hygiene-mask-24px', HygieneMask24);
+}
+if (!customElements.get('instruction-hygiene-danger-24px')) {
+  customElements.define('instruction-hygiene-danger-24px', HygieneDanger24);
 }
 if (!customElements.get('instruction-hygiene-nocontact-24px')) {
   customElements.define('instruction-hygiene-nocontact-24px', HygieneNoContact24);
@@ -1288,11 +1288,11 @@ if (!customElements.get('instruction-service-purchasehelp-car--standinline-24px'
 if (!customElements.get('instruction-service-purchasehelp-car--stayinside-24px')) {
   customElements.define('instruction-service-purchasehelp-car--stayinside-24px', ServicePurchaseHelpCarStayInside24);
 }
-if (!customElements.get('instruction-service-purchasehelp-loading-24px')) {
-  customElements.define('instruction-service-purchasehelp-loading-24px', ServicePurchaseHelpLoading24);
-}
 if (!customElements.get('instruction-service-purchasehelp-nocarrent-24px')) {
   customElements.define('instruction-service-purchasehelp-nocarrent-24px', ServicePurchaseHelpNoCarRent24);
+}
+if (!customElements.get('instruction-service-purchasehelp-loading-24px')) {
+  customElements.define('instruction-service-purchasehelp-loading-24px', ServicePurchaseHelpLoading24);
 }
 if (!customElements.get('instruction-service-purchasehelp-request-24px')) {
   customElements.define('instruction-service-purchasehelp-request-24px', ServicePurchaseHelpRequest24);
@@ -1315,14 +1315,8 @@ if (!customElements.get('logotypes-payment-monochrome-oney--3x-24px')) {
 if (!customElements.get('logotypes-payment-monochrome-oney--3x4x-24px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x4x-24px', PaymentMonochromeOney3x4x24);
 }
-if (!customElements.get('logotypes-payment-monochrome-paypal-24px')) {
-  customElements.define('logotypes-payment-monochrome-paypal-24px', PaymentMonochromePayPal24);
-}
 if (!customElements.get('media-api-24px')) {
   customElements.define('media-api-24px', API24);
-}
-if (!customElements.get('media-bookstore-24px')) {
-  customElements.define('media-bookstore-24px', BookStore24);
 }
 if (!customElements.get('media-camera-24px')) {
   customElements.define('media-camera-24px', Camera24);
@@ -1362,6 +1356,12 @@ if (!customElements.get('media-player-24px')) {
 }
 if (!customElements.get('media-policies-24px')) {
   customElements.define('media-policies-24px', Policies24);
+}
+if (!customElements.get('logotypes-payment-monochrome-paypal-24px')) {
+  customElements.define('logotypes-payment-monochrome-paypal-24px', PaymentMonochromePayPal24);
+}
+if (!customElements.get('media-bookstore-24px')) {
+  customElements.define('media-bookstore-24px', BookStore24);
 }
 if (!customElements.get('media-print-24px')) {
   customElements.define('media-print-24px', Print24);
@@ -1477,12 +1477,6 @@ if (!customElements.get('navigation-display-displaylist-filled-24px')) {
 if (!customElements.get('navigation-display-displaylist-outline-24px')) {
   customElements.define('navigation-display-displaylist-outline-24px', DisplayDisplayListOutline24);
 }
-if (!customElements.get('navigation-display-displaymobile--horizontal-24px')) {
-  customElements.define('navigation-display-displaymobile--horizontal-24px', DisplayDisplayMobileHorizontal24);
-}
-if (!customElements.get('navigation-display-displaymobile--vertical-24px')) {
-  customElements.define('navigation-display-displaymobile--vertical-24px', DisplayDisplayMobileVertical24);
-}
 if (!customElements.get('navigation-display-displayproductx4-filled-24px')) {
   customElements.define('navigation-display-displayproductx4-filled-24px', DisplayDisplayProductX4Filled24);
 }
@@ -1498,6 +1492,9 @@ if (!customElements.get('navigation-display-externallink-24px')) {
 if (!customElements.get('navigation-display-filter-24px')) {
   customElements.define('navigation-display-filter-24px', DisplayFilter24);
 }
+if (!customElements.get('navigation-display-displaymobile--horizontal-24px')) {
+  customElements.define('navigation-display-displaymobile--horizontal-24px', DisplayDisplayMobileHorizontal24);
+}
 if (!customElements.get('navigation-display-home-24px')) {
   customElements.define('navigation-display-home-24px', DisplayHome24);
 }
@@ -1509,9 +1506,6 @@ if (!customElements.get('navigation-display-menu-24px')) {
 }
 if (!customElements.get('navigation-display-movingblock-24px')) {
   customElements.define('navigation-display-movingblock-24px', DisplayMovingBlock24);
-}
-if (!customElements.get('navigation-display-options-24px')) {
-  customElements.define('navigation-display-options-24px', DisplayOptions24);
 }
 if (!customElements.get('navigation-display-other-24px')) {
   customElements.define('navigation-display-other-24px', DisplayOther24);
@@ -1549,11 +1543,11 @@ if (!customElements.get('navigation-notification-available-24px')) {
 if (!customElements.get('navigation-notification-bell-24px')) {
   customElements.define('navigation-notification-bell-24px', NotificationBell24);
 }
+if (!customElements.get('navigation-display-displaymobile--vertical-24px')) {
+  customElements.define('navigation-display-displaymobile--vertical-24px', DisplayDisplayMobileVertical24);
+}
 if (!customElements.get('navigation-notification-circle--available-24px')) {
   customElements.define('navigation-notification-circle--available-24px', NotificationCircleAvailable24);
-}
-if (!customElements.get('navigation-notification-information-24px')) {
-  customElements.define('navigation-notification-information-24px', NotificationInformation24);
 }
 if (!customElements.get('navigation-notification-question-24px')) {
   customElements.define('navigation-notification-question-24px', NotificationQuestion24);
@@ -1563,6 +1557,12 @@ if (!customElements.get('navigation-notification-warning-24px')) {
 }
 if (!customElements.get('navigation-publish-copy-24px')) {
   customElements.define('navigation-publish-copy-24px', PublishCopy24);
+}
+if (!customElements.get('navigation-display-options-24px')) {
+  customElements.define('navigation-display-options-24px', DisplayOptions24);
+}
+if (!customElements.get('navigation-notification-information-24px')) {
+  customElements.define('navigation-notification-information-24px', NotificationInformation24);
 }
 if (!customElements.get('navigation-publish-edit-24px')) {
   customElements.define('navigation-publish-edit-24px', PublishEdit24);
@@ -1594,11 +1594,11 @@ if (!customElements.get('payment-cards-monochrome-americanexpress-24px')) {
 if (!customElements.get('payment-cards-monochrome-cb-24px')) {
   customElements.define('payment-cards-monochrome-cb-24px', CardsMonochromeCB24);
 }
-if (!customElements.get('payment-cards-monochrome-cheque-24px')) {
-  customElements.define('payment-cards-monochrome-cheque-24px', CardsMonochromeCheque24);
-}
 if (!customElements.get('payment-cards-monochrome-gift-24px')) {
   customElements.define('payment-cards-monochrome-gift-24px', CardsMonochromeGift24);
+}
+if (!customElements.get('payment-cards-monochrome-cheque-24px')) {
+  customElements.define('payment-cards-monochrome-cheque-24px', CardsMonochromeCheque24);
 }
 if (!customElements.get('payment-cards-monochrome-illicado-24px')) {
   customElements.define('payment-cards-monochrome-illicado-24px', CardsMonochromeIllicado24);
@@ -1632,9 +1632,6 @@ if (!customElements.get('payment-cards-monochrome-visa-24px')) {
 }
 if (!customElements.get('payment-detailsorder-24px')) {
   customElements.define('payment-detailsorder-24px', DetailsOrder24);
-}
-if (!customElements.get('payment-euro-24px')) {
-  customElements.define('payment-euro-24px', Euro24);
 }
 if (!customElements.get('payment-receipt-24px')) {
   customElements.define('payment-receipt-24px', Receipt24);
@@ -1834,11 +1831,8 @@ if (!customElements.get('social-socialnetwork-twitter-24px')) {
 if (!customElements.get('social-socialnetwork-youtube-24px')) {
   customElements.define('social-socialnetwork-youtube-24px', SocialNetworkYoutube24);
 }
-if (!customElements.get('social-view-like--negative-24px')) {
-  customElements.define('social-view-like--negative-24px', ViewLikeNegative24);
-}
-if (!customElements.get('social-view-like--positive-24px')) {
-  customElements.define('social-view-like--positive-24px', ViewLikePositive24);
+if (!customElements.get('payment-euro-24px')) {
+  customElements.define('payment-euro-24px', Euro24);
 }
 if (!customElements.get('social-view-star--empty-24px')) {
   customElements.define('social-view-star--empty-24px', ViewStarEmpty24);
@@ -1860,6 +1854,12 @@ if (!customElements.get('store-locator-24px')) {
 }
 if (!customElements.get('store-logo-24px')) {
   customElements.define('store-logo-24px', Logo24);
+}
+if (!customElements.get('social-view-like--negative-24px')) {
+  customElements.define('social-view-like--negative-24px', ViewLikeNegative24);
+}
+if (!customElements.get('social-view-like--positive-24px')) {
+  customElements.define('social-view-like--positive-24px', ViewLikePositive24);
 }
 if (!customElements.get('store-map-24px')) {
   customElements.define('store-map-24px', Map24);
@@ -1927,14 +1927,14 @@ if (!customElements.get('universe-heater-24px')) {
 if (!customElements.get('universe-kids-24px')) {
   customElements.define('universe-kids-24px', Kids24);
 }
-if (!customElements.get('universe-kitchen-24px')) {
-  customElements.define('universe-kitchen-24px', Kitchen24);
-}
 if (!customElements.get('universe-kitchen2-24px')) {
   customElements.define('universe-kitchen2-24px', Kitchen224);
 }
 if (!customElements.get('universe-leak-24px')) {
   customElements.define('universe-leak-24px', Leak24);
+}
+if (!customElements.get('universe-kitchen-24px')) {
+  customElements.define('universe-kitchen-24px', Kitchen24);
 }
 if (!customElements.get('universe-lighting-24px')) {
   customElements.define('universe-lighting-24px', Lighting24);
@@ -1960,14 +1960,14 @@ if (!customElements.get('universe-terrace-24px')) {
 if (!customElements.get('universe-tool-24px')) {
   customElements.define('universe-tool-24px', Tool24);
 }
-if (!customElements.get('universe-woodsaw-24px')) {
-  customElements.define('universe-woodsaw-24px', WoodSaw24);
-}
 if (!customElements.get('user-account-customer--collaborator-24px')) {
   customElements.define('user-account-customer--collaborator-24px', AccountCustomerCollaborator24);
 }
 if (!customElements.get('user-account-customer--passion-24px')) {
   customElements.define('user-account-customer--passion-24px', AccountCustomerPassion24);
+}
+if (!customElements.get('universe-woodsaw-24px')) {
+  customElements.define('universe-woodsaw-24px', WoodSaw24);
 }
 if (!customElements.get('user-account-customer--pro-24px')) {
   customElements.define('user-account-customer--pro-24px', AccountCustomerPro24);
@@ -2017,17 +2017,17 @@ if (!customElements.get('various-apartment-24px')) {
 if (!customElements.get('various-balcony-24px')) {
   customElements.define('various-balcony-24px', Balcony24);
 }
-if (!customElements.get('various-blower-24px')) {
-  customElements.define('various-blower-24px', Blower24);
-}
 if (!customElements.get('various-door-24px')) {
   customElements.define('various-door-24px', Door24);
 }
-if (!customElements.get('various-ecosaving-24px')) {
-  customElements.define('various-ecosaving-24px', EcoSaving24);
+if (!customElements.get('various-blower-24px')) {
+  customElements.define('various-blower-24px', Blower24);
 }
 if (!customElements.get('various-heat-24px')) {
   customElements.define('various-heat-24px', Heat24);
+}
+if (!customElements.get('various-ecosaving-24px')) {
+  customElements.define('various-ecosaving-24px', EcoSaving24);
 }
 if (!customElements.get('various-house-24px')) {
   customElements.define('various-house-24px', House24);
@@ -2212,11 +2212,11 @@ if (!customElements.get('media-reducescreen-32px')) {
 if (!customElements.get('media-slideshow-32px')) {
   customElements.define('media-slideshow-32px', Slideshow32);
 }
-if (!customElements.get('media-sound-32px')) {
-  customElements.define('media-sound-32px', Sound32);
-}
 if (!customElements.get('media-stop-32px')) {
   customElements.define('media-stop-32px', Stop32);
+}
+if (!customElements.get('media-sound-32px')) {
+  customElements.define('media-sound-32px', Sound32);
 }
 if (!customElements.get('media-timeread-32px')) {
   customElements.define('media-timeread-32px', TimeRead32);
@@ -2320,11 +2320,11 @@ if (!customElements.get('navigation-display-displaymobile--vertical-32px')) {
 if (!customElements.get('navigation-display-displayproductx4-filled-32px')) {
   customElements.define('navigation-display-displayproductx4-filled-32px', DisplayDisplayProductX4Filled32);
 }
-if (!customElements.get('navigation-display-displayproductx9-32px')) {
-  customElements.define('navigation-display-displayproductx9-32px', DisplayDisplayProductX932);
-}
 if (!customElements.get('navigation-display-displayproductx4-outline-32px')) {
   customElements.define('navigation-display-displayproductx4-outline-32px', DisplayDisplayProductX4Outline32);
+}
+if (!customElements.get('navigation-display-displayproductx9-32px')) {
+  customElements.define('navigation-display-displayproductx9-32px', DisplayDisplayProductX932);
 }
 if (!customElements.get('navigation-display-externallink-32px')) {
   customElements.define('navigation-display-externallink-32px', DisplayExternalLink32);
@@ -2395,11 +2395,11 @@ if (!customElements.get('navigation-notification-question-32px')) {
 if (!customElements.get('navigation-notification-warning-32px')) {
   customElements.define('navigation-notification-warning-32px', NotificationWarning32);
 }
-if (!customElements.get('navigation-publish-copy-32px')) {
-  customElements.define('navigation-publish-copy-32px', PublishCopy32);
-}
 if (!customElements.get('navigation-publish-edit-32px')) {
   customElements.define('navigation-publish-edit-32px', PublishEdit32);
+}
+if (!customElements.get('navigation-publish-copy-32px')) {
+  customElements.define('navigation-publish-copy-32px', PublishCopy32);
 }
 if (!customElements.get('navigation-publish-favorite-32px')) {
   customElements.define('navigation-publish-favorite-32px', PublishFavorite32);
@@ -2460,9 +2460,6 @@ if (!customElements.get('payment-cards-monochrome-paylib-32px')) {
 }
 if (!customElements.get('payment-cards-monochrome-paypal-32px')) {
   customElements.define('payment-cards-monochrome-paypal-32px', CardsMonochromePaypal32);
-}
-if (!customElements.get('payment-detailsorder-32px')) {
-  customElements.define('payment-detailsorder-32px', DetailsOrder32);
 }
 if (!customElements.get('payment-cards-monochrome-visa-32px')) {
   customElements.define('payment-cards-monochrome-visa-32px', CardsMonochromeVisa32);
@@ -2551,11 +2548,11 @@ if (!customElements.get('product-promise-warranty-32px')) {
 if (!customElements.get('project-describeproject-32px')) {
   customElements.define('project-describeproject-32px', DescribeProject32);
 }
-if (!customElements.get('project-makeproject-32px')) {
-  customElements.define('project-makeproject-32px', MakeProject32);
-}
 if (!customElements.get('project-inspiration-32px')) {
   customElements.define('project-inspiration-32px', Inspiration32);
+}
+if (!customElements.get('project-makeproject-32px')) {
+  customElements.define('project-makeproject-32px', MakeProject32);
 }
 if (!customElements.get('service-aftersales-aftersalesservice-32px')) {
   customElements.define('service-aftersales-aftersalesservice-32px', AfterSalesAfterSalesService32);
@@ -2623,9 +2620,6 @@ if (!customElements.get('service-time-delivery--48h-32px')) {
 if (!customElements.get('service-time-timedecline-32px')) {
   customElements.define('service-time-timedecline-32px', TimeTimeDecline32);
 }
-if (!customElements.get('service-tools-3d-32px')) {
-  customElements.define('service-tools-3d-32px', Tools3d32);
-}
 if (!customElements.get('service-tools-calculator-32px')) {
   customElements.define('service-tools-calculator-32px', ToolsCalculator32);
 }
@@ -2649,6 +2643,9 @@ if (!customElements.get('social-share-shareandroid-32px')) {
 }
 if (!customElements.get('social-share-shareios-32px')) {
   customElements.define('social-share-shareios-32px', ShareShareIOS32);
+}
+if (!customElements.get('service-tools-3d-32px')) {
+  customElements.define('service-tools-3d-32px', Tools3d32);
 }
 if (!customElements.get('social-socialnetwork-facebook-32px')) {
   customElements.define('social-socialnetwork-facebook-32px', SocialNetworkFacebook32);
@@ -2773,11 +2770,11 @@ if (!customElements.get('universe-leak-32px')) {
 if (!customElements.get('universe-lighting-32px')) {
   customElements.define('universe-lighting-32px', Lighting32);
 }
-if (!customElements.get('universe-makeit-32px')) {
-  customElements.define('universe-makeit-32px', MakeIt32);
-}
 if (!customElements.get('universe-living-32px')) {
   customElements.define('universe-living-32px', Living32);
+}
+if (!customElements.get('universe-makeit-32px')) {
+  customElements.define('universe-makeit-32px', MakeIt32);
 }
 if (!customElements.get('universe-paint-32px')) {
   customElements.define('universe-paint-32px', Paint32);
@@ -2827,11 +2824,11 @@ if (!customElements.get('user-card-idcard-32px')) {
 if (!customElements.get('user-card-loyaltycard-32px')) {
   customElements.define('user-card-loyaltycard-32px', CardLoyaltyCard32);
 }
-if (!customElements.get('user-contact-phone-32px')) {
-  customElements.define('user-contact-phone-32px', ContactPhone32);
-}
 if (!customElements.get('user-contact-mail-32px')) {
   customElements.define('user-contact-mail-32px', ContactMail32);
+}
+if (!customElements.get('user-contact-phone-32px')) {
+  customElements.define('user-contact-phone-32px', ContactPhone32);
 }
 if (!customElements.get('user-contact-website-32px')) {
   customElements.define('user-contact-website-32px', ContactWebsite32);
@@ -2911,20 +2908,17 @@ if (!customElements.get('various-toolbox-32px')) {
 if (!customElements.get('device-desktop-48px')) {
   customElements.define('device-desktop-48px', Desktop48);
 }
-if (!customElements.get('device-mobile-48px')) {
-  customElements.define('device-mobile-48px', Mobile48);
-}
 if (!customElements.get('device-laptop-48px')) {
   customElements.define('device-laptop-48px', Laptop48);
+}
+if (!customElements.get('device-mobile-48px')) {
+  customElements.define('device-mobile-48px', Mobile48);
 }
 if (!customElements.get('device-tablet-48px')) {
   customElements.define('device-tablet-48px', Tablet48);
 }
 if (!customElements.get('instruction-hygiene-cleaned-48px')) {
   customElements.define('instruction-hygiene-cleaned-48px', HygieneCleaned48);
-}
-if (!customElements.get('instruction-hygiene-danger-48px')) {
-  customElements.define('instruction-hygiene-danger-48px', HygieneDanger48);
 }
 if (!customElements.get('instruction-hygiene-distance-48px')) {
   customElements.define('instruction-hygiene-distance-48px', HygieneDistance48);
@@ -2946,6 +2940,9 @@ if (!customElements.get('instruction-payment-checkout-48px')) {
 }
 if (!customElements.get('instruction-payment-nocontact-48px')) {
   customElements.define('instruction-payment-nocontact-48px', PaymentNoContact48);
+}
+if (!customElements.get('instruction-hygiene-danger-48px')) {
+  customElements.define('instruction-hygiene-danger-48px', HygieneDanger48);
 }
 if (!customElements.get('instruction-service-purchasehelp-car--openboot-48px')) {
   customElements.define('instruction-service-purchasehelp-car--openboot-48px', ServicePurchaseHelpCarOpenBoot48);
@@ -2992,9 +2989,6 @@ if (!customElements.get('media-api-48px')) {
 if (!customElements.get('media-bookstore-48px')) {
   customElements.define('media-bookstore-48px', BookStore48);
 }
-if (!customElements.get('media-camera-48px')) {
-  customElements.define('media-camera-48px', Camera48);
-}
 if (!customElements.get('media-code-48px')) {
   customElements.define('media-code-48px', Code48);
 }
@@ -3003,6 +2997,9 @@ if (!customElements.get('media-document-48px')) {
 }
 if (!customElements.get('media-download-app-48px')) {
   customElements.define('media-download-app-48px', DownloadApp48);
+}
+if (!customElements.get('media-camera-48px')) {
+  customElements.define('media-camera-48px', Camera48);
 }
 if (!customElements.get('media-download-web-48px')) {
   customElements.define('media-download-web-48px', DownloadWeb48);
@@ -3058,9 +3055,6 @@ if (!customElements.get('media-timeread-48px')) {
 if (!customElements.get('media-upload-48px')) {
   customElements.define('media-upload-48px', Upload48);
 }
-if (!customElements.get('media-view360-48px')) {
-  customElements.define('media-view360-48px', View36048);
-}
 if (!customElements.get('navigation-arrow-arrow--bottom-48px')) {
   customElements.define('navigation-arrow-arrow--bottom-48px', ArrowArrowBottom48);
 }
@@ -3072,6 +3066,9 @@ if (!customElements.get('navigation-arrow-arrow--right-48px')) {
 }
 if (!customElements.get('navigation-arrow-arrow--top-48px')) {
   customElements.define('navigation-arrow-arrow--top-48px', ArrowArrowTop48);
+}
+if (!customElements.get('media-view360-48px')) {
+  customElements.define('media-view360-48px', View36048);
 }
 if (!customElements.get('navigation-arrow-arrowbottomleft-48px')) {
   customElements.define('navigation-arrow-arrowbottomleft-48px', ArrowArrowBottomLeft48);
@@ -3103,9 +3100,6 @@ if (!customElements.get('navigation-arrow-next-48px')) {
 if (!customElements.get('navigation-arrow-up-48px')) {
   customElements.define('navigation-arrow-up-48px', ArrowUp48);
 }
-if (!customElements.get('navigation-control-circle--cross-48px')) {
-  customElements.define('navigation-control-circle--cross-48px', ControlCircleCross48);
-}
 if (!customElements.get('navigation-control-circle--less-48px')) {
   customElements.define('navigation-control-circle--less-48px', ControlCircleLess48);
 }
@@ -3115,11 +3109,14 @@ if (!customElements.get('navigation-control-circle--more-48px')) {
 if (!customElements.get('navigation-control-cross-48px')) {
   customElements.define('navigation-control-cross-48px', ControlCross48);
 }
-if (!customElements.get('navigation-control-more-48px')) {
-  customElements.define('navigation-control-more-48px', ControlMore48);
+if (!customElements.get('navigation-control-circle--cross-48px')) {
+  customElements.define('navigation-control-circle--cross-48px', ControlCircleCross48);
 }
 if (!customElements.get('navigation-control-less-48px')) {
   customElements.define('navigation-control-less-48px', ControlLess48);
+}
+if (!customElements.get('navigation-control-more-48px')) {
+  customElements.define('navigation-control-more-48px', ControlMore48);
 }
 if (!customElements.get('navigation-control-tag--cross-48px')) {
   customElements.define('navigation-control-tag--cross-48px', ControlTagCross48);
@@ -3232,11 +3229,11 @@ if (!customElements.get('navigation-notification-warning-48px')) {
 if (!customElements.get('navigation-publish-copy-48px')) {
   customElements.define('navigation-publish-copy-48px', PublishCopy48);
 }
-if (!customElements.get('navigation-publish-favorite-48px')) {
-  customElements.define('navigation-publish-favorite-48px', PublishFavorite48);
-}
 if (!customElements.get('navigation-publish-edit-48px')) {
   customElements.define('navigation-publish-edit-48px', PublishEdit48);
+}
+if (!customElements.get('navigation-publish-favorite-48px')) {
+  customElements.define('navigation-publish-favorite-48px', PublishFavorite48);
 }
 if (!customElements.get('navigation-publish-favoritefull-48px')) {
   customElements.define('navigation-publish-favoritefull-48px', PublishFavoriteFull48);
@@ -3328,14 +3325,14 @@ if (!customElements.get('product-basket-add-48px')) {
 if (!customElements.get('product-basket-handbag-48px')) {
   customElements.define('product-basket-handbag-48px', BasketHandbag48);
 }
-if (!customElements.get('product-basket-multi-48px')) {
-  customElements.define('product-basket-multi-48px', BasketMulti48);
-}
 if (!customElements.get('product-basket-save-48px')) {
   customElements.define('product-basket-save-48px', BasketSave48);
 }
 if (!customElements.get('product-basket-standard-48px')) {
   customElements.define('product-basket-standard-48px', BasketStandard48);
+}
+if (!customElements.get('product-basket-multi-48px')) {
+  customElements.define('product-basket-multi-48px', BasketMulti48);
 }
 if (!customElements.get('product-list-add-48px')) {
   customElements.define('product-list-add-48px', ListAdd48);
@@ -3373,20 +3370,14 @@ if (!customElements.get('product-promise-modular-48px')) {
 if (!customElements.get('product-promise-productonpicture-48px')) {
   customElements.define('product-promise-productonpicture-48px', PromiseProductOnPicture48);
 }
-if (!customElements.get('product-promise-productsheet-48px')) {
-  customElements.define('product-promise-productsheet-48px', PromiseProductSheet48);
+if (!customElements.get('payment-detailsorder-32px')) {
+  customElements.define('payment-detailsorder-32px', DetailsOrder32);
 }
 if (!customElements.get('product-promise-scan-48px')) {
   customElements.define('product-promise-scan-48px', PromiseScan48);
 }
 if (!customElements.get('product-promise-warranty-48px')) {
   customElements.define('product-promise-warranty-48px', PromiseWarranty48);
-}
-if (!customElements.get('project-describeproject-48px')) {
-  customElements.define('project-describeproject-48px', DescribeProject48);
-}
-if (!customElements.get('project-inspiration-48px')) {
-  customElements.define('project-inspiration-48px', Inspiration48);
 }
 if (!customElements.get('project-makeproject-48px')) {
   customElements.define('project-makeproject-48px', MakeProject48);
@@ -3553,11 +3544,11 @@ if (!customElements.get('universe-bedroom-48px')) {
 if (!customElements.get('universe-carpentry-48px')) {
   customElements.define('universe-carpentry-48px', Carpentry48);
 }
-if (!customElements.get('universe-connectedhome-48px')) {
-  customElements.define('universe-connectedhome-48px', ConnectedHome48);
-}
 if (!customElements.get('universe-christmastree-48px')) {
   customElements.define('universe-christmastree-48px', ChristmasTree48);
+}
+if (!customElements.get('universe-connectedhome-48px')) {
+  customElements.define('universe-connectedhome-48px', ConnectedHome48);
 }
 if (!customElements.get('universe-curtains-48px')) {
   customElements.define('universe-curtains-48px', Curtains48);
@@ -3694,11 +3685,11 @@ if (!customElements.get('various-door-48px')) {
 if (!customElements.get('various-ecosaving-48px')) {
   customElements.define('various-ecosaving-48px', EcoSaving48);
 }
-if (!customElements.get('various-house-48px')) {
-  customElements.define('various-house-48px', House48);
-}
 if (!customElements.get('various-heat-48px')) {
   customElements.define('various-heat-48px', Heat48);
+}
+if (!customElements.get('various-house-48px')) {
+  customElements.define('various-house-48px', House48);
 }
 if (!customElements.get('various-increasevalue-48px')) {
   customElements.define('various-increasevalue-48px', IncreaseValue48);
@@ -3832,11 +3823,11 @@ if (!customElements.get('media-camera-64px')) {
 if (!customElements.get('media-code-64px')) {
   customElements.define('media-code-64px', Code64);
 }
-if (!customElements.get('media-download-app-64px')) {
-  customElements.define('media-download-app-64px', DownloadApp64);
-}
 if (!customElements.get('media-document-64px')) {
   customElements.define('media-document-64px', Document64);
+}
+if (!customElements.get('media-download-app-64px')) {
+  customElements.define('media-download-app-64px', DownloadApp64);
 }
 if (!customElements.get('media-download-web-64px')) {
   customElements.define('media-download-web-64px', DownloadWeb64);
@@ -3864,6 +3855,9 @@ if (!customElements.get('media-player-64px')) {
 }
 if (!customElements.get('media-policies-64px')) {
   customElements.define('media-policies-64px', Policies64);
+}
+if (!customElements.get('media-print-64px')) {
+  customElements.define('media-print-64px', Print64);
 }
 if (!customElements.get('media-project-64px')) {
   customElements.define('media-project-64px', Project64);
@@ -4065,12 +4059,6 @@ if (!customElements.get('navigation-publish-copy-64px')) {
 }
 if (!customElements.get('navigation-publish-edit-64px')) {
   customElements.define('navigation-publish-edit-64px', PublishEdit64);
-}
-if (!customElements.get('navigation-publish-favorite-64px')) {
-  customElements.define('navigation-publish-favorite-64px', PublishFavorite64);
-}
-if (!customElements.get('navigation-publish-favoritefull-64px')) {
-  customElements.define('navigation-publish-favoritefull-64px', PublishFavoriteFull64);
 }
 if (!customElements.get('navigation-publish-lock-64px')) {
   customElements.define('navigation-publish-lock-64px', PublishLock64);
@@ -4276,6 +4264,9 @@ if (!customElements.get('service-purchasehelp-homeinstall-64px')) {
 if (!customElements.get('service-purchasehelp-toolrent-64px')) {
   customElements.define('service-purchasehelp-toolrent-64px', PurchaseHelpToolRent64);
 }
+if (!customElements.get('service-time-delivery--2h-64px')) {
+  customElements.define('service-time-delivery--2h-64px', TimeDelivery2h64);
+}
 if (!customElements.get('service-time-delivery--3h-64px')) {
   customElements.define('service-time-delivery--3h-64px', TimeDelivery3h64);
 }
@@ -4290,9 +4281,6 @@ if (!customElements.get('service-tools-3d-64px')) {
 }
 if (!customElements.get('service-tools-calculator-64px')) {
   customElements.define('service-tools-calculator-64px', ToolsCalculator64);
-}
-if (!customElements.get('media-print-64px')) {
-  customElements.define('media-print-64px', Print64);
 }
 if (!customElements.get('service-tools-comparator-64px')) {
   customElements.define('service-tools-comparator-64px', ToolsComparator64);
@@ -4330,11 +4318,11 @@ if (!customElements.get('social-socialnetwork-pinterest-64px')) {
 if (!customElements.get('social-socialnetwork-twitter-64px')) {
   customElements.define('social-socialnetwork-twitter-64px', SocialNetworkTwitter64);
 }
-if (!customElements.get('social-view-like--negative-64px')) {
-  customElements.define('social-view-like--negative-64px', ViewLikeNegative64);
-}
 if (!customElements.get('social-socialnetwork-youtube-64px')) {
   customElements.define('social-socialnetwork-youtube-64px', SocialNetworkYoutube64);
+}
+if (!customElements.get('social-view-like--negative-64px')) {
+  customElements.define('social-view-like--negative-64px', ViewLikeNegative64);
 }
 if (!customElements.get('social-view-like--positive-64px')) {
   customElements.define('social-view-like--positive-64px', ViewLikePositive64);
@@ -4519,6 +4507,9 @@ if (!customElements.get('various-balcony-64px')) {
 if (!customElements.get('various-blower-64px')) {
   customElements.define('various-blower-64px', Blower64);
 }
+if (!customElements.get('various-door-64px')) {
+  customElements.define('various-door-64px', Door64);
+}
 if (!customElements.get('various-ecosaving-64px')) {
   customElements.define('various-ecosaving-64px', EcoSaving64);
 }
@@ -4576,9 +4567,18 @@ if (!customElements.get('media-player-96px')) {
 if (!customElements.get('media-view360-96px')) {
   customElements.define('media-view360-96px', View36096);
 }
-if (!customElements.get('service-time-delivery--2h-64px')) {
-  customElements.define('service-time-delivery--2h-64px', TimeDelivery2h64);
+if (!customElements.get('product-promise-productsheet-48px')) {
+  customElements.define('product-promise-productsheet-48px', PromiseProductSheet48);
 }
-if (!customElements.get('various-door-64px')) {
-  customElements.define('various-door-64px', Door64);
+if (!customElements.get('project-describeproject-48px')) {
+  customElements.define('project-describeproject-48px', DescribeProject48);
+}
+if (!customElements.get('project-inspiration-48px')) {
+  customElements.define('project-inspiration-48px', Inspiration48);
+}
+if (!customElements.get('navigation-publish-favorite-64px')) {
+  customElements.define('navigation-publish-favorite-64px', PublishFavorite64);
+}
+if (!customElements.get('navigation-publish-favoritefull-64px')) {
+  customElements.define('navigation-publish-favoritefull-64px', PublishFavoriteFull64);
 }
