@@ -1949,6 +1949,14 @@
     {
       "cat": "Product",
       "size": "24px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_24px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy24"
+    },
+    {
+      "cat": "Product",
+      "size": "24px",
       "name": "Promise_Destocking",
       "fileName": "Product_Promise_Destocking_24px.svg",
       "iconName": "PromiseDestocking",
@@ -4033,6 +4041,14 @@
       "fileName": "Product_Promise_Certification_32px.svg",
       "iconName": "PromiseCertification",
       "componentName": "PromiseCertification32"
+    },
+    {
+      "cat": "Product",
+      "size": "32px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_32px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy32"
     },
     {
       "cat": "Product",
@@ -6125,6 +6141,14 @@
     {
       "cat": "Product",
       "size": "48px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_48px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy48"
+    },
+    {
+      "cat": "Product",
+      "size": "48px",
       "name": "Promise_Destocking",
       "fileName": "Product_Promise_Destocking_48px.svg",
       "iconName": "PromiseDestocking",
@@ -8209,6 +8233,14 @@
       "fileName": "Product_Promise_Certification_64px.svg",
       "iconName": "PromiseCertification",
       "componentName": "PromiseCertification64"
+    },
+    {
+      "cat": "Product",
+      "size": "64px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_64px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy64"
     },
     {
       "cat": "Product",
