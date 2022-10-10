@@ -1,0 +1,87 @@
+---
+title: 'Code'
+order: 2
+status:
+  scss: 'ready'
+  figma: 'ready'
+  react: 'ready'
+---
+
+> Icons are considered as static assets. They are available in SVG and PDF, also they can be used as Vue, React and Svelte components.
+
+
+## Import
+
+The icon set can be downloaded using this link: 
+<IconsLink> Download the Icon Kit here </IconsLink>
+
+The icon set can be added to your project dependencies: 
+
+Using NPM: 
+```
+npm install --save-dev @mozaic-ds/icons
+```
+
+Using Yarn: 
+```
+yarn add @mozaic-ds/icons
+```
+
+## Usage 
+All icon components are only wrappers for SVG. It has been done that way to facilitate the integration in your technology. 
+
+### VueJs 
+
+If you are a `@mozaic-ds/vue` or `@mozaic-ds/vue-3` users, you will be able to integrate the MIcon component. 
+To know more about the `MIcon` follow [this documentation](https://adeo.github.io/mozaic-vue/?path=/docs/components-micon--default-story)
+
+### Angular
+
+The icon set doesn't contains Angular components. You must use the svgs icon type. 
+In order to add the svgs to your project you can add the following code to your build: 
+
+```
+{
+  "glob": "**/*",
+  "input": "./node_modules/@mozaic-ds/icons/svg/",
+  "output": "./assets/images"
+}
+```
+
+### React
+
+In order to use the icon set on React, you must install the `@mozaic-ds/icons` package.
+Once the package install you can import the needed icon into your code.
+> To find the icon's name, please refer to the icon catalog page.
+
+```js
+import {FullScreen48} from '@mozaic-ds/icons/react'
+```
+
+### Web components
+
+In order to use the icon set on any technology, you can use our web components version. 
+
+You must install the `mozaic-web-components` package. 
+
+```
+npm install --save-dev @mozaic-ds/mozaic-web-components
+```
+
+You have to add the following to your code in order to import the web component. 
+
+```js
+import ArrowArrowRight16 from '@mozaic-ds/mozaic-web-components/public/icons/ArrowArrowRight16.js';
+
+if (!customElements.get('navigation-arrow-arrow--right-16px')) {
+  customElements.define(
+    'navigation-arrow-arrow--right-16px',
+    ArrowArrowRight16
+  )
+}
+```
+
+In order to use the web component you have to add to your HTML this: 
+```html
+<navigation-arrow-arrow--right-16px></navigation-arrow-arrow--right-16px>
+```

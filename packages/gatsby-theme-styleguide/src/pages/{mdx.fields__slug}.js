@@ -7,6 +7,7 @@ import ComponentStatus from '../components/ComponentStatus'
 import Highlight from '../components/Highlight'
 import Hint, { HintItem } from '../components/Hint'
 import IconViewer from '../components/IconViewer'
+import IconsLink from '../gatsby-components/IconsLink/IconsLink'
 import InlineCode from '../components/InlineCode'
 import Layout from '../components/layout'
 import PageTabs from '../components/PageTabs'
@@ -28,6 +29,7 @@ const components = {
   Hint,
   HintItem,
   IconViewer,
+  IconsLink,
   PatternsStatusTable,
   Story,
   SubContents,
