@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.43.1](https://github.com/adeo/mozaic-design-system/compare/v1.43.0...v1.43.1) (2022-09-28)
+
+
+### Bug Fixes
+
+* **component/layer:** improve the scoping of the is-open state class ([#1213](https://github.com/adeo/mozaic-design-system/issues/1213)) ([d3962df](https://github.com/adeo/mozaic-design-system/commit/d3962df84971027e7afc59c36a14feb88155ad97))
+
+
+
+
+
+# [1.43.0](https://github.com/adeo/mozaic-design-system/compare/v1.42.1...v1.43.0) (2022-09-28)
+
+
+### Features
+
+* **component/flag:** improve long text flag behaviour ([#1212](https://github.com/adeo/mozaic-design-system/issues/1212)) ([e923ba9](https://github.com/adeo/mozaic-design-system/commit/e923ba9ec57ffa64f7efbdf4a7716da731f875fd))
+* **pattern/colors:** add new LM colours ([#1210](https://github.com/adeo/mozaic-design-system/issues/1210)) ([07e3688](https://github.com/adeo/mozaic-design-system/commit/07e36880b0439c188aad10f0636f12ee1204c06c))
+
+
+
+
+
+## [1.42.1](https://github.com/adeo/mozaic-design-system/compare/v1.42.0...v1.42.1) (2022-09-27)
+
+
+### Bug Fixes
+
+* **layouts/grid:** improvee .ml-flexy__col selector scopable behaviour ([#1209](https://github.com/adeo/mozaic-design-system/issues/1209)) ([493a90b](https://github.com/adeo/mozaic-design-system/commit/493a90bb03c772a60edfb34a6608b8dda4170042))
+
+
+
+
+
 # [1.42.0](https://github.com/adeo/mozaic-design-system/compare/v1.41.0...v1.42.0) (2022-09-14)
 
 

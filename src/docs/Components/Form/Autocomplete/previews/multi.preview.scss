@@ -6,6 +6,7 @@
 @import "components/c.tag";
 @import "components/c.listbox";
 @import "components/c.autocomplete";
+@import "components/c.checkbox";
 
 .example {
   @include set-font-face();

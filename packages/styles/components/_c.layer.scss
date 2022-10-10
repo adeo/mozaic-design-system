@@ -17,7 +17,7 @@
     justify-content: flex-start;
 
     #{$parent}__dialog {
-      transform: translateX(-100%);
+      transform: translate3d(-100%, 0, 0);
     }
   }
 
@@ -25,7 +25,7 @@
     justify-content: flex-end;
 
     #{$parent}__dialog {
-      transform: translateX(100%);
+      transform: translate3d(100%, 0, 0);
     }
   }
 
@@ -49,13 +49,6 @@
 
     @include set-from-screen("l") {
       max-width: 28rem; // 448px;
-    }
-
-    @at-root #{$parent} &.is-open {
-      pointer-events: all;
-      transform: translateX(0);
-      transition: visibility 0s linear 0s, transform 0.4s;
-      visibility: visible;
     }
 
     &--extend {
@@ -244,5 +237,13 @@
 
   &-overlay {
     @include set-page-overlay();
+  }
+
+  /* States */
+  #{$parent}__dialog.is-open {
+    pointer-events: all;
+    transform: translate3d(0, 0, 0);
+    transition: visibility 0s linear 0s, transform 0.4s;
+    visibility: visible;
   }
 }
