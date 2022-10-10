@@ -68,8 +68,10 @@
   // by default a gl-flexy__col is
   &__col {
     flex: 1 1 0;
+  }
 
-    .ml-flexy--gutter > #{$parent}__col {
+  &--gutter {
+    & > #{$parent}__col {
       @include set-flexy-col-gutter($size-gutter-screen-s);
 
       @include set-from-screen("m") {
