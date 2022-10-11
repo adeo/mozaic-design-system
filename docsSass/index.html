@@ -1,0 +1,112 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>@mozaic-ds/designsystem - v0.0.0</title><link rel="stylesheet" href="assets/css/main.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="@mozaic-ds/designsystem - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="<p>leroy merlin design system</p>
+"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">@mozaic-ds/designsystem - 0.0.0</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="undefined"><a href="#undefined">General</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-mixin"><a href="#undefined-mixin">mixins</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="set-hidden-input" data-type="mixin"><a href="#undefined-mixin-set-hidden-input">set-hidden-input</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="set-page-overlay" data-type="mixin"><a href="#undefined-mixin-set-page-overlay">set-page-overlay</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="unstyle-button" data-type="mixin"><a href="#undefined-mixin-unstyle-button">unstyle-button</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="unstyle-list" data-type="mixin"><a href="#undefined-mixin-unstyle-list">unstyle-list</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="unstyle-list-inline" data-type="mixin"><a href="#undefined-mixin-unstyle-list-inline">unstyle-list-inline</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="add-demo-state-class" data-type="mixin"><a href="#undefined-mixin-add-demo-state-class">add-demo-state-class</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-function"><a href="#undefined-function">functions</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="mt-rgba" data-type="function"><a href="#undefined-function-mt-rgba">mt-rgba</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="map-deep-get" data-type="function"><a href="#undefined-function-map-deep-get">map-deep-get</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="get-parent-selector" data-type="function"><a href="#undefined-function-get-parent-selector">get-parent-selector</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="px-to-rem" data-type="function"><a href="#undefined-function-px-to-rem">px-to-rem</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="undefined"><div class="container">General</div></h1><section class="main__sub-section" id="undefined-mixin"><h2 class="main__heading--secondary"><div class="container">mixins</div></h2><section class="main__item container item" id="undefined-mixin-set-hidden-input"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#mixin-set-hidden-input">set-hidden-input</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin set-hidden-input() { 
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  visibility: visible;
+  white-space: nowrap;
+ }" data-collapsed="@mixin set-hidden-input() { ... }"><code>@mixin set-hidden-input() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The mixin set-hidden-input allow to hide any input using absolute positionning</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-mixin-set-page-overlay"><h3 class="item__heading"><a class="item__name" href="#mixin-set-page-overlay">set-page-overlay</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin set-page-overlay() { 
+  background-color: mt-rgba($background-color, 0.7);
+  cursor: pointer;
+
+  @if $blur {
+    filter: blur(1px);
+  }
+
+  inset: 0;
+  opacity: 0;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.4s ease, visibility 0ms 0.4s;
+  z-index: $z-index-page-overlay;
+
+  &amp;.is-visible {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 0.4s ease, visibility 0ms;
+    visibility: visible;
+  }
+ }" data-collapsed="@mixin set-page-overlay() { ... }"><code>@mixin set-page-overlay() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The mixin set-page-overlay() defines the styles of an overlay element that apply to all the space on a page</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#undefined-function-mt-rgba"><code>mt-rgba</code></a></li></ul></section><section class="main__item container item" id="undefined-mixin-unstyle-button"><h3 class="item__heading"><a class="item__name" href="#mixin-unstyle-button">unstyle-button</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin unstyle-button() { 
+  margin: 0;
+  box-shadow: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+ }" data-collapsed="@mixin unstyle-button() { ... }"><code>@mixin unstyle-button() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The mixin unstyle-button allow to remove any default style applied by the browser on the button Element</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-mixin-unstyle-list"><h3 class="item__heading"><a class="item__name" href="#mixin-unstyle-list">unstyle-list</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin unstyle-list() { 
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+ }" data-collapsed="@mixin unstyle-list() { ... }"><code>@mixin unstyle-list() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The mixin unstyle-list allow to remove any default style applied by the browser on the UL/LI Element</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-unstyle-list-inline"><code>unstyle-list-inline</code></a></li></ul></section><section class="main__item container item" id="undefined-mixin-unstyle-list-inline"><h3 class="item__heading"><a class="item__name" href="#mixin-unstyle-list-inline">unstyle-list-inline</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin unstyle-list-inline() { 
+  @include unstyle-list();
+
+  display: flex;
+  flex-flow: row wrap;
+ }" data-collapsed="@mixin unstyle-list-inline() { ... }"><code>@mixin unstyle-list-inline() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The mixin unstyle-list-inline allow to remove any default style applied by the browser and display it as flex</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-unstyle-list"><code>unstyle-list</code></a></li></ul></section><section class="main__item container item" id="undefined-mixin-add-demo-state-class"><h3 class="item__heading"><a class="item__name" href="#mixin-add-demo-state-class">add-demo-state-class</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin add-demo-state-class() { 
+  @if variable-exists(&quot;mozaic-env&quot;) {
+    $selector: &amp;;
+    $states: (&quot;:active&quot;, &quot;:disabled&quot;, &quot;:focus&quot;, &quot;:hover&quot;, &quot;:visited&quot;);
+
+    @each $state in $states {
+      $has-state: str-index(&quot;#{$selector}&quot;, &quot;#{$state}&quot;);
+
+      @if $has-state {
+        $state-class: &quot;.is-&quot; + str-slice(&quot;#{$state}&quot;, 2, -1);
+        $new-selector: selector-replace(
+          &quot;#{$selector}&quot;,
+          &quot;#{$state}&quot;,
+          &quot;#{$state-class}&quot;
+        );
+
+        @at-root #{if($mozaic-env == development, &quot;#{$new-selector},&quot;, &quot;&quot;)}
+        #{$selector} {
+          @content;
+        }
+      }
+    }
+  } @else {
+    @content;
+  }
+ }" data-collapsed="@mixin add-demo-state-class() { ... }"><code>@mixin add-demo-state-class() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The mixin add-demo-state-class defines state class (active, disabled, focus, hover and visited)</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section></section><section class="main__sub-section" id="undefined-function"><h2 class="main__heading--secondary"><div class="container">functions</div></h2><section class="main__item container item" id="undefined-function-mt-rgba"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-mt-rgba">mt-rgba</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function mt-rgba($var, $opacity) { 
+  $is-custom-property: str-index(#{$var}, &quot;var&quot;);
+
+  @if $is-custom-property {
+    $hexa-color: str-slice($var, str-index($var, &quot;#&quot;), (str-length($var) - 1));
+    $alpha: mt-dectohex(round($opacity * 255));
+
+    @return $hexa-color + $alpha;
+  } @else {
+    @return rgba($var, $opacity);
+  }
+ }" data-collapsed="@function mt-rgba($var, $opacity) { ... }"><code>@function mt-rgba($var, $opacity) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The function mt-rgba allow to create an rgba color from a color variable and opacity</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter </span>Name</th><th scope="col"><span class="visually-hidden">parameter </span>Description</th><th scope="col"><span class="visually-hidden">parameter </span>Type</th><th scope="col"><span class="visually-hidden">parameter </span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$var</code></th><td data-label="desc"><p>mozaic color variable</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$opacity</code></th><td data-label="desc"><p>opacity from 0 to 1</p></td><td data-label="type"><code>Number</code></td><td data-label="default">&mdash;<span class="visually-hidden"> none</span></td></tr></tbody></table><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#undefined-mixin-set-page-overlay"><code>set-page-overlay</code></a></li></ul></section><section class="main__item container item" id="undefined-function-map-deep-get"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-map-deep-get">map-deep-get</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function map-deep-get() { 
+  @each $key in $keys {
+    @if map-has-key($map, $key) {
+      $map: map-get($map, $key);
+    } @else {
+      @warn &#39;It seem that you are trying to reach &quot;#{$key}&quot; in map &quot;#{$map}&quot;, but it does not exist&#39;;
+
+      $map: &quot;map error&quot;;
+    }
+  }
+
+  @return $map;
+ }" data-collapsed="@function map-deep-get() { ... }"><code>@function map-deep-get() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>This function return the nested $map for specific $keys</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-function-get-parent-selector"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#function-get-parent-selector">get-parent-selector</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function get-parent-selector() { 
+  $start-index: str-index(#{$selector}, $prefix);
+
+  @if $start-index {
+    $mozaic-class: str-slice(#{$selector}, $start-index);
+
+    @return $mozaic-class;
+  } @else {
+    @warn &quot;Unknown prefix #{$prefix} in #{$selector} selector.&quot;;
+    @return $selector;
+  }
+ }" data-collapsed="@function get-parent-selector() { ... }"><code>@function get-parent-selector() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The function get-parent-selector allow to return the parent selector</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="undefined-function-px-to-rem"><h3 class="item__heading"><a class="item__name" href="#function-px-to-rem">px-to-rem</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function px-to-rem() { 
+  @return math.div($px-val, $local-rem-value) * 1rem;
+ }" data-collapsed="@function px-to-rem() { ... }"><code>@function px-to-rem() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>a conversion tool to express things in rem taking account of the local 1rem value</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --> <span class="project-info__name">@mozaic-ds/designsystem</span><!-- Version --> <span class="project-info__version">- v0.0.0</span><!-- License --> <span class="project-info__license">, under MIT</span></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>

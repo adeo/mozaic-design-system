@@ -1,3 +1,5 @@
+/// The mixin unstyle-button allow to remove any default style applied by the browser on the button Element
+/// @access public
 @mixin unstyle-button() {
   margin: 0;
   box-shadow: none;
@@ -8,12 +10,16 @@
   cursor: pointer;
 }
 
+/// The mixin unstyle-list allow to remove any default style applied by the browser on the UL/LI Element
+/// @access public
 @mixin unstyle-list() {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
+/// The mixin unstyle-list-inline allow to remove any default style applied by the browser and display it as flex
+/// @access public
 @mixin unstyle-list-inline() {
   @include unstyle-list();
 

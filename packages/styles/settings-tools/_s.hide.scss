@@ -1,3 +1,5 @@
+/// The mixin set-hidden-input allow to hide any input using absolute positionning
+/// @access private
 @mixin set-hidden-input() {
   position: absolute;
   width: 1px;

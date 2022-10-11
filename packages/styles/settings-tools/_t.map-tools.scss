@@ -1,3 +1,5 @@
+/// This function return the nested $map for specific $keys
+/// @access private
 @function map-deep-get($map, $keys...) {
   @each $key in $keys {
     @if map-has-key($map, $key) {

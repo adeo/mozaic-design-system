@@ -15,6 +15,10 @@
   @return $result;
 }
 
+/// The function mt-rgba allow to create an rgba color from a color variable and opacity
+/// @access private
+/// @param {String} var - mozaic color variable
+/// @param {Number} opacity - opacity from 0 to 1
 @function mt-rgba($var, $opacity) {
   $is-custom-property: str-index(#{$var}, "var");
 

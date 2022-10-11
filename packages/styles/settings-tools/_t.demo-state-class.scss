@@ -1,3 +1,5 @@
+/// The mixin add-demo-state-class defines state class (active, disabled, focus, hover and visited)
+/// @access public
 @mixin add-demo-state-class() {
   @if variable-exists("mozaic-env") {
     $selector: &;

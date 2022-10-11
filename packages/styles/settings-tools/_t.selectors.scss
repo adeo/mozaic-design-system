@@ -1,5 +1,7 @@
 @use "sass:selector";
 
+/// The function get-parent-selector allow to return the parent selector
+/// @access private
 @function get-parent-selector($selector, $prefix: ".mc-") {
   $start-index: str-index(#{$selector}, $prefix);
 
