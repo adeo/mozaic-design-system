@@ -7,4 +7,4 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M36 20h-2.5v-3.5a9.5 9.5 0 00-19 0V20H12a2 2 0 00-2 2v17a2 2 0 002 2h24a2 2 0 002-2V22a2 2 0 00-2-2zm-18.5-3.5a6.5 6.5 0 0113 0V20h-13zM35 38H13V23h22z"/><path d="M28.64 26.08l-6.11 6.21-3.2-3a1 1 0 00-1.33 1.5l3.92 3.63a1 1 0 00.68.27 1 1 0 00.71-.3l6.8-6.91a1 1 0 00-1.43-1.4z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs></defs><g id="Icon"><path  d="M36,20H33.5V16.5a9.5,9.5,0,0,0-19,0V20H12a2,2,0,0,0-2,2V39a2,2,0,0,0,2,2H36a2,2,0,0,0,2-2V22A2,2,0,0,0,36,20ZM17.5,16.5a6.5,6.5,0,0,1,13,0V20h-13ZM35,38H13V23H35Z"/><path  d="M28.64,26.08l-6.11,6.21-3.2-3A1,1,0,0,0,18,30.79l3.92,3.63a1,1,0,0,0,.68.27,1,1,0,0,0,.71-.3l6.8-6.91a1,1,0,0,0-1.43-1.4Z"/></g></svg>

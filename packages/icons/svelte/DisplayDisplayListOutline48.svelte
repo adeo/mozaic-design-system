@@ -7,4 +7,4 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M42 4H6a2 2 0 00-2 2v6a2 2 0 002 2h36a2 2 0 002-2V6a2 2 0 00-2-2zm-1 7H7V7h34zM42 19H6a2 2 0 00-2 2v6a2 2 0 002 2h36a2 2 0 002-2v-6a2 2 0 00-2-2zm-1 7H7v-4h34zM42 34H6a2 2 0 00-2 2v6a2 2 0 002 2h36a2 2 0 002-2v-6a2 2 0 00-2-2zm-1 7H7v-4h34z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs></defs><g id="Icon"><path  d="M42,4H6A2,2,0,0,0,4,6v6a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V6A2,2,0,0,0,42,4Zm-1,7H7V7H41Z"/><path  d="M42,19H6a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V21A2,2,0,0,0,42,19Zm-1,7H7V22H41Z"/><path  d="M42,34H6a2,2,0,0,0-2,2v6a2,2,0,0,0,2,2H42a2,2,0,0,0,2-2V36A2,2,0,0,0,42,34Zm-1,7H7V37H41Z"/></g></svg>

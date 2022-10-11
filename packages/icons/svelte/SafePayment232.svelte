@@ -7,4 +7,4 @@
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M23 13.43h-1.63v-3a5.38 5.38 0 10-10.75 0v3H9a2 2 0 00-2 2v9.5a2 2 0 002 2h14a2 2 0 002-2v-9.5a2 2 0 00-2-2zm-10.38-3a3.38 3.38 0 116.75 0v3h-6.75zM23 24.93H9v-9.5h14z"/><path d="M14.73 22.44a.51.51 0 00.34.14.51.51 0 00.36-.15L19.8 18a.5.5 0 000-.71.49.49 0 00-.7 0l-4 4.09-2.16-2a.5.5 0 00-.71 0 .5.5 0 000 .71z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs></defs><g id="Icon"><path  d="M23,13.43H21.37v-3a5.38,5.38,0,1,0-10.75,0v3H9a2,2,0,0,0-2,2v9.5a2,2,0,0,0,2,2H23a2,2,0,0,0,2-2v-9.5A2,2,0,0,0,23,13.43Zm-10.38-3a3.38,3.38,0,1,1,6.75,0v3H12.62ZM23,24.93H9v-9.5H23Z"/><path  d="M14.73,22.44a.51.51,0,0,0,.34.14.51.51,0,0,0,.36-.15L19.8,18a.5.5,0,0,0,0-.71.49.49,0,0,0-.7,0l-4,4.09-2.16-2a.5.5,0,0,0-.71,0,.5.5,0,0,0,0,.71Z"/></g></svg>

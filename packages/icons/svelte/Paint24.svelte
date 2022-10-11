@@ -7,4 +7,4 @@
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.5 4.5H17V3a1 1 0 00-1-1H5a1 1 0 00-1 1v4a1 1 0 001 1h11a1 1 0 001-1V5.5h2v3.88a1.52 1.52 0 01-1.19 1.47l-7.11 1.49a1.52 1.52 0 00-1.19 1.47V16h-1a.5.5 0 00-.5.5v5a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-5a.5.5 0 00-.5-.5h-1v-2.19a.51.51 0 01.4-.49l7.09-1.5a2.5 2.5 0 002-2.44V5a.5.5 0 00-.5-.5zM15 6H6V4h9z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs></defs><g id="Calque_5" ><path  d="M19.5,4.5H17V3a1,1,0,0,0-1-1H5A1,1,0,0,0,4,3V7A1,1,0,0,0,5,8H16a1,1,0,0,0,1-1V5.5h2V9.38a1.52,1.52,0,0,1-1.19,1.47L10.7,12.34a1.52,1.52,0,0,0-1.19,1.47V16h-1a.5.5,0,0,0-.5.5v5a.5.5,0,0,0,.5.5h3a.5.5,0,0,0,.5-.5v-5a.5.5,0,0,0-.5-.5h-1V13.81a.51.51,0,0,1,.4-.49L18,11.82a2.5,2.5,0,0,0,2-2.44V5A.5.5,0,0,0,19.5,4.5ZM15,6H6V4h9Z"/></g></svg>

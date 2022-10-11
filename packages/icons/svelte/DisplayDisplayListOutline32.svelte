@@ -7,4 +7,4 @@
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M27 13H5a2 2 0 00-2 2v2a2 2 0 002 2h22a2 2 0 002-2v-2a2 2 0 00-2-2zM5 17v-2h22v2zM27 3H5a2 2 0 00-2 2v2a2 2 0 002 2h22a2 2 0 002-2V5a2 2 0 00-2-2zM5 7V5h22v2zM27 23H5a2 2 0 00-2 2v2a2 2 0 002 2h22a2 2 0 002-2v-2a2 2 0 00-2-2zM5 27v-2h22v2z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs></defs><g id="Icon"><path  d="M27,13H5a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2H27a2,2,0,0,0,2-2V15A2,2,0,0,0,27,13ZM5,17V15H27v2Z"/><path  d="M27,3H5A2,2,0,0,0,3,5V7A2,2,0,0,0,5,9H27a2,2,0,0,0,2-2V5A2,2,0,0,0,27,3ZM5,7V5H27V7Z"/><path  d="M27,23H5a2,2,0,0,0-2,2v2a2,2,0,0,0,2,2H27a2,2,0,0,0,2-2V25A2,2,0,0,0,27,23ZM5,27V25H27v2Z"/></g></svg>

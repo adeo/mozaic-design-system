@@ -7,4 +7,4 @@
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 17H3a1 1 0 01-.92-.62 1 1 0 01.21-1.09l9-9a1 1 0 011.42 0l9 9a1 1 0 01.21 1.09A1 1 0 0121 17zM5.41 15h13.18L12 8.41z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs></defs><g id="Calque_5" ><path  d="M21,17H3a1,1,0,0,1-.92-.62,1,1,0,0,1,.21-1.09l9-9a1,1,0,0,1,1.42,0l9,9a1,1,0,0,1,.21,1.09A1,1,0,0,1,21,17ZM5.41,15H18.59L12,8.41Z"/></g></svg>

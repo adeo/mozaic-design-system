@@ -7,4 +7,4 @@
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M53.55 13l-13.5-3.9a2 2 0 00-1.06 0l-14.48 3.84-13-3.7A2 2 0 009 11.16v38a2 2 0 001.45 1.93L24 54.9a2 2 0 00.55.08 1.86 1.86 0 00.52-.07l14.47-3.85 13 3.7A2 2 0 0055 52.84v-38A2 2 0 0053.55 13zm-28 2.84l13-3.47v35.84l-13 3.47zM12 12.49l11.5 3.28v35.88L12 48.37zm40 39l-11.5-3.26V12.35L52 15.63z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs></defs><g id="Icon"><path  d="M53.55,13,40.05,9.1a2,2,0,0,0-1.06,0L24.51,12.94l-13-3.7A2,2,0,0,0,9,11.16v38a2,2,0,0,0,1.45,1.93L24,54.9a2,2,0,0,0,.55.08,1.86,1.86,0,0,0,.52-.07l14.47-3.85,13,3.7A2,2,0,0,0,55,52.84v-38A2,2,0,0,0,53.55,13Zm-28,2.84,13-3.47V48.21l-13,3.47ZM12,12.49l11.5,3.28V51.65L12,48.37Zm40,39L40.5,48.23V12.35L52,15.63Z"/></g></svg>
