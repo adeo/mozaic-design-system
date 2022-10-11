@@ -5,6 +5,12 @@
 .mc-tabs {
   $parent: get-parent-selector(&);
 
+  @include set-divider("bottom", "light", "100%") {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+
   background-color: $color-tabs-background;
   position: relative;
   width: 100%;
@@ -14,22 +20,10 @@
     width: auto;
   }
 
-  &::before {
-    bottom: 0;
-    box-shadow: 0 $mu025 $mu025 mt-rgba($color-tabs-shadow, 0.1);
-    content: "";
-    display: block;
-    left: 0;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
-  }
-
-  &--no-shadow {
-    &::before {
-      box-shadow: none;
+  &--no-shadow,
+  &--no-divider {
+    &::after {
+      display: none;
     }
   }
 
@@ -59,41 +53,51 @@
     position: relative;
   }
 
-  &__item {
-    @media screen and (max-width: 679px) {
-      padding: magic-unit-rem(0.125, true);
-    }
-  }
-
-  &__link {
-    @include set-font-face();
-    @include set-font-scale("05", "s");
-
-    @include set-focus-floating-base {
+  &__link,
+  &__element {
+    @include set-font-scale("04", "m");
+    @include set-font-weight("semi-bold");
+    @include set-focus-floating-base($before: true) {
       bottom: -(math.div($mu025, 2));
       top: -(math.div($mu025, 2));
     }
 
+    align-items: center;
     background: none;
     border: none;
-    border-bottom: 0.125rem solid transparent;
     color: $color-tabs-default;
     cursor: pointer;
-    display: block;
+    display: flex;
+    height: $mu350; // =56px
+    justify-content: center;
     outline: none;
-    padding: magic-unit-rem(1.1875, true) $mu150 magic-unit-rem(1.0625, true);
+    padding-left: $mu075;
+    padding-right: $mu075;
+    position: relative;
     text-decoration: none;
 
-    &:active,
-    &--selected {
-      @include set-font-weight("semi-bold");
-
-      color: $color-tabs-active;
+    &::after {
+      background-color: transparent;
+      bottom: 0;
+      content: "";
+      height: $mu025;
+      left: $mu150;
+      position: absolute;
+      right: $mu150;
     }
 
-    &:focus,
     &:hover {
-      color: $color-tabs-hover;
+      #{$parent}__text {
+        background-color: $color-tabs-element-background;
+      }
+    }
+
+    &:active {
+      color: $color-tabs-active-text;
+
+      #{$parent}__text {
+        background-color: $color-tabs-active-background;
+      }
     }
 
     &:focus {
@@ -101,30 +105,31 @@
     }
 
     &--selected {
-      border-bottom-color: $color-tabs-active;
+      color: $color-tabs-selected-text;
 
-      &:focus,
-      &:hover {
-        border-bottom-color: $color-tabs-hover;
+      &::after {
+        background-color: $color-tabs-selected-border;
       }
     }
 
     &--disabled {
       cursor: not-allowed;
+      background-color: $color-tabs-disabled-background;
+      pointer-events: none;
 
       &,
       &:hover,
       &:focus,
       &:active {
-        color: $color-tabs-disabled;
         box-shadow: none;
       }
-
-      &#{$parent}__link--selected {
-        color: $color-tabs-active-disabled;
-        border-bottom-color: $color-tabs-active-disabled;
-      }
     }
+  }
+
+  &__text {
+    position: relative;
+    border-radius: $mu025;
+    padding: 0.4375rem $mu075; // =7px 12px
   }
 
   &--full,

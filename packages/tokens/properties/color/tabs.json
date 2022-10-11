@@ -8,16 +8,36 @@
         "value": "{color.grey.999.value}"
       },
       "default": {
-        "value": "{color.font.darker.value}"
+        "value": "{color.font.light.value}"
+      },
+      "element": {
+        "background": {
+          "value": "{color.primary-02.100.value}"
+        }
       },
       "hover": {
         "value": "{color.primary-01.800.value}"
       },
       "disabled": {
-        "value": "{color.font.light.value}"
+        "background": {
+          "value": "{color.grey.200.value}"
+        }
       },
       "active": {
-        "value": "{color.font.primary-01.value}"
+        "background": {
+          "value": "{color.primary-02.200.value}"
+        },
+        "text": {
+          "value": "{color.font.dark.value}"
+        }
+      },
+      "selected": {
+        "border": {
+          "value": "{color.grey.999.value}"
+        },
+        "text": {
+          "value": "{color.font.darkest.value}"
+        }
       },
       "active-disabled": {
         "value": "{color.primary-01.200.value}"
