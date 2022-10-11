@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "node-fetch": "^2.6.1"
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7"
   },
   "peerDependencies": {
     "gatsby": "^4.8.1"
