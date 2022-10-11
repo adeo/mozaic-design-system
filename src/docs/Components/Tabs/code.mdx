@@ -19,12 +19,7 @@ Import **the settings** and **the tabs** `scss` files.
 
 ## Basic usage
 
-To create basic tabs, apply the following classes:
-
-- `mc-tabs` on a div container
-- `mc-tabs__nav` on the `ul` tag
-- `mc-tabs__item` on the `li` tag
-- `mc-tabs__link` on the `a` tag
+The creation of an **Tabs** component in your code is done using the following HTML structure:
 
 ```html
 <div class="mc-tabs">
@@ -34,18 +29,18 @@ To create basic tabs, apply the following classes:
         href="#"
         role="tab"
         aria-selected="true"
-        class="mc-tabs__link mc-tabs__link--selected"
+        class="mc-tabs__element mc-tabs__element--selected"
       >
         Tab one selected
       </a>
     </li>
     <li class="mc-tabs__item" role="presentation">
-      <a href="#" role="tab" aria-selected="false" class="mc-tabs__link">
+      <a href="#" role="tab" aria-selected="false" class="mc-tabs__element">
         Tab two
       </a>
     </li>
     <li class="mc-tabs__item" role="presentation">
-      <a href="#" role="tab" aria-selected="false" class="mc-tabs__link">
+      <a href="#" role="tab" aria-selected="false" class="mc-tabs__element">
         Tab three
       </a>
     </li>
@@ -61,8 +56,7 @@ Depending on the context of use, the tab can have several states:
 
 - Inactive
 - Active
-- Active disabled
-- Inactive disabled
+- Disabled
 
 <Preview path="tabs-all-states" />
 
@@ -94,15 +88,15 @@ To display your tabs in full page width, you need to apply the `mc-tabs--full-ce
 
 <Preview path="tabs-fullwidth" />
 
-#### Without shadow
+#### Without divider
 
-To display your tabs without shadow, you need to apply the `mc-tabs--no-shadow` modifier to the `mc-tabs` element.
+To display your tabs without divider, you need to apply the `mc-tabs--no-divider` modifier to the `mc-tabs` element.
 
 ```html
-<div class="mc-tabs mc-tabs--no-shadow">...</div>
+<div class="mc-tabs mc-tabs--no-divider">...</div>
 ```
 
-<Preview path="tabs-no-shadow" />
+<Preview path="tabs-no-divider" />
 
 ## Use tabs with panes
 
@@ -112,17 +106,38 @@ If you need to use tabs to control (show/hide) content within the page (e.g. con
 <div class="mc-tabs">
   <ul class="mc-tabs__nav" role="tablist" aria-label="Tabs default">
     <li class="mc-tabs__item" role="presentation">
-      <a href="#panel-1" id="tab-1" role="tab" aria-selected="true" aria-controls="panel-1" class="mc-tabs__link mc-tabs__link--selected">
+      <a
+        href="#panel-1"
+        id="tab-1"
+        role="tab"
+        aria-selected="true"
+        aria-controls="panel-1"
+        class="mc-tabs__element mc-tabs__element--selected"
+      >
         Tab one selected
       </a>
     </li>
     <li class="mc-tabs__item" role="presentation">
-      <a href="#panel-2" id="tab-2" role="tab" aria-selected="false" aria-controls="panel-2" class="mc-tabs__link">
+      <a
+        href="#panel-2"
+        id="tab-2"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-2"
+        class="mc-tabs__element"
+      >
         Tab two
       </a>
     </li>
     <li class="mc-tabs__item" role="presentation">
-      <a href="#panel-3" id="tab-3" role="tab" aria-selected="false" aria-controls="panel-3" class="mc-tabs__link">
+      <a
+        href="#panel-3"
+        id="tab-3"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-3"
+        class="mc-tabs__element"
+      >
         Tab three
       </a>
     </li>
@@ -130,20 +145,42 @@ If you need to use tabs to control (show/hide) content within the page (e.g. con
 </div>
 
 <div class="your-panes-wrapper">
-  <div id="panel-1" role="tabpanel" aria-labelledby="tab-1" class="your-pane-class your-pane-active-class">...</div>
-  <div id="panel-2" role="tabpanel" aria-labelledby="tab-2" class="your-pane-class">...</div>
-  <div id="panel-3" role="tabpanel" aria-labelledby="tab-3" class="your-pane-class">...</div>
+  <div
+    id="panel-1"
+    role="tabpanel"
+    aria-labelledby="tab-1"
+    class="your-pane-class your-pane-active-class"
+  >
+    ...
+  </div>
+  <div
+    id="panel-2"
+    role="tabpanel"
+    aria-labelledby="tab-2"
+    class="your-pane-class"
+  >
+    ...
+  </div>
+  <div
+    id="panel-3"
+    role="tabpanel"
+    aria-labelledby="tab-3"
+    class="your-pane-class"
+  >
+    ...
+  </div>
 </div>
 ```
 
 <Highlight theme="tips" title="Accessibility rules">
 
 In order to make tabbable panes accessible, be sure to implement the following :
-- all your `mc-tabs__link` element must have an `id` attribute
-- all your `mc-tabs__link` element must have a `aria-controls` whose value is the same as the id of the associated panel
+
+- all your `mc-tabs__element` element must have an `id` attribute
+- all your `mc-tabs__element` element must have a `aria-controls` whose value is the same as the id of the associated panel
 - all your panel element must have an `id` attribute
 - all your panel element must have a `role="tabpanel"` attribute
-- all your panel element must have an `aria-labelledby` attribute whose value is the same as the id of the associated `mc-tabs__link` element
+- all your panel element must have an `aria-labelledby` attribute whose value is the same as the id of the associated `mc-tabs__element` element
 
 </Highlight>
 
@@ -165,9 +202,8 @@ To do this, you just need to use the [Mozaic Select component](/Components/Form/
 
 ```scss
 @import 'settings-tools/all-settings';
-
-@import 'components/_c.tabs';
-@import 'components/_c.select';
+@import 'components/c.tabs';
+@import 'components/c.select';
 ```
 
 #### Usage
@@ -195,7 +231,7 @@ To properly use the tabs, you must add javascript in order to adapt the behavior
 
 Your javascript code must perform the following actions when the user clicks on a tab:
 
-- remove the `mc-tabs__link-selected` class from its location and add it only on the new active tab.
+- remove the `mc-tabs__element-selected` class from its location and add it only on the new active tab.
 - make the `aria-selected` attribute have a value equal to `true` only on the new active tab, and a value equal to `false` on the rest of the tabs.
 
 ## Accessibility and semantic
@@ -228,10 +264,10 @@ Make sure that the _(`mc-tabs__nav`)_ tabs container complies with the following
 
 <HintItem>
   Always use the <strong>role="tab"</strong> attribute on each{' '}
-  <strong>mc-tabs__link</strong> element
+  <strong>mc-tabs__element</strong> element
 </HintItem>
 <HintItem>
-  When the tab (<strong>mc-tabs__link</strong>) is selected, it must have the
+  When the tab (<strong>mc-tabs__element</strong>) is selected, it must have the
   attribute <strong>aria-selected="true"</strong>
   <br /> Conversely when the tab is not active, the value of the attribute aria-selected
   must be "false".
