@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chokidar": "^3.5.2",
-    "directory-tree": "^3.0.0",
-    "xstate": "^4.30.6"
+    "chokidar": "^3.5.3",
+    "directory-tree": "^3.3.1",
+    "xstate": "^4.33.6"
   },
   "peerDependencies": {
     "gatsby": "^4.8.1"
