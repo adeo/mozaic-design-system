@@ -193,6 +193,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "thomasPierreADEO",
+      "name": "Thomas PIERRE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85944839?v=4",
+      "profile": "https://github.com/thomasPierreADEO",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
