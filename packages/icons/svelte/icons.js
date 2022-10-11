@@ -8,8 +8,8 @@ import ArrowArrowBottomLeft16 from './icons/ArrowArrowBottomLeft16.js';
 import ArrowArrowBottomRight16 from './icons/ArrowArrowBottomRight16.js';
 import ArrowArrowTopLeft16 from './icons/ArrowArrowTopLeft16.js';
 import ArrowArrowTopRight16 from './icons/ArrowArrowTopRight16.js';
-import ArrowBack16 from './icons/ArrowBack16.js';
 import ArrowDoubleArrowLeft16 from './icons/ArrowDoubleArrowLeft16.js';
+import ArrowBack16 from './icons/ArrowBack16.js';
 import ArrowDoubleArrowRight16 from './icons/ArrowDoubleArrowRight16.js';
 import ArrowDown16 from './icons/ArrowDown16.js';
 import ArrowNext16 from './icons/ArrowNext16.js';
@@ -18,8 +18,8 @@ import ControlCross16 from './icons/ControlCross16.js';
 import ControlLess16 from './icons/ControlLess16.js';
 import ControlMore16 from './icons/ControlMore16.js';
 import ControlTagCross16 from './icons/ControlTagCross16.js';
-import DisplayExternalLink16 from './icons/DisplayExternalLink16.js';
 import NotificationAvailable16 from './icons/NotificationAvailable16.js';
+import DisplayExternalLink16 from './icons/DisplayExternalLink16.js';
 import PublishFavorite16 from './icons/PublishFavorite16.js';
 import PublishFavoriteFull16 from './icons/PublishFavoriteFull16.js';
 import PublishLock16 from './icons/PublishLock16.js';
@@ -47,8 +47,8 @@ import ServicePurchaseHelpCarOpenBoot24 from './icons/ServicePurchaseHelpCarOpen
 import ServicePurchaseHelpCarStandInLine24 from './icons/ServicePurchaseHelpCarStandInLine24.js';
 import ServicePurchaseHelpCarStayInside24 from './icons/ServicePurchaseHelpCarStayInside24.js';
 import ServicePurchaseHelpLoading24 from './icons/ServicePurchaseHelpLoading24.js';
-import ServicePurchaseHelpNoCarRent24 from './icons/ServicePurchaseHelpNoCarRent24.js';
 import ServicePurchaseHelpRequest24 from './icons/ServicePurchaseHelpRequest24.js';
+import ServicePurchaseHelpNoCarRent24 from './icons/ServicePurchaseHelpNoCarRent24.js';
 import ServicePurchaseHelpTruck24 from './icons/ServicePurchaseHelpTruck24.js';
 import UniverseEssentialProduct24 from './icons/UniverseEssentialProduct24.js';
 import PaymentMonochromeBizum24 from './icons/PaymentMonochromeBizum24.js';
@@ -65,14 +65,14 @@ import Code24 from './icons/Code24.js';
 import Document24 from './icons/Document24.js';
 import DownloadApp24 from './icons/DownloadApp24.js';
 import DownloadWeb24 from './icons/DownloadWeb24.js';
-import Gauge24 from './icons/Gauge24.js';
 import FullScreen24 from './icons/FullScreen24.js';
-import NoPicture24 from './icons/NoPicture24.js';
+import Gauge24 from './icons/Gauge24.js';
 import Group24 from './icons/Group24.js';
+import NoPicture24 from './icons/NoPicture24.js';
 import Pdf24 from './icons/Pdf24.js';
 import Play24 from './icons/Play24.js';
-import Policies24 from './icons/Policies24.js';
 import Player24 from './icons/Player24.js';
+import Policies24 from './icons/Policies24.js';
 import Print24 from './icons/Print24.js';
 import Project24 from './icons/Project24.js';
 import Read24 from './icons/Read24.js';
@@ -99,9 +99,9 @@ import ArrowNext24 from './icons/ArrowNext24.js';
 import ArrowUp24 from './icons/ArrowUp24.js';
 import ControlCircleCross24 from './icons/ControlCircleCross24.js';
 import ControlCircleLess24 from './icons/ControlCircleLess24.js';
-import ControlCircleMore24 from './icons/ControlCircleMore24.js';
 import ControlCross24 from './icons/ControlCross24.js';
 import ControlLess24 from './icons/ControlLess24.js';
+import ControlCircleMore24 from './icons/ControlCircleMore24.js';
 import ControlMore24 from './icons/ControlMore24.js';
 import ControlTagCross24 from './icons/ControlTagCross24.js';
 import DisplayBlink24 from './icons/DisplayBlink24.js';
@@ -143,16 +143,16 @@ import PublishCopy24 from './icons/PublishCopy24.js';
 import PublishEdit24 from './icons/PublishEdit24.js';
 import PublishFavorite24 from './icons/PublishFavorite24.js';
 import PublishFavoriteFull24 from './icons/PublishFavoriteFull24.js';
-import PublishSend24 from './icons/PublishSend24.js';
 import PublishLock24 from './icons/PublishLock24.js';
+import PublishSend24 from './icons/PublishSend24.js';
 import PublishTrashbin24 from './icons/PublishTrashbin24.js';
 import Split24 from './icons/Split24.js';
 import Bill24 from './icons/Bill24.js';
 import CardsMonochromeAmericanExpress24 from './icons/CardsMonochromeAmericanExpress24.js';
 import CardsMonochromeCB24 from './icons/CardsMonochromeCB24.js';
 import CardsMonochromeCheque24 from './icons/CardsMonochromeCheque24.js';
-import CardsMonochromeIllicado24 from './icons/CardsMonochromeIllicado24.js';
 import CardsMonochromeGift24 from './icons/CardsMonochromeGift24.js';
+import CardsMonochromeIllicado24 from './icons/CardsMonochromeIllicado24.js';
 import CardsMonochromeLoyalty24 from './icons/CardsMonochromeLoyalty24.js';
 import CardsMonochromeMaestro24 from './icons/CardsMonochromeMaestro24.js';
 import CardsMonochromeMastercard24 from './icons/CardsMonochromeMastercard24.js';
@@ -213,8 +213,8 @@ import PurchaseHelpHomeInstall24 from './icons/PurchaseHelpHomeInstall24.js';
 import PurchaseHelpToolRent24 from './icons/PurchaseHelpToolRent24.js';
 import TimeDelivery2h24 from './icons/TimeDelivery2h24.js';
 import TimeDelivery3h24 from './icons/TimeDelivery3h24.js';
-import TimeTimeDecline24 from './icons/TimeTimeDecline24.js';
 import TimeDelivery48h24 from './icons/TimeDelivery48h24.js';
+import TimeTimeDecline24 from './icons/TimeTimeDecline24.js';
 import Tools3d24 from './icons/Tools3d24.js';
 import ToolsCalculator24 from './icons/ToolsCalculator24.js';
 import ToolsComparator24 from './icons/ToolsComparator24.js';
@@ -570,9 +570,9 @@ import SituationOwner32 from './icons/SituationOwner32.js';
 import SituationTenant32 from './icons/SituationTenant32.js';
 import Administration32 from './icons/Administration32.js';
 import Apartment32 from './icons/Apartment32.js';
-import Balcony32 from './icons/Balcony32.js';
 import Blower32 from './icons/Blower32.js';
 import Door32 from './icons/Door32.js';
+import Balcony32 from './icons/Balcony32.js';
 import EcoSaving32 from './icons/EcoSaving32.js';
 import Heat32 from './icons/Heat32.js';
 import House32 from './icons/House32.js';
@@ -728,8 +728,8 @@ import Receipt48 from './icons/Receipt48.js';
 import SafePayment148 from './icons/SafePayment148.js';
 import SafePayment248 from './icons/SafePayment248.js';
 import AspectQuantity48 from './icons/AspectQuantity48.js';
-import AspectWeight48 from './icons/AspectWeight48.js';
 import AspectSize48 from './icons/AspectSize48.js';
+import AspectWeight48 from './icons/AspectWeight48.js';
 import BasketAdd48 from './icons/BasketAdd48.js';
 import BasketHandbag48 from './icons/BasketHandbag48.js';
 import BasketMulti48 from './icons/BasketMulti48.js';
@@ -795,8 +795,8 @@ import ViewLikePositive48 from './icons/ViewLikePositive48.js';
 import ViewStarEmpty48 from './icons/ViewStarEmpty48.js';
 import ViewStarFull48 from './icons/ViewStarFull48.js';
 import ViewStarHalf48 from './icons/ViewStarHalf48.js';
-import Itinerary48 from './icons/Itinerary48.js';
 import ViewTesterView48 from './icons/ViewTesterView48.js';
+import Itinerary48 from './icons/Itinerary48.js';
 import Locator48 from './icons/Locator48.js';
 import Logo48 from './icons/Logo48.js';
 import Map48 from './icons/Map48.js';
@@ -848,8 +848,8 @@ import ContactPhone48 from './icons/ContactPhone48.js';
 import ContactWebsite48 from './icons/ContactWebsite48.js';
 import SituationOwner48 from './icons/SituationOwner48.js';
 import SituationTenant48 from './icons/SituationTenant48.js';
-import Apartment48 from './icons/Apartment48.js';
 import Administration48 from './icons/Administration48.js';
+import Apartment48 from './icons/Apartment48.js';
 import Balcony48 from './icons/Balcony48.js';
 import Blower48 from './icons/Blower48.js';
 import Door48 from './icons/Door48.js';
@@ -1152,6 +1152,102 @@ import ThermalControl64 from './icons/ThermalControl64.js';
 import ToolBox64 from './icons/ToolBox64.js';
 import Player96 from './icons/Player96.js';
 import View36096 from './icons/View36096.js';
+import BrandLM24 from './icons/BrandLM24.js';
+import PaymentBizum24 from './icons/PaymentBizum24.js';
+import PaymentFintecture24 from './icons/PaymentFintecture24.js';
+import PaymentMBMultibanco24 from './icons/PaymentMBMultibanco24.js';
+import PaymentMBWay24 from './icons/PaymentMBWay24.js';
+import PaymentOney3x24 from './icons/PaymentOney3x24.js';
+import PaymentOney3x4x24 from './icons/PaymentOney3x4x24.js';
+import PaymentPayPal24 from './icons/PaymentPayPal24.js';
+import CardsColorsAmericanExpress24 from './icons/CardsColorsAmericanExpress24.js';
+import CardsColorsCB24 from './icons/CardsColorsCB24.js';
+import CardsColorsCheque24 from './icons/CardsColorsCheque24.js';
+import CardsColorsGift24 from './icons/CardsColorsGift24.js';
+import CardsColorsIllicado24 from './icons/CardsColorsIllicado24.js';
+import CardsColorsLoyalty24 from './icons/CardsColorsLoyalty24.js';
+import CardsColorsMaestro24 from './icons/CardsColorsMaestro24.js';
+import CardsColorsMastercard24 from './icons/CardsColorsMastercard24.js';
+import CardsColorsOney24 from './icons/CardsColorsOney24.js';
+import CardsColorsOneyX324 from './icons/CardsColorsOneyX324.js';
+import CardsColorsOneyX424 from './icons/CardsColorsOneyX424.js';
+import CardsColorsPaylib24 from './icons/CardsColorsPaylib24.js';
+import CardsColorsPaypal24 from './icons/CardsColorsPaypal24.js';
+import CardsColorsVisa24 from './icons/CardsColorsVisa24.js';
+import ColorsRelayLocation24 from './icons/ColorsRelayLocation24.js';
+import ColorsStoreLocation24 from './icons/ColorsStoreLocation24.js';
+import BrandLM32 from './icons/BrandLM32.js';
+import PaymentBizum32 from './icons/PaymentBizum32.js';
+import PaymentFintecture32 from './icons/PaymentFintecture32.js';
+import PaymentMBMultibanco32 from './icons/PaymentMBMultibanco32.js';
+import PaymentMBWay32 from './icons/PaymentMBWay32.js';
+import PaymentOney3x32 from './icons/PaymentOney3x32.js';
+import PaymentOney3x4x32 from './icons/PaymentOney3x4x32.js';
+import PaymentPayPal32 from './icons/PaymentPayPal32.js';
+import CardsColorsAmericanExpress32 from './icons/CardsColorsAmericanExpress32.js';
+import CardsColorsCB32 from './icons/CardsColorsCB32.js';
+import CardsColorsCheque32 from './icons/CardsColorsCheque32.js';
+import CardsColorsGift32 from './icons/CardsColorsGift32.js';
+import CardsColorsIllicado32 from './icons/CardsColorsIllicado32.js';
+import CardsColorsLoyalty32 from './icons/CardsColorsLoyalty32.js';
+import CardsColorsMaestro32 from './icons/CardsColorsMaestro32.js';
+import CardsColorsMastercard32 from './icons/CardsColorsMastercard32.js';
+import CardsColorsOney32 from './icons/CardsColorsOney32.js';
+import CardsColorsOneyX332 from './icons/CardsColorsOneyX332.js';
+import CardsColorsOneyX432 from './icons/CardsColorsOneyX432.js';
+import CardsColorsPaylib32 from './icons/CardsColorsPaylib32.js';
+import CardsColorsPaypal32 from './icons/CardsColorsPaypal32.js';
+import CardsColorsVisa32 from './icons/CardsColorsVisa32.js';
+import ColorsRelayLocation32 from './icons/ColorsRelayLocation32.js';
+import ColorsStoreLocation32 from './icons/ColorsStoreLocation32.js';
+import BrandLM48 from './icons/BrandLM48.js';
+import PaymentBizum48 from './icons/PaymentBizum48.js';
+import PaymentFintecture48 from './icons/PaymentFintecture48.js';
+import PaymentMBMultibanco48 from './icons/PaymentMBMultibanco48.js';
+import PaymentMBWay48 from './icons/PaymentMBWay48.js';
+import PaymentOney3x48 from './icons/PaymentOney3x48.js';
+import PaymentOney3x4x48 from './icons/PaymentOney3x4x48.js';
+import PaymentPayPal48 from './icons/PaymentPayPal48.js';
+import CardsColorsAmericanExpress48 from './icons/CardsColorsAmericanExpress48.js';
+import CardsColorsCB48 from './icons/CardsColorsCB48.js';
+import CardsColorsCheque48 from './icons/CardsColorsCheque48.js';
+import CardsColorsGift48 from './icons/CardsColorsGift48.js';
+import CardsColorsIllicado48 from './icons/CardsColorsIllicado48.js';
+import CardsColorsLoyalty48 from './icons/CardsColorsLoyalty48.js';
+import CardsColorsMaestro48 from './icons/CardsColorsMaestro48.js';
+import CardsColorsMastercard48 from './icons/CardsColorsMastercard48.js';
+import CardsColorsOney48 from './icons/CardsColorsOney48.js';
+import CardsColorsOneyX348 from './icons/CardsColorsOneyX348.js';
+import CardsColorsOneyX448 from './icons/CardsColorsOneyX448.js';
+import CardsColorsPaylib48 from './icons/CardsColorsPaylib48.js';
+import CardsColorsPaypal48 from './icons/CardsColorsPaypal48.js';
+import CardsColorsVisa48 from './icons/CardsColorsVisa48.js';
+import ColorsRelayLocation48 from './icons/ColorsRelayLocation48.js';
+import ColorsStoreLocation48 from './icons/ColorsStoreLocation48.js';
+import BrandLM64 from './icons/BrandLM64.js';
+import PaymentBizum64 from './icons/PaymentBizum64.js';
+import PaymentFintecture64 from './icons/PaymentFintecture64.js';
+import PaymentMBMultibanco64 from './icons/PaymentMBMultibanco64.js';
+import PaymentMBWay64 from './icons/PaymentMBWay64.js';
+import PaymentOney3x64 from './icons/PaymentOney3x64.js';
+import PaymentOney3x4x64 from './icons/PaymentOney3x4x64.js';
+import PaymentPayPal64 from './icons/PaymentPayPal64.js';
+import CardsColorsAmericanExpress64 from './icons/CardsColorsAmericanExpress64.js';
+import CardsColorsCB64 from './icons/CardsColorsCB64.js';
+import CardsColorsCheque64 from './icons/CardsColorsCheque64.js';
+import CardsColorsGift64 from './icons/CardsColorsGift64.js';
+import CardsColorsIllicado64 from './icons/CardsColorsIllicado64.js';
+import CardsColorsLoyalty64 from './icons/CardsColorsLoyalty64.js';
+import CardsColorsMaestro64 from './icons/CardsColorsMaestro64.js';
+import CardsColorsMastercard64 from './icons/CardsColorsMastercard64.js';
+import CardsColorsOney64 from './icons/CardsColorsOney64.js';
+import CardsColorsOneyX364 from './icons/CardsColorsOneyX364.js';
+import CardsColorsOneyX464 from './icons/CardsColorsOneyX464.js';
+import CardsColorsPaylib64 from './icons/CardsColorsPaylib64.js';
+import CardsColorsPaypal64 from './icons/CardsColorsPaypal64.js';
+import CardsColorsVisa64 from './icons/CardsColorsVisa64.js';
+import ColorsRelayLocation64 from './icons/ColorsRelayLocation64.js';
+import ColorsStoreLocation64 from './icons/ColorsStoreLocation64.js';
 if (!customElements.get('media-fullscreen-16px')) {
   customElements.define('media-fullscreen-16px', FullScreen16);
 }
@@ -1176,17 +1272,20 @@ if (!customElements.get('navigation-arrow-arrowbottomleft-16px')) {
 if (!customElements.get('navigation-arrow-arrowbottomright-16px')) {
   customElements.define('navigation-arrow-arrowbottomright-16px', ArrowArrowBottomRight16);
 }
-if (!customElements.get('navigation-arrow-arrowtopright-16px')) {
-  customElements.define('navigation-arrow-arrowtopright-16px', ArrowArrowTopRight16);
-}
 if (!customElements.get('navigation-arrow-arrowtopleft-16px')) {
   customElements.define('navigation-arrow-arrowtopleft-16px', ArrowArrowTopLeft16);
 }
 if (!customElements.get('navigation-arrow-back-16px')) {
   customElements.define('navigation-arrow-back-16px', ArrowBack16);
 }
+if (!customElements.get('navigation-arrow-arrowtopright-16px')) {
+  customElements.define('navigation-arrow-arrowtopright-16px', ArrowArrowTopRight16);
+}
 if (!customElements.get('navigation-arrow-doublearrow--left-16px')) {
   customElements.define('navigation-arrow-doublearrow--left-16px', ArrowDoubleArrowLeft16);
+}
+if (!customElements.get('navigation-arrow-doublearrow--right-16px')) {
+  customElements.define('navigation-arrow-doublearrow--right-16px', ArrowDoubleArrowRight16);
 }
 if (!customElements.get('navigation-arrow-down-16px')) {
   customElements.define('navigation-arrow-down-16px', ArrowDown16);
@@ -1335,14 +1434,14 @@ if (!customElements.get('media-api-24px')) {
 if (!customElements.get('media-bookstore-24px')) {
   customElements.define('media-bookstore-24px', BookStore24);
 }
-if (!customElements.get('navigation-arrow-doublearrow--right-16px')) {
-  customElements.define('navigation-arrow-doublearrow--right-16px', ArrowDoubleArrowRight16);
+if (!customElements.get('media-camera-24px')) {
+  customElements.define('media-camera-24px', Camera24);
 }
 if (!customElements.get('media-code-24px')) {
   customElements.define('media-code-24px', Code24);
 }
-if (!customElements.get('media-camera-24px')) {
-  customElements.define('media-camera-24px', Camera24);
+if (!customElements.get('media-document-24px')) {
+  customElements.define('media-document-24px', Document24);
 }
 if (!customElements.get('media-download-app-24px')) {
   customElements.define('media-download-app-24px', DownloadApp24);
@@ -1350,8 +1449,8 @@ if (!customElements.get('media-download-app-24px')) {
 if (!customElements.get('media-download-web-24px')) {
   customElements.define('media-download-web-24px', DownloadWeb24);
 }
-if (!customElements.get('media-document-24px')) {
-  customElements.define('media-document-24px', Document24);
+if (!customElements.get('media-fullscreen-24px')) {
+  customElements.define('media-fullscreen-24px', FullScreen24);
 }
 if (!customElements.get('media-gauge-24px')) {
   customElements.define('media-gauge-24px', Gauge24);
@@ -1512,9 +1611,6 @@ if (!customElements.get('navigation-display-filter-24px')) {
 if (!customElements.get('navigation-display-home-24px')) {
   customElements.define('navigation-display-home-24px', DisplayHome24);
 }
-if (!customElements.get('navigation-display-logout-24px')) {
-  customElements.define('navigation-display-logout-24px', DisplayLogOut24);
-}
 if (!customElements.get('navigation-display-menu-24px')) {
   customElements.define('navigation-display-menu-24px', DisplayMenu24);
 }
@@ -1584,6 +1680,9 @@ if (!customElements.get('navigation-publish-favorite-24px')) {
 if (!customElements.get('navigation-publish-favoritefull-24px')) {
   customElements.define('navigation-publish-favoritefull-24px', PublishFavoriteFull24);
 }
+if (!customElements.get('navigation-display-logout-24px')) {
+  customElements.define('navigation-display-logout-24px', DisplayLogOut24);
+}
 if (!customElements.get('navigation-publish-lock-24px')) {
   customElements.define('navigation-publish-lock-24px', PublishLock24);
 }
@@ -1592,9 +1691,6 @@ if (!customElements.get('navigation-publish-send-24px')) {
 }
 if (!customElements.get('navigation-publish-trashbin-24px')) {
   customElements.define('navigation-publish-trashbin-24px', PublishTrashbin24);
-}
-if (!customElements.get('navigation-split-24px')) {
-  customElements.define('navigation-split-24px', Split24);
 }
 if (!customElements.get('payment-bill-24px')) {
   customElements.define('payment-bill-24px', Bill24);
@@ -1605,14 +1701,14 @@ if (!customElements.get('payment-cards-monochrome-americanexpress-24px')) {
 if (!customElements.get('payment-cards-monochrome-cb-24px')) {
   customElements.define('payment-cards-monochrome-cb-24px', CardsMonochromeCB24);
 }
-if (!customElements.get('media-fullscreen-24px')) {
-  customElements.define('media-fullscreen-24px', FullScreen24);
-}
 if (!customElements.get('payment-cards-monochrome-cheque-24px')) {
   customElements.define('payment-cards-monochrome-cheque-24px', CardsMonochromeCheque24);
 }
 if (!customElements.get('payment-cards-monochrome-gift-24px')) {
   customElements.define('payment-cards-monochrome-gift-24px', CardsMonochromeGift24);
+}
+if (!customElements.get('navigation-split-24px')) {
+  customElements.define('navigation-split-24px', Split24);
 }
 if (!customElements.get('payment-cards-monochrome-illicado-24px')) {
   customElements.define('payment-cards-monochrome-illicado-24px', CardsMonochromeIllicado24);
@@ -1929,9 +2025,6 @@ if (!customElements.get('universe-garden1-24px')) {
 if (!customElements.get('universe-garden2-24px')) {
   customElements.define('universe-garden2-24px', Garden224);
 }
-if (!customElements.get('universe-glass-24px')) {
-  customElements.define('universe-glass-24px', Glass24);
-}
 if (!customElements.get('universe-hardwarestore-24px')) {
   customElements.define('universe-hardwarestore-24px', HardwareStore24);
 }
@@ -1949,6 +2042,9 @@ if (!customElements.get('universe-kitchen2-24px')) {
 }
 if (!customElements.get('universe-leak-24px')) {
   customElements.define('universe-leak-24px', Leak24);
+}
+if (!customElements.get('universe-glass-24px')) {
+  customElements.define('universe-glass-24px', Glass24);
 }
 if (!customElements.get('universe-lighting-24px')) {
   customElements.define('universe-lighting-24px', Lighting24);
@@ -2037,14 +2133,14 @@ if (!customElements.get('various-blower-24px')) {
 if (!customElements.get('various-door-24px')) {
   customElements.define('various-door-24px', Door24);
 }
-if (!customElements.get('various-ecosaving-24px')) {
-  customElements.define('various-ecosaving-24px', EcoSaving24);
-}
 if (!customElements.get('various-heat-24px')) {
   customElements.define('various-heat-24px', Heat24);
 }
 if (!customElements.get('various-house-24px')) {
   customElements.define('various-house-24px', House24);
+}
+if (!customElements.get('various-ecosaving-24px')) {
+  customElements.define('various-ecosaving-24px', EcoSaving24);
 }
 if (!customElements.get('various-increasevalue-24px')) {
   customElements.define('various-increasevalue-24px', IncreaseValue24);
@@ -2253,9 +2349,6 @@ if (!customElements.get('navigation-arrow-arrow--bottom-32px')) {
 if (!customElements.get('navigation-arrow-arrow--left-32px')) {
   customElements.define('navigation-arrow-arrow--left-32px', ArrowArrowLeft32);
 }
-if (!customElements.get('navigation-arrow-arrow--right-32px')) {
-  customElements.define('navigation-arrow-arrow--right-32px', ArrowArrowRight32);
-}
 if (!customElements.get('navigation-arrow-arrow--top-32px')) {
   customElements.define('navigation-arrow-arrow--top-32px', ArrowArrowTop32);
 }
@@ -2313,11 +2406,14 @@ if (!customElements.get('navigation-control-tag--cross-32px')) {
 if (!customElements.get('navigation-display-blink-32px')) {
   customElements.define('navigation-display-blink-32px', DisplayBlink32);
 }
-if (!customElements.get('navigation-display-calendar-32px')) {
-  customElements.define('navigation-display-calendar-32px', DisplayCalendar32);
+if (!customElements.get('navigation-arrow-arrow--right-32px')) {
+  customElements.define('navigation-arrow-arrow--right-32px', ArrowArrowRight32);
 }
 if (!customElements.get('navigation-display-connect-32px')) {
   customElements.define('navigation-display-connect-32px', DisplayConnect32);
+}
+if (!customElements.get('navigation-display-calendar-32px')) {
+  customElements.define('navigation-display-calendar-32px', DisplayCalendar32);
 }
 if (!customElements.get('navigation-display-displayfull-filled-32px')) {
   customElements.define('navigation-display-displayfull-filled-32px', DisplayDisplayFullFilled32);
@@ -2334,11 +2430,11 @@ if (!customElements.get('navigation-display-displaylist-outline-32px')) {
 if (!customElements.get('navigation-display-displaymobile--horizontal-32px')) {
   customElements.define('navigation-display-displaymobile--horizontal-32px', DisplayDisplayMobileHorizontal32);
 }
-if (!customElements.get('navigation-display-displaymobile--vertical-32px')) {
-  customElements.define('navigation-display-displaymobile--vertical-32px', DisplayDisplayMobileVertical32);
-}
 if (!customElements.get('navigation-display-displayproductx4-filled-32px')) {
   customElements.define('navigation-display-displayproductx4-filled-32px', DisplayDisplayProductX4Filled32);
+}
+if (!customElements.get('navigation-display-displaymobile--vertical-32px')) {
+  customElements.define('navigation-display-displaymobile--vertical-32px', DisplayDisplayMobileVertical32);
 }
 if (!customElements.get('navigation-display-displayproductx4-outline-32px')) {
   customElements.define('navigation-display-displayproductx4-outline-32px', DisplayDisplayProductX4Outline32);
@@ -2433,6 +2529,9 @@ if (!customElements.get('navigation-publish-lock-32px')) {
 if (!customElements.get('navigation-publish-send-32px')) {
   customElements.define('navigation-publish-send-32px', PublishSend32);
 }
+if (!customElements.get('navigation-publish-trashbin-32px')) {
+  customElements.define('navigation-publish-trashbin-32px', PublishTrashbin32);
+}
 if (!customElements.get('navigation-split-32px')) {
   customElements.define('navigation-split-32px', Split32);
 }
@@ -2454,11 +2553,11 @@ if (!customElements.get('payment-cards-monochrome-gift-32px')) {
 if (!customElements.get('payment-cards-monochrome-illicado-32px')) {
   customElements.define('payment-cards-monochrome-illicado-32px', CardsMonochromeIllicado32);
 }
-if (!customElements.get('navigation-publish-trashbin-32px')) {
-  customElements.define('navigation-publish-trashbin-32px', PublishTrashbin32);
-}
 if (!customElements.get('payment-cards-monochrome-loyalty-32px')) {
   customElements.define('payment-cards-monochrome-loyalty-32px', CardsMonochromeLoyalty32);
+}
+if (!customElements.get('payment-cards-monochrome-maestro-32px')) {
+  customElements.define('payment-cards-monochrome-maestro-32px', CardsMonochromeMaestro32);
 }
 if (!customElements.get('payment-cards-monochrome-mastercard-32px')) {
   customElements.define('payment-cards-monochrome-mastercard-32px', CardsMonochromeMastercard32);
@@ -3297,11 +3396,11 @@ if (!customElements.get('payment-cards-monochrome-illicado-48px')) {
 if (!customElements.get('payment-cards-monochrome-loyalty-48px')) {
   customElements.define('payment-cards-monochrome-loyalty-48px', CardsMonochromeLoyalty48);
 }
-if (!customElements.get('payment-cards-monochrome-maestro-48px')) {
-  customElements.define('payment-cards-monochrome-maestro-48px', CardsMonochromeMaestro48);
-}
 if (!customElements.get('payment-cards-monochrome-mastercard-48px')) {
   customElements.define('payment-cards-monochrome-mastercard-48px', CardsMonochromeMastercard48);
+}
+if (!customElements.get('payment-cards-monochrome-maestro-48px')) {
+  customElements.define('payment-cards-monochrome-maestro-48px', CardsMonochromeMaestro48);
 }
 if (!customElements.get('payment-cards-monochrome-oney-48px')) {
   customElements.define('payment-cards-monochrome-oney-48px', CardsMonochromeOney48);
@@ -3345,11 +3444,11 @@ if (!customElements.get('product-aspect-size-48px')) {
 if (!customElements.get('product-aspect-weight-48px')) {
   customElements.define('product-aspect-weight-48px', AspectWeight48);
 }
-if (!customElements.get('product-basket-add-48px')) {
-  customElements.define('product-basket-add-48px', BasketAdd48);
-}
 if (!customElements.get('product-basket-handbag-48px')) {
   customElements.define('product-basket-handbag-48px', BasketHandbag48);
+}
+if (!customElements.get('product-basket-add-48px')) {
+  customElements.define('product-basket-add-48px', BasketAdd48);
 }
 if (!customElements.get('product-basket-multi-48px')) {
   customElements.define('product-basket-multi-48px', BasketMulti48);
@@ -3366,11 +3465,11 @@ if (!customElements.get('product-list-add-48px')) {
 if (!customElements.get('product-list-standard-48px')) {
   customElements.define('product-list-standard-48px', ListStandard48);
 }
-if (!customElements.get('product-promise-certification-48px')) {
-  customElements.define('product-promise-certification-48px', PromiseCertification48);
-}
 if (!customElements.get('product-promise-circulareconomy-48px')) {
   customElements.define('product-promise-circulareconomy-48px', PromiseCircularEconomy48);
+}
+if (!customElements.get('product-promise-certification-48px')) {
+  customElements.define('product-promise-certification-48px', PromiseCertification48);
 }
 if (!customElements.get('product-promise-destocking-48px')) {
   customElements.define('product-promise-destocking-48px', PromiseDestocking48);
@@ -3465,11 +3564,11 @@ if (!customElements.get('service-purchasehelp-homediy-48px')) {
 if (!customElements.get('service-purchasehelp-homeinstall-48px')) {
   customElements.define('service-purchasehelp-homeinstall-48px', PurchaseHelpHomeInstall48);
 }
-if (!customElements.get('service-purchasehelp-toolrent-48px')) {
-  customElements.define('service-purchasehelp-toolrent-48px', PurchaseHelpToolRent48);
-}
 if (!customElements.get('service-time-delivery--2h-48px')) {
   customElements.define('service-time-delivery--2h-48px', TimeDelivery2h48);
+}
+if (!customElements.get('service-purchasehelp-toolrent-48px')) {
+  customElements.define('service-purchasehelp-toolrent-48px', PurchaseHelpToolRent48);
 }
 if (!customElements.get('service-time-delivery--3h-48px')) {
   customElements.define('service-time-delivery--3h-48px', TimeDelivery3h48);
@@ -3479,12 +3578,6 @@ if (!customElements.get('service-time-delivery--48h-48px')) {
 }
 if (!customElements.get('service-time-timedecline-48px')) {
   customElements.define('service-time-timedecline-48px', TimeTimeDecline48);
-}
-if (!customElements.get('service-tools-3d-48px')) {
-  customElements.define('service-tools-3d-48px', Tools3d48);
-}
-if (!customElements.get('service-tools-calculator-48px')) {
-  customElements.define('service-tools-calculator-48px', ToolsCalculator48);
 }
 if (!customElements.get('service-tools-comparator-48px')) {
   customElements.define('service-tools-comparator-48px', ToolsComparator48);
@@ -3795,8 +3888,8 @@ if (!customElements.get('instruction-hygiene-mask-64px')) {
 if (!customElements.get('instruction-hygiene-nocontact-64px')) {
   customElements.define('instruction-hygiene-nocontact-64px', HygieneNoContact64);
 }
-if (!customElements.get('payment-cards-monochrome-maestro-32px')) {
-  customElements.define('payment-cards-monochrome-maestro-32px', CardsMonochromeMaestro32);
+if (!customElements.get('instruction-hygiene-plexiglas-64px')) {
+  customElements.define('instruction-hygiene-plexiglas-64px', HygienePlexiglas64);
 }
 if (!customElements.get('instruction-payment-checkout-64px')) {
   customElements.define('instruction-payment-checkout-64px', PaymentCheckout64);
@@ -3873,9 +3966,6 @@ if (!customElements.get('media-download-web-64px')) {
 if (!customElements.get('media-fullscreen-64px')) {
   customElements.define('media-fullscreen-64px', FullScreen64);
 }
-if (!customElements.get('media-gauge-64px')) {
-  customElements.define('media-gauge-64px', Gauge64);
-}
 if (!customElements.get('media-group-64px')) {
   customElements.define('media-group-64px', Group64);
 }
@@ -3917,6 +4007,9 @@ if (!customElements.get('media-stop-64px')) {
 }
 if (!customElements.get('media-timeread-64px')) {
   customElements.define('media-timeread-64px', TimeRead64);
+}
+if (!customElements.get('media-upload-64px')) {
+  customElements.define('media-upload-64px', Upload64);
 }
 if (!customElements.get('media-view360-64px')) {
   customElements.define('media-view360-64px', View36064);
@@ -3960,20 +4053,17 @@ if (!customElements.get('navigation-arrow-down-64px')) {
 if (!customElements.get('navigation-arrow-next-64px')) {
   customElements.define('navigation-arrow-next-64px', ArrowNext64);
 }
-if (!customElements.get('media-upload-64px')) {
-  customElements.define('media-upload-64px', Upload64);
-}
 if (!customElements.get('navigation-arrow-up-64px')) {
   customElements.define('navigation-arrow-up-64px', ArrowUp64);
 }
 if (!customElements.get('navigation-control-circle--cross-64px')) {
   customElements.define('navigation-control-circle--cross-64px', ControlCircleCross64);
 }
-if (!customElements.get('navigation-control-circle--more-64px')) {
-  customElements.define('navigation-control-circle--more-64px', ControlCircleMore64);
-}
 if (!customElements.get('navigation-control-circle--less-64px')) {
   customElements.define('navigation-control-circle--less-64px', ControlCircleLess64);
+}
+if (!customElements.get('navigation-control-circle--more-64px')) {
+  customElements.define('navigation-control-circle--more-64px', ControlCircleMore64);
 }
 if (!customElements.get('navigation-control-cross-64px')) {
   customElements.define('navigation-control-cross-64px', ControlCross64);
@@ -3996,8 +4086,11 @@ if (!customElements.get('navigation-display-calendar-64px')) {
 if (!customElements.get('navigation-display-connect-64px')) {
   customElements.define('navigation-display-connect-64px', DisplayConnect64);
 }
-if (!customElements.get('navigation-display-displayfull-filled-64px')) {
-  customElements.define('navigation-display-displayfull-filled-64px', DisplayDisplayFullFilled64);
+if (!customElements.get('service-tools-calculator-48px')) {
+  customElements.define('service-tools-calculator-48px', ToolsCalculator48);
+}
+if (!customElements.get('media-gauge-64px')) {
+  customElements.define('media-gauge-64px', Gauge64);
 }
 if (!customElements.get('navigation-display-displayfull-outline-64px')) {
   customElements.define('navigation-display-displayfull-outline-64px', DisplayDisplayFullOutline64);
@@ -4131,6 +4224,9 @@ if (!customElements.get('payment-cards-monochrome-cheque-64px')) {
 if (!customElements.get('payment-cards-monochrome-gift-64px')) {
   customElements.define('payment-cards-monochrome-gift-64px', CardsMonochromeGift64);
 }
+if (!customElements.get('payment-cards-monochrome-illicado-64px')) {
+  customElements.define('payment-cards-monochrome-illicado-64px', CardsMonochromeIllicado64);
+}
 if (!customElements.get('payment-cards-monochrome-loyalty-64px')) {
   customElements.define('payment-cards-monochrome-loyalty-64px', CardsMonochromeLoyalty64);
 }
@@ -4151,6 +4247,9 @@ if (!customElements.get('payment-cards-monochrome-oneyx4-64px')) {
 }
 if (!customElements.get('payment-cards-monochrome-paylib-64px')) {
   customElements.define('payment-cards-monochrome-paylib-64px', CardsMonochromePaylib64);
+}
+if (!customElements.get('service-tools-3d-48px')) {
+  customElements.define('service-tools-3d-48px', Tools3d48);
 }
 if (!customElements.get('payment-cards-monochrome-paypal-64px')) {
   customElements.define('payment-cards-monochrome-paypal-64px', CardsMonochromePaypal64);
@@ -4410,6 +4509,9 @@ if (!customElements.get('universe-bathroom-64px')) {
 if (!customElements.get('universe-bedroom-64px')) {
   customElements.define('universe-bedroom-64px', Bedroom64);
 }
+if (!customElements.get('navigation-display-displayfull-filled-64px')) {
+  customElements.define('navigation-display-displayfull-filled-64px', DisplayDisplayFullFilled64);
+}
 if (!customElements.get('universe-carpentry-64px')) {
   customElements.define('universe-carpentry-64px', Carpentry64);
 }
@@ -4548,9 +4650,6 @@ if (!customElements.get('various-balcony-64px')) {
 if (!customElements.get('various-blower-64px')) {
   customElements.define('various-blower-64px', Blower64);
 }
-if (!customElements.get('instruction-hygiene-plexiglas-64px')) {
-  customElements.define('instruction-hygiene-plexiglas-64px', HygienePlexiglas64);
-}
 if (!customElements.get('various-door-64px')) {
   customElements.define('various-door-64px', Door64);
 }
@@ -4611,6 +4710,291 @@ if (!customElements.get('media-player-96px')) {
 if (!customElements.get('media-view360-96px')) {
   customElements.define('media-view360-96px', View36096);
 }
-if (!customElements.get('payment-cards-monochrome-illicado-64px')) {
-  customElements.define('payment-cards-monochrome-illicado-64px', CardsMonochromeIllicado64);
+if (!customElements.get('logotypes-brand-lm-24px')) {
+  customElements.define('logotypes-brand-lm-24px', BrandLM24);
+}
+if (!customElements.get('logotypes-payment-bizum-24px')) {
+  customElements.define('logotypes-payment-bizum-24px', PaymentBizum24);
+}
+if (!customElements.get('logotypes-payment-fintecture-24px')) {
+  customElements.define('logotypes-payment-fintecture-24px', PaymentFintecture24);
+}
+if (!customElements.get('logotypes-payment-mb--multibanco-24px')) {
+  customElements.define('logotypes-payment-mb--multibanco-24px', PaymentMBMultibanco24);
+}
+if (!customElements.get('logotypes-payment-mb--way-24px')) {
+  customElements.define('logotypes-payment-mb--way-24px', PaymentMBWay24);
+}
+if (!customElements.get('logotypes-payment-oney--3x-24px')) {
+  customElements.define('logotypes-payment-oney--3x-24px', PaymentOney3x24);
+}
+if (!customElements.get('logotypes-payment-oney--3x4x-24px')) {
+  customElements.define('logotypes-payment-oney--3x4x-24px', PaymentOney3x4x24);
+}
+if (!customElements.get('logotypes-payment-paypal-24px')) {
+  customElements.define('logotypes-payment-paypal-24px', PaymentPayPal24);
+}
+if (!customElements.get('payment-cards-colors-americanexpress-24px')) {
+  customElements.define('payment-cards-colors-americanexpress-24px', CardsColorsAmericanExpress24);
+}
+if (!customElements.get('payment-cards-colors-cb-24px')) {
+  customElements.define('payment-cards-colors-cb-24px', CardsColorsCB24);
+}
+if (!customElements.get('payment-cards-colors-cheque-24px')) {
+  customElements.define('payment-cards-colors-cheque-24px', CardsColorsCheque24);
+}
+if (!customElements.get('payment-cards-colors-gift-24px')) {
+  customElements.define('payment-cards-colors-gift-24px', CardsColorsGift24);
+}
+if (!customElements.get('payment-cards-colors-illicado-24px')) {
+  customElements.define('payment-cards-colors-illicado-24px', CardsColorsIllicado24);
+}
+if (!customElements.get('payment-cards-colors-loyalty-24px')) {
+  customElements.define('payment-cards-colors-loyalty-24px', CardsColorsLoyalty24);
+}
+if (!customElements.get('payment-cards-colors-maestro-24px')) {
+  customElements.define('payment-cards-colors-maestro-24px', CardsColorsMaestro24);
+}
+if (!customElements.get('payment-cards-colors-mastercard-24px')) {
+  customElements.define('payment-cards-colors-mastercard-24px', CardsColorsMastercard24);
+}
+if (!customElements.get('payment-cards-colors-oney-24px')) {
+  customElements.define('payment-cards-colors-oney-24px', CardsColorsOney24);
+}
+if (!customElements.get('payment-cards-colors-oneyx3-24px')) {
+  customElements.define('payment-cards-colors-oneyx3-24px', CardsColorsOneyX324);
+}
+if (!customElements.get('payment-cards-colors-oneyx4-24px')) {
+  customElements.define('payment-cards-colors-oneyx4-24px', CardsColorsOneyX424);
+}
+if (!customElements.get('payment-cards-colors-paylib-24px')) {
+  customElements.define('payment-cards-colors-paylib-24px', CardsColorsPaylib24);
+}
+if (!customElements.get('payment-cards-colors-paypal-24px')) {
+  customElements.define('payment-cards-colors-paypal-24px', CardsColorsPaypal24);
+}
+if (!customElements.get('payment-cards-colors-visa-24px')) {
+  customElements.define('payment-cards-colors-visa-24px', CardsColorsVisa24);
+}
+if (!customElements.get('store-colors-relaylocation-24px')) {
+  customElements.define('store-colors-relaylocation-24px', ColorsRelayLocation24);
+}
+if (!customElements.get('store-colors-storelocation-24px')) {
+  customElements.define('store-colors-storelocation-24px', ColorsStoreLocation24);
+}
+if (!customElements.get('logotypes-brand-lm-32px')) {
+  customElements.define('logotypes-brand-lm-32px', BrandLM32);
+}
+if (!customElements.get('logotypes-payment-bizum-32px')) {
+  customElements.define('logotypes-payment-bizum-32px', PaymentBizum32);
+}
+if (!customElements.get('logotypes-payment-fintecture-32px')) {
+  customElements.define('logotypes-payment-fintecture-32px', PaymentFintecture32);
+}
+if (!customElements.get('logotypes-payment-mb--multibanco-32px')) {
+  customElements.define('logotypes-payment-mb--multibanco-32px', PaymentMBMultibanco32);
+}
+if (!customElements.get('logotypes-payment-mb--way-32px')) {
+  customElements.define('logotypes-payment-mb--way-32px', PaymentMBWay32);
+}
+if (!customElements.get('logotypes-payment-oney--3x-32px')) {
+  customElements.define('logotypes-payment-oney--3x-32px', PaymentOney3x32);
+}
+if (!customElements.get('logotypes-payment-oney--3x4x-32px')) {
+  customElements.define('logotypes-payment-oney--3x4x-32px', PaymentOney3x4x32);
+}
+if (!customElements.get('logotypes-payment-paypal-32px')) {
+  customElements.define('logotypes-payment-paypal-32px', PaymentPayPal32);
+}
+if (!customElements.get('payment-cards-colors-americanexpress-32px')) {
+  customElements.define('payment-cards-colors-americanexpress-32px', CardsColorsAmericanExpress32);
+}
+if (!customElements.get('payment-cards-colors-cb-32px')) {
+  customElements.define('payment-cards-colors-cb-32px', CardsColorsCB32);
+}
+if (!customElements.get('payment-cards-colors-cheque-32px')) {
+  customElements.define('payment-cards-colors-cheque-32px', CardsColorsCheque32);
+}
+if (!customElements.get('payment-cards-colors-gift-32px')) {
+  customElements.define('payment-cards-colors-gift-32px', CardsColorsGift32);
+}
+if (!customElements.get('payment-cards-colors-illicado-32px')) {
+  customElements.define('payment-cards-colors-illicado-32px', CardsColorsIllicado32);
+}
+if (!customElements.get('payment-cards-colors-loyalty-32px')) {
+  customElements.define('payment-cards-colors-loyalty-32px', CardsColorsLoyalty32);
+}
+if (!customElements.get('payment-cards-colors-maestro-32px')) {
+  customElements.define('payment-cards-colors-maestro-32px', CardsColorsMaestro32);
+}
+if (!customElements.get('payment-cards-colors-mastercard-32px')) {
+  customElements.define('payment-cards-colors-mastercard-32px', CardsColorsMastercard32);
+}
+if (!customElements.get('payment-cards-colors-oney-32px')) {
+  customElements.define('payment-cards-colors-oney-32px', CardsColorsOney32);
+}
+if (!customElements.get('payment-cards-colors-oneyx3-32px')) {
+  customElements.define('payment-cards-colors-oneyx3-32px', CardsColorsOneyX332);
+}
+if (!customElements.get('payment-cards-colors-oneyx4-32px')) {
+  customElements.define('payment-cards-colors-oneyx4-32px', CardsColorsOneyX432);
+}
+if (!customElements.get('payment-cards-colors-paylib-32px')) {
+  customElements.define('payment-cards-colors-paylib-32px', CardsColorsPaylib32);
+}
+if (!customElements.get('payment-cards-colors-paypal-32px')) {
+  customElements.define('payment-cards-colors-paypal-32px', CardsColorsPaypal32);
+}
+if (!customElements.get('payment-cards-colors-visa-32px')) {
+  customElements.define('payment-cards-colors-visa-32px', CardsColorsVisa32);
+}
+if (!customElements.get('store-colors-relaylocation-32px')) {
+  customElements.define('store-colors-relaylocation-32px', ColorsRelayLocation32);
+}
+if (!customElements.get('store-colors-storelocation-32px')) {
+  customElements.define('store-colors-storelocation-32px', ColorsStoreLocation32);
+}
+if (!customElements.get('logotypes-brand-lm-48px')) {
+  customElements.define('logotypes-brand-lm-48px', BrandLM48);
+}
+if (!customElements.get('logotypes-payment-bizum-48px')) {
+  customElements.define('logotypes-payment-bizum-48px', PaymentBizum48);
+}
+if (!customElements.get('logotypes-payment-fintecture-48px')) {
+  customElements.define('logotypes-payment-fintecture-48px', PaymentFintecture48);
+}
+if (!customElements.get('logotypes-payment-mb--multibanco-48px')) {
+  customElements.define('logotypes-payment-mb--multibanco-48px', PaymentMBMultibanco48);
+}
+if (!customElements.get('logotypes-payment-mb--way-48px')) {
+  customElements.define('logotypes-payment-mb--way-48px', PaymentMBWay48);
+}
+if (!customElements.get('logotypes-payment-oney--3x-48px')) {
+  customElements.define('logotypes-payment-oney--3x-48px', PaymentOney3x48);
+}
+if (!customElements.get('logotypes-payment-oney--3x4x-48px')) {
+  customElements.define('logotypes-payment-oney--3x4x-48px', PaymentOney3x4x48);
+}
+if (!customElements.get('logotypes-payment-paypal-48px')) {
+  customElements.define('logotypes-payment-paypal-48px', PaymentPayPal48);
+}
+if (!customElements.get('payment-cards-colors-americanexpress-48px')) {
+  customElements.define('payment-cards-colors-americanexpress-48px', CardsColorsAmericanExpress48);
+}
+if (!customElements.get('payment-cards-colors-cb-48px')) {
+  customElements.define('payment-cards-colors-cb-48px', CardsColorsCB48);
+}
+if (!customElements.get('payment-cards-colors-cheque-48px')) {
+  customElements.define('payment-cards-colors-cheque-48px', CardsColorsCheque48);
+}
+if (!customElements.get('payment-cards-colors-gift-48px')) {
+  customElements.define('payment-cards-colors-gift-48px', CardsColorsGift48);
+}
+if (!customElements.get('payment-cards-colors-illicado-48px')) {
+  customElements.define('payment-cards-colors-illicado-48px', CardsColorsIllicado48);
+}
+if (!customElements.get('payment-cards-colors-loyalty-48px')) {
+  customElements.define('payment-cards-colors-loyalty-48px', CardsColorsLoyalty48);
+}
+if (!customElements.get('payment-cards-colors-maestro-48px')) {
+  customElements.define('payment-cards-colors-maestro-48px', CardsColorsMaestro48);
+}
+if (!customElements.get('payment-cards-colors-mastercard-48px')) {
+  customElements.define('payment-cards-colors-mastercard-48px', CardsColorsMastercard48);
+}
+if (!customElements.get('payment-cards-colors-oney-48px')) {
+  customElements.define('payment-cards-colors-oney-48px', CardsColorsOney48);
+}
+if (!customElements.get('payment-cards-colors-oneyx3-48px')) {
+  customElements.define('payment-cards-colors-oneyx3-48px', CardsColorsOneyX348);
+}
+if (!customElements.get('payment-cards-colors-oneyx4-48px')) {
+  customElements.define('payment-cards-colors-oneyx4-48px', CardsColorsOneyX448);
+}
+if (!customElements.get('payment-cards-colors-paylib-48px')) {
+  customElements.define('payment-cards-colors-paylib-48px', CardsColorsPaylib48);
+}
+if (!customElements.get('payment-cards-colors-paypal-48px')) {
+  customElements.define('payment-cards-colors-paypal-48px', CardsColorsPaypal48);
+}
+if (!customElements.get('payment-cards-colors-visa-48px')) {
+  customElements.define('payment-cards-colors-visa-48px', CardsColorsVisa48);
+}
+if (!customElements.get('store-colors-relaylocation-48px')) {
+  customElements.define('store-colors-relaylocation-48px', ColorsRelayLocation48);
+}
+if (!customElements.get('store-colors-storelocation-48px')) {
+  customElements.define('store-colors-storelocation-48px', ColorsStoreLocation48);
+}
+if (!customElements.get('logotypes-brand-lm-64px')) {
+  customElements.define('logotypes-brand-lm-64px', BrandLM64);
+}
+if (!customElements.get('logotypes-payment-bizum-64px')) {
+  customElements.define('logotypes-payment-bizum-64px', PaymentBizum64);
+}
+if (!customElements.get('logotypes-payment-fintecture-64px')) {
+  customElements.define('logotypes-payment-fintecture-64px', PaymentFintecture64);
+}
+if (!customElements.get('logotypes-payment-mb--way-64px')) {
+  customElements.define('logotypes-payment-mb--way-64px', PaymentMBWay64);
+}
+if (!customElements.get('logotypes-payment-oney--3x-64px')) {
+  customElements.define('logotypes-payment-oney--3x-64px', PaymentOney3x64);
+}
+if (!customElements.get('logotypes-payment-oney--3x4x-64px')) {
+  customElements.define('logotypes-payment-oney--3x4x-64px', PaymentOney3x4x64);
+}
+if (!customElements.get('logotypes-payment-paypal-64px')) {
+  customElements.define('logotypes-payment-paypal-64px', PaymentPayPal64);
+}
+if (!customElements.get('payment-cards-colors-americanexpress-64px')) {
+  customElements.define('payment-cards-colors-americanexpress-64px', CardsColorsAmericanExpress64);
+}
+if (!customElements.get('payment-cards-colors-cb-64px')) {
+  customElements.define('payment-cards-colors-cb-64px', CardsColorsCB64);
+}
+if (!customElements.get('payment-cards-colors-cheque-64px')) {
+  customElements.define('payment-cards-colors-cheque-64px', CardsColorsCheque64);
+}
+if (!customElements.get('payment-cards-colors-gift-64px')) {
+  customElements.define('payment-cards-colors-gift-64px', CardsColorsGift64);
+}
+if (!customElements.get('payment-cards-colors-illicado-64px')) {
+  customElements.define('payment-cards-colors-illicado-64px', CardsColorsIllicado64);
+}
+if (!customElements.get('payment-cards-colors-loyalty-64px')) {
+  customElements.define('payment-cards-colors-loyalty-64px', CardsColorsLoyalty64);
+}
+if (!customElements.get('payment-cards-colors-maestro-64px')) {
+  customElements.define('payment-cards-colors-maestro-64px', CardsColorsMaestro64);
+}
+if (!customElements.get('payment-cards-colors-mastercard-64px')) {
+  customElements.define('payment-cards-colors-mastercard-64px', CardsColorsMastercard64);
+}
+if (!customElements.get('payment-cards-colors-oney-64px')) {
+  customElements.define('payment-cards-colors-oney-64px', CardsColorsOney64);
+}
+if (!customElements.get('payment-cards-colors-oneyx3-64px')) {
+  customElements.define('payment-cards-colors-oneyx3-64px', CardsColorsOneyX364);
+}
+if (!customElements.get('payment-cards-colors-oneyx4-64px')) {
+  customElements.define('payment-cards-colors-oneyx4-64px', CardsColorsOneyX464);
+}
+if (!customElements.get('payment-cards-colors-paylib-64px')) {
+  customElements.define('payment-cards-colors-paylib-64px', CardsColorsPaylib64);
+}
+if (!customElements.get('payment-cards-colors-paypal-64px')) {
+  customElements.define('payment-cards-colors-paypal-64px', CardsColorsPaypal64);
+}
+if (!customElements.get('payment-cards-colors-visa-64px')) {
+  customElements.define('payment-cards-colors-visa-64px', CardsColorsVisa64);
+}
+if (!customElements.get('store-colors-relaylocation-64px')) {
+  customElements.define('store-colors-relaylocation-64px', ColorsRelayLocation64);
+}
+if (!customElements.get('store-colors-storelocation-64px')) {
+  customElements.define('store-colors-storelocation-64px', ColorsStoreLocation64);
+}
+if (!customElements.get('logotypes-payment-mb--multibanco-64px')) {
+  customElements.define('logotypes-payment-mb--multibanco-64px', PaymentMBMultibanco64);
 }
