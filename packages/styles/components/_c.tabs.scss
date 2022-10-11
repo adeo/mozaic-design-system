@@ -5,6 +5,7 @@
 .mc-tabs {
   $parent: get-parent-selector(&);
 
+  @include set-font-face();
   @include set-divider("bottom", "light", "100%") {
     bottom: 0;
     left: 0;
@@ -101,7 +102,7 @@
     }
 
     &:focus {
-      @include set-focus-floating();
+      @include set-focus-floating($before: true);
     }
 
     &--selected {

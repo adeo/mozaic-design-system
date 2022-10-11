@@ -3,6 +3,10 @@
 @import "layouts/l.container";
 @import "components/c.tabs";
 
+body {
+  background-color: #e5e5e5;
+}
+
 .example {
   margin: $mu200 0;
 }

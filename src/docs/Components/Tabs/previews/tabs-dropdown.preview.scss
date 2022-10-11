@@ -3,6 +3,10 @@
 @import "components/c.tabs";
 @import "components/c.select";
 
+body {
+  background-color: #e5e5e5;
+}
+
 .example {
   @include set-font-face();
 

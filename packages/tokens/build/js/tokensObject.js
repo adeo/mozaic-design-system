@@ -7739,11 +7739,11 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "#191919",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.font.darker.value}"
+          "value": "{color.font.light.value}"
         },
         "name": "ColorTabsDefault",
         "attributes": {
@@ -7756,6 +7756,29 @@ module.exports = {
           "tabs",
           "default"
         ]
+      },
+      "element": {
+        "background": {
+          "value": "#eeeff1",
+          "filePath": "packages/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.100.value}"
+          },
+          "name": "ColorTabsElementBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "element",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "element",
+            "background"
+          ]
+        }
       },
       "hover": {
         "value": "#035010",
@@ -7777,42 +7800,115 @@ module.exports = {
         ]
       },
       "disabled": {
-        "value": "#666666",
-        "filePath": "packages/tokens/properties/color/tabs.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.font.light.value}"
-        },
-        "name": "ColorTabsDisabled",
-        "attributes": {
-          "category": "color",
-          "type": "tabs",
-          "item": "disabled"
-        },
-        "path": [
-          "color",
-          "tabs",
-          "disabled"
-        ]
+        "background": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorTabsDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "disabled",
+            "background"
+          ]
+        }
       },
       "active": {
-        "value": "#188803",
-        "filePath": "packages/tokens/properties/color/tabs.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.font.primary-01.value}"
+        "background": {
+          "value": "#cfd2d8",
+          "filePath": "packages/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.200.value}"
+          },
+          "name": "ColorTabsActiveBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "active",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "active",
+            "background"
+          ]
         },
-        "name": "ColorTabsActive",
-        "attributes": {
-          "category": "color",
-          "type": "tabs",
-          "item": "active"
+        "text": {
+          "value": "#333333",
+          "filePath": "packages/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.font.dark.value}"
+          },
+          "name": "ColorTabsActiveText",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "active",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "active",
+            "text"
+          ]
+        }
+      },
+      "selected": {
+        "border": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorTabsSelectedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "selected",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "selected",
+            "border"
+          ]
         },
-        "path": [
-          "color",
-          "tabs",
-          "active"
-        ]
+        "text": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.font.darkest.value}"
+          },
+          "name": "ColorTabsSelectedText",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "selected",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "selected",
+            "text"
+          ]
+        }
       },
       "active-disabled": {
         "value": "#c5e39e",
