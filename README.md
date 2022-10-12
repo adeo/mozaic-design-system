@@ -114,6 +114,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/slaoutadeo"><img src="https://avatars.githubusercontent.com/u/93641396?v=4?s=100" width="100px;" alt="Sébastien Laoût"/><br /><sub><b>Sébastien Laoût</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Aslaoutadeo" title="Bug reports">🐛</a> <a href="#ideas-slaoutadeo" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3Aslaoutadeo" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center"><a href="https://github.com/OmarAlya"><img src="https://avatars.githubusercontent.com/u/97439634?v=4?s=100" width="100px;" alt="OmarAlya"/><br /><sub><b>OmarAlya</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AOmarAlya" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3AOmarAlya" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
