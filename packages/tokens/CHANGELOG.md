@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.44.0](https://github.com/adeo/mozaic-design-system/compare/v1.43.1...v1.44.0) (2022-10-12)
+
+
+### Features
+
+* **component/tabs:** implementation of the new design of the Tabs component ([#1227](https://github.com/adeo/mozaic-design-system/issues/1227)) ([13836ac](https://github.com/adeo/mozaic-design-system/commit/13836acaab44cc01c567811de95676abd67d0ecb))
+
+
+
+
+
 # [1.43.0](https://github.com/adeo/mozaic-design-system/compare/v1.42.1...v1.43.0) (2022-09-28)
 
 

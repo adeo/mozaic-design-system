@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.44.0](https://github.com/adeo/mozaic-design-system/compare/v1.43.1...v1.44.0) (2022-10-12)
+
+
+### Bug Fixes
+
+* **component/field:** update the unicode character for no-break space ([#1214](https://github.com/adeo/mozaic-design-system/issues/1214)) ([4655ac2](https://github.com/adeo/mozaic-design-system/commit/4655ac20cb0e3b5aeb500416c00c4893e66394a5)), closes [#1207](https://github.com/adeo/mozaic-design-system/issues/1207)
+* **component/phninput:** increase the z-index value ([#1236](https://github.com/adeo/mozaic-design-system/issues/1236)) ([0587901](https://github.com/adeo/mozaic-design-system/commit/05879013471e394cda9c1a656c14aacc9f29fe6d))
+
+
+### Features
+
+* **component/m-link:** remove modifiers mc-link__icon--left & mc-link__icon--right ([#1220](https://github.com/adeo/mozaic-design-system/issues/1220)) ([982b693](https://github.com/adeo/mozaic-design-system/commit/982b693d096580dcd903f3177330e7866b6ba0ab))
+* **component/tabs:** implementation of the new design of the Tabs component ([#1227](https://github.com/adeo/mozaic-design-system/issues/1227)) ([13836ac](https://github.com/adeo/mozaic-design-system/commit/13836acaab44cc01c567811de95676abd67d0ecb))
+* **component/tooltip:** use help cursor ([#1230](https://github.com/adeo/mozaic-design-system/issues/1230)) ([424911b](https://github.com/adeo/mozaic-design-system/commit/424911bd7e770e5a13ae575f31442ead1b4d04e3))
+
+
+### Performance Improvements
+
+* **component/layer:** improve the performance of the layer transition using translate3d ([#1206](https://github.com/adeo/mozaic-design-system/issues/1206)) ([ec827b9](https://github.com/adeo/mozaic-design-system/commit/ec827b9cd8b8c45d1976ef0d0bf4f9401e3c4e70))
+
+
+
+
+
 ## [1.43.1](https://github.com/adeo/mozaic-design-system/compare/v1.43.0...v1.43.1) (2022-09-28)
 
 
