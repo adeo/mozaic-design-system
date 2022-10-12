@@ -112,6 +112,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/amakuningit"><img src="https://avatars.githubusercontent.com/u/2139531?v=4?s=100" width="100px;" alt="Alexandr Makunin"/><br /><sub><b>Alexandr Makunin</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Aamakuningit" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3Aamakuningit" title="Reviewed Pull Requests">👀</a></td>
       <td align="center"><a href="https://github.com/thomasPierreADEO"><img src="https://avatars.githubusercontent.com/u/85944839?v=4?s=100" width="100px;" alt="Thomas PIERRE"/><br /><sub><b>Thomas PIERRE</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3AthomasPierreADEO" title="Bug reports">🐛</a> <a href="https://github.com/adeo/mozaic-design-system/commits?author=thomasPierreADEO" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/slaoutadeo"><img src="https://avatars.githubusercontent.com/u/93641396?v=4?s=100" width="100px;" alt="Sébastien Laoût"/><br /><sub><b>Sébastien Laoût</b></sub></a><br /><a href="https://github.com/adeo/mozaic-design-system/issues?q=author%3Aslaoutadeo" title="Bug reports">🐛</a> <a href="#ideas-slaoutadeo" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/adeo/mozaic-design-system/pulls?q=is%3Apr+reviewed-by%3Aslaoutadeo" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
   </tbody>
 </table>
 
