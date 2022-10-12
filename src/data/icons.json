@@ -10,6 +10,13 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_24px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_24px.svg",
       "iconName": "PaymentFintecture"
@@ -76,6 +83,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_24px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_24px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -150,6 +164,13 @@
     {
       "cat": "Logotypes",
       "size": "32px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_32px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_32px.svg",
       "iconName": "PaymentFintecture"
@@ -216,6 +237,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_32px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_32px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -290,6 +318,13 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_48px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_48px.svg",
       "iconName": "PaymentFintecture"
@@ -356,6 +391,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_48px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_48px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -430,6 +472,13 @@
     {
       "cat": "Logotypes",
       "size": "64px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_64px.svg",
+      "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_64px.svg",
       "iconName": "PaymentFintecture"
@@ -496,6 +545,13 @@
       "name": "Cards_Colors_Loyalty",
       "fileName": "Payment_Cards_Colors_Loyalty_64px.svg",
       "iconName": "CardsColorsLoyalty"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Cards_Colors_Maestro",
+      "fileName": "Payment_Cards_Colors_Maestro_64px.svg",
+      "iconName": "CardsColorsMaestro"
     },
     {
       "cat": "Payment",
@@ -1701,6 +1757,14 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Cards_Monochrome_Maestro",
+      "fileName": "Payment_Cards_Monochrome_Maestro_24px.svg",
+      "iconName": "CardsMonochromeMaestro",
+      "componentName": "CardsMonochromeMaestro24"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "Cards_Monochrome_Mastercard",
       "fileName": "Payment_Cards_Monochrome_Mastercard_24px.svg",
       "iconName": "CardsMonochromeMastercard",
@@ -1881,6 +1945,14 @@
       "fileName": "Product_Promise_Certification_24px.svg",
       "iconName": "PromiseCertification",
       "componentName": "PromiseCertification24"
+    },
+    {
+      "cat": "Product",
+      "size": "24px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_24px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy24"
     },
     {
       "cat": "Product",
@@ -3781,6 +3853,14 @@
     {
       "cat": "Payment",
       "size": "32px",
+      "name": "Cards_Monochrome_Maestro",
+      "fileName": "Payment_Cards_Monochrome_Maestro_32px.svg",
+      "iconName": "CardsMonochromeMaestro",
+      "componentName": "CardsMonochromeMaestro32"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
       "name": "Cards_Monochrome_Mastercard",
       "fileName": "Payment_Cards_Monochrome_Mastercard_32px.svg",
       "iconName": "CardsMonochromeMastercard",
@@ -3961,6 +4041,14 @@
       "fileName": "Product_Promise_Certification_32px.svg",
       "iconName": "PromiseCertification",
       "componentName": "PromiseCertification32"
+    },
+    {
+      "cat": "Product",
+      "size": "32px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_32px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy32"
     },
     {
       "cat": "Product",
@@ -5861,6 +5949,14 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Cards_Monochrome_Maestro",
+      "fileName": "Payment_Cards_Monochrome_Maestro_48px.svg",
+      "iconName": "CardsMonochromeMaestro",
+      "componentName": "CardsMonochromeMaestro48"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Monochrome_Mastercard",
       "fileName": "Payment_Cards_Monochrome_Mastercard_48px.svg",
       "iconName": "CardsMonochromeMastercard",
@@ -6041,6 +6137,14 @@
       "fileName": "Product_Promise_Certification_48px.svg",
       "iconName": "PromiseCertification",
       "componentName": "PromiseCertification48"
+    },
+    {
+      "cat": "Product",
+      "size": "48px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_48px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy48"
     },
     {
       "cat": "Product",
@@ -7941,6 +8045,14 @@
     {
       "cat": "Payment",
       "size": "64px",
+      "name": "Cards_Monochrome_Maestro",
+      "fileName": "Payment_Cards_Monochrome_Maestro_64px.svg",
+      "iconName": "CardsMonochromeMaestro",
+      "componentName": "CardsMonochromeMaestro64"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
       "name": "Cards_Monochrome_Mastercard",
       "fileName": "Payment_Cards_Monochrome_Mastercard_64px.svg",
       "iconName": "CardsMonochromeMastercard",
@@ -8121,6 +8233,14 @@
       "fileName": "Product_Promise_Certification_64px.svg",
       "iconName": "PromiseCertification",
       "componentName": "PromiseCertification64"
+    },
+    {
+      "cat": "Product",
+      "size": "64px",
+      "name": "Promise_CircularEconomy",
+      "fileName": "Product_Promise_CircularEconomy_64px.svg",
+      "iconName": "PromiseCircularEconomy",
+      "componentName": "PromiseCircularEconomy64"
     },
     {
       "cat": "Product",
