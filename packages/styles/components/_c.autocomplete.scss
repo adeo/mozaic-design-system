@@ -2,7 +2,9 @@
   $parent: get-parent-selector(&);
 
   position: relative;
+  min-width: $autocomplete-min-width;
   max-width: var(--autocomplete-width, $autocomplete-width);
+  width: 100%;
 
   &__tag,
   &__loader {
@@ -10,21 +12,23 @@
   }
 
   &__tag {
+    left: $mu300 - $mu025;
     top: 0;
     transform: translateY(50%);
+    z-index: $autocomplete-tag-zindex;
   }
 
   &__loader {
     right: $mu075;
     top: $mu075;
-    z-index: 10;
+    z-index: $autocomplete-loader-zindex;
   }
 
   &--multi {
     #{$parent} {
       &__trigger {
         overflow: hidden;
-        padding-left: calc(2.9375rem + var(--tag-width));
+        padding-left: calc(2.9375rem + var(--autocomplete-tag-width, 0px));
         text-overflow: ellipsis;
         white-space: nowrap;
       }
