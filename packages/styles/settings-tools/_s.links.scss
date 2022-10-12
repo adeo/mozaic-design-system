@@ -1,5 +1,4 @@
 $links-tokens: get-token(color, link);
-
 $link-sizes: (
   "s": (
     "font-size": "04",
@@ -10,7 +9,6 @@ $link-sizes: (
     "line-height": "m",
   ),
 );
-
 $link-s: map-get($link-sizes, "s");
 $link-m: map-get($link-sizes, "m");
 
@@ -24,6 +22,7 @@ $link-m: map-get($link-sizes, "m");
   line-height: inherit;
   text-decoration: underline;
   transition: color ease 200ms;
+  gap: $mu025;
 
   &:focus {
     @include set-focus-floating();
