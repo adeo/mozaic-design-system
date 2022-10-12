@@ -44,7 +44,7 @@
     margin-bottom: 0;
 
     @media screen and (max-width: 679px) {
-      overflow-x: auto;
+      overflow: auto hidden;
       white-space: nowrap;
     }
   }
@@ -128,9 +128,19 @@
   }
 
   &__text {
-    position: relative;
+    align-items: center;
     border-radius: $mu025;
+    display: flex;
+    gap: $mu025;
+    justify-content: center;
+    position: relative;
     padding: 0.4375rem $mu075; // =7px 12px
+  }
+
+  &__icon {
+    fill: currentColor;
+    height: $mu150;
+    width: $mu150;
   }
 
   &--full,
