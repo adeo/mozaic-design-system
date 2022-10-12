@@ -137,7 +137,11 @@
   --color-tag-text-light-border: var(--color-grey-500);
   --color-tag-text-light-background: var(--color-grey-000);
   --color-tabs-active-disabled: var(--color-primary-01-200);
+  --color-tabs-selected-border: var(--color-grey-999);
+  --color-tabs-active-background: var(--color-primary-02-200);
+  --color-tabs-disabled-background: var(--color-grey-200);
   --color-tabs-hover: var(--color-primary-01-800);
+  --color-tabs-element-background: var(--color-primary-02-100);
   --color-tabs-shadow: var(--color-grey-999);
   --color-tabs-background: var(--color-grey-000);
   --color-stepper-title: var(--color-primary-01-500);
@@ -374,9 +378,9 @@
   --color-badge-neutral-text: var(--color-grey-700);
   --color-badge-neutral-border: var(--color-grey-500);
   --color-badge-neutral-background: var(--color-grey-100);
-  --color-tabs-active: var(--color-font-primary-01);
-  --color-tabs-disabled: var(--color-font-light);
-  --color-tabs-default: var(--color-font-darker);
+  --color-tabs-selected-text: var(--color-font-darkest);
+  --color-tabs-active-text: var(--color-font-dark);
+  --color-tabs-default: var(--color-font-light);
   --color-progress-indicator: var(--color-info-600);
   --color-notification-danger-icon: var(--color-danger-600);
   --color-notification-danger-border: var(--color-danger-500);

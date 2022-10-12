@@ -364,10 +364,14 @@ $color-stepper-icon: #46a610 !default;
 $color-stepper-title: #46a610 !default;
 $color-tabs-background: #ffffff !default;
 $color-tabs-shadow: #000000 !default;
-$color-tabs-default: #191919 !default;
+$color-tabs-default: #666666 !default;
+$color-tabs-element-background: #eeeff1 !default;
 $color-tabs-hover: #035010 !default;
-$color-tabs-disabled: #666666 !default;
-$color-tabs-active: #188803 !default;
+$color-tabs-disabled-background: #cccccc !default;
+$color-tabs-active-background: #cfd2d8 !default;
+$color-tabs-active-text: #333333 !default;
+$color-tabs-selected-border: #000000 !default;
+$color-tabs-selected-text: #000000 !default;
 $color-tabs-active-disabled: #c5e39e !default;
 $color-tag-text-light-background: #ffffff !default;
 $color-tag-text-light-border: #808080 !default;
@@ -1190,9 +1194,21 @@ $tokens: (
       'background': $color-tabs-background,
       'shadow': $color-tabs-shadow,
       'default': $color-tabs-default,
+      'element': (
+        'background': $color-tabs-element-background
+      ),
       'hover': $color-tabs-hover,
-      'disabled': $color-tabs-disabled,
-      'active': $color-tabs-active,
+      'disabled': (
+        'background': $color-tabs-disabled-background
+      ),
+      'active': (
+        'background': $color-tabs-active-background,
+        'text': $color-tabs-active-text
+      ),
+      'selected': (
+        'border': $color-tabs-selected-border,
+        'text': $color-tabs-selected-text
+      ),
       'active-disabled': $color-tabs-active-disabled
     ),
     'tag': (
