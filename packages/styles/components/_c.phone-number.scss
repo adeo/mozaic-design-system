@@ -97,10 +97,6 @@
     z-index: 10;
   }
 
-  &__dropdown {
-    z-index: 20;
-  }
-
   &--focused {
     #{$parent}__button {
       border-color: $color-info-500;
