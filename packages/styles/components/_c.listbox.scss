@@ -14,7 +14,8 @@
   min-width: $listbox-width;
   opacity: 0;
   visibility: hidden;
-  width: var(--listbox-width, $listbox-width);
+  max-width: var(--listbox-width, $listbox-width);
+  width: 100%;
 
   &.is-open {
     opacity: 1;

@@ -5,72 +5,152 @@ order: 2
 
 ## Import
 
-Import the settings and the autocomplete `scss` files.
-
 ```scss
 @import 'settings-tools/all-settings';
-
-@import "components/c.left-icon-input";
-@import "components/c.text-input";
-@import "components/c.tag";
+@import 'components/c.left-icon-input';
+@import 'components/c.text-input';
+@import 'components/c.tag';
+@import 'components/c.checkbox'; // optional - to be imported when using the multiselection version
 @import 'components/c.listbox';
 @import 'components/c.autocomplete';
 ```
 
 ## Usage
 
-The creation of an autocomplete component in your code is done using the following HTML structure:
+The creation of an **Autocomplete** component in your code is done using the following HTML structure:
 
 ```HTML
 <div class="mc-autocomplete">
+  <!-- Tag -->
+  <span id="js-tag" class="mc-tag-removable mc-autocomplete__tag">
+    <span id="js-tag-label" class="mc-tag-removable__label">1</span>
+    <button class="mc-tag-removable__remove">
+      <span class="mc-tag-removable__remove-text">Delete tag</span>
+    </button>
+  </span>
+
+  <!-- Input -->
   <div class="mc-left-icon-input">
     <svg class="mc-left-icon-input__icon">
       <use xlink:href="#iconS" />
     </svg>
     <input
+      id="js-trigger"
       type="search"
-      class="mc-autocomplete__trigger mc-left-icon-input__input mc-text-input"
-      id="trigger"
+      class="mc-left-icon-input__input mc-text-input mc-autocomplete__trigger"
       placeholder="Placeholder"
-      name="withIcon"
       autocomplete="off"
-      aria-autocomplete="list"
+      aria-autocomplete="listbox"
       aria-expanded="false"
     />
   </div>
-  <ul
-    id="listbox"
-    tabindex="-1"
-    role="listbox"
-    aria-labelledby="lisbox"
-    class="mc-listbox"
-    aria-label="Options"
-  >
-    <li class="mc-listbox__item" role="option" aria-selected="false">
-      <span class="mc-listbox__label">Option label</span>
+
+  <!-- Listbox -->
+  <ul id="listbox" class="mc-listbox" role="listbox">
+    <li class="mc-listbox__tile" role="option">
+      <input
+        id="monoItem1"
+        type="radio"
+        name="monoSelection"
+        class="mc-listbox__input"
+        value="option1"
+      />
+      <label for="monoItem1" class="mc-listbox__label">
+        Option label n°1
+      </label>
     </li>
-    ...
+    <li class="mc-listbox__tile" role="option">
+      <input
+        id="monoItem2"
+        type="radio"
+        name="monoSelection"
+        class="mc-listbox__input"
+        value="option2"
+      />
+      <label for="monoItem2" class="mc-listbox__label">
+        Option label n°2
+      </label>
+    </li>
+    <li class="mc-listbox__tile" role="option">
+      <input
+        id="monoItem3"
+        type="radio"
+        name="monoSelection"
+        class="mc-listbox__input"
+        value="option3"
+      />
+      <label for="monoItem3" class="mc-listbox__label">
+        Option label n°3
+      </label>
+    </li>
+    <li class="mc-listbox__tile" role="option">
+      <input
+        id="monoItem4"
+        type="radio"
+        name="monoSelection"
+        class="mc-listbox__input"
+        value="option4"
+      />
+      <label for="monoItem4" class="mc-listbox__label">
+        Option label n°4
+      </label>
+    </li>
+    <li class="mc-listbox__tile" role="option">
+      <input
+        id="monoItem5"
+        type="radio"
+        name="monoSelection"
+        class="mc-listbox__input"
+        value="option5"
+      />
+      <label for="monoItem5" class="mc-listbox__label">
+        Option label n°5
+      </label>
+    </li>
+    <li class="mc-listbox__tile" role="option">
+      <input
+        id="monoItem6"
+        type="radio"
+        name="monoSelection"
+        class="mc-listbox__input"
+        value="option6"
+      />
+      <label for="monoItem6" class="mc-listbox__label">
+        Option label n°6
+      </label>
+    </li>
   </ul>
 </div>
 ```
 
-### Single select
+## Variations
+
+Depending on your use cases, you have the possibility to use the **Autocomplete** component in its **"mono-selection"** version or in its **"multi-selection"** version.
+
+### Autocomplte - mono-selection
+
+The **Autocomplete** component in its **"mono-selection"** version allows you to select only one value at a time within the listbox.
+
 <Preview path="default" />
 
-### Multi select
+### Autocomplte - multi-selection
+
+The **Autocomplete** component in its **"multi-selection"** version allows you to select several values within the listbox.
 
 <Preview path="multi" />
 
-## Behaviour
-
-<Highlight theme="warning">
-
-The autocomplete navigation has to be done using javascript. 
-
-</Highlight>
+## States
 
 ### Disabled
 
 To disable the autocomplete component you have to add `disabled` attribut to the `mc-listbox__trigger` element.
 
 <Preview path="disabled" />
+
+## Behaviour
+
+<Highlight theme="warning">
+
+The autocomplete navigation has to be done using javascript.
+
+</Highlight>
