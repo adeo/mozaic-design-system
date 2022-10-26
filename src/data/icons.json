@@ -2573,6 +2573,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Glass",
+      "fileName": "Universe_Glass_24px.svg",
+      "iconName": "Glass",
+      "componentName": "Glass24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_24px.svg",
       "iconName": "HardwareStore",
@@ -2613,6 +2621,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Leak",
+      "fileName": "Universe_Leak_24px.svg",
+      "iconName": "Leak",
+      "componentName": "Leak24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Lighting",
       "fileName": "Universe_Lighting_24px.svg",
       "iconName": "Lighting",
@@ -2641,6 +2657,14 @@
       "fileName": "Universe_Paint_24px.svg",
       "iconName": "Paint",
       "componentName": "Paint24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Pool",
+      "fileName": "Universe_Pool_24px.svg",
+      "iconName": "Pool",
+      "componentName": "Pool24"
     },
     {
       "cat": "Universe",
@@ -4669,6 +4693,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Glass",
+      "fileName": "Universe_Glass_32px.svg",
+      "iconName": "Glass",
+      "componentName": "Glass32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_32px.svg",
       "iconName": "HardwareStore",
@@ -4709,6 +4741,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Leak",
+      "fileName": "Universe_Leak_32px.svg",
+      "iconName": "Leak",
+      "componentName": "Leak32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Lighting",
       "fileName": "Universe_Lighting_32px.svg",
       "iconName": "Lighting",
@@ -4737,6 +4777,14 @@
       "fileName": "Universe_Paint_32px.svg",
       "iconName": "Paint",
       "componentName": "Paint32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Pool",
+      "fileName": "Universe_Pool_32px.svg",
+      "iconName": "Pool",
+      "componentName": "Pool32"
     },
     {
       "cat": "Universe",
@@ -6765,6 +6813,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Glass",
+      "fileName": "Universe_Glass_48px.svg",
+      "iconName": "Glass",
+      "componentName": "Glass48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_48px.svg",
       "iconName": "HardwareStore",
@@ -6805,6 +6861,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Leak",
+      "fileName": "Universe_Leak_48px.svg",
+      "iconName": "Leak",
+      "componentName": "Leak48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Lighting",
       "fileName": "Universe_Lighting_48px.svg",
       "iconName": "Lighting",
@@ -6833,6 +6897,14 @@
       "fileName": "Universe_Paint_48px.svg",
       "iconName": "Paint",
       "componentName": "Paint48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Pool",
+      "fileName": "Universe_Pool_48px.svg",
+      "iconName": "Pool",
+      "componentName": "Pool48"
     },
     {
       "cat": "Universe",
@@ -8861,6 +8933,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Glass",
+      "fileName": "Universe_Glass_64px.svg",
+      "iconName": "Glass",
+      "componentName": "Glass64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_64px.svg",
       "iconName": "HardwareStore",
@@ -8901,6 +8981,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Leak",
+      "fileName": "Universe_Leak_64px.svg",
+      "iconName": "Leak",
+      "componentName": "Leak64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Lighting",
       "fileName": "Universe_Lighting_64px.svg",
       "iconName": "Lighting",
@@ -8929,6 +9017,14 @@
       "fileName": "Universe_Paint_64px.svg",
       "iconName": "Paint",
       "componentName": "Paint64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Pool",
+      "fileName": "Universe_Pool_64px.svg",
+      "iconName": "Pool",
+      "componentName": "Pool64"
     },
     {
       "cat": "Universe",
