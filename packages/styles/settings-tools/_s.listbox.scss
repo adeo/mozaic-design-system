@@ -1,5 +1,6 @@
 $listbox-height: 13.8125rem; // =221px
-$listbox-width: 18rem; // =288px
+$listbox-min-width: 18rem; // =288px
+$listbox-width: auto;
 
 @mixin listbox-tile-selected($position: center, $size: auto) {
   background-image: url("#{inline-icons('notification-available-24', $color-grey-900)}");
