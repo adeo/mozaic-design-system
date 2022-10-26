@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.45.0](https://github.com/adeo/mozaic-design-system/compare/v1.44.0...v1.45.0) (2022-10-26)
+
+
+### Features
+
+* **foundations/icons:** add new Universe icons ([#1240](https://github.com/adeo/mozaic-design-system/issues/1240)) ([fea5e47](https://github.com/adeo/mozaic-design-system/commit/fea5e47e787458ddb3f2b0f3fedaea3ba10f8d7f))
+
+
+
+
+
 # [1.44.0](https://github.com/adeo/mozaic-design-system/compare/v1.43.1...v1.44.0) (2022-10-12)
 
 
