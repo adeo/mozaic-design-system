@@ -1,11 +1,11 @@
 @import "settings-tools/all-settings";
-@include import-font-families();
-
-
-@import "components/c.text-input";
 @import "components/c.left-icon-input";
+@import "components/c.text-input";
+@import "components/c.tag";
 @import "components/c.listbox";
 @import "components/c.autocomplete";
+
+@include import-font-families();
 
 .example {
   @include set-font-face();
