@@ -135,6 +135,7 @@
     justify-content: center;
     position: relative;
     padding: 0.4375rem $mu075; // =7px 12px
+    pointer-events: none;
   }
 
   &__icon {
