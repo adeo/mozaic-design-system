@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.45.1](https://github.com/adeo/mozaic-design-system/compare/v1.45.0...v1.45.1) (2022-10-27)
+
+
+### Bug Fixes
+
+* **component/tabs:** add pointer-events: none; on mc-tabs__text element ([#1241](https://github.com/adeo/mozaic-design-system/issues/1241)) ([212fbe4](https://github.com/adeo/mozaic-design-system/commit/212fbe46e680b4b9e3eca0029ed087fe2f93a628))
+
+
+
+
+
 # [1.45.0](https://github.com/adeo/mozaic-design-system/compare/v1.44.0...v1.45.0) (2022-10-26)
 
 
