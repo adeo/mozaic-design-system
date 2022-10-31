@@ -17,6 +17,23 @@ const generateIconsModules = (icons) =>
       if (err) rej(err)
       res(true)
     })
+
+    // TypeScript Declaration File
+    const writeTypeScriptFile = path.join(
+      process.cwd(),
+      config.outputPaths.js,
+      'icons.d.ts'
+    )
+
+    fs.writeFile(
+      writeTypeScriptFile,
+      "declare module '@mozaic-ds/icons/js/icons'",
+      'utf8',
+      (err) => {
+        if (err) rej(err)
+        res(true)
+      }
+    )
   })
 
 module.exports = generateIconsModules
