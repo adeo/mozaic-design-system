@@ -301,7 +301,9 @@
   --color-button-bordered-primary-02-font: var(--color-primary-02-500);
   --color-button-bordered-primary-02-border: var(--color-primary-02-500);
   --color-button-bordered-primary-02-background: var(--color-grey-000);
+  --color-button-bordered-hover-font: var(--color-primary-01-700);
   --color-button-bordered-hover-background: var(--color-primary-01-100);
+  --color-button-bordered-active-font: var(--color-primary-01-800);
   --color-button-bordered-active-background: var(--color-primary-01-200);
   --color-button-bordered-disabled-font: var(--color-grey-600);
   --color-button-bordered-disabled-background: var(--color-grey-200);
@@ -400,6 +402,8 @@
   --color-fields-help: var(--color-font-light);
   --color-fields-requirement: var(--color-font-light);
   --color-fields-label: var(--color-font-dark);
+  --color-button-bordered-danger-hover-font: var(--color-danger-700);
+  --color-button-bordered-danger-active-font: var(--color-danger-800);
   --color-button-solid-danger-hover-background: var(--color-danger-700);
   --color-button-solid-danger-active-background: var(--color-danger-700);
   --color-button-solid-danger-focus-border: var(--color-danger-700);
