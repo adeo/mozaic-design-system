@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.46.0](https://github.com/adeo/mozaic-design-system/compare/v1.45.1...v1.46.0) (2022-11-02)
+
+
+### Features
+
+* **icons/js:** generate a basic typescript declaration file ([#1244](https://github.com/adeo/mozaic-design-system/issues/1244)) ([d53439c](https://github.com/adeo/mozaic-design-system/commit/d53439c769a78ea9ea5f26f2adbc161cc094cf1d))
+* **icons:** remove unused icons file ([#1243](https://github.com/adeo/mozaic-design-system/issues/1243)) ([9a947ba](https://github.com/adeo/mozaic-design-system/commit/9a947ba0669f03d18b69f8a00ad647cdbd11dba3))
+
+
+
+
+
 # [1.45.0](https://github.com/adeo/mozaic-design-system/compare/v1.44.0...v1.45.0) (2022-10-26)
 
 
