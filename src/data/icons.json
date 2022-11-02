@@ -7261,6 +7261,14 @@
     {
       "cat": "Device",
       "size": "64px",
+      "name": "Paypal",
+      "fileName": "Device_Paypal_64px.svg",
+      "iconName": "Paypal",
+      "componentName": "Paypal64"
+    },
+    {
+      "cat": "Device",
+      "size": "64px",
       "name": "Tablet",
       "fileName": "Device_Tablet_64px.svg",
       "iconName": "Tablet",
