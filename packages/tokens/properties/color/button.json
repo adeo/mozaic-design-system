@@ -163,11 +163,17 @@
         "active": {
           "background": {
             "value": "{color.primary-01.200.value}"
+          },
+          "font": {
+            "value": "{color.primary-01.800.value}"
           }
         },
         "hover": {
           "background": {
             "value": "{color.primary-01.100.value}"
+          },
+          "font": {
+            "value": "{color.primary-01.700.value}"
           }
         }
       },
@@ -265,11 +271,17 @@
         "active": {
           "background": {
             "value": "{color.secondary-red.200.value}"
+          },
+          "font": {
+            "value": "{color.danger.800.value}"
           }
         },
         "hover": {
           "background": {
             "value": "{color.secondary-red.100.value}"
+          },
+          "font": {
+            "value": "{color.danger.700.value}"
           }
         }
       }

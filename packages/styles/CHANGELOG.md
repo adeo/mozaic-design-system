@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.46.0](https://github.com/adeo/mozaic-design-system/compare/v1.45.1...v1.46.0) (2022-11-02)
+
+
+### Bug Fixes
+
+* **components/modal/layer:** improve overlay for scoped modules ([#1242](https://github.com/adeo/mozaic-design-system/issues/1242)) ([4a9729d](https://github.com/adeo/mozaic-design-system/commit/4a9729d4d59ec78b2c020ce3e89dbc474f2f46a3))
+
+
+
+
+
 ## [1.45.1](https://github.com/adeo/mozaic-design-system/compare/v1.45.0...v1.45.1) (2022-10-27)
 
 

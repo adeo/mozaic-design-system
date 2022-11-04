@@ -3628,6 +3628,29 @@ module.exports = {
               "active",
               "background"
             ]
+          },
+          "font": {
+            "value": "#035010",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.800.value}"
+            },
+            "name": "ColorButtonBorderedActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "active",
+              "font"
+            ]
           }
         },
         "hover": {
@@ -3652,6 +3675,29 @@ module.exports = {
               "bordered",
               "hover",
               "background"
+            ]
+          },
+          "font": {
+            "value": "#006902",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorButtonBorderedHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "hover",
+              "font"
             ]
           }
         }
@@ -4192,6 +4238,29 @@ module.exports = {
               "active",
               "background"
             ]
+          },
+          "font": {
+            "value": "#530000",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.800.value}"
+            },
+            "name": "ColorButtonBorderedDangerActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "active",
+              "font"
+            ]
           }
         },
         "hover": {
@@ -4216,6 +4285,29 @@ module.exports = {
               "bordered-danger",
               "hover",
               "background"
+            ]
+          },
+          "font": {
+            "value": "#8c0003",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.700.value}"
+            },
+            "name": "ColorButtonBorderedDangerHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "hover",
+              "font"
             ]
           }
         }
