@@ -1043,6 +1043,46 @@
       "componentName": "UniverseEssentialProduct24"
     },
     {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_24px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_24px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_24px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_24px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_24px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal24"
+    },
+    {
       "cat": "Media",
       "size": "24px",
       "name": "BookStore",
@@ -3161,6 +3201,46 @@
       "fileName": "Instruction_Universe_EssentialProduct_32px.svg",
       "iconName": "UniverseEssentialProduct",
       "componentName": "UniverseEssentialProduct32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_32px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_32px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_32px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_32px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_32px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal32"
     },
     {
       "cat": "Media",
@@ -5283,6 +5363,46 @@
       "componentName": "UniverseEssentialProduct48"
     },
     {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_48px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_48px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_48px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_48px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_48px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal48"
+    },
+    {
       "cat": "Media",
       "size": "48px",
       "name": "BookStore",
@@ -7261,14 +7381,6 @@
     {
       "cat": "Device",
       "size": "64px",
-      "name": "Paypal",
-      "fileName": "Device_Paypal_64px.svg",
-      "iconName": "Paypal",
-      "componentName": "Paypal64"
-    },
-    {
-      "cat": "Device",
-      "size": "64px",
       "name": "Tablet",
       "fileName": "Device_Tablet_64px.svg",
       "iconName": "Tablet",
@@ -7409,6 +7521,46 @@
       "fileName": "Instruction_Universe_EssentialProduct_64px.svg",
       "iconName": "UniverseEssentialProduct",
       "componentName": "UniverseEssentialProduct64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_64px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_64px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_64px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_64px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_64px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal64"
     },
     {
       "cat": "Media",
