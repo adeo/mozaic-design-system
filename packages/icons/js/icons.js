@@ -1197,6 +1197,12 @@ export const DeliveryDeliveryLocker24 = {
     paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M4 4v2h4V4H4zm0 3h4v3H4V7zm0 4h4v3H4v-3zm0 4h4v5H4v-5zm5 0v5h6v-5H9zm7 0v5h4v-5h-4zm0-1v-3h4v3h-4zm0-4h4V7h-4v3zm0-4h4V4h-4v2zm-1-2v10H9V4h6zM3 2a1 1 0 00-1 1v18a1 1 0 001 1h18a1 1 0 001-1V3a1 1 0 00-1-1H3zm8 6h2v2h-2V8zm-1 0a1 1 0 011-1h2a1 1 0 011 1v3a1 1 0 01-1 1h-2a1 1 0 01-1-1V8z"}}],
     type: "service"
   };
+export const Pallet24 = {
+    viewBox: "0 0 24 24",
+    size: "1.5rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M8.5 2a1 1 0 00-1 1v6H5a1 1 0 00-1 1v6H3a1 1 0 00-1 1v4a1 1 0 001 1h2a1 1 0 001-1h4a1 1 0 001 1h2a1 1 0 001-1h4a1 1 0 001 1h2a1 1 0 001-1v-4a1 1 0 00-1-1h-1v-6a1 1 0 00-1-1h-2.5V3a1 1 0 00-1-1h-7zm2.5 9v5H6v-5h1v2h3v-2h1zm2 0v5h5v-5h-1v2h-3v-2h-1zm2 0v1h1v-1h-1zm-7 1v-1h1v1H8zm6.5-3V4h-1v2h-3V4h-1v5h5zm-3-5h1v1h-1V4zM4 18v1h16v-1H4z"}}],
+    type: "service"
+  };
 export const PurchaseHelpCarRent24 = {
     viewBox: "0 0 24 24",
     size: "1.5rem",
@@ -2815,6 +2821,12 @@ export const DeliveryDeliveryLocker32 = {
     viewBox: "0 0 32 32",
     size: "2rem",
     paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M5 5h5v4H5V5zm6 4V5h10v14H11V9zm10 11H11v7h10v-7zm1 7v-7h5v7h-5zm0-8v-4h5v4h-5zm0-5h5v-4h-5v4zm0-5h5V5h-5v4zm-12 6v4H5v-4h5zm0-5v4H5v-4h5zm0 17v-7H5v7h5zM3 5a2 2 0 012-2h22a2 2 0 012 2v22a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm15 5h-4v4h4v-4zm-4-1a1 1 0 00-1 1v5a1 1 0 001 1h4a1 1 0 001-1v-5a1 1 0 00-1-1h-4z"}}],
+    type: "service"
+  };
+export const Pallet32 = {
+    viewBox: "0 0 32 32",
+    size: "2rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M11.333 3a1 1 0 00-1 1v8.333H6.667a1 1 0 00-1 1v8.334H4a1 1 0 00-1 1V28a1 1 0 001 1h2.667a1 1 0 001-1v-.333h6V28a1 1 0 001 1h2.666a1 1 0 001-1v-.333h6V28a1 1 0 001 1H28a1 1 0 001-1v-5.333a1 1 0 00-1-1h-1.667v-8.334a1 1 0 00-1-1h-3.666V4a1 1 0 00-1-1h-9.334zm13 18.667H17v-7.334h1.833v2.834H22.5v-2.834h1.833v7.334zM21.5 14.333v1.834h-1.667v-1.834H21.5zm-6.5 0v7.334H7.667v-7.334H9.5v2.834h3.667v-2.834H15zm-4.5 1.834v-1.834h1.667v1.834H10.5zm9.167-3.834V5h-1.834v2.833h-3.666V5h-1.834v7.333h7.334zM15.167 5h1.666v1.833h-1.666V5zM5 23.667v2h22v-2H5z"}}],
     type: "service"
   };
 export const PurchaseHelpCarRent32 = {
@@ -4437,6 +4449,12 @@ export const DeliveryDeliveryLocker48 = {
     paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M7 29v-6h8v6H7zm10-6V7h14v22H17v-6zm14 8H17v10h14V31zm2 10V31h8v10h-8zm0 3H6a2 2 0 01-2-2V6a2 2 0 012-2h36a2 2 0 012 2v36a2 2 0 01-2 2h-9zm0-37v6h8V7h-8zm0 8v6h8v-6h-8zm0 8h8v6h-8v-6zm-18-2v-6H7v6h8zm0-14v6H7V7h8zm0 34V31H7v10h8zm12-26h-6v6h6v-6zm-6-2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2v-8a2 2 0 00-2-2h-6z"}}],
     type: "service"
   };
+export const Pallet48 = {
+    viewBox: "0 0 48 48",
+    size: "3rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M17 4.5A1.5 1.5 0 0015.5 6v12.5H10A1.5 1.5 0 008.5 20v12.5H6A1.5 1.5 0 004.5 34v8A1.5 1.5 0 006 43.5h4a1.5 1.5 0 001.5-1.5v-.5h9v.5a1.5 1.5 0 001.5 1.5h4a1.5 1.5 0 001.5-1.5v-.5h9v.5a1.5 1.5 0 001.5 1.5h4a1.5 1.5 0 001.5-1.5v-8a1.5 1.5 0 00-1.5-1.5h-2.5V20a1.5 1.5 0 00-1.5-1.5h-5.5V6A1.5 1.5 0 0031 4.5H17zm5.5 17v11h-11v-11H14V26h6v-4.5h2.5zm3 0v11h11v-11H34V26h-6v-4.5h-2.5zm4.5 0V24h2v-2.5h-2zM16 24v-2.5h2V24h-2zm13.5-5.5v-11H27V12h-6V7.5h-2.5v11h11zM23 7.5h2V10h-2V7.5zm-15.5 28v3h33v-3h-33z"}}],
+    type: "service"
+  };
 export const PurchaseHelpCarRent48 = {
     viewBox: "0 0 48 48",
     size: "3rem",
@@ -6055,6 +6073,12 @@ export const DeliveryDeliveryLocker64 = {
     viewBox: "0 0 64 64",
     size: "4rem",
     paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M8 39v-9h12v9H8zm12-19v8H8v-8h12zm0-12v10H8V8h12zm2-3H7a2 2 0 00-2 2v50a2 2 0 002 2h50a2 2 0 002-2V7a2 2 0 00-2-2H22zm20 3H22v31h20V8zm0 33H22v15h20V41zm2 15V41h12v15H44zm0-17v-9h12v9H44zm0-11h12v-9H44v9zm0-11h12V8H44v9zM20 56V41H8v15h12zm16-37h-8v8h8v-8zm-8-2a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V19a2 2 0 00-2-2h-8z"}}],
+    type: "service"
+  };
+export const Pallet64 = {
+    viewBox: "0 0 64 64",
+    size: "4rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M22.667 6.5a1.5 1.5 0 00-1.5 1.5v17.167h-7.834a1.5 1.5 0 00-1.5 1.5v17.166H8a1.5 1.5 0 00-1.5 1.5V56A1.5 1.5 0 008 57.5h5.333a1.5 1.5 0 001.5-1.5v-1.167h13V56a1.5 1.5 0 001.5 1.5h5.334a1.5 1.5 0 001.5-1.5v-1.167h13V56a1.5 1.5 0 001.5 1.5H56a1.5 1.5 0 001.5-1.5V45.333a1.5 1.5 0 00-1.5-1.5h-3.833V26.667a1.5 1.5 0 00-1.5-1.5h-7.834V8a1.5 1.5 0 00-1.5-1.5H22.667zm26.5 37.333H33.5V28.167h4.167v6.166H45v-6.166h4.167v15.666zM43 28.167v4.166h-3.333v-4.166H43zm-12.5 0v15.666H14.833V28.167H19v6.166h7.333v-6.166H30.5zM21 32.333v-4.166h3.333v4.166H21zm18.833-7.166V9.5h-4.166v6.167h-7.334V9.5h-4.166v15.667h15.666zM30.333 9.5h3.334v4.167h-3.334V9.5zM9.5 46.833v5h45v-5h-45z"}}],
     type: "service"
   };
 export const PurchaseHelpCarRent64 = {

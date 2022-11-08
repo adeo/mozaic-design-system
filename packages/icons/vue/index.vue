@@ -1834,6 +1834,13 @@ export const MIconDeliveryDeliveryLocker24 = GenerateIcon('1.5rem', '0 0 24 24',
   ]
 ])
 
+export const MIconPallet24 = GenerateIcon('1.5rem', '0 0 24 24', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M8.5 2a1 1 0 00-1 1v6H5a1 1 0 00-1 1v6H3a1 1 0 00-1 1v4a1 1 0 001 1h2a1 1 0 001-1h4a1 1 0 001 1h2a1 1 0 001-1h4a1 1 0 001 1h2a1 1 0 001-1v-4a1 1 0 00-1-1h-1v-6a1 1 0 00-1-1h-2.5V3a1 1 0 00-1-1h-7zm2.5 9v5H6v-5h1v2h3v-2h1zm2 0v5h5v-5h-1v2h-3v-2h-1zm2 0v1h1v-1h-1zm-7 1v-1h1v1H8zm6.5-3V4h-1v2h-3V4h-1v5h5zm-3-5h1v1h-1V4zM4 18v1h16v-1H4z"} },
+  ]
+])
+
 export const MIconPurchaseHelpCarRent24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
     'path',
@@ -4252,6 +4259,13 @@ export const MIconDeliveryDeliveryLocker32 = GenerateIcon('2rem', '0 0 32 32', [
   [
     'path',
     { attrs: {"fill-rule":"evenodd","d":"M5 5h5v4H5V5zm6 4V5h10v14H11V9zm10 11H11v7h10v-7zm1 7v-7h5v7h-5zm0-8v-4h5v4h-5zm0-5h5v-4h-5v4zm0-5h5V5h-5v4zm-12 6v4H5v-4h5zm0-5v4H5v-4h5zm0 17v-7H5v7h5zM3 5a2 2 0 012-2h22a2 2 0 012 2v22a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm15 5h-4v4h4v-4zm-4-1a1 1 0 00-1 1v5a1 1 0 001 1h4a1 1 0 001-1v-5a1 1 0 00-1-1h-4z"} },
+  ]
+])
+
+export const MIconPallet32 = GenerateIcon('2rem', '0 0 32 32', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M11.333 3a1 1 0 00-1 1v8.333H6.667a1 1 0 00-1 1v8.334H4a1 1 0 00-1 1V28a1 1 0 001 1h2.667a1 1 0 001-1v-.333h6V28a1 1 0 001 1h2.666a1 1 0 001-1v-.333h6V28a1 1 0 001 1H28a1 1 0 001-1v-5.333a1 1 0 00-1-1h-1.667v-8.334a1 1 0 00-1-1h-3.666V4a1 1 0 00-1-1h-9.334zm13 18.667H17v-7.334h1.833v2.834H22.5v-2.834h1.833v7.334zM21.5 14.333v1.834h-1.667v-1.834H21.5zm-6.5 0v7.334H7.667v-7.334H9.5v2.834h3.667v-2.834H15zm-4.5 1.834v-1.834h1.667v1.834H10.5zm9.167-3.834V5h-1.834v2.833h-3.666V5h-1.834v7.333h7.334zM15.167 5h1.666v1.833h-1.666V5zM5 23.667v2h22v-2H5z"} },
   ]
 ])
 
@@ -6727,6 +6741,13 @@ export const MIconDeliveryDeliveryLocker48 = GenerateIcon('3rem', '0 0 48 48', [
   ]
 ])
 
+export const MIconPallet48 = GenerateIcon('3rem', '0 0 48 48', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M17 4.5A1.5 1.5 0 0015.5 6v12.5H10A1.5 1.5 0 008.5 20v12.5H6A1.5 1.5 0 004.5 34v8A1.5 1.5 0 006 43.5h4a1.5 1.5 0 001.5-1.5v-.5h9v.5a1.5 1.5 0 001.5 1.5h4a1.5 1.5 0 001.5-1.5v-.5h9v.5a1.5 1.5 0 001.5 1.5h4a1.5 1.5 0 001.5-1.5v-8a1.5 1.5 0 00-1.5-1.5h-2.5V20a1.5 1.5 0 00-1.5-1.5h-5.5V6A1.5 1.5 0 0031 4.5H17zm5.5 17v11h-11v-11H14V26h6v-4.5h2.5zm3 0v11h11v-11H34V26h-6v-4.5h-2.5zm4.5 0V24h2v-2.5h-2zM16 24v-2.5h2V24h-2zm13.5-5.5v-11H27V12h-6V7.5h-2.5v11h11zM23 7.5h2V10h-2V7.5zm-15.5 28v3h33v-3h-33z"} },
+  ]
+])
+
 export const MIconPurchaseHelpCarRent48 = GenerateIcon('3rem', '0 0 48 48', [
   [
     'path',
@@ -9157,6 +9178,13 @@ export const MIconDeliveryDeliveryLocker64 = GenerateIcon('4rem', '0 0 64 64', [
   [
     'path',
     { attrs: {"fill-rule":"evenodd","d":"M8 39v-9h12v9H8zm12-19v8H8v-8h12zm0-12v10H8V8h12zm2-3H7a2 2 0 00-2 2v50a2 2 0 002 2h50a2 2 0 002-2V7a2 2 0 00-2-2H22zm20 3H22v31h20V8zm0 33H22v15h20V41zm2 15V41h12v15H44zm0-17v-9h12v9H44zm0-11h12v-9H44v9zm0-11h12V8H44v9zM20 56V41H8v15h12zm16-37h-8v8h8v-8zm-8-2a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V19a2 2 0 00-2-2h-8z"} },
+  ]
+])
+
+export const MIconPallet64 = GenerateIcon('4rem', '0 0 64 64', [
+  [
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M22.667 6.5a1.5 1.5 0 00-1.5 1.5v17.167h-7.834a1.5 1.5 0 00-1.5 1.5v17.166H8a1.5 1.5 0 00-1.5 1.5V56A1.5 1.5 0 008 57.5h5.333a1.5 1.5 0 001.5-1.5v-1.167h13V56a1.5 1.5 0 001.5 1.5h5.334a1.5 1.5 0 001.5-1.5v-1.167h13V56a1.5 1.5 0 001.5 1.5H56a1.5 1.5 0 001.5-1.5V45.333a1.5 1.5 0 00-1.5-1.5h-3.833V26.667a1.5 1.5 0 00-1.5-1.5h-7.834V8a1.5 1.5 0 00-1.5-1.5H22.667zm26.5 37.333H33.5V28.167h4.167v6.166H45v-6.166h4.167v15.666zM43 28.167v4.166h-3.333v-4.166H43zm-12.5 0v15.666H14.833V28.167H19v6.166h7.333v-6.166H30.5zM21 32.333v-4.166h3.333v4.166H21zm18.833-7.166V9.5h-4.166v6.167h-7.334V9.5h-4.166v15.667h15.666zM30.333 9.5h3.334v4.167h-3.334V9.5zM9.5 46.833v5h45v-5h-45z"} },
   ]
 ])
 

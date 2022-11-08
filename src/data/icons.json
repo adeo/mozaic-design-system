@@ -2213,6 +2213,14 @@
     {
       "cat": "Service",
       "size": "24px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_24px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
       "name": "PurchaseHelp_CarRent",
       "fileName": "Service_PurchaseHelp_CarRent_24px.svg",
       "iconName": "PurchaseHelpCarRent",
@@ -4369,6 +4377,14 @@
       "fileName": "Service_Delivery_Delivery--Locker_32px.svg",
       "iconName": "DeliveryDeliveryLocker",
       "componentName": "DeliveryDeliveryLocker32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_32px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet32"
     },
     {
       "cat": "Service",
@@ -6533,6 +6549,14 @@
     {
       "cat": "Service",
       "size": "48px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_48px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
       "name": "PurchaseHelp_CarRent",
       "fileName": "Service_PurchaseHelp_CarRent_48px.svg",
       "iconName": "PurchaseHelpCarRent",
@@ -8689,6 +8713,14 @@
       "fileName": "Service_Delivery_Delivery--Locker_64px.svg",
       "iconName": "DeliveryDeliveryLocker",
       "componentName": "DeliveryDeliveryLocker64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_64px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet64"
     },
     {
       "cat": "Service",
