@@ -702,7 +702,7 @@ export const DisplayMenu24 = {
 export const DisplayMovingBlock24 = {
     viewBox: "0 0 24 24",
     size: "1.5rem",
-    paths: [{tagName: "circle",attrs: {"cx":4.09,"cy":4,"r":2}},{tagName: "circle",attrs: {"cx":12.09,"cy":4,"r":2}},{tagName: "circle",attrs: {"cx":20.09,"cy":4,"r":2}},{tagName: "circle",attrs: {"cx":4.09,"cy":12,"r":2}},{tagName: "circle",attrs: {"cx":12.09,"cy":12,"r":2}},{tagName: "circle",attrs: {"cx":20.09,"cy":12,"r":2}},{tagName: "circle",attrs: {"cx":4.09,"cy":20,"r":2}},{tagName: "circle",attrs: {"cx":12.09,"cy":20,"r":2}},{tagName: "circle",attrs: {"cx":20.09,"cy":20,"r":2}}],
+    paths: [{tagName: "g",attrs: {"clip-path":"url(#a)"},children: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M8.5 7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4zm2-9a2 2 0 11-4 0 2 2 0 014 0zm5-5a2 2 0 100-4 2 2 0 000 4zm2 12a2 2 0 11-4 0 2 2 0 014 0zm-2-5a2 2 0 100-4 2 2 0 000 4z"}}]},{tagName: "defs",children: [{tagName: "clipPath",attrs: {"id":"a"},children: [{tagName: "path",attrs: {"d":"M0 0h24v24H0z"}}]}]}],
     type: "navigation"
   };
 export const DisplayOptions24 = {
@@ -2340,7 +2340,7 @@ export const DisplayMenu32 = {
 export const DisplayMovingBlock32 = {
     viewBox: "0 0 32 32",
     size: "2rem",
-    paths: [{tagName: "circle",attrs: {"cx":5.5,"cy":5.5,"r":2.5}},{tagName: "circle",attrs: {"cx":26.5,"cy":5.5,"r":2.5}},{tagName: "path",attrs: {"d":"M16 3a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 3z"}},{tagName: "circle",attrs: {"cx":5.5,"cy":26.5,"r":2.5}},{tagName: "circle",attrs: {"cx":26.5,"cy":26.5,"r":2.5}},{tagName: "path",attrs: {"d":"M16 24a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 24z"}},{tagName: "circle",attrs: {"cx":5.5,"cy":16,"r":2.5}},{tagName: "circle",attrs: {"cx":26.5,"cy":16,"r":2.5}},{tagName: "path",attrs: {"d":"M16 13.5a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5z"}}],
+    paths: [{tagName: "g",attrs: {"clip-path":"url(#a)"},children: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M11.333 9.333a2.667 2.667 0 100-5.333 2.667 2.667 0 000 5.333zm0 18.667a2.667 2.667 0 100-5.333 2.667 2.667 0 000 5.333zM14 16a2.667 2.667 0 11-5.333 0A2.667 2.667 0 0114 16zm6.667-6.667a2.667 2.667 0 100-5.333 2.667 2.667 0 000 5.333zm2.666 16a2.667 2.667 0 11-5.333 0 2.667 2.667 0 015.333 0zm-2.666-6.666a2.667 2.667 0 100-5.334 2.667 2.667 0 000 5.334z"}}]},{tagName: "defs",children: [{tagName: "clipPath",attrs: {"id":"a"},children: [{tagName: "path",attrs: {"d":"M0 0h32v32H0z"}}]}]}],
     type: "navigation"
   };
 export const DisplayOptions32 = {
@@ -3978,7 +3978,7 @@ export const DisplayMenu48 = {
 export const DisplayMovingBlock48 = {
     viewBox: "0 0 48 48",
     size: "3rem",
-    paths: [{tagName: "circle",attrs: {"cx":8,"cy":8,"r":4}},{tagName: "circle",attrs: {"cx":24,"cy":8,"r":4}},{tagName: "circle",attrs: {"cx":40,"cy":8,"r":4}},{tagName: "circle",attrs: {"cx":8,"cy":24,"r":4}},{tagName: "circle",attrs: {"cx":24,"cy":24,"r":4}},{tagName: "circle",attrs: {"cx":40,"cy":24,"r":4}},{tagName: "circle",attrs: {"cx":8,"cy":40,"r":4}},{tagName: "circle",attrs: {"cx":24,"cy":40,"r":4}},{tagName: "circle",attrs: {"cx":40,"cy":40,"r":4}}],
+    paths: [{tagName: "g",attrs: {"clip-path":"url(#a)"},children: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M17 14a4 4 0 100-8 4 4 0 000 8zm0 28a4 4 0 100-8 4 4 0 000 8zm4-18a4 4 0 11-8 0 4 4 0 018 0zm10-10a4 4 0 100-8 4 4 0 000 8zm4 24a4 4 0 11-8 0 4 4 0 018 0zm-4-10a4 4 0 100-8 4 4 0 000 8z"}}]},{tagName: "defs",children: [{tagName: "clipPath",attrs: {"id":"a"},children: [{tagName: "path",attrs: {"d":"M0 0h48v48H0z"}}]}]}],
     type: "navigation"
   };
 export const DisplayOptions48 = {
@@ -5616,7 +5616,7 @@ export const DisplayMenu64 = {
 export const DisplayMovingBlock64 = {
     viewBox: "0 0 64 64",
     size: "4rem",
-    paths: [{tagName: "circle",attrs: {"cx":10,"cy":10,"r":5}},{tagName: "circle",attrs: {"cx":32,"cy":10,"r":5}},{tagName: "circle",attrs: {"cx":54,"cy":10,"r":5}},{tagName: "circle",attrs: {"cx":10,"cy":32,"r":5}},{tagName: "circle",attrs: {"cx":32,"cy":32,"r":5}},{tagName: "circle",attrs: {"cx":54,"cy":32,"r":5}},{tagName: "circle",attrs: {"cx":10,"cy":54,"r":5}},{tagName: "circle",attrs: {"cx":32,"cy":54,"r":5}},{tagName: "circle",attrs: {"cx":54,"cy":54,"r":5}}],
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M22.667 18.667a5.333 5.333 0 100-10.667 5.333 5.333 0 000 10.667zm0 37.333a5.333 5.333 0 100-10.667 5.333 5.333 0 000 10.667zM28 32a5.333 5.333 0 11-10.667 0A5.333 5.333 0 0128 32zm13.333-13.333a5.333 5.333 0 100-10.667 5.333 5.333 0 000 10.667zm5.334 32a5.333 5.333 0 11-10.667 0 5.333 5.333 0 0110.667 0zm-5.334-13.334a5.333 5.333 0 100-10.666 5.333 5.333 0 000 10.666z"}}],
     type: "navigation"
   };
 export const DisplayOptions64 = {

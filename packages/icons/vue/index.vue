@@ -1024,32 +1024,11 @@ export const MIconDisplayMenu24 = GenerateIcon('1.5rem', '0 0 24 24', [
 
 export const MIconDisplayMovingBlock24 = GenerateIcon('1.5rem', '0 0 24 24', [
   [
-    'circle',
-    { attrs: {"cx":4.09,"cy":4,"r":2} },
+    'g',
+    { attrs: {"clip-path":"url(#a)"} },
   ],[
-    'circle',
-    { attrs: {"cx":12.09,"cy":4,"r":2} },
-  ],[
-    'circle',
-    { attrs: {"cx":20.09,"cy":4,"r":2} },
-  ],[
-    'circle',
-    { attrs: {"cx":4.09,"cy":12,"r":2} },
-  ],[
-    'circle',
-    { attrs: {"cx":12.09,"cy":12,"r":2} },
-  ],[
-    'circle',
-    { attrs: {"cx":20.09,"cy":12,"r":2} },
-  ],[
-    'circle',
-    { attrs: {"cx":4.09,"cy":20,"r":2} },
-  ],[
-    'circle',
-    { attrs: {"cx":12.09,"cy":20,"r":2} },
-  ],[
-    'circle',
-    { attrs: {"cx":20.09,"cy":20,"r":2} },
+    'defs',
+    { attrs: {} },
   ]
 ])
 
@@ -3484,32 +3463,11 @@ export const MIconDisplayMenu32 = GenerateIcon('2rem', '0 0 32 32', [
 
 export const MIconDisplayMovingBlock32 = GenerateIcon('2rem', '0 0 32 32', [
   [
-    'circle',
-    { attrs: {"cx":5.5,"cy":5.5,"r":2.5} },
+    'g',
+    { attrs: {"clip-path":"url(#a)"} },
   ],[
-    'circle',
-    { attrs: {"cx":26.5,"cy":5.5,"r":2.5} },
-  ],[
-    'path',
-    { attrs: {"d":"M16 3a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 3z"} },
-  ],[
-    'circle',
-    { attrs: {"cx":5.5,"cy":26.5,"r":2.5} },
-  ],[
-    'circle',
-    { attrs: {"cx":26.5,"cy":26.5,"r":2.5} },
-  ],[
-    'path',
-    { attrs: {"d":"M16 24a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0016 24z"} },
-  ],[
-    'circle',
-    { attrs: {"cx":5.5,"cy":16,"r":2.5} },
-  ],[
-    'circle',
-    { attrs: {"cx":26.5,"cy":16,"r":2.5} },
-  ],[
-    'path',
-    { attrs: {"d":"M16 13.5a2.5 2.5 0 102.5 2.5 2.5 2.5 0 00-2.5-2.5z"} },
+    'defs',
+    { attrs: {} },
   ]
 ])
 
@@ -5959,32 +5917,11 @@ export const MIconDisplayMenu48 = GenerateIcon('3rem', '0 0 48 48', [
 
 export const MIconDisplayMovingBlock48 = GenerateIcon('3rem', '0 0 48 48', [
   [
-    'circle',
-    { attrs: {"cx":8,"cy":8,"r":4} },
+    'g',
+    { attrs: {"clip-path":"url(#a)"} },
   ],[
-    'circle',
-    { attrs: {"cx":24,"cy":8,"r":4} },
-  ],[
-    'circle',
-    { attrs: {"cx":40,"cy":8,"r":4} },
-  ],[
-    'circle',
-    { attrs: {"cx":8,"cy":24,"r":4} },
-  ],[
-    'circle',
-    { attrs: {"cx":24,"cy":24,"r":4} },
-  ],[
-    'circle',
-    { attrs: {"cx":40,"cy":24,"r":4} },
-  ],[
-    'circle',
-    { attrs: {"cx":8,"cy":40,"r":4} },
-  ],[
-    'circle',
-    { attrs: {"cx":24,"cy":40,"r":4} },
-  ],[
-    'circle',
-    { attrs: {"cx":40,"cy":40,"r":4} },
+    'defs',
+    { attrs: {} },
   ]
 ])
 
@@ -8464,32 +8401,8 @@ export const MIconDisplayMenu64 = GenerateIcon('4rem', '0 0 64 64', [
 
 export const MIconDisplayMovingBlock64 = GenerateIcon('4rem', '0 0 64 64', [
   [
-    'circle',
-    { attrs: {"cx":10,"cy":10,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":32,"cy":10,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":54,"cy":10,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":10,"cy":32,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":32,"cy":32,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":54,"cy":32,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":10,"cy":54,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":32,"cy":54,"r":5} },
-  ],[
-    'circle',
-    { attrs: {"cx":54,"cy":54,"r":5} },
+    'path',
+    { attrs: {"fill-rule":"evenodd","d":"M22.667 18.667a5.333 5.333 0 100-10.667 5.333 5.333 0 000 10.667zm0 37.333a5.333 5.333 0 100-10.667 5.333 5.333 0 000 10.667zM28 32a5.333 5.333 0 11-10.667 0A5.333 5.333 0 0128 32zm13.333-13.333a5.333 5.333 0 100-10.667 5.333 5.333 0 000 10.667zm5.334 32a5.333 5.333 0 11-10.667 0 5.333 5.333 0 0110.667 0zm-5.334-13.334a5.333 5.333 0 100-10.666 5.333 5.333 0 000 10.666z"} },
   ]
 ])
 
