@@ -177,7 +177,9 @@ $color-button-bordered-focus-border: #006902 !default;
 $color-button-bordered-disabled-background: #cccccc !default;
 $color-button-bordered-disabled-font: #666666 !default;
 $color-button-bordered-active-background: #c5e39e !default;
+$color-button-bordered-active-font: #035010 !default;
 $color-button-bordered-hover-background: #ebf5de !default;
+$color-button-bordered-hover-font: #006902 !default;
 $color-button-bordered-primary-02-background: #ffffff !default;
 $color-button-bordered-primary-02-border: #6a7081 !default;
 $color-button-bordered-primary-02-font: #6a7081 !default;
@@ -201,7 +203,9 @@ $color-button-bordered-danger-focus-border: #8c0003 !default;
 $color-button-bordered-danger-disabled-background: #cccccc !default;
 $color-button-bordered-danger-disabled-font: #666666 !default;
 $color-button-bordered-danger-active-background: #f8bcbb !default;
+$color-button-bordered-danger-active-font: #530000 !default;
 $color-button-bordered-danger-hover-background: #fdeaea !default;
+$color-button-bordered-danger-hover-font: #8c0003 !default;
 $color-card-bordered-background: #ffffff !default;
 $color-card-bordered-border: #808080 !default;
 $color-dialog-background: #ffffff !default;
@@ -799,10 +803,12 @@ $tokens: (
           'font': $color-button-bordered-disabled-font
         ),
         'active': (
-          'background': $color-button-bordered-active-background
+          'background': $color-button-bordered-active-background,
+          'font': $color-button-bordered-active-font
         ),
         'hover': (
-          'background': $color-button-bordered-hover-background
+          'background': $color-button-bordered-hover-background,
+          'font': $color-button-bordered-hover-font
         )
       ),
       'bordered-primary-02': (
@@ -853,10 +859,12 @@ $tokens: (
           'font': $color-button-bordered-danger-disabled-font
         ),
         'active': (
-          'background': $color-button-bordered-danger-active-background
+          'background': $color-button-bordered-danger-active-background,
+          'font': $color-button-bordered-danger-active-font
         ),
         'hover': (
-          'background': $color-button-bordered-danger-hover-background
+          'background': $color-button-bordered-danger-hover-background,
+          'font': $color-button-bordered-danger-hover-font
         )
       )
     ),
