@@ -1101,6 +1101,14 @@
     {
       "cat": "Media",
       "size": "24px",
+      "name": "Code",
+      "fileName": "Media_Code_24px.svg",
+      "iconName": "Code",
+      "componentName": "Code24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
       "name": "Download_App",
       "fileName": "Media_Download_App_24px.svg",
       "iconName": "DownloadApp",
@@ -1737,6 +1745,14 @@
       "fileName": "Navigation_Publish_Trashbin_24px.svg",
       "iconName": "PublishTrashbin",
       "componentName": "PublishTrashbin24"
+    },
+    {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Split",
+      "fileName": "Navigation_Split_24px.svg",
+      "iconName": "Split",
+      "componentName": "Split24"
     },
     {
       "cat": "Payment",
@@ -3269,6 +3285,14 @@
     {
       "cat": "Media",
       "size": "32px",
+      "name": "Code",
+      "fileName": "Media_Code_32px.svg",
+      "iconName": "Code",
+      "componentName": "Code32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
       "name": "Download_App",
       "fileName": "Media_Download_App_32px.svg",
       "iconName": "DownloadApp",
@@ -3905,6 +3929,14 @@
       "fileName": "Navigation_Publish_Trashbin_32px.svg",
       "iconName": "PublishTrashbin",
       "componentName": "PublishTrashbin32"
+    },
+    {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Split",
+      "fileName": "Navigation_Split_32px.svg",
+      "iconName": "Split",
+      "componentName": "Split32"
     },
     {
       "cat": "Payment",
@@ -5437,6 +5469,14 @@
     {
       "cat": "Media",
       "size": "48px",
+      "name": "Code",
+      "fileName": "Media_Code_48px.svg",
+      "iconName": "Code",
+      "componentName": "Code48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
       "name": "Download_App",
       "fileName": "Media_Download_App_48px.svg",
       "iconName": "DownloadApp",
@@ -6073,6 +6113,14 @@
       "fileName": "Navigation_Publish_Trashbin_48px.svg",
       "iconName": "PublishTrashbin",
       "componentName": "PublishTrashbin48"
+    },
+    {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Split",
+      "fileName": "Navigation_Split_48px.svg",
+      "iconName": "Split",
+      "componentName": "Split48"
     },
     {
       "cat": "Payment",
@@ -7605,6 +7653,14 @@
     {
       "cat": "Media",
       "size": "64px",
+      "name": "Code",
+      "fileName": "Media_Code_64px.svg",
+      "iconName": "Code",
+      "componentName": "Code64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
       "name": "Download_App",
       "fileName": "Media_Download_App_64px.svg",
       "iconName": "DownloadApp",
@@ -8241,6 +8297,14 @@
       "fileName": "Navigation_Publish_Trashbin_64px.svg",
       "iconName": "PublishTrashbin",
       "componentName": "PublishTrashbin64"
+    },
+    {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Split",
+      "fileName": "Navigation_Split_64px.svg",
+      "iconName": "Split",
+      "componentName": "Split64"
     },
     {
       "cat": "Payment",

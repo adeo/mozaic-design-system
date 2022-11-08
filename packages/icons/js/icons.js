@@ -204,7 +204,7 @@ export const Desktop24 = {
 export const Laptop24 = {
     viewBox: "0 0 24 24",
     size: "1.5rem",
-    paths: [{tagName: "path",attrs: {"d":"M21 14h-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v9H3a1 1 0 00-1 1v2.5A2.5 2.5 0 004.5 20h15a2.5 2.5 0 002.5-2.5V15a1 1 0 00-1-1zM6 6h12v8H6zm14 11.5a.5.5 0 01-.5.5h-15a.5.5 0 01-.5-.5V16h3.5a1 1 0 001 1h7a1 1 0 001-1H20z"}}],
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M4 6a2 2 0 012-2h12a2 2 0 012 2v8.5h1a1 1 0 011 1v1a4 4 0 01-4 4H6a4 4 0 01-4-4v-1a1 1 0 011-1h1V6zm2 8.5h12V6H6v8.5zm-2 2a2 2 0 002 2h12a2 2 0 002-2H4zM10.5 7a.5.5 0 000 1h3a.5.5 0 000-1h-3z"}}],
     type: "device"
   };
 export const Mobile24 = {
@@ -361,6 +361,12 @@ export const Camera24 = {
     viewBox: "0 0 24 24",
     size: "1.5rem",
     paths: [{tagName: "path",attrs: {"d":"M12 17a4.5 4.5 0 114.5-4.5A4.51 4.51 0 0112 17zm0-7a2.5 2.5 0 102.5 2.5A2.5 2.5 0 0012 10z"}},{tagName: "path",attrs: {"d":"M15.17 6l1.12 1.12a3 3 0 002.12.88H20v10H4V8h1.59a3 3 0 002.12-.88L8.83 6h6.34m.42-2H8.41a1 1 0 00-.7.29L6.29 5.71a1 1 0 01-.7.29H3a1 1 0 00-1 1v12a1 1 0 001 1h18a1 1 0 001-1V7a1 1 0 00-1-1h-2.59a1 1 0 01-.7-.29l-1.42-1.42a1 1 0 00-.7-.29z"}},{tagName: "path",attrs: {"d":"M6 11a1 1 0 110-2 1 1 0 010 2z"}}],
+    type: "media"
+  };
+export const Code24 = {
+    viewBox: "0 0 24 24",
+    size: "1.5rem",
+    paths: [{tagName: "g",attrs: {"clip-path":"url(#a)"},children: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M14.961 5.274a1 1 0 10-1.922-.549l-4 14a1 1 0 101.922.55l4-14zM6.707 8.293a1 1 0 010 1.414L4.414 12l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm10.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L19.586 12l-2.293-2.293a1 1 0 010-1.414z"}}]},{tagName: "defs",children: [{tagName: "clipPath",attrs: {"id":"a"},children: [{tagName: "path",attrs: {"d":"M0 0h24v24H0z"}}]}]}],
     type: "media"
   };
 export const DownloadApp24 = {
@@ -841,6 +847,12 @@ export const PublishTrashbin24 = {
     viewBox: "0 0 24 24",
     size: "1.5rem",
     paths: [{tagName: "path",attrs: {"d":"M18.08 8a1 1 0 00-1.08.92L16.08 20H7.92L7 8.92a1 1 0 10-2 .16l1 12A1 1 0 007 22h10a1 1 0 001-.92l1-12A1 1 0 0018.08 8zM19 5h-3.77l-.65-2.27a1 1 0 00-1-.73h-3.2a1 1 0 00-1 .73L8.77 5H5a1 1 0 000 2h14a1 1 0 000-2zm-8.62-2h3.24l.57 2H9.81z"}},{tagName: "path",attrs: {"d":"M12.5 18v-8a.5.5 0 00-1 0v8a.5.5 0 001 0zM14.25 18.5a.5.5 0 00.5-.47l.5-8a.5.5 0 00-.47-.53.49.49 0 00-.53.47l-.5 8a.5.5 0 00.47.53zM9.75 18.5a.5.5 0 00.47-.53l-.5-8a.49.49 0 00-.53-.47.5.5 0 00-.47.53l.5 8a.5.5 0 00.53.47z"}}],
+    type: "navigation"
+  };
+export const Split24 = {
+    viewBox: "0 0 24 24",
+    size: "1.5rem",
+    paths: [{tagName: "g",attrs: {"clip-path":"url(#a)"},children: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M5 4a1 1 0 00-1 1v4a1 1 0 002 0V7.414l5 5V19a1 1 0 102 0v-7a1 1 0 00-.293-.707L7.414 6H9a1 1 0 000-2H5zm13 3.414V9a1 1 0 102 0V5a1 1 0 00-1-1h-4a1 1 0 100 2h1.586l-2.793 2.793a1 1 0 001.414 1.414L18 7.414z"}}]},{tagName: "defs",children: [{tagName: "clipPath",attrs: {"id":"a"},children: [{tagName: "path",attrs: {"d":"M0 0h24v24H0z"}}]}]}],
     type: "navigation"
   };
 export const Bill24 = {
@@ -1830,7 +1842,7 @@ export const Desktop32 = {
 export const Laptop32 = {
     viewBox: "0 0 32 32",
     size: "2rem",
-    paths: [{tagName: "path",attrs: {"d":"M27 21V7a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 00-2 2v2a2 2 0 002 2h22a2 2 0 002-2v-2a2 2 0 00-2-2zM7 7h18v14H7zM5 25v-2h22v2z"}}],
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M5.667 7.667a2 2 0 012-2h16.666a2 2 0 012 2v12H28a1 1 0 011 1V23a4 4 0 01-4 4H7a4 4 0 01-4-4v-2.334a1 1 0 011-1h1.667v-12zm2 12h16.666v-12H7.667v12zm-2.667 2V23a2 2 0 002 2h18a2 2 0 002-2v-1.334H5zM14 9.5a.5.5 0 000 1h4a.5.5 0 100-1h-4z"}}],
     type: "device"
   };
 export const Mobile32 = {
@@ -1987,6 +1999,12 @@ export const Camera32 = {
     viewBox: "0 0 32 32",
     size: "2rem",
     paths: [{tagName: "path",attrs: {"d":"M16 23a6 6 0 116-6 6 6 0 01-6 6zm0-10a4 4 0 104 4 4 4 0 00-4-4z"}},{tagName: "path",attrs: {"d":"M20.24 7l1.66 1.48a4 4 0 002.66 1H27V25H5V9.5h2.44a4 4 0 002.66-1L11.76 7h8.48m0-2h-8.48a2 2 0 00-1.33.51L8.77 7a2 2 0 01-1.33.51H5a2 2 0 00-2 2V25a2 2 0 002 2h22a2 2 0 002-2V9.5a2 2 0 00-2-2h-2.44a2 2 0 01-1.33-.5l-1.66-1.49A2 2 0 0020.24 5z"}},{tagName: "path",attrs: {"d":"M8 13a1 1 0 110-2 1 1 0 010 2z"}}],
+    type: "media"
+  };
+export const Code32 = {
+    viewBox: "0 0 32 32",
+    size: "2rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M19.628 6.941a1 1 0 00-1.923-.549l-5.333 18.667a1 1 0 001.923.55L19.628 6.94zm-10.92 4.352a1 1 0 010 1.414L5.413 16l3.293 3.293a1 1 0 11-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0zm14.585 0a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L26.586 16l-3.293-3.293a1 1 0 010-1.414z"}}],
     type: "media"
   };
 export const DownloadApp32 = {
@@ -2467,6 +2485,12 @@ export const PublishTrashbin32 = {
     viewBox: "0 0 32 32",
     size: "2rem",
     paths: [{tagName: "path",attrs: {"d":"M23.56 9.5a1 1 0 00-1.06.94L21.56 27H10.44L9.5 10.44a1 1 0 10-2 .12l.95 16.55a2 2 0 002 1.89h11.11a2 2 0 002-1.89l.95-16.55a1 1 0 00-.95-1.06zM25.5 6h-5.38l-1-2.39a1 1 0 00-.95-.61h-4.34a1 1 0 00-.92.61L11.88 6H6.5a1 1 0 000 2h19a1 1 0 000-2zM13 6l.86-2h4.34l.8 2z"}},{tagName: "path",attrs: {"d":"M16.5 24V13a.5.5 0 00-1 0v11a.5.5 0 001 0zM19.21 24.5a.5.5 0 00.5-.47l.58-11a.51.51 0 00-.48-.53.48.48 0 00-.52.47l-.58 11a.51.51 0 00.48.53zM12.79 24.5a.51.51 0 00.48-.53l-.58-11a.49.49 0 00-.52-.47.51.51 0 00-.48.53l.58 11a.5.5 0 00.52.47z"}}],
+    type: "navigation"
+  };
+export const Split32 = {
+    viewBox: "0 0 32 32",
+    size: "2rem",
+    paths: [{tagName: "g",attrs: {"clip-path":"url(#a)"},children: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M6.667 5.667a1 1 0 00-1 1V12a1 1 0 102 0V9.08L15 16.415v8.92a1 1 0 102 0V16a1 1 0 00-.293-.707L9.081 7.667h2.92a1 1 0 100-2H6.666zM24.333 9.08V12a1 1 0 102 0V6.667a1 1 0 00-1-1H20a1 1 0 100 2h2.92l-4.294 4.292a1 1 0 001.415 1.415l4.292-4.293z"}}]},{tagName: "defs",children: [{tagName: "clipPath",attrs: {"id":"a"},children: [{tagName: "path",attrs: {"d":"M0 0h32v32H0z"}}]}]}],
     type: "navigation"
   };
 export const Bill32 = {
@@ -3456,7 +3480,7 @@ export const Desktop48 = {
 export const Laptop48 = {
     viewBox: "0 0 48 48",
     size: "3rem",
-    paths: [{tagName: "path",attrs: {"d":"M42 32h-1V12a2 2 0 00-2-2H9a2 2 0 00-2 2v20H6a2 2 0 00-2 2v3a4 4 0 004 4h32a4 4 0 004-4v-3a2 2 0 00-2-2zM10 13h28v19H10zm31 24a1 1 0 01-1 1H8a1 1 0 01-1-1v-2h34z"}}],
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M11.5 29.5h25v-18h-25v18zm28 0V11A2.5 2.5 0 0037 8.5H11A2.5 2.5 0 008.5 11v18.5H6A1.5 1.5 0 004.5 31v4a5.5 5.5 0 005.5 5.5h28a5.5 5.5 0 005.5-5.5v-4a1.5 1.5 0 00-1.5-1.5h-2.5zm1 3h-33V35a2.5 2.5 0 002.5 2.5h28a2.5 2.5 0 002.5-2.5v-2.5zM21 14a1 1 0 100 2h6a1 1 0 100-2h-6z"}}],
     type: "device"
   };
 export const Mobile48 = {
@@ -3613,6 +3637,12 @@ export const Camera48 = {
     viewBox: "0 0 48 48",
     size: "3rem",
     paths: [{tagName: "path",attrs: {"d":"M24 35a9 9 0 119-9 9 9 0 01-9 9zm0-15a6 6 0 106 6 6 6 0 00-6-6z"}},{tagName: "circle",attrs: {"cx":12,"cy":19,"r":2}},{tagName: "path",attrs: {"d":"M30.76 10l2.53 2.54A5 5 0 0036.83 14H41v24H7V14h4.17a5 5 0 003.54-1.46L17.24 10h13.52m.41-3H16.83a2 2 0 00-1.42.59l-2.82 2.82a2 2 0 01-1.42.59H6a2 2 0 00-2 2v26a2 2 0 002 2h36a2 2 0 002-2V13a2 2 0 00-2-2h-5.17a2 2 0 01-1.42-.59l-2.82-2.82A2 2 0 0031.17 7z"}}],
+    type: "media"
+  };
+export const Code48 = {
+    viewBox: "0 0 48 48",
+    size: "3rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M29.442 10.412a1.5 1.5 0 00-2.884-.824l-8 28a1.5 1.5 0 002.884.824l8-28zm-16.381 6.527a1.5 1.5 0 010 2.122L8.12 24l4.94 4.94a1.5 1.5 0 01-2.122 2.12l-6-6a1.5 1.5 0 010-2.12l6-6a1.5 1.5 0 012.122 0zm21.878 0a1.5 1.5 0 012.122 0l6 6a1.5 1.5 0 010 2.122l-6 6a1.5 1.5 0 01-2.122-2.122L39.88 24l-4.94-4.938a1.5 1.5 0 010-2.122z"}}],
     type: "media"
   };
 export const DownloadApp48 = {
@@ -4093,6 +4123,12 @@ export const PublishTrashbin48 = {
     viewBox: "0 0 48 48",
     size: "3rem",
     paths: [{tagName: "path",attrs: {"d":"M35 44H13a1.5 1.5 0 01-1.5-1.44l-1-26.5a1.5 1.5 0 113-.12L14.44 41h19.12l.94-25.06a1.5 1.5 0 013 .12l-1 26.5A1.5 1.5 0 0135 44z"}},{tagName: "path",attrs: {"d":"M24 37a1 1 0 01-1-1V20a1 1 0 012 0v16a1 1 0 01-1 1zM29 37a1 1 0 01-1-1l.5-16a1 1 0 011-1 1 1 0 011 1L30 36a1 1 0 01-1 1zM19 37a1 1 0 01-1-1l-.5-16a1 1 0 011-1 1 1 0 011 1l.5 16a1 1 0 01-1 1zM38.5 9h-7.82l-1.75-4.37A1 1 0 0028 4h-8a1 1 0 00-.93.63L17.32 9H9.5a1.5 1.5 0 000 3h29a1.5 1.5 0 000-3zM20.68 6h6.64l1.2 3h-9z"}}],
+    type: "navigation"
+  };
+export const Split48 = {
+    viewBox: "0 0 48 48",
+    size: "3rem",
+    paths: [{tagName: "g",attrs: {"clip-path":"url(#a)"},children: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M10 8.5A1.5 1.5 0 008.5 10v8a1.5 1.5 0 003 0v-4.379l11 11V38a1.5 1.5 0 003 0V24a1.5 1.5 0 00-.44-1.06L13.622 11.5H18a1.5 1.5 0 000-3h-8zm26.5 5.121V18a1.5 1.5 0 003 0v-8A1.5 1.5 0 0038 8.5h-8a1.5 1.5 0 000 3h4.379l-6.44 6.44a1.5 1.5 0 002.122 2.12l6.439-6.439z"}}]},{tagName: "defs",children: [{tagName: "clipPath",attrs: {"id":"a"},children: [{tagName: "path",attrs: {"d":"M0 0h48v48H0z"}}]}]}],
     type: "navigation"
   };
 export const Bill48 = {
@@ -5082,7 +5118,7 @@ export const Desktop64 = {
 export const Laptop64 = {
     viewBox: "0 0 64 64",
     size: "4rem",
-    paths: [{tagName: "path",attrs: {"d":"M57 40h-2V11a2 2 0 00-2-2H11a2 2 0 00-2 2v29H7a2 2 0 00-2 2v3.5a5.51 5.51 0 005.5 5.5h43a5.51 5.51 0 005.5-5.5V42a2 2 0 00-2-2zm-5-28v2H12v-2zm-40 4h40v24H12zm44 29.5a2.5 2.5 0 01-2.5 2.5h-43A2.5 2.5 0 018 45.5V43h13.55A4 4 0 0025 45h14a4 4 0 003.45-2H56z"}}],
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M14.833 39.834h34.334v-25H14.833v25zm37.334 0v-25.5a2.5 2.5 0 00-2.5-2.5H14.333a2.5 2.5 0 00-2.5 2.5v25.5H8a1.5 1.5 0 00-1.5 1.5V46a7.5 7.5 0 007.5 7.5h36a7.5 7.5 0 007.5-7.5v-4.666a1.5 1.5 0 00-1.5-1.5h-3.833zm2.333 3h-45V46a4.5 4.5 0 004.5 4.5h36a4.5 4.5 0 004.5-4.5v-3.166zM28 19a1 1 0 100 2h8a1 1 0 000-2h-8z"}}],
     type: "device"
   };
 export const Mobile64 = {
@@ -5239,6 +5275,12 @@ export const Camera64 = {
     viewBox: "0 0 64 64",
     size: "4rem",
     paths: [{tagName: "path",attrs: {"d":"M57 15h-7.86a2.51 2.51 0 01-2.08-1.11l-2.66-4A2 2 0 0042.73 9H21.27a2 2 0 00-1.67.89l-2.66 4A2.51 2.51 0 0114.86 15H7a2 2 0 00-2 2v40a2 2 0 002 2h50a2 2 0 002-2V17a2 2 0 00-2-2zm-1 41H8V18h6.86a5.52 5.52 0 004.58-2.45L21.8 12h20.4l2.36 3.55A5.52 5.52 0 0049.14 18H56z"}},{tagName: "path",attrs: {"d":"M32 23.5A13.5 13.5 0 1045.5 37 13.52 13.52 0 0032 23.5zm0 24A10.5 10.5 0 1142.5 37 10.51 10.51 0 0132 47.5z"}},{tagName: "circle",attrs: {"cx":15.5,"cy":23.5,"r":2.5}}],
+    type: "media"
+  };
+export const Code64 = {
+    viewBox: "0 0 64 64",
+    size: "4rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M38.776 13.745a1.5 1.5 0 10-2.885-.824L25.224 50.255a1.5 1.5 0 102.885.824l10.667-37.334zM17.06 22.94a1.5 1.5 0 010 2.122L10.12 32l6.94 6.938a1.5 1.5 0 01-2.122 2.122l-8-8a1.5 1.5 0 010-2.122l8-8a1.5 1.5 0 012.122 0zm29.878 0a1.5 1.5 0 012.122 0l8 8a1.5 1.5 0 010 2.122l-8 8a1.5 1.5 0 01-2.122-2.122L53.88 32l-6.94-6.94a1.5 1.5 0 010-2.12z"}}],
     type: "media"
   };
 export const DownloadApp64 = {
@@ -5719,6 +5761,12 @@ export const PublishTrashbin64 = {
     viewBox: "0 0 64 64",
     size: "4rem",
     paths: [{tagName: "path",attrs: {"d":"M49.13 21a1.49 1.49 0 00-1.62 1.36L44.62 56H19.38l-2.89-33.63a1.5 1.5 0 00-3 .26l3 34.54a2 2 0 002 1.83h27.05a2 2 0 002-1.83l3-34.54A1.49 1.49 0 0049.13 21zM51.5 13h-9L40 6.3A2 2 0 0038.15 5h-12.3A2 2 0 0024 6.3L21.46 13h-9a1.5 1.5 0 000 3h39a1.5 1.5 0 000-3zm-25-5h10.96l1.88 5H24.66z"}},{tagName: "path",attrs: {"d":"M33.5 48V26a1.5 1.5 0 00-3 0v22a1.5 1.5 0 003 0zM39 49.5a1.5 1.5 0 001.5-1.43l1-22a1.5 1.5 0 10-3-.14l-1 22a1.5 1.5 0 001.43 1.57zM25 49.5h.07a1.5 1.5 0 001.43-1.57l-1-22a1.5 1.5 0 10-3 .14l1 22A1.5 1.5 0 0025 49.5z"}}],
+    type: "navigation"
+  };
+export const Split64 = {
+    viewBox: "0 0 64 64",
+    size: "4rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M13.333 11.834a1.5 1.5 0 00-1.5 1.5V24a1.5 1.5 0 103 0v-7.045L30.5 32.62v18.046a1.5 1.5 0 103 0V32a1.5 1.5 0 00-.44-1.06L16.956 14.832H24a1.5 1.5 0 000-3H13.333zm35.834 5.12V24a1.5 1.5 0 003 0V13.334a1.5 1.5 0 00-1.5-1.5H40a1.5 1.5 0 000 3h7.045l-9.44 9.439a1.5 1.5 0 002.122 2.121l9.44-9.44z"}}],
     type: "navigation"
   };
 export const Bill64 = {
