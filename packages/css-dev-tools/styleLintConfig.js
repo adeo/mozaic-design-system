@@ -40,6 +40,7 @@ module.exports = {
     'alpha-value-notation': null,
     'selector-class-pattern': null,
     'selector-id-pattern': null,
+    'no-invalid-position-at-import-rule': null,
     'selector-not-notation': 'simple',
     // rules from stylelint-scss
     'scss/no-global-function-names': null,
