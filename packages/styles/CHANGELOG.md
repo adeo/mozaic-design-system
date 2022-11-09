@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.47.0](https://github.com/adeo/mozaic-design-system/compare/v1.46.0...v1.47.0) (2022-11-09)
+
+
+### Features
+
+* **components/button:** improve colour a11y ([#1245](https://github.com/adeo/mozaic-design-system/issues/1245)) ([4b3ab67](https://github.com/adeo/mozaic-design-system/commit/4b3ab67fce1816219333e9db7420c1d0de909a59))
+* **foundations/spacing:** add utility classes for vertical and horizontal spaces ([#1248](https://github.com/adeo/mozaic-design-system/issues/1248)) ([b55508e](https://github.com/adeo/mozaic-design-system/commit/b55508e516d8fa718c5b1d7117ab1d08c3b5db15))
+
+
+
+
+
 # [1.46.0](https://github.com/adeo/mozaic-design-system/compare/v1.45.1...v1.46.0) (2022-11-02)
 
 

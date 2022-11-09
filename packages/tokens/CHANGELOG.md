@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.47.0](https://github.com/adeo/mozaic-design-system/compare/v1.46.0...v1.47.0) (2022-11-09)
+
+
+### Bug Fixes
+
+* **components/tabs:** update adeo colour values ([#1246](https://github.com/adeo/mozaic-design-system/issues/1246)) ([ea4e577](https://github.com/adeo/mozaic-design-system/commit/ea4e5772460ec89916af29c0f24896b5b58270f4))
+
+
+### Features
+
+* **components/button:** improve colour a11y ([#1245](https://github.com/adeo/mozaic-design-system/issues/1245)) ([4b3ab67](https://github.com/adeo/mozaic-design-system/commit/4b3ab67fce1816219333e9db7420c1d0de909a59))
+
+
+
+
+
 # [1.44.0](https://github.com/adeo/mozaic-design-system/compare/v1.43.1...v1.44.0) (2022-10-12)
 
 
