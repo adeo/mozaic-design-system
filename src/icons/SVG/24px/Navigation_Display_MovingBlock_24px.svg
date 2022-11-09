@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;}.cls-2{fill:#999;}</style></defs><title>Navigation_Display_MovingBlock_24px</title><g id="Square"><rect class="cls-1" width="24" height="24"/></g><g id="Icon"><circle class="cls-2" cx="4.09" cy="4" r="2"/><circle class="cls-2" cx="12.09" cy="4" r="2"/><circle class="cls-2" cx="20.09" cy="4" r="2"/><circle class="cls-2" cx="4.09" cy="12" r="2"/><circle class="cls-2" cx="12.09" cy="12" r="2"/><circle class="cls-2" cx="20.09" cy="12" r="2"/><circle class="cls-2" cx="4.09" cy="20" r="2"/><circle class="cls-2" cx="12.09" cy="20" r="2"/><circle class="cls-2" cx="20.09" cy="20" r="2"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <g id="Square"> </g>
+  <g clip-path="url(#a)">
+    <path fill-rule="evenodd" d="M8.5 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm2-9a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm5-5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm2 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-2-5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <rect width="24" height="24" fill="#fff"/>
+    </clipPath>
+  </defs>
+</svg>

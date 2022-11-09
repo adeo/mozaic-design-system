@@ -1043,6 +1043,46 @@
       "componentName": "UniverseEssentialProduct24"
     },
     {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_24px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_24px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_24px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_24px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_24px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal24"
+    },
+    {
       "cat": "Media",
       "size": "24px",
       "name": "BookStore",
@@ -1057,6 +1097,14 @@
       "fileName": "Media_Camera_24px.svg",
       "iconName": "Camera",
       "componentName": "Camera24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
+      "name": "Code",
+      "fileName": "Media_Code_24px.svg",
+      "iconName": "Code",
+      "componentName": "Code24"
     },
     {
       "cat": "Media",
@@ -1699,6 +1747,14 @@
       "componentName": "PublishTrashbin24"
     },
     {
+      "cat": "Navigation",
+      "size": "24px",
+      "name": "Split",
+      "fileName": "Navigation_Split_24px.svg",
+      "iconName": "Split",
+      "componentName": "Split24"
+    },
+    {
       "cat": "Payment",
       "size": "24px",
       "name": "Bill",
@@ -2169,6 +2225,14 @@
       "fileName": "Service_Delivery_Delivery--Locker_24px.svg",
       "iconName": "DeliveryDeliveryLocker",
       "componentName": "DeliveryDeliveryLocker24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_24px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet24"
     },
     {
       "cat": "Service",
@@ -3163,6 +3227,46 @@
       "componentName": "UniverseEssentialProduct32"
     },
     {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_32px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_32px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_32px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_32px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_32px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal32"
+    },
+    {
       "cat": "Media",
       "size": "32px",
       "name": "BookStore",
@@ -3177,6 +3281,14 @@
       "fileName": "Media_Camera_32px.svg",
       "iconName": "Camera",
       "componentName": "Camera32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Code",
+      "fileName": "Media_Code_32px.svg",
+      "iconName": "Code",
+      "componentName": "Code32"
     },
     {
       "cat": "Media",
@@ -3819,6 +3931,14 @@
       "componentName": "PublishTrashbin32"
     },
     {
+      "cat": "Navigation",
+      "size": "32px",
+      "name": "Split",
+      "fileName": "Navigation_Split_32px.svg",
+      "iconName": "Split",
+      "componentName": "Split32"
+    },
+    {
       "cat": "Payment",
       "size": "32px",
       "name": "Bill",
@@ -4289,6 +4409,14 @@
       "fileName": "Service_Delivery_Delivery--Locker_32px.svg",
       "iconName": "DeliveryDeliveryLocker",
       "componentName": "DeliveryDeliveryLocker32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_32px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet32"
     },
     {
       "cat": "Service",
@@ -5283,6 +5411,46 @@
       "componentName": "UniverseEssentialProduct48"
     },
     {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_48px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_48px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_48px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_48px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_48px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal48"
+    },
+    {
       "cat": "Media",
       "size": "48px",
       "name": "BookStore",
@@ -5297,6 +5465,14 @@
       "fileName": "Media_Camera_48px.svg",
       "iconName": "Camera",
       "componentName": "Camera48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Code",
+      "fileName": "Media_Code_48px.svg",
+      "iconName": "Code",
+      "componentName": "Code48"
     },
     {
       "cat": "Media",
@@ -5939,6 +6115,14 @@
       "componentName": "PublishTrashbin48"
     },
     {
+      "cat": "Navigation",
+      "size": "48px",
+      "name": "Split",
+      "fileName": "Navigation_Split_48px.svg",
+      "iconName": "Split",
+      "componentName": "Split48"
+    },
+    {
       "cat": "Payment",
       "size": "48px",
       "name": "Bill",
@@ -6409,6 +6593,14 @@
       "fileName": "Service_Delivery_Delivery--Locker_48px.svg",
       "iconName": "DeliveryDeliveryLocker",
       "componentName": "DeliveryDeliveryLocker48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_48px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet48"
     },
     {
       "cat": "Service",
@@ -7403,6 +7595,46 @@
       "componentName": "UniverseEssentialProduct64"
     },
     {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Bizum",
+      "fileName": "Logotypes_Payment_Bizum_64px.svg",
+      "iconName": "PaymentBizum",
+      "componentName": "PaymentBizum64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Fintecture",
+      "fileName": "Logotypes_Payment_Fintecture_64px.svg",
+      "iconName": "PaymentFintecture",
+      "componentName": "PaymentFintecture64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney--3x",
+      "fileName": "Logotypes_Payment_Oney--3x_64px.svg",
+      "iconName": "PaymentOney3x",
+      "componentName": "PaymentOney3x64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney--3x4x",
+      "fileName": "Logotypes_Payment_Oney--3x4x_64px.svg",
+      "iconName": "PaymentOney3x4x",
+      "componentName": "PaymentOney3x4x64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_PayPal",
+      "fileName": "Logotypes_Payment_PayPal_64px.svg",
+      "iconName": "PaymentPayPal",
+      "componentName": "PaymentPayPal64"
+    },
+    {
       "cat": "Media",
       "size": "64px",
       "name": "BookStore",
@@ -7417,6 +7649,14 @@
       "fileName": "Media_Camera_64px.svg",
       "iconName": "Camera",
       "componentName": "Camera64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Code",
+      "fileName": "Media_Code_64px.svg",
+      "iconName": "Code",
+      "componentName": "Code64"
     },
     {
       "cat": "Media",
@@ -8059,6 +8299,14 @@
       "componentName": "PublishTrashbin64"
     },
     {
+      "cat": "Navigation",
+      "size": "64px",
+      "name": "Split",
+      "fileName": "Navigation_Split_64px.svg",
+      "iconName": "Split",
+      "componentName": "Split64"
+    },
+    {
       "cat": "Payment",
       "size": "64px",
       "name": "Bill",
@@ -8529,6 +8777,14 @@
       "fileName": "Service_Delivery_Delivery--Locker_64px.svg",
       "iconName": "DeliveryDeliveryLocker",
       "componentName": "DeliveryDeliveryLocker64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
+      "name": "Pallet",
+      "fileName": "Service_Pallet_64px.svg",
+      "iconName": "Pallet",
+      "componentName": "Pallet64"
     },
     {
       "cat": "Service",

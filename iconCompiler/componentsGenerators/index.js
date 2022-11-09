@@ -107,7 +107,10 @@ const generateIconComponent = (framework, icons) =>
         config.outputPaths[framework],
         transpilers[framework].file
       )
-
+      if (framework === 'react') {
+        data = data.replace("import React from'react';", '')
+        data = "import React from 'react';".concat('\n', data)
+      }
       fs.writeFile(writePath, data, 'utf8', (err) => {
         if (err) rej(err)
         res(true)
