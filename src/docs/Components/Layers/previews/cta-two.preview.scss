@@ -1,3 +1,4 @@
+@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
 html {
@@ -16,8 +17,7 @@ $background-color-content: #eeeef0;
 }
 
 .mc-layer__content {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       90deg,
       $background-color-content,
       $background-color-content
