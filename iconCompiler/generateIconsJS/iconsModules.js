@@ -79,8 +79,20 @@ const iconModule = ({ fileName, data }) => {
   };`
 }
 
-const iconsModules = (iconList) => `${fileHeader}
+// const iconsModules = (iconList) => `${fileHeader}
 
-${iconList.map(iconModule).join('\n')}`
+// ${iconList.map(iconModule).join('\n')}`
+
+const iconsModules = (icons) => {
+  const iconList = Array.isArray(icons)
+  if (iconList) {
+    return `
+      ${fileHeader}
+      ${icons.map(iconModule).join('\n')}
+    `
+  } else {
+    return iconModule(icons)
+  }
+}
 
 module.exports = iconsModules

@@ -29,11 +29,9 @@ import ViewLikePositive16 from './icons/ViewLikePositive16.js';
 import ViewStarEmpty16 from './icons/ViewStarEmpty16.js';
 import ViewStarFull16 from './icons/ViewStarFull16.js';
 import ViewStarHalf16 from './icons/ViewStarHalf16.js';
-import Locator16 from './icons/Locator16.js';
 import Desktop24 from './icons/Desktop24.js';
 import Laptop24 from './icons/Laptop24.js';
 import Mobile24 from './icons/Mobile24.js';
-import Tablet24 from './icons/Tablet24.js';
 import HygieneCleaned24 from './icons/HygieneCleaned24.js';
 import HygieneDanger24 from './icons/HygieneDanger24.js';
 import HygieneDistance24 from './icons/HygieneDistance24.js';
@@ -45,8 +43,8 @@ import PaymentCheckout24 from './icons/PaymentCheckout24.js';
 import PaymentNoContact24 from './icons/PaymentNoContact24.js';
 import ServicePurchaseHelpCarOpenBoot24 from './icons/ServicePurchaseHelpCarOpenBoot24.js';
 import ServicePurchaseHelpCarStandInLine24 from './icons/ServicePurchaseHelpCarStandInLine24.js';
-import ServicePurchaseHelpLoading24 from './icons/ServicePurchaseHelpLoading24.js';
 import ServicePurchaseHelpCarStayInside24 from './icons/ServicePurchaseHelpCarStayInside24.js';
+import ServicePurchaseHelpLoading24 from './icons/ServicePurchaseHelpLoading24.js';
 import ServicePurchaseHelpNoCarRent24 from './icons/ServicePurchaseHelpNoCarRent24.js';
 import ServicePurchaseHelpRequest24 from './icons/ServicePurchaseHelpRequest24.js';
 import ServicePurchaseHelpTruck24 from './icons/ServicePurchaseHelpTruck24.js';
@@ -56,7 +54,7 @@ import PaymentMonochromeFintecture24 from './icons/PaymentMonochromeFintecture24
 import PaymentMonochromeOney3x24 from './icons/PaymentMonochromeOney3x24.js';
 import PaymentMonochromeOney3x4x24 from './icons/PaymentMonochromeOney3x4x24.js';
 import PaymentMonochromePayPal24 from './icons/PaymentMonochromePayPal24.js';
-import BookStore24 from './icons/BookStore24.js';
+import Locator16 from './icons/Locator16.js';
 import Camera24 from './icons/Camera24.js';
 import Code24 from './icons/Code24.js';
 import DownloadApp24 from './icons/DownloadApp24.js';
@@ -91,8 +89,8 @@ import ArrowDown24 from './icons/ArrowDown24.js';
 import ArrowNext24 from './icons/ArrowNext24.js';
 import ArrowUp24 from './icons/ArrowUp24.js';
 import ControlCircleCross24 from './icons/ControlCircleCross24.js';
-import ControlCircleMore24 from './icons/ControlCircleMore24.js';
 import ControlCircleLess24 from './icons/ControlCircleLess24.js';
+import ControlCircleMore24 from './icons/ControlCircleMore24.js';
 import ControlCross24 from './icons/ControlCross24.js';
 import ControlLess24 from './icons/ControlLess24.js';
 import ControlMore24 from './icons/ControlMore24.js';
@@ -124,6 +122,8 @@ import DisplaySearch24 from './icons/DisplaySearch24.js';
 import DisplaySearchList24 from './icons/DisplaySearchList24.js';
 import DisplaySearchProduct24 from './icons/DisplaySearchProduct24.js';
 import DisplaySetting24 from './icons/DisplaySetting24.js';
+import Tablet24 from './icons/Tablet24.js';
+import BookStore24 from './icons/BookStore24.js';
 import DisplayView24 from './icons/DisplayView24.js';
 import DisplayVocalSearch24 from './icons/DisplayVocalSearch24.js';
 import NotificationAvailable24 from './icons/NotificationAvailable24.js';
@@ -149,7 +149,6 @@ import CardsMonochromeIllicado24 from './icons/CardsMonochromeIllicado24.js';
 import CardsMonochromeLoyalty24 from './icons/CardsMonochromeLoyalty24.js';
 import CardsMonochromeMaestro24 from './icons/CardsMonochromeMaestro24.js';
 import CardsMonochromeMastercard24 from './icons/CardsMonochromeMastercard24.js';
-import CardsMonochromeOney24 from './icons/CardsMonochromeOney24.js';
 import CardsMonochromeOneyX324 from './icons/CardsMonochromeOneyX324.js';
 import CardsMonochromeOneyX424 from './icons/CardsMonochromeOneyX424.js';
 import CardsMonochromePaylib24 from './icons/CardsMonochromePaylib24.js';
@@ -157,6 +156,7 @@ import CardsMonochromePaypal24 from './icons/CardsMonochromePaypal24.js';
 import CardsMonochromeVisa24 from './icons/CardsMonochromeVisa24.js';
 import DetailsOrder24 from './icons/DetailsOrder24.js';
 import Euro24 from './icons/Euro24.js';
+import CardsMonochromeOney24 from './icons/CardsMonochromeOney24.js';
 import Receipt24 from './icons/Receipt24.js';
 import SafePayment124 from './icons/SafePayment124.js';
 import SafePayment224 from './icons/SafePayment224.js';
@@ -181,8 +181,8 @@ import PromiseMadeInFrance24 from './icons/PromiseMadeInFrance24.js';
 import PromiseModular24 from './icons/PromiseModular24.js';
 import PromiseProductOnPicture24 from './icons/PromiseProductOnPicture24.js';
 import PromiseProductSheet24 from './icons/PromiseProductSheet24.js';
-import PromiseWarranty24 from './icons/PromiseWarranty24.js';
 import PromiseScan24 from './icons/PromiseScan24.js';
+import PromiseWarranty24 from './icons/PromiseWarranty24.js';
 import DescribeProject24 from './icons/DescribeProject24.js';
 import Inspiration24 from './icons/Inspiration24.js';
 import MakeProject24 from './icons/MakeProject24.js';
@@ -197,23 +197,23 @@ import CustomSample24 from './icons/CustomSample24.js';
 import CustomSharpening24 from './icons/CustomSharpening24.js';
 import DeliveryDeliveryPickupRelayPoint24 from './icons/DeliveryDeliveryPickupRelayPoint24.js';
 import DeliveryDeliveryPickupStore24 from './icons/DeliveryDeliveryPickupStore24.js';
-import DeliveryDeliveryHome24 from './icons/DeliveryDeliveryHome24.js';
 import DeliveryDeliveryLocker24 from './icons/DeliveryDeliveryLocker24.js';
+import DeliveryDeliveryHome24 from './icons/DeliveryDeliveryHome24.js';
 import Pallet24 from './icons/Pallet24.js';
 import PurchaseHelpCarRent24 from './icons/PurchaseHelpCarRent24.js';
 import PurchaseHelpHomeDIY24 from './icons/PurchaseHelpHomeDIY24.js';
-import PurchaseHelpHomeInstall24 from './icons/PurchaseHelpHomeInstall24.js';
 import PurchaseHelpToolRent24 from './icons/PurchaseHelpToolRent24.js';
+import PurchaseHelpHomeInstall24 from './icons/PurchaseHelpHomeInstall24.js';
 import TimeDelivery2h24 from './icons/TimeDelivery2h24.js';
 import TimeDelivery3h24 from './icons/TimeDelivery3h24.js';
 import TimeDelivery48h24 from './icons/TimeDelivery48h24.js';
 import TimeTimeDecline24 from './icons/TimeTimeDecline24.js';
 import Tools3d24 from './icons/Tools3d24.js';
 import ToolsCalculator24 from './icons/ToolsCalculator24.js';
-import ToolsComparator24 from './icons/ToolsComparator24.js';
 import CommentComment24 from './icons/CommentComment24.js';
-import CommentCommunity24 from './icons/CommentCommunity24.js';
+import ToolsComparator24 from './icons/ToolsComparator24.js';
 import CommentQuestionArticle24 from './icons/CommentQuestionArticle24.js';
+import CommentCommunity24 from './icons/CommentCommunity24.js';
 import CommentReport24 from './icons/CommentReport24.js';
 import ShareShareAndroid24 from './icons/ShareShareAndroid24.js';
 import ShareShareIOS24 from './icons/ShareShareIOS24.js';
@@ -235,10 +235,10 @@ import Logo24 from './icons/Logo24.js';
 import Map24 from './icons/Map24.js';
 import MonochromeRelayLocation24 from './icons/MonochromeRelayLocation24.js';
 import MonochromeStoreLocation24 from './icons/MonochromeStoreLocation24.js';
-import StoreLM24 from './icons/StoreLM24.js';
 import Attic24 from './icons/Attic24.js';
-import Bathroom24 from './icons/Bathroom24.js';
+import StoreLM24 from './icons/StoreLM24.js';
 import Bedroom24 from './icons/Bedroom24.js';
+import Bathroom24 from './icons/Bathroom24.js';
 import Carpentry24 from './icons/Carpentry24.js';
 import ChristmasTree24 from './icons/ChristmasTree24.js';
 import ConnectedHome24 from './icons/ConnectedHome24.js';
@@ -254,8 +254,8 @@ import Glass24 from './icons/Glass24.js';
 import HardwareStore24 from './icons/HardwareStore24.js';
 import Heater24 from './icons/Heater24.js';
 import Kids24 from './icons/Kids24.js';
-import Kitchen24 from './icons/Kitchen24.js';
 import Kitchen224 from './icons/Kitchen224.js';
+import Kitchen24 from './icons/Kitchen24.js';
 import Leak24 from './icons/Leak24.js';
 import Lighting24 from './icons/Lighting24.js';
 import Living24 from './icons/Living24.js';
@@ -274,8 +274,8 @@ import AccountProfileView24 from './icons/AccountProfileView24.js';
 import AccountProfileWoman24 from './icons/AccountProfileWoman24.js';
 import CardFunding24 from './icons/CardFunding24.js';
 import CardGift24 from './icons/CardGift24.js';
-import CardIDCard24 from './icons/CardIDCard24.js';
 import CardLoyaltyCard24 from './icons/CardLoyaltyCard24.js';
+import CardIDCard24 from './icons/CardIDCard24.js';
 import ContactMail24 from './icons/ContactMail24.js';
 import ContactPhone24 from './icons/ContactPhone24.js';
 import ContactWebsite24 from './icons/ContactWebsite24.js';
@@ -300,8 +300,8 @@ import Pipe24 from './icons/Pipe24.js';
 import Premium24 from './icons/Premium24.js';
 import Shutter24 from './icons/Shutter24.js';
 import Survey24 from './icons/Survey24.js';
-import Temperature24 from './icons/Temperature24.js';
 import ThermalControl24 from './icons/ThermalControl24.js';
+import Temperature24 from './icons/Temperature24.js';
 import ToolBox24 from './icons/ToolBox24.js';
 import Desktop32 from './icons/Desktop32.js';
 import Laptop32 from './icons/Laptop32.js';
@@ -323,10 +323,10 @@ import ServicePurchaseHelpLoading32 from './icons/ServicePurchaseHelpLoading32.j
 import ServicePurchaseHelpNoCarRent32 from './icons/ServicePurchaseHelpNoCarRent32.js';
 import ServicePurchaseHelpRequest32 from './icons/ServicePurchaseHelpRequest32.js';
 import ServicePurchaseHelpTruck32 from './icons/ServicePurchaseHelpTruck32.js';
-import UniverseEssentialProduct32 from './icons/UniverseEssentialProduct32.js';
 import PaymentMonochromeBizum32 from './icons/PaymentMonochromeBizum32.js';
-import PaymentMonochromeFintecture32 from './icons/PaymentMonochromeFintecture32.js';
+import UniverseEssentialProduct32 from './icons/UniverseEssentialProduct32.js';
 import PaymentMonochromeOney3x32 from './icons/PaymentMonochromeOney3x32.js';
+import PaymentMonochromeFintecture32 from './icons/PaymentMonochromeFintecture32.js';
 import PaymentMonochromeOney3x4x32 from './icons/PaymentMonochromeOney3x4x32.js';
 import PaymentMonochromePayPal32 from './icons/PaymentMonochromePayPal32.js';
 import BookStore32 from './icons/BookStore32.js';
@@ -339,12 +339,12 @@ import NoPicture32 from './icons/NoPicture32.js';
 import Pdf32 from './icons/Pdf32.js';
 import Play32 from './icons/Play32.js';
 import Player32 from './icons/Player32.js';
-import Print32 from './icons/Print32.js';
 import Project32 from './icons/Project32.js';
-import Read32 from './icons/Read32.js';
+import Print32 from './icons/Print32.js';
 import ReduceScreen32 from './icons/ReduceScreen32.js';
-import Slideshow32 from './icons/Slideshow32.js';
+import Read32 from './icons/Read32.js';
 import Sound32 from './icons/Sound32.js';
+import Slideshow32 from './icons/Slideshow32.js';
 import Stop32 from './icons/Stop32.js';
 import TimeRead32 from './icons/TimeRead32.js';
 import Upload32 from './icons/Upload32.js';
@@ -366,17 +366,17 @@ import ArrowUp32 from './icons/ArrowUp32.js';
 import ControlCircleCross32 from './icons/ControlCircleCross32.js';
 import ControlCircleLess32 from './icons/ControlCircleLess32.js';
 import ControlCircleMore32 from './icons/ControlCircleMore32.js';
-import ControlCross32 from './icons/ControlCross32.js';
 import ControlLess32 from './icons/ControlLess32.js';
-import ControlMore32 from './icons/ControlMore32.js';
+import ControlCross32 from './icons/ControlCross32.js';
 import ControlTagCross32 from './icons/ControlTagCross32.js';
+import ControlMore32 from './icons/ControlMore32.js';
 import DisplayBlink32 from './icons/DisplayBlink32.js';
 import DisplayCalendar32 from './icons/DisplayCalendar32.js';
 import DisplayConnect32 from './icons/DisplayConnect32.js';
-import DisplayDisplayFullFilled32 from './icons/DisplayDisplayFullFilled32.js';
 import DisplayDisplayFullOutline32 from './icons/DisplayDisplayFullOutline32.js';
-import DisplayDisplayListFilled32 from './icons/DisplayDisplayListFilled32.js';
+import DisplayDisplayFullFilled32 from './icons/DisplayDisplayFullFilled32.js';
 import DisplayDisplayListOutline32 from './icons/DisplayDisplayListOutline32.js';
+import DisplayDisplayListFilled32 from './icons/DisplayDisplayListFilled32.js';
 import DisplayDisplayMobileHorizontal32 from './icons/DisplayDisplayMobileHorizontal32.js';
 import DisplayDisplayMobileVertical32 from './icons/DisplayDisplayMobileVertical32.js';
 import DisplayDisplayProductX4Filled32 from './icons/DisplayDisplayProductX4Filled32.js';
@@ -386,8 +386,8 @@ import DisplayExternalLink32 from './icons/DisplayExternalLink32.js';
 import DisplayFilter32 from './icons/DisplayFilter32.js';
 import DisplayHome32 from './icons/DisplayHome32.js';
 import DisplayLogOut32 from './icons/DisplayLogOut32.js';
-import DisplayMenu32 from './icons/DisplayMenu32.js';
 import DisplayMovingBlock32 from './icons/DisplayMovingBlock32.js';
+import DisplayMenu32 from './icons/DisplayMenu32.js';
 import DisplayOptions32 from './icons/DisplayOptions32.js';
 import DisplayOther32 from './icons/DisplayOther32.js';
 import DisplayProductNumb32 from './icons/DisplayProductNumb32.js';
@@ -406,18 +406,18 @@ import NotificationInformation32 from './icons/NotificationInformation32.js';
 import NotificationQuestion32 from './icons/NotificationQuestion32.js';
 import NotificationWarning32 from './icons/NotificationWarning32.js';
 import PublishCopy32 from './icons/PublishCopy32.js';
-import PublishEdit32 from './icons/PublishEdit32.js';
 import PublishFavorite32 from './icons/PublishFavorite32.js';
+import PublishEdit32 from './icons/PublishEdit32.js';
 import PublishFavoriteFull32 from './icons/PublishFavoriteFull32.js';
 import PublishLock32 from './icons/PublishLock32.js';
 import PublishSend32 from './icons/PublishSend32.js';
-import PublishTrashbin32 from './icons/PublishTrashbin32.js';
 import Split32 from './icons/Split32.js';
+import PublishTrashbin32 from './icons/PublishTrashbin32.js';
 import Bill32 from './icons/Bill32.js';
 import CardsMonochromeAmericanExpress32 from './icons/CardsMonochromeAmericanExpress32.js';
 import CardsMonochromeCB32 from './icons/CardsMonochromeCB32.js';
-import CardsMonochromeCheque32 from './icons/CardsMonochromeCheque32.js';
 import CardsMonochromeGift32 from './icons/CardsMonochromeGift32.js';
+import CardsMonochromeCheque32 from './icons/CardsMonochromeCheque32.js';
 import CardsMonochromeIllicado32 from './icons/CardsMonochromeIllicado32.js';
 import CardsMonochromeLoyalty32 from './icons/CardsMonochromeLoyalty32.js';
 import CardsMonochromeMaestro32 from './icons/CardsMonochromeMaestro32.js';
@@ -433,8 +433,8 @@ import Euro32 from './icons/Euro32.js';
 import Receipt32 from './icons/Receipt32.js';
 import SafePayment132 from './icons/SafePayment132.js';
 import SafePayment232 from './icons/SafePayment232.js';
-import AspectQuantity32 from './icons/AspectQuantity32.js';
 import AspectSize32 from './icons/AspectSize32.js';
+import AspectQuantity32 from './icons/AspectQuantity32.js';
 import AspectWeight32 from './icons/AspectWeight32.js';
 import BasketAdd32 from './icons/BasketAdd32.js';
 import BasketHandbag32 from './icons/BasketHandbag32.js';
@@ -455,8 +455,8 @@ import PromiseModular32 from './icons/PromiseModular32.js';
 import PromiseProductOnPicture32 from './icons/PromiseProductOnPicture32.js';
 import PromiseProductSheet32 from './icons/PromiseProductSheet32.js';
 import PromiseScan32 from './icons/PromiseScan32.js';
-import PromiseWarranty32 from './icons/PromiseWarranty32.js';
 import DescribeProject32 from './icons/DescribeProject32.js';
+import PromiseWarranty32 from './icons/PromiseWarranty32.js';
 import Inspiration32 from './icons/Inspiration32.js';
 import MakeProject32 from './icons/MakeProject32.js';
 import AfterSalesAfterSalesService32 from './icons/AfterSalesAfterSalesService32.js';
@@ -476,15 +476,13 @@ import Pallet32 from './icons/Pallet32.js';
 import PurchaseHelpCarRent32 from './icons/PurchaseHelpCarRent32.js';
 import PurchaseHelpHomeDIY32 from './icons/PurchaseHelpHomeDIY32.js';
 import PurchaseHelpHomeInstall32 from './icons/PurchaseHelpHomeInstall32.js';
-import PurchaseHelpToolRent32 from './icons/PurchaseHelpToolRent32.js';
 import TimeDelivery2h32 from './icons/TimeDelivery2h32.js';
 import TimeDelivery3h32 from './icons/TimeDelivery3h32.js';
 import TimeDelivery48h32 from './icons/TimeDelivery48h32.js';
-import TimeTimeDecline32 from './icons/TimeTimeDecline32.js';
 import Tools3d32 from './icons/Tools3d32.js';
 import ToolsCalculator32 from './icons/ToolsCalculator32.js';
 import ToolsComparator32 from './icons/ToolsComparator32.js';
-import CommentComment32 from './icons/CommentComment32.js';
+import TimeTimeDecline32 from './icons/TimeTimeDecline32.js';
 import CommentCommunity32 from './icons/CommentCommunity32.js';
 import CommentQuestionArticle32 from './icons/CommentQuestionArticle32.js';
 import CommentReport32 from './icons/CommentReport32.js';
@@ -499,7 +497,7 @@ import SocialNetworkYoutube32 from './icons/SocialNetworkYoutube32.js';
 import ViewLikeNegative32 from './icons/ViewLikeNegative32.js';
 import ViewLikePositive32 from './icons/ViewLikePositive32.js';
 import ViewStarEmpty32 from './icons/ViewStarEmpty32.js';
-import ViewStarFull32 from './icons/ViewStarFull32.js';
+import PurchaseHelpToolRent32 from './icons/PurchaseHelpToolRent32.js';
 import ViewStarHalf32 from './icons/ViewStarHalf32.js';
 import ViewTesterView32 from './icons/ViewTesterView32.js';
 import Itinerary32 from './icons/Itinerary32.js';
@@ -522,8 +520,8 @@ import Enki32 from './icons/Enki32.js';
 import Floor32 from './icons/Floor32.js';
 import Garage32 from './icons/Garage32.js';
 import Garden132 from './icons/Garden132.js';
-import Glass32 from './icons/Glass32.js';
 import Garden232 from './icons/Garden232.js';
+import Glass32 from './icons/Glass32.js';
 import HardwareStore32 from './icons/HardwareStore32.js';
 import Heater32 from './icons/Heater32.js';
 import Kids32 from './icons/Kids32.js';
@@ -697,7 +695,7 @@ import CardsMonochromeMaestro48 from './icons/CardsMonochromeMaestro48.js';
 import CardsMonochromeMastercard48 from './icons/CardsMonochromeMastercard48.js';
 import CardsMonochromeOney48 from './icons/CardsMonochromeOney48.js';
 import CardsMonochromeOneyX348 from './icons/CardsMonochromeOneyX348.js';
-import CardsMonochromeOneyX448 from './icons/CardsMonochromeOneyX448.js';
+import CommentComment32 from './icons/CommentComment32.js';
 import CardsMonochromePaylib48 from './icons/CardsMonochromePaylib48.js';
 import CardsMonochromePaypal48 from './icons/CardsMonochromePaypal48.js';
 import CardsMonochromeVisa48 from './icons/CardsMonochromeVisa48.js';
@@ -707,7 +705,7 @@ import Receipt48 from './icons/Receipt48.js';
 import SafePayment148 from './icons/SafePayment148.js';
 import SafePayment248 from './icons/SafePayment248.js';
 import AspectQuantity48 from './icons/AspectQuantity48.js';
-import AspectSize48 from './icons/AspectSize48.js';
+import ViewStarFull32 from './icons/ViewStarFull32.js';
 import AspectWeight48 from './icons/AspectWeight48.js';
 import BasketAdd48 from './icons/BasketAdd48.js';
 import BasketHandbag48 from './icons/BasketHandbag48.js';
@@ -724,7 +722,7 @@ import PromiseFashionChoice48 from './icons/PromiseFashionChoice48.js';
 import PromiseFunding48 from './icons/PromiseFunding48.js';
 import PromiseMadeInEurope48 from './icons/PromiseMadeInEurope48.js';
 import PromiseMadeInFrance48 from './icons/PromiseMadeInFrance48.js';
-import PromiseModular48 from './icons/PromiseModular48.js';
+import CardsMonochromeOneyX448 from './icons/CardsMonochromeOneyX448.js';
 import PromiseProductOnPicture48 from './icons/PromiseProductOnPicture48.js';
 import PromiseProductSheet48 from './icons/PromiseProductSheet48.js';
 import PromiseScan48 from './icons/PromiseScan48.js';
@@ -738,13 +736,13 @@ import AfterSalesPayback48 from './icons/AfterSalesPayback48.js';
 import AfterSalesSatisfaction48 from './icons/AfterSalesSatisfaction48.js';
 import CustomCopyKey48 from './icons/CustomCopyKey48.js';
 import CustomCourse48 from './icons/CustomCourse48.js';
-import CustomCutWoodGlass48 from './icons/CustomCutWoodGlass48.js';
-import CustomSample48 from './icons/CustomSample48.js';
+import AspectSize48 from './icons/AspectSize48.js';
+import PromiseModular48 from './icons/PromiseModular48.js';
 import CustomSharpening48 from './icons/CustomSharpening48.js';
+import CustomSample48 from './icons/CustomSample48.js';
 import DeliveryDeliveryPickupRelayPoint48 from './icons/DeliveryDeliveryPickupRelayPoint48.js';
 import DeliveryDeliveryPickupStore48 from './icons/DeliveryDeliveryPickupStore48.js';
-import DeliveryDeliveryHome48 from './icons/DeliveryDeliveryHome48.js';
-import DeliveryDeliveryLocker48 from './icons/DeliveryDeliveryLocker48.js';
+import CustomCutWoodGlass48 from './icons/CustomCutWoodGlass48.js';
 import Pallet48 from './icons/Pallet48.js';
 import PurchaseHelpCarRent48 from './icons/PurchaseHelpCarRent48.js';
 import PurchaseHelpHomeDIY48 from './icons/PurchaseHelpHomeDIY48.js';
@@ -821,16 +819,16 @@ import AccountProfileWoman48 from './icons/AccountProfileWoman48.js';
 import CardFunding48 from './icons/CardFunding48.js';
 import CardGift48 from './icons/CardGift48.js';
 import CardIDCard48 from './icons/CardIDCard48.js';
-import ContactMail48 from './icons/ContactMail48.js';
 import CardLoyaltyCard48 from './icons/CardLoyaltyCard48.js';
+import ContactMail48 from './icons/ContactMail48.js';
 import ContactPhone48 from './icons/ContactPhone48.js';
 import ContactWebsite48 from './icons/ContactWebsite48.js';
 import SituationOwner48 from './icons/SituationOwner48.js';
 import SituationTenant48 from './icons/SituationTenant48.js';
 import Administration48 from './icons/Administration48.js';
 import Apartment48 from './icons/Apartment48.js';
-import Blower48 from './icons/Blower48.js';
 import Balcony48 from './icons/Balcony48.js';
+import Blower48 from './icons/Blower48.js';
 import Door48 from './icons/Door48.js';
 import EcoSaving48 from './icons/EcoSaving48.js';
 import Heat48 from './icons/Heat48.js';
@@ -951,8 +949,8 @@ import NotificationCircleAvailable64 from './icons/NotificationCircleAvailable64
 import NotificationInformation64 from './icons/NotificationInformation64.js';
 import NotificationQuestion64 from './icons/NotificationQuestion64.js';
 import NotificationWarning64 from './icons/NotificationWarning64.js';
-import PublishCopy64 from './icons/PublishCopy64.js';
 import PublishEdit64 from './icons/PublishEdit64.js';
+import PublishCopy64 from './icons/PublishCopy64.js';
 import PublishFavorite64 from './icons/PublishFavorite64.js';
 import PublishFavoriteFull64 from './icons/PublishFavoriteFull64.js';
 import PublishLock64 from './icons/PublishLock64.js';
@@ -1469,6 +1467,8 @@ if (!customElements.get('navigation-display-home-24px')) {
 if (!customElements.get('navigation-display-logout-24px')) {
   customElements.define('navigation-display-logout-24px', DisplayLogOut24);
 }
+import DeliveryDeliveryHome48 from './icons/DeliveryDeliveryHome48.js';
+import DeliveryDeliveryLocker48 from './icons/DeliveryDeliveryLocker48.js';
 if (!customElements.get('navigation-display-menu-24px')) {
   customElements.define('navigation-display-menu-24px', DisplayMenu24);
 }
@@ -1487,17 +1487,17 @@ if (!customElements.get('navigation-display-productnumb-24px')) {
 if (!customElements.get('navigation-display-refresh-24px')) {
   customElements.define('navigation-display-refresh-24px', DisplayRefresh24);
 }
-if (!customElements.get('navigation-display-search-24px')) {
-  customElements.define('navigation-display-search-24px', DisplaySearch24);
-}
 if (!customElements.get('navigation-display-screenrotation-24px')) {
   customElements.define('navigation-display-screenrotation-24px', DisplayScreenRotation24);
 }
-if (!customElements.get('navigation-display-searchproduct-24px')) {
-  customElements.define('navigation-display-searchproduct-24px', DisplaySearchProduct24);
+if (!customElements.get('navigation-display-search-24px')) {
+  customElements.define('navigation-display-search-24px', DisplaySearch24);
 }
 if (!customElements.get('navigation-display-searchlist-24px')) {
   customElements.define('navigation-display-searchlist-24px', DisplaySearchList24);
+}
+if (!customElements.get('navigation-display-searchproduct-24px')) {
+  customElements.define('navigation-display-searchproduct-24px', DisplaySearchProduct24);
 }
 if (!customElements.get('navigation-display-setting-24px')) {
   customElements.define('navigation-display-setting-24px', DisplaySetting24);
@@ -2435,12 +2435,6 @@ if (!customElements.get('product-aspect-quantity-32px')) {
 if (!customElements.get('product-aspect-size-32px')) {
   customElements.define('product-aspect-size-32px', AspectSize32);
 }
-if (!customElements.get('product-aspect-weight-32px')) {
-  customElements.define('product-aspect-weight-32px', AspectWeight32);
-}
-if (!customElements.get('product-basket-add-32px')) {
-  customElements.define('product-basket-add-32px', BasketAdd32);
-}
 if (!customElements.get('product-basket-handbag-32px')) {
   customElements.define('product-basket-handbag-32px', BasketHandbag32);
 }
@@ -2459,11 +2453,11 @@ if (!customElements.get('product-list-add-32px')) {
 if (!customElements.get('product-list-standard-32px')) {
   customElements.define('product-list-standard-32px', ListStandard32);
 }
-if (!customElements.get('product-promise-circulareconomy-32px')) {
-  customElements.define('product-promise-circulareconomy-32px', PromiseCircularEconomy32);
-}
 if (!customElements.get('product-promise-certification-32px')) {
   customElements.define('product-promise-certification-32px', PromiseCertification32);
+}
+if (!customElements.get('product-promise-circulareconomy-32px')) {
+  customElements.define('product-promise-circulareconomy-32px', PromiseCircularEconomy32);
 }
 if (!customElements.get('product-promise-destocking-32px')) {
   customElements.define('product-promise-destocking-32px', PromiseDestocking32);
@@ -2473,6 +2467,9 @@ if (!customElements.get('product-promise-ecoproduct-32px')) {
 }
 if (!customElements.get('product-promise-fashionchoice-32px')) {
   customElements.define('product-promise-fashionchoice-32px', PromiseFashionChoice32);
+}
+if (!customElements.get('product-promise-funding-32px')) {
+  customElements.define('product-promise-funding-32px', PromiseFunding32);
 }
 if (!customElements.get('product-promise-madeineurope-32px')) {
   customElements.define('product-promise-madeineurope-32px', PromiseMadeInEurope32);
@@ -2534,11 +2531,11 @@ if (!customElements.get('service-custom-sharpening-32px')) {
 if (!customElements.get('service-delivery-delivery-pickup--relaypoint-32px')) {
   customElements.define('service-delivery-delivery-pickup--relaypoint-32px', DeliveryDeliveryPickupRelayPoint32);
 }
-if (!customElements.get('service-delivery-delivery-pickup--store-32px')) {
-  customElements.define('service-delivery-delivery-pickup--store-32px', DeliveryDeliveryPickupStore32);
-}
 if (!customElements.get('service-delivery-delivery--home-32px')) {
   customElements.define('service-delivery-delivery--home-32px', DeliveryDeliveryHome32);
+}
+if (!customElements.get('service-delivery-delivery-pickup--store-32px')) {
+  customElements.define('service-delivery-delivery-pickup--store-32px', DeliveryDeliveryPickupStore32);
 }
 if (!customElements.get('service-delivery-delivery--locker-32px')) {
   customElements.define('service-delivery-delivery--locker-32px', DeliveryDeliveryLocker32);
@@ -2552,11 +2549,11 @@ if (!customElements.get('service-purchasehelp-carrent-32px')) {
 if (!customElements.get('service-purchasehelp-homediy-32px')) {
   customElements.define('service-purchasehelp-homediy-32px', PurchaseHelpHomeDIY32);
 }
-if (!customElements.get('service-purchasehelp-toolrent-32px')) {
-  customElements.define('service-purchasehelp-toolrent-32px', PurchaseHelpToolRent32);
-}
 if (!customElements.get('service-purchasehelp-homeinstall-32px')) {
   customElements.define('service-purchasehelp-homeinstall-32px', PurchaseHelpHomeInstall32);
+}
+if (!customElements.get('service-purchasehelp-toolrent-32px')) {
+  customElements.define('service-purchasehelp-toolrent-32px', PurchaseHelpToolRent32);
 }
 if (!customElements.get('service-time-delivery--2h-32px')) {
   customElements.define('service-time-delivery--2h-32px', TimeDelivery2h32);
@@ -2702,11 +2699,11 @@ if (!customElements.get('universe-glass-32px')) {
 if (!customElements.get('universe-hardwarestore-32px')) {
   customElements.define('universe-hardwarestore-32px', HardwareStore32);
 }
-if (!customElements.get('universe-heater-32px')) {
-  customElements.define('universe-heater-32px', Heater32);
-}
 if (!customElements.get('universe-kids-32px')) {
   customElements.define('universe-kids-32px', Kids32);
+}
+if (!customElements.get('universe-heater-32px')) {
+  customElements.define('universe-heater-32px', Heater32);
 }
 if (!customElements.get('universe-kitchen-32px')) {
   customElements.define('universe-kitchen-32px', Kitchen32);
@@ -2810,6 +2807,9 @@ if (!customElements.get('various-ecosaving-32px')) {
 if (!customElements.get('various-heat-32px')) {
   customElements.define('various-heat-32px', Heat32);
 }
+if (!customElements.get('various-house-32px')) {
+  customElements.define('various-house-32px', House32);
+}
 if (!customElements.get('various-increasevalue-32px')) {
   customElements.define('various-increasevalue-32px', IncreaseValue32);
 }
@@ -2864,9 +2864,6 @@ if (!customElements.get('device-mobile-48px')) {
 if (!customElements.get('device-tablet-48px')) {
   customElements.define('device-tablet-48px', Tablet48);
 }
-if (!customElements.get('various-house-32px')) {
-  customElements.define('various-house-32px', House32);
-}
 if (!customElements.get('instruction-hygiene-cleaned-48px')) {
   customElements.define('instruction-hygiene-cleaned-48px', HygieneCleaned48);
 }
@@ -2918,6 +2915,9 @@ if (!customElements.get('instruction-service-purchasehelp-truck-48px')) {
 if (!customElements.get('instruction-universe-essentialproduct-48px')) {
   customElements.define('instruction-universe-essentialproduct-48px', UniverseEssentialProduct48);
 }
+if (!customElements.get('product-aspect-weight-32px')) {
+  customElements.define('product-aspect-weight-32px', AspectWeight32);
+}
 if (!customElements.get('logotypes-payment-monochrome-bizum-48px')) {
   customElements.define('logotypes-payment-monochrome-bizum-48px', PaymentMonochromeBizum48);
 }
@@ -2929,6 +2929,9 @@ if (!customElements.get('logotypes-payment-monochrome-oney--3x-48px')) {
 }
 if (!customElements.get('logotypes-payment-monochrome-oney--3x4x-48px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x4x-48px', PaymentMonochromeOney3x4x48);
+}
+if (!customElements.get('product-basket-add-32px')) {
+  customElements.define('product-basket-add-32px', BasketAdd32);
 }
 if (!customElements.get('logotypes-payment-monochrome-paypal-48px')) {
   customElements.define('logotypes-payment-monochrome-paypal-48px', PaymentMonochromePayPal48);
@@ -2974,6 +2977,9 @@ if (!customElements.get('media-read-48px')) {
 }
 if (!customElements.get('media-reducescreen-48px')) {
   customElements.define('media-reducescreen-48px', ReduceScreen48);
+}
+if (!customElements.get('media-slideshow-48px')) {
+  customElements.define('media-slideshow-48px', Slideshow48);
 }
 if (!customElements.get('media-sound-48px')) {
   customElements.define('media-sound-48px', Sound48);
@@ -3071,9 +3077,6 @@ if (!customElements.get('navigation-display-displayfull-outline-48px')) {
 if (!customElements.get('navigation-display-displaylist-filled-48px')) {
   customElements.define('navigation-display-displaylist-filled-48px', DisplayDisplayListFilled48);
 }
-if (!customElements.get('navigation-display-displaylist-outline-48px')) {
-  customElements.define('navigation-display-displaylist-outline-48px', DisplayDisplayListOutline48);
-}
 if (!customElements.get('navigation-display-displaymobile--horizontal-48px')) {
   customElements.define('navigation-display-displaymobile--horizontal-48px', DisplayDisplayMobileHorizontal48);
 }
@@ -3085,9 +3088,6 @@ if (!customElements.get('navigation-display-displayproductx4-filled-48px')) {
 }
 if (!customElements.get('navigation-display-displayproductx4-outline-48px')) {
   customElements.define('navigation-display-displayproductx4-outline-48px', DisplayDisplayProductX4Outline48);
-}
-if (!customElements.get('media-slideshow-48px')) {
-  customElements.define('media-slideshow-48px', Slideshow48);
 }
 if (!customElements.get('navigation-display-displayproductx9-48px')) {
   customElements.define('navigation-display-displayproductx9-48px', DisplayDisplayProductX948);
@@ -3320,17 +3320,17 @@ if (!customElements.get('project-describeproject-48px')) {
 if (!customElements.get('project-inspiration-48px')) {
   customElements.define('project-inspiration-48px', Inspiration48);
 }
-if (!customElements.get('project-makeproject-48px')) {
-  customElements.define('project-makeproject-48px', MakeProject48);
-}
 if (!customElements.get('service-aftersales-aftersalesservice-48px')) {
   customElements.define('service-aftersales-aftersalesservice-48px', AfterSalesAfterSalesService48);
 }
-if (!customElements.get('service-aftersales-helpline-48px')) {
-  customElements.define('service-aftersales-helpline-48px', AfterSalesHelpline48);
-}
 if (!customElements.get('service-aftersales-payback-48px')) {
   customElements.define('service-aftersales-payback-48px', AfterSalesPayback48);
+}
+if (!customElements.get('project-makeproject-48px')) {
+  customElements.define('project-makeproject-48px', MakeProject48);
+}
+if (!customElements.get('navigation-display-displaylist-outline-48px')) {
+  customElements.define('navigation-display-displaylist-outline-48px', DisplayDisplayListOutline48);
 }
 if (!customElements.get('service-aftersales-satisfaction-48px')) {
   customElements.define('service-aftersales-satisfaction-48px', AfterSalesSatisfaction48);
@@ -3356,26 +3356,23 @@ if (!customElements.get('service-delivery-delivery-pickup--relaypoint-48px')) {
 if (!customElements.get('service-delivery-delivery-pickup--store-48px')) {
   customElements.define('service-delivery-delivery-pickup--store-48px', DeliveryDeliveryPickupStore48);
 }
+if (!customElements.get('service-aftersales-helpline-48px')) {
+  customElements.define('service-aftersales-helpline-48px', AfterSalesHelpline48);
+}
 if (!customElements.get('service-delivery-delivery--home-48px')) {
   customElements.define('service-delivery-delivery--home-48px', DeliveryDeliveryHome48);
 }
 if (!customElements.get('service-delivery-delivery--locker-48px')) {
   customElements.define('service-delivery-delivery--locker-48px', DeliveryDeliveryLocker48);
 }
-if (!customElements.get('service-pallet-48px')) {
-  customElements.define('service-pallet-48px', Pallet48);
-}
 if (!customElements.get('service-purchasehelp-carrent-48px')) {
   customElements.define('service-purchasehelp-carrent-48px', PurchaseHelpCarRent48);
 }
-if (!customElements.get('service-purchasehelp-homediy-48px')) {
-  customElements.define('service-purchasehelp-homediy-48px', PurchaseHelpHomeDIY48);
+if (!customElements.get('service-pallet-48px')) {
+  customElements.define('service-pallet-48px', Pallet48);
 }
 if (!customElements.get('service-purchasehelp-homeinstall-48px')) {
   customElements.define('service-purchasehelp-homeinstall-48px', PurchaseHelpHomeInstall48);
-}
-if (!customElements.get('product-promise-funding-32px')) {
-  customElements.define('product-promise-funding-32px', PromiseFunding32);
 }
 if (!customElements.get('service-purchasehelp-toolrent-48px')) {
   customElements.define('service-purchasehelp-toolrent-48px', PurchaseHelpToolRent48);
@@ -3557,11 +3554,11 @@ if (!customElements.get('universe-pool-48px')) {
 if (!customElements.get('universe-security-48px')) {
   customElements.define('universe-security-48px', Security48);
 }
-if (!customElements.get('universe-tool-48px')) {
-  customElements.define('universe-tool-48px', Tool48);
-}
 if (!customElements.get('universe-terrace-48px')) {
   customElements.define('universe-terrace-48px', Terrace48);
+}
+if (!customElements.get('universe-tool-48px')) {
+  customElements.define('universe-tool-48px', Tool48);
 }
 if (!customElements.get('universe-woodsaw-48px')) {
   customElements.define('universe-woodsaw-48px', WoodSaw48);
@@ -3620,11 +3617,11 @@ if (!customElements.get('various-apartment-48px')) {
 if (!customElements.get('various-balcony-48px')) {
   customElements.define('various-balcony-48px', Balcony48);
 }
-if (!customElements.get('various-door-48px')) {
-  customElements.define('various-door-48px', Door48);
-}
 if (!customElements.get('various-blower-48px')) {
   customElements.define('various-blower-48px', Blower48);
+}
+if (!customElements.get('various-door-48px')) {
+  customElements.define('various-door-48px', Door48);
 }
 if (!customElements.get('various-ecosaving-48px')) {
   customElements.define('various-ecosaving-48px', EcoSaving48);
@@ -3635,11 +3632,11 @@ if (!customElements.get('various-heat-48px')) {
 if (!customElements.get('various-house-48px')) {
   customElements.define('various-house-48px', House48);
 }
-if (!customElements.get('various-insulation-48px')) {
-  customElements.define('various-insulation-48px', Insulation48);
-}
 if (!customElements.get('various-increasevalue-48px')) {
   customElements.define('various-increasevalue-48px', IncreaseValue48);
+}
+if (!customElements.get('various-insulation-48px')) {
+  customElements.define('various-insulation-48px', Insulation48);
 }
 if (!customElements.get('various-lessondiy-48px')) {
   customElements.define('various-lessondiy-48px', LessonDIY48);
@@ -3692,6 +3689,9 @@ if (!customElements.get('device-tablet-64px')) {
 if (!customElements.get('instruction-hygiene-cleaned-64px')) {
   customElements.define('instruction-hygiene-cleaned-64px', HygieneCleaned64);
 }
+if (!customElements.get('instruction-hygiene-danger-64px')) {
+  customElements.define('instruction-hygiene-danger-64px', HygieneDanger64);
+}
 if (!customElements.get('instruction-hygiene-distance-64px')) {
   customElements.define('instruction-hygiene-distance-64px', HygieneDistance64);
 }
@@ -3706,9 +3706,6 @@ if (!customElements.get('instruction-hygiene-nocontact-64px')) {
 }
 if (!customElements.get('instruction-hygiene-plexiglas-64px')) {
   customElements.define('instruction-hygiene-plexiglas-64px', HygienePlexiglas64);
-}
-if (!customElements.get('instruction-hygiene-danger-64px')) {
-  customElements.define('instruction-hygiene-danger-64px', HygieneDanger64);
 }
 if (!customElements.get('instruction-payment-checkout-64px')) {
   customElements.define('instruction-payment-checkout-64px', PaymentCheckout64);
@@ -3749,6 +3746,9 @@ if (!customElements.get('logotypes-payment-monochrome-fintecture-64px')) {
 if (!customElements.get('logotypes-payment-monochrome-oney--3x-64px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x-64px', PaymentMonochromeOney3x64);
 }
+if (!customElements.get('service-purchasehelp-homediy-48px')) {
+  customElements.define('service-purchasehelp-homediy-48px', PurchaseHelpHomeDIY48);
+}
 if (!customElements.get('logotypes-payment-monochrome-oney--3x4x-64px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x4x-64px', PaymentMonochromeOney3x4x64);
 }
@@ -3770,11 +3770,11 @@ if (!customElements.get('media-download-app-64px')) {
 if (!customElements.get('media-download-web-64px')) {
   customElements.define('media-download-web-64px', DownloadWeb64);
 }
-if (!customElements.get('media-fullscreen-64px')) {
-  customElements.define('media-fullscreen-64px', FullScreen64);
-}
 if (!customElements.get('media-nopicture-64px')) {
   customElements.define('media-nopicture-64px', NoPicture64);
+}
+if (!customElements.get('media-fullscreen-64px')) {
+  customElements.define('media-fullscreen-64px', FullScreen64);
 }
 if (!customElements.get('media-pdf-64px')) {
   customElements.define('media-pdf-64px', Pdf64);
@@ -3842,11 +3842,11 @@ if (!customElements.get('navigation-arrow-arrowtopright-64px')) {
 if (!customElements.get('navigation-arrow-back-64px')) {
   customElements.define('navigation-arrow-back-64px', ArrowBack64);
 }
-if (!customElements.get('navigation-arrow-doublearrow--left-64px')) {
-  customElements.define('navigation-arrow-doublearrow--left-64px', ArrowDoubleArrowLeft64);
-}
 if (!customElements.get('navigation-arrow-doublearrow--right-64px')) {
   customElements.define('navigation-arrow-doublearrow--right-64px', ArrowDoubleArrowRight64);
+}
+if (!customElements.get('navigation-arrow-doublearrow--left-64px')) {
+  customElements.define('navigation-arrow-doublearrow--left-64px', ArrowDoubleArrowLeft64);
 }
 if (!customElements.get('navigation-arrow-down-64px')) {
   customElements.define('navigation-arrow-down-64px', ArrowDown64);
@@ -3869,11 +3869,11 @@ if (!customElements.get('navigation-control-circle--more-64px')) {
 if (!customElements.get('navigation-control-cross-64px')) {
   customElements.define('navigation-control-cross-64px', ControlCross64);
 }
-if (!customElements.get('navigation-control-less-64px')) {
-  customElements.define('navigation-control-less-64px', ControlLess64);
-}
 if (!customElements.get('navigation-control-more-64px')) {
   customElements.define('navigation-control-more-64px', ControlMore64);
+}
+if (!customElements.get('navigation-control-less-64px')) {
+  customElements.define('navigation-control-less-64px', ControlLess64);
 }
 if (!customElements.get('navigation-control-tag--cross-64px')) {
   customElements.define('navigation-control-tag--cross-64px', ControlTagCross64);
@@ -3893,11 +3893,11 @@ if (!customElements.get('navigation-display-displayfull-filled-64px')) {
 if (!customElements.get('navigation-display-displayfull-outline-64px')) {
   customElements.define('navigation-display-displayfull-outline-64px', DisplayDisplayFullOutline64);
 }
-if (!customElements.get('navigation-display-displaylist-filled-64px')) {
-  customElements.define('navigation-display-displaylist-filled-64px', DisplayDisplayListFilled64);
-}
 if (!customElements.get('navigation-display-displaylist-outline-64px')) {
   customElements.define('navigation-display-displaylist-outline-64px', DisplayDisplayListOutline64);
+}
+if (!customElements.get('navigation-display-displaylist-filled-64px')) {
+  customElements.define('navigation-display-displaylist-filled-64px', DisplayDisplayListFilled64);
 }
 if (!customElements.get('navigation-display-displaymobile--horizontal-64px')) {
   customElements.define('navigation-display-displaymobile--horizontal-64px', DisplayDisplayMobileHorizontal64);
@@ -3923,14 +3923,8 @@ if (!customElements.get('navigation-display-filter-64px')) {
 if (!customElements.get('navigation-display-home-64px')) {
   customElements.define('navigation-display-home-64px', DisplayHome64);
 }
-if (!customElements.get('navigation-display-logout-64px')) {
-  customElements.define('navigation-display-logout-64px', DisplayLogOut64);
-}
 if (!customElements.get('navigation-display-menu-64px')) {
   customElements.define('navigation-display-menu-64px', DisplayMenu64);
-}
-if (!customElements.get('navigation-display-movingblock-64px')) {
-  customElements.define('navigation-display-movingblock-64px', DisplayMovingBlock64);
 }
 if (!customElements.get('navigation-display-options-64px')) {
   customElements.define('navigation-display-options-64px', DisplayOptions64);
@@ -3941,11 +3935,14 @@ if (!customElements.get('navigation-display-other-64px')) {
 if (!customElements.get('navigation-display-productnumb-64px')) {
   customElements.define('navigation-display-productnumb-64px', DisplayProductNumb64);
 }
-if (!customElements.get('navigation-display-refresh-64px')) {
-  customElements.define('navigation-display-refresh-64px', DisplayRefresh64);
+if (!customElements.get('navigation-display-logout-64px')) {
+  customElements.define('navigation-display-logout-64px', DisplayLogOut64);
 }
 if (!customElements.get('navigation-display-screenrotation-64px')) {
   customElements.define('navigation-display-screenrotation-64px', DisplayScreenRotation64);
+}
+if (!customElements.get('navigation-display-movingblock-64px')) {
+  customElements.define('navigation-display-movingblock-64px', DisplayMovingBlock64);
 }
 if (!customElements.get('navigation-display-search-64px')) {
   customElements.define('navigation-display-search-64px', DisplaySearch64);
@@ -3961,6 +3958,9 @@ if (!customElements.get('navigation-display-setting-64px')) {
 }
 if (!customElements.get('navigation-display-view-64px')) {
   customElements.define('navigation-display-view-64px', DisplayView64);
+}
+if (!customElements.get('navigation-display-refresh-64px')) {
+  customElements.define('navigation-display-refresh-64px', DisplayRefresh64);
 }
 if (!customElements.get('navigation-display-vocalsearch-64px')) {
   customElements.define('navigation-display-vocalsearch-64px', DisplayVocalSearch64);
@@ -4007,11 +4007,11 @@ if (!customElements.get('navigation-publish-trashbin-64px')) {
 if (!customElements.get('payment-bill-64px')) {
   customElements.define('payment-bill-64px', Bill64);
 }
-if (!customElements.get('navigation-split-64px')) {
-  customElements.define('navigation-split-64px', Split64);
-}
 if (!customElements.get('payment-cards-monochrome-americanexpress-64px')) {
   customElements.define('payment-cards-monochrome-americanexpress-64px', CardsMonochromeAmericanExpress64);
+}
+if (!customElements.get('navigation-split-64px')) {
+  customElements.define('navigation-split-64px', Split64);
 }
 if (!customElements.get('payment-cards-monochrome-cb-64px')) {
   customElements.define('payment-cards-monochrome-cb-64px', CardsMonochromeCB64);
@@ -4139,11 +4139,11 @@ if (!customElements.get('product-promise-warranty-64px')) {
 if (!customElements.get('project-describeproject-64px')) {
   customElements.define('project-describeproject-64px', DescribeProject64);
 }
-if (!customElements.get('project-inspiration-64px')) {
-  customElements.define('project-inspiration-64px', Inspiration64);
-}
 if (!customElements.get('project-makeproject-64px')) {
   customElements.define('project-makeproject-64px', MakeProject64);
+}
+if (!customElements.get('project-inspiration-64px')) {
+  customElements.define('project-inspiration-64px', Inspiration64);
 }
 if (!customElements.get('service-aftersales-aftersalesservice-64px')) {
   customElements.define('service-aftersales-aftersalesservice-64px', AfterSalesAfterSalesService64);
@@ -4202,11 +4202,11 @@ if (!customElements.get('service-purchasehelp-toolrent-64px')) {
 if (!customElements.get('service-time-delivery--2h-64px')) {
   customElements.define('service-time-delivery--2h-64px', TimeDelivery2h64);
 }
-if (!customElements.get('service-time-delivery--3h-64px')) {
-  customElements.define('service-time-delivery--3h-64px', TimeDelivery3h64);
-}
 if (!customElements.get('service-time-delivery--48h-64px')) {
   customElements.define('service-time-delivery--48h-64px', TimeDelivery48h64);
+}
+if (!customElements.get('service-time-delivery--3h-64px')) {
+  customElements.define('service-time-delivery--3h-64px', TimeDelivery3h64);
 }
 if (!customElements.get('service-time-timedecline-64px')) {
   customElements.define('service-time-timedecline-64px', TimeTimeDecline64);
@@ -4295,11 +4295,11 @@ if (!customElements.get('store-monochrome-storelocation-64px')) {
 if (!customElements.get('store-storelm-64px')) {
   customElements.define('store-storelm-64px', StoreLM64);
 }
-if (!customElements.get('universe-bathroom-64px')) {
-  customElements.define('universe-bathroom-64px', Bathroom64);
-}
 if (!customElements.get('universe-attic-64px')) {
   customElements.define('universe-attic-64px', Attic64);
+}
+if (!customElements.get('universe-bathroom-64px')) {
+  customElements.define('universe-bathroom-64px', Bathroom64);
 }
 if (!customElements.get('universe-bedroom-64px')) {
   customElements.define('universe-bedroom-64px', Bedroom64);
@@ -4307,11 +4307,11 @@ if (!customElements.get('universe-bedroom-64px')) {
 if (!customElements.get('universe-carpentry-64px')) {
   customElements.define('universe-carpentry-64px', Carpentry64);
 }
-if (!customElements.get('universe-connectedhome-64px')) {
-  customElements.define('universe-connectedhome-64px', ConnectedHome64);
-}
 if (!customElements.get('universe-christmastree-64px')) {
   customElements.define('universe-christmastree-64px', ChristmasTree64);
+}
+if (!customElements.get('universe-connectedhome-64px')) {
+  customElements.define('universe-connectedhome-64px', ConnectedHome64);
 }
 if (!customElements.get('universe-curtains-64px')) {
   customElements.define('universe-curtains-64px', Curtains64);
@@ -4322,11 +4322,11 @@ if (!customElements.get('universe-dressing-64px')) {
 if (!customElements.get('universe-electricity-64px')) {
   customElements.define('universe-electricity-64px', Electricity64);
 }
-if (!customElements.get('universe-floor-64px')) {
-  customElements.define('universe-floor-64px', Floor64);
-}
 if (!customElements.get('universe-enki-64px')) {
   customElements.define('universe-enki-64px', Enki64);
+}
+if (!customElements.get('universe-floor-64px')) {
+  customElements.define('universe-floor-64px', Floor64);
 }
 if (!customElements.get('universe-garage-64px')) {
   customElements.define('universe-garage-64px', Garage64);
@@ -4334,11 +4334,11 @@ if (!customElements.get('universe-garage-64px')) {
 if (!customElements.get('universe-garden1-64px')) {
   customElements.define('universe-garden1-64px', Garden164);
 }
-if (!customElements.get('universe-glass-64px')) {
-  customElements.define('universe-glass-64px', Glass64);
-}
 if (!customElements.get('universe-garden2-64px')) {
   customElements.define('universe-garden2-64px', Garden264);
+}
+if (!customElements.get('universe-glass-64px')) {
+  customElements.define('universe-glass-64px', Glass64);
 }
 if (!customElements.get('universe-hardwarestore-64px')) {
   customElements.define('universe-hardwarestore-64px', HardwareStore64);
@@ -4409,6 +4409,9 @@ if (!customElements.get('user-card-funding-64px')) {
 if (!customElements.get('user-card-gift-64px')) {
   customElements.define('user-card-gift-64px', CardGift64);
 }
+if (!customElements.get('user-card-idcard-64px')) {
+  customElements.define('user-card-idcard-64px', CardIDCard64);
+}
 if (!customElements.get('user-card-loyaltycard-64px')) {
   customElements.define('user-card-loyaltycard-64px', CardLoyaltyCard64);
 }
@@ -4418,17 +4421,14 @@ if (!customElements.get('user-contact-mail-64px')) {
 if (!customElements.get('user-contact-phone-64px')) {
   customElements.define('user-contact-phone-64px', ContactPhone64);
 }
-if (!customElements.get('user-card-idcard-64px')) {
-  customElements.define('user-card-idcard-64px', CardIDCard64);
-}
 if (!customElements.get('user-contact-website-64px')) {
   customElements.define('user-contact-website-64px', ContactWebsite64);
 }
-if (!customElements.get('user-situation-tenant-64px')) {
-  customElements.define('user-situation-tenant-64px', SituationTenant64);
-}
 if (!customElements.get('user-situation-owner-64px')) {
   customElements.define('user-situation-owner-64px', SituationOwner64);
+}
+if (!customElements.get('user-situation-tenant-64px')) {
+  customElements.define('user-situation-tenant-64px', SituationTenant64);
 }
 if (!customElements.get('various-administration-64px')) {
   customElements.define('various-administration-64px', Administration64);
