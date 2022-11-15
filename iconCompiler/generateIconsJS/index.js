@@ -1,10 +1,13 @@
 const fs = require('fs')
 const path = require('path')
 const iconsModules = require('./iconsModules')
+const iconsCommon = require('./iconsCommon')
+const { createComponentName } = require('../utils/tools')
 const config = require('../config')
 
 const generateIconsModules = (icons) =>
   new Promise((res, rej) => {
+    // Modules
     const data = iconsModules(icons)
 
     const writePath = path.join(
@@ -18,7 +21,7 @@ const generateIconsModules = (icons) =>
       res(true)
     })
 
-    // TypeScript Declaration File
+    // Typescript
     const writeTypeScriptFile = path.join(
       process.cwd(),
       config.outputPaths.js,
@@ -34,6 +37,33 @@ const generateIconsModules = (icons) =>
         res(true)
       }
     )
+
+    // Common
+
+    const dataCommon = iconsCommon(icons)
+
+    const writePathCommon = path.join(
+      process.cwd(),
+      config.outputPaths.js,
+      'icons.common.js'
+    )
+
+    fs.writeFile(writePathCommon, dataCommon, 'utf8', (err) => {
+      if (err) rej(err)
+      res(true)
+    })
+
+    // Prepare export
+    let exported = `\nmodule.exports = {\n `
+    icons.map((icon) => {
+      exported += `${createComponentName(icon.fileName)},\n`
+    })
+    exported += `\n };`
+
+    fs.appendFile(writePathCommon, exported, 'utf8', (err) => {
+      if (err) rej(err)
+      res(true)
+    })
   })
 
 module.exports = generateIconsModules
