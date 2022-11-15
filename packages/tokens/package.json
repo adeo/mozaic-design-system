@@ -1,13 +1,31 @@
 {
   "name": "@mozaic-ds/tokens",
   "version": "2.0.0-rc.4",
-  "description": "Tokens to Design Systeme Adeo",
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "style-dictionary": "^3.0.1"
+  "description": "Design tokens applying to Mozaic Design System",
+  "keywords": [
+    "adeo",
+    "mozaic design system",
+    "design tokens",
+    "style-dictionary"
+  ],
+  "homepage": "https://github.com/adeo/mozaic-design-system/tree/master/packages/tokens/README.md",
+  "bugs": "https://github.com/adeo/mozaic-design-system/issues",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Adeo"
   },
   "bin": {
     "mozaic-tokens-build": "bin/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adeo/mozaic-design-system.git"
+  },
+  "scripts": {
+    "build": "node tokensBuild.js",
+    "clean": "style-dictionary clean"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.0.1"
   }
 }
