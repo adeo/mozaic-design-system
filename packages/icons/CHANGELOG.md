@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.48.0](https://github.com/adeo/mozaic-design-system/compare/v1.47.1...v1.48.0) (2022-11-16)
+
+
+### Features
+
+* **icons:** add commonjs icons ([#1261](https://github.com/adeo/mozaic-design-system/issues/1261)) ([aea564f](https://github.com/adeo/mozaic-design-system/commit/aea564f9b56054b621feaba1bc965bc49b9c33ba))
+
+
+
+
+
 ## [1.47.1](https://github.com/adeo/mozaic-design-system/compare/v1.47.0...v1.47.1) (2022-11-09)
 
 
