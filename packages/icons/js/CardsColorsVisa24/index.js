@@ -1,0 +1,1 @@
+export default CardsColorsVisa24

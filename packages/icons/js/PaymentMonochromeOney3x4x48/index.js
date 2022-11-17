@@ -1,0 +1,1 @@
+export default PaymentMonochromeOney3x4x48

@@ -1,0 +1,1 @@
+export default ArrowArrowRight48

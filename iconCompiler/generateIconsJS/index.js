@@ -10,18 +10,32 @@ const generateIconsModules = (icons) =>
     icons.map((icon) => {
       const iconName = createComponentName(icon.fileName)
       const iconData = iconsModules(icon)
+      const iconIndex = `export default ${iconName}`;
 
       const singleIconPath = path.join(
         process.cwd(),
         `${config.outputPaths.js}/${iconName}`,
         `${iconName}.js`
       )
+      fs.mkdirSync(`${config.outputPaths.js}/${iconName}`)
+
+      const index = path.join(
+        process.cwd(),
+        `${config.outputPaths.js}/${iconName}`,
+        'index.js'
+      )
+
       fs.writeFileSync(singleIconPath, iconData, 'utf8', (err) => {
         if (err) rej(err)
         res(true)
       })
 
-      /*
+      fs.writeFileSync(index, iconIndex, 'utf8', (err) => {
+        if (err) rej(err)
+        res(true)
+      })
+    })
+    /*
       const mainIconsPath = path.join(
         process.cwd(),
         config.outputPaths.js,
@@ -34,7 +48,7 @@ const generateIconsModules = (icons) =>
       })
       */
 
-      /*
+    /*
       const dataSvelte = transpilers[framework].transpiler(icon)
       const parsedName = createComponentName(icon.fileName)
       const defineRegistry = declareWebRegistry(parsedName, icon)
@@ -59,7 +73,6 @@ const generateIconsModules = (icons) =>
         res(true)
       })
       */
-    })
 
     // Icons.js
     // const data = iconsModules(icons)

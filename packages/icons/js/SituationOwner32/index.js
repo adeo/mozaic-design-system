@@ -1,0 +1,1 @@
+export default SituationOwner32

@@ -1,0 +1,1 @@
+export default DisplayDisplayProductX4Filled32

@@ -1,0 +1,1 @@
+export default Tablet32

@@ -1,0 +1,1 @@
+export default ThermalControl48

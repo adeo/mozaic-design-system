@@ -1,0 +1,1 @@
+export default Print48

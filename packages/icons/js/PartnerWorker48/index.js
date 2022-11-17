@@ -1,0 +1,1 @@
+export default PartnerWorker48

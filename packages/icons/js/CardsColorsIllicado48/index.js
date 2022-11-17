@@ -1,0 +1,1 @@
+export default CardsColorsIllicado48

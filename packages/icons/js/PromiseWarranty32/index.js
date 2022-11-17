@@ -1,0 +1,1 @@
+export default PromiseWarranty32

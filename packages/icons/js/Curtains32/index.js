@@ -1,0 +1,1 @@
+export default Curtains32

@@ -1,0 +1,6 @@
+export CardsColorsCB24 = {
+    viewBox: "0 0 24 24",
+    size: "1.5rem",
+    paths: [{tagName: "path",attrs: {"fill":"url(#fill-cardscolorscb24)","d":"M2 6a1 1 0 011-1h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6z"}},{tagName: "path",attrs: {"fill":"#fff","d":"M9.607 11.82h2.62a1.888 1.888 0 00-.557-1.393c-.475-.407-1.307-.557-2.055-.557-.748 0-1.635.165-2.11.603-.417.377-.5.982-.5 1.527 0 .545.173 1.235.623 1.62s1.25.5 2 .5 1.5-.117 1.98-.5c.48-.382.634-1.035.634-1.622H9.607v-.178zM12.4 12v2.043h3.643a1 1 0 00.957-1A1.035 1.035 0 0016.043 12H12.4zm4.535-1.115a.925.925 0 00-.922-.93.848.848 0 00-.113 0h-3.5v1.87h3.673a.942.942 0 00.862-.94z"}},{tagName: "defs",children: [{tagName: "linearGradient",attrs: {"id":"fill-cardscolorscb24","x1":12.009,"x2":24.699,"y1":25.199,"y2":7.047,"gradientUnits":"userSpaceOnUse"},children: [{tagName: "stop",attrs: {"stop-color":"#109A72"}},{tagName: "stop",attrs: {"offset":0.3,"stop-color":"#008A8D"}},{tagName: "stop",attrs: {"offset":0.69,"stop-color":"#01679B"}},{tagName: "stop",attrs: {"offset":1,"stop-color":"#03376F"}}]}]}],
+    type: "payment"
+  };

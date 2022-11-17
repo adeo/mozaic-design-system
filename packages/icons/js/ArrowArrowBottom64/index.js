@@ -1,0 +1,1 @@
+export default ArrowArrowBottom64

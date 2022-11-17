@@ -1,0 +1,1 @@
+export default PaymentOney3x64

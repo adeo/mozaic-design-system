@@ -1,0 +1,1 @@
+export default ServicePurchaseHelpTruck48

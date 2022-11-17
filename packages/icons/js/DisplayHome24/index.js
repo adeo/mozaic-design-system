@@ -1,0 +1,1 @@
+export default DisplayHome24

@@ -1,0 +1,1 @@
+export default NoPicture24

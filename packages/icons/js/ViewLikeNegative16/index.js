@@ -1,0 +1,1 @@
+export default ViewLikeNegative16

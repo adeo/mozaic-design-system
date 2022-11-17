@@ -1,0 +1,1 @@
+export default SocialNetworkTwitter48

@@ -1,0 +1,1 @@
+export default DisplayDisplayFullOutline32

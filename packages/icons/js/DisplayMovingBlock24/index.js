@@ -1,0 +1,1 @@
+export default DisplayMovingBlock24

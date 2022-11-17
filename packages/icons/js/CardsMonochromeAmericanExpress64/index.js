@@ -1,0 +1,1 @@
+export default CardsMonochromeAmericanExpress64

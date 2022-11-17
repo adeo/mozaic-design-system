@@ -1,0 +1,1 @@
+export default TimeDelivery48h24

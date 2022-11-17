@@ -1,0 +1,1 @@
+export default ControlTagCross32

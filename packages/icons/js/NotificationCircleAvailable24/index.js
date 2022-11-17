@@ -1,0 +1,1 @@
+export default NotificationCircleAvailable24

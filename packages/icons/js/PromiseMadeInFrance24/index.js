@@ -1,0 +1,1 @@
+export default PromiseMadeInFrance24

@@ -1,0 +1,1 @@
+export default ControlMore24

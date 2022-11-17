@@ -1,0 +1,1 @@
+export default CardsColorsCB24

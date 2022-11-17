@@ -1,0 +1,1 @@
+export default ViewStarEmpty32
