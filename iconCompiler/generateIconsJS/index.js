@@ -38,6 +38,22 @@ const generateIconsModules = (icons) =>
       }
     )
 
+    const writeTypeScriptFileCommon = path.join(
+      process.cwd(),
+      config.outputPaths.js,
+      'icons.common.d.ts'
+    )
+
+    fs.writeFile(
+      writeTypeScriptFileCommon,
+      "declare module '@mozaic-ds/icons/js/icons.common'",
+      'utf8',
+      (err) => {
+        if (err) rej(err)
+        res(true)
+      }
+    )
+
     // Common
 
     const dataCommon = iconsCommon(icons)
