@@ -46,7 +46,7 @@ jobs:
           transient: true
       - name: Deploy on App Engine
         id: appengine
-        uses: google-github-actions/deploy-appengine@main
+        uses: google-github-actions/deploy-appengine@v1
         with:
           project_id: mozaic-design-system-dtrp
           credentials: ${{ secrets.GCLOUD_AUTH }}
