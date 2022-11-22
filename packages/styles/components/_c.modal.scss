@@ -89,6 +89,13 @@
     }
   }
 
+  &__icon {
+    fill: $color-dialog-icon;
+    height: $mu150;
+    margin-right: $mu075;
+    width: $mu150;
+  }
+
   &__title {
     @include set-font-scale("04", "m");
     @include set-font-weight("regular");
