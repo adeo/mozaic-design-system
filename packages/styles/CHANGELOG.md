@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.49.0](https://github.com/adeo/mozaic-design-system/compare/v1.48.2...v1.49.0) (2022-11-23)
+
+
+### Features
+
+* **component/modal:** add icon in modal header ([#1267](https://github.com/adeo/mozaic-design-system/issues/1267)) ([a2206b1](https://github.com/adeo/mozaic-design-system/commit/a2206b1be009635bf0fe693e2410fdda73739a2a))
+
+
+
+
+
 ## [1.48.2](https://github.com/adeo/mozaic-design-system/compare/v1.48.1...v1.48.2) (2022-11-22)
 
 
