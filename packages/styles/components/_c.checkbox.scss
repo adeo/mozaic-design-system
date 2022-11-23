@@ -12,6 +12,11 @@
     margin-left: magic-unit-rem(0.5, true);
   }
 
+  &__suffix-label {
+    color: $color-grey-600;
+    cursor: pointer;
+  }
+
   &__input {
     @include reset-input;
 
@@ -83,12 +88,10 @@
 
       &:indeterminate {
         background-color: $color-input-disabled-background;
-        background-image:
-          url(
-            inline-icons(
-              "control-less-16",
-              $color-input-disabled-icon
-            ));
+        background-image: url(inline-icons(
+          "control-less-16",
+          $color-input-disabled-icon
+        ));
         border-color: $color-input-disabled-border;
       }
     }
@@ -96,12 +99,10 @@
     &:checked {
       background-color: $color-input-checked-background;
       border-color: $color-input-checked-border;
-      background-image:
-        url(
-          inline-icons(
-            "checkmark-16",
-            $color-input-checked-icon
-          ));
+      background-image: url(inline-icons(
+        "checkmark-16",
+        $color-input-checked-icon
+      ));
       background-position: center center;
       background-size: $mu100;
 
@@ -121,24 +122,20 @@
       &:disabled {
         border-color: $color-input-disabled-border;
         background: $color-input-disabled-background;
-        background-image:
-          url(
-            inline-icons(
-              "checkmark-16",
-              $color-input-disabled-icon
-            ));
+        background-image: url(inline-icons(
+          "checkmark-16",
+          $color-input-disabled-icon
+        ));
       }
     }
 
     &:indeterminate {
       background-color: $color-input-checked-background;
       border-color: $color-input-checked-border;
-      background-image:
-        url(
-          inline-icons(
-            "control-less-16",
-            $color-input-checked-icon
-          ));
+      background-image: url(inline-icons(
+        "control-less-16",
+        $color-input-checked-icon
+      ));
     }
   }
 }
