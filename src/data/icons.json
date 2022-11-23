@@ -1085,6 +1085,14 @@
     {
       "cat": "Media",
       "size": "24px",
+      "name": "API",
+      "fileName": "Media_API_24px.svg",
+      "iconName": "API",
+      "componentName": "API24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
       "name": "BookStore",
       "fileName": "Media_BookStore_24px.svg",
       "iconName": "BookStore",
@@ -1109,6 +1117,14 @@
     {
       "cat": "Media",
       "size": "24px",
+      "name": "Document",
+      "fileName": "Media_Document_24px.svg",
+      "iconName": "Document",
+      "componentName": "Document24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
       "name": "Download_App",
       "fileName": "Media_Download_App_24px.svg",
       "iconName": "DownloadApp",
@@ -1129,6 +1145,22 @@
       "fileName": "Media_FullScreen_24px.svg",
       "iconName": "FullScreen",
       "componentName": "FullScreen24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
+      "name": "Gauge",
+      "fileName": "Media_Gauge_24px.svg",
+      "iconName": "Gauge",
+      "componentName": "Gauge24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
+      "name": "Group",
+      "fileName": "Media_Group_24px.svg",
+      "iconName": "Group",
+      "componentName": "Group24"
     },
     {
       "cat": "Media",
@@ -1161,6 +1193,14 @@
       "fileName": "Media_Player_24px.svg",
       "iconName": "Player",
       "componentName": "Player24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
+      "name": "Policies",
+      "fileName": "Media_Policies_24px.svg",
+      "iconName": "Policies",
+      "componentName": "Policies24"
     },
     {
       "cat": "Media",
@@ -3269,6 +3309,14 @@
     {
       "cat": "Media",
       "size": "32px",
+      "name": "API",
+      "fileName": "Media_API_32px.svg",
+      "iconName": "API",
+      "componentName": "API32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
       "name": "BookStore",
       "fileName": "Media_BookStore_32px.svg",
       "iconName": "BookStore",
@@ -3293,6 +3341,14 @@
     {
       "cat": "Media",
       "size": "32px",
+      "name": "Document",
+      "fileName": "Media_Document_32px.svg",
+      "iconName": "Document",
+      "componentName": "Document32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
       "name": "Download_App",
       "fileName": "Media_Download_App_32px.svg",
       "iconName": "DownloadApp",
@@ -3313,6 +3369,22 @@
       "fileName": "Media_FullScreen_32px.svg",
       "iconName": "FullScreen",
       "componentName": "FullScreen32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Gauge",
+      "fileName": "Media_Gauge_32px.svg",
+      "iconName": "Gauge",
+      "componentName": "Gauge32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Group",
+      "fileName": "Media_Group_32px.svg",
+      "iconName": "Group",
+      "componentName": "Group32"
     },
     {
       "cat": "Media",
@@ -3345,6 +3417,14 @@
       "fileName": "Media_Player_32px.svg",
       "iconName": "Player",
       "componentName": "Player32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Policies",
+      "fileName": "Media_Policies_32px.svg",
+      "iconName": "Policies",
+      "componentName": "Policies32"
     },
     {
       "cat": "Media",
@@ -5453,6 +5533,14 @@
     {
       "cat": "Media",
       "size": "48px",
+      "name": "API",
+      "fileName": "Media_API_48px.svg",
+      "iconName": "API",
+      "componentName": "API48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
       "name": "BookStore",
       "fileName": "Media_BookStore_48px.svg",
       "iconName": "BookStore",
@@ -5477,6 +5565,14 @@
     {
       "cat": "Media",
       "size": "48px",
+      "name": "Document",
+      "fileName": "Media_Document_48px.svg",
+      "iconName": "Document",
+      "componentName": "Document48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
       "name": "Download_App",
       "fileName": "Media_Download_App_48px.svg",
       "iconName": "DownloadApp",
@@ -5497,6 +5593,22 @@
       "fileName": "Media_FullScreen_48px.svg",
       "iconName": "FullScreen",
       "componentName": "FullScreen48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Gauge",
+      "fileName": "Media_Gauge_48px.svg",
+      "iconName": "Gauge",
+      "componentName": "Gauge48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Group",
+      "fileName": "Media_Group_48px.svg",
+      "iconName": "Group",
+      "componentName": "Group48"
     },
     {
       "cat": "Media",
@@ -5529,6 +5641,14 @@
       "fileName": "Media_Player_48px.svg",
       "iconName": "Player",
       "componentName": "Player48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Policies",
+      "fileName": "Media_Policies_48px.svg",
+      "iconName": "Policies",
+      "componentName": "Policies48"
     },
     {
       "cat": "Media",
@@ -7637,6 +7757,14 @@
     {
       "cat": "Media",
       "size": "64px",
+      "name": "API",
+      "fileName": "Media_API_64px.svg",
+      "iconName": "API",
+      "componentName": "API64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
       "name": "BookStore",
       "fileName": "Media_BookStore_64px.svg",
       "iconName": "BookStore",
@@ -7661,6 +7789,14 @@
     {
       "cat": "Media",
       "size": "64px",
+      "name": "Document",
+      "fileName": "Media_Document_64px.svg",
+      "iconName": "Document",
+      "componentName": "Document64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
       "name": "Download_App",
       "fileName": "Media_Download_App_64px.svg",
       "iconName": "DownloadApp",
@@ -7681,6 +7817,22 @@
       "fileName": "Media_FullScreen_64px.svg",
       "iconName": "FullScreen",
       "componentName": "FullScreen64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Gauge",
+      "fileName": "Media_Gauge_64px.svg",
+      "iconName": "Gauge",
+      "componentName": "Gauge64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Group",
+      "fileName": "Media_Group_64px.svg",
+      "iconName": "Group",
+      "componentName": "Group64"
     },
     {
       "cat": "Media",
@@ -7713,6 +7865,14 @@
       "fileName": "Media_Player_64px.svg",
       "iconName": "Player",
       "componentName": "Player64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Policies",
+      "fileName": "Media_Policies_64px.svg",
+      "iconName": "Policies",
+      "componentName": "Policies64"
     },
     {
       "cat": "Media",
