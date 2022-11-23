@@ -29,7 +29,7 @@ function generateTagObject(obj, iconName) {
     const customFillId = `fill-${filename}`
 
     if (
-      tagName === 'path' &&
+      (tagName === 'path' || tagName === 'rect') &&
       properties.fill &&
       properties.fill.includes('url')
     ) {
