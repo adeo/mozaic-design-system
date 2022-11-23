@@ -32,7 +32,7 @@ jobs:
           no_override: false
           ref: ${{ github.head_ref }}
       - name: Deploy Tag
-        uses: google-github-actions/deploy-appengine@main
+        uses: google-github-actions/deploy-appengine@v0.8.2
         with:
           project_id: mozaic-design-system-dtrp
           credentials: ${{ secrets.GCLOUD_AUTH }}
