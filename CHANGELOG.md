@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.48.2](https://github.com/adeo/mozaic-design-system/compare/v1.48.1...v1.48.2) (2022-11-22)
+
+
+### Bug Fixes
+
+* **component/accordion:** improve trigger button for scoped modules ([#1265](https://github.com/adeo/mozaic-design-system/issues/1265)) ([100686a](https://github.com/adeo/mozaic-design-system/commit/100686a7a9a850ba71d3b75b7f5d5015142865ab))
+
+
+
+
+
 ## [1.48.1](https://github.com/adeo/mozaic-design-system/compare/v1.48.0...v1.48.1) (2022-11-17)
 
 
