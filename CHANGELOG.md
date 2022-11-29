@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.49.1](https://github.com/adeo/mozaic-design-system/compare/v1.49.0...v1.49.1) (2022-11-29)
+
+
+### Bug Fixes
+
+* **component/overlay:** remove cursor:pointer on overlay ([#1273](https://github.com/adeo/mozaic-design-system/issues/1273)) ([5ebb29b](https://github.com/adeo/mozaic-design-system/commit/5ebb29b724e8ff722dde65a5282a94dc6a047f1e))
+* **components/tabs:** add no-padding modifier ([#1274](https://github.com/adeo/mozaic-design-system/issues/1274)) ([1d4ff14](https://github.com/adeo/mozaic-design-system/commit/1d4ff14ce7257a50d5252f1c875bfafa4f51c2ff))
+
+
+
+
+
 # [1.49.0](https://github.com/adeo/mozaic-design-system/compare/v1.48.2...v1.49.0) (2022-11-23)
 
 
