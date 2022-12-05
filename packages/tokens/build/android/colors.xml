@@ -357,11 +357,11 @@
   <color name="color_star_focus">#ff0b96cc</color>
   <color name="color_star_full">#ffea7315</color>
   <color name="color_star_hover">#fff4b27e</color>
-  <color name="color_stepper_item_background">#ff999999</color>
+  <color name="color_stepper_item_background">#ffcccccc</color>
   <color name="color_stepper_item_current_background">#ff46a610</color>
   <color name="color_stepper_link_hover_text">#ff46a610</color>
   <color name="color_stepper_indicator_background">#ffffffff</color>
-  <color name="color_stepper_indicator_border">#ff999999</color>
+  <color name="color_stepper_indicator_border">#ff666666</color>
   <color name="color_stepper_indicator_current_background">#ff46a610</color>
   <color name="color_stepper_indicator_current_border">#ff46a610</color>
   <color name="color_stepper_icon">#ff46a610</color>

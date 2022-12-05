@@ -7587,11 +7587,11 @@ module.exports = {
     "stepper": {
       "item": {
         "background": {
-          "value": "#999999",
+          "value": "#cccccc",
           "filePath": "packages/tokens/properties/color/stepper.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.400.value}"
+            "value": "{color.grey.200.value}"
           },
           "name": "ColorStepperItemBackground",
           "attributes": {
@@ -7683,11 +7683,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#999999",
+          "value": "#666666",
           "filePath": "packages/tokens/properties/color/stepper.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.400.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorStepperIndicatorBorder",
           "attributes": {

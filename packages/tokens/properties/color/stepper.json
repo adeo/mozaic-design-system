@@ -3,7 +3,7 @@
     "stepper": {
       "item": {
         "background": {
-          "value": "{color.grey.400.value}"
+          "value": "{color.grey.200.value}"
         },
         "current": {
           "background": {
@@ -23,7 +23,7 @@
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.grey.400.value}"
+          "value": "{color.grey.600.value}"
         },
         "current": {
           "background": {
