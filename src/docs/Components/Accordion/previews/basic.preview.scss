@@ -1,6 +1,9 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
-@import "components/c.accordion";
+
+#example {
+  @import "components/c.accordion";
+}
 
 .example {
   margin: $mu125;

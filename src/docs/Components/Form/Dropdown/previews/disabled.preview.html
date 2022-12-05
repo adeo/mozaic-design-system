@@ -1,43 +1,101 @@
 <div class="example">
   <div class="mc-dropdown">
-    <button type="button" id="trigger" class="mc-dropdown__trigger" aria-haspopup="listbox" title="Dropdown menu options" aria-expanded="false" disabled>Placeholder</button>
-    <ul
-	  id="listbox"
-      tabindex="-1"
-      role="listbox"
-      aria-labelledby="lisbox"
-      class="mc-listbox"
+    <button
+      type="button"
+      id="trigger"
+      class="mc-select mc-dropdown__trigger"
+      aria-haspopup="listbox"
+      title="Dropdown menu options"
+      aria-expanded="false"
+      disabled
     >
-      <li class="mc-listbox__item is-checked" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      Placeholder
+    </button>
+
+    <!-- Listbox -->
+    <ul id="listbox" class="mc-listbox" role="listbox">
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem1"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option1"
+        />
+        <label for="monoItem1" class="mc-listbox__label">
+          Option label n°1
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem2"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option2"
+        />
+        <label for="monoItem2" class="mc-listbox__label">
+          Option label n°2
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem3"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option3"
+        />
+        <label for="monoItem3" class="mc-listbox__label">
+          Option label n°3
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem4"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option4"
+        />
+        <label for="monoItem4" class="mc-listbox__label">
+          Option label n°4
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem5"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option5"
+        />
+        <label for="monoItem5" class="mc-listbox__label">
+          Option label n°5
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem6"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option6"
+        />
+        <label for="monoItem6" class="mc-listbox__label">
+          Option label n°6
+        </label>
       </li>
     </ul>
   </div>
 </div>
 
-  <!-- scripts -->
-  <script>
-    const action = document.getElementById('trigger')
+<!-- scripts -->
+<script>
+  const action = document.getElementById('trigger')
 
-    action.addEventListener('click', function (e) {
-			const list = document.getElementById('listbox')
-			list.classList.toggle('is-open')
-		})
-
-  </script>
-</div>
+  action.addEventListener('click', function (e) {
+    const list = document.getElementById('listbox')
+    list.classList.toggle('is-open')
+  })
+</script>

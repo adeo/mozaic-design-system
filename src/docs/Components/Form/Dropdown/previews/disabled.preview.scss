@@ -1,5 +1,7 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+@import "components/c.select";
+@import "components/c.tag"; // optional - to be imported when using the multiselection version
 @import "components/c.listbox";
 @import "components/c.dropdown";
 
