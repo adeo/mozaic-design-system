@@ -12,11 +12,11 @@
     margin-left: magic-unit-rem(0.5, true);
   }
 
-  &__suffix-label {
-    color: $color-grey-600;
+  &__suffix {
+    color: $color-font-light;
     cursor: pointer;
   }
-  
+
   &__input {
     @include reset-input;
 
