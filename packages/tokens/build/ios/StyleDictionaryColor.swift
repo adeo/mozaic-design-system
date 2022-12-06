@@ -253,6 +253,8 @@ public class StyleDictionaryColor {
     public static let colorOptionButtonLabelShadow = UIColor(red: 0.702, green: 0.702, blue: 0.702, alpha: 1)
     public static let colorOptionCardCheckedLabelBorder = UIColor(red: 0.275, green: 0.651, blue: 0.063, alpha: 1)
     public static let colorOptionCardCheckedLabelShadow = UIColor(red: 0.922, green: 0.961, blue: 0.871, alpha: 1)
+    public static let colorOptionCardDisabledContent = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
+    public static let colorOptionCardDisabledLabel = UIColor(red: 0.400, green: 0.400, blue: 0.400, alpha: 1)
     public static let colorOptionCardHoverLabelShadow = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1)
     public static let colorOptionCardLabelShadow = UIColor(red: 0.702, green: 0.702, blue: 0.702, alpha: 1)
     public static let colorOverlayBackground = UIColor(red: 0.098, green: 0.098, blue: 0.098, alpha: 1)
