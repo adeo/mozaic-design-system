@@ -14,14 +14,17 @@
         "value": "{color.grey.000.value}"
       },
       "disabled": {
-        "border": {
+        "background": {
           "value": "{color.grey.100.value}"
         },
-        "background": {
+        "border": {
           "value": "{color.grey.100.value}"
         },
         "icon": {
           "value": "{color.grey.400.value}"
+        },
+        "label": {
+          "value": "{color.grey.500.value}"
         }
       },
       "hover": {

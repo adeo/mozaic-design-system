@@ -78,6 +78,7 @@
   --color-tooltip-background: var(--color-grey-700);
   --color-toggle-disabled-checked-circle: var(--color-grey-000);
   --color-toggle-disabled-checked-background: var(--color-primary-01-200);
+  --color-toggle-disabled-label: var(--color-grey-500);
   --color-toggle-disabled-circle: var(--color-grey-300);
   --color-toggle-disabled-background: var(--color-grey-100);
   --color-toggle-hover-circle: var(--color-grey-100);
@@ -85,6 +86,7 @@
   --color-toggle-on-background: var(--color-primary-01-500);
   --color-toggle-off-circle: var(--color-grey-000);
   --color-toggle-off-background: var(--color-grey-600);
+  --color-toggle-label: var(--color-grey-999);
   --color-tag-removable-dark-active-background: var(--color-grey-400);
   --color-tag-removable-dark-hover-background: var(--color-grey-300);
   --color-tag-removable-dark-icon: var(--color-grey-900);
@@ -214,11 +216,12 @@
   --color-input-checked-border: var(--color-primary-01-500);
   --color-input-focus-border: var(--color-secondary-blue-500);
   --color-input-hover-border: var(--color-grey-900);
+  --color-input-disabled-label: var(--color-grey-500);
   --color-input-disabled-icon: var(--color-grey-400);
-  --color-input-disabled-background: var(--color-grey-100);
   --color-input-disabled-border: var(--color-grey-100);
+  --color-input-disabled-background: var(--color-grey-100);
   --color-input-background: var(--color-grey-000);
-  --color-input-placeholder: var(--color-grey-500);
+  --color-input-placeholder: var(--color-grey-600);
   --color-input-border: var(--color-grey-600);
   --color-input-text: var(--color-grey-900);
   --color-hero-cover-background: var(--color-grey-900);

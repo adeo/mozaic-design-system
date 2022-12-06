@@ -2,6 +2,8 @@
 
 /* stylelint-disable no-descending-specificity */
 .mc-checkbox {
+  $parent: get-parent-selector(&);
+
   align-items: center;
   display: flex;
 
@@ -21,34 +23,16 @@
     height: $checkbox-width;
     border-radius: $checkbox-border-radius;
     border: $checkbox-border-width solid $color-input-border;
-    background: $color-input-background;
+    background-color: $color-input-background;
     position: relative;
     transition: all 200ms ease;
     cursor: pointer;
 
     &::-ms-check {
+      background-color: $color-input-background;
       border: $checkbox-border-width solid $color-input-border;
-      background: $color-input-background;
       border-radius: $checkbox-border-radius;
       color: $color-input-checked-icon;
-    }
-
-    &.is-invalid {
-      border-color: $color-input-invalid-border;
-
-      &::-ms-check {
-        border-color: $color-input-invalid-border;
-      }
-
-      &:hover {
-        @include add-demo-state-class {
-          border-color: $color-input-invalid-hover-border;
-
-          &::-ms-check {
-            border-color: $color-input-invalid-hover-border;
-          }
-        }
-      }
     }
 
     &:hover {
@@ -71,74 +55,86 @@
       }
     }
 
-    &:disabled {
-      border-color: $color-input-disabled-border;
-      background: $color-input-disabled-background;
-      cursor: not-allowed;
-
-      &::-ms-check {
-        border-color: $color-input-disabled-border;
-        background: $color-input-disabled-background;
-      }
-
-      &:indeterminate {
-        background-color: $color-input-disabled-background;
-        background-image:
-          url(
-            inline-icons(
-              "control-less-16",
-              $color-input-disabled-icon
-            ));
-        border-color: $color-input-disabled-border;
-      }
+    &:checked,
+    &:indeterminate {
+      background-color: $color-input-checked-background;
+      border-color: $color-input-checked-border;
+      background-size: $mu100 $mu100;
     }
 
     &:checked {
-      background-color: $color-input-checked-background;
-      border-color: $color-input-checked-border;
-      background-image:
-        url(
-          inline-icons(
-            "checkmark-16",
-            $color-input-checked-icon
-          ));
+      background-image: url(inline-icons(
+        "checkmark-16",
+        $color-input-checked-icon
+      ));
       background-position: center center;
-      background-size: $mu100;
 
       &::-ms-check {
         background-color: $color-input-checked-background;
         border-color: $color-input-checked-border;
       }
 
-      &:hover {
+      &:hover:not(:disabled) {
         border-color: $color-input-checked-hover-border;
 
         &::-ms-check {
           border-color: $color-input-checked-hover-border;
         }
       }
-
-      &:disabled {
-        border-color: $color-input-disabled-border;
-        background: $color-input-disabled-background;
-        background-image:
-          url(
-            inline-icons(
-              "checkmark-16",
-              $color-input-disabled-icon
-            ));
-      }
     }
 
     &:indeterminate {
-      background-color: $color-input-checked-background;
-      border-color: $color-input-checked-border;
-      background-image:
-        url(
-          inline-icons(
-            "control-less-16",
-            $color-input-checked-icon
-          ));
+      background-image: url(inline-icons(
+        "control-less-16",
+        $color-input-checked-icon
+      ));
+    }
+
+    &:disabled {
+      background-color: $color-input-disabled-background;
+      border-color: $color-input-disabled-border;
+      cursor: not-allowed;
+
+      &::-ms-check {
+        background-color: $color-input-disabled-background;
+        border-color: $color-input-disabled-border;
+      }
+
+      &:checked {
+        background-image: url(inline-icons(
+          "checkmark-16",
+          $color-input-disabled-icon
+        ));
+      }
+
+      &:indeterminate {
+        background-image: url(inline-icons(
+          "control-less-16",
+          $color-input-disabled-icon
+        ));
+      }
+
+      & + #{$parent}__label {
+        color: $color-input-disabled-label;
+      }
+    }
+
+    &.is-invalid {
+      border-color: $color-input-invalid-border;
+
+      &::-ms-check {
+        border-color: $color-input-invalid-border;
+      }
+
+      &:hover {
+        @include add-demo-state-class {
+          border-color: $color-input-invalid-hover-border;
+
+          &::-ms-check {
+            border-color: $color-input-invalid-hover-border;
+          }
+        }
+      }
     }
   }
 }

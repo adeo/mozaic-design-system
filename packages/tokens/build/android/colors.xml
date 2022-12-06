@@ -273,11 +273,12 @@
   <color name="color_hero_cover_background">#ff191919</color>
   <color name="color_input_text">#ff191919</color>
   <color name="color_input_border">#ff666666</color>
-  <color name="color_input_placeholder">#ff808080</color>
+  <color name="color_input_placeholder">#ff666666</color>
   <color name="color_input_background">#ffffffff</color>
-  <color name="color_input_disabled_border">#ffe6e6e6</color>
   <color name="color_input_disabled_background">#ffe6e6e6</color>
+  <color name="color_input_disabled_border">#ffe6e6e6</color>
   <color name="color_input_disabled_icon">#ff999999</color>
+  <color name="color_input_disabled_label">#ff808080</color>
   <color name="color_input_hover_border">#ff191919</color>
   <color name="color_input_focus_border">#ff0b96cc</color>
   <color name="color_input_valid_border">#ff46a610</color>
@@ -428,6 +429,7 @@
   <color name="color_tag_removable_dark_icon">#ff191919</color>
   <color name="color_tag_removable_dark_hover_background">#ffb3b3b3</color>
   <color name="color_tag_removable_dark_active_background">#ff999999</color>
+  <color name="color_toggle_label">#ff000000</color>
   <color name="color_toggle_off_background">#ff666666</color>
   <color name="color_toggle_off_circle">#ffffffff</color>
   <color name="color_toggle_on_background">#ff46a610</color>
@@ -435,6 +437,7 @@
   <color name="color_toggle_hover_circle">#ffe6e6e6</color>
   <color name="color_toggle_disabled_background">#ffe6e6e6</color>
   <color name="color_toggle_disabled_circle">#ffb3b3b3</color>
+  <color name="color_toggle_disabled_label">#ff808080</color>
   <color name="color_toggle_disabled_checked_background">#ffc5e39e</color>
   <color name="color_toggle_disabled_checked_circle">#ffffffff</color>
   <color name="color_tooltip_background">#ff4d4d4d</color>
