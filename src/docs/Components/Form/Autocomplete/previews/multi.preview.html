@@ -1,31 +1,42 @@
 <div class="example">
   <div id="js-autocomplete" class="mc-autocomplete mc-autocomplete--multi">
-    <!-- Tag -->
-    <span
-      id="js-tag"
-      class="mc-tag-removable mc-tag-removable--s mc-autocomplete__tag"
-      hidden
-    >
-      <span class="mc-tag-removable__label"> 1 </span>
-      <button class="mc-tag-removable__remove">
-        <span class="mc-tag-removable__remove-text"> Delete tag </span>
-      </button>
-    </span>
+    <div class="mc-autocomplete__main">
+      <!-- Tag -->
+      <span
+        id="js-tag"
+        class="mc-tag-removable mc-tag-removable--s mc-autocomplete__tag"
+        hidden
+      >
+        <span class="mc-tag-removable__label"> 1 </span>
+        <button class="mc-tag-removable__remove">
+          <span class="mc-tag-removable__remove-text"> Delete tag </span>
+        </button>
+      </span>
 
-    <!-- Input -->
-    <div class="mc-left-icon-input">
-      <svg class="mc-left-icon-input__icon">
-        <use xlink:href="#DisplaySearch24" />
-      </svg>
-      <input
-        id="js-trigger"
-        type="search"
-        class="mc-left-icon-input__input mc-text-input mc-autocomplete__trigger"
-        placeholder="Placeholder"
-        autocomplete="off"
-        aria-autocomplete="listbox"
-        aria-expanded="false"
-      />
+      <!-- Input -->
+      <div class="mc-left-icon-input">
+        <svg class="mc-left-icon-input__icon">
+          <use xlink:href="#DisplaySearch24" />
+        </svg>
+        <input
+          id="js-trigger"
+          type="search"
+          class="mc-left-icon-input__input mc-text-input mc-autocomplete__trigger"
+          placeholder="Placeholder"
+          autocomplete="off"
+          aria-autocomplete="listbox"
+          aria-expanded="false"
+        />
+      </div>
+
+      <!-- Clear Button -->
+      <button class="mc-autocomplete__clear" type="button">
+        <svg class="mc-autocomplete__clear-icon">
+          <use xlink:href="#ControlTagCross24" />
+        </svg>
+
+        <span class="mc-autocomplete__clear-text">Clear</span>
+      </button>
     </div>
 
     <!-- Listbox -->

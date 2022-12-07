@@ -1,23 +1,28 @@
 <div class="example">
   <div class="mc-dropdown mc-dropdown--multi">
-    <span
-      class="mc-dropdown__tag mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
-    >
-      <span class="mc-tag-removable__label"> 1 </span>
-      <button class="mc-tag-removable__remove">
-        <span class="mc-tag-removable__remove-text"> Delete tag </span>
+    <div class="mc-dropdown__main">
+      <!-- Tag -->
+      <span
+        class="mc-dropdown__tag mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
+      >
+        <span class="mc-tag-removable__label"> 1 </span>
+        <button class="mc-tag-removable__remove">
+          <span class="mc-tag-removable__remove-text"> Delete tag </span>
+        </button>
+      </span>
+
+      <!-- Trigger -->
+      <button
+        type="button"
+        id="trigger"
+        class="mc-select mc-dropdown__trigger"
+        aria-haspopup="listbox"
+        title="Dropdown menu options"
+        aria-expanded="false"
+      >
+        Placeholder
       </button>
-    </span>
-    <button
-      type="button"
-      id="trigger"
-      class="mc-select mc-dropdown__trigger"
-      aria-haspopup="listbox"
-      title="Dropdown menu options"
-      aria-expanded="false"
-    >
-      Placeholder
-    </button>
+    </div>
 
     <!-- Listbox -->
     <ul id="listbox" class="mc-listbox mc-listbox--multi" role="listbox">

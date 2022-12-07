@@ -1,21 +1,53 @@
 .mc-autocomplete {
   $parent: get-parent-selector(&);
 
+  align-self: start;
   position: relative;
   min-width: $autocomplete-min-width;
   max-width: var(--autocomplete-width, $autocomplete-width);
   width: 100%;
 
   &__tag,
-  &__loader {
+  &__loader,
+  &__clear {
     position: absolute;
+  }
+
+  &__tag,
+  &__clear {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: $autocomplete-tag-zindex;
   }
 
   &__tag {
     left: $mu300 - $mu025;
-    top: 0;
-    transform: translateY(50%);
-    z-index: $autocomplete-tag-zindex;
+  }
+
+  &__clear {
+    @include unstyle-button();
+
+    background: none;
+    right: $mu075;
+
+    &,
+    &-icon {
+      height: $mu150;
+      width: $mu150;
+    }
+
+    &-icon {
+      fill: $color-grey-600;
+    }
+
+    &-text {
+      @include visually-hidden();
+    }
+
+    // invalid state
+    .is-invalid + & {
+      right: $mu250;
+    }
   }
 
   &__loader {
