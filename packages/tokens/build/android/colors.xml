@@ -342,6 +342,8 @@
   <color name="color_option_card_hover_label_shadow">#ff333333</color>
   <color name="color_option_card_checked_label_border">#ff46a610</color>
   <color name="color_option_card_checked_label_shadow">#ffebf5de</color>
+  <color name="color_option_card_disabled_content">#ffcccccc</color>
+  <color name="color_option_card_disabled_label">#ff666666</color>
   <color name="color_overlay_background">#ff191919</color>
   <color name="color_overlay_loader_background">#ff191919</color>
   <color name="color_password_input_button_hover_background">#ffe6e6e6</color>

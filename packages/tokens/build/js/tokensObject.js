@@ -7249,6 +7249,50 @@ module.exports = {
             ]
           }
         }
+      },
+      "disabled": {
+        "content": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/option-card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorOptionCardDisabledContent",
+          "attributes": {
+            "category": "color",
+            "type": "option-card",
+            "item": "disabled",
+            "subitem": "content"
+          },
+          "path": [
+            "color",
+            "option-card",
+            "disabled",
+            "content"
+          ]
+        },
+        "label": {
+          "value": "#666666",
+          "filePath": "packages/tokens/properties/color/option-card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorOptionCardDisabledLabel",
+          "attributes": {
+            "category": "color",
+            "type": "option-card",
+            "item": "disabled",
+            "subitem": "label"
+          },
+          "path": [
+            "color",
+            "option-card",
+            "disabled",
+            "label"
+          ]
+        }
       }
     },
     "overlay": {
