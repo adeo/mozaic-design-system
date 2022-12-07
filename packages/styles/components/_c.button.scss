@@ -39,6 +39,10 @@
   }
 
   &--square {
+    @include set-from-screen("l") {
+      padding: 0;
+    }
+
     align-items: center;
     height: 0;
     padding: 0;
