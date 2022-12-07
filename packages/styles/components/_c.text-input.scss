@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* mqp:start */
 .mc-text-input {
   @include reset-input;
@@ -7,10 +9,10 @@
   display: block;
   width: 100%;
   position: relative;
-  border: get-border('s') solid $color-input-border;
+  border: get-border("s") solid $color-input-border;
   color: $color-input-text;
   background-color: $color-input-background;
-  border-radius: get-border-radius('m');
+  border-radius: get-border-radius("m");
 
   &::placeholder {
     margin: 0;
@@ -21,19 +23,18 @@
   &.is-valid,
   &.is-invalid {
     background-repeat: no-repeat;
-    background-size: $mu100 $mu100;
-    background-position: right $mu050 center;
+    background-size: $mu150 $mu150;
+    background-position: right math.div($mu175, 4) center; // right 7px center
     padding-right: $mu250;
   }
 
   &.is-valid {
     border-color: $color-input-valid-border;
-    background-image:
-      url(
-        inline-icons(
-          'checkmark-16',
-          $color-input-valid-border
-        ));
+    background-image: url(
+      inline-icons(
+        "notification-circle-available-24",
+        $color-input-valid-border
+      ));
 
     &:hover,
     &.is-hover {
@@ -43,12 +44,11 @@
 
   &.is-invalid {
     border-color: $color-input-invalid-border;
-    background-image:
-      url(
-        inline-icons(
-          'cross-16',
-          $color-input-invalid-border
-        ));
+    background-image: url(
+      inline-icons(
+        "notification-warning-24",
+        $color-input-invalid-border
+      ));
 
     &:hover,
     &.is-hover {
@@ -69,8 +69,9 @@
   }
 
   &:disabled {
-    border-color: $color-input-disabled-border;
     background: $color-input-disabled-background;
+    border-color: $color-input-disabled-border;
+    color: $color-input-placeholder;
     cursor: not-allowed;
   }
 

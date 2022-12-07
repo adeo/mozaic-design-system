@@ -5714,11 +5714,11 @@ module.exports = {
         ]
       },
       "placeholder": {
-        "value": "#808080",
+        "value": "#666666",
         "filePath": "packages/tokens/properties/color/input.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.grey.600.value}"
         },
         "name": "ColorInputPlaceholder",
         "attributes": {
@@ -5752,27 +5752,6 @@ module.exports = {
         ]
       },
       "disabled": {
-        "border": {
-          "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/input.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.grey.100.value}"
-          },
-          "name": "ColorInputDisabledBorder",
-          "attributes": {
-            "category": "color",
-            "type": "input",
-            "item": "disabled",
-            "subitem": "border"
-          },
-          "path": [
-            "color",
-            "input",
-            "disabled",
-            "border"
-          ]
-        },
         "background": {
           "value": "#e6e6e6",
           "filePath": "packages/tokens/properties/color/input.json",
@@ -5794,6 +5773,27 @@ module.exports = {
             "background"
           ]
         },
+        "border": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorInputDisabledBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "border"
+          ]
+        },
         "icon": {
           "value": "#999999",
           "filePath": "packages/tokens/properties/color/input.json",
@@ -5813,6 +5813,27 @@ module.exports = {
             "input",
             "disabled",
             "icon"
+          ]
+        },
+        "label": {
+          "value": "#808080",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorInputDisabledLabel",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "label"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "label"
           ]
         }
       },
@@ -9331,6 +9352,25 @@ module.exports = {
       }
     },
     "toggle": {
+      "label": {
+        "value": "#000000",
+        "filePath": "packages/tokens/properties/color/toggle.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorToggleLabel",
+        "attributes": {
+          "category": "color",
+          "type": "toggle",
+          "item": "label"
+        },
+        "path": [
+          "color",
+          "toggle",
+          "label"
+        ]
+      },
       "off": {
         "background": {
           "value": "#666666",
@@ -9483,6 +9523,27 @@ module.exports = {
             "toggle",
             "disabled",
             "circle"
+          ]
+        },
+        "label": {
+          "value": "#808080",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorToggleDisabledLabel",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled",
+            "subitem": "label"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled",
+            "label"
           ]
         }
       },

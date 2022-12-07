@@ -2,11 +2,13 @@
 
 /* stylelint-disable no-descending-specificity */
 .mc-radio {
+  $parent: get-parent-selector(&);
+
   align-items: center;
   display: flex;
 
   &__label {
-    @include set-font-scale('05', 's');
+    @include set-font-scale("05", "s");
 
     cursor: pointer;
     margin-left: magic-unit-rem(0.5, true);
@@ -21,33 +23,29 @@
     min-height: $radio-min-height;
     height: $radio-height;
     border-radius: 50%;
-    background: $color-input-background;
+    background-color: $color-input-background;
     position: relative;
     transition: all 200ms ease;
     cursor: pointer;
 
-    &::-ms-check {
-      background: $color-input-background;
-      border: $radio-border-width solid $color-input-border;
-      color: $color-input-background;
+    &::before {
+      border-radius: 50%;
+      content: "";
+      display: block;
+      height: px-to-rem(6);
+      left: 50%;
+      min-height: 6px;
+      min-width: 6px;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: px-to-rem(6);
     }
 
-    &.is-invalid {
-      border-color: $color-input-invalid-border;
-
-      &::-ms-check {
-        border-color: $color-input-invalid-border;
-      }
-
-      &:hover {
-        @include add-demo-state-class {
-          border-color: $color-input-invalid-hover-border;
-
-          &::-ms-check {
-            border-color: $color-input-invalid-hover-border;
-          }
-        }
-      }
+    &::-ms-check {
+      background-color: $color-input-background;
+      border: $radio-border-width solid $color-input-border;
+      color: $color-input-background;
     }
 
     &:hover {
@@ -70,21 +68,9 @@
       }
     }
 
-    &:disabled {
-      border-color: $color-input-disabled-background;
-      background: $color-input-disabled-background;
-      cursor: not-allowed;
-
-      &::-ms-check {
-        border-color: $color-input-disabled-background;
-        background: $color-input-disabled-background;
-        cursor: not-allowed;
-      }
-    }
-
     &:checked {
-      border-color: $color-input-checked-border;
       background-color: $color-input-checked-background;
+      border-color: $color-input-checked-border;
 
       &::-ms-check {
         border-color: $color-input-checked-border;
@@ -92,18 +78,7 @@
       }
 
       &::before {
-        content: '';
-        background: $color-input-background;
-        display: block;
-        width: px-to-rem(6);
-        min-width: 6px;
-        height: px-to-rem(6);
-        min-height: 6px;
-        border-radius: 50%;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        background-color: $color-input-background;
       }
 
       &:hover {
@@ -111,6 +86,44 @@
 
         &::-ms-check {
           border-color: $color-input-checked-hover-border;
+        }
+      }
+    }
+
+    &:disabled {
+      background-color: $color-input-disabled-background;
+      border-color: $color-input-disabled-background;
+      cursor: not-allowed;
+
+      &::before {
+        background-color: $color-input-disabled-icon;
+      }
+
+      &::-ms-check {
+        background-color: $color-input-disabled-background;
+        border-color: $color-input-disabled-background;
+        cursor: not-allowed;
+      }
+
+      & + #{$parent}__label {
+        color: $color-input-disabled-label;
+      }
+    }
+
+    &.is-invalid {
+      border-color: $color-input-invalid-border;
+
+      &::-ms-check {
+        border-color: $color-input-invalid-border;
+      }
+
+      &:hover {
+        @include add-demo-state-class {
+          border-color: $color-input-invalid-hover-border;
+
+          &::-ms-check {
+            border-color: $color-input-invalid-hover-border;
+          }
         }
       }
     }
