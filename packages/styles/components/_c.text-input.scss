@@ -30,10 +30,11 @@
 
   &.is-valid {
     border-color: $color-input-valid-border;
-    background-image: url(inline-icons(
-      "notification-available-24",
-      $color-input-valid-border
-    ));
+    background-image: url(
+      inline-icons(
+        "notification-circle-available-24",
+        $color-input-valid-border
+      ));
 
     &:hover,
     &.is-hover {
@@ -43,10 +44,11 @@
 
   &.is-invalid {
     border-color: $color-input-invalid-border;
-    background-image: url(inline-icons(
-      "notification-warning-24",
-      $color-input-invalid-border
-    ));
+    background-image: url(
+      inline-icons(
+        "notification-warning-24",
+        $color-input-invalid-border
+      ));
 
     &:hover,
     &.is-hover {
