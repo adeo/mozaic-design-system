@@ -19,7 +19,7 @@
   &__tag,
   &__clear {
     position: absolute;
-    top: -50%;
+    top: 50%;
     transform: translateY(-50%);
     z-index: $dropdown-tag-zindex;
   }
@@ -30,9 +30,11 @@
 
   &__clear {
     @include unstyle-button();
+    @include set-common-focus();
 
     background: none;
-    right: $mu075;
+    border-radius: 50%;
+    right: $mu250;
 
     &,
     &-icon {

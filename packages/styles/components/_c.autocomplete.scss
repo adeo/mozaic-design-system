@@ -26,8 +26,10 @@
 
   &__clear {
     @include unstyle-button();
+    @include set-common-focus();
 
     background: none;
+    border-radius: 50%;
     right: $mu075;
 
     &,
