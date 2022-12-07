@@ -50,8 +50,14 @@
           pointer-events: none;
         }
 
+        & ~ #{$parent}__label {
+          border-color: $color-option-card-disabled-content;
+          box-shadow: 0 0 0 1px $color-option-card-disabled-content;
+        }
+
         & ~ #{$parent}__content {
           background-color: $color-option-card-disabled-content;
+          border-radius: 0;
           color: $color-option-card-disabled-label;
         }
       }
