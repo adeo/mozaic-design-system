@@ -1,6 +1,7 @@
 .mc-dropdown {
   $parent: get-parent-selector(&);
 
+  align-self: start;
   position: relative;
   min-width: $dropdown-min-width;
   max-width: var(--dropdown-width, $dropdown-width);
@@ -15,12 +16,44 @@
     }
   }
 
-  &__tag {
-    left: $mu075;
+  &__tag,
+  &__clear {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: $dropdown-tag-zindex;
+  }
+
+  &__tag {
+    left: $mu075;
+  }
+
+  &__clear {
+    @include unstyle-button();
+    @include set-common-focus();
+
+    background: none;
+    border-radius: 50%;
+    right: $mu250;
+
+    &,
+    &-icon {
+      height: $mu150;
+      width: $mu150;
+    }
+
+    &-icon {
+      fill: $color-grey-600;
+    }
+
+    &-text {
+      @include visually-hidden();
+    }
+
+    // invalid state
+    .is-invalid + & {
+      right: 4.5rem; // =72px
+    }
   }
 
   &--multi {
