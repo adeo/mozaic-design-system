@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.50.0](https://github.com/adeo/mozaic-design-system/compare/v1.49.1...v1.50.0) (2022-12-08)
+
+
+### Features
+
+* **component/option-card:** add variation with `disabled` state ([#1284](https://github.com/adeo/mozaic-design-system/issues/1284)) ([4b4ce50](https://github.com/adeo/mozaic-design-system/commit/4b4ce502edb907086ae5d39d1422cf25444cf1af)), closes [#1278](https://github.com/adeo/mozaic-design-system/issues/1278)
+* **components/form:** update icons for valid & invalid states on form elements ([#1286](https://github.com/adeo/mozaic-design-system/issues/1286)) ([737709f](https://github.com/adeo/mozaic-design-system/commit/737709fbcb509d29981e5ebe2f4ba22bc13b8e38))
+
+
+
+
+
 # [1.47.0](https://github.com/adeo/mozaic-design-system/compare/v1.46.0...v1.47.0) (2022-11-09)
 
 

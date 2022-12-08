@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.50.0](https://github.com/adeo/mozaic-design-system/compare/v1.49.1...v1.50.0) (2022-12-08)
+
+
+### Features
+
+* **component/autocomplete-dropdown:** add clear button ([#1287](https://github.com/adeo/mozaic-design-system/issues/1287)) ([ec99fd7](https://github.com/adeo/mozaic-design-system/commit/ec99fd7bf5f6d195b5f7031fdc07744bca3e70dc))
+* **component/dropdown:** improve component styles & documentation ([#1277](https://github.com/adeo/mozaic-design-system/issues/1277)) ([97616ac](https://github.com/adeo/mozaic-design-system/commit/97616ac34879913cb8e53c514d7fef9a62600cf7))
+* **component/option-card:** add variation with `disabled` state ([#1284](https://github.com/adeo/mozaic-design-system/issues/1284)) ([4b4ce50](https://github.com/adeo/mozaic-design-system/commit/4b4ce502edb907086ae5d39d1422cf25444cf1af)), closes [#1278](https://github.com/adeo/mozaic-design-system/issues/1278)
+* **components/form:** update icons for valid & invalid states on form elements ([#1286](https://github.com/adeo/mozaic-design-system/issues/1286)) ([737709f](https://github.com/adeo/mozaic-design-system/commit/737709fbcb509d29981e5ebe2f4ba22bc13b8e38))
+* **pagination:** use button rather than specific classes ([#1285](https://github.com/adeo/mozaic-design-system/issues/1285)) ([d2af879](https://github.com/adeo/mozaic-design-system/commit/d2af87935df707dc872c88eb7dd781606fa56439))
+
+
+
+
+
 ## [1.49.1](https://github.com/adeo/mozaic-design-system/compare/v1.49.0...v1.49.1) (2022-11-29)
 
 
