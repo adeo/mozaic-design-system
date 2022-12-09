@@ -32,6 +32,11 @@
     text-align: center;
   }
 
+  &__flag-search-field {
+    position: sticky;
+    top: 0;
+  }
+
   &__list {
     @include unstyle-list();
     @include set-box-shadow("l");
