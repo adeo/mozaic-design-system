@@ -20,6 +20,7 @@ const source = localSrcPath
 const availablePresets = {
   adeo: 'AdeoProperties/**/*.json',
   bricoman: 'BricomanProperties/**/*.json',
+  zodio: 'ZodioProperties/**/*.json',
 }
 
 if (preset) {
