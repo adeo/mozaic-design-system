@@ -447,7 +447,17 @@ ColorToggleDisabledLabel,
 ColorToggleDisabledCheckedBackground,
 ColorToggleDisabledCheckedCircle,
 ColorTooltipBackground,
-ColorTooltipBorder
+ColorTooltipBorder,
+ColorSecondarySsPink,
+ColorSecondarySsOrange,
+ColorSecondarySsBlue,
+ColorSecondarySsBluedark,
+ColorSecondaryAwPink,
+ColorSecondaryAwGreen,
+ColorSecondaryAwGreendark,
+ColorSecondaryAwBluedark,
+ColorSecondaryLoyaltyDark,
+ColorSecondaryLoyaltyLight
 };
 
 @interface StyleDictionaryColor : NSObject

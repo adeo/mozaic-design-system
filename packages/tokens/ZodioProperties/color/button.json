@@ -3,7 +3,10 @@
     "button": {
       "solid": {
         "background": {
-          "value": "{color.primary-01.600.value}"
+          "value": "{color.primary-01.100.value}"
+        },
+        "font": {
+          "value": "{color.grey.999.value}"
         },
         "hover": {
           "background": {

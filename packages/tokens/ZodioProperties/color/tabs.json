@@ -12,7 +12,7 @@
       },
       "element": {
         "background": {
-          "value": "{color.secondary-sandgrey.100.value}"
+          "value": "{color.primary-01.100.value}"
         }
       },
       "hover": {
@@ -25,18 +25,18 @@
       },
       "active": {
         "background": {
-          "value": "{color.secondary-sandgrey.200.value}"
+          "value": "{color.primary-01.200.value}"
         },
         "text": {
-          "value": "{color.primary-01.800.value}"
+          "value": "{color.font.dark.value}"
         }
       },
       "selected": {
         "border": {
-          "value": "{color.primary-01.600.value}"
+          "value": "{color.grey.999.value}"
         },
         "text": {
-          "value": "{color.primary-01.600.value}"
+          "value": "{color.font.darkest.value}"
         }
       },
       "active-disabled": {

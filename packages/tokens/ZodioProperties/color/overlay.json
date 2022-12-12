@@ -3,7 +3,7 @@
     "overlay": {
       "loader": {
         "background": {
-          "value": "{color.secondary-blue.900.value}"
+          "value": "{color.grey.600.value}"
         }
       }
     }

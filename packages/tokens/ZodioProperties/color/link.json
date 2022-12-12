@@ -2,7 +2,7 @@
   "color": {
     "link": {
       "primary": {
-        "base": { "value": "{color.primary-01.600.value}" }
+        "base": { "value": "{color.grey.600.value}" }
       },
       "danger": {
         "base": { "value": "{color.secondary-red.600.value}" }

@@ -382,11 +382,11 @@ module.exports = {
     },
     "primary-01": {
       "100": {
-        "value": "#ebf5de",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#f1e7d8",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EBF5DE"
+          "value": "#F1E7D8"
         },
         "name": "ColorPrimary01100",
         "attributes": {
@@ -401,11 +401,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#c5e39e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#e1d0b7",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#C5E39E"
+          "value": "#E1D0B7"
         },
         "name": "ColorPrimary01200",
         "attributes": {
@@ -420,11 +420,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#9ed05f",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#b79766",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#9ED05F"
+          "value": "#B79766"
         },
         "name": "ColorPrimary01300",
         "attributes": {
@@ -439,11 +439,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#78be20",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#8c7045",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#78BE20"
+          "value": "#8C7045"
         },
         "name": "ColorPrimary01400",
         "attributes": {
@@ -458,11 +458,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#775f3c",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#46A610"
+          "value": "#775F3C"
         },
         "name": "ColorPrimary01500",
         "attributes": {
@@ -477,11 +477,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#188803",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#695535",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#188803"
+          "value": "#695535"
         },
         "name": "ColorPrimary01600",
         "attributes": {
@@ -496,11 +496,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006902",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#56472e",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#006902"
+          "value": "#56472E"
         },
         "name": "ColorPrimary01700",
         "attributes": {
@@ -515,11 +515,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#035010",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#423724",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#035010"
+          "value": "#423724"
         },
         "name": "ColorPrimary01800",
         "attributes": {
@@ -534,11 +534,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#023618",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "value": "#282116",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#023618"
+          "value": "#282116"
         },
         "name": "ColorPrimary01900",
         "attributes": {
@@ -729,7 +729,7 @@ module.exports = {
     "grey": {
       "100": {
         "value": "#e6e6e6",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#E6E6E6"
@@ -748,7 +748,7 @@ module.exports = {
       },
       "200": {
         "value": "#cccccc",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#CCCCCC"
@@ -767,7 +767,7 @@ module.exports = {
       },
       "300": {
         "value": "#b3b3b3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#B3B3B3"
@@ -786,7 +786,7 @@ module.exports = {
       },
       "400": {
         "value": "#999999",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#999999"
@@ -805,7 +805,7 @@ module.exports = {
       },
       "500": {
         "value": "#808080",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#808080"
@@ -824,7 +824,7 @@ module.exports = {
       },
       "600": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#666666"
@@ -843,7 +843,7 @@ module.exports = {
       },
       "700": {
         "value": "#4d4d4d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#4D4D4D"
@@ -862,7 +862,7 @@ module.exports = {
       },
       "800": {
         "value": "#333333",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#333333"
@@ -881,7 +881,7 @@ module.exports = {
       },
       "900": {
         "value": "#191919",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#191919"
@@ -900,7 +900,7 @@ module.exports = {
       },
       "999": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#000000"
@@ -919,7 +919,7 @@ module.exports = {
       },
       "000": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FFFFFF"
@@ -1112,7 +1112,7 @@ module.exports = {
     },
     "secondary-green": {
       "100": {
-        "value": "#ebf5de",
+        "value": "#f1e7d8",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1131,7 +1131,7 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#c5e39e",
+        "value": "#e1d0b7",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1150,7 +1150,7 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#9ed05f",
+        "value": "#b79766",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1169,7 +1169,7 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#78be20",
+        "value": "#8c7045",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1188,7 +1188,7 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#46a610",
+        "value": "#775f3c",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1207,7 +1207,7 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#188803",
+        "value": "#695535",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1226,7 +1226,7 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#006902",
+        "value": "#56472e",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1245,7 +1245,7 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#035010",
+        "value": "#423724",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1264,7 +1264,7 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#023618",
+        "value": "#282116",
         "filePath": "packages/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
@@ -1978,10 +1978,10 @@ module.exports = {
     "danger": {
       "100": {
         "value": "#fdeaea",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.100.value}"
+          "value": "#FDEAEA"
         },
         "name": "ColorDanger100",
         "attributes": {
@@ -1997,10 +1997,10 @@ module.exports = {
       },
       "200": {
         "value": "#f8bcbb",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.200.value}"
+          "value": "#F8BCBB"
         },
         "name": "ColorDanger200",
         "attributes": {
@@ -2016,10 +2016,10 @@ module.exports = {
       },
       "300": {
         "value": "#f38d8c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.300.value}"
+          "value": "#F38D8C"
         },
         "name": "ColorDanger300",
         "attributes": {
@@ -2035,10 +2035,10 @@ module.exports = {
       },
       "400": {
         "value": "#ef5f5c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.400.value}"
+          "value": "#EF5F5C"
         },
         "name": "ColorDanger400",
         "attributes": {
@@ -2054,10 +2054,10 @@ module.exports = {
       },
       "500": {
         "value": "#ea302d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.500.value}"
+          "value": "#EA302D"
         },
         "name": "ColorDanger500",
         "attributes": {
@@ -2073,10 +2073,10 @@ module.exports = {
       },
       "600": {
         "value": "#c61112",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.600.value}"
+          "value": "#C61112"
         },
         "name": "ColorDanger600",
         "attributes": {
@@ -2092,10 +2092,10 @@ module.exports = {
       },
       "700": {
         "value": "#8c0003",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.700.value}"
+          "value": "#8C0003"
         },
         "name": "ColorDanger700",
         "attributes": {
@@ -2111,10 +2111,10 @@ module.exports = {
       },
       "800": {
         "value": "#530000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.800.value}"
+          "value": "#530000"
         },
         "name": "ColorDanger800",
         "attributes": {
@@ -2130,10 +2130,10 @@ module.exports = {
       },
       "900": {
         "value": "#2d0000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-red.900.value}"
+          "value": "#2D0000"
         },
         "name": "ColorDanger900",
         "attributes": {
@@ -2151,10 +2151,10 @@ module.exports = {
     "info": {
       "100": {
         "value": "#daeff7",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.100.value}"
+          "value": "#DAEFF7"
         },
         "name": "ColorInfo100",
         "attributes": {
@@ -2170,10 +2170,10 @@ module.exports = {
       },
       "200": {
         "value": "#a7d9ed",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.200.value}"
+          "value": "#A7D9ED"
         },
         "name": "ColorInfo200",
         "attributes": {
@@ -2189,10 +2189,10 @@ module.exports = {
       },
       "300": {
         "value": "#73c3e2",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.300.value}"
+          "value": "#73C3E2"
         },
         "name": "ColorInfo300",
         "attributes": {
@@ -2208,10 +2208,10 @@ module.exports = {
       },
       "400": {
         "value": "#3facd7",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.400.value}"
+          "value": "#3FACD7"
         },
         "name": "ColorInfo400",
         "attributes": {
@@ -2227,10 +2227,10 @@ module.exports = {
       },
       "500": {
         "value": "#0b96cc",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.500.value}"
+          "value": "#0B96CC"
         },
         "name": "ColorInfo500",
         "attributes": {
@@ -2246,10 +2246,10 @@ module.exports = {
       },
       "600": {
         "value": "#007bb4",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.600.value}"
+          "value": "#007BB4"
         },
         "name": "ColorInfo600",
         "attributes": {
@@ -2265,10 +2265,10 @@ module.exports = {
       },
       "700": {
         "value": "#005c91",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.700.value}"
+          "value": "#005C91"
         },
         "name": "ColorInfo700",
         "attributes": {
@@ -2284,10 +2284,10 @@ module.exports = {
       },
       "800": {
         "value": "#003a5c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.800.value}"
+          "value": "#003A5C"
         },
         "name": "ColorInfo800",
         "attributes": {
@@ -2303,10 +2303,10 @@ module.exports = {
       },
       "900": {
         "value": "#002a41",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.900.value}"
+          "value": "#002A41"
         },
         "name": "ColorInfo900",
         "attributes": {
@@ -2324,10 +2324,10 @@ module.exports = {
     "warning": {
       "100": {
         "value": "#fdf1e8",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.100.value}"
+          "value": "#FDF1E8"
         },
         "name": "ColorWarning100",
         "attributes": {
@@ -2343,10 +2343,10 @@ module.exports = {
       },
       "200": {
         "value": "#f8d2b3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.200.value}"
+          "value": "#F8D2B3"
         },
         "name": "ColorWarning200",
         "attributes": {
@@ -2362,10 +2362,10 @@ module.exports = {
       },
       "300": {
         "value": "#f4b27e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.300.value}"
+          "value": "#F4B27E"
         },
         "name": "ColorWarning300",
         "attributes": {
@@ -2381,10 +2381,10 @@ module.exports = {
       },
       "400": {
         "value": "#ef934a",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.400.value}"
+          "value": "#EF934A"
         },
         "name": "ColorWarning400",
         "attributes": {
@@ -2400,10 +2400,10 @@ module.exports = {
       },
       "500": {
         "value": "#ea7315",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.500.value}"
+          "value": "#EA7315"
         },
         "name": "ColorWarning500",
         "attributes": {
@@ -2419,10 +2419,10 @@ module.exports = {
       },
       "600": {
         "value": "#c65200",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.600.value}"
+          "value": "#C65200"
         },
         "name": "ColorWarning600",
         "attributes": {
@@ -2438,10 +2438,10 @@ module.exports = {
       },
       "700": {
         "value": "#8c3500",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.700.value}"
+          "value": "#8C3500"
         },
         "name": "ColorWarning700",
         "attributes": {
@@ -2457,10 +2457,10 @@ module.exports = {
       },
       "800": {
         "value": "#531b00",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.800.value}"
+          "value": "#531B00"
         },
         "name": "ColorWarning800",
         "attributes": {
@@ -2476,10 +2476,10 @@ module.exports = {
       },
       "900": {
         "value": "#360e00",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.900.value}"
+          "value": "#360E00"
         },
         "name": "ColorWarning900",
         "attributes": {
@@ -2497,10 +2497,10 @@ module.exports = {
     "success": {
       "100": {
         "value": "#ebf5de",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.100.value}"
+          "value": "#EBF5DE"
         },
         "name": "ColorSuccess100",
         "attributes": {
@@ -2516,10 +2516,10 @@ module.exports = {
       },
       "200": {
         "value": "#c5e39e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.200.value}"
+          "value": "#C5E39E"
         },
         "name": "ColorSuccess200",
         "attributes": {
@@ -2535,10 +2535,10 @@ module.exports = {
       },
       "300": {
         "value": "#9ed05f",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.300.value}"
+          "value": "#9ED05F"
         },
         "name": "ColorSuccess300",
         "attributes": {
@@ -2554,10 +2554,10 @@ module.exports = {
       },
       "400": {
         "value": "#78be20",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.400.value}"
+          "value": "#78BE20"
         },
         "name": "ColorSuccess400",
         "attributes": {
@@ -2573,10 +2573,10 @@ module.exports = {
       },
       "500": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.500.value}"
+          "value": "#46A610"
         },
         "name": "ColorSuccess500",
         "attributes": {
@@ -2592,10 +2592,10 @@ module.exports = {
       },
       "600": {
         "value": "#188803",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.600.value}"
+          "value": "#188803"
         },
         "name": "ColorSuccess600",
         "attributes": {
@@ -2611,10 +2611,10 @@ module.exports = {
       },
       "700": {
         "value": "#006902",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.700.value}"
+          "value": "#006902"
         },
         "name": "ColorSuccess700",
         "attributes": {
@@ -2630,10 +2630,10 @@ module.exports = {
       },
       "800": {
         "value": "#035010",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.800.value}"
+          "value": "#035010"
         },
         "name": "ColorSuccess800",
         "attributes": {
@@ -2649,10 +2649,10 @@ module.exports = {
       },
       "900": {
         "value": "#023618",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-green.900.value}"
+          "value": "#023618"
         },
         "name": "ColorSuccess900",
         "attributes": {
@@ -2710,11 +2710,11 @@ module.exports = {
     "button": {
       "solid": {
         "background": {
-          "value": "#188803",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "value": "#f1e7d8",
+          "filePath": "packages/tokens/ZodioProperties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.primary-01.100.value}"
           },
           "name": "ColorButtonSolidBackground",
           "attributes": {
@@ -2731,11 +2731,11 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "value": "#000000",
+          "filePath": "packages/tokens/ZodioProperties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.000.value}"
+            "value": "{color.grey.999.value}"
           },
           "name": "ColorButtonSolidFont",
           "attributes": {
@@ -2753,7 +2753,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#006902",
+            "value": "#56472e",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2826,7 +2826,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#006902",
+            "value": "#56472e",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2851,8 +2851,8 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#006902",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "value": "#56472e",
+            "filePath": "packages/tokens/ZodioProperties/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -3281,10 +3281,10 @@ module.exports = {
       "solid-danger": {
         "background": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/ZodioProperties/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.danger.600.value}"
+            "value": "{color.secondary-red.600.value}"
           },
           "name": "ColorButtonSolidDangerBackground",
           "attributes": {
@@ -3422,7 +3422,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/ZodioProperties/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -3491,8 +3491,8 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#188803",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "value": "#695535",
+          "filePath": "packages/tokens/ZodioProperties/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -3512,8 +3512,8 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#188803",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "value": "#695535",
+          "filePath": "packages/tokens/ZodioProperties/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -3534,7 +3534,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#006902",
+            "value": "#56472e",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3607,7 +3607,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#c5e39e",
+            "value": "#e1d0b7",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3630,7 +3630,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#035010",
+            "value": "#423724",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3655,7 +3655,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#ebf5de",
+            "value": "#f1e7d8",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3678,7 +3678,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#006902",
+            "value": "#56472e",
             "filePath": "packages/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4102,7 +4102,7 @@ module.exports = {
         },
         "border": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/ZodioProperties/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -4123,7 +4123,7 @@ module.exports = {
         },
         "font": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/ZodioProperties/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -4662,7 +4662,7 @@ module.exports = {
         }
       },
       "valid": {
-        "value": "#46a610",
+        "value": "#775f3c",
         "filePath": "packages/tokens/properties/color/fileuploder.json",
         "isSource": true,
         "original": {
@@ -4703,7 +4703,7 @@ module.exports = {
     "flag": {
       "solid": {
         "background": {
-          "value": "#188803",
+          "value": "#695535",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -4724,7 +4724,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#188803",
+          "value": "#695535",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -5049,7 +5049,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#188803",
+          "value": "#695535",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -5070,7 +5070,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#188803",
+          "value": "#695535",
           "filePath": "packages/tokens/properties/color/flag.json",
           "isSource": true,
           "original": {
@@ -5394,7 +5394,7 @@ module.exports = {
     },
     "font": {
       "primary-01": {
-        "value": "#188803",
+        "value": "#695535",
         "filePath": "packages/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5606,7 +5606,7 @@ module.exports = {
     "heading": {
       "underline": {
         "default": {
-          "value": "#46a610",
+          "value": "#775f3c",
           "filePath": "packages/tokens/properties/color/heading.json",
           "isSource": true,
           "original": {
@@ -5627,7 +5627,7 @@ module.exports = {
           ]
         },
         "lightest": {
-          "value": "#c5e39e",
+          "value": "#e1d0b7",
           "filePath": "packages/tokens/properties/color/heading.json",
           "isSource": true,
           "original": {
@@ -5981,7 +5981,7 @@ module.exports = {
       },
       "checked": {
         "border": {
-          "value": "#46a610",
+          "value": "#775f3c",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -6002,7 +6002,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "#46a610",
+          "value": "#775f3c",
           "filePath": "packages/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -6045,7 +6045,7 @@ module.exports = {
         },
         "hover": {
           "border": {
-            "value": "#035010",
+            "value": "#423724",
             "filePath": "packages/tokens/properties/color/input.json",
             "isSource": true,
             "original": {
@@ -6287,11 +6287,11 @@ module.exports = {
       },
       "primary": {
         "base": {
-          "value": "#188803",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "value": "#666666",
+          "filePath": "packages/tokens/ZodioProperties/color/link.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.600.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorLinkPrimaryBase",
           "attributes": {
@@ -6308,7 +6308,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#006902",
+          "value": "#56472e",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6329,7 +6329,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#006902",
+          "value": "#56472e",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6371,7 +6371,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#035010",
+          "value": "#423724",
           "filePath": "packages/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6502,7 +6502,7 @@ module.exports = {
       "danger": {
         "base": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/ZodioProperties/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -7074,7 +7074,7 @@ module.exports = {
       "checked": {
         "label": {
           "border": {
-            "value": "#46a610",
+            "value": "#775f3c",
             "filePath": "packages/tokens/properties/color/option-button.json",
             "isSource": true,
             "original": {
@@ -7097,7 +7097,7 @@ module.exports = {
             ]
           },
           "shadow": {
-            "value": "#ebf5de",
+            "value": "#f1e7d8",
             "filePath": "packages/tokens/properties/color/option-button.json",
             "isSource": true,
             "original": {
@@ -7203,7 +7203,7 @@ module.exports = {
       "checked": {
         "label": {
           "border": {
-            "value": "#46a610",
+            "value": "#775f3c",
             "filePath": "packages/tokens/properties/color/option-card.json",
             "isSource": true,
             "original": {
@@ -7226,7 +7226,7 @@ module.exports = {
             ]
           },
           "shadow": {
-            "value": "#ebf5de",
+            "value": "#f1e7d8",
             "filePath": "packages/tokens/properties/color/option-card.json",
             "isSource": true,
             "original": {
@@ -7317,11 +7317,11 @@ module.exports = {
       },
       "loader": {
         "background": {
-          "value": "#191919",
-          "filePath": "packages/tokens/properties/color/overlay.json",
+          "value": "#666666",
+          "filePath": "packages/tokens/ZodioProperties/color/overlay.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.900.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorOverlayLoaderBackground",
           "attributes": {
@@ -7549,7 +7549,7 @@ module.exports = {
       },
       "branded": {
         "indicator": {
-          "value": "#46a610",
+          "value": "#775f3c",
           "filePath": "packages/tokens/properties/color/progressbar.json",
           "isSource": true,
           "original": {
@@ -7674,7 +7674,7 @@ module.exports = {
         },
         "current": {
           "background": {
-            "value": "#46a610",
+            "value": "#775f3c",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7701,7 +7701,7 @@ module.exports = {
       "link": {
         "hover": {
           "text": {
-            "value": "#46a610",
+            "value": "#775f3c",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7770,7 +7770,7 @@ module.exports = {
         },
         "current": {
           "background": {
-            "value": "#46a610",
+            "value": "#775f3c",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7793,7 +7793,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#46a610",
+            "value": "#775f3c",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
@@ -7818,7 +7818,7 @@ module.exports = {
         }
       },
       "icon": {
-        "value": "#46a610",
+        "value": "#775f3c",
         "filePath": "packages/tokens/properties/color/stepper.json",
         "isSource": true,
         "original": {
@@ -7837,7 +7837,7 @@ module.exports = {
         ]
       },
       "title": {
-        "value": "#46a610",
+        "value": "#775f3c",
         "filePath": "packages/tokens/properties/color/stepper.json",
         "isSource": true,
         "original": {
@@ -7859,7 +7859,7 @@ module.exports = {
     "tabs": {
       "background": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -7878,7 +7878,7 @@ module.exports = {
       },
       "shadow": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -7897,7 +7897,7 @@ module.exports = {
       },
       "default": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.font.light.value}"
@@ -7916,11 +7916,11 @@ module.exports = {
       },
       "element": {
         "background": {
-          "value": "#eeeff1",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "value": "#f1e7d8",
+          "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-02.100.value}"
+            "value": "{color.primary-01.100.value}"
           },
           "name": "ColorTabsElementBackground",
           "attributes": {
@@ -7938,8 +7938,8 @@ module.exports = {
         }
       },
       "hover": {
-        "value": "#035010",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "value": "#423724",
+        "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.800.value}"
@@ -7959,7 +7959,7 @@ module.exports = {
       "disabled": {
         "background": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -7981,11 +7981,11 @@ module.exports = {
       },
       "active": {
         "background": {
-          "value": "#cfd2d8",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "value": "#e1d0b7",
+          "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-02.200.value}"
+            "value": "{color.primary-01.200.value}"
           },
           "name": "ColorTabsActiveBackground",
           "attributes": {
@@ -8003,7 +8003,7 @@ module.exports = {
         },
         "text": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.font.dark.value}"
@@ -8026,7 +8026,7 @@ module.exports = {
       "selected": {
         "border": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -8047,7 +8047,7 @@ module.exports = {
         },
         "text": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.font.darkest.value}"
@@ -8068,8 +8068,8 @@ module.exports = {
         }
       },
       "active-disabled": {
-        "value": "#c5e39e",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "value": "#e1d0b7",
+        "filePath": "packages/tokens/ZodioProperties/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.200.value}"
@@ -8553,7 +8553,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#9ed05f",
+              "value": "#b79766",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8579,7 +8579,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#035010",
+              "value": "#423724",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8603,7 +8603,7 @@ module.exports = {
               ]
             },
             "border": {
-              "value": "#035010",
+              "value": "#423724",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8703,7 +8703,7 @@ module.exports = {
           },
           "selected": {
             "background": {
-              "value": "#188803",
+              "value": "#695535",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8752,7 +8752,7 @@ module.exports = {
             },
             "hover": {
               "background": {
-                "value": "#006902",
+                "value": "#56472e",
                 "filePath": "packages/tokens/properties/color/tag.json",
                 "isSource": true,
                 "original": {
@@ -8851,7 +8851,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#006902",
+              "value": "#56472e",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8877,7 +8877,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#c5e39e",
+              "value": "#e1d0b7",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8901,7 +8901,7 @@ module.exports = {
               ]
             },
             "border": {
-              "value": "#c5e39e",
+              "value": "#e1d0b7",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8951,7 +8951,7 @@ module.exports = {
           },
           "selected": {
             "background": {
-              "value": "#78be20",
+              "value": "#8c7045",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8975,7 +8975,7 @@ module.exports = {
               ]
             },
             "border": {
-              "value": "#78be20",
+              "value": "#8c7045",
               "filePath": "packages/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -9024,7 +9024,7 @@ module.exports = {
             },
             "hover": {
               "background": {
-                "value": "#9ed05f",
+                "value": "#b79766",
                 "filePath": "packages/tokens/properties/color/tag.json",
                 "isSource": true,
                 "original": {
@@ -9417,7 +9417,7 @@ module.exports = {
       },
       "on": {
         "background": {
-          "value": "#46a610",
+          "value": "#775f3c",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -9549,7 +9549,7 @@ module.exports = {
       },
       "disabled-checked": {
         "background": {
-          "value": "#c5e39e",
+          "value": "#e1d0b7",
           "filePath": "packages/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -9631,14 +9631,210 @@ module.exports = {
           "border"
         ]
       }
+    },
+    "secondary-ss": {
+      "pink": {
+        "value": "#e4a897",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#E4A897"
+        },
+        "name": "ColorSecondarySsPink",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-ss",
+          "item": "pink"
+        },
+        "path": [
+          "color",
+          "secondary-ss",
+          "pink"
+        ]
+      },
+      "orange": {
+        "value": "#f7b947",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F7B947"
+        },
+        "name": "ColorSecondarySsOrange",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-ss",
+          "item": "orange"
+        },
+        "path": [
+          "color",
+          "secondary-ss",
+          "orange"
+        ]
+      },
+      "blue": {
+        "value": "#9bc2d4",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#9BC2D4"
+        },
+        "name": "ColorSecondarySsBlue",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-ss",
+          "item": "blue"
+        },
+        "path": [
+          "color",
+          "secondary-ss",
+          "blue"
+        ]
+      },
+      "bluedark": {
+        "value": "#2e758b",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#2E758B"
+        },
+        "name": "ColorSecondarySsBluedark",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-ss",
+          "item": "bluedark"
+        },
+        "path": [
+          "color",
+          "secondary-ss",
+          "bluedark"
+        ]
+      }
+    },
+    "secondary-aw": {
+      "pink": {
+        "value": "#cb715a",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#CB715A"
+        },
+        "name": "ColorSecondaryAwPink",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-aw",
+          "item": "pink"
+        },
+        "path": [
+          "color",
+          "secondary-aw",
+          "pink"
+        ]
+      },
+      "green": {
+        "value": "#bbcfc6",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#BBCFC6"
+        },
+        "name": "ColorSecondaryAwGreen",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-aw",
+          "item": "green"
+        },
+        "path": [
+          "color",
+          "secondary-aw",
+          "green"
+        ]
+      },
+      "greendark": {
+        "value": "#315b4e",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#315B4E"
+        },
+        "name": "ColorSecondaryAwGreendark",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-aw",
+          "item": "greendark"
+        },
+        "path": [
+          "color",
+          "secondary-aw",
+          "greendark"
+        ]
+      },
+      "bluedark": {
+        "value": "#315b4e",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#315B4E"
+        },
+        "name": "ColorSecondaryAwBluedark",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-aw",
+          "item": "bluedark"
+        },
+        "path": [
+          "color",
+          "secondary-aw",
+          "bluedark"
+        ]
+      }
+    },
+    "secondary-loyalty": {
+      "dark": {
+        "value": "#d48551",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#D48551"
+        },
+        "name": "ColorSecondaryLoyaltyDark",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-loyalty",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "secondary-loyalty",
+          "dark"
+        ]
+      },
+      "light": {
+        "value": "#deccbd",
+        "filePath": "packages/tokens/ZodioProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#DECCBD"
+        },
+        "name": "ColorSecondaryLoyaltyLight",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-loyalty",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "secondary-loyalty",
+          "light"
+        ]
+      }
     }
   },
   "preset": {
-    "value": "lm",
-    "filePath": "packages/tokens/properties/preset.json",
+    "value": "zodio",
+    "filePath": "packages/tokens/ZodioProperties/preset.json",
     "isSource": true,
     "original": {
-      "value": "lm"
+      "value": "zodio"
     },
     "name": "Preset",
     "attributes": {
