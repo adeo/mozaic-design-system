@@ -52,17 +52,25 @@
 
     // invalid state
     .is-invalid + & {
-      right: 4.5rem; // =72px
+      right: ($mu200 + $mu025) * 2; // =72px
+    }
+  }
+
+  &__trigger {
+    overflow: hidden;
+    padding-right: ($mu200 + $mu025) * 2; // =72px
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.is-invalid {
+      padding-right: $mu700 - $mu050; // =104px
     }
   }
 
   &--multi {
     #{$parent} {
       &__trigger {
-        overflow: hidden;
         padding-left: calc($mu075 + var(--dropdown-tag-width, 0px));
-        text-overflow: ellipsis;
-        white-space: nowrap;
       }
     }
   }

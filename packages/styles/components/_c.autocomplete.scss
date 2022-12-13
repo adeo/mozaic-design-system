@@ -58,13 +58,21 @@
     z-index: $autocomplete-loader-zindex;
   }
 
+  &__trigger {
+    overflow: hidden;
+    padding-right: $mu300 - $mu025; // =44px
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.is-invalid {
+      padding-right: ($mu200 + $mu025) * 2; // =72px
+    }
+  }
+
   &--multi {
     #{$parent} {
       &__trigger {
-        overflow: hidden;
         padding-left: calc(2.9375rem + var(--autocomplete-tag-width, 0px));
-        text-overflow: ellipsis;
-        white-space: nowrap;
       }
     }
   }
