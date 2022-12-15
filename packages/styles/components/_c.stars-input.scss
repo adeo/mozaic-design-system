@@ -82,8 +82,11 @@
       @if ($size != "m") {
         @include set-stars-container($props);
 
-
-        $bg-variation-size: map-deep-get($stars-sizes, $size, "width"); // fix for ie11
+        $bg-variation-size: map-deep-get(
+          $stars-sizes,
+          $size,
+          "width"
+        ); // fix for ie11
         $icon-empty: map-deep-get($stars-sizes, $size, "icon-empty");
         $icon-full: map-deep-get($stars-sizes, $size, "icon-full");
 
@@ -100,23 +103,42 @@
             }
           }
 
+          &__radio {
+            &:checked,
+            &:focus {
+              & ~ #{$parent}__label {
+                background-image: url(
+                  inline-icons(
+                    $icon-empty,
+                    $color-star-full
+                  ));
+              }
+              & + #{$parent}__label {
+                background-image: url(
+                  inline-icons(
+                    $icon-full,
+                    $color-star-full
+                  ));
+              }
+            }
 
-          :checked ~ &__label,
-          :focus ~ &__label {
-            background-image: url(inline-icons($icon-empty, $color-star-full));
-          }
+            &:hover {
+              & ~ #{$parent}__label {
+                background-image: url(
+                  inline-icons(
+                    $icon-empty,
+                    $color-star-full
+                  ));
+              }
 
-          :checked + &__label,
-          :focus + &__label {
-            background-image: url(inline-icons($icon-full, $color-star-full));
-          }
-
-          &__radio:hover ~ &__label {
-            background-image: url(inline-icons($icon-empty, $color-star-full));
-          }
-
-          &__radio:hover + &__label {
-            background-image: url(inline-icons($icon-full, $color-star-full));
+              & + #{$parent}__label {
+                background-image: url(
+                  inline-icons(
+                    $icon-full,
+                    $color-star-full
+                  ));
+              }
+            }
           }
         }
       }
