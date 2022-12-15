@@ -3,6 +3,11 @@
 .mc-option-card {
   $parent: get-parent-selector(&);
 
+  &,
+  * {
+    box-sizing: border-box;
+  }
+
   border-radius: get-border-radius("m");
   position: relative;
 
@@ -11,6 +16,7 @@
       position: absolute;
       right: $mu100;
       top: $mu100;
+      z-index: 10;
 
       &:focus {
         box-shadow: none;
@@ -75,6 +81,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    z-index: 5;
 
     &-text {
       @include visually-hidden();
@@ -91,6 +98,7 @@
 
   &__content {
     border-radius: 4px;
+    min-height: 100%;
     padding: $mu100;
   }
 
