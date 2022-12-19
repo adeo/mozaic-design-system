@@ -199,7 +199,7 @@
 
         .mc-tag-removable__label {
           padding:
-            $padding-y--s $mu025 $padding-y--s
+            $padding-y-size-s $mu025 $padding-y-size-s
             calc(#{$mu100} - #{$tag-border});
         }
 
@@ -218,7 +218,7 @@
 
         .mc-tag-removable__label {
           padding:
-            $padding-y--m $mu025 $padding-y--m
+            $padding-y-size-m $mu025 $padding-y-size-m
             calc(#{$mu150} - #{$tag-border});
         }
 
@@ -236,7 +236,7 @@
 
     &__label {
       padding:
-        $padding-y--m $mu025 $padding-y--m
+        $padding-y-size-m $mu025 $padding-y-size-m
         calc(#{$mu150} - #{$tag-border});
     }
 
