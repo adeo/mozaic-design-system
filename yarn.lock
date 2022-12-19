@@ -2850,31 +2850,6 @@
     "@lezer/lr" "^0.15.4"
     json5 "^2.2.1"
 
-"@mozaic-ds/gatsby-theme-styleguide@^1.29.1":
-  version "1.47.0"
-  resolved "https://registry.npmjs.org/@mozaic-ds/gatsby-theme-styleguide/-/gatsby-theme-styleguide-1.47.0.tgz#203921024940af8a3cbc8eccf1f6b169d55ca445"
-  integrity sha512-LyLgXvNKkxZ7jbSRm/Rf+Yc3FxcAfWqSPZ97sk/7Ch9cJRy4gVLPgdQ5X3ZVguUaR/FTf6aj9XLKo6aMY8Kw5g==
-  dependencies:
-    "@mdx-js/mdx" "^1.6.22"
-    "@mdx-js/react" "^1.6.22"
-    "@mozaic-ds/gatsby-github-release" "^1.47.0"
-    "@mozaic-ds/gatsby-source-preview" "^1.47.0"
-    babel-plugin-styled-components "^2.0.7"
-    gatsby "^4.24.7"
-    gatsby-plugin-flexsearch "^1.0.3"
-    gatsby-plugin-mdx "^3.8.1"
-    gatsby-plugin-react-helmet "5.24.0"
-    gatsby-plugin-sass "^5.24.0"
-    gatsby-plugin-styled-components "^5.24.0"
-    gatsby-remark-autolink-headers "^5.24.0"
-    gatsby-source-filesystem "4.24.0"
-    gatsby-transformer-json "4.24.0"
-    jest-styled-components "^7.1.1"
-    prism-react-renderer "^1.3.5"
-    react-helmet "^6.1.0"
-    sass "^1.56.0"
-    styled-components "^5.3.6"
-
 "@msgpackr-extract/msgpackr-extract-darwin-arm64@2.2.0":
   version "2.2.0"
   resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-darwin-arm64/-/msgpackr-extract-darwin-arm64-2.2.0.tgz#901c5937e1441572ea23e631fe6deca68482fe76"
