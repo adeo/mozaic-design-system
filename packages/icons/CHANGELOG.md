@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
+
+
+### Features
+
+* **icons:** add colored icons ([#1219](https://github.com/adeo/mozaic-design-system/issues/1219)) ([8c027a1](https://github.com/adeo/mozaic-design-system/commit/8c027a111b5125844bdd5d391fe841f76606b849))
+
+
+
+
+
 # [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
 
 **Note:** Version bump only for package @mozaic-ds/icons
