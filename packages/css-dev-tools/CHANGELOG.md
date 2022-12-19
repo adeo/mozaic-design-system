@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
+
+
+### Features
+
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1249](https://github.com/adeo/mozaic-design-system/issues/1249)) ([8b1c08a](https://github.com/adeo/mozaic-design-system/commit/8b1c08a4ffc883020083ca227bcf425375db03b5)), closes [#775](https://github.com/adeo/mozaic-design-system/issues/775) [#1109](https://github.com/adeo/mozaic-design-system/issues/1109)
+* **styles:** improve styles to conform to stylelint rules ([#1187](https://github.com/adeo/mozaic-design-system/issues/1187)) ([7006d18](https://github.com/adeo/mozaic-design-system/commit/7006d18c2e493a9b874f2dee1ba72f997b3589f4)), closes [#1062](https://github.com/adeo/mozaic-design-system/issues/1062)
+
+
+
+
+
 # [2.0.0-rc.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v2.0.0-rc.1) (2022-03-31)
 
 **Note:** Version bump only for package @mozaic-ds/css-dev-tools
