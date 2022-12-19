@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/gatsby-theme-styleguide",
-  "version": "1.68.0",
+  "version": "2.0.0-rc.9",
   "main": "index.js",
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "license": "MIT",

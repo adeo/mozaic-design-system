@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
+
+
+### Features
+
+* **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([614c486](https://github.com/adeo/mozaic-design-system/commit/614c486a138790d4c6cee5a323f672841463422e)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
+
+
+
+
+
 # [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
 
 
