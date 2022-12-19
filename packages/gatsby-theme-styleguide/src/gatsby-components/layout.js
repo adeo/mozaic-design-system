@@ -9,6 +9,7 @@ import Menu from './Menu'
 import withLocationPreview from '../gatsby-components/Preview/withLocation'
 import Color from '../gatsby-components/Color'
 import Swatch from '../gatsby-components/Swatch'
+import DesignTokens from '../gatsby-components/DesignTokens'
 import Hint, { HintItem } from '../gatsby-components/Hint'
 import IconViewer from '../gatsby-components/IconViewer'
 import Code from '../gatsby-components/Code'
@@ -21,6 +22,7 @@ import IconsLink from '../gatsby-components/IconsLink'
 const shortcodes = {
   Color,
   Swatch,
+  DesignTokens,
   Hint,
   HintItem,
   IconViewer,
