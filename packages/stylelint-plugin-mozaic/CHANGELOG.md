@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
+
+
+### Features
+
+* **tools:** update the dependencies and the code of the `@mozaic-ds/stylelint-plugin-mozaic` package ([#1157](https://github.com/adeo/mozaic-design-system/issues/1157)) ([6ce144c](https://github.com/adeo/mozaic-design-system/commit/6ce144c8698164ee8bffb43290e067ef435b5367))
+
+
+
+
+
 # [2.0.0-rc.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v2.0.0-rc.1) (2022-03-31)
 
 **Note:** Version bump only for package @mozaic-ds/stylelint-plugin-mozaic
