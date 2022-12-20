@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import StatusFlag from '../StatusFlag'
 import { checkPlatform, checkStatus } from '../../utils/status'
-import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
+import { MagicUnit } from '@mozaic-ds/tokens/build/lm/js/tokens.js'
 
 const StatusItem = styled.span`
   align-items: baseline;

@@ -21,8 +21,8 @@ const basePaths = [
 const tokensPath = tokensBuildPath
   ? basePaths.concat([`${tokensBuildPath}scss/`])
   : basePaths.concat([
-      './node_modules/@mozaic-ds/tokens/build/css/',
-      './node_modules/@mozaic-ds/tokens/build/scss/',
+      './node_modules/@mozaic-ds/tokens/build/lm/css/',
+      './node_modules/@mozaic-ds/tokens/build/lm/scss/',
     ])
 
 const includePaths = additionalPaths
