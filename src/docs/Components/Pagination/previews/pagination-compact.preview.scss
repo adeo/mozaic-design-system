@@ -1,10 +1,12 @@
 @import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
+@import "components/c.button";
+@import "components/c.pagination";
+
 html {
   @include set-font-face();
 }
-@import "components/c.pagination";
 
 .example {
   margin: $mu100;

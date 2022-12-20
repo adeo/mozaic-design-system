@@ -21,13 +21,15 @@ $sizes: (
   "1000": $mu1000,
 );
 
-// top, right, left, bottom, all
+// top, right, left, bottom, all, vertical, horizontal
 $sides: (
-  "t": "top",
-  "r": "right",
-  "l": "left",
-  "b": "bottom",
-  "all": "all",
+  't': 'top',
+  'r': 'right',
+  'l': 'left',
+  'b': 'bottom',
+  'all': 'all',
+  'v': 'vertical',
+  'h': 'horizontal',
 );
 $props: (
   "m": "margin",
@@ -39,13 +41,22 @@ $props: (
     .mu-#{$prop}-#{$size} {
       #{map-get($props, $prop)}: #{map-get($sizes, $size)} !important;
     }
+  } @else if ($side == 'v') {
+    .mu-#{$prop}#{$side}-#{$size} {
+      #{map-get($props, $prop)}-top: #{map-get($sizes, $size)} !important;
+      #{map-get($props, $prop)}-bottom: #{map-get($sizes, $size)} !important;
+    }
+  } @else if ($side == 'h') {
+    .mu-#{$prop}#{$side}-#{$size} {
+      #{map-get($props, $prop)}-left: #{map-get($sizes, $size)} !important;
+      #{map-get($props, $prop)}-right: #{map-get($sizes, $size)} !important;
+    }
   } @else {
     .mu-#{$prop}#{$side}-#{$size} {
-      #{map-get($props, $prop)}-#{map-get($sides, $side)}:
-        #{map-get(
-          $sizes,
-          $size
-        )} !important;
+      #{map-get($props, $prop)}-#{map-get($sides, $side)}: #{map-get(
+        $sizes,
+        $size
+      )} !important;
     }
   }
 }

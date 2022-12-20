@@ -7,6 +7,7 @@ order: 2
 
 ```scss
 @import 'settings-tools/all-settings';
+@import 'components/_c.button'; // (Optionnal)
 @import 'components/_c.pagination';
 @import 'components/_c.select'; // (Optionnal)
 ```
@@ -15,11 +16,11 @@ order: 2
 
 ```html
 <nav class="mc-pagination" role="navigation" aria-label="pagination">
-  <a href="#" class="mc-pagination__button" aria-label="Previous page">
-    <svg class="mc-pagination__button-icon">
-      <use xlink:href="#iconLeftL" />
+  <button href="#" class="mc-button mc-button--solid-neutral mc-button--square mc-button--s@from-l" aria-label="Previous page">
+    <svg class="mc-button__icon">
+      <use xlink:href="#iconPaginationPrev" />
     </svg>
-  </a>
+  </button>
 
   <div class="mc-pagination__field">
     <select class="mc-select mc-pagination__select">
@@ -30,11 +31,11 @@ order: 2
     </select>
   </div>
 
-  <a href="#" class="mc-pagination__button" aria-label="Next Page">
-    <svg class="mc-pagination__button-icon">
-      <use xlink:href="#iconRightL" />
+  <button button href="#" class="mc-button mc-button--solid-neutral mc-button--square mc-button--s@from-l" aria-label="Next Page">
+    <svg class="mc-button__icon">
+      <use xlink:href="#iconPaginationNext" />
     </svg>
-  </a>
+  </button>
 </nav>
 ```
 

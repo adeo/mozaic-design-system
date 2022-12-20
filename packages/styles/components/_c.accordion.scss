@@ -127,10 +127,10 @@
     }
   }
 
-  @at-root button#{$parent}__trigger {
-    @include unstyle-button();
-
-    @include set-focus-floating-base() {
+  // TODO: @next - review the specificity of this selector
+  button#{$parent}__trigger {
+    @include unstyle-button($haspadding: false);
+    @include set-focus-floating-base {
       top: -(math.div($mu025, 2));
       right: -(math.div($mu025, 2));
       bottom: -3px;

@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/stylelint-plugin-mozaic",
-  "version": "1.29.1",
+  "version": "2.0.0-rc.9",
   "description": "A set of rules to enforce Mozaic CSS architecture",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
-    "postcss-selector-parser": "^6.0.10"
+    "postcss": "^8.4.18",
+    "postcss-bem-linter": "^3.3.0"
   },
   "devDependencies": {
     "jest": "^28.1.1",

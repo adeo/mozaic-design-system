@@ -3,9 +3,114 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
+
+
+### Features
+
+* **icons:** add colored icons ([#1219](https://github.com/adeo/mozaic-design-system/issues/1219)) ([8c027a1](https://github.com/adeo/mozaic-design-system/commit/8c027a111b5125844bdd5d391fe841f76606b849))
+
+
+
+
+
 # [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
 
 **Note:** Version bump only for package @mozaic-ds/icons
+
+
+
+
+
+# [1.49.0](https://github.com/adeo/mozaic-design-system/compare/v1.48.2...v1.49.0) (2022-11-23)
+
+
+### Bug Fixes
+
+* **foundations/icons:** icons.js - improve management of colored icons ([#1270](https://github.com/adeo/mozaic-design-system/issues/1270)) ([3c0d572](https://github.com/adeo/mozaic-design-system/commit/3c0d572919f07df99cab26df7872c5c1eab15edd))
+
+
+### Features
+
+* **icons:** add new icons ([#1263](https://github.com/adeo/mozaic-design-system/issues/1263)) ([6154db5](https://github.com/adeo/mozaic-design-system/commit/6154db531ad68c216953098a15c846abf5ed3343))
+
+
+
+
+
+## [1.48.1](https://github.com/adeo/mozaic-design-system/compare/v1.48.0...v1.48.1) (2022-11-17)
+
+
+### Bug Fixes
+
+* **icons:** add typescript for common ([#1262](https://github.com/adeo/mozaic-design-system/issues/1262)) ([e02f227](https://github.com/adeo/mozaic-design-system/commit/e02f227379f1b563744810830ca7ffbd3d8e8b64))
+
+
+
+
+
+# [1.48.0](https://github.com/adeo/mozaic-design-system/compare/v1.47.1...v1.48.0) (2022-11-16)
+
+
+### Features
+
+* **icons:** add commonjs icons ([#1261](https://github.com/adeo/mozaic-design-system/issues/1261)) ([aea564f](https://github.com/adeo/mozaic-design-system/commit/aea564f9b56054b621feaba1bc965bc49b9c33ba))
+
+
+
+
+
+## [1.47.1](https://github.com/adeo/mozaic-design-system/compare/v1.47.0...v1.47.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* **foundations/icons:** rename monochrome logotypes ([#1256](https://github.com/adeo/mozaic-design-system/issues/1256)) ([6748742](https://github.com/adeo/mozaic-design-system/commit/6748742faf2881fb996b10fb2e59f8f2f81f4a0d))
+
+
+
+
+
+# [1.47.0](https://github.com/adeo/mozaic-design-system/compare/v1.46.0...v1.47.0) (2022-11-09)
+
+
+### Features
+
+* **icons:** add monochrome logos and new icons ([#1247](https://github.com/adeo/mozaic-design-system/issues/1247)) ([cd03c19](https://github.com/adeo/mozaic-design-system/commit/cd03c19761d361d9b63d015f85d704e192633b9e))
+
+
+
+
+
+# [1.46.0](https://github.com/adeo/mozaic-design-system/compare/v1.45.1...v1.46.0) (2022-11-02)
+
+
+### Features
+
+* **icons/js:** generate a basic typescript declaration file ([#1244](https://github.com/adeo/mozaic-design-system/issues/1244)) ([d53439c](https://github.com/adeo/mozaic-design-system/commit/d53439c769a78ea9ea5f26f2adbc161cc094cf1d))
+* **icons:** remove unused icons file ([#1243](https://github.com/adeo/mozaic-design-system/issues/1243)) ([9a947ba](https://github.com/adeo/mozaic-design-system/commit/9a947ba0669f03d18b69f8a00ad647cdbd11dba3))
+
+
+
+
+
+# [1.45.0](https://github.com/adeo/mozaic-design-system/compare/v1.44.0...v1.45.0) (2022-10-26)
+
+
+### Features
+
+* **foundations/icons:** add new Universe icons ([#1240](https://github.com/adeo/mozaic-design-system/issues/1240)) ([fea5e47](https://github.com/adeo/mozaic-design-system/commit/fea5e47e787458ddb3f2b0f3fedaea3ba10f8d7f))
+
+
+
+
+
+# [1.44.0](https://github.com/adeo/mozaic-design-system/compare/v1.43.1...v1.44.0) (2022-10-12)
+
+
+### Features
+
+* **foundations/icons:** add new icons ([#1222](https://github.com/adeo/mozaic-design-system/issues/1222)) ([367b82b](https://github.com/adeo/mozaic-design-system/commit/367b82b93d70340a2466f2a8d1ee60372bcdc894))
 
 
 

@@ -5,7 +5,6 @@
   display: block;
   position: relative;
 
-  // hide the input
   &__input {
     @include visually-hidden();
   }
@@ -21,12 +20,14 @@
 
     box-sizing: border-box;
     cursor: pointer;
+    color: $color-toggle-label;
     display: table-cell;
     position: relative;
     vertical-align: middle;
     user-select: none;
 
     :disabled + & {
+      color: $color-toggle-disabled-label;
       cursor: not-allowed;
     }
 

@@ -4,70 +4,20 @@
   align-items: center;
   display: flex;
   justify-content: center;
-
-  &__button {
-    @include unstyle-button();
-    @include set-button-theme(get-token(color, button, "solid-neutral"), true);
-    @include set-button-layout();
-
-    box-sizing: border-box;
-    height: 0;
-    min-height: $mu300;
-    min-width: $mu300;
-
-    &:focus {
-      @include set-shadow-focus();
-    }
-
-    @include set-from-screen("l") {
-      min-height: $mu200;
-      min-width: $mu200;
-    }
-
-    &-icon {
-      height: $mu200;
-      margin: 0;
-      width: $mu200;
-      fill: currentcolor;
-
-      @include set-from-screen("l") {
-        width: $mu125;
-        height: $mu125;
-      }
-    }
-
-    &-hidden {
-      display: none;
-    }
-  }
-
-  &__field {
-    margin: 0 $mu100;
-  }
+  gap: $mu100;
 
   &__select {
     @include set-font-scale("05", "s");
 
-    padding:
-      magic-unit-rem(0.875, "true") $mu300 magic-unit-rem(0.875, "true")
+    padding: magic-unit-rem(0.875, "true") $mu300 magic-unit-rem(0.875, "true")
       calc(#{$mu075} - #{$select-border-width});
 
     @include set-from-screen("l") {
       @include set-font-scale("04", "s");
 
-      padding:
-        calc(#{$mu050} - #{$select-border-width})
+      padding: calc(#{$mu050} - #{$select-border-width})
         magic-unit-rem(2.25, true) calc(#{$mu050} - #{$select-border-width})
         calc(#{$mu050} - #{$select-border-width});
-    }
-  }
-
-  &--light,
-  &--compact {
-    #{$parent}__button {
-      &:first-child {
-        margin-right: $mu100;
-      }
     }
   }
 }

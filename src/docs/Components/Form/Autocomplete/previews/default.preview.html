@@ -1,68 +1,127 @@
 <div class="example">
   <div class="mc-autocomplete">
-    <div class="mc-left-icon-input">
-      <svg class="mc-left-icon-input__icon">
-        <use xlink:href="#iconS" />
-      </svg>
-      <input
-        type="search"
-        class="mc-autocomplete__trigger mc-left-icon-input__input mc-text-input"
-        id="trigger"
-        placeholder="Placeholder"
-        name="withIcon"
-        autocomplete="off"
-        aria-autocomplete="list"
-        aria-expanded="false"
-      />
+    <div class="mc-autocomplete__main">
+      <!-- Input -->
+      <div class="mc-left-icon-input">
+        <svg class="mc-left-icon-input__icon">
+          <use xlink:href="#DisplaySearch24" />
+        </svg>
+        <input
+          id="js-trigger"
+          type="input"
+          class="mc-left-icon-input__input mc-text-input mc-autocomplete__trigger"
+          placeholder="Placeholder"
+          autocomplete="off"
+          aria-autocomplete="listbox"
+          aria-expanded="false"
+        />
+      </div>
+
+      <!-- Clear Button -->
+      <button class="mc-autocomplete__clear" type="button">
+        <svg class="mc-autocomplete__clear-icon">
+          <use xlink:href="#ControlTagCross24" />
+        </svg>
+        <span class="mc-autocomplete__clear-text">Clear</span>
+      </button>
     </div>
-    <ul
-			id="listbox"
-      tabindex="-1"
-      role="listbox"
-      aria-labelledby="lisbox"
-      class="mc-listbox"
-      aria-label="Options"
-    >
-      <li class="mc-listbox__item is-checked" role="option" aria-selected="true">
-        <span class="mc-listbox__label">Option label</span>
+
+    <!-- Listbox -->
+    <ul id="listbox" class="mc-listbox" role="listbox">
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem1"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option1"
+        />
+        <label for="monoItem1" class="mc-listbox__label">
+          Option label n°1
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem2"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option2"
+        />
+        <label for="monoItem2" class="mc-listbox__label">
+          Option label n°2
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem3"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option3"
+        />
+        <label for="monoItem3" class="mc-listbox__label">
+          Option label n°3
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem4"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option4"
+        />
+        <label for="monoItem4" class="mc-listbox__label">
+          Option label n°4
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem5"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option5"
+        />
+        <label for="monoItem5" class="mc-listbox__label">
+          Option label n°5
+        </label>
       </li>
-      <li class="mc-listbox__item" role="option">
-        <span class="mc-listbox__label">Option label</span>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem6"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option6"
+        />
+        <label for="monoItem6" class="mc-listbox__label">
+          Option label n°6
+        </label>
       </li>
     </ul>
   </div>
+</div>
 
-  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-  <symbol id="iconS" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="DisplaySearch24" viewBox="0 0 24 24">
     <path
       d="M18 6.05a7 7 0 00-10.51 9.14l-3.08 3.08a1 1 0 001.41 1.42l3.09-3.09A7 7 0 0018 6.05zm-1.41 8.49a5 5 0 110-7.08 5 5 0 01.04 7.08z"
     />
   </symbol>
+  <symbol id="ControlTagCross24" viewBox="0 0 24 24">
+    <path
+      d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4.14 12.7a1 1 0 01-1.41 1.42l-2.68-2.68-2.78 2.77a1 1 0 11-1.41-1.42L10.63 12 7.79 9.21a1 1 0 111.42-1.42l2.84 2.83 2.74-2.74a1 1 0 111.42 1.42L13.46 12z"
+    />
+  </symbol>
 </svg>
-</div>
+<!-- scripts -->
+<script>
+  const trigger = document.getElementById('js-trigger')
 
-  <!-- scripts -->
-  <script>
-    const action = document.getElementById('trigger')
-
-    action.addEventListener('focus', function (e) {
-			const list = document.getElementById('listbox')
-			list.classList.toggle('is-open')
-		})
-
-  </script>
-</div>
-
-
+  trigger.addEventListener('focus', function (e) {
+    const listbox = document.getElementById('listbox')
+    listbox.classList.toggle('is-open')
+  })
+</script>

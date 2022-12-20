@@ -1,9 +1,9 @@
 {
   "name": "@mozaic-ds/icons",
-  "version": "2.0.0-rc.4",
+  "version": "2.0.0-rc.9",
   "description": "svg icons for Mozaic design system",
   "author": "",
-  "main": "index.bundle.js",
+  "main": "./js/icons.js",
   "license": "ISC",
   "dependencies": {
     "react": "^17.0.2"

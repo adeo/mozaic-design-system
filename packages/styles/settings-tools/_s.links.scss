@@ -22,6 +22,7 @@ $link-m: map-get($link-sizes, "m");
   line-height: inherit;
   text-decoration: underline;
   transition: color ease 200ms;
+  gap: $mu025;
 
   &:focus {
     @include set-focus-floating();

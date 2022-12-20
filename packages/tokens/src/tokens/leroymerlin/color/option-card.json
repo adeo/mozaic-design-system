@@ -22,6 +22,14 @@
             "value": "{color.primary-01.100.value}"
           }
         }
+      },
+      "disabled": {
+        "content": {
+          "value": "{color.grey.200.value}"
+        },
+        "label": {
+          "value": "{color.grey.600.value}"
+        }
       }
     }
   }

@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:none;}.cls-2{fill:#999;}</style></defs><title>Device_Laptop_48px</title><g id="Square"><rect class="cls-1" width="48" height="48"/></g><g id="Icon"><path class="cls-2" d="M42,32H41V12a2,2,0,0,0-2-2H9a2,2,0,0,0-2,2V32H6a2,2,0,0,0-2,2v3a4,4,0,0,0,4,4H40a4,4,0,0,0,4-4V34A2,2,0,0,0,42,32ZM10,13H38V32H10ZM41,37a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1V35H41Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+      <g id="Square"> </g>
+  <path fill-rule="evenodd" d="M11.5 29.5h25v-18h-25v18Zm28 0V11A2.5 2.5 0 0 0 37 8.5H11A2.5 2.5 0 0 0 8.5 11v18.5H6A1.5 1.5 0 0 0 4.5 31v4a5.5 5.5 0 0 0 5.5 5.5h28a5.5 5.5 0 0 0 5.5-5.5v-4a1.5 1.5 0 0 0-1.5-1.5h-2.5Zm1 3h-33V35a2.5 2.5 0 0 0 2.5 2.5h28a2.5 2.5 0 0 0 2.5-2.5v-2.5ZM21 14a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2h-6Z"/>
+</svg>

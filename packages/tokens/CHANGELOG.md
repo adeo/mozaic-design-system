@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
+
+
+### Features
+
+* **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([614c486](https://github.com/adeo/mozaic-design-system/commit/614c486a138790d4c6cee5a323f672841463422e)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
+
+
+
+
+
 # [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
 
 
@@ -42,6 +53,56 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([4691c6a](https://github.com/adeo/mozaic-design-system/commit/4691c6a9fcf3d74366ba075d5f7724fa7198bdc2))
+
+
+
+
+
+# [1.50.0](https://github.com/adeo/mozaic-design-system/compare/v1.49.1...v1.50.0) (2022-12-08)
+
+
+### Features
+
+* **component/option-card:** add variation with `disabled` state ([#1284](https://github.com/adeo/mozaic-design-system/issues/1284)) ([4b4ce50](https://github.com/adeo/mozaic-design-system/commit/4b4ce502edb907086ae5d39d1422cf25444cf1af)), closes [#1278](https://github.com/adeo/mozaic-design-system/issues/1278)
+* **components/form:** update icons for valid & invalid states on form elements ([#1286](https://github.com/adeo/mozaic-design-system/issues/1286)) ([737709f](https://github.com/adeo/mozaic-design-system/commit/737709fbcb509d29981e5ebe2f4ba22bc13b8e38))
+
+
+
+
+
+# [1.47.0](https://github.com/adeo/mozaic-design-system/compare/v1.46.0...v1.47.0) (2022-11-09)
+
+
+### Bug Fixes
+
+* **components/tabs:** update adeo colour values ([#1246](https://github.com/adeo/mozaic-design-system/issues/1246)) ([ea4e577](https://github.com/adeo/mozaic-design-system/commit/ea4e5772460ec89916af29c0f24896b5b58270f4))
+
+
+### Features
+
+* **components/button:** improve colour a11y ([#1245](https://github.com/adeo/mozaic-design-system/issues/1245)) ([4b3ab67](https://github.com/adeo/mozaic-design-system/commit/4b3ab67fce1816219333e9db7420c1d0de909a59))
+
+
+
+
+
+# [1.44.0](https://github.com/adeo/mozaic-design-system/compare/v1.43.1...v1.44.0) (2022-10-12)
+
+
+### Features
+
+* **component/tabs:** implementation of the new design of the Tabs component ([#1227](https://github.com/adeo/mozaic-design-system/issues/1227)) ([13836ac](https://github.com/adeo/mozaic-design-system/commit/13836acaab44cc01c567811de95676abd67d0ecb))
+
+
+
+
+
+# [1.43.0](https://github.com/adeo/mozaic-design-system/compare/v1.42.1...v1.43.0) (2022-09-28)
+
+
+### Features
+
+* **pattern/colors:** add new LM colours ([#1210](https://github.com/adeo/mozaic-design-system/issues/1210)) ([07e3688](https://github.com/adeo/mozaic-design-system/commit/07e36880b0439c188aad10f0636f12ee1204c06c))
 
 
 

@@ -46,6 +46,7 @@
     scrollbar-color: $color-grey-600 $color-grey-100;
     scrollbar-width: thin;
     background-color: $color-phone-number-list-background;
+    z-index: 10;
 
     &::-webkit-scrollbar {
       background-color: $color-grey-100;
@@ -94,10 +95,6 @@
     inset: 0;
     position: fixed;
     z-index: 10;
-  }
-
-  &__dropdown {
-    z-index: 20;
   }
 
   &--focused {

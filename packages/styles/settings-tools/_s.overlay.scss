@@ -7,8 +7,7 @@ $z-index-page-overlay: 1999999998;
   $blur: true
 ) {
   background-color: mt-rgba($background-color, 0.7);
-  cursor: pointer;
-
+  
   @if $blur {
     filter: blur(1px);
   }

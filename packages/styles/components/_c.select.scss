@@ -3,6 +3,10 @@
   @include reset-input();
   @include set-select-size($select-default-size);
 
+  background-image: $select-background-arrow;
+  background-color: $color-input-background;
+  background-repeat: no-repeat;
+  background-size: $mu100 $mu100, $mu150 $mu150;
   border: $select-border-width solid $color-input-border;
   border-radius: $select-border-radius;
   color: $color-input-text;
@@ -26,21 +30,20 @@
   }
 
   &:disabled {
-    @include select-background-arrow(
-      $color-input-placeholder,
-      $color-input-disabled-background
-    );
-
+    background-color: $color-input-disabled-background;
     border-color: $color-input-disabled-border;
     color: $color-input-placeholder;
     cursor: not-allowed;
+    opacity: 1;
   }
 
   &.is-invalid {
+    background-image: $select-background-arrow, $select-background-invalid-b64;
     border-color: $color-input-invalid-border;
   }
 
   &.is-valid {
+    background-image: $select-background-arrow, $select-background-valid-b64;
     border-color: $color-input-valid-border;
   }
 

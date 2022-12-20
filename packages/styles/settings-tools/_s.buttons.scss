@@ -125,6 +125,7 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
       &:active {
         @include add-demo-state-class() {
           background-color: map-get($active-props, "background");
+          color: map-get($active-props, "font");
         }
       }
     }

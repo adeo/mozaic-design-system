@@ -1,0 +1,18 @@
+@import "tokens";
+@import "settings-tools/all-settings";
+@include import-font-families();
+html {
+  @include set-font-face();
+}
+@import "components/c.tabs";
+
+body {
+  background-color: #e5e5e5;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: $mu200;
+}

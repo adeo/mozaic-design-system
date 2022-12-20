@@ -5,6 +5,7 @@ html {
   @include set-font-face();
 }
 @import "components/c.select";
+@import "components/c.button";
 @import "components/c.pagination";
 
 .example {

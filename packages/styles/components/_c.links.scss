@@ -15,14 +15,6 @@
     fill: currentcolor;
     flex-shrink: 0;
     width: $mu100;
-
-    &--left {
-      margin-right: $mu025;
-    }
-
-    &--right {
-      margin-left: $mu025;
-    }
   }
 
   @each $name, $props in $links-tokens {

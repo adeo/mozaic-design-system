@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/gatsby-github-release",
-  "version": "1.27.0",
+  "version": "1.47.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "node-fetch": "^2.6.1"
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7"
   },
   "peerDependencies": {
-    "gatsby": "^4.8.1"
+    "gatsby": "^4.24.7"
   }
 }
