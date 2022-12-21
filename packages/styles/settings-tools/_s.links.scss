@@ -49,25 +49,19 @@ $link-m: map-get($link-sizes, "m");
 
   @if map-has-key($props, "visited") {
     &:visited {
-      @include add-demo-state-class () {
-        color: map-get($props, "visited");
-      }
+      color: map-get($props, "visited");
     }
   }
 
   @if map-has-key($props, "hover") {
     &:hover {
-      @include add-demo-state-class () {
-        color: map-get($props, "hover");
-      }
+      color: map-get($props, "hover");
     }
   }
 
   @if map-has-key($props, "active") {
     &:active {
-      @include add-demo-state-class () {
-        color: map-get($props, "active");
-      }
+      color: map-get($props, "active");
     }
   }
 
