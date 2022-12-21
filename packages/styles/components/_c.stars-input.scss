@@ -107,36 +107,20 @@
             &:checked,
             &:focus {
               & ~ #{$parent}__label {
-                background-image: url(
-                  inline-icons(
-                    "#{$icon-empty}",
-                    $color-star-full
-                  ));
+                background-image: url("#{inline-icons($icon-empty, $color-star-full)}");
               }
               & + #{$parent}__label {
-                background-image: url(
-                  inline-icons(
-                    "#{$icon-full}",
-                    $color-star-full
-                  ));
+                background-image: url("#{inline-icons($icon-full, $color-star-full)}");
               }
             }
 
             &:hover {
               & ~ #{$parent}__label {
-                background-image: url(
-                  inline-icons(
-                    "#{$icon-empty}",
-                    $color-star-full
-                  ));
+                background-image: url("#{inline-icons($icon-empty, $color-star-full)}");
               }
 
               & + #{$parent}__label {
-                background-image: url(
-                  inline-icons(
-                    "#{$icon-full}",
-                    $color-star-full
-                  ));
+                background-image: url("#{inline-icons($icon-full, $color-star-full)}");
               }
             }
           }

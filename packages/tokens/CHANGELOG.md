@@ -19,6 +19,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
+
 * **pattern/colors:** update the color of the notification icons ([#1104](https://github.com/adeo/mozaic-design-system/issues/1104)) ([4bfba3f](https://github.com/adeo/mozaic-design-system/commit/4bfba3fce58f84ea8179d4223252662b28e3812d))
 
 
