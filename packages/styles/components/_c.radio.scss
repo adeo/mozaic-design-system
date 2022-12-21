@@ -122,7 +122,7 @@
       }
 
       &:hover {
-        @include add-demo-state-class {
+        @include add-demo-state-class() {
           border-color: $color-input-invalid-hover-border;
 
           &::-ms-check {
