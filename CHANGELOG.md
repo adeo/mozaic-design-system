@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.50.1](https://github.com/adeo/mozaic-design-system/compare/v1.50.0...v1.50.1) (2022-12-16)
+
+
+### Bug Fixes
+
+* **component/option-card:** make the content element suitable to the parent ([#1294](https://github.com/adeo/mozaic-design-system/issues/1294)) ([75c2b76](https://github.com/adeo/mozaic-design-system/commit/75c2b76eb2adb7f5f4535c1264a72eac7b5ab986))
+* **component/starsinput:** fix the display of stars in s, l & xl variations ([#1291](https://github.com/adeo/mozaic-design-system/issues/1291)) ([1bc5d9c](https://github.com/adeo/mozaic-design-system/commit/1bc5d9c91f1c46d5190e1c255eca0df5dfeb0157))
+* **components/autocomplete-dropdown:** adjust the padding-right value according to the clear button ([#1293](https://github.com/adeo/mozaic-design-system/issues/1293)) ([d19c435](https://github.com/adeo/mozaic-design-system/commit/d19c435c423b268bf3c691e2f7df50bedb5c3727))
+
+
+
+
+
 # [1.50.0](https://github.com/adeo/mozaic-design-system/compare/v1.49.1...v1.50.0) (2022-12-08)
 
 

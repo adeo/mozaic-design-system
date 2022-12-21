@@ -1,0 +1,37 @@
+@import "settings-tools/all-settings";
+@import "typography/t.bodys";
+@include import-font-families();
+@import "components/c.checkbox";
+@import "components/c.option-card";
+
+.example {
+  @include set-font-family();
+
+  padding: 2rem;
+}
+
+.mc-option {
+  &-group {
+    display: flex;
+    gap: $mu125;
+  }
+
+  &-card {
+    max-width: 280px;
+    width: 100%;
+  }
+}
+
+.user-card {
+  max-width: 280px;
+
+  &__visual {
+    @include set-ratio("1x1");
+
+    margin: 0 auto;
+  }
+
+  &__title {
+    @include set-font-weight("semi-bold");
+  }
+}
