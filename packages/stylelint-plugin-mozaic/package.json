@@ -1,6 +1,20 @@
 {
   "name": "@mozaic-ds/stylelint-plugin-mozaic",
   "version": "2.0.0-rc.9",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "description": "A set of rules to enforce Mozaic CSS architecture",
   "main": "index.js",
   "scripts": {
@@ -14,7 +28,6 @@
     "bem",
     "mozaic"
   ],
-  "author": "Mohamed Mokhtari <mohamed.mokhtari.pro@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",

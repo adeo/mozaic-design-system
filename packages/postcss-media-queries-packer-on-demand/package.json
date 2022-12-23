@@ -1,6 +1,20 @@
 {
   "name": "@mozaic-ds/postcss-media-queries-packer-on-demand",
   "version": "1.60.0",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "description": "PostCSS plugin that group media queries on demand",
   "keywords": [
     "css",
@@ -12,7 +26,6 @@
     "test": "jest"
   },
   "main": "index.js",
-  "author": "gael-boyenval <gaelboyenval@icloud.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.23.6",

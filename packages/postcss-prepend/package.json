@@ -1,6 +1,20 @@
 {
   "name": "@mozaic-ds/postcss-prepend",
   "version": "1.60.0",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "description": "PostCSS plugin that adds content to the beginning of your CSS file",
   "keywords": [
     "css",
@@ -12,7 +26,6 @@
     "test": "jest"
   },
   "main": "index.js",
-  "author": "Trésor ILOYI <tresor.iloyi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0",

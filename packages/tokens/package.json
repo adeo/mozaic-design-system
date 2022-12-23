@@ -1,8 +1,21 @@
 {
   "name": "@mozaic-ds/tokens",
   "version": "2.0.0-rc.9",
-  "description": "Tokens to Design Systeme Adeo",
-  "author": "",
+  "description": "Mozaic Design System Tokens",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "style-dictionary": "^3.9.1"
