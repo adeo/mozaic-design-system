@@ -14,7 +14,6 @@
     "bem",
     "mozaic"
   ],
-  "author": "Mohamed Mokhtari <mohamed.mokhtari.pro@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",

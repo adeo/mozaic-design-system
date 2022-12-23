@@ -1,8 +1,21 @@
 {
   "name": "@mozaic-ds/designsystem",
-  "description": "leroy merlin design system",
-  "version": "0.0.0",
-  "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
+  "description": "Mozaic is an open-source design system built by ADEO, designed to help set up a coherent human experience, to reinforce team’s delivery time and improve quality of deliverables.",
+  "version": "2.0.0",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/adeo/mozaic-design-system"
