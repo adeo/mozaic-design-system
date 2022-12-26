@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.10](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.9...v2.0.0-rc.10) (2022-12-26)
+
+
+### Bug Fixes
+
+* **styles:** improve styles to conform to stylelint rules ([1983596](https://github.com/adeo/mozaic-design-system/commit/19835963b7c8bfb749f3df871c203d658ce5ea33))
+
+
+### Features
+
+* **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([0b3d47b](https://github.com/adeo/mozaic-design-system/commit/0b3d47b96c5d898b65e99940268eb861f171758a))
+
+
+
+
+
 # [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
 
 

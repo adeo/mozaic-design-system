@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/styles",
-  "version": "2.0.0-rc.9",
+  "version": "2.0.0-rc.10",
   "contributors": [
     {
       "name": "Charles-Antoine Queste",
@@ -18,6 +18,6 @@
   "description": "Styles scss for Designe System Adeo",
   "license": "ISC",
   "dependencies": {
-    "@mozaic-ds/tokens": "^2.0.0-rc.9"
+    "@mozaic-ds/tokens": "^2.0.0-rc.10"
   }
 }
