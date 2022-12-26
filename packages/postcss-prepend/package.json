@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/postcss-prepend",
-  "version": "1.60.0",
+  "version": "2.0.0-rc.10",
   "contributors": [
     {
       "name": "Charles-Antoine Queste",

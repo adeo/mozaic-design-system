@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.10](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.9...v2.0.0-rc.10) (2022-12-26)
+
+**Note:** Version bump only for package @mozaic-ds/postcss-prepend
+
+
+
+
+
 # [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
 
 **Note:** Version bump only for package @mozaic-ds/postcss-prepend
