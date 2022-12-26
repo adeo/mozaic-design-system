@@ -26,13 +26,12 @@
   &__main {
     @include set-datatable-scrollbar();
 
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow: auto;
   }
 
   // table
   @include set-datatable-size($datatabke-default-celle-size);
-  
+
   &__table {
     @include set-datatable-base();
 
