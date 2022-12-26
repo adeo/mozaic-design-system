@@ -11,9 +11,7 @@
   fill: currentcolor;
 
   &:focus {
-    @include add-demo-state-class() {
-      @include set-shadow-focus();
-    }
+    @include set-shadow-focus();
   }
 
   // all sizes

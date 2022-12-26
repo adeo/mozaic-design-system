@@ -1,0 +1,80 @@
+---
+title: 'Accordions'
+order: 1
+description: 'Accordions allow you to show or hide related content under vertically stacked lists'
+links:
+  vue:
+    link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-maccordion'
+    status: 'ready'
+  freemarker:
+    status: 'ready'
+    link: 'https://solid-bassoon-011c369c.pages.github.io/pages/3_Components/accordion/'
+  webComponent:
+    status: 'ready'
+    link: 'https://ubiquitous-giggle-7b5b6e33.pages.github.io/?path=/story/components-accordion'
+status:
+  figma: 'ready'
+  scss: 'ready'
+---
+
+
+> Accordions allow you to show or hide related content under vertically stacked lists.
+
+  <Highlight theme="tips" title="When to use">
+
+Please use accordions for complementary content when you need to have a minimum scroll.
+
+  </Highlight>
+
+## States
+
+This pattern is available in a closed or an opened version.
+
+### Closed
+
+The closed version is the default state and it can be identified with the plus sign icon. It allows to minimize the scroll and quickly view the different stacked accordions.
+
+### Opened
+
+The opened version expands the accordion to show the content within it. Unlike the opened version, it can be identified with the minus sign icon.
+
+### Displaying accordions with icons
+
+The accordion pattern can be used with an illustrative icon before the title when you have to add a piece of additional visual information.
+
+<Preview path="icon" nude />
+
+## Variations
+
+### Sizes
+
+You will find two different sizes for the accordions. The smallest version should be used for secondary content. The default version is bigger and is best suited for readable content.
+
+<Preview path="sizes" nude />
+
+<Highlight theme="warning" title="Be aware">
+
+Always think about accessibility when you use smaller accordion sizes.
+
+</Highlight>
+
+### Alignment
+
+We provide two different types of alignment to adjust to your needs.
+
+#### Without horizontal padding
+
+This version allows you to vertically list accordions without horizontal padding (mainly used on larger breakpoints).
+
+![Accordions-NoPadding](Accordions-NoPadding--Zoning.png)
+
+#### With an 8px horizontal padding
+
+This version has an 8px padding allowing you to stack accordions that suits better smaller screens.
+
+![Accordions-Padding](Accordions-Padding--Zoning.png)
+
+## Do's and Don'ts
+
+<HintItem>Use this navigation for related content.</HintItem>
+<HintItem dont>Hide mandatory or important content in accordions.</HintItem>
