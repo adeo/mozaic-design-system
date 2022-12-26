@@ -37,22 +37,18 @@
     }
 
     &:hover {
-      @include add-demo-state-class() {
-        border-color: $color-input-hover-border;
+      border-color: $color-input-hover-border;
 
-        &::-ms-check {
-          border-color: $color-input-hover-border;
-        }
+      &::-ms-check {
+        border-color: $color-input-hover-border;
       }
     }
 
     &:focus {
-      @include add-demo-state-class() {
-        @include set-shadow-focus();
+      @include set-shadow-focus();
 
-        &::-ms-check {
-          @include set-shadow-focus();
-        }
+      &::-ms-check {
+        @include set-shadow-focus();
       }
     }
 
@@ -116,12 +112,10 @@
       }
 
       &:hover {
-        @include add-demo-state-class() {
-          border-color: $color-input-invalid-hover-border;
+        border-color: $color-input-invalid-hover-border;
 
-          &::-ms-check {
-            border-color: $color-input-invalid-hover-border;
-          }
+        &::-ms-check {
+          border-color: $color-input-invalid-hover-border;
         }
       }
     }
