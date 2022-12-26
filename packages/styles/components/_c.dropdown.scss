@@ -9,7 +9,10 @@
 
   &__trigger {
     display: block;
+    overflow: hidden;
     text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     &.is-open {
       background-image: url(inline-icons("arrow-top-16", $color-grey-999));
@@ -54,12 +57,6 @@
     .is-invalid + & {
       right: px-to-rem(72);
     }
-  }
-
-  &__trigger {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   &--multi {
