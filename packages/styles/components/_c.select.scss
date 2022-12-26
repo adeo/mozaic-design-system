@@ -18,15 +18,11 @@
   }
 
   &:hover {
-    @include add-demo-state-class() {
-      border-color: $color-input-hover-border;
-    }
+    border-color: $color-input-hover-border;
   }
 
   &:focus {
-    @include add-demo-state-class() {
-      @include set-shadow-focus();
-    }
+    @include set-shadow-focus();
   }
 
   &:disabled {
