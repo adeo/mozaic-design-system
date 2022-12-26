@@ -102,18 +102,16 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
     $button-color-hover: map-get($hover-props, "font");
 
     &:hover {
-      @include add-demo-state-class() {
-        @if map-has-key($hover-props, "background") {
-          background-color: map-get($hover-props, "background");
-        }
+      @if map-has-key($hover-props, "background") {
+        background-color: map-get($hover-props, "background");
+      }
 
-        @if map-has-key($hover-props, "font") {
-          @if $button-color != $button-color-default or $is-default == true {
-            color: $button-color-hover;
-          }
-        } @else {
-          color: $button-color;
+      @if map-has-key($hover-props, "font") {
+        @if $button-color != $button-color-default or $is-default == true {
+          color: $button-color-hover;
         }
+      } @else {
+        color: $button-color;
       }
     }
   }
@@ -123,10 +121,8 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
 
     @each $prop, $value in $active-props {
       &:active {
-        @include add-demo-state-class() {
-          background-color: map-get($active-props, "background");
-          color: map-get($active-props, "font");
-        }
+        background-color: map-get($active-props, "background");
+        color: map-get($active-props, "font");
       }
     }
   }
