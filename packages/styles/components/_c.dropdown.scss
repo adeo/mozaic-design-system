@@ -9,7 +9,10 @@
 
   &__trigger {
     display: block;
+    overflow: hidden;
     text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     &.is-open {
       background-image: url(inline-icons("arrow-top-16", $color-grey-999));
@@ -52,18 +55,7 @@
 
     // invalid state
     .is-invalid + & {
-      right: ($mu200 + $mu025) * 2; // =72px
-    }
-  }
-
-  &__trigger {
-    overflow: hidden;
-    padding-right: ($mu200 + $mu025) * 2; // =72px
-    text-overflow: ellipsis;
-    white-space: nowrap;
-
-    &.is-invalid {
-      padding-right: $mu700 - $mu050; // =104px
+      right: px-to-rem(72);
     }
   }
 
@@ -71,6 +63,18 @@
     #{$parent} {
       &__trigger {
         padding-left: calc($mu075 + var(--dropdown-tag-width, 0px));
+      }
+    }
+  }
+
+  &--clearable {
+    #{$parent} {
+      &__trigger {
+        padding-right: px-to-rem(72);
+
+        &.is-invalid {
+          padding-right: px-to-rem(104);
+        }
       }
     }
   }
