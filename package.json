@@ -80,7 +80,7 @@
     "predevelop": "yarn tokens:clean-build",
     "release": "npx lerna version --conventional-commits --conventional-graduate --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
     "releaseBeta": "npx lerna version --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid beta",
-    "releaseCandidate": "npx lerna version premajor --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid rc",
+    "releaseCandidate": "npx lerna version --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid rc",
     "npm:publish": "npx lerna exec --no-bail -- npm publish",
     "npm:publishBeta": "npx lerna exec --no-bail -- npm publish --tag beta",
     "npm:publishCandidate": "npx lerna exec --no-bail -- npm publish --tag rc",
