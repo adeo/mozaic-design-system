@@ -14,6 +14,20 @@
   "author": {
     "name": "Adeo"
   },
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "bin": {
     "mozaic-tokens-build": "bin/build.js"
   },
