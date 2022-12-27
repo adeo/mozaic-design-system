@@ -34,33 +34,25 @@
     }
 
     :focus + & {
-      @include add-demo-state-class() {
-        @include set-shadow-focus();
-      }
+      @include set-shadow-focus();
     }
 
     :hover + & {
-      @include add-demo-state-class() {
-        @include set-button-theme(
-          get-token(color, button, "bordered", "hover")
-        );
-      }
+      @include set-button-theme(get-token(color, button, "bordered", "hover"));
     }
 
     :disabled + & {
-      @include add-demo-state-class() {
-        @include set-button-theme(
-          get-token(color, button, "bordered", "disabled")
-        );
+      @include set-button-theme(
+        get-token(color, button, "bordered", "disabled")
+      );
 
-        border-color: transparent;
-        cursor: not-allowed;
+      border-color: transparent;
+      cursor: not-allowed;
 
-        &::before {
-          background-color: transparent;
-          background-image: url("#{inline-icons('upload-24', $color-button-bordered-disabled-font)}");
-          background-repeat: no-repeat;
-        }
+      &::before {
+        background-color: transparent;
+        background-image: url("#{inline-icons('upload-24', $color-button-bordered-disabled-font)}");
+        background-repeat: no-repeat;
       }
     }
   }
