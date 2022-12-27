@@ -3,7 +3,7 @@ $listbox-min-width: 18rem; // =288px
 $listbox-width: auto;
 
 @mixin listbox-tile-selected($position: center, $size: auto) {
-  background-image: url("#{inline-icons('notification-available-24', $color-grey-900)}");
+  background-image: url("#{inline-icons('NotificationAvailable24', $color-grey-900)}");
   background-repeat: no-repeat;
   background-position: $position;
 

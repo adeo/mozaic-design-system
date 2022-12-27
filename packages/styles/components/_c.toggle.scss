@@ -80,7 +80,7 @@
       :checked + & {
         border-color: $color-toggle-on-background;
         background-image: url(inline-icons(
-          "notification-available-16",
+          "NotificationAvailable16",
           $color-toggle-on-background
         ));
         transform: translate(100%, -50%);
@@ -100,7 +100,7 @@
         border-color: $color-toggle-disabled-checked-background;
         background-color: $color-toggle-disabled-checked-circle;
         background-image: url(inline-icons(
-          "notification-available-16",
+          "NotificationAvailable16",
           $color-toggle-disabled-checked-background
         ));
         cursor: not-allowed;

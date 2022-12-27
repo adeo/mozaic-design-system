@@ -30,11 +30,10 @@ $checkbox-label-space: $mu100;
   &:checked {
     background-color: $color-input-checked-background;
     border-color: $color-input-checked-border;
-    background-image: url(
-      inline-icons(
-        "checkmark-16",
-        $color-input-checked-icon
-      ));
+    background-image: url(inline-icons(
+      "NotificationAvailable16",
+      $color-input-checked-icon
+    ));
     background-position: center center;
     background-size: $mu100;
 
@@ -46,11 +45,10 @@ $checkbox-label-space: $mu100;
     &:disabled {
       border-color: $color-input-disabled-border;
       background: $color-input-disabled-background;
-      background-image: url(
-        inline-icons(
-          "checkmark-16",
-          $color-input-disabled-icon
-        ));
+      background-image: url(inline-icons(
+        "NotificationAvailable16",
+        $color-input-disabled-icon
+      ));
     }
   }
 }

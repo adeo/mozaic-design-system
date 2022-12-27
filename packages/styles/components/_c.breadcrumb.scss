@@ -69,21 +69,19 @@
     }
 
     &:not(:first-child) {
-      background-image: url(
-        inline-icons(
-          "arrow-right-16",
-          $color-breadcrumb-arrow
-        ));
+      background-image: url(inline-icons(
+        "ArrowArrowRight16",
+        $color-breadcrumb-arrow
+      ));
     }
 
     &.is-active,
     &:only-child {
       @media screen and (max-width: ($screen-l - 1)) {
-        background-image: url(
-          inline-icons(
-            "arrow-left-16",
-            $color-breadcrumb-arrow
-          ));
+        background-image: url(inline-icons(
+          "ArrowArrowLeft16",
+          $color-breadcrumb-arrow
+        ));
       }
     }
   }
@@ -111,21 +109,19 @@
     #{$parent} {
       &__item {
         &:not(:first-child) {
-          background-image: url(
-            inline-icons(
-              "arrow-right-16",
-              $color-breadcrumb-arrow-invert
-            ));
+          background-image: url(inline-icons(
+            "ArrowArrowRight16",
+            $color-breadcrumb-arrow-invert
+          ));
         }
 
         &.is-active,
         &:only-child {
           @media screen and (max-width: ($screen-l - 1)) {
-            background-image: url(
-              inline-icons(
-                "arrow-left-16",
-                $color-breadcrumb-arrow-invert
-              ));
+            background-image: url(inline-icons(
+              "ArrowArrowLeft16",
+              $color-breadcrumb-arrow-invert
+            ));
           }
         }
       }

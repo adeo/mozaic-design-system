@@ -2,8 +2,8 @@
 
 $accordion-sizes: (
   "s": (
-    "background-open": "control-more-16",
-    "background-close": "control-less-16",
+    "background-open": "ControlMore16",
+    "background-close": "ControlLess16",
     "background-size": $mu100,
     "font-size": "05",
     "icon-size": $mu150,
@@ -11,8 +11,8 @@ $accordion-sizes: (
     "padding-v": $mu100,
   ),
   "m": (
-    "background-open": "control-more-24",
-    "background-close": "control-less-24",
+    "background-open": "ControlMore24",
+    "background-close": "ControlLess24",
     "background-size": $mu150,
     "font-size": "06",
     "icon-size": $mu200,
