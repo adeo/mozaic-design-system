@@ -17,19 +17,25 @@
     border: get-border("s") solid $color-grey-600;
     border-radius: get-border-radius("m");
     padding-left: $mu075;
+    overflow: hidden;
+    padding-right: ($mu200 + $mu025) * 2; // =72px
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     &.is-open {
       background-image: url("#{inline-icons('arrow-top-16', $color-grey-999)}");
     }
 
+    &.is-invalid {
+      padding-right: $mu700 - $mu050; // =104px
+    }
+
     &:disabled {
-      @include add-demo-state-class () {
-        border-color: transparent;
-        background-color: $color-grey-100;
-        color: $color-grey-600;
-        cursor: not-allowed;
-        pointer-events: none;
-      }
+      border-color: transparent;
+      background-color: $color-grey-100;
+      color: $color-grey-600;
+      cursor: not-allowed;
+      pointer-events: none;
     }
   }
 
@@ -70,17 +76,6 @@
     // invalid state
     .is-invalid + & {
       right: ($mu200 + $mu025) * 2; // =72px
-    }
-  }
-
-  &__trigger {
-    overflow: hidden;
-    padding-right: ($mu200 + $mu025) * 2; // =72px
-    text-overflow: ellipsis;
-    white-space: nowrap;
-
-    &.is-invalid {
-      padding-right: $mu700 - $mu050; // =104px
     }
   }
 
