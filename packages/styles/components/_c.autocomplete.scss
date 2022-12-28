@@ -11,10 +11,6 @@
   &__loader,
   &__clear {
     position: absolute;
-  }
-
-  &__tag,
-  &__clear {
     top: 50%;
     transform: translateY(-50%);
     z-index: $autocomplete-tag-zindex;
@@ -22,6 +18,23 @@
 
   &__tag {
     left: $mu300 - $mu025;
+    left: px-to-rem(44);
+  }
+
+  &__trigger {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__loader {
+    background-color: $color-input-background;
+    right: $mu075;
+    z-index: $autocomplete-loader-zindex;
+
+    .mc-left-icon-input.is-invalid ~ & {
+      right: px-to-rem(72);
+    }
   }
 
   &__clear {
@@ -47,21 +60,9 @@
     }
 
     // invalid state
-    .is-invalid + & {
+    .mc-left-icon-input.is-invalid ~ & {
       right: $mu250;
     }
-  }
-
-  &__loader {
-    right: $mu075;
-    top: $mu075;
-    z-index: $autocomplete-loader-zindex;
-  }
-
-  &__trigger {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   &--multi {
@@ -80,6 +81,10 @@
         &.is-invalid {
           padding-right: px-to-rem(72);
         }
+      }
+
+      &__loader {
+        right: px-to-rem(44);
       }
     }
   }

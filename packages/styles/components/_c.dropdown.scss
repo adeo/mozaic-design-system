@@ -7,6 +7,19 @@
   max-width: var(--dropdown-width, $dropdown-width);
   width: 100%;
 
+  &__tag,
+  &__loader,
+  &__clear {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: $dropdown-tag-zindex;
+  }
+
+  &__tag {
+    left: $mu075;
+  }
+
   &__trigger {
     display: block;
     overflow: hidden;
@@ -17,18 +30,24 @@
     &.is-open {
       background-image: url(inline-icons("arrow-top-16", $color-grey-999));
     }
+
+    // invalid state
+    &.is-invalid {
+      & ~ #{$parent} {
+        &__clear {
+          right: px-to-rem(72);
+        }
+
+        &__loader {
+          right: px-to-rem(104);
+        }
+      }
+    }
   }
 
-  &__tag,
-  &__clear {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: $dropdown-tag-zindex;
-  }
-
-  &__tag {
-    left: $mu075;
+  &__loader {
+    background-color: $color-input-background;
+    right: $mu250;
   }
 
   &__clear {
@@ -52,11 +71,6 @@
     &-text {
       @include visually-hidden();
     }
-
-    // invalid state
-    .is-invalid + & {
-      right: px-to-rem(72);
-    }
   }
 
   &--multi {
@@ -75,6 +89,10 @@
         &.is-invalid {
           padding-right: px-to-rem(104);
         }
+      }
+
+      &__loader {
+        right: px-to-rem(72);
       }
     }
   }
