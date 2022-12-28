@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.51.0](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v1.51.0) (2022-12-28)
+
+
+### Bug Fixes
+
+* **component/datatable:** improve the overflow behaviour of the datatable ([#1306](https://github.com/adeo/mozaic-design-system/issues/1306)) ([4d8b9e4](https://github.com/adeo/mozaic-design-system/commit/4d8b9e4e35a09905c085765a986c2c73ea8bd8d4))
+
+
+### Features
+
+* **component/autocomplete-dropdown:** add the clearable modifier to manage the display of the clear button ([#1300](https://github.com/adeo/mozaic-design-system/issues/1300)) ([d7a336d](https://github.com/adeo/mozaic-design-system/commit/d7a336d7aaa5d86c099699768da1101653013a4f))
+* **component/autocomplete-dropdown:** update the position of the loader ([#1312](https://github.com/adeo/mozaic-design-system/issues/1312)) ([4489c37](https://github.com/adeo/mozaic-design-system/commit/4489c375c9dda5243cc384f562c6c4481faee556))
+
+
+
+
+
 ## [1.50.1](https://github.com/adeo/mozaic-design-system/compare/v1.50.0...v1.50.1) (2022-12-16)
 
 
