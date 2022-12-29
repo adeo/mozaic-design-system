@@ -1,0 +1,50 @@
+---
+title: 'Option button'
+order: 1
+description: 'The option button component allows confronting some options and can be used inside a questionnaire or a survey. The content of each option button must be easily readable to help the user make a choice'
+links:
+  vue:
+    link: 'https://adeo.github.io/mozaic-vue/?path=/story/components-moptionbutton'
+    status: 'ready'
+  freemarker:
+    link: 'https://solid-bassoon-011c369c.pages.github.io/pages/3_Components/option-group/option-button/'
+    status: 'ready'
+  react:
+    status: 'ready'
+    link: 'https://adeo.github.io/mozaic-react/?path=/story/components-optionbutton'
+  webComponent:
+    status: 'ready'
+    link: 'https://ubiquitous-giggle-7b5b6e33.pages.github.io/?path=/story/components-optionbutton'
+status:
+  figma: 'ready'
+  scss: 'ready'
+---
+
+> The option button component allows confronting some options and can be used inside a questionnaire or a survey. The content of each option button must be easily readable to help the user make a choice.
+
+<Preview path="default" nude />
+
+## Behaviours
+
+### Content
+
+The content should be short and readable to help users to compare it quickly and easily.
+
+<Highlight theme="warning" title="Be aware">
+
+By default, the Option button is available with a text element only. If you have to display specific content like picture or additional text element, please use the [Option card component](/Components/OptionGroup/OptionCard).
+
+</Highlight>
+
+### Width
+
+The Option button component width can either fit its content or its container.
+
+<Preview path="width" nude />
+
+## Do's and Don'ts
+
+<HintItem dont>
+  Never use an option button inside a form to choose the civility. Please use
+  radio buttons instead.
+</HintItem>
