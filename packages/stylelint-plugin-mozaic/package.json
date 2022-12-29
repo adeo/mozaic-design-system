@@ -24,7 +24,6 @@
     "jest": "^28.1.1",
     "jest-preset-stylelint": "^5.0.4",
     "postcss": "^8.4.14",
-    "postcss-bem-linter": "^3.3.0",
     "stylelint": "^14.9.1"
   }
 }
