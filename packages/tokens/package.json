@@ -2,6 +2,18 @@
   "name": "@mozaic-ds/tokens",
   "version": "2.0.0-rc.10",
   "description": "Mozaic Design System Tokens",
+  "keywords": [
+    "adeo",
+    "mozaic design system",
+    "design tokens",
+    "style-dictionary"
+  ],
+  "homepage": "https://github.com/adeo/mozaic-design-system/tree/master/packages/tokens/README.md",
+  "bugs": "https://github.com/adeo/mozaic-design-system/issues",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Adeo"
+  },
   "contributors": [
     {
       "name": "Charles-Antoine Queste",
@@ -16,11 +28,18 @@
       "email": "mohamed.mokhtari@ext.adeo.com"
     }
   ],
-  "license": "ISC",
-  "dependencies": {
-    "style-dictionary": "^3.9.1"
-  },
   "bin": {
     "mozaic-tokens-build": "bin/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adeo/mozaic-design-system.git"
+  },
+  "scripts": {
+    "build": "node tokensBuild.js",
+    "clean": "rm -rf ./dist/"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.9.1"
   }
 }

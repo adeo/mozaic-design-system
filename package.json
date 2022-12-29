@@ -64,7 +64,7 @@
   },
   "scripts": {
     "tokens:build": "mozaic-tokens-build",
-    "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js || echo 'nothing to clean'",
+    "tokens:clean": "test -d 'packages/tokens/dist/' && rm -rf packages/tokens/dist/ || echo 'nothing to clean'",
     "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
     "assets:upload": "node ci/assets.js",
     "ci:wait": "node ci/deploy.js",
