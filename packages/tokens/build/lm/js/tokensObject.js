@@ -2,7 +2,7 @@ module.exports = {
   "border": {
     "s": {
       "value": 1,
-      "filePath": "packages/tokens/properties/border/base.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/border/base.json",
       "isSource": true,
       "original": {
         "value": 1
@@ -19,7 +19,7 @@ module.exports = {
     },
     "m": {
       "value": 2,
-      "filePath": "packages/tokens/properties/border/base.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/border/base.json",
       "isSource": true,
       "original": {
         "value": 2
@@ -36,7 +36,7 @@ module.exports = {
     },
     "l": {
       "value": 3,
-      "filePath": "packages/tokens/properties/border/base.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/border/base.json",
       "isSource": true,
       "original": {
         "value": 3
@@ -57,7 +57,7 @@ module.exports = {
       "info": {
         "background": {
           "value": "#daeff7",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.info.100.value}"
@@ -78,7 +78,7 @@ module.exports = {
         },
         "border": {
           "value": "#0b96cc",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.info.500.value}"
@@ -99,7 +99,7 @@ module.exports = {
         },
         "text": {
           "value": "#005c91",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.info.700.value}"
@@ -122,7 +122,7 @@ module.exports = {
       "success": {
         "background": {
           "value": "#ebf5de",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.success.100.value}"
@@ -143,7 +143,7 @@ module.exports = {
         },
         "border": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.success.500.value}"
@@ -164,7 +164,7 @@ module.exports = {
         },
         "text": {
           "value": "#006902",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.success.700.value}"
@@ -187,7 +187,7 @@ module.exports = {
       "warning": {
         "background": {
           "value": "#fdf1e8",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.warning.100.value}"
@@ -208,7 +208,7 @@ module.exports = {
         },
         "border": {
           "value": "#ea7315",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.warning.500.value}"
@@ -229,7 +229,7 @@ module.exports = {
         },
         "text": {
           "value": "#8c3500",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.warning.700.value}"
@@ -252,7 +252,7 @@ module.exports = {
       "danger": {
         "background": {
           "value": "#fdeaea",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.100.value}"
@@ -273,7 +273,7 @@ module.exports = {
         },
         "border": {
           "value": "#ea302d",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.500.value}"
@@ -294,7 +294,7 @@ module.exports = {
         },
         "text": {
           "value": "#8c0003",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.700.value}"
@@ -317,7 +317,7 @@ module.exports = {
       "neutral": {
         "background": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -338,7 +338,7 @@ module.exports = {
         },
         "border": {
           "value": "#808080",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
@@ -359,7 +359,7 @@ module.exports = {
         },
         "text": {
           "value": "#4d4d4d",
-          "filePath": "packages/tokens/properties/color/badge.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/badge.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.700.value}"
@@ -383,7 +383,7 @@ module.exports = {
     "primary-01": {
       "100": {
         "value": "#ebf5de",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#EBF5DE"
@@ -402,7 +402,7 @@ module.exports = {
       },
       "200": {
         "value": "#c5e39e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#C5E39E"
@@ -421,7 +421,7 @@ module.exports = {
       },
       "300": {
         "value": "#9ed05f",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#9ED05F"
@@ -440,7 +440,7 @@ module.exports = {
       },
       "400": {
         "value": "#78be20",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#78BE20"
@@ -459,7 +459,7 @@ module.exports = {
       },
       "500": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#46A610"
@@ -478,7 +478,7 @@ module.exports = {
       },
       "600": {
         "value": "#188803",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#188803"
@@ -497,7 +497,7 @@ module.exports = {
       },
       "700": {
         "value": "#006902",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#006902"
@@ -516,7 +516,7 @@ module.exports = {
       },
       "800": {
         "value": "#035010",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#035010"
@@ -535,7 +535,7 @@ module.exports = {
       },
       "900": {
         "value": "#023618",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#023618"
@@ -556,7 +556,7 @@ module.exports = {
     "primary-02": {
       "100": {
         "value": "#eeeff1",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#EEEFF1"
@@ -575,7 +575,7 @@ module.exports = {
       },
       "200": {
         "value": "#cfd2d8",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#CFD2D8"
@@ -594,7 +594,7 @@ module.exports = {
       },
       "300": {
         "value": "#b3b7c1",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#B3B7C1"
@@ -613,7 +613,7 @@ module.exports = {
       },
       "400": {
         "value": "#8f94a3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#8F94A3"
@@ -632,7 +632,7 @@ module.exports = {
       },
       "500": {
         "value": "#6a7081",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#6A7081"
@@ -651,7 +651,7 @@ module.exports = {
       },
       "600": {
         "value": "#494f60",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#494F60"
@@ -670,7 +670,7 @@ module.exports = {
       },
       "700": {
         "value": "#343b4c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#343B4C"
@@ -689,7 +689,7 @@ module.exports = {
       },
       "800": {
         "value": "#242938",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#242938"
@@ -708,7 +708,7 @@ module.exports = {
       },
       "900": {
         "value": "#171b26",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#171B26"
@@ -729,7 +729,7 @@ module.exports = {
     "grey": {
       "100": {
         "value": "#e6e6e6",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#E6E6E6"
@@ -748,7 +748,7 @@ module.exports = {
       },
       "200": {
         "value": "#cccccc",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#CCCCCC"
@@ -767,7 +767,7 @@ module.exports = {
       },
       "300": {
         "value": "#b3b3b3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#B3B3B3"
@@ -786,7 +786,7 @@ module.exports = {
       },
       "400": {
         "value": "#999999",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#999999"
@@ -805,7 +805,7 @@ module.exports = {
       },
       "500": {
         "value": "#808080",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#808080"
@@ -824,7 +824,7 @@ module.exports = {
       },
       "600": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#666666"
@@ -843,7 +843,7 @@ module.exports = {
       },
       "700": {
         "value": "#4d4d4d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#4D4D4D"
@@ -862,7 +862,7 @@ module.exports = {
       },
       "800": {
         "value": "#333333",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#333333"
@@ -881,7 +881,7 @@ module.exports = {
       },
       "900": {
         "value": "#191919",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#191919"
@@ -900,7 +900,7 @@ module.exports = {
       },
       "999": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#000000"
@@ -919,7 +919,7 @@ module.exports = {
       },
       "000": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FFFFFF"
@@ -940,7 +940,7 @@ module.exports = {
     "secondary-blue": {
       "100": {
         "value": "#daeff7",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#DAEFF7"
@@ -959,7 +959,7 @@ module.exports = {
       },
       "200": {
         "value": "#a7d9ed",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#A7D9ED"
@@ -978,7 +978,7 @@ module.exports = {
       },
       "300": {
         "value": "#73c3e2",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#73C3E2"
@@ -997,7 +997,7 @@ module.exports = {
       },
       "400": {
         "value": "#3facd7",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#3FACD7"
@@ -1016,7 +1016,7 @@ module.exports = {
       },
       "500": {
         "value": "#0b96cc",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#0B96CC"
@@ -1035,7 +1035,7 @@ module.exports = {
       },
       "600": {
         "value": "#007bb4",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#007BB4"
@@ -1054,7 +1054,7 @@ module.exports = {
       },
       "700": {
         "value": "#005c91",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#005C91"
@@ -1073,7 +1073,7 @@ module.exports = {
       },
       "800": {
         "value": "#003a5c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#003A5C"
@@ -1092,7 +1092,7 @@ module.exports = {
       },
       "900": {
         "value": "#002a41",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#002A41"
@@ -1113,7 +1113,7 @@ module.exports = {
     "secondary-green": {
       "100": {
         "value": "#ebf5de",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.100.value}"
@@ -1132,7 +1132,7 @@ module.exports = {
       },
       "200": {
         "value": "#c5e39e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.200.value}"
@@ -1151,7 +1151,7 @@ module.exports = {
       },
       "300": {
         "value": "#9ed05f",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.300.value}"
@@ -1170,7 +1170,7 @@ module.exports = {
       },
       "400": {
         "value": "#78be20",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.400.value}"
@@ -1189,7 +1189,7 @@ module.exports = {
       },
       "500": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.500.value}"
@@ -1208,7 +1208,7 @@ module.exports = {
       },
       "600": {
         "value": "#188803",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.600.value}"
@@ -1227,7 +1227,7 @@ module.exports = {
       },
       "700": {
         "value": "#006902",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.700.value}"
@@ -1246,7 +1246,7 @@ module.exports = {
       },
       "800": {
         "value": "#035010",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.800.value}"
@@ -1265,7 +1265,7 @@ module.exports = {
       },
       "900": {
         "value": "#023618",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.900.value}"
@@ -1286,7 +1286,7 @@ module.exports = {
     "secondary-purple": {
       "100": {
         "value": "#efebfe",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#EFEBFE"
@@ -1305,7 +1305,7 @@ module.exports = {
       },
       "200": {
         "value": "#c7b0fa",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#C7B0FA"
@@ -1324,7 +1324,7 @@ module.exports = {
       },
       "300": {
         "value": "#a575f3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#A575F3"
@@ -1343,7 +1343,7 @@ module.exports = {
       },
       "400": {
         "value": "#883be9",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#883BE9"
@@ -1362,7 +1362,7 @@ module.exports = {
       },
       "500": {
         "value": "#7000dd",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#7000DD"
@@ -1381,7 +1381,7 @@ module.exports = {
       },
       "600": {
         "value": "#5803b3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#5803B3"
@@ -1400,7 +1400,7 @@ module.exports = {
       },
       "700": {
         "value": "#42058a",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#42058A"
@@ -1419,7 +1419,7 @@ module.exports = {
       },
       "800": {
         "value": "#2e0663",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#2E0663"
@@ -1438,7 +1438,7 @@ module.exports = {
       },
       "900": {
         "value": "#1c053d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#1C053D"
@@ -1459,7 +1459,7 @@ module.exports = {
     "secondary-red": {
       "100": {
         "value": "#fdeaea",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FDEAEA"
@@ -1478,7 +1478,7 @@ module.exports = {
       },
       "200": {
         "value": "#f8bcbb",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#F8BCBB"
@@ -1497,7 +1497,7 @@ module.exports = {
       },
       "300": {
         "value": "#f38d8c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#F38D8C"
@@ -1516,7 +1516,7 @@ module.exports = {
       },
       "400": {
         "value": "#ef5f5c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#EF5F5C"
@@ -1535,7 +1535,7 @@ module.exports = {
       },
       "500": {
         "value": "#ea302d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#EA302D"
@@ -1554,7 +1554,7 @@ module.exports = {
       },
       "600": {
         "value": "#c61112",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#C61112"
@@ -1573,7 +1573,7 @@ module.exports = {
       },
       "700": {
         "value": "#8c0003",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#8C0003"
@@ -1592,7 +1592,7 @@ module.exports = {
       },
       "800": {
         "value": "#530000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#530000"
@@ -1611,7 +1611,7 @@ module.exports = {
       },
       "900": {
         "value": "#2d0000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#2D0000"
@@ -1632,7 +1632,7 @@ module.exports = {
     "secondary-orange": {
       "100": {
         "value": "#fdf1e8",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FDF1E8"
@@ -1651,7 +1651,7 @@ module.exports = {
       },
       "200": {
         "value": "#f8d2b3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#F8D2B3"
@@ -1670,7 +1670,7 @@ module.exports = {
       },
       "300": {
         "value": "#f4b27e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#F4B27E"
@@ -1689,7 +1689,7 @@ module.exports = {
       },
       "400": {
         "value": "#ef934a",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#EF934A"
@@ -1708,7 +1708,7 @@ module.exports = {
       },
       "500": {
         "value": "#ea7315",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#EA7315"
@@ -1727,7 +1727,7 @@ module.exports = {
       },
       "600": {
         "value": "#c65200",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#C65200"
@@ -1746,7 +1746,7 @@ module.exports = {
       },
       "700": {
         "value": "#8c3500",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#8C3500"
@@ -1765,7 +1765,7 @@ module.exports = {
       },
       "800": {
         "value": "#531b00",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#531B00"
@@ -1784,7 +1784,7 @@ module.exports = {
       },
       "900": {
         "value": "#360e00",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#360E00"
@@ -1805,7 +1805,7 @@ module.exports = {
     "secondary-yellow": {
       "100": {
         "value": "#fff8e2",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FFF8E2"
@@ -1824,7 +1824,7 @@ module.exports = {
       },
       "200": {
         "value": "#ffebaf",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FFEBAF"
@@ -1843,7 +1843,7 @@ module.exports = {
       },
       "300": {
         "value": "#fee07d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FEE07D"
@@ -1862,7 +1862,7 @@ module.exports = {
       },
       "400": {
         "value": "#fcd64c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#FCD64C"
@@ -1881,7 +1881,7 @@ module.exports = {
       },
       "500": {
         "value": "#f8cc1c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#F8CC1C"
@@ -1900,7 +1900,7 @@ module.exports = {
       },
       "600": {
         "value": "#c9a21b",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#C9A21B"
@@ -1919,7 +1919,7 @@ module.exports = {
       },
       "700": {
         "value": "#9c7b18",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#9C7B18"
@@ -1938,7 +1938,7 @@ module.exports = {
       },
       "800": {
         "value": "#705613",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#705613"
@@ -1957,7 +1957,7 @@ module.exports = {
       },
       "900": {
         "value": "#46350d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "#46350D"
@@ -1978,7 +1978,7 @@ module.exports = {
     "danger": {
       "100": {
         "value": "#fdeaea",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.100.value}"
@@ -1997,7 +1997,7 @@ module.exports = {
       },
       "200": {
         "value": "#f8bcbb",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.200.value}"
@@ -2016,7 +2016,7 @@ module.exports = {
       },
       "300": {
         "value": "#f38d8c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.300.value}"
@@ -2035,7 +2035,7 @@ module.exports = {
       },
       "400": {
         "value": "#ef5f5c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.400.value}"
@@ -2054,7 +2054,7 @@ module.exports = {
       },
       "500": {
         "value": "#ea302d",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.500.value}"
@@ -2073,7 +2073,7 @@ module.exports = {
       },
       "600": {
         "value": "#c61112",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.600.value}"
@@ -2092,7 +2092,7 @@ module.exports = {
       },
       "700": {
         "value": "#8c0003",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.700.value}"
@@ -2111,7 +2111,7 @@ module.exports = {
       },
       "800": {
         "value": "#530000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.800.value}"
@@ -2130,7 +2130,7 @@ module.exports = {
       },
       "900": {
         "value": "#2d0000",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-red.900.value}"
@@ -2151,7 +2151,7 @@ module.exports = {
     "info": {
       "100": {
         "value": "#daeff7",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.100.value}"
@@ -2170,7 +2170,7 @@ module.exports = {
       },
       "200": {
         "value": "#a7d9ed",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.200.value}"
@@ -2189,7 +2189,7 @@ module.exports = {
       },
       "300": {
         "value": "#73c3e2",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.300.value}"
@@ -2208,7 +2208,7 @@ module.exports = {
       },
       "400": {
         "value": "#3facd7",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.400.value}"
@@ -2227,7 +2227,7 @@ module.exports = {
       },
       "500": {
         "value": "#0b96cc",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.500.value}"
@@ -2246,7 +2246,7 @@ module.exports = {
       },
       "600": {
         "value": "#007bb4",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.600.value}"
@@ -2265,7 +2265,7 @@ module.exports = {
       },
       "700": {
         "value": "#005c91",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.700.value}"
@@ -2284,7 +2284,7 @@ module.exports = {
       },
       "800": {
         "value": "#003a5c",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.800.value}"
@@ -2303,7 +2303,7 @@ module.exports = {
       },
       "900": {
         "value": "#002a41",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.900.value}"
@@ -2324,7 +2324,7 @@ module.exports = {
     "warning": {
       "100": {
         "value": "#fdf1e8",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.100.value}"
@@ -2343,7 +2343,7 @@ module.exports = {
       },
       "200": {
         "value": "#f8d2b3",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.200.value}"
@@ -2362,7 +2362,7 @@ module.exports = {
       },
       "300": {
         "value": "#f4b27e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.300.value}"
@@ -2381,7 +2381,7 @@ module.exports = {
       },
       "400": {
         "value": "#ef934a",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.400.value}"
@@ -2400,7 +2400,7 @@ module.exports = {
       },
       "500": {
         "value": "#ea7315",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.500.value}"
@@ -2419,7 +2419,7 @@ module.exports = {
       },
       "600": {
         "value": "#c65200",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.600.value}"
@@ -2438,7 +2438,7 @@ module.exports = {
       },
       "700": {
         "value": "#8c3500",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.700.value}"
@@ -2457,7 +2457,7 @@ module.exports = {
       },
       "800": {
         "value": "#531b00",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.800.value}"
@@ -2476,7 +2476,7 @@ module.exports = {
       },
       "900": {
         "value": "#360e00",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.900.value}"
@@ -2497,7 +2497,7 @@ module.exports = {
     "success": {
       "100": {
         "value": "#ebf5de",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.100.value}"
@@ -2516,7 +2516,7 @@ module.exports = {
       },
       "200": {
         "value": "#c5e39e",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.200.value}"
@@ -2535,7 +2535,7 @@ module.exports = {
       },
       "300": {
         "value": "#9ed05f",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.300.value}"
@@ -2554,7 +2554,7 @@ module.exports = {
       },
       "400": {
         "value": "#78be20",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.400.value}"
@@ -2573,7 +2573,7 @@ module.exports = {
       },
       "500": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.500.value}"
@@ -2592,7 +2592,7 @@ module.exports = {
       },
       "600": {
         "value": "#188803",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.600.value}"
@@ -2611,7 +2611,7 @@ module.exports = {
       },
       "700": {
         "value": "#006902",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.700.value}"
@@ -2630,7 +2630,7 @@ module.exports = {
       },
       "800": {
         "value": "#035010",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.800.value}"
@@ -2649,7 +2649,7 @@ module.exports = {
       },
       "900": {
         "value": "#023618",
-        "filePath": "packages/tokens/properties/color/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/base.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-green.900.value}"
@@ -2670,7 +2670,7 @@ module.exports = {
     "breadcrumb": {
       "arrow": {
         "value": "#333333",
-        "filePath": "packages/tokens/properties/color/breadcrumb.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/breadcrumb.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.800.value}"
@@ -2689,7 +2689,7 @@ module.exports = {
       },
       "arrow-invert": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/breadcrumb.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/breadcrumb.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -2711,7 +2711,7 @@ module.exports = {
       "solid": {
         "background": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -2732,7 +2732,7 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -2754,7 +2754,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#006902",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -2779,7 +2779,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -2802,7 +2802,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -2827,7 +2827,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#006902",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -2852,7 +2852,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#006902",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -2875,7 +2875,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -2901,7 +2901,7 @@ module.exports = {
       "solid-primary-02": {
         "background": {
           "value": "#6a7081",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
@@ -2922,7 +2922,7 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -2944,7 +2944,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#171b26",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
@@ -2969,7 +2969,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -2992,7 +2992,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3017,7 +3017,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#171b26",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
@@ -3042,7 +3042,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#242938",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.800.value}"
@@ -3065,7 +3065,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -3091,7 +3091,7 @@ module.exports = {
       "solid-neutral": {
         "background": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -3112,7 +3112,7 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3134,7 +3134,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -3159,7 +3159,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3182,7 +3182,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3207,7 +3207,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#333333",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
@@ -3232,7 +3232,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -3255,7 +3255,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -3281,7 +3281,7 @@ module.exports = {
       "solid-danger": {
         "background": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.600.value}"
@@ -3302,7 +3302,7 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3324,7 +3324,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -3349,7 +3349,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3372,7 +3372,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3397,7 +3397,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -3422,7 +3422,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -3445,7 +3445,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -3471,7 +3471,7 @@ module.exports = {
       "bordered": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3492,7 +3492,7 @@ module.exports = {
         },
         "border": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -3513,7 +3513,7 @@ module.exports = {
         },
         "font": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -3535,7 +3535,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#006902",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -3560,7 +3560,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3583,7 +3583,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3608,7 +3608,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#c5e39e",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.200.value}"
@@ -3631,7 +3631,7 @@ module.exports = {
           },
           "font": {
             "value": "#035010",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.800.value}"
@@ -3656,7 +3656,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#ebf5de",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.100.value}"
@@ -3679,7 +3679,7 @@ module.exports = {
           },
           "font": {
             "value": "#006902",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -3705,7 +3705,7 @@ module.exports = {
       "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3726,7 +3726,7 @@ module.exports = {
         },
         "border": {
           "value": "#6a7081",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
@@ -3747,7 +3747,7 @@ module.exports = {
         },
         "font": {
           "value": "#6a7081",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
@@ -3769,7 +3769,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#171b26",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
@@ -3794,7 +3794,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3817,7 +3817,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3842,7 +3842,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#cfd2d8",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.200.value}"
@@ -3867,7 +3867,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#eeeff1",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.100.value}"
@@ -3893,7 +3893,7 @@ module.exports = {
       "bordered-neutral": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3914,7 +3914,7 @@ module.exports = {
         },
         "border": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -3935,7 +3935,7 @@ module.exports = {
         },
         "font": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -3957,7 +3957,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -3982,7 +3982,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -4005,7 +4005,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -4030,7 +4030,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -4055,7 +4055,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#e6e6e6",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.100.value}"
@@ -4081,7 +4081,7 @@ module.exports = {
       "bordered-danger": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -4102,7 +4102,7 @@ module.exports = {
         },
         "border": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -4123,7 +4123,7 @@ module.exports = {
         },
         "font": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -4145,7 +4145,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.secondary-red.700.value}"
@@ -4170,7 +4170,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -4193,7 +4193,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -4218,7 +4218,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#f8bcbb",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.secondary-red.200.value}"
@@ -4241,7 +4241,7 @@ module.exports = {
           },
           "font": {
             "value": "#530000",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.800.value}"
@@ -4266,7 +4266,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#fdeaea",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.secondary-red.100.value}"
@@ -4289,7 +4289,7 @@ module.exports = {
           },
           "font": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/properties/color/button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -4317,7 +4317,7 @@ module.exports = {
       "bordered": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/card.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/card.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -4338,7 +4338,7 @@ module.exports = {
         },
         "border": {
           "value": "#808080",
-          "filePath": "packages/tokens/properties/color/card.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/card.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
@@ -4676,7 +4676,7 @@ module.exports = {
     "dialog": {
       "background": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/dialog.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -4695,7 +4695,7 @@ module.exports = {
       },
       "icon": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/dialog.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -4714,7 +4714,7 @@ module.exports = {
       },
       "close": {
         "value": "#808080",
-        "filePath": "packages/tokens/properties/color/dialog.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.500.value}"
@@ -4734,7 +4734,7 @@ module.exports = {
       "footer": {
         "shadow": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/dialog.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -4758,7 +4758,7 @@ module.exports = {
     "divider": {
       "lightest": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/divider.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/divider.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -4777,7 +4777,7 @@ module.exports = {
       },
       "light": {
         "value": "#b3b3b3",
-        "filePath": "packages/tokens/properties/color/divider.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/divider.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.300.value}"
@@ -4796,7 +4796,7 @@ module.exports = {
       },
       "default": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/divider.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/divider.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -4815,7 +4815,7 @@ module.exports = {
       },
       "dark": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/divider.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/divider.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -4836,7 +4836,7 @@ module.exports = {
     "fields": {
       "error": {
         "value": "#c61112",
-        "filePath": "packages/tokens/properties/color/fields.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/fields.json",
         "isSource": true,
         "original": {
           "value": "{color.font.danger.value}"
@@ -4855,7 +4855,7 @@ module.exports = {
       },
       "label": {
         "value": "#333333",
-        "filePath": "packages/tokens/properties/color/fields.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/fields.json",
         "isSource": true,
         "original": {
           "value": "{color.font.dark.value}"
@@ -4874,7 +4874,7 @@ module.exports = {
       },
       "requirement": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/fields.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/fields.json",
         "isSource": true,
         "original": {
           "value": "{color.font.light.value}"
@@ -4893,7 +4893,7 @@ module.exports = {
       },
       "help": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/fields.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/fields.json",
         "isSource": true,
         "original": {
           "value": "{color.font.light.value}"
@@ -4914,7 +4914,7 @@ module.exports = {
     "fileuploader": {
       "font": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/fileuploder.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -4934,7 +4934,7 @@ module.exports = {
       "files": {
         "list": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/fileuploder.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/fileuploder.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -4955,7 +4955,7 @@ module.exports = {
         },
         "delete": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/fileuploder.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/fileuploder.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -4977,7 +4977,7 @@ module.exports = {
       },
       "valid": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/fileuploder.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.500.value}"
@@ -4996,7 +4996,7 @@ module.exports = {
       },
       "alert": {
         "value": "#c61112",
-        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/fileuploder.json",
         "isSource": true,
         "original": {
           "value": "{color.danger.600.value}"
@@ -5018,7 +5018,7 @@ module.exports = {
       "solid": {
         "background": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -5039,7 +5039,7 @@ module.exports = {
         },
         "border": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -5060,7 +5060,7 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5083,7 +5083,7 @@ module.exports = {
       "solid-primary-02": {
         "background": {
           "value": "#494f60",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
@@ -5104,7 +5104,7 @@ module.exports = {
         },
         "border": {
           "value": "#494f60",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
@@ -5125,7 +5125,7 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5148,7 +5148,7 @@ module.exports = {
       "solid-dark": {
         "background": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -5169,7 +5169,7 @@ module.exports = {
         },
         "border": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -5190,7 +5190,7 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5213,7 +5213,7 @@ module.exports = {
       "solid-light": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5234,7 +5234,7 @@ module.exports = {
         },
         "border": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5255,7 +5255,7 @@ module.exports = {
         },
         "text": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -5278,7 +5278,7 @@ module.exports = {
       "solid-danger": {
         "background": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -5299,7 +5299,7 @@ module.exports = {
         },
         "border": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -5320,7 +5320,7 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5343,7 +5343,7 @@ module.exports = {
       "bordered": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5364,7 +5364,7 @@ module.exports = {
         },
         "border": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -5385,7 +5385,7 @@ module.exports = {
         },
         "text": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -5408,7 +5408,7 @@ module.exports = {
       "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5429,7 +5429,7 @@ module.exports = {
         },
         "border": {
           "value": "#494f60",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
@@ -5450,7 +5450,7 @@ module.exports = {
         },
         "text": {
           "value": "#494f60",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
@@ -5473,7 +5473,7 @@ module.exports = {
       "bordered-dark": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5494,7 +5494,7 @@ module.exports = {
         },
         "border": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -5515,7 +5515,7 @@ module.exports = {
         },
         "text": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -5538,7 +5538,7 @@ module.exports = {
       "bordered-light": {
         "background": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -5559,7 +5559,7 @@ module.exports = {
         },
         "border": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5580,7 +5580,7 @@ module.exports = {
         },
         "text": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5603,7 +5603,7 @@ module.exports = {
       "bordered-danger": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -5624,7 +5624,7 @@ module.exports = {
         },
         "border": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -5645,7 +5645,7 @@ module.exports = {
         },
         "text": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/flag.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/flag.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -5669,7 +5669,7 @@ module.exports = {
     "focus": {
       "gap": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/focus.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/focus.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -5688,7 +5688,7 @@ module.exports = {
       },
       "border": {
         "value": "#0b96cc",
-        "filePath": "packages/tokens/properties/color/focus.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/focus.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.500.value}"
@@ -5709,7 +5709,7 @@ module.exports = {
     "font": {
       "primary-01": {
         "value": "#188803",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.600.value}"
@@ -5728,7 +5728,7 @@ module.exports = {
       },
       "primary-02": {
         "value": "#6a7081",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-02.500.value}"
@@ -5747,7 +5747,7 @@ module.exports = {
       },
       "darkest": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -5766,7 +5766,7 @@ module.exports = {
       },
       "darker": {
         "value": "#191919",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.900.value}"
@@ -5785,7 +5785,7 @@ module.exports = {
       },
       "dark": {
         "value": "#333333",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.800.value}"
@@ -5804,7 +5804,7 @@ module.exports = {
       },
       "light": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -5823,7 +5823,7 @@ module.exports = {
       },
       "lightest": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -5842,7 +5842,7 @@ module.exports = {
       },
       "info": {
         "value": "#007bb4",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.info.600.value}"
@@ -5861,7 +5861,7 @@ module.exports = {
       },
       "success": {
         "value": "#188803",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.success.600.value}"
@@ -5880,7 +5880,7 @@ module.exports = {
       },
       "warning": {
         "value": "#c65200",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.warning.600.value}"
@@ -5899,7 +5899,7 @@ module.exports = {
       },
       "danger": {
         "value": "#c61112",
-        "filePath": "packages/tokens/properties/color/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/font.json",
         "isSource": true,
         "original": {
           "value": "{color.danger.600.value}"
@@ -5921,7 +5921,7 @@ module.exports = {
       "underline": {
         "default": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/heading.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/heading.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
@@ -5942,7 +5942,7 @@ module.exports = {
         },
         "lightest": {
           "value": "#c5e39e",
-          "filePath": "packages/tokens/properties/color/heading.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/heading.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.200.value}"
@@ -5967,7 +5967,7 @@ module.exports = {
       "cover": {
         "background": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/hero.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/hero.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -5991,7 +5991,7 @@ module.exports = {
     "input": {
       "text": {
         "value": "#191919",
-        "filePath": "packages/tokens/properties/color/input.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.900.value}"
@@ -6010,7 +6010,7 @@ module.exports = {
       },
       "border": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/input.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -6029,7 +6029,7 @@ module.exports = {
       },
       "placeholder": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/input.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -6048,7 +6048,7 @@ module.exports = {
       },
       "background": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/input.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -6068,7 +6068,7 @@ module.exports = {
       "disabled": {
         "background": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6089,7 +6089,7 @@ module.exports = {
         },
         "border": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6110,7 +6110,7 @@ module.exports = {
         },
         "icon": {
           "value": "#999999",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.400.value}"
@@ -6131,7 +6131,7 @@ module.exports = {
         },
         "label": {
           "value": "#808080",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
@@ -6154,7 +6154,7 @@ module.exports = {
       "hover": {
         "border": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -6177,7 +6177,7 @@ module.exports = {
       "focus": {
         "border": {
           "value": "#0b96cc",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-blue.500.value}"
@@ -6200,7 +6200,7 @@ module.exports = {
       "valid": {
         "border": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.success.500.value}"
@@ -6222,7 +6222,7 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#035010",
-            "filePath": "packages/tokens/properties/color/input.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
             "isSource": true,
             "original": {
               "value": "{color.success.800.value}"
@@ -6248,7 +6248,7 @@ module.exports = {
       "invalid": {
         "border": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.600.value}"
@@ -6270,7 +6270,7 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#530000",
-            "filePath": "packages/tokens/properties/color/input.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.800.value}"
@@ -6296,7 +6296,7 @@ module.exports = {
       "checked": {
         "border": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
@@ -6317,7 +6317,7 @@ module.exports = {
         },
         "background": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
@@ -6338,7 +6338,7 @@ module.exports = {
         },
         "icon": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/input.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -6360,7 +6360,7 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#035010",
-            "filePath": "packages/tokens/properties/color/input.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.800.value}"
@@ -6388,7 +6388,7 @@ module.exports = {
       "dark": {
         "base": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -6409,7 +6409,7 @@ module.exports = {
         },
         "visited": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -6430,7 +6430,7 @@ module.exports = {
         },
         "active": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -6451,7 +6451,7 @@ module.exports = {
         },
         "disabled": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6472,7 +6472,7 @@ module.exports = {
         },
         "hover": {
           "value": "#666666",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.600.value}"
@@ -6495,7 +6495,7 @@ module.exports = {
       "light": {
         "base": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -6516,7 +6516,7 @@ module.exports = {
         },
         "visited": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -6537,7 +6537,7 @@ module.exports = {
         },
         "active": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -6558,7 +6558,7 @@ module.exports = {
         },
         "disabled": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6579,7 +6579,7 @@ module.exports = {
         },
         "hover": {
           "value": "#999999",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.400.value}"
@@ -6602,7 +6602,7 @@ module.exports = {
       "primary": {
         "base": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.600.value}"
@@ -6623,7 +6623,7 @@ module.exports = {
         },
         "visited": {
           "value": "#006902",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.700.value}"
@@ -6644,7 +6644,7 @@ module.exports = {
         },
         "active": {
           "value": "#006902",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.700.value}"
@@ -6665,7 +6665,7 @@ module.exports = {
         },
         "disabled": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6686,7 +6686,7 @@ module.exports = {
         },
         "hover": {
           "value": "#035010",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.800.value}"
@@ -6709,7 +6709,7 @@ module.exports = {
       "primary-02": {
         "base": {
           "value": "#494f60",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.600.value}"
@@ -6730,7 +6730,7 @@ module.exports = {
         },
         "visited": {
           "value": "#343b4c",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.700.value}"
@@ -6751,7 +6751,7 @@ module.exports = {
         },
         "active": {
           "value": "#343b4c",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.700.value}"
@@ -6772,7 +6772,7 @@ module.exports = {
         },
         "disabled": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6793,7 +6793,7 @@ module.exports = {
         },
         "hover": {
           "value": "#171b26",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.900.value}"
@@ -6816,7 +6816,7 @@ module.exports = {
       "danger": {
         "base": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.600.value}"
@@ -6837,7 +6837,7 @@ module.exports = {
         },
         "visited": {
           "value": "#8c0003",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.700.value}"
@@ -6858,7 +6858,7 @@ module.exports = {
         },
         "active": {
           "value": "#8c0003",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.700.value}"
@@ -6879,7 +6879,7 @@ module.exports = {
         },
         "disabled": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6900,7 +6900,7 @@ module.exports = {
         },
         "hover": {
           "value": "#530000",
-          "filePath": "packages/tokens/properties/color/link.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/link.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-red.800.value}"
@@ -6924,7 +6924,7 @@ module.exports = {
     "listbox": {
       "background": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/listbox.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/listbox.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -6943,7 +6943,7 @@ module.exports = {
       },
       "border": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/listbox.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/listbox.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -6963,7 +6963,7 @@ module.exports = {
       "tile": {
         "border": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/listbox.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/listbox.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -6984,7 +6984,7 @@ module.exports = {
         },
         "shadow": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/listbox.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/listbox.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -7006,7 +7006,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#e6e6e6",
-            "filePath": "packages/tokens/properties/color/listbox.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/listbox.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.100.value}"
@@ -7032,7 +7032,7 @@ module.exports = {
       "disabled": {
         "background": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/listbox.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/listbox.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -7056,7 +7056,7 @@ module.exports = {
     "notification": {
       "font": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/notification.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -7076,7 +7076,7 @@ module.exports = {
       "information": {
         "background": {
           "value": "#daeff7",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.info.100.value}"
@@ -7097,7 +7097,7 @@ module.exports = {
         },
         "border": {
           "value": "#0b96cc",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.info.500.value}"
@@ -7118,7 +7118,7 @@ module.exports = {
         },
         "icon": {
           "value": "#007bb4",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.info.600.value}"
@@ -7141,7 +7141,7 @@ module.exports = {
       "success": {
         "background": {
           "value": "#ebf5de",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.success.100.value}"
@@ -7162,7 +7162,7 @@ module.exports = {
         },
         "border": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.success.500.value}"
@@ -7183,7 +7183,7 @@ module.exports = {
         },
         "icon": {
           "value": "#188803",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.success.600.value}"
@@ -7206,7 +7206,7 @@ module.exports = {
       "warning": {
         "background": {
           "value": "#fdf1e8",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.warning.100.value}"
@@ -7227,7 +7227,7 @@ module.exports = {
         },
         "border": {
           "value": "#ea7315",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.warning.500.value}"
@@ -7248,7 +7248,7 @@ module.exports = {
         },
         "icon": {
           "value": "#c65200",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.warning.600.value}"
@@ -7271,7 +7271,7 @@ module.exports = {
       "danger": {
         "background": {
           "value": "#fdeaea",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.100.value}"
@@ -7292,7 +7292,7 @@ module.exports = {
         },
         "border": {
           "value": "#ea302d",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.500.value}"
@@ -7313,7 +7313,7 @@ module.exports = {
         },
         "icon": {
           "value": "#c61112",
-          "filePath": "packages/tokens/properties/color/notification.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.600.value}"
@@ -7338,7 +7338,7 @@ module.exports = {
       "label": {
         "shadow": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/option-button.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -7362,7 +7362,7 @@ module.exports = {
         "label": {
           "shadow": {
             "value": "#333333",
-            "filePath": "packages/tokens/properties/color/option-button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
@@ -7389,7 +7389,7 @@ module.exports = {
         "label": {
           "border": {
             "value": "#46a610",
-            "filePath": "packages/tokens/properties/color/option-button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.500.value}"
@@ -7412,7 +7412,7 @@ module.exports = {
           },
           "shadow": {
             "value": "#ebf5de",
-            "filePath": "packages/tokens/properties/color/option-button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.100.value}"
@@ -7439,7 +7439,7 @@ module.exports = {
         "label": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/option-button.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -7467,7 +7467,7 @@ module.exports = {
       "label": {
         "shadow": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/option-card.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-card.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -7491,7 +7491,7 @@ module.exports = {
         "label": {
           "shadow": {
             "value": "#333333",
-            "filePath": "packages/tokens/properties/color/option-card.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-card.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
@@ -7518,7 +7518,7 @@ module.exports = {
         "label": {
           "border": {
             "value": "#46a610",
-            "filePath": "packages/tokens/properties/color/option-card.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-card.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.500.value}"
@@ -7541,7 +7541,7 @@ module.exports = {
           },
           "shadow": {
             "value": "#ebf5de",
-            "filePath": "packages/tokens/properties/color/option-card.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-card.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.100.value}"
@@ -7567,7 +7567,7 @@ module.exports = {
       "disabled": {
         "content": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/option-card.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-card.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -7588,7 +7588,7 @@ module.exports = {
         },
         "label": {
           "value": "#666666",
-          "filePath": "packages/tokens/properties/color/option-card.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/option-card.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.600.value}"
@@ -7612,7 +7612,7 @@ module.exports = {
     "overlay": {
       "background": {
         "value": "#191919",
-        "filePath": "packages/tokens/properties/color/overlay.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/overlay.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.900.value}"
@@ -7632,7 +7632,7 @@ module.exports = {
       "loader": {
         "background": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/overlay.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/overlay.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -7658,7 +7658,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#e6e6e6",
-            "filePath": "packages/tokens/properties/color/password-input.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/password-input.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.100.value}"
@@ -7686,7 +7686,7 @@ module.exports = {
       "button": {
         "border": {
           "value": "#666666",
-          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/phone-number.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.600.value}"
@@ -7709,7 +7709,7 @@ module.exports = {
       "list": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/phone-number.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -7732,7 +7732,7 @@ module.exports = {
       "item": {
         "border": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/phone-number.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -7754,7 +7754,7 @@ module.exports = {
         "focus": {
           "background": {
             "value": "#e6e6e6",
-            "filePath": "packages/tokens/properties/color/phone-number.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/phone-number.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.100.value}"
@@ -7781,7 +7781,7 @@ module.exports = {
     "progress": {
       "background": {
         "value": "#cccccc",
-        "filePath": "packages/tokens/properties/color/progressbar.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.200.value}"
@@ -7800,7 +7800,7 @@ module.exports = {
       },
       "indicator": {
         "value": "#007bb4",
-        "filePath": "packages/tokens/properties/color/progressbar.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
         "isSource": true,
         "original": {
           "value": "{color.info.600.value}"
@@ -7820,7 +7820,7 @@ module.exports = {
       "percentage": {
         "default": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -7841,7 +7841,7 @@ module.exports = {
         },
         "half": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -7864,7 +7864,7 @@ module.exports = {
       "branded": {
         "indicator": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
@@ -7888,7 +7888,7 @@ module.exports = {
     "star": {
       "empty": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/star.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/star.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -7907,7 +7907,7 @@ module.exports = {
       },
       "focus": {
         "value": "#0b96cc",
-        "filePath": "packages/tokens/properties/color/star.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/star.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-blue.500.value}"
@@ -7926,7 +7926,7 @@ module.exports = {
       },
       "full": {
         "value": "#ea7315",
-        "filePath": "packages/tokens/properties/color/star.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/star.json",
         "isSource": true,
         "original": {
           "value": "#EA7315"
@@ -7945,7 +7945,7 @@ module.exports = {
       },
       "hover": {
         "value": "#f4b27e",
-        "filePath": "packages/tokens/properties/color/star.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/star.json",
         "isSource": true,
         "original": {
           "value": "{color.secondary-orange.300.value}"
@@ -7967,7 +7967,7 @@ module.exports = {
       "item": {
         "background": {
           "value": "#999999",
-          "filePath": "packages/tokens/properties/color/stepper.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.400.value}"
@@ -7989,7 +7989,7 @@ module.exports = {
         "current": {
           "background": {
             "value": "#46a610",
-            "filePath": "packages/tokens/properties/color/stepper.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.500.value}"
@@ -8016,7 +8016,7 @@ module.exports = {
         "hover": {
           "text": {
             "value": "#46a610",
-            "filePath": "packages/tokens/properties/color/stepper.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.500.value}"
@@ -8042,7 +8042,7 @@ module.exports = {
       "indicator": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/stepper.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -8063,7 +8063,7 @@ module.exports = {
         },
         "border": {
           "value": "#999999",
-          "filePath": "packages/tokens/properties/color/stepper.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.400.value}"
@@ -8085,7 +8085,7 @@ module.exports = {
         "current": {
           "background": {
             "value": "#46a610",
-            "filePath": "packages/tokens/properties/color/stepper.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.500.value}"
@@ -8108,7 +8108,7 @@ module.exports = {
           },
           "border": {
             "value": "#46a610",
-            "filePath": "packages/tokens/properties/color/stepper.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.500.value}"
@@ -8133,7 +8133,7 @@ module.exports = {
       },
       "icon": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/stepper.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.500.value}"
@@ -8152,7 +8152,7 @@ module.exports = {
       },
       "title": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/stepper.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/stepper.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.500.value}"
@@ -8173,7 +8173,7 @@ module.exports = {
     "tabs": {
       "background": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -8192,7 +8192,7 @@ module.exports = {
       },
       "shadow": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -8211,7 +8211,7 @@ module.exports = {
       },
       "default": {
         "value": "#666666",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.font.light.value}"
@@ -8231,7 +8231,7 @@ module.exports = {
       "element": {
         "background": {
           "value": "#eeeff1",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.100.value}"
@@ -8253,7 +8253,7 @@ module.exports = {
       },
       "hover": {
         "value": "#035010",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.800.value}"
@@ -8273,7 +8273,7 @@ module.exports = {
       "disabled": {
         "background": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -8296,7 +8296,7 @@ module.exports = {
       "active": {
         "background": {
           "value": "#cfd2d8",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.200.value}"
@@ -8317,7 +8317,7 @@ module.exports = {
         },
         "text": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.font.dark.value}"
@@ -8340,7 +8340,7 @@ module.exports = {
       "selected": {
         "border": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -8361,7 +8361,7 @@ module.exports = {
         },
         "text": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/tabs.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
             "value": "{color.font.darkest.value}"
@@ -8383,7 +8383,7 @@ module.exports = {
       },
       "active-disabled": {
         "value": "#c5e39e",
-        "filePath": "packages/tokens/properties/color/tabs.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.200.value}"
@@ -8406,7 +8406,7 @@ module.exports = {
         "light": {
           "background": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -8429,7 +8429,7 @@ module.exports = {
           },
           "border": {
             "value": "#808080",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.500.value}"
@@ -8452,7 +8452,7 @@ module.exports = {
           },
           "text": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -8477,7 +8477,7 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -8500,7 +8500,7 @@ module.exports = {
           },
           "border": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -8523,7 +8523,7 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -8550,7 +8550,7 @@ module.exports = {
         "light": {
           "background": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -8573,7 +8573,7 @@ module.exports = {
           },
           "border": {
             "value": "#808080",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.500.value}"
@@ -8596,7 +8596,7 @@ module.exports = {
           },
           "text": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -8620,7 +8620,7 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#e6e6e6",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.100.value}"
@@ -8646,7 +8646,7 @@ module.exports = {
           "active": {
             "background": {
               "value": "#cccccc",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.200.value}"
@@ -8673,7 +8673,7 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -8696,7 +8696,7 @@ module.exports = {
           },
           "border": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -8719,7 +8719,7 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -8743,7 +8743,7 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#333333",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.800.value}"
@@ -8769,7 +8769,7 @@ module.exports = {
           "active": {
             "background": {
               "value": "#4d4d4d",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.700.value}"
@@ -8798,7 +8798,7 @@ module.exports = {
         "light": {
           "background": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -8821,7 +8821,7 @@ module.exports = {
           },
           "border": {
             "value": "#808080",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.500.value}"
@@ -8844,7 +8844,7 @@ module.exports = {
           },
           "text": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -8868,7 +8868,7 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#9ed05f",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.300.value}"
@@ -8894,7 +8894,7 @@ module.exports = {
           "active": {
             "background": {
               "value": "#035010",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.800.value}"
@@ -8918,7 +8918,7 @@ module.exports = {
             },
             "border": {
               "value": "#035010",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.800.value}"
@@ -8942,7 +8942,7 @@ module.exports = {
             },
             "text": {
               "value": "#ffffff",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.000.value}"
@@ -8968,7 +8968,7 @@ module.exports = {
           "disabled": {
             "background": {
               "value": "#e6e6e6",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.100.value}"
@@ -8992,7 +8992,7 @@ module.exports = {
             },
             "text": {
               "value": "#808080",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.500.value}"
@@ -9018,7 +9018,7 @@ module.exports = {
           "selected": {
             "background": {
               "value": "#188803",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.600.value}"
@@ -9042,7 +9042,7 @@ module.exports = {
             },
             "text": {
               "value": "#ffffff",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.000.value}"
@@ -9067,7 +9067,7 @@ module.exports = {
             "hover": {
               "background": {
                 "value": "#006902",
-                "filePath": "packages/tokens/properties/color/tag.json",
+                "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
                 "isSource": true,
                 "original": {
                   "value": "{color.primary-01.700.value}"
@@ -9096,7 +9096,7 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -9119,7 +9119,7 @@ module.exports = {
           },
           "border": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -9142,7 +9142,7 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -9166,7 +9166,7 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#006902",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.700.value}"
@@ -9192,7 +9192,7 @@ module.exports = {
           "active": {
             "background": {
               "value": "#c5e39e",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.200.value}"
@@ -9216,7 +9216,7 @@ module.exports = {
             },
             "border": {
               "value": "#c5e39e",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.200.value}"
@@ -9240,7 +9240,7 @@ module.exports = {
             },
             "text": {
               "value": "#191919",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.900.value}"
@@ -9266,7 +9266,7 @@ module.exports = {
           "selected": {
             "background": {
               "value": "#78be20",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.400.value}"
@@ -9290,7 +9290,7 @@ module.exports = {
             },
             "border": {
               "value": "#78be20",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.primary-01.400.value}"
@@ -9314,7 +9314,7 @@ module.exports = {
             },
             "text": {
               "value": "#191919",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.900.value}"
@@ -9339,7 +9339,7 @@ module.exports = {
             "hover": {
               "background": {
                 "value": "#9ed05f",
-                "filePath": "packages/tokens/properties/color/tag.json",
+                "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
                 "isSource": true,
                 "original": {
                   "value": "{color.primary-01.300.value}"
@@ -9367,7 +9367,7 @@ module.exports = {
           "disabled": {
             "background": {
               "value": "#4d4d4d",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.700.value}"
@@ -9391,7 +9391,7 @@ module.exports = {
             },
             "text": {
               "value": "#808080",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.500.value}"
@@ -9420,7 +9420,7 @@ module.exports = {
         "light": {
           "background": {
             "value": "#333333",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
@@ -9443,7 +9443,7 @@ module.exports = {
           },
           "text": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -9466,7 +9466,7 @@ module.exports = {
           },
           "icon": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -9490,7 +9490,7 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#4d4d4d",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.700.value}"
@@ -9516,7 +9516,7 @@ module.exports = {
           "active": {
             "background": {
               "value": "#666666",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.600.value}"
@@ -9543,7 +9543,7 @@ module.exports = {
         "dark": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -9566,7 +9566,7 @@ module.exports = {
           },
           "text": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -9589,7 +9589,7 @@ module.exports = {
           },
           "icon": {
             "value": "#191919",
-            "filePath": "packages/tokens/properties/color/tag.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -9613,7 +9613,7 @@ module.exports = {
           "hover": {
             "background": {
               "value": "#b3b3b3",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.300.value}"
@@ -9639,7 +9639,7 @@ module.exports = {
           "active": {
             "background": {
               "value": "#999999",
-              "filePath": "packages/tokens/properties/color/tag.json",
+              "filePath": "packages/tokens/src/tokens/leroymerlin/color/tag.json",
               "isSource": true,
               "original": {
                 "value": "{color.grey.400.value}"
@@ -9668,7 +9668,7 @@ module.exports = {
     "toggle": {
       "label": {
         "value": "#000000",
-        "filePath": "packages/tokens/properties/color/toggle.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -9688,7 +9688,7 @@ module.exports = {
       "off": {
         "background": {
           "value": "#666666",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.600.value}"
@@ -9709,7 +9709,7 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -9732,7 +9732,7 @@ module.exports = {
       "on": {
         "background": {
           "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.500.value}"
@@ -9753,7 +9753,7 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -9776,7 +9776,7 @@ module.exports = {
       "hover": {
         "circle": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -9799,7 +9799,7 @@ module.exports = {
       "disabled": {
         "background": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -9820,7 +9820,7 @@ module.exports = {
         },
         "circle": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -9841,7 +9841,7 @@ module.exports = {
         },
         "label": {
           "value": "#808080",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
@@ -9864,7 +9864,7 @@ module.exports = {
       "disabled-checked": {
         "background": {
           "value": "#c5e39e",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-01.200.value}"
@@ -9885,7 +9885,7 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/properties/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -9909,7 +9909,7 @@ module.exports = {
     "tooltip": {
       "background": {
         "value": "#4d4d4d",
-        "filePath": "packages/tokens/properties/color/tooltip.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tooltip.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.700.value}"
@@ -9928,7 +9928,7 @@ module.exports = {
       },
       "border": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/properties/color/tooltip.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tooltip.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -9949,7 +9949,7 @@ module.exports = {
   },
   "preset": {
     "value": "lm",
-    "filePath": "packages/tokens/properties/preset.json",
+    "filePath": "packages/tokens/src/tokens/leroymerlin/preset.json",
     "isSource": true,
     "original": {
       "value": "lm"
@@ -9965,7 +9965,7 @@ module.exports = {
   "radius": {
     "s": {
       "value": 2,
-      "filePath": "packages/tokens/properties/radius/base.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/radius/base.json",
       "isSource": true,
       "original": {
         "value": 2
@@ -9982,7 +9982,7 @@ module.exports = {
     },
     "m": {
       "value": 4,
-      "filePath": "packages/tokens/properties/radius/base.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/radius/base.json",
       "isSource": true,
       "original": {
         "value": 4
@@ -9999,7 +9999,7 @@ module.exports = {
     },
     "l": {
       "value": 6,
-      "filePath": "packages/tokens/properties/radius/base.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/radius/base.json",
       "isSource": true,
       "original": {
         "value": 6
@@ -10019,7 +10019,7 @@ module.exports = {
     "s": {
       "x": {
         "value": "0px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0px"
@@ -10038,7 +10038,7 @@ module.exports = {
       },
       "y": {
         "value": "1px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "1px"
@@ -10057,7 +10057,7 @@ module.exports = {
       },
       "blur": {
         "value": "5px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "5px"
@@ -10076,7 +10076,7 @@ module.exports = {
       },
       "spread": {
         "value": "0px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0px"
@@ -10095,7 +10095,7 @@ module.exports = {
       },
       "opacity": {
         "value": "0.2",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0.2"
@@ -10116,7 +10116,7 @@ module.exports = {
     "m": {
       "x": {
         "value": "0px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0px"
@@ -10135,7 +10135,7 @@ module.exports = {
       },
       "y": {
         "value": "2px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "2px"
@@ -10154,7 +10154,7 @@ module.exports = {
       },
       "blur": {
         "value": "10px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "10px"
@@ -10173,7 +10173,7 @@ module.exports = {
       },
       "spread": {
         "value": "0px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0px"
@@ -10192,7 +10192,7 @@ module.exports = {
       },
       "opacity": {
         "value": "0.2",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0.2"
@@ -10213,7 +10213,7 @@ module.exports = {
     "l": {
       "x": {
         "value": "0px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0px"
@@ -10232,7 +10232,7 @@ module.exports = {
       },
       "y": {
         "value": "4px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "4px"
@@ -10251,7 +10251,7 @@ module.exports = {
       },
       "blur": {
         "value": "20px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "20px"
@@ -10270,7 +10270,7 @@ module.exports = {
       },
       "spread": {
         "value": "0px",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0px"
@@ -10289,7 +10289,7 @@ module.exports = {
       },
       "opacity": {
         "value": "0.2",
-        "filePath": "packages/tokens/properties/shadow/base.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/shadow/base.json",
         "isSource": true,
         "original": {
           "value": "0.2"
@@ -10310,7 +10310,7 @@ module.exports = {
   },
   "magic-unit": {
     "value": 1,
-    "filePath": "packages/tokens/properties/size/base.json",
+    "filePath": "packages/tokens/src/tokens/leroymerlin/size/base.json",
     "isSource": true,
     "original": {
       "value": 1
@@ -10325,7 +10325,7 @@ module.exports = {
   },
   "local-rem-value": {
     "value": 16,
-    "filePath": "packages/tokens/properties/size/base.json",
+    "filePath": "packages/tokens/src/tokens/leroymerlin/size/base.json",
     "isSource": true,
     "original": {
       "value": 16
@@ -10343,7 +10343,7 @@ module.exports = {
       "10": {
         "value": "2.5625rem",
         "comment": "41px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 2.5625,
@@ -10364,7 +10364,7 @@ module.exports = {
       "11": {
         "value": "3.0625rem",
         "comment": "49px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 3.0625,
@@ -10385,7 +10385,7 @@ module.exports = {
       "12": {
         "value": "3.6875rem",
         "comment": "59px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 3.6875,
@@ -10406,7 +10406,7 @@ module.exports = {
       "01": {
         "value": "0.6815rem",
         "comment": "11px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 0.6815,
@@ -10427,7 +10427,7 @@ module.exports = {
       "02": {
         "value": "0.75rem",
         "comment": "12px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 0.75,
@@ -10448,7 +10448,7 @@ module.exports = {
       "03": {
         "value": "0.8125rem",
         "comment": "13px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 0.8125,
@@ -10469,7 +10469,7 @@ module.exports = {
       "04": {
         "value": "0.875rem",
         "comment": "14px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 0.875,
@@ -10490,7 +10490,7 @@ module.exports = {
       "05": {
         "value": "1rem",
         "comment": "16px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 1,
@@ -10511,7 +10511,7 @@ module.exports = {
       "06": {
         "value": "1.125rem",
         "comment": "18px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 1.125,
@@ -10532,7 +10532,7 @@ module.exports = {
       "07": {
         "value": "1.4375rem",
         "comment": "23px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 1.4375,
@@ -10553,7 +10553,7 @@ module.exports = {
       "08": {
         "value": "1.75rem",
         "comment": "28px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 1.75,
@@ -10574,7 +10574,7 @@ module.exports = {
       "09": {
         "value": "2.125rem",
         "comment": "34px",
-        "filePath": "packages/tokens/properties/size/font.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
         "isSource": true,
         "original": {
           "value": 2.125,
@@ -10598,7 +10598,7 @@ module.exports = {
         "xs": {
           "value": "2.5rem",
           "comment": "40px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2.5,
@@ -10621,7 +10621,7 @@ module.exports = {
         "s": {
           "value": "3rem",
           "comment": "48px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 3,
@@ -10644,7 +10644,7 @@ module.exports = {
         "m": {
           "value": "3.5rem",
           "comment": "56px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 3.5,
@@ -10667,7 +10667,7 @@ module.exports = {
         "l": {
           "value": "3.75rem",
           "comment": "60px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 3.75,
@@ -10692,7 +10692,7 @@ module.exports = {
         "xs": {
           "value": "3rem",
           "comment": "48px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 3,
@@ -10715,7 +10715,7 @@ module.exports = {
         "s": {
           "value": "3.5rem",
           "comment": "56px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 3.5,
@@ -10738,7 +10738,7 @@ module.exports = {
         "m": {
           "value": "4.25rem",
           "comment": "68px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 4.25,
@@ -10761,7 +10761,7 @@ module.exports = {
         "l": {
           "value": "4.5rem",
           "comment": "72px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 4.5,
@@ -10786,7 +10786,7 @@ module.exports = {
         "xs": {
           "value": "3.75rem",
           "comment": "60px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 3.75,
@@ -10809,7 +10809,7 @@ module.exports = {
         "s": {
           "value": "4.25rem",
           "comment": "68px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 4.25,
@@ -10832,7 +10832,7 @@ module.exports = {
         "m": {
           "value": "5rem",
           "comment": "80px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 5,
@@ -10855,7 +10855,7 @@ module.exports = {
         "l": {
           "value": "5.5rem",
           "comment": "88px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 5.5,
@@ -10880,7 +10880,7 @@ module.exports = {
         "xs": {
           "value": "0.75rem",
           "comment": "12px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 0.75,
@@ -10903,7 +10903,7 @@ module.exports = {
         "s": {
           "value": "0.75rem",
           "comment": "12px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 0.75,
@@ -10926,7 +10926,7 @@ module.exports = {
         "m": {
           "value": "0.875rem",
           "comment": "14px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 0.875,
@@ -10949,7 +10949,7 @@ module.exports = {
         "l": {
           "value": "1rem",
           "comment": "16px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1,
@@ -10974,7 +10974,7 @@ module.exports = {
         "xs": {
           "value": "0.75rem",
           "comment": "12px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 0.75,
@@ -10997,7 +10997,7 @@ module.exports = {
         "s": {
           "value": "0.875rem",
           "comment": "14px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 0.875,
@@ -11020,7 +11020,7 @@ module.exports = {
         "m": {
           "value": "1rem",
           "comment": "16px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1,
@@ -11043,7 +11043,7 @@ module.exports = {
         "l": {
           "value": "1.125rem",
           "comment": "18px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.125,
@@ -11068,7 +11068,7 @@ module.exports = {
         "xs": {
           "value": "0.875rem",
           "comment": "14px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 0.875,
@@ -11091,7 +11091,7 @@ module.exports = {
         "s": {
           "value": "1rem",
           "comment": "16px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1,
@@ -11114,7 +11114,7 @@ module.exports = {
         "m": {
           "value": "1.125rem",
           "comment": "18px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.125,
@@ -11137,7 +11137,7 @@ module.exports = {
         "l": {
           "value": "1.25rem",
           "comment": "20px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.25,
@@ -11162,7 +11162,7 @@ module.exports = {
         "xs": {
           "value": "0.875rem",
           "comment": "14px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 0.875,
@@ -11185,7 +11185,7 @@ module.exports = {
         "s": {
           "value": "1rem",
           "comment": "16px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1,
@@ -11208,7 +11208,7 @@ module.exports = {
         "m": {
           "value": "1.125rem",
           "comment": "18px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.125,
@@ -11231,7 +11231,7 @@ module.exports = {
         "l": {
           "value": "1.375rem",
           "comment": "22px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.375,
@@ -11256,7 +11256,7 @@ module.exports = {
         "xs": {
           "value": "1rem",
           "comment": "16px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1,
@@ -11279,7 +11279,7 @@ module.exports = {
         "s": {
           "value": "1.125rem",
           "comment": "18px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.125,
@@ -11302,7 +11302,7 @@ module.exports = {
         "m": {
           "value": "1.375rem",
           "comment": "22px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.375,
@@ -11325,7 +11325,7 @@ module.exports = {
         "l": {
           "value": "1.5rem",
           "comment": "24px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.5,
@@ -11350,7 +11350,7 @@ module.exports = {
         "xs": {
           "value": "1.125rem",
           "comment": "18px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.125,
@@ -11373,7 +11373,7 @@ module.exports = {
         "s": {
           "value": "1.25rem",
           "comment": "20px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.25,
@@ -11396,7 +11396,7 @@ module.exports = {
         "m": {
           "value": "1.5rem",
           "comment": "24px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.5,
@@ -11419,7 +11419,7 @@ module.exports = {
         "l": {
           "value": "1.75rem",
           "comment": "28px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.75,
@@ -11444,7 +11444,7 @@ module.exports = {
         "xs": {
           "value": "1.5rem",
           "comment": "24px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.5,
@@ -11467,7 +11467,7 @@ module.exports = {
         "s": {
           "value": "1.75rem",
           "comment": "28px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.75,
@@ -11490,7 +11490,7 @@ module.exports = {
         "m": {
           "value": "2rem",
           "comment": "32px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2,
@@ -11513,7 +11513,7 @@ module.exports = {
         "l": {
           "value": "2.25rem",
           "comment": "36px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2.25,
@@ -11538,7 +11538,7 @@ module.exports = {
         "xs": {
           "value": "1.75rem",
           "comment": "28px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 1.75,
@@ -11561,7 +11561,7 @@ module.exports = {
         "s": {
           "value": "2rem",
           "comment": "32px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2,
@@ -11584,7 +11584,7 @@ module.exports = {
         "m": {
           "value": "2.25rem",
           "comment": "36px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2.25,
@@ -11607,7 +11607,7 @@ module.exports = {
         "l": {
           "value": "2.75rem",
           "comment": "44px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2.75,
@@ -11632,7 +11632,7 @@ module.exports = {
         "xs": {
           "value": "2.25rem",
           "comment": "36px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2.25,
@@ -11655,7 +11655,7 @@ module.exports = {
         "s": {
           "value": "2.5rem",
           "comment": "40px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2.5,
@@ -11678,7 +11678,7 @@ module.exports = {
         "m": {
           "value": "2.75rem",
           "comment": "44px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 2.75,
@@ -11701,7 +11701,7 @@ module.exports = {
         "l": {
           "value": "3.25rem",
           "comment": "52px",
-          "filePath": "packages/tokens/properties/size/font.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/font.json",
           "isSource": true,
           "original": {
             "value": 3.25,
@@ -11727,7 +11727,7 @@ module.exports = {
       "screen": {
         "s": {
           "value": "1rem",
-          "filePath": "packages/tokens/properties/size/grid.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/grid.json",
           "isSource": true,
           "original": {
             "value": 1
@@ -11748,7 +11748,7 @@ module.exports = {
         },
         "m": {
           "value": "2rem",
-          "filePath": "packages/tokens/properties/size/grid.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/size/grid.json",
           "isSource": true,
           "original": {
             "value": 2
@@ -11773,7 +11773,7 @@ module.exports = {
   "screen": {
     "s": {
       "value": "0px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "0px"
@@ -11790,7 +11790,7 @@ module.exports = {
     },
     "s-medium": {
       "value": "320px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "320px"
@@ -11807,7 +11807,7 @@ module.exports = {
     },
     "s-large": {
       "value": "360px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "360px"
@@ -11824,7 +11824,7 @@ module.exports = {
     },
     "s-xlarge": {
       "value": "390px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "390px"
@@ -11841,7 +11841,7 @@ module.exports = {
     },
     "m": {
       "value": "680px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "680px"
@@ -11858,7 +11858,7 @@ module.exports = {
     },
     "m-medium": {
       "value": "769px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "769px"
@@ -11875,7 +11875,7 @@ module.exports = {
     },
     "l": {
       "value": "1024px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "1024px"
@@ -11892,7 +11892,7 @@ module.exports = {
     },
     "l-medium": {
       "value": "1100px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "1100px"
@@ -11909,7 +11909,7 @@ module.exports = {
     },
     "xl": {
       "value": "1280px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "1280px"
@@ -11926,7 +11926,7 @@ module.exports = {
     },
     "xl-medium": {
       "value": "1440px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "1440px"
@@ -11943,7 +11943,7 @@ module.exports = {
     },
     "xl-large": {
       "value": "1680px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "1680px"
@@ -11960,7 +11960,7 @@ module.exports = {
     },
     "xxl": {
       "value": "1920px",
-      "filePath": "packages/tokens/properties/size/screens.json",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/size/screens.json",
       "isSource": true,
       "original": {
         "value": "1920px"
