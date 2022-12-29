@@ -365,11 +365,22 @@ $color-phone-number-button-border: #666666 !default;
 $color-phone-number-list-background: #ffffff !default;
 $color-phone-number-item-border: #b3b3b3 !default;
 $color-phone-number-item-focus-background: #e6e6e6 !default;
-$color-progress-background: #cccccc !default;
-$color-progress-indicator: #007bb4 !default;
+$color-progress-background: #cdd4d8 !default;
+$color-progress-indicator: #007f8c !default;
 $color-progress-percentage-default: #191919 !default;
 $color-progress-percentage-half: #ffffff !default;
-$color-progress-branded-indicator: #00919f !default;
+$color-sidebar-background: #082435 !default;
+$color-sidebar-feature-background: #082435 !default;
+$color-sidebar-feature-hover-background: #405d68 !default;
+$color-sidebar-feature-selected-background: #5b737d !default;
+$color-sidebar-feature-disabled-background: #92a2a9 !default;
+$color-sidebar-user-background: #264653 !default;
+$color-sidebar-divider-background: #5b737d !default;
+$color-sidebar-icon: #ffffff !default;
+$color-sidebar-text-background: #e6e6e6 !default;
+$color-sidebar-text-color: #ffffff !default;
+$color-sidebar-scroll-background: #082435 !default;
+$color-sidebar-scroll-color: #009eac !default;
 $color-star-empty: #ffffff !default;
 $color-star-focus: #758992 !default;
 $color-star-full: #ea7315 !default;
@@ -1233,9 +1244,36 @@ $tokens: (
       'percentage': (
         'default': $color-progress-percentage-default,
         'half': $color-progress-percentage-half
+      )
+    ),
+    'sidebar': (
+      'background': $color-sidebar-background,
+      'feature': (
+        'background': $color-sidebar-feature-background,
+        'hover': (
+          'background': $color-sidebar-feature-hover-background
+        ),
+        'selected': (
+          'background': $color-sidebar-feature-selected-background
+        ),
+        'disabled': (
+          'background': $color-sidebar-feature-disabled-background
+        )
       ),
-      'branded': (
-        'indicator': $color-progress-branded-indicator
+      'user': (
+        'background': $color-sidebar-user-background
+      ),
+      'divider': (
+        'background': $color-sidebar-divider-background
+      ),
+      'icon': $color-sidebar-icon,
+      'text': (
+        'background': $color-sidebar-text-background,
+        'color': $color-sidebar-text-color
+      ),
+      'scroll': (
+        'background': $color-sidebar-scroll-background,
+        'color': $color-sidebar-scroll-color
       )
     ),
     'star': (

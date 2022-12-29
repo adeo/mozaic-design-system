@@ -7780,11 +7780,11 @@ module.exports = {
     },
     "progress": {
       "background": {
-        "value": "#cccccc",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+        "value": "#cdd4d8",
+        "filePath": "packages/tokens/src/tokens/adeo/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.200.value}"
+          "value": "{color.secondary-blue.200.value}"
         },
         "name": "ColorProgressBackground",
         "attributes": {
@@ -7799,11 +7799,11 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#007bb4",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+        "value": "#007f8c",
+        "filePath": "packages/tokens/src/tokens/adeo/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.info.600.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorProgressIndicator",
         "attributes": {
@@ -7820,7 +7820,7 @@ module.exports = {
       "percentage": {
         "default": {
           "value": "#191919",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/adeo/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -7841,7 +7841,7 @@ module.exports = {
         },
         "half": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/adeo/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -7860,27 +7860,276 @@ module.exports = {
             "half"
           ]
         }
+      }
+    },
+    "sidebar": {
+      "background": {
+        "value": "#082435",
+        "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-blue.900.value}"
+        },
+        "name": "ColorSidebarBackground",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "background"
+        ]
       },
-      "branded": {
-        "indicator": {
-          "value": "#00919f",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+      "feature": {
+        "background": {
+          "value": "#082435",
+          "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.secondary-blue.900.value}"
           },
-          "name": "ColorProgressBrandedIndicator",
+          "name": "ColorSidebarFeatureBackground",
           "attributes": {
             "category": "color",
-            "type": "progress",
-            "item": "branded",
-            "subitem": "indicator"
+            "type": "sidebar",
+            "item": "feature",
+            "subitem": "background"
           },
           "path": [
             "color",
-            "progress",
-            "branded",
-            "indicator"
+            "sidebar",
+            "feature",
+            "background"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#405d68",
+            "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.700.value}"
+            },
+            "name": "ColorSidebarFeatureHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "hover",
+              "background"
+            ]
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "#5b737d",
+            "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.600.value}"
+            },
+            "name": "ColorSidebarFeatureSelectedBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "selected",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "selected",
+              "background"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#92a2a9",
+            "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.400.value}"
+            },
+            "name": "ColorSidebarFeatureDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "disabled",
+              "background"
+            ]
+          }
+        }
+      },
+      "user": {
+        "background": {
+          "value": "#264653",
+          "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.800.value}"
+          },
+          "name": "ColorSidebarUserBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "user",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "user",
+            "background"
+          ]
+        }
+      },
+      "divider": {
+        "background": {
+          "value": "#5b737d",
+          "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.600.value}"
+          },
+          "name": "ColorSidebarDividerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "divider",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "divider",
+            "background"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorSidebarIcon",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "icon"
+        ]
+      },
+      "text": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorSidebarTextBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorSidebarTextColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "color"
+          ]
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "#082435",
+          "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.900.value}"
+          },
+          "name": "ColorSidebarScrollBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#009eac",
+          "filePath": "packages/tokens/src/tokens/adeo/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.400.value}"
+          },
+          "name": "ColorSidebarScrollColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "color"
           ]
         }
       }
