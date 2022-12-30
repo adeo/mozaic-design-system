@@ -27,6 +27,9 @@ const query = graphql`
       totalCount
       edges {
         node {
+          internal {
+            contentFilePath
+          }
           id
           frontmatter {
             title

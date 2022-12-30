@@ -1,6 +1,5 @@
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 import { graphql } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
 import React from 'react'
 import styled, { css } from 'styled-components'
 import CalloutVue from '../gatsby-components/CalloutVue'
@@ -84,7 +83,7 @@ const HeaderCategory = styled.span`
   text-transform: uppercase;
 `
 
-const PatternPage = ({ data, location }) => {
+const PatternPage = ({ data, children, location }) => {
   const post = data.mdx
   const { tableOfContents } = data.mdx
 
@@ -136,7 +135,7 @@ const PatternPage = ({ data, location }) => {
             {location.state && location.state.isCode && hasVueLink && (
               <CalloutVue link={parentLinks.vue.link} />
             )}
-            <MDXRenderer>{post.body}</MDXRenderer>
+            {children}
           </Container>
         </PageContent>
         <TableOfContents tableOfContents={tableOfContents} />
@@ -155,13 +154,10 @@ export const query = graphql`
       fields {
         slug
         fileName {
+          relativePath
           name
           base
-          relativePath
         }
-      }
-      frontmatter {
-        title
       }
     }
     allMdx(sort: { fields: [frontmatter___order], order: DESC }) {
@@ -169,6 +165,14 @@ export const query = graphql`
       edges {
         node {
           id
+          fields {
+            slug
+            fileName {
+              relativePath
+              name
+              base
+            }
+          }
           frontmatter {
             title
             order
@@ -196,14 +200,6 @@ export const query = graphql`
               figma
             }
             description
-          }
-          fields {
-            slug
-            fileName {
-              name
-              base
-              relativePath
-            }
           }
         }
       }

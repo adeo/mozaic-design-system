@@ -21,8 +21,7 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
 
   if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `docs` })
-    const fileName = path.basename(node.fileAbsolutePath)
-
+    const fileName = path.basename(node.internal.contentFilePath)
     const keywords = `${slug.split('/').join(', ')}, ${
       node.frontmatter.searchKeywords
     }`
@@ -140,15 +139,18 @@ const buildHtml = (data) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   // Destructure the createPage function from the actions object
   const { createPage } = actions
-  const result = await graphql(`
+  const { data } = await graphql(`
     query {
       allMdx {
         edges {
           node {
-            id
+            internal {
+              contentFilePath
+            }
             fields {
               slug
             }
+            id
           }
         }
       }
@@ -168,16 +170,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
   `)
-  if (result.errors) {
+  if (data.errors) {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
   }
-
-  const posts = result.data.allMdx.edges
+  console.log(data.allMdx.edges)
+  const posts = data.allMdx.edges
 
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
-      component: path.join(__dirname, 'src', 'templates', 'pattern-page.js'),
+      component: `${path.resolve(
+        './packages/gatsby-theme-styleguide/src/templates/pattern-page.js'
+      )}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         id: node.id,
         slug: node.fields.slug,
@@ -185,7 +189,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   })
 
-  const previews = result.data.allPreview.edges
+  const previews = data.allPreview.edges
 
-  debounce(createPreviewPages(previews, previewsPath, reporter), 1000)
+  createPreviewPages(previews, previewsPath, reporter)
 }

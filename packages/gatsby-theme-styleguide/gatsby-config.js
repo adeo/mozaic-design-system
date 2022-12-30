@@ -2,7 +2,17 @@ const path = require('path')
 const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
 const base64 = require('postcss-base64')
 
+const wrapESMPlugin = (name) =>
+  function wrapESM(opts) {
+    return async (...args) => {
+      const mod = await import(name)
+      const plugin = mod.default(opts)
+      return plugin(...args)
+    }
+  }
+
 module.exports = {
+  trailingSlash: `always`,
   plugins: [
     {
       resolve: '@mozaic-ds/gatsby-source-preview',
@@ -51,16 +61,19 @@ module.exports = {
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: [`.mdx`],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: 'gatsby-remark-autolink-headers',
-            options: {
-              enableCustomId: true,
-              className: 'anchor-toc',
+        mdxOptions: {
+          remarkPlugins: [
+            {
+              resolve: 'gatsby-remark-autolink-headers',
+              options: {
+                className: 'anchor-toc',
+              },
             },
-          },
-          'gatsby-remark-static-images',
-        ],
+          ],
+          rehypePlugins: [
+            wrapESMPlugin(`rehype-slug-custom-id`),
+          ],
+        },
       },
     },
     {
