@@ -175,7 +175,7 @@ const PatternsStatus = ({ data }) => {
 const query = graphql`
   query PatternsStatusQuery {
     Foundations: allMdx(
-      sort: { fields: [frontmatter___title], order: ASC }
+      sort: { frontmatter: { title: ASC } }
       filter: {
         fields: {
           fileName: { name: { eq: "index" } }
@@ -203,7 +203,7 @@ const query = graphql`
       }
     }
     Components: allMdx(
-      sort: { fields: [frontmatter___title], order: ASC }
+      sort: { frontmatter: { title: ASC } }
       filter: {
         fields: {
           fileName: { name: { eq: "index" } }
