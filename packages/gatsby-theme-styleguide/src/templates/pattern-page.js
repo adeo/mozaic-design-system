@@ -148,61 +148,186 @@ export default PatternPage
 
 export const query = graphql`
   query MDXQuery($slug: String!) {
-    mdx(fields: { slug: { eq: $slug } }) {
-      body
-      tableOfContents
-      fields {
-        slug
-        fileName {
-          relativePath
-          name
-          base
-        }
+  mdx(fields: {slug: {eq: $slug}}) {
+    body
+    tableOfContents
+    fields {
+      slug
+      fileName {
+        relativePath
+        name
+        base
       }
     }
-    allMdx(sort: { fields: [frontmatter___order], order: DESC }) {
-      totalCount
-      edges {
-        node {
-          id
-          fields {
-            slug
-            fileName {
-              relativePath
-              name
-              base
+  }
+  allMdx(sort: {frontmatter: {order: DESC}}) {
+    totalCount
+    edges {
+      node {
+        id
+        fields {
+          slug
+          fileName {
+            relativePath
+            name
+            base
+          }
+        }
+        frontmatter {
+          title
+          order
+          links {
+            vue {
+              status
+              link
+            }
+            react {
+              status
+              link
+            }
+            freemarker {
+              status
+              link
+            }
+            webComponent {
+              status
+              link
             }
           }
-          frontmatter {
-            title
-            order
-            links {
-              vue {
-                status
-                link
-              }
-              react {
-                status
-                link
-              }
-              freemarker {
-                status
-                link
-              }
-              webComponent {
-                status
-                link
-              }
-            }
-            status {
-              sketch
-              scss
-              figma
-            }
-            description
+          status {
+            sketch
+            scss
+            figma
           }
+          description
         }
       }
     }
   }
+}
+warning Deprecated syntax of sort and/or aggregation field arguments were found in your query (see https://gatsby.dev/graphql-nested-sort-and-aggregate). Query was automatically converted to a new syntax. You should update query in your code.
+
+File: /home/runner/work/mozaic-design-system/mozaic-design-system/packages/gatsby-theme-styleguide/src/templates/pattern-page.js?__contentFilePath=/home/runner/work/mozaic-design-system/mozaic-design-system/src/docs/GetStarted/Developers/npmScriptTutorial/index.mdx
+
+Current query:
+
+query MDXQuery($slug: String!) {
+  mdx(fields: {slug: {eq: $slug}}) {
+    body
+    tableOfContents
+    fields {
+      slug
+      fileName {
+        relativePath
+        name
+        base
+      }
+    }
+  }
+  allMdx(sort: {fields: [frontmatter___order], order: DESC}) {
+    totalCount
+    edges {
+      node {
+        id
+        fields {
+          slug
+          fileName {
+            relativePath
+            name
+            base
+          }
+        }
+        frontmatter {
+          title
+          order
+          links {
+            vue {
+              status
+              link
+            }
+            react {
+              status
+              link
+            }
+            freemarker {
+              status
+              link
+            }
+            webComponent {
+              status
+              link
+            }
+          }
+          status {
+            sketch
+            scss
+            figma
+          }
+          description
+        }
+      }
+    }
+  }
+}
+
+Converted query:
+
+query MDXQuery($slug: String!) {
+  mdx(fields: {slug: {eq: $slug}}) {
+    body
+    tableOfContents
+    fields {
+      slug
+      fileName {
+        relativePath
+        name
+        base
+      }
+    }
+  }
+  allMdx(sort: {frontmatter: {order: DESC}}) {
+    totalCount
+    edges {
+      node {
+        id
+        fields {
+          slug
+          fileName {
+            relativePath
+            name
+            base
+          }
+        }
+        frontmatter {
+          title
+          order
+          links {
+            vue {
+              status
+              link
+            }
+            react {
+              status
+              link
+            }
+            freemarker {
+              status
+              link
+            }
+            webComponent {
+              status
+              link
+            }
+          }
+          status {
+            sketch
+            scss
+            figma
+          }
+          description
+        }
+      }
+    }
+  }
+}
 `
