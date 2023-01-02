@@ -224,67 +224,6 @@ query MDXQuery($slug: String!) {
       }
     }
   }
-  allMdx(sort: {fields: [frontmatter___order], order: DESC}) {
-    totalCount
-    edges {
-      node {
-        id
-        fields {
-          slug
-          fileName {
-            relativePath
-            name
-            base
-          }
-        }
-        frontmatter {
-          title
-          order
-          links {
-            vue {
-              status
-              link
-            }
-            react {
-              status
-              link
-            }
-            freemarker {
-              status
-              link
-            }
-            webComponent {
-              status
-              link
-            }
-          }
-          status {
-            sketch
-            scss
-            figma
-          }
-          description
-        }
-      }
-    }
-  }
-}
-
-Converted query:
-
-query MDXQuery($slug: String!) {
-  mdx(fields: {slug: {eq: $slug}}) {
-    body
-    tableOfContents
-    fields {
-      slug
-      fileName {
-        relativePath
-        name
-        base
-      }
-    }
-  }
   allMdx(sort: {frontmatter: {order: DESC}}) {
     totalCount
     edges {
