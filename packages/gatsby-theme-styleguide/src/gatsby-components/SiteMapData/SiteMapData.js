@@ -23,7 +23,7 @@ export default ({ Component }) =>
 
 const query = graphql`
   query SiteMapData {
-    allMdx(sort: { fields: [fields___slug], order: ASC }) {
+    allMdx(sort: { fields: { slug: ASC } }) {
       totalCount
       edges {
         node {
