@@ -1,8 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import Copy from '../Copy'
-import * as tokens from '@mozaic-ds/tokens/build/js/tokens.js'
-import * as adeoTokens from '@mozaic-ds/tokens/buildAdeo/js/tokens.js'
+import './style.scss'
+// import * as tokens from '@mozaic-ds/tokens/build/js/tokens.js'
+// import * as adeoTokens from '@mozaic-ds/tokens/buildAdeo/js/tokens.js'
+
+import tokens from '@mozaic-ds/tokens/build/js/tokensObject.js'
+import adeoTokens from '@mozaic-ds/tokens/buildAdeo/js/tokensObject.js'
 
 const Wrapper = styled.div`
   display: flex;
@@ -16,7 +20,6 @@ const Container = styled.div`
   padding: 7px;
 `
 const Label = styled.div`
-  display: inline-block;
   width: 100%;
   margin-right: 10px;
   padding-right: 10px;
@@ -24,20 +27,30 @@ const Label = styled.div`
 `
 
 const scssSyntax = (arr) =>
-  `$${arr
-    .split(/(?=[A-Z])/)
-    .join('-')
-    .toLowerCase()}`
+  `$${arr}.${arr}`
 
-const getTokens = (preset) => (preset === 'adeo' ? adeoTokens : tokens)    
+const getTokens = (preset) => (preset === 'adeo' ? adeoTokens : tokens)
+const getToken = (preset, token) => {
+  if (Array.isArray(token)) {
+    return getTokens(preset)[token[0]][token[1]]
+  } 
+  return getTokens(preset)[token]
+}
 
-const DesignTokens = ({ id, preset }) => (
+
+const DesignTokens = ({ id, preset, token }) => (
   <Wrapper>
-    {Object.entries(getTokens(preset)).map((item) => (
-      <Container>
-        <Token name={item[0]} scss={scssSyntax(item[0])} value={item[1]} />
-      </Container>
-    ))}
+    {Object.entries(getToken(preset, token)).map((item) => {
+      return (
+        <Container key={item[0]}>
+          <Token
+            name={item[0]}
+            scss={scssSyntax(item[1].attributes)}
+            value={item[1].value}
+          />
+        </Container>
+      )
+    })}
   </Wrapper>
 )
 
