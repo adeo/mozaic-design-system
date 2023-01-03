@@ -3,7 +3,8 @@ const fs = require('fs')
 var get = require('lodash.get')
 
 const root = process.cwd()
-const configPath = path.join(root, 'mozaic.config.js')
+const { type } = require(path.join(root, 'package.json'))
+const configPath = type === 'module' ? path.join(root, 'mozaic.config.cjs') : path.join(root, 'mozaic.config.js')
 const config = fs.existsSync(configPath) ? require(configPath) : false
 
 module.exports = {
