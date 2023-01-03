@@ -66,7 +66,7 @@
     "clean-cache": "npx gatsby clean",
     "css:fix": "npx stylelint src/docs/**/previews/*.scss packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint src/docs/**/previews/*.scss packages/styles/**/*.scss",
-    "icons:build": "node iconCompiler/index.js",
+    "icons:build": "node --max-old-space-size=10000 iconCompiler/index.js",
     "prebuild": "yarn clean-cache && yarn tokens:build",
     "lerna": "npx lerna clean -y && npx lerna bootstrap",
     "build": "npx gatsby build",
