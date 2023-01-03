@@ -24,6 +24,20 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_MB--Multibanco",
+      "fileName": "Logotypes_Payment_MB--Multibanco_24px.svg",
+      "iconName": "PaymentMBMultibanco"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_MB--Way",
+      "fileName": "Logotypes_Payment_MB--Way_24px.svg",
+      "iconName": "PaymentMBWay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Oney--3x",
       "fileName": "Logotypes_Payment_Oney--3x_24px.svg",
       "iconName": "PaymentOney3x"
@@ -174,6 +188,20 @@
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_32px.svg",
       "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_MB--Multibanco",
+      "fileName": "Logotypes_Payment_MB--Multibanco_32px.svg",
+      "iconName": "PaymentMBMultibanco"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_MB--Way",
+      "fileName": "Logotypes_Payment_MB--Way_32px.svg",
+      "iconName": "PaymentMBWay"
     },
     {
       "cat": "Logotypes",
