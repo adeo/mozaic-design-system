@@ -1,7 +1,6 @@
+@import "tokens";
 @import "settings-tools/all-settings";
-
 @include import-font-families();
-
 @import "components/c.checkbox";
 
 .mc-checkbox {
