@@ -95,10 +95,6 @@
       border-color: $color-input-disabled-background;
       cursor: not-allowed;
 
-      &::before {
-        background-color: $color-input-disabled-icon;
-      }
-
       &::-ms-check {
         background-color: $color-input-disabled-background;
         border-color: $color-input-disabled-background;
@@ -107,6 +103,13 @@
 
       & + #{$parent}__label {
         color: $color-input-disabled-label;
+      }
+
+      // disabled & checked
+      &:checked {
+        &::before {
+          background-color: $color-input-disabled-icon;
+        }
       }
     }
 
