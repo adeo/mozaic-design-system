@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.52.0](https://github.com/adeo/mozaic-design-system/compare/v1.51.0...v1.52.0) (2023-01-10)
+
+
+### Bug Fixes
+
+* **component/option-card:** update the z-index values of the component elements ([#1319](https://github.com/adeo/mozaic-design-system/issues/1319)) ([23a8d01](https://github.com/adeo/mozaic-design-system/commit/23a8d01e4786db7658df33f763b544490160363f))
+* **component/radio:** correct the display of the disabled status ([#1325](https://github.com/adeo/mozaic-design-system/issues/1325)) ([3e9d902](https://github.com/adeo/mozaic-design-system/commit/3e9d902cbb31db7747f36e410ebc65a3778a32db))
+
+
+
+
+
 # [1.51.0](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v1.51.0) (2022-12-28)
 
 
