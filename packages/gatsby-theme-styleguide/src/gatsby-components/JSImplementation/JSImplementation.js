@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { MagicUnit } from '@mozaic-ds/tokens/build/lm/js/tokens.js'
 import StatusFlag from '../StatusFlag'
-import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
+import { ExternalLink20 } from '@mozaic-ds/icons/react'
 
 const StatusItem = styled.span`
   display: inline-flex;
@@ -51,7 +51,7 @@ const JSImplementation = ({ links }) => {
             <StatusText>
               <StatusName>{key}</StatusName>
               <Link target="__blank" href={value.link}>
-                <DisplayExternalLink16 fill="#999999" />
+                <ExternalLink20 fill="#999999" />
               </Link>
             </StatusText>
           ) : (
