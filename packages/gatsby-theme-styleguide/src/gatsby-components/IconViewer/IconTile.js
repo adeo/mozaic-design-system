@@ -144,9 +144,6 @@ export default class IconTile extends Component {
     }
 
     Object.keys(dataIcon.sizes).forEach((size) => {
-      console.log(name)
-      console.log(icons)
-      console.log(size)
       if (!icons[size]) {
         return false
       } else {
@@ -169,7 +166,6 @@ export default class IconTile extends Component {
 
   render() {
     const Icon = icons[this.state.allIcon[this.state.currentSize].component]
-    console.log(Icon)
     return (
       <IconDetail>
         <IconName>{this.props.name}</IconName>
