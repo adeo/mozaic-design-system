@@ -110,10 +110,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
     > #{$parent}__header {
       button#{$parent}__trigger {
         &::before {
-          background-image: url(inline-icons(
-            $background-close,
-            $color-font-darker
-          ));
+          background-image: url("#{inline-icons( $background-close, $color-font-darker)}");
         }
 
         &:disabled {
