@@ -1,3 +1,5 @@
+@use "sass:map";
+
 /* mqp:start */
 .mc-fileuploader {
   position: relative;
@@ -10,7 +12,7 @@
   &__label {
     @include set-font-weight("semi-bold");
     @include set-button-layout();
-    @include set-button-size(map-get($button-sizes, "m"));
+    @include set-button-size(map.get($button-sizes, "m"));
     @include set-button-theme(get-token(color, button, "bordered"));
 
     margin: 0;

@@ -1,3 +1,6 @@
+@use "s.magic-unit" as *;
+@use "s.radius" as *;
+
 $stepper-divider-gap: $mu150 - $mu025;
 
 @mixin set-compact-variation($parent) {

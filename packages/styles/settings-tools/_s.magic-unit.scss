@@ -1,4 +1,6 @@
 @use "sass:math";
+@use "sass:meta";
+@use "t.size-units-converters" as *;
 
 // magicUnit : 16px !default
 
@@ -7,10 +9,10 @@
   @if $allow-any-value {
     @return $magic-unit * $multiplier;
   } @else {
-    @if type-of($multiplier) == number and unitless($multiplier) {
+    @if meta.type-of($multiplier) == number and math.is-unitless($multiplier) {
       @if $multiplier < 2 {
         // require a 0.25 minimum increment when < 2
-        $iscorrect: math.div($multiplier, 0.25) == ceil(math.div($multiplier, 0.25));
+        $iscorrect: math.div($multiplier, 0.25) == math.ceil(math.div($multiplier, 0.25));
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;
@@ -19,7 +21,7 @@
         }
       } @else if $multiplier >= 2 and $multiplier < 4 {
         // require a 0.5 minimum increment when between 2 and 4
-        $iscorrect: math.div($multiplier, 0.5) == ceil(math.div($multiplier, 0.5));
+        $iscorrect: math.div($multiplier, 0.5) == math.ceil(math.div($multiplier, 0.5));
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;
@@ -28,7 +30,7 @@
         }
       } @else if $multiplier >= 4 {
         // require a 1 minimum increment when geater than 4
-        $iscorrect: $multiplier == ceil($multiplier);
+        $iscorrect: $multiplier == math.ceil($multiplier);
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;

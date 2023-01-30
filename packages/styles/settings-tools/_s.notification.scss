@@ -1,3 +1,9 @@
+@use "sass:map";
+@use "s.border" as *;
+@use "s.magic-unit" as *;
+@use "t.inline-icons" as *;
+@use "t.map-tools" as *;
+
 $notification-selector: ".mc-notification";
 $notification-close-icon-color: get-token(color, notification, font);
 $notification-border-width: get-border("s");
@@ -17,7 +23,7 @@ $notification-sizes: (
     "content-padding-top": $mu025,
   ),
 );
-$notification-default-size: map-get($notification-sizes, "m");
+$notification-default-size: map.get($notification-sizes, "m");
 $notification-types: (
   "information": (
     "background": $color-notification-information-background,
@@ -50,11 +56,11 @@ $notification-types: (
 );
 
 @mixin set-notification-size($props) {
-  $icon-size: map-get($props, "icon-size");
-  $icon-margin: map-get($props, "icon-margin");
-  $margin-top: map-get($props, "margin-top");
-  $padding: map-get($props, "padding");
-  $content-padding-top: map-get($props, "content-padding-top");
+  $icon-size: map.get($props, "icon-size");
+  $icon-margin: map.get($props, "icon-margin");
+  $margin-top: map.get($props, "margin-top");
+  $padding: map.get($props, "padding");
+  $content-padding-top: map.get($props, "content-padding-top");
 
   padding: $padding;
 

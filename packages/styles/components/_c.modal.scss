@@ -35,12 +35,12 @@
     width: 100%;
 
     @include set-from-screen(m) {
-      max-height: percentage(math.div(1, 2));
+      max-height: math.percentage(math.div(1, 2));
       max-width: magic-unit-rem(38.5, true); // 616px
     }
 
     @media (min-width: $screen-l) and (max-width: ($screen-xxl - 1)) {
-      max-height: percentage(math.div(2, 3));
+      max-height: math.percentage(math.div(2, 3));
     }
 
     @include set-from-screen(l) {

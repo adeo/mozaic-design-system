@@ -1,13 +1,18 @@
+@use "sass:map";
+@use "sass:meta";
+@use "t.colors" as *;
+@use "t.map-tools" as *;
+
 @mixin set-box-shadow($size) {
-  @if variable-exists($name: $size) {
+  @if meta.variable-exists($name: $size) {
     @warn "Shadow size #{$size} doesn't exist";
   }
 
-  $x: map-get(get-token(shadow, $size), "x");
-  $y: map-get(get-token(shadow, $size), "y");
-  $blur: map-get(get-token(shadow, $size), "blur");
-  $spread: map-get(get-token(shadow, $size), "spread");
-  $opacity: map-get(get-token(shadow, $size), "opacity");
+  $x: map.get(get-token(shadow, $size), "x");
+  $y: map.get(get-token(shadow, $size), "y");
+  $blur: map.get(get-token(shadow, $size), "blur");
+  $spread: map.get(get-token(shadow, $size), "spread");
+  $opacity: map.get(get-token(shadow, $size), "opacity");
 
   box-shadow: $x $y $blur $spread mt-rgba($color-grey-900, $opacity);
 }

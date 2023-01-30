@@ -1,4 +1,9 @@
+@use "sass:map";
 @use "sass:math";
+@use "s.border";
+@use "s.magic-unit" as *;
+@use "s.radius" as *;
+@use "t.map-tools" as *;
 
 $badges: get-token(color, badge);
 $badge-border: get-border("s");
@@ -18,7 +23,7 @@ $badge-border: get-border("s");
 }
 
 @mixin set-badge-theme($props) {
-  background-color: map-get($props, "background");
-  border-color: map-get($props, "border");
-  color: map-get($props, "text");
+  background-color: map.get($props, "background");
+  border-color: map.get($props, "border");
+  color: map.get($props, "text");
 }

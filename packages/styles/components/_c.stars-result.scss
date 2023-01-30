@@ -75,7 +75,7 @@
   @for $i from 1 through 10 {
     &--score-#{$i * 10} {
       #{$parent}__visual::before {
-        width: percentage(math.div($i, 10));
+        width: math.percentage(math.div($i, 10));
       }
     }
   }

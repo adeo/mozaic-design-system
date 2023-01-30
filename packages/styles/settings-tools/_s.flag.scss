@@ -1,3 +1,9 @@
+@use "sass:map";
+@use "s.border" as *;
+@use "s.fonts-scale" as *;
+@use "s.magic-unit" as *;
+@use "t.map-tools" as *;
+
 $flags: get-token(color, flag);
 $flag-border: get-border("s");
 
@@ -22,14 +28,14 @@ $flag-border: get-border("s");
 @mixin set-flag-theme($parent, $props) {
   #{$parent} {
     &__label {
-      color: map-get($props, "text");
+      color: map.get($props, "text");
 
-      @if map-has-key($props, "border") {
-        border-color: map-get($props, "border");
+      @if map.has-key($props, "border") {
+        border-color: map.get($props, "border");
       }
 
-      @if map-has-key($props, "background") {
-        background-color: map-get($props, "background");
+      @if map.has-key($props, "background") {
+        background-color: map.get($props, "background");
       }
     }
   }

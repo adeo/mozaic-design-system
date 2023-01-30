@@ -1,3 +1,6 @@
+@use "s.magic-unit" as *;
+@use "t.inline-icons" as *;
+
 $listbox-height: 13.8125rem; // =221px
 $listbox-min-width: 18rem; // =288px
 $listbox-width: auto;

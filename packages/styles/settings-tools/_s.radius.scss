@@ -1,4 +1,7 @@
-@function get-border-radius($size : "m") {
+@use "sass:map";
+@use "t.map-tools" as *;
+
+@function get-border-radius($size: "m") {
   @return get-token(radius, $size) * 1px;
 }
 
@@ -10,11 +13,11 @@
     "bottom": 0 0 $px-size $px-size,
     "left": $px-size 0 0 $px-size,
     "right": 0 $px-size $px-size 0,
-    "top-left":  $px-size 0 0 0,
+    "top-left": $px-size 0 0 0,
     "top-right": 0 $px-size 0 0,
     "bottom-left": 0 0 0 $px-size,
     "bottom-right": 0 0 $px-size 0,
   );
 
-  border-radius: #{map-get($sides, $side)};
+  border-radius: #{map.get($sides, $side)};
 }

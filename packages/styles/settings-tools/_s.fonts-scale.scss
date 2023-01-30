@@ -1,3 +1,5 @@
+@use "t.map-tools" as *;
+
 @use "sass:math";
 
 @mixin set-line-height($size, $line-height) {

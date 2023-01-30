@@ -1,3 +1,11 @@
+@use "sass:map";
+@use "s.focus" as *;
+@use "s.fonts-scale" as *;
+@use "s.magic-unit" as *;
+@use "s.screens" as *;
+@use "s.spaces" as *;
+@use "t.map-tools" as *;
+
 $links-tokens: get-token(color, link);
 $link-sizes: (
   "s": (
@@ -9,8 +17,8 @@ $link-sizes: (
     "line-height": "m",
   ),
 );
-$link-s: map-get($link-sizes, "s");
-$link-m: map-get($link-sizes, "m");
+$link-s: map.get($link-sizes, "s");
+$link-m: map.get($link-sizes, "m");
 
 @mixin set-link-base() {
   align-items: center;
@@ -36,8 +44,8 @@ $link-m: map-get($link-sizes, "m");
     &--#{$size} {
       @include modify-from-screens($major-screens) {
         @include set-font-scale(
-          map-get($props, "font-size"),
-          map-get($props, "line-height")
+          map.get($props, "font-size"),
+          map.get($props, "line-height")
         );
       }
     }
@@ -45,29 +53,29 @@ $link-m: map-get($link-sizes, "m");
 }
 
 @mixin set-link-theme($props) {
-  color: map-get($props, "base");
+  color: map.get($props, "base");
 
-  @if map-has-key($props, "visited") {
+  @if map.has-key($props, "visited") {
     &:visited {
-      color: map-get($props, "visited");
+      color: map.get($props, "visited");
     }
   }
 
-  @if map-has-key($props, "hover") {
+  @if map.has-key($props, "hover") {
     &:hover {
-      color: map-get($props, "hover");
+      color: map.get($props, "hover");
     }
   }
 
-  @if map-has-key($props, "active") {
+  @if map.has-key($props, "active") {
     &:active {
-      color: map-get($props, "active");
+      color: map.get($props, "active");
     }
   }
 
-  @if map-has-key($props, "disabled") {
+  @if map.has-key($props, "disabled") {
     &.is-disabled {
-      color: map-get($props, "disabled");
+      color: map.get($props, "disabled");
       cursor: not-allowed;
     }
   }

@@ -1,3 +1,6 @@
+@use "s.border" as *;
+@use "s.magic-unit" as *;
+
 $radio-min-width: 20px;
 $radio-min-height: 20px;
 $radio-width: $mu125;

@@ -46,7 +46,7 @@
 
     @for $i from 5 through 1 {
       &:nth-of-type(#{$i})::before {
-        width: percentage(math.div($i - 1, 5));
+        width: math.percentage(math.div($i - 1, 5));
       }
     }
   }

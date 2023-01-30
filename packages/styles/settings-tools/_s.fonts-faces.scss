@@ -1,9 +1,11 @@
+@use "sass:map";
+@use "sass:meta";
 // Default path
 $font-path: "/fonts";
 
-@if variable-exists(local-config) {
-  @if type-of($local-config) == map and map-has-key($local-config, font-path) {
-    $font-path: map-get($local-config, "font-path");
+@if meta.variable-exists(local-config) {
+  @if meta.type-of($local-config) == map and map.has-key($local-config, font-path) {
+    $font-path: map.get($local-config, "font-path");
   }
 }
 
@@ -79,8 +81,8 @@ $font-weights: (
 }
 
 @mixin set-font-weight($weight: "regular") {
-  @if map-has-key($font-weights, $weight) {
-    font-weight: map-get($font-weights, $weight);
+  @if map.has-key($font-weights, $weight) {
+    font-weight: map.get($font-weights, $weight);
   } @else {
     @warn 'you are trying to use a font-weight that is not supported : "#{$weight}"';
   }

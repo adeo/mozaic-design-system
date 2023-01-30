@@ -1,3 +1,5 @@
+@use "t.colors" as *;
+
 $z-index-page-overlay: 1999999998;
 
 /// The mixin set-page-overlay() defines the styles
@@ -7,7 +9,7 @@ $z-index-page-overlay: 1999999998;
   $blur: true
 ) {
   background-color: mt-rgba($background-color, 0.7);
-  
+
   @if $blur {
     filter: blur(1px);
   }

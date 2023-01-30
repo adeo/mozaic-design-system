@@ -1,5 +1,8 @@
+@use "sass:meta";
+@use "t.map-tools" as *;
+
 @function get-border($size) {
-  @if variable-exists($name: $size) {
+  @if meta.variable-exists($name: $size) {
     @warn "Border size #{$size} doesn't exist";
   }
 

@@ -1,3 +1,5 @@
+@use "sass:map";
+
 .mc-card {
   $parent: get-parent-selector(&);
 
@@ -34,7 +36,7 @@
     &::before {
       @include ratio-before();
 
-      padding-top: map-get($card-visual-ratios, "4x3");
+      padding-top: map.get($card-visual-ratios, "4x3");
     }
 
     @each $ratio, $size in $card-visual-ratios {

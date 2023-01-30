@@ -1,4 +1,6 @@
 @use "sass:math";
+@use "s.magic-unit" as *;
+@use "s.radius" as *;
 
 $size-focus-gap: math.div($mu025, 2);
 $size-focus-border: $mu025;
@@ -31,8 +33,7 @@ $size-focus-radius-m: math.div($mu075, 2);
   $color-focus-gap: $color-focus-gap,
   $color-focus-border: $color-focus-border
 ) {
-  box-shadow:
-    0 0 0 $size-focus-gap $color-focus-gap,
+  box-shadow: 0 0 0 $size-focus-gap $color-focus-gap,
     0 0 0 $size-focus-border $color-focus-border;
 
   @content;

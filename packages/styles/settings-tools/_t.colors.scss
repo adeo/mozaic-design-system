@@ -1,4 +1,6 @@
+@use "sass:list";
 @use "sass:math";
+@use "sass:string";
 
 @function mt-dectohex($number) {
   $hex-chars: "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C",
@@ -8,19 +10,23 @@
   $rest: $number;
 
   @while $rest > 0 {
-    $result: nth($hex-chars, $rest % $base + 1) + $result;
-    $rest: floor(math.div($rest, $base));
+    $result: list.nth($hex-chars, $rest % $base + 1) + $result;
+    $rest: math.floor(math.div($rest, $base));
   }
 
   @return $result;
 }
 
 @function mt-rgba($var, $opacity) {
-  $is-custom-property: str-index(#{$var}, "var");
+  $is-custom-property: string.index(#{$var}, "var");
 
   @if $is-custom-property {
-    $hexa-color: str-slice($var, str-index($var, "#"), (str-length($var) - 1));
-    $alpha: mt-dectohex(round($opacity * 255));
+    $hexa-color: string.slice(
+      $var,
+      string.index($var, "#"),
+      (string.length($var) - 1)
+    );
+    $alpha: mt-dectohex(math.round($opacity * 255));
 
     @return $hexa-color + $alpha;
   } @else {

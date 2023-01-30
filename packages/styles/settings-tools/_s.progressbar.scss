@@ -1,4 +1,7 @@
+@use "sass:string";
 @use "sass:math";
+@use "s.magic-unit" as *;
+@use "s.radius" as *;
 
 $progressbar-sizes: (
   "xs": (
@@ -15,6 +18,6 @@ $progressbar-sizes: (
   ),
   "percent": (
     "height": $mu150,
-    "border-radius": unquote("12px"),
+    "border-radius": string.unquote("12px"),
   ),
 );

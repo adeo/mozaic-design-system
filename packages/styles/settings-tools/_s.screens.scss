@@ -1,9 +1,12 @@
+@use "sass:map";
+@use "t.map-tools" as *;
+
 // media-querie mixin
 // mobile first
 $screens: get-token(screen);
 
 @mixin set-from-screen($size) {
-  @if map-has-key(get-token(screen), $size) {
+  @if map.has-key(get-token(screen), $size) {
     @media screen and (min-width: get-token(screen, $size)) {
       @content;
     }

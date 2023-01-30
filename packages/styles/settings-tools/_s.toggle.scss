@@ -1,4 +1,7 @@
 @use "sass:math";
+@use "s.magic-unit" as *;
+@use "s.screens" as *;
+@use "t.map-tools" as *;
 
 $toggle-sizes: (
   "s": (
@@ -19,9 +22,9 @@ $toggle-sizes: (
   // opatically align baseline depending on the switch height
   // using a padding-top
   $toggle-baseline-alignment: math.div(
-    $toggle-switch-height - $toggle-label-font-size,
-    2
-  ) - 0.125;
+      $toggle-switch-height - $toggle-label-font-size,
+      2
+    ) - 0.125;
 
   @if $toggle-baseline-alignment < 0 {
     $toggle-baseline-alignment: 0;

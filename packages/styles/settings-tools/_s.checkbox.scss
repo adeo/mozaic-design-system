@@ -1,3 +1,8 @@
+@use "s.border" as *;
+@use "s.magic-unit" as *;
+@use "s.radius" as *;
+@use "t.inline-icons" as *;
+
 $checkbox-min-width: 20px;
 $checkbox-min-height: 20px;
 $checkbox-width: $mu125;

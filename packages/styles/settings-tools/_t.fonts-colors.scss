@@ -1,3 +1,5 @@
+@use "t.map-tools" as *;
+
 @mixin set-color($color) {
   color: get-token(color, font, $color);
 }

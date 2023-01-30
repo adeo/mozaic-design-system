@@ -1,4 +1,8 @@
+@use "sass:map";
 @use "sass:math";
+@use "s.fonts-faces" as *;
+@use "s.fonts-scale" as *;
+@use "s.magic-unit" as *;
 
 $border-size: 0.0625rem;
 $height-datatable-cell-size-s: $mu250 - $border-size;
@@ -18,7 +22,7 @@ $datatable-sizes: (
     "height": $height-datatable-cell-size-l,
   ),
 );
-$datatabke-default-celle-size: map-get($datatable-sizes, "m");
+$datatabke-default-celle-size: map.get($datatable-sizes, "m");
 
 @mixin set-datatable-base() {
   border-collapse: collapse;
@@ -30,14 +34,14 @@ $datatabke-default-celle-size: map-get($datatable-sizes, "m");
 @mixin set-datatable-size($sizesArgs) {
   &__table {
     tr {
-      height: map-get($sizesArgs, "height");
+      height: map.get($sizesArgs, "height");
     }
   }
 
   thead {
     th,
     td {
-      height: map-get($sizesArgs, "height");
+      height: map.get($sizesArgs, "height");
     }
   }
 }

@@ -1,10 +1,11 @@
 @use "sass:selector";
+@use "sass:string";
 
 @function get-parent-selector($selector, $prefix: ".mc-") {
-  $start-index: str-index(#{$selector}, $prefix);
+  $start-index: string.index(#{$selector}, $prefix);
 
   @if $start-index {
-    $mozaic-class: str-slice(#{$selector}, $start-index);
+    $mozaic-class: string.slice(#{$selector}, $start-index);
 
     @return $mozaic-class;
   } @else {

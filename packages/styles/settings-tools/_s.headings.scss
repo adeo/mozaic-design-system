@@ -1,3 +1,9 @@
+@use "sass:map";
+@use "s.fonts-scale" as *;
+@use "s.magic-unit" as *;
+@use "s.screens" as *;
+@use "s.spaces" as *;
+
 $heading-sizes: (
   "s": (
     "font-scale": "07",
@@ -36,15 +42,15 @@ $heading-sizes: (
 
 @mixin mod-heading-sizes($parent) {
   @each $size, $props in $heading-sizes {
-    $font-scale: map-get($props, "font-scale");
-    $font-scale-from-m: map-get($props, "font-scale@from-m");
-    $font-scale-from-l: map-get($props, "font-scale@from-l");
-    $underline-width: map-get($props, "underline-width");
-    $underline-width-from-m: map-get($props, "underline-width@from-m");
-    $underline-width-from-l: map-get($props, "underline-width@from-l");
-    $underline-margin: map-get($props, "underline-margin");
-    $underline-margin-from-m: map-get($props, "underline-margin@from-m");
-    $underline-margin-from-l: map-get($props, "underline-margin@from-l");
+    $font-scale: map.get($props, "font-scale");
+    $font-scale-from-m: map.get($props, "font-scale@from-m");
+    $font-scale-from-l: map.get($props, "font-scale@from-l");
+    $underline-width: map.get($props, "underline-width");
+    $underline-width-from-m: map.get($props, "underline-width@from-m");
+    $underline-width-from-l: map.get($props, "underline-width@from-l");
+    $underline-margin: map.get($props, "underline-margin");
+    $underline-margin-from-m: map.get($props, "underline-margin@from-m");
+    $underline-margin-from-l: map.get($props, "underline-margin@from-l");
 
     // headings sizes
 

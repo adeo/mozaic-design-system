@@ -3,5 +3,5 @@
 @mixin set-element-width($portion, $of) {
   $percent: math.div($portion, $of) * 100;
 
-  max-width: percentage(math.div($portion, $of));
+  max-width: math.percentage(math.div($portion, $of));
 }

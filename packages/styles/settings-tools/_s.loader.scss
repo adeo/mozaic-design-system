@@ -1,3 +1,6 @@
+@use "sass:map";
+@use "s.magic-unit" as *;
+
 $loader-sizes: (
   "s": (
     "height": $mu150,
@@ -21,13 +24,13 @@ $loader-theme: (
   "primary": $color-primary-01-600,
 );
 $animation-duration-loader: 2s;
-$loader-default-size: map-get($loader-sizes, "m");
-$loader-default-theme: map-get($loader-theme, "primary");
+$loader-default-size: map.get($loader-sizes, "m");
+$loader-default-theme: map.get($loader-theme, "primary");
 
 @mixin set-loader-size($props, $parent) {
-  $height-spinner-loader: map-get($props, "height");
-  $width-spinner-loader: map-get($props, "width");
-  $stroke-width-loader: map-get($props, "stroke-width");
+  $height-spinner-loader: map.get($props, "height");
+  $width-spinner-loader: map.get($props, "width");
+  $stroke-width-loader: map.get($props, "stroke-width");
 
   #{$parent} {
     &__spinner {

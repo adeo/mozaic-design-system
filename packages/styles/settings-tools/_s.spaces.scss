@@ -1,3 +1,6 @@
+@use "sass:map";
+@use "s.magic-unit";
+
 // local to spaces object,
 // do not use them anywhere,
 // it is used internally and may change
@@ -23,13 +26,13 @@ $sizes: (
 
 // top, right, left, bottom, all, vertical, horizontal
 $sides: (
-  't': 'top',
-  'r': 'right',
-  'l': 'left',
-  'b': 'bottom',
-  'all': 'all',
-  'v': 'vertical',
-  'h': 'horizontal',
+  "t": "top",
+  "r": "right",
+  "l": "left",
+  "b": "bottom",
+  "all": "all",
+  "v": "vertical",
+  "h": "horizontal",
 );
 $props: (
   "m": "margin",
@@ -39,24 +42,24 @@ $props: (
 @mixin make-space-util($prop, $side, $size) {
   @if $side == "all" {
     .mu-#{$prop}-#{$size} {
-      #{map-get($props, $prop)}: #{map-get($sizes, $size)} !important;
+      #{map.get($props, $prop)}: #{map.get($sizes, $size)} !important;
     }
-  } @else if ($side == 'v') {
+  } @else if ($side == "v") {
     .mu-#{$prop}#{$side}-#{$size} {
-      #{map-get($props, $prop)}-top: #{map-get($sizes, $size)} !important;
-      #{map-get($props, $prop)}-bottom: #{map-get($sizes, $size)} !important;
+      #{map.get($props, $prop)}-top: #{map.get($sizes, $size)} !important;
+      #{map.get($props, $prop)}-bottom: #{map.get($sizes, $size)} !important;
     }
-  } @else if ($side == 'h') {
+  } @else if ($side == "h") {
     .mu-#{$prop}#{$side}-#{$size} {
-      #{map-get($props, $prop)}-left: #{map-get($sizes, $size)} !important;
-      #{map-get($props, $prop)}-right: #{map-get($sizes, $size)} !important;
+      #{map.get($props, $prop)}-left: #{map.get($sizes, $size)} !important;
+      #{map.get($props, $prop)}-right: #{map.get($sizes, $size)} !important;
     }
   } @else {
     .mu-#{$prop}#{$side}-#{$size} {
-      #{map-get($props, $prop)}-#{map-get($sides, $side)}: #{map-get(
-        $sizes,
-        $size
-      )} !important;
+      #{map.get($props, $prop)}-#{map.get($sides, $side)}: #{map.get(
+          $sizes,
+          $size
+        )} !important;
     }
   }
 }

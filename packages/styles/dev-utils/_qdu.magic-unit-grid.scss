@@ -1,4 +1,6 @@
-@if variable-exists("mozaic-env") and $mozaic-env == development {
+@use "sass:meta";
+
+@if meta.variable-exists("mozaic-env") and $mozaic-env == development {
   $grid-line-color: rgb(0 100 100 / 0.1);
   $grid-subline-color: rgb(0 100 100 / 0.03);
   $grid-shadow-color: #ececec;
