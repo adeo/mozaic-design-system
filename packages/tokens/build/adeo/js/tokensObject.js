@@ -4359,6 +4359,276 @@ module.exports = {
         }
       }
     },
+    "datatable": {
+      "filters": {
+        "border": {
+          "value": "#b0bbc0",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.300.value}"
+          },
+          "name": "ColorDatatableFiltersBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "filters",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "filters",
+            "border"
+          ]
+        }
+      },
+      "container": {
+        "background": {
+          "value": "#e7e7f0",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.100.value}"
+          },
+          "name": "ColorDatatableContainerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "container",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "container",
+            "background"
+          ]
+        }
+      },
+      "thead": {
+        "font": {
+          "value": "#393879",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.700.value}"
+          },
+          "name": "ColorDatatableTheadFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "thead",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "thead",
+            "font"
+          ]
+        }
+      },
+      "sort-arrow": {
+        "default": {
+          "value": "#cdd4d8",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.200.value}"
+          },
+          "name": "ColorDatatableSortArrowDefault",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "default"
+          ]
+        },
+        "active": {
+          "value": "#605f9d",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.500.value}"
+          },
+          "name": "ColorDatatableSortArrowActive",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "active"
+          ]
+        }
+      },
+      "cell": {
+        "font": {
+          "value": "#191919",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDatatableCellFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "cell",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "cell",
+            "font"
+          ]
+        },
+        "background": {
+          "hover": {
+            "value": "#eaedef",
+            "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundHover",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "hover"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "hover"
+            ]
+          },
+          "selected": {
+            "value": "#d9f0f3",
+            "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundSelected",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "selected"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "selected"
+            ]
+          }
+        }
+      },
+      "subtable": {
+        "background": {
+          "value": "#e7e7f0",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.100.value}"
+          },
+          "name": "ColorDatatableSubtableBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#a4a3c7",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.300.value}"
+          },
+          "name": "ColorDatatableSubtableBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#1a1a4b",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.900.value}"
+          },
+          "name": "ColorDatatableSubtableFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "font"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorDatatableIcon",
+        "attributes": {
+          "category": "color",
+          "type": "datatable",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "datatable",
+          "icon"
+        ]
+      }
+    },
     "dialog": {
       "background": {
         "value": "#ffffff",

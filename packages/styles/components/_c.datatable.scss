@@ -19,7 +19,7 @@
     @include set-border-radius();
     @include set-box-shadow("s");
 
-    background-color: $color-background-datatable-container;
+    background-color: $color-datatable-container-background;
     overflow: hidden;
   }
 
@@ -68,11 +68,11 @@
   tbody {
     tr {
       &:hover {
-        background-color: $color-background-datatable-cell-hover;
+        background-color: $color-datatable-cell-background-hover;
       }
 
       &.selected {
-        background-color: $color-background-datatable-cell-selected;
+        background-color: $color-datatable-cell-background-selected;
       }
     }
 
@@ -80,7 +80,7 @@
     td {
       @include set-font-scale("04", "m"); // 14px / 18px
 
-      color: $color-font-tbody-cell;
+      color: $color-datatable-cell-font;
     }
   }
 
@@ -88,7 +88,8 @@
   &__row {
     $datatable-row: &;
 
-    &-parent:not(.mc-datatable__row-parent--expanded) + .mc-datatable__row-expandable {
+    &-parent:not(.mc-datatable__row-parent--expanded)
+      + .mc-datatable__row-expandable {
       height: 0;
 
       .mc-datatable__row-inner {
@@ -97,7 +98,8 @@
       }
     }
 
-    &-parent.mc-datatable__row-parent--expanded + .mc-datatable__row-expandable {
+    &-parent.mc-datatable__row-parent--expanded
+      + .mc-datatable__row-expandable {
       .mc-datatable__row-inner {
         max-height: 100%;
       }

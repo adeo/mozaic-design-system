@@ -6,11 +6,11 @@
   &__subtable {
     @include set-datatable-base();
 
-    background-color: $color-background-datatable-subtable;
+    background-color: $color-datatable-subtable-background;
 
     th,
     td {
-      border-bottom-color: $color-border-datatable-subtable;
+      border-bottom-color: $color-datatable-subtable-border;
     }
 
     thead {
@@ -18,14 +18,14 @@
       td {
         @include set-font-scale("02", "m"); // 12px / 16px
 
-        color: $color-font-subtable-thead;
+        color: $color-datatable-subtable-font;
       }
     }
 
     tbody {
       th,
       td {
-        color: $color-font-subtable-tbody;
+        color: $color-datatable-subtable-font;
       }
     }
   }
