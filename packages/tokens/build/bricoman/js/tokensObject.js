@@ -4359,6 +4359,276 @@ module.exports = {
         }
       }
     },
+    "datatable": {
+      "filters": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorDatatableFiltersBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "filters",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "filters",
+            "border"
+          ]
+        }
+      },
+      "container": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorDatatableContainerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "container",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "container",
+            "background"
+          ]
+        }
+      },
+      "thead": {
+        "font": {
+          "value": "#191919",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDatatableTheadFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "thead",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "thead",
+            "font"
+          ]
+        }
+      },
+      "sort-arrow": {
+        "default": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorDatatableSortArrowDefault",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "default"
+          ]
+        },
+        "active": {
+          "value": "#333333",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.800.value}"
+          },
+          "name": "ColorDatatableSortArrowActive",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "active"
+          ]
+        }
+      },
+      "cell": {
+        "font": {
+          "value": "#191919",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDatatableCellFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "cell",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "cell",
+            "font"
+          ]
+        },
+        "background": {
+          "hover": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundHover",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "hover"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "hover"
+            ]
+          },
+          "selected": {
+            "value": "#e5e7fa",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundSelected",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "selected"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "selected"
+            ]
+          }
+        }
+      },
+      "subtable": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorDatatableSubtableBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorDatatableSubtableBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorDatatableSubtableFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "font"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#4d5bf5",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorDatatableIcon",
+        "attributes": {
+          "category": "color",
+          "type": "datatable",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "datatable",
+          "icon"
+        ]
+      }
+    },
     "dialog": {
       "background": {
         "value": "#ffffff",
