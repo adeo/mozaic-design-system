@@ -465,6 +465,10 @@ $color-secondary-sandgrey-600: #71706b !default;
 $color-secondary-sandgrey-700: #555550 !default;
 $color-secondary-sandgrey-800: #3a3936 !default;
 $color-secondary-sandgrey-900: #1e1e1c !default;
+$font-family: Roboto !default;
+$font-weight-light: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-semi-bold: 500 !default;
 $preset: adeo !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
@@ -1428,6 +1432,14 @@ $tokens: (
       '700': $color-secondary-sandgrey-700,
       '800': $color-secondary-sandgrey-800,
       '900': $color-secondary-sandgrey-900
+    )
+  ),
+  'font': (
+    'family': $font-family,
+    'weight': (
+      'light': $font-weight-light,
+      'regular': $font-weight-regular,
+      'semi-bold': $font-weight-semi-bold
     )
   ),
   'preset': $preset,
