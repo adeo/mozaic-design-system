@@ -1,0 +1,18 @@
+{
+  "font": {
+    "family": {
+      "value": "LeroyMerlin"
+    },
+    "weight": {
+      "light": {
+        "value": 300
+      },
+      "regular": {
+        "value": 400
+      },
+      "semi-bold": {
+        "value": 600
+      }
+    }
+  }
+}

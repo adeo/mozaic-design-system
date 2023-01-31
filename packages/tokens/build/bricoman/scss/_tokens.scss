@@ -458,6 +458,10 @@ $color-toggle-disabled-checked-background: #b8bef4 !default;
 $color-toggle-disabled-checked-circle: #ffffff !default;
 $color-tooltip-background: #4d4d4d !default;
 $color-tooltip-border: #ffffff !default;
+$font-family: LeroyMerlin !default;
+$font-weight-light: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-semi-bold: 600 !default;
 $preset: bricoman !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
@@ -1414,6 +1418,14 @@ $tokens: (
     'tooltip': (
       'background': $color-tooltip-background,
       'border': $color-tooltip-border
+    )
+  ),
+  'font': (
+    'family': $font-family,
+    'weight': (
+      'light': $font-weight-light,
+      'regular': $font-weight-regular,
+      'semi-bold': $font-weight-semi-bold
     )
   ),
   'preset': $preset,
