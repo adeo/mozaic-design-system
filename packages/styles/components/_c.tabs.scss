@@ -146,15 +146,11 @@
 
   &--full,
   &--full-centered {
-    @include set-from-screen(m) {
-      width: 100%;
-    }
+    width: 100%;
   }
 
   &--full-centered {
-    @include set-from-screen(m) {
-      justify-content: center;
-    }
+    justify-content: center;
   }
 
   &--dropdown {
