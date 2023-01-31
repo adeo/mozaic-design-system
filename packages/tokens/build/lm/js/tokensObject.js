@@ -4363,7 +4363,7 @@ module.exports = {
       "filters": {
         "border": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -4386,7 +4386,7 @@ module.exports = {
       "container": {
         "background": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -4409,7 +4409,7 @@ module.exports = {
       "thead": {
         "font": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -4432,7 +4432,7 @@ module.exports = {
       "sort-arrow": {
         "default": {
           "value": "#cccccc",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.200.value}"
@@ -4453,7 +4453,7 @@ module.exports = {
         },
         "active": {
           "value": "#333333",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -4476,7 +4476,7 @@ module.exports = {
       "cell": {
         "font": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -4498,7 +4498,7 @@ module.exports = {
         "background": {
           "hover": {
             "value": "#e6e6e6",
-            "filePath": "packages/tokens/properties/color/datatable.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.100.value}"
@@ -4521,7 +4521,7 @@ module.exports = {
           },
           "selected": {
             "value": "#ebf5de",
-            "filePath": "packages/tokens/properties/color/datatable.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.100.value}"
@@ -4547,7 +4547,7 @@ module.exports = {
       "subtable": {
         "background": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -4568,7 +4568,7 @@ module.exports = {
         },
         "border": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -4589,7 +4589,7 @@ module.exports = {
         },
         "font": {
           "value": "#000000",
-          "filePath": "packages/tokens/properties/color/datatable.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.999.value}"
@@ -4611,7 +4611,7 @@ module.exports = {
       },
       "icon": {
         "value": "#46a610",
-        "filePath": "packages/tokens/properties/color/datatable.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-01.500.value}"

@@ -349,6 +349,18 @@
   --color-dialog-close: var(--color-grey-500);
   --color-dialog-icon: var(--color-grey-600);
   --color-dialog-background: var(--color-grey-000);
+  --color-datatable-icon: var(--color-primary-01-600);
+  --color-datatable-subtable-font: var(--color-secondary-purple-900);
+  --color-datatable-subtable-border: var(--color-secondary-purple-300);
+  --color-datatable-subtable-background: var(--color-secondary-purple-100);
+  --color-datatable-cell-background-selected: var(--color-primary-01-100);
+  --color-datatable-cell-background-hover: var(--color-secondary-blue-100);
+  --color-datatable-cell-font: var(--color-grey-900);
+  --color-datatable-sort-arrow-active: var(--color-secondary-purple-500);
+  --color-datatable-sort-arrow-default: var(--color-secondary-blue-200);
+  --color-datatable-thead-font: var(--color-secondary-purple-700);
+  --color-datatable-container-background: var(--color-secondary-purple-100);
+  --color-datatable-filters-border: var(--color-secondary-blue-300);
   --color-card-bordered-border: var(--color-grey-500);
   --color-card-bordered-background: var(--color-grey-000);
   --color-button-bordered-danger-hover-font: var(--color-danger-700);
