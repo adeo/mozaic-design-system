@@ -10076,6 +10076,84 @@ module.exports = {
       }
     }
   },
+  "font": {
+    "family": {
+      "value": "Roboto",
+      "filePath": "packages/tokens/src/tokens/adeo/font.json",
+      "isSource": true,
+      "original": {
+        "value": "Roboto"
+      },
+      "name": "FontFamily",
+      "attributes": {
+        "category": "font",
+        "type": "family"
+      },
+      "path": [
+        "font",
+        "family"
+      ]
+    },
+    "weight": {
+      "light": {
+        "value": 300,
+        "filePath": "packages/tokens/src/tokens/adeo/font.json",
+        "isSource": true,
+        "original": {
+          "value": 300
+        },
+        "name": "FontWeightLight",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "light"
+        },
+        "path": [
+          "font",
+          "weight",
+          "light"
+        ]
+      },
+      "regular": {
+        "value": 400,
+        "filePath": "packages/tokens/src/tokens/adeo/font.json",
+        "isSource": true,
+        "original": {
+          "value": 400
+        },
+        "name": "FontWeightRegular",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "regular"
+        },
+        "path": [
+          "font",
+          "weight",
+          "regular"
+        ]
+      },
+      "semi-bold": {
+        "value": 500,
+        "filePath": "packages/tokens/src/tokens/adeo/font.json",
+        "isSource": true,
+        "original": {
+          "value": 500
+        },
+        "name": "FontWeightSemiBold",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "semi-bold"
+        },
+        "path": [
+          "font",
+          "weight",
+          "semi-bold"
+        ]
+      }
+    }
+  },
   "preset": {
     "value": "adeo",
     "filePath": "packages/tokens/src/tokens/adeo/preset.json",
