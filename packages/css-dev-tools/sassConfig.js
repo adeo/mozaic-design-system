@@ -1,6 +1,8 @@
 'use strict'
 const CM = require('@mozaic-ds/configuration-manager')
 
+const preset = CM.getKey('preset') ?? 'lm'
+
 // test for user configured additional paths
 const additionalPaths = CM.getKey('sass.includePaths')
 
@@ -21,8 +23,8 @@ const basePaths = [
 const tokensPath = tokensBuildPath
   ? basePaths.concat([`${tokensBuildPath}scss/`])
   : basePaths.concat([
-      './node_modules/@mozaic-ds/tokens/build/lm/css/',
-      './node_modules/@mozaic-ds/tokens/build/lm/scss/',
+      `./node_modules/@mozaic-ds/tokens/build/${preset}/css/`,
+      `./node_modules/@mozaic-ds/tokens/build/${preset}/scss/`,
     ])
 
 const includePaths = additionalPaths
