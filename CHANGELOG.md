@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.53.0](https://github.com/adeo/mozaic-design-system/compare/v1.52.0...v1.53.0) (2023-02-02)
+
+
+### Bug Fixes
+
+* **component/field:** Update the MField component spacings ([#1349](https://github.com/adeo/mozaic-design-system/issues/1349)) ([985885c](https://github.com/adeo/mozaic-design-system/commit/985885c3304ba41fc9b3e4f4edff976d1ccfe160))
+* **component/tabs:** centered element for all sizes ([#1334](https://github.com/adeo/mozaic-design-system/issues/1334)) ([805d2f3](https://github.com/adeo/mozaic-design-system/commit/805d2f3679a7674e934a8dcecc852201b77a8ab2))
+
+
+### Features
+
+* **component/badge:** ensure the correct display of text in accordance with the design rules ([#1345](https://github.com/adeo/mozaic-design-system/issues/1345)) ([979e975](https://github.com/adeo/mozaic-design-system/commit/979e97588f50a7adb6ecfa234fda72c775498510))
+* **component/button:** apply a pointer-events:none in the case of a disabled button ([#1347](https://github.com/adeo/mozaic-design-system/issues/1347)) ([2954c6d](https://github.com/adeo/mozaic-design-system/commit/2954c6d1ad4357f791b4b831552945b29b72a445))
+
+
+
+
+
 # [1.52.0](https://github.com/adeo/mozaic-design-system/compare/v1.51.0...v1.52.0) (2023-01-10)
 
 
