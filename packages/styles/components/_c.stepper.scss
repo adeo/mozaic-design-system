@@ -123,7 +123,11 @@
   }
 
   &__icon {
+    fill: $color-stepper-icon;
     max-width: 100%;
+  }
+
+  &__detail {
     @include set-font-scale("04", "m");
 
     color: $color-font-light;
