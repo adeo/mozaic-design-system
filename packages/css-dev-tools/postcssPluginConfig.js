@@ -19,9 +19,9 @@ const styleLintConfig = require('./styleLintConfig')
 const baseSassConfig = require('./sassConfig')
 
 // load browserlist config
-const borwserslistConfig = CM.getKey('browserslist')
+const browserslistConfig = CM.getKey('browserslist')
   ? CM.getKey('browserslist')
-  : ['> 0.3%', 'last 3 version', 'IE > 10']
+  : ['last 2 versions', 'firefox >= 52']
 
 const sassConfig = CM.getKey('sass.config')
   ? CM.getKey('sass.config')
@@ -38,7 +38,7 @@ const plugins = [
     sort: true,
   }),
   autoprefixer({
-    overrideBrowserslist: borwserslistConfig,
+    overrideBrowserslist: browserslistConfig,
   }),
 ]
 
@@ -57,7 +57,7 @@ const productionPlugins = [
     sort: true,
   }),
   autoprefixer({
-    overrideBrowserslist: borwserslistConfig,
+    overrideBrowserslist: browserslistConfig,
   }),
   cssnano(['default', { discardComments: { removeAll: true } }]),
 ]
