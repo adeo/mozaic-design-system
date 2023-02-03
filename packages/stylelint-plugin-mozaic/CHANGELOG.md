@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
+
+
+### Features
+
+* **tools/stylelint-plugin-mozaic:** remove unused postcss-bem-linter plugin ([#1309](https://github.com/adeo/mozaic-design-system/issues/1309)) ([4eacea8](https://github.com/adeo/mozaic-design-system/commit/4eacea80f7e56f4ba3a8ad430be1e4060daa4ed1)), closes [#1252](https://github.com/adeo/mozaic-design-system/issues/1252)
+* **tools:** update the dependencies and the code of the `@mozaic-ds/stylelint-plugin-mozaic` package ([#1157](https://github.com/adeo/mozaic-design-system/issues/1157)) ([1597c52](https://github.com/adeo/mozaic-design-system/commit/1597c52f44a8f6ebb900432a742f8756b7d8fbb8))
+
+
+
+
+
 # [2.0.0-rc.11](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.10...v2.0.0-rc.11) (2022-12-29)
 
 

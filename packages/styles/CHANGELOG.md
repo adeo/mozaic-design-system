@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
+
+
+### Bug Fixes
+
+* **component/toggle:** correctly implement background-position ([#1323](https://github.com/adeo/mozaic-design-system/issues/1323)) ([b1fc39a](https://github.com/adeo/mozaic-design-system/commit/b1fc39aeedff82b0e7aaac290c7b9ed6643154fe))
+* **stepper:** upgrade scss ([#1324](https://github.com/adeo/mozaic-design-system/issues/1324)) ([9fe549e](https://github.com/adeo/mozaic-design-system/commit/9fe549e8e89ec1a6b8c2c49359930172989a3017))
+* **styles:** improve styles to conform to stylelint rules ([bad2a03](https://github.com/adeo/mozaic-design-system/commit/bad2a037c81842d18f7747a565e1626cd3d2a842))
+
+
+### Features
+
+* **component/breadcrumb:** remove padding-left & dark background-color ([#1098](https://github.com/adeo/mozaic-design-system/issues/1098)) ([9aea319](https://github.com/adeo/mozaic-design-system/commit/9aea319c66d6f82e08abdafc5cbba8f4849073a1))
+* **component/overlay:** delete the .mc-layer-overlay & .mc-modal-overlay classes in favor of .mc-overlay ([#1188](https://github.com/adeo/mozaic-design-system/issues/1188)) ([c6c236f](https://github.com/adeo/mozaic-design-system/commit/c6c236f9760e2e1bde054e50d25145d83c019378)), closes [#1059](https://github.com/adeo/mozaic-design-system/issues/1059)
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([c574e7f](https://github.com/adeo/mozaic-design-system/commit/c574e7f32645cd31d2f0d1a3f1ea47ffdeb6ee7c))
+* **styles:** improve styles to conform to stylelint rules ([#1187](https://github.com/adeo/mozaic-design-system/issues/1187)) ([1033b16](https://github.com/adeo/mozaic-design-system/commit/1033b16760271f72a23a69919e30bd0f2cf17e79)), closes [#1062](https://github.com/adeo/mozaic-design-system/issues/1062)
+* **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([cff2041](https://github.com/adeo/mozaic-design-system/commit/cff2041c83def6826a60597083d4501d28fb4031))
+* **tools/tokens:** add tokens for datatable component ([#1337](https://github.com/adeo/mozaic-design-system/issues/1337)) ([d2c5d54](https://github.com/adeo/mozaic-design-system/commit/d2c5d54130f7e6a7e4457621deb0044a00ca0324))
+* **tools/tokens:** add tokens for font-family & font-weight ([#1339](https://github.com/adeo/mozaic-design-system/issues/1339)) ([cf10733](https://github.com/adeo/mozaic-design-system/commit/cf10733ee5bca73e23f88bcf1223c133c46d95f4)), closes [#1221](https://github.com/adeo/mozaic-design-system/issues/1221)
+* **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([174bac8](https://github.com/adeo/mozaic-design-system/commit/174bac8322244a8960fbfba2e8bf1d2536465f97)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
+
+
+
+
+
 # [2.0.0-rc.13](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.12...v2.0.0-rc.13) (2023-01-06)
 
 
