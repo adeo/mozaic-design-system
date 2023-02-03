@@ -9,7 +9,12 @@ $badge-border: get-border("s");
   border: $badge-border solid transparent;
   display: inline-block;
   padding: math.div($mu025, 2) math.div($mu175, 4); // =2px 7px
+  text-transform: lowercase;
   white-space: nowrap;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
 }
 
 @mixin set-badge-theme($props) {

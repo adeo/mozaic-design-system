@@ -3,6 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.53.0](https://github.com/adeo/mozaic-design-system/compare/v1.52.0...v1.53.0) (2023-02-02)
+
+
+### Bug Fixes
+
+* **component/field:** Update the MField component spacings ([#1349](https://github.com/adeo/mozaic-design-system/issues/1349)) ([985885c](https://github.com/adeo/mozaic-design-system/commit/985885c3304ba41fc9b3e4f4edff976d1ccfe160))
+* **component/tabs:** centered element for all sizes ([#1334](https://github.com/adeo/mozaic-design-system/issues/1334)) ([805d2f3](https://github.com/adeo/mozaic-design-system/commit/805d2f3679a7674e934a8dcecc852201b77a8ab2))
+
+
+### Features
+
+* **component/badge:** ensure the correct display of text in accordance with the design rules ([#1345](https://github.com/adeo/mozaic-design-system/issues/1345)) ([979e975](https://github.com/adeo/mozaic-design-system/commit/979e97588f50a7adb6ecfa234fda72c775498510))
+* **component/button:** apply a pointer-events:none in the case of a disabled button ([#1347](https://github.com/adeo/mozaic-design-system/issues/1347)) ([2954c6d](https://github.com/adeo/mozaic-design-system/commit/2954c6d1ad4357f791b4b831552945b29b72a445))
+
+
+
+
+
+# [1.52.0](https://github.com/adeo/mozaic-design-system/compare/v1.51.0...v1.52.0) (2023-01-10)
+
+
+### Bug Fixes
+
+* **component/option-card:** update the z-index values of the component elements ([#1319](https://github.com/adeo/mozaic-design-system/issues/1319)) ([23a8d01](https://github.com/adeo/mozaic-design-system/commit/23a8d01e4786db7658df33f763b544490160363f))
+* **component/radio:** correct the display of the disabled status ([#1325](https://github.com/adeo/mozaic-design-system/issues/1325)) ([3e9d902](https://github.com/adeo/mozaic-design-system/commit/3e9d902cbb31db7747f36e410ebc65a3778a32db))
+
+
+
+
+
+# [1.51.0](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v1.51.0) (2022-12-28)
+
+
+### Bug Fixes
+
+* **component/datatable:** improve the overflow behaviour of the datatable ([#1306](https://github.com/adeo/mozaic-design-system/issues/1306)) ([4d8b9e4](https://github.com/adeo/mozaic-design-system/commit/4d8b9e4e35a09905c085765a986c2c73ea8bd8d4))
+
+
+### Features
+
+* **component/autocomplete-dropdown:** add the clearable modifier to manage the display of the clear button ([#1300](https://github.com/adeo/mozaic-design-system/issues/1300)) ([d7a336d](https://github.com/adeo/mozaic-design-system/commit/d7a336d7aaa5d86c099699768da1101653013a4f))
+* **component/autocomplete-dropdown:** update the position of the loader ([#1312](https://github.com/adeo/mozaic-design-system/issues/1312)) ([4489c37](https://github.com/adeo/mozaic-design-system/commit/4489c375c9dda5243cc384f562c6c4481faee556))
+
+
+
+
+
 ## [1.50.1](https://github.com/adeo/mozaic-design-system/compare/v1.50.0...v1.50.1) (2022-12-16)
 
 
