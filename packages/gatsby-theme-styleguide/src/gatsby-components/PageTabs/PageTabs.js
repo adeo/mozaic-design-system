@@ -13,12 +13,7 @@ const TabsWrapper = styled.ul`
 
 const TabItem = styled.li``
 
-const TabLink = styled(Link)`
-  ::after {
-    left: 0;
-    right: 0;
-  }
-`
+const TabLink = styled(Link)``
 
 class PageTabs extends PureComponent {
   orderPageTab = (pageTabs) => {
