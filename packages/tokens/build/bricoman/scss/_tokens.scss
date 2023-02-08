@@ -208,6 +208,18 @@ $color-button-bordered-danger-hover-background: #fdeaea !default;
 $color-button-bordered-danger-hover-font: #8c0003 !default;
 $color-card-bordered-background: #ffffff !default;
 $color-card-bordered-border: #808080 !default;
+$color-datatable-filters-border: #b3b3b3 !default;
+$color-datatable-container-background: #e6e6e6 !default;
+$color-datatable-thead-font: #191919 !default;
+$color-datatable-sort-arrow-default: #cccccc !default;
+$color-datatable-sort-arrow-active: #333333 !default;
+$color-datatable-cell-font: #191919 !default;
+$color-datatable-cell-background-hover: #e6e6e6 !default;
+$color-datatable-cell-background-selected: #e5e7fa !default;
+$color-datatable-subtable-background: #e6e6e6 !default;
+$color-datatable-subtable-border: #b3b3b3 !default;
+$color-datatable-subtable-font: #000000 !default;
+$color-datatable-icon: #4d5bf5 !default;
 $color-dialog-background: #ffffff !default;
 $color-dialog-icon: #666666 !default;
 $color-dialog-close: #808080 !default;
@@ -446,6 +458,10 @@ $color-toggle-disabled-checked-background: #b8bef4 !default;
 $color-toggle-disabled-checked-circle: #ffffff !default;
 $color-tooltip-background: #4d4d4d !default;
 $color-tooltip-border: #ffffff !default;
+$font-family: LeroyMerlin !default;
+$font-weight-light: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-semi-bold: 600 !default;
 $preset: bricoman !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
@@ -880,6 +896,34 @@ $tokens: (
         'background': $color-card-bordered-background,
         'border': $color-card-bordered-border
       )
+    ),
+    'datatable': (
+      'filters': (
+        'border': $color-datatable-filters-border
+      ),
+      'container': (
+        'background': $color-datatable-container-background
+      ),
+      'thead': (
+        'font': $color-datatable-thead-font
+      ),
+      'sort-arrow': (
+        'default': $color-datatable-sort-arrow-default,
+        'active': $color-datatable-sort-arrow-active
+      ),
+      'cell': (
+        'font': $color-datatable-cell-font,
+        'background': (
+          'hover': $color-datatable-cell-background-hover,
+          'selected': $color-datatable-cell-background-selected
+        )
+      ),
+      'subtable': (
+        'background': $color-datatable-subtable-background,
+        'border': $color-datatable-subtable-border,
+        'font': $color-datatable-subtable-font
+      ),
+      'icon': $color-datatable-icon
     ),
     'dialog': (
       'background': $color-dialog-background,
@@ -1374,6 +1418,14 @@ $tokens: (
     'tooltip': (
       'background': $color-tooltip-background,
       'border': $color-tooltip-border
+    )
+  ),
+  'font': (
+    'family': $font-family,
+    'weight': (
+      'light': $font-weight-light,
+      'regular': $font-weight-regular,
+      'semi-bold': $font-weight-semi-bold
     )
   ),
   'preset': $preset,

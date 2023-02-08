@@ -8,8 +8,8 @@ import ArrowArrowBottomLeft16 from './icons/ArrowArrowBottomLeft16.js';
 import ArrowArrowBottomRight16 from './icons/ArrowArrowBottomRight16.js';
 import ArrowArrowTopLeft16 from './icons/ArrowArrowTopLeft16.js';
 import ArrowArrowTopRight16 from './icons/ArrowArrowTopRight16.js';
-import ArrowBack16 from './icons/ArrowBack16.js';
 import ArrowDoubleArrowLeft16 from './icons/ArrowDoubleArrowLeft16.js';
+import ArrowBack16 from './icons/ArrowBack16.js';
 import ArrowDoubleArrowRight16 from './icons/ArrowDoubleArrowRight16.js';
 import ArrowDown16 from './icons/ArrowDown16.js';
 import ArrowNext16 from './icons/ArrowNext16.js';
@@ -18,8 +18,8 @@ import ControlCross16 from './icons/ControlCross16.js';
 import ControlLess16 from './icons/ControlLess16.js';
 import ControlMore16 from './icons/ControlMore16.js';
 import ControlTagCross16 from './icons/ControlTagCross16.js';
-import DisplayExternalLink16 from './icons/DisplayExternalLink16.js';
 import NotificationAvailable16 from './icons/NotificationAvailable16.js';
+import DisplayExternalLink16 from './icons/DisplayExternalLink16.js';
 import PublishFavorite16 from './icons/PublishFavorite16.js';
 import PublishFavoriteFull16 from './icons/PublishFavoriteFull16.js';
 import PublishLock16 from './icons/PublishLock16.js';
@@ -47,12 +47,14 @@ import PaymentNoContact24 from './icons/PaymentNoContact24.js';
 import ServicePurchaseHelpCarStandInLine24 from './icons/ServicePurchaseHelpCarStandInLine24.js';
 import ServicePurchaseHelpCarStayInside24 from './icons/ServicePurchaseHelpCarStayInside24.js';
 import ServicePurchaseHelpLoading24 from './icons/ServicePurchaseHelpLoading24.js';
-import ServicePurchaseHelpNoCarRent24 from './icons/ServicePurchaseHelpNoCarRent24.js';
 import ServicePurchaseHelpRequest24 from './icons/ServicePurchaseHelpRequest24.js';
+import ServicePurchaseHelpNoCarRent24 from './icons/ServicePurchaseHelpNoCarRent24.js';
 import ServicePurchaseHelpTruck24 from './icons/ServicePurchaseHelpTruck24.js';
 import UniverseEssentialProduct24 from './icons/UniverseEssentialProduct24.js';
 import PaymentMonochromeBizum24 from './icons/PaymentMonochromeBizum24.js';
 import PaymentMonochromeFintecture24 from './icons/PaymentMonochromeFintecture24.js';
+import PaymentMonochromeMBMultibanco24 from './icons/PaymentMonochromeMBMultibanco24.js';
+import PaymentMonochromeMBWay24 from './icons/PaymentMonochromeMBWay24.js';
 import PaymentMonochromeOney3x24 from './icons/PaymentMonochromeOney3x24.js';
 import PaymentMonochromeOney3x4x24 from './icons/PaymentMonochromeOney3x4x24.js';
 import PaymentMonochromePayPal24 from './icons/PaymentMonochromePayPal24.js';
@@ -97,9 +99,9 @@ import ArrowNext24 from './icons/ArrowNext24.js';
 import ArrowUp24 from './icons/ArrowUp24.js';
 import ControlCircleCross24 from './icons/ControlCircleCross24.js';
 import ControlCircleLess24 from './icons/ControlCircleLess24.js';
-import ControlCircleMore24 from './icons/ControlCircleMore24.js';
 import ControlCross24 from './icons/ControlCross24.js';
 import ControlLess24 from './icons/ControlLess24.js';
+import ControlCircleMore24 from './icons/ControlCircleMore24.js';
 import ControlMore24 from './icons/ControlMore24.js';
 import ControlTagCross24 from './icons/ControlTagCross24.js';
 import DisplayBlink24 from './icons/DisplayBlink24.js';
@@ -331,6 +333,8 @@ import ServicePurchaseHelpTruck32 from './icons/ServicePurchaseHelpTruck32.js';
 import UniverseEssentialProduct32 from './icons/UniverseEssentialProduct32.js';
 import PaymentMonochromeBizum32 from './icons/PaymentMonochromeBizum32.js';
 import PaymentMonochromeFintecture32 from './icons/PaymentMonochromeFintecture32.js';
+import PaymentMonochromeMBMultibanco32 from './icons/PaymentMonochromeMBMultibanco32.js';
+import PaymentMonochromeMBWay32 from './icons/PaymentMonochromeMBWay32.js';
 import PaymentMonochromeOney3x32 from './icons/PaymentMonochromeOney3x32.js';
 import PaymentMonochromeOney3x4x32 from './icons/PaymentMonochromeOney3x4x32.js';
 import PaymentMonochromePayPal32 from './icons/PaymentMonochromePayPal32.js';
@@ -565,10 +569,11 @@ import SituationOwner32 from './icons/SituationOwner32.js';
 import SituationTenant32 from './icons/SituationTenant32.js';
 import ContactWebsite32 from './icons/ContactWebsite32.js';
 import Administration32 from './icons/Administration32.js';
-import Balcony32 from './icons/Balcony32.js';
+import Apartment32 from './icons/Apartment32.js';
 import Blower32 from './icons/Blower32.js';
 import Apartment32 from './icons/Apartment32.js';
 import Door32 from './icons/Door32.js';
+import Balcony32 from './icons/Balcony32.js';
 import EcoSaving32 from './icons/EcoSaving32.js';
 import Heat32 from './icons/Heat32.js';
 import House32 from './icons/House32.js';
@@ -609,6 +614,8 @@ import ServicePurchaseHelpTruck48 from './icons/ServicePurchaseHelpTruck48.js';
 import UniverseEssentialProduct48 from './icons/UniverseEssentialProduct48.js';
 import PaymentMonochromeBizum48 from './icons/PaymentMonochromeBizum48.js';
 import PaymentMonochromeFintecture48 from './icons/PaymentMonochromeFintecture48.js';
+import PaymentMonochromeMBMultibanco48 from './icons/PaymentMonochromeMBMultibanco48.js';
+import PaymentMonochromeMBWay48 from './icons/PaymentMonochromeMBWay48.js';
 import PaymentMonochromeOney3x48 from './icons/PaymentMonochromeOney3x48.js';
 import PaymentMonochromeOney3x4x48 from './icons/PaymentMonochromeOney3x4x48.js';
 import PaymentMonochromePayPal48 from './icons/PaymentMonochromePayPal48.js';
@@ -793,10 +800,9 @@ import ViewTesterView48 from './icons/ViewTesterView48.js';
 import Itinerary48 from './icons/Itinerary48.js';
 import Locator48 from './icons/Locator48.js';
 import Map48 from './icons/Map48.js';
-import Logo48 from './icons/Logo48.js';
+import MonochromeRelayLocation48 from './icons/MonochromeRelayLocation48.js';
 import MonochromeStoreLocation48 from './icons/MonochromeStoreLocation48.js';
 import StoreLM48 from './icons/StoreLM48.js';
-import MonochromeRelayLocation48 from './icons/MonochromeRelayLocation48.js';
 import Attic48 from './icons/Attic48.js';
 import Bathroom48 from './icons/Bathroom48.js';
 import Bedroom48 from './icons/Bedroom48.js';
@@ -887,6 +893,8 @@ import ServicePurchaseHelpTruck64 from './icons/ServicePurchaseHelpTruck64.js';
 import UniverseEssentialProduct64 from './icons/UniverseEssentialProduct64.js';
 import PaymentMonochromeBizum64 from './icons/PaymentMonochromeBizum64.js';
 import PaymentMonochromeFintecture64 from './icons/PaymentMonochromeFintecture64.js';
+import PaymentMonochromeMBMultibanco64 from './icons/PaymentMonochromeMBMultibanco64.js';
+import PaymentMonochromeMBWay64 from './icons/PaymentMonochromeMBWay64.js';
 import PaymentMonochromeOney3x64 from './icons/PaymentMonochromeOney3x64.js';
 import PaymentMonochromeOney3x4x64 from './icons/PaymentMonochromeOney3x4x64.js';
 import API64 from './icons/API64.js';
@@ -1008,6 +1016,7 @@ import BasketMulti64 from './icons/BasketMulti64.js';
 import BasketSave64 from './icons/BasketSave64.js';
 import BasketStandard64 from './icons/BasketStandard64.js';
 import ListAdd64 from './icons/ListAdd64.js';
+import ListStandard64 from './icons/ListStandard64.js';
 import PromiseCertification64 from './icons/PromiseCertification64.js';
 import ListStandard64 from './icons/ListStandard64.js';
 import PromiseCircularEconomy64 from './icons/PromiseCircularEconomy64.js';
@@ -1036,7 +1045,6 @@ import CustomSample64 from './icons/CustomSample64.js';
 import CustomSharpening64 from './icons/CustomSharpening64.js';
 import DeliveryDeliveryPickupRelayPoint64 from './icons/DeliveryDeliveryPickupRelayPoint64.js';
 import DeliveryDeliveryHome64 from './icons/DeliveryDeliveryHome64.js';
-import DeliveryDeliveryPickupStore64 from './icons/DeliveryDeliveryPickupStore64.js';
 import DeliveryDeliveryLocker64 from './icons/DeliveryDeliveryLocker64.js';
 import Pallet64 from './icons/Pallet64.js';
 import PurchaseHelpCarRent64 from './icons/PurchaseHelpCarRent64.js';
@@ -1147,13 +1155,15 @@ import View36096 from './icons/View36096.js';
 import BrandLM24 from './icons/BrandLM24.js';
 import PaymentBizum24 from './icons/PaymentBizum24.js';
 import PaymentFintecture24 from './icons/PaymentFintecture24.js';
+import PaymentMBMultibanco24 from './icons/PaymentMBMultibanco24.js';
+import PaymentMBWay24 from './icons/PaymentMBWay24.js';
 import PaymentOney3x24 from './icons/PaymentOney3x24.js';
 import PaymentOney3x4x24 from './icons/PaymentOney3x4x24.js';
 import PaymentPayPal24 from './icons/PaymentPayPal24.js';
 import CardsColorsAmericanExpress24 from './icons/CardsColorsAmericanExpress24.js';
 import CardsColorsCB24 from './icons/CardsColorsCB24.js';
-import CardsColorsGift24 from './icons/CardsColorsGift24.js';
 import CardsColorsCheque24 from './icons/CardsColorsCheque24.js';
+import CardsColorsGift24 from './icons/CardsColorsGift24.js';
 import CardsColorsIllicado24 from './icons/CardsColorsIllicado24.js';
 import CardsColorsLoyalty24 from './icons/CardsColorsLoyalty24.js';
 import CardsColorsMaestro24 from './icons/CardsColorsMaestro24.js';
@@ -1169,6 +1179,8 @@ import ColorsStoreLocation24 from './icons/ColorsStoreLocation24.js';
 import BrandLM32 from './icons/BrandLM32.js';
 import PaymentBizum32 from './icons/PaymentBizum32.js';
 import PaymentFintecture32 from './icons/PaymentFintecture32.js';
+import PaymentMBMultibanco32 from './icons/PaymentMBMultibanco32.js';
+import PaymentMBWay32 from './icons/PaymentMBWay32.js';
 import PaymentOney3x32 from './icons/PaymentOney3x32.js';
 import PaymentOney3x4x32 from './icons/PaymentOney3x4x32.js';
 import PaymentPayPal32 from './icons/PaymentPayPal32.js';
@@ -1191,6 +1203,8 @@ import ColorsStoreLocation32 from './icons/ColorsStoreLocation32.js';
 import BrandLM48 from './icons/BrandLM48.js';
 import PaymentBizum48 from './icons/PaymentBizum48.js';
 import PaymentFintecture48 from './icons/PaymentFintecture48.js';
+import PaymentMBMultibanco48 from './icons/PaymentMBMultibanco48.js';
+import PaymentMBWay48 from './icons/PaymentMBWay48.js';
 import PaymentOney3x48 from './icons/PaymentOney3x48.js';
 import PaymentOney3x4x48 from './icons/PaymentOney3x4x48.js';
 import PaymentPayPal48 from './icons/PaymentPayPal48.js';
@@ -1213,6 +1227,8 @@ import ColorsStoreLocation48 from './icons/ColorsStoreLocation48.js';
 import BrandLM64 from './icons/BrandLM64.js';
 import PaymentBizum64 from './icons/PaymentBizum64.js';
 import PaymentFintecture64 from './icons/PaymentFintecture64.js';
+import PaymentMBMultibanco64 from './icons/PaymentMBMultibanco64.js';
+import PaymentMBWay64 from './icons/PaymentMBWay64.js';
 import PaymentOney3x64 from './icons/PaymentOney3x64.js';
 import PaymentOney3x4x64 from './icons/PaymentOney3x4x64.js';
 import PaymentPayPal64 from './icons/PaymentPayPal64.js';
@@ -1259,11 +1275,11 @@ if (!customElements.get('navigation-arrow-arrowbottomright-16px')) {
 if (!customElements.get('navigation-arrow-arrowtopleft-16px')) {
   customElements.define('navigation-arrow-arrowtopleft-16px', ArrowArrowTopLeft16);
 }
-if (!customElements.get('navigation-arrow-arrowtopright-16px')) {
-  customElements.define('navigation-arrow-arrowtopright-16px', ArrowArrowTopRight16);
-}
 if (!customElements.get('navigation-arrow-back-16px')) {
   customElements.define('navigation-arrow-back-16px', ArrowBack16);
+}
+if (!customElements.get('navigation-arrow-arrowtopright-16px')) {
+  customElements.define('navigation-arrow-arrowtopright-16px', ArrowArrowTopRight16);
 }
 if (!customElements.get('navigation-arrow-doublearrow--left-16px')) {
   customElements.define('navigation-arrow-doublearrow--left-16px', ArrowDoubleArrowLeft16);
@@ -1393,6 +1409,12 @@ if (!customElements.get('logotypes-payment-monochrome-bizum-24px')) {
 }
 if (!customElements.get('instruction-universe-essentialproduct-24px')) {
   customElements.define('instruction-universe-essentialproduct-24px', UniverseEssentialProduct24);
+}
+if (!customElements.get('logotypes-payment-monochrome-mb--multibanco-24px')) {
+  customElements.define('logotypes-payment-monochrome-mb--multibanco-24px', PaymentMonochromeMBMultibanco24);
+}
+if (!customElements.get('logotypes-payment-monochrome-mb--way-24px')) {
+  customElements.define('logotypes-payment-monochrome-mb--way-24px', PaymentMonochromeMBWay24);
 }
 if (!customElements.get('logotypes-payment-monochrome-oney--3x-24px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x-24px', PaymentMonochromeOney3x24);
@@ -1589,9 +1611,6 @@ if (!customElements.get('navigation-display-filter-24px')) {
 if (!customElements.get('navigation-display-home-24px')) {
   customElements.define('navigation-display-home-24px', DisplayHome24);
 }
-if (!customElements.get('navigation-display-logout-24px')) {
-  customElements.define('navigation-display-logout-24px', DisplayLogOut24);
-}
 if (!customElements.get('navigation-display-menu-24px')) {
   customElements.define('navigation-display-menu-24px', DisplayMenu24);
 }
@@ -1661,6 +1680,9 @@ if (!customElements.get('navigation-publish-favorite-24px')) {
 if (!customElements.get('navigation-publish-favoritefull-24px')) {
   customElements.define('navigation-publish-favoritefull-24px', PublishFavoriteFull24);
 }
+if (!customElements.get('navigation-display-logout-24px')) {
+  customElements.define('navigation-display-logout-24px', DisplayLogOut24);
+}
 if (!customElements.get('navigation-publish-lock-24px')) {
   customElements.define('navigation-publish-lock-24px', PublishLock24);
 }
@@ -1669,9 +1691,6 @@ if (!customElements.get('navigation-publish-send-24px')) {
 }
 if (!customElements.get('navigation-publish-trashbin-24px')) {
   customElements.define('navigation-publish-trashbin-24px', PublishTrashbin24);
-}
-if (!customElements.get('navigation-split-24px')) {
-  customElements.define('navigation-split-24px', Split24);
 }
 if (!customElements.get('payment-bill-24px')) {
   customElements.define('payment-bill-24px', Bill24);
@@ -1687,6 +1706,9 @@ if (!customElements.get('payment-cards-monochrome-cheque-24px')) {
 }
 if (!customElements.get('payment-cards-monochrome-gift-24px')) {
   customElements.define('payment-cards-monochrome-gift-24px', CardsMonochromeGift24);
+}
+if (!customElements.get('navigation-split-24px')) {
+  customElements.define('navigation-split-24px', Split24);
 }
 if (!customElements.get('payment-cards-monochrome-illicado-24px')) {
   customElements.define('payment-cards-monochrome-illicado-24px', CardsMonochromeIllicado24);
@@ -1727,9 +1749,6 @@ if (!customElements.get('payment-euro-24px')) {
 if (!customElements.get('payment-receipt-24px')) {
   customElements.define('payment-receipt-24px', Receipt24);
 }
-if (!customElements.get('payment-safepayment1-24px')) {
-  customElements.define('payment-safepayment1-24px', SafePayment124);
-}
 if (!customElements.get('payment-safepayment2-24px')) {
   customElements.define('payment-safepayment2-24px', SafePayment224);
 }
@@ -1738,6 +1757,9 @@ if (!customElements.get('product-aspect-quantity-24px')) {
 }
 if (!customElements.get('product-aspect-size-24px')) {
   customElements.define('product-aspect-size-24px', AspectSize24);
+}
+if (!customElements.get('payment-safepayment1-24px')) {
+  customElements.define('payment-safepayment1-24px', SafePayment124);
 }
 if (!customElements.get('product-aspect-weight-24px')) {
   customElements.define('product-aspect-weight-24px', AspectWeight24);
@@ -2000,12 +2022,6 @@ if (!customElements.get('universe-garage-24px')) {
 if (!customElements.get('universe-garden2-24px')) {
   customElements.define('universe-garden2-24px', Garden224);
 }
-if (!customElements.get('universe-garden1-24px')) {
-  customElements.define('universe-garden1-24px', Garden124);
-}
-if (!customElements.get('universe-glass-24px')) {
-  customElements.define('universe-glass-24px', Glass24);
-}
 if (!customElements.get('universe-hardwarestore-24px')) {
   customElements.define('universe-hardwarestore-24px', HardwareStore24);
 }
@@ -2023,6 +2039,9 @@ if (!customElements.get('universe-kitchen2-24px')) {
 }
 if (!customElements.get('universe-leak-24px')) {
   customElements.define('universe-leak-24px', Leak24);
+}
+if (!customElements.get('universe-glass-24px')) {
+  customElements.define('universe-glass-24px', Glass24);
 }
 if (!customElements.get('universe-lighting-24px')) {
   customElements.define('universe-lighting-24px', Lighting24);
@@ -2111,14 +2130,14 @@ if (!customElements.get('various-apartment-24px')) {
 if (!customElements.get('various-door-24px')) {
   customElements.define('various-door-24px', Door24);
 }
-if (!customElements.get('various-ecosaving-24px')) {
-  customElements.define('various-ecosaving-24px', EcoSaving24);
-}
 if (!customElements.get('various-heat-24px')) {
   customElements.define('various-heat-24px', Heat24);
 }
 if (!customElements.get('various-house-24px')) {
   customElements.define('various-house-24px', House24);
+}
+if (!customElements.get('various-ecosaving-24px')) {
+  customElements.define('various-ecosaving-24px', EcoSaving24);
 }
 if (!customElements.get('various-increasevalue-24px')) {
   customElements.define('various-increasevalue-24px', IncreaseValue24);
@@ -2231,6 +2250,12 @@ if (!customElements.get('logotypes-payment-monochrome-bizum-32px')) {
 if (!customElements.get('logotypes-payment-monochrome-fintecture-32px')) {
   customElements.define('logotypes-payment-monochrome-fintecture-32px', PaymentMonochromeFintecture32);
 }
+if (!customElements.get('logotypes-payment-monochrome-mb--multibanco-32px')) {
+  customElements.define('logotypes-payment-monochrome-mb--multibanco-32px', PaymentMonochromeMBMultibanco32);
+}
+if (!customElements.get('logotypes-payment-monochrome-mb--way-32px')) {
+  customElements.define('logotypes-payment-monochrome-mb--way-32px', PaymentMonochromeMBWay32);
+}
 if (!customElements.get('logotypes-payment-monochrome-oney--3x-32px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x-32px', PaymentMonochromeOney3x32);
 }
@@ -2321,9 +2346,6 @@ if (!customElements.get('navigation-arrow-arrow--bottom-32px')) {
 if (!customElements.get('navigation-arrow-arrow--left-32px')) {
   customElements.define('navigation-arrow-arrow--left-32px', ArrowArrowLeft32);
 }
-if (!customElements.get('navigation-arrow-arrow--right-32px')) {
-  customElements.define('navigation-arrow-arrow--right-32px', ArrowArrowRight32);
-}
 if (!customElements.get('navigation-arrow-arrow--top-32px')) {
   customElements.define('navigation-arrow-arrow--top-32px', ArrowArrowTop32);
 }
@@ -2381,11 +2403,14 @@ if (!customElements.get('navigation-control-tag--cross-32px')) {
 if (!customElements.get('navigation-display-blink-32px')) {
   customElements.define('navigation-display-blink-32px', DisplayBlink32);
 }
-if (!customElements.get('navigation-display-calendar-32px')) {
-  customElements.define('navigation-display-calendar-32px', DisplayCalendar32);
+if (!customElements.get('navigation-arrow-arrow--right-32px')) {
+  customElements.define('navigation-arrow-arrow--right-32px', ArrowArrowRight32);
 }
 if (!customElements.get('navigation-display-connect-32px')) {
   customElements.define('navigation-display-connect-32px', DisplayConnect32);
+}
+if (!customElements.get('navigation-display-calendar-32px')) {
+  customElements.define('navigation-display-calendar-32px', DisplayCalendar32);
 }
 if (!customElements.get('navigation-display-displayfull-filled-32px')) {
   customElements.define('navigation-display-displayfull-filled-32px', DisplayDisplayFullFilled32);
@@ -2402,11 +2427,11 @@ if (!customElements.get('navigation-display-displaylist-outline-32px')) {
 if (!customElements.get('navigation-display-displaymobile--horizontal-32px')) {
   customElements.define('navigation-display-displaymobile--horizontal-32px', DisplayDisplayMobileHorizontal32);
 }
-if (!customElements.get('navigation-display-displaymobile--vertical-32px')) {
-  customElements.define('navigation-display-displaymobile--vertical-32px', DisplayDisplayMobileVertical32);
-}
 if (!customElements.get('navigation-display-displayproductx4-filled-32px')) {
   customElements.define('navigation-display-displayproductx4-filled-32px', DisplayDisplayProductX4Filled32);
+}
+if (!customElements.get('navigation-display-displaymobile--vertical-32px')) {
+  customElements.define('navigation-display-displaymobile--vertical-32px', DisplayDisplayMobileVertical32);
 }
 if (!customElements.get('navigation-display-displayproductx4-outline-32px')) {
   customElements.define('navigation-display-displayproductx4-outline-32px', DisplayDisplayProductX4Outline32);
@@ -3062,6 +3087,12 @@ if (!customElements.get('logotypes-payment-monochrome-bizum-48px')) {
 if (!customElements.get('logotypes-payment-monochrome-fintecture-48px')) {
   customElements.define('logotypes-payment-monochrome-fintecture-48px', PaymentMonochromeFintecture48);
 }
+if (!customElements.get('logotypes-payment-monochrome-mb--multibanco-48px')) {
+  customElements.define('logotypes-payment-monochrome-mb--multibanco-48px', PaymentMonochromeMBMultibanco48);
+}
+if (!customElements.get('logotypes-payment-monochrome-mb--way-48px')) {
+  customElements.define('logotypes-payment-monochrome-mb--way-48px', PaymentMonochromeMBWay48);
+}
 if (!customElements.get('logotypes-payment-monochrome-oney--3x-48px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x-48px', PaymentMonochromeOney3x48);
 }
@@ -3317,6 +3348,9 @@ if (!customElements.get('navigation-notification-warning-48px')) {
 if (!customElements.get('navigation-publish-edit-48px')) {
   customElements.define('navigation-publish-edit-48px', PublishEdit48);
 }
+if (!customElements.get('navigation-publish-edit-48px')) {
+  customElements.define('navigation-publish-edit-48px', PublishEdit48);
+}
 if (!customElements.get('navigation-publish-favorite-48px')) {
   customElements.define('navigation-publish-favorite-48px', PublishFavorite48);
 }
@@ -3359,11 +3393,11 @@ if (!customElements.get('navigation-publish-copy-48px')) {
 if (!customElements.get('payment-cards-monochrome-loyalty-48px')) {
   customElements.define('payment-cards-monochrome-loyalty-48px', CardsMonochromeLoyalty48);
 }
-if (!customElements.get('payment-cards-monochrome-maestro-48px')) {
-  customElements.define('payment-cards-monochrome-maestro-48px', CardsMonochromeMaestro48);
-}
 if (!customElements.get('payment-cards-monochrome-mastercard-48px')) {
   customElements.define('payment-cards-monochrome-mastercard-48px', CardsMonochromeMastercard48);
+}
+if (!customElements.get('payment-cards-monochrome-maestro-48px')) {
+  customElements.define('payment-cards-monochrome-maestro-48px', CardsMonochromeMaestro48);
 }
 if (!customElements.get('payment-cards-monochrome-oney-48px')) {
   customElements.define('payment-cards-monochrome-oney-48px', CardsMonochromeOney48);
@@ -3407,11 +3441,11 @@ if (!customElements.get('product-aspect-size-48px')) {
 if (!customElements.get('product-aspect-weight-48px')) {
   customElements.define('product-aspect-weight-48px', AspectWeight48);
 }
-if (!customElements.get('product-basket-add-48px')) {
-  customElements.define('product-basket-add-48px', BasketAdd48);
-}
 if (!customElements.get('product-basket-handbag-48px')) {
   customElements.define('product-basket-handbag-48px', BasketHandbag48);
+}
+if (!customElements.get('product-basket-add-48px')) {
+  customElements.define('product-basket-add-48px', BasketAdd48);
 }
 if (!customElements.get('product-basket-multi-48px')) {
   customElements.define('product-basket-multi-48px', BasketMulti48);
@@ -3428,11 +3462,11 @@ if (!customElements.get('product-list-add-48px')) {
 if (!customElements.get('product-list-standard-48px')) {
   customElements.define('product-list-standard-48px', ListStandard48);
 }
-if (!customElements.get('product-promise-certification-48px')) {
-  customElements.define('product-promise-certification-48px', PromiseCertification48);
-}
 if (!customElements.get('product-promise-circulareconomy-48px')) {
   customElements.define('product-promise-circulareconomy-48px', PromiseCircularEconomy48);
+}
+if (!customElements.get('product-promise-certification-48px')) {
+  customElements.define('product-promise-certification-48px', PromiseCertification48);
 }
 if (!customElements.get('product-promise-destocking-48px')) {
   customElements.define('product-promise-destocking-48px', PromiseDestocking48);
@@ -3527,11 +3561,11 @@ if (!customElements.get('service-purchasehelp-homediy-48px')) {
 if (!customElements.get('service-purchasehelp-homeinstall-48px')) {
   customElements.define('service-purchasehelp-homeinstall-48px', PurchaseHelpHomeInstall48);
 }
-if (!customElements.get('service-purchasehelp-toolrent-48px')) {
-  customElements.define('service-purchasehelp-toolrent-48px', PurchaseHelpToolRent48);
-}
 if (!customElements.get('service-time-delivery--2h-48px')) {
   customElements.define('service-time-delivery--2h-48px', TimeDelivery2h48);
+}
+if (!customElements.get('service-purchasehelp-toolrent-48px')) {
+  customElements.define('service-purchasehelp-toolrent-48px', PurchaseHelpToolRent48);
 }
 if (!customElements.get('service-time-delivery--3h-48px')) {
   customElements.define('service-time-delivery--3h-48px', TimeDelivery3h48);
@@ -3541,15 +3575,6 @@ if (!customElements.get('service-time-delivery--48h-48px')) {
 }
 if (!customElements.get('service-time-timedecline-48px')) {
   customElements.define('service-time-timedecline-48px', TimeTimeDecline48);
-}
-if (!customElements.get('service-tools-3d-48px')) {
-  customElements.define('service-tools-3d-48px', Tools3d48);
-}
-if (!customElements.get('navigation-display-home-32px')) {
-  customElements.define('navigation-display-home-32px', DisplayHome32);
-}
-if (!customElements.get('service-tools-calculator-48px')) {
-  customElements.define('service-tools-calculator-48px', ToolsCalculator48);
 }
 if (!customElements.get('service-tools-comparator-48px')) {
   customElements.define('service-tools-comparator-48px', ToolsComparator48);
@@ -3899,6 +3924,12 @@ if (!customElements.get('logotypes-payment-monochrome-bizum-64px')) {
 if (!customElements.get('logotypes-payment-monochrome-fintecture-64px')) {
   customElements.define('logotypes-payment-monochrome-fintecture-64px', PaymentMonochromeFintecture64);
 }
+if (!customElements.get('logotypes-payment-monochrome-mb--multibanco-64px')) {
+  customElements.define('logotypes-payment-monochrome-mb--multibanco-64px', PaymentMonochromeMBMultibanco64);
+}
+if (!customElements.get('logotypes-payment-monochrome-mb--way-64px')) {
+  customElements.define('logotypes-payment-monochrome-mb--way-64px', PaymentMonochromeMBWay64);
+}
 if (!customElements.get('logotypes-payment-monochrome-oney--3x-64px')) {
   customElements.define('logotypes-payment-monochrome-oney--3x-64px', PaymentMonochromeOney3x64);
 }
@@ -3931,9 +3962,6 @@ if (!customElements.get('media-download-web-64px')) {
 }
 if (!customElements.get('media-fullscreen-64px')) {
   customElements.define('media-fullscreen-64px', FullScreen64);
-}
-if (!customElements.get('media-gauge-64px')) {
-  customElements.define('media-gauge-64px', Gauge64);
 }
 if (!customElements.get('media-group-64px')) {
   customElements.define('media-group-64px', Group64);
@@ -4055,8 +4083,11 @@ if (!customElements.get('navigation-display-calendar-64px')) {
 if (!customElements.get('navigation-display-connect-64px')) {
   customElements.define('navigation-display-connect-64px', DisplayConnect64);
 }
-if (!customElements.get('navigation-display-displayfull-filled-64px')) {
-  customElements.define('navigation-display-displayfull-filled-64px', DisplayDisplayFullFilled64);
+if (!customElements.get('service-tools-calculator-48px')) {
+  customElements.define('service-tools-calculator-48px', ToolsCalculator48);
+}
+if (!customElements.get('media-gauge-64px')) {
+  customElements.define('media-gauge-64px', Gauge64);
 }
 if (!customElements.get('navigation-display-displayfull-outline-64px')) {
   customElements.define('navigation-display-displayfull-outline-64px', DisplayDisplayFullOutline64);
@@ -4213,6 +4244,9 @@ if (!customElements.get('payment-cards-monochrome-oneyx4-64px')) {
 }
 if (!customElements.get('payment-cards-monochrome-paylib-64px')) {
   customElements.define('payment-cards-monochrome-paylib-64px', CardsMonochromePaylib64);
+}
+if (!customElements.get('service-tools-3d-48px')) {
+  customElements.define('service-tools-3d-48px', Tools3d48);
 }
 if (!customElements.get('payment-cards-monochrome-paypal-64px')) {
   customElements.define('payment-cards-monochrome-paypal-64px', CardsMonochromePaypal64);
@@ -4418,6 +4452,9 @@ if (!customElements.get('social-socialnetwork-pinterest-64px')) {
 if (!customElements.get('social-socialnetwork-youtube-64px')) {
   customElements.define('social-socialnetwork-youtube-64px', SocialNetworkYoutube64);
 }
+if (!customElements.get('social-socialnetwork-youtube-64px')) {
+  customElements.define('social-socialnetwork-youtube-64px', SocialNetworkYoutube64);
+}
 if (!customElements.get('social-view-like--negative-64px')) {
   customElements.define('social-view-like--negative-64px', ViewLikeNegative64);
 }
@@ -4471,6 +4508,9 @@ if (!customElements.get('universe-bathroom-64px')) {
 }
 if (!customElements.get('universe-bedroom-64px')) {
   customElements.define('universe-bedroom-64px', Bedroom64);
+}
+if (!customElements.get('navigation-display-displayfull-filled-64px')) {
+  customElements.define('navigation-display-displayfull-filled-64px', DisplayDisplayFullFilled64);
 }
 if (!customElements.get('universe-carpentry-64px')) {
   customElements.define('universe-carpentry-64px', Carpentry64);
@@ -4673,8 +4713,17 @@ if (!customElements.get('media-view360-96px')) {
 if (!customElements.get('logotypes-brand-lm-24px')) {
   customElements.define('logotypes-brand-lm-24px', BrandLM24);
 }
+if (!customElements.get('logotypes-payment-bizum-24px')) {
+  customElements.define('logotypes-payment-bizum-24px', PaymentBizum24);
+}
 if (!customElements.get('logotypes-payment-fintecture-24px')) {
   customElements.define('logotypes-payment-fintecture-24px', PaymentFintecture24);
+}
+if (!customElements.get('logotypes-payment-mb--multibanco-24px')) {
+  customElements.define('logotypes-payment-mb--multibanco-24px', PaymentMBMultibanco24);
+}
+if (!customElements.get('logotypes-payment-mb--way-24px')) {
+  customElements.define('logotypes-payment-mb--way-24px', PaymentMBWay24);
 }
 if (!customElements.get('logotypes-payment-oney--3x-24px')) {
   customElements.define('logotypes-payment-oney--3x-24px', PaymentOney3x24);
@@ -4742,6 +4791,12 @@ if (!customElements.get('logotypes-payment-bizum-32px')) {
 if (!customElements.get('logotypes-payment-fintecture-32px')) {
   customElements.define('logotypes-payment-fintecture-32px', PaymentFintecture32);
 }
+if (!customElements.get('logotypes-payment-mb--multibanco-32px')) {
+  customElements.define('logotypes-payment-mb--multibanco-32px', PaymentMBMultibanco32);
+}
+if (!customElements.get('logotypes-payment-mb--way-32px')) {
+  customElements.define('logotypes-payment-mb--way-32px', PaymentMBWay32);
+}
 if (!customElements.get('logotypes-payment-oney--3x-32px')) {
   customElements.define('logotypes-payment-oney--3x-32px', PaymentOney3x32);
 }
@@ -4769,9 +4824,6 @@ if (!customElements.get('payment-cards-colors-illicado-32px')) {
 if (!customElements.get('payment-cards-colors-loyalty-32px')) {
   customElements.define('payment-cards-colors-loyalty-32px', CardsColorsLoyalty32);
 }
-if (!customElements.get('logotypes-payment-bizum-24px')) {
-  customElements.define('logotypes-payment-bizum-24px', PaymentBizum24);
-}
 if (!customElements.get('payment-cards-colors-maestro-32px')) {
   customElements.define('payment-cards-colors-maestro-32px', CardsColorsMaestro32);
 }
@@ -4790,6 +4842,9 @@ if (!customElements.get('payment-cards-colors-oneyx4-32px')) {
 if (!customElements.get('payment-cards-colors-paylib-32px')) {
   customElements.define('payment-cards-colors-paylib-32px', CardsColorsPaylib32);
 }
+if (!customElements.get('payment-cards-colors-paypal-32px')) {
+  customElements.define('payment-cards-colors-paypal-32px', CardsColorsPaypal32);
+}
 if (!customElements.get('payment-cards-colors-visa-32px')) {
   customElements.define('payment-cards-colors-visa-32px', CardsColorsVisa32);
 }
@@ -4807,6 +4862,12 @@ if (!customElements.get('logotypes-payment-bizum-48px')) {
 }
 if (!customElements.get('logotypes-payment-fintecture-48px')) {
   customElements.define('logotypes-payment-fintecture-48px', PaymentFintecture48);
+}
+if (!customElements.get('logotypes-payment-mb--multibanco-48px')) {
+  customElements.define('logotypes-payment-mb--multibanco-48px', PaymentMBMultibanco48);
+}
+if (!customElements.get('logotypes-payment-mb--way-48px')) {
+  customElements.define('logotypes-payment-mb--way-48px', PaymentMBWay48);
 }
 if (!customElements.get('logotypes-payment-oney--3x-48px')) {
   customElements.define('logotypes-payment-oney--3x-48px', PaymentOney3x48);
@@ -4874,6 +4935,9 @@ if (!customElements.get('logotypes-payment-bizum-64px')) {
 if (!customElements.get('logotypes-payment-fintecture-64px')) {
   customElements.define('logotypes-payment-fintecture-64px', PaymentFintecture64);
 }
+if (!customElements.get('logotypes-payment-mb--way-64px')) {
+  customElements.define('logotypes-payment-mb--way-64px', PaymentMBWay64);
+}
 if (!customElements.get('logotypes-payment-oney--3x-64px')) {
   customElements.define('logotypes-payment-oney--3x-64px', PaymentOney3x64);
 }
@@ -4901,14 +4965,17 @@ if (!customElements.get('payment-cards-colors-illicado-64px')) {
 if (!customElements.get('payment-cards-colors-loyalty-64px')) {
   customElements.define('payment-cards-colors-loyalty-64px', CardsColorsLoyalty64);
 }
-if (!customElements.get('payment-cards-colors-paypal-32px')) {
-  customElements.define('payment-cards-colors-paypal-32px', CardsColorsPaypal32);
+if (!customElements.get('payment-cards-colors-maestro-64px')) {
+  customElements.define('payment-cards-colors-maestro-64px', CardsColorsMaestro64);
 }
 if (!customElements.get('payment-cards-colors-mastercard-64px')) {
   customElements.define('payment-cards-colors-mastercard-64px', CardsColorsMastercard64);
 }
 if (!customElements.get('payment-cards-colors-oney-64px')) {
   customElements.define('payment-cards-colors-oney-64px', CardsColorsOney64);
+}
+if (!customElements.get('payment-cards-colors-oneyx3-64px')) {
+  customElements.define('payment-cards-colors-oneyx3-64px', CardsColorsOneyX364);
 }
 if (!customElements.get('payment-cards-colors-oneyx4-64px')) {
   customElements.define('payment-cards-colors-oneyx4-64px', CardsColorsOneyX464);
@@ -4919,18 +4986,15 @@ if (!customElements.get('payment-cards-colors-paylib-64px')) {
 if (!customElements.get('payment-cards-colors-paypal-64px')) {
   customElements.define('payment-cards-colors-paypal-64px', CardsColorsPaypal64);
 }
+if (!customElements.get('payment-cards-colors-visa-64px')) {
+  customElements.define('payment-cards-colors-visa-64px', CardsColorsVisa64);
+}
 if (!customElements.get('store-colors-relaylocation-64px')) {
   customElements.define('store-colors-relaylocation-64px', ColorsRelayLocation64);
 }
 if (!customElements.get('store-colors-storelocation-64px')) {
   customElements.define('store-colors-storelocation-64px', ColorsStoreLocation64);
 }
-if (!customElements.get('payment-cards-colors-maestro-64px')) {
-  customElements.define('payment-cards-colors-maestro-64px', CardsColorsMaestro64);
-}
-if (!customElements.get('payment-cards-colors-visa-64px')) {
-  customElements.define('payment-cards-colors-visa-64px', CardsColorsVisa64);
-}
-if (!customElements.get('payment-cards-colors-oneyx3-64px')) {
-  customElements.define('payment-cards-colors-oneyx3-64px', CardsColorsOneyX364);
+if (!customElements.get('logotypes-payment-mb--multibanco-64px')) {
+  customElements.define('logotypes-payment-mb--multibanco-64px', PaymentMBMultibanco64);
 }

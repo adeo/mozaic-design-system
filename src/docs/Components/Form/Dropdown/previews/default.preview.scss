@@ -3,6 +3,7 @@
 @include import-font-families();
 @import "components/c.select";
 @import "components/c.listbox";
+@import "components/c.loader";
 @import "components/c.dropdown";
 
 html {

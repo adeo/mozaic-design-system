@@ -1,16 +1,18 @@
 <div class="example">
   <div
-    class="mc-dropdown mc-dropdown--multi"
+    class="mc-dropdown mc-dropdown--multi mc-dropdown--clearable"
     style="--dropdown-tag-width: 68px"
   >
     <div class="mc-dropdown__main">
       <!-- Tag -->
       <span
-        class="mc-dropdown__tag mc-tag-removable mc-tag-removable--dark mc-tag-removable--s"
+        id="js-tag"
+        class="mc-dropdown__tag mc-tag-removable mc-tag-removable--s mc-autocomplete__tag"
+        hidden
       >
-        <span class="mc-tag-removable__label"> 1 </span>
+        <span class="mc-tag-removable__label">1</span>
         <button class="mc-tag-removable__remove">
-          <span class="mc-tag-removable__remove-text"> Delete tag </span>
+          <span class="mc-tag-removable__remove-text">Delete tag</span>
         </button>
       </span>
 

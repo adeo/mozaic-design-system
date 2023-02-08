@@ -130,11 +130,13 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
   @if map-has-key($props, "disabled") {
     $disabled-props: map-get($props, "disabled");
 
-    &:disabled {
-      border-color: transparent;
+    &:disabled,
+    &.is-disabled {
       background-color: map-get($disabled-props, "background");
+      border-color: transparent;
       color: map-get($disabled-props, "font");
       cursor: not-allowed;
+      pointer-events: none;
     }
   }
 }

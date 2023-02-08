@@ -83,7 +83,10 @@
     @include set-font-scale("05", "m");
 
     color: $color-font-darker;
-    margin-bottom: $mu100;
+
+    &:not(:last-child) {
+      margin-bottom: $mu100;
+    }
   }
 
   &--bordered {
@@ -104,6 +107,6 @@
   }
 
   &--fluid {
-    max-width: auto;
+    max-width: none;
   }
 }

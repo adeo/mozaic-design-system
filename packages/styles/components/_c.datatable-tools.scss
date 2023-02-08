@@ -41,7 +41,7 @@
 
       &::after,
       &::before {
-        background-color: $color-background-arrow-default;
+        background-color: $color-datatable-sort-arrow-default;
         content: "";
         flex-shrink: 0;
         height: $mu050;
@@ -52,7 +52,7 @@
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
         .asc & {
-          background-color: $color-background-arrow-active;
+          background-color: $color-datatable-sort-arrow-active;
         }
 
         .desc & {
@@ -68,7 +68,7 @@
         }
 
         .desc & {
-          background-color: $color-background-arrow-active;
+          background-color: $color-datatable-sort-arrow-active;
         }
       }
     }
@@ -82,7 +82,7 @@
 
   &__expand {
     #{$parent}__btn-icon {
-      fill: $color-background-icon;
+      fill: $color-datatable-icon;
     }
   }
 
