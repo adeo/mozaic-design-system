@@ -60,6 +60,7 @@ const IconViewer = ({ type }) => {
               type="text"
               value={filter}
               className="mc-text-input"
+              placeholder="Search icons"
               onChange={(event) => setFilter(event.target.value)}
             />
             {Object.keys(categories)
