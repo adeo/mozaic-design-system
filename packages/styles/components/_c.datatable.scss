@@ -88,8 +88,7 @@
   &__row {
     $datatable-row: &;
 
-    &-parent:not(.mc-datatable__row-parent--expanded)
-      + .mc-datatable__row-expandable {
+    &-parent:not(.mc-datatable__row-parent--expanded) + .mc-datatable__row-expandable {
       height: 0;
 
       .mc-datatable__row-inner {
@@ -98,8 +97,7 @@
       }
     }
 
-    &-parent.mc-datatable__row-parent--expanded
-      + .mc-datatable__row-expandable {
+    &-parent.mc-datatable__row-parent--expanded + .mc-datatable__row-expandable {
       .mc-datatable__row-inner {
         max-height: 100%;
       }
