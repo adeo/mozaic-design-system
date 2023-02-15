@@ -12,6 +12,7 @@
 
     cursor: pointer;
     margin-left: magic-unit-rem(0.5, true);
+    color: $color-font-darker;
   }
 
   &__input {
@@ -63,10 +64,11 @@
     }
 
     &:checked {
-      background-image: url(inline-icons(
-        "checkmark-16",
-        $color-input-checked-icon
-      ));
+      background-image: url(
+        inline-icons(
+          "checkmark-16",
+          $color-input-checked-icon
+        ));
       background-position: center center;
 
       &::-ms-check {
@@ -84,10 +86,11 @@
     }
 
     &:indeterminate {
-      background-image: url(inline-icons(
-        "control-less-16",
-        $color-input-checked-icon
-      ));
+      background-image: url(
+        inline-icons(
+          "control-less-16",
+          $color-input-checked-icon
+        ));
     }
 
     &:disabled {
@@ -101,17 +104,19 @@
       }
 
       &:checked {
-        background-image: url(inline-icons(
-          "checkmark-16",
-          $color-input-disabled-icon
-        ));
+        background-image: url(
+          inline-icons(
+            "checkmark-16",
+            $color-input-disabled-icon
+          ));
       }
 
       &:indeterminate {
-        background-image: url(inline-icons(
-          "control-less-16",
-          $color-input-disabled-icon
-        ));
+        background-image: url(
+          inline-icons(
+            "control-less-16",
+            $color-input-disabled-icon
+          ));
       }
 
       & + #{$parent}__label {
