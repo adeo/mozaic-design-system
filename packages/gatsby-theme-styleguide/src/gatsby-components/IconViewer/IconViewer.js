@@ -31,17 +31,17 @@ const IconViewer = ({ type }) => {
       render={(data) => {
         const icons = data.dataJson[type]
         const categories = {}
-        
+
         icons.forEach((icon) => {
           if (!categories[icon.cat]) categories[icon.cat] = {}
           console.log(icon)
           if (!categories[icon.cat][icon.name])
             categories[icon.cat][icon.name] = {
-              '20': null,
-              '24': null,
-              '32': null,
-              '48': null,
-              '64': null,
+              20: null,
+              24: null,
+              32: null,
+              48: null,
+              64: null,
             }
 
           if (categories[icon.cat][icon.name][icon.size] === null)

@@ -1,0 +1,12 @@
+<svelte:options tag={null} />
+  <script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "1.5rem";
+</script>
+
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M10 4a2 2 0 0 0-2 2v6a.999.999 0 0 1-.419.814 4 4 0 1 0 4.838 0A.999.999 0 0 1 12 12V6a2 2 0 0 0-2-2Zm6 12a5.987 5.987 0 0 0-2-4.472V6a4 4 0 0 0-8 0v5.528A6 6 0 1 0 16 16Zm.5-12a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3ZM16 8a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 16 8Zm.5 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3ZM10 18.5a2.5 2.5 0 0 0 1-4.792V8H9v5.708a2.5 2.5 0 0 0 1 4.792Z"/>
+</svg>
