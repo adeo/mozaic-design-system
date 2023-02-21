@@ -1,12 +1,5 @@
 // Default path
 $font-path: "/fonts";
-$preset-adeo: false;
-
-@if $preset == "adeo" {
-  $preset-adeo: true;
-}
-
-$font-family: if($preset-adeo, "Roboto", "LeroyMerlin");
 
 @if variable-exists(local-config) {
   @if type-of($local-config) == map and map-has-key($local-config, font-path) {
@@ -26,7 +19,7 @@ $font-weights: (
     src:
       url("#{$font-path}/LeroyMerlinSans-Web-Light.woff2") format("woff2"),
       url("#{$font-path}/LeroyMerlinSans-Web-Light.woff") format("woff");
-    font-weight: 300;
+    font-weight: $font-weight-light;
     font-style: normal;
     font-display: swap;
   }
@@ -36,7 +29,7 @@ $font-weights: (
     src:
       url("#{$font-path}/LeroyMerlinSans-Web-Regular.woff2") format("woff2"),
       url("#{$font-path}/LeroyMerlinSans-Web-Regular.woff") format("woff");
-    font-weight: 400;
+    font-weight: $font-weight-regular;
     font-style: normal;
     font-display: swap;
   }
@@ -46,7 +39,7 @@ $font-weights: (
     src:
       url("#{$font-path}/LeroyMerlinSans-Web-SemiBold.woff2") format("woff2"),
       url("#{$font-path}/LeroyMerlinSans-Web-SemiBold.woff") format("woff");
-    font-weight: 600;
+    font-weight: $font-weight-semi-bold;
     font-style: normal;
     font-display: swap;
   }
@@ -58,7 +51,7 @@ $font-weights: (
         url("#{$font-path}/LeroyMerlinSans-Web-LightItalic.woff2")
         format("woff2"),
         url("#{$font-path}/LeroyMerlinSans-Web-LightItalic.woff") format("woff");
-      font-weight: 300;
+      font-weight: $font-weight-light;
       font-style: italic;
       font-display: swap;
     }
@@ -68,7 +61,7 @@ $font-weights: (
       src:
         url("#{$font-path}/LeroyMerlinSans-Web-Italic.woff2") format("woff2"),
         url("#{$font-path}/LeroyMerlinSans-Web-Italic.woff") format("woff");
-      font-weight: 400;
+      font-weight: $font-weight-regular;
       font-style: italic;
       font-display: swap;
     }
@@ -79,8 +72,8 @@ $font-weights: (
         url("#{$font-path}/LeroyMerlinSans-Web-SemiBoldItalic.woff2")
         format("woff2"),
         url("#{$font-path}/LeroyMerlinSans-Web-SemiBoldItalic.woff")
-        format("woff");
-      font-weight: if($preset-adeo, 700, 600);
+          format("woff");
+      font-weight: $font-weight-semi-bold;
       font-style: italic;
       font-display: swap;
     }

@@ -1,6 +1,8 @@
 'use strict'
 const CM = require('@mozaic-ds/configuration-manager')
 
+const preset = CM.getKey('preset') ?? 'lm'
+
 // test for user configured additional paths
 const additionalPaths = CM.getKey('sass.includePaths')
 
