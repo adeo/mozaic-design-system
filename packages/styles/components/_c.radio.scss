@@ -12,6 +12,7 @@
 
     cursor: pointer;
     margin-left: magic-unit-rem(0.5, true);
+    color: $color-font-darkest;
   }
 
   &__input {
@@ -95,10 +96,6 @@
       border-color: $color-input-disabled-background;
       cursor: not-allowed;
 
-      &::before {
-        background-color: $color-input-disabled-icon;
-      }
-
       &::-ms-check {
         background-color: $color-input-disabled-background;
         border-color: $color-input-disabled-background;
@@ -107,6 +104,13 @@
 
       & + #{$parent}__label {
         color: $color-input-disabled-label;
+      }
+
+      // disabled & checked
+      &:checked {
+        &::before {
+          background-color: $color-input-disabled-icon;
+        }
       }
     }
 

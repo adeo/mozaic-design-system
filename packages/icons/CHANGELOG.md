@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.52.0](https://github.com/adeo/mozaic-design-system/compare/v1.51.0...v1.52.0) (2023-01-10)
+
+
+### Features
+
+* **foundations/icons:** add new mb logotype ([#1320](https://github.com/adeo/mozaic-design-system/issues/1320)) ([edd871c](https://github.com/adeo/mozaic-design-system/commit/edd871c3036c3087e9afcb60bd49847c00672ee6))
+
+
+
+
+
 # [1.49.0](https://github.com/adeo/mozaic-design-system/compare/v1.48.2...v1.49.0) (2022-11-23)
 
 

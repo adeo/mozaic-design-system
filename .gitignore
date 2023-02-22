@@ -3,6 +3,7 @@
 node_modules
 yarn-error.log
 lerna-debug.log
+.yarn
 
 # Build directory
 /public
