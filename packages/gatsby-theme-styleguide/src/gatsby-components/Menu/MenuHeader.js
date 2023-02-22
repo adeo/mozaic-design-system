@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Search from '../Search/Search'
 import { Link } from 'gatsby'
 import MenuVersionSelect from './MenuVersionSelect'
-import { ArrowArrowBottom16 } from '@mozaic-ds/icons/react'
+import { ChevronDown20 } from '@mozaic-ds/icons/react'
 
 const Header = styled.div`
   margin-bottom: 3rem;
@@ -61,7 +61,7 @@ const MenuHeader = ({ siteTitle, githubReleases }) => (
         <MenuVersionSelect githubReleases={githubReleases} />
         <div className="version-number">
           {getCurrentRelease(githubReleases)}
-          <ArrowArrowBottom16 fill="currentColor" />
+          <ChevronDown20 fill="currentColor" />
         </div>
       </VersionWrapper>
     </Header>

@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import StatusFlag from '../StatusFlag'
 import {
-  ControlCross16,
-  NotificationCircleAvailable24,
+  Cross20,
+  CheckCircle24,
 } from '@mozaic-ds/icons/react'
 
 export const StatusTable = styled.table`
@@ -144,13 +144,13 @@ const PatternsStatus = ({ data }) => {
         ) {
           thisPatternStatus.push(
             <td key={'value_row_' + plateform + index}>
-              <NotificationCircleAvailable24 fill="#41a017" />
+              <CheckCircle24 fill="#41a017" />
             </td>
           )
         } else {
           thisPatternStatus.push(
             <td key={'value_row_' + plateform + index}>
-              <ControlCross16 fill="currentColor" />
+              <Cross20 fill="currentColor" />
             </td>
           )
         }
@@ -244,11 +244,9 @@ const PatternStatus = () => (
         <PatternsStatus data={data.Components} />
         <h3>Statuses meaning</h3>
         <StatusMeaning>
-          <NotificationCircleAvailable24 fill="#41a017" />
           <b>&nbsp;&nbsp;Ready</b> : The component is dev and design ready.
         </StatusMeaning>
         <StatusMeaning>
-          <ControlCross16 fill="currentColor" />
           <b>&nbsp;&nbsp;Not available</b> : Component is not available in this
           version of the library.
         </StatusMeaning>

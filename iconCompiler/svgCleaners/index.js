@@ -70,20 +70,6 @@ const optimizeIcon = ({ file, data }, configSVG) => {
   return { file, data: configSVG[0].custom.fn(data) }
 }
 
-// const customOptimization = (file, data, customOptims) =>
-//   new Promise((resolve, reject) => {
-//     if (!data.match(/<g id="Square">.*?<\/g>/gi)) {
-//       reject(`✗ ERROR : in ${file} Icon should have a group with a "Square" id`)
-//     }
-
-//     const newData = customOptims(data)
-
-//     resolve({
-//       data: newData,
-//       file,
-//     })
-//   })
-
 const saveIcon = ({ file, data }, outputPath) =>
   new Promise((resolve, reject) => {
     const fileName = path.basename(file)

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
+import { ExternalLink20 } from '@mozaic-ds/icons/react'
 
 const VueJSBlock = styled.div`
   display: flex;
@@ -53,7 +53,7 @@ const CalloutVue = ({ link }) => {
 
       <Link target="__blank" href={link}>
         <TextLink>VueJS</TextLink>
-        <DisplayExternalLink16 fill="#1e5f82" />
+        <ExternalLink20 fill="#1e5f82" />
       </Link>
     </VueJSBlock>
   )
