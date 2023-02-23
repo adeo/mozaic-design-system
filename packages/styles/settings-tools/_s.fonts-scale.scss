@@ -8,7 +8,7 @@
 }
 
 @mixin set-font-scale($size, $line-height: "l") {
-  font-size: get-token(size, font, $size);
+  font-size: get-token(size, font, $size) * $magic-unit;
 
   @include set-line-height($size, $line-height);
 }
