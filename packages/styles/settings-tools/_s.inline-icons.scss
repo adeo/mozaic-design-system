@@ -2,11 +2,12 @@
   $index: str-index($string, $search);
 
   @if $index {
-    @return str-slice($string, 1, $index - 1) + $replace + str-replace(
-      str-slice($string, $index + str-length($search)),
-      $search,
-      $replace
-    );
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
   }
 
   @return $string;
@@ -70,6 +71,10 @@ $encoding-reference: (
 
   @if $icon == "arrow-down-24" {
     $svg: '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" fill="#{$fill}" viewBox="0 0 24 24"><path d="M12.71 17.21a1 1 0 0 1-1.42 0l-9-9a1 1 0 1 1 1.42-1.42l8.29 8.3 8.29-8.3a1 1 0 1 1 1.42 1.42z"/></svg>';
+  }
+
+  @if $icon == "arrow-down-32" {
+    $svg: '<svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" fill="#{$fill}" viewBox="0 0 32 32"><path d="M5.293 10.293a1 1 0 011.414 0L16 19.586l9.293-9.293a1 1 0 111.414 1.414l-10 10a1 1 0 01-1.414 0l-10-10a1 1 0 010-1.414z"/></svg>';
   }
 
   @if $icon == "upload-24" {
