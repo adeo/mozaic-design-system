@@ -5,7 +5,7 @@
   $parent: get-parent-selector(&);
 
   align-items: center;
-  display: flex;
+  display: inline-flex;
   padding: $checkbox-container-padding-y $checkbox-container-padding-x;
   position: $checkbox-position;
 

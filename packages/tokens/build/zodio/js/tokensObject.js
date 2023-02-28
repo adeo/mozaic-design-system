@@ -6023,11 +6023,11 @@ module.exports = {
       },
       "disabled": {
         "background": {
-          "value": "#e6e6e6",
+          "value": "#cccccc",
           "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.100.value}"
+            "value": "{color.grey.200.value}"
           },
           "name": "ColorInputDisabledBackground",
           "attributes": {
@@ -6044,11 +6044,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#e6e6e6",
+          "value": "#cccccc",
           "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.100.value}"
+            "value": "{color.grey.200.value}"
           },
           "name": "ColorInputDisabledBorder",
           "attributes": {
@@ -6065,11 +6065,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#999999",
+          "value": "#666666",
           "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.400.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorInputDisabledIcon",
           "attributes": {
