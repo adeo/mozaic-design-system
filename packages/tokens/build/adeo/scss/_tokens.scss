@@ -473,6 +473,9 @@ $preset: adeo !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
+$radius-checkbox-s: 2 !default;
+$radius-checkbox-m: 4 !default;
+$radius-checkbox-l: 6 !default;
 $shadow-s-x: 0px !default;
 $shadow-s-y: 1px !default;
 $shadow-s-blur: 5px !default;
@@ -1446,7 +1449,12 @@ $tokens: (
   'radius': (
     's': $radius-s,
     'm': $radius-m,
-    'l': $radius-l
+    'l': $radius-l,
+    'checkbox': (
+      's': $radius-checkbox-s,
+      'm': $radius-checkbox-m,
+      'l': $radius-checkbox-l
+    )
   ),
   'shadow': (
     's': (

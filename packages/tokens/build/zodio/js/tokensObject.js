@@ -5947,7 +5947,7 @@ module.exports = {
     "input": {
       "text": {
         "value": "#191919",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.900.value}"
@@ -5966,7 +5966,7 @@ module.exports = {
       },
       "border": {
         "value": "#666666",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -5985,7 +5985,7 @@ module.exports = {
       },
       "placeholder": {
         "value": "#666666",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -6004,7 +6004,7 @@ module.exports = {
       },
       "background": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -6024,7 +6024,7 @@ module.exports = {
       "disabled": {
         "background": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6045,7 +6045,7 @@ module.exports = {
         },
         "border": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -6066,7 +6066,7 @@ module.exports = {
         },
         "icon": {
           "value": "#999999",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.400.value}"
@@ -6087,7 +6087,7 @@ module.exports = {
         },
         "label": {
           "value": "#808080",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
@@ -6110,7 +6110,7 @@ module.exports = {
       "hover": {
         "border": {
           "value": "#191919",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -6133,7 +6133,7 @@ module.exports = {
       "focus": {
         "border": {
           "value": "#0b96cc",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.secondary-blue.500.value}"
@@ -6156,7 +6156,7 @@ module.exports = {
       "valid": {
         "border": {
           "value": "#46a610",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.success.500.value}"
@@ -6178,7 +6178,7 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#035010",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
             "isSource": true,
             "original": {
               "value": "{color.success.800.value}"
@@ -6204,7 +6204,7 @@ module.exports = {
       "invalid": {
         "border": {
           "value": "#c61112",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
             "value": "{color.danger.600.value}"
@@ -6226,7 +6226,7 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#530000",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.800.value}"
@@ -6251,11 +6251,11 @@ module.exports = {
       },
       "checked": {
         "border": {
-          "value": "#775f3c",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.grey.999.value}"
           },
           "name": "ColorInputCheckedBorder",
           "attributes": {
@@ -6272,11 +6272,11 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "#775f3c",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.grey.000.value}"
           },
           "name": "ColorInputCheckedBackground",
           "attributes": {
@@ -6293,11 +6293,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.000.value}"
+            "value": "{color.grey.999.value}"
           },
           "name": "ColorInputCheckedIcon",
           "attributes": {
@@ -6316,7 +6316,7 @@ module.exports = {
         "hover": {
           "border": {
             "value": "#423724",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/input.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.800.value}"
@@ -10243,6 +10243,461 @@ module.exports = {
         "radius",
         "l"
       ]
+    },
+    "checkbox": {
+      "s": {
+        "value": 2,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/radius/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": 2
+        },
+        "name": "RadiusCheckboxS",
+        "attributes": {
+          "category": "radius",
+          "type": "checkbox",
+          "item": "s"
+        },
+        "path": [
+          "radius",
+          "checkbox",
+          "s"
+        ]
+      },
+      "m": {
+        "value": 4,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/radius/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": 4
+        },
+        "name": "RadiusCheckboxM",
+        "attributes": {
+          "category": "radius",
+          "type": "checkbox",
+          "item": "m"
+        },
+        "path": [
+          "radius",
+          "checkbox",
+          "m"
+        ]
+      },
+      "l": {
+        "value": 6,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/radius/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": 6
+        },
+        "name": "RadiusCheckboxL",
+        "attributes": {
+          "category": "radius",
+          "type": "checkbox",
+          "item": "l"
+        },
+        "path": [
+          "radius",
+          "checkbox",
+          "l"
+        ]
+      }
+    },
+    "input": {
+      "text": {
+        "value": "#191919",
+        "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "RadiusInputText",
+        "attributes": {
+          "category": "radius",
+          "type": "input",
+          "item": "text"
+        },
+        "path": [
+          "radius",
+          "input",
+          "text"
+        ]
+      },
+      "border": {
+        "value": "#666666",
+        "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "RadiusInputBorder",
+        "attributes": {
+          "category": "radius",
+          "type": "input",
+          "item": "border"
+        },
+        "path": [
+          "radius",
+          "input",
+          "border"
+        ]
+      },
+      "placeholder": {
+        "value": "#666666",
+        "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "RadiusInputPlaceholder",
+        "attributes": {
+          "category": "radius",
+          "type": "input",
+          "item": "placeholder"
+        },
+        "path": [
+          "radius",
+          "input",
+          "placeholder"
+        ]
+      },
+      "background": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "RadiusInputBackground",
+        "attributes": {
+          "category": "radius",
+          "type": "input",
+          "item": "background"
+        },
+        "path": [
+          "radius",
+          "input",
+          "background"
+        ]
+      },
+      "disabled": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "RadiusInputDisabledBackground",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "radius",
+            "input",
+            "disabled",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "RadiusInputDisabledBorder",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "border"
+          },
+          "path": [
+            "radius",
+            "input",
+            "disabled",
+            "border"
+          ]
+        },
+        "icon": {
+          "value": "#999999",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "RadiusInputDisabledIcon",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "icon"
+          },
+          "path": [
+            "radius",
+            "input",
+            "disabled",
+            "icon"
+          ]
+        },
+        "label": {
+          "value": "#808080",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "RadiusInputDisabledLabel",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "label"
+          },
+          "path": [
+            "radius",
+            "input",
+            "disabled",
+            "label"
+          ]
+        }
+      },
+      "hover": {
+        "border": {
+          "value": "#191919",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "RadiusInputHoverBorder",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "hover",
+            "subitem": "border"
+          },
+          "path": [
+            "radius",
+            "input",
+            "hover",
+            "border"
+          ]
+        }
+      },
+      "focus": {
+        "border": {
+          "value": "#0b96cc",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.500.value}"
+          },
+          "name": "RadiusInputFocusBorder",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "focus",
+            "subitem": "border"
+          },
+          "path": [
+            "radius",
+            "input",
+            "focus",
+            "border"
+          ]
+        }
+      },
+      "valid": {
+        "border": {
+          "value": "#46a610",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.500.value}"
+          },
+          "name": "RadiusInputValidBorder",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "valid",
+            "subitem": "border"
+          },
+          "path": [
+            "radius",
+            "input",
+            "valid",
+            "border"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#035010",
+            "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.success.800.value}"
+            },
+            "name": "RadiusInputValidHoverBorder",
+            "attributes": {
+              "category": "radius",
+              "type": "input",
+              "item": "valid",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "radius",
+              "input",
+              "valid",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      },
+      "invalid": {
+        "border": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "RadiusInputInvalidBorder",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "invalid",
+            "subitem": "border"
+          },
+          "path": [
+            "radius",
+            "input",
+            "invalid",
+            "border"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#530000",
+            "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.800.value}"
+            },
+            "name": "RadiusInputInvalidHoverBorder",
+            "attributes": {
+              "category": "radius",
+              "type": "input",
+              "item": "invalid",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "radius",
+              "input",
+              "invalid",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "border": {
+          "value": "#775f3c",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "RadiusInputCheckedBorder",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "checked",
+            "subitem": "border"
+          },
+          "path": [
+            "radius",
+            "input",
+            "checked",
+            "border"
+          ]
+        },
+        "background": {
+          "value": "#775f3c",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "RadiusInputCheckedBackground",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "checked",
+            "subitem": "background"
+          },
+          "path": [
+            "radius",
+            "input",
+            "checked",
+            "background"
+          ]
+        },
+        "icon": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "RadiusInputCheckedIcon",
+          "attributes": {
+            "category": "radius",
+            "type": "input",
+            "item": "checked",
+            "subitem": "icon"
+          },
+          "path": [
+            "radius",
+            "input",
+            "checked",
+            "icon"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#423724",
+            "filePath": "packages/tokens/src/tokens/zodio/radius/input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.800.value}"
+            },
+            "name": "RadiusInputCheckedHoverBorder",
+            "attributes": {
+              "category": "radius",
+              "type": "input",
+              "item": "checked",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "radius",
+              "input",
+              "checked",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      }
     }
   },
   "shadow": {

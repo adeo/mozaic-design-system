@@ -1,10 +1,27 @@
+// Preset
+$preset-zodio: false;
+
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
+// Variables
 $checkbox-min-width: 20px;
 $checkbox-min-height: 20px;
 $checkbox-width: $mu125;
 $checkbox-height: $mu125;
-$checkbox-border-width: get-border("m");
-$checkbox-border-radius: get-border-radius("m");
 $checkbox-label-space: $mu100;
+// Zodio properties
+$checkbox-position: if($preset-zodio, relative, null);
+$checkbox-container-padding-x: if($preset-zodio, $mu125, null);
+$checkbox-container-padding-y: if($preset-zodio, px-to-rem(5), null);
+$checkbox-label-margin: if(
+  $preset-zodio,
+  $checkbox-container-padding-x,
+  magic-unit-rem(0.5, true)
+);
+$checkbox-border-radius: if($preset-zodio, null, get-border-radius("m"));
+$checkbox-border-width: if($preset-zodio, get-border("s"), get-border("m"));
 
 @mixin set-checkbox-input() {
   min-width: $checkbox-min-width;
@@ -43,6 +60,18 @@ $checkbox-label-space: $mu100;
       border-color: $color-input-disabled-border;
       background: $color-input-disabled-background;
       background-image: url("#{inline-icons('checkmark-16', $color-input-disabled-icon)}");
+    }
+  }
+}
+
+@mixin set-checkbox-container-background() {
+  @if $preset-zodio {
+    &::after {
+      background: #f8f3ec;
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
     }
   }
 }

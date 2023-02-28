@@ -297,9 +297,9 @@ $color-input-valid-border: #46a610 !default;
 $color-input-valid-hover-border: #035010 !default;
 $color-input-invalid-border: #c61112 !default;
 $color-input-invalid-hover-border: #530000 !default;
-$color-input-checked-border: #775f3c !default;
-$color-input-checked-background: #775f3c !default;
-$color-input-checked-icon: #ffffff !default;
+$color-input-checked-border: #000000 !default;
+$color-input-checked-background: #ffffff !default;
+$color-input-checked-icon: #000000 !default;
 $color-input-checked-hover-border: #423724 !default;
 $color-link-dark-base: #000000 !default;
 $color-link-dark-visited: #333333 !default;
@@ -474,6 +474,27 @@ $preset: zodio !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
+$radius-checkbox-s: 2 !default;
+$radius-checkbox-m: 4 !default;
+$radius-checkbox-l: 6 !default;
+$radius-input-text: #191919 !default;
+$radius-input-border: #666666 !default;
+$radius-input-placeholder: #666666 !default;
+$radius-input-background: #ffffff !default;
+$radius-input-disabled-background: #e6e6e6 !default;
+$radius-input-disabled-border: #e6e6e6 !default;
+$radius-input-disabled-icon: #999999 !default;
+$radius-input-disabled-label: #808080 !default;
+$radius-input-hover-border: #191919 !default;
+$radius-input-focus-border: #0b96cc !default;
+$radius-input-valid-border: #46a610 !default;
+$radius-input-valid-hover-border: #035010 !default;
+$radius-input-invalid-border: #c61112 !default;
+$radius-input-invalid-hover-border: #530000 !default;
+$radius-input-checked-border: #775f3c !default;
+$radius-input-checked-background: #775f3c !default;
+$radius-input-checked-icon: #ffffff !default;
+$radius-input-checked-hover-border: #423724 !default;
 $shadow-s-x: 0px !default;
 $shadow-s-y: 1px !default;
 $shadow-s-blur: 5px !default;
@@ -1452,7 +1473,50 @@ $tokens: (
   'radius': (
     's': $radius-s,
     'm': $radius-m,
-    'l': $radius-l
+    'l': $radius-l,
+    'checkbox': (
+      's': $radius-checkbox-s,
+      'm': $radius-checkbox-m,
+      'l': $radius-checkbox-l
+    ),
+    'input': (
+      'text': $radius-input-text,
+      'border': $radius-input-border,
+      'placeholder': $radius-input-placeholder,
+      'background': $radius-input-background,
+      'disabled': (
+        'background': $radius-input-disabled-background,
+        'border': $radius-input-disabled-border,
+        'icon': $radius-input-disabled-icon,
+        'label': $radius-input-disabled-label
+      ),
+      'hover': (
+        'border': $radius-input-hover-border
+      ),
+      'focus': (
+        'border': $radius-input-focus-border
+      ),
+      'valid': (
+        'border': $radius-input-valid-border,
+        'hover': (
+          'border': $radius-input-valid-hover-border
+        )
+      ),
+      'invalid': (
+        'border': $radius-input-invalid-border,
+        'hover': (
+          'border': $radius-input-invalid-hover-border
+        )
+      ),
+      'checked': (
+        'border': $radius-input-checked-border,
+        'background': $radius-input-checked-background,
+        'icon': $radius-input-checked-icon,
+        'hover': (
+          'border': $radius-input-checked-hover-border
+        )
+      )
+    )
   ),
   'shadow': (
     's': (
