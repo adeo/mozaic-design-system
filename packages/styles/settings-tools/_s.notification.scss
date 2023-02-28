@@ -1,3 +1,10 @@
+// Preset
+$preset-zodio: false;
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
+// Variables
 $notification-selector: ".mc-notification";
 $notification-close-icon-color: get-token(color, notification, font);
 $notification-border-width: get-border("s");
@@ -47,6 +54,12 @@ $notification-types: (
     "icon-m": "notification-danger-32",
     "icon-s": "notification-danger-24",
   ),
+);
+// Zodio properties
+$notification-text-color: if(
+  $preset-zodio,
+  $color-font-lightest,
+  $color-font-darkest
 );
 
 @mixin set-notification-size($props) {

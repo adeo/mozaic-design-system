@@ -1,0 +1,53 @@
+{
+  "color": {
+    "notification": {
+      "font": {
+        "value": "{color.grey.999.value}"
+      },
+      "information": {
+        "background": {
+          "value": "#007BB4"
+        },
+        "border": {
+          "value": "#007BB4"
+        },
+        "icon": {
+          "value": "{color.grey.000.value}"
+        }
+      },
+      "success": {
+        "background": {
+          "value": "#188803"
+        },
+        "border": {
+          "value": "#188803"
+        },
+        "icon": {
+          "value": "{color.grey.000.value}"
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "#C65200"
+        },
+        "border": {
+          "value": "#C65200"
+        },
+        "icon": {
+          "value": "{color.grey.000.value}"
+        }
+      },
+      "danger": {
+        "background": {
+          "value": "#C61112"
+        },
+        "border": {
+          "value": "#C61112"
+        },
+        "icon": {
+          "value": "{color.grey.000.value}"
+        }
+      }
+    }
+  }
+}
