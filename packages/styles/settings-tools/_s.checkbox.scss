@@ -1,6 +1,5 @@
 // Preset
 $preset-zodio: false;
-
 @if $preset == "zodio" {
   $preset-zodio: true;
 }
