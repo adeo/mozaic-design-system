@@ -2,28 +2,28 @@
   "color": {
     "primary-01": {
       "100": {
-        "value": "#F1E7D8"
+        "value": "#F8F3EC"
       },
       "200": {
-        "value": "#E1D0B7"
+        "value": "#F1E7D8"
       },
       "300": {
-        "value": "#B79766"
+        "value": "#DCC39D"
       },
       "400": {
-        "value": "#8C7045"
+        "value": "#B39465"
       },
       "500": {
-        "value": "#775F3C"
+        "value": "#927549"
       },
       "600": {
         "value": "#695535"
       },
       "700": {
-        "value": "#56472E"
+        "value": "#4C3F29"
       },
       "800": {
-        "value": "#423724"
+        "value": "#3B3120"
       },
       "900": {
         "value": "#282116"
@@ -93,11 +93,14 @@
       }
     },
     "secondary-loyalty": {
-      "dark": {
+      "primary": {
         "value": "#D48551"
       },
-      "light": {
+      "secondary": {
         "value": "#DECCBD"
+      },
+      "minor": {
+        "value": "#666666"
       }
     },
     "danger": {
