@@ -1,6 +1,7 @@
 :root {
-  --color-secondary-loyalty-light: #deccbd;
-  --color-secondary-loyalty-dark: #d48551;
+  --color-secondary-loyalty-minor: #666666;
+  --color-secondary-loyalty-secondary: #deccbd;
+  --color-secondary-loyalty-primary: #d48551;
   --color-secondary-aw-bluedark: #315b4e;
   --color-secondary-aw-greendark: #315b4e;
   --color-secondary-aw-green: #bbcfc6;
@@ -112,14 +113,14 @@
   --color-primary-02-200: #cfd2d8;
   --color-primary-02-100: #eeeff1;
   --color-primary-01-900: #282116;
-  --color-primary-01-800: #423724;
-  --color-primary-01-700: #56472e;
+  --color-primary-01-800: #3b3120;
+  --color-primary-01-700: #4c3f29;
   --color-primary-01-600: #695535;
-  --color-primary-01-500: #775f3c;
-  --color-primary-01-400: #8c7045;
-  --color-primary-01-300: #b79766;
-  --color-primary-01-200: #e1d0b7;
-  --color-primary-01-100: #f1e7d8;
+  --color-primary-01-500: #927549;
+  --color-primary-01-400: #b39465;
+  --color-primary-01-300: #dcc39d;
+  --color-primary-01-200: #f1e7d8;
+  --color-primary-01-100: #f8f3ec;
   --color-tooltip-border: var(--color-grey-000);
   --color-tooltip-background: var(--color-grey-700);
   --color-toggle-disabled-checked-circle: var(--color-grey-000);
