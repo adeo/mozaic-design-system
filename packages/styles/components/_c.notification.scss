@@ -8,7 +8,7 @@
   @include set-notification-type("information");
 
   box-sizing: border-box;
-  color: $color-font-darkest;
+  color: $notification-text-color;
 
   &::before {
     background-color: transparent;
