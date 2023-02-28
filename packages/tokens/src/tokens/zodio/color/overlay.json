@@ -1,0 +1,11 @@
+{
+  "color": {
+    "overlay": {
+      "loader": {
+        "background": {
+          "value": "{color.grey.600.value}"
+        }
+      }
+    }
+  }
+}
