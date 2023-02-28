@@ -10319,6 +10319,65 @@ module.exports = {
         "radius",
         "l"
       ]
+    },
+    "checkbox": {
+      "s": {
+        "value": 2,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/radius/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": 2
+        },
+        "name": "RadiusCheckboxS",
+        "attributes": {
+          "category": "radius",
+          "type": "checkbox",
+          "item": "s"
+        },
+        "path": [
+          "radius",
+          "checkbox",
+          "s"
+        ]
+      },
+      "m": {
+        "value": 4,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/radius/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": 4
+        },
+        "name": "RadiusCheckboxM",
+        "attributes": {
+          "category": "radius",
+          "type": "checkbox",
+          "item": "m"
+        },
+        "path": [
+          "radius",
+          "checkbox",
+          "m"
+        ]
+      },
+      "l": {
+        "value": 6,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/radius/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": 6
+        },
+        "name": "RadiusCheckboxL",
+        "attributes": {
+          "category": "radius",
+          "type": "checkbox",
+          "item": "l"
+        },
+        "path": [
+          "radius",
+          "checkbox",
+          "l"
+        ]
+      }
     }
   },
   "shadow": {

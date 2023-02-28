@@ -1,0 +1,78 @@
+{
+  "color": {
+    "input": {
+      "text": {
+        "value": "{color.grey.900.value}"
+      },
+      "border": {
+        "value": "{color.grey.600.value}"
+      },
+      "placeholder": {
+        "value": "{color.grey.600.value}"
+      },
+      "background": {
+        "value": "{color.grey.000.value}"
+      },
+      "disabled": {
+        "background": {
+          "value": "{color.grey.200.value}"
+        },
+        "border": {
+          "value": "{color.grey.200.value}"
+        },
+        "icon": {
+          "value": "{color.grey.600.value}"
+        },
+        "label": {
+          "value": "{color.grey.500.value}"
+        }
+      },
+      "hover": {
+        "border": {
+          "value": "{color.grey.900.value}"
+        }
+      },
+      "focus": {
+        "border": {
+          "value": "{color.secondary-blue.500.value}"
+        }
+      },
+      "valid": {
+        "border": {
+          "value": "{color.success.500.value}"
+        },
+        "hover": {
+          "border": {
+            "value": "{color.success.800.value}"
+          }
+        }
+      },
+      "invalid": {
+        "border": {
+          "value": "{color.danger.600.value}"
+        },
+        "hover": {
+          "border": {
+            "value": "{color.danger.800.value}"
+          }
+        }
+      },
+      "checked": {
+        "border": {
+          "value": "{color.grey.999.value}"
+        },
+        "background": {
+          "value": "{color.grey.000.value}"
+        },
+        "icon": {
+          "value": "{color.grey.999.value}"
+        },
+        "hover": {
+          "border": {
+            "value": "{color.primary-01.800.value}"
+          }
+        }
+      }
+    }
+  }
+}
