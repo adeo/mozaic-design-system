@@ -5,13 +5,15 @@
   $parent: get-parent-selector(&);
 
   align-items: center;
-  display: flex;
+  display: inline-flex;
+  padding: $radio-container-padding-y $radio-container-padding-x;
+  position: $radio-position;
 
   &__label {
     @include set-font-scale("05", "s");
 
     cursor: pointer;
-    margin-left: magic-unit-rem(0.5, true);
+    margin-left: $radio-label-margin;
     color: $color-font-darkest;
   }
 
@@ -33,14 +35,14 @@
       border-radius: 50%;
       content: "";
       display: block;
-      height: px-to-rem(6);
+      height: $radio-checked-button-size;
       left: 50%;
-      min-height: 6px;
-      min-width: 6px;
+      min-height: $radio-checked-button-size;
+      min-width: $radio-checked-button-size;
       position: absolute;
       top: 50%;
       transform: translate(-50%, -50%);
-      width: px-to-rem(6);
+      width: $radio-checked-button-size;
     }
 
     &::-ms-check {
@@ -75,7 +77,7 @@
       }
 
       &::before {
-        background-color: $color-input-background;
+        background-color: $color-input-checked-border;
       }
 
       &:hover {
@@ -83,6 +85,12 @@
 
         &::-ms-check {
           border-color: $color-input-checked-hover-border;
+        }
+      }
+
+      &:not(:disabled) {
+        & + #{$parent}__label {
+          @include set-radio-container-background();
         }
       }
     }

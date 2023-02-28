@@ -1,5 +1,34 @@
+// Preset
+$preset-zodio: false;
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
+// Variables
 $radio-min-width: 20px;
 $radio-min-height: 20px;
 $radio-width: $mu125;
 $radio-height: $mu125;
-$radio-border-width: get-border("m");
+// Zodio properties
+$radio-position: if($preset-zodio, relative, null);
+$radio-container-padding-x: if($preset-zodio, $mu125, null);
+$radio-container-padding-y: if($preset-zodio, px-to-rem(5), null);
+$radio-label-margin: if(
+  $preset-zodio,
+  $radio-container-padding-x,
+  magic-unit-rem(0.5, true)
+);
+$radio-border-width: if($preset-zodio, get-border("s"), get-border("m"));
+$radio-checked-button-size: if($preset-zodio, $mu050, px-to-rem(6));
+
+@mixin set-radio-container-background() {
+  @if $preset-zodio {
+    &::after {
+      background: #f8f3ec;
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+    }
+  }
+}
