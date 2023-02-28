@@ -7012,7 +7012,7 @@ module.exports = {
     "notification": {
       "font": {
         "value": "#000000",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -7031,11 +7031,11 @@ module.exports = {
       },
       "information": {
         "background": {
-          "value": "#daeff7",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#007bb4",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.info.100.value}"
+            "value": "#007BB4"
           },
           "name": "ColorNotificationInformationBackground",
           "attributes": {
@@ -7052,11 +7052,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#0b96cc",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#007bb4",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.info.500.value}"
+            "value": "#007BB4"
           },
           "name": "ColorNotificationInformationBorder",
           "attributes": {
@@ -7073,11 +7073,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#007bb4",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.info.600.value}"
+            "value": "{color.grey.000.value}"
           },
           "name": "ColorNotificationInformationIcon",
           "attributes": {
@@ -7096,11 +7096,11 @@ module.exports = {
       },
       "success": {
         "background": {
-          "value": "#ebf5de",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#188803",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.success.100.value}"
+            "value": "#188803"
           },
           "name": "ColorNotificationSuccessBackground",
           "attributes": {
@@ -7117,11 +7117,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#46a610",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#188803",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.success.500.value}"
+            "value": "#188803"
           },
           "name": "ColorNotificationSuccessBorder",
           "attributes": {
@@ -7138,11 +7138,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#188803",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.success.600.value}"
+            "value": "{color.grey.000.value}"
           },
           "name": "ColorNotificationSuccessIcon",
           "attributes": {
@@ -7161,11 +7161,11 @@ module.exports = {
       },
       "warning": {
         "background": {
-          "value": "#fdf1e8",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#c65200",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.warning.100.value}"
+            "value": "#C65200"
           },
           "name": "ColorNotificationWarningBackground",
           "attributes": {
@@ -7182,11 +7182,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#ea7315",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#c65200",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.warning.500.value}"
+            "value": "#C65200"
           },
           "name": "ColorNotificationWarningBorder",
           "attributes": {
@@ -7203,11 +7203,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#c65200",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.warning.600.value}"
+            "value": "{color.grey.000.value}"
           },
           "name": "ColorNotificationWarningIcon",
           "attributes": {
@@ -7226,11 +7226,11 @@ module.exports = {
       },
       "danger": {
         "background": {
-          "value": "#fdeaea",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#c61112",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.danger.100.value}"
+            "value": "#C61112"
           },
           "name": "ColorNotificationDangerBackground",
           "attributes": {
@@ -7247,11 +7247,11 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#ea302d",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#c61112",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.danger.500.value}"
+            "value": "#C61112"
           },
           "name": "ColorNotificationDangerBorder",
           "attributes": {
@@ -7268,11 +7268,11 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#c61112",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/notification.json",
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/notification.json",
           "isSource": true,
           "original": {
-            "value": "{color.danger.600.value}"
+            "value": "{color.grey.000.value}"
           },
           "name": "ColorNotificationDangerIcon",
           "attributes": {
