@@ -13,6 +13,10 @@ const brands = [
     brand: 'bricoman',
     tokens: 'src/tokens/bricoman/**/*.json',
   },
+  {
+    brand: 'zodio',
+    tokens: 'src/tokens/zodio/**/*.json',
+  },
 ]
 
 module.exports = () => {
