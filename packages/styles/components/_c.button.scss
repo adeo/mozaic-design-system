@@ -11,9 +11,7 @@
   fill: currentcolor;
 
   &:focus {
-    @include set-shadow-focus(
-      $color-focus-border: $color-button-primary-focus-border
-    );
+    @include set-shadow-focus();
   }
 
   // all sizes

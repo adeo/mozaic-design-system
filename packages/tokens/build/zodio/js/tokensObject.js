@@ -7443,7 +7443,7 @@ module.exports = {
     "focus": {
       "gap": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/focus.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/focus.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -7461,11 +7461,11 @@ module.exports = {
         ]
       },
       "border": {
-        "value": "#0b96cc",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/focus.json",
+        "value": "#000000",
+        "filePath": "packages/tokens/src/tokens/zodio/color/focus.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-blue.500.value}"
+          "value": "{color.grey.999.value}"
         },
         "name": "ColorFocusBorder",
         "attributes": {
