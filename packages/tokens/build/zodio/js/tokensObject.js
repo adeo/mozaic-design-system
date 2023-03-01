@@ -11442,7 +11442,7 @@ module.exports = {
     "toggle": {
       "label": {
         "value": "#000000",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.999.value}"
@@ -11462,7 +11462,7 @@ module.exports = {
       "off": {
         "background": {
           "value": "#666666",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.600.value}"
@@ -11483,7 +11483,7 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -11505,11 +11505,11 @@ module.exports = {
       },
       "on": {
         "background": {
-          "value": "#927549",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "value": "#188803",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.success.600.value}"
           },
           "name": "ColorToggleOnBackground",
           "attributes": {
@@ -11527,7 +11527,7 @@ module.exports = {
         },
         "circle": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -11550,7 +11550,7 @@ module.exports = {
       "hover": {
         "circle": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -11572,11 +11572,11 @@ module.exports = {
       },
       "disabled": {
         "background": {
-          "value": "#e6e6e6",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "value": "#cccccc",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.100.value}"
+            "value": "{color.grey.200.value}"
           },
           "name": "ColorToggleDisabledBackground",
           "attributes": {
@@ -11593,11 +11593,11 @@ module.exports = {
           ]
         },
         "circle": {
-          "value": "#b3b3b3",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "value": "#666666",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.300.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorToggleDisabledCircle",
           "attributes": {
@@ -11615,7 +11615,7 @@ module.exports = {
         },
         "label": {
           "value": "#808080",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.500.value}"
@@ -11637,11 +11637,11 @@ module.exports = {
       },
       "disabled-checked": {
         "background": {
-          "value": "#f1e7d8",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "value": "#cccccc",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.200.value}"
+            "value": "{color.grey.200.value}"
           },
           "name": "ColorToggleDisabledCheckedBackground",
           "attributes": {
@@ -11658,11 +11658,11 @@ module.exports = {
           ]
         },
         "circle": {
-          "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/toggle.json",
+          "value": "#666666",
+          "filePath": "packages/tokens/src/tokens/zodio/color/toggle.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.000.value}"
+            "value": "{color.grey.600.value}"
           },
           "name": "ColorToggleDisabledCheckedCircle",
           "attributes": {
