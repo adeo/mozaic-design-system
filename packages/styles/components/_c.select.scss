@@ -7,7 +7,7 @@
   background-color: $color-input-background;
   background-repeat: no-repeat;
   background-size: $mu100 $mu100, $mu150 $mu150;
-  border: $select-border-width solid $select-border-color;
+  border: $select-border-width solid $color-input-border;
   border-radius: $select-border-radius;
   color: $color-input-text;
   transition: border-color 200ms ease, box-shadow 200ms ease;
@@ -18,7 +18,7 @@
   }
 
   &:hover {
-    border-color: $select-border-color-hover;
+    border-color: $color-input-hover-border;
   }
 
   &:focus {
@@ -26,9 +26,9 @@
   }
 
   &:disabled {
-    background-color: $select-disabled-background;
-    border-color: $select-disabled-border;
-    color: $select-disabled-color;
+    background-color: $color-input-disabled-background;
+    border-color: $color-input-disabled-border;
+    color: $color-input-placeholder;
     cursor: not-allowed;
     opacity: 1;
   }
