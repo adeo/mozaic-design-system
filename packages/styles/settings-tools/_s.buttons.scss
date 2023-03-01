@@ -2,6 +2,7 @@
 
 // Preset
 $preset-zodio: false;
+
 @if $preset == "zodio" {
   $preset-zodio: true;
 }
@@ -46,6 +47,7 @@ $button-sizes: (
 $button-medium: map-get($button-sizes, "m");
 $button-border: if($preset-zodio, get-border("s"), get-border("m"));
 $button-color-default: map-get(get-token(color, button, "solid"), "font");
+
 // Zodio properties
 $button-radius: if($preset-zodio, null, get-border-radius("m"));
 
@@ -112,6 +114,10 @@ $button-radius: if($preset-zodio, null, get-border-radius("m"));
     &:hover {
       @if map-has-key($hover-props, "background") {
         background-color: map-get($hover-props, "background");
+      }
+
+      @if map-has-key($hover-props, "border") {
+        border-color: map-get($hover-props, "border");
       }
 
       @if map-has-key($hover-props, "font") {
