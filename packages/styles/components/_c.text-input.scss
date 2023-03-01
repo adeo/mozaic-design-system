@@ -12,7 +12,7 @@
   border: get-border("s") solid $color-input-border;
   color: $color-input-text;
   background-color: $color-input-background;
-  border-radius: get-border-radius("m");
+  border-radius: $input-border-radius;
 
   &::placeholder {
     margin: 0;
