@@ -7764,11 +7764,11 @@ module.exports = {
     },
     "input": {
       "text": {
-        "value": "#191919",
+        "value": "#000000",
         "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.900.value}"
+          "value": "{color.grey.999.value}"
         },
         "name": "ColorInputText",
         "attributes": {
@@ -7927,11 +7927,11 @@ module.exports = {
       },
       "hover": {
         "border": {
-          "value": "#191919",
+          "value": "#000000",
           "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.900.value}"
+            "value": "{color.grey.999.value}"
           },
           "name": "ColorInputHoverBorder",
           "attributes": {
@@ -7973,11 +7973,11 @@ module.exports = {
       },
       "valid": {
         "border": {
-          "value": "#46a610",
+          "value": "#188803",
           "filePath": "packages/tokens/src/tokens/zodio/color/input.json",
           "isSource": true,
           "original": {
-            "value": "{color.success.500.value}"
+            "value": "{color.success.600.value}"
           },
           "name": "ColorInputValidBorder",
           "attributes": {
