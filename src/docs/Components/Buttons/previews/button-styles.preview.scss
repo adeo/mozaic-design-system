@@ -3,6 +3,8 @@
 @include import-font-families();
 html {
   @include set-font-face();
+
+  background: #eee;
 }
 @import "components/c.button";
 

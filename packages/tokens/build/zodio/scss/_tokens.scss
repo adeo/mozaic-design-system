@@ -138,8 +138,8 @@ $color-success-800: #035010 !default;
 $color-success-900: #023618 !default;
 $color-breadcrumb-arrow: #333333 !default;
 $color-breadcrumb-arrow-invert: #ffffff !default;
-$color-button-solid-background: #f8f3ec !default;
-$color-button-solid-font: #000000 !default;
+$color-button-solid-background: #695535 !default;
+$color-button-solid-font: #ffffff !default;
 $color-button-solid-focus-border: #4c3f29 !default;
 $color-button-solid-disabled-background: #cccccc !default;
 $color-button-solid-disabled-font: #666666 !default;
@@ -206,6 +206,84 @@ $color-button-bordered-danger-active-background: #f8bcbb !default;
 $color-button-bordered-danger-active-font: #530000 !default;
 $color-button-bordered-danger-hover-background: #fdeaea !default;
 $color-button-bordered-danger-hover-font: #8c0003 !default;
+$color-button-primary-background: #000000 !default;
+$color-button-primary-border: #000000 !default;
+$color-button-primary-font: #ffffff !default;
+$color-button-primary-hover-background: #333333 !default;
+$color-button-primary-hover-border: #333333 !default;
+$color-button-primary-hover-font: #ffffff !default;
+$color-button-primary-active-background: #4d4d4d !default;
+$color-button-primary-active-border: #4d4d4d !default;
+$color-button-primary-active-font: #ffffff !default;
+$color-button-primary-focus-border: #000000 !default;
+$color-button-primary-disabled-background: #cccccc !default;
+$color-button-primary-disabled-border: #cccccc !default;
+$color-button-primary-disabled-font: #666666 !default;
+$color-button-invert-background: #ffffff !default;
+$color-button-invert-border: #ffffff !default;
+$color-button-invert-font: #000000 !default;
+$color-button-invert-hover-background: #e6e6e6 !default;
+$color-button-invert-hover-border: #e6e6e6 !default;
+$color-button-invert-hover-font: #000000 !default;
+$color-button-invert-active-background: #cccccc !default;
+$color-button-invert-active-border: #cccccc !default;
+$color-button-invert-active-font: #000000 !default;
+$color-button-invert-focus-border: #000000 !default;
+$color-button-invert-disabled-background: #cccccc !default;
+$color-button-invert-disabled-border: #cccccc !default;
+$color-button-invert-disabled-font: #666666 !default;
+$color-button-secondary-background: #ffffff !default;
+$color-button-secondary-border: #000000 !default;
+$color-button-secondary-font: #000000 !default;
+$color-button-secondary-hover-background: #e6e6e6 !default;
+$color-button-secondary-hover-border: #000000 !default;
+$color-button-secondary-hover-font: #000000 !default;
+$color-button-secondary-active-background: #cccccc !default;
+$color-button-secondary-active-border: #000000 !default;
+$color-button-secondary-active-font: #000000 !default;
+$color-button-secondary-focus-border: #000000 !default;
+$color-button-secondary-disabled-background: #cccccc !default;
+$color-button-secondary-disabled-border: #cccccc !default;
+$color-button-secondary-disabled-font: #666666 !default;
+$color-button-accent-background: #f8f3ec !default;
+$color-button-accent-border: #f8f3ec !default;
+$color-button-accent-font: #000000 !default;
+$color-button-accent-hover-background: #b39465 !default;
+$color-button-accent-hover-border: #b39465 !default;
+$color-button-accent-hover-font: #000000 !default;
+$color-button-accent-active-background: #927549 !default;
+$color-button-accent-active-border: #927549 !default;
+$color-button-accent-active-font: #000000 !default;
+$color-button-accent-focus-border: #000000 !default;
+$color-button-accent-disabled-background: #cccccc !default;
+$color-button-accent-disabled-border: #cccccc !default;
+$color-button-accent-disabled-font: #666666 !default;
+$color-button-danger-background: #c61112 !default;
+$color-button-danger-border: #c61112 !default;
+$color-button-danger-font: #ffffff !default;
+$color-button-danger-hover-background: #530000 !default;
+$color-button-danger-hover-border: #530000 !default;
+$color-button-danger-hover-font: #ffffff !default;
+$color-button-danger-active-background: #2d0000 !default;
+$color-button-danger-active-border: #2d0000 !default;
+$color-button-danger-active-font: #ffffff !default;
+$color-button-danger-focus-border: #000000 !default;
+$color-button-danger-disabled-background: #cccccc !default;
+$color-button-danger-disabled-border: #cccccc !default;
+$color-button-danger-disabled-font: #666666 !default;
+$color-button-secondary-danger-background: #ffffff !default;
+$color-button-secondary-danger-border: #c61112 !default;
+$color-button-secondary-danger-font: #c61112 !default;
+$color-button-secondary-danger-hover-background: #e6e6e6 !default;
+$color-button-secondary-danger-hover-border: #c61112 !default;
+$color-button-secondary-danger-hover-font: #c61112 !default;
+$color-button-secondary-danger-active-background: #cccccc !default;
+$color-button-secondary-danger-active-border: #c61112 !default;
+$color-button-secondary-danger-active-font: #c61112 !default;
+$color-button-secondary-danger-focus-border: #000000 !default;
+$color-button-secondary-danger-disabled-background: #cccccc !default;
+$color-button-secondary-danger-disabled-border: #cccccc !default;
+$color-button-secondary-danger-disabled-font: #666666 !default;
 $color-card-bordered-background: #ffffff !default;
 $color-card-bordered-border: #808080 !default;
 $color-datatable-filters-border: #b3b3b3 !default;
@@ -467,10 +545,10 @@ $color-secondary-aw-bluedark: #315b4e !default;
 $color-secondary-loyalty-primary: #d48551 !default;
 $color-secondary-loyalty-secondary: #deccbd !default;
 $color-secondary-loyalty-minor: #666666 !default;
-$font-family: LeroyMerlin !default;
+$font-family: Lato !default;
 $font-weight-light: 300 !default;
 $font-weight-regular: 400 !default;
-$font-weight-semi-bold: 600 !default;
+$font-weight-semi-bold: 700 !default;
 $preset: zodio !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
@@ -918,6 +996,144 @@ $tokens: (
         'hover': (
           'background': $color-button-bordered-danger-hover-background,
           'font': $color-button-bordered-danger-hover-font
+        )
+      ),
+      'primary': (
+        'background': $color-button-primary-background,
+        'border': $color-button-primary-border,
+        'font': $color-button-primary-font,
+        'hover': (
+          'background': $color-button-primary-hover-background,
+          'border': $color-button-primary-hover-border,
+          'font': $color-button-primary-hover-font
+        ),
+        'active': (
+          'background': $color-button-primary-active-background,
+          'border': $color-button-primary-active-border,
+          'font': $color-button-primary-active-font
+        ),
+        'focus': (
+          'border': $color-button-primary-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-primary-disabled-background,
+          'border': $color-button-primary-disabled-border,
+          'font': $color-button-primary-disabled-font
+        )
+      ),
+      'invert': (
+        'background': $color-button-invert-background,
+        'border': $color-button-invert-border,
+        'font': $color-button-invert-font,
+        'hover': (
+          'background': $color-button-invert-hover-background,
+          'border': $color-button-invert-hover-border,
+          'font': $color-button-invert-hover-font
+        ),
+        'active': (
+          'background': $color-button-invert-active-background,
+          'border': $color-button-invert-active-border,
+          'font': $color-button-invert-active-font
+        ),
+        'focus': (
+          'border': $color-button-invert-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-invert-disabled-background,
+          'border': $color-button-invert-disabled-border,
+          'font': $color-button-invert-disabled-font
+        )
+      ),
+      'secondary': (
+        'background': $color-button-secondary-background,
+        'border': $color-button-secondary-border,
+        'font': $color-button-secondary-font,
+        'hover': (
+          'background': $color-button-secondary-hover-background,
+          'border': $color-button-secondary-hover-border,
+          'font': $color-button-secondary-hover-font
+        ),
+        'active': (
+          'background': $color-button-secondary-active-background,
+          'border': $color-button-secondary-active-border,
+          'font': $color-button-secondary-active-font
+        ),
+        'focus': (
+          'border': $color-button-secondary-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-secondary-disabled-background,
+          'border': $color-button-secondary-disabled-border,
+          'font': $color-button-secondary-disabled-font
+        )
+      ),
+      'accent': (
+        'background': $color-button-accent-background,
+        'border': $color-button-accent-border,
+        'font': $color-button-accent-font,
+        'hover': (
+          'background': $color-button-accent-hover-background,
+          'border': $color-button-accent-hover-border,
+          'font': $color-button-accent-hover-font
+        ),
+        'active': (
+          'background': $color-button-accent-active-background,
+          'border': $color-button-accent-active-border,
+          'font': $color-button-accent-active-font
+        ),
+        'focus': (
+          'border': $color-button-accent-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-accent-disabled-background,
+          'border': $color-button-accent-disabled-border,
+          'font': $color-button-accent-disabled-font
+        )
+      ),
+      'danger': (
+        'background': $color-button-danger-background,
+        'border': $color-button-danger-border,
+        'font': $color-button-danger-font,
+        'hover': (
+          'background': $color-button-danger-hover-background,
+          'border': $color-button-danger-hover-border,
+          'font': $color-button-danger-hover-font
+        ),
+        'active': (
+          'background': $color-button-danger-active-background,
+          'border': $color-button-danger-active-border,
+          'font': $color-button-danger-active-font
+        ),
+        'focus': (
+          'border': $color-button-danger-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-danger-disabled-background,
+          'border': $color-button-danger-disabled-border,
+          'font': $color-button-danger-disabled-font
+        )
+      ),
+      'secondary-danger': (
+        'background': $color-button-secondary-danger-background,
+        'border': $color-button-secondary-danger-border,
+        'font': $color-button-secondary-danger-font,
+        'hover': (
+          'background': $color-button-secondary-danger-hover-background,
+          'border': $color-button-secondary-danger-hover-border,
+          'font': $color-button-secondary-danger-hover-font
+        ),
+        'active': (
+          'background': $color-button-secondary-danger-active-background,
+          'border': $color-button-secondary-danger-active-border,
+          'font': $color-button-secondary-danger-active-font
+        ),
+        'focus': (
+          'border': $color-button-secondary-danger-focus-border
+        ),
+        'disabled': (
+          'background': $color-button-secondary-danger-disabled-background,
+          'border': $color-button-secondary-danger-disabled-border,
+          'font': $color-button-secondary-danger-disabled-font
         )
       )
     ),

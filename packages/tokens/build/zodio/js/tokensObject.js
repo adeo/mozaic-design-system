@@ -2710,11 +2710,11 @@ module.exports = {
     "button": {
       "solid": {
         "background": {
-          "value": "#f8f3ec",
+          "value": "#695535",
           "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.100.value}"
+            "value": "{color.primary-01.600.value}"
           },
           "name": "ColorButtonSolidBackground",
           "attributes": {
@@ -2731,11 +2731,11 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#000000",
+          "value": "#ffffff",
           "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.999.value}"
+            "value": "{color.grey.000.value}"
           },
           "name": "ColorButtonSolidFont",
           "attributes": {
@@ -2754,7 +2754,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#4c3f29",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -2779,7 +2779,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -2802,7 +2802,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -2827,7 +2827,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#4c3f29",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -2875,7 +2875,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -2901,7 +2901,7 @@ module.exports = {
       "solid-primary-02": {
         "background": {
           "value": "#6a7081",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
@@ -2922,7 +2922,7 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -2944,7 +2944,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#171b26",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
@@ -2969,7 +2969,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -2992,7 +2992,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3017,7 +3017,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#171b26",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
@@ -3042,7 +3042,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#242938",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.800.value}"
@@ -3065,7 +3065,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -3091,7 +3091,7 @@ module.exports = {
       "solid-neutral": {
         "background": {
           "value": "#333333",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -3112,7 +3112,7 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3134,7 +3134,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#191919",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -3159,7 +3159,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3182,7 +3182,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3207,7 +3207,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#333333",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.800.value}"
@@ -3232,7 +3232,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#191919",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -3255,7 +3255,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -3284,7 +3284,7 @@ module.exports = {
           "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.600.value}"
+            "value": "{color.danger.600.value}"
           },
           "name": "ColorButtonSolidDangerBackground",
           "attributes": {
@@ -3302,7 +3302,7 @@ module.exports = {
         },
         "font": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3324,7 +3324,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -3349,7 +3349,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3372,7 +3372,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3397,7 +3397,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -3445,7 +3445,7 @@ module.exports = {
           },
           "font": {
             "value": "#ffffff",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.000.value}"
@@ -3471,7 +3471,7 @@ module.exports = {
       "bordered": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3535,7 +3535,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#4c3f29",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -3560,7 +3560,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3583,7 +3583,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3608,7 +3608,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#f1e7d8",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.200.value}"
@@ -3631,7 +3631,7 @@ module.exports = {
           },
           "font": {
             "value": "#3b3120",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.800.value}"
@@ -3656,7 +3656,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#f8f3ec",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.100.value}"
@@ -3679,7 +3679,7 @@ module.exports = {
           },
           "font": {
             "value": "#4c3f29",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-01.700.value}"
@@ -3705,7 +3705,7 @@ module.exports = {
       "bordered-primary-02": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3726,7 +3726,7 @@ module.exports = {
         },
         "border": {
           "value": "#6a7081",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
@@ -3747,7 +3747,7 @@ module.exports = {
         },
         "font": {
           "value": "#6a7081",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.500.value}"
@@ -3769,7 +3769,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#171b26",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.900.value}"
@@ -3794,7 +3794,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -3817,7 +3817,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -3842,7 +3842,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#cfd2d8",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.200.value}"
@@ -3867,7 +3867,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#eeeff1",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.100.value}"
@@ -3893,7 +3893,7 @@ module.exports = {
       "bordered-neutral": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -3914,7 +3914,7 @@ module.exports = {
         },
         "border": {
           "value": "#333333",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -3935,7 +3935,7 @@ module.exports = {
         },
         "font": {
           "value": "#333333",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.800.value}"
@@ -3957,7 +3957,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#191919",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.900.value}"
@@ -3982,7 +3982,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -4005,7 +4005,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -4030,7 +4030,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -4055,7 +4055,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#e6e6e6",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.100.value}"
@@ -4081,7 +4081,7 @@ module.exports = {
       "bordered-danger": {
         "background": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
@@ -4145,7 +4145,7 @@ module.exports = {
         "focus": {
           "border": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.secondary-red.700.value}"
@@ -4170,7 +4170,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#cccccc",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.200.value}"
@@ -4193,7 +4193,7 @@ module.exports = {
           },
           "font": {
             "value": "#666666",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.grey.600.value}"
@@ -4218,7 +4218,7 @@ module.exports = {
         "active": {
           "background": {
             "value": "#f8bcbb",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.secondary-red.200.value}"
@@ -4241,7 +4241,7 @@ module.exports = {
           },
           "font": {
             "value": "#530000",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.800.value}"
@@ -4266,7 +4266,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#fdeaea",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.secondary-red.100.value}"
@@ -4289,7 +4289,7 @@ module.exports = {
           },
           "font": {
             "value": "#8c0003",
-            "filePath": "packages/tokens/src/tokens/leroymerlin/color/button.json",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
             "isSource": true,
             "original": {
               "value": "{color.danger.700.value}"
@@ -4307,6 +4307,1824 @@ module.exports = {
               "button",
               "bordered-danger",
               "hover",
+              "font"
+            ]
+          }
+        }
+      },
+      "primary": {
+        "background": {
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorButtonPrimaryBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "primary",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "primary",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorButtonPrimaryBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "primary",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "primary",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonPrimaryFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "primary",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "primary",
+            "font"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#333333",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorButtonPrimaryHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#333333",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorButtonPrimaryHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "hover",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonPrimaryHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "hover",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#4d4d4d",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.700.value}"
+            },
+            "name": "ColorButtonPrimaryActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "active",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#4d4d4d",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.700.value}"
+            },
+            "name": "ColorButtonPrimaryActiveBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "active",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "active",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonPrimaryActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "focus": {
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonPrimaryFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonPrimaryDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "disabled",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonPrimaryDisabledBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "disabled",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "disabled",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonPrimaryDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "primary",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "primary",
+              "disabled",
+              "font"
+            ]
+          }
+        }
+      },
+      "invert": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonInvertBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "invert",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "invert",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonInvertBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "invert",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "invert",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorButtonInvertFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "invert",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "invert",
+            "font"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorButtonInvertHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorButtonInvertHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "hover",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonInvertHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "hover",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonInvertActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "active",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonInvertActiveBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "active",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "active",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonInvertActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "focus": {
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonInvertFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonInvertDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "disabled",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonInvertDisabledBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "disabled",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "disabled",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonInvertDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "invert",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "invert",
+              "disabled",
+              "font"
+            ]
+          }
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonSecondaryBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorButtonSecondaryBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorButtonSecondaryFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary",
+            "font"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorButtonSecondaryHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonSecondaryHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "hover",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonSecondaryHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "hover",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSecondaryActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "active",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonSecondaryActiveBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "active",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "active",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonSecondaryActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "focus": {
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonSecondaryFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSecondaryDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "disabled",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSecondaryDisabledBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "disabled",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "disabled",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonSecondaryDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary",
+              "disabled",
+              "font"
+            ]
+          }
+        }
+      },
+      "accent": {
+        "background": {
+          "value": "#f8f3ec",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.100.value}"
+          },
+          "name": "ColorButtonAccentBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "accent",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "accent",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#f8f3ec",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.100.value}"
+          },
+          "name": "ColorButtonAccentBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "accent",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "accent",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#000000",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorButtonAccentFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "accent",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "accent",
+            "font"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#b39465",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.400.value}"
+            },
+            "name": "ColorButtonAccentHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#b39465",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.400.value}"
+            },
+            "name": "ColorButtonAccentHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "hover",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonAccentHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "hover",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#927549",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorButtonAccentActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "active",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#927549",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorButtonAccentActiveBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "active",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "active",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonAccentActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "focus": {
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonAccentFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonAccentDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "disabled",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonAccentDisabledBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "disabled",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "disabled",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonAccentDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "accent",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "accent",
+              "disabled",
+              "font"
+            ]
+          }
+        }
+      },
+      "danger": {
+        "background": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "ColorButtonDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "ColorButtonDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "danger",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonDangerFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "danger",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "danger",
+            "font"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#530000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.800.value}"
+            },
+            "name": "ColorButtonDangerHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#530000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.800.value}"
+            },
+            "name": "ColorButtonDangerHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "hover",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonDangerHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "hover",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#2d0000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.900.value}"
+            },
+            "name": "ColorButtonDangerActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "active",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#2d0000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.900.value}"
+            },
+            "name": "ColorButtonDangerActiveBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "active",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "active",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonDangerActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "focus": {
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonDangerFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonDangerDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "disabled",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonDangerDisabledBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "disabled",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "disabled",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonDangerDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "danger",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "danger",
+              "disabled",
+              "font"
+            ]
+          }
+        }
+      },
+      "secondary-danger": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonSecondaryDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary-danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary-danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "ColorButtonSecondaryDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary-danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary-danger",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "ColorButtonSecondaryDangerFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "secondary-danger",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "secondary-danger",
+            "font"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorButtonSecondaryDangerHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#c61112",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.600.value}"
+            },
+            "name": "ColorButtonSecondaryDangerHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "hover",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#c61112",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.600.value}"
+            },
+            "name": "ColorButtonSecondaryDangerHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "hover",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSecondaryDangerActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "active",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#c61112",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.600.value}"
+            },
+            "name": "ColorButtonSecondaryDangerActiveBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "active",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "active",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#c61112",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.600.value}"
+            },
+            "name": "ColorButtonSecondaryDangerActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "focus": {
+          "border": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorButtonSecondaryDangerFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSecondaryDangerDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "disabled",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSecondaryDangerDisabledBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "disabled",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "disabled",
+              "border"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/src/tokens/zodio/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonSecondaryDangerDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "secondary-danger",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "secondary-danger",
+              "disabled",
               "font"
             ]
           }
@@ -10120,11 +11938,11 @@ module.exports = {
   },
   "font": {
     "family": {
-      "value": "LeroyMerlin",
-      "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+      "value": "Lato",
+      "filePath": "packages/tokens/src/tokens/zodio/font.json",
       "isSource": true,
       "original": {
-        "value": "LeroyMerlin"
+        "value": "Lato"
       },
       "name": "FontFamily",
       "attributes": {
@@ -10139,7 +11957,7 @@ module.exports = {
     "weight": {
       "light": {
         "value": 300,
-        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+        "filePath": "packages/tokens/src/tokens/zodio/font.json",
         "isSource": true,
         "original": {
           "value": 300
@@ -10158,7 +11976,7 @@ module.exports = {
       },
       "regular": {
         "value": 400,
-        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+        "filePath": "packages/tokens/src/tokens/zodio/font.json",
         "isSource": true,
         "original": {
           "value": 400
@@ -10176,11 +11994,11 @@ module.exports = {
         ]
       },
       "semi-bold": {
-        "value": 600,
-        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+        "value": 700,
+        "filePath": "packages/tokens/src/tokens/zodio/font.json",
         "isSource": true,
         "original": {
-          "value": 600
+          "value": 700
         },
         "name": "FontWeightSemiBold",
         "attributes": {
