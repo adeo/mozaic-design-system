@@ -1,7 +1,7 @@
 /* mqp:start */
 .mc-button {
   @include unstyle-button();
-  @include set-button-theme(get-token(color, button, "solid"), true);
+  @include set-button-theme(get-token(color, button, "primary"), true);
   @include set-font-weight("semi-bold");
   @include set-button-size($button-medium);
   @include set-button-layout();
@@ -11,7 +11,9 @@
   fill: currentcolor;
 
   &:focus {
-    @include set-shadow-focus();
+    @include set-shadow-focus(
+      $color-focus-border: $color-button-primary-focus-border
+    );
   }
 
   // all sizes
@@ -78,7 +80,7 @@
   }
 
   @each $name, $props in $buttons {
-    @if $name != "solid" {
+    @if $name != "primary" {
       &--#{$name} {
         @include set-button-theme($props);
       }
