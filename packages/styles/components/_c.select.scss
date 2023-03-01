@@ -11,6 +11,7 @@
   border-radius: $select-border-radius;
   color: $color-input-text;
   transition: border-color 200ms ease, box-shadow 200ms ease;
+  font-weight: $select-font-weight;
   width: 100%;
 
   &::-ms-expand {
@@ -27,6 +28,7 @@
 
   &:disabled {
     background-color: $color-input-disabled-background;
+    background-image: $select-background-arrow-disabled;
     border-color: $color-input-disabled-border;
     color: $color-input-placeholder;
     cursor: not-allowed;
