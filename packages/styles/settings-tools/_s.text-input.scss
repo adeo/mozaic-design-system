@@ -1,19 +1,26 @@
 @use "sass:math";
+// Preset
+$preset-zodio: false;
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
 
+// Variables
 $input-border-width: 0.0625rem; // get-border('s');
-
 $input-sizes: (
   "s": (
-    "font-size": "04",
+    "font-size": if($preset-zodio, "05", "04"),
     "line-height": "m",
-    "padding-v": math.div($mu075, 2),
-    "padding-h": $mu050 - $input-border-width,
+    "padding-v": if($preset-zodio, $mu025, math.div($mu075, 2)),
+    "padding-h":
+      if($preset-zodio, px-to-rem(15), ($mu050 - $input-border-width)),
   ),
   "m": (
     "font-size": "05",
     "line-height": "m",
-    "padding-v": $mu075,
-    "padding-h": $mu075 - $input-border-width,
+    "padding-v": if($preset-zodio, $mu100, $mu075),
+    "padding-h":
+      if($preset-zodio, px-to-rem(15), ($mu075 - $input-border-width)),
   ),
 );
 $input-icon-sizes: (
@@ -32,6 +39,8 @@ $input-icon-sizes: (
 );
 $input-default-size: map-get($input-sizes, "m");
 $input-icon-default-size: map-get($input-icon-sizes, "m");
+// Zodio properties
+$input-border-radius: if($preset-zodio, null, get-border-radius("m"));
 
 @mixin set-input-size($sizeProps) {
   $padding-v: map-get($sizeProps, "padding-v");

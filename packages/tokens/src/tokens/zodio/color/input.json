@@ -2,7 +2,7 @@
   "color": {
     "input": {
       "text": {
-        "value": "{color.grey.900.value}"
+        "value": "{color.grey.999.value}"
       },
       "border": {
         "value": "{color.grey.600.value}"
@@ -29,7 +29,7 @@
       },
       "hover": {
         "border": {
-          "value": "{color.grey.900.value}"
+          "value": "{color.grey.999.value}"
         }
       },
       "focus": {
@@ -39,7 +39,7 @@
       },
       "valid": {
         "border": {
-          "value": "{color.success.500.value}"
+          "value": "{color.success.600.value}"
         },
         "hover": {
           "border": {
