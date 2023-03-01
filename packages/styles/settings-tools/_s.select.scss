@@ -1,31 +1,59 @@
+// Preset
+$preset-zodio: false;
+
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
+// Variables
 $select-border-width: get-border("s");
 $select-sizes: (
   "s": (
     "background-position-1": $mu050,
     "background-position-2": $mu200,
-    "font-size": "04",
-    "line-height": "s",
-    "padding-left": calc(#{$mu050} - #{$select-border-width}),
-    "padding-right": $mu200,
-    "padding-v": calc(#{$mu050} - #{$select-border-width}),
+    "font-size": if($preset-zodio, "05", "04"),
+    "line-height": if($preset-zodio, "m", "s"),
+    "padding-left":
+    if(
+      $preset-zodio,
+      px-to-rem(15),
+      calc(#{$mu050} - #{$select-border-width})
+    ),
+    "padding-right": px-to-rem(39),
+    "padding-v":
+    if($preset-zodio, $mu025, calc(#{$mu050} - #{$select-border-width})),
   ),
   "m": (
     "background-position-1": $mu100,
     "background-position-2": $mu250,
     "font-size": "05",
-    "line-height": "s",
-    "padding-left": calc(#{$mu075} - #{$select-border-width}),
-    "padding-right": $mu300,
-    "padding-v": calc(0.9375rem - #{$select-border-width}),
+    "line-height": if($preset-zodio, "m", "s"),
+    "padding-left":
+    if(
+      $preset-zodio,
+      px-to-rem(15),
+      calc(#{$mu075} - #{$select-border-width})
+    ),
+    "padding-right": px-to-rem(39),
+    "padding-v":
+    if($preset-zodio, $mu100, calc(0.9375rem - #{$select-border-width})),
   ),
 );
 $select-default-size: map-get($select-sizes, "m");
-$select-border-radius: get-border-radius("m");
 $select-background-arrow: url("#{inline-icons('arrow-down-16', $color-input-text)}");
 $select-background-valid: url("#{inline-icons('notification-circle-available-24', $color-input-valid-border)}");
 $select-background-valid-b64: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMS41cmVtIiB3aWR0aD0iMS41cmVtIiBmaWxsPSIjNDZhNjEwIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMiA0YTggOCAwIDExLTggOCA4IDggMCAwMTgtOG0wLTJhMTAgMTAgMCAxMDEwIDEwQTEwIDEwIDAgMDAxMiAyeiIvPjxwYXRoIGQ9Ik0xMC43MyAxNS43NWExIDEgMCAwMS0uNjgtLjI2bC0zLTIuNzRhMSAxIDAgMDExLjM2LTEuNDdsMi4yNSAyLjA4IDQuMzYtNC40MmExIDEgMCAxMTEuNDIgMS40MWwtNSA1LjFhMSAxIDAgMDEtLjcxLjN6Ii8+PC9zdmc+");
 $select-background-invalid: url("#{inline-icons('notification-warning-24', $color-input-invalid-border)}");
 $select-background-invalid-b64: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMS41cmVtIiB3aWR0aD0iMS41cmVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9IiNjNjExMTIiPjxwYXRoIGQ9Ik0xMiAyYTEwIDEwIDAgMTAxMCAxMEExMCAxMCAwIDAwMTIgMnptMCAxOGE4IDggMCAxMTgtOCA4IDggMCAwMS04IDh6Ii8+PHBhdGggZD0iTTEyIDdhMSAxIDAgMDAtMSAxdjQuMzhhMSAxIDAgMDAyIDBWOGExIDEgMCAwMC0xLTF6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxNiIgcj0iMSIvPjwvc3ZnPg==");
+
+// Zodio properties
+$select-border-radius: if($preset-zodio, null, get-border-radius("m"));
+$select-font-weight: if(
+  $preset-zodio,
+  map-get($font-weights, "semi-bold"),
+  null
+);
+$select-background-arrow-disabled: url("#{inline-icons('arrow-down-16', $color-input-placeholder)}");
 
 @mixin set-select-size($sizeProps) {
   $background-position-1: map-get($sizeProps, "background-position-1");
@@ -39,7 +67,8 @@ $select-background-invalid-b64: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0ia
     map-get($sizeProps, "line-height")
   );
 
-  background-position: right $background-position-1 center,
+  background-position:
+    right $background-position-1 center,
     right $background-position-2 center;
 
   // remove border height and center baseline optically
