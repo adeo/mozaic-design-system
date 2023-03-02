@@ -1,0 +1,39 @@
+// Preset
+$preset-zodio: false;
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
+// Variables
+$layer-padding-h-xs: if($preset-zodio, $mu100, $mu100);
+$layer-padding-h-l: if($preset-zodio, $mu100, $mu200);
+
+$layer-header-min-height-xs: if(
+  $preset-zodio,
+  px-to-rem(57),
+  magic-unit-rem(3.75, true)
+);
+$layer-header-min-height-l: if(
+  $preset-zodio,
+  px-to-rem(57),
+  magic-unit-rem(4.25, true)
+);
+
+$layer-header-padding-top-xs: if($preset-zodio, $mu100, $mu100);
+$layer-header-padding-top-l: if(
+  $preset-zodio,
+  $mu100,
+  magic-unit-rem(1.25, true)
+);
+$layer-header-padding-bottom-xs: if($preset-zodio, $mu100, $mu050);
+$layer-header-padding-bottom-l: if($preset-zodio, $mu100, $mu075);
+
+$layer-close-button-icon-name: if(
+  $preset-zodio,
+  "control-cross-24",
+  "control-cross-32"
+);
+$layer-close-button-size: if($preset-zodio, $mu150, $mu200);
+
+$layer-footer-padding-v-xs: if($preset-zodio, $mu125, $mu100);
+$layer-footer-padding-v-l: if($preset-zodio, $mu125, $mu150);

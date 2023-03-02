@@ -2,11 +2,12 @@
   $index: str-index($string, $search);
 
   @if $index {
-    @return str-slice($string, 1, $index - 1) + $replace + str-replace(
-      str-slice($string, $index + str-length($search)),
-      $search,
-      $replace
-    );
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
   }
 
   @return $string;
@@ -182,6 +183,10 @@ $encoding-reference: (
 
   @if $icon == "control-cross-16" {
     $svg: '<svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="#{$fill}" viewBox="0 0 16 16"><path d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z"/></svg>';
+  }
+
+  @if $icon == "control-cross-24" {
+    $svg: '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" fill="#{$fill}"><path d="M13.51 12l6.29-6.29a1 1 0 000-1.42 1 1 0 00-1.41 0l-6.3 6.3-6.29-6.3a1 1 0 00-1.41 0 1 1 0 000 1.42L10.68 12l-6.29 6.29a1 1 0 00.7 1.71 1 1 0 00.71-.29l6.29-6.3 6.3 6.3a1 1 0 00.7.29 1 1 0 00.71-.29 1 1 0 000-1.42z"/></svg>';
   }
 
   @if $icon == "control-cross-32" {
