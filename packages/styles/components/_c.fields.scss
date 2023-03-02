@@ -16,6 +16,13 @@
     padding-right: 0;
   }
 
+  &__legend,
+  &__help {
+    & + #{$parent}__container {
+      margin-top: $mu100;
+    }
+  }
+
   &__requirement,
   &__help {
     @include set-font-scale("02", "m");
@@ -41,8 +48,6 @@
   }
 
   &__container {
-    margin-top: $mu100;
-
     &--inline {
       @include set-from-screen("m-medium") {
         display: flex;
