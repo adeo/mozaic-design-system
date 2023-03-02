@@ -27,7 +27,7 @@ $background-color-content: #eeeef0;
   min-height: 100%;
 
   @include set-from-screen(l) {
-    background-size: calc(100% - 32px) auto;
+    background-size: calc(100% - 16px) auto;
   }
 
   p {

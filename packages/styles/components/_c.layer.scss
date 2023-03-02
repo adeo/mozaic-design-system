@@ -67,12 +67,12 @@
 
   &__header,
   &__footer {
-    padding-left: $mu100;
-    padding-right: $mu100;
+    padding-left: $layer-padding-h-xs;
+    padding-right: $layer-padding-h-xs;
 
     @include set-from-screen(l) {
-      padding-left: $mu200;
-      padding-right: $mu200;
+      padding-left: $layer-padding-h-l;
+      padding-right: $layer-padding-h-l;
     }
   }
 
@@ -85,15 +85,15 @@
 
     display: flex;
     align-items: center;
-    padding-bottom: $mu050;
-    padding-top: $mu100;
-    min-height: magic-unit-rem(3.75, true);
+    padding-bottom: $layer-header-padding-bottom-xs;
+    padding-top: $layer-header-padding-top-xs;
+    min-height: $layer-header-min-height-xs;
     position: relative;
 
     @include set-from-screen(l) {
-      padding-bottom: $mu075;
-      padding-top: magic-unit-rem(1.25, true);
-      min-height: magic-unit-rem(4.25, true);
+      padding-bottom: $layer-header-padding-bottom-l;
+      padding-top: $layer-header-padding-top-l;
+      min-height: $layer-header-min-height-l;
     }
   }
 
@@ -119,13 +119,13 @@
 
     align-self: flex-start;
     background-color: transparent;
-    background-image: url("#{inline-icons('control-cross-32', $color-grey-500)}");
+    background-image: url("#{inline-icons($layer-close-button-icon-name, $color-dialog-close)}");
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
-    height: $mu200;
+    height: $layer-close-button-size;
     margin-left: auto;
-    width: $mu200;
+    width: $layer-close-button-size;
 
     &-text {
       @include set-hidden-input();
@@ -138,13 +138,14 @@
 
   &__body {
     flex: 1 1;
+    color: $color-font-darker;
     overflow: hidden;
-    padding-left: math.div($mu100, 2);
-    padding-right: math.div($mu100, 2);
+    padding-left: math.div($layer-padding-h-xs, 2);
+    padding-right: math.div($layer-padding-h-xs, 2);
 
     @include set-from-screen(l) {
-      padding-left: math.div($mu200, 2);
-      padding-right: math.div($mu200, 2);
+      padding-left: math.div($layer-padding-h-l, 2);
+      padding-right: math.div($layer-padding-h-l, 2);
     }
 
     &--overflowing,
@@ -161,12 +162,12 @@
       padding-right: 0;
 
       #{$parent}__content {
-        padding-left: $mu100;
+        padding-left: $layer-padding-h-xs;
         padding-right: magic-unit-rem(1.125, true);
 
         @include set-from-screen(l) {
-          padding-left: $mu200;
-          padding-right: $mu200;
+          padding-left: $layer-padding-h-l;
+          padding-right: $layer-padding-h-l;
         }
       }
     }
@@ -182,13 +183,13 @@
     max-height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: $mu150 math.div($mu100, 2) $mu300;
+    padding: $mu150 math.div($layer-padding-h-xs, 2) $mu300;
     scrollbar-color: $color-grey-600 $color-grey-100;
     scrollbar-width: thin;
 
     @include set-from-screen(l) {
-      padding-left: math.div($mu200, 2);
-      padding-right: math.div($mu200, 2);
+      padding-left: math.div($layer-padding-h-l, 2);
+      padding-right: math.div($layer-padding-h-l, 2);
     }
 
     &::-webkit-scrollbar {
@@ -205,8 +206,8 @@
     display: flex;
     flex-direction: column;
     padding: {
-      top: $mu100;
-      bottom: $mu100;
+      top: $layer-footer-padding-v-xs;
+      bottom: $layer-footer-padding-v-xs;
     }
 
     @include set-from-screen(l) {
@@ -214,8 +215,8 @@
       flex-direction: row;
       justify-content: center;
       padding: {
-        top: $mu150;
-        bottom: $mu150;
+        top: $layer-footer-padding-v-l;
+        bottom: $layer-footer-padding-v-l;
       }
     }
 

@@ -6450,7 +6450,7 @@ module.exports = {
     "dialog": {
       "background": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/dialog.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
@@ -6469,7 +6469,7 @@ module.exports = {
       },
       "icon": {
         "value": "#666666",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
+        "filePath": "packages/tokens/src/tokens/zodio/color/dialog.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.600.value}"
@@ -6487,11 +6487,11 @@ module.exports = {
         ]
       },
       "close": {
-        "value": "#808080",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
+        "value": "#000000",
+        "filePath": "packages/tokens/src/tokens/zodio/color/dialog.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.500.value}"
+          "value": "{color.grey.999.value}"
         },
         "name": "ColorDialogClose",
         "attributes": {
@@ -6508,7 +6508,7 @@ module.exports = {
       "footer": {
         "shadow": {
           "value": "#191919",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/dialog.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/dialog.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
