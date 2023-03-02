@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.15...v2.0.0-beta.15) (2023-03-02)
+
+
+### Features
+
+* **foundations/colours:** update tokens ([1ef4057](https://github.com/adeo/mozaic-design-system/commit/1ef4057be7243f65b1804e7abb580d4818bceeaa))
+* **foundations/colours:** zodio - set tokens for checkbox component ([99aa697](https://github.com/adeo/mozaic-design-system/commit/99aa69750f284e7c1fab1c7e76280e79d2552185))
+* **foundations/colours:** zodio - set tokens for component Accordion ([fc51181](https://github.com/adeo/mozaic-design-system/commit/fc51181828dfe539be66a527247cfdd7209d41f6))
+* **foundations/colours:** zodio - set tokens for component Button ([ed8dd68](https://github.com/adeo/mozaic-design-system/commit/ed8dd685f92f71963fb68dadd0979d03e3ec1b82))
+* **foundations/colours:** zodio - set tokens for component Button ([d3c90fd](https://github.com/adeo/mozaic-design-system/commit/d3c90fd6e5b08e5548e347724d40f97d2a4480ea))
+* **foundations/colours:** zodio - set tokens for component Layer ([75d98f5](https://github.com/adeo/mozaic-design-system/commit/75d98f58c9edf962af330faacc4e8ae84a186387))
+* **foundations/colours:** zodio - set tokens for component Select ([973913b](https://github.com/adeo/mozaic-design-system/commit/973913bcb2c8ff54467b57705e0c8b71707b6730))
+* **foundations/colours:** zodio - set tokens for component Text Input ([8d07d6d](https://github.com/adeo/mozaic-design-system/commit/8d07d6dca2bcb8fcc41f34fc1f8248d5da3396b4))
+* **foundations/colours:** zodio - set tokens for component Toggle ([aa63bfc](https://github.com/adeo/mozaic-design-system/commit/aa63bfc33f2fb2794aaf73b3eb85ecc4a1f1a5dd))
+* **foundations/colours:** zodio - set tokens for focus pattern ([9197bfb](https://github.com/adeo/mozaic-design-system/commit/9197bfb6de6822838100d0358f92564b6ae13926))
+* **foundations/colours:** zodio - set tokens for notifications component ([7a627ae](https://github.com/adeo/mozaic-design-system/commit/7a627ae0d8a9d5f675a8d1659b170670ff477b4d))
+* **foundations/colours:** zodio - set tokens for radio component ([14c53e2](https://github.com/adeo/mozaic-design-system/commit/14c53e2b12b290b0ae2a8e72a2bca4ff4cde153d))
+* **preset/zodio:** add new preset for Zôdio ([79e0802](https://github.com/adeo/mozaic-design-system/commit/79e08029a3499f7d392cb2169014c782a0d84291))
+* **preset/zodio:** load Lato font from Google Fonts ([7a33c77](https://github.com/adeo/mozaic-design-system/commit/7a33c77127df4991fbd6796d12f743a5f4d471d9))
+* **preset/zodio:** remove [@include](https://github.com/include) import-font-families() ([49a36d0](https://github.com/adeo/mozaic-design-system/commit/49a36d0c72f47feed0ee11e3dd14b7a4983c66ca))
+
+
+
+
+
 # [2.0.0-rc.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.14...v2.0.0-rc.15) (2023-02-23)
 
 
