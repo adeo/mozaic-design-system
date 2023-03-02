@@ -4,7 +4,7 @@
   $parent: get-parent-selector(&);
 
   background-color: $color-grey-000;
-  border-bottom: get-border(s) solid $color-font-light;
+  border-bottom: get-border(s) solid $accordion-border;
 
   @include set-accordion-size($accordion-default-size, $parent);
 
@@ -120,7 +120,7 @@
   &__title {
     @include set-font-weight("semi-bold");
 
-    color: $color-font-darker;
+    color: $accordion-title-color;
     width: 100%;
     margin: {
       top: 0;
@@ -148,8 +148,8 @@
     line-height: inherit;
     display: flex;
     align-items: center;
-    gap: $mu050;
-    padding-left: $mu050;
+    gap: $accordion-padding-left;
+    padding-left: $accordion-padding-left;
     text-align: left;
     width: 100%;
 
