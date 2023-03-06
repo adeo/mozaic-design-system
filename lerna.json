@@ -1,18 +1,13 @@
 {
-  "version": "1.46.0",
+  "version": "1.54.0",
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "ignored-file",
-        "*.md"
-      ],
+      "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish"
     }
   },
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "publishConfig": {
     "access": "public"
   },

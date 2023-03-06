@@ -1,0 +1,10 @@
+contact_links:
+  - name: Open an issue for Mozaic-React
+    url: https://github.com/adeo/mozaic-react/issues
+    about: If your request is for the React implementation of Mozaic, please go to the dedicated repository.
+  - name: Open an issue for Mozaic-Vue
+    url: https://github.com/adeo/mozaic-vue/issues
+    about: If your request is for the Vue.js implementation of Mozaic, please go to the dedicated repository.
+  - name: Open an issue for Mozaic-WebComponents
+    url: https://github.com/adeo/mozaic-web-components/issues
+    about: If your request is for the Web Components implementation of Mozaic, please go to the dedicated repository.

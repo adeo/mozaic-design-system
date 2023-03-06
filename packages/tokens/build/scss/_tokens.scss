@@ -273,11 +273,12 @@ $color-heading-underline-lightest: #c5e39e !default;
 $color-hero-cover-background: #191919 !default;
 $color-input-text: #191919 !default;
 $color-input-border: #666666 !default;
-$color-input-placeholder: #808080 !default;
+$color-input-placeholder: #666666 !default;
 $color-input-background: #ffffff !default;
-$color-input-disabled-border: #e6e6e6 !default;
 $color-input-disabled-background: #e6e6e6 !default;
+$color-input-disabled-border: #e6e6e6 !default;
 $color-input-disabled-icon: #999999 !default;
+$color-input-disabled-label: #808080 !default;
 $color-input-hover-border: #191919 !default;
 $color-input-focus-border: #0b96cc !default;
 $color-input-valid-border: #46a610 !default;
@@ -341,6 +342,8 @@ $color-option-card-label-shadow: #b3b3b3 !default;
 $color-option-card-hover-label-shadow: #333333 !default;
 $color-option-card-checked-label-border: #46a610 !default;
 $color-option-card-checked-label-shadow: #ebf5de !default;
+$color-option-card-disabled-content: #cccccc !default;
+$color-option-card-disabled-label: #666666 !default;
 $color-overlay-background: #191919 !default;
 $color-overlay-loader-background: #191919 !default;
 $color-password-input-button-hover-background: #e6e6e6 !default;
@@ -428,6 +431,7 @@ $color-tag-removable-dark-text: #191919 !default;
 $color-tag-removable-dark-icon: #191919 !default;
 $color-tag-removable-dark-hover-background: #b3b3b3 !default;
 $color-tag-removable-dark-active-background: #999999 !default;
+$color-toggle-label: #000000 !default;
 $color-toggle-off-background: #666666 !default;
 $color-toggle-off-circle: #ffffff !default;
 $color-toggle-on-background: #46a610 !default;
@@ -435,6 +439,7 @@ $color-toggle-on-circle: #ffffff !default;
 $color-toggle-hover-circle: #e6e6e6 !default;
 $color-toggle-disabled-background: #e6e6e6 !default;
 $color-toggle-disabled-circle: #b3b3b3 !default;
+$color-toggle-disabled-label: #808080 !default;
 $color-toggle-disabled-checked-background: #c5e39e !default;
 $color-toggle-disabled-checked-circle: #ffffff !default;
 $color-tooltip-background: #4d4d4d !default;
@@ -989,9 +994,10 @@ $tokens: (
       'placeholder': $color-input-placeholder,
       'background': $color-input-background,
       'disabled': (
-        'border': $color-input-disabled-border,
         'background': $color-input-disabled-background,
-        'icon': $color-input-disabled-icon
+        'border': $color-input-disabled-border,
+        'icon': $color-input-disabled-icon,
+        'label': $color-input-disabled-label
       ),
       'hover': (
         'border': $color-input-hover-border
@@ -1129,6 +1135,10 @@ $tokens: (
           'border': $color-option-card-checked-label-border,
           'shadow': $color-option-card-checked-label-shadow
         )
+      ),
+      'disabled': (
+        'content': $color-option-card-disabled-content,
+        'label': $color-option-card-disabled-label
       )
     ),
     'overlay': (
@@ -1333,6 +1343,7 @@ $tokens: (
       )
     ),
     'toggle': (
+      'label': $color-toggle-label,
       'off': (
         'background': $color-toggle-off-background,
         'circle': $color-toggle-off-circle
@@ -1346,7 +1357,8 @@ $tokens: (
       ),
       'disabled': (
         'background': $color-toggle-disabled-background,
-        'circle': $color-toggle-disabled-circle
+        'circle': $color-toggle-disabled-circle,
+        'label': $color-toggle-disabled-label
       ),
       'disabled-checked': (
         'background': $color-toggle-disabled-checked-background,

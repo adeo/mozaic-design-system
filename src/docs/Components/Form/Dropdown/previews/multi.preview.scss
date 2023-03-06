@@ -1,5 +1,7 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+@import "components/c.checkbox";
+@import "components/c.select";
 @import "components/c.tag";
 @import "components/c.listbox";
 @import "components/c.dropdown";
@@ -10,4 +12,6 @@
   height: 250px;
   margin: $mu200 0;
   padding: 0 $mu200;
+  display: flex;
+  justify-content: center;
 }

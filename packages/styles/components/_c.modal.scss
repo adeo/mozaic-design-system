@@ -77,8 +77,9 @@
 
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    gap: $mu075;
     margin-bottom: $mu100;
+    min-height: px-to-rem(60);
     padding: $mu075 $mu075 $mu075 $mu100;
     position: relative;
 
@@ -87,6 +88,12 @@
       padding-right: $mu100;
       padding-left: $mu150;
     }
+  }
+
+  &__icon {
+    fill: $color-dialog-icon;
+    height: $mu150;
+    width: $mu150;
   }
 
   &__title {
@@ -102,12 +109,15 @@
     @include unstyle-button();
     @include set-focus-floating-base();
 
-    flex-shrink: 0;
-    height: $mu200;
-    width: $mu200;
+    align-self: flex-start;
     background: transparent
       url(inline-icons("control-cross-32", $color-dialog-close)) no-repeat;
     background-size: contain;
+    cursor: pointer;
+    height: $mu200;
+    flex-shrink: 0;
+    margin-left: auto;
+    width: $mu200;
 
     &-text {
       @include set-hidden-input();

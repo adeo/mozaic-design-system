@@ -1,0 +1,119 @@
+<div class="example">
+  <div class="mc-dropdown mc-dropdown--clearable">
+    <div class="mc-dropdown__main">
+      <!-- Trigger -->
+      <button
+        type="button"
+        id="trigger"
+        class="mc-select mc-dropdown__trigger is-invalid"
+        aria-haspopup="listbox"
+        title="Dropdown menu options"
+        aria-expanded="false"
+      >
+        Placeholder
+      </button>
+
+      <!-- Clear Button -->
+      <button class="mc-dropdown__clear" type="button">
+        <svg class="mc-dropdown__clear-icon">
+          <use xlink:href="#ControlTagCross24" />
+        </svg>
+        <span class="mc-dropdown__clear-text">Clear</span>
+      </button>
+    </div>
+
+    <!-- Listbox -->
+    <ul id="listbox" class="mc-listbox" role="listbox">
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem1"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option1"
+        />
+        <label for="monoItem1" class="mc-listbox__label">
+          Option label n°1
+        </label>
+      </li>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem2"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option2"
+        />
+        <label for="monoItem2" class="mc-listbox__label">
+          Option label n°2
+        </label>
+      </li>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem3"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option3"
+        />
+        <label for="monoItem3" class="mc-listbox__label">
+          Option label n°3
+        </label>
+      </li>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem4"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option4"
+        />
+        <label for="monoItem4" class="mc-listbox__label">
+          Option label n°4
+        </label>
+      </li>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem5"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option5"
+        />
+        <label for="monoItem5" class="mc-listbox__label">
+          Option label n°5
+        </label>
+      </li>
+      <li class="mc-listbox__tile" role="option">
+        <input
+          id="monoItem6"
+          type="radio"
+          name="monoSelection"
+          class="mc-listbox__input"
+          value="option6"
+        />
+        <label for="monoItem6" class="mc-listbox__label">
+          Option label n°6
+        </label>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="ControlTagCross24" viewBox="0 0 24 24">
+    <path
+      d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4.14 12.7a1 1 0 01-1.41 1.42l-2.68-2.68-2.78 2.77a1 1 0 11-1.41-1.42L10.63 12 7.79 9.21a1 1 0 111.42-1.42l2.84 2.83 2.74-2.74a1 1 0 111.42 1.42L13.46 12z"
+    />
+  </symbol>
+</svg>
+
+<!-- scripts -->
+<script>
+  const action = document.getElementById('trigger')
+
+  action.addEventListener('click', function (e) {
+    const list = document.getElementById('listbox')
+    list.classList.toggle('is-open')
+  })
+</script>

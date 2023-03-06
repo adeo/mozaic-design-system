@@ -1,6 +1,8 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
+@import "components/c.select";
 @import "components/c.listbox";
+@import "components/c.loader";
 @import "components/c.dropdown";
 
 .example {

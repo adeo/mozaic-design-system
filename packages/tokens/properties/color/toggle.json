@@ -1,6 +1,9 @@
 {
   "color": {
     "toggle": {
+      "label": {
+        "value": "{color.grey.999.value}"
+      },
       "off": {
         "background": {
           "value": "{color.grey.600.value}"
@@ -28,6 +31,9 @@
         },
         "circle": {
           "value": "{color.grey.300.value}"
+        },
+        "label": {
+          "value": "{color.grey.500.value}"
         }
       },
       "disabled-checked": {

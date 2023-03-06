@@ -1,21 +1,21 @@
 {
   "name": "@mozaic-ds/css-dev-tools",
-  "version": "1.44.0",
+  "version": "1.54.0",
   "dependencies": {
     "@csstools/postcss-sass": "^5.0.1",
     "@fullhuman/postcss-purgecss": "^5.0.0",
-    "@mozaic-ds/configuration-manager": "^1.13.1",
-    "@mozaic-ds/postcss-media-queries-packer-on-demand": "^1.44.0",
-    "@mozaic-ds/postcss-prepend": "^1.44.0",
-    "@mozaic-ds/stylelint-plugin-mozaic": "^1.29.1",
-    "autoprefixer": "^10.4.12",
-    "cssnano": "^5.1.13",
+    "@mozaic-ds/configuration-manager": "^1.54.0",
+    "@mozaic-ds/postcss-media-queries-packer-on-demand": "^1.47.0",
+    "@mozaic-ds/postcss-prepend": "^1.47.0",
+    "@mozaic-ds/stylelint-plugin-mozaic": "^1.50.0",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
     "dotenv": "^16.0.3",
-    "postcss": "^8.4.17",
+    "postcss": "^8.4.18",
     "postcss-base64": "^0.7.1",
     "postcss-reporter": "^7.0.5",
     "postcss-scss": "^4.0.5",
-    "stylelint": "^14.13.0",
-    "stylelint-config-standard-scss": "^5.0.0"
+    "stylelint": "^14.14.1",
+    "stylelint-config-standard-scss": "^6.1.0"
   }
 }

@@ -1,23 +1,24 @@
-$badges: get-token(color, badge);
+@use "sass:math";
 
+$badges: get-token(color, badge);
 $badge-border: get-border("s");
 
 @mixin set-badge-base {
   @include set-border-radius();
 
   border: $badge-border solid transparent;
-  display: inline-flex;
-  align-items: center;
-  padding: 0 $mu050;
-  margin: 0;
-  vertical-align: middle;
-  min-height: 1.375rem;
-  flex-shrink: 0;
+  display: inline-block;
+  padding: math.div($mu025, 2) math.div($mu175, 4); // =2px 7px
+  text-transform: lowercase;
   white-space: nowrap;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
 }
 
 @mixin set-badge-theme($props) {
-  color: map-get($props, "text");
-  border-color: map-get($props, "border");
   background-color: map-get($props, "background");
+  border-color: map-get($props, "border");
+  color: map-get($props, "text");
 }

@@ -131,26 +131,39 @@ Depending on your use cases, you have the possibility to use the **Autocomplete*
 
 The **Autocomplete** component in its **"mono-selection"** version allows you to select only one value at a time within the listbox.
 
-<Preview path="default" />
+<Preview path="default" nude />
 
 ### Autocomplte - multi-selection
 
 The **Autocomplete** component in its **"multi-selection"** version allows you to select several values within the listbox.
 
-<Preview path="multi" />
+<Preview path="multi" nude />
+
+<Highlight>
+
+When using the component with a clear button, you must add the class `mc-autocomplete--clearable` on the main `mc-autocomplete` element to ensure that the text field and the clear button are displayed correctly.
+
+</Highlight>
 
 ## States
 
+### Invalid
+
+To indicate that the **Autocomplete** component is in an invalid state, you have to add the `is-invalid` class to the `mc-autocomplete__trigger` element.
+
+<Preview path="invalid" nude />
+
 ### Disabled
 
-To disable the autocomplete component you have to add `disabled` attribut to the `mc-listbox__trigger` element.
+To disable the **Autocomplete** component you have to add the `disabled` attribut to the `mc-autocomplete__trigger` element.
 
-<Preview path="disabled" />
+<Preview path="disabled" nude />
 
 ## Behaviour
 
 <Highlight theme="warning">
 
-The autocomplete navigation has to be done using javascript.
+- The autocomplete navigation has to be done using javascript.
+- The clear button appears only when the users start to type or pick a value.
 
 </Highlight>
