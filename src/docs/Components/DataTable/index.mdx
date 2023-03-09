@@ -1,21 +1,24 @@
 ---
 title: 'DataTable'
 order: 1
-description: 'The DataTable is a complex and multi-usage component. It provides a structure to display many items and edit them easily through some features.'
+description: 'The Datatable is used to present a large set of data organised in rows and columns.'
 status:
   figma: 'ready'
   scss: 'ready'
 ---
 
-> The DataTable is a complex and multi-usage component. It provides a structure to display many items and edit them easily through some features.
+> The Datatable is used to present a large set of data organised in rows and columns.  
+By structuring data in this format, tables provide an intuitive and efficient way to scan and analyse complex amounts of information.  
+In addition, DataTable has built-in paging, sorting and filtering features, making it a powerful tool.
 
 <Preview path="default" nude />
 
 ## Structure
 
-### Header
+### Topbar
 
-The header section allows users to edit, filter, set up or make actions.
+The topbar section allows users to edit, filter, set up or make actions.  
+Each element of the topbar is optionnal, as the topbar itself.
 
 <Preview path="header-only" nude />
 
@@ -23,11 +26,13 @@ The header section allows users to edit, filter, set up or make actions.
 
 Allow the user to interact with selected items.
 
-| Feature                     | Usage                               | Preview |
-| --------------------------- | ----------------------------------- | ------- |
-| **Edit selection**          | Only available with selected rows   |         |
-| **Download**                | Download table or selected rows     |         |
-| **Number of selected rows** | Display the number of selected rows |         |
+| Feature                     | Usage                               | Note |
+| --------------------------- | ------------------------------------ | ------- |
+| **Edit selection**          | Allow to edit data on selected items | Only available when rows are selected |
+| **Download**                | Download table or selected rows      |         |
+| **Number of selected rows** | Display the number of selected rows  | Refers to mass selection for more information|
+
+In order to maintain consistency, styles, labels and icon are NOT customizable.
 
 #### Filter
 
@@ -37,7 +42,17 @@ Allow the user to interact with selected items.
 | **Search input**  | Filter rows with keywords (Please be explicit for user) |         |
 | **Filter button** | Open filters layer                                      |         |
 
-#### Option
+#### Filter active
+
+When filters are applied to the table, they are displayed between the topbar and the data content.  
+In order to ensure visibility for the user and to allow to easily remove them, these filters are presented using removable [Tags](/Components/Tags/).  
+A reset button allows them all to be removed.
+
+<!-- Add preview -->
+
+An empty state must be defined if there are no results.
+
+#### Settings
 
 Allow the user to set up the display of the datatable layout.
 
@@ -45,16 +60,27 @@ Allow the user to set up the display of the datatable layout.
 | ------------ | ------------------------------------------------------------------------------------------------------------ | ------- |
 | **Settings** | Access to table edition like edit columns (reorder, show/hide) or change display density (size of the cells) |         |
 
-#### Action
+#### Actions
 
 | Feature                      | Preview |
 | ---------------------------- | ------- |
 | **Validation action**        |         |
 | **Rejected/Negative action** |         |
 
+Note that these actions relate to the data in the table.  
+This can be useful for validating an item or adding a line. By default, 2 types of buttons are available:
+- a primary solid button for main action
+- a danger bordered button for negative action
+
+These buttons can be customised, taking care to respect good UX practices and the uses defined in the design system.
+For more global actions related to a process or a business gesture, it is recommended to use the bottom bar.
+
 ### Data content
 
-The Datatable allows to display several types of data.
+#### Columns
+
+The Datatable allows to display several types of data.  
+To ensure optimal readability of the whole data set, it is strongly recommended to display only one data type per column.
 
 | Data                                  | Usage                                                                                                                         | Width behaviour        |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -70,6 +96,34 @@ The Datatable allows to display several types of data.
 | **KPI**                               | Display a progression indicator                                                                                               | Adapted to the content |
 | **Expand**                            | Display sub-items or details about an item (Only one column per table, always in first position or after the checkbox column) | Fixed                  |
 
+#### Rows
+
+In a table, a row corresponds to an item.  
+The columns can then be used to list different types of data related to that particular object such as status, description or numeric values.  
+A row cannot be selected without a checkbox. Once selected, the row changes its state, displaying a selected checkbox and a different colour background.
+
+<!-- Add preview -->
+
+Subrows provide more details on an item. They are therefore neither selectable nor editable as an object.
+
+#### Labels
+
+Labels are always at the top of the table and always in capitals to differentiate them from the data.  
+They can be fixed when scrolling.  
+A checkbox at label level allows all rows to be selected.
+As a common and usual practice, the reordering feature is located next to each label.
+
+#### Mass selection
+
+Mass selection is possible thanks to the checkbox at the level of the labels.  
+First, all rows of the displayed page are selected. A banner appears giving the possibility to select all the rows of the table.  
+When clicked, all rows of the table are selected. The banner is still displayed but this time it allows to clear the selection.
+
+#### Empty state
+
+As mentioned with the filters, an empty state must be defined if there are no results.  
+The message can be edited to fit the context. It should be easily understood by the user, avoiding technical jargon for example.
+
 ### Footer
 
 The DataTable footer is placed at the bottom of the component and contains the elements that allow you to manage the navigation and pagination of the table.
@@ -81,6 +135,8 @@ The DataTable footer is placed at the bottom of the component and contains the e
 | ** Rows's number selector**               | Allow to choose the number of row to display          |         |
 | **Displayed rows indicator**              | Display the page's rows and the total number of rows  |         |
 | [**Pagination**](/Components/Pagination/) | Allow to navigate to the other pages of the datatable |         |
+
+As it is impossible to be 100% sure how many items will be displayed, it is strongly recommended to always display the footer.
 
 ## Variations
 
@@ -94,6 +150,14 @@ Each cells are available in 3 sizes.
 | Medium (default) | 3mu (48px)   |
 | Large            | 3.5mu (56px) |
 
+## Layout
+
+In order to avoid double scrolling, we recommend 2 ways of defining the height of the datatable: either by the size of the viewport, or by the number of rows displayed.
+
+<Highlight theme="warning" title="Responsive">
+  For now, the Datatable component is only available for desktop use.
+</Highlight>
+
 ## How to use
 
 <Highlight theme="warning" title="Work in progress">
@@ -103,8 +167,14 @@ Each cells are available in 3 sizes.
 
 ## Do's and Dont's
 
+<HintItem>
+  Use capital letters only for labels not for data.
+</HintItem>
+
 <HintItem dont>
   Never combine different sizes of cells inside the same datatable.
 </HintItem>
 
-<HintItem dont>Never use more than one quick filter.</HintItem>
+<HintItem dont>
+Never use more than one quick filter.
+</HintItem>
