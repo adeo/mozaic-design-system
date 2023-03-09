@@ -1,130 +1,48 @@
 ---
 title: 'Colours'
 order: 1
-description: 'Mozaic offers an adaptive and scalable colour system. The colour palette has been divided into four categories: Primary colours, Secondary colours, Greys and Status colours.'
+description: 'ADEO Design System offers an adaptive and scalable colour system based on UI rules to maintain consistency, harmony and a high level of accessibility for our users.'
 status:
   figma: 'ready'
   scss: 'ready'
 ---
 
-> Mozaic offers an adaptive and scalable colour system. The colour palette has been divided into four categories: **Primary colours**, **Secondary colours**, **Greys** and **Status colours**.
+> ADEO Design System offers an adaptive and scalable colour system based on UI rules to maintain consistency, harmony and a high level of accessibility for our users.
 
-<Highlight theme="warning" title="Be aware">
+## Fundamentals
 
-You will discover that colours are duplicated in some cases. This may seem strange to you, but we need to think about other brands and cultures to allow them to customize the colours.
+As a Customer-centric company, users must be our priority. To help the product teams and optimise their worlflow, thinking and choices, some functional colours have been designed to cover the different UI elements like texts, backgrounds and so on, and then, improve the user experience.
+Thanks to follow and apply the colour rules provided by the design system to keep a consistency between the products.
+Based on the 60-30-10 Rule, we set up a functional colour palette to revalorise the brand colour or the specific actions depending on the brand and its branding.
 
-For example, the success colour may not be green in another country, and the primary brand colour may not be usable for success with another brand.
+### The 60–30–10 Rule
 
-**It is why you should take special care to use the right colour variable for the right usage.**
+We use the rule to apply a well-balanced colour system across the ADEO's products. 60% of an interface should use a neutral colour, 30% should use a primary or secondary colour and 10% should use an accent colour.
 
-</Highlight>
+| Degree | Usages |
+| -- | -- |
+| 60% | Background, texts, icons |
+| 30% | Common actions, minor actions, navigation |
+| 10% | Most important elements or actions, conversion elements |
 
-# Primary colours
+## Functional colours
 
-Primary colours are the brand colours. They are the key components for our users to live and adopt LEROY MERLIN's experience. These are the two primary colour palettes we use in this design system.
+### Brand
 
-> Click on the variables to copy them.
+Brand colours must be applied with moderation and to emphasise a visual or textual element. Keep in mind that some components already use the brand colours.
 
-## Primary 01
+### Text
 
-The primary green is the essence of the brand **LEROY MERLIN**.
+Text elements should use neutral colours to prevent users from confusing them with interactive elements. In specific cases, product teams need to assess the need of adding a brand or accent colour to a non-interactive text element.
 
-<Swatch id="primary-01" />
+### Background
 
-## Primary 02 (beta colour to prepare the new version)
+The background is a simple way to create rhythm, separate elements on a page or highlight an item or section. To help product teams in their choices, the design system offers two types of backgrounds, neutral or accentuated.
 
-<Swatch id="primary-02" />
+### Status
 
-# Greys
+The design system offers a simplified and flexible colour palette to cover semantic elements, such as status or feedback.
 
-We used the same principles to design our greyscale but greys are based on **11 values** swatches. Greys have specific use cases for **UI elements**:
+### Disabled
 
-- Texts & Titles
-- Icons
-- Backgrounds
-
-<Swatch id="grey" />
-
-# Status colours
-
-Status colours convey various levels of importance for feedback information, like errors or warnings. They can also highlight important pieces of information or some tips. Status colours can also inform the user that an operation has failed or succeeded.
-
-## Information
-
-This colour is used to highlight important pieces of information the user should be aware of.
-Should only be used if the information does not represent a threat.
-
-<Swatch id="info" />
-
-## Success
-
-Informs the user that an operation was successful.
-
-<Swatch id="success" />
-
-## Warnings
-
-Inform the user about risks or threats. It teels the user to be careful about something.
-
-<Swatch id="warning" />
-
-## Danger
-
-This colour informs the user of an error or that some operation went wrong.
-
-<Swatch id="danger" />
-
-# Secondary colours
-
-Secondary colours are essential to your design. We need them on many occasions to accentuate our primary colours and to deliver a specific message such as discounts and special offers. These guidelines may vary depending on the country you live in.
-
-## Secondary Blue
-
-Secondary Blue is mostly used for focus.
-Use the [info]() swatch to highlight anything related to informational feedback for your users.
-
-<Swatch id="secondary-blue" />
-
-## Secondary Green
-
-In LEROY MERLIN case, this colour is exactly the case as primary-01 but other brands or BU (business unit) should be able to change that.
-
-<Swatch id="secondary-green" />
-
-## Secondary Orange
-
-Secondary Orange is used for user's feedback like the ratings.
-
-<Swatch id="secondary-orange" />
-
-## Secondary Red
-
-Secondary Red is for discounts.
-
-<Swatch id="secondary-red" />
-
-## Secondary Yellow
-
-Secondary Yellow is for illustrations and special offers.
-
-<Swatch id="secondary-yellow" />
-
-## Secondary Purple
-
-Secondary Purple is used for illustration purposes.
-
-<Swatch id="secondary-purple" />
-
-# Anatomy
-
-In this system, every colour has a `dark` and a `light` variant that can be used to adapt to different usages from text to illustrations.
-
-To have this flexibility, we designed colour swatches based on **9 values** for primary and secondary colours. It means that you can use 9 values of the same colour to fit your design needs.
-
-![Primary-01](Primary-01.jpg)
-
-<br />
-
-![Primary-02](Primary-02.jpg)
-
-> The design needs to be accessible to everyone and these swatches when combined properly are compliant with colour contrast rules for accessibility
+Although a disabled element does not have to be accessible, as designers and developers we consider that anything we share with a user has a role in the experience and should achieve a minimum level of accessibility (contrast ratio of 3:1). To simplify its usage, the design system offers a background and a foreground colour.
