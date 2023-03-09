@@ -1,0 +1,145 @@
+---
+title: 'Sidebar'
+order: 1
+description: 'The Sidebar component is the vertical navigation element commonly used in digital products to provide users with quick and easy access to top-level features.'
+links:
+  webComponent:
+    status: 'ready'
+    link: 'https://ubiquitous-giggle-7b5b6e33.pages.github.io/?path=/story/components-sidebar'
+status:
+  figma: 'ready'
+  scss: 'ready'
+  searchKeywords: 'sidebar side left navigation'
+---
+
+> The Sidebar component is the vertical navigation element commonly used in digital products to provide users with quick and easy access to top-level features.  
+It is designed to save space and keep the focus on features and business gestures.  
+It is combined with the [Page header component](/Components/PageHeader/) to clearly structure the user experience in our digital products and portals.
+
+<!-- Add preview -->
+
+## Variations
+
+### Anatomy
+
+Sidebar component consists of the following elements:
+
+| Element | Purpose | Notes |
+| ------- | ------- | ----- |
+| **Expand/collapse button** | Allows the user to collapse or expand the sidebar | Ghost button with DoubleArrowRight icon, always displayed. No scroll. |
+| **Home button** | Allows the user to access directly to the product or portal homepage | Optional ghost button. The "Home" icon is not editable, the label can be changed. No scroll. |
+| **Sections: features** | Provides access to different features of the product or portal | Always displayed. Scroll when list of features exceeds display container. |
+| **Sections: utilities** | Allows access to transversal functionalities of the product | Optional |
+| **User menu** | Allows the user to access their account-related features | Optional |
+
+### Levels
+
+The Sidebar offer possibility to set 2 levels.  
+First level is mandatory and displayed by default.
+The second level is displayed only if another level of navigation is needed and appears when clicking on a feature.  
+These levels only impacts "Features" section.
+
+<!-- Add previews -->
+
+### Sections: features
+
+Features are grouped into feature groups working such as accordions.  
+3 different types of features:
+- default: the user accesses the feature within the portal
+- external link: the feature is displayed in a new tab (display of the "External link" icon)
+- non-accessible: the feature is not accessible (display of the "Lock" icon, the label is shaded)
+
+A vertical scroll is possible if there is not enough space to display all the items.
+On second level, display of the feature label with an arrow to return to the 1st level.
+On two levels, a vertical scroll is possible if there is not enough space to display all the items.
+
+### Sections: utilities
+
+Allows access to transversal functionalities of the product.
+An icon is dedicated to each functionality.
+Note this section always hangs on the user's menu (in its closed version).
+
+### User menu
+
+This menu allows the user to access features related to his account, such as his profile, the interface language or logout.  
+The User menu is always sticky at the bottom of the component, closed by default, and opens with a click on the Control/More icon.  
+When open, its height is relative, based on the number of items. The menu opens above the other sections of the Sidebar.  
+Closed, its height is fixed, and it closes with a click on Control/Less icon. Closed, the user's name, role, and user picture are displayed. A default state (placeholder) is defined if there is no photo of the user.
+
+<!-- Add preview -->
+
+## Behaviours
+
+The Sidebar can be in 2 states: collapsed and expanded.  
+Collapse is the default state, no labels are visible, only icons. When clicking on the Expand/collapse button, the Sidebar expands, and labels are displayed.
+Note the Sidebar also expands when you click on another item and closes automatically when a feature is selected by user.
+
+<Highlight theme="tips" title="Good to know">
+  Please remind that Sidebar expands over page container
+</Highlight>
+
+## States
+
+### Items
+
+| State | Purpose | Values |
+| ----- | ------- | ------ |
+| Hover | Display a background behind the hovered item | background color = Secondary/Blue grey/700 |
+| Active | Display a background behind the selected item | background color = Primary/600 |
+| Focus | Display an outline of the width of the content | color = Status/Information/500, thickness = 1px |
+| Disabled/locked | Label shaded | font color = Secondary/BlueGrey/400 |
+
+## Restrictions
+
+### Labels
+
+Too long labels are cut off. We strongly recommend an average of 27 characters with a maximum limit of 55 characters.
+
+### Consistency
+To keep consistency, the [Page header](/Components/PageHeader/) name must be the same than the sidebar entry name.
+
+## Layout
+
+The Sidebar is outside the container, sticked to the left, top and bottom sides of the viewport.
+  
+By default, the sidebar extends over the container.  
+The sidebar has a fixed width depending on its state:
+- Collapsed = 64px
+- Expanded = 320px
+
+Its height is therefore always 100% of the viewport.
+
+## Specific cases
+
+### Utilities
+
+The Utilities section can be hidden if not necessary.
+
+### User picture
+
+If a user has not uploaded a picture, a default placeholder should be used instead.
+
+## How to use
+
+To use the Sidebar component, add it to the left side of the screen, outside the container.
+
+## Do's and Don'ts
+
+<HintItem>
+  Use Sidebar with a Page header.
+</HintItem>
+
+<HintItem>
+  Order of the elements within the Sidebar should be consistent across all pages.
+</HintItem>
+
+<HintItem>
+  Sidebar should always be positioned on the left side of the viewport.
+</HintItem>
+
+<HintItem dont>
+  Never change fixed width of the Sidebar.
+</HintItem>
+
+<HintItem dont>
+  Don't change Expand/collapse and Home buttons icons.
