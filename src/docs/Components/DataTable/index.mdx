@@ -8,7 +8,7 @@ status:
 ---
 
 > The Datatable is used to present a large set of data organised in rows and columns.  
-By structuring data in this format, tables provide an intuitive and efficient way to scan and analyse complex amounts of information.  
+By structuring data in this format, tables provide an intuitive and efficient way to browser and analyse complex amounts of information.  
 In addition, DataTable has built-in paging, sorting and filtering features, making it a powerful tool.
 
 <Preview path="default" nude />
@@ -30,9 +30,11 @@ Allow the user to interact with selected items.
 | --------------------------- | ------------------------------------ | ------- |
 | **Edit selection**          | Allow to edit data on selected items | Only available when rows are selected |
 | **Download**                | Download table or selected rows      |         |
-| **Number of selected rows** | Display the number of selected rows  | Refers to mass selection for more information|
+| **Number of selected rows** | Display the number of selected rows  | Check mass selection documentation for more information|
 
-In order to maintain consistency, styles, labels and icon are NOT customizable.
+<Highlight theme="warning" title="Be careful">
+ In order to maintain consistency, styles, labels and icons are not customisable.
+</Highlight>
 
 #### Filter
 
@@ -42,11 +44,11 @@ In order to maintain consistency, styles, labels and icon are NOT customizable.
 | **Search input**  | Filter rows with keywords (Please be explicit for user) |         |
 | **Filter button** | Open filters layer                                      |         |
 
-#### Filter active
+##### Active filter
 
 When filters are applied to the table, they are displayed between the topbar and the data content.  
-In order to ensure visibility for the user and to allow to easily remove them, these filters are presented using removable [Tags](/Components/Tags/).  
-A reset button allows them all to be removed.
+To ensure visibility to the user and to allow easy removal, these filters are presented using [Removable tags] (/Components/Tag/#removable-tags).  
+In addition, a reset button allows users to remove them all.
 
 <!-- Add preview -->
 
@@ -68,7 +70,7 @@ Allow the user to set up the display of the datatable layout.
 | **Rejected/Negative action** |         |
 
 Note that these actions relate to the data in the table.  
-This can be useful for validating an item or adding a line. By default, 2 types of buttons are available:
+This can be useful for validating an item or adding a line. By default, two types of buttons are available:
 - a primary solid button for main action
 - a danger bordered button for negative action
 
@@ -100,15 +102,15 @@ To ensure optimal readability of the whole data set, it is strongly recommended 
 
 In a table, a row corresponds to an item.  
 The columns can then be used to list different types of data related to that particular object such as status, description or numeric values.  
-A row cannot be selected without a checkbox. Once selected, the row changes its state, displaying a selected checkbox and a different colour background.
+A row must be selected with a checkbox, and each selected row turns to a different colour background to make it easier to read.
 
 <!-- Add preview -->
 
-Subrows provide more details on an item. They are therefore neither selectable nor editable as an object.
+Subrows provide more details of an item. They are therefore neither selectable nor editable as an object.
 
 #### Labels
 
-Labels are always at the top of the table and always in capitals to differentiate them from the data.  
+Labels are always at the top of the table and in capitals letters to differentiate them from the data.  
 They can be fixed when scrolling.  
 A checkbox at label level allows all rows to be selected.
 As a common and usual practice, the reordering feature is located next to each label.
@@ -126,7 +128,8 @@ The message can be edited to fit the context. It should be easily understood by 
 
 ### Footer
 
-The DataTable footer is placed at the bottom of the component and contains the elements that allow you to manage the navigation and pagination of the table.
+The DataTable footer is placed at the bottom of the component and contains the elements that allow you to manage the navigation and pagination of the table.  
+As it is impossible to know 100% how many rows will be displayed, it is strongly recommended to always display the footer.
 
 <Preview path="footer-only" nude />
 
@@ -135,8 +138,6 @@ The DataTable footer is placed at the bottom of the component and contains the e
 | ** Rows's number selector**               | Allow to choose the number of row to display          |         |
 | **Displayed rows indicator**              | Display the page's rows and the total number of rows  |         |
 | [**Pagination**](/Components/Pagination/) | Allow to navigate to the other pages of the datatable |         |
-
-As it is impossible to be 100% sure how many items will be displayed, it is strongly recommended to always display the footer.
 
 ## Variations
 
@@ -154,7 +155,13 @@ Each cells are available in 3 sizes.
 
 In order to avoid double scrolling, we recommend 2 ways of defining the height of the datatable: either by the size of the viewport, or by the number of rows displayed.
 
-<Highlight theme="warning" title="Responsive">
+##### By the size of the viewport
+![TableLayout--Fill](TableLayout--Fill.png)
+
+##### By the number of rows displayed
+![TableLayout--Fixed](TableLayout--Fixed.png)
+
+<Highlight theme="warning" title="Be aware">
   For now, the Datatable component is only available for desktop use.
 </Highlight>
 
@@ -168,7 +175,7 @@ In order to avoid double scrolling, we recommend 2 ways of defining the height o
 ## Do's and Dont's
 
 <HintItem>
-  Use capital letters only for labels not for data.
+  Use capital letters only for labels, not for data.
 </HintItem>
 
 <HintItem dont>
