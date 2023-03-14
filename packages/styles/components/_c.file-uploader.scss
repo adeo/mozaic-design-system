@@ -61,6 +61,7 @@
             transparent
             url(inline-icons("upload-24", $color-button-bordered-disabled-font))
             no-repeat;
+          background-size: contain;
         }
       }
     }
@@ -158,6 +159,7 @@
       background:
         transparent
         url(inline-icons("delete-24", $color-fileuploader-font)) no-repeat;
+      background-size: $mu150;
       display: block;
     }
 

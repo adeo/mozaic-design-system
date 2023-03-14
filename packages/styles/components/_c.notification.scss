@@ -103,6 +103,7 @@
 
       background: transparent
         url(inline-icons('cross-16', $notification-close-icon-color)) no-repeat;
+      background-size: contain;
       border: 0;
       cursor: pointer;
       display: block;
