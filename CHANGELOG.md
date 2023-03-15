@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.55.0](https://github.com/adeo/mozaic-design-system/compare/v1.54.0...v1.55.0) (2023-03-15)
+
+### Bug Fixes
+
+- **component/stepper:** remove default background of indicator element ([#1396](https://github.com/adeo/mozaic-design-system/issues/1396)) ([c7d0eab](https://github.com/adeo/mozaic-design-system/commit/c7d0eab226e9626ddd01203415b47087d3f6aeff))
+- **styles:** add background-size to ensure the display of icons ([#1394](https://github.com/adeo/mozaic-design-system/issues/1394)) ([746006d](https://github.com/adeo/mozaic-design-system/commit/746006da4b9da498a9b39d52aca32b7edcf53435))
+
+### Features
+
+- **component/autocomplete:** add styles for the error message ([#1397](https://github.com/adeo/mozaic-design-system/issues/1397)) ([03ce2cc](https://github.com/adeo/mozaic-design-system/commit/03ce2ccf1c46913c720aa540b4d517866bbba7ca))
+- **component/fileuploader:** report fix styles coming from Mozaic-Vue ([#1398](https://github.com/adeo/mozaic-design-system/issues/1398)) ([9b4f080](https://github.com/adeo/mozaic-design-system/commit/9b4f080fdbfaecbabbe855d65ce43a513c9d1fd4))
+- **tools/tokens:** add tokens for datatable component ([#1392](https://github.com/adeo/mozaic-design-system/issues/1392)) ([d8ce3d2](https://github.com/adeo/mozaic-design-system/commit/d8ce3d27c132ff5d43aaffc2a0d31e07caab1152))
+- **tools/tokens:** adeo - updating the tooltip component tokens ([#1393](https://github.com/adeo/mozaic-design-system/issues/1393)) ([79c660b](https://github.com/adeo/mozaic-design-system/commit/79c660bedc076b6d2496192b81681e315bde8bc6))
+
 # [1.54.0](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v1.54.0) (2023-03-02)
 
 ### Bug Fixes
