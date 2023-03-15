@@ -38,7 +38,7 @@
   // Header - Filters
   &__filters {
     align-items: center;
-    border-top: get-border(s) solid $color-border-datatable-filters;
+    border-top: get-border(s) solid $color-datatable-filters-border;
     display: flex;
     flex-wrap: wrap;
     gap: $mu100;
