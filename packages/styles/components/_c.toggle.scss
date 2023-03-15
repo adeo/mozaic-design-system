@@ -73,7 +73,7 @@
       background: $color-toggle-off-circle
         url(inline-icons("control-cross-16", $color-toggle-off-background))
         no-repeat center;
-      background-size: contain;
+      background-size: $mu100;
       border: solid get-border("l") $color-toggle-off-background;
       will-change: transform;
       transition: transform 100ms ease, border-color 100ms ease;
@@ -84,7 +84,6 @@
           "notification-available-16",
           $color-toggle-on-background
         ));
-        background-size: contain;
         transform: translate(100%, -50%);
       }
 
@@ -95,7 +94,6 @@
           "control-cross-16",
           $color-toggle-disabled-background
         ));
-        background-size: contain;
         cursor: not-allowed;
       }
 
@@ -106,7 +104,7 @@
           "notification-available-16",
           $color-toggle-disabled-checked-background
         ));
-        background-size: contain;
+        background-size: $mu1;
         cursor: not-allowed;
       }
     }
