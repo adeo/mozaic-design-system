@@ -7,6 +7,10 @@
   max-width: var(--autocomplete-width, $autocomplete-width);
   width: 100%;
 
+  &__main {
+    position: relative;
+  }
+
   &__tag,
   &__loader,
   &__clear {
@@ -63,6 +67,14 @@
     .mc-left-icon-input.is-invalid ~ & {
       right: $mu250;
     }
+  }
+
+  &__error {
+    @include set-font-scale("04", "m");
+
+    color: $color-fields-error;
+    display: inline-block;
+    margin-top: $mu025;
   }
 
   &--multi {
