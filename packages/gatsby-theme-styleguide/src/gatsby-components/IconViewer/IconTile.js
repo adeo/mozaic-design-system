@@ -105,35 +105,35 @@ export default class IconTile extends Component {
       name: { name },
       currentSize: '48px',
       sizes: {
-        '20': {
+        20: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '24': {
+        24: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '32': {
+        32: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '48': {
+        48: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '64': {
+        64: {
           url: null,
           component: null,
           fileName: null,
@@ -144,9 +144,6 @@ export default class IconTile extends Component {
     }
 
     Object.keys(dataIcon.sizes).forEach((size) => {
-      console.log(name)
-      console.log(icons)
-      console.log(size)
       if (!icons[size]) {
         return false
       } else {
@@ -163,13 +160,12 @@ export default class IconTile extends Component {
 
       return true
     })
-    
+
     return dataIcon
   }
 
   render() {
     const Icon = icons[this.state.allIcon[this.state.currentSize].component]
-    console.log(Icon)
     return (
       <IconDetail>
         <IconName>{this.props.name}</IconName>

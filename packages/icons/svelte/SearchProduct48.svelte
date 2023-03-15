@@ -1,0 +1,19 @@
+<svelte:options tag={null} />
+  <script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "3rem";
+</script>
+
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g clip-path="url(#a)">
+    <path fill-rule="evenodd" d="M30 4.5a1.5 1.5 0 0 0-1.06.44l-24 24a1.5 1.5 0 0 0 0 2.12l12 12a1.5 1.5 0 0 0 2.12 0l3.938-3.937A11.45 11.45 0 0 0 30 41.5a11.45 11.45 0 0 0 7.002-2.377l3.937 3.938a1.5 1.5 0 0 0 2.122-2.122l-3.938-3.937A11.45 11.45 0 0 0 41.5 30a11.45 11.45 0 0 0-2.377-7.002l3.938-3.937A1.5 1.5 0 0 0 43.5 18V6A1.5 1.5 0 0 0 42 4.5H30Zm7.002 16.377 3.498-3.498V7.5h-9.879L8.121 30 18 39.879l2.877-2.877A11.45 11.45 0 0 1 18.5 30c0-6.351 5.149-11.5 11.5-11.5 2.635 0 5.063.886 7.002 2.377ZM21.5 30a8.5 8.5 0 1 1 17 0 8.5 8.5 0 0 1-17 0ZM35 15a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <rect width="48" height="48" fill="#fff"/>
+    </clipPath>
+  </defs>
+</svg>
