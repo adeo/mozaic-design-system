@@ -1,12 +1,102 @@
 /* mqp:start */
 .mc-toggle {
   $parent: get-parent-selector(&);
+  $label: #{$parent}__label;
 
   display: block;
   position: relative;
 
   &__input {
     @include visually-hidden();
+
+    // focus
+    &:focus {
+      & + #{$parent}__label::before {
+        @include set-shadow-focus();
+      }
+    }
+
+    // checked
+    &:checked {
+      & + #{$parent}__label {
+        &::before {
+          background-color: $color-toggle-on-background;
+        }
+
+        &::after {
+          border-color: $color-toggle-on-background;
+          background-image: url(
+            inline-icons(
+              "notification-available-16",
+              $color-toggle-on-background
+            ));
+          transform: translate(100%, -50%);
+        }
+
+        #{$parent}__off {
+          @include set-hidden-input();
+        }
+      }
+    }
+
+    &:not(:checked) {
+      & + #{$parent}__label {
+        #{$parent}__on {
+          @include set-hidden-input();
+        }
+      }
+    }
+
+    // disabled
+    &:disabled {
+      & + #{$parent}__label {
+        color: $color-toggle-disabled-label;
+        cursor: not-allowed;
+
+        &::before {
+          background-color: $color-toggle-disabled-background;
+          // cursor: not-allowed;
+        }
+
+        &::after {
+          border-color: $color-toggle-disabled-background;
+          background-color: $color-toggle-disabled-circle;
+          background-image: url(
+            inline-icons(
+              "control-cross-16",
+              $color-toggle-disabled-background
+            ));
+          // cursor: not-allowed;
+        }
+      }
+
+      &:checked {
+        & + #{$parent}__label {
+          &::before {
+            background-color: $color-toggle-disabled-checked-background;
+            // cursor: not-allowed;
+          }
+
+          &::after {
+            border-color: $color-toggle-disabled-checked-background;
+            background-color: $color-toggle-disabled-checked-circle;
+            background-image: url(
+              inline-icons(
+                "notification-available-16",
+                $color-toggle-disabled-checked-background
+              ));
+            background-size: $mu100;
+            // cursor: not-allowed;
+          }
+        }
+      }
+    }
+
+    &:not(:disabled) {
+      & + #{$parent}__label:hover::after {
+        background-color: $color-toggle-hover-circle;
+      }
+    }
   }
 
   &__content {
@@ -26,11 +116,6 @@
     vertical-align: middle;
     user-select: none;
 
-    :disabled + & {
-      color: $color-toggle-disabled-label;
-      cursor: not-allowed;
-    }
-
     &::after,
     &::before {
       box-sizing: border-box;
@@ -46,26 +131,9 @@
     &::before {
       background-color: $color-toggle-off-background;
       will-change: background-color, border-color, box-shadow;
-      transition: background-color 100ms ease, border-color 100ms ease,
+      transition: background-color 100ms ease,
+        border-color 100ms ease,
         box-shadow 200ms ease;
-
-      :checked + & {
-        background-color: $color-toggle-on-background;
-      }
-
-      :focus + & {
-        @include set-shadow-focus();
-      }
-
-      :disabled + & {
-        background-color: $color-toggle-disabled-background;
-        cursor: not-allowed;
-      }
-
-      :disabled:checked + & {
-        background-color: $color-toggle-disabled-checked-background;
-        cursor: not-allowed;
-      }
     }
 
     // the switch pill foreground
@@ -77,46 +145,7 @@
       border: solid get-border("l") $color-toggle-off-background;
       will-change: transform;
       transition: transform 100ms ease, border-color 100ms ease;
-
-      :checked + & {
-        border-color: $color-toggle-on-background;
-        background-image: url(inline-icons(
-          "notification-available-16",
-          $color-toggle-on-background
-        ));
-        transform: translate(100%, -50%);
-      }
-
-      :disabled + & {
-        border-color: $color-toggle-disabled-background;
-        background-color: $color-toggle-disabled-circle;
-        background-image: url(inline-icons(
-          "control-cross-16",
-          $color-toggle-disabled-background
-        ));
-        cursor: not-allowed;
-      }
-
-      :disabled:checked + & {
-        border-color: $color-toggle-disabled-checked-background;
-        background-color: $color-toggle-disabled-checked-circle;
-        background-image: url(inline-icons(
-          "notification-available-16",
-          $color-toggle-disabled-checked-background
-        ));
-        background-size: $mu100;
-        cursor: not-allowed;
-      }
     }
-
-    :not(:disabled) + &:hover::after {
-      background-color: $color-toggle-hover-circle;
-    }
-  }
-
-  :not(:checked) + &__label &__on,
-  :checked + &__label &__off {
-    @include set-hidden-input();
   }
 
   @include mod-toggle-sizes();
