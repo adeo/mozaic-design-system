@@ -9864,11 +9864,11 @@ module.exports = {
     },
     "tooltip": {
       "background": {
-        "value": "#4d4d4d",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tooltip.json",
+        "value": "#5b737d",
+        "filePath": "packages/tokens/src/tokens/adeo/color/tooltip.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.700.value}"
+          "value": "{color.secondary-blue.600.value}"
         },
         "name": "ColorTooltipBackground",
         "attributes": {
@@ -9884,7 +9884,7 @@ module.exports = {
       },
       "border": {
         "value": "#ffffff",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tooltip.json",
+        "filePath": "packages/tokens/src/tokens/adeo/color/tooltip.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.000.value}"
