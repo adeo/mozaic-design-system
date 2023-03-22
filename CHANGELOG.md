@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.56.0](https://github.com/adeo/mozaic-design-system/compare/v1.55.0...v1.56.0) (2023-03-22)
+
+### Bug Fixes
+
+- **button:** remove pointer-event from disable button ([#1406](https://github.com/adeo/mozaic-design-system/issues/1406)) ([0f4a39b](https://github.com/adeo/mozaic-design-system/commit/0f4a39bbc1006868845025587269c363b27efe28))
+- **component/tabs:** improve 'full tabs' behaviour ([#1403](https://github.com/adeo/mozaic-design-system/issues/1403)) ([5a37720](https://github.com/adeo/mozaic-design-system/commit/5a37720a8657369add607b27df6d28c4c03f6904)), closes [#1402](https://github.com/adeo/mozaic-design-system/issues/1402)
+
+### Features
+
+- **component/toggle:** improve toggle component for scoped modules ([#1404](https://github.com/adeo/mozaic-design-system/issues/1404)) ([c6d2958](https://github.com/adeo/mozaic-design-system/commit/c6d29587dcdbd6eda9f19a9375e810c4408de29a)), closes [#1401](https://github.com/adeo/mozaic-design-system/issues/1401)
+
 # [1.55.0](https://github.com/adeo/mozaic-design-system/compare/v1.54.0...v1.55.0) (2023-03-15)
 
 ### Bug Fixes
