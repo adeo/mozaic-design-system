@@ -66,6 +66,7 @@
   &__file {
     align-items: center;
     background: $color-fileuploader-files-list;
+    box-sizing: content-box;
     color: $color-fileuploader-font;
     display: flex;
     flex-flow: row wrap;
@@ -137,6 +138,7 @@
       background-color: transparent;
       background-image: url("#{inline-icons('delete-24', $color-fileuploader-font)}");
       background-repeat: no-repeat;
+      background-size: $mu150;
       display: block;
     }
 

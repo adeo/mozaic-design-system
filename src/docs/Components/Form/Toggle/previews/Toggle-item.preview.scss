@@ -1,15 +1,14 @@
 @import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
-html {
-  @include set-font-face();
-}
-@import "components/c.toggle";
 
 * {
   box-sizing: border-box;
 }
 
 .example {
+  @include set-font-face();
+  @import "components/c.toggle";
+
   margin: $mu200;
 }

@@ -150,7 +150,6 @@ $button-radius: if($preset-zodio, null, get-border-radius("m"));
       border-color: transparent;
       color: map-get($disabled-props, "font");
       cursor: not-allowed;
-      pointer-events: none;
     }
   }
 }

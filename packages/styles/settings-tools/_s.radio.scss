@@ -21,14 +21,23 @@ $radio-label-margin: if(
 $radio-border-width: if($preset-zodio, get-border("s"), get-border("m"));
 $radio-checked-button-size: if($preset-zodio, $mu050, px-to-rem(6));
 
-@mixin set-radio-container-background() {
+@mixin set-radio-container-background-base() {
   @if $preset-zodio {
     &::after {
-      background: #f8f3ec;
+      background-color: transparent;
       content: "";
       position: absolute;
       inset: 0;
       z-index: -1;
+      transition: 0.3s;
+    }
+  }
+}
+
+@mixin set-radio-container-background() {
+  @if $preset-zodio {
+    &::after {
+      background-color: #f8f3ec;
     }
   }
 }

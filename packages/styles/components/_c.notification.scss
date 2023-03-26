@@ -103,6 +103,7 @@
       background-color: transparent;
       background-image: url("#{inline-icons('cross-16', $notification-close-icon-color)}");
       background-repeat: no-repeat;
+      background-size: $mu100;
       border: 0;
       cursor: pointer;
       display: block;

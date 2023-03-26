@@ -109,7 +109,6 @@
     @include set-font-weight("semi-bold");
 
     align-items: center;
-    background-color: $color-stepper-indicator-background;
     border: get-border("m") solid $color-stepper-indicator-border;
     border-radius: 50%;
     box-sizing: border-box;

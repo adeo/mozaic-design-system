@@ -63,14 +63,23 @@ $checkbox-border-width: if($preset-zodio, get-border("s"), get-border("m"));
   }
 }
 
-@mixin set-checkbox-container-background() {
+@mixin set-checkbox-container-background-base() {
   @if $preset-zodio {
     &::after {
-      background: #f8f3ec;
+      background-color: transparent;
       content: "";
       position: absolute;
       inset: 0;
       z-index: -1;
+      transition: 0.3s;
+    }
+  }
+}
+
+@mixin set-checkbox-container-background() {
+  @if $preset-zodio {
+    &::after {
+      background-color: #f8f3ec;
     }
   }
 }

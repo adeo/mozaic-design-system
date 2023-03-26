@@ -11,9 +11,11 @@
 
   &__label {
     @include set-font-scale("05", "s");
+    @include set-radio-container-background-base();
 
     cursor: pointer;
     margin-left: $radio-label-margin;
+    color: $color-font-darkest;
   }
 
   &__input {
