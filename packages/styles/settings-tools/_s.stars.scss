@@ -1,3 +1,9 @@
+// Preset
+$preset-zodio: false;
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
 $stars: get-token(color, star);
 $stars-sizes: (
   "s": (
@@ -77,15 +83,34 @@ $stars-default-bg-size: map-deep-get($stars-sizes, "m", "width");
   $icon-color-before: $color-star-hover;
 
   @if $type == "result" {
-    $icon-color-default: $color-star-full;
+    $icon-color-default: if($preset-zodio, #666666, $color-star-hover);
     $icon-color-before: $color-star-full;
   }
 
-  background-image: url("#{inline-icons($icon-empty, $icon-color-default)}");
+  @if $preset-zodio {
+    background-image: url("#{inline-icons($icon-full, #E6E6E6)}");
+  } @else {
+    background-image: url("#{inline-icons($icon-empty, $icon-color-default)}");
+  }
 
   &::before {
     background-image: url("#{inline-icons($icon-full, $icon-color-before)}");
   }
+}
+
+@mixin set-stars-background-empty($sizeProps, $type: "input") {
+  $icon: map-get($sizeProps, "icon");
+  $icon-empty: map-get($sizeProps, "icon-empty");
+  $icon-full: map-get($sizeProps, "icon-full");
+  $icon-color-default: $color-star-full;
+  $icon-color-before: $color-star-hover;
+
+  @if $type == "result" {
+    $icon-color-default: if($preset-zodio, #666666, $color-star-hover);
+    $icon-color-before: $color-star-full;
+  }
+
+  background-image: url("#{inline-icons($icon-empty, $icon-color-default)}");
 }
 
 @mixin set-starts-label($sizeProps) {
