@@ -36,6 +36,14 @@
     }
   }
 
+  @if $preset-zodio {
+    &:not([class*="mc-stars-result--score-"]) {
+      #{$parent}__visual {
+        @include set-stars-background-empty($stars-default-size, "result");
+      }
+    }
+  }
+
   &__label {
     @include set-starts-label($stars-default-size-label);
 
@@ -66,6 +74,14 @@
 
           &__label {
             @include set-starts-label(map-deep-get($stars-sizes-label, $size));
+          }
+        }
+
+        @if $preset-zodio {
+          &:not([class*="mc-stars-result--score-"]) {
+            #{$parent}__visual {
+              @include set-stars-background-empty($props, "result");
+            }
           }
         }
       }
