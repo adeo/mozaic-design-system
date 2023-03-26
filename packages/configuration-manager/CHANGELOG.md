@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.56.0...v2.0.0-beta.16) (2023-03-26)
+
+**Note:** Version bump only for package @mozaic-ds/configuration-manager
+
 # [1.54.0](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v1.54.0) (2023-03-02)
 
 ### Features
