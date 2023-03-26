@@ -28,6 +28,7 @@
     border-radius: $checkbox-border-radius;
     border: $checkbox-border-width solid $color-input-border;
     background-color: $color-input-background;
+    background-position: center; // TODO: vérifier effet de bord hors preset zodio
     position: relative;
     transition: all 200ms ease;
     cursor: pointer;
@@ -70,7 +71,6 @@
 
     &:checked {
       background-image: url("#{inline-icons('checkmark-16', $color-input-checked-icon)}");
-      background-position: center center;
 
       &::-ms-check {
         background-color: $color-input-checked-background;
@@ -88,7 +88,6 @@
 
     &:indeterminate {
       background-image: url("#{inline-icons('control-less-16', $color-input-checked-icon)}");
-      background-position: center; // TODO: vérifier effet de bord hors preset zodio
     }
 
     &:disabled {
