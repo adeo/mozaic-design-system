@@ -1,4 +1,5 @@
 @use "sass:math";
+
 // Preset
 $preset-zodio: false;
 @if $preset == "zodio" {
@@ -25,13 +26,13 @@ $input-sizes: (
 );
 $input-icon-sizes: (
   "s": (
-    "left": $mu050,
+    "left": if($preset-zodio, $mu100, $mu050),
     "height": $mu150,
     "width": $mu150,
     "padding-left": $mu250 - $input-border-width,
   ),
   "m": (
-    "left": $mu075,
+    "left": if($preset-zodio, $mu100, $mu075),
     "height": $mu150,
     "width": $mu150,
     "padding-left": $mu300 - $input-border-width,
@@ -79,4 +80,17 @@ $input-border-radius: if($preset-zodio, null, get-border-radius("m"));
   #{$parent}__input {
     padding-left: $padding-left;
   }
+}
+
+@mixin set-pwdinput-size($sizeProps) {
+  $padding-v: map-get($sizeProps, "padding-v");
+  $padding-h: map-get($sizeProps, "padding-h");
+  $font-size: map-get($sizeProps, "font-size");
+  $line-height: map-get($sizeProps, "line-height");
+  $inner-height: get-token(size, line, $font-size, $line-height);
+  $height: (($padding-v + $input-border-width) * 2) + $inner-height;
+
+  min-height: $height;
+  padding-bottom: $padding-v;
+  padding-top: $padding-v;
 }
