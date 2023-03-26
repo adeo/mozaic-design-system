@@ -51,9 +51,20 @@
     }
   }
 
+  @if $preset-zodio {
+    input:first-of-type:checked ~ &__label,
+    input:first-of-type:focus ~ &__label {
+      background-image: url("#{inline-icons('star-empty-32', #666666)}");
+    }
+  }
+
   :checked ~ &__label,
   :focus ~ &__label {
-    background-image: url("#{inline-icons('star-empty-32', $color-star-full)}");
+    @if $preset-zodio {
+      background-image: url("#{inline-icons('star-full-32', #E6E6E6)}");
+    } @else {
+      background-image: url("#{inline-icons('star-empty-32', $color-star-full)}");
+    }
   }
 
   :checked + &__label,
@@ -65,11 +76,15 @@
     @include set-shadow-focus();
   }
 
-  &__radio:hover ~ &__label {
-    background-image: url("#{inline-icons('star-empty-32', $color-star-full)}");
+  &__radio:not(:first-of-type):hover ~ &__label {
+    @if $preset-zodio {
+      background-image: url("#{inline-icons('star-full-32', #E6E6E6)}");
+    } @else {
+      background-image: url("#{inline-icons('star-empty-32', $color-star-full)}");
+    }
   }
 
-  &__radio:hover + &__label {
+  &__radio:not(:first-of-type):hover + &__label {
     background-image: url("#{inline-icons('star-full-32', $color-star-full)}");
 
     &::before {
@@ -106,17 +121,32 @@
           &__radio {
             &:checked,
             &:focus {
+              @if $preset-zodio {
+                &:first-of-type ~ #{$parent}__label,
+                &:first-of-type ~ #{$parent}__label {
+                  background-image: url("#{inline-icons($icon-empty, #666666)}");
+                }
+              }
+
               & ~ #{$parent}__label {
-                background-image: url("#{inline-icons($icon-empty, $color-star-full)}");
+                @if $preset-zodio {
+                  background-image: url("#{inline-icons($icon-full, #E6E6E6)}");
+                } @else {
+                  background-image: url("#{inline-icons($icon-empty, $color-star-full)}");
+                }
               }
               & + #{$parent}__label {
                 background-image: url("#{inline-icons($icon-full, $color-star-full)}");
               }
             }
 
-            &:hover {
+            &:not(:first-of-type):hover {
               & ~ #{$parent}__label {
-                background-image: url("#{inline-icons($icon-empty, $color-star-full)}");
+                @if $preset-zodio {
+                  background-image: url("#{inline-icons($icon-full, #E6E6E6)}");
+                } @else {
+                  background-image: url("#{inline-icons($icon-empty, $color-star-full)}");
+                }
               }
 
               & + #{$parent}__label {
@@ -129,5 +159,4 @@
     }
   }
 }
-
 /* mqp:end */
