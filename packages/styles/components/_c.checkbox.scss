@@ -11,6 +11,7 @@
 
   &__label {
     @include set-font-scale("05", "s");
+    @include set-checkbox-container-background-base();
 
     cursor: pointer;
     margin-left: $checkbox-label-margin;
