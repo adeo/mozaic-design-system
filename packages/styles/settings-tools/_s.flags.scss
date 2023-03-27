@@ -22,14 +22,14 @@ $flag-border: get-border("s");
 @mixin set-flag-theme($parent, $props) {
   #{$parent} {
     &__label {
-      color: map-get($props, "text");
+      color: var(--color-flag-text, map-get($props, "text"));
 
       @if map-has-key($props, "border") {
-        border-color: map-get($props, "border");
+        border-color: var(--color-flag-border, map-get($props, "border"));
       }
 
       @if map-has-key($props, "background") {
-        background-color: map-get($props, "background");
+        background-color: var(--color-flag-background, map-get($props, "background"));
       }
     }
   }
