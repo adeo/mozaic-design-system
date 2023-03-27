@@ -3,7 +3,7 @@ $flag-border: get-border("s");
 
 @mixin set-flag-base($parent) {
   display: inline-block;
-  font-size: get-token(size, font, "04");
+  font-size: get-token(size, font, "04") * $magic-unit;
   margin: 0;
   vertical-align: middle;
 
