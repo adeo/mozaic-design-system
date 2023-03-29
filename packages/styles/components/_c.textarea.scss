@@ -4,7 +4,9 @@
 
   @include reset-input();
   @include set-font-scale("05", "m");
-  @include set-border-radius("m");
+  @if not $preset-zodio {
+    @include set-border-radius("m");
+  }
 
   display: block;
   width: 100%;
@@ -15,8 +17,7 @@
   transition: all ease 200ms;
 
   // remove border height and center baseline optically
-  padding:
-    calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
+  padding: calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
     calc(#{$mu075} + 0.125em - #{$border-width});
 
   &:hover {
