@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.17](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-beta.16...v2.0.0-beta.17) (2023-03-29)
+
+### Bug Fixes
+
+- **component/flag:** set font-size with magic-unit ([b584c11](https://github.com/adeo/mozaic-design-system/commit/b584c112c58752d9cc254efc99983c56f72a68b6))
+- **styles/qtyselector:** implement -border-radius for the buttons of the qtyselector ([311e2df](https://github.com/adeo/mozaic-design-system/commit/311e2df29738856ed491d73c14e5d1275e34ccc2))
+- **styles/select:** change the select height from 56px to 44px ([4a801c7](https://github.com/adeo/mozaic-design-system/commit/4a801c735a85baf58d1867dac9af951ef56dd099))
+- **styles/text-input:** change the field height from 56px to 44px ([864a266](https://github.com/adeo/mozaic-design-system/commit/864a2669bfbcae8adf7a916d42def9ef552293ac))
+- **styles/textarea:** remove border-radius when it's preset zodio ([b3009c9](https://github.com/adeo/mozaic-design-system/commit/b3009c9a26397ead0b1b9dfda1015a5561d514ee))
+
+### Features
+
+- **component/flag:** add CSS variables to change the colours of the component ([c1754f8](https://github.com/adeo/mozaic-design-system/commit/c1754f8523a8801250033e61a3ae6478e438b104))
+- **component/flag:** zodio - set tokens for component Flag ([0ce8be4](https://github.com/adeo/mozaic-design-system/commit/0ce8be4a59a44f00bd7d4742a4f40cf2c4b6ac13))
+- **styles:** add new index file to export all components files ([d23626c](https://github.com/adeo/mozaic-design-system/commit/d23626ce96c3ae784bf589b345aaed94863ce7b1))
+- **styles:** add new index file to export all utilities files ([4b9bf25](https://github.com/adeo/mozaic-design-system/commit/4b9bf25340082495dba2f79b61f4e9b5e1d7f9f9))
+- **styles:** improve the style of the paswdinput button ([1d28731](https://github.com/adeo/mozaic-design-system/commit/1d28731077edbeca6a494fa5ce45ccce351bd2d1))
+- **styles:** improving the style of the Fields label ([af289e8](https://github.com/adeo/mozaic-design-system/commit/af289e8fbe27bb6796cf7db5d4e5998594bfe470))
+
 # [2.0.0-beta.16](https://github.com/adeo/mozaic-design-system/compare/v1.56.0...v2.0.0-beta.16) (2023-03-26)
 
 ### Bug Fixes
