@@ -27,23 +27,21 @@
   }
 
   &__button-right {
-    border-radius: 0 $mu025 $mu025 0;
+    border-radius: 0 $input-border-radius $input-border-radius 0;
     margin-left: -1px;
 
     &:focus::after {
-      border-radius:
-        $size-focus-border $size-focus-radius-m
+      border-radius: $size-focus-border $size-focus-radius-m
         $size-focus-radius-m $size-focus-border;
     }
   }
 
   &__button-left {
-    border-radius: $mu025 0 0 $mu025;
+    border-radius: $input-border-radius 0 0 $input-border-radius;
     margin-right: -1px;
 
     &:focus::after {
-      border-radius:
-        $size-focus-radius-m $size-focus-border $size-focus-border
+      border-radius: $size-focus-radius-m $size-focus-border $size-focus-border
         $size-focus-radius-m;
     }
   }
