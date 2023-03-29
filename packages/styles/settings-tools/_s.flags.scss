@@ -1,17 +1,27 @@
+// Preset
+$preset-zodio: false;
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
 $flags: get-token(color, flag);
 $flag-border: get-border("s");
+$flag-font-size: if($preset-zodio, "02", "04");
+$flag-line-height: if($preset-zodio, "m", "s");
+$flag-text-transform: if($preset-zodio, $mu125, null);
 
 @mixin set-flag-base($parent) {
   display: inline-block;
-  font-size: get-token(size, font, "04");
+  font-size: get-token(size, font, $flag-font-size) * $magic-unit;
   margin: 0;
+  text-transform: uppercase;
   vertical-align: middle;
 
   // custom line-height to ensure the multi-line behaviour is done in the right conditions
   line-height: 1.786;
 
   @at-root #{$parent}__label {
-    @include set-line-height("04", "s");
+    @include set-line-height($flag-font-size, $flag-line-height);
 
     border: $flag-border solid transparent;
     box-decoration-break: clone;
@@ -22,14 +32,17 @@ $flag-border: get-border("s");
 @mixin set-flag-theme($parent, $props) {
   #{$parent} {
     &__label {
-      color: map-get($props, "text");
+      color: var(--color-flag-text, map-get($props, "text"));
 
       @if map-has-key($props, "border") {
-        border-color: map-get($props, "border");
+        border-color: var(--color-flag-border, map-get($props, "border"));
       }
 
       @if map-has-key($props, "background") {
-        background-color: map-get($props, "background");
+        background-color: var(
+          --color-flag-background,
+          map-get($props, "background")
+        );
       }
     }
   }

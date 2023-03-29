@@ -18,7 +18,7 @@ $input-sizes: (
   "m": (
     "font-size": "05",
     "line-height": "m",
-    "padding-v": if($preset-zodio, $mu100, $mu075),
+    "padding-v": if($preset-zodio, px-to-rem(10), $mu075),
     "padding-h":
       if($preset-zodio, px-to-rem(15), ($mu075 - $input-border-width)),
   ),
