@@ -1,3 +1,12 @@
+// Preset
+$preset-zodio: false;
+@if $preset == "zodio" {
+  $preset-zodio: true;
+}
+
+$field-label-font-size: if($preset-zodio, "05", "04");
+$field-label-line-height: if($preset-zodio, "s", "m");
+
 @mixin set-field-label() {
   @include set-font-scale("04", "xs");
 

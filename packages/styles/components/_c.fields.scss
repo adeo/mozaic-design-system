@@ -5,7 +5,7 @@
 
   &__label,
   &__legend {
-    @include set-font-scale("04", "m");
+    @include set-font-scale($field-label-font-size, $field-label-line-height);
     @include set-font-weight();
 
     color: $color-fields-label;
@@ -25,7 +25,7 @@
 
   &__requirement,
   &__help {
-    @include set-font-scale("02", "m");
+    @include set-font-scale("02", "l");
     @include set-font-weight();
 
     color: $color-fields-requirement;
