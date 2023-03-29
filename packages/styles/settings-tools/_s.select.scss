@@ -1,6 +1,5 @@
 // Preset
 $preset-zodio: false;
-
 @if $preset == "zodio" {
   $preset-zodio: true;
 }
@@ -14,14 +13,14 @@ $select-sizes: (
     "font-size": if($preset-zodio, "05", "04"),
     "line-height": if($preset-zodio, "m", "s"),
     "padding-left":
-    if(
-      $preset-zodio,
-      px-to-rem(15),
-      calc(#{$mu050} - #{$select-border-width})
-    ),
+      if(
+        $preset-zodio,
+        px-to-rem(15),
+        calc(#{$mu050} - #{$select-border-width})
+      ),
     "padding-right": px-to-rem(39),
     "padding-v":
-    if($preset-zodio, $mu025, calc(#{$mu050} - #{$select-border-width})),
+      if($preset-zodio, $mu025, calc(#{$mu050} - #{$select-border-width})),
   ),
   "m": (
     "background-position-1": $mu100,
@@ -29,14 +28,18 @@ $select-sizes: (
     "font-size": "05",
     "line-height": if($preset-zodio, "m", "s"),
     "padding-left":
-    if(
-      $preset-zodio,
-      px-to-rem(15),
-      calc(#{$mu075} - #{$select-border-width})
-    ),
+      if(
+        $preset-zodio,
+        px-to-rem(15),
+        calc(#{$mu075} - #{$select-border-width})
+      ),
     "padding-right": px-to-rem(39),
     "padding-v":
-    if($preset-zodio, $mu100, calc(0.9375rem - #{$select-border-width})),
+      if(
+        $preset-zodio,
+        px-to-rem(10),
+        calc(0.9375rem - #{$select-border-width})
+      ),
   ),
 );
 $select-default-size: map-get($select-sizes, "m");
@@ -67,8 +70,7 @@ $select-background-arrow-disabled: url("#{inline-icons('arrow-down-16', $color-i
     map-get($sizeProps, "line-height")
   );
 
-  background-position:
-    right $background-position-1 center,
+  background-position: right $background-position-1 center,
     right $background-position-2 center;
 
   // remove border height and center baseline optically
