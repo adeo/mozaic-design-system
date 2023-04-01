@@ -1,6 +1,5 @@
-@use "t.map-tools" as *;
-
 @use "sass:math";
+@use "t.map-tools" as *;
 
 @mixin set-line-height($size, $line-height) {
   $line-height-value: get-token(size, line, $size, $line-height);

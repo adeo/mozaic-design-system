@@ -1,10 +1,11 @@
 @use "sass:map";
 @use "sass:meta";
+
 // Default path
 $font-path: "/fonts";
 
 @if meta.variable-exists(local-config) {
-  @if meta.type-of($local-config) == map and map.has-key($local-config, font-path) {
+  @if meta.type-of($local-config) == map and  map.has-key($local-config, font-path) {
     $font-path: map.get($local-config, "font-path");
   }
 }

@@ -53,7 +53,6 @@ $heading-sizes: (
     $underline-margin-from-l: map.get($props, "underline-margin@from-l");
 
     // headings sizes
-
     &--#{$size} {
       @include set-font-scale($font-scale, "m");
 
@@ -71,7 +70,6 @@ $heading-sizes: (
     }
 
     // underline sizes depending on the font-scale
-
     &--#{$size}#{$parent}--underline::after {
       width: $underline-width;
       margin-top: $underline-margin;
@@ -88,7 +86,6 @@ $heading-sizes: (
     }
 
     // alternative extra small line-height
-
     &--#{$size}#{$parent}--line-height-xs {
       @include set-line-height($font-scale, "xs");
 
