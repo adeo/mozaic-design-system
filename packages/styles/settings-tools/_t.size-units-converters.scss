@@ -1,5 +1,7 @@
 @use "sass:math";
 
+@use "@mozaic-ds/tokens" as *;
+
 // a conversion tool to express things in rem taking account of the local 1rem value
 @function px-to-rem($px-val) {
   @return math.div($px-val, $local-rem-value) * 1rem;

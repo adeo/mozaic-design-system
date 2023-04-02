@@ -1,5 +1,11 @@
-/* mqp:start */
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
 
+// @use component files
+@use "s.radio" as *;
+
+/* mqp:start */
 /* stylelint-disable no-descending-specificity */
 .mc-radio {
   $parent: get-parent-selector(&);
@@ -128,5 +134,4 @@
   }
 }
 /* stylelint-enable */
-
 /* mqp:end */

@@ -1,3 +1,9 @@
+@use "s.fonts-faces" as *;
+@use "s.fonts-scale" as *;
+@use "s.headings" as *;
+@use "s.screens" as *;
+@use "t.selectors" as *;
+
 /* mqp:start */
 .mt-heading {
   $parent: get-parent-selector(&, ".mt-");
@@ -7,7 +13,6 @@
   margin-bottom: $mu200;
 
   // add underline style
-
   &--underline::after {
     content: "";
     display: block;
@@ -16,7 +21,6 @@
   }
 
   // underline color variations
-
   &--line-primary-02-600::after {
     background-color: $color-primary-02-600;
   }
@@ -30,7 +34,6 @@
   }
 
   // text alignment
-
   &--center {
     @include modify-from-screens($major-screens) {
       text-align: center;
@@ -65,17 +68,14 @@
   }
 
   // sizes modifiers
-
   @include mod-heading-sizes($parent);
 
   // text color
-
   &--lightest {
     color: $color-font-lightest;
   }
 
   // font-weight variations
-
   &--light {
     @include set-font-weight("light");
   }
@@ -85,5 +85,4 @@
     @include set-font-weight("semi-bold");
   }
 }
-
 /* mqp:end */

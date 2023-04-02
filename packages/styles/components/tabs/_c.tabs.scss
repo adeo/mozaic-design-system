@@ -1,7 +1,13 @@
 @use "sass:math";
 
-/* mqp:start */
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
 
+// @use component files
+@use "../divider/t.divider" as *;
+
+/* mqp:start */
 .mc-tabs {
   $parent: get-parent-selector(&);
 
@@ -160,5 +166,4 @@
     width: auto;
   }
 }
-
 /* mqp:end */

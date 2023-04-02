@@ -1,5 +1,9 @@
 @use "sass:math";
 
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
 .mc-option-card {
   $parent: get-parent-selector(&);
 

@@ -1,3 +1,10 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "t.hero" as *;
+
 .mc-hero {
   $parent: get-parent-selector(&);
 

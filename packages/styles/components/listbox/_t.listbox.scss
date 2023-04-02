@@ -1,0 +1,22 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/t.inline-icons" as *;
+
+// @use component - settings
+@use "s.listbox" as *;
+
+@mixin listbox-tile-selected($position: center, $size: auto) {
+  background-image: url("#{inline-icons('notification-available-24', $color-grey-900)}");
+  background-repeat: no-repeat;
+  background-position: $position;
+
+  @if $size != auto {
+    background-size: $mu150;
+  }
+}
+
+@mixin listbox-tile-hover() {
+  background-color: $color-listbox-tile-hover-background;
+  box-shadow: inset 9px 0 0 -7px $color-listbox-tile-shadow;
+}

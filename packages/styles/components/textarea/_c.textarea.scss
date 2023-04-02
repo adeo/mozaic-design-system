@@ -1,3 +1,7 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
 /* mqp:start */
 .mc-textarea {
   $border-width: get-border("s");
@@ -15,8 +19,7 @@
   transition: all ease 200ms;
 
   // remove border height and center baseline optically
-  padding:
-    calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
+  padding: calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
     calc(#{$mu075} + 0.125em - #{$border-width});
 
   &:hover {
@@ -45,5 +48,4 @@
     color: $color-input-placeholder;
   }
 }
-
 /* mqp:end */

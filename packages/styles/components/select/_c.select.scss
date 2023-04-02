@@ -1,3 +1,11 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.select" as *;
+@use "t.select" as *;
+
 /* mqp:start */
 .mc-select {
   @include reset-input();

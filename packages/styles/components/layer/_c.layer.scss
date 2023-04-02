@@ -1,5 +1,13 @@
 @use "sass:math";
 
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "../modal/t.modal" as *;
+@use "../divider/t.divider" as *;
+
 .mc-layer {
   $parent: get-parent-selector(&);
 

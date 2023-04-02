@@ -1,3 +1,7 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
 /* mqp:start */
 .mc-tooltip {
   $parent: get-parent-selector(&);
@@ -176,5 +180,4 @@
     }
   }
 }
-
 /* mqp:end */

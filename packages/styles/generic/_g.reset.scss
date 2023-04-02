@@ -1,3 +1,5 @@
+@use "s.fonts-faces.scss" as *;
+
 html {
   @include set-font-face();
 

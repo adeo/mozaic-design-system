@@ -1,9 +1,11 @@
 @use "sass:map";
-@use "s.border" as *;
-@use "s.fonts-scale" as *;
-@use "s.magic-unit" as *;
-@use "s.radius" as *;
-@use "t.inline-icons" as *;
+
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools/s.border" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/s.radius" as *;
+@use "../../settings-tools/t.inline-icons" as *;
 
 $select-border-width: get-border("s");
 $select-sizes: (
@@ -33,22 +35,3 @@ $select-background-valid: url("#{inline-icons('notification-circle-available-24'
 $select-background-valid-b64: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMS41cmVtIiB3aWR0aD0iMS41cmVtIiBmaWxsPSIjNDZhNjEwIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMiA0YTggOCAwIDExLTggOCA4IDggMCAwMTgtOG0wLTJhMTAgMTAgMCAxMDEwIDEwQTEwIDEwIDAgMDAxMiAyeiIvPjxwYXRoIGQ9Ik0xMC43MyAxNS43NWExIDEgMCAwMS0uNjgtLjI2bC0zLTIuNzRhMSAxIDAgMDExLjM2LTEuNDdsMi4yNSAyLjA4IDQuMzYtNC40MmExIDEgMCAxMTEuNDIgMS40MWwtNSA1LjFhMSAxIDAgMDEtLjcxLjN6Ii8+PC9zdmc+");
 $select-background-invalid: url("#{inline-icons('notification-warning-24', $color-input-invalid-border)}");
 $select-background-invalid-b64: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMS41cmVtIiB3aWR0aD0iMS41cmVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9IiNjNjExMTIiPjxwYXRoIGQ9Ik0xMiAyYTEwIDEwIDAgMTAxMCAxMEExMCAxMCAwIDAwMTIgMnptMCAxOGE4IDggMCAxMTgtOCA4IDggMCAwMS04IDh6Ii8+PHBhdGggZD0iTTEyIDdhMSAxIDAgMDAtMSAxdjQuMzhhMSAxIDAgMDAyIDBWOGExIDEgMCAwMC0xLTF6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxNiIgcj0iMSIvPjwvc3ZnPg==");
-
-@mixin set-select-size($sizeProps) {
-  $background-position-1: map.get($sizeProps, "background-position-1");
-  $background-position-2: map.get($sizeProps, "background-position-2");
-  $padding-left: map.get($sizeProps, "padding-left");
-  $padding-right: map.get($sizeProps, "padding-right");
-  $padding-v: map.get($sizeProps, "padding-v");
-
-  @include set-font-scale(
-    map.get($sizeProps, "font-size"),
-    map.get($sizeProps, "line-height")
-  );
-
-  background-position: right $background-position-1 center,
-    right $background-position-2 center;
-
-  // remove border height and center baseline optically
-  padding: $padding-v $padding-right $padding-v $padding-left;
-}

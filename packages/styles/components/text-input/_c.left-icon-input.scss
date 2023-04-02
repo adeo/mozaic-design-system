@@ -1,3 +1,11 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.text-input" as *;
+@use "t.text-input" as *;
+
 /* mqp:start */
 .mc-left-icon-input {
   $parent: get-parent-selector(&);
@@ -23,5 +31,4 @@
     }
   }
 }
-
 /* mqp:end */

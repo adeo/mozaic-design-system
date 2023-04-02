@@ -1,29 +1,5 @@
-@use "sass:map";
-@use "sass:math";
-@use "s.border";
-@use "s.magic-unit" as *;
-@use "s.radius" as *;
-@use "t.map-tools" as *;
+@use "../../settings-tools/s.border" as *;
+@use "../../settings-tools/t.map-tools" as *;
 
 $badges: get-token(color, badge);
 $badge-border: get-border("s");
-
-@mixin set-badge-base() {
-  @include set-border-radius();
-
-  border: $badge-border solid transparent;
-  display: inline-block;
-  padding: math.div($mu025, 2) math.div($mu175, 4); // =2px 7px
-  text-transform: lowercase;
-  white-space: nowrap;
-
-  &::first-letter {
-    text-transform: uppercase;
-  }
-}
-
-@mixin set-badge-theme($props) {
-  background-color: map.get($props, "background");
-  border-color: map.get($props, "border");
-  color: map.get($props, "text");
-}

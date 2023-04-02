@@ -1,0 +1,44 @@
+@use "s.checkbox" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/t.inline-icons" as *;
+
+@mixin set-checkbox-input() {
+  min-width: $checkbox-min-width;
+  min-height: $checkbox-min-height;
+  width: $checkbox-width;
+  height: $checkbox-width;
+  border-radius: $checkbox-border-radius;
+  border: $checkbox-border-width solid $color-input-border;
+  background: $color-input-background;
+  position: relative;
+  transition: all 200ms ease;
+  cursor: pointer;
+
+  &::-ms-check {
+    border: $checkbox-border-width solid $color-input-border;
+    background: $color-input-background;
+    border-radius: $checkbox-border-radius;
+    color: $color-input-checked-icon;
+  }
+}
+
+@mixin set-checkbox-checked() {
+  &:checked {
+    background-color: $color-input-checked-background;
+    border-color: $color-input-checked-border;
+    background-image: url("#{inline-icons('checkmark-16', $color-input-checked-icon)}");
+    background-position: center center;
+    background-size: $mu100;
+
+    &::-ms-check {
+      background-color: $color-input-checked-background;
+      border-color: $color-input-checked-border;
+    }
+
+    &:disabled {
+      border-color: $color-input-disabled-border;
+      background: $color-input-disabled-background;
+      background-image: url("#{inline-icons('checkmark-16', $color-input-disabled-icon)}");
+    }
+  }
+}

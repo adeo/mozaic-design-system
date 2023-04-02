@@ -1,5 +1,13 @@
 @use "sass:math";
 
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.text-input" as *;
+@use "t.text-input" as *;
+
 /* mqp:start */
 .mc-text-input {
   @include reset-input();
@@ -71,5 +79,4 @@
     }
   }
 }
-
 /* mqp:end */

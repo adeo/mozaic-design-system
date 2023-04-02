@@ -1,0 +1,48 @@
+@use "sass:map";
+
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools/s.fonts-scale" as *;
+@use "../../settings-tools/t.inline-icons" as *;
+
+@mixin set-stars-size($sizeProps) {
+  $height: map.get($sizeProps, "height");
+  $width: map.get($sizeProps, "width");
+
+  height: $height;
+  width: $width;
+}
+
+@mixin set-stars-container($sizeProps) {
+  $height: map.get($sizeProps, "height");
+  $width: map.get($sizeProps, "width");
+
+  height: $height;
+  width: $width * 5;
+}
+
+@mixin set-stars-background($sizeProps, $type: "input") {
+  $icon: map.get($sizeProps, "icon");
+  $icon-empty: map.get($sizeProps, "icon-empty");
+  $icon-full: map.get($sizeProps, "icon-full");
+  $icon-color-default: $color-star-full;
+  $icon-color-before: $color-star-hover;
+
+  @if $type == "result" {
+    $icon-color-default: $color-star-full;
+    $icon-color-before: $color-star-full;
+  }
+
+  background-image: url("#{inline-icons($icon-empty, $icon-color-default)}");
+
+  &::before {
+    background-image: url("#{inline-icons($icon-full, $icon-color-before)}");
+  }
+}
+
+@mixin set-starts-label($sizeProps) {
+  $font-size: map.get($sizeProps, "font-size");
+  $line-height: map.get($sizeProps, "line-height");
+
+  @include set-font-scale($font-size, $line-height);
+}

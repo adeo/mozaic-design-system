@@ -1,10 +1,8 @@
 @use "sass:map";
-@use "s.border" as *;
-@use "s.fonts-scale" as *;
-@use "s.magic-unit" as *;
-@use "s.radius" as *;
-@use "t.inline-icons" as *;
-@use "t.map-tools" as *;
+@use "../../settings-tools/s.border" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/s.radius" as *;
+@use "../../settings-tools/t.map-tools" as *;
 
 $stars: get-token(color, star);
 $stars-sizes: (
@@ -60,45 +58,3 @@ $stars-focus-radius: get-border-radius("m");
 $stars-default-size: map.get($stars-sizes, "m");
 $stars-default-size-label: map.get($stars-sizes-label, "m");
 $stars-default-bg-size: map-deep-get($stars-sizes, "m", "width");
-
-@mixin set-stars-size($sizeProps) {
-  $height: map.get($sizeProps, "height");
-  $width: map.get($sizeProps, "width");
-
-  height: $height;
-  width: $width;
-}
-
-@mixin set-stars-container($sizeProps) {
-  $height: map.get($sizeProps, "height");
-  $width: map.get($sizeProps, "width");
-
-  height: $height;
-  width: $width * 5;
-}
-
-@mixin set-stars-background($sizeProps, $type: "input") {
-  $icon: map.get($sizeProps, "icon");
-  $icon-empty: map.get($sizeProps, "icon-empty");
-  $icon-full: map.get($sizeProps, "icon-full");
-  $icon-color-default: $color-star-full;
-  $icon-color-before: $color-star-hover;
-
-  @if $type == "result" {
-    $icon-color-default: $color-star-full;
-    $icon-color-before: $color-star-full;
-  }
-
-  background-image: url("#{inline-icons($icon-empty, $icon-color-default)}");
-
-  &::before {
-    background-image: url("#{inline-icons($icon-full, $icon-color-before)}");
-  }
-}
-
-@mixin set-starts-label($sizeProps) {
-  $font-size: map.get($sizeProps, "font-size");
-  $line-height: map.get($sizeProps, "line-height");
-
-  @include set-font-scale($font-size, $line-height);
-}

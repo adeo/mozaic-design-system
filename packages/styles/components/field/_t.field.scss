@@ -1,4 +1,4 @@
-@use "s.fonts-scale" as *;
+@use "../../settings-tools/s.fonts-scale" as *;
 
 @mixin set-field-label() {
   @include set-font-scale("04", "xs");

@@ -1,0 +1,43 @@
+@use "sass:map";
+
+// @use settings
+@use "../../settings-tools/s.fonts-scale" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/t.map-tools" as *;
+
+// @use component - settings
+@use "s.flag" as *;
+
+@mixin set-flag-base($parent) {
+  display: inline-block;
+  font-size: get-token(size, font, "04");
+  margin: 0;
+  vertical-align: middle;
+
+  // custom line-height to ensure the multi-line behaviour is done in the right conditions
+  line-height: 1.786;
+
+  @at-root #{$parent}__label {
+    @include set-line-height("04", "s");
+
+    border: $flag-border solid transparent;
+    box-decoration-break: clone;
+    padding: $mu025 $mu050;
+  }
+}
+
+@mixin set-flag-theme($parent, $props) {
+  #{$parent} {
+    &__label {
+      color: map.get($props, "text");
+
+      @if map.has-key($props, "border") {
+        border-color: map.get($props, "border");
+      }
+
+      @if map.has-key($props, "background") {
+        background-color: map.get($props, "background");
+      }
+    }
+  }
+}

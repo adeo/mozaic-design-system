@@ -1,0 +1,55 @@
+@use "sass:math";
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/s.screens" as *;
+@use "../../settings-tools/t.map-tools" as *;
+
+// @use component - settings
+@use "s.toggle" as *;
+
+@mixin set-toggle-size($size) {
+  $toggle-label-font-size: 1;
+  $toggle-switch-width: map-deep-get($toggle-sizes, $size, "width");
+  $toggle-switch-height: map-deep-get($toggle-sizes, $size, "height");
+
+  // opatically align baseline depending on the switch height
+  // using a padding-top
+  $toggle-baseline-alignment: math.div(
+      $toggle-switch-height - $toggle-label-font-size,
+      2
+    ) - 0.125;
+
+  @if $toggle-baseline-alignment < 0 {
+    $toggle-baseline-alignment: 0;
+  }
+
+  height: magic-unit-rem($toggle-switch-height);
+
+  // add the switch width to the padding
+  padding-left: magic-unit-rem($toggle-switch-width, $allow-any-value: true);
+
+  &::before,
+  &::after {
+    border-radius: magic-unit-rem($toggle-switch-height);
+    height: magic-unit-rem($toggle-switch-height);
+  }
+
+  &::before {
+    width: magic-unit-rem($toggle-switch-width);
+  }
+
+  &::after {
+    width: magic-unit-rem($toggle-switch-height);
+  }
+}
+
+@mixin mod-toggle-sizes() {
+  @each $sizeName, $sizeProps in $toggle-sizes {
+    &--#{$sizeName} {
+      @include modify-from-screens($major-screens) {
+        .mc-toggle__label {
+          @include set-toggle-size($sizeName);
+        }
+      }
+    }
+  }
+}

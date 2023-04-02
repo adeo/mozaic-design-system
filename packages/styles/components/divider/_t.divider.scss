@@ -1,0 +1,64 @@
+@use "sass:map";
+@use "sass:string";
+
+// @use settings
+@use "../../settings-tools/s.border" as *;
+@use "../../settings-tools/t.map-tools" as *;
+
+// @use settings of the component
+@use "s.divider" as *;
+
+@mixin divider-layout($position, $color, $width, $size) {
+  $divider-border-size: map.get($divider-sizes, $size);
+
+  background: get-token(color, divider, $color);
+  content: "";
+  display: block;
+
+  @if $position == "bottom" or $position == "top" {
+    margin: 0 auto;
+    height: $divider-border-size;
+    width: string.unquote($width);
+  } @else if $position == "left" or $position == "right" {
+    width: $divider-border-size;
+    height: string.unquote($width);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @if $position == "right" {
+      right: 0;
+    } @else if $position == "left" {
+      left: 0;
+    }
+  }
+}
+
+@mixin set-divider(
+  $position: "bottom",
+  $color: $color-divider-default,
+  $width: "100%",
+  $size: "s"
+) {
+  @if $position == "top" {
+    &::before {
+      @include divider-layout($position, $color, $width, $size);
+      @content;
+    }
+  } @else if $position == "right" {
+    &::after {
+      @include divider-layout($position, $color, $width, $size);
+      @content;
+    }
+  } @else if $position == "bottom" {
+    &::after {
+      @include divider-layout($position, $color, $width, $size);
+      @content;
+    }
+  } @else if $position == "left" {
+    &::before {
+      @include divider-layout($position, $color, $width, $size);
+      @content;
+    }
+  }
+}

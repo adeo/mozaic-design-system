@@ -1,5 +1,8 @@
 @use "sass:map";
-@use "s.magic-unit" as *;
+
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools/s.magic-unit" as *;
 
 $loader-sizes: (
   "s": (
@@ -26,28 +29,3 @@ $loader-theme: (
 $animation-duration-loader: 2s;
 $loader-default-size: map.get($loader-sizes, "m");
 $loader-default-theme: map.get($loader-theme, "primary");
-
-@mixin set-loader-size($props, $parent) {
-  $height-spinner-loader: map.get($props, "height");
-  $width-spinner-loader: map.get($props, "width");
-  $stroke-width-loader: map.get($props, "stroke-width");
-
-  #{$parent} {
-    &__spinner {
-      height: $height-spinner-loader;
-      width: $width-spinner-loader;
-    }
-
-    &__path {
-      stroke-width: $stroke-width-loader;
-    }
-  }
-}
-
-@mixin set-loader-theme($color-loader, $parent) {
-  color: $color-loader;
-
-  #{$parent}__path {
-    stroke: currentcolor;
-  }
-}

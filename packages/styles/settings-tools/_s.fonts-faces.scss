@@ -1,6 +1,8 @@
 @use "sass:map";
 @use "sass:meta";
 
+@use "@mozaic-ds/tokens" as *;
+
 // Default path
 $font-path: "/fonts";
 

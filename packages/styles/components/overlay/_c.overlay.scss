@@ -1,3 +1,10 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "t.overlay" as *;
+
 .mc-overlay {
   @include set-page-overlay();
 }

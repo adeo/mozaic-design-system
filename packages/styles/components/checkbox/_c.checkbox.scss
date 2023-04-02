@@ -1,5 +1,12 @@
-/* mqp:start */
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
 
+// @use component files
+@use "s.checkbox" as *;
+@use "t.checkbox" as *;
+
+/* mqp:start */
 /* stylelint-disable no-descending-specificity */
 .mc-checkbox {
   $parent: get-parent-selector(&);

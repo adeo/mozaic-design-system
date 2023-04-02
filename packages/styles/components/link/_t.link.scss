@@ -1,0 +1,72 @@
+@use "sass:map";
+
+// @use settings
+@use "../../settings-tools/s.focus" as *;
+@use "../../settings-tools/s.fonts-scale" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/s.screens" as *;
+@use "../../settings-tools/s.spaces" as *;
+
+// @use component - settings
+@use "s.link" as *;
+
+@mixin set-link-base() {
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: inherit;
+  justify-content: center;
+  line-height: inherit;
+  text-decoration: underline;
+  transition: color ease 200ms;
+  gap: $mu025;
+
+  &:focus {
+    @include set-focus-floating();
+
+    outline: none;
+  }
+}
+
+@mixin mod-link-sizes() {
+  @each $size, $props in $link-sizes {
+    &--#{$size} {
+      @include modify-from-screens($major-screens) {
+        @include set-font-scale(
+          map.get($props, "font-size"),
+          map.get($props, "line-height")
+        );
+      }
+    }
+  }
+}
+
+@mixin set-link-theme($props) {
+  color: map.get($props, "base");
+
+  @if map.has-key($props, "visited") {
+    &:visited {
+      color: map.get($props, "visited");
+    }
+  }
+
+  @if map.has-key($props, "hover") {
+    &:hover {
+      color: map.get($props, "hover");
+    }
+  }
+
+  @if map.has-key($props, "active") {
+    &:active {
+      color: map.get($props, "active");
+    }
+  }
+
+  @if map.has-key($props, "disabled") {
+    &.is-disabled {
+      color: map.get($props, "disabled");
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,4 +1,12 @@
 @use "sass:map";
+
+// @use settings
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.link" as *;
+@use "t.link" as *;
+
 /* mqp:start */
 .mc-link {
   @include set-link-base();
@@ -26,5 +34,4 @@
     }
   }
 }
-
 /* mqp:end */

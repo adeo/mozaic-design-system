@@ -1,0 +1,20 @@
+@use "sass:map";
+@use "sass:math";
+@use "s.badge" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/s.radius" as *;
+
+@mixin set-badge-base() {
+  @include set-border-radius();
+
+  border: $badge-border solid transparent;
+  display: inline-block;
+  padding: math.div($mu025, 2) math.div($mu175, 4); // =2px 7px
+  white-space: nowrap;
+}
+
+@mixin set-badge-theme($props) {
+  background-color: map.get($props, "background");
+  border-color: map.get($props, "border");
+  color: map.get($props, "text");
+}

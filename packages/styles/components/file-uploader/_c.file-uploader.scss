@@ -1,5 +1,13 @@
 @use "sass:map";
 
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "../button/s.button" as *;
+@use "../button/t.button" as *;
+
 /* mqp:start */
 .mc-fileuploader {
   position: relative;
@@ -153,5 +161,4 @@
     }
   }
 }
-
 /* mqp:end */

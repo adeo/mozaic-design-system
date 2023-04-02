@@ -1,3 +1,7 @@
+@use "s.fonts-faces" as *;
+@use "s.fonts-scale" as *;
+@use "s.screens" as *;
+
 /* mqp:start */
 .mt-hero {
   @include set-font-scale("09");
@@ -34,5 +38,4 @@
     }
   }
 }
-
 /* mqp:end */

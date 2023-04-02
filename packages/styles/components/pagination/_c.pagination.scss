@@ -1,3 +1,9 @@
+// @use settings
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "../select/s.select" as *;
+
 .mc-pagination {
   $parent: get-parent-selector(&);
 

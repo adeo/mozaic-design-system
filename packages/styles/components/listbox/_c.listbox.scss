@@ -1,3 +1,11 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.listbox" as *;
+@use "t.listbox" as *;
+
 .mc-listbox {
   $parent: get-parent-selector(&);
 

@@ -1,0 +1,48 @@
+@use "sass:map";
+@use "sass:math";
+
+// @use settings
+@use "../../settings-tools/s.fonts-scale" as *;
+@use "../../settings-tools/t.map-tools" as *;
+
+// @use component files
+@use "s.text-input" as *;
+
+@mixin set-input-size($sizeProps) {
+  $padding-v: map.get($sizeProps, "padding-v");
+  $padding-h: map.get($sizeProps, "padding-h");
+  $font-size: map.get($sizeProps, "font-size");
+  $line-height: map.get($sizeProps, "line-height");
+  $inner-height: get-token(size, line, $font-size, $line-height);
+  $height: (($padding-v + $input-border-width) * 2) + $inner-height;
+
+  @include set-font-scale($font-size, $line-height);
+
+  min-height: $height;
+  padding: $padding-v $padding-h;
+
+  &::placeholder {
+    @include set-font-scale(
+      map.get($sizeProps, "font-size"),
+      map.get($sizeProps, "line-height")
+    );
+  }
+}
+
+@mixin set-input-icon-size($sizeProps, $parent) {
+  $left: map.get($sizeProps, "left");
+  $height: map.get($sizeProps, "height");
+  $width: map.get($sizeProps, "width");
+  $padding-left: map.get($sizeProps, "padding-left");
+
+  #{$parent}__icon {
+    left: $left;
+    top: 50%;
+    width: $width;
+    height: $height;
+  }
+
+  #{$parent}__input {
+    padding-left: $padding-left;
+  }
+}

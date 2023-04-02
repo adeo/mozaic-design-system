@@ -1,7 +1,7 @@
-@use "sass:string";
 @use "sass:math";
-@use "s.magic-unit" as *;
-@use "s.radius" as *;
+@use "sass:string";
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/s.radius" as *;
 
 $progressbar-sizes: (
   "xs": (

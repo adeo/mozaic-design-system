@@ -1,5 +1,13 @@
 @use "sass:math";
 
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.datatable" as *;
+@use "t.datatable" as *;
+
 .mc-datatable {
   $parent: get-parent-selector(&);
   $border-size: 0.0625rem;
@@ -88,7 +96,8 @@
   &__row {
     $datatable-row: &;
 
-    &-parent:not(.mc-datatable__row-parent--expanded) + .mc-datatable__row-expandable {
+    &-parent:not(.mc-datatable__row-parent--expanded)
+      + .mc-datatable__row-expandable {
       height: 0;
 
       .mc-datatable__row-inner {
@@ -97,7 +106,8 @@
       }
     }
 
-    &-parent.mc-datatable__row-parent--expanded + .mc-datatable__row-expandable {
+    &-parent.mc-datatable__row-parent--expanded
+      + .mc-datatable__row-expandable {
       .mc-datatable__row-inner {
         max-height: 100%;
       }

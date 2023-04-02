@@ -1,5 +1,13 @@
 @use "sass:math";
 
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.stars" as *;
+@use "t.stars" as *;
+
 /* mqp:start */
 .mc-stars-result {
   $parent: get-parent-selector(&);
@@ -80,5 +88,4 @@
     }
   }
 }
-
 /* mqp:end */

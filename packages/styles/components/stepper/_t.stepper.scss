@@ -1,0 +1,46 @@
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/s.radius" as *;
+
+@mixin set-compact-variation($parent) {
+  #{$parent} {
+    &__item {
+      align-items: flex-start;
+      flex-direction: row;
+      padding-bottom: $mu125;
+
+      &::before,
+      &::after {
+        bottom: 0;
+        border-radius: get-border-radius("l");
+        height: $mu025;
+        top: auto;
+      }
+
+      &::after {
+        width: 100%;
+      }
+
+      &::before {
+        z-index: 2;
+        width: calc(var(--current) * 100% / var(--steps));
+      }
+
+      &:not(#{$parent}__item--current) {
+        display: none;
+      }
+    }
+
+    &__indicator {
+      display: none;
+    }
+
+    &__detail {
+      text-align: left;
+    }
+
+    &__title {
+      display: block;
+      margin-bottom: $mu025;
+    }
+  }
+}

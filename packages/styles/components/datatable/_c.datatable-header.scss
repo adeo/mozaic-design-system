@@ -1,5 +1,11 @@
 @use "sass:math";
 
+// @use settings
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.datatable" as *;
+
 .mc-datatable {
   $parent: get-parent-selector(&);
 

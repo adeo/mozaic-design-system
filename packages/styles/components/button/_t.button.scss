@@ -1,0 +1,114 @@
+@use "sass:map";
+@use "s.button" as *;
+@use "../../settings-tools/s.fonts-scale" as *;
+@use "../../settings-tools/s.screens" as *;
+
+@mixin set-button-size($sizeProps) {
+  @include set-font-scale(
+    map.get($sizeProps, "font-size"),
+    map.get($sizeProps, "line-height")
+  );
+
+  padding: map.get($sizeProps, "padding-v") map.get($sizeProps, "padding-h");
+  min-height: map.get($sizeProps, "min-height");
+  min-width: map.get($sizeProps, "min-height");
+
+  .mc-button__icon {
+    width: map.get($sizeProps, "icon-size");
+    height: map.get($sizeProps, "icon-size");
+
+    &:first-child,
+    &:last-child {
+      margin-bottom: map.get($sizeProps, "icon-margin-bottom");
+      margin-top: map.get($sizeProps, "icon-margin-top");
+    }
+
+    &:only-child {
+      margin-bottom: 0;
+      margin-top: 0;
+      width: map.get($sizeProps, "only-icon-size");
+      height: map.get($sizeProps, "only-icon-size");
+    }
+  }
+}
+
+@mixin mod-button-sizes() {
+  @each $sizeName, $sizeProps in $button-sizes {
+    &--#{$sizeName} {
+      @include modify-from-screens($major-screens) {
+        @include set-button-size($sizeProps);
+      }
+    }
+  }
+}
+
+@mixin set-button-theme($props, $is-default: false) {
+  $button-color: map.get($props, "font");
+
+  @if $button-color != $button-color-default or $is-default == true {
+    color: $button-color;
+  }
+
+  @if map.has-key($props, "border") {
+    border-color: map.get($props, "border");
+  }
+
+  @if map.has-key($props, "background") {
+    background-color: map.get($props, "background");
+  } @else {
+    background-color: transparent;
+  }
+
+  @if map.has-key($props, "hover") {
+    $hover-props: map.get($props, "hover");
+    $button-color-hover: map.get($hover-props, "font");
+
+    &:hover {
+      @if map.has-key($hover-props, "background") {
+        background-color: map.get($hover-props, "background");
+      }
+
+      @if map.has-key($hover-props, "font") {
+        @if $button-color != $button-color-default or $is-default == true {
+          color: $button-color-hover;
+        }
+      } @else {
+        color: $button-color;
+      }
+    }
+  }
+
+  @if map.has-key($props, "active") {
+    $active-props: map.get($props, "active");
+
+    @each $prop, $value in $active-props {
+      &:active {
+        background-color: map.get($active-props, "background");
+        color: map.get($active-props, "font");
+      }
+    }
+  }
+
+  @if map.has-key($props, "disabled") {
+    $disabled-props: map.get($props, "disabled");
+
+    &:disabled {
+      border-color: transparent;
+      background-color: map.get($disabled-props, "background");
+      color: map.get($disabled-props, "font");
+      cursor: not-allowed;
+    }
+  }
+}
+
+@mixin set-button-layout() {
+  cursor: pointer;
+  border-radius: $button-radius;
+  text-align: center;
+  border: $button-border solid transparent;
+  transition: all ease 200ms;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}

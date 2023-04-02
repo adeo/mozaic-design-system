@@ -1,4 +1,5 @@
 @use "sass:meta";
+@use "@mozaic-ds/tokens" as *;
 
 @if meta.variable-exists("mozaic-env") and $mozaic-env == development {
   $grid-line-color: rgb(0 100 100 / 0.1);
@@ -8,8 +9,7 @@
 
   .mdu-magic-unit-grid {
     box-shadow: inset 0 0 0 1px $grid-shadow-color;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         90deg,
         $grid-line-color 1px,
         transparent 1px
@@ -19,8 +19,7 @@
       linear-gradient(0deg, $grid-subline-color 1px, transparent 1px),
       linear-gradient(90deg, $grid-subline-color 1px, transparent 1px),
       linear-gradient(0deg, $grid-subline-color 1px, transparent 1px);
-    background-size:
-      $grid-magic-unit $grid-magic-unit,
+    background-size: $grid-magic-unit $grid-magic-unit,
       $grid-magic-unit $grid-magic-unit,
       calc(#{$grid-magic-unit} / 2) calc(#{$grid-magic-unit} / 2),
       calc(#{$grid-magic-unit} / 2) calc(#{$grid-magic-unit} / 2),

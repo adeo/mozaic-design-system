@@ -1,5 +1,13 @@
 @use "sass:math";
 
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.tag" as *;
+@use "t.tag" as *;
+
 /* mqp:start */
 .mc-tag {
   &-text {
@@ -94,23 +102,20 @@
 
       :checked + & {
         background: $color-tag-selectable-light-selected-background;
-        box-shadow:
-          inset 0 0 0 get-border("s")
+        box-shadow: inset 0 0 0 get-border("s")
           $color-tag-selectable-light-selected-background;
         color: $color-tag-selectable-light-selected-text;
 
         &:hover {
           background: $color-tag-selectable-light-selected-hover-background;
-          box-shadow:
-            inset 0 0 0 get-border("s")
+          box-shadow: inset 0 0 0 get-border("s")
             $color-tag-selectable-light-selected-hover-background;
         }
       }
 
       &:active {
         background: $color-tag-selectable-light-active-background;
-        box-shadow:
-          inset 0 0 0 get-border("s")
+        box-shadow: inset 0 0 0 get-border("s")
           $color-tag-selectable-light-active-border;
         color: $color-tag-selectable-light-active-text;
       }
@@ -140,8 +145,7 @@
 
         &:active {
           background: $color-tag-selectable-dark-active-background;
-          box-shadow:
-            inset 0 0 0 get-border("s")
+          box-shadow: inset 0 0 0 get-border("s")
             $color-tag-selectable-dark-active-border;
           color: $color-tag-selectable-dark-active-text;
         }
@@ -149,8 +153,7 @@
 
       :checked + .mc-tag-selectable__pill {
         background: $color-tag-selectable-dark-selected-background;
-        box-shadow:
-          inset 0 0 0 get-border("s")
+        box-shadow: inset 0 0 0 get-border("s")
           $color-tag-selectable-dark-selected-border;
         color: $color-tag-selectable-dark-selected-text;
 

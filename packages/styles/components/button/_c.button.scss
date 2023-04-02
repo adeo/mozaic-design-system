@@ -1,3 +1,10 @@
+// @use settings
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.button" as *;
+@use "t.button" as *;
+
 /* mqp:start */
 .mc-button {
   @include unstyle-button();
@@ -85,5 +92,4 @@
     }
   }
 }
-
 /* mqp:end */

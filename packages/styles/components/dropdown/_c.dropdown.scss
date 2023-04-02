@@ -1,3 +1,12 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "../select/s.select" as *;
+@use "../select/t.select" as *;
+@use "s.dropdown" as *;
+
 .mc-dropdown {
   $parent: get-parent-selector(&);
 

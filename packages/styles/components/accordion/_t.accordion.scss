@@ -1,24 +1,23 @@
 @use "sass:map";
 @use "sass:math";
-@use "s.fonts-scale" as *;
-@use "s.magic-unit" as *;
-@use "t.inline-icons" as *;
 
-// component
-@use "./s.accordion" as *;
+// settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools/" as *;
 
 @mixin set-accordion-size($size, $parent) {
   $background-open: map.get($size, "background-open");
   $background-close: map.get($size, "background-close");
   $background-size: map.get($size, "background-size");
   $font-size: map.get($size, "font-size");
+  $icon-size: map-get($size, "icon-size");
   $padding-right: map.get($size, "padding-right");
   $padding-v: map.get($size, "padding-v");
 
-  // #{$parent}__icon {
-  //   height: $icon-size;
-  //   width: $icon-size;
-  // }
+  #{$parent}__icon {
+    height: $icon-size;
+    width: $icon-size;
+  }
 
   // new HTML structure
   #{$parent}__title {
@@ -73,11 +72,4 @@
       }
     }
   }
-}
-
-@mixin set-accordion-icon($size) {
-  $icon-size: map.get($size, "icon-size");
-
-  height: $icon-size;
-  width: $icon-size;
 }

@@ -1,3 +1,11 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.notification" as *;
+@use "t.notification" as *;
+
 /* mqp:start */
 .mc-notification {
   $parent: get-parent-selector(&);
@@ -123,5 +131,4 @@
     }
   }
 }
-
 /* mqp:end */

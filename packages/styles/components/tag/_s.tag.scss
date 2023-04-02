@@ -1,10 +1,6 @@
-@use "sass:map";
-@use "s.border" as *;
-@use "s.focus" as *;
-@use "s.fonts-scale" as *;
-@use "s.magic-unit" as *;
-@use "t.inline-icons" as *;
-@use "t.map-tools" as *;
+@use "../../settings-tools/s.border" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+@use "../../settings-tools/t.map-tools" as *;
 
 $tag-themes: get-token(color, tag);
 $tag-border: get-border("s");
@@ -26,53 +22,3 @@ $tag-sizes: (
     "border-radius": $mu125,
   ),
 );
-
-@mixin set-tag-size($size) {
-  $props: map.get($tag-sizes, $size);
-
-  @include set-font-scale(
-    map.get($props, "font-size"),
-    map.get($props, "line-height")
-  );
-
-  border-radius: map.get($props, "border-radius");
-  padding: map.get($props, "padding");
-
-  @include set-focus-floating-base() {
-    border-radius: (map.get($props, "border-radius") + $size-focus-gap);
-    top: -($size-focus-gap);
-    right: -($size-focus-gap);
-    bottom: -($size-focus-gap);
-    left: -($size-focus-gap);
-  }
-}
-
-@mixin set-tag-base-style($size) {
-  @include set-tag-size($size);
-
-  display: inline-flex;
-}
-
-@mixin set-tag-removable-icon($size) {
-  @if $size == "s" {
-    width: $mu150;
-    height: $mu150;
-    background-size: $mu100;
-  }
-
-  @if $size == "m" {
-    width: $mu250;
-    height: $mu250;
-    background-size: $mu150;
-  }
-}
-
-@mixin set-tag-icon-base64($theme: "light") {
-  @if $theme == "light" {
-    background-image: url("#{inline-icons('tag-delete-24', $color-tag-removable-light-icon)}");
-  }
-
-  @if $theme == "dark" {
-    background-image: url("#{inline-icons('tag-delete-24', $color-tag-removable-dark-icon)}");
-  }
-}

@@ -1,11 +1,8 @@
 @use "sass:map";
 @use "sass:math";
-@use "s.fonts-scale" as *;
-@use "s.magic-unit" as *;
-@use "t.map-tools" as *;
+@use "../../settings-tools/s.magic-unit" as *;
 
 $input-border-width: 0.0625rem; // get-border('s');
-
 $input-sizes: (
   "s": (
     "font-size": "04",
@@ -36,42 +33,3 @@ $input-icon-sizes: (
 );
 $input-default-size: map.get($input-sizes, "m");
 $input-icon-default-size: map.get($input-icon-sizes, "m");
-
-@mixin set-input-size($sizeProps) {
-  $padding-v: map.get($sizeProps, "padding-v");
-  $padding-h: map.get($sizeProps, "padding-h");
-  $font-size: map.get($sizeProps, "font-size");
-  $line-height: map.get($sizeProps, "line-height");
-  $inner-height: get-token(size, line, $font-size, $line-height);
-  $height: (($padding-v + $input-border-width) * 2) + $inner-height;
-
-  @include set-font-scale($font-size, $line-height);
-
-  min-height: $height;
-  padding: $padding-v $padding-h;
-
-  &::placeholder {
-    @include set-font-scale(
-      map.get($sizeProps, "font-size"),
-      map.get($sizeProps, "line-height")
-    );
-  }
-}
-
-@mixin set-input-icon-size($sizeProps, $parent) {
-  $left: map.get($sizeProps, "left");
-  $height: map.get($sizeProps, "height");
-  $width: map.get($sizeProps, "width");
-  $padding-left: map.get($sizeProps, "padding-left");
-
-  #{$parent}__icon {
-    left: $left;
-    top: 50%;
-    width: $width;
-    height: $height;
-  }
-
-  #{$parent}__input {
-    padding-left: $padding-left;
-  }
-}

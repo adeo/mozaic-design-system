@@ -1,5 +1,5 @@
 @use "sass:map";
-@use "s.magic-unit";
+@use "s.magic-unit" as *;
 
 // local to spaces object,
 // do not use them anywhere,

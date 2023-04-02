@@ -1,8 +1,12 @@
 @use "sass:map";
 @use "sass:math";
-@use "s.fonts-faces" as *;
-@use "s.fonts-scale" as *;
-@use "s.magic-unit" as *;
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools/s.magic-unit" as *;
+
+$presetAdeo: false;
+@if $preset == "adeo" {
+  $presetAdeo: true;
+}
 
 $border-size: 0.0625rem;
 $height-datatable-cell-size-s: $mu250 - $border-size;
@@ -23,52 +27,3 @@ $datatable-sizes: (
   ),
 );
 $datatabke-default-celle-size: map.get($datatable-sizes, "m");
-
-@mixin set-datatable-base() {
-  border-collapse: collapse;
-  border-spacing: 0;
-  caption-side: bottom;
-  width: 100%;
-}
-
-@mixin set-datatable-size($sizesArgs) {
-  &__table {
-    tr {
-      height: map.get($sizesArgs, "height");
-    }
-  }
-
-  thead {
-    th,
-    td {
-      height: map.get($sizesArgs, "height");
-    }
-  }
-}
-
-@mixin set-datatable-head-label() {
-  @include set-font-weight("semi-bold");
-  @include set-font-scale("02", "m"); // 12px / 16px
-
-  color: $color-datatable-thead-font;
-  text-transform: uppercase;
-}
-
-@mixin set-datatable-scrollbar() {
-  scrollbar-color: $color-grey-600 $color-grey-100;
-  scrollbar-width: thin;
-
-  &::-webkit-scrollbar {
-    background-color: $color-grey-100;
-    height: $mu050;
-    width: $mu050;
-
-    &-track {
-      background: $color-grey-100;
-    }
-
-    &-thumb {
-      background: $color-grey-600;
-    }
-  }
-}

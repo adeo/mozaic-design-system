@@ -1,3 +1,11 @@
+// @use settings
+@use "@mozaic-ds/tokens" as *;
+@use "../../settings-tools" as *;
+
+// @use component files
+@use "s.toggle" as *;
+@use "t.toggle" as *;
+
 /* mqp:start */
 .mc-toggle {
   $parent: get-parent-selector(&);
@@ -25,11 +33,10 @@
 
         &::after {
           border-color: $color-toggle-on-background;
-          background-image: url(
-            inline-icons(
-              "notification-available-16",
-              $color-toggle-on-background
-            ));
+          background-image: url(inline-icons(
+            "notification-available-16",
+            $color-toggle-on-background
+          ));
           transform: translate(100%, -50%);
         }
 
@@ -61,11 +68,10 @@
         &::after {
           border-color: $color-toggle-disabled-background;
           background-color: $color-toggle-disabled-circle;
-          background-image: url(
-            inline-icons(
-              "control-cross-16",
-              $color-toggle-disabled-background
-            ));
+          background-image: url(inline-icons(
+            "control-cross-16",
+            $color-toggle-disabled-background
+          ));
           // cursor: not-allowed;
         }
       }
@@ -80,11 +86,10 @@
           &::after {
             border-color: $color-toggle-disabled-checked-background;
             background-color: $color-toggle-disabled-checked-circle;
-            background-image: url(
-              inline-icons(
-                "notification-available-16",
-                $color-toggle-disabled-checked-background
-              ));
+            background-image: url(inline-icons(
+              "notification-available-16",
+              $color-toggle-disabled-checked-background
+            ));
             background-size: $mu100;
             // cursor: not-allowed;
           }
@@ -131,8 +136,7 @@
     &::before {
       background-color: $color-toggle-off-background;
       will-change: background-color, border-color, box-shadow;
-      transition: background-color 100ms ease,
-        border-color 100ms ease,
+      transition: background-color 100ms ease, border-color 100ms ease,
         box-shadow 200ms ease;
     }
 

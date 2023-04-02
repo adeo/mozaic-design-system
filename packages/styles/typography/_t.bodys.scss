@@ -1,3 +1,6 @@
+@use "s.fonts-faces.scss" as *;
+@use "s.fonts-scale.scss" as *;
+
 /* mqp:start */
 .mt-body {
   &-l {
@@ -39,5 +42,4 @@
     }
   }
 }
-
 /* mqp:end */

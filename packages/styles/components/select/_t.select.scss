@@ -1,0 +1,21 @@
+@use "sass:map";
+@use "../../settings-tools/s.fonts-scale" as *;
+
+@mixin set-select-size($sizeProps) {
+  $background-position-1: map.get($sizeProps, "background-position-1");
+  $background-position-2: map.get($sizeProps, "background-position-2");
+  $padding-left: map.get($sizeProps, "padding-left");
+  $padding-right: map.get($sizeProps, "padding-right");
+  $padding-v: map.get($sizeProps, "padding-v");
+
+  @include set-font-scale(
+    map.get($sizeProps, "font-size"),
+    map.get($sizeProps, "line-height")
+  );
+
+  background-position: right $background-position-1 center,
+    right $background-position-2 center;
+
+  // remove border height and center baseline optically
+  padding: $padding-v $padding-right $padding-v $padding-left;
+}
