@@ -1,7 +1,7 @@
 .mc-progressbar {
   $parent: get-parent-selector(&);
 
-  @include set-font-family ();
+  @include set-font-family();
 
   align-items: center;
   background-color: $color-progress-background;
@@ -12,7 +12,7 @@
 
   &,
   &__indicator {
-    border-radius: get-border-radius("m");
+    border-radius: px-to-rem(get-token(radius, "m"));
     overflow: hidden;
   }
 
