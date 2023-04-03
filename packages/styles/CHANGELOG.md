@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.18](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-beta.17...v2.0.0-beta.18) (2023-04-03)
+
+### Features
+
+- **styles:** adjust styles ([0882d82](https://github.com/adeo/mozaic-design-system/commit/0882d8235de03adb6411b740bc4bc38110733461))
+
 # [2.0.0-beta.17](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-beta.16...v2.0.0-beta.17) (2023-03-29)
 
 ### Bug Fixes
