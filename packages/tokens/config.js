@@ -221,6 +221,40 @@ const config = {
         },
       ],
     },
+    flutter: {
+      transformGroup: 'flutter',
+      buildPath: setLocalTokensExportPath('flutter'),
+      files: [
+        {
+          destination: 'style_dictionary_color.dart',
+          format: 'flutter/class.dart',
+          className: 'StyleDictionaryColor',
+          type: 'StyleDictionaryColorName',
+          options: {
+            showFileHeader: false,
+          },
+          filter: {
+            attributes: {
+              category: 'color'
+            }
+          }
+        },
+        {
+          destination: 'style_dictionary_sizes.dart',
+          format: 'flutter/class.dart',
+          className: 'StyleDictionarySize',
+          type: 'float',
+          options: {
+            showFileHeader: false,
+          },
+          filter: {
+            attributes: {
+              category: 'size'
+            }
+          }
+        }
+      ]
+    },
   },
   action: customActions,
 }
