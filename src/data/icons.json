@@ -38,6 +38,13 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_24px.svg",
+      "iconName": "PaymentOney"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Oney--3x",
       "fileName": "Logotypes_Payment_Oney--3x_24px.svg",
       "iconName": "PaymentOney3x"
@@ -209,6 +216,13 @@
       "name": "Payment_MB--Way",
       "fileName": "Logotypes_Payment_MB--Way_32px.svg",
       "iconName": "PaymentMBWay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_32px.svg",
+      "iconName": "PaymentOney"
     },
     {
       "cat": "Logotypes",
@@ -388,6 +402,13 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_48px.svg",
+      "iconName": "PaymentOney"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Oney--3x",
       "fileName": "Logotypes_Payment_Oney--3x_48px.svg",
       "iconName": "PaymentOney3x"
@@ -559,6 +580,13 @@
       "name": "Payment_MB--Way",
       "fileName": "Logotypes_Payment_MB--Way_64px.svg",
       "iconName": "PaymentMBWay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_64px.svg",
+      "iconName": "PaymentOney"
     },
     {
       "cat": "Logotypes",
@@ -1157,6 +1185,14 @@
       "fileName": "Logotypes_Payment_Monochrome_MB--Way_24px.svg",
       "iconName": "PaymentMonochromeMBWay",
       "componentName": "PaymentMonochromeMBWay24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_24px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney24"
     },
     {
       "cat": "Logotypes",
@@ -3525,6 +3561,14 @@
       "fileName": "Logotypes_Payment_Monochrome_MB--Way_32px.svg",
       "iconName": "PaymentMonochromeMBWay",
       "componentName": "PaymentMonochromeMBWay32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_32px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney32"
     },
     {
       "cat": "Logotypes",
@@ -5905,6 +5949,14 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_48px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Monochrome_Oney--3x",
       "fileName": "Logotypes_Payment_Monochrome_Oney--3x_48px.svg",
       "iconName": "PaymentMonochromeOney3x",
@@ -8277,6 +8329,14 @@
       "fileName": "Logotypes_Payment_Monochrome_MB--Way_64px.svg",
       "iconName": "PaymentMonochromeMBWay",
       "componentName": "PaymentMonochromeMBWay64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_64px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney64"
     },
     {
       "cat": "Logotypes",
