@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.58.0-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.57.0...v1.58.0-beta.0) (2023-04-14)
+
+### Bug Fixes
+
+- **component/tag:** update of the value of the paddings ([#1415](https://github.com/adeo/mozaic-design-system/issues/1415)) ([e9d2891](https://github.com/adeo/mozaic-design-system/commit/e9d2891f9328dcfa0143297277e2ee139ade7378)), closes [#1412](https://github.com/adeo/mozaic-design-system/issues/1412)
+
+### Features
+
+- **component/datatable:** add the 'Empty DataTable' variation ([#1416](https://github.com/adeo/mozaic-design-system/issues/1416)) ([b5f7ffe](https://github.com/adeo/mozaic-design-system/commit/b5f7ffeb906907a1c9998c07f1ef29df9270f973)), closes [#1373](https://github.com/adeo/mozaic-design-system/issues/1373)
+
 # [1.56.0](https://github.com/adeo/mozaic-design-system/compare/v1.55.0...v1.56.0) (2023-03-22)
 
 ### Bug Fixes
