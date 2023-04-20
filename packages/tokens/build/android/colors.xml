@@ -220,6 +220,8 @@
   <color name="color_datatable_subtable_border">#ffb3b3b3</color>
   <color name="color_datatable_subtable_font">#ff000000</color>
   <color name="color_datatable_icon">#ff46a610</color>
+  <color name="color_datatable_empty_background">#ffe6e6e6</color>
+  <color name="color_datatable_empty_color">#ff666666</color>
   <color name="color_dialog_background">#ffffffff</color>
   <color name="color_dialog_icon">#ff666666</color>
   <color name="color_dialog_close">#ff808080</color>

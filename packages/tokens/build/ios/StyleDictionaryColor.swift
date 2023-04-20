@@ -106,6 +106,8 @@ public class StyleDictionaryColor {
     public static let colorDatatableCellBackgroundSelected = UIColor(red: 0.922, green: 0.961, blue: 0.871, alpha: 1)
     public static let colorDatatableCellFont = UIColor(red: 0.098, green: 0.098, blue: 0.098, alpha: 1)
     public static let colorDatatableContainerBackground = UIColor(red: 0.902, green: 0.902, blue: 0.902, alpha: 1)
+    public static let colorDatatableEmptyBackground = UIColor(red: 0.902, green: 0.902, blue: 0.902, alpha: 1)
+    public static let colorDatatableEmptyColor = UIColor(red: 0.400, green: 0.400, blue: 0.400, alpha: 1)
     public static let colorDatatableFiltersBorder = UIColor(red: 0.702, green: 0.702, blue: 0.702, alpha: 1)
     public static let colorDatatableIcon = UIColor(red: 0.275, green: 0.651, blue: 0.063, alpha: 1)
     public static let colorDatatableSortArrowActive = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1)
