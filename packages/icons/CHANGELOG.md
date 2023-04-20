@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
+
+### Bug Fixes
+
+- regenerate missing tokens & updating icons js files ([#1418](https://github.com/adeo/mozaic-design-system/issues/1418)) ([237174c](https://github.com/adeo/mozaic-design-system/commit/237174c80b1f016966aa6399f8cd1a0b161a94e4))
+
 # [1.58.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.0-beta.0...v1.58.0) (2023-04-14)
 
 **Note:** Version bump only for package @mozaic-ds/icons
