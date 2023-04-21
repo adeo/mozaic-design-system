@@ -95,10 +95,10 @@
             @include set-stars-size($props);
 
             background-size: $bg-variation-size $bg-variation-size;
-            background-image: url(inline-icons($icon-full, $color-star-full));
+            background-image: url(inline-icons("#{$icon-full}", $color-star-full));
 
             &::before {
-              background-image: url(inline-icons($icon-full, $color-star-full));
+              background-image: url(inline-icons("#{$icon-full}", $color-star-full));
               background-size: $bg-variation-size $bg-variation-size;
             }
           }
@@ -109,14 +109,14 @@
               & ~ #{$parent}__label {
                 background-image: url(
                   inline-icons(
-                    $icon-empty,
+                    "#{$icon-empty}",
                     $color-star-full
                   ));
               }
               & + #{$parent}__label {
                 background-image: url(
                   inline-icons(
-                    $icon-full,
+                    "#{$icon-full}",
                     $color-star-full
                   ));
               }
@@ -126,7 +126,7 @@
               & ~ #{$parent}__label {
                 background-image: url(
                   inline-icons(
-                    $icon-empty,
+                    "#{$icon-empty}",
                     $color-star-full
                   ));
               }
@@ -134,7 +134,7 @@
               & + #{$parent}__label {
                 background-image: url(
                   inline-icons(
-                    $icon-full,
+                    "#{$icon-full}",
                     $color-star-full
                   ));
               }
