@@ -1,7 +1,7 @@
 ---
 title: 'Segmented control'
 order: 1
-description: 'The Segmented control component allows users to switch from one view to another for the same data or information set.'
+description: 'With Segmented control component, users are able to switch from one view to another for the same data or information set.'
 status:
   figma: 'ready'
   scss: 'ready'
@@ -13,65 +13,52 @@ status:
 </Highlight>
 
 > With Segmented control component, users are able to switch from one view to another for the same data or information set.  
-A view is therefore a different display format. For example, it can be a question of switching from a grid view to a list view, or different period formats: daily, monthly, annual.
+A view is therefore a different display format. For example, it can be a question of switching from a grid view to a list view, or between different period formats: daily, monthly, annual.
 
 <!-- Add preview -->
 
 ## Variations
 
-Number: 2, 3
-Sizes: S, M
-Padding auto
+### Sizes
 
-## Behaviours
+The component is available in 2 different heights.
 
-Draft
+| Variation        | Height |
+| ---------------- | ------ |
+| S                | 32px   |
+| M                | 48px   |
+
+These variations in size ensure consistency with other elements of the interface.  
+Indeed, make your choice according to the variation chosen for the other components like buttons or inputs.
+
+### Options
+
+Based on the most frequent uses, the component is available with 2 or 3 options.
+An option corresponds to a view.
+
+### Padding
+Padding can be based on option labels or set automatically according to the needed alignment.
 
 <!-- Add preview -->
-
-<Highlight theme="tips" title="Good to know">
-Draft
-</Highlight>
 
 ## States
 
-Draft
-
-## Animation
-
-Draft
-
-## Restrictions
-
-| Height           | Value |
-| ---------------- | ----- |
-| Minimal          | 64px  |
-| Maximal          | 221px |
-
-## Layout
-
-Draft
-
-<!-- Add preview -->
+Only 2 possible states: active and inactive.  
+Option is active when selected and related format displayed.  
+Only one option can be active at a time.
 
 <Highlight theme="tips" title="Good to know">
-Draft
+Options can't be disabled.
 </Highlight>
 
 ## How to use
 
-### Draft
-
-| Fontsizes           | Usage |
-| ------------------- | ----- |
-| 23px | Useful to create hierarchy within process/features when the user navigates to a different page or subpage. Often combined with the back button. |
-| 28px | By default, on homepage and at the beginning of process/features and business journeys/gestures. |
-| 34px | Specific uses like landing pages |
+≠ than filters, tabs and toggle
 
 ## Do's and Don'ts
 
 <HintItem>
-  Do
+  Do: list, tables and data vizualization
 </HintItem>
 
 <HintItem dont>
@@ -79,9 +66,9 @@ Draft
 </HintItem>
 
 <HintItem dont>
-  Dont
+  Dont: ≠ than filters and tabs
 </HintItem>
 
 <HintItem dont>
-  Dont
+  Dont: resize width w/ padding auto
 </HintItem>
