@@ -1,19 +1,20 @@
 ---
 title: 'Segmented control'
 order: 1
-description: 'With Segmented control component, users are able to switch from one view to another for the same data or information set.'
+description: 'Segmented control allows users to switch from one view to another with the same data or information set.  
+What we call "view" is a display format. For example, it could be switching from a grid view to a list view or between different period formats, like daily, monthly or annual.'
 status:
   figma: 'ready'
   scss: 'ready'
 ---
 
 <Highlight theme="warning" title="Work in progress">
-    Please, note that the Segmented control is a beta component and it will be improved
-  through the following sprints.
+  Please, note that the Segmented control is a beta component and it will be
+  improved through the following sprints.
 </Highlight>
 
-> With Segmented control component, users are able to switch from one view to another for the same data or information set.  
-A view is therefore a different display format. For example, it can be a question of switching from a grid view to a list view, or between different period formats: daily, monthly, annual.
+> Segmented control allows users to switch from one view to another with the same data or information set.  
+> What we call "view" is a display format. For example, it could be switching from a grid view to a list view or between different period formats, like daily, monthly or annual.
 
 <!-- Add preview -->
 
@@ -21,40 +22,44 @@ A view is therefore a different display format. For example, it can be a questio
 
 ### Sizes
 
-The component is available in 2 different heights.
+The component is available in two different sizes.
 
-| Variation        | Height |
-| ---------------- | ------ |
-| S                | 32px   |
-| M                | 48px   |
+| Variation | Height     |
+| --------- | ---------- |
+| Small     | 2mu (32px) |
+| Medium    | 3mu (48px) |
 
-These variations in size ensure consistency with other elements of the interface.  
-Indeed, make your choice according to the variation chosen for the other components like buttons or inputs.
+These variations ensure consistency with other elements of the interface. Please, make choices according to the variation chosen for the other components, such as buttons or inputs.
 
-### Options
+### Segments
 
-Based on the most frequent uses, the component is available with 2 or 3 options.
-An option corresponds to a view.
+The component is available with two or three segments. Each of them corresponds to a view.
 
-### Padding
-Padding can be based on option labels or set automatically according to the needed alignment.
+## Behaviours
+
+### Width
+
+Depending on the layout, the width of the Segmented control can fit its content or container.
 
 <!-- Add preview -->
 
+### Selection
+
+Only one segment can be active at a time. Layout or format must change instantly when a segment is selected.
+
 ## States
 
-Only 2 possible states: active and inactive.  
-Option is active when selected and related format displayed.  
-Only one option can be active at a time.
+<!-- Add preview -->
 
 <Highlight theme="tips" title="Good to know">
-Options can't be disabled.
+  Segments can't be disabled. Avoid using the segmented control if a view isn't
+  yet developed.
 </Highlight>
 
 ## How to use
 
 Uses of Segmented control are quite different from Filter, [Toggle](/Components/Form/Toggle/) and [Tabs](/Components/Tabs/).  
-Please use one of these components when filtering, taking binary actions and navigating.
+Please use one of these components when users need to filter, take binary actions or navigate.
 
 ## Do's and Don'ts
 
@@ -62,14 +67,8 @@ Please use one of these components when filtering, taking binary actions and nav
   Provide different display formats for lists, tables and data vizualizations
 </HintItem>
 
-<HintItem>
-  Keep option labels short and clear
-</HintItem>
+<HintItem>Keep segment labels short and clear.</HintItem>
 
-<HintItem dont>
-  Dont use as filters or tabs
-</HintItem>
+<HintItem dont>Don't use a segmented control as filters or tabs.</HintItem>
 
-<HintItem dont>
-  Never resize width with padding auto activated
-</HintItem>
+<HintItem dont>Never resize the width of a segment manually.</HintItem>
