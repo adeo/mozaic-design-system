@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.59.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.1...v1.59.0) (2023-04-27)
+
+### Features
+
+- **component/autocomplete-dropdown:** improve the display of the loader & the clear button ([#1421](https://github.com/adeo/mozaic-design-system/issues/1421)) ([68d9954](https://github.com/adeo/mozaic-design-system/commit/68d99540afb401d9c83e4a770847ac3f9bd7e790))
+- **docs:** add built-in menu documentation ([#1390](https://github.com/adeo/mozaic-design-system/issues/1390)) ([5091091](https://github.com/adeo/mozaic-design-system/commit/509109121bbd79385d309bcea46a73aa38cda5af))
+
 ## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
 
 ### Bug Fixes
