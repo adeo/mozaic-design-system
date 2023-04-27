@@ -8,13 +8,21 @@
   width: 100%;
 
   &__tag,
-  &__loader,
-  &__clear {
+  &__tools {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: $dropdown-tag-zindex;
   }
+
+  // &__tag,
+  // &__loader,
+  // &__clear {
+  //   position: absolute;
+  //   top: 50%;
+  //   transform: translateY(-50%);
+  //   z-index: $dropdown-tag-zindex;
+  // }
 
   &__tag {
     left: $mu075;
@@ -32,22 +40,31 @@
     }
 
     // invalid state
-    &.is-invalid {
-      & ~ #{$parent} {
-        &__clear {
-          right: px-to-rem(72);
-        }
+    // &.is-invalid {
+    //   & ~ #{$parent} {
+    //     &__clear {
+    //       right: px-to-rem(72);
+    //     }
 
-        &__loader {
-          right: px-to-rem(104);
-        }
-      }
-    }
+    //     &__loader {
+    //       right: px-to-rem(104);
+    //     }
+    //   }
+    // }
   }
 
-  &__loader {
+  &__tools {
+    align-items: center;
     background-color: $color-input-background;
+    display: flex;
+    gap: $mu050;
+    justify-content: flex-end;
     right: $mu250;
+
+    .is-valid + &,
+    .is-invalid + & {
+      right: px-to-rem(72);
+    }
   }
 
   &__clear {
@@ -56,7 +73,6 @@
 
     background: none;
     border-radius: 50%;
-    right: $mu250;
 
     &,
     &-icon {
@@ -77,22 +93,6 @@
     #{$parent} {
       &__trigger {
         padding-left: calc($mu075 + var(--dropdown-tag-width, 0px));
-      }
-    }
-  }
-
-  &--clearable {
-    #{$parent} {
-      &__trigger {
-        padding-right: px-to-rem(72);
-
-        &.is-invalid {
-          padding-right: px-to-rem(104);
-        }
-      }
-
-      &__loader {
-        right: px-to-rem(72);
       }
     }
   }
