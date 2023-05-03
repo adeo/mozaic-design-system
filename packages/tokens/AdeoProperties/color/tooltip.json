@@ -1,0 +1,12 @@
+{
+  "color": {
+    "tooltip": {
+      "background": {
+        "value": "{color.secondary-blue.600.value}"
+      },
+      "border": {
+        "value": "{color.grey.000.value}"
+      }
+    }
+  }
+}

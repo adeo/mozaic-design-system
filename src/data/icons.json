@@ -38,6 +38,13 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_24px.svg",
+      "iconName": "PaymentOney"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Oney--3x",
       "fileName": "Logotypes_Payment_Oney--3x_24px.svg",
       "iconName": "PaymentOney3x"
@@ -209,6 +216,13 @@
       "name": "Payment_MB--Way",
       "fileName": "Logotypes_Payment_MB--Way_32px.svg",
       "iconName": "PaymentMBWay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_32px.svg",
+      "iconName": "PaymentOney"
     },
     {
       "cat": "Logotypes",
@@ -388,6 +402,13 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_48px.svg",
+      "iconName": "PaymentOney"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Oney--3x",
       "fileName": "Logotypes_Payment_Oney--3x_48px.svg",
       "iconName": "PaymentOney3x"
@@ -559,6 +580,13 @@
       "name": "Payment_MB--Way",
       "fileName": "Logotypes_Payment_MB--Way_64px.svg",
       "iconName": "PaymentMBWay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Oney",
+      "fileName": "Logotypes_Payment_Oney_64px.svg",
+      "iconName": "PaymentOney"
     },
     {
       "cat": "Logotypes",
@@ -1161,6 +1189,14 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_24px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Monochrome_Oney--3x",
       "fileName": "Logotypes_Payment_Monochrome_Oney--3x_24px.svg",
       "iconName": "PaymentMonochromeOney3x",
@@ -1273,6 +1309,14 @@
     {
       "cat": "Media",
       "size": "24px",
+      "name": "Image-alt",
+      "fileName": "Media_Image-alt_24px.svg",
+      "iconName": "Imagealt",
+      "componentName": "Imagealt24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
       "name": "NoPicture",
       "fileName": "Media_NoPicture_24px.svg",
       "iconName": "NoPicture",
@@ -1285,6 +1329,14 @@
       "fileName": "Media_Pdf_24px.svg",
       "iconName": "Pdf",
       "componentName": "Pdf24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
+      "name": "Picker",
+      "fileName": "Media_Picker_24px.svg",
+      "iconName": "Picker",
+      "componentName": "Picker24"
     },
     {
       "cat": "Media",
@@ -1329,6 +1381,14 @@
     {
       "cat": "Media",
       "size": "24px",
+      "name": "Push-pin-off",
+      "fileName": "Media_Push-pin-off_24px.svg",
+      "iconName": "Pushpinoff",
+      "componentName": "Pushpinoff24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
       "name": "Read",
       "fileName": "Media_Read_24px.svg",
       "iconName": "Read",
@@ -1341,6 +1401,22 @@
       "fileName": "Media_ReduceScreen_24px.svg",
       "iconName": "ReduceScreen",
       "componentName": "ReduceScreen24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
+      "name": "Release",
+      "fileName": "Media_Release_24px.svg",
+      "iconName": "Release",
+      "componentName": "Release24"
+    },
+    {
+      "cat": "Media",
+      "size": "24px",
+      "name": "Server",
+      "fileName": "Media_Server_24px.svg",
+      "iconName": "Server",
+      "componentName": "Server24"
     },
     {
       "cat": "Media",
@@ -2737,6 +2813,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Drill-alt",
+      "fileName": "Universe_Drill-alt_24px.svg",
+      "iconName": "Drillalt",
+      "componentName": "Drillalt24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Electricity",
       "fileName": "Universe_Electricity_24px.svg",
       "iconName": "Electricity",
@@ -2769,6 +2853,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Garden",
+      "fileName": "Universe_Garden_24px.svg",
+      "iconName": "Garden",
+      "componentName": "Garden24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Garden1",
       "fileName": "Universe_Garden1_24px.svg",
       "iconName": "Garden1",
@@ -2793,6 +2885,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Hard-hat-alt",
+      "fileName": "Universe_Hard-hat-alt_24px.svg",
+      "iconName": "Hardhatalt",
+      "componentName": "Hardhatalt24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_24px.svg",
       "iconName": "HardwareStore",
@@ -2809,6 +2909,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Insulation-alt",
+      "fileName": "Universe_Insulation-alt_24px.svg",
+      "iconName": "Insulationalt",
+      "componentName": "Insulationalt24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Kids",
       "fileName": "Universe_Kids_24px.svg",
       "iconName": "Kids",
@@ -2821,6 +2929,14 @@
       "fileName": "Universe_Kitchen_24px.svg",
       "iconName": "Kitchen",
       "componentName": "Kitchen24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Kitchen-alt",
+      "fileName": "Universe_Kitchen-alt_24px.svg",
+      "iconName": "Kitchenalt",
+      "componentName": "Kitchenalt24"
     },
     {
       "cat": "Universe",
@@ -2865,6 +2981,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Masonry-alt",
+      "fileName": "Universe_Masonry-alt_24px.svg",
+      "iconName": "Masonryalt",
+      "componentName": "Masonryalt24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Paint",
       "fileName": "Universe_Paint_24px.svg",
       "iconName": "Paint",
@@ -2889,6 +3013,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Stairs",
+      "fileName": "Universe_Stairs_24px.svg",
+      "iconName": "Stairs",
+      "componentName": "Stairs24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Terrace",
       "fileName": "Universe_Terrace_24px.svg",
       "iconName": "Terrace",
@@ -2901,6 +3033,14 @@
       "fileName": "Universe_Tool_24px.svg",
       "iconName": "Tool",
       "componentName": "Tool24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Wallpaper",
+      "fileName": "Universe_Wallpaper_24px.svg",
+      "iconName": "Wallpaper",
+      "componentName": "Wallpaper24"
     },
     {
       "cat": "Universe",
@@ -3033,6 +3173,14 @@
     {
       "cat": "Various",
       "size": "24px",
+      "name": "A11y",
+      "fileName": "Various_A11y_24px.svg",
+      "iconName": "A11y",
+      "componentName": "A11y24"
+    },
+    {
+      "cat": "Various",
+      "size": "24px",
       "name": "Administration",
       "fileName": "Various_Administration_24px.svg",
       "iconName": "Administration",
@@ -3061,6 +3209,14 @@
       "fileName": "Various_Blower_24px.svg",
       "iconName": "Blower",
       "componentName": "Blower24"
+    },
+    {
+      "cat": "Various",
+      "size": "24px",
+      "name": "Company",
+      "fileName": "Various_Company_24px.svg",
+      "iconName": "Company",
+      "componentName": "Company24"
     },
     {
       "cat": "Various",
@@ -3409,6 +3565,14 @@
     {
       "cat": "Logotypes",
       "size": "32px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_32px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
       "name": "Payment_Monochrome_Oney--3x",
       "fileName": "Logotypes_Payment_Monochrome_Oney--3x_32px.svg",
       "iconName": "PaymentMonochromeOney3x",
@@ -3521,6 +3685,14 @@
     {
       "cat": "Media",
       "size": "32px",
+      "name": "Image-alt",
+      "fileName": "Media_Image-alt_32px.svg",
+      "iconName": "Imagealt",
+      "componentName": "Imagealt32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
       "name": "NoPicture",
       "fileName": "Media_NoPicture_32px.svg",
       "iconName": "NoPicture",
@@ -3533,6 +3705,14 @@
       "fileName": "Media_Pdf_32px.svg",
       "iconName": "Pdf",
       "componentName": "Pdf32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Picker",
+      "fileName": "Media_Picker_32px.svg",
+      "iconName": "Picker",
+      "componentName": "Picker32"
     },
     {
       "cat": "Media",
@@ -3577,6 +3757,22 @@
     {
       "cat": "Media",
       "size": "32px",
+      "name": "Push-pin",
+      "fileName": "Media_Push-pin_32px.svg",
+      "iconName": "Pushpin",
+      "componentName": "Pushpin32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Push-pin-off",
+      "fileName": "Media_Push-pin-off_32px.svg",
+      "iconName": "Pushpinoff",
+      "componentName": "Pushpinoff32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
       "name": "Read",
       "fileName": "Media_Read_32px.svg",
       "iconName": "Read",
@@ -3589,6 +3785,22 @@
       "fileName": "Media_ReduceScreen_32px.svg",
       "iconName": "ReduceScreen",
       "componentName": "ReduceScreen32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Release",
+      "fileName": "Media_Release_32px.svg",
+      "iconName": "Release",
+      "componentName": "Release32"
+    },
+    {
+      "cat": "Media",
+      "size": "32px",
+      "name": "Server",
+      "fileName": "Media_Server_32px.svg",
+      "iconName": "Server",
+      "componentName": "Server32"
     },
     {
       "cat": "Media",
@@ -4985,6 +5197,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Drill-alt",
+      "fileName": "Universe_Drill-alt_32px.svg",
+      "iconName": "Drillalt",
+      "componentName": "Drillalt32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Electricity",
       "fileName": "Universe_Electricity_32px.svg",
       "iconName": "Electricity",
@@ -5017,6 +5237,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Garden",
+      "fileName": "Universe_Garden_32px.svg",
+      "iconName": "Garden",
+      "componentName": "Garden32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Garden1",
       "fileName": "Universe_Garden1_32px.svg",
       "iconName": "Garden1",
@@ -5041,6 +5269,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Hard-hat-alt",
+      "fileName": "Universe_Hard-hat-alt_32px.svg",
+      "iconName": "Hardhatalt",
+      "componentName": "Hardhatalt32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_32px.svg",
       "iconName": "HardwareStore",
@@ -5057,6 +5293,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Insulation-alt",
+      "fileName": "Universe_Insulation-alt_32px.svg",
+      "iconName": "Insulationalt",
+      "componentName": "Insulationalt32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Kids",
       "fileName": "Universe_Kids_32px.svg",
       "iconName": "Kids",
@@ -5069,6 +5313,14 @@
       "fileName": "Universe_Kitchen_32px.svg",
       "iconName": "Kitchen",
       "componentName": "Kitchen32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Kitchen-alt",
+      "fileName": "Universe_Kitchen-alt_32px.svg",
+      "iconName": "Kitchenalt",
+      "componentName": "Kitchenalt32"
     },
     {
       "cat": "Universe",
@@ -5113,6 +5365,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Masonry-alt",
+      "fileName": "Universe_Masonry-alt_32px.svg",
+      "iconName": "Masonryalt",
+      "componentName": "Masonryalt32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Paint",
       "fileName": "Universe_Paint_32px.svg",
       "iconName": "Paint",
@@ -5137,6 +5397,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Stairs",
+      "fileName": "Universe_Stairs_32px.svg",
+      "iconName": "Stairs",
+      "componentName": "Stairs32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Terrace",
       "fileName": "Universe_Terrace_32px.svg",
       "iconName": "Terrace",
@@ -5149,6 +5417,14 @@
       "fileName": "Universe_Tool_32px.svg",
       "iconName": "Tool",
       "componentName": "Tool32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Wallpaper",
+      "fileName": "Universe_Wallpaper_32px.svg",
+      "iconName": "Wallpaper",
+      "componentName": "Wallpaper32"
     },
     {
       "cat": "Universe",
@@ -5281,6 +5557,14 @@
     {
       "cat": "Various",
       "size": "32px",
+      "name": "A11y",
+      "fileName": "Various_A11y_32px.svg",
+      "iconName": "A11y",
+      "componentName": "A11y32"
+    },
+    {
+      "cat": "Various",
+      "size": "32px",
       "name": "Administration",
       "fileName": "Various_Administration_32px.svg",
       "iconName": "Administration",
@@ -5309,6 +5593,14 @@
       "fileName": "Various_Blower_32px.svg",
       "iconName": "Blower",
       "componentName": "Blower32"
+    },
+    {
+      "cat": "Various",
+      "size": "32px",
+      "name": "Company",
+      "fileName": "Various_Company_32px.svg",
+      "iconName": "Company",
+      "componentName": "Company32"
     },
     {
       "cat": "Various",
@@ -5657,6 +5949,14 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_48px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Monochrome_Oney--3x",
       "fileName": "Logotypes_Payment_Monochrome_Oney--3x_48px.svg",
       "iconName": "PaymentMonochromeOney3x",
@@ -5769,6 +6069,14 @@
     {
       "cat": "Media",
       "size": "48px",
+      "name": "Image-alt",
+      "fileName": "Media_Image-alt_48px.svg",
+      "iconName": "Imagealt",
+      "componentName": "Imagealt48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
       "name": "NoPicture",
       "fileName": "Media_NoPicture_48px.svg",
       "iconName": "NoPicture",
@@ -5781,6 +6089,14 @@
       "fileName": "Media_Pdf_48px.svg",
       "iconName": "Pdf",
       "componentName": "Pdf48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Picker",
+      "fileName": "Media_Picker_48px.svg",
+      "iconName": "Picker",
+      "componentName": "Picker48"
     },
     {
       "cat": "Media",
@@ -5825,6 +6141,22 @@
     {
       "cat": "Media",
       "size": "48px",
+      "name": "Push-pin",
+      "fileName": "Media_Push-pin_48px.svg",
+      "iconName": "Pushpin",
+      "componentName": "Pushpin48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Push-pin-off",
+      "fileName": "Media_Push-pin-off_48px.svg",
+      "iconName": "Pushpinoff",
+      "componentName": "Pushpinoff48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
       "name": "Read",
       "fileName": "Media_Read_48px.svg",
       "iconName": "Read",
@@ -5837,6 +6169,22 @@
       "fileName": "Media_ReduceScreen_48px.svg",
       "iconName": "ReduceScreen",
       "componentName": "ReduceScreen48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Release",
+      "fileName": "Media_Release_48px.svg",
+      "iconName": "Release",
+      "componentName": "Release48"
+    },
+    {
+      "cat": "Media",
+      "size": "48px",
+      "name": "Server",
+      "fileName": "Media_Server_48px.svg",
+      "iconName": "Server",
+      "componentName": "Server48"
     },
     {
       "cat": "Media",
@@ -7233,6 +7581,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Drill-alt",
+      "fileName": "Universe_Drill-alt_48px.svg",
+      "iconName": "Drillalt",
+      "componentName": "Drillalt48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Electricity",
       "fileName": "Universe_Electricity_48px.svg",
       "iconName": "Electricity",
@@ -7265,6 +7621,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Garden",
+      "fileName": "Universe_Garden_48px.svg",
+      "iconName": "Garden",
+      "componentName": "Garden48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Garden1",
       "fileName": "Universe_Garden1_48px.svg",
       "iconName": "Garden1",
@@ -7289,6 +7653,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Hard-hat-alt",
+      "fileName": "Universe_Hard-hat-alt_48px.svg",
+      "iconName": "Hardhatalt",
+      "componentName": "Hardhatalt48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_48px.svg",
       "iconName": "HardwareStore",
@@ -7305,6 +7677,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Insulation-alt",
+      "fileName": "Universe_Insulation-alt_48px.svg",
+      "iconName": "Insulationalt",
+      "componentName": "Insulationalt48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Kids",
       "fileName": "Universe_Kids_48px.svg",
       "iconName": "Kids",
@@ -7317,6 +7697,14 @@
       "fileName": "Universe_Kitchen_48px.svg",
       "iconName": "Kitchen",
       "componentName": "Kitchen48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Kitchen-alt",
+      "fileName": "Universe_Kitchen-alt_48px.svg",
+      "iconName": "Kitchenalt",
+      "componentName": "Kitchenalt48"
     },
     {
       "cat": "Universe",
@@ -7361,6 +7749,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Masonry-alt",
+      "fileName": "Universe_Masonry-alt_48px.svg",
+      "iconName": "Masonryalt",
+      "componentName": "Masonryalt48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Paint",
       "fileName": "Universe_Paint_48px.svg",
       "iconName": "Paint",
@@ -7385,6 +7781,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Stairs",
+      "fileName": "Universe_Stairs_48px.svg",
+      "iconName": "Stairs",
+      "componentName": "Stairs48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Terrace",
       "fileName": "Universe_Terrace_48px.svg",
       "iconName": "Terrace",
@@ -7397,6 +7801,14 @@
       "fileName": "Universe_Tool_48px.svg",
       "iconName": "Tool",
       "componentName": "Tool48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Wallpaper",
+      "fileName": "Universe_Wallpaper_48px.svg",
+      "iconName": "Wallpaper",
+      "componentName": "Wallpaper48"
     },
     {
       "cat": "Universe",
@@ -7529,6 +7941,14 @@
     {
       "cat": "Various",
       "size": "48px",
+      "name": "A11y",
+      "fileName": "Various_A11y_48px.svg",
+      "iconName": "A11y",
+      "componentName": "A11y48"
+    },
+    {
+      "cat": "Various",
+      "size": "48px",
       "name": "Administration",
       "fileName": "Various_Administration_48px.svg",
       "iconName": "Administration",
@@ -7557,6 +7977,14 @@
       "fileName": "Various_Blower_48px.svg",
       "iconName": "Blower",
       "componentName": "Blower48"
+    },
+    {
+      "cat": "Various",
+      "size": "48px",
+      "name": "Company",
+      "fileName": "Various_Company_48px.svg",
+      "iconName": "Company",
+      "componentName": "Company48"
     },
     {
       "cat": "Various",
@@ -7905,6 +8333,14 @@
     {
       "cat": "Logotypes",
       "size": "64px",
+      "name": "Payment_Monochrome_Oney",
+      "fileName": "Logotypes_Payment_Monochrome_Oney_64px.svg",
+      "iconName": "PaymentMonochromeOney",
+      "componentName": "PaymentMonochromeOney64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
       "name": "Payment_Monochrome_Oney--3x",
       "fileName": "Logotypes_Payment_Monochrome_Oney--3x_64px.svg",
       "iconName": "PaymentMonochromeOney3x",
@@ -8017,6 +8453,14 @@
     {
       "cat": "Media",
       "size": "64px",
+      "name": "Image-alt",
+      "fileName": "Media_Image-alt_64px.svg",
+      "iconName": "Imagealt",
+      "componentName": "Imagealt64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
       "name": "NoPicture",
       "fileName": "Media_NoPicture_64px.svg",
       "iconName": "NoPicture",
@@ -8029,6 +8473,14 @@
       "fileName": "Media_Pdf_64px.svg",
       "iconName": "Pdf",
       "componentName": "Pdf64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Picker",
+      "fileName": "Media_Picker_64px.svg",
+      "iconName": "Picker",
+      "componentName": "Picker64"
     },
     {
       "cat": "Media",
@@ -8073,6 +8525,22 @@
     {
       "cat": "Media",
       "size": "64px",
+      "name": "Push-pin",
+      "fileName": "Media_Push-pin_64px.svg",
+      "iconName": "Pushpin",
+      "componentName": "Pushpin64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Push-pin-off",
+      "fileName": "Media_Push-pin-off_64px.svg",
+      "iconName": "Pushpinoff",
+      "componentName": "Pushpinoff64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
       "name": "Read",
       "fileName": "Media_Read_64px.svg",
       "iconName": "Read",
@@ -8085,6 +8553,22 @@
       "fileName": "Media_ReduceScreen_64px.svg",
       "iconName": "ReduceScreen",
       "componentName": "ReduceScreen64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Release",
+      "fileName": "Media_Release_64px.svg",
+      "iconName": "Release",
+      "componentName": "Release64"
+    },
+    {
+      "cat": "Media",
+      "size": "64px",
+      "name": "Server",
+      "fileName": "Media_Server_64px.svg",
+      "iconName": "Server",
+      "componentName": "Server64"
     },
     {
       "cat": "Media",
@@ -9481,6 +9965,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Drill-alt",
+      "fileName": "Universe_Drill-alt_64px.svg",
+      "iconName": "Drillalt",
+      "componentName": "Drillalt64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Electricity",
       "fileName": "Universe_Electricity_64px.svg",
       "iconName": "Electricity",
@@ -9513,6 +10005,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Garden",
+      "fileName": "Universe_Garden_64px.svg",
+      "iconName": "Garden",
+      "componentName": "Garden64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Garden1",
       "fileName": "Universe_Garden1_64px.svg",
       "iconName": "Garden1",
@@ -9537,6 +10037,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Hard-hat-alt",
+      "fileName": "Universe_Hard-hat-alt_64px.svg",
+      "iconName": "Hardhatalt",
+      "componentName": "Hardhatalt64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "HardwareStore",
       "fileName": "Universe_HardwareStore_64px.svg",
       "iconName": "HardwareStore",
@@ -9553,6 +10061,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Insulation-alt",
+      "fileName": "Universe_Insulation-alt_64px.svg",
+      "iconName": "Insulationalt",
+      "componentName": "Insulationalt64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Kids",
       "fileName": "Universe_Kids_64px.svg",
       "iconName": "Kids",
@@ -9565,6 +10081,14 @@
       "fileName": "Universe_Kitchen_64px.svg",
       "iconName": "Kitchen",
       "componentName": "Kitchen64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Kitchen-alt",
+      "fileName": "Universe_Kitchen-alt_64px.svg",
+      "iconName": "Kitchenalt",
+      "componentName": "Kitchenalt64"
     },
     {
       "cat": "Universe",
@@ -9609,6 +10133,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Masonry-alt",
+      "fileName": "Universe_Masonry-alt_64px.svg",
+      "iconName": "Masonryalt",
+      "componentName": "Masonryalt64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Paint",
       "fileName": "Universe_Paint_64px.svg",
       "iconName": "Paint",
@@ -9633,6 +10165,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Stairs",
+      "fileName": "Universe_Stairs_64px.svg",
+      "iconName": "Stairs",
+      "componentName": "Stairs64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Terrace",
       "fileName": "Universe_Terrace_64px.svg",
       "iconName": "Terrace",
@@ -9645,6 +10185,14 @@
       "fileName": "Universe_Tool_64px.svg",
       "iconName": "Tool",
       "componentName": "Tool64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Wallpaper",
+      "fileName": "Universe_Wallpaper_64px.svg",
+      "iconName": "Wallpaper",
+      "componentName": "Wallpaper64"
     },
     {
       "cat": "Universe",
@@ -9777,6 +10325,14 @@
     {
       "cat": "Various",
       "size": "64px",
+      "name": "A11y",
+      "fileName": "Various_A11y_64px.svg",
+      "iconName": "A11y",
+      "componentName": "A11y64"
+    },
+    {
+      "cat": "Various",
+      "size": "64px",
       "name": "Administration",
       "fileName": "Various_Administration_64px.svg",
       "iconName": "Administration",
@@ -9805,6 +10361,14 @@
       "fileName": "Various_Blower_64px.svg",
       "iconName": "Blower",
       "componentName": "Blower64"
+    },
+    {
+      "cat": "Various",
+      "size": "64px",
+      "name": "Company",
+      "fileName": "Various_Company_64px.svg",
+      "iconName": "Company",
+      "componentName": "Company64"
     },
     {
       "cat": "Various",
