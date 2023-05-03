@@ -37,3 +37,39 @@ $layer-close-button-size: if($preset-zodio, $mu150, $mu200);
 
 $layer-footer-padding-v-xs: if($preset-zodio, $mu125, $mu100);
 $layer-footer-padding-v-l: if($preset-zodio, $mu125, $mu150);
+
+$layer-max-width-m: if(
+  $preset-zodio,
+  px-to-rem(400),
+  25rem
+);
+
+$layer-max-width-m-medium: if(
+  $preset-zodio,
+  px-to-rem(459),
+  28.6875rem
+);
+
+$layer-max-width-l: if(
+  $preset-zodio,
+  px-to-rem(448),
+  31.78rem
+);
+
+$layer-extend-max-width-m: if(
+  $preset-zodio,
+  px-to-rem(508),
+  31.75rem
+);
+
+$layer-extend-max-width-m-medium: if(
+  $preset-zodio,
+  px-to-rem(581),
+  36.3125rem
+);
+
+$layer-extend-max-width-l: if(
+  $preset-zodio,
+  px-to-rem(688),
+  43rem
+);
