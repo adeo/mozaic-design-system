@@ -23,7 +23,7 @@
     "adm-zip": "^0.5.9",
     "chromedriver": "^107.0.3",
     "core-js": "^3.26.0",
-    "gatsby": "^4.25.4",
+    "gatsby": "^4.25.6",
     "gatsby-plugin-google-analytics": "^4.24.0",
     "glob": "^8.0.3",
     "react": "^17.0.2",
