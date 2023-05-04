@@ -39,28 +39,28 @@
     width: 100%;
 
     @include set-from-screen("m") {
-      max-width: 25rem; // 400px
+      max-width: px-to-rem(400); // 400px
     }
 
     @include set-from-screen("m-medium") {
-      max-width: 28.6875rem; // 459px
+      max-width: px-to-rem(459); // 459px
     }
 
     @include set-from-screen("l") {
-      max-width: 28rem; // 448px;
+      max-width: px-to-rem(448); // 448px;
     }
 
     &--extend {
       @include set-from-screen("m") {
-        max-width: 31.75rem; // 508px;
+        max-width: px-to-rem(508); // 508px;
       }
 
       @include set-from-screen("m-medium") {
-        max-width: 36.3125rem; // 581px
+        max-width: px-to-rem(581); // 581px
       }
 
       @include set-from-screen("l") {
-        max-width: 43rem; // 688px;
+        max-width: px-to-rem(688); // 688px;
       }
     }
   }
