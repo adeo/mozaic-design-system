@@ -39,28 +39,28 @@
     width: 100%;
 
     @include set-from-screen("m") {
-      max-width: $layer-max-width-m; // 400px
+      max-width: px-to-rem(400); // 400px
     }
 
     @include set-from-screen("m-medium") {
-      max-width: $layer-max-width-m-medium; // 459px
+      max-width: px-to-rem(459); // 459px
     }
 
     @include set-from-screen("l") {
-      max-width: $layer-max-width-l; // 448px;
+      max-width: px-to-rem(448); // 448px;
     }
 
     &--extend {
       @include set-from-screen("m") {
-        max-width: $layer-extend-max-width-m; // 508px;
+        max-width: px-to-rem(508); // 508px;
       }
 
       @include set-from-screen("m-medium") {
-        max-width: $layer-extend-max-width-m-mediu; // 581px
+        max-width: px-to-rem(581); // 581px
       }
 
       @include set-from-screen("l") {
-        max-width: $layer-extend-max-width-l; // 688px;
+        max-width: px-to-rem(688); // 688px;
       }
     }
   }
