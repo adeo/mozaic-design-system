@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.19](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-beta.18...v2.0.0-beta.19) (2023-05-04)
+
+### Features
+
+- **layer/zodio:** adapt size ([#1426](https://github.com/adeo/mozaic-design-system/issues/1426)) ([5a26bef](https://github.com/adeo/mozaic-design-system/commit/5a26befc4f67966fc7e6c2002f51d33169202c6c))
+
 # [2.0.0-beta.18](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-beta.17...v2.0.0-beta.18) (2023-04-03)
 
 ### Features
