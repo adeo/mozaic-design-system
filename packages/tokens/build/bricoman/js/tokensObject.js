@@ -4627,6 +4627,50 @@ module.exports = {
           "datatable",
           "icon"
         ]
+      },
+      "empty": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorDatatableEmptyBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#666666",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorDatatableEmptyColor",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "color"
+          ]
+        }
       }
     },
     "dialog": {
