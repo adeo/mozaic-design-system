@@ -220,6 +220,8 @@ $color-datatable-subtable-background: #e6e6e6 !default;
 $color-datatable-subtable-border: #b3b3b3 !default;
 $color-datatable-subtable-font: #000000 !default;
 $color-datatable-icon: #4d5bf5 !default;
+$color-datatable-empty-background: #e6e6e6 !default;
+$color-datatable-empty-color: #666666 !default;
 $color-dialog-background: #ffffff !default;
 $color-dialog-icon: #666666 !default;
 $color-dialog-close: #808080 !default;
@@ -923,7 +925,11 @@ $tokens: (
         'border': $color-datatable-subtable-border,
         'font': $color-datatable-subtable-font
       ),
-      'icon': $color-datatable-icon
+      'icon': $color-datatable-icon,
+      'empty': (
+        'background': $color-datatable-empty-background,
+        'color': $color-datatable-empty-color
+      )
     ),
     'dialog': (
       'background': $color-dialog-background,

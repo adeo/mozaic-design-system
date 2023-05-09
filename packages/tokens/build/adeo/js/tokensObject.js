@@ -4627,6 +4627,50 @@ module.exports = {
           "datatable",
           "icon"
         ]
+      },
+      "empty": {
+        "background": {
+          "value": "#e7e7f0",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.100.value}"
+          },
+          "name": "ColorDatatableEmptyBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#4b4a8c",
+          "filePath": "packages/tokens/src/tokens/adeo/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.600.value}"
+          },
+          "name": "ColorDatatableEmptyColor",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "color"
+          ]
+        }
       }
     },
     "dialog": {
