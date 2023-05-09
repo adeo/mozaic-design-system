@@ -7,9 +7,12 @@
   max-width: var(--autocomplete-width, $autocomplete-width);
   width: 100%;
 
+  &__main {
+    position: relative;
+  }
+
   &__tag,
-  &__loader,
-  &__clear {
+  &__tools {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -17,7 +20,6 @@
   }
 
   &__tag {
-    left: $mu300 - $mu025;
     left: px-to-rem(44);
   }
 
@@ -27,13 +29,17 @@
     white-space: nowrap;
   }
 
-  &__loader {
+  &__tools {
+    align-items: center;
     background-color: $color-input-background;
+    display: flex;
+    gap: $mu050;
+    justify-content: flex-end;
     right: $mu075;
-    z-index: $autocomplete-loader-zindex;
 
-    .mc-left-icon-input.is-invalid ~ & {
-      right: px-to-rem(72);
+    .is-valid + &,
+    .is-invalid + & {
+      right: $mu250;
     }
   }
 
@@ -43,7 +49,6 @@
 
     background: none;
     border-radius: 50%;
-    right: $mu075;
 
     &,
     &-icon {
@@ -58,33 +63,20 @@
     &-text {
       @include visually-hidden();
     }
+  }
 
-    // invalid state
-    .mc-left-icon-input.is-invalid ~ & {
-      right: $mu250;
-    }
+  &__error {
+    @include set-font-scale("04", "m");
+
+    color: $color-fields-error;
+    display: inline-block;
+    margin-top: $mu025;
   }
 
   &--multi {
     #{$parent} {
       &__trigger {
         padding-left: calc(2.9375rem + var(--autocomplete-tag-width, 0px));
-      }
-    }
-  }
-
-  &--clearable {
-    #{$parent} {
-      &__trigger {
-        padding-right: px-to-rem(44);
-
-        &.is-invalid {
-          padding-right: px-to-rem(72);
-        }
-      }
-
-      &__loader {
-        right: px-to-rem(44);
       }
     }
   }
