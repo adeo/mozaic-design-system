@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Highlight, { defaultProps } from 'prism-react-renderer'
+import { Highlight } from 'prism-react-renderer'
 import copyToClipboard from '../../utils/copy-to-clipboard'
 import IconLibrairy from '../IconLibrairy'
 import styled from 'styled-components'
@@ -63,12 +63,7 @@ const copyToClipboardClick = (str, toogleCopy) => {
 }
 
 const CodeHilight = ({ code, language, fullScreen, isOpen }) => (
-  <Highlight
-    {...defaultProps}
-    code={code}
-    language={language}
-    theme={undefined}
-  >
+  <Highlight code={code} language={language}>
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
       <Pre className={className}>
         <CodeBlock
