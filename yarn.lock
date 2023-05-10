@@ -8629,7 +8629,7 @@ gatsby-plugin-flexsearch@^1.0.3:
     fs "^0.0.1-security"
     lodash "^4.17.11"
 
-gatsby-plugin-google-analytics@^4.24.0:
+gatsby-plugin-google-analytics@^4.25.0:
   version "4.25.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.25.0.tgz#9235094d56ddf945eda184c77e1dade08ef2c0da"
   integrity sha512-fbHrViBAbJ0Ch2gcpuJQlGxWoapaNed42k75eR4gCiZPzaTUvCKagJgLG8ro8ukD1rfD594lgLzdSEaYYcH4WQ==
@@ -8638,7 +8638,7 @@ gatsby-plugin-google-analytics@^4.24.0:
     minimatch "3.0.4"
     web-vitals "^1.1.2"
 
-gatsby-plugin-mdx@^3.8.1:
+gatsby-plugin-mdx@^3.20.0:
   version "3.20.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-mdx/-/gatsby-plugin-mdx-3.20.0.tgz#0dff5bc2812fa9ed5aa4e1ecf660d9bc5bc1abfa"
   integrity sha512-v2cFqe1g8lmM745q2DUoqWca0MT/tX++jykBDqpsLDswushpJgUfZeJ8OhSFgBZIfuVk1LoDi5yf4iWfz/UTwQ==
@@ -8700,10 +8700,10 @@ gatsby-plugin-page-creator@^4.25.0:
     globby "^11.1.0"
     lodash "^4.17.21"
 
-gatsby-plugin-react-helmet@5.24.0:
-  version "5.24.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.24.0.tgz#8c9cf8e93e184c87ee9e605467c735c7eb02b821"
-  integrity sha512-SU/SrWsbEFLQhuzDXucYlQ4O5pTdpOdxw07xIRwyFfxFzGml/9f62h2dTtUJOIXP1mYfl31bw7eCbGlc8QzF5w==
+gatsby-plugin-react-helmet@5.25.0:
+  version "5.25.0"
+  resolved "https://registry.npmjs.org/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-5.25.0.tgz#6849d405bfbc0846e73449d4425b45f84ec58fbb"
+  integrity sha512-sU/xae/sGuYFcFDpqUxwXnaOmx8xrU2Q+XSULqAapji0uTBhW6al6CJsaPFigi8IOG2bQX8ano2iWWcGF3/GHw==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
@@ -8842,7 +8842,7 @@ gatsby-worker@^1.25.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@^4.25.6:
+gatsby@^4.25.7:
   version "4.25.7"
   resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.25.7.tgz#56a0c7f9e25fcf895864d88fd648f97e26dd560f"
   integrity sha512-kspM1XokxDw2YqC2hkPKQTfWSNSq/AnY8PNYSrUM+MCsyIKFuGqSVchNonZN1g8/nCoh4jQpBYXH5Uw2Hrs6Sw==
