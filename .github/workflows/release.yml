@@ -7,11 +7,11 @@ jobs:
     name: deploy a mozaic release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 18
       - name: Extract Tag
         id: gettag
         shell: bash
