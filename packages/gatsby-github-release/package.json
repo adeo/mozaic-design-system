@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.11"
   },
   "peerDependencies": {
     "gatsby": "^4.24.7"
