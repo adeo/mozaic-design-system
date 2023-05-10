@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "dependencies": {
     "@mozaic-ds/gatsby-theme-styleguide": "^1.29.1",
