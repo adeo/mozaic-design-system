@@ -9,7 +9,7 @@
     "@mdx-js/react": "^1.6.22",
     "@mozaic-ds/gatsby-github-release": "^1.60.0",
     "@mozaic-ds/gatsby-source-preview": "^1.60.0",
-    "babel-plugin-styled-components": "^2.0.7",
+    "babel-plugin-styled-components": "^2.1.1",
     "gatsby": "^4.25.7",
     "gatsby-plugin-flexsearch": "^1.0.3",
     "gatsby-plugin-mdx": "^3.20.0",
@@ -23,7 +23,7 @@
     "prism-react-renderer": "^1.3.5",
     "react-helmet": "^6.1.0",
     "sass": "^1.62.1",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.10"
   },
   "peerDependencies": {
     "gatsby": "^4.25.7",
