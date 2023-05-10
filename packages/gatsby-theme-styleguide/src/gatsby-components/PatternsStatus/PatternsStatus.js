@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { StaticQuery, graphql, Link } from 'gatsby'
-import StatusFlag from '../StatusFlag'
 import {
   ControlCross16,
   NotificationCircleAvailable24,

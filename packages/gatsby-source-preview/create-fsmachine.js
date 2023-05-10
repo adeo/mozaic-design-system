@@ -6,6 +6,7 @@ const createFSMachine = () =>
     key: `emitFSEvents`,
     type: 'parallel',
     strict: true,
+    predictableActionArguments: true,
     states: {
       CHOKIDAR: {
         initial: `CHOKIDAR_PREVIEW_NOT_READY`,
