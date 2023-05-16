@@ -1,0 +1,47 @@
+{
+  "color": {
+    "sidebar": {
+      "background": {
+        "value": "{color.secondary-blue.900.value}"
+      },
+      "feature": {
+        "background": {
+          "value": "{color.secondary-blue.900.value}"
+        },
+        "hover": {
+          "background": {
+            "value": "{color.secondary-blue.700.value}"
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "{color.secondary-blue.900.value}"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "{color.secondary-blue.400.value}"
+          }
+        }
+      },
+      "user": {
+        "background": {
+          "value": "{color.secondary-blue.800.value}"
+        }
+      },
+      "divider": {
+        "background": {
+          "value": "{color.secondary-blue.600.value}"
+        }
+      },
+      "icon": {
+        "value": "{color.grey.000.value}"
+      },
+      "text": {
+        "color": {
+          "value": "{color.grey.000.value}"
+        }
+      }
+    }
+  }
+}
