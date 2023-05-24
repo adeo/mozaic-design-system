@@ -12,7 +12,7 @@ public class StyleDictionarySize {
     public static let sizeFont04 = CGFloat(14.00) /* 14px */
     public static let sizeFont05 = CGFloat(16.00) /* 16px */
     public static let sizeFont06 = CGFloat(18.00) /* 18px */
-    public static let sizeFont07 = CGFloat(23.00) /* 23px */
+    public static let sizeFont07 = CGFloat(24.00) /* 24px */
     public static let sizeFont08 = CGFloat(28.00) /* 28px */
     public static let sizeFont09 = CGFloat(34.00) /* 34px */
     public static let sizeFont10 = CGFloat(41.00) /* 41px */
