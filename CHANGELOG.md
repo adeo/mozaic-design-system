@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.61.0](https://github.com/adeo/mozaic-design-system/compare/v1.60.0...v1.61.0) (2023-05-25)
+
+### Features
+
+- **font-size:** update font size 07 to 24px ([#1434](https://github.com/adeo/mozaic-design-system/issues/1434)) ([7648ee5](https://github.com/adeo/mozaic-design-system/commit/7648ee5b4c42074a59e0e3aa9d2646a168d7d1a3))
+
 # [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
 
 ### Bug Fixes
