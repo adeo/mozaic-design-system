@@ -19,11 +19,11 @@ jobs:
         shell: bash
         run: echo "::set-output name=branch::$(echo ${GITHUB_REF#refs/heads/} | sed -r 's/[^a-zA-Z0-9]+//g' | tr A-Z a-z)"
       - run: echo ${{ github.ref }} | iconv -t ASCII
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 18
       - run: npm install yarn -g
       - run: yarn lerna
       - name: Build a production website

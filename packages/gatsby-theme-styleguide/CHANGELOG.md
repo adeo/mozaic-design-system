@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Features
+
+- **docs:** add segmented control documentation ([#1420](https://github.com/adeo/mozaic-design-system/issues/1420)) ([781f252](https://github.com/adeo/mozaic-design-system/commit/781f2526db4ba42f48d1cd93631d8380b33c2686))
+
 # [1.54.0](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v1.54.0) (2023-03-02)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide

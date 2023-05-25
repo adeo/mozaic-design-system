@@ -1,0 +1,74 @@
+---
+title: 'Segmented control'
+order: 1
+description: 'Segmented control allows users to switch from one view to another with the same data or information set.  
+What we call "view" is a display format. For example, it could be switching from a grid view to a list view or between different period formats, like daily, monthly or annual.'
+status:
+  figma: 'ready'
+  scss: 'wip'
+---
+
+<Highlight theme="warning" title="Work in progress">
+  Please, note that the Segmented control is a beta component and it will be
+  improved through the following sprints.
+</Highlight>
+
+> Segmented control allows users to switch from one view to another with the same data or information set.  
+> What we call "view" is a display format. For example, it could be switching from a grid view to a list view or between different period formats, like daily, monthly or annual.
+
+<!-- Add preview -->
+
+## Variations
+
+### Sizes
+
+The component is available in two different sizes.
+
+| Variation | Height     |
+| --------- | ---------- |
+| Small     | 2mu (32px) |
+| Medium    | 3mu (48px) |
+
+These variations ensure consistency with other elements of the interface. Please, make choices according to the variation chosen for the other components, such as buttons or inputs.
+
+### Segments
+
+The component is available with two or three segments. Each of them corresponds to a view.
+
+## Behaviours
+
+### Width
+
+Depending on the layout, the width of the Segmented control can fit its content or container.
+
+<!-- Add preview -->
+
+### Selection
+
+Only one segment can be active at a time. Layout or format must change instantly when a segment is selected.
+
+## States
+
+<!-- Add preview -->
+
+<Highlight theme="tips" title="Good to know">
+  Segments can't be disabled. Avoid using the segmented control if a view isn't
+  yet developed.
+</Highlight>
+
+## How to use
+
+Uses of Segmented control are quite different from Filter, [Toggle](/Components/Form/Toggle/) and [Tabs](/Components/Tabs/).  
+Please use one of these components when users need to filter, take binary actions or navigate.
+
+## Do's and Don'ts
+
+<HintItem>
+  Provide different display formats for lists, tables and data vizualizations
+</HintItem>
+
+<HintItem>Keep segment labels short and clear.</HintItem>
+
+<HintItem dont>Don't use a segmented control as filters or tabs.</HintItem>
+
+<HintItem dont>Never resize the width of a segment manually.</HintItem>

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Bug Fixes
+
+- **component/qtyselector:** adjust the focus behaviour ([#1431](https://github.com/adeo/mozaic-design-system/issues/1431)) ([2139437](https://github.com/adeo/mozaic-design-system/commit/2139437e0d2b568ebeeb12ce7285403810a3cf9a))
+- **component/stars-input:** stringify "background-image" parameter to avoid ";" expectation SASS error ([#1419](https://github.com/adeo/mozaic-design-system/issues/1419)) ([a94b08c](https://github.com/adeo/mozaic-design-system/commit/a94b08cd936835779814a9e8c53b236d3d24f5c5))
+
 # [1.59.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.1...v1.59.0) (2023-04-27)
 
 ### Features

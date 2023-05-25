@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Features
+
+- **tokens:** add sidebar tokens ([#1432](https://github.com/adeo/mozaic-design-system/issues/1432)) ([6f49fdc](https://github.com/adeo/mozaic-design-system/commit/6f49fdcd8811bb324d56bb5f626178f0c7b38b6c))
+
 ## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
 
 ### Bug Fixes

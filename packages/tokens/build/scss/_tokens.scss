@@ -370,6 +370,16 @@ $color-progress-indicator: #007bb4 !default;
 $color-progress-percentage-default: #191919 !default;
 $color-progress-percentage-half: #ffffff !default;
 $color-progress-branded-indicator: #46a610 !default;
+$color-sidebar-background: #eeeff1 !default;
+$color-sidebar-feature-background: #cfd2d8 !default;
+$color-sidebar-feature-hover-background: #b3b7c1 !default;
+$color-sidebar-feature-selected-background: #cfd2d8 !default;
+$color-sidebar-feature-disabled-background: #6a7081 !default;
+$color-sidebar-user-background: #cfd2d8 !default;
+$color-sidebar-divider-background: #b3b3b3 !default;
+$color-sidebar-icon: #191919 !default;
+$color-sidebar-text-background: #e6e6e6 !default;
+$color-sidebar-text-color: #191919 !default;
 $color-star-empty: #ffffff !default;
 $color-star-focus: #0b96cc !default;
 $color-star-full: #ea7315 !default;
@@ -1223,6 +1233,32 @@ $tokens: (
       ),
       'branded': (
         'indicator': $color-progress-branded-indicator
+      )
+    ),
+    'sidebar': (
+      'background': $color-sidebar-background,
+      'feature': (
+        'background': $color-sidebar-feature-background,
+        'hover': (
+          'background': $color-sidebar-feature-hover-background
+        ),
+        'selected': (
+          'background': $color-sidebar-feature-selected-background
+        ),
+        'disabled': (
+          'background': $color-sidebar-feature-disabled-background
+        )
+      ),
+      'user': (
+        'background': $color-sidebar-user-background
+      ),
+      'divider': (
+        'background': $color-sidebar-divider-background
+      ),
+      'icon': $color-sidebar-icon,
+      'text': (
+        'background': $color-sidebar-text-background,
+        'color': $color-sidebar-text-color
       )
     ),
     'star': (
