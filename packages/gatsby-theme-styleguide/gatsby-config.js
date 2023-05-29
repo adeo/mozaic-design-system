@@ -11,7 +11,6 @@ module.exports = {
         stylesPath: 'packages/styles/**/*.scss',
       },
     },
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
       resolve: '@mozaic-ds/gatsby-github-release',
