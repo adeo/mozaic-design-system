@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from './Helmet'
 import { MDXProvider } from '@mdx-js/react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
@@ -82,7 +81,6 @@ const Layout = ({ children, location }) => {
       render={(data) => {
         return (
           <Global>
-            <Helmet title={data.site.siteMetadata.title}></Helmet>
             <AsideContainer>
               <Menu
                 location={location}

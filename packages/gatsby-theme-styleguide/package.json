@@ -13,7 +13,6 @@
     "gatsby": "^4.25.7",
     "gatsby-plugin-flexsearch": "^1.0.3",
     "gatsby-plugin-mdx": "^3.20.0",
-    "gatsby-plugin-react-helmet": "5.25.0",
     "gatsby-plugin-sass": "^5.25.0",
     "gatsby-plugin-styled-components": "^5.25.0",
     "gatsby-remark-autolink-headers": "^5.25.0",
@@ -21,7 +20,6 @@
     "gatsby-transformer-json": "4.25.0",
     "jest-styled-components": "^7.1.1",
     "prism-react-renderer": "^2.0.4",
-    "react-helmet": "^6.1.0",
     "sass": "^1.62.1",
     "styled-components": "^5.3.10"
   },
