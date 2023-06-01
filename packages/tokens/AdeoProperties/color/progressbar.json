@@ -2,7 +2,7 @@
   "color": {
     "progress": {
       "background": {
-        "value": "{color.grey.200.value}"
+        "value": "{color.secondary-blue.200.value}"
       },
       "indicator": {
         "value": "{color.primary-01.600.value}"
