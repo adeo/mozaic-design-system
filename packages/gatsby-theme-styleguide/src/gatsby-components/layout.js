@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { MDXProvider } from '@mdx-js/react'
-import { StaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import './base.scss'
 import Menu from './Menu'
@@ -75,25 +75,25 @@ const Layout = ({ children, location }) => {
   shortcodes.Preview = Preview
   shortcodes.SubContents = SubContents(location)
 
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   return (
-    <StaticQuery
-      query={query}
-      render={(data) => {
-        return (
-          <Global>
-            <AsideContainer>
-              <Menu
-                location={location}
-                siteTitle={data.site.siteMetadata.title}
-              />
-            </AsideContainer>
-            <MDXProvider components={shortcodes}>
-              <Main id="scroller">{children}</Main>
-            </MDXProvider>
-          </Global>
-        )
-      }}
-    />
+    <Global>
+      <AsideContainer>
+        <Menu location={location} siteTitle={data.site.siteMetadata.title} />
+      </AsideContainer>
+      <MDXProvider components={shortcodes}>
+        <Main id="scroller">{children}</Main>
+      </MDXProvider>
+    </Global>
   )
 }
 
@@ -102,13 +102,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

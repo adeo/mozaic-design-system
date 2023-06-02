@@ -1,5 +1,5 @@
-import { graphql, StaticQuery } from 'gatsby'
-import React from 'react'
+import * as React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import AreaContact from '../components/AreaContact'
 import AreaDiscover from '../components/AreaDiscover'
@@ -69,33 +69,33 @@ const IndexPage = ({ release, discover, contactus, ourvalues }) => {
   )
 }
 
-const query = graphql`
-  query currentRelase {
-    githubRelease(isCurrent: { eq: true }) {
-      tagName
+const Index = () => {
+  const data = useStaticQuery(graphql`
+    query currentRelase {
+      githubRelease(isCurrent: { eq: true }) {
+        tagName
+      }
     }
-  }
-`
+  `)
 
-const Index = () => (
-  <StaticQuery
-    query={query}
-    render={(data) => (
-      <IndexPage
-        release={data.githubRelease.tagName}
-        discover={JSONData.discover}
-        contactus={JSONData.contactus}
-        ourvalues={JSONData.ourvalues}
-      />
-    )}
-  />
-)
+  return (
+    <IndexPage
+      release={data.githubRelease.tagName}
+      discover={JSONData.discover}
+      contactus={JSONData.contactus}
+      ourvalues={JSONData.ourvalues}
+    />
+  )
+}
 
 export default Index
 
 export const Head = () => (
   <>
     <title>Mozaic Design System</title>
-    <meta name="description" content="Mozaic is Adeo's Design System, created to enhance the team's delivery time, improve quality of deliverables and thus help set up a coherent customer experience." />
+    <meta
+      name="description"
+      content="Mozaic is Adeo's Design System, created to enhance the team's delivery time, improve quality of deliverables and thus help set up a coherent customer experience."
+    />
   </>
 )

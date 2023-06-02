@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { StaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import withSiteMapData from '../SiteMapData'
 
 import './subcontents.scss'
@@ -110,14 +110,20 @@ const SubContents = ({ siteMapData, allPreviewsImgs, location }) => {
 }
 
 const SubContentsWithQuery = (props) => {
-  return (
-    <StaticQuery
-      query={query}
-      render={(data) => (
-        <SubContents allPreviewsImgs={data.allFile.edges} {...props} />
-      )}
-    />
-  )
+  const data = useStaticQuery(graphql`
+    query thumbNails {
+      allFile(filter: { extension: { eq: "png" }, name: { eq: "thumbnail" } }) {
+        edges {
+          node {
+            publicURL
+            relativePath
+          }
+        }
+      }
+    }
+  `)
+
+  return <SubContents allPreviewsImgs={data.allFile.edges} {...props} />
 }
 
 const withLocation = (location) => {
@@ -126,16 +132,3 @@ const withLocation = (location) => {
 }
 
 export default withLocation
-
-const query = graphql`
-  query thumbNails {
-    allFile(filter: { extension: { eq: "png" }, name: { eq: "thumbnail" } }) {
-      edges {
-        node {
-          publicURL
-          relativePath
-        }
-      }
-    }
-  }
-`

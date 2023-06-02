@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { StaticQuery, graphql, Link } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import {
   ControlCross16,
   NotificationCircleAvailable24,
@@ -174,7 +174,7 @@ const PatternsStatus = ({ data }) => {
 const query = graphql`
   query PatternsStatusQuery {
     Foundations: allMdx(
-      sort: { fields: [frontmatter___title], order: ASC }
+      sort: { frontmatter: { title: ASC } }
       filter: {
         fields: {
           fileName: { name: { eq: "index" } }
@@ -202,7 +202,7 @@ const query = graphql`
       }
     }
     Components: allMdx(
-      sort: { fields: [frontmatter___title], order: ASC }
+      sort: { frontmatter: { title: ASC } }
       filter: {
         fields: {
           fileName: { name: { eq: "index" } }
@@ -232,28 +232,27 @@ const query = graphql`
   }
 `
 
-const PatternStatus = () => (
-  <StaticQuery
-    query={query}
-    render={(data) => (
-      <div>
-        <h2>Foundations</h2>
-        <PatternsStatus data={data.Foundations} />
-        <h2>Components</h2>
-        <PatternsStatus data={data.Components} />
-        <h3>Statuses meaning</h3>
-        <StatusMeaning>
-          <NotificationCircleAvailable24 fill="#41a017" />
-          <b>&nbsp;&nbsp;Ready</b> : The component is dev and design ready.
-        </StatusMeaning>
-        <StatusMeaning>
-          <ControlCross16 fill="currentColor" />
-          <b>&nbsp;&nbsp;Not available</b> : Component is not available in this
-          version of the library.
-        </StatusMeaning>
-      </div>
-    )}
-  />
-)
+const PatternStatus = () => {
+  const data = useStaticQuery(query)
+
+  return (
+    <div>
+      <h2>Foundations</h2>
+      <PatternsStatus data={data.Foundations} />
+      <h2>Components</h2>
+      <PatternsStatus data={data.Components} />
+      <h3>Statuses meaning</h3>
+      <StatusMeaning>
+        <NotificationCircleAvailable24 fill="#41a017" />
+        <b>&nbsp;&nbsp;Ready</b> : The component is dev and design ready.
+      </StatusMeaning>
+      <StatusMeaning>
+        <ControlCross16 fill="currentColor" />
+        <b>&nbsp;&nbsp;Not available</b> : Component is not available in this
+        version of the library.
+      </StatusMeaning>
+    </div>
+  )
+}
 
 export default PatternStatus
