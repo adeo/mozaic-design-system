@@ -1,7 +1,8 @@
 const express = require('express')
-const path = require(`path`)
+const path = require('path')
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const postTemplate = path.resolve(`${__dirname}/src/templates/pattern-page.js`)
 
 let previewsPath = []
 
@@ -21,7 +22,7 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
 
   if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `docs` })
-    const fileName = path.basename(node.fileAbsolutePath)
+    const fileName = path.basename(node.internal.contentFilePath)
 
     const keywords = `${slug.split('/').join(', ')}, ${
       node.frontmatter.searchKeywords
@@ -137,32 +138,30 @@ const buildHtml = (data) => {
     `
 }
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
+exports.createPages = async ({ actions, graphql, reporter }) => {
   // Destructure the createPage function from the actions object
   const { createPage } = actions
   const result = await graphql(`
     query {
       allMdx {
-        edges {
-          node {
-            id
-            fields {
-              slug
-            }
+        nodes {
+          fields {
+            slug
+          }
+          internal {
+            contentFilePath
           }
         }
       }
       allPreview {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            codes {
-              css
-              html
-              js
-            }
+        nodes {
+          codes {
+            css
+            html
+            js
+          }
+          fields {
+            slug
           }
         }
       }
@@ -172,20 +171,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
   }
 
-  const posts = result.data.allMdx.edges
-
-  posts.forEach(({ node }) => {
+  // MDX
+  result.data.allMdx.nodes.forEach((node) => {
     createPage({
-      path: node.fields.slug,
-      component: path.join(__dirname, 'src', 'templates', 'pattern-page.js'),
+      path: `${node.fields.slug}`,
+      component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
-        id: node.id,
         slug: node.fields.slug,
       },
     })
   })
 
-  const previews = result.data.allPreview.edges
-
+  const previews = result.data.allPreview.nodes
   debounce(createPreviewPages(previews, previewsPath, reporter), 1000)
 }
