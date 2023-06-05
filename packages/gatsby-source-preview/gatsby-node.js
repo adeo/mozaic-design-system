@@ -114,7 +114,7 @@ exports.sourceNodes = (tools, configOptions) => {
       // is global style? Just rebuild everything!
       const globalStylePath = 'packages/styles/'
       if (path.replace(/\\/g, '/').indexOf(globalStylePath) > -1) {
-        return buildPreviews()
+        return buildPreviews(path)
           .then(reporter.success(`previews built`))
           .catch((err) => reporter.error(err))
       }

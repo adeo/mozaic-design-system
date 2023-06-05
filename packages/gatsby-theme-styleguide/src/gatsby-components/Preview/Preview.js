@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-
 import PreviewComponent from './PreviewComponent'
 
 class Preview extends PureComponent {

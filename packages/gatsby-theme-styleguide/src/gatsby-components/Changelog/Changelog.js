@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import { StaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 
 const ChangelogContainer = styled.div`
   h2 {
@@ -42,23 +42,20 @@ const ChangelogComponent = ({ data }) => (
   </ChangelogContainer>
 )
 
-const query = graphql`
-  query AllGitReleasesQuery2 {
-    allGithubRelease {
-      edges {
-        node {
-          descriptionHTML
+const Changelog = () => {
+  const data = useStaticQuery(graphql`
+    query AllGitReleasesQuery2 {
+      allGithubRelease {
+        edges {
+          node {
+            descriptionHTML
+          }
         }
       }
     }
-  }
-`
+  `)
 
-const Changelog = () => (
-  <StaticQuery
-    query={query}
-    render={(data) => <ChangelogComponent data={data} />}
-  />
-)
+  return <ChangelogComponent data={data} />
+}
 
 export default Changelog

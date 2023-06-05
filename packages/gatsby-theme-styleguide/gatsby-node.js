@@ -1,5 +1,5 @@
 const express = require('express')
-const path = require(`path`)
+const path = require('path')
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -21,7 +21,7 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
 
   if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `docs` })
-    const fileName = path.basename(node.fileAbsolutePath)
+    const fileName = path.basename(node.internal.contentFilePath)
 
     const keywords = `${slug.split('/').join(', ')}, ${
       node.frontmatter.searchKeywords
@@ -137,7 +137,7 @@ const buildHtml = (data) => {
     `
 }
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
+exports.createPages = async ({ actions, graphql, reporter }) => {
   // Destructure the createPage function from the actions object
   const { createPage } = actions
   const result = await graphql(`
@@ -145,9 +145,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       allMdx {
         edges {
           node {
-            id
             fields {
               slug
+            }
+            id
+            internal {
+              contentFilePath
             }
           }
         }
@@ -155,13 +158,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       allPreview {
         edges {
           node {
-            fields {
-              slug
-            }
             codes {
               css
               html
               js
+            }
+            fields {
+              slug
             }
           }
         }
@@ -172,12 +175,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
   }
 
+  const postTemplate = path.resolve(
+    `${__dirname}/src/templates/pattern-page.js`
+  )
   const posts = result.data.allMdx.edges
-
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
-      component: path.join(__dirname, 'src', 'templates', 'pattern-page.js'),
+      component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         id: node.id,
         slug: node.fields.slug,
