@@ -27,13 +27,12 @@ jobs:
         env:
           GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
       - name: deployment
-        uses: bobheadxi/deployments@v0.5.2
+        uses: bobheadxi/deployments@v1
         id: deployment
         with:
           step: start
           token: ${{ secrets.SVC_GH_API_TOKEN }}
           env: production
-          no_override: false
           ref: ${{ github.head_ref }}
       - id: 'auth'
         name: 'Authenticate to Google Cloud'
@@ -50,10 +49,11 @@ jobs:
           version: ${{ steps.gettag.outputs.branch }}
           promote: true
       - name: Update deployment status
-        uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
+        uses: bobheadxi/deployments@v1
         with:
           step: finish
           token: ${{ secrets.GITHUB_TOKEN }}
           status: ${{ job.status }}
+          env: ${{ steps.deployment.outputs.env }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
           env_url: https://mozaic.adeo.cloud
