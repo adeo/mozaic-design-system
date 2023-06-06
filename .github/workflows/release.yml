@@ -6,6 +6,10 @@ jobs:
   DeployRelease:
     name: deploy a mozaic release
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
     steps:
       - uses: actions/checkout@v3
       - name: Setup node
@@ -31,13 +35,19 @@ jobs:
           env: production
           no_override: false
           ref: ${{ github.head_ref }}
-      - name: Deploy Tag
-        uses: google-github-actions/deploy-appengine@v0.8.2
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WI_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}
+      - id: 'deploy'
+        name: 'Deploy Tag'
+        uses: 'google-github-actions/deploy-appengine@v1'
         with:
           project_id: mozaic-design-system-dtrp
-          credentials: ${{ secrets.GCLOUD_AUTH }}
-          version: ${{ steps.gettag.outputs.branch }}
           deliverables: app.yaml
+          version: ${{ steps.gettag.outputs.branch }}
           promote: true
       - name: Update deployment status
         uses: bobheadxi/deployments@d214e9228f80adbf4cc2f6e470f2e66ebac5a1b3
