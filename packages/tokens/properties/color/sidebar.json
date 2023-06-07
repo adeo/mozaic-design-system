@@ -44,6 +44,14 @@
         "color": {
           "value": "{color.grey.900.value}"
         }
+      },
+      "scroll": {
+        "background": {
+          "value": "{color.grey.300.value}"
+        },
+        "color": {
+          "value": "{color.primary-02.400.value}"
+        }
       }
     }
   }
