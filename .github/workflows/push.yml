@@ -12,6 +12,9 @@ jobs:
   DeployDemo:
     name: Deploy a Demo
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - name: Extract branch name
@@ -36,28 +39,33 @@ jobs:
         with:
           args: ci:wait ${{ steps.getbranch.outputs.branch }}
       - name: deployment
-        uses: bobheadxi/deployments@v0.5.2
+        uses: bobheadxi/deployments@v1
         id: deployment
         with:
           step: start
           token: ${{ secrets.SVC_GH_API_TOKEN }}
           env: staging
           ref: ${{ github.head_ref }}
-          transient: true
-      - name: Deploy on App Engine
-        id: appengine
-        uses: google-github-actions/deploy-appengine@v0.8.2
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WI_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}
+      - id: 'deploy'
+        name: 'Deploy on App Engine'
+        uses: 'google-github-actions/deploy-appengine@v1'
         with:
           project_id: mozaic-design-system-dtrp
-          credentials: ${{ secrets.GCLOUD_AUTH }}
-          version: ${{ steps.getbranch.outputs.branch }}
           deliverables: app.demo.yaml
+          version: ${{ steps.getbranch.outputs.branch }}
           promote: false
       - name: Update deployment status
-        uses: bobheadxi/deployments@v0.5.2
+        uses: bobheadxi/deployments@v1
         with:
           step: finish
           token: ${{ secrets.SVC_GH_API_TOKEN }}
           status: ${{ job.status }}
+          env: ${{ steps.deployment.outputs.env }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-          env_url: ${{ steps.appengine.outputs.url }}
+          env_url: ${{ steps.deploy.outputs.version_url }}
