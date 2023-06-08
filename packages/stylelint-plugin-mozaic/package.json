@@ -20,8 +20,5 @@
     "lodash": "^4.17.21",
     "postcss": "^8.4.23",
     "postcss-bem-linter": "^3.3.0"
-  },
-  "devDependencies": {
-    "stylelint-test-rule-tape": "^0.2.0"
   }
 }
