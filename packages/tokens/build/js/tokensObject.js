@@ -7799,11 +7799,11 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#007bb4",
+        "value": "#188803",
         "filePath": "packages/tokens/properties/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.info.600.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorProgressIndicator",
         "attributes": {
@@ -7858,29 +7858,6 @@ module.exports = {
             "progress",
             "percentage",
             "half"
-          ]
-        }
-      },
-      "branded": {
-        "indicator": {
-          "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/progressbar.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.primary-01.500.value}"
-          },
-          "name": "ColorProgressBrandedIndicator",
-          "attributes": {
-            "category": "color",
-            "type": "progress",
-            "item": "branded",
-            "subitem": "indicator"
-          },
-          "path": [
-            "color",
-            "progress",
-            "branded",
-            "indicator"
           ]
         }
       }
@@ -8108,6 +8085,50 @@ module.exports = {
             "color",
             "sidebar",
             "text",
+            "color"
+          ]
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorSidebarScrollBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#8f94a3",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.400.value}"
+          },
+          "name": "ColorSidebarScrollColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
             "color"
           ]
         }
