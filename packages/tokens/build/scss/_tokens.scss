@@ -366,10 +366,9 @@ $color-phone-number-list-background: #ffffff !default;
 $color-phone-number-item-border: #b3b3b3 !default;
 $color-phone-number-item-focus-background: #e6e6e6 !default;
 $color-progress-background: #cccccc !default;
-$color-progress-indicator: #007bb4 !default;
+$color-progress-indicator: #188803 !default;
 $color-progress-percentage-default: #191919 !default;
 $color-progress-percentage-half: #ffffff !default;
-$color-progress-branded-indicator: #46a610 !default;
 $color-sidebar-background: #eeeff1 !default;
 $color-sidebar-feature-background: #cfd2d8 !default;
 $color-sidebar-feature-hover-background: #b3b7c1 !default;
@@ -380,6 +379,8 @@ $color-sidebar-divider-background: #b3b3b3 !default;
 $color-sidebar-icon: #191919 !default;
 $color-sidebar-text-background: #e6e6e6 !default;
 $color-sidebar-text-color: #191919 !default;
+$color-sidebar-scroll-background: #b3b3b3 !default;
+$color-sidebar-scroll-color: #8f94a3 !default;
 $color-star-empty: #ffffff !default;
 $color-star-focus: #0b96cc !default;
 $color-star-full: #ea7315 !default;
@@ -1230,9 +1231,6 @@ $tokens: (
       'percentage': (
         'default': $color-progress-percentage-default,
         'half': $color-progress-percentage-half
-      ),
-      'branded': (
-        'indicator': $color-progress-branded-indicator
       )
     ),
     'sidebar': (
@@ -1259,6 +1257,10 @@ $tokens: (
       'text': (
         'background': $color-sidebar-text-background,
         'color': $color-sidebar-text-color
+      ),
+      'scroll': (
+        'background': $color-sidebar-scroll-background,
+        'color': $color-sidebar-scroll-color
       )
     ),
     'star': (

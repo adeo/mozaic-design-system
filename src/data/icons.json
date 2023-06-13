@@ -17,6 +17,13 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_BonificoBancario",
+      "fileName": "Logotypes_Payment_BonificoBancario_24px.svg",
+      "iconName": "PaymentBonificoBancario"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_24px.svg",
       "iconName": "PaymentFintecture"
@@ -195,6 +202,13 @@
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_32px.svg",
       "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_BonificoBancario",
+      "fileName": "Logotypes_Payment_BonificoBancario_32px.svg",
+      "iconName": "PaymentBonificoBancario"
     },
     {
       "cat": "Logotypes",
@@ -381,6 +395,13 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_BonificoBancario",
+      "fileName": "Logotypes_Payment_BonificoBancario_48px.svg",
+      "iconName": "PaymentBonificoBancario"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_48px.svg",
       "iconName": "PaymentFintecture"
@@ -559,6 +580,13 @@
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_64px.svg",
       "iconName": "PaymentBizum"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_BonificoBancario",
+      "fileName": "Logotypes_Payment_BonificoBancario_64px.svg",
+      "iconName": "PaymentBonificoBancario"
     },
     {
       "cat": "Logotypes",
@@ -1161,6 +1189,14 @@
       "fileName": "Logotypes_Payment_Monochrome_Bizum_24px.svg",
       "iconName": "PaymentMonochromeBizum",
       "componentName": "PaymentMonochromeBizum24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Monochrome_BonificoBancario",
+      "fileName": "Logotypes_Payment_Monochrome_BonificoBancario_24px.svg",
+      "iconName": "PaymentMonochromeBonificoBancario",
+      "componentName": "PaymentMonochromeBonificoBancario24"
     },
     {
       "cat": "Logotypes",
@@ -3537,6 +3573,14 @@
       "fileName": "Logotypes_Payment_Monochrome_Bizum_32px.svg",
       "iconName": "PaymentMonochromeBizum",
       "componentName": "PaymentMonochromeBizum32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Monochrome_BonificoBancario",
+      "fileName": "Logotypes_Payment_Monochrome_BonificoBancario_32px.svg",
+      "iconName": "PaymentMonochromeBonificoBancario",
+      "componentName": "PaymentMonochromeBonificoBancario32"
     },
     {
       "cat": "Logotypes",
@@ -5925,6 +5969,14 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Monochrome_BonificoBancario",
+      "fileName": "Logotypes_Payment_Monochrome_BonificoBancario_48px.svg",
+      "iconName": "PaymentMonochromeBonificoBancario",
+      "componentName": "PaymentMonochromeBonificoBancario48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Monochrome_Fintecture",
       "fileName": "Logotypes_Payment_Monochrome_Fintecture_48px.svg",
       "iconName": "PaymentMonochromeFintecture",
@@ -8305,6 +8357,14 @@
       "fileName": "Logotypes_Payment_Monochrome_Bizum_64px.svg",
       "iconName": "PaymentMonochromeBizum",
       "componentName": "PaymentMonochromeBizum64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Monochrome_BonificoBancario",
+      "fileName": "Logotypes_Payment_Monochrome_BonificoBancario_64px.svg",
+      "iconName": "PaymentMonochromeBonificoBancario",
+      "componentName": "PaymentMonochromeBonificoBancario64"
     },
     {
       "cat": "Logotypes",

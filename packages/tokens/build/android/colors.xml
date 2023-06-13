@@ -366,10 +366,9 @@
   <color name="color_phone_number_item_border">#ffb3b3b3</color>
   <color name="color_phone_number_item_focus_background">#ffe6e6e6</color>
   <color name="color_progress_background">#ffcccccc</color>
-  <color name="color_progress_indicator">#ff007bb4</color>
+  <color name="color_progress_indicator">#ff188803</color>
   <color name="color_progress_percentage_default">#ff191919</color>
   <color name="color_progress_percentage_half">#ffffffff</color>
-  <color name="color_progress_branded_indicator">#ff46a610</color>
   <color name="color_sidebar_background">#ffeeeff1</color>
   <color name="color_sidebar_feature_background">#ffcfd2d8</color>
   <color name="color_sidebar_feature_hover_background">#ffb3b7c1</color>
@@ -380,6 +379,8 @@
   <color name="color_sidebar_icon">#ff191919</color>
   <color name="color_sidebar_text_background">#ffe6e6e6</color>
   <color name="color_sidebar_text_color">#ff191919</color>
+  <color name="color_sidebar_scroll_background">#ffb3b3b3</color>
+  <color name="color_sidebar_scroll_color">#ff8f94a3</color>
   <color name="color_star_empty">#ffffffff</color>
   <color name="color_star_focus">#ff0b96cc</color>
   <color name="color_star_full">#ffea7315</color>
