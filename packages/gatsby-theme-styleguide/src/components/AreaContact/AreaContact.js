@@ -1,4 +1,5 @@
-import React from 'react'
+import * as React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
 const htmlContent = (el) => {
@@ -6,6 +7,63 @@ const htmlContent = (el) => {
     __html: el,
   }
 }
+
+const Container = styled.div`
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media (min-width: 680px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+`
+
+const AreaContainer = styled(Container)``
+
+const AreaWrapper = styled(Container)`
+  background: #ecfcfd;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 2.5rem;
+
+  @media (max-width: 767px) {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 3.5rem;
+  }
+`
+
+const AreaWrap = styled.div`
+  align-items: stretch !important;
+`
+
+const AreaTitle = styled.h2`
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.156;
+  margin-bottom: 1rem;
+  margin-top: 0;
+
+  @media (min-width: 1280px) {
+    padding-top: 2.5rem;
+  }
+`
+
+const AreaHat = styled.p`
+  font-size: 1rem;
+  line-height: 1.188;
+  margin-bottom: 2rem;
+  margin-top: 0;
+`
 
 const CardTitle = styled.h3`
   margin-bottom: 1.5rem;
@@ -76,74 +134,22 @@ const StyledCard = styled(Card)`
   }
 `
 
-const Container = styled.div`
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-  @media (min-width: 680px) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  @media (min-width: 1280px) {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-`
-
-const AreaContainer = styled(Container)``
-
-const AreaWrapper = styled(Container)`
-  background: #ecfcfd;
-  margin-bottom: 3rem;
-  padding-bottom: 3rem;
-  padding-top: 2.5rem;
-
-  @media (max-width: 767px) {
-    margin-left: -1rem;
-    margin-right: -1rem;
-  }
-
-  @media (min-width: 1280px) {
-    margin-bottom: 3.5rem;
-  }
-`
-
-const AreaWrap = styled.div`
-  align-items: stretch !important;
-`
-
-const AreaTitle = styled.h2`
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.156;
-  margin-bottom: 1rem;
-  margin-top: 0;
-
-  @media (min-width: 1280px) {
-    padding-top: 2.5rem;
-  }
-`
-
-const AreaHat = styled.p`
-  font-size: 1rem;
-  line-height: 1.188;
-  margin-bottom: 2rem;
-  margin-top: 0;
-`
-
 const AreaContact = (props) => {
-  const cards = props.cards.map((card, index) => (
-    <StyledCard
-      key={index}
-      title={card.title}
-      text={card.text}
-      icon={card.icon}
-      link={card.link}
-      linkLabel={card.linkLabel}
-    />
-  ))
+  const data = useStaticQuery(graphql`
+    query {
+      allHomeJson {
+        nodes {
+          contactus {
+            icon
+            link
+            linkLabel
+            text
+            title
+          }
+        }
+      }
+    }
+  `).allHomeJson.nodes[0].contactus
 
   return (
     <AreaContainer>
@@ -157,7 +163,19 @@ const AreaContact = (props) => {
               happy to give you and your team the support need.
             </AreaHat>
           </div>
-          {cards}
+          {/* {cards} */}
+          {data.map((card, index) => {
+            return (
+              <StyledCard
+                key={index}
+                title={card.title}
+                text={card.text}
+                icon={card.icon}
+                link={card.link}
+                linkLabel={card.linkLabel}
+              />
+            )
+          })}
         </AreaWrap>
       </AreaWrapper>
     </AreaContainer>

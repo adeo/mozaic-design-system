@@ -1,5 +1,33 @@
-import React from 'react'
+import * as React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
+
+const AreaContainer = styled.div`
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+
+  @media (min-width: 680px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding-bottom: 5rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+`
+
+const AreaTitle = styled.h2`
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.156;
+`
 
 const BlockContainer = styled.div`
   &:not(:last-child) {
@@ -39,47 +67,35 @@ const Block = ({ index, title, text }) => (
   </BlockContainer>
 )
 
-const AreaContainer = styled.div`
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 3rem;
-
-  @media (min-width: 680px) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  @media (min-width: 1280px) {
-    padding-bottom: 5rem;
-  }
-
-  @media (min-width: 1280px) {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-`
-
-const AreaTitle = styled.h2`
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.156;
-`
-
 const AreaValues = (props) => {
-  const blocks = props.values.map((block, index) => (
-    <Block
-      key={index}
-      index={`#${index + 1}`}
-      title={block.title}
-      text={block.text}
-    />
-  ))
+  const data = useStaticQuery(graphql`
+    query {
+      allHomeJson {
+        nodes {
+          ourvalues {
+            text
+            title
+          }
+        }
+      }
+    }
+  `).allHomeJson.nodes[0].ourvalues
 
   return (
     <AreaContainer>
       <AreaTitle>Our values</AreaTitle>
-      <div className="ml-flexy ml-flexy--gutter">{blocks}</div>
+      <div className="ml-flexy ml-flexy--gutter">
+        {data.map((block, index) => {
+          return (
+            <Block
+              key={index}
+              index={`#${index + 1}`}
+              title={block.title}
+              text={block.text}
+            />
+          )
+        })}
+      </div>
     </AreaContainer>
   )
 }

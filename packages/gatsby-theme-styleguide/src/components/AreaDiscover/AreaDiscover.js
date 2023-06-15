@@ -1,6 +1,60 @@
-import { Link } from 'gatsby'
-import React from 'react'
+import * as React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
+
+const AreaContainer = styled.div`
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #222020;
+  margin-bottom: 3rem;
+  padding-top: 2.5rem;
+  position: relative;
+
+  @media (min-width: 680px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media (min-width: 1280px) {
+    margin-bottom: 3.5rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  &::after {
+    background: #ffffff;
+    bottom: 0;
+    content: '';
+    height: 4rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+
+    @media (min-width: 1280px) {
+      height: 5rem;
+    }
+  }
+`
+
+const AreaTitle = styled.h2`
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.156;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+`
+
+const AreaWrapper = styled.div`
+  align-items: stretch !important;
+  position: relative;
+  z-index: 1;
+`
 
 const CardContainer = styled.div`
   display: flex;
@@ -73,75 +127,38 @@ const StyledCard = styled(Card)`
   }
 `
 
-const AreaContainer = styled.div`
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background: #222020;
-  margin-bottom: 3rem;
-  padding-top: 2.5rem;
-  position: relative;
-
-  @media (min-width: 680px) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  @media (min-width: 1280px) {
-    margin-bottom: 3.5rem;
-  }
-
-  @media (min-width: 1280px) {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  &::after {
-    background: #ffffff;
-    bottom: 0;
-    content: '';
-    height: 4rem;
-    left: 0;
-    position: absolute;
-    right: 0;
-    z-index: 0;
-
-    @media (min-width: 1280px) {
-      height: 5rem;
+const AreaDiscover = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allHomeJson {
+        nodes {
+          discover {
+            img
+            link
+            text
+            title
+          }
+        }
+      }
     }
-  }
-`
-
-const AreaTitle = styled.h2`
-  color: #ffffff;
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.156;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
-`
-
-const AreaWrapper = styled.div`
-  align-items: stretch !important;
-  position: relative;
-  z-index: 1;
-`
-
-const AreaDiscover = (props) => {
-  const cards = props.cards.map((card, index) => (
-    <StyledCard
-      key={index}
-      title={card.title}
-      text={card.text}
-      img={card.img}
-      link={card.link}
-    />
-  ))
+  `).allHomeJson.nodes[0].discover
 
   return (
     <AreaContainer>
       <AreaTitle>Discover the product</AreaTitle>
-      <AreaWrapper className="ml-flexy ml-flexy--gutter">{cards}</AreaWrapper>
+      <AreaWrapper className="ml-flexy ml-flexy--gutter">
+        {data.map((card, index) => {
+          return (
+            <StyledCard
+              key={index}
+              title={card.title}
+              text={card.text}
+              img={card.img}
+              link={card.link}
+            />
+          )
+        })}
+      </AreaWrapper>
     </AreaContainer>
   )
 }
