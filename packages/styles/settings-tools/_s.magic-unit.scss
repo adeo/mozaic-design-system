@@ -4,11 +4,9 @@
 
 // a function that return a multiple of the magic-unit
 @function magic-unit($multiplier, $allow-any-value: false) {
-  @if ($allow-any-value) {
+  @if $allow-any-value {
     @return $magic-unit * $multiplier;
-  }
-
-  @else {
+  } @else {
     @if type-of($multiplier) == number and unitless($multiplier) {
       @if $multiplier < 2 {
         // require a 0.25 minimum increment when < 2
@@ -16,41 +14,29 @@
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;
-        }
-
-        @else {
+        } @else {
           @error "magic unit function require a parameter with at least 0.25 increment when inferior to 2";
         }
-      }
-
-      @else if $multiplier >= 2 and $multiplier < 4 {
+      } @else if $multiplier >= 2 and $multiplier < 4 {
         // require a 0.5 minimum increment when between 2 and 4
         $iscorrect: math.div($multiplier, 0.5) == ceil(math.div($multiplier, 0.5));
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;
-        }
-
-        @else {
+        } @else {
           @error "magic unit function require a parameter with at least 0.5 increment when between 2 to 4";
         }
-      }
-
-      @else if $multiplier >= 4 {
+      } @else if $multiplier >= 4 {
         // require a 1 minimum increment when geater than 4
         $iscorrect: $multiplier == ceil($multiplier);
 
         @if $iscorrect {
           @return $magic-unit * $multiplier;
-        }
-
-        @else {
+        } @else {
           @error "magic unit function require an integer as parameter when greater than 4";
         }
       }
-    }
-
-    @else {
+    } @else {
       @error "magic unit function require an unitless number as parameter";
     }
   }

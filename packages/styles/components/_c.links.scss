@@ -12,13 +12,13 @@
   &__icon {
     display: block;
     height: $mu100;
-    fill: currentColor;
+    fill: currentcolor;
     flex-shrink: 0;
     width: $mu100;
   }
 
   @each $name, $props in $links-tokens {
-    @if ($name != "dark") {
+    @if $name != "dark" {
       &--#{$name} {
         @include set-link-theme($props);
       }

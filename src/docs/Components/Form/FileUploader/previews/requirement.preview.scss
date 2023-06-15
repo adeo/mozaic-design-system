@@ -1,10 +1,12 @@
+@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "components/c.file-uploader";
 @import "components/c.fields";
 
 .example {
-  @include set-font-face("regular");
-
   padding: $mu150;
 }

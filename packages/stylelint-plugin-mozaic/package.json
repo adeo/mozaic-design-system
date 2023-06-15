@@ -4,17 +4,16 @@
   "description": "A set of rules to enforce Mozaic CSS architecture",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "jest"
   },
   "keywords": [
-    "styleling",
+    "stylelint",
     "stylelint-plugin",
     "css",
     "linter",
     "bem",
     "mozaic"
   ],
-  "author": "Mohamed Mokhtari <mohamed.mokhtari.pro@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
@@ -22,6 +21,9 @@
     "postcss-bem-linter": "^3.3.0"
   },
   "devDependencies": {
-    "stylelint-test-rule-tape": "^0.2.0"
+    "jest": "^28.1.1",
+    "jest-preset-stylelint": "^5.0.4",
+    "postcss": "^8.4.14",
+    "stylelint": "^14.9.1"
   }
 }

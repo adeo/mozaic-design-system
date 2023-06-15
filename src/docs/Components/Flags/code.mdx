@@ -17,7 +17,9 @@ Import the settings and the flag `scss` files.
 The creation of a **Flag** component in your code is done using the following HTML structure:
 
 ```html
-<div class="mc-flag">Flag label</div>
+<div class="mc-flag">
+  <span class="mc-flag__label">Flag label</span>
+</div>
 ```
 
 <Preview path="default" />
@@ -40,18 +42,16 @@ The creation of a **Flag** component in your code is done using the following HT
 example :
 
 ```html
-<div class="mc-flag">Flag flag__label</div>
+<div class="mc-flag">
+  <span class="mc-flag__label">Flag label</span>
+</div>
 
-<div class="mc-flag mc-flag--bordered-primary-02">Flag bordered primary 02</div>
+<div class="mc-flag mc-flag--bordered-primary-02">
+  <span class="mc-flag__label">Flag bordered primary 02</span>
+</div>
 ```
 
-#### Solid
-
-<Preview path="solid" />
-
-#### Bordered
-
-<Preview path="bordered" />
+<Preview path="flag-all" />
 
 ## Customization and mixins
 

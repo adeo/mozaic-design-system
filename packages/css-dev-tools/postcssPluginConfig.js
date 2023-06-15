@@ -3,7 +3,6 @@ const scssSyntax = require('postcss-scss')
 const autoprefixer = require('autoprefixer')
 const postcssSass = require('@csstools/postcss-sass')
 const stylelint = require('stylelint')
-const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
 const cssnano = require('cssnano')
 const purgecss = require('@fullhuman/postcss-purgecss')
@@ -20,9 +19,9 @@ const styleLintConfig = require('./styleLintConfig')
 const baseSassConfig = require('./sassConfig')
 
 // load browserlist config
-const borwserslistConfig = CM.getKey('browserslist')
+const browserslistConfig = CM.getKey('browserslist')
   ? CM.getKey('browserslist')
-  : ['> 0.3%', 'last 3 version', 'IE > 10']
+  : ['last 2 versions', 'firefox >= 52']
 
 const sassConfig = CM.getKey('sass.config')
   ? CM.getKey('sass.config')
@@ -35,15 +34,11 @@ const plugins = [
   reporter({ clearReportedMessages: true }),
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   postcssSass(sassConfig),
-  base64({
-    pattern: /<svg.*<\/svg>/i,
-    prepend: 'data:image/svg+xml;base64,',
-  }),
   mqpackerondemand({
     sort: true,
   }),
   autoprefixer({
-    overrideBrowserslist: borwserslistConfig,
+    overrideBrowserslist: browserslistConfig,
   }),
 ]
 
@@ -58,15 +53,11 @@ if (CM.getKey('autoprefixer.disabled')) {
 const productionPlugins = [
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   postcssSass(sassConfig),
-  base64({
-    pattern: /<svg.*<\/svg>/i,
-    prepend: 'data:image/svg+xml;base64,',
-  }),
   mqpackerondemand({
     sort: true,
   }),
   autoprefixer({
-    overrideBrowserslist: borwserslistConfig,
+    overrideBrowserslist: browserslistConfig,
   }),
   cssnano(['default', { discardComments: { removeAll: true } }]),
 ]

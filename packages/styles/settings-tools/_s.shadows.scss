@@ -1,5 +1,5 @@
 @mixin set-box-shadow($size) {
-  @if (variable-exists($name: $size)) {
+  @if variable-exists($name: $size) {
     @warn "Shadow size #{$size} doesn't exist";
   }
 
