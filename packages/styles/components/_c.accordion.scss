@@ -6,7 +6,6 @@
   background-color: $color-grey-000;
   border-bottom: get-border(s) solid $color-font-light;
 
-  @include set-font-face();
   @include set-accordion-size($accordion-default-size, $parent);
 
   // TODO:
@@ -15,7 +14,7 @@
   &__label {
     @include set-font-weight("semi-bold");
 
-    @include set-focus-floating-base {
+    @include set-focus-floating-base() {
       top: -(math.div($mu025, 2));
       right: -(math.div($mu025, 2));
       bottom: -3px;
@@ -94,7 +93,7 @@
 
     &:focus {
       ~ #{$parent}__label {
-        @include set-focus-floating {
+        @include set-focus-floating() {
           box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
         }
       }
@@ -142,7 +141,7 @@
     background-position: right $mu050 center;
     background-repeat: no-repeat;
     background-color: transparent;
-    color: currentColor;
+    color: currentcolor;
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
@@ -155,7 +154,7 @@
     width: 100%;
 
     &:focus {
-      @include set-focus-floating {
+      @include set-focus-floating() {
         box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
       }
     }
@@ -209,7 +208,7 @@
 
   @each $size, $props in $accordion-sizes {
     &--#{$size} {
-      @if ($size != "m") {
+      @if $size != "m" {
         @include set-accordion-size($props, $parent);
       }
     }

@@ -9,6 +9,9 @@
   >
     <div class="mc-layer__dialog is-open" role="document">
       <div class="mc-layer__header">
+        <svg class="mc-layer__icon">
+          <use xlink:href="#icon" />
+        </svg>
         <h2 class="mc-layer__title" id="layerTitle">Layer Title</h2>
         <button class="mc-layer__close" type="button">
           <span class="mc-layer__close-text">Close</span>
@@ -76,5 +79,15 @@
       </div>
     </div>
   </div>
-  <div class="mc-layer-overlay is-visible" tabindex="-1" role="dialog"></div>
+  <div class="mc-overlay is-visible" tabindex="-1" role="dialog"></div>
 </div>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="icon" viewBox="0 0 24 24">
+    <path
+      d="M17.13 16.57H8a1 1 0 0 1-1-.74L4.39 6H3a1 1 0 0 1 0-2h2.15a1 1 0 0 1 1 .74l.53 2H20A1 1 0 0 1 20.94 8l-2.87 7.87a1 1 0 0 1-.94.7zm-8.34-2h7.64l2.14-5.87H7.2z"
+    />
+    <circle cx="9.46" cy="19.85" r="2.15" />
+    <circle cx="15.69" cy="19.85" r="2.15" />
+  </symbol>
+</svg>

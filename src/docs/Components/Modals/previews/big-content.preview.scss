@@ -1,3 +1,4 @@
+@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
 @import "typography/t.bodys";
@@ -5,8 +6,6 @@
 @import "components/c.button";
 
 .example {
-  @include set-font-face("regular");
-
   background-color: #f6f7f7;
   min-height: 500px;
   height: 100vh;

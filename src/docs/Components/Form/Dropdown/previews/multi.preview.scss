@@ -1,3 +1,4 @@
+@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
 @import "components/c.checkbox";
@@ -5,6 +6,10 @@
 @import "components/c.tag";
 @import "components/c.listbox";
 @import "components/c.dropdown";
+
+html {
+  @include set-font-face();
+}
 
 .example {
   @include set-font-family();

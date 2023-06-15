@@ -1,5 +1,9 @@
+@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 @import "typography/t.headings";
 
 .example {
@@ -13,7 +17,7 @@
 
   &__title {
     @include set-font-scale("07", "m");
-    @include set-font-face("semi-bold");
+    @include set-font-weight("semi-bold");
 
     background: $color-grey-100;
     text-align: center;

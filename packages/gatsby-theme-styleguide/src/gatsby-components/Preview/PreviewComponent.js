@@ -5,7 +5,7 @@ import PreviewCodeSample from './PreviewCodeSample'
 import PreviewToolBar from './PreviewToolBar'
 import PreviewFrame from './PreviewFrame'
 
-import tokensObject from '@mozaic-ds/tokens/build/js/tokensObject.js'
+import tokensObject from '@mozaic-ds/tokens/build/lm/js/tokensObject.js'
 
 import copyToClipboard from '../../utils/copy-to-clipboard'
 

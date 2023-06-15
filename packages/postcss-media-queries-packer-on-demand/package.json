@@ -12,7 +12,6 @@
     "test": "jest"
   },
   "main": "index.js",
-  "author": "gael-boyenval <gaelboyenval@icloud.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.21.4",

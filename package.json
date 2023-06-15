@@ -1,8 +1,21 @@
 {
   "name": "@mozaic-ds/designsystem",
-  "description": "leroy merlin design system",
-  "version": "0.0.0",
-  "author": "Gaël BOYENVAL <gaelboyenval@icloud.com>",
+  "description": "Mozaic is an open-source design system built by ADEO, designed to help set up a coherent human experience, to reinforce team’s delivery time and improve quality of deliverables.",
+  "version": "2.0.0",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/adeo/mozaic-design-system"
@@ -60,7 +73,7 @@
   },
   "scripts": {
     "tokens:build": "mozaic-tokens-build",
-    "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js || echo 'nothing to clean'",
+    "tokens:clean": "test -d 'packages/tokens/build/' && rm -rf packages/tokens/build/ || echo 'nothing to clean'",
     "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
     "assets:upload": "node ci/assets.js",
     "ci:wait": "node ci/deploy.js",
@@ -76,8 +89,10 @@
     "predevelop": "yarn tokens:clean-build",
     "release": "npx lerna version --conventional-commits --conventional-graduate --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
     "releaseBeta": "npx lerna version --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid beta",
-    "npm:publish": "npx lerna exec --bail=false npm publish",
-    "npm:publishBeta": "npx lerna exec --bail=false npm publish --tag beta",
+    "releaseCandidate": "npx lerna version --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid rc",
+    "npm:publish": "npx lerna exec --no-bail -- npm publish",
+    "npm:publishBeta": "npx lerna exec --no-bail -- npm publish --tag beta",
+    "npm:publishCandidate": "npx lerna exec --no-bail -- npm publish --tag rc",
     "unit": "jest --projects ./packages/*/jest.config.js --coverage --verbose --color --no-cache",
     "unit:watch": "jest --watch --silent",
     "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'",

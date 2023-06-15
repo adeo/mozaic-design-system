@@ -1,5 +1,9 @@
+@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
+html {
+  @include set-font-face();
+}
 
 $toggle-sizes: map-merge(
   $toggle-sizes,
@@ -22,7 +26,5 @@ $toggle-sizes: map-merge(
 }
 
 .example {
-  @include set-font-face("regular");
-
   margin: $mu200;
 }

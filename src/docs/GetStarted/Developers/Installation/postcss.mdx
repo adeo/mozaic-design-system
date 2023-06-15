@@ -23,7 +23,6 @@ The Mozaic postCSS plugin list contains:
 - **nodeSass:** compile SCSS into css
 - **autoprefixer:** automatically add browser prefixes
 - **mqpacker on demand:** a custom built media queries regrouper based on comments
-- **postcss-base64:** url encode svg in css
 - **cssnano:** optimize and minify the CSS code
 
 ### A) Using a configuration file:
@@ -116,8 +115,8 @@ Now you need to update the builder option in the `angular.json` fields to the fo
             "./node_modules/@mozaic-ds/styles/settings-tools/",
             "./node_modules/@mozaic-ds/styles/typography/",
             "./node_modules/@mozaic-ds/styles/utilities/",
-            "./node_modules/@mozaic-ds/tokens/build/css/",
-            "./node_modules/@mozaic-ds/tokens/build/scss/",
+            "./node_modules/@mozaic-ds/tokens/build/lm/css/",
+            "./node_modules/@mozaic-ds/tokens/build/lm/scss/",
             "./node_modules/"
           ]
         }
@@ -164,13 +163,13 @@ In order to do that you can edit your `.env` config file (or create one) at the 
 Using Unix filesystem:
 
 ```bash
-SASS_PATH=./node_modules:./node_modules/@mozaic-ds/tokens/build/scss/:./node_modules/@mozaic-ds/styles/:./node_modules/@mozaic-ds/styles/settings-tools/:./node_modules/@mozaic-ds/styles/typography/:./node_modules/@mozaic-ds/styles/layout/:./node_modules/@mozaic-ds/styles/utilities/:./node_modules/@mozaic-ds/styles/components/
+SASS_PATH=./node_modules:./node_modules/@mozaic-ds/tokens/build/lm/scss/:./node_modules/@mozaic-ds/styles/:./node_modules/@mozaic-ds/styles/settings-tools/:./node_modules/@mozaic-ds/styles/typography/:./node_modules/@mozaic-ds/styles/layout/:./node_modules/@mozaic-ds/styles/utilities/:./node_modules/@mozaic-ds/styles/components/
 ```
 
 Using Windows filesystem:
 
 ```bash
-SASS_PATH=./node_modules;./node_modules/@mozaic-ds/tokens/build/scss/;./node_modules/@mozaic-ds/styles/;./node_modules/@mozaic-ds/styles/settings-tools/;./node_modules/@mozaic-ds/styles/typography/;./node_modules/@mozaic-ds/styles/layout/;./node_modules/@mozaic-ds/styles/utilities/;./node_modules/@mozaic-ds/styles/components/
+SASS_PATH=./node_modules;./node_modules/@mozaic-ds/tokens/build/lm/scss/;./node_modules/@mozaic-ds/styles/;./node_modules/@mozaic-ds/styles/settings-tools/;./node_modules/@mozaic-ds/styles/typography/;./node_modules/@mozaic-ds/styles/layout/;./node_modules/@mozaic-ds/styles/utilities/;./node_modules/@mozaic-ds/styles/components/
 ```
 
 #### With postcss-loader < 4.0.0
