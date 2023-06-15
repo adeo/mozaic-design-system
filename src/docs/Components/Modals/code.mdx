@@ -15,7 +15,6 @@ Import the **settings**, the **modal**, the **bodys**, and the **button** scss f
 @import 'components/c.divider';
 @import 'components/c.modal';
 @import 'components/c.button';
-@import 'components/c.overlay';
 ```
 
 ## Usage
@@ -96,6 +95,8 @@ The footer is the area that allows you to insert call-to-actions. This zone must
 
 > Note that call to actions always take 100% of the modal's width on `breakpoint-s`.
 
+<Preview path="default" />
+
 ## Variations
 
 ### Header with icon
@@ -106,6 +107,11 @@ As detailed above, you can add an icon in the header. You can do this in the fol
 
 > The width of the icon is 24px _(`$mu150`)_
 
+### Without heading
+
+In cases where it is not necessary, you can use a modal without heading, as follows:
+
+<Preview path="withouttitle" />
 
 ### Scrolling long content
 
@@ -155,9 +161,9 @@ Just as the width of a modal varies according to the rules indicated above, the 
 During the opening of a modal by Javascript, several events occur:
 
 - Added the `is-open` class on the `mc-modal__dialog` element.
-- A `mc-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
+- A `mc-modal-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
 
-<Preview path="header-with-icon" />
+<Preview path="opening" />
 
 #### Prevent body from scrolling
 

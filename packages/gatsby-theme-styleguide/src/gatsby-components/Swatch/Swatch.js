@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Color from '../Color'
-import tokens from '@mozaic-ds/tokens/build/lm/js/tokensObject.js'
-import adeoTokens from '@mozaic-ds/tokens/build/adeo/js/tokensObject.js'
+import tokens from '@mozaic-ds/tokens/build/js/tokensObject.js'
+import adeoTokens from '@mozaic-ds/tokens/buildAdeo/js/tokensObject.js'
 
 const ColorWrapper = styled.div`
   flex: 0 0 32%;

@@ -3,7 +3,6 @@ $local-config: (
   font-path: "/fonts",
 );
 
-@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
 

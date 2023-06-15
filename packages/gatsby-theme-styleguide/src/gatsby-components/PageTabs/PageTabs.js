@@ -1,19 +1,62 @@
 import React, { PureComponent } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { MagicUnit } from '@mozaic-ds/tokens/build/lm/js/tokens.js'
-import './styles.scss'
+import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 
 const Tabs = styled.div`
-padding-left: 2rem;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  border-bottom: solid 1px #000;
+  background: white;
+
+  @media screen and (max-width: 767px) {
+    overflow-x: auto;
+  }
 `
 
-const TabsWrapper = styled.ul`
+const TabsWrapper = styled.div`
+  display: inline-flex;
+  padding-left: ${MagicUnit * 1.5}rem;
+  max-width: ${MagicUnit * 52}rem;
+
+  @media screen and (min-width: 768px) {
+    padding-left: ${MagicUnit * 3}rem;
+  }
 `
 
-const TabItem = styled.li``
+const TabItem = styled.div``
 
-const TabLink = styled(Link)``
+const TabLink = styled(Link)`
+  color: #000;
+  display: block;
+  position: relative;
+  padding: ${MagicUnit}rem ${MagicUnit * 1.5}rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.25rem;
+  }
+
+  &:hover:not(.is-active) {
+    &::after {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &.is-active {
+    font-weight: bold;
+
+    &::after {
+      background: rgba(0, 0, 0, 1);
+    }
+  }
+`
 
 class PageTabs extends PureComponent {
   orderPageTab = (pageTabs) => {
@@ -46,19 +89,18 @@ class PageTabs extends PureComponent {
     const { samePageTabs } = this.props
     const cleanTabs = this.orderPageTab(samePageTabs)
     return (
-      <Tabs className="mc-tabs  mc-tabs--full" id="page_tabs_menu">
-        <TabsWrapper className="mc-tabs__nav">
+      <Tabs id="page_tabs_menu">
+        <TabsWrapper>
           {cleanTabs.map((node) => (
-            <TabItem key={node.slug} className="mc-tabs__item">
+            <TabItem key={node.slug}>
               <TabLink
                 to={node.slug}
-                activeClassName="mc-tabs__element--selected"
-                className="mc-tabs__element"
+                activeClassName="is-active"
                 state={{
                   isCode: node.title === 'Code',
                 }}
               >
-                <span className="mc-tabs__text">{node.title}</span>
+                {node.title}
               </TabLink>
             </TabItem>
           ))}

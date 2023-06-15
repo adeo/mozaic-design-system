@@ -1,13 +1,11 @@
-@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
-html {
-  @include set-font-face();
-}
 @import "components/c.text-input";
 @import "components/c.phone-number";
 
 .example {
+  @include set-font-face();
+
   height: 12rem;
   margin: $mu200 0;
   padding: 0 $mu200;

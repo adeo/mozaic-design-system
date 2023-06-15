@@ -11,7 +11,7 @@ import {
   ColorGrey100,
   ColorGrey500,
   ColorGrey700,
-} from '@mozaic-ds/tokens/build/lm/js/tokens'
+} from '@mozaic-ds/tokens/build/js/tokens'
 
 const defaultTitles = {
   info: 'Information',

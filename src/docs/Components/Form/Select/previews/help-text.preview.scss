@@ -1,13 +1,11 @@
-@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
-html {
-  @include set-font-face();
-}
 @import "components/c.select";
 @import "components/c.fields";
 
 .example {
+  @include set-font-face();
+
   margin: $mu200 0;
   padding: 0 $mu200;
 }

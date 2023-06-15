@@ -1,0 +1,11 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.file-uploader";
+
+.example {
+  margin: $mu150;
+
+  h2 {
+    @include set-font-face("regular");
+  }
+}

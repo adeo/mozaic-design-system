@@ -20,6 +20,7 @@ $accordion-sizes: (
     "padding-v": $mu125,
   ),
 );
+
 $accordion-default-size: map-get($accordion-sizes, "m");
 
 @mixin set-accordion-size($sizeProps, $parent) {
@@ -42,7 +43,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
   #{$parent}__label {
     @include set-font-scale($font-size, "m");
 
-    background-image: url("#{inline-icons($background-open, $color-font-darker)}");
+    background-image: url(inline-icons($background-open, $color-font-darker));
     background-size: $background-size;
     padding: {
       top: $padding-v;
@@ -57,19 +58,28 @@ $accordion-default-size: map-get($accordion-sizes, "m");
   input#{$parent}__trigger {
     &:checked {
       ~ #{$parent}__label {
-        background-image: url("#{inline-icons($background-close, $color-font-darker)}");
+        background-image: url(inline-icons(
+          $background-close,
+          $color-font-darker
+        ));
       }
     }
 
     &:disabled {
       ~ #{$parent}__label {
-        background-image: url("#{inline-icons($background-open, $color-font-light)}");
+        background-image: url(inline-icons(
+          $background-open,
+          $color-font-light
+        ));
       }
     }
 
     &:disabled:checked {
       ~ #{$parent}__label {
-        background-image: url("#{inline-icons($background-close, $color-font-light)}");
+        background-image: url(inline-icons(
+          $background-close,
+          $color-font-light
+        ));
       }
     }
   }
@@ -92,7 +102,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
       position: absolute;
       top: calc(50% - math.div($background-size, 2));
       right: 0.5rem;
-      background-image: url("#{inline-icons($background-open, $color-font-darker)}");
+      background-image: url(inline-icons($background-open, $color-font-darker));
       background-size: $background-size;
       width: $background-size;
       height: $background-size;
@@ -100,7 +110,10 @@ $accordion-default-size: map-get($accordion-sizes, "m");
 
     &:disabled {
       &::before {
-        background-image: url("#{inline-icons($background-open, $color-font-light)}");
+        background-image: url(inline-icons(
+          $background-open,
+          $color-font-light
+        ));
       }
     }
   }
@@ -118,13 +131,10 @@ $accordion-default-size: map-get($accordion-sizes, "m");
 
         &:disabled {
           &::before {
-            background-image: url("#{inline-icons($background-close, $color-font-darker)}");
-          }
-
-          &:disabled {
-            &::before {
-              background-image: url("#{inline-icons($background-close, $color-font-light)}");
-            }
+            background-image: url(inline-icons(
+              $background-close,
+              $color-font-light
+            ));
           }
         }
       }

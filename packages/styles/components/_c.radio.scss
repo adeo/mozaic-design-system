@@ -16,7 +16,7 @@
   }
 
   &__input {
-    @include reset-input();
+    @include reset-input;
 
     border: $radio-border-width solid $color-input-border;
     min-width: $radio-min-width;
@@ -50,18 +50,22 @@
     }
 
     &:hover {
-      border-color: $color-input-hover-border;
-
-      &::-ms-check {
+      @include add-demo-state-class {
         border-color: $color-input-hover-border;
+
+        &::-ms-check {
+          border-color: $color-input-hover-border;
+        }
       }
     }
 
     &:focus {
-      @include set-shadow-focus();
-
-      &::-ms-check {
+      @include add-demo-state-class {
         @include set-shadow-focus();
+
+        &::-ms-check {
+          @include set-shadow-focus();
+        }
       }
     }
 
@@ -118,10 +122,12 @@
       }
 
       &:hover {
-        border-color: $color-input-invalid-hover-border;
-
-        &::-ms-check {
+        @include add-demo-state-class {
           border-color: $color-input-invalid-hover-border;
+
+          &::-ms-check {
+            border-color: $color-input-invalid-hover-border;
+          }
         }
       }
     }

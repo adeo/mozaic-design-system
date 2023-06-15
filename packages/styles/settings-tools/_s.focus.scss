@@ -63,7 +63,9 @@ $size-focus-radius-m: math.div($mu075, 2);
 
       @content;
     }
-  } @else {
+  }
+
+  @else {
     &::after {
       @include focus-floating-position();
       @include set-focus-transition();
@@ -80,7 +82,9 @@ $size-focus-radius-m: math.div($mu075, 2);
 
       @content;
     }
-  } @else {
+  }
+
+  @else {
     &::after {
       @include set-shadow-focus();
 

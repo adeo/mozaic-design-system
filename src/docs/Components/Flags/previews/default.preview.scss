@@ -1,11 +1,8 @@
-@import "tokens";
-@import "settings-tools/all-settings";
-@include import-font-families();
-@import "components/c.flag";
+@import "settings-tools/_all-settings";
 
-html {
-  @include set-font-face();
-}
+@include import-font-families();
+
+@import "components/_c.flag";
 
 .example {
   margin: $mu100 auto;

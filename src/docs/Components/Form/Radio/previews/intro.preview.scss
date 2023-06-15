@@ -1,0 +1,19 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.radio";
+@import "typography/t.all-base-typography";
+@import "typography/t.bodys";
+
+.example {
+  @include set-font-face("regular");
+
+  margin: $mu200 auto;
+  padding: 0 $mu200;
+  width: 40vw;
+
+  &__list-item {
+    list-style-type: none;
+    margin: $mu100 0;
+    text-align: center;
+  }
+}

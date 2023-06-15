@@ -14,7 +14,6 @@ Import the **settings**, the **layer**, and the **button** scss files.
 
 @import 'components/_c.layer';
 @import 'components/_c.button';
-@import 'components/c.overlay';
 ```
 
 ## Usage
@@ -63,6 +62,7 @@ These areas are then encompassed in:
 </div>
 ```
 
+<Preview path="default" />
 
 ## Detail of areas
 
@@ -94,7 +94,7 @@ If there is a footer in your layer, note that the call-to-actions buttons inside
 
 As detailed above, you can add an icon in the header. You can do this in the following way:
 
-<Preview path="scrolling-content" />
+<Preview path="header-with-icon" />
 
 > The width of the icon is 24px _(`$mu150`)_
 
@@ -128,9 +128,13 @@ In some context, the scrollbar can be moved to the edge of the layer.
 
 A primary call to action button accompanied with a secondary button to give the user an alternative choice.
 
+<Preview path="cta-two" />
+
 ### Footer - call to action and link
 
 A primary call to action button with a link to redirect the user to a page to give more informations.
+
+<Preview path="cta-link" />
 
 ### Without footer
 
@@ -145,6 +149,8 @@ In some configurations, you may need to extend the width of the layer.
 To do this, you can add the `mc-layer__dialog--extend` to the `.mc-layer__dialog`.
 
 > Note that modifier extends the width of the layer only from the breakpoint M (680px)
+
+<Preview path="extended" />
 
 ### Open from left to right
 
@@ -161,7 +167,7 @@ To do this, you can add the `mc-layer--ltr` to the `.mc-layer`.
 During the opening of a layer by Javascript, several events occur:
 
 - Added the `is-open` class on the `mc-layer__dialog` element.
-- An `mc-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
+- An `mc-layer-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
 
 #### Prevent body from scrolling
 

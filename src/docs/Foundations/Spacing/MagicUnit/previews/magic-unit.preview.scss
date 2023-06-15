@@ -1,4 +1,3 @@
-@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
 
@@ -72,7 +71,6 @@ body {
       line-height: 2;
     }
 
-    /* stylelint-disable */
     @each $key in $magic-units-sizes {
       $iterator: $iterator - 1;
 
@@ -90,6 +88,5 @@ body {
         }
       }
     }
-    /* stylelint-enable */
   }
 }

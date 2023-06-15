@@ -1,0 +1,12 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.accordion";
+@import "components/c.links"; // used only for the example
+
+.example {
+  margin: $mu125;
+}
+
+p {
+  margin: 0;
+}

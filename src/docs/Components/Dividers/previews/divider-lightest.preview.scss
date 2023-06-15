@@ -1,0 +1,21 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.divider";
+
+.example {
+  @include set-font-face("regular");
+
+  background: $color-grey-900;
+  color: $color-grey-000;
+  display: block;
+  padding: $mu150;
+
+  &__element {
+    @include set-divider("bottom", "lightest", "100%");
+
+    display: block;
+    margin: 0 auto;
+    min-height: $mu250;
+    position: relative;
+  }
+}

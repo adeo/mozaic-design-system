@@ -1,63 +1,42 @@
-const path = require('path')
 const CM = require('@mozaic-ds/configuration-manager')
-const customActions = require('./src/actions/actions.js')
+const path = require('path')
+const customActions = require('./actions/actions.js')
 
-const userTokensSourcePath = CM.getKey('tokens.localTokensSrcPath')
-const userTokensBuildPath = CM.getKey('tokens.localTokensExportPath')
-const userTokensPlatforms = CM.getKey('tokens.platforms')
+const getPath = (localRelativePath) =>
+  path.relative(process.cwd(), `${__dirname}/${localRelativePath}`)
 
-const getPath = (localRelativePath) => {
-  return path.relative(process.cwd(), `${__dirname}/${localRelativePath}`)
+const getBuildPath = (path) => getPath(path) + '/'
+
+const preset = CM.getKey('preset')
+
+const localSrcPath = CM.getKey('tokens.localTokensSrcPath')
+
+const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
+
+const source = localSrcPath
+  ? [getPath('properties/**/*.json'), `${localSrcPath}properties/**/*.json`]
+  : [getPath('properties/**/*.json')]
+
+const availablePresets = {
+  adeo: 'AdeoProperties/**/*.json',
+  bricoman: 'BricomanProperties/**/*.json',
 }
 
-// Source
-const defaultTokensSourcePath = getPath('src/tokens/leroymerlin/**/*.json')
-
-function getTokensSourcePath(src) {
-  let source = ''
-
-  if (src) {
-    source = [defaultTokensSourcePath, getPath(src)]
-  } else {
-    source = userTokensSourcePath
-      ? [defaultTokensSourcePath, `${userTokensSourcePath}**/*.json`]
-      : [defaultTokensSourcePath]
-  }
-
-  return source
+if (preset) {
+  source.splice(1, 0, getPath(availablePresets[preset]))
 }
 
-// Platform
-const defaultPlatforms = ['scss']
-const allowedPlatforms = userTokensPlatforms
-  ? defaultPlatforms.concat(userTokensPlatforms)
-  : defaultPlatforms
+const setLocalTokensExportPath = (dir) =>
+  localTokensExportPath
+    ? `${localTokensExportPath}${dir}/`
+    : getBuildPath(`build/${dir}/`)
 
-const getTokensBuildPath = (brand, platform) => {
-  return userTokensBuildPath
-    ? `${userTokensBuildPath}${brand}/${platform}/`
-    : getPath(`build/${brand}/${platform}`) + '/'
-}
-
-function getPlatforms(brand) {
-  const platformsObject = {}
-  const platforms = {
-    scss: {
-      transformGroup: 'scss',
-      buildPath: getTokensBuildPath(brand, 'scss'),
-      files: [
-        {
-          destination: '_tokens.scss',
-          format: 'scss/map-deep',
-          options: {
-            showFileHeader: false,
-          },
-        },
-      ],
-    },
+const config = {
+  source,
+  platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: getTokensBuildPath(brand, 'css'),
+      buildPath: setLocalTokensExportPath('css'),
       files: [
         {
           destination: 'root.scss',
@@ -75,9 +54,22 @@ function getPlatforms(brand) {
       ],
       actions: ['cssvariables_to_scss'],
     },
+    scss: {
+      transformGroup: 'scss',
+      buildPath: setLocalTokensExportPath('scss'),
+      files: [
+        {
+          destination: '_tokens.scss',
+          format: 'scss/map-deep',
+          options: {
+            showFileHeader: false,
+          },
+        },
+      ],
+    },
     android: {
       transformGroup: 'android',
-      buildPath: getTokensBuildPath(brand, 'android'),
+      buildPath: setLocalTokensExportPath('android'),
       files: [
         {
           destination: 'font_dimens.xml',
@@ -97,7 +89,7 @@ function getPlatforms(brand) {
     },
     js: {
       transformGroup: 'js',
-      buildPath: getTokensBuildPath(brand, 'js'),
+      buildPath: setLocalTokensExportPath('js'),
       files: [
         {
           destination: 'tokensObject.js',
@@ -117,7 +109,7 @@ function getPlatforms(brand) {
     },
     'ios-swift': {
       transformGroup: 'ios-swift',
-      buildPath: getTokensBuildPath(brand, 'ios'),
+      buildPath: setLocalTokensExportPath('ios'),
       files: [
         {
           destination: 'StyleDictionaryColor.swift',
@@ -157,7 +149,7 @@ function getPlatforms(brand) {
     },
     ios: {
       transformGroup: 'ios',
-      buildPath: getTokensBuildPath(brand, 'ios'),
+      buildPath: setLocalTokensExportPath('ios'),
       files: [
         {
           destination: 'StyleDictionaryColor.h',
@@ -229,28 +221,8 @@ function getPlatforms(brand) {
         },
       ],
     },
-  }
-
-  allowedPlatforms.forEach(function (platform) {
-    if (platforms.hasOwnProperty(platform)) {
-      platformsObject[platform] = platforms[platform]
-    } else {
-      console.error(
-        `✗ ERROR : The requested ${platform} platform is not an allowed platform.`
-      )
-    }
-  })
-
-  return platformsObject
+  },
+  action: customActions,
 }
 
-// Config Object
-function getStyleDictionaryConfig(brand, tokens) {
-  return {
-    source: getTokensSourcePath(tokens),
-    platforms: getPlatforms(brand),
-    action: customActions,
-  }
-}
-
-module.exports = ({ brand, tokens }) => getStyleDictionaryConfig(brand, tokens)
+module.exports = config

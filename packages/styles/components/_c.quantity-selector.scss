@@ -4,7 +4,6 @@
   display: flex;
   position: relative;
 
-  /* stylelint-disable no-descending-specificity */
   &__button-right,
   &__button-left {
     z-index: 1;
@@ -17,7 +16,6 @@
   &__button-left {
     border-radius: $mu025 0 0 $mu025;
   }
-  /* stylelint-enable no-descending-specificity */
 
   &__input {
     border-radius: 0;

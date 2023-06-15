@@ -12,6 +12,7 @@
     "test": "jest"
   },
   "main": "index.js",
+  "author": "Trésor ILOYI <tresor.iloyi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.5.0",

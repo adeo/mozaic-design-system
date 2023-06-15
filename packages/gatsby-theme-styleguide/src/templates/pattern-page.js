@@ -1,4 +1,4 @@
-import { MagicUnit } from '@mozaic-ds/tokens/build/lm/js/tokens.js'
+import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import React from 'react'

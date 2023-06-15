@@ -1,0 +1,11 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.checkbox";
+@import "components/c.fields";
+
+.example {
+  @include set-font-face();
+
+  margin: $mu200 0;
+  padding: 0 $mu100;
+}

@@ -39,12 +39,12 @@ cleanDirectories(config)
   .then((icons) => {
     console.log(outputIconSetSize(icons[0], icons[1]))
     console.log('✓ SUCCESS : Icons cleaned and saved as SVGs in the package')
-    const allIcons = icons[0].concat(icons[1])
+
     return Promise.all([
-      generateIconComponent('react', allIcons),
+      generateIconComponent('react', icons[0]),
       generateIconComponent('vue', icons[0]),
-      generateIconComponent('svelte', allIcons),
-      generateIconsModules(allIcons),
+      generateIconComponent('svelte', icons[0]),
+      generateIconsModules(icons[0].concat(icons[1])),
       generateIconsDatas(icons),
     ]).then(() => Promise.resolve())
   })

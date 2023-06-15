@@ -1,14 +1,12 @@
-@import "tokens";
-@import "settings-tools/all-settings";
-@include import-font-families();
-@import "components/c.checkbox";
-@import "components/c.button";
-@import "typography/t.bodys";
-@import "components/c.option-card";
+@import "settings-tools/_all-settings";
 
-html {
-  @include set-font-face();
-}
+@include import-font-families();
+
+@import "components/_c.checkbox";
+@import "components/_c.button";
+@import "typography/_t.bodys";
+@import "components/_c.option-card";
+
 
 .example {
   @include set-font-family();

@@ -1,6 +1,7 @@
 $notification-selector: ".mc-notification";
 $notification-close-icon-color: get-token(color, notification, font);
 $notification-border-width: get-border("s");
+
 $notification-sizes: (
   "s": (
     "padding": $mu075 $mu075 $mu150,
@@ -17,7 +18,9 @@ $notification-sizes: (
     "content-padding-top": $mu025,
   ),
 );
+
 $notification-default-size: map-get($notification-sizes, "m");
+
 $notification-types: (
   "information": (
     "background": $color-notification-information-background,
@@ -87,6 +90,6 @@ $notification-types: (
   }
 
   &::before {
-    background-image: url("#{inline-icons($icon, $icon-color)}");
+    background-image: url(inline-icons($icon, $icon-color));
   }
 }

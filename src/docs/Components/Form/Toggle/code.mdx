@@ -1,5 +1,5 @@
 ---
-title: 'Code'
+title: "Code"
 order: 2
 ---
 
@@ -10,10 +10,9 @@ order: 2
 Import **the settings** and **the toggle** `scss` files.
 
 ```scss
-@import 'tokens';
-@import 'settings-tools/all-settings';
+@import "settings-tools/all-settings";
 
-@import 'components/_c.toggle';
+@import "components/_c.toggle";
 ```
 
 ### Basic usage
@@ -113,12 +112,11 @@ Don't forget to add the attribute `aria-hidden="true"` on the `mc-toggle__state`
 Import **the settings**, **the toggle** and **the fields** scss files.
 
 ```scss
-@import 'tokens';
-@import 'settings-tools/all-settings';
+@import "settings-tools/all-settings";
 
-@import 'components/_c.toggle';
+@import "components/_c.toggle";
 
-@import 'components/_c.fields';
+@import "components/_c.fields";
 ```
 
 > Note that the import order is important to get the right rendering of the component.
@@ -213,22 +211,22 @@ If you want to add a toggle size, update the `$toggle-sizes` map after the `all-
 example :
 
 ```scss
-@import 'settings/all-settings';
+@import "settings/all-settings";
 $toggle-sizes: map-merge(
   $toggle-sizes,
   (
-    'xs': (
-      'width': 2,
-      'height': 1,
+    "xs": (
+      "width": 2,
+      "height": 1,
     ),
-    'l': (
-      'width': 6,
-      'height': 3,
+    "l": (
+      "width": 6,
+      "height": 3,
     ),
   )
 );
 
-@import 'components/_c.toggles';
+@import "components/_c.toggles";
 ```
 
 <Preview path="toggle-extend-sizes" />

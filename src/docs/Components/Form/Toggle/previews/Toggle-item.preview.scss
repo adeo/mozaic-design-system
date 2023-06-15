@@ -1,4 +1,3 @@
-@import "tokens";
 @import "settings-tools/all-settings";
 @include import-font-families();
 
@@ -7,7 +6,7 @@
 }
 
 .example {
-  @include set-font-face();
+  @include set-font-face("regular");
   @import "components/c.toggle";
 
   margin: $mu200;
