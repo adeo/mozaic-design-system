@@ -22,13 +22,10 @@ export default siteMapData
 const query = graphql`
   query SiteMapData {
     allMdx(sort: { fields: { slug: ASC } }) {
-      totalCount
       edges {
         node {
-          id
           frontmatter {
             title
-            order
             description
           }
           fields {

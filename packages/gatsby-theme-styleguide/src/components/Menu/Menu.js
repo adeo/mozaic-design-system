@@ -1,17 +1,16 @@
+import React, { useState } from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import styled, { css } from 'styled-components'
 import {
   ControlLess16,
   ControlMore16,
   DisplayExternalLink16,
 } from '@mozaic-ds/icons/react'
-import { graphql, StaticQuery } from 'gatsby'
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
-import styled, { css } from 'styled-components'
-import DesignerKitLink from '../DesignerKitLink'
 import withSiteMapData from '../SiteMapData'
 import { parseLocation } from '../SiteMapData/tools'
 import MenuHeader from './MenuHeader'
 import { MenuItem } from './MenuItem'
+import DesignerKitLink from '../DesignerKitLink'
 
 const Wrapper = styled.div`
   max-height: 100vh;
@@ -118,56 +117,34 @@ const ShowChildrenButton = styled.button`
 
 const NavContainer = styled.nav``
 
-class Menu extends Component {
-  static propTypes = {
-    siteTitle: PropTypes.string.isRequired,
-  }
+// MENU ITEMS
+const MenuItems = ({ items, isOpened }) => {
+  const [localItems, setLocalItems] = useState(items)
 
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      menuArray: parseLocation(this.props.siteMapData, this.props.location),
-    }
-  }
-
-  openMenu = (dirPath) => {
-    const setOpenItems = (subMenu) =>
+  const handleClick = (dirPath, isOpen) => {
+    const updateMenuState = (subMenu) =>
       subMenu.map((item, i) => {
-        if (dirPath.includes(item.dirPath)) {
+        if (!isOpen && dirPath.includes(item.dirPath)) {
           item.isOpened = true
         }
 
-        if (item.content && item.content.length > 0) {
-          item.content = setOpenItems(item.content)
-        }
-
-        return item
-      })
-
-    this.setState({ menuArray: setOpenItems(this.state.menuArray) })
-  }
-
-  closeMenu = (dirPath) => {
-    const setCloseItem = (subMenu) =>
-      subMenu.map((item, i) => {
-        if (dirPath === item.dirPath) {
+        if (isOpen && dirPath === item.dirPath) {
           item.isOpened = false
         }
 
         if (item.content && item.content.length > 0) {
-          item.content = setCloseItem(item.content)
+          item.content = updateMenuState(item.content)
         }
 
         return item
       })
 
-    this.setState({ menuArray: setCloseItem(this.state.menuArray) })
+    setLocalItems(updateMenuState(localItems))
   }
 
-  buildMenu = (menuArray, isOpened = true) => (
+  return (
     <UlMenu isOpened={isOpened}>
-      {menuArray.map((item) => {
+      {localItems.map((item) => {
         return (
           <ListItem
             key={item.dirPath}
@@ -177,15 +154,11 @@ class Menu extends Component {
             <MenuItemContainer
               level={item.level}
               isOpened={item.isOpened}
-              onClick={
-                item.isOpened
-                  ? () => this.closeMenu(item.dirPath)
-                  : () => this.openMenu(item.dirPath)
-              }
+              onClick={() => handleClick(item.dirPath, item.isOpened)}
             >
               <MenuItem
                 to={item.slug}
-                content={item.title}
+                title={item.title}
                 level={item.level}
                 isPartOfCurrentlocation={item.isPartOfCurrentlocation}
                 hasChildren={item.content.length > 0}
@@ -199,73 +172,56 @@ class Menu extends Component {
               )}
             </MenuItemContainer>
             {item.content.length > 0 && (
-              <div>{this.buildMenu(item.content, item.isOpened)}</div>
+              <div>
+                <MenuItems items={item.content} isOpened={item.isOpened} />
+              </div>
             )}
           </ListItem>
         )
       })}
     </UlMenu>
   )
-
-  render() {
-    const { siteTitle } = this.props
-
-    return (
-      <StaticQuery
-        query={query}
-        render={(data) => {
-          return (
-            <>
-              <Wrapper className="MenuWrapper">
-                <MenuHeader
-                  siteTitle={siteTitle}
-                  githubReleases={data.allGithubRelease.edges}
-                />
-                <NavContainer>
-                  {this.buildMenu(this.state.menuArray, true)}
-                  <ListItem>
-                    <MenuItemContainer>
-                      <GithubLink
-                        href="https://github.com/adeo/mozaic-design-system"
-                        target="_blank"
-                      >
-                        GitHub
-                        <ShowChildrenButton tabIndex={-1}>
-                          <DisplayExternalLink16 fill="#554f52"></DisplayExternalLink16>
-                        </ShowChildrenButton>
-                      </GithubLink>
-                    </MenuItemContainer>
-                  </ListItem>
-                  <DesignerKitLink
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="button button--secondary button__menu"
-                    title="Download the IU kit"
-                  >
-                    Download the design kit
-                  </DesignerKitLink>
-                </NavContainer>
-              </Wrapper>
-            </>
-          )
-        }}
-      />
-    )
-  }
 }
 
-export default withSiteMapData({ Component: Menu })
-
-const query = graphql`
-  query AllGitReleasesQuery {
-    allGithubRelease(limit: 20) {
-      edges {
-        node {
-          tagName
-          url
-          isCurrent
+// MENU
+const Menu = ({ siteMapData, location }) => {
+  const menuItems = parseLocation(siteMapData, location)
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          githubUrl
         }
       }
     }
-  }
-`
+  `)
+
+  return (
+    <Wrapper className="MenuWrapper">
+      <MenuHeader />
+      <NavContainer>
+        <MenuItems items={menuItems} isOpened={true} />
+        <ListItem>
+          <MenuItemContainer>
+            <GithubLink href={data.site.siteMetadata.githubUrl} target="_blank">
+              GitHub
+              <ShowChildrenButton tabIndex={-1}>
+                <DisplayExternalLink16 fill="#554f52"></DisplayExternalLink16>
+              </ShowChildrenButton>
+            </GithubLink>
+          </MenuItemContainer>
+        </ListItem>
+        <DesignerKitLink
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button button--secondary button__menu"
+          title="Download the IU kit"
+        >
+          Download the design kit
+        </DesignerKitLink>
+      </NavContainer>
+    </Wrapper>
+  )
+}
+
+export default withSiteMapData({ Component: Menu })

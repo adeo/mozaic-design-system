@@ -1,5 +1,4 @@
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import styled, { css } from 'styled-components'
 
@@ -59,49 +58,30 @@ const MenuLink = styled(Link)`
     `}
 `
 
-class MenuItem extends Component {
-  constructor(props) {
-    super(props)
-
-    this.handleClick = this.handleClick.bind(this)
+const MenuItem = (props) => {
+  function handleClick(e) {
+    if (props.hasChildren) e.preventDefault()
   }
 
-  handleClick(e) {
-    if (this.props.hasChildren) e.preventDefault()
+  let menuItem
+
+  if (props.to) {
+    menuItem = (
+      <MenuLink
+        to={props.to}
+        level={props.level}
+        isPartOfCurrentlocation={props.isPartOfCurrentlocation}
+        onClick={handleClick}
+        tabIndex={props.tabIndex}
+      >
+        {props.title}
+      </MenuLink>
+    )
+  } else {
+    menuItem = <p>{props.title}</p>
   }
 
-  render() {
-    let menuItem
-    if (this.props.to) {
-      menuItem = (
-        <MenuLink
-          to={this.props.to}
-          level={this.props.level}
-          isPartOfCurrentlocation={this.props.isPartOfCurrentlocation}
-          onClick={this.handleClick}
-          tabIndex={this.props.tabIndex}
-        >
-          {this.props.content}
-        </MenuLink>
-      )
-    } else {
-      menuItem = <p>{this.props.content}</p>
-    }
-
-    return menuItem
-  }
+  return menuItem
 }
 
-MenuItem.propTypes = {
-  to: PropTypes.string,
-  content: PropTypes.string.isRequired,
-  level: PropTypes.number.isRequired,
-  isPartOfCurrentlocation: PropTypes.bool,
-  hasChildren: PropTypes.bool,
-  tabIndex: PropTypes.number,
-}
-
-MenuItem.defaultProps = {
-  tabIndex: 0,
-}
 export { MenuItem }
