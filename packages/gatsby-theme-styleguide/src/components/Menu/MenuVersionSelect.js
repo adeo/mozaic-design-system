@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const SelectContainer = styled.div`
@@ -31,46 +30,30 @@ const LabelVersion = styled.label`
   border: 0;
 `
 
-class MenuVersionRelease extends Component {
-  handleChange = (event) => {
+const MenuVersionRelease = ({ releases }) => {
+  const handleChange = (event) => {
     if (event.target.value !== 'default')
       window.location.href = event.target.value
   }
 
-  static propTypes = {
-    githubReleases: PropTypes.arrayOf(
-      PropTypes.shape({
-        node: PropTypes.shape({
-          url: PropTypes.string.isRequired,
-          tagName: PropTypes.string.isRequired,
-          isCurrent: PropTypes.bool.isRequired,
-        }).isRequired,
-      })
-    ).isRequired,
-  }
-
-  render() {
-    const githubReleases = [...this.props.githubReleases].reverse()
-
-    return (
-      <SelectContainer>
-        <LabelVersion>older tags:</LabelVersion>
-        <select defaultValue="default" onChange={this.handleChange}>
-          <option key="default" value="default">
-            -- Choose version --
+  return (
+    <SelectContainer>
+      <LabelVersion>older tags:</LabelVersion>
+      <select defaultValue="default" onChange={handleChange}>
+        <option key="default" value="default">
+          -- Choose version --
+        </option>
+        <option key="latest" value="https://mozaic.adeo.cloud/">
+          latest release
+        </option>
+        {releases.map((release) => (
+          <option key={release.tagName} value={release.url}>
+            {release.tagName}
           </option>
-          <option key="latest" value="https://mozaic.adeo.cloud/">
-            latest release
-          </option>
-          {githubReleases.reverse().map((release) => (
-            <option key={release.node.tagName} value={release.node.url}>
-              {release.node.tagName}
-            </option>
-          ))}
-        </select>
-      </SelectContainer>
-    )
-  }
+        ))}
+      </select>
+    </SelectContainer>
+  )
 }
 
 export default MenuVersionRelease
