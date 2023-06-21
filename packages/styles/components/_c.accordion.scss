@@ -28,6 +28,7 @@
     display: block;
     padding-left: $mu050;
     position: relative;
+    pointer-events: none;
 
     &:hover {
       background-color: $color-grey-100;

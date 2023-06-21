@@ -3,6 +3,11 @@
 .mc-modal {
   $parent: get-parent-selector(&);
 
+  &,
+  * {
+    box-sizing: border-box;
+  }
+
   @include set-dialog-base();
 
   align-items: flex-end;
@@ -25,6 +30,7 @@
     display: flex;
     flex-direction: column;
     opacity: 0;
+    max-height: 100%;
     position: relative;
     transform: translateY(-25%);
     transition:
@@ -137,6 +143,7 @@
 
     flex: 1 1;
     color: $color-font-darker;
+    display: flex;
     overflow: hidden;
     padding-left: math.div($mu100, 2);
     padding-right: math.div($mu100, 2);
@@ -148,6 +155,7 @@
   }
 
   &__content {
+    flex-grow: 1;
     max-height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -216,15 +224,8 @@
     overflow: hidden;
   }
 
-  &--overflow {
-    #{$parent} {
-      &__dialog {
-        height: 100%;
-      }
-
-      &__footer {
-        box-shadow: 0 $mu025 $mu125 0 mt-rgba($color-dialog-footer-shadow, 0.2);
-      }
-    }
+  // Overlay
+  @at-root #{$parent}-overlay {
+    @include set-page-overlay();
   }
 }

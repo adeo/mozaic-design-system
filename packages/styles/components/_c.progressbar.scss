@@ -47,7 +47,7 @@
     }
   }
 
-  // Size modifiers
+  // size modifiers
   @each $name, $props in $progressbar-sizes {
     &--#{$name} {
       @if $name != "m" {
@@ -58,13 +58,6 @@
           border-radius: map-get($props, "border-radius");
         }
       }
-    }
-  }
-
-  // Color modifiers
-  &--branded {
-    #{$parent}__indicator {
-      background-color: $color-progress-branded-indicator;
     }
   }
 }

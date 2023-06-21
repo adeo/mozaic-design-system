@@ -40,6 +40,6 @@
     "clean": "rm -rf ./dist/"
   },
   "dependencies": {
-    "style-dictionary": "^3.7.1"
+    "style-dictionary": "^3.8.0"
   }
 }

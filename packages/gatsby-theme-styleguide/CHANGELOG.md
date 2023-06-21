@@ -19,49 +19,67 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-rc.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.14...v2.0.0-rc.15) (2023-02-23)
 
-# [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
-
-### Features
-
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([c574e7f](https://github.com/adeo/mozaic-design-system/commit/c574e7f32645cd31d2f0d1a3f1ea47ffdeb6ee7c))
-- **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([867be40](https://github.com/adeo/mozaic-design-system/commit/867be401fa4ee72543fd8a9ef1253fa6a23e66a5)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
-
-# [2.0.0-beta.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.15...v2.0.0-beta.15) (2023-03-02)
-
-### Features
-
-- **preset/zodio:** load Lato font from Google Fonts ([7a33c77](https://github.com/adeo/mozaic-design-system/commit/7a33c77127df4991fbd6796d12f743a5f4d471d9))
-
-# [2.0.0-rc.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.14...v2.0.0-rc.15) (2023-02-23)
-
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
 
+
+
+
+
 # [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
+
 
 ### Features
 
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([c574e7f](https://github.com/adeo/mozaic-design-system/commit/c574e7f32645cd31d2f0d1a3f1ea47ffdeb6ee7c))
-- **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([867be40](https://github.com/adeo/mozaic-design-system/commit/867be401fa4ee72543fd8a9ef1253fa6a23e66a5)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([c574e7f](https://github.com/adeo/mozaic-design-system/commit/c574e7f32645cd31d2f0d1a3f1ea47ffdeb6ee7c))
+* **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([867be40](https://github.com/adeo/mozaic-design-system/commit/867be401fa4ee72543fd8a9ef1253fa6a23e66a5)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+
+
+
+
 
 # [2.0.0-rc.13](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.12...v2.0.0-rc.13) (2023-01-06)
 
+
 ### Features
 
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([b839af4](https://github.com/adeo/mozaic-design-system/commit/b839af4e8b04cfcaac515f0352adefcf709d5eba))
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([b839af4](https://github.com/adeo/mozaic-design-system/commit/b839af4e8b04cfcaac515f0352adefcf709d5eba))
+
+
+
+
 
 # [2.0.0-rc.12](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.11...v2.0.0-rc.12) (2022-12-29)
 
+
 ### Features
 
-- **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([c9353dd](https://github.com/adeo/mozaic-design-system/commit/c9353dda749e1d06bd6610d32652748002d0b87e)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+* **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([c9353dd](https://github.com/adeo/mozaic-design-system/commit/c9353dda749e1d06bd6610d32652748002d0b87e)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+
+
+
+
 
 # [2.0.0-rc.10](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.9...v2.0.0-rc.10) (2022-12-26)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
 
+
+
+
+
 # [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
+
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Features
+
+- **docs:** add segmented control documentation ([#1420](https://github.com/adeo/mozaic-design-system/issues/1420)) ([781f252](https://github.com/adeo/mozaic-design-system/commit/781f2526db4ba42f48d1cd93631d8380b33c2686))
 
 # [1.54.0](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v1.54.0) (2023-03-02)
 
@@ -107,9 +125,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
 
+
+
+
+
 # [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide
+
+
+
+
 
 # [1.24.0](https://github.com/adeo/mozaic-design-system/compare/v1.23.1...v1.24.0) (2022-02-02)
 

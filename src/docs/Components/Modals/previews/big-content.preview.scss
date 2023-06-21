@@ -4,7 +4,6 @@
 html {
   @include set-font-face();
 }
-@import "generic/g.reset";
 @import "typography/t.bodys";
 @import "components/c.modal";
 @import "components/c.button";

@@ -5,7 +5,7 @@
         "value": "{color.grey.200.value}"
       },
       "indicator": {
-        "value": "{color.info.600.value}"
+        "value": "{color.primary-01.600.value}"
       },
       "percentage": {
         "default": {
@@ -13,11 +13,6 @@
         },
         "half": {
           "value": "{color.grey.000.value}"
-        }
-      },
-      "branded": {
-        "indicator": {
-          "value": "{color.primary-01.500.value}"
         }
       }
     }

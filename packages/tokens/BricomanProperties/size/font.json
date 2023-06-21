@@ -1,0 +1,272 @@
+{
+  "size": {
+    "font": {
+      "01": {
+        "value": 0.6815,
+        "comment": "11px"
+      },
+      "02": {
+        "value": 0.75,
+        "comment": "12px"
+      },
+      "03": {
+        "value": 0.8125,
+        "comment": "13px"
+      },
+      "04": {
+        "value": 0.875,
+        "comment": "14px"
+      },
+      "05": {
+        "value": 1,
+        "comment": "16px"
+      },
+      "06": {
+        "value": 1.125,
+        "comment": "18px"
+      },
+      "07": {
+        "value": 1.5,
+        "comment": "24px"
+      },
+      "08": {
+        "value": 1.75,
+        "comment": "28px"
+      },
+      "09": {
+        "value": 2.125,
+        "comment": "34px"
+      },
+      "10": {
+        "value": 2.5625,
+        "comment": "41px"
+      },
+      "11": {
+        "value": 3.0625,
+        "comment": "49px"
+      },
+      "12": {
+        "value": 3.6875,
+        "comment": "59px"
+      }
+    },
+    "line": {
+      "01": {
+        "xs": {
+          "value": 0.75,
+          "comment": "12px"
+        },
+        "s": {
+          "value": 0.75,
+          "comment": "12px"
+        },
+        "m": {
+          "value": 0.875,
+          "comment": "14px"
+        },
+        "l": {
+          "value": 1,
+          "comment": "16px"
+        }
+      },
+      "02": {
+        "xs": {
+          "value": 0.75,
+          "comment": "12px"
+        },
+        "s": {
+          "value": 0.875,
+          "comment": "14px"
+        },
+        "m": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "l": {
+          "value": 1.125,
+          "comment": "18px"
+        }
+      },
+      "03": {
+        "xs": {
+          "value": 0.875,
+          "comment": "14px"
+        },
+        "s": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "m": {
+          "value": 1.125,
+          "comment": "18px"
+        },
+        "l": {
+          "value": 1.25,
+          "comment": "20px"
+        }
+      },
+      "04": {
+        "xs": {
+          "value": 0.875,
+          "comment": "14px"
+        },
+        "s": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "m": {
+          "value": 1.125,
+          "comment": "18px"
+        },
+        "l": {
+          "value": 1.375,
+          "comment": "22px"
+        }
+      },
+      "05": {
+        "xs": {
+          "value": 1,
+          "comment": "16px"
+        },
+        "s": {
+          "value": 1.125,
+          "comment": "18px"
+        },
+        "m": {
+          "value": 1.375,
+          "comment": "22px"
+        },
+        "l": {
+          "value": 1.5,
+          "comment": "24px"
+        }
+      },
+      "06": {
+        "xs": {
+          "value": 1.125,
+          "comment": "18px"
+        },
+        "s": {
+          "value": 1.25,
+          "comment": "20px"
+        },
+        "m": {
+          "value": 1.5,
+          "comment": "24px"
+        },
+        "l": {
+          "value": 1.75,
+          "comment": "28px"
+        }
+      },
+      "07": {
+        "xs": {
+          "value": 1.5,
+          "comment": "24px"
+        },
+        "s": {
+          "value": 1.75,
+          "comment": "28px"
+        },
+        "m": {
+          "value": 2,
+          "comment": "32px"
+        },
+        "l": {
+          "value": 2.25,
+          "comment": "36px"
+        }
+      },
+      "08": {
+        "xs": {
+          "value": 1.75,
+          "comment": "28px"
+        },
+        "s": {
+          "value": 2,
+          "comment": "32px"
+        },
+        "m": {
+          "value": 2.25,
+          "comment": "36px"
+        },
+        "l": {
+          "value": 2.75,
+          "comment": "44px"
+        }
+      },
+      "09": {
+        "xs": {
+          "value": 2.25,
+          "comment": "36px"
+        },
+        "s": {
+          "value": 2.5,
+          "comment": "40px"
+        },
+        "m": {
+          "value": 2.75,
+          "comment": "44px"
+        },
+        "l": {
+          "value": 3.25,
+          "comment": "52px"
+        }
+      },
+      "10": {
+        "xs": {
+          "value": 2.5,
+          "comment": "40px"
+        },
+        "s": {
+          "value": 3,
+          "comment": "48px"
+        },
+        "m": {
+          "value": 3.5,
+          "comment": "56px"
+        },
+        "l": {
+          "value": 3.75,
+          "comment": "60px"
+        }
+      },
+      "11": {
+        "xs": {
+          "value": 3,
+          "comment": "48px"
+        },
+        "s": {
+          "value": 3.5,
+          "comment": "56px"
+        },
+        "m": {
+          "value": 4.25,
+          "comment": "68px"
+        },
+        "l": {
+          "value": 4.5,
+          "comment": "72px"
+        }
+      },
+      "12": {
+        "xs": {
+          "value": 3.75,
+          "comment": "60px"
+        },
+        "s": {
+          "value": 4.25,
+          "comment": "68px"
+        },
+        "m": {
+          "value": 5,
+          "comment": "80px"
+        },
+        "l": {
+          "value": 5.5,
+          "comment": "88px"
+        }
+      }
+    }
+  }
+}

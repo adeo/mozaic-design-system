@@ -4627,6 +4627,50 @@ module.exports = {
           "datatable",
           "icon"
         ]
+      },
+      "empty": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorDatatableEmptyBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#666666",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorDatatableEmptyColor",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "color"
+          ]
+        }
       }
     },
     "dialog": {
@@ -7837,6 +7881,234 @@ module.exports = {
             "progress",
             "branded",
             "indicator"
+          ]
+        }
+      }
+    },
+    "sidebar": {
+      "background": {
+        "value": "#eeeff1",
+        "filePath": "packages/tokens/properties/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorSidebarBackground",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "background"
+        ]
+      },
+      "feature": {
+        "background": {
+          "value": "#cfd2d8",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.200.value}"
+          },
+          "name": "ColorSidebarFeatureBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "feature",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "feature",
+            "background"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#b3b7c1",
+            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.300.value}"
+            },
+            "name": "ColorSidebarFeatureHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "hover",
+              "background"
+            ]
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "#cfd2d8",
+            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.200.value}"
+            },
+            "name": "ColorSidebarFeatureSelectedBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "selected",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "selected",
+              "background"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#6a7081",
+            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.500.value}"
+            },
+            "name": "ColorSidebarFeatureDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "disabled",
+              "background"
+            ]
+          }
+        }
+      },
+      "user": {
+        "background": {
+          "value": "#cfd2d8",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.200.value}"
+          },
+          "name": "ColorSidebarUserBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "user",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "user",
+            "background"
+          ]
+        }
+      },
+      "divider": {
+        "background": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorSidebarDividerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "divider",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "divider",
+            "background"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorSidebarIcon",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "icon"
+        ]
+      },
+      "text": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorSidebarTextBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorSidebarTextColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "color"
           ]
         }
       }

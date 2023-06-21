@@ -50,6 +50,14 @@
       },
       "icon": {
         "value": "{color.primary-01.500.value}"
+      },
+      "empty": {
+        "background": {
+          "value": "{color.grey.100.value}"
+        },
+        "color": {
+          "value": "{color.grey.600.value}"
+        }
       }
     }
   }

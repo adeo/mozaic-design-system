@@ -112,170 +112,239 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-rc.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.14...v2.0.0-rc.15) (2023-02-23)
 
+
 ### Features
 
-- **styles/settings:** make the font-size definition relative to the magic-unit ([#1365](https://github.com/adeo/mozaic-design-system/issues/1365)) ([f99c4df](https://github.com/adeo/mozaic-design-system/commit/f99c4dfed4228e33dadb80ffd74278b83e6cca8a))
+* **styles/settings:** make the font-size definition relative to the magic-unit ([#1365](https://github.com/adeo/mozaic-design-system/issues/1365)) ([f99c4df](https://github.com/adeo/mozaic-design-system/commit/f99c4dfed4228e33dadb80ffd74278b83e6cca8a))
+
+
+
+
 
 # [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
 
-### Bug Fixes
-
-- **component/toggle:** correctly implement background-position ([#1323](https://github.com/adeo/mozaic-design-system/issues/1323)) ([b1fc39a](https://github.com/adeo/mozaic-design-system/commit/b1fc39aeedff82b0e7aaac290c7b9ed6643154fe))
-- **stepper:** upgrade scss ([#1324](https://github.com/adeo/mozaic-design-system/issues/1324)) ([9fe549e](https://github.com/adeo/mozaic-design-system/commit/9fe549e8e89ec1a6b8c2c49359930172989a3017))
-- **styles:** improve styles to conform to stylelint rules ([bad2a03](https://github.com/adeo/mozaic-design-system/commit/bad2a037c81842d18f7747a565e1626cd3d2a842))
-- **tools/tokens:** update script tokens:clean ([#1321](https://github.com/adeo/mozaic-design-system/issues/1321)) ([f5e5b35](https://github.com/adeo/mozaic-design-system/commit/f5e5b35b517a42b1c7de622f28c0e421a856d6c2))
-
-### Features
-
-- **component/breadcrumb:** remove padding-left & dark background-color ([#1098](https://github.com/adeo/mozaic-design-system/issues/1098)) ([9aea319](https://github.com/adeo/mozaic-design-system/commit/9aea319c66d6f82e08abdafc5cbba8f4849073a1))
-- **component/overlay:** delete the .mc-layer-overlay & .mc-modal-overlay classes in favor of .mc-overlay ([#1188](https://github.com/adeo/mozaic-design-system/issues/1188)) ([c6c236f](https://github.com/adeo/mozaic-design-system/commit/c6c236f9760e2e1bde054e50d25145d83c019378)), closes [#1059](https://github.com/adeo/mozaic-design-system/issues/1059)
-- **icons:** add colored icons ([#1219](https://github.com/adeo/mozaic-design-system/issues/1219)) ([6c008b2](https://github.com/adeo/mozaic-design-system/commit/6c008b24a1349d46c94abb4ff6d02702076bd5b1))
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1249](https://github.com/adeo/mozaic-design-system/issues/1249)) ([aaf806a](https://github.com/adeo/mozaic-design-system/commit/aaf806a839499f301f9e2c4f29811793b38eeb47)), closes [#775](https://github.com/adeo/mozaic-design-system/issues/775) [#1109](https://github.com/adeo/mozaic-design-system/issues/1109)
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([c574e7f](https://github.com/adeo/mozaic-design-system/commit/c574e7f32645cd31d2f0d1a3f1ea47ffdeb6ee7c))
-- **styles:** improve styles to conform to stylelint rules ([#1187](https://github.com/adeo/mozaic-design-system/issues/1187)) ([1033b16](https://github.com/adeo/mozaic-design-system/commit/1033b16760271f72a23a69919e30bd0f2cf17e79)), closes [#1062](https://github.com/adeo/mozaic-design-system/issues/1062)
-- **tools/browserslist:** browserslist configuration update ([#1346](https://github.com/adeo/mozaic-design-system/issues/1346)) ([a3b61ff](https://github.com/adeo/mozaic-design-system/commit/a3b61fffd724a84583112434c0c3154e45edeaab))
-- **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([cff2041](https://github.com/adeo/mozaic-design-system/commit/cff2041c83def6826a60597083d4501d28fb4031))
-- **tools/stylelint-plugin-mozaic:** remove unused postcss-bem-linter plugin ([#1309](https://github.com/adeo/mozaic-design-system/issues/1309)) ([4eacea8](https://github.com/adeo/mozaic-design-system/commit/4eacea80f7e56f4ba3a8ad430be1e4060daa4ed1)), closes [#1252](https://github.com/adeo/mozaic-design-system/issues/1252)
-- **tools/tokens:** add tokens for datatable component ([#1337](https://github.com/adeo/mozaic-design-system/issues/1337)) ([d2c5d54](https://github.com/adeo/mozaic-design-system/commit/d2c5d54130f7e6a7e4457621deb0044a00ca0324))
-- **tools/tokens:** add tokens for font-family & font-weight ([#1339](https://github.com/adeo/mozaic-design-system/issues/1339)) ([cf10733](https://github.com/adeo/mozaic-design-system/commit/cf10733ee5bca73e23f88bcf1223c133c46d95f4)), closes [#1221](https://github.com/adeo/mozaic-design-system/issues/1221)
-- **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([867be40](https://github.com/adeo/mozaic-design-system/commit/867be401fa4ee72543fd8a9ef1253fa6a23e66a5)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
-- **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([174bac8](https://github.com/adeo/mozaic-design-system/commit/174bac8322244a8960fbfba2e8bf1d2536465f97)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
-- **tools/tokens:** include the preset name in the tokensPath ([#1343](https://github.com/adeo/mozaic-design-system/issues/1343)) ([4dd04cd](https://github.com/adeo/mozaic-design-system/commit/4dd04cd902435b84c437d675669769874a5366ed))
-- **tools:** update the dependencies and the code of the `@mozaic-ds/stylelint-plugin-mozaic` package ([#1157](https://github.com/adeo/mozaic-design-system/issues/1157)) ([1597c52](https://github.com/adeo/mozaic-design-system/commit/1597c52f44a8f6ebb900432a742f8756b7d8fbb8))
-
-# [2.0.0-beta.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.15...v2.0.0-beta.15) (2023-03-02)
-
-### Features
-
-- **foundations/colours:** update tokens ([1ef4057](https://github.com/adeo/mozaic-design-system/commit/1ef4057be7243f65b1804e7abb580d4818bceeaa))
-- **foundations/colours:** zodio - set tokens for checkbox component ([99aa697](https://github.com/adeo/mozaic-design-system/commit/99aa69750f284e7c1fab1c7e76280e79d2552185))
-- **foundations/colours:** zodio - set tokens for component Accordion ([fc51181](https://github.com/adeo/mozaic-design-system/commit/fc51181828dfe539be66a527247cfdd7209d41f6))
-- **foundations/colours:** zodio - set tokens for component Button ([ed8dd68](https://github.com/adeo/mozaic-design-system/commit/ed8dd685f92f71963fb68dadd0979d03e3ec1b82))
-- **foundations/colours:** zodio - set tokens for component Button ([d3c90fd](https://github.com/adeo/mozaic-design-system/commit/d3c90fd6e5b08e5548e347724d40f97d2a4480ea))
-- **foundations/colours:** zodio - set tokens for component Layer ([75d98f5](https://github.com/adeo/mozaic-design-system/commit/75d98f58c9edf962af330faacc4e8ae84a186387))
-- **foundations/colours:** zodio - set tokens for component Select ([973913b](https://github.com/adeo/mozaic-design-system/commit/973913bcb2c8ff54467b57705e0c8b71707b6730))
-- **foundations/colours:** zodio - set tokens for component Text Input ([8d07d6d](https://github.com/adeo/mozaic-design-system/commit/8d07d6dca2bcb8fcc41f34fc1f8248d5da3396b4))
-- **foundations/colours:** zodio - set tokens for component Toggle ([aa63bfc](https://github.com/adeo/mozaic-design-system/commit/aa63bfc33f2fb2794aaf73b3eb85ecc4a1f1a5dd))
-- **foundations/colours:** zodio - set tokens for focus pattern ([9197bfb](https://github.com/adeo/mozaic-design-system/commit/9197bfb6de6822838100d0358f92564b6ae13926))
-- **foundations/colours:** zodio - set tokens for notifications component ([7a627ae](https://github.com/adeo/mozaic-design-system/commit/7a627ae0d8a9d5f675a8d1659b170670ff477b4d))
-- **foundations/colours:** zodio - set tokens for radio component ([14c53e2](https://github.com/adeo/mozaic-design-system/commit/14c53e2b12b290b0ae2a8e72a2bca4ff4cde153d))
-- **preset/zodio:** add new preset for Zôdio ([79e0802](https://github.com/adeo/mozaic-design-system/commit/79e08029a3499f7d392cb2169014c782a0d84291))
-- **preset/zodio:** load Lato font from Google Fonts ([7a33c77](https://github.com/adeo/mozaic-design-system/commit/7a33c77127df4991fbd6796d12f743a5f4d471d9))
-- **preset/zodio:** remove [@include](https://github.com/include) import-font-families() ([49a36d0](https://github.com/adeo/mozaic-design-system/commit/49a36d0c72f47feed0ee11e3dd14b7a4983c66ca))
-
-# [2.0.0-rc.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.14...v2.0.0-rc.15) (2023-02-23)
-
-### Features
-
-- **styles/settings:** make the font-size definition relative to the magic-unit ([#1365](https://github.com/adeo/mozaic-design-system/issues/1365)) ([f99c4df](https://github.com/adeo/mozaic-design-system/commit/f99c4dfed4228e33dadb80ffd74278b83e6cca8a))
-
-# [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
 
 ### Bug Fixes
 
-- **component/toggle:** correctly implement background-position ([#1323](https://github.com/adeo/mozaic-design-system/issues/1323)) ([b1fc39a](https://github.com/adeo/mozaic-design-system/commit/b1fc39aeedff82b0e7aaac290c7b9ed6643154fe))
-- **stepper:** upgrade scss ([#1324](https://github.com/adeo/mozaic-design-system/issues/1324)) ([9fe549e](https://github.com/adeo/mozaic-design-system/commit/9fe549e8e89ec1a6b8c2c49359930172989a3017))
-- **styles:** improve styles to conform to stylelint rules ([bad2a03](https://github.com/adeo/mozaic-design-system/commit/bad2a037c81842d18f7747a565e1626cd3d2a842))
-- **tools/tokens:** update script tokens:clean ([#1321](https://github.com/adeo/mozaic-design-system/issues/1321)) ([f5e5b35](https://github.com/adeo/mozaic-design-system/commit/f5e5b35b517a42b1c7de622f28c0e421a856d6c2))
+* **component/toggle:** correctly implement background-position ([#1323](https://github.com/adeo/mozaic-design-system/issues/1323)) ([b1fc39a](https://github.com/adeo/mozaic-design-system/commit/b1fc39aeedff82b0e7aaac290c7b9ed6643154fe))
+* **stepper:** upgrade scss ([#1324](https://github.com/adeo/mozaic-design-system/issues/1324)) ([9fe549e](https://github.com/adeo/mozaic-design-system/commit/9fe549e8e89ec1a6b8c2c49359930172989a3017))
+* **styles:** improve styles to conform to stylelint rules ([bad2a03](https://github.com/adeo/mozaic-design-system/commit/bad2a037c81842d18f7747a565e1626cd3d2a842))
+* **tools/tokens:** update script tokens:clean ([#1321](https://github.com/adeo/mozaic-design-system/issues/1321)) ([f5e5b35](https://github.com/adeo/mozaic-design-system/commit/f5e5b35b517a42b1c7de622f28c0e421a856d6c2))
+
 
 ### Features
 
-- **component/breadcrumb:** remove padding-left & dark background-color ([#1098](https://github.com/adeo/mozaic-design-system/issues/1098)) ([9aea319](https://github.com/adeo/mozaic-design-system/commit/9aea319c66d6f82e08abdafc5cbba8f4849073a1))
-- **component/overlay:** delete the .mc-layer-overlay & .mc-modal-overlay classes in favor of .mc-overlay ([#1188](https://github.com/adeo/mozaic-design-system/issues/1188)) ([c6c236f](https://github.com/adeo/mozaic-design-system/commit/c6c236f9760e2e1bde054e50d25145d83c019378)), closes [#1059](https://github.com/adeo/mozaic-design-system/issues/1059)
-- **icons:** add colored icons ([#1219](https://github.com/adeo/mozaic-design-system/issues/1219)) ([6c008b2](https://github.com/adeo/mozaic-design-system/commit/6c008b24a1349d46c94abb4ff6d02702076bd5b1))
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1249](https://github.com/adeo/mozaic-design-system/issues/1249)) ([aaf806a](https://github.com/adeo/mozaic-design-system/commit/aaf806a839499f301f9e2c4f29811793b38eeb47)), closes [#775](https://github.com/adeo/mozaic-design-system/issues/775) [#1109](https://github.com/adeo/mozaic-design-system/issues/1109)
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([c574e7f](https://github.com/adeo/mozaic-design-system/commit/c574e7f32645cd31d2f0d1a3f1ea47ffdeb6ee7c))
-- **styles:** improve styles to conform to stylelint rules ([#1187](https://github.com/adeo/mozaic-design-system/issues/1187)) ([1033b16](https://github.com/adeo/mozaic-design-system/commit/1033b16760271f72a23a69919e30bd0f2cf17e79)), closes [#1062](https://github.com/adeo/mozaic-design-system/issues/1062)
-- **tools/browserslist:** browserslist configuration update ([#1346](https://github.com/adeo/mozaic-design-system/issues/1346)) ([a3b61ff](https://github.com/adeo/mozaic-design-system/commit/a3b61fffd724a84583112434c0c3154e45edeaab))
-- **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([cff2041](https://github.com/adeo/mozaic-design-system/commit/cff2041c83def6826a60597083d4501d28fb4031))
-- **tools/stylelint-plugin-mozaic:** remove unused postcss-bem-linter plugin ([#1309](https://github.com/adeo/mozaic-design-system/issues/1309)) ([4eacea8](https://github.com/adeo/mozaic-design-system/commit/4eacea80f7e56f4ba3a8ad430be1e4060daa4ed1)), closes [#1252](https://github.com/adeo/mozaic-design-system/issues/1252)
-- **tools/tokens:** add tokens for datatable component ([#1337](https://github.com/adeo/mozaic-design-system/issues/1337)) ([d2c5d54](https://github.com/adeo/mozaic-design-system/commit/d2c5d54130f7e6a7e4457621deb0044a00ca0324))
-- **tools/tokens:** add tokens for font-family & font-weight ([#1339](https://github.com/adeo/mozaic-design-system/issues/1339)) ([cf10733](https://github.com/adeo/mozaic-design-system/commit/cf10733ee5bca73e23f88bcf1223c133c46d95f4)), closes [#1221](https://github.com/adeo/mozaic-design-system/issues/1221)
-- **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([867be40](https://github.com/adeo/mozaic-design-system/commit/867be401fa4ee72543fd8a9ef1253fa6a23e66a5)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
-- **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([174bac8](https://github.com/adeo/mozaic-design-system/commit/174bac8322244a8960fbfba2e8bf1d2536465f97)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
-- **tools/tokens:** include the preset name in the tokensPath ([#1343](https://github.com/adeo/mozaic-design-system/issues/1343)) ([4dd04cd](https://github.com/adeo/mozaic-design-system/commit/4dd04cd902435b84c437d675669769874a5366ed))
-- **tools:** update the dependencies and the code of the `@mozaic-ds/stylelint-plugin-mozaic` package ([#1157](https://github.com/adeo/mozaic-design-system/issues/1157)) ([1597c52](https://github.com/adeo/mozaic-design-system/commit/1597c52f44a8f6ebb900432a742f8756b7d8fbb8))
+* **component/breadcrumb:** remove padding-left & dark background-color ([#1098](https://github.com/adeo/mozaic-design-system/issues/1098)) ([9aea319](https://github.com/adeo/mozaic-design-system/commit/9aea319c66d6f82e08abdafc5cbba8f4849073a1))
+* **component/overlay:** delete the .mc-layer-overlay & .mc-modal-overlay classes in favor of .mc-overlay ([#1188](https://github.com/adeo/mozaic-design-system/issues/1188)) ([c6c236f](https://github.com/adeo/mozaic-design-system/commit/c6c236f9760e2e1bde054e50d25145d83c019378)), closes [#1059](https://github.com/adeo/mozaic-design-system/issues/1059)
+* **icons:** add colored icons ([#1219](https://github.com/adeo/mozaic-design-system/issues/1219)) ([6c008b2](https://github.com/adeo/mozaic-design-system/commit/6c008b24a1349d46c94abb4ff6d02702076bd5b1))
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1249](https://github.com/adeo/mozaic-design-system/issues/1249)) ([aaf806a](https://github.com/adeo/mozaic-design-system/commit/aaf806a839499f301f9e2c4f29811793b38eeb47)), closes [#775](https://github.com/adeo/mozaic-design-system/issues/775) [#1109](https://github.com/adeo/mozaic-design-system/issues/1109)
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([c574e7f](https://github.com/adeo/mozaic-design-system/commit/c574e7f32645cd31d2f0d1a3f1ea47ffdeb6ee7c))
+* **styles:** improve styles to conform to stylelint rules ([#1187](https://github.com/adeo/mozaic-design-system/issues/1187)) ([1033b16](https://github.com/adeo/mozaic-design-system/commit/1033b16760271f72a23a69919e30bd0f2cf17e79)), closes [#1062](https://github.com/adeo/mozaic-design-system/issues/1062)
+* **tools/browserslist:** browserslist configuration update ([#1346](https://github.com/adeo/mozaic-design-system/issues/1346)) ([a3b61ff](https://github.com/adeo/mozaic-design-system/commit/a3b61fffd724a84583112434c0c3154e45edeaab))
+* **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([cff2041](https://github.com/adeo/mozaic-design-system/commit/cff2041c83def6826a60597083d4501d28fb4031))
+* **tools/stylelint-plugin-mozaic:** remove unused postcss-bem-linter plugin ([#1309](https://github.com/adeo/mozaic-design-system/issues/1309)) ([4eacea8](https://github.com/adeo/mozaic-design-system/commit/4eacea80f7e56f4ba3a8ad430be1e4060daa4ed1)), closes [#1252](https://github.com/adeo/mozaic-design-system/issues/1252)
+* **tools/tokens:** add tokens for datatable component ([#1337](https://github.com/adeo/mozaic-design-system/issues/1337)) ([d2c5d54](https://github.com/adeo/mozaic-design-system/commit/d2c5d54130f7e6a7e4457621deb0044a00ca0324))
+* **tools/tokens:** add tokens for font-family & font-weight ([#1339](https://github.com/adeo/mozaic-design-system/issues/1339)) ([cf10733](https://github.com/adeo/mozaic-design-system/commit/cf10733ee5bca73e23f88bcf1223c133c46d95f4)), closes [#1221](https://github.com/adeo/mozaic-design-system/issues/1221)
+* **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([867be40](https://github.com/adeo/mozaic-design-system/commit/867be401fa4ee72543fd8a9ef1253fa6a23e66a5)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+* **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([174bac8](https://github.com/adeo/mozaic-design-system/commit/174bac8322244a8960fbfba2e8bf1d2536465f97)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
+* **tools/tokens:** include the preset name in the tokensPath ([#1343](https://github.com/adeo/mozaic-design-system/issues/1343)) ([4dd04cd](https://github.com/adeo/mozaic-design-system/commit/4dd04cd902435b84c437d675669769874a5366ed))
+* **tools:** update the dependencies and the code of the `@mozaic-ds/stylelint-plugin-mozaic` package ([#1157](https://github.com/adeo/mozaic-design-system/issues/1157)) ([1597c52](https://github.com/adeo/mozaic-design-system/commit/1597c52f44a8f6ebb900432a742f8756b7d8fbb8))
+
+
+
+
 
 # [2.0.0-rc.13](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.12...v2.0.0-rc.13) (2023-01-06)
 
+
 ### Bug Fixes
 
-- **component/toggle:** correctly implement background-position ([#1323](https://github.com/adeo/mozaic-design-system/issues/1323)) ([fd274ae](https://github.com/adeo/mozaic-design-system/commit/fd274aef2ce687a06dbb8bb700d88b12c426ebab))
-- **tools/tokens:** update script tokens:clean ([#1321](https://github.com/adeo/mozaic-design-system/issues/1321)) ([bc4abc0](https://github.com/adeo/mozaic-design-system/commit/bc4abc07e5704aaa2e06997028ef9eac9d1065aa))
+* **component/toggle:** correctly implement background-position ([#1323](https://github.com/adeo/mozaic-design-system/issues/1323)) ([fd274ae](https://github.com/adeo/mozaic-design-system/commit/fd274aef2ce687a06dbb8bb700d88b12c426ebab))
+* **tools/tokens:** update script tokens:clean ([#1321](https://github.com/adeo/mozaic-design-system/issues/1321)) ([bc4abc0](https://github.com/adeo/mozaic-design-system/commit/bc4abc07e5704aaa2e06997028ef9eac9d1065aa))
+
 
 ### Features
 
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([b839af4](https://github.com/adeo/mozaic-design-system/commit/b839af4e8b04cfcaac515f0352adefcf709d5eba))
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1322](https://github.com/adeo/mozaic-design-system/issues/1322)) ([b839af4](https://github.com/adeo/mozaic-design-system/commit/b839af4e8b04cfcaac515f0352adefcf709d5eba))
+
+
+
+
 
 # [2.0.0-rc.12](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.11...v2.0.0-rc.12) (2022-12-29)
 
+
 ### Features
 
-- **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([c9353dd](https://github.com/adeo/mozaic-design-system/commit/c9353dda749e1d06bd6610d32652748002d0b87e)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+* **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([c9353dd](https://github.com/adeo/mozaic-design-system/commit/c9353dda749e1d06bd6610d32652748002d0b87e)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+
+
+
+
 
 # [2.0.0-rc.11](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.10...v2.0.0-rc.11) (2022-12-29)
 
+
 ### Features
 
-- **tools/stylelint-plugin-mozaic:** remove unused postcss-bem-linter plugin ([#1309](https://github.com/adeo/mozaic-design-system/issues/1309)) ([fa396d0](https://github.com/adeo/mozaic-design-system/commit/fa396d0f7be1004158f1a3a53db71e79a361bf0b)), closes [#1252](https://github.com/adeo/mozaic-design-system/issues/1252)
+* **tools/stylelint-plugin-mozaic:** remove unused postcss-bem-linter plugin ([#1309](https://github.com/adeo/mozaic-design-system/issues/1309)) ([fa396d0](https://github.com/adeo/mozaic-design-system/commit/fa396d0f7be1004158f1a3a53db71e79a361bf0b)), closes [#1252](https://github.com/adeo/mozaic-design-system/issues/1252)
+
+
+
+
 
 # [2.0.0-rc.10](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.9...v2.0.0-rc.10) (2022-12-26)
 
+
 ### Bug Fixes
 
-- **styles:** improve styles to conform to stylelint rules ([1983596](https://github.com/adeo/mozaic-design-system/commit/19835963b7c8bfb749f3df871c203d658ce5ea33))
+* **styles:** improve styles to conform to stylelint rules ([1983596](https://github.com/adeo/mozaic-design-system/commit/19835963b7c8bfb749f3df871c203d658ce5ea33))
+
 
 ### Features
 
-- **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([0b3d47b](https://github.com/adeo/mozaic-design-system/commit/0b3d47b96c5d898b65e99940268eb861f171758a))
+* **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([0b3d47b](https://github.com/adeo/mozaic-design-system/commit/0b3d47b96c5d898b65e99940268eb861f171758a))
+
+
+
+
 
 # [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
 
+
 ### Bug Fixes
 
-- **datatable:** correct footer preview ([#1288](https://github.com/adeo/mozaic-design-system/issues/1288)) ([b9c261a](https://github.com/adeo/mozaic-design-system/commit/b9c261a62419f196bae56b9e241c983c8d605354))
+* **datatable:** correct footer preview ([#1288](https://github.com/adeo/mozaic-design-system/issues/1288)) ([b9c261a](https://github.com/adeo/mozaic-design-system/commit/b9c261a62419f196bae56b9e241c983c8d605354))
+
 
 ### Features
 
-- **component/breadcrumb:** remove padding-left & dark background-color ([#1098](https://github.com/adeo/mozaic-design-system/issues/1098)) ([03ad98b](https://github.com/adeo/mozaic-design-system/commit/03ad98b579647e350644232e0916ffabc2c8d7dd))
-- **component/overlay:** delete the .mc-layer-overlay & .mc-modal-overlay classes in favor of .mc-overlay ([#1188](https://github.com/adeo/mozaic-design-system/issues/1188)) ([7a50177](https://github.com/adeo/mozaic-design-system/commit/7a50177bd5f16d811b8e6cead6e441c59e5eef17)), closes [#1059](https://github.com/adeo/mozaic-design-system/issues/1059)
-- **icons:** add colored icons ([#1219](https://github.com/adeo/mozaic-design-system/issues/1219)) ([8c027a1](https://github.com/adeo/mozaic-design-system/commit/8c027a111b5125844bdd5d391fe841f76606b849))
-- **styles/settings:** delete the import of the tokens file inside the all-settings ([#1249](https://github.com/adeo/mozaic-design-system/issues/1249)) ([8b1c08a](https://github.com/adeo/mozaic-design-system/commit/8b1c08a4ffc883020083ca227bcf425375db03b5)), closes [#775](https://github.com/adeo/mozaic-design-system/issues/775) [#1109](https://github.com/adeo/mozaic-design-system/issues/1109)
-- **styles:** improve styles to conform to stylelint rules ([#1187](https://github.com/adeo/mozaic-design-system/issues/1187)) ([7006d18](https://github.com/adeo/mozaic-design-system/commit/7006d18c2e493a9b874f2dee1ba72f997b3589f4)), closes [#1062](https://github.com/adeo/mozaic-design-system/issues/1062)
-- **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([614c486](https://github.com/adeo/mozaic-design-system/commit/614c486a138790d4c6cee5a323f672841463422e)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
-- **tools:** update the dependencies and the code of the `@mozaic-ds/stylelint-plugin-mozaic` package ([#1157](https://github.com/adeo/mozaic-design-system/issues/1157)) ([6ce144c](https://github.com/adeo/mozaic-design-system/commit/6ce144c8698164ee8bffb43290e067ef435b5367))
+* **component/breadcrumb:** remove padding-left & dark background-color ([#1098](https://github.com/adeo/mozaic-design-system/issues/1098)) ([03ad98b](https://github.com/adeo/mozaic-design-system/commit/03ad98b579647e350644232e0916ffabc2c8d7dd))
+* **component/overlay:** delete the .mc-layer-overlay & .mc-modal-overlay classes in favor of .mc-overlay ([#1188](https://github.com/adeo/mozaic-design-system/issues/1188)) ([7a50177](https://github.com/adeo/mozaic-design-system/commit/7a50177bd5f16d811b8e6cead6e441c59e5eef17)), closes [#1059](https://github.com/adeo/mozaic-design-system/issues/1059)
+* **icons:** add colored icons ([#1219](https://github.com/adeo/mozaic-design-system/issues/1219)) ([8c027a1](https://github.com/adeo/mozaic-design-system/commit/8c027a111b5125844bdd5d391fe841f76606b849))
+* **styles/settings:** delete the import of the tokens file inside the all-settings ([#1249](https://github.com/adeo/mozaic-design-system/issues/1249)) ([8b1c08a](https://github.com/adeo/mozaic-design-system/commit/8b1c08a4ffc883020083ca227bcf425375db03b5)), closes [#775](https://github.com/adeo/mozaic-design-system/issues/775) [#1109](https://github.com/adeo/mozaic-design-system/issues/1109)
+* **styles:** improve styles to conform to stylelint rules ([#1187](https://github.com/adeo/mozaic-design-system/issues/1187)) ([7006d18](https://github.com/adeo/mozaic-design-system/commit/7006d18c2e493a9b874f2dee1ba72f997b3589f4)), closes [#1062](https://github.com/adeo/mozaic-design-system/issues/1062)
+* **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([614c486](https://github.com/adeo/mozaic-design-system/commit/614c486a138790d4c6cee5a323f672841463422e)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
+* **tools:** update the dependencies and the code of the `@mozaic-ds/stylelint-plugin-mozaic` package ([#1157](https://github.com/adeo/mozaic-design-system/issues/1157)) ([6ce144c](https://github.com/adeo/mozaic-design-system/commit/6ce144c8698164ee8bffb43290e067ef435b5367))
+
+
+
+
 
 # [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
 
+
 ### Bug Fixes
 
-- **pattern/colors:** update the color of the notification icons ([#1104](https://github.com/adeo/mozaic-design-system/issues/1104)) ([4bfba3f](https://github.com/adeo/mozaic-design-system/commit/4bfba3fce58f84ea8179d4223252662b28e3812d))
+* **pattern/colors:** update the color of the notification icons ([#1104](https://github.com/adeo/mozaic-design-system/issues/1104)) ([4bfba3f](https://github.com/adeo/mozaic-design-system/commit/4bfba3fce58f84ea8179d4223252662b28e3812d))
+
 
 ### Features
 
-- **tools/tokens:** regenerate tokens with the new LM colors ([7c39d7e](https://github.com/adeo/mozaic-design-system/commit/7c39d7e9e27d6417c57320791decf216002c3c02))
+* **tools/tokens:** regenerate tokens with the new LM colors ([7c39d7e](https://github.com/adeo/mozaic-design-system/commit/7c39d7e9e27d6417c57320791decf216002c3c02))
+
+
 
 # [2.0.0-rc.3](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.2...v2.0.0-rc.3) (2022-04-05)
 
 **Note:** Version bump only for package @mozaic-ds/designsystem
 
+
+
+
+
 # [2.0.0-rc.2](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v2.0.0-rc.2) (2022-04-05)
+
 
 ### Features
 
-- **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([73d9aaa](https://github.com/adeo/mozaic-design-system/commit/73d9aaa7acd242d656797af50f64bdead22b0a1d))
-- **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8392150](https://github.com/adeo/mozaic-design-system/commit/839215063a46de6c80fe1f31216dae1f379fdc74))
+* **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([73d9aaa](https://github.com/adeo/mozaic-design-system/commit/73d9aaa7acd242d656797af50f64bdead22b0a1d))
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8392150](https://github.com/adeo/mozaic-design-system/commit/839215063a46de6c80fe1f31216dae1f379fdc74))
+
+
 
 # [2.0.0-rc.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v2.0.0-rc.1) (2022-03-31)
 
+
 ### Bug Fixes
 
-- **listbox:** clean broken preview ([#1083](https://github.com/adeo/mozaic-design-system/issues/1083)) ([8b2cbf4](https://github.com/adeo/mozaic-design-system/commit/8b2cbf479444e137f92b95cd87577bf352a3fabc))
+* **listbox:** clean broken preview ([#1083](https://github.com/adeo/mozaic-design-system/issues/1083)) ([8b2cbf4](https://github.com/adeo/mozaic-design-system/commit/8b2cbf479444e137f92b95cd87577bf352a3fabc))
+
 
 ### Features
 
-- **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([590f3af](https://github.com/adeo/mozaic-design-system/commit/590f3af0506ad8c009725043225abda5b87a6e6f))
-- **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([4691c6a](https://github.com/adeo/mozaic-design-system/commit/4691c6a9fcf3d74366ba075d5f7724fa7198bdc2))
+* **component/flag:** improve long text flag behaviour ([#995](https://github.com/adeo/mozaic-design-system/issues/995)) ([590f3af](https://github.com/adeo/mozaic-design-system/commit/590f3af0506ad8c009725043225abda5b87a6e6f))
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([4691c6a](https://github.com/adeo/mozaic-design-system/commit/4691c6a9fcf3d74366ba075d5f7724fa7198bdc2))
+
+
+
+
+
+# [1.62.0](https://github.com/adeo/mozaic-design-system/compare/v1.61.0...v1.62.0) (2023-06-09)
+
+### Bug Fixes
+
+- **component/modal:** manage long content by default ([#1436](https://github.com/adeo/mozaic-design-system/issues/1436)) ([4253001](https://github.com/adeo/mozaic-design-system/commit/42530012bb53dd81f69225407b93f8ef02a5fd7c))
+- label prevents clicking on the accordion ([#1448](https://github.com/adeo/mozaic-design-system/issues/1448)) ([ffd367f](https://github.com/adeo/mozaic-design-system/commit/ffd367f0e00d4699420efa85cfd9249a78eb6d0b))
+- **sidebar:** update tokens for adeo ([#1444](https://github.com/adeo/mozaic-design-system/issues/1444)) ([88a09e1](https://github.com/adeo/mozaic-design-system/commit/88a09e1f06199fd4ab3f8a8ae646cc5255ca39f4))
+
+### Features
+
+- **component/progressbar:** implement the 'branded' variation as the default version ([#1437](https://github.com/adeo/mozaic-design-system/issues/1437)) ([8eabca7](https://github.com/adeo/mozaic-design-system/commit/8eabca7e225cb0c65e9763f3dd99b57452fe6c93))
+
+# [1.61.0](https://github.com/adeo/mozaic-design-system/compare/v1.60.0...v1.61.0) (2023-05-25)
+
+### Features
+
+- **font-size:** update font size 07 to 24px ([#1434](https://github.com/adeo/mozaic-design-system/issues/1434)) ([7648ee5](https://github.com/adeo/mozaic-design-system/commit/7648ee5b4c42074a59e0e3aa9d2646a168d7d1a3))
+
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Bug Fixes
+
+- **component/qtyselector:** adjust the focus behaviour ([#1431](https://github.com/adeo/mozaic-design-system/issues/1431)) ([2139437](https://github.com/adeo/mozaic-design-system/commit/2139437e0d2b568ebeeb12ce7285403810a3cf9a))
+- **component/stars-input:** stringify "background-image" parameter to avoid ";" expectation SASS error ([#1419](https://github.com/adeo/mozaic-design-system/issues/1419)) ([a94b08c](https://github.com/adeo/mozaic-design-system/commit/a94b08cd936835779814a9e8c53b236d3d24f5c5))
+
+### Features
+
+- **docs:** add segmented control documentation ([#1420](https://github.com/adeo/mozaic-design-system/issues/1420)) ([781f252](https://github.com/adeo/mozaic-design-system/commit/781f2526db4ba42f48d1cd93631d8380b33c2686))
+- **tokens:** add sidebar tokens ([#1432](https://github.com/adeo/mozaic-design-system/issues/1432)) ([6f49fdc](https://github.com/adeo/mozaic-design-system/commit/6f49fdcd8811bb324d56bb5f626178f0c7b38b6c))
+
+# [1.59.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.1...v1.59.0) (2023-04-27)
+
+### Features
+
+- **component/autocomplete-dropdown:** improve the display of the loader & the clear button ([#1421](https://github.com/adeo/mozaic-design-system/issues/1421)) ([68d9954](https://github.com/adeo/mozaic-design-system/commit/68d99540afb401d9c83e4a770847ac3f9bd7e790))
+- **docs:** add built-in menu documentation ([#1390](https://github.com/adeo/mozaic-design-system/issues/1390)) ([5091091](https://github.com/adeo/mozaic-design-system/commit/509109121bbd79385d309bcea46a73aa38cda5af))
+
+## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
+
+### Bug Fixes
+
+- regenerate missing tokens & updating icons js files ([#1418](https://github.com/adeo/mozaic-design-system/issues/1418)) ([237174c](https://github.com/adeo/mozaic-design-system/commit/237174c80b1f016966aa6399f8cd1a0b161a94e4))
+
+# [1.58.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.0-beta.0...v1.58.0) (2023-04-14)
+
+**Note:** Version bump only for package @mozaic-ds/designsystem
+
+# [1.58.0-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.57.0...v1.58.0-beta.0) (2023-04-14)
+
+### Bug Fixes
+
+- **component/tag:** update of the value of the paddings ([#1415](https://github.com/adeo/mozaic-design-system/issues/1415)) ([e9d2891](https://github.com/adeo/mozaic-design-system/commit/e9d2891f9328dcfa0143297277e2ee139ade7378)), closes [#1412](https://github.com/adeo/mozaic-design-system/issues/1412)
+
+### Features
+
+- **component/datatable:** add the 'Empty DataTable' variation ([#1416](https://github.com/adeo/mozaic-design-system/issues/1416)) ([b5f7ffe](https://github.com/adeo/mozaic-design-system/commit/b5f7ffeb906907a1c9998c07f1ef29df9270f973)), closes [#1373](https://github.com/adeo/mozaic-design-system/issues/1373)
+- **foundations/icons:** add logo Oney ([#1413](https://github.com/adeo/mozaic-design-system/issues/1413)) ([caaced9](https://github.com/adeo/mozaic-design-system/commit/caaced90b7f93316d17deefd466bde496087db9a))
+- **foundations/icons:** icon.js - add the icon name in the exported icons objects ([#1410](https://github.com/adeo/mozaic-design-system/issues/1410)) ([59c5716](https://github.com/adeo/mozaic-design-system/commit/59c571648af24354b454e9698be135520178bda1))
+
+# [1.57.0](https://github.com/adeo/mozaic-design-system/compare/v1.56.0...v1.57.0) (2023-03-29)
+
+### Features
+
+- **icons:** add new icons ([#1408](https://github.com/adeo/mozaic-design-system/issues/1408)) ([716c764](https://github.com/adeo/mozaic-design-system/commit/716c764cace9e0db54ed4a72095e2f215d03aadd))
+- **notification:** add role status ([#1407](https://github.com/adeo/mozaic-design-system/issues/1407)) ([b45f3e6](https://github.com/adeo/mozaic-design-system/commit/b45f3e6a57605bd1fc891f5952fe68f49393ab1e))
 
 # [1.56.0](https://github.com/adeo/mozaic-design-system/compare/v1.55.0...v1.56.0) (2023-03-22)
 
@@ -703,15 +772,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
 
+
 ### Bug Fixes
 
-- **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
-- **readme:** update link ([a681853](https://github.com/adeo/mozaic-design-system/commit/a6818533aeeb6a1a68333ee4e8385077901b5acc))
-- **release:** empty commit due to release issue ([e9a83cb](https://github.com/adeo/mozaic-design-system/commit/e9a83cbd9893c086adee6e1b752ae1e0a64151be))
+* **comment:** add comment in option card ([459fb53](https://github.com/adeo/mozaic-design-system/commit/459fb53c8c783abc9a4a57890fa89e20318b43a2))
+* **readme:** update link ([a681853](https://github.com/adeo/mozaic-design-system/commit/a6818533aeeb6a1a68333ee4e8385077901b5acc))
+* **release:** empty commit due to release issue ([e9a83cb](https://github.com/adeo/mozaic-design-system/commit/e9a83cbd9893c086adee6e1b752ae1e0a64151be))
+
 
 ### Features
 
-- **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8854fb8](https://github.com/adeo/mozaic-design-system/commit/8854fb89fda1ecd3d9be10b9fcc7aa102fdc7102))
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8854fb8](https://github.com/adeo/mozaic-design-system/commit/8854fb89fda1ecd3d9be10b9fcc7aa102fdc7102))
+
+
+
+
 
 ## [1.24.1](https://github.com/adeo/mozaic-design-system/compare/v1.24.0...v1.24.1) (2022-02-02)
 

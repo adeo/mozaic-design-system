@@ -1,0 +1,58 @@
+{
+  "color": {
+    "sidebar": {
+      "background": {
+        "value": "{color.primary-02.100.value}"
+      },
+      "feature": {
+        "background": {
+          "value": "{color.primary-02.200.value}"
+        },
+        "hover": {
+          "background": {
+            "value": "{color.primary-02.300.value}"
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "{color.primary-02.200.value}"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "{color.primary-02.500.value}"
+          }
+        }
+      },
+      "user": {
+        "background": {
+          "value": "{color.primary-02.200.value}"
+        }
+      },
+      "divider": {
+        "background": {
+          "value": "{color.grey.300.value}"
+        }
+      },
+      "icon": {
+        "value": "{color.grey.900.value}"
+      },
+      "text": {
+        "background": {
+          "value": "{color.grey.100.value}"
+        },
+        "color": {
+          "value": "{color.grey.900.value}"
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "{color.grey.300.value}"
+        },
+        "color": {
+          "value": "{color.primary-02.400.value}"
+        }
+      }
+    }
+  }
+}
