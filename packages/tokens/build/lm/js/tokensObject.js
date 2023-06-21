@@ -7799,11 +7799,11 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#007bb4",
+        "value": "#188803",
         "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.info.600.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorProgressIndicator",
         "attributes": {
@@ -7860,35 +7860,12 @@ module.exports = {
             "half"
           ]
         }
-      },
-      "branded": {
-        "indicator": {
-          "value": "#46a610",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
-          "isSource": true,
-          "original": {
-            "value": "{color.primary-01.500.value}"
-          },
-          "name": "ColorProgressBrandedIndicator",
-          "attributes": {
-            "category": "color",
-            "type": "progress",
-            "item": "branded",
-            "subitem": "indicator"
-          },
-          "path": [
-            "color",
-            "progress",
-            "branded",
-            "indicator"
-          ]
-        }
       }
     },
     "sidebar": {
       "background": {
         "value": "#eeeff1",
-        "filePath": "packages/tokens/properties/color/sidebar.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
         "isSource": true,
         "original": {
           "value": "{color.primary-02.100.value}"
@@ -7908,7 +7885,7 @@ module.exports = {
       "feature": {
         "background": {
           "value": "#cfd2d8",
-          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.200.value}"
@@ -7930,7 +7907,7 @@ module.exports = {
         "hover": {
           "background": {
             "value": "#b3b7c1",
-            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.300.value}"
@@ -7955,7 +7932,7 @@ module.exports = {
         "selected": {
           "background": {
             "value": "#cfd2d8",
-            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.200.value}"
@@ -7980,7 +7957,7 @@ module.exports = {
         "disabled": {
           "background": {
             "value": "#6a7081",
-            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
             "isSource": true,
             "original": {
               "value": "{color.primary-02.500.value}"
@@ -8006,7 +7983,7 @@ module.exports = {
       "user": {
         "background": {
           "value": "#cfd2d8",
-          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
           "isSource": true,
           "original": {
             "value": "{color.primary-02.200.value}"
@@ -8029,7 +8006,7 @@ module.exports = {
       "divider": {
         "background": {
           "value": "#b3b3b3",
-          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.300.value}"
@@ -8051,7 +8028,7 @@ module.exports = {
       },
       "icon": {
         "value": "#191919",
-        "filePath": "packages/tokens/properties/color/sidebar.json",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.900.value}"
@@ -8071,7 +8048,7 @@ module.exports = {
       "text": {
         "background": {
           "value": "#e6e6e6",
-          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.100.value}"
@@ -8092,7 +8069,7 @@ module.exports = {
         },
         "color": {
           "value": "#191919",
-          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -8108,6 +8085,50 @@ module.exports = {
             "color",
             "sidebar",
             "text",
+            "color"
+          ]
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorSidebarScrollBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#8f94a3",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.400.value}"
+          },
+          "name": "ColorSidebarScrollColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
             "color"
           ]
         }

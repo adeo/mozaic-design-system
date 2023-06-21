@@ -1,0 +1,20 @@
+{
+  "color": {
+    "progress": {
+      "background": {
+        "value": "{color.grey.100.value}"
+      },
+      "indicator": {
+        "value": "{color.grey.999.value}"
+      },
+      "percentage": {
+        "default": {
+          "value": "{color.grey.900.value}"
+        },
+        "half": {
+          "value": "{color.grey.000.value}"
+        }
+      }
+    }
+  }
+}
