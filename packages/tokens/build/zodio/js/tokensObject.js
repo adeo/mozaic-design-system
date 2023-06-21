@@ -9598,11 +9598,11 @@ module.exports = {
     },
     "progress": {
       "background": {
-        "value": "#cccccc",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+        "value": "#e6e6e6",
+        "filePath": "packages/tokens/src/tokens/zodio/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.200.value}"
+          "value": "{color.grey.100.value}"
         },
         "name": "ColorProgressBackground",
         "attributes": {
@@ -9617,11 +9617,11 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#695535",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+        "value": "#000000",
+        "filePath": "packages/tokens/src/tokens/zodio/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.600.value}"
+          "value": "{color.grey.999.value}"
         },
         "name": "ColorProgressIndicator",
         "attributes": {
@@ -9638,7 +9638,7 @@ module.exports = {
       "percentage": {
         "default": {
           "value": "#191919",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -9659,7 +9659,7 @@ module.exports = {
         },
         "half": {
           "value": "#ffffff",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/zodio/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
