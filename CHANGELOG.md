@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.21](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-beta.20...v2.0.0-beta.21) (2023-06-21)
+
+### Features
+
+- **component/progressbar:** zodio - set tokens for component ProgressBar ([df7848a](https://github.com/adeo/mozaic-design-system/commit/df7848a4d7d33a6f2c0aa89ad73e73fffea299a1))
+
 # [2.0.0-beta.20](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v2.0.0-beta.20) (2023-06-21)
 
 ### Bug Fixes
