@@ -3,21 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.20](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v2.0.0-beta.20) (2023-06-21)
+
+### Reverts
+
+- Revert "docs(components): remove unnecessary previews (#1427)" ([6fa72c4](https://github.com/adeo/mozaic-design-system/commit/6fa72c48c5fc6e4149181a6442053ec9790968b6)), closes [#1427](https://github.com/adeo/mozaic-design-system/issues/1427)
+
+# [2.0.0-beta.15](https://github.com/adeo/mozaic-design-system/compare/v1.54.0...v2.0.0-beta.15) (2023-03-02)
+
+# [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
+
 # [2.0.0-beta.15](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.15...v2.0.0-beta.15) (2023-03-02)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-source-preview
 
-
-
-
-
 # [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-source-preview
-
-
-
-
 
 # [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
 

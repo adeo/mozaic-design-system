@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/gatsby-theme-styleguide",
-  "version": "2.0.0-beta.16",
+  "version": "2.0.0-beta.20",
   "main": "index.js",
   "contributors": [
     {
@@ -20,8 +20,8 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "@mozaic-ds/gatsby-github-release": "^1.60.0",
-    "@mozaic-ds/gatsby-source-preview": "^2.0.0-beta.15",
+    "@mozaic-ds/gatsby-github-release": "^2.0.0-beta.20",
+    "@mozaic-ds/gatsby-source-preview": "^2.0.0-beta.20",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.25.6",
     "gatsby-plugin-flexsearch": "^1.0.3",

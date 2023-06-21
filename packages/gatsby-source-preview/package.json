@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/gatsby-source-preview",
-  "version": "2.0.0-beta.15",
+  "version": "2.0.0-beta.20",
   "description": "",
   "main": "index.js",
   "scripts": {
