@@ -7,48 +7,44 @@ status:
   scss: 'ready'
 ---
 
-> The Datatable is used to present a large set of data organised in rows and columns.  
-By structuring data in this format, tables provide an intuitive and efficient way to browse and analyse complex amounts of information.  
-In addition, DataTable has built-in paging, sorting and filtering features, making it a powerful tool.
+> The DataTable efficiently presents large sets of organised data in rows and columns. Its structured format allows for intuitive browsing and analysis of complex information. With built-in paging, sorting, and filtering features, the DataTable is a powerful tool.
 
 <Preview path="default" nude />
 
 ## Structure
 
-### Topbar
+### Top bar
 
-The topbar section allows users to edit, filter, set up or make actions.  
-Each element of the topbar is optionnal, as the topbar itself.
+The top bar section allows users to edit, filter, set up or do actions.  
+Each element of the top bar is optional, as is the top bar itself.
 
 <Preview path="header-only" nude />
 
 #### Edition
 
-Allow the user to interact with selected items.
+Allow users to interact with selected items.
 
-| Feature                     | Usage                               | Note |
-| --------------------------- | ------------------------------------ | ------- |
-| **Edit selection**          | Allow to edit data on selected items | Only available when rows are selected |
-| **Download**                | Download table or selected rows      |         |
-| **Number of selected rows** | Display the number of selected rows  | Check mass selection documentation for more information|
+| Feature                     | Usage                                | Note                                                                                                  |
+| --------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| **Edit selection**          | Allow to edit data on selected items | Only available when rows are selected                                                                 |
+| **Download**                | Download table or selected rows      |                                                                                                       |
+| **Number of selected rows** | Display the number of selected rows  | Please, read the [related documentation](/Components/DataTable/#mass-selection/) for more information |
 
 <Highlight theme="warning" title="Be careful">
- In order to maintain consistency, styles, labels and icons are not customisable.
+  Styles, labels and icons are not customisable to maintain consistency.
 </Highlight>
 
 #### Filter
 
-| Feature           | Usage                                                   | Preview |
-| ----------------- | ------------------------------------------------------- | ------- |
-| **Toggle**        | Quick filter (max. 1)                                   |         |
-| **Search input**  | Filter rows with keywords (Please be explicit for user) |         |
-| **Filter button** | Open filters layer                                      |         |
+| Feature           | Usage                                                     | Preview |
+| ----------------- | --------------------------------------------------------- | ------- |
+| **Toggle**        | Quick filter (max. 1)                                     |         |
+| **Search input**  | Filter rows with keywords (Please, be explicit for users) |         |
+| **Filter button** | Open filters layer                                        |         |
 
-##### Active filter
+#### Active filter
 
-When filters are applied to the table, they are displayed between the topbar and the data content.  
-To ensure visibility to the user and to allow easy removal, these filters are presented using [Removable tags] (/Components/Tag/#removable-tags).  
-In addition, a reset button allows users to remove them all.
+Active filters are displayed between the top bar and the data content to allow users to remove them easier from [Removable tags](/Components/Tag/#removable-tags), along with a reset button to remove them all at once. Please allow for an empty state in case no results match the filters.
 
 <!-- Add preview -->
 
@@ -56,7 +52,7 @@ An empty state must be defined if there are no results.
 
 #### Settings
 
-Allow the user to set up the display of the datatable layout.
+Allow users to set up the display of the datatable layout.
 
 | Feature      | Usage                                                                                                        | Preview |
 | ------------ | ------------------------------------------------------------------------------------------------------------ | ------- |
@@ -64,25 +60,26 @@ Allow the user to set up the display of the datatable layout.
 
 #### Actions
 
-| Feature                      | Preview |
-| ---------------------------- | ------- |
-| **Validation action**        |         |
-| **Rejected/Negative action** |         |
+Actions relate to the data in the table to validate an item or adding a line.
 
-Note that these actions relate to the data in the table.  
-This can be useful for validating an item or adding a line. By default, two types of buttons are available:
-- a primary solid button for main action
-- a danger bordered button for negative action
+| Feature                      | Type                               |
+| ---------------------------- | ---------------------------------- |
+| **Validation action**        | Primary button (solid variation)   |
+| **Rejected/Negative action** | Danger button (bordered variation) |
 
-These buttons can be customised, taking care to respect good UX practices and the uses defined in the design system.
-For more global actions related to a process or a business gesture, it is recommended to use the bottom bar.
+<Highlight theme="tips" title="Good to know">
+
+Action buttons can be customised, ensuring compliance with good UX practices and the usages defined in the design system.
+Using a bottom is recommended for more global actions related to a process or a business gesture.
+
+</Highlight>
 
 ### Data content
 
 #### Columns
 
-The Datatable allows to display several types of data.  
-To ensure optimal readability of the whole data set, it is strongly recommended to display only one data type per column.
+The Datatable allows displaying of several types of data.
+Only one type of data must be displayed per column to ensure the optimal readability of all the data.
 
 | Data                                  | Usage                                                                                                                         | Width behaviour        |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -100,50 +97,53 @@ To ensure optimal readability of the whole data set, it is strongly recommended 
 
 #### Rows
 
-In a table, a row corresponds to an item.  
-The columns can then be used to list different types of data related to that particular object such as status, description or numeric values.  
-A row must be selected with a checkbox, and each selected row turns to a different colour background to make it easier to read.
+In a table, rows correspond to items, while columns list data types for each object, such as status, description, or numeric values. Selecting a row with a checkbox changes its background colour for improved readability.
 
 <!-- Add preview -->
 
-Subrows provide more details of an item. They are therefore neither selectable nor editable as an object.
+#### Sub-rows
 
-#### Labels
+Sub-rows provide more details of an item and can't be selected or modified as an object.
 
-Labels are always at the top of the table and in capital letters to differentiate them from the data.  
-They can be fixed when scrolling.  
-A checkbox at label level allows all rows to be selected.
-As a common and usual practice, the reordering feature is located next to each label.
+#### Column header
+
+The column header includes:
+
+- A global checkbox for selecting all rows of the current page,
+- Capitalized column labels to differentiate them from the data,
+- A sorting feature for user assistance.
+
+<Highlight theme="tips" title="Good to know">
+
+Depending on the context, the column header can be fixed as well.
+
+</Highlight>
 
 #### Mass selection
 
-Mass selection is possible thanks to the checkbox at the level of the labels.  
-First, all rows of the displayed page are selected. A banner appears giving the possibility to select all the rows of the table.  
-When clicked, all rows of the table are selected. The banner is still displayed but this time it allows to clear the selection.
+Once users select a row, a dedicated banner for mass selection will appear, allowing them to select all rows in the table, including all pages.
 
 #### Empty state
 
-As mentioned with the filters, an empty state must be defined if there are no results.  
-The message can be edited to fit the context. It should be easily understood by the user, avoiding technical jargon for example.
+An empty state should be defined when no results are found, with a user-friendly message that can be customized to the context, ensuring clarity and avoiding technical language.
 
 ### Footer
 
-The DataTable footer is placed at the bottom of the component and contains the elements that allow you to manage the navigation and pagination of the table.  
-As it is impossible to know 100% how many rows will be displayed, it is strongly recommended to always display the footer.
+As the number of rows is variable, the DataTable footer is a mandatory element that allows users to manage the navigation and pagination of the table.
 
 <Preview path="footer-only" nude />
 
-| Feature                                   | Usage                                                 | Preview |
-| ----------------------------------------- | ----------------------------------------------------- | ------- |
-| ** Rows's number selector**               | Allow to choose the number of row to display          |         |
-| **Displayed rows indicator**              | Display the page's rows and the total number of rows  |         |
-| [**Pagination**](/Components/Pagination/) | Allow to navigate to the other pages of the datatable |         |
+| Feature                                   | Usage                                                                                   | Preview |
+| ----------------------------------------- | --------------------------------------------------------------------------------------- | ------- |
+| **Row number selector**                   | Allow users to choose the number of row to display                                      |         |
+| **Rows indicator**                        | Indicate the number of rows displayed on the page compared to the total number of rows. |         |
+| [**Pagination**](/Components/Pagination/) | Allow users to navigate to the other pages of the datatable                             |         |
 
 ## Variations
 
 ### Sizes
 
-Each cells are available in 3 sizes.
+Cells are available in 3 sizes.
 
 | Size             | Value        |
 | ---------------- | ------------ |
@@ -153,16 +153,18 @@ Each cells are available in 3 sizes.
 
 ## Layout
 
-In order to avoid double scrolling, we recommend 2 ways of defining the height of the datatable: either by the size of the viewport, or by the number of rows displayed.
+The data table's height can be defined in two ways to prevent scroll overlap: using the viewport size or specifying the number of displayed rows.
 
 ##### By the size of the viewport
+
 ![TableLayout--Fill](TableLayout--Fill.png)
 
 ##### By the number of rows displayed
+
 ![TableLayout--Fixed](TableLayout--Fixed.png)
 
 <Highlight theme="warning" title="Be aware">
-  For now, the Datatable component is only available for desktop use.
+  For the moment, the Datatable component is only available for desktop use.
 </Highlight>
 
 ## How to use
@@ -175,13 +177,11 @@ In order to avoid double scrolling, we recommend 2 ways of defining the height o
 ## Do's and Dont's
 
 <HintItem>
-  Use capital letters only for labels, not for data.
+  Use capital letters only for the Column header labels, not for data.
 </HintItem>
 
 <HintItem dont>
   Never combine different sizes of cells inside the same datatable.
 </HintItem>
 
-<HintItem dont>
-Never use more than one quick filter.
-</HintItem>
+<HintItem dont>Never use more than one quick filter.</HintItem>
