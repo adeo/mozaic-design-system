@@ -15,7 +15,7 @@
         },
         "selected": {
           "background": {
-            "value": "{color.secondary-blue.900.value}"
+            "value": "{color.secondary-blue.600.value}"
           }
         },
         "disabled": {
@@ -40,6 +40,14 @@
       "text": {
         "color": {
           "value": "{color.grey.000.value}"
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "{color.secondary-blue.900.value}"
+        },
+        "color": {
+          "value": "{color.primary-01.400.value}"
         }
       }
     }
