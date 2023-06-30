@@ -2741,6 +2741,14 @@
     {
       "cat": "Store",
       "size": "24px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_24px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM24"
+    },
+    {
+      "cat": "Store",
+      "size": "24px",
       "name": "StoreLM",
       "fileName": "Store_StoreLM_24px.svg",
       "iconName": "StoreLM",
@@ -5121,6 +5129,14 @@
       "fileName": "Store_Monochrome_StoreLocation_32px.svg",
       "iconName": "MonochromeStoreLocation",
       "componentName": "MonochromeStoreLocation32"
+    },
+    {
+      "cat": "Store",
+      "size": "32px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_32px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM32"
     },
     {
       "cat": "Store",
@@ -7509,6 +7525,14 @@
     {
       "cat": "Store",
       "size": "48px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_48px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM48"
+    },
+    {
+      "cat": "Store",
+      "size": "48px",
       "name": "StoreLM",
       "fileName": "Store_StoreLM_48px.svg",
       "iconName": "StoreLM",
@@ -9889,6 +9913,14 @@
       "fileName": "Store_Monochrome_StoreLocation_64px.svg",
       "iconName": "MonochromeStoreLocation",
       "componentName": "MonochromeStoreLocation64"
+    },
+    {
+      "cat": "Store",
+      "size": "64px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_64px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM64"
     },
     {
       "cat": "Store",
