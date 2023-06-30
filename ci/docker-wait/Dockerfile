@@ -7,11 +7,11 @@ LABEL "com.github.actions.color"="green"
 
 ARG CLOUD_SDK_VERSION=334.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
-RUN apt-get -qqy update && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
+RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     curl \
     gcc \
     python3 \
-    python-setuptools \
+    python3-setuptools \
     apt-transport-https \
     lsb-release \
     openssh-client \
