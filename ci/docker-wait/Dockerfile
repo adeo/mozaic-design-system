@@ -5,8 +5,14 @@ LABEL "com.github.actions.description"="Launch exec in node"
 LABEL "com.github.actions.icon"="mic"
 LABEL "com.github.actions.color"="green"
 
-ARG CLOUD_SDK_VERSION=334.0.0
+FROM python:3.9-slim-bullseye
+ENV VIRTUAL_ENV=/opt/venv
+RUN python3 -m venv $VIRTUAL_ENV
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
+ARG CLOUD_SDK_VERSION=373.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
+
 RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     curl \
     gcc \
@@ -18,7 +24,7 @@ RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt
     git \
     gnupg \
     python3-pip && \
-    pip3 install -U crcmod && \
+    pip3 install crcmod && \
     export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
     echo "deb https://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" > /etc/apt/sources.list.d/google-cloud-sdk.list && \
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
@@ -34,5 +40,5 @@ RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt
     google-cloud-sdk-bigtable-emulator=${CLOUD_SDK_VERSION}-0 \
     google-cloud-sdk-cbt=${CLOUD_SDK_VERSION}-0
 
-ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+# ADD entrypoint.sh /entrypoint.sh
+# ENTRYPOINT ["/entrypoint.sh"]
