@@ -40,5 +40,5 @@ RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt
     google-cloud-sdk-bigtable-emulator=${CLOUD_SDK_VERSION}-0 \
     google-cloud-sdk-cbt=${CLOUD_SDK_VERSION}-0
 
-# ADD entrypoint.sh /entrypoint.sh
-# ENTRYPOINT ["/entrypoint.sh"]
+ADD entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
