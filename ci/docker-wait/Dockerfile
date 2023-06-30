@@ -1,4 +1,5 @@
 FROM node:18
+RUN npm install -g yarn
 
 LABEL "com.github.actions.name"="Node and Gcloud"
 LABEL "com.github.actions.description"="Launch exec in node"
@@ -24,7 +25,7 @@ RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt
     git \
     gnupg \
     python3-pip && \
-    pip3 install crcmod && \
+    pip3 install -U crcmod && \
     export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)" && \
     echo "deb https://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" > /etc/apt/sources.list.d/google-cloud-sdk.list && \
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
