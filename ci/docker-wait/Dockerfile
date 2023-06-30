@@ -1,5 +1,4 @@
 FROM node:18
-RUN npm install -g yarn
 
 LABEL "com.github.actions.name"="Node and Gcloud"
 LABEL "com.github.actions.description"="Launch exec in node"
@@ -13,6 +12,8 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 ARG CLOUD_SDK_VERSION=373.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
+
+RUN apt-get update && apt-get install -y yarn
 
 RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     curl \
