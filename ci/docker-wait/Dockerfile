@@ -10,16 +10,13 @@ ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
-ARG CLOUD_SDK_VERSION=373.0.0
+ARG CLOUD_SDK_VERSION=378.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
-
-RUN apt-get update && apt-get install -y yarn
-
-RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
+RUN apt-get -qqy update && DEBIAN_FRONTEND=noninteractive apt-get install -qqy \
     curl \
     gcc \
     python3 \
-    python3-setuptools \
+    python-setuptools \
     apt-transport-https \
     lsb-release \
     openssh-client \
@@ -42,5 +39,5 @@ RUN apt-get update && apt-get -qqy upgrade && DEBIAN_FRONTEND=noninteractive apt
     google-cloud-sdk-bigtable-emulator=${CLOUD_SDK_VERSION}-0 \
     google-cloud-sdk-cbt=${CLOUD_SDK_VERSION}-0
 
-ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+# ADD entrypoint.sh /entrypoint.sh
+# ENTRYPOINT ["/entrypoint.sh"]
