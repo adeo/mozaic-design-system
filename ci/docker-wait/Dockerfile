@@ -37,5 +37,14 @@ RUN apt-get install -qqy \
         python3-pip
 RUN git config --system credential.'https://source.developers.google.com'.helper gcloud.sh
 
+ENV NVM_DIR /usr/local/nvm
+ENV NODE_VERSION 18
+RUN mkdir -p /usr/local/nvm
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash \
+    && . $NVM_DIR/nvm.sh \
+    && nvm install $NODE_VERSION \
+    && nvm alias default $NODE_VERSION \
+    && nvm use default
+
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
