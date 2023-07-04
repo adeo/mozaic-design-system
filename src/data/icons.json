@@ -17,13 +17,6 @@
     {
       "cat": "Logotypes",
       "size": "24px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_24px.svg",
-      "iconName": "PaymentBonificoBancario"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_24px.svg",
       "iconName": "PaymentFintecture"
@@ -202,13 +195,6 @@
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_32px.svg",
       "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_32px.svg",
-      "iconName": "PaymentBonificoBancario"
     },
     {
       "cat": "Logotypes",
@@ -395,13 +381,6 @@
     {
       "cat": "Logotypes",
       "size": "48px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_48px.svg",
-      "iconName": "PaymentBonificoBancario"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_48px.svg",
       "iconName": "PaymentFintecture"
@@ -580,13 +559,6 @@
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_64px.svg",
       "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_64px.svg",
-      "iconName": "PaymentBonificoBancario"
     },
     {
       "cat": "Logotypes",
@@ -2773,6 +2745,14 @@
       "fileName": "Store_Monochrome_StoreLocation_24px.svg",
       "iconName": "MonochromeStoreLocation",
       "componentName": "MonochromeStoreLocation24"
+    },
+    {
+      "cat": "Store",
+      "size": "24px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_24px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM24"
     },
     {
       "cat": "Store",
@@ -5169,6 +5149,14 @@
     {
       "cat": "Store",
       "size": "32px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_32px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM32"
+    },
+    {
+      "cat": "Store",
+      "size": "32px",
       "name": "StoreLM",
       "fileName": "Store_StoreLM_32px.svg",
       "iconName": "StoreLM",
@@ -7561,6 +7549,14 @@
     {
       "cat": "Store",
       "size": "48px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_48px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM48"
+    },
+    {
+      "cat": "Store",
+      "size": "48px",
       "name": "StoreLM",
       "fileName": "Store_StoreLM_48px.svg",
       "iconName": "StoreLM",
@@ -9949,6 +9945,14 @@
       "fileName": "Store_Monochrome_StoreLocation_64px.svg",
       "iconName": "MonochromeStoreLocation",
       "componentName": "MonochromeStoreLocation64"
+    },
+    {
+      "cat": "Store",
+      "size": "64px",
+      "name": "StoreBM",
+      "fileName": "Store_StoreBM_64px.svg",
+      "iconName": "StoreBM",
+      "componentName": "StoreBM64"
     },
     {
       "cat": "Store",
