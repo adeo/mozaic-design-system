@@ -1,5 +1,10 @@
 FROM node:18
 
+LABEL "com.github.actions.name"="Node and Gcloud"
+LABEL "com.github.actions.description"="Launch exec in node"
+LABEL "com.github.actions.icon"="mic"
+LABEL "com.github.actions.color"="green"
+
 FROM debian:bullseye
 ARG CLOUD_SDK_VERSION=378.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
