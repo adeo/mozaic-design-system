@@ -12,7 +12,6 @@
     "cssnano": "^6.0.1",
     "dotenv": "^16.0.3",
     "postcss": "^8.4.23",
-    "postcss-base64": "^0.7.1",
     "postcss-reporter": "^7.0.5",
     "postcss-scss": "^4.0.6",
     "stylelint": "^14.14.1",
