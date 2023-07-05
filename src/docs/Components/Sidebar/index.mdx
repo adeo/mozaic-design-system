@@ -12,9 +12,7 @@ status:
   searchKeywords: 'sidebar side left navigation'
 ---
 
-> The Sidebar component is the vertical navigation element commonly used in digital products to provide users with quick and easy access to top-level features.  
-It is designed to save space and keep the focus on features and business gestures.  
-It is combined with the [Page header component](/Components/PageHeader/) to clearly structure the user experience in our digital products and portals.
+> The Sidebar component is a vertical navigation element used in digital products for quick access to top-level features, designed to save space and maintain focus on features and business gestures. It is typically combined with the [Page header component](/Components/PageHeader/) to structure the user experience in digital products and portals.
 
 <!-- Add preview -->
 
@@ -22,125 +20,88 @@ It is combined with the [Page header component](/Components/PageHeader/) to clea
 
 ### Anatomy
 
-Sidebar component consists of the following elements:
+The Sidebar component consists of the following elements:
 
-| Element | Purpose | Notes |
-| ------- | ------- | ----- |
-| **Expand/collapse button** | Allows the user to collapse or expand the sidebar | Ghost button with DoubleArrowRight icon, always displayed. No scroll. |
-| **Home button** | Allows the user to access directly to the product or portal homepage | Optional ghost button. The "Home" icon is not editable, the label can be changed. No scroll. |
-| **Sections: features** | Provides access to different features of the product or portal | Always displayed. Scroll when list of features exceeds display container. |
-| **Sections: utilities** | Allows access to transversal functionalities of the product | Optional |
-| **User menu** | Allows the user to access their account-related features | Optional |
+| Element               | Purpose                                                             | Display   | Notes                                                                           |
+| --------------------- | ------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------- |
+| **Expand / Collapse** | Allows users to collapse or expand the sidebar                      | Mandatory |                                                                                 |
+| **Home**              | Allows users to access directly to a product or the portal homepage | Optional  | The icon cannot be edited to keep consistency, but the label can be customised. |
+| **Features**          | Provides access to the different features of the product or portal  | Mandatory | The list of features will scroll if it exceeds the display container.           |
+| **Utilities**         | Allows access to transversal functionalities of the product         | Optional  |                                                                                 |
+| **User menu**         | Allows the user to access their account-related features            | Optional  |                                                                                 |
 
 ### Levels
 
-The Sidebar offer possibility to set 2 levels.  
-First level is mandatory and displayed by default.
-The second level is displayed only if another level of navigation is needed and appears when clicking on a feature.  
-These levels only impacts "Features" section.
+The Sidebar supports two levels of navigation: the first level is mandatory and always displayed, while the second level appears when clicking on a feature if an additional navigation level is needed. These levels specifically affect the "Features" section.
 
 <!-- Add previews -->
 
-### Sections: features
+### Features section
 
-Features are grouped into feature groups working such as accordions.  
-3 different types of features:
-- default: the user accesses the feature within the portal
-- external link: the feature is displayed in a new tab (display of the "External link" icon)
-- non-accessible: the feature is not accessible (display of the "Lock" icon, the label is shaded)
+Features are grouped in accordion-like sections and can be available in three types:
 
-A vertical scroll is possible if there is not enough space to display all the items.
-On second level, display of the feature label with an arrow to return to the 1st level.
-On two levels, a vertical scroll is possible if there is not enough space to display all the items.
+- Default: Users access the products directly within the portal.
+- External link: Users access the products from a new tab.
+- Blocked: Users can't access the content. The feature is not yet available or restricted to certain types of users.
 
-### Sections: utilities
+<Highlight theme="tips" title="Good to know">
+  Users can scroll vertically on both navigation levels if there isn't enough
+  space to display all the items.
+</Highlight>
 
-Allows access to transversal functionalities of the product.
-An icon is dedicated to each functionality.
-Note this section always hangs on the user's menu (in its closed version).
+### Utilities section
+
+The Utilities section provides access to optional cross-functionalities of the product. It's worth noting that this section is attached to the user's menu.
 
 ### User menu
 
-This menu allows the user to access features related to his account, such as his profile, the interface language or logout.  
-The User menu is always sticky at the bottom of the component, closed by default, and opens with a click on the Control/More icon.  
-When open, its height is relative, based on the number of items. The menu opens above the other sections of the Sidebar.  
-Closed, its height is fixed, and it closes with a click on Control/Less icon. Closed, the user's name, role, and user picture are displayed. A default state (placeholder) is defined if there is no photo of the user.
+The User Menu is an optional and additional element that provides access to account-related functionalities like profile settings, language preferences, and logout. Only the user's avatar, name, and role are displayed in the collapsed version.
 
 <!-- Add preview -->
 
 ## Behaviours
 
-The Sidebar can be in 2 states: collapsed and expanded.  
-Collapse is the default state, no labels are visible, only icons. When clicking on the Expand/collapse button, the Sidebar expands, and labels are displayed.
-Note the Sidebar also expands when you click on another item and closes automatically when a feature is selected by user.
+By default, the sidebar component is displayed in a collapsed version, showing only icons for navigation. Labels appear when the sidebar is in the extended version, providing additional clarity and context to the navigation options.
 
 <Highlight theme="tips" title="Good to know">
-  Please remind that Sidebar expands over page container
+  Please note that the sidebar expands over the page container.
 </Highlight>
-
-## States
-
-### Items
-
-| State | Purpose | Values |
-| ----- | ------- | ------ |
-| Hover | Display a background behind the hovered item | background color = Secondary/Blue grey/700 |
-| Active | Display a background behind the selected item | background color = Primary/600 |
-| Focus | Display an outline of the width of the content | color = Status/Information/500, thickness = 1px |
-| Disabled/locked | Label shaded | font color = Secondary/BlueGrey/400 |
 
 ## Restrictions
 
 ### Labels
 
-Too long labels are cut off. We strongly recommend an average of 27 characters with a maximum limit of 55 characters.
+Keep labels within 55 characters to enhance readability and prevent text truncation.
 
 ### Consistency
-To keep consistency, the [Page header](/Components/PageHeader/) name must be the same than the sidebar entry name.
+
+To keep consistency, the [Page header](/Components/PageHeader/) title must be the same than the sidebar entry name.
 
 ## Layout
 
-The Sidebar is outside the container, sticked to the left, top and bottom sides of the viewport.
-  
-By default, the sidebar extends over the container.  
-The sidebar has a fixed width depending on its state:
-- Collapsed = 64px
-- Expanded = 320px
+The sidebar must be fixed to the left-hand side of the screen, and the container content and its grid must start from the right side of the sidebar to the right side of the screen.
+The sidebar has a fixed width depending on its state.
 
-Its height is therefore always 100% of the viewport.
-
-## Specific cases
-
-### Utilities
-
-The Utilities section can be hidden if not necessary.
-
-### User picture
-
-If a user has not uploaded a picture, a default placeholder should be used instead.
-
-## How to use
-
-To use the Sidebar component, add it to the left side of the screen, outside the container.
+| State     | Width |
+| --------- | ----- |
+| Collapsed | 64px  |
+| Expanded  | 320px |
 
 ## Do's and Don'ts
 
 <HintItem>
-  Use Sidebar with a Page header.
+  It is recommended to combine the Sidebar with the Page header component.
 </HintItem>
 
 <HintItem>
-  Order of the elements within the Sidebar should be consistent across all pages.
+  Order of the elements within the Sidebar should be consistent across all
+  pages.
 </HintItem>
 
 <HintItem>
-  Sidebar should always be positioned on the left side of the viewport.
+  Sidebar must always be positioned on the left side of the viewport.
 </HintItem>
 
-<HintItem dont>
-  Never change fixed width of the Sidebar.
-</HintItem>
+<HintItem dont>Never change the width of the Sidebar.</HintItem>
 
-<HintItem dont>
-  Don't change Expand/collapse and Home buttons icons.
-</HintItem>
+<HintItem dont>Don't change Expand/collapse and Home icons.</HintItem>
