@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.63.0](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v1.63.0) (2023-07-05)
+
+### Features
+
+- **docs:** update datatable documentation ([#1388](https://github.com/adeo/mozaic-design-system/issues/1388)) ([5e5cca5](https://github.com/adeo/mozaic-design-system/commit/5e5cca584ff6016f227305c1e21192b604f856b4))
+- **icons:** add new bonifico bancario logotype ([#1460](https://github.com/adeo/mozaic-design-system/issues/1460)) ([38214b3](https://github.com/adeo/mozaic-design-system/commit/38214b319097ea2258505ccf4133e6ac87d10c0a))
+- **icons:** add store lm icon ([#1458](https://github.com/adeo/mozaic-design-system/issues/1458)) ([684c9bd](https://github.com/adeo/mozaic-design-system/commit/684c9bdf3776012a66666a5e9e5979f0242e3b72))
+
+### Reverts
+
+- Revert "docs(components): remove unnecessary previews (#1427)" ([6fa72c4](https://github.com/adeo/mozaic-design-system/commit/6fa72c48c5fc6e4149181a6442053ec9790968b6)), closes [#1427](https://github.com/adeo/mozaic-design-system/issues/1427)
+
 # [1.62.0](https://github.com/adeo/mozaic-design-system/compare/v1.61.0...v1.62.0) (2023-06-09)
 
 ### Bug Fixes

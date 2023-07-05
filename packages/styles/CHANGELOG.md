@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.63.0](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v1.63.0) (2023-07-05)
+
+### Reverts
+
+- Revert "docs(components): remove unnecessary previews (#1427)" ([6fa72c4](https://github.com/adeo/mozaic-design-system/commit/6fa72c48c5fc6e4149181a6442053ec9790968b6)), closes [#1427](https://github.com/adeo/mozaic-design-system/issues/1427)
+
 # [1.62.0](https://github.com/adeo/mozaic-design-system/compare/v1.61.0...v1.62.0) (2023-06-09)
 
 ### Bug Fixes
