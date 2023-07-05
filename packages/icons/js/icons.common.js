@@ -1760,6 +1760,13 @@ const MonochromeStoreLocation24 = {
     type: "store",
     iconName: "MonochromeStoreLocation24"
   };
+const StoreBM24 = {
+    viewBox: "0 0 24 24",
+    size: "1.5rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M6 4a1 1 0 00-.707 1.707L5.586 6H3a1 1 0 00-1 1v12a1 1 0 001 1h18a1 1 0 001-1V7a1 1 0 00-1-1h-3.06l.297-.324A1 1 0 0017.5 4H6zm10.107 4l-3.37 3.676a1 1 0 01-1.444.031L7.586 8H4v10h4v-4.5a.5.5 0 01.5-.5h7a.5.5 0 01.5.5V18h4V8h-3.893zm-7.4-1.707l3.262 3.261L15.227 6H8.414l.293.292v.001zM9 14h2.5v4H9v-4zm3.5 0v4H15v-4h-2.5z"}}],
+    type: "store",
+    iconName: "StoreBM24"
+  };
 const StoreLM24 = {
     viewBox: "0 0 24 24",
     size: "1.5rem",
@@ -3845,6 +3852,13 @@ const MonochromeStoreLocation32 = {
     paths: [{tagName: "path",attrs: {"d":"M16 5a8.73 8.73 0 018.71 8.73C24.71 17 19.82 23 16 26.82 12.18 23 7.29 17 7.29 13.73A8.73 8.73 0 0116 5m0-2A10.73 10.73 0 005.29 13.73c0 4.58 6.38 11.54 9.29 14.48a2 2 0 002.84 0c2.91-2.94 9.29-9.9 9.29-14.48A10.73 10.73 0 0016 3z"}},{tagName: "path",attrs: {"d":"M20 12.56l-2.17-2.17-1.31-1.34a.71.71 0 00-1 0l-1.35 1.34L12 12.56l-.94.95a.72.72 0 00.51 1.23h8.92a.72.72 0 00.51-1.23z"}}],
     type: "store",
     iconName: "MonochromeStoreLocation32"
+  };
+const StoreBM32 = {
+    viewBox: "0 0 32 32",
+    size: "2rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M8 5.666a1 1 0 00-.707 1.707l.96.96H4a1 1 0 00-1 1v16a1 1 0 001 1h24a1 1 0 001-1v-16a1 1 0 00-1-1h-4.838l.909-.991a1 1 0 00-.738-1.676H8zm13.329 4.667l-4.592 5.009a1 1 0 01-1.444.031l-5.04-5.04H5v14h5.833v-6.334a.5.5 0 01.5-.5h9.334a.5.5 0 01.5.5v6.334H27v-14h-5.671zm-9.954-1.707l4.594 4.594 5.091-5.554H10.414l.959.959.002.001zm.458 9.873H15.5v5.834h-3.667v-5.834zm4.667 0v5.834h3.667v-5.834H16.5z"}}],
+    type: "store",
+    iconName: "StoreBM32"
   };
 const StoreLM32 = {
     viewBox: "0 0 32 32",
@@ -5932,6 +5946,13 @@ const MonochromeStoreLocation48 = {
     type: "store",
     iconName: "MonochromeStoreLocation48"
   };
+const StoreBM48 = {
+    viewBox: "0 0 48 48",
+    size: "3rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M12 8.5a1.5 1.5 0 00-1.06 2.56l1.439 1.44H6A1.5 1.5 0 004.5 14v24A1.5 1.5 0 006 39.5h36a1.5 1.5 0 001.5-1.5V14a1.5 1.5 0 00-1.5-1.5h-7.257l1.363-1.486A1.5 1.5 0 0035 8.5H12zm19.993 7l-6.887 7.514a1.5 1.5 0 01-2.167.047L15.38 15.5H7.5v21H16V27a1 1 0 011-1h14a1 1 0 011 1v9.5h8.5v-21h-8.507zm-8.04 4.332L15.62 11.5h15.97l-7.638 8.332zM18 28h5v8.5h-5V28zm7 0v8.5h5V28h-5z"}}],
+    type: "store",
+    iconName: "StoreBM48"
+  };
 const StoreLM48 = {
     viewBox: "0 0 48 48",
     size: "3rem",
@@ -8018,6 +8039,13 @@ const MonochromeStoreLocation64 = {
     type: "store",
     iconName: "MonochromeStoreLocation64"
   };
+const StoreBM64 = {
+    viewBox: "0 0 64 64",
+    size: "4rem",
+    paths: [{tagName: "path",attrs: {"fill-rule":"evenodd","d":"M16 11.834a1.5 1.5 0 00-1.06 2.56l2.772 2.773H8a1.5 1.5 0 00-1.5 1.5v32a1.5 1.5 0 001.5 1.5h48a1.5 1.5 0 001.5-1.5v-32a1.5 1.5 0 00-1.5-1.5H45.188l2.584-2.82a1.5 1.5 0 00-1.105-2.513H16zm26.452 8.318l-9.346 10.196a1.5 1.5 0 01-2.167.047L20.712 20.167H9.5v29h12.167V36.001a1 1 0 011-1h18.666a1 1 0 011 1v13.166H54.5v-29H42.667a1.51 1.51 0 01-.215-.015zm-20.057-2.544l9.558 9.558 11.304-12.332H19.62l2.772 2.772.002.002zM23.667 37H31v12.166h-7.333V37.001zM33 37v12.166h7.333V37.001H33z"}}],
+    type: "store",
+    iconName: "StoreBM64"
+  };
 const StoreLM64 = {
     viewBox: "0 0 64 64",
     size: "4rem",
@@ -9558,6 +9586,7 @@ Logo24,
 Map24,
 MonochromeRelayLocation24,
 MonochromeStoreLocation24,
+StoreBM24,
 StoreLM24,
 Attic24,
 Bathroom24,
@@ -9856,6 +9885,7 @@ Logo32,
 Map32,
 MonochromeRelayLocation32,
 MonochromeStoreLocation32,
+StoreBM32,
 StoreLM32,
 Attic32,
 Bathroom32,
@@ -10154,6 +10184,7 @@ Logo48,
 Map48,
 MonochromeRelayLocation48,
 MonochromeStoreLocation48,
+StoreBM48,
 StoreLM48,
 Attic48,
 Bathroom48,
@@ -10452,6 +10483,7 @@ Logo64,
 Map64,
 MonochromeRelayLocation64,
 MonochromeStoreLocation64,
+StoreBM64,
 StoreLM64,
 Attic64,
 Bathroom64,
