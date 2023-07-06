@@ -3,6 +3,7 @@
 @import "typography/t.bodys";
 @import "components/c.modal";
 @import "components/c.button";
+@import "components/c.overlay";
 
 .example {
   @include set-font-face("regular");

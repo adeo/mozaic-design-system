@@ -25,8 +25,7 @@
       height: $mu150;
       display: flex;
       align-items: center;
-      background:
-        transparent
+      background: transparent
         url(inline-icons("upload-24", $color-button-bordered-border)) no-repeat;
       background-size: $mu150;
       margin-right: $mu050;
@@ -57,8 +56,7 @@
         cursor: not-allowed;
 
         &::before {
-          background:
-            transparent
+          background: transparent
             url(inline-icons("upload-24", $color-button-bordered-disabled-font))
             no-repeat;
         }
@@ -77,6 +75,7 @@
 
     align-items: center;
     background: $color-fileuploader-files-list;
+    box-sizing: content-box;
     color: $color-fileuploader-font;
     display: flex;
     flex-flow: row wrap;
@@ -110,21 +109,19 @@
     }
 
     &--is-valid &-icon {
-      background-image:
-        url(
-          inline-icons(
-            "valid-24",
-            $color-fileuploader-valid
-          ));
+      background-image: url(
+        inline-icons(
+          "valid-24",
+          $color-fileuploader-valid
+        ));
     }
 
     &--is-invalid &-icon {
-      background-image:
-        url(
-          inline-icons(
-            "alert-24",
-            $color-fileuploader-alert
-          ));
+      background-image: url(
+        inline-icons(
+          "alert-24",
+          $color-fileuploader-alert
+        ));
     }
 
     &--is-invalid &-message {
@@ -155,9 +152,9 @@
       content: "";
       width: $mu150;
       height: $mu150;
-      background:
-        transparent
+      background: transparent
         url(inline-icons("delete-24", $color-fileuploader-font)) no-repeat;
+      background-size: $mu150;
       display: block;
     }
 

@@ -1,6 +1,5 @@
 @import "settings-tools/all-settings";
 @include import-font-families();
-@import "components/c.toggle";
 
 * {
   box-sizing: border-box;
@@ -8,6 +7,7 @@
 
 .example {
   @include set-font-face("regular");
+  @import "components/c.toggle";
 
   margin: $mu200;
 }
