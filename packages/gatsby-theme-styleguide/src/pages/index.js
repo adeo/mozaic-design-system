@@ -20,7 +20,7 @@ const IndexPage = () => (
 export const Head = (props) => {
   return (
     <>
-      <title>Mozaic Design System</title>
+      <title>Mozaic – The Adeo's Design System</title>
       <meta
         name="description"
         content="Mozaic is Adeo's Design System, created to enhance the team's delivery time, improve quality of deliverables and thus help set up a coherent customer experience."

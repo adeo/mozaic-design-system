@@ -1,0 +1,47 @@
+/* Layout */
+
+/** Container */
+.container {
+  display: flex;
+  align-content: stretch;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+/** Aside */
+.aside {
+  background: #eeeef0;
+  min-height: 100vh;
+  position: relative;
+  width: 18.75rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .aside {
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.4s;
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+}
+
+/** Main */
+.main {
+  flex: 1;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/** NavOpen */
+.navOpen .aside {
+  transform: translateX(0);
+}
+
+.navOpen .main {
+  overflow: hidden;
+}
