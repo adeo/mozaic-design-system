@@ -2,7 +2,7 @@ import * as React from 'react'
 // import { useStaticQuery, graphql } from 'gatsby'
 // import { MDXProvider } from '@mdx-js/react'
 import './base.scss'
-// import Menu from './Menu'
+import Menu from './Menu'
 // import withLocationPreview from '../components/Preview/withLocation'
 // import Color from '../components/Color'
 // import Swatch from '../components/Swatch'
@@ -45,7 +45,7 @@ const Layout = ({ children, location }) => {
   return (
     <div className={styles.container}>
       <aside className={styles.aside}>
-        {/* <Menu location={location} /> */}
+        <Menu location={location} />
       </aside>
       <main id="scroller" className={styles.main}>
         {children}

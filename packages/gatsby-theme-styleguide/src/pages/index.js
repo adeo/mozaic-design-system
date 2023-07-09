@@ -7,15 +7,17 @@ import AreaValues from '../components/AreaValues'
 import Footer from '../components/Footer'
 import './index.scss'
 
-const IndexPage = () => (
-  <Layout>
-    <Header />
-    <AreaDiscover />
-    <AreaContact />
-    <AreaValues />
-    <Footer />
-  </Layout>
-)
+const IndexPage = ({ location }) => {
+  return (
+    <Layout location={location}>
+      <Header />
+      <AreaDiscover />
+      <AreaContact />
+      <AreaValues />
+      <Footer />
+    </Layout>
+  )
+}
 
 export const Head = (props) => {
   return (
