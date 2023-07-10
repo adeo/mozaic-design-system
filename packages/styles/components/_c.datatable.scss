@@ -303,4 +303,16 @@
       }
     }
   }
+  
+  &--overflow-visible {
+    #{$parent} {
+      &__container {
+        overflow: visible;
+      }
+
+      &__main {
+        overflow: visible;
+      }
+    }
+  }
 }
