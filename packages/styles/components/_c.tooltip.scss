@@ -171,6 +171,12 @@
       }
     }
   }
+
+  &--word-break {
+    #{$parent}__content {
+      word-break: break-all;
+    }
+  }
 }
 
 /* mqp:end */
