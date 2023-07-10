@@ -2,15 +2,43 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
 import Layout from '../components/layout'
+import SubContents from '../components/SubContents'
+import * as styles from './contentpage.module.css'
+
+const components = {}
 
 const ContentPage = (props) => {
-  console.log('ContentPage ---- ', props)
-  return <p>Ceci est un texte!</p>
-  // <Layout location={location}>
-  // <MDXProvider components={shortcodes}>
-  //   <Main id="scroller">{children}</Main>
-  // </MDXProvider>
-  // </Layout>
+  console.log('ContentPage - props', props)
+
+  const frontmatter = props.pageContext.frontmatter
+  const slug = props.pageContext.fields__slug
+  const mainCategory = slug.split('/')[1]
+  console.log('slug', slug)
+  const hasMainCategory = props.path.split('/').length > 3
+
+  console.log('hasMainCategory', hasMainCategory)
+
+  components.SubContents = SubContents(props.location)
+
+  return (
+    <Layout location={props.location}>
+      <header
+        className={`${styles.header} ${
+          hasMainCategory ? styles.headerWithCat : ''
+        }`}
+      >
+        {hasMainCategory && (
+          <span className={styles.category}>{mainCategory}</span>
+        )}
+        <h1 className={styles.title}>{frontmatter.title}</h1>
+      </header>
+      <div className={styles.container}>
+        <div className={styles.contentMain}>
+          <MDXProvider components={components}>{props.children}</MDXProvider>
+        </div>
+      </div>
+    </Layout>
+  )
 }
 
 export default ContentPage

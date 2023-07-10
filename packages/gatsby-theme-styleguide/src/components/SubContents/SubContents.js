@@ -1,6 +1,5 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { useStaticQuery, graphql } from 'gatsby'
+import * as React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import withSiteMapData from '../SiteMapData'
 import './subcontents.scss'
 

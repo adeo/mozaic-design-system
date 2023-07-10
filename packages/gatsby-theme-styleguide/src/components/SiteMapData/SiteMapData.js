@@ -24,6 +24,7 @@ const query = graphql`
     allMdx(sort: { fields: { slug: ASC } }) {
       edges {
         node {
+          id
           frontmatter {
             title
             description
@@ -38,6 +39,7 @@ const query = graphql`
           }
         }
       }
+      totalCount
     }
   }
 `
