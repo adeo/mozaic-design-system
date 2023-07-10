@@ -1,27 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-
+import * as React from 'react'
 import StatusFlag from '../StatusFlag'
 import { checkPlatform, checkStatus } from '../../utils/status'
-import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
-
-const StatusItem = styled.span`
-  align-items: baseline;
-  display: inline-flex;
-  margin-right: ${MagicUnit}rem;
-`
-
-const StatusText = styled.span`
-  color: black;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-transform: capitalize;
-`
-
-const StatusContainer = styled.div`
-  display: inline-block;
-`
+import * as styles from './status.module.css'
 
 const PatternStatusGroup = ({ status }) => {
   if (!status) {
@@ -37,13 +17,13 @@ const PatternStatusGroup = ({ status }) => {
         return false
       }
       return (
-        <StatusItem key={index}>
-          <StatusText>
+        <span className={styles.statusItem} key={index}>
+          <span className={styles.statusText}>
             {currentPlatform}
             {':'}
-          </StatusText>
+          </span>
           <StatusFlag status={currentStatus} />
-        </StatusItem>
+        </span>
       )
     })
     .filter((item) => !!item)
@@ -52,7 +32,7 @@ const PatternStatusGroup = ({ status }) => {
     return false
   }
 
-  return <StatusContainer>{items}</StatusContainer>
+  return <div className={styles.statusContainer}>{items}</div>
 }
 
 export default PatternStatusGroup

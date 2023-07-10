@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
 import Layout from '../components/layout'
 import SubContents from '../components/SubContents'
+import PatternStatusGroup from '../components/PatternStatusGroup'
 import * as styles from './contentpage.module.css'
 
 const components = {}
@@ -31,6 +32,7 @@ const ContentPage = (props) => {
           <span className={styles.category}>{mainCategory}</span>
         )}
         <h1 className={styles.title}>{frontmatter.title}</h1>
+        <PatternStatusGroup status={frontmatter.status} />
       </header>
       <div className={styles.container}>
         <div className={styles.contentMain}>
