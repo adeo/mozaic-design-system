@@ -12,97 +12,71 @@ status:
   searchKeywords: 'page header top'
 ---
 
-> The Page header component is a persistent UI element located at the top of digital products pages.
-It provides contextual informations for helping users understand the purpose of the page or screen displayed. Page header offer feature-level navigation as well.  
-Additionally, it also provides users with access to key features such as Help, Notifications and Context selection.  
-Overall, the Page header component plays a critical role in enabling users to effortlessly access key functionalities and efficiently use business features while ensuring consistency throughout their journey.
+> The Page header component is a persistent UI element located at the top of pages in ADEO's internal products, which helps to maintain consistency throughout the user's journey. It offers contextual information, feature-level navigation, and access to features like Help, Notifications, and Context selection.
 
 <!-- Add preview -->
+
+## Structure
+
+To cover a maximum of needs while preserving consistency and ease of use, the Page header component offers multiple configurations through a range of settable elements.
+
+| Element                  | Purpose                                                                                                                           | Notes                                                                                                                              | Mandatory / optional |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| **Page title**           | Provide a concise and precise description of the page content to help users quickly understand the topic or function of the page. | The title must match the selected sidebar item at the start. Then on the following pages, it should change to reflect the content. | Mandatory            |
+| **Subtitle**             | Complement the title with additional information to enhance the understanding of the content.                                     |                                                                                                                                    | Optional             |
+| **Status**               | Indicates the status of the page object.                                                                                          |                                                                                                                                    | Optional             |
+| **Tabs**                 | Feature-level navigation.                                                                                                         |                                                                                                                                    | Optional             |
+| **Back button**          | Allows users to return to the previous page or cancel an ongoing task.                                                            | Can't be combined with the Breadcrumb.                                                                                             | Optional             |
+| **Breadcrumbs**          | Allows users to return to one of the previous pages and find out where they are in their journey.                                 | Can't be conbined with the back button.                                                                                            | Optional             |
+| **Key features section** | Display a quick access to the help page and the notifications, and allows users the change a context option.                      | Context option can be handle as well from a Select, a Dropdown or an Autocomplete.                                                 | Optional             |
+| **Shadow**               | Allows to increase the contrast between the Page header and the page content.                                                     | Can also appears on scroll if the header is sticky                                                                                 | Optional             |
 
 ## Variations
 
-In order to cover a maximum of needs while preserving consistency and ease of use, the Page header component offers multiple configurations through a range of settable elements.
+### Page title
 
-| Element           | Purpose                           | Notes                           | Values           | Mandatory / optional |
-| ----------------- | --------------------------------- | ------------------------------- | ---------------- | -------------------- |
-| **Page Title**    | Indicates where users are in business gestures or process | At the beginning of process, the title must match the item selected in the sidebar. When the user navigates to a different page or subpage, the title should change to reflect the page content. On an product page, for example, the page title is the name of the product. | Available fontsizes: 23px, 28px and 34px | Mandatory |
-| **Subheading**    | Allows to add information for the user understanding of the content | Regular text | Fontsize: 16px | Optional |
-| **Status**        | Indicates the status of the page object | [Badge component](/Components/Badge/) |  | Optional |
-| **Tabs**          | Feature-level navigation | [Tabs component](/Components/Tabs/) always displayed with a divider on top |  | Optional |
-| **Back button**   | Allows user to go back at the beginning of the business gesture | Specific ghost button. Back button and breadcrumbs can’t be displayed together | Always with Arrow/Back icon | Optional |
-| **Breadcrumbs**   | Allows user to know his position inside a business gesture and go back | [Breadcrumb component](/Components/Breadcrumb/). Back button and breadcrumbs can’t be displayed together |  | Optional |
-| **Key features**  | Provides users with access to key features | Help center and Notifications are specific ghost buttons and Context selection is component as select, dropdown or autocomplete |  | Optional |
-| **Shadow**        | Allows to contrast with page content | Can also appears on scroll if the header is sticky | Specific style | Optional |
+| Size                 | Value          | Usage                                                                                                                   |
+| -------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Small**            | `size.font.07` | Mainly used on subpages when users have started a process. This title variation is often combined with the back button. |
+| **Medium** (default) | `size.font.08` | Used on homepages and at the start of processes and user journeys.                                                      |
+| **Large**            | `size.font.09` | Specific uses like landing pages                                                                                        |
 
 ## Behaviours
 
-Page Header component is typically located at the top of the page container and takes on the full weight of the container. As a result, its external margins depend on the breakpoint values of the container. If it is not located within the page container, it is still strongly related to it.  
-Currently, this component is only available for breakpoints L to XXL or at a minimum width of 960px when used with the [Sidebar component](/Components/Sidebar/).  
-His height depends of elements and their configuration inside.
+### Responsive
 
-<!-- Add preview -->
+The Page header is a flexible element that fills the container's width. It must start on the left-hand edge or next to the Sidebar component.
 
-<Highlight theme="tips" title="Good to know">
+<Highlight theme="warning" title="Be aware">
 
-Note that breakpoint values of the page container depends of the width of the container, not of the viewport.
+Please note that the margins of the Page header depend on the container's width.
 
 </Highlight>
 
-## States
+### Breakpoints
 
-Page Header and elements inside can't be disabled
+For the moment, the Page header component has been designed for desktop devices, from breakpoints `L` to `XXL`.
 
-## Animation
+### Content
 
-Page Header can be fixed to the top of the screen.  
-It is then always displayed above the remaining scrollable content of the container.
+As a component with a cross-functional purpose independent of page content, none of its elements can be disabled. If a feature is not available, it must not be displayed.
 
 ## Restrictions
 
-| Height           | Value |
-| ---------------- | ----- |
-| Minimal          | 64px  |
-| Maximal          | 221px |
+The height of the Page header only depends on its configuration and can't be custom-tailored or modified.
 
 ## Layout
 
-Page Header component is divided into 3 parts.  
-Left side contains navigation and contextual elements, including page title, subheading, status, back button or breadcrumbs. The relative width of this part is based on the width of the Header, while the relative height is determined by the number and size of elements displayed.  
-On the right side of the Header, key features such as Help, Notifications, and Context selection are displayed. This part has a fixed width of 448px and a fixed height of 32px.  
-The third part of the Header appears below the other two parts when Tabs are displayed. The Tabs take up the entire width of the Header.
-
-<!-- Add preview -->
-
-<Highlight theme="tips" title="Good to know">
-
-The Page header is always the uppermost section of the page when it’s displayed.
-
-</Highlight>
-
-## How to use
-
-### Page title
-
-| Fontsizes           | Usage |
-| ------------------- | ----- |
-| 23px | Useful to create hierarchy within process/features when the user navigates to a different page or subpage. Often combined with the back button. |
-| 28px | By default, on homepage and at the beginning of process/features and business journeys/gestures. |
-| 34px | Specific uses like landing pages |
+The Page header is always displayed above the page content and can be optionally fixed or not while scrolling. In the second case, it can appear when users scroll back to the top of the page.
 
 ## Do's and Don'ts
 
-<HintItem>
-  Always positioned at the top of the page.
-</HintItem>
+<HintItem>Always positioned at the top of the page.</HintItem>
 
-<HintItem dont>
-  Never add or modify styles of elements.
-</HintItem>
+<HintItem dont>No elements inside the Page header can be disabled.</HintItem>
 
-<HintItem dont>
-  Never hide Page title.
-</HintItem>
+<HintItem dont>Never add or modify styles of elements.</HintItem>
 
-<HintItem dont>
-  Don't use on customer-facing websites.
-</HintItem>
+<HintItem dont>Never hide Page title.</HintItem>
+
+<HintItem dont>Never use on B2C interfaces.</HintItem>
