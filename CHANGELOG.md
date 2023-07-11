@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.64.0](https://github.com/adeo/mozaic-design-system/compare/v1.63.0...v1.64.0) (2023-07-11)
+
+### Features
+
+- **components:** add sidebar documentation ([#1387](https://github.com/adeo/mozaic-design-system/issues/1387)) ([f531105](https://github.com/adeo/mozaic-design-system/commit/f531105e62f20648502a857cf1d1ec96fb4c7818))
+- **datatable:** add overflow visible modifier ([#1464](https://github.com/adeo/mozaic-design-system/issues/1464)) ([3fccf7b](https://github.com/adeo/mozaic-design-system/commit/3fccf7b679c9fa0182a384d0e942b98194d3ffa4))
+- **tooltip:** add word break modifier ([#1465](https://github.com/adeo/mozaic-design-system/issues/1465)) ([e1adb40](https://github.com/adeo/mozaic-design-system/commit/e1adb40a7dca2da17f9e708d6beb940f3db071cf))
+
+### Reverts
+
+- Revert "fix: label prevents clicking on the accordion (#1448)" (#1466) ([000dce6](https://github.com/adeo/mozaic-design-system/commit/000dce63cf0516943c00b22266b655f564500fbb)), closes [#1448](https://github.com/adeo/mozaic-design-system/issues/1448) [#1466](https://github.com/adeo/mozaic-design-system/issues/1466)
+
 # [1.63.0](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v1.63.0) (2023-07-05)
 
 ### Features
