@@ -14,7 +14,7 @@
     "postcss": "^8.4.23",
     "postcss-reporter": "^7.0.5",
     "postcss-scss": "^4.0.6",
-    "stylelint": "^14.14.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard-scss": "^6.1.0"
   }
 }
