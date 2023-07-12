@@ -1,32 +1,8 @@
-import React, { PureComponent } from 'react'
-import { Link } from 'gatsby'
+import * as React from 'react'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
-
-const Tabs = styled.div`
-  position: sticky;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  border-bottom: solid 1px #000;
-  background: white;
-
-  @media screen and (max-width: 767px) {
-    overflow-x: auto;
-  }
-`
-
-const TabsWrapper = styled.div`
-  display: inline-flex;
-  padding-left: ${MagicUnit * 1.5}rem;
-  max-width: ${MagicUnit * 52}rem;
-
-  @media screen and (min-width: 768px) {
-    padding-left: ${MagicUnit * 3}rem;
-  }
-`
-
-const TabItem = styled.div``
+import * as styles from './tabs.module.css'
 
 const TabLink = styled(Link)`
   color: #000;
@@ -58,8 +34,49 @@ const TabLink = styled(Link)`
   }
 `
 
-class PageTabs extends PureComponent {
-  orderPageTab = (pageTabs) => {
+const PageTabs = ({ currentPage }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      allMdx(sort: { fields: { slug: ASC } }) {
+        edges {
+          node {
+            fields {
+              fileName {
+                base
+                extension
+                name
+                relativePath
+              }
+              slug
+            }
+            frontmatter {
+              description
+              order
+              title
+            }
+            id
+          }
+        }
+        totalCount
+      }
+    }
+  `)
+
+  const allPages = data.allMdx.edges
+  const samePageTabs = allPages.filter(({ node }) => {
+    const nodePath = node.fields.fileName.relativePath.replace(
+      node.fields.fileName.base,
+      ''
+    )
+
+    const currentPath = currentPage.fields.fileName.relativePath.replace(
+      currentPage.fields.fileName.base,
+      ''
+    )
+
+    return nodePath === currentPath
+  })
+  const orderPageTab = (pageTabs) => {
     // order using frontmatter order tag and remove index
     const orderedTabs = [...pageTabs]
       .sort((a, b) => {
@@ -84,30 +101,28 @@ class PageTabs extends PureComponent {
 
     return newArr
   }
+  const cleanTabs = orderPageTab(samePageTabs)
 
-  render() {
-    const { samePageTabs } = this.props
-    const cleanTabs = this.orderPageTab(samePageTabs)
-    return (
-      <Tabs id="page_tabs_menu">
-        <TabsWrapper>
-          {cleanTabs.map((node) => (
-            <TabItem key={node.slug}>
-              <TabLink
-                to={node.slug}
-                activeClassName="is-active"
-                state={{
-                  isCode: node.title === 'Code',
-                }}
-              >
-                {node.title}
-              </TabLink>
-            </TabItem>
-          ))}
-        </TabsWrapper>
-      </Tabs>
-    )
-  }
+  return (
+    <div id="page_tabs_menu" className={styles.container}>
+      <div className={styles.wrapper}>
+        {cleanTabs.map((node) => (
+          <div className={styles.tabItem} key={node.slug}>
+            <Link
+              to={node.slug.toLowerCase()}
+              className={styles.tabLink}
+              activeClassName={styles.isActive}
+              state={{
+                isCode: node.title === 'Code',
+              }}
+            >
+              {node.title}
+            </Link>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 export default PageTabs

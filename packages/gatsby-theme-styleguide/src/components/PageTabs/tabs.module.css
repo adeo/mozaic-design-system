@@ -1,0 +1,63 @@
+/* PageTabs */
+
+/** Container */
+.container {
+  background: white;
+  border-bottom: solid 1px #000;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    overflow-x: auto;
+  }
+}
+
+/** Wrapper */
+.wrapper {
+  display: inline-flex;
+  padding-left: 1.5rem;
+  max-width: 52rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding-left: 3rem;
+  }
+}
+
+/** TabItem */
+.tabItem {
+}
+
+/** TabLink */
+.tabLink {
+  color: #000;
+  display: block;
+  position: relative;
+  padding: 1rem 1.5rem;
+}
+
+.tabLink::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.25rem;
+}
+
+.tabLink:hover:not(.isActive)::after {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.tabLink.isActive {
+  font-weight: bold;
+}
+
+.tabLink.isActive::after {
+  background: rgba(0, 0, 0, 1);
+}
