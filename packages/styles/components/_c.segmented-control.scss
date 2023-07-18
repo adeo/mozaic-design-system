@@ -1,0 +1,89 @@
+.mc-segmented-control {
+  $parent: get-parent-selector(&);
+
+  background-color: $color-grey-000;
+  border-radius: get-border-radius("m");
+  border: 1px solid $color-grey-300;
+  display: flex;
+  overflow: hidden;
+
+  &__segment {
+    background-color: $color-grey-000;
+    border: none;
+    color: $color-grey-999;
+    cursor: pointer;
+    flex: 1 1 0;
+    font-family: inherit;
+    padding: px-to-rem(3);
+    text-align: left;
+
+    &:active,
+    &:hover,
+    &.is-active {
+      color: $color-grey-000;
+
+      #{$parent} {
+        &__content {
+          background-color: $color-primary-01-600;
+        }
+
+        &__label {
+          @include set-font-face("semi-bold");
+        }
+      }
+    }
+
+    &.is-active {
+      #{$parent} {
+        &__icon {
+          &::before {
+            width: $mu100;
+            height: $mu100;
+            background-image: url(
+              inline-icons(
+                "notification-available-16",
+                $color-grey-000
+              ));
+          }
+        }
+      }
+    }
+
+    &.is-disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  &__content {
+    align-items: center;
+    border-radius: get-border-radius("s");
+    display: inline-flex;
+    gap: $mu025;
+    justify-content: center;
+    padding: px-to-rem(3) $mu100;
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  &__icon {
+    display: flex;
+    flex-shrink: 0;
+    &::before {
+      content: "";
+    }
+  }
+
+  &__label {
+    @include set-font-scale("04", "m");
+    @include set-font-face("regular");
+  }
+
+  // Size variation
+  &--m {
+    #{$parent} {
+      &__content {
+        padding: px-to-rem(11) $mu150;
+      }
+    }
+  }
+}
