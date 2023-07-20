@@ -3,7 +3,6 @@ const scssSyntax = require('postcss-scss')
 const autoprefixer = require('autoprefixer')
 const postcssSass = require('@csstools/postcss-sass')
 const stylelint = require('stylelint')
-const base64 = require('postcss-base64')
 const reporter = require('postcss-reporter')
 const cssnano = require('cssnano')
 const purgecss = require('@fullhuman/postcss-purgecss')
@@ -35,10 +34,6 @@ const plugins = [
   reporter({ clearReportedMessages: true }),
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   postcssSass(sassConfig),
-  base64({
-    pattern: /<svg.*<\/svg>/i,
-    prepend: 'data:image/svg+xml;base64,',
-  }),
   mqpackerondemand({
     sort: true,
   }),
@@ -58,10 +53,6 @@ if (CM.getKey('autoprefixer.disabled')) {
 const productionPlugins = [
   cssprepend(`$mozaic-env: ${mozaicEnvScssVar};`),
   postcssSass(sassConfig),
-  base64({
-    pattern: /<svg.*<\/svg>/i,
-    prepend: 'data:image/svg+xml;base64,',
-  }),
   mqpackerondemand({
     sort: true,
   }),

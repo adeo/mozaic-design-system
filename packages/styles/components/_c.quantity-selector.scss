@@ -6,68 +6,32 @@
 
   &__button-right,
   &__button-left {
-    @include set-focus-floating-base {
-      top: -$size-focus-border;
-      right: -$size-focus-border;
-      bottom: -$size-focus-border;
-      left: -$size-focus-border;
-    }
-
     z-index: 1;
-
-    &:focus {
-      box-shadow: none;
-      z-index: 1;
-
-      @include set-focus-floating {
-        box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
-      }
-    }
   }
 
   &__button-right {
     border-radius: 0 $mu025 $mu025 0;
-    margin-left: -1px;
-
-    &:focus::after {
-      border-radius: $size-focus-border $size-focus-radius-m
-        $size-focus-radius-m $size-focus-border;
-    }
   }
 
   &__button-left {
     border-radius: $mu025 0 0 $mu025;
-    margin-right: -1px;
-
-    &:focus::after {
-      border-radius: $size-focus-radius-m $size-focus-border $size-focus-border
-        $size-focus-radius-m;
-    }
   }
 
   &__input {
+    border-radius: 0;
+
     &,
     &::placeholder {
       text-align: center;
     }
 
+    &:not(:focus) {
+      border-left: none;
+      border-right: none;
+    }
+
     &:focus {
-      box-shadow: none;
-      position: relative;
-      z-index: 1;
-
-      & ~ #{$parent}__button-right {
-        position: static;
-
-        @include set-focus-floating() {
-          border-radius: $size-focus-radius;
-          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
-          top: -2px;
-          right: 46px;
-          bottom: -2px;
-          left: 46px;
-        }
-      }
+      z-index: 2;
     }
   }
 }

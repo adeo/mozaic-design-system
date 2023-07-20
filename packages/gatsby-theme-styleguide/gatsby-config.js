@@ -1,6 +1,5 @@
 const path = require('path')
 const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
-const base64 = require('postcss-base64')
 
 module.exports = {
   plugins: [
@@ -20,12 +19,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        postCssPlugins: [
-          base64({
-            pattern: /<svg.*<\/svg>/i,
-            prepend: 'data:image/svg+xml;base64,',
-          }),
-        ],
         sassOptions: {
           includePaths: MozaicPaths.includePaths,
         },

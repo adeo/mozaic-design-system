@@ -3,6 +3,60 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.64.0](https://github.com/adeo/mozaic-design-system/compare/v1.63.0...v1.64.0) (2023-07-11)
+
+### Features
+
+- **components:** add sidebar documentation ([#1387](https://github.com/adeo/mozaic-design-system/issues/1387)) ([f531105](https://github.com/adeo/mozaic-design-system/commit/f531105e62f20648502a857cf1d1ec96fb4c7818))
+- **datatable:** add overflow visible modifier ([#1464](https://github.com/adeo/mozaic-design-system/issues/1464)) ([3fccf7b](https://github.com/adeo/mozaic-design-system/commit/3fccf7b679c9fa0182a384d0e942b98194d3ffa4))
+- **tooltip:** add word break modifier ([#1465](https://github.com/adeo/mozaic-design-system/issues/1465)) ([e1adb40](https://github.com/adeo/mozaic-design-system/commit/e1adb40a7dca2da17f9e708d6beb940f3db071cf))
+
+### Reverts
+
+- Revert "fix: label prevents clicking on the accordion (#1448)" (#1466) ([000dce6](https://github.com/adeo/mozaic-design-system/commit/000dce63cf0516943c00b22266b655f564500fbb)), closes [#1448](https://github.com/adeo/mozaic-design-system/issues/1448) [#1466](https://github.com/adeo/mozaic-design-system/issues/1466)
+
+# [1.63.0](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v1.63.0) (2023-07-05)
+
+### Features
+
+- **docs:** update datatable documentation ([#1388](https://github.com/adeo/mozaic-design-system/issues/1388)) ([5e5cca5](https://github.com/adeo/mozaic-design-system/commit/5e5cca584ff6016f227305c1e21192b604f856b4))
+- **icons:** add new bonifico bancario logotype ([#1460](https://github.com/adeo/mozaic-design-system/issues/1460)) ([38214b3](https://github.com/adeo/mozaic-design-system/commit/38214b319097ea2258505ccf4133e6ac87d10c0a))
+- **icons:** add store lm icon ([#1458](https://github.com/adeo/mozaic-design-system/issues/1458)) ([684c9bd](https://github.com/adeo/mozaic-design-system/commit/684c9bdf3776012a66666a5e9e5979f0242e3b72))
+
+### Reverts
+
+- Revert "docs(components): remove unnecessary previews (#1427)" ([6fa72c4](https://github.com/adeo/mozaic-design-system/commit/6fa72c48c5fc6e4149181a6442053ec9790968b6)), closes [#1427](https://github.com/adeo/mozaic-design-system/issues/1427)
+
+# [1.62.0](https://github.com/adeo/mozaic-design-system/compare/v1.61.0...v1.62.0) (2023-06-09)
+
+### Bug Fixes
+
+- **component/modal:** manage long content by default ([#1436](https://github.com/adeo/mozaic-design-system/issues/1436)) ([4253001](https://github.com/adeo/mozaic-design-system/commit/42530012bb53dd81f69225407b93f8ef02a5fd7c))
+- label prevents clicking on the accordion ([#1448](https://github.com/adeo/mozaic-design-system/issues/1448)) ([ffd367f](https://github.com/adeo/mozaic-design-system/commit/ffd367f0e00d4699420efa85cfd9249a78eb6d0b))
+- **sidebar:** update tokens for adeo ([#1444](https://github.com/adeo/mozaic-design-system/issues/1444)) ([88a09e1](https://github.com/adeo/mozaic-design-system/commit/88a09e1f06199fd4ab3f8a8ae646cc5255ca39f4))
+
+### Features
+
+- **component/progressbar:** implement the 'branded' variation as the default version ([#1437](https://github.com/adeo/mozaic-design-system/issues/1437)) ([8eabca7](https://github.com/adeo/mozaic-design-system/commit/8eabca7e225cb0c65e9763f3dd99b57452fe6c93))
+
+# [1.61.0](https://github.com/adeo/mozaic-design-system/compare/v1.60.0...v1.61.0) (2023-05-25)
+
+### Features
+
+- **font-size:** update font size 07 to 24px ([#1434](https://github.com/adeo/mozaic-design-system/issues/1434)) ([7648ee5](https://github.com/adeo/mozaic-design-system/commit/7648ee5b4c42074a59e0e3aa9d2646a168d7d1a3))
+
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Bug Fixes
+
+- **component/qtyselector:** adjust the focus behaviour ([#1431](https://github.com/adeo/mozaic-design-system/issues/1431)) ([2139437](https://github.com/adeo/mozaic-design-system/commit/2139437e0d2b568ebeeb12ce7285403810a3cf9a))
+- **component/stars-input:** stringify "background-image" parameter to avoid ";" expectation SASS error ([#1419](https://github.com/adeo/mozaic-design-system/issues/1419)) ([a94b08c](https://github.com/adeo/mozaic-design-system/commit/a94b08cd936835779814a9e8c53b236d3d24f5c5))
+
+### Features
+
+- **docs:** add segmented control documentation ([#1420](https://github.com/adeo/mozaic-design-system/issues/1420)) ([781f252](https://github.com/adeo/mozaic-design-system/commit/781f2526db4ba42f48d1cd93631d8380b33c2686))
+- **tokens:** add sidebar tokens ([#1432](https://github.com/adeo/mozaic-design-system/issues/1432)) ([6f49fdc](https://github.com/adeo/mozaic-design-system/commit/6f49fdcd8811bb324d56bb5f626178f0c7b38b6c))
+
 # [1.59.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.1...v1.59.0) (2023-04-27)
 
 ### Features

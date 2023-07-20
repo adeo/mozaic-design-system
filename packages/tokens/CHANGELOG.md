@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.62.0](https://github.com/adeo/mozaic-design-system/compare/v1.61.0...v1.62.0) (2023-06-09)
+
+### Bug Fixes
+
+- **sidebar:** update tokens for adeo ([#1444](https://github.com/adeo/mozaic-design-system/issues/1444)) ([88a09e1](https://github.com/adeo/mozaic-design-system/commit/88a09e1f06199fd4ab3f8a8ae646cc5255ca39f4))
+
+### Features
+
+- **component/progressbar:** implement the 'branded' variation as the default version ([#1437](https://github.com/adeo/mozaic-design-system/issues/1437)) ([8eabca7](https://github.com/adeo/mozaic-design-system/commit/8eabca7e225cb0c65e9763f3dd99b57452fe6c93))
+
+# [1.61.0](https://github.com/adeo/mozaic-design-system/compare/v1.60.0...v1.61.0) (2023-05-25)
+
+### Features
+
+- **font-size:** update font size 07 to 24px ([#1434](https://github.com/adeo/mozaic-design-system/issues/1434)) ([7648ee5](https://github.com/adeo/mozaic-design-system/commit/7648ee5b4c42074a59e0e3aa9d2646a168d7d1a3))
+
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Features
+
+- **tokens:** add sidebar tokens ([#1432](https://github.com/adeo/mozaic-design-system/issues/1432)) ([6f49fdc](https://github.com/adeo/mozaic-design-system/commit/6f49fdcd8811bb324d56bb5f626178f0c7b38b6c))
+
 ## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
 
 ### Bug Fixes
