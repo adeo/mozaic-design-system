@@ -5,9 +5,12 @@ import Layout from '../components/layout'
 import SubContents from '../components/SubContents'
 import PatternStatusGroup from '../components/PatternStatusGroup'
 import PageTabs from '../components/PageTabs'
+import Highlight from '../components/Highlight'
 import * as styles from './contentpage.module.css'
 
-const components = {}
+const components = {
+  Highlight,
+}
 
 const ContentPage = (props) => {
   // console.log('ContentPage - props', props)
