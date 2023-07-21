@@ -1,0 +1,12 @@
+@import "settings-tools/all-settings";
+@include import-font-families();
+@import "components/c.segmented-control";
+
+* {
+  box-sizing: border-box;
+}
+
+.example {
+  text-align: center;
+  margin: $mu100 auto;
+}
