@@ -7862,6 +7862,65 @@ module.exports = {
         }
       }
     },
+    "segmented-control": {
+      "is-active": {
+        "value": "#188803",
+        "filePath": "packages/tokens/properties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorSegmentedControlIsActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "is-active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "is-active"
+        ]
+      },
+      "hover": {
+        "value": "#eeeff1",
+        "filePath": "packages/tokens/properties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorSegmentedControlHover",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "hover"
+        ]
+      },
+      "active": {
+        "value": "#cfd2d8",
+        "filePath": "packages/tokens/properties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.200.value}"
+        },
+        "name": "ColorSegmentedControlActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "active"
+        ]
+      }
+    },
     "sidebar": {
       "background": {
         "value": "#eeeff1",

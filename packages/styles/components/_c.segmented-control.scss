@@ -18,33 +18,41 @@
     padding: px-to-rem(3);
     text-align: left;
 
-    &:active,
-    &:hover,
-    &.is-active {
-      color: $color-grey-000;
-
+    &:hover {
       #{$parent} {
         &__content {
-          background-color: $color-primary-01-600;
+          background-color: $color-segmented-control-hover;
         }
+      }
+    }
 
-        &__label {
-          @include set-font-face("semi-bold");
+    &:active {
+      #{$parent} {
+        &__content {
+          background-color: $color-segmented-control-active;
         }
       }
     }
 
     &.is-active {
+      color: $color-grey-000;
       #{$parent} {
+        &__content {
+          background-color: $color-segmented-control-is-active;
+        }
+
+        &__label {
+          @include set-font-face("semi-bold");
+        }
+
         &__icon {
           &::before {
             width: $mu100;
             height: $mu100;
-            background-image: url(
-              inline-icons(
-                "notification-available-16",
-                $color-grey-000
-              ));
+            background-image: url(inline-icons(
+              "notification-available-16",
+              $color-grey-000
+            ));
           }
         }
       }
@@ -52,6 +60,7 @@
 
     &.is-disabled {
       cursor: not-allowed;
+      background-color: $color-grey-200;
     }
   }
 
