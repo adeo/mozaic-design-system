@@ -3,18 +3,18 @@ const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
 
 module.exports = {
   plugins: [
-    {
-      resolve: '@mozaic-ds/gatsby-source-preview',
-      options: {
-        previewsFiles: 'src/docs/**/*.preview.*',
-        rootPath: 'src/docs',
-        stylesPath: 'packages/styles/**/*.scss',
-      },
-    },
+    // {
+    //   resolve: '@mozaic-ds/gatsby-source-preview',
+    //   options: {
+    //     previewsFiles: 'src/docs/**/*.preview.*',
+    //     rootPath: 'src/docs',
+    //     stylesPath: 'packages/styles/**/*.scss',
+    //   },
+    // },
+    // {
+    //   resolve: '@mozaic-ds/gatsby-github-release',
+    // },
     'gatsby-plugin-styled-components',
-    {
-      resolve: '@mozaic-ds/gatsby-github-release',
-    },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -61,6 +61,9 @@ module.exports = {
           },
           'gatsby-remark-static-images',
         ],
+        mdxOptions: {
+          remarkPlugins: [require(`remark-gfm`)],
+        },
       },
     },
     {
