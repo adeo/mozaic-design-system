@@ -6,10 +6,13 @@ import SubContents from '../components/SubContents'
 import PatternStatusGroup from '../components/PatternStatusGroup'
 import PageTabs from '../components/PageTabs'
 import Highlight from '../components/Highlight'
+import Hint, { HintItem } from '../components/Hint'
 import * as styles from './contentpage.module.css'
 
 const components = {
   Highlight,
+  Hint,
+  HintItem,
 }
 
 const ContentPage = (props) => {
