@@ -1,0 +1,107 @@
+/* IconViewer */
+
+/** Subtitle */
+.subtitle {
+  font-size: 32px;
+  margin: 0.67em auto;
+}
+
+/** List */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 !important;
+  padding: 0;
+}
+
+/** Detail */
+.detail {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  flex: 0 1 30.8%;
+  list-style: none;
+  margin: 0.5rem;
+}
+
+/** IconName */
+.iconName {
+  border-bottom: 1px solid #eee;
+  font-size: 0.75rem;
+  font-weight: 600;
+  height: 40px;
+  padding: 1rem;
+  margin: 0;
+  word-break: break-all;
+}
+
+/** IconWrapper */
+.iconWrapper {
+  text-align: center;
+  height: 104px;
+  line-height: 3.75;
+  display: flex;
+}
+
+.iconWrapper img,
+.iconWrapper svg {
+  margin: auto;
+}
+
+/** SizeList */
+.sizeList {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  margin: 0 !important;
+}
+
+/** SizeListItem */
+.sizeListItem {
+  flex: 0 1 20%;
+  font-size: 0.65rem;
+  line-height: 1.62rem;
+  list-style: none;
+  text-align: center;
+}
+
+.sizeListItem:not(:first-child) {
+  border-left: 1px solid #eee;
+}
+
+.sizeListItem.isDisabled {
+  background: #f2f2f2;
+  color: darkgrey;
+}
+
+.sizeListItem.isActive {
+  background: #78be20;
+  color: white;
+}
+
+/** SizeButton */
+.sizeButton {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.65rem;
+  line-height: 1;
+  margin: 0;
+  padding: 0.5rem 0.25rem;
+}
+
+.sizeButton[disabled] {
+  cursor: not-allowed;
+}
+
+/** TechnicalName */
+.technicalName {
+  display: block;
+  line-height: 1.25;
+  margin: 3px;
+  padding: 0 3px;
+  position: relative;
+  word-break: break-all;
+}
