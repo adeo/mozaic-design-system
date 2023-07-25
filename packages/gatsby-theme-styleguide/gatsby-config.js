@@ -62,7 +62,17 @@ module.exports = {
           'gatsby-remark-static-images',
         ],
         mdxOptions: {
-          remarkPlugins: [require(`remark-gfm`)],
+          remarkPlugins: [
+            require(`remark-gfm`),
+            [
+              remarkCodeHike,
+              {
+                showCopyButton: true,
+                theme: 'material-palenight',
+                autoLink: false,
+              },
+            ],
+          ],
         },
       },
     },

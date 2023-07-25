@@ -5,6 +5,7 @@
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "main": "index.js",
   "dependencies": {
+    "@code-hike/mdx": "^0.9.0",
     "@mdx-js/react": "^2.3.0",
     "@mozaic-ds/gatsby-github-release": "^1.60.0",
     "@mozaic-ds/gatsby-source-preview": "^1.60.0",
