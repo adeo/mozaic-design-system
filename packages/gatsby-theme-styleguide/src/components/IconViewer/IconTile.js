@@ -80,7 +80,7 @@ const TechnicalName = ({ keyName, value }) => (
 const IconTile = (props) => {
   const dataIcon = buildIconData(props.name, props.icons)
   const [currentSize, setCurrentSize] = useState(dataIcon.currentSize)
-  const [allIcon, setAllIcon] = useState(dataIcon.sizes)
+  const [allIcon] = useState(dataIcon.sizes)
 
   function changeIconSize(size) {
     setCurrentSize(size)

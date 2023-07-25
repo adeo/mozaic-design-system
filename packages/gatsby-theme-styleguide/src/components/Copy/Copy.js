@@ -18,7 +18,13 @@ const Copy = (props) => {
   }
 
   return (
-    <div className={styles.info} onClick={handleClick}>
+    <div
+      className={styles.info}
+      onClick={handleClick}
+      onKeyDown={handleClick}
+      role="button"
+      tabIndex={0}
+    >
       {children}
       {copied && <div className={styles.copied}>copied</div>}
     </div>
