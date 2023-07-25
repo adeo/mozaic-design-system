@@ -206,6 +206,14 @@
     }
   }
 
+  &--overflow-visible {
+    #{$parent} {
+      &__content {
+        overflow: visible;
+      }
+    }
+  }
+
   @each $size, $props in $accordion-sizes {
     &--#{$size} {
       @if ($size != "m") {
