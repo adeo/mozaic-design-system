@@ -6,7 +6,7 @@ const Copy = (props) => {
   const { children } = props
   const [copied, setCopied] = useState(false)
 
-  function handleClick() {
+  function copyOnClick() {
     const value = props.value ? props.value : props.children
 
     copyToClipboard(value)
@@ -20,8 +20,8 @@ const Copy = (props) => {
   return (
     <div
       className={styles.info}
-      onClick={handleClick}
-      onKeyDown={handleClick}
+      onClick={copyOnClick}
+      onKeyDown={copyOnClick}
       role="button"
       tabIndex={0}
     >

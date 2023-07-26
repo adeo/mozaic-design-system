@@ -8,6 +8,7 @@ import PageTabs from '../components/PageTabs'
 import Highlight from '../components/Highlight'
 import Hint, { HintItem } from '../components/Hint'
 import IconViewer from '../components/IconViewer'
+import InlineCode from '../components/InlineCode'
 import * as styles from './contentpage.module.css'
 
 const components = {
@@ -15,6 +16,7 @@ const components = {
   Hint,
   HintItem,
   IconViewer,
+  InlineCode: InlineCode,
 }
 
 const ContentPage = (props) => {
