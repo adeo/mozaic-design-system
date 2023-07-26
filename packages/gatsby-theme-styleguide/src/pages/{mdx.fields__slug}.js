@@ -4,6 +4,7 @@ import { MDXProvider } from '@mdx-js/react'
 import Layout from '../components/layout'
 import SubContents from '../components/SubContents'
 import PatternStatusGroup from '../components/PatternStatusGroup'
+import JSImplementation from '../components/JSImplementation'
 import PageTabs from '../components/PageTabs'
 import Highlight from '../components/Highlight'
 import Hint, { HintItem } from '../components/Hint'
@@ -16,7 +17,7 @@ const components = {
   Hint,
   HintItem,
   IconViewer,
-  InlineCode: InlineCode,
+  Code: InlineCode,
 }
 
 const ContentPage = (props) => {
@@ -58,6 +59,7 @@ const ContentPage = (props) => {
         )}
         <h1 className={styles.title}>{frontmatter.title}</h1>
         <PatternStatusGroup status={frontmatter.status} />
+        <JSImplementation links={frontmatter.links} />
       </header>
       {/* {hasTabs && <PageTabs samePageTabs={samePageTabs} />} */}
       <PageTabs currentPage={currentPage} />

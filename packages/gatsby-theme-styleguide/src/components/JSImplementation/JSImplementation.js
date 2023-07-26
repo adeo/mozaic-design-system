@@ -1,39 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
-import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 import StatusFlag from '../StatusFlag'
-import { DisplayExternalLink16 } from '@mozaic-ds/icons/react'
-
-const StatusItem = styled.span`
-  display: inline-flex;
-  align-items: baseline;
-  margin-right: ${MagicUnit}rem;
-`
-
-const StatusText = styled.div`
-  color: black;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-transform: capitalize;
-  display: flex;
-`
-
-const StatusName = styled.span`
-  text-decoration: underline;
-`
-
-const StatusContainer = styled.div`
-  display: inline-block;
-`
-
-const Link = styled.a`
-  color: black;
-  font-weight: bold;
-  margin: 0 0.25rem;
-  display: flex;
-  align-items: center;
-`
+import { DisplayExternalLink16 } from '../icons'
+import * as styles from './jsimplementation.module.css'
 
 const JSImplementation = ({ links }) => {
   if (!links) {
@@ -46,20 +14,26 @@ const JSImplementation = ({ links }) => {
         return false
       }
       return (
-        <StatusItem key={index}>
-          {value.link !== '' ? (
-            <StatusText>
-              <StatusName>{key}</StatusName>
-              <Link target="__blank" href={value.link}>
-                <DisplayExternalLink16 fill="#999999" />
-              </Link>
-            </StatusText>
-          ) : (
-            <StatusText>{key}</StatusText>
-          )}
+        <span className={styles.statusItem} key={index}>
+          <div className={styles.statusText}>
+            {value.link !== '' ? (
+              <>
+                <span className={styles.statusName}>{key}</span>
+                <a
+                  className={styles.statusLink}
+                  target="__blank"
+                  href={value.link}
+                >
+                  <DisplayExternalLink16 fill="#999999" />
+                </a>
+              </>
+            ) : (
+              { key }
+            )}
+          </div>
           {':'}
           <StatusFlag status={value.status} />
-        </StatusItem>
+        </span>
       )
     })
     .filter((item) => !!item)
@@ -68,7 +42,7 @@ const JSImplementation = ({ links }) => {
     return false
   }
 
-  return <StatusContainer>{items}</StatusContainer>
+  return <div className={styles.statusContainer}>{items}</div>
 }
 
 export default JSImplementation
