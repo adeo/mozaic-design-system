@@ -10,6 +10,11 @@ import Highlight from '../components/Highlight'
 import Hint, { HintItem } from '../components/Hint'
 import IconViewer from '../components/IconViewer'
 import InlineCode from '../components/InlineCode'
+import PatternsStatus from '../components/PatternsStatus'
+import {
+  ControlCross16,
+  NotificationCircleAvailable24,
+} from '../components/icons'
 import * as styles from './contentpage.module.css'
 
 const components = {
@@ -18,6 +23,9 @@ const components = {
   HintItem,
   IconViewer,
   Code: InlineCode,
+  PatternsStatus,
+  ControlCross16,
+  NotificationCircleAvailable24,
 }
 
 const ContentPage = (props) => {

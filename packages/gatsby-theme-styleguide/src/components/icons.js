@@ -48,6 +48,37 @@ export const DisplayExternalLink16 = ({ className, fill }) => {
   )
 }
 
+export const ControlCross16 = ({ className, fill }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      className={className}
+      fill={fill}
+      width="1rem"
+      height="1rem"
+    >
+      <path d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z" />
+    </svg>
+  )
+}
+
+export const NotificationCircleAvailable24 = ({ className, fill }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      className={className}
+      fill={fill}
+      width="1.5rem"
+      height="1.5rem"
+    >
+      <path d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z" />
+      <path d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z" />
+    </svg>
+  )
+}
+
 export const IconSlack = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
