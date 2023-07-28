@@ -59,8 +59,6 @@
     &:active,
     &.is-active,
     &.is-disabled {
-      @include set-font-weight("semi-bold");
-
       background-image: url("#{inline-icons('arrow-right-16', $color-grey-000)}");
       color: $color-grey-000;
     }
@@ -69,6 +67,7 @@
     &:active,
     &.is-active {
       background-color: $color-primary-01-600;
+      @include set-font-face("semi-bold");
 
       &::after {
         display: none;
@@ -87,6 +86,7 @@
 
   &__label {
     @include set-font-scale("05", "m");
+    @include set-font-face("regular");
 
     display: -webkit-box;
     max-height: px-to-rem(44);
