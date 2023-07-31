@@ -72,6 +72,13 @@
     pointer-events: none;
   }
 
+  @include unify-parent("a") {
+    &:disabled,
+    &.is-disabled {
+      pointer-events: none;
+    }
+  }
+
   @each $name, $props in $buttons {
     @if ($name != "solid") {
       &--#{$name} {

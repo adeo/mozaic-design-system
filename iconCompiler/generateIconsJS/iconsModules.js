@@ -75,7 +75,8 @@ const iconModule = ({ fileName, data }) => {
     viewBox: "${viewBox}",
     size: "${sizeRem}",
     paths: ${generatePaths(content, iconName)},
-    type: "${type}"
+    type: "${type}",
+    iconName: "${iconName}"
   };`
 }
 

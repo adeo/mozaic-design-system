@@ -4359,6 +4359,320 @@ module.exports = {
         }
       }
     },
+    "datatable": {
+      "filters": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorDatatableFiltersBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "filters",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "filters",
+            "border"
+          ]
+        }
+      },
+      "container": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorDatatableContainerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "container",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "container",
+            "background"
+          ]
+        }
+      },
+      "thead": {
+        "font": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDatatableTheadFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "thead",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "thead",
+            "font"
+          ]
+        }
+      },
+      "sort-arrow": {
+        "default": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorDatatableSortArrowDefault",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "default"
+          ]
+        },
+        "active": {
+          "value": "#333333",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.800.value}"
+          },
+          "name": "ColorDatatableSortArrowActive",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "active"
+          ]
+        }
+      },
+      "cell": {
+        "font": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDatatableCellFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "cell",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "cell",
+            "font"
+          ]
+        },
+        "background": {
+          "hover": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundHover",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "hover"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "hover"
+            ]
+          },
+          "selected": {
+            "value": "#ebf5de",
+            "filePath": "packages/tokens/properties/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundSelected",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "selected"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "selected"
+            ]
+          }
+        }
+      },
+      "subtable": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorDatatableSubtableBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorDatatableSubtableBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorDatatableSubtableFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "font"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#46a610",
+        "filePath": "packages/tokens/properties/color/datatable.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorDatatableIcon",
+        "attributes": {
+          "category": "color",
+          "type": "datatable",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "datatable",
+          "icon"
+        ]
+      },
+      "empty": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorDatatableEmptyBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#666666",
+          "filePath": "packages/tokens/properties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorDatatableEmptyColor",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "color"
+          ]
+        }
+      }
+    },
     "dialog": {
       "background": {
         "value": "#ffffff",
@@ -7485,11 +7799,11 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#007bb4",
+        "value": "#188803",
         "filePath": "packages/tokens/properties/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.info.600.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorProgressIndicator",
         "attributes": {
@@ -7546,27 +7860,276 @@ module.exports = {
             "half"
           ]
         }
+      }
+    },
+    "sidebar": {
+      "background": {
+        "value": "#eeeff1",
+        "filePath": "packages/tokens/properties/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorSidebarBackground",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "background"
+        ]
       },
-      "branded": {
-        "indicator": {
-          "value": "#46a610",
-          "filePath": "packages/tokens/properties/color/progressbar.json",
+      "feature": {
+        "background": {
+          "value": "#cfd2d8",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.primary-02.200.value}"
           },
-          "name": "ColorProgressBrandedIndicator",
+          "name": "ColorSidebarFeatureBackground",
           "attributes": {
             "category": "color",
-            "type": "progress",
-            "item": "branded",
-            "subitem": "indicator"
+            "type": "sidebar",
+            "item": "feature",
+            "subitem": "background"
           },
           "path": [
             "color",
-            "progress",
-            "branded",
-            "indicator"
+            "sidebar",
+            "feature",
+            "background"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#b3b7c1",
+            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.300.value}"
+            },
+            "name": "ColorSidebarFeatureHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "hover",
+              "background"
+            ]
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "#cfd2d8",
+            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.200.value}"
+            },
+            "name": "ColorSidebarFeatureSelectedBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "selected",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "selected",
+              "background"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#6a7081",
+            "filePath": "packages/tokens/properties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.500.value}"
+            },
+            "name": "ColorSidebarFeatureDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "disabled",
+              "background"
+            ]
+          }
+        }
+      },
+      "user": {
+        "background": {
+          "value": "#cfd2d8",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.200.value}"
+          },
+          "name": "ColorSidebarUserBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "user",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "user",
+            "background"
+          ]
+        }
+      },
+      "divider": {
+        "background": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorSidebarDividerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "divider",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "divider",
+            "background"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorSidebarIcon",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "icon"
+        ]
+      },
+      "text": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorSidebarTextBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorSidebarTextColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "color"
+          ]
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorSidebarScrollBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#8f94a3",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.400.value}"
+          },
+          "name": "ColorSidebarScrollColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "color"
           ]
         }
       }

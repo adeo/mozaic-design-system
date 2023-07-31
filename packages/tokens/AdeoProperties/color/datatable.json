@@ -1,0 +1,64 @@
+{
+  "color": {
+    "datatable": {
+      "filters": {
+        "border": {
+          "value": "{color.secondary-blue.300.value}"
+        }
+      },
+      "container": {
+        "background": {
+          "value": "{color.secondary-purple.100.value}"
+        }
+      },
+      "thead": {
+        "font": {
+          "value": "{color.secondary-purple.700.value}"
+        }
+      },
+      "sort-arrow": {
+        "default": {
+          "value": "{color.secondary-blue.200.value}"
+        },
+        "active": {
+          "value": "{color.secondary-purple.500.value}"
+        }
+      },
+      "cell": {
+        "font": {
+          "value": "{color.grey.900.value}"
+        },
+        "background": {
+          "hover": {
+            "value": "{color.secondary-blue.100.value}"
+          },
+          "selected": {
+            "value": "{color.primary-01.100.value}"
+          }
+        }
+      },
+      "subtable": {
+        "background": {
+          "value": "{color.secondary-purple.100.value}"
+        },
+        "border": {
+          "value": "{color.secondary-purple.300.value}"
+        },
+        "font": {
+          "value": "{color.secondary-purple.900.value}"
+        }
+      },
+      "icon": {
+        "value": "{color.primary-01.600.value}"
+      },
+      "empty": {
+        "background": {
+          "value": "{color.secondary-purple.100.value}"
+        },
+        "color": {
+          "value": "{color.secondary-purple.600.value}"
+        }
+      }
+    }
+  }
+}

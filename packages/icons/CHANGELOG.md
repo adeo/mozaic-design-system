@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.63.0](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v1.63.0) (2023-07-05)
+
+### Features
+
+- **icons:** add new bonifico bancario logotype ([#1460](https://github.com/adeo/mozaic-design-system/issues/1460)) ([38214b3](https://github.com/adeo/mozaic-design-system/commit/38214b319097ea2258505ccf4133e6ac87d10c0a))
+- **icons:** add store lm icon ([#1458](https://github.com/adeo/mozaic-design-system/issues/1458)) ([684c9bd](https://github.com/adeo/mozaic-design-system/commit/684c9bdf3776012a66666a5e9e5979f0242e3b72))
+
+### Reverts
+
+- Revert "docs(components): remove unnecessary previews (#1427)" ([6fa72c4](https://github.com/adeo/mozaic-design-system/commit/6fa72c48c5fc6e4149181a6442053ec9790968b6)), closes [#1427](https://github.com/adeo/mozaic-design-system/issues/1427)
+
+## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
+
+### Bug Fixes
+
+- regenerate missing tokens & updating icons js files ([#1418](https://github.com/adeo/mozaic-design-system/issues/1418)) ([237174c](https://github.com/adeo/mozaic-design-system/commit/237174c80b1f016966aa6399f8cd1a0b161a94e4))
+
+# [1.58.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.0-beta.0...v1.58.0) (2023-04-14)
+
+**Note:** Version bump only for package @mozaic-ds/icons
+
+# [1.58.0-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.57.0...v1.58.0-beta.0) (2023-04-14)
+
+### Features
+
+- **foundations/icons:** add logo Oney ([#1413](https://github.com/adeo/mozaic-design-system/issues/1413)) ([caaced9](https://github.com/adeo/mozaic-design-system/commit/caaced90b7f93316d17deefd466bde496087db9a))
+- **foundations/icons:** icon.js - add the icon name in the exported icons objects ([#1410](https://github.com/adeo/mozaic-design-system/issues/1410)) ([59c5716](https://github.com/adeo/mozaic-design-system/commit/59c571648af24354b454e9698be135520178bda1))
+
+# [1.57.0](https://github.com/adeo/mozaic-design-system/compare/v1.56.0...v1.57.0) (2023-03-29)
+
+### Features
+
+- **icons:** add new icons ([#1408](https://github.com/adeo/mozaic-design-system/issues/1408)) ([716c764](https://github.com/adeo/mozaic-design-system/commit/716c764cace9e0db54ed4a72095e2f215d03aadd))
+
 # [1.54.0](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v1.54.0) (2023-03-02)
 
 **Note:** Version bump only for package @mozaic-ds/icons

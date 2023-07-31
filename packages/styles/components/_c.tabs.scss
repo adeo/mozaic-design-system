@@ -13,11 +13,11 @@
   }
 
   background-color: $color-tabs-background;
+  display: inline-flex;
   position: relative;
   width: 100%;
 
   @include set-from-screen(m) {
-    display: inline-flex;
     width: auto;
   }
 
@@ -146,7 +146,9 @@
 
   &--full,
   &--full-centered {
-    width: 100%;
+    @include set-from-screen("m") {
+      width: 100%;
+    }
   }
 
   &--full-centered {

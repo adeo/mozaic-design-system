@@ -208,6 +208,20 @@ $color-button-bordered-danger-hover-background: #fdeaea !default;
 $color-button-bordered-danger-hover-font: #8c0003 !default;
 $color-card-bordered-background: #ffffff !default;
 $color-card-bordered-border: #808080 !default;
+$color-datatable-filters-border: #b3b3b3 !default;
+$color-datatable-container-background: #e6e6e6 !default;
+$color-datatable-thead-font: #191919 !default;
+$color-datatable-sort-arrow-default: #cccccc !default;
+$color-datatable-sort-arrow-active: #333333 !default;
+$color-datatable-cell-font: #191919 !default;
+$color-datatable-cell-background-hover: #e6e6e6 !default;
+$color-datatable-cell-background-selected: #ebf5de !default;
+$color-datatable-subtable-background: #e6e6e6 !default;
+$color-datatable-subtable-border: #b3b3b3 !default;
+$color-datatable-subtable-font: #000000 !default;
+$color-datatable-icon: #46a610 !default;
+$color-datatable-empty-background: #e6e6e6 !default;
+$color-datatable-empty-color: #666666 !default;
 $color-dialog-background: #ffffff !default;
 $color-dialog-icon: #666666 !default;
 $color-dialog-close: #808080 !default;
@@ -352,10 +366,21 @@ $color-phone-number-list-background: #ffffff !default;
 $color-phone-number-item-border: #b3b3b3 !default;
 $color-phone-number-item-focus-background: #e6e6e6 !default;
 $color-progress-background: #cccccc !default;
-$color-progress-indicator: #007bb4 !default;
+$color-progress-indicator: #188803 !default;
 $color-progress-percentage-default: #191919 !default;
 $color-progress-percentage-half: #ffffff !default;
-$color-progress-branded-indicator: #46a610 !default;
+$color-sidebar-background: #eeeff1 !default;
+$color-sidebar-feature-background: #cfd2d8 !default;
+$color-sidebar-feature-hover-background: #b3b7c1 !default;
+$color-sidebar-feature-selected-background: #cfd2d8 !default;
+$color-sidebar-feature-disabled-background: #6a7081 !default;
+$color-sidebar-user-background: #cfd2d8 !default;
+$color-sidebar-divider-background: #b3b3b3 !default;
+$color-sidebar-icon: #191919 !default;
+$color-sidebar-text-background: #e6e6e6 !default;
+$color-sidebar-text-color: #191919 !default;
+$color-sidebar-scroll-background: #b3b3b3 !default;
+$color-sidebar-scroll-color: #8f94a3 !default;
 $color-star-empty: #ffffff !default;
 $color-star-focus: #0b96cc !default;
 $color-star-full: #ea7315 !default;
@@ -879,6 +904,38 @@ $tokens: (
         'border': $color-card-bordered-border
       )
     ),
+    'datatable': (
+      'filters': (
+        'border': $color-datatable-filters-border
+      ),
+      'container': (
+        'background': $color-datatable-container-background
+      ),
+      'thead': (
+        'font': $color-datatable-thead-font
+      ),
+      'sort-arrow': (
+        'default': $color-datatable-sort-arrow-default,
+        'active': $color-datatable-sort-arrow-active
+      ),
+      'cell': (
+        'font': $color-datatable-cell-font,
+        'background': (
+          'hover': $color-datatable-cell-background-hover,
+          'selected': $color-datatable-cell-background-selected
+        )
+      ),
+      'subtable': (
+        'background': $color-datatable-subtable-background,
+        'border': $color-datatable-subtable-border,
+        'font': $color-datatable-subtable-font
+      ),
+      'icon': $color-datatable-icon,
+      'empty': (
+        'background': $color-datatable-empty-background,
+        'color': $color-datatable-empty-color
+      )
+    ),
     'dialog': (
       'background': $color-dialog-background,
       'icon': $color-dialog-icon,
@@ -1174,9 +1231,36 @@ $tokens: (
       'percentage': (
         'default': $color-progress-percentage-default,
         'half': $color-progress-percentage-half
+      )
+    ),
+    'sidebar': (
+      'background': $color-sidebar-background,
+      'feature': (
+        'background': $color-sidebar-feature-background,
+        'hover': (
+          'background': $color-sidebar-feature-hover-background
+        ),
+        'selected': (
+          'background': $color-sidebar-feature-selected-background
+        ),
+        'disabled': (
+          'background': $color-sidebar-feature-disabled-background
+        )
       ),
-      'branded': (
-        'indicator': $color-progress-branded-indicator
+      'user': (
+        'background': $color-sidebar-user-background
+      ),
+      'divider': (
+        'background': $color-sidebar-divider-background
+      ),
+      'icon': $color-sidebar-icon,
+      'text': (
+        'background': $color-sidebar-text-background,
+        'color': $color-sidebar-text-color
+      ),
+      'scroll': (
+        'background': $color-sidebar-scroll-background,
+        'color': $color-sidebar-scroll-color
       )
     ),
     'star': (

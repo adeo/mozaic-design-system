@@ -3,6 +3,93 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.64.0](https://github.com/adeo/mozaic-design-system/compare/v1.63.0...v1.64.0) (2023-07-11)
+
+### Features
+
+- **datatable:** add overflow visible modifier ([#1464](https://github.com/adeo/mozaic-design-system/issues/1464)) ([3fccf7b](https://github.com/adeo/mozaic-design-system/commit/3fccf7b679c9fa0182a384d0e942b98194d3ffa4))
+- **tooltip:** add word break modifier ([#1465](https://github.com/adeo/mozaic-design-system/issues/1465)) ([e1adb40](https://github.com/adeo/mozaic-design-system/commit/e1adb40a7dca2da17f9e708d6beb940f3db071cf))
+
+### Reverts
+
+- Revert "fix: label prevents clicking on the accordion (#1448)" (#1466) ([000dce6](https://github.com/adeo/mozaic-design-system/commit/000dce63cf0516943c00b22266b655f564500fbb)), closes [#1448](https://github.com/adeo/mozaic-design-system/issues/1448) [#1466](https://github.com/adeo/mozaic-design-system/issues/1466)
+
+# [1.63.0](https://github.com/adeo/mozaic-design-system/compare/v1.62.0...v1.63.0) (2023-07-05)
+
+### Reverts
+
+- Revert "docs(components): remove unnecessary previews (#1427)" ([6fa72c4](https://github.com/adeo/mozaic-design-system/commit/6fa72c48c5fc6e4149181a6442053ec9790968b6)), closes [#1427](https://github.com/adeo/mozaic-design-system/issues/1427)
+
+# [1.62.0](https://github.com/adeo/mozaic-design-system/compare/v1.61.0...v1.62.0) (2023-06-09)
+
+### Bug Fixes
+
+- **component/modal:** manage long content by default ([#1436](https://github.com/adeo/mozaic-design-system/issues/1436)) ([4253001](https://github.com/adeo/mozaic-design-system/commit/42530012bb53dd81f69225407b93f8ef02a5fd7c))
+- label prevents clicking on the accordion ([#1448](https://github.com/adeo/mozaic-design-system/issues/1448)) ([ffd367f](https://github.com/adeo/mozaic-design-system/commit/ffd367f0e00d4699420efa85cfd9249a78eb6d0b))
+
+### Features
+
+- **component/progressbar:** implement the 'branded' variation as the default version ([#1437](https://github.com/adeo/mozaic-design-system/issues/1437)) ([8eabca7](https://github.com/adeo/mozaic-design-system/commit/8eabca7e225cb0c65e9763f3dd99b57452fe6c93))
+
+# [1.61.0](https://github.com/adeo/mozaic-design-system/compare/v1.60.0...v1.61.0) (2023-05-25)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
+# [1.60.0](https://github.com/adeo/mozaic-design-system/compare/v1.59.0...v1.60.0) (2023-05-16)
+
+### Bug Fixes
+
+- **component/qtyselector:** adjust the focus behaviour ([#1431](https://github.com/adeo/mozaic-design-system/issues/1431)) ([2139437](https://github.com/adeo/mozaic-design-system/commit/2139437e0d2b568ebeeb12ce7285403810a3cf9a))
+- **component/stars-input:** stringify "background-image" parameter to avoid ";" expectation SASS error ([#1419](https://github.com/adeo/mozaic-design-system/issues/1419)) ([a94b08c](https://github.com/adeo/mozaic-design-system/commit/a94b08cd936835779814a9e8c53b236d3d24f5c5))
+
+# [1.59.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.1...v1.59.0) (2023-04-27)
+
+### Features
+
+- **component/autocomplete-dropdown:** improve the display of the loader & the clear button ([#1421](https://github.com/adeo/mozaic-design-system/issues/1421)) ([68d9954](https://github.com/adeo/mozaic-design-system/commit/68d99540afb401d9c83e4a770847ac3f9bd7e790))
+
+## [1.58.1](https://github.com/adeo/mozaic-design-system/compare/v1.58.0...v1.58.1) (2023-04-20)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
+# [1.58.0](https://github.com/adeo/mozaic-design-system/compare/v1.58.0-beta.0...v1.58.0) (2023-04-14)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
+# [1.58.0-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.57.0...v1.58.0-beta.0) (2023-04-14)
+
+### Bug Fixes
+
+- **component/tag:** update of the value of the paddings ([#1415](https://github.com/adeo/mozaic-design-system/issues/1415)) ([e9d2891](https://github.com/adeo/mozaic-design-system/commit/e9d2891f9328dcfa0143297277e2ee139ade7378)), closes [#1412](https://github.com/adeo/mozaic-design-system/issues/1412)
+
+### Features
+
+- **component/datatable:** add the 'Empty DataTable' variation ([#1416](https://github.com/adeo/mozaic-design-system/issues/1416)) ([b5f7ffe](https://github.com/adeo/mozaic-design-system/commit/b5f7ffeb906907a1c9998c07f1ef29df9270f973)), closes [#1373](https://github.com/adeo/mozaic-design-system/issues/1373)
+
+# [1.56.0](https://github.com/adeo/mozaic-design-system/compare/v1.55.0...v1.56.0) (2023-03-22)
+
+### Bug Fixes
+
+- **button:** remove pointer-event from disable button ([#1406](https://github.com/adeo/mozaic-design-system/issues/1406)) ([0f4a39b](https://github.com/adeo/mozaic-design-system/commit/0f4a39bbc1006868845025587269c363b27efe28))
+- **component/tabs:** improve 'full tabs' behaviour ([#1403](https://github.com/adeo/mozaic-design-system/issues/1403)) ([5a37720](https://github.com/adeo/mozaic-design-system/commit/5a37720a8657369add607b27df6d28c4c03f6904)), closes [#1402](https://github.com/adeo/mozaic-design-system/issues/1402)
+
+### Features
+
+- **component/toggle:** improve toggle component for scoped modules ([#1404](https://github.com/adeo/mozaic-design-system/issues/1404)) ([c6d2958](https://github.com/adeo/mozaic-design-system/commit/c6d29587dcdbd6eda9f19a9375e810c4408de29a)), closes [#1401](https://github.com/adeo/mozaic-design-system/issues/1401)
+
+# [1.55.0](https://github.com/adeo/mozaic-design-system/compare/v1.54.0...v1.55.0) (2023-03-15)
+
+### Bug Fixes
+
+- **component/stepper:** remove default background of indicator element ([#1396](https://github.com/adeo/mozaic-design-system/issues/1396)) ([c7d0eab](https://github.com/adeo/mozaic-design-system/commit/c7d0eab226e9626ddd01203415b47087d3f6aeff))
+- **styles:** add background-size to ensure the display of icons ([#1394](https://github.com/adeo/mozaic-design-system/issues/1394)) ([746006d](https://github.com/adeo/mozaic-design-system/commit/746006da4b9da498a9b39d52aca32b7edcf53435))
+
+### Features
+
+- **component/autocomplete:** add styles for the error message ([#1397](https://github.com/adeo/mozaic-design-system/issues/1397)) ([03ce2cc](https://github.com/adeo/mozaic-design-system/commit/03ce2ccf1c46913c720aa540b4d517866bbba7ca))
+- **component/fileuploader:** report fix styles coming from Mozaic-Vue ([#1398](https://github.com/adeo/mozaic-design-system/issues/1398)) ([9b4f080](https://github.com/adeo/mozaic-design-system/commit/9b4f080fdbfaecbabbe855d65ce43a513c9d1fd4))
+- **tools/tokens:** add tokens for datatable component ([#1392](https://github.com/adeo/mozaic-design-system/issues/1392)) ([d8ce3d2](https://github.com/adeo/mozaic-design-system/commit/d8ce3d27c132ff5d43aaffc2a0d31e07caab1152))
+
 # [1.54.0](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v1.54.0) (2023-03-02)
 
 ### Bug Fixes
