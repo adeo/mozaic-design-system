@@ -46,6 +46,7 @@
         textarea,
         #{$parent}__focusable,
         [tabindex]:not([tabindex="-1"]) {
+          position: relative;
           z-index: 3;
         }
       }
