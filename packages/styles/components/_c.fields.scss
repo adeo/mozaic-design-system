@@ -47,7 +47,8 @@
     margin-top: $mu050;
   }
 
-  &__container {
+  &__container,
+  &__element {
     &--inline {
       @include set-from-screen("m-medium") {
         display: flex;
