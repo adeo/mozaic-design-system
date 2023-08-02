@@ -89,7 +89,7 @@
 
     &:hover {
       #{$parent}__text {
-        background-color: $color-tabs-element-background;
+        background-color: $color-tabs-hover-background;
       }
     }
 
@@ -107,6 +107,12 @@
 
     &--selected {
       color: $color-tabs-selected-text;
+
+      #{$parent}__element {
+        &:active {
+          color: $color-tabs-selected-text;
+        }
+      }
 
       &::after {
         background-color: $color-tabs-selected-border;

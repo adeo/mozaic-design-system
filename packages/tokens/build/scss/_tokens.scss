@@ -398,10 +398,10 @@ $color-tabs-background: #ffffff !default;
 $color-tabs-shadow: #000000 !default;
 $color-tabs-default: #666666 !default;
 $color-tabs-element-background: #eeeff1 !default;
-$color-tabs-hover: #035010 !default;
+$color-tabs-hover-background: #eeeff1 !default;
 $color-tabs-disabled-background: #cccccc !default;
 $color-tabs-active-background: #cfd2d8 !default;
-$color-tabs-active-text: #333333 !default;
+$color-tabs-active-text: #4d4d4d !default;
 $color-tabs-selected-border: #000000 !default;
 $color-tabs-selected-text: #000000 !default;
 $color-tabs-active-disabled: #c5e39e !default;
@@ -1299,7 +1299,9 @@ $tokens: (
       'element': (
         'background': $color-tabs-element-background
       ),
-      'hover': $color-tabs-hover,
+      'hover': (
+        'background': $color-tabs-hover-background
+      ),
       'disabled': (
         'background': $color-tabs-disabled-background
       ),
