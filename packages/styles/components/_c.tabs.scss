@@ -108,12 +108,6 @@
     &--selected {
       color: $color-tabs-selected-text;
 
-      #{$parent}__element {
-        &:active {
-          color: $color-tabs-selected-text;
-        }
-      }
-
       &::after {
         background-color: $color-tabs-selected-border;
       }
