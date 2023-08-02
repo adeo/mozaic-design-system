@@ -63,8 +63,13 @@
       color: $color-grey-000;
     }
 
-    &:hover,
-    &:active,
+    &:hover {
+      background-color: $color-menu-hover;
+    }
+    &:active {
+      background-color: $color-menu-hover;
+    }
+
     &.is-active {
       background-color: $color-primary-01-600;
       @include set-font-face("semi-bold");
