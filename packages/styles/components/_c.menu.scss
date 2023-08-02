@@ -55,8 +55,6 @@
     text-decoration: none;
     width: 100%;
 
-    &:hover,
-    &:active,
     &.is-active,
     &.is-disabled {
       background-image: url("#{inline-icons('arrow-right-16', $color-grey-000)}");
@@ -64,6 +62,7 @@
     }
 
     &:hover {
+      color: $color-grey-000;
       background-color: $color-menu-hover;
     }
     &:active {
