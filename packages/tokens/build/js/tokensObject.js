@@ -7053,6 +7053,65 @@ module.exports = {
         }
       }
     },
+    "menu": {
+      "is-active": {
+        "value": "#188803",
+        "filePath": "packages/tokens/properties/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorMenuIsActive",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "is-active"
+        },
+        "path": [
+          "color",
+          "menu",
+          "is-active"
+        ]
+      },
+      "hover": {
+        "value": "#eeeff1",
+        "filePath": "packages/tokens/properties/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorMenuHover",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "menu",
+          "hover"
+        ]
+      },
+      "active": {
+        "value": "#cfd2d8",
+        "filePath": "packages/tokens/properties/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.200.value}"
+        },
+        "name": "ColorMenuActive",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "menu",
+          "active"
+        ]
+      }
+    },
     "notification": {
       "font": {
         "value": "#000000",
