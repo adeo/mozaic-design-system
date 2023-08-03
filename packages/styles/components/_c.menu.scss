@@ -62,11 +62,10 @@
     }
 
     &:hover {
-      color: $color-grey-000;
       background-color: $color-menu-hover;
     }
     &:active {
-      background-color: $color-menu-hover;
+      background-color: $color-menu-active;
     }
 
     &.is-active {
