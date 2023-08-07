@@ -29,6 +29,11 @@
           position: absolute;
           left: 0;
         }
+        &.is-active {
+          &::after {
+            display: none;
+          }
+        }
       }
     }
   }
@@ -70,10 +75,11 @@
 
     &.is-active {
       background-color: $color-primary-01-600;
-      @include set-font-face("semi-bold");
 
-      &::after {
-        display: none;
+      #{$parent} {
+        &__label {
+          @include set-font-face("semi-bold");
+        }
       }
     }
 
