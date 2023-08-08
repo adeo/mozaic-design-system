@@ -334,6 +334,9 @@ $color-listbox-tile-border: #b3b3b3 !default;
 $color-listbox-tile-shadow: #191919 !default;
 $color-listbox-tile-hover-background: #e6e6e6 !default;
 $color-listbox-disabled-background: #cccccc !default;
+$color-menu-is-active: #188803 !default;
+$color-menu-hover: #eeeff1 !default;
+$color-menu-active: #cfd2d8 !default;
 $color-notification-font: #000000 !default;
 $color-notification-information-background: #daeff7 !default;
 $color-notification-information-border: #0b96cc !default;
@@ -1138,6 +1141,11 @@ $tokens: (
       'disabled': (
         'background': $color-listbox-disabled-background
       )
+    ),
+    'menu': (
+      'is-active': $color-menu-is-active,
+      'hover': $color-menu-hover,
+      'active': $color-menu-active
     ),
     'notification': (
       'font': $color-notification-font,

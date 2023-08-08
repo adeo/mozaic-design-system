@@ -1,0 +1,107 @@
+.mc-menu {
+  $parent: get-parent-selector(&);
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
+
+  max-width: 16rem;
+
+  &__list {
+    border-radius: $mu025; // 4px;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    position: relative;
+
+    &:not(:last-child) {
+      #{$parent}__link {
+        @include set-divider("bottom", "light", "100%", "s");
+
+        // TODO: Think about upgrading the @mixin set-divider() to allow this kind of evolution to be passed on.
+        &::after {
+          bottom: 0;
+          position: absolute;
+          left: 0;
+        }
+        &.is-active {
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  &__link {
+    @include set-font-weight("regular");
+
+    align-items: center;
+    background-color: $color-grey-000;
+    background-image: url("#{inline-icons('arrow-right-16', $color-grey-900)}");
+    background-position: center right $mu100;
+    background-repeat: no-repeat;
+    background-size: $mu100;
+    border: none;
+    cursor: pointer;
+    color: $color-grey-900;
+    display: flex;
+    gap: $mu050;
+    height: px-to-rem(56);
+    font-family: inherit;
+    padding-right: $mu300;
+    padding-left: $mu100;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+
+    &.is-active,
+    &.is-disabled {
+      background-image: url("#{inline-icons('arrow-right-16', $color-grey-000)}");
+      color: $color-grey-000;
+    }
+
+    &:hover {
+      background-color: $color-menu-hover;
+    }
+    &:active {
+      background-color: $color-menu-active;
+    }
+
+    &.is-active {
+      background-color: $color-primary-01-600;
+
+      #{$parent} {
+        &__label {
+          @include set-font-face("semi-bold");
+        }
+      }
+    }
+
+    &.is-disabled {
+      background-color: $color-grey-100;
+      cursor: not-allowed;
+    }
+  }
+
+  &__icon {
+    flex-shrink: 0;
+  }
+
+  &__label {
+    @include set-font-scale("05", "m");
+    @include set-font-face("regular");
+
+    display: -webkit-box;
+    max-height: px-to-rem(44);
+    overflow: hidden;
+    text-align: left;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
