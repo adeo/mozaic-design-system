@@ -35,19 +35,19 @@
       },
       "selected": {
         "border": {
-          "value": "{color.primary-01.700.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "text": {
-          "value": "{color.primary-01.700.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "active": {
           "text": {
-            "value": "{color.grey.700.value}"
+            "value": "{color.primary-01.700.value}"
           }
         },
         "hover": {
           "text": {
-            "value": "{color.grey.700.value}"
+            "value": "{color.primary-01.700.value}"
           }
         }
       },
