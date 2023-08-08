@@ -39,6 +39,16 @@
         },
         "text": {
           "value": "{color.grey.999.value}"
+        },
+        "active": {
+          "text": {
+            "value": "{color.grey.999.value}"
+          }
+        },
+        "hover": {
+          "text": {
+            "value": "{color.grey.999.value}"
+          }
         }
       },
       "active-disabled": {

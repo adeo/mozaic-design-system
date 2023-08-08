@@ -404,6 +404,8 @@
   <color name="color_tabs_active_text">#ff4d4d4d</color>
   <color name="color_tabs_selected_border">#ff000000</color>
   <color name="color_tabs_selected_text">#ff000000</color>
+  <color name="color_tabs_selected_active_text">#ff000000</color>
+  <color name="color_tabs_selected_hover_text">#ff000000</color>
   <color name="color_tabs_active_disabled">#ffc5e39e</color>
   <color name="color_tag_text_light_background">#ffffffff</color>
   <color name="color_tag_text_light_border">#ff808080</color>

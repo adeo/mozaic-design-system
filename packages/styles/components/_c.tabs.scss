@@ -111,6 +111,14 @@
       &::after {
         background-color: $color-tabs-selected-border;
       }
+
+      &:hover {
+        color: $color-tabs-selected-hover-text;
+      }
+
+      &:active {
+        color: $color-tabs-selected-active-text;
+      }
     }
 
     &--disabled {

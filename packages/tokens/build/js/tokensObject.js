@@ -8632,6 +8632,56 @@ module.exports = {
             "selected",
             "text"
           ]
+        },
+        "active": {
+          "text": {
+            "value": "#000000",
+            "filePath": "packages/tokens/properties/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTabsSelectedActiveText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "active",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "active",
+              "text"
+            ]
+          }
+        },
+        "hover": {
+          "text": {
+            "value": "#000000",
+            "filePath": "packages/tokens/properties/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTabsSelectedHoverText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "hover",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "hover",
+              "text"
+            ]
+          }
         }
       },
       "active-disabled": {
