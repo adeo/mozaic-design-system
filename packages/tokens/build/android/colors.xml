@@ -401,12 +401,14 @@
   <color name="color_tabs_shadow">#ff000000</color>
   <color name="color_tabs_default">#ff666666</color>
   <color name="color_tabs_element_background">#ffeeeff1</color>
-  <color name="color_tabs_hover">#ff035010</color>
+  <color name="color_tabs_hover_background">#ffeeeff1</color>
   <color name="color_tabs_disabled_background">#ffcccccc</color>
   <color name="color_tabs_active_background">#ffcfd2d8</color>
-  <color name="color_tabs_active_text">#ff333333</color>
+  <color name="color_tabs_active_text">#ff4d4d4d</color>
   <color name="color_tabs_selected_border">#ff000000</color>
   <color name="color_tabs_selected_text">#ff000000</color>
+  <color name="color_tabs_selected_active_text">#ff000000</color>
+  <color name="color_tabs_selected_hover_text">#ff000000</color>
   <color name="color_tabs_active_disabled">#ffc5e39e</color>
   <color name="color_tag_text_light_background">#ffffffff</color>
   <color name="color_tag_text_light_border">#ff808080</color>
