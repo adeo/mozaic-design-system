@@ -11,13 +11,25 @@
   &__segment {
     background-color: $color-grey-000;
     border: none;
+    border-radius: get-border-radius("m");
     color: $color-grey-999;
     cursor: pointer;
     flex: 1 1 0;
     font-family: inherit;
     padding: px-to-rem(3);
     text-align: left;
-    @include set-focus-floating-base() {
+    position: relative;
+
+    &:not(:last-child) {
+      @include set-divider("right", "light", "16px", "s");
+
+      &.is-active {
+        &::after {
+          display: none;
+        }
+      }
+    }
+    @include set-focus-floating-base($before: true) {
       bottom: -(math.div($mu025, 2));
       top: -(math.div($mu025, 2));
     }
@@ -30,9 +42,11 @@
       }
     }
     &:focus {
-      @include set-focus-floating {
+      @include set-focus-floating($before: true) {
         box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
       }
+
+      z-index: 2;
     }
 
     &:active {
@@ -101,6 +115,17 @@
   // Size variation
   &--m {
     #{$parent} {
+      &__segment {
+        &:not(:last-child) {
+          @include set-divider("right", "light", "24px", "s");
+
+          &.is-active {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
       &__content {
         padding: px-to-rem(11) $mu150;
       }
