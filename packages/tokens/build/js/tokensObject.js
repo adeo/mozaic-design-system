@@ -7921,6 +7921,65 @@ module.exports = {
         }
       }
     },
+    "segmented-control": {
+      "is-active": {
+        "value": "#188803",
+        "filePath": "packages/tokens/properties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorSegmentedControlIsActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "is-active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "is-active"
+        ]
+      },
+      "hover": {
+        "value": "#eeeff1",
+        "filePath": "packages/tokens/properties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorSegmentedControlHover",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "hover"
+        ]
+      },
+      "active": {
+        "value": "#cfd2d8",
+        "filePath": "packages/tokens/properties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.200.value}"
+        },
+        "name": "ColorSegmentedControlActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "active"
+        ]
+      }
+    },
     "sidebar": {
       "background": {
         "value": "#eeeff1",
@@ -8522,7 +8581,7 @@ module.exports = {
         "filePath": "packages/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.font.light.value}"
+          "value": "{color.grey.600.value}"
         },
         "name": "ColorTabsDefault",
         "attributes": {
@@ -8560,23 +8619,27 @@ module.exports = {
         }
       },
       "hover": {
-        "value": "#035010",
-        "filePath": "packages/tokens/properties/color/tabs.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.primary-01.800.value}"
-        },
-        "name": "ColorTabsHover",
-        "attributes": {
-          "category": "color",
-          "type": "tabs",
-          "item": "hover"
-        },
-        "path": [
-          "color",
-          "tabs",
-          "hover"
-        ]
+        "background": {
+          "value": "#eeeff1",
+          "filePath": "packages/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.100.value}"
+          },
+          "name": "ColorTabsHoverBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "hover",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "hover",
+            "background"
+          ]
+        }
       },
       "disabled": {
         "background": {
@@ -8624,11 +8687,11 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#333333",
+          "value": "#4d4d4d",
           "filePath": "packages/tokens/properties/color/tabs.json",
           "isSource": true,
           "original": {
-            "value": "{color.font.dark.value}"
+            "value": "{color.grey.700.value}"
           },
           "name": "ColorTabsActiveText",
           "attributes": {
@@ -8672,7 +8735,7 @@ module.exports = {
           "filePath": "packages/tokens/properties/color/tabs.json",
           "isSource": true,
           "original": {
-            "value": "{color.font.darkest.value}"
+            "value": "{color.grey.999.value}"
           },
           "name": "ColorTabsSelectedText",
           "attributes": {
@@ -8687,6 +8750,56 @@ module.exports = {
             "selected",
             "text"
           ]
+        },
+        "active": {
+          "text": {
+            "value": "#000000",
+            "filePath": "packages/tokens/properties/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTabsSelectedActiveText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "active",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "active",
+              "text"
+            ]
+          }
+        },
+        "hover": {
+          "text": {
+            "value": "#000000",
+            "filePath": "packages/tokens/properties/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTabsSelectedHoverText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "hover",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "hover",
+              "text"
+            ]
+          }
         }
       },
       "active-disabled": {

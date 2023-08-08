@@ -372,6 +372,9 @@
   <color name="color_progress_indicator">#ff188803</color>
   <color name="color_progress_percentage_default">#ff191919</color>
   <color name="color_progress_percentage_half">#ffffffff</color>
+  <color name="color_segmented_control_is_active">#ff188803</color>
+  <color name="color_segmented_control_hover">#ffeeeff1</color>
+  <color name="color_segmented_control_active">#ffcfd2d8</color>
   <color name="color_sidebar_background">#ffeeeff1</color>
   <color name="color_sidebar_feature_background">#ffcfd2d8</color>
   <color name="color_sidebar_feature_hover_background">#ffb3b7c1</color>
@@ -401,12 +404,14 @@
   <color name="color_tabs_shadow">#ff000000</color>
   <color name="color_tabs_default">#ff666666</color>
   <color name="color_tabs_element_background">#ffeeeff1</color>
-  <color name="color_tabs_hover">#ff035010</color>
+  <color name="color_tabs_hover_background">#ffeeeff1</color>
   <color name="color_tabs_disabled_background">#ffcccccc</color>
   <color name="color_tabs_active_background">#ffcfd2d8</color>
-  <color name="color_tabs_active_text">#ff333333</color>
+  <color name="color_tabs_active_text">#ff4d4d4d</color>
   <color name="color_tabs_selected_border">#ff000000</color>
   <color name="color_tabs_selected_text">#ff000000</color>
+  <color name="color_tabs_selected_active_text">#ff000000</color>
+  <color name="color_tabs_selected_hover_text">#ff000000</color>
   <color name="color_tabs_active_disabled">#ffc5e39e</color>
   <color name="color_tag_text_light_background">#ffffffff</color>
   <color name="color_tag_text_light_border">#ff808080</color>

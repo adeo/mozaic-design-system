@@ -1,0 +1,15 @@
+{
+  "color": {
+    "segmented-control": {
+      "is-active": {
+        "value": "{color.primary-01.600.value}"
+      },
+      "hover": {
+        "value": "{color.primary-02.100.value}"
+      },
+      "active": {
+        "value": "{color.primary-02.200.value}"
+      }
+    }
+  }
+}
