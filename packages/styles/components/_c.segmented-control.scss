@@ -1,0 +1,139 @@
+@use "sass:math";
+.mc-segmented-control {
+  $parent: get-parent-selector(&);
+
+  display: flex;
+  background-color: $color-grey-000;
+  border-radius: get-border-radius("m");
+  border: 1px solid $color-grey-300;
+  width: px-to-rem(315);
+
+  &__segment {
+    background-color: $color-grey-000;
+    border: none;
+    border-radius: get-border-radius("m");
+    color: $color-grey-999;
+    cursor: pointer;
+    flex: 1 1 0;
+    font-family: inherit;
+    padding: px-to-rem(3);
+    text-align: left;
+    position: relative;
+
+    &:not(:last-child) {
+      @include set-divider("right", "light", "16px", "s");
+
+      &.is-active {
+        &::after {
+          display: none;
+        }
+      }
+    }
+    @include set-focus-floating-base($before: true) {
+      bottom: -(math.div($mu025, 2));
+      top: -(math.div($mu025, 2));
+    }
+
+    &:hover {
+      #{$parent} {
+        &__content {
+          background-color: $color-segmented-control-hover;
+        }
+      }
+    }
+    &:focus {
+      @include set-focus-floating($before: true) {
+        box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
+      }
+
+      z-index: 2;
+    }
+
+    &:active {
+      #{$parent} {
+        &__content {
+          background-color: $color-segmented-control-active;
+        }
+      }
+    }
+
+    &.is-active {
+      color: $color-grey-000;
+      #{$parent} {
+        &__content {
+          background-color: $color-segmented-control-is-active;
+        }
+
+        &__label {
+          @include set-font-face("semi-bold");
+        }
+
+        &__icon {
+          &::before {
+            width: $mu100;
+            height: $mu100;
+            background-image: url(
+              inline-icons(
+                "notification-available-16",
+                $color-grey-000
+              ));
+          }
+        }
+      }
+    }
+
+    &.is-disabled {
+      cursor: not-allowed;
+      background-color: $color-grey-200;
+    }
+  }
+
+  &__content {
+    align-items: center;
+    border-radius: get-border-radius("s");
+    display: inline-flex;
+    gap: $mu025;
+    justify-content: center;
+    padding: px-to-rem(3) $mu100;
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  &__icon {
+    display: flex;
+    flex-shrink: 0;
+    &::before {
+      content: "";
+    }
+  }
+
+  &__label {
+    @include set-font-scale("04", "m");
+    @include set-font-face("regular");
+  }
+
+  // Size variation
+  &--m {
+    #{$parent} {
+      &__segment {
+        &:not(:last-child) {
+          @include set-divider("right", "light", "24px", "s");
+
+          &.is-active {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+      &__content {
+        padding: px-to-rem(11) $mu150;
+      }
+    }
+  }
+
+  // Size variation
+  &--full {
+    width: 100%;
+  }
+}
