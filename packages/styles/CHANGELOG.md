@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.65.0](https://github.com/adeo/mozaic-design-system/compare/v1.64.0...v1.65.0) (2023-08-08)
+
+### Bug Fixes
+
+- **component/optioncard:** add position:relative on focusable elements ([#1477](https://github.com/adeo/mozaic-design-system/issues/1477)) ([432996f](https://github.com/adeo/mozaic-design-system/commit/432996f9b5553698bbf4e86a1457922231989c12))
+- **field:** add element class for inline ([#1478](https://github.com/adeo/mozaic-design-system/issues/1478)) ([3990967](https://github.com/adeo/mozaic-design-system/commit/39909679d0497b248e3dcfae38762e5d548a2d30))
+- **tokens:** new tabs a11y ([#1482](https://github.com/adeo/mozaic-design-system/issues/1482)) ([1e0cb85](https://github.com/adeo/mozaic-design-system/commit/1e0cb854dcf15f4377d9e0a3e23e42e550a28182))
+
+### Features
+
+- **menu:** add code ([#1483](https://github.com/adeo/mozaic-design-system/issues/1483)) ([336faf0](https://github.com/adeo/mozaic-design-system/commit/336faf06cccd218d3a27580ee81f2a7e789edfb3))
+- **segmented-control:** add code ([#1481](https://github.com/adeo/mozaic-design-system/issues/1481)) ([74ba040](https://github.com/adeo/mozaic-design-system/commit/74ba04077ad82d1ca04542210b825b955487882e))
+
 # [1.64.0](https://github.com/adeo/mozaic-design-system/compare/v1.63.0...v1.64.0) (2023-07-11)
 
 ### Features
