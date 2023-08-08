@@ -369,6 +369,9 @@ $color-progress-background: #cccccc !default;
 $color-progress-indicator: #188803 !default;
 $color-progress-percentage-default: #191919 !default;
 $color-progress-percentage-half: #ffffff !default;
+$color-segmented-control-is-active: #188803 !default;
+$color-segmented-control-hover: #eeeff1 !default;
+$color-segmented-control-active: #cfd2d8 !default;
 $color-sidebar-background: #eeeff1 !default;
 $color-sidebar-feature-background: #cfd2d8 !default;
 $color-sidebar-feature-hover-background: #b3b7c1 !default;
@@ -1232,6 +1235,11 @@ $tokens: (
         'default': $color-progress-percentage-default,
         'half': $color-progress-percentage-half
       )
+    ),
+    'segmented-control': (
+      'is-active': $color-segmented-control-is-active,
+      'hover': $color-segmented-control-hover,
+      'active': $color-segmented-control-active
     ),
     'sidebar': (
       'background': $color-sidebar-background,
