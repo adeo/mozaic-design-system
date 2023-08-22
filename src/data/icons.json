@@ -17,13 +17,6 @@
     {
       "cat": "Logotypes",
       "size": "24px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_24px.svg",
-      "iconName": "PaymentBonificoBancario"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_24px.svg",
       "iconName": "PaymentFintecture"
@@ -202,13 +195,6 @@
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_32px.svg",
       "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_32px.svg",
-      "iconName": "PaymentBonificoBancario"
     },
     {
       "cat": "Logotypes",
@@ -395,13 +381,6 @@
     {
       "cat": "Logotypes",
       "size": "48px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_48px.svg",
-      "iconName": "PaymentBonificoBancario"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_48px.svg",
       "iconName": "PaymentFintecture"
@@ -580,13 +559,6 @@
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_64px.svg",
       "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_BonificoBancario",
-      "fileName": "Logotypes_Payment_BonificoBancario_64px.svg",
-      "iconName": "PaymentBonificoBancario"
     },
     {
       "cat": "Logotypes",
@@ -2025,6 +1997,14 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Bill-zloty",
+      "fileName": "Payment_Bill-zloty_24px.svg",
+      "iconName": "Billzloty",
+      "componentName": "Billzloty24"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "Cards_Monochrome_AmericanExpress",
       "fileName": "Payment_Cards_Monochrome_AmericanExpress_24px.svg",
       "iconName": "CardsMonochromeAmericanExpress",
@@ -2161,6 +2141,14 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Receipt-zloty",
+      "fileName": "Payment_Receipt-zloty_24px.svg",
+      "iconName": "Receiptzloty",
+      "componentName": "Receiptzloty24"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "SafePayment1",
       "fileName": "Payment_SafePayment1_24px.svg",
       "iconName": "SafePayment1",
@@ -2173,6 +2161,14 @@
       "fileName": "Payment_SafePayment2_24px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment224"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
+      "name": "Zloty",
+      "fileName": "Payment_Zloty_24px.svg",
+      "iconName": "Zloty",
+      "componentName": "Zloty24"
     },
     {
       "cat": "Product",
@@ -2381,6 +2377,14 @@
       "fileName": "Project_MakeProject_24px.svg",
       "iconName": "MakeProject",
       "componentName": "MakeProject24"
+    },
+    {
+      "cat": "Promise",
+      "size": "24px",
+      "name": "Funding-zloty",
+      "fileName": "Promise_Funding-zloty_24px.svg",
+      "iconName": "Fundingzloty",
+      "componentName": "Fundingzloty24"
     },
     {
       "cat": "Service",
@@ -3049,6 +3053,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Renewable-energy",
+      "fileName": "Universe_Renewable-energy_24px.svg",
+      "iconName": "Renewableenergy",
+      "componentName": "Renewableenergy24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Security",
       "fileName": "Universe_Security_24px.svg",
       "iconName": "Security",
@@ -3085,6 +3097,30 @@
       "fileName": "Universe_Wallpaper_24px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Wood",
+      "fileName": "Universe_Wood_24px.svg",
+      "iconName": "Wood",
+      "componentName": "Wood24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Wood-flooring",
+      "fileName": "Universe_Wood-flooring_24px.svg",
+      "iconName": "Woodflooring",
+      "componentName": "Woodflooring24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Wood-flooring-alt",
+      "fileName": "Universe_Wood-flooring-alt_24px.svg",
+      "iconName": "Woodflooringalt",
+      "componentName": "Woodflooringalt24"
     },
     {
       "cat": "Universe",
@@ -3149,6 +3185,14 @@
       "fileName": "User_Card_Funding_24px.svg",
       "iconName": "CardFunding",
       "componentName": "CardFunding24"
+    },
+    {
+      "cat": "User",
+      "size": "24px",
+      "name": "Card_Funding-zloty",
+      "fileName": "User_Card_Funding-zloty_24px.svg",
+      "iconName": "CardFundingzloty",
+      "componentName": "CardFundingzloty24"
     },
     {
       "cat": "User",
@@ -4425,6 +4469,14 @@
     {
       "cat": "Payment",
       "size": "32px",
+      "name": "Bill-zloty",
+      "fileName": "Payment_Bill-zloty_32px.svg",
+      "iconName": "Billzloty",
+      "componentName": "Billzloty32"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
       "name": "Cards_Monochrome_AmericanExpress",
       "fileName": "Payment_Cards_Monochrome_AmericanExpress_32px.svg",
       "iconName": "CardsMonochromeAmericanExpress",
@@ -4561,6 +4613,14 @@
     {
       "cat": "Payment",
       "size": "32px",
+      "name": "Receipt-zloty",
+      "fileName": "Payment_Receipt-zloty_32px.svg",
+      "iconName": "Receiptzloty",
+      "componentName": "Receiptzloty32"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
       "name": "SafePayment1",
       "fileName": "Payment_SafePayment1_32px.svg",
       "iconName": "SafePayment1",
@@ -4573,6 +4633,14 @@
       "fileName": "Payment_SafePayment2_32px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment232"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Zloty",
+      "fileName": "Payment_Zloty_32px.svg",
+      "iconName": "Zloty",
+      "componentName": "Zloty32"
     },
     {
       "cat": "Product",
@@ -4781,6 +4849,14 @@
       "fileName": "Project_MakeProject_32px.svg",
       "iconName": "MakeProject",
       "componentName": "MakeProject32"
+    },
+    {
+      "cat": "Promise",
+      "size": "32px",
+      "name": "Funding-zloty",
+      "fileName": "Promise_Funding-zloty_32px.svg",
+      "iconName": "Fundingzloty",
+      "componentName": "Fundingzloty32"
     },
     {
       "cat": "Service",
@@ -5449,6 +5525,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Renewable-energy",
+      "fileName": "Universe_Renewable-energy_32px.svg",
+      "iconName": "Renewableenergy",
+      "componentName": "Renewableenergy32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Security",
       "fileName": "Universe_Security_32px.svg",
       "iconName": "Security",
@@ -5485,6 +5569,30 @@
       "fileName": "Universe_Wallpaper_32px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Wood",
+      "fileName": "Universe_Wood_32px.svg",
+      "iconName": "Wood",
+      "componentName": "Wood32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Wood-flooring",
+      "fileName": "Universe_Wood-flooring_32px.svg",
+      "iconName": "Woodflooring",
+      "componentName": "Woodflooring32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Wood-flooring-alt",
+      "fileName": "Universe_Wood-flooring-alt_32px.svg",
+      "iconName": "Woodflooringalt",
+      "componentName": "Woodflooringalt32"
     },
     {
       "cat": "Universe",
@@ -5549,6 +5657,14 @@
       "fileName": "User_Card_Funding_32px.svg",
       "iconName": "CardFunding",
       "componentName": "CardFunding32"
+    },
+    {
+      "cat": "User",
+      "size": "32px",
+      "name": "Card_Funding-zloty",
+      "fileName": "User_Card_Funding-zloty_32px.svg",
+      "iconName": "CardFundingzloty",
+      "componentName": "CardFundingzloty32"
     },
     {
       "cat": "User",
@@ -6825,6 +6941,14 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Bill-zloty",
+      "fileName": "Payment_Bill-zloty_48px.svg",
+      "iconName": "Billzloty",
+      "componentName": "Billzloty48"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Monochrome_AmericanExpress",
       "fileName": "Payment_Cards_Monochrome_AmericanExpress_48px.svg",
       "iconName": "CardsMonochromeAmericanExpress",
@@ -6961,6 +7085,14 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Receipt-zloty",
+      "fileName": "Payment_Receipt-zloty_48px.svg",
+      "iconName": "Receiptzloty",
+      "componentName": "Receiptzloty48"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "SafePayment1",
       "fileName": "Payment_SafePayment1_48px.svg",
       "iconName": "SafePayment1",
@@ -6973,6 +7105,14 @@
       "fileName": "Payment_SafePayment2_48px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment248"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
+      "name": "Zloty",
+      "fileName": "Payment_Zloty_48px.svg",
+      "iconName": "Zloty",
+      "componentName": "Zloty48"
     },
     {
       "cat": "Product",
@@ -7181,6 +7321,14 @@
       "fileName": "Project_MakeProject_48px.svg",
       "iconName": "MakeProject",
       "componentName": "MakeProject48"
+    },
+    {
+      "cat": "Promise",
+      "size": "48px",
+      "name": "Funding-zloty",
+      "fileName": "Promise_Funding-zloty_48px.svg",
+      "iconName": "Fundingzloty",
+      "componentName": "Fundingzloty48"
     },
     {
       "cat": "Service",
@@ -7849,6 +7997,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Renewable-energy",
+      "fileName": "Universe_Renewable-energy_48px.svg",
+      "iconName": "Renewableenergy",
+      "componentName": "Renewableenergy48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Security",
       "fileName": "Universe_Security_48px.svg",
       "iconName": "Security",
@@ -7885,6 +8041,30 @@
       "fileName": "Universe_Wallpaper_48px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Wood",
+      "fileName": "Universe_Wood_48px.svg",
+      "iconName": "Wood",
+      "componentName": "Wood48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Wood-flooring",
+      "fileName": "Universe_Wood-flooring_48px.svg",
+      "iconName": "Woodflooring",
+      "componentName": "Woodflooring48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Wood-flooring-alt",
+      "fileName": "Universe_Wood-flooring-alt_48px.svg",
+      "iconName": "Woodflooringalt",
+      "componentName": "Woodflooringalt48"
     },
     {
       "cat": "Universe",
@@ -7949,6 +8129,14 @@
       "fileName": "User_Card_Funding_48px.svg",
       "iconName": "CardFunding",
       "componentName": "CardFunding48"
+    },
+    {
+      "cat": "User",
+      "size": "48px",
+      "name": "Card_Funding-zloty",
+      "fileName": "User_Card_Funding-zloty_48px.svg",
+      "iconName": "CardFundingzloty",
+      "componentName": "CardFundingzloty48"
     },
     {
       "cat": "User",
@@ -9225,6 +9413,14 @@
     {
       "cat": "Payment",
       "size": "64px",
+      "name": "Bill-zloty",
+      "fileName": "Payment_Bill-zloty_64px.svg",
+      "iconName": "Billzloty",
+      "componentName": "Billzloty64"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
       "name": "Cards_Monochrome_AmericanExpress",
       "fileName": "Payment_Cards_Monochrome_AmericanExpress_64px.svg",
       "iconName": "CardsMonochromeAmericanExpress",
@@ -9361,6 +9557,14 @@
     {
       "cat": "Payment",
       "size": "64px",
+      "name": "Receipt-zloty",
+      "fileName": "Payment_Receipt-zloty_64px.svg",
+      "iconName": "Receiptzloty",
+      "componentName": "Receiptzloty64"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
       "name": "SafePayment1",
       "fileName": "Payment_SafePayment1_64px.svg",
       "iconName": "SafePayment1",
@@ -9373,6 +9577,14 @@
       "fileName": "Payment_SafePayment2_64px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment264"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Zloty",
+      "fileName": "Payment_Zloty_64px.svg",
+      "iconName": "Zloty",
+      "componentName": "Zloty64"
     },
     {
       "cat": "Product",
@@ -9581,6 +9793,14 @@
       "fileName": "Project_MakeProject_64px.svg",
       "iconName": "MakeProject",
       "componentName": "MakeProject64"
+    },
+    {
+      "cat": "Promise",
+      "size": "64px",
+      "name": "Funding-zloty",
+      "fileName": "Promise_Funding-zloty_64px.svg",
+      "iconName": "Fundingzloty",
+      "componentName": "Fundingzloty64"
     },
     {
       "cat": "Service",
@@ -10249,6 +10469,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Renewable-energy",
+      "fileName": "Universe_Renewable-energy_64px.svg",
+      "iconName": "Renewableenergy",
+      "componentName": "Renewableenergy64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Security",
       "fileName": "Universe_Security_64px.svg",
       "iconName": "Security",
@@ -10285,6 +10513,30 @@
       "fileName": "Universe_Wallpaper_64px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Wood",
+      "fileName": "Universe_Wood_64px.svg",
+      "iconName": "Wood",
+      "componentName": "Wood64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Wood-flooring",
+      "fileName": "Universe_Wood-flooring_64px.svg",
+      "iconName": "Woodflooring",
+      "componentName": "Woodflooring64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Wood-flooring-alt",
+      "fileName": "Universe_Wood-flooring-alt_64px.svg",
+      "iconName": "Woodflooringalt",
+      "componentName": "Woodflooringalt64"
     },
     {
       "cat": "Universe",
@@ -10349,6 +10601,14 @@
       "fileName": "User_Card_Funding_64px.svg",
       "iconName": "CardFunding",
       "componentName": "CardFunding64"
+    },
+    {
+      "cat": "User",
+      "size": "64px",
+      "name": "Card_Funding-zloty",
+      "fileName": "User_Card_Funding-zloty_64px.svg",
+      "iconName": "CardFundingzloty",
+      "componentName": "CardFundingzloty64"
     },
     {
       "cat": "User",
