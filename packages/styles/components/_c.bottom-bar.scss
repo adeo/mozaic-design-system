@@ -1,0 +1,16 @@
+.mc-bottom-bar {
+  @include set-box-shadow('s');
+
+  align-items: center;
+  background-color: $color-grey-000;
+  display: flex;
+  height: $mu400; // 64px
+
+  &--fixed {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+  }
+}

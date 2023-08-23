@@ -1,0 +1,21 @@
+.mc-action-bar {
+  gap: $mu100;
+  justify-content: flex-end;
+
+  &__status {
+    @include set-font-scale('05', 'm');
+
+    align-items: center;
+    display: flex;
+    gap: $mu025;
+  }
+
+  &__icon {
+    &.is-warning {
+      fill: $color-warning-600;
+    }
+    &.is-success {
+      fill: $color-success-600;
+    }
+  }
+}
