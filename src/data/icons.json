@@ -183,6 +183,13 @@
       "iconName": "ColorsStoreLocation"
     },
     {
+      "cat": "Store",
+      "size": "24px",
+      "name": "Colors_StoreLocation-bm",
+      "fileName": "Store_Colors_StoreLocation-bm_24px.svg",
+      "iconName": "ColorsStoreLocationbm"
+    },
+    {
       "cat": "Logotypes",
       "size": "32px",
       "name": "Brand_LM",
@@ -363,6 +370,13 @@
       "name": "Colors_StoreLocation",
       "fileName": "Store_Colors_StoreLocation_32px.svg",
       "iconName": "ColorsStoreLocation"
+    },
+    {
+      "cat": "Store",
+      "size": "32px",
+      "name": "Colors_StoreLocation-bm",
+      "fileName": "Store_Colors_StoreLocation-bm_32px.svg",
+      "iconName": "ColorsStoreLocationbm"
     },
     {
       "cat": "Logotypes",
@@ -547,6 +561,13 @@
       "iconName": "ColorsStoreLocation"
     },
     {
+      "cat": "Store",
+      "size": "48px",
+      "name": "Colors_StoreLocation-bm",
+      "fileName": "Store_Colors_StoreLocation-bm_48px.svg",
+      "iconName": "ColorsStoreLocationbm"
+    },
+    {
       "cat": "Logotypes",
       "size": "64px",
       "name": "Brand_LM",
@@ -727,6 +748,13 @@
       "name": "Colors_StoreLocation",
       "fileName": "Store_Colors_StoreLocation_64px.svg",
       "iconName": "ColorsStoreLocation"
+    },
+    {
+      "cat": "Store",
+      "size": "64px",
+      "name": "Colors_StoreLocation-bm",
+      "fileName": "Store_Colors_StoreLocation-bm_64px.svg",
+      "iconName": "ColorsStoreLocationbm"
     }
   ],
   "monochrom": [
@@ -2777,6 +2805,14 @@
       "fileName": "Store_Monochrome_StoreLocation_24px.svg",
       "iconName": "MonochromeStoreLocation",
       "componentName": "MonochromeStoreLocation24"
+    },
+    {
+      "cat": "Store",
+      "size": "24px",
+      "name": "Monochrome_StoreLocation-bm",
+      "fileName": "Store_Monochrome_StoreLocation-bm_24px.svg",
+      "iconName": "MonochromeStoreLocationbm",
+      "componentName": "MonochromeStoreLocationbm24"
     },
     {
       "cat": "Store",
@@ -5253,6 +5289,14 @@
     {
       "cat": "Store",
       "size": "32px",
+      "name": "Monochrome_StoreLocation-bm",
+      "fileName": "Store_Monochrome_StoreLocation-bm_32px.svg",
+      "iconName": "MonochromeStoreLocationbm",
+      "componentName": "MonochromeStoreLocationbm32"
+    },
+    {
+      "cat": "Store",
+      "size": "32px",
       "name": "StoreBM",
       "fileName": "Store_StoreBM_32px.svg",
       "iconName": "StoreBM",
@@ -7725,6 +7769,14 @@
     {
       "cat": "Store",
       "size": "48px",
+      "name": "Monochrome_StoreLocation-bm",
+      "fileName": "Store_Monochrome_StoreLocation-bm_48px.svg",
+      "iconName": "MonochromeStoreLocationbm",
+      "componentName": "MonochromeStoreLocationbm48"
+    },
+    {
+      "cat": "Store",
+      "size": "48px",
       "name": "StoreBM",
       "fileName": "Store_StoreBM_48px.svg",
       "iconName": "StoreBM",
@@ -10193,6 +10245,14 @@
       "fileName": "Store_Monochrome_StoreLocation_64px.svg",
       "iconName": "MonochromeStoreLocation",
       "componentName": "MonochromeStoreLocation64"
+    },
+    {
+      "cat": "Store",
+      "size": "64px",
+      "name": "Monochrome_StoreLocation-bm",
+      "fileName": "Store_Monochrome_StoreLocation-bm_64px.svg",
+      "iconName": "MonochromeStoreLocationbm",
+      "componentName": "MonochromeStoreLocationbm64"
     },
     {
       "cat": "Store",
