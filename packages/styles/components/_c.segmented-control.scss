@@ -90,6 +90,7 @@
 
   &__content {
     align-items: center;
+    box-sizing: border-box;
     border-radius: get-border-radius("s");
     display: inline-flex;
     gap: $mu025;
