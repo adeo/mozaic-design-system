@@ -1,0 +1,11 @@
+.mc-stepper-bar {
+  $parent: get-parent-selector(&);
+
+  justify-content: space-between;
+
+  &__actions {
+    align-items: center;
+    display: flex;
+    gap: $mu100;
+  }
+}

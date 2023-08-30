@@ -9,6 +9,7 @@
   width: px-to-rem(315);
 
   &__segment {
+    display: flex;
     background-color: $color-grey-000;
     border: none;
     border-radius: get-border-radius("m");
@@ -90,6 +91,7 @@
 
   &__content {
     align-items: center;
+    box-sizing: border-box;
     border-radius: get-border-radius("s");
     display: inline-flex;
     gap: $mu025;
@@ -135,5 +137,11 @@
   // Size variation
   &--full {
     width: 100%;
+  }
+
+  &--nowrap {
+    &__label {
+      white-space: nowrap;
+    }
   }
 }
