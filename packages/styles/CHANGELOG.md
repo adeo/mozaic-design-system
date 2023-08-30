@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.66.0](https://github.com/adeo/mozaic-design-system/compare/v1.65.0...v1.66.0) (2023-08-30)
+
+### Bug Fixes
+
+- **segmented:** add box-sizing ([#1486](https://github.com/adeo/mozaic-design-system/issues/1486)) ([c4f2a98](https://github.com/adeo/mozaic-design-system/commit/c4f2a98e58ad63b01f462f9f12cda336909834cc))
+
+### Features
+
+- **bottom-bar:** add code component ([#1490](https://github.com/adeo/mozaic-design-system/issues/1490)) ([99be6ba](https://github.com/adeo/mozaic-design-system/commit/99be6baffb7c6885a41ed37854c15df71594a0d4))
+- **segmented:** add no-wrap modifier ([#1491](https://github.com/adeo/mozaic-design-system/issues/1491)) ([cea6bf2](https://github.com/adeo/mozaic-design-system/commit/cea6bf24874b80575d68b9dc466874e311ad4603))
+
 # [1.65.0](https://github.com/adeo/mozaic-design-system/compare/v1.64.0...v1.65.0) (2023-08-08)
 
 ### Bug Fixes
