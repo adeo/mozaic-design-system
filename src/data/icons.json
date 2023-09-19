@@ -2383,6 +2383,14 @@
       "componentName": "PromiseWarranty24"
     },
     {
+      "cat": "Product",
+      "size": "24px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_24px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley24"
+    },
+    {
       "cat": "Project",
       "size": "24px",
       "name": "DescribeProject",
@@ -4861,6 +4869,14 @@
       "fileName": "Product_Promise_Warranty_32px.svg",
       "iconName": "PromiseWarranty",
       "componentName": "PromiseWarranty32"
+    },
+    {
+      "cat": "Product",
+      "size": "32px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_32px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley32"
     },
     {
       "cat": "Project",
@@ -7343,6 +7359,14 @@
       "componentName": "PromiseWarranty48"
     },
     {
+      "cat": "Product",
+      "size": "48px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_48px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley48"
+    },
+    {
       "cat": "Project",
       "size": "48px",
       "name": "DescribeProject",
@@ -9821,6 +9845,14 @@
       "fileName": "Product_Promise_Warranty_64px.svg",
       "iconName": "PromiseWarranty",
       "componentName": "PromiseWarranty64"
+    },
+    {
+      "cat": "Product",
+      "size": "64px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_64px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley64"
     },
     {
       "cat": "Project",
