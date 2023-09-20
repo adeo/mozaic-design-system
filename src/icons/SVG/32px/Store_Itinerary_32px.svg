@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1{fill:none;}.cls-2{fill:#999;}</style></defs><title>Store_Itinerary_32px</title><g id="Square"><rect class="cls-1" width="32" height="32"/></g><g id="Icon"><path class="cls-2" d="M28.71,11.29l-4-4a1,1,0,1,0-1.42,1.42L25.59,11H7a2,2,0,0,0-2,2V24a1,1,0,0,0,2,0V13H25.59l-2.3,2.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l4-4A1,1,0,0,0,28.71,11.29Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+      <g id="Square"> </g>
+  <path fill-rule="evenodd" d="M5 16C5 9.925 9.925 5 16 5s11 4.925 11 11-4.925 11-11 11S5 22.075 5 16ZM16 3C8.82 3 3 8.82 3 16s5.82 13 13 13 13-5.82 13-13S23.18 3 16 3Zm3.374 6.96a1 1 0 1 0-1.414 1.414l2.293 2.293h-9.586a1 1 0 0 0-1 1v6a1 1 0 0 0 2 0v-5h8.586L17.96 17.96a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414l-4-4Z"/>
+</svg>
