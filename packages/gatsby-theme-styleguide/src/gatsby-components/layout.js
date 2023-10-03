@@ -16,6 +16,7 @@ import InlineCode from '../gatsby-components/InlineCode'
 import Highlight from '../gatsby-components/Highlight'
 import SubContents from '../gatsby-components/SubContents'
 import DesignerKitLink from '../gatsby-components/DesignerKitLink'
+import Story from '../gatsby-components/Story'
 
 const shortcodes = {
   Color,
@@ -27,6 +28,7 @@ const shortcodes = {
   Highlight,
   pre: ({ children }) => <Code>{children}</Code>,
   inlineCode: InlineCode,
+  Story,
 }
 
 const Global = styled.div`

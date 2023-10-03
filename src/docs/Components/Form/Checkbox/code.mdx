@@ -25,7 +25,12 @@ To use the checkbox pattern you have 3 main css classes to apply:
 
 ```html
 <div class="mc-checkbox">
-  <input id="checkbox-01" type="checkbox" class="mc-checkbox__input" name="example" />
+  <input
+    id="checkbox-01"
+    type="checkbox"
+    class="mc-checkbox__input"
+    name="example"
+  />
   <label for="checkbox-01" class="mc-checkbox__label"> Label </label>
 </div>
 ```
@@ -39,8 +44,8 @@ To use the checkbox pattern you have 3 main css classes to apply:
 
 <Highlight theme="warning" title="About the indeterminate state">
 
-  Note that you can't make an indeterminate checkbox through HTML.
-  There is no indeterminate HTML attribute. You can change this property with Javascript only.
+Note that you can't make an indeterminate checkbox through HTML.
+There is no indeterminate HTML attribute. You can change this property with Javascript only.
 
 </Highlight>
 
@@ -72,33 +77,59 @@ To use the checkbox pattern in a group of elements in your form, you must use th
 ```html
 <div class="example">
   <fieldset class="mc-field mc-field--group">
-    <legend class="mc-field__legend">
-      Legend
-    </legend>
+    <legend class="mc-field__legend">Legend</legend>
 
     <div class="mc-field__container">
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-01" type="checkbox" class="mc-checkbox__input" name="example1" />
-        <label for="checkbox-01" class="mc-checkbox__label"> Checkbox Label </label>
+        <input
+          id="checkbox-01"
+          type="checkbox"
+          class="mc-checkbox__input"
+          name="example1"
+        />
+        <label for="checkbox-01" class="mc-checkbox__label">
+          Checkbox Label
+        </label>
       </div>
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-02" type="checkbox" class="mc-checkbox__input" name="example2" />
-        <label for="checkbox-02" class="mc-checkbox__label"> Checkbox Label </label>
+        <input
+          id="checkbox-02"
+          type="checkbox"
+          class="mc-checkbox__input"
+          name="example2"
+        />
+        <label for="checkbox-02" class="mc-checkbox__label">
+          Checkbox Label
+        </label>
       </div>
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-03" type="checkbox" class="mc-checkbox__input" name="example3" />
-        <label for="checkbox-03" class="mc-checkbox__label"> Checkbox Label </label>
+        <input
+          id="checkbox-03"
+          type="checkbox"
+          class="mc-checkbox__input"
+          name="example3"
+        />
+        <label for="checkbox-03" class="mc-checkbox__label">
+          Checkbox Label
+        </label>
       </div>
       <div class="mc-field__item mc-checkbox">
-        <input id="checkbox-04" type="checkbox" class="mc-checkbox__input" name="example4" />
-        <label for="checkbox-04" class="mc-checkbox__label"> Checkbox Label </label>
+        <input
+          id="checkbox-04"
+          type="checkbox"
+          class="mc-checkbox__input"
+          name="example4"
+        />
+        <label for="checkbox-04" class="mc-checkbox__label">
+          Checkbox Label
+        </label>
       </div>
     </div>
   </fieldset>
 </div>
 ```
 
-<Preview path="group-help-text" nude />
+<Story id="form-checkbox-group--default" />
 
 ### Variations
 
@@ -112,6 +143,8 @@ If you wish, you can arrange the elements horizontally. To do so:
 
 > Note that the elements become horizontally aligned from the `m-medium` breakpoint _(768px)_. Below this resolution, the elements are arranged vertically.
 
+<Story id="form-checkbox-group--variation-horizontal" />
+
 ### Behaviors
 
 #### Help text
@@ -121,15 +154,9 @@ You have the possibility to define a help text when using checkboxes in a group.
 For this you have to add a span with the `mc-field__help` class below the legend.
 
 ```html
-<legend class="mc-field__legend">
-  Label
-</legend>
-<span id="helptext" class="mc-field__help">
-  Help text
-</span>
+<legend class="mc-field__legend">Label</legend>
+<span id="helptext" class="mc-field__help"> Help text </span>
 ```
-
-<Preview path="group-help-text" />
 
 #### Requirement
 
@@ -140,19 +167,15 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 ```html
 <legend class="mc-field__legend">
   Legend
-  <span class="mc-field__requirement">
-    mandatory
-  </span>
+  <span class="mc-field__requirement"> mandatory </span>
 </legend>
 ```
 
 <Highlight theme="tips" title="Semantic rule">
 
-  When one or more elements of the group are mandatory the `required` attribute must be added on the concerned checkbox element
+When one or more elements of the group are mandatory the `required` attribute must be added on the concerned checkbox element
 
 </Highlight>
-
-<Preview path="group-requirement" />
 
 ### Validation
 
@@ -165,10 +188,11 @@ To indicate that one or more elements of the group are not valid, several steps 
 
 <Highlight theme="tips" title="Accessibility rules">
 
-  If you use an error message you must comply with the following accessibility rules:
-  - the span `mc-field__error-message` must always have an `id`
-  - the `aria-describedby` attribute must be added on each concerned checkboxes elements and must refer to the id of the error message
+If you use an error message you must comply with the following accessibility rules:
+
+- the span `mc-field__error-message` must always have an `id`
+- the `aria-describedby` attribute must be added on each concerned checkboxes elements and must refer to the id of the error message
 
 </Highlight>
 
-<Preview path="group-invalid" />
+<Story id="form-checkbox-group--state-invalid" />

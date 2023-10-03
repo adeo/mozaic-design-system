@@ -23,7 +23,7 @@ Wrap a input[type="file"] and a label inside a div and apply the following class
 
 ```html
 <div class="mc-fileuploader">
-  <input type="file" class="mc-fileuploader__input" id="import-file-id1">
+  <input type="file" class="mc-fileuploader__input" id="import-file-id1" />
   <label for="import-file-id1" class="mc-fileuploader__label">
     <span class="mc-fileuploader__label--center">
       Select a file to upload
@@ -32,17 +32,9 @@ Wrap a input[type="file"] and a label inside a div and apply the following class
 </div>
 ```
 
-<Preview path="default" />
+<Story id="form-fileuploader--default" />
 
 ### Behaviors
-
-#### Standard file uploader states :
-
-- `hover`
-- `focus`
-- `disabled`
-
-<Preview path="all-states" />
 
 #### Multiple files
 
@@ -107,16 +99,10 @@ When using the file uploader as part of a form, you must make sure to respect th
 
 ```html
 <div class="mc-field">
-  <label class="mc-field__label" for="default">
-    Label
-  </label>
+  <label class="mc-field__label" for="default"> Label </label>
 
   <div class="mc-field__element mc-fileuploader">
-    <input
-      type="file"
-      class="mc-fileuploader__input"
-      id="default"
-    />
+    <input type="file" class="mc-fileuploader__input" id="default" />
     <label for="default" class="mc-fileuploader__label">
       <span class="mc-fileuploader__label--center">
         Select a file to upload
@@ -126,7 +112,7 @@ When using the file uploader as part of a form, you must make sure to respect th
 </div>
 ```
 
-<Preview path="with-field" />
+<Story id="form-fileuploader--default" />
 
 ### Behaviors
 
@@ -137,15 +123,11 @@ You have the option of defining a help text for the user if necessary.
 For this you have to add a span with the `mc-field__help` class below the label.
 
 ```html
-<label class="mc-field__label">
-  Label
-</label>
-<span class="mc-field__help">
-  Help text
-</span>
+<label class="mc-field__label"> Label </label>
+<span class="mc-field__help"> Help text </span>
 ```
 
-<Preview path="help-text" />
+<Story id="form-fileuploader--with-help-text" />
 
 #### Requirement
 
@@ -156,19 +138,17 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 ```html
 <label class="mc-field__label">
   Label
-  <span class="mc-field__requirement">
-    mandatory
-  </span>
+  <span class="mc-field__requirement"> mandatory </span>
 </label>
 ```
 
 <Highlight theme="tips" title="Semantic rule">
 
-  When the file uploader is mandatory the `required` attribute must be added on the `mc-fileuploader__input` element
+When the file uploader is mandatory the `required` attribute must be added on the `mc-fileuploader__input` element
 
 </Highlight>
 
-<Preview path="requirement" />
+<Story id="form-fileuploader--with-requirement-text" />
 
 ### Validation
 
@@ -181,9 +161,10 @@ To indicate that your file uploader is not valid, several steps are to be implem
 
 <Highlight theme="tips" title="Accessibility rules">
 
-  If you use an error message you must comply with the following accessibility rules:
-  - the span `mc-field__error-message` must always have an `id`
-  - the `aria-describedby` attribute must be added on the `mc-fileuploader__input` element and must refer to the id of the error message
+If you use an error message you must comply with the following accessibility rules:
+
+- the span `mc-field__error-message` must always have an `id`
+- the `aria-describedby` attribute must be added on the `mc-fileuploader__input` element and must refer to the id of the error message
 
 </Highlight>
 

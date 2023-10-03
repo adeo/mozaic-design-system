@@ -38,9 +38,7 @@ To insert an input text on a form field is to apply the following elements:
 
 ```html
 <div class="mc-field">
-  <label class="mc-field__label" for="default">
-    Label
-  </label>
+  <label class="mc-field__label" for="default"> Label </label>
 
   <input
     type="text"
@@ -52,7 +50,7 @@ To insert an input text on a form field is to apply the following elements:
 </div>
 ```
 
-<Preview path="input-default" />
+<Story id="form-textinput--default" />
 
 ## Variations
 
@@ -63,7 +61,7 @@ You can use one of the 2 available sizes :
 - **Small** : `mc-text-input--s`
 - **Medium** : this is the default style so you don't need to add a modifier class
 
-<Preview path="input-sizes" />
+<Story id="form-textinput--small" />
 
 #### Responsive classes
 
@@ -73,22 +71,6 @@ You can use one of the 2 available sizes :
 | From breakpoint l   | `mc-text-input--s@from-l`   | `mc-text-input--m@from-l`   |
 | From breakpoint xl  | `mc-text-input--s@from-xl`  | `mc-text-input--m@from-xl`  |
 | From breakpoint xxl | `mc-text-input--s@from-xxl` | `mc-text-input--m@from-xxl` |
-
-## Behaviors
-
-### Standard input states
-
-- `:hover`
-- `:focus`
-- `:disabled`
-- `.is-valid`
-- `.is-invalid`
-
-<Preview path="input-state" nude />
-
-#### Small variations
-
-<Preview path="input-small-state" nude />
 
 ## Using a left icon
 
@@ -106,18 +88,16 @@ Wrap your input and use a 24px icon size :
 
 ```html
 <div class="mc-field">
-  <label class="mc-field__label" for="withIcon">
-    Label
-  </label>
+  <label class="mc-field__label" for="withIcon"> Label </label>
 
   <div class="mc-left-icon-input">
     <svg class="mc-left-icon-input__icon">
       <use xlink:href="#iconS" />
     </svg>
     <input
-      type="text" 
+      type="text"
       class="mc-text-input mc-left-icon-input__input mc-field__input"
-      id="withIcon" 
+      id="withIcon"
       placeholder="Input with an icon"
       name="withIcon"
     />
@@ -127,11 +107,7 @@ Wrap your input and use a 24px icon size :
 
 ### Standard input size with left icon
 
-<Preview path="left-icon-input" />
-
-#### Small variations
-
-<Preview path="input-small-left-icon" nude />
+<Story id="form-textinput--with-icon" />
 
 ## Form validation
 
@@ -146,4 +122,3 @@ The CSS specification provides two pseudo-classes `:valid` and `:invalid` that c
 On Mozaïc we made the decision not to use these pseudo-classes because of the bad user experience it produces when loading the form.
 
 </Highlight>
-

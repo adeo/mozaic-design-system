@@ -22,7 +22,7 @@ status:
 
 > A select is a selection tool used in forms, allowing user to choose between multiple predefined options.
 
-<Preview path="select-full" nude />
+<Story id="form-select--default" />
 
 ## Overview
 
@@ -40,7 +40,7 @@ Selects are a combination of the following mentions. Please note that you can us
 
 The label helps the user to understand what information is needed in the select.
 
-<Preview path="default" nude />
+<Story id="form-select--default" />
 
 ### Requirement
 
@@ -52,13 +52,9 @@ Please note that this mention can also be used to say a specific select is **opt
 
 </Highlight>
 
-<Preview path="requirement" nude />
-
 ### Help text
 
 Help text corresponds to a relevant piece of information to make sure the user understands what is needed.
-
-<Preview path="help-text" nude />
 
 ### Input only
 
@@ -73,7 +69,13 @@ There are two different elements for validation feedback:
 - The color of the input outline.
 - A text under the input explains what's wrong with the data entered.
 
-<Preview path="validation" nude />
+### State Valid
+
+<Story id="form-select--state-valid" />
+
+### State Invalid
+
+<Story id="form-select--state-invalid" />
 
 ## Sizes
 
@@ -85,7 +87,13 @@ Never use different select sizes together.
 
 </Highlight>
 
-<Preview path="sizes" nude />
+### Size small
+
+<Story id="form-select--variation-small" />
+
+### Size default
+
+<Story id="form-select--default" />
 
 ## Do's and Don'ts
 
@@ -103,7 +111,7 @@ Never use different select sizes together.
   type="do"
   title="Always use '--' before and after the first option used as a placeholder with spaces between the dashes and the text."
 >
-  <Preview path="default" nude />
+  <Story id="form-select--default" />
 </Hint>
 
 <HintItem dont>

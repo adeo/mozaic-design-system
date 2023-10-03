@@ -9,7 +9,6 @@ order: 2
 
 Import **the settings**, **the text area** and **the fields** scss files.
 
-
 ```scss
 @import 'settings-tools/all-settings';
 
@@ -26,14 +25,12 @@ To use the text area in your form, you must use the following 3 CSS classes:
 
 - `mc-field` on container
 - `mc-field__label` on label
-- and `mc-field__input` in addition of the `mc-textarea` class  on the standard `textarea` html tag:
+- and `mc-field__input` in addition of the `mc-textarea` class on the standard `textarea` html tag:
 
 ```html
 <div class="mc-field">
-  <label class="mc-field__label" for="foo">
-    Label
-  </label>
-  
+  <label class="mc-field__label" for="foo"> Label </label>
+
   <textarea
     class="mc-field__input mc-textarea"
     name="foo"
@@ -44,7 +41,7 @@ To use the text area in your form, you must use the following 3 CSS classes:
 </div>
 ```
 
-<Preview path="default" />
+<Story id="form-textarea--default" />
 
 ### Behaviors
 
@@ -55,23 +52,18 @@ You have the possibility to define a help text when using your text area.
 For this you have to add a span with the `mc-field__help` class below the label.
 
 ```html
-<label class="mc-field__label">
-  Label
-</label>
-<span id="helptext" class="mc-field__help">
-  Help text
-</span>
+<label class="mc-field__label"> Label </label>
+<span id="helptext" class="mc-field__help"> Help text </span>
 ```
 
 <Highlight theme="tips" title="Accessibility rules">
 
-  When using a help text you must comply with the following accessibility rules:
-  - the span `mc-field__help` must always have an `id`
-  - the `aria-describedby` attribute must be added on the text area element and must refer to the id of the help text
+When using a help text you must comply with the following accessibility rules:
+
+- the span `mc-field__help` must always have an `id`
+- the `aria-describedby` attribute must be added on the text area element and must refer to the id of the help text
 
 </Highlight>
-
-<Preview path="help-text" />
 
 #### Requirement
 
@@ -82,19 +74,15 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 ```html
 <label class="mc-field__label">
   Label
-  <span class="mc-field__requirement">
-    mandatory
-  </span>
+  <span class="mc-field__requirement"> mandatory </span>
 </label>
 ```
 
 <Highlight theme="tips" title="Semantic rule">
 
-  When the text area is mandatory the `required` attribute must be added on the text area element
+When the text area is mandatory the `required` attribute must be added on the text area element
 
 </Highlight>
-
-<Preview path="requirement" />
 
 ### States and Validation
 
@@ -102,7 +90,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 
 To indicate that a field is valid, the `is-valid` class must be added to the text area element.
 
-<Preview path="valid" />
+<Story id="form-textarea--state-valid" />
 
 #### Invalid
 
@@ -113,19 +101,20 @@ To indicate that a field is not valid several steps are to be implemented:
 
 <Highlight theme="tips" title="Accessibility rules">
 
-  If you use an error message you must comply with the following accessibility rules:
-  - the span `mc-field__error-message` must always have an `id`
-  - the `aria-describedby` attribute must be added on the text area element and must refer to the id of the error message
+If you use an error message you must comply with the following accessibility rules:
+
+- the span `mc-field__error-message` must always have an `id`
+- the `aria-describedby` attribute must be added on the text area element and must refer to the id of the error message
 
 </Highlight>
 
-<Preview path="invalid" />
+<Story id="form-textarea--state-invalid" />
 
 #### Disabled
 
 To indicate that text area is disabled, the `disabled` attribute must be added to the text area element.
 
-<Preview path="disabled" />
+<Story id="form-textarea--disabled" />
 
 ## Use outside a form
 
@@ -157,21 +146,14 @@ Apply the classes `mc-textarea` on a standard `textarea` html tag:
 
 ## Accessibility and semantic
 
+<HintItem>Always use text area html tag for multi-line text</HintItem>
+<HintItem>Use the rows attribute to set the text area height</HintItem>
+<HintItem>Use a minimum of 3 rows</HintItem>
 <HintItem>
-  Always use text area html tag for multi-line text
-</HintItem>
-<HintItem>
-  Use the rows attribute to set the text area height
-</HintItem>
-<HintItem>
-  Use a minimum of 3 rows
-</HintItem>
-<HintItem>
-  Provide minlength and/or maxlength attributes if a text length is required from the user
+  Provide minlength and/or maxlength attributes if a text length is required
+  from the user
 </HintItem>
 <HintItem dont>
   Never use the resize: none attribute for standards forms
 </HintItem>
-<HintItem dont>
-  Never use vertical-align: baseline
-</HintItem>
+<HintItem dont>Never use vertical-align: baseline</HintItem>
