@@ -15,10 +15,15 @@ $loader-sizes: (
     "width": $mu400,
   ),
 );
+
+@if $preset == "bricoman" {
+  $preset-bricoman: true;
+}
+
 $loader-theme: (
   "dark": $color-grey-900,
   "light": $color-grey-000,
-  "primary": $color-primary-01-600,
+  "primary": if($preset-bricoman, $color-primary-02-400, $color-primary-01-600),
 );
 $animation-duration-loader: 2s;
 $loader-default-size: map-get($loader-sizes, "m");
