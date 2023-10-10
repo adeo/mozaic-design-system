@@ -16,9 +16,9 @@ $loader-sizes: (
   ),
 );
 $loader-theme: (
-  "dark": $color-grey-900,
-  "light": $color-grey-000,
-  "primary": $color-primary-01-600,
+  "dark": $color-loader-dark,
+  "light": $color-loader-light,
+  "primary": $color-loader-primary,
 );
 $animation-duration-loader: 2s;
 $loader-default-size: map-get($loader-sizes, "m");

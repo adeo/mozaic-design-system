@@ -1,0 +1,15 @@
+{
+  "color": {
+    "loader": {
+      "dark": {
+        "value": "{color.grey.900.value}"
+      },
+      "light": {
+        "value": "{color.grey.000.value}"
+      },
+      "primary": {
+        "value": "{color.primary-01.600.value}"
+      }
+    }
+  }
+}

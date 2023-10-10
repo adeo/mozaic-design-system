@@ -1,0 +1,9 @@
+{
+  "color": {
+    "loader": {
+      "primary": {
+        "value": "{color.primary-02.400.value}"
+      }
+    }
+  }
+}
