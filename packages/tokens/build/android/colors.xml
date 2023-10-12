@@ -334,6 +334,9 @@
   <color name="color_listbox_tile_shadow">#ff191919</color>
   <color name="color_listbox_tile_hover_background">#ffe6e6e6</color>
   <color name="color_listbox_disabled_background">#ffcccccc</color>
+  <color name="color_loader_dark">#ff191919</color>
+  <color name="color_loader_light">#ffffffff</color>
+  <color name="color_loader_primary">#ff188803</color>
   <color name="color_menu_is_active">#ff188803</color>
   <color name="color_menu_hover">#ffeeeff1</color>
   <color name="color_menu_active">#ffcfd2d8</color>

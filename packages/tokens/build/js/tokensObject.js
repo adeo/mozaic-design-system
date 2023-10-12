@@ -7053,6 +7053,65 @@ module.exports = {
         }
       }
     },
+    "loader": {
+      "dark": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorLoaderDark",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "loader",
+          "dark"
+        ]
+      },
+      "light": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorLoaderLight",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "loader",
+          "light"
+        ]
+      },
+      "primary": {
+        "value": "#188803",
+        "filePath": "packages/tokens/properties/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorLoaderPrimary",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "primary"
+        },
+        "path": [
+          "color",
+          "loader",
+          "primary"
+        ]
+      }
+    },
     "menu": {
       "is-active": {
         "value": "#188803",
