@@ -2,11 +2,12 @@
   $index: str-index($string, $search);
 
   @if $index {
-    @return str-slice($string, 1, $index - 1) + $replace + str-replace(
-      str-slice($string, $index + str-length($search)),
-      $search,
-      $replace
-    );
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
   }
 
   @return $string;
@@ -190,6 +191,10 @@ $encoding-reference: (
 
   @if $icon == "tooltip-arrow" {
     $svg: '<svg xmlns="http://www.w3.org/2000/svg" height="0.5rem" width="0.5rem" viewBox="0 0 8 8"><path fill="#{$fill}" d="M1.79 3.11l6.21-3.11v8l-6.21-3.11a1 1 0 0 1-.45-1.34 1 1 0 0 1 .45-.44z"/></svg>';
+  }
+
+  @if $icon == "notification-circle-available-24" {
+    $svg: '<svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" width="1.5rem" fill="#{$fill}" viewBox="0 0 24 24"><path d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z"/><path d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z"/></svg>';
   }
 
   @return svg-encode($svg);
