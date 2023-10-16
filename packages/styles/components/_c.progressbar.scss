@@ -1,7 +1,14 @@
+@use "sass:math";
+
 .mc-progressbar {
   $parent: get-parent-selector(&);
 
   @include set-font-family;
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
 
   align-items: center;
   background-color: $color-progress-background;
@@ -17,9 +24,14 @@
   }
 
   &__indicator {
+    align-items: center;
     background-color: $color-progress-indicator;
+    display: flex;
     height: 100%;
+    justify-content: flex-end;
     left: 0;
+    min-width: px-to-rem(37);
+    padding: math.div($mu025, 2);
     position: absolute;
     transition: width 0.4s ease;
     top: 0;
@@ -30,16 +42,13 @@
   }
 
   &__percentage {
-    @include set-font-scale("04", "m");
+    @include set-font-scale("02", "m");
     @include set-font-weight("semi-bold");
 
+    background-color: $color-progress-percentage-background;
+    border-radius: $mu100;
     color: $color-progress-percentage-default;
-    position: relative;
-    z-index: 1;
-
-    @at-root #{$parent}--half & {
-      color: $color-progress-percentage-half;
-    }
+    padding: math.div($mu025, 2) $mu050;
 
     // visually hide the percentage
     @at-root #{$parent}:not(#{$parent}--percent) & {

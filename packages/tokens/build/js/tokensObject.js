@@ -7898,11 +7898,11 @@ module.exports = {
     },
     "progress": {
       "background": {
-        "value": "#cccccc",
+        "value": "#cfd2d8",
         "filePath": "packages/tokens/properties/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.200.value}"
+          "value": "{color.primary-02.200.value}"
         },
         "name": "ColorProgressBackground",
         "attributes": {
@@ -7917,11 +7917,11 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#188803",
+        "value": "#494f60",
         "filePath": "packages/tokens/properties/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.600.value}"
+          "value": "{color.primary-02.600.value}"
         },
         "name": "ColorProgressIndicator",
         "attributes": {
@@ -7937,11 +7937,11 @@ module.exports = {
       },
       "percentage": {
         "default": {
-          "value": "#191919",
+          "value": "#494f60",
           "filePath": "packages/tokens/properties/color/progressbar.json",
           "isSource": true,
           "original": {
-            "value": "{color.grey.900.value}"
+            "value": "{color.primary-02.600.value}"
           },
           "name": "ColorProgressPercentageDefault",
           "attributes": {
@@ -7957,25 +7957,25 @@ module.exports = {
             "default"
           ]
         },
-        "half": {
+        "background": {
           "value": "#ffffff",
           "filePath": "packages/tokens/properties/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorProgressPercentageHalf",
+          "name": "ColorProgressPercentageBackground",
           "attributes": {
             "category": "color",
             "type": "progress",
             "item": "percentage",
-            "subitem": "half"
+            "subitem": "background"
           },
           "path": [
             "color",
             "progress",
             "percentage",
-            "half"
+            "background"
           ]
         }
       }
