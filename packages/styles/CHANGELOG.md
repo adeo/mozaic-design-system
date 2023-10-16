@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.67.0](https://github.com/adeo/ads-styles/compare/v1.66.0...v1.67.0) (2023-10-16)
+
+### Bug Fixes
+
+- **settings/icons:** re-add the 'notification-circle-available-24' icon ([#17](https://github.com/adeo/ads-styles/issues/17)) ([5194301](https://github.com/adeo/ads-styles/commit/5194301dc2c16e170aeda35affb97cfcd0e7654d))
+
+### Features
+
+- **component/progressbar:** update style & structure according to the new design ([#15](https://github.com/adeo/ads-styles/issues/15)) ([74c9ff9](https://github.com/adeo/ads-styles/commit/74c9ff9081235e2ca4bd1ddca0ce6cf61cb3740b))
+- **components/loader:** add token for color theme ([#12](https://github.com/adeo/ads-styles/issues/12)) ([a23f5a6](https://github.com/adeo/ads-styles/commit/a23f5a631a80b663e98252261fc7168686233b7f))
+
 # [1.66.0](https://github.com/adeo/mozaic-design-system/compare/v1.65.0...v1.66.0) (2023-08-30)
 
 ### Bug Fixes

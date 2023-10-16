@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.67.0](https://github.com/adeo/ads-styles/compare/v1.66.0...v1.67.0) (2023-10-16)
+
+### Features
+
+- **component/progressbar:** update style & structure according to the new design ([#15](https://github.com/adeo/ads-styles/issues/15)) ([74c9ff9](https://github.com/adeo/ads-styles/commit/74c9ff9081235e2ca4bd1ddca0ce6cf61cb3740b))
+- **components/loader:** add token for color theme ([#12](https://github.com/adeo/ads-styles/issues/12)) ([a23f5a6](https://github.com/adeo/ads-styles/commit/a23f5a631a80b663e98252261fc7168686233b7f))
+- **tools/tokens:** update tokens for loader color theme ([739f02a](https://github.com/adeo/ads-styles/commit/739f02a434cb63d9c51c147cbe6ceffc3d4fe88c))
+
 # [1.65.0](https://github.com/adeo/mozaic-design-system/compare/v1.64.0...v1.65.0) (2023-08-08)
 
 ### Bug Fixes
