@@ -92,6 +92,13 @@
       "iconName": "PaymentPayPal"
     },
     {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_24px.svg",
+      "iconName": "PaymentPayPo"
+    },
+    {
       "cat": "Payment",
       "size": "24px",
       "name": "Cards_Colors_AmericanExpress",
@@ -300,6 +307,13 @@
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_32px.svg",
       "iconName": "PaymentPayPal"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_32px.svg",
+      "iconName": "PaymentPayPo"
     },
     {
       "cat": "Payment",
@@ -512,6 +526,13 @@
       "iconName": "PaymentPayPal"
     },
     {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_48px.svg",
+      "iconName": "PaymentPayPo"
+    },
+    {
       "cat": "Payment",
       "size": "48px",
       "name": "Cards_Colors_AmericanExpress",
@@ -720,6 +741,13 @@
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_64px.svg",
       "iconName": "PaymentPayPal"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_64px.svg",
+      "iconName": "PaymentPayPo"
     },
     {
       "cat": "Payment",
