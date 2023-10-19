@@ -10,6 +10,13 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_ApplePay",
+      "fileName": "Logotypes_Payment_ApplePay_24px.svg",
+      "iconName": "PaymentApplePay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_24px.svg",
       "iconName": "PaymentBizum"
@@ -17,9 +24,23 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_Blik",
+      "fileName": "Logotypes_Payment_Blik_24px.svg",
+      "iconName": "PaymentBlik"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_24px.svg",
       "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_GooglePay",
+      "fileName": "Logotypes_Payment_GooglePay_24px.svg",
+      "iconName": "PaymentGooglePay"
     },
     {
       "cat": "Logotypes",
@@ -69,6 +90,13 @@
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_24px.svg",
       "iconName": "PaymentPayPal"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_24px.svg",
+      "iconName": "PaymentPayPo"
     },
     {
       "cat": "Payment",
@@ -199,6 +227,13 @@
     {
       "cat": "Logotypes",
       "size": "32px",
+      "name": "Payment_ApplePay",
+      "fileName": "Logotypes_Payment_ApplePay_32px.svg",
+      "iconName": "PaymentApplePay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_32px.svg",
       "iconName": "PaymentBizum"
@@ -206,9 +241,23 @@
     {
       "cat": "Logotypes",
       "size": "32px",
+      "name": "Payment_Blik",
+      "fileName": "Logotypes_Payment_Blik_32px.svg",
+      "iconName": "PaymentBlik"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_32px.svg",
       "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_GooglePay",
+      "fileName": "Logotypes_Payment_GooglePay_32px.svg",
+      "iconName": "PaymentGooglePay"
     },
     {
       "cat": "Logotypes",
@@ -258,6 +307,13 @@
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_32px.svg",
       "iconName": "PaymentPayPal"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_32px.svg",
+      "iconName": "PaymentPayPo"
     },
     {
       "cat": "Payment",
@@ -388,6 +444,13 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_ApplePay",
+      "fileName": "Logotypes_Payment_ApplePay_48px.svg",
+      "iconName": "PaymentApplePay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_48px.svg",
       "iconName": "PaymentBizum"
@@ -395,9 +458,23 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Blik",
+      "fileName": "Logotypes_Payment_Blik_48px.svg",
+      "iconName": "PaymentBlik"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_48px.svg",
       "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_GooglePay",
+      "fileName": "Logotypes_Payment_GooglePay_48px.svg",
+      "iconName": "PaymentGooglePay"
     },
     {
       "cat": "Logotypes",
@@ -447,6 +524,13 @@
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_48px.svg",
       "iconName": "PaymentPayPal"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_48px.svg",
+      "iconName": "PaymentPayPo"
     },
     {
       "cat": "Payment",
@@ -577,6 +661,13 @@
     {
       "cat": "Logotypes",
       "size": "64px",
+      "name": "Payment_ApplePay",
+      "fileName": "Logotypes_Payment_ApplePay_64px.svg",
+      "iconName": "PaymentApplePay"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
       "name": "Payment_Bizum",
       "fileName": "Logotypes_Payment_Bizum_64px.svg",
       "iconName": "PaymentBizum"
@@ -584,9 +675,23 @@
     {
       "cat": "Logotypes",
       "size": "64px",
+      "name": "Payment_Blik",
+      "fileName": "Logotypes_Payment_Blik_64px.svg",
+      "iconName": "PaymentBlik"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
       "name": "Payment_Fintecture",
       "fileName": "Logotypes_Payment_Fintecture_64px.svg",
       "iconName": "PaymentFintecture"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_GooglePay",
+      "fileName": "Logotypes_Payment_GooglePay_64px.svg",
+      "iconName": "PaymentGooglePay"
     },
     {
       "cat": "Logotypes",
@@ -636,6 +741,13 @@
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_64px.svg",
       "iconName": "PaymentPayPal"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_PayPo",
+      "fileName": "Logotypes_Payment_PayPo_64px.svg",
+      "iconName": "PaymentPayPo"
     },
     {
       "cat": "Payment",
@@ -2381,6 +2493,14 @@
       "fileName": "Product_Promise_Warranty_24px.svg",
       "iconName": "PromiseWarranty",
       "componentName": "PromiseWarranty24"
+    },
+    {
+      "cat": "Product",
+      "size": "24px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_24px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley24"
     },
     {
       "cat": "Project",
@@ -4863,6 +4983,14 @@
       "componentName": "PromiseWarranty32"
     },
     {
+      "cat": "Product",
+      "size": "32px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_32px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley32"
+    },
+    {
       "cat": "Project",
       "size": "32px",
       "name": "DescribeProject",
@@ -7343,6 +7471,14 @@
       "componentName": "PromiseWarranty48"
     },
     {
+      "cat": "Product",
+      "size": "48px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_48px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley48"
+    },
+    {
       "cat": "Project",
       "size": "48px",
       "name": "DescribeProject",
@@ -9821,6 +9957,14 @@
       "fileName": "Product_Promise_Warranty_64px.svg",
       "iconName": "PromiseWarranty",
       "componentName": "PromiseWarranty64"
+    },
+    {
+      "cat": "Product",
+      "size": "64px",
+      "name": "Trolley",
+      "fileName": "Product_Trolley_64px.svg",
+      "iconName": "Trolley",
+      "componentName": "Trolley64"
     },
     {
       "cat": "Project",
