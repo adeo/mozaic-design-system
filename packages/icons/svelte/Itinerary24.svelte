@@ -7,4 +7,4 @@
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.92 9.38a1 1 0 000-.76 1 1 0 00-.21-.33l-3.5-3.5a1 1 0 00-1.42 1.42L18.59 8H4a2 2 0 00-2 2v9a1 1 0 002 0v-9h14.59l-1.8 1.79a1 1 0 000 1.42 1 1 0 001.42 0l3.5-3.5a1 1 0 00.21-.33z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 12a8 8 0 1116 0 8 8 0 01-16 0zm8-10C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm2.707 5.293a1 1 0 10-1.414 1.414L14.586 10H8a1 1 0 00-1 1v4.5a1 1 0 102 0V12h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3z"/></svg>

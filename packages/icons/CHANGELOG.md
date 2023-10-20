@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.67.0](https://github.com/adeo/mozaic-design-system/compare/v1.66.0...v1.67.0) (2023-10-19)
+
+### Features
+
+- **icons:** add new icons and logotypes ([#1496](https://github.com/adeo/mozaic-design-system/issues/1496)) ([2f155f4](https://github.com/adeo/mozaic-design-system/commit/2f155f439c01fdfa9350ce1617caa4bcde228e20))
+
 # [1.66.0](https://github.com/adeo/mozaic-design-system/compare/v1.65.0...v1.66.0) (2023-08-30)
 
 ### Features
