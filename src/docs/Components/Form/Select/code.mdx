@@ -29,9 +29,7 @@ To use the select in your form, you must use the following css classes:
 
 ```html
 <div class="mc-field">
-  <label class="mc-field__label" for="foo">
-    Label
-  </label>
+  <label class="mc-field__label" for="foo"> Label </label>
 
   <select id="foo" class="mc-field__input mc-select">
     <option value="" selected disabled>-- Choose an option --</option>
@@ -42,7 +40,7 @@ To use the select in your form, you must use the following css classes:
 </div>
 ```
 
-<Preview path="default" />
+<Story id="form-select--default" />
 
 ### Variations
 
@@ -51,9 +49,12 @@ To use the select in your form, you must use the following css classes:
 You can use one of the 2 available sizes:
 
 - **Small**: apply the modifier `mc-select--s` in addition of the `mc-select` class
+
+<Story id="form-select--variation-small" />
+
 - **Medium**: this is the default style so you don't need to add a modifier class
 
-<Preview path="sizes" />
+<Story id="form-select--default" />
 
 ### Behaviors
 
@@ -64,23 +65,18 @@ You have the possibility to define a help text when using your select field.
 For this you have to add a span with the `mc-field__help` class below the label.
 
 ```html
-<label class="mc-field__label">
-  Label
-</label>
-<span id="helptext" class="mc-field__help">
-  Help text
-</span>
+<label class="mc-field__label"> Label </label>
+<span id="helptext" class="mc-field__help"> Help text </span>
 ```
 
 <Highlight theme="tips" title="Accessibility rules">
 
-  When using a help text you must comply with the following accessibility rules:
-  - the span `mc-field__help` must always have an `id`
-  - the `aria-describedby` attribute must be added on the select element and must refer to the id of the help text
+When using a help text you must comply with the following accessibility rules:
+
+- the span `mc-field__help` must always have an `id`
+- the `aria-describedby` attribute must be added on the select element and must refer to the id of the help text
 
 </Highlight>
-
-<Preview path="help-text" />
 
 #### Requirement
 
@@ -91,19 +87,15 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 ```html
 <label class="mc-field__label">
   Label
-  <span class="mc-field__requirement">
-    mandatory
-  </span>
+  <span class="mc-field__requirement"> mandatory </span>
 </label>
 ```
 
 <Highlight theme="tips" title="Semantic rule">
 
-  When the select is mandatory the `required` attribute must be added on the select element
+When the select is mandatory the `required` attribute must be added on the select element
 
 </Highlight>
-
-<Preview path="requirement" />
 
 ### States and Validation
 
@@ -111,7 +103,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 
 To indicate that a field is valid, the `is-valid` class must be added to the select element.
 
-<Preview path="valid" />
+<Story id="form-select--state-valid" />
 
 #### Invalid
 
@@ -122,19 +114,20 @@ To indicate that a field is not valid several steps are to be implemented:
 
 <Highlight theme="tips" title="Accessibility rules">
 
-  If you use an error message you must comply with the following accessibility rules:
-  - the span `mc-field__error-message` must always have an `id`
-  - the `aria-describedby` attribute must be added on the select element and must refer to the id of the error message
+If you use an error message you must comply with the following accessibility rules:
+
+- the span `mc-field__error-message` must always have an `id`
+- the `aria-describedby` attribute must be added on the select element and must refer to the id of the error message
 
 </Highlight>
 
-<Preview path="invalid" />
+<Story id="form-select--state-invalid" />
 
 #### Disabled
 
 To indicate that the select is disabled, the `disabled` attribute must be added to the select element.
 
-<Preview path="disabled" />
+<Story id="form-select--disabled" />
 
 ## Use outside a form
 
@@ -167,12 +160,11 @@ Apply the classes `mc-textarea` on a standard `textarea` html tag:
 
 ### Variations
 
-<Preview path="select-all-states" nude />
-
 ## Default option (as a placeholder)
- By default, the first option is displayed. You can use it as a placeholder, but remember to distinguish it from the rest of options and to add an empty value attribute. **Always use '--' before and after the first option with spaces between the dashes and the text.**
- 
- ```html
+
+By default, the first option is displayed. You can use it as a placeholder, but remember to distinguish it from the rest of options and to add an empty value attribute. **Always use '--' before and after the first option with spaces between the dashes and the text.**
+
+```html
 <select class="mc-select">
   <option value="">-- Select one option --</option>
   <option value="option2">Option 1</option>
@@ -185,20 +177,16 @@ Apply the classes `mc-textarea` on a standard `textarea` html tag:
 
 Use `<option>` for elements of your list `<select>`.<br />
 Each `<option>` element should have a value attribute with data.
- 
 
-<HintItem>
-  You must always use the native select element.
-</HintItem>
+<HintItem>You must always use the native select element.</HintItem>
 
 <HintItem dont>
   Never use the "multiple" attribute on a select, prefer checkboxes instead.
 </HintItem>
 
 <HintItem dont>
-  Don't use the "hidden" attribute on an option because it is not suproted by Safari.
+  Don't use the "hidden" attribute on an option because it is not suproted by
+  Safari.
 </HintItem>
 
-<HintItem dont>
-  Never add a "selected" attribute on an option.
- </HintItem>
+<HintItem dont>Never add a "selected" attribute on an option.</HintItem>

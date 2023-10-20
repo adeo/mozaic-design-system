@@ -1,5 +1,5 @@
 ---
-title: "Code"
+title: 'Code'
 order: 2
 ---
 
@@ -10,9 +10,9 @@ order: 2
 Import **the settings** and **the toggle** `scss` files.
 
 ```scss
-@import "settings-tools/all-settings";
+@import 'settings-tools/all-settings';
 
-@import "components/_c.toggle";
+@import 'components/_c.toggle';
 ```
 
 ### Basic usage
@@ -30,7 +30,7 @@ To create a basic toggle, wrap a `input[type="checkbox"]` and a `label` inside a
 </div>
 ```
 
-<Preview path="toggle-default" />
+<Story id="form-toggle--default" />
 
 ### Variations
 
@@ -39,9 +39,12 @@ To create a basic toggle, wrap a `input[type="checkbox"]` and a `label` inside a
 You can use one of the 2 available sizes:
 
 - **Small** : apply the modifier `mc-toggle--s` in addition of the `mc-toggle` class
+
+<Story id="form-toggle--small" />
+
 - **Medium** : this is the default style so you don't need to add a modifier class
 
-<Preview path="toggle-sizes" />
+<Story id="form-toggle--default" />
 
 #### Hide label
 
@@ -49,7 +52,7 @@ In some cases, you may need to visually hide the label text associated with the 
 
 To achieve this, you can use the modifier `mc-toggle--hide-label`.
 
-<Preview path="hide-label" />
+<Story id="form-toggle--variation-hide-label" />
 
 <Highlight theme="warning" title="Accessibility rule">
 
@@ -103,7 +106,7 @@ Don't forget to add the attribute `aria-hidden="true"` on the `mc-toggle__state`
 
 </Highlight>
 
-<Preview path="toggle-states-label" />
+<Story id="form-toggle--state-label-variation" />
 
 ## Implement as a group
 
@@ -112,11 +115,11 @@ Don't forget to add the attribute `aria-hidden="true"` on the `mc-toggle__state`
 Import **the settings**, **the toggle** and **the fields** scss files.
 
 ```scss
-@import "settings-tools/all-settings";
+@import 'settings-tools/all-settings';
 
-@import "components/_c.toggle";
+@import 'components/_c.toggle';
 
-@import "components/_c.fields";
+@import 'components/_c.fields';
 ```
 
 > Note that the import order is important to get the right rendering of the component.
@@ -211,22 +214,22 @@ If you want to add a toggle size, update the `$toggle-sizes` map after the `all-
 example :
 
 ```scss
-@import "settings/all-settings";
+@import 'settings/all-settings';
 $toggle-sizes: map-merge(
   $toggle-sizes,
   (
-    "xs": (
-      "width": 2,
-      "height": 1,
+    'xs': (
+      'width': 2,
+      'height': 1,
     ),
-    "l": (
-      "width": 6,
-      "height": 3,
+    'l': (
+      'width': 6,
+      'height': 3,
     ),
   )
 );
 
-@import "components/_c.toggles";
+@import 'components/_c.toggles';
 ```
 
 <Preview path="toggle-extend-sizes" />

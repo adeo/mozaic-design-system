@@ -25,9 +25,7 @@ To create a field you have three main class to apply:
 
 ```html
 <div class="mc-field">
-  <label class="mc-field__label" for="default">
-    Label
-  </label>
+  <label class="mc-field__label" for="default"> Label </label>
 
   <input
     type="text"
@@ -39,7 +37,7 @@ To create a field you have three main class to apply:
 </div>
 ```
 
-<Preview path="fields" />
+<Story id="form-field--default" />
 
 ## Variations
 
@@ -56,28 +54,22 @@ Add a `span` with the class `mc-field__requirement` right after the label
 ```html
 <label class="mc-field__label">
   Label
-  <span class="mc-field__requirement">
-    mandatory
-  </span>
+  <span class="mc-field__requirement"> mandatory </span>
 </label>
 ```
 
-<Preview path="fields-requirement" />
+<Story id="form-field--with-requirement-text" />
 
 ### Help
 
 Add a span with the class `mc-field__help` below the label
 
 ```html
-<label class="mc-field__label">
-  Label
-</label>
-<span class="mc-field__help">
-  Help text
-</span>
+<label class="mc-field__label"> Label </label>
+<span class="mc-field__help"> Help text </span>
 ```
 
-<Preview path="fields-help" />
+<Story id="form-field--with-help-text" />
 
 ## Behaviors
 

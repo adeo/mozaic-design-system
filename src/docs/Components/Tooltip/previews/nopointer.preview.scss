@@ -1,9 +1,0 @@
-@import "settings-tools/all-settings";
-@include import-font-families();
-@import "components/c.tooltip";
-
-.example {
-  display: flex;
-  justify-content: center;
-  padding: 3rem;
-}

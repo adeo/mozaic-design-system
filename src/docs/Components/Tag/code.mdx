@@ -30,7 +30,7 @@ Apply the `mc-tag-text` to a non-clickable element, like a `p`, a `div` or a `sp
 - `s` : `mc-tag-text--s`
 - `dark` : `mc-tag-text--dark`
 
-<Preview path="TagText" />
+<Story id="data-tags--default" />
 
 ### The link tag
 
@@ -44,13 +44,13 @@ Apply the `mc-tag-link` to a `a` element, and wrap the label inside a span span 
 
 ```html
 <a href="#" class="mc-tag-link">
-  <span class="mc-tag-link__label">
-    link
-  </span>
+  <span class="mc-tag-link__label"> link </span>
 </a>
 ```
 
-<Preview path="TagLink" />
+<Story id="data-tags--tag-link" />
+
+<Story id="data-tags--tag-link-dark" />
 
 ### The selectable tag
 
@@ -73,14 +73,14 @@ The selectable tag is based on a checkbox and his associated label.
     id="selectable"
   />
   <label class="mc-tag-selectable__pill" for="selectable">
-    <span class="mc-tag-selectable__label">
-      selectable
-    </span>
+    <span class="mc-tag-selectable__label"> selectable </span>
   </label>
 </span>
 ```
 
-<Preview path="TagSelectable" />
+<Story id="data-tags--tag-selectable" />
+
+<Story id="data-tags--tag-selectable-dark" />
 
 ### The removable tag
 
@@ -94,18 +94,16 @@ The removable tag is a tag with a button dedicated to remove the tag.
 
 ```html
 <span class="mc-tag-removable">
-  <span class="mc-tag-removable__label">
-    removable
-  </span>
+  <span class="mc-tag-removable__label"> removable </span>
   <button class="mc-tag-removable__remove">
-    <span class="mc-tag-removable__remove-text">
-      Delete tag
-    </span>
+    <span class="mc-tag-removable__remove-text"> Delete tag </span>
   </button>
 </span>
 ```
 
-<Preview path="TagRemovable" />
+<Story id="data-tags--tag-removable" />
+
+<Story id="data-tags--tag-removable-dark" />
 
 ### The tag list
 
@@ -113,12 +111,8 @@ Use a `ul > li` structure with the `mc-tag-list` classes to create a tag list.
 
 ```html
 <ul class="mc-tag-list">
-  <li class="mc-tag-list__item">
-    ... tag 1
-  </li>
-  <li class="mc-tag-list__item">
-    ... tag 2
-  </li>
+  <li class="mc-tag-list__item">... tag 1</li>
+  <li class="mc-tag-list__item">... tag 2</li>
 </ul>
 ```
 

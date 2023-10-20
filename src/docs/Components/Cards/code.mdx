@@ -52,16 +52,15 @@ The **Card** component is composed of several elements, namely:
 
 <Highlight theme="warning" title="Mandatory elements">
 
-  Among these elements, please note that **the image and the title are mandatory**, and must **always appear** in your Card elements. The other elements are optional.
+Among these elements, please note that **the image and the title are mandatory**, and must **always appear** in your Card elements. The other elements are optional.
 
 </Highlight>
 
 <Highlight theme="info">
 
-  You are free to use the HTML tag of your choice for **the subtitle** element of the Card component. For **the title** element, we recommend that you use an **Hn title tag** whenever possible.
+You are free to use the HTML tag of your choice for **the subtitle** element of the Card component. For **the title** element, we recommend that you use an **Hn title tag** whenever possible.
 
 </Highlight>
-
 
 ## Variations
 
@@ -69,7 +68,7 @@ The **Card** component is composed of several elements, namely:
 
 The unboxed version is best used when you have a large amount of cards to display to avoid graphic complexity due to the repetition of the outline.
 
-<Preview path="default" />
+<Story id="content-card--default" height="510" />
 
 ### Outlined version
 
@@ -77,15 +76,13 @@ Outlined cards are used to avoid floating impressions.
 
 To define an outlined card, you must add the `mc-card--bordered` modifier to your `mc-card` element.
 
-
-
 ```html
 <div class="mc-card mc-card--bordered">
   <!-- the card elements here -->
 </div>
 ```
 
-<Preview path="card-bordered" />
+<Story id="content-card--boxed-card" height="510" />
 
 ### Card with link
 
@@ -102,13 +99,13 @@ When using a link in a card, you must make sure to perform the following scss im
 
 <Highlight theme="warning">
 
-  The link inserted in your card must be a Mozaic Link of **size M**.
-  
-  Learn more by looking at [the documentation of the Mozaic Link](/Components/Links/code/#available-sizes).
+The link inserted in your card must be a Mozaic Link of **size M**.
+
+Learn more by looking at [the documentation of the Mozaic Link](/Components/Links/code/#available-sizes).
 
 </Highlight>
 
-<Preview path="card-link" />
+<Story id="content-card--card-with-link" height="510" />
 
 ### Card with button
 
@@ -125,13 +122,13 @@ When using a button in a card, you must make sure to perform the following scss 
 
 <Highlight theme="warning">
 
-  The button inserted in your card must be a Mozaic Button of **size S**.
-  
-  Learn more by looking at [the documentation of the Mozaic Button](/Components/Buttons/#sizes).
+The button inserted in your card must be a Mozaic Button of **size S**.
+
+Learn more by looking at [the documentation of the Mozaic Button](/Components/Buttons/#sizes).
 
 </Highlight>
 
-<Preview path="card-button" />
+<Story id="content-card--card-with-button" height="520" />
 
 ## Card image ratio
 
@@ -142,8 +139,7 @@ For this you have the possibility to choose among the following image ratios, an
 | ratio    | modifier                               |
 | -------- | -------------------------------------- |
 | **1:1**  | `mc-card__visual--1x1`                 |
-| **4:3**  | _(default ratio - no modifier needed)_  |
+| **4:3**  | _(default ratio - no modifier needed)_ |
 | **16:9** | `mc-card__visual--16x9`                |
 
-
-<Preview path="card-ratios" />
+<Story id="content-card--card-ratios" height="550" />
