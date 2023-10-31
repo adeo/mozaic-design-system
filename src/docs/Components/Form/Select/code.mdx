@@ -148,15 +148,15 @@ Apply the classes `mc-textarea` on a standard `textarea` html tag:
 > When you use a select outside of a form, you should not wrap it in the `mc-field` container
 
 ```html
-<select class="mc-select">
-  <option value="">-- Choose an option --</option>
+<select id="foo" class="mc-select" aria-label="The label of your Select">
+  <option value="" selected disabled>-- Choose an option --</option>
   <option value="option1">Option 1</option>
   <option value="option2">Option 2</option>
   <option value="option3">Option 3</option>
 </select>
 ```
 
-<Preview path="single" />
+<Story id="form-select--single" />
 
 ### Variations
 

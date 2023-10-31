@@ -20,14 +20,16 @@ order: 1
 
 The example below creates four equal-width columns at small, medium, large, and extra large breakpoints using our predefined grid classes.
 
-<Preview path="basic" />
+<Story id="layout-grid--default" />
 
 <Highlight theme="tips" title="Container rules">
 
-  `ml-container` defines the overall grid context at the top level and applies the proper margin and our default max-width.  You can also remove this max width, by using the grid modifier class ml--container--fluid. See [the default container](/Foundations/Layout/Container/).
+`ml-container` defines the overall grid context at the top level and applies the proper margin and our default max-width. You can also remove this max width, by using the grid modifier class ml--container--fluid. See [the default container](/Foundations/Layout/Container/).
+
 </Highlight>
 
 #### Columns
+
 `ml-flexy__col` defines individual columns inside the grid. With Flexbox columns widths are set in percentages relative to their parent element so columns without a specific width will automatically be equal. For example, four instances of `ml-flexy__col` will give you four equal width columns — each 25% of the parent from the small breakpoint on up.
 
 ### Gutters
@@ -38,13 +40,9 @@ When **used with gutters**, `.ml-flexy` uses the negative margin pattern: each c
 
 ```html
 <div class="ml-flexy ml-flexy--gutter">
-  <div class="ml-flexy__col">
-    col 1
-  </div>
+  <div class="ml-flexy__col">col 1</div>
 
-  <div class="ml-flexy__col">
-    col 2
-  </div>
+  <div class="ml-flexy__col">col 2</div>
 </div>
 ```
 
@@ -58,8 +56,8 @@ When **used with gutters**, `.ml-flexy` uses the negative margin pattern: each c
 <br />
 <small>Reminder: mu = MagicUnit. Ex: 3.5mu = MagicUnit \* 3.5</small>
 
-
 ## Columns options
+
 ### Widths
 
 You can apply specific columns width using `.ml-flexy__col` modifiers:
@@ -79,7 +77,6 @@ You can apply specific columns width using `.ml-flexy__col` modifiers:
 | `.ml-flexy__col--fill`    | fill the available width    |
 | `.ml-flexy__col--full`    | 100%                        |
 
-
 ### Responsive modifiers
 
 Apply widths to breakpoints using the `@from-XX` suffix to the widths modifiers.
@@ -95,7 +92,8 @@ The available breakpoints modifiers are:
 | `ml-flexy__col--[size]@from-xxl`      | **xxl**: From 1920px and up | Desktop                         |
 
 <br />
-<Preview path="flexy" />
+
+<Story id="layout-grid--flexy" height="770" />
 
 ## Alignment
 
@@ -112,7 +110,8 @@ Available modifiers are:
 | `ml-flexy--items-stretch` | align-items: stretch    | All columns use the same height |
 
 <br />
-<Preview path="flexyAlign" />
+
+<Story id="layout-grid--flexy-align" height="750" />
 
 ## Pushing a column to the left
 
@@ -133,7 +132,7 @@ You can push a column using the `ml-flexy__col--push-[XofY]` modifiers.
 
 All columns widths (numerical) are available as push values from `1of12`, `1of6`, `1of4` ... to `11of12`.
 
-<Preview path="flexyPush" />
+<Story id="layout-grid--flexy-push" height="300" />
 
 ### Responsive push modifiers
 
@@ -150,6 +149,7 @@ The available breakpoints modifiers are:
 | `ml-flexy__col--push-[size]@from-xxl`      | **xxl**: From 1920px and up | Desktop                         |
 
 ### Reset pushed modifiers
+
 For a specific a breakpoint you can reset the pushed column using `mc-flexy__col--push--reset@from-XX`.
 
 ```html
@@ -171,17 +171,16 @@ For a specific a breakpoint you can reset the pushed column using `mc-flexy__col
 
 You can either nest flexy grids by creating a new `.ml-flexy` grid inside a column, or by directly applying a `.ml-flexy` class on a `.ml-flexy__column` element.
 
-
-<Preview path="flexyNested" />
+<Story id="layout-grid--flexy-nested" height="300" />
 
 ## Columns order
 
 Use the `ml-flexy__col--last` and `ml-flexy__col--first` modifier to reorder columns.
 
-<Preview path="flexyOrder" />
+<Story id="layout-grid--flexy-order" />
 
 ## Use flexy to center vertically and horizontally
 
 Use the `ml-flexy--space-around` and the `ml-flexy--items-center` modifier on a `ml-flexy` element to center vertically and horizontally elements.
 
-<Preview path="flexyCentered" />
+<Story id="layout-grid--flexy-centered" height="390" />

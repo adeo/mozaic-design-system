@@ -1,8 +1,0 @@
-@import "settings-tools/all-settings";
-@include import-font-families();
-@import "components/c.button";
-
-.example {
-  text-align: center;
-  margin: $mu100 auto;
-}
