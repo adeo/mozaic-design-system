@@ -3,14 +3,14 @@
 .mc-datatable {
   $parent: get-parent-selector(&);
 
+  &__topbar,
+  &__filters {
+    padding-bottom: $mu100;
+  }
+
   // Header - Topbar
   &__topbar {
     justify-content: space-between;
-
-    padding: {
-      top: $mu100;
-      bottom: $mu100;
-    }
 
     &,
     &-edition,
@@ -38,14 +38,14 @@
   // Header - Filters
   &__filters {
     align-items: center;
-    border-top: get-border(s) solid $color-datatable-filters-border;
     display: flex;
     flex-wrap: wrap;
     gap: $mu100;
     justify-content: flex-end;
-    padding: {
-      top: $mu100;
-      bottom: $mu100;
+
+    &:not(:only-child) {
+      border-top: get-border(s) solid $color-datatable-filters-border;
+      padding-top: $mu100;
     }
   }
 }
