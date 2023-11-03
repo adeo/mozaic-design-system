@@ -24,31 +24,31 @@ In its simplest form, the **Hero** component consists of the following elements:
 - An image covering the background of the component: `mc-hero__cover`
 
 ```html
-  <div class="mc-hero">
-    <div class="ml-container ml-container--fluid">
-      <div class="ml-flexy ml-flexy--gutter">
-        <div class="mc-hero__main ml-flexy__col">
-          <picture class="mc-hero__cover">
-            <img
-              class="mc-hero__visual"
-              src="https://m1.lmcdn.fr/media/15/5e611393475ea771bbbad626/2872342965/greenkub-maison-sans-permis5e611393063b330009a4a405.jpg?width=800&crop=16:9,smart"
-              alt=""
-            />
-          </picture>
+<div class="mc-hero">
+  <div class="ml-container ml-container--fluid">
+    <div class="ml-flexy ml-flexy--gutter">
+      <div class="mc-hero__main ml-flexy__col">
+        <picture class="mc-hero__cover">
+          <img
+            class="mc-hero__visual"
+            src="https://m1.lmcdn.fr/media/15/5e611393475ea771bbbad626/2872342965/greenkub-maison-sans-permis5e611393063b330009a4a405.jpg?width=800&crop=16:9,smart"
+            alt=""
+          />
+        </picture>
 
-          <h1
-            class="mc-hero__title 
+        <h1
+          class="mc-hero__title 
             mt-heading
             mt-heading--lightest
             mt-heading--s 
             mt-heading--underline"
-          >
-            Hero title
-          </h1>
-        </div>
+        >
+          Hero title
+        </h1>
       </div>
     </div>
   </div>
+</div>
 ```
 
 ### Elements detail
@@ -56,6 +56,7 @@ In its simplest form, the **Hero** component consists of the following elements:
 #### The container
 
 The **container** div allows you to use the Hero component in its fixed or fluid version by applying the following classes:
+
 - `ml-container`: for a fixed container
 - `ml-container ml-container--fluid`: for a fluid container
 
@@ -72,14 +73,16 @@ It is also possible to add **text content** within this area.
 The title of your component must be a [Mozaic's Heading](/Foundations/Typography/HeadingStyles/) and must therefore have the following structure:
 
 ```html
-<h1 class="mc-hero__title mt-heading mt-heading--lightest mt-heading--s mt-heading--underline">
+<h1
+  class="mc-hero__title mt-heading mt-heading--lightest mt-heading--s mt-heading--underline"
+>
   Hero title
 </h1>
 ```
 
 > Note that the **Heading** you use in the **Hero** component must always be an [underlined heading](/Foundations/Typography/HeadingStyles/#underlined-headings).
 
-<br/>
+<br />
 <u>The text content</u>
 
 The text content must be inserted in a `mc-hero__content` div with the additional `mt-body-m` class.
@@ -111,9 +114,9 @@ This background is an HTML element `<picture>` with the class `mc-hero__cover`. 
 
 <Highlight theme="tips" title="Take advantage of the picture element">
 
-  The HTML **Picture** element allows you to load multiple image sources for different display/device scenarios. 
+The HTML **Picture** element allows you to load multiple image sources for different display/device scenarios.
 
-  Learn more about it on [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+Learn more about it on [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
 </Highlight>
 
@@ -125,7 +128,7 @@ The Hero component comes with several variations allowing you to cover different
 
 This is the most minimal Hero case.
 
-<Preview path="basic" />
+<Story id="content-hero--default" height="400" />
 
 ### Title with text content (recommended)
 
@@ -133,19 +136,20 @@ This is the most common Hero case **we recommend to use**. <br/>This version is 
 
 When using this variation, you need to add the `mc-hero--with-content` modifier to the global `mc-hero` wrapper.
 
-<Preview path="title-content" />
+<Story id="content-hero--with-content" height="400" />
 
 ### Centered hero
 
 You have the ability to center the main content of your Hero component.
 
-To do this: 
+To do this:
+
 - add the `mc-hero--center` modifier to the global `mc-hero` wrapper.
 - also add the `mt-heading--center` modifier to the `mt-heading` title element.
 
-<Preview path="title-centered" />
+<Story id="content-hero--title-centered" height="400" />
 
-<Preview path="title-content-centered" />
+<Story id="content-hero--centered-content" height="400" />
 
 ### Title with text and boxed content
 
@@ -170,13 +174,13 @@ You also need to add the `mc-hero--with-boxed` modifier to the global `mc-hero` 
 </div>
 ```
 
-<Preview path="boxed-content" nude />
+<Story id="content-hero--boxed-content" height="700" />
 
 <Highlight theme="warning">
 
-  When using the `mc-hero--with-boxed` modifier, be careful not to apply in addition the `mc-hero--with-content` modifier to the `mc-hero` element.
+When using the `mc-hero--with-boxed` modifier, be careful not to apply in addition the `mc-hero--with-content` modifier to the `mc-hero` element.
 
-  Indeed the `mc-hero--with-boxed` modifier manages the boxed content but also manages the behavior of the title and the main content area.
+Indeed the `mc-hero--with-boxed` modifier manages the boxed content but also manages the behavior of the title and the main content area.
 
 </Highlight>
 
@@ -191,7 +195,7 @@ When using a boxed content, you should be aware that it is positioned as follows
 
 <Highlight theme="tips">
 
-In case you would like to keep the boxed content below the main content in **L** resolution, you can add the `mc-hero--boxed-l` modifier to the global `mc-hero` wrapper. 
+In case you would like to keep the boxed content below the main content in **L** resolution, you can add the `mc-hero--boxed-l` modifier to the global `mc-hero` wrapper.
 
 If you use this modifier, the boxed content will be positioned to the right of the main content only from the **XL** breakpoint _(>= 1280px)_ and will therefore remain below the main content until this breakpoint is reached.
 
@@ -199,4 +203,4 @@ If you use this modifier, the boxed content will be positioned to the right of t
 
 ### With a fixed container
 
-<Preview path="fixed" />
+<Story id="content-hero--fixed" height="400" />

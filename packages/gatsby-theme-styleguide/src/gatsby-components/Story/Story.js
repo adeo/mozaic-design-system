@@ -18,10 +18,11 @@ function Story({ id, width = 800, height = 260, canvas = true }) {
         }}
       >
         <iframe
+          className="embed-responsive-item"
+          height={height}
+          loading="lazy"
           src={iframeUrl}
           width={width}
-          height={height}
-          className="embed-responsive-item"
         ></iframe>
       </div>
     </>
