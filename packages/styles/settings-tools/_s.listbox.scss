@@ -1,18 +1,14 @@
-$listbox-height: 13.8125rem; // =221px
-$listbox-min-width: 18rem; // =288px
+$listbox-max-width: none;
 $listbox-width: auto;
 
-@mixin listbox-tile-selected($position: center, $size: auto) {
-  background-image: url("#{inline-icons('notification-available-24', $color-grey-900)}");
-  background-repeat: no-repeat;
-  background-position: $position;
-
-  @if $size != auto {
-    background-size: $mu150;
+@mixin listbox-selected-visibility($parent) {
+  #{$parent}__label::before {
+    visibility: visible;
   }
 }
 
-@mixin listbox-tile-hover() {
-  background-color: $color-listbox-tile-hover-background;
-  box-shadow: inset 9px 0 0 -7px $color-listbox-tile-shadow;
+@mixin listbox-selected-disabled($parent) {
+  #{$parent}__label::before {
+    background-image: url("#{inline-icons('notification-available-24', $color-grey-600)}");
+  }
 }
