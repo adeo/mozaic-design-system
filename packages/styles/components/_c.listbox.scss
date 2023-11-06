@@ -1,27 +1,15 @@
 .mc-listbox {
   $parent: get-parent-selector(&);
-
-  @include unstyle-list();
+  $selector-empty: #{$parent}__tile--empty;
 
   background-color: $color-listbox-background;
   border: get-border("s") solid $color-listbox-border;
   border-radius: get-border-radius("m") - 1;
-  position: absolute;
   overflow-y: auto;
-  margin-top: $mu025;
-  margin-bottom: 0;
-  max-height: $listbox-height;
-  min-width: $listbox-width;
-  opacity: 0;
-  visibility: hidden;
-  max-width: var(--listbox-width, $listbox-width);
-  width: 100%;
-
-  &.is-open {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-  }
+  max-height: px-to-rem(221);
+  max-width: var(--listbox-maxwidth, $listbox-max-width);
+  min-width: px-to-rem(288);
+  width: var(--listbox-width, $listbox-width);
 
   &::-webkit-scrollbar {
     background-color: $color-grey-100;
@@ -32,30 +20,60 @@
     }
   }
 
-  &__item,
+  &__list {
+    @include unstyle-list() {
+      margin: {
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+
   &__tile {
     align-items: center;
     display: flex;
     gap: $mu050;
-    min-height: $mu300;
+    height: $mu300;
+    justify-content: flex-start;
     padding-left: $mu075;
     padding-right: $mu075;
     position: relative;
-    justify-content: space-between;
 
-    &:not(:last-child) {
-      border-bottom: get-border("s") solid $color-listbox-tile-border;
+    &:not(#{$selector-empty}):not(.is-disabled):hover {
+      background-color: $color-listbox-tile-hover-background;
+      box-shadow: inset 9px 0 0 -7px $color-listbox-tile-shadow;
     }
 
-    &:hover {
-      @include listbox-tile-hover();
+    // modifier – danger
+    &--danger {
+      color: $color-danger-600;
+    }
+
+    // modifier – empty
+    &--empty {
+      color: $color-grey-600;
+      justify-content: center;
+
+      #{$parent}__label {
+        cursor: default;
+      }
+    }
+
+    // state – disabled
+    &.is-disabled {
+      box-shadow: none;
+      background-color: $color-listbox-disabled-background;
+      color: $color-font-light;
+      pointer-events: none;
     }
   }
 
   &__flag,
-  &__icon {
-    width: $mu200;
+  &__icon,
+  &__logo {
     height: $mu200;
+    width: $mu200;
   }
 
   &__flag {
@@ -64,17 +82,22 @@
     text-align: center;
   }
 
-  &__empty {
-    @include set-font-scale("04", "m");
-
-    color: $color-fields-error;
-    display: inline-block;
-    margin-top: $mu025;
+  &__icon {
+    fill: $color-grey-600;
   }
 
   &__label {
+    color: currentColor;
     cursor: pointer;
-    margin-right: auto;
+    white-space: nowrap;
+
+    @at-root button#{&} {
+      background: none;
+      border: none;
+      padding: 0;
+      font-size: inherit;
+      font-family: inherit;
+    }
 
     &::after {
       content: "";
@@ -85,48 +108,102 @@
   }
 
   &__input {
+    margin-left: auto;
     order: 1;
-  }
-
-  .is-checked,
-  .is-selected {
-    @include listbox-tile-selected(
-      $position: right $mu075 center,
-      $size: $mu150
-    );
-  }
-
-  .is-focus {
-    @include listbox-tile-hover();
-  }
-
-  .is-disabled {
-    cursor: not-allowed;
-    box-shadow: none;
-    background-color: $color-listbox-disabled-background;
-    color: $color-font-light;
-    pointer-events: none;
-  }
-
-  &:not(.mc-listbox--multi) {
-    #{$parent}__input {
-      @include visually-hidden();
-
-      &:checked + #{$parent}__label::before {
-        @include listbox-tile-selected();
-
-        content: "";
-        height: $mu150;
-        position: absolute;
-        right: $mu075;
-        top: 0;
-        transform: translateY(50%);
-        width: $mu150;
-      }
-    }
   }
 
   &--left {
     right: 0;
+  }
+
+  // Type "Option"
+  &:not(.mc-listbox--multi) {
+    #{$parent}__input {
+      @include visually-hidden();
+    }
+  }
+
+  &--options {
+    #{$parent} {
+      &__tile {
+        &:not(:last-child) {
+          border-bottom: get-border("s") solid $color-listbox-tile-border;
+        }
+
+        &.is-selected {
+          @include listbox-selected-visibility($parent);
+        }
+
+        &.is-selected.is-disabled {
+          @include listbox-selected-disabled($parent);
+        }
+      }
+
+      &__input {
+        &:checked + {
+          @include listbox-selected-visibility($parent);
+        }
+
+        &:checked:disabled + {
+          @include listbox-selected-disabled($parent);
+        }
+      }
+
+      &__label {
+        &::before {
+          background-image: url("#{inline-icons('notification-available-24', $color-grey-900)}");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: $mu150;
+          content: "";
+          height: $mu150;
+          position: absolute;
+          right: $mu075;
+          top: 0;
+          transform: translateY(50%);
+          width: $mu150;
+          visibility: hidden;
+        }
+      }
+    }
+  }
+
+  // Type "Actions"
+  &--actions {
+    max-height: auto;
+    min-width: px-to-rem(278);
+
+    #{$parent}__list {
+      &:not(:last-child) {
+        border-bottom: get-border("s") solid $color-grey-300;
+      }
+
+      &:first-child {
+        padding: {
+          top: px-to-rem(7);
+          bottom: $mu050;
+        }
+      }
+
+      &:last-child {
+        padding: {
+          top: $mu050;
+          bottom: px-to-rem(7);
+        }
+      }
+
+      &:not(:first-child):not(:last-child) {
+        padding: {
+          top: $mu050;
+          bottom: $mu050;
+        }
+      }
+    }
+  }
+
+  // Type "Overlay"
+  &--overlay {
+    position: absolute;
+    z-index: 10;
   }
 }
