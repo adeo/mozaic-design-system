@@ -9,112 +9,20 @@
   @include set-font-face();
   @include set-accordion-size($accordion-default-size, $parent);
 
-  // TODO:
-  // this code with "label" is a backup code in order not to cause a breaking change
-  // it should be removed once the teams have migrated to the new version of the component
-  &__label {
-    @include set-font-weight("semi-bold");
-
-    @include set-focus-floating-base {
-      top: -(math.div($mu025, 2));
-      right: -(math.div($mu025, 2));
-      bottom: -3px;
-      left: -(math.div($mu025, 2));
-    }
-
-    background-position: right $mu050 center;
-    background-repeat: no-repeat;
-    color: $color-font-darker;
-    cursor: pointer;
-    display: block;
+  &__header {
     padding-left: $mu050;
     position: relative;
 
     &:hover {
       background-color: $color-grey-100;
     }
-
-    &--no-padding {
-      padding-left: 0;
-    }
-
-    &--icon {
-      display: flex;
-      align-items: center;
-      gap: $mu050;
-    }
   }
 
-  &__icon {
-    fill: $color-grey-500;
-  }
-
-  &__content {
-    @include set-font-scale("05", "m");
-
-    color: $color-font-dark;
-    height: auto;
-    max-height: 0;
-    overflow: hidden;
-    padding-left: $mu050;
-    transition: 0.3s ease-out;
-    visibility: hidden;
-  }
-
-  // TODO:
-  // this code with "input" as trigger is a backup code in order not to cause a breaking change
-  // it should be removed once the teams have migrated to the new version of the component
-  @at-root input#{$parent}__trigger {
-    @include visually-hidden();
-
-    &:checked {
-      ~ #{$parent}__content {
-        // NOTE: The max-height fixed value allows the CSS transition to run correctly
-        // The value 10000vh corresponds to 100 times the viewport height to manage longs contents
-        max-height: 10000vh;
-        padding-top: $mu050;
-        padding-bottom: calc(#{$mu150} - #{get-border(s)});
-        visibility: visible;
-      }
-    }
-
-    &:disabled {
-      ~ #{$parent}__label {
-        background-color: $color-grey-100;
-        color: $color-font-light;
-        cursor: not-allowed;
-      }
-
-      ~ #{$parent}__content {
-        color: $color-font-light;
-        cursor: not-allowed;
-      }
-    }
-
-    &:focus {
-      ~ #{$parent}__label {
-        @include set-focus-floating {
-          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
-        }
-      }
-    }
-
-    &:disabled:checked {
-      ~ #{$parent}__content {
-        max-height: none;
-        padding-top: $mu050;
-      }
-    }
-  }
-
-  // new HTML structure
-  &__header {
-    display: flex;
+  &__header,
+  button#{$parent}__trigger {
     align-items: center;
-
-    &:hover {
-      background-color: $color-grey-100;
-    }
+    display: flex;
+    gap: $mu050;
   }
 
   &__title {
@@ -131,25 +39,20 @@
   // TODO: @next - review the specificity of this selector
   button#{$parent}__trigger {
     @include unstyle-button($haspadding: false);
-    @include set-focus-floating-base {
+    @include set-focus-floating-base($position: false) {
       top: -(math.div($mu025, 2));
       right: -(math.div($mu025, 2));
       bottom: -3px;
       left: -(math.div($mu025, 2));
     }
 
-    background-position: right $mu050 center;
-    background-repeat: no-repeat;
     background-color: transparent;
     color: currentColor;
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
     line-height: inherit;
-    display: flex;
-    align-items: center;
-    gap: $mu050;
-    padding-left: $mu050;
+    padding-left: 0;
     text-align: left;
     width: 100%;
 
@@ -164,6 +67,23 @@
       color: $color-font-light;
       cursor: not-allowed;
     }
+  }
+
+  &__icon {
+    fill: $color-grey-500;
+  }
+
+  &__content {
+    @include set-font-scale("05", "m");
+
+    color: $color-font-dark;
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    padding-right: $mu050;
+    padding-left: $mu050;
+    transition: 0.3s ease-out;
+    visibility: hidden;
   }
 
   &.is-open {
@@ -184,25 +104,20 @@
     }
   }
 
-  &--checkable {
-    #{$parent} {
-      &__header {
-        padding-left: $mu050;
-        position: relative;
-      }
-
-      &__trigger {
-        position: static;
-      }
-    }
-  }
-
   &--no-padding {
     #{$parent} {
-      &__header,
-      &__trigger {
+      &__header {
         padding-left: 0;
       }
+
+      &__content {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    button#{$parent}__trigger::before {
+      right: 0;
     }
   }
 
