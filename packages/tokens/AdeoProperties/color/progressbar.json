@@ -10,9 +10,6 @@
       "percentage": {
         "default": {
           "value": "{color.grey.900.value}"
-        },
-        "half": {
-          "value": "{color.grey.000.value}"
         }
       }
     }
