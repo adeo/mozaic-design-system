@@ -52,38 +52,6 @@ $accordion-default-size: map-get($accordion-sizes, "m");
     }
   }
 
-  // TODO:
-  // this code with "input" as trigger is a backup code in order not to cause a breaking change
-  // it should be removed once the teams have migrated to the new version of the component
-  input#{$parent}__trigger {
-    &:checked {
-      ~ #{$parent}__label {
-        background-image: url(inline-icons(
-          $background-close,
-          $color-font-darker
-        ));
-      }
-    }
-
-    &:disabled {
-      ~ #{$parent}__label {
-        background-image: url(inline-icons(
-          $background-open,
-          $color-font-light
-        ));
-      }
-    }
-
-    &:disabled:checked {
-      ~ #{$parent}__label {
-        background-image: url(inline-icons(
-          $background-close,
-          $color-font-light
-        ));
-      }
-    }
-  }
-
   // new HTML structure
   #{$parent}__title {
     @include set-font-scale($font-size, "m");
@@ -101,7 +69,7 @@ $accordion-default-size: map-get($accordion-sizes, "m");
       content: "";
       position: absolute;
       top: calc(50% - math.div($background-size, 2));
-      right: 0.5rem;
+      right: $mu050;
       background-image: url(inline-icons($background-open, $color-font-darker));
       background-size: $background-size;
       width: $background-size;
