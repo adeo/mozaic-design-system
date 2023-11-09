@@ -21,7 +21,7 @@
   "dependencies": {
     "@mozaic-ds/gatsby-theme-styleguide": "^1.54.0",
     "adm-zip": "^0.5.10",
-    "chromedriver": "^113.0.0",
+    "chromedriver": "^119.0.1",
     "core-js": "^3.30.2",
     "gatsby": "^4.25.6",
     "gatsby-plugin-google-analytics": "^4.24.0",
