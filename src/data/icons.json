@@ -1675,9 +1675,9 @@
     {
       "cat": "ui",
       "size": "20",
-      "name": "External-link",
-      "fileName": "ui_External-link_20.svg",
-      "iconName": "Externallink",
+      "name": "external-link",
+      "fileName": "ui_external-link_20.svg",
+      "iconName": "externallink",
       "componentName": "ExternalLink20"
     },
     {
@@ -3819,9 +3819,9 @@
     {
       "cat": "ui",
       "size": "24",
-      "name": "External-link",
-      "fileName": "ui_External-link_24.svg",
-      "iconName": "Externallink",
+      "name": "external-link",
+      "fileName": "ui_external-link_24.svg",
+      "iconName": "externallink",
       "componentName": "ExternalLink24"
     },
     {
@@ -3995,9 +3995,9 @@
     {
       "cat": "ui",
       "size": "24",
-      "name": "Menu",
-      "fileName": "ui_Menu_24.svg",
-      "iconName": "Menu",
+      "name": "menu",
+      "fileName": "ui_menu_24.svg",
+      "iconName": "menu",
       "componentName": "Menu24"
     },
     {
@@ -5483,9 +5483,9 @@
     {
       "cat": "product",
       "size": "32",
-      "name": "House",
-      "fileName": "product_House_32.svg",
-      "iconName": "House",
+      "name": "house",
+      "fileName": "product_house_32.svg",
+      "iconName": "house",
       "componentName": "House32"
     },
     {
@@ -5963,9 +5963,9 @@
     {
       "cat": "ui",
       "size": "32",
-      "name": "External-link",
-      "fileName": "ui_External-link_32.svg",
-      "iconName": "Externallink",
+      "name": "external-link",
+      "fileName": "ui_external-link_32.svg",
+      "iconName": "externallink",
       "componentName": "ExternalLink32"
     },
     {
@@ -6139,9 +6139,9 @@
     {
       "cat": "ui",
       "size": "32",
-      "name": "Menu",
-      "fileName": "ui_Menu_32.svg",
-      "iconName": "Menu",
+      "name": "menu",
+      "fileName": "ui_menu_32.svg",
+      "iconName": "menu",
       "componentName": "Menu32"
     },
     {
@@ -6499,9 +6499,9 @@
     {
       "cat": "business",
       "size": "48",
-      "name": "Craftsman",
-      "fileName": "business_Craftsman_48.svg",
-      "iconName": "Craftsman",
+      "name": "craftsman",
+      "fileName": "business_craftsman_48.svg",
+      "iconName": "craftsman",
       "componentName": "Craftsman48"
     },
     {
@@ -7627,9 +7627,9 @@
     {
       "cat": "product",
       "size": "48",
-      "name": "House",
-      "fileName": "product_House_48.svg",
-      "iconName": "House",
+      "name": "house",
+      "fileName": "product_house_48.svg",
+      "iconName": "house",
       "componentName": "House48"
     },
     {
@@ -8107,9 +8107,9 @@
     {
       "cat": "ui",
       "size": "48",
-      "name": "External-link",
-      "fileName": "ui_External-link_48.svg",
-      "iconName": "Externallink",
+      "name": "external-link",
+      "fileName": "ui_external-link_48.svg",
+      "iconName": "externallink",
       "componentName": "ExternalLink48"
     },
     {
@@ -8283,9 +8283,9 @@
     {
       "cat": "ui",
       "size": "48",
-      "name": "Menu",
-      "fileName": "ui_Menu_48.svg",
-      "iconName": "Menu",
+      "name": "menu",
+      "fileName": "ui_menu_48.svg",
+      "iconName": "menu",
       "componentName": "Menu48"
     },
     {
@@ -9771,9 +9771,9 @@
     {
       "cat": "product",
       "size": "64",
-      "name": "House",
-      "fileName": "product_House_64.svg",
-      "iconName": "House",
+      "name": "house",
+      "fileName": "product_house_64.svg",
+      "iconName": "house",
       "componentName": "House64"
     },
     {
@@ -10251,9 +10251,9 @@
     {
       "cat": "ui",
       "size": "64",
-      "name": "External-link",
-      "fileName": "ui_External-link_64.svg",
-      "iconName": "Externallink",
+      "name": "external-link",
+      "fileName": "ui_external-link_64.svg",
+      "iconName": "externallink",
       "componentName": "ExternalLink64"
     },
     {
@@ -10347,9 +10347,9 @@
     {
       "cat": "ui",
       "size": "64",
-      "name": "Less",
-      "fileName": "ui_Less_64.svg",
-      "iconName": "Less",
+      "name": "less",
+      "fileName": "ui_less_64.svg",
+      "iconName": "less",
       "componentName": "Less64"
     },
     {
