@@ -1,8 +1,4 @@
-import {
-  ControlLess16,
-  ControlMore16,
-  DisplayExternalLink16,
-} from '@mozaic-ds/icons/react'
+import { Less20, More20, ExternalLink20 } from '@mozaic-ds/icons/react'
 import { graphql, StaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
@@ -193,8 +189,8 @@ class Menu extends Component {
               />
               {item.content.length > 0 && (
                 <ShowChildrenButton isOpened={item.isOpened} tabIndex={-1}>
-                  <ControlMore16 className="icon-open" fill="#554f52" />
-                  <ControlLess16 className="icon-close" fill="#554f52" />
+                  <More20 className="icon-open" fill="#554f52" />
+                  <Less20 className="icon-close" fill="#554f52" />
                 </ShowChildrenButton>
               )}
             </MenuItemContainer>
@@ -231,7 +227,7 @@ class Menu extends Component {
                       >
                         GitHub
                         <ShowChildrenButton tabIndex={-1}>
-                          <DisplayExternalLink16 fill="#554f52"></DisplayExternalLink16>
+                          <ExternalLink20 fill="#554f52" />
                         </ShowChildrenButton>
                       </GithubLink>
                     </MenuItemContainer>

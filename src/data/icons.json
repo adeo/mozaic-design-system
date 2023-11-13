@@ -1,765 +1,515 @@
 {
-  "color": [
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Brand_LM",
-      "fileName": "Logotypes_Brand_LM_24px.svg",
-      "iconName": "BrandLM"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Bizum",
-      "fileName": "Logotypes_Payment_Bizum_24px.svg",
-      "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Fintecture",
-      "fileName": "Logotypes_Payment_Fintecture_24px.svg",
-      "iconName": "PaymentFintecture"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_MB--Multibanco",
-      "fileName": "Logotypes_Payment_MB--Multibanco_24px.svg",
-      "iconName": "PaymentMBMultibanco"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_MB--Way",
-      "fileName": "Logotypes_Payment_MB--Way_24px.svg",
-      "iconName": "PaymentMBWay"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Oney",
-      "fileName": "Logotypes_Payment_Oney_24px.svg",
-      "iconName": "PaymentOney"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Oney--3x",
-      "fileName": "Logotypes_Payment_Oney--3x_24px.svg",
-      "iconName": "PaymentOney3x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Oney--3x4x",
-      "fileName": "Logotypes_Payment_Oney--3x4x_24px.svg",
-      "iconName": "PaymentOney3x4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Oney--4x",
-      "fileName": "Logotypes_Payment_Oney--4x_24px.svg",
-      "iconName": "PaymentOney4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_PayPal",
-      "fileName": "Logotypes_Payment_PayPal_24px.svg",
-      "iconName": "PaymentPayPal"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_AmericanExpress",
-      "fileName": "Payment_Cards_Colors_AmericanExpress_24px.svg",
-      "iconName": "CardsColorsAmericanExpress"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_CB",
-      "fileName": "Payment_Cards_Colors_CB_24px.svg",
-      "iconName": "CardsColorsCB"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Cheque",
-      "fileName": "Payment_Cards_Colors_Cheque_24px.svg",
-      "iconName": "CardsColorsCheque"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Gift",
-      "fileName": "Payment_Cards_Colors_Gift_24px.svg",
-      "iconName": "CardsColorsGift"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Illicado",
-      "fileName": "Payment_Cards_Colors_Illicado_24px.svg",
-      "iconName": "CardsColorsIllicado"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Loyalty",
-      "fileName": "Payment_Cards_Colors_Loyalty_24px.svg",
-      "iconName": "CardsColorsLoyalty"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Maestro",
-      "fileName": "Payment_Cards_Colors_Maestro_24px.svg",
-      "iconName": "CardsColorsMaestro"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Mastercard",
-      "fileName": "Payment_Cards_Colors_Mastercard_24px.svg",
-      "iconName": "CardsColorsMastercard"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Oney",
-      "fileName": "Payment_Cards_Colors_Oney_24px.svg",
-      "iconName": "CardsColorsOney"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_OneyX3",
-      "fileName": "Payment_Cards_Colors_OneyX3_24px.svg",
-      "iconName": "CardsColorsOneyX3"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_OneyX4",
-      "fileName": "Payment_Cards_Colors_OneyX4_24px.svg",
-      "iconName": "CardsColorsOneyX4"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Paylib",
-      "fileName": "Payment_Cards_Colors_Paylib_24px.svg",
-      "iconName": "CardsColorsPaylib"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Paypal",
-      "fileName": "Payment_Cards_Colors_Paypal_24px.svg",
-      "iconName": "CardsColorsPaypal"
-    },
-    {
-      "cat": "Payment",
-      "size": "24px",
-      "name": "Cards_Colors_Visa",
-      "fileName": "Payment_Cards_Colors_Visa_24px.svg",
-      "iconName": "CardsColorsVisa"
-    },
-    {
-      "cat": "Store",
-      "size": "24px",
-      "name": "Colors_RelayLocation",
-      "fileName": "Store_Colors_RelayLocation_24px.svg",
-      "iconName": "ColorsRelayLocation"
-    },
-    {
-      "cat": "Store",
-      "size": "24px",
-      "name": "Colors_StoreLocation",
-      "fileName": "Store_Colors_StoreLocation_24px.svg",
-      "iconName": "ColorsStoreLocation"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Brand_LM",
-      "fileName": "Logotypes_Brand_LM_32px.svg",
-      "iconName": "BrandLM"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Bizum",
-      "fileName": "Logotypes_Payment_Bizum_32px.svg",
-      "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Fintecture",
-      "fileName": "Logotypes_Payment_Fintecture_32px.svg",
-      "iconName": "PaymentFintecture"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_MB--Multibanco",
-      "fileName": "Logotypes_Payment_MB--Multibanco_32px.svg",
-      "iconName": "PaymentMBMultibanco"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_MB--Way",
-      "fileName": "Logotypes_Payment_MB--Way_32px.svg",
-      "iconName": "PaymentMBWay"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Oney",
-      "fileName": "Logotypes_Payment_Oney_32px.svg",
-      "iconName": "PaymentOney"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Oney--3x",
-      "fileName": "Logotypes_Payment_Oney--3x_32px.svg",
-      "iconName": "PaymentOney3x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Oney--3x4x",
-      "fileName": "Logotypes_Payment_Oney--3x4x_32px.svg",
-      "iconName": "PaymentOney3x4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Oney--4x",
-      "fileName": "Logotypes_Payment_Oney--4x_32px.svg",
-      "iconName": "PaymentOney4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_PayPal",
-      "fileName": "Logotypes_Payment_PayPal_32px.svg",
-      "iconName": "PaymentPayPal"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_AmericanExpress",
-      "fileName": "Payment_Cards_Colors_AmericanExpress_32px.svg",
-      "iconName": "CardsColorsAmericanExpress"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_CB",
-      "fileName": "Payment_Cards_Colors_CB_32px.svg",
-      "iconName": "CardsColorsCB"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Cheque",
-      "fileName": "Payment_Cards_Colors_Cheque_32px.svg",
-      "iconName": "CardsColorsCheque"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Gift",
-      "fileName": "Payment_Cards_Colors_Gift_32px.svg",
-      "iconName": "CardsColorsGift"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Illicado",
-      "fileName": "Payment_Cards_Colors_Illicado_32px.svg",
-      "iconName": "CardsColorsIllicado"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Loyalty",
-      "fileName": "Payment_Cards_Colors_Loyalty_32px.svg",
-      "iconName": "CardsColorsLoyalty"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Maestro",
-      "fileName": "Payment_Cards_Colors_Maestro_32px.svg",
-      "iconName": "CardsColorsMaestro"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Mastercard",
-      "fileName": "Payment_Cards_Colors_Mastercard_32px.svg",
-      "iconName": "CardsColorsMastercard"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Oney",
-      "fileName": "Payment_Cards_Colors_Oney_32px.svg",
-      "iconName": "CardsColorsOney"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_OneyX3",
-      "fileName": "Payment_Cards_Colors_OneyX3_32px.svg",
-      "iconName": "CardsColorsOneyX3"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_OneyX4",
-      "fileName": "Payment_Cards_Colors_OneyX4_32px.svg",
-      "iconName": "CardsColorsOneyX4"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Paylib",
-      "fileName": "Payment_Cards_Colors_Paylib_32px.svg",
-      "iconName": "CardsColorsPaylib"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Paypal",
-      "fileName": "Payment_Cards_Colors_Paypal_32px.svg",
-      "iconName": "CardsColorsPaypal"
-    },
-    {
-      "cat": "Payment",
-      "size": "32px",
-      "name": "Cards_Colors_Visa",
-      "fileName": "Payment_Cards_Colors_Visa_32px.svg",
-      "iconName": "CardsColorsVisa"
-    },
-    {
-      "cat": "Store",
-      "size": "32px",
-      "name": "Colors_RelayLocation",
-      "fileName": "Store_Colors_RelayLocation_32px.svg",
-      "iconName": "ColorsRelayLocation"
-    },
-    {
-      "cat": "Store",
-      "size": "32px",
-      "name": "Colors_StoreLocation",
-      "fileName": "Store_Colors_StoreLocation_32px.svg",
-      "iconName": "ColorsStoreLocation"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Brand_LM",
-      "fileName": "Logotypes_Brand_LM_48px.svg",
-      "iconName": "BrandLM"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Bizum",
-      "fileName": "Logotypes_Payment_Bizum_48px.svg",
-      "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Fintecture",
-      "fileName": "Logotypes_Payment_Fintecture_48px.svg",
-      "iconName": "PaymentFintecture"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_MB--Multibanco",
-      "fileName": "Logotypes_Payment_MB--Multibanco_48px.svg",
-      "iconName": "PaymentMBMultibanco"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_MB--Way",
-      "fileName": "Logotypes_Payment_MB--Way_48px.svg",
-      "iconName": "PaymentMBWay"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Oney",
-      "fileName": "Logotypes_Payment_Oney_48px.svg",
-      "iconName": "PaymentOney"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Oney--3x",
-      "fileName": "Logotypes_Payment_Oney--3x_48px.svg",
-      "iconName": "PaymentOney3x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Oney--3x4x",
-      "fileName": "Logotypes_Payment_Oney--3x4x_48px.svg",
-      "iconName": "PaymentOney3x4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Oney--4x",
-      "fileName": "Logotypes_Payment_Oney--4x_48px.svg",
-      "iconName": "PaymentOney4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_PayPal",
-      "fileName": "Logotypes_Payment_PayPal_48px.svg",
-      "iconName": "PaymentPayPal"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_AmericanExpress",
-      "fileName": "Payment_Cards_Colors_AmericanExpress_48px.svg",
-      "iconName": "CardsColorsAmericanExpress"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_CB",
-      "fileName": "Payment_Cards_Colors_CB_48px.svg",
-      "iconName": "CardsColorsCB"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Cheque",
-      "fileName": "Payment_Cards_Colors_Cheque_48px.svg",
-      "iconName": "CardsColorsCheque"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Gift",
-      "fileName": "Payment_Cards_Colors_Gift_48px.svg",
-      "iconName": "CardsColorsGift"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Illicado",
-      "fileName": "Payment_Cards_Colors_Illicado_48px.svg",
-      "iconName": "CardsColorsIllicado"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Loyalty",
-      "fileName": "Payment_Cards_Colors_Loyalty_48px.svg",
-      "iconName": "CardsColorsLoyalty"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Maestro",
-      "fileName": "Payment_Cards_Colors_Maestro_48px.svg",
-      "iconName": "CardsColorsMaestro"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Mastercard",
-      "fileName": "Payment_Cards_Colors_Mastercard_48px.svg",
-      "iconName": "CardsColorsMastercard"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Oney",
-      "fileName": "Payment_Cards_Colors_Oney_48px.svg",
-      "iconName": "CardsColorsOney"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_OneyX3",
-      "fileName": "Payment_Cards_Colors_OneyX3_48px.svg",
-      "iconName": "CardsColorsOneyX3"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_OneyX4",
-      "fileName": "Payment_Cards_Colors_OneyX4_48px.svg",
-      "iconName": "CardsColorsOneyX4"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Paylib",
-      "fileName": "Payment_Cards_Colors_Paylib_48px.svg",
-      "iconName": "CardsColorsPaylib"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Paypal",
-      "fileName": "Payment_Cards_Colors_Paypal_48px.svg",
-      "iconName": "CardsColorsPaypal"
-    },
-    {
-      "cat": "Payment",
-      "size": "48px",
-      "name": "Cards_Colors_Visa",
-      "fileName": "Payment_Cards_Colors_Visa_48px.svg",
-      "iconName": "CardsColorsVisa"
-    },
-    {
-      "cat": "Store",
-      "size": "48px",
-      "name": "Colors_RelayLocation",
-      "fileName": "Store_Colors_RelayLocation_48px.svg",
-      "iconName": "ColorsRelayLocation"
-    },
-    {
-      "cat": "Store",
-      "size": "48px",
-      "name": "Colors_StoreLocation",
-      "fileName": "Store_Colors_StoreLocation_48px.svg",
-      "iconName": "ColorsStoreLocation"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Brand_LM",
-      "fileName": "Logotypes_Brand_LM_64px.svg",
-      "iconName": "BrandLM"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Bizum",
-      "fileName": "Logotypes_Payment_Bizum_64px.svg",
-      "iconName": "PaymentBizum"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Fintecture",
-      "fileName": "Logotypes_Payment_Fintecture_64px.svg",
-      "iconName": "PaymentFintecture"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_MB--Multibanco",
-      "fileName": "Logotypes_Payment_MB--Multibanco_64px.svg",
-      "iconName": "PaymentMBMultibanco"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_MB--Way",
-      "fileName": "Logotypes_Payment_MB--Way_64px.svg",
-      "iconName": "PaymentMBWay"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Oney",
-      "fileName": "Logotypes_Payment_Oney_64px.svg",
-      "iconName": "PaymentOney"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Oney--3x",
-      "fileName": "Logotypes_Payment_Oney--3x_64px.svg",
-      "iconName": "PaymentOney3x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Oney--3x4x",
-      "fileName": "Logotypes_Payment_Oney--3x4x_64px.svg",
-      "iconName": "PaymentOney3x4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Oney--4x",
-      "fileName": "Logotypes_Payment_Oney--4x_64px.svg",
-      "iconName": "PaymentOney4x"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_PayPal",
-      "fileName": "Logotypes_Payment_PayPal_64px.svg",
-      "iconName": "PaymentPayPal"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_AmericanExpress",
-      "fileName": "Payment_Cards_Colors_AmericanExpress_64px.svg",
-      "iconName": "CardsColorsAmericanExpress"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_CB",
-      "fileName": "Payment_Cards_Colors_CB_64px.svg",
-      "iconName": "CardsColorsCB"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Cheque",
-      "fileName": "Payment_Cards_Colors_Cheque_64px.svg",
-      "iconName": "CardsColorsCheque"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Gift",
-      "fileName": "Payment_Cards_Colors_Gift_64px.svg",
-      "iconName": "CardsColorsGift"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Illicado",
-      "fileName": "Payment_Cards_Colors_Illicado_64px.svg",
-      "iconName": "CardsColorsIllicado"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Loyalty",
-      "fileName": "Payment_Cards_Colors_Loyalty_64px.svg",
-      "iconName": "CardsColorsLoyalty"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Maestro",
-      "fileName": "Payment_Cards_Colors_Maestro_64px.svg",
-      "iconName": "CardsColorsMaestro"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Mastercard",
-      "fileName": "Payment_Cards_Colors_Mastercard_64px.svg",
-      "iconName": "CardsColorsMastercard"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Oney",
-      "fileName": "Payment_Cards_Colors_Oney_64px.svg",
-      "iconName": "CardsColorsOney"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_OneyX3",
-      "fileName": "Payment_Cards_Colors_OneyX3_64px.svg",
-      "iconName": "CardsColorsOneyX3"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_OneyX4",
-      "fileName": "Payment_Cards_Colors_OneyX4_64px.svg",
-      "iconName": "CardsColorsOneyX4"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Paylib",
-      "fileName": "Payment_Cards_Colors_Paylib_64px.svg",
-      "iconName": "CardsColorsPaylib"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Paypal",
-      "fileName": "Payment_Cards_Colors_Paypal_64px.svg",
-      "iconName": "CardsColorsPaypal"
-    },
-    {
-      "cat": "Payment",
-      "size": "64px",
-      "name": "Cards_Colors_Visa",
-      "fileName": "Payment_Cards_Colors_Visa_64px.svg",
-      "iconName": "CardsColorsVisa"
-    },
-    {
-      "cat": "Store",
-      "size": "64px",
-      "name": "Colors_RelayLocation",
-      "fileName": "Store_Colors_RelayLocation_64px.svg",
-      "iconName": "ColorsRelayLocation"
-    },
-    {
-      "cat": "Store",
-      "size": "64px",
-      "name": "Colors_StoreLocation",
-      "fileName": "Store_Colors_StoreLocation_64px.svg",
-      "iconName": "ColorsStoreLocation"
-    }
-  ],
   "monochrom": [
     {
-      "cat": "Media",
-      "size": "24px",
-      "name": "Release",
-      "fileName": "Media_Release_24px.svg",
-      "iconName": "Release",
+      "cat": "business",
+      "size": "20",
+      "name": "craftsman",
+      "fileName": "business_craftsman_20.svg",
+      "iconName": "craftsman",
+      "componentName": "Craftsman20"
+    },
+    {
+      "cat": "business",
+      "size": "20",
+      "name": "pin-lm-store",
+      "fileName": "business_pin-lm-store_20.svg",
+      "iconName": "pinlmstore",
+      "componentName": "PinLmStore20"
+    },
+    {
+      "cat": "business",
+      "size": "20",
+      "name": "premium",
+      "fileName": "business_premium_20.svg",
+      "iconName": "premium",
+      "componentName": "Premium20"
+    },
+    {
+      "cat": "product",
+      "size": "20",
+      "name": "house",
+      "fileName": "product_house_20.svg",
+      "iconName": "house",
+      "componentName": "House20"
+    },
+    {
+      "cat": "product",
+      "size": "20",
+      "name": "toolbox",
+      "fileName": "product_toolbox_20.svg",
+      "iconName": "toolbox",
+      "componentName": "Toolbox20"
+    },
+    {
+      "cat": "ui",
+      "size": "20",
+      "name": "check-circle",
+      "fileName": "ui_check-circle_20.svg",
+      "iconName": "checkcircle",
+      "componentName": "CheckCircle20"
+    },
+    {
+      "cat": "ui",
+      "size": "20",
+      "name": "chevron-down",
+      "fileName": "ui_chevron-down_20.svg",
+      "iconName": "chevrondown",
+      "componentName": "ChevronDown20"
+    },
+    {
+      "cat": "ui",
+      "size": "20",
+      "name": "cross",
+      "fileName": "ui_cross_20.svg",
+      "iconName": "cross",
+      "componentName": "Cross20"
+    },
+    {
+      "cat": "ui",
+      "size": "20",
+      "name": "external-link",
+      "fileName": "ui_external-link_20.svg",
+      "iconName": "externallink",
+      "componentName": "ExternalLink20"
+    },
+    {
+      "cat": "ui",
+      "size": "20",
+      "name": "less",
+      "fileName": "ui_less_20.svg",
+      "iconName": "less",
+      "componentName": "Less20"
+    },
+    {
+      "cat": "ui",
+      "size": "20",
+      "name": "menu",
+      "fileName": "ui_menu_20.svg",
+      "iconName": "menu",
+      "componentName": "Menu20"
+    },
+    {
+      "cat": "ui",
+      "size": "20",
+      "name": "more",
+      "fileName": "ui_more_20.svg",
+      "iconName": "more",
+      "componentName": "More20"
+    },
+    {
+      "cat": "business",
+      "size": "24",
+      "name": "craftsman",
+      "fileName": "business_craftsman_24.svg",
+      "iconName": "craftsman",
+      "componentName": "Craftsman24"
+    },
+    {
+      "cat": "business",
+      "size": "24",
+      "name": "pin-lm-store",
+      "fileName": "business_pin-lm-store_24.svg",
+      "iconName": "pinlmstore",
+      "componentName": "PinLmStore24"
+    },
+    {
+      "cat": "business",
+      "size": "24",
+      "name": "premium",
+      "fileName": "business_premium_24.svg",
+      "iconName": "premium",
+      "componentName": "Premium24"
+    },
+    {
+      "cat": "product",
+      "size": "24",
+      "name": "house",
+      "fileName": "product_house_24.svg",
+      "iconName": "house",
+      "componentName": "House24"
+    },
+    {
+      "cat": "product",
+      "size": "24",
+      "name": "toolbox",
+      "fileName": "product_toolbox_24.svg",
+      "iconName": "toolbox",
+      "componentName": "Toolbox24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "check-circle",
+      "fileName": "ui_check-circle_24.svg",
+      "iconName": "checkcircle",
+      "componentName": "CheckCircle24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "chevron-down",
+      "fileName": "ui_chevron-down_24.svg",
+      "iconName": "chevrondown",
+      "componentName": "ChevronDown24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "cross",
+      "fileName": "ui_cross_24.svg",
+      "iconName": "cross",
+      "componentName": "Cross24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "external-link",
+      "fileName": "ui_external-link_24.svg",
+      "iconName": "externallink",
+      "componentName": "ExternalLink24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "less",
+      "fileName": "ui_less_24.svg",
+      "iconName": "less",
+      "componentName": "Less24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "menu",
+      "fileName": "ui_menu_24.svg",
+      "iconName": "menu",
+      "componentName": "Menu24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "more",
+      "fileName": "ui_more_24.svg",
+      "iconName": "more",
+      "componentName": "More24"
+    },
+    {
+      "cat": "ui",
+      "size": "24",
+      "name": "release",
+      "fileName": "ui_release_24.svg",
+      "iconName": "release",
       "componentName": "Release24"
     },
     {
-      "cat": "Media",
-      "size": "32px",
-      "name": "Release",
-      "fileName": "Media_Release_32px.svg",
-      "iconName": "Release",
+      "cat": "business",
+      "size": "32",
+      "name": "craftsman",
+      "fileName": "business_craftsman_32.svg",
+      "iconName": "craftsman",
+      "componentName": "Craftsman32"
+    },
+    {
+      "cat": "business",
+      "size": "32",
+      "name": "pin-lm-store",
+      "fileName": "business_pin-lm-store_32.svg",
+      "iconName": "pinlmstore",
+      "componentName": "PinLmStore32"
+    },
+    {
+      "cat": "business",
+      "size": "32",
+      "name": "premium",
+      "fileName": "business_premium_32.svg",
+      "iconName": "premium",
+      "componentName": "Premium32"
+    },
+    {
+      "cat": "product",
+      "size": "32",
+      "name": "house",
+      "fileName": "product_house_32.svg",
+      "iconName": "house",
+      "componentName": "House32"
+    },
+    {
+      "cat": "product",
+      "size": "32",
+      "name": "toolbox",
+      "fileName": "product_toolbox_32.svg",
+      "iconName": "toolbox",
+      "componentName": "Toolbox32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "check-circle",
+      "fileName": "ui_check-circle_32.svg",
+      "iconName": "checkcircle",
+      "componentName": "CheckCircle32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "chevron-down",
+      "fileName": "ui_chevron-down_32.svg",
+      "iconName": "chevrondown",
+      "componentName": "ChevronDown32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "cross",
+      "fileName": "ui_cross_32.svg",
+      "iconName": "cross",
+      "componentName": "Cross32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "external-link",
+      "fileName": "ui_external-link_32.svg",
+      "iconName": "externallink",
+      "componentName": "ExternalLink32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "less",
+      "fileName": "ui_less_32.svg",
+      "iconName": "less",
+      "componentName": "Less32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "menu",
+      "fileName": "ui_menu_32.svg",
+      "iconName": "menu",
+      "componentName": "Menu32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "more",
+      "fileName": "ui_more_32.svg",
+      "iconName": "more",
+      "componentName": "More32"
+    },
+    {
+      "cat": "ui",
+      "size": "32",
+      "name": "release",
+      "fileName": "ui_release_32.svg",
+      "iconName": "release",
       "componentName": "Release32"
     },
     {
-      "cat": "Media",
-      "size": "48px",
-      "name": "Release",
-      "fileName": "Media_Release_48px.svg",
-      "iconName": "Release",
+      "cat": "business",
+      "size": "48",
+      "name": "craftsman",
+      "fileName": "business_craftsman_48.svg",
+      "iconName": "craftsman",
+      "componentName": "Craftsman48"
+    },
+    {
+      "cat": "business",
+      "size": "48",
+      "name": "pin-lm-store",
+      "fileName": "business_pin-lm-store_48.svg",
+      "iconName": "pinlmstore",
+      "componentName": "PinLmStore48"
+    },
+    {
+      "cat": "business",
+      "size": "48",
+      "name": "premium",
+      "fileName": "business_premium_48.svg",
+      "iconName": "premium",
+      "componentName": "Premium48"
+    },
+    {
+      "cat": "product",
+      "size": "48",
+      "name": "house",
+      "fileName": "product_house_48.svg",
+      "iconName": "house",
+      "componentName": "House48"
+    },
+    {
+      "cat": "product",
+      "size": "48",
+      "name": "toolbox",
+      "fileName": "product_toolbox_48.svg",
+      "iconName": "toolbox",
+      "componentName": "Toolbox48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "check-circle",
+      "fileName": "ui_check-circle_48.svg",
+      "iconName": "checkcircle",
+      "componentName": "CheckCircle48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "chevron-down",
+      "fileName": "ui_chevron-down_48.svg",
+      "iconName": "chevrondown",
+      "componentName": "ChevronDown48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "cross",
+      "fileName": "ui_cross_48.svg",
+      "iconName": "cross",
+      "componentName": "Cross48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "external-link",
+      "fileName": "ui_external-link_48.svg",
+      "iconName": "externallink",
+      "componentName": "ExternalLink48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "less",
+      "fileName": "ui_less_48.svg",
+      "iconName": "less",
+      "componentName": "Less48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "menu",
+      "fileName": "ui_menu_48.svg",
+      "iconName": "menu",
+      "componentName": "Menu48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "more",
+      "fileName": "ui_more_48.svg",
+      "iconName": "more",
+      "componentName": "More48"
+    },
+    {
+      "cat": "ui",
+      "size": "48",
+      "name": "release",
+      "fileName": "ui_release_48.svg",
+      "iconName": "release",
       "componentName": "Release48"
     },
     {
-      "cat": "Media",
-      "size": "64px",
-      "name": "Release",
-      "fileName": "Media_Release_64px.svg",
-      "iconName": "Release",
+      "cat": "business",
+      "size": "64",
+      "name": "craftsman",
+      "fileName": "business_craftsman_64.svg",
+      "iconName": "craftsman",
+      "componentName": "Craftsman64"
+    },
+    {
+      "cat": "business",
+      "size": "64",
+      "name": "pin-lm-store",
+      "fileName": "business_pin-lm-store_64.svg",
+      "iconName": "pinlmstore",
+      "componentName": "PinLmStore64"
+    },
+    {
+      "cat": "business",
+      "size": "64",
+      "name": "premium",
+      "fileName": "business_premium_64.svg",
+      "iconName": "premium",
+      "componentName": "Premium64"
+    },
+    {
+      "cat": "product",
+      "size": "64",
+      "name": "house",
+      "fileName": "product_house_64.svg",
+      "iconName": "house",
+      "componentName": "House64"
+    },
+    {
+      "cat": "product",
+      "size": "64",
+      "name": "toolbox",
+      "fileName": "product_toolbox_64.svg",
+      "iconName": "toolbox",
+      "componentName": "Toolbox64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "check-circle",
+      "fileName": "ui_check-circle_64.svg",
+      "iconName": "checkcircle",
+      "componentName": "CheckCircle64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "chevron-down",
+      "fileName": "ui_chevron-down_64.svg",
+      "iconName": "chevrondown",
+      "componentName": "ChevronDown64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "cross",
+      "fileName": "ui_cross_64.svg",
+      "iconName": "cross",
+      "componentName": "Cross64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "external-link",
+      "fileName": "ui_external-link_64.svg",
+      "iconName": "externallink",
+      "componentName": "ExternalLink64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "less",
+      "fileName": "ui_less_64.svg",
+      "iconName": "less",
+      "componentName": "Less64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "menu",
+      "fileName": "ui_menu_64.svg",
+      "iconName": "menu",
+      "componentName": "Menu64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "more",
+      "fileName": "ui_more_64.svg",
+      "iconName": "more",
+      "componentName": "More64"
+    },
+    {
+      "cat": "ui",
+      "size": "64",
+      "name": "release",
+      "fileName": "ui_release_64.svg",
+      "iconName": "release",
       "componentName": "Release64"
     }
   ]
