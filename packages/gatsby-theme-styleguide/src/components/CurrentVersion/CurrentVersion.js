@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { ArrowArrowBottom16 } from '../icons'
+import { ChevronDown20 } from '../icons'
 import * as styles from './currentversion.module.css'
 
 function CurrentVersion() {
@@ -15,7 +15,7 @@ function CurrentVersion() {
   return (
     <div className={styles.container}>
       {data.githubRelease.tagName}
-      <ArrowArrowBottom16 fill="currentColor" />
+      <ChevronDown20 fill="currentColor" />
     </div>
   )
 }

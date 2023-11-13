@@ -8,35 +8,35 @@ const buildIconData = (name, icons) => {
     name: { name },
     currentSize: '48px',
     sizes: {
-      '16px': {
+      20: {
         url: null,
         component: null,
         fileName: null,
         fullName: null,
         iconName: null,
       },
-      '24px': {
+      24: {
         url: null,
         component: null,
         fileName: null,
         fullName: null,
         iconName: null,
       },
-      '32px': {
+      32: {
         url: null,
         component: null,
         fileName: null,
         fullName: null,
         iconName: null,
       },
-      '48px': {
+      48: {
         url: null,
         component: null,
         fileName: null,
         fullName: null,
         iconName: null,
       },
-      '64px': {
+      64: {
         url: null,
         component: null,
         fileName: null,
@@ -93,17 +93,7 @@ const IconTile = (props) => {
     <li className={styles.detail}>
       <p className={styles.iconName}>{name}</p>
       <div className={styles.iconWrapper}>
-        {props.type === 'monochrom' ? (
-          <IconSVG fill="#454545" size={currentSize} />
-        ) : (
-          <img
-            src={`/colorsvg/${allIcon[currentSize].fileName}`}
-            alt={allIcon[currentSize].fileName}
-            height={currentSize}
-            width={currentSize}
-            loading="lazy"
-          />
-        )}
+        <IconSVG fill="#454545" size={currentSize} />
       </div>
       <ul className={styles.sizeList}>
         {Object.keys(dataIcon.sizes).map((size) => (

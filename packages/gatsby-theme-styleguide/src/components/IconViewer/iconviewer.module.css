@@ -105,3 +105,171 @@
   position: relative;
   word-break: break-all;
 }
+
+/* Temporary */
+/* //TODO: See later if you can use the McTextInput component directly */
+:global {
+  .mc-text-input {
+    font-family: 'LeroyMerlin', sans-serif;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    /* for mozilla */
+    /* stylelint-disable-next-line */
+    font-size: 1rem;
+    line-height: 1.375;
+    min-height: 3rem;
+    padding: 0.75rem 0.6875rem;
+    -webkit-transition: -webkit-box-shadow 200ms ease;
+    transition: -webkit-box-shadow 200ms ease;
+    -o-transition: box-shadow 200ms ease;
+    transition: box-shadow 200ms ease;
+    transition:
+      box-shadow 200ms ease,
+      -webkit-box-shadow 200ms ease;
+    display: block;
+    width: 100%;
+    position: relative;
+    border: 1px solid #666666;
+    color: #191919;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  .mc-text-input[type='number']::-webkit-inner-spin-button,
+  .mc-text-input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .mc-text-input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  .mc-text-input[type='search']::-webkit-search-decoration:hover,
+  .mc-text-input[type='search']::-webkit-search-cancel-button:hover {
+    cursor: pointer;
+  }
+  .mc-text-input::-webkit-input-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input::-moz-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input:-ms-input-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input::-ms-input-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input::placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input::-webkit-input-placeholder {
+    margin: 0;
+    color: #666666;
+    opacity: 1;
+  }
+  .mc-text-input::-moz-placeholder {
+    margin: 0;
+    color: #666666;
+    opacity: 1;
+  }
+  .mc-text-input:-ms-input-placeholder {
+    margin: 0;
+    color: #666666;
+    opacity: 1;
+  }
+  .mc-text-input::-ms-input-placeholder {
+    margin: 0;
+    color: #666666;
+    opacity: 1;
+  }
+  .mc-text-input::placeholder {
+    margin: 0;
+    color: #666666;
+    opacity: 1;
+  }
+  .mc-text-input.is-valid,
+  .mc-text-input.is-invalid {
+    background-repeat: no-repeat;
+    background-size: 1.5rem 1.5rem;
+    background-position: right 0.4375rem center;
+    padding-right: 2.5rem;
+  }
+  .mc-text-input.is-valid {
+    border-color: #46a610;
+    background-image: url('data:image/svg+xml,');
+  }
+  .mc-text-input.is-valid:hover,
+  .mc-text-input.is-valid.is-hover {
+    border-color: #035010;
+  }
+  .mc-text-input.is-invalid {
+    border-color: #c61112;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1.5rem' width='1.5rem' viewBox='0 0 24 24' fill='%23c61112'%3E%3Cpath d='M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8z'/%3E%3Cpath d='M12 7a1 1 0 00-1 1v4.38a1 1 0 002 0V8a1 1 0 00-1-1z'/%3E%3Ccircle cx='12' cy='16' r='1'/%3E%3C/svg%3E");
+  }
+  .mc-text-input.is-invalid:hover,
+  .mc-text-input.is-invalid.is-hover {
+    border-color: #530000;
+  }
+  .mc-text-input.is-hover,
+  .mc-text-input:hover {
+    border-color: #191919;
+  }
+
+  .mc-text-input.is-focus,
+  .mc-text-input:focus {
+    -webkit-box-shadow:
+      0 0 0 0.125rem #ffffff,
+      0 0 0 0.25rem #0b96cc;
+    box-shadow:
+      0 0 0 0.125rem #ffffff,
+      0 0 0 0.25rem #0b96cc;
+  }
+
+  .mc-text-input:disabled {
+    background: #e6e6e6;
+    border-color: #e6e6e6;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  .mc-text-input--m {
+    font-size: 1rem;
+    line-height: 1.375;
+    min-height: 3rem;
+    padding: 0.75rem 0.6875rem;
+  }
+  .mc-text-input--m::-webkit-input-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input--m::-moz-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input--m:-ms-input-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input--m::-ms-input-placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+  .mc-text-input--m::placeholder {
+    font-size: 1rem;
+    line-height: 1.375;
+  }
+}

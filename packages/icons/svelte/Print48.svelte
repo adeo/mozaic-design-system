@@ -7,4 +7,6 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M32 17a1 1 0 001 1h5a1 1 0 000-2h-5a1 1 0 00-1 1z"/><path d="M42 10h-4V6a2 2 0 00-2-2H12a2 2 0 00-2 2v4H6a2 2 0 00-2 2v24a2 2 0 002 2h4v4a2 2 0 002 2h24a2 2 0 002-2v-4h4a2 2 0 002-2V12a2 2 0 00-2-2zM13 7h22v3H13zm22 28v6H13V27h22zm6 0h-3v-8.09a1.5 1.5 0 00-.5-2.91h-27a1.5 1.5 0 00-.5 2.91V35H7V13h34z"/><path d="M17 32h14a1 1 0 000-2H17a1 1 0 000 2zM17 38h14a1 1 0 000-2H17a1 1 0 000 2z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <path fill-rule="evenodd" d="M12.5 6A1.5 1.5 0 0 1 14 4.5h20A1.5 1.5 0 0 1 35.5 6v4.5H42a1.5 1.5 0 0 1 1.5 1.5v24a1.5 1.5 0 0 1-1.5 1.5h-6.5V42a1.5 1.5 0 0 1-1.5 1.5H14a1.5 1.5 0 0 1-1.5-1.5v-4.5H6A1.5 1.5 0 0 1 4.5 36V12A1.5 1.5 0 0 1 6 10.5h6.5V6Zm20 1.5v3h-17v-3h17Zm1.5 6H7.5v21h5v-7H12a1.5 1.5 0 0 1 0-3h24a1.5 1.5 0 0 1 0 3h-.5v7h5v-21H34ZM15.5 36v4.5h17v-13h-17V36ZM32 17a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2h-4ZM19 32a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1Zm1 3a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8Z"/>
+</svg>

@@ -15,10 +15,7 @@ import PatternsStatusTable from '../components/PatternsStatusTable'
 import Story from '../components/Story'
 import SubContents from '../components/SubContents'
 import TableOfContents from '../components/TableOfContents'
-import {
-  ControlCross16,
-  NotificationCircleAvailable24,
-} from '../components/icons'
+import { Cross20, CheckCircle20 } from '../components/icons'
 import * as styles from './contentpage.module.css'
 
 const components = {
@@ -33,8 +30,8 @@ const components = {
   PatternsStatusTable,
   Story,
   SubContents,
-  ControlCross16,
-  NotificationCircleAvailable24,
+  Cross20,
+  CheckCircle20,
 }
 
 function orderPageTab(tabs) {

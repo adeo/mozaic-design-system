@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { ControlCross24, DisplayMenu24 } from '../icons'
+import { Cross24, Menu24 } from '../icons'
 import * as styles from './menu.module.css'
 
 const MenuButton = () => {
@@ -37,8 +37,8 @@ const MenuButton = () => {
       aria-label="Open/Close Menu"
       onClick={handleClick}
     >
-      <DisplayMenu24 className={styles.triggerMenuOpen} fill="currentColor" />
-      <ControlCross24 className={styles.triggerMenuClose} fill="currentColor" />
+      <Menu24 className={styles.triggerMenuOpen} fill="currentColor" />
+      <Cross24 className={styles.triggerMenuClose} fill="currentColor" />
     </button>
   )
 }

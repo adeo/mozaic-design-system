@@ -1,17 +1,27 @@
 import * as React from 'react'
 
 /** Mozaic Icons */
-export const ArrowArrowBottom16 = ({ className, fill }) => {
+export const ChevronDown20 = ({ className, fill }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 16 16"
+      viewBox="0 0 20 20"
       className={className}
       fill={fill}
-      width="1rem"
-      height="1rem"
+      width="1.25rem"
+      height="1.25rem"
     >
-      <path d="M3.293 5.293a1 1 0 011.414 0L8 8.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
+      <g clip-path="url(#a)">
+        <path
+          fill-rule="evenodd"
+          d="M4.136 5.803a.75.75 0 0 1 1.061 0L8 8.606l2.803-2.803a.75.75 0 0 1 1.06 1.06L8.53 10.198a.75.75 0 0 1-1.06 0L4.136 6.864a.75.75 0 0 1 0-1.06Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="a">
+          <rect width="16" height="16" fill="#fff" />
+        </clipPath>
+      </defs>
     </svg>
   )
 }
@@ -46,40 +56,68 @@ export const ControlMore16 = ({ className, fill }) => {
   )
 }
 
-export const DisplayExternalLink16 = ({ className, fill }) => {
+export const ExternalLink20 = ({ className, fill }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 16 16"
+      viewBox="0 0 20 20"
       className={className}
       fill={fill}
-      width="1rem"
-      height="1rem"
+      width="1.25rem"
+      height="1.25rem"
     >
       <path
-        fillRule="evenodd"
-        d="M9 2a1 1 0 000 2h1.586L6.293 8.293a1 1 0 001.414 1.414L12 5.414V7a1 1 0 102 0V3a1 1 0 00-1-1H9zM3 4a1 1 0 00-1 1v8a1 1 0 001 1h8a1 1 0 001-1v-2a1 1 0 10-2 0v1H4V6h1a1 1 0 000-2H3z"
+        fill-rule="evenodd"
+        d="M10.083 2.5c0 .414.336.75.75.75h4.856l-8.72 8.72a.75.75 0 1 0 1.061 1.06l8.72-8.72v4.857a.75.75 0 0 0 1.5 0V2.5a.75.75 0 0 0-.75-.75h-6.667a.75.75 0 0 0-.75.75ZM2.5 5.083a.75.75 0 0 0-.75.75V17.5c0 .414.336.75.75.75h11.667a.75.75 0 0 0 .75-.75v-3.333a.75.75 0 0 0-1.5 0v2.583H3.25V6.583h2.583a.75.75 0 1 0 0-1.5H2.5Z"
       />
     </svg>
   )
 }
 
-export const ControlCross16 = ({ className, fill }) => {
+export const Cross20 = ({ className, fill }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 16 16"
+      viewBox="0 0 20 20"
       className={className}
       fill={fill}
-      width="1rem"
-      height="1rem"
+      width="1.25rem"
+      height="1.25rem"
     >
-      <path d="M9.41 8l3.3-3.29a1 1 0 10-1.42-1.42L8 6.59l-3.29-3.3a1 1 0 00-1.42 1.42L6.59 8l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0L8 9.41l3.29 3.3a1 1 0 001.42 0 1 1 0 000-1.42z" />
+      <g clip-path="url(#a)">
+        <path
+          fill-rule="evenodd"
+          d="M16.364 4.697a.75.75 0 1 0-1.061-1.06L10 8.938 4.697 3.636a.75.75 0 0 0-1.06 1.06L8.938 10l-5.303 5.303a.75.75 0 0 0 1.061 1.06L10 11.06l5.303 5.303a.75.75 0 0 0 1.06-1.06L11.062 10l5.303-5.303Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="a">
+          <rect width="20" height="20" fill="#fff" />
+        </clipPath>
+      </defs>
     </svg>
   )
 }
 
-export const NotificationCircleAvailable24 = ({ className, fill }) => {
+export const CheckCircle20 = ({ className, fill }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      className={className}
+      fill={fill}
+      width="1.25rem"
+      height="1.25rem"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M3.25 10a6.75 6.75 0 1 1 13.5 0 6.75 6.75 0 0 1-13.5 0ZM10 1.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Zm4.28 6.697a.75.75 0 0 0-1.06-1.06l-4.053 4.052-1.97-1.97a.75.75 0 0 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.06 0l4.583-4.583Z"
+      />
+    </svg>
+  )
+}
+
+export const Cross24 = ({ className, fill }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -89,13 +127,22 @@ export const NotificationCircleAvailable24 = ({ className, fill }) => {
       width="1.5rem"
       height="1.5rem"
     >
-      <path d="M12 4a8 8 0 11-8 8 8 8 0 018-8m0-2a10 10 0 1010 10A10 10 0 0012 2z" />
-      <path d="M10.73 15.75a1 1 0 01-.68-.26l-3-2.74a1 1 0 011.36-1.47l2.25 2.08 4.36-4.42a1 1 0 111.42 1.41l-5 5.1a1 1 0 01-.71.3z" />
+      <g clip-path="url(#a)">
+        <path
+          fill-rule="evenodd"
+          d="M19.707 5.707a1 1 0 0 0-1.414-1.414L12 10.586 5.707 4.293a1 1 0 0 0-1.414 1.414L10.586 12l-6.293 6.293a1 1 0 1 0 1.414 1.414L12 13.414l6.293 6.293a1 1 0 1 0 1.414-1.414L13.414 12l6.293-6.293Z"
+        />
+      </g>
+      <defs>
+        <clipPath id="a">
+          <rect width="24" height="24" fill="#fff" />
+        </clipPath>
+      </defs>
     </svg>
   )
 }
 
-export const ControlCross24 = ({ className, fill }) => {
+export const Menu24 = ({ className, fill }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -105,22 +152,10 @@ export const ControlCross24 = ({ className, fill }) => {
       width="1.5rem"
       height="1.5rem"
     >
-      <path d="M13.51 12l6.29-6.29a1 1 0 000-1.42 1 1 0 00-1.41 0l-6.3 6.3-6.29-6.3a1 1 0 00-1.41 0 1 1 0 000 1.42L10.68 12l-6.29 6.29a1 1 0 00.7 1.71 1 1 0 00.71-.29l6.29-6.3 6.3 6.3a1 1 0 00.7.29 1 1 0 00.71-.29 1 1 0 000-1.42z" />
-    </svg>
-  )
-}
-
-export const DisplayMenu24 = ({ className, fill }) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      className={className}
-      fill={fill}
-      width="1.5rem"
-      height="1.5rem"
-    >
-      <path d="M20 13H4a1 1 0 010-2h16a1 1 0 010 2zM20 6H4a1 1 0 010-2h16a1 1 0 010 2zM20 20H4a1 1 0 010-2h16a1 1 0 010 2z" />
+      <path
+        fill-rule="evenodd"
+        d="M3 5a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Zm0 7a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Zm0 7a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z"
+      />
     </svg>
   )
 }
@@ -182,6 +217,24 @@ export const ToolBox32 = ({ className, fill }) => {
       height="2rem"
     >
       <path d="M25 9h-3V6a2 2 0 00-2-2h-8a2 2 0 00-2 2v3H7a4 4 0 00-4 4v12a2 2 0 002 2h22a2 2 0 002-2V13a4 4 0 00-4-4zM12 6h8v3h-8zm-7 7a2 2 0 012-2h18a2 2 0 012 2v4h-5.5v-1.5a.5.5 0 00-1 0V17h-9v-1.5a.5.5 0 00-1 0V17H5zm0 12v-7h5.5v1.5a.5.5 0 001 0V18h9v1.5a.5.5 0 001 0V18H27v7z" />
+    </svg>
+  )
+}
+
+export const Craftsman32 = ({ className, fill }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 32 32"
+      className={className}
+      fill={fill}
+      width="2rem"
+      height="2rem"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M13.5 2.667a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v.75a7.672 7.672 0 0 1 5.143 6.648 1 1 0 0 1 1.064 1.642c-.293.293-.645.55-1.04.775v.854a7.668 7.668 0 0 1-4.535 6.997H20c1.73 0 3.31 1.056 4.401 2.239 1.08 1.17 1.932 2.736 1.932 4.095V28a1 1 0 0 1-1 1H6.667a1 1 0 0 1-1-1v-1.334c0-1.358.851-2.924 1.931-4.094C8.69 21.389 10.27 20.333 12 20.333h.868a7.668 7.668 0 0 1-4.535-7v-.85a4.888 4.888 0 0 1-1.04-.776 1 1 0 0 1 1.064-1.642A7.672 7.672 0 0 1 13.5 3.417v-.75Zm-3.167 10.627v.04a5.667 5.667 0 0 0 11.334 0v-.04c-.227.065-.456.125-.688.18-1.507.354-3.252.526-4.979.526-1.727 0-3.473-.172-4.98-.527a14.426 14.426 0 0 1-.687-.18Zm11.334-2.1c-.34.121-.723.233-1.146.332C19.194 11.84 17.606 12 16 12c-1.607 0-3.194-.161-4.521-.474-.423-.1-.805-.21-1.146-.331v-.529A5.668 5.668 0 0 1 13.5 5.58v1.754a.5.5 0 1 0 1 0V3.166h3v4.167a.5.5 0 1 0 1 0V5.58a5.668 5.668 0 0 1 3.167 5.087v.529ZM9.068 23.929c-.92.996-1.401 2.097-1.401 2.738V27h16.666v-.334c0-.641-.482-1.742-1.401-2.738-.909-.984-1.995-1.595-2.932-1.595h-8c-.937 0-2.023.61-2.932 1.595Z"
+      />
     </svg>
   )
 }
