@@ -1,4 +1,4 @@
-import { ControlCross24, DisplayMenu24 } from '@mozaic-ds/icons/react'
+import { Cross24, Menu24 } from '@mozaic-ds/icons/react'
 import React, { PureComponent } from 'react'
 import styled from 'styled-components'
 
@@ -81,8 +81,8 @@ export default class MenuButton extends PureComponent {
         title="Open Menu"
         onClick={this.handleMenu}
       >
-        <DisplayMenu24 className="triggerMenu__open" fill="currentColor" />
-        <ControlCross24 className="triggerMenu__close" fill="currentColor" />
+        <Menu24 className="triggerMenu__open" fill="currentColor" />
+        <Cross24 className="triggerMenu__close" fill="currentColor" />
       </TriggerButton>
     )
   }

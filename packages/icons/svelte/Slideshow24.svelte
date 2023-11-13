@@ -7,4 +7,13 @@
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 2H3a1 1 0 000 2h1v12a1 1 0 001 1h6v.88l-4.45 2.23a1 1 0 00-.44 1.34A1 1 0 007 22a.93.93 0 00.45-.11L11 20.12v.38a1 1 0 002 0v-.38l3.55 1.77A.93.93 0 0017 22a1 1 0 00.89-.55 1 1 0 00-.44-1.34L13 17.88V17h6a1 1 0 001-1V4h1a1 1 0 000-2zm-3 13H6V4h12z"/><path d="M10.25 12.94a.57.57 0 00.25.06.48.48 0 00.26-.07l5-3a.51.51 0 000-.86l-5-3a.54.54 0 00-.51 0 .52.52 0 00-.25.43v6a.52.52 0 00.25.44zM11 7.38l3.53 2.12L11 11.62z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g clip-path="url(#a)">
+    <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h17a1.5 1.5 0 0 1 .5 2.915V15a1 1 0 0 1-1 1h-7v1.882l4.447 2.224a1 1 0 1 1-.894 1.788L13 20.118v.382a1 1 0 1 1-2 0v-.382l-3.553 1.776a1 1 0 1 1-.894-1.788L11 17.882V16H4a1 1 0 0 1-1-1V4.915A1.5 1.5 0 0 1 2 3.5ZM12 14h7V5H5v9h7ZM3.5 3a.5.5 0 0 0 0 1h17a.5.5 0 0 0 0-1h-17Zm7.777 4.084a.5.5 0 0 0-.777.416v4a.5.5 0 0 0 .777.416l3-2a.5.5 0 0 0 0-.832l-3-2ZM13.1 9.5l-1.6 1.066V8.434L13.099 9.5Z"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <rect width="24" height="24" fill="#fff"/>
+    </clipPath>
+  </defs>
+</svg>

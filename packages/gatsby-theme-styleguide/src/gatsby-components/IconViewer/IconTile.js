@@ -105,35 +105,35 @@ export default class IconTile extends Component {
       name: { name },
       currentSize: '48px',
       sizes: {
-        '16px': {
+        20: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '24px': {
+        24: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '32px': {
+        32: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '48px': {
+        48: {
           url: null,
           component: null,
           fileName: null,
           fullName: null,
           iconName: null,
         },
-        '64px': {
+        64: {
           url: null,
           component: null,
           fileName: null,
@@ -166,23 +166,11 @@ export default class IconTile extends Component {
 
   render() {
     const Icon = icons[this.state.allIcon[this.state.currentSize].component]
-
     return (
       <IconDetail>
         <IconName>{this.props.name}</IconName>
         <IconWrapper>
-          {this.props.type === 'monochrom' ? (
-            <Icon fill="#454545" size={this.state.currentSize} />
-          ) : (
-            <img
-              src={`/colorsvg/${
-                this.state.allIcon[this.state.currentSize].fileName
-              }`}
-              width={this.state.currentSize}
-              height={this.state.currentSize}
-              alt={this.state.allIcon[this.state.currentSize].fileName}
-            />
-          )}
+          <Icon fill="#454545" size={this.state.currentSize} />
         </IconWrapper>
         <SizesList>
           {Object.keys(this.dataIcon.sizes).map((size) =>

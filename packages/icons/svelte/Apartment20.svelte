@@ -1,0 +1,12 @@
+<svelte:options tag={null} />
+  <script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "1.25rem";
+</script>
+
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <path fill-rule="evenodd" d="M5.917 2.5a.75.75 0 0 1 .75-.75h6.666a.75.75 0 0 1 .75.75v.917H15a.75.75 0 0 1 .75.75V16.75h1.75a.75.75 0 0 1 0 1.5h-15a.75.75 0 0 1 0-1.5h1.75V4.167a.75.75 0 0 1 .75-.75h.917V2.5Zm2.75 14.25h2.666v-3.5H8.667v3.5Zm4.166 0V12.5a.75.75 0 0 0-.75-.75H7.917a.75.75 0 0 0-.75.75v4.25H5.75V4.917h8.5V16.75h-1.417Zm-.25-13.5v.167H7.417V3.25h5.166ZM7.167 7.083a.75.75 0 0 1 .75-.75h.833a.75.75 0 0 1 0 1.5h-.833a.75.75 0 0 1-.75-.75Zm4.083-.75a.75.75 0 0 0 0 1.5h.833a.75.75 0 0 0 0-1.5h-.833Zm-4.083 3.25a.75.75 0 0 1 .75-.75h.833a.75.75 0 0 1 0 1.5h-.833a.75.75 0 0 1-.75-.75Zm4.083-.75a.75.75 0 0 0 0 1.5h.833a.75.75 0 1 0 0-1.5h-.833Z"/>
+</svg>

@@ -1,8 +1,8 @@
 import {
   House32,
-  PartnerWorker32,
+  Craftsman32,
   Premium32,
-  ToolBox32,
+  Toolbox32,
 } from '@mozaic-ds/icons/react'
 import React from 'react'
 import styled from 'styled-components'
@@ -218,9 +218,9 @@ const Header = () => (
           </HeaderWrapper>
           <HeaderWrapper>
             <Premium32 />
-            <PartnerWorker32 />
+            <Craftsman32 />
             <House32 />
-            <ToolBox32 />
+            <Toolbox32 />
           </HeaderWrapper>
         </div>
       </HeaderAside>
