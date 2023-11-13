@@ -1,10 +1,13 @@
 #! /usr/bin/env node
 const fs = require('fs')
 const path = require('path')
-const svgo = require('svgo')
+// const svgo = require('svgo')
+const { optimize, loadConfig } = require('svgo')
+
 const glob = require('glob')
 const validateIconName = require('./validateIconName')
 const config = require('../config')
+const { traceDeprecation } = require('process')
 
 // create an array of all icon
 // or return a list of invalid icons names
@@ -51,33 +54,37 @@ const readIcon = (file) =>
 
 // optimize using SVGO and custom clean options
 
-const optimizeIcon = ({ file, data }, SVGOPlugins, customOptims) =>
-  new Promise((resolve, reject) => {
-    customOptimization(file, data, customOptims)
-      .then(({ file, data }) =>
-        new svgo({ plugins: SVGOPlugins })
-          .optimize(data)
-          .then((result) => resolve({ file, data: result.data }))
-          .catch((err) => reject(err))
-      )
-      .catch((err) => reject(err))
-  })
+const optimizeIcon = ({ file, data }, configSVG) => {
+  const defaultConfig = {
+    path: file,
+    multipass: true,
+    plugins: [
+      {
+        name: 'preset-default',
+        params: {},
+      },
+    ],
+  }
+  const config = { ...defaultConfig }
+  const result = optimize(data, { path: file.toString() })
+  return { file, data: configSVG[0].custom.fn(data) }
+}
 
-const customOptimization = (file, data, customOptims) =>
-  new Promise((resolve, reject) => {
-    if (!data.match(/<g id="Square">.*?<\/g>/gi)) {
-      reject(`✗ ERROR : in ${file} Icon should have a group with a "Square" id`)
-    }
+// const customOptimization = (file, data, customOptims) =>
+//   new Promise((resolve, reject) => {
+//     if (!data.match(/<g id="Square">.*?<\/g>/gi)) {
+//       reject(`✗ ERROR : in ${file} Icon should have a group with a "Square" id`)
+//     }
 
-    const newData = customOptims(data)
+//     const newData = customOptims(data)
 
-    resolve({
-      data: newData,
-      file,
-    })
-  })
+//     resolve({
+//       data: newData,
+//       file,
+//     })
+//   })
 
-const saveIcon = ({ data, file }, outputPath) =>
+const saveIcon = ({ file, data }, outputPath) =>
   new Promise((resolve, reject) => {
     const fileName = path.basename(file)
     const savingFile = path.join(outputPath, fileName)
@@ -91,18 +98,16 @@ const saveIcon = ({ data, file }, outputPath) =>
     })
   })
 
-const main = (key, { SVGOPlugins, custom }) => {
+const main = (key, { plugins }) => {
   const sourcePath = config.sourcePaths[key]
-  const outputPath = config.outputPaths[key]
+  const outputPath = config.outputPaths[key].toString()
   const inputPath = path.relative(process.cwd(), `${sourcePath}/**/*.svg`)
 
   return new Promise((resolve, reject) => {
     searchAndValidateIconsIn(inputPath)
       .then((icons) => Promise.all(icons.map((icon) => readIcon(icon))))
       .then((icons) =>
-        Promise.all(
-          icons.map((icon) => optimizeIcon(icon, SVGOPlugins, custom))
-        )
+        Promise.all(icons.map((icon) => optimizeIcon(icon, plugins)))
       )
       .then((icons) =>
         Promise.all(icons.map((icon) => saveIcon(icon, outputPath)))
