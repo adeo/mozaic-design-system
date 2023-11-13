@@ -2,10 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import StatusFlag from '../StatusFlag'
-import {
-  Cross20,
-  CheckCircle24,
-} from '@mozaic-ds/icons/react'
+import { Cross20, CheckCircle24 } from '@mozaic-ds/icons/react'
 
 export const StatusTable = styled.table`
   font-size: 0.875rem;

@@ -1,0 +1,19 @@
+<svelte:options tag={null} />
+  <script>
+  export let id = undefined;
+  export let style = undefined;
+  export let className = undefined;
+  export let fill = undefined;
+  export let size = "1.25rem";
+</script>
+
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <g clip-path="url(#a)">
+    <path fill-rule="evenodd" d="M3.417 2.5a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 .53.22l4.166 4.166a.75.75 0 0 1 .22.53V17.5a.75.75 0 0 1-.75.75H4.167a.75.75 0 0 1-.75-.75v-15Zm1.5.75v13.5h10.166V7.417h-3.417a.75.75 0 0 1-.75-.75V3.25h-6Zm7.5 1.06 1.606 1.607h-1.607V4.31Zm-4.913 8.045h-.881v2.69h.57v-.908h.296c.188 0 .356-.035.503-.105a.815.815 0 0 0 .343-.316.925.925 0 0 0 .122-.483.871.871 0 0 0-.122-.468.756.756 0 0 0-.336-.305 1.11 1.11 0 0 0-.495-.105Zm2.382 0h-.893v2.69h.893c.366 0 .665-.11.891-.335.231-.225.343-.566.343-1.012 0-.449-.11-.789-.339-1.012-.227-.222-.527-.33-.895-.33Zm3.491 0h-1.703v2.69h.57v-1.05h.946v-.492h-.945v-.645h1.132v-.503Zm-6.184 1.279v-.776h.281c.13 0 .227.035.295.098.069.063.106.154.106.28 0 .132-.038.229-.11.297-.07.066-.17.1-.306.1h-.266Zm2.37.907v-1.683h.27c.24 0 .414.071.528.206.115.136.177.345.177.634 0 .318-.069.533-.194.656a.704.704 0 0 1-.51.187h-.27Z"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <rect width="20" height="20" fill="#fff"/>
+    </clipPath>
+  </defs>
+</svg>

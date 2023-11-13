@@ -1,9 +1,5 @@
 const config = require('../config')
-const {
-  generateMonochromListObject,
-  checkPath,
-  writeFile,
-} = require('./lib')
+const { generateMonochromListObject, checkPath, writeFile } = require('./lib')
 
 const generateIconsData = (icons) =>
   new Promise((resolve, reject) => {

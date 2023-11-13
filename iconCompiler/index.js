@@ -1,9 +1,7 @@
 const config = require('./config')
 const cleanDirectories = require('./utils/cleanDirectories')
 const cleanIcons = require('./svgCleaners')
-const {
-  monochromOptim
-} = require('./svgCleaners/optimizationConfigs')
+const { monochromOptim } = require('./svgCleaners/optimizationConfigs')
 
 const generateIconComponent = require('./componentsGenerators')
 const generateIconsDatas = require('./generateData')
@@ -28,9 +26,7 @@ cleanDirectories(config)
   .then(() => {
     console.log('✓ SUCCESS : Icons Directories cleaned and recreated')
 
-    return Promise.all([
-      cleanIcons('svg', monochromOptim),
-    ])
+    return Promise.all([cleanIcons('svg', monochromOptim)])
   })
   .then((icons) => {
     console.log('✓ SUCCESS : Icons cleaned and saved as SVGs in the package')
