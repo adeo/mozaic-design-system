@@ -32,6 +32,7 @@ To use the **ADEO preset**, you must create a file `mozaic.config.js` at the roo
 In the `mozaic.config.js` file you must add a `preset` property and give it `adeo` as value:
 
 ```js
+//  mozaic.config.js
 module.exports = {
   preset: 'adeo',
 }
@@ -48,6 +49,7 @@ Therefore, to achieve this, you must indicate to Mozaic a local export path for 
 To do that, you must add the following code to the `mozaic.config.js` file in addition to the elements that are already included:
 
 ```js
+//  mozaic.config.js
 module.exports = {
   preset: 'adeo',
   tokens: {
@@ -80,18 +82,16 @@ You have two options to compile tokens:
 
 Run the `mozaic-tokens-build` command directly:
 
-```shell
-  npx mozaic-tokens-build
+```bash
+npx mozaic-tokens-build
 ```
 
 Or through a `package.json` script for example:
 
-```Json
-...
+```json
 "scripts": {
   "tokens:build": "mozaic-tokens-build"
 }
-...
 ```
 
 #### 3.2 - Using the js function
@@ -108,7 +108,7 @@ tokensBuild()
 
 When triggering either the command or the function, you should see a list of messages looking like this logging into the console:
 
-```shell
+```console
 Property Value Collisions:
 Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value: #000
 ```

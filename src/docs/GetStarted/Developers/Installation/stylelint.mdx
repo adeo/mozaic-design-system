@@ -30,6 +30,7 @@ In this case, you can create a `stylelint.config.js` file in the root dir of you
 and you just have to export the styleling config from Mozaic
 
 ```js
+// stylelint.config.js
 module.exports = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 ```
 
@@ -44,14 +45,14 @@ It needs to be added in your root `mozaic.config.js` file.
 
 ```js
 defaultConfig: {
-    caseStyle: 'kebab-case',
-    bemEntitiesDelimiters: {
-        modifier: '--',
-        element: '__',
-        media: '@',
-    },
-    prefixes: ['mc-', 'ml-', 'mu-', 'mt-', 'mdu-'],
+  caseStyle: 'kebab-case',
+  bemEntitiesDelimiters: {
+      modifier: '--',
+      element: '__',
+      media: '@',
   },
+  prefixes: ['mc-', 'ml-', 'mu-', 'mt-', 'mdu-'],
+},
 ```
 
 <Highlight title="More informations here">
@@ -71,6 +72,7 @@ Please checkout [Mozaic configuration](/GetStarted/Developers/Configuration/#sty
 Sometimes you may need to customize stylelint rules or add new ones. To do this, you can expand your `stylelint.config.js` file this way:
 
 ```js
+// stylelint.config.js
 'use strict'
 const mozaicRules = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 

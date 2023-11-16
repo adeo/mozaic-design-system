@@ -7,7 +7,7 @@ order: 3
 
 Each branch name consists of a `type` that matches the main commit one, an optional issue `id` coming from a JIRA ticket or a Github issue and a `description`.
 
-```shell
+```bash
 git checkout -b type-id-description
 ```
 
@@ -21,7 +21,7 @@ git checkout -b type-id-description
 
 Each commit message consists of a `type`, a `scope` and a `description`.
 
-```shell
+```bash
 <type>(<scope>): <description>
 
 # example
@@ -127,7 +127,7 @@ See details in [Git documentation](https://git-scm.com/book/en/v2).
 
 If for some reason **you worked on multiple types, scopes, or tasks in the same pull request** and conserving multiple commits to be documented in the changelogs and release informations seems the best options.
 
-```shell
+```bash
 feat(tools/postcss): add a plugin that does x y
 feat(pattern/buttons): create a feature that does x y
 ```

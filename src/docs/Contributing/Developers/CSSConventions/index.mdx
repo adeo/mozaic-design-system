@@ -101,14 +101,10 @@ The block name defines the namespace for its elements and modifiers.
 
 <br />
 
+<HintItem>Blocks can be nested in one another</HintItem>
+<HintItem>Blocks can be moved between pages and projects</HintItem>
 <HintItem>
-    Blocks can be nested in one another
-</HintItem>
-<HintItem>
-    Blocks can be moved between pages and projects
-</HintItem>
-<HintItem>
-    An interface can contain mulitple instances of the same block
+  An interface can contain mulitple instances of the same block
 </HintItem>
 
 #### Elements
@@ -255,9 +251,9 @@ There is three types of mixins :
 
 Example :
 
-```sass
+```scss
 .my-class {
-    @include set-font-face('regular');
+  @include set-font-face('regular');
 }
 ```
 
@@ -276,7 +272,7 @@ Output :
 
 Example :
 
-```sass
+```scss
 @include make-flexy-col(1, 2, (s, m));
 ```
 
@@ -302,11 +298,11 @@ Output :
 
 Example :
 
-```sass
+```scss
 .mu-hidden {
-    @include mod-from-screens(s, m, l) {
-        display: none !important;
-    }
+  @include mod-from-screens(s, m, l) {
+    display: none !important;
+  }
 }
 ```
 
@@ -541,7 +537,7 @@ For more information about tokens, please read the ["Design Tokens" chapter](/Ge
 It is possible to add a comment to a token property, simply by adding a new `key/value` pair to the JSON file.
 The key must be named `comment` and the value contains the comment you want to write.
 
-```JSON
+```json
 {
   "color": {
     "star": {

@@ -15,7 +15,7 @@ Some variables are generated into and imported from the tokens package directory
 
 </Highlight>
 
-```tree
+```
 styles/
 ├── settings-tools/
 │   ├── _s.***.scss
@@ -40,8 +40,6 @@ styles/
 │   └── ...
 ```
 
----
-
 ## Design Tokens:
 
 > design tokens are theming/styling constants defined in a JSON file. They are trasnpiled into multiple formats to be shared across platforms (SCSS, IOS, ANDROID...).
@@ -60,7 +58,7 @@ They are the generated tokens files that you may use, and they are built in a pl
 
 > when working with sass, tokens are imported from the \_all-settings.scss sub bundle
 
-```tree
+```
 tokens/
 ├── build/ (the generated tokens files)
 │   ├── scss/
@@ -79,8 +77,6 @@ tokens/
 │   └── other props dirs...
 ```
 
----
-
 ## Tools:
 
 `@mozaic-ds/css-dev-tools/**`
@@ -93,31 +89,27 @@ We are using Postcss to build SCSS files. The SASS compiler is included into the
 
 </Highlight>
 
-```tree
+```
 css-dev-tools/
 │   ├── postcssPluginConfig.js (an array of PostCSS plugins to build the scss files)
 │   ├── css-pipeline.js (useless right now)
 │   └── styleLintConfig.js (stylelint config)
 ```
 
----
-
 ## Web fonts:
 
 `@mozaic-ds/web-fonts/**`
 
-```tree
+```
 ├── LeroyMerlinSans-Web-Italic.woff
 └── etc...
 ```
-
----
 
 ## Icons:
 
 `@mozaic-ds/icons/**`
 
-```tree
+```
 ├── LeroyMerlinSans-Web-Italic.woff
 └── etc...
 ```

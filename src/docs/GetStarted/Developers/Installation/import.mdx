@@ -12,7 +12,9 @@ If you [configured PostCSS properly](/GetStarted/Developers/configurePostCss/), 
 ```scss
 // Don't do this:
 @import '../../node_modules/@mozaic-ds/styles/settings-tools/all-settings';
+```
 
+```scss
 // Do this instead:
 @import 'settings-tools/all-settings';
 ```
@@ -49,7 +51,7 @@ It is important that you follow our ITCSS/ADS [import order](https://gael-boyenv
 The import order within the same ITCSS category does not matter.
 
 ```scss
-// mandatory
+// Mandatory
 @import 'settings-tools/all-settings';
 
 // Generics

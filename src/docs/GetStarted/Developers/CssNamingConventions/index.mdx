@@ -111,7 +111,7 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 ```scss
 .pr-block-name {
-  ...;
+  // ...
 }
 ```
 
@@ -135,7 +135,7 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 ```scss
 .pr-block-name__element-name {
-  ...;
+  // ...
 }
 ```
 
@@ -153,10 +153,10 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 ```scss
 .pr-block-name--modifier-name {
-  ...;
+  // ...
 }
 .pr-block-name__element-name--modifier-name {
-  ...;
+  // ...
 }
 ```
 
@@ -176,11 +176,11 @@ States classes can only be used in combination with another BEM entity:
 
 ```scss
 .mc-accordion.is-open {
-  ...;
+  // ...
 }
 
 .mc-search__results.has-none {
-  ...;
+  // ...
 }
 ```
 
@@ -245,9 +245,9 @@ There are three types of mixins:
 
 Example:
 
-```sass
+```scss
 .my-class {
-    @include set-font-face('regular');
+  @include set-font-face('regular');
 }
 ```
 
@@ -266,7 +266,7 @@ Output:
 
 Example:
 
-```sass
+```scss
 @include make-flexy-col(1, 2, (s, m));
 ```
 
@@ -292,11 +292,11 @@ Output:
 
 Example:
 
-```sass
+```scss
 .mu-hidden {
-    @include mod-from-screens(s, m, l) {
-        display: none !important;
-    }
+  @include mod-from-screens(s, m, l) {
+    display: none !important;
+  }
 }
 ```
 

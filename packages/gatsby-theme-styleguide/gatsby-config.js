@@ -1,5 +1,6 @@
 const path = require('path')
 const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
+const { remarkCodeHike } = require('@code-hike/mdx')
 
 module.exports = {
   plugins: [
@@ -11,10 +12,10 @@ module.exports = {
     //     stylesPath: 'packages/styles/**/*.scss',
     //   },
     // },
-    // {
-    //   resolve: '@mozaic-ds/gatsby-github-release',
-    // },
-    'gatsby-plugin-styled-components',
+    {
+      resolve: '@mozaic-ds/gatsby-github-release',
+    },
+    // 'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -63,7 +64,7 @@ module.exports = {
         ],
         mdxOptions: {
           remarkPlugins: [
-            require(`remark-gfm`),
+            // require(`remark-gfm`),
             [
               remarkCodeHike,
               {

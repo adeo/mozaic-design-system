@@ -84,13 +84,14 @@ module.exports = {
 
 ## stylelint options:
 
-### `stylelint.disabled
+### `stylelint.disabled`
 
-Allow you to disabled Mozaic built-in config. 
+Allow you to disabled Mozaic built-in config.
 **Default values: 'false'**
 **Example: **
+
 ```js
-  disbaled: true | false
+disbaled: true | false
 ```
 
 ### `stylelint.caseStyle`: String or Regex
@@ -100,8 +101,9 @@ Allow you to choose the case style to lint. You can add your own Regex rule to l
 **Default values: 'kebab-case'**
 
 **Example: **
-```js
-  caseStyle: 'kebab-case' | 'camelCase' | 'snake_case' | 'PascalCase' | /^[a-z]+(_[a-z]+)*$/
+
+```
+caseStyle: 'kebab-case' | 'camelCase' | 'snake_case' | 'PascalCase' | /^[a-z]+(_[a-z]+)*$/
 ```
 
 ### `stylelint.bemEntitiesDelimiters`: Object
@@ -128,11 +130,11 @@ Allow you to specify additional prefixes. Multiple prefixes can be added.
   prefixes: ['lrc-', 'lrl-', 'LrUtility-'],
 ```
 
-
 **Full example: **
+
 ```js
 module.exports = {
-	stylelint: {
+  stylelint: {
     caseStyle: 'kebab-case', // ['camelCase', 'snake_case', 'PascalCase']
     bemEntitiesDelimiters: {
       modifier: '--',
@@ -150,30 +152,32 @@ module.exports = {
 
 ### `browserslist.disabled
 
-Allow you to disabled Mozaic built-in config. 
+Allow you to disabled Mozaic built-in config.
 **Default values: 'false'**
 
 **Example: **
+
 ```js
-  disabled: true | false
+disabled: true | false
 ```
 
-`browserslist` is used to define custom browsers to use for SCSS compilation. 
+`browserslist` is used to define custom browsers to use for SCSS compilation.
 
-** Default value: ** 
+** Default value: **
 
 ```js
-['> 0.3%', 'last 3 version', 'IE > 10']
+;['> 0.3%', 'last 3 version', 'IE > 10']
 ```
 
 **Full example: **
+
 ```js
 module.exports = {
-	browserslist: ['last 2 versions', 'firefox >= 45', 'IE >= 11']
+  browserslist: ['last 2 versions', 'firefox >= 45', 'IE >= 11'],
 }
 ```
 
-## PurgeCSS option: 
+## PurgeCSS option:
 
 ### `purgecss` : Object
 
@@ -181,6 +185,7 @@ Allow you to clean up CSS from your sources files.
 **Default values: null**
 
 **Example: **
+
 ```js
 purgecss: {
   content: ['./src/**/*.html', './src/**/*.js', './src/**/*.vue']
