@@ -12,7 +12,7 @@
   "dependencies": {
     "chokidar": "^3.5.3",
     "directory-tree": "^3.5.1",
-    "xstate": "^4.37.2"
+    "xstate": "^4.38.3"
   },
   "peerDependencies": {
     "gatsby": "^5.12.9"
