@@ -1,15 +1,4 @@
 import * as React from 'react'
-import {
-  ColorInfo100,
-  ColorInfo500,
-  ColorInfo700,
-  ColorWarning100,
-  ColorWarning500,
-  ColorWarning700,
-  ColorGrey100,
-  ColorGrey500,
-  ColorGrey700,
-} from '@mozaic-ds/tokens/build/js/tokens'
 import * as styles from './highlight.module.css'
 
 const defaultTitles = {
@@ -23,19 +12,19 @@ const getStyles = (type) => {
 
   switch (type) {
     case 'tips':
-      background = ColorInfo100
-      border = ColorInfo500
-      color = ColorInfo700
+      background = '#daeff7' // ColorInfo100
+      border = '#0b96cc' // ColorInfo500
+      color = '#005c91' // ColorInfo700
       break
     case 'warning':
-      background = ColorWarning100
-      border = ColorWarning500
-      color = ColorWarning700
+      background = '#fdf1e8' // ColorWarning100
+      border = '#ea7315' // ColorWarning500
+      color = '#8c3500' // ColorWarning700
       break
     default:
-      background = ColorGrey100
-      border = ColorGrey500
-      color = ColorGrey700
+      background = '#e6e6e6' // ColorGrey100
+      border = '#808080' // ColorGrey500
+      color = '#4d4d4d' // ColorGrey700
   }
 
   return {

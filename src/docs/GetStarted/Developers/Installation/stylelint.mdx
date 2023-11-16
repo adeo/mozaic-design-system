@@ -13,17 +13,15 @@ stylelint comes with Mozaic and it is launched at compilation time. It means tha
 
 </Highlight>
 
-
 ## Create a root styleling configuration file
 
-<Highlight theme="tips">
+<Highlight type="tips">
 
 **You don't need to configure stylelint for it to warn you about errors, it's included in the PostCSS pipeline**
 
 In some cases, you may want to configure it, for example, **to configure prettier-stylelint on your IDE**, or **to use stylelint outside of the compilation pipeline**.
 
 </Highlight>
-
 
 For example, you may want to create an NPM script to automatically fix linting issues.
 
@@ -43,6 +41,7 @@ Our stylelint plugin allows developers to customize some options in the global M
 It needs to be added in your root `mozaic.config.js` file.
 
 **Default configuration:**
+
 ```js
 defaultConfig: {
     caseStyle: 'kebab-case',
@@ -63,34 +62,34 @@ Please checkout [Mozaic configuration](/GetStarted/Developers/Configuration/#sty
 
 ### Add custom rules
 
-<Highlight theme="warning" title="Only for advanced users">
-  The trick below is for advanced users only.
-  By doing this evolution you go out of the rules set and planned by Mozaic.
-  As a result, we cannot fully guarantee the optimal functioning of Mozaic. So be sure of what you are doing.
+<Highlight type="warning" title="Only for advanced users">
+  The trick below is for advanced users only. By doing this evolution you go out
+  of the rules set and planned by Mozaic. As a result, we cannot fully guarantee
+  the optimal functioning of Mozaic. So be sure of what you are doing.
 </Highlight>
 
 Sometimes you may need to customize stylelint rules or add new ones. To do this, you can expand your `stylelint.config.js` file this way:
 
 ```js
-'use strict';
-const mozaicRules = require('@mozaic-ds/css-dev-tools/styleLintConfig.js');
+'use strict'
+const mozaicRules = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 
 const customRules = {
   'color-no-invalid-hex': null,
-  'font-family-no-duplicate-names': null
-};
+  'font-family-no-duplicate-names': null,
+}
 
-const stylelintConfig = mozaicRules;
-stylelintConfig.rules = {...mozaicRules.rules, ...customRules};
+const stylelintConfig = mozaicRules
+stylelintConfig.rules = { ...mozaicRules.rules, ...customRules }
 
-module.exports = stylelintConfig;
+module.exports = stylelintConfig
 ```
-
 
 ### Disabling stylelint rules using inline comments
 
 ```scss
 /* stylelint-disable plugin/mozaic-bem-pattern  */
-.mc-block-Name__element-Name {}
+.mc-block-Name__element-Name {
+}
 /* stylelint-enable */
 ```

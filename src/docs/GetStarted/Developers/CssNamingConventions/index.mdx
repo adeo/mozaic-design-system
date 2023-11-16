@@ -27,7 +27,6 @@ Please note that we use an ITCSS architecture **slightly different from the orig
 
 </Highlight>
 
-
 1. **Settings**: Global variables, config switches.
 2. **Tools**: Global mixins and functions.
 3. **Generic**: Ground-zero styles (Normalize.css, resets, box-sizing).
@@ -39,14 +38,13 @@ Please note that we use an ITCSS architecture **slightly different from the orig
 
 ## Follow ITCSS order for importing your files
 
-<Highlight theme="tips" title="You should know">
+<Highlight type="tips" title="You should know">
 
 Note that all `settings` and `tools` are bundled into a file named `all-settings`.  
 This file is the only file required by all other files.  
 This file does not output any CSS when compiled.
 
 </Highlight>
-
 
 ```scss
 /* mandatory */
@@ -123,14 +121,10 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 <br />
 
+<HintItem>Blocks can be nested in one another</HintItem>
+<HintItem>Blocks can be moved between pages and projects</HintItem>
 <HintItem>
-    Blocks can be nested in one another
-</HintItem>
-<HintItem>
-    Blocks can be moved between pages and projects
-</HintItem>
-<HintItem>
-    An interface can contain multiple instances of the same block
+  An interface can contain multiple instances of the same block
 </HintItem>
 
 ### Elements
@@ -151,9 +145,7 @@ In the following examples, the prefixes are symbolised by `pr` in front of the c
 
 <br />
 
-<HintItem dont>
-    An element can't be used outside of his block.
-</HintItem>
+<HintItem dont>An element can't be used outside of his block.</HintItem>
 
 ### Modifiers
 
