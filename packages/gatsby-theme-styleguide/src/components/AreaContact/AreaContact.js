@@ -2,12 +2,6 @@ import * as React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import * as styles from './areacontact.module.css'
 
-const htmlContent = (el) => {
-  return {
-    __html: el,
-  }
-}
-
 const Card = ({ icon, title, text, link, linkLabel }) => (
   <div
     className={`${styles.cardContainer} ml-flexy__col ml-flexy__col--full ml-flexy__col--1of3@from-xl`}
@@ -21,7 +15,7 @@ const Card = ({ icon, title, text, link, linkLabel }) => (
       </h3>
       <p
         className={styles.cardText}
-        dangerouslySetInnerHTML={htmlContent(text)}
+        dangerouslySetInnerHTML={{ __html: text }}
       ></p>
       <a
         className={styles.cardLink}

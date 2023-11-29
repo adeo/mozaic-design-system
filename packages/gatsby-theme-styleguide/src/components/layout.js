@@ -1,50 +1,29 @@
 import * as React from 'react'
-// import { useStaticQuery, graphql } from 'gatsby'
-// import { MDXProvider } from '@mdx-js/react'
-import './base.scss'
+import { Link } from 'gatsby'
+import VersionSelector from './VersionSelector'
+import CurrentVersion from './CurrentVersion'
+import Search from './Search'
 import Menu from './Menu'
-// import withLocationPreview from '../components/Preview/withLocation'
-// import Color from '../components/Color'
-// import Swatch from '../components/Swatch'
-// import Hint, { HintItem } from '../components/Hint'
-// import IconViewer from '../components/IconViewer'
-// import Code from '../components/Code'
-// import InlineCode from '../components/InlineCode'
-// import Highlight from '../components/Highlight'
-// import SubContents from '../components/SubContents'
-// import DesignerKitLink from '../components/DesignerKitLink'
-// import Story from '../components/Story'
+import { LogoMozaic } from './icons'
+import './base.scss'
 import * as styles from './layout.module.css'
 
-// const shortcodes = {
-//   Color,
-//   Swatch,
-//   Hint,
-//   HintItem,
-//   IconViewer,
-//   DesignerKitLink,
-//   Highlight,
-//   pre: ({ children }) => <Code>{children}</Code>,
-//   inlineCode: InlineCode,
-// }
-
-const Layout = ({ children, location }) => {
-  // const Preview = withLocationPreview(location)
-  // shortcodes.Preview = Preview
-  // shortcodes.SubContents = SubContents(location)
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
+const Layout = (props) => {
+  const { children, location } = props
 
   return (
     <div className={styles.container}>
       <aside className={styles.aside}>
+        <div className={styles.asideTop}>
+          <Link to="/" className={styles.asideLogo}>
+            <LogoMozaic />
+          </Link>
+          <div className={styles.versionsWrapper}>
+            <VersionSelector />
+            <CurrentVersion />
+          </div>
+        </div>
+        <Search />
         <Menu location={location} />
       </aside>
       <main id="scroller" className={styles.main}>

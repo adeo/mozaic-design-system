@@ -1,8 +1,8 @@
-const express = require('express')
+// const express = require('express')
 const path = require('path')
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const postTemplate = path.resolve(`${__dirname}/src/templates/pattern-page.js`)
+// const postTemplate = path.resolve(`${__dirname}/src/templates/pattern-page.js`)
 
 let previewsPath = []
 
@@ -13,9 +13,9 @@ let previewsPath = []
  * more on that here =>https://www.gatsbyjs.org/docs/node-apis/#onCreateDevServer
  *
  */
-exports.onCreateDevServer = ({ app }) => {
-  app.use(express.static('public'))
-}
+// exports.onCreateDevServer = ({ app }) => {
+//   app.use(express.static('public'))
+// }
 
 exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
   const { createNodeField } = actions
@@ -24,9 +24,9 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
     const slug = createFilePath({ node, getNode, basePath: `docs` })
     const fileName = path.basename(node.internal.contentFilePath)
 
-    const keywords = `${slug.split('/').join(', ')}, ${
-      node.frontmatter.searchKeywords
-    }`
+    // const keywords = `${slug.split('/').join(', ')}, ${
+    //   node.frontmatter.searchKeywords
+    // }`
 
     createNodeField({
       node,
@@ -34,11 +34,11 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
       value: slug,
     })
 
-    createNodeField({
-      node,
-      name: `keywords`,
-      value: keywords,
-    })
+    // createNodeField({
+    //   node,
+    //   name: `keywords`,
+    //   value: keywords,
+    // })
 
     createNodeField({
       node,
@@ -59,129 +59,187 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
 }
 
 // Utils
-const debounce = (fnc, tm) => {
-  let time
-  return function () {
-    clearTimeout(time)
-    time = setTimeout(() => {
-      fnc.apply(this, arguments)
-    }, tm)
-  }
-}
+// const debounce = (fnc, tm) => {
+//   let time
+//   return function () {
+//     clearTimeout(time)
+//     time = setTimeout(() => {
+//       fnc.apply(this, arguments)
+//     }, tm)
+//   }
+// }
 
 // Create preview html
-const createPreviewHtmlFile = (node) =>
-  new Promise((resolve, reject) => {
-    const destDir = `public/previews${node.fields.slug
-      .split('/')
-      .slice(0, -1)
-      .join('/')}`
+// const createPreviewHtmlFile = (node) =>
+//   new Promise((resolve, reject) => {
+//     const destDir = `public/previews${node.fields.slug
+//       .split('/')
+//       .slice(0, -1)
+//       .join('/')}`
 
-    const fileName = node.fields.slug.split('/').pop()
+//     const fileName = node.fields.slug.split('/').pop()
 
-    fs.mkdir(destDir, { recursive: true }, (err) => {
-      if (err) reject(err)
-      fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), (error) => {
-        if (error) reject(error)
-        resolve()
-      })
-    })
-  })
+//     fs.mkdir(destDir, { recursive: true }, (err) => {
+//       if (err) reject(err)
+//       fs.writeFile(`${destDir}/${fileName}.html`, buildHtml(node), (error) => {
+//         if (error) reject(error)
+//         resolve()
+//       })
+//     })
+//   })
 
 // build previews for each node
-const createPreviewPages = (previews, previewsPath, reporter) => {
-  // Create previews html pages into static folder
-  const previewPromiseMap = previews.map(({ node }) => {
-    // Add path to the list for tests purposes if it does not exist
-    if (!previewsPath.includes(node.fields.slug)) {
-      previewsPath.push(node.fields.slug)
-    }
+// const createPreviewPages = (previews, previewsPath, reporter) => {
+//   // Create previews html pages into static folder
+//   const previewPromiseMap = previews.map(({ node }) => {
+//     // Add path to the list for tests purposes if it does not exist
+//     if (!previewsPath.includes(node.fields.slug)) {
+//       previewsPath.push(node.fields.slug)
+//     }
 
-    return createPreviewHtmlFile(node)
-  })
+//     return createPreviewHtmlFile(node)
+//   })
 
-  Promise.all(previewPromiseMap)
-    .then(() => {
-      reporter.success('preview files generated')
-    })
-    .catch((err) => reporter.panicOnBuild(err))
-}
+//   Promise.all(previewPromiseMap)
+//     .then(() => {
+//       reporter.success('preview files generated')
+//     })
+//     .catch((err) => reporter.panicOnBuild(err))
+// }
 
 // Minimal builder for html previews
-const buildHtml = (data) => {
-  var generatedStyles = data.codes.css
-  var body = data.codes.html
-  return `
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-          <style type="text/css">
-            * {
-              box-sizing: padding-box;
-            }
-            
-            body, html {
-              margin :0;
-              padding :0;
-              display: block;
-              overflow: hidden
-            }
-          </style>
-          <style>${generatedStyles}</style>
-        </head>
-        <body>
-          ${body}
-        </body>
-      </html>
-    `
-}
+// const buildHtml = (data) => {
+//   var generatedStyles = data.codes.css
+//   var body = data.codes.html
+//   return `
+//       <!DOCTYPE html>
+//       <html>
+//         <head>
+//           <meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge">
+//           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+//           <style type="text/css">
+//             * {
+//               box-sizing: padding-box;
+//             }
 
-exports.createPages = async ({ actions, graphql, reporter }) => {
-  // Destructure the createPage function from the actions object
-  const { createPage } = actions
-  const result = await graphql(`
-    query {
-      allMdx {
-        nodes {
-          fields {
-            slug
-          }
-          internal {
-            contentFilePath
-          }
-        }
-      }
-      allPreview {
-        nodes {
-          codes {
-            css
-            html
-            js
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  `)
-  if (result.errors) {
-    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
+//             body, html {
+//               margin :0;
+//               padding :0;
+//               display: block;
+//               overflow: hidden
+//             }
+//           </style>
+//           <style>${generatedStyles}</style>
+//         </head>
+//         <body>
+//           ${body}
+//         </body>
+//       </html>
+//     `
+// }
+
+// exports.createPages = async ({ actions, graphql, reporter }) => {
+//   // Destructure the createPage function from the actions object
+//   const { createPage } = actions
+//   const result = await graphql(`
+//     query {
+//       allMdx {
+//         nodes {
+//           fields {
+//             slug
+//           }
+//           internal {
+//             contentFilePath
+//           }
+//         }
+//       }
+//       allPreview {
+//         nodes {
+//           codes {
+//             css
+//             html
+//             js
+//           }
+//           fields {
+//             slug
+//           }
+//         }
+//       }
+//     }
+//   `)
+//   if (result.errors) {
+//     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
+//   }
+
+//   // MDX
+//   result.data.allMdx.nodes.forEach((node) => {
+//     createPage({
+//       path: `${node.fields.slug}`,
+//       component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
+//       context: {
+//         slug: node.fields.slug,
+//       },
+//     })
+//   })
+
+//   const previews = result.data.allPreview.nodes
+//   debounce(createPreviewPages(previews, previewsPath, reporter), 1000)
+// }
+
+/**
+ * Add Mozaic Colors to GraphQL
+ */
+
+function nodeBuilder({ gatsbyApi, input }) {
+  const id = gatsbyApi.createNodeId(`${input.type}-${input.data.id}`)
+
+  const node = {
+    ...input.data,
+    id,
+    _id: input.data.id,
+    parent: null,
+    children: [],
+    internal: {
+      type: input.type,
+      contentDigest: gatsbyApi.createContentDigest(input.data),
+    },
   }
 
-  // MDX
-  result.data.allMdx.nodes.forEach((node) => {
-    createPage({
-      path: `${node.fields.slug}`,
-      component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
-      context: {
-        slug: node.fields.slug,
-      },
-    })
-  })
+  gatsbyApi.actions.createNode(node)
+}
 
-  const previews = result.data.allPreview.nodes
-  debounce(createPreviewPages(previews, previewsPath, reporter), 1000)
+exports.sourceNodes = async (gatsbyApi) => {
+  const colorsTokensLM =
+    require('@mozaic-ds/tokens/build/js/tokensObject.js').color
+  const colorsTokensAdeo =
+    require('@mozaic-ds/tokens/buildAdeo/js/tokensObject.js').color
+
+  function createTokensColorNode(colorsTokens, nodeName) {
+    Object.keys(colorsTokens).map((tokens) => {
+      if (
+        [100] in colorsTokens[tokens] ||
+        'primary-01' in colorsTokens[tokens]
+      ) {
+        const nodeData = Object.assign(
+          {},
+          {
+            colors: JSON.stringify(colorsTokens[tokens]),
+            id: gatsbyApi.createNodeId(`palette-${tokens}`),
+            internal: {
+              type: `${nodeName}`,
+              contentDigest: gatsbyApi.createContentDigest(
+                colorsTokens[tokens]
+              ),
+            },
+            name: tokens,
+          }
+        )
+
+        gatsbyApi.actions.createNode(nodeData)
+      }
+    })
+  }
+
+  createTokensColorNode(colorsTokensLM, 'ColorLM')
+  createTokensColorNode(colorsTokensAdeo, 'ColorAdeo')
 }

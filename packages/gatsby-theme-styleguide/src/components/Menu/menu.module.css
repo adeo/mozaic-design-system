@@ -1,18 +1,5 @@
 /* Menu */
 
-/** Wrapper */
-.wrapper {
-  max-height: 100vh;
-  overflow-y: auto;
-  padding: 4.5rem 1.5rem 0;
-}
-
-@media (min-width: 1024px) {
-  .wrapper {
-    padding-top: 2.5rem;
-  }
-}
-
 /** GithubLink */
 .githubLinkContainer {
   display: flex;
@@ -138,4 +125,50 @@
 
 .menuIconClose {
   display: none;
+}
+
+/** MenuButton */
+.triggerMenu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 1.5rem;
+  padding: 0;
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
+  transition: left 0.4s;
+  width: 1.5rem;
+  z-index: 2000;
+}
+
+@media screen and (min-width: 1024px) {
+  .triggerMenu {
+    display: none;
+  }
+}
+
+.triggerMenuHide {
+  display: none;
+}
+
+.triggerMenuOpen {
+  display: block;
+}
+
+.triggerMenuClose {
+  display: none;
+}
+
+/** Nav Open */
+:global(.navOpen) .triggerMenu {
+  left: 1.5rem;
+}
+
+:global(.navOpen) .triggerMenuOpen {
+  display: none;
+}
+
+:global(.navOpen) .triggerMenuClose {
+  display: block;
 }

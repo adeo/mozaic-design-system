@@ -1,26 +1,30 @@
 import * as React from 'react'
-import { IconSlack, IconGithub, IconVue, IconReact } from './HeaderIcons'
-import {
-  House32,
-  PartnerWorker32,
-  Premium32,
-  ToolBox32,
-} from '@mozaic-ds/icons/react'
 import McButton from '../McButton'
 import McCheckbox from '../McCheckbox'
 import McTextInput from '../McTextInput'
 import McToggle from '../McToggle'
-// import MenuButton from '../../components/Menu/MenuButton'
+import MenuButton from '../../components/Menu/MenuButton'
+import {
+  IconSlack,
+  IconGithub,
+  IconVue,
+  IconReact,
+  House32,
+  PartnerWorker32,
+  Premium32,
+  ToolBox32,
+} from '../icons'
 import * as styles from './header.module.css'
 
 const Header = () => (
   <header className={`HomeHeader ${styles.container}`}>
-    {/* <MenuButton /> */}
+    <MenuButton />
     <div className={styles.headerTop}>
       <a
         href="https://adeo-tech-community.slack.com/messages/CKQJZL7C4/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Get Support & OnBoarding on Slack"
       >
         <IconSlack />
       </a>
@@ -28,6 +32,7 @@ const Header = () => (
         href="https://github.com/adeo/mozaic-design-system"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Mozaic on GitHub"
       >
         <IconGithub />
       </a>
@@ -35,6 +40,7 @@ const Header = () => (
         href="https://adeo.github.io/mozaic-vue/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Mozaic-Vue the Vue.js implementation of Mozaic Design System"
       >
         <IconVue />
       </a>
@@ -42,6 +48,7 @@ const Header = () => (
         href="https://adeo.github.io/mozaic-react/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Mozaic-React the React implementation of Mozaic Design System"
       >
         <IconReact />
       </a>
@@ -52,7 +59,7 @@ const Header = () => (
       >
         <h1 className={styles.headerTitle}>Welcome to Mozaic Design System</h1>
         <p className={styles.headerDesc}>
-          A design system to reinforce team’s delivery time, improve quality of
+          A design system to reinforce team's delivery time, improve quality of
           deliverables and thus help set up a coherent customer experience.
         </p>
       </div>

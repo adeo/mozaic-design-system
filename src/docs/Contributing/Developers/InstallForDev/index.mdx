@@ -14,7 +14,9 @@ Please follow this [guide](https://nodejs.org/en/download/package-manager/)
 
 #### To install yarn :
 
-`npm i -g yarn`
+```bash
+npm i -g yarn
+```
 
 ## Development :
 
@@ -31,13 +33,22 @@ Please [read the docs](https://github.com/lerna/lerna/) to learn more about it.
 ### Clone the repo and start the development environment
 
 Clone the repo :
-`git clone git@github.com:adeo/mozaic-design-system.git`
 
-Move to the repo :
-`cd mozaic-design-system`
+```bash
+git clone git@github.com:adeo/mozaic-design-system.git
+```
 
-Install dependencies and create symlink between packages :
-`yarn lerna`
+Move to the repo:
+
+```bash
+cd mozaic-design-system
+```
+
+Install dependencies and create symlink between packages:
+
+```bash
+yarn lerna
+```
 
 Add a github personal access tokens :
 [follow those instruction](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) and select `repo` as a scope for you personal access token.
@@ -49,8 +60,11 @@ Create a `.env` file at the root of the project and add the following (replacing
 GH_API_TOKEN=XXX
 ```
 
-Lunch the dev server :
-`yarn develop`
+Lunch the dev server:
+
+```bash
+yarn develop
+```
 
 ## Targeting compillation of selected previews directory
 
@@ -58,7 +72,9 @@ Compiling previews take a long time, and most of the time you need only to compi
 
 To target only previews contained in a directory, add a preview parameter to the develop command containing a path relative to `src/pages/`:
 
-`yarn develop previews=Components/Buttons`
+```bash
+yarn develop previews=Components/Buttons
+```
 
 ## Lint and fix your css files using stylelint
 
@@ -78,7 +94,9 @@ stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuf
 
 ## Create a production build :
 
-`yarn build`
+```bash
+yarn build
+```
 
 ## CI/CD
 

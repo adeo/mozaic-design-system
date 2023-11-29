@@ -12,9 +12,18 @@
 /** Aside */
 .aside {
   background: #eeeef0;
+  max-height: 100vh;
   min-height: 100vh;
+  overflow-y: auto;
+  padding: 4.5rem 1.5rem 0;
   position: relative;
   width: 18.75rem;
+}
+
+@media (min-width: 1024px) {
+  .aside {
+    padding-top: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -28,6 +37,16 @@
   }
 }
 
+.asideTop {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.asideLogo,
+.asideLogo svg {
+  display: block;
+}
+
 /** Main */
 .main {
   flex: 1;
@@ -38,10 +57,18 @@
 }
 
 /** NavOpen */
-.navOpen .aside {
+:global(.navOpen) .aside {
   transform: translateX(0);
 }
 
-.navOpen .main {
+:global(.navOpen) .main {
   overflow: hidden;
+}
+
+/** versionsWrapper */
+.versionsWrapper {
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  right: 0;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import { parseAllFiles, parseLocation } from '../SiteMapData/tools'
+import { parseAllMdx } from '../../utils/tools'
 import { ControlLess16, ControlMore16 } from '../icons'
 import * as styles from './menu.module.css'
 
@@ -19,12 +19,13 @@ const MenuItems = ({ items, isOpen }) => {
 
   return (
     <ul className={styles.menuList}>
-      {items.map((item) => {
+      {items.map((item, index) => {
         return (
           <li
             className={styles.menuItem}
             data-level={item.level}
             data-open={false}
+            key={index}
           >
             <div
               className={styles.menuItemWrapper}
@@ -34,7 +35,7 @@ const MenuItems = ({ items, isOpen }) => {
               tabIndex="-1"
             >
               <Link
-                to={item.slug.toLowerCase()}
+                to={item.slug}
                 className={styles.menuLink}
                 data-level={item.level}
                 onClick={(event) =>
@@ -44,7 +45,11 @@ const MenuItems = ({ items, isOpen }) => {
                 {item.title}
               </Link>
               {item.content.length > 0 && (
-                <button type="button" className={styles.menuShowHide}>
+                <button
+                  type="button"
+                  className={styles.menuShowHide}
+                  aria-label="Show/Hide submenu"
+                >
                   <ControlMore16
                     className={styles.menuIconOpen}
                     fill="#554f52"
@@ -70,7 +75,6 @@ const MenuItems = ({ items, isOpen }) => {
 
 // MENU LIST
 const MenuList = ({ location }) => {
-  const currentLocation = location.pathname ?? ''
   const data = useStaticQuery(graphql`
     query {
       allMdx(sort: { fields: { slug: ASC } }) {
@@ -97,13 +101,9 @@ const MenuList = ({ location }) => {
     }
   `)
 
-  const mapData = parseAllFiles(data.allMdx.edges, {
-    currentLocation,
-  })
+  const mapData = parseAllMdx(data.allMdx.edges)
 
-  const menuItems = parseLocation(mapData, location)
-
-  return <MenuItems items={menuItems} />
+  return <MenuItems items={mapData} />
 }
 
 export default MenuList

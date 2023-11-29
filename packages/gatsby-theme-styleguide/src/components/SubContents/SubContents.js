@@ -1,65 +1,47 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import withSiteMapData from '../SiteMapData'
-import './subcontents.scss'
+import { parseAllMdx } from '../../utils/tools'
+import * as styles from './subcontents.module.css'
 
-const MainItem = ({ children, slug, thumbNail, title, description }) => (
-  <li key={slug}>
-    <Link className="subcontents__link" to={slug}>
-      {thumbNail && (
-        <div className="subcontents__thumbnail">
-          <img src={thumbNail.node.publicURL} alt={title} />
-        </div>
-      )}
-      <p className="subcontents__body">
-        <span className="subcontents__title">{title}</span>
+const ListItem = ({ children, slug, title, description }) => (
+  <li className={styles.listItem}>
+    <Link className={styles.itemLink} to={slug}>
+      <div className={styles.itemContent}>
+        <span className={styles.itemTitle}>{title}</span>
         {description && (
-          <span className="subcontents__description">
+          <span className={styles.itemDescription}>
             {description.substring(0, 240)}
           </span>
         )}
-      </p>
+      </div>
     </Link>
     {children}
   </li>
 )
 
 const SubItem = ({ slug, title, description }) => (
-  <Link to={slug} className="subcontents__submenu-item">
-    <span className="subcontents__title">{title}</span>
+  <Link to={slug} className={styles.subItem}>
+    <span className={styles.itemTitle}>{title}</span>
     {description && (
-      <p className="subcontents__description">
-        {description.substring(0, 240)}
-      </p>
+      <p className={styles.itemDescription}>{description.substring(0, 240)}</p>
     )}
   </Link>
 )
 
 // simple function to build the content HTML structure
-const subcontentHtmlList = (content = [], allPreviewsImgs = [], level = 0) => {
-  const items = content.map((siteMapItem) => {
-    const { title, slug, dirPath, description } = siteMapItem
+const subcontentHtmlList = (content = [], level = 0) => {
+  const items = content.map((el) => {
+    const { title, slug, description } = el
 
-    // Is there a "preview.png" file for this "siteMapItem"?
-    const thumbNail = allPreviewsImgs.find(
-      (elem) => elem.node.relativePath === dirPath + '/thumbnail.png'
-    )
-
-    const children = !!siteMapItem.content.length
-      ? subcontentHtmlList(siteMapItem.content, allPreviewsImgs, 1)
+    const children = !!el.content.length
+      ? subcontentHtmlList(el.content, 1)
       : null
 
     // Main item
     return !level ? (
-      <MainItem
-        key={slug}
-        title={title}
-        slug={slug}
-        thumbNail={thumbNail}
-        description={description}
-      >
+      <ListItem key={slug} title={title} slug={slug} description={description}>
         {children}
-      </MainItem>
+      </ListItem>
     ) : (
       <SubItem
         key={slug}
@@ -71,30 +53,54 @@ const subcontentHtmlList = (content = [], allPreviewsImgs = [], level = 0) => {
   })
 
   if (level) {
-    return <div className="subcontents__submenu-wrapper">{items}</div>
+    return <div className={styles.subWrapper}>{items}</div>
   }
 
-  return <ul>{items}</ul>
+  return <ul className={styles.list}>{items}</ul>
 }
 
-const SubContents = ({ siteMapData, allPreviewsImgs, location }) => {
-  const replaceSlashesRegex = /^\/|\/$/g
+const SubContents = (props) => {
+  const { location } = props
+  const data = useStaticQuery(graphql`
+    query {
+      allMdx(sort: { fields: { slug: ASC } }) {
+        edges {
+          node {
+            id
+            frontmatter {
+              title
+              description
+            }
+            fields {
+              slug
+              fileName {
+                name
+                relativePath
+                extension
+              }
+            }
+          }
+        }
+        totalCount
+      }
+    }
+  `)
 
+  const mapData = parseAllMdx(data.allMdx.edges)
+  const replaceSlashesRegex = /^\/|\/$/g
   const splitPath = location.pathname
     .replace(replaceSlashesRegex, '')
     .split('/')
 
   // The element being shown on screen
-  let currentElement = siteMapData,
+  let currentElement = mapData,
     accumPath = []
 
   splitPath.forEach((path) => {
     accumPath.push(path)
 
     const foundSiteMapItem = currentElement.find(
-      (siteMapItem) =>
-        siteMapItem.slug.replace(replaceSlashesRegex, '') ===
-        accumPath.join('/')
+      (el) => el.slug.replace(replaceSlashesRegex, '') === accumPath.join('/'),
     )
 
     if (foundSiteMapItem && foundSiteMapItem.content) {
@@ -102,31 +108,13 @@ const SubContents = ({ siteMapData, allPreviewsImgs, location }) => {
     }
   })
 
-  const subcontentItems = subcontentHtmlList(currentElement, allPreviewsImgs)
+  const subpageContent = subcontentHtmlList(currentElement)
 
-  return <div className="subcontents">{subcontentItems}</div>
+  return <div className={styles.container}>{subpageContent}</div>
 }
 
-const SubContentsWithQuery = (props) => {
-  const data = useStaticQuery(graphql`
-    query thumbNails {
-      allFile(filter: { extension: { eq: "png" }, name: { eq: "thumbnail" } }) {
-        edges {
-          node {
-            publicURL
-            relativePath
-          }
-        }
-      }
-    }
-  `)
-
-  return <SubContents allPreviewsImgs={data.allFile.edges} {...props} />
+const getSubContents = (location) => {
+  return (props) => <SubContents location={location} {...props} />
 }
 
-const withLocation = (location) => {
-  const WithSiteMapData = withSiteMapData({ Component: SubContentsWithQuery })
-  return (props) => <WithSiteMapData location={location} {...props} />
-}
-
-export default withLocation
+export default getSubContents

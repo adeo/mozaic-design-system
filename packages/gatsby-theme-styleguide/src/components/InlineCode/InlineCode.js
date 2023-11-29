@@ -6,8 +6,8 @@ const InlineCode = (props) => {
   const { children } = props
   const [copied, setCopied] = useState(false)
 
-  function copyOnClick() {
-    copyToClipboard(props.children)
+  function handleCopy() {
+    copyToClipboard(children)
       .then(() => {
         setCopied(true)
         setTimeout(() => setCopied(false), 3000)
@@ -15,17 +15,20 @@ const InlineCode = (props) => {
       .catch(() => false)
   }
 
+  /* eslint-disable */
   return (
     <code
-      className={styles.code}
-      onClick={copyOnClick}
-      onKeyDown={copyOnClick}
       role="button"
+      tabIndex={0}
+      className={styles.code}
+      onClick={handleCopy}
+      onKeyDown={handleCopy}
     >
       {children}
       {copied && <span className={styles.copied}>copied</span>}
     </code>
   )
+  /* eslint-enable */
 }
 
 export default InlineCode
