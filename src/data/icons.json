@@ -2817,10 +2817,26 @@
     {
       "cat": "Social",
       "size": "24px",
-      "name": "SocialNetwork_Twitter",
-      "fileName": "Social_SocialNetwork_Twitter_24px.svg",
-      "iconName": "SocialNetworkTwitter",
-      "componentName": "SocialNetworkTwitter24"
+      "name": "SocialNetwork_Spotify",
+      "fileName": "Social_SocialNetwork_Spotify_24px.svg",
+      "iconName": "SocialNetworkSpotify",
+      "componentName": "SocialNetworkSpotify24"
+    },
+    {
+      "cat": "Social",
+      "size": "24px",
+      "name": "SocialNetwork_Telegram",
+      "fileName": "Social_SocialNetwork_Telegram_24px.svg",
+      "iconName": "SocialNetworkTelegram",
+      "componentName": "SocialNetworkTelegram24"
+    },
+    {
+      "cat": "Social",
+      "size": "24px",
+      "name": "SocialNetwork_X",
+      "fileName": "Social_SocialNetwork_X_24px.svg",
+      "iconName": "SocialNetworkX",
+      "componentName": "SocialNetworkX24"
     },
     {
       "cat": "Social",
@@ -5305,10 +5321,26 @@
     {
       "cat": "Social",
       "size": "32px",
-      "name": "SocialNetwork_Twitter",
-      "fileName": "Social_SocialNetwork_Twitter_32px.svg",
-      "iconName": "SocialNetworkTwitter",
-      "componentName": "SocialNetworkTwitter32"
+      "name": "SocialNetwork_Spotify",
+      "fileName": "Social_SocialNetwork_Spotify_32px.svg",
+      "iconName": "SocialNetworkSpotify",
+      "componentName": "SocialNetworkSpotify32"
+    },
+    {
+      "cat": "Social",
+      "size": "32px",
+      "name": "SocialNetwork_Telegram",
+      "fileName": "Social_SocialNetwork_Telegram_32px.svg",
+      "iconName": "SocialNetworkTelegram",
+      "componentName": "SocialNetworkTelegram32"
+    },
+    {
+      "cat": "Social",
+      "size": "32px",
+      "name": "SocialNetwork_X",
+      "fileName": "Social_SocialNetwork_X_32px.svg",
+      "iconName": "SocialNetworkX",
+      "componentName": "SocialNetworkX32"
     },
     {
       "cat": "Social",
@@ -7793,10 +7825,26 @@
     {
       "cat": "Social",
       "size": "48px",
-      "name": "SocialNetwork_Twitter",
-      "fileName": "Social_SocialNetwork_Twitter_48px.svg",
-      "iconName": "SocialNetworkTwitter",
-      "componentName": "SocialNetworkTwitter48"
+      "name": "SocialNetwork_Spotify",
+      "fileName": "Social_SocialNetwork_Spotify_48px.svg",
+      "iconName": "SocialNetworkSpotify",
+      "componentName": "SocialNetworkSpotify48"
+    },
+    {
+      "cat": "Social",
+      "size": "48px",
+      "name": "SocialNetwork_Telegram",
+      "fileName": "Social_SocialNetwork_Telegram_48px.svg",
+      "iconName": "SocialNetworkTelegram",
+      "componentName": "SocialNetworkTelegram48"
+    },
+    {
+      "cat": "Social",
+      "size": "48px",
+      "name": "SocialNetwork_X",
+      "fileName": "Social_SocialNetwork_X_48px.svg",
+      "iconName": "SocialNetworkX",
+      "componentName": "SocialNetworkX48"
     },
     {
       "cat": "Social",
@@ -10281,10 +10329,26 @@
     {
       "cat": "Social",
       "size": "64px",
-      "name": "SocialNetwork_Twitter",
-      "fileName": "Social_SocialNetwork_Twitter_64px.svg",
-      "iconName": "SocialNetworkTwitter",
-      "componentName": "SocialNetworkTwitter64"
+      "name": "SocialNetwork_Spotify",
+      "fileName": "Social_SocialNetwork_Spotify_64px.svg",
+      "iconName": "SocialNetworkSpotify",
+      "componentName": "SocialNetworkSpotify64"
+    },
+    {
+      "cat": "Social",
+      "size": "64px",
+      "name": "SocialNetwork_Telegram",
+      "fileName": "Social_SocialNetwork_Telegram_64px.svg",
+      "iconName": "SocialNetworkTelegram",
+      "componentName": "SocialNetworkTelegram64"
+    },
+    {
+      "cat": "Social",
+      "size": "64px",
+      "name": "SocialNetwork_X",
+      "fileName": "Social_SocialNetwork_X_64px.svg",
+      "iconName": "SocialNetworkX",
+      "componentName": "SocialNetworkX64"
     },
     {
       "cat": "Social",
