@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 19a1 1 0 01-.71-.29l-6-6a1 1 0 010-1.42l6-6a1 1 0 111.42 1.42L4.41 12l5.3 5.29a1 1 0 010 1.42A1 1 0 019 19z"/><path d="M21 13H3.24a1 1 0 010-2H21a1 1 0 010 2z"/></svg></template>
+<script >
+export default {
+    name: 'ArrowBack24',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.21 19.25h3.58a.5.5 0 00.36-.85l-1.8-1.8a.5.5 0 00-.7 0l-1.8 1.8a.5.5 0 00.36.85zM10 13a5 5 0 10-5-5 5 5 0 005 5zm0-8a3 3 0 11-3 3 3 3 0 013-3z"/><path d="M21.5 14h-9a.49.49 0 00-.48.42v-.05a7.34 7.34 0 01-5.64-.71 1 1 0 00-.8-.09l-2.85.88a1 1 0 00-.71 1V20a1 1 0 00.68.95A25.42 25.42 0 0010 22c.73 0 1.47 0 2.21-.1a.51.51 0 00.29.1h9a.5.5 0 00.5-.5v-7a.5.5 0 00-.5-.5zM4 19.25v-3.11l1.75-.53a9.34 9.34 0 006.25.81v3.49c-.67.06-1.34.09-2 .09a25.1 25.1 0 01-6-.75zM21 21h-8v-6h8z"/></svg></template>
+<script >
+export default {
+    name: 'AccountCustomerCollaborator24',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

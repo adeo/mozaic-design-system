@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect x="3" y="3" width="11.85" height="11.85" rx="1.5"/><path d="M28.08 3.12A1.4 1.4 0 0027.5 3h-8.85a1.5 1.5 0 00-1.5 1.5v8.85a1.5 1.5 0 001.5 1.5h8.85a1.42 1.42 0 001.06-.44 1.49 1.49 0 00.44-1.06V4.5a1.51 1.51 0 00-.44-1.06 1.39 1.39 0 00-.48-.32z"/><rect x="3" y="17.15" width="11.85" height="11.85" rx="1.5"/><path d="M28.08 17.27a1.4 1.4 0 00-.58-.12h-8.85a1.5 1.5 0 00-1.5 1.5v8.85a1.5 1.5 0 001.5 1.5h8.85a1.53 1.53 0 001.06-.44A1.51 1.51 0 0029 27.5v-8.85a1.49 1.49 0 00-.44-1.06 1.39 1.39 0 00-.48-.32z"/></svg></template>
+<script >
+export default {
+    name: 'DisplayDisplayProductX4Filled32',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

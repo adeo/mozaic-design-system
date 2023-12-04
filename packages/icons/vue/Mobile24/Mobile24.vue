@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 4H8a1 1 0 00-1 1v14a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1zm-1 2v9H9V6zM9 18v-2h6v2z"/><path d="M12.5 16.5h-1a.5.5 0 000 1h1a.5.5 0 000-1z"/></svg></template>
+<script >
+export default {
+    name: 'Mobile24',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

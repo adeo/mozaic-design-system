@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M50.6 44.55l-16.44 4.57a5.54 5.54 0 00-4-3.49l-7.68-28.88a2.11 2.11 0 00-.51-.91l-7.91-7.9a1.5 1.5 0 00-2.12 2.12l7.71 7.72 7.49 28.05a5.5 5.5 0 107.23 6.35l17-4.73a1.5 1.5 0 00-.8-2.9zM29 53.5a2.5 2.5 0 112.5-2.5 2.5 2.5 0 01-2.5 2.5z"/><path d="M53.84 38l-4.4-16.42A2 2 0 0047 20.16l-16.42 4.4A2 2 0 0029.16 27l4.4 16.42a2 2 0 001.93 1.48 1.91 1.91 0 00.52-.07l16.42-4.4A2 2 0 0053.84 38zM36.2 41.69L32.31 27.2l14.49-3.89 3.89 14.49z"/></svg></template>
+<script >
+export default {
+    name: 'DeliveryDeliveryPickupStore64',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

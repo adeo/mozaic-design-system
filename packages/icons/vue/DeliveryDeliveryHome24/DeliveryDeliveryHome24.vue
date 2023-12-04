@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 10h-.72l-.81-3.24a1 1 0 00-1-.76H16V5a1 1 0 00-1-1H4a1 1 0 00-1 1v2h2V6h9v5a1 1 0 002 0V8h1.72l.4 1.62.6 2.38H20v4h-.68a3 3 0 00-5.64 0h-2.36a3 3 0 00-5.64 0H5v-2H3v3a1 1 0 001 1h1.68a3 3 0 005.64 0h2.36a3 3 0 005.64 0H21a1 1 0 001-1v-6a1 1 0 00-1-1zM8.5 18a1 1 0 111-1 1 1 0 01-1 1zm8 0a1 1 0 111-1 1 1 0 01-1 1z"/><path d="M7 10H5a.5.5 0 000 1h2a.5.5 0 000-1zM7 12H3.5a.5.5 0 000 1H7a.5.5 0 000-1zM7.5 8.5A.5.5 0 007 8H2a.5.5 0 000 1h5a.5.5 0 00.5-.5z"/></svg></template>
+<script >
+export default {
+    name: 'DeliveryDeliveryHome24',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

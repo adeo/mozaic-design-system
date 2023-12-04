@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M57 13H7a2 2 0 00-2 2v34a2 2 0 002 2h50a2 2 0 002-2V15a2 2 0 00-2-2zm-1 35H8V16h48z"/><path d="M14.5 43a1.5 1.5 0 001.5-1.5 6.5 6.5 0 0113 0 1.5 1.5 0 003 0 9.52 9.52 0 00-5.73-8.72 6.5 6.5 0 10-7.54 0A9.52 9.52 0 0013 41.5a1.5 1.5 0 001.5 1.5zm8-19a3.5 3.5 0 11-3.5 3.5 3.5 3.5 0 013.5-3.5zM35.5 25h14a1.5 1.5 0 000-3h-14a1.5 1.5 0 000 3zM35.5 32h14a1.5 1.5 0 000-3h-14a1.5 1.5 0 000 3z"/></svg></template>
+<script >
+export default {
+    name: 'CardIDCard64',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

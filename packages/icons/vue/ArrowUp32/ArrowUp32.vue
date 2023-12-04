@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M15 28a1 1 0 102 0h-2zm1-24l.707-.707a1 1 0 00-1.414 0L16 4zm-8.707 7.293a1 1 0 101.414 1.414l-1.414-1.414zm16 1.414a1 1 0 001.414-1.414l-1.414 1.414zM17 28V4h-2v24h2zM15.293 3.293l-8 8 1.414 1.414 8-8-1.414-1.414zm0 1.414l8 8 1.414-1.414-8-8-1.414 1.414z"/></svg></template>
+<script >
+export default {
+    name: 'ArrowUp32',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

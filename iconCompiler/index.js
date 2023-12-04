@@ -10,6 +10,7 @@ const generateIconComponent = require('./componentsGenerators')
 const generateIconsDatas = require('./generateData')
 const copyPDF = require('./copyPDF')
 const generateIconsModules = require('./generateIconsJS')
+const generateIconsVues = require('./generateIconsVue')
 
 const outputIconSetSize = (monochromSet, colorSet) => `
 ---------------------------------------
@@ -45,6 +46,7 @@ cleanDirectories(config)
       generateIconComponent('vue', icons[0]),
       generateIconComponent('svelte', icons[0]),
       generateIconsModules(icons[0].concat(icons[1])),
+      generateIconsVues('vue', icons[0].concat(icons[1])),
       generateIconsDatas(icons),
     ]).then(() => Promise.resolve())
   })

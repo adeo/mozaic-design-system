@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M32 8A24 24 0 118 32 24 24 0 0132 8m0-3a27 27 0 1027 27A27 27 0 0032 5z"/><path d="M26.76 22.94L42.44 32l-15.68 9.06V22.94m1.5 20.72l15.68-9.06a3 3 0 000-5.2l-15.68-9.06a3 3 0 00-4.5 2.6v18.12a3 3 0 004.5 2.6z"/></svg></template>
+<script >
+export default {
+    name: 'Player64',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.707 4.293a1 1 0 010 1.414L7.414 18H15a1 1 0 110 2H5a1 1 0 01-1-1V9a1 1 0 112 0v7.586L18.293 4.293a1 1 0 011.414 0z"/></svg></template>
+<script >
+export default {
+    name: 'ArrowArrowBottomLeft24',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

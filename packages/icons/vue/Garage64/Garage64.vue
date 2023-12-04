@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M57.5 56H55V27.86l1.54 1.29a1.46 1.46 0 001 .35 1.5 1.5 0 001-2.65L33 5.5a1.51 1.51 0 00-2 0L5.54 26.85a1.5 1.5 0 101.92 2.3L9 27.86V56H6.5a1.5 1.5 0 000 3h51a1.5 1.5 0 000-3zM12 25.35L32 8.61l20 16.74V56h-3V32.5a1.5 1.5 0 00-1.5-1.5h-31a1.5 1.5 0 00-1.5 1.5V56h-3zM46 46v2H18v-2zm-28-2v-2h28v2zm28-4H18v-2h28zM18 50h28v2H18zm28-14H18v-2h28zM18 54h28v2H18z"/><path d="M32 27a5 5 0 10-5-5 5 5 0 005 5zm0-8a3 3 0 11-3 3 3 3 0 013-3z"/></svg></template>
+<script >
+export default {
+    name: 'Garage64',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

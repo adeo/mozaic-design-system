@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.85 22H3.15A1.16 1.16 0 012 20.85V3.15A1.16 1.16 0 013.15 2h17.7A1.16 1.16 0 0122 3.15v17.7A1.16 1.16 0 0120.85 22zM4 20h16V4H4z"/></svg></template>
+<script >
+export default {
+    name: 'DisplayDisplayFullOutline24',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

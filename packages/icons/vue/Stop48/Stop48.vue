@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M18 10a2 2 0 00-2 2v24a2 2 0 004 0V12a2 2 0 00-2-2zM30 10a2 2 0 00-2 2v24a2 2 0 004 0V12a2 2 0 00-2-2z"/></svg></template>
+<script >
+export default {
+    name: 'Stop48',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>

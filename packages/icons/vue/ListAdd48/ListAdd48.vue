@@ -1,0 +1,15 @@
+<template><svg aria-hidden="true" :fill="color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M25.54 23H17a1 1 0 000 2h8.54a1 1 0 000-2zM31 23h-1.83a1 1 0 000 2H31a1 1 0 000-2zM25.54 30H17a1 1 0 000 2h8.54a1 1 0 000-2zM31 30h-1.83a1 1 0 000 2H31a1 1 0 000-2z"/><path d="M41 12a8 8 0 00-14.24-5H12a2 2 0 00-2 2v30a2 2 0 002 2h24a2 2 0 002-2V18.24A8 8 0 0041 12zm-8-6a6 6 0 11-6 6 6 6 0 016-6zm2 32H13V10h12.26a8.24 8.24 0 00-.26 2 8 8 0 001.08 4H17a1 1 0 000 2h10.72A8 8 0 0033 20a8.24 8.24 0 002-.26z"/><path d="M30 13h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2V9a1 1 0 00-2 0v2h-2a1 1 0 000 2z"/></svg></template>
+<script >
+export default {
+    name: 'ListAdd48',
+    props: {
+    /**
+     * Icon color
+     */
+    color: {
+      type: String,
+      default: 'currentColor',
+    },
+  },
+};
+</script>
