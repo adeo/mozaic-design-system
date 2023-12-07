@@ -5,7 +5,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import './base.scss'
 import Menu from './Menu'
-import withLocationPreview from '../gatsby-components/Preview/withLocation'
 import Color from '../gatsby-components/Color'
 import Swatch from '../gatsby-components/Swatch'
 import Hint, { HintItem } from '../gatsby-components/Hint'
@@ -71,8 +70,6 @@ const AsideContainer = styled.aside`
 `
 
 const Layout = ({ children, location }) => {
-  const Preview = withLocationPreview(location)
-  shortcodes.Preview = Preview
   shortcodes.SubContents = SubContents(location)
 
   const data = useStaticQuery(graphql`

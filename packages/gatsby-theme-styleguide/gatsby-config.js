@@ -3,14 +3,6 @@ const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
 
 module.exports = {
   plugins: [
-    {
-      resolve: '@mozaic-ds/gatsby-source-preview',
-      options: {
-        previewsFiles: 'src/docs/**/*.preview.*',
-        rootPath: 'src/docs',
-        stylesPath: 'packages/styles/**/*.scss',
-      },
-    },
     'gatsby-plugin-styled-components',
     {
       resolve: '@mozaic-ds/gatsby-github-release',
@@ -28,7 +20,6 @@ module.exports = {
       options: {
         name: `src`,
         path: path.join('src'),
-        ignore: [`**/Previews/*.*`, `*.previews.*`], // ignore files starting with a dot
       },
     },
     'gatsby-transformer-json',
