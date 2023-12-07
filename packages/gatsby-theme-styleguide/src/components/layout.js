@@ -1,97 +1,36 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { MDXProvider } from '@mdx-js/react'
-import { useStaticQuery, graphql } from 'gatsby'
-import styled from 'styled-components'
-import './base.scss'
+import * as React from 'react'
+import { Link } from 'gatsby'
+import CurrentVersion from './CurrentVersion'
 import Menu from './Menu'
-import Color from './Color'
-import Swatch from './Swatch'
-import Hint, { HintItem } from './Hint'
-import IconViewer from './IconViewer'
-import InlineCode from './InlineCode'
-import Highlight from './Highlight'
-import SubContents from './SubContents'
-import Story from './Story'
+import Search from './Search'
+import VersionSelector from './VersionSelector'
+import { LogoMozaic } from './icons'
+import './base.scss'
+import * as styles from './layout.module.css'
 
-const shortcodes = {
-  Color,
-  Swatch,
-  Hint,
-  HintItem,
-  IconViewer,
-  Highlight,
-  inlineCode: InlineCode,
-  Story,
-}
-
-const Global = styled.div`
-  display: flex;
-  align-content: stretch;
-  height: 100vh;
-  width: 100vw;
-  overflow-y: hidden;
-`
-
-const Main = styled.main`
-  flex: 1;
-  scroll-behavior: smooth;
-  overflow-y: auto;
-  overflow-x: hidden;
-  position: relative;
-
-  .nav-open & {
-    overflow: hidden;
-  }
-`
-
-const AsideContainer = styled.aside`
-  background: #eeeef0;
-  min-height: 100vh;
-  position: relative;
-  width: 18.75rem;
-
-  @media screen and (max-width: 1023px) {
-    left: 0;
-    position: fixed;
-    top: 0;
-    transition: all 0.4s;
-    transform: translateX(-100%);
-    z-index: 1000;
-  }
-
-  .nav-open & {
-    transform: translateX(0);
-  }
-`
-
-const Layout = ({ children, location }) => {
-  shortcodes.SubContents = SubContents(location)
-
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+const Layout = (props) => {
+  const { children, location } = props
 
   return (
-    <Global>
-      <AsideContainer>
-        <Menu location={location} siteTitle={data.site.siteMetadata.title} />
-      </AsideContainer>
-      <MDXProvider components={shortcodes}>
-        <Main id="scroller">{children}</Main>
-      </MDXProvider>
-    </Global>
+    <div className={styles.container}>
+      <aside className={`siteAside ${styles.aside}`}>
+        <div className={styles.asideTop}>
+          <Link to="/" className={styles.asideLogo}>
+            <LogoMozaic />
+          </Link>
+          <div className={styles.versionsWrapper}>
+            <VersionSelector />
+            <CurrentVersion />
+          </div>
+        </div>
+        <Search />
+        <Menu location={location} />
+      </aside>
+      <main id="scroller" className={styles.main}>
+        {children}
+      </main>
+    </div>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout

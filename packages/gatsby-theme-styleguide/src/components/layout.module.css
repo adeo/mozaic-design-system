@@ -1,0 +1,74 @@
+/* Layout */
+
+/** Container */
+.container {
+  display: flex;
+  align-content: stretch;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+/** Aside */
+.aside {
+  background: #eeeef0;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
+  padding: 4.5rem 1.5rem 0;
+  position: relative;
+  width: 18.75rem;
+}
+
+@media (min-width: 1024px) {
+  .aside {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aside {
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.4s;
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+}
+
+.asideTop {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.asideLogo,
+.asideLogo svg {
+  display: block;
+}
+
+/** Main */
+.main {
+  flex: 1;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/** NavOpen */
+:global(.navOpen) .aside {
+  transform: translateX(0);
+}
+
+:global(.navOpen) .main {
+  overflow: hidden;
+}
+
+/** versionsWrapper */
+.versionsWrapper {
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  right: 0;
+}
