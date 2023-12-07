@@ -1,35 +1,49 @@
-const CM = require('@mozaic-ds/configuration-manager')
 const path = require('path')
-const customActions = require('./actions/actions.js')
+const CM = require('@mozaic-ds/configuration-manager')
+const preset = CM.getKey('preset')
+const localSrcPath = CM.getKey('tokens.localTokensSrcPath')
+const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
+const sdCustomActions = require('./actions/actions.js') // *sd = StyleDictionary
 
 const getPath = (localRelativePath) =>
   path.relative(process.cwd(), `${__dirname}/${localRelativePath}`)
 
 const getBuildPath = (path) => getPath(path) + '/'
 
-const preset = CM.getKey('preset')
+const getSourceDir = (preset, customSourcePath) => {
+  const source = []
+  const sourceDir = {
+    adeo: 'AdeoProperties/**/*.json',
+    bricoman: 'BricomanProperties/**/*.json',
+    lm: 'properties/**/*.json',
+  }
 
-const localSrcPath = CM.getKey('tokens.localTokensSrcPath')
+  source.push(getPath(sourceDir.lm))
 
-const localTokensExportPath = CM.getKey('tokens.localTokensExportPath')
+  if (customSourcePath)
+    source.push(getPath(`${customSourcePath}${sourceDir[lm]}`))
 
-const source = localSrcPath
-  ? [getPath('properties/**/*.json'), `${localSrcPath}properties/**/*.json`]
-  : [getPath('properties/**/*.json')]
+  if (preset) source.splice(1, 0, getPath(sourceDir[preset]))
 
-const availablePresets = {
-  adeo: 'AdeoProperties/**/*.json',
-  bricoman: 'BricomanProperties/**/*.json',
+  return source
 }
 
-if (preset) {
-  source.splice(1, 0, getPath(availablePresets[preset]))
-}
+const source = getSourceDir(preset, localSrcPath)
 
-const setLocalTokensExportPath = (dir) =>
-  localTokensExportPath
-    ? `${localTokensExportPath}${dir}/`
-    : getBuildPath(`build/${dir}/`)
+const setLocalTokensExportPath = (dir) => {
+  let outputDir = ''
+  const buildDir = {
+    adeo: 'buildAdeo/',
+    bricoman: 'buildBricoman/',
+    lm: 'build/',
+  }
+
+  outputDir = preset ? buildDir[preset] : buildDir.lm
+
+  if (localTokensExportPath) return `${localTokensExportPath}${dir}/`
+
+  return getBuildPath(`${outputDir}${dir}/`)
+}
 
 const config = {
   source,
@@ -222,7 +236,7 @@ const config = {
       ],
     },
   },
-  action: customActions,
+  action: sdCustomActions,
 }
 
 module.exports = config
