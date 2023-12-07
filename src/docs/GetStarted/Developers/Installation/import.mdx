@@ -12,7 +12,9 @@ If you [configured PostCSS properly](/GetStarted/Developers/configurePostCss/), 
 ```scss
 // Don't do this:
 @import '../../node_modules/@mozaic-ds/styles/settings-tools/all-settings';
+```
 
+```scss
 // Do this instead:
 @import 'settings-tools/all-settings';
 ```
@@ -53,12 +55,12 @@ The import order within the same ITCSS category does not matter.
 @import 'settings-tools/all-settings';
 
 // Generics
-@import 'generics/_g.***.scss';
-@import 'generics/_g.***.scss';
+@import 'generics/g.***.scss';
+@import 'generics/g.***.scss';
 
 // Elements
-@import 'elements/_e.***.scss';
-@import 'elements/_e.***.scss';
+@import 'elements/e.***.scss';
+@import 'elements/e.***.scss';
 
 /*... etc ...*/
 ```

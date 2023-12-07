@@ -5,6 +5,7 @@
   "author": "gael-boyenval (gaelboyenval@icloud.com)",
   "license": "MIT",
   "dependencies": {
+    "@code-hike/mdx": "^0.9.0",
     "@mdx-js/react": "^3.0.0",
     "@mozaic-ds/gatsby-github-release": "^1.60.0",
     "gatsby-plugin-flexsearch": "^1.0.3",
@@ -16,7 +17,6 @@
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-json": "^5.12.0",
     "jest-styled-components": "^7.2.0",
-    "prism-react-renderer": "^2.3.0",
     "sass": "^1.69.5",
     "styled-components": "^6.1.1"
   },

@@ -1,5 +1,6 @@
 const path = require('path')
 const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
+const { remarkCodeHike } = require('@code-hike/mdx')
 
 module.exports = {
   plugins: [
@@ -44,6 +45,18 @@ module.exports = {
           },
           'gatsby-remark-static-images',
         ],
+        mdxOptions: {
+          remarkPlugins: [
+            [
+              remarkCodeHike,
+              {
+                showCopyButton: true,
+                theme: 'material-palenight',
+                autoLink: false,
+              },
+            ],
+          ],
+        },
       },
     },
     {
