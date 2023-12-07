@@ -8,7 +8,6 @@ import PatternStatusGroup from '../components/PatternStatusGroup'
 import JSImplementation from '../components/JSImplementation'
 import PageTabs from '../components/PageTabs'
 import Container from '../components/Container'
-import CalloutVue from '../components/CalloutVue'
 import TableOfContents from '../components/TableOfContents'
 
 const FullWidthContainer = styled.div`
@@ -131,9 +130,6 @@ const PatternPage = ({ children, data, location }) => {
       <PageContentWrapper>
         <PageContent>
           <Container>
-            {location.state && location.state.isCode && hasVueLink && (
-              <CalloutVue link={parentLinks.vue.link} />
-            )}
             {children}
           </Container>
         </PageContent>
