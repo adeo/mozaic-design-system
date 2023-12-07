@@ -13,7 +13,7 @@ function orderSiteMapArray(siteMapArray) {
   })
 }
 
-export const parseAllMdx = (allMdx) => {
+export const parseAllMdx = (allMdx, location = {}) => {
   const basedir = 'docs/'
   const finalArray = []
 
@@ -26,6 +26,7 @@ export const parseAllMdx = (allMdx) => {
     const pathArray = pathNoBaseDir.split('/')
     pathArray.pop()
     const level = pathArray.length
+    const locationPathname = location.pathname
 
     // "lookinArray" starts being "finalArray" and becomes "content" property according to the loop
     let pathObj
@@ -52,6 +53,7 @@ export const parseAllMdx = (allMdx) => {
           description,
           type: 'directory',
           content: [],
+          isOpen: locationPathname && locationPathname.includes(slug),
         }
         lookingArray.push(pathObj)
       }
