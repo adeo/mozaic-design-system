@@ -7,7 +7,6 @@ import { graphql, StaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import styled, { css } from 'styled-components'
-import DesignerKitLink from '../DesignerKitLink'
 import withSiteMapData from '../SiteMapData'
 import { parseLocation } from '../SiteMapData/tools'
 import MenuHeader from './MenuHeader'
@@ -236,14 +235,6 @@ class Menu extends Component {
                       </GithubLink>
                     </MenuItemContainer>
                   </ListItem>
-                  <DesignerKitLink
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="button button--secondary button__menu"
-                    title="Download the IU kit"
-                  >
-                    Download the design kit
-                  </DesignerKitLink>
                 </NavContainer>
               </Wrapper>
             </>

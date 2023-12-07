@@ -13,7 +13,6 @@ import Code from './Code'
 import InlineCode from './InlineCode'
 import Highlight from './Highlight'
 import SubContents from './SubContents'
-import DesignerKitLink from './DesignerKitLink'
 import Story from './Story'
 
 const shortcodes = {
@@ -22,7 +21,6 @@ const shortcodes = {
   Hint,
   HintItem,
   IconViewer,
-  DesignerKitLink,
   Highlight,
   pre: ({ children }) => <Code>{children}</Code>,
   inlineCode: InlineCode,
