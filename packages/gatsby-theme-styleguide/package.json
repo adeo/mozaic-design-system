@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.5",
+    "@sindresorhus/slugify": "^2.2.1",
     "core-js": "^3.34.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.7",
