@@ -7,7 +7,7 @@
   padding-top: 1rem;
   width: 100%;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (width >= 1280px) {
     order: initial;
     max-width: 16.5rem;
   }
@@ -15,7 +15,7 @@
   &__wrapper {
     padding: 1rem;
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (width >= 1280px) {
       border-left: 1px solid #887f87;
       max-height: 90vh;
       overflow-y: auto;
