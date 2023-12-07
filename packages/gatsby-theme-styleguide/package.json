@@ -7,7 +7,6 @@
   "dependencies": {
     "@mdx-js/react": "^3.0.0",
     "@mozaic-ds/gatsby-github-release": "^1.60.0",
-    "@mozaic-ds/gatsby-source-preview": "^1.60.0",
     "gatsby-plugin-flexsearch": "^1.0.3",
     "gatsby-plugin-mdx": "^5.12.3",
     "gatsby-plugin-sass": "^6.12.3",
