@@ -9,7 +9,6 @@ import Color from './Color'
 import Swatch from './Swatch'
 import Hint, { HintItem } from './Hint'
 import IconViewer from './IconViewer'
-import Code from './Code'
 import InlineCode from './InlineCode'
 import Highlight from './Highlight'
 import SubContents from './SubContents'
@@ -22,7 +21,6 @@ const shortcodes = {
   HintItem,
   IconViewer,
   Highlight,
-  pre: ({ children }) => <Code>{children}</Code>,
   inlineCode: InlineCode,
   Story,
 }
