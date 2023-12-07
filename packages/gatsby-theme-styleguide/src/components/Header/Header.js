@@ -10,7 +10,7 @@ import McButton from '../McButton'
 import McCheckbox from '../McCheckbox'
 import McTextInput from '../McTextInput'
 import McToggle from '../McToggle'
-import MenuButton from '../../gatsby-components/Menu/MenuButton'
+import MenuButton from '../Menu/MenuButton'
 
 const HeaderContainer = styled.div`
   margin: 0 auto;

@@ -76,9 +76,8 @@
     background: #fff;
     box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.22);
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 0.5rem;
   }
 
