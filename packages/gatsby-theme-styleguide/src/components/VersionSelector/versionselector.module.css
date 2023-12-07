@@ -1,0 +1,28 @@
+.container {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.label {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.select {
+  display: block;
+  cursor: pointer;
+  height: 100%;
+  opacity: 0;
+  width: 100%;
+  z-index: 2;
+}
