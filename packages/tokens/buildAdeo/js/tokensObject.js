@@ -1,8303 +1,12651 @@
 module.exports = {
-  border: {
-    s: {
-      value: 1,
-      filePath: 'packages/tokens/properties/border/base.json',
-      isSource: true,
-      original: {
-        value: 1,
+  "border": {
+    "s": {
+      "value": 1,
+      "filePath": "packages/tokens/properties/border/base.json",
+      "isSource": true,
+      "original": {
+        "value": 1
       },
-      name: 'BorderS',
-      attributes: {
-        category: 'border',
-        type: 's',
+      "name": "BorderS",
+      "attributes": {
+        "category": "border",
+        "type": "s"
       },
-      path: ['border', 's'],
+      "path": [
+        "border",
+        "s"
+      ]
     },
-    m: {
-      value: 2,
-      filePath: 'packages/tokens/properties/border/base.json',
-      isSource: true,
-      original: {
-        value: 2,
+    "m": {
+      "value": 2,
+      "filePath": "packages/tokens/properties/border/base.json",
+      "isSource": true,
+      "original": {
+        "value": 2
       },
-      name: 'BorderM',
-      attributes: {
-        category: 'border',
-        type: 'm',
+      "name": "BorderM",
+      "attributes": {
+        "category": "border",
+        "type": "m"
       },
-      path: ['border', 'm'],
+      "path": [
+        "border",
+        "m"
+      ]
     },
-    l: {
-      value: 3,
-      filePath: 'packages/tokens/properties/border/base.json',
-      isSource: true,
-      original: {
-        value: 3,
+    "l": {
+      "value": 3,
+      "filePath": "packages/tokens/properties/border/base.json",
+      "isSource": true,
+      "original": {
+        "value": 3
       },
-      name: 'BorderL',
-      attributes: {
-        category: 'border',
-        type: 'l',
+      "name": "BorderL",
+      "attributes": {
+        "category": "border",
+        "type": "l"
       },
-      path: ['border', 'l'],
-    },
+      "path": [
+        "border",
+        "l"
+      ]
+    }
   },
-  color: {
-    badge: {
-      info: {
-        background: {
-          value: '#daeff7',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.info.100.value}',
+  "color": {
+    "badge": {
+      "info": {
+        "background": {
+          "value": "#daeff7",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.100.value}"
           },
-          name: 'ColorBadgeInfoBackground',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'info',
-            subitem: 'background',
+          "name": "ColorBadgeInfoBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "info",
+            "subitem": "background"
           },
-          path: ['color', 'badge', 'info', 'background'],
+          "path": [
+            "color",
+            "badge",
+            "info",
+            "background"
+          ]
         },
-        border: {
-          value: '#0b96cc',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.info.500.value}',
+        "border": {
+          "value": "#0b96cc",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.500.value}"
           },
-          name: 'ColorBadgeInfoBorder',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'info',
-            subitem: 'border',
+          "name": "ColorBadgeInfoBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "info",
+            "subitem": "border"
           },
-          path: ['color', 'badge', 'info', 'border'],
+          "path": [
+            "color",
+            "badge",
+            "info",
+            "border"
+          ]
         },
-        text: {
-          value: '#005c91',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.info.700.value}',
+        "text": {
+          "value": "#005c91",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.700.value}"
           },
-          name: 'ColorBadgeInfoText',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'info',
-            subitem: 'text',
+          "name": "ColorBadgeInfoText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "info",
+            "subitem": "text"
           },
-          path: ['color', 'badge', 'info', 'text'],
-        },
+          "path": [
+            "color",
+            "badge",
+            "info",
+            "text"
+          ]
+        }
       },
-      success: {
-        background: {
-          value: '#ebf5de',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.success.100.value}',
+      "success": {
+        "background": {
+          "value": "#ebf5de",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.100.value}"
           },
-          name: 'ColorBadgeSuccessBackground',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'success',
-            subitem: 'background',
+          "name": "ColorBadgeSuccessBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "success",
+            "subitem": "background"
           },
-          path: ['color', 'badge', 'success', 'background'],
+          "path": [
+            "color",
+            "badge",
+            "success",
+            "background"
+          ]
         },
-        border: {
-          value: '#46a610',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.success.500.value}',
+        "border": {
+          "value": "#46a610",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.500.value}"
           },
-          name: 'ColorBadgeSuccessBorder',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'success',
-            subitem: 'border',
+          "name": "ColorBadgeSuccessBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "success",
+            "subitem": "border"
           },
-          path: ['color', 'badge', 'success', 'border'],
+          "path": [
+            "color",
+            "badge",
+            "success",
+            "border"
+          ]
         },
-        text: {
-          value: '#006902',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.success.700.value}',
+        "text": {
+          "value": "#006902",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.700.value}"
           },
-          name: 'ColorBadgeSuccessText',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'success',
-            subitem: 'text',
+          "name": "ColorBadgeSuccessText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "success",
+            "subitem": "text"
           },
-          path: ['color', 'badge', 'success', 'text'],
-        },
+          "path": [
+            "color",
+            "badge",
+            "success",
+            "text"
+          ]
+        }
       },
-      warning: {
-        background: {
-          value: '#fdf1e8',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.warning.100.value}',
+      "warning": {
+        "background": {
+          "value": "#fdf1e8",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.100.value}"
           },
-          name: 'ColorBadgeWarningBackground',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'warning',
-            subitem: 'background',
+          "name": "ColorBadgeWarningBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "warning",
+            "subitem": "background"
           },
-          path: ['color', 'badge', 'warning', 'background'],
+          "path": [
+            "color",
+            "badge",
+            "warning",
+            "background"
+          ]
         },
-        border: {
-          value: '#ea7315',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.warning.500.value}',
+        "border": {
+          "value": "#ea7315",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.500.value}"
           },
-          name: 'ColorBadgeWarningBorder',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'warning',
-            subitem: 'border',
+          "name": "ColorBadgeWarningBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "warning",
+            "subitem": "border"
           },
-          path: ['color', 'badge', 'warning', 'border'],
+          "path": [
+            "color",
+            "badge",
+            "warning",
+            "border"
+          ]
         },
-        text: {
-          value: '#8c3500',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.warning.700.value}',
+        "text": {
+          "value": "#8c3500",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.700.value}"
           },
-          name: 'ColorBadgeWarningText',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'warning',
-            subitem: 'text',
+          "name": "ColorBadgeWarningText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "warning",
+            "subitem": "text"
           },
-          path: ['color', 'badge', 'warning', 'text'],
-        },
+          "path": [
+            "color",
+            "badge",
+            "warning",
+            "text"
+          ]
+        }
       },
-      danger: {
-        background: {
-          value: '#fdeaea',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.danger.100.value}',
+      "danger": {
+        "background": {
+          "value": "#fdeaea",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.100.value}"
           },
-          name: 'ColorBadgeDangerBackground',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'danger',
-            subitem: 'background',
+          "name": "ColorBadgeDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "danger",
+            "subitem": "background"
           },
-          path: ['color', 'badge', 'danger', 'background'],
+          "path": [
+            "color",
+            "badge",
+            "danger",
+            "background"
+          ]
         },
-        border: {
-          value: '#ea302d',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.danger.500.value}',
+        "border": {
+          "value": "#ea302d",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.500.value}"
           },
-          name: 'ColorBadgeDangerBorder',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'danger',
-            subitem: 'border',
+          "name": "ColorBadgeDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "danger",
+            "subitem": "border"
           },
-          path: ['color', 'badge', 'danger', 'border'],
+          "path": [
+            "color",
+            "badge",
+            "danger",
+            "border"
+          ]
         },
-        text: {
-          value: '#8c0003',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.danger.700.value}',
+        "text": {
+          "value": "#8c0003",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.700.value}"
           },
-          name: 'ColorBadgeDangerText',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'danger',
-            subitem: 'text',
+          "name": "ColorBadgeDangerText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "danger",
+            "subitem": "text"
           },
-          path: ['color', 'badge', 'danger', 'text'],
-        },
+          "path": [
+            "color",
+            "badge",
+            "danger",
+            "text"
+          ]
+        }
       },
-      neutral: {
-        background: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
+      "neutral": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
           },
-          name: 'ColorBadgeNeutralBackground',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'neutral',
-            subitem: 'background',
+          "name": "ColorBadgeNeutralBackground",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "neutral",
+            "subitem": "background"
           },
-          path: ['color', 'badge', 'neutral', 'background'],
+          "path": [
+            "color",
+            "badge",
+            "neutral",
+            "background"
+          ]
         },
-        border: {
-          value: '#808080',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.500.value}',
+        "border": {
+          "value": "#808080",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
           },
-          name: 'ColorBadgeNeutralBorder',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'neutral',
-            subitem: 'border',
+          "name": "ColorBadgeNeutralBorder",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "neutral",
+            "subitem": "border"
           },
-          path: ['color', 'badge', 'neutral', 'border'],
+          "path": [
+            "color",
+            "badge",
+            "neutral",
+            "border"
+          ]
         },
-        text: {
-          value: '#4d4d4d',
-          filePath: 'packages/tokens/properties/color/badge.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.700.value}',
+        "text": {
+          "value": "#4d4d4d",
+          "filePath": "packages/tokens/properties/color/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.700.value}"
           },
-          name: 'ColorBadgeNeutralText',
-          attributes: {
-            category: 'color',
-            type: 'badge',
-            item: 'neutral',
-            subitem: 'text',
+          "name": "ColorBadgeNeutralText",
+          "attributes": {
+            "category": "color",
+            "type": "badge",
+            "item": "neutral",
+            "subitem": "text"
           },
-          path: ['color', 'badge', 'neutral', 'text'],
-        },
-      },
+          "path": [
+            "color",
+            "badge",
+            "neutral",
+            "text"
+          ]
+        }
+      }
     },
-    'primary-01': {
-      100: {
-        value: '#d9f0f3',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#D9F0F3',
+    "primary-01": {
+      "100": {
+        "value": "#d9f0f3",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#D9F0F3"
         },
-        name: 'ColorPrimary01100',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '100',
+        "name": "ColorPrimary01100",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "100"
         },
-        path: ['color', 'primary-01', '100'],
+        "path": [
+          "color",
+          "primary-01",
+          "100"
+        ]
       },
-      200: {
-        value: '#91d5db',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#91D5DB',
+      "200": {
+        "value": "#91d5db",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#91D5DB"
         },
-        name: 'ColorPrimary01200',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '200',
+        "name": "ColorPrimary01200",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "200"
         },
-        path: ['color', 'primary-01', '200'],
+        "path": [
+          "color",
+          "primary-01",
+          "200"
+        ]
       },
-      300: {
-        value: '#48bac4',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#48BAC4',
+      "300": {
+        "value": "#48bac4",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#48BAC4"
         },
-        name: 'ColorPrimary01300',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '300',
+        "name": "ColorPrimary01300",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "300"
         },
-        path: ['color', 'primary-01', '300'],
+        "path": [
+          "color",
+          "primary-01",
+          "300"
+        ]
       },
-      400: {
-        value: '#009eac',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#009EAC',
+      "400": {
+        "value": "#009eac",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#009EAC"
         },
-        name: 'ColorPrimary01400',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '400',
+        "name": "ColorPrimary01400",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "400"
         },
-        path: ['color', 'primary-01', '400'],
+        "path": [
+          "color",
+          "primary-01",
+          "400"
+        ]
       },
-      500: {
-        value: '#00919f',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#00919F',
+      "500": {
+        "value": "#00919f",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#00919F"
         },
-        name: 'ColorPrimary01500',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '500',
+        "name": "ColorPrimary01500",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "500"
         },
-        path: ['color', 'primary-01', '500'],
+        "path": [
+          "color",
+          "primary-01",
+          "500"
+        ]
       },
-      600: {
-        value: '#007f8c',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#007F8C',
+      "600": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#007F8C"
         },
-        name: 'ColorPrimary01600',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '600',
+        "name": "ColorPrimary01600",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "600"
         },
-        path: ['color', 'primary-01', '600'],
+        "path": [
+          "color",
+          "primary-01",
+          "600"
+        ]
       },
-      700: {
-        value: '#006974',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#006974',
+      "700": {
+        "value": "#006974",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#006974"
         },
-        name: 'ColorPrimary01700',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '700',
+        "name": "ColorPrimary01700",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "700"
         },
-        path: ['color', 'primary-01', '700'],
+        "path": [
+          "color",
+          "primary-01",
+          "700"
+        ]
       },
-      800: {
-        value: '#004e57',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#004E57',
+      "800": {
+        "value": "#004e57",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#004E57"
         },
-        name: 'ColorPrimary01800',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '800',
+        "name": "ColorPrimary01800",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "800"
         },
-        path: ['color', 'primary-01', '800'],
+        "path": [
+          "color",
+          "primary-01",
+          "800"
+        ]
       },
-      900: {
-        value: '#002e33',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#002E33',
+      "900": {
+        "value": "#002e33",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#002E33"
         },
-        name: 'ColorPrimary01900',
-        attributes: {
-          category: 'color',
-          type: 'primary-01',
-          item: '900',
+        "name": "ColorPrimary01900",
+        "attributes": {
+          "category": "color",
+          "type": "primary-01",
+          "item": "900"
         },
-        path: ['color', 'primary-01', '900'],
-      },
+        "path": [
+          "color",
+          "primary-01",
+          "900"
+        ]
+      }
     },
-    'primary-02': {
-      100: {
-        value: '#cfd2d8',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#CFD2D8',
+    "primary-02": {
+      "100": {
+        "value": "#eeeff1",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EEEFF1"
         },
-        name: 'ColorPrimary02100',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '100',
+        "name": "ColorPrimary02100",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "100"
         },
-        path: ['color', 'primary-02', '100'],
+        "path": [
+          "color",
+          "primary-02",
+          "100"
+        ]
       },
-      200: {
-        value: '#cfd2d8',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#CFD2D8',
+      "200": {
+        "value": "#cfd2d8",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#CFD2D8"
         },
-        name: 'ColorPrimary02200',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '200',
+        "name": "ColorPrimary02200",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "200"
         },
-        path: ['color', 'primary-02', '200'],
+        "path": [
+          "color",
+          "primary-02",
+          "200"
+        ]
       },
-      300: {
-        value: '#b3b7c1',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#B3B7C1',
+      "300": {
+        "value": "#b3b7c1",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#B3B7C1"
         },
-        name: 'ColorPrimary02300',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '300',
+        "name": "ColorPrimary02300",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "300"
         },
-        path: ['color', 'primary-02', '300'],
+        "path": [
+          "color",
+          "primary-02",
+          "300"
+        ]
       },
-      400: {
-        value: '#8f94a3',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#8F94A3',
+      "400": {
+        "value": "#8f94a3",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8F94A3"
         },
-        name: 'ColorPrimary02400',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '400',
+        "name": "ColorPrimary02400",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "400"
         },
-        path: ['color', 'primary-02', '400'],
+        "path": [
+          "color",
+          "primary-02",
+          "400"
+        ]
       },
-      500: {
-        value: '#6a7081',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#6A7081',
+      "500": {
+        "value": "#6a7081",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#6A7081"
         },
-        name: 'ColorPrimary02500',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '500',
+        "name": "ColorPrimary02500",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "500"
         },
-        path: ['color', 'primary-02', '500'],
+        "path": [
+          "color",
+          "primary-02",
+          "500"
+        ]
       },
-      600: {
-        value: '#494f60',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#494F60',
+      "600": {
+        "value": "#494f60",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#494F60"
         },
-        name: 'ColorPrimary02600',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '600',
+        "name": "ColorPrimary02600",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "600"
         },
-        path: ['color', 'primary-02', '600'],
+        "path": [
+          "color",
+          "primary-02",
+          "600"
+        ]
       },
-      700: {
-        value: '#343b4c',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#343B4C',
+      "700": {
+        "value": "#343b4c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#343B4C"
         },
-        name: 'ColorPrimary02700',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '700',
+        "name": "ColorPrimary02700",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "700"
         },
-        path: ['color', 'primary-02', '700'],
+        "path": [
+          "color",
+          "primary-02",
+          "700"
+        ]
       },
-      800: {
-        value: '#242938',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#242938',
+      "800": {
+        "value": "#242938",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#242938"
         },
-        name: 'ColorPrimary02800',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '800',
+        "name": "ColorPrimary02800",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "800"
         },
-        path: ['color', 'primary-02', '800'],
+        "path": [
+          "color",
+          "primary-02",
+          "800"
+        ]
       },
-      900: {
-        value: '#171b26',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#171B26',
+      "900": {
+        "value": "#171b26",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#171B26"
         },
-        name: 'ColorPrimary02900',
-        attributes: {
-          category: 'color',
-          type: 'primary-02',
-          item: '900',
+        "name": "ColorPrimary02900",
+        "attributes": {
+          "category": "color",
+          "type": "primary-02",
+          "item": "900"
         },
-        path: ['color', 'primary-02', '900'],
-      },
+        "path": [
+          "color",
+          "primary-02",
+          "900"
+        ]
+      }
     },
-    grey: {
-      100: {
-        value: '#e6e6e6',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#E6E6E6',
+    "grey": {
+      "100": {
+        "value": "#e6e6e6",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#E6E6E6"
         },
-        name: 'ColorGrey100',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '100',
+        "name": "ColorGrey100",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "100"
         },
-        path: ['color', 'grey', '100'],
+        "path": [
+          "color",
+          "grey",
+          "100"
+        ]
       },
-      200: {
-        value: '#cccccc',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#CCCCCC',
+      "200": {
+        "value": "#cccccc",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#CCCCCC"
         },
-        name: 'ColorGrey200',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '200',
+        "name": "ColorGrey200",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "200"
         },
-        path: ['color', 'grey', '200'],
+        "path": [
+          "color",
+          "grey",
+          "200"
+        ]
       },
-      300: {
-        value: '#b3b3b3',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#B3B3B3',
+      "300": {
+        "value": "#b3b3b3",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#B3B3B3"
         },
-        name: 'ColorGrey300',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '300',
+        "name": "ColorGrey300",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "300"
         },
-        path: ['color', 'grey', '300'],
+        "path": [
+          "color",
+          "grey",
+          "300"
+        ]
       },
-      400: {
-        value: '#999999',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#999999',
+      "400": {
+        "value": "#999999",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#999999"
         },
-        name: 'ColorGrey400',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '400',
+        "name": "ColorGrey400",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "400"
         },
-        path: ['color', 'grey', '400'],
+        "path": [
+          "color",
+          "grey",
+          "400"
+        ]
       },
-      500: {
-        value: '#808080',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#808080',
+      "500": {
+        "value": "#808080",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#808080"
         },
-        name: 'ColorGrey500',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '500',
+        "name": "ColorGrey500",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "500"
         },
-        path: ['color', 'grey', '500'],
+        "path": [
+          "color",
+          "grey",
+          "500"
+        ]
       },
-      600: {
-        value: '#666666',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#666666',
+      "600": {
+        "value": "#666666",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#666666"
         },
-        name: 'ColorGrey600',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '600',
+        "name": "ColorGrey600",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "600"
         },
-        path: ['color', 'grey', '600'],
+        "path": [
+          "color",
+          "grey",
+          "600"
+        ]
       },
-      700: {
-        value: '#4d4d4d',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#4D4D4D',
+      "700": {
+        "value": "#4d4d4d",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#4D4D4D"
         },
-        name: 'ColorGrey700',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '700',
+        "name": "ColorGrey700",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "700"
         },
-        path: ['color', 'grey', '700'],
+        "path": [
+          "color",
+          "grey",
+          "700"
+        ]
       },
-      800: {
-        value: '#333333',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#333333',
+      "800": {
+        "value": "#333333",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#333333"
         },
-        name: 'ColorGrey800',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '800',
+        "name": "ColorGrey800",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "800"
         },
-        path: ['color', 'grey', '800'],
+        "path": [
+          "color",
+          "grey",
+          "800"
+        ]
       },
-      900: {
-        value: '#191919',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#191919',
+      "900": {
+        "value": "#191919",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#191919"
         },
-        name: 'ColorGrey900',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '900',
+        "name": "ColorGrey900",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "900"
         },
-        path: ['color', 'grey', '900'],
+        "path": [
+          "color",
+          "grey",
+          "900"
+        ]
       },
-      999: {
-        value: '#000000',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#000000',
+      "999": {
+        "value": "#000000",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000"
         },
-        name: 'ColorGrey999',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '999',
+        "name": "ColorGrey999",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "999"
         },
-        path: ['color', 'grey', '999'],
+        "path": [
+          "color",
+          "grey",
+          "999"
+        ]
       },
-      '000': {
-        value: '#ffffff',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FFFFFF',
+      "000": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFFFFF"
         },
-        name: 'ColorGrey000',
-        attributes: {
-          category: 'color',
-          type: 'grey',
-          item: '000',
+        "name": "ColorGrey000",
+        "attributes": {
+          "category": "color",
+          "type": "grey",
+          "item": "000"
         },
-        path: ['color', 'grey', '000'],
-      },
+        "path": [
+          "color",
+          "grey",
+          "000"
+        ]
+      }
     },
-    'secondary-blue': {
-      100: {
-        value: '#eaedef',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EAEDEF',
+    "secondary-blue": {
+      "100": {
+        "value": "#eaedef",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EAEDEF"
         },
-        name: 'ColorSecondaryBlue100',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '100',
+        "name": "ColorSecondaryBlue100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "100"
         },
-        path: ['color', 'secondary-blue', '100'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "100"
+        ]
       },
-      200: {
-        value: '#cdd4d8',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#CDD4D8',
+      "200": {
+        "value": "#cdd4d8",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#CDD4D8"
         },
-        name: 'ColorSecondaryBlue200',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '200',
+        "name": "ColorSecondaryBlue200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "200"
         },
-        path: ['color', 'secondary-blue', '200'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "200"
+        ]
       },
-      300: {
-        value: '#b0bbc0',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#B0BBC0',
+      "300": {
+        "value": "#b0bbc0",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#B0BBC0"
         },
-        name: 'ColorSecondaryBlue300',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '300',
+        "name": "ColorSecondaryBlue300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "300"
         },
-        path: ['color', 'secondary-blue', '300'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "300"
+        ]
       },
-      400: {
-        value: '#92a2a9',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#92A2A9',
+      "400": {
+        "value": "#92a2a9",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#92A2A9"
         },
-        name: 'ColorSecondaryBlue400',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '400',
+        "name": "ColorSecondaryBlue400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "400"
         },
-        path: ['color', 'secondary-blue', '400'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "400"
+        ]
       },
-      500: {
-        value: '#758992',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#758992',
+      "500": {
+        "value": "#758992",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#758992"
         },
-        name: 'ColorSecondaryBlue500',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '500',
+        "name": "ColorSecondaryBlue500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "500"
         },
-        path: ['color', 'secondary-blue', '500'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "500"
+        ]
       },
-      600: {
-        value: '#5b737d',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#5B737D',
+      "600": {
+        "value": "#5b737d",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#5B737D"
         },
-        name: 'ColorSecondaryBlue600',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '600',
+        "name": "ColorSecondaryBlue600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "600"
         },
-        path: ['color', 'secondary-blue', '600'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "600"
+        ]
       },
-      700: {
-        value: '#405d68',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#405D68',
+      "700": {
+        "value": "#405d68",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#405D68"
         },
-        name: 'ColorSecondaryBlue700',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '700',
+        "name": "ColorSecondaryBlue700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "700"
         },
-        path: ['color', 'secondary-blue', '700'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "700"
+        ]
       },
-      800: {
-        value: '#264653',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#264653',
+      "800": {
+        "value": "#264653",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#264653"
         },
-        name: 'ColorSecondaryBlue800',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '800',
+        "name": "ColorSecondaryBlue800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "800"
         },
-        path: ['color', 'secondary-blue', '800'],
+        "path": [
+          "color",
+          "secondary-blue",
+          "800"
+        ]
       },
-      900: {
-        value: '#082435',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#082435',
+      "900": {
+        "value": "#082435",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#082435"
         },
-        name: 'ColorSecondaryBlue900',
-        attributes: {
-          category: 'color',
-          type: 'secondary-blue',
-          item: '900',
+        "name": "ColorSecondaryBlue900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-blue",
+          "item": "900"
         },
-        path: ['color', 'secondary-blue', '900'],
-      },
+        "path": [
+          "color",
+          "secondary-blue",
+          "900"
+        ]
+      }
     },
-    'secondary-green': {
-      100: {
-        value: '#d9f0f3',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.100.value}',
+    "secondary-green": {
+      "100": {
+        "value": "#d9f0f3",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.100.value}"
         },
-        name: 'ColorSecondaryGreen100',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '100',
+        "name": "ColorSecondaryGreen100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "100"
         },
-        path: ['color', 'secondary-green', '100'],
+        "path": [
+          "color",
+          "secondary-green",
+          "100"
+        ]
       },
-      200: {
-        value: '#91d5db',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.200.value}',
+      "200": {
+        "value": "#91d5db",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.200.value}"
         },
-        name: 'ColorSecondaryGreen200',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '200',
+        "name": "ColorSecondaryGreen200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "200"
         },
-        path: ['color', 'secondary-green', '200'],
+        "path": [
+          "color",
+          "secondary-green",
+          "200"
+        ]
       },
-      300: {
-        value: '#48bac4',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.300.value}',
+      "300": {
+        "value": "#48bac4",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.300.value}"
         },
-        name: 'ColorSecondaryGreen300',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '300',
+        "name": "ColorSecondaryGreen300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "300"
         },
-        path: ['color', 'secondary-green', '300'],
+        "path": [
+          "color",
+          "secondary-green",
+          "300"
+        ]
       },
-      400: {
-        value: '#009eac',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.400.value}',
+      "400": {
+        "value": "#009eac",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.400.value}"
         },
-        name: 'ColorSecondaryGreen400',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '400',
+        "name": "ColorSecondaryGreen400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "400"
         },
-        path: ['color', 'secondary-green', '400'],
+        "path": [
+          "color",
+          "secondary-green",
+          "400"
+        ]
       },
-      500: {
-        value: '#00919f',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.500.value}',
+      "500": {
+        "value": "#00919f",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
         },
-        name: 'ColorSecondaryGreen500',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '500',
+        "name": "ColorSecondaryGreen500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "500"
         },
-        path: ['color', 'secondary-green', '500'],
+        "path": [
+          "color",
+          "secondary-green",
+          "500"
+        ]
       },
-      600: {
-        value: '#007f8c',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.600.value}',
+      "600": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
         },
-        name: 'ColorSecondaryGreen600',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '600',
+        "name": "ColorSecondaryGreen600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "600"
         },
-        path: ['color', 'secondary-green', '600'],
+        "path": [
+          "color",
+          "secondary-green",
+          "600"
+        ]
       },
-      700: {
-        value: '#006974',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.700.value}',
+      "700": {
+        "value": "#006974",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.700.value}"
         },
-        name: 'ColorSecondaryGreen700',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '700',
+        "name": "ColorSecondaryGreen700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "700"
         },
-        path: ['color', 'secondary-green', '700'],
+        "path": [
+          "color",
+          "secondary-green",
+          "700"
+        ]
       },
-      800: {
-        value: '#004e57',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.800.value}',
+      "800": {
+        "value": "#004e57",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.800.value}"
         },
-        name: 'ColorSecondaryGreen800',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '800',
+        "name": "ColorSecondaryGreen800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "800"
         },
-        path: ['color', 'secondary-green', '800'],
+        "path": [
+          "color",
+          "secondary-green",
+          "800"
+        ]
       },
-      900: {
-        value: '#002e33',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.900.value}',
+      "900": {
+        "value": "#002e33",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.900.value}"
         },
-        name: 'ColorSecondaryGreen900',
-        attributes: {
-          category: 'color',
-          type: 'secondary-green',
-          item: '900',
+        "name": "ColorSecondaryGreen900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-green",
+          "item": "900"
         },
-        path: ['color', 'secondary-green', '900'],
-      },
+        "path": [
+          "color",
+          "secondary-green",
+          "900"
+        ]
+      }
     },
-    'secondary-purple': {
-      100: {
-        value: '#e7e7f0',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#E7E7F0',
+    "secondary-purple": {
+      "100": {
+        "value": "#e7e7f0",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#E7E7F0"
         },
-        name: 'ColorSecondaryPurple100',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '100',
+        "name": "ColorSecondaryPurple100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "100"
         },
-        path: ['color', 'secondary-purple', '100'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "100"
+        ]
       },
-      200: {
-        value: '#c5c5dc',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#C5C5DC',
+      "200": {
+        "value": "#c5c5dc",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C5C5DC"
         },
-        name: 'ColorSecondaryPurple200',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '200',
+        "name": "ColorSecondaryPurple200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "200"
         },
-        path: ['color', 'secondary-purple', '200'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "200"
+        ]
       },
-      300: {
-        value: '#a4a3c7',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#A4A3C7',
+      "300": {
+        "value": "#a4a3c7",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#A4A3C7"
         },
-        name: 'ColorSecondaryPurple300',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '300',
+        "name": "ColorSecondaryPurple300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "300"
         },
-        path: ['color', 'secondary-purple', '300'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "300"
+        ]
       },
-      400: {
-        value: '#8281b2',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#8281B2',
+      "400": {
+        "value": "#8281b2",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8281B2"
         },
-        name: 'ColorSecondaryPurple400',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '400',
+        "name": "ColorSecondaryPurple400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "400"
         },
-        path: ['color', 'secondary-purple', '400'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "400"
+        ]
       },
-      500: {
-        value: '#605f9d',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#605F9D',
+      "500": {
+        "value": "#605f9d",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#605F9D"
         },
-        name: 'ColorSecondaryPurple500',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '500',
+        "name": "ColorSecondaryPurple500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "500"
         },
-        path: ['color', 'secondary-purple', '500'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "500"
+        ]
       },
-      600: {
-        value: '#4b4a8c',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#4B4A8C',
+      "600": {
+        "value": "#4b4a8c",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#4B4A8C"
         },
-        name: 'ColorSecondaryPurple600',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '600',
+        "name": "ColorSecondaryPurple600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "600"
         },
-        path: ['color', 'secondary-purple', '600'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "600"
+        ]
       },
-      700: {
-        value: '#393879',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#393879',
+      "700": {
+        "value": "#393879",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#393879"
         },
-        name: 'ColorSecondaryPurple700',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '700',
+        "name": "ColorSecondaryPurple700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "700"
         },
-        path: ['color', 'secondary-purple', '700'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "700"
+        ]
       },
-      800: {
-        value: '#282863',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#282863',
+      "800": {
+        "value": "#282863",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#282863"
         },
-        name: 'ColorSecondaryPurple800',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '800',
+        "name": "ColorSecondaryPurple800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "800"
         },
-        path: ['color', 'secondary-purple', '800'],
+        "path": [
+          "color",
+          "secondary-purple",
+          "800"
+        ]
       },
-      900: {
-        value: '#1a1a4b',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#1A1A4B',
+      "900": {
+        "value": "#1a1a4b",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#1A1A4B"
         },
-        name: 'ColorSecondaryPurple900',
-        attributes: {
-          category: 'color',
-          type: 'secondary-purple',
-          item: '900',
+        "name": "ColorSecondaryPurple900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-purple",
+          "item": "900"
         },
-        path: ['color', 'secondary-purple', '900'],
-      },
+        "path": [
+          "color",
+          "secondary-purple",
+          "900"
+        ]
+      }
     },
-    'secondary-red': {
-      100: {
-        value: '#feedee',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FEEDEE',
+    "secondary-red": {
+      "100": {
+        "value": "#fdeaea",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FDEAEA"
         },
-        name: 'ColorSecondaryRed100',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '100',
+        "name": "ColorSecondaryRed100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "100"
         },
-        path: ['color', 'secondary-red', '100'],
+        "path": [
+          "color",
+          "secondary-red",
+          "100"
+        ]
       },
-      200: {
-        value: '#fab9bc',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FAB9BC',
+      "200": {
+        "value": "#f8bcbb",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F8BCBB"
         },
-        name: 'ColorSecondaryRed200',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '200',
+        "name": "ColorSecondaryRed200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "200"
         },
-        path: ['color', 'secondary-red', '200'],
+        "path": [
+          "color",
+          "secondary-red",
+          "200"
+        ]
       },
-      300: {
-        value: '#f38789',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#F38789',
+      "300": {
+        "value": "#f38d8c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F38D8C"
         },
-        name: 'ColorSecondaryRed300',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '300',
+        "name": "ColorSecondaryRed300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "300"
         },
-        path: ['color', 'secondary-red', '300'],
+        "path": [
+          "color",
+          "secondary-red",
+          "300"
+        ]
       },
-      400: {
-        value: '#ea5d58',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EA5D58',
+      "400": {
+        "value": "#ef5f5c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EF5F5C"
         },
-        name: 'ColorSecondaryRed400',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '400',
+        "name": "ColorSecondaryRed400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "400"
         },
-        path: ['color', 'secondary-red', '400'],
+        "path": [
+          "color",
+          "secondary-red",
+          "400"
+        ]
       },
-      500: {
-        value: '#df382b',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#DF382B',
+      "500": {
+        "value": "#ea302d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EA302D"
         },
-        name: 'ColorSecondaryRed500',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '500',
+        "name": "ColorSecondaryRed500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "500"
         },
-        path: ['color', 'secondary-red', '500'],
+        "path": [
+          "color",
+          "secondary-red",
+          "500"
+        ]
       },
-      600: {
-        value: '#b42a27',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#B42A27',
+      "600": {
+        "value": "#c61112",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C61112"
         },
-        name: 'ColorSecondaryRed600',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '600',
+        "name": "ColorSecondaryRed600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "600"
         },
-        path: ['color', 'secondary-red', '600'],
+        "path": [
+          "color",
+          "secondary-red",
+          "600"
+        ]
       },
-      700: {
-        value: '#8b2226',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#8B2226',
+      "700": {
+        "value": "#8c0003",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8C0003"
         },
-        name: 'ColorSecondaryRed700',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '700',
+        "name": "ColorSecondaryRed700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "700"
         },
-        path: ['color', 'secondary-red', '700'],
+        "path": [
+          "color",
+          "secondary-red",
+          "700"
+        ]
       },
-      800: {
-        value: '#641b21',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#641B21',
+      "800": {
+        "value": "#530000",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#530000"
         },
-        name: 'ColorSecondaryRed800',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '800',
+        "name": "ColorSecondaryRed800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "800"
         },
-        path: ['color', 'secondary-red', '800'],
+        "path": [
+          "color",
+          "secondary-red",
+          "800"
+        ]
       },
-      900: {
-        value: '#3e1219',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#3E1219',
+      "900": {
+        "value": "#2d0000",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#2D0000"
         },
-        name: 'ColorSecondaryRed900',
-        attributes: {
-          category: 'color',
-          type: 'secondary-red',
-          item: '900',
+        "name": "ColorSecondaryRed900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-red",
+          "item": "900"
         },
-        path: ['color', 'secondary-red', '900'],
-      },
+        "path": [
+          "color",
+          "secondary-red",
+          "900"
+        ]
+      }
     },
-    'secondary-orange': {
-      100: {
-        value: '#fff5eb',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FFF5EB',
+    "secondary-orange": {
+      "100": {
+        "value": "#fdf1e8",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FDF1E8"
         },
-        name: 'ColorSecondaryOrange100',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '100',
+        "name": "ColorSecondaryOrange100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "100"
         },
-        path: ['color', 'secondary-orange', '100'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "100"
+        ]
       },
-      200: {
-        value: '#ffdab2',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FFDAB2',
+      "200": {
+        "value": "#f8d2b3",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F8D2B3"
         },
-        name: 'ColorSecondaryOrange200',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '200',
+        "name": "ColorSecondaryOrange200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "200"
         },
-        path: ['color', 'secondary-orange', '200'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "200"
+        ]
       },
-      300: {
-        value: '#ffc17d',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FFC17D',
+      "300": {
+        "value": "#f4b27e",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F4B27E"
         },
-        name: 'ColorSecondaryOrange300',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '300',
+        "name": "ColorSecondaryOrange300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "300"
         },
-        path: ['color', 'secondary-orange', '300'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "300"
+        ]
       },
-      400: {
-        value: '#ffab4b',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FFAB4B',
+      "400": {
+        "value": "#ef934a",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EF934A"
         },
-        name: 'ColorSecondaryOrange400',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '400',
+        "name": "ColorSecondaryOrange400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "400"
         },
-        path: ['color', 'secondary-orange', '400'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "400"
+        ]
       },
-      500: {
-        value: '#fc961e',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FC961E',
+      "500": {
+        "value": "#ea7315",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EA7315"
         },
-        name: 'ColorSecondaryOrange500',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '500',
+        "name": "ColorSecondaryOrange500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "500"
         },
-        path: ['color', 'secondary-orange', '500'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "500"
+        ]
       },
-      600: {
-        value: '#c86f21',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#C86F21',
+      "600": {
+        "value": "#c65200",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C65200"
         },
-        name: 'ColorSecondaryOrange600',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '600',
+        "name": "ColorSecondaryOrange600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "600"
         },
-        path: ['color', 'secondary-orange', '600'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "600"
+        ]
       },
-      700: {
-        value: '#974f20',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#974F20',
+      "700": {
+        "value": "#8c3500",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8C3500"
         },
-        name: 'ColorSecondaryOrange700',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '700',
+        "name": "ColorSecondaryOrange700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "700"
         },
-        path: ['color', 'secondary-orange', '700'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "700"
+        ]
       },
-      800: {
-        value: '#6a351c',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#6A351C',
+      "800": {
+        "value": "#531b00",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#531B00"
         },
-        name: 'ColorSecondaryOrange800',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '800',
+        "name": "ColorSecondaryOrange800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "800"
         },
-        path: ['color', 'secondary-orange', '800'],
+        "path": [
+          "color",
+          "secondary-orange",
+          "800"
+        ]
       },
-      900: {
-        value: '#401f15',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#401F15',
+      "900": {
+        "value": "#360e00",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#360E00"
         },
-        name: 'ColorSecondaryOrange900',
-        attributes: {
-          category: 'color',
-          type: 'secondary-orange',
-          item: '900',
+        "name": "ColorSecondaryOrange900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-orange",
+          "item": "900"
         },
-        path: ['color', 'secondary-orange', '900'],
-      },
+        "path": [
+          "color",
+          "secondary-orange",
+          "900"
+        ]
+      }
     },
-    'secondary-yellow': {
-      100: {
-        value: '#fff8e2',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FFF8E2',
+    "secondary-yellow": {
+      "100": {
+        "value": "#fff8e2",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFF8E2"
         },
-        name: 'ColorSecondaryYellow100',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '100',
+        "name": "ColorSecondaryYellow100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "100"
         },
-        path: ['color', 'secondary-yellow', '100'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "100"
+        ]
       },
-      200: {
-        value: '#ffebaf',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FFEBAF',
+      "200": {
+        "value": "#ffebaf",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FFEBAF"
         },
-        name: 'ColorSecondaryYellow200',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '200',
+        "name": "ColorSecondaryYellow200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "200"
         },
-        path: ['color', 'secondary-yellow', '200'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "200"
+        ]
       },
-      300: {
-        value: '#fee07d',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FEE07D',
+      "300": {
+        "value": "#fee07d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FEE07D"
         },
-        name: 'ColorSecondaryYellow300',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '300',
+        "name": "ColorSecondaryYellow300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "300"
         },
-        path: ['color', 'secondary-yellow', '300'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "300"
+        ]
       },
-      400: {
-        value: '#fcd64c',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FCD64C',
+      "400": {
+        "value": "#fcd64c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FCD64C"
         },
-        name: 'ColorSecondaryYellow400',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '400',
+        "name": "ColorSecondaryYellow400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "400"
         },
-        path: ['color', 'secondary-yellow', '400'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "400"
+        ]
       },
-      500: {
-        value: '#f8cc1c',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#F8CC1C',
+      "500": {
+        "value": "#f8cc1c",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F8CC1C"
         },
-        name: 'ColorSecondaryYellow500',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '500',
+        "name": "ColorSecondaryYellow500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "500"
         },
-        path: ['color', 'secondary-yellow', '500'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "500"
+        ]
       },
-      600: {
-        value: '#c9a21b',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#C9A21B',
+      "600": {
+        "value": "#c9a21b",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C9A21B"
         },
-        name: 'ColorSecondaryYellow600',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '600',
+        "name": "ColorSecondaryYellow600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "600"
         },
-        path: ['color', 'secondary-yellow', '600'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "600"
+        ]
       },
-      700: {
-        value: '#9c7b18',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#9C7B18',
+      "700": {
+        "value": "#9c7b18",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#9C7B18"
         },
-        name: 'ColorSecondaryYellow700',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '700',
+        "name": "ColorSecondaryYellow700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "700"
         },
-        path: ['color', 'secondary-yellow', '700'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "700"
+        ]
       },
-      800: {
-        value: '#705613',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#705613',
+      "800": {
+        "value": "#705613",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#705613"
         },
-        name: 'ColorSecondaryYellow800',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '800',
+        "name": "ColorSecondaryYellow800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "800"
         },
-        path: ['color', 'secondary-yellow', '800'],
+        "path": [
+          "color",
+          "secondary-yellow",
+          "800"
+        ]
       },
-      900: {
-        value: '#46350d',
-        filePath: 'packages/tokens/properties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#46350D',
+      "900": {
+        "value": "#46350d",
+        "filePath": "packages/tokens/properties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#46350D"
         },
-        name: 'ColorSecondaryYellow900',
-        attributes: {
-          category: 'color',
-          type: 'secondary-yellow',
-          item: '900',
+        "name": "ColorSecondaryYellow900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-yellow",
+          "item": "900"
         },
-        path: ['color', 'secondary-yellow', '900'],
-      },
+        "path": [
+          "color",
+          "secondary-yellow",
+          "900"
+        ]
+      }
     },
-    danger: {
-      100: {
-        value: '#fdeaea',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FDEAEA',
+    "danger": {
+      "100": {
+        "value": "#fdeaea",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FDEAEA"
         },
-        name: 'ColorDanger100',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '100',
+        "name": "ColorDanger100",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "100"
         },
-        path: ['color', 'danger', '100'],
+        "path": [
+          "color",
+          "danger",
+          "100"
+        ]
       },
-      200: {
-        value: '#f8bcbb',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#F8BCBB',
+      "200": {
+        "value": "#f8bcbb",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F8BCBB"
         },
-        name: 'ColorDanger200',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '200',
+        "name": "ColorDanger200",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "200"
         },
-        path: ['color', 'danger', '200'],
+        "path": [
+          "color",
+          "danger",
+          "200"
+        ]
       },
-      300: {
-        value: '#f38d8c',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#F38D8C',
+      "300": {
+        "value": "#f38d8c",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F38D8C"
         },
-        name: 'ColorDanger300',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '300',
+        "name": "ColorDanger300",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "300"
         },
-        path: ['color', 'danger', '300'],
+        "path": [
+          "color",
+          "danger",
+          "300"
+        ]
       },
-      400: {
-        value: '#ef5f5c',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EF5F5C',
+      "400": {
+        "value": "#ef5f5c",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EF5F5C"
         },
-        name: 'ColorDanger400',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '400',
+        "name": "ColorDanger400",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "400"
         },
-        path: ['color', 'danger', '400'],
+        "path": [
+          "color",
+          "danger",
+          "400"
+        ]
       },
-      500: {
-        value: '#ea302d',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EA302D',
+      "500": {
+        "value": "#ea302d",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EA302D"
         },
-        name: 'ColorDanger500',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '500',
+        "name": "ColorDanger500",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "500"
         },
-        path: ['color', 'danger', '500'],
+        "path": [
+          "color",
+          "danger",
+          "500"
+        ]
       },
-      600: {
-        value: '#c61112',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#C61112',
+      "600": {
+        "value": "#c61112",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C61112"
         },
-        name: 'ColorDanger600',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '600',
+        "name": "ColorDanger600",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "600"
         },
-        path: ['color', 'danger', '600'],
+        "path": [
+          "color",
+          "danger",
+          "600"
+        ]
       },
-      700: {
-        value: '#8c0003',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#8C0003',
+      "700": {
+        "value": "#8c0003",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8C0003"
         },
-        name: 'ColorDanger700',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '700',
+        "name": "ColorDanger700",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "700"
         },
-        path: ['color', 'danger', '700'],
+        "path": [
+          "color",
+          "danger",
+          "700"
+        ]
       },
-      800: {
-        value: '#530000',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#530000',
+      "800": {
+        "value": "#530000",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#530000"
         },
-        name: 'ColorDanger800',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '800',
+        "name": "ColorDanger800",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "800"
         },
-        path: ['color', 'danger', '800'],
+        "path": [
+          "color",
+          "danger",
+          "800"
+        ]
       },
-      900: {
-        value: '#2d0000',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#2D0000',
+      "900": {
+        "value": "#2d0000",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#2D0000"
         },
-        name: 'ColorDanger900',
-        attributes: {
-          category: 'color',
-          type: 'danger',
-          item: '900',
+        "name": "ColorDanger900",
+        "attributes": {
+          "category": "color",
+          "type": "danger",
+          "item": "900"
         },
-        path: ['color', 'danger', '900'],
-      },
+        "path": [
+          "color",
+          "danger",
+          "900"
+        ]
+      }
     },
-    info: {
-      100: {
-        value: '#daeff7',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#DAEFF7',
+    "info": {
+      "100": {
+        "value": "#daeff7",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#DAEFF7"
         },
-        name: 'ColorInfo100',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '100',
+        "name": "ColorInfo100",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "100"
         },
-        path: ['color', 'info', '100'],
+        "path": [
+          "color",
+          "info",
+          "100"
+        ]
       },
-      200: {
-        value: '#a7d9ed',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#A7D9ED',
+      "200": {
+        "value": "#a7d9ed",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#A7D9ED"
         },
-        name: 'ColorInfo200',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '200',
+        "name": "ColorInfo200",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "200"
         },
-        path: ['color', 'info', '200'],
+        "path": [
+          "color",
+          "info",
+          "200"
+        ]
       },
-      300: {
-        value: '#73c3e2',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#73C3E2',
+      "300": {
+        "value": "#73c3e2",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#73C3E2"
         },
-        name: 'ColorInfo300',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '300',
+        "name": "ColorInfo300",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "300"
         },
-        path: ['color', 'info', '300'],
+        "path": [
+          "color",
+          "info",
+          "300"
+        ]
       },
-      400: {
-        value: '#3facd7',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#3FACD7',
+      "400": {
+        "value": "#3facd7",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#3FACD7"
         },
-        name: 'ColorInfo400',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '400',
+        "name": "ColorInfo400",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "400"
         },
-        path: ['color', 'info', '400'],
+        "path": [
+          "color",
+          "info",
+          "400"
+        ]
       },
-      500: {
-        value: '#0b96cc',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#0B96CC',
+      "500": {
+        "value": "#0b96cc",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#0B96CC"
         },
-        name: 'ColorInfo500',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '500',
+        "name": "ColorInfo500",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "500"
         },
-        path: ['color', 'info', '500'],
+        "path": [
+          "color",
+          "info",
+          "500"
+        ]
       },
-      600: {
-        value: '#007bb4',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#007BB4',
+      "600": {
+        "value": "#007bb4",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#007BB4"
         },
-        name: 'ColorInfo600',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '600',
+        "name": "ColorInfo600",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "600"
         },
-        path: ['color', 'info', '600'],
+        "path": [
+          "color",
+          "info",
+          "600"
+        ]
       },
-      700: {
-        value: '#005c91',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#005C91',
+      "700": {
+        "value": "#005c91",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#005C91"
         },
-        name: 'ColorInfo700',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '700',
+        "name": "ColorInfo700",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "700"
         },
-        path: ['color', 'info', '700'],
+        "path": [
+          "color",
+          "info",
+          "700"
+        ]
       },
-      800: {
-        value: '#003a5c',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#003A5C',
+      "800": {
+        "value": "#003a5c",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#003A5C"
         },
-        name: 'ColorInfo800',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '800',
+        "name": "ColorInfo800",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "800"
         },
-        path: ['color', 'info', '800'],
+        "path": [
+          "color",
+          "info",
+          "800"
+        ]
       },
-      900: {
-        value: '#002a41',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#002A41',
+      "900": {
+        "value": "#002a41",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#002A41"
         },
-        name: 'ColorInfo900',
-        attributes: {
-          category: 'color',
-          type: 'info',
-          item: '900',
+        "name": "ColorInfo900",
+        "attributes": {
+          "category": "color",
+          "type": "info",
+          "item": "900"
         },
-        path: ['color', 'info', '900'],
-      },
+        "path": [
+          "color",
+          "info",
+          "900"
+        ]
+      }
     },
-    warning: {
-      100: {
-        value: '#fdf1e8',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#FDF1E8',
+    "warning": {
+      "100": {
+        "value": "#fdf1e8",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#FDF1E8"
         },
-        name: 'ColorWarning100',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '100',
+        "name": "ColorWarning100",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "100"
         },
-        path: ['color', 'warning', '100'],
+        "path": [
+          "color",
+          "warning",
+          "100"
+        ]
       },
-      200: {
-        value: '#f8d2b3',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#F8D2B3',
+      "200": {
+        "value": "#f8d2b3",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F8D2B3"
         },
-        name: 'ColorWarning200',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '200',
+        "name": "ColorWarning200",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "200"
         },
-        path: ['color', 'warning', '200'],
+        "path": [
+          "color",
+          "warning",
+          "200"
+        ]
       },
-      300: {
-        value: '#f4b27e',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#F4B27E',
+      "300": {
+        "value": "#f4b27e",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#F4B27E"
         },
-        name: 'ColorWarning300',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '300',
+        "name": "ColorWarning300",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "300"
         },
-        path: ['color', 'warning', '300'],
+        "path": [
+          "color",
+          "warning",
+          "300"
+        ]
       },
-      400: {
-        value: '#ef934a',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EF934A',
+      "400": {
+        "value": "#ef934a",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EF934A"
         },
-        name: 'ColorWarning400',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '400',
+        "name": "ColorWarning400",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "400"
         },
-        path: ['color', 'warning', '400'],
+        "path": [
+          "color",
+          "warning",
+          "400"
+        ]
       },
-      500: {
-        value: '#ea7315',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EA7315',
+      "500": {
+        "value": "#ea7315",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EA7315"
         },
-        name: 'ColorWarning500',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '500',
+        "name": "ColorWarning500",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "500"
         },
-        path: ['color', 'warning', '500'],
+        "path": [
+          "color",
+          "warning",
+          "500"
+        ]
       },
-      600: {
-        value: '#c65200',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#C65200',
+      "600": {
+        "value": "#c65200",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C65200"
         },
-        name: 'ColorWarning600',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '600',
+        "name": "ColorWarning600",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "600"
         },
-        path: ['color', 'warning', '600'],
+        "path": [
+          "color",
+          "warning",
+          "600"
+        ]
       },
-      700: {
-        value: '#8c3500',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#8C3500',
+      "700": {
+        "value": "#8c3500",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8C3500"
         },
-        name: 'ColorWarning700',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '700',
+        "name": "ColorWarning700",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "700"
         },
-        path: ['color', 'warning', '700'],
+        "path": [
+          "color",
+          "warning",
+          "700"
+        ]
       },
-      800: {
-        value: '#531b00',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#531B00',
+      "800": {
+        "value": "#531b00",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#531B00"
         },
-        name: 'ColorWarning800',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '800',
+        "name": "ColorWarning800",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "800"
         },
-        path: ['color', 'warning', '800'],
+        "path": [
+          "color",
+          "warning",
+          "800"
+        ]
       },
-      900: {
-        value: '#360e00',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#360E00',
+      "900": {
+        "value": "#360e00",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#360E00"
         },
-        name: 'ColorWarning900',
-        attributes: {
-          category: 'color',
-          type: 'warning',
-          item: '900',
+        "name": "ColorWarning900",
+        "attributes": {
+          "category": "color",
+          "type": "warning",
+          "item": "900"
         },
-        path: ['color', 'warning', '900'],
-      },
+        "path": [
+          "color",
+          "warning",
+          "900"
+        ]
+      }
     },
-    success: {
-      100: {
-        value: '#ebf5de',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EBF5DE',
+    "success": {
+      "100": {
+        "value": "#ebf5de",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EBF5DE"
         },
-        name: 'ColorSuccess100',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '100',
+        "name": "ColorSuccess100",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "100"
         },
-        path: ['color', 'success', '100'],
+        "path": [
+          "color",
+          "success",
+          "100"
+        ]
       },
-      200: {
-        value: '#c5e39e',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#C5E39E',
+      "200": {
+        "value": "#c5e39e",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C5E39E"
         },
-        name: 'ColorSuccess200',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '200',
+        "name": "ColorSuccess200",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "200"
         },
-        path: ['color', 'success', '200'],
+        "path": [
+          "color",
+          "success",
+          "200"
+        ]
       },
-      300: {
-        value: '#9ed05f',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#9ED05F',
+      "300": {
+        "value": "#9ed05f",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#9ED05F"
         },
-        name: 'ColorSuccess300',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '300',
+        "name": "ColorSuccess300",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "300"
         },
-        path: ['color', 'success', '300'],
+        "path": [
+          "color",
+          "success",
+          "300"
+        ]
       },
-      400: {
-        value: '#78be20',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#78BE20',
+      "400": {
+        "value": "#78be20",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#78BE20"
         },
-        name: 'ColorSuccess400',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '400',
+        "name": "ColorSuccess400",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "400"
         },
-        path: ['color', 'success', '400'],
+        "path": [
+          "color",
+          "success",
+          "400"
+        ]
       },
-      500: {
-        value: '#46a610',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#46A610',
+      "500": {
+        "value": "#46a610",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#46A610"
         },
-        name: 'ColorSuccess500',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '500',
+        "name": "ColorSuccess500",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "500"
         },
-        path: ['color', 'success', '500'],
+        "path": [
+          "color",
+          "success",
+          "500"
+        ]
       },
-      600: {
-        value: '#188803',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#188803',
+      "600": {
+        "value": "#188803",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#188803"
         },
-        name: 'ColorSuccess600',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '600',
+        "name": "ColorSuccess600",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "600"
         },
-        path: ['color', 'success', '600'],
+        "path": [
+          "color",
+          "success",
+          "600"
+        ]
       },
-      700: {
-        value: '#006902',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#006902',
+      "700": {
+        "value": "#006902",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#006902"
         },
-        name: 'ColorSuccess700',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '700',
+        "name": "ColorSuccess700",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "700"
         },
-        path: ['color', 'success', '700'],
+        "path": [
+          "color",
+          "success",
+          "700"
+        ]
       },
-      800: {
-        value: '#035010',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#035010',
+      "800": {
+        "value": "#035010",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#035010"
         },
-        name: 'ColorSuccess800',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '800',
+        "name": "ColorSuccess800",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "800"
         },
-        path: ['color', 'success', '800'],
+        "path": [
+          "color",
+          "success",
+          "800"
+        ]
       },
-      900: {
-        value: '#023618',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#023618',
+      "900": {
+        "value": "#023618",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#023618"
         },
-        name: 'ColorSuccess900',
-        attributes: {
-          category: 'color',
-          type: 'success',
-          item: '900',
+        "name": "ColorSuccess900",
+        "attributes": {
+          "category": "color",
+          "type": "success",
+          "item": "900"
         },
-        path: ['color', 'success', '900'],
-      },
+        "path": [
+          "color",
+          "success",
+          "900"
+        ]
+      }
     },
-    button: {
-      solid: {
-        background: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
-          },
-          name: 'ColorButtonSolidBackground',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'solid', 'background'],
+    "breadcrumb": {
+      "arrow": {
+        "value": "#333333",
+        "filePath": "packages/tokens/properties/color/breadcrumb.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.800.value}"
         },
-        font: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonSolidFont',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'solid', 'font'],
+        "name": "ColorBreadcrumbArrow",
+        "attributes": {
+          "category": "color",
+          "type": "breadcrumb",
+          "item": "arrow"
         },
-        focus: {
-          border: {
-            value: '#006974',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-01.700.value}',
-            },
-            name: 'ColorButtonSolidFocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'solid', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonSolidDisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid', 'disabled', 'background'],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonSolidDisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid', 'disabled', 'font'],
-          },
-        },
-        active: {
-          background: {
-            value: '#006974',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-01.700.value}',
-            },
-            name: 'ColorButtonSolidActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid', 'active', 'background'],
-          },
-        },
-        hover: {
-          background: {
-            value: '#006974',
-            filePath: 'packages/tokens/AdeoProperties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-01.700.value}',
-            },
-            name: 'ColorButtonSolidHoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid', 'hover', 'background'],
-          },
-          font: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorButtonSolidHoverFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid',
-              subitem: 'hover',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid', 'hover', 'font'],
-          },
-        },
+        "path": [
+          "color",
+          "breadcrumb",
+          "arrow"
+        ]
       },
-      'solid-primary-02': {
-        background: {
-          value: '#6a7081',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-02.500.value}',
-          },
-          name: 'ColorButtonSolidPrimary02Background',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid-primary-02',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'solid-primary-02', 'background'],
+      "arrow-invert": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/breadcrumb.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
         },
-        font: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonSolidPrimary02Font',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid-primary-02',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'solid-primary-02', 'font'],
+        "name": "ColorBreadcrumbArrowInvert",
+        "attributes": {
+          "category": "color",
+          "type": "breadcrumb",
+          "item": "arrow-invert"
         },
-        focus: {
-          border: {
-            value: '#171b26',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-02.900.value}',
-            },
-            name: 'ColorButtonSolidPrimary02FocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-primary-02',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'solid-primary-02', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonSolidPrimary02DisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-primary-02',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'solid-primary-02',
-              'disabled',
-              'background',
-            ],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonSolidPrimary02DisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-primary-02',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid-primary-02', 'disabled', 'font'],
-          },
-        },
-        active: {
-          background: {
-            value: '#171b26',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-02.900.value}',
-            },
-            name: 'ColorButtonSolidPrimary02ActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-primary-02',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'solid-primary-02',
-              'active',
-              'background',
-            ],
-          },
-        },
-        hover: {
-          background: {
-            value: '#242938',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-02.800.value}',
-            },
-            name: 'ColorButtonSolidPrimary02HoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-primary-02',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'solid-primary-02',
-              'hover',
-              'background',
-            ],
-          },
-          font: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorButtonSolidPrimary02HoverFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-primary-02',
-              subitem: 'hover',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid-primary-02', 'hover', 'font'],
-          },
-        },
-      },
-      'solid-neutral': {
-        background: {
-          value: '#333333',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.800.value}',
-          },
-          name: 'ColorButtonSolidNeutralBackground',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid-neutral',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'solid-neutral', 'background'],
-        },
-        font: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonSolidNeutralFont',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid-neutral',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'solid-neutral', 'font'],
-        },
-        focus: {
-          border: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
-            },
-            name: 'ColorButtonSolidNeutralFocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-neutral',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'solid-neutral', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonSolidNeutralDisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-neutral',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'solid-neutral',
-              'disabled',
-              'background',
-            ],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonSolidNeutralDisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-neutral',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid-neutral', 'disabled', 'font'],
-          },
-        },
-        active: {
-          background: {
-            value: '#333333',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.800.value}',
-            },
-            name: 'ColorButtonSolidNeutralActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-neutral',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid-neutral', 'active', 'background'],
-          },
-        },
-        hover: {
-          background: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
-            },
-            name: 'ColorButtonSolidNeutralHoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-neutral',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid-neutral', 'hover', 'background'],
-          },
-          font: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorButtonSolidNeutralHoverFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-neutral',
-              subitem: 'hover',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid-neutral', 'hover', 'font'],
-          },
-        },
-      },
-      'solid-danger': {
-        background: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
-          },
-          name: 'ColorButtonSolidDangerBackground',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid-danger',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'solid-danger', 'background'],
-        },
-        font: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonSolidDangerFont',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'solid-danger',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'solid-danger', 'font'],
-        },
-        focus: {
-          border: {
-            value: '#8c0003',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.danger.700.value}',
-            },
-            name: 'ColorButtonSolidDangerFocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-danger',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'solid-danger', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonSolidDangerDisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-danger',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid-danger', 'disabled', 'background'],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonSolidDangerDisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-danger',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid-danger', 'disabled', 'font'],
-          },
-        },
-        active: {
-          background: {
-            value: '#8c0003',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.danger.700.value}',
-            },
-            name: 'ColorButtonSolidDangerActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-danger',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid-danger', 'active', 'background'],
-          },
-        },
-        hover: {
-          background: {
-            value: '#8c0003',
-            filePath: 'packages/tokens/AdeoProperties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.danger.700.value}',
-            },
-            name: 'ColorButtonSolidDangerHoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-danger',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: ['color', 'button', 'solid-danger', 'hover', 'background'],
-          },
-          font: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorButtonSolidDangerHoverFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'solid-danger',
-              subitem: 'hover',
-              state: 'font',
-            },
-            path: ['color', 'button', 'solid-danger', 'hover', 'font'],
-          },
-        },
-      },
-      bordered: {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonBorderedBackground',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'bordered', 'background'],
-        },
-        border: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
-          },
-          name: 'ColorButtonBorderedBorder',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered',
-            subitem: 'border',
-          },
-          path: ['color', 'button', 'bordered', 'border'],
-        },
-        font: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
-          },
-          name: 'ColorButtonBorderedFont',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'bordered', 'font'],
-        },
-        focus: {
-          border: {
-            value: '#006974',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-01.700.value}',
-            },
-            name: 'ColorButtonBorderedFocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'bordered', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonBorderedDisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: ['color', 'button', 'bordered', 'disabled', 'background'],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonBorderedDisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: ['color', 'button', 'bordered', 'disabled', 'font'],
-          },
-        },
-        active: {
-          background: {
-            value: '#91d5db',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-01.200.value}',
-            },
-            name: 'ColorButtonBorderedActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: ['color', 'button', 'bordered', 'active', 'background'],
-          },
-        },
-        hover: {
-          background: {
-            value: '#d9f0f3',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-01.100.value}',
-            },
-            name: 'ColorButtonBorderedHoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: ['color', 'button', 'bordered', 'hover', 'background'],
-          },
-        },
-      },
-      'bordered-primary-02': {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonBorderedPrimary02Background',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-primary-02',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'bordered-primary-02', 'background'],
-        },
-        border: {
-          value: '#6a7081',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-02.500.value}',
-          },
-          name: 'ColorButtonBorderedPrimary02Border',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-primary-02',
-            subitem: 'border',
-          },
-          path: ['color', 'button', 'bordered-primary-02', 'border'],
-        },
-        font: {
-          value: '#6a7081',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-02.500.value}',
-          },
-          name: 'ColorButtonBorderedPrimary02Font',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-primary-02',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'bordered-primary-02', 'font'],
-        },
-        focus: {
-          border: {
-            value: '#171b26',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-02.900.value}',
-            },
-            name: 'ColorButtonBorderedPrimary02FocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-primary-02',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'bordered-primary-02', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonBorderedPrimary02DisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-primary-02',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-primary-02',
-              'disabled',
-              'background',
-            ],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonBorderedPrimary02DisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-primary-02',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-primary-02',
-              'disabled',
-              'font',
-            ],
-          },
-        },
-        active: {
-          background: {
-            value: '#cfd2d8',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-02.200.value}',
-            },
-            name: 'ColorButtonBorderedPrimary02ActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-primary-02',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-primary-02',
-              'active',
-              'background',
-            ],
-          },
-        },
-        hover: {
-          background: {
-            value: '#cfd2d8',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-02.100.value}',
-            },
-            name: 'ColorButtonBorderedPrimary02HoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-primary-02',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-primary-02',
-              'hover',
-              'background',
-            ],
-          },
-        },
-      },
-      'bordered-neutral': {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonBorderedNeutralBackground',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-neutral',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'bordered-neutral', 'background'],
-        },
-        border: {
-          value: '#333333',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.800.value}',
-          },
-          name: 'ColorButtonBorderedNeutralBorder',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-neutral',
-            subitem: 'border',
-          },
-          path: ['color', 'button', 'bordered-neutral', 'border'],
-        },
-        font: {
-          value: '#333333',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.800.value}',
-          },
-          name: 'ColorButtonBorderedNeutralFont',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-neutral',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'bordered-neutral', 'font'],
-        },
-        focus: {
-          border: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
-            },
-            name: 'ColorButtonBorderedNeutralFocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-neutral',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'bordered-neutral', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonBorderedNeutralDisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-neutral',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-neutral',
-              'disabled',
-              'background',
-            ],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonBorderedNeutralDisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-neutral',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: ['color', 'button', 'bordered-neutral', 'disabled', 'font'],
-          },
-        },
-        active: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonBorderedNeutralActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-neutral',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-neutral',
-              'active',
-              'background',
-            ],
-          },
-        },
-        hover: {
-          background: {
-            value: '#e6e6e6',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.100.value}',
-            },
-            name: 'ColorButtonBorderedNeutralHoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-neutral',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-neutral',
-              'hover',
-              'background',
-            ],
-          },
-        },
-      },
-      'bordered-danger': {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorButtonBorderedDangerBackground',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-danger',
-            subitem: 'background',
-          },
-          path: ['color', 'button', 'bordered-danger', 'background'],
-        },
-        border: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
-          },
-          name: 'ColorButtonBorderedDangerBorder',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-danger',
-            subitem: 'border',
-          },
-          path: ['color', 'button', 'bordered-danger', 'border'],
-        },
-        font: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/button.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
-          },
-          name: 'ColorButtonBorderedDangerFont',
-          attributes: {
-            category: 'color',
-            type: 'button',
-            item: 'bordered-danger',
-            subitem: 'font',
-          },
-          path: ['color', 'button', 'bordered-danger', 'font'],
-        },
-        focus: {
-          border: {
-            value: '#8b2226',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.secondary-red.700.value}',
-            },
-            name: 'ColorButtonBorderedDangerFocusBorder',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-danger',
-              subitem: 'focus',
-              state: 'border',
-            },
-            path: ['color', 'button', 'bordered-danger', 'focus', 'border'],
-          },
-        },
-        disabled: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
-            },
-            name: 'ColorButtonBorderedDangerDisabledBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-danger',
-              subitem: 'disabled',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-danger',
-              'disabled',
-              'background',
-            ],
-          },
-          font: {
-            value: '#666666',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.600.value}',
-            },
-            name: 'ColorButtonBorderedDangerDisabledFont',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-danger',
-              subitem: 'disabled',
-              state: 'font',
-            },
-            path: ['color', 'button', 'bordered-danger', 'disabled', 'font'],
-          },
-        },
-        active: {
-          background: {
-            value: '#fab9bc',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.secondary-red.200.value}',
-            },
-            name: 'ColorButtonBorderedDangerActiveBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-danger',
-              subitem: 'active',
-              state: 'background',
-            },
-            path: [
-              'color',
-              'button',
-              'bordered-danger',
-              'active',
-              'background',
-            ],
-          },
-        },
-        hover: {
-          background: {
-            value: '#feedee',
-            filePath: 'packages/tokens/properties/color/button.json',
-            isSource: true,
-            original: {
-              value: '{color.secondary-red.100.value}',
-            },
-            name: 'ColorButtonBorderedDangerHoverBackground',
-            attributes: {
-              category: 'color',
-              type: 'button',
-              item: 'bordered-danger',
-              subitem: 'hover',
-              state: 'background',
-            },
-            path: ['color', 'button', 'bordered-danger', 'hover', 'background'],
-          },
-        },
-      },
+        "path": [
+          "color",
+          "breadcrumb",
+          "arrow-invert"
+        ]
+      }
     },
-    divider: {
-      lightest: {
-        value: '#ffffff',
-        filePath: 'packages/tokens/properties/color/divider.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.000.value}',
+    "button": {
+      "solid": {
+        "background": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorButtonSolidBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid",
+            "background"
+          ]
         },
-        name: 'ColorDividerLightest',
-        attributes: {
-          category: 'color',
-          type: 'divider',
-          item: 'lightest',
+        "font": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonSolidFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid",
+            "font"
+          ]
         },
-        path: ['color', 'divider', 'lightest'],
+        "focus": {
+          "border": {
+            "value": "#006974",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorButtonSolidFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSolidDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonSolidDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#006974",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorButtonSolidActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid",
+              "active",
+              "background"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#006974",
+            "filePath": "packages/tokens/AdeoProperties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorButtonSolidHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid",
+              "hover",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonSolidHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid",
+              "hover",
+              "font"
+            ]
+          }
+        }
       },
-      light: {
-        value: '#b3b3b3',
-        filePath: 'packages/tokens/properties/color/divider.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.300.value}',
+      "solid-primary-02": {
+        "background": {
+          "value": "#6a7081",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.500.value}"
+          },
+          "name": "ColorButtonSolidPrimary02Background",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid-primary-02",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid-primary-02",
+            "background"
+          ]
         },
-        name: 'ColorDividerLight',
-        attributes: {
-          category: 'color',
-          type: 'divider',
-          item: 'light',
+        "font": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonSolidPrimary02Font",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid-primary-02",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid-primary-02",
+            "font"
+          ]
         },
-        path: ['color', 'divider', 'light'],
+        "focus": {
+          "border": {
+            "value": "#171b26",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.900.value}"
+            },
+            "name": "ColorButtonSolidPrimary02FocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-primary-02",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-primary-02",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSolidPrimary02DisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-primary-02",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-primary-02",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonSolidPrimary02DisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-primary-02",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-primary-02",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#171b26",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.900.value}"
+            },
+            "name": "ColorButtonSolidPrimary02ActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-primary-02",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-primary-02",
+              "active",
+              "background"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#242938",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.800.value}"
+            },
+            "name": "ColorButtonSolidPrimary02HoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-primary-02",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-primary-02",
+              "hover",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonSolidPrimary02HoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-primary-02",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-primary-02",
+              "hover",
+              "font"
+            ]
+          }
+        }
       },
-      default: {
-        value: '#666666',
-        filePath: 'packages/tokens/properties/color/divider.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.600.value}',
+      "solid-neutral": {
+        "background": {
+          "value": "#333333",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.800.value}"
+          },
+          "name": "ColorButtonSolidNeutralBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid-neutral",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid-neutral",
+            "background"
+          ]
         },
-        name: 'ColorDividerDefault',
-        attributes: {
-          category: 'color',
-          type: 'divider',
-          item: 'default',
+        "font": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonSolidNeutralFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid-neutral",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid-neutral",
+            "font"
+          ]
         },
-        path: ['color', 'divider', 'default'],
+        "focus": {
+          "border": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorButtonSolidNeutralFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-neutral",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-neutral",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSolidNeutralDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-neutral",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-neutral",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonSolidNeutralDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-neutral",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-neutral",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#333333",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorButtonSolidNeutralActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-neutral",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-neutral",
+              "active",
+              "background"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorButtonSolidNeutralHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-neutral",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-neutral",
+              "hover",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonSolidNeutralHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-neutral",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-neutral",
+              "hover",
+              "font"
+            ]
+          }
+        }
       },
-      dark: {
-        value: '#000000',
-        filePath: 'packages/tokens/properties/color/divider.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.999.value}',
+      "solid-danger": {
+        "background": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
+          },
+          "name": "ColorButtonSolidDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid-danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid-danger",
+            "background"
+          ]
         },
-        name: 'ColorDividerDark',
-        attributes: {
-          category: 'color',
-          type: 'divider',
-          item: 'dark',
+        "font": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonSolidDangerFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "solid-danger",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "solid-danger",
+            "font"
+          ]
         },
-        path: ['color', 'divider', 'dark'],
+        "focus": {
+          "border": {
+            "value": "#8c0003",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.700.value}"
+            },
+            "name": "ColorButtonSolidDangerFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-danger",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-danger",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonSolidDangerDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-danger",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-danger",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonSolidDangerDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-danger",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-danger",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#8c0003",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.700.value}"
+            },
+            "name": "ColorButtonSolidDangerActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-danger",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-danger",
+              "active",
+              "background"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#8c0003",
+            "filePath": "packages/tokens/AdeoProperties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.700.value}"
+            },
+            "name": "ColorButtonSolidDangerHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-danger",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-danger",
+              "hover",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorButtonSolidDangerHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "solid-danger",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "solid-danger",
+              "hover",
+              "font"
+            ]
+          }
+        }
       },
+      "bordered": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonBorderedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorButtonBorderedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorButtonBorderedFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered",
+            "font"
+          ]
+        },
+        "focus": {
+          "border": {
+            "value": "#006974",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorButtonBorderedFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonBorderedDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonBorderedDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#91d5db",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.200.value}"
+            },
+            "name": "ColorButtonBorderedActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "active",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#004e57",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.800.value}"
+            },
+            "name": "ColorButtonBorderedActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#d9f0f3",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorButtonBorderedHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "hover",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#006974",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorButtonBorderedHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      },
+      "bordered-primary-02": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonBorderedPrimary02Background",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-primary-02",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-primary-02",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#6a7081",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.500.value}"
+          },
+          "name": "ColorButtonBorderedPrimary02Border",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-primary-02",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-primary-02",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#6a7081",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.500.value}"
+          },
+          "name": "ColorButtonBorderedPrimary02Font",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-primary-02",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-primary-02",
+            "font"
+          ]
+        },
+        "focus": {
+          "border": {
+            "value": "#171b26",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.900.value}"
+            },
+            "name": "ColorButtonBorderedPrimary02FocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-primary-02",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-primary-02",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonBorderedPrimary02DisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-primary-02",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-primary-02",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonBorderedPrimary02DisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-primary-02",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-primary-02",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#cfd2d8",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.200.value}"
+            },
+            "name": "ColorButtonBorderedPrimary02ActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-primary-02",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-primary-02",
+              "active",
+              "background"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#eeeff1",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.100.value}"
+            },
+            "name": "ColorButtonBorderedPrimary02HoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-primary-02",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-primary-02",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      },
+      "bordered-neutral": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonBorderedNeutralBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-neutral",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-neutral",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#333333",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.800.value}"
+          },
+          "name": "ColorButtonBorderedNeutralBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-neutral",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-neutral",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#333333",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.800.value}"
+          },
+          "name": "ColorButtonBorderedNeutralFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-neutral",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-neutral",
+            "font"
+          ]
+        },
+        "focus": {
+          "border": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorButtonBorderedNeutralFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-neutral",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-neutral",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonBorderedNeutralDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-neutral",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-neutral",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonBorderedNeutralDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-neutral",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-neutral",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonBorderedNeutralActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-neutral",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-neutral",
+              "active",
+              "background"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorButtonBorderedNeutralHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-neutral",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-neutral",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      },
+      "bordered-danger": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorButtonBorderedDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
+          },
+          "name": "ColorButtonBorderedDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-danger",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
+          },
+          "name": "ColorButtonBorderedDangerFont",
+          "attributes": {
+            "category": "color",
+            "type": "button",
+            "item": "bordered-danger",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "button",
+            "bordered-danger",
+            "font"
+          ]
+        },
+        "focus": {
+          "border": {
+            "value": "#8c0003",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-red.700.value}"
+            },
+            "name": "ColorButtonBorderedDangerFocusBorder",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "focus",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "focus",
+              "border"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorButtonBorderedDangerDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "disabled",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#666666",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.600.value}"
+            },
+            "name": "ColorButtonBorderedDangerDisabledFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "disabled",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "disabled",
+              "font"
+            ]
+          }
+        },
+        "active": {
+          "background": {
+            "value": "#f8bcbb",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-red.200.value}"
+            },
+            "name": "ColorButtonBorderedDangerActiveBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "active",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "active",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#530000",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.800.value}"
+            },
+            "name": "ColorButtonBorderedDangerActiveFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "active",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "active",
+              "font"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#fdeaea",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-red.100.value}"
+            },
+            "name": "ColorButtonBorderedDangerHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "hover",
+              "background"
+            ]
+          },
+          "font": {
+            "value": "#8c0003",
+            "filePath": "packages/tokens/properties/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.700.value}"
+            },
+            "name": "ColorButtonBorderedDangerHoverFont",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "bordered-danger",
+              "subitem": "hover",
+              "state": "font"
+            },
+            "path": [
+              "color",
+              "button",
+              "bordered-danger",
+              "hover",
+              "font"
+            ]
+          }
+        }
+      }
     },
-    fields: {
-      error: {
-        value: '#c61112',
-        filePath: 'packages/tokens/properties/color/fields.json',
-        isSource: true,
-        original: {
-          value: '{color.font.danger.value}',
+    "card": {
+      "bordered": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorCardBorderedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "card",
+            "item": "bordered",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "card",
+            "bordered",
+            "background"
+          ]
         },
-        name: 'ColorFieldsError',
-        attributes: {
-          category: 'color',
-          type: 'fields',
-          item: 'error',
-        },
-        path: ['color', 'fields', 'error'],
-      },
-      label: {
-        value: '#333333',
-        filePath: 'packages/tokens/properties/color/fields.json',
-        isSource: true,
-        original: {
-          value: '{color.font.dark.value}',
-        },
-        name: 'ColorFieldsLabel',
-        attributes: {
-          category: 'color',
-          type: 'fields',
-          item: 'label',
-        },
-        path: ['color', 'fields', 'label'],
-      },
-      requirement: {
-        value: '#666666',
-        filePath: 'packages/tokens/properties/color/fields.json',
-        isSource: true,
-        original: {
-          value: '{color.font.light.value}',
-        },
-        name: 'ColorFieldsRequirement',
-        attributes: {
-          category: 'color',
-          type: 'fields',
-          item: 'requirement',
-        },
-        path: ['color', 'fields', 'requirement'],
-      },
-      help: {
-        value: '#666666',
-        filePath: 'packages/tokens/properties/color/fields.json',
-        isSource: true,
-        original: {
-          value: '{color.font.light.value}',
-        },
-        name: 'ColorFieldsHelp',
-        attributes: {
-          category: 'color',
-          type: 'fields',
-          item: 'help',
-        },
-        path: ['color', 'fields', 'help'],
-      },
+        "border": {
+          "value": "#808080",
+          "filePath": "packages/tokens/properties/color/card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorCardBorderedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "card",
+            "item": "bordered",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "card",
+            "bordered",
+            "border"
+          ]
+        }
+      }
     },
-    fileuploader: {
-      font: {
-        value: '#000000',
-        filePath: 'packages/tokens/properties/color/fileuploder.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.999.value}',
-        },
-        name: 'ColorFileuploaderFont',
-        attributes: {
-          category: 'color',
-          type: 'fileuploader',
-          item: 'font',
-        },
-        path: ['color', 'fileuploader', 'font'],
-      },
-      files: {
-        list: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/fileuploder.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
+    "datatable": {
+      "filters": {
+        "border": {
+          "value": "#b0bbc0",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.300.value}"
           },
-          name: 'ColorFileuploaderFilesList',
-          attributes: {
-            category: 'color',
-            type: 'fileuploader',
-            item: 'files',
-            subitem: 'list',
+          "name": "ColorDatatableFiltersBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "filters",
+            "subitem": "border"
           },
-          path: ['color', 'fileuploader', 'files', 'list'],
-        },
-        delete: {
-          value: '#cccccc',
-          filePath: 'packages/tokens/properties/color/fileuploder.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.200.value}',
+          "path": [
+            "color",
+            "datatable",
+            "filters",
+            "border"
+          ]
+        }
+      },
+      "container": {
+        "background": {
+          "value": "#e7e7f0",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.100.value}"
           },
-          name: 'ColorFileuploaderFilesDelete',
-          attributes: {
-            category: 'color',
-            type: 'fileuploader',
-            item: 'files',
-            subitem: 'delete',
+          "name": "ColorDatatableContainerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "container",
+            "subitem": "background"
           },
-          path: ['color', 'fileuploader', 'files', 'delete'],
-        },
+          "path": [
+            "color",
+            "datatable",
+            "container",
+            "background"
+          ]
+        }
       },
-      valid: {
-        value: '#00919f',
-        filePath: 'packages/tokens/properties/color/fileuploder.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.500.value}',
-        },
-        name: 'ColorFileuploaderValid',
-        attributes: {
-          category: 'color',
-          type: 'fileuploader',
-          item: 'valid',
-        },
-        path: ['color', 'fileuploader', 'valid'],
+      "thead": {
+        "font": {
+          "value": "#393879",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.700.value}"
+          },
+          "name": "ColorDatatableTheadFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "thead",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "thead",
+            "font"
+          ]
+        }
       },
-      alert: {
-        value: '#c61112',
-        filePath: 'packages/tokens/properties/color/fileuploder.json',
-        isSource: true,
-        original: {
-          value: '{color.danger.600.value}',
+      "sort-arrow": {
+        "default": {
+          "value": "#cdd4d8",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.200.value}"
+          },
+          "name": "ColorDatatableSortArrowDefault",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "default"
+          ]
         },
-        name: 'ColorFileuploaderAlert',
-        attributes: {
-          category: 'color',
-          type: 'fileuploader',
-          item: 'alert',
-        },
-        path: ['color', 'fileuploader', 'alert'],
+        "active": {
+          "value": "#605f9d",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.500.value}"
+          },
+          "name": "ColorDatatableSortArrowActive",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "sort-arrow",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "sort-arrow",
+            "active"
+          ]
+        }
       },
+      "cell": {
+        "font": {
+          "value": "#191919",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDatatableCellFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "cell",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "cell",
+            "font"
+          ]
+        },
+        "background": {
+          "hover": {
+            "value": "#eaedef",
+            "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundHover",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "hover"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "hover"
+            ]
+          },
+          "selected": {
+            "value": "#d9f0f3",
+            "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorDatatableCellBackgroundSelected",
+            "attributes": {
+              "category": "color",
+              "type": "datatable",
+              "item": "cell",
+              "subitem": "background",
+              "state": "selected"
+            },
+            "path": [
+              "color",
+              "datatable",
+              "cell",
+              "background",
+              "selected"
+            ]
+          }
+        }
+      },
+      "subtable": {
+        "background": {
+          "value": "#e7e7f0",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.100.value}"
+          },
+          "name": "ColorDatatableSubtableBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#a4a3c7",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.300.value}"
+          },
+          "name": "ColorDatatableSubtableBorder",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "border"
+          ]
+        },
+        "font": {
+          "value": "#1a1a4b",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.900.value}"
+          },
+          "name": "ColorDatatableSubtableFont",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "subtable",
+            "subitem": "font"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "subtable",
+            "font"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorDatatableIcon",
+        "attributes": {
+          "category": "color",
+          "type": "datatable",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "datatable",
+          "icon"
+        ]
+      },
+      "empty": {
+        "background": {
+          "value": "#e7e7f0",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.100.value}"
+          },
+          "name": "ColorDatatableEmptyBackground",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#4b4a8c",
+          "filePath": "packages/tokens/AdeoProperties/color/datatable.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.600.value}"
+          },
+          "name": "ColorDatatableEmptyColor",
+          "attributes": {
+            "category": "color",
+            "type": "datatable",
+            "item": "empty",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "datatable",
+            "empty",
+            "color"
+          ]
+        }
+      }
     },
-    flag: {
-      solid: {
-        background: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
-          },
-          name: 'ColorFlagSolidBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'solid', 'background'],
+    "dialog": {
+      "background": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
         },
-        border: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
-          },
-          name: 'ColorFlagSolidBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'solid', 'border'],
+        "name": "ColorDialogBackground",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "background"
         },
-        text: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagSolidText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'solid', 'text'],
-        },
+        "path": [
+          "color",
+          "dialog",
+          "background"
+        ]
       },
-      'solid-primary-02': {
-        background: {
-          value: '#4b4a8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-purple.600.value}',
-          },
-          name: 'ColorFlagSolidPrimary02Background',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-primary-02',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'solid-primary-02', 'background'],
+      "icon": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
         },
-        border: {
-          value: '#4b4a8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-purple.600.value}',
-          },
-          name: 'ColorFlagSolidPrimary02Border',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-primary-02',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'solid-primary-02', 'border'],
+        "name": "ColorDialogIcon",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "icon"
         },
-        text: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagSolidPrimary02Text',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-primary-02',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'solid-primary-02', 'text'],
-        },
+        "path": [
+          "color",
+          "dialog",
+          "icon"
+        ]
       },
-      'solid-dark': {
-        background: {
-          value: '#000000',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.999.value}',
-          },
-          name: 'ColorFlagSolidDarkBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-dark',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'solid-dark', 'background'],
+      "close": {
+        "value": "#808080",
+        "filePath": "packages/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.500.value}"
         },
-        border: {
-          value: '#000000',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.999.value}',
-          },
-          name: 'ColorFlagSolidDarkBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-dark',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'solid-dark', 'border'],
+        "name": "ColorDialogClose",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "close"
         },
-        text: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagSolidDarkText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-dark',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'solid-dark', 'text'],
-        },
+        "path": [
+          "color",
+          "dialog",
+          "close"
+        ]
       },
-      'solid-light': {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
+      "footer": {
+        "shadow": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
           },
-          name: 'ColorFlagSolidLightBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-light',
-            subitem: 'background',
+          "name": "ColorDialogFooterShadow",
+          "attributes": {
+            "category": "color",
+            "type": "dialog",
+            "item": "footer",
+            "subitem": "shadow"
           },
-          path: ['color', 'flag', 'solid-light', 'background'],
-        },
-        border: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagSolidLightBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-light',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'solid-light', 'border'],
-        },
-        text: {
-          value: '#000000',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.999.value}',
-          },
-          name: 'ColorFlagSolidLightText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-light',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'solid-light', 'text'],
-        },
-      },
-      'solid-danger': {
-        background: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
-          },
-          name: 'ColorFlagSolidDangerBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-danger',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'solid-danger', 'background'],
-        },
-        border: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
-          },
-          name: 'ColorFlagSolidDangerBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-danger',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'solid-danger', 'border'],
-        },
-        text: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagSolidDangerText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'solid-danger',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'solid-danger', 'text'],
-        },
-      },
-      bordered: {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagBorderedBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'bordered', 'background'],
-        },
-        border: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
-          },
-          name: 'ColorFlagBorderedBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'bordered', 'border'],
-        },
-        text: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
-          },
-          name: 'ColorFlagBorderedText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'bordered', 'text'],
-        },
-      },
-      'bordered-primary-02': {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagBorderedPrimary02Background',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-primary-02',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'bordered-primary-02', 'background'],
-        },
-        border: {
-          value: '#4b4a8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-purple.600.value}',
-          },
-          name: 'ColorFlagBorderedPrimary02Border',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-primary-02',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'bordered-primary-02', 'border'],
-        },
-        text: {
-          value: '#4b4a8c',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-purple.600.value}',
-          },
-          name: 'ColorFlagBorderedPrimary02Text',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-primary-02',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'bordered-primary-02', 'text'],
-        },
-      },
-      'bordered-dark': {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagBorderedDarkBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-dark',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'bordered-dark', 'background'],
-        },
-        border: {
-          value: '#000000',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.999.value}',
-          },
-          name: 'ColorFlagBorderedDarkBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-dark',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'bordered-dark', 'border'],
-        },
-        text: {
-          value: '#000000',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.999.value}',
-          },
-          name: 'ColorFlagBorderedDarkText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-dark',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'bordered-dark', 'text'],
-        },
-      },
-      'bordered-light': {
-        background: {
-          value: '#000000',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.999.value}',
-          },
-          name: 'ColorFlagBorderedLightBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-light',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'bordered-light', 'background'],
-        },
-        border: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagBorderedLightBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-light',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'bordered-light', 'border'],
-        },
-        text: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagBorderedLightText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-light',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'bordered-light', 'text'],
-        },
-      },
-      'bordered-danger': {
-        background: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorFlagBorderedDangerBackground',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-danger',
-            subitem: 'background',
-          },
-          path: ['color', 'flag', 'bordered-danger', 'background'],
-        },
-        border: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
-          },
-          name: 'ColorFlagBorderedDangerBorder',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-danger',
-            subitem: 'border',
-          },
-          path: ['color', 'flag', 'bordered-danger', 'border'],
-        },
-        text: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/flag.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
-          },
-          name: 'ColorFlagBorderedDangerText',
-          attributes: {
-            category: 'color',
-            type: 'flag',
-            item: 'bordered-danger',
-            subitem: 'text',
-          },
-          path: ['color', 'flag', 'bordered-danger', 'text'],
-        },
-      },
+          "path": [
+            "color",
+            "dialog",
+            "footer",
+            "shadow"
+          ]
+        }
+      }
     },
-    focus: {
-      gap: {
-        value: '#ffffff',
-        filePath: 'packages/tokens/properties/color/focus.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.000.value}',
+    "divider": {
+      "lightest": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
         },
-        name: 'ColorFocusGap',
-        attributes: {
-          category: 'color',
-          type: 'focus',
-          item: 'gap',
+        "name": "ColorDividerLightest",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "lightest"
         },
-        path: ['color', 'focus', 'gap'],
+        "path": [
+          "color",
+          "divider",
+          "lightest"
+        ]
       },
-      border: {
-        value: '#758992',
-        filePath: 'packages/tokens/properties/color/focus.json',
-        isSource: true,
-        original: {
-          value: '{color.secondary-blue.500.value}',
+      "light": {
+        "value": "#b3b3b3",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.300.value}"
         },
-        name: 'ColorFocusBorder',
-        attributes: {
-          category: 'color',
-          type: 'focus',
-          item: 'border',
+        "name": "ColorDividerLight",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "light"
         },
-        path: ['color', 'focus', 'border'],
+        "path": [
+          "color",
+          "divider",
+          "light"
+        ]
       },
+      "default": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorDividerDefault",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "default"
+        },
+        "path": [
+          "color",
+          "divider",
+          "default"
+        ]
+      },
+      "dark": {
+        "value": "#000000",
+        "filePath": "packages/tokens/properties/color/divider.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorDividerDark",
+        "attributes": {
+          "category": "color",
+          "type": "divider",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "divider",
+          "dark"
+        ]
+      }
     },
-    font: {
-      'primary-01': {
-        value: '#00919f',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.500.value}',
+    "fields": {
+      "error": {
+        "value": "#c61112",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.font.danger.value}"
         },
-        name: 'ColorFontPrimary01',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'primary-01',
+        "name": "ColorFieldsError",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "error"
         },
-        path: ['color', 'font', 'primary-01'],
+        "path": [
+          "color",
+          "fields",
+          "error"
+        ]
       },
-      'primary-02': {
-        value: '#6a7081',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-02.500.value}',
+      "label": {
+        "value": "#333333",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.font.dark.value}"
         },
-        name: 'ColorFontPrimary02',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'primary-02',
+        "name": "ColorFieldsLabel",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "label"
         },
-        path: ['color', 'font', 'primary-02'],
+        "path": [
+          "color",
+          "fields",
+          "label"
+        ]
       },
-      darkest: {
-        value: '#000000',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.999.value}',
+      "requirement": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.font.light.value}"
         },
-        name: 'ColorFontDarkest',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'darkest',
+        "name": "ColorFieldsRequirement",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "requirement"
         },
-        path: ['color', 'font', 'darkest'],
+        "path": [
+          "color",
+          "fields",
+          "requirement"
+        ]
       },
-      darker: {
-        value: '#191919',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.900.value}',
+      "help": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/fields.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.font.light.value}"
         },
-        name: 'ColorFontDarker',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'darker',
+        "name": "ColorFieldsHelp",
+        "attributes": {
+          "category": "color",
+          "type": "fields",
+          "item": "help"
         },
-        path: ['color', 'font', 'darker'],
-      },
-      dark: {
-        value: '#333333',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.800.value}',
-        },
-        name: 'ColorFontDark',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'dark',
-        },
-        path: ['color', 'font', 'dark'],
-      },
-      light: {
-        value: '#666666',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.600.value}',
-        },
-        name: 'ColorFontLight',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'light',
-        },
-        path: ['color', 'font', 'light'],
-      },
-      lightest: {
-        value: '#ffffff',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.000.value}',
-        },
-        name: 'ColorFontLightest',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'lightest',
-        },
-        path: ['color', 'font', 'lightest'],
-      },
-      info: {
-        value: '#007bb4',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.info.600.value}',
-        },
-        name: 'ColorFontInfo',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'info',
-        },
-        path: ['color', 'font', 'info'],
-      },
-      success: {
-        value: '#188803',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.success.600.value}',
-        },
-        name: 'ColorFontSuccess',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'success',
-        },
-        path: ['color', 'font', 'success'],
-      },
-      warning: {
-        value: '#c65200',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.warning.600.value}',
-        },
-        name: 'ColorFontWarning',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'warning',
-        },
-        path: ['color', 'font', 'warning'],
-      },
-      danger: {
-        value: '#c61112',
-        filePath: 'packages/tokens/properties/color/font.json',
-        isSource: true,
-        original: {
-          value: '{color.danger.600.value}',
-        },
-        name: 'ColorFontDanger',
-        attributes: {
-          category: 'color',
-          type: 'font',
-          item: 'danger',
-        },
-        path: ['color', 'font', 'danger'],
-      },
+        "path": [
+          "color",
+          "fields",
+          "help"
+        ]
+      }
     },
-    input: {
-      text: {
-        value: '#191919',
-        filePath: 'packages/tokens/properties/color/input.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.900.value}',
+    "fileuploader": {
+      "font": {
+        "value": "#000000",
+        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.999.value}"
         },
-        name: 'ColorInputText',
-        attributes: {
-          category: 'color',
-          type: 'input',
-          item: 'text',
+        "name": "ColorFileuploaderFont",
+        "attributes": {
+          "category": "color",
+          "type": "fileuploader",
+          "item": "font"
         },
-        path: ['color', 'input', 'text'],
+        "path": [
+          "color",
+          "fileuploader",
+          "font"
+        ]
       },
-      border: {
-        value: '#666666',
-        filePath: 'packages/tokens/properties/color/input.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.600.value}',
+      "files": {
+        "list": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/fileuploder.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorFileuploaderFilesList",
+          "attributes": {
+            "category": "color",
+            "type": "fileuploader",
+            "item": "files",
+            "subitem": "list"
+          },
+          "path": [
+            "color",
+            "fileuploader",
+            "files",
+            "list"
+          ]
         },
-        name: 'ColorInputBorder',
-        attributes: {
-          category: 'color',
-          type: 'input',
-          item: 'border',
-        },
-        path: ['color', 'input', 'border'],
+        "delete": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/fileuploder.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorFileuploaderFilesDelete",
+          "attributes": {
+            "category": "color",
+            "type": "fileuploader",
+            "item": "files",
+            "subitem": "delete"
+          },
+          "path": [
+            "color",
+            "fileuploader",
+            "files",
+            "delete"
+          ]
+        }
       },
-      placeholder: {
-        value: '#808080',
-        filePath: 'packages/tokens/properties/color/input.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.500.value}',
+      "valid": {
+        "value": "#00919f",
+        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
         },
-        name: 'ColorInputPlaceholder',
-        attributes: {
-          category: 'color',
-          type: 'input',
-          item: 'placeholder',
+        "name": "ColorFileuploaderValid",
+        "attributes": {
+          "category": "color",
+          "type": "fileuploader",
+          "item": "valid"
         },
-        path: ['color', 'input', 'placeholder'],
+        "path": [
+          "color",
+          "fileuploader",
+          "valid"
+        ]
       },
-      background: {
-        value: '#ffffff',
-        filePath: 'packages/tokens/properties/color/input.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.000.value}',
+      "alert": {
+        "value": "#c61112",
+        "filePath": "packages/tokens/properties/color/fileuploder.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger.600.value}"
         },
-        name: 'ColorInputBackground',
-        attributes: {
-          category: 'color',
-          type: 'input',
-          item: 'background',
+        "name": "ColorFileuploaderAlert",
+        "attributes": {
+          "category": "color",
+          "type": "fileuploader",
+          "item": "alert"
         },
-        path: ['color', 'input', 'background'],
-      },
-      disabled: {
-        border: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
-          },
-          name: 'ColorInputDisabledBorder',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'disabled',
-            subitem: 'border',
-          },
-          path: ['color', 'input', 'disabled', 'border'],
-        },
-        background: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
-          },
-          name: 'ColorInputDisabledBackground',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'disabled',
-            subitem: 'background',
-          },
-          path: ['color', 'input', 'disabled', 'background'],
-        },
-        icon: {
-          value: '#999999',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.400.value}',
-          },
-          name: 'ColorInputDisabledIcon',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'disabled',
-            subitem: 'icon',
-          },
-          path: ['color', 'input', 'disabled', 'icon'],
-        },
-      },
-      hover: {
-        border: {
-          value: '#191919',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.900.value}',
-          },
-          name: 'ColorInputHoverBorder',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'hover',
-            subitem: 'border',
-          },
-          path: ['color', 'input', 'hover', 'border'],
-        },
-      },
-      focus: {
-        border: {
-          value: '#758992',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-blue.500.value}',
-          },
-          name: 'ColorInputFocusBorder',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'focus',
-            subitem: 'border',
-          },
-          path: ['color', 'input', 'focus', 'border'],
-        },
-      },
-      valid: {
-        border: {
-          value: '#46a610',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.success.500.value}',
-          },
-          name: 'ColorInputValidBorder',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'valid',
-            subitem: 'border',
-          },
-          path: ['color', 'input', 'valid', 'border'],
-        },
-        hover: {
-          border: {
-            value: '#035010',
-            filePath: 'packages/tokens/properties/color/input.json',
-            isSource: true,
-            original: {
-              value: '{color.success.800.value}',
-            },
-            name: 'ColorInputValidHoverBorder',
-            attributes: {
-              category: 'color',
-              type: 'input',
-              item: 'valid',
-              subitem: 'hover',
-              state: 'border',
-            },
-            path: ['color', 'input', 'valid', 'hover', 'border'],
-          },
-        },
-      },
-      invalid: {
-        border: {
-          value: '#c61112',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.danger.600.value}',
-          },
-          name: 'ColorInputInvalidBorder',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'invalid',
-            subitem: 'border',
-          },
-          path: ['color', 'input', 'invalid', 'border'],
-        },
-        hover: {
-          border: {
-            value: '#530000',
-            filePath: 'packages/tokens/properties/color/input.json',
-            isSource: true,
-            original: {
-              value: '{color.danger.800.value}',
-            },
-            name: 'ColorInputInvalidHoverBorder',
-            attributes: {
-              category: 'color',
-              type: 'input',
-              item: 'invalid',
-              subitem: 'hover',
-              state: 'border',
-            },
-            path: ['color', 'input', 'invalid', 'hover', 'border'],
-          },
-        },
-      },
-      checked: {
-        border: {
-          value: '#00919f',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.500.value}',
-          },
-          name: 'ColorInputCheckedBorder',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'checked',
-            subitem: 'border',
-          },
-          path: ['color', 'input', 'checked', 'border'],
-        },
-        background: {
-          value: '#00919f',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.500.value}',
-          },
-          name: 'ColorInputCheckedBackground',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'checked',
-            subitem: 'background',
-          },
-          path: ['color', 'input', 'checked', 'background'],
-        },
-        icon: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/input.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorInputCheckedIcon',
-          attributes: {
-            category: 'color',
-            type: 'input',
-            item: 'checked',
-            subitem: 'icon',
-          },
-          path: ['color', 'input', 'checked', 'icon'],
-        },
-        hover: {
-          border: {
-            value: '#004e57',
-            filePath: 'packages/tokens/properties/color/input.json',
-            isSource: true,
-            original: {
-              value: '{color.primary-01.800.value}',
-            },
-            name: 'ColorInputCheckedHoverBorder',
-            attributes: {
-              category: 'color',
-              type: 'input',
-              item: 'checked',
-              subitem: 'hover',
-              state: 'border',
-            },
-            path: ['color', 'input', 'checked', 'hover', 'border'],
-          },
-        },
-      },
+        "path": [
+          "color",
+          "fileuploader",
+          "alert"
+        ]
+      }
     },
-    link: {
-      dark: {
-        base: {
-          value: '#000000',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.999.value}',
+    "flag": {
+      "solid": {
+        "background": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
           },
-          name: 'ColorLinkDarkBase',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'dark',
-            subitem: 'base',
+          "name": "ColorFlagSolidBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid",
+            "subitem": "background"
           },
-          path: ['color', 'link', 'dark', 'base'],
+          "path": [
+            "color",
+            "flag",
+            "solid",
+            "background"
+          ]
         },
-        visited: {
-          value: '#333333',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.800.value}',
+        "border": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
           },
-          name: 'ColorLinkDarkVisited',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'dark',
-            subitem: 'visited',
+          "name": "ColorFlagSolidBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid",
+            "subitem": "border"
           },
-          path: ['color', 'link', 'dark', 'visited'],
+          "path": [
+            "color",
+            "flag",
+            "solid",
+            "border"
+          ]
         },
-        active: {
-          value: '#333333',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.800.value}',
+        "text": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
           },
-          name: 'ColorLinkDarkActive',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'dark',
-            subitem: 'active',
+          "name": "ColorFlagSolidText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid",
+            "subitem": "text"
           },
-          path: ['color', 'link', 'dark', 'active'],
-        },
-        disabled: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
-          },
-          name: 'ColorLinkDarkDisabled',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'dark',
-            subitem: 'disabled',
-          },
-          path: ['color', 'link', 'dark', 'disabled'],
-        },
-        hover: {
-          value: '#666666',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.600.value}',
-          },
-          name: 'ColorLinkDarkHover',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'dark',
-            subitem: 'hover',
-          },
-          path: ['color', 'link', 'dark', 'hover'],
-        },
+          "path": [
+            "color",
+            "flag",
+            "solid",
+            "text"
+          ]
+        }
       },
-      light: {
-        base: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
+      "solid-primary-02": {
+        "background": {
+          "value": "#4b4a8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.600.value}"
           },
-          name: 'ColorLinkLightBase',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'light',
-            subitem: 'base',
+          "name": "ColorFlagSolidPrimary02Background",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-primary-02",
+            "subitem": "background"
           },
-          path: ['color', 'link', 'light', 'base'],
+          "path": [
+            "color",
+            "flag",
+            "solid-primary-02",
+            "background"
+          ]
         },
-        visited: {
-          value: '#cccccc',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.200.value}',
+        "border": {
+          "value": "#4b4a8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.600.value}"
           },
-          name: 'ColorLinkLightVisited',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'light',
-            subitem: 'visited',
+          "name": "ColorFlagSolidPrimary02Border",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-primary-02",
+            "subitem": "border"
           },
-          path: ['color', 'link', 'light', 'visited'],
+          "path": [
+            "color",
+            "flag",
+            "solid-primary-02",
+            "border"
+          ]
         },
-        active: {
-          value: '#cccccc',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.200.value}',
+        "text": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
           },
-          name: 'ColorLinkLightActive',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'light',
-            subitem: 'active',
+          "name": "ColorFlagSolidPrimary02Text",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-primary-02",
+            "subitem": "text"
           },
-          path: ['color', 'link', 'light', 'active'],
-        },
-        disabled: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
-          },
-          name: 'ColorLinkLightDisabled',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'light',
-            subitem: 'disabled',
-          },
-          path: ['color', 'link', 'light', 'disabled'],
-        },
-        hover: {
-          value: '#999999',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.400.value}',
-          },
-          name: 'ColorLinkLightHover',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'light',
-            subitem: 'hover',
-          },
-          path: ['color', 'link', 'light', 'hover'],
-        },
+          "path": [
+            "color",
+            "flag",
+            "solid-primary-02",
+            "text"
+          ]
+        }
       },
-      primary: {
-        base: {
-          value: '#007f8c',
-          filePath: 'packages/tokens/AdeoProperties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.600.value}',
+      "solid-dark": {
+        "background": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
           },
-          name: 'ColorLinkPrimaryBase',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary',
-            subitem: 'base',
+          "name": "ColorFlagSolidDarkBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-dark",
+            "subitem": "background"
           },
-          path: ['color', 'link', 'primary', 'base'],
+          "path": [
+            "color",
+            "flag",
+            "solid-dark",
+            "background"
+          ]
         },
-        visited: {
-          value: '#006974',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.700.value}',
+        "border": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
           },
-          name: 'ColorLinkPrimaryVisited',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary',
-            subitem: 'visited',
+          "name": "ColorFlagSolidDarkBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-dark",
+            "subitem": "border"
           },
-          path: ['color', 'link', 'primary', 'visited'],
+          "path": [
+            "color",
+            "flag",
+            "solid-dark",
+            "border"
+          ]
         },
-        active: {
-          value: '#006974',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.700.value}',
+        "text": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
           },
-          name: 'ColorLinkPrimaryActive',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary',
-            subitem: 'active',
+          "name": "ColorFlagSolidDarkText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-dark",
+            "subitem": "text"
           },
-          path: ['color', 'link', 'primary', 'active'],
-        },
-        disabled: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
-          },
-          name: 'ColorLinkPrimaryDisabled',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary',
-            subitem: 'disabled',
-          },
-          path: ['color', 'link', 'primary', 'disabled'],
-        },
-        hover: {
-          value: '#002e33',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.900.value}',
-          },
-          name: 'ColorLinkPrimaryHover',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary',
-            subitem: 'hover',
-          },
-          path: ['color', 'link', 'primary', 'hover'],
-        },
+          "path": [
+            "color",
+            "flag",
+            "solid-dark",
+            "text"
+          ]
+        }
       },
-      'primary-02': {
-        base: {
-          value: '#494f60',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-02.600.value}',
+      "solid-light": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
           },
-          name: 'ColorLinkPrimary02Base',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary-02',
-            subitem: 'base',
+          "name": "ColorFlagSolidLightBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-light",
+            "subitem": "background"
           },
-          path: ['color', 'link', 'primary-02', 'base'],
+          "path": [
+            "color",
+            "flag",
+            "solid-light",
+            "background"
+          ]
         },
-        visited: {
-          value: '#343b4c',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-02.700.value}',
+        "border": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
           },
-          name: 'ColorLinkPrimary02Visited',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary-02',
-            subitem: 'visited',
+          "name": "ColorFlagSolidLightBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-light",
+            "subitem": "border"
           },
-          path: ['color', 'link', 'primary-02', 'visited'],
+          "path": [
+            "color",
+            "flag",
+            "solid-light",
+            "border"
+          ]
         },
-        active: {
-          value: '#343b4c',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-02.700.value}',
+        "text": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
           },
-          name: 'ColorLinkPrimary02Active',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary-02',
-            subitem: 'active',
+          "name": "ColorFlagSolidLightText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-light",
+            "subitem": "text"
           },
-          path: ['color', 'link', 'primary-02', 'active'],
-        },
-        disabled: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
-          },
-          name: 'ColorLinkPrimary02Disabled',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary-02',
-            subitem: 'disabled',
-          },
-          path: ['color', 'link', 'primary-02', 'disabled'],
-        },
-        hover: {
-          value: '#171b26',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-02.900.value}',
-          },
-          name: 'ColorLinkPrimary02Hover',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'primary-02',
-            subitem: 'hover',
-          },
-          path: ['color', 'link', 'primary-02', 'hover'],
-        },
+          "path": [
+            "color",
+            "flag",
+            "solid-light",
+            "text"
+          ]
+        }
       },
-      danger: {
-        base: {
-          value: '#b42a27',
-          filePath: 'packages/tokens/AdeoProperties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.600.value}',
+      "solid-danger": {
+        "background": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
           },
-          name: 'ColorLinkDangerBase',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'danger',
-            subitem: 'base',
+          "name": "ColorFlagSolidDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-danger",
+            "subitem": "background"
           },
-          path: ['color', 'link', 'danger', 'base'],
+          "path": [
+            "color",
+            "flag",
+            "solid-danger",
+            "background"
+          ]
         },
-        visited: {
-          value: '#8b2226',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.700.value}',
+        "border": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
           },
-          name: 'ColorLinkDangerVisited',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'danger',
-            subitem: 'visited',
+          "name": "ColorFlagSolidDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-danger",
+            "subitem": "border"
           },
-          path: ['color', 'link', 'danger', 'visited'],
+          "path": [
+            "color",
+            "flag",
+            "solid-danger",
+            "border"
+          ]
         },
-        active: {
-          value: '#8b2226',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.700.value}',
+        "text": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
           },
-          name: 'ColorLinkDangerActive',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'danger',
-            subitem: 'active',
+          "name": "ColorFlagSolidDangerText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "solid-danger",
+            "subitem": "text"
           },
-          path: ['color', 'link', 'danger', 'active'],
-        },
-        disabled: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
-          },
-          name: 'ColorLinkDangerDisabled',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'danger',
-            subitem: 'disabled',
-          },
-          path: ['color', 'link', 'danger', 'disabled'],
-        },
-        hover: {
-          value: '#3e1219',
-          filePath: 'packages/tokens/properties/color/link.json',
-          isSource: true,
-          original: {
-            value: '{color.secondary-red.900.value}',
-          },
-          name: 'ColorLinkDangerHover',
-          attributes: {
-            category: 'color',
-            type: 'link',
-            item: 'danger',
-            subitem: 'hover',
-          },
-          path: ['color', 'link', 'danger', 'hover'],
-        },
+          "path": [
+            "color",
+            "flag",
+            "solid-danger",
+            "text"
+          ]
+        }
       },
+      "bordered": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorFlagBorderedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorFlagBorderedText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered",
+            "text"
+          ]
+        }
+      },
+      "bordered-primary-02": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedPrimary02Background",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-primary-02",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-primary-02",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#4b4a8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.600.value}"
+          },
+          "name": "ColorFlagBorderedPrimary02Border",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-primary-02",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-primary-02",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#4b4a8c",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-purple.600.value}"
+          },
+          "name": "ColorFlagBorderedPrimary02Text",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-primary-02",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-primary-02",
+            "text"
+          ]
+        }
+      },
+      "bordered-dark": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedDarkBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-dark",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-dark",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagBorderedDarkBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-dark",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-dark",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagBorderedDarkText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-dark",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-dark",
+            "text"
+          ]
+        }
+      },
+      "bordered-light": {
+        "background": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorFlagBorderedLightBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-light",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-light",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedLightBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-light",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-light",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedLightText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-light",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-light",
+            "text"
+          ]
+        }
+      },
+      "bordered-danger": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorFlagBorderedDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
+          },
+          "name": "ColorFlagBorderedDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-danger",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/flag.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
+          },
+          "name": "ColorFlagBorderedDangerText",
+          "attributes": {
+            "category": "color",
+            "type": "flag",
+            "item": "bordered-danger",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "flag",
+            "bordered-danger",
+            "text"
+          ]
+        }
+      }
     },
-    notification: {
-      font: {
-        value: '#000000',
-        filePath: 'packages/tokens/properties/color/notification.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.999.value}',
+    "focus": {
+      "gap": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/focus.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
         },
-        name: 'ColorNotificationFont',
-        attributes: {
-          category: 'color',
-          type: 'notification',
-          item: 'font',
+        "name": "ColorFocusGap",
+        "attributes": {
+          "category": "color",
+          "type": "focus",
+          "item": "gap"
         },
-        path: ['color', 'notification', 'font'],
+        "path": [
+          "color",
+          "focus",
+          "gap"
+        ]
       },
-      information: {
-        background: {
-          value: '#daeff7',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.info.100.value}',
-          },
-          name: 'ColorNotificationInformationBackground',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'information',
-            subitem: 'background',
-          },
-          path: ['color', 'notification', 'information', 'background'],
+      "border": {
+        "value": "#758992",
+        "filePath": "packages/tokens/properties/color/focus.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-blue.500.value}"
         },
-        border: {
-          value: '#0b96cc',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.info.500.value}',
-          },
-          name: 'ColorNotificationInformationBorder',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'information',
-            subitem: 'border',
-          },
-          path: ['color', 'notification', 'information', 'border'],
+        "name": "ColorFocusBorder",
+        "attributes": {
+          "category": "color",
+          "type": "focus",
+          "item": "border"
         },
-      },
-      success: {
-        background: {
-          value: '#ebf5de',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.success.100.value}',
-          },
-          name: 'ColorNotificationSuccessBackground',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'success',
-            subitem: 'background',
-          },
-          path: ['color', 'notification', 'success', 'background'],
-        },
-        border: {
-          value: '#46a610',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.success.500.value}',
-          },
-          name: 'ColorNotificationSuccessBorder',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'success',
-            subitem: 'border',
-          },
-          path: ['color', 'notification', 'success', 'border'],
-        },
-      },
-      warning: {
-        background: {
-          value: '#fdf1e8',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.warning.100.value}',
-          },
-          name: 'ColorNotificationWarningBackground',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'warning',
-            subitem: 'background',
-          },
-          path: ['color', 'notification', 'warning', 'background'],
-        },
-        border: {
-          value: '#ea7315',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.warning.500.value}',
-          },
-          name: 'ColorNotificationWarningBorder',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'warning',
-            subitem: 'border',
-          },
-          path: ['color', 'notification', 'warning', 'border'],
-        },
-      },
-      danger: {
-        background: {
-          value: '#fdeaea',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.danger.100.value}',
-          },
-          name: 'ColorNotificationDangerBackground',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'danger',
-            subitem: 'background',
-          },
-          path: ['color', 'notification', 'danger', 'background'],
-        },
-        border: {
-          value: '#ea302d',
-          filePath: 'packages/tokens/properties/color/notification.json',
-          isSource: true,
-          original: {
-            value: '{color.danger.500.value}',
-          },
-          name: 'ColorNotificationDangerBorder',
-          attributes: {
-            category: 'color',
-            type: 'notification',
-            item: 'danger',
-            subitem: 'border',
-          },
-          path: ['color', 'notification', 'danger', 'border'],
-        },
-      },
+        "path": [
+          "color",
+          "focus",
+          "border"
+        ]
+      }
     },
-    progress: {
-      background: {
-        value: '#cccccc',
-        filePath: 'packages/tokens/properties/color/progressbar.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.200.value}',
+    "font": {
+      "primary-01": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
         },
-        name: 'ColorProgressBackground',
-        attributes: {
-          category: 'color',
-          type: 'progress',
-          item: 'background',
+        "name": "ColorFontPrimary01",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "primary-01"
         },
-        path: ['color', 'progress', 'background'],
+        "path": [
+          "color",
+          "font",
+          "primary-01"
+        ]
       },
-      indicator: {
-        value: '#007bb4',
-        filePath: 'packages/tokens/properties/color/progressbar.json',
-        isSource: true,
-        original: {
-          value: '{color.info.600.value}',
+      "primary-02": {
+        "value": "#6a7081",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.500.value}"
         },
-        name: 'ColorProgressIndicator',
-        attributes: {
-          category: 'color',
-          type: 'progress',
-          item: 'indicator',
+        "name": "ColorFontPrimary02",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "primary-02"
         },
-        path: ['color', 'progress', 'indicator'],
+        "path": [
+          "color",
+          "font",
+          "primary-02"
+        ]
       },
-      percentage: {
-        default: {
-          value: '#191919',
-          filePath: 'packages/tokens/properties/color/progressbar.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.900.value}',
-          },
-          name: 'ColorProgressPercentageDefault',
-          attributes: {
-            category: 'color',
-            type: 'progress',
-            item: 'percentage',
-            subitem: 'default',
-          },
-          path: ['color', 'progress', 'percentage', 'default'],
+      "darkest": {
+        "value": "#000000",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.999.value}"
         },
-        half: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/progressbar.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorProgressPercentageHalf',
-          attributes: {
-            category: 'color',
-            type: 'progress',
-            item: 'percentage',
-            subitem: 'half',
-          },
-          path: ['color', 'progress', 'percentage', 'half'],
+        "name": "ColorFontDarkest",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "darkest"
         },
+        "path": [
+          "color",
+          "font",
+          "darkest"
+        ]
       },
-      branded: {
-        indicator: {
-          value: '#00919f',
-          filePath: 'packages/tokens/properties/color/progressbar.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.500.value}',
-          },
-          name: 'ColorProgressBrandedIndicator',
-          attributes: {
-            category: 'color',
-            type: 'progress',
-            item: 'branded',
-            subitem: 'indicator',
-          },
-          path: ['color', 'progress', 'branded', 'indicator'],
+      "darker": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
         },
+        "name": "ColorFontDarker",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "darker"
+        },
+        "path": [
+          "color",
+          "font",
+          "darker"
+        ]
       },
+      "dark": {
+        "value": "#333333",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.800.value}"
+        },
+        "name": "ColorFontDark",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "font",
+          "dark"
+        ]
+      },
+      "light": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorFontLight",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "font",
+          "light"
+        ]
+      },
+      "lightest": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorFontLightest",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "lightest"
+        },
+        "path": [
+          "color",
+          "font",
+          "lightest"
+        ]
+      },
+      "info": {
+        "value": "#007bb4",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info.600.value}"
+        },
+        "name": "ColorFontInfo",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "info"
+        },
+        "path": [
+          "color",
+          "font",
+          "info"
+        ]
+      },
+      "success": {
+        "value": "#188803",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success.600.value}"
+        },
+        "name": "ColorFontSuccess",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "success"
+        },
+        "path": [
+          "color",
+          "font",
+          "success"
+        ]
+      },
+      "warning": {
+        "value": "#c65200",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning.600.value}"
+        },
+        "name": "ColorFontWarning",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "warning"
+        },
+        "path": [
+          "color",
+          "font",
+          "warning"
+        ]
+      },
+      "danger": {
+        "value": "#c61112",
+        "filePath": "packages/tokens/properties/color/font.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger.600.value}"
+        },
+        "name": "ColorFontDanger",
+        "attributes": {
+          "category": "color",
+          "type": "font",
+          "item": "danger"
+        },
+        "path": [
+          "color",
+          "font",
+          "danger"
+        ]
+      }
     },
-    star: {
-      empty: {
-        value: '#cccccc',
-        filePath: 'packages/tokens/properties/color/star.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.200.value}',
+    "heading": {
+      "underline": {
+        "default": {
+          "value": "#00919f",
+          "filePath": "packages/tokens/properties/color/heading.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorHeadingUnderlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "heading",
+            "item": "underline",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "heading",
+            "underline",
+            "default"
+          ]
         },
-        name: 'ColorStarEmpty',
-        attributes: {
-          category: 'color',
-          type: 'star',
-          item: 'empty',
-        },
-        path: ['color', 'star', 'empty'],
-      },
-      focus: {
-        value: '#758992',
-        filePath: 'packages/tokens/properties/color/star.json',
-        isSource: true,
-        original: {
-          value: '{color.secondary-blue.500.value}',
-        },
-        name: 'ColorStarFocus',
-        attributes: {
-          category: 'color',
-          type: 'star',
-          item: 'focus',
-        },
-        path: ['color', 'star', 'focus'],
-      },
-      full: {
-        value: '#fc961e',
-        filePath: 'packages/tokens/properties/color/star.json',
-        isSource: true,
-        original: {
-          value: '{color.secondary-orange.500.value}',
-        },
-        name: 'ColorStarFull',
-        attributes: {
-          category: 'color',
-          type: 'star',
-          item: 'full',
-        },
-        path: ['color', 'star', 'full'],
-      },
-      hover: {
-        value: '#ffc17d',
-        filePath: 'packages/tokens/properties/color/star.json',
-        isSource: true,
-        original: {
-          value: '{color.secondary-orange.300.value}',
-        },
-        name: 'ColorStarHover',
-        attributes: {
-          category: 'color',
-          type: 'star',
-          item: 'hover',
-        },
-        path: ['color', 'star', 'hover'],
-      },
+        "lightest": {
+          "value": "#91d5db",
+          "filePath": "packages/tokens/properties/color/heading.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.200.value}"
+          },
+          "name": "ColorHeadingUnderlineLightest",
+          "attributes": {
+            "category": "color",
+            "type": "heading",
+            "item": "underline",
+            "subitem": "lightest"
+          },
+          "path": [
+            "color",
+            "heading",
+            "underline",
+            "lightest"
+          ]
+        }
+      }
     },
-    tabs: {
-      background: {
-        value: '#ffffff',
-        filePath: 'packages/tokens/properties/color/tabs.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.000.value}',
-        },
-        name: 'ColorTabsBackground',
-        attributes: {
-          category: 'color',
-          type: 'tabs',
-          item: 'background',
-        },
-        path: ['color', 'tabs', 'background'],
-      },
-      shadow: {
-        value: '#000000',
-        filePath: 'packages/tokens/properties/color/tabs.json',
-        isSource: true,
-        original: {
-          value: '{color.grey.999.value}',
-        },
-        name: 'ColorTabsShadow',
-        attributes: {
-          category: 'color',
-          type: 'tabs',
-          item: 'shadow',
-        },
-        path: ['color', 'tabs', 'shadow'],
-      },
-      default: {
-        value: '#191919',
-        filePath: 'packages/tokens/properties/color/tabs.json',
-        isSource: true,
-        original: {
-          value: '{color.font.darker.value}',
-        },
-        name: 'ColorTabsDefault',
-        attributes: {
-          category: 'color',
-          type: 'tabs',
-          item: 'default',
-        },
-        path: ['color', 'tabs', 'default'],
-      },
-      hover: {
-        value: '#007f8c',
-        filePath: 'packages/tokens/properties/color/tabs.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.600.value}',
-        },
-        name: 'ColorTabsHover',
-        attributes: {
-          category: 'color',
-          type: 'tabs',
-          item: 'hover',
-        },
-        path: ['color', 'tabs', 'hover'],
-      },
-      disabled: {
-        value: '#666666',
-        filePath: 'packages/tokens/properties/color/tabs.json',
-        isSource: true,
-        original: {
-          value: '{color.font.light.value}',
-        },
-        name: 'ColorTabsDisabled',
-        attributes: {
-          category: 'color',
-          type: 'tabs',
-          item: 'disabled',
-        },
-        path: ['color', 'tabs', 'disabled'],
-      },
-      active: {
-        value: '#00919f',
-        filePath: 'packages/tokens/properties/color/tabs.json',
-        isSource: true,
-        original: {
-          value: '{color.font.primary-01.value}',
-        },
-        name: 'ColorTabsActive',
-        attributes: {
-          category: 'color',
-          type: 'tabs',
-          item: 'active',
-        },
-        path: ['color', 'tabs', 'active'],
-      },
-      'active-disabled': {
-        value: '#91d5db',
-        filePath: 'packages/tokens/properties/color/tabs.json',
-        isSource: true,
-        original: {
-          value: '{color.primary-01.200.value}',
-        },
-        name: 'ColorTabsActiveDisabled',
-        attributes: {
-          category: 'color',
-          type: 'tabs',
-          item: 'active-disabled',
-        },
-        path: ['color', 'tabs', 'active-disabled'],
-      },
+    "hero": {
+      "cover": {
+        "background": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/hero.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorHeroCoverBackground",
+          "attributes": {
+            "category": "color",
+            "type": "hero",
+            "item": "cover",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "hero",
+            "cover",
+            "background"
+          ]
+        }
+      }
     },
-    tag: {
-      text: {
-        light: {
-          background: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorTagTextLightBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'text',
-              subitem: 'light',
-              state: 'background',
-            },
-            path: ['color', 'tag', 'text', 'light', 'background'],
-          },
-          border: {
-            value: '#808080',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.500.value}',
-            },
-            name: 'ColorTagTextLightBorder',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'text',
-              subitem: 'light',
-              state: 'border',
-            },
-            path: ['color', 'tag', 'text', 'light', 'border'],
-          },
-          text: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
-            },
-            name: 'ColorTagTextLightText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'text',
-              subitem: 'light',
-              state: 'text',
-            },
-            path: ['color', 'tag', 'text', 'light', 'text'],
-          },
+    "input": {
+      "text": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
         },
-        dark: {
-          background: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
-            },
-            name: 'ColorTagTextDarkBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'text',
-              subitem: 'dark',
-              state: 'background',
-            },
-            path: ['color', 'tag', 'text', 'dark', 'background'],
-          },
-          border: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorTagTextDarkBorder',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'text',
-              subitem: 'dark',
-              state: 'border',
-            },
-            path: ['color', 'tag', 'text', 'dark', 'border'],
-          },
-          text: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorTagTextDarkText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'text',
-              subitem: 'dark',
-              state: 'text',
-            },
-            path: ['color', 'tag', 'text', 'dark', 'text'],
-          },
+        "name": "ColorInputText",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "text"
         },
+        "path": [
+          "color",
+          "input",
+          "text"
+        ]
       },
-      link: {
-        light: {
-          background: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
-            },
-            name: 'ColorTagLinkLightBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'link',
-              subitem: 'light',
-              state: 'background',
-            },
-            path: ['color', 'tag', 'link', 'light', 'background'],
+      "border": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorInputBorder",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "input",
+          "border"
+        ]
+      },
+      "placeholder": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorInputPlaceholder",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "placeholder"
+        },
+        "path": [
+          "color",
+          "input",
+          "placeholder"
+        ]
+      },
+      "background": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/input.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorInputBackground",
+        "attributes": {
+          "category": "color",
+          "type": "input",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "input",
+          "background"
+        ]
+      },
+      "disabled": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
           },
-          border: {
-            value: '#808080',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.500.value}',
-            },
-            name: 'ColorTagLinkLightBorder',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'link',
-              subitem: 'light',
-              state: 'border',
-            },
-            path: ['color', 'tag', 'link', 'light', 'border'],
+          "name": "ColorInputDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "background"
           },
-          text: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
-            },
-            name: 'ColorTagLinkLightText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'link',
-              subitem: 'light',
-              state: 'text',
-            },
-            path: ['color', 'tag', 'link', 'light', 'text'],
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
           },
-          hover: {
-            background: {
-              value: '#e6e6e6',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.100.value}',
+          "name": "ColorInputDisabledBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "border"
+          ]
+        },
+        "icon": {
+          "value": "#999999",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorInputDisabledIcon",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "icon"
+          ]
+        },
+        "label": {
+          "value": "#808080",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorInputDisabledLabel",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "disabled",
+            "subitem": "label"
+          },
+          "path": [
+            "color",
+            "input",
+            "disabled",
+            "label"
+          ]
+        }
+      },
+      "hover": {
+        "border": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorInputHoverBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "hover",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "hover",
+            "border"
+          ]
+        }
+      },
+      "focus": {
+        "border": {
+          "value": "#758992",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.500.value}"
+          },
+          "name": "ColorInputFocusBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "focus",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "focus",
+            "border"
+          ]
+        }
+      },
+      "valid": {
+        "border": {
+          "value": "#46a610",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.500.value}"
+          },
+          "name": "ColorInputValidBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "valid",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "valid",
+            "border"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#035010",
+            "filePath": "packages/tokens/properties/color/input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.success.800.value}"
+            },
+            "name": "ColorInputValidHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "input",
+              "item": "valid",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "input",
+              "valid",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      },
+      "invalid": {
+        "border": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "ColorInputInvalidBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "invalid",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "invalid",
+            "border"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#530000",
+            "filePath": "packages/tokens/properties/color/input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.danger.800.value}"
+            },
+            "name": "ColorInputInvalidHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "input",
+              "item": "invalid",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "input",
+              "invalid",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "border": {
+          "value": "#00919f",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorInputCheckedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "checked",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "input",
+            "checked",
+            "border"
+          ]
+        },
+        "background": {
+          "value": "#00919f",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorInputCheckedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "checked",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "input",
+            "checked",
+            "background"
+          ]
+        },
+        "icon": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/input.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorInputCheckedIcon",
+          "attributes": {
+            "category": "color",
+            "type": "input",
+            "item": "checked",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "input",
+            "checked",
+            "icon"
+          ]
+        },
+        "hover": {
+          "border": {
+            "value": "#004e57",
+            "filePath": "packages/tokens/properties/color/input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.800.value}"
+            },
+            "name": "ColorInputCheckedHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "input",
+              "item": "checked",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "input",
+              "checked",
+              "hover",
+              "border"
+            ]
+          }
+        }
+      }
+    },
+    "link": {
+      "dark": {
+        "base": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorLinkDarkBase",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#333333",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.800.value}"
+          },
+          "name": "ColorLinkDarkVisited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#333333",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.800.value}"
+          },
+          "name": "ColorLinkDarkActive",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkDarkDisabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#666666",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorLinkDarkHover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "dark",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "dark",
+            "hover"
+          ]
+        }
+      },
+      "light": {
+        "base": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorLinkLightBase",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorLinkLightVisited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorLinkLightActive",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkLightDisabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#999999",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorLinkLightHover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "light",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "light",
+            "hover"
+          ]
+        }
+      },
+      "primary": {
+        "base": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorLinkPrimaryBase",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#006974",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.700.value}"
+          },
+          "name": "ColorLinkPrimaryVisited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#006974",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.700.value}"
+          },
+          "name": "ColorLinkPrimaryActive",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkPrimaryDisabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#004e57",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.800.value}"
+          },
+          "name": "ColorLinkPrimaryHover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary",
+            "hover"
+          ]
+        }
+      },
+      "primary-02": {
+        "base": {
+          "value": "#494f60",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.600.value}"
+          },
+          "name": "ColorLinkPrimary02Base",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary-02",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary-02",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#343b4c",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.700.value}"
+          },
+          "name": "ColorLinkPrimary02Visited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary-02",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary-02",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#343b4c",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.700.value}"
+          },
+          "name": "ColorLinkPrimary02Active",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary-02",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary-02",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkPrimary02Disabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary-02",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary-02",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#171b26",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.900.value}"
+          },
+          "name": "ColorLinkPrimary02Hover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "primary-02",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "primary-02",
+            "hover"
+          ]
+        }
+      },
+      "danger": {
+        "base": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/AdeoProperties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.600.value}"
+          },
+          "name": "ColorLinkDangerBase",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "base"
+          ]
+        },
+        "visited": {
+          "value": "#8c0003",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.700.value}"
+          },
+          "name": "ColorLinkDangerVisited",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "visited"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "visited"
+          ]
+        },
+        "active": {
+          "value": "#8c0003",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.700.value}"
+          },
+          "name": "ColorLinkDangerActive",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "active"
+          ]
+        },
+        "disabled": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorLinkDangerDisabled",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "disabled"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "disabled"
+          ]
+        },
+        "hover": {
+          "value": "#530000",
+          "filePath": "packages/tokens/properties/color/link.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-red.800.value}"
+          },
+          "name": "ColorLinkDangerHover",
+          "attributes": {
+            "category": "color",
+            "type": "link",
+            "item": "danger",
+            "subitem": "hover"
+          },
+          "path": [
+            "color",
+            "link",
+            "danger",
+            "hover"
+          ]
+        }
+      }
+    },
+    "listbox": {
+      "background": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/listbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorListboxBackground",
+        "attributes": {
+          "category": "color",
+          "type": "listbox",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "listbox",
+          "background"
+        ]
+      },
+      "border": {
+        "value": "#666666",
+        "filePath": "packages/tokens/properties/color/listbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorListboxBorder",
+        "attributes": {
+          "category": "color",
+          "type": "listbox",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "listbox",
+          "border"
+        ]
+      },
+      "tile": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorListboxTileBorder",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "tile",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "tile",
+            "border"
+          ]
+        },
+        "shadow": {
+          "value": "#191919",
+          "filePath": "packages/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorListboxTileShadow",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "tile",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "tile",
+            "shadow"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/listbox.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorListboxTileHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "listbox",
+              "item": "tile",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "listbox",
+              "tile",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorListboxDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "disabled",
+            "background"
+          ]
+        }
+      }
+    },
+    "loader": {
+      "dark": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorLoaderDark",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "loader",
+          "dark"
+        ]
+      },
+      "light": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorLoaderLight",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "loader",
+          "light"
+        ]
+      },
+      "primary": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/properties/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorLoaderPrimary",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "primary"
+        },
+        "path": [
+          "color",
+          "loader",
+          "primary"
+        ]
+      }
+    },
+    "menu": {
+      "is-active": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/AdeoProperties/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorMenuIsActive",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "is-active"
+        },
+        "path": [
+          "color",
+          "menu",
+          "is-active"
+        ]
+      },
+      "hover": {
+        "value": "#eeedea",
+        "filePath": "packages/tokens/AdeoProperties/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-sandgrey.100.value}"
+        },
+        "name": "ColorMenuHover",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "menu",
+          "hover"
+        ]
+      },
+      "active": {
+        "value": "#dddcd5",
+        "filePath": "packages/tokens/AdeoProperties/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-sandgrey.200.value}"
+        },
+        "name": "ColorMenuActive",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "menu",
+          "active"
+        ]
+      }
+    },
+    "notification": {
+      "font": {
+        "value": "#000000",
+        "filePath": "packages/tokens/properties/color/notification.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorNotificationFont",
+        "attributes": {
+          "category": "color",
+          "type": "notification",
+          "item": "font"
+        },
+        "path": [
+          "color",
+          "notification",
+          "font"
+        ]
+      },
+      "information": {
+        "background": {
+          "value": "#daeff7",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.100.value}"
+          },
+          "name": "ColorNotificationInformationBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "information",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "information",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#0b96cc",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.500.value}"
+          },
+          "name": "ColorNotificationInformationBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "information",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "information",
+            "border"
+          ]
+        },
+        "icon": {
+          "value": "#007bb4",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.600.value}"
+          },
+          "name": "ColorNotificationInformationIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "information",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "information",
+            "icon"
+          ]
+        }
+      },
+      "success": {
+        "background": {
+          "value": "#ebf5de",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.100.value}"
+          },
+          "name": "ColorNotificationSuccessBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "success",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "success",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#46a610",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.500.value}"
+          },
+          "name": "ColorNotificationSuccessBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "success",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "success",
+            "border"
+          ]
+        },
+        "icon": {
+          "value": "#188803",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.600.value}"
+          },
+          "name": "ColorNotificationSuccessIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "success",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "success",
+            "icon"
+          ]
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "#fdf1e8",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.100.value}"
+          },
+          "name": "ColorNotificationWarningBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "warning",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "warning",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#ea7315",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.500.value}"
+          },
+          "name": "ColorNotificationWarningBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "warning",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "warning",
+            "border"
+          ]
+        },
+        "icon": {
+          "value": "#c65200",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.600.value}"
+          },
+          "name": "ColorNotificationWarningIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "warning",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "warning",
+            "icon"
+          ]
+        }
+      },
+      "danger": {
+        "background": {
+          "value": "#fdeaea",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.100.value}"
+          },
+          "name": "ColorNotificationDangerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "danger",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "notification",
+            "danger",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#ea302d",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.500.value}"
+          },
+          "name": "ColorNotificationDangerBorder",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "danger",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "notification",
+            "danger",
+            "border"
+          ]
+        },
+        "icon": {
+          "value": "#c61112",
+          "filePath": "packages/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "ColorNotificationDangerIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "danger",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "danger",
+            "icon"
+          ]
+        }
+      }
+    },
+    "option-button": {
+      "label": {
+        "shadow": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/option-button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorOptionButtonLabelShadow",
+          "attributes": {
+            "category": "color",
+            "type": "option-button",
+            "item": "label",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "option-button",
+            "label",
+            "shadow"
+          ]
+        }
+      },
+      "hover": {
+        "label": {
+          "shadow": {
+            "value": "#333333",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorOptionButtonHoverLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "hover",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "hover",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "label": {
+          "border": {
+            "value": "#00919f",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorOptionButtonCheckedLabelBorder",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "checked",
+              "subitem": "label",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "checked",
+              "label",
+              "border"
+            ]
+          },
+          "shadow": {
+            "value": "#d9f0f3",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorOptionButtonCheckedLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "checked",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "checked",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "disabled": {
+        "label": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorOptionButtonDisabledLabelBackground",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "disabled",
+              "subitem": "label",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "disabled",
+              "label",
+              "background"
+            ]
+          }
+        }
+      }
+    },
+    "option-card": {
+      "label": {
+        "shadow": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/option-card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorOptionCardLabelShadow",
+          "attributes": {
+            "category": "color",
+            "type": "option-card",
+            "item": "label",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "option-card",
+            "label",
+            "shadow"
+          ]
+        }
+      },
+      "hover": {
+        "label": {
+          "shadow": {
+            "value": "#333333",
+            "filePath": "packages/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorOptionCardHoverLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "hover",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "hover",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "label": {
+          "border": {
+            "value": "#00919f",
+            "filePath": "packages/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorOptionCardCheckedLabelBorder",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "checked",
+              "subitem": "label",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "checked",
+              "label",
+              "border"
+            ]
+          },
+          "shadow": {
+            "value": "#d9f0f3",
+            "filePath": "packages/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorOptionCardCheckedLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "checked",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "checked",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "disabled": {
+        "content": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/properties/color/option-card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorOptionCardDisabledContent",
+          "attributes": {
+            "category": "color",
+            "type": "option-card",
+            "item": "disabled",
+            "subitem": "content"
+          },
+          "path": [
+            "color",
+            "option-card",
+            "disabled",
+            "content"
+          ]
+        },
+        "label": {
+          "value": "#666666",
+          "filePath": "packages/tokens/properties/color/option-card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorOptionCardDisabledLabel",
+          "attributes": {
+            "category": "color",
+            "type": "option-card",
+            "item": "disabled",
+            "subitem": "label"
+          },
+          "path": [
+            "color",
+            "option-card",
+            "disabled",
+            "label"
+          ]
+        }
+      }
+    },
+    "overlay": {
+      "background": {
+        "value": "#191919",
+        "filePath": "packages/tokens/properties/color/overlay.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorOverlayBackground",
+        "attributes": {
+          "category": "color",
+          "type": "overlay",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "overlay",
+          "background"
+        ]
+      },
+      "loader": {
+        "background": {
+          "value": "#082435",
+          "filePath": "packages/tokens/AdeoProperties/color/overlay.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.900.value}"
+          },
+          "name": "ColorOverlayLoaderBackground",
+          "attributes": {
+            "category": "color",
+            "type": "overlay",
+            "item": "loader",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "overlay",
+            "loader",
+            "background"
+          ]
+        }
+      }
+    },
+    "password-input": {
+      "button": {
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/password-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorPasswordInputButtonHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "password-input",
+              "item": "button",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "password-input",
+              "button",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      }
+    },
+    "phone-number": {
+      "button": {
+        "border": {
+          "value": "#666666",
+          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorPhoneNumberButtonBorder",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "button",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "button",
+            "border"
+          ]
+        }
+      },
+      "list": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorPhoneNumberListBackground",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "list",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "list",
+            "background"
+          ]
+        }
+      },
+      "item": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorPhoneNumberItemBorder",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "item",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "item",
+            "border"
+          ]
+        },
+        "focus": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "packages/tokens/properties/color/phone-number.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorPhoneNumberItemFocusBackground",
+            "attributes": {
+              "category": "color",
+              "type": "phone-number",
+              "item": "item",
+              "subitem": "focus",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "phone-number",
+              "item",
+              "focus",
+              "background"
+            ]
+          }
+        }
+      }
+    },
+    "progress": {
+      "background": {
+        "value": "#cdd4d8",
+        "filePath": "packages/tokens/AdeoProperties/color/progressbar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-blue.200.value}"
+        },
+        "name": "ColorProgressBackground",
+        "attributes": {
+          "category": "color",
+          "type": "progress",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "progress",
+          "background"
+        ]
+      },
+      "indicator": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/AdeoProperties/color/progressbar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorProgressIndicator",
+        "attributes": {
+          "category": "color",
+          "type": "progress",
+          "item": "indicator"
+        },
+        "path": [
+          "color",
+          "progress",
+          "indicator"
+        ]
+      },
+      "percentage": {
+        "default": {
+          "value": "#191919",
+          "filePath": "packages/tokens/AdeoProperties/color/progressbar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorProgressPercentageDefault",
+          "attributes": {
+            "category": "color",
+            "type": "progress",
+            "item": "percentage",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "progress",
+            "percentage",
+            "default"
+          ]
+        },
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/progressbar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorProgressPercentageBackground",
+          "attributes": {
+            "category": "color",
+            "type": "progress",
+            "item": "percentage",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "progress",
+            "percentage",
+            "background"
+          ]
+        }
+      }
+    },
+    "segmented-control": {
+      "is-active": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/properties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorSegmentedControlIsActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "is-active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "is-active"
+        ]
+      },
+      "hover": {
+        "value": "#eeedea",
+        "filePath": "packages/tokens/AdeoProperties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-sandgrey.100.value}"
+        },
+        "name": "ColorSegmentedControlHover",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "hover"
+        ]
+      },
+      "active": {
+        "value": "#dddcd5",
+        "filePath": "packages/tokens/AdeoProperties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-sandgrey.200.value}"
+        },
+        "name": "ColorSegmentedControlActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "active"
+        ]
+      },
+      "background": {
+        "value": "#007f8c",
+        "filePath": "packages/tokens/AdeoProperties/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorSegmentedControlBackground",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "background"
+        ]
+      }
+    },
+    "sidebar": {
+      "background": {
+        "value": "#082435",
+        "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-blue.900.value}"
+        },
+        "name": "ColorSidebarBackground",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "background"
+        ]
+      },
+      "feature": {
+        "background": {
+          "value": "#082435",
+          "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.900.value}"
+          },
+          "name": "ColorSidebarFeatureBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "feature",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "feature",
+            "background"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#405d68",
+            "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.700.value}"
+            },
+            "name": "ColorSidebarFeatureHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "hover",
+              "background"
+            ]
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "#5b737d",
+            "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.600.value}"
+            },
+            "name": "ColorSidebarFeatureSelectedBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "selected",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "selected",
+              "background"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#92a2a9",
+            "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.secondary-blue.400.value}"
+            },
+            "name": "ColorSidebarFeatureDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "disabled",
+              "background"
+            ]
+          }
+        }
+      },
+      "user": {
+        "background": {
+          "value": "#264653",
+          "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.800.value}"
+          },
+          "name": "ColorSidebarUserBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "user",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "user",
+            "background"
+          ]
+        }
+      },
+      "divider": {
+        "background": {
+          "value": "#5b737d",
+          "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.600.value}"
+          },
+          "name": "ColorSidebarDividerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "divider",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "divider",
+            "background"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorSidebarIcon",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "icon"
+        ]
+      },
+      "text": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorSidebarTextBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorSidebarTextColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "color"
+          ]
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "#082435",
+          "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.900.value}"
+          },
+          "name": "ColorSidebarScrollBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#009eac",
+          "filePath": "packages/tokens/AdeoProperties/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.400.value}"
+          },
+          "name": "ColorSidebarScrollColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "color"
+          ]
+        }
+      }
+    },
+    "star": {
+      "empty": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorStarEmpty",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "empty"
+        },
+        "path": [
+          "color",
+          "star",
+          "empty"
+        ]
+      },
+      "focus": {
+        "value": "#758992",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-blue.500.value}"
+        },
+        "name": "ColorStarFocus",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "focus"
+        },
+        "path": [
+          "color",
+          "star",
+          "focus"
+        ]
+      },
+      "full": {
+        "value": "#ea7315",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
+        "original": {
+          "value": "#EA7315"
+        },
+        "name": "ColorStarFull",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "full"
+        },
+        "path": [
+          "color",
+          "star",
+          "full"
+        ]
+      },
+      "hover": {
+        "value": "#f4b27e",
+        "filePath": "packages/tokens/properties/color/star.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-orange.300.value}"
+        },
+        "name": "ColorStarHover",
+        "attributes": {
+          "category": "color",
+          "type": "star",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "star",
+          "hover"
+        ]
+      }
+    },
+    "stepper": {
+      "item": {
+        "background": {
+          "value": "#999999",
+          "filePath": "packages/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorStepperItemBackground",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "item",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "item",
+            "background"
+          ]
+        },
+        "current": {
+          "background": {
+            "value": "#00919f",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperItemCurrentBackground",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "item",
+              "subitem": "current",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "item",
+              "current",
+              "background"
+            ]
+          }
+        }
+      },
+      "link": {
+        "hover": {
+          "text": {
+            "value": "#00919f",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperLinkHoverText",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "link",
+              "subitem": "hover",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "link",
+              "hover",
+              "text"
+            ]
+          }
+        }
+      },
+      "indicator": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorStepperIndicatorBackground",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "indicator",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "indicator",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#999999",
+          "filePath": "packages/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorStepperIndicatorBorder",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "indicator",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "indicator",
+            "border"
+          ]
+        },
+        "current": {
+          "background": {
+            "value": "#00919f",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperIndicatorCurrentBackground",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "indicator",
+              "subitem": "current",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "indicator",
+              "current",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#00919f",
+            "filePath": "packages/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperIndicatorCurrentBorder",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "indicator",
+              "subitem": "current",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "indicator",
+              "current",
+              "border"
+            ]
+          }
+        }
+      },
+      "icon": {
+        "value": "#00919f",
+        "filePath": "packages/tokens/properties/color/stepper.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorStepperIcon",
+        "attributes": {
+          "category": "color",
+          "type": "stepper",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "stepper",
+          "icon"
+        ]
+      },
+      "title": {
+        "value": "#00919f",
+        "filePath": "packages/tokens/properties/color/stepper.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorStepperTitle",
+        "attributes": {
+          "category": "color",
+          "type": "stepper",
+          "item": "title"
+        },
+        "path": [
+          "color",
+          "stepper",
+          "title"
+        ]
+      }
+    },
+    "tabs": {
+      "background": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorTabsBackground",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "background"
+        ]
+      },
+      "shadow": {
+        "value": "#000000",
+        "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.999.value}"
+        },
+        "name": "ColorTabsShadow",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "shadow"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "shadow"
+        ]
+      },
+      "default": {
+        "value": "#666666",
+        "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorTabsDefault",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "default"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "default"
+        ]
+      },
+      "element": {
+        "background": {
+          "value": "#eeedea",
+          "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-sandgrey.100.value}"
+          },
+          "name": "ColorTabsElementBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "element",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "element",
+            "background"
+          ]
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "#eeedea",
+          "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-sandgrey.100.value}"
+          },
+          "name": "ColorTabsHoverBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "hover",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "hover",
+            "background"
+          ]
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "#cccccc",
+          "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorTabsDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "disabled",
+            "background"
+          ]
+        }
+      },
+      "active": {
+        "background": {
+          "value": "#dddcd5",
+          "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-sandgrey.200.value}"
+          },
+          "name": "ColorTabsActiveBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "active",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "active",
+            "background"
+          ]
+        },
+        "text": {
+          "value": "#4d4d4d",
+          "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.700.value}"
+          },
+          "name": "ColorTabsActiveText",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "active",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "active",
+            "text"
+          ]
+        }
+      },
+      "selected": {
+        "border": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorTabsSelectedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "selected",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "selected",
+            "border"
+          ]
+        },
+        "text": {
+          "value": "#007f8c",
+          "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.600.value}"
+          },
+          "name": "ColorTabsSelectedText",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "selected",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "selected",
+            "text"
+          ]
+        },
+        "active": {
+          "text": {
+            "value": "#006974",
+            "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorTabsSelectedActiveText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "active",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "active",
+              "text"
+            ]
+          }
+        },
+        "hover": {
+          "text": {
+            "value": "#006974",
+            "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.700.value}"
+            },
+            "name": "ColorTabsSelectedHoverText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "hover",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "hover",
+              "text"
+            ]
+          }
+        }
+      },
+      "active-disabled": {
+        "value": "#91d5db",
+        "filePath": "packages/tokens/AdeoProperties/color/tabs.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.200.value}"
+        },
+        "name": "ColorTabsActiveDisabled",
+        "attributes": {
+          "category": "color",
+          "type": "tabs",
+          "item": "active-disabled"
+        },
+        "path": [
+          "color",
+          "tabs",
+          "active-disabled"
+        ]
+      }
+    },
+    "tag": {
+      "text": {
+        "light": {
+          "background": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagTextLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "light",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "light",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#808080",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.500.value}"
+            },
+            "name": "ColorTagTextLightBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "light",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "light",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorTagTextLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "light",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "light",
+              "text"
+            ]
+          }
+        },
+        "dark": {
+          "background": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorTagTextDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "dark",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "dark",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagTextDarkBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "dark",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "dark",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagTextDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "text",
+              "subitem": "dark",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "text",
+              "dark",
+              "text"
+            ]
+          }
+        }
+      },
+      "link": {
+        "light": {
+          "background": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
+            },
+            "name": "ColorTagLinkLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "light",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "light",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#808080",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.500.value}"
+            },
+            "name": "ColorTagLinkLightBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "light",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "light",
+              "border"
+            ]
+          },
+          "text": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
+            },
+            "name": "ColorTagLinkLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "light",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "light",
+              "text"
+            ]
+          },
+          "hover": {
+            "background": {
+              "value": "#e6e6e6",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.100.value}"
               },
-              name: 'ColorTagLinkLightHoverBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'link',
-                subitem: 'light',
-                state: 'hover',
+              "name": "ColorTagLinkLightHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "light",
+                "state": "hover"
               },
-              path: ['color', 'tag', 'link', 'light', 'hover', 'background'],
-            },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "light",
+                "hover",
+                "background"
+              ]
+            }
           },
-          active: {
-            background: {
-              value: '#cccccc',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.200.value}',
+          "active": {
+            "background": {
+              "value": "#cccccc",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.200.value}"
               },
-              name: 'ColorTagLinkLightActiveBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'link',
-                subitem: 'light',
-                state: 'active',
+              "name": "ColorTagLinkLightActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "light",
+                "state": "active"
               },
-              path: ['color', 'tag', 'link', 'light', 'active', 'background'],
-            },
-          },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "light",
+                "active",
+                "background"
+              ]
+            }
+          }
         },
-        dark: {
-          background: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
+        "dark": {
+          "background": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
             },
-            name: 'ColorTagLinkDarkBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'link',
-              subitem: 'dark',
-              state: 'background',
+            "name": "ColorTagLinkDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "dark",
+              "state": "background"
             },
-            path: ['color', 'tag', 'link', 'dark', 'background'],
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "dark",
+              "background"
+            ]
           },
-          border: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
+          "border": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
             },
-            name: 'ColorTagLinkDarkBorder',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'link',
-              subitem: 'dark',
-              state: 'border',
+            "name": "ColorTagLinkDarkBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "dark",
+              "state": "border"
             },
-            path: ['color', 'tag', 'link', 'dark', 'border'],
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "dark",
+              "border"
+            ]
           },
-          text: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
+          "text": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
             },
-            name: 'ColorTagLinkDarkText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'link',
-              subitem: 'dark',
-              state: 'text',
+            "name": "ColorTagLinkDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "link",
+              "subitem": "dark",
+              "state": "text"
             },
-            path: ['color', 'tag', 'link', 'dark', 'text'],
+            "path": [
+              "color",
+              "tag",
+              "link",
+              "dark",
+              "text"
+            ]
           },
-          hover: {
-            background: {
-              value: '#333333',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.800.value}',
+          "hover": {
+            "background": {
+              "value": "#333333",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.800.value}"
               },
-              name: 'ColorTagLinkDarkHoverBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'link',
-                subitem: 'dark',
-                state: 'hover',
+              "name": "ColorTagLinkDarkHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "dark",
+                "state": "hover"
               },
-              path: ['color', 'tag', 'link', 'dark', 'hover', 'background'],
-            },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "dark",
+                "hover",
+                "background"
+              ]
+            }
           },
-          active: {
-            background: {
-              value: '#4d4d4d',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.700.value}',
+          "active": {
+            "background": {
+              "value": "#4d4d4d",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.700.value}"
               },
-              name: 'ColorTagLinkDarkActiveBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'link',
-                subitem: 'dark',
-                state: 'active',
+              "name": "ColorTagLinkDarkActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "link",
+                "subitem": "dark",
+                "state": "active"
               },
-              path: ['color', 'tag', 'link', 'dark', 'active', 'background'],
-            },
-          },
-        },
+              "path": [
+                "color",
+                "tag",
+                "link",
+                "dark",
+                "active",
+                "background"
+              ]
+            }
+          }
+        }
       },
-      selectable: {
-        light: {
-          background: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
+      "selectable": {
+        "light": {
+          "background": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
             },
-            name: 'ColorTagSelectableLightBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'selectable',
-              subitem: 'light',
-              state: 'background',
+            "name": "ColorTagSelectableLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "light",
+              "state": "background"
             },
-            path: ['color', 'tag', 'selectable', 'light', 'background'],
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "light",
+              "background"
+            ]
           },
-          border: {
-            value: '#808080',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.500.value}',
+          "border": {
+            "value": "#808080",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.500.value}"
             },
-            name: 'ColorTagSelectableLightBorder',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'selectable',
-              subitem: 'light',
-              state: 'border',
+            "name": "ColorTagSelectableLightBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "light",
+              "state": "border"
             },
-            path: ['color', 'tag', 'selectable', 'light', 'border'],
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "light",
+              "border"
+            ]
           },
-          text: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
+          "text": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
             },
-            name: 'ColorTagSelectableLightText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'selectable',
-              subitem: 'light',
-              state: 'text',
+            "name": "ColorTagSelectableLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "light",
+              "state": "text"
             },
-            path: ['color', 'tag', 'selectable', 'light', 'text'],
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "light",
+              "text"
+            ]
           },
-          hover: {
-            background: {
-              value: '#48bac4',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.300.value}',
+          "hover": {
+            "background": {
+              "value": "#48bac4",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.300.value}"
               },
-              name: 'ColorTagSelectableLightHoverBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'hover',
+              "name": "ColorTagSelectableLightHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "hover"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'light',
-                'hover',
-                'background',
-              ],
-            },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "hover",
+                "background"
+              ]
+            }
           },
-          active: {
-            background: {
-              value: '#004e57',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.800.value}',
+          "active": {
+            "background": {
+              "value": "#004e57",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.800.value}"
               },
-              name: 'ColorTagSelectableLightActiveBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'active',
+              "name": "ColorTagSelectableLightActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "active"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'light',
-                'active',
-                'background',
-              ],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "active",
+                "background"
+              ]
             },
-            border: {
-              value: '#004e57',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.800.value}',
+            "border": {
+              "value": "#004e57",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.800.value}"
               },
-              name: 'ColorTagSelectableLightActiveBorder',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'active',
+              "name": "ColorTagSelectableLightActiveBorder",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "active"
               },
-              path: ['color', 'tag', 'selectable', 'light', 'active', 'border'],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "active",
+                "border"
+              ]
             },
-            text: {
-              value: '#ffffff',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.000.value}',
+            "text": {
+              "value": "#ffffff",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.000.value}"
               },
-              name: 'ColorTagSelectableLightActiveText',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'active',
+              "name": "ColorTagSelectableLightActiveText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "active"
               },
-              path: ['color', 'tag', 'selectable', 'light', 'active', 'text'],
-            },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "active",
+                "text"
+              ]
+            }
           },
-          disabled: {
-            background: {
-              value: '#e6e6e6',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.100.value}',
+          "disabled": {
+            "background": {
+              "value": "#e6e6e6",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.100.value}"
               },
-              name: 'ColorTagSelectableLightDisabledBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'disabled',
+              "name": "ColorTagSelectableLightDisabledBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "disabled"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'light',
-                'disabled',
-                'background',
-              ],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "disabled",
+                "background"
+              ]
             },
-            text: {
-              value: '#808080',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.500.value}',
+            "text": {
+              "value": "#808080",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.500.value}"
               },
-              name: 'ColorTagSelectableLightDisabledText',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'disabled',
+              "name": "ColorTagSelectableLightDisabledText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "disabled"
               },
-              path: ['color', 'tag', 'selectable', 'light', 'disabled', 'text'],
-            },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "disabled",
+                "text"
+              ]
+            }
           },
-          selected: {
-            background: {
-              value: '#007f8c',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.600.value}',
+          "selected": {
+            "background": {
+              "value": "#007f8c",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.600.value}"
               },
-              name: 'ColorTagSelectableLightSelectedBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'selected',
+              "name": "ColorTagSelectableLightSelectedBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "selected"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'light',
-                'selected',
-                'background',
-              ],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "selected",
+                "background"
+              ]
             },
-            text: {
-              value: '#ffffff',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.000.value}',
+            "text": {
+              "value": "#ffffff",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.000.value}"
               },
-              name: 'ColorTagSelectableLightSelectedText',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'light',
-                state: 'selected',
+              "name": "ColorTagSelectableLightSelectedText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "light",
+                "state": "selected"
               },
-              path: ['color', 'tag', 'selectable', 'light', 'selected', 'text'],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "light",
+                "selected",
+                "text"
+              ]
             },
-            hover: {
-              background: {
-                value: '#006974',
-                filePath: 'packages/tokens/properties/color/tag.json',
-                isSource: true,
-                original: {
-                  value: '{color.primary-01.700.value}',
+            "hover": {
+              "background": {
+                "value": "#006974",
+                "filePath": "packages/tokens/properties/color/tag.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.primary-01.700.value}"
                 },
-                name: 'ColorTagSelectableLightSelectedHoverBackground',
-                attributes: {
-                  category: 'color',
-                  type: 'tag',
-                  item: 'selectable',
-                  subitem: 'light',
-                  state: 'selected',
+                "name": "ColorTagSelectableLightSelectedHoverBackground",
+                "attributes": {
+                  "category": "color",
+                  "type": "tag",
+                  "item": "selectable",
+                  "subitem": "light",
+                  "state": "selected"
                 },
-                path: [
-                  'color',
-                  'tag',
-                  'selectable',
-                  'light',
-                  'selected',
-                  'hover',
-                  'background',
-                ],
-              },
-            },
-          },
+                "path": [
+                  "color",
+                  "tag",
+                  "selectable",
+                  "light",
+                  "selected",
+                  "hover",
+                  "background"
+                ]
+              }
+            }
+          }
         },
-        dark: {
-          background: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
+        "dark": {
+          "background": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
             },
-            name: 'ColorTagSelectableDarkBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'selectable',
-              subitem: 'dark',
-              state: 'background',
+            "name": "ColorTagSelectableDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "dark",
+              "state": "background"
             },
-            path: ['color', 'tag', 'selectable', 'dark', 'background'],
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "dark",
+              "background"
+            ]
           },
-          border: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
+          "border": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
             },
-            name: 'ColorTagSelectableDarkBorder',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'selectable',
-              subitem: 'dark',
-              state: 'border',
+            "name": "ColorTagSelectableDarkBorder",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "dark",
+              "state": "border"
             },
-            path: ['color', 'tag', 'selectable', 'dark', 'border'],
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "dark",
+              "border"
+            ]
           },
-          text: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
+          "text": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
             },
-            name: 'ColorTagSelectableDarkText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'selectable',
-              subitem: 'dark',
-              state: 'text',
+            "name": "ColorTagSelectableDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "selectable",
+              "subitem": "dark",
+              "state": "text"
             },
-            path: ['color', 'tag', 'selectable', 'dark', 'text'],
+            "path": [
+              "color",
+              "tag",
+              "selectable",
+              "dark",
+              "text"
+            ]
           },
-          hover: {
-            background: {
-              value: '#006974',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.700.value}',
+          "hover": {
+            "background": {
+              "value": "#006974",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.700.value}"
               },
-              name: 'ColorTagSelectableDarkHoverBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'hover',
+              "name": "ColorTagSelectableDarkHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "hover"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'dark',
-                'hover',
-                'background',
-              ],
-            },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "hover",
+                "background"
+              ]
+            }
           },
-          active: {
-            background: {
-              value: '#91d5db',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.200.value}',
+          "active": {
+            "background": {
+              "value": "#91d5db",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.200.value}"
               },
-              name: 'ColorTagSelectableDarkActiveBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'active',
+              "name": "ColorTagSelectableDarkActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "active"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'dark',
-                'active',
-                'background',
-              ],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "active",
+                "background"
+              ]
             },
-            border: {
-              value: '#91d5db',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.200.value}',
+            "border": {
+              "value": "#91d5db",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.200.value}"
               },
-              name: 'ColorTagSelectableDarkActiveBorder',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'active',
+              "name": "ColorTagSelectableDarkActiveBorder",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "active"
               },
-              path: ['color', 'tag', 'selectable', 'dark', 'active', 'border'],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "active",
+                "border"
+              ]
             },
-            text: {
-              value: '#191919',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.900.value}',
+            "text": {
+              "value": "#191919",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.900.value}"
               },
-              name: 'ColorTagSelectableDarkActiveText',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'active',
+              "name": "ColorTagSelectableDarkActiveText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "active"
               },
-              path: ['color', 'tag', 'selectable', 'dark', 'active', 'text'],
-            },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "active",
+                "text"
+              ]
+            }
           },
-          selected: {
-            background: {
-              value: '#009eac',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.400.value}',
+          "selected": {
+            "background": {
+              "value": "#009eac",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.400.value}"
               },
-              name: 'ColorTagSelectableDarkSelectedBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'selected',
+              "name": "ColorTagSelectableDarkSelectedBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "selected"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'dark',
-                'selected',
-                'background',
-              ],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "selected",
+                "background"
+              ]
             },
-            border: {
-              value: '#009eac',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.primary-01.400.value}',
+            "border": {
+              "value": "#009eac",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.primary-01.400.value}"
               },
-              name: 'ColorTagSelectableDarkSelectedBorder',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'selected',
+              "name": "ColorTagSelectableDarkSelectedBorder",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "selected"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'dark',
-                'selected',
-                'border',
-              ],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "selected",
+                "border"
+              ]
             },
-            text: {
-              value: '#191919',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.900.value}',
+            "text": {
+              "value": "#191919",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.900.value}"
               },
-              name: 'ColorTagSelectableDarkSelectedText',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'selected',
+              "name": "ColorTagSelectableDarkSelectedText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "selected"
               },
-              path: ['color', 'tag', 'selectable', 'dark', 'selected', 'text'],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "selected",
+                "text"
+              ]
             },
-            hover: {
-              background: {
-                value: '#48bac4',
-                filePath: 'packages/tokens/properties/color/tag.json',
-                isSource: true,
-                original: {
-                  value: '{color.primary-01.300.value}',
+            "hover": {
+              "background": {
+                "value": "#48bac4",
+                "filePath": "packages/tokens/properties/color/tag.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.primary-01.300.value}"
                 },
-                name: 'ColorTagSelectableDarkSelectedHoverBackground',
-                attributes: {
-                  category: 'color',
-                  type: 'tag',
-                  item: 'selectable',
-                  subitem: 'dark',
-                  state: 'selected',
+                "name": "ColorTagSelectableDarkSelectedHoverBackground",
+                "attributes": {
+                  "category": "color",
+                  "type": "tag",
+                  "item": "selectable",
+                  "subitem": "dark",
+                  "state": "selected"
                 },
-                path: [
-                  'color',
-                  'tag',
-                  'selectable',
-                  'dark',
-                  'selected',
-                  'hover',
-                  'background',
-                ],
-              },
-            },
+                "path": [
+                  "color",
+                  "tag",
+                  "selectable",
+                  "dark",
+                  "selected",
+                  "hover",
+                  "background"
+                ]
+              }
+            }
           },
-          disabled: {
-            background: {
-              value: '#4d4d4d',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.700.value}',
+          "disabled": {
+            "background": {
+              "value": "#4d4d4d",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.700.value}"
               },
-              name: 'ColorTagSelectableDarkDisabledBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'disabled',
+              "name": "ColorTagSelectableDarkDisabledBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "disabled"
               },
-              path: [
-                'color',
-                'tag',
-                'selectable',
-                'dark',
-                'disabled',
-                'background',
-              ],
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "disabled",
+                "background"
+              ]
             },
-            text: {
-              value: '#808080',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.500.value}',
+            "text": {
+              "value": "#808080",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.500.value}"
               },
-              name: 'ColorTagSelectableDarkDisabledText',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'selectable',
-                subitem: 'dark',
-                state: 'disabled',
+              "name": "ColorTagSelectableDarkDisabledText",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "selectable",
+                "subitem": "dark",
+                "state": "disabled"
               },
-              path: ['color', 'tag', 'selectable', 'dark', 'disabled', 'text'],
-            },
-          },
-        },
+              "path": [
+                "color",
+                "tag",
+                "selectable",
+                "dark",
+                "disabled",
+                "text"
+              ]
+            }
+          }
+        }
       },
-      removable: {
-        light: {
-          background: {
-            value: '#333333',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.800.value}',
+      "removable": {
+        "light": {
+          "background": {
+            "value": "#333333",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
             },
-            name: 'ColorTagRemovableLightBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'removable',
-              subitem: 'light',
-              state: 'background',
+            "name": "ColorTagRemovableLightBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "light",
+              "state": "background"
             },
-            path: ['color', 'tag', 'removable', 'light', 'background'],
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "light",
+              "background"
+            ]
           },
-          text: {
-            value: '#ffffff',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.000.value}',
+          "text": {
+            "value": "#ffffff",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.000.value}"
             },
-            name: 'ColorTagRemovableLightText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'removable',
-              subitem: 'light',
-              state: 'text',
+            "name": "ColorTagRemovableLightText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "light",
+              "state": "text"
             },
-            path: ['color', 'tag', 'removable', 'light', 'text'],
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "light",
+              "text"
+            ]
           },
-          icon: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
+          "icon": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
             },
-            name: 'ColorTagRemovableLightIcon',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'removable',
-              subitem: 'light',
-              state: 'icon',
+            "name": "ColorTagRemovableLightIcon",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "light",
+              "state": "icon"
             },
-            path: ['color', 'tag', 'removable', 'light', 'icon'],
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "light",
+              "icon"
+            ]
           },
-          hover: {
-            background: {
-              value: '#4d4d4d',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.700.value}',
+          "hover": {
+            "background": {
+              "value": "#4d4d4d",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.700.value}"
               },
-              name: 'ColorTagRemovableLightHoverBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'removable',
-                subitem: 'light',
-                state: 'hover',
+              "name": "ColorTagRemovableLightHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "light",
+                "state": "hover"
               },
-              path: [
-                'color',
-                'tag',
-                'removable',
-                'light',
-                'hover',
-                'background',
-              ],
-            },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "light",
+                "hover",
+                "background"
+              ]
+            }
           },
-          active: {
-            background: {
-              value: '#666666',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.600.value}',
+          "active": {
+            "background": {
+              "value": "#666666",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.600.value}"
               },
-              name: 'ColorTagRemovableLightActiveBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'removable',
-                subitem: 'light',
-                state: 'active',
+              "name": "ColorTagRemovableLightActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "light",
+                "state": "active"
               },
-              path: [
-                'color',
-                'tag',
-                'removable',
-                'light',
-                'active',
-                'background',
-              ],
-            },
-          },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "light",
+                "active",
+                "background"
+              ]
+            }
+          }
         },
-        dark: {
-          background: {
-            value: '#cccccc',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.200.value}',
+        "dark": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
             },
-            name: 'ColorTagRemovableDarkBackground',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'removable',
-              subitem: 'dark',
-              state: 'background',
+            "name": "ColorTagRemovableDarkBackground",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "dark",
+              "state": "background"
             },
-            path: ['color', 'tag', 'removable', 'dark', 'background'],
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "dark",
+              "background"
+            ]
           },
-          text: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
+          "text": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
             },
-            name: 'ColorTagRemovableDarkText',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'removable',
-              subitem: 'dark',
-              state: 'text',
+            "name": "ColorTagRemovableDarkText",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "dark",
+              "state": "text"
             },
-            path: ['color', 'tag', 'removable', 'dark', 'text'],
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "dark",
+              "text"
+            ]
           },
-          icon: {
-            value: '#191919',
-            filePath: 'packages/tokens/properties/color/tag.json',
-            isSource: true,
-            original: {
-              value: '{color.grey.900.value}',
+          "icon": {
+            "value": "#191919",
+            "filePath": "packages/tokens/properties/color/tag.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.900.value}"
             },
-            name: 'ColorTagRemovableDarkIcon',
-            attributes: {
-              category: 'color',
-              type: 'tag',
-              item: 'removable',
-              subitem: 'dark',
-              state: 'icon',
+            "name": "ColorTagRemovableDarkIcon",
+            "attributes": {
+              "category": "color",
+              "type": "tag",
+              "item": "removable",
+              "subitem": "dark",
+              "state": "icon"
             },
-            path: ['color', 'tag', 'removable', 'dark', 'icon'],
+            "path": [
+              "color",
+              "tag",
+              "removable",
+              "dark",
+              "icon"
+            ]
           },
-          hover: {
-            background: {
-              value: '#b3b3b3',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.300.value}',
+          "hover": {
+            "background": {
+              "value": "#b3b3b3",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.300.value}"
               },
-              name: 'ColorTagRemovableDarkHoverBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'removable',
-                subitem: 'dark',
-                state: 'hover',
+              "name": "ColorTagRemovableDarkHoverBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "dark",
+                "state": "hover"
               },
-              path: [
-                'color',
-                'tag',
-                'removable',
-                'dark',
-                'hover',
-                'background',
-              ],
-            },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "dark",
+                "hover",
+                "background"
+              ]
+            }
           },
-          active: {
-            background: {
-              value: '#999999',
-              filePath: 'packages/tokens/properties/color/tag.json',
-              isSource: true,
-              original: {
-                value: '{color.grey.400.value}',
+          "active": {
+            "background": {
+              "value": "#999999",
+              "filePath": "packages/tokens/properties/color/tag.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.grey.400.value}"
               },
-              name: 'ColorTagRemovableDarkActiveBackground',
-              attributes: {
-                category: 'color',
-                type: 'tag',
-                item: 'removable',
-                subitem: 'dark',
-                state: 'active',
+              "name": "ColorTagRemovableDarkActiveBackground",
+              "attributes": {
+                "category": "color",
+                "type": "tag",
+                "item": "removable",
+                "subitem": "dark",
+                "state": "active"
               },
-              path: [
-                'color',
-                'tag',
-                'removable',
-                'dark',
-                'active',
-                'background',
-              ],
-            },
-          },
-        },
-      },
+              "path": [
+                "color",
+                "tag",
+                "removable",
+                "dark",
+                "active",
+                "background"
+              ]
+            }
+          }
+        }
+      }
     },
-    toggle: {
-      off: {
-        background: {
-          value: '#666666',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.600.value}',
-          },
-          name: 'ColorToggleOffBackground',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'off',
-            subitem: 'background',
-          },
-          path: ['color', 'toggle', 'off', 'background'],
+    "toggle": {
+      "label": {
+        "value": "#000000",
+        "filePath": "packages/tokens/properties/color/toggle.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.999.value}"
         },
-        circle: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
-          },
-          name: 'ColorToggleOffCircle',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'off',
-            subitem: 'circle',
-          },
-          path: ['color', 'toggle', 'off', 'circle'],
+        "name": "ColorToggleLabel",
+        "attributes": {
+          "category": "color",
+          "type": "toggle",
+          "item": "label"
         },
+        "path": [
+          "color",
+          "toggle",
+          "label"
+        ]
       },
-      on: {
-        background: {
-          value: '#00919f',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.500.value}',
+      "off": {
+        "background": {
+          "value": "#666666",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
           },
-          name: 'ColorToggleOnBackground',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'on',
-            subitem: 'background',
+          "name": "ColorToggleOffBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "off",
+            "subitem": "background"
           },
-          path: ['color', 'toggle', 'on', 'background'],
+          "path": [
+            "color",
+            "toggle",
+            "off",
+            "background"
+          ]
         },
-        circle: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
+        "circle": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
           },
-          name: 'ColorToggleOnCircle',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'on',
-            subitem: 'circle',
+          "name": "ColorToggleOffCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "off",
+            "subitem": "circle"
           },
-          path: ['color', 'toggle', 'on', 'circle'],
-        },
+          "path": [
+            "color",
+            "toggle",
+            "off",
+            "circle"
+          ]
+        }
       },
-      hover: {
-        circle: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
+      "on": {
+        "background": {
+          "value": "#00919f",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
           },
-          name: 'ColorToggleHoverCircle',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'hover',
-            subitem: 'circle',
+          "name": "ColorToggleOnBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "on",
+            "subitem": "background"
           },
-          path: ['color', 'toggle', 'hover', 'circle'],
+          "path": [
+            "color",
+            "toggle",
+            "on",
+            "background"
+          ]
         },
+        "circle": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorToggleOnCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "on",
+            "subitem": "circle"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "on",
+            "circle"
+          ]
+        }
       },
-      disabled: {
-        background: {
-          value: '#e6e6e6',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.100.value}',
+      "hover": {
+        "circle": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
           },
-          name: 'ColorToggleDisabledBackground',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'disabled',
-            subitem: 'background',
+          "name": "ColorToggleHoverCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "hover",
+            "subitem": "circle"
           },
-          path: ['color', 'toggle', 'disabled', 'background'],
-        },
-        circle: {
-          value: '#b3b3b3',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.300.value}',
-          },
-          name: 'ColorToggleDisabledCircle',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'disabled',
-            subitem: 'circle',
-          },
-          path: ['color', 'toggle', 'disabled', 'circle'],
-        },
+          "path": [
+            "color",
+            "toggle",
+            "hover",
+            "circle"
+          ]
+        }
       },
-      'disabled-checked': {
-        background: {
-          value: '#91d5db',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.primary-01.200.value}',
+      "disabled": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
           },
-          name: 'ColorToggleDisabledCheckedBackground',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'disabled-checked',
-            subitem: 'background',
+          "name": "ColorToggleDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled",
+            "subitem": "background"
           },
-          path: ['color', 'toggle', 'disabled-checked', 'background'],
+          "path": [
+            "color",
+            "toggle",
+            "disabled",
+            "background"
+          ]
         },
-        circle: {
-          value: '#ffffff',
-          filePath: 'packages/tokens/properties/color/toggle.json',
-          isSource: true,
-          original: {
-            value: '{color.grey.000.value}',
+        "circle": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
           },
-          name: 'ColorToggleDisabledCheckedCircle',
-          attributes: {
-            category: 'color',
-            type: 'toggle',
-            item: 'disabled-checked',
-            subitem: 'circle',
+          "name": "ColorToggleDisabledCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled",
+            "subitem": "circle"
           },
-          path: ['color', 'toggle', 'disabled-checked', 'circle'],
+          "path": [
+            "color",
+            "toggle",
+            "disabled",
+            "circle"
+          ]
         },
+        "label": {
+          "value": "#808080",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorToggleDisabledLabel",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled",
+            "subitem": "label"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled",
+            "label"
+          ]
+        }
       },
+      "disabled-checked": {
+        "background": {
+          "value": "#91d5db",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.200.value}"
+          },
+          "name": "ColorToggleDisabledCheckedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled-checked",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled-checked",
+            "background"
+          ]
+        },
+        "circle": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorToggleDisabledCheckedCircle",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "disabled-checked",
+            "subitem": "circle"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "disabled-checked",
+            "circle"
+          ]
+        }
+      }
     },
-    'secondary-sandgrey': {
-      100: {
-        value: '#eeedea',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#EEEDEA',
+    "tooltip": {
+      "background": {
+        "value": "#5b737d",
+        "filePath": "packages/tokens/AdeoProperties/color/tooltip.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.secondary-blue.600.value}"
         },
-        name: 'ColorSecondarySandgrey100',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '100',
+        "name": "ColorTooltipBackground",
+        "attributes": {
+          "category": "color",
+          "type": "tooltip",
+          "item": "background"
         },
-        path: ['color', 'secondary-sandgrey', '100'],
+        "path": [
+          "color",
+          "tooltip",
+          "background"
+        ]
       },
-      200: {
-        value: '#dddcd5',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#DDDCD5',
+      "border": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/AdeoProperties/color/tooltip.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
         },
-        name: 'ColorSecondarySandgrey200',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '200',
+        "name": "ColorTooltipBorder",
+        "attributes": {
+          "category": "color",
+          "type": "tooltip",
+          "item": "border"
         },
-        path: ['color', 'secondary-sandgrey', '200'],
-      },
-      300: {
-        value: '#c2c1ba',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#C2C1BA',
-        },
-        name: 'ColorSecondarySandgrey300',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '300',
-        },
-        path: ['color', 'secondary-sandgrey', '300'],
-      },
-      400: {
-        value: '#a7a6a0',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#A7A6A0',
-        },
-        name: 'ColorSecondarySandgrey400',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '400',
-        },
-        path: ['color', 'secondary-sandgrey', '400'],
-      },
-      500: {
-        value: '#8c8b85',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#8C8B85',
-        },
-        name: 'ColorSecondarySandgrey500',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '500',
-        },
-        path: ['color', 'secondary-sandgrey', '500'],
-      },
-      600: {
-        value: '#71706b',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#71706B',
-        },
-        name: 'ColorSecondarySandgrey600',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '600',
-        },
-        path: ['color', 'secondary-sandgrey', '600'],
-      },
-      700: {
-        value: '#555550',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#555550',
-        },
-        name: 'ColorSecondarySandgrey700',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '700',
-        },
-        path: ['color', 'secondary-sandgrey', '700'],
-      },
-      800: {
-        value: '#3a3936',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#3A3936',
-        },
-        name: 'ColorSecondarySandgrey800',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '800',
-        },
-        path: ['color', 'secondary-sandgrey', '800'],
-      },
-      900: {
-        value: '#1e1e1c',
-        filePath: 'packages/tokens/AdeoProperties/color/base.json',
-        isSource: true,
-        original: {
-          value: '#1E1E1C',
-        },
-        name: 'ColorSecondarySandgrey900',
-        attributes: {
-          category: 'color',
-          type: 'secondary-sandgrey',
-          item: '900',
-        },
-        path: ['color', 'secondary-sandgrey', '900'],
-      },
+        "path": [
+          "color",
+          "tooltip",
+          "border"
+        ]
+      }
     },
+    "secondary-sandgrey": {
+      "100": {
+        "value": "#eeedea",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EEEDEA"
+        },
+        "name": "ColorSecondarySandgrey100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#dddcd5",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#DDDCD5"
+        },
+        "name": "ColorSecondarySandgrey200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#c2c1ba",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C2C1BA"
+        },
+        "name": "ColorSecondarySandgrey300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#a7a6a0",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#A7A6A0"
+        },
+        "name": "ColorSecondarySandgrey400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#8c8b85",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8C8B85"
+        },
+        "name": "ColorSecondarySandgrey500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#71706b",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#71706B"
+        },
+        "name": "ColorSecondarySandgrey600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#555550",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#555550"
+        },
+        "name": "ColorSecondarySandgrey700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#3a3936",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#3A3936"
+        },
+        "name": "ColorSecondarySandgrey800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#1e1e1c",
+        "filePath": "packages/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#1E1E1C"
+        },
+        "name": "ColorSecondarySandgrey900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "900"
+        ]
+      }
+    }
   },
-  preset: {
-    value: 'adeo',
-    filePath: 'packages/tokens/AdeoProperties/preset.json',
-    isSource: true,
-    original: {
-      value: 'adeo',
+  "preset": {
+    "value": "adeo",
+    "filePath": "packages/tokens/AdeoProperties/preset.json",
+    "isSource": true,
+    "original": {
+      "value": "adeo"
     },
-    name: 'Preset',
-    attributes: {
-      category: 'preset',
+    "name": "Preset",
+    "attributes": {
+      "category": "preset"
     },
-    path: ['preset'],
+    "path": [
+      "preset"
+    ]
   },
-  radius: {
-    s: {
-      value: 2,
-      filePath: 'packages/tokens/properties/radius/base.json',
-      isSource: true,
-      original: {
-        value: 2,
+  "radius": {
+    "s": {
+      "value": 2,
+      "filePath": "packages/tokens/properties/radius/base.json",
+      "isSource": true,
+      "original": {
+        "value": 2
       },
-      name: 'RadiusS',
-      attributes: {
-        category: 'radius',
-        type: 's',
+      "name": "RadiusS",
+      "attributes": {
+        "category": "radius",
+        "type": "s"
       },
-      path: ['radius', 's'],
+      "path": [
+        "radius",
+        "s"
+      ]
     },
-    m: {
-      value: 4,
-      filePath: 'packages/tokens/properties/radius/base.json',
-      isSource: true,
-      original: {
-        value: 4,
+    "m": {
+      "value": 4,
+      "filePath": "packages/tokens/properties/radius/base.json",
+      "isSource": true,
+      "original": {
+        "value": 4
       },
-      name: 'RadiusM',
-      attributes: {
-        category: 'radius',
-        type: 'm',
+      "name": "RadiusM",
+      "attributes": {
+        "category": "radius",
+        "type": "m"
       },
-      path: ['radius', 'm'],
+      "path": [
+        "radius",
+        "m"
+      ]
     },
-    l: {
-      value: 6,
-      filePath: 'packages/tokens/properties/radius/base.json',
-      isSource: true,
-      original: {
-        value: 6,
+    "l": {
+      "value": 6,
+      "filePath": "packages/tokens/properties/radius/base.json",
+      "isSource": true,
+      "original": {
+        "value": 6
       },
-      name: 'RadiusL',
-      attributes: {
-        category: 'radius',
-        type: 'l',
+      "name": "RadiusL",
+      "attributes": {
+        "category": "radius",
+        "type": "l"
       },
-      path: ['radius', 'l'],
-    },
+      "path": [
+        "radius",
+        "l"
+      ]
+    }
   },
-  shadow: {
-    s: {
-      x: {
-        value: '0px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0px',
+  "shadow": {
+    "s": {
+      "x": {
+        "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0px"
         },
-        name: 'ShadowSX',
-        attributes: {
-          category: 'shadow',
-          type: 's',
-          item: 'x',
+        "name": "ShadowSX",
+        "attributes": {
+          "category": "shadow",
+          "type": "s",
+          "item": "x"
         },
-        path: ['shadow', 's', 'x'],
+        "path": [
+          "shadow",
+          "s",
+          "x"
+        ]
       },
-      y: {
-        value: '1px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '1px',
+      "y": {
+        "value": "1px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "1px"
         },
-        name: 'ShadowSY',
-        attributes: {
-          category: 'shadow',
-          type: 's',
-          item: 'y',
+        "name": "ShadowSY",
+        "attributes": {
+          "category": "shadow",
+          "type": "s",
+          "item": "y"
         },
-        path: ['shadow', 's', 'y'],
+        "path": [
+          "shadow",
+          "s",
+          "y"
+        ]
       },
-      blur: {
-        value: '5px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '5px',
+      "blur": {
+        "value": "5px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "5px"
         },
-        name: 'ShadowSBlur',
-        attributes: {
-          category: 'shadow',
-          type: 's',
-          item: 'blur',
+        "name": "ShadowSBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "s",
+          "item": "blur"
         },
-        path: ['shadow', 's', 'blur'],
+        "path": [
+          "shadow",
+          "s",
+          "blur"
+        ]
       },
-      spread: {
-        value: '0px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0px',
+      "spread": {
+        "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0px"
         },
-        name: 'ShadowSSpread',
-        attributes: {
-          category: 'shadow',
-          type: 's',
-          item: 'spread',
+        "name": "ShadowSSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "s",
+          "item": "spread"
         },
-        path: ['shadow', 's', 'spread'],
+        "path": [
+          "shadow",
+          "s",
+          "spread"
+        ]
       },
-      opacity: {
-        value: '0.2',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0.2',
+      "opacity": {
+        "value": "0.2",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0.2"
         },
-        name: 'ShadowSOpacity',
-        attributes: {
-          category: 'shadow',
-          type: 's',
-          item: 'opacity',
+        "name": "ShadowSOpacity",
+        "attributes": {
+          "category": "shadow",
+          "type": "s",
+          "item": "opacity"
         },
-        path: ['shadow', 's', 'opacity'],
-      },
+        "path": [
+          "shadow",
+          "s",
+          "opacity"
+        ]
+      }
     },
-    m: {
-      x: {
-        value: '0px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0px',
+    "m": {
+      "x": {
+        "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0px"
         },
-        name: 'ShadowMX',
-        attributes: {
-          category: 'shadow',
-          type: 'm',
-          item: 'x',
+        "name": "ShadowMX",
+        "attributes": {
+          "category": "shadow",
+          "type": "m",
+          "item": "x"
         },
-        path: ['shadow', 'm', 'x'],
+        "path": [
+          "shadow",
+          "m",
+          "x"
+        ]
       },
-      y: {
-        value: '2px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '2px',
+      "y": {
+        "value": "2px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "2px"
         },
-        name: 'ShadowMY',
-        attributes: {
-          category: 'shadow',
-          type: 'm',
-          item: 'y',
+        "name": "ShadowMY",
+        "attributes": {
+          "category": "shadow",
+          "type": "m",
+          "item": "y"
         },
-        path: ['shadow', 'm', 'y'],
+        "path": [
+          "shadow",
+          "m",
+          "y"
+        ]
       },
-      blur: {
-        value: '10px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '10px',
+      "blur": {
+        "value": "10px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "10px"
         },
-        name: 'ShadowMBlur',
-        attributes: {
-          category: 'shadow',
-          type: 'm',
-          item: 'blur',
+        "name": "ShadowMBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "m",
+          "item": "blur"
         },
-        path: ['shadow', 'm', 'blur'],
+        "path": [
+          "shadow",
+          "m",
+          "blur"
+        ]
       },
-      spread: {
-        value: '0px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0px',
+      "spread": {
+        "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0px"
         },
-        name: 'ShadowMSpread',
-        attributes: {
-          category: 'shadow',
-          type: 'm',
-          item: 'spread',
+        "name": "ShadowMSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "m",
+          "item": "spread"
         },
-        path: ['shadow', 'm', 'spread'],
+        "path": [
+          "shadow",
+          "m",
+          "spread"
+        ]
       },
-      opacity: {
-        value: '0.2',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0.2',
+      "opacity": {
+        "value": "0.2",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0.2"
         },
-        name: 'ShadowMOpacity',
-        attributes: {
-          category: 'shadow',
-          type: 'm',
-          item: 'opacity',
+        "name": "ShadowMOpacity",
+        "attributes": {
+          "category": "shadow",
+          "type": "m",
+          "item": "opacity"
         },
-        path: ['shadow', 'm', 'opacity'],
-      },
+        "path": [
+          "shadow",
+          "m",
+          "opacity"
+        ]
+      }
     },
-    l: {
-      x: {
-        value: '0px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0px',
+    "l": {
+      "x": {
+        "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0px"
         },
-        name: 'ShadowLX',
-        attributes: {
-          category: 'shadow',
-          type: 'l',
-          item: 'x',
+        "name": "ShadowLX",
+        "attributes": {
+          "category": "shadow",
+          "type": "l",
+          "item": "x"
         },
-        path: ['shadow', 'l', 'x'],
+        "path": [
+          "shadow",
+          "l",
+          "x"
+        ]
       },
-      y: {
-        value: '4px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '4px',
+      "y": {
+        "value": "4px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "4px"
         },
-        name: 'ShadowLY',
-        attributes: {
-          category: 'shadow',
-          type: 'l',
-          item: 'y',
+        "name": "ShadowLY",
+        "attributes": {
+          "category": "shadow",
+          "type": "l",
+          "item": "y"
         },
-        path: ['shadow', 'l', 'y'],
+        "path": [
+          "shadow",
+          "l",
+          "y"
+        ]
       },
-      blur: {
-        value: '20px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '20px',
+      "blur": {
+        "value": "20px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "20px"
         },
-        name: 'ShadowLBlur',
-        attributes: {
-          category: 'shadow',
-          type: 'l',
-          item: 'blur',
+        "name": "ShadowLBlur",
+        "attributes": {
+          "category": "shadow",
+          "type": "l",
+          "item": "blur"
         },
-        path: ['shadow', 'l', 'blur'],
+        "path": [
+          "shadow",
+          "l",
+          "blur"
+        ]
       },
-      spread: {
-        value: '0px',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0px',
+      "spread": {
+        "value": "0px",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0px"
         },
-        name: 'ShadowLSpread',
-        attributes: {
-          category: 'shadow',
-          type: 'l',
-          item: 'spread',
+        "name": "ShadowLSpread",
+        "attributes": {
+          "category": "shadow",
+          "type": "l",
+          "item": "spread"
         },
-        path: ['shadow', 'l', 'spread'],
+        "path": [
+          "shadow",
+          "l",
+          "spread"
+        ]
       },
-      opacity: {
-        value: '0.2',
-        filePath: 'packages/tokens/properties/shadow/base.json',
-        isSource: true,
-        original: {
-          value: '0.2',
+      "opacity": {
+        "value": "0.2",
+        "filePath": "packages/tokens/properties/shadow/base.json",
+        "isSource": true,
+        "original": {
+          "value": "0.2"
         },
-        name: 'ShadowLOpacity',
-        attributes: {
-          category: 'shadow',
-          type: 'l',
-          item: 'opacity',
+        "name": "ShadowLOpacity",
+        "attributes": {
+          "category": "shadow",
+          "type": "l",
+          "item": "opacity"
         },
-        path: ['shadow', 'l', 'opacity'],
-      },
-    },
+        "path": [
+          "shadow",
+          "l",
+          "opacity"
+        ]
+      }
+    }
   },
-  'magic-unit': {
-    value: 1,
-    filePath: 'packages/tokens/properties/size/base.json',
-    isSource: true,
-    original: {
-      value: 1,
+  "magic-unit": {
+    "value": 1,
+    "filePath": "packages/tokens/properties/size/base.json",
+    "isSource": true,
+    "original": {
+      "value": 1
     },
-    name: 'MagicUnit',
-    attributes: {
-      category: 'magic-unit',
+    "name": "MagicUnit",
+    "attributes": {
+      "category": "magic-unit"
     },
-    path: ['magic-unit'],
+    "path": [
+      "magic-unit"
+    ]
   },
-  'local-rem-value': {
-    value: 16,
-    filePath: 'packages/tokens/properties/size/base.json',
-    isSource: true,
-    original: {
-      value: 16,
+  "local-rem-value": {
+    "value": 16,
+    "filePath": "packages/tokens/properties/size/base.json",
+    "isSource": true,
+    "original": {
+      "value": 16
     },
-    name: 'LocalRemValue',
-    attributes: {
-      category: 'local-rem-value',
+    "name": "LocalRemValue",
+    "attributes": {
+      "category": "local-rem-value"
     },
-    path: ['local-rem-value'],
+    "path": [
+      "local-rem-value"
+    ]
   },
-  size: {
-    font: {
-      10: {
-        value: '2.5625rem',
-        comment: '41px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 2.5625,
-          comment: '41px',
+  "size": {
+    "font": {
+      "10": {
+        "value": "2.5625rem",
+        "comment": "41px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 2.5625,
+          "comment": "41px"
         },
-        name: 'SizeFont10',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '10',
+        "name": "SizeFont10",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "10"
         },
-        path: ['size', 'font', '10'],
+        "path": [
+          "size",
+          "font",
+          "10"
+        ]
       },
-      11: {
-        value: '3.0625rem',
-        comment: '49px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 3.0625,
-          comment: '49px',
+      "11": {
+        "value": "3.0625rem",
+        "comment": "49px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 3.0625,
+          "comment": "49px"
         },
-        name: 'SizeFont11',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '11',
+        "name": "SizeFont11",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "11"
         },
-        path: ['size', 'font', '11'],
+        "path": [
+          "size",
+          "font",
+          "11"
+        ]
       },
-      12: {
-        value: '3.6875rem',
-        comment: '59px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 3.6875,
-          comment: '59px',
+      "12": {
+        "value": "3.6875rem",
+        "comment": "59px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 3.6875,
+          "comment": "59px"
         },
-        name: 'SizeFont12',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '12',
+        "name": "SizeFont12",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "12"
         },
-        path: ['size', 'font', '12'],
+        "path": [
+          "size",
+          "font",
+          "12"
+        ]
       },
-      '01': {
-        value: '0.6815rem',
-        comment: '11px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 0.6815,
-          comment: '11px',
+      "01": {
+        "value": "0.6815rem",
+        "comment": "11px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 0.6815,
+          "comment": "11px"
         },
-        name: 'SizeFont01',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '01',
+        "name": "SizeFont01",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "01"
         },
-        path: ['size', 'font', '01'],
+        "path": [
+          "size",
+          "font",
+          "01"
+        ]
       },
-      '02': {
-        value: '0.75rem',
-        comment: '12px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 0.75,
-          comment: '12px',
+      "02": {
+        "value": "0.75rem",
+        "comment": "12px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 0.75,
+          "comment": "12px"
         },
-        name: 'SizeFont02',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '02',
+        "name": "SizeFont02",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "02"
         },
-        path: ['size', 'font', '02'],
+        "path": [
+          "size",
+          "font",
+          "02"
+        ]
       },
-      '03': {
-        value: '0.8125rem',
-        comment: '13px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 0.8125,
-          comment: '13px',
+      "03": {
+        "value": "0.8125rem",
+        "comment": "13px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 0.8125,
+          "comment": "13px"
         },
-        name: 'SizeFont03',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '03',
+        "name": "SizeFont03",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "03"
         },
-        path: ['size', 'font', '03'],
+        "path": [
+          "size",
+          "font",
+          "03"
+        ]
       },
-      '04': {
-        value: '0.875rem',
-        comment: '14px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 0.875,
-          comment: '14px',
+      "04": {
+        "value": "0.875rem",
+        "comment": "14px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 0.875,
+          "comment": "14px"
         },
-        name: 'SizeFont04',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '04',
+        "name": "SizeFont04",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "04"
         },
-        path: ['size', 'font', '04'],
+        "path": [
+          "size",
+          "font",
+          "04"
+        ]
       },
-      '05': {
-        value: '1rem',
-        comment: '16px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 1,
-          comment: '16px',
+      "05": {
+        "value": "1rem",
+        "comment": "16px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 1,
+          "comment": "16px"
         },
-        name: 'SizeFont05',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '05',
+        "name": "SizeFont05",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "05"
         },
-        path: ['size', 'font', '05'],
+        "path": [
+          "size",
+          "font",
+          "05"
+        ]
       },
-      '06': {
-        value: '1.125rem',
-        comment: '18px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 1.125,
-          comment: '18px',
+      "06": {
+        "value": "1.125rem",
+        "comment": "18px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 1.125,
+          "comment": "18px"
         },
-        name: 'SizeFont06',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '06',
+        "name": "SizeFont06",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "06"
         },
-        path: ['size', 'font', '06'],
+        "path": [
+          "size",
+          "font",
+          "06"
+        ]
       },
-      '07': {
-        value: '1.4375rem',
-        comment: '23px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 1.4375,
-          comment: '23px',
+      "07": {
+        "value": "1.4375rem",
+        "comment": "23px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 1.4375,
+          "comment": "23px"
         },
-        name: 'SizeFont07',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '07',
+        "name": "SizeFont07",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "07"
         },
-        path: ['size', 'font', '07'],
+        "path": [
+          "size",
+          "font",
+          "07"
+        ]
       },
-      '08': {
-        value: '1.75rem',
-        comment: '28px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 1.75,
-          comment: '28px',
+      "08": {
+        "value": "1.75rem",
+        "comment": "28px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 1.75,
+          "comment": "28px"
         },
-        name: 'SizeFont08',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '08',
+        "name": "SizeFont08",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "08"
         },
-        path: ['size', 'font', '08'],
+        "path": [
+          "size",
+          "font",
+          "08"
+        ]
       },
-      '09': {
-        value: '2.125rem',
-        comment: '34px',
-        filePath: 'packages/tokens/properties/size/font.json',
-        isSource: true,
-        original: {
-          value: 2.125,
-          comment: '34px',
+      "09": {
+        "value": "2.125rem",
+        "comment": "34px",
+        "filePath": "packages/tokens/properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": 2.125,
+          "comment": "34px"
         },
-        name: 'SizeFont09',
-        attributes: {
-          category: 'size',
-          type: 'font',
-          item: '09',
+        "name": "SizeFont09",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "09"
         },
-        path: ['size', 'font', '09'],
-      },
+        "path": [
+          "size",
+          "font",
+          "09"
+        ]
+      }
     },
-    line: {
-      10: {
-        xs: {
-          value: '2.5rem',
-          comment: '40px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2.5,
-            comment: '40px',
+    "line": {
+      "10": {
+        "xs": {
+          "value": "2.5rem",
+          "comment": "40px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2.5,
+            "comment": "40px"
           },
-          name: 'SizeLine10Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '10',
-            subitem: 'xs',
+          "name": "SizeLine10Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "10",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '10', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "10",
+            "xs"
+          ]
         },
-        s: {
-          value: '3rem',
-          comment: '48px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 3,
-            comment: '48px',
+        "s": {
+          "value": "3rem",
+          "comment": "48px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 3,
+            "comment": "48px"
           },
-          name: 'SizeLine10S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '10',
-            subitem: 's',
+          "name": "SizeLine10S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "10",
+            "subitem": "s"
           },
-          path: ['size', 'line', '10', 's'],
+          "path": [
+            "size",
+            "line",
+            "10",
+            "s"
+          ]
         },
-        m: {
-          value: '3.5rem',
-          comment: '56px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 3.5,
-            comment: '56px',
+        "m": {
+          "value": "3.5rem",
+          "comment": "56px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 3.5,
+            "comment": "56px"
           },
-          name: 'SizeLine10M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '10',
-            subitem: 'm',
+          "name": "SizeLine10M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "10",
+            "subitem": "m"
           },
-          path: ['size', 'line', '10', 'm'],
+          "path": [
+            "size",
+            "line",
+            "10",
+            "m"
+          ]
         },
-        l: {
-          value: '3.75rem',
-          comment: '60px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 3.75,
-            comment: '60px',
+        "l": {
+          "value": "3.75rem",
+          "comment": "60px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 3.75,
+            "comment": "60px"
           },
-          name: 'SizeLine10L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '10',
-            subitem: 'l',
+          "name": "SizeLine10L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "10",
+            "subitem": "l"
           },
-          path: ['size', 'line', '10', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "10",
+            "l"
+          ]
+        }
       },
-      11: {
-        xs: {
-          value: '3rem',
-          comment: '48px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 3,
-            comment: '48px',
+      "11": {
+        "xs": {
+          "value": "3rem",
+          "comment": "48px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 3,
+            "comment": "48px"
           },
-          name: 'SizeLine11Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '11',
-            subitem: 'xs',
+          "name": "SizeLine11Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "11",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '11', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "11",
+            "xs"
+          ]
         },
-        s: {
-          value: '3.5rem',
-          comment: '56px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 3.5,
-            comment: '56px',
+        "s": {
+          "value": "3.5rem",
+          "comment": "56px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 3.5,
+            "comment": "56px"
           },
-          name: 'SizeLine11S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '11',
-            subitem: 's',
+          "name": "SizeLine11S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "11",
+            "subitem": "s"
           },
-          path: ['size', 'line', '11', 's'],
+          "path": [
+            "size",
+            "line",
+            "11",
+            "s"
+          ]
         },
-        m: {
-          value: '4.25rem',
-          comment: '68px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 4.25,
-            comment: '68px',
+        "m": {
+          "value": "4.25rem",
+          "comment": "68px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 4.25,
+            "comment": "68px"
           },
-          name: 'SizeLine11M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '11',
-            subitem: 'm',
+          "name": "SizeLine11M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "11",
+            "subitem": "m"
           },
-          path: ['size', 'line', '11', 'm'],
+          "path": [
+            "size",
+            "line",
+            "11",
+            "m"
+          ]
         },
-        l: {
-          value: '4.5rem',
-          comment: '72px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 4.5,
-            comment: '72px',
+        "l": {
+          "value": "4.5rem",
+          "comment": "72px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 4.5,
+            "comment": "72px"
           },
-          name: 'SizeLine11L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '11',
-            subitem: 'l',
+          "name": "SizeLine11L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "11",
+            "subitem": "l"
           },
-          path: ['size', 'line', '11', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "11",
+            "l"
+          ]
+        }
       },
-      12: {
-        xs: {
-          value: '3.75rem',
-          comment: '60px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 3.75,
-            comment: '60px',
+      "12": {
+        "xs": {
+          "value": "3.75rem",
+          "comment": "60px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 3.75,
+            "comment": "60px"
           },
-          name: 'SizeLine12Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '12',
-            subitem: 'xs',
+          "name": "SizeLine12Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "12",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '12', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "12",
+            "xs"
+          ]
         },
-        s: {
-          value: '4.25rem',
-          comment: '68px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 4.25,
-            comment: '68px',
+        "s": {
+          "value": "4.25rem",
+          "comment": "68px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 4.25,
+            "comment": "68px"
           },
-          name: 'SizeLine12S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '12',
-            subitem: 's',
+          "name": "SizeLine12S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "12",
+            "subitem": "s"
           },
-          path: ['size', 'line', '12', 's'],
+          "path": [
+            "size",
+            "line",
+            "12",
+            "s"
+          ]
         },
-        m: {
-          value: '5rem',
-          comment: '80px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 5,
-            comment: '80px',
+        "m": {
+          "value": "5rem",
+          "comment": "80px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 5,
+            "comment": "80px"
           },
-          name: 'SizeLine12M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '12',
-            subitem: 'm',
+          "name": "SizeLine12M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "12",
+            "subitem": "m"
           },
-          path: ['size', 'line', '12', 'm'],
+          "path": [
+            "size",
+            "line",
+            "12",
+            "m"
+          ]
         },
-        l: {
-          value: '5.5rem',
-          comment: '88px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 5.5,
-            comment: '88px',
+        "l": {
+          "value": "5.5rem",
+          "comment": "88px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 5.5,
+            "comment": "88px"
           },
-          name: 'SizeLine12L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '12',
-            subitem: 'l',
+          "name": "SizeLine12L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "12",
+            "subitem": "l"
           },
-          path: ['size', 'line', '12', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "12",
+            "l"
+          ]
+        }
       },
-      '01': {
-        xs: {
-          value: '0.75rem',
-          comment: '12px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 0.75,
-            comment: '12px',
+      "01": {
+        "xs": {
+          "value": "0.75rem",
+          "comment": "12px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 0.75,
+            "comment": "12px"
           },
-          name: 'SizeLine01Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '01',
-            subitem: 'xs',
+          "name": "SizeLine01Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "01",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '01', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "01",
+            "xs"
+          ]
         },
-        s: {
-          value: '0.75rem',
-          comment: '12px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 0.75,
-            comment: '12px',
+        "s": {
+          "value": "0.75rem",
+          "comment": "12px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 0.75,
+            "comment": "12px"
           },
-          name: 'SizeLine01S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '01',
-            subitem: 's',
+          "name": "SizeLine01S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "01",
+            "subitem": "s"
           },
-          path: ['size', 'line', '01', 's'],
+          "path": [
+            "size",
+            "line",
+            "01",
+            "s"
+          ]
         },
-        m: {
-          value: '0.875rem',
-          comment: '14px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 0.875,
-            comment: '14px',
+        "m": {
+          "value": "0.875rem",
+          "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 0.875,
+            "comment": "14px"
           },
-          name: 'SizeLine01M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '01',
-            subitem: 'm',
+          "name": "SizeLine01M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "01",
+            "subitem": "m"
           },
-          path: ['size', 'line', '01', 'm'],
+          "path": [
+            "size",
+            "line",
+            "01",
+            "m"
+          ]
         },
-        l: {
-          value: '1rem',
-          comment: '16px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1,
-            comment: '16px',
+        "l": {
+          "value": "1rem",
+          "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1,
+            "comment": "16px"
           },
-          name: 'SizeLine01L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '01',
-            subitem: 'l',
+          "name": "SizeLine01L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "01",
+            "subitem": "l"
           },
-          path: ['size', 'line', '01', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "01",
+            "l"
+          ]
+        }
       },
-      '02': {
-        xs: {
-          value: '0.75rem',
-          comment: '12px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 0.75,
-            comment: '12px',
+      "02": {
+        "xs": {
+          "value": "0.75rem",
+          "comment": "12px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 0.75,
+            "comment": "12px"
           },
-          name: 'SizeLine02Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '02',
-            subitem: 'xs',
+          "name": "SizeLine02Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "02",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '02', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "02",
+            "xs"
+          ]
         },
-        s: {
-          value: '0.875rem',
-          comment: '14px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 0.875,
-            comment: '14px',
+        "s": {
+          "value": "0.875rem",
+          "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 0.875,
+            "comment": "14px"
           },
-          name: 'SizeLine02S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '02',
-            subitem: 's',
+          "name": "SizeLine02S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "02",
+            "subitem": "s"
           },
-          path: ['size', 'line', '02', 's'],
+          "path": [
+            "size",
+            "line",
+            "02",
+            "s"
+          ]
         },
-        m: {
-          value: '1rem',
-          comment: '16px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1,
-            comment: '16px',
+        "m": {
+          "value": "1rem",
+          "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1,
+            "comment": "16px"
           },
-          name: 'SizeLine02M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '02',
-            subitem: 'm',
+          "name": "SizeLine02M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "02",
+            "subitem": "m"
           },
-          path: ['size', 'line', '02', 'm'],
+          "path": [
+            "size",
+            "line",
+            "02",
+            "m"
+          ]
         },
-        l: {
-          value: '1.125rem',
-          comment: '18px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.125,
-            comment: '18px',
+        "l": {
+          "value": "1.125rem",
+          "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.125,
+            "comment": "18px"
           },
-          name: 'SizeLine02L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '02',
-            subitem: 'l',
+          "name": "SizeLine02L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "02",
+            "subitem": "l"
           },
-          path: ['size', 'line', '02', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "02",
+            "l"
+          ]
+        }
       },
-      '03': {
-        xs: {
-          value: '0.875rem',
-          comment: '14px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 0.875,
-            comment: '14px',
+      "03": {
+        "xs": {
+          "value": "0.875rem",
+          "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 0.875,
+            "comment": "14px"
           },
-          name: 'SizeLine03Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '03',
-            subitem: 'xs',
+          "name": "SizeLine03Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "03",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '03', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "03",
+            "xs"
+          ]
         },
-        s: {
-          value: '1rem',
-          comment: '16px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1,
-            comment: '16px',
+        "s": {
+          "value": "1rem",
+          "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1,
+            "comment": "16px"
           },
-          name: 'SizeLine03S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '03',
-            subitem: 's',
+          "name": "SizeLine03S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "03",
+            "subitem": "s"
           },
-          path: ['size', 'line', '03', 's'],
+          "path": [
+            "size",
+            "line",
+            "03",
+            "s"
+          ]
         },
-        m: {
-          value: '1.125rem',
-          comment: '18px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.125,
-            comment: '18px',
+        "m": {
+          "value": "1.125rem",
+          "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.125,
+            "comment": "18px"
           },
-          name: 'SizeLine03M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '03',
-            subitem: 'm',
+          "name": "SizeLine03M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "03",
+            "subitem": "m"
           },
-          path: ['size', 'line', '03', 'm'],
+          "path": [
+            "size",
+            "line",
+            "03",
+            "m"
+          ]
         },
-        l: {
-          value: '1.25rem',
-          comment: '20px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.25,
-            comment: '20px',
+        "l": {
+          "value": "1.25rem",
+          "comment": "20px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.25,
+            "comment": "20px"
           },
-          name: 'SizeLine03L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '03',
-            subitem: 'l',
+          "name": "SizeLine03L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "03",
+            "subitem": "l"
           },
-          path: ['size', 'line', '03', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "03",
+            "l"
+          ]
+        }
       },
-      '04': {
-        xs: {
-          value: '0.875rem',
-          comment: '14px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 0.875,
-            comment: '14px',
+      "04": {
+        "xs": {
+          "value": "0.875rem",
+          "comment": "14px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 0.875,
+            "comment": "14px"
           },
-          name: 'SizeLine04Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '04',
-            subitem: 'xs',
+          "name": "SizeLine04Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "04",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '04', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "04",
+            "xs"
+          ]
         },
-        s: {
-          value: '1rem',
-          comment: '16px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1,
-            comment: '16px',
+        "s": {
+          "value": "1rem",
+          "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1,
+            "comment": "16px"
           },
-          name: 'SizeLine04S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '04',
-            subitem: 's',
+          "name": "SizeLine04S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "04",
+            "subitem": "s"
           },
-          path: ['size', 'line', '04', 's'],
+          "path": [
+            "size",
+            "line",
+            "04",
+            "s"
+          ]
         },
-        m: {
-          value: '1.125rem',
-          comment: '18px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.125,
-            comment: '18px',
+        "m": {
+          "value": "1.125rem",
+          "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.125,
+            "comment": "18px"
           },
-          name: 'SizeLine04M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '04',
-            subitem: 'm',
+          "name": "SizeLine04M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "04",
+            "subitem": "m"
           },
-          path: ['size', 'line', '04', 'm'],
+          "path": [
+            "size",
+            "line",
+            "04",
+            "m"
+          ]
         },
-        l: {
-          value: '1.375rem',
-          comment: '22px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.375,
-            comment: '22px',
+        "l": {
+          "value": "1.375rem",
+          "comment": "22px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.375,
+            "comment": "22px"
           },
-          name: 'SizeLine04L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '04',
-            subitem: 'l',
+          "name": "SizeLine04L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "04",
+            "subitem": "l"
           },
-          path: ['size', 'line', '04', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "04",
+            "l"
+          ]
+        }
       },
-      '05': {
-        xs: {
-          value: '1rem',
-          comment: '16px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1,
-            comment: '16px',
+      "05": {
+        "xs": {
+          "value": "1rem",
+          "comment": "16px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1,
+            "comment": "16px"
           },
-          name: 'SizeLine05Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '05',
-            subitem: 'xs',
+          "name": "SizeLine05Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "05",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '05', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "05",
+            "xs"
+          ]
         },
-        s: {
-          value: '1.125rem',
-          comment: '18px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.125,
-            comment: '18px',
+        "s": {
+          "value": "1.125rem",
+          "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.125,
+            "comment": "18px"
           },
-          name: 'SizeLine05S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '05',
-            subitem: 's',
+          "name": "SizeLine05S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "05",
+            "subitem": "s"
           },
-          path: ['size', 'line', '05', 's'],
+          "path": [
+            "size",
+            "line",
+            "05",
+            "s"
+          ]
         },
-        m: {
-          value: '1.375rem',
-          comment: '22px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.375,
-            comment: '22px',
+        "m": {
+          "value": "1.375rem",
+          "comment": "22px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.375,
+            "comment": "22px"
           },
-          name: 'SizeLine05M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '05',
-            subitem: 'm',
+          "name": "SizeLine05M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "05",
+            "subitem": "m"
           },
-          path: ['size', 'line', '05', 'm'],
+          "path": [
+            "size",
+            "line",
+            "05",
+            "m"
+          ]
         },
-        l: {
-          value: '1.5rem',
-          comment: '24px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.5,
-            comment: '24px',
+        "l": {
+          "value": "1.5rem",
+          "comment": "24px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.5,
+            "comment": "24px"
           },
-          name: 'SizeLine05L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '05',
-            subitem: 'l',
+          "name": "SizeLine05L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "05",
+            "subitem": "l"
           },
-          path: ['size', 'line', '05', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "05",
+            "l"
+          ]
+        }
       },
-      '06': {
-        xs: {
-          value: '1.125rem',
-          comment: '18px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.125,
-            comment: '18px',
+      "06": {
+        "xs": {
+          "value": "1.125rem",
+          "comment": "18px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.125,
+            "comment": "18px"
           },
-          name: 'SizeLine06Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '06',
-            subitem: 'xs',
+          "name": "SizeLine06Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "06",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '06', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "06",
+            "xs"
+          ]
         },
-        s: {
-          value: '1.25rem',
-          comment: '20px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.25,
-            comment: '20px',
+        "s": {
+          "value": "1.25rem",
+          "comment": "20px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.25,
+            "comment": "20px"
           },
-          name: 'SizeLine06S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '06',
-            subitem: 's',
+          "name": "SizeLine06S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "06",
+            "subitem": "s"
           },
-          path: ['size', 'line', '06', 's'],
+          "path": [
+            "size",
+            "line",
+            "06",
+            "s"
+          ]
         },
-        m: {
-          value: '1.5rem',
-          comment: '24px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.5,
-            comment: '24px',
+        "m": {
+          "value": "1.5rem",
+          "comment": "24px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.5,
+            "comment": "24px"
           },
-          name: 'SizeLine06M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '06',
-            subitem: 'm',
+          "name": "SizeLine06M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "06",
+            "subitem": "m"
           },
-          path: ['size', 'line', '06', 'm'],
+          "path": [
+            "size",
+            "line",
+            "06",
+            "m"
+          ]
         },
-        l: {
-          value: '1.75rem',
-          comment: '28px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.75,
-            comment: '28px',
+        "l": {
+          "value": "1.75rem",
+          "comment": "28px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.75,
+            "comment": "28px"
           },
-          name: 'SizeLine06L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '06',
-            subitem: 'l',
+          "name": "SizeLine06L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "06",
+            "subitem": "l"
           },
-          path: ['size', 'line', '06', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "06",
+            "l"
+          ]
+        }
       },
-      '07': {
-        xs: {
-          value: '1.5rem',
-          comment: '24px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.5,
-            comment: '24px',
+      "07": {
+        "xs": {
+          "value": "1.5rem",
+          "comment": "24px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.5,
+            "comment": "24px"
           },
-          name: 'SizeLine07Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '07',
-            subitem: 'xs',
+          "name": "SizeLine07Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "07",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '07', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "07",
+            "xs"
+          ]
         },
-        s: {
-          value: '1.75rem',
-          comment: '28px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.75,
-            comment: '28px',
+        "s": {
+          "value": "1.75rem",
+          "comment": "28px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.75,
+            "comment": "28px"
           },
-          name: 'SizeLine07S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '07',
-            subitem: 's',
+          "name": "SizeLine07S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "07",
+            "subitem": "s"
           },
-          path: ['size', 'line', '07', 's'],
+          "path": [
+            "size",
+            "line",
+            "07",
+            "s"
+          ]
         },
-        m: {
-          value: '2rem',
-          comment: '32px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2,
-            comment: '32px',
+        "m": {
+          "value": "2rem",
+          "comment": "32px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2,
+            "comment": "32px"
           },
-          name: 'SizeLine07M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '07',
-            subitem: 'm',
+          "name": "SizeLine07M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "07",
+            "subitem": "m"
           },
-          path: ['size', 'line', '07', 'm'],
+          "path": [
+            "size",
+            "line",
+            "07",
+            "m"
+          ]
         },
-        l: {
-          value: '2.25rem',
-          comment: '36px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2.25,
-            comment: '36px',
+        "l": {
+          "value": "2.25rem",
+          "comment": "36px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2.25,
+            "comment": "36px"
           },
-          name: 'SizeLine07L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '07',
-            subitem: 'l',
+          "name": "SizeLine07L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "07",
+            "subitem": "l"
           },
-          path: ['size', 'line', '07', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "07",
+            "l"
+          ]
+        }
       },
-      '08': {
-        xs: {
-          value: '1.75rem',
-          comment: '28px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 1.75,
-            comment: '28px',
+      "08": {
+        "xs": {
+          "value": "1.75rem",
+          "comment": "28px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 1.75,
+            "comment": "28px"
           },
-          name: 'SizeLine08Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '08',
-            subitem: 'xs',
+          "name": "SizeLine08Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "08",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '08', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "08",
+            "xs"
+          ]
         },
-        s: {
-          value: '2rem',
-          comment: '32px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2,
-            comment: '32px',
+        "s": {
+          "value": "2rem",
+          "comment": "32px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2,
+            "comment": "32px"
           },
-          name: 'SizeLine08S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '08',
-            subitem: 's',
+          "name": "SizeLine08S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "08",
+            "subitem": "s"
           },
-          path: ['size', 'line', '08', 's'],
+          "path": [
+            "size",
+            "line",
+            "08",
+            "s"
+          ]
         },
-        m: {
-          value: '2.25rem',
-          comment: '36px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2.25,
-            comment: '36px',
+        "m": {
+          "value": "2.25rem",
+          "comment": "36px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2.25,
+            "comment": "36px"
           },
-          name: 'SizeLine08M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '08',
-            subitem: 'm',
+          "name": "SizeLine08M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "08",
+            "subitem": "m"
           },
-          path: ['size', 'line', '08', 'm'],
+          "path": [
+            "size",
+            "line",
+            "08",
+            "m"
+          ]
         },
-        l: {
-          value: '2.75rem',
-          comment: '44px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2.75,
-            comment: '44px',
+        "l": {
+          "value": "2.75rem",
+          "comment": "44px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2.75,
+            "comment": "44px"
           },
-          name: 'SizeLine08L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '08',
-            subitem: 'l',
+          "name": "SizeLine08L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "08",
+            "subitem": "l"
           },
-          path: ['size', 'line', '08', 'l'],
-        },
+          "path": [
+            "size",
+            "line",
+            "08",
+            "l"
+          ]
+        }
       },
-      '09': {
-        xs: {
-          value: '2.25rem',
-          comment: '36px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2.25,
-            comment: '36px',
+      "09": {
+        "xs": {
+          "value": "2.25rem",
+          "comment": "36px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2.25,
+            "comment": "36px"
           },
-          name: 'SizeLine09Xs',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '09',
-            subitem: 'xs',
+          "name": "SizeLine09Xs",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "09",
+            "subitem": "xs"
           },
-          path: ['size', 'line', '09', 'xs'],
+          "path": [
+            "size",
+            "line",
+            "09",
+            "xs"
+          ]
         },
-        s: {
-          value: '2.5rem',
-          comment: '40px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2.5,
-            comment: '40px',
+        "s": {
+          "value": "2.5rem",
+          "comment": "40px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2.5,
+            "comment": "40px"
           },
-          name: 'SizeLine09S',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '09',
-            subitem: 's',
+          "name": "SizeLine09S",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "09",
+            "subitem": "s"
           },
-          path: ['size', 'line', '09', 's'],
+          "path": [
+            "size",
+            "line",
+            "09",
+            "s"
+          ]
         },
-        m: {
-          value: '2.75rem',
-          comment: '44px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 2.75,
-            comment: '44px',
+        "m": {
+          "value": "2.75rem",
+          "comment": "44px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 2.75,
+            "comment": "44px"
           },
-          name: 'SizeLine09M',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '09',
-            subitem: 'm',
+          "name": "SizeLine09M",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "09",
+            "subitem": "m"
           },
-          path: ['size', 'line', '09', 'm'],
+          "path": [
+            "size",
+            "line",
+            "09",
+            "m"
+          ]
         },
-        l: {
-          value: '3.25rem',
-          comment: '52px',
-          filePath: 'packages/tokens/properties/size/font.json',
-          isSource: true,
-          original: {
-            value: 3.25,
-            comment: '52px',
+        "l": {
+          "value": "3.25rem",
+          "comment": "52px",
+          "filePath": "packages/tokens/properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": 3.25,
+            "comment": "52px"
           },
-          name: 'SizeLine09L',
-          attributes: {
-            category: 'size',
-            type: 'line',
-            item: '09',
-            subitem: 'l',
+          "name": "SizeLine09L",
+          "attributes": {
+            "category": "size",
+            "type": "line",
+            "item": "09",
+            "subitem": "l"
           },
-          path: ['size', 'line', '09', 'l'],
-        },
-      },
+          "path": [
+            "size",
+            "line",
+            "09",
+            "l"
+          ]
+        }
+      }
     },
-    gutter: {
-      screen: {
-        s: {
-          value: '1rem',
-          filePath: 'packages/tokens/properties/size/grid.json',
-          isSource: true,
-          original: {
-            value: 1,
+    "gutter": {
+      "screen": {
+        "s": {
+          "value": "1rem",
+          "filePath": "packages/tokens/properties/size/grid.json",
+          "isSource": true,
+          "original": {
+            "value": 1
           },
-          name: 'SizeGutterScreenS',
-          attributes: {
-            category: 'size',
-            type: 'gutter',
-            item: 'screen',
-            subitem: 's',
+          "name": "SizeGutterScreenS",
+          "attributes": {
+            "category": "size",
+            "type": "gutter",
+            "item": "screen",
+            "subitem": "s"
           },
-          path: ['size', 'gutter', 'screen', 's'],
+          "path": [
+            "size",
+            "gutter",
+            "screen",
+            "s"
+          ]
         },
-        m: {
-          value: '2rem',
-          filePath: 'packages/tokens/properties/size/grid.json',
-          isSource: true,
-          original: {
-            value: 2,
+        "m": {
+          "value": "2rem",
+          "filePath": "packages/tokens/properties/size/grid.json",
+          "isSource": true,
+          "original": {
+            "value": 2
           },
-          name: 'SizeGutterScreenM',
-          attributes: {
-            category: 'size',
-            type: 'gutter',
-            item: 'screen',
-            subitem: 'm',
+          "name": "SizeGutterScreenM",
+          "attributes": {
+            "category": "size",
+            "type": "gutter",
+            "item": "screen",
+            "subitem": "m"
           },
-          path: ['size', 'gutter', 'screen', 'm'],
-        },
-      },
-    },
+          "path": [
+            "size",
+            "gutter",
+            "screen",
+            "m"
+          ]
+        }
+      }
+    }
   },
-  screen: {
-    s: {
-      value: '0px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '0px',
+  "screen": {
+    "s": {
+      "value": "0px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "0px"
       },
-      name: 'ScreenS',
-      attributes: {
-        category: 'screen',
-        type: 's',
+      "name": "ScreenS",
+      "attributes": {
+        "category": "screen",
+        "type": "s"
       },
-      path: ['screen', 's'],
+      "path": [
+        "screen",
+        "s"
+      ]
     },
-    's-medium': {
-      value: '320px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '320px',
+    "s-medium": {
+      "value": "320px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "320px"
       },
-      name: 'ScreenSMedium',
-      attributes: {
-        category: 'screen',
-        type: 's-medium',
+      "name": "ScreenSMedium",
+      "attributes": {
+        "category": "screen",
+        "type": "s-medium"
       },
-      path: ['screen', 's-medium'],
+      "path": [
+        "screen",
+        "s-medium"
+      ]
     },
-    's-large': {
-      value: '360px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '360px',
+    "s-large": {
+      "value": "360px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "360px"
       },
-      name: 'ScreenSLarge',
-      attributes: {
-        category: 'screen',
-        type: 's-large',
+      "name": "ScreenSLarge",
+      "attributes": {
+        "category": "screen",
+        "type": "s-large"
       },
-      path: ['screen', 's-large'],
+      "path": [
+        "screen",
+        "s-large"
+      ]
     },
-    's-xlarge': {
-      value: '390px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '390px',
+    "s-xlarge": {
+      "value": "390px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "390px"
       },
-      name: 'ScreenSXlarge',
-      attributes: {
-        category: 'screen',
-        type: 's-xlarge',
+      "name": "ScreenSXlarge",
+      "attributes": {
+        "category": "screen",
+        "type": "s-xlarge"
       },
-      path: ['screen', 's-xlarge'],
+      "path": [
+        "screen",
+        "s-xlarge"
+      ]
     },
-    m: {
-      value: '680px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '680px',
+    "m": {
+      "value": "680px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "680px"
       },
-      name: 'ScreenM',
-      attributes: {
-        category: 'screen',
-        type: 'm',
+      "name": "ScreenM",
+      "attributes": {
+        "category": "screen",
+        "type": "m"
       },
-      path: ['screen', 'm'],
+      "path": [
+        "screen",
+        "m"
+      ]
     },
-    'm-medium': {
-      value: '769px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '769px',
+    "m-medium": {
+      "value": "769px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "769px"
       },
-      name: 'ScreenMMedium',
-      attributes: {
-        category: 'screen',
-        type: 'm-medium',
+      "name": "ScreenMMedium",
+      "attributes": {
+        "category": "screen",
+        "type": "m-medium"
       },
-      path: ['screen', 'm-medium'],
+      "path": [
+        "screen",
+        "m-medium"
+      ]
     },
-    l: {
-      value: '1024px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '1024px',
+    "l": {
+      "value": "1024px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "1024px"
       },
-      name: 'ScreenL',
-      attributes: {
-        category: 'screen',
-        type: 'l',
+      "name": "ScreenL",
+      "attributes": {
+        "category": "screen",
+        "type": "l"
       },
-      path: ['screen', 'l'],
+      "path": [
+        "screen",
+        "l"
+      ]
     },
-    'l-medium': {
-      value: '1100px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '1100px',
+    "l-medium": {
+      "value": "1100px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "1100px"
       },
-      name: 'ScreenLMedium',
-      attributes: {
-        category: 'screen',
-        type: 'l-medium',
+      "name": "ScreenLMedium",
+      "attributes": {
+        "category": "screen",
+        "type": "l-medium"
       },
-      path: ['screen', 'l-medium'],
+      "path": [
+        "screen",
+        "l-medium"
+      ]
     },
-    xl: {
-      value: '1280px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '1280px',
+    "xl": {
+      "value": "1280px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "1280px"
       },
-      name: 'ScreenXl',
-      attributes: {
-        category: 'screen',
-        type: 'xl',
+      "name": "ScreenXl",
+      "attributes": {
+        "category": "screen",
+        "type": "xl"
       },
-      path: ['screen', 'xl'],
+      "path": [
+        "screen",
+        "xl"
+      ]
     },
-    'xl-medium': {
-      value: '1440px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '1440px',
+    "xl-medium": {
+      "value": "1440px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "1440px"
       },
-      name: 'ScreenXlMedium',
-      attributes: {
-        category: 'screen',
-        type: 'xl-medium',
+      "name": "ScreenXlMedium",
+      "attributes": {
+        "category": "screen",
+        "type": "xl-medium"
       },
-      path: ['screen', 'xl-medium'],
+      "path": [
+        "screen",
+        "xl-medium"
+      ]
     },
-    'xl-large': {
-      value: '1680px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '1680px',
+    "xl-large": {
+      "value": "1680px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "1680px"
       },
-      name: 'ScreenXlLarge',
-      attributes: {
-        category: 'screen',
-        type: 'xl-large',
+      "name": "ScreenXlLarge",
+      "attributes": {
+        "category": "screen",
+        "type": "xl-large"
       },
-      path: ['screen', 'xl-large'],
+      "path": [
+        "screen",
+        "xl-large"
+      ]
     },
-    xxl: {
-      value: '1920px',
-      filePath: 'packages/tokens/properties/size/screens.json',
-      isSource: true,
-      original: {
-        value: '1920px',
+    "xxl": {
+      "value": "1920px",
+      "filePath": "packages/tokens/properties/size/screens.json",
+      "isSource": true,
+      "original": {
+        "value": "1920px"
       },
-      name: 'ScreenXxl',
-      attributes: {
-        category: 'screen',
-        type: 'xxl',
+      "name": "ScreenXxl",
+      "attributes": {
+        "category": "screen",
+        "type": "xxl"
       },
-      path: ['screen', 'xxl'],
-    },
-  },
-}
+      "path": [
+        "screen",
+        "xxl"
+      ]
+    }
+  }
+};
