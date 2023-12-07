@@ -1,0 +1,176 @@
+/* Menu */
+
+/** GithubLink */
+.githubLinkContainer {
+  display: flex;
+  position: relative;
+}
+
+.githubLink {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.15;
+  padding: 0.8125rem 0 0.75rem;
+  color: #000;
+  width: 100%;
+}
+
+.githubLinkIcon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/** MenuList */
+.menuList {
+  list-style: none;
+}
+
+.menuItem {
+  list-style-type: none;
+}
+
+.menuItem:not([data-open='true']) .subMenu {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.menuItem[data-open='true'] > .menuItemWrapper > .menuShowHide .menuIconOpen {
+  display: none;
+}
+
+.menuItem[data-open='true'] > .menuItemWrapper > .menuShowHide .menuIconClose {
+  display: block;
+}
+
+.menuItem[data-open='true'][data-level='1']:not(:last-child) {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.625rem;
+}
+
+.menuItem[data-open='true'][data-level='1'] + .menuItem {
+  padding-top: 0.5rem;
+}
+
+.menuItem[data-open='true'][data-level='1']
+  > .menuItemWrapper:not(:only-child) {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+}
+
+.menuItem[data-open='true'][data-level='1']
+  > .menuItemWrapper:not(:only-child)
+  + .subMenu {
+  padding-top: 0.5rem;
+}
+
+.menuItemWrapper {
+  display: flex;
+  position: relative;
+}
+
+.menuLink {
+  color: #000;
+  cursor: pointer;
+  flex: 1;
+  position: relative;
+}
+
+.menuLink[data-level='1'] {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.15;
+  padding: 0.8125rem 0 0.75rem;
+  position: relative;
+}
+
+.menuLink[data-level='2'] {
+  font-size: 1rem;
+  padding: 0.5625rem 0 0.5rem;
+}
+
+.menuLink[data-level='2']:focus,
+.menuLink[data-level='2']:hover {
+  font-weight: bold;
+}
+
+.menuLink[data-level='3'] {
+  font-size: 0.875rem;
+  padding: 0.4375rem 1rem 0.3125rem 1.5rem;
+}
+
+.menuLink[data-level='3']:active,
+.menuLink[data-level='3']:focus,
+.menuLink[data-level='3']:hover {
+  background: #fff;
+}
+
+.menuShowHide {
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 1rem;
+  outline: none;
+  margin-top: -0.5rem;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1rem;
+}
+
+.menuIconOpen {
+  display: block;
+}
+
+.menuIconClose {
+  display: none;
+}
+
+/** MenuButton */
+.triggerMenu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 1.5rem;
+  padding: 0;
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
+  transition: left 0.4s;
+  width: 1.5rem;
+  z-index: 2000;
+}
+
+@media screen and (min-width: 1024px) {
+  .triggerMenu {
+    display: none;
+  }
+}
+
+.triggerMenuHide {
+  display: none;
+}
+
+.triggerMenuOpen,
+:global(.triggerMenu--hide) {
+  display: block;
+}
+
+.triggerMenuClose {
+  display: none;
+}
+
+/** Nav Open */
+:global(.navOpen) .triggerMenu {
+  left: 1.5rem;
+}
+
+:global(.navOpen) .triggerMenuOpen {
+  display: none;
+}
+
+:global(.navOpen) .triggerMenuClose {
+  display: block;
+}
