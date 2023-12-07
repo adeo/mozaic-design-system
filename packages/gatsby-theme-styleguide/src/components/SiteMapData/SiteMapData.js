@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { parseAllFiles } from './tools'
+import { parseAllMdx } from '../../utils/tools'
 
 // HOC to centralize site structure (site map)
 const siteMapData =
@@ -10,9 +10,7 @@ const siteMapData =
       props.location && props.location.pathname ? props.location.pathname : ''
 
     const data = useStaticQuery(query)
-    const mapData = parseAllFiles(data.allMdx.edges, {
-      location,
-    })
+    const mapData = parseAllMdx(data.allMdx.edges)
 
     return <Component siteMapData={mapData} {...props} />
   }
