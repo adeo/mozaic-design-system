@@ -45,28 +45,28 @@ This File will not output any css when compiled appart from the font-faces decla
 @import '@mozaic-ds/styles/settings-tools/all-settings';
 
 /* Generics */
-@import '@mozaic-ds/styles/generics/_g.reset.scss';
-@import '@mozaic-ds/styles/generics/_g.box-sizing.scss';
+@import '@mozaic-ds/styles/generics/g.reset.scss';
+@import '@mozaic-ds/styles/generics/g.box-sizing.scss';
 
 /* Elements */
-@import '@mozaic-ds/styles/elements/_e.inputs.scss';
-@import '@mozaic-ds/styles/elements/_e.headings.scss';
-@import '@mozaic-ds/styles/elements/_e...scss';
+@import '@mozaic-ds/styles/elements/e.inputs.scss';
+@import '@mozaic-ds/styles/elements/e.headings.scss';
+@import '@mozaic-ds/styles/elements/e...scss';
 
 /* Layouts */
-@import '@mozaic-ds/styles/layouts/_l.grid.scss';
-@import '@mozaic-ds/styles/layouts/_l.flex.scss';
-@import '@mozaic-ds/styles/layouts/_l....scss';
+@import '@mozaic-ds/styles/layouts/l.grid.scss';
+@import '@mozaic-ds/styles/layouts/l.flex.scss';
+@import '@mozaic-ds/styles/layouts/l....scss';
 
 /* Components */
-@import '@mozaic-ds/styles/components/_c.buttons.scss';
-@import '@mozaic-ds/styles/components/_c.input-text.scss';
-@import '@mozaic-ds/styles/components/_c....scss';
+@import '@mozaic-ds/styles/components/c.buttons.scss';
+@import '@mozaic-ds/styles/components/c.input-text.scss';
+@import '@mozaic-ds/styles/components/c....scss';
 
 /* Utilities */
-@import '@mozaic-ds/styles/elements/_u.spaces.scss';
-@import '@mozaic-ds/styles/elements/_u.text-align.scss';
-@import '@mozaic-ds/styles/elements/_u....scss';
+@import '@mozaic-ds/styles/elements/u.spaces.scss';
+@import '@mozaic-ds/styles/elements/u.text-align.scss';
+@import '@mozaic-ds/styles/elements/u....scss';
 ```
 
 ## BEM
@@ -91,7 +91,7 @@ The block name defines the namespace for its elements and modifiers.
 
 ```scss
 .pr-block-name {
-  ...;
+  // ...
 }
 ```
 
@@ -101,14 +101,10 @@ The block name defines the namespace for its elements and modifiers.
 
 <br />
 
+<HintItem>Blocks can be nested in one another</HintItem>
+<HintItem>Blocks can be moved between pages and projects</HintItem>
 <HintItem>
-    Blocks can be nested in one another
-</HintItem>
-<HintItem>
-    Blocks can be moved between pages and projects
-</HintItem>
-<HintItem>
-    An interface can contain mulitple instances of the same block
+  An interface can contain mulitple instances of the same block
 </HintItem>
 
 #### Elements
@@ -141,10 +137,11 @@ The modifier name is separated from the block or element name by a double hyphen
 
 ```scss
 .pr-block-name--modifier-name {
-  ...;
+  // ...
 }
+
 .pr-block-name__element-name--modifier-name {
-  ...;
+  // ...
 }
 ```
 
@@ -255,9 +252,9 @@ There is three types of mixins :
 
 Example :
 
-```sass
+```scss
 .my-class {
-    @include set-font-face('regular');
+  @include set-font-face('regular');
 }
 ```
 
@@ -276,7 +273,7 @@ Output :
 
 Example :
 
-```sass
+```scss
 @include make-flexy-col(1, 2, (s, m));
 ```
 
@@ -302,11 +299,11 @@ Output :
 
 Example :
 
-```sass
+```scss
 .mu-hidden {
-    @include mod-from-screens(s, m, l) {
-        display: none !important;
-    }
+  @include mod-from-screens(s, m, l) {
+    display: none !important;
+  }
 }
 ```
 
@@ -336,11 +333,11 @@ Output :
 
 ```scss
 .mc-button {
-..color: blue;
+  color: blue;
 
-..&__icon {
-....margin-left: 1rem;
-..}
+  &__icon {
+    margin-left: 1rem;
+  }
 }
 ```
 
@@ -541,7 +538,7 @@ For more information about tokens, please read the ["Design Tokens" chapter](/Ge
 It is possible to add a comment to a token property, simply by adding a new `key/value` pair to the JSON file.
 The key must be named `comment` and the value contains the comment you want to write.
 
-```JSON
+```json
 {
   "color": {
     "star": {

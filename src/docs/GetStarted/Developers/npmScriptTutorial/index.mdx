@@ -31,7 +31,7 @@ For this tutorial, we will use npm scripts and some npm package as a simple exam
 
 ### A) Install postcss-cli:
 
-```shell
+```bash
 npm install --save-dev postcss-cli
 ```
 
@@ -39,7 +39,7 @@ npm install --save-dev postcss-cli
 
 Create a postcss.config.js file in your project root directory and paste the following code inside:
 
-```js
+```js postcss.config.js
 const pluginList = require('@mozaic-ds/css-dev-tools/postcssPluginConfig')
 
 module.exports = {
@@ -83,7 +83,7 @@ my-project/
 
 create the following npm scripts under the script keys in your package.json file.
 
-```json
+```json package.json
 "scripts": {
   "css:build": "npx postcss src/bundle.scss --output dist/bundle.css",
   "css:watch": "npx postcss src/bundle.scss --output dist/bundle.css --watch"
@@ -95,7 +95,7 @@ We also created a `css:watch` command to watch our changes to the scss files.
 
 ### E) Run the watcher:
 
-```shell
+```bash
 npm run css:watch
 ```
 
@@ -117,7 +117,7 @@ As an example, we will create an NPM script that will fix the syntax in our SCSS
 
 let's create a NPM script to fix our stylelint errors, add the following in your `package.json`:
 
-```json
+```json package.json
 "scripts": {
   "css:build": "npx postcss src/bundle.scss --output dist/bundle.css",
   "css:watch": "npx postcss src/bundle.scss --output dist/bundle.css --watch",
@@ -133,7 +133,7 @@ Create a `stylelint.config.js` file at your project root.
 
 then edit the file and add the folowing code:
 
-```js
+```js stylelint.config.js
 module.exports = require('@mozaic-ds/css-dev-tools/styleLintConfig.js')
 ```
 
@@ -143,7 +143,7 @@ Run the `npm run css:lint-fix` command. Nothing should happen, because the code 
 
 Edit your `src/bundle.scss` file, and edit line 5 to remove the line break between the mixin instantiation and the first declaration :
 
-```scss
+```scss src/bundle.scss
 @import 'settings-tools/all-settings';
 
 body {
@@ -175,10 +175,9 @@ It will allow us to be sure that we always have the last version of these static
 
 Add in your package.json the following script:
 
-```json
+```json package.json
 "scripts": {
-    ...
-    "statics:copy": "rm -rf dist/static && mkdir dist/static && cp node_modules/@mozaic-ds/web-fonts/*.{woff,woff2} dist/static"
+  "statics:copy": "rm -rf dist/static && mkdir dist/static && cp node_modules/@mozaic-ds/web-fonts/*.{woff,woff2} dist/static"
 },
 ```
 
@@ -186,16 +185,15 @@ Add in your package.json the following script:
 
 First, let's install `live-server`
 
-```shell
+```bash
 npm install live-server --save-dev
 ```
 
 And create a script to launch it upon our `dist/` directory. We will tell it to refresh the browser whenever there is a change in the dist directory, and also to run the `statics:copy` command before starting.
 
-```json
+```json package.json
 "scripts": {
-    ...
-    "serve": "npm run statics:copy && npx live-server dist/"
+  "serve": "npm run statics:copy && npx live-server dist/"
 },
 ```
 
@@ -205,8 +203,8 @@ create an `index.html` file in the `dist` directory
 
 paste the following inside:
 
-```html
-<!DOCTYPE html>
+```html dist/index.html
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -276,7 +274,8 @@ Then we set the semi-bold LeroyMerlin font-face into the `body` declaration.
 ```scss
 body {
   @include set-font-face('semi-bold');
-  ...
+  // ...
+}
 ```
 
 Your browser should now look like this:
@@ -293,7 +292,7 @@ Your browser should now look like this:
 
 // your components
 @import 'layout/_l.grid';
-@import 'components/_c.button';
+@import 'components/c.button';
 ```
 
 note that you need to follow the ITCSS/ADS [import order](https://gael-boyenval.gitbook.io/atomic-design-css-architecture-with-itcss-bem-sass/principles/unifying-itcss-with-ads#summarize-the-new-architecture)

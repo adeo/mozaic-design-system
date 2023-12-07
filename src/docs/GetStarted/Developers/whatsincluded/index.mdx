@@ -15,8 +15,7 @@ Some variables are generated into and imported from the tokens package directory
 
 </Highlight>
 
-
-```tree
+```
 styles/
 ├── settings-tools/
 │   ├── _s.***.scss
@@ -55,14 +54,13 @@ Tokens generation use [style-dictionary](https://amzn.github.io/style-dictionary
 
 </Highlight>
 
-
 `@mozaic-ds/tokens/build/{platform}/**`
 
 They are the generated tokens files that you may use, and they are built in a platform-specific directory.
 
 > when working with sass, tokens are imported from the \_all-settings.scss sub bundle
 
-```tree
+```
 tokens/
 ├── build/ (the generated tokens files)
 │   ├── scss/
@@ -95,8 +93,7 @@ We are using Postcss to build SCSS files. The SASS compiler is included into the
 
 </Highlight>
 
-
-```tree
+```
 css-dev-tools/
 │   ├── postcssPluginConfig.js (an array of PostCSS plugins to build the scss files)
 │   ├── css-pipeline.js (useless right now)
@@ -109,7 +106,7 @@ css-dev-tools/
 
 `@mozaic-ds/web-fonts/**`
 
-```tree
+```
 ├── LeroyMerlinSans-Web-Italic.woff
 └── etc...
 ```
@@ -120,7 +117,7 @@ css-dev-tools/
 
 `@mozaic-ds/icons/**`
 
-```tree
+```
 ├── LeroyMerlinSans-Web-Italic.woff
 └── etc...
 ```
