@@ -7,7 +7,6 @@ import MenuButton from '../components/Menu/MenuButton'
 import PatternStatusGroup from '../components/PatternStatusGroup'
 import JSImplementation from '../components/JSImplementation'
 import PageTabs from '../components/PageTabs'
-import Container from '../components/Container'
 import TableOfContents from '../components/TableOfContents'
 
 const FullWidthContainer = styled.div`
@@ -51,7 +50,7 @@ const PageContent = styled.div`
   }
 `
 
-const Header = styled(Container)`
+const Header = styled.div`
   border-bottom: solid 1px black;
 
   ${({ hasMainCategory }) =>
@@ -115,26 +114,22 @@ const PatternPage = ({ children, data, location }) => {
   return (
     <div>
       <Layout location={location} tableOfContents={tableOfContents}>
-      <FullWidthContainer separator>
-        <Header hasMainCategory={hasMainCategory}>
-          <MenuButton />
-          {hasMainCategory && (
-            <HeaderCategory>{mainCategory[1]}</HeaderCategory>
-          )}
-          <HeaderTitle>{parentTitle}</HeaderTitle>
-          <PatternStatusGroup status={parentStatus} />
-          <JSImplementation links={parentLinks} />
-        </Header>
-      </FullWidthContainer>
-      {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
-      <PageContentWrapper>
-        <PageContent>
-          <Container>
-            {children}
-          </Container>
-        </PageContent>
-        <TableOfContents tableOfContents={tableOfContents} />
-      </PageContentWrapper>
+        <FullWidthContainer separator>
+          <Header hasMainCategory={hasMainCategory}>
+            <MenuButton />
+            {hasMainCategory && (
+              <HeaderCategory>{mainCategory[1]}</HeaderCategory>
+            )}
+            <HeaderTitle>{parentTitle}</HeaderTitle>
+            <PatternStatusGroup status={parentStatus} />
+            <JSImplementation links={parentLinks} />
+          </Header>
+        </FullWidthContainer>
+        {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
+        <PageContentWrapper>
+          <PageContent>{children}</PageContent>
+          <TableOfContents tableOfContents={tableOfContents} />
+        </PageContentWrapper>
       </Layout>
     </div>
   )
