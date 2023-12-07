@@ -12,8 +12,8 @@ order: 1
 ```scss
 @import 'settings-tools/all-settings';
 
-@import 'layouts/_l.container'; // you generally want the container as well
-@import 'layouts/_l.flexy';
+@import 'layouts/l.container'; // you generally want the container as well
+@import 'layouts/l.flexy';
 ```
 
 ### How it works
@@ -118,7 +118,6 @@ Available modifiers are:
 You can push a column using the `ml-flexy__col--push-[XofY]` modifiers.
 
 ```html
-...
 <div
   class="
   ml-flexy__col
@@ -127,7 +126,6 @@ You can push a column using the `ml-flexy__col--push-[XofY]` modifiers.
 >
   <!-- column content -->
 </div>
-...
 ```
 
 All columns widths (numerical) are available as push values from `1of12`, `1of6`, `1of4` ... to `11of12`.
@@ -153,7 +151,6 @@ The available breakpoints modifiers are:
 For a specific a breakpoint you can reset the pushed column using `mc-flexy__col--push--reset@from-XX`.
 
 ```html
-...
 <div
   class="
   ml-flexy__col
@@ -164,7 +161,6 @@ For a specific a breakpoint you can reset the pushed column using `mc-flexy__col
 >
   <!-- column content -->
 </div>
-...
 ```
 
 ## Nesting flexy grids

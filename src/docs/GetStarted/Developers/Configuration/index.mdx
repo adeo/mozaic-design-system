@@ -9,7 +9,7 @@ order: 3
 
 Create a mozaic.config.js file at the root of your project:
 
-```js
+```js mozaic.config.js
 module.exports = {
   /* options */
 }
@@ -39,7 +39,7 @@ Specified paths will be added to the default ones.
 
 **Example:**
 
-```js
+```js mozaic.config.js
 module.exports = {
   sass: {
     includePaths: ['./src/path/to/cssDir/'],
@@ -55,7 +55,7 @@ Change the indent width of the compiled CSS file.
 
 **Example:**
 
-```js
+```js mozaic.config.js
 module.exports = {
   sass: {
     indentWidth: 4,
@@ -73,7 +73,7 @@ Note that both options should always be used together.
 
 Use those options to customize tokens. For more information, read our Tokens customisation guide.
 
-```js
+```js mozaic.config.js
 module.exports = {
   tokens: {
     localTokensSrcPath: './src/tokens/', // path to your own js files
@@ -84,13 +84,14 @@ module.exports = {
 
 ## stylelint options:
 
-### `stylelint.disabled
+### `stylelint.disabled`
 
-Allow you to disabled Mozaic built-in config. 
+Allow you to disabled Mozaic built-in config.
 **Default values: 'false'**
 **Example: **
-```js
-  disbaled: true | false
+
+```
+disbaled: true | false
 ```
 
 ### `stylelint.caseStyle`: String or Regex
@@ -100,8 +101,9 @@ Allow you to choose the case style to lint. You can add your own Regex rule to l
 **Default values: 'kebab-case'**
 
 **Example: **
-```js
-  caseStyle: 'kebab-case' | 'camelCase' | 'snake_case' | 'PascalCase' | /^[a-z]+(_[a-z]+)*$/
+
+```
+caseStyle: 'kebab-case' | 'camelCase' | 'snake_case' | 'PascalCase' | /^[a-z]+(_[a-z]+)*$/
 ```
 
 ### `stylelint.bemEntitiesDelimiters`: Object
@@ -110,7 +112,7 @@ Allow you to specify separators to check the BEM structure.
 
 **Default values: **
 
-```js
+```js mozaic.config.js
   bemEntitiesDelimiters: {
     modifier: '--',
     element: '__',
@@ -124,15 +126,15 @@ Allow you to specify additional prefixes. Multiple prefixes can be added.
 
 **Default values: ['mc-', 'ml-', 'mu-', 'mt-', 'mdu-'] **
 
-```js
+```js mozaic.config.js
   prefixes: ['lrc-', 'lrl-', 'LrUtility-'],
 ```
 
-
 **Full example: **
-```js
+
+```js mozaic.config.js
 module.exports = {
-	stylelint: {
+  stylelint: {
     caseStyle: 'kebab-case', // ['camelCase', 'snake_case', 'PascalCase']
     bemEntitiesDelimiters: {
       modifier: '--',
@@ -150,30 +152,32 @@ module.exports = {
 
 ### `browserslist.disabled
 
-Allow you to disabled Mozaic built-in config. 
+Allow you to disabled Mozaic built-in config.
 **Default values: 'false'**
 
 **Example: **
-```js
-  disabled: true | false
+
+```
+disabled: true | false
 ```
 
-`browserslist` is used to define custom browsers to use for SCSS compilation. 
+`browserslist` is used to define custom browsers to use for SCSS compilation.
 
-** Default value: ** 
+** Default value: **
 
-```js
+```
 ['> 0.3%', 'last 3 version', 'IE > 10']
 ```
 
 **Full example: **
-```js
+
+```js mozaic.config.js
 module.exports = {
-	browserslist: ['last 2 versions', 'firefox >= 45', 'IE >= 11']
+  browserslist: ['last 2 versions', 'firefox >= 45', 'IE >= 11'],
 }
 ```
 
-## PurgeCSS option: 
+## PurgeCSS option:
 
 ### `purgecss` : Object
 
@@ -181,7 +185,8 @@ Allow you to clean up CSS from your sources files.
 **Default values: null**
 
 **Example: **
-```js
+
+```js mozaic.config.js
 purgecss: {
   content: ['./src/**/*.html', './src/**/*.js', './src/**/*.vue']
 }

@@ -8,25 +8,19 @@ order: 2
 You can add to your bundle the margins or paggings utility classes like so :
 
 ```scss
-@import 'utilities/_u.margin.scss';
-@import 'utilities/_u.padding.scss';
+@import 'utilities/u.margin.scss';
+@import 'utilities/u.padding.scss';
 ```
 
 <Story id="foundations-margins-and-paddings--margins" />
 
 ```html
-<div class="mu-mb-100">
-  I will have a 1mu (16px) margin bottom
-</div>
+<div class="mu-mb-100">I will have a 1mu (16px) margin bottom</div>
 <div class="mu-m-100">
   I will have a 1mu (16px) margin on all sides of the div
 </div>
-<div class="mu-pl-050">
-  I will have a 8px padding left
-</div>
-<div class="mu-p-050">
-  I will have a 8px padding on all sides of the div
-</div>
+<div class="mu-pl-050">I will have a 8px padding left</div>
+<div class="mu-p-050">I will have a 8px padding on all sides of the div</div>
 ```
 
 Please considere that those utilities are looping through all magic-unit authorized values up to 10x magic-units (160px), and trought all possible sides (left, top, right, bottom).This is resulting in a lot of classes that you will potentialy not use.
