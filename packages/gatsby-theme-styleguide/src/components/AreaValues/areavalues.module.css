@@ -1,0 +1,64 @@
+/* AreaValues */
+
+/** Container */
+.container {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 680px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/** Title */
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.156;
+}
+
+/** Block */
+.blockContainer:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .blockContainer:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+/*** BlockTitle */
+.blockTitle {
+  font-size: 1.375rem;
+  line-height: 1.182;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+/*** BlockIndex */
+.blockIndex {
+  display: block;
+  font-size: 2.875rem;
+  font-weight: normal;
+  line-height: 1.174;
+  margin-bottom: 1rem;
+}
+
+/*** BlockText */
+.blockText {
+  margin: 0;
+}
