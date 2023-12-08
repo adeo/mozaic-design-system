@@ -31,6 +31,14 @@ module.exports = {
         path: path.join('src', 'data'),
       },
     },
+    'gatsby-transformer-json',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `homeAreas`,
+        path: `./src/home/`,
+      },
+    },
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
