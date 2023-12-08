@@ -1,0 +1,141 @@
+/* AreaContact */
+
+/** Container */
+.container {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 680px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/*  AreaWrapper */
+.wrapper {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #ecfcfd;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 2.5rem;
+}
+
+@media (min-width: 680px) {
+  .wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+/*  AreaWrap */
+.wrap {
+  align-items: stretch !important;
+}
+
+/* AreaTitle */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.156;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+@media (min-width: 1280px) {
+  .title {
+    padding-top: 2.5rem;
+  }
+}
+
+/* AreaHat */
+.hat {
+  font-size: 1rem;
+  line-height: 1.188;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+/* ContactCard */
+.card {
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 2rem 1.5rem 2.5rem;
+}
+
+/* CardContainer */
+.cardContainer {
+  display: flex;
+}
+
+.cardContainer:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .cardContainer:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+/* CardTitle */
+.cardTitle {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+/* CardIcon */
+.cardIcon {
+  display: block;
+  height: 2.5rem;
+  margin: 0;
+  width: 2.5rem;
+}
+
+/* CardText */
+.cardText {
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.167;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+/* CardLink */
+.cardLink {
+  background: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 12px 1.5rem;
+}
