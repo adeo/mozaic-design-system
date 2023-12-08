@@ -1,0 +1,35 @@
+/* Footer */
+
+/** Container */
+.container {
+  align-items: center;
+  border-top: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  min-height: 11.25rem;
+}
+
+/** Content */
+.content {
+  font-size: 0.875rem;
+  line-height: 1.143;
+  margin: 0;
+  text-align: center;
+}
+
+.content span {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.content img {
+  display: inline-block;
+}
+
+.content img:first-of-type {
+  margin-right: 1rem;
+  max-width: 53px;
+}
+.content img:last-of-type {
+  max-width: 62px;
+}
