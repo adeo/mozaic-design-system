@@ -1,108 +1,44 @@
-import React from 'react'
-import styled, { css } from 'styled-components'
-
-import {
-  ColorInfo100,
-  ColorInfo500,
-  ColorInfo700,
-  ColorWarning100,
-  ColorWarning500,
-  ColorWarning700,
-  ColorGrey100,
-  ColorGrey500,
-  ColorGrey700,
-} from '@mozaic-ds/tokens/build/js/tokens'
+import * as React from 'react'
+import * as styles from './highlight.module.css'
 
 const defaultTitles = {
   info: 'Information',
-  warning: 'Warning',
   tips: 'Useful tip',
+  warning: 'Warning',
 }
 
-const Container = styled.div`
-  margin: 2rem 0;
-  padding: 1rem 1.5rem 2rem;
+const getStyles = (type) => {
+  let background, border, color
 
-  ${({ theme }) =>
-    theme === 'info'
-      ? css`
-          background-color: ${ColorGrey100};
-          border-left: solid 8px ${ColorGrey500};
-        `
-      : theme === 'warning'
-      ? css`
-          background-color: ${ColorWarning100};
-          border-left: solid 8px ${ColorWarning500};
-        `
-      : theme === 'tips' &&
-        css`
-          background-color: ${ColorInfo100};
-          border-left: solid 8px ${ColorInfo500};
-        `}
-`
-
-export const Theme = styled.div`
-  font-size: 0.875rem;
-  line-height: 1;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  ${({ theme }) =>
-    theme === 'info'
-      ? css`
-          color: ${ColorGrey700};
-        `
-      : theme === 'warning'
-      ? css`
-          color: ${ColorWarning700};
-        `
-      : theme === 'tips' &&
-        css`
-          color: ${ColorInfo700};
-        `}
-`
-
-const Content = styled.div`
-  margin-top: 0.5rem;
-
-  > :first-child {
-    margin-top: 0;
-  }
-  > :last-child {
-    margin-bottom: 0;
+  switch (type) {
+    case 'tips':
+      background = '#daeff7' // ColorInfo100
+      border = '#0b96cc' // ColorInfo500
+      color = '#005c91' // ColorInfo700
+      break
+    case 'warning':
+      background = '#fdf1e8' // ColorWarning100
+      border = '#ea7315' // ColorWarning500
+      color = '#8c3500' // ColorWarning700
+      break
+    default:
+      background = '#e6e6e6' // ColorGrey100
+      border = '#808080' // ColorGrey500
+      color = '#4d4d4d' // ColorGrey700
   }
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    margin-bottom: 0.5em;
-
-    ${({ theme }) =>
-      theme === 'info'
-        ? css`
-            color: ${ColorGrey700};
-          `
-        : theme === 'warning'
-        ? css`
-            color: ${ColorWarning700};
-          `
-        : theme === 'tips' &&
-          css`
-            color: ${ColorInfo700};
-          `}
+  return {
+    '--background': background,
+    '--border': border,
+    '--color': color,
   }
-`
+}
 
-const Highlight = ({ children, theme = 'info', title }) => (
-  <Container theme={theme}>
-    <Theme theme={theme}>{title ? title : defaultTitles[theme]}</Theme>
-    <Content theme={theme}>{children}</Content>
-  </Container>
+const Highlight = ({ children, type = 'info', title }) => (
+  <div className={styles.container} style={getStyles(type)}>
+    <div className={styles.title}>{title ?? defaultTitles[type]}</div>
+    <div className={styles.content}>{children}</div>
+  </div>
 )
 
 export default Highlight

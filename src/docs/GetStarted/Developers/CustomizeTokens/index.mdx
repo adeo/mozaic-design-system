@@ -17,7 +17,7 @@ As a reminder, we call tokens a series of JSON files containing mostly color val
 
 Those files are transpiled into SCSS, js, ios, and android formats, to be used within multiple platforms and technologies.
 
-<Highlight theme="info" title="For more informations">
+<Highlight type="info" title="For more informations">
 
 Read the following documentations:
 
@@ -41,7 +41,7 @@ module.exports = {
 
 By doing that, you tell **Mozaic** where to look for the source tokens and where to save the compiled ones.
 
-<Highlight theme="tips" title="Good to know">
+<Highlight type="tips" title="Good to know">
 
 The `localTokensExportPath` property is also used in the Mozaic's PostCSS configuration, to tell it where to look for the SCSS tokens.
 
@@ -59,7 +59,7 @@ The default primary color swatch is situated in `@mozaic-ds/tokens/properties/co
 
 Assuming you have the `mozaic.config.js` set up as described in the previous chapter, we need to create a `./src/tokens/properties/color/base.json` file.
 
-<Highlight theme="tips" title="Good to know">
+<Highlight type="tips" title="Good to know">
 
 You can override any value, Mozaic will take care of deep merging the source tokens with the new values you provided.
 
@@ -238,7 +238,7 @@ You will end up with a new button theme without the need to write any CSS or SAS
 </button>
 ```
 
-<Highlight theme="tips">
+<Highlight type="tips">
 
 You can look in the specs tab of the component documentation to help you define which tokens need to be overridden.
 

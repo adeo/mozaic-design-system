@@ -22,13 +22,13 @@ Once you have imported the all-settings file, you can now use the border-radius 
 }
 ```
 
-<Highlight theme="tips" title="Radius values">
+<Highlight type="tips" title="Radius values">
 
-  As a reminder, Mozaic offers you three sizes of border-radius:
+As a reminder, Mozaic offers you three sizes of border-radius:
 
-  - Small: 2px
-  - Medium: 4px
-  - Large: 6px
+- Small: 2px
+- Medium: 4px
+- Large: 6px
 
 </Highlight>
 
@@ -45,6 +45,7 @@ Indeed:
 ```
 
 is the equivalent of:
+
 ```scss
 .example {
   @include set-border-radius('s');
@@ -55,10 +56,10 @@ is the equivalent of:
 
 The `set-border-radius()` mixin allows the use of two parameters:
 
-| Parameter | Description                                                   | Allowable value                                                                                 |
-| --------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **$size** | Defined is the size of the radius                             | `s`, `m`, `m`                                                                                   | 
-| **$side** | Specifies the side of the element where to apply the radius   | `all`, `top`, `bottom`, `left`, `right`, `top-left`, `top-right`, `bottom-left`, `bottom-right` | 
+| Parameter | Description                                                 | Allowable value                                                                                 |
+| --------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **$size** | Defined is the size of the radius                           | `s`, `m`, `m`                                                                                   |
+| **$side** | Specifies the side of the element where to apply the radius | `all`, `top`, `bottom`, `left`, `right`, `top-left`, `top-right`, `bottom-left`, `bottom-right` |
 
 Therefore, if, for example, you want to apply your radius only to the top two sides of your element, you can do so in the following way:
 
