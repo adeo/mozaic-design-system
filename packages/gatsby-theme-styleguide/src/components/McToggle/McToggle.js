@@ -1,5 +1,5 @@
+import * as React from 'react'
 import PropTypes from 'prop-types'
-import React from 'react'
 import './styles.scss'
 
 const McToggle = ({ className, size, label, checked }) => {
@@ -14,7 +14,7 @@ const McToggle = ({ className, size, label, checked }) => {
         type="checkbox"
       />
       <label className="mc-toggle__label" htmlFor={`toggleExample${randomId}`}>
-        <span class="mc-toggle__content">{label}</span>
+        <span className="mc-toggle__content">{label}</span>
       </label>
     </div>
   )

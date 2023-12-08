@@ -1,8 +1,8 @@
-@import '_all-settings.scss';
+@import "settings-tools/all-settings";
 
 @include import-font-families();
 
-@import '_c.text-input.scss';
+@import "components/c.text-input";
 
 .mc-text-input {
   color: $color-grey-999;
