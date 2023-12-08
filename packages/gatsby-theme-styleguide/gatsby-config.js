@@ -4,7 +4,6 @@ const { remarkCodeHike } = require('@code-hike/mdx')
 
 module.exports = {
   plugins: [
-    'gatsby-plugin-styled-components',
     {
       resolve: '@mozaic-ds/gatsby-github-release',
     },
