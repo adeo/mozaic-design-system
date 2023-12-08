@@ -1,5 +1,5 @@
-import React from 'react'
-import './story.css'
+import * as React from 'react'
+import * as styles from './story.module.css'
 
 function Story({ id, width = 800, height = 260, canvas = true }) {
   const embedRatio = (height / width) * 100
@@ -12,17 +12,18 @@ function Story({ id, width = 800, height = 260, canvas = true }) {
   return (
     <>
       <div
-        className="embed-responsive"
+        className={styles.embedResponsive}
         style={{
           '--container-ratio': `${embedRatio}%`,
         }}
       >
         <iframe
-          className="embed-responsive-item"
+          className={styles.embedResponsiveItem}
           height={height}
           loading="lazy"
           src={iframeUrl}
           width={width}
+          title="Story"
         ></iframe>
       </div>
     </>
