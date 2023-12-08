@@ -1,15 +1,7 @@
-import styled from 'styled-components'
-import React from 'react'
+import * as React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-
 import IconTile from './IconTile'
-
-const IconsList = styled.ul`
-  padding: 0;
-  margin: 0 !important;
-  display: flex;
-  flex-wrap: wrap;
-`
+import * as styles from './iconviewer.module.css'
 
 const IconViewer = ({ type }) => {
   const data = useStaticQuery(graphql`
@@ -21,6 +13,7 @@ const IconViewer = ({ type }) => {
           name
           fileName
           iconName
+          componentName
         }
         monochrom {
           cat
@@ -61,8 +54,8 @@ const IconViewer = ({ type }) => {
     <div>
       {Object.keys(categories).map((cat) => (
         <div key={cat}>
-          <h1>{cat}</h1>
-          <IconsList>
+          <h2 className={styles.subtitle}>{cat}</h2>
+          <ul className={styles.list}>
             {Object.keys(categories[cat]).map((name) => (
               <IconTile
                 type={type}
@@ -71,7 +64,7 @@ const IconViewer = ({ type }) => {
                 icons={categories[cat][name]}
               />
             ))}
-          </IconsList>
+          </ul>
         </div>
       ))}
     </div>
