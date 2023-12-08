@@ -1,88 +1,56 @@
-import React from 'react'
-import styled, { css } from 'styled-components'
+import * as React from 'react'
+import * as styles from './hint.module.css'
 
-const HintTitle = styled.h4`
-  color: ${({ type }) => (type === 'dont' ? 'FireBrick' : 'ForestGreen')};
-  margin-top: 0 !important;
-  line-height: 2.3em;
-  border-top: solid 4px
-    ${({ type }) => (type === 'dont' ? 'FireBrick ' : 'ForestGreen ')};
-`
+const getStyles = (dont) => {
+  const border = dont ? 'FireBrick' : 'ForestGreen'
+  const color = dont ? 'FireBrick' : 'ForestGreen'
 
-const Container = styled.div`
-  margin: 2rem 0;
-`
-
-const HintBox = styled.div`
-  border: solid 1px
-    ${({ type }) => (type === 'dont' ? 'FireBrick' : 'ForestGreen')};
-  padding: 15px;
-  border-bottom: 0;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-
-  .gatsby-highlight {
-    margin: 0;
+  return {
+    '--border': border,
+    '--color': color,
   }
+}
 
-  > div,
-  > div > div {
-    margin: 0 !important;
-  }
-`
+const HintBox = ({ children, type }) => {
+  const dont = type === 'dont' ? true : false
 
-const HintItemStyle = styled.div`
-  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
-  padding: 15px;
+  return (
+    <div className={styles.hintBox} style={getStyles(dont)}>
+      {children}
+    </div>
+  )
+}
 
-  ${({ dont }) =>
-    dont
-      ? css`
-          color: FireBrick;
-        `
-      : css`
-          color: ForestGreen;
-        `};
+const Hint = ({ title, children, contentType = 'text', type = 'do' }) => {
+  const dont = type === 'dont' ? true : false
 
-  &:last-child {
-    border-bottom: 0;
-  }
+  return (
+    <div className={styles.container}>
+      {contentType === 'text' && <HintBox type={type}>{children}</HintBox>}
 
-  &:before {
-    display: inline-block;
-    padding-right: 8px;
-    font-size: 1.3em;
-    ${({ dont }) =>
-      dont
-        ? css`
-            color: FireBrick;
-            content: '✕';
-          `
-        : css`
-            color: ForestGreen;
-            content: '✔';
-          `};
-  }
-`
+      {contentType === ('css' || 'javascript' || 'html') && (
+        <HintBox type={type} data-language={contentType}>
+          <pre className={`language-${contentType} gatsby-highlight`}>
+            <code className={`language-${contentType}`}>{children}</code>
+          </pre>
+        </HintBox>
+      )}
 
-export const HintItem = ({ children, dont }) => (
-  <HintItemStyle dont={dont}>{children}</HintItemStyle>
-)
-
-const Hint = ({ title, children, contentType = 'text', type = 'do' }) => (
-  <Container>
-    {contentType === 'text' && <HintBox type={type}>{children}</HintBox>}
-
-    {contentType === ('css' || 'javascript' || 'html') && (
-      <HintBox type={type} data-language={contentType}>
-        <pre className={`language-${contentType} gatsby-highlight`}>
-          <code className={`language-${contentType}`}>{children}</code>
-        </pre>
-      </HintBox>
-    )}
-
-    <HintTitle type={type}>{title}</HintTitle>
-  </Container>
-)
+      <h4 className={styles.hintTitle} style={getStyles(dont)}>
+        {title}
+      </h4>
+    </div>
+  )
+}
 
 export default Hint
+
+export const HintItem = ({ children, dont }) => (
+  <div
+    className={styles.hintItem}
+    data-dont={dont ? 'true' : 'false'}
+    style={getStyles(dont)}
+  >
+    {children}
+  </div>
+)
