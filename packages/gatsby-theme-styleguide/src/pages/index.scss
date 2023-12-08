@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext');
-@import '_all-settings.scss';
-@import '_l.flexy.scss';
+@import "https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext";
+@import "settings-tools/all-settings";
+@import "layouts/l.flexy";
 
 body,
 html {
   box-sizing: border-box;
   color: #000;
-  font-family: 'Karla', sans-serif !important;
+  font-family: Karla, sans-serif !important;
   font-size: 16px !important;
   font-weight: 400;
   line-height: 1.45;
@@ -22,7 +22,7 @@ html {
 
 input,
 select {
-  font-family: 'Karla', sans-serif;
+  font-family: Karla, sans-serif;
 }
 
 .button {
