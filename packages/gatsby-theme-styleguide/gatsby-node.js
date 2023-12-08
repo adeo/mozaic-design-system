@@ -3,6 +3,10 @@ const path = require('path')
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const postTemplate = path.resolve(`${__dirname}/src/templates/pattern-page.js`)
+const colorsTokensLM =
+  require('@mozaic-ds/tokens/build/js/tokensObject.js').color
+const colorsTokensAdeo =
+  require('@mozaic-ds/tokens/buildAdeo/js/tokensObject.js').color
 
 /**
  * gatsby api hook that will run when the development server is started
@@ -88,4 +92,39 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
   })
+}
+
+/**
+ * Add Mozaic Colors to GraphQL
+ */
+
+exports.sourceNodes = async (gatsbyApi) => {
+  function createTokensColorNode(colorsTokens, nodeName) {
+    Object.keys(colorsTokens).map((tokens) => {
+      if (
+        [100] in colorsTokens[tokens] ||
+        'primary-01' in colorsTokens[tokens]
+      ) {
+        const nodeData = Object.assign(
+          {},
+          {
+            colors: JSON.stringify(colorsTokens[tokens]),
+            id: gatsbyApi.createNodeId(`${tokens}${nodeName}`),
+            internal: {
+              type: `${nodeName}`,
+              contentDigest: gatsbyApi.createContentDigest(
+                colorsTokens[tokens],
+              ),
+            },
+            name: tokens,
+          },
+        )
+
+        gatsbyApi.actions.createNode(nodeData)
+      }
+    })
+  }
+
+  createTokensColorNode(colorsTokensLM, 'ColorLM')
+  createTokensColorNode(colorsTokensAdeo, 'ColorAdeo')
 }
