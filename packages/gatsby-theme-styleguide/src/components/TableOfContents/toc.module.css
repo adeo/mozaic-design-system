@@ -1,0 +1,74 @@
+.toc {
+  flex: 1;
+  order: -1;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .toc {
+    order: initial;
+    max-width: 16.5rem;
+  }
+}
+
+.tocWrapper {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .tocWrapper {
+    border-left: 1px solid #887f87;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+  }
+}
+
+.tocTitle {
+  color: #3c3738;
+  font-size: 0.75rem;
+  font-weight: normal;
+  margin: 0 auto 1.5rem;
+  padding-left: 1rem;
+  text-transform: uppercase;
+}
+
+.tocList {
+  list-style-type: none;
+}
+
+.tocItem:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+
+.tocItem .tocItem {
+  margin-bottom: 0;
+}
+
+.tocItem .tocItem .tocLink {
+  font-size: 0.75rem;
+  min-height: 1.5rem;
+  padding: 0.25rem 1rem 0.1875rem 2rem;
+}
+
+.tocItem .tocItem .tocItem .tocLink {
+  padding-left: 3rem;
+}
+
+.tocLink {
+  color: #000;
+  display: block;
+  font-size: 0.875rem;
+  min-height: 1.875rem;
+  padding: 0.3125rem 1rem;
+}
+
+.tocLink:active,
+.tocLink:focus,
+.tocLink:hover,
+.tocLinkActive {
+  background: #eeeef0;
+  font-weight: bold;
+}
