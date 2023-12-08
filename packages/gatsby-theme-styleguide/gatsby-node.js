@@ -2,7 +2,6 @@ const express = require('express')
 const path = require('path')
 const fs = require('fs')
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const postTemplate = path.resolve(`${__dirname}/src/templates/pattern-page.js`)
 const colorsTokensLM =
   require('@mozaic-ds/tokens/build/js/tokensObject.js').color
 const colorsTokensAdeo =
@@ -59,39 +58,6 @@ const debounce = (fnc, tm) => {
       fnc.apply(this, arguments)
     }, tm)
   }
-}
-
-exports.createPages = async ({ actions, graphql, reporter }) => {
-  // Destructure the createPage function from the actions object
-  const { createPage } = actions
-  const result = await graphql(`
-    query {
-      allMdx {
-        nodes {
-          fields {
-            slug
-          }
-          internal {
-            contentFilePath
-          }
-        }
-      }
-    }
-  `)
-  if (result.errors) {
-    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query')
-  }
-
-  // MDX
-  result.data.allMdx.nodes.forEach((node) => {
-    createPage({
-      path: `${node.fields.slug}`,
-      component: `${postTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
-      context: {
-        slug: node.fields.slug,
-      },
-    })
-  })
 }
 
 /**
