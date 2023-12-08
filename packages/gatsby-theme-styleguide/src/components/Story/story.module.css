@@ -1,4 +1,4 @@
-.embed-responsive {
+.embedResponsive {
   position: relative;
   display: block;
   width: 100%;
@@ -10,13 +10,13 @@
   margin: 2rem auto;
 }
 
-.embed-responsive:before {
+.embedResponsive:before {
   padding-top: var(--container-ratio);
   display: block;
   content: '';
 }
 
-.embed-responsive-item {
+.embedResponsiveItem {
   position: absolute;
   top: 0;
   bottom: 0;
