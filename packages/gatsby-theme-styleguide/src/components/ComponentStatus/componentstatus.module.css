@@ -1,0 +1,49 @@
+.statusContainer,
+.statusItem,
+.statusLabel {
+  align-items: center;
+}
+
+.statusContainer,
+.statusLabel {
+  display: flex;
+}
+
+.statusItem,
+.statusLabel {
+  gap: 0.25rem;
+}
+
+.statusContainer {
+  gap: 1rem;
+}
+
+.statusItem {
+  display: inline-flex;
+}
+
+.statusLabel {
+  color: black;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.statusName {
+}
+
+.statusLink {
+  align-items: center;
+  color: black;
+  display: flex;
+  font-weight: bold;
+}
+
+.statusFlag {
+  color: var(--color, currentColor);
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-left: 0.2rem;
+}
