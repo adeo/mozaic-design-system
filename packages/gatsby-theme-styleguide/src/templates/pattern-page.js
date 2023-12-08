@@ -4,8 +4,6 @@ import styled, { css } from 'styled-components'
 import { MagicUnit } from '@mozaic-ds/tokens/build/js/tokens.js'
 import Layout from '../components/layout'
 import MenuButton from '../components/Menu/MenuButton'
-import PatternStatusGroup from '../components/PatternStatusGroup'
-import JSImplementation from '../components/JSImplementation'
 import PageTabs from '../components/PageTabs'
 import TableOfContents from '../components/TableOfContents'
 
@@ -87,11 +85,11 @@ const PatternPage = ({ children, data, location }) => {
   const samePageTabs = [...data.allMdx.nodes].filter((node) => {
     const nodePath = node.fields.fileName.relativePath.replace(
       node.fields.fileName.base,
-      ''
+      '',
     )
     const postPath = post.fields.fileName.relativePath.replace(
       post.fields.fileName.base,
-      ''
+      '',
     )
 
     return nodePath === postPath
@@ -101,7 +99,7 @@ const PatternPage = ({ children, data, location }) => {
 
   // use the index status for all other tabs
   const parentFrontmatter = samePageTabs.find(
-    (tab) => tab.fields.fileName.name === 'index'
+    (tab) => tab.fields.fileName.name === 'index',
   ).frontmatter
   const parentTitle = parentFrontmatter.title
   const parentStatus = parentFrontmatter.status
@@ -121,8 +119,6 @@ const PatternPage = ({ children, data, location }) => {
               <HeaderCategory>{mainCategory[1]}</HeaderCategory>
             )}
             <HeaderTitle>{parentTitle}</HeaderTitle>
-            <PatternStatusGroup status={parentStatus} />
-            <JSImplementation links={parentLinks} />
           </Header>
         </FullWidthContainer>
         {hasTabs && <PageTabs samePageTabs={samePageTabs} />}
