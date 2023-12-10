@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   siteMetadata: {
     title: 'Mozaic Design System',
     siteUrl: 'https://mozaic.adeo.cloud/',
@@ -15,3 +15,5 @@ module.exports = {
     },
   ],
 }
+
+export default config

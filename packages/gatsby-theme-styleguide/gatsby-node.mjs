@@ -1,16 +1,19 @@
-const path = require('path')
-const { createFilePath } = require(`gatsby-source-filesystem`)
+import { createRequire } from 'module'
+import { basename } from 'path'
+import { createFilePath } from 'gatsby-source-filesystem'
+const require = createRequire(import.meta.url)
+
 const colorsTokensLM =
   require('@mozaic-ds/tokens/build/js/tokensObject.js').color
 const colorsTokensAdeo =
   require('@mozaic-ds/tokens/buildAdeo/js/tokensObject.js').color
 
-exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
+export const onCreateNode = ({ node, getNode, actions, reporter }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `docs` })
-    const fileName = path.basename(node.internal.contentFilePath)
+    const fileName = basename(node.internal.contentFilePath)
 
     const keywords = `${slug.split('/').join(', ')}, ${
       node.frontmatter.searchKeywords
@@ -40,7 +43,7 @@ exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
  * Add Mozaic Colors to GraphQL
  */
 
-exports.sourceNodes = async (gatsbyApi) => {
+export const sourceNodes = async (gatsbyApi) => {
   function createTokensColorNode(colorsTokens, nodeName) {
     Object.keys(colorsTokens).map((tokens) => {
       if (
