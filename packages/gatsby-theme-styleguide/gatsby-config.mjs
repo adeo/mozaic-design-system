@@ -1,15 +1,16 @@
 import { join } from 'path'
 import { createRequire } from 'module'
 import { remarkCodeHike } from '@code-hike/mdx'
+import remarkGfm from 'remark-gfm'
 const require = createRequire(import.meta.url)
 
 const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
 
 const config = {
   plugins: [
-    {
-      resolve: '@mozaic-ds/gatsby-github-release',
-    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
+    `@mozaic-ds/gatsby-github-release`,
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -21,11 +22,10 @@ const config = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: join('src'),
+        name: `docs`,
+        path: join('src', 'docs'),
       },
     },
-    'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -33,7 +33,6 @@ const config = {
         path: join('src', 'data'),
       },
     },
-    'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -44,7 +43,7 @@ const config = {
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
-        extensions: [`.mdx`],
+        extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-autolink-headers',
@@ -53,10 +52,12 @@ const config = {
               className: 'anchor-toc',
             },
           },
-          'gatsby-remark-static-images',
+          `gatsby-remark-images`,
+          `gatsby-remark-static-images`,
         ],
         mdxOptions: {
           remarkPlugins: [
+            remarkGfm,
             [
               remarkCodeHike,
               {
