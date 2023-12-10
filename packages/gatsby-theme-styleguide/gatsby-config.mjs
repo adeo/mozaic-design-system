@@ -1,8 +1,11 @@
-const path = require('path')
-const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
-const { remarkCodeHike } = require('@code-hike/mdx')
+import { join } from 'path'
+import { createRequire } from 'module'
+import { remarkCodeHike } from '@code-hike/mdx'
+const require = createRequire(import.meta.url)
 
-module.exports = {
+const MozaicPaths = require('@mozaic-ds/css-dev-tools/sassConfig.js')
+
+const config = {
   plugins: [
     {
       resolve: '@mozaic-ds/gatsby-github-release',
@@ -19,7 +22,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: path.join('src'),
+        path: join('src'),
       },
     },
     'gatsby-transformer-json',
@@ -27,7 +30,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: path.join('src', 'data'),
+        path: join('src', 'data'),
       },
     },
     'gatsby-transformer-json',
@@ -125,3 +128,5 @@ module.exports = {
     },
   ],
 }
+
+export default config
