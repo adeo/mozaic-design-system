@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.68.0](https://github.com/adeo/mozaic-design-system/compare/v1.67.0...v1.68.0) (2023-12-11)
+
+### Features
+
+- **component/progressbar:** update style & structure according to the new design ([#1508](https://github.com/adeo/mozaic-design-system/issues/1508)) ([23338c3](https://github.com/adeo/mozaic-design-system/commit/23338c37f8a003735807d6ad277f714821d75d5f))
+- **components/loader:** add token for color theme ([#12](https://github.com/adeo/mozaic-design-system/issues/12)) ([7a16d89](https://github.com/adeo/mozaic-design-system/commit/7a16d8938c3988ff05e7b793ebd96c2aad1180ea))
+- **tools/tokens:** update tokens for loader color theme ([a73f614](https://github.com/adeo/mozaic-design-system/commit/a73f6144b9cb5a3aa0083fe86011a196672d756b))
+
 # [1.67.0](https://github.com/adeo/ads-styles/compare/v1.66.0...v1.67.0) (2023-10-16)
 
 ### Features

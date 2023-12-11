@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.68.0](https://github.com/adeo/mozaic-design-system/compare/v1.67.0...v1.68.0) (2023-12-11)
+
+### Bug Fixes
+
+- **component/datatable:** remove unnecessary paddings from datatable header elements ([#20](https://github.com/adeo/mozaic-design-system/issues/20)) ([#1510](https://github.com/adeo/mozaic-design-system/issues/1510)) ([a77aa5d](https://github.com/adeo/mozaic-design-system/commit/a77aa5da360811f50d4dab448a129734126b8357))
+- **settings/icons:** re-add the 'notification-circle-available-24' icon ([#1509](https://github.com/adeo/mozaic-design-system/issues/1509)) ([21f4f30](https://github.com/adeo/mozaic-design-system/commit/21f4f309937d79bc696375a087b11f02a1c3e351))
+
+### Features
+
+- **component/accordion:** clean & improve component styles ([#1511](https://github.com/adeo/mozaic-design-system/issues/1511)) ([d0b7286](https://github.com/adeo/mozaic-design-system/commit/d0b7286fbbd3b45555c93613fd6a8352f49ef06f))
+- **component/listbox:** evolve component structure and styles ([#1512](https://github.com/adeo/mozaic-design-system/issues/1512)) ([8ecf7ea](https://github.com/adeo/mozaic-design-system/commit/8ecf7eadf56fad11dd3dada3f6425a84ea7ee740))
+- **component/progressbar:** update style & structure according to the new design ([#1508](https://github.com/adeo/mozaic-design-system/issues/1508)) ([23338c3](https://github.com/adeo/mozaic-design-system/commit/23338c37f8a003735807d6ad277f714821d75d5f))
+- **components/loader:** add token for color theme ([#12](https://github.com/adeo/mozaic-design-system/issues/12)) ([7a16d89](https://github.com/adeo/mozaic-design-system/commit/7a16d8938c3988ff05e7b793ebd96c2aad1180ea))
+
 # [1.67.0](https://github.com/adeo/ads-styles/compare/v1.66.0...v1.67.0) (2023-10-16)
 
 ### Bug Fixes
