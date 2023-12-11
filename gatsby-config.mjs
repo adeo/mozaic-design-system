@@ -14,6 +14,9 @@ const config = {
       },
     },
   ],
+  flags: {
+    FAST_DEV: true,
+  },
 }
 
 export default config
