@@ -22,6 +22,7 @@ packages/icons/js
 packages/icons/pdf
 packages/icons/pdf-color
 packages/icons/svg
+packages/icons/vue
 
 # Misc
 .cache/
