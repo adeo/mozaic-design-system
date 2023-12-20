@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.68.1](https://github.com/adeo/mozaic-design-system/compare/v1.68.0...v1.68.1) (2023-12-20)
+
+### Bug Fixes
+
+- **stylelint:** add readme to mozaic-ds/stylelint-plugin-mozaic ([103a437](https://github.com/adeo/mozaic-design-system/commit/103a4371da5b4c999f5589d8d9e99bd70735868d))
+
 # [1.68.0](https://github.com/adeo/mozaic-design-system/compare/v1.67.0...v1.68.0) (2023-12-11)
 
 **Note:** Version bump only for package @mozaic-ds/stylelint-plugin-mozaic
