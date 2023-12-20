@@ -1,0 +1,21 @@
+<h1 align="center">
+  @mozaic-ds/stylelint-plugin-mozaic
+</h1>
+==================================
+
+Overview
+--------
+
+`@mozaic-ds/stylelint-plugin-mozaic` is a Stylelint plugin designed to enforce Mozaic's class naming conventions. This plugin ensures that your CSS aligns with the established standards of Mozaic, helping maintain consistency and readability across your project.
+
+Installation
+------------
+
+To install the plugin, run the following command in your project directory:
+
+`npm install @mozaic-ds/stylelint-plugin-mozaic --save-dev`
+
+or
+
+`yarn add @mozaic-ds/stylelint-plugin-mozaic --dev`
+
