@@ -9,7 +9,7 @@
     "@mozaic-ds/postcss-prepend": "^1.60.0",
     "@mozaic-ds/stylelint-plugin-mozaic": "^1.68.1",
     "autoprefixer": "^10.4.16",
-    "cssnano": "^6.0.1",
+    "cssnano": "^6.0.2",
     "dotenv": "^16.3.1",
     "postcss": "^8.4.32",
     "postcss-reporter": "^7.0.5",
