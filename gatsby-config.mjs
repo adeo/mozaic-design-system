@@ -8,9 +8,16 @@ const config = {
   plugins: [
     '@mozaic-ds/gatsby-theme-styleguide',
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-123240222-19',
+        trackingIds: ['G-36LEF1V8XB'],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
       },
     },
   ],

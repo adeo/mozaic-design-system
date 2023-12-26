@@ -8159,14 +8159,13 @@ gatsby-plugin-flexsearch@^1.0.3:
     fs "^0.0.1-security"
     lodash "^4.17.11"
 
-gatsby-plugin-google-analytics@^5.12.0:
+gatsby-plugin-google-gtag@^5.13.0:
   version "5.13.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.13.0.tgz#dca932a2739b9b6d817c88a3bde9dbfd6e46dc23"
-  integrity sha512-zKl8j/Ob3yaZF1o7YTaj4vfyCCJ8mlLBLrzMSaBZpFaHdGjuxFxrOeLCaRvjT1HwRM+X9sxxj99fi6nDGnLWRw==
+  resolved "https://registry.npmjs.org/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-5.13.0.tgz#82ee1caf1a59de5bb7b36ce5ab16e53593b1d5ce"
+  integrity sha512-UPC/wET8T6ZdNjpQrz43EnRUQ2WjTX5E7HT3kfwshcYSjtGyBo4RxDdY6lnnmG8gQxmsUL86cvzqQt0ojs2xAQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
     minimatch "^3.1.2"
-    web-vitals "^1.1.2"
 
 gatsby-plugin-mdx@^5.12.3:
   version "5.13.0"
@@ -17458,11 +17457,6 @@ weak-lru-cache@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/weak-lru-cache/-/weak-lru-cache-1.2.2.tgz#fdbb6741f36bae9540d12f480ce8254060dccd19"
   integrity sha512-DEAoo25RfSYMuTGc9vPJzZcZullwIqRDSI9LOy+fkCJPi6hykCnfKaXTuPBDuXAUcqHXyOgFtHNp/kB2FjYHbw==
-
-web-vitals@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.2.tgz#06535308168986096239aa84716e68b4c6ae6d1c"
-  integrity sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
