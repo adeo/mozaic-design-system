@@ -1,37 +1,36 @@
 /* mqp:start */
 .mt-hero {
-  @include set-font-face('regular');
-  @include set-font-scale('09');
+  @include set-font-scale("09");
 
-  @include set-from-screen('m') {
-    @include set-font-scale('10');
+  @include set-from-screen("m") {
+    @include set-font-scale("10");
   }
 
-  @include set-from-screen('l') {
-    @include set-font-scale('11');
+  @include set-from-screen("l") {
+    @include set-font-scale("11");
   }
 
-  @include set-from-screen('xl-medium') {
-    @include set-font-scale('12');
+  @include set-from-screen("xl-medium") {
+    @include set-font-scale("12");
   }
 
   &--semi-bold {
-    @include set-font-face('semi-bold');
+    @include set-font-weight("semi-bold");
   }
 
   &--line-height-s {
-    @include set-line-height('09', 's');
+    @include set-line-height("09", "s");
 
-    @include set-from-screen('m') {
-      @include set-line-height('10', 's');
+    @include set-from-screen("m") {
+      @include set-line-height("10", "s");
     }
 
-    @include set-from-screen('l') {
-      @include set-line-height('11', 's');
+    @include set-from-screen("l") {
+      @include set-line-height("11", "s");
     }
 
-    @include set-from-screen('xl-medium') {
-      @include set-line-height('12', 's');
+    @include set-from-screen("xl-medium") {
+      @include set-line-height("12", "s");
     }
   }
 }

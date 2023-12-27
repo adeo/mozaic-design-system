@@ -7,4 +7,6 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M36.26 7H11.74a2 2 0 00-1.56.75l-5.6 7a2 2 0 000 2.49l17.85 22.69a2 2 0 003.14 0l17.86-22.69a2 2 0 000-2.49l-5.6-7A2 2 0 0036.26 7zM14.51 17.5l5.86 15-11.78-15zM23 10v4.5h-6.27l1.93-4.5zm6.34 0l1.93 4.5H25V10zm2 7.5L25 33.7V17.5zm-8.34 0v16.2l-6.34-16.2zm10.49 0h5.92l-11.78 15zm5.89-3h-5.93L31.52 10h4.26zM12.22 10h4.26l-1.93 4.5H8.62z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <path fill-rule="evenodd" d="M12.535 8.5a2.5 2.5 0 0 0-2.08 1.113l-5.283 7.925a2.5 2.5 0 0 0 .182 3.013l16.748 19.54a2.5 2.5 0 0 0 3.796 0l16.747-19.54a2.5 2.5 0 0 0 .182-3.013l-5.283-7.925a2.5 2.5 0 0 0-2.08-1.113H12.535Zm-3.732 9 4-6h4.436l-2.667 6h-5.77Zm7.958 0 2.667-6h9.144l2.667 6H16.761Zm14.508 3H16.731L24 37.461 31.27 20.5Zm-3.117 12.351L33.445 20.5h5.293L28.152 32.851ZM33.428 17.5l-2.667-6h4.436l4 6h-5.77Zm-24.167 3h5.294l5.293 12.352L9.261 20.5Z"/>
+</svg>

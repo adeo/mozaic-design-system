@@ -7,4 +7,6 @@
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 20h-2V5a1 1 0 00-1-1h-1V3a1 1 0 00-1-1H8a1 1 0 00-1 1v1H6a1 1 0 00-1 1v15H3a1 1 0 000 2h18a1 1 0 000-2zm-10.5 0v-4h3v4zm5 0v-5a1 1 0 00-1-1h-5a1 1 0 00-1 1v5H7V6h10v14z"/><path d="M14.5 10.5h-5a1 1 0 000 2h5a1 1 0 000-2zM14.5 7.5h-5a1 1 0 000 2h5a1 1 0 000-2z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M7 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v1h1a1 1 0 0 1 1 1v15h2a1 1 0 1 1 0 2H3a1 1 0 1 1 0-2h2V5a1 1 0 0 1 1-1h1V3Zm3.5 17h3v-4h-3v4Zm5 0v-5a1 1 0 0 0-1-1h-5a1 1 0 0 0-1 1v5H7V6h10v14h-1.5Zm-7-11.5a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1Zm5-1a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2h-1Zm-5 4a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1Zm5-1a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2h-1Z"/>
+</svg>

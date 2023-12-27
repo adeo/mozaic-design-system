@@ -4,9 +4,9 @@ import { createFilePath } from 'gatsby-source-filesystem'
 const require = createRequire(import.meta.url)
 
 const colorsTokensLM =
-  require('@mozaic-ds/tokens/build/js/tokensObject.js').color
+  require('@mozaic-ds/tokens/build/lm/js/tokensObject.js').color
 const colorsTokensAdeo =
-  require('@mozaic-ds/tokens/buildAdeo/js/tokensObject.js').color
+  require('@mozaic-ds/tokens/build/adeo/js/tokensObject.js').color
 
 export const onCreateNode = ({ node, getNode, actions, reporter }) => {
   const { createNodeField } = actions

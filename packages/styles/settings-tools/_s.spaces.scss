@@ -2,23 +2,23 @@
 // do not use them anywhere,
 // it is used internally and may change
 $sizes: (
-  '025': $mu025,
-  '050': $mu050,
-  '075': $mu075,
-  '100': $mu100,
-  '125': $mu125,
-  '150': $mu150,
-  '200': $mu200,
-  '250': $mu250,
-  '300': $mu300,
-  '350': $mu350,
-  '400': $mu400,
-  '500': $mu500,
-  '600': $mu600,
-  '700': $mu700,
-  '800': $mu800,
-  '900': $mu900,
-  '1000': $mu1000,
+  "025": $mu025,
+  "050": $mu050,
+  "075": $mu075,
+  "100": $mu100,
+  "125": $mu125,
+  "150": $mu150,
+  "200": $mu200,
+  "250": $mu250,
+  "300": $mu300,
+  "350": $mu350,
+  "400": $mu400,
+  "500": $mu500,
+  "600": $mu600,
+  "700": $mu700,
+  "800": $mu800,
+  "900": $mu900,
+  "1000": $mu1000,
 );
 
 // top, right, left, bottom, all, vertical, horizontal
@@ -32,12 +32,12 @@ $sides: (
   'h': 'horizontal',
 );
 $props: (
-  'm': 'margin',
-  'p': 'padding',
+  "m": "margin",
+  "p": "padding",
 );
 
 @mixin make-space-util($prop, $side, $size) {
-  @if ($side == 'all') {
+  @if $side == "all" {
     .mu-#{$prop}-#{$size} {
       #{map-get($props, $prop)}: #{map-get($sizes, $size)} !important;
     }

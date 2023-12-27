@@ -1,18 +1,12 @@
 const config = require('../config')
-const {
-  generateMonochromListObject,
-  generateColorListObject,
-  checkPath,
-  writeFile,
-} = require('./lib')
+const { generateMonochromListObject, checkPath, writeFile } = require('./lib')
 
 const generateIconsData = (icons) =>
   new Promise((resolve, reject) => {
     let allIcons
     try {
       allIcons = {
-        color: generateColorListObject(icons[1]),
-        monochrom: generateMonochromListObject(icons[0]),
+        monochrom: generateMonochromListObject(icons),
       }
     } catch (err) {
       reject(

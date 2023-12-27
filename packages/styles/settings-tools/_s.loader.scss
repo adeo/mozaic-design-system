@@ -45,6 +45,6 @@ $loader-default-theme: map-get($loader-theme, "primary");
   color: $color-loader;
 
   #{$parent}__path {
-    stroke: currentColor;
+    stroke: currentcolor;
   }
 }

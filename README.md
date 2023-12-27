@@ -2,7 +2,7 @@
   Adeo Design System
 </h1>
 
-> Mozaic is an open-source design system built by Adeo, designed to help set up a coherent human experience, to reinforce team’s delivery time and improve quality of deliverables.
+> Mozaic is an open-source design system built by ADEO, designed to help set up a coherent human experience, to reinforce team’s delivery time and improve quality of deliverables.
 
 <p align="center">
   <a href="https://github.com/adeo/mozaic-design-system/blob/master/.prettierrc">

@@ -15,6 +15,7 @@ Import the **settings**, the **modal**, the **bodys**, and the **button** scss f
 @import 'components/c.divider';
 @import 'components/c.modal';
 @import 'components/c.button';
+@import 'components/c.overlay';
 ```
 
 ## Usage
@@ -153,7 +154,7 @@ Just as the width of a modal varies according to the rules indicated above, the 
 During the opening of a modal by Javascript, several events occur:
 
 - Added the `is-open` class on the `mc-modal__dialog` element.
-- A `mc-modal-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
+- A `mc-overlay` element is generated in the DOM. This element must also have the class `is-visible`.
 
 <Story id="overlay-modal--default" height="530" />
 

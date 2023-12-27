@@ -9,7 +9,7 @@ import {
   IconVue,
   IconReact,
   House32,
-  PartnerWorker32,
+  Craftsman32,
   Premium32,
   ToolBox32,
 } from '../icons'
@@ -78,7 +78,7 @@ const Header = () => (
           </div>
           <div className={styles.headerWrapper}>
             <Premium32 />
-            <PartnerWorker32 />
+            <Craftsman32 />
             <House32 />
             <ToolBox32 />
           </div>

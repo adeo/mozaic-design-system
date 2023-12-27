@@ -3,7 +3,7 @@ const error = (name, error) => `in ${name} : ${error}`
 const validator = (svgName, sizeDirectory) => {
   let errors = []
 
-  if (!/^[a-zA-Z0-9]+_[A-Z][A-Za-z0-9-]+_/.test(svgName)) {
+  if (!/^[a-zA-Z0-9]+_[A-Za-z0-9-]+_/.test(svgName)) {
     errors.push(
       error(
         svgName,
@@ -14,12 +14,6 @@ const validator = (svgName, sizeDirectory) => {
 
   if (svgName.includes(' ')) {
     errors.push(error(svgName, 'icon file name should not contain spaces'))
-  }
-
-  if (!/_(16|24|32|48|64|96)px.svg$/.test(svgName)) {
-    errors.push(
-      error(svgName, 'icon file name should always end with _[size]px.svg')
-    )
   }
 
   if (!svgName.includes(`${sizeDirectory}.svg`)) {

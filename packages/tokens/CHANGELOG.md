@@ -3,6 +3,115 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-rc.14](https://github.com/adeo/mozaic-design-system/compare/v1.53.0...v2.0.0-rc.14) (2023-02-03)
+
+
+### Bug Fixes
+
+* **tools/tokens:** update script tokens:clean ([#1321](https://github.com/adeo/mozaic-design-system/issues/1321)) ([f5e5b35](https://github.com/adeo/mozaic-design-system/commit/f5e5b35b517a42b1c7de622f28c0e421a856d6c2))
+
+
+### Features
+
+* **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([cff2041](https://github.com/adeo/mozaic-design-system/commit/cff2041c83def6826a60597083d4501d28fb4031))
+* **tools/tokens:** add tokens for datatable component ([#1337](https://github.com/adeo/mozaic-design-system/issues/1337)) ([d2c5d54](https://github.com/adeo/mozaic-design-system/commit/d2c5d54130f7e6a7e4457621deb0044a00ca0324))
+* **tools/tokens:** add tokens for font-family & font-weight ([#1339](https://github.com/adeo/mozaic-design-system/issues/1339)) ([cf10733](https://github.com/adeo/mozaic-design-system/commit/cf10733ee5bca73e23f88bcf1223c133c46d95f4)), closes [#1221](https://github.com/adeo/mozaic-design-system/issues/1221)
+* **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([867be40](https://github.com/adeo/mozaic-design-system/commit/867be401fa4ee72543fd8a9ef1253fa6a23e66a5)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+* **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([174bac8](https://github.com/adeo/mozaic-design-system/commit/174bac8322244a8960fbfba2e8bf1d2536465f97)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
+
+
+
+
+
+# [2.0.0-rc.13](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.12...v2.0.0-rc.13) (2023-01-06)
+
+
+### Bug Fixes
+
+* **tools/tokens:** update script tokens:clean ([#1321](https://github.com/adeo/mozaic-design-system/issues/1321)) ([bc4abc0](https://github.com/adeo/mozaic-design-system/commit/bc4abc07e5704aaa2e06997028ef9eac9d1065aa))
+
+
+
+
+
+# [2.0.0-rc.12](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.11...v2.0.0-rc.12) (2022-12-29)
+
+
+### Features
+
+* **tools/tokens:** build all preset within the tokens package ([#1299](https://github.com/adeo/mozaic-design-system/issues/1299)) ([c9353dd](https://github.com/adeo/mozaic-design-system/commit/c9353dda749e1d06bd6610d32652748002d0b87e)), closes [#1232](https://github.com/adeo/mozaic-design-system/issues/1232)
+
+
+
+
+
+# [2.0.0-rc.10](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.9...v2.0.0-rc.10) (2022-12-26)
+
+
+### Features
+
+* **tools/css-dev-tools:** remove postcss-base64 & base64 transformation ([#1258](https://github.com/adeo/mozaic-design-system/issues/1258)) ([0b3d47b](https://github.com/adeo/mozaic-design-system/commit/0b3d47b96c5d898b65e99940268eb861f171758a))
+
+
+
+
+
+# [2.0.0-rc.9](https://github.com/adeo/mozaic-design-system/compare/v1.50.1...v2.0.0-rc.9) (2022-12-19)
+
+
+### Features
+
+* **tools/tokens:** enable tokens export based on parameters ([#1189](https://github.com/adeo/mozaic-design-system/issues/1189)) ([614c486](https://github.com/adeo/mozaic-design-system/commit/614c486a138790d4c6cee5a323f672841463422e)), closes [#996](https://github.com/adeo/mozaic-design-system/issues/996)
+
+
+
+
+
+# [2.0.0-rc.4](https://github.com/adeo/mozaic-design-system/compare/v1.31.0...v2.0.0-rc.4) (2022-05-04)
+
+
+### Bug Fixes
+
+
+* **pattern/colors:** update the color of the notification icons ([#1104](https://github.com/adeo/mozaic-design-system/issues/1104)) ([4bfba3f](https://github.com/adeo/mozaic-design-system/commit/4bfba3fce58f84ea8179d4223252662b28e3812d))
+
+
+### Features
+
+* **tools/tokens:** regenerate tokens with the new LM colors ([7c39d7e](https://github.com/adeo/mozaic-design-system/commit/7c39d7e9e27d6417c57320791decf216002c3c02))
+
+
+
+# [2.0.0-rc.3](https://github.com/adeo/mozaic-design-system/compare/v2.0.0-rc.2...v2.0.0-rc.3) (2022-04-05)
+
+**Note:** Version bump only for package @mozaic-ds/tokens
+
+
+
+
+
+# [2.0.0-rc.2](https://github.com/adeo/mozaic-design-system/compare/v1.29.1...v2.0.0-rc.2) (2022-04-05)
+
+
+### Features
+
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8392150](https://github.com/adeo/mozaic-design-system/commit/839215063a46de6c80fe1f31216dae1f379fdc74))
+
+
+
+
+
+# [2.0.0-rc.1](https://github.com/adeo/mozaic-design-system/compare/v1.29.0...v2.0.0-rc.1) (2022-03-31)
+
+
+### Features
+
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([4691c6a](https://github.com/adeo/mozaic-design-system/commit/4691c6a9fcf3d74366ba075d5f7724fa7198bdc2))
+
+
+
+
+
 # [1.68.0](https://github.com/adeo/mozaic-design-system/compare/v1.67.0...v1.68.0) (2023-12-11)
 
 ### Features
@@ -155,6 +264,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [1.26.0](https://github.com/adeo/mozaic-design-system/compare/v1.25.0...v1.26.0) (2022-03-02)
 
 **Note:** Version bump only for package @mozaic-ds/tokens
+
+
+
+
+
+# [2.0.0-rc.0](https://github.com/adeo/mozaic-design-system/compare/v1.24.2...v2.0.0-rc.0) (2022-02-08)
+
+
+### Features
+
+* **pattern/colors:** add new LM colours ([#999](https://github.com/adeo/mozaic-design-system/issues/999)) ([8854fb8](https://github.com/adeo/mozaic-design-system/commit/8854fb89fda1ecd3d9be10b9fcc7aa102fdc7102))
+
+
+
+
 
 # [1.22.0](https://github.com/adeo/mozaic-design-system/compare/v1.21.0...v1.22.0) (2021-12-22)
 

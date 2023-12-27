@@ -1,6 +1,5 @@
-@mixin reset-input {
-  @include set-font-face("regular");
-
+@mixin reset-input() {
+  font-family: inherit;
   box-sizing: border-box;
   outline: none;
   appearance: none;
@@ -18,10 +17,11 @@
   }
 
   /* for mozilla */
-  /* stylelint-disable-next-line */
+  /* stylelint-disable property-no-vendor-prefix, no-duplicate-selectors */
   &[type="number"] {
     -moz-appearance: textfield;
   }
+  /* stylelint-enable property-no-vendor-prefix, no-duplicate-selectors */
 
   &[type="search"] {
     &::-webkit-search-decoration:hover,

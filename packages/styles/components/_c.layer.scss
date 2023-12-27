@@ -3,7 +3,6 @@
 .mc-layer {
   $parent: get-parent-selector(&);
 
-  @include set-font-face();
   @include set-dialog-base();
 
   display: flex;
@@ -119,8 +118,9 @@
     @include set-focus-floating-base();
 
     align-self: flex-start;
-    background: transparent
-      url(inline-icons("control-cross-32", $color-dialog-close)) no-repeat;
+    background-color: transparent;
+    background-image: url("#{inline-icons('control-cross-32', $color-grey-500)}");
+    background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
     height: $mu200;
@@ -241,10 +241,5 @@
     transform: translate3d(0, 0, 0);
     transition: visibility 0s linear 0s, transform 0.4s;
     visibility: visible;
-  }
-
-  // Overlay
-  @at-root #{$parent}-overlay {
-    @include set-page-overlay();
   }
 }

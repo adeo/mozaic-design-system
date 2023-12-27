@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql, Link } from 'gatsby'
-import { ControlCross16, NotificationCircleAvailable24 } from '../icons'
+import { Cross20, CheckCircle20 } from '../icons'
 import * as styles from './patternstatus.module.css'
 
 const query = graphql`
@@ -147,13 +147,13 @@ const PatternsStatusTable = ({ type }) => {
         ) {
           thisPatternStatus.push(
             <td key={'value_row_' + plateform + index} aria-label="Ready">
-              <NotificationCircleAvailable24 fill="#41a017" />
+              <CheckCircle20 fill="#41a017" />
             </td>,
           )
         } else {
           thisPatternStatus.push(
             <td key={'value_row_' + plateform + index} aria-label="In Progress">
-              <ControlCross16 fill="currentColor" />
+              <Cross20 fill="currentColor" />
             </td>,
           )
         }

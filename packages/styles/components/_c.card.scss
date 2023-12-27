@@ -38,7 +38,7 @@
     }
 
     @each $ratio, $size in $card-visual-ratios {
-      @if ($ratio != "4x3") {
+      @if $ratio != "4x3" {
         &--#{$ratio}::before {
           padding-top: $size;
         }

@@ -1,10 +1,23 @@
 {
   "name": "@mozaic-ds/styles",
-  "version": "1.68.0",
+  "version": "2.0.0-rc.15",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "description": "Styles scss for Designe System Adeo",
-  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mozaic-ds/tokens": "^1.68.0"
+    "@mozaic-ds/tokens": "^2.0.0-rc.14"
   }
 }

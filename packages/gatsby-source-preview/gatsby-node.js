@@ -111,10 +111,10 @@ exports.sourceNodes = (tools, configOptions) => {
     ) {
       reporter.info(`changed PREVIEW file at ${path}`)
 
-      // is global style? Just rebuild everything!
+      // Avoid reloading all previews during dev
       const globalStylePath = 'packages/styles/'
       if (path.replace(/\\/g, '/').indexOf(globalStylePath) > -1) {
-        return buildPreviews()
+        return buildPreviews(path)
           .then(reporter.success(`previews built`))
           .catch((err) => reporter.error(err))
       }

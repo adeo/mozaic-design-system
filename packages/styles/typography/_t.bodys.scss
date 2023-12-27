@@ -1,41 +1,41 @@
 /* mqp:start */
 .mt-body {
   &-l {
-    @include set-font-face('regular');
-    @include set-font-scale('06');
+    @include set-font-face("regular");
+    @include set-font-scale("06");
 
     &--line-height-m {
-      @include set-line-height('06', 'm');
+      @include set-line-height("06", "m");
     }
 
     &--semi-bold {
-      @include set-font-face('semi-bold');
+      @include set-font-face("semi-bold");
     }
   }
 
   &-m {
-    @include set-font-face('regular');
-    @include set-font-scale('05');
+    @include set-font-face("regular");
+    @include set-font-scale("05");
 
     &--line-height-m {
-      @include set-line-height('05', 'm');
+      @include set-line-height("05", "m");
     }
 
     &--semi-bold {
-      @include set-font-face('semi-bold');
+      @include set-font-face("semi-bold");
     }
   }
 
   &-s {
-    @include set-font-face('regular');
-    @include set-font-scale('04');
+    @include set-font-face("regular");
+    @include set-font-scale("04");
 
     &--line-height-m {
-      @include set-line-height('04', 'm');
+      @include set-line-height("04", "m");
     }
 
     &--semi-bold {
-      @include set-font-face('semi-bold');
+      @include set-font-face("semi-bold");
     }
   }
 }

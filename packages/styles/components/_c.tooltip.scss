@@ -43,9 +43,14 @@
       width: max-content;
     }
 
+    &::before,
+    &::after {
+      background-color: transparent;
+      background-repeat: no-repeat;
+    }
+
     &::before {
-      background: transparent
-        url(inline-icons("tooltip-arrow", $color-tooltip-border)) no-repeat;
+      background-image: url("#{inline-icons('tooltip-arrow', $color-tooltip-border)}");
       background-size: 0.625rem;
       content: "";
       height: 0.625rem;
@@ -54,8 +59,7 @@
     }
 
     &::after {
-      background: transparent
-        url(inline-icons("tooltip-arrow", $color-tooltip-background)) no-repeat;
+      background-image: url("#{inline-icons('tooltip-arrow', $color-tooltip-background)}");
       background-size: $mu050;
       content: "";
       height: $mu050;

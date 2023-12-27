@@ -7,4 +7,6 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M37.5 26v-5a2 2 0 00-2-2h-4v-5a2 2 0 00-2-2h-11a2 2 0 00-2 2v5h-4a2 2 0 00-2 2v5h-4a2 2 0 00-2 2v6a2 2 0 002 2h35a2 2 0 002-2v-6a2 2 0 00-2-2zm-3-4v4h-9v-4h9zm-15-7h9v4h-9zm-6 7h9v4h-9zm3 11h-9v-4h9zm12 0h-9v-4h9zm12 0h-9v-4h9z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <path fill-rule="evenodd" d="M18 10.5a1.5 1.5 0 0 0-1.5 1.5v6.5H12a1.5 1.5 0 0 0-1.5 1.5v6.5H6A1.5 1.5 0 0 0 4.5 28v8A1.5 1.5 0 0 0 6 37.5h36a1.5 1.5 0 0 0 1.5-1.5v-8a1.5 1.5 0 0 0-1.5-1.5h-4.5V20a1.5 1.5 0 0 0-1.5-1.5h-4.5V12a1.5 1.5 0 0 0-1.5-1.5H18Zm16.5 16v-5h-9v5h9Zm-6 3h-9v5h9v-5Zm3 5h9v-5h-9v5Zm-15-5v5h-9v-5h9Zm6-3h-9v-5h9v5Zm1.5-8h-4.5v-5h9v5H24Z"/>
+</svg>

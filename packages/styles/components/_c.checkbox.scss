@@ -16,7 +16,7 @@
   }
 
   &__input {
-    @include reset-input;
+    @include reset-input();
 
     min-width: $checkbox-min-width;
     min-height: $checkbox-min-height;
@@ -37,22 +37,18 @@
     }
 
     &:hover {
-      @include add-demo-state-class {
-        border-color: $color-input-hover-border;
+      border-color: $color-input-hover-border;
 
-        &::-ms-check {
-          border-color: $color-input-hover-border;
-        }
+      &::-ms-check {
+        border-color: $color-input-hover-border;
       }
     }
 
     &:focus {
-      @include add-demo-state-class {
-        @include set-shadow-focus();
+      @include set-shadow-focus();
 
-        &::-ms-check {
-          @include set-shadow-focus();
-        }
+      &::-ms-check {
+        @include set-shadow-focus();
       }
     }
 
@@ -64,11 +60,7 @@
     }
 
     &:checked {
-      background-image: url(
-        inline-icons(
-          "checkmark-16",
-          $color-input-checked-icon
-        ));
+      background-image: url("#{inline-icons('checkmark-16', $color-input-checked-icon)}");
       background-position: center center;
 
       &::-ms-check {
@@ -86,11 +78,7 @@
     }
 
     &:indeterminate {
-      background-image: url(
-        inline-icons(
-          "control-less-16",
-          $color-input-checked-icon
-        ));
+      background-image: url("#{inline-icons('control-less-16', $color-input-checked-icon)}");
     }
 
     &:disabled {
@@ -104,19 +92,11 @@
       }
 
       &:checked {
-        background-image: url(
-          inline-icons(
-            "checkmark-16",
-            $color-input-disabled-icon
-          ));
+        background-image: url("#{inline-icons('checkmark-16', $color-input-disabled-icon)}");
       }
 
       &:indeterminate {
-        background-image: url(
-          inline-icons(
-            "control-less-16",
-            $color-input-disabled-icon
-          ));
+        background-image: url("#{inline-icons('control-less-16', $color-input-disabled-icon)}");
       }
 
       & + #{$parent}__label {
@@ -132,12 +112,10 @@
       }
 
       &:hover {
-        @include add-demo-state-class {
-          border-color: $color-input-invalid-hover-border;
+        border-color: $color-input-invalid-hover-border;
 
-          &::-ms-check {
-            border-color: $color-input-invalid-hover-border;
-          }
+        &::-ms-check {
+          border-color: $color-input-invalid-hover-border;
         }
       }
     }

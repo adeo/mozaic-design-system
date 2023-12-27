@@ -1,8 +1,21 @@
 {
   "name": "@mozaic-ds/gatsby-theme-styleguide",
-  "version": "1.68.0",
+  "version": "2.0.0-rc.15",
   "main": "index.js",
-  "author": "gael-boyenval (gaelboyenval@icloud.com)",
+  "contributors": [
+    {
+      "name": "Charles-Antoine Queste",
+      "email": "charles-antoine.queste@adeo.com"
+    },
+    {
+      "name": "Trésor Iloyi",
+      "email": "tresor.iloyi@ext.adeo.com"
+    },
+    {
+      "name": "Mohamed Mokhtari",
+      "email": "mohamed.mokhtari@ext.adeo.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "@code-hike/mdx": "^0.9.0",

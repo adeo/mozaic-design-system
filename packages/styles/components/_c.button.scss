@@ -2,18 +2,16 @@
 .mc-button {
   @include unstyle-button();
   @include set-button-theme(get-token(color, button, "solid"), true);
-  @include set-font-face("semi-bold");
+  @include set-font-weight("semi-bold");
   @include set-button-size($button-medium);
   @include set-button-layout();
 
   align-items: stretch;
   box-sizing: border-box;
-  fill: currentColor;
+  fill: currentcolor;
 
   &:focus {
-    @include add-demo-state-class {
-      @include set-shadow-focus();
-    }
+    @include set-shadow-focus();
   }
 
   // all sizes
@@ -80,7 +78,7 @@
   }
 
   @each $name, $props in $buttons {
-    @if ($name != "solid") {
+    @if $name != "solid" {
       &--#{$name} {
         @include set-button-theme($props);
       }

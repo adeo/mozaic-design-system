@@ -7,4 +7,13 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M4.44 22.94l14-14a1.5 1.5 0 012.12 2.12L9.12 22.5H42.5a1.5 1.5 0 010 3H9.12l11.44 11.44a1.49 1.49 0 010 2.12 1.5 1.5 0 01-2.12 0l-14-14a1.49 1.49 0 010-2.12z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <g clip-path="url(#a)">
+    <path fill-rule="evenodd" d="M17.06 12.94a1.5 1.5 0 0 1 0 2.12L9.622 22.5H42a1.5 1.5 0 0 1 0 3H9.621l7.44 7.44a1.5 1.5 0 0 1-2.122 2.12l-10-10a1.5 1.5 0 0 1 0-2.12l10-10a1.5 1.5 0 0 1 2.122 0Z"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <rect width="48" height="48" fill="#fff"/>
+    </clipPath>
+  </defs>
+</svg>

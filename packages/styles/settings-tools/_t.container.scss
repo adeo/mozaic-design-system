@@ -1,25 +1,25 @@
-@mixin set-container-fluid {
+@mixin set-container-fluid() {
   margin-left: auto;
   margin-right: auto;
   padding-right: $mu100;
   padding-left: $mu100;
 
-  @include set-from-screen('m') {
+  @include set-from-screen("m") {
     padding-right: $mu200;
     padding-left: $mu200;
   }
 
-  @include set-from-screen('l') {
+  @include set-from-screen("l") {
     padding-right: $mu300;
     padding-left: $mu300;
   }
 
-  @include set-from-screen('xl') {
+  @include set-from-screen("xl") {
     padding-right: $mu200;
     padding-left: $mu200;
   }
 
-  @include set-from-screen('xxl') {
+  @include set-from-screen("xxl") {
     padding-right: $mu250;
     padding-left: $mu250;
   }

@@ -7,4 +7,6 @@
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.44 18.65A8 8 0 016.59 15H15a1 1 0 000-2H6.07A8.26 8.26 0 016 12a8.26 8.26 0 01.07-1H15a1 1 0 000-2H6.59a8 8 0 0111.85-3.65 1 1 0 001.39-.28 1 1 0 00-.27-1.38A9.91 9.91 0 0014 2a10 10 0 00-9.54 7H3a1 1 0 000 2h1v2H3a1 1 0 000 2h1.46A10 10 0 0014 22a9.91 9.91 0 005.56-1.69 1 1 0 00.27-1.38 1 1 0 00-1.39-.28z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M6.581 9a8.003 8.003 0 0 1 11.863-3.653 1 1 0 0 0 1.112-1.662A9.958 9.958 0 0 0 14 2C9.522 2 5.732 4.943 4.458 9H3a1 1 0 0 0 0 2h1.05a10.121 10.121 0 0 0 0 2H3a1 1 0 1 0 0 2h1.458c1.274 4.057 5.064 7 9.542 7a9.95 9.95 0 0 0 5.556-1.685 1 1 0 0 0-1.112-1.662A8.003 8.003 0 0 1 6.582 15H15a1 1 0 1 0 0-2H6.062a8.079 8.079 0 0 1 0-2H15a1 1 0 1 0 0-2H6.581Z"/>
+</svg>

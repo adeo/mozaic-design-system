@@ -2,11 +2,10 @@
   @each $key in $keys {
     @if map-has-key($map, $key) {
       $map: map-get($map, $key);
-    }
-
-    @else {
+    } @else {
       @warn 'It seem that you are trying to reach "#{$key}" in map "#{$map}", but it does not exist';
-      $map: 'map error';
+
+      $map: "map error";
     }
   }
 

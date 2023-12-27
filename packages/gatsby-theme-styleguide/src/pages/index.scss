@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap&subset=latin-ext";
+@import "tokens";
 @import "settings-tools/all-settings";
 @import "layouts/l.flexy";
 
@@ -38,7 +39,7 @@ select {
   text-align: center;
 
   &:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgb(0 0 0 / 0.1);
   }
 
   &__menu {

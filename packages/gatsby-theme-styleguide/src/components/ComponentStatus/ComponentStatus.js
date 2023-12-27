@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { DisplayExternalLink16 } from '../icons'
+import { ExternalLink20 } from '../icons'
 import * as styles from './componentstatus.module.css'
 
 const getStyles = (status) => {
@@ -41,7 +41,7 @@ const ComponentStatus = (props) => {
           className={styles.statusLink}
           aria-label="Open in a new window"
         >
-          <DisplayExternalLink16 />
+          <ExternalLink20 />
         </a>
       )
     }

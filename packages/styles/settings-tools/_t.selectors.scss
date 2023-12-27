@@ -9,7 +9,6 @@
     @return $mozaic-class;
   } @else {
     @warn "Unknown prefix #{$prefix} in #{$selector} selector.";
-
     @return $selector;
   }
 }

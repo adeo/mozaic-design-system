@@ -3,7 +3,7 @@
 .mc-progressbar {
   $parent: get-parent-selector(&);
 
-  @include set-font-family;
+  @include set-font-family ();
 
   &,
   * {
@@ -59,7 +59,7 @@
   // size modifiers
   @each $name, $props in $progressbar-sizes {
     &--#{$name} {
-      @if ($name != "m") {
+      @if $name != "m" {
         height: map-get($props, "height");
 
         &,

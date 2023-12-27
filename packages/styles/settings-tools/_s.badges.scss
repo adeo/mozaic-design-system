@@ -3,7 +3,7 @@
 $badges: get-token(color, badge);
 $badge-border: get-border("s");
 
-@mixin set-badge-base {
+@mixin set-badge-base() {
   @include set-border-radius();
 
   border: $badge-border solid transparent;

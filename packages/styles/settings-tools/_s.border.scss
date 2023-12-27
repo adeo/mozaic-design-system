@@ -1,5 +1,5 @@
 @function get-border($size) {
-  @if ( variable-exists($name: $size)) {
+  @if variable-exists($name: $size) {
     @warn "Border size #{$size} doesn't exist";
   }
 

@@ -1,20 +1,13 @@
-import * as React from 'react'
+import React, { useState } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import IconTile from './IconTile'
 import * as styles from './iconviewer.module.css'
 
 const IconViewer = ({ type }) => {
+  const [filter, setFilter] = useState('')
   const data = useStaticQuery(graphql`
     query AllIcons {
       dataJson {
-        color {
-          cat
-          size
-          name
-          fileName
-          iconName
-          componentName
-        }
         monochrom {
           cat
           size
@@ -35,11 +28,11 @@ const IconViewer = ({ type }) => {
 
     if (!categories[icon.cat][icon.name])
       categories[icon.cat][icon.name] = {
-        '16px': null,
-        '24px': null,
-        '32px': null,
-        '48px': null,
-        '64px': null,
+        20: null,
+        24: null,
+        32: null,
+        48: null,
+        64: null,
       }
 
     if (categories[icon.cat][icon.name][icon.size] === null)
@@ -52,21 +45,37 @@ const IconViewer = ({ type }) => {
 
   return (
     <div>
-      {Object.keys(categories).map((cat) => (
-        <div key={cat}>
-          <h2 className={styles.subtitle}>{cat}</h2>
-          <ul className={styles.list}>
-            {Object.keys(categories[cat]).map((name) => (
-              <IconTile
-                type={type}
-                key={`${cat}-${name}`}
-                name={name}
-                icons={categories[cat][name]}
-              />
-            ))}
-          </ul>
-        </div>
-      ))}
+      <input
+        id="filter"
+        type="text"
+        value={filter}
+        className="mc-text-input"
+        placeholder="Search icons"
+        onChange={(event) => setFilter(event.target.value)}
+      />
+      {Object.keys(categories)
+        .filter((cat) => {
+          return cat.length > 0
+        })
+        .map((cat) => {
+          return (
+            <div key={cat}>
+              <h2 className={styles.subtitle}>{cat}</h2>
+              <ul className={styles.list}>
+                {Object.keys(categories[cat])
+                  .filter((f) => f.includes(filter) || filter === '')
+                  .map((name) => (
+                    <IconTile
+                      type={type}
+                      key={`${cat}-${name}`}
+                      name={name}
+                      icons={categories[cat][name]}
+                    />
+                  ))}
+              </ul>
+            </div>
+          )
+        })}
     </div>
   )
 }

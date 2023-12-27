@@ -38,17 +38,6 @@ const generateMonochromListObject = (monochromList) =>
     }
   })
 
-const generateColorListObject = (colorList) =>
-  colorList.map((icon) => {
-    const base = getInfosFromName(icon.fileName)
-    const componentName = createComponentName(icon.fileName)
-
-    return {
-      ...base,
-      componentName,
-    }
-  })
-
 const checkPath = (outputPath) =>
   new Promise((resolve, reject) => {
     fs.exists(outputPath, (exists) => {
@@ -73,6 +62,5 @@ const writeFile = (path, data) =>
 /* for testing purpose */
 module.exports['getInfosFromName'] = getInfosFromName
 module.exports['generateMonochromListObject'] = generateMonochromListObject
-module.exports['generateColorListObject'] = generateColorListObject
 module.exports['writeFile'] = writeFile
 module.exports['checkPath'] = checkPath

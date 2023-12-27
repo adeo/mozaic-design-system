@@ -15,11 +15,11 @@ $divider-sizes: (
   content: "";
   display: block;
 
-  @if ($position == "bottom" or $position == "top") {
+  @if $position == "bottom" or $position == "top" {
     margin: 0 auto;
     height: $divider-border-size;
     width: unquote($width);
-  } @else if ($position == "left" or $position == "right") {
+  } @else if $position == "left" or $position == "right" {
     width: $divider-border-size;
     height: unquote($width);
     position: absolute;
@@ -40,22 +40,22 @@ $divider-sizes: (
   $width: "100%",
   $size: "s"
 ) {
-  @if ($position == "top") {
+  @if $position == "top" {
     &::before {
       @include divider-layout($position, $color, $width, $size);
       @content;
     }
-  } @else if ($position == "right") {
+  } @else if $position == "right" {
     &::after {
       @include divider-layout($position, $color, $width, $size);
       @content;
     }
-  } @else if ($position == "bottom") {
+  } @else if $position == "bottom" {
     &::after {
       @include divider-layout($position, $color, $width, $size);
       @content;
     }
-  } @else if ($position == "left") {
+  } @else if $position == "left" {
     &::before {
       @include divider-layout($position, $color, $width, $size);
       @content;
