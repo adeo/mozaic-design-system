@@ -336,6 +336,12 @@ $color-listbox-tile-border: #b3b3b3 !default;
 $color-listbox-tile-shadow: #191919 !default;
 $color-listbox-tile-hover-background: #e6e6e6 !default;
 $color-listbox-disabled-background: #cccccc !default;
+$color-loader-dark: #191919 !default;
+$color-loader-light: #ffffff !default;
+$color-loader-primary: #ff5800 !default;
+$color-menu-is-active: #373de7 !default;
+$color-menu-hover: #ffe1d1 !default;
+$color-menu-active: #ffab80 !default;
 $color-notification-font: #000000 !default;
 $color-notification-information-background: #daeff7 !default;
 $color-notification-information-border: #0b96cc !default;
@@ -368,10 +374,24 @@ $color-phone-number-list-background: #ffffff !default;
 $color-phone-number-item-border: #b3b3b3 !default;
 $color-phone-number-item-focus-background: #e6e6e6 !default;
 $color-progress-background: #cccccc !default;
-$color-progress-indicator: #007bb4 !default;
+$color-progress-indicator: #ff5800 !default;
 $color-progress-percentage-default: #191919 !default;
-$color-progress-percentage-half: #ffffff !default;
-$color-progress-branded-indicator: #4d5bf5 !default;
+$color-progress-percentage-background: #ffffff !default;
+$color-segmented-control-is-active: #373de7 !default;
+$color-segmented-control-hover: #ffe1d1 !default;
+$color-segmented-control-active: #ffab80 !default;
+$color-sidebar-background: #ffe1d1 !default;
+$color-sidebar-feature-background: #ffab80 !default;
+$color-sidebar-feature-hover-background: #ff7933 !default;
+$color-sidebar-feature-selected-background: #ffab80 !default;
+$color-sidebar-feature-disabled-background: #e54f00 !default;
+$color-sidebar-user-background: #ffab80 !default;
+$color-sidebar-divider-background: #b3b3b3 !default;
+$color-sidebar-icon: #191919 !default;
+$color-sidebar-text-background: #e6e6e6 !default;
+$color-sidebar-text-color: #191919 !default;
+$color-sidebar-scroll-background: #b3b3b3 !default;
+$color-sidebar-scroll-color: #ff5800 !default;
 $color-star-empty: #ffffff !default;
 $color-star-focus: #0b96cc !default;
 $color-star-full: #ea7315 !default;
@@ -389,12 +409,14 @@ $color-tabs-background: #ffffff !default;
 $color-tabs-shadow: #000000 !default;
 $color-tabs-default: #666666 !default;
 $color-tabs-element-background: #ffe1d1 !default;
-$color-tabs-hover: #130f7b !default;
+$color-tabs-hover-background: #ffe1d1 !default;
 $color-tabs-disabled-background: #cccccc !default;
 $color-tabs-active-background: #ffab80 !default;
-$color-tabs-active-text: #333333 !default;
+$color-tabs-active-text: #4d4d4d !default;
 $color-tabs-selected-border: #000000 !default;
 $color-tabs-selected-text: #000000 !default;
+$color-tabs-selected-active-text: #000000 !default;
+$color-tabs-selected-hover-text: #000000 !default;
 $color-tabs-active-disabled: #b8bef4 !default;
 $color-tag-text-light-background: #ffffff !default;
 $color-tag-text-light-border: #808080 !default;
@@ -460,11 +482,6 @@ $color-toggle-disabled-checked-background: #b8bef4 !default;
 $color-toggle-disabled-checked-circle: #ffffff !default;
 $color-tooltip-background: #4d4d4d !default;
 $color-tooltip-border: #ffffff !default;
-$font-family: LeroyMerlin !default;
-$font-weight-light: 300 !default;
-$font-weight-regular: 400 !default;
-$font-weight-semi-bold: 600 !default;
-$preset: bricoman !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -559,6 +576,11 @@ $screen-xl: 1280px !default;
 $screen-xl-medium: 1440px !default;
 $screen-xl-large: 1680px !default;
 $screen-xxl: 1920px !default;
+$font-family: LeroyMerlin !default;
+$font-weight-light: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-semi-bold: 600 !default;
+$preset: bricoman !default;
 
 $tokens: (
   'border': (
@@ -1133,6 +1155,16 @@ $tokens: (
         'background': $color-listbox-disabled-background
       )
     ),
+    'loader': (
+      'dark': $color-loader-dark,
+      'light': $color-loader-light,
+      'primary': $color-loader-primary
+    ),
+    'menu': (
+      'is-active': $color-menu-is-active,
+      'hover': $color-menu-hover,
+      'active': $color-menu-active
+    ),
     'notification': (
       'font': $color-notification-font,
       'information': (
@@ -1229,10 +1261,42 @@ $tokens: (
       'indicator': $color-progress-indicator,
       'percentage': (
         'default': $color-progress-percentage-default,
-        'half': $color-progress-percentage-half
+        'background': $color-progress-percentage-background
+      )
+    ),
+    'segmented-control': (
+      'is-active': $color-segmented-control-is-active,
+      'hover': $color-segmented-control-hover,
+      'active': $color-segmented-control-active
+    ),
+    'sidebar': (
+      'background': $color-sidebar-background,
+      'feature': (
+        'background': $color-sidebar-feature-background,
+        'hover': (
+          'background': $color-sidebar-feature-hover-background
+        ),
+        'selected': (
+          'background': $color-sidebar-feature-selected-background
+        ),
+        'disabled': (
+          'background': $color-sidebar-feature-disabled-background
+        )
       ),
-      'branded': (
-        'indicator': $color-progress-branded-indicator
+      'user': (
+        'background': $color-sidebar-user-background
+      ),
+      'divider': (
+        'background': $color-sidebar-divider-background
+      ),
+      'icon': $color-sidebar-icon,
+      'text': (
+        'background': $color-sidebar-text-background,
+        'color': $color-sidebar-text-color
+      ),
+      'scroll': (
+        'background': $color-sidebar-scroll-background,
+        'color': $color-sidebar-scroll-color
       )
     ),
     'star': (
@@ -1271,7 +1335,9 @@ $tokens: (
       'element': (
         'background': $color-tabs-element-background
       ),
-      'hover': $color-tabs-hover,
+      'hover': (
+        'background': $color-tabs-hover-background
+      ),
       'disabled': (
         'background': $color-tabs-disabled-background
       ),
@@ -1281,7 +1347,13 @@ $tokens: (
       ),
       'selected': (
         'border': $color-tabs-selected-border,
-        'text': $color-tabs-selected-text
+        'text': $color-tabs-selected-text,
+        'active': (
+          'text': $color-tabs-selected-active-text
+        ),
+        'hover': (
+          'text': $color-tabs-selected-hover-text
+        )
       ),
       'active-disabled': $color-tabs-active-disabled
     ),
@@ -1426,15 +1498,6 @@ $tokens: (
       'border': $color-tooltip-border
     )
   ),
-  'font': (
-    'family': $font-family,
-    'weight': (
-      'light': $font-weight-light,
-      'regular': $font-weight-regular,
-      'semi-bold': $font-weight-semi-bold
-    )
-  ),
-  'preset': $preset,
   'radius': (
     's': $radius-s,
     'm': $radius-m,
@@ -1574,5 +1637,14 @@ $tokens: (
     'xl-medium': $screen-xl-medium,
     'xl-large': $screen-xl-large,
     'xxl': $screen-xxl
-  )
+  ),
+  'font': (
+    'family': $font-family,
+    'weight': (
+      'light': $font-weight-light,
+      'regular': $font-weight-regular,
+      'semi-bold': $font-weight-semi-bold
+    )
+  ),
+  'preset': $preset
 );

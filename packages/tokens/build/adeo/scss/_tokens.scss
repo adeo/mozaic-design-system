@@ -334,6 +334,12 @@ $color-listbox-tile-border: #b3b3b3 !default;
 $color-listbox-tile-shadow: #191919 !default;
 $color-listbox-tile-hover-background: #e6e6e6 !default;
 $color-listbox-disabled-background: #cccccc !default;
+$color-loader-dark: #191919 !default;
+$color-loader-light: #ffffff !default;
+$color-loader-primary: #007f8c !default;
+$color-menu-is-active: #007f8c !default;
+$color-menu-hover: #eeedea !default;
+$color-menu-active: #dddcd5 !default;
 $color-notification-font: #000000 !default;
 $color-notification-information-background: #daeff7 !default;
 $color-notification-information-border: #0b96cc !default;
@@ -365,11 +371,26 @@ $color-phone-number-button-border: #666666 !default;
 $color-phone-number-list-background: #ffffff !default;
 $color-phone-number-item-border: #b3b3b3 !default;
 $color-phone-number-item-focus-background: #e6e6e6 !default;
-$color-progress-background: #cccccc !default;
-$color-progress-indicator: #007bb4 !default;
+$color-progress-background: #cdd4d8 !default;
+$color-progress-indicator: #007f8c !default;
 $color-progress-percentage-default: #191919 !default;
-$color-progress-percentage-half: #ffffff !default;
-$color-progress-branded-indicator: #00919f !default;
+$color-progress-percentage-background: #ffffff !default;
+$color-segmented-control-is-active: #007f8c !default;
+$color-segmented-control-hover: #eeedea !default;
+$color-segmented-control-active: #dddcd5 !default;
+$color-segmented-control-background: #007f8c !default;
+$color-sidebar-background: #082435 !default;
+$color-sidebar-feature-background: #082435 !default;
+$color-sidebar-feature-hover-background: #405d68 !default;
+$color-sidebar-feature-selected-background: #5b737d !default;
+$color-sidebar-feature-disabled-background: #92a2a9 !default;
+$color-sidebar-user-background: #264653 !default;
+$color-sidebar-divider-background: #5b737d !default;
+$color-sidebar-icon: #ffffff !default;
+$color-sidebar-text-background: #e6e6e6 !default;
+$color-sidebar-text-color: #ffffff !default;
+$color-sidebar-scroll-background: #082435 !default;
+$color-sidebar-scroll-color: #009eac !default;
 $color-star-empty: #ffffff !default;
 $color-star-focus: #758992 !default;
 $color-star-full: #ea7315 !default;
@@ -387,12 +408,14 @@ $color-tabs-background: #ffffff !default;
 $color-tabs-shadow: #000000 !default;
 $color-tabs-default: #666666 !default;
 $color-tabs-element-background: #eeedea !default;
-$color-tabs-hover: #004e57 !default;
+$color-tabs-hover-background: #eeedea !default;
 $color-tabs-disabled-background: #cccccc !default;
 $color-tabs-active-background: #dddcd5 !default;
-$color-tabs-active-text: #004e57 !default;
+$color-tabs-active-text: #4d4d4d !default;
 $color-tabs-selected-border: #007f8c !default;
 $color-tabs-selected-text: #007f8c !default;
+$color-tabs-selected-active-text: #006974 !default;
+$color-tabs-selected-hover-text: #006974 !default;
 $color-tabs-active-disabled: #91d5db !default;
 $color-tag-text-light-background: #ffffff !default;
 $color-tag-text-light-border: #808080 !default;
@@ -467,11 +490,6 @@ $color-secondary-sandgrey-600: #71706b !default;
 $color-secondary-sandgrey-700: #555550 !default;
 $color-secondary-sandgrey-800: #3a3936 !default;
 $color-secondary-sandgrey-900: #1e1e1c !default;
-$font-family: Roboto !default;
-$font-weight-light: 300 !default;
-$font-weight-regular: 400 !default;
-$font-weight-semi-bold: 500 !default;
-$preset: adeo !default;
 $radius-s: 2 !default;
 $radius-m: 4 !default;
 $radius-l: 6 !default;
@@ -566,6 +584,11 @@ $screen-xl: 1280px !default;
 $screen-xl-medium: 1440px !default;
 $screen-xl-large: 1680px !default;
 $screen-xxl: 1920px !default;
+$font-family: Roboto !default;
+$font-weight-light: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-semi-bold: 500 !default;
+$preset: adeo !default;
 
 $tokens: (
   'border': (
@@ -1136,6 +1159,16 @@ $tokens: (
         'background': $color-listbox-disabled-background
       )
     ),
+    'loader': (
+      'dark': $color-loader-dark,
+      'light': $color-loader-light,
+      'primary': $color-loader-primary
+    ),
+    'menu': (
+      'is-active': $color-menu-is-active,
+      'hover': $color-menu-hover,
+      'active': $color-menu-active
+    ),
     'notification': (
       'font': $color-notification-font,
       'information': (
@@ -1232,10 +1265,43 @@ $tokens: (
       'indicator': $color-progress-indicator,
       'percentage': (
         'default': $color-progress-percentage-default,
-        'half': $color-progress-percentage-half
+        'background': $color-progress-percentage-background
+      )
+    ),
+    'segmented-control': (
+      'is-active': $color-segmented-control-is-active,
+      'hover': $color-segmented-control-hover,
+      'active': $color-segmented-control-active,
+      'background': $color-segmented-control-background
+    ),
+    'sidebar': (
+      'background': $color-sidebar-background,
+      'feature': (
+        'background': $color-sidebar-feature-background,
+        'hover': (
+          'background': $color-sidebar-feature-hover-background
+        ),
+        'selected': (
+          'background': $color-sidebar-feature-selected-background
+        ),
+        'disabled': (
+          'background': $color-sidebar-feature-disabled-background
+        )
       ),
-      'branded': (
-        'indicator': $color-progress-branded-indicator
+      'user': (
+        'background': $color-sidebar-user-background
+      ),
+      'divider': (
+        'background': $color-sidebar-divider-background
+      ),
+      'icon': $color-sidebar-icon,
+      'text': (
+        'background': $color-sidebar-text-background,
+        'color': $color-sidebar-text-color
+      ),
+      'scroll': (
+        'background': $color-sidebar-scroll-background,
+        'color': $color-sidebar-scroll-color
       )
     ),
     'star': (
@@ -1274,7 +1340,9 @@ $tokens: (
       'element': (
         'background': $color-tabs-element-background
       ),
-      'hover': $color-tabs-hover,
+      'hover': (
+        'background': $color-tabs-hover-background
+      ),
       'disabled': (
         'background': $color-tabs-disabled-background
       ),
@@ -1284,7 +1352,13 @@ $tokens: (
       ),
       'selected': (
         'border': $color-tabs-selected-border,
-        'text': $color-tabs-selected-text
+        'text': $color-tabs-selected-text,
+        'active': (
+          'text': $color-tabs-selected-active-text
+        ),
+        'hover': (
+          'text': $color-tabs-selected-hover-text
+        )
       ),
       'active-disabled': $color-tabs-active-disabled
     ),
@@ -1440,15 +1514,6 @@ $tokens: (
       '900': $color-secondary-sandgrey-900
     )
   ),
-  'font': (
-    'family': $font-family,
-    'weight': (
-      'light': $font-weight-light,
-      'regular': $font-weight-regular,
-      'semi-bold': $font-weight-semi-bold
-    )
-  ),
-  'preset': $preset,
   'radius': (
     's': $radius-s,
     'm': $radius-m,
@@ -1588,5 +1653,14 @@ $tokens: (
     'xl-medium': $screen-xl-medium,
     'xl-large': $screen-xl-large,
     'xxl': $screen-xxl
-  )
+  ),
+  'font': (
+    'family': $font-family,
+    'weight': (
+      'light': $font-weight-light,
+      'regular': $font-weight-regular,
+      'semi-bold': $font-weight-semi-bold
+    )
+  ),
+  'preset': $preset
 );

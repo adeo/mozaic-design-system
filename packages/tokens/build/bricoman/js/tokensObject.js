@@ -7097,6 +7097,124 @@ module.exports = {
         }
       }
     },
+    "loader": {
+      "dark": {
+        "value": "#191919",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorLoaderDark",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "dark"
+        },
+        "path": [
+          "color",
+          "loader",
+          "dark"
+        ]
+      },
+      "light": {
+        "value": "#ffffff",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorLoaderLight",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "light"
+        },
+        "path": [
+          "color",
+          "loader",
+          "light"
+        ]
+      },
+      "primary": {
+        "value": "#ff5800",
+        "filePath": "packages/tokens/src/tokens/bricoman/color/loader.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.400.value}"
+        },
+        "name": "ColorLoaderPrimary",
+        "attributes": {
+          "category": "color",
+          "type": "loader",
+          "item": "primary"
+        },
+        "path": [
+          "color",
+          "loader",
+          "primary"
+        ]
+      }
+    },
+    "menu": {
+      "is-active": {
+        "value": "#373de7",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorMenuIsActive",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "is-active"
+        },
+        "path": [
+          "color",
+          "menu",
+          "is-active"
+        ]
+      },
+      "hover": {
+        "value": "#ffe1d1",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorMenuHover",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "menu",
+          "hover"
+        ]
+      },
+      "active": {
+        "value": "#ffab80",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/menu.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.200.value}"
+        },
+        "name": "ColorMenuActive",
+        "attributes": {
+          "category": "color",
+          "type": "menu",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "menu",
+          "active"
+        ]
+      }
+    },
     "notification": {
       "font": {
         "value": "#000000",
@@ -7825,7 +7943,7 @@ module.exports = {
     "progress": {
       "background": {
         "value": "#cccccc",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+        "filePath": "packages/tokens/src/tokens/bricoman/color/progressbar.json",
         "isSource": true,
         "original": {
           "value": "{color.grey.200.value}"
@@ -7843,11 +7961,11 @@ module.exports = {
         ]
       },
       "indicator": {
-        "value": "#007bb4",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+        "value": "#ff5800",
+        "filePath": "packages/tokens/src/tokens/bricoman/color/progressbar.json",
         "isSource": true,
         "original": {
-          "value": "{color.info.600.value}"
+          "value": "{color.primary-02.400.value}"
         },
         "name": "ColorProgressIndicator",
         "attributes": {
@@ -7864,7 +7982,7 @@ module.exports = {
       "percentage": {
         "default": {
           "value": "#191919",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+          "filePath": "packages/tokens/src/tokens/bricoman/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.900.value}"
@@ -7883,48 +8001,356 @@ module.exports = {
             "default"
           ]
         },
-        "half": {
+        "background": {
           "value": "#ffffff",
           "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
           "isSource": true,
           "original": {
             "value": "{color.grey.000.value}"
           },
-          "name": "ColorProgressPercentageHalf",
+          "name": "ColorProgressPercentageBackground",
           "attributes": {
             "category": "color",
             "type": "progress",
             "item": "percentage",
-            "subitem": "half"
+            "subitem": "background"
           },
           "path": [
             "color",
             "progress",
             "percentage",
-            "half"
+            "background"
           ]
         }
+      }
+    },
+    "segmented-control": {
+      "is-active": {
+        "value": "#373de7",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.600.value}"
+        },
+        "name": "ColorSegmentedControlIsActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "is-active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "is-active"
+        ]
       },
-      "branded": {
-        "indicator": {
-          "value": "#4d5bf5",
-          "filePath": "packages/tokens/src/tokens/leroymerlin/color/progressbar.json",
+      "hover": {
+        "value": "#ffe1d1",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorSegmentedControlHover",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "hover"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "hover"
+        ]
+      },
+      "active": {
+        "value": "#ffab80",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/segmented-control.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.200.value}"
+        },
+        "name": "ColorSegmentedControlActive",
+        "attributes": {
+          "category": "color",
+          "type": "segmented-control",
+          "item": "active"
+        },
+        "path": [
+          "color",
+          "segmented-control",
+          "active"
+        ]
+      }
+    },
+    "sidebar": {
+      "background": {
+        "value": "#ffe1d1",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-02.100.value}"
+        },
+        "name": "ColorSidebarBackground",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "background"
+        ]
+      },
+      "feature": {
+        "background": {
+          "value": "#ffab80",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.500.value}"
+            "value": "{color.primary-02.200.value}"
           },
-          "name": "ColorProgressBrandedIndicator",
+          "name": "ColorSidebarFeatureBackground",
           "attributes": {
             "category": "color",
-            "type": "progress",
-            "item": "branded",
-            "subitem": "indicator"
+            "type": "sidebar",
+            "item": "feature",
+            "subitem": "background"
           },
           "path": [
             "color",
-            "progress",
-            "branded",
-            "indicator"
+            "sidebar",
+            "feature",
+            "background"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#ff7933",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.300.value}"
+            },
+            "name": "ColorSidebarFeatureHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "hover",
+              "background"
+            ]
+          }
+        },
+        "selected": {
+          "background": {
+            "value": "#ffab80",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.200.value}"
+            },
+            "name": "ColorSidebarFeatureSelectedBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "selected",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "selected",
+              "background"
+            ]
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#e54f00",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-02.500.value}"
+            },
+            "name": "ColorSidebarFeatureDisabledBackground",
+            "attributes": {
+              "category": "color",
+              "type": "sidebar",
+              "item": "feature",
+              "subitem": "disabled",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "sidebar",
+              "feature",
+              "disabled",
+              "background"
+            ]
+          }
+        }
+      },
+      "user": {
+        "background": {
+          "value": "#ffab80",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.200.value}"
+          },
+          "name": "ColorSidebarUserBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "user",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "user",
+            "background"
+          ]
+        }
+      },
+      "divider": {
+        "background": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorSidebarDividerBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "divider",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "divider",
+            "background"
+          ]
+        }
+      },
+      "icon": {
+        "value": "#191919",
+        "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorSidebarIcon",
+        "attributes": {
+          "category": "color",
+          "type": "sidebar",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "sidebar",
+          "icon"
+        ]
+      },
+      "text": {
+        "background": {
+          "value": "#e6e6e6",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.100.value}"
+          },
+          "name": "ColorSidebarTextBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#191919",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorSidebarTextColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "text",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "text",
+            "color"
+          ]
+        }
+      },
+      "scroll": {
+        "background": {
+          "value": "#b3b3b3",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorSidebarScrollBackground",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "background"
+          ]
+        },
+        "color": {
+          "value": "#ff5800",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/sidebar.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.400.value}"
+          },
+          "name": "ColorSidebarScrollColor",
+          "attributes": {
+            "category": "color",
+            "type": "sidebar",
+            "item": "scroll",
+            "subitem": "color"
+          },
+          "path": [
+            "color",
+            "sidebar",
+            "scroll",
+            "color"
           ]
         }
       }
@@ -8258,7 +8684,7 @@ module.exports = {
         "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.font.light.value}"
+          "value": "{color.grey.600.value}"
         },
         "name": "ColorTabsDefault",
         "attributes": {
@@ -8296,23 +8722,27 @@ module.exports = {
         }
       },
       "hover": {
-        "value": "#130f7b",
-        "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.primary-01.800.value}"
-        },
-        "name": "ColorTabsHover",
-        "attributes": {
-          "category": "color",
-          "type": "tabs",
-          "item": "hover"
-        },
-        "path": [
-          "color",
-          "tabs",
-          "hover"
-        ]
+        "background": {
+          "value": "#ffe1d1",
+          "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.100.value}"
+          },
+          "name": "ColorTabsHoverBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "hover",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "hover",
+            "background"
+          ]
+        }
       },
       "disabled": {
         "background": {
@@ -8360,11 +8790,11 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#333333",
+          "value": "#4d4d4d",
           "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
-            "value": "{color.font.dark.value}"
+            "value": "{color.grey.700.value}"
           },
           "name": "ColorTabsActiveText",
           "attributes": {
@@ -8408,7 +8838,7 @@ module.exports = {
           "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
           "isSource": true,
           "original": {
-            "value": "{color.font.darkest.value}"
+            "value": "{color.grey.999.value}"
           },
           "name": "ColorTabsSelectedText",
           "attributes": {
@@ -8423,6 +8853,56 @@ module.exports = {
             "selected",
             "text"
           ]
+        },
+        "active": {
+          "text": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTabsSelectedActiveText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "active",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "active",
+              "text"
+            ]
+          }
+        },
+        "hover": {
+          "text": {
+            "value": "#000000",
+            "filePath": "packages/tokens/src/tokens/leroymerlin/color/tabs.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.999.value}"
+            },
+            "name": "ColorTabsSelectedHoverText",
+            "attributes": {
+              "category": "color",
+              "type": "tabs",
+              "item": "selected",
+              "subitem": "hover",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "tabs",
+              "selected",
+              "hover",
+              "text"
+            ]
+          }
         }
       },
       "active-disabled": {
@@ -9990,99 +10470,6 @@ module.exports = {
         ]
       }
     }
-  },
-  "font": {
-    "family": {
-      "value": "LeroyMerlin",
-      "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
-      "isSource": true,
-      "original": {
-        "value": "LeroyMerlin"
-      },
-      "name": "FontFamily",
-      "attributes": {
-        "category": "font",
-        "type": "family"
-      },
-      "path": [
-        "font",
-        "family"
-      ]
-    },
-    "weight": {
-      "light": {
-        "value": 300,
-        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
-        "isSource": true,
-        "original": {
-          "value": 300
-        },
-        "name": "FontWeightLight",
-        "attributes": {
-          "category": "font",
-          "type": "weight",
-          "item": "light"
-        },
-        "path": [
-          "font",
-          "weight",
-          "light"
-        ]
-      },
-      "regular": {
-        "value": 400,
-        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
-        "isSource": true,
-        "original": {
-          "value": 400
-        },
-        "name": "FontWeightRegular",
-        "attributes": {
-          "category": "font",
-          "type": "weight",
-          "item": "regular"
-        },
-        "path": [
-          "font",
-          "weight",
-          "regular"
-        ]
-      },
-      "semi-bold": {
-        "value": 600,
-        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
-        "isSource": true,
-        "original": {
-          "value": 600
-        },
-        "name": "FontWeightSemiBold",
-        "attributes": {
-          "category": "font",
-          "type": "weight",
-          "item": "semi-bold"
-        },
-        "path": [
-          "font",
-          "weight",
-          "semi-bold"
-        ]
-      }
-    }
-  },
-  "preset": {
-    "value": "bricoman",
-    "filePath": "packages/tokens/src/tokens/bricoman/preset.json",
-    "isSource": true,
-    "original": {
-      "value": "bricoman"
-    },
-    "name": "Preset",
-    "attributes": {
-      "category": "preset"
-    },
-    "path": [
-      "preset"
-    ]
   },
   "radius": {
     "s": {
@@ -12097,5 +12484,98 @@ module.exports = {
         "xxl"
       ]
     }
+  },
+  "font": {
+    "family": {
+      "value": "LeroyMerlin",
+      "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+      "isSource": true,
+      "original": {
+        "value": "LeroyMerlin"
+      },
+      "name": "FontFamily",
+      "attributes": {
+        "category": "font",
+        "type": "family"
+      },
+      "path": [
+        "font",
+        "family"
+      ]
+    },
+    "weight": {
+      "light": {
+        "value": 300,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+        "isSource": true,
+        "original": {
+          "value": 300
+        },
+        "name": "FontWeightLight",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "light"
+        },
+        "path": [
+          "font",
+          "weight",
+          "light"
+        ]
+      },
+      "regular": {
+        "value": 400,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+        "isSource": true,
+        "original": {
+          "value": 400
+        },
+        "name": "FontWeightRegular",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "regular"
+        },
+        "path": [
+          "font",
+          "weight",
+          "regular"
+        ]
+      },
+      "semi-bold": {
+        "value": 600,
+        "filePath": "packages/tokens/src/tokens/leroymerlin/font.json",
+        "isSource": true,
+        "original": {
+          "value": 600
+        },
+        "name": "FontWeightSemiBold",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "semi-bold"
+        },
+        "path": [
+          "font",
+          "weight",
+          "semi-bold"
+        ]
+      }
+    }
+  },
+  "preset": {
+    "value": "bricoman",
+    "filePath": "packages/tokens/src/tokens/bricoman/preset.json",
+    "isSource": true,
+    "original": {
+      "value": "bricoman"
+    },
+    "name": "Preset",
+    "attributes": {
+      "category": "preset"
+    },
+    "path": [
+      "preset"
+    ]
   }
 };
