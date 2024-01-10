@@ -1,0 +1,88 @@
+
+---
+title: 'KPI'
+order: 1
+description: 'The KPI (Key Performance Indicator) component is used to display data evolution.'
+status:
+  figma: 'ready'
+  scss: 'ready'
+---
+
+## Variations (Types)
+
+The KPI component has the following variations:
+
+### Status
+
+As Badge and Notification, the KPI component has five states that correspond to a defined status, including information, success, warning, danger, and neutral.
+
+| Status      | Description                                                              |
+| ----------- | ------------------------------------------------------------------------ |
+| Information | This state is used to provide information to the user.                  |
+| Success     | This state is used to indicate a successful or positive outcome.        |
+| Warning     | This state is used to indicate a potential issue or concern.             |
+| Danger      | This state is used to indicate a critical issue or problem.              |
+| Neutral     | This state is used to provide neutral or non-urgent information.         |
+
+<Highlight type="tips" title="Good to know">
+
+Depending on the context, Draft status can use the `Information` or `neutral` colour theme.
+
+</Highlight>
+
+### Sizes
+
+The KPI component is available in three sizes, including S, M, and L.
+
+### Display Informations
+
+The component is composed of two sections:
+
+1. The first section includes a label, the main value, and a background color that changes depending on the component's status.
+2. The second section includes an evolution comment and an icon that shows the data's evolution. This section is optional, and the evolution comment or icon can be hidden.
+
+## Behaviours
+
+The KPI component has the following behaviours:
+
+- It can adapt its width to the different breakpoints if it correctly respects the layout of the ADEO design system.
+
+### States
+
+The KPI component has the following states:
+
+- **Information**: This state is used to provide information to the user.
+- **Success**: This state is used to indicate a successful or positive outcome.
+- **Warning**: This state is used to indicate a potential issue or concern.
+- **Danger**: This state is used to indicate a critical issue or problem.
+- **Neutral**: This state is used to provide neutral or non-urgent information.
+
+### Restrictions
+
+The KPI component has the following restrictions:
+
+- **Height and Width**: The height and width of the S size cannot be edited, as it is designed to hug the content. The M and L size's height cannot be edited, but their widths can be edited. The default width of the component is 160px.
+- **Border**: The KPI component has an inside border of 1px with a color that corresponds to the component's status.
+- **Label**: In the M size, the label is located outside of the first section, 6px above it.
+- **Second Section**: The second section of the KPI component is optional, and the evolution comment or icon can be hidden.
+
+## Layout
+
+The KPI component should be designed to fit seamlessly with the overall layout of the application or website. The size and placement of the component should be consistent across all instances of its use.
+
+## Do’s and Don’ts
+
+Here are some do's and don'ts to keep in mind when using the KPI component:
+
+### Do's
+
+- Use the KPI component to display data evolution in a clear and concise manner.
+- Choose appropriate status, icons, and labels to convey the intended type of the KPI component.
+- Use the S size for data tables to display data in a compact and easily readable format.
+- Test the KPI component in different scenarios and platforms to ensure it works as expected.
+
+### Don'ts
+
+- Overuse the KPI component, as it can be overwhelming and confusing for the user.
+- Use inappropriate colors, icons, or labels that do not match the intended message or purpose of the KPI component.
+- Edit the height of the S size, as it is designed to hug the content.
