@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:20
 
 LABEL "com.github.actions.name"="Node and Gcloud"
 LABEL "com.github.actions.description"="Launch exec in node"
