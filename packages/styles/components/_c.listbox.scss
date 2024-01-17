@@ -87,6 +87,8 @@
   }
 
   &__label {
+    @include set-font-scale("05", "m");
+
     color: currentColor;
     cursor: pointer;
     white-space: nowrap;
