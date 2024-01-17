@@ -17,37 +17,36 @@ The creation of an **Listbox** component in your code is done using the followin
 
 ### Mono selection
 
-```HTML
+```html
 <ul class="mc-listbox" role="listbox" tabindex="0">
   <li class="mc-listbox__tile" role="option">
-    <input type="radio"
+    <input
+      type="radio"
       name="monoSelection"
       id="monoItem1"
       class="mc-listbox__input"
       value="option1"
     />
-    <label for="monoItem1" class="mc-listbox__label">
-      Option label n°1
-    </label>
+    <label for="monoItem1" class="mc-listbox__label"> Option label n°1 </label>
   </li>
-  ...
+  <!-- ... -->
 </ul>
 ```
 
 ### Multi selection
 
-```HTML
+```html
 <ul class="mc-listbox mc-listbox--multi" role="listbox" tabindex="0">
   <li class="mc-listbox__tile" role="option">
-    <input type="checkbox"
+    <input
+      type="checkbox"
       id="multiItem1"
       class="mc-listbox__input mc-checkbox__input"
-      value="option1" />
-    <label for="multiItem1" class="mc-listbox__label">
-      Option label n°1
-    </label>
+      value="option1"
+    />
+    <label for="multiItem1" class="mc-listbox__label"> Option label n°1 </label>
   </li>
-  ...
+  <!-- ... -->
 </ul>
 ```
 
@@ -75,7 +74,7 @@ This variation is mostly combined with direct action or with a dropdown componen
 
 <Story id="overlay-listbox--default" height="300" />
 
-<Highlight theme="tips">
+<Highlight type="tips">
   As mentioned before, in its basic structure, the component works with HTML
   input elements. <br />
   However, it may happen that you do not want to use input elements when implementing
@@ -101,7 +100,7 @@ To achieve that you have to add the class `mc-listbox__icon` to your icons.
 
 ## Behaviour
 
-<Highlight theme="warning">
+<Highlight type="warning">
 
 The items states can only be manage by javascript.
 

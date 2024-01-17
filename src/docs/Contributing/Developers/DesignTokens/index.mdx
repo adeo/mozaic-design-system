@@ -54,9 +54,7 @@ You can reference the value another token by providing a string `value : "{path.
 
 #### Example :
 
-`packages/tokens/properties/color/button.json`
-
-```json
+```json packages/tokens/properties/color/button.json
 {
   "color": {
     "button": {
@@ -71,12 +69,9 @@ You can reference the value another token by providing a string `value : "{path.
           "border": {
             "value": "{color.primary-01.700.value}"
           }
-        },
-        ...
+        }
       },
-      "bordered": {
-          ...
-      }
+      "bordered": {}
     }
   }
 }
@@ -86,12 +81,11 @@ You can reference the value another token by providing a string `value : "{path.
 
 in `packages/tokens/build/scss/_tokens.scss`
 
-```scss
-$color-button-solid-background : #xxx;
-$color-button-solid-font : #xxx;
-$color-button-solid-hover-border : #xxx;
-$color-button-bordered-background : #xxx;
-...
+```scss packages/tokens/build/scss/_tokens.scss
+$color-button-solid-background: #xxx;
+$color-button-solid-font: #xxx;
+$color-button-solid-hover-border: #xxx;
+$color-button-bordered-background: #xxx;
 ```
 
 ### What should you store into the design token files :

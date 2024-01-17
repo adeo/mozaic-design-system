@@ -12,8 +12,8 @@ Import the **settings**, the **layer**, and the **button** scss files.
 ```scss
 @import 'settings-tools/all-settings';
 
-@import 'components/_c.layer';
-@import 'components/_c.button';
+@import 'components/c.layer';
+@import 'components/c.button';
 ```
 
 ## Usage
@@ -62,7 +62,6 @@ These areas are then encompassed in:
 </div>
 ```
 
-
 ## Detail of areas
 
 In more detail, it should be noted that each of the fields mentioned above may contain other elements. Thus:
@@ -101,7 +100,7 @@ As detailed above, you can add an icon in the header. You can do this in the fol
 
 Depends on the context, the scrollbar can be next to the content or at the edge of the layer.
 
-<Highlight theme="warning">
+<Highlight type="warning">
 
 Add the `mc-layer-open` class to the html body element to prevent the default scrolling of the browser window.
 
@@ -175,7 +174,7 @@ To do this, you need to add the `.mu-prevent-body-scroll` class to both the `htm
 When using this utility class, do not forget to import the associated SCSS file:
 
 ```scss
-@import 'utilities/_u.scroll';
+@import 'utilities/u.scroll';
 ```
 
 > Note that the use of this class is not imposed by Mozaic but left to your discretion.

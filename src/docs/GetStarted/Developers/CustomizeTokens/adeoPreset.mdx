@@ -11,7 +11,7 @@ We have set Mozaic to be customisable to meet the needs of **LEROY MERLIN**'s ma
 
 Indeed, **Mozaic** natively embeds a **preset**, allowing to automatically override the native **LEROY MERLIN** colors with those specific to **ADEO**.
 
-<Highlight theme="tips" title="Good to know">
+<Highlight type="tips" title="Good to know">
 
 Please, take note of the [ADEO colour theme](/Foundations/Colours/adeo/) to use this preset.
 
@@ -31,7 +31,7 @@ To use the **ADEO preset**, you must create a file `mozaic.config.js` at the roo
 
 In the `mozaic.config.js` file you must add a `preset` property and give it `adeo` as value:
 
-```js
+```js mozaic.config.js
 module.exports = {
   preset: 'adeo',
 }
@@ -47,7 +47,7 @@ Therefore, to achieve this, you must indicate to Mozaic a local export path for 
 
 To do that, you must add the following code to the `mozaic.config.js` file in addition to the elements that are already included:
 
-```js
+```js mozaic.config.js
 module.exports = {
   preset: 'adeo',
   tokens: {
@@ -56,13 +56,13 @@ module.exports = {
 }
 ```
 
-<Highlight theme="info" title="Good to know">
+<Highlight type="info" title="Good to know">
 
 By setting the `localTokensExportPath` property in the `mozaic.config.js` file, you tell Mozaic not only where to generate new tokens, but also that it should use these new tokens when compiling the SCSS files.
 
 </Highlight>
 
-<Highlight theme="warning" title="Be aware">
+<Highlight type="warning" title="Be aware">
 
 The definition of the local token export path, using the `localTokensExportPath` property, is an important step in the use of the ADEO preset, and more generally in the customization of tokens.
 
@@ -86,12 +86,10 @@ Run the `mozaic-tokens-build` command directly:
 
 Or through a `package.json` script for example:
 
-```Json
-...
+```json package.json
 "scripts": {
   "tokens:build": "mozaic-tokens-build"
 }
-...
 ```
 
 #### 3.2 - Using the js function
@@ -108,7 +106,7 @@ tokensBuild()
 
 When triggering either the command or the function, you should see a list of messages looking like this logging into the console:
 
-```shell
+```console
 Property Value Collisions:
 Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value: #000
 ```

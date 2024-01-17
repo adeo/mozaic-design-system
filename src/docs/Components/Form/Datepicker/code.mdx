@@ -10,9 +10,9 @@ Import the **settings**, the **text-input** and the **field** `scss` files.
 ```scss
 @import 'settings-tools/all-settings';
 
-@import 'components/_c.text-input';
+@import 'components/c.text-input';
 
-@import 'components/_c.fields';
+@import 'components/c.fields';
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ The easiest way to implement a date picker on a form field is to apply the follo
 </div>
 ```
 
-<Highlight theme="warning" title="date picker appearance">
+<Highlight type="warning" title="date picker appearance">
 
 Using the `type="date"` attribute on an `input` element triggers the automatic generation of a date picker by the browser. The appearance and overall features of this date picker will therefore depend on the browser used.
 
@@ -45,11 +45,11 @@ To have advanced control over appearance and features, you will have to use a Ja
 
 </Highlight>
 
-<Highlight theme="warning" title="Browser support">
+<Highlight type="warning" title="Browser support">
 
 The `type="date"` attribute is an HTML5 feature that some browsers [do not support](https://caniuse.com/#feat=input-datetime).
 
-Indeed, for **Safari**, or **IE<11** browsers, using the `type="date"` attribute will have no effect, and will not generate a native datepicker.
+Indeed, for **Safari**, or **IE < 11** browsers, using the `type="date"` attribute will have no effect, and will not generate a native datepicker.
 
 For these browsers, you will therefore have to use a Javascript library.
 
@@ -88,7 +88,7 @@ The use of the `type="date"` attribute creates a concern for consistency in the 
 
 There are several JavaScript libraries on the market that allow you to implement a custom date picker that works consistently across all browsers.
 
-<Highlight theme="tips">
+<Highlight type="tips">
 
 Here are some links of JavaScript libraries we like:
 

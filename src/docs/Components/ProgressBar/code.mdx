@@ -8,7 +8,7 @@ order: 2
 ```scss
 @import 'settings-tools/all-settings';
 
-@import 'components/_c.progressbar';
+@import 'components/c.progressbar';
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ The code of the **ProgressBar** component is structured as follows:
 </div>
 ```
 
-<Highlight theme="info" title="Good to know">
+<Highlight type="info" title="Good to know">
 The <code class="dtEPZw">mc-progressbar__indicator</code> div must always be present in your code to ensure a good level of accessibility to the component.
 
 Note however that by default this element will be visually hidden.
@@ -44,13 +44,13 @@ However, you have the possibility to make this element visible if needed ([read 
 
 </Highlight>
 
-<Highlight theme="tips" title="The style attribute">
+<Highlight type="tips" title="The style attribute">
 
 The `style` attribute on the `mc-progressbar__indicator` element allows you to manage the width of the progress indicator by updating the `width` property in real time as the load progresses.
 
 </Highlight>
 
-<Highlight theme="warning" title="Accessibility rules">
+<Highlight type="warning" title="Accessibility rules">
 
 As you can see from the code above, many **aria attributes** are on the `mc-progressbar__indicator` element.
 

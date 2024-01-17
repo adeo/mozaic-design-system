@@ -4,6 +4,29 @@ order: 1
 description: 'The right place to check if the component you want to use is in progress, in bêta version, or stable'
 ---
 
-import PatternsStatus from '@mozaic-ds/gatsby-theme-styleguide/src/gatsby-components/PatternsStatus'
+<h2>Foundations</h2>
 
-<PatternsStatus />
+<PatternsStatusTable type="Foundations" />
+
+<h2>Components</h2>
+
+<PatternsStatusTable type="Components" />
+
+<h3>Statuses meaning</h3>
+
+<div
+  className="statusMeaning"
+  style={{ display: 'flex', 'align-items': 'center' }}
+>
+  <NotificationCircleAvailable24 fill="#41a017" />
+  <b>&nbsp;&nbsp;Ready</b>: The component is dev and design ready.
+</div>
+
+<div
+  className="statusMeaning"
+  style={{ display: 'flex', 'align-items': 'center' }}
+>
+  <ControlCross16 fill="currentColor" />
+  <b>&nbsp;&nbsp;Not available</b> : Component is not available in this version of
+  the library.
+</div>

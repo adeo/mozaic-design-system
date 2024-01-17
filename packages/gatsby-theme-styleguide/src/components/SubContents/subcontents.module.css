@@ -1,0 +1,74 @@
+.container {
+  font-size: 1rem;
+  max-width: 730px;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* List Item */
+.listItem:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.itemLink {
+  background: #3c3738;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: 100%;
+}
+
+.itemContent {
+  background: #3c3738;
+  color: #fff;
+  flex-basis: 100%;
+  margin: 0;
+  padding: 1rem;
+}
+
+.itemTitle {
+  font-size: 1rem;
+}
+
+.itemTitle + .itemDescription {
+  margin-top: 4px;
+}
+
+.itemDescription,
+.itemTitle {
+  color: inherit;
+  display: block;
+}
+
+.itemDescription {
+  font-size: 0.75rem;
+  max-width: 40em;
+  margin: 0;
+}
+
+/* Sublist Item */
+.subWrapper {
+  background: #fff;
+  box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.subItem {
+  background: #eeeef0;
+  border: solid 0.5rem #fff;
+  color: #000;
+  flex: 0 0 50%;
+  padding: 1rem;
+}

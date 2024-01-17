@@ -1,0 +1,86 @@
+/* ContentPage */
+
+/** Header */
+.header {
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    border-bottom: solid 1px black;
+    padding: 3rem;
+  }
+}
+
+.headerWithCat {
+  padding-top: 1.5rem;
+  padding-bottom: 2.375rem;
+}
+
+/** Category */
+.category {
+  color: #1c4d46;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/** Title */
+.title {
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.167;
+  font-size: 3rem;
+}
+
+.title:not(:only-child) {
+  margin-bottom: 0.75rem;
+}
+
+/** Container */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+/** ContentMain */
+.contentMain {
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .contentMain {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contentMain {
+    min-width: 30rem;
+    flex: 0 0 52rem;
+  }
+}
+
+.contentMain ul {
+  margin: 20px;
+}
+
+.contentMain h1:not(:first-child),
+.contentMain h2:not(:first-child),
+.contentMain h3:not(:first-child),
+.contentMain h4:not(:first-child) {
+  margin-top: 2em;
+  margin-bottom: 1.25em;
+}
+
+.contentMain img {
+  max-width: 100%;
+  height: auto;
+}

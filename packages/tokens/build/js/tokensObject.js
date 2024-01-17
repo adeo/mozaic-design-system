@@ -8414,11 +8414,11 @@ module.exports = {
         },
         "current": {
           "background": {
-            "value": "#46a610",
+            "value": "#188803",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
-              "value": "{color.primary-01.500.value}"
+              "value": "{color.primary-01.600.value}"
             },
             "name": "ColorStepperItemCurrentBackground",
             "attributes": {
@@ -8441,11 +8441,11 @@ module.exports = {
       "link": {
         "hover": {
           "text": {
-            "value": "#46a610",
+            "value": "#000000",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
-              "value": "{color.primary-01.500.value}"
+              "value": "{color.grey.999.value}"
             },
             "name": "ColorStepperLinkHoverText",
             "attributes": {
@@ -8510,11 +8510,11 @@ module.exports = {
         },
         "current": {
           "background": {
-            "value": "#46a610",
+            "value": "#188803",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
-              "value": "{color.primary-01.500.value}"
+              "value": "{color.primary-01.600.value}"
             },
             "name": "ColorStepperIndicatorCurrentBackground",
             "attributes": {
@@ -8533,11 +8533,11 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#46a610",
+            "value": "#188803",
             "filePath": "packages/tokens/properties/color/stepper.json",
             "isSource": true,
             "original": {
-              "value": "{color.primary-01.500.value}"
+              "value": "{color.primary-01.600.value}"
             },
             "name": "ColorStepperIndicatorCurrentBorder",
             "attributes": {
@@ -8558,11 +8558,11 @@ module.exports = {
         }
       },
       "icon": {
-        "value": "#46a610",
+        "value": "#188803",
         "filePath": "packages/tokens/properties/color/stepper.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorStepperIcon",
         "attributes": {
@@ -8577,11 +8577,11 @@ module.exports = {
         ]
       },
       "title": {
-        "value": "#46a610",
+        "value": "#188803",
         "filePath": "packages/tokens/properties/color/stepper.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorStepperTitle",
         "attributes": {
@@ -10426,21 +10426,6 @@ module.exports = {
         ]
       }
     }
-  },
-  "preset": {
-    "value": "lm",
-    "filePath": "packages/tokens/properties/preset.json",
-    "isSource": true,
-    "original": {
-      "value": "lm"
-    },
-    "name": "Preset",
-    "attributes": {
-      "category": "preset"
-    },
-    "path": [
-      "preset"
-    ]
   },
   "radius": {
     "s": {
@@ -12455,5 +12440,20 @@ module.exports = {
         "xxl"
       ]
     }
+  },
+  "preset": {
+    "value": "lm",
+    "filePath": "packages/tokens/properties/preset.json",
+    "isSource": true,
+    "original": {
+      "value": "lm"
+    },
+    "name": "Preset",
+    "attributes": {
+      "category": "preset"
+    },
+    "path": [
+      "preset"
+    ]
   }
 };

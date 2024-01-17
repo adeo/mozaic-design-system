@@ -12,7 +12,7 @@ Import **the settings** and **the checkbox** `scss` files.
 ```scss
 @import 'settings-tools/all-settings';
 
-@import 'components/_c.checkbox';
+@import 'components/c.checkbox';
 ```
 
 ### Basic usage
@@ -42,7 +42,7 @@ To use the checkbox pattern you have 3 main css classes to apply:
 - `:indeterminate`
 - `.is-invalid`
 
-<Highlight theme="warning" title="About the indeterminate state">
+<Highlight type="warning" title="About the indeterminate state">
 
 Note that you can't make an indeterminate checkbox through HTML.
 There is no indeterminate HTML attribute. You can change this property with Javascript only.
@@ -58,9 +58,9 @@ Import **the settings**, **the checkbox** and **the fields** scss files.
 ```scss
 @import 'settings-tools/all-settings';
 
-@import 'components/_c.checkbox';
+@import 'components/c.checkbox';
 
-@import 'components/_c.fields';
+@import 'components/c.fields';
 ```
 
 > Note that the import order is important to get the right rendering of the component.
@@ -171,7 +171,7 @@ For this you have to add a span with the class `mc-field__requirement` right aft
 </legend>
 ```
 
-<Highlight theme="tips" title="Semantic rule">
+<Highlight type="tips" title="Semantic rule">
 
 When one or more elements of the group are mandatory the `required` attribute must be added on the concerned checkbox element
 
@@ -186,7 +186,7 @@ To indicate that one or more elements of the group are not valid, several steps 
 - Add the `is-invalid` class and the `aria-invalid` attribute to the concerned checkbox element
 - You can add in addition a text detailing the error. This text must be added in a **span** with the class `mc-field__error-message` and positioned below the wrapper
 
-<Highlight theme="tips" title="Accessibility rules">
+<Highlight type="tips" title="Accessibility rules">
 
 If you use an error message you must comply with the following accessibility rules:
 

@@ -39,7 +39,15 @@ const generateMonochromListObject = (monochromList) =>
   })
 
 const generateColorListObject = (colorList) =>
-  colorList.map((icon) => getInfosFromName(icon.fileName))
+  colorList.map((icon) => {
+    const base = getInfosFromName(icon.fileName)
+    const componentName = createComponentName(icon.fileName)
+
+    return {
+      ...base,
+      componentName,
+    }
+  })
 
 const checkPath = (outputPath) =>
   new Promise((resolve, reject) => {

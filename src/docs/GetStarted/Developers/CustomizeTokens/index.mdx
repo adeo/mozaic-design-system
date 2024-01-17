@@ -1,5 +1,5 @@
 ---
-title: "Tokens customization"
+title: 'Tokens customization'
 order: 4
 ---
 
@@ -17,7 +17,7 @@ As a reminder, we call tokens a series of JSON files containing mostly color val
 
 Those files are transpiled into SCSS, js, ios, and android formats, to be used within multiple platforms and technologies.
 
-<Highlight theme="info" title="For more informations">
+<Highlight type="info" title="For more informations">
 
 Read the following documentations:
 
@@ -30,18 +30,18 @@ Read the following documentations:
 
 Create a `mozaic.config.js` file at your project root _(if it is not already done)_. Then define those keys:
 
-```js
+```js mozaic.config.js
 module.exports = {
   tokens: {
-    localTokensSrcPath: "./src/tokens/", // path to your own json tokens files
-    localTokensExportPath: "./dest/build/", // path to compiled tokens files
+    localTokensSrcPath: './src/tokens/', // path to your own json tokens files
+    localTokensExportPath: './dest/build/', // path to compiled tokens files
   },
 }
 ```
 
 By doing that, you tell **Mozaic** where to look for the source tokens and where to save the compiled ones.
 
-<Highlight theme="tips" title="Good to know">
+<Highlight type="tips" title="Good to know">
 
 The `localTokensExportPath` property is also used in the Mozaic's PostCSS configuration, to tell it where to look for the SCSS tokens.
 
@@ -59,21 +59,21 @@ The default primary color swatch is situated in `@mozaic-ds/tokens/properties/co
 
 Assuming you have the `mozaic.config.js` set up as described in the previous chapter, we need to create a `./src/tokens/properties/color/base.json` file.
 
-<Highlight theme="tips" title="Good to know">
+<Highlight type="tips" title="Good to know">
 
 You can override any value, Mozaic will take care of deep merging the source tokens with the new values you provided.
 
 </Highlight>
 
-For example, in `./src/tokens/properties/color/base.json`:
+For example:
 
-```Json
+```json src/tokens/properties/color/base.json
 {
   "color": {
     "primary-01": {
       "100": {
         "value": "#000"
-      },
+      }
     }
   }
 }
@@ -91,18 +91,16 @@ In order to compile tokens, you have two options:
 
 Run the `mozaic-tokens-build` command directly:
 
-```shell
+```bash
   npx mozaic-tokens-build
 ```
 
 Or through a `package.json` script for example:
 
-```Json
-...
+```json package.json
 "scripts": {
   "tokens:build": "mozaic-tokens-build"
 }
-...
 ```
 
 ### 3.2 - Using the js function
@@ -110,7 +108,7 @@ Or through a `package.json` script for example:
 If you want to trigger the tokens build inside a node script, you can use the function provided by Mozaic:
 
 ```js
-const tokensBuild = require("@mozaic-ds/tokens/tokensBuild")
+const tokensBuild = require('@mozaic-ds/tokens/tokensBuild')
 
 tokensBuild()
 ```
@@ -126,7 +124,7 @@ Collision detected at: color.primary-01.100! Original value: #EAF3E2, New value:
 
 The same way, by declaring new values, you can create new tokens for your use:
 
-```Json
+```json
 {
   "color": {
     "custom": {
@@ -141,7 +139,7 @@ The same way, by declaring new values, you can create new tokens for your use:
       },
       "400": {
         "value": "#01E"
-      },
+      }
     }
   }
 }
@@ -149,20 +147,18 @@ The same way, by declaring new values, you can create new tokens for your use:
 
 Will generate:
 
-```SCSS
-$color-custom-100 : #A0C;
-$color-custom-200 : #BBE;
-$color-custom-300 : #C1A;
-$color-custom-400 : #01E;
+```scss
+$color-custom-100: #a0c;
+$color-custom-200: #bbe;
+$color-custom-300: #c1a;
+$color-custom-400: #01e;
 
 $color: (
   custom: (
-    100:  $color-custom-100;
-    200:  $color-custom-200;
-    300:  $color-custom-300;
-    400:  $color-custom-400;
-  )
-)
+    100: $color-custom-100; 200: $color-custom-200; 300: $color-custom-300; 400:
+      $color-custom-400;,
+  ),
+);
 ```
 
 <Highlight title="One more thing...">
@@ -177,9 +173,8 @@ When we create components related tokens, we try as much as possible to loop thr
 
 For example, we use mixins to create buttons themes and then we use the key names as modifier classes names:
 
-```SCSS
+```scss
 .mc-button {
-  ...
   @each $name, $props in $buttons-themes {
     @if ($name != 'solid') {
       &--#{$name} {
@@ -192,7 +187,7 @@ For example, we use mixins to create buttons themes and then we use the key name
 
 This means that if you create a `properties/color/button.json` file and define something like:
 
-```json
+```json properties/color/button.json
 {
   "color": {
     "button": {
@@ -243,7 +238,7 @@ You will end up with a new button theme without the need to write any CSS or SAS
 </button>
 ```
 
-<Highlight theme="tips">
+<Highlight type="tips">
 
 You can look in the specs tab of the component documentation to help you define which tokens need to be overridden.
 

@@ -1,0 +1,31 @@
+/* Copy */
+
+/** Info */
+.info {
+  box-sizing: border-box;
+  color: #999;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 2em;
+  padding: 3px 5px;
+  position: relative;
+  width: 100%;
+}
+
+.info:not(:last-child) {
+  border-bottom: solid 1px #f5f5f5;
+}
+
+/** Copied */
+.copied {
+  background: #999;
+  border-radius: 3px;
+  color: #f5f5f5;
+  font-size: 9px;
+  line-height: 1;
+  padding: 3px;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}

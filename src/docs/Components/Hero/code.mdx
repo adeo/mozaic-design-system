@@ -9,9 +9,9 @@ order: 2
 @import 'settings-tools/all-settings';
 
 @import 'typography/_t.all-base-typography';
-@import 'layouts/_l.container';
-@import 'layouts/_l.flexy';
-@import 'components/_c.hero';
+@import 'layouts/l.container';
+@import 'layouts/l.flexy';
+@import 'components/c.hero';
 ```
 
 ## Basic usage
@@ -112,7 +112,7 @@ This background is an HTML element `<picture>` with the class `mc-hero__cover`. 
 </div>
 ```
 
-<Highlight theme="tips" title="Take advantage of the picture element">
+<Highlight type="tips" title="Take advantage of the picture element">
 
 The HTML **Picture** element allows you to load multiple image sources for different display/device scenarios.
 
@@ -176,7 +176,7 @@ You also need to add the `mc-hero--with-boxed` modifier to the global `mc-hero` 
 
 <Story id="content-hero--boxed-content" height="700" />
 
-<Highlight theme="warning">
+<Highlight type="warning">
 
 When using the `mc-hero--with-boxed` modifier, be careful not to apply in addition the `mc-hero--with-content` modifier to the `mc-hero` element.
 
@@ -193,7 +193,7 @@ When using a boxed content, you should be aware that it is positioned as follows
 
 </Highlight>
 
-<Highlight theme="tips">
+<Highlight type="tips">
 
 In case you would like to keep the boxed content below the main content in **L** resolution, you can add the `mc-hero--boxed-l` modifier to the global `mc-hero` wrapper.
 

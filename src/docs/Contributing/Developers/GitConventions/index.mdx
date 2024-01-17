@@ -21,9 +21,11 @@ git checkout -b type-id-description
 
 Each commit message consists of a `type`, a `scope` and a `description`.
 
-```shell
+```git-commit
 <type>(<scope>): <description>
+```
 
+```git-commit
 # example
 feat(component/button): add a warning color theme
 ```
@@ -127,8 +129,11 @@ See details in [Git documentation](https://git-scm.com/book/en/v2).
 
 If for some reason **you worked on multiple types, scopes, or tasks in the same pull request** and conserving multiple commits to be documented in the changelogs and release informations seems the best options.
 
-```shell
+```git-commit
 feat(tools/postcss): add a plugin that does x y
+```
+
+```git-commit
 feat(pattern/buttons): create a feature that does x y
 ```
 

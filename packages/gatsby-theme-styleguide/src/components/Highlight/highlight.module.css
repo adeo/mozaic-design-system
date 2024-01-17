@@ -1,0 +1,30 @@
+.container {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem 2rem;
+  background-color: var(--background, transparent);
+  border-left: solid 8px var(--border, transparent);
+}
+
+.title {
+  align-items: center;
+  color: var(--color, black);
+  display: inline-flex;
+  font-size: 0.875rem;
+  font-weight: bold;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 0.5rem;
+}
+
+.content > :first-child {
+  margin-top: 0;
+}
+
+.content > :last-child {
+  margin-bottom: 0;
+}
