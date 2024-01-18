@@ -1,5 +1,5 @@
 {
-  "version": "1.68.1",
+  "version": "1.69.0",
   "npmClient": "yarn",
   "command": {
     "publish": {
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "useWorkspaces": true
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }
