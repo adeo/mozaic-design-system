@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.70.0](https://github.com/adeo/mozaic-design-system/compare/v1.68.1...v1.70.0) (2024-01-18)
+
+### Bug Fixes
+
+- **component/listbox:** adjust label size ([6c7a167](https://github.com/adeo/mozaic-design-system/commit/6c7a167fe3a29973d66f0a13f7647f660861e138))
+
+### Features
+
+- **component/stepper:** a11y - change colors for accessibility ([4e594fb](https://github.com/adeo/mozaic-design-system/commit/4e594fbe869fa95bc43d686e698cf29ef85354fe)), closes [#1348](https://github.com/adeo/mozaic-design-system/issues/1348)
+- **icons/color:** add component name in generateColorListObject ([da01083](https://github.com/adeo/mozaic-design-system/commit/da0108350f7840c4548f990f9263ef6f1417bbe7))
+- **icons:** update destocking icon ([#1530](https://github.com/adeo/mozaic-design-system/issues/1530)) ([ac175a7](https://github.com/adeo/mozaic-design-system/commit/ac175a7500f6cf2d44dedbdf680e24aacc23a8c0))
+- **tools/tokens:** update tokens ([c73529f](https://github.com/adeo/mozaic-design-system/commit/c73529fcf1f00514c53640a3e1128c90f282d481))
+
 # [1.69.0](https://github.com/adeo/mozaic-design-system/compare/v1.68.1...v1.69.0) (2024-01-17)
 
 ### Features

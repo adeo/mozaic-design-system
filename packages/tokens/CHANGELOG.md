@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.70.0](https://github.com/adeo/mozaic-design-system/compare/v1.68.1...v1.70.0) (2024-01-18)
+
+### Features
+
+- **component/stepper:** a11y - change colors for accessibility ([4e594fb](https://github.com/adeo/mozaic-design-system/commit/4e594fbe869fa95bc43d686e698cf29ef85354fe)), closes [#1348](https://github.com/adeo/mozaic-design-system/issues/1348)
+- **tools/tokens:** update tokens ([c73529f](https://github.com/adeo/mozaic-design-system/commit/c73529fcf1f00514c53640a3e1128c90f282d481))
+
 # [1.69.0](https://github.com/adeo/mozaic-design-system/compare/v1.68.1...v1.69.0) (2024-01-17)
 
 ### Features
