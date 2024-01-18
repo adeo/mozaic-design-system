@@ -21,9 +21,9 @@ jobs:
         id: gettag
         shell: bash
         run: echo "::set-output name=branch::$(echo ${{ github.ref }} | iconv -t ASCII | sed -r 's/[^a-zA-Z0-9]+//g' | sed -r 's/refstags//g' | sed -r 's/^-+\\|-+$//g' | tr A-Z a-z)"
-      - run: npm install yarn -g
+      - run: npm install -g corepack
+      - run: corepack enable
       - run: yarn install
-      - run: yarn lerna
       - name: Build a production website
         run: yarn build
         env:

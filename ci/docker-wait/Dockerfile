@@ -50,7 +50,7 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | b
     && nvm install $NODE_VERSION \
     && nvm alias default $NODE_VERSION \
     && nvm use default
-RUN . $NVM_DIR/nvm.sh && npm install -g yarn
+RUN . $NVM_DIR/nvm.sh && npm install -g corepack && corepack enable && yarn install
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
