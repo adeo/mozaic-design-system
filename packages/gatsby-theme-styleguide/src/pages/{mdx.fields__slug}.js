@@ -63,7 +63,6 @@ function orderPageTab(tabs) {
 
 const ContentPage = (props) => {
   const { children, data, location, pageContext, path } = props
-  console.log('props', props)
   const currentPage = data.mdx
   const allMdx = data.allMdx.edges
   const { tableOfContents } = currentPage
