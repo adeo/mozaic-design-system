@@ -24,6 +24,8 @@
     "chromedriver": "^120.0.1",
     "core-js": "^3.34.0",
     "gatsby": "^5.13.1",
+    "gatsby-plugin-canonical-urls": "^5.13.1",
+    "gatsby-plugin-sitemap": "^6.13.0",
     "glob": "^8.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
