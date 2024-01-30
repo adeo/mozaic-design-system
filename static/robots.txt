@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /GetStarted/
+Disallow: /Foundations/
+Disallow: /Contributing/
+Disallow: /Updates/
+Disallow: /Help/
+
+Sitemap: Sitemap: https://mozaic.adeo.cloud/sitemap-index.xml
