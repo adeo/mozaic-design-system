@@ -6,4 +6,4 @@ Disallow: /Contributing/
 Disallow: /Updates/
 Disallow: /Help/
 
-Sitemap: Sitemap: https://mozaic.adeo.cloud/sitemap-index.xml
+Sitemap: https://mozaic.adeo.cloud/sitemap-index.xml
