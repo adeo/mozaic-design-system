@@ -43,7 +43,8 @@
     }
 
     // modifier – danger
-    &--danger {
+    &--danger,
+    &.is-danger {
       color: $color-danger-600;
     }
 
@@ -74,6 +75,10 @@
 
   &__icon {
     fill: $color-grey-600;
+
+    .is-danger & {
+      fill: $color-danger-600;
+    }
   }
 
   &__label {

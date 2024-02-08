@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.70.2](https://github.com/adeo/mozaic-design-system/compare/v1.70.1...v1.70.2) (2024-02-01)
+
+### Bug Fixes
+
+- **component/listbox:** update danger state of listbox actions ([a2b4ca6](https://github.com/adeo/mozaic-design-system/commit/a2b4ca61ce06d04060d981fbd5c477043e468403))
+
 ## [1.70.1](https://github.com/adeo/mozaic-design-system/compare/v1.70.0...v1.70.1) (2024-01-30)
 
 ### Bug Fixes
