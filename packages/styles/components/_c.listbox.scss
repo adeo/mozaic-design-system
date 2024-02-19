@@ -181,6 +181,18 @@
   &--actions {
     min-width: px-to-rem(278);
 
+    &.align-top {
+      transform: translate(0, calc(-100% - #{$mu150}));
+    }
+
+    &.align-right {
+      transform: translate(calc(-100% + #{$mu150}), 0);
+
+      &.align-top {
+        transform: translate(calc(-100% + #{$mu150}), calc(-100% - #{$mu150}));
+      }
+    }
+
     #{$parent} {
       &__list {
         &:not(:last-child) {
