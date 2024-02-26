@@ -99,6 +99,14 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_OneyRaty",
+      "fileName": "Logotypes_Payment_OneyRaty_24px.svg",
+      "iconName": "PaymentOneyRaty",
+      "componentName": "PaymentOneyRaty24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_24px.svg",
       "iconName": "PaymentPayPal",
@@ -343,6 +351,14 @@
       "fileName": "Logotypes_Payment_Oney--4x_32px.svg",
       "iconName": "PaymentOney4x",
       "componentName": "PaymentOney4x32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_OneyRaty",
+      "fileName": "Logotypes_Payment_OneyRaty_32px.svg",
+      "iconName": "PaymentOneyRaty",
+      "componentName": "PaymentOneyRaty32"
     },
     {
       "cat": "Logotypes",
@@ -595,6 +611,14 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_OneyRaty",
+      "fileName": "Logotypes_Payment_OneyRaty_48px.svg",
+      "iconName": "PaymentOneyRaty",
+      "componentName": "PaymentOneyRaty48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_PayPal",
       "fileName": "Logotypes_Payment_PayPal_48px.svg",
       "iconName": "PaymentPayPal",
@@ -839,6 +863,14 @@
       "fileName": "Logotypes_Payment_Oney--4x_64px.svg",
       "iconName": "PaymentOney4x",
       "componentName": "PaymentOney4x64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_OneyRaty",
+      "fileName": "Logotypes_Payment_OneyRaty_64px.svg",
+      "iconName": "PaymentOneyRaty",
+      "componentName": "PaymentOneyRaty64"
     },
     {
       "cat": "Logotypes",
@@ -1489,6 +1521,14 @@
       "fileName": "Logotypes_Payment_Monochrome_Oney--4x_24px.svg",
       "iconName": "PaymentMonochromeOney4x",
       "componentName": "PaymentMonochromeOney4x24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Monochrome_OneyRaty",
+      "fileName": "Logotypes_Payment_Monochrome_OneyRaty_24px.svg",
+      "iconName": "PaymentMonochromeOneyRaty",
+      "componentName": "PaymentMonochromeOneyRaty24"
     },
     {
       "cat": "Logotypes",
@@ -3985,6 +4025,14 @@
       "fileName": "Logotypes_Payment_Monochrome_Oney--4x_32px.svg",
       "iconName": "PaymentMonochromeOney4x",
       "componentName": "PaymentMonochromeOney4x32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Monochrome_OneyRaty",
+      "fileName": "Logotypes_Payment_Monochrome_OneyRaty_32px.svg",
+      "iconName": "PaymentMonochromeOneyRaty",
+      "componentName": "PaymentMonochromeOneyRaty32"
     },
     {
       "cat": "Logotypes",
@@ -6493,6 +6541,14 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Monochrome_OneyRaty",
+      "fileName": "Logotypes_Payment_Monochrome_OneyRaty_48px.svg",
+      "iconName": "PaymentMonochromeOneyRaty",
+      "componentName": "PaymentMonochromeOneyRaty48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Monochrome_PayPal",
       "fileName": "Logotypes_Payment_Monochrome_PayPal_48px.svg",
       "iconName": "PaymentMonochromePayPal",
@@ -8993,6 +9049,14 @@
       "fileName": "Logotypes_Payment_Monochrome_Oney--4x_64px.svg",
       "iconName": "PaymentMonochromeOney4x",
       "componentName": "PaymentMonochromeOney4x64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Monochrome_OneyRaty",
+      "fileName": "Logotypes_Payment_Monochrome_OneyRaty_64px.svg",
+      "iconName": "PaymentMonochromeOneyRaty",
+      "componentName": "PaymentMonochromeOneyRaty64"
     },
     {
       "cat": "Logotypes",
