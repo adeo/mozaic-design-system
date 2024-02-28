@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.71.0](https://github.com/adeo/mozaic-design-system/compare/v1.70.2...v1.71.0) (2024-02-28)
+
+### Features
+
+- **icons:** add oneyraty logotype ([#1549](https://github.com/adeo/mozaic-design-system/issues/1549)) ([bae05e9](https://github.com/adeo/mozaic-design-system/commit/bae05e97c0be70803fe173c9ba53bae2ed31c3cb))
+
 # [1.70.0](https://github.com/adeo/mozaic-design-system/compare/v1.68.1...v1.70.0) (2024-01-18)
 
 ### Features

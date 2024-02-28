@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.71.0](https://github.com/adeo/mozaic-design-system/compare/v1.70.2...v1.71.0) (2024-02-28)
+
+### Bug Fixes
+
+- **component/accordion:** remove default white background ([adc6c5f](https://github.com/adeo/mozaic-design-system/commit/adc6c5fa151327bde6d61a369f08b67ff7a4a82b)), closes [#1539](https://github.com/adeo/mozaic-design-system/issues/1539)
+- **component/breadcrumb:** remove extra padding on 1st padding ([e85f687](https://github.com/adeo/mozaic-design-system/commit/e85f687687c8b38552f019ba9333e5785f31cb17))
+- **component/listbox:** re-add styles relating to ListboxActions position ([e66681a](https://github.com/adeo/mozaic-design-system/commit/e66681aed96473a51f0badb3ae54df8b8e0e9f7a))
+- **component/stepper:** add cursor:pointer for stepper links ([d015985](https://github.com/adeo/mozaic-design-system/commit/d015985d0fce33d11701da98c5f8221483eb19af))
+- **token:** undefined variable lm ([#1541](https://github.com/adeo/mozaic-design-system/issues/1541)) ([2f630e7](https://github.com/adeo/mozaic-design-system/commit/2f630e762ad1b5120fbcc69585da7adffb5a0266))
+- **Tooltip:** add selectors for keyboard navigation and hide component ([#1546](https://github.com/adeo/mozaic-design-system/issues/1546)) ([fa4d750](https://github.com/adeo/mozaic-design-system/commit/fa4d7509a78e2cb957c8e205ffb2565c6abc02ed))
+
+### Features
+
+- **icons:** add oneyraty logotype ([#1549](https://github.com/adeo/mozaic-design-system/issues/1549)) ([bae05e9](https://github.com/adeo/mozaic-design-system/commit/bae05e97c0be70803fe173c9ba53bae2ed31c3cb))
+
 ## [1.70.2](https://github.com/adeo/mozaic-design-system/compare/v1.70.1...v1.70.2) (2024-02-01)
 
 ### Bug Fixes
