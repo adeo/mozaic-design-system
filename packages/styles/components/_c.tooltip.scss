@@ -35,7 +35,7 @@
     white-space: normal;
     z-index: 1000;
     border: get-border("s") solid $color-tooltip-border;
-    word-break: break-all;
+    word-break: break-word;
 
     // MS Issue : IE10, IE11 don't support intrinsic widths
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
