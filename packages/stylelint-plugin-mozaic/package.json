@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/stylelint-plugin-mozaic",
-  "version": "1.68.1",
+  "version": "1.70.0",
   "description": "A set of rules to enforce Mozaic CSS architecture",
   "main": "index.js",
   "scripts": {

@@ -8,11 +8,16 @@
   position: relative;
 
   &:focus,
-  &:hover {
+  &:hover,
+  &:focus-within {
     cursor: help;
 
     #{$parent}__content {
       visibility: visible;
+    }
+
+    #{$parent}--hidden {
+      visibility: hidden;
     }
   }
 

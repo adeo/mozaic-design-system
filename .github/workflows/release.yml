@@ -9,6 +9,7 @@ jobs:
     permissions:
       id-token: write
       contents: read
+      deployments: write
 
     steps:
       - uses: actions/checkout@v3
@@ -26,13 +27,13 @@ jobs:
       - name: Build a production website
         run: yarn build
         env:
-          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
+          GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: deployment
         uses: bobheadxi/deployments@v1
         id: deployment
         with:
           step: start
-          token: ${{ secrets.SVC_GH_API_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           env: production
           ref: ${{ github.head_ref }}
       - id: 'auth'

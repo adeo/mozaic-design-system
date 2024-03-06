@@ -21,7 +21,7 @@ const getSourceDir = (preset, customSourcePath) => {
   source.push(getPath(sourceDir.lm))
 
   if (customSourcePath)
-    source.push(getPath(`${customSourcePath}${sourceDir[lm]}`))
+    source.push(getPath(`${customSourcePath}${sourceDir['lm']}`))
 
   if (preset) source.splice(1, 0, getPath(sourceDir[preset]))
 

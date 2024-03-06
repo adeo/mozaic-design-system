@@ -6,9 +6,7 @@
   border: get-border("s") solid $color-listbox-border;
   border-radius: get-border-radius("m") - 1;
   overflow-y: auto;
-  max-height: px-to-rem(221);
   max-width: var(--listbox-maxwidth, $listbox-max-width);
-  min-width: px-to-rem(288);
   width: var(--listbox-width, $listbox-width);
 
   &::-webkit-scrollbar {
@@ -34,7 +32,6 @@
     align-items: center;
     display: flex;
     gap: $mu050;
-    height: $mu300;
     justify-content: flex-start;
     padding-left: $mu075;
     padding-right: $mu075;
@@ -46,7 +43,8 @@
     }
 
     // modifier – danger
-    &--danger {
+    &--danger,
+    &.is-danger {
       color: $color-danger-600;
     }
 
@@ -69,13 +67,6 @@
     }
   }
 
-  &__flag,
-  &__icon,
-  &__logo {
-    height: $mu200;
-    width: $mu200;
-  }
-
   &__flag {
     @include set-font-scale("07", "m");
 
@@ -84,9 +75,15 @@
 
   &__icon {
     fill: $color-grey-600;
+
+    .is-danger & {
+      fill: $color-danger-600;
+    }
   }
 
   &__label {
+    @include set-font-scale("05", "m");
+
     color: currentColor;
     cursor: pointer;
     white-space: nowrap;
@@ -124,8 +121,20 @@
   }
 
   &--options {
+    max-height: px-to-rem(221);
+    min-width: px-to-rem(288);
+
     #{$parent} {
+      &__flag,
+      &__icon,
+      &__logo {
+        height: $mu200;
+        width: $mu200;
+      }
+
       &__tile {
+        height: $mu300;
+
         &:not(:last-child) {
           border-bottom: get-border("s") solid $color-listbox-tile-border;
         }
@@ -170,33 +179,57 @@
 
   // Type "Actions"
   &--actions {
-    max-height: auto;
     min-width: px-to-rem(278);
 
-    #{$parent}__list {
-      &:not(:last-child) {
-        border-bottom: get-border("s") solid $color-grey-300;
-      }
+    &.align-top {
+      transform: translate(0, calc(-100% - #{$mu150}));
+    }
 
-      &:first-child {
-        padding: {
-          top: px-to-rem(7);
-          bottom: $mu050;
+    &.align-right {
+      transform: translate(calc(-100% + #{$mu150}), 0);
+
+      &.align-top {
+        transform: translate(calc(-100% + #{$mu150}), calc(-100% - #{$mu150}));
+      }
+    }
+
+    #{$parent} {
+      &__list {
+        &:not(:last-child) {
+          border-bottom: get-border("s") solid $color-grey-300;
+        }
+
+        &:first-child {
+          padding: {
+            top: px-to-rem(7);
+            bottom: $mu050;
+          }
+        }
+
+        &:last-child {
+          padding: {
+            top: $mu050;
+            bottom: px-to-rem(7);
+          }
+        }
+
+        &:not(:first-child):not(:last-child) {
+          padding: {
+            top: $mu050;
+            bottom: $mu050;
+          }
         }
       }
 
-      &:last-child {
-        padding: {
-          top: $mu050;
-          bottom: px-to-rem(7);
-        }
+      &__tile {
+        height: $mu250;
       }
 
-      &:not(:first-child):not(:last-child) {
-        padding: {
-          top: $mu050;
-          bottom: $mu050;
-        }
+      &__flag,
+      &__icon,
+      &__logo {
+        height: $mu150;
+        width: $mu150;
       }
     }
   }
