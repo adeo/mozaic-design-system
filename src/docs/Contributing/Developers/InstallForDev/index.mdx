@@ -3,7 +3,7 @@ title: 'Install for development'
 order: 1
 ---
 
-## Requirements :
+## Requirements
 
 - node v18+
 - yarn
@@ -12,13 +12,19 @@ order: 1
 
 Please follow this [guide](https://nodejs.org/en/download/package-manager/)
 
-#### To install yarn :
+#### To install [corepack](https://nodejs.org/api/corepack.html) :
 
 ```bash
-npm i -g yarn
+npm install -g corepack
 ```
 
-## Development :
+#### Enable corepack
+
+```bash
+corepack enable
+```
+
+## Development
 
 ### Note about the project architecture
 
@@ -47,7 +53,7 @@ cd mozaic-design-system
 Install dependencies and create symlink between packages:
 
 ```bash
-yarn lerna
+yarn install
 ```
 
 Add a github personal access tokens :

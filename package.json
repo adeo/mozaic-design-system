@@ -16,10 +16,11 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=18",
+    "yarn": "4.0.2"
   },
   "dependencies": {
-    "@mozaic-ds/gatsby-theme-styleguide": "^1.63.0",
+    "@mozaic-ds/gatsby-theme-styleguide": "workspace:^",
     "adm-zip": "^0.5.10",
     "chromedriver": "^120.0.1",
     "core-js": "^3.34.0",
@@ -52,7 +53,7 @@
     "yarn-audit-fix": "^10.0.7"
   },
   "scripts": {
-    "tokens:build": "mozaic-tokens-build",
+    "tokens:build": "yarn workspace @mozaic-ds/tokens mozaic-tokens-build",
     "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js || echo 'nothing to clean'",
     "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
     "assets:upload": "node ci/assets.js",
@@ -63,8 +64,8 @@
     "icons:build": "node iconCompiler/index.js",
     "prebuild": "yarn clean-cache && yarn tokens:build",
     "lerna": "npx lerna clean -y && yarn install",
-    "build": "npx gatsby build",
-    "develop": "npx gatsby develop",
+    "build": "yarn prebuild && npx gatsby build",
+    "develop": "yarn predevelop && npx gatsby develop",
     "format": "prettier --write '**/*.js'",
     "predevelop": "yarn tokens:clean-build",
     "release": "npx lerna version --conventional-commits --conventional-graduate --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
@@ -76,5 +77,5 @@
     "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'",
     "prepare": "husky install"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@4.0.2"
 }
