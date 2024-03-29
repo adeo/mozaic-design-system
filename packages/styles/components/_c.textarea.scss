@@ -13,6 +13,7 @@
   border: $border-width solid $color-input-border;
   background: $color-input-background;
   transition: all ease 200ms;
+  max-width: 100%;
   // remove border height and center baseline optically
   padding:
     calc(#{$mu075} - 0.125em - #{$border-width}) $mu075
