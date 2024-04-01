@@ -67,10 +67,6 @@
 
   tbody {
     tr {
-      &:hover:not(#{$parent}__empty) {
-        background-color: $color-datatable-cell-background-hover;
-      }
-
       &.selected {
         background-color: $color-datatable-cell-background-selected;
       }
@@ -148,34 +144,6 @@
     &-number {
       @at-root td#{&} {
         text-align: right;
-      }
-    }
-  }
-
-  // empty
-  &__empty {
-    &,
-    &:hover {
-      background-color: $color-datatable-empty-background;
-    }
-
-    &-cell {
-      color: $color-datatable-empty-color;
-    }
-
-    &-content {
-      @include set-font-scale("05", "m"); // 16px / 22px
-
-      align-items: center;
-      color: $color-datatable-empty-color;
-      display: flex;
-      gap: $mu150;
-      min-height: px-to-rem(310);
-      justify-content: center;
-      text-align: center;
-
-      strong {
-        @include set-font-scale("06", "m"); // 18px / 24px
       }
     }
   }
@@ -303,7 +271,7 @@
       }
     }
   }
-  
+
   &--overflow-visible {
     #{$parent} {
       &__container {
