@@ -59,10 +59,11 @@
     }
   }
 
-  &__head {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+  &__head,
+  &__cell {
+    small {
+      @include set-datatable-cell-sub-text();
+    }
   }
 
   tbody {

@@ -69,3 +69,12 @@ $datatabke-default-celle-size: map-get($datatable-sizes, "m");
     }
   }
 }
+
+@mixin set-datatable-cell-sub-text() {
+  @include set-font-scale("01", "m"); // 11px / 14px
+
+  color: $color-grey-700;
+  display: block;
+  font-weight: normal;
+  text-transform: none;
+}
