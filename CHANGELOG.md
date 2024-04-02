@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.72.0](https://github.com/adeo/mozaic-design-system/compare/v1.71.0...v1.72.0) (2024-04-02)
+
+### Bug Fixes
+
+- **component/textarea:** limit resize beyond the max width ([#1568](https://github.com/adeo/mozaic-design-system/issues/1568)) ([de85f16](https://github.com/adeo/mozaic-design-system/commit/de85f166bc491e487904ff21ff7f087c176f2d4a)), closes [#1469](https://github.com/adeo/mozaic-design-system/issues/1469)
+- **component/tooltip:** update word-break to avoid cutting word in half ([#1562](https://github.com/adeo/mozaic-design-system/issues/1562)) ([6e41577](https://github.com/adeo/mozaic-design-system/commit/6e4157765c5c578c9b3b414f1fd48aaa032adbbc))
+- **tools/tokens:** downgrade style-dictionary to v3.9.0 ([#1563](https://github.com/adeo/mozaic-design-system/issues/1563)) ([ae0e2bc](https://github.com/adeo/mozaic-design-system/commit/ae0e2bc4cd0d6699537af44b891032d437ecd156))
+
+### Features
+
+- **component/datatable:** implement the subtext style in cells ([#1573](https://github.com/adeo/mozaic-design-system/issues/1573)) ([3013111](https://github.com/adeo/mozaic-design-system/commit/3013111b02ef9609234c146296dad8dd20b659ea))
+- **component/datatable:** remove not necessary class 'mc-datatable\_\_expand' ([#1571](https://github.com/adeo/mozaic-design-system/issues/1571)) ([c2a98a8](https://github.com/adeo/mozaic-design-system/commit/c2a98a8a4866bee2ace760a3ef31708297cb46b8))
+- **components/datatable:** update empty states display ([#1570](https://github.com/adeo/mozaic-design-system/issues/1570)) ([c313c39](https://github.com/adeo/mozaic-design-system/commit/c313c39a3f8d7f59f67aed1ad2738f7c5560cce2))
+- **docs:** Key performance indicator ([#1526](https://github.com/adeo/mozaic-design-system/issues/1526)) ([0fa3365](https://github.com/adeo/mozaic-design-system/commit/0fa33656aa7687b7a5cc0cadcf8e74b685c3d32e))
+- **menu:** use auto for menu width ([#1560](https://github.com/adeo/mozaic-design-system/issues/1560)) ([462e169](https://github.com/adeo/mozaic-design-system/commit/462e169b9c87de0160ce530b32da818fb8c866b7))
+
 # [1.71.0](https://github.com/adeo/mozaic-design-system/compare/v1.70.2...v1.71.0) (2024-02-28)
 
 ### Bug Fixes

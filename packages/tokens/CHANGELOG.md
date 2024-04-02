@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.72.0](https://github.com/adeo/mozaic-design-system/compare/v1.71.0...v1.72.0) (2024-04-02)
+
+### Bug Fixes
+
+- **tools/tokens:** downgrade style-dictionary to v3.9.0 ([#1563](https://github.com/adeo/mozaic-design-system/issues/1563)) ([ae0e2bc](https://github.com/adeo/mozaic-design-system/commit/ae0e2bc4cd0d6699537af44b891032d437ecd156))
+
 # [1.71.0](https://github.com/adeo/mozaic-design-system/compare/v1.70.2...v1.71.0) (2024-02-28)
 
 ### Bug Fixes
