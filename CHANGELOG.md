@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.73.0](https://github.com/adeo/mozaic-design-system/compare/v1.72.0...v1.73.0) (2024-04-09)
+
+### Features
+
+- **components/datatable:** restrict the application of some styles to the root table ([#1576](https://github.com/adeo/mozaic-design-system/issues/1576)) ([0cd0093](https://github.com/adeo/mozaic-design-system/commit/0cd009367526df68a77a61f133e2e126af23c95f))
+- **icons:** add Przelesw logotypes ([#1574](https://github.com/adeo/mozaic-design-system/issues/1574)) ([224168e](https://github.com/adeo/mozaic-design-system/commit/224168e87deb5e57fa26eb04383340944680bfff))
+
 # [1.72.0](https://github.com/adeo/mozaic-design-system/compare/v1.71.0...v1.72.0) (2024-04-02)
 
 ### Bug Fixes

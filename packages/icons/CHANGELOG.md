@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.73.0](https://github.com/adeo/mozaic-design-system/compare/v1.72.0...v1.73.0) (2024-04-09)
+
+### Features
+
+- **icons:** add Przelesw logotypes ([#1574](https://github.com/adeo/mozaic-design-system/issues/1574)) ([224168e](https://github.com/adeo/mozaic-design-system/commit/224168e87deb5e57fa26eb04383340944680bfff))
+
 # [1.71.0](https://github.com/adeo/mozaic-design-system/compare/v1.70.2...v1.71.0) (2024-02-28)
 
 ### Features
