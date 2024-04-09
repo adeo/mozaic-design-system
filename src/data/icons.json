@@ -121,6 +121,14 @@
       "componentName": "PaymentPayPo24"
     },
     {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Przelesw",
+      "fileName": "Logotypes_Payment_Przelesw_24px.svg",
+      "iconName": "PaymentPrzelesw",
+      "componentName": "PaymentPrzelesw24"
+    },
+    {
       "cat": "Payment",
       "size": "24px",
       "name": "Cards_Colors_AmericanExpress",
@@ -375,6 +383,14 @@
       "fileName": "Logotypes_Payment_PayPo_32px.svg",
       "iconName": "PaymentPayPo",
       "componentName": "PaymentPayPo32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Przelesw",
+      "fileName": "Logotypes_Payment_Przelesw_32px.svg",
+      "iconName": "PaymentPrzelesw",
+      "componentName": "PaymentPrzelesw32"
     },
     {
       "cat": "Payment",
@@ -633,6 +649,14 @@
       "componentName": "PaymentPayPo48"
     },
     {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Przelesw",
+      "fileName": "Logotypes_Payment_Przelesw_48px.svg",
+      "iconName": "PaymentPrzelesw",
+      "componentName": "PaymentPrzelesw48"
+    },
+    {
       "cat": "Payment",
       "size": "48px",
       "name": "Cards_Colors_AmericanExpress",
@@ -887,6 +911,14 @@
       "fileName": "Logotypes_Payment_PayPo_64px.svg",
       "iconName": "PaymentPayPo",
       "componentName": "PaymentPayPo64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Przelesw",
+      "fileName": "Logotypes_Payment_Przelesw_64px.svg",
+      "iconName": "PaymentPrzelesw",
+      "componentName": "PaymentPrzelesw64"
     },
     {
       "cat": "Payment",
@@ -1537,6 +1569,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_24px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Monochrome_Przelesw",
+      "fileName": "Logotypes_Payment_Monochrome_Przelesw_24px.svg",
+      "iconName": "PaymentMonochromePrzelesw",
+      "componentName": "PaymentMonochromePrzelesw24"
     },
     {
       "cat": "Media",
@@ -4041,6 +4081,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_32px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Monochrome_Przelesw",
+      "fileName": "Logotypes_Payment_Monochrome_Przelesw_32px.svg",
+      "iconName": "PaymentMonochromePrzelesw",
+      "componentName": "PaymentMonochromePrzelesw32"
     },
     {
       "cat": "Media",
@@ -6555,6 +6603,14 @@
       "componentName": "PaymentMonochromePayPal48"
     },
     {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Monochrome_Przelesw",
+      "fileName": "Logotypes_Payment_Monochrome_Przelesw_48px.svg",
+      "iconName": "PaymentMonochromePrzelesw",
+      "componentName": "PaymentMonochromePrzelesw48"
+    },
+    {
       "cat": "Media",
       "size": "48px",
       "name": "API",
@@ -9065,6 +9121,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_64px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Monochrome_Przelesw",
+      "fileName": "Logotypes_Payment_Monochrome_Przelesw_64px.svg",
+      "iconName": "PaymentMonochromePrzelesw",
+      "componentName": "PaymentMonochromePrzelesw64"
     },
     {
       "cat": "Media",
