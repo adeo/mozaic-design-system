@@ -40,11 +40,10 @@ jobs:
         with:
           args: ci:wait ${{ steps.getbranch.outputs.branch }}
       - name: deployment
-        uses: bobheadxi/deployments@v1
+        uses: bobheadxi/deployments@v1.5.0
         id: deployment
         with:
           step: start
-          token: ${{ secrets.GITHUB_TOKEN }}
           env: staging
           ref: ${{ github.head_ref }}
       - id: 'auth'
