@@ -31,6 +31,7 @@
     "gatsby-source-filesystem": "^5.13.0",
     "gatsby-transformer-json": "^5.13.0",
     "remark-gfm": "^3.0.1",
+    "@mozaic-ds/icons-react": " 0.1.0-beta.3",
     "sass": "^1.69.5"
   },
   "peerDependencies": {

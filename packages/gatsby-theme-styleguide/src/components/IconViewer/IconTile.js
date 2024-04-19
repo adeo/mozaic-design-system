@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import * as reactIcons from '@mozaic-ds/icons/react'
+import * as reactIcons from '@mozaic-ds/icons-react'
 import Copy from '../Copy'
 import * as styles from './iconviewer.module.css'
 

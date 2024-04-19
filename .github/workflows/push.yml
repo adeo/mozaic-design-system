@@ -33,18 +33,17 @@ jobs:
       - name: Build a production website
         run: yarn build
         env:
-          GH_API_TOKEN: ${{ secrets.SVC_GH_API_TOKEN }}
+          GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: ./ci/docker-wait
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
           args: ci:wait ${{ steps.getbranch.outputs.branch }}
       - name: deployment
-        uses: bobheadxi/deployments@v1
+        uses: bobheadxi/deployments@v1.5.0
         id: deployment
         with:
           step: start
-          token: ${{ secrets.SVC_GH_API_TOKEN }}
           env: staging
           ref: ${{ github.head_ref }}
       - id: 'auth'
@@ -65,7 +64,7 @@ jobs:
         uses: bobheadxi/deployments@v1
         with:
           step: finish
-          token: ${{ secrets.SVC_GH_API_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           status: ${{ job.status }}
           env: ${{ steps.deployment.outputs.env }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
