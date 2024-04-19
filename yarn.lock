@@ -2111,6 +2111,13 @@
     "@lezer/lr" "^1.0.0"
     json5 "^2.2.1"
 
+"@mozaic-ds/icons-react@ 0.1.0-beta.3":
+  version "0.1.0-beta.3"
+  resolved "https://registry.npmjs.org/@mozaic-ds/icons-react/-/icons-react-0.1.0-beta.3.tgz#92e7e0ec7e341d32a68e92878a764a1872218c0a"
+  integrity sha512-z/sFa5C30kx6mbcaEC9KOLCR9paQ7ZGNujNBJa3lOcGOfKt7BDmErCpyZil0Qo3RHBKaeeAcyDXOkQWnKQBNMQ==
+  dependencies:
+    "@mozaic-ds/icons" "^2.0.0-beta.22"
+
 "@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.2":
   version "3.0.2"
   resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-darwin-arm64/-/msgpackr-extract-darwin-arm64-3.0.2.tgz#44d752c1a2dc113f15f781b7cc4f53a307e3fa38"

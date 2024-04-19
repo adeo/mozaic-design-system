@@ -60,7 +60,9 @@ const IconViewer = ({ type }) => {
         .map((cat) => {
           return (
             <div key={cat}>
-              <h2 className={styles.subtitle}>{cat}</h2>
+              {Object.keys(categories[cat]).filter(
+                (f) => f.includes(filter) || filter === '',
+              ).length > 0 && <h2 className={styles.subtitle}>{cat}</h2>}
               <ul className={styles.list}>
                 {Object.keys(categories[cat])
                   .filter((f) => f.includes(filter) || filter === '')
