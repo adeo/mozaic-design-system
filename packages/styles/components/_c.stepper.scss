@@ -48,11 +48,6 @@
       right: 0;
     }
 
-    &:first-child::before,
-    &:last-child::after {
-      content: none;
-    }
-
     &--current,
     &--validated {
       #{$parent} {
@@ -139,6 +134,15 @@
   &__title {
     display: none;
     color: $color-stepper-title;
+  }
+
+  &:not(#{$parent}--compact):not(#{$parent}--shrinked) {
+    #{$parent}__item {
+      &:first-child::before,
+      &:last-child::after {
+        content: none;
+      }
+    }
   }
 
   &--compact {
