@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.73.2](https://github.com/adeo/mozaic-design-system/compare/v1.73.1...v1.73.2) (2024-04-25)
+
+### Bug Fixes
+
+- **components/stepper:** compact variation - not take skrinked variation into account" ([#1583](https://github.com/adeo/mozaic-design-system/issues/1583)) ([9a37864](https://github.com/adeo/mozaic-design-system/commit/9a37864fe962162e17592b48a298c6f111e1d977))
+
 ## [1.73.1](https://github.com/adeo/mozaic-design-system/compare/v1.73.0...v1.73.1) (2024-04-25)
 
 ### Bug Fixes
