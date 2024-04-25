@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.73.1](https://github.com/adeo/mozaic-design-system/compare/v1.73.0...v1.73.1) (2024-04-25)
+
+### Bug Fixes
+
+- **components/stepper:** compact variation - displaying progress on first step ([#1582](https://github.com/adeo/mozaic-design-system/issues/1582)) ([4d9623e](https://github.com/adeo/mozaic-design-system/commit/4d9623e851e6f6c3e28aa313e1848a5322ee065a))
+
 # [1.73.0](https://github.com/adeo/mozaic-design-system/compare/v1.72.0...v1.73.0) (2024-04-09)
 
 ### Features
