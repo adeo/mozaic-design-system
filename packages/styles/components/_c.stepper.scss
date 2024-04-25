@@ -136,7 +136,7 @@
     color: $color-stepper-title;
   }
 
-  &:not(#{$parent}--compact):not(#{$parent}--shrinked) {
+  &:not(#{$parent}--compact) {
     #{$parent}__item {
       &:first-child::before,
       &:last-child::after {
