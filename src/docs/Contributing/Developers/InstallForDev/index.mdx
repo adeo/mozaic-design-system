@@ -6,16 +6,15 @@ order: 1
 ## Requirements :
 
 - node v18+
-- yarn
 
 #### To install node:
 
 Please follow this [guide](https://nodejs.org/en/download/package-manager/)
 
-#### To install yarn :
+#### To install :
 
 ```bash
-npm i -g yarn
+npm i
 ```
 
 ## Development :
@@ -47,7 +46,7 @@ cd mozaic-design-system
 Install dependencies and create symlink between packages:
 
 ```bash
-yarn lerna
+npm run lerna
 ```
 
 Add a github personal access tokens :
@@ -63,7 +62,7 @@ GH_API_TOKEN=XXX
 Lunch the dev server:
 
 ```bash
-yarn develop
+npm run develop
 ```
 
 ## Targeting compillation of selected previews directory
@@ -73,19 +72,19 @@ Compiling previews take a long time, and most of the time you need only to compi
 To target only previews contained in a directory, add a preview parameter to the develop command containing a path relative to `src/pages/`:
 
 ```bash
-yarn develop previews=Components/Buttons
+npm run develop previews=Components/Buttons
 ```
 
 ## Lint and fix your css files using stylelint
 
 ```bash
-yarn css:fix
+npm run css:fix
 ```
 
 Please note that stylelint is not able to fix everything, so run
 
 ```bash
-yarn css:lint
+npm run css:lint
 ```
 
 and make the required changes.
@@ -95,7 +94,7 @@ stylelint `fix` and `lint` are run at pre-commit, so you can't commit uggly stuf
 ## Create a production build :
 
 ```bash
-yarn build
+npm run build
 ```
 
 ## CI/CD

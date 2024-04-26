@@ -27,6 +27,7 @@
     "gatsby-plugin-canonical-urls": "^5.13.1",
     "gatsby-plugin-sitemap": "^6.13.0",
     "glob": "^8.0.3",
+    "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "request-promise": "^4.2.6",
@@ -48,25 +49,24 @@
     "mock-fs": "^5.2.0",
     "plop": "^3.1.2",
     "prettier": "^3.1.1",
-    "svg-parser": "^2.0.4",
-    "yarn-audit-fix": "^10.0.7"
+    "svg-parser": "^2.0.4"
   },
   "scripts": {
     "tokens:build": "mozaic-tokens-build",
     "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js || echo 'nothing to clean'",
-    "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
+    "tokens:clean-build": "npm run tokens:clean && npm run tokens:build",
     "assets:upload": "node ci/assets.js",
     "ci:wait": "node ci/deploy.js",
     "clean-cache": "npx gatsby clean",
     "css:fix": "npx stylelint packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint packages/styles/**/*.scss",
     "icons:build": "node iconCompiler/index.js",
-    "prebuild": "yarn clean-cache && yarn tokens:build",
-    "lerna": "npx lerna clean -y && yarn install",
+    "prebuild": "npm run clean-cache && npm run tokens:build",
+    "lerna": "npx lerna clean -y && npm i install",
     "build": "npx gatsby build",
     "develop": "npx gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "predevelop": "yarn tokens:clean-build",
+    "predevelop": "npm run tokens:clean-build",
     "release": "npx lerna version --conventional-commits --conventional-graduate --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
     "releaseBeta": "npx lerna version --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid beta",
     "npm:publish": "npx lerna exec --bail=false npm publish",
@@ -75,6 +75,5 @@
     "unit:watch": "jest --watch --silent",
     "unit:coverage": "jest --coverage --collectCoverageFrom='**/*.js'",
     "prepare": "husky install"
-  },
-  "packageManager": "yarn@1.22.19"
+  }
 }

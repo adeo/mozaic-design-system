@@ -1,15 +1,12 @@
 {
   "version": "1.73.2",
-  "npmClient": "yarn",
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish"
     }
   },
+  "changelogPreset": "angular",
   "packages": ["packages/*"],
-  "publishConfig": {
-    "access": "public"
-  },
   "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }

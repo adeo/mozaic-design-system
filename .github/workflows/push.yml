@@ -28,11 +28,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm install yarn -g
-      - run: yarn install
-      - run: yarn lerna
+      - run: npm install
+      - run: npm run lerna
       - name: Build a production website
-        run: yarn build
+        run: npm run build
         env:
           GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: ./ci/docker-wait
