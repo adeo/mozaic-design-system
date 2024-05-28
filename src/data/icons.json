@@ -1573,6 +1573,14 @@
     {
       "cat": "Logotypes",
       "size": "24px",
+      "name": "Payment_Monochrome_Postepay",
+      "fileName": "Logotypes_Payment_Monochrome_Postepay_24px.svg",
+      "iconName": "PaymentMonochromePostepay",
+      "componentName": "PaymentMonochromePostepay24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
       "name": "Payment_Monochrome_Przelesw",
       "fileName": "Logotypes_Payment_Monochrome_Przelesw_24px.svg",
       "iconName": "PaymentMonochromePrzelesw",
@@ -3037,6 +3045,14 @@
     {
       "cat": "Social",
       "size": "24px",
+      "name": "SocialNetwork_Tiktok",
+      "fileName": "Social_SocialNetwork_Tiktok_24px.svg",
+      "iconName": "SocialNetworkTiktok",
+      "componentName": "SocialNetworkTiktok24"
+    },
+    {
+      "cat": "Social",
+      "size": "24px",
       "name": "SocialNetwork_X",
       "fileName": "Social_SocialNetwork_X_24px.svg",
       "iconName": "SocialNetworkX",
@@ -4081,6 +4097,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_32px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Monochrome_Postepay",
+      "fileName": "Logotypes_Payment_Monochrome_Postepay_32px.svg",
+      "iconName": "PaymentMonochromePostepay",
+      "componentName": "PaymentMonochromePostepay32"
     },
     {
       "cat": "Logotypes",
@@ -5557,6 +5581,14 @@
     {
       "cat": "Social",
       "size": "32px",
+      "name": "SocialNetwork_Tiktok",
+      "fileName": "Social_SocialNetwork_Tiktok_32px.svg",
+      "iconName": "SocialNetworkTiktok",
+      "componentName": "SocialNetworkTiktok32"
+    },
+    {
+      "cat": "Social",
+      "size": "32px",
       "name": "SocialNetwork_X",
       "fileName": "Social_SocialNetwork_X_32px.svg",
       "iconName": "SocialNetworkX",
@@ -6601,6 +6633,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_48px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Monochrome_Postepay",
+      "fileName": "Logotypes_Payment_Monochrome_Postepay_48px.svg",
+      "iconName": "PaymentMonochromePostepay",
+      "componentName": "PaymentMonochromePostepay48"
     },
     {
       "cat": "Logotypes",
@@ -8077,6 +8117,14 @@
     {
       "cat": "Social",
       "size": "48px",
+      "name": "SocialNetwork_Tiktok",
+      "fileName": "Social_SocialNetwork_Tiktok_48px.svg",
+      "iconName": "SocialNetworkTiktok",
+      "componentName": "SocialNetworkTiktok48"
+    },
+    {
+      "cat": "Social",
+      "size": "48px",
       "name": "SocialNetwork_X",
       "fileName": "Social_SocialNetwork_X_48px.svg",
       "iconName": "SocialNetworkX",
@@ -9121,6 +9169,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_64px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Monochrome_Postepay",
+      "fileName": "Logotypes_Payment_Monochrome_Postepay_64px.svg",
+      "iconName": "PaymentMonochromePostepay",
+      "componentName": "PaymentMonochromePostepay64"
     },
     {
       "cat": "Logotypes",
@@ -10593,6 +10649,14 @@
       "fileName": "Social_SocialNetwork_Telegram_64px.svg",
       "iconName": "SocialNetworkTelegram",
       "componentName": "SocialNetworkTelegram64"
+    },
+    {
+      "cat": "Social",
+      "size": "64px",
+      "name": "SocialNetwork_Tiktok",
+      "fileName": "Social_SocialNetwork_Tiktok_64px.svg",
+      "iconName": "SocialNetworkTiktok",
+      "componentName": "SocialNetworkTiktok64"
     },
     {
       "cat": "Social",
