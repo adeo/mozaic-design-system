@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.74.0](https://github.com/adeo/mozaic-design-system/compare/v1.73.2...v1.74.0) (2024-05-28)
+
+### Bug Fixes
+
+- **components/datatable:** increase z-index value on sticky variation ([#1586](https://github.com/adeo/mozaic-design-system/issues/1586)) ([541aa65](https://github.com/adeo/mozaic-design-system/commit/541aa654352fb52bd32d169e09881f574a186cc0))
+
 ## [1.73.2](https://github.com/adeo/mozaic-design-system/compare/v1.73.1...v1.73.2) (2024-04-25)
 
 ### Bug Fixes
