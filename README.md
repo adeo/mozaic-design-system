@@ -14,7 +14,7 @@
   <a href="https://lerna.js.org/">
     <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="Maintained with Lerna" />
   </a>
-  <a href="https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/">
+  <a href="https://mozaic.adeo.cloud/contributing/developers/install-for-dev/">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" />
   </a>
 </p>
@@ -44,13 +44,13 @@ We tried to focus on the developer experience, meaning that working with it shou
 
 You can report any bug, request a feature or any improvement [filling an issue here](https://github.com/adeo/mozaic-design-system/issues)
 
-#### Please read the [contributing documentation](https://mozaic.adeo.cloud/Contributing/) before submitting anything.
+#### Please read the [contributing documentation](https://mozaic.adeo.cloud/contributing/) before submitting anything.
 
 #### Please read the [contributing](https://github.com/adeo/mozaic-design-system/blob/master/CONTRIBUTING.md) before contributing.
 
 ## Installation
 
-Please follow the [installation guide](https://mozaic.adeo.cloud/Contributing/Developers/InstallForDev/)
+Please follow the [installation guide](https://mozaic.adeo.cloud/contributing/developers/install-for-dev/)
 
 ## Maintainers
 <table>
