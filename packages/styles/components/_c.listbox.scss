@@ -37,7 +37,7 @@
     padding-right: $mu075;
     position: relative;
 
-    &:not(#{$selector-empty}):not(.is-disabled):hover {
+    &:not(#{$selector-empty}):not(.is-disabled):hover, &:has(.mc-listbox__input:focus) {
       background-color: $color-listbox-tile-hover-background;
       box-shadow: inset 9px 0 0 -7px $color-listbox-tile-shadow;
     }
