@@ -3,6 +3,7 @@
 
   &__btn {
     @include unstyle-button();
+    @include set-focus-floating-base();
 
     align-items: center;
     background-color: transparent;
@@ -20,6 +21,10 @@
     svg {
       width: $mu150;
       height: $mu150;
+    }
+
+    &:focus {
+      @include set-focus-floating();
     }
   }
 
