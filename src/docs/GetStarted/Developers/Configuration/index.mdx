@@ -3,17 +3,25 @@ title: 'Configuration'
 order: 3
 ---
 
-## mozaic.config.(c)js
+## mozaic.config.js
 
-> mozaic.config.(c)js allows you to configure and customize Mozaic.
+> mozaic.config.js allows you to configure and customize Mozaic.
 
-To create Mozaic configuration file, it depends on the configuration of your module system. If you use CommonJS system, then you should create a file `mozaic.config.js`. If you use ESM, the name wille be `mozaic.config.cjs`, to tell the compiler the config file uses CommonJS syntax.
+Mozaic configuration can be defined in a file to customize it to your needs, such as enabling or disabling plugins, or change their configuration.
 
-To know which module system you use, have a look at your `package.json`. If you have a field `type: "module"`, then you are in ESM system. Otherwise (no `type` or type: "commonjs"), you are in CommonJS.
+### Naming the configuration file
 
-The file should be created at the root of your project:
+The naming of Mozaic configuration file depends on the configuration of your module system. If you use CommonJS system, then you should create a file `mozaic.config.js`. If you use ESM, the name will be `mozaic.config.cjs`, to tell the compiler the config file uses CommonJS syntax.
 
-```js mozaic.config.(c)js
+To know which module system you use, have a look at your `package.json`. If you have a field `type: "module"`, then you are in ESM system. Otherwise (no `type` or type: "commonjs"), you are in CommonJS. For further information, please have a look at [official Node documentation](https://nodejs.org/api/packages.html#determining-module-system)
+
+For the rest of the documentation, Mozaic configuration file will be referred as `mozaic.config.js`, even if you are in CommonJS case.
+
+### Create mozaic.config.js
+
+Create a mozaic.config.js file at the root of your project:
+
+```js mozaic.config.js
 module.exports = {
   /* options */
 }
@@ -43,7 +51,7 @@ Specified paths will be added to the default ones.
 
 **Example:**
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
 module.exports = {
   sass: {
     includePaths: ['./src/path/to/cssDir/'],
@@ -59,7 +67,7 @@ Change the indent width of the compiled CSS file.
 
 **Example:**
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
 module.exports = {
   sass: {
     indentWidth: 4,
@@ -77,7 +85,7 @@ Note that both options should always be used together.
 
 Use those options to customize tokens. For more information, read our Tokens customisation guide.
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
 module.exports = {
   tokens: {
     localTokensSrcPath: './src/tokens/', // path to your own js files
@@ -116,7 +124,7 @@ Allow you to specify separators to check the BEM structure.
 
 **Default values: **
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
   bemEntitiesDelimiters: {
     modifier: '--',
     element: '__',
@@ -130,13 +138,13 @@ Allow you to specify additional prefixes. Multiple prefixes can be added.
 
 **Default values: ['mc-', 'ml-', 'mu-', 'mt-', 'mdu-'] **
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
   prefixes: ['lrc-', 'lrl-', 'LrUtility-'],
 ```
 
 **Full example: **
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
 module.exports = {
   stylelint: {
     caseStyle: 'kebab-case', // ['camelCase', 'snake_case', 'PascalCase']
@@ -175,7 +183,7 @@ disabled: true | false
 
 **Full example: **
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
 module.exports = {
   browserslist: ['last 2 versions', 'firefox >= 45', 'IE >= 11'],
 }
@@ -190,7 +198,7 @@ Allow you to clean up CSS from your sources files.
 
 **Example: **
 
-```js mozaic.config.(c)js
+```js mozaic.config.js
 purgecss: {
   content: ['./src/**/*.html', './src/**/*.js', './src/**/*.vue']
 }
