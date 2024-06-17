@@ -2,6 +2,8 @@
 
 /* mqp:start */
 .mc-tag {
+  $parent: get-parent-selector(&);
+
   &-text {
     @include set-tag-base-style("m");
 
@@ -67,11 +69,40 @@
   }
 
   &-selectable {
+    $selectable: &;
+    $selectorInput: #{$selectable}__input;
+    $selectorPill: #{$selectable}__pill;
+
     display: inline-block;
     white-space: nowrap;
 
     &__input {
       @include set-hidden-input();
+
+      &:checked + #{$selectorPill} {
+        background: $color-tag-selectable-light-selected-background;
+        box-shadow: inset 0 0 0 get-border("s")
+          $color-tag-selectable-light-selected-background;
+        color: $color-tag-selectable-light-selected-text;
+
+        &:hover {
+          background: $color-tag-selectable-light-selected-hover-background;
+          box-shadow: inset 0 0 0 get-border("s")
+            $color-tag-selectable-light-selected-hover-background;
+        }
+      }
+
+      &:focus + #{$selectorPill} {
+        @include set-focus-floating {
+          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
+        }
+      }
+
+      &:disabled + #{$selectorPill} {
+        cursor: not-allowed;
+        background: $color-tag-selectable-light-disabled-background;
+        color: $color-tag-selectable-light-disabled-text;
+      }
     }
 
     &__label {
@@ -91,41 +122,16 @@
         background: $color-tag-selectable-light-hover-background;
       }
 
-      :checked + & {
-        background: $color-tag-selectable-light-selected-background;
-        box-shadow: inset 0 0 0 get-border("s")
-          $color-tag-selectable-light-selected-background;
-        color: $color-tag-selectable-light-selected-text;
-
-        &:hover {
-          background: $color-tag-selectable-light-selected-hover-background;
-          box-shadow: inset 0 0 0 get-border("s")
-            $color-tag-selectable-light-selected-hover-background;
-        }
-      }
-
       &:active {
         background: $color-tag-selectable-light-active-background;
         box-shadow: inset 0 0 0 get-border("s")
           $color-tag-selectable-light-active-border;
         color: $color-tag-selectable-light-active-text;
       }
-
-      :focus + & {
-        @include set-focus-floating {
-          box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
-        }
-      }
-
-      :disabled + & {
-        cursor: not-allowed;
-        background: $color-tag-selectable-light-disabled-background;
-        color: $color-tag-selectable-light-disabled-text;
-      }
     }
 
     &--dark {
-      .mc-tag-selectable__pill {
+      #{$selectorPill} {
         background: $color-tag-selectable-dark-background;
         color: $color-tag-selectable-dark-text;
         cursor: pointer;
@@ -142,27 +148,29 @@
         }
       }
 
-      :checked + .mc-tag-selectable__pill {
-        background: $color-tag-selectable-dark-selected-background;
-        box-shadow: inset 0 0 0 get-border("s")
-          $color-tag-selectable-dark-selected-border;
-        color: $color-tag-selectable-dark-selected-text;
+      #{$selectorInput} {
+        &:checked + #{$selectorPill} {
+          background: $color-tag-selectable-dark-selected-background;
+          box-shadow: inset 0 0 0 get-border("s")
+            $color-tag-selectable-dark-selected-border;
+          color: $color-tag-selectable-dark-selected-text;
 
-        &:hover {
-          background: $color-tag-selectable-dark-selected-hover-background;
+          &:hover {
+            background: $color-tag-selectable-dark-selected-hover-background;
+          }
         }
-      }
 
-      :disabled + .mc-tag-selectable__pill {
-        cursor: not-allowed;
-        background: $color-tag-selectable-dark-disabled-background;
-        color: $color-tag-selectable-dark-disabled-text;
+        &:disabled + #{$selectorPill} {
+          cursor: not-allowed;
+          background: $color-tag-selectable-dark-disabled-background;
+          color: $color-tag-selectable-dark-disabled-text;
+        }
       }
     }
 
     &--s {
       @include modify-from-screens($major-screens) {
-        .mc-tag-selectable__pill {
+        #{$selectorPill} {
           @include set-tag-base-style("s");
         }
       }
@@ -170,7 +178,7 @@
 
     &--m {
       @include modify-from-screens($major-screens) {
-        .mc-tag-selectable__pill {
+        #{$selectorPill} {
           @include set-tag-base-style("m");
         }
       }

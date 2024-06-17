@@ -9,6 +9,11 @@
   width: px-to-rem(315);
 
   &__segment {
+    @include set-focus-floating-base($before: true) {
+      bottom: -(math.div($mu025, 2));
+      top: -(math.div($mu025, 2));
+    }
+
     display: flex;
     background-color: $color-grey-000;
     border: none;
@@ -20,6 +25,7 @@
     padding: px-to-rem(3);
     text-align: left;
     position: relative;
+    outline: none;
 
     &:not(:last-child) {
       @include set-divider("right", "light", "16px", "s");
@@ -30,10 +36,6 @@
         }
       }
     }
-    @include set-focus-floating-base($before: true) {
-      bottom: -(math.div($mu025, 2));
-      top: -(math.div($mu025, 2));
-    }
 
     &:hover {
       #{$parent} {
@@ -42,6 +44,7 @@
         }
       }
     }
+
     &:focus {
       @include set-focus-floating($before: true) {
         box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
@@ -73,11 +76,10 @@
           &::before {
             width: $mu100;
             height: $mu100;
-            background-image: url(
-              inline-icons(
-                "notification-available-16",
-                $color-grey-000
-              ));
+            background-image: url(inline-icons(
+              "notification-available-16",
+              $color-grey-000
+            ));
           }
         }
       }
