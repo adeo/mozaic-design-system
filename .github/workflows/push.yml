@@ -16,6 +16,8 @@ jobs:
       id-token: write
       contents: read
       deployments: write
+    env:
+      HUSKY: 0
 
     steps:
       - name: Extract branch name

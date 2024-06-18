@@ -10,6 +10,8 @@ jobs:
       id-token: write
       contents: read
       deployments: write
+    env:
+      HUSKY: 0
 
     steps:
       - uses: actions/checkout@v3
