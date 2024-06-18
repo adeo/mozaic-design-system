@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:20
 
 LABEL "com.github.actions.name"="Node and Gcloud"
 LABEL "com.github.actions.description"="Launch exec in node"
@@ -43,7 +43,7 @@ RUN apt-get install -qqy \
 RUN git config --system credential.'https://source.developers.google.com'.helper gcloud.sh
 
 ENV NVM_DIR /usr/local/nvm
-ENV NODE_VERSION 18
+ENV NODE_VERSION 20
 RUN mkdir -p /usr/local/nvm
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash \
     && . $NVM_DIR/nvm.sh \
