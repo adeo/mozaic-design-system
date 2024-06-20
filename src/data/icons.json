@@ -121,14 +121,6 @@
       "componentName": "PaymentPayPo24"
     },
     {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Przelesw",
-      "fileName": "Logotypes_Payment_Przelesw_24px.svg",
-      "iconName": "PaymentPrzelesw",
-      "componentName": "PaymentPrzelesw24"
-    },
-    {
       "cat": "Payment",
       "size": "24px",
       "name": "Cards_Colors_AmericanExpress",
@@ -383,14 +375,6 @@
       "fileName": "Logotypes_Payment_PayPo_32px.svg",
       "iconName": "PaymentPayPo",
       "componentName": "PaymentPayPo32"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Przelesw",
-      "fileName": "Logotypes_Payment_Przelesw_32px.svg",
-      "iconName": "PaymentPrzelesw",
-      "componentName": "PaymentPrzelesw32"
     },
     {
       "cat": "Payment",
@@ -649,14 +633,6 @@
       "componentName": "PaymentPayPo48"
     },
     {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Przelesw",
-      "fileName": "Logotypes_Payment_Przelesw_48px.svg",
-      "iconName": "PaymentPrzelesw",
-      "componentName": "PaymentPrzelesw48"
-    },
-    {
       "cat": "Payment",
       "size": "48px",
       "name": "Cards_Colors_AmericanExpress",
@@ -911,14 +887,6 @@
       "fileName": "Logotypes_Payment_PayPo_64px.svg",
       "iconName": "PaymentPayPo",
       "componentName": "PaymentPayPo64"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Przelesw",
-      "fileName": "Logotypes_Payment_Przelesw_64px.svg",
-      "iconName": "PaymentPrzelesw",
-      "componentName": "PaymentPrzelesw64"
     },
     {
       "cat": "Payment",
@@ -1489,6 +1457,14 @@
       "fileName": "Logotypes_Payment_Monochrome_Bizum_24px.svg",
       "iconName": "PaymentMonochromeBizum",
       "componentName": "PaymentMonochromeBizum24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Monochrome_Blik",
+      "fileName": "Logotypes_Payment_Monochrome_Blik_24px.svg",
+      "iconName": "PaymentMonochromeBlik",
+      "componentName": "PaymentMonochromeBlik24"
     },
     {
       "cat": "Logotypes",
@@ -2513,6 +2489,14 @@
       "fileName": "Payment_SafePayment2_24px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment224"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
+      "name": "Transfer",
+      "fileName": "Payment_Transfer_24px.svg",
+      "iconName": "Transfer",
+      "componentName": "Transfer24"
     },
     {
       "cat": "Payment",
@@ -4021,6 +4005,14 @@
     {
       "cat": "Logotypes",
       "size": "32px",
+      "name": "Payment_Monochrome_Blik",
+      "fileName": "Logotypes_Payment_Monochrome_Blik_32px.svg",
+      "iconName": "PaymentMonochromeBlik",
+      "componentName": "PaymentMonochromeBlik32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
       "name": "Payment_Monochrome_BonificoBancario",
       "fileName": "Logotypes_Payment_Monochrome_BonificoBancario_32px.svg",
       "iconName": "PaymentMonochromeBonificoBancario",
@@ -5049,6 +5041,14 @@
       "fileName": "Payment_SafePayment2_32px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment232"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Transfer",
+      "fileName": "Payment_Transfer_32px.svg",
+      "iconName": "Transfer",
+      "componentName": "Transfer32"
     },
     {
       "cat": "Payment",
@@ -6557,6 +6557,14 @@
     {
       "cat": "Logotypes",
       "size": "48px",
+      "name": "Payment_Monochrome_Blik",
+      "fileName": "Logotypes_Payment_Monochrome_Blik_48px.svg",
+      "iconName": "PaymentMonochromeBlik",
+      "componentName": "PaymentMonochromeBlik48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
       "name": "Payment_Monochrome_BonificoBancario",
       "fileName": "Logotypes_Payment_Monochrome_BonificoBancario_48px.svg",
       "iconName": "PaymentMonochromeBonificoBancario",
@@ -7585,6 +7593,14 @@
       "fileName": "Payment_SafePayment2_48px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment248"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
+      "name": "Transfer",
+      "fileName": "Payment_Transfer_48px.svg",
+      "iconName": "Transfer",
+      "componentName": "Transfer48"
     },
     {
       "cat": "Payment",
@@ -9093,6 +9109,14 @@
     {
       "cat": "Logotypes",
       "size": "64px",
+      "name": "Payment_Monochrome_Blik",
+      "fileName": "Logotypes_Payment_Monochrome_Blik_64px.svg",
+      "iconName": "PaymentMonochromeBlik",
+      "componentName": "PaymentMonochromeBlik64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
       "name": "Payment_Monochrome_BonificoBancario",
       "fileName": "Logotypes_Payment_Monochrome_BonificoBancario_64px.svg",
       "iconName": "PaymentMonochromeBonificoBancario",
@@ -10121,6 +10145,14 @@
       "fileName": "Payment_SafePayment2_64px.svg",
       "iconName": "SafePayment2",
       "componentName": "SafePayment264"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Transfer",
+      "fileName": "Payment_Transfer_64px.svg",
+      "iconName": "Transfer",
+      "componentName": "Transfer64"
     },
     {
       "cat": "Payment",
