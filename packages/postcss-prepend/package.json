@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/postcss-prepend",
-  "version": "1.70.0",
+  "version": "1.75.0",
   "description": "PostCSS plugin that adds content to the beginning of your CSS file",
   "keywords": [
     "css",
