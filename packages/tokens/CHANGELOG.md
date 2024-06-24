@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.75.1](https://github.com/adeo/mozaic-design-system/compare/v1.75.0...v1.75.1) (2024-06-24)
+
+### Bug Fixes
+
+- **tools/tokens:** custom source path should be relative to project root ([#1600](https://github.com/adeo/mozaic-design-system/issues/1600)) ([d8b5507](https://github.com/adeo/mozaic-design-system/commit/d8b55077f1725cc118b2fa4d7a5d677ce96fef6e))
+
 # [1.72.0](https://github.com/adeo/mozaic-design-system/compare/v1.71.0...v1.72.0) (2024-04-02)
 
 ### Bug Fixes
