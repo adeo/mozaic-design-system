@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/gatsby-source-preview",
-  "version": "1.70.0",
+  "version": "1.75.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chokidar": "^3.5.3",
+    "chokidar": "^3.6.0",
     "directory-tree": "^3.5.1",
     "xstate": "^4.38.3"
   },
   "peerDependencies": {
-    "gatsby": "^5.13.0"
+    "gatsby": "^5.13.6"
   }
 }

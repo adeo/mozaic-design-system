@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.75.2](https://github.com/adeo/mozaic-design-system/compare/v1.75.1...v1.75.2) (2024-06-26)
+
+### Bug Fixes
+
+- **foundations/icons:** ensure that each svg url value corresponds to an associated id attr ([#1602](https://github.com/adeo/mozaic-design-system/issues/1602)) ([b33891c](https://github.com/adeo/mozaic-design-system/commit/b33891c88f5020c1b2a91b3f5683846cc6dcc521)), closes [#1601](https://github.com/adeo/mozaic-design-system/issues/1601)
+
+# [1.75.0](https://github.com/adeo/mozaic-design-system/compare/v1.74.0...v1.75.0) (2024-06-20)
+
+### Features
+
+- **icons:** update icons and logotypes ([#1599](https://github.com/adeo/mozaic-design-system/issues/1599)) ([f6b2900](https://github.com/adeo/mozaic-design-system/commit/f6b2900144cb3fb825787312ec5e18c7b6fdbb59))
+
 # [1.74.0](https://github.com/adeo/mozaic-design-system/compare/v1.73.2...v1.74.0) (2024-05-28)
 
 ### Features

@@ -1,11 +1,11 @@
 {
   "name": "@mozaic-ds/icons",
-  "version": "1.74.0",
+  "version": "1.75.2",
   "description": "svg icons for Mozaic design system",
   "author": "",
   "main": "./js/icons.js",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.3.1"
   }
 }

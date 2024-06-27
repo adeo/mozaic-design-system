@@ -10,13 +10,15 @@ jobs:
       id-token: write
       contents: read
       deployments: write
+    env:
+      HUSKY: 0
 
     steps:
       - uses: actions/checkout@v3
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
       - name: Extract Tag
         id: gettag
         shell: bash

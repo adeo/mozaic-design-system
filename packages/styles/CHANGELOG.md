@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.75.1](https://github.com/adeo/mozaic-design-system/compare/v1.75.0...v1.75.1) (2024-06-24)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
+# [1.75.0](https://github.com/adeo/mozaic-design-system/compare/v1.74.0...v1.75.0) (2024-06-20)
+
+### Bug Fixes
+
+- **component/listbox:** set same style on hover and focus ([#1590](https://github.com/adeo/mozaic-design-system/issues/1590)) ([0d89923](https://github.com/adeo/mozaic-design-system/commit/0d89923dfb4f7d81ced6279fd239d71a5509f929))
+
+### Features
+
+- **components/a11y:** update of focus states ([#1593](https://github.com/adeo/mozaic-design-system/issues/1593)) ([7a98215](https://github.com/adeo/mozaic-design-system/commit/7a98215136997bb502cd0c25ff9f234bc3713c15)), closes [#1592](https://github.com/adeo/mozaic-design-system/issues/1592)
+
 # [1.74.0](https://github.com/adeo/mozaic-design-system/compare/v1.73.2...v1.74.0) (2024-05-28)
 
 ### Bug Fixes

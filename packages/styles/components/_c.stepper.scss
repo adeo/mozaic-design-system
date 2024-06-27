@@ -89,12 +89,19 @@
   &__link {
     cursor: pointer;
     height: 100%;
+    outline: none;
     text-decoration: none;
     width: 100%;
+
+    #{$parent}__label {
+      @include set-focus-floating-base();
+    }
 
     &:hover,
     &:focus {
       #{$parent}__label {
+        @include set-focus-floating();
+
         color: $color-stepper-link-hover-text;
       }
     }
