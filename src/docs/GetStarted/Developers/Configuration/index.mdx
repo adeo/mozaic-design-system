@@ -7,6 +7,18 @@ order: 3
 
 > mozaic.config.js allows you to configure and customize Mozaic.
 
+Mozaic configuration can be defined in a file to customize it to your needs, such as enabling or disabling plugins, or change their configuration.
+
+### Naming the configuration file
+
+The naming of Mozaic configuration file depends on the configuration of your module system. If you use CommonJS system, then you should create a file `mozaic.config.js`. If you use ESM, the name will be `mozaic.config.cjs`, to tell the compiler the config file uses CommonJS syntax.
+
+To know which module system you use, have a look at your `package.json`. If you have a field `type: "module"`, then you are in ESM system. Otherwise (no `type` or type: "commonjs"), you are in CommonJS. For further information, please have a look at [official Node documentation](https://nodejs.org/api/packages.html#determining-module-system)
+
+For the rest of the documentation, Mozaic configuration file will be referred as `mozaic.config.js`, even if you are in CommonJS case.
+
+### Create mozaic.config.js
+
 Create a mozaic.config.js file at the root of your project:
 
 ```js mozaic.config.js
