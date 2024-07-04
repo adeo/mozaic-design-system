@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.75.3](https://github.com/adeo/mozaic-design-system/compare/v1.75.2...v1.75.3) (2024-07-04)
+
+### Bug Fixes
+
+- **foundations/icons:** update Blik logotypes ([#1603](https://github.com/adeo/mozaic-design-system/issues/1603)) ([74c65b0](https://github.com/adeo/mozaic-design-system/commit/74c65b0eaaaa7bcb86725c32bc1f221165efe778))
+
 ## [1.75.2](https://github.com/adeo/mozaic-design-system/compare/v1.75.1...v1.75.2) (2024-06-26)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/icons",
-  "version": "1.75.2",
+  "version": "1.75.3",
   "description": "svg icons for Mozaic design system",
   "author": "",
   "main": "./js/icons.js",
