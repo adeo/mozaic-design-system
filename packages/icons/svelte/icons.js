@@ -138,8 +138,8 @@ import DisplayOptions24 from './icons/DisplayOptions24.js';
 import DisplayOther24 from './icons/DisplayOther24.js';
 import DisplayProductNumb24 from './icons/DisplayProductNumb24.js';
 import DisplayRefresh24 from './icons/DisplayRefresh24.js';
-import DisplayScreenRotation24 from './icons/DisplayScreenRotation24.js';
 import DisplaySearch24 from './icons/DisplaySearch24.js';
+import DisplayScreenRotation24 from './icons/DisplayScreenRotation24.js';
 import DisplaySearchList24 from './icons/DisplaySearchList24.js';
 import DisplaySearchProduct24 from './icons/DisplaySearchProduct24.js';
 import DisplaySetting24 from './icons/DisplaySetting24.js';
@@ -161,8 +161,8 @@ import PublishTrashbin24 from './icons/PublishTrashbin24.js';
 import Split24 from './icons/Split24.js';
 import Bill24 from './icons/Bill24.js';
 import Billzloty24 from './icons/Billzloty24.js';
-import CardsMonochromeAmericanExpress24 from './icons/CardsMonochromeAmericanExpress24.js';
 import CardsMonochromeCB24 from './icons/CardsMonochromeCB24.js';
+import CardsMonochromeAmericanExpress24 from './icons/CardsMonochromeAmericanExpress24.js';
 import CardsMonochromeCheque24 from './icons/CardsMonochromeCheque24.js';
 import CardsMonochromeGift24 from './icons/CardsMonochromeGift24.js';
 import CardsMonochromeIllicado24 from './icons/CardsMonochromeIllicado24.js';
@@ -184,8 +184,8 @@ import SafePayment224 from './icons/SafePayment224.js';
 import Transfer24 from './icons/Transfer24.js';
 import Zloty24 from './icons/Zloty24.js';
 import AspectQuantity24 from './icons/AspectQuantity24.js';
-import AspectSize24 from './icons/AspectSize24.js';
 import AspectWeight24 from './icons/AspectWeight24.js';
+import AspectSize24 from './icons/AspectSize24.js';
 import BasketAdd24 from './icons/BasketAdd24.js';
 import BasketHandbag24 from './icons/BasketHandbag24.js';
 import BasketMulti24 from './icons/BasketMulti24.js';
@@ -216,8 +216,8 @@ import AfterSalesHelpline24 from './icons/AfterSalesHelpline24.js';
 import AfterSalesPayback24 from './icons/AfterSalesPayback24.js';
 import AfterSalesSatisfaction24 from './icons/AfterSalesSatisfaction24.js';
 import CustomCopyKey24 from './icons/CustomCopyKey24.js';
-import CustomCourse24 from './icons/CustomCourse24.js';
 import CustomCutWoodGlass24 from './icons/CustomCutWoodGlass24.js';
+import CustomCourse24 from './icons/CustomCourse24.js';
 import CustomSample24 from './icons/CustomSample24.js';
 import CustomSharpening24 from './icons/CustomSharpening24.js';
 import DeliveryDeliveryPickupRelayPoint24 from './icons/DeliveryDeliveryPickupRelayPoint24.js';
@@ -236,8 +236,8 @@ import TimeTimeDecline24 from './icons/TimeTimeDecline24.js';
 import Tools3d24 from './icons/Tools3d24.js';
 import ToolsCalculator24 from './icons/ToolsCalculator24.js';
 import ToolsComparator24 from './icons/ToolsComparator24.js';
-import CommentComment24 from './icons/CommentComment24.js';
 import CommentCommunity24 from './icons/CommentCommunity24.js';
+import CommentComment24 from './icons/CommentComment24.js';
 import CommentQuestionArticle24 from './icons/CommentQuestionArticle24.js';
 import CommentReport24 from './icons/CommentReport24.js';
 import ShareShareAndroid24 from './icons/ShareShareAndroid24.js';
@@ -248,8 +248,8 @@ import SocialNetworkLinkedin24 from './icons/SocialNetworkLinkedin24.js';
 import SocialNetworkPinterest24 from './icons/SocialNetworkPinterest24.js';
 import SocialNetworkSpotify24 from './icons/SocialNetworkSpotify24.js';
 import SocialNetworkTelegram24 from './icons/SocialNetworkTelegram24.js';
-import SocialNetworkTiktok24 from './icons/SocialNetworkTiktok24.js';
 import SocialNetworkX24 from './icons/SocialNetworkX24.js';
+import SocialNetworkTiktok24 from './icons/SocialNetworkTiktok24.js';
 import SocialNetworkYoutube24 from './icons/SocialNetworkYoutube24.js';
 import ViewLikeNegative24 from './icons/ViewLikeNegative24.js';
 import ViewLikePositive24 from './icons/ViewLikePositive24.js';
@@ -277,8 +277,8 @@ import Dressing24 from './icons/Dressing24.js';
 import Drillalt24 from './icons/Drillalt24.js';
 import Electricity24 from './icons/Electricity24.js';
 import Enki24 from './icons/Enki24.js';
-import Floor24 from './icons/Floor24.js';
 import Garage24 from './icons/Garage24.js';
+import Floor24 from './icons/Floor24.js';
 import Garden24 from './icons/Garden24.js';
 import Garden124 from './icons/Garden124.js';
 import Garden224 from './icons/Garden224.js';
@@ -291,8 +291,8 @@ import Kids24 from './icons/Kids24.js';
 import Kitchen24 from './icons/Kitchen24.js';
 import Kitchenalt24 from './icons/Kitchenalt24.js';
 import Kitchen224 from './icons/Kitchen224.js';
-import Leak24 from './icons/Leak24.js';
 import Lighting24 from './icons/Lighting24.js';
+import Leak24 from './icons/Leak24.js';
 import Living24 from './icons/Living24.js';
 import MakeIt24 from './icons/MakeIt24.js';
 import Masonryalt24 from './icons/Masonryalt24.js';
@@ -310,8 +310,8 @@ import Woodflooringalt24 from './icons/Woodflooringalt24.js';
 import WoodSaw24 from './icons/WoodSaw24.js';
 import AccountCustomerCollaborator24 from './icons/AccountCustomerCollaborator24.js';
 import AccountCustomerPassion24 from './icons/AccountCustomerPassion24.js';
-import AccountCustomerPro24 from './icons/AccountCustomerPro24.js';
 import AccountProfileMan24 from './icons/AccountProfileMan24.js';
+import AccountCustomerPro24 from './icons/AccountCustomerPro24.js';
 import AccountProfileView24 from './icons/AccountProfileView24.js';
 import AccountProfileWoman24 from './icons/AccountProfileWoman24.js';
 import CardFunding24 from './icons/CardFunding24.js';
@@ -319,8 +319,8 @@ import CardFundingzloty24 from './icons/CardFundingzloty24.js';
 import CardGift24 from './icons/CardGift24.js';
 import CardIDCard24 from './icons/CardIDCard24.js';
 import CardLoyaltyCard24 from './icons/CardLoyaltyCard24.js';
-import ContactMail24 from './icons/ContactMail24.js';
 import ContactPhone24 from './icons/ContactPhone24.js';
+import ContactMail24 from './icons/ContactMail24.js';
 import ContactWebsite24 from './icons/ContactWebsite24.js';
 import SituationOwner24 from './icons/SituationOwner24.js';
 import SituationTenant24 from './icons/SituationTenant24.js';
@@ -374,8 +374,8 @@ import PaymentMonochromeBlik32 from './icons/PaymentMonochromeBlik32.js';
 import PaymentMonochromeBonificoBancario32 from './icons/PaymentMonochromeBonificoBancario32.js';
 import PaymentMonochromeFintecture32 from './icons/PaymentMonochromeFintecture32.js';
 import PaymentMonochromeMBMultibanco32 from './icons/PaymentMonochromeMBMultibanco32.js';
-import PaymentMonochromeMBWay32 from './icons/PaymentMonochromeMBWay32.js';
 import PaymentMonochromeOney32 from './icons/PaymentMonochromeOney32.js';
+import PaymentMonochromeMBWay32 from './icons/PaymentMonochromeMBWay32.js';
 import PaymentMonochromeOney3x32 from './icons/PaymentMonochromeOney3x32.js';
 import PaymentMonochromeOney3x4x32 from './icons/PaymentMonochromeOney3x4x32.js';
 import PaymentMonochromeOney4x32 from './icons/PaymentMonochromeOney4x32.js';
@@ -396,10 +396,8 @@ import Group32 from './icons/Group32.js';
 import Imagealt32 from './icons/Imagealt32.js';
 import NoPicture32 from './icons/NoPicture32.js';
 import Pdf32 from './icons/Pdf32.js';
-import Play32 from './icons/Play32.js';
-import Player32 from './icons/Player32.js';
 import Picker32 from './icons/Picker32.js';
-import Policies32 from './icons/Policies32.js';
+import Play32 from './icons/Play32.js';
 import Print32 from './icons/Print32.js';
 import Project32 from './icons/Project32.js';
 import Pushpin32 from './icons/Pushpin32.js';
@@ -410,6 +408,7 @@ import Release32 from './icons/Release32.js';
 import Server32 from './icons/Server32.js';
 import Slideshow32 from './icons/Slideshow32.js';
 import Sound32 from './icons/Sound32.js';
+import Player32 from './icons/Player32.js';
 import Stop32 from './icons/Stop32.js';
 import TimeRead32 from './icons/TimeRead32.js';
 import Upload32 from './icons/Upload32.js';
@@ -845,8 +844,8 @@ import PromiseProductSheet48 from './icons/PromiseProductSheet48.js';
 import PromiseScan48 from './icons/PromiseScan48.js';
 import PromiseWarranty48 from './icons/PromiseWarranty48.js';
 import Trolley48 from './icons/Trolley48.js';
-import DescribeProject48 from './icons/DescribeProject48.js';
 import Inspiration48 from './icons/Inspiration48.js';
+import DescribeProject48 from './icons/DescribeProject48.js';
 import MakeProject48 from './icons/MakeProject48.js';
 import Fundingzloty48 from './icons/Fundingzloty48.js';
 import AfterSalesAfterSalesService48 from './icons/AfterSalesAfterSalesService48.js';
@@ -934,6 +933,7 @@ import Lighting48 from './icons/Lighting48.js';
 import Living48 from './icons/Living48.js';
 import MakeIt48 from './icons/MakeIt48.js';
 import Masonryalt48 from './icons/Masonryalt48.js';
+import Paint48 from './icons/Paint48.js';
 import Pool48 from './icons/Pool48.js';
 import Renewableenergy48 from './icons/Renewableenergy48.js';
 import Security48 from './icons/Security48.js';
@@ -944,7 +944,6 @@ import Wallpaper48 from './icons/Wallpaper48.js';
 import Wood48 from './icons/Wood48.js';
 import Woodflooring48 from './icons/Woodflooring48.js';
 import Woodflooringalt48 from './icons/Woodflooringalt48.js';
-import Paint48 from './icons/Paint48.js';
 import WoodSaw48 from './icons/WoodSaw48.js';
 import AccountCustomerCollaborator48 from './icons/AccountCustomerCollaborator48.js';
 import AccountCustomerPassion48 from './icons/AccountCustomerPassion48.js';
@@ -1143,6 +1142,7 @@ import Zloty64 from './icons/Zloty64.js';
 import AspectQuantity64 from './icons/AspectQuantity64.js';
 import AspectSize64 from './icons/AspectSize64.js';
 import AspectWeight64 from './icons/AspectWeight64.js';
+import Policies32 from './icons/Policies32.js';
 import BasketAdd64 from './icons/BasketAdd64.js';
 import BasketHandbag64 from './icons/BasketHandbag64.js';
 import BasketMulti64 from './icons/BasketMulti64.js';
@@ -1673,9 +1673,6 @@ if (!customElements.get('navigation-display-connect-24px')) {
 if (!customElements.get('navigation-display-displayfull-filled-24px')) {
   customElements.define('navigation-display-displayfull-filled-24px', DisplayDisplayFullFilled24);
 }
-if (!customElements.get('navigation-display-displayfull-outline-24px')) {
-  customElements.define('navigation-display-displayfull-outline-24px', DisplayDisplayFullOutline24);
-}
 if (!customElements.get('navigation-display-displaylist-filled-24px')) {
   customElements.define('navigation-display-displaylist-filled-24px', DisplayDisplayListFilled24);
 }
@@ -1750,6 +1747,9 @@ if (!customElements.get('navigation-display-vocalsearch-24px')) {
 }
 if (!customElements.get('navigation-notification-available-24px')) {
   customElements.define('navigation-notification-available-24px', NotificationAvailable24);
+}
+if (!customElements.get('navigation-display-displayfull-outline-24px')) {
+  customElements.define('navigation-display-displayfull-outline-24px', DisplayDisplayFullOutline24);
 }
 if (!customElements.get('navigation-notification-bell-24px')) {
   customElements.define('navigation-notification-bell-24px', NotificationBell24);
@@ -1913,9 +1913,6 @@ if (!customElements.get('product-promise-funding-24px')) {
 if (!customElements.get('product-promise-madeineurope-24px')) {
   customElements.define('product-promise-madeineurope-24px', PromiseMadeInEurope24);
 }
-if (!customElements.get('product-promise-madeinfrance-24px')) {
-  customElements.define('product-promise-madeinfrance-24px', PromiseMadeInFrance24);
-}
 if (!customElements.get('product-promise-modular-24px')) {
   customElements.define('product-promise-modular-24px', PromiseModular24);
 }
@@ -2063,6 +2060,9 @@ if (!customElements.get('social-socialnetwork-tiktok-24px')) {
 if (!customElements.get('social-socialnetwork-x-24px')) {
   customElements.define('social-socialnetwork-x-24px', SocialNetworkX24);
 }
+if (!customElements.get('product-promise-madeinfrance-24px')) {
+  customElements.define('product-promise-madeinfrance-24px', PromiseMadeInFrance24);
+}
 if (!customElements.get('social-socialnetwork-youtube-24px')) {
   customElements.define('social-socialnetwork-youtube-24px', SocialNetworkYoutube24);
 }
@@ -2204,11 +2204,11 @@ if (!customElements.get('universe-masonry-alt-24px')) {
 if (!customElements.get('universe-paint-24px')) {
   customElements.define('universe-paint-24px', Paint24);
 }
-if (!customElements.get('universe-pool-24px')) {
-  customElements.define('universe-pool-24px', Pool24);
-}
 if (!customElements.get('universe-renewable-energy-24px')) {
   customElements.define('universe-renewable-energy-24px', Renewableenergy24);
+}
+if (!customElements.get('universe-pool-24px')) {
+  customElements.define('universe-pool-24px', Pool24);
 }
 if (!customElements.get('universe-security-24px')) {
   customElements.define('universe-security-24px', Security24);
@@ -2222,11 +2222,11 @@ if (!customElements.get('universe-terrace-24px')) {
 if (!customElements.get('universe-tool-24px')) {
   customElements.define('universe-tool-24px', Tool24);
 }
-if (!customElements.get('universe-wallpaper-24px')) {
-  customElements.define('universe-wallpaper-24px', Wallpaper24);
-}
 if (!customElements.get('universe-wood-24px')) {
   customElements.define('universe-wood-24px', Wood24);
+}
+if (!customElements.get('universe-wallpaper-24px')) {
+  customElements.define('universe-wallpaper-24px', Wallpaper24);
 }
 if (!customElements.get('universe-wood-flooring-24px')) {
   customElements.define('universe-wood-flooring-24px', Woodflooring24);
@@ -2429,11 +2429,11 @@ if (!customElements.get('logotypes-payment-monochrome-bonificobancario-32px')) {
 if (!customElements.get('logotypes-payment-monochrome-fintecture-32px')) {
   customElements.define('logotypes-payment-monochrome-fintecture-32px', PaymentMonochromeFintecture32);
 }
-if (!customElements.get('logotypes-payment-monochrome-mb--way-32px')) {
-  customElements.define('logotypes-payment-monochrome-mb--way-32px', PaymentMonochromeMBWay32);
-}
 if (!customElements.get('logotypes-payment-monochrome-mb--multibanco-32px')) {
   customElements.define('logotypes-payment-monochrome-mb--multibanco-32px', PaymentMonochromeMBMultibanco32);
+}
+if (!customElements.get('logotypes-payment-monochrome-mb--way-32px')) {
+  customElements.define('logotypes-payment-monochrome-mb--way-32px', PaymentMonochromeMBWay32);
 }
 if (!customElements.get('logotypes-payment-monochrome-oney-32px')) {
   customElements.define('logotypes-payment-monochrome-oney-32px', PaymentMonochromeOney32);
@@ -2468,11 +2468,11 @@ if (!customElements.get('media-bookstore-32px')) {
 if (!customElements.get('media-camera-32px')) {
   customElements.define('media-camera-32px', Camera32);
 }
-if (!customElements.get('media-code-32px')) {
-  customElements.define('media-code-32px', Code32);
-}
 if (!customElements.get('media-document-32px')) {
   customElements.define('media-document-32px', Document32);
+}
+if (!customElements.get('media-code-32px')) {
+  customElements.define('media-code-32px', Code32);
 }
 if (!customElements.get('media-download-app-32px')) {
   customElements.define('media-download-app-32px', DownloadApp32);
@@ -2570,9 +2570,6 @@ if (!customElements.get('navigation-arrow-arrowbottomleft-32px')) {
 if (!customElements.get('navigation-arrow-arrowbottomright-32px')) {
   customElements.define('navigation-arrow-arrowbottomright-32px', ArrowArrowBottomRight32);
 }
-if (!customElements.get('instruction-hygiene-mask-32px')) {
-  customElements.define('instruction-hygiene-mask-32px', HygieneMask32);
-}
 if (!customElements.get('navigation-arrow-arrowtopleft-32px')) {
   customElements.define('navigation-arrow-arrowtopleft-32px', ArrowArrowTopLeft32);
 }
@@ -2645,11 +2642,11 @@ if (!customElements.get('navigation-display-displaymobile--horizontal-32px')) {
 if (!customElements.get('navigation-display-displaymobile--vertical-32px')) {
   customElements.define('navigation-display-displaymobile--vertical-32px', DisplayDisplayMobileVertical32);
 }
-if (!customElements.get('navigation-display-displayproductx4-outline-32px')) {
-  customElements.define('navigation-display-displayproductx4-outline-32px', DisplayDisplayProductX4Outline32);
-}
 if (!customElements.get('navigation-display-displayproductx4-filled-32px')) {
   customElements.define('navigation-display-displayproductx4-filled-32px', DisplayDisplayProductX4Filled32);
+}
+if (!customElements.get('navigation-display-displayproductx4-outline-32px')) {
+  customElements.define('navigation-display-displayproductx4-outline-32px', DisplayDisplayProductX4Outline32);
 }
 if (!customElements.get('navigation-display-displayproductx9-32px')) {
   customElements.define('navigation-display-displayproductx9-32px', DisplayDisplayProductX932);
@@ -2690,11 +2687,11 @@ if (!customElements.get('navigation-display-screenrotation-32px')) {
 if (!customElements.get('navigation-display-search-32px')) {
   customElements.define('navigation-display-search-32px', DisplaySearch32);
 }
-if (!customElements.get('navigation-display-searchproduct-32px')) {
-  customElements.define('navigation-display-searchproduct-32px', DisplaySearchProduct32);
-}
 if (!customElements.get('navigation-display-searchlist-32px')) {
   customElements.define('navigation-display-searchlist-32px', DisplaySearchList32);
+}
+if (!customElements.get('navigation-display-searchproduct-32px')) {
+  customElements.define('navigation-display-searchproduct-32px', DisplaySearchProduct32);
 }
 if (!customElements.get('navigation-display-setting-32px')) {
   customElements.define('navigation-display-setting-32px', DisplaySetting32);
@@ -2705,14 +2702,14 @@ if (!customElements.get('navigation-display-view-32px')) {
 if (!customElements.get('navigation-display-vocalsearch-32px')) {
   customElements.define('navigation-display-vocalsearch-32px', DisplayVocalSearch32);
 }
-if (!customElements.get('navigation-notification-bell-32px')) {
-  customElements.define('navigation-notification-bell-32px', NotificationBell32);
-}
 if (!customElements.get('navigation-notification-available-32px')) {
   customElements.define('navigation-notification-available-32px', NotificationAvailable32);
 }
 if (!customElements.get('navigation-notification-circle--available-32px')) {
   customElements.define('navigation-notification-circle--available-32px', NotificationCircleAvailable32);
+}
+if (!customElements.get('navigation-notification-information-32px')) {
+  customElements.define('navigation-notification-information-32px', NotificationInformation32);
 }
 if (!customElements.get('navigation-notification-question-32px')) {
   customElements.define('navigation-notification-question-32px', NotificationQuestion32);
@@ -2722,6 +2719,9 @@ if (!customElements.get('navigation-notification-warning-32px')) {
 }
 if (!customElements.get('navigation-publish-copy-32px')) {
   customElements.define('navigation-publish-copy-32px', PublishCopy32);
+}
+if (!customElements.get('navigation-notification-bell-32px')) {
+  customElements.define('navigation-notification-bell-32px', NotificationBell32);
 }
 if (!customElements.get('navigation-publish-edit-32px')) {
   customElements.define('navigation-publish-edit-32px', PublishEdit32);
@@ -2737,9 +2737,6 @@ if (!customElements.get('navigation-publish-lock-32px')) {
 }
 if (!customElements.get('navigation-publish-send-32px')) {
   customElements.define('navigation-publish-send-32px', PublishSend32);
-}
-if (!customElements.get('navigation-publish-trashbin-32px')) {
-  customElements.define('navigation-publish-trashbin-32px', PublishTrashbin32);
 }
 if (!customElements.get('navigation-split-32px')) {
   customElements.define('navigation-split-32px', Split32);
@@ -2780,11 +2777,11 @@ if (!customElements.get('payment-cards-monochrome-oney-32px')) {
 if (!customElements.get('payment-cards-monochrome-oneyx3-32px')) {
   customElements.define('payment-cards-monochrome-oneyx3-32px', CardsMonochromeOneyX332);
 }
-if (!customElements.get('payment-cards-monochrome-paylib-32px')) {
-  customElements.define('payment-cards-monochrome-paylib-32px', CardsMonochromePaylib32);
-}
 if (!customElements.get('payment-cards-monochrome-oneyx4-32px')) {
   customElements.define('payment-cards-monochrome-oneyx4-32px', CardsMonochromeOneyX432);
+}
+if (!customElements.get('payment-cards-monochrome-paylib-32px')) {
+  customElements.define('payment-cards-monochrome-paylib-32px', CardsMonochromePaylib32);
 }
 if (!customElements.get('payment-cards-monochrome-paypal-32px')) {
   customElements.define('payment-cards-monochrome-paypal-32px', CardsMonochromePaypal32);
@@ -2795,11 +2792,11 @@ if (!customElements.get('payment-cards-monochrome-visa-32px')) {
 if (!customElements.get('payment-detailsorder-32px')) {
   customElements.define('payment-detailsorder-32px', DetailsOrder32);
 }
-if (!customElements.get('payment-receipt-32px')) {
-  customElements.define('payment-receipt-32px', Receipt32);
-}
 if (!customElements.get('payment-euro-32px')) {
   customElements.define('payment-euro-32px', Euro32);
+}
+if (!customElements.get('payment-receipt-32px')) {
+  customElements.define('payment-receipt-32px', Receipt32);
 }
 if (!customElements.get('payment-receipt-zloty-32px')) {
   customElements.define('payment-receipt-zloty-32px', Receiptzloty32);
@@ -2810,14 +2807,14 @@ if (!customElements.get('payment-safepayment1-32px')) {
 if (!customElements.get('payment-safepayment2-32px')) {
   customElements.define('payment-safepayment2-32px', SafePayment232);
 }
+if (!customElements.get('payment-transfer-32px')) {
+  customElements.define('payment-transfer-32px', Transfer32);
+}
 if (!customElements.get('payment-zloty-32px')) {
   customElements.define('payment-zloty-32px', Zloty32);
 }
 if (!customElements.get('product-aspect-quantity-32px')) {
   customElements.define('product-aspect-quantity-32px', AspectQuantity32);
-}
-if (!customElements.get('payment-transfer-32px')) {
-  customElements.define('payment-transfer-32px', Transfer32);
 }
 if (!customElements.get('product-aspect-size-32px')) {
   customElements.define('product-aspect-size-32px', AspectSize32);
@@ -2830,6 +2827,12 @@ if (!customElements.get('product-basket-add-32px')) {
 }
 if (!customElements.get('product-basket-handbag-32px')) {
   customElements.define('product-basket-handbag-32px', BasketHandbag32);
+}
+if (!customElements.get('product-basket-multi-32px')) {
+  customElements.define('product-basket-multi-32px', BasketMulti32);
+}
+if (!customElements.get('product-basket-save-32px')) {
+  customElements.define('product-basket-save-32px', BasketSave32);
 }
 if (!customElements.get('product-basket-standard-32px')) {
   customElements.define('product-basket-standard-32px', BasketStandard32);
@@ -2939,9 +2942,6 @@ if (!customElements.get('service-pallet-32px')) {
 if (!customElements.get('service-purchasehelp-carrent-32px')) {
   customElements.define('service-purchasehelp-carrent-32px', PurchaseHelpCarRent32);
 }
-if (!customElements.get('navigation-notification-information-32px')) {
-  customElements.define('navigation-notification-information-32px', NotificationInformation32);
-}
 if (!customElements.get('service-purchasehelp-homediy-32px')) {
   customElements.define('service-purchasehelp-homediy-32px', PurchaseHelpHomeDIY32);
 }
@@ -2954,9 +2954,6 @@ if (!customElements.get('service-purchasehelp-toolrent-32px')) {
 if (!customElements.get('service-time-delivery--2h-32px')) {
   customElements.define('service-time-delivery--2h-32px', TimeDelivery2h32);
 }
-if (!customElements.get('product-basket-save-32px')) {
-  customElements.define('product-basket-save-32px', BasketSave32);
-}
 if (!customElements.get('service-time-delivery--3h-32px')) {
   customElements.define('service-time-delivery--3h-32px', TimeDelivery3h32);
 }
@@ -2965,12 +2962,6 @@ if (!customElements.get('service-time-delivery--48h-32px')) {
 }
 if (!customElements.get('service-time-timedecline-32px')) {
   customElements.define('service-time-timedecline-32px', TimeTimeDecline32);
-}
-if (!customElements.get('service-tools-calculator-32px')) {
-  customElements.define('service-tools-calculator-32px', ToolsCalculator32);
-}
-if (!customElements.get('service-tools-comparator-32px')) {
-  customElements.define('service-tools-comparator-32px', ToolsComparator32);
 }
 if (!customElements.get('social-comment-comment-32px')) {
   customElements.define('social-comment-comment-32px', CommentComment32);
@@ -3050,9 +3041,6 @@ if (!customElements.get('store-map-32px')) {
 if (!customElements.get('store-monochrome-relaylocation-32px')) {
   customElements.define('store-monochrome-relaylocation-32px', MonochromeRelayLocation32);
 }
-if (!customElements.get('store-monochrome-storelocation-32px')) {
-  customElements.define('store-monochrome-storelocation-32px', MonochromeStoreLocation32);
-}
 if (!customElements.get('store-monochrome-storelocation-bm-32px')) {
   customElements.define('store-monochrome-storelocation-bm-32px', MonochromeStoreLocationbm32);
 }
@@ -3073,9 +3061,6 @@ if (!customElements.get('universe-bedroom-32px')) {
 }
 if (!customElements.get('universe-carpentry-32px')) {
   customElements.define('universe-carpentry-32px', Carpentry32);
-}
-if (!customElements.get('service-tools-3d-32px')) {
-  customElements.define('service-tools-3d-32px', Tools3d32);
 }
 if (!customElements.get('universe-christmastree-32px')) {
   customElements.define('universe-christmastree-32px', ChristmasTree32);
@@ -3106,9 +3091,6 @@ if (!customElements.get('universe-garage-32px')) {
 }
 if (!customElements.get('universe-garden-32px')) {
   customElements.define('universe-garden-32px', Garden32);
-}
-if (!customElements.get('product-basket-multi-32px')) {
-  customElements.define('product-basket-multi-32px', BasketMulti32);
 }
 if (!customElements.get('universe-garden1-32px')) {
   customElements.define('universe-garden1-32px', Garden132);
@@ -3145,6 +3127,9 @@ if (!customElements.get('universe-kitchen2-32px')) {
 }
 if (!customElements.get('universe-leak-32px')) {
   customElements.define('universe-leak-32px', Leak32);
+}
+if (!customElements.get('store-monochrome-storelocation-32px')) {
+  customElements.define('store-monochrome-storelocation-32px', MonochromeStoreLocation32);
 }
 if (!customElements.get('universe-lighting-32px')) {
   customElements.define('universe-lighting-32px', Lighting32);
@@ -3199,6 +3184,9 @@ if (!customElements.get('user-account-customer--collaborator-32px')) {
 }
 if (!customElements.get('user-account-customer--passion-32px')) {
   customElements.define('user-account-customer--passion-32px', AccountCustomerPassion32);
+}
+if (!customElements.get('instruction-hygiene-mask-32px')) {
+  customElements.define('instruction-hygiene-mask-32px', HygieneMask32);
 }
 if (!customElements.get('user-account-customer--pro-32px')) {
   customElements.define('user-account-customer--pro-32px', AccountCustomerPro32);
@@ -3446,6 +3434,9 @@ if (!customElements.get('media-fullscreen-48px')) {
 if (!customElements.get('media-gauge-48px')) {
   customElements.define('media-gauge-48px', Gauge48);
 }
+if (!customElements.get('service-tools-3d-32px')) {
+  customElements.define('service-tools-3d-32px', Tools3d32);
+}
 if (!customElements.get('media-group-48px')) {
   customElements.define('media-group-48px', Group48);
 }
@@ -3544,6 +3535,9 @@ if (!customElements.get('navigation-arrow-doublearrow--left-48px')) {
 }
 if (!customElements.get('navigation-arrow-doublearrow--right-48px')) {
   customElements.define('navigation-arrow-doublearrow--right-48px', ArrowDoubleArrowRight48);
+}
+if (!customElements.get('navigation-arrow-down-48px')) {
+  customElements.define('navigation-arrow-down-48px', ArrowDown48);
 }
 if (!customElements.get('navigation-arrow-next-48px')) {
   customElements.define('navigation-arrow-next-48px', ArrowNext48);
@@ -3674,8 +3668,8 @@ if (!customElements.get('navigation-notification-information-48px')) {
 if (!customElements.get('navigation-notification-question-48px')) {
   customElements.define('navigation-notification-question-48px', NotificationQuestion48);
 }
-if (!customElements.get('navigation-notification-warning-48px')) {
-  customElements.define('navigation-notification-warning-48px', NotificationWarning48);
+if (!customElements.get('navigation-publish-trashbin-32px')) {
+  customElements.define('navigation-publish-trashbin-32px', PublishTrashbin32);
 }
 if (!customElements.get('navigation-publish-copy-48px')) {
   customElements.define('navigation-publish-copy-48px', PublishCopy48);
@@ -3683,11 +3677,14 @@ if (!customElements.get('navigation-publish-copy-48px')) {
 if (!customElements.get('navigation-publish-edit-48px')) {
   customElements.define('navigation-publish-edit-48px', PublishEdit48);
 }
-if (!customElements.get('navigation-publish-favorite-48px')) {
-  customElements.define('navigation-publish-favorite-48px', PublishFavorite48);
+if (!customElements.get('navigation-notification-warning-48px')) {
+  customElements.define('navigation-notification-warning-48px', NotificationWarning48);
 }
 if (!customElements.get('navigation-publish-favoritefull-48px')) {
   customElements.define('navigation-publish-favoritefull-48px', PublishFavoriteFull48);
+}
+if (!customElements.get('navigation-publish-favorite-48px')) {
+  customElements.define('navigation-publish-favorite-48px', PublishFavorite48);
 }
 if (!customElements.get('navigation-publish-lock-48px')) {
   customElements.define('navigation-publish-lock-48px', PublishLock48);
@@ -3980,11 +3977,11 @@ if (!customElements.get('social-socialnetwork-youtube-48px')) {
 if (!customElements.get('social-view-like--negative-48px')) {
   customElements.define('social-view-like--negative-48px', ViewLikeNegative48);
 }
-if (!customElements.get('social-view-like--positive-48px')) {
-  customElements.define('social-view-like--positive-48px', ViewLikePositive48);
-}
 if (!customElements.get('social-view-star--empty-48px')) {
   customElements.define('social-view-star--empty-48px', ViewStarEmpty48);
+}
+if (!customElements.get('social-view-like--positive-48px')) {
+  customElements.define('social-view-like--positive-48px', ViewLikePositive48);
 }
 if (!customElements.get('social-view-star--full-48px')) {
   customElements.define('social-view-star--full-48px', ViewStarFull48);
@@ -4058,14 +4055,14 @@ if (!customElements.get('universe-enki-48px')) {
 if (!customElements.get('universe-floor-48px')) {
   customElements.define('universe-floor-48px', Floor48);
 }
-if (!customElements.get('navigation-arrow-down-48px')) {
-  customElements.define('navigation-arrow-down-48px', ArrowDown48);
-}
 if (!customElements.get('universe-garage-48px')) {
   customElements.define('universe-garage-48px', Garage48);
 }
 if (!customElements.get('universe-garden-48px')) {
   customElements.define('universe-garden-48px', Garden48);
+}
+if (!customElements.get('universe-garden1-48px')) {
+  customElements.define('universe-garden1-48px', Garden148);
 }
 if (!customElements.get('universe-garden2-48px')) {
   customElements.define('universe-garden2-48px', Garden248);
@@ -4153,9 +4150,6 @@ if (!customElements.get('user-account-customer--collaborator-48px')) {
 }
 if (!customElements.get('user-account-customer--passion-48px')) {
   customElements.define('user-account-customer--passion-48px', AccountCustomerPassion48);
-}
-if (!customElements.get('user-account-customer--pro-48px')) {
-  customElements.define('user-account-customer--pro-48px', AccountCustomerPro48);
 }
 if (!customElements.get('user-account-profile--man-48px')) {
   customElements.define('user-account-profile--man-48px', AccountProfileMan48);
@@ -4277,11 +4271,17 @@ if (!customElements.get('device-laptop-64px')) {
 if (!customElements.get('device-mobile-64px')) {
   customElements.define('device-mobile-64px', Mobile64);
 }
+if (!customElements.get('device-tablet-64px')) {
+  customElements.define('device-tablet-64px', Tablet64);
+}
 if (!customElements.get('instruction-hygiene-cleaned-64px')) {
   customElements.define('instruction-hygiene-cleaned-64px', HygieneCleaned64);
 }
-if (!customElements.get('device-tablet-64px')) {
-  customElements.define('device-tablet-64px', Tablet64);
+if (!customElements.get('service-tools-calculator-32px')) {
+  customElements.define('service-tools-calculator-32px', ToolsCalculator32);
+}
+if (!customElements.get('service-tools-comparator-32px')) {
+  customElements.define('service-tools-comparator-32px', ToolsComparator32);
 }
 if (!customElements.get('instruction-hygiene-danger-64px')) {
   customElements.define('instruction-hygiene-danger-64px', HygieneDanger64);
@@ -4292,14 +4292,11 @@ if (!customElements.get('instruction-hygiene-distance-64px')) {
 if (!customElements.get('instruction-hygiene-gel-64px')) {
   customElements.define('instruction-hygiene-gel-64px', HygieneGel64);
 }
-if (!customElements.get('instruction-hygiene-nocontact-64px')) {
-  customElements.define('instruction-hygiene-nocontact-64px', HygieneNoContact64);
-}
 if (!customElements.get('instruction-hygiene-mask-64px')) {
   customElements.define('instruction-hygiene-mask-64px', HygieneMask64);
 }
-if (!customElements.get('instruction-hygiene-plexiglas-64px')) {
-  customElements.define('instruction-hygiene-plexiglas-64px', HygienePlexiglas64);
+if (!customElements.get('instruction-hygiene-nocontact-64px')) {
+  customElements.define('instruction-hygiene-nocontact-64px', HygieneNoContact64);
 }
 if (!customElements.get('instruction-payment-checkout-64px')) {
   customElements.define('instruction-payment-checkout-64px', PaymentCheckout64);
@@ -4307,8 +4304,8 @@ if (!customElements.get('instruction-payment-checkout-64px')) {
 if (!customElements.get('instruction-payment-nocontact-64px')) {
   customElements.define('instruction-payment-nocontact-64px', PaymentNoContact64);
 }
-if (!customElements.get('instruction-service-purchasehelp-car--openboot-64px')) {
-  customElements.define('instruction-service-purchasehelp-car--openboot-64px', ServicePurchaseHelpCarOpenBoot64);
+if (!customElements.get('instruction-hygiene-plexiglas-64px')) {
+  customElements.define('instruction-hygiene-plexiglas-64px', HygienePlexiglas64);
 }
 if (!customElements.get('instruction-service-purchasehelp-car--standinline-64px')) {
   customElements.define('instruction-service-purchasehelp-car--standinline-64px', ServicePurchaseHelpCarStandInLine64);
@@ -4319,11 +4316,11 @@ if (!customElements.get('instruction-service-purchasehelp-car--stayinside-64px')
 if (!customElements.get('instruction-service-purchasehelp-loading-64px')) {
   customElements.define('instruction-service-purchasehelp-loading-64px', ServicePurchaseHelpLoading64);
 }
-if (!customElements.get('instruction-service-purchasehelp-request-64px')) {
-  customElements.define('instruction-service-purchasehelp-request-64px', ServicePurchaseHelpRequest64);
-}
 if (!customElements.get('instruction-service-purchasehelp-nocarrent-64px')) {
   customElements.define('instruction-service-purchasehelp-nocarrent-64px', ServicePurchaseHelpNoCarRent64);
+}
+if (!customElements.get('instruction-service-purchasehelp-request-64px')) {
+  customElements.define('instruction-service-purchasehelp-request-64px', ServicePurchaseHelpRequest64);
 }
 if (!customElements.get('instruction-service-purchasehelp-truck-64px')) {
   customElements.define('instruction-service-purchasehelp-truck-64px', ServicePurchaseHelpTruck64);
@@ -4367,6 +4364,9 @@ if (!customElements.get('logotypes-payment-monochrome-oneyraty-64px')) {
 if (!customElements.get('logotypes-payment-monochrome-paypal-64px')) {
   customElements.define('logotypes-payment-monochrome-paypal-64px', PaymentMonochromePayPal64);
 }
+if (!customElements.get('logotypes-payment-monochrome-postepay-64px')) {
+  customElements.define('logotypes-payment-monochrome-postepay-64px', PaymentMonochromePostepay64);
+}
 if (!customElements.get('logotypes-payment-monochrome-przelesw-64px')) {
   customElements.define('logotypes-payment-monochrome-przelesw-64px', PaymentMonochromePrzelesw64);
 }
@@ -4375,9 +4375,6 @@ if (!customElements.get('media-api-64px')) {
 }
 if (!customElements.get('media-bookstore-64px')) {
   customElements.define('media-bookstore-64px', BookStore64);
-}
-if (!customElements.get('logotypes-payment-monochrome-postepay-64px')) {
-  customElements.define('logotypes-payment-monochrome-postepay-64px', PaymentMonochromePostepay64);
 }
 if (!customElements.get('media-camera-64px')) {
   customElements.define('media-camera-64px', Camera64);
@@ -4403,6 +4400,9 @@ if (!customElements.get('media-gauge-64px')) {
 if (!customElements.get('media-group-64px')) {
   customElements.define('media-group-64px', Group64);
 }
+if (!customElements.get('user-account-customer--pro-48px')) {
+  customElements.define('user-account-customer--pro-48px', AccountCustomerPro48);
+}
 if (!customElements.get('media-image-alt-64px')) {
   customElements.define('media-image-alt-64px', Imagealt64);
 }
@@ -4418,32 +4418,32 @@ if (!customElements.get('media-picker-64px')) {
 if (!customElements.get('media-play-64px')) {
   customElements.define('media-play-64px', Play64);
 }
-if (!customElements.get('media-player-64px')) {
-  customElements.define('media-player-64px', Player64);
-}
 if (!customElements.get('media-policies-64px')) {
   customElements.define('media-policies-64px', Policies64);
+}
+if (!customElements.get('instruction-service-purchasehelp-car--openboot-64px')) {
+  customElements.define('instruction-service-purchasehelp-car--openboot-64px', ServicePurchaseHelpCarOpenBoot64);
 }
 if (!customElements.get('media-print-64px')) {
   customElements.define('media-print-64px', Print64);
 }
-if (!customElements.get('media-push-pin-64px')) {
-  customElements.define('media-push-pin-64px', Pushpin64);
-}
 if (!customElements.get('media-project-64px')) {
   customElements.define('media-project-64px', Project64);
 }
-if (!customElements.get('media-push-pin-off-64px')) {
-  customElements.define('media-push-pin-off-64px', Pushpinoff64);
+if (!customElements.get('media-player-64px')) {
+  customElements.define('media-player-64px', Player64);
+}
+if (!customElements.get('media-push-pin-64px')) {
+  customElements.define('media-push-pin-64px', Pushpin64);
 }
 if (!customElements.get('media-read-64px')) {
   customElements.define('media-read-64px', Read64);
 }
-if (!customElements.get('media-release-64px')) {
-  customElements.define('media-release-64px', Release64);
-}
 if (!customElements.get('media-reducescreen-64px')) {
   customElements.define('media-reducescreen-64px', ReduceScreen64);
+}
+if (!customElements.get('media-release-64px')) {
+  customElements.define('media-release-64px', Release64);
 }
 if (!customElements.get('media-server-64px')) {
   customElements.define('media-server-64px', Server64);
@@ -4457,9 +4457,6 @@ if (!customElements.get('media-sound-64px')) {
 if (!customElements.get('media-stop-64px')) {
   customElements.define('media-stop-64px', Stop64);
 }
-if (!customElements.get('media-timeread-64px')) {
-  customElements.define('media-timeread-64px', TimeRead64);
-}
 if (!customElements.get('media-upload-64px')) {
   customElements.define('media-upload-64px', Upload64);
 }
@@ -4469,8 +4466,8 @@ if (!customElements.get('media-view360-64px')) {
 if (!customElements.get('navigation-arrow-arrow--bottom-64px')) {
   customElements.define('navigation-arrow-arrow--bottom-64px', ArrowArrowBottom64);
 }
-if (!customElements.get('navigation-arrow-arrow--left-64px')) {
-  customElements.define('navigation-arrow-arrow--left-64px', ArrowArrowLeft64);
+if (!customElements.get('media-push-pin-off-64px')) {
+  customElements.define('media-push-pin-off-64px', Pushpinoff64);
 }
 if (!customElements.get('navigation-arrow-arrow--right-64px')) {
   customElements.define('navigation-arrow-arrow--right-64px', ArrowArrowRight64);
@@ -4490,11 +4487,14 @@ if (!customElements.get('navigation-arrow-arrowtopleft-64px')) {
 if (!customElements.get('navigation-arrow-arrowtopright-64px')) {
   customElements.define('navigation-arrow-arrowtopright-64px', ArrowArrowTopRight64);
 }
+if (!customElements.get('navigation-arrow-arrow--left-64px')) {
+  customElements.define('navigation-arrow-arrow--left-64px', ArrowArrowLeft64);
+}
+if (!customElements.get('media-timeread-64px')) {
+  customElements.define('media-timeread-64px', TimeRead64);
+}
 if (!customElements.get('navigation-arrow-back-64px')) {
   customElements.define('navigation-arrow-back-64px', ArrowBack64);
-}
-if (!customElements.get('navigation-arrow-doublearrow--left-64px')) {
-  customElements.define('navigation-arrow-doublearrow--left-64px', ArrowDoubleArrowLeft64);
 }
 if (!customElements.get('navigation-arrow-doublearrow--right-64px')) {
   customElements.define('navigation-arrow-doublearrow--right-64px', ArrowDoubleArrowRight64);
@@ -4508,9 +4508,6 @@ if (!customElements.get('navigation-arrow-next-64px')) {
 if (!customElements.get('navigation-arrow-up-64px')) {
   customElements.define('navigation-arrow-up-64px', ArrowUp64);
 }
-if (!customElements.get('navigation-control-circle--cross-64px')) {
-  customElements.define('navigation-control-circle--cross-64px', ControlCircleCross64);
-}
 if (!customElements.get('navigation-control-circle--less-64px')) {
   customElements.define('navigation-control-circle--less-64px', ControlCircleLess64);
 }
@@ -4523,17 +4520,17 @@ if (!customElements.get('navigation-control-cross-64px')) {
 if (!customElements.get('navigation-control-less-64px')) {
   customElements.define('navigation-control-less-64px', ControlLess64);
 }
+if (!customElements.get('navigation-control-circle--cross-64px')) {
+  customElements.define('navigation-control-circle--cross-64px', ControlCircleCross64);
+}
+if (!customElements.get('navigation-arrow-doublearrow--left-64px')) {
+  customElements.define('navigation-arrow-doublearrow--left-64px', ArrowDoubleArrowLeft64);
+}
 if (!customElements.get('navigation-control-more-64px')) {
   customElements.define('navigation-control-more-64px', ControlMore64);
 }
-if (!customElements.get('navigation-control-tag--cross-64px')) {
-  customElements.define('navigation-control-tag--cross-64px', ControlTagCross64);
-}
 if (!customElements.get('navigation-display-blink-64px')) {
   customElements.define('navigation-display-blink-64px', DisplayBlink64);
-}
-if (!customElements.get('navigation-display-calendar-64px')) {
-  customElements.define('navigation-display-calendar-64px', DisplayCalendar64);
 }
 if (!customElements.get('navigation-display-connect-64px')) {
   customElements.define('navigation-display-connect-64px', DisplayConnect64);
@@ -4547,11 +4544,14 @@ if (!customElements.get('navigation-display-displayfull-outline-64px')) {
 if (!customElements.get('navigation-display-displaylist-filled-64px')) {
   customElements.define('navigation-display-displaylist-filled-64px', DisplayDisplayListFilled64);
 }
+if (!customElements.get('navigation-display-calendar-64px')) {
+  customElements.define('navigation-display-calendar-64px', DisplayCalendar64);
+}
+if (!customElements.get('navigation-control-tag--cross-64px')) {
+  customElements.define('navigation-control-tag--cross-64px', ControlTagCross64);
+}
 if (!customElements.get('navigation-display-displaylist-outline-64px')) {
   customElements.define('navigation-display-displaylist-outline-64px', DisplayDisplayListOutline64);
-}
-if (!customElements.get('navigation-display-displaymobile--horizontal-64px')) {
-  customElements.define('navigation-display-displaymobile--horizontal-64px', DisplayDisplayMobileHorizontal64);
 }
 if (!customElements.get('navigation-display-displaymobile--vertical-64px')) {
   customElements.define('navigation-display-displaymobile--vertical-64px', DisplayDisplayMobileVertical64);
@@ -4565,11 +4565,8 @@ if (!customElements.get('navigation-display-displayproductx4-outline-64px')) {
 if (!customElements.get('navigation-display-displayproductx9-64px')) {
   customElements.define('navigation-display-displayproductx9-64px', DisplayDisplayProductX964);
 }
-if (!customElements.get('navigation-display-externallink-64px')) {
-  customElements.define('navigation-display-externallink-64px', DisplayExternalLink64);
-}
-if (!customElements.get('navigation-display-filter-64px')) {
-  customElements.define('navigation-display-filter-64px', DisplayFilter64);
+if (!customElements.get('navigation-display-displaymobile--horizontal-64px')) {
+  customElements.define('navigation-display-displaymobile--horizontal-64px', DisplayDisplayMobileHorizontal64);
 }
 if (!customElements.get('navigation-display-home-64px')) {
   customElements.define('navigation-display-home-64px', DisplayHome64);
@@ -4579,6 +4576,9 @@ if (!customElements.get('navigation-display-logout-64px')) {
 }
 if (!customElements.get('navigation-display-menu-64px')) {
   customElements.define('navigation-display-menu-64px', DisplayMenu64);
+}
+if (!customElements.get('navigation-display-externallink-64px')) {
+  customElements.define('navigation-display-externallink-64px', DisplayExternalLink64);
 }
 if (!customElements.get('navigation-display-movingblock-64px')) {
   customElements.define('navigation-display-movingblock-64px', DisplayMovingBlock64);
@@ -4598,11 +4598,8 @@ if (!customElements.get('navigation-display-refresh-64px')) {
 if (!customElements.get('navigation-display-screenrotation-64px')) {
   customElements.define('navigation-display-screenrotation-64px', DisplayScreenRotation64);
 }
-if (!customElements.get('navigation-display-search-64px')) {
-  customElements.define('navigation-display-search-64px', DisplaySearch64);
-}
-if (!customElements.get('navigation-display-searchlist-64px')) {
-  customElements.define('navigation-display-searchlist-64px', DisplaySearchList64);
+if (!customElements.get('navigation-display-filter-64px')) {
+  customElements.define('navigation-display-filter-64px', DisplayFilter64);
 }
 if (!customElements.get('navigation-display-searchproduct-64px')) {
   customElements.define('navigation-display-searchproduct-64px', DisplaySearchProduct64);
@@ -4610,20 +4607,17 @@ if (!customElements.get('navigation-display-searchproduct-64px')) {
 if (!customElements.get('navigation-display-setting-64px')) {
   customElements.define('navigation-display-setting-64px', DisplaySetting64);
 }
-if (!customElements.get('navigation-display-view-64px')) {
-  customElements.define('navigation-display-view-64px', DisplayView64);
-}
 if (!customElements.get('navigation-display-vocalsearch-64px')) {
   customElements.define('navigation-display-vocalsearch-64px', DisplayVocalSearch64);
 }
 if (!customElements.get('navigation-notification-available-64px')) {
   customElements.define('navigation-notification-available-64px', NotificationAvailable64);
 }
-if (!customElements.get('navigation-notification-bell-64px')) {
-  customElements.define('navigation-notification-bell-64px', NotificationBell64);
+if (!customElements.get('navigation-display-search-64px')) {
+  customElements.define('navigation-display-search-64px', DisplaySearch64);
 }
-if (!customElements.get('navigation-notification-circle--available-64px')) {
-  customElements.define('navigation-notification-circle--available-64px', NotificationCircleAvailable64);
+if (!customElements.get('navigation-display-searchlist-64px')) {
+  customElements.define('navigation-display-searchlist-64px', DisplaySearchList64);
 }
 if (!customElements.get('navigation-notification-information-64px')) {
   customElements.define('navigation-notification-information-64px', NotificationInformation64);
@@ -4634,8 +4628,8 @@ if (!customElements.get('navigation-notification-question-64px')) {
 if (!customElements.get('navigation-notification-warning-64px')) {
   customElements.define('navigation-notification-warning-64px', NotificationWarning64);
 }
-if (!customElements.get('navigation-publish-copy-64px')) {
-  customElements.define('navigation-publish-copy-64px', PublishCopy64);
+if (!customElements.get('navigation-display-view-64px')) {
+  customElements.define('navigation-display-view-64px', DisplayView64);
 }
 if (!customElements.get('navigation-publish-edit-64px')) {
   customElements.define('navigation-publish-edit-64px', PublishEdit64);
@@ -4649,8 +4643,11 @@ if (!customElements.get('navigation-publish-favoritefull-64px')) {
 if (!customElements.get('navigation-publish-lock-64px')) {
   customElements.define('navigation-publish-lock-64px', PublishLock64);
 }
-if (!customElements.get('navigation-publish-send-64px')) {
-  customElements.define('navigation-publish-send-64px', PublishSend64);
+if (!customElements.get('navigation-notification-circle--available-64px')) {
+  customElements.define('navigation-notification-circle--available-64px', NotificationCircleAvailable64);
+}
+if (!customElements.get('navigation-notification-bell-64px')) {
+  customElements.define('navigation-notification-bell-64px', NotificationBell64);
 }
 if (!customElements.get('navigation-publish-trashbin-64px')) {
   customElements.define('navigation-publish-trashbin-64px', PublishTrashbin64);
@@ -4658,17 +4655,17 @@ if (!customElements.get('navigation-publish-trashbin-64px')) {
 if (!customElements.get('navigation-split-64px')) {
   customElements.define('navigation-split-64px', Split64);
 }
-if (!customElements.get('payment-bill-64px')) {
-  customElements.define('payment-bill-64px', Bill64);
-}
 if (!customElements.get('payment-bill-zloty-64px')) {
   customElements.define('payment-bill-zloty-64px', Billzloty64);
 }
 if (!customElements.get('payment-cards-monochrome-americanexpress-64px')) {
   customElements.define('payment-cards-monochrome-americanexpress-64px', CardsMonochromeAmericanExpress64);
 }
-if (!customElements.get('payment-cards-monochrome-cb-64px')) {
-  customElements.define('payment-cards-monochrome-cb-64px', CardsMonochromeCB64);
+if (!customElements.get('navigation-publish-send-64px')) {
+  customElements.define('navigation-publish-send-64px', PublishSend64);
+}
+if (!customElements.get('navigation-publish-copy-64px')) {
+  customElements.define('navigation-publish-copy-64px', PublishCopy64);
 }
 if (!customElements.get('payment-cards-monochrome-cheque-64px')) {
   customElements.define('payment-cards-monochrome-cheque-64px', CardsMonochromeCheque64);
@@ -4682,11 +4679,8 @@ if (!customElements.get('payment-cards-monochrome-illicado-64px')) {
 if (!customElements.get('payment-cards-monochrome-loyalty-64px')) {
   customElements.define('payment-cards-monochrome-loyalty-64px', CardsMonochromeLoyalty64);
 }
-if (!customElements.get('payment-cards-monochrome-maestro-64px')) {
-  customElements.define('payment-cards-monochrome-maestro-64px', CardsMonochromeMaestro64);
-}
-if (!customElements.get('payment-cards-monochrome-mastercard-64px')) {
-  customElements.define('payment-cards-monochrome-mastercard-64px', CardsMonochromeMastercard64);
+if (!customElements.get('payment-cards-monochrome-cb-64px')) {
+  customElements.define('payment-cards-monochrome-cb-64px', CardsMonochromeCB64);
 }
 if (!customElements.get('payment-cards-monochrome-oney-64px')) {
   customElements.define('payment-cards-monochrome-oney-64px', CardsMonochromeOney64);
@@ -4697,11 +4691,11 @@ if (!customElements.get('payment-cards-monochrome-oneyx3-64px')) {
 if (!customElements.get('payment-cards-monochrome-oneyx4-64px')) {
   customElements.define('payment-cards-monochrome-oneyx4-64px', CardsMonochromeOneyX464);
 }
-if (!customElements.get('payment-cards-monochrome-paylib-64px')) {
-  customElements.define('payment-cards-monochrome-paylib-64px', CardsMonochromePaylib64);
+if (!customElements.get('payment-bill-64px')) {
+  customElements.define('payment-bill-64px', Bill64);
 }
-if (!customElements.get('payment-cards-monochrome-paypal-64px')) {
-  customElements.define('payment-cards-monochrome-paypal-64px', CardsMonochromePaypal64);
+if (!customElements.get('payment-cards-monochrome-maestro-64px')) {
+  customElements.define('payment-cards-monochrome-maestro-64px', CardsMonochromeMaestro64);
 }
 if (!customElements.get('payment-cards-monochrome-visa-64px')) {
   customElements.define('payment-cards-monochrome-visa-64px', CardsMonochromeVisa64);
@@ -4712,11 +4706,14 @@ if (!customElements.get('payment-detailsorder-64px')) {
 if (!customElements.get('payment-euro-64px')) {
   customElements.define('payment-euro-64px', Euro64);
 }
+if (!customElements.get('payment-cards-monochrome-paylib-64px')) {
+  customElements.define('payment-cards-monochrome-paylib-64px', CardsMonochromePaylib64);
+}
+if (!customElements.get('payment-cards-monochrome-mastercard-64px')) {
+  customElements.define('payment-cards-monochrome-mastercard-64px', CardsMonochromeMastercard64);
+}
 if (!customElements.get('payment-receipt-64px')) {
   customElements.define('payment-receipt-64px', Receipt64);
-}
-if (!customElements.get('payment-receipt-zloty-64px')) {
-  customElements.define('payment-receipt-zloty-64px', Receiptzloty64);
 }
 if (!customElements.get('payment-safepayment1-64px')) {
   customElements.define('payment-safepayment1-64px', SafePayment164);
@@ -4730,26 +4727,26 @@ if (!customElements.get('payment-transfer-64px')) {
 if (!customElements.get('payment-zloty-64px')) {
   customElements.define('payment-zloty-64px', Zloty64);
 }
-if (!customElements.get('product-aspect-quantity-64px')) {
-  customElements.define('product-aspect-quantity-64px', AspectQuantity64);
+if (!customElements.get('payment-cards-monochrome-paypal-64px')) {
+  customElements.define('payment-cards-monochrome-paypal-64px', CardsMonochromePaypal64);
 }
 if (!customElements.get('product-aspect-size-64px')) {
   customElements.define('product-aspect-size-64px', AspectSize64);
 }
-if (!customElements.get('product-basket-add-64px')) {
-  customElements.define('product-basket-add-64px', BasketAdd64);
-}
 if (!customElements.get('product-aspect-weight-64px')) {
   customElements.define('product-aspect-weight-64px', AspectWeight64);
+}
+if (!customElements.get('product-basket-add-64px')) {
+  customElements.define('product-basket-add-64px', BasketAdd64);
 }
 if (!customElements.get('product-basket-handbag-64px')) {
   customElements.define('product-basket-handbag-64px', BasketHandbag64);
 }
-if (!customElements.get('product-basket-multi-64px')) {
-  customElements.define('product-basket-multi-64px', BasketMulti64);
+if (!customElements.get('product-aspect-quantity-64px')) {
+  customElements.define('product-aspect-quantity-64px', AspectQuantity64);
 }
-if (!customElements.get('product-basket-save-64px')) {
-  customElements.define('product-basket-save-64px', BasketSave64);
+if (!customElements.get('payment-receipt-zloty-64px')) {
+  customElements.define('payment-receipt-zloty-64px', Receiptzloty64);
 }
 if (!customElements.get('product-basket-standard-64px')) {
   customElements.define('product-basket-standard-64px', BasketStandard64);
@@ -4762,6 +4759,9 @@ if (!customElements.get('product-list-standard-64px')) {
 }
 if (!customElements.get('product-promise-certification-64px')) {
   customElements.define('product-promise-certification-64px', PromiseCertification64);
+}
+if (!customElements.get('product-basket-multi-64px')) {
+  customElements.define('product-basket-multi-64px', BasketMulti64);
 }
 if (!customElements.get('product-promise-circulareconomy-64px')) {
   customElements.define('product-promise-circulareconomy-64px', PromiseCircularEconomy64);
@@ -4778,11 +4778,11 @@ if (!customElements.get('product-promise-fashionchoice-64px')) {
 if (!customElements.get('product-promise-funding-64px')) {
   customElements.define('product-promise-funding-64px', PromiseFunding64);
 }
-if (!customElements.get('product-promise-madeinfrance-64px')) {
-  customElements.define('product-promise-madeinfrance-64px', PromiseMadeInFrance64);
-}
 if (!customElements.get('product-promise-madeineurope-64px')) {
   customElements.define('product-promise-madeineurope-64px', PromiseMadeInEurope64);
+}
+if (!customElements.get('product-basket-save-64px')) {
+  customElements.define('product-basket-save-64px', BasketSave64);
 }
 if (!customElements.get('product-promise-modular-64px')) {
   customElements.define('product-promise-modular-64px', PromiseModular64);
@@ -4792,9 +4792,6 @@ if (!customElements.get('product-promise-productonpicture-64px')) {
 }
 if (!customElements.get('product-promise-productsheet-64px')) {
   customElements.define('product-promise-productsheet-64px', PromiseProductSheet64);
-}
-if (!customElements.get('product-promise-scan-64px')) {
-  customElements.define('product-promise-scan-64px', PromiseScan64);
 }
 if (!customElements.get('product-promise-warranty-64px')) {
   customElements.define('product-promise-warranty-64px', PromiseWarranty64);
@@ -4817,11 +4814,14 @@ if (!customElements.get('promise-funding-zloty-64px')) {
 if (!customElements.get('service-aftersales-aftersalesservice-64px')) {
   customElements.define('service-aftersales-aftersalesservice-64px', AfterSalesAfterSalesService64);
 }
+if (!customElements.get('product-promise-scan-64px')) {
+  customElements.define('product-promise-scan-64px', PromiseScan64);
+}
+if (!customElements.get('product-promise-madeinfrance-64px')) {
+  customElements.define('product-promise-madeinfrance-64px', PromiseMadeInFrance64);
+}
 if (!customElements.get('service-aftersales-helpline-64px')) {
   customElements.define('service-aftersales-helpline-64px', AfterSalesHelpline64);
-}
-if (!customElements.get('service-aftersales-payback-64px')) {
-  customElements.define('service-aftersales-payback-64px', AfterSalesPayback64);
 }
 if (!customElements.get('service-aftersales-satisfaction-64px')) {
   customElements.define('service-aftersales-satisfaction-64px', AfterSalesSatisfaction64);
@@ -4835,9 +4835,6 @@ if (!customElements.get('service-custom-course-64px')) {
 if (!customElements.get('service-custom-cutwoodglass-64px')) {
   customElements.define('service-custom-cutwoodglass-64px', CustomCutWoodGlass64);
 }
-if (!customElements.get('service-custom-sample-64px')) {
-  customElements.define('service-custom-sample-64px', CustomSample64);
-}
 if (!customElements.get('service-custom-sharpening-64px')) {
   customElements.define('service-custom-sharpening-64px', CustomSharpening64);
 }
@@ -4850,11 +4847,14 @@ if (!customElements.get('service-delivery-delivery-pickup--store-64px')) {
 if (!customElements.get('service-delivery-delivery--home-64px')) {
   customElements.define('service-delivery-delivery--home-64px', DeliveryDeliveryHome64);
 }
+if (!customElements.get('service-custom-sample-64px')) {
+  customElements.define('service-custom-sample-64px', CustomSample64);
+}
+if (!customElements.get('service-aftersales-payback-64px')) {
+  customElements.define('service-aftersales-payback-64px', AfterSalesPayback64);
+}
 if (!customElements.get('service-delivery-delivery--locker-64px')) {
   customElements.define('service-delivery-delivery--locker-64px', DeliveryDeliveryLocker64);
-}
-if (!customElements.get('service-pallet-64px')) {
-  customElements.define('service-pallet-64px', Pallet64);
 }
 if (!customElements.get('service-purchasehelp-carrent-64px')) {
   customElements.define('service-purchasehelp-carrent-64px', PurchaseHelpCarRent64);
@@ -4868,9 +4868,6 @@ if (!customElements.get('service-purchasehelp-homeinstall-64px')) {
 if (!customElements.get('service-purchasehelp-toolrent-64px')) {
   customElements.define('service-purchasehelp-toolrent-64px', PurchaseHelpToolRent64);
 }
-if (!customElements.get('service-time-delivery--2h-64px')) {
-  customElements.define('service-time-delivery--2h-64px', TimeDelivery2h64);
-}
 if (!customElements.get('service-time-delivery--3h-64px')) {
   customElements.define('service-time-delivery--3h-64px', TimeDelivery3h64);
 }
@@ -4883,11 +4880,14 @@ if (!customElements.get('service-time-timedecline-64px')) {
 if (!customElements.get('service-tools-3d-64px')) {
   customElements.define('service-tools-3d-64px', Tools3d64);
 }
+if (!customElements.get('service-time-delivery--2h-64px')) {
+  customElements.define('service-time-delivery--2h-64px', TimeDelivery2h64);
+}
 if (!customElements.get('service-tools-calculator-64px')) {
   customElements.define('service-tools-calculator-64px', ToolsCalculator64);
 }
-if (!customElements.get('service-tools-comparator-64px')) {
-  customElements.define('service-tools-comparator-64px', ToolsComparator64);
+if (!customElements.get('service-pallet-64px')) {
+  customElements.define('service-pallet-64px', Pallet64);
 }
 if (!customElements.get('social-comment-comment-64px')) {
   customElements.define('social-comment-comment-64px', CommentComment64);
@@ -4901,11 +4901,8 @@ if (!customElements.get('social-comment-question--article-64px')) {
 if (!customElements.get('social-comment-report-64px')) {
   customElements.define('social-comment-report-64px', CommentReport64);
 }
-if (!customElements.get('social-share-shareandroid-64px')) {
-  customElements.define('social-share-shareandroid-64px', ShareShareAndroid64);
-}
-if (!customElements.get('social-share-shareios-64px')) {
-  customElements.define('social-share-shareios-64px', ShareShareIOS64);
+if (!customElements.get('service-tools-comparator-64px')) {
+  customElements.define('service-tools-comparator-64px', ToolsComparator64);
 }
 if (!customElements.get('social-socialnetwork-facebook-64px')) {
   customElements.define('social-socialnetwork-facebook-64px', SocialNetworkFacebook64);
@@ -4916,8 +4913,14 @@ if (!customElements.get('social-socialnetwork-instagram-64px')) {
 if (!customElements.get('social-socialnetwork-linkedin-64px')) {
   customElements.define('social-socialnetwork-linkedin-64px', SocialNetworkLinkedin64);
 }
+if (!customElements.get('social-share-shareandroid-64px')) {
+  customElements.define('social-share-shareandroid-64px', ShareShareAndroid64);
+}
 if (!customElements.get('social-socialnetwork-pinterest-64px')) {
   customElements.define('social-socialnetwork-pinterest-64px', SocialNetworkPinterest64);
+}
+if (!customElements.get('social-share-shareios-64px')) {
+  customElements.define('social-share-shareios-64px', ShareShareIOS64);
 }
 if (!customElements.get('social-socialnetwork-spotify-64px')) {
   customElements.define('social-socialnetwork-spotify-64px', SocialNetworkSpotify64);
@@ -5071,6 +5074,9 @@ if (!customElements.get('universe-masonry-alt-64px')) {
 }
 if (!customElements.get('universe-paint-64px')) {
   customElements.define('universe-paint-64px', Paint64);
+}
+if (!customElements.get('universe-pool-64px')) {
+  customElements.define('universe-pool-64px', Pool64);
 }
 if (!customElements.get('universe-renewable-energy-64px')) {
   customElements.define('universe-renewable-energy-64px', Renewableenergy64);
@@ -5227,10 +5233,4 @@ if (!customElements.get('media-player-96px')) {
 }
 if (!customElements.get('media-view360-96px')) {
   customElements.define('media-view360-96px', View36096);
-}
-if (!customElements.get('universe-pool-64px')) {
-  customElements.define('universe-pool-64px', Pool64);
-}
-if (!customElements.get('universe-garden1-48px')) {
-  customElements.define('universe-garden1-48px', Garden148);
 }
