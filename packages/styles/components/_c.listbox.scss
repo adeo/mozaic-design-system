@@ -38,7 +38,8 @@
     position: relative;
 
     &:not(#{$selector-empty}):not(.is-disabled):hover,
-    &:has(.mc-listbox__input:focus) {
+    &:has(.mc-listbox__input:focus),
+    &:has(.mc-listbox__label:focus) {
       background-color: $color-listbox-tile-hover-background;
       box-shadow: inset 9px 0 0 -7px $color-listbox-tile-shadow;
     }
@@ -88,6 +89,7 @@
     color: currentColor;
     cursor: pointer;
     white-space: nowrap;
+    outline: transparent;
 
     @at-root button#{&} {
       background: none;
