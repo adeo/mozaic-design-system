@@ -37,7 +37,8 @@
     padding-right: $mu075;
     position: relative;
 
-    &:not(#{$selector-empty}):not(.is-disabled):hover, &:has(.mc-listbox__input:focus) {
+    &:not(#{$selector-empty}):not(.is-disabled):hover,
+    &:has(.mc-listbox__input:focus) {
       background-color: $color-listbox-tile-hover-background;
       box-shadow: inset 9px 0 0 -7px $color-listbox-tile-shadow;
     }
@@ -122,7 +123,7 @@
 
   &--options {
     max-height: px-to-rem(221);
-    min-width: px-to-rem(288);
+    min-width: var(--listbox-minwidth, #{px-to-rem(288)});
 
     #{$parent} {
       &__flag,
