@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.75.5](https://github.com/adeo/mozaic-design-system/compare/v1.75.4...v1.75.5) (2024-07-18)
+
+### Bug Fixes
+
+- **component/textarea:** adjust text color to disabled state ([#1606](https://github.com/adeo/mozaic-design-system/issues/1606)) ([0f3701d](https://github.com/adeo/mozaic-design-system/commit/0f3701d67407678984d9ba459bc342176600eb56))
+
 ## [1.75.4](https://github.com/adeo/mozaic-design-system/compare/v1.75.3...v1.75.4) (2024-07-18)
 
 ### Bug Fixes
