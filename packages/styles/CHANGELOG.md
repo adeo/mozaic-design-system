@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.75.4](https://github.com/adeo/mozaic-design-system/compare/v1.75.3...v1.75.4) (2024-07-18)
+
+### Bug Fixes
+
+- **component/listbox:** allow the min-width to be changed ([#1604](https://github.com/adeo/mozaic-design-system/issues/1604)) ([6d71e58](https://github.com/adeo/mozaic-design-system/commit/6d71e58e18903193e74be3221ac116474def103c))
+- **component/listbox:** standardise focus status ([#1605](https://github.com/adeo/mozaic-design-system/issues/1605)) ([b5747ee](https://github.com/adeo/mozaic-design-system/commit/b5747ee0706f998ecf8bf4a9462ed4b4a8d31261))
+
 ## [1.75.1](https://github.com/adeo/mozaic-design-system/compare/v1.75.0...v1.75.1) (2024-06-24)
 
 **Note:** Version bump only for package @mozaic-ds/styles
