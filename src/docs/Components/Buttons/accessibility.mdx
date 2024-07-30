@@ -35,4 +35,22 @@ order: 4
   <br />
 </HintItem>
 
+<HintItem>
+  When designing a form, with a logic that enables or disables the submit button following the business rules, it is
+  recommended to use <code>aria-disabled="true"</code> instead of <code>disabled="true"</code>.
+  The main advantage is the button stays focusable, letting any person with an assistive technology to discover
+  the existence of the button, even when it is disabled.
+  <br />
+  It is then the responsibility of the developer to manage the submission of the form,
+  as <code>aria-disabled="true"</code>
+  let the possibility to the user to use the button, and therefore submit the form.
+  <br />
+  A few resources about this pattern:
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-disabled">MDN</a></li>
+    <li><a href="https://css-tricks.com/making-disabled-buttons-more-inclusive/">Making disabled buttons more inclusive,
+      on CSS-Tricks</a></li>
+  </ul>
+</HintItem>
+
 <Story id="action-button--markup" />
