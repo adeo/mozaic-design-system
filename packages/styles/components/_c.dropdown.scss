@@ -3,7 +3,7 @@
 
   align-self: start;
   position: relative;
-  min-width: $dropdown-min-width;
+  min-width: var(--dropdown-min-width, $dropdown-min-width);
   max-width: var(--dropdown-width, $dropdown-width);
   width: 100%;
 
