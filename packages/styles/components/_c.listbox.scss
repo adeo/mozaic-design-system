@@ -125,7 +125,7 @@
 
   &--options {
     max-height: px-to-rem(221);
-    min-width: var(--listbox-minwidth, #{px-to-rem(288)});
+    min-width: var(--listbox-minwidth, 6rem);
 
     #{$parent} {
       &__flag,
