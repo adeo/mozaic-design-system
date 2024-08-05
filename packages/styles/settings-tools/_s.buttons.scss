@@ -141,7 +141,8 @@ $button-color-default: map-get(get-token(color, button, "solid"), "font");
     $disabled-props: map-get($props, "disabled");
 
     &:disabled,
-    &.is-disabled {
+    &.is-disabled,
+    &[aria-disabled="true"] {
       background-color: map-get($disabled-props, "background");
       border-color: transparent;
       color: map-get($disabled-props, "font");
