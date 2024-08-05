@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.76.0](https://github.com/adeo/mozaic-design-system/compare/v1.75.5...v1.76.0) (2024-08-05)
+
+### Features
+
+- **form:** reduce to 6rem the min-width ([#1608](https://github.com/adeo/mozaic-design-system/issues/1608)) ([6624ac5](https://github.com/adeo/mozaic-design-system/commit/6624ac528eadde9513b7b78a6cd0ddac96299428))
+
 ## [1.75.5](https://github.com/adeo/mozaic-design-system/compare/v1.75.4...v1.75.5) (2024-07-18)
 
 ### Bug Fixes
