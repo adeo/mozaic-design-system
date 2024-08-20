@@ -3,7 +3,7 @@
 
   align-self: start;
   position: relative;
-  min-width: $autocomplete-min-width;
+  min-width: var(--autocomplete-min-width, $autocomplete-min-width);
   max-width: var(--autocomplete-width, $autocomplete-width);
   width: 100%;
 

@@ -3,6 +3,7 @@
   $parent: get-parent-selector(&);
 
   display: flex;
+  align-items: center;
   background-color: $color-grey-000;
   border-radius: get-border-radius("m");
   border: 1px solid $color-grey-300;
@@ -26,6 +27,7 @@
     text-align: left;
     position: relative;
     outline: none;
+    text-align: center;
 
     &:not(:last-child) {
       @include set-divider("right", "light", "16px", "s");
@@ -101,6 +103,7 @@
     padding: px-to-rem(3) $mu100;
     flex-shrink: 0;
     width: 100%;
+    height: 100%;
   }
 
   &__icon {
