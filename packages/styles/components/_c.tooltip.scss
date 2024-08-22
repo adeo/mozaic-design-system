@@ -33,7 +33,7 @@
     text-align: center;
     visibility: hidden;
     white-space: normal;
-    z-index: 1000;
+    z-index: var(--tooltip-content-z-index, 1000);
     border: get-border("s") solid $color-tooltip-border;
     word-break: break-word;
 
