@@ -10427,6 +10427,21 @@ module.exports = {
       }
     }
   },
+  "preset": {
+    "value": "lm",
+    "filePath": "packages/tokens/properties/preset.json",
+    "isSource": true,
+    "original": {
+      "value": "lm"
+    },
+    "name": "Preset",
+    "attributes": {
+      "category": "preset"
+    },
+    "path": [
+      "preset"
+    ]
+  },
   "radius": {
     "s": {
       "value": 2,
@@ -12440,20 +12455,5 @@ module.exports = {
         "xxl"
       ]
     }
-  },
-  "preset": {
-    "value": "lm",
-    "filePath": "packages/tokens/properties/preset.json",
-    "isSource": true,
-    "original": {
-      "value": "lm"
-    },
-    "name": "Preset",
-    "attributes": {
-      "category": "preset"
-    },
-    "path": [
-      "preset"
-    ]
   }
 };
