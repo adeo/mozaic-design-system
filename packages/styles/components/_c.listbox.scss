@@ -103,7 +103,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      z-index: 2;
+      z-index: var(--listbox-label-z-index, 2);
     }
   }
 
@@ -240,6 +240,6 @@
   // Type "Overlay"
   &--overlay {
     position: absolute;
-    z-index: 10;
+    z-index: var(--listbox-overlay-z-index, 10);
   }
 }

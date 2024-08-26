@@ -7,5 +7,5 @@
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 1999999999; // Position the dialog above the MOpinion element
+  z-index: var(--modal-z-index, 1999999999);// Position the dialog above the MOpinion element
 }

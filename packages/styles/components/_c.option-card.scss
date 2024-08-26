@@ -16,7 +16,7 @@
       position: absolute;
       right: $mu100;
       top: $mu100;
-      z-index: 4;
+      z-index: var(--option-card-input-z-index, 4);
 
       &:focus {
         box-shadow: none;
@@ -47,7 +47,7 @@
         #{$parent}__focusable,
         [tabindex]:not([tabindex="-1"]) {
           position: relative;
-          z-index: 3;
+          z-index: var(--option-card-checked-z-index, 3);
         }
       }
 
@@ -82,7 +82,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    z-index: 2;
+    z-index: var(--option-card-label-z-index, 2);
 
     &-text {
       @include visually-hidden();

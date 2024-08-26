@@ -24,7 +24,7 @@ $stepper-divider-gap: $mu150 - $mu025;
       }
 
       &::before {
-        z-index: 2;
+        z-index: var(--stepper-compact-z-index, 2);
         width: calc(var(--current) * 100% / var(--steps));
       }
 

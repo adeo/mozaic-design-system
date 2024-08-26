@@ -50,7 +50,7 @@
   &__link {
     @include set-font-weight("regular");
     @include set-focus-floating-base($before: true) {
-      z-index: 1;
+      z-index: var(--menu-link-z-index, 1);
     }
 
     align-items: center;

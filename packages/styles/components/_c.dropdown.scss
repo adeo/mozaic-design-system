@@ -12,7 +12,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: $dropdown-tag-zindex;
+    z-index: var(--dropdown-tag-z-index, $dropdown-tag-zindex);
   }
 
   // &__tag,

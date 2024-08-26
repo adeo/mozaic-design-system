@@ -169,7 +169,7 @@
           @include set-box-shadow("l");
 
           top: 0;
-          z-index: 3;
+          z-index: var(--datatable-sticky-header-z-index, 3);
         }
       }
 
@@ -187,7 +187,7 @@
       &__footer {
         border-top: get-border(s) solid $color-grey-300;
         position: relative;
-        z-index: 3;
+        z-index: var(--datatable-sticky-footer-z-index, 3);
       }
     }
   }
