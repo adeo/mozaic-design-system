@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.77.0](https://github.com/adeo/mozaic-design-system/compare/v1.76.0...v1.77.0) (2024-08-26)
+
+### Features
+
+- **zindex:** use variable for all z-index ([#1613](https://github.com/adeo/mozaic-design-system/issues/1613)) ([8601656](https://github.com/adeo/mozaic-design-system/commit/8601656e6686fa03d64937f1a7fb5caa20ceb3b0))
+
 ## [1.75.1](https://github.com/adeo/mozaic-design-system/compare/v1.75.0...v1.75.1) (2024-06-24)
 
 ### Bug Fixes

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.77.0](https://github.com/adeo/mozaic-design-system/compare/v1.76.0...v1.77.0) (2024-08-26)
+
+### Bug Fixes
+
+- **layer:** change max-height to height ([#1612](https://github.com/adeo/mozaic-design-system/issues/1612)) ([c67b500](https://github.com/adeo/mozaic-design-system/commit/c67b50024ac33d2408c7d6f5d91c3218477e1a18))
+
+### Features
+
+- **buttons:** promotes aria-disabled for buttons for A11Y sake ([#1607](https://github.com/adeo/mozaic-design-system/issues/1607)) ([7fa41da](https://github.com/adeo/mozaic-design-system/commit/7fa41dad258dd3d4a82f5a7decd59a72272d8c62))
+- **segment-control:** enhance label management ([#1610](https://github.com/adeo/mozaic-design-system/issues/1610)) ([df20e17](https://github.com/adeo/mozaic-design-system/commit/df20e17069f0282e22d11bdc549629b10671eac2))
+- **zindex:** use variable for all z-index ([#1613](https://github.com/adeo/mozaic-design-system/issues/1613)) ([8601656](https://github.com/adeo/mozaic-design-system/commit/8601656e6686fa03d64937f1a7fb5caa20ceb3b0))
+
 # [1.76.0](https://github.com/adeo/mozaic-design-system/compare/v1.75.5...v1.76.0) (2024-08-05)
 
 ### Features
