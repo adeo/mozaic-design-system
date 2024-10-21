@@ -195,6 +195,14 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Cards_Colors_Oney-LMES",
+      "fileName": "Payment_Cards_Colors_Oney-LMES_24px.svg",
+      "iconName": "CardsColorsOneyLMES",
+      "componentName": "CardsColorsOneyLMES24"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "Cards_Colors_OneyX3",
       "fileName": "Payment_Cards_Colors_OneyX3_24px.svg",
       "iconName": "CardsColorsOneyX3",
@@ -447,6 +455,14 @@
       "fileName": "Payment_Cards_Colors_Oney_32px.svg",
       "iconName": "CardsColorsOney",
       "componentName": "CardsColorsOney32"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Cards_Colors_Oney-LMES",
+      "fileName": "Payment_Cards_Colors_Oney-LMES_32px.svg",
+      "iconName": "CardsColorsOneyLMES",
+      "componentName": "CardsColorsOneyLMES32"
     },
     {
       "cat": "Payment",
@@ -707,6 +723,14 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Cards_Colors_Oney-LMES",
+      "fileName": "Payment_Cards_Colors_Oney-LMES_48px.svg",
+      "iconName": "CardsColorsOneyLMES",
+      "componentName": "CardsColorsOneyLMES48"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Colors_OneyX3",
       "fileName": "Payment_Cards_Colors_OneyX3_48px.svg",
       "iconName": "CardsColorsOneyX3",
@@ -959,6 +983,14 @@
       "fileName": "Payment_Cards_Colors_Oney_64px.svg",
       "iconName": "CardsColorsOney",
       "componentName": "CardsColorsOney64"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Cards_Colors_Oney-LMES",
+      "fileName": "Payment_Cards_Colors_Oney-LMES_64px.svg",
+      "iconName": "CardsColorsOneyLMES",
+      "componentName": "CardsColorsOneyLMES64"
     },
     {
       "cat": "Payment",
@@ -1545,6 +1577,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_24px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal24"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "24px",
+      "name": "Payment_Monochrome_PayPo",
+      "fileName": "Logotypes_Payment_Monochrome_PayPo_24px.svg",
+      "iconName": "PaymentMonochromePayPo",
+      "componentName": "PaymentMonochromePayPo24"
     },
     {
       "cat": "Logotypes",
@@ -2405,6 +2445,14 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Cards_Monochrome_Oney-LMES",
+      "fileName": "Payment_Cards_Monochrome_Oney-LMES_24px.svg",
+      "iconName": "CardsMonochromeOneyLMES",
+      "componentName": "CardsMonochromeOneyLMES24"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "Cards_Monochrome_OneyX3",
       "fileName": "Payment_Cards_Monochrome_OneyX3_24px.svg",
       "iconName": "CardsMonochromeOneyX3",
@@ -2877,6 +2925,14 @@
     {
       "cat": "Service",
       "size": "24px",
+      "name": "Time_Delivery--24h",
+      "fileName": "Service_Time_Delivery--24h_24px.svg",
+      "iconName": "TimeDelivery24h",
+      "componentName": "TimeDelivery24h24"
+    },
+    {
+      "cat": "Service",
+      "size": "24px",
       "name": "Time_Delivery--2h",
       "fileName": "Service_Time_Delivery--2h_24px.svg",
       "iconName": "TimeDelivery2h",
@@ -3197,6 +3253,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Big-bag",
+      "fileName": "Universe_Big-bag_24px.svg",
+      "iconName": "Bigbag",
+      "componentName": "Bigbag24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Carpentry",
       "fileName": "Universe_Carpentry_24px.svg",
       "iconName": "Carpentry",
@@ -3413,6 +3477,14 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Mixer-truck",
+      "fileName": "Universe_Mixer-truck_24px.svg",
+      "iconName": "Mixertruck",
+      "componentName": "Mixertruck24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Paint",
       "fileName": "Universe_Paint_24px.svg",
       "iconName": "Paint",
@@ -3469,10 +3541,26 @@
     {
       "cat": "Universe",
       "size": "24px",
+      "name": "Ventilation",
+      "fileName": "Universe_Ventilation_24px.svg",
+      "iconName": "Ventilation",
+      "componentName": "Ventilation24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
       "name": "Wallpaper",
       "fileName": "Universe_Wallpaper_24px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper24"
+    },
+    {
+      "cat": "Universe",
+      "size": "24px",
+      "name": "Window",
+      "fileName": "Universe_Window_24px.svg",
+      "iconName": "Window",
+      "componentName": "Window24"
     },
     {
       "cat": "Universe",
@@ -3585,6 +3673,14 @@
       "fileName": "User_Card_IDCard_24px.svg",
       "iconName": "CardIDCard",
       "componentName": "CardIDCard24"
+    },
+    {
+      "cat": "User",
+      "size": "24px",
+      "name": "Card_Loyalty-m",
+      "fileName": "User_Card_Loyalty-m_24px.svg",
+      "iconName": "CardLoyaltym",
+      "componentName": "CardLoyaltym24"
     },
     {
       "cat": "User",
@@ -4089,6 +4185,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_32px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal32"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "32px",
+      "name": "Payment_Monochrome_PayPo",
+      "fileName": "Logotypes_Payment_Monochrome_PayPo_32px.svg",
+      "iconName": "PaymentMonochromePayPo",
+      "componentName": "PaymentMonochromePayPo32"
     },
     {
       "cat": "Logotypes",
@@ -4957,6 +5061,14 @@
     {
       "cat": "Payment",
       "size": "32px",
+      "name": "Cards_Monochrome_Oney-LMES",
+      "fileName": "Payment_Cards_Monochrome_Oney-LMES_32px.svg",
+      "iconName": "CardsMonochromeOneyLMES",
+      "componentName": "CardsMonochromeOneyLMES32"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
       "name": "Cards_Monochrome_OneyX3",
       "fileName": "Payment_Cards_Monochrome_OneyX3_32px.svg",
       "iconName": "CardsMonochromeOneyX3",
@@ -5429,6 +5541,14 @@
     {
       "cat": "Service",
       "size": "32px",
+      "name": "Time_Delivery--24h",
+      "fileName": "Service_Time_Delivery--24h_32px.svg",
+      "iconName": "TimeDelivery24h",
+      "componentName": "TimeDelivery24h32"
+    },
+    {
+      "cat": "Service",
+      "size": "32px",
       "name": "Time_Delivery--2h",
       "fileName": "Service_Time_Delivery--2h_32px.svg",
       "iconName": "TimeDelivery2h",
@@ -5749,6 +5869,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Big-bag",
+      "fileName": "Universe_Big-bag_32px.svg",
+      "iconName": "Bigbag",
+      "componentName": "Bigbag32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Carpentry",
       "fileName": "Universe_Carpentry_32px.svg",
       "iconName": "Carpentry",
@@ -5965,6 +6093,14 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Mixer-truck",
+      "fileName": "Universe_Mixer-truck_32px.svg",
+      "iconName": "Mixertruck",
+      "componentName": "Mixertruck32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Paint",
       "fileName": "Universe_Paint_32px.svg",
       "iconName": "Paint",
@@ -6021,10 +6157,26 @@
     {
       "cat": "Universe",
       "size": "32px",
+      "name": "Ventilation",
+      "fileName": "Universe_Ventilation_32px.svg",
+      "iconName": "Ventilation",
+      "componentName": "Ventilation32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
       "name": "Wallpaper",
       "fileName": "Universe_Wallpaper_32px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper32"
+    },
+    {
+      "cat": "Universe",
+      "size": "32px",
+      "name": "Window",
+      "fileName": "Universe_Window_32px.svg",
+      "iconName": "Window",
+      "componentName": "Window32"
     },
     {
       "cat": "Universe",
@@ -6137,6 +6289,14 @@
       "fileName": "User_Card_IDCard_32px.svg",
       "iconName": "CardIDCard",
       "componentName": "CardIDCard32"
+    },
+    {
+      "cat": "User",
+      "size": "32px",
+      "name": "Card_Loyalty-m",
+      "fileName": "User_Card_Loyalty-m_32px.svg",
+      "iconName": "CardLoyaltym",
+      "componentName": "CardLoyaltym32"
     },
     {
       "cat": "User",
@@ -6641,6 +6801,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_48px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal48"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "48px",
+      "name": "Payment_Monochrome_PayPo",
+      "fileName": "Logotypes_Payment_Monochrome_PayPo_48px.svg",
+      "iconName": "PaymentMonochromePayPo",
+      "componentName": "PaymentMonochromePayPo48"
     },
     {
       "cat": "Logotypes",
@@ -7509,6 +7677,14 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Cards_Monochrome_Oney-LMES",
+      "fileName": "Payment_Cards_Monochrome_Oney-LMES_48px.svg",
+      "iconName": "CardsMonochromeOneyLMES",
+      "componentName": "CardsMonochromeOneyLMES48"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Monochrome_OneyX3",
       "fileName": "Payment_Cards_Monochrome_OneyX3_48px.svg",
       "iconName": "CardsMonochromeOneyX3",
@@ -7981,6 +8157,14 @@
     {
       "cat": "Service",
       "size": "48px",
+      "name": "Time_Delivery--24h",
+      "fileName": "Service_Time_Delivery--24h_48px.svg",
+      "iconName": "TimeDelivery24h",
+      "componentName": "TimeDelivery24h48"
+    },
+    {
+      "cat": "Service",
+      "size": "48px",
       "name": "Time_Delivery--2h",
       "fileName": "Service_Time_Delivery--2h_48px.svg",
       "iconName": "TimeDelivery2h",
@@ -8301,6 +8485,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Big-bag",
+      "fileName": "Universe_Big-bag_48px.svg",
+      "iconName": "Bigbag",
+      "componentName": "Bigbag48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Carpentry",
       "fileName": "Universe_Carpentry_48px.svg",
       "iconName": "Carpentry",
@@ -8517,6 +8709,14 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Mixer-truck",
+      "fileName": "Universe_Mixer-truck_48px.svg",
+      "iconName": "Mixertruck",
+      "componentName": "Mixertruck48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Paint",
       "fileName": "Universe_Paint_48px.svg",
       "iconName": "Paint",
@@ -8573,10 +8773,26 @@
     {
       "cat": "Universe",
       "size": "48px",
+      "name": "Ventilation",
+      "fileName": "Universe_Ventilation_48px.svg",
+      "iconName": "Ventilation",
+      "componentName": "Ventilation48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
       "name": "Wallpaper",
       "fileName": "Universe_Wallpaper_48px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper48"
+    },
+    {
+      "cat": "Universe",
+      "size": "48px",
+      "name": "Window",
+      "fileName": "Universe_Window_48px.svg",
+      "iconName": "Window",
+      "componentName": "Window48"
     },
     {
       "cat": "Universe",
@@ -8689,6 +8905,14 @@
       "fileName": "User_Card_IDCard_48px.svg",
       "iconName": "CardIDCard",
       "componentName": "CardIDCard48"
+    },
+    {
+      "cat": "User",
+      "size": "48px",
+      "name": "Card_Loyalty-m",
+      "fileName": "User_Card_Loyalty-m_48px.svg",
+      "iconName": "CardLoyaltym",
+      "componentName": "CardLoyaltym48"
     },
     {
       "cat": "User",
@@ -9193,6 +9417,14 @@
       "fileName": "Logotypes_Payment_Monochrome_PayPal_64px.svg",
       "iconName": "PaymentMonochromePayPal",
       "componentName": "PaymentMonochromePayPal64"
+    },
+    {
+      "cat": "Logotypes",
+      "size": "64px",
+      "name": "Payment_Monochrome_PayPo",
+      "fileName": "Logotypes_Payment_Monochrome_PayPo_64px.svg",
+      "iconName": "PaymentMonochromePayPo",
+      "componentName": "PaymentMonochromePayPo64"
     },
     {
       "cat": "Logotypes",
@@ -10061,6 +10293,14 @@
     {
       "cat": "Payment",
       "size": "64px",
+      "name": "Cards_Monochrome_Oney-LMES",
+      "fileName": "Payment_Cards_Monochrome_Oney-LMES_64px.svg",
+      "iconName": "CardsMonochromeOneyLMES",
+      "componentName": "CardsMonochromeOneyLMES64"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
       "name": "Cards_Monochrome_OneyX3",
       "fileName": "Payment_Cards_Monochrome_OneyX3_64px.svg",
       "iconName": "CardsMonochromeOneyX3",
@@ -10533,6 +10773,14 @@
     {
       "cat": "Service",
       "size": "64px",
+      "name": "Time_Delivery--24h",
+      "fileName": "Service_Time_Delivery--24h_64px.svg",
+      "iconName": "TimeDelivery24h",
+      "componentName": "TimeDelivery24h64"
+    },
+    {
+      "cat": "Service",
+      "size": "64px",
       "name": "Time_Delivery--2h",
       "fileName": "Service_Time_Delivery--2h_64px.svg",
       "iconName": "TimeDelivery2h",
@@ -10853,6 +11101,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Big-bag",
+      "fileName": "Universe_Big-bag_64px.svg",
+      "iconName": "Bigbag",
+      "componentName": "Bigbag64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Carpentry",
       "fileName": "Universe_Carpentry_64px.svg",
       "iconName": "Carpentry",
@@ -11069,6 +11325,14 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Mixer-truck",
+      "fileName": "Universe_Mixer-truck_64px.svg",
+      "iconName": "Mixertruck",
+      "componentName": "Mixertruck64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Paint",
       "fileName": "Universe_Paint_64px.svg",
       "iconName": "Paint",
@@ -11125,10 +11389,26 @@
     {
       "cat": "Universe",
       "size": "64px",
+      "name": "Ventilation",
+      "fileName": "Universe_Ventilation_64px.svg",
+      "iconName": "Ventilation",
+      "componentName": "Ventilation64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
       "name": "Wallpaper",
       "fileName": "Universe_Wallpaper_64px.svg",
       "iconName": "Wallpaper",
       "componentName": "Wallpaper64"
+    },
+    {
+      "cat": "Universe",
+      "size": "64px",
+      "name": "Window",
+      "fileName": "Universe_Window_64px.svg",
+      "iconName": "Window",
+      "componentName": "Window64"
     },
     {
       "cat": "Universe",
@@ -11241,6 +11521,14 @@
       "fileName": "User_Card_IDCard_64px.svg",
       "iconName": "CardIDCard",
       "componentName": "CardIDCard64"
+    },
+    {
+      "cat": "User",
+      "size": "64px",
+      "name": "Card_Loyalty-m",
+      "fileName": "User_Card_Loyalty-m_64px.svg",
+      "iconName": "CardLoyaltym",
+      "componentName": "CardLoyaltym64"
     },
     {
       "cat": "User",
