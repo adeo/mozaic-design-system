@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Script } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
 import Changelog from '../components/Changelog'
 import ColorPalette from '../components/ColorPalette'
@@ -117,6 +117,20 @@ const ContentPage = (props) => {
         </div>
         <TableOfContents tableOfContents={tableOfContents} />
       </div>
+      {/* Dynamic scripts */}
+      <Script id="hotjar">
+        {`
+          <!-- Hotjar Tracking Code for http://mozaic.adeo.cloud -->
+            (function(h,o,t,j,a,r){
+              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+              h._hjSettings={hjid:1528294,hjsv:6};
+              a=o.getElementsByTagName('head')[0];
+              r=o.createElement('script');r.async=1;
+              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+              a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+          `}
+      </Script>
     </Layout>
   )
 }
