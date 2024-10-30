@@ -1595,14 +1595,6 @@
       "componentName": "PaymentMonochromePostepay24"
     },
     {
-      "cat": "Logotypes",
-      "size": "24px",
-      "name": "Payment_Monochrome_Przelesw",
-      "fileName": "Logotypes_Payment_Monochrome_Przelesw_24px.svg",
-      "iconName": "PaymentMonochromePrzelesw",
-      "componentName": "PaymentMonochromePrzelesw24"
-    },
-    {
       "cat": "Media",
       "size": "24px",
       "name": "API",
@@ -4201,14 +4193,6 @@
       "fileName": "Logotypes_Payment_Monochrome_Postepay_32px.svg",
       "iconName": "PaymentMonochromePostepay",
       "componentName": "PaymentMonochromePostepay32"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "32px",
-      "name": "Payment_Monochrome_Przelesw",
-      "fileName": "Logotypes_Payment_Monochrome_Przelesw_32px.svg",
-      "iconName": "PaymentMonochromePrzelesw",
-      "componentName": "PaymentMonochromePrzelesw32"
     },
     {
       "cat": "Media",
@@ -6819,14 +6803,6 @@
       "componentName": "PaymentMonochromePostepay48"
     },
     {
-      "cat": "Logotypes",
-      "size": "48px",
-      "name": "Payment_Monochrome_Przelesw",
-      "fileName": "Logotypes_Payment_Monochrome_Przelesw_48px.svg",
-      "iconName": "PaymentMonochromePrzelesw",
-      "componentName": "PaymentMonochromePrzelesw48"
-    },
-    {
       "cat": "Media",
       "size": "48px",
       "name": "API",
@@ -9433,14 +9409,6 @@
       "fileName": "Logotypes_Payment_Monochrome_Postepay_64px.svg",
       "iconName": "PaymentMonochromePostepay",
       "componentName": "PaymentMonochromePostepay64"
-    },
-    {
-      "cat": "Logotypes",
-      "size": "64px",
-      "name": "Payment_Monochrome_Przelesw",
-      "fileName": "Logotypes_Payment_Monochrome_Przelesw_64px.svg",
-      "iconName": "PaymentMonochromePrzelesw",
-      "componentName": "PaymentMonochromePrzelesw64"
     },
     {
       "cat": "Media",
