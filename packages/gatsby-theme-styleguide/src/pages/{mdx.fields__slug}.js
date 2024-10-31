@@ -10,7 +10,6 @@ import IconViewer from '../components/IconViewer'
 import InlineCode from '../components/InlineCode'
 import Layout from '../components/layout'
 import PageTabs from '../components/PageTabs'
-import PatternsStatusTable from '../components/PatternsStatusTable'
 import Story from '../components/Story'
 import SubContents from '../components/SubContents'
 import TableOfContents from '../components/TableOfContents'
@@ -28,7 +27,6 @@ const components = {
   Hint,
   HintItem,
   IconViewer,
-  PatternsStatusTable,
   Story,
   SubContents,
   ControlCross16,
@@ -168,30 +166,7 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            links {
-              freemarker {
-                link
-                status
-              }
-              react {
-                link
-                status
-              }
-              vue {
-                link
-                status
-              }
-              webComponent {
-                link
-                status
-              }
-            }
             order
-            status {
-              figma
-              react
-              scss
-            }
             title
           }
         }
