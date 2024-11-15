@@ -1,10 +1,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import CurrentVersion from './CurrentVersion'
 import Menu from './Menu'
 import MenuButton from './Menu/MenuButton'
 import Search from './Search'
-import VersionSelector from './VersionSelector'
 import { LogoMozaic } from './icons'
 import './base.scss'
 import * as styles from './layout.module.css'
@@ -20,10 +18,6 @@ const Layout = (props) => {
           <Link to="/" className={styles.asideLogo}>
             <LogoMozaic />
           </Link>
-          <div className={styles.versionsWrapper}>
-            <VersionSelector />
-            <CurrentVersion />
-          </div>
         </div>
         <Search />
         <Menu location={location} />

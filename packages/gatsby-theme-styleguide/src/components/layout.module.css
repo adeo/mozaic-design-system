@@ -64,10 +64,3 @@
 :global(.navOpen) .main {
   overflow: hidden;
 }
-
-/** versionsWrapper */
-.versionsWrapper {
-  bottom: 0;
-  position: absolute;
-  right: 0;
-}
