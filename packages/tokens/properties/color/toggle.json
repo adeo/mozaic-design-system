@@ -18,6 +18,9 @@
         },
         "circle": {
           "value": "{color.grey.000.value}"
+        },
+        "icon": {
+          "value": "{color.primary-01.500.value}"
         }
       },
       "hover": {

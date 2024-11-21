@@ -340,6 +340,7 @@
   <color name="color_menu_is_active">#ff188803</color>
   <color name="color_menu_hover">#ffeeeff1</color>
   <color name="color_menu_active">#ffcfd2d8</color>
+  <color name="color_menu_text_active">#ffffffff</color>
   <color name="color_notification_font">#ff000000</color>
   <color name="color_notification_information_background">#ffdaeff7</color>
   <color name="color_notification_information_border">#ff0b96cc</color>
@@ -378,6 +379,8 @@
   <color name="color_segmented_control_is_active">#ff188803</color>
   <color name="color_segmented_control_hover">#ffeeeff1</color>
   <color name="color_segmented_control_active">#ffcfd2d8</color>
+  <color name="color_segmented_control_text_default">#ff000000</color>
+  <color name="color_segmented_control_text_active">#ffffffff</color>
   <color name="color_sidebar_background">#ffeeeff1</color>
   <color name="color_sidebar_feature_background">#ffcfd2d8</color>
   <color name="color_sidebar_feature_hover_background">#ffb3b7c1</color>
@@ -472,6 +475,7 @@
   <color name="color_toggle_off_circle">#ffffffff</color>
   <color name="color_toggle_on_background">#ff46a610</color>
   <color name="color_toggle_on_circle">#ffffffff</color>
+  <color name="color_toggle_on_icon">#ff46a610</color>
   <color name="color_toggle_hover_circle">#ffe6e6e6</color>
   <color name="color_toggle_disabled_background">#ffe6e6e6</color>
   <color name="color_toggle_disabled_circle">#ffb3b3b3</color>

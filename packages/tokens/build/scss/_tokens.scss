@@ -340,6 +340,7 @@ $color-loader-primary: #188803 !default;
 $color-menu-is-active: #188803 !default;
 $color-menu-hover: #eeeff1 !default;
 $color-menu-active: #cfd2d8 !default;
+$color-menu-text-active: #ffffff !default;
 $color-notification-font: #000000 !default;
 $color-notification-information-background: #daeff7 !default;
 $color-notification-information-border: #0b96cc !default;
@@ -378,6 +379,8 @@ $color-progress-percentage-background: #ffffff !default;
 $color-segmented-control-is-active: #188803 !default;
 $color-segmented-control-hover: #eeeff1 !default;
 $color-segmented-control-active: #cfd2d8 !default;
+$color-segmented-control-text-default: #000000 !default;
+$color-segmented-control-text-active: #ffffff !default;
 $color-sidebar-background: #eeeff1 !default;
 $color-sidebar-feature-background: #cfd2d8 !default;
 $color-sidebar-feature-hover-background: #b3b7c1 !default;
@@ -472,6 +475,7 @@ $color-toggle-off-background: #666666 !default;
 $color-toggle-off-circle: #ffffff !default;
 $color-toggle-on-background: #46a610 !default;
 $color-toggle-on-circle: #ffffff !default;
+$color-toggle-on-icon: #46a610 !default;
 $color-toggle-hover-circle: #e6e6e6 !default;
 $color-toggle-disabled-background: #e6e6e6 !default;
 $color-toggle-disabled-circle: #b3b3b3 !default;
@@ -1153,7 +1157,10 @@ $tokens: (
     'menu': (
       'is-active': $color-menu-is-active,
       'hover': $color-menu-hover,
-      'active': $color-menu-active
+      'active': $color-menu-active,
+      'text': (
+        'active': $color-menu-text-active
+      )
     ),
     'notification': (
       'font': $color-notification-font,
@@ -1257,7 +1264,11 @@ $tokens: (
     'segmented-control': (
       'is-active': $color-segmented-control-is-active,
       'hover': $color-segmented-control-hover,
-      'active': $color-segmented-control-active
+      'active': $color-segmented-control-active,
+      'text': (
+        'default': $color-segmented-control-text-default,
+        'active': $color-segmented-control-text-active
+      )
     ),
     'sidebar': (
       'background': $color-sidebar-background,
@@ -1468,7 +1479,8 @@ $tokens: (
       ),
       'on': (
         'background': $color-toggle-on-background,
-        'circle': $color-toggle-on-circle
+        'circle': $color-toggle-on-circle,
+        'icon': $color-toggle-on-icon
       ),
       'hover': (
         'circle': $color-toggle-hover-circle

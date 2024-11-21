@@ -2,17 +2,17 @@
   "color": {
     "menu": {
       "is-active": {
-        "value": "{color.primary-01.600.value}"
+        "value": "{color.primary-02.300.value}"
       },
       "hover": {
         "value": "{color.primary-02.100.value}"
       },
       "active": {
-        "value": "{color.primary-02.200.value}"
+        "value": "{color.primary-02.300.value}"
       },
       "text": {
         "active": {
-          "value": "{color.grey.000.value}"
+          "value": "{color.primary-01.900.value}"
         }
       }
     }

@@ -1,0 +1,19 @@
+{
+  "color": {
+    "tabs": {
+      "hover": {
+        "background": {
+          "value": "{color.grey.100.value}"
+        }
+      },
+      "active": {
+        "background": {
+          "value": "{color.grey.200.value}"
+        },
+        "text": {
+          "value": "{color.grey.600.value}"
+        }
+      }
+    }
+  }
+}

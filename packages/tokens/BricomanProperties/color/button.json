@@ -5,19 +5,35 @@
         "background": {
           "value": "{color.primary-01.900.value}"
         },
-        "hover": {
+        "active": {
           "background": {
             "value": "{color.primary-01.700.value}"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.primary-01.800.value}"
           }
         }
       },
       "solid-primary-02": {
         "background": {
-          "value": "{color.primary-02.400.value}"
+          "value": "{color.primary-02.300.value}"
+        },
+        "font": {
+          "value": "{color.primary-01.900.value}"
+        },
+        "active": {
+          "background": {
+            "value": "{color.primary-02.500.value}"
+          }
         },
         "hover": {
           "background": {
-            "value": "{color.primary-02.600.value}"
+            "value": "{color.primary-02.400.value}"
+          },
+          "font": {
+            "value": "{color.primary-01.900.value}"
           }
         }
       },
@@ -30,6 +46,22 @@
         },
         "font": {
           "value": "{color.primary-01.900.value}"
+        },
+        "active": {
+          "background": {
+            "value": "{color.primary-01.200.value}"
+          },
+          "font": {
+            "value": "{color.primary-01.900.value}"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.primary-01.100.value}"
+          },
+          "font": {
+            "value": "{color.primary-01.900.value}"
+          }
         }
       },
       "bordered-primary-02": {
@@ -37,10 +69,20 @@
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.primary-02.400.value}"
+          "value": "{color.primary-02.600.value}"
         },
         "font": {
-          "value": "{color.primary-02.400.value}"
+          "value": "{color.primary-02.600.value}"
+        },
+        "active": {
+          "background": {
+            "value": "{color.primary-02.200.value}"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.primary-02.100.value}"
+          }
         }
       }
     }
