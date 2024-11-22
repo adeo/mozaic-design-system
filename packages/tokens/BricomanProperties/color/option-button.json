@@ -1,0 +1,16 @@
+{
+  "color": {
+    "option-button": {
+      "checked": {
+        "label": {
+          "border": {
+            "value": "{color.primary-02.300.value}"
+          },
+          "shadow": {
+            "value": "{color.primary-02.100.value}"
+          }
+        }
+      }
+    }
+  }
+}

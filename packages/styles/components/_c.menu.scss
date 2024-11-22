@@ -92,7 +92,9 @@
     }
 
     &.is-active {
-      background-color: $color-primary-01-600;
+      background-color: $color-menu-is-active;
+      background-image: url("#{inline-icons('arrow-right-16', $color-menu-text-active)}");
+      color: $color-menu-text-active;
 
       #{$parent} {
         &__label {

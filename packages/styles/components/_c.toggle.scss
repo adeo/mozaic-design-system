@@ -25,11 +25,10 @@
 
         &::after {
           border-color: $color-toggle-on-background;
-          background-image: url(
-            inline-icons(
-              "notification-available-16",
-              $color-toggle-on-background
-            ));
+          background-image: url(inline-icons(
+            "notification-available-16",
+            $color-toggle-on-icon
+          ));
           transform: translate(100%, -50%);
         }
 
@@ -61,11 +60,10 @@
         &::after {
           border-color: $color-toggle-disabled-background;
           background-color: $color-toggle-disabled-circle;
-          background-image: url(
-            inline-icons(
-              "control-cross-16",
-              $color-toggle-disabled-background
-            ));
+          background-image: url(inline-icons(
+            "control-cross-16",
+            $color-toggle-disabled-background
+          ));
           // cursor: not-allowed;
         }
       }
@@ -80,11 +78,10 @@
           &::after {
             border-color: $color-toggle-disabled-checked-background;
             background-color: $color-toggle-disabled-checked-circle;
-            background-image: url(
-              inline-icons(
-                "notification-available-16",
-                $color-toggle-disabled-checked-background
-              ));
+            background-image: url(inline-icons(
+              "notification-available-16",
+              $color-toggle-disabled-checked-background
+            ));
             background-size: $mu100;
             // cursor: not-allowed;
           }
@@ -131,7 +128,8 @@
     &::before {
       background-color: $color-toggle-off-background;
       will-change: background-color, border-color, box-shadow;
-      transition: background-color 100ms ease,
+      transition:
+        background-color 100ms ease,
         border-color 100ms ease,
         box-shadow 200ms ease;
     }
@@ -144,7 +142,9 @@
       background-size: $mu100;
       border: solid get-border("l") $color-toggle-off-background;
       will-change: transform;
-      transition: transform 100ms ease, border-color 100ms ease;
+      transition:
+        transform 100ms ease,
+        border-color 100ms ease;
     }
   }
 

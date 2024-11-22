@@ -19,7 +19,7 @@
     background-color: $color-grey-000;
     border: none;
     border-radius: get-border-radius("m");
-    color: $color-grey-999;
+    color: $color-segmented-control-text-default;
     cursor: pointer;
     flex: 1 1 0;
     font-family: inherit;
@@ -46,7 +46,6 @@
         }
       }
     }
-
     &:focus {
       @include set-focus-floating($before: true) {
         box-shadow: 0 0 0 $size-focus-border-thin $color-focus-border;
@@ -59,6 +58,7 @@
       #{$parent} {
         &__content {
           background-color: $color-segmented-control-active;
+          color: $color-segmented-control-text-active;
         }
       }
     }
@@ -68,6 +68,7 @@
       #{$parent} {
         &__content {
           background-color: $color-segmented-control-is-active;
+          color: $color-segmented-control-text-active;
         }
 
         &__label {
@@ -80,7 +81,7 @@
             height: $mu100;
             background-image: url(inline-icons(
               "notification-available-16",
-              $color-grey-000
+              $color-segmented-control-text-active
             ));
           }
         }

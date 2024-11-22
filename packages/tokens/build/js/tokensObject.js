@@ -7169,6 +7169,29 @@ module.exports = {
           "menu",
           "active"
         ]
+      },
+      "text": {
+        "active": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/menu.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorMenuTextActive",
+          "attributes": {
+            "category": "color",
+            "type": "menu",
+            "item": "text",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "menu",
+            "text",
+            "active"
+          ]
+        }
       }
     },
     "notification": {
@@ -8037,6 +8060,50 @@ module.exports = {
           "segmented-control",
           "active"
         ]
+      },
+      "text": {
+        "default": {
+          "value": "#000000",
+          "filePath": "packages/tokens/properties/color/segmented-control.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorSegmentedControlTextDefault",
+          "attributes": {
+            "category": "color",
+            "type": "segmented-control",
+            "item": "text",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "segmented-control",
+            "text",
+            "default"
+          ]
+        },
+        "active": {
+          "value": "#ffffff",
+          "filePath": "packages/tokens/properties/color/segmented-control.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorSegmentedControlTextActive",
+          "attributes": {
+            "category": "color",
+            "type": "segmented-control",
+            "item": "text",
+            "subitem": "active"
+          },
+          "path": [
+            "color",
+            "segmented-control",
+            "text",
+            "active"
+          ]
+        }
       }
     },
     "sidebar": {
@@ -10250,6 +10317,27 @@ module.exports = {
             "toggle",
             "on",
             "circle"
+          ]
+        },
+        "icon": {
+          "value": "#46a610",
+          "filePath": "packages/tokens/properties/color/toggle.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorToggleOnIcon",
+          "attributes": {
+            "category": "color",
+            "type": "toggle",
+            "item": "on",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "toggle",
+            "on",
+            "icon"
           ]
         }
       },

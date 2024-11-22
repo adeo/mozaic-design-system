@@ -1,0 +1,50 @@
+{
+  "color": {
+    "flag": {
+      "solid": {
+        "background": {
+          "value": "{color.primary-01.900.value}"
+        },
+        "border": {
+          "value": "{color.primary-01.900.value}"
+        },
+        "text": {
+          "value": "{color.grey.000.value}"
+        }
+      },
+      "solid-primary-02": {
+        "background": {
+          "value": "{color.primary-02.300.value}"
+        },
+        "border": {
+          "value": "{color.primary-02.300.value}"
+        },
+        "text": {
+          "value": "{color.primary-01.900.value}"
+        }
+      },
+      "bordered": {
+        "background": {
+          "value": "{color.grey.000.value}"
+        },
+        "border": {
+          "value": "{color.primary-01.900.value}"
+        },
+        "text": {
+          "value": "{color.primary-01.900.value}"
+        }
+      },
+      "bordered-primary-02": {
+        "background": {
+          "value": "{color.grey.000.value}"
+        },
+        "border": {
+          "value": "{color.primary-02.600.value}"
+        },
+        "text": {
+          "value": "{color.primary-02.600.value}"
+        }
+      }
+    }
+  }
+}
