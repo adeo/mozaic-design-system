@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.79.0](https://github.com/adeo/mozaic-design-system/compare/v1.78.0...v1.79.0) (2024-11-22)
+
+### Features
+
+- **icons:** remove przeleszw icon ([#1620](https://github.com/adeo/mozaic-design-system/issues/1620)) ([7ff8803](https://github.com/adeo/mozaic-design-system/commit/7ff8803fab93d579223b0e85a3ecf7711a6c44c0))
+- **tools/tokens:** update Bricoman preset ([#1624](https://github.com/adeo/mozaic-design-system/issues/1624)) ([e40d0df](https://github.com/adeo/mozaic-design-system/commit/e40d0df7fb29866c643724a47da020056539e938))
+
 # [1.78.0](https://github.com/adeo/mozaic-design-system/compare/v1.77.0...v1.78.0) (2024-10-22)
 
 ### Features
