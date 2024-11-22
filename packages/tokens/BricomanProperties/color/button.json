@@ -2,7 +2,7 @@
   "color": {
     "button": {
       "solid": {
-                "background": {
+        "background": {
           "value": "{color.primary-02.300.value}"
         },
         "font": {
@@ -35,7 +35,6 @@
           "background": {
             "value": "{color.primary-01.800.value}"
           }
-        }
         }
       },
       "bordered": {
