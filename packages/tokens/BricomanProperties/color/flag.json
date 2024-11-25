@@ -3,46 +3,48 @@
     "flag": {
       "solid": {
         "background": {
-          "value": "{color.primary-01.900.value}"
+          "value": "{color.primary-02.300.value}"
         },
         "border": {
-          "value": "{color.primary-01.900.value}"
+          "value": "{color.primary-02.300.value}"
         },
         "text": {
-          "value": "{color.grey.000.value}"
+          "value": "{color.primary-01.900.value}"
         }
+        
       },
       "solid-primary-02": {
         "background": {
-          "value": "{color.primary-02.300.value}"
+          "value": "{color.primary-01.900.value}"
         },
         "border": {
-          "value": "{color.primary-02.300.value}"
+          "value": "{color.primary-01.900.value}"
         },
         "text": {
-          "value": "{color.primary-01.900.value}"
+          "value": "{color.grey.000.value}"
         }
       },
       "bordered": {
-        "background": {
+         "background": {
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.primary-01.900.value}"
+          "value": "{color.primary-02.600.value}"
         },
         "text": {
-          "value": "{color.primary-01.900.value}"
+          "value": "{color.primary-02.600.value}"
         }
+        
       },
       "bordered-primary-02": {
         "background": {
           "value": "{color.grey.000.value}"
         },
         "border": {
-          "value": "{color.primary-02.600.value}"
+          "value": "{color.primary-01.900.value}"
         },
         "text": {
-          "value": "{color.primary-02.600.value}"
+          "value": "{color.primary-01.900.value}"
         }
       }
     }
