@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.80.0](https://github.com/adeo/mozaic-design-system/compare/v1.79.0...v1.80.0) (2024-11-25)
+
+### Features
+
+- **tools/tokens:** update Bricoman preset for Button and Flag ([#1625](https://github.com/adeo/mozaic-design-system/issues/1625)) ([4ef0304](https://github.com/adeo/mozaic-design-system/commit/4ef03046b85985dc7d08575f95ba289d64700c0a))
+
 # [1.79.0](https://github.com/adeo/mozaic-design-system/compare/v1.78.0...v1.79.0) (2024-11-22)
 
 ### Features
