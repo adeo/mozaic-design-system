@@ -1,0 +1,45 @@
+{
+  "color": {
+    "stepper": {
+      "item": {
+        "background": {
+          "value": "{color.grey.400.value}"
+        },
+        "current": {
+          "background": {
+            "value": "{color.primary-01.800.value}"
+          }
+        }
+      },
+      "link": {
+        "hover": {
+          "text": {
+            "value": "{color.grey.999.value}"
+          }
+        }
+      },
+      "indicator": {
+        "background": {
+          "value": "{color.grey.000.value}"
+        },
+        "border": {
+          "value": "{color.grey.400.value}"
+        },
+        "current": {
+          "background": {
+            "value": "{color.primary-01.800.value}"
+          },
+          "border": {
+            "value": "{color.primary-01.800.value}"
+          }
+        }
+      },
+      "icon": {
+        "value": "{color.primary-01.800.value}"
+      },
+      "title": {
+        "value": "{color.primary-01.800.value}"
+      }
+    }
+  }
+}
