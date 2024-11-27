@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.81.0](https://github.com/adeo/mozaic-design-system/compare/v1.80.0...v1.81.0) (2024-11-27)
+
+**Note:** Version bump only for package @mozaic-ds/styles
+
 # [1.80.0](https://github.com/adeo/mozaic-design-system/compare/v1.79.0...v1.80.0) (2024-11-25)
 
 **Note:** Version bump only for package @mozaic-ds/styles
