@@ -38,7 +38,7 @@
         }
       },
       "bordered": {
-         "background": {
+        "background": {
           "value": "{color.grey.000.value}"
         },
         "border": {
@@ -50,11 +50,17 @@
         "active": {
           "background": {
             "value": "{color.primary-02.200.value}"
+          },
+          "font": {
+            "value": "{color.primary-02.600.value}"
           }
         },
         "hover": {
           "background": {
             "value": "{color.primary-02.100.value}"
+          },
+          "font": {
+            "value": "{color.primary-02.600.value}"
           }
         }
       },
