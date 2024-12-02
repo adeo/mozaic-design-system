@@ -25,7 +25,6 @@ const query = graphql`
             title
             order
             status {
-              sketch
               scss
               figma
             }
@@ -53,7 +52,6 @@ const query = graphql`
             title
             order
             status {
-              sketch
               scss
               figma
             }
