@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.82.0](https://github.com/adeo/mozaic-design-system/compare/v1.81.0...v1.82.0) (2024-12-18)
+
+### Features
+
+- **icons:** add lmes oney ([#1627](https://github.com/adeo/mozaic-design-system/issues/1627)) ([639ac26](https://github.com/adeo/mozaic-design-system/commit/639ac2638419859d04317732bb0933e04e8d247c))
+
 # [1.79.0](https://github.com/adeo/mozaic-design-system/compare/v1.78.0...v1.79.0) (2024-11-22)
 
 ### Features
