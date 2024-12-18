@@ -203,6 +203,14 @@
     {
       "cat": "Payment",
       "size": "24px",
+      "name": "Cards_Colors_Oney-LMES-legacy",
+      "fileName": "Payment_Cards_Colors_Oney-LMES-legacy_24px.svg",
+      "iconName": "CardsColorsOneyLMESlegacy",
+      "componentName": "CardsColorsOneyLMESlegacy24"
+    },
+    {
+      "cat": "Payment",
+      "size": "24px",
       "name": "Cards_Colors_OneyX3",
       "fileName": "Payment_Cards_Colors_OneyX3_24px.svg",
       "iconName": "CardsColorsOneyX3",
@@ -463,6 +471,14 @@
       "fileName": "Payment_Cards_Colors_Oney-LMES_32px.svg",
       "iconName": "CardsColorsOneyLMES",
       "componentName": "CardsColorsOneyLMES32"
+    },
+    {
+      "cat": "Payment",
+      "size": "32px",
+      "name": "Cards_Colors_Oney-LMES-legacy",
+      "fileName": "Payment_Cards_Colors_Oney-LMES-legacy_32px.svg",
+      "iconName": "CardsColorsOneyLMESlegacy",
+      "componentName": "CardsColorsOneyLMESlegacy32"
     },
     {
       "cat": "Payment",
@@ -731,6 +747,14 @@
     {
       "cat": "Payment",
       "size": "48px",
+      "name": "Cards_Colors_Oney-LMES-legacy",
+      "fileName": "Payment_Cards_Colors_Oney-LMES-legacy_48px.svg",
+      "iconName": "CardsColorsOneyLMESlegacy",
+      "componentName": "CardsColorsOneyLMESlegacy48"
+    },
+    {
+      "cat": "Payment",
+      "size": "48px",
       "name": "Cards_Colors_OneyX3",
       "fileName": "Payment_Cards_Colors_OneyX3_48px.svg",
       "iconName": "CardsColorsOneyX3",
@@ -991,6 +1015,14 @@
       "fileName": "Payment_Cards_Colors_Oney-LMES_64px.svg",
       "iconName": "CardsColorsOneyLMES",
       "componentName": "CardsColorsOneyLMES64"
+    },
+    {
+      "cat": "Payment",
+      "size": "64px",
+      "name": "Cards_Colors_Oney-LMES-legacy",
+      "fileName": "Payment_Cards_Colors_Oney-LMES-legacy_64px.svg",
+      "iconName": "CardsColorsOneyLMESlegacy",
+      "componentName": "CardsColorsOneyLMESlegacy64"
     },
     {
       "cat": "Payment",
