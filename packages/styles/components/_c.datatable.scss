@@ -176,8 +176,8 @@
       &__table {
         > tbody {
           > tr:last-child {
-            th,
-            td {
+            > th,
+            > td {
               border-bottom: transparent;
             }
           }
