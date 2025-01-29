@@ -2109,6 +2109,11 @@
     "@lezer/lr" "^1.0.0"
     json5 "^2.2.1"
 
+"@mozaic-ds/postcss-prepend@^1.75.0":
+  version "1.75.0"
+  resolved "https://registry.npmjs.org/@mozaic-ds/postcss-prepend/-/postcss-prepend-1.75.0.tgz#de2c21ae160d05536789a5210aad698c903fc73d"
+  integrity sha512-x3CliP6ViyK5/rVthAcXRr7nkvykFOL9XpJsBlBCicwT8961Y6qO6BfQrD4OACQ3pzjojSK+5J49KIDfxlQbjg==
+
 "@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3":
   version "3.0.3"
   resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-darwin-arm64/-/msgpackr-extract-darwin-arm64-3.0.3.tgz#9edec61b22c3082018a79f6d1c30289ddf3d9d11"
