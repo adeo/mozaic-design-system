@@ -906,7 +906,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.24.7"
 
-"@babel/plugin-transform-runtime@^7.19.6", "@babel/plugin-transform-runtime@^7.24.7":
+"@babel/plugin-transform-runtime@^7.19.6":
   version "7.24.7"
   resolved "https://registry.npmjs.org/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.24.7.tgz#00a5bfaf8c43cf5c8703a8a6e82b59d9c58f38ca"
   integrity sha512-YqXjrk4C+a1kZjewqt+Mmu2UuV1s07y8kqcUf4qYLnoqemhR4gRQikhdAhSVJioMjVTu6Mo6pAbaypEA3jY6fw==
@@ -2108,6 +2108,11 @@
     "@lezer/common" "^1.0.0"
     "@lezer/lr" "^1.0.0"
     json5 "^2.2.1"
+
+"@mozaic-ds/postcss-media-queries-packer-on-demand@^1.75.0":
+  version "1.75.0"
+  resolved "https://registry.npmjs.org/@mozaic-ds/postcss-media-queries-packer-on-demand/-/postcss-media-queries-packer-on-demand-1.75.0.tgz#1d57187a96af9598b6962bed912be7fe3ea2037c"
+  integrity sha512-kR2SqClemKCTnSQYAoALQ0RabcnVdCthCfCXsMCRykXDhSeJG74hEFGAwiIXHGyMv5glAdMjsFEiBM0caDwhlA==
 
 "@mozaic-ds/postcss-prepend@^1.75.0":
   version "1.75.0"
