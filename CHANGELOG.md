@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.83.0-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.82.0...v1.83.0-beta.0) (2025-02-20)
+
+### Bug Fixes
+
+- **component/datatable:** last nested data table must have delimited rows ([#1629](https://github.com/adeo/mozaic-design-system/issues/1629)) ([22311c3](https://github.com/adeo/mozaic-design-system/commit/22311c3c6928f29a81cec63c22b5f02318f371cb))
+
+### Features
+
+- **icons:** add id for each icon ([d184386](https://github.com/adeo/mozaic-design-system/commit/d184386b08d89fb1d0baf80ee586193d3df91d5f))
+
 # [1.82.0](https://github.com/adeo/mozaic-design-system/compare/v1.81.0...v1.82.0) (2024-12-18)
 
 ### Features
