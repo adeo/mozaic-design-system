@@ -91,6 +91,14 @@ const saveIcon = ({ data, file }, outputPath) =>
     })
   })
 
+const addIds = ({ data, file }) =>
+  new Promise((resolve, reject) => {
+    const fileName = path.basename(file)
+    const id = fileName.split('.').slice(0, -1).join('.')
+    data = data.replace('<svg', `<svg id="${id}"`)
+    resolve({ data, file })
+  })
+
 const main = (key, { SVGOPlugins, custom }) => {
   const sourcePath = config.sourcePaths[key]
   const outputPath = config.outputPaths[key]
@@ -101,11 +109,14 @@ const main = (key, { SVGOPlugins, custom }) => {
       .then((icons) => Promise.all(icons.map((icon) => readIcon(icon))))
       .then((icons) =>
         Promise.all(
-          icons.map((icon) => optimizeIcon(icon, SVGOPlugins, custom))
-        )
+          icons.map((icon) => optimizeIcon(icon, SVGOPlugins, custom)),
+        ),
       )
       .then((icons) =>
-        Promise.all(icons.map((icon) => saveIcon(icon, outputPath)))
+        Promise.all(icons.map((icon) => addIds(icon, outputPath))),
+      )
+      .then((icons) =>
+        Promise.all(icons.map((icon) => saveIcon(icon, outputPath))),
       )
       .then((icons) => resolve(icons))
       .catch((err) => reject(err))

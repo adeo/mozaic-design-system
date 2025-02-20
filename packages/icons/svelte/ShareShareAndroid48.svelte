@@ -7,4 +7,4 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M38 32a6 6 0 00-4.52 2.06l-17.61-8.8a6.17 6.17 0 000-2.52l17.61-8.8A6 6 0 1032 10a6.57 6.57 0 00.13 1.26l-17.61 8.8a6 6 0 100 7.88l17.61 8.8A6.57 6.57 0 0032 38a6 6 0 106-6z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Social_Share_ShareAndroid_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M38 32a6 6 0 00-4.52 2.06l-17.61-8.8a6.17 6.17 0 000-2.52l17.61-8.8A6 6 0 1032 10a6.57 6.57 0 00.13 1.26l-17.61 8.8a6 6 0 100 7.88l17.61 8.8A6.57 6.57 0 0032 38a6 6 0 106-6z"/></svg>

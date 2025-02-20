@@ -7,4 +7,4 @@
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 23a6 6 0 116-6 6 6 0 01-6 6zm0-10a4 4 0 104 4 4 4 0 00-4-4z"/><path d="M20.24 7l1.66 1.48a4 4 0 002.66 1H27V25H5V9.5h2.44a4 4 0 002.66-1L11.76 7h8.48m0-2h-8.48a2 2 0 00-1.33.51L8.77 7a2 2 0 01-1.33.51H5a2 2 0 00-2 2V25a2 2 0 002 2h22a2 2 0 002-2V9.5a2 2 0 00-2-2h-2.44a2 2 0 01-1.33-.5l-1.66-1.49A2 2 0 0020.24 5z"/><path d="M8 13a1 1 0 110-2 1 1 0 010 2z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Media_Camera_32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 23a6 6 0 116-6 6 6 0 01-6 6zm0-10a4 4 0 104 4 4 4 0 00-4-4z"/><path d="M20.24 7l1.66 1.48a4 4 0 002.66 1H27V25H5V9.5h2.44a4 4 0 002.66-1L11.76 7h8.48m0-2h-8.48a2 2 0 00-1.33.51L8.77 7a2 2 0 01-1.33.51H5a2 2 0 00-2 2V25a2 2 0 002 2h22a2 2 0 002-2V9.5a2 2 0 00-2-2h-2.44a2 2 0 01-1.33-.5l-1.66-1.49A2 2 0 0020.24 5z"/><path d="M8 13a1 1 0 110-2 1 1 0 010 2z"/></svg>
