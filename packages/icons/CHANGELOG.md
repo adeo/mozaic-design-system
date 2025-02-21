@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.83.0](https://github.com/adeo/mozaic-design-system/compare/v1.82.0...v1.83.0) (2025-02-21)
+
+### Features
+
+- **icons:** add id for each icon ([#1633](https://github.com/adeo/mozaic-design-system/issues/1633)) ([2eb172f](https://github.com/adeo/mozaic-design-system/commit/2eb172ffa48fcc2bb89c7b8454ca38187c361754))
+
 # [1.83.0-beta.0](https://github.com/adeo/mozaic-design-system/compare/v1.82.0...v1.83.0-beta.0) (2025-02-20)
 
 ### Features
