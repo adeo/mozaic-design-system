@@ -7,4 +7,4 @@
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M9.89 6v36a2 2 0 002 2h24a2 2 0 002-2V6a2 2 0 00-2-2h-24a2 2 0 00-2 2zm25 1v7.5h-22V7zm-22 34V17.47h22V41z"/><path d="M30.89 24h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z"/><circle cx="16.89" cy="25.47" r="1.5"/><path d="M30.89 32h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z"/><circle cx="16.89" cy="33.47" r="1.5"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Product_Promise_ProductSheet_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M9.89 6v36a2 2 0 002 2h24a2 2 0 002-2V6a2 2 0 00-2-2h-24a2 2 0 00-2 2zm25 1v7.5h-22V7zm-22 34V17.47h22V41z"/><path d="M30.89 24h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z"/><circle cx="16.89" cy="25.47" r="1.5"/><path d="M30.89 32h-9.5a1.5 1.5 0 000 3h9.5a1.5 1.5 0 000-3z"/><circle cx="16.89" cy="33.47" r="1.5"/></svg>
