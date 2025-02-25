@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Payment_Receipt-zloty_24px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Payment_Receipt-zloty_24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8 3a1 1 0 011-1h10a1 1 0 011 1v16.5a2.5 2.5 0 01-2.5 2.5H6.52A2.52 2.52 0 014 19.48V17a1 1 0 011-1h3V3zM6 19.48V18h9v1.5c0 .171.017.338.05.5H6.52a.52.52 0 01-.52-.52zM16 16h-6V4h8v15.5a.5.5 0 01-1 0V17a1 1 0 00-1-1zm-.428-3.962c.29.308.693.462 1.207.462l.054-1.043a.607.607 0 01-.514-.25c-.124-.166-.187-.394-.187-.683V9.102l.655-.259V7.809l-.655.258V5.5h-.997v2.964l-.498.204v1.034l.498-.203v1.237c0 .554.146.988.437 1.302zm-2.5-3.518L11 11.475l.008.951h3.373v-1.053h-2.158l2.064-3.029v-.877h-3.248V8.52h2.033z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8 3a1 1 0 011-1h10a1 1 0 011 1v16.5a2.5 2.5 0 01-2.5 2.5H6.52A2.52 2.52 0 014 19.48V17a1 1 0 011-1h3V3zM6 19.48V18h9v1.5c0 .171.017.338.05.5H6.52a.52.52 0 01-.52-.52zM16 16h-6V4h8v15.5a.5.5 0 01-1 0V17a1 1 0 00-1-1zm-.428-3.962c.29.308.693.462 1.207.462l.054-1.043a.607.607 0 01-.514-.25c-.124-.166-.187-.394-.187-.683V9.102l.655-.259V7.809l-.655.258V5.5h-.997v2.964l-.498.204v1.034l.498-.203v1.237c0 .554.146.988.437 1.302zm-2.5-3.518L11 11.475l.008.951h3.373v-1.053h-2.158l2.064-3.029v-.877h-3.248V8.52h2.033z"/></svg>

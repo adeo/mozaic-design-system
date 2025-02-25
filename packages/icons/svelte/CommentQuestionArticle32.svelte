@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Social_Comment_Question--Article_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Social_Comment_Question--Article_32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M3 5v18a2 2 0 002 2h6v3.13a1 1 0 001.55.83l5.95-4H27a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2zm24 18h-9.11L13 26.26V23H5V5h22z"/><path d="M13 12.5a1 1 0 001-1 2 2 0 012.37-2 2 2 0 011.6 1.6 2 2 0 01-1.21 2.22A2.91 2.91 0 0015 16.08v.42a1 1 0 002 0v-.42a.93.93 0 01.53-.88 4 4 0 002.41-4.42 4 4 0 00-6.51-2.34A4 4 0 0012 11.5a1 1 0 001 1zM15.29 18.79a1 1 0 00-.29.71 1 1 0 001.38.92 1.15 1.15 0 00.33-.21 1 1 0 00.29-.71 1 1 0 00-1.71-.71z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M3 5v18a2 2 0 002 2h6v3.13a1 1 0 001.55.83l5.95-4H27a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2zm24 18h-9.11L13 26.26V23H5V5h22z"/><path d="M13 12.5a1 1 0 001-1 2 2 0 012.37-2 2 2 0 011.6 1.6 2 2 0 01-1.21 2.22A2.91 2.91 0 0015 16.08v.42a1 1 0 002 0v-.42a.93.93 0 01.53-.88 4 4 0 002.41-4.42 4 4 0 00-6.51-2.34A4 4 0 0012 11.5a1 1 0 001 1zM15.29 18.79a1 1 0 00-.29.71 1 1 0 001.38.92 1.15 1.15 0 00.33-.21 1 1 0 00.29-.71 1 1 0 00-1.71-.71z"/></svg>

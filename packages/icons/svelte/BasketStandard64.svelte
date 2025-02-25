@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Product_Basket_Standard_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Product_Basket_Standard_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M55.93 18.82a2 2 0 00-1.61-.82h-38l-1.74-6.52A2 2 0 0012.62 10H6.5a1.5 1.5 0 000 3h5.35l7.6 28.52A2 2 0 0021.38 43h26.25a2 2 0 001.91-1.39l6.68-21a2 2 0 00-.29-1.79zM46.9 40H22.15l-5.06-19H53zM25 47a6 6 0 106 6 6 6 0 00-6-6zm0 9a3 3 0 113-3 3 3 0 01-3 3zM44 47a6 6 0 106 6 6 6 0 00-6-6zm0 9a3 3 0 113-3 3 3 0 01-3 3z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M55.93 18.82a2 2 0 00-1.61-.82h-38l-1.74-6.52A2 2 0 0012.62 10H6.5a1.5 1.5 0 000 3h5.35l7.6 28.52A2 2 0 0021.38 43h26.25a2 2 0 001.91-1.39l6.68-21a2 2 0 00-.29-1.79zM46.9 40H22.15l-5.06-19H53zM25 47a6 6 0 106 6 6 6 0 00-6-6zm0 9a3 3 0 113-3 3 3 0 01-3 3zM44 47a6 6 0 106 6 6 6 0 00-6-6zm0 9a3 3 0 113-3 3 3 0 01-3 3z"/></svg>

@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Social_View_Star--Half_16px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "1rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Social_View_Star--Half_16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.906 2.077a1 1 0 00-1.812 0L5.558 5.37l-3.254.65a1 1 0 00-.437 1.755l2.296 1.879-.648 3.673a1 1 0 001.566.988L8 12.229l2.919 2.085a1 1 0 001.566-.988l-.648-3.673 2.296-1.879a1 1 0 00-.437-1.755l-3.254-.65-1.536-3.292zM8 4.865V9.77l.581.415 1.509 1.078-.325-1.84-.102-.577.454-.371 1.112-.91-1.675-.335-.496-.1-.214-.458L8 4.865z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.906 2.077a1 1 0 00-1.812 0L5.558 5.37l-3.254.65a1 1 0 00-.437 1.755l2.296 1.879-.648 3.673a1 1 0 001.566.988L8 12.229l2.919 2.085a1 1 0 001.566-.988l-.648-3.673 2.296-1.879a1 1 0 00-.437-1.755l-3.254-.65-1.536-3.292zM8 4.865V9.77l.581.415 1.509 1.078-.325-1.84-.102-.577.454-.371 1.112-.91-1.675-.335-.496-.1-.214-.458L8 4.865z"/></svg>

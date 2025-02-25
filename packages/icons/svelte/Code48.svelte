@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Media_Code_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Media_Code_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M29.442 10.412a1.5 1.5 0 00-2.884-.824l-8 28a1.5 1.5 0 002.884.824l8-28zm-16.381 6.527a1.5 1.5 0 010 2.122L8.12 24l4.94 4.94a1.5 1.5 0 01-2.122 2.12l-6-6a1.5 1.5 0 010-2.12l6-6a1.5 1.5 0 012.122 0zm21.878 0a1.5 1.5 0 012.122 0l6 6a1.5 1.5 0 010 2.122l-6 6a1.5 1.5 0 01-2.122-2.122L39.88 24l-4.94-4.938a1.5 1.5 0 010-2.122z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M29.442 10.412a1.5 1.5 0 00-2.884-.824l-8 28a1.5 1.5 0 002.884.824l8-28zm-16.381 6.527a1.5 1.5 0 010 2.122L8.12 24l4.94 4.94a1.5 1.5 0 01-2.122 2.12l-6-6a1.5 1.5 0 010-2.12l6-6a1.5 1.5 0 012.122 0zm21.878 0a1.5 1.5 0 012.122 0l6 6a1.5 1.5 0 010 2.122l-6 6a1.5 1.5 0 01-2.122-2.122L39.88 24l-4.94-4.938a1.5 1.5 0 010-2.122z"/></svg>

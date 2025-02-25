@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Universe_Carpentry_24px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Universe_Carpentry_24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.75 13H19v-2.75A1.25 1.25 0 0017.75 9H16V6.25A1.25 1.25 0 0014.75 5h-5.5A1.25 1.25 0 008 6.25V9H6.25A1.25 1.25 0 005 10.25V13H3.25A1.25 1.25 0 002 14.25v3.5A1.25 1.25 0 003.25 19h17.5A1.25 1.25 0 0022 17.75v-3.5A1.25 1.25 0 0020.75 13zM17 11v2h-4v-2h4zm-7-4h4v2h-4zm-3 4h4v2H7zm1 6H4v-2h4zm6 0h-4v-2h4zm6 0h-4v-2h4z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.75 13H19v-2.75A1.25 1.25 0 0017.75 9H16V6.25A1.25 1.25 0 0014.75 5h-5.5A1.25 1.25 0 008 6.25V9H6.25A1.25 1.25 0 005 10.25V13H3.25A1.25 1.25 0 002 14.25v3.5A1.25 1.25 0 003.25 19h17.5A1.25 1.25 0 0022 17.75v-3.5A1.25 1.25 0 0020.75 13zM17 11v2h-4v-2h4zm-7-4h4v2h-4zm-3 4h4v2H7zm1 6H4v-2h4zm6 0h-4v-2h4zm6 0h-4v-2h4z"/></svg>
