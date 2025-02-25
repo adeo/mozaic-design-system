@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Media_Push-pin-off_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Media_Push-pin-off_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M7.06 4.94a1.5 1.5 0 10-2.12 2.12L16.378 18.5H12a1.5 1.5 0 00-1.06.44l-2 2a1.5 1.5 0 000 2.12L15.878 30l-6.94 6.94a1.5 1.5 0 002.122 2.12L18 32.122l6.94 6.94a1.5 1.5 0 002.12 0l2-2A1.5 1.5 0 0029.5 36v-4.379l11.44 11.44a1.5 1.5 0 002.12-2.122l-36-36zm19.82 24.062l-7.882-7.882c-.265.236-.615.38-.998.38h-5.379l-.5.5 6.94 6.939L26 35.88l.5-.5V30c0-.383.144-.733.38-.998zm.06-24.063a1.5 1.5 0 012.12 0l2 2 10 10 2 2a1.5 1.5 0 01-2.12 2.122l-.94-.94-4.94 4.94L34 26.12 31.879 24l1.06-1.06L37.88 18 30 10.121l-4.94 4.94L24 16.12 21.879 14l1.06-1.06L27.88 8l-.94-.94a1.5 1.5 0 010-2.12z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M7.06 4.94a1.5 1.5 0 10-2.12 2.12L16.378 18.5H12a1.5 1.5 0 00-1.06.44l-2 2a1.5 1.5 0 000 2.12L15.878 30l-6.94 6.94a1.5 1.5 0 002.122 2.12L18 32.122l6.94 6.94a1.5 1.5 0 002.12 0l2-2A1.5 1.5 0 0029.5 36v-4.379l11.44 11.44a1.5 1.5 0 002.12-2.122l-36-36zm19.82 24.062l-7.882-7.882c-.265.236-.615.38-.998.38h-5.379l-.5.5 6.94 6.939L26 35.88l.5-.5V30c0-.383.144-.733.38-.998zm.06-24.063a1.5 1.5 0 012.12 0l2 2 10 10 2 2a1.5 1.5 0 01-2.12 2.122l-.94-.94-4.94 4.94L34 26.12 31.879 24l1.06-1.06L37.88 18 30 10.121l-4.94 4.94L24 16.12 21.879 14l1.06-1.06L27.88 8l-.94-.94a1.5 1.5 0 010-2.12z"/></svg>

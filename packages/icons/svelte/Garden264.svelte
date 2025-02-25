@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Universe_Garden2_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Universe_Garden2_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M42.5 11c-.49 0-1 0-1.5.08A13 13 0 0017 18v.54a11.5 11.5 0 1011.5 19.2V57.5a1.5 1.5 0 003 0V45.62l4.89-4.89A15.49 15.49 0 1042.5 11zm-11 30.38v-4a16.26 16.26 0 002.16 1.82zm11-2.38a12.62 12.62 0 01-3.79-.59l3.85-3.85a1.5 1.5 0 00-2.12-2.12l-4.62 4.62a12.39 12.39 0 01-4.32-4.67V21.5a1.5 1.5 0 00-3 0v10.83a8.49 8.49 0 11-9.58-11.18l1.41-.26-.21-1.43A10.2 10.2 0 0120 18a10 10 0 0118.87-4.6l.5 1 1.08-.18a12.74 12.74 0 012-.18 12.5 12.5 0 010 25z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M42.5 11c-.49 0-1 0-1.5.08A13 13 0 0017 18v.54a11.5 11.5 0 1011.5 19.2V57.5a1.5 1.5 0 003 0V45.62l4.89-4.89A15.49 15.49 0 1042.5 11zm-11 30.38v-4a16.26 16.26 0 002.16 1.82zm11-2.38a12.62 12.62 0 01-3.79-.59l3.85-3.85a1.5 1.5 0 00-2.12-2.12l-4.62 4.62a12.39 12.39 0 01-4.32-4.67V21.5a1.5 1.5 0 00-3 0v10.83a8.49 8.49 0 11-9.58-11.18l1.41-.26-.21-1.43A10.2 10.2 0 0120 18a10 10 0 0118.87-4.6l.5 1 1.08-.18a12.74 12.74 0 012-.18 12.5 12.5 0 010 25z"/></svg>

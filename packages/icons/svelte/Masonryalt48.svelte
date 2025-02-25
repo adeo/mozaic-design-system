@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Universe_Masonry-alt_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Universe_Masonry-alt_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M38.65 7.255a1.5 1.5 0 00-1.044-2.583l-21.54.075a1.5 1.5 0 00-1.386 2.062l2.622 6.49-2.886 1.166a4.502 4.502 0 00-5.38-1.601l-3.709 1.498A4.5 4.5 0 108.7 22.707l3.708-1.498a4.502 4.502 0 002.758-4.89l2.886-1.165 2.622 6.49a1.5 1.5 0 002.43.52L38.648 7.256zM20.832 14.03l1.792 4.436 11.241-10.78-15.575.053 1.792 4.436 2.318-.936a1 1 0 01.75 1.854l-2.318.937zm-8.72 2.444a1.5 1.5 0 00-1.953-.829L6.45 17.144a1.5 1.5 0 001.124 2.781l3.709-1.498a1.5 1.5 0 00.828-1.953zM34 17.5a1.5 1.5 0 00-1.5 1.5v6.5H14a1.5 1.5 0 00-1.5 1.5v6.5H6A1.5 1.5 0 004.5 35v8A1.5 1.5 0 006 44.5h36a1.5 1.5 0 001.5-1.5V19a1.5 1.5 0 00-1.5-1.5h-8zm6.5 8h-5v-5h5v5zm-6.5 3h6.5v5h-11v-5H34zm1.5 8h5v5h-5v-5zm-3 0v5h-11v-5h11zm-14 0v5h-11v-5h11zm8-8v5h-11v-5h11z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill-rule="evenodd" d="M38.65 7.255a1.5 1.5 0 00-1.044-2.583l-21.54.075a1.5 1.5 0 00-1.386 2.062l2.622 6.49-2.886 1.166a4.502 4.502 0 00-5.38-1.601l-3.709 1.498A4.5 4.5 0 108.7 22.707l3.708-1.498a4.502 4.502 0 002.758-4.89l2.886-1.165 2.622 6.49a1.5 1.5 0 002.43.52L38.648 7.256zM20.832 14.03l1.792 4.436 11.241-10.78-15.575.053 1.792 4.436 2.318-.936a1 1 0 01.75 1.854l-2.318.937zm-8.72 2.444a1.5 1.5 0 00-1.953-.829L6.45 17.144a1.5 1.5 0 001.124 2.781l3.709-1.498a1.5 1.5 0 00.828-1.953zM34 17.5a1.5 1.5 0 00-1.5 1.5v6.5H14a1.5 1.5 0 00-1.5 1.5v6.5H6A1.5 1.5 0 004.5 35v8A1.5 1.5 0 006 44.5h36a1.5 1.5 0 001.5-1.5V19a1.5 1.5 0 00-1.5-1.5h-8zm6.5 8h-5v-5h5v5zm-6.5 3h6.5v5h-11v-5H34zm1.5 8h5v5h-5v-5zm-3 0v5h-11v-5h11zm-14 0v5h-11v-5h11zm8-8v5h-11v-5h11z"/></svg>

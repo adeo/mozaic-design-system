@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "User_Card_Loyalty-m_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="User_Card_Loyalty-m_32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill-rule="evenodd" d="M4 5.667a1 1 0 00-1 1v18.666a1 1 0 001 1h24a1 1 0 001-1V6.667a1 1 0 00-1-1H4zm1 18.666V7.667h22v16.666H5zm7.217-13.27l3.619 3.614c.09.09.237.09.328 0l3.62-3.614a.232.232 0 00-.165-.396h-7.238c-.207 0-.31.25-.164.396zm-2.214 10.004l1.285-8.554a.232.232 0 01.393-.13l4.155 4.149c.09.09.237.09.328 0l4.155-4.149a.232.232 0 01.393.13l1.285 8.554a.232.232 0 01-.23.266h-2.78a.232.232 0 01-.229-.199l-.37-2.588a.232.232 0 00-.394-.131l-1.83 1.827a.232.232 0 01-.328 0l-1.83-1.827a.232.232 0 00-.394.131l-.37 2.588a.232.232 0 01-.23.2h-2.78a.232.232 0 01-.23-.267z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill-rule="evenodd" d="M4 5.667a1 1 0 00-1 1v18.666a1 1 0 001 1h24a1 1 0 001-1V6.667a1 1 0 00-1-1H4zm1 18.666V7.667h22v16.666H5zm7.217-13.27l3.619 3.614c.09.09.237.09.328 0l3.62-3.614a.232.232 0 00-.165-.396h-7.238c-.207 0-.31.25-.164.396zm-2.214 10.004l1.285-8.554a.232.232 0 01.393-.13l4.155 4.149c.09.09.237.09.328 0l4.155-4.149a.232.232 0 01.393.13l1.285 8.554a.232.232 0 01-.23.266h-2.78a.232.232 0 01-.229-.199l-.37-2.588a.232.232 0 00-.394-.131l-1.83 1.827a.232.232 0 01-.328 0l-1.83-1.827a.232.232 0 00-.394.131l-.37 2.588a.232.232 0 01-.23.2h-2.78a.232.232 0 01-.23-.267z"/></svg>

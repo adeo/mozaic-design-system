@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "User_Account_Profile--View_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="User_Account_Profile--View_32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 16.68a6.84 6.84 0 116.84-6.84A6.85 6.85 0 0116 16.68zM16 5a4.84 4.84 0 104.84 4.84A4.84 4.84 0 0016 5zM21.8 18.41a1 1 0 00-.75.11 10 10 0 01-10.1 0 1 1 0 00-.75-.11l-4.45 1.16a1 1 0 00-.75 1V28a1 1 0 001 1h20a1 1 0 001-1v-7.46a1 1 0 00-.75-1zM25 27H7v-5.69l3.34-.87a12.12 12.12 0 0011.32 0l3.34.87z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 16.68a6.84 6.84 0 116.84-6.84A6.85 6.85 0 0116 16.68zM16 5a4.84 4.84 0 104.84 4.84A4.84 4.84 0 0016 5zM21.8 18.41a1 1 0 00-.75.11 10 10 0 01-10.1 0 1 1 0 00-.75-.11l-4.45 1.16a1 1 0 00-.75 1V28a1 1 0 001 1h20a1 1 0 001-1v-7.46a1 1 0 00-.75-1zM25 27H7v-5.69l3.34-.87a12.12 12.12 0 0011.32 0l3.34.87z"/></svg>

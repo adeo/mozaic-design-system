@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Universe_Kitchen-alt_24px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "1.5rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Universe_Kitchen-alt_24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.25 2a1 1 0 00-1 1v4.5H4.5a.5.5 0 000 1H12a.5.5 0 000-1h-.75V3a1 1 0 00-1-1h-4zm3 5.5V4h-2v3.5h2zM14 5a1 1 0 011-1h6a1 1 0 011 1v16a1 1 0 01-1 1H3a1 1 0 01-1-1v-7a1 1 0 011-1h1a1 1 0 011-1h6.5a1 1 0 011 1H14V5zm0 10v5H9.5v-5H14zm-5.5 0v5H4v-5h4.5zM20 20h-4v-9.5h4V20zm0-10.5h-4V6h4v3.5z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.25 2a1 1 0 00-1 1v4.5H4.5a.5.5 0 000 1H12a.5.5 0 000-1h-.75V3a1 1 0 00-1-1h-4zm3 5.5V4h-2v3.5h2zM14 5a1 1 0 011-1h6a1 1 0 011 1v16a1 1 0 01-1 1H3a1 1 0 01-1-1v-7a1 1 0 011-1h1a1 1 0 011-1h6.5a1 1 0 011 1H14V5zm0 10v5H9.5v-5H14zm-5.5 0v5H4v-5h4.5zM20 20h-4v-9.5h4V20zm0-10.5h-4V6h4v3.5z"/></svg>

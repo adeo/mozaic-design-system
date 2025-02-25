@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Navigation_Display_DisplayProductX4_Outline_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Navigation_Display_DisplayProductX4_Outline_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M19.24 7v12.24H7V7h12.24m1-3H6a2 2 0 00-2 2v14.24a2 2 0 002 2h14.24a2 2 0 002-2V6a2 2 0 00-2-2zM41 7v12.24H28.76V7H41m1-3H27.76a2 2 0 00-2 2v14.24a2 2 0 002 2H42a2 2 0 002-2V6a2 2 0 00-2-2zM19.24 28.76V41H7V28.76h12.24m1-3H6a2 2 0 00-2 2V42a2 2 0 002 2h14.24a2 2 0 002-2V27.76a2 2 0 00-2-2zM41 28.76V41H28.76V28.76H41m1-3H27.76a2 2 0 00-2 2V42a2 2 0 002 2H42a2 2 0 002-2V27.76a2 2 0 00-2-2z"/><path d="M20.24 4H6a2 2 0 00-2 2v14.24a2 2 0 002 2h14.24a2 2 0 002-2V6a2 2 0 00-2-2zm-1 15.24H7V7h12.24zM42 4H27.76a2 2 0 00-2 2v14.24a2 2 0 002 2H42a2 2 0 002-2V6a2 2 0 00-2-2zm-1 15.24H28.76V7H41zM20.24 25.76H6a2 2 0 00-2 2V42a2 2 0 002 2h14.24a2 2 0 002-2V27.76a2 2 0 00-2-2zm-1 15.24H7V28.76h12.24zM42 25.76H27.76a2 2 0 00-2 2V42a2 2 0 002 2H42a2 2 0 002-2V27.76a2 2 0 00-2-2zM41 41H28.76V28.76H41z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M19.24 7v12.24H7V7h12.24m1-3H6a2 2 0 00-2 2v14.24a2 2 0 002 2h14.24a2 2 0 002-2V6a2 2 0 00-2-2zM41 7v12.24H28.76V7H41m1-3H27.76a2 2 0 00-2 2v14.24a2 2 0 002 2H42a2 2 0 002-2V6a2 2 0 00-2-2zM19.24 28.76V41H7V28.76h12.24m1-3H6a2 2 0 00-2 2V42a2 2 0 002 2h14.24a2 2 0 002-2V27.76a2 2 0 00-2-2zM41 28.76V41H28.76V28.76H41m1-3H27.76a2 2 0 00-2 2V42a2 2 0 002 2H42a2 2 0 002-2V27.76a2 2 0 00-2-2z"/><path d="M20.24 4H6a2 2 0 00-2 2v14.24a2 2 0 002 2h14.24a2 2 0 002-2V6a2 2 0 00-2-2zm-1 15.24H7V7h12.24zM42 4H27.76a2 2 0 00-2 2v14.24a2 2 0 002 2H42a2 2 0 002-2V6a2 2 0 00-2-2zm-1 15.24H28.76V7H41zM20.24 25.76H6a2 2 0 00-2 2V42a2 2 0 002 2h14.24a2 2 0 002-2V27.76a2 2 0 00-2-2zm-1 15.24H7V28.76h12.24zM42 25.76H27.76a2 2 0 00-2 2V42a2 2 0 002 2H42a2 2 0 002-2V27.76a2 2 0 00-2-2zM41 41H28.76V28.76H41z"/></svg>

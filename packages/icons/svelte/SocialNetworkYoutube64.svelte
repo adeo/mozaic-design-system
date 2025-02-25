@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Social_SocialNetwork_Youtube_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Social_SocialNetwork_Youtube_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M57.557 19.163a6.68 6.68 0 00-4.716-4.715c-4.162-1.115-20.84-1.115-20.84-1.115s-16.68 0-20.837 1.115a6.679 6.679 0 00-4.715 4.715c-1.115 4.158-1.115 12.838-1.115 12.838s0 8.68 1.115 12.837a6.679 6.679 0 004.715 4.715c4.158 1.115 20.837 1.115 20.837 1.115s16.678 0 20.836-1.115a6.68 6.68 0 004.715-4.715C58.667 40.68 58.667 32 58.667 32s0-8.68-1.115-12.838h.005zM26.667 40V24l13.855 8-13.856 8z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M57.557 19.163a6.68 6.68 0 00-4.716-4.715c-4.162-1.115-20.84-1.115-20.84-1.115s-16.68 0-20.837 1.115a6.679 6.679 0 00-4.715 4.715c-1.115 4.158-1.115 12.838-1.115 12.838s0 8.68 1.115 12.837a6.679 6.679 0 004.715 4.715c4.158 1.115 20.837 1.115 20.837 1.115s16.678 0 20.836-1.115a6.68 6.68 0 004.715-4.715C58.667 40.68 58.667 32 58.667 32s0-8.68-1.115-12.838h.005zM26.667 40V24l13.855 8-13.856 8z"/></svg>

@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Service_Delivery_Delivery_Pickup--Store_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Service_Delivery_Delivery_Pickup--Store_32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M23.16 21.5l-6.8 1.87a3.23 3.23 0 00-1.24-.72l-4-14.93L6.71 3.3a1 1 0 10-1.42 1.4l4 4.05 3.79 14a3.24 3.24 0 001.1 6.25 3.12 3.12 0 00.85-.12 3.24 3.24 0 002.31-3.71l6.35-1.75a1 1 0 10-.53-1.92zM14.5 27a1.17 1.17 0 01-.32 0 1.24 1.24 0 01-1.18-.92 1.26 1.26 0 011.18-1.58 1.26 1.26 0 01.32 2.5z"/><path d="M24.93 17.35l-1.41-5.21a2 2 0 00-1.92-1.48 2.32 2.32 0 00-.52.07l-5.18 1.43a2 2 0 00-1.39 2.45l1.41 5.22a2 2 0 001.92 1.47 1.86 1.86 0 00.52-.07l5.18-1.42a2 2 0 001.39-2.46zm-7.07 1.95l-1.42-5.22 5.15-1.41L23 17.88z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M23.16 21.5l-6.8 1.87a3.23 3.23 0 00-1.24-.72l-4-14.93L6.71 3.3a1 1 0 10-1.42 1.4l4 4.05 3.79 14a3.24 3.24 0 001.1 6.25 3.12 3.12 0 00.85-.12 3.24 3.24 0 002.31-3.71l6.35-1.75a1 1 0 10-.53-1.92zM14.5 27a1.17 1.17 0 01-.32 0 1.24 1.24 0 01-1.18-.92 1.26 1.26 0 011.18-1.58 1.26 1.26 0 01.32 2.5z"/><path d="M24.93 17.35l-1.41-5.21a2 2 0 00-1.92-1.48 2.32 2.32 0 00-.52.07l-5.18 1.43a2 2 0 00-1.39 2.45l1.41 5.22a2 2 0 001.92 1.47 1.86 1.86 0 00.52-.07l5.18-1.42a2 2 0 001.39-2.46zm-7.07 1.95l-1.42-5.22 5.15-1.41L23 17.88z"/></svg>

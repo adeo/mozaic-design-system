@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Various_PartnerWorker_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Various_PartnerWorker_32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M20.8 21.08A7 7 0 0023 16a6.82 6.82 0 00-.45-2.44A2.26 2.26 0 0024 11.5a1 1 0 00-.55-.89l-.45-.25a6.34 6.34 0 00-5-5.11V4.5a.5.5 0 00-.5-.5h-3a.5.5 0 00-.5.5v.75a6.34 6.34 0 00-5 5.11l-.49.25a1 1 0 00-.51.89 2.26 2.26 0 001.45 2.06A6.82 6.82 0 009 16a7 7 0 002.2 5.08A5 5 0 007 26v1a2 2 0 002 2h14a2 2 0 002-2v-1a5 5 0 00-4.2-4.92zM11 11a4.09 4.09 0 013-3.66V9.5a.5.5 0 001 0V7.08a6.29 6.29 0 012 0V9.5a.5.5 0 001 0V7.34A4.09 4.09 0 0121 11a1 1 0 00.49.86c-.67.28-2.16.64-5.49.64s-4.82-.36-5.48-.64A1 1 0 0011 11zm0 5a5.06 5.06 0 01.36-1.83 25.74 25.74 0 004.64.33 25.74 25.74 0 004.64-.33A5.06 5.06 0 0121 16a5 5 0 01-10 0zm12 11H9v-1a3 3 0 013-3h8a3 3 0 013 3z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M20.8 21.08A7 7 0 0023 16a6.82 6.82 0 00-.45-2.44A2.26 2.26 0 0024 11.5a1 1 0 00-.55-.89l-.45-.25a6.34 6.34 0 00-5-5.11V4.5a.5.5 0 00-.5-.5h-3a.5.5 0 00-.5.5v.75a6.34 6.34 0 00-5 5.11l-.49.25a1 1 0 00-.51.89 2.26 2.26 0 001.45 2.06A6.82 6.82 0 009 16a7 7 0 002.2 5.08A5 5 0 007 26v1a2 2 0 002 2h14a2 2 0 002-2v-1a5 5 0 00-4.2-4.92zM11 11a4.09 4.09 0 013-3.66V9.5a.5.5 0 001 0V7.08a6.29 6.29 0 012 0V9.5a.5.5 0 001 0V7.34A4.09 4.09 0 0121 11a1 1 0 00.49.86c-.67.28-2.16.64-5.49.64s-4.82-.36-5.48-.64A1 1 0 0011 11zm0 5a5.06 5.06 0 01.36-1.83 25.74 25.74 0 004.64.33 25.74 25.74 0 004.64-.33A5.06 5.06 0 0121 16a5 5 0 01-10 0zm12 11H9v-1a3 3 0 013-3h8a3 3 0 013 3z"/></svg>

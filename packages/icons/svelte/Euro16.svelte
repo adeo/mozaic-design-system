@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Payment_Euro_16px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "1rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Payment_Euro_16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M11.39 11.18A3.89 3.89 0 019 12a4 4 0 01-3.7-2.5h5.2a.5.5 0 000-1H5.05A4.23 4.23 0 015 8a4.23 4.23 0 010-.5h5.5a.5.5 0 000-1H5.3A4 4 0 019 4a3.89 3.89 0 012.39.82 1 1 0 001.22-1.59A5.94 5.94 0 009 2a6 6 0 00-5.8 4.5h-.7a.5.5 0 000 1H3a4.18 4.18 0 000 1h-.5a.5.5 0 000 1h.7A6 6 0 009 14a5.94 5.94 0 003.61-1.23 1 1 0 00-1.22-1.59z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M11.39 11.18A3.89 3.89 0 019 12a4 4 0 01-3.7-2.5h5.2a.5.5 0 000-1H5.05A4.23 4.23 0 015 8a4.23 4.23 0 010-.5h5.5a.5.5 0 000-1H5.3A4 4 0 019 4a3.89 3.89 0 012.39.82 1 1 0 001.22-1.59A5.94 5.94 0 009 2a6 6 0 00-5.8 4.5h-.7a.5.5 0 000 1H3a4.18 4.18 0 000 1h-.5a.5.5 0 000 1h.7A6 6 0 009 14a5.94 5.94 0 003.61-1.23 1 1 0 00-1.22-1.59z"/></svg>

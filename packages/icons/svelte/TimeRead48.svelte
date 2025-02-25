@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Media_TimeRead_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Media_TimeRead_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M24 14.5a1.5 1.5 0 00-1.5 1.5v7.38l-3.56 3.56a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l4-4A1.5 1.5 0 0025.5 24v-8a1.5 1.5 0 00-1.5-1.5z"/><path d="M24 4a20 20 0 1020 20A20 20 0 0024 4zm1 37v-2a1 1 0 00-2 0v2A17 17 0 017.05 25H9a1 1 0 000-2H7.05A17 17 0 0123 7.05V9a1 1 0 002 0V7.05A17 17 0 0141 23h-2a1 1 0 000 2h2a17 17 0 01-16 16z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M24 14.5a1.5 1.5 0 00-1.5 1.5v7.38l-3.56 3.56a1.49 1.49 0 000 2.12 1.5 1.5 0 002.12 0l4-4A1.5 1.5 0 0025.5 24v-8a1.5 1.5 0 00-1.5-1.5z"/><path d="M24 4a20 20 0 1020 20A20 20 0 0024 4zm1 37v-2a1 1 0 00-2 0v2A17 17 0 017.05 25H9a1 1 0 000-2H7.05A17 17 0 0123 7.05V9a1 1 0 002 0V7.05A17 17 0 0141 23h-2a1 1 0 000 2h2a17 17 0 01-16 16z"/></svg>

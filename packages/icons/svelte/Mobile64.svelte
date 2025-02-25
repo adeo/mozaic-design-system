@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Device_Mobile_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Device_Mobile_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M44 9H20a2 2 0 00-2 2v42a2 2 0 002 2h24a2 2 0 002-2V11a2 2 0 00-2-2zm-1 3v31H21V12zM21 52v-7h22v7z"/><path d="M34 47.25h-4a1.5 1.5 0 000 3h4a1.5 1.5 0 000-3z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M44 9H20a2 2 0 00-2 2v42a2 2 0 002 2h24a2 2 0 002-2V11a2 2 0 00-2-2zm-1 3v31H21V12zM21 52v-7h22v7z"/><path d="M34 47.25h-4a1.5 1.5 0 000 3h4a1.5 1.5 0 000-3z"/></svg>

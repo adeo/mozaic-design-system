@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Payment_Cards_Monochrome_Cheque_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Payment_Cards_Monochrome_Cheque_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M57 13H7a2 2 0 00-2 2v34a2 2 0 002 2h50a2 2 0 002-2V15a2 2 0 00-2-2zm-1 35H8V16h48z"/><path d="M14 27a1 1 0 000 2h13.09l-.8.79a1 1 0 000 1.42 1 1 0 001.42 0l2.2-2.21H50a1 1 0 000-2H31.91l3-3H50a1 1 0 000-2H36.91l.8-.79a1 1 0 00-1.42-1.42L34.09 22H14a1 1 0 000 2h18.09l-3 3zM14 45h14a1 1 0 001-1v-7a1 1 0 00-1-1H14a1 1 0 00-1 1v7a1 1 0 001 1zm1-7h12v5H15zM49 43c-2.66-5.6-3.32-5.6-3.9-5.6s-1.12 0-3.18 4.11C39.63 36 38.41 36 37.92 36s-2 0-4.86 7.65a1 1 0 00.59 1.29A1.07 1.07 0 0034 45a1 1 0 00.94-.65 28.35 28.35 0 013-6.18 28.26 28.26 0 013 6.18 1 1 0 00.9.65 1 1 0 00.94-.58 49.57 49.57 0 012.37-4.52c.61 1 1.59 2.87 2.36 4.52a1 1 0 00.9.58H51a1 1 0 000-2z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M57 13H7a2 2 0 00-2 2v34a2 2 0 002 2h50a2 2 0 002-2V15a2 2 0 00-2-2zm-1 35H8V16h48z"/><path d="M14 27a1 1 0 000 2h13.09l-.8.79a1 1 0 000 1.42 1 1 0 001.42 0l2.2-2.21H50a1 1 0 000-2H31.91l3-3H50a1 1 0 000-2H36.91l.8-.79a1 1 0 00-1.42-1.42L34.09 22H14a1 1 0 000 2h18.09l-3 3zM14 45h14a1 1 0 001-1v-7a1 1 0 00-1-1H14a1 1 0 00-1 1v7a1 1 0 001 1zm1-7h12v5H15zM49 43c-2.66-5.6-3.32-5.6-3.9-5.6s-1.12 0-3.18 4.11C39.63 36 38.41 36 37.92 36s-2 0-4.86 7.65a1 1 0 00.59 1.29A1.07 1.07 0 0034 45a1 1 0 00.94-.65 28.35 28.35 0 013-6.18 28.26 28.26 0 013 6.18 1 1 0 00.9.65 1 1 0 00.94-.58 49.57 49.57 0 012.37-4.52c.61 1 1.59 2.87 2.36 4.52a1 1 0 00.9.58H51a1 1 0 000-2z"/></svg>

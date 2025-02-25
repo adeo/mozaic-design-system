@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Navigation_Notification_Warning_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Navigation_Notification_Warning_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M32 5a27 27 0 1027 27A27 27 0 0032 5zm0 51a24 24 0 1124-24 24 24 0 01-24 24z"/><path d="M32 37.5a1.5 1.5 0 001.5-1.5V20.5a1.5 1.5 0 00-3 0V36a1.5 1.5 0 001.5 1.5zM33.85 42.73a2.27 2.27 0 00-.19-.34 1.81 1.81 0 00-.25-.3 2 2 0 00-1.8-.55 1.82 1.82 0 00-.38.11 2.27 2.27 0 00-.34.19 2.16 2.16 0 00-.55.55 2.27 2.27 0 00-.19.34 1.82 1.82 0 00-.11.38 1.72 1.72 0 000 .39 2 2 0 00.15.77 2.13 2.13 0 001.08 1.08 2 2 0 00.77.15 1.72 1.72 0 00.39 0 1.66 1.66 0 00.38-.11 1.93 1.93 0 00.34-.19 1.42 1.42 0 00.3-.25A2 2 0 0034 43.5a1.72 1.72 0 000-.39 1.82 1.82 0 00-.15-.38z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M32 5a27 27 0 1027 27A27 27 0 0032 5zm0 51a24 24 0 1124-24 24 24 0 01-24 24z"/><path d="M32 37.5a1.5 1.5 0 001.5-1.5V20.5a1.5 1.5 0 00-3 0V36a1.5 1.5 0 001.5 1.5zM33.85 42.73a2.27 2.27 0 00-.19-.34 1.81 1.81 0 00-.25-.3 2 2 0 00-1.8-.55 1.82 1.82 0 00-.38.11 2.27 2.27 0 00-.34.19 2.16 2.16 0 00-.55.55 2.27 2.27 0 00-.19.34 1.82 1.82 0 00-.11.38 1.72 1.72 0 000 .39 2 2 0 00.15.77 2.13 2.13 0 001.08 1.08 2 2 0 00.77.15 1.72 1.72 0 00.39 0 1.66 1.66 0 00.38-.11 1.93 1.93 0 00.34-.19 1.42 1.42 0 00.3-.25A2 2 0 0034 43.5a1.72 1.72 0 000-.39 1.82 1.82 0 00-.15-.38z"/></svg>

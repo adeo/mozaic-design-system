@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Universe_Kitchen_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "2rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Universe_Kitchen_32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M17 5a6 6 0 016 6 1 1 0 002 0 8 8 0 00-16 0v8a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2h3a2 2 0 002-2v-2a2 2 0 00-2-2l1.94-3.32a1 1 0 10-1.72-1L13.67 21H13a2 2 0 00-2-2v-8a6 6 0 016-6zm-1 18v2h-5v2H9v-6h2v2z"/><path d="M24.38 14.67l-.38-.43-.38.43c-.08.1-2.12 2.45-2.12 4.33a2.5 2.5 0 005 0c0-1.88-2.04-4.23-2.12-4.33zM24 20.5a1.5 1.5 0 01-1.5-1.5 6.65 6.65 0 011.5-3.2 6.56 6.56 0 011.5 3.2 1.5 1.5 0 01-1.5 1.5z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M17 5a6 6 0 016 6 1 1 0 002 0 8 8 0 00-16 0v8a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2h3a2 2 0 002-2v-2a2 2 0 00-2-2l1.94-3.32a1 1 0 10-1.72-1L13.67 21H13a2 2 0 00-2-2v-8a6 6 0 016-6zm-1 18v2h-5v2H9v-6h2v2z"/><path d="M24.38 14.67l-.38-.43-.38.43c-.08.1-2.12 2.45-2.12 4.33a2.5 2.5 0 005 0c0-1.88-2.04-4.23-2.12-4.33zM24 20.5a1.5 1.5 0 01-1.5-1.5 6.65 6.65 0 011.5-3.2 6.56 6.56 0 011.5 3.2 1.5 1.5 0 01-1.5 1.5z"/></svg>

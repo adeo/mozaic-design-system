@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Product_Aspect_Quantity_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Product_Aspect_Quantity_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M58.51 32a2 2 0 00-1-1.72l-6-3.52 6-3.54a2 2 0 001-1.72 2 2 0 00-1-1.72L32.93 5.35a2 2 0 00-2 0L6.47 19.78a2 2 0 00-1 1.72 2 2 0 001 1.72l6 3.52-6 3.54a2 2 0 00-1 1.72 2 2 0 001 1.72l6 3.52-6 3.54a2 2 0 00-1 1.72 2 2 0 001 1.72l24.6 14.43a2 2 0 001 .27 2 2 0 001-.28l24.46-14.42a2 2 0 001-1.72 2 2 0 00-1-1.72l-6-3.52 6-3.54a2 2 0 00.98-1.72zM31.92 8.24L54.54 21.5 32.08 34.76 9.46 21.5zM54.54 42.5L32.08 55.76 9.46 42.5l6-3.53 15.64 9.18a2 2 0 001 .27 2 2 0 001-.28L48.58 39zm-22.46 2.76L9.46 32l6-3.53 15.64 9.18a2 2 0 001 .27 2 2 0 001-.28l15.48-9.13 6 3.49z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M58.51 32a2 2 0 00-1-1.72l-6-3.52 6-3.54a2 2 0 001-1.72 2 2 0 00-1-1.72L32.93 5.35a2 2 0 00-2 0L6.47 19.78a2 2 0 00-1 1.72 2 2 0 001 1.72l6 3.52-6 3.54a2 2 0 00-1 1.72 2 2 0 001 1.72l6 3.52-6 3.54a2 2 0 00-1 1.72 2 2 0 001 1.72l24.6 14.43a2 2 0 001 .27 2 2 0 001-.28l24.46-14.42a2 2 0 001-1.72 2 2 0 00-1-1.72l-6-3.52 6-3.54a2 2 0 00.98-1.72zM31.92 8.24L54.54 21.5 32.08 34.76 9.46 21.5zM54.54 42.5L32.08 55.76 9.46 42.5l6-3.53 15.64 9.18a2 2 0 001 .27 2 2 0 001-.28L48.58 39zm-22.46 2.76L9.46 32l6-3.53 15.64 9.18a2 2 0 001 .27 2 2 0 001-.28l15.48-9.13 6 3.49z"/></svg>

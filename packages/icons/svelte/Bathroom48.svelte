@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Universe_Bathroom_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "3rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Universe_Bathroom_48px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M41.5 28V6a2 2 0 00-2-2h-9a2 2 0 00-2 2v4a4.5 4.5 0 00-2.82 3 1 1 0 001 1.26h6.7a1 1 0 001-1.26 4.5 4.5 0 00-2.82-3V7h7v21H6a2 2 0 00-2 2v1.5a9.51 9.51 0 006.75 9.09l-1.51 1.76a1 1 0 001.52 1.3L13.05 41H35l2.29 2.67a1 1 0 001.52-1.3l-1.51-1.76A9.51 9.51 0 0044 31.5V30a2 2 0 00-2-2zM7 31h34v.5a6.69 6.69 0 01-.18 1.5H7.18A6.69 6.69 0 017 31.5zm27.5 7h-21A6.5 6.5 0 018 35h32a6.5 6.5 0 01-5.5 3z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M41.5 28V6a2 2 0 00-2-2h-9a2 2 0 00-2 2v4a4.5 4.5 0 00-2.82 3 1 1 0 001 1.26h6.7a1 1 0 001-1.26 4.5 4.5 0 00-2.82-3V7h7v21H6a2 2 0 00-2 2v1.5a9.51 9.51 0 006.75 9.09l-1.51 1.76a1 1 0 001.52 1.3L13.05 41H35l2.29 2.67a1 1 0 001.52-1.3l-1.51-1.76A9.51 9.51 0 0044 31.5V30a2 2 0 00-2-2zM7 31h34v.5a6.69 6.69 0 01-.18 1.5H7.18A6.69 6.69 0 017 31.5zm27.5 7h-21A6.5 6.5 0 018 35h32a6.5 6.5 0 01-5.5 3z"/></svg>

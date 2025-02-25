@@ -1,10 +1,10 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Navigation_Display_SearchList_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
   export let size = "4rem";
 </script>
 
-<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} id="Navigation_Display_SearchList_64px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path fill-rule="evenodd" d="M8 9.167a1.5 1.5 0 100 3h37.333a1.5 1.5 0 100-3H8zM37.333 25.5c-6.535 0-11.833 5.298-11.833 11.833 0 6.536 5.298 11.834 11.833 11.834 6.536 0 11.834-5.298 11.834-11.834 0-6.535-5.298-11.833-11.834-11.833zM22.5 37.333c0-8.192 6.641-14.833 14.833-14.833 8.193 0 14.834 6.641 14.834 14.833 0 3.556-1.252 6.82-3.338 9.375l8.232 8.231a1.5 1.5 0 01-2.122 2.122l-8.231-8.232a14.772 14.772 0 01-9.375 3.338c-8.192 0-14.833-6.641-14.833-14.834zM6.5 24A1.5 1.5 0 018 22.5h12a1.5 1.5 0 010 3H8A1.5 1.5 0 016.5 24zM8 35.833a1.5 1.5 0 000 3h6.667a1.5 1.5 0 000-3H8z"/></svg>
+<svg aria-hidden="true" width={size} height={size} id={id}  style={style} class={className} fill={fill} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path fill-rule="evenodd" d="M8 9.167a1.5 1.5 0 100 3h37.333a1.5 1.5 0 100-3H8zM37.333 25.5c-6.535 0-11.833 5.298-11.833 11.833 0 6.536 5.298 11.834 11.833 11.834 6.536 0 11.834-5.298 11.834-11.834 0-6.535-5.298-11.833-11.834-11.833zM22.5 37.333c0-8.192 6.641-14.833 14.833-14.833 8.193 0 14.834 6.641 14.834 14.833 0 3.556-1.252 6.82-3.338 9.375l8.232 8.231a1.5 1.5 0 01-2.122 2.122l-8.231-8.232a14.772 14.772 0 01-9.375 3.338c-8.192 0-14.833-6.641-14.833-14.834zM6.5 24A1.5 1.5 0 018 22.5h12a1.5 1.5 0 010 3H8A1.5 1.5 0 016.5 24zM8 35.833a1.5 1.5 0 000 3h6.667a1.5 1.5 0 000-3H8z"/></svg>
