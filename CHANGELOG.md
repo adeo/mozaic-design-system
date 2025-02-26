@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.84.0](https://github.com/adeo/mozaic-design-system/compare/v1.83.0...v1.84.0) (2025-02-26)
+
+### Features
+
+- **icons:** remove double id from svelte icons ([#1634](https://github.com/adeo/mozaic-design-system/issues/1634)) ([4864600](https://github.com/adeo/mozaic-design-system/commit/4864600a13ae3280eb348d7b7b7b72533e5b466c))
+- **packages/postcss-prepend:** remove 'postcss-prepend' from monorepo ([#1630](https://github.com/adeo/mozaic-design-system/issues/1630)) ([3754e57](https://github.com/adeo/mozaic-design-system/commit/3754e5716d2d683c71900ee1ab2371380709a4e7))
+
 # [1.83.0](https://github.com/adeo/mozaic-design-system/compare/v1.82.0...v1.83.0) (2025-02-21)
 
 ### Bug Fixes
