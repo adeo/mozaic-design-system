@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Various_EcoSaving_24px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

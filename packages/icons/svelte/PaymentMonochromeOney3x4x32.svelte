@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Logotypes_Payment_Monochrome_Oney--3x4x_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

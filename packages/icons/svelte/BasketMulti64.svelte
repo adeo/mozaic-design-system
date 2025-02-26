@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Product_Basket_Multi_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

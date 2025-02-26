@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Store_Monochrome_RelayLocation_64px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

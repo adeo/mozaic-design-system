@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Navigation_Publish_FavoriteFull_16px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

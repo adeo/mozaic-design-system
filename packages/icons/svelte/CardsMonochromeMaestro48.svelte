@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Payment_Cards_Monochrome_Maestro_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

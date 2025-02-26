@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Payment_Euro_32px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Product_Promise_FashionChoice_24px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

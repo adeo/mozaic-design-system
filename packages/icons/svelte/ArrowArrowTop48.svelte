@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Navigation_Arrow_Arrow--Top_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

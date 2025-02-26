@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Universe_Kids_24px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;

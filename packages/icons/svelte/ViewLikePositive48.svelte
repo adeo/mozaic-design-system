@@ -1,6 +1,6 @@
 <svelte:options tag={null} />
   <script>
-  export let id = undefined;
+  export let id = "Social_View_Like--Positive_48px";
   export let style = undefined;
   export let className = undefined;
   export let fill = undefined;
