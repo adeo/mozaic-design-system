@@ -4,6 +4,11 @@
 
   @include set-flexy();
 
+  &__col {
+    box-sizing: border-box;
+    flex: 1 1 0;
+  }
+
   &--gutter {
     @include set-flexy-gutter($size-gutter-screen-s);
 
@@ -63,11 +68,6 @@
 
   &--items-end {
     align-items: flex-end;
-  }
-
-  // by default a gl-flexy__col is
-  &__col {
-    flex: 1 1 0;
   }
 
   &--gutter {
