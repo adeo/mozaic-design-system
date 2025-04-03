@@ -1,10 +1,15 @@
 @use "sass:math";
 
 .mc-layer {
+  $dialog-top: 0 !default;
+  $dialog-left: 0 !default;
+  $dialog-right: 0 !default;
+  $dialog-bottom: 0 !default;
+
   $parent: get-parent-selector(&);
 
   @include set-font-face();
-  @include set-dialog-base();
+  @include set-dialog-base($top: $dialog-top, $left: $dialog-left, $right: $dialog-right, $bottom: $dialog-bottom);
 
   display: flex;
   overflow: hidden;

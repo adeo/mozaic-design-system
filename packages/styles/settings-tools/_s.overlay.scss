@@ -24,4 +24,8 @@ $z-index-page-overlay: 1999999998;
     transition: opacity 0.4s ease, visibility 0ms;
     visibility: visible;
   }
+
+  &.is-not-visible {
+    pointer-events: all;
+  }
 }
