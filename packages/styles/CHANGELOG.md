@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.85.0](https://github.com/adeo/mozaic-design-system/compare/v1.84.0...v1.85.0) (2025-04-08)
+
+### Features
+
+- **layouts/flexy:** add box-sizing property ([#1636](https://github.com/adeo/mozaic-design-system/issues/1636)) ([19ff282](https://github.com/adeo/mozaic-design-system/commit/19ff282fd23481e0803d72da3549518dd0b03e43)), closes [#1635](https://github.com/adeo/mozaic-design-system/issues/1635)
+- **modal:** add positions variables ([#1638](https://github.com/adeo/mozaic-design-system/issues/1638)) ([7bb66d2](https://github.com/adeo/mozaic-design-system/commit/7bb66d29589cbc7af5803ebdae8d837be4b86040))
+
 # [1.83.0](https://github.com/adeo/mozaic-design-system/compare/v1.82.0...v1.83.0) (2025-02-21)
 
 ### Bug Fixes
