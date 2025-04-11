@@ -1,0 +1,86 @@
+---
+title: 'Status Badge'
+order: 1
+description: 'A badge indicates the status of an element and can change at any time.'
+status:
+  figma: 'ready'
+  scss: 'ready'
+---
+
+A status badge indicates the status of an element and can change at any time.
+
+<Story id="status-status-badge--styles" />
+
+# Variants
+
+The status badge component is available in 5 states.
+
+Each status badge state corresponds to a defined status of the component in question.
+
+## Information
+
+- Draft
+- New
+
+## Success
+
+- Actif
+- Validated
+- Online
+
+## Warning
+
+- Pending review
+- Required action
+- Incomplete task
+- Non-critical error
+
+## danger
+
+- Deprecated
+- Denied
+- Offline
+- Rejected 
+
+## Neutral
+
+- Archived
+- Disabled
+
+# Behaviours
+
+A status badge is a non-clickable element!
+
+States should be easy to read and defined by a generic word, as shown in the examples in the Variants section.
+
+If you need to give more information, don't hesitate to accompany status badges with a tooltip or trigger a modal window with components such as a button, link, icon, etc.
+
+# Restrictions
+
+- You must use concise text in a status badge! 
+- You must use only one status badge per element!
+
+# Layout
+
+**On element**\
+The status badge must always be at the top left of the element in question (tile, page, etc.)
+
+**On page**\
+If the status badge indicates the status of a complete page (example: order), it must be placed in the header of this page.
+
+**On datatable**\
+You are limited to one status badge per line within a datatable.
+
+# Content
+
+The text must be written as follows **Sentence case**.
+
+The Status Badge can be used to indicate :
+- **Availability or presence**\
+Online, offline, busy ...
+- **Task progress or status**\
+In progress, completed, failed...
+- **Process results**\
+Success, error, warning...
+- **Priority or severity categories**\
+Low, Medium, High...

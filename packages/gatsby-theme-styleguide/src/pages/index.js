@@ -1,9 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import Header from '../components/Header'
-import AreaDiscover from '../components/AreaDiscover'
-import AreaContact from '../components/AreaContact'
-import AreaValues from '../components/AreaValues'
 import Footer from '../components/Footer'
 import './index.scss'
 
@@ -11,9 +8,6 @@ const IndexPage = ({ location }) => {
   return (
     <Layout location={location}>
       <Header />
-      <AreaDiscover />
-      <AreaContact />
-      <AreaValues />
       <Footer />
     </Layout>
   )
@@ -22,10 +16,10 @@ const IndexPage = ({ location }) => {
 export const Head = (props) => {
   return (
     <>
-      <title>Mozaic Design System – the Adeo's Design System</title>
+      <title>ADEO Design system</title>
       <meta
         name="description"
-        content="Mozaic is Adeo's Design System, created to enhance the team's delivery time, improve quality of deliverables and thus help set up a coherent customer experience."
+        content="A global and collaborative design system that facilitates the designer and developer experience, enabling them to create universal interfaces perfectly aligned with the business strategy of Adeo."
       />
     </>
   )
