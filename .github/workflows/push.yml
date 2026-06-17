@@ -12,10 +12,12 @@ jobs:
   DeployDemo:
     name: Deploy a Demo
     runs-on: ubuntu-latest
+
     permissions:
       id-token: write
       contents: read
       deployments: write
+
     env:
       HUSKY: 0
 
@@ -23,48 +25,67 @@ jobs:
       - name: Extract branch name
         id: getbranch
         shell: bash
-        run: echo "::set-output name=branch::$(echo ${GITHUB_REF#refs/heads/} | sed -r 's/[^a-zA-Z0-9]+//g' | tr A-Z a-z)"
-      - run: echo ${{ github.ref }} | iconv -t ASCII
-      - uses: actions/checkout@v3
-      - name: Setup node
-        uses: actions/setup-node@v3
+        run: |
+          BRANCH=$(echo "${GITHUB_REF#refs/heads/}" | sed -r 's/[^a-zA-Z0-9]+//g' | tr '[:upper:]' '[:lower:]')
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: npm install yarn -g
-      - run: yarn install
-      - run: yarn lerna
-      - name: Build a production website
+          node-version: 22
+          cache: yarn
+
+      - name: Install Yarn
+        run: npm install -g yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Bootstrap Lerna
+        run: yarn lerna
+
+      - name: Build production website
         run: yarn build
         env:
           GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: ./ci/docker-wait
+
+      - name: Wait for Docker services
+        uses: ./ci/docker-wait
         env:
           GCLOUD_AUTH: ${{ secrets.GCLOUD_AUTH }}
         with:
           args: ci:wait ${{ steps.getbranch.outputs.branch }}
-      - name: deployment
+
+      - name: Start deployment status
         uses: bobheadxi/deployments@v1
         id: deployment
         with:
           step: start
           token: ${{ secrets.GITHUB_TOKEN }}
           env: staging
-          ref: ${{ github.head_ref }}
-      - id: 'auth'
-        name: 'Authenticate to Google Cloud'
-        uses: 'google-github-actions/auth@v1'
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Authenticate to Google Cloud
+        id: auth
+        uses: google-github-actions/auth@v2
         with:
           workload_identity_provider: ${{ secrets.GCP_WI_PROVIDER }}
           service_account: ${{ secrets.GCP_SERVICE_ACCOUNT_EMAIL }}
-      - id: 'deploy'
-        name: 'Deploy on App Engine'
-        uses: 'google-github-actions/deploy-appengine@v1'
+
+      - name: Deploy to App Engine
+        id: deploy
+        uses: google-github-actions/deploy-appengine@v2
         with:
           project_id: mozaic-design-system-dtrp
           deliverables: app.demo.yaml
           version: ${{ steps.getbranch.outputs.branch }}
           promote: false
-      - name: Update deployment status
+
+      - name: Finish deployment status
+        if: always()
         uses: bobheadxi/deployments@v1
         with:
           step: finish

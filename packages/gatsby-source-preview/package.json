@@ -15,6 +15,6 @@
     "xstate": "^4.38.3"
   },
   "peerDependencies": {
-    "gatsby": "^5.13.6"
+    "gatsby": "^5.16.1"
   }
 }
