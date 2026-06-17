@@ -63,8 +63,3 @@ Please follow the [installation guide](https://mozaic.adeo.cloud/contributing/de
     </td>
   </tr>
 </table>
-
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
