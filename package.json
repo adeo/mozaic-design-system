@@ -23,7 +23,7 @@
     "adm-zip": "^0.5.14",
     "chromedriver": "^126.0.1",
     "core-js": "^3.37.1",
-    "gatsby": "^5.13.6",
+    "gatsby": "^5.16.1",
     "gatsby-plugin-canonical-urls": "^5.13.1",
     "gatsby-plugin-sitemap": "^6.13.1",
     "glob": "^8.0.3",
@@ -48,8 +48,7 @@
     "mock-fs": "^5.2.0",
     "plop": "^4.0.1",
     "prettier": "^3.3.2",
-    "svg-parser": "^2.0.4",
-    "yarn-audit-fix": "^10.0.7"
+    "svg-parser": "^2.0.4"
   },
   "scripts": {
     "tokens:build": "mozaic-tokens-build",
