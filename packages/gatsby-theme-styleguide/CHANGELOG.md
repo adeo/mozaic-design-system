@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.85.1](https://github.com/adeo/mozaic-design-system/compare/v1.85.0...v1.85.1) (2026-06-18)
+
+### Bug Fixes
+
+- **security:** update dependencies ([#1647](https://github.com/adeo/mozaic-design-system/issues/1647)) ([60c3bdc](https://github.com/adeo/mozaic-design-system/commit/60c3bdc13d753f00d24dfe4da56e9f334e300df5))
+
 # [1.78.0](https://github.com/adeo/mozaic-design-system/compare/v1.77.0...v1.78.0) (2024-10-22)
 
 **Note:** Version bump only for package @mozaic-ds/gatsby-theme-styleguide

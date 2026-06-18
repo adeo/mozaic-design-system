@@ -1,6 +1,6 @@
 {
   "name": "@mozaic-ds/gatsby-github-release",
-  "version": "1.75.0",
+  "version": "1.85.1",
   "description": "",
   "main": "index.js",
   "scripts": {
