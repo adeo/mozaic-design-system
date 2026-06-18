@@ -53,19 +53,19 @@
   "scripts": {
     "tokens:build": "mozaic-tokens-build",
     "tokens:clean": "test -d 'packages/tokens/build/' && npx style-dictionary clean --config ./packages/tokens/config.js || echo 'nothing to clean'",
-    "tokens:clean-build": "yarn tokens:clean && yarn tokens:build",
+    "tokens:clean-build": "npm run tokens:clean && npm run tokens:build",
     "assets:upload": "node ci/assets.js",
     "ci:wait": "node ci/deploy.js",
     "clean-cache": "npx gatsby clean",
     "css:fix": "npx stylelint packages/styles/**/*.scss --fix",
     "css:lint": "npx stylelint packages/styles/**/*.scss",
     "icons:build": "node iconCompiler/index.js",
-    "prebuild": "yarn clean-cache && yarn tokens:build",
-    "lerna": "npx lerna clean -y && yarn install",
+    "prebuild": "npm run clean-cache && npm run tokens:build",
+    "lerna": "npx lerna clean -y && npm run install",
     "build": "npx gatsby build",
     "develop": "npx gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "predevelop": "yarn tokens:clean-build",
+    "predevelop": "npm run tokens:clean-build",
     "release": "npx lerna version --conventional-commits --conventional-graduate --changelog-preset angular --message 'chore(release): publish %s' --create-release=github",
     "releaseBeta": "npx lerna version --conventional-commits --conventional-prerelease --changelog-preset angular --message 'chore(release): publish %s' --create-release=github --preid beta",
     "npm:publish": "npx lerna exec --bail=false npm publish",
@@ -79,7 +79,11 @@
     "tmp": "0.2.7",
     "tough-cookie": "^4.1.3",
     "lodash": "^4.18.1",
-    "postcss": "^8.5.15"
-  },
-  "packageManager": "yarn@1.22.19"
+    "postcss": "^8.5.15",
+    "axios": "^1.18.0",
+    "immutable": "^5.1.6",
+    "form-data": "^4.0.6",
+    "serialize-javascript": "^7.0.6",
+    "path-to-regexp": "^0.1.13"
+  }
 }
