@@ -12,7 +12,6 @@ module.exports = {
     '<rootDir>/.cache/',
     'jest.config.js',
     './*.config.js',
-    'setup-test-env.js',
   ],
   collectCoverage: true,
   coverageThreshold: {
