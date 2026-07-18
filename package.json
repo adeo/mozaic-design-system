@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@mozaic-ds/gatsby-theme-styleguide": "^1.70.1",
-    "adm-zip": "^0.5.14",
+    "adm-zip": "^0.6.0",
     "chromedriver": "^126.0.1",
     "core-js": "^3.37.1",
     "gatsby": "^5.16.1",
